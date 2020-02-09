@@ -1,0 +1,388 @@
+---
+title: A/B testing
+seo-title: A/B testing
+description: A/B testing
+seo-description: null
+page-status-flag: never-activated
+uuid: 8887574e-447b-48a5-afc6-95783ffa7fb3
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: use-cases
+discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+
+---
+
+
+# A/B testing{#a-b-testing}
+
+Vous disposez de plusieurs contenus pour une diffusion par email et vous souhaitez vérifier quelle version aura le plus d&#39;impact sur la population visée. Vous allez donc envoyer les différentes versions à une partie de vos destinataires, choisir celle qui aura eu le plus de succès et l&#39;envoyer au reste de vos destinataires.
+
+Dans ce cas pratique, vous allez comparer deux contenus de diffusion par email via un workflow de ciblage. Le message et le texte sont identiques dans les deux diffusions. Seules les présentations diffèrent.
+
+La population ciblée est divisée en trois : deux groupes test et la population restante. Une version différente de la diffusion est envoyée à chaque groupe test. Après l&#39;envoi, un délai d&#39;attente de cinq jours est observé afin de récolter les résultats des meilleurs taux d&#39;ouverture. Puis le contenu de la diffusion qui a obtenu le meilleur taux est récupéré par un script et envoyé à la population qui n&#39;a pas servi de groupe test.
+
+Il est à noter que le critère qui doit déterminer la diffusion à retenir peut varier selon vos besoins. Il peut s&#39;agir du taux d&#39;ouverture, du taux de clics, du taux d&#39;inscription, de la réactivité etc.
+
+D&#39;autre part, le test décrit dans ce cas pratique se limite à deux diffusions, mais vous pouvez tester autant de versions que nécessaire. Il suffit d&#39;ajouter des activités supplémentaires dans votre workflow.
+
+Pour créer votre test A/B, vous allez suivre les étapes suivantes :
+
+* [Etape 1 : créer un workflow de ciblage](#step-1--creating-a-targeting-workflow)
+* [Etape 2 : paramétrer les échantillons de population](#step-2--configuring-population-samples)
+* [Etape 3 : créer deux modèles de diffusions](#step-3--creating-two-delivery-templates)
+* [Etape 4 : paramétrer les diffusions dans le workflow](#step-4--configuring-the-deliveries-in-the-workflow)
+* [Etape 5 : créer le script](#step-5--creating-the-script)
+* [Etape 7 : lancer le workflow](#step-7--starting-the-workflow)
+* [Etape 8 : analyser le résultat](#step-8--analyzing-the-result).
+
+## Etape 1 : créer un workflow de ciblage {#step-1--creating-a-targeting-workflow}
+
+Vous devez créer votre processus dans l’ **[!UICONTROL Targeting and Workflows]** onglet d’une campagne. Il se compose d’une **[!UICONTROL Query]** activité, d’une **[!UICONTROL Split]** activité liée à deux **[!UICONTROL Email delivery]** activités, d’une **[!UICONTROL Wait]** activité, d’une **[!UICONTROL JavaScript code]** activité et d’une **[!UICONTROL Delivery]** activité.
+
+1. Créez une opération si elle n&#39;existe pas déjà, (voir à ce sujet cette [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
+
+   ![](assets/use_case_abtesting_targetwkfl_001.png)
+
+1. Go to the **[!UICONTROL Targeting and Workflows]** tab.
+
+   ![](assets/use_case_abtesting_targetwkfl_002.png)
+
+1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+
+   ![](assets/use_case_abtesting_targetwkfl_003.png)
+
+1. Utilisez la souris pour faire glisser des activités dans le diagramme de flux de travail, notamment une **[!UICONTROL Query]** (**[!UICONTROL Target]** onglet), une **[!UICONTROL Split]** (**[!UICONTROL Target]** onglet), deux **[!UICONTROL Email deliveries]** (**[!UICONTROL Deliveries]** onglet), une **[!UICONTROL Wait]** activité (onglet ), une activité  (onglet ) et une activité (onglet de).**[!UICONTROL Flow Control]****[!UICONTROL JavaScript code]****[!UICONTROL Actions]****[!UICONTROL Delivery]****[!UICONTROL Actions]**
+
+![](assets/use_case_abtesting_targetwkfl_004.png)
+
+## Etape 2 : paramétrer les échantillons de population {#step-2--configuring-population-samples}
+
+### Paramétrage de l&#39;activité Requête {#configuring-the-query-activity}
+
+* Double-click the **[!UICONTROL Query]** activity.
+
+   ![](assets/use_case_abtesting_createrecipients_001.png)
+
+* Click the **[!UICONTROL Edit query]** link and select the recipients you want to target.
+
+   ![](assets/use_case_abtesting_createrecipients_002.png)
+
+* Liez l’ **[!UICONTROL Query]** activité à l’ **[!UICONTROL Split]** activité.
+
+   ![](assets/use_case_abtesting_createrecipients_003.png)
+
+### Paramétrage de l&#39;activité Partage {#configuring-the-split-activity}
+
+Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D&#39;autre part, l&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chacune des diffusions.
+
+1. Création de la population A :
+
+   * Double-click the **[!UICONTROL Split]** activity.
+
+      ![](assets/use_case_abtesting_createrecipients_004.png)
+
+   * Dans l&#39;onglet existant, modifiez le libellé pour désigner la population A.
+
+      ![](assets/use_case_abtesting_createrecipients_005.png)
+
+   * Select the **[!UICONTROL Limit the selected records]** option.
+
+      ![](assets/use_case_abtesting_createrecipients_006.png)
+
+   * Cliquez sur le **[!UICONTROL Edit]** lien, sélectionnez **[!UICONTROL Activate random sampling]**, puis cliquez sur **[!UICONTROL Next]**.
+
+      ![](assets/use_case_abtesting_createrecipients_007.png)
+
+   * Set the threshold to 10%, then click **[!UICONTROL Finish]**.
+
+      ![](assets/use_case_abtesting_createrecipients_008.png)
+
+1. Création de la population B :
+
+   * Click **[!UICONTROL Add]** to create a new tab for population B.
+
+      ![](assets/use_case_abtesting_createrecipients_009.png)
+
+   * Limitez la population à 10% comme fait précédemment.
+
+      ![](assets/use_case_abtesting_createrecipients_010.png)
+
+1. Création de la population restante :
+
+   * Go to the **[!UICONTROL General]** tab.
+
+      ![](assets/use_case_abtesting_createrecipients_011.png)
+
+   * Sélectionner **[!UICONTROL Generate complement]**.
+
+      ![](assets/use_case_abtesting_createrecipients_012.png)
+
+   * Modifiez le libellé pour désigner la population qui ne comprend ni la population A, ni la B et cliquez sur **[!UICONTROL OK]** pour fermer l&#39;activité.
+
+      ![](assets/use_case_abtesting_createrecipients_013.png)
+
+## Etape 3 : créer deux modèles de diffusions {#step-3--creating-two-delivery-templates}
+
+Nous voulons maintenant créer deux modèles de remise. Chaque modèle est référencé dans une **[!UICONTROL Email delivery]** activité liée à l’ **[!UICONTROL Split]** activité. Voir à ce propos cette [section](../../delivery/using/about-templates.md).
+
+1. Accédez au **[!UICONTROL Resources > Delivery template]** dossier.
+1. Duplicate the **[!UICONTROL Email]** delivery template.
+
+   ![](assets/use_case_abtesting_deliverymodel_001.png)
+
+1. Créez le contenu destiné à votre diffusion A.
+
+   ![](assets/use_case_abtesting_deliverymodel_002.png)
+
+1. Répétez les mêmes étapes pour créer un modèle destiné à la diffusion B.
+
+   ![](assets/use_case_abtesting_deliverymodel_003.png)
+
+## Etape 4 : paramétrer les diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
+
+L’étape suivante consiste à configurer les remises. Ils sont destinés aux trois populations créées au cours de l&#39;étape précédente : [Étape 2 : Configuration des échantillons](#step-2--configuring-population-samples)de population. Les deux premières livraisons vous permettent d&#39;envoyer des contenus différents à la population A et B. La troisième livraison est destinée à la population qui n&#39;a reçu ni A ni B. Son contenu sera calculé par un script et sera identique à A ou B, selon lequel l’un des résultats a obtenu le taux d’ouverture le plus élevé. Nous devons configurer une période d&#39;attente pour la troisième livraison, pour connaître le résultat des livraisons A et B. C’est pourquoi la troisième diffusion comprend une **[!UICONTROL Wait]** activité.
+
+1. Go to the **[!UICONTROL Split]** activity and link the transition destined for population A to one of the email deliveries already in the workflow.
+
+   ![](assets/use_case_abtesting_createdeliveries_001.png)
+
+1. Double-cliquez sur la diffusion pour l&#39;ouvrir.
+1. A l&#39;aide de la liste déroulante, sélectionnez le modèle de la diffusion A.
+
+   ![](assets/use_case_abtesting_createdeliveries_003.png)
+
+1. Click **[!UICONTROL Continue]** to view the delivery, then save it.
+
+   ![](assets/use_case_abtesting_createdeliveries_002.png)
+
+1. Link the transition of the **[!UICONTROL Split]** activity destined for population B to the second email delivery.
+
+   ![](assets/use_case_abtesting_createdeliveries_004.png)
+
+1. Ouvrez la diffusion et sélectionnez le modèle de la diffusion B et enregistrez la diffusion.
+
+   ![](assets/use_case_abtesting_createdeliveries_005.png)
+
+1. Link the transition destined for the remaining population to the **[!UICONTROL Wait]** activity.
+
+   ![](assets/use_case_abtesting_createdeliveries_006.png)
+
+1. Open the **[!UICONTROL Wait]** activity and configure a 5-day waiting period.
+
+   ![](assets/use_case_abtesting_createdeliveries_007.png)
+
+1. Liez l’ **[!UICONTROL Wait]** activité à l’ **[!UICONTROL JavaScript code]** activité.
+
+   ![](assets/use_case_abtesting_createdeliveries_008.png)
+
+## Etape 5 : créer le script {#step-5--creating-the-script}
+
+Le choix du contenu de la diffusion destinée à la population restante est calculé par un script. Ce script récupère l&#39;information quant à la diffusion qui a obtenu le plus fort taux d&#39;ouverture et copie le contenu dans la diffusion finale.
+
+### Exemple de script {#example-of-a-script}
+
+Le script suivant peut être utilisé tel quel dans le flux de travaux de ciblage. For more on this, refer to [Implementation](#implementation).
+
+```
+ // query the database to find the winner (best open rate)
+   var winner = xtk.queryDef.create(
+     <queryDef schema="nms:delivery" operation="get">
+       <select>
+         <node expr="@id"/>
+         <node expr="@label"/>
+         <node expr="[@operation-id]"/>
+         <node expr="[@workflow-id]"/>
+       </select>
+       <where>
+         <condition expr={"@FCP=0 and [@workflow-id]= " + instance.id}/>
+       </where>
+       <orderBy>
+         <node expr="[indicators/@estimatedRecipientOpenRatio]" sortDesc="true"/>
+       </orderBy>
+     </queryDef>).ExecuteQuery()
+   
+   // create a new delivery object and initialize it by doing a copy of
+   // the winner delivery
+   var delivery = nms.delivery.create()
+   delivery.Duplicate("nms:delivery|" + winner.@id)
+
+   // append 'final' to the delivery label
+   delivery.label = winner.@label + " final"
+
+   // link the delivery to the operation to make sure it will be displayed in
+   // the campaign dashboard. This attribute needs to be set manually here since 
+   // the Duplicate() method has reset it to its default value => 0
+   delivery.operation_id = winner.@["operation-id"]
+   delivery.workflow_id = winner.@["workflow-id"]
+
+   // adjust some delivery parameters to make it compatible with the 
+   // "Prepare and start" option selected in the Delivery tab of this activity
+   delivery.scheduling.validationMode = "manual"
+   delivery.scheduling.delayed = 0
+ 
+   // save the delivery in database
+   delivery.save()
+ 
+   // store the new delivery Id in event variables
+   vars.deliveryId = delivery.id
+```
+
+Pour une explication détaillée du script, reportez-vous aux [détails du script](#details-of-the-script).
+
+### Mise en oeuvre {#implementation}
+
+1. Ouvrez votre **[!UICONTROL JavaScript code]** activité.
+1. Copiez le script proposé dans [Exemple d’un script](#example-of-a-script) dans la **[!UICONTROL JavaScript code]** fenêtre.
+
+   ![](assets/use_case_abtesting_configscript_002.png)
+
+1. In the **[!UICONTROL Label]** field, enter the name of the script, i.e.
+
+   ```
+   <%= vars.deliveryId %>
+   ```
+
+   ![](assets/use_case_abtesting_configscript_003.png)
+
+1. Fermez l’ **[!UICONTROL JavaScript code]** activité.
+1. Sauvegardez votre workflow.
+
+### Détails du script {#details-of-the-script}
+
+Cette section détaille les différentes parties du script et leur fonctionnement.
+
+* La première partie du script est une requête. The **queryDef** command lets you recover from the **NmsDelivery** table the deliveries created by executing the targeting workflow and to sort them based on their estimated rate of opens, then the information from the delivery with the highest rate of opens is recovered.
+
+   ```
+   // query the database to find the winner (best open rate)
+      var winner = xtk.queryDef.create(
+        <queryDef schema="nms:delivery" operation="get">
+          <select>
+            <node expr="@id"/>
+            <node expr="@label"/>
+            <node expr="[@operation-id]"/>
+          </select>
+          <where>
+            <condition expr={"@FCP=0 and [@workflow-id]= " + instance.id}/>
+          </where>
+          <orderBy>
+            <node expr="[indicators/@estimatedRecipientOpenRatio]" sortDesc="true"/>
+          </orderBy>
+        </queryDef>).ExecuteQuery()
+   ```
+
+* La diffusion qui a eu le meilleur taux d&#39;ouverture est dupliquée.
+
+   ```
+    // create a new delivery object and initialize it by doing a copy of
+    // the winner delivery
+   var delivery = nms.delivery.create()
+   delivery.Duplicate("nms:delivery|" + winner.@id)
+   ```
+
+* Le libellé de la diffusion dupliquée est modifié en y ajoutant le terme **final**.
+
+   ```
+   // append 'final' to the delivery label
+   delivery.label = winner.@label + " final"
+   ```
+
+* La diffusion est copiée dans le tableau de bord de l&#39;opération.
+
+   ```
+   // link the delivery to the operation to make sure it will be displayed in
+   // the campaign dashboard. This attribute needs to be set manually here since 
+   // the Duplicate() method has reset it to its default value => 0
+   delivery.operation_id = winner.@["operation-id"]
+   delivery.workflow_id = winner.@["workflow-id"]
+   ```
+
+   ```
+   // adjust some delivery parameters to make it compatible with the 
+   // "Prepare and start" option selected in the Delivery tab of this activity
+   delivery.scheduling.validationMode = "manual"
+   delivery.scheduling.delayed = 0
+   ```
+
+* La diffusion est enregistrée dans la base.
+
+   ```
+   // save the delivery in database
+   delivery.save()
+   ```
+
+* L&#39;identifiant unique de la diffusion dupliquée est stockée dans la variable du workflow.
+
+   ```
+   // store the new delivery Id in event variables
+   vars.deliveryId = delivery.id
+   ```
+
+### Autres critères de sélection {#other-selection-criteria}
+
+L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une diffusion en fonction du taux d&#39;ouverture des emails. Vous pouvez l&#39;adapter pour vous baser sur d&#39;autres indicateurs propres aux diffusions :
+
+* Best click throughput: `[indicators/@recipientClickRatio]`,
+* Highest reactivity rate (email open and clicks in the message): `[indicators/@reactivity]`,
+* Lowest complaint rate: `[indicators/@refusedRatio]` (use the false value for the sortDesc attribute),
+* Highest conversion rate: `[indicators/@transactionRatio]`,
+* Number of pages visited following the reception of a message: `[indicators/@totalWebPage]`,
+* Lowest unsubscription rate: `[indicators/@optOutRatio]`,
+* Transaction amount: `[indicators/@amount]`.
+
+## Etape 6 : définir la diffusion finale {#step-6--defining-the-final-delivery}
+
+Une fois que le script pour sélectionner le gagnant du test A/B a été créé, vous pouvez définir les paramètres de la diffusion finale.
+
+1. Connectez l’ **[!UICONTROL JavaScript code]** activité à l’ **[!UICONTROL Delivery]** activité restante.
+1. Open the **[!UICONTROL Delivery]** activity.
+1. Désélectionnez l’ **[!UICONTROL Generate an outbound transition]** option pour terminer le processus avec cette activité.
+1. Conservez les valeurs par défaut des autres options.
+
+   ![](assets/ab_test_final_delivery.png)
+
+By preparing the delivery specified in the transition (defined via the **[!UICONTROL Javascript Code]** activity), you will be then able to approve it and to start the sending, as described in the next step.
+
+## Etape 7 : lancer le workflow {#step-7--starting-the-workflow}
+
+1. Cliquez sur **[!UICONTROL Start]** le processus.
+
+   ![](assets/use_case_abtesting_startwkfl_001.png)
+
+1. Effectuez la validation de la cible et du contenu des diffusions A et B depuis le tableau de bord de l&#39;opération.
+1. Confirmez l&#39;envoi des diffusions.
+1. Laissez passer le délai d&#39;attente de 5 jours pour savoir quel contenu a été calculé d&#39;après les résultats d&#39;ouverture des diffusions.
+
+   ![](assets/use_case_abtesting_startwkfl_002.png)
+
+   Dans notre exemple, c&#39;est le modèle A qui a été retenu.
+
+1. Lorsque le contenu de la troisième diffusion est déterminé, procédez à la validation de la cible et du contenu.
+
+## Etape 8 : analyser le résultat {#step-8--analyzing-the-result}
+
+Lorsque les diffusions test ont été envoyées, vous avez la possibilité de vérifier à quel(s) destinataire(s) elles ont été envoyées et si elles ont été ouvertes.
+
+* To find out which recipients have been targeted, open a delivery via the campaign dashboard and click the **[!UICONTROL Delivery]** tab.
+
+   ![](assets/use_case_abtesting_analysis_001.png)
+
+* Pour savoir si la diffusion a été ouverte, positionnez-vous dans l&#39;onglet **[!UICONTROL Tracking]**.
+
+   ![](assets/use_case_abtesting_analysis_002.png)
+
+* Comparez avec l&#39;autre diffusion.
+
+   ![](assets/use_case_abtesting_analysis_003.png)
+
+Dans notre exemple, c&#39;est la diffusion A qui obtient le meilleur taux d&#39;ouverture par rapport à la diffusion B. C&#39;est donc le contenu A qui sera utilisé pour la diffusion finale.
+
+![](assets/use_case_abtesting_analysis_004.png)
+
