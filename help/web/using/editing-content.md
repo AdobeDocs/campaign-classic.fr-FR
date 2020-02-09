@@ -1,0 +1,276 @@
+---
+title: Editer le contenu
+seo-title: Editer le contenu
+description: Editer le contenu
+seo-description: null
+page-status-flag: never-activated
+uuid: 2f51e848-1820-4bec-a0ea-63c9ddff05e0
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: web
+content-type: reference
+topic-tags: editing-html-content
+discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+
+---
+
+
+# Editer le contenu{#editing-content}
+
+## Définir une condition de visibilité {#defining-a-visibility-condition}
+
+Vous pouvez spécifier une condition de visibilité sur un élément de la page web : cet élément ne sera visible que si la condition de visibilité est respectée.
+
+To add a visibility condition, select a block and enter the condition in the **[!UICONTROL Visibility condition]** field using the expression editor.
+
+![](assets/dce_add_condition.png)
+
+>[!NOTE]
+>
+>L&#39;édition d&#39;expression avancée est présentée dans [cette page](../../platform/using/defining-filter-conditions.md#list-of-functions).
+
+![](assets/dce_popup_visibilitycondition.png)
+
+Ces conditions adoptent la syntaxe de l’expression XTK (par exemple **ctx.Recipient.@email != &quot;&quot;** ou **ctx.Recipient.@status==&quot;0&quot;**). Par défaut, tous les champs sont visibles.
+
+>[!NOTE]
+>
+>Les blocs dynamiques non visibles, tels que les menus déroulants, ne peuvent être édités.
+
+## Ajouter une bordure et une trame {#adding-a-border-and-background}
+
+Vous pouvez ajouter une **bordure** au bloc sélectionné. Les bordures se définissent au travers de trois options : style, taille et couleur.
+
+![](assets/dce_popup_border.png)
+
+Vous pouvez aussi définir une **couleur de fond** en sélectionnant une couleur dans le nuancier.
+
+![](assets/dce_popup_background.png)
+
+## Editer les formulaires {#editing-forms}
+
+### Modifier les propriétés des données d&#39;un formulaire {#changing-the-data-properties-for-a-form}
+
+Vous pouvez associer des champs de la base à des blocs de type zone de saisie, bouton radio ou case à cocher.
+
+![](assets/dce_sidebar_field.png)
+
+>[!NOTE]
+>
+>Les champs par défaut sont ceux du schéma de stockage de l&#39;application Web.
+
+La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
+
+Par défaut, les champs proposés sont ceux de la table **nms:recipient**.
+
+![](assets/dce_field_selection.png)
+
+L&#39;option **Champ obligatoire** permet de n&#39;autoriser la validation de la page que si l&#39;utilisateur a renseigné le champ. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur sera affiché.
+
+Pour les boutons radio et cases à cocher, une **configuration supplémentaire est requise**.
+
+En effet, si le modèle utilisé ne contient pas de valeur par défaut, vous devez les compléter dans l&#39;éditeur.
+
+Pour cela :
+
+* Cliquez sur l’ **[!UICONTROL Edit]** icône .
+
+   ![](assets/dce_sidebar_options.png)
+
+* Enter the itemized list value (defined by the selected field) into the **[!UICONTROL Value]** field.
+
+   ![](assets/dce_sidebar_completeoptionradio.png)
+
+### Modifier les champs de formulaires {#modifying-form-fields}
+
+Les champs de formulaires de type boutons radio, zones de saisie, listes déroulantes, etc., peuvent être modifiés à partir de leur barre d&#39;outils.
+
+Vous pouvez ainsi :
+
+* Delete the block containing the form fields using the **[!UICONTROL Delete]** icon.
+* Duplicate the selected field by creating a new block using the **[!UICONTROL Duplicate]** icon.
+* Edit the **[!UICONTROL Form data]** window to link a database field to the form zone, using the **[!UICONTROL Edit]** icon.
+
+   ![](assets/dce_toolbar_formblock_edition.png)
+
+## Ajouter une action sur un bouton {#adding-an-action-to-a-button}
+
+Lorsque l&#39;utilisateur clique sur un bouton, vous pouvez définir une action associée. Pour cela, sélectionnez l&#39;action à réaliser dans la liste déroulante.
+
+![](assets/dce_sidebar_button.png)
+
+Les actions disponibles sont les suivantes :
+
+* **[!UICONTROL Refresh]** : actualise la page active.
+* **[!UICONTROL Next page]** : crée un lien vers la page suivante de l&#39;application Web.
+* **[!UICONTROL Previous page]** : crée un lien vers la page précédente de l&#39;application Web.
+
+>[!NOTE]
+>
+>The **[!UICONTROL None]** value allows you to not activate the button.
+
+Vous pouvez modifier le libellé associé au bouton dans le champ correspondant.
+
+## Ajouter un lien {#adding-a-link}
+
+Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe de mots, bloc de texte, etc.
+
+Pour cela, sélectionnez l&#39;élément puis utilisez la première icône de la barre d&#39;outils contextuelle.
+
+![](assets/dce_insertlink_icon.png)
+
+Cette icône permet d&#39;accéder à tous les types de liens disponibles.
+
+![](assets/dce_insertlink_menu.png)
+
+Les blocs de personnalisation et champs de personnalisation ne peuvent être insérés que dans des blocs de type Texte.
+
+>[!NOTE]
+>
+>Pour chaque type de lien, vous pouvez configurer le mode d’ouverture : sélectionnez la fenêtre cible dans la liste déroulante **Target** . Cette valeur correspond à la balise **`<target>`** HTML.
+>
+>La liste des **cibles** disponibles est la suivante :
+
+>* Autre (IFrame)
+>* Fenêtre la plus en avant (_top)
+* Fenêtre parente (_parent)
+* Nouvelle fenêtre (_blank)
+* Fenêtre courante (_self)
+* Comportement par défaut du navigateur
+
+
+
+### Lien vers une URL {#link-to-a-url}
+
+L&#39;option **Lien vers une URL externe** permet d&#39;ouvrir n&#39;importe quelle URL à partir du contenu source.
+
+![](assets/dce_toolbar_imgblock_externallink.png)
+
+Saisissez l&#39;adresse du lien visé dans le champ **URL**. Le champ URL est à renseigner de cette manière : **https://www.monURL.com**.
+
+### Lien vers une application Web {#link-to-a-web-application}
+
+L&#39;option **Lien vers une application Web** permet d&#39;accéder à une application Web Adobe Campaign.
+
+![](assets/dce_toolbar_imgblock_appweb.png)
+
+Sélectionnez l&#39;application Web à partir du champ correspondant.
+
+The list of suggested Web applications corresponds to the available applications in the **[!UICONTROL Resources > Online > Web Applications]** node.
+
+### Lien vers une action {#link-to-an-action}
+
+L&#39;option **Lien définissant une action** permet de paramétrer une action lors du clic sur l&#39;élément-source.
+
+![](assets/dce_toolbar_imgblock_action.png)
+
+>[!NOTE]
+Les actions disponibles sont détaillées dans la section [Ajout d’une action à un bouton](#adding-an-action-to-a-button) .
+
+### Supprimer un lien {#delete-a-link}
+
+Lorsqu&#39;un lien a été inséré, la barre d&#39;outils propose deux nouvelles icônes : **Editer le lien** et **Rompre le lien** qui permettent d&#39;interagir avec le lien créé.
+
+* **[!UICONTROL Edit link]** vous permet d’afficher une fenêtre contenant tous les paramètres du lien.
+* **[!UICONTROL Break the link]** permet de supprimer, après confirmation, le lien et tous les paramètres associés.
+
+>[!NOTE]
+Dans le cas d&#39;une suppression de lien, le contenu est conservé.
+
+## Modifier les attributs de la police {#changing-font-attributes}
+
+Lorsque vous sélectionnez un élément de texte, vous pouvez modifier les attributs de la police de caractères (style, format).
+
+![](assets/dce_toolbar_txt.png)
+
+Les options disponibles sont les suivantes :
+
+* **Icône d’agrandissement de police** : augmente la taille du texte sélectionné (ajouter `<span style="font size:">`)
+* **Icône Réduire la police** : réduit la taille du texte sélectionné (ajouter `<span style="font size:">`)
+* **Icône Gras** : met le texte sélectionné en gras (entoure le texte de la `<strong> </strong>` balise )
+* **Icône en italique** : affiche le texte sélectionné en italique (le texte est encapsulé avec la `<em> </em>` balise ).
+* **Icône de soulignement** : met le texte sélectionné en surbrillance (entoure le texte de la `<span style="text-decoration: underline;">` balise )
+* Icône **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style=&quot;text-align: left;&quot;)
+* Icône **Centrer** : centre le texte du bloc sélectionné (ajoute style=&quot;text-align: center;&quot;)
+* Icône **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style=&quot;text-align: right;&quot;)
+* Icône **Changer la couleur de fond** : permet de changer la couleur de fond du bloc sélectionné (ajoute style=&quot;background-color: rgba(170, 86, 255, 0.87))
+* Icône **Changer la couleur du texte** : permet de changer la couleur de tout le texte dans le bloc ou seulement celle du texte sélectionné (`<span style="color: #CODE">`)
+
+>[!NOTE]
+* Icône **Supprimer** : supprime le bloc et tout son contenu.
+
+* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
+
+
+## Gestion des images et animations {#managing-images-and-animations}
+
+Le Digital Content Editor permet de travailler avec **tous types d&#39;images** dont le format est compatible avec les navigateurs.
+
+Pour être compatible avec le DCE, les **animations de type &quot;Flash&quot;** doivent être insérées dans une page HTML de la manière suivante :
+
+```
+<object type="application/x-shockwave-flash" data="https://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
+ <param name="movie" value="https://www.mydomain.com/flash/your_animation.swf" />
+ <param name="quality" value="high" />
+ <param name="play" value="true"/>
+ <param name="loop" value="true"/> 
+</object>
+```
+
+>[!CAUTION]
+You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.
+
+### Ajouter / Supprimer / Dupliquer une image {#adding---deleting---duplicating-an-image}
+
+Pour insérer une image, sélectionnez un bloc de type Image et cliquez sur l&#39;icône **Image**.
+
+![](assets/dce_insert_image.png)
+
+Sélectionnez un fichier image enregistré en local.
+
+![](assets/dce_popup_imgupload.png)
+
+The **Delete** icon deletes the ![]() tag containing the image.
+
+The **Duplicate** icon duplicates the ![]() tag and its content.
+
+>[!CAUTION]
+Lors de la duplication d&#39;une image, les identifiants relatifs à la nouvelle image sont supprimés.
+
+### Modifier les propriétés d&#39;une image {#editing-image-properties}
+
+Lorsque vous sélectionnez un bloc contenant une image, vous accédez aux propriétés suivantes :
+
+* **Légende** permet de définir une légende associée à l&#39;image (correspond à l&#39;attribut HTML **alt**).
+* **Dimensions** permet de spécifier, en pixels, de la taille de l&#39;image.
+
+   ![](assets/dce_popup_imgsize.png)
+
+## Ajouter du contenu de personnalisation {#adding-personalization-content}
+
+### Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
+
+L&#39;option **Champ de personnalisation** de l&#39;icône d&#39;insertion permet d&#39;ajouter un champ de la base de données dans le contenu, par exemple le prénom du destinataire. Cette option n&#39;est disponible que pour les blocs de type Texte.
+
+![](assets/dce_toolbar_textblock_persofield.png)
+
+Par défaut, les champs proposés proviennent du **[!UICONTROL Recipient]** tableau. Si nécessaire, modifiez les propriétés de l&#39;application Web pour sélectionner un autre tableau.
+
+Le nom du champ apparaît dans l&#39;éditeur, surligné en jaune. Il sera remplacé, lors de la génération de la personnalisation (par exemple, lors de la prévisualisation d&#39;une landing page), par la valeur correspondant au profil du destinataire ciblé.
+
+Un exemple est présenté dans la section [Insertion d’un champ](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) de personnalisation.
+
+### Insérer un bloc de personnalisation {#inserting-a-personalization-block}
+
+L&#39;option **Bloc de personnalisation** permet d&#39;insérer des blocs dynamiques et personnalisés dans le contenu. Vous pouvez par exemple ajouter un logo ou un message de salutations. Elle n&#39;est disponible que pour les blocs de type Texte.
+
+![](assets/dce_toolbar_textblock_persoblock.png)
+
+Après l&#39;insertion, le nom du bloc de personnalisation apparaît dans l&#39;éditeur, surligné en jaune. Il sera automatiquement adapté au profil du destinataire lors de la génération de la personnalisation.
+
+For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
