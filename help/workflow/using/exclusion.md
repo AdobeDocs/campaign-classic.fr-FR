@@ -1,0 +1,68 @@
+---
+title: Exclusion
+seo-title: Exclusion
+description: Exclusion
+seo-description: null
+page-status-flag: never-activated
+uuid: e4f54a0b-2fec-4415-986b-83c8928ed174
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: targeting-activities
+discoiquuid: acab51f3-686b-4d2b-bb02-8fbfae36b1ba
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+
+---
+
+
+# Exclusion{#exclusion}
+
+Une activité de type **Exclusion** crée une cible à partir d&#39;une cible principale dont on extrait une ou plusieurs autres cibles.
+
+Pour paramétrer cette activité, vous devez saisir son libellé et sélectionner l&#39;ensemble principal : la population de l&#39;ensemble principal permet de construire le résultat. Les profils communs à l&#39;ensemble principal et à au moins une des activités en entrée seront exclus.
+
+![](assets/s_user_segmentation_exclu.png)
+
+>[!NOTE]
+>
+>Pour plus d’informations sur la configuration et l’utilisation de l’activité d’exclusion, voir [Exclusion d’une population (Exclusion)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
+
+Cochez cette **[!UICONTROL Generate complement]** option si vous souhaitez exploiter la population restante. Le complément contiendra la population entrante principale moins la population sortante. Une transition de sortie supplémentaire sera ensuite ajoutée à l’activité, comme suit :
+
+![](assets/s_user_segmentation_exclu_compl.png)
+
+## Exemples d&#39;exclusion {#exclusion-examples}
+
+L&#39;exemple suivant cherche à constituer une liste des destinataires dont l&#39;âge est compris entre 18 et 30 ans, mais en y excluant les habitants de Paris.
+
+1. Insérez et ouvrez une activité de type **[!UICONTROL Exclusion]** -type après deux requêtes. La première requête cible les destinataires résidant à Paris. La seconde requête cible les personnes âgées de 18 à 30 ans.
+1. Indiquez l&#39;ensemble principal. Ici, l&#39;ensemble principal est la requête **18-30 ans**. Les éléments appartenant au second ensemble seront exclus du résultat final.
+1. Cochez l’ **[!UICONTROL Generate complement]** option si vous souhaitez exploiter les données qui restent après l’exclusion. Dans ce cas, le complément est composé de bénéficiaires âgés de 18 à 30 ans qui vivent à Paris.
+1. Validez le paramétrage de l&#39;exclusion puis insérez une activité de mise à jour de liste au niveau du résultat. Insérez également une mise à jour de liste au niveau du complémentaire, le cas échéant.
+1. Exécutez le workflow. Dans cet exemple, le résultat comporte tous les destinataires âgés de 18 à 30 ans, mais ceux habitant à Paris sont exclus et sont envoyés vers le complémentaire.
+
+   ![](assets/exclusion_example.png)
+
+The blacklist importation example uses an **Exclusion**-type activity which can be found in [Read list](../../workflow/using/read-list.md).
+
+## Paramètres d&#39;entrée {#input-parameters}
+
+* tableName
+* schema
+
+Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
+
+## Paramètres de sortie {#output-parameters}
+
+* tableName
+* schema
+* recCount
+
+Cet ensemble de trois valeurs identifie la cible résultant de l’exclusion. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identificateurs cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:destinataire) et **[!UICONTROL recCount]** est le nombre d’éléments de la table.
+
+La transition associée au complémentaire possède les mêmes paramètres.
