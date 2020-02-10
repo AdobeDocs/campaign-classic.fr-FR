@@ -1,0 +1,187 @@
+---
+title: Tester la migration
+seo-title: Tester la migration
+description: Tester la migration
+seo-description: null
+page-status-flag: never-activated
+uuid: 3ee6a10b-dea2-41c6-9aef-ee3ac922b459
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: migration
+content-type: reference
+topic-tags: migration-procedure
+discoiquuid: 30e3082f-a367-4c3b-bff2-208ccf97acd4
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 4f8a13e3788b99ff4214e00dec1f88fdef0cb964
+
+---
+
+
+# Tester la migration{#testing-the-migration}
+
+## Procédure générale {#general-procedure}
+
+Les tests de migration peuvent être effectués de différentes manières, en fonction de votre configuration.
+
+Vous devez disposer d&#39;un environnement de test/développement afin de réaliser les tests de migration. Les environnements de développement sont soumis à licence : vérifiez votre contrat de licence ou contactez le service commercial.
+
+1. Arrêtez tous les développements en cours et reportez-les sur l&#39;environnement de production.
+1. Effectuez une sauvegarde de la base de données correspondant à l&#39;environnement de développement.
+1. Arrêtez tous les processus Adobe Campaign sur l&#39;instance de développement.
+1. Effectuez une sauvegarde de la base de données de l&#39;environnement de production et restaurez-la en tant qu&#39;environnement de développement.
+1. Avant de redémarrer les services Adobe Campaign, exécutez le script de cautérisation **freezeInstance.js** permettant de nettoyer la base de données de tous les objets qui étaient en cours d&#39;exécution au moment de la sauvegarde :
+
+   ```
+   nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
+   ```
+
+   >[!NOTE]
+   >
+   >Par défaut la commande se lance en mode **dry**, et liste l&#39;ensemble des requêtes qui seront exécutées par la commande, mais sans les lancer. Pour exécuter les requêtes de cautérisation, utilisez l&#39;argument **run** dans la commande.
+
+1. Assurez-vous que vos sauvegardes sont intègres en tentant de les restaurer. Vérifiez que vous avez bien accès à votre base de données, vos tables, vos données, etc.
+1. Testez la procédure de migration sur l&#39;environnement de développement.
+
+   Les procédures complètes sont détaillées dans la section [Conditions préalables à la migration vers Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) .
+
+1. Si la migration de l&#39;environnement de développement s&#39;est effectuée sans erreur, migrez l&#39;environnement de production.
+
+>[!CAUTION]
+>
+>En raison de modifications effectuées sur la structure des données, l&#39;import et l&#39;export de packages de données entre une plateforme v5 et une plateforme v7 ne sont pas possibles.
+
+>[!NOTE]
+>
+>La commande de mise à jour d&#39;Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif. Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
+
+## Outils d&#39;aide à la migration {#migration-tools}
+
+Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39;identifier les problèmes potentiels. Ces options sont à exécuter :
+
+* dans la commande **config** :
+
+   ```
+   nlserver.exe config <option> -instance:<instanceName>
+   ```
+
+* ou au niveau du postupgrade :
+
+   ```
+   nlserver.exe config -postupgrade <option> -instance:<instanceName>
+   ```
+
+>[!NOTE]
+>
+>**Vous devez utiliser l’`<instanceame>`**instance : . Il est déconseillé d’utiliser l’option**-allinstances **.
+
+### Options -showCustomEntities et -showDeletedEntities{#showcustomentities-and--showdeletedentities-options}
+
+* L&#39;option **-showCustomEntities** affiche la liste de tous les objets non-standards :
+
+   ```
+   nlserver.exe config -showCustomEntities -instance:<instanceName>
+   ```
+
+   Exemple de message renvoyé :
+
+   ```
+   xtk_migration:opsecurity2 xtk:entity
+   ```
+
+* L&#39;option **-showDeletedEntities** affiche la liste de tous les objets standards manquants dans la base de données ou le système de fichiers. Pour chaque objet manquant, le chemin est indiqué.
+
+   ```
+   nlserver.exe config -showDeletedEntities -instance:<instanceName>
+   ```
+
+   Exemple de message renvoyé :
+
+   ```
+   Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
+   ```
+
+### Processus de vérification {#verification-process}
+
+Intégré en standard dans la commande de postupgrade, ce processus permet d&#39;afficher les avertissements et erreurs qui pourraient faire échouer la migration. **Si des erreurs sont affichées, la migration n&#39;est pas exécutée.** Dans ce cas, corrigez toutes les erreurs, puis relancez le postupgrade.
+
+Il est possible de lancer la vérification seule (sans migration) à l&#39;aide de la commande :
+
+```
+nlserver.exe config -postupgrade -check -instance:<instanceName>
+```
+
+>[!NOTE]
+>
+>Veuillez ignorer tous les avertissements et erreurs qui comportent le code JST-310040.
+
+Les expressions suivantes sont recherchées (sensibilité à la casse) :
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Expression<br /> </th> 
+   <th> Code erreur<br /> </th> 
+   <th> Type de log<br /> </th> 
+   <th> Commentaires<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> .@<br /> </td> 
+   <td> PU-0001<br /> </td> 
+   <td> Avertissement<br /> </td> 
+   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. Reportez-vous à <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Sinon, vérifiez que le type de valeur est correct.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> common.js<br /> </td> 
+   <td> PU-0002<br /> </td> 
+   <td> Avertissement<br /> </td> 
+   <td> Cette librairie ne doit pas être utilisée.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> logon(<br /> </td> 
+   <td> PU-0003<br /> </td> 
+   <td> Avertissement<br /> </td> 
+   <td> Cette méthode de connexion ne doit plus être utilisée. Reportez-vous à la section Applications <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Web</a>identifiées.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> new SoapMethodCall(<br /> </td> 
+   <td> PU-0004<br /> </td> 
+   <td> Avertissement<br /> </td> 
+   <td> Cette fonction est supportée uniquement lorsqu'elle est utilisée dans du code Javascript exécuté depuis une zone de sécurité en mode <strong>sessionTokenOnly</strong>.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> sql=<br /> </td> 
+   <td> PU-0005<br /> </td> 
+   <td> Erreur<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de migration. Reportez-vous à <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> SQLDATA<br /> </td> 
+   <td> PU-0006<br /> </td> 
+   <td> Erreur<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de migration. Reportez-vous à <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type présentation (migration depuis v6.02), reportez-vous aux applications <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank"></a>Web.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Une vérification de la cohérence de la base de données et des schémas est également effectuée.
+
+### Option de restauration {#restoration-option}
+
+Cette option permet de restaurer les objets d&#39;usine dans le cas où ceux-ci auraient été modifiés. Pour chaque objet restauré, une sauvegarde de vos modifications est conservée dans le dossier choisi :
+
+```
+nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>
+```
+
+>[!NOTE]
+>
+>Nous vous recommandons fortement d&#39;utiliser des chemins de dossiers absolus et de conserver l&#39;arborescence de dossiers. Par exemple : backupFolder\nms\srcSchema\billing.xml
+
+### Reprise de migration {#resuming-migration}
+
+Si vous relancez le postupgrade à la suite d&#39;un échec de migration, celle-ci reprend là où elle s&#39;était arrêtée.
