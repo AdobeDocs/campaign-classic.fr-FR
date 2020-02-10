@@ -1,0 +1,90 @@
+---
+title: Performances de la base
+seo-title: Performances de la base
+description: Performances de la base
+seo-description: null
+page-status-flag: never-activated
+uuid: 47ff7532-1fe7-47c2-bc3b-0f46d3a4a288
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: production
+content-type: reference
+topic-tags: troubleshooting
+discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+
+---
+
+
+# Performances de la base{#database-performances}
+
+La plupart des problèmes de performance sont liés à l&#39;entretien de la base de données. Nous vous proposons quatre axes de recherche pour vous aider à en trouver les causes :
+
+* Configuration,
+* l&#39;installation et la configuration de la plateforme Adobe Campaign,
+* Maintenance de la base de données,
+* Diagnostic en temps réel.
+
+## Configuration {#configuration}
+
+Vous devez vérifier que la configuration initiale de la plateforme Adobe Campaign est toujours valable et revoir, le cas échéant, les besoins de votre client en termes de délivrabilité ou de taille de la base. Nous vous conseillons d&#39;effectuer également une vérification complète de la configuration matérielle (CPU, RAM, Système E/S).
+
+>[!NOTE]
+>
+>Pour obtenir plus d&#39;informations, consultez le [guide sur le dimensionnement matériel Adobe Campaign](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html).
+
+## Configuration de la plateforme {#platform-configuration}
+
+Une configuration inappropriée peut affecter les performances de la plateforme. Nous vous recommandons de vérifier la configuration du réseau, les options de délivrabilité de la plateforme ainsi que la configuration MTA dans le fichier **serverConf.xml** .
+
+## Maintenance de la base de données {#database-maintenance}
+
+**Tâche de nettoyage de la base**
+
+Vous devez vérifier que la tâche de nettoyage de la base fonctionne correctement. Pour cela, consultez les fichiers journaux afin d&#39;être sûr qu&#39;ils ne contiennent pas d&#39;erreurs. Voir à ce propos [cette section](../../production/using/database-cleanup-workflow.md).
+
+**Plans de maintenance**
+
+Vous devez vous assurer que la maintenance de la base de données est correctement planifiée et effectuée. Pour cela, renseignez-vous auprès de votre administrateur de base de données pour connaître :
+
+* son planning de maintenance,
+* les plans de maintenance déjà exécutés,
+* consulter les logs des scripts.
+
+Voir à ce propos [cette section](../../production/using/recommendations.md).
+
+>[!CAUTION]
+>
+>Si vous utilisez une configuration en mid-sourcing, il est important que les bases de données soient correctement maintenue. Lors de l&#39;analyse d&#39;une diffusion sur la plateforme marketing, l&#39;instance marketing envoie des informations vers l&#39;instance mid-sourcing. Si le processus ralentit, l&#39;activité de l&#39;instance marketing ralentira également afin que l&#39;instance de mid-sourcing puisse effectuer ses opérations correctement.
+
+**Gestion des tables de travail**
+
+Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;elles deviennent trop volumineuses, les performances de la base sont affectées. Ces tables sont créées notamment par les workflows et les diffusions. Elles ne disparaissent pas de la base tant que le traitement des workflows et des diffusions n&#39;est pas terminé ou qu&#39;ils n&#39;ont pas été interrompus ou supprimés. Pour limiter les tables de travail vous pouvez effectuer les opérations suivantes :
+
+* arrêter ou supprimer des livraisons avec les états suivants : **[!UICONTROL Failed]** , **[!UICONTROL In progress]** , **[!UICONTROL Ready for delivery]** ou **[!UICONTROL Paused]** .
+* arrêter ou supprimer les workflows qui sont en pause à cause d&#39;une erreur,
+* stop all workflows used for tests which do not contain an **[!UICONTROL End]** activity and whose status therefore remains **[!UICONTROL Paused]** .
+
+>[!CAUTION]
+>
+>Si cette opération prend beaucoup de temps et qu&#39;une fois effectuée, beaucoup d&#39;espace disque est libéré, il est indispensable d&#39;effectuer une maintenance en profondeur (reconstruction des index, etc.). Voir à ce sujet [cette section](../../production/using/recommendations.md).
+
+**Suivi des processus Adobe Campaign**
+
+Selon les paramètres d&#39;installation d&#39;Adobe Campaign, vous avez deux outils à votre disposition pour effectuer le suivi de votre plateforme :
+
+* la page de production de l’instance. For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring).
+* script netreport. Pour plus d’informations, reportez-vous à la section Surveillance [automatique via les scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)Adobe Campaign.
+
+## Cas particuliers {#specifics}
+
+Il peut être nécessaire d&#39;effectuer un diagnostic en temps-réel pour déterminer la cause du problème. Vous devez d&#39;abord vérifier les fichiers journaux des processus et de la plateforme. Puis, suivez l&#39;activité de la base lors de la reproduction du problème. Vous devez particulièrement porter votre attention sur les éléments suivants :
+
+* le plan d&#39;exécution de la maintenance,
+* les requêtes SQL en cours d&#39;exécution,
+* si des processus externes s&#39;exécutent en même temps (nettoyage, import, calcul d&#39;agrégats, etc.).
+
