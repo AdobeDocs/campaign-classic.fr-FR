@@ -1,0 +1,99 @@
+---
+title: Configuration de l'interface
+seo-title: Configuration de l'interface
+description: Configuration de l'interface
+seo-description: null
+page-status-flag: never-activated
+uuid: 101ba02f-da43-4dcc-b9ff-6e5ca848fc5d
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: configuration
+content-type: reference
+topic-tags: use-a-custom-recipient-table
+discoiquuid: 8fb9ff23-17a7-4425-9195-738d6fd914dc
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+
+---
+
+
+# Configuration de l&#39;interface{#configuring-the-interface}
+
+Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans l&#39;interface d&#39;Adobe Campaign, il faut suivre les étapes suivantes :
+
+* Créer un nouveau formulaire pour éditer le contenu de la nouvelle table des destinataires.
+* Renseigner un nouveau type de dossier dans l&#39;arborescence de l&#39;explorateur.
+* Créer une nouvelle application web pour accéder à la table personnalisée depuis la page d&#39;accueil d&#39;Adobe Campaign.
+
+Au préalable, Adobe Campaign utilise une variable globale &quot;Nms_DefaultRcpSchema&quot; pour dialoguer avec la base de destinataires installée par défaut (nms:recipient). Il convient donc de modifier cette variable.
+
+1. Accédez au **[!UICONTROL Administration>Platform>Options]** noeud de l&#39;explorateur.
+1. Modifiez la valeur de la variable **Nms_DefaultRcpSchema** avec le nom du schéma correspondant à la table externe des destinataires (dans notre exemple : cus:individual).
+1. Enregistrez les modifications.
+
+## Créer un nouveau formulaire {#creating-a-new-form-}
+
+La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éditer les données de la table externe des destinataires.
+
+>[!CAUTION]
+>
+>Le nom du formulaire doit être identique au nom du schéma auquel il se rapporte.
+
+1. Ouvrez le nœud **Administration > Paramétrage > Formulaires de saisie** dans l&#39;explorateur.
+1. Créez un nouveau fichier **form** de type **xtk:form**.
+1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
+
+   >[!NOTE]
+   >
+   >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **form**, reportez-vous à [cette page](../../configuration/using/identifying-a-form.md).
+
+   Dans le cas de l&#39;exemple actuel, le fichier **form** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
+
+   ```
+   <container colspan="2">
+       <input xpath="@id"/>
+       <static type="separator"/>
+   </container>
+   <container colcount="2">
+       <input xpath="@lastName"/>
+       <input xpath="@firstName"/>
+       <input xpath="@email"/>
+       <input xpath="@mobile"/>
+   </container> 
+   ```
+
+1. Enregistrez la création.
+
+## Créer un nouveau type de dossier dans l&#39;arborescence de navigation {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
+
+1. Accédez au **[!UICONTROL Administration>Configuration>Navigation hierarchies]** noeud.
+1. Créez un nouveau document **navtree** de type **xtk:navtree**
+1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
+
+   >[!NOTE]
+   >
+   >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **navtree**, reportez-vous à [cette page](../../configuration/using/about-navigation-hierarchy.md).
+
+   Dans le cas de l&#39;exemple actuel, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
+
+   ```
+    <model name="root">
+       <nodeModel img="nms:usergrp.png" label="My recipient table" name="cusindividual">
+         <view name="listdet" schema="cus:individual" type="listdet">
+           <columns>
+             <node xpath="@id"/>
+             <node xpath="@lastName"/>
+             <node xpath="@firstName"/>
+             <node xpath="@email"/>
+             <node xpath="@mobile"/>
+           </columns>
+         </view>
+       </nodeModel>
+   </model>
+   ```
+
+1. Enregistrez la création.
+
