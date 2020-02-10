@@ -1,0 +1,335 @@
+---
+title: Principes et cycle des données d'ACS Connector
+seo-title: Principes et cycle des données d'ACS Connector
+description: Principes et cycle des données d'ACS Connector
+seo-description: null
+page-status-flag: never-activated
+uuid: ea62ee69-042e-4c18-aaea-d65872d07dd9
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: integrations
+content-type: reference
+topic-tags: acs-connector
+discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+
+---
+
+
+# Principes et cycle des données d&#39;ACS Connector{#acs-connector-principles-and-data-cycle}
+
+## Introduction {#introduction}
+
+ACS Connector relie Adobe Campaign v7 à Adobe Campaign Standard. Il s&#39;agit d&#39;une fonctionnalité intégrée dans Campaign v7 qui réplique automatiquement les données vers Campaign Standard, rassemblant ainsi les meilleures fonctionnalités des deux applications. Campaign v7 contient des outils avancés pour gérer la base marketing principale. La réplication des données depuis Campaign v7 permet à Campaign Standard d&#39;exploiter les données complètes dans un environnement convivial.
+
+![](assets/acs_connect_puzzle_link_01.png)
+
+Grâce à ACS Connector, les spécialistes du marketing digital continuent à utiliser Campaign Standard pour concevoir, cibler et exécuter des campagnes, tandis que Campaign v7 s&#39;adresse aux utilisateurs orientés données tels que les spécialistes du marketing de base de données.
+
+>[!CAUTION]
+>
+>ACS Connector est disponible uniquement dans le cadre de l&#39;offre Adobe Campaign Prime. Pour plus d&#39;informations sur l&#39;obtention d&#39;une licence Adobe Campaign Prime, contactez votre gestionnaire de compte.
+>
+>ACS Connector est disponible uniquement pour les architectures hébergées et hybrides. Il n&#39;est pas disponible pour les installations on-premise complètes.
+>
+>Pour utiliser cette fonctionnalité, vous devez vous connecter à Campaign à l&#39;aide d&#39;un Adobe ID (IMS). Voir à ce propos la section [Connexion via un Adobe ID](../../integrations/using/about-adobe-id.md).
+
+Ce document présente la fonctionnalité ACS Connector. Les sections ci-dessous fournissent des informations sur la réplication des données par la fonctionnalité, ainsi que des instructions concernant l&#39;utilisation des profils répliqués.
+
+* [Processus](#process): Présentation d’ACS Connector et de la façon dont la réplication des données est gérée.
+* [Implémentation](#implementation): Présentation de la prise en main d&#39;ACS Connector et instructions sur la réplication des données de base et avancées.
+* [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md): Instructions sur la manière de reproduire les profils et de créer des livraisons avec eux.
+* [Synchronisation des audiences](../../integrations/using/synchronizing-audiences.md): Instructions sur la manière de cibler une liste de destinataires dans Campaign v7, puis de répliquer la liste dans Campaign Standard en tant qu’audience.
+* [Synchronisation des applications](../../integrations/using/synchronizing-web-applications.md)Web : Instructions relatives au lien entre les applications Web Campaign v7 et Campaign Standard.
+* [Dépannage du connecteur](../../integrations/using/troubleshooting-the-acs-connector.md)ACS : Examiner les réponses aux problèmes courants.
+
+>[!NOTE]
+>
+>ACS Connector est compris dans Campaign v7 dans le cadre d&#39;un contrat de licence. Pour utiliser cette fonctionnalité, vérifiez que vous pouvez basculer entre Campaign v7 et Campaign Standard. Si vous n&#39;êtes pas sûr de la version dont vous disposez et des fonctionnalités qu&#39;elle propose, contactez votre administrateur.
+
+## Processus {#process}
+
+### Réplication des données {#data-replication}
+
+![](assets/acs_connect_flows_01.png)
+
+ACS Connector réplique les éléments suivants de façon périodique de Campaign v7 vers Campaign Standard :
+
+* **Destinataires**
+* **Abonnements**
+* **Services**
+* **Landing pages**
+
+Par défaut, la réplication périodique d&#39;ACS Connector a lieu toutes les 15 minutes. Cette fréquence peut être ajustée pour répondre à vos besoins. Si des modifications sont nécessaires, contactez votre consultant.
+
+La réplication des données pour les destinataires, abonnements, services et pages d’entrée est incrémentielle, ce qui signifie que seuls les nouveaux destinataires et les modifications apportées aux destinataires existants sont répliqués de Campaign v7 vers Campaign Standard. Cependant, la réplication pour une audience se produit dans une seule instance. Vous pouvez créer une audience dans Campaign v7, puis la répliquer une fois dans Campaign Standard. La réplication est immédiate et ne peut pas être configurée pour des mises à jour régulières. Pour plus d’informations, voir [Synchronisation des audiences](../../integrations/using/synchronizing-audiences.md).
+
+>[!NOTE]
+>
+>Soyez patient lors de la réplication initiale d&#39;une base de données volumineuse, car le processus peut prendre plusieurs heures. Les réplications suivantes sont plus rapides car incrémentales.
+
+ACS Connector réplique les éléments suivants de façon périodique de Campaign Standard vers Campaign v7 :
+
+* **[!UICONTROL Delivery IDs]**
+* **[!UICONTROL Email broad logs]**
+* **[!UICONTROL Email tracking logs]**
+
+La réplication des logs des emails et des identifiants des diffusions permet d&#39;accéder à l&#39;historique des diffusions et aux données de tracking des destinataires v7 depuis Campaign v7.
+
+>[!CAUTION]
+>
+>Seuls les logs de tracking et les broadLogs des emails sont répliqués de Campaign Standard vers Campaign v7.
+
+### Synchronisation des données {#data-synchronization}
+
+![](assets/acs_connect_flows_02.png)
+
+ACS Connector synchronise les quarantaines entre Campaign v7 et Campaign Standard.
+
+Imaginons par exemple qu&#39;un profil qui a été répliqué depuis Campaign v7 vers Campaign Standard comprend une adresse email. Si l&#39;adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d&#39;informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+
+### Utilisation de profils répliqués {#using-replicated-profiles}
+
+Les profils répliqués peuvent être utilisés par Campaign Standard et Campaign v7 pour les workflows de ciblage des campagnes marketing.
+
+Pour savoir comment envoyer une diffusion dans Campaign Standard à l’aide de profils répliqués, voir [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md). Des instructions supplémentaires sont fournies pour le partage des données de désabonnement entre Campaign v7 et Campaign Standard.
+
+### Limitations {#limitations}
+
+Les profils répliqués sont prêts à l&#39;emploi pour les diffusions, mais présentent certaines limites dans Campaign Standard. Passez en revue les points suivants pour apprendre à gérer ces limites au mieux.
+
+* **Profils en lecture seule dans Campaign Standard** : les profils répliqués sont en lecture seule dans Campaign Standard. Vous pouvez toutefois éditer les destinataires dans Campaign v7 ; les modifications sont mises à jour automatiquement dans Campaign Standard par ACS Connector.
+* **Profils créés dans Campaign Standard** : ACS Connector réplique les données des destinataires dans un sens, de Campaign v7 vers Campaign Standard. Par conséquent, les profils issus de Campaign Standard ne sont pas répliqués dans Campaign v7.
+* **Données de destinataire de base pour Campaign Standard** : ACS Connector réplique les données des destinataires adaptées à Campaign Standard. Elles comprennent le nom, l&#39;adresse, l&#39;adresse email, le numéro de téléphone mobile, le numéro de téléphone personnel et d&#39;autres coordonnées utiles. Si d&#39;autres champs de destinataire et des tables de ciblage personnalisées de Campaign v7 sont essentiels pour votre workflow, veuillez contacter votre consultant.
+* **Import des profils mis en quarantaine** : des listes de profils qui ne souhaitent pas être contactés peuvent être importées dans Campaign v7 ou Campaign Standard en tant que profils mis en quarantaine. Le statut des profils est inclus dans la synchronisation des quarantaines entre les applications et ces profils ne sont pas utilisés dans les diffusions.
+* **Désabonnement d’un service dans Campaign Standard**: Le choix de désabonnement à une diffusion n’est pas synchronisé de Campaign Standard vers Campaign v7. Vous pouvez toutefois configurer une diffusion de Campaign Standard pour qu’elle dirige son lien de désabonnement vers Campaign v7. Le profil d’un destinataire qui clique sur le lien de désabonnement est mis à jour dans Campaign v7 et les données sont répliquées dans Campaign Standard. See [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* Seuls les logs de tracking et les broadLogs des emails sont répliqués de Campaign Standard vers Campaign v7.
+
+### Facturation {#billing}
+
+L&#39;application choisie (Campaign v7 ou Campaign Standard) pour envoyer les diffusions n&#39;a aucune incidence sur la facturation. Les informations de facturation sont réconciliées entre Campaign v7 et Campaign Standard. Par conséquent, si vous envoyez des diffusions à un même destinataire à l&#39;aide des deux applications, il est toujours comptabilisé comme un seul profil actif.
+
+## Mise en oeuvre {#implementation}
+
+Il existe deux types de mises en œuvre d&#39;ACS Connector, qui sont toujours effectuées par l&#39;équipe Consulting d&#39;Adobe Campaign.
+
+>[!CAUTION]
+>
+>Cette section est destinée aux utilisateurs experts uniquement. Elle a pour but de leur donner une vue générale de la mise en œuvre et de ses principales étapes.
+>
+>N&#39;essayez en aucun cas d&#39;effectuer ces mises en œuvre par vous-même. Celles-ci doivent être réalisées exclusivement par les consultants Adobe Campaign.
+
+La **mise en œuvre de base** vous permet de répliquer les destinataires (champs d&#39;usine), les services, les abonnements, les applications web et les audiences. Il s&#39;agit d&#39;une réplication unidirectionnelle de Campaign v7 vers Campaign Standard.
+
+The **advanced implementation** will allow you to perform more complex use cases, for example if you have additional recipient fields or custom recipient tables (transaction table for example). Voir Mise en oeuvre [](#advanced-implementation)avancée.
+
+### Installer le package {#installing-the-package}
+
+Pour utiliser cette fonctionnalité, le package **[!UICONTROL ACS Connector]** doit être installé. Cette opération est toujours effectuée par l’administrateur technique ou le consultant Adobe.
+
+Tous les éléments techniques liés à ACS Connector sont disponibles dans le nœud **[!UICONTROL Administration > ACS Connector]** de l&#39;explorateur.
+
+### Workflows techniques et de réplication {#technical-and-replication-workflows}
+
+After the installation of the package, two technical workflows are available under **[!UICONTROL Administration > ACS Connector > Process]**.
+
+>[!CAUTION]
+>
+>Ne tentez jamais de modifier ces workflows. Ils ne doivent jamais être en erreur ou en pause. Si ce type de situation se produit, veuillez contacter votre consultant Adobe Campaign.
+
+![](assets/acs_connect_implementation_3.png)
+
+* **[!UICONTROL `[ACS] Quarantine synchronization`]** (quarantineSync) : ce processus synchronise toutes les informations de quarantaine. Toutes les nouvelles mises en quarantaine dans Campaign v7 sont répliquées dans Campaign Standard. Toutes les nouvelles mises en quarantaine de Campaign Standard sont répliquées dans Campaign v7. Cela garantit que toutes les règles d’exclusion sont synchronisées entre Campaign v7 et Campaign Standard.
+* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync) : ce processus est utilisé pour la conversion des droits. Voir Conversion des [droits](#rights-conversion).
+
+Les workflows de réplication ci-dessous sont disponibles en tant que modèles « prêts à l&#39;emploi ». Ils doivent être mis en œuvre par votre consultant Adobe Campaign.
+
+![](assets/acs_connect_implementation_2.png)
+
+* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication) : ce processus incrémentiel reproduit les destinataires dans Campaign Standard. Par défaut, il reproduit tous les champs de destinataire prêts à l’emploi. Voir Champs [de destinataire](#default-recipient-fields)par défaut.
+* **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication) : ce processus incrémentiel reproduit les services sélectionnés dans Campaign Standard. Voir le cas d’utilisation [Synchronisation des applications](../../integrations/using/synchronizing-web-applications.md)Web.
+* **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication) : ce processus incrémentiel reproduit les applications Web sélectionnées dans Campaign Standard. Les applications Web de Campaign v7 apparaissent comme des pages d’entrée dans Campaign Standard. Voir le cas d’utilisation [Synchronisation des applications](../../integrations/using/synchronizing-web-applications.md)Web.
+* **[!UICONTROL `[ACS] New replication`]** (nouvelle réplication) : ce processus incrémentiel est un exemple qui peut être utilisé pour répliquer un tableau personnalisé. Voir Mise en oeuvre [](#advanced-implementation)avancée.
+* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification) : ce processus incrémentiel reproduit les messages de remise de Campaign Standard vers Campaign v7.
+* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication) : ce flux de travaux incrémentiel reproduit les ID de remise, les journaux généraux des courriers électroniques et les journaux de suivi des courriers électroniques de Campaign Standard vers Campaign v7. Il ne prend en compte que les livraisons envoyées de Campaign Standard aux profils qui font partie du tableau nms:destinataires de Campaign v7.
+* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication) : ce flux de travaux incrémentiel reproduit les ID de remise, les journaux généraux des courriers électroniques et les journaux de suivi des courriers électroniques de Campaign Standard vers Campaign v7. Il ne prend en compte que les livraisons envoyées de Campaign Standard aux profils qui font partie d’un tableau spécifique (pour définir, autre que nms:destinataires) de Campaign v7.
+
+### Champs de destinataire par défaut {#default-recipient-fields}
+
+Si vous avez d’autres champs ou des tables personnalisées (table de transactions, par exemple), ils ne seront pas répliqués par défaut. La configuration avancée doit être effectuée. Voir Mise en oeuvre [](#advanced-implementation)avancée.
+
+Vous trouverez ci-dessous la liste des champs de destinataire répliqués dans le cadre d&#39;une mise en œuvre de base. Il s&#39;agit des champs d&#39;usine :
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>Libellé</strong><br /> </td> 
+   <td> <strong>Nom interne</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Source Id<br /> </td> 
+   <td> @sourceId<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Date de création<br /> </td> 
+   <td> @created<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Date de modification<br /> </td> 
+   <td> @lastModified<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Email<br /> </td> 
+   <td> @email<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Last name<br /> </td> 
+   <td> @lastName<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> First name<br /> </td> 
+   <td> @firstName<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Middle name<br /> </td> 
+   <td> @middleName<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Mobile<br /> </td> 
+   <td> @mobilePhone<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Date de naissance<br /> </td> 
+   <td> @birthDate<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Genre<br /> </td> 
+   <td> @gender<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Civilité<br /> </td> 
+   <td> @salutation<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> No longer contact (by any channel)<br /> </td> 
+   <td> @blackList<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> No longer contact by email<br /> </td> 
+   <td> @blackListEmail<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> No longer contact by SMS<br /> </td> 
+   <td> @blackListMobile<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Phone<br /> </td> 
+   <td> @phone<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Fax<br /> </td> 
+   <td> @fax<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Adresse 1 (appartement)<br /> </td> 
+   <td> [location/@address1]<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Adresse 2<br /> </td> 
+   <td> [location/@address2]<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Adresse 3 (numéro et rue)<br /> </td> 
+   <td> [location/@address3]<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Adresse 4 (lieu-dit)<br /> </td> 
+   <td> [location/@address4]<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Code Postal<br /> </td> 
+   <td> [location/@zipCode]<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Ville<br /> </td> 
+   <td> [location/@city]<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Code état/province<br /> </td> 
+   <td> [location/@stateCode]<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Code pays<br /> </td> 
+   <td> [location/@countryCode]<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Conversion des droits {#rights-conversion}
+
+Les droits sont gérés différemment dans Campaign v7 et dans Campaign Standard. Dans Campaign v7, la gestion des droits est basée sur les dossiers, tandis que dans Campaign Standard, elle repose sur l&#39;accès aux entités (entités organisationnelles/géographiques). Un utilisateur de Campaign Standard appartient au groupe de sécurité qui contient le contexte des restrictions. Le système des droits de Campaign v7 doit donc être converti pour correspondre à celui de Campaign Standard. La conversion des droits peut se faire de plusieurs façons. Vous trouverez ci-dessous un exemple de mise en œuvre.
+
+1. Sous **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**, utilisez le **[!UICONTROL Synchronize]** bouton pour récupérer tous les groupes de sécurité de Campaign Standard. Les groupes standard de campagne prêts à l’emploi sont exclus.
+
+   ![](assets/acs_connect_implementation_4.png)
+
+1. Si votre gestion des droits est basée sur des dossiers, accédez à **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** et mappez chaque dossier nécessaire avec un groupe de sécurité.
+
+   ![](assets/acs_connect_implementation_5.png)
+
+1. Les workflows de réplication utiliseront ensuite ces informations et ajouteront les entités géographiques/organisationnelles correspondantes à chaque objet à répliquer.
+
+### Mise en œuvre avancée {#advanced-implementation}
+
+Cette section décrit certaines des possibilités offertes par la mise en œuvre avancée.
+
+>[!CAUTION]
+>
+>Ces informations ne sont que des indications générales. Contactez votre consultant Adobe Campaign pour la mise en œuvre.
+
+La mise en œuvre avancée ajoute des workflows de réplication personnalisés selon les besoins du client. Voici quelques exemples :
+
+* Réplication des diffusions
+* Réplication des opérations
+* Réplication des programmes
+* Réplication des membres des adresses de contrôle
+* Réplication transactionnelle
+* etc.
+
+**Réplication des champs étendus sur les destinataires**
+
+Les champs de destinataire d&#39;usine sont répliqués dans le cadre de la mise en œuvre de base. Pour répliquer les champs personnalisés que vous avez ajoutés au schéma de destinataire, il faut les identifier.
+
+1. Sous **[!UICONTROL Administration > ACS Connector > Data mapping]**, créez un mappage de ciblage sur le **[!UICONTROL nms:recipient]** tableau.
+
+   ![](assets/acs_connect_implementation_6.png)
+
+1. Sélectionnez les champs supplémentaires que vous souhaitez répliquer et d&#39;autres informations nécessaires (index, liens, clés d&#39;identification).
+
+   ![](assets/acs_connect_implementation_7.png)
+
+1. Ouvrez le processus de réplication de profil dédié (pas le modèle, mais l’instance de flux de travail elle-même). Modifiez les **[!UICONTROL Query]** activités et les **[!UICONTROL Update data]** activités pour inclure ces champs. See [Technical and replication workflows](#technical-and-replication-workflows).
+
+   ![](assets/acs_connect_implementation_8.png)
+
+   ![](assets/acs_connect_implementation_9.png)
+
+**Réplication des tables personnalisées de profils**
+
+La table des destinataires d&#39;usine est répliquée dans le cadre de la mise en œuvre de base. Si vous avez ajouté des tables personnalisées de destinataires, voici comment les identifier.
+
+1. Sous **[!UICONTROL Administration > ACS Connector > Data mapping]**, créez un mappage de ciblage sur votre tableau de profil personnalisé.
+
+   ![](assets/acs_connect_implementation_10.png)
+
+1. Définissez les données d&#39;identification, l&#39;index, les liens et les champs que vous souhaitez répliquer.
+
+   ![](assets/acs_connect_implementation_10.png)
+
+1. Si votre gestion des droits est basée sur des dossiers, accédez à **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** et définissez un groupe de sécurité pour les dossiers liés à vos tables personnalisées. Voir Conversion des [droits](#rights-conversion).
+1. Use the **[!UICONTROL New replication]** workflow (not the template, but the workflow instance itself) to include the custom table and the fields to replicate. See [Technical and replication workflows](#technical-and-replication-workflows).
+
