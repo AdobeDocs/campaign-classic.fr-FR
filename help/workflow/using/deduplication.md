@@ -1,0 +1,129 @@
+---
+title: Déduplication
+seo-title: Déduplication
+description: Déduplication
+seo-description: null
+page-status-flag: never-activated
+uuid: 90dee589-ac45-442e-89ef-1c14bb22200d
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: targeting-activities
+discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+
+---
+
+
+# Déduplication{#deduplication}
+
+La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l&#39;adresse email, du numéro de téléphone ou d&#39;un autre champ.
+
+## Bonnes pratiques {#best-practices}
+
+Lors d&#39;une déduplication, les flux entrants sont traités séparément. Si par exemple, un destinataire &#39;A&#39; est présent dans le résultat de la requête 1 et également dans le résultat de la requête 2, il ne sera pas dédupliqué.
+
+Ce cas de figure doit s&#39;aborder de cette manière :
+
+* Créer une activité **Union** pour unifier chaque flux entrant.
+* Créer une activité **Déduplication** positionnée après l&#39;activité **Union**.
+
+![](assets/dedup_bonnepratique.png)
+
+## Configuration {#configuration}
+
+Pour paramétrer une déduplication, vous devez renseigner son libellé, la méthode et les critères de déduplication et les options relatives au résultat.
+
+Click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
+
+![](assets/s_user_segmentation_dedup_param.png)
+
+1. Choix de la cible
+
+   Sélectionnez le type de cible de cette activité (par défaut, la déduplication porte sur les destinataires) et le critère à utiliser, c&#39;est-à-dire le champ pour lequel des valeurs identiques permettent d&#39;identifier les doublons : l&#39;adresse email, le numéro de mobile ou de téléphone, le fax ou l&#39;adresse postale.
+
+   ![](assets/s_user_segmentation_dedup_param2.png)
+
+   In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used:
+
+   ![](assets/s_user_segmentation_dedup_param3.png)
+
+1. Méthodes de déduplication
+
+   Sélectionnez dans la liste déroulante la méthode de déduplication à utiliser et indiquez le nombre de doublons à conserver.
+
+   ![](assets/s_user_segmentation_dedup_param4.png)
+
+   Les méthodes disponibles sont les suivantes :
+
+   * **[!UICONTROL Choose for me]**: sélectionne de manière aléatoire l’enregistrement à conserver en dehors des doublons.
+   * **[!UICONTROL Following a list of values]**: vous permet de définir une priorité de valeur pour un ou plusieurs champs. Pour définir les valeurs, sélectionnez un champ ou créez une expression puis ajoutez la ou les valeurs dans le tableau correspondant. To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
+
+      ![](assets/s_user_segmentation_dedup_param5.png)
+
+   * **[!UICONTROL Non-empty value]**: vous pouvez ainsi conserver les enregistrements pour lesquels la valeur de l’expression sélectionnée n’est pas vide en priorité.
+
+      ![](assets/s_user_segmentation_dedup_param6.png)
+
+   * **[!UICONTROL Using an expression]**: permet de conserver les enregistrements avec la valeur la plus faible (ou la plus élevée) de l’expression donnée.
+
+      ![](assets/s_user_segmentation_dedup_param7.png)
+   Click **[!UICONTROL Finish]** to approve the selected deduplication method.
+
+   La section centrale de la fenêtre résume le paramétrage défini.
+
+   Dans la section inférieure de la fenêtre d&#39;édition de l&#39;activité, vous pouvez modifier le libellé de la transition sortante de l&#39;objet graphique et saisir un code segment qui sera associé au résultat de l&#39;activité. Ce code pourra être utilisé ultérieurement comme critère de ciblage.
+
+   ![](assets/s_user_segmentation_dedup_param8.png)
+
+   Cochez cette **[!UICONTROL Generate complement]** option si vous souhaitez exploiter la population restante. Le complément est constitué de tous les doublons. Une transition supplémentaire sera ensuite ajoutée à l’activité, comme suit :
+
+   ![](assets/s_user_segmentation_dedup_param9.png)
+
+## Exemple : identifier des doublons avant une diffusion {#example--identify-the-duplicates-before-a-delivery}
+
+Dans l&#39;exemple suivant, la déduplication porte sur l&#39;union de trois requêtes.
+
+Le workflow a pour but de définir la cible d&#39;une diffusion en excluant les doublons afin d&#39;éviter d&#39;envoyer cette dernière plusieurs fois à un même destinataire.
+
+Les doublons identifiés seront également intégrés à une liste constituée exclusivement de doublons qui pourra être réutilisée en cas de besoin ultérieur.
+
+![](assets/deduplication_example.png)
+
+1. Placez et reliez les différentes activités nécessaires au déroulement du workflow comme indiqué dans l&#39;illustration ci-dessus.
+
+   L’activité syndicale est utilisée ici pour &quot;unifier&quot; les trois requêtes en une seule transition. Ainsi, la déduplication ne fonctionne pas pour chaque requête individuellement mais pour l&#39;ensemble de la requête. Pour en savoir plus sur ce sujet, consultez la section [Meilleures pratiques](#best-practices).
+
+1. Open the deduplication activity then click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
+1. Dans la nouvelle fenêtre, sélectionnez **[!UICONTROL Database schema]**.
+1. Sélectionnez **Destinataires** en tant que dimensions de ciblage et de filtrage.
+1. Select the ID field for the **[!UICONTROL Email]** duplicates, to send the delivery only once to every email address, then click **[!UICONTROL Next]**.
+
+   If you wish to base the duplicate IDs on a specific field, select **[!UICONTROL Other]** to access the list of available fields.
+
+1. Choisissez de ne conserver qu&#39;une seule entrée lorsque la même adresse e-mail est identifiée pour plusieurs destinataires.
+1. Select the **[!UICONTROL Choose for me]** deduplication mode so that the records saved in case of identified duplicates are randomly chosen, then click **[!UICONTROL Finish]**.
+
+Lors de l&#39;exécution du workflow, les destinataires identifiés comme étant des doublons seront exclus du résultat (et donc de la diffusion) et ajoutés à la liste des doublons. Cette liste pourra être réutilisée afin de ne pas avoir à identifier de nouveau les doublons.
+
+## Paramètres d&#39;entrée {#input-parameters}
+
+* tableName
+* schema
+
+Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
+
+## Paramètres de sortie {#output-parameters}
+
+* tableName
+* schema
+* recCount
+
+Cet ensemble de trois valeurs identifie la cible résultant de la déduplication. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identificateurs de cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:destinataire) et **[!UICONTROL recCount]** est le nombre d’éléments de la table.
+
+La transition associée au complémentaire possède les mêmes paramètres.
