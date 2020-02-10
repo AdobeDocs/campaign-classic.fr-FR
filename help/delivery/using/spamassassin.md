@@ -1,0 +1,70 @@
+---
+title: SpamAssassin
+seo-title: SpamAssassin
+description: SpamAssassin
+seo-description: null
+page-status-flag: never-activated
+uuid: 4f439432-4215-42ed-8f92-b4ca8dd92726
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: delivery
+content-type: reference
+topic-tags: deliverability-management
+discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+
+---
+
+
+# SpamAssassin{#spamassassin}
+
+## A propos de SpamAssassin {#about-spamassassin}
+
+Adobe Campaign peut être configuré pour fonctionner avec [SpamAssassin](https://spamassassin.apache.org), service tiers destiné à filtrer les emails indésirables. Vous pouvez ainsi attribuer un score aux emails et déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
+
+SpamAssassin utilise diverses techniques de détection des emails indésirables, notamment :
+
+* la détection des emails indésirables basée sur une somme de contrôle approximative et DNS,
+* le filtrage bayésien,
+* les programmes externes,
+* les blacklistes,
+* les bases de données en ligne.
+
+>[!NOTE]
+>
+>SpamAssassin doit être installé et configuré sur le serveur d&#39;application d&#39;Adobe Campaign. Voir à ce propos [cette section](../../installation/using/configuring-spamassassin.md).
+>
+>Les règles qui déterminent si un élément est indésirable ou non sont gérées par SpamAssassin et peuvent être éditées par un administrateur disposant de privilèges.
+
+## Utilisation de SpamAssassin {#using-spamassassin}
+
+Une fois que vous avez créé votre email et défini son contenu, suivez les étapes ci-après pour évaluer les risques.
+
+Pour plus d&#39;informations sur la conception d&#39;une diffusion, consultez [cette section](../../delivery/using/about-email-channel.md).
+
+1. Go to the **[!UICONTROL Preview]** tab.
+1. Sélectionnez un destinataire pour prévisualiser votre diffusion.
+
+   ![](assets/s_tn_del_preview_spamassassin_recipient.png)
+
+   >[!NOTE]
+   >
+   >Si vous ne sélectionnez pas de destinataire, la vérification anti-spam ne peut pas être effectuée.
+
+1. Un message d&#39;avertissement affiche le résultat du test. Si un risque élevé est détecté, le message suivant est affiché :
+
+   ![](assets/s_tn_del_preview_spamassassin_ko.png)
+
+1. Click the **[!UICONTROL More...]** link next to the warning.
+1. Sélectionnez l’ **[!UICONTROL Anti-spam checking]** onglet.
+1. Go to the **[!UICONTROL Points / Rule / Description]** section to view the reasons for this risk.
+
+   ![](assets/s_tn_del_msg_spamassassin_ko.png)
+
+>[!NOTE]
+>
+>Chaque fois que vous cliquez sur **[!UICONTROL Anti-spam checking]**, le service SpamAssassin est appelé et le message est de nouveau analysé pour détecter les messages antispam. Veillez à modifier votre contenu avant d’exécuter à nouveau l’analyse antispam.
