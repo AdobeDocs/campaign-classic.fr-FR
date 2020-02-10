@@ -1,0 +1,259 @@
+---
+title: Exemples
+seo-title: Exemples
+description: Exemples
+seo-description: null
+page-status-flag: never-activated
+uuid: bfc9bb13-500b-4435-b56a-550588a240bb
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: campaign
+content-type: reference
+topic-tags: distributed-marketing
+discoiquuid: 7b0aef75-345d-45be-b7d0-a9f6944ee678
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+
+---
+
+
+# Exemples{#examples}
+
+## Creating a local campaign (by form) {#creating-a-local-campaign--by-form-}
+
+Le type d&#39;interface Web **par formulaire** implique l&#39;utilisation d&#39;une **application Web**. Cette application Web peut contenir toute sorte d&#39;éléments définis personnalisés, selon le paramétrage. Par exemple, vous pouvez proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des APIs dédiées.
+
+>[!NOTE]
+>
+>Les APIs sont présentées dans un document dédié, accessible selon votre contrat. Voir [API](../../configuration/using/about-web-services.md).
+
+>[!NOTE]
+>
+>L&#39;application Web utilisée dans cet exemple n&#39;est pas une application Web native d&#39;Adobe Campaign. Pour utiliser un formulaire dans une opération, vous devez créer l&#39;application Web dédiée.
+
+When creating the campaign template, click the **[!UICONTROL Zoom]** icon within the **[!UICONTROL Web interface]** option of the **[!UICONTROL Advanced campaign settings...]** link to access details of the Web application.
+
+![](assets/mkg_dist_local_op_form1.png)
+
+>[!NOTE]
+>
+>Le paramétrage de l&#39;application Web n&#39;est disponible qu&#39;au niveau du modèle d&#39;opération.
+
+In the **[!UICONTROL Edit]** tab, select the **Campaign order** activity and open it to access its content.
+
+![](assets/mkg_dist_web_app1.png)
+
+Dans cet exemple, l&#39;activité **Commande d&#39;opération** comprend :
+
+* des champs qui seront renseignés par l&#39;entité locale lors de la commande,
+
+   ![](assets/mkg_dist_web_app2.png)
+
+* des liens qui permettront à l&#39;entité locale d&#39;évaluer l&#39;opération (par exemple la cible, le budget, le contenu, etc.),
+
+   ![](assets/mkg_dist_web_app3.png)
+
+* des scripts qui permettent de calculer et d&#39;afficher le résultat de ces évaluations.
+
+   ![](assets/mkg_dist_web_app4.png)
+
+Dans cet exemple, les APIs suivantes sont utilisées :
+
+* Pour l&#39;évaluation du ciblage,
+
+   ```
+   var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
+   ```
+
+* Pour l&#39;évaluation du budget,
+
+   ```
+   var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
+   ```
+
+* Pour l&#39;évaluation du contenu,
+
+   ```
+   var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
+   ```
+
+## Creating a collaborative campaign (by target approval) {#creating-a-collaborative-campaign--by-target-approval-}
+
+### Introduction {#introduction}
+
+Vous êtes le responsable marketing d&#39;une grande marque de vêtements qui possède une boutique en ligne, et plusieurs magasins dans toute la France. A l&#39;annonce des beaux jours vous décidez de créer une offre promotionnelle qui permettra à vos meilleurs clients de bénéficier de 50 % de réduction sur toutes les robes disponibles dans votre catalogue.
+
+Cette offre est destinée aux meilleurs clients de vos magasins français, c&#39;est à dire ceux qui ont dépensé plus de 300 € depuis le début de l&#39;année.
+
+Vous décidez donc de créer, grâce au Marketing Distribué, une opération collaborative par validation de la cible, qui vous permet de sélectionner les meilleurs clients de vos magasins (regroupés par région), qui recevront la diffusion email contenant l&#39;offre promotionnelle.
+
+La première partie de cet exemple illustre la réception par vos entités locales de la notification de création de l&#39;opération, et l&#39;utilisation qu&#39;ils peuvent en faire pour évaluer l&#39;opération et la commander.
+
+La deuxième partie de cet exemple explique le mode de création de votre opération.
+
+Les étapes sont les suivantes :
+
+**Pour l&#39;entité locale**
+
+1. Utilisez la notification de création de l&#39;opération pour accéder à la liste de contacts sélectionnés par l&#39;entité centrale.
+1. Sélectionnez les contacts désirés et validez la participation.
+
+**Pour l&#39;entité centrale :**
+
+1. Créez une **[!UICONTROL Data distribution]** activité.
+1. Créez l&#39;opération collaborative.
+1. Publiez l&#39;opération.
+
+### Côté entité locale {#local-entity-side}
+
+1. Les entités locales sélectionnées pour participer à l&#39;opération reçoivent, par email, une notification.
+
+   ![](assets/mkg_dist_use_case_target_valid8.png)
+
+1. By clicking the **[!UICONTROL Access your contact list and approve targeting]** link, the local entity is given access (via Web browser) to the list of clients selected for the campaign.
+
+   ![](assets/mkg_dist_use_case_target_valid9.png)
+
+1. L&#39;entité locale dé-sélectionne certains contacts de la liste, car ces derniers ont déjà été contactés pour une offre du même acabit depuis le début de l&#39;année.
+
+   ![](assets/mkg_dist_use_case_target_valid10.png)
+
+Lorsque les validations sont approuvées, l&#39;opération peut démarrer automatiquement.
+
+### Côté entité centrale {#central-entity-side}
+
+#### Créer une activité Répartition de données {#creating-a-data-distribution-activity}
+
+1. Pour configurer une campagne collaborative (par approbation de la cible), vous devez d’abord créer une **[!UICONTROL Data distribution activity]** campagne. Cliquez sur l’ **[!UICONTROL New]** icône dans le **[!UICONTROL Resources > Campaign management > Data distribution]** noeud.
+
+   ![](assets/mkg_dist_use_case_target_valid3.png)
+
+1. In the **[!UICONTROL General]** tab, you must specify:
+
+   * the **[!UICONTROL Targeting dimension]**. Here the **Data distribution** is carried out on the **Recipients**.
+   * the **[!UICONTROL Distribution type]**. You can choose a **Fixed size** or a **Size as a percentage**.
+   * the **[!UICONTROL Assignment type]**. Select the **Local entity** option.
+   * the **[!UICONTROL Distribution type]**. Here, it is the **[!UICONTROL Origin (@origin)]** field present in the Recipient table that lets you identify the relationship between the contact and the local entity.
+   * Champ **[!UICONTROL Approval storage]** . Sélectionnez l’option d’approbation **locale du destinataire** .
+
+1. In the **[!UICONTROL Breakdown]** tab, specify:
+
+   * the **[!UICONTROL Distribution field value]**, which corresponds to the local entities involved in the upcoming campaign.
+   * the local entity **[!UICONTROL label]**.
+   * le **[!UICONTROL Size]** (fixe ou en pourcentage). La valeur **par défaut** 0 implique la sélection de tous les destinataires liés à l’entité locale.
+   ![](assets/mkg_dist_use_case_target_valid4.png)
+
+1. Enregistrez votre nouvelle boîte de répartition.
+
+#### Créer une opération collaborative {#creating-a-collaborative-campaign}
+
+1. A partir du **[!UICONTROL Campaign management > Campaign]** noeud, créez un nouveau **[!UICONTROL collaborative campaign (by target approval)]**.
+1. Dans l’ **[!UICONTROL Targeting and workflows]** onglet, créez un processus pour votre campagne. Il doit contenir une activité **fractionnée** dans laquelle le **[!UICONTROL Record count limitation]** code est défini par l’ **[!UICONTROL Data distribution]** activité.
+
+   ![](assets/mkg_dist_use_case_target_valid5.png)
+
+1. Add a **[!UICONTROL Local approval]** action where you can specify:
+
+   * le contenu du message qui sera envoyé aux entités locales lors de la notification,
+   * le rappel pour la validation,
+   * le traitement anticipé de l&#39;opération.
+   ![](assets/mkg_dist_use_case_target_valid7.png)
+
+1. Sauvegardez votre enregistrement.
+
+#### Publier l&#39;opération {#publishing-the-campaign}
+
+Vous pouvez désormais créer un **kit d&#39;opération** à partir de l&#39;univers **Campagnes**.
+
+1. Choisis ton **[!UICONTROL Reference campaign]**. Dans l’ **[!UICONTROL Edit]** onglet de votre pack, vous pouvez sélectionner le **[!UICONTROL Approval mode]** à utiliser pour votre campagne :
+
+   * avec le mode **Manuel**, les entités locales participent à l&#39;opération si elles acceptent l&#39;invitation de l&#39;entité centrale. Elles peuvent supprimer des contacts pré-sélectionnés si elles le souhaitent et une validation d&#39;un manager est obligatoire pour confirmer la participation.
+   * avec le mode **Automatique**, les entités locales participent obligatoirement à l&#39;opération, à moins qu&#39;elles ne s&#39;en désinscrivent. Elles peuvent supprimer des contacts sans qu&#39;aucune validation ne soit demandée.
+   ![](assets/mkg_dist_use_case_target_valid.png)
+
+1. Dans l&#39;onglet **[!UICONTROL Description]**, vous pouvez ajouter une description pour votre opération, ainsi que des documents qui seront transmis aux entités locales.
+
+   ![](assets/mkg_dist_use_case_target_valid1.png)
+
+1. Validez votre kit puis lancez votre workflow pour que le kit soit publié et disponible pour les entités locales dans la liste des kits.
+
+   ![](assets/mkg_dist_use_case_target_valid2.png)
+
+## Creating a collaborative campaign (by form) {#creating-a-collaborative-campaign--by-form-}
+
+### Introduction {#introduction-1}
+
+Vous êtes le responsable marketing d&#39;une grande marque de cosmétiques qui possède une boutique en ligne, et plusieurs magasins dans toute la France. Pour écouler vos stocks d&#39;hiver, vous décidez de créer une offre promotionnelle qui ciblera deux catégories de clients : les plus de 30 ans, à qui vous proposerez des produits adaptés à leur peau mature, et les moins de 30 ans, à qui vous proposerez des produits de soin plus basiques.
+
+Vous décidez donc de créer, grâce au Marketing Distribué, une opération collaborative par formulaire, qui vous permet de sélectionner les clients, de vos différents magasins, par tranches d&#39;âge. Ces clients recevront une diffusion email, personnalisée en fonction de leur âge, contenant l&#39;offre promotionnelle.
+
+La première partie de cet exemple illustre la réception par vos entités locales de la notification de création de l&#39;opération, et l&#39;utilisation qu&#39;ils peuvent en faire pour évaluer l&#39;opération et la commander.
+
+La deuxième partie de cet exemple explique le mode de création de votre opération.
+
+Les étapes sont les suivantes :
+
+**Pour l&#39;entité locale**
+
+1. Utilisez la notification de création de l&#39;opération pour accéder au formulaire en ligne.
+1. Localisez l&#39;opération (cible, contenu, volume de la diffusion).
+1. Evaluez la localisation et remaniez-la si besoin.
+1. Validez votre participation.
+1. Le manager de l&#39;entité locale (ou de l&#39;entité centrale) valide le paramétrage et la participation.
+
+**Pour l&#39;entité centrale :**
+
+1. Créez l&#39;opération collaborative.
+1. Configurez le **[!UICONTROL Advanced campaign settings...]** comme vous le feriez pour une campagne locale.
+1. Paramétrez le workflow de l&#39;opération et la diffusion comme pour une opération locale.
+1. Mettez à jour le formulaire web.
+1. Créez le kit d&#39;opération et publiez.
+
+### Côté entité locale {#local-entity-side-1}
+
+1. Les entités locales sélectionnées pour participer à l&#39;opération reçoivent, par email, une notification les informant de la publication de l&#39;opération.
+
+   ![](assets/mkg_dist_use_case_form_7.png)
+
+1. L&#39;entité locale remplit un formulaire personnalisé puis elle :
+
+   * évalue la cible et le budget,
+   * prévisualise le contenu de la diffusion,
+   * valide sa participation.
+
+      ![](assets/mkg_dist_use_case_form_8.png)
+
+1. L&#39;opérateur en charge de la validation des commandes approuve la participation.
+
+   ![](assets/mkg_dist_use_case_form_9.png)
+
+### Côté entité centrale {#central-entity-side-1}
+
+1. Pour mettre en place une opération collaborative par formulaire, vous devez créer une opération à partir du **modèle d&#39;opération collaborative par formulaire**.
+
+   ![](assets/mkg_dist_use_case_form_1.png)
+
+1. Dans l’ **[!UICONTROL Edit]** onglet de la campagne, cliquez sur le **[!UICONTROL Advanced campaign settings...]** lien pour la configurer en tant que campagne locale. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
+
+   ![](assets/mkg_dist_use_case_form_2.png)
+
+1. Configurez le processus de campagne et le formulaire Web. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
+1. Créez votre kit d&#39;opération en spécifiant le planning de réalisation et les entités locales impliquées.
+
+   ![](assets/mkg_dist_use_case_form_3.png)
+
+1. Finalize the package configuration by selecting the approval mode in the **[!UICONTROL Edit]** tab.
+
+   ![](assets/mkg_dist_use_case_form_4.png)
+
+1. Si besoin, dans l&#39;onglet **[!UICONTROL Description]**, rentrez une description du kit, un message de notification qui sera envoyé aux entités locales lors de la publication du kit, et attachez des documents informatifs à votre kit d&#39;opération.
+
+   ![](assets/mkg_dist_use_case_form_5.png)
+
+1. Validez le kit pour activer sa publication.
+
+   ![](assets/mkg_dist_use_case_form_6.png)
+
