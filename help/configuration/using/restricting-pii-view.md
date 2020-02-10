@@ -1,0 +1,100 @@
+---
+title: Limitation de l'affichage des PII
+seo-title: Limitation de l'affichage des PII
+description: Limitation de l'affichage des PII
+seo-description: null
+page-status-flag: never-activated
+uuid: 4dddc7f5-dac3-47b3-b3cb-92b47eb595fa
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: configuration
+content-type: reference
+topic-tags: editing-schemas
+discoiquuid: 550439c1-978c-414e-be5b-a9e1a202c4cd
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+
+---
+
+
+# Limitation de l&#39;affichage des PII{#restricting-pii-view}
+
+## Présentation {#overview}
+
+Certains clients ont besoin que les utilisateurs marketing puissent accéder aux enregistrements de données, mais ne souhaitent pas qu’ils visualisent des informations d’identification personnelles (PII) telles que le prénom, le nom ou l’adresse email. Adobe Campaign propose un moyen de protéger la confidentialité et d’empêcher toute utilisation abusive des données par des opérateurs standard de Campaign.
+
+## Mise en oeuvre {#implementation}
+
+Un nouvel attribut qui peut être appliqué à n’importe quel élément ou attribut a été ajouté aux schémas, il complète l’attribut existant **[!UICONTROL visibleIf]** . Cet attribut est : **[!UICONTROL accessibleIf]** . Lorsqu’elle contient une expression XTK liée au contexte utilisateur actuel, elle peut exploiter **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]** , par exemple.
+
+Vous trouverez ci-dessous un exemple d&#39;extension de schéma de destinataire qui illustre cette utilisation :
+
+```
+<srcSchema desc="Recipient table (profiles" entitySchema="xtk:srcSchema" extendedSchema="nms:recipient"
+           img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+           name="recipient" namespace="sec" xtkschema="xtk:srcSchema">
+  <element desc="Recipient table (profiles" img="nms:recipient.png" label="Recipients"
+           labelSingular="Recipient" name="recipient">
+    <attribute name="firstName" accessibleIf="$(login)=='admin'"/>
+    <attribute name="lastName" visibleIf="$(login)=='admin'"/>
+    <attribute name="email" accessibleIf="$(login)=='admin'"/>
+  </element>
+</srcSchema>
+```
+
+Les principales propriétés sont les suivantes :
+
+* **[!UICONTROL visibleIf]** : masque les champs des métadonnées, de sorte qu’ils ne sont pas accessibles dans une vue de schéma, une sélection de colonnes ou un créateur d’expressions. Mais cela ne masque aucune donnée, si le nom du champ est saisi manuellement dans une expression, la valeur s’affiche.
+* **[!UICONTROL accessibleIf]** : masque les données (en les remplaçant par des valeurs vides) de la requête résultante. Si visibleIf est vide, il obtient la même expression que **[!UICONTROL accessibleIf]** .
+
+Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont les suivantes :
+
+* Les données ne sont pas affichées dans le requêteur générique de la console.
+* Les données ne sont pas visibles dans les listes d&#39;aperçu et la liste des enregistrements (console).
+* Les données sont en lecture seule dans la vue détaillée.
+* Les données ne peuvent être utilisées que dans des filtres (ce qui signifie qu&#39;il est toujours possible de deviner les valeurs à l&#39;aide de stratégies de dichotomie).
+* Les expressions qui sont construites à l&#39;aide d&#39;un champ restreint sont aussi restreintes : lower(@email) devient autant accessible que @email.
+* Dans un workflow, vous pouvez ajouter la colonne restreinte à la population ciblée en tant que colonne supplémentaire de la transition, mais elle reste inaccessible aux utilisateurs d&#39;Adobe Campaign.
+* Lors du stockage de la population ciblée dans un groupe (liste), les caractéristiques des champs stockés sont identiques à celles de la source de données.
+* Par défaut, les données ne sont pas accessibles par les codes JavaScript.
+
+## Recommandations {#recommendations}
+
+Dans chaque diffusion, les adresses email sont copiées dans les tables de **[!UICONTROL broadLog]** et **[!UICONTROL forecastLog]** : ces champs doivent donc être aussi protégés.
+
+Vous trouverez ci-dessous un exemple d’extension de table de logs pour mettre cela en œuvre :
+
+```
+<srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:broadLogRcp" img="nms:broadLog.png"
+           label="Recipient delivery logs" labelSingular="Recipient delivery log"
+           name="broadLogRcp" namespace="sec" xtkschema="xtk:srcSchema">
+  <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log"
+           name="broadLogRcp">
+    <attribute accessibleIf="$(login)=='admin'" name="address"/>
+  </element>
+</srcSchema>
+<srcSchema desc="Delivery messages being prepared." entitySchema="xtk:srcSchema"
+           extendedSchema="nms:tmpBroadcast" img="" label="Messages being prepared"
+           labelSingular="Message" name="tmpBroadcast" namespace="sec" xtkschema="xtk:srcSchema">
+  <element desc="Delivery messages being prepared." label="Messages being prepared"
+           labelSingular="Message" name="tmpBroadcast">
+    <attribute accessibleIf="$(login)=='admin'" name="address"/>
+  </element>
+</srcSchema>
+<srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:excludeLogRcp" img="nms:excludeLog.png"
+           label="Recipient exclusion logs" labelSingular="Recipient exclusion log"
+           name="excludeLogRcp" namespace="sec" xtkschema="xtk:srcSchema">
+  <element img="nms:excludeLog.png" label="Recipient exclusion logs" labelSingular="Recipient exclusion log"
+           name="excludeLogRcp">
+    <attribute accessibleIf="$(login)=='admin'" name="address"/>
+  </element>
+</srcSchema>
+```
+
+>[!NOTE]
+>
+>Cette restriction s’applique aux utilisateurs n’ayant pas de connaissances techniques : un utilisateur technique, avec les permissions associées, sera en mesure de récupérer les données. Cette méthode n’est donc pas entièrement sûre.
+
