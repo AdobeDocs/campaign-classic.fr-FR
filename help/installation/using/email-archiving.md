@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4869eb41f942a89c48bc213913c44b70ae777bfc
+source-git-commit: 5b9c57b3cba0e8c24300396c2abac613f6e1193a
 
 ---
 
@@ -31,9 +31,10 @@ Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transfé
 ## Recommandations et limitations  {#recommendations-and-limitations}
 
 * Cette fonctionnalité d&#39;archivage des emails est en option. Vérifiez votre contrat de licence.
-* Pour les architectures hébergées et hybrides, contactez le gestionnaire de compte pour l’activer. Pour les installations sur site, suivez les instructions ci-dessous : voir les sections [Activation de l’archivage des e-mails (sur site)](#activating-email-archiving--on-premise-) et [Configuration de l’adresse de messagerie du CC (sur site)](#configuring-the-bcc-email-address--on-premise-) .
-* Une fois que le Cci par courrier électronique est configuré, assurez-vous que la fonction est activée dans le modèle de remise ou dans la diffusion via l’ **[!UICONTROL Archive emails]** option. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
+* Pour les architectures **** hébergées et hybrides, contactez le gestionnaire de compte pour l’activer. L’adresse CC de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
+* Pour les installations **** sur site, suivez les instructions ci-dessous pour les activer - reportez-vous aux sections [Activation de l’archivage des e-mails (sur site)](#activating-email-archiving--on-premise-) et [Configuration de l’adresse e-mail BCC (sur site)](#configuring-the-bcc-email-address--on-premise-) .
 * Vous ne pouvez utiliser qu&#39;une seule adresse email en Cci.
+* Une fois que le Cci par courrier électronique est configuré, assurez-vous que la fonction est activée dans le modèle de remise ou dans la diffusion via l’ **[!UICONTROL Archive emails]** option. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 * Seuls les emails envoyés sont pris en compte, les retours ne le sont pas.
 * Le système d’archivage des e-mails a été modifié avec Adobe Campaign 17.2 (version 8795). Si vous utilisiez déjà l’archivage des e-mails, vous devez effectuer une mise à niveau manuelle vers le nouveau système d’archivage des e-mails (BCC). Pour plus d’informations, voir la section [Mise à jour du système d’archivage des e-mails (BCC)](#updated-email-archiving-system--bcc-) .
 
