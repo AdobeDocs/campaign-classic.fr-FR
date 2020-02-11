@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ce2a1a55e244180a4e62d6f3b5a5ed5bb8aff6e
+source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 ---
 
@@ -28,10 +28,11 @@ La section suivante présente les paramétrages nécessaires pour contrôler le 
 
 >[!NOTE]
 >
->Toutes les recommandations techniques pour assurer le bon envoi et la bonne réception des messages par une plate-forme Adobe Campaign sont disponibles dans la Note Technique **Délivrabilité**.
->
->Certains paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration de l&#39;instance et du serveur. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).\
->Consultez le [guide pas à pas](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) présentant les concepts et bonnes pratiques en lien avec la délivrabilité.
+>Certains paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration de l&#39;instance et du serveur. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+
+Pour en savoir plus sur les concepts et les meilleures pratiques en matière de délivrabilité, consultez cette [section](../../delivery/using/about-deliverability.md).
+
+All technical recommendations concerning the efficient sending and receiving of messages by an Adobe Campaign platform are available in this [section](../../delivery/using/technical-recommendations.md).
 
 ## Principe de fonctionnement {#operating-principle}
 
@@ -139,7 +140,7 @@ Par défaut, le serveur de statistiques écoute sur le port 7777. Ce port peut �
 
 Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communication entre un serveur expéditeur et un serveur destinataire.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les règles de débit de **[!UICONTROL MX management]** diffusion ne sont plus utilisées. La MTA améliorée utilise ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
 >
