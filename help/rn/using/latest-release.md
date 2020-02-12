@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0237aafd79753db1bc1ca54853b7c51b65492eb2
+source-git-commit: e091bab4032a0fe8292ea65100627fefab2a5e30
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 0237aafd79753db1bc1ca54853b7c51b65492eb2
 
 Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032) pour voir la **dernière version** stable (GA).
 
-## ![](assets/blue2.png) Version 19.2.3 - Version 9081 {#release-19-2-3-build-9081}
+## ![](assets/blue-2.png) Version 19.2.3 - Version 9081 {#release-19-2-3-build-9081}
 
 _7 février 2020_
 
@@ -50,7 +50,7 @@ _7 février 2020_
 * Correction d’un problème de régression en raison de l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur le serveur Windows. (NÉO-20629)
 * Correction d’un problème qui affichait un numéro de balise de version incorrect dans le menu **À propos** .
 
-## ![](assets/orange2.png) Version 19.2 - Version 9080 {#release-19-2-build-9080}
+## ![](assets/orange-2.png) Version 19.2 - Version 9080 {#release-19-2-build-9080}
 
 _2 décembre 2019_
 
