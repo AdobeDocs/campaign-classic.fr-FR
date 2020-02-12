@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
+source-git-commit: 37946a63a0cd0312de31b26dd4d115895d959638
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
 
 Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032) pour voir la **dernière version** stable (GA).
 
-## ![](assets/orange2.png) Version 19.2.2 - Version 9081 {#release-19-2-2-build-9081}
+## ![](assets/orange2.png) Version 19.2.3 - Version 9081 {#release-19-2-2-build-9081}
 
 7 février 2020_
 
