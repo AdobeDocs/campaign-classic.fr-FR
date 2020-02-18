@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -81,7 +81,7 @@ Click **[!UICONTROL Preview]** and select a recipient to view the conditional co
 
 ## Créer un email multilingue {#creating-multilingual-email}
 
-Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer un email multilingue. Le contenu s&#39;affichera dans une langue ou une autre en fonction de la préférence linguistique du destinataire.
+Dans l’exemple ci-dessous, vous apprendrez à créer un courrier électronique multilingue. Le contenu s’affiche dans une langue ou dans une autre selon la langue préférée du destinataire.
 
 1. Créez un email et sélectionnez la population cible. Dans cet exemple, la condition d&#39;affichage d&#39;une version ou d&#39;une autre sera basée sur la valeur **Langue** du profil du destinataire. Dans cet exemple, ces valeurs sont définies sur **EN**, **FR**, **ES**.
 1. Dans le contenu HTML de l&#39;email, cliquez sur l&#39;onglet **[!UICONTROL Source]** et collez le code suivant :
