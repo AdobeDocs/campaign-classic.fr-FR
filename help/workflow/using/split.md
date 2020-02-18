@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
+source-git-commit: afe286211c21f4fc178ffb5f9f30baed96ebfeab
 
 ---
 
@@ -45,7 +45,7 @@ Pour créer un sous-ensemble :
 
    Le mode de fonctionnement est le même que pour une activité de type **Requête**.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Vous pouvez filtrer les données contenues dans deux bases externes (FDA) maximum.
 
@@ -59,7 +59,7 @@ Pour créer un sous-ensemble :
 
    ![](assets/s_user_segmentation_partage_add.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Si l’ **[!UICONTROL Enable overlapping of output populations]** option n’est pas cochée, des sous-ensembles sont créés dans l’ordre des onglets. Utilisez les flèches dans la partie supérieure droite de cette fenêtre pour les déplacer. Si le premier sous-ensemble récupère 70 % de la population initiale, par exemple, le sous-ensemble suivant applique ses critères de sélection uniquement aux 30 % restants, etc.
 
@@ -135,7 +135,7 @@ Pour un exemple de l’ **[!UICONTROL Local approval]** activité avec un modèl
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour utiliser cette fonction, vous devez acquérir le module Distributed Marketing, qui est une option de Campaign. Vérifiez votre contrat de licence.
 
@@ -155,7 +155,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
    * **[!UICONTROL Targeting dimension]**: entrez la dimension de ciblage à laquelle la distribution des données sera appliquée, **[!UICONTROL Recipient]** par exemple. Ce schéma doit toujours être compatible avec les données utilisées dans le processus de ciblage.
    * **[!UICONTROL Distribution field]**: sélectionnez un champ au moyen de la dimension de ciblage. Par exemple, si vous sélectionnez le **[!UICONTROL Email domain]** champ, la liste des destinataires est ventilée par domaine.
    * **[!UICONTROL Distribution type]**: sélectionnez la manière dont la valeur limite de la cible sera ventilée dans l’ **[!UICONTROL Distribution]** onglet : **[!UICONTROL Percentage]** ou **[!UICONTROL Set]**.
-   * **[!UICONTROL Assignment type]**: sélectionnez le type d’affectation de distribution de données. Vous pouvez choisir entre l’affectation par groupe ou opérateur ou l’affectation par entité locale. L’affectation par entité locale est utilisée dans le marketing **distribué**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+   * **[!UICONTROL Assignment type]**: sélectionnez le type d’affectation de distribution de données. Vous pouvez choisir entre l’affectation par groupe ou opérateur ou l’affectation par entité locale. L’affectation par entité locale est utilisée dans le marketing **distribué**. Voir à ce sujet cette [section](../../campaign/using/about-distributed-marketing.md).
    * **[!UICONTROL Approval storage]**: si vous utilisez une **[!UICONTROL Local approval]** activité dans votre processus de ciblage (voir Approbation [](../../workflow/using/local-approval.md)locale), entrez le schéma dans lequel les résultats d’approbation seront stockés. Vous devez spécifier un schéma de stockage par schéma de ciblage. Si vous utilisez le schéma de **[!UICONTROL Recipients]** ciblage, saisissez le schéma de **[!UICONTROL Local approval of recipients]** stockage par défaut.
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Approvals storage]** field.
@@ -200,11 +200,11 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Group or operator]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Vérifiez que les opérateurs disposent des droits adéquats.
 
-   * **[!UICONTROL Local entity]**: sélectionnez l&#39;entité locale affectée à chaque valeur de distribution. Les entités locales sont utilisées dans le marketing **distribué**. For more information, refer to this [section](../../campaign/using/about-distributed-marketing.md).
+   * **[!UICONTROL Local entity]**: sélectionnez l&#39;entité locale affectée à chaque valeur de distribution. Les entités locales sont utilisées dans le marketing **distribué**. Voir à ce sujet cette [section](../../campaign/using/about-distributed-marketing.md).
 
 ## Paramètres de filtrage {#filtering-parameters}
 
