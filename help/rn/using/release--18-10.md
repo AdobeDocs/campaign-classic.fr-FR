@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12f4237c34560257901ae210d4e22a7d152a795d
+source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 ---
 
@@ -128,7 +128,7 @@ source-git-commit: 12f4237c34560257901ae210d4e22a7d152a795d
      <li> <p>Tracking des notifications silencieuses dans iOS </p> </li> 
      <li> <p>Implémentation du retour sur les appels d'enregistrement dans iOS</p> </li> 
      <li> <p>Amélioration de la vitesse de préparation des diffusions iOS</p> </li> 
-    </ul> <p>En raison de l'abandon de GCM par Google, le connecteur Android V2 ne permet plus que les connexions au serveur FCM.</p><p>Voir à ce sujet la <a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application">documentation détaillée</a>. La mise à niveau manuelle vers FCM est présentée dans <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">cet article</a>. </p> </td> 
+    </ul> <p>En raison de l'abandon de GCM par Google, le connecteur Android V2 ne permet plus que les connexions au serveur FCM.</p><p>Voir à ce sujet la <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">documentation détaillée</a>. La mise à niveau manuelle vers FCM est présentée dans <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">cet article</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> Activité Gestion des données SQL<br /> </td> 
