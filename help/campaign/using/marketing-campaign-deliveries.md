@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -72,7 +72,7 @@ La cible principale d&#39;une diffusion peut également être définie au traver
 
 Le mode de fonctionnement du module de workflow est détaillé dans le guide [Automatiser avec des workflows](../../workflow/using/executing-a-workflow.md#architecture).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Dans une même campagne, vous ne pouvez pas configurer plus de 28 workflows. Au-delà de cette limite, les workflows supplémentaires ne sont pas visibles dans l&#39;interface et peuvent générer des erreurs.
 
@@ -233,7 +233,7 @@ Par défaut, le paramétrage de la population témoin défini au niveau de l&#39
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
 1. Cliquez sur l’ **[!UICONTROL Control group]** onglet, puis sélectionnez **[!UICONTROL Enable and edit control group configuration]**.
-1. Cliquez **[!UICONTROL Edit...]** pour configurer le groupe de contrôle
+1. Cliquez sur **[!UICONTROL Edit...]** pour configurer le groupe de contrôle.
 
 La procédure de configuration est présentée dans [Extraction du groupe de contrôle de la cible](#extracting-the-control-group-from-the-main-target) principale et [Ajout d&#39;une population](#adding-a-population).
 
@@ -353,7 +353,7 @@ L&#39;extraction du fichier lance deux opérations : le calcul des budgets et le
 
 Vous pouvez associer divers documents à une campagne : rapport, photo, page Web, diagramme, etc. Ces documents peuvent être dans n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). Pour lier des documents à une campagne, voir [Ajout de documents](#adding-documents).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ce mode d&#39;échange est réservé à des documents de faible volume (quelques Mo maximum).
 
