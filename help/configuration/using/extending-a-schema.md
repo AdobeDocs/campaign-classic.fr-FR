@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
 
 # Extension d&#39;un schéma{#extending-a-schema}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Certains schémas intégrés ne doivent pas être étendus. Il s’agit principalement de ceux pour lesquels les paramètres suivants sont définis :\
 >**dataSource=&quot;file&quot;** et **mappingType=&quot;xmlFile&quot;**.\
@@ -38,7 +38,7 @@ Il existe deux solutions pour étendre un schéma déjà existant :
 
    Un schéma d&#39;extension ne possède pas son propre schéma : c&#39;est le schéma généré à partir du schéma source qui sera complété avec les champs du schéma d&#39;extension.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Vous n’êtes pas autorisé à modifier les schémas intégrés à l’application ; vous devez utiliser le mécanisme d’extension des schémas. En effet, lors des futures mises à jour de l’application, les schémas modifiés ne seraient pas mis à jour, ce qui peut entraîner des dysfonctionnements dans l’utilisation d’Adobe Campaign.
 
@@ -66,7 +66,7 @@ Il existe deux solutions pour étendre un schéma déjà existant :
 
    L&#39;attribut **belongsTo** sur le champ renseigne le schéma où il est déclaré.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour que les modifications soient prises en compte, vous devez régénérer les schémas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.\
 >Si les modifications affectent la structure de la base de données, vous devez exécuter une mise à jour. Voir à ce sujet la section [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md).
