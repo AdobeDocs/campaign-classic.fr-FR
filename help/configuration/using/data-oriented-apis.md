@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -392,7 +392,7 @@ Lorsqu’une requête est créée, les valeurs &quot;liées&quot; sont remplacé
 
 Pour ne pas binder un paramètre, il faut renseigner l&#39;attribut &quot;noSqlBind&quot; avec la valeur &quot;true&quot;.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Dans le cas où la requête comprend des instructions du type &quot;order-by&quot; ou &quot;group-by&quot;, les moteurs de base de données ne peuvent pas &quot;binder&quot; les valeurs. Il est donc indispensable de placer dans la même requête l&#39;attribut @noSqlBind=&quot;true&quot; sur les instructions &quot;select&quot; et/ou &quot;where&quot;.
 
@@ -453,7 +453,7 @@ Un alias permet de modifier l&#39;emplacement des données dans le document en s
 </queryDef>
 ```
 
-Retourne :
+Renvoie:
 
 ```
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
