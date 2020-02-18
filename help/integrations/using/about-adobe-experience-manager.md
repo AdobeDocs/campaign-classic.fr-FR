@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 4a71d93e7e3284eaeb36b3536204474947d695f5
 
 ---
 
@@ -36,7 +36,11 @@ Vous devez au préalable disposer des éléments suivants :
 * Une instance Adobe Experience Manager de publication (dite de **publishing**).
 * Une instance Adobe Campaign.
 
-Adobe Campaign est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3 et 6.4. Les sections suivantes présentent une vue d&#39;ensemble de l&#39;intégration.
+Adobe Campaign est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 et 6.5. Les sections suivantes présentent un aperçu de l’intégration.
+
+>[!NOTE]
+>
+>Les modèles Adobe Campaign Classic ne sont plus disponibles avec Adobe Experience Manager 6.5.
 
 Pour plus de détails, consultez la documentation en fonction de votre version d&#39;Adobe Experience Manager :
 
@@ -44,4 +48,4 @@ Pour plus de détails, consultez la documentation en fonction de votre version d
 * [Cliquez ici pour Adobe Experience Manager 6.2](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
 * [Cliquez ici pour Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
 * [Cliquez ici pour Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html)
-
+* [Cliquez ici pour Adobe Experience Manager 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)
