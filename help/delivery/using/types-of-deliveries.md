@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 194d2263de0bf98afa0efc7e2e0b4ca433c95b6d
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -30,7 +30,7 @@ Une **diffusion** est un objet de diffusion autonome exécuté une seule fois. E
 
 Les diffusions peuvent être créées à partir de la liste de diffusions ou au sein d&#39;un workflow via une activité [Diffusion](../../workflow/using/delivery.md).
 
-Les workflows fournissent également des activités de diffusion spécifiques en fonction du type de canal que vous voulez utiliser. Pour plus d&#39;informations sur ces activités, consultez [cette section](../../workflow/using/cross-channel-deliveries.md).
+Les processus fournissent également des activités de diffusion spécifiques en fonction du type de canal que vous souhaitez utiliser. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
 ## Diffusion récurrente {#recurring-delivery}
 
