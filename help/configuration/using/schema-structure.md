@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -123,7 +123,7 @@ Les règles à respecter sont les suivantes :
 
 * Each **`<element>`** and **`<attribute>`** must be identified by name via the **name** attribute.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Le nom de l&#39;élément doit être concis, de préférence en anglais, et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
 
@@ -131,7 +131,7 @@ Les règles à respecter sont les suivantes :
 * An **`<attribute>`** element must have a unique name within an **`<element>`**.
 * The use of**`<elements>`** in multi-line data strings is recommended.
 
-## Types des données {#data-types}
+## Types de données {#data-types}
 
 The data type is entered via the **type** attribute in the **`<attribute>`** and **`<element>`** elements.
 
@@ -188,7 +188,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
    <td> <strong>MS SQL</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 (NVARCHAR2 si unicode)<br /> </td> 
    <td> VARCHAR (VARCHAR CHARACTER SET UNICODE si Unicode)<br /> </td> 
