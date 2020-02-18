@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -135,13 +135,14 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >Pour chaque type de lien, vous pouvez configurer le mode d’ouverture : sélectionnez la fenêtre cible dans la liste déroulante **Target** . Cette valeur correspond à la balise **`<target>`** HTML.
 >
 >La liste des **cibles** disponibles est la suivante :
-
+>
 >* Autre (IFrame)
 >* Fenêtre la plus en avant (_top)
-* Fenêtre parente (_parent)
-* Nouvelle fenêtre (_blank)
-* Fenêtre courante (_self)
-* Comportement par défaut du navigateur
+>* Fenêtre parente (_parent)
+>* Nouvelle fenêtre (_blank)
+>* Fenêtre courante (_self)
+>* Comportement par défaut du navigateur
+>
 
 
 
@@ -170,7 +171,8 @@ L&#39;option **Lien définissant une action** permet de paramétrer une action l
 ![](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
-Les actions disponibles sont détaillées dans la section [Ajout d’une action à un bouton](#adding-an-action-to-a-button) .
+>
+>Les actions disponibles sont détaillées dans la section [Ajout d’une action à un bouton](#adding-an-action-to-a-button) .
 
 ### Supprimer un lien {#delete-a-link}
 
@@ -180,7 +182,8 @@ Lorsqu&#39;un lien a été inséré, la barre d&#39;outils propose deux nouvelle
 * **[!UICONTROL Break the link]** permet de supprimer, après confirmation, le lien et tous les paramètres associés.
 
 >[!NOTE]
-Dans le cas d&#39;une suppression de lien, le contenu est conservé.
+>
+>Dans le cas d&#39;une suppression de lien, le contenu est conservé.
 
 ## Modifier les attributs de la police {#changing-font-attributes}
 
@@ -202,8 +205,10 @@ Les options disponibles sont les suivantes :
 * Icône **Changer la couleur du texte** : permet de changer la couleur de tout le texte dans le bloc ou seulement celle du texte sélectionné (`<span style="color: #CODE">`)
 
 >[!NOTE]
-* Icône **Supprimer** : supprime le bloc et tout son contenu.
-
+>
+>* Icône **Supprimer** : supprime le bloc et tout son contenu.
+   >
+   >
 * Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
 
 
@@ -223,7 +228,8 @@ Pour être compatible avec le DCE, les **animations de type &quot;Flash&quot;** 
 ```
 
 >[!CAUTION]
-You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.
+>
+>You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.
 
 ### Ajouter / Supprimer / Dupliquer une image {#adding---deleting---duplicating-an-image}
 
@@ -240,7 +246,8 @@ The **Delete** icon deletes the ![]() tag containing the image.
 The **Duplicate** icon duplicates the ![]() tag and its content.
 
 >[!CAUTION]
-Lors de la duplication d&#39;une image, les identifiants relatifs à la nouvelle image sont supprimés.
+>
+>Lors de la duplication d&#39;une image, les identifiants relatifs à la nouvelle image sont supprimés.
 
 ### Modifier les propriétés d&#39;une image {#editing-image-properties}
 
