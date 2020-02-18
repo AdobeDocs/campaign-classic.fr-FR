@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -78,7 +78,7 @@ Cependant, il est également possible d’utiliser les filtres d’audience util
 * **[!UICONTROL Cities]**
 * **[!UICONTROL Languages]**
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Utilisez cette fonction avec soin. Dans les rapports de diffusion, l’ **[!UICONTROL Number of fans]** indicateur ne tient pas compte de ces filtres Facebook.
 >
@@ -115,7 +115,7 @@ Une diffusion de type statut avec un lien peut contenir du texte, une image et u
 
 Renseignez les différents champs proposés :
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Toutes les URL doivent commencer par **&quot;http://&quot;** ou **&quot;https://&quot;**.
 
@@ -136,7 +136,7 @@ Renseignez les différents champs proposés :
 
 1. Dans le champ **[!UICONTROL Image]**, saisissez l&#39;URL de l&#39;image qui apparaîtra sur le côté gauche de la publication.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >L&#39;image doit être hébergée sur un site Internet public pour que Facebook puisse la télécharger.
 
