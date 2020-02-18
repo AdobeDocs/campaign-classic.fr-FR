@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 93a19c765e8d3de0fcbc29e27202fcbd2da6d32f
+source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 
 ---
 
@@ -221,8 +221,8 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Caractères valides pour une adresse email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td> 
-   <td> Permet de spécifier une période maximum (exprimée en heures) afin de limiter le nombre de broadlogs récupérés à chaque exécution du workflow de synchronisation. Voir <a href="../../platform/using/accessing-an-external-database.md#cloud-messaging---fda-synchronization">cette section</a>.<br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
+   <td> Permet de spécifier une période maximale (exprimée en heures) pour limiter le nombre de journaux de diffusion récupérés chaque fois que le processus de synchronisation est exécuté.</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
