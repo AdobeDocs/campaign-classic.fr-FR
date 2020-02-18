@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -28,11 +28,10 @@ La migration est un processus qui doit être mené avec précaution, dont les im
 
 La migration doit préalablement être testée sur l&#39;environnement de développement pour vérifier qu&#39;elle s&#39;exécute sans erreur. La migration de l&#39;environnement de production ne doit être exécutée qu&#39;après une validation complète de l&#39;environnement de développement migré.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Avant de démarrer une migration, vous devez lire ce guide **dans son intégralité**.
 
 >[!NOTE]
 >
 >Les nouveautés et évolutions d&#39;Adobe Campaign v7 sont présentées en détail sur [cette page](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
-
