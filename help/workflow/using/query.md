@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
+source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
 
 ---
 
@@ -25,10 +25,11 @@ source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
 ## Créer une requête {#creating-a-query}
 
 Une requête permet de sélectionner une cible selon des critères. Vous pouvez associer un code segment au résultat de la requête et y insérer des données additionnelles.
+Pour plus d&#39;informations sur les exemples de requêtes, consultez cette [section](../../workflow/using/querying-recipient-table.md).
 
 >[!NOTE]
 >
->Des exemples de requête sont présentés dans [cette section](../../workflow/using/querying-recipient-table.md).
+>Les activités de requête ne sont pas compatibles avec les champs CLOB lors de l’utilisation d’Oracle.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -112,7 +113,7 @@ Pour ajouter une collection d&#39;informations liées à une population ciblée�
 
    * If a single element of the collection coincides with the filtering conditions for this collection, select **[!UICONTROL Single row]** in the **[!UICONTROL Data collected]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Ce mode optimise la requête SQL générée grâce à une jointure directe sur les éléments de la collection.
       >
