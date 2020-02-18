@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -84,7 +84,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    ![](assets/social_facebook_external_account_009.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >N&#39;utilisez en aucun cas l&#39;URL non sécurisée.
 
