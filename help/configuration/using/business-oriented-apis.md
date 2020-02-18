@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -43,7 +43,7 @@ Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur
 
 Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;Unsubscribe&quot; et &quot;SubmitDelivery&quot;.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >[La documentation](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html) JSAPI de campagne contient des informations supplémentaires sur les appels SOAP et l’utilisation de JavaScript dans Adobe Campaign, ainsi qu’une référence complète à toutes les méthodes et fonctions utilisées dans l’application.
 
