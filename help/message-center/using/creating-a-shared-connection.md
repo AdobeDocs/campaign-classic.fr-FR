@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -75,11 +75,15 @@ Procédez comme suit pour créer un compte externe de type instance d&#39;exécu
 
    La collecte des données s&#39;effectue soit par un service Web qui utilise un accès en HTTP/HTTPS, soit via le module Federated Data Access (FDA).
 
+   >[!NOTE]
+   >
+   >Veuillez noter que lorsque vous utilisez FDA sur HTTP, seules les instances d’exécution utilisant une base de données Postgres sont prises en charge. Les bases de données MSSQL ou Oracle ne sont pas prises en charge.
+
    La deuxième méthode est recommandée si l&#39;instance de pilotage peut avoir un accès direct aux bases de données des instances d&#39;exécution. Dans le cas contraire, choisissez l&#39;accès par service Web. Le compte FDA à spécifier correspond à la connexion vers les bases des différentes instances d&#39;exécution créée sur l&#39;instance de pilotage.
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Reportez-vous à la section [Accès à une base de données externe](../../platform/using/accessing-an-external-database.md) pour plus d&#39;informations sur le Federated Data Access (FDA).
+   Reportez-vous à la section [Accès à une base de données externe](../../platform/using/about-fda.md) pour plus d&#39;informations sur le Federated Data Access (FDA).
 
 1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
 
