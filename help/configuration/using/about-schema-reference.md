@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5130802f3723311bcd09e21fc405d298923dd20e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -79,7 +79,7 @@ Un schéma de données est identifié par son nom et son espace de nommage.
 
 Un espace de nommage permet de regrouper un ensemble de schémas par centres d&#39;intérêt. Par exemple, on utilisera l&#39;espace de nommage **cus** pour le paramétrage spécifique aux clients (**customers**).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Par convention, le nom de l&#39;espace de nommage doit être concis et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
 >
