@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -37,7 +37,7 @@ Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 1. **Canal** de courriel : les remises de courrier électronique vous permettent d’envoyer des courriers électroniques personnalisés à la population cible. Reportez-vous à [A propos du canal](../../delivery/using/about-email-channel.md)de messagerie.
 1. **Canal** de messagerie directe : les livraisons directes par courrier vous permettent de générer un fichier d&#39;extraction contenant des données sur la population cible. Reportez-vous à [A propos du canal](../../delivery/using/about-direct-mail-channel.md)de messagerie directe.
 1. **Canal** mobile : les diffusions sur les canaux mobiles vous permettent d’envoyer des SMS personnalisés ou des messages LINE à la population cible. Reportez-vous au canal [](../../delivery/using/sms-channel.md)SMS.
-1. **Canal des applications mobiles** : les diffusions Applications mobiles permettent d&#39;envoyer des notifications sur des systèmes iOS et Android. Voir [Canal des applications mobiles](../../delivery/using/about-mobile-app-channel.md).
+1. **Canal** d&#39;application mobile : les remises d’applications mobiles vous permettent d’envoyer des notifications aux systèmes iOS et Android. Reportez-vous au chapitre sur le canal [des applications](../../delivery/using/about-mobile-app-channel.md) mobiles.
 
    Les autres canaux sont présentés dans [cette page](../../delivery/using/other-channels.md).
 
