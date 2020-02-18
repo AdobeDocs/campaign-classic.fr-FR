@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
+source-git-commit: 33bf5c5a08613cf88eaace91b85a76157cac7ba1
 
 ---
 
@@ -24,13 +24,21 @@ source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
 
 ## A propos de la confidentialité et du consentement {#about-privacy-and-consent}
 
-Adobe Campaign propose une grande puissance de collecte, manipulation, tri et diffusion massive de données, notamment d’informations personnelles. Nous invitons tous les utilisateurs d’Adobe Campaign à se conformer aux cadres juridiques en vigueur (CNIL, LCEN et réglementations européennes RGPD) et à appliquer les règles déontologiques les plus strictes quant au respect de la vie privée des citoyens, à la confidentialité des informations et à l’utilisation des emails, notifications push ou SMS indésirables (« spam »). Nous croyons fermement aux principes du marketing direct autorisé conduisant à l’instauration d’une relation de confiance durable et rentable, et nous interdisons en conséquence formellement à tous les opérateurs d’Adobe Campaign l’usage du logiciel pour l’envoi de messages non sollicités.
+Adobe Campaign est un puissant outil de collecte et de traitement de très grandes quantités de données, y compris des informations personnelles. Nous encourageons tous les utilisateurs d’Adobe Campaign à travailler dans le cadre de la législation (DPA, CAN-SPAM, Directive européenne sur la confidentialité et les communications électroniques, European GDPR, CCPA, etc.), à faire une utilisation responsable et éthique des informations personnelles et à s’abstenir d’envoyer des courriels non sollicités, des notifications Push et des messages SMS (&quot;spam&quot;). Nous croyons fermement aux principes du marketing d’autorisation pour favoriser la valeur et la fidélité des clients tout au long de leur vie. Nous interdisons donc strictement l’utilisation d’Adobe Campaign pour envoyer des messages non sollicités.
 
 Voir à ce sujet la [politique de confidentialité d’Adobe Experience Cloud](https://www.adobe.com/privacy/marketing-cloud.html).
 
-Adobe Campaign fournit les outils et les fonctionnalités, de même que les bonnes pratiques, vous aidant à rester conforme au RGPD lorsque vous utilisez notre service. Consultez [ce document](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html).
-
 Prenez le temps de consulter la [liste de contrôle de sécurité et de confidentialité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html) afin de connaître les principaux éléments à vérifier en termes de sécurité et de confidentialité.
+
+## Gestion de la confidentialité {#privacy-management}
+
+Le GDPR (General Data Protection Regulation) est la loi de l’Union européenne sur la protection de la vie privée qui harmonise et modernise les exigences en matière de protection des données. Le règlement s&#39;applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans l&#39;UE.
+
+L’ACCP (California Consumer Privacy Act) accorde aux résidents de Californie de nouveaux droits en ce qui concerne leurs renseignements personnels et impose des responsabilités en matière de protection des données à certaines entités qui exercent des activités en Californie.
+
+En plus de la gestion du consentement, des paramètres de rétention des données et de la gestion des droits, nous fournissons, en tant que processeur de données, des fonctionnalités supplémentaires pour vous aider à vous préparer en tant que contrôleur de données pour certaines demandes de confidentialité.
+
+Cet [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html)explique comment Adobe Campaign vous aide à gérer les différentes fonctionnalités clés de confidentialité : Droit d&#39;accès, Droit d&#39;être oublié, consentement, conservation des données et rôles utilisateur. Vous trouverez également les meilleures pratiques, afin de vous aider à respecter votre vie privée lorsque vous utilisez notre service.
 
 ## Cookies et fonctionnalités de tracking {#cookies-and-tracking-capabilities}
 
