@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -100,7 +100,7 @@ La configuration du tracking s’effectue de la même manière que pour une diff
 >
 >In the **[!UICONTROL Tweet]** delivery template, tracking is enabled by default.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Il n&#39;est pas possible de distinguer l&#39;activité des robots qui analysent les tweets des utilisateurs qui cliquent réellement.
 
@@ -134,7 +134,7 @@ Le **[!UICONTROL Synchronize Twitter accounts]** processus (voir [Synchronisatio
 
 ![](assets/social_twitter_visitors_001.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. Pour plus d’informations à ce sujet, voir : La [délégation de l’accès en écriture à Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
@@ -181,7 +181,7 @@ Vous devez sélectionner les abonnés à qui vous souhaitez envoyer votre messag
 
    * Select **[!UICONTROL Twitter subscribers]** to send a direct message to all account followers.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Vous ne pouvez pas envoyer plus de 250 messages par jour. Si votre compte Twitter comporte plus de 250 abonnés, il est vivement recommandé d’effectuer un envoi en plusieurs vagues. L’envoi en plusieurs vagues s’effectue de la même manière que pour une diffusion email. Reportez-vous à [cette section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 
