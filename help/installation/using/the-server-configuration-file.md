@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9d7cbe5f2407deb8fd2e00a60bf9e3789101e6ff
+source-git-commit: 09fa3751d94fd71a68470174dd0b4a48d94d3f44
 
 ---
 
@@ -88,7 +88,7 @@ Voici les différents paramètres du nœud **authentication** :
   <tr> 
    <td> defaultMode<br /> </td> 
    <td> Mode d’identification par défaut.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'nl'<br /> </td> 
   </tr> 
   <tr> 
@@ -135,13 +135,13 @@ Voici les différents paramètres du nœud **authentication > XTK** :
   <tr> 
    <td> internalPassword<br /> </td> 
    <td> Mot de passe du compte internal.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> internalSecurityZone<br /> </td> 
    <td> Zone de sécurité du compte internal : zone autorisée pour le compte internal.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'lan'<br /> </td> 
   </tr> 
  </tbody> 
@@ -164,13 +164,13 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   <tr> 
    <td> exportDirectory<br /> </td> 
    <td> Répertoire d’export : chemin du répertoire destination pour les données exportées.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/export/' <br /> </td> 
   </tr> 
   <tr> 
    <td> extraSandboxedDirectories<br /> </td> 
    <td> Répertoires en sandbox supplémentaires : autres chemins à ajouter au sandbox (séparés par une virgule).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '/home/customers/,/sftp/' <br /> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   <tr> 
    <td> hosts<br /> </td> 
    <td> Masques DNS : liste de masques DNS associés à cette instance (séparés par des virgules, peut comporter les caractères joker * et ?).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '*'<br /> </td> 
   </tr> 
   <tr> 
@@ -194,19 +194,19 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   <tr> 
    <td> lang<br /> </td> 
    <td> Langue de l’instance (énumération). Les valeurs possibles sont 'fr_FR' (Français), 'en_GB' (Anglais (UK)), 'en_US' (Anglais (US)), 'de_DE' (Deutsch) et 'ja_JP' (Japonais).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'en_US'<br /> </td> 
   </tr> 
   <tr> 
    <td> uploadDirectory<br /> </td> 
    <td> Répertoire d’upload : chemin du répertoire destination pour les données téléchargées.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/upload/' <br /> </td> 
   </tr> 
   <tr> 
    <td> uploadWhitelist<br /> </td> 
    <td> Fichiers autorisés à télécharger séparés par ",". La chaîne doit être une expression java régulière valide. Voir <a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limitation des fichiers</a>téléchargeables.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
   <tr> 
@@ -218,19 +218,19 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   <tr> 
    <td> vaultSecretPath<br /> </td> 
    <td> Chemin d’accès du secret dans Vault<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '/v1/secret/campaign/'<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultTokenPath<br /> </td> 
    <td> Chemin d’accès local du fichier contenant le jeton de coffre. $(HOME) peut être utilisé dans ce chemin (mais pas d’autres variables d’environnement).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '$(HOME)/.vaulttoken'<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultUrl<br /> </td> 
    <td> URL de Hashicorp Vault <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   <tr> 
    <td> workingDirectory<br /> </td> 
    <td> Chemin du répertoire de travail.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> workingDirectory : chemin du répertoire de travail. Par défaut : '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
   </tr> 
  </tbody> 
@@ -264,12 +264,12 @@ Voici les différents paramètres du nœud **dataStore > proxyAdjust**. Les URL
   <tr> 
    <td> urlBase<br /> </td> 
    <td> Base à utiliser quand on génère des URL externes. Ex : https://server.domain.com<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
    <td> Expression régulière de match. Ex : http://server\.lan\.net.*<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,7 +291,7 @@ Voici les différents paramètres du nœud **dataStore > dataSource**.
   <tr> 
    <td> name<br /> </td> 
    <td> Nom de la source de données<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> default<br /> </td> 
   </tr> 
  </tbody> 
@@ -318,7 +318,7 @@ Dans le nœud **dataStore > dataSource > dbcnx**, configurez les paramètres d
   <tr> 
    <td> dbSchema<br /> </td> 
    <td> Espace de travail<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -330,31 +330,31 @@ Dans le nœud **dataStore > dataSource > dbcnx**, configurez les paramètres d
   <tr> 
    <td> login<br /> </td> 
    <td> Compte<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> password<br /> </td> 
    <td> Mot de passe<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> provider<br /> </td> 
    <td> Type (énumération). Possible values are 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL, Greenplum), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase ASE, Sybase IQ)), 'Relay' (HTTP relay to remote database).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
   <tr> 
    <td> server<br /> </td> 
    <td> Serveur<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> timezone<br /> </td> 
    <td> Fuseau horaire : voir Gestion des <a href="../../installation/using/time-zone-management.md" target="_blank">fuseaux horaires</a>.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -386,7 +386,7 @@ Dans le nœud **dataStore > dataSource > sqlParams**, configurez les paramètr
   <tr> 
    <td> funcPrefix<br /> </td> 
    <td> Préfixe pour les fonctions<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -443,12 +443,12 @@ Pour plus d’informations, voir [Gestion des ressources](../../installation/usi
   <tr> 
    <td> name<br /> </td> 
    <td> Nom du répertoire virtuel <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> path<br /> </td> 
    <td> Chemin complet du répertoire réel<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -477,17 +477,17 @@ Voici les différents paramètres du nœud **dataStore > preprocessCommand**. I
   <tr> 
    <td> command<br /> </td> 
    <td> La ligne de commande <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> label<br /> </td> 
    <td> Libellé de ligne de commande<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> name<br /> </td> 
    <td> Nom de ligne de commande<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -518,13 +518,13 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   <tr> 
    <td> localDomain<br /> </td> 
    <td> Nom de domaine : nom de domaine par défaut. Utilisé par la commande SMTP HELO. Par défaut, utilise les paramètres réseau de la première interface réseau déclarée sous Windows, ou parse le fichier /etc/resolv.conf sous Linux (entrée domain ou search). <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> nameServers<br /> </td> 
    <td> Serveur DNS : liste séparée par des virgules des serveurs de noms (DNS). Voir la note ci-dessous.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -574,12 +574,12 @@ Pour plus d’informations, voir [Restriction des commandes](../../installation/
   <tr> 
    <td> blacklistFile<br /> </td> 
    <td> Chemin du fichier contenant la liste des commandes à interdire. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> user<br /> </td> 
    <td> Exécuter des commandes en tant qu’utilisateur différent.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -601,7 +601,7 @@ Voici les différents paramètres du nœud **htmlToPdf**. Il s’agit de la conf
   <tr> 
    <td> command<br /> </td> 
    <td> Ligne de commande à lancer pour effectuer la conversion (en mode 'other').<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -613,7 +613,7 @@ Voici les différents paramètres du nœud **htmlToPdf**. Il s’agit de la conf
   <tr> 
    <td> mode<br /> </td> 
    <td> Outil à utiliser pour effectuer la conversion. Les valeurs possibles sont : phantomjs, wkhtmltopdf, other, disabled<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
@@ -691,13 +691,13 @@ Voici les différents paramètres du nœud **mailExchanger**. Il s’agit de la 
   <tr> 
    <td> mxAddress<br /> </td> 
    <td> Serveur SMTP : adresse IP du serveur SMTP pour le transfert des emails.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> mxPort<br /> </td> 
    <td> Port TCP du serveur SMTP pour le transfert des emails.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
  </tbody> 
@@ -720,7 +720,7 @@ Voici les différents paramètres du nœud **module**. Il s’agit de la configu
   <tr> 
    <td> defaultNameSpace<br /> </td> 
    <td> Espace de nommage par défaut lors de la création d’une nouvelle entité.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
  </tbody> 
@@ -749,13 +749,13 @@ Voici les différents paramètres du nœud **monitoring**. Il s’agit de la con
   <tr> 
    <td> unixScript<br /> </td> 
    <td> Script Unix à exécuter par le service de surveillance.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> winScript<br /> </td> 
    <td> Script Windows à exécuter par le service de surveillance.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
@@ -790,13 +790,13 @@ Voici les différents paramètres du nœud **ooconv**. Il s’agit de la configu
   <tr> 
    <td> portRange<br /> </td> 
    <td> Intervalle de ports sur lesquels les serveurs OpenOffice sont démarrés en écoute.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 8101-8110<br /> </td> 
   </tr> 
   <tr> 
    <td> url<br /> </td> 
    <td> URL du serveur de conversion de document.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'http://localhost:8080/nl/jsp/ooconv.jsp'<br /> </td> 
   </tr> 
  </tbody> 
@@ -827,7 +827,7 @@ Pour plus d&#39;informations, consultez Configuration [de la connexion](../../in
   <tr> 
    <td> override<br /> </td> 
    <td> Exceptions : liste des adresses pour lesquelles ignorer les paramètres de proxy.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'localhost*' <br /> </td> 
   </tr> 
   <tr> 
@@ -857,17 +857,17 @@ Pour plus d&#39;informations, consultez Configuration [de la connexion](../../in
   <tr> 
    <td> address<br /> </td> 
    <td> Adresse du serveur proxy<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> login<br /> </td> 
    <td> Login pour la connexion au serveur proxy<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> password<br /> </td> 
    <td> Mot de passe pour la connexion au serveur proxy<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> port<br /> </td> 
@@ -923,7 +923,7 @@ Pour plus d&#39;informations, reportez-vous à la section Protection [des connex
   <tr> 
    <td> action<br /> </td> 
    <td> Action par défaut si l’URL n’est pas dans la liste autorisée (énumération). Les valeurs possibles sont 'ignore' (autoriser sans message d’avertissement, cela nécessite la désactivation de la protection), 'warn' (autoriser et émettre un message d’avertissement) et 'deny' (interdire l’accès à l’URL).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> deny<br /> </td> 
   </tr> 
   <tr> 
@@ -953,12 +953,12 @@ Pour plus d&#39;informations, reportez-vous à la section Protection [des connex
   <tr> 
    <td> dnsSuffix<br /> </td> 
    <td> Nom de domaine, ou domaine parent, concerné par l’URL : tout ou partie du domaine de l’URL à vérifier afin d’accélérer la vérification. L’URL est uniquement vérifiée par rapport à l’expression régulière si son domaine contient dsnSuffix.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
    <td> Expression régulière pour affiner la validation des URL appartenant à ce domaine : expression régulière que l’URL doit vérifier, si elle correspond à dnsSuffix.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -969,7 +969,7 @@ Par exemple, pour autoriser l’accès à toutes les URL du domaine business.com
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.*&quot;
 
-et
+and
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
@@ -1046,7 +1046,7 @@ Pour plus d’informations, voir [Activation de l’archivage des e-mails (sur s
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1076,7 +1076,7 @@ Pour plus d’informations, voir [Activation de l’archivage des e-mails (sur s
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1100,7 +1100,7 @@ Pour plus d’informations, voir [Activation de l’archivage des e-mails (sur s
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -1118,7 +1118,7 @@ Pour plus d’informations, voir [Activation de l’archivage des e-mails (sur s
   <tr> 
    <td> smtpBccAddress<br /> </td> 
    <td> Destination de la cible d’archivage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1136,7 +1136,7 @@ Pour plus d’informations, voir [Activation de l’archivage des e-mails (sur s
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
    <td> Liste séparée par des virgules des noms DNS ou adresses IP des relais SMTP à utiliser. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1165,7 +1165,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1178,18 +1178,18 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
    <td> checkInstanceName<br /> </td> 
    <td> Vérifier le nom de l’instance : si vrai, le nom de l’instance Adobe Campaign contenu dans les en-têtes Message-ID doit être le même que celui de l’instance courante. <br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultForwardAddress<br /> </td> 
    <td> Adresse de transfert : adresse par défaut de transfert des emails non traités par une règle. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
    <td> Adresse pour les erreurs : adresse par défaut de transfert des emails invalides (mauvais encoding MIME). <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1207,7 +1207,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1261,7 +1261,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -1302,7 +1302,7 @@ Dans le nœud **inMail > msgDump**, configurez les paramètres suivants. Il s�
   <tr> 
    <td> msgPath<br /> </td> 
    <td> Chemin de sauvegarde des messages.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '/tmp/inMail'<br /> </td> 
   </tr> 
  </tbody> 
@@ -1327,7 +1327,7 @@ Pour plus d’informations, voir [Interaction - Tampon](../../installation/using
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1345,7 +1345,7 @@ Pour plus d’informations, voir [Interaction - Tampon](../../installation/using
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1375,7 +1375,7 @@ Pour plus d’informations, voir [Interaction - Tampon](../../installation/using
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -1416,7 +1416,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '-tracefilter:nlmta' <br /> </td> 
   </tr> 
   <tr> 
@@ -1428,13 +1428,13 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   <tr> 
    <td> dataLogPath<br /> </td> 
    <td> Chemin de sauvegarde des emails envoyés : si pas vide, chemin où seront enregistrés tous les fichiers sources des emails envoyés. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> debugPath<br /> </td> 
    <td> Répertoire de dump : si non vide, copie les enveloppes MIME des messages envoyés dans ce répertoire. Utilisé à des fins de diagnostic. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1452,14 +1452,14 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> logEmailErrors<br /> </td> 
    <td> Générer des statistiques d’erreur et les enregistrer dans la base de données.<br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
@@ -1506,13 +1506,13 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   <tr> 
    <td> notifRelay<br /> </td> 
    <td> Relais de notification : HostName:Port permettant le relais des notifications.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -1525,7 +1525,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
    <td> retryLostMessages<br /> </td> 
    <td> Réessayer les messages perdus : les fragments de diffusions seront repris si le processus fils est mort.<br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -1540,21 +1540,27 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordinates of the statistics server</a>. 
       <br /> 
      </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> Si non défini, le port par défaut est 7777.<br /> </td> 
   </tr> 
   <tr> 
    <td> statServerTLSSupport<br /> </td> 
    <td> Enable TLS by domain: enables the TLS configurable by MX (requires an up-to-date statistics server).<br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai <br /> </td> 
+   <td> true <br /> </td> 
   </tr> 
   <tr> 
    <td> statServerVersion<br /> </td> 
    <td> Version du protocole utilisé : version du protocole de communication (1 pour un serveur 5.11 et 6.0.2, 2 pour un serveur 6.1).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> Si non définie, la dernière version est utilisée. <br /> </td> 
   </tr> 
+  <tr> 
+   <td> useMomentum<br /> </td> 
+   <td> Si la valeur est "true", votre instance utilise la <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">MTA</a>améliorée.<br /> </td> 
+   <td> Booléen<br /> </td> 
+   <td> <br /> </td>b 
+  </tr>
   <tr> 
    <td> verifyMode<br /> </td> 
    <td> Mode de vérification : active le mode vérification (pas d’envoi physique des messages ; utilisé en simulation et tests).<br /> </td> 
@@ -1564,15 +1570,15 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   <tr> 
    <td> workingPath<br /> </td> 
    <td> Répertoire de travail : emplacement des fichiers temporaires utilisés par le MTA pour communiquer avec ses processus fils.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/mta/' <br /> </td> 
   </tr> 
   <tr> 
    <td> xMailer<br /> </td> 
    <td> Champ X-Mailer : valeur du champ d’en-tête SMTP 'X-Mailer'.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'nlserver, Build $(PRODUCT_VERSION)'<br /> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -1630,7 +1636,7 @@ Pour plus d&#39;informations, consultez Relais [](../../installation/using/confi
   <tr> 
    <td> address<br /> </td> 
    <td> Liste séparée par des virgules des noms DNS ou adresses IP des relais SMTP à utiliser. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1716,7 +1722,7 @@ Pour plus d’informations, voir Optimisation [de l’envoi de](../../installati
   <tr> 
    <td> extraArgs<br /> </td> 
    <td> Arguments ligne de commande optionnels <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1831,12 +1837,12 @@ Pour plus d’informations, voir [Liste des adresses IP à utiliser](../../insta
   <tr> 
    <td> localDomain<br /> </td> 
    <td> Nom de domaine : nom de domaine associé à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> name<br /> </td> 
    <td> Nom logique : noms associés à l’affinité par les utilisateurs. Le séparateur des noms est un point-virgule ;<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1857,7 +1863,7 @@ Pour plus d’informations, reportez-vous à la [liste des adresses IP à utilis
   <tr> 
    <td> address<br /> </td> 
    <td> Adresse physique associée. Ex : '192.168.0.1'<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
@@ -1872,17 +1878,17 @@ Pour plus d’informations, reportez-vous à la [liste des adresses IP à utilis
   <tr> 
    <td> includeDomains<br /> </td> 
    <td> Masques des domaines à inclure séparés par une virgule.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> excludeDomains<br /> </td> 
    <td> Masques des domaines à exclure séparés par une virgule.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> heloHost<br /> </td> 
    <td> Nom de la machine associée à l’adresse IP. Utilisé par la commande SMTP HELO.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1927,7 +1933,7 @@ Voici les différents paramètres du nœud **nmac > relay**. Il s’agit de la 
   <tr> 
    <td> address<br /> </td> 
    <td> Adresse ou nom DNS du relais à utiliser. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -1939,7 +1945,7 @@ Voici les différents paramètres du nœud **nmac > relay**. Il s’agit de la 
   <tr> 
    <td> trustedCertsChain<br /> </td> 
    <td> Chaîne de certificats (fichier PEM). Utile pour l’utilisation d’un server mock.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
@@ -1962,25 +1968,25 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   <tr> 
    <td> appName<br /> </td> 
    <td> Nom de l’application généré dans le Developer Connection au moment d’enregistrer la clé publique. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> authGatewayEndpoint<br /> </td> 
    <td> URL pour obtenir un 'gateway token'.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'https://api.omniture.com' <br /> </td> 
   </tr> 
   <tr> 
    <td> authPrivateKey<br /> </td> 
    <td> Clé privée pour obtenir les jetons (cryptée en AES avec l’option XtkKey).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -1998,7 +2004,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   <tr> 
    <td> discoverPipelineEndpoint<br /> </td> 
    <td> URL pour découvrir l’URL des Pipeline Services.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'https://producer-pipeline-pnw.adobe.net'<br /> </td> 
   </tr> 
   <tr> 
@@ -2010,13 +2016,13 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   <tr> 
    <td> forcedPipelineEndpoint<br /> </td> 
    <td> URL d’écoute : forcer l’URL d’écoute des Pipeline Services. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2052,7 +2058,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -2160,13 +2166,13 @@ Pour plus d’informations, voir [Définition des zones](../../installation/usin
   <tr> 
    <td> label<br /> </td> 
    <td> Libellé<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
    <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> NewName() <br /> </td> 
   </tr> 
   <tr> 
@@ -2228,25 +2234,25 @@ Pour plus d’informations, voir [Définition des zones](../../installation/usin
   <tr> 
    <td> label<br /> </td> 
    <td> Libellé<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
    <td> mask<br /> </td> 
    <td> Masque ou adresse<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> NewName() <br /> </td> 
   </tr> 
   <tr> 
    <td> proxy<br /> </td> 
    <td> Masque ou adresse du (reverse) proxy utilisé par ce sous-réseau pour accéder à l’instance. L’en-tête 'X-Forwarded-For' sera alors testée en lieu et place de ce proxy.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 127.0.0.1 <br /> </td> 
   </tr> 
  </tbody> 
@@ -2269,7 +2275,7 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2293,7 +2299,7 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2323,7 +2329,7 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -2393,7 +2399,7 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2405,7 +2411,7 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2429,7 +2435,7 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -2458,7 +2464,7 @@ Voici les différents paramètres du nœud **syslogd**. Il s’agit de la config
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2470,7 +2476,7 @@ Voici les différents paramètres du nœud **syslogd**. Il s’agit de la config
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2500,7 +2506,7 @@ Voici les différents paramètres du nœud **syslogd**. Il s’agit de la config
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -2529,7 +2535,7 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2571,7 +2577,7 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2595,7 +2601,7 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -2642,7 +2648,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2654,7 +2660,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2690,7 +2696,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -2733,7 +2739,7 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   <tr> 
    <td> JVMOptions<br /> </td> 
    <td> Options de la JVM passées en string.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2751,7 +2757,7 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2775,7 +2781,7 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2799,13 +2805,13 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   <tr> 
    <td> notifRelay<br /> </td> 
    <td> Relais de notification : HostName:Port permettant le relais des notifications.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
@@ -2846,19 +2852,19 @@ Voici les différents paramètres du nœud **web > jsp**. Il s’agit de la con
   <tr> 
    <td> downloadPath<br /> </td> 
    <td> Répertoire de téléchargement : chemin d’accès au répertoire de téléchargement des programmes d’installation pour les consoles clientes.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/datakit/nl/eng/jsp'<br /> </td> 
   </tr> 
   <tr> 
    <td> foFileName<br /> </td> 
    <td> Chemin du fichier .fo.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> soapRouter<br /> </td> 
    <td> URL du routeur SOAP (http://monserveur/xxx, http://jni ou mailto:xxx).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'http://jni'<br /> </td> 
   </tr> 
  </tbody> 
@@ -2921,7 +2927,7 @@ Voici les différents paramètres du nœud **web > jssp**. Il s’agit de la co
    <td> collectsGarbageAfterRequest<br /> </td> 
    <td> Active le garbage collector du contexte JavaScript après chaque requête.<br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
@@ -2959,19 +2965,19 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
   <tr> 
    <td> forbiddenCharsInAuthority<br /> </td> 
    <td> Caractère(s) interdit(s) (domaine) : liste des caractères interdits dans la partie 'autorité' d’une URI.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '.?#@/:' <br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInPath<br /> </td> 
    <td> Caractère(s) interdit(s) (chemin) : liste des caractères interdits dans la partie 'chemin' d’une URI.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '?#/'<br /> </td> 
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
    <td> Valeur de l’option du module 'mod_dir' : liste des fichiers à servir lors d’une requête sur un dossier.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'index.md' <br /> </td> 
   </tr> 
   <tr> 
@@ -2984,12 +2990,12 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
    <td> startRelayInModule<br /> </td> 
    <td> Démarrer le module de relais HTTP dans le serveur Web. <br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> timeout<br /> </td> 
    <td> Temps d’attente avant effacement de l’URL bannie.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '60'<br /> </td> 
   </tr> 
  </tbody> 
@@ -3012,7 +3018,7 @@ Pour plus d’informations, reportez-vous à la section Sécurité [dynamique de
   <tr> 
    <td> IPMask<br /> </td> 
    <td> IP autorisées : liste (séparée par des virgules) des adresses IP sources ayant la permission d’utiliser le module de relais pour ce masque.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3024,7 +3030,7 @@ Pour plus d’informations, reportez-vous à la section Sécurité [dynamique de
   <tr> 
    <td> hostMask<br /> </td> 
    <td> Alias DNS à relayer : liste (séparée par des virgules) de masques d’alias DNS à relayer (ex : '*.adobe.com').<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3048,13 +3054,13 @@ Pour plus d’informations, reportez-vous à la section Sécurité [dynamique de
   <tr> 
    <td> status<br /> </td> 
    <td> Statut de synchronisation d’une ressource publique (énumération). Les valeurs possibles sont 'normal' (exécution normale), 'blacklist' (blacklist de l’URL si erreur 404) et 'spare' (téléchargement du fichier sur les spare server si existant).<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
    <td> URL of the target page: refer to <a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Configuring Tomcat</a>.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3066,7 +3072,7 @@ Pour plus d’informations, reportez-vous à la section Sécurité [dynamique de
   <tr> 
    <td> urlPath<br /> </td> 
    <td> Masque des URL à relayer (ex : '/nl*', '*.jsp').<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
@@ -3153,12 +3159,12 @@ Pour plus d’informations, voir [Gestion des en-têtes](../../installation/usin
   <tr> 
    <td> name<br /> </td> 
    <td> Nom de l’en-tête<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
   <tr> 
    <td> valeur<br /> </td> 
    <td> Valeur de l’en-tête <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3188,25 +3194,25 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
   <tr> 
    <td> IMSOrgId<br /> </td> 
    <td> Identifiant de l’organisation IMS : identifiant unique de l’organisation au sein d’Adobe Marketing Cloud, utilisé notamment pour le service VisitorId et pour le SSO IMS. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> P3PCompactPolicy<br /> </td> 
    <td> Valeur décrivant la politique de gestion des cookies permanents (au format P3P compact policy). <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 'CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV'<br /> </td> 
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
    <td> Liste des domaines, séparés par des virgules, à configurer afin d’indiquer explicitement votre domaine pour définir un cookie. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> databaseId<br /> </td> 
    <td> Identifiant de la base de données associé à l’instance de tracking.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3218,7 +3224,7 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
   <tr> 
    <td> expirationURL<br /> </td> 
    <td> Page des redirections périmées : adresse de la page web utilisée par défaut par le module de redirection lorsque la diffusion a expiré.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3231,13 +3237,13 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
    <td> startRedirection<br /> </td> 
    <td> Démarrer le service de redirection.<br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirectionInModule<br /> </td> 
    <td> Démarrer le service de redirection en mode module.<br /> </td> 
    <td> Booléen<br /> </td> 
-   <td> vrai<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> trackWebVisitors<br /> </td> 
@@ -3248,7 +3254,7 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
   <tr> 
    <td> trackingPassword<br /> </td> 
    <td> Mot de passe utilisé par le serveur de redirection.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
@@ -3271,19 +3277,19 @@ Pour plus d&#39;informations, consultez Suivi [](../../installation/using/config
   <tr> 
    <td> enabledIf<br /> </td> 
    <td> Pris en compte si : le serveur de tracking est pris en compte si l’expression retourne vrai. <br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> id<br /> </td> 
    <td> Nom<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> url<br /> </td> 
    <td> URL d’un serveur de redirection supplémentaire<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
@@ -3307,7 +3313,7 @@ Pour plus d&#39;informations, consultez [Configuration de SpamAssassin](../../in
   <tr> 
    <td> command<br /> </td> 
    <td> Commande à exécuter pour évaluer le score anti-spam d’un email (ex : 'perl spamcheck.pl').<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3331,13 +3337,13 @@ Pour plus d’informations, voir Flux de travaux [haute disponibilité et affini
   <tr> 
    <td> affinity<br /> </td> 
    <td> Affinité<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
    <td> Paramètres de démarrage<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3355,7 +3361,7 @@ Pour plus d’informations, voir Flux de travaux [haute disponibilité et affini
   <tr> 
    <td> initScript<br /> </td> 
    <td> Identifiant du JavaScript à exécuter lors du démarrage du processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -3373,13 +3379,13 @@ Pour plus d’informations, voir Flux de travaux [haute disponibilité et affini
   <tr> 
    <td> notifRelay<br /> </td> 
    <td> Relais de notification : HostName:Port permettant le relais des notifications.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure à laquelle le processus est automatiquement redémarré. Voir Redémarrage <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank"></a>automatique des processus.<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
