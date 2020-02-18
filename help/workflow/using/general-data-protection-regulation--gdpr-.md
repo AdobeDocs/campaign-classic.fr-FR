@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 ---
 
 
-# Règlement général sur la protection des données (RGPD){#general-data-protection-regulation-gdpr}
+# Règlement sur la protection des informations personnelles{#general-data-protection-regulation-gdpr}
 
-Les workflows présentés ci-dessous sont installés par défaut avec le module **Règlement général sur la protection des données (RGPD)**. Pour plus d’informations sur ce module, consultez cette [section](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html).
+Les processus décrits ci-dessous sont installés par défaut avec le module **Confidentialité et Protection des Données** . For more on this module, refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 
 <table> 
  <tbody> 
