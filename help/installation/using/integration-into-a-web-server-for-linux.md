@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: abddb3cdfcee9e41cab2e7e662d5bfd5d53d6f7e
+source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
 
 ---
 
@@ -64,12 +64,6 @@ Les étapes sont les suivantes :
    ```
 
 1. Create the file **nlsrv.load** in **/etc/apache2/mods-available** and insert the following content:
-
-   Sous Debian 7 :
-
-   ```
-   LoadModule requesthandler22_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
-   ```
 
    Sous Debian 8 :
 
@@ -147,63 +141,47 @@ Les étapes sont les suivantes :
    userdir
    ```
 
-Commentez les fonctions liées aux modules désactivés :
-
-    &quot;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    DirectoryIndexOptionsAddIconByEncodingAddIconByTypeAddIconDefaultIconDefaultIconReaderNameHeaderIndexIgnoreLanguagePriorityForceLanguagePriority
-    &quot;
-
-1. Créez un fichier de configuration spécifique à Adobe Campaign dans le `/etc/httpd/conf.d/` dossier.
-
-Par exemple `CampaignApache.conf`.
-
-1. For **RHEL6**, add the following instructions in the file:
+   Commentez les fonctions liées aux modules désactivés :
 
    ```
-   LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
+   DirectoryIndex
+   IndexOptions    
+   AddIconByEncoding    
+   AddIconByType    
+   AddIcon    
+   DefaultIcon    
+   ReadmeName    
+   HeaderName    
+   IndexIgnore    
+   LanguagePriority    
+   ForceLanguagePriority
+   ```
+
+1. Créez un fichier de configuration spécifique à Adobe Campaign dans le `/etc/httpd/conf.d/` dossier. Par exemple `CampaignApache.conf`
+
+1. For **RHEL7**, add the following instructions in the file:
+
+   ```
+   LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
    Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
    ```
 
-For **RHEL7**, add the following instructions in the file:
+1. For **RHEL7**:
 
-LoadModule request thandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.soInclure /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
+   Add the `/etc/systemd/system/httpd.service` file with the following content:
 
-1. For **RHEL6**:
+   ```
+   .include /usr/lib/systemd/system/httpd.service
+   
+   [Service]
+   Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
+   ```
 
-Add the following instructions in the `/etc/sysconfig/httpd` file:
+   Mettez à jour le module utilisé par systemd :
 
-    &quot;
-    #Neolane/Adobe Campaign
-    Configuration if [ &quot;$LD_LIBRARY_PATH&quot; != &quot;&quot; ]; exporter ensuite LD_LIBRARY_PATH=&quot;/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH&quot;; else export LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib;
-    fiexport USERPATH=/usr/local/néolane
-    &quot;
-
-For **RHEL7**:
-
-Add the `/etc/systemd/system/httpd.service` file with the following content:
-
-    &quot;
-    .include /usr/lib/systemd/system/httpd.service
-    
-    [Service]
-    Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
-    &quot;
-
-Mettez à jour le module utilisé par systemd :
-
-    &quot;
-    systemctl daemon-reload
-    &quot;
+   ```
+   systemctl daemon-reload
+   ```
 
 1. Ajoutez ensuite les utilisateurs Adobe Campaign dans le groupe d&#39;utilisateurs Apache et inversement, en effectuant la commande :
 
@@ -211,23 +189,17 @@ Mettez à jour le module utilisé par systemd :
    usermod -a -G neolane apache
    usermod -a -G apache neolane
    ```
-Les noms des groupes à utiliser dépendent de votre configuration Apache.
+
+   Les noms des groupes à utiliser dépendent de votre configuration Apache.
 
 1. Démarrez Apache et le serveur Adobe Campaign:
 
-Pour RHEL6 :
+   Pour RHEL7 :
 
-    &quot;
-    /etc/init.d/httpd start
-    /etc/init.d/nlserver start
-    &quot;
-
-Pour RHEL7 :
-
-    &quot;
-    systemctl start
-    httpdsystemctl start nlserver
-    &quot;
+   ```
+   systemctl start httpd
+   systemctl start nlserver
+   ```
 
 ## Lancement du serveur Web et test de la configuration{#launching-the-web-server-and-testing-the-configuration}
 
@@ -277,4 +249,4 @@ Les informations affichées sont alors les suivantes :
 Connection closed by foreign host.
 ````
 
-You can also request the URL [`http://<computer>`](http://machine/r/test) from a Web browser.
+You can also request the URL [`https://<computer>`](https://machine/r/test) from a Web browser.
