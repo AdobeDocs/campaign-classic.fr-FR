@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -29,8 +29,6 @@ Le type d&#39;interface Web **par formulaire** implique l&#39;utilisation d&#39;
 >[!NOTE]
 >
 >Les APIs sont présentées dans un document dédié, accessible selon votre contrat. Voir [API](../../configuration/using/about-web-services.md).
-
->[!NOTE]
 >
 >L&#39;application Web utilisée dans cet exemple n&#39;est pas une application Web native d&#39;Adobe Campaign. Pour utiliser un formulaire dans une opération, vous devez créer l&#39;application Web dédiée.
 
@@ -159,7 +157,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
    * le contenu du message qui sera envoyé aux entités locales lors de la notification,
    * le rappel pour la validation,
-   * le traitement anticipé de l&#39;opération.
+   * traitement attendu pour la campagne.
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
 1. Sauvegardez votre enregistrement.
