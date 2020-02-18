@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
+      + [Version 19.2](rn/using/release--19-2.md)
       + [Version 19.1](rn/using/release--19-1.md)
       + [Version 18.10](rn/using/release--18-10.md)
       + [Version 18.6](rn/using/release--18-6.md)
@@ -54,7 +55,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
    + Filtrer les données {#filtering-data}
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
-      + [Utilisation :](platform/using/use-case.md)
+      + [Cas pratique](platform/using/use-case.md)
    + Créer une requête {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
@@ -64,9 +65,17 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Utiliser les packages de données](platform/using/working-with-data-packages.md)
       + [Gestion des énumérations](platform/using/managing-enumerations.md)
       + [Comptes externes](platform/using/external-accounts.md)
+   + Accéder à une base externe (FDA){#accessing-external-database}
+      + [À propos de la FDA](platform/using/about-fda.md)
+      + [Configurations spécifiques par type de base de données](platform/using/specific-configuration-database.md)
+      + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
+      + [Connexion à la base de données](platform/using/connecting-to-database.md)
+      + [Créer le schéma des données](platform/using/creating-data-schema.md)
+      + [Définir le mapping des données](platform/using/defining-data-mapping.md)
+      + [Options additionnelles](platform/using/additional-options.md)
+      + [Utiliser les données d&#39;une base externe dans un workflow](platform/using/data-external-database-workflow.md)
    + Connecteurs {#connectors}
       + [A propos des connecteurs](platform/using/about-connectors.md)
-      + [Accès à une base de données externe](platform/using/accessing-an-external-database.md)
       + [Connecteurs CRM](platform/using/crm-connectors.md)
       + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
@@ -92,7 +101,8 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Canal LINE](delivery/using/line-channel.md)
    + Envoi de notifications push {#sending-push-notifications}
       + [A propos de Mobile App Channel](delivery/using/about-mobile-app-channel.md)
-      + [Configuration de Mobile App Channel](delivery/using/setting-up-mobile-app-channel.md)
+      + [Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [Paramétrage de l&#39;application mobile dans Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
       + [Créer des notifications](delivery/using/creating-notifications.md)
       + [Résolution des problèmes](delivery/using/troubleshooting.md)
    + Envoi de courrier {#sending-direct-mail}
@@ -213,7 +223,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
    + Analyser les populations {#analyzing-populations}
       + [A propos de l&#39;analyse descriptive](reporting/using/about-descriptive-analysis.md)
       + [Utiliser l&#39;assistant d&#39;analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [Utilisation d’un rapport d’analyse](reporting/using/processing-a-report.md)
+      + [Traitement du rapport](reporting/using/processing-a-report.md)
       + [Cas pratiques](reporting/using/use-cases.md)
    + Créer de nouveaux rapports {#creating-new-reports}
       + [A propos de la création de rapports dans Campaign](reporting/using/about-reports-creation-in-campaign.md)
@@ -350,8 +360,8 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Validation](workflow/using/approval.md)
       + [Alerte](workflow/using/alert.md)
       + [Tâche](workflow/using/task.md)
-   + Activités d&#39;action {#action-activities}
-      + [A propos des activités d’action](workflow/using/about-action-activities.md)
+   + Activités d’action {#action-activities}
+      + [À propos des activités d’action](workflow/using/about-action-activities.md)
       + [Diffusion](workflow/using/delivery.md)
       + [Agir sur une diffusion](workflow/using/delivery-control.md)
       + [Diffusion (au fil de l&#39;eau)](workflow/using/continuous-delivery.md)
@@ -427,7 +437,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Ressources marketing (MRM)](workflow/using/marketing-resources--mrm-.md)
       + [Social Marketing](workflow/using/social-marketing.md)
       + [Intégrations avec les solutions Adobe Experience Cloud](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-      + [Règlement général sur la protection des données (RGPD)](workflow/using/general-data-protection-regulation--gdpr-.md)
+      + [Règlement sur la protection des informations personnelles](workflow/using/general-data-protection-regulation--gdpr-.md)
       + [Emission vers Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
       + [Plate-forme de Mid-sourcing](workflow/using/mid-sourcing-platform.md)
 + Gestion des offres {#managing-offers}
@@ -514,8 +524,8 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [Qualité de service Message Center](message-center/using/message-center-service-level.md)
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
    + Utilisation :{#use-case}
-      + [Intérêt](message-center/using/purpose.md)
-      + [Remarques importantes](message-center/using/important-notes.md)
+      + [Objectif](message-center/using/purpose.md)
+      + [Remarques importantes ](message-center/using/important-notes.md)
       + [Mise en oeuvre](message-center/using/implementation.md)
 + Intégration aux médias sociaux {#integrating-with-social-media}
    + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
