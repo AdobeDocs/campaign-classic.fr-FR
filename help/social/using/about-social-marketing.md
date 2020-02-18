@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -35,7 +35,7 @@ L&#39;application **Gestion des réseaux sociaux** (Social Marketing) vous perme
 
    Social Marketing permet également de faciliter l&#39;acquisition de nouveaux contacts à partir de Facebook. Vous pouvez entrer en contact avec les utilisateurs Facebook et leur proposer de partager leurs informations de profil. S&#39;ils acceptent, celles-ci sont récupérées dans Adobe Campaign. Vous pourrez alors réaliser des opérations de ciblage basées sur ces informations et, le cas échéant, mettre en oeuvre des stratégies cross-canal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebook et Twitter sont amenés à modifier leurs écrans et leurs processus régulièrement. Ce document fera l&#39;objet de mises à jour fréquentes.
 >
