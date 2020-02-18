@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
 
@@ -57,7 +57,7 @@ Voici une liste d’articles relatifs aux bonnes pratiques en matière de config
 
 * Processus et mémoire MTA et MTAChild : le module **mta** distribue les messages à ses modules fils **mtachild**. Chaque **mtachild** prépare les messages, puis demande l’autorisation au serveur de statistiques avant de les envoyer. Consultez cette [page](../../installation/using/email-deliverability.md) pour plus d’informations.
 * Configuration de TLS : l’activation globale de TLS n’est pas recommandée, car elle peut réduire le débit. Les paramètres TLS par domaine, gérés par l’équipe de délivrabilité, doivent plutôt être réglés en fonction des besoins. Consultez cette [page](../../installation/using/email-deliverability.md#mx-configuration) pour plus d’informations.
-* DKIM : pour assurer le niveau de sécurité du DKIM, la taille minimum de cryptage recommandée est 1024b. Les clés de DKIM ayant une taille inférieure ne seront pas considérées comme valides par la plupart des fournisseurs d’accès. Reportez-vous à cette [page](../../delivery/using/technical-recommendations.md#domainkeys-identified-mail--dkim-) et à cette [technote](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+* DKIM : pour assurer le niveau de sécurité du DKIM, la taille minimum de cryptage recommandée est 1024b. Les clés de DKIM ayant une taille inférieure ne seront pas considérées comme valides par la plupart des fournisseurs d’accès. Reportez-vous à cette [page](../../delivery/using/technical-recommendations.md#dkim) et à cette [technote](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 ## Problèmes de délivrabilité {#deliverability-issues}
 
@@ -66,7 +66,7 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 * Réputation IP : si la réputation IP n’est pas assez bonne, il y aura un impact sur la performance. Le module de **Suivi de la délivrabilité** propose divers outils pour suivre les performances de délivrabilité de votre plateforme. Reportez-vous à cette [page](../../delivery/using/technical-monitoring.md).
 * Préchauffage d’une adresse IP : ce processus est réalisé par l’équipe de délivrabilité. Il s’agit d’augmenter progressivement le nombre d’emails par le biais de nouvelles adresses IP sur une période de quelques semaines.
 * Configuration de l’affinité IP : une configuration incorrecte de l’affinité IP peut stopper complètement les emails (nom d’opérateur/affinité incorrect dans la configuration) ou réduire le débit (petit nombre d’IP dans l’affinité). Reportez-vous à cette [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Taille de l’email : la taille de l’email joue un rôle important au niveau du débit. La taille d’e-mail maximale recommandée est de 60 ko. Reportez-vous à cette [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](../../reporting/using/reports-on-deliveries.md#delivery-throughput), vérifiez le nombre d’octets transférés par heure.
+* Taille de l’email : la taille de l’email joue un rôle important au niveau du débit. La taille d’e-mail maximale recommandée est de 60 ko. Reportez-vous à cette [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](../../reporting/using/delivery-reports.md#delivery-throughput), vérifiez le nombre d’octets transférés par heure.
 * Grand nombre de destinataires non valides : lorsque de nombreux destinataires ne sont pas valides, cela peut avoir un impact sur le débit étant donné que le MTA tente de renvoyer les emails aux destinataires non valides. Veuillez vous assurer que votre base de données est bien tenue à jour.
 * Niveau de personnalisation : si le statut d’une diffusion reste en « Personnalisation en cours », vérifiez le JavaScript utilisé dans les blocs de personnalisation.
 
