@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -49,7 +49,7 @@ Pour étendre la table des destinataires de schéma **nms:recipient**, la procé
 
    Dans cet exemple, on ajoute un champ indexé (**fidelity**) et on complète l&#39;élément **location** (déjà existant dans le schéma **nms:recipient**) avec un champ énuméré (**area**).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >N&#39;oubliez pas d&#39;ajouter l&#39;attribut **extendedSchema** pour référencer le schéma d&#39;extension.
 
