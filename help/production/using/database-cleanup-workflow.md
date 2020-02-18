@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5813af76e3cad16d9094a19509dcb855e36c01f
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -152,13 +152,13 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
       where **$(l)** is the identifier of the delivery.
 
-   * Dans les tables de logs de diffusion (**NmsBroadlogXxx**), des suppressions en masse sont exécutées, par groupes de 10000 enregistrements.
-   * Dans les tables de propositions d&#39;offres (**NmsPropositionXxx**), des suppressions en masse sont exécutées, par groupes de 10000 enregistrements.
-   * Dans les tables de logs de tracking (**NmsTrackinglogXxx**), des suppressions en masse sont exécutées, par groupes de 5000 enregistrements.
-   * Dans la table des fragments de diffusion (**NmsDeliveryPart**), des suppressions en masse sont exécutées, par groupes de 5000 enregistrements. Cette table contient les informations de personnalisation des messages restant à envoyer.
-   * Dans la table des fragments de données de page miroir (**NmsMirrorPageInfo**), des suppressions en masse sont exécutées, par groupes de 5000 enregistrements. Cette table contient les informations de personnalisation de tous les messages qui sont utilisées pour la génération des pages miroir.
-   * Dans la table de recherche des pages miroir (**NmsMirrorPageSearch**), des suppressions en masse sont exécutées, par groupes de 5000 enregistrements. Cette table est un index de recherche permettant d&#39;accélérer l&#39;accès aux informations de personnalisation stockées dans la table **NmsMirrorPageInfo**.
-   * Dans la table des logs de traitements batch (**XtkJobLog**), des suppressions en masse sont exécutées, par groupes de 5000 enregistrements. Cette table contient le journal des diffusions à supprimer.
+   * Dans les tables de logs de diffusion (**NmsBroadlogXxx**), des suppressions en masse sont exécutées, par groupes de 20,000 enregistrements.
+   * Dans les tables de propositions d&#39;offres (**NmsPropositionXxx**), des suppressions en masse sont exécutées, par groupes de 20,000 enregistrements.
+   * Dans les tables de logs de tracking (**NmsTrackinglogXxx**), des suppressions en masse sont exécutées, par groupes de 20,000 enregistrements.
+   * In the delivery fragment table (**NmsDeliveryPart**), mass-deletions are executed in batches of 500,000 records. Ce tableau contient des informations de personnalisation sur les messages restants à diffuser.
+   * Dans la table de fragments de données de page miroir (**NmsMirrorPageInfo**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements pour les pièces de livraison expirées et pour les pièces de livraison terminées ou annulées. Ce tableau contient des informations de personnalisation sur tous les messages utilisés pour générer des pages miroir.
+   * Dans le tableau de recherche de page miroir (**NmsMirrorPageSearch**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements. Ce tableau est un index de recherche qui donne accès aux informations de personnalisation stockées dans la table **NmsMirrorPageInfo** .
+   * Dans la table du journal de traitement par lot (**XtkJobLog**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements. Ce tableau contient le journal des remises à supprimer.
    * Dans la table de tracking des URL d&#39;une diffusion (**NmsTrackingUrl**), la requête suivante est utilisée :
 
       ```
@@ -576,6 +576,26 @@ Cette tâche nettoie les tables de simulation orphelines (qui ne sont plus assoc
    DROP TABLE wkSimu_456831_aggr
    ```
 
+### Nettoyer le Suivi {#cleanup-of-audit-trail}
+
+La requête suivante est utilisée :
+
+```
+DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
+```
+
+where **$(tsDate)** is the current server date from which the period defined for the **XtkCleanup_AuditTrailPurgeDelay** option is substracted.
+
+### Nettoyage de Nmsaddress {#cleanup-of-nmsaddress}
+
+La requête suivante est utilisée :
+
+```
+DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
+```
+
+Cette requête supprime toutes les entrées liées à iOS et Android.
+
 ### Mise à jour des statistiques et optimisation du stockage {#statistics-update}
 
 L&#39;option **XtkCleanup_NoStats** permet de contrôler le comportement de l&#39;étape d&#39;optimisation du stockage du processus de nettoyage.
@@ -590,13 +610,15 @@ Si la valeur de l&#39;option est 2, l&#39;analyse du stockage en mode verbose (A
 
 Cette tâche supprime les abonnements liés à des services ou à des applications mobiles supprimés.
 
-1. Pour récupérer la liste des schémas des broadlogs, la requête suivante est utilisée :
+Pour récupérer la liste des schémas des broadlogs, la requête suivante est utilisée :
 
-   ```
-   SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
-   ```
+```
+SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
+```
 
-1. La tâche récupère ensuite les noms des tables associées au lien **appSubscription** et supprime ces tables.
+La tâche récupère ensuite les noms des tables associées au lien **appSubscription** et supprime ces tables.
+
+Ce processus de nettoyage supprime également toutes les entrées où idisabled = 1 n’a pas été mis à jour depuis l’heure définie dans l’option **NmsCleanup_AppSubscriptionRcpPurgeDelay** .
 
 ### Nettoyage des informations de session {#cleansing-session-information}
 
@@ -613,13 +635,3 @@ Cette tâche nettoie les événements reçus et stockés sur les instances d&#39
 ### Nettoyage des réactions {#cleansing-reactions}
 
 Cette tâche nettoie les réactions (table **NmsRemaMatchRcp**) dont les hypothèses ont été supprimées sont elles-mêmes supprimées.
-
-### Nettoyer le Suivi {#cleanup-of-audit-trail}
-
-La requête suivante est utilisée :
-
-```
-DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
-```
-
-where **$(tsDate)** is the current server date from which the period defined for the **XtkCleanup_AuditTrailPurgeDelay** option is substracted.
