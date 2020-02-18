@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -38,7 +38,7 @@ Au préalable, Adobe Campaign utilise une variable globale &quot;Nms_DefaultRcpS
 
 La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éditer les données de la table externe des destinataires.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le nom du formulaire doit être identique au nom du schéma auquel il se rapporte.
 
