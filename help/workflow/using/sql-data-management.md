@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -28,7 +28,7 @@ L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes 
 
 Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont remplis :
 
-* L’activité est disponible uniquement pour les sources de données distantes. Le **[!UICONTROL FDA]** (Federated Data Access) package doit donc être installé sur votre instance (voir [cette section](../../platform/using/accessing-an-external-database.md)).
+* L’activité est disponible uniquement pour les sources de données distantes. Le **[!UICONTROL FDA]** (Federated Data Access) package doit donc être installé sur votre instance (voir [cette section](../../platform/using/about-fda.md)).
 * Le schéma sortant doit exister dans la base de données et être associé à une base de données FDA (pour plus d&#39;informations sur les schémas de données, reportez-vous à [cette section](../../configuration/using/about-schema-reference.md)).
 * L’opérateur qui exécute le flux de travail doit avoir le **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** nom right. For more on named rights, refer to [this section](../../platform/using/access-management.md#named-rights).
 
