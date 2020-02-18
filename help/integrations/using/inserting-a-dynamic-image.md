@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
 
@@ -26,9 +26,9 @@ Cette section décrit les étapes à mener dans Adobe Campaign afin d&#39;intég
 
 Vous devez au préalable réaliser les actions suivantes dans Adobe Target :
 
-* créer une ou plusieurs [offres de redirection](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), dans lesquelles vous devez spécifier l&#39;URL de l&#39;image que vous souhaitez utiliser.
+* créer une ou plusieurs [offres de redirection](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html), dans lesquelles vous devez spécifier l&#39;URL de l&#39;image que vous souhaitez utiliser.
 * créer une ou plusieurs [audiences](https://marketing.adobe.com/resources/help/en_US/target/target/t_create-audience.html), afin de définir la cible de votre activité.
-* créer une activité de type [compositeur d&#39;expérience d&#39;après les formulaires](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_an_A_B_Test.html), dans laquelle vous devez sélectionner un &quot;rawbox&quot; et définir plusieurs expériences, en fonction du nombre d&#39;offres de redirection créées. Pour chaque expérience, vous devez sélectionner une des offres de redirection créées.
+* créer une activité de type [compositeur d&#39;expérience d&#39;après les formulaires](https://docs.adobe.com/content/help/en/target/using/activities/abtest/create/test-create-ab.html), dans laquelle vous devez sélectionner un &quot;rawbox&quot; et définir plusieurs expériences, en fonction du nombre d&#39;offres de redirection créées. Pour chaque expérience, vous devez sélectionner une des offres de redirection créées.
 
    Pour définir ces expériences, vous pouvez créer des segments utilisant des informations provenant d&#39;Adobe Campaign. Si vous souhaitez utiliser des données issues d&#39;Adobe Campaign dans les règles de sélection de l&#39;offre, vous devez les spécifier au niveau du &quot;rawbox&quot; dans Adobe Target.
 
