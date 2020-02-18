@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,10 +26,10 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Les étapes de migration sous Linux sont les suivantes :
 
-1. Arrêter les services : voir [Service stop](#service-stop),
-1. Enregistrez la base de données : voir [Sauvegarde de la base de données et installation](#back-up-the-database-and-the-existing-installation)existante,
-1. Désinstallez les anciens packs de version d’Adobe Campaign : voir [Désinstallation des packages](#uninstalling-adobe-campaign-previous-version-packages)de version précédente d’Adobe Campaign,
-1. Migrer la plateforme : voir [Déploiement d’Adobe Campaign v7](#deploying-adobe-campaign-v7),
+1. Arrêter les services : voir Arrêt [du service](#service-stop).
+1. Enregistrez la base de données : voir [Sauvegarde de la base de données et installation](#back-up-the-database-and-the-existing-installation)existante.
+1. Désinstallez les anciens packs de version d’Adobe Campaign : voir [Désinstallation des packs](#uninstalling-adobe-campaign-previous-version-packages)de version précédente d’Adobe Campaign.
+1. Migrer la plateforme : voir [Déploiement d’Adobe Campaign v7](#deploying-adobe-campaign-v7).
 1. Redémarrage du service : voir [Redémarrage des services](#re-starting-services).
 
 ## Arrêt des services {#service-stop}
@@ -90,7 +90,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    mv nl5 nl5.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Par mesure de précaution, nous vous recommandons vivement de zipper le dossier **nl5.back**, et de le conserver à un autre emplacement que le serveur, sur un support sécurisé.
 
@@ -125,7 +125,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Par mesure de précaution, nous vous recommandons vivement de zipper le dossier **nl6.back**, et de le conserver à un autre emplacement que le serveur, sur un support sécurisé.
 
@@ -160,7 +160,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Par mesure de précaution, nous vous recommandons vivement de zipper le dossier **nl6.back**, et de le conserver à un autre emplacement que le serveur, sur un support sécurisé.
 
@@ -264,15 +264,15 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    * Sous **Debian** :
 
       ```
-      dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
+      dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
    * Sous **Red Hat** :
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+      rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
 
@@ -308,13 +308,13 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 1. Reconnectez-vous en tant que **root** et préparez l&#39;instance à sa première utilisation à l&#39;aide des commandes suivantes :
 
    ```
-   /etc/init.d/nlserver6-v7 start   
-   Starting nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 start   
+   Starting nlserver6: [  OK  ]
    ```
 
    ```
-   /etc/init.d/nlserver6-v7 stop
-   Stopping nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 stop
+   Stopping nlserver6: [  OK  ]
    ```
 
    >[!NOTE]
@@ -324,7 +324,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
 1. Effectuez une copie (par écrasement), depuis le dossier de sauvegarde **nl5.back**, des fichiers de configuration et des sous-dossiers de chaque instance. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Pour la première des commandes ci-dessous, ne copiez pas le fichier **config-default.xml**.
 
@@ -349,7 +349,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Si le service **trackinglogd** n&#39;est pas démarré sur le serveur de tracking, aucune information de tracking ne sera remontée.
 
@@ -366,7 +366,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    nlserver config -timezone:<time zone> -postupgrade -instance:<instance name>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Vous devez impérativement spécifier le fuseau horaire à utiliser comme référence au moment du postupgrade (à l&#39;aide de l&#39;option **-timezone**). Dans cet exemple, nous utilisons le fuseau horaire Europe/Paris : **-timezone:&quot;Europe/Paris&quot;**.
 
@@ -374,7 +374,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    >
    >Nous vous recommandons vivement de mettre à niveau votre base en &quot;multi-fuseau horaire&quot;. Pour plus d&#39;informations sur les options de fuseau horaire, consultez la section Fuseaux [](../../migration/using/general-configurations.md#time-zones) horaires.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ne redémarrez pas les services Adobe Campaign à ce stade. Des modifications doivent préalablement être effectuées sur Apache.
 
@@ -392,15 +392,15 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    * Sous **Debian** :
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * Sous **Red Hat** :
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
 
@@ -424,7 +424,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Si le service **trackinglogd** n&#39;est pas démarré sur le serveur de tracking, aucune information de tracking ne sera remontée.
 
@@ -470,15 +470,15 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    * Sous **Debian** :
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * Sous **Red Hat** :
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
 
@@ -564,13 +564,6 @@ A ce stade, Apache doit être arrêté. Reportez-vous à : Arrêt [du service](#
    * Sous **Red Hat** :
 
       Dans le répertoire **/usr/local/apache2/conf**, éditez le fichier **httpd.conf** et remplacez **nl5** par **nl6** dans les lignes ci-dessous.
-
-      Sous **RHEL 6 / Debian 7** :
-
-      ```
-      LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-      Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      ```
 
       Sous **RHEL 7 / Debian 8** :
 
