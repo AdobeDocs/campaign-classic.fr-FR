@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 40391fbea53757decb48fd937f5e74e8ba6fb207
 
 ---
 
@@ -45,8 +45,6 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
    If you wish to use the &quot;multi timezone&quot; mode, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
 
    Si vous utilisez Oracle comme base de données, vérifiez que les fichiers de fuseau horaire Oracle ont été correctement synchronisés entre le serveur d’applications et le serveur de base de données. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
-
-   En outre, lors d’une migration depuis une plateforme v.5.11, dans MySQL, vous devez effectuer des configurations supplémentaires. For more information, refer to the [MySQL](../../migration/using/specific-configurations-in-v5-11.md#mysql) section.
 
 * Zones de sécurité
 
