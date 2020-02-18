@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -37,6 +37,10 @@ Les commandes suivantes permettent de démarrer/arrêter manuellement le service
 
    * **/etc/init.d de démarrage de nlserver6**
    * **/etc/init.d/nlserver6 stop**
+
+>[!NOTE]
+>
+>À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver** / **systemctl stop nlserver**
 
 Voici une liste des commandes usuelles d&#39;administration accessibles sous Linux (en tant qu&#39;**Adobe Campaign**) :
 
@@ -61,7 +65,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
    You can also use the **nlserver restart`<module>[@<instance>]`**command to restart a module.
 
-   Exemple:
+   Exemple :
 
    **nlserver start web**
 
@@ -76,24 +80,22 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    **web de redémarrage du serveur nlserver**
 
    >[!NOTE]
-
-   >* Si l&#39;instance n&#39;est pas précisée, il s&#39;agira de l&#39;instance &quot;default&quot;.
-   >    
-   >    
+   > 
+   >    * Si l&#39;instance n&#39;est pas précisée, il s&#39;agira de l&#39;instance &quot;default&quot;.
    >    * Utilisez l&#39;option **-immediate** en cas d&#39;urgence pour forcer l&#39;arrêt immédiat du processus (équivalent à la commande **kill -9** Unix).
-   * Utilisez l&#39;option **-noconsole** pour vous assurer que le module lancé n&#39;affichera rien sur la console. Ses journaux seront écrits sur le disque via le module **syslogd** .
-   * Use the **-verbose** option to display additional information on process actions.
-
-
-      Exemple:
-
-
+   >    * Utilisez l&#39;option **-noconsole** pour vous assurer que le module lancé n&#39;affichera rien sur la console. Ses journaux seront écrits sur le disque via le module **syslogd** .
+   >    * Use the **-verbose** option to display additional information on process actions.
+      >    
+      >      
+      Exemple :
+      >    
+      >      
       **nlserver restart web -verbose**
-
-
+      >    
+      >      
       **nlserver start mta@moninstance -verbose**
-
-
+      >    
+      >      
       This option adds additional logs. We recommend starting the processes again without the **-verbose** option once you have found the desired information, to avoid overloading logs.
 
 
@@ -110,5 +112,6 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    **nlserver config -reload**
 
    >[!NOTE]
-   Certaines modifications de la configuration ne sont pas prises en compte dynamiquement et nécessitent un arrêt/démarrage complet d&#39;Adobe Campaign.
+   >
+   >Certaines modifications de la configuration ne sont pas prises en compte dynamiquement et nécessitent un arrêt/démarrage complet d&#39;Adobe Campaign.
 
