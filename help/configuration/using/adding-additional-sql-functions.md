@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -30,7 +30,7 @@ Ce mécanisme peut aussi servir dans le cas où l&#39;on souhaiterait utiliser u
 
 Une fois ces fonctions ajoutées, elles apparaissent dans l&#39;éditeur d&#39;expressions, au même titre que les fonctions prédéfinies.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les appels de fonctions SQL dans la console ne sont plus naturellement transmis au serveur. Le mécanisme décrit ici devient donc **le seul moyen d&#39;appeler** sur le serveur des fonctions SQL non prévues initialement.
 
@@ -40,7 +40,7 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 
 To install it from the console, select the **Tools/Advanced/Import package** options from the menu, then the **[!UICONTROL Install from file]** , and follow the instructions in the import wizard.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Attention, même si la liste des fonctions importées apparaît tout de suite dans l&#39;éditeur de fonctions, elles ne seront pas utilisables tant que le serveur Adobe Campaign n&#39;aura pas été redémarré.
 
@@ -92,7 +92,7 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
      name="window"          ( label="Windowing functions" )
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Attention à bien remplir l&#39;attribut @label : c&#39;est le nom qui sera affiché dans la liste des fonctions disponibles. Si vous ne mettez rien, le groupe n&#39;aura pas de nom, par contre si vous mettez un autre nom que le nom existant, c&#39;est le tout le groupe qui changera de nom.
 
