@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -30,7 +30,7 @@ Trois modes de tracking Web sont disponibles :**&quot;Tracking Web de session&qu
 
 Chaque mode possède des caractéristiques propres. Cependant le mode de tracking Web &quot;permanent&quot; englobe les caractéristiques du mode de tracking Web &quot;session&quot; tandis que le mode de tracking Web &quot;anonyme&quot; englobe les caractéristiques des modes &quot;permanent&quot; et &quot;session&quot;.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le mode de tracking Web &quot;anonyme&quot; est activé par défaut si le package &quot;Leads&quot; est activé. Dans tous les autres cas, le mode de tracking Web &quot;session&quot; est activé par défaut.
 >
