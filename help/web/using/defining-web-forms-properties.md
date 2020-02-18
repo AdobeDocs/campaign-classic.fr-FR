@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -141,7 +141,7 @@ Par défaut, les paramètres suivants sont disponibles :
 * **origin** pour indiquer l&#39;origine du répondant.
 * **_uuid** active l’affichage de formulaire avant la publication et le suivi des erreurs. Ce paramètre est destiné à une utilisation interne (création et débogage) : lorsque vous accédez au formulaire Web via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L’origine est forcée à la **[!UICONTROL Adobe Campaign]** valeur.
 
-   It is used with the **_preview** parameters and/or ** _debug**:
+   S&#39;utilise avec les paramètres **_preview** et/ou **_debug** :
 
    **_preview** pour afficher la dernière version enregistrée. Ce paramètre ne doit être utilisé qu&#39;en phase de test.
 
