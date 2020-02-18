@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -42,7 +42,7 @@ Before sending the delivery, you can define the sending parameters in the delive
    >
    >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
 
-* **[!UICONTROL Send using multiple waves]**: Pour plus d’informations, voir [Envoi à l’aide de plusieurs vagues](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: Pour plus d’informations, reportez-vous à la section [Envoi à l’aide de plusieurs ondes](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: Cette option vous permet de tester l&#39;envoi de la diffusion par SMTP. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP mais n&#39;est pas envoyée.
 
