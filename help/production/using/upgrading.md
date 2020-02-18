@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
 
@@ -31,7 +31,7 @@ Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Ad
 
 >[!NOTE]
 >
->Reportez-vous également au [guide d&#39;installation](../../installation/using/general-architecture.md) et au guide de prise en main sur l&#39;[upgrade de build](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
+>Reportez-vous également au [guide d&#39;installation](../../installation/using/general-architecture.md) et au guide de prise en main sur l&#39;[upgrade de build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
 
 ## Sous Windows {#in-windows}
 
