@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
+source-git-commit: 80b500653f5cfe216b32db045974b18d85838d9a
 
 ---
 
@@ -74,11 +74,11 @@ Les variables sont les propriétés libres des objets **[!UICONTROL instance]**,
 
 ### Les variables d&#39;instances {#instance-variables}
 
-Les variables d&#39;instances (**[!UICONTROL instance.vars.xxx]**) sont comparables à des variables globales : elles sont partagées par toutes les activités.
+Les variables d’instance (**[!UICONTROL instance.vars.xxx]**) sont comparables aux variables globales. Elles sont partagées par toutes les activités.
 
 ### Les variables de tâches {#task-variables}
 
-Les variables de tâche (**[!UICONTROL task.vars.xxx]**) sont comparables aux variables locales : Ils ne sont utilisés que par la tâche en cours. Ces variables sont utilisées par les activités persistantes pour conserver les données et sont parfois utilisées pour échanger des données entre les différents scripts d’une même activité.
+Les variables de tâche (**[!UICONTROL task.vars.xxx]**) sont comparables aux variables locales.  Ils ne sont utilisés que par la tâche en cours. Ces variables sont utilisées par les activités persistantes pour conserver les données et sont parfois utilisées pour échanger des données entre les différents scripts d’une même activité.
 
 ### Les variables d&#39;événements {#event-variables}
 
