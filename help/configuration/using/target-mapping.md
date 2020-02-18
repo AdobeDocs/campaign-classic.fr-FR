@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b3ab02d1fd90c3f14314508a8fa7d99df82436c
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -105,7 +105,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adobe Campaign ne prend pas en charge plusieurs schémas de destinataires, appelés schémas de ciblage, liés aux mêmes schémas de journal de diffusion et/ou de journal de suivi. Cela peut par ailleurs entraîner des anomalies dans la réconciliation des données par la suite. Pour plus d&#39;informations sur ce sujet, consultez la page [Recommandation et limites](../../configuration/using/about-custom-recipient-table.md) .
 
