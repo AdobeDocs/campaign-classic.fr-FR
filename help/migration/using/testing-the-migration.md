@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f8a13e3788b99ff4214e00dec1f88fdef0cb964
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -49,7 +49,7 @@ Vous devez disposer d&#39;un environnement de test/développement afin de réali
 
 1. Si la migration de l&#39;environnement de développement s&#39;est effectuée sans erreur, migrez l&#39;environnement de production.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >En raison de modifications effectuées sur la structure des données, l&#39;import et l&#39;export de packages de données entre une plateforme v5 et une plateforme v7 ne sont pas possibles.
 
@@ -156,13 +156,13 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
   <tr> 
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
-   <td> Erreur<br /> </td> 
+   <td> Erreurs<br /> </td> 
    <td> Ce type d’erreur entraîne un échec de migration. Reportez-vous à <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
-   <td> Erreur<br /> </td> 
+   <td> Erreurs<br /> </td> 
    <td> Ce type d’erreur entraîne un échec de migration. Reportez-vous à <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type présentation (migration depuis v6.02), reportez-vous aux applications <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank"></a>Web.<br /> </td> 
   </tr> 
  </tbody> 
