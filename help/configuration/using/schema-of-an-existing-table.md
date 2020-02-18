@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -68,4 +68,4 @@ Pour créer le schéma correspondant, les étapes sont les suivantes :
 
 Grâce à l’option **Federated Data Access - FDA**, vous pouvez accéder aux données stockées dans une base externe.
 
-Le paramétrage nécessaire au niveau des schémas pour accéder aux données d&#39;une base externe est détaillé dans [cette page](../../platform/using/accessing-an-external-database.md#creating-the-data-schema).
+Le paramétrage nécessaire au niveau des schémas pour accéder aux données d&#39;une base externe est détaillé dans [cette page](../../platform/using/creating-data-schema.md).
