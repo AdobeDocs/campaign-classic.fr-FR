@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
+source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
 
 ---
 
@@ -86,7 +86,7 @@ Les propriétés d&#39;un formulaire web sont présentés dans [cette page](../.
 
 ## Définir des paramètres supplémentaires {#defining-additional-settings}
 
-The **[!UICONTROL Settings]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
+The **[!UICONTROL Parameters]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
 
 Les propriétés d&#39;un formulaire web sont présentés dans [cette page](../../web/using/about-web-forms.md).
 
@@ -110,6 +110,14 @@ Pour créer un nouveau paramètre :
    Les données sont directement récupérées au niveau de l&#39;entité : **ctx/recipient/@account**.
 
    L&#39;option **[!UICONTROL Variable]** permet de créer ou sélectionner une variable qui sera passée en paramètre de l&#39;URL et pourra être utilisée au niveau des filtres.
+
+Cette **[!UICONTROL Response HTTP headers]** option vous permet d’éviter le cliquetis lorsque vous incluez la page de votre rapport dans une page HTML utilisant iframe. Pour éviter de cliquer dessus, vous pouvez choisir le **[!UICONTROL X-Frame-options header]** comportement :
+
+* **[!UICONTROL None]**: Le rapport n&#39;aura pas **[!UICONTROL X-Frame-options header]**.
+* **[!UICONTROL Same as origin]**: Défini par défaut pour les nouveaux rapports et les rapports republiés. Le nom d’hôte sera identique à l’URL du rapport.
+* **[!UICONTROL Deny]**: Le rapport ne peut pas être inclus dans une page HTML utilisant iframe.
+
+![](assets/s_ncs_advuser_report_properties_09c.png)
 
 ## Ajouter des variables {#adding-variables}
 
