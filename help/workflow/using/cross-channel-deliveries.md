@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
 
@@ -64,11 +64,10 @@ Par exemple, ici, nous allons créer un workflow pour envoyer un email ou un SMS
 1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
 1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
 
-   Sélectionnez un service pour chacun des systèmes d&#39;exploitation. Pour en savoir plus sur la création de service, voir cette [page](../../delivery/using/setting-up-mobile-app-channel.md#creating-the-service-and-collecting-subscriptions).
+   Sélectionnez un service pour chacun des systèmes d&#39;exploitation. Pour en savoir plus sur la création de service, voir cette [page](../../delivery/using/configuring-the-mobile-application.md).
 
    ![](assets/cross_channel_delivery_4.png)
 
 1. Sélectionnez et configurez une diffusion application mobile pour chacun des systèmes d&#39;exploitation.
 
    ![](assets/cross_channel_delivery_5.png)
-
