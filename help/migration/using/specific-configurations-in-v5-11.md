@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 703fa6e5d5e6f1c8c512bd65ebadad724f02ded3
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -59,7 +59,7 @@ Quoique ce mode de fonctionnement ne soit pas recommandé, il existe des solutio
 
 ## MySQL {#mysql}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >MySQL est uniquement supporté en v7 comme moteur de la base principale dans le cas de migrations depuis une version 6.02 ou 5.11 utilisant ce moteur.
 
