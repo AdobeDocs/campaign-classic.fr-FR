@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
 
 This method consists of sending an HTTP call to the redirection server by inserting an **`<img>`** HTML tag in the HTML source code of the web page you wish to track.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Cette méthode utilise les cookies transmis par le navigateur Web pour identifier le destinataire : sa fiabilité n&#39;est pas garantie à 100%.
 
