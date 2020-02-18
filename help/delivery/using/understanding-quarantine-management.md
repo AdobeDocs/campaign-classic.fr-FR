@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 16e7266a101b4abea3271c32fcc403e7d7fbaa2d
 
 ---
 
@@ -116,15 +116,23 @@ Adobe Campaign gère la mise en quarantaine en fonction du type d’échec de re
 
 * **Erreur de type Ignoré** : les erreurs de type Ignoré ne mettent pas une adresse en quarantaine.
 * **Erreur de type Hard** : l&#39;adresse email correspondante est mise immédiatement en quarantaine.
-* **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse est mise en quarantaine. Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d&#39;au moins 24 h. L&#39;adresse est mise en quarantaine à la sixième erreur. Le seuil du compteur d&#39;erreurs peut être modifié. For more on this, refer to [Retries after a delivery temporary failure](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
-
-   Lorsqu&#39;une diffusion aboutit après une nouvelle tentative, le compteur d&#39;erreurs de l&#39;adresse précédemment en quarantaine est réinitialisé. Le statut de l&#39;adresse passe en **Valide** et est supprimé de la liste des quarantaines après deux jours grâce au workflow **Nettoyage de la base**.
+* **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. For more on this, see [Soft error management](#soft-error-management).
 
 Si un utilisateur qualifie un email comme du spam (**système de gestion des plaintes (feedback loop)**), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L&#39;adresse email de l&#39;utilisateur est alors automatiquement mise en quarantaine.
 
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
 
 ![](assets/tech_quarant_error_reasons.png)
+
+### Gestion des erreurs douces {#soft-error-management}
+
+Contrairement aux erreurs matérielles, les erreurs logicielles n’envoient pas immédiatement une adresse à la quarantaine, mais incrémentent plutôt un compteur d’erreurs.
+
+* Lorsque le compteur d’erreurs atteint le seuil limite, l’adresse est placée en quarantaine.
+* Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d&#39;au moins 24h. L&#39;adresse est mise en quarantaine à la sixième erreur.
+* Le seuil du compteur d&#39;erreurs peut être modifié. For more on this, refer to [Retries after a delivery temporary failure](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+
+Le compteur d’erreurs est réinitialisé si la dernière erreur significative s’est produite il y a plus de 10 jours. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
 
 ## Quarantaines des notifications push {#push-notification-quarantines}
 
