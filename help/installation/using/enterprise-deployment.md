@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
 
@@ -128,7 +128,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
       Pour plus d’informations, reportez-vous à la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      ou
+      or
 
    * Créer l&#39;instance en ligne de commande :
 
@@ -178,6 +178,11 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
    * Pour Windows : Disponibilité de la console [client pour Windows](../../installation/using/client-console-availability-for-windows.md).
 
 1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et lancez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules actifs.
+
+   >[!NOTE]
+   >
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : nlserver de démarrage **systemctl**
+
 
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -288,7 +293,7 @@ Les étapes sont les suivantes :
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
    ```
 
-   ou
+   or
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
