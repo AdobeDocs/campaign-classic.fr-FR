@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: aa0eb7acfb5d3b622475544735aed37d6beea892
 
 ---
 
@@ -28,11 +28,11 @@ Le site Neobank souhaite afficher une offre sur son site web à l&#39;attention 
 
 Pour mettre en place cette interaction, vous allez :
 
-1. [Créer un environnement anonyme](#creating-an-anonymous-environment)
-1. [Créer des emplacements anonymes](#creating-anonymous-offer-spaces)
-1. [Créez une catégorie d’offres et un thème.](#creating-an-offer-category-and-a-theme).
-1. [Créez des offres anonymes.](#creating-anonymous-offers).
-1. [Paramétrer l&#39;emplacement de l&#39;offre dans le site web](#configure-the-web-offer-space-on-the-website)
+1. [Création d’un environnement anonyme](#creating-an-anonymous-environment)
+1. [Création d’espaces d’offre anonymes](#creating-anonymous-offer-spaces)
+1. [Création d’une catégorie d’offres et d’un thème](#creating-an-offer-category-and-a-theme)
+1. [Créez des offres anonymes.](#creating-anonymous-offers)
+1. [Configuration des espaces d’offre Web sur le site Web](#configure-the-web-offer-space-on-the-website)
 
 ### Créer un environnement anonyme {#creating-an-anonymous-environment}
 
@@ -64,7 +64,7 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
    * Title
    * Contenus HTML ;
    * URL de l&#39;image ;
-   * URL de destination.
+   * URL de destination
    ![](assets/offer_inbound_anonymous_example_030.png)
 
 1. Éditez la fonction de rendu HTML, par exemple de la manière suivante :
