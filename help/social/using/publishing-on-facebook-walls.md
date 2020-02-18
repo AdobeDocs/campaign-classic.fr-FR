@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -59,7 +59,7 @@ Pour qu&#39;Adobe Campaign puisse publier sur les murs de vos pages, vous devez 
 1. Connectez-vous au compte Facebook à partir duquel vous administrez vos pages.
 1. Dans la barre d&#39;adresse de votre navigateur Internet, saisissez l&#39;adresse [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >En fonction du type de compte, une ou plusieurs autorisations peuvent vous être demandées.
    >
@@ -87,7 +87,7 @@ Afin de déléguer à Adobe Campaign les droits d&#39;écriture sur les murs de 
 
 Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ainsi qu&#39;à un navigateur Internet connecté au compte Facebook administrateur de vos pages :
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;opérateur Adobe Campaign doit disposer des droits administrateur pour effectuer ce paramétrage.
 
@@ -107,7 +107,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    ![](assets/social_facebook_external_account_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >N&#39;utilisez en aucun cas l&#39;URL non sécurisée.
 
