@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -51,7 +51,7 @@ This information is also offered in the **[!UICONTROL Campaign orders]** view wh
 
 L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux modes :
 
-1. L&#39;opérateur peut cliquer sur le nom de la commande pour l&#39;éditer : il accède alors au détail de commande.
+1. L’opérateur peut cliquer sur le nom de la commande pour la modifier : affiche les détails de la commande.
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 
