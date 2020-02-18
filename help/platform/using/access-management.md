@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3946d97e786423bf831d17e486186660db403709
+source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
 
@@ -43,7 +43,7 @@ Vous pouvez accorder deux types de permissions à un utilisateur :
 >
 >Avant de commencer à définir les permissions, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
 
-## Les opérateurs {#operators}
+## Opérateurs {#operators}
 
 ### A propos des opérateurs {#about-operators}
 
@@ -103,7 +103,7 @@ Une fois le profil de l’opérateur créé, vous pouvez ajouter ou mettre à jo
 
 >[!NOTE]
 >
->Le **[!UICONTROL Session timeout]** champ permet d&#39;ajuster le délai avant le délai d&#39;expiration de la session de la FDA. Pour plus d’informations, reportez-vous à la section [A propos de l’accès](../../platform/using/accessing-an-external-database.md#about-federated-data-access)aux données fédérées.
+>Le **[!UICONTROL Session timeout]** champ permet d&#39;ajuster le délai avant le délai d&#39;expiration de la session de la FDA. Pour plus d’informations, reportez-vous à la section [A propos de l’accès](../../platform/using/about-fda.md)aux données fédérées.
 
 ### Fuseau horaire de l&#39;opérateur {#time-zone-of-the-operator}
 
@@ -299,7 +299,7 @@ Ces droits sont les suivants :
 * LOCAL : Droit pour la gestion en local (Marketing Distribué).
 * FUSION : Droit pour fusionner des enregistrements.
 * PREPARER DES DIFFUSIONS : Droit pour créer, éditer et lancer l&#39;analyse des diffusions.
-* DONNÉES DE CONFIDENTIALITÉ DROITE : Droit de collecter et de supprimer des données de confidentialité. Pour plus d&#39;informations à ce propos, Voir à ce propos consultez [cette page](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+* DONNÉES DE CONFIDENTIALITÉ DROITE : Droit de collecter et de supprimer des données de confidentialité. Pour plus d’informations à ce propos, consultez [cette page](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 * EXECUTION DE PROGRAMMES : Droit pour exécuter des programmes externes.
 * IMPORT DE DESTINATAIRES : Droit pour l&#39;import de destinataires.
 * EXECUTION DE SCRIPTS SQL : Droit pour exécuter des scripts SQL sur la base de données.
