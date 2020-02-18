@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58b69ae83d0ff2bece26cb3ff0604cd92e3c20f4
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -32,7 +32,7 @@ Pour une meilleure compréhension des tableaux intégrés aux campagnes et de le
 
 ## Extension ou création de schémas {#extending-or-creating-schemas}
 
-Pour ajouter un champ ou un index ou un autre élément à l’un des schémas de données principaux de Campaign, comme la table des destinataires (nms:Recipient), vous devez étendre ce schéma. For more on this, refer to the [Extending a schema](../../configuration/using/extending-a-schema.md) section.
+Pour ajouter un champ ou un index ou un autre élément à l’un des schémas de données principaux de Campaign, comme la table des destinataires (nms:Recipient), vous devez étendre ce schéma. Pour plus d’informations, reportez-vous à la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md) .
 
 Pour ajouter un nouveau type de données qui n’existe pas prêt à l’emploi dans Adobe Campaign (une table de contrats, par exemple), vous pouvez créer directement un schéma personnalisé. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
 
@@ -44,7 +44,7 @@ Une fois que vous avez créé une extension ou un nouveau schéma, il est recomm
 
 Les énumérations sont définies avant l&#39;élément principal du schéma. Elles permettent d&#39;afficher des valeurs dans une liste afin de restreindre les choix de l&#39;utilisateur pour un champ donné.
 
-Exemple:
+Exemple :
 
 ```
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
@@ -90,7 +90,7 @@ Exemples:
 
 L&#39;attribut **xpath** pointe vers le champ de votre schéma que vous souhaitez indexer.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les index permettent d&#39;optimiser les performances des requêtes SQL en termes de lecture mais aussi d&#39;écriture. Ils doivent donc être utilisés avec précaution.
 
@@ -102,7 +102,7 @@ Chaque table doit posséder au moins une clé. Celle-ci est souvent définie aut
 
 La clé primaire peut également être définie au moyen de l&#39;attribut **internal**.
 
-Exemple:
+Exemple :
 
 ```
 <key name="householdId" internal="true">
@@ -112,7 +112,7 @@ Exemple:
 
 Dans cet exemple, au lieu de laisser l&#39;attribut **@autopk** créer une clé primaire par défaut nommée &quot;id&quot;, on définit ici la clé primaire &quot;householdId&quot;.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lors de la création ou de l’extension d’un schéma, vous devez conserver la valeur de la séquence de la clé primaire (@pkSequence) pour l’ensemble du schéma.
 
@@ -171,7 +171,7 @@ Exemple de champ XML également stocké dans un champ SQL et qui a un attribut *
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Alors que la plupart des attributs sont associés selon une cardinalité 1-1 à un champ physique de la base de données, ce n&#39;est pas le cas pour les champs XML ni les champs calculés.\
 >Un champ XML est stocké dans un champ memo (&quot;mData&quot;) de la table.\
