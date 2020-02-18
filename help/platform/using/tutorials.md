@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
+source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
 Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intuitifs.
 
 * [Edition du contenu des emails avec Adobe Experience Manager](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html) : découvrez les notions de base pour vous familiariser avec l&#39;intégration entre Adobe Campaign et Experience Manager.
-* [Règlement général sur la protection des données](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html) : découvrez ce que propose Adobe Campaign Classic pour vous aider à respecter le RGPD lors de l&#39;utilisation de notre service.
+* [Gestion](https://helpx.adobe.com/campaign/kb/acc-privacy.html)de la confidentialité : découvrez ce qu’Adobe Campaign Classic fournit pour vous aider à respecter la confidentialité lorsque vous utilisez notre service.
 * [Intégrer le contenu dynamique dans un email](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html) : découvrez les notions de base sur l&#39;intégration entre Campaign Classic et Target Standard.
 * [Gérer la délivrabilité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) : découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Classic pour optimiser l&#39;envoi de vos diffusions.
 * [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) : découvrez les bonnes pratiques relatives à la conception des diffusions et aux envois dans Adobe Campaign Classic.
