@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
 
 ---
 
@@ -34,7 +34,7 @@ Voici une liste descriptive des opérateurs disponibles :
  <thead> 
   <tr> 
    <th> Opérateur<br /> </th> 
-   <th> Intérêt<br /> </th> 
+   <th> Objectif<br /> </th> 
    <th> Exemple<br /> </th> 
   </tr> 
  </thead> 
@@ -267,7 +267,7 @@ Liens vers une table et éléments de collection :
 >* Utilisez le **[!UICONTROL Add]** bouton (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [Création d’expressions](#building-expressions).
 >* Supprimez une colonne de sortie en cliquant sur la croix rouge **Supprimer**.
 >* Modifiez l&#39;ordre des colonnes de sortie grâce aux flèches.
->* The **[!UICONTROL Distribution of values]** serves as a way to view the distributon of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
+>* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
 
 
 ## Création de champs calculés {#creating-calculated-fields}
