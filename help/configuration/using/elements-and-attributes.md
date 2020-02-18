@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -141,7 +141,7 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
    * ANY
    * bin
    * blob
-   * boolean
+   * booléen
    * byte
    * CDATA
    * datetime
@@ -160,8 +160,8 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
    * percent
    * primarykey
    * short
-   * string
-   * time
+   * chaîne
+   * le temps ;
    * timespan
    * uuid
    Si l&#39;attribut &quot;@type&quot; est laissé vide, Adobe Campaign associe par défaut un type chaîne de caractères (STRING) de longueur 100 au champ.
@@ -171,7 +171,7 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
 * **userEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;ouverte&quot;. Les valeurs de l&#39;énumération peuvent être définies par l&#39;utilisateur dans l&#39;interface.
 * **visibleIf (string)**: définit une condition sous la forme d&#39;une expression XTK pour montrer ou masquer l&#39;attribut.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >L&#39;attribut est masqué mais ses données sont toujours accessibles.
 
@@ -561,7 +561,7 @@ There are four types of `<element>`  elements in Adobe Campaign:
    * ANY
    * bin
    * blob
-   * boolean
+   * booléen
    * byte
    * CDATA
    * datetime
@@ -580,8 +580,8 @@ There are four types of `<element>`  elements in Adobe Campaign:
    * percent
    * primarykey
    * short
-   * string
-   * time
+   * chaîne
+   * le temps ;
    * timespan
    * uuid
 
@@ -631,7 +631,7 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
    * ANY
    * bin
    * blob
-   * boolean
+   * booléen
    * byte
    * CDATA
    * datetime
@@ -652,8 +652,8 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
    * percent
    * primarykey
    * short
-   * string
-   * time
+   * chaîne
+   * le temps ;
    * timespan
    * uuid
 
@@ -1027,7 +1027,7 @@ Cet élémént permet de définir un paramètre d&#39;un appel à une méthode 
    * ANY
    * bin
    * blob
-   * boolean
+   * booléen
    * byte
    * CDATA
    * datetime
@@ -1048,8 +1048,8 @@ Cet élémént permet de définir un paramètre d&#39;un appel à une méthode 
    * percent
    * primarykey
    * short
-   * string
-   * time
+   * chaîne
+   * le temps ;
    * timespan
    * uuid
 
