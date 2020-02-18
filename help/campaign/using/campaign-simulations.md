@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -78,11 +78,11 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   Si nécessaire, vous pouvez utiliser une condition dynamique via le **[!UICONTROL Edit the dynamic condition...]** lien
+   Si nécessaire, vous pouvez utiliser une condition dynamique via le **[!UICONTROL Edit the dynamic condition...]** lien.
 
    Click **[!UICONTROL Save]** to approve this configuration.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Seules les diffusions dont la cible a été calculée sont prises en compte dans les calculs des simulations (états : **Cible prête** ou **Prête à être diffusée**).
 
@@ -178,7 +178,7 @@ A nouvelle exécution d&#39;une simulation, le résultat calculé remplace le r�
 
 Pour comparer les résultats, vous devez utiliser les rapports. En effet, Adobe Campaign permet d&#39;enregistrer un historique de rapport afin de le ré-afficher ultérieurement : cet historique est conservé tout au long du cycle de vie de la simulation.
 
-**Exemple:**
+**Exemple :**
 
 1. Créez une simulation sur une diffusion à laquelle la typologie **A** est appliquée.
 1. Dans l’ **[!UICONTROL Reports]** onglet, modifiez l’un des rapports disponibles, par exemple **[!UICONTROL Detail of simulation exclusions]** .
@@ -202,7 +202,7 @@ L’ **[!UICONTROL Calculations]** onglet vous permet de définir les axes des r
 >Il est recommandé de définir des axes de calculs dans un modèle de simulation plutôt que dans chaque simulation.\
 >Les modèles de simulation sont enregistrés dans le **[!UICONTROL Resources > Templates > Simulation templates]** noeud de l’arborescence Adobe Campaign.
 
-**Exemple:**
+**Exemple :**
 
 Dans l&#39;exemple suivant, nous allons créer un axe de reporting supplémentaire portant sur le statut du destinataire (&quot;Client&quot;, &quot;Prospect&quot; ou aucun).
 
@@ -215,13 +215,13 @@ Dans l&#39;exemple suivant, nous allons créer un axe de reporting supplémentai
 
    * **[!UICONTROL Generate target overlap statistics]** permet de récupérer toutes les statistiques de chevauchement dans le rapport de simulation. Les chevauchements sont des destinataires ciblés dans au moins deux livraisons au sein d’une même simulation.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >Le choix de cette option augmente considérablement le temps d&#39;exécution de la simulation.
 
    * **[!UICONTROL Keep the simulation work table]** permet de conserver les traces de simulation.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >La conservation systématique de ces tables requiert une capacité de stockage élevée : assurez-vous que la taille de la base de données le permet.
 
