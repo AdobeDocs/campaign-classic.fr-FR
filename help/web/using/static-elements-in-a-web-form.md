@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -64,7 +64,7 @@ Pour ajouter un lien hypertexte, accédez à **[!UICONTROL Static elements>Link]
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * The **[!UICONTROL Label]** is the content of the hypertext link as it will be displayed on the form page.
-* L&#39;**[!UICONTROL URL]** correspond à l&#39;adresse visée, par exemple : [https://www.adobe.com](https://www.adobe.com) pour un site web ou [mailto:info@adobe.com](mailto:info@adobe.com) pour envoyer un message.
+* The **[!UICONTROL URL]** is the desired address, e.g.: [https://www.adobe.com](https://www.adobe.com) for a website, or [info@adobe.com](mailto:info@adobe.com) to send a message.
 * Le **[!UICONTROL Window]** champ vous permet de sélectionner le mode d’affichage du lien dans le cas d’un site. Vous pouvez décider d’ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre active ou dans une autre fenêtre.
 * Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
 
@@ -92,7 +92,7 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
    ![](assets/s_ncs_admin_survey_link_next.png)
 
-   You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. Refer to this [page](../../web/using/defining-web-forms-page-sequencing.md).
+   You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. Consultez à ce sujet cette [page](../../web/using/defining-web-forms-page-sequencing.md).
 
    The link will replace the **[!UICONTROL Next]** button used by default.
 
