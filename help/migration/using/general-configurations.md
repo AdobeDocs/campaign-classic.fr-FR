@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -37,7 +37,7 @@ Le mode &quot;multi timezone&quot; n&#39;était disponible, en v6.02, que pour l
 
 Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#39;option **‑usetimestamptz:1** dans la ligne de commande du postupgrade.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If the **-usetimestamptz:1** parameter is used with an incompatible database engine, your database will be corrupted and you will have to restore a backup of your database and re-execute the command above.
 
@@ -87,7 +87,7 @@ Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 
 ### Zones de sécurité {#security-zones}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des utilisateurs.
 
@@ -107,7 +107,7 @@ Dans v7, la connexion de l’opérateur **interne** et **administrateur** doit �
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le mot de passe **internal** doit être identique sur tous les serveurs de tracking. Pour plus d&#39;informations, consultez [cette section](../../installation/using/campaign-server-configuration.md#internal-identifier) et [cette section](../../platform/using/access-management.md#about-permissions).
 
@@ -170,7 +170,7 @@ Nouveau lien utilisant la page de connexion :
 /nl/jsp/logon.jsp?login=<trusted login>&action=submit&target=/view/recipientOverview
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si vous utilisez un opérateur associé à un masque IP de confiance, vérifiez que celui-ci dispose des droits minimum et qu&#39;il est dans une zone de sécurité en mode **sessionTokenOnly**.
 
@@ -178,7 +178,7 @@ Nouveau lien utilisant la page de connexion :
 
 Les appels de fonction SQL inconnus ne sont plus automatiquement envoyés au serveur. Actuellement, toutes les fonctions SQL doivent être ajoutées au schéma **xtk:funcList** (pour plus d&#39;informations, reportez-vous à [cette section](../../configuration/using/adding-additional-sql-functions.md)). Lors de la migration, une option est ajoutée lors de la post-mise à niveau afin de conserver la compatibilité avec les anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l’option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du **[!UICONTROL Administration > Platform > Options]** noeud.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;utilisation de cette option est hautement déconseillée en raison des risques de sécurité qu&#39;elle introduit.
 
@@ -397,7 +397,7 @@ L&#39;alias est facultatif
 
 In a `<subQuery>` element, to reference a &quot;field&quot; field of the main `<queryDef>`   element, use the following syntax: `[../@field]`
 
-Exemple:
+Exemple :
 
 ```
 <queryDef operation="select" schema="xtk:jobLog" startPath="/" xtkschema="xtk:queryDef">
@@ -460,7 +460,7 @@ Il existe trois possibilités de résoudre un conflit :
 * **[!UICONTROL Accept the new version]**: recommandé si les ressources fournies avec Adobe Campaign n’ont pas été modifiées par l’utilisateur.
 * **[!UICONTROL Keep the current version]**: signifie que la mise à jour est rejetée.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
@@ -506,7 +506,7 @@ $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
 
 Dans v7, le contenu de l’offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d’offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l’interface. Après la mise à niveau, vous devez recréer le contenu de l’offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d’offre.
 
->[!CAUTION]
+>[!IMPORTANT]
 Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
 
 Un exemple de script de mouvement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du dossier Adobe Campaign v7. Ce fichier montre un exemple de script pour un client utilisant une représentation par e-mail unique par offre (les **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]** champs). Le contenu de la table **NmsEmailOfferView** a été déplacé vers la table d’offres.
