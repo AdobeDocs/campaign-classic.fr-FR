@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -103,7 +103,7 @@ Par défaut, les schémas intégrés ne sont accessibles avec les permissions d�
 * xtk:strings
 * xtk:xslt
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le schéma **xtk:sessionInfo** n’est accessible en lecture et en écriture que par le compte interne d’une instance Adobe Campaign.
 
