@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
+source-git-commit: 21d808695bfde2fb3220964c066558ad30952443
 
 ---
 
@@ -28,7 +28,8 @@ La section suivante présente les paramétrages nécessaires pour contrôler le 
 
 >[!NOTE]
 >
->Certains paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration de l&#39;instance et du serveur. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Certains paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration de l&#39;instance et du serveur. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).\
+>Consultez le [guide pas à pas](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) présentant les concepts et bonnes pratiques en lien avec la délivrabilité.
 
 Pour en savoir plus sur les concepts et les meilleures pratiques en matière de délivrabilité, consultez cette [section](../../delivery/using/about-deliverability.md).
 
@@ -365,7 +366,7 @@ La configuration relative à la gestion du trafic se situe dans l&#39;élément 
 
 Pour chacun des éléments **IPAffinity**, vous devez déclarer les adresses IP de la machine qui peuvent être utilisées.
 
-Exemple:
+Exemple :
 
 ```
 <IPAffinity localDomain="<domain>" name="default">
@@ -379,19 +380,24 @@ Les paramètres sont les suivants :
 
 * **address** : il s&#39;agit de l&#39;adresse IP de la machine hôte du MTA à utiliser.
 * **heloHost** : cet identifiant représente l&#39;adresse IP telle qu&#39;elle sera vue par le serveur SMTP.
+
 * **publicId** : cette information est utile lorsqu&#39;une adresse IP est partagée par plusieurs **mta** Adobe Campaign derrière un routeur NAT. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
 * **weight** : permet de définir la fréquence relative d&#39;utilisation de l&#39;adresse. Par défaut, toutes les adresses ont un poids égal à 1.
 
-   Dans l&#39;exemple précédent, en condition normale, les adresses seront utilisées selon la répartition suivante :
+>[!NOTE]
+>
+>Dans le fichier serverConf.xml, vous devez vérifier qu’une adresse IP correspond à un hôte unique avec un identifiant unique (public_id). Il ne peut pas être mappé à plusieurs hôtes hélas, ce qui peut entraîner des problèmes de ralentissement de la diffusion.
 
-   * &quot;1&quot;: 5 / (5+5+1) = 45%
-   * &quot;2&quot;: 5 / (5+5+1) = 45%
-   * &quot;3&quot;: 1 / (5+5+1) = 10%
-   Si, par exemple, la première adresse est inutilisable vers un MX donné, les messages seront envoyés en utilisant la répartition suivante :
+Dans l&#39;exemple précédent, en condition normale, les adresses seront utilisées selon la répartition suivante :
 
-   * &quot;2&quot;: 5 / (5+1) = 83%
-   * &quot;3&quot;: 1 / (5+1) = 17%
+    * &quot;1&quot;: 5 / (5+5+1) = 45%
+    * &quot;2&quot;: 5 / (5+5+1) = 45%
+    * &quot;3&quot;: 1 / (5+5+1) = 10%
 
+Si, par exemple, la première adresse est inutilisable vers un MX donné, les messages seront envoyés en utilisant la répartition suivante :
+
+    * &quot;2&quot;: 5 / (5+1) = 83%
+    * &quot;3&quot;: 1 / (5+1) = 17%
 
 * **includeDomains** : permet de réserver cette adresse IP aux emails appartenant à un domaine particulier. C&#39;est une liste de masques pouvant contenir un ou plusieurs jokers &#39;*&#39;. Si l&#39;attribut n&#39;est pas renseigné, tous les domaines peuvent utiliser cette adresse IP.
 
