@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -148,14 +148,14 @@ Vous pouvez utiliser l’assistant de création de planification pour remplir au
 
 Le mode de configuration du calendrier d’exécution coïncide avec l’ **[!UICONTROL Scheduler]** objet du flux de travail. Voir à ce propos [cette section](../../workflow/using/executing-a-workflow.md#architecture).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le paramétrage du planning d&#39;exécution doit être réalisé avec précaution afin de ne pas surcharger la base de données. En effet, les opérations récurrentes dupliquent le ou les workflows de leur modèle selon le planning défini. La mise en place trop grande fréquence de création de ces workflows peut nuire au bon fonctionnement de la base de données.
 
 1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
 1. Créez le modèle de workflow qui sera utilisé dans les opérations basées sur ce modèle, avec les paramètres de ciblage et une ou plusieurs diffusions génériques.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >Ce processus doit être enregistré en tant que modèle de processus récurrent. Pour ce faire, modifiez les propriétés du processus et sélectionnez l’ **[!UICONTROL Recurring workflow template]** option dans l’ **[!UICONTROL Execution]** onglet.
 
@@ -174,7 +174,7 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
 
    Pour chaque ligne, il est possible d&#39;ajouter les options supplémentaires suivantes :
 
-   * **[!UICONTROL To be approved]** : vous permet de forcer les demandes d’approbation de remise dans le processus
+   * **[!UICONTROL To be approved]** : vous permet de forcer les demandes d’approbation de remise dans le processus.
    * **[!UICONTROL To be started]** : vous permet de démarrer le flux de travail lorsque la date de début est atteinte.
    Le **[!UICONTROL Create in advance for]** champ vous permet de créer tous les processus couvrant la période saisie.
 
@@ -211,7 +211,7 @@ Une opération périodique est une opération basée sur un modèle spécifique 
 
 1. Renseignez les propriétés du modèle.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >L&#39;opérateur auquel est affecté le modèle doit avoir les droits suffisants pour créer des opérations dans le programme sélectionné.
 
@@ -227,7 +227,7 @@ Une opération périodique est une opération basée sur un modèle spécifique 
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Les modèles d&#39;opérations périodiques créent de nouvelles opérations selon le planning défini ci-dessus. Il doit donc être renseigné avec précaution afin de ne pas surcharger la base Adobe Campaign.
 
