@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ Les particularités propres à un schéma qui référence une table existante so
 * Les noms des tables et colonnes doivent être précisés explicitement,
 * Les index doivent être déclarés.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ne supprimez pas de champs dans la table des destinataires standard, même s&#39;ils sont inutiles. Cela peut causer des erreurs de comportement dans la base Adobe Campaign.
 
