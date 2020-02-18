@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -77,7 +77,7 @@ Les étapes sont les suivantes :
    >
    >L&#39;extension du schéma **nms:seedMember** doit respecter les structures types d&#39;une opération et d&#39;une diffusion dans Adobe Campaign.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >
    >    
