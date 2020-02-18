@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -30,7 +30,7 @@ Lorsqu&#39;un utilisateur clique sur l&#39;onglet d&#39;une application Facebook
 
 ![](assets/social_webapp_fb_000.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Suivez les étapes de configuration décrites dans [Création d&#39;une application](../../social/using/creating-a-facebook-application.md)Facebook.
 
@@ -44,7 +44,7 @@ Les exemples d&#39;applications web de type Facebook présentés dans cette sect
 * Comment transférer des paramètres à une application Facebook. Refer to [How to forward settings to a Facebook application?](#how-to-forward-settings-to-a-facebook-application-).
 * Comment acquérir des données de fan. Reportez-vous à [Comment acquérir des données de fan?](#how-to-acquire-fan-data-).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ces cas d&#39;utilisation simples ne sont donnés qu&#39;à titre d&#39;exemple afin d&#39;illustrer les fonctionnalités des applications web de type Facebook.
 
@@ -97,7 +97,7 @@ Vérifiez que l&#39;onglet de l&#39;application **App01** apparaît bien sur vot
 
 ## How to forward settings to a Facebook application? {#how-to-forward-settings-to-a-facebook-application-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Suivez les étapes de configuration décrites dans [Création d’une application](../../social/using/creating-a-facebook-application.md)Facebook.
 
@@ -256,7 +256,7 @@ Si le profil n&#39;existe pas en base et que l&#39;adresse email de l&#39;utilis
 
 1. Vous pouvez sélectionner un dossier de recherche pour la réconciliation et un dossier de création pour les nouveaux profils. Si ces champs sont vides, les profils sont recherchés et créés dans le dossier par défaut correspondant au schéma du mapping.
 
-### Activité Fin {#end-activity}
+### Activité de fin {#end-activity}
 
 Pour éviter l’erreur d’affichage liée à Facebook, vous devez cocher la **[!UICONTROL Use an external URL]** case et saisir l’URL de l’application Facebook, suivie du **[!UICONTROL app_data]** paramètre et d’une valeur. Cette valeur sera utilisée dans l’ **[!UICONTROL Test]** activité pour détecter si l’utilisateur vient d’entrer dans le concours et pour afficher un message de remerciement, le cas échéant. For more on this, refer to: [Test activity](#test-activity).
 
