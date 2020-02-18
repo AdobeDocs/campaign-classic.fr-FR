@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a5072ba55690d4d88c12ac7ff647f163deddbf32
+source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ---
 
@@ -41,7 +41,6 @@ Adobe Campaign fournit deux séries d&#39;options architecturales pré-packagée
 Les options Power Booster et Power Cluster peuvent être exploitées par les applications suivantes :
 
 * Campaign
-* Leads
 * Delivery
 * Message Center
 
