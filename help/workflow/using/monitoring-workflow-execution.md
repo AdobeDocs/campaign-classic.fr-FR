@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e04eb83a7c2e29f8d3ea6458dd3f0e780dfb9c3
+source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 ---
 
@@ -259,26 +259,23 @@ Les superviseurs de workflow sont avertis. Le créateur et le dernier utilisateu
 
 ## Filtrage des processus en fonction de leur état{#filtering-workflows-status}
 
-L’interface de Campaign Classic vous permet de surveiller l’état d’exécution de tous les processus de votre instance à l’aide de **vues** prédéfinies. Pour accéder à ces vues, ouvrez le noeud **Administration**/**Audit**/ État **** des flux de travail.
+L’interface de Campaign Classic vous permet de surveiller l’état d’exécution de tous les processus de votre instance à l’aide de **vues** prédéfinies. Pour accéder à ces vues, ouvrez le noeud **[!UICONTROL Administration]**/**[!UICONTROL Audit]**/**[!UICONTROL Workflows Status]**.
 
 Les vues suivantes sont disponibles :
 
-* **En cours d’exécution**: répertorie tous les processus en cours d’exécution.
-* **En pause**: répertorie tous les processus en pause.
-* **Échec**: répertorie tous les processus ayant échoué.
-
-<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
+* **[!UICONTROL Running]**: répertorie tous les processus en cours d’exécution.
+* **[!UICONTROL Paused]**: répertorie tous les processus en pause.
+* **[!UICONTROL Failed]**: répertorie tous les processus ayant échoué.
+* **[!UICONTROL Start Pending]**: répertorie tous les processus en attente d’être démarrés par le processus operationMgt. Cette vue est disponible uniquement avec le package des campagnes **** marketing (voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard de campagne).
 
 ![](assets/workflow-monitoring-views.png)
 
-<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
-Par défaut, ces vues sont accessibles dans le dossier **Audit**. Vous pouvez toutefois les recréer à l’emplacement de votre choix dans l’arborescence des dossiers. De cette manière, ils seront accessibles aux utilisateurs standard sans droit d’administration.
+Par défaut, ces vues sont accessibles dans le **[!UICONTROL Audit]** dossier. Vous pouvez toutefois les recréer à l’emplacement de votre choix dans l’arborescence des dossiers. De cette manière, ils seront accessibles aux utilisateurs standard sans droit d’administration.
 
 Pour ce faire :
 
 1. Cliquez avec le bouton droit sur le dossier dans lequel vous souhaitez ajouter la vue.
-1. Dans **Ajouter un nouveau dossier**/**Administration**, sélectionnez la vue à ajouter.
+1. Dans **[!UICONTROL Add new folder]**/**[!UICONTROL Administration]**, sélectionnez la vue à ajouter.
 1. Une fois le dossier ajouté à l&#39;arborescence, assurez-vous de le configurer en tant qu&#39;affichage afin qu&#39;il affiche tous les processus, quel que soit leur dossier d&#39;origine.Pour plus d&#39;informations sur la configuration des vues, reportez-vous à [cette section](../../platform/using/access-management.md#adding-folders-and-creating-views).
 
 En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de filtrer la liste des processus en fonction de leur état d’exécution. Pour cela :
@@ -293,6 +290,3 @@ Pour plus d’informations, reportez-vous aux sections suivantes :
 
 * [Création de filtres avancés](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [Enregistrement des filtres](../../platform/using/creating-filters.md#saving-a-filter)
-
-<!-- need to check if pending status filter will be implemented or not in january release, note, Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
