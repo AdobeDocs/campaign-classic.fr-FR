@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -29,7 +29,7 @@ Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible
 * **Les principaux destinataires de la remise**. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
 * **Destinataires des messages** de preuve, afin de configurer un cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-De plus, vous pouvez également définir des adresses [](../../delivery/using/about-seed-addresses.md)de base et des groupes [de](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)contrôle. si la diffusion est incluse dans une campagne marketing.
+De plus, vous pouvez également définir des adresses [de](../../delivery/using/about-seed-addresses.md)base et des groupes [de](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)contrôle. si la diffusion est incluse dans une campagne marketing.
 
 ## Sélection des principaux destinataires de la remise {#selecting-the-main-target}
 
