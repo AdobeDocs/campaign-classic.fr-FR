@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -44,9 +44,9 @@ Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/
 
 If you have modified these web applications and would like to continue using them in v7, you must activate the **allowSQLInjection** option in your different security zones and re-start the postupgrade. Consultez la section [SQLData](../../migration/using/general-configurations.md#sqldata) pour en savoir plus.
 
-## Ergonomie : page d&#39;accueil et navigation {#user-friendliness--home-page-and-navigation}
+## Convivialité : Page d’accueil et navigation {#user-friendliness--home-page-and-navigation}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >If you would like to continue using v6.02 overview-type web applications, you must activate the **allowSQLInjection** option in your different security zones before the postupgrade. Reportez-vous aux applications [](#web-applications)Web.
 
