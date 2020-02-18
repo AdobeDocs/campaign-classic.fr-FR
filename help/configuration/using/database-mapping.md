@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -305,7 +305,7 @@ Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser
 
 À compter d’ACC 18.10, **XtkNewId** n’est plus la valeur par défaut de la séquence dans les schémas d’usine. Vous pouvez désormais créer ou étendre un schéma avec une séquence dédiée.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lors de la création ou de l’extension d’un schéma, vous devez conserver la valeur de la séquence de la clé primaire (@pkSequence) pour l’ensemble du schéma.
 
@@ -347,7 +347,7 @@ Le schéma généré :
 
 En plus de la définition de la clé et de son index, un champ numérique de nom &quot;id&quot; a été ajouté dans le schéma étendu afin de contenir la clé primaire auto générée.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Un enregistrement avec une clé primaire à 0 est automatiquement inséré à la création de la table. Cet enregistrement est utilisé pour éviter les jointures externes, non efficaces sur les tables à volumes. Par défaut, toutes les clés étrangères sont initialisées avec la valeur 0, ce qui permet de toujours retourner un résultat sur la jointure lorsque la donnée n&#39;est pas renseignée.
 
@@ -374,7 +374,7 @@ Pour les relations de jointure à l’aide de l’accès aux bases de données f
 * ![](assets/join_fda_11.png) : Cardinalité 1-1
 * ![](assets/join_fda_1m.png) : Cardinalité 1-N
 
-For more information on FDA tables, refer to [Accessing an external database](../../platform/using/accessing-an-external-database.md).
+For more information on FDA tables, refer to [Accessing an external database](../../platform/using/about-fda.md).
 
 Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l&#39;élément principal :
 
