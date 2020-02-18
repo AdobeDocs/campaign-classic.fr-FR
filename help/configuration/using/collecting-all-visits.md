@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ Toutefois, vous avez la possibilité de configurer votre plateforme de façon à
 
 Un utilisateur connu de la plateforme est un destinataire qui a déjà été ciblé par une diffusion et qui a cliqué au moins une fois dans un des mails reçus : un cookie permanent est utilisé pour identifier ce destinataire.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La plateforme Adobe Campaign n&#39;a pas vocation à servir d&#39;outil de tracking de site web, hors du cadre de la visite du site suite à un clic dans un message. L&#39;activation de cette option peut provoquer une consommation très importante de ressources sur les machines hébergeant vos différents serveurs (redirection, applicatif et base de données). Nous vous conseillons de vous assurer que vous disposez d&#39;une architecture matérielle suffisamment performante, et de ne pas insérer de balises de tracking Web sur les pages du site les plus fréquentées, par exemple sur la page d&#39;accueil.
 
