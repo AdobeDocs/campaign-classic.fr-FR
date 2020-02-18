@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -82,7 +82,7 @@ Cet onglet permet d&#39;accéder aux options suivantes :
 
 * **[!UICONTROL Label and code of the delivery]** : les options concernant cette section de l’écran sont utilisées pour calculer les valeurs de ces champs pendant la phase d’analyse de la remise. Le **[!UICONTROL Calculate the execution folder during the delivery analysis]** champ calcule le nom du dossier qui contiendra cette action de remise pendant la phase d’analyse.
 * **[!UICONTROL Approval mode]** : ce champ vous permet de sélectionner le type d’approbation de remise. Les modes d’approbation sont présentés dans le processus de [validation avec des typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
-* **[!UICONTROL Prepare the personalization data with a workflow]** : cette option permet de préparer les données de personnalisation contenues dans votre diffusion dans un processus automatique. Il permet d&#39;améliorer grandement les performances de l&#39;analyse de la diffusion lorsque beaucoup de données sont en cours de traitement, surtout si les données de personnalisation proviennent d&#39;une table externe par l&#39;intermédiaire de la FDA. Consultez la section [Accès à une base de données externe (FDA)](../../platform/using/accessing-an-external-database.md#optimizing-email-personalization-with-external-data) .
+* **[!UICONTROL Prepare the personalization data with a workflow]** : cette option permet de préparer les données de personnalisation contenues dans votre diffusion dans un processus automatique. Il permet d&#39;améliorer grandement les performances de l&#39;analyse de la diffusion lorsque beaucoup de données sont en cours de traitement, surtout si les données de personnalisation proviennent d&#39;une table externe par l&#39;intermédiaire de la FDA. Consultez la section [Accès à une base de données externe (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data) .
 * **[!UICONTROL Start job in a detached process]** : Cette option vous permet de lancer l’analyse de remise dans un processus distinct. La fonction d’analyse utilise par défaut le processus du serveur d’applications Adobe Campaign (web nlserver). En sélectionnant cette option, vous vous assurez que l’analyse sera terminée, même en cas d’échec du serveur d’applications.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : cette option ajoute les journaux de requête SQL au journal de remise pendant la phase d&#39;analyse.
 * **[!UICONTROL Ignore personalization scripts during sending]** : cette option vous permet de contourner l’interprétation des directives JavaScript trouvées dans le contenu HTML. Ils s’afficheront comme dans le contenu livré. Ces directives sont introduites avec la balise **&lt;%=** ).
@@ -125,7 +125,7 @@ Pour envoyer un BAT, procédez comme suit :
 1. Démarrer l&#39;analyse des messages. Voir [Analyse de la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 1. Vous pouvez maintenant envoyer la livraison (voir [Envoi de la livraison](../../delivery/using/steps-sending-the-delivery.md)).
 
-   Une fois la livraison envoyée, la preuve apparaît dans la liste de distribution et est automatiquement créée et numérotée. Il peut être modifié si vous souhaitez accéder à son contenu et à ses propriétés. Pour plus d&#39;informations à ce propos, Voir à ce propos consultez [cette page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+   Une fois la livraison envoyée, la preuve apparaît dans la liste de distribution et est automatiquement créée et numérotée. Il peut être modifié si vous souhaitez accéder à son contenu et à ses propriétés. Pour plus d’informations à ce propos, consultez [cette page](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
