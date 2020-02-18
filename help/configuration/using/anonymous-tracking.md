@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Adobe Campaign permet d&#39;associer les informations de tracking Web collectées à un destinataire lorsqu&#39;il navigue anonymement sur votre site. En effet, lorsqu&#39;un internaute navigue sur les pages tagguées de votre site web, ses informations de navigation sont collectées. Lorsqu&#39;il clique dans un email envoyé via Adobe Campaign, il est identifié et les informations lui sont automatiquement rattachées.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La mise en place du tracking anonyme sur un site peut entraîner la collecte de très nombreux logs de tracking, et affecter le bon fonctionnement de la base de données. Il doit être configuré avec précaution sur votre site.\
 >Les logs de tracking sont enregistrés dans la base de données jusqu&#39;à la purge des données de tracking. Les délais de purge sont paramétrés au travers de l&#39;assistant de déploiement. Consultez à ce propos [cette section](../../installation/using/deploying-an-instance.md#purging-data)
