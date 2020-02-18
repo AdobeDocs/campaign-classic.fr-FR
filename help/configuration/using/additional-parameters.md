@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -53,7 +53,7 @@ Vous pourrez afficher les valeurs de ces paramètres en configurant la liste des
 
 Dans la configuration du serveur, vous pouvez définir le nombre maximum de caractères que vous souhaitez prendre en compte pour vos paramètres de tracking Web.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Augmenter le nombre de caractères à prendre en compte peut avoir une influence sur les performances de tracking web de votre plateforme.
 
@@ -76,15 +76,25 @@ Une fois la configuration modifiée, vous devez :
 
 * Arrêter le serveur Web qui héberge le module de redirection (Apache, IIS, ou autre),
 * Arrêter le serveur Adobe Campaign : **net stop nlserver6** sous Windows, **/etc/init.d/nlserver6 stop** sous Linux,
+
+   >[!NOTE]
+   >
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : nlserver d&#39;arrêt **systemctl**
+
 * Sous Linux, supprimer les segments de mémoire partagée via la commande **ipcrm**,
 * Redémarrer le serveur Adobe Campaign : **net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux,
+
+   >[!NOTE]
+   >
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : nlserver de démarrage **systemctl**
+
 * Redémarrer le serveur Web.
 
 **Exemple** : prise en compte de la configuration sous Linux.
 
 ```
-adobe@selma:~$ /etc/init.d/nlserver6 stop
-adobe@selma:~$ /etc/init.d/apache stop
+adobe@selma:~$ systemctl stop nlserver
+adobe@selma:~$ systemctl stop apache2
 adobe@selma:~$ ipcs shm
 
 ------ Shared Memory Segments --------
@@ -100,8 +110,8 @@ key        msqid      owner      perms      used-bytes   messages
 
 adobe@selma:~$ ipcrm shm 2097153                             
 1 resource(s) deleted
-adobe@selma:~$ /etc/init.d/nlserver6 start
-adobe@selma:~$ /etc/init.d/apache start
+adobe@selma:~$ systemctl start nlserver
+adobe@selma:~$ systemctl start apache2
 ```
 
 >[!NOTE]
