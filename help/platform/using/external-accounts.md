@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ae45cbd87fc0152fc654202e03501fc8d2abd06
+source-git-commit: e7df1f73dd454f826096ce4d5fe430e10fe407ad
 
 ---
 
@@ -113,8 +113,8 @@ Les canaux suivants peuvent être configurés :
 * [Agence](../../delivery/using/other-channels.md)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
-* [Canal iOS](../../delivery/using/setting-up-mobile-app-channel.md#ios-connectors)
-* [Canal Android](../../delivery/using/setting-up-mobile-app-channel.md#android-connectors)
+* [Canal iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)
+* [Canal Android](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-android)
 
 ## Compte externe FTP {#ftp-external-account}
 
@@ -154,10 +154,9 @@ Adobe Campaign met à votre disposition plusieurs connecteurs permettant de comm
 
 Les types de connexions suivants peuvent être configurés :
 
-* Oracle. Pour plus d&#39;informations, consultez cette [page](../../platform/using/accessing-an-external-database.md#configure-access-to-oracle).
-* MySQL. Pour configurer l’accès à MYSQL, reportez-vous à cette [page](../../platform/using/accessing-an-external-database.md#configure-access-to-mysql).
-* Netezza. Pour plus d&#39;informations, consultez cette [page](../../platform/using/accessing-an-external-database.md#configure-access-to-netezza).
-* SAP HANA. Pour plus d&#39;informations, consultez cette [page](../../platform/using/accessing-an-external-database.md#configure-access-to-sap-hanaa).
+* Oracle. Pour plus d&#39;informations, consultez cette [page](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
+* Netezza. Pour plus d&#39;informations, consultez cette [page](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
+* SAP HANA. Pour plus d&#39;informations, consultez cette [page](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana).
 * InfiniDB
 * Microsoft SQL Server
 * AsterData
@@ -168,9 +167,33 @@ Les types de connexions suivants peuvent être configurés :
 * ODBC (Sybase ASE, Sybase IQ)
 * Relais HTTP vers base distante
 
+### Compte externe Snowflake {#snowflake-external-account}
+
+Le compte externe **Snowflake** vous permet de connecter votre instance Campaign à votre base de données externe Snowflake. Pour plus d&#39;informations sur la configuration de Campaign Classic avec Snowflake, consultez cette [page](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+
+Pour configurer ce compte externe afin de l’utiliser avec Adobe Campaign, vous devez fournir les détails suivants :
+
+* **[!UICONTROL Server]**
+
+       URL du serveur Snowflake.
+   
+* **[!UICONTROL Account]**
+
+       Nom de l&#39;utilisateur.
+   
+* **[!UICONTROL Password]**
+
+       Mot de passe du compte de l&#39;utilisateur.
+   
+* **[!UICONTROL Database]**
+
+       Nom de votre base de données.
+   
+![](assets/snowflake.png)
+
 ### Compte externe Teradata {#teradata-external-account}
 
-Le compte externe **Teradata** vous permet de connecter votre instance Campaign à votre base de données externe Teradata. Pour plus d&#39;informations sur la configuration de Campaign Classic avec Teradata, consultez cette [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) ou cette [section](../../platform/using/accessing-an-external-database.md#configure-access-to-teradata).
+Le compte externe **Teradata** vous permet de connecter votre instance Campaign à votre base de données externe Teradata. Pour plus d&#39;informations sur la configuration de Campaign Classic avec Teradata, consultez cette [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) ou cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
 
 ![](assets/ext_account_19.png)
 
@@ -202,7 +225,7 @@ Pour configurer ce compte externe afin de l’utiliser avec Adobe Campaign, vous
 
 * **[!UICONTROL Timezone]**
 
-   Fuseau horaire défini dans Teradata
+   Fuseau horaire défini dans Teradata.
 
 ![](assets/ext_account_20.png)
 
@@ -244,7 +267,7 @@ Pour chaque application Facebook, vous devez créer un compte externe de type **
 
 * **[!UICONTROL Application secret]**
 
-   Secret de l’application de votre application Facebook.
+   Secret d’application de votre application Facebook.
 
 Si vous choisissez le mode Hébergée sur cette instance, vous devez coller l’URL sécurisée du canevas dans le champ **Jeux Web Facebook (https)** sur Facebook.
 
@@ -290,11 +313,11 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
 * **[!UICONTROL IMS client secret]**
 
-   Informations de connexion de votre secret client IMS.
+   Informations d’identification de votre secret client IMS.
 
 * **[!UICONTROL Callback server]**
 
-   URL d’accès à votre instance Adobe Campaign.
+   Accédez à l’URL de votre instance Adobe Campaign.
 
 * **[!UICONTROL IMS organization ID]**
 
@@ -408,7 +431,7 @@ Le compte externe **[!UICONTROL Azure]** permet de se connecter à une base de d
 
 ## Compte externe Hadoop {#hadoop-external-account}
 
-Le compte externe **[!UICONTROL Hadoop]** permet de se connecter à une base de données externe partagée. Tant que cette connexion est active, la base de données est accessible via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/accessing-an-external-database.md#configure-access-to-hadoop).
+Le compte externe **[!UICONTROL Hadoop]** permet de se connecter à une base de données externe partagée. Tant que cette connexion est active, la base de données est accessible via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop).
 
 ![](assets/ext_account_16.png)
 
