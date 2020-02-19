@@ -128,29 +128,29 @@ Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiqu
 
 1. Reprenez le workflow de l&#39;exemple précédent et modifiez le script de l&#39;activité **Code JavaScript** avec le script suivant :
 
-   ```
-   instance.vars.foo = "bar1"
-   vars.foo = "bar2"
-   task.vars.foo = "bar3"
-   ```
+    ```
+    instance.vars.foo = "bar1"
+    vars.foo = "bar2"
+    task.vars.foo = "bar3"
+    ```
 
 1. Ajoutez le script suivant au script d&#39;initialisation de l&#39;activité **Fin** :
 
-   ```
-   logInfo("instance.vars.foo = " + instance.vars.foo)
-   logInfo("vars.foo = " + vars.foo)
-   logInfo("task.vars.foo = " + task.vars.foo)
-   ```
+    ```
+    logInfo("instance.vars.foo = " + instance.vars.foo)
+    logInfo("vars.foo = " + vars.foo)
+    logInfo("task.vars.foo = " + task.vars.foo)
+    ```
 
 1. Démarrez le workflow, puis consultez le journal.
 
-   ```
-   Workflow finished
-   task.vars.foo = undefined
-   vars.foo = bar2
-   instance.vars.foo = bar1
-   Starting workflow (operator 'admin')
-   ```
+    ```
+    Workflow finished
+    task.vars.foo = undefined
+    vars.foo = bar2
+    instance.vars.foo = bar1
+    Starting workflow (operator 'admin')
+    ```
 
 Cet exemple montre que l&#39;activité suivant **Code JavaScript** accède aux variables d&#39;instances et aux variables d&#39;événements, mais les variables de tâches ne sont pas accessibles en dehors de celles-ci (&#39;undefined&#39;).
 
