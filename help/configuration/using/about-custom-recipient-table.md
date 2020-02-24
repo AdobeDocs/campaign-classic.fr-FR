@@ -52,14 +52,14 @@ L&#39;utilisation d&#39;une table de destinataires externe implique les limitati
 
    Nous vous recommandons :
 
-   * Dédicace les **[!UICONTROL nms:BroadLogRcp]** schémas et les **[!UICONTROL nms:TrackingLogRcp]** schémas à ceux qui sont prêts à l&#39;emploi **[!UICONTROL nms:Recipientschema]**. Ces deux tables de journal ne doivent pas être liées à une autre table de destinataires personnalisée.
+   * Dédiant les schémas **[!UICONTROL nms:BroadLogRcp]** et **[!UICONTROL nms:TrackingLogRcp]** aux **[!UICONTROL nms:Recipientschema]** prêts à l&#39;emploi. Ces deux tables de journal ne doivent pas être liées à une autre table de destinataires personnalisée.
    * Définition de schémas de journal large et de journal de suivi personnalisés dédiés pour chaque nouveau schéma de destinataire personnalisé. Cela peut être fait automatiquement lors de la configuration du mappage de la cible, voir Mappage [de](../../configuration/using/target-mapping.md)Target.
 
-* Vous ne pouvez pas utiliser la norme **[!UICONTROL Services and Subscriptions]** proposée dans le produit.
+* Il n&#39;est pas possible d&#39;utiliser les **[!UICONTROL Services et Abonnements]** standards proposés dans le produit.
 
    Ainsi, le fonctionnement présenté dans [cette section](../../delivery/using/managing-subscriptions.md) n&#39;est pas applicable.
 
-* The link with the **[!UICONTROL visitor]** table does not work.
+* Le lien avec la table des **[!UICONTROL visiteurs]** n&#39;est pas opérationnel.
 
    Thus, to use the **[!UICONTROLSocial Marketing]** module you must configure the storage step to reference the correct table.
 
@@ -79,7 +79,7 @@ Par exemple :
 
 * Certain standard reports, particularly those offered by **Interaction** and the **Mobile Applications** must be redeveloped. Reportez-vous à la section [Gestion des rapports](../../configuration/using/managing-reports.md) .
 * The default configurations for certain workflow activities reference the standard recipients table (**[!UICONTROL nms:recipient]**): these configurations must be changed when used for an external recipients table. Reportez-vous à la section [Gestion des processus](../../configuration/using/managing-workflows.md) .
-* The standard **[!UICONTROL Unsubscription link]** personalization block must be adapted.
+* Le bloc de personnalisation du **[!UICONTROL Lien de désinscription]** standard doit être adapté.
 * Le mapping de ciblage des modèles de diffusion standard doit être modifié.
 * Les formulaires v4 ne sont pas compatibles avec l&#39;utilisation d&#39;une table de destinataires externe : vous devez utiliser les applications Web.
 
