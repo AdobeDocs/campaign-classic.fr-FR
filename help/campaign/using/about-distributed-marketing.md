@@ -24,7 +24,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ## Introduction {#introduction}
 
-Adobe Campaign propose une application de marketing **distribué** pour la mise en oeuvre de campagnes de coopération entre des entités centrales (siège social, départements marketing, etc.) et des entités locales (points de vente, agences régionales, etc.). Cette coopération est basée sur un espace de travail partagé appelé **[!UICONTROL list of campaign packages]**, où des modèles et instances de campagne créés de manière centralisée sont proposés aux entités locales.
+Adobe Campaign propose une application de Marketing Distribué - **Distributed Marketing** - qui permet de mettre en place des opérations collaboratives entre des entités centrales (par exemple le siège de l&#39;entreprise, le service marketing, etc.) et des entités locales (par exemple des points de vente, des agences régionales, etc.). Cette collaboration s&#39;organise autour d&#39;un espace commun, la **[!UICONTROL liste des kits d&#39;opération]**, où des modèles et des instances d&#39;opérations créés au niveau central sont proposés aux entités locales.
 
 L&#39;entité centrale propose aux entités locales des opérations auxquelles elles peuvent participer. Ces opérations sont matérialisées par des kits, qui peuvent être associés à des opérations locales ou collaboratives. Pour participer, l&#39;entité locale doit faire une commande d&#39;opération et cette commande doit être validée.
 
@@ -65,7 +65,7 @@ Modèle (ou instance d&#39;opération) créé par une entité centrale et mis à
 
 ### Opération locale {#local-campaign}
 
-Une campagne locale est une instance créée à partir d’un modèle référencé dans la liste de **[!UICONTROL campaign packages]** avec un calendrier **d’exécution** spécifique. Son objectif est de répondre à un besoin de communication local en utilisant un modèle de campagne qui a été configuré et configuré par l&#39;entité centrale.
+Une opération locale est une instance d&#39;opération créée à partir d&#39;un modèle d&#39;opération référencé dans la liste des **[!UICONTROL kits d&#39;opération]** avec un **planning d&#39;exécution spécifique** à chaque commande de l&#39;entité locale. L&#39;objectif est de répondre à un besoin local de communication en utilisant un modèle d&#39;opération formalisé et paramétré par l&#39;entité centrale.
 
 Le degré d&#39;autonomie de l&#39;entité locale dépend de la mise en oeuvre utilisée.
 
@@ -75,10 +75,10 @@ Reportez-vous à [Création d&#39;une campagne](../../campaign/using/creating-a-
 
 Une opération collaborative est une opération dont le **planning d&#39;exécution est défini** par l&#39;entité centrale. Les entités locales sont libres de participer ou non à l&#39;opération. En fonction du paramétrage de l&#39;opération, le contenu et la cible peuvent être localisés par l&#39;entité locale. Il existe plusieurs types d&#39;opérations collaboratives :
 
-* **[!UICONTROL Collaborative campaign (by form)]**: recommandé pour les campagnes impliquant jusqu’à 300 entités locales. L&#39;entité locale peut entrer des paramètres prédéfinis pour le ciblage et la personnalisation du contenu dans un formulaire Web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (client extranet). Un administrateur fonctionnel peut définir et configurer le formulaire en fonction d’un modèle de formulaire défini par l’intégrateur. Pour commander la campagne, l&#39;entité locale a simplement besoin d&#39;un accès Web.
-* **[!UICONTROL Collaborative campaign (by campaign)]**: recommandé pour les campagnes destinées à des dizaines d’entités locales. Ce type de campagne crée des campagnes enfants pour chaque entité locale. Une fois la campagne **[!UICONTROL collaborative campaign (by campaign)]** approuvée par l’entité centrale, elle est mise à la disposition de l’entité locale, qui peut la modifier. L’exécution est automatiquement synchronisée entre les campagnes parents et enfants. L&#39;entité locale doit avoir accès à une instance pour commander une campagne et y participer.
-* **[!UICONTROL Collaborative campaign (by target approval)]**: recommandé pour les campagnes ciblant plusieurs milliers d’entités locales. L&#39;entité locale reçoit une liste de contacts prédéfinie par l&#39;entité centrale. L&#39;entité locale décide de conserver ou non certains contacts en fonction du contenu de la campagne, via un formulaire Web. Les entités locales sont déduites de la liste des contacts sélectionnés. Pour participer à la campagne, l&#39;entité locale a simplement besoin d&#39;un accès Web.
-* **[!UICONTROL Collaborative campaign (simple)]**: ce mode garantit la compatibilité avec les processus d’exécution spécifiques des versions précédentes.
+* **[!UICONTROL Opération collaborative par formulaire]** : conseillée pour des opérations visant jusqu&#39;à 300 entités locales. L&#39;entité locale peut saisir des paramètres prédéfinis en terme de ciblage et de personnalisation de contenu dans un formulaire Web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (extranet client). La définition et le paramétrage de ce formulaire peuvent être réalisés par un administrateur fonctionnel sur la base d&#39;un modèle de formulaire défini par l&#39;intégrateur. Pour commander l&#39;opération, l&#39;entité locale a seulement besoin d&#39;un accès Web.
+* **[!UICONTROL Opération collaborative par opération]** : conseillée pour des opérations visant quelques dizaines d&#39;entités locales. Ce type d&#39;opération crée des opérations filles pour chaque entité locale. Lorsque la commande d&#39;une **[!UICONTROL Opération collaborative par opération]** est validée par l&#39;entité centrale, l&#39;opération est mise à disposition de l&#39;entité locale qui peut la modifier. L&#39;exécution est automatiquement synchronisée entre les opérations filles et l&#39;opération mère. L&#39;entité locale doit avoir un accès client riche pour commander l&#39;opération et y participer.
+* **[!UICONTROL Opération collaborative par validation de la cible]** : conseillée pour des opérations visant jusqu&#39;à plusieurs milliers d&#39;entités locales. L&#39;entité locale reçoit une liste de contacts sélectionnés par l&#39;entité centrale. L&#39;entité locale choisit de garder ou non certains contacts en fonction du contenu de l&#39;opération, grâce à un formulaire Web. Les entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à l&#39;opération, l&#39;entité locale a seulement besoin d&#39;un accès Web.
+* **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
 
 Reportez-vous à [Création d’une campagne](../../campaign/using/creating-a-collaborative-campaign.md)collaborative.
 
@@ -88,7 +88,7 @@ L&#39;inscription d&#39;une entité locale à une opération se traduit par la c
 
 ## Espace de travail {#workspace}
 
-The list of campaign packages can be accessed from the **Campaigns** universe: click the **[!UICONTROL Campaign packages]** link.
+La liste des kits d&#39;opération est accessible à partir de l&#39;univers **Campagnes** : cliquez sur le lien **[!UICONTROL Kits d&#39;opération]**.
 
 ![](assets/mkg_dist_home_local_op.png)
 
@@ -98,27 +98,27 @@ Pour les agences centrales, cette fenêtre affiche tous les kits disponibles dan
 
 ## Opérateurs et entités {#operators-and-entities}
 
-Start by specifying the central and local entity operators via the **[!UICONTROL Access management]** folder.
+Vous devez d&#39;abord définir les acteurs des entités centrales et locales à partir du dossier de **[!UICONTROL Gestion des accès]**.
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 
-### Les opérateurs {#operators}
+### Opérateurs {#operators}
 
 Vous devez créer des opérateurs centraux et des opérateurs locaux.
 
-Central operators must belong to the **[!UICONTROL Central management]** operator group or have the **[!UICONTROL CENTRAL]** named right.
+Les opérateurs centraux doivent appartenir au groupe d&#39;opérateurs **[!UICONTROL Gestion en central]** ou être titulaire du droit nommé **[!UICONTROL CENTRAL]**.
 
-Local operators must belong to the **[!UICONTROL Local management]** operator group or have the **[!UICONTROL LOCAL]** named right. Ils doivent également être liés à leur entité locale.
+Les opérateurs locaux doivent appartenir au groupe d&#39;opérateurs **[!UICONTROL Gestion en local]** ou être titulaire du droit nommé **[!UICONTROL LOCAL]**. De plus, ils doivent être associés à leur entité locale.
 
 ![](assets/s_advuser_mkg_dist_local_create.png)
 
 ### Entités organisationnelles {#organizational-entities}
 
-Pour créer une entité d&#39;organisation, cliquez sur le **[!UICONTROL Administration > Access management > Organizational entities]** noeud et cliquez sur l&#39; **[!UICONTROL New]** icône au-dessus de la liste des entités.
+Pour créer une entité organisationnelle, cliquez sur le noeud **[!UICONTROL Administration > Gestion des accès > Entités organisationnelles]** puis cliquez sur l&#39;icône **[!UICONTROL Nouveau]** au-dessus de la liste des entités.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-Chaque entité organisationnelle contient des informations d&#39;identification (étiquette, nom interne, coordonnées, etc.) et des groupes impliqués dans le processus d&#39;approbation des commandes. Ces valeurs sont définies dans la **[!UICONTROL Notifications and approvals]** section de l’ **[!UICONTROL General]** onglet.
+Chaque entité organisationnelle contient les informations d&#39;identification (libellé, nom interne, coordonnées, etc.) et les groupes de travail utilisés dans le processus de validation des commandes. Ces groupes sont définis dans la section **[!UICONTROL Notifications et validations]** de l&#39;onglet **[!UICONTROL Général]**.
 
 * Vous devez définir un groupe de notification des kits : les opérateurs de ce groupe recevront un message de notification lorsqu&#39;un nouveau kit sera ajouté à la liste des kits d&#39;opération et lorsqu&#39;une opération est disponible.
 * Vous devez également sélectionner le groupe d&#39;opérateurs responsables de la validation des commandes, c&#39;est-à-dire chargés de valider les opérations commandées par l&#39;entité locale.
