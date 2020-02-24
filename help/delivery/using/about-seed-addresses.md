@@ -32,7 +32,7 @@ Les avantages des adresses de contrôle sont les suivants :
 
 * Random substitution of fields with data taken from recipient profiles: this lets you enter only the email address, for instance in the seed address section, and let Campaign automatically fill in the other fields form the profile (see [Use case: configuring the field substitution](../../delivery/using/use-case--configuring-the-field-substitution.md)).
 * Dans un contexte de workflow avec utilisation des fonctionnalités de Datamanagement, les données additionnelles exploitées dans les diffusions peuvent être renseignées au niveau des adresses de contrôle afin d&#39;en forcer la valeur : on s&#39;affranchit ainsi de la substitution aléatoire des valeurs.
-* Seed addresses are automatically excluded from reports on the following delivery statistics: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
+* Les adresses de contrôle sont automatiquement exclues des rapports sur les statistiques de diffusions suivants : **[!UICONTROL Clics]**, **[!UICONTROL Ouvertures]**, **[!UICONTROL Désinscriptions]**.
 
 Les adresses de contrôle sont ajoutées à la cible de diffusions en étant importées ou créées directement au niveau de la diffusion ou de la campagne.
 
@@ -48,8 +48,8 @@ Dans le cadre des diffusions courrier, les adresses de contrôle sont ajoutées 
 >
 >Pour les diffusions courrier, le format du fichier d&#39;extraction doit respecter les limitations suivantes :
 >
->* Il ne doit pas utiliser cette option **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
->* Si des collections d’éléments sont extraites, ces champs auront une valeur vide pour les adresses de départ, sauf si l’ **[!UICONTROL Single row (expert user)]** option est sélectionnée. Voir à ce propos [cette section](../../platform/using/exporting-data.md#step-7---data-formatting).
+>* Il ne doit pas utiliser l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY+HAVING)]**.
+>* Si des collections d&#39;éléments sont extraites, ces champs auront une valeur vide pour les adresses de contrôle, sauf si l&#39;option **[!UICONTROL Ligne unique (mode expert)]** est cochée. Voir à ce sujet [cette section](../../platform/using/exporting-data.md#step-7---data-formatting).
 >
 
 
