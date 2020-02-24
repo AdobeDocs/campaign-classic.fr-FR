@@ -26,14 +26,14 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 Dans le ce cas pratique, nous allons créer un filtre afin de trier les abonnement à des newsletters en fonction du format d&#39;email renseigné par les destinataires.
 
-Pour ce faire, nous devons utiliser un filtre prédéfini : ces filtres sont liés à un type de document et sont accessibles via le **[!UICONTROL Administration > Configuration > Predefined filters]** noeud. Ces filtres de données peuvent être utilisés pour chaque type d’éditeur (ou de document) de l’application.
+Pour cela, nous allons utiliser un filtre prédéfini : associés à un type de document, ces filtres sont accessibles depuis le nœud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]**. Ces filtres sur les données peuvent être utilisés pour chaque type d&#39;éditeurs (ou documents) de l&#39;application.
 
 Le mode de création des filtres sur les données est le même que celui des filtres prédéfinis. Toutefois, un champ supplémentaire vous permet de sélectionner le type de document auquel le filtre sera appliqué.
 
 Les étapes sont les suivantes :
 
-1. Créez un filtre via le **[!UICONTROL Administration > Configuration > Predefined filters]** noeud.
-1. Click the **[!UICONTROL Select link]** icon to select the concerned document:
+1. Créez un nouveau filtre à partir du noeud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]**.
+1. Cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** pour sélectionner le document concerné :
 
    ![](assets/s_ncs_user_filter_choose_schema.png)
 
@@ -41,7 +41,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_select_schema.png)
 
-1. Click **[!UICONTROL Edit link]** to view the fields of the selected document.
+1. Cliquez sur l&#39;icône **[!UICONTROL Editer le lien]** pour visualiser les champs du document sélectionné.
 
    ![](assets/s_ncs_user_filter_edit_schema.png)
 
@@ -55,12 +55,12 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_parameters.png)
 
-1. Click **[!UICONTROL Save]** to add a filter to the pre-defined filters for this type of list.
-1. You can now use this filter in the **[!UICONTROL Subscriptions]** tab of the recipient profile; you can access the &quot;Unknown e-mail format&quot; filter by clicking the **[!UICONTROL Filters]** button.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour ajouter le filtre aux filtres prédéfinis pour ce type de liste.
+1. Vous pouvez désormais utiliser ce filtre dans l&#39;onglet **[!UICONTROL Abonnements]** du profil d&#39;un destinataire, le filtre &quot;Format des emails inconnu&quot; est accessible depuis le bouton **[!UICONTROL Filtres]**.
 
    ![](assets/s_ncs_user_filter_on_events.png)
 
-   Le nom du filtre actif s’affiche au-dessus de la liste. Pour annuler le filtre, cliquez sur l’ **[!UICONTROL Delete this filter]** icône .
+   Le nom du filtre courant est affiché au-dessus de la liste. Pour annuler ce filtre, cliquez sur l&#39;icône **[!UICONTROL Supprimer ce filtre]**.
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)
 
