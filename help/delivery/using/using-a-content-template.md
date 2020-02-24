@@ -34,7 +34,7 @@ Vous pouvez référencer un modèle de contenu dans une diffusion afin d&#39;uti
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
-La mise en page sera appliquée automatiquement en fonction des paramètres sélectionnés. Pour l’afficher, cliquez sur le **[!UICONTROL HTML preview]** (ou **[!UICONTROL Text preview]** ) et sélectionnez un destinataire pour tester les éléments de personnalisation.
+La mise en forme sera appliquée automatiquement, selon les paramètres sélectionnés. Pour la visualiser, cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** (ou **[!UICONTROL Aperçu texte]**) et sélectionnez un destinataire afin de tester les éléments de personnalisation.
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
@@ -46,7 +46,7 @@ Vous pouvez créer des contenus directement dans l&#39;arborescence Adobe Campai
 
 Les étapes sont les suivantes :
 
-1. Sélectionnez le **[!UICONTROL Resources > Contents]** noeud de l’arborescence, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Properties]**.
+1. Sélectionnez le noeud **[!UICONTROL Ressources > Contenus]** de l&#39;arborescence et cliquez avec le bouton droit de la souris. Choisissez **[!UICONTROL Propriétés]**.
 
    ![](assets/s_ncs_content_folder_properties.png)
 
@@ -54,7 +54,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_folder_templates.png)
 
-1. You can now create new content using the **[!UICONTROL New]** button above the content list.
+1. Vous pouvez ainsi créer de nouveaux contenus à partir du bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des contenus.
 
    ![](assets/s_ncs_content_folder_create_a_template.png)
 
@@ -62,11 +62,11 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_folder_use_a_template.png)
 
-1. Cliquez ensuite sur l’ **[!UICONTROL HTML preview]** onglet pour afficher le rendu. Ici, les champs de personnalisation de la base de données ne sont pas saisis.
+1. Puis cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** pour contrôler le rendu. Ici, les champs de personnalisation issus de la base de données ne sont pas renseignés.
 
    ![](assets/s_ncs_content_folder_use_a_template_preview.png)
 
-1. Une fois le contenu créé, il est ajouté à la liste des contenus disponibles. Cliquez sur le **[!UICONTROL Properties]** lien pour modifier son libellé, son état ou afficher son historique.
+1. Une fois créé, le contenu est ajouté dans la liste des contenus disponibles. Cliquez sur le lien **[!UICONTROL Propriétés]** pour en modifier le libellé, le statut ou consulter son historique.
 
    ![](assets/s_ncs_content_folder_template_properties.png)
 
@@ -86,7 +86,7 @@ Pour créer une instance de contenu et la diffuser, un modèle de diffusion doit
 
 De plus, le dossier de stockage du contenu doit être dédié aux contenus issus de ce modèle de publication (lorsqu&#39;un dossier de contenu permet la génération de plusieurs types de contenus différents, il n&#39;est pas possible de créer automatiquement la diffusion).
 
-To create the delivery automatically based on the selected content, click the **[!UICONTROL Delivery]** icon and choose the template.
+Pour créer automatiquement la diffusion à partir du contenu sélectionné, cliquez sur l&#39;icône **[!UICONTROL Diffusion]** et choisissez le modèle.
 
 ![](assets/s_ncs_content_folder_create_the_delivery.png)
 
