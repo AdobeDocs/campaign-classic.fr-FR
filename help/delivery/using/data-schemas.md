@@ -56,7 +56,7 @@ Ces propriétés sont décrites dans le schéma **ncm:content**.
 >
 >Lors de la création ou de l’extension d’un schéma, vous devez conserver la valeur de la séquence de la clé primaire (@pkSequence) pour l’ensemble du schéma.
 
-## Types des données {#data-types}
+## Types de données {#data-types}
 
 Exemple de schéma de gestion de contenu complété avec les types :
 
