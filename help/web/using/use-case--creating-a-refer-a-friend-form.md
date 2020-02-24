@@ -70,7 +70,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
-1. Créez ensuite le modèle de remise lié au service d’informations créé au cours de l’étape 1. Il sera sélectionné dans le **[!UICONTROL Choose scenario]** champ du service d&#39;information.
+1. Créez ensuite le modèle de diffusion associé au service d&#39;information créé lors de l&#39;étape 1. Il sera sélectionné dans le champ **[!UICONTROL Choix du scénario]** du service d&#39;information.
 
    Le modèle de diffusion utilisé pour créer le message de proposition de parrainage contient les informations suivantes :
 
@@ -126,7 +126,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_8.png)
 
-   The referee is added to the visitor folder in the **[!UICONTROL Administration > Visitors node]**:
+   Le filleul est ajouté dans le dossier des visiteurs, sous le noeud **[!UICONTROL Administration > Visiteurs]** :
 
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
