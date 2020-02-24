@@ -240,7 +240,7 @@ Les étapes sont les suivantes :
 
    Une fois la création de la base de données terminée, vous devez vous déconnecter.
 
-1. Log back on to the client console using the **admin** login without a password and start the deployment wizard ( **[!UICONTROL Tools > Advanced]** menu) to finish configuring the instance.
+1. Connectez-vous à nouveau à la console cliente avec l&#39;identifiant **admin** sans mot de passe et lancez l&#39;assistant de déploiement (menu **[!UICONTROL Outils > Avancé]**) pour finaliser la configuration de l&#39;instance.
 
    Pour plus d’informations, voir [Déploiement d’une instance](../../installation/using/deploying-an-instance.md).
 
