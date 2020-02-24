@@ -28,7 +28,7 @@ Deux cas sont possibles :
 
 * Perte du mot de passe d&#39;un opérateur Adobe Campaign.
 
-   Dans ce cas, vous pouvez modifier le mot de passe de l’opérateur concerné. Pour ce faire, connectez-vous par l’intermédiaire d’un opérateur disposant des droits d’administrateur, cliquez avec le bouton droit sur un opérateur, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** et définissez le nouveau mot de passe de l’opérateur. Nous recommandons aux opérateurs de modifier leur mot de passe lorsqu’ils se reconnectent pour la première fois.
+   Dans ce cas, vous pouvez modifier le mot de passe de l&#39;opérateur concerné. Pour cela, connectez-vous avec un opérateur ayant les droits administrateurs, cliquez avec le bouton droit sur un opérateur, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Réinitialiser le mot de passe]**, puis définissez le nouveau mot de passe de l&#39;opérateur. Nous recommandons aux opérateurs de changer leur mot de passe lors de leur première reconnexion.
 
    ![](assets/operator-passwd.png)
 
