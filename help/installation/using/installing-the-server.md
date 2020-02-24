@@ -38,10 +38,10 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
 
    Plusieurs types d&#39;installation sont proposés :
 
-   * **[!UICONTROL Installation of an application server]** : Installez le serveur d’applications Adobe Campaign et la console client.
-   * **[!UICONTROL Minimal installation (Network)]** : Installation de l&#39;ordinateur client à partir du réseau. Seul un nombre limité de DLL sera installé sur l&#39;ordinateur, si nécessaire, et tous les autres composants seront utilisés à partir d&#39;un lecteur réseau.
-   * **[!UICONTROL Installation of a client]** : Installation des composants requis pour le client Adobe Campaign.
-   * **[!UICONTROL Custom installation]** : L’utilisateur choisit les éléments à installer.
+   * **[!UICONTROL Installation d&#39;un serveur applicatif]** : installation du serveur applicatif Adobe Campaign et de la console cliente.
+   * **[!UICONTROL Installation minimale (Réseau)]** : installation d&#39;un poste client depuis le réseau. Seules quelques DLL seront installées sur la machine, si besoin, et tous les autres composants nécessaires seront directement utilisés sur le disque réseau.
+   * **[!UICONTROL Installation d&#39;un poste client]** : installation des composants nécessaires pour l&#39;utilisation de la console cliente Adobe Campaign.
+   * **[!UICONTROL Installation personnalisée]** : l&#39;utilisateur choisit les éléments à installer.
    Sélectionnez une installation de type **Installation d&#39;un serveur applicatif**, et validez les différentes étapes, comme ci-dessous :
 
    ![](assets/s_ncs_install_installer_02.png)
@@ -50,7 +50,7 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. Click **[!UICONTROL Finish]** to start the installation:
+1. Cliquez sur **[!UICONTROL Terminer]** pour lancer l&#39;installation :
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -84,7 +84,7 @@ No task
 
 ## Premier démarrage du serveur {#first-start-up-of-the-server}
 
-Once the installation test is complete, open a command prompt via the **[!UICONTROL Start > Programs > Adobe Campaign]** menu and enter the following command:
+Une fois le test d&#39;installation réalisé, ouvrez l&#39;invite de commande depuis le menu **[!UICONTROL Démarrer > Programmes > Adobe Campaign]** et saisissez la commande suivante :
 
 ```
 nlserver web
