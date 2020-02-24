@@ -24,7 +24,7 @@ source-git-commit: 00351a7a108f74741fa15546d9bd5cf68699e5c1
 
 Les profils de destinataires peuvent être importés dans la base Adobe Campaign ou exportés afin d&#39;être stockés dans un fichier externe à la base de données.
 
-To configure and execute data imports and exports, go to the **[!UICONTROL Profiles and targets]** universe and click the **[!UICONTROL Jobs]** link.
+Pour paramétrer et exécuter des imports et des exports de données, positionnez-vous dans l&#39;univers **[!UICONTROL Profils et cibles]** et cliquez sur le lien **[!UICONTROL Traitements]**.
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
