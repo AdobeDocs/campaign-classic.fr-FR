@@ -29,12 +29,12 @@ Pour la paramétrer, éditez l&#39;activité et saisissez son libellé, puis cho
 ![](assets/edit_service_inscription.png)
 
 1. Saisissez le libellé de l&#39;activité.
-1. Select **[!UICONTROL Generate an outbound transition]** if you wish to create a transition at the end of the execution.
+1. Sélectionnez **[!UICONTROL Générer une transition sortante]** si vous voulez créer une transition à la fin de l&#39;exécution.
 
    Généralement, l&#39;inscription d&#39;une cible à un service d&#39;information marque la fin du workflow de ciblage c&#39;est pourquoi l&#39;option n&#39;est pas activée par défaut.
 
-1. Click **[!UICONTROL Subscription]** or **[!UICONTROL Unsubscription]** if you wish to subscribe or unsubscribe the specified population to or from the selected information service.
-1. Select **[!UICONTROL Send a confirmation message]** to notify recipients that they are subscribed to or unsubscribed from a service.
+1. Cliquez sur **[!UICONTROL Inscription]** ou **[!UICONTROL Désinscription]** si vous souhaitez abonner ou désabonner la population spécifiée au service d&#39;information sélectionné.
+1. Sélectionnez **[!UICONTROL Envoyer un message de confirmation]** pour prévenir un destinataire lorsqu&#39;il est abonné ou désabonné à un service.
 
    Le contenu de ce message est précisé dans un modèle de diffusion attaché au service d&#39;information. Voir à ce sujet cette [section](../../delivery/using/managing-subscriptions.md).
 
@@ -59,16 +59,16 @@ Pour cela, il faut également exclure les destinataires déjà abonnés.
 1. Placez une activité d&#39;intersection afin de croiser les différents résultats.
 1. Si vous le souhaitez, insérez une mise à jour de liste afin de maintenir à jour la liste des derniers abonnés.
 1. Insérez une activité de services d&#39;inscriptions, puis double-cliquez sur cette dernière afin de la paramétrer.
-1. Enter the activity label and select **[!UICONTROL Subscription]**.
+1. Saisissez le libellé de l&#39;activité et sélectionnez **[!UICONTROL Inscription]**.
 
-   If you like, you can inform recipients of their newsletter subscription by checking the **[!UICONTROL Send a confirmation message]** box.
+   Vous pouvez, si vous le souhaitez, prévenir les destinataires de leur inscription à la newsletter en cochant la case **[!UICONTROL Envoyer un message de confirmation]**.
 
 1. Sélectionnez le dossier dans lequel se trouve la newsletter puis sélectionnez cette dernière dans la liste qui apparaît.
-1. Leave the **[!UICONTROL Generate outbound transition]** unchecked so that this activity will mark the end of the workflow, then click **[!UICONTROL Ok]**.
+1. Laissez la case **[!UICONTROL Générer une transition sortante]** décochée afin que cette activité marque la fin du workflow puis cliquez sur **[!UICONTROL Ok]**.
 
 Lors de l&#39;exécution du workflow, les destinataires répondant à la fois aux trois requêtes sont ajoutés à la liste et abonnés à la newsletter.
 
-You can check that the subscription was successful by going to the **[!UICONTROL Subscription]** tab for your recipients.
+Vous avez la possibilité de vérifier que l&#39;abonnement a bien été effectué en vous rendant dans l&#39;onglet **[!UICONTROL Abonnements]** de ces destinataires.
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
