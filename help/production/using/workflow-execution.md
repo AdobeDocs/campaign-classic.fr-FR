@@ -32,21 +32,21 @@ Pour plus d’informations sur les flux de travail, voir les sections suivantes 
 
 ## Commencer dès que possible dans les campagnes {#start-as-soon-as-possible-in-campaigns}
 
-Dans certains cas, les processus exécutés à partir d’une campagne ne commencent pas lorsque vous cliquez sur le **[!UICONTROL Start]** bouton. Au lieu de commencer, il passe à l’état &quot;Démarrer dès que possible&quot;.
+Dans certains cas, les processus exécutés à partir d’une campagne ne commencent pas lorsque vous cliquez sur le bouton **[!UICONTROL Démarrer]** . Au lieu de commencer, il passe à l’état &quot;Démarrer dès que possible&quot;.
 
 Il peut y avoir plusieurs causes à ce problème, procédez comme suit pour le résoudre :
 
-1. Vérifiez l’état [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) technique du processus. Ce processus gère les tâches ou les processus au sein d’une campagne. En cas d’échec, les processus ne démarrent/ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des processus de campagne.
+1. Vérifiez l’état du flux de travail technique [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) . Ce processus gère les tâches ou les processus au sein d’une campagne. En cas d’échec, les processus ne démarrent/ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des processus de campagne.
 
    Pour en savoir plus sur la surveillance des processus techniques, consultez [cette page](../../workflow/using/monitoring-technical-workflows.md).
 
    >[REMARQUE]
    >
-   >Une fois le processus redémarré, assurez-vous d’exécuter les tâches en attente (cliquez avec le bouton droit sur l’ **[!UICONTROL Scheduler]** activité / **[!UICONTROL Execute pending task(s) now]**) afin de vérifier si l’une des activités échoue à nouveau.
+   >Une fois le processus redémarré, assurez-vous d’exécuter les tâches en attente (cliquez avec le bouton droit de la souris sur l’activité du **[!UICONTROL planificateur]** / **[!UICONTROL Exécuter les tâches en attente maintenant]**) afin de vérifier si l’une des activités échoue à nouveau.
 
    Si le processus échoue toujours, recherchez une erreur spécifique dans le journal d’audit, dépanner en conséquence, puis redémarrez le processus.
 
-1. Vérifiez l&#39;état du **[!UICONTROL wfserver]** module dans l&#39; **[!UICONTROL Monitoring]** onglet, accessible à partir de la page d&#39;accueil de Campaign Classic (voir Processus [de](../../production/using/monitoring-processes.md)surveillance). Ce processus est responsable de l’exécution de tous les processus.
+1. Vérifiez l’état du module **[!UICONTROL wfserver]** dans l’onglet **[!UICONTROL Surveillance]** , accessible à partir de la page d’accueil de Campaign Classic (voir [Surveillance des processus](../../production/using/monitoring-processes.md)). Ce processus est responsable de l’exécution de tous les processus.
 
    Un utilisateur administrateur peut également vérifier que le module **wfserver@`<instance>`**est lancé sur votre serveur d’applications principal à l’aide de la commande ci-dessous.
 
@@ -71,7 +71,7 @@ Il peut y avoir plusieurs causes à ce problème, procédez comme suit pour le r
 
    Pour plus d&#39;informations sur le redémarrage des modules, reportez-vous à [cette section](../../production/using/usual-commands.md#module-launch-commands).
 
-1. Vérifiez si le **nombre de processus de campagne exécutés** sur l’instance est supérieur au seuil. L’ [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) option définit une limite quant au nombre de processus de campagne pouvant être exécutés sur l’instance en parallèle. Lorsque cette limite est atteinte, le processus reste à l’état &quot;Démarrer le plus tôt possible&quot; tant que le nombre de processus en cours d’exécution est supérieur à la limite.
+1. Vérifiez si le **nombre de processus de campagne exécutés** sur l’instance est supérieur au seuil. Une limite est définie par l&#39;option [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) sur le nombre de processus de campagne pouvant être exécutés sur l&#39;instance en parallèle. Lorsque cette limite est atteinte, le processus reste à l’état &quot;Démarrer le plus tôt possible&quot; tant que le nombre de processus en cours d’exécution est supérieur à la limite.
 
    Pour résoudre ce problème, arrêtez les processus indésirables et supprimez les livraisons en échec. Si le seuil a été atteint, cela permettra l’exécution de nouveaux processus.
 
@@ -79,7 +79,7 @@ Il peut y avoir plusieurs causes à ce problème, procédez comme suit pour le r
 
    >[ATTENTION]
    >
-   >L’augmentation du seuil d’ **[!UICONTROL NmsOperation_LimitConcurrency]** option peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et contactez votre contact Adobe Campaign.
+   >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et contactez votre contact Adobe Campaign.
 
 Pour plus d’informations sur la manière de surveiller vos processus, reportez-vous à [cette section](../../workflow/using/monitoring-workflow-execution.md).
 
@@ -89,7 +89,7 @@ Si les workflows ne s&#39;exécutent pas et restent dans un état **Démarrage e
 
 Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
-1. Vérifiez l&#39;état du **[!UICONTROL wfserver]** module dans l&#39; **[!UICONTROL Monitoring]** onglet, accessible à partir de la page d&#39;accueil de Campaign Classic (voir Processus [de](../../production/using/monitoring-processes.md)surveillance).
+1. Vérifiez l’état du module **[!UICONTROL wfserver]** dans l’onglet **[!UICONTROL Surveillance]** , accessible à partir de la page d’accueil de Campaign Classic (voir [Surveillance des processus](../../production/using/monitoring-processes.md)).
 
    Un utilisateur administrateur peut également vérifier que le module **wfserver@`<instance>`**est lancé sur votre serveur d’applications principal à l’aide de la commande ci-dessous.
 
