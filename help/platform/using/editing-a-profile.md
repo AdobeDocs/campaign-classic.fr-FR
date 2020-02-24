@@ -34,7 +34,7 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 
 >[!CAUTION]
 >
->Le schéma XML et le formulaire qui concernent les champs du tableau des profils sont accessibles via le **[!UICONTROL Administration > Configuration > Data schemas]** noeud de l’arborescence Adobe Campaign. Seuls les utilisateurs experts peuvent apporter des modifications à ces schémas.
+>Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de l&#39;arborescence d&#39;Adobe Campaign. La modification de ces schémas est réservée à des utilisateurs experts.
 >
 >Voir à ce propos [cette page](../../configuration/using/about-schema-edition.md).
 
@@ -46,7 +46,7 @@ Cet écran contient toutes les informations générales relatives au profil sél
 
 >[!NOTE]
 >
->Lorsque l’ **[!UICONTROL No longer contact (by any channel)]** option est sélectionnée, cela signifie que le profil est placé sur liste noire, c’est-à-dire qu’il a exprimé le souhait de ne pas être contacté (par exemple, en cliquant sur un lien de désabonnement dans un bulletin d’information). Ils ne seront plus ciblés par les livraisons sur n&#39;importe quel canal (courriel, courrier électronique, etc.). Voir à ce propos [cette page](../../delivery/using/understanding-quarantine-management.md).
+>L&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]** lorsqu&#39;elle est cochée, indique que ce profil est en blackliste, donc qu&#39;il a émis le souhait de ne plus être contacté (par exemple, en cliquant sur un lien de désabonnement dans une newsletter). Il ne sera ciblé par aucune diffusion, quel que soit le canal (email, courrier, etc.). Voir à ce sujet [cette page](../../delivery/using/understanding-quarantine-management.md).
 
 ## Onglet Coordonnées {#contact-information-tab}
 
@@ -58,7 +58,7 @@ L&#39;indice de qualité de cette adresse est reporté dans cet écran, ainsi qu
 
 ## Onglet Autres {#other-tab}
 
-Cet écran contient des champs définis par l’utilisateur qui peuvent être personnalisés en fonction des besoins. Vous pouvez également modifier les noms des champs et définir leur format, via **[!UICONTROL Field properties...]**, comme illustré ci-dessous :
+Cet écran contient des champs libres qui peuvent être personnalisés en fonction des besoins. Vous pouvez ainsi modifier l&#39;intitulé des champs et en définir le format, via le menu **[!UICONTROL Propriétés du champ...]**, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
@@ -68,7 +68,7 @@ Cet écran contient des champs définis par l’utilisateur qui peuvent être pe
 
 ## Onglet Listes {#lists-tab}
 
-Cet écran affiche le ou les groupes auxquels appartient le profil sélectionné. Cliquez sur **[!UICONTROL Add]** pour abonner le profil à une liste. Cliquez sur **[!UICONTROL Detail]** pour afficher la description et la liste des profils dans la liste sélectionnée.
+Cet écran permet d&#39;afficher le ou les groupes auxquels appartient le profil sélectionné. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour inscrire le profil dans une liste. Cliquez sur le bouton **[!UICONTROL Détail]** pour afficher la description et la totalité des profils de la liste sélectionnée.
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
@@ -80,7 +80,7 @@ Cet écran contient les services d&#39;information auxquels s&#39;est abonné le
 
 ![](assets/s_ncs_user_profile_subscript_tab_details.png)
 
-Le **[!UICONTROL Detail]** bouton affiche les propriétés de l’abonnement sélectionné. Le **[!UICONTROL Add]** bouton permet d’ajouter manuellement un nouvel abonnement.
+Le bouton **[!UICONTROL Détail]** affiche les propriétés de l&#39;abonnement sélectionné. Le bouton **[!UICONTROL Ajouter]** permet d&#39;ajouter manuellement un nouvel abonnement.
 
 Voir à ce propos [cette page](../../delivery/using/managing-subscriptions.md).
 
