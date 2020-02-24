@@ -26,7 +26,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 Les conteneurs permettent de regrouper les champs d&#39;une page et d&#39;en paramétrer la mise en page. Ils permettent d&#39;organiser les éléments dans la page.
 
-For each page of the form, containers are created via the **[!UICONTROL Containers]** button of the toolbar.
+Pour chaque page du formulaire, les conteneurs sont créés à partir du bouton **[!UICONTROL Conteneurs]** de la barre d&#39;outils.
 
 ![](assets/s_ncs_admin_survey_containers_add.png)
 
@@ -74,7 +74,7 @@ Vous pouvez modifier la mise en page au niveau de chaque conteneur. Dans notre e
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
-Le titre et la liste occupent une cellule chacune (et donc une ligne entière du conteneur) et la case à cocher s’étend sur deux cellules. Le nombre de cellules attribuées au champ de saisie est défini dans l’ **[!UICONTROL General]** onglet ou l’ **[!UICONTROL Advanced]** onglet, selon le type de champ :
+Le titre et la liste occupent une cellule chacun (donc toute une ligne du conteneur) et la case à cocher s&#39;étend sur deux cellules. Le nombre de cellule attribuée à la zone de saisie est défini dans l&#39;onglet **[!UICONTROL Général]** ou dans l&#39;onglet **[!UICONTROL Avancé]**, selon le type de zone :
 
 ![](assets/s_ncs_admin_survey_container_ex2.png)
 
@@ -84,11 +84,11 @@ Vous pouvez définir l&#39;alignement des champs et des libellés du formulaire.
 
 Par défaut, les paramètres d&#39;affichage des champs et autres contenus de la page sont hérités du paramétrage général du formulaire, le paramétrage de la page ou celui du conteneur parent, s&#39;il existe.
 
-Les paramètres d’affichage globaux pour l’ensemble du formulaire sont spécifiés dans la zone Propriétés du formulaire. L’ **[!UICONTROL Rendering]** onglet permet de sélectionner la position des libellés.
+Les paramètres d&#39;affichage globaux pour tout le formulaire sont indiqués dans la boîte de propriétés du formulaire. L&#39;onglet **[!UICONTROL Rendu]** permet de sélectionner la position des libellés.
 
 ![](assets/s_ncs_admin_survey_label_position.png)
 
-This position can be overloaded for each page, each container, and each field, via the **[!UICONTROL Advanced]** tab.
+Cette position peut être surchargée au niveau de chaque page, puis de chaque conteneur et enfin au niveau de chaque champ, à partir de l&#39;onglet **[!UICONTROL Avancé]**.
 
 Les alignements supportés sont les suivants :
 
