@@ -30,7 +30,7 @@ Une intersection permet de n&#39;extraire que la population commune à tous les 
 
 Pour plus d’informations sur la configuration et l’utilisation de l’activité d’intersection, voir [Extraction des données d’articulation (intersection)](../../workflow/using/targeting-data.md#extracting-joint-data--intersection-).
 
-Cochez l’ **[!UICONTROL Generate complement]** option si vous souhaitez traiter la population restante. Le complément contiendra l&#39;union des résultats de toutes les activités entrantes moins l&#39;intersection. Une transition sortante supplémentaire sera alors ajoutée à l’activité, comme suit :
+Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra l&#39;union des résultats de toutes les activités entrantes, moins l&#39;intersection. Une seconde transition sortante sera alors ajoutée à l&#39;activité, comme suit :
 
 ![](assets/s_user_segmentation_inter_compl.png)
 
@@ -42,9 +42,9 @@ Dans l&#39;exemple suivant, l&#39;intersection a pour but de calculer les destin
 
    Dans cet exemple, les requêtes ciblent respectivement les destinataires masculins, les destinataires vivant à Paris et les destinataires âgés de 18 à 30 ans.
 
-1. Configurez l’intersection. To do this, select the **[!UICONTROL Keys only]** reconciliation method since the populations resulting from the queries contain consistent data.
+1. Paramétrez l&#39;intersection. Pour cela, sélectionnez la méthode de réconciliation **[!UICONTROL Uniquement les clés]** dans la mesure où les populations issues des requêtes contiennent des données homogènes.
 1. Si vous avez ajouté des données additionnelles au niveau des requêtes, vous pouvez éventuellement choisir de ne conserver que celles qui sont communes en cochant la case correspondante.
-1. If you wish to use the rest of the data (in regard to the queries but not their intersection), check the **[!UICONTROL Generate complement]** box.
+1. Si vous souhaitez utiliser le reste des données (correspondant aux requêtes, mais pas à leur intersection), cochez la case **[!UICONTROL Générer le complémentaire]**.
 1. Insérez une activité de mise à jour de liste après le résultat de l&#39;intersection. Insérez également une mise à jour de liste après le complémentaire dans le cas où vous souhaiteriez également l&#39;exploiter.
 1. Exécutez le workflow. Ici, deux destinataires correspondent à la fois aux trois requêtes en entrée. Le complément est composé des cinq destinataires qui correspondent uniquement à une ou deux des trois requêtes.
 
@@ -65,4 +65,4 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 * schema
 * recCount
 
-Cet ensemble de trois valeurs identifie la cible résultant de l’intersection. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identificateurs de cible, **[!UICONTROL schema]** est le schéma de la population (habituellement **[!UICONTROL nms:recipient]**) et **[!UICONTROL recCount]** est le nombre d’éléments de la table.
+Ce triplet de valeurs identifie la cible résultant de l&#39;intersection. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement **[!UICONTROL nms:recipient]**) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
