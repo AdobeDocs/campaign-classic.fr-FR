@@ -24,11 +24,11 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 Les images utilisées dans les diagrammes des différents workflows peuvent être modifiées. Elles doivent toutefois respecter certaines contraintes. Les étapes de mise en oeuvre sont les suivantes :
 
-* To change the background image, select the desired targeting workflow, then click the **[!UICONTROL Properties]** tab.
+* Pour changer l&#39;image de fond, sélectionnez le workflow de ciblage visé et cliquez sur **[!UICONTROL Propriétés]**.
 
    ![](assets/s_user_segmentation_properties_tab.png)
 
-   To select the image to be used, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Background image]** field.
+   Cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** situé à droite du champ **[!UICONTROL Image de fond]** pour sélectionner l&#39;image à utiliser.
 
    >[!NOTE]
    >
@@ -36,21 +36,21 @@ Les images utilisées dans les diagrammes des différents workflows peuvent êtr
 
    ![](assets/s_user_segmentation_background_select.png)
 
-   The **[!UICONTROL Edit link]** icon lets you view the selected image.
+   L&#39;icône **[!UICONTROL Editer le lien]** permet de visualiser l&#39;image sélectionnée.
 
-* To change the image associated with an activity, double-click the object, then click the **[!UICONTROL Advanced]** tab.
+* Pour changer l&#39;image associée à une activité, double-cliquez sur l&#39;objet et cliquez sur l&#39;onglet **[!UICONTROL Avancé]**.
 
-   To select the image to be used, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Image]** field.
+   Cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** situé à droite du champ **[!UICONTROL Image]** pour sélectionner l&#39;image à utiliser.
 
    ![](assets/s_user_segmentation_activity_image.png)
 
-   The **[!UICONTROL Edit link]** icon lets you view the selected image.
+   L&#39;icône **[!UICONTROL Editer le lien]** permet de visualiser l&#39;image sélectionnée.
 
    ![](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >
->The images saved in the **[!UICONTROL Administration > Configuration > Images]** node of the tree are available for selection.
+>Les images proposées sont celles qui sont enregistrées dans le noeud **[!UICONTROL Administration > Paramétrage > Images]** de l&#39;arborescence.
 >  
 >Les images doivent être au format PNG, 48x48 pixels, 16 millions de couleurs et avec un fond transparent.
 
