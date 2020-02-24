@@ -47,7 +47,7 @@ La procédure de configuration d&#39;un serveur Web IIS est essentiellement grap
 
 Les sections suivantes présentent le mode de configuration sous IIS 7. Les paramétrages pour IIS 8 sont globalement identiques.
 
-Si le serveur Web IIS n’est pas déjà installé sur votre ordinateur, vous pouvez l’installer via le **[!UICONTROL Add > Remove Programs > Enable or disable Windows functionalities]** menu.
+Si le serveur Web IIS n&#39;est pas déjà installé sur votre machine, vous pouvez lancer l&#39;installation via le menu **[!UICONTROL Ajout > Suppression de programmes > Activer ou désactiver des fonctionnalités Windows]**.
 
 Sous IIS 7, en plus des services standards, vous devez installer les Extensions ISAPI et les filtres ISAPI.
 
@@ -57,7 +57,7 @@ Sous IIS 7, en plus des services standards, vous devez installer les Extensions 
 
 Les étapes de paramétrage sont les suivantes :
 
-1. Ouvrez IIS via le **[!UICONTROL Control panel > Administrative tools > Services]** menu.
+1. Ouvrez le Gestionnaire de service Internet (IIS) via le menu **[!UICONTROL Panneau de configuration > Outils d&#39;administration > Gestionnaire des services Internet.]**
 1. Créez et paramétrez le site (Adobe Campaign, par exemple) en fonction des contraintes de votre réseau (port TCP de connexion, host DNS, adresse IP).
 
    ![](assets/s_ncs_install_iis7_add_site.png)
@@ -88,7 +88,7 @@ Les étapes de paramétrage sont les suivantes :
 
    ![](assets/s_ncs_install_iis7_parameters_step7.png)
 
-1. In the **[!UICONTROL Content View]** tab, make sure the Web site is correctly configured with the Adobe Campaign resources:
+1. Dans l&#39;onglet **[!UICONTROL Affichage du contenu]**, vérifiez que la configuration du site Web est bien paramétrée avec les ressources Adobe Campaign :
 
    ![](assets/s_ncs_install_iis7_parameters_step6.png)
 
@@ -100,11 +100,11 @@ Vous devez ensuite régler les accès de sécurité pour l&#39;exécution de la 
 
 Pour cela, les étapes sont les suivantes :
 
-1. Select the **[!UICONTROL Features View]** tab and double-click the **Authentication** link.
+1. Sélectionnez l&#39;onglet **[!UICONTROL Affichage des fonctionnalités]** et double-cliquez sur l&#39;icône **Authentification**.
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. Dans l&#39;onglet Sécurité **des** annuaires du site Web, vérifiez que l&#39;accès anonyme est activé. Si nécessaire, cliquez sur le **[!UICONTROL Edit]** lien pour modifier les paramètres.
+1. Vérifiez, à partir de l&#39;onglet **Sécurité de répertoire** des propriétés du site Web, que l&#39;accès anonyme est activé. Au besoin, cliquez sur le lien **[!UICONTROL Edit...]** pour modifier le paramétrage.
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 
@@ -144,7 +144,7 @@ Vous pouvez également vous assurer que la DLL ISAPI est bien chargée.
 
 Pour cela, les étapes sont les suivantes :
 
-1. Edit the ISAPI filters for the Adobe Campaign site by clicking the **[!UICONTROL Driver mapping]** icon.
+1. Editez les filtres ISAPI pour le site Adobe Campaign en cliquant sur l&#39;icône **[!UICONTROL Mappages de gestionnaires]**.
 1. Puis vérifiez le contenu du filtre ISAPI :
 
    ![](assets/s_ncs_install_iis7_parameters_step11.png)
@@ -161,7 +161,7 @@ Par exemple, si vous utilisez une activité de type **Chargement (fichier)** dan
 
 Vous devez, dans ce cas, augmenter cette limite :
 
-1. Ouvrez IIS via le **[!UICONTROL Start > (Control panel) > Administration tools]** menu.
+1. Ouvrez le Gestionnaire des services Internet (IIS) via le menu **[!UICONTROL Démarrer > (Panneau de configuration) > Outils d&#39;administration]**.
 1. Dans le volet **Connexions**, sélectionnez le site créé pour votre installation d&#39;Adobe Campaign, puis double-cliquez sur **Filtrage des demandes** dans le volet principal.
 1. Dans le volet **Actions**, sélectionnez **Modifier les paramètres de fonction...** afin de pouvoir modifier la valeur du champ **Longueur maximale autorisée du contenu (octets)**.
 
@@ -177,7 +177,7 @@ Si vous utilisez un serveur IIS version 6.1, il est possible que les messages d&
 
 Pour corriger cela et afficher correctement l&#39;erreur, effectuez le paramétrage suivant :
 
-1. Ouvrez IIS via le **[!UICONTROL Start > Control Panel > Administrative tools]** menu.
+1. Ouvrez le Gestionnaire des services Internet (IIS) via le menu **[!UICONTROL Démarrer > (Panneau de configuration) > Outils d&#39;administration]**.
 1. Dans le volet **Connexions**, sélectionnez le site créé pour votre installation d&#39;Adobe Campaign, puis double-cliquez sur **Éditeur de configuration** dans le volet principal.
 1. Dans la liste déroulante **Section**, sélectionnez **system.webServer** > **httpErrors**.
 1. Sélectionnez la valeur **PassThrough** au niveau de la ligne **existingResponse**.
