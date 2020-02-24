@@ -42,21 +42,21 @@ Le principe de fonctionnement est le suivant :
 
    ![](assets/soap_load_003.png)
 
-1. Sélectionnez **[!UICONTROL Click here to view and edit analysis results]** pour spécifier chaque colonne identifiée.
+1. Sélectionnez **[!UICONTROL Cliquez ici pour visualiser et modifier le résultat de l&#39;analyse]** afin de définir chaque colonne identifiée.
 
    ![](assets/soap_load_001.png)
 
-   Si vous souhaitez mettre à jour l’exemple, sélectionnez **[!UICONTROL Re-analyze the example]**.
+   Si vous souhaitez mettre à jour l&#39;exemple, sélectionnez **[!UICONTROL Ré-analyser l&#39;exemple]**.
 
-   Vous pouvez également personnaliser le format des données de colonne via le **[!UICONTROL Advanced parameters]** lien. For more on formatting imported data, refer to this [section](../../platform/using/importing-data.md#import-wizard).
+   Vous pouvez également personnaliser les mises en forme des données des colonnes via le lien **[!UICONTROL Paramètres avancés]**. Pour plus d&#39;informations à propos de la mise en forme de données importées, consultez cette [section](../../platform/using/importing-data.md#import-wizard).
 
 1. Si vous le souhaitez, vous pouvez choisir d&#39;utiliser le numéro de ligne comme identifiant et/ou indiquer que l&#39;appel SOAP renvoie plusieurs éléments.
 1. Saisissez les scripts des onglets suivants selon leur fonction :
 
-   * **[!UICONTROL Initialization]**: établit une connexion SOAP.
-   * **[!UICONTROL Iteration]**: effectue l’appel au service SOAP. Le retour de cette fonction doit être un objet XML compatible avec la description de l’exemple ou du fichier WSDL.
+   * **[!UICONTROL Initialisation]** : établissement de la connexion SOAP.
+   * **[!UICONTROL Itération]** : appel du service SOAP. Le retour de cette fonction doit être un objet XML compatible avec la description de l&#39;exemple ou la WSDL.
 
       Le code de cet onglet sera appelé en boucle par Adobe Campaign jusqu&#39;à ce qu&#39;un objet XML null soit retourné.
 
-   * **[!UICONTROL Finalization]**: ferme la connexion et/ou libère d’autres ressources créées pendant le traitement.
+   * **[!UICONTROL Finalisation]** : fermeture de la connexion et/ou libération des autres ressources créées lors du traitement.
 
