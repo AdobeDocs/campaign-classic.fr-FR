@@ -46,7 +46,7 @@ You need to create the **TRACE_ADDR** environment variable with the **localhost*
 
 ## Paramétrage des zones de sécurité {#configuring-security-zones}
 
-Chaque opérateur doit être lié à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit être incluse dans les adresses ou les ensembles d&#39;adresses définis dans la zone de sécurité. La configuration de zone technique est effectuée dans le fichier de configuration du serveur Adobe Campaign. La liaison d’un opérateur à une zone de sécurité doit être définie dans la console ( **[!UICONTROL Administration > Access management > Operators]** noeud).
+Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration technique des zones est effectuée dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un opérateur à une zone de sécurité doit être défini dans la console (noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 >[!NOTE]
 >
