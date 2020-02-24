@@ -22,13 +22,13 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Démarrer les workflows{#starting-workflows}
 
-Les **[!UICONTROL Managing social networks]** processus, accessibles via le **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** noeud, vous permettent de synchroniser Adobe Campaign avec Twitter et Facebook.
+Les workflows de **[!UICONTROL Gestion des réseaux sociaux]**, disponibles à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques > Gestion des réseaux sociaux]** permettent de synchroniser Adobe Campaign avec Twitter et Facebook.
 
-La première fois que vous utilisez Social Marketing, ces processus sont arrêtés par défaut. Pour les démarrer, cliquez sur le **[!UICONTROL Start]** bouton de la barre d’outils.
+A la première utilisation de Social Marketing, ces workflows sont arrêtés par défaut. Démarrez-les à l&#39;aide du bouton **[!UICONTROL Démarrer]** situé dans la barre d&#39;outils.
 
 ![](assets/social_start_workflows.png)
 
-S’il existe un réseau social que vous ne souhaitez pas utiliser, nous vous recommandons de ne pas démarrer les processus correspondants. Pour éviter de recevoir un avertissement indiquant que les processus de production sont arrêtés, sélectionnez le niveau de gravité **[!UICONTROL Normal]** dans l’ **[!UICONTROL Execution]** onglet des propriétés des processus concernés.
+Si vous ne souhaitez pas utiliser l&#39;un des deux réseaux sociaux, il est conseillé de ne pas démarrer les workflows correspondants. Pour ne pas recevoir d&#39;alerte indiquant que des workflows de production sont arrêtés, sélectionnez le niveau de criticité **[!UICONTROL Normal]** dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés des workflows concernés.
 
 ![](assets/social_start_workflows2.png)
 
