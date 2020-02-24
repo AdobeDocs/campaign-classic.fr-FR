@@ -26,7 +26,7 @@ Le fait d&#39;ajouter des coupons à vos diffusions peut donner une valeur ajout
 
 >[!NOTE]
 >
->La gestion des bons est un pack qui doit être installé. Pour confirmer que vous disposez de la gestion Bon, cochez la case **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
+>La Gestion des coupons est un package qui doit être installé. Pour confirmer que vous disposez de la Gestion des coupons, allez dans **[!UICONTROL Administration > Configuration > Gestion des packages > Packages installés.]**
 >
 >Les données des coupons peuvent être importées et exportée à l&#39;aide de formats CSV et XML. Pour plus d&#39;informations sur l&#39;import et l&#39;export, voir [cette section](../../platform/using/generic-imports-and-exports.md).
 
@@ -39,25 +39,25 @@ Le module coupon offre le choix entre deux options lors de la création de coupo
 
 Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type de coupon vous souhaitez créer.
 
-1. Dans l&#39;arborescence de la campagne, accédez à **[!UICONTROL Resources > Campaign management > Coupons]**.
+1. Dans l&#39;arborescence Campaign, allez dans **[!UICONTROL Ressources > Gestion de campagne > Coupons]**.
 
    ![](assets/deliv_coup_01.png)
 
-1. Cliquez sur le **[!UICONTROL New]** bouton.
-1. Entrez le nom du bon dans le **[!UICONTROL Label]** champ. Un code unique a été saisi automatiquement **[!UICONTROL Coupon code]**. Vous pouvez conserver le code ou en saisir un nouveau.
+1. Cliquez sur le bouton **[!UICONTROL Nouveau]**.
+1. Saisissez le nom du coupon dans le champ **[!UICONTROL Libellé]**. Un code unique apparaît automatiquement dans **[!UICONTROL Code coupon]**. Vous pouvez garder ce code ou en saisir un nouveau.
 
    ![](assets/deliv_coup_02.png)
 
-1. Choisissez **[!UICONTROL Start date]** et **[!UICONTROL End date]** définissez la période de validité du bon.
-1. Dans **[!UICONTROL Coupon type]**, sélectionnez Anonyme ou Individuel.
+1. Sélectionnez **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]** pour configurer la période de validité du coupon.
+1. Dans **[!UICONTROL Type de coupon]**, sélectionnez Anonyme ou Individuel.
 
-   **[!UICONTROL Anonymous coupons]** : Un bon anonyme est identique pour tous les destinataires. Vérifiez que l’option Anonymous est sélectionnée dans le menu Type **de** bon et cliquez sur **Enregistrer** pour générer le bon.
+   **[!UICONTROL Coupons anonymes]** : un coupon anonyme est identique pour tous les destinataires. Confirmez la sélection du type Anonyme dans le menu **Type de coupon** et cliquez sur **Enregistrer** pour générer le coupon.
 
-   **[!UICONTROL Individual coupons]** : Un bon individuel peut être personnalisé avec des codes de bons supplémentaires. Par exemple, un bon individuel est créé pour une vente dans un magasin d’équipements sportifs. Cependant, la liste des lauréats est longue et ils ne partagent pas le même enthousiasme pour un seul sport. Vous pouvez ajouter des noms de code pour chaque coupon en fonction d’un sport (football, football, baseball, etc.) et envoyer chaque code aux destinataires concernés.
+   **[!UICONTROL Coupons individuels]** : un coupon individuel peut être personnalisé davantage à l&#39;aide de codes coupon supplémentaires. Par exemple, un coupon individuel est créé pour une promotion dans un magasin d&#39;équipement sportif. Or, la liste des destinataires est longue et ceux-ci s&#39;intéressent à des sports différents. Vous pouvez ajouter des noms de code pour le coupon individuel en fonction d&#39;un sport précis (p.ex. le foot, le football américain, le baseball, etc.) et envoyer chaque code aux destinataires concernés.
 
-   1. Lorsque vous sélectionnez Individuel, un nouvel onglet, Bons, s’affiche dans le coin inférieur gauche. Accédez à l’ **[!UICONTROL Coupons]** onglet et cliquez sur **[!UICONTROL Add]**.
+   1. Lorsque vous sélectionnez le type Individuel, un nouvel onglet, Coupons, apparaît en bas à gauche. Allez dans l&#39;onglet **[!UICONTROL Coupons]** et cliquez sur **[!UICONTROL Ajouter]**.
    1. Lorsque la fenêtre contextuelle vous y invite, saisissez un code unique pour le coupon individuel.
-   1. Click **[!UICONTROL Save]** to generate the coupon.
+   1. Cliquez sur **[!UICONTROL Enregistrer]** pour générer le coupon.
    Pour plus d’informations sur l’onglet Bons, voir [Configuration de bons](#configuring-individual-coupons)individuels.
 
    >[!NOTE]
@@ -70,25 +70,25 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
 
 L&#39;onglet Coupons n&#39;est disponible qu&#39;avec les Coupons Individuels. Une fois qu&#39;un coupon est associé à une diffusion, l&#39;onglet Coupon fournit les détails suivants :
 
-* **[!UICONTROL Status]** : Disponibilité des bons.
-* **[!UICONTROL Redeemed on]** : Date à laquelle le bon est échangé.
-* **[!UICONTROL Channel]** : Canal utilisé pour envoyer le bon.
-* **[!UICONTROL Address]** : Adresses électroniques des destinataires.
+* **[!UICONTROL Etat]** : Disponibilité du coupon.
+* **[!UICONTROL Consommé le]** : Date à laquelle le coupon est consommé.
+* **[!UICONTROL Canal]** : Canal utilisé pour envoyer le coupon.
+* **[!UICONTROL Adresse]** : Adresses email des destinataires.
 
-Les valeurs **[!UICONTROL status]**, **[!UICONTROL channel]** et **[!UICONTROL address]** sont automatiquement renseignées. Toutefois, les valeurs de **[!UICONTROL redeemed on]** ne sont pas récupérées par Campaign. Ils peuvent être complétés en important un fichier contenant les détails du remboursement des bons.
+Les valeurs des champs **[!UICONTROL état]**, **[!UICONTROL canal]** et **[!UICONTROL adresse]** sont remplies automatiquement. En revanche, les valeurs du champ **[!UICONTROL consommé le]** ne sont pas récupérées par Campaign. Elles peuvent être remplies en important un fichier comportant les informations de consommation des coupons.
 
 ## Insérer un coupon dans une diffusion email {#inserting-a-coupon-into-an-email-delivery}
 
 Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#39;accueil. Pour des consignes détaillées de création d&#39;une diffusion, voir [cette section](../../delivery/using/about-email-channel.md). Il est également possible d&#39;ajouter un coupon à une diffusion dans un workflow.
 
-1. Allez à **[!UICONTROL Campaigns]** et choisissez **[!UICONTROL Deliveries]**.
-1. Clics **[!UICONTROL Create]**.
+1. Allez sur **[!UICONTROL Campagnes]** et sélectionnez **[!UICONTROL Diffusions]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/deliv_coup_04.png)
 
-1. Entrez un nom dans **[!UICONTROL Label]** et cliquez sur **[!UICONTROL Continue]**.
-1. Click **[!UICONTROL To]** to add recipients.
-1. Cliquez sur **[!UICONTROL Add]** pour sélectionner les destinataires de la remise. Une fois que vous avez sélectionné vos destinataires, cliquez **[!UICONTROL Ok]** pour revenir à la remise.
+1. Saisissez un nom dans le champ **[!UICONTROL Libellé]** et cliquez sur **[!UICONTROL Continuer]**.
+1. Cliquez sur **[!UICONTROL Pour]** pour ajouter des destinataires.
+1. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner des destinataires pour la diffusion. Une fois les destinataires sélectionnés, cliquez sur **[!UICONTROL Ok]** pour retourner à la diffusion.
 
    ![](assets/deliv_coup_05.png)
 
@@ -96,12 +96,12 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
    ![](assets/deliv_coup_06.png)
 
-1. In the toolbar, click **[!UICONTROL Properties]** and choose the **[!UICONTROL Advanced]** tab.
-1. Cliquez sur l’icône de dossier pour **[!UICONTROL Coupon management]**.
+1. Dans la barre d&#39;outils, cliquez sur **[!UICONTROL Propriétés]** et sélectionnez l&#39;onglet **[!UICONTROL Avancé]**.
+1. Cliquez sur l&#39;icône dossier pour la **[!UICONTROL Gestion des coupons]**.
 
    ![](assets/deliv_coup_07.png)
 
-1. Sélectionnez le bon et cliquez sur **[!UICONTROL Ok]**. Cliquez **[!UICONTROL Ok]** de nouveau sur.
+1. Sélectionnez le coupon et cliquez sur **[!UICONTROL Ok]**. Cliquez à nouveau sur **[!UICONTROL Ok]**.
 
    ![](assets/deliv_coup_08.png)
 
@@ -111,18 +111,18 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
 1. Cliquez sur l&#39;icône de personnalisation pour choisir l&#39;une des options suivantes en fonction du type de coupon :
 
-   * Bon anonyme : **[!UICONTROL Coupon > Coupon code]**
+   * Coupon anonyme : **[!UICONTROL Coupon > Code coupon]**
 
       ![](assets/deliv_coup_10.png)
 
-   * Bon individuel : **[!UICONTROL Coupon value > Coupon code]**
+   * Coupon individuel : **[!UICONTROL Valeur de coupon > Code coupon]**
 
       ![](assets/deliv_coup_11.png)
 
       Le coupon est inséré dans le message sous forme de code et non du nom qui lui est assigné. Le code est utilisé dans le cadre du modèle de données standard Campaign.
    ![](assets/deliv_coup_12.png)
 
-1. Exécutez un test pour confirmer le nom que vous avez attribué au bon. Accédez à l’ **[!UICONTROL Preview]** onglet et cliquez sur **[!UICONTROL Test personalization]**. Sélectionnez un destinataire pour le test.
+1. Lancez un test pour confirmer le nom assigné au coupon. Allez dans l&#39;onglet **[!UICONTROL Prévisualisation]** et cliquez sur **[!UICONTROL Tester la personnalisation]**. Sélectionnez un destinataire pour le test.
 
    ![](assets/deliv_coup_13.png)
 
@@ -130,11 +130,11 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
    ![](assets/deliv_coup_14.png)
 
-1. In the toolbar, click **[!UICONTROL Send]** (upper left) and choose how you want to send the delivery.
+1. Dans la barre d&#39;outils, cliquez sur **[!UICONTROL Envoyer]** (en haut à gauche) et sélectionnez le mode d&#39;envoi de la diffusion.
 
    ![](assets/deliv_coup_15.png)
 
-1. Clics **[!UICONTROL Analyze]**. If the analysis log confirms that there are enough coupons for all recipients, click **[!UICONTROL Confirm delivery]** to send it.
+1. Cliquez sur **[!UICONTROL Analyse]**. Si le log d&#39;analyse confirme qu&#39;il y a assez de coupons pour tous les destinataires, cliquez sur **[!UICONTROL Confirmer l&#39;envoi]** pour l&#39;envoyer.
 
    ![](assets/deliv_coup_16.png)
 
@@ -144,12 +144,12 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
 Pour confirmer que la diffusion a abouti :
 
-1. Go to **[!UICONTROL Explorer > Resources > Campaign management > Coupons]**.
-1.  Cliquez sur l’ **[!UICONTROL Deliveries]** onglet.
+1. Allez sur **[!UICONTROL Explorateur > Ressources > Gestion de campagne > Coupons]**.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Diffusions]**.
 
    ![](assets/deliv_coup_17.png)
 
-   The status reads as **[!UICONTROL Finished]** for a successful delivery.
+   En cas de diffusion réussie, l&#39;état est **[!UICONTROL Terminé]**.
 
 >[!NOTE]
 >
@@ -160,13 +160,13 @@ Pour confirmer que la diffusion a abouti :
 L&#39;analyse de la diffusion s&#39;arrête s&#39;il y a moins de coupons que de messages. Dans ce cas, vous pouvez importer plus de coupons ou restreindre le nombre de messages. Pour limiter le nombre de messages, suivez les consignes ci-dessous.
 
 1. Allez dans la fenêtre de diffusion email.
-1. Clics **[!UICONTROL To]**.
-1. Dans **[!UICONTROL Select target]**, accédez à l&#39; **[!UICONTROL Exclusions]** onglet.
+1. Cliquez sur **[!UICONTROL Pour]**.
+1. Dans **[!UICONTROL Choix de la cible]**, allez dans l&#39;onglet **[!UICONTROL Exclusions]**.
 
    ![](assets/deliv_coup_18.png)
 
-1. In the exclusion settings section, click **[!UICONTROL Edit]**.
-1. Entrez le nombre de messages à envoyer **[!UICONTROL Limit delivery to...messages]** et cliquez sur **[!UICONTROL Ok]**. Vous pouvez envoyer la livraison.
+1. Dans la section paramètres d&#39;exclusion, cliquez sur **[!UICONTROL Editer]**.
+1. Saisissez le nombre de messages à envoyer dans **[!UICONTROL Limiter la diffusion à...messages]** et cliquez sur **[!UICONTROL Ok]**. Vous pouvez envoyer la diffusion.
 
    ![](assets/deliv_coup_19.png)
 
