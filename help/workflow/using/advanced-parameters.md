@@ -22,17 +22,17 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # Paramètres avancés{#advanced-parameters}
 
-The properties screen of an activity has an **[!UICONTROL Advanced]** tab that lets you define a behavior in case of errors, the execution period for the activity; and lets you enter an initialization script. Il existe deux versions de cet onglet :
+L&#39;écran des propriétés d&#39;une activité comporte un onglet **[!UICONTROL Avancé]** vous permettant notamment de définir le comportement en cas d&#39;erreur, la durée d&#39;exécution de l&#39;activité ou encore et de saisir un script d&#39;initialisation. Cet onglet se présente sous deux formes :
 
-* a simplified version (for **[!UICONTROL Start]** and **[!UICONTROL End]** activities for instance)
+* une version simplifiée (par exemple pour les activités **[!UICONTROL Début]** ou **[!UICONTROL Fin]**)
 
    ![](assets/wf-advanced-basic.png)
 
-* a more detailed version (for the **[!UICONTROL Query]** activity, for instance)
+* une version plus détaillée (par exemple pour l&#39;activité **[!UICONTROL Requête]**)
 
    ![](assets/wf-advanced-full.png)
 
-The fields to be entered in the **[!UICONTROL Advanced]** tab are detailed in the following sections.
+Les champs à renseigner dans l&#39;onglet **[!UICONTROL Avancé]** sont décrits dans les sections suivantes.
 
 ## Nom {#name}
 
@@ -48,9 +48,9 @@ Ce champ vous permet de définir l&#39;action à effectuer au moment du déclenc
 
 Ces options sont généralement sélectionnées au niveau du diagramme en cliquant sur l&#39;activité avec le bouton droit.
 
-* **[!UICONTROL Normal]**: l’activité est exécutée comme d’habitude.
-* **[!UICONTROL Do not activate]**: cette tâche et toutes les tâches suivantes (dans la même branche) ne sont pas exécutées.
-* **[!UICONTROL Activate but do not execute]**: cette tâche et toutes les tâches suivantes (dans la même branche) sont automatiquement arrêtées. Cela peut s’avérer utile si vous souhaitez y être au démarrage de la tâche. Pour exécuter la tâche manuellement, cliquez avec le bouton droit de la souris sur l’activité et sélectionnez **[!UICONTROL Normal execution]**.
+* **[!UICONTROL Normale]** : l&#39;activité est exécutée normalement.
+* **[!UICONTROL Ne pas activer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.
+* **[!UICONTROL Activer mais ne pas exécuter]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) sont automatiquement suspendues. Cela peut s&#39;avérer utile si vous désirez être présent au déclenchement de la tâche. Pour exécuter manuellement la tâche, cliquez sur l&#39;activité avec le bouton droit et sélectionnez **[!UICONTROL Exécution normale]**.
 
 ## Affinité {#affinity}
 
@@ -58,14 +58,14 @@ Ce champ vous permet de forcer l’exécution d’une activité sur un ordinateu
 
 ## Max. execution period {#max--execution-period}
 
-Ce champ vous permet de définir un avertissement lorsque la tâche prend trop de temps. Cela n’aura aucun impact sur l’opération du flux de travail. Si la tâche n’est pas terminée au moment où elle **[!UICONTROL Max. execution period]** est terminée, la **[!UICONTROL Instance monitoring]** page affiche un avertissement pour ce flux de travail. Cette page est accessible via l’ **[!UICONTROL Monitoring]** onglet de la page d’accueil.
+Ce champ vous permet de définir une alerte vous avertissant lorsque la tâche est trop longue. Cela n&#39;a aucun impact sur le fonctionnement du workflow. Si la tâche n&#39;est pas terminée au bout du temps défini dans le champ **[!UICONTROL Durée max. d&#39;exécution]**, la page **[!UICONTROL Supervision de l&#39;instance]** affichera une alerte concernant ce workflow. Cette page est accessible à partir de l&#39;onglet **[!UICONTROL Supervision]** de la page d&#39;accueil.
 
 ## Comportement {#behavior}
 
 Ce champ vous permet de définir le comportement à effectuer dans le cas de l&#39;utilisation de tâches asynchrones. Deux options sont disponibles :
 
-* **[!UICONTROL Several tasks authorized]**: plusieurs tâches peuvent être exécutées simultanément, même si la première n’est pas terminée.
-* **[!UICONTROL The current task has priority]**: les tâches en cours sont prioritaires. Tant qu’une tâche est en cours, aucune autre tâche ne sera exécutée.
+* **[!UICONTROL Plusieurs tâches autorisées]** : plusieurs tâches peuvent être exécutées en même temps, même si la première n&#39;est pas terminée.
+* **[!UICONTROL La tâche en cours est prioritaire]** : lorsqu&#39;une tâche est en cours, celle-ci est prioritaire. Tant qu&#39;une tâche est toujours en cours, aucune autre tâche ne sera exécutée.
 
 ## Time zone {#time-zone}
 
@@ -75,8 +75,8 @@ Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Pour e
 
 Ce champ vous permet de définir l&#39;action à effectuer lorsque l&#39;activité est en erreur. Deux options sont disponibles :
 
-* **[!UICONTROL Stop the process]**: le processus est arrêté automatiquement. Son statut devient **[!UICONTROL Failed]**. Une fois le problème résolu, redémarrez le flux de travaux.
-* **[!UICONTROL Ignore]**: cette tâche et toutes les tâches suivantes (dans la même branche) ne sont pas exécutées. Cela peut s’avérer utile pour les tâches récurrentes. Si un planificateur est placé en amont de la branche, il démarrera comme d’habitude à la date d’exécution suivante.
+* **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement suspendu. Le statut du workflow est alors **[!UICONTROL En échec]**. Lorsque le problème est résolu, relancez le workflow.
+* **[!UICONTROL Ignorer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées. Cela peut s&#39;avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d&#39;exécution.
 
 ## Script d&#39;initialisation {#initialization-script}
 
@@ -84,4 +84,4 @@ Ce champ vous permet d’initialiser des variables ou de modifier des propriét�
 
 ## Commentaire {#comment}
 
-The **[!UICONTROL Comment]** field is a free field that lets you add a description.
+Le champ **[!UICONTROL Commentaire]** est un champ libre vous permettant d&#39;ajouter une description.
