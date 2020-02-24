@@ -97,7 +97,7 @@ Les étapes sont les suivantes :
 
       Pour plus d’informations, reportez-vous à la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      ou
+      or
 
    * Créer l&#39;instance en ligne de commande :
 
@@ -155,7 +155,7 @@ Les étapes sont les suivantes :
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
    ```
 
-   ou
+   or
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
