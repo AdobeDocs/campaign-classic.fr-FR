@@ -28,15 +28,15 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées
 
    Si vous utilisez des ressources provenant de la bibliothèque de ressources Adobe Experience Manager, utilisez un modèle de diffusion créé lors de la [configuration de l&#39;intégration](../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets).
 
-   If you do not have this specific template, make sure that in the delivery **Properties**, the **[!UICONTROL Content editing mode]** (**[!UICONTROL Advanced]** tab) is set to **DCE** and that the AEM external account that you want to use for accessing your AEM Assets resource library is provided.
+   Si vous ne disposez pas de modèle spécifique, assurez-vous que dans les **Propriétés** de la diffusion, le **[!UICONTROL Mode d&#39;édition du contenu]** (onglet **[!UICONTROL Avancé]**) est bien paramétré sur **DCE** et que le compte externe de type AEM que vous souhaitez utiliser pour accéder à votre bibliothèque de ressources AEM Assets est bien renseigné.
 
 1. Dans la fenêtre d&#39;édition, sélectionnez l&#39;option d&#39;insertion d&#39;une image :
 
-   * Si vous utilisez le mode [de modification](../../delivery/using/defining-the-email-content.md#adding-images)standard, sélectionnez **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
+   * si vous utilisez le [mode d&#39;édition standard](../../delivery/using/defining-the-email-content.md#adding-images), sélectionnez **[!UICONTROL Image]** > **[!UICONTROL Sélectionner une ressource partagée]**.
 
       ![](assets/dam_insert_image_standard.png)
 
-   * If you are using the [advanced editing mode](../../web/using/about-campaign-html-editor.md) (DCE), go to an image block, then via the contextual menu, select **[!UICONTROL Select a shared asset]**.
+   * si vous utilisez le [mode d&#39;édition avancé](../../web/using/about-campaign-html-editor.md) (DCE), placez-vous sur un bloc de type image, puis via le menu contextuel, sélectionnez **[!UICONTROL Sélectionner une ressource partagée]**.
 
       ![](assets/dam_insert_image_dce.png)
 
