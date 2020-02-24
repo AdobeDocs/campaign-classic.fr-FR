@@ -26,25 +26,25 @@ Une activité de type **Mise à jour de données** permet de mettre à jour en m
 
 ## Type d&#39;opération {#operation-type}
 
-The **[!UICONTROL Operation type]** field lets you choose the process to be carried out on the data in the database:
+Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement à réaliser sur les données de la base :
 
-* **[!UICONTROL Insert or update]**: ajoutez des données ou mettez-les à jour si elles ont déjà été ajoutées.
-* **[!UICONTROL Insert]**: ajoutez uniquement des données.
-* **[!UICONTROL Update]**: uniquement mettre à jour les données.
-* **[!UICONTROL Update and merge collections]**: mettez à jour les données et choisissez un enregistrement &quot;maître&quot;, puis liez les éléments liés aux doublons dans cet enregistrement maître. Les doublons peuvent alors être supprimés sans créer d’éléments orphelins attachés.
-* **[!UICONTROL Delete]**: supprimer des données.
+* **[!UICONTROL Ajouter ou mettre à jour]** : ajouter des données ou les mettre à jour si elles ont déjà été ajoutées auparavant.
+* **[!UICONTROL Ajouter]** : ajouter des données uniquement.
+* **[!UICONTROL Mettre à jour]** : mettre à jour des données uniquement.
+* **[!UICONTROL Mettre à jour et fusionner les collections]** : mettre à jour les données et choisir un enregistrement &quot;maître&quot;, puis rattacher les éléments liés aux doublons à cet enregistrement maître. Les doublons peuvent ensuite être supprimés sans créer d&#39;éléments attachés orphelins.
+* **[!UICONTROL Supprimer]** : supprimer des données.
 
 ![](assets/s_advuser_update_data_1.png)
 
-Le **[!UICONTROL Batch size]** champ vous permet de sélectionner le nombre d’éléments de transition entrants à mettre à jour. Par exemple, si vous indiquez 500, les 500 premiers enregistrements traités seront mis à jour.
+Le champ **[!UICONTROL Taille des mises à jours]** permet de sélectionner le nombre d&#39;éléments de la transition entrante qui seront mis à jour. Par exemple, si vous indiquez 500, les 500 premiers enregistrements traités seront mis à jour.
 
 ## Identification des enregistrements {#record-identification}
 
 Indiquez comment identifier les enregistrements dans la base de données :
 
-* Si les entrées de données se rapportent à une dimension de ciblage existante, sélectionnez l’ **[!UICONTROL By directly using the targeting dimension]** option et sélectionnez-la dans le **[!UICONTROL Updated dimension]** champ.
+* Si les données en entrée correspondent à une dimension de ciblage existante, sélectionnez l&#39;option **[!UICONTROL En utilisant directement la dimension de ciblage]** et sélectionnez-la dans le champ **[!UICONTROL Dimension mise à jour]**.
 
-   You can display the fields for the selected dimension using the **[!UICONTROL Edit this link]** magnifying glass button.
+   Vous pouvez afficher les champs de la dimension sélectionnée à l&#39;aide du bouton en forme de loupe **[!UICONTROL Editer ce lien]**.
 
 * Dans le cas contraire, indiquez un ou plusieurs liens qui permettront d&#39;identifier les données dans la base ou utilisez directement des clés de réconciliation.
 
@@ -52,40 +52,40 @@ Indiquez comment identifier les enregistrements dans la base de données :
 
 ## Sélection des champs à mettre à jour {#selecting-the-fields-to-be-updated}
 
-Utilisez cette **[!UICONTROL Automatically associate fields with the same name]** option pour qu’Adobe Campaign identifie automatiquement les champs à mettre à jour.
+Utilisez l&#39;icône **[!UICONTROL Associer automatiquement les champs de même nom]** pour que Adobe Campaign identifie automatiquement les champs à mettre à jour.
 
 ![](assets/s_advuser_update_data_3b.png)
 
-You can also use the **[!UICONTROL Insert]** icon to manually select the database fields to be updated.
+Vous pouvez également utiliser l&#39;icône **[!UICONTROL Ajouter]** pour sélectionner manuellement les champs de la base de données à mettre à jour.
 
 ![](assets/s_advuser_update_data_3.png)
 
-Sélectionnez tous les champs à mettre à jour et, si nécessaire, ajoutez des conditions en fonction de la mise à jour à effectuer. Pour ce faire, utilisez la **[!UICONTROL Taken into account if]** colonne. Les conditions sont appliquées l’une après l’autre et conformément à l’ordre dans la liste. Utilisez les flèches à droite pour modifier l’ordre des mises à jour.
+Sélectionnez tous les champs à mettre à jour et, au besoin, ajoutez des conditions pour que cette mise à jour soit réalisée. Pour cela, utilisez la colonne **[!UICONTROL Prise en compte si]**. Les conditions sont appliquées les unes après les autres, dans l&#39;ordre de la liste. Utilisez les flèches situées à droite pour modifier l&#39;ordre des mises à jour.
 
 Vous pouvez utiliser plusieurs fois le même champ de destination.
 
-Dans une **[!UICONTROL Insert or update]** opération, vous pouvez sélectionner la campagne à appliquer, individuellement ou pour chaque champ. Pour ce faire, sélectionnez une valeur dans la **[!UICONTROL Operation]** colonne.
+Dans le cadre d&#39;une opération de type **[!UICONTROL Ajouter ou mettre à jour]**, vous pouvez sélectionner individuellement, pour chaque champ, l&#39;opération à appliquer. Pour cela, sélectionner la valeur souhaitée dans la colonne **[!UICONTROL Opération]**.
 
 ![](assets/s_advuser_update_data_5.png)
 
-The **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** and **[!UICONTROL createdBy]** fields are updated automatically during data updates, unless their management mode is configured specifically in the field update table.
+Les champs **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** et **[!UICONTROL createdBy]** sont automatiquement mis à jour lors d&#39;une mise à jour de données, sauf si leur gestion est explicitement paramétrée dans le tableau de mise à jour des champs.
 
 La mise à jour des enregistrements n&#39;est réalisée que pour les enregistrements pour lesquels au moins une différence a été détectée. Si les valeurs sont les mêmes, aucune mise à jour n&#39;est effectuée.
 
-The **[!UICONTROL Advanced parameters]** link lets you specify additional options to deal with updating data as well as managing duplicates. Vous pouvez également :
+Le lien **[!UICONTROL Paramètres avancés]** permet de spécifier des options supplémentaires pour le traitement des données mises à jour ainsi que pour la gestion des doublons. Vous pouvez ainsi :
 
-* **[!UICONTROL Disable automatic key management]**.
-* **[!UICONTROL Disable audit]**.
-* **[!UICONTROL Empty the destination value if the source value is empty (NULL)]**. Cette option est automatiquement cochée par défaut.
-* **[!UICONTROL Update all columns with matching names]**.
-* Specify conditions that consider source elements using an expression in the **[!UICONTROL Enabled if]** field.
-* Spécifiez des conditions qui prennent en compte les doublons à l’aide d’une expression. Si vous cochez l’ **[!UICONTROL Ignore records which concern the same target]** option, seul le premier de la liste des expressions sera pris en compte.
+* **[!UICONTROL Désactiver la gestion automatique des clés]**.
+* **[!UICONTROL Désactiver l&#39;audit]**.
+* **[!UICONTROL Vider la valeur destination si la valeur source est vide (NULL)]**. Cette option est cochée par défaut.
+* **[!UICONTROL Mettre à jour toutes les colonnes dont les noms correspondent]**.
+* Préciser les conditions de prise en compte des éléments de la source à l&#39;aide d&#39;une expression dans le champ **[!UICONTROL Prise en compte]**.
+* Préciser les conditions de prise en compte des doublons à l&#39;aide d&#39;une expression. Si vous cochez l&#39;option **[!UICONTROL Ignorer les enregistrements concernant la même cible]**, seul le premier de la liste des expressions sera pris en compte.
 
-**[!UICONTROL Generate an outbound transition]**
+**[!UICONTROL Générer une transition sortante]**
 
 Crée une transition sortante qui sera activée à la fin de l&#39;exécution. Généralement, la mise à jour marque la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut.
 
-**[!UICONTROL Generate an outbound transition for the rejects]**
+**[!UICONTROL Générer une transition sortante pour les rejets]**
 
 Crée une transition sortante contenant les enregistrements n&#39;ayant pas pu être traités correctement lors de la mise à jour (par exemple en cas de doublon). Généralement, la mise à jour marque la fin d&#39;un workflow de ciblage et l&#39;option n&#39;est donc pas activée par défaut.
 
@@ -97,7 +97,7 @@ La mise à jour des données et la fusion des collections permet de mettre à jo
 >
 >Cette option permet également de traiter les références aux enregistrements secondaires des tables de travail des workflows (targetWorkflow), des diffusions (targetDelivery) et des listes (targetList). Le cas échéant, ces liens apparaissent dans la liste de sélection des champs et collections.
 
-1. Sélectionnez l’ **[!UICONTROL Update and merge collections]** opération.
+1. Sélectionnez le type d&#39;opération **[!UICONTROL Mettre à jour et fusionner les collections]**.
 
    ![](assets/update_and_merge_collections1.png)
 
@@ -115,7 +115,7 @@ La mise à jour des données et la fusion des collections permet de mettre à jo
 
    Vous pouvez par exemple paramétrer la fusion de collections contenant des données hétérogènes telles que la liste des abonnements d&#39;un destinataire. Grâce aux règles, vous pouvez ainsi créer de nouveaux historiques d&#39;abonnements à partir des abonnements des enregistrements secondaires, ou encore déplacer la liste des abonnements d&#39;un enregistrement secondaire vers l&#39;enregistrement primaire.
 
-1. Specify the order in which you would like the secondary records to be processed, by selecting **[!UICONTROL Advanced parameters]** > **[!UICONTROL Duplicates]**.
+1. Indiquez éventuellement l&#39;ordre dans lequel vous souhaitez que les enregistrements secondaires soient traités, en sélectionnant **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Doublons]**.
 
    ![](assets/update_and_merge_collections3.png)
 
