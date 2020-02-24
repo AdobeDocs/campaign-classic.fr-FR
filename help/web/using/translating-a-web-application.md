@@ -24,11 +24,11 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 Vous pouvez traduire des pages d&#39;applications Web créées avec l&#39;éditeur de contenu numérique Adobe Campaign (DCE).
 
-If you select at least one additional language via the **[!UICONTROL Localization]** tab in the **[!UICONTROL Properties]** of a Web application, a new option becomes available when adding an HTML content block in a page edited with DCE.
+Lorsque vous sélectionnez une ou plusieurs langues supplémentaires via l&#39;onglet **[!UICONTROL Localisation]** des **[!UICONTROL Propriétés]** d&#39;une application Web, une option supplémentaire apparaît lorsque vous vous placez au niveau d&#39;un bloc de contenu HTML d&#39;une page éditée avec le DCE.
 
 Cette option vous permet d&#39;indiquer si le contenu du bloc doit être traduit ou non.
 
-Les chaînes à traduire sont collectées de la même manière que les autres chaînes de l&#39;application Web, via l&#39; **[!UICONTROL Translations]** onglet de l&#39;application. Voir à ce propos [cette page](../../web/using/translating-a-web-form.md).
+Les chaînes marquées sont collectées pour être traduites, de la même manière que les autres chaînes de l&#39;application web, via l&#39;onglet **[!UICONTROL Traductions]** de l&#39;application. Voir à ce sujet [cette page](../../web/using/translating-a-web-form.md).
 
 Pour marquer les chaînes à traduire :
 
@@ -37,7 +37,7 @@ Pour marquer les chaînes à traduire :
    ![](assets/dce_translation_3.png)
 
 1. Sélectionnez un bloc HTML.
-1. Dans le bloc de paramètres sur la droite, l’ **[!UICONTROL Localization]** option vous permet d’indiquer le contenu du bloc sélectionné. Par défaut, seul le titre de la page doit être traduit.
+1. Dans le bloc de paramètres de droite, l&#39;option **[!UICONTROL Localisation]** vous permet de choisir de traduire le contenu du bloc sélectionné. Par défaut, seul le titre de la page est à traduire.
 
    ![](assets/dce_translation_1.png)
 
@@ -56,8 +56,8 @@ Pour marquer les chaînes à traduire :
 
       ![](assets/dce_translation_2.png)
 
-1. Once you have finished flagging the strings, go back to the Web application and select the **[!UICONTROL Translations]** tab.
-1.  Sélectionnez **[!UICONTROL Collect the strings to translate]**. Les chaînes marquées dans DCE sont ajoutées aux chaînes de l’application Web.
+1. Une fois les chaînes marquées, revenez à l&#39;application Web et sélectionnez l&#39;onglet **[!UICONTROL Traductions]**.
+1. Sélectionnez **[!UICONTROL Collecter les chaînes à traduire]**. Les chaînes marquées dans le DCE viennent s&#39;ajouter à celles de l&#39;application Web.
 
    >[!NOTE]
    >
@@ -65,5 +65,5 @@ Pour marquer les chaînes à traduire :
 
 1. Traduisez et validez les chaînes.
 
-   You can then preview the translations by selecting the desired language from the **[!UICONTROL Preview]** tab in the Web application.
+   Vous pouvez ensuite prévisualiser les traductions en sélectionnant la langue de votre choix via l&#39;onglet **[!UICONTROL Prévisualisation]** de l&#39;application Web.
 
