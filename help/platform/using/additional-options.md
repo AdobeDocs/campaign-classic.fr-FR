@@ -85,7 +85,7 @@ Dans le cadre de la gestion de plusieurs accès à une base de données externe 
 
 ## Optimiser la personnalisation d&#39;un email avec des données externes {#optimizing-email-personalization-with-external-data}
 
-A partir de la version 8740, l’option **[!UICONTROL Prepare the personalization data with a workflow]** est désormais disponible dans l’ **[!UICONTROL Analysis]** onglet des propriétés de diffusion.
+A partir du build 8740, l&#39;option **[!UICONTROL Préparer les données de personnalisation avec un workflow]** est disponible dans l&#39;onglet **[!UICONTROL Analyse]** des propriétés d&#39;une diffusion.
 
 Cette option permet, lors de l&#39;analyse de la diffusion, de créer automatiquement et d&#39;exécuter un workflow qui stocke dans une table temporaire toutes les données liées à la cible, notamment les données issues des tables liées en FDA.
 
