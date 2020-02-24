@@ -26,11 +26,11 @@ Les filtres prédéfinis permettent de créer des règles d&#39;éligibilité su
 
 Pour créer un filtre, procédez comme suit :
 
-1. Accédez au **[!UICONTROL Administration]** dossier et sélectionnez **[!UICONTROL Pre-defined offer filters]**.
+1. Dans le dossier **[!UICONTROL Administration]**, positionnez-vous sur **[!UICONTROL Filtres prédéfinis d&#39;offres]**.
 
    ![](assets/offer_filter_create_005.png)
 
-1. Clics **[!UICONTROL New]**.
+1. Cliquez sur **[!UICONTROL Nouveau]**.
 
    ![](assets/offer_filter_create_001.png)
 
@@ -46,7 +46,7 @@ Pour créer un filtre, procédez comme suit :
 
    ![](assets/offer_filter_create_004.png)
 
-1. Click **[!UICONTROL Preview]** to view the result of the filter.
+1. Cliquez sur **[!UICONTROL Aperçu]** pour visualiser le résultat du filtre.
 
    ![](assets/offer_filter_create_006.png)
 
