@@ -26,11 +26,11 @@ source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 
 Si vous bénéficiez des droits adéquats, vous pouvez sauvegarder un rapport d&#39;analyse créé depuis un modèle ou l&#39;exporter au format Excel, PDF et OpenDocument.
 
-To save your report, click **[!UICONTROL Save]** and give your report a label.
+Pour sauvegarder votre rapport, cliquez sur **[!UICONTROL Enregistrer]** et appliquez un libellé à votre rapport.
 
-Sélectionnez **[!UICONTROL Also save data]** si vous souhaitez créer un historique de votre rapport et voir les valeurs du rapport au moment de l&#39;enregistrement. For more on this, refer to [Archiving analysis reports](#archiving-analysis-reports).
+Select **[!UICONTROL Also save data]** if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to [Archiving analysis reports](#archiving-analysis-reports).
 
-Cette **[!UICONTROL Share this report]** option permet à d’autres opérateurs d’accéder au rapport.
+L&#39;option **[!UICONTROL Partager ce rapport]** rend le rapport accessible à d&#39;autres opérateurs.
 
 ![](assets/s_ncs_user_report_wizard_010.png)
 
@@ -38,7 +38,7 @@ Une fois enregistré, ce rapport peut être réutilisé pour générer d&#39;aut
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-Pour apporter des modifications à ce rapport, modifiez le **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** noeud de l’arborescence Adobe Campaign (ou le premier dossier de type Rapports pour lequel l’opérateur dispose de droits de modification). Pour plus d’informations, reportez-vous à la section [Configuration de la mise en page d’un rapport](#configuring-the-layout-of-a-descriptive-analysis-report)d’analyse descriptive.
+To make changes to this report, edit the **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** node of the Adobe Campaign tree (or the first &#39;Reports&#39; type folder for which the operator has editing rights). Pour plus d’informations, reportez-vous à la section [Configuration de la mise en page d’un rapport](#configuring-the-layout-of-a-descriptive-analysis-report)d’analyse descriptive.
 
 ## Paramétrages additionnels d&#39;un rapport d&#39;analyse {#analysis-report-additional-settings}
 
@@ -50,15 +50,15 @@ Ces options sont communes avec celles des rapports standards. Elles sont présen
 
 ## Mettre en page un rapport d&#39;analyse descriptive {#configuring-the-layout-of-a-descriptive-analysis-report}
 
-Vous pouvez personnaliser l’affichage et la disposition de vos données dans les graphiques et les tableaux de l’analyse descriptive. Toutes les options sont accessibles via l’arborescence Adobe Campaign, dans l’ **[!UICONTROL Edit]** onglet de chaque rapport.
+Vous pouvez personnaliser l&#39;affichage et la disposition de vos données dans les graphiques et les tableaux d&#39;analyse descriptive. Toutes les options sont disponibles depuis l&#39;arborescence d&#39;Adobe Campaign, dans l&#39;onglet **[!UICONTROL Edition]** de chaque rapport.
 
 ### Mode d&#39;affichage du rapport d&#39;analyse {#analysis-report-display-mode}
 
-Lorsque vous créez un rapport à l’aide du **[!UICONTROL qualitative distribution]** modèle, les modes d’affichage des tableaux et des graphiques sont sélectionnés par défaut. Si vous ne souhaitez qu’un seul mode d’affichage, décochez la case appropriée. Cela signifie que seul l’onglet du mode d’affichage coché sera disponible.
+Lorsque vous créez un rapport selon le modèle de **[!UICONTROL distribution qualitative]**, les modes d&#39;affichage en tableau et en graphe sont sélectionnés par défaut. Si vous ne souhaitez travailler qu&#39;avec un seul mode d&#39;affichage, décochez la case correspondante. Dans ce cas, seul l&#39;onglet du mode d&#39;affichage conservé est disponible.
 
 ![](assets/s_ncs_advuser_report_display_01.png)
 
-To change the schema of the report, click the **[!UICONTROL Select the link]** and select another table from the database.
+Si vous souhaitez modifier le schéma du rapport, cliquez sur **[!UICONTROL Choisir le lien]** et sélectionnez une autre table de la base de données.
 
 ![](assets/s_ncs_advuser_report_display_02.png)
 
@@ -92,12 +92,12 @@ Dans l&#39;exemple ci-dessous, les statistiques sont affichées en colonnes :
 
 Vous pouvez personnaliser la disposition des données directement dans les tableaux d&#39;analyse descriptive. Pour cela, cliquez avec le bouton droit de la souris sur la variable qui vous intéresse. Choisissez les options disponibles dans le menu contextuel :
 
-* **[!UICONTROL Pivot]** pour modifier l’axe de la variable.
-* **[!UICONTROL Up]** / **[!UICONTROL Down]** pour permuter les variables en lignes.
-* **[!UICONTROL Move to the right]** / **[!UICONTROL Move to the left]** pour permuter les variables dans les colonnes.
-* **[!UICONTROL Turn]** pour inverser les axes des variables.
-* **[!UICONTROL Sort from A to Z]** pour trier les valeurs de variable de bas à haut.
-* **[!UICONTROL Sort from Z to A]** pour trier les valeurs des variables de haut à bas.
+* **[!UICONTROL Pivoter]** pour changer la variable sélectionnée d&#39;axe.
+* **[!UICONTROL Monter]** / **[!UICONTROL Descendre]** pour intervertir les variables qui se trouvent en ligne.
+* **[!UICONTROL Déplacer à droite]** / **[!UICONTROL Déplacer à gauche]** pour intervertir les variables qui se trouvent en colonne.
+* **[!UICONTROL Tourner]** pour inverser les axes des variables.
+* **[!UICONTROL Trier de A à Z]** pour trier les valeurs de la variable par ordre croissant.
+* **[!UICONTROL Trier de Z à A]** pour trier les valeurs de la variable par ordre décroissant.
 
    ![](assets/s_ncs_advuser_report_wizard_016.png)
 
@@ -105,20 +105,20 @@ Pour revenir à l&#39;affichage initial, actualisez la vue.
 
 ### Options des graphiques des rapports d&#39;analyse {#analysis-report-chart-options}
 
-Il est possible de personnaliser l&#39;affichage des données dans le graphique. Pour ce faire, cliquez sur le **[!UICONTROL Variables...]** lien disponible pendant l’étape de sélection du type de graphique.
+Vous pouvez personnaliser l&#39;affichage des données du graphique. Pour cela, cliquez sur le lien **[!UICONTROL Variantes...]** proposé à l&#39;étape de sélection du type de graphique.
 
 ![](assets/s_ncs_advuser_report_wizard_3c.png)
 
 Les options disponibles sont les suivantes :
 
 * La section supérieure de la fenêtre permet de modifier la zone d&#39;affichage du graphique.
-* Par défaut, les libellés sont affichés dans le graphique. Vous pouvez les masquer en désactivant l’ **[!UICONTROL Show values]** option.
-* The **[!UICONTROL Accumulate values]** option lets you add up values from one series to another.
+* Par défaut, les libellés sont affichés dans le graphique. Vous pouvez les masquer en décochant l&#39;option **[!UICONTROL Afficher les valeurs]**.
+* L&#39;option **[!UICONTROL Cumuler les valeurs]** permet d&#39;additionner les différentes valeurs retournées d&#39;une série à l&#39;autre.
 * Vous pouvez choisir d&#39;afficher ou non la légende du graphe : pour ne pas afficher de légende, désélectionnez l&#39;option correspondante. Par défaut, la légende est affichée en haut à droite, à l&#39;extérieur du graphe.
 
-   The legend can also be displayed on top of the chart in order to save on display space. To do this, select the option **[!UICONTROL Include in the chart]**
+   La légende peut également être positionnée dans le graphe afin d&#39;optimiser au maximum la zone d&#39;affichage. Pour cela, sélectionnez l&#39;option **[!UICONTROL Inclure dans le graphe]**.
 
-   Select the vertical and horizontal alignment in the **[!UICONTROL Caption position]** drop-down list.
+   Sélectionnez l&#39;alignement vertical et horizontal dans la liste déroulante **[!UICONTROL Position de la légende]**.
 
    ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
@@ -136,9 +136,9 @@ Vous pouvez créer des rapports d&#39;analyse descriptive sur les données à pa
 
 Pour savoir comment enregistrer des analyses descriptives, consultez [Enregistrement d’un rapport](#saving-an-analysis-report)d’analyse.
 
-To create descriptive analysis reports, the descriptive analysis wizard must be executed via a workflow transition or via the **[!UICONTROL Tools > Descriptive analysis]** menu.
+Pour créer des rapports d&#39;analyse descriptive, l&#39;assistant d&#39;analyse descriptive doit être exécuté à partir d&#39;une transition de workflow ou depuis le menu **[!UICONTROL Outils > Analyse descriptive]**.
 
-1. Sélectionnez **[!UICONTROL Existing analyses and reports]** puis cliquez sur **[!UICONTROL Next]**.
+1. Sélectionnez **[!UICONTROL Analyses et rapports existants]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Vous accédez alors à la liste des rapports disponibles. Sélectionnez un rapport pour le générer.
 
    ![](assets/s_ncs_user_report_wizard_01.png)
