@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Structure d’un schéma de données{#structure-of-a-data-schema}
 
-La structure d’un schéma de données s’affiche sous la forme d’une arborescence. Pour l’afficher sous forme graphique dans la console client Adobe Campaign, sélectionnez le schéma ciblé et cliquez sur le **[!UICONTROL Structure]** sous-onglet.
+La structure d&#39;un schéma de données est présentée sous la forme d&#39;une arborescence. Pour la visualiser graphiquement dans la console cliente Adobe Campaign, sélectionnez le schéma visé et cliquez sur le sous-onglet **[!UICONTROL Structure]**.
 
 ![](assets/d_ncs_integration_schema_arbo.png)
 
