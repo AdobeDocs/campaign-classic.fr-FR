@@ -34,17 +34,17 @@ Les packages sont un ensemble de fonctionnalités qui peuvent être installées 
 
 Pour installer un package standard :
 
-1. Accédez à l’assistant d’importation de package **[!UICONTROL Tools > Advanced > Package import...]** dans la console client Adobe Campaign.
-1. Sélectionner **[!UICONTROL Install a standard package]**.
+1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
+1. Sélectionnez **[!UICONTROL Installer un package standard]**.
 1. Dans la liste qui s’affiche, vérifiez les packages à installer.
    >[!NOTE]
    >
    >Si un package est grisé, vous ne pouvez pas l’installer. Cela signifie qu’il est déjà installé ou qu’il n’est pas compatible avec votre instance. Par exemple, vous ne pouvez pas installer le package de la plate-forme **de** fournisseur intermédiaire sur une instance de marketing. Vous trouverez ces informations dans le tableau ci-dessous.
-1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
+1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
-   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
-1. **[!UICONTROL Close]** la fenêtre d’installation.
+1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
 
 Les packages sont à présent installés.
 
@@ -279,14 +279,14 @@ Le tableau suivant répertorie tous les packages standard avec leur description,
 
 L&#39;ajout d&#39;un canal de diffusion (Canal mobile, Mobile App Channel, etc.) doit être impérativement effectué avant l&#39;installation du package Message Center. Si vous avez démarré un projet Message Center sur le canal email, puis que vous décidez, au cours du projet, d&#39;ajouter un nouveau canal, vous devez suivre ces étapes :
 
-1. Installez le canal souhaité, par exemple le canal **** Mobile, à l’aide de l’assistant d’importation de package ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
-1. Importez le fichier ( **[!UICONTROL Tools > Advanced > Import package > File]**), puis sélectionnez :
+1. Installez le canal souhaité, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package > Package Adobe Campaign]**).
+1. Importez le fichier ( **[!UICONTROL Outils > Avancé > Importer un package > Fichier]**), puis sélectionnez :
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. Dans la **[!UICONTROL XML data content to import]** section, conservez uniquement le modèle de remise du Centre de messages correspondant au canal joint. Par exemple, si vous avez ajouté le canal **** Mobile, conservez uniquement l’élément **Entités** correspondant au modèle **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si vous avez ajouté le canal **d’application** mobile, conservez uniquement les modèles de messages **transactionnels** iOS (iosTriggerMessage) et le message **transactionnel** Android (androidTriggerMessage).
+1. Dans la partie **[!UICONTROL Contenu XML des données à importer]**, conservez uniquement le modèle de diffusion Message Center correspondant au canal ajouté. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **entities** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le canal **Mobile App Channel**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
