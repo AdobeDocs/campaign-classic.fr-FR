@@ -25,7 +25,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 Lors de la modification d&#39;un schéma et de l&#39;enregistrement des modifications, le schéma étendu est automatiquement généré. Vous devrez peut-être toutefois régénérer les schémas manuellement pour appliquer les modifications. Pour ce faire :
 
 1. Sélectionnez le ou les schémas que vous devez régénérer.
-1. Cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Actions > Regenerate selected schemas...]** .
+1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** .
 1. Cliquez sur **[!UICONTROL OK]** pour valider et lancer le processus.
 
 Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Précédent et Documentation. For more on this, refer to the [Principles](../../configuration/using/data-schemas.md#principles) section.
