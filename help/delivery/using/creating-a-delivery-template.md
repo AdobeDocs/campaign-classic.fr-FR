@@ -24,13 +24,13 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ## Transformer une diffusion existante en modèle {#converting-an-existing-delivery-to-a-template}
 
-Une diffusion peut être convertie en modèle pour de nouvelles actions de remise répétée. Pour convertir une diffusion en modèle, sélectionnez-la dans la liste de diffusion, accessible via le **[!UICONTROL Campaign management]** noeud de l’arborescence.
+Une diffusion peut être transformée en modèle pour de nouvelles actions de diffusion récurrentes. Pour transformer une diffusion en modèle, sélectionnez-la depuis la liste des diffusions accessible à partir du dossier **[!UICONTROL Gestion de campagne]** de l&#39;arborescence.
 
-Right-click and select **[!UICONTROL Actions > Save as template...]**.
+Cliquez sur le bouton droit de la souris et choisissez **[!UICONTROL Actions > Sauver comme modèle...]**.
 
 ![](assets/s_ncs_user_campaign_save_as_scenario.png)
 
-Cette action crée un modèle de remise à partir de la remise sélectionnée. Vous devez entrer le dossier dans lequel il est enregistré (dans le **[!UICONTROL Folder]** champ) ainsi que le dossier dans lequel les livraisons créées à partir de ce modèle sont créées (dans le **[!UICONTROL Execution folder]** champ).
+Cette action crée un modèle de diffusion à partir de la diffusion sélectionnée. Vous devez indiquer son dossier d&#39;enregistrement (dans le champ **[!UICONTROL Dossier]**) ainsi que le dossier dans lequel seront créées les diffusions issues de ce modèle (dans le champ **[!UICONTROL Dossier d&#39;exécution]**).
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
