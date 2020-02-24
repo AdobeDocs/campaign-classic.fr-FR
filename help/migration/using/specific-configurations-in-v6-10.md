@@ -24,7 +24,7 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 Des améliorations ont été effectuées, dans Adobe Campaign v7, afin d&#39;optimiser la sécurité.
 
-If you are migrating from a 6.10 platform and your client console is older than the 8104 build, you must update it. If this is not done before migrating, you will be prompted to update your client console when reconnecting. Click **[!UICONTROL Yes]**.
+Si vous migrez depuis une plateforme v6.10, et que le build de votre console cliente est antérieur à 8104, il est impératif de mettre cette dernière à jour. Si vous ne l&#39;avez pas fait avant la migration, vous serez invité à le faire lors de la reconnexion. Cliquez sur **[!UICONTROL Oui]**.
 
 >[!IMPORTANT]
 >
