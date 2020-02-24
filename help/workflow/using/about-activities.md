@@ -26,7 +26,7 @@ Cette section décrit l&#39;ensemble des activités disponibles. En fonction du 
 
 Les activités d&#39;un workflow sont regroupées par catégories. Quatre onglets sont proposés simultanément :
 
-Dans les processus de campagne, l’ **[!UICONTROL Events]** onglet est remplacé par l’ **[!UICONTROL Deliveries]** onglet. Les activités de cet onglet sont détaillées dans la section Activités [](#action-activities) d’action.
+Dans les processus de campagne, l’onglet **[!UICONTROL Evénements]** est remplacé par l’onglet **[!UICONTROL Livraisons]** . Les activités de cet onglet sont détaillées dans la section Activités [](#action-activities) d’action.
 
 ![](assets/wf-activity-tabs.png)
 
