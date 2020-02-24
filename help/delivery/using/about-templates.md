@@ -24,7 +24,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 Le paramétrage d&#39;une diffusion peut être sauvegardé dans un modèle de diffusion afin d&#39;être réutilisé. Le modèle peut contenir un paramétrage complet ou partiel de la diffusion.
 
-Le modèle de remise peut être exécuté manuellement, comme décrit dans ce chapitre, ou selon un événement (lancé à un moment donné, à l’arrivée d’un fichier sur un serveur, etc.). Les modèles de remise peuvent être configurés via le **[!UICONTROL Resources > Templates > Delivery templates]** noeud de l&#39;arborescence.
+Le modèle de diffusion peut être exécuté manuellement, c&#39;est le cas décrit dans ce chapitre, ou exécuté selon un événement (lancement à heure fixe, à l&#39;arrivée d&#39;un fichier sur un serveur, etc.). Les opérations de configuration d&#39;un modèle de diffusion sont effectuées à partir du noeud **[!UICONTROL Ressources>Modèles>Modèles de diffusion]** de l&#39;arborescence.
 
 ![](assets/s_user_template_list.png)
 
