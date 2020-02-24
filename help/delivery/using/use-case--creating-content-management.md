@@ -69,11 +69,11 @@ Un schéma de données est un document XML associé à un contenu, il décrit la
 
 Pour créer un schéma de données, les étapes sont les suivantes :
 
-1. Ouvrez Adobe Campaign Explorer et sélectionnez le **[!UICONTROL Administration > Configuration > Data schemas]** noeud.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Schémas de données]**.
 
-   Click the **[!UICONTROL New]** icon located above the list of data schemas.
+   Cliquez sur l&#39;icône **[!UICONTROL Nouveau]** située au-dessus de la liste des schémas de données.
 
-1. Sélectionnez l’ **[!UICONTROL Create a schema]** option de gestion du contenu, puis cliquez sur **[!UICONTROL Next]**.
+1. Sélectionnez l&#39;option **[!UICONTROL Créer un schéma]** pour la gestion de contenu puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/s_ncs_content_create_schema.png)
 
@@ -81,11 +81,11 @@ Pour créer un schéma de données, les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_param_schema.png)
 
-   Click **[!UICONTROL Next]** to validate.
+   Cliquez sur **[!UICONTROL Suivant]** pour valider.
 
-1. Enter the content of the schema in the **[!UICONTROL Edit schema]** window.
+1. Saisissez le contenu du schéma dans la fenêtre **[!UICONTROL Edition du schéma]**.
 
-   Use the **[!UICONTROL Insert]** button to create the schema content.
+   Utilisez le bouton **[!UICONTROL Insérer]** pour créer le contenu du schéma.
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
@@ -108,13 +108,13 @@ Pour créer un schéma de données, les étapes sont les suivantes :
   <tr> 
    <td> Title<br /> </td> 
    <td> Attribut<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> Title<br /> </td> 
   </tr> 
   <tr> 
    <td> Sous-titre<br /> </td> 
    <td> Attribut<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> Nom<br /> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
   <tr> 
    <td> Photo de l'auteur<br /> </td> 
    <td> Attribut<br /> </td> 
-   <td> Chaîne <br /> </td> 
+   <td> Chaîne<br /> </td> 
    <td> URL<br /> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ Le schéma contiendra donc les informations suivantes :
   </element>
 ```
 
-1. Click **[!UICONTROL Save]** to create the data schema.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer le schéma de données.
 
 ## Etape 3 - Créer le formulaire de saisie {#step-3---creating-the-input-form}
 
@@ -181,17 +181,17 @@ La description d&#39;un formulaire est un document XML structuré respectant la 
 
 Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont les suivantes :
 
-1. Ouvrez Adobe Campaign Explorer et sélectionnez le **[!UICONTROL Administration > Configuration > Input forms]** noeud.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Formulaires de saisie]**.
 
-   Click the **[!UICONTROL New]** icon above the list of forms.
+   Cliquez sur l&#39;icône **[!UICONTROL Nouveau]** située au-dessus de la liste des formulaires.
 
-1. Enter the name of the form and the label linked to the form, then select the **[!UICONTROL Content management]** type.
+1. Saisissez le nom du formulaire et le libellé associé au formulaire, puis sélectionnez le type **[!UICONTROL Gestion de contenu]**.
 
    ![](assets/s_ncs_content_param_form_edit.png)
 
    >[!NOTE]
    >
-   >Pour permettre une correspondance automatique entre les deux éléments, nous vous recommandons d’utiliser le même nom que pour le schéma de données liées. Utilisez le **[!UICONTROL Insert]** bouton au-dessus de la zone d’entrée pour ajouter des champs du schéma lié au formulaire.
+   >Afin de permettre l&#39;association automatique entre les deux éléments, il est recommandé d&#39;utiliser le même nom que celui du schéma de données correspondant. Vous pourrez ainsi utiliser le bouton **[!UICONTROL Insérer]** situé au-dessus de la zone de saisie pour ajouter les champs issus du schéma associé au formulaire.
 
    ![](assets/s_ncs_content_param_form_edit_step2.png)
 
@@ -213,11 +213,11 @@ Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont
      </input>
    ```
 
-   The **[!UICONTROL Preview]** tab lets you check the rendering of the form while you are editing it:
+   L&#39;onglet **[!UICONTROL Aperçu]** permet de contrôler le rendu du formulaire en cours de réalisation :
 
    ![](assets/s_ncs_content_param_form_preview.png)
 
-1. Click **[!UICONTROL Save]** to create the input form.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer le formulaire de saisie.
 
 ## Etape 4 - Créer le modèle de construction {#step-4---creating-the-construction-template}
 
@@ -231,9 +231,9 @@ Dans notre exemple, nous allons utiliser un template Javascript pour définir le
 
 Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les suivantes :
 
-1. Ouvrez Adobe Campaign Explorer et sélectionnez le **[!UICONTROL Administration > Configuration > JavaScript Templates]** noeud.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et sélectionnez le noeud **[!UICONTROL Administration > Paramétrages > Templates JavaScript]**.
 
-   Click the **[!UICONTROL New]** icon above the list of templates.
+   Cliquez sur l&#39;icône **[!UICONTROL Nouveau]** située au-dessus de la liste des templates.
 
 1. Indiquez le nom du template et sélectionnez le schéma que vous avez créé pour la gestion de contenu.
 1. Importez le contenu fixe que vous souhaitez afficher dans le message.
@@ -350,7 +350,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
    }
    ```
 
-   In order for the JavaScript template to be valid, this function must be created beforehand from the **[!UICONTROL JavaScript codes]** node in the tree structure, as below:
+   Afin que le template javascript soit valide, cette fonction doit être préalablement créée depuis le noeud **[!UICONTROL Code Javascript]** de l&#39;arborescence, comme ci-dessous :
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
@@ -364,21 +364,21 @@ Vous devez ensuite créer un modèle de publication de contenu qui permettra de 
 
 Pour notre exemple, les étapes sont les suivantes :
 
-1. Créez un modèle de publication via le **[!UICONTROL Administration > Configuration > Publication templates]** noeud.
+1. Créez un nouveau modèle de publication à partir du noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**.
 1. Indiquez son nom, le libellé associé et sélectionnez le schéma et le formulaire à utiliser.
-1. Entrez ensuite le nom du modèle et choisissez le mode de rendu à appliquer. Ici, nous avons un rendu de **[!UICONTROL JavaScript]** type basé sur le modèle créé ci-dessus.
+1. Saisissez ensuite le nom du modèle et choisissez le mode de rendu à appliquer. Ici, il s&#39;agit d&#39;un rendu de type **[!UICONTROL JavaScript]**, basé sur le modèle créé à l&#39;étape précédente.
 
    ![](assets/s_ncs_content_param_form_publish.png)
 
    >[!NOTE]
    >
-   >L’ **[!UICONTROL DOM interface]** option est cochée par défaut, ce qui signifie que ce document ne sera pas accessible si vous utilisez la syntaxe E4X. L’interface DOM doit être utilisée lorsque cette option est cochée. Il s’agit de la syntaxe recommandée.
+   >L&#39;option **[!UICONTROL interface DOM]** est cochée par défaut, ce qui signifie qu&#39;il ne sera pas possible d&#39;accéder à ce document au moyen de la syntaxe E4X. L&#39;interface DOM doit être utilisée lorsque cette option est cochée et lorsqu&#39;elle est la syntaxe recommandée.
    >
    >Vous pouvez continuer à utiliser la syntaxe E4X. Le cas échéant, vérifiez que l&#39;option est décochée.
 
-   Use the **[!UICONTROL Add]** button to create other transformation templates.
+   Utilisez le bouton **[!UICONTROL Ajouter]** si vous souhaitez créer d&#39;autres modèles de transformation.
 
-1. Click **[!UICONTROL Save]** to create the publication template.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer le modèle de publication.
 
 ## Etape 6 - Créer les contenus {#step-6---creating-contents}
 
@@ -392,7 +392,7 @@ Vous pouvez enfin créer des contenus à partir de ce modèle de publication.
 
 Pour créer un contenu directement dans les diffusions, la procédure est la suivante :
 
-1. Start by referencing the publication template via the **[!UICONTROL Advanced]** tab of the delivery properties.
+1. Vous devez d&#39;abord référencer le modèle de publication à partir de l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion.
 
    ![](assets/s_ncs_content_in_delivery.png)
 
@@ -402,6 +402,6 @@ Pour créer un contenu directement dans les diffusions, la procédure est la sui
 
    ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
-1. Cliquez sur l’ **[!UICONTROL HTML preview]** onglet pour afficher le rendu. Vous devez sélectionner un destinataire pour tester la personnalisation.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** pour visualiser le rendu. Vous devez sélectionner un destinataire pour tester la personnalisation.
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)
