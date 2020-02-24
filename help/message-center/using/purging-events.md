@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Vous pouvez paramétrer la durée pendant laquelle vous souhaitez conserver les événements en base depuis l&#39;assistant de déploiement.
 
-La purge des événements est effectuée automatiquement par le **[!UICONTROL Database cleanup]** flux de travaux. Ce processus purge les événements reçus et stockés sur les instances d’exécution et les événements archivés sur une instance de contrôle.
+La purge des événements est effectuée automatiquement par le workflow **[!UICONTROL Nettoyage de la base]**. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
 
 Pour modifier les paramètres de purge, utilisez la flèche ascendante et descendante.
 
