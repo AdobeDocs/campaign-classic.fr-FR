@@ -24,7 +24,7 @@ source-git-commit: 16e35b62cdf42c04139cc17645095a3d1f6e0fa7
 
 ## Code SQL {#sql-code}
 
-Une **[!UICONTROL SQL code*]* activité exécute un script SQL. Le script est un modèle JST.
+An **[!UICONTROL SQL code*]* activity executes an SQL script. The script is a JST template.
 
 ![](assets/sql_code.png)
 
@@ -32,32 +32,32 @@ Une **[!UICONTROL SQL code*]* activité exécute un script SQL. Le script est un
 
    La zone centrale de l&#39;éditeur contient le script à exécuter. Ce script est un template JST et peut donc être paramétré en fonction du contexte du workflow.
 
-* **[!UICONTROL Processing errors]**
+* **[!UICONTROL Traiter les erreurs]**
 
    Reportez-vous à la section Erreurs [de](../../workflow/using/monitoring-workflow-execution.md#processing-errors)traitement.
 
 ## Code JavaScript et code JavaScript avancé {#javascript-code}
 
-**[!UICONTROL JavaScript code]** et **[!UICONTROL Advanced JavaScript code]** les activités exécutent un script JavaScript dans le contexte d’un flux de travail. Pour plus d’informations sur les scripts, reportez-vous à la section Scripts [JavaScript et modèles](../../workflow/using/javascript-scripts-and-templates.md) .
+**[!UICONTROL Le code]** JavaScript et les activités de code **[!UICONTROL JavaScript]** avancé exécutent un script JavaScript dans le contexte d’un flux de travail. Pour plus d’informations sur les scripts, reportez-vous à la section Scripts [JavaScript et modèles](../../workflow/using/javascript-scripts-and-templates.md) .
 
 >[!NOTE]
 >
->Par défaut, la phase d’exécution des activités **[!UICONTROL JavaScript code]** et **[!UICONTROL Advanced JavaScript code]** des activités ne peut pas dépasser 1 heure. Après ce délai, le processus sera abandonné avec un message d’erreur et l’exécution de l’activité échouera.
+>Par défaut, la phase d’exécution du code **** JavaScript et des activités de code **[!UICONTROL JavaScript]** avancé ne peut pas dépasser 1 heure. Après ce délai, le processus sera abandonné avec un message d’erreur et l’exécution de l’activité échouera.
 >
->Vous pouvez modifier ce délai dans le **[!UICONTROL Stop execution after]** champ disponible dans les propriétés des activités.
+>Vous pouvez modifier ce délai dans le champ **[!UICONTROL Arrêter l’exécution après]** avoir été disponible dans les propriétés des activités.
 
-* **[!UICONTROL JavaScript code]**
+* **[!UICONTROL Code JavaScript]**
 
    ![](assets/javascript_code.png)
 
-   * **[!UICONTROL Script]**: La zone centrale de l&#39;éditeur contient le script à exécuter.
-   * **[!UICONTROL Processing errors]**:Reportez-vous à la section Erreurs [de](../../workflow/using/monitoring-workflow-execution.md#processing-errors)traitement.
+   * **[!UICONTROL Script]**: La zone centrale de l’éditeur contient le script à exécuter.
+   * **[!UICONTROL Erreurs]** de traitement :Reportez-vous à la section Erreurs [de](../../workflow/using/monitoring-workflow-execution.md#processing-errors)traitement.
 
-* **[!UICONTROL Advanced JavaScript code]**
+* **[!UICONTROL Code JavaScript avancé]**
 
    ![](assets/advanced_javascript_code.png)
 
-   * **[!UICONTROL First call]**: La première zone de l&#39;éditeur contient le script à exécuter lors du premier appel.
-   * **[!UICONTROL Next calls]**: La seconde zone de l&#39;éditeur contient le script à exécuter lors des appels suivants.
-   * **[!UICONTROL Transitions]**: Vous pouvez définir plusieurs transitions en sortie de l&#39;activité.
-   * **[!UICONTROL Schedule]**:L’ **[!UICONTROL Schedule]** onglet vous permet de programmer le moment où déclencher l’activité.
+   * **[!UICONTROL Premier appel]**: La première zone de l’éditeur contient le script à exécuter lors du premier appel.
+   * **[!UICONTROL Appels]** suivants : La deuxième zone de l’éditeur contient le script à exécuter lors des appels suivants.
+   * **[!UICONTROL Transitions]**: Vous pouvez définir plusieurs transitions de sortie d’activité.
+   * **[!UICONTROL Planification]**: L’onglet **[!UICONTROL Planifier]** vous permet de programmer le moment où déclencher l’activité.
