@@ -22,7 +22,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # Personnaliser le tracking des URL{#personalizing-url-tracking}
 
-Les paramètres avancés du tracking des messages sont accessibles à partir de l&#39;icône **[!UICONTROL Tracking & Images]** située dans la barre d&#39;outils de l&#39;assistant de diffusion.
+Les paramètres avancés du tracking des messages sont accessibles à partir de l&#39;icône **[!UICONTROL Tracking &amp; images]** située dans la barre d&#39;outils de l&#39;assistant de diffusion.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Vous pouvez configurer les options de tracking :
 
    >[!CAUTION]
    >
-   >When tracking is not activated on a delivery (i.e. **[!UICONTROL Activate tracking]** option not selected), reports and data related to tracking are not available: Opens, Hot click and tracked URLs reports will not show any data, and **[!UICONTROL Tracking logs]** tabs will not be displayed for this delivery.
+   >Lorsque le tracking n&#39;est pas activé sur une diffusion (c&#39;est-à-dire, l&#39;option **[!UICONTROL Activer le tracking]** n&#39;est pas sélectionnée), les rapports et les données associés au tracking ne sont pas disponibles : les rapports Ouvertures, Hot click et URL trackées ne contiendront aucune donnée et les onglets **[!UICONTROL Logs de tracking]** ne seront pas affichés pour cette diffusion.
 
 * Activer/Désactiver le tracking à l&#39;ouverture du message.
 
@@ -46,7 +46,7 @@ Les URL trackées sont listées dans la fenêtre centrale, sous la forme d&#39;u
 
 Vous pouvez activer ou désactiver unitairement le tracking pour chaque URL du message. Voir à ce propos [cette section](../../delivery/using/how-to-configure-tracked-links.md).
 
-The **[!UICONTROL Advanced]** tab lets you personalize the calculation formulas of the tracked URLs and the opening URL.
+L&#39;onglet **[!UICONTROL Avancé]** permet de personnaliser les formules de calcul des URL trackées et de l&#39;URL d&#39;ouverture.
 
 ![](assets/s_ncs_user_email_del_tracking_param_adv.png)
 
