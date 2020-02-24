@@ -153,7 +153,7 @@ Les formes d&#39;édition dans les listes sont utilisées dans les cas suivants 
 
 La définition du formulaire de modification est spécifiée via l’ **`<form>`** élément situé sous l’élément de liste. Sa structure est identique à celle d’un formulaire d’entrée.
 
-Un **[!UICONTROL Detail]** bouton est automatiquement ajouté lorsque l’attribut **zoom=&quot;true&quot;** est entré dans la définition de liste. Vous pouvez ainsi ouvrir le formulaire de modification sur la ligne sélectionnée.
+Un bouton **[!UICONTROL Détail]** est automatiquement ajouté lorsque l&#39;attribut **zoom=&quot;true&quot;** est renseigné dans la définition de la liste, celui-ci permet de lancer le formulaire d&#39;édition sur la ligne sélectionnée.
 
 >[!NOTE]
 >
@@ -199,6 +199,6 @@ La zone d&#39;édition permet de renseigner le contenu XML du formulaire de sais
 
 ![](assets/d_ncs_content_form12.png)
 
-The **[!UICONTROL Preview]** tab lets you view the input form:
+L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le formulaire de saisie :
 
 ![](assets/d_ncs_content_form13.png)
