@@ -22,9 +22,9 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # Test{#test}
 
-A **Test** type activity activates the first transition that satisfies the condition associated with it. If no condition is satisfied and if the **[!UICONTROL Use the default fork]** option is activated, the default transition will be activated.
+Une activité de type **Test** active la première transition qui vérifie la condition qui lui est associée. Si aucune condition n&#39;est vérifiée et si l&#39;option **[!UICONTROL Utiliser le branchement par défaut]** est activée, la transition par défaut sera activée.
 
-A condition is a JavaScript expression that must be evaluated to &#39;true&#39; or &#39;false&#39;. To enter the expression, click the icon to the right of the name of the condition, and then select **[!UICONTROL Edit...]**.
+Une condition est une expression JavaScript qui doit être évaluée à &#39;true&#39; ou &#39;false&#39;. Pour saisir l&#39;expression, cliquez sur l&#39;icône située à droite du nom de la condition et choisissez **[!UICONTROL Editer...]**.
 
 ![](assets/edit_test.png)
 
