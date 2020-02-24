@@ -28,8 +28,8 @@ Interaction permet de contrôler le flux des propositions d&#39;offres à l&#39;
 
 ## Créer et référencer une règle de présentation d&#39;offre {#creating-and-referencing-an-offer-presentation-rule}
 
-1. Accédez au noeud **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** .
-1. Create a typology rule and choose the **[!UICONTROL Offer presentation]** type.
+1. Positionnez-vous au niveau du noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion des typologies]** > **[!UICONTROL Règles de typologie]**.
+1. Créez une règle de typologie et sélectionnez le type **[!UICONTROL Présentation des offres]**.
 
    ![](assets/offer_typology_001.png)
 
@@ -38,7 +38,7 @@ Interaction permet de contrôler le flux des propositions d&#39;offres à l&#39;
    ![](assets/offer_typology_002.png)
 
 1. Configurez les critères d’application de la règle. Pour plus d’informations, reportez-vous aux paramètres [des règles de](#presentation-rule-settings)présentation.
-1. Accédez au noeud **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** et créez une typologie qui regroupe toutes les **[!UICONTROL Offer presentation]** règles de type.
+1. Positionnez-vous au niveau du noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion des typologies]** > **[!UICONTROL Typologies]** et créez une typologie destinée à regrouper toutes les règles de type **[!UICONTROL Présentation des offres]**.
 
    ![](assets/offer_typology_003.png)
 
@@ -54,9 +54,9 @@ Interaction permet de contrôler le flux des propositions d&#39;offres à l&#39;
 
 ### Critères d&#39;application {#application-criteria-}
 
-Les critères d’application disponibles dans l’ **[!UICONTROL General]** onglet vous permettent de spécifier les offres auxquelles la règle de présentation s’appliquera. Pour ce faire, vous devez créer une requête et choisir les offres concernées, comme décrit ci-dessous.
+Disponibles dans l&#39;onglet **[!UICONTROL Général]**, les critères d&#39;application permettent de déterminer les offres auxquelles la règle de présentation doit s&#39;appliquer. Pour cela, vous devez créer une requête et sélectionner les offres concernées, comme décrit ci-après.
 
-1. Dans la règle de typologie, cliquez sur le **[!UICONTROL Edit the rule application conditions...]** lien pour créer votre requête.
+1. Dans votre règle de typologie, cliquez sur le lien **[!UICONTROL Editer les critères d&#39;application de la règle]** pour créer votre requête.
 
    ![](assets/offer_typology_006.png)
 
@@ -68,9 +68,9 @@ Les critères d’application disponibles dans l’ **[!UICONTROL General]** ong
 
 ### Dimensions des offres {#offer-dimensions}
 
-In the **[!UICONTROL Offer presentation]** tab, you must specify the same dimensions for the presentation rule as those configured in the environment.
+Dans l&#39;onglet **[!UICONTROL Présentation des offres]**, vous devez spécifier les mêmes dimensions pour la règle de présentation que celles paramétrées au niveau de l&#39;environnement.
 
-Le **[!UICONTROL Targeting dimension]** rapport coïncide avec la table des destinataires (par défaut : nms:destinataires) qui recevra les propositions d’offre. Le **[!UICONTROL Storage dimension]** tableau coïncide avec le tableau qui contient l’historique des propositions liées à la dimension de ciblage (par défaut:nms:propositionRcp).
+La **[!UICONTROL dimension de ciblage]** correspond à la table des destinataires (par défaut nms:recipients) qui recevront les propositions d&#39;offres. La **[!UICONTROL dimension de stockage]** correspond à la table contenant l&#39;historique des propositions liée à la dimension de ciblage (par défaut nms:propositionRcp).
 
 ![](assets/offer_typology_009.png)
 
@@ -82,7 +82,7 @@ Le **[!UICONTROL Targeting dimension]** rapport coïncide avec la table des dest
 
 Il s&#39;agit de la période glissante durant laquelle les propositions sont prises en compte dans la règle. Elle restreint dans le temps la prise en compte de l&#39;historique des propositions d&#39;offres. La règle ne s&#39;applique pas aux propositions d&#39;offres faites en dehors de cette période.
 
-The period starts **n** days before the proposition date and ends **n** days afterwards, where **n** corresponds to the number entered in the **[!UICONTROL Period considered]** field:
+La période débute **n** jours avant la date des propositions et prend fin **n** jours après, où **n** correspond au nombre entré au niveau du champ **[!UICONTROL Période concernée]** :
 
 * Pour un emplacement de type entrant, la date des propositions est la date de présentation de l&#39;offre.
 * Pour un emplacement de type sortant, la date des propositions est la date de contact de la diffusion (par exemple la date d&#39;envoi saisie dans un workflow de ciblage).
@@ -101,7 +101,7 @@ Utilisez la flèche ascendante ou descendante pour modifier le nombre de proposi
 
 ## Définir les propositions et les destinataires {#defining-propositions-and-recipients}
 
-The **[!UICONTROL Propositions to count]** section lets you specify both the recipients and the propositions which will lead to the exclusion of the offers defined in the **[!UICONTROL General]** tab if they appear a certain number of times in the propositions history.
+La section **[!UICONTROL Propositions à comptabiliser]** vous permet de préciser à la fois les destinataires et les propositions qui, s&#39;ils sont retrouvés dans l&#39;historique des propositions en nombre suffisant, aboutiront à l&#39;exclusion des offres définies dans l&#39;onglet **[!UICONTROL Général]**.
 
 ### Filtrer les propositions {#filtering-propositions}
 
@@ -109,55 +109,55 @@ Vous pouvez sélectionner des critères de filtrage pour exclure des proposition
 
 ![](assets/offer_typology_014.png)
 
-Ces critères représentent les applications les plus fréquentes des règles de présentation. Pour utiliser d’autres critères, vous pouvez créer une requête à l’aide du **[!UICONTROL Limit propositions...]** lien. For more on this, refer to the [Creating a query on propositions](#creating-a-query-on-propositions) section.
+**[!UICONTROL Ces critères représentent les applications les plus fréquentes des règles de présentation. Pour utiliser d&#39;autres critères, vous pouvez créer une requête à l&#39;aide des propositions]** Limit... link. For more on this, refer to the [Creating a query on propositions](#creating-a-query-on-propositions) section.
 
 * **Filtre sur le canal**
 
-   **[!UICONTROL On the same channel only]** : vous permet d’exclure les propositions d’offre sur le canal spécifié dans l’ **[!UICONTROL General]** onglet.
+   **[!UICONTROL Sur le même canal uniquement]** : permet d&#39;exclure les propositions d&#39;offre sur le canal spécifié dans l&#39;onglet **[!UICONTROL Général]**.
 
-   Par exemple, le canal spécifié pour la règle dans l’ **[!UICONTROL General]** onglet est Courriel. Si les offres auxquelles s’applique la règle étaient jusqu’à présent uniquement proposées sur le canal Web, le moteur d’interaction peut les présenter dans une remise par courrier électronique. Cependant, une fois les offres présentées par courrier électronique, le moteur d’interaction choisit un canal différent pour présenter les offres.
+   Par exemple, le canal spécifié pour la règle dans l&#39;onglet **[!UICONTROL Général]** est l&#39;email. Si les offres auxquelles la règle s&#39;applique n&#39;ont été proposées que sur le canal web, le moteur d&#39;interaction pourra présenter les offres dans une diffusion par email. En revanche, dès que les offres auront été présentées par email, le moteur d&#39;interaction choisira un autre canal pour proposer les offres.
 
    >[!NOTE]
    >
    >Il s&#39;agit bien du canal et non de l&#39;emplacement. Si la règle doit exclure une offre sur le canal web, l&#39;offre destinée à être proposée sur un site web à deux emplacements, (une bannière et le corps de texte de la page par exemple), n&#39;apparaîtra pas sur le site si elle a déjà été proposée auparavant.
    >
-   >For a workflow involving offer presentation, the rules are only correctly taken into account if they are configured on **[!UICONTROL All channels]**.
+   >Dans le cas d&#39;un workflow impliquant la présentation d&#39;offres, les règles ne sont correctement prises en compte que si elles sont paramétrées sur **[!UICONTROL Tous les canaux]**.
 
 * **Filtre sur l&#39;offre**
 
    Ce filtre permet de limiter à certains ensembles d&#39;offres les propositions d&#39;offres à comptabiliser.
 
-   **[!UICONTROL All offers]** : valeur par défaut. Aucun filtre n’est appliqué aux offres.
+   **[!UICONTROL Toutes les offres]** : valeur par défaut. Aucun filtre sur les offres n&#39;est appliqué.
 
-   **[!UICONTROL Offer being presented]** : l’offre spécifiée dans l’ **[!UICONTROL General]** onglet est exclue si elle a déjà été présentée.
+   **[!UICONTROL L&#39;offre en cours de présentation]** : l&#39;offre spécifiée dans l&#39;onglet **[!UICONTROL Général]** est exclue si elle a déjà été proposée.
 
-   **[!UICONTROL Offers from the same category]** : une offre est exclue si une offre de la même catégorie a déjà été présentée.
+   **[!UICONTROL Les offres de la même catégorie]** : une offre est exclue si une proposition d&#39;offre de la même catégorie a déjà été faite.
 
-   **[!UICONTROL The offers which the rule applies to]** : lorsque plusieurs offres sont définies dans l’ **[!UICONTROL General]** onglet, chaque proposition d’offre de cet ensemble d’offres est prise en compte et se termine par l’exclusion de toutes les offres si le seuil de proposition est atteint.
+   **[!UICONTROL Les offres auxquelles la règle s&#39;applique]** : lorsque plusieurs offres sont définies dans l&#39;onglet **[!UICONTROL Général]**, chaque proposition d&#39;offre de cet ensemble d&#39;offres est prise en compte et aboutit à l&#39;exclusion de toutes si le nombre maximum de proposition est atteint.
 
-   Par exemple, les offres 2, 3 et 5 sont définies dans l’ **[!UICONTROL General]** onglet. Le nombre maximal de propositions est fixé à 2. Si les offres 2 et 5 sont présentées une seule fois, le nombre de propositions comptées sera 2. Par conséquent, l’offre 3 ne sera jamais présentée.
+   Par exemple, les offres N°2, 3 et 5 sont définies dans l&#39;onglet **[!UICONTROL Général]**. Le nombre maximum de propositions est fixé à 2. Si l&#39;offre N°2 et 5 sont proposées chacune une fois, le nombre de propositions comptabilisé est de 2. Par conséquent, l&#39;offre N°3 ne sera jamais présentée.
 
 * **Filtre sur l&#39;état de la proposition**
 
    Ce filtre permet de choisir directement les états les plus courants des propositions d&#39;offres à prendre en compte dans l&#39;historique des propositions.
 
-   **[!UICONTROL Regardless of the proposition status]** : valeur par défaut. Aucun filtre n’est appliqué à l’état de proposition.
+   **[!UICONTROL Quel que soit l&#39;état des propositions]** : valeur par défaut. Aucun filtre n&#39;est appliqué sur l&#39;état des propositions.
 
-   **[!UICONTROL Accepted or rejected propositions]** : vous permet d’exclure les offres présentées précédemment qui ont été acceptées ou rejetées.
+   **[!UICONTROL Propositions acceptées ou refusées]** : permet d&#39;exclure les offres déjà proposées qui ont été acceptées ou refusées.
 
-   **[!UICONTROL Accepted propositions]** : vous permet d’exclure les offres présentées précédemment qui ont été acceptées.
+   **[!UICONTROL Propositions acceptées]** : permet d&#39;exclure les offres déjà proposées qui ont été acceptées.
 
-   **[!UICONTROL Rejected propositions]** : vous permet d’exclure les offres présentées précédemment qui ont été rejetées.
+   **[!UICONTROL Propositions refusées]** : permet d&#39;exclure les offres déjà proposées qui ont été refusées.
 
 ### Définir les destinataires {#defining-recipients}
 
-Pour spécifier les destinataires, cliquez sur le **[!UICONTROL Edit the query from the targeting dimension...]** lien et sélectionnez les destinataires concernés par la règle.
+Pour indiquer les destinataires, cliquez sur le lien **[!UICONTROL Editer la requête à partir de la dimension de ciblage...]**, puis sélectionnez les destinataires concernés par la règle.
 
 ![](assets/offer_typology_012.png)
 
 ### Créer une requête sur les propositions {#creating-a-query-on-propositions}
 
-To specify the propositions to be counted via a query, click the **[!UICONTROL Limit propositions...]** link and specify the criteria to be taken into account.
+Pour préciser les propositions à comptabiliser via une requête, cliquez sur le lien **[!UICONTROL Limiter les propositions]** et indiquez les critères à prendre en compte.
 
 Dans l&#39;exemple ci-dessous, les propositions à comptabiliser au bout de deux présentations sont celles de la catégorie **Offres spéciales**, pour l&#39;emplacement **Centre d&#39;appels**, dont le poids est inférieur à **20**.
 
