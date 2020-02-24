@@ -28,15 +28,15 @@ Il peut s’agir de la remise spécifiée dans la transition, d’une remise sé
 
 ![](assets/edit_diffusion_act.png)
 
-Si vous sélectionnez **[!UICONTROL Start]**, l’activité effectue toutes les étapes requises pour démarrer la diffusion (calcul de la cible, préparation du contenu, diffusion). Si certaines de ces étapes ont déjà été effectuées par une activité de flux de travail précédente, elles ne seront plus exécutées. Par exemple, si l’estimation de la cible a déjà été effectuée par une activité de **[!UICONTROL Delivery]** type (voir [Livraison](../../workflow/using/delivery.md)), l’ **[!UICONTROL Act on the delivery]** activité lancera les étapes restantes (préparation et diffusion du contenu).
+Si vous sélectionnez **[!UICONTROL Démarrer]**, l’activité effectue toutes les étapes requises pour démarrer la diffusion (calcul de la cible, préparation du contenu, diffusion). Si certaines de ces étapes ont déjà été effectuées par une activité de flux de travail précédente, elles ne seront plus exécutées. Par exemple, si l’estimation de la cible a déjà été effectuée par une activité de type **[!UICONTROL Livraison]** (voir [Livraison](../../workflow/using/delivery.md)), la **[!UICONTROL loi sur l’activité de livraison]** lancera les étapes restantes (préparation et diffusion du contenu).
 
 Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Generate an outbound transition]**
+* **[!UICONTROL Générer une transition sortante]**
 
    Crée une transition sortante qui sera activée à la fin de l&#39;exécution. Vous pouvez choisir de récupérer la cible de l&#39;action de diffusion en sortie, ou non.
 
-* **[!UICONTROL Processing errors]**
+* **[!UICONTROL Traiter les erreurs]**
 
    Reportez-vous à la section Erreurs [de](../../workflow/using/monitoring-workflow-execution.md#processing-errors)traitement.
 
@@ -44,4 +44,4 @@ Les options disponibles sont les suivantes :
 
 * deliveryId
 
-Identifiant de remise, si l’action sélectionnée est **[!UICONTROL Specified in the transition]**.
+Identifiant de la diffusion, si l&#39;action sélectionnée est **[!UICONTROL Spécifiée par la transition]**.
