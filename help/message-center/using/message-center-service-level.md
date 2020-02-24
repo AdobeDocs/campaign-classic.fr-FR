@@ -22,18 +22,18 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Qualité de service Message Center{#message-center-service-level}
 
-Ce rapport affiche les statistiques de remise relatives aux messages transactionnels ainsi que la ventilation des erreurs. Vous pouvez cliquer sur un type d’erreur pour afficher ses détails. Ce rapport, destiné aux administrateurs techniques, est également accessible via l’ **[!UICONTROL Monitoring]** univers de l’instance de contrôle.
+Ce rapport présente les statistiques d&#39;envoi des messages transactionnels ainsi que la répartition des erreurs. Vous pouvez cliquer sur un type d&#39;erreur pour afficher le détail. Ce rapport, destiné aux administrateurs techniques, est également accessible à partir de l&#39;univers **[!UICONTROL Supervision]** de l&#39;instance de pilotage.
 
 ![](assets/mc_reports_1.png)
 
-Dans ce rapport, vous pouvez choisir d’afficher les statistiques globales ou celles relatives à une instance d’exécution particulière.Vous pouvez également filtrer les données par canal et sur une période spécifique. Les indicateurs affichés dans la **[!UICONTROL Indicators over the period]** section sont calculés sur la période sélectionnée :
+Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou relatives à une instance d&#39;exécution en particulier. Il est également possible de filtrer les données par canal et sur une période spécifique. Les indicateurs affichés dans la partie **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
 
-* **[!UICONTROL Incoming (throughput event/h)]** : nombre horaire moyen d’événements entrés dans la file d’attente du Centre de messages.
-* **[!UICONTROL Incoming (event vol)]** : nombre d’événements entrés dans la file d’attente du Centre des messages.
-* **[!UICONTROL Outgoing (throughput msg/h)]** : nombre horaire moyen d’événements de centre de messages sortants réussis (envoyés par une remise).
-* **[!UICONTROL Outgoing (msg vol)]** : nombre d’événements Message Center sortants (envoyés par une remise).
-* **[!UICONTROL Average sending time (seconds)]** : temps moyen passé dans le Centre de messages pour les événements traités avec succès. Le calcul prend en compte le temps de traitement et le temps d’envoi mta.
-* **[!UICONTROL Error rate]** : nombre d’événements avec des erreurs par rapport au nombre d’événements entrés dans la file d’attente du Centre de messages. Les erreurs suivantes sont prises en compte : erreur de routage, événement arrivé à expiration (événement qui a été trop long dans la file d&#39;attente), erreur de remise, ignorée par la diffusion (quarantaine, etc.).
+* **[!UICONTROL Entrant (débit evt/h)]** : moyenne horaire du nombre d&#39;événements entrés dans la file Message Center.
+* **[!UICONTROL Entrant (volume evt)]** : nombre d&#39;événements entrés dans la file Message Center.
+* **[!UICONTROL Sortant (débit msg/h)]** : moyenne horaire du nombre d&#39;événements sortant avec succès de Message Center (envoyés par une diffusion).
+* **[!UICONTROL Sortant (volume msg)]** : nombre d&#39;événements sortant avec succès de Message Center (envoyés par une diffusion).
+* **[!UICONTROL Temps moyen d&#39;envoi (s)]** : temps moyen passé dans Message Center pour les événements traités avec succès. Ce calcul prend en compte le temps de traitement et le temps d&#39;envoi par les mta.
+* **[!UICONTROL Taux d&#39;erreur]** : nombre d&#39;événements en erreur par rapport au nombre d&#39;événements entrés dans la file Message Center. Les erreurs suivantes sont prises en compte : erreur de routage, événement expiré (événement resté trop longtemps dans la file d&#39;attente), erreur de diffusion, ignoré par la diffusion (quarantaine, etc.).
 
 >[!NOTE]
 >
