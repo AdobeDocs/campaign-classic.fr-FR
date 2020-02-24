@@ -26,7 +26,7 @@ Une activité **Contrainte horaire** permet de reporter l’exécution d’une t
 
 Saisissez le libellé de l&#39;activité et indiquez la plage horaire pendant laquelle la tâche du workflow doit être suspendue.
 
-Lorsque l’ **[!UICONTROL Try again later if outside of execution period]** option est sélectionnée, elle vous permet de redémarrer la tâche en dehors de la période d’exécution. si vous souhaitez que l’action de flux de travaux soit abandonnée pour de bon après sa suspension, désélectionnez cette option.
+Lorsque l&#39;option **[!UICONTROL Retenter plus tard si hors plage d&#39;exécution]** est sélectionnée, elle permet de relancer la tâche en dehors de la plage d&#39;exécution. Si vous souhaitez que l&#39;action du workflow soit définitivement abandonnée après sa suspension, désélectionnez cette option.
 
 ![](assets/s_user_scheduled_wait.png)
 
