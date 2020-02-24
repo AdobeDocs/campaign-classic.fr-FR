@@ -22,9 +22,9 @@ source-git-commit: e1937c1ddcbde092a22f4fe8c50d3d72b02cfeed
 
 # Suivi{#audit-trail}
 
-In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the complete history of changes made within your instance.
+Dans Adobe Campaign, le **[!UICONTROL Suivi]** vous donne accès à l’historique complet des modifications apportées à votre instance.
 
-**[!UICONTROL Audit trail]** capture, en temps réel, une liste complète des actions et événements survenant dans votre instance Adobe Campaign. Il comprend un moyen en libre-service d’accéder à l’historique des données afin de répondre à des questions telles que : ce qui est arrivé à vos processus et qui les a mis à jour en dernier ou ce que vos utilisateurs ont fait dans l’instance.
+Le **[!UICONTROL Suivi]** capture en temps réel la liste complète des actions et des événements qui se produisent au sein de votre instance Adobe Campaign. Il vous permet d’accéder à un historique de données en libre-service afin de vous aider à répondre à des questions portant notamment sur ce qui arrivé à vos workflows, les personnes qui les ont mis à jour pour la dernière fois et ce qu’ont fait vos utilisateurs dans l’instance.
 
 >[!NOTE]
 >
@@ -57,33 +57,33 @@ Le Suivi comprend trois composants :
 
 ## Accéder au Suivi {#accessing-audit-trail}
 
-Pour accéder à votre instance **[!UICONTROL Audit trail]** :
+Pour accéder au **[!UICONTROL Suivi]** de votre instance :
 
-1. Access the **[!UICONTROL Explorer]** menu of your instance.
-1. Dans le **[!UICONTROL Administration]** menu, sélectionnez **[!UICONTROL Audit]** .
+1. Accédez au menu **[!UICONTROL Explorateur]** de votre instance.
+1. Sous le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Suivi]** .
 
    ![](assets/audit_trail_1.png)
 
-1. La **[!UICONTROL Audit trail]** fenêtre s&#39;ouvre avec la liste de vos entités. Adobe Campaign vérifie les actions de création, de modification et de suppression pour les flux de travaux, les options et les schémas.
+1. La fenêtre **[!UICONTROL Suivi]** s’ouvre avec la liste de vos entités. Adobe Campaign effectuera le suivi des actions de création, d’édition et de suppression pour les workflows, les options et les schémas.
 
    Sélectionnez l’une des entités pour en savoir plus sur les dernières modifications.
 
    ![](assets/audit_trail_2.png)
 
-1. The **[!UICONTROL Audit entity]** window gives you more detailed information on the chosen entity such as:
+1. La fenêtre **[!UICONTROL Entité d’audit]** vous donne des informations plus détaillées sur l’entité choisie, telles que :
 
-   * **[!UICONTROL Type]** : Processus, options ou schémas.
-   * **[!UICONTROL Entity]** : Nom interne de vos activités.
-   * **[!UICONTROL Modified by]** : Nom d&#39;utilisateur de la dernière personne qui a modifié cette entité pour la dernière fois.
+   * **[!UICONTROL Type]** : Workflow, Options ou Schémas.
+   * **[!UICONTROL Entité]** : nom interne de vos activités.
+   * **[!UICONTROL Modifié par]** : nom d’utilisateur de la dernière personne à avoir modifié cette entité.
    * **[!UICONTROL Action]** : dernière action réalisée sur cette entité (création, édition ou suppression).
-   * **[!UICONTROL Modification date]** : Date de la dernière action effectuée sur cette entité.
+   * **[!UICONTROL Date de modification]** : date de la dernière action effectuée sur cette entité.
    Ce bloc de code vous donne davantage d’informations sur ce qui a été modifié dans votre entité.
 
    ![](assets/audit_trail_3.png)
 
 >[!NOTE]
 >
->By default, retention period is set to 180 days for **[!UICONTROL Audit logs]** . To learn more on how to change the retention period, refer to this [page](../../production/using/database-cleanup-workflow.md#deployment-wizard).
+>Par défaut, la période de conservation est définie sur 180 jours pour les **[!UICONTROL Logs d’audit]**. Pour plus d’informations sur la façon de la modifier, consultez [cette page](../../production/using/database-cleanup-workflow.md#deployment-wizard).
 
 ## Activer/désactiver le Suivi {#enable-disable-audit-trail}
 
@@ -91,22 +91,22 @@ Le Suivi peut être facilement activé ou désactivé pour une activité spécif
 
 Pour ce faire :
 
-1. Access the **[!UICONTROL Explorer]** menu of your instance.
-1. Dans le **[!UICONTROL Administration]** menu, sélectionnez **[!UICONTROL Platform]** puis **[!UICONTROL Options]** .
+1. Accédez au menu **[!UICONTROL Explorateur]** de votre instance.
+1. Sous le menu **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Plate-forme]** puis **[!UICONTROL Options]** .
 
    ![](assets/audit_trail_4.png)
 
 1. Sélectionnez l’une des options suivantes selon l’entité que vous voulez activer/désactiver :
 
-   * For Workflow: **[!UICONTROL XtkAudit_Workflows]**
-   * For Schemas: **[!UICONTROL XtkAudit_DataSchema]**
-   * For Options: **[!UICONTROL XtkAudit_Option]**
-   * For every entity: **[!UICONTROL XtkAudit_Enable_All]**
+   * Pour un workflow : **[!UICONTROL XtkAudit_Workflows]**
+   * Pour un schéma : **[!UICONTROL XtkAudit_DataSchema]**
+   * Pour une option : **[!UICONTROL XtkAudit_Option]**
+   * Pour chaque entité : **[!UICONTROL XtkAudit_Enable_All]**
    ![](assets/audit_trail_5.png)
 
-1. Change the **[!UICONTROL Value]** to 1 if you want to enable the entity or to 0 if you want to disable it.
+1. Définissez la **[!UICONTROL Valeur]** sur 1 si vous voulez activer l’entité, ou sur 0 si vous voulez la désactiver.
 
    ![](assets/audit_trail_6.png)
 
-1. Clics **[!UICONTROL Save]** .
+1. Cliquez sur **[!UICONTROL Enregistrer]** .
 
