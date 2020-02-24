@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Seuils de suivi{#monitoring-thresholds}
 
-Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs qui apparaissent dans les rapports de niveau **de service du** Centre de **messages et de temps** de traitement du Centre de [messages (reportez-vous à la section](../../message-center/using/about-transactional-messaging-reports.md)A propos des rapportsde messagerie transactionnelle). Pour ce faire, ouvrez l’assistant de déploiement de l’instance d’exécution, accédez à la **[!UICONTROL Message Center]** page et utilisez les flèches pour modifier les seuils.
+Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs qui apparaissent dans les rapports de niveau **de service du** Centre de **messages et de temps** de traitement du Centre de [messages (reportez-vous à la section](../../message-center/using/about-transactional-messaging-reports.md)A propos des rapportsde messagerie transactionnelle). Pour ce faire, ouvrez l’assistant de déploiement de l’instance d’exécution, accédez à la page **[!UICONTROL Message Center]** et utilisez les flèches pour modifier les seuils.
 
 ![](assets/messagecenter_monitor_events_001.png)
 
