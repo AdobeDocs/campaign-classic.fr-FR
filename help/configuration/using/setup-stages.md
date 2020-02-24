@@ -35,7 +35,7 @@ Les étapes pour mettre en place ces balises sont les suivantes:
 1. Déterminer quelles informations supplémentaires vous souhaitez collecter et étendre le schéma **nms:webTrackingLog** avec la description de ces informations. Par défaut, ce schéma propose de stocker le montant des transactions et le nombre d&#39;articles par transaction.
 1. Créer les balises de tracking Web. Pour cela, deux méthodes sont possibles :
 
-   * Insert the URLs corresponding to these pages in your Adobe Campaign platform, then generate and extract the associated web-tracking tags (from the **[!UICONTROL Campaign execution>Resources>Web tracking tags]** node of the client console).
+   * Insérer les URL correspondant à ces pages dans votre plateforme Adobe Campaign, puis générer et extraire les différentes balises de tracking Web associées (à partir du noeud **[!UICONTROL Ressources>On-line>Balises de tracking Web]** de la console cliente).
    * Créer vous-même les balises de tracking Web en mode &quot;création à la volée&quot; : les URL correspondant à ces pages seront insérées automatiquement dans votre plateforme Adobe Campaign.
 
 1. Ajouter ces balises, de façon dynamique ou statique, dans les pages que vous souhaitez tracker.
