@@ -26,7 +26,7 @@ La surveillance du serveur applicatif et du serveur de redirection (**tracking**
 
 ## Surveillance manuelle {#manual-monitoring}
 
-Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Overview]** link to display the Adobe Campaign process monitoring page.
+Accédez à **[!UICONTROL Supervision]**, puis cliquez sur le lien **[!UICONTROL Vue générale]** pour afficher la page de supervision des processus Adobe Campaign.
 
 ![](assets/d_ncs_monitoring.png)
 
@@ -40,17 +40,17 @@ D’autres méthodes de surveillance des différents processus de campagne sont 
 
 ### Journal des logs {#log-journal}
 
-It is possible to display the log journal related to a process. To do this, click on the process, **mta** for example, then click **[!UICONTROL Open the log journal]** .
+Il est possible d&#39;afficher le journal des logs relatif à un processus. Pour cela, cliquez sur un processus, par exemple **mta**, puis sur **[!UICONTROL Ouvrir le journal des logs]** .
 
 ![](assets/d_ncs_monitoring2.png)
 
 ### Indicateurs système {#system-indicators}
 
-La liste des indicateurs système vous permet d&#39;afficher des informations concernant la machine, telles que sa mémoire physique et virtuelle, ses processus actifs et l&#39;espace disque disponible. Les indicateurs sont différents pour les systèmes d’exploitation Linux et Windows. Accédez à la **[!UICONTROL Instance Monitoring]** page et cliquez sur le **[!UICONTROL Display]** lien pour ouvrir la liste des indicateurs.
+La liste des indicateurs système permet d&#39;afficher des informations concernant la machine comme la mémoire physique et virtuelle de la machine, les processus en cours d&#39;activité ou son espace disque. Les indicateurs sont différents selon que le serveur est installé sur une machine utilisant un système d&#39;exploitation Linux ou Windows. Dans la page **[!UICONTROL Supervision de l&#39;instance]**, cliquez sur le lien **[!UICONTROL Afficher]** pour dérouler la liste des indicateurs.
 
 #### Sous Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : Indicateur spécifique au Centre **de messages**. Pour plus d&#39;informations, consultez [cette section](../../message-center/using/monitoring-thresholds.md).
+* **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/monitoring-thresholds.md) pour plus d&#39;informations.
 * **[!UICONTROL Memory]** : informations relatives à la mémoire physique (RAM).
 
    **[!UICONTROL Current value]** : consommation réelle de mémoire.
@@ -63,7 +63,7 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
    **[!UICONTROL Alert]** : cet indicateur s&#39;affiche lorsque la consommation de la mémoire atteint les 90% de la quantité totale.
 
-   Lorsque les **[!UICONTROL Warning]** indicateurs et les **[!UICONTROL Alert]** indicateurs sont affichés, vous pouvez résoudre le problème en ajoutant de la mémoire vive à l’ordinateur sur lequel le serveur Adobe Campaign est installé. Vous pouvez également décider d’installer le serveur Adobe Campaign sur un ordinateur dédié.
+   Lorsque les indicateurs **[!UICONTROL Warning]** et **[!UICONTROL Alert]** s&#39;affichent, vous pouvez remédier au problème en ajoutant de la RAM à la machine sur laquelle est installé le serveur Adobe Campaign. Vous pouvez également choisir d&#39;installer le serveur Adobe Campaign sur une machine dédiée.
 
 * **[!UICONTROL Swap Memory]** : informations relatives à la mémoire virtuelle qui correspond à un fichier d&#39;échange, soit une zone du disque que Windows utilise comme s&#39;il s&#39;agissait de mémoire vive.
 
@@ -79,38 +79,38 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
    Lorsque les indicateurs **[!UICONTROL Warning]** et **[!UICONTROL Alert]** s&#39;affichent, vous pouvez remédier au problème en augmentant la taille du fichier d&#39;échange dans les paramètres avancés de Windows.
 
-* **[!UICONTROL Disk XXX]** : informations concernant les lecteurs de machines.
+* **[!UICONTROL Disk XXX]** : informations relatives aux lecteurs de la machine.
 
-   **[!UICONTROL Current value]** : espace disque réellement utilisé.
+   **[!UICONTROL Current value]** : espace du disque réellement utilisé.
 
    **[!UICONTROL Max Value]** : capacité totale du disque.
 
-   **[!UICONTROL Available]** : espace disque disponible
+   **[!UICONTROL Available]** : espace libre du disque
 
-   **[!UICONTROL Used]** : pourcentage de disque utilisé.
+   **[!UICONTROL Used]** : taux d&#39;utilisation du disque en pourcentage.
 
    **[!UICONTROL Warning]** : cet indicateur s&#39;affiche lorsque l&#39;espace disque disponible atteint les 80% de la capacité totale.
 
    **[!UICONTROL Alert]** : cet indicateur s&#39;affiche lorsque l&#39;espace disque disponible atteint les 90% de la capacité totale.
 
-* **[!UICONTROL Number of processes too old]** : informations concernant les processus Adobe Campaign actifs depuis plus d’une journée.
+* **[!UICONTROL Number of processes too old]** : informations relatives aux processus Adobe Campaign en cours depuis plus d&#39;une journée.
 
-   **[!UICONTROL Current value]** : nombre de processus actuellement actifs.
+   **[!UICONTROL Current value]** : nombre de processus actuellement en cours.
 
    **[!UICONTROL Max Value]** : nombre maximal de processus autorisés (1).
 
    **[!UICONTROL Alert]** : cet indicateur s&#39;affiche lorsque le nombre de processus est à 1.
 
-   Lorsque l&#39; **[!UICONTROL Alert]** indicateur est affiché, il se peut que le processus concerné soit verrouillé par le moteur de base de données SQL ou qu&#39;il soit bloqué dans une boucle infinie. Le processus de **contrôle** fourni par Adobe Campaign redémarre automatiquement tous les processus chaque jour et vous permet de résoudre ce problème. Cependant, vous pouvez aussi arrêter le processus concerné vous-même pour forcer le redémarrage.
+   Lorsque l&#39;indicateur **[!UICONTROL Alert]** s&#39;affiche, une des causes possible peut-être que le processus en question est verrouillé par le moteur de base de données SQL ou qu&#39;il est en boucle infinie. Le processus **watchdog** fourni par Adobe Campaign relance automatiquement la totalité des processus chaque jour et permet de remédier au problème. Vous pouvez cependant interrompre le processus concerné vous-même afin de forcer son redémarrage.
 
 #### Sous Linux {#in-linux}
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL Pending events queued]** : Indicateur spécifique au Centre **de messages**. Pour plus d&#39;informations, consultez [cette section](../../message-center/using/monitoring-thresholds.md).
-* **[!UICONTROL Load average (1/5/15 minutes)]** : informations concernant la charge, c&#39;est-à-dire le taux d&#39;utilisation du processeur par les processus exécutés sur l&#39;ordinateur au cours de la dernière minute, cinq minutes ou quinze minutes
+* **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/monitoring-thresholds.md) pour plus d&#39;informations.
+* **[!UICONTROL Load average (1/5/15 minutes)]** : informations relatives à la charge, soit le taux d&#39;utilisation du processeur par les processus de la machine, au cours de la dernière minute ou des cinq dernières minutes ou du dernier quart d&#39;heure.
 
-   **[!UICONTROL Current value]** : charge réelle de la machine.
+   **[!UICONTROL Current value]** : charge actuelle de la machine.
 
    **[!UICONTROL Max value]** : charge maximale d&#39;utilisation du ou des processeurs de la machine.
 
@@ -130,7 +130,7 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
    **[!UICONTROL Alert]** : cet indicateur s&#39;affiche lorsque la consommation de la mémoire atteint les 90% de la quantité totale.
 
-   Lorsque les **[!UICONTROL Warning]** indicateurs et les **[!UICONTROL Alert]** indicateurs sont affichés, vous pouvez résoudre le problème en ajoutant de la mémoire vive à l’ordinateur sur lequel le serveur Adobe Campaign est installé. Vous pouvez également décider d’installer le serveur Adobe Campaign sur un ordinateur dédié.
+   Lorsque les indicateurs **[!UICONTROL Warning]** et **[!UICONTROL Alert]** s&#39;affichent, vous pouvez remédier au problème en ajoutant de la RAM à la machine sur laquelle est installé le serveur Adobe Campaign. Vous pouvez également choisir d&#39;installer le serveur Adobe Campaign sur une machine dédiée.
 
 * **[!UICONTROL Swap Memory]** : informations relatives à la mémoire virtuelle qui correspond à un fichier d&#39;échange, soit une zone du disque que Windows utilise comme s&#39;il s&#39;agissait de mémoire vive.
 
@@ -146,11 +146,11 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
    Lorsque les indicateurs **[!UICONTROL Warning]** et **[!UICONTROL Alert]** s&#39;affichent, vous pouvez remédier au problème en augmentant la taille du fichier d&#39;échange.
 
-* **[!UICONTROL Core Files]** : informations concernant les fichiers générés après le blocage d’un processus Adobe Campaign. Ces fichiers vous permettent de diagnostiquer les raisons du blocage.
+* **[!UICONTROL Core Files]** : informations relatives aux fichiers générés suite au crash d&#39;un processus Adobe Campaign. Ces fichiers permettent de diagnostiquer les raisons du crash.
 
    **[!UICONTROL Current Value]** : nombre de fichiers existants.
 
-   **[!UICONTROL Max Value]** : nombre maximal de fichiers autorisés (1).
+   **[!UICONTROL Max Value]** : nombre maximal de fichiers autorisé (1).
 
    **[!UICONTROL Warning]** : cet indicateur s&#39;affiche lorsque le nombre de fichiers s&#39;approche de 1.
 
@@ -158,19 +158,19 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
    Lorsqu&#39;un processus est manquant suite à un crash, il apparaît en rouge dans la liste des processus et est relancé automatiquement par le processus **watchdog** fourni par Adobe Campaign.
 
-* **[!UICONTROL Number of shared memory segments]** : informations concernant les segments de mémoire partagés par tous les processus Adobe Campaign.
+* **[!UICONTROL Number of shared memory segments]** : informations relatives aux segments de mémoire partagée par tous les processus Adobe Campaign.
 
    **[!UICONTROL Current value]** : nombre de segments de mémoire actuellement utilisés.
 
-   **[!UICONTROL Max Value]** : nombre maximal de segments de mémoire autorisés (2).
+   **[!UICONTROL Max Value]** : nombre maximal de segments de mémoire autorisé (2).
 
    **[!UICONTROL Warning]** : cet indicateur s&#39;affiche lorsque le nombre de segments de mémoire atteint 1.
 
    **[!UICONTROL Alert]** : cet indicateur s&#39;affiche lorsque le nombre de segments de mémoire atteint 2.
 
-* **[!UICONTROL Number of processes too old]** : informations concernant les processus actifs depuis plus d’une journée.
+* **[!UICONTROL Number of processes too old]** : informations relatives aux processus en cours depuis plus d&#39;une journée.
 
-   **[!UICONTROL Current value]** : nombre de processus actuellement actifs.
+   **[!UICONTROL Current value]** : nombre de processus actuellement en cours.
 
    **[!UICONTROL Max Value]** : nombre maximal de processus autorisés.
 
@@ -180,7 +180,7 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
 * **[!UICONTROL File Handles]** : informations relatives aux descripteurs de fichier, soit le nombre de fichiers ouverts par processus.
 
-   **[!UICONTROL Current value]** : nombre actuel de descripteurs de fichier.
+   **[!UICONTROL Current value]** : nombre actuel de descripteurs de fichiers.
 
    **[!UICONTROL Max Value]** : nombre maximal de descripteurs de fichiers autorisé par le système d&#39;exploitation.
 
@@ -190,11 +190,11 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
 * **[!UICONTROL Processes]** : informations relatives aux processus de la machine.
 
-   **[!UICONTROL Current value]** : nombre de processus actuellement actifs.
+   **[!UICONTROL Current value]** : nombre de processus actuellement en cours.
 
    **[!UICONTROL Max Value]** : nombre maximal de processus autorisés.
 
-   **[!UICONTROL Active Processes]** : nombre de processus actifs.
+   **[!UICONTROL Active Processes]**: nombre de processus actifs.
 
    **[!UICONTROL Inactive Processes]** : nombre de processus inactifs.
 
@@ -204,9 +204,9 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
 * **[!UICONTROL Zombie Processes]** : informations relatives aux processus qui se sont arrêtés, mais qui disposent toujours d&#39;un identifiant de processus (PID) et restent visibles dans la table des processus.
 
-   **[!UICONTROL Current value]** : nombre de processus zombies actuellement actifs.
+   **[!UICONTROL Current value]** : nombre de processus zombie actuellement en cours.
 
-   **[!UICONTROL Max Value]** : nombre maximal de processus zombies autorisés (2).
+   **[!UICONTROL Max Value]** : nombre maximal de processus zombie autorisés (2).
 
    **[!UICONTROL Warning]** : cet indicateur s&#39;affiche lorsque le nombre de processus zombie s&#39;approche de 2.
 
@@ -216,7 +216,7 @@ La liste des indicateurs système vous permet d&#39;afficher des informations co
 
 Adobe Campaign vous permet de personnaliser les indicateurs. Pour ce faire :
 
-1. Create a **.sh** file and name it **[!UICONTROL cust_indicators.sh]** .
+1. Créez un fichier **.sh** et nommez-le **[!UICONTROL cust_indicators.sh]** .
 1. Ajoutez vos indicateurs personnalisés dans ce fichier. Par exemple :
 
    ```
@@ -240,7 +240,7 @@ Adobe Campaign vous permet de personnaliser les indicateurs. Pour ce faire :
    </indicator>"
    ```
 
-1. Put the file in the **[!UICONTROL usr/local/neolane/nl6]** folder.
+1. Placez ce fichier dans le dossier **[!UICONTROL usr/local/neolane/nl6]**.
 
 Ce fichier sera appelé par Adobe Campaign.
 
@@ -259,14 +259,14 @@ Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 >[!CAUTION]
 >
 >* Les informations liées au Monitoring SMTP ne sont disponibles que si le canal email a été activé.
->* The **[!UICONTROL SMTP sending statistics]** are only offered if the statistics server is started on the instance.
+>* Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** n&#39;est proposé que si le serveur de statistiques est démarré sur l&#39;instance.
 >
 
 
 
 ### Statistiques SMTP d&#39;envoi {#smtp-sending-statistics}
 
-Le **[!UICONTROL SMTP sending statistics]** rapport vous permet de contrôler l’activité du serveur. Il affiche une synthèse de chacun des enfants mineurs.
+Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** permet de contrôler l&#39;activité des serveurs. Il affiche une synthèse de chacun des mtachilds.
 
 ![](assets/smtp_stats_report.png)
 
@@ -317,7 +317,7 @@ La liste des indicateurs de ce rapport est proposée sous le tableau.
 
 >[!NOTE]
 >
->The values displayed in the **Cnx**, **Sent**, and **Volume** columns are calculated with respect to the period selected in the **[!UICONTROL Period]** field.
+>Les valeurs affichées dans les colonnes **Cnx**, **Envoyés** et **Volume** sont calculées par rapport à la période sélectionnées dans le champ **[!UICONTROL Période]**.
 
 Cliquez sur un nom de domaine pour en visualiser les erreurs.
 
@@ -325,7 +325,7 @@ Elles sont classées par PublicId : cet identifiant correspond à une adresse IP
 
 ![](assets/smtp_error_report_details.png)
 
-Le **[!UICONTROL Owner of domain]** champ vous permet de grouper différents noms de domaine sous la même étiquette. Dans la vue initiale du rapport, tous les noms de domaine MX seront associés à ce propriétaire.
+Le champ **[!UICONTROL Propriétaire du domaine]** permet de regrouper plusieurs noms de domaine sous un même libellé. Dans la vue initiale du rapport, tous les MX de ces domaines seront associés à ce propriétaire.
 
 Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
@@ -341,7 +341,7 @@ Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
 ## Rapport de billing {#billing-report}
 
-The **[!UICONTROL Billing]** technical workflow sends the system activity report to the &#39;billing&#39; operator by email. Il est déclenché par défaut le 25 de chaque mois.
+Le workflow technique **[!UICONTROL Facturation]** transmet par email le rapport d’activité du système à l’opérateur &#39;billing&#39;. Par défaut, il se déclenche tous les 25 du mois.
 
 Ce workflow technique se trouve dans un sous-dossier du nœud suivant : **Administration** > **Production** > **Workflows techniques**.
 
@@ -353,13 +353,13 @@ Une fois le workflow démarré tous les 25 du mois, votre opérateur billing re�
 
 Les mesures suivantes sont disponibles pour effectuer le suivi de vos diffusions :
 
-* **[!UICONTROL Start date]** : Date de début de la livraison. Notez qu’il peut être antérieur à la date &quot;du&quot; du rapport.
-* **[!UICONTROL Label]** : Étiquette de la diffusion. Deliveries that have less than 100 messages to send are considered too small and thus aggregated by start date, in which case the label displays the number of aggregates, e.g. [Aggregation of 3 small deliveries].
-* **[!UICONTROL Total volume]** : Volume total d’octets transférés pour la remise.
-* **[!UICONTROL Avg volume]** : Volume moyen d’octets transférés. Il s’agit du résultat de la formule suivante **(volume total / messages)**, qui est la base de calcul de la **[!UICONTROL Multiplier]** mesure.
-* **[!UICONTROL Messages]** : Nombre de messages envoyés. Ceci inclut les messages qui ont été envoyés avec succès et les tentatives (après la réception d’un message de rebond du serveur contacté).
-* **[!UICONTROL Multiplier (x)]** : La valeur du multiplicateur est déduite du volume moyen des messages.
-* **[!UICONTROL Count]** : Résultat de la multiplication des messages et du multiplicateur.
+* **[!UICONTROL Date de démarrage]** : date de démarrage de la diffusion. Notez qu’elle ne peut pas être antérieure à la date indiquée dans le champ « à partir du » du rapport.
+* **[!UICONTROL Étiquette]** : Étiquette de la diffusion.Les livraisons qui comportent moins de 100 messages à envoyer sont considérées comme trop petites et donc agrégées par date de début, auquel cas l&#39;étiquette indique le nombre d&#39;agrégats, par exemple [Agrégation de 3 petites livraisons].
+* **[!UICONTROL Volume total]** : volume total d’octets transférés pour la diffusion.
+* **[!UICONTROL Volume moyen]** : volume moyen d’octets transférés. Il s’agit du résultat de la formule suivante **(volume total/messages)**, qui est la base de calcul de la mesure **[!UICONTROL Multiplicateur]**.
+* **[!UICONTROL Messages]** : nombre de messages envoyés, incluant à la fois les messages envoyés avec succès et les reprises (suite à la réception d’un message rebond de la part du serveur contacté).
+* **[!UICONTROL Multiplicateur (x)]** : la valeur du multiplicateur est déduite du volume moyen des messages.
+* **[!UICONTROL Total]** : résultat de la multiplication des messages et du multiplicateur.
 
 ## Surveillance automatique {#automatic-monitoring}
 
