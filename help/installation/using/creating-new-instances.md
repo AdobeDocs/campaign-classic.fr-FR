@@ -28,7 +28,7 @@ Pour cela, connectez-vous à une base de données existante puis respectez les �
 
 1. Déclarez une nouvelle instance
 
-   Allez **[!UICONTROL Tools > Advanced > Declare a new instance...]** à pour démarrer l&#39;assistant.
+   Utilisez le menu **[!UICONTROL Outils > Avancé > Déclaration d&#39;une nouvelle instance...]** pour lancer l&#39;assistant.
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
