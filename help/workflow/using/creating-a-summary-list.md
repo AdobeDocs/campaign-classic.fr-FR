@@ -72,13 +72,13 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
    ![](assets/uc2_enrich_collecteur.png)
 
-   L’activité du collecteur **de** fichiers permet de gérer l’absence d’un fichier dans le répertoire source. Pour ce faire, cochez l’ **[!UICONTROL Process file nonexistence]** option. Dans ce processus, une activité **Attendre** a été ajoutée pour essayer une autre collection de fichiers si elle est absente du répertoire au moment de la collecte.
+   L&#39;activité **Collecteur de fichiers** permet de gérer l&#39;absence de fichier sur le répertoire source. Pour cela il faut cocher l&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]**. Dans ce workflow, une activité **Attente** a été positionnée pour tenter une nouvelle collecte du fichier s&#39;il n&#39;est pas présent dans le répertoire mentionné.
 
 1. Paramétrez l&#39;activité **Chargement (fichier)** en vous basant sur un fichier exemple ayant le même format que les données à importer.
 
    ![](assets/uc2_enrich_chargement1.png)
 
-   Cliquez sur le **[!UICONTROL Click here to change the file format...]** lien pour renommer les colonnes à l’aide des noms et étiquettes internes du tableau &quot;Achats&quot;.
+   Cliquez sur le lien **[!UICONTROL Cliquez ici pour changer le format du fichier...]**, afin de renommer les colonnes avec les libellés et les noms internes de la table &quot;Achats&quot;.
 
    ![](assets/uc2_enrich_chargement2.png)
 
@@ -90,11 +90,11 @@ Positionnez l&#39;activité d&#39;enrichissement puis configurez-la comme suit :
 
    ![](assets/uc2_enrich_enrich1.png)
 
-1. Cliquez sur **[!UICONTROL Add data]**, puis sélectionnez l’ **[!UICONTROL A link]** option.
+1. Cliquez sur **[!UICONTROL Ajouter des données]** puis sélectionnez l&#39;option **[!UICONTROL Un lien]**.
 
    ![](assets/uc2_enrich_enrich2.png)
 
-1. Select the **[!UICONTROL Define a collection]** option.
+1. Sélectionnez l&#39;option **[!UICONTROL Définir une collection]**.
 1. Sélectionnez le schéma &quot;Magasins&quot; comme schéma cible.
 
    ![](assets/uc2_enrich_enrich3.png)
@@ -108,8 +108,8 @@ Dans la fenêtre suivante, vous devez créer une condition de jointure en sélec
 Suite à la création du lien, nous allons ajouter une colonne supplémentaire à la table de travail du workflow provenant du schéma &quot;Magasins&quot; : le champ &quot;ZipCode Reference&quot;.
 
 1. Ouvrez l&#39;activité d&#39;enrichissement.
-1. Clics **[!UICONTROL Edit additional data]**.
-1. Add the &quot;ZipCode Reference&quot; field to the **[!UICONTROL Output columns]**.
+1. Cliquez sur **[!UICONTROL Editer les données additionnelles.]**
+1. Ajoutez le champ &quot;Zip Code Reference&quot; dans les **[!UICONTROL Colonnes de sortie]**.
 
 ![](assets/uc2_enrich_enrich5.png)
 
@@ -123,21 +123,21 @@ Cette étape consiste à écrire dans la table &quot;Achats&quot; les données i
 
 Une réconciliation entre les données de la table de travail du workflow et la dimension de ciblage **Achats** doit être effectuée avant la mise à jour des données dans la table **Achats**.
 
-1. Click the **[!UICONTROL Reconciliation]** tab of the enrichment activity.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Réconciliation]** de l&#39;activité d&#39;enrichissement.
 1. Sélectionnez la dimension de ciblage, dans notre cas le schéma &quot;Achats&quot;.
 1. Sélectionnez une &quot;expression source&quot; pour les données de la table du workflow (ici le champ &quot;NomMag&quot;).
 1. Sélectionnez une &quot;expression destination&quot; pour les données de la table &quot;Achats&quot; (ici le champ &quot;NomMag&quot;).
-1. Cochez l’ **[!UICONTROL Keep unreconciled data coming from the work table]** option.
+1. Cochez l&#39;option **[!UICONTROL Conserver les données non rapprochées de la table de travail]**.
 
 ![](assets/uc2_enrich_reconciliation.png)
 
 Dans l&#39;activité **Mise à jour de données**, la configuration suivante est nécessaire :
 
-1. Select the **[!UICONTROL Insert or update]** option in the **[!UICONTROL Operation type]** field to avoid creating new records each time the file is collected.
-1. Sélectionnez la **[!UICONTROL By directly using the targeting dimension]** valeur de l’ **[!UICONTROL Record identification]** option.
-1. Select the &quot;Purchases&quot; schema as a **[!UICONTROL Document type]**.
-1. Spécifiez la liste des champs à mettre à jour. La **[!UICONTROL Destination]** colonne vous permet de définir les champs du schéma &quot;Achats&quot;. La **[!UICONTROL Expression]** colonne vous permet de sélectionner les champs de la table de travail pour effectuer un mappage.
-1. Cliquez sur l’ **[!UICONTROL Generate an outbound transition]** option.
+1. Sélectionnez l&#39;option **[!UICONTROL Ajouter ou mettre à jour]** dans le champ **[!UICONTROL Type d&#39;opération]** afin de ne pas créer de nouveaux enregistrements à chaque collecte du fichier.
+1. Sélectionnez la valeur **[!UICONTROL En utilisant directement la dimension de ciblage]** pour l&#39;option **[!UICONTROL Identification des enregistrements]**.
+1. Sélectionnez le schéma &quot;Achats&quot; comme **[!UICONTROL Type de document]**.
+1. Indiquez à Adobe Campaign la liste des champs à mettre à jour. Dans la colonne **[!UICONTROL Destination]**, les champs du schéma &quot;Achats&quot; doivent être définis. La colonne **[!UICONTROL Expression]** permet de sélectionner les champs de la table de travail du workflow afin de réaliser un mapping.
+1. Cliquez sur l&#39;option **[!UICONTROL Générer une transition sortante.]**
 
 ![](assets/uc2_enrich_miseajour.png)
 
@@ -149,30 +149,30 @@ L&#39;objectif de ce deuxième enrichissement est de créer un agrégat sur le s
 
 1. Positionnez une activité **Requête** permettant de récupérer l&#39;intégralité des **Contacts** stockés.
 1. Positionnez une activité **Enrichissement** puis sélectionnez l&#39;ensemble principal résultant de la requête précédente.
-1. Click add **[!UICONTROL Data]**.
-1. Cliquez sur l’ **[!UICONTROL Data linked to the targeting dimension]** option.
-1. Cliquez sur l’ **[!UICONTROL Data linked to the filtering dimension]** option dans la **[!UICONTROL Select fields to add]** fenêtre.
-1. Sélectionnez le **[!UICONTROL Purchases]** noeud, puis cliquez sur **[!UICONTROL Next]**.
+1. Cliquez sur **[!UICONTROL Ajouter des données]**.
+1. Cliquez sur l&#39;option **[!UICONTROL Données liées à la dimension de filtrage]**.
+1. Cliquez sur **[!UICONTROL Données liées à la dimension de filtrage]** dans la fenêtre **[!UICONTROL Choix des données à ajouter]**.
+1. Sélectionnez le noeud **[!UICONTROL Achats]** puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/uc2_enrich_enrich9.png)
 
-1. Modifiez le **[!UICONTROL Collected data]** champ en sélectionnant l’ **[!UICONTROL Aggregates]** option.
+1. Modifiez le champ **[!UICONTROL Données collectées]** en sélectionnant l&#39;option **[!UICONTROL Agrégats]**.
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. Clics **[!UICONTROL Next]**.
+1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Ajoutez l&#39;expression suivante pour calculer la somme des achats pour chaque contact : &quot;Sum(@prixproduit)&quot;.
 
    ![](assets/uc2_enrich_enrich6.png)
 
 Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des champs provenant du schéma &quot;Achats&quot; ainsi que du premier enrichissement : le champ &quot;ZipCode Reference&quot;.
 
-1. Cliquez sur le **[!UICONTROL Edit additional data...]** lien dans l&#39;activité d&#39;enrichissement.
+1. Cliquez sur le lien **[!UICONTROL Éditer les données additionnelles...]** dans l&#39;activité d&#39;enrichissement.
 1. Ajoutez les champs &quot;Achats / Nom Boutique&quot; et &quot;Achats / Zip Code Reference&quot;.
 
    ![](assets/uc2_enrich_enrich7.png)
 
-1.  Cliquez sur l’ **[!UICONTROL Properties]** onglet.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Propriétés]**.
 1. Modifiez le deuxième lien pour ne créer qu&#39;une seule ligne.
 
    ![](assets/uc2_enrich_enrich8.png)
@@ -182,7 +182,7 @@ Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des ch
 La dernière étape consiste à écrire toutes les données enrichies dans une liste.
 
 1. Placez une activité **Mise à jour de liste** dans le workflow. Cette activité doit être reliée à la transition sortante de la deuxième activité d&#39;enrichissement.
-1. Select the **[!UICONTROL Create the list if necessary (Calculated name)]** option.
+1. Sélectionnez l&#39;option **[!UICONTROL Créer la liste si besoin (Nom calculé)]**.
 1. Sélectionnez une valeur pour le nom calculé. Le libellé choisi pour la liste est la date courante : &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>.
 
 Une fois le workflow exécuté, la liste contient :
