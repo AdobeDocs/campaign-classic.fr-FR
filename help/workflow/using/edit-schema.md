@@ -22,13 +22,13 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Edition du schéma{#edit-schema}
 
-Les données peuvent être transformées, normalisées et, si nécessaire, enrichies dans le flux de travail à l’aide de l’ **[!UICONTROL Edit schema]** activité. Il est généralement utilisé pour normaliser la structure des données : vous pouvez renommer les colonnes de sortie ou modifier leur contenu, en calculant par exemple les valeurs moyennes d’un champ ou d’un agrégat.
+Les données peuvent être transformées, normalisées et, au besoin, enrichies dans le workflow en utilisant l&#39;activité **[!UICONTROL Edition du schéma]**. Elle est généralement utilisée pour normaliser la structure des données : vous pouvez renommer les colonnes de sortie ou modifier leur contenu, par exemple en calculant la moyenne des valeurs d&#39;un champ ou un agrégat.
 
 Cette activité ne modifie en rien les données de la table de travail, mais uniquement le schéma de cette dernière, c&#39;est-à-dire la vision logique des données.
 
 ![](assets/wf_manipulation_box.png)
 
-You can also create joins with other worktables, via the **[!UICONTROL Links]** tab.
+Vous pouvez également créer des jointures avec d&#39;autres tables de travail, à partir de l&#39;onglet **[!UICONTROL Liens]**.
 
 ![](assets/wf_manipulation_box_link_tab.png)
 
