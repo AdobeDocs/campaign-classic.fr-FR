@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Le type d&#39;une application web est sélectionné au moment de sa création.
 
-Accédez à l’onglet **Campagnes** et sélectionnez le **[!UICONTROL Web Applications]** menu. Cliquez sur le **[!UICONTROL Create]** bouton. Sélectionnez le modèle d&#39;application Web à utiliser :
+Accédez à l’onglet **Campagnes** et sélectionnez le menu Applications **** Web. Cliquez sur le bouton **[!UICONTROL Créer.]** Sélectionnez le modèle d&#39;application Web à utiliser :
 
 ![](assets/webapp_create_from_campaign.png)
 
