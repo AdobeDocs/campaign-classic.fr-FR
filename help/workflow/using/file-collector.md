@@ -22,7 +22,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # Collecteur de fichiers{#file-collector}
 
-Le collecteur **de** fichiers surveille l’arrivée d’un ou de plusieurs fichiers dans un répertoire et active sa transition pour chaque fichier reçu. Pour chaque événement, une **[!UICONTROL filename]** variable contient le nom complet du fichier reçu. Les fichiers collectés sont déplacés vers un autre répertoire à des fins d’archivage et pour être sûrs qu’ils ne sont comptabilisés qu’une seule fois.
+Le **Collecteur de fichiers** assure un suivi de l&#39;arrivée d&#39;un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus. Pour chaque événement, une variable **[!UICONTROL filename]** contient le nom complet du fichier reçu. Les fichiers collectés sont déplacés dans un autre répertoire afin de ne les prendre en compte qu&#39;une seule fois et pour historisation.
 
 Par défaut, le collecteur de fichiers est une tâche persistante testant la présence de fichiers aux heures spécifiées par le planning.
 
@@ -30,41 +30,41 @@ Les fichiers doivent se trouver sur le serveur sur lequel s&#39;exécute le modu
 
 ## Propriétés {#properties}
 
-Le premier onglet de l’ **[!UICONTROL File collector]** activité vous permet de sélectionner le répertoire source et, si nécessaire, de filtrer les fichiers collectés. Les autres onglets sont détaillés dans les Courriers électroniques [](../../workflow/using/inbound-emails.md) entrants (**[!UICONTROL Schedule]** et **[!UICONTROL Expiry]** ).
+Le premier onglet de l’activité du collecteur **[!UICONTROL de]** fichiers vous permet de sélectionner le répertoire source et, si nécessaire, de filtrer les fichiers collectés. Les autres onglets sont détaillés dans la section Courriers électroniques [](../../workflow/using/inbound-emails.md) entrants (onglets **[!UICONTROL Planification]** et **[!UICONTROL Expiration]** ).
 
 ![](assets/file_collect_edit.png)
 
 1. **Récupération des fichiers**
 
-   * **[!UICONTROL Directory]**
+   * **[!UICONTROL Répertoire]**
 
       Répertoire contenant le ou les fichiers à récupérer. Ce répertoire doit être créé au préalable sur le serveur : s&#39;il n&#39;existe pas, une erreur est générée.
 
-   * **[!UICONTROL Filter]**
+   * **[!UICONTROL Filtre]**
 
       Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire sont ignorés. Si le filtre est vide, tous les fichiers du répertoire sont pris en compte. Exemples de filtrage : ***.zip**, **import-*.txt**.
 
-   * **[!UICONTROL Stop as soon as a file has been processed]**
+   * **[!UICONTROL Terminer dès qu&#39;un fichier est traité]**
 
       Si cette option est activée, la tâche se termine après réception du premier fichier. Si plusieurs fichiers correspondant au filtre sont présents dans le répertoire, un seul sera pris en compte. Cette option garantit qu&#39;un seul événement sera émis. Le fichier pris en compte est le premier de la liste dans l&#39;ordre alphabétique.
 
-      For an unscheduled activity, if no file matching the filter is found in the specified directory, and if the **[!UICONTROL Process file nonexistence]** option is not enabled, an error will be raised.
+      Dans le cas d&#39;une activité non planifiée, si aucun fichier correspondant au filtre n&#39;est trouvé dans le répertoire spécifié et si l&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]** n&#39;est pas activée, une erreur est générée.
 
-   * **[!UICONTROL Execution schedule]**
+   * **[!UICONTROL Planning d&#39;exécution]**
 
-      Determines the frequency of the file presence check via the parameters of the **[!UICONTROL Schedule]** tab.
+      Détermine la fréquence de vérification de la présence des fichiers via les paramétres de l&#39;onglet **[!UICONTROL Planning]**.
 
 1. **Traitement des erreurs**
 
    Les deux options suivantes sont disponibles :
 
-   * **[!UICONTROL Process file nonexistence]**
+   * **[!UICONTROL Traiter l&#39;absence de fichier]**
 
       Cette option fait apparaître une transition particulière qui sera activée à chaque vérification de présence de fichier si aucun fichier correspondant au filtre n&#39;est trouvé dans le répertoire spécifié.
 
       Si la tâche n&#39;est pas planifiée, cette transition sera activée une seule fois.
 
-   * **[!UICONTROL Processing errors]**
+   * **[!UICONTROL Traiter les erreurs]**
 
       Cette option fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d&#39;erreur et continue son exécution.
 
@@ -74,9 +74,9 @@ Le premier onglet de l’ **[!UICONTROL File collector]** activité vous permet 
 
 1. **Historisation**
 
-   Reportez-vous à l’ **[!UICONTROL File historization]** étape suivante : Téléchargement [Web](../../workflow/using/web-download.md).
+   Refer to the **[!UICONTROL File historization]** step here: [Web download](../../workflow/using/web-download.md).
 
-Impossible de déterminer l&#39;ordre de traitement du fichier. Pour traiter un ensemble de fichiers de manière séquentielle, utilisez l’ **[!UICONTROL Stop as soon as a file has been processed]** option et créez une boucle. Dans ce cas, les fichiers seront traités par ordre alphabétique. L’ **[!UICONTROL Process file nonexistence]** option vous permet de terminer l’itération.
+L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter séquentiellement un ensemble de fichier, il faut utiliser l&#39;option **[!UICONTROL Terminer dès qu&#39;un fichier est traité]** et faire une boucle. Dans ce cas, les fichiers seront traités par ordre alphabétique. L&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]** permet de terminer l&#39;itération.
 
 ![](assets/file_collect_loop.png)
 
