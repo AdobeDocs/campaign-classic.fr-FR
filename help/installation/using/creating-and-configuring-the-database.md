@@ -56,7 +56,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 Les bases de données prises en charge sont présentées dans la section [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
-Identifiez le serveur et choisissez le type d’opération à effectuer. Dans ce cas, **[!UICONTROL Create or recycle a database]**.
+Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Créer ou recycler une base de données]**.
 
 ![](assets/s_ncs_install_db_oracle_creation01.png)
 
@@ -66,14 +66,14 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
-   1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\ `<instance>`** (instance mode),
-   1. la méthode d&#39;authentification utilisée pour accéder à Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** ou **[!UICONTROL Windows NT authentication]**.
+   1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\`<instance>`**(instance mode),
+   1. le mécanisme d’identification pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### Etape 2 - Connexion au serveur {#step-2---connecting-to-the-server}
 
-In the **[!UICONTROL Server access]** window, define the database server access.
+Dans la fenêtre **[!UICONTROL Accès au serveur]**, définissez les paramètres de connexion au serveur de la base de données.
 
 ![](assets/s_ncs_install_db_oracle_creation02.png)
 
@@ -101,11 +101,11 @@ Vous devez définir les paramètres suivants :
 * Saisissez le mot de passe du compte associé à cette base.
 * Indiquez si la base doit être Unicode ou non.
 
-   The **[!UICONTROL Unicode database]** option lets you store all character types in Unicode regardless of language.
+   L&#39;option **[!UICONTROL Base Unicode]** permet de stocker tous les types de caractères en Unicode, quelle que soit la langue.
 
    >[!NOTE]
    >
-   >With an Oracle database, the **[!UICONTROL Unicode storage]** option lets you use **NCLOB** and **NVARCHAR** type fields.
+   >Pour une base Oracle, l&#39;option **[!UICONTROL Stockage Unicode]** permet d&#39;utiliser des champs de type **NCLOB**, **NVARCHAR**, etc.
    > 
    >Si vous ne sélectionnez pas cette option, le jeu de caractères (charset) de la base Oracle doit permettre le stockage des données dans toutes les langues (AL32UTF8 est recommandé).
 
@@ -123,13 +123,13 @@ Consultez votre accord de licence afin de vérifier les options et solutions que
 
 ### Etape 5 - Etapes de la création {#step-5---creation-steps}
 
-The **[!UICONTROL Creation steps]** window enables you to display and edit the SQL script used to create the tables.
+La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibilité de vérifier et éditer le script SQL utilisé pour créer les tables.
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
 * Pour une base Oracle, Microsoft SQL Server ou PostgreSQL, l&#39;administrateur de bases de données peut par ailleurs déterminer ici des **paramètres de stockage** à utiliser lors de la création des objets base de données.
 
-   Ces paramètres reçoivent les noms exacts des espaces disque logiques (avertissement : sensible à la casse). Elles sont stockées respectivement dans le **[!UICONTROL Administration > Platform > Options]** noeud dans les options suivantes :
+   Ces paramètres recoivent les noms exacts (attention à la casse) des tablespaces. Ils sont stockés dans le noeud **[!UICONTROL Administration > Platform > Options]** respectivement dans les options suivantes :
 
    * **WdbcOptions_TableSpaceUser**: tables utilisateur basées sur un schéma
    * **WdbcOptions_TableSpaceIndex**: index des tables utilisateur basées sur un schéma
@@ -137,13 +137,13 @@ The **[!UICONTROL Creation steps]** window enables you to display and edit the S
    * **WdbcOptions_TableSpaceWorkIndex**: index des tables de travail sans schéma
 
 * Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
-* Cette **[!UICONTROL Set or change the administrator password]** option vous permet de saisir le mot de passe associé à l’opérateur Adobe Campaign avec des droits d’administrateur.
+* L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
 
    Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
 
 ### Etape 6 - Lancement de la création de la base {#step-6---creating-the-database}
 
-La dernière étape de l’assistant vous permet de créer la base de données. Cliquez sur **[!UICONTROL Start]** pour confirmer.
+La dernière étape de l&#39;assistant permet de lancer la création de la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
@@ -179,7 +179,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Identify the server and choose the type of operation you want to carry out. In this case, **[!UICONTROL Use an existing database]**.
+Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Utiliser une base de données existante]**.
 
 ![](assets/s_ncs_install_db_oracle_exists_01.png)
 
@@ -190,13 +190,13 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
    1. le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données,
-   1. la méthode de sécurité utilisée pour accéder à Microsoft SQL Server: **[!UICONTROL SQL Server authentication]** ou **[!UICONTROL Windows NT authentication]**.
+   1. le mode de sécurité pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
 
       ![](assets/s_ncs_install_db_mssql_exists_01.png)
 
 ### Etape 2 - Paramètres de connexion à la base de données {#step-2---database-connection-settings}
 
-In the **[!UICONTROL Database]** window, define the database connection settings.
+Dans la fenêtre **[!UICONTROL Base de données]**, définissez les paramètres de connexion à la base de données.
 
 ![](assets/s_ncs_install_db_oracle_exists_02.png)
 
@@ -221,19 +221,19 @@ Consultez votre accord de licence afin de vérifier les options et solutions que
 
 ### Etape 4 - Etapes de la création {#step-4---creation-steps}
 
-The **[!UICONTROL Creation steps]** window enables you to display and edit the SQL script used to create the tables.
+La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibilité de vérifier et éditer le script SQL utilisé pour créer les tables.
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
 * Pour une base Oracle, Microsoft SQL Server, PostgreSQL, l&#39;administrateur de bases de données peut par ailleurs déterminer ici des **paramètres de stockage** à utiliser lors de la création des objets base de données.
 * Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
-* Cette **[!UICONTROL Set or change the administrator password]** option vous permet de saisir le mot de passe associé à l’opérateur Adobe Campaign avec des droits d’administrateur.
+* L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
 
    Il est vivement recommandé de définir le mot de passe du compte administrateur Adobe Campaign afin de ne pas créer de faille de sécurité.
 
 ### Etape 5 - Lancement de la création de la base {#step-5---creating-the-database}
 
-La dernière étape de l’assistant vous permet de créer la base de données. Cliquez sur **[!UICONTROL Start]** pour confirmer.
+La dernière étape de l&#39;assistant permet de lancer la création de la base de données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_install_db_oracle_creation06.png)
 
