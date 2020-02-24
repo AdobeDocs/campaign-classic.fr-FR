@@ -26,7 +26,7 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 >
 >Le MTA donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
-Sur l’instance d’exécution, une fois les étapes d’enrichissement terminées et un modèle de remise lié à l’événement, la remise est envoyée. Toutes les livraisons sont regroupées dans le **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** dossier.
+Sur l&#39;instance d&#39;exécution, lorsque les phases d&#39;enrichissement ont été effectuées et qu&#39;un modèle de diffusion a été associé à l&#39;événement, la diffusion est envoyée. Toutes les diffusions sont regroupées dans le dossier **[!UICONTROL Administration > Exploitation > Message Center > Défaut > Diffusions]**.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
