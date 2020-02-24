@@ -43,7 +43,7 @@ Une fois créées, les règles de typologie sont regroupées dans des typologies
 
 Une typologie de campagne peut contenir plusieurs [règles de typologie](#typology-rules), mais une diffusion ne peut référencer qu&#39;une seule typologie.
 
-The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules to apply.
+L&#39;onglet **[!UICONTROL Règles]** permet d&#39;ajouter, supprimer ou visualiser les règles de typologie à appliquer.
 
 ![](assets/campaign_opt_rules_tab.png)
 
@@ -53,13 +53,13 @@ Vous trouverez ci-dessous les étapes nécessaires pour créer et appliquer une 
 
 1. Créez des règles de typologie.
 
-   Les règles de typologie se trouvent dans le **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** noeud.
+   Les règles de typologies sont regroupées sous le noeud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies > Règles de typologie]**.
 
    Les différents types de règles disponibles dans Campaign sont présentés dans les sections suivantes : [règles de pression commerciale](../../campaign/using/pressure-rules.md), [règles de capacité](../../campaign/using/consistency-rules.md#controlling-capacity), [règles de contrôle](../../campaign/using/control-rules.md) et [règles de filtrage](../../campaign/using/filtering-rules.md).
 
 1. Créez une typologie et référencez les règles que vous avez créées dans celle-ci.
 
-   Les typologies sont accessibles via le noeud **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** .
+   Les typologies sont accessibles sous le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies]** > **[!UICONTROL Typologies]**.
 
 1. Configurez votre diffusion pour utiliser la typologie que vous avez créée. Pour plus d&#39;informations, consultez [cette section](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery).
 1. Testez et contrôlez le comportement par le biais de simulations de campagnes. Pour plus d&#39;informations sur les simulations de campagnes, consultez [cette section](../../campaign/using/campaign-simulations.md).
