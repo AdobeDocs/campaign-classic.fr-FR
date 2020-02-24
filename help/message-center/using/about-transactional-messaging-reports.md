@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # A propos des rapports des messages transactionnels{#about-transactional-messaging-reports}
 
-Adobe Campaign propose plusieurs rapports qui vous permettent de contrôler l’activité et le bon fonctionnement des instances d’exécution. Ces rapports du Centre de messages sont accessibles à partir de l’ **[!UICONTROL Reports]** onglet de l’instance de contrôle.
+Adobe Campaign propose plusieurs rapports permettant de contrôler l&#39;activité et le bon fonctionnement des instances d&#39;exécution. Ces rapports Message Center sont accessibles depuis l&#39;onglet **[!UICONTROL Rapports]** de l&#39;instance de pilotage.
 
 ![](assets/messagecenter_reporting_002.png)
 
