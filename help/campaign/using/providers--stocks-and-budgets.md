@@ -28,7 +28,7 @@ Adobe Campaign vous permet de définir des prestataires qui seront impliqués da
 
 Chaque prestataire est enregistré dans une fiche avec ses coordonnées, ses modèles de prestation et les traitements associés.
 
-Service providers are configured in the **[!UICONTROL Administration > Campaign management]** node of the tree.
+Les prestataires sont paramétrés dans le noeud **[!UICONTROL Administration > Gestion de campagne > Prestataires]** de l&#39;arborescence.
 
 Les traitements réalisés dans les diffusions sont assurés par des prestataires, notamment pour le courrier et les canaux mobiles. Ces prestataires peuvent par exemple intervenir dans les opérations d&#39;impression ou de distribution des messages. Ces traitements engendrent des paramétrages et des coûts spécifiques à chaque prestataire. Le paramétrage des prestataires est assuré au travers de quatre étapes :
 
@@ -54,12 +54,12 @@ Les traitements réalisés dans les diffusions sont assurés par des prestataire
 
 Vous pouvez créer autant de prestataires que nécessaire pour vos diffusions. Pour ajouter un prestataire, les étapes sont les suivantes :
 
-1. Right-click the list of service providers and select **[!UICONTROL New]**, or click the **[!UICONTROL New]** button above the list of service providers.
+1. Cliquez avec le bouton droit dans la liste des prestataires et choisissez **[!UICONTROL Nouveau]**, ou cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des prestataires.
 1. Dans la section inférieure de la fenêtre, indiquez son nom et ses coordonnées.
 
    ![](assets/s_ncs_user_supplier_node_01.png)
 
-1. Click the **[!UICONTROL Save]** button to add the service provider to the list.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour ajouter le prestataire dans la liste.
 
 #### Définir les postes de coût {#defining-cost-categories}
 
@@ -73,24 +73,24 @@ Un poste de coût est une entité qui regroupe un ensemble de coûts éligible p
 
 Pour créer un modèle de prestation et définir son contenu, les étapes sont les suivantes :
 
-1. In the **[!UICONTROL Services]** tab of the service provider, click the **[!UICONTROL Add]** button and name the service template.
+1. Dans l&#39;onglet **[!UICONTROL Prestations]** du prestataire, cliquez sur le bouton **[!UICONTROL Ajouter]** et nommez le modèle de prestation.
 
    ![](assets/s_ncs_user_supplier_node_create_template.png)
 
-1. Créez les catégories de coûts pour chaque type de processus (livraison par courrier électronique, courrier électronique, etc.). ou tâche). Pour ce faire, cliquez sur l&#39; **[!UICONTROL Cost categories]** onglet, puis sur le **[!UICONTROL Add]** bouton, puis saisissez les paramètres de chaque catégorie de coûts.
+1. Créez les postes de coûts pour chaque type de traitement (diffusion courrier/email/etc. ou tâche). Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Postes de coût]** puis sur le bouton **[!UICONTROL Ajouter]** et renseignez les paramètres de chaque poste de coût.
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-   * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]**, **[!UICONTROL Fax]** or **[!UICONTROL Task]**.
-   * Click the **[!UICONTROL Add]** button to define the types of cost associated with this category.
+   * Saisissez un libellé pour ce poste de coût et sélectionnez le type de traitement concerné : Diffusion **[!UICONTROL Courrier]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, **[!UICONTROL Téléphone]**, **[!UICONTROL Fax]** ou **[!UICONTROL Tâche]**.
+   * Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les types de coûts associés à ce poste.
    * Au besoin, associez une ligne de stock à chaque type de coût afin de reporter automatiquement les quantités utilisées sur les stocks existant.
 
       >[!NOTE]
       >
-      >The stock lines are defined in the **[!UICONTROL Stock management]** node.\
+      >Les lignes de stock sont définies dans le noeud **[!UICONTROL Gestion des stocks]**.\
       >Pour plus d&#39;informations sur ce sujet, reportez-vous à la page Gestion [des](#stock-and-order-management)stocks et des commandes.
 
-1. Vous pouvez présélectionner une valeur pour cette catégorie de coûts, qui sera proposée par défaut dans les catégories de coûts du fournisseur de services (au lieu d’un champ vide). Pour ce faire, sélectionnez l’option dans la **[!UICONTROL Selected]** colonne correspondant au type de catégorie concernée :
+1. Vous pouvez pré-sélectionner une valeur pour ce poste de coût : elle sera proposée par défaut au niveau des postes de coûts du prestataire (plutôt qu&#39;une valeur vide). Pour cela, cochez l&#39;option dans la colonne **[!UICONTROL Sélectionné]** pour le type de poste concerné :
 
    ![](assets/s_ncs_user_supplier_cost_structure_defaut.png)
 
@@ -102,65 +102,65 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
 
 Une structure de coûts indique, pour chaque type de coût, les règles de calcul à appliquer.
 
-Cliquez sur l&#39; **[!UICONTROL Cost structure]** onglet pour configurer le calcul du coût pour chaque catégorie et type de coût. Cliquez sur **[!UICONTROL Add]** et saisissez la structure de coûts.
+Cliquez sur l&#39;onglet **[!UICONTROL Structure de coûts]** pour paramétrer le calcul des coûts pour chaque poste et type de coût. Cliquez sur **[!UICONTROL Ajouter]** et renseignez la structure de coût.
 
 ![](assets/s_ncs_user_supplier_node_04.png)
 
-* Pour créer la structure des coûts, sélectionnez le type de message et la catégorie de coûts concernés dans les listes déroulantes, ainsi que le type de coût auquel la règle de calcul s&#39;appliquera. Le contenu de ces listes déroulantes provient des informations saisies via l’ **[!UICONTROL Cost categories]** onglet.
+* Pour créer la structure de coût, sélectionnez dans les listes déroulantes le type de message et le poste de coût concerné, ainsi que le type de coût sur lequel s&#39;appliquera la règle de calcul. Le contenu de ces listes déroulantes reprend les informations renseignées depuis l&#39;onglet **[!UICONTROL Postes de coût]**.
 
    Vous devez attribuer un libellé à la structure de coûts. Par défaut, il est composé comme suit : **Poste de coût - Type de coût**.
 
-   You can, however, rename it: enter the desired value directly in the **[!UICONTROL Label]** field.
+   Vous pouvez toutefois le renommer : saisissez alors directement la valeur souhaitée dans le champ **[!UICONTROL Libellé]**.
 
 * La formule de calcul du coût est définie dans la section inférieure de la fenêtre.
 
    Cette formule peut être fixe (quel que soit le nombre de message), ou calculée en fonction du nombre de messages.
 
-   En fonction du nombre de messages, la structure de calcul des coûts peut être **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]** ou **[!UICONTROL Constant by threshold]**.
+   Lorsqu&#39;elle dépend du nombre de messages, la structure de calcul du coût peut être **[!UICONTROL Linéaire]**, **[!UICONTROL Linéaire par seuil]** ou **[!UICONTROL Constant par seuil]**.
 
 #### Structure linéaire {#linear-structure}
 
-If the amount is always the same for a message (or a batch of messages) irrespective of the total number of messages, select **[!UICONTROL Linear]** and enter the cost of each message.
+Si le montant est toujours le même, pour un message (ou un lot de messages), et ce, quel que soit le nombre de messages total, sélectionnez un type de structure **[!UICONTROL Linéaire]** et saisissez le coût de chaque message.
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_01.png)
 
-If this amount applies to a batch of messages, specify the number of messages concerned in the **[!UICONTROL for]** field.
+Si ce montant s&#39;applique à un lot de messages, indiquez le nombre de messages concernés dans le champ **[!UICONTROL pour]**.
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_02.png)
 
 #### Structure linéaire par seuil {#linear-structure-by-threshold}
 
-Si le montant s’applique par seuil pour chaque message, vous devez définir une structure de **[!UICONTROL Linear by threshold]** calcul. Dans ce type de structure de coûts, chaque message coûtera 0,13, par exemple, si le nombre total de messages est compris entre 1 et 100, et 0,12 entre 100 et 1 000 messages envoyés, ou 0,11 au-delà de 1 000 messages.
+Si le montant s&#39;applique par seuil pour chaque message, vous devez alors définir une structure de calcul **[!UICONTROL Linéaire par seuil]**. Dans ce type de structure de coût, chaque message coûtera, par exemple, 0,13 si le nombre total de message se situe entre 1 et 100, puis coûtera 0,12 entre 100 et 1000 messages envoyés, et 0,11 au-delà de 1000 messages.
 
 Le paramétrage sera le suivant :
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_03.png)
 
-To add a threshold, click the **[!UICONTROL Add]** button to the right of the list.
+Pour ajouter un seuil, cliquez sur le bouton **[!UICONTROL Ajouter]** situé à droite de la liste.
 
 #### Structure constante par seuil {#constant-structure-by-threshold}
 
-Enfin, vous pouvez configurer un calcul de coût en fonction du nombre total de messages. Pour ce faire, sélectionnez une structure de **[!UICONTROL Constant by threshold]** calcul. Par exemple, le coût sera fixé à 12,00 pour 1 à 100 messages, et à 100,00 pour 101 à 1000 messages, et à 500,00 pour toute remise de plus de 1000 messages, quel que soit le nombre total.
+Vous pouvez enfin paramétrer un calcul au forfait : les coûts seront alors calculés en fonction du nombre total de messages. Pour cela, choisissez une structure de calcul **[!UICONTROL Constante par seuil]**. Par exemple, le coût sera fixé forfaitairement à 12,00 entre 1 et 100 messages, puis passera à 100,00 pour toute diffusion comprise entre 101 et 1000 messages, et à 500,00 pour toute diffusion supérieure à 1000 messages, quel qu&#39;en soit le nombre total.
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_04.png)
 
 ### Paramétrer les traitements associés à la prestation {#configuring-processes-associated-with-a-service}
 
-You can associate information on the processes associated with the service via the **[!UICONTROL Processes]** tab.
+Vous pouvez associer des informations sur les traitements liés à une prestation depuis l&#39;onglet **[!UICONTROL Traitements]**.
 
-To do this, click the **[!UICONTROL Processes]** tab to configure the sending of information to the router.
+Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Traitements]** pour paramétrer l&#39;envoi des informations au routeur.
 
 ![](assets/s_ncs_user_supplier_node_02.png)
 
-* La **[!UICONTROL File extraction]** section indique le modèle d’exportation utilisé pour la livraison lorsque ce service est sélectionné. Vous pouvez indiquer le nom du fichier de sortie dans le **[!UICONTROL Extraction file]** champ. Le bouton à droite du champ permet d’insérer des variables.
+* La section **[!UICONTROL Extraction des fichiers]** indique le modèle d&#39;export utilisé par la diffusion lorsque cette prestation est sélectionnée. Vous pouvez indiquer le nom du fichier de sortie dans le champ **[!UICONTROL Fichier d&#39;extraction]**. Le bouton situé à droite du champ permet d&#39;insérer des variables.
 
    ![](assets/s_ncs_user_supplier_node_02a.png)
 
-* La **[!UICONTROL Notification e-mail]** section vous permet de spécifier le modèle pour avertir les fournisseurs de services une fois les fichiers envoyés. Sélectionnez le modèle utilisé pour créer le message d’alerte et le groupe de destinataires.
+* La section **[!UICONTROL E-mail de notification]** permet d&#39;indiquer le modèle de notification au prestataire après l&#39;envoi des fichiers. Vous devez sélectionner le modèle utilisé pour créer le message d&#39;alerte et le groupe de destinataires visé.
 
-   By default, delivery templates for notification messages are saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node, which is accessible from the general view.
+   Par défaut, les modèles de diffusion pour les messages de notification sont enregistrés sous le noeud **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]**, accessible depuis la vue globale.
 
-* La **[!UICONTROL Post-processing]** section vous permet de sélectionner le processus à lancer une fois la diffusion approuvée. Si un modèle de processus est saisi, une instance de processus est automatiquement créée, puis lancée dès que l’approbation prend effet. Ce processus peut envoyer le fichier d’extraction à un fournisseur de services externe pour traitement, par exemple.
+* La section **[!UICONTROL Post-traitement]** permet de sélectionner le workflow à lancer une fois la diffusion validée. Si un modèle de workflow est renseigné, une instance de workflow sera automatiquement créée puis démarrée dès que la validation sera effective. Ce workflow peut par exemple permettre d&#39;envoyer le fichier d&#39;extraction vers un prestataire externe chargé de l&#39;exploiter.
 
 ### Associer une prestation à une opération {#associating-a-service-with-a-campaign}
 
@@ -170,20 +170,20 @@ Lorsqu&#39;une prestation est sélectionnée, les postes de coûts correspondant
 
 >[!NOTE]
 >
->Si aucune catégorie de coûts n’est affichée lorsqu’un service est sélectionné, cela signifie qu’aucune catégorie de coûts n’a été définie pour ce type de processus. Par exemple, dans le cas d’une remise par courrier électronique, si aucune catégorie de coût de **[!UICONTROL E-mail]** type n’a été définie, aucune catégorie ne s’affichera et la sélection du service n’aura aucun effet.
+>Si aucun poste de coût ne s&#39;affiche à la sélection d&#39;une prestation, c&#39;est qu&#39;aucun poste de coût pour ce type de traitement n&#39;a été défini. Par exemple, pour une diffusion par email, si aucun poste de coût de type **[!UICONTROL Email]** n&#39;a été défini, aucun poste ne sera affiché et la sélection de la prestation n&#39;aura aucun impact.
 
 * Pour une diffusion courrier, vous pouvez sélectionner la prestation à partir de la fenêtre de configuration.
 
    ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
 * Pour une diffusion sur canaux mobiles, par fax ou téléphone, le mode de sélection est le même.
-* For an email delivery, the service is selected from the **[!UICONTROL Advanced]** tab in the delivery properties, as in the following example:
+* Pour une diffusion par email, la prestation est sélectionnée à partir de l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_user_supplier_email_delivery_select.png)
 
-The **[!UICONTROL Amount to surcharge]** column lets you add a cost for this category in the context of the delivery or task concerned.
+La colonne **[!UICONTROL Montant à surcharger]** permet d&#39;ajouter un coût pour ce poste dans le contexte de la diffusion ou de la tâche concernée.
 
-You can impose mandatory selection of a cost type during the definition of cost categories for a delivery. To do this, select **[!UICONTROL A cost type must be selected]**.
+Vous pouvez rendre obligatoire la sélection d&#39;un type de coût lors de la définition des postes de coût au niveau d&#39;une diffusion : pour cela, cochez l&#39;option **[!UICONTROL Sélection obligatoire d&#39;une valeur dans la liste de types de coût]**.
 
 ![](assets/s_ncs_user_supplier_cost_structure_select.png)
 
@@ -211,7 +211,7 @@ Pour mettre en place la gestion des stocks et des commandes dans Adobe Campaign,
 
 ### Gestion des stocks {#stock-management}
 
-Adobe Campaign peut avertir un groupe d’opérateurs si le stock est épuisé ou a atteint un seuil minimum. Les niveaux de stock sont accessibles par le **[!UICONTROL Stocks]** lien de l&#39; **[!UICONTROL Campaigns]** univers via le **[!UICONTROL Other choices]** lien de la zone de navigation.
+Adobe Campaign peut alerter un groupe d&#39;opérateurs si le stock de fournitures est épuisé ou s&#39;il a atteint un seuil minimum. Les stocks sont accessibles à partir du lien **[!UICONTROL Stocks]** accessible à partir de l&#39;univers **[!UICONTROL Campagnes]**, via le lien **[!UICONTROL Autres choix]** de la zone de navigation.
 
 ![](assets/s_ncs_user_stocks_view.png)
 
@@ -219,7 +219,7 @@ Adobe Campaign peut avertir un groupe d’opérateurs si le stock est épuisé o
 
 Pour créer un nouveau stock, les étapes sont les suivantes :
 
-1. Click the **[!UICONTROL Create]** button above the list of stocks.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des stocks.
 1. Saisissez le libellé du stock et sélectionnez dans la liste déroulante le prestataire auquel il est associé.
 
    ![](assets/s_ncs_user_stocks_add.png)
@@ -232,21 +232,21 @@ Pour créer un nouveau stock, les étapes sont les suivantes :
 
 Un stock est composé de différentes lignes de stocks. Une ligne de stock contient une quantité initiale de ressources qui seront consommées par les diffusions. Chaque ligne de stock indique aussi la quantité consommée, la quantité en stock et la quantité en commande.
 
-When you create a stock, click the **[!UICONTROL Stock lines]** tab to add new lines.
+Lorsque vous créez un stock, cliquez sur l&#39;onglet **[!UICONTROL Lignes de stock]** pour ajouter des lignes de stocks.
 
 ![](assets/s_ncs_user_stocks_display_line.png)
 
 Une fois le stock créé, cliquez sur un stock pour l&#39;éditer et utilisez son tableau de bord pour créer et visualiser les lignes de stock.
 
-Click the **[!UICONTROL Create]** button to define the stock parameters.
+Cliquez sur le bouton **[!UICONTROL Créer]** pour définir les paramètres du stock.
 
 ![](assets/s_ncs_user_stocks_new_line.png)
 
-* Indiquez la quantité initialement en stock dans le **[!UICONTROL Initial stock]** champ. Les champs **[!UICONTROL Consumed]** et **[!UICONTROL In stock]** sont calculés automatiquement et mis à jour au fur et à mesure que les campagnes progressent.
+* Indiquez la quantité initialement en stock dans le champ **[!UICONTROL Stock initial]**. Les champs **[!UICONTROL Consommé]** et **[!UICONTROL En stock]** sont calculés automatiquement et mis à jour, au fil des opérations.
 
    ![](assets/s_ncs_user_stocks_create_line.png)
 
-* Indiquez le seuil à partir duquel les opérateurs doivent être avertis pour commander des stocks dans le **[!UICONTROL Alert level]** champ. Lorsque le niveau d’alerte est atteint, un message d’avertissement s’affiche dans la fenêtre d’approbation des livraisons utilisant ce stock.
+* Indiquez, dans le champ **[!UICONTROL Niveau d&#39;alerte]**, le seuil à partir duquel il faudra alerter les opérateurs de le renouveler. Lorsque le niveau d&#39;alerte est atteint, un avertissement est affiché dans la fenêtre de validation des diffusions qui utilisent ce stock.
 
 #### Associer un stock à des postes de coûts {#associating-a-stock-with-cost-categories}
 
@@ -264,21 +264,21 @@ Une alerte est affichée lorsqu&#39;un stock référencé dans une diffusion est
 
 #### Les commandes {#orders}
 
-The **[!UICONTROL Orders]** sub-tab lets you view current orders and save new orders.
+Le sous-onglet **[!UICONTROL Commandes]** permet de visualiser les commandes en cours et d&#39;enregistrer de nouvelles commandes.
 
 ![](assets/s_ncs_user_stocks_edit_from_board.png)
 
-To save an order, edit the targeted stock line, click the **[!UICONTROL Add]** button and specify the delivery date and the quantity ordered.
+Pour enregistrer une commande, éditez la ligne de stock visée, cliquez sur le bouton **[!UICONTROL Ajouter]** et indiquez la date de livraison et la quantité commandée.
 
 ![](assets/s_ncs_user_stocks_node_06.png)
 
 >[!NOTE]
 >
->Une fois la date de livraison atteinte, la ligne de stock commandée disparaît automatiquement et la quantité saisie dans le **[!UICONTROL Volume on order]** champ est ajoutée à l&#39; **[!UICONTROL Tracking]** onglet. Cette quantité est automatiquement ajoutée au volume du stock.
+>Une fois la date de livraison atteinte, la ligne de stock en commande disparaît automatiquement et la quantité renseignée dans le champ **[!UICONTROL Volume en commande]** passe dans l&#39;onglet **[!UICONTROL Tracking]**. Cette quantité est automatiquement ajoutée au volume en stock.
 
 ![](assets/s_ncs_user_stocks_node_08.png)
 
-L&#39; **[!UICONTROL Consumptions]** onglet contient le volume consommé par campagne. Les informations de cet onglet sont automatiquement saisies en fonction des livraisons effectuées. Cliquez sur le **[!UICONTROL Edit]** bouton pour ouvrir la campagne concernée.
+L&#39;onglet **[!UICONTROL Consommations]** contient le volume consommé par opération. Les informations de cet onglet sont automatiquement renseignées en fonction des diffusions réalisées. Cliquez sur le bouton **[!UICONTROL Editer]** pour ouvrir l&#39;opération concernée.
 
 ![](assets/s_ncs_user_stocks_edit_from_board_consumed.png)
 
