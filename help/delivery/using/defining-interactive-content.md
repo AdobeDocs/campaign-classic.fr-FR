@@ -56,7 +56,7 @@ Pour plus d’informations sur le format de courrier électronique AMP, les spé
 ## Etapes clés d’utilisation d’AMP pour les courriels avec Adobe Campaign {#key-steps-to-use-amp}
 
 Pour tester et envoyer un courrier électronique AMP avec Adobe Campaign, procédez comme suit :
-1. Install the **[!UICONTROL AMP support (Beta)]** package. Voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard de campagne.
+1. Installez le package de prise en charge **[!UICONTROL AMP (bêta)]** . Voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard de campagne.
 1. Créez un courrier électronique et créez votre contenu AMP dans Adobe Campaign. Voir [Créer du contenu de courrier électronique AMP avec Adobe Campaign](#build-amp-email-content).
 1. Veillez à respecter toutes les exigences de remise des fournisseurs de messagerie prenant en charge le format AMP. Voir [AMP pour connaître les conditions](#amp-for-email-delivery-requirements)de remise des courriers électroniques.
 
@@ -86,7 +86,7 @@ Pour créer un courrier électronique au format AMP, procédez comme suit.
    >
    >Un modèle AMP spécifique contient un exemple des principales capacités que vous pouvez utiliser : liste des produits, carrousel, double inclusion, enquête et demande de serveur avancée.
 
-1.  Cliquez sur l’ **[!UICONTROL AMP content]** onglet.
+1. Cliquez sur l’onglet Contenu **** AMP.
 
    ![](assets/amp_tab.png)
 
@@ -132,9 +132,9 @@ Pour créer un courrier électronique au format AMP, procédez comme suit.
    >
    >Vous ne pouvez pas prévisualiser votre contenu AMP directement dans Adobe Campaign. Utilisez un site Web externe tel que [AMP Playground](https://playground.amp.dev).
 
-1. Revenez à Adobe Campaign et copiez-collez votre contenu validé dans l’ **[!UICONTROL AMP content]** onglet.
+1. Revenez à Adobe Campaign et copiez-collez votre contenu validé dans l’onglet de contenu **** AMP.
 
-1. Passez à l’onglet **[!UICONTROL HTML content]** ou **[!UICONTROL Text content]** et définissez le contenu pour au moins l’un de ces deux formats.
+1. Passez à l’onglet Contenu **** HTML ou Contenu **** texte et définissez le contenu pour au moins l’un de ces deux formats.
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ Pour Gmail et Outlook, vous devez d’abord mettre en liste blanche la ou les ad
 
 Pour cela :
 1. Vérifiez que l’option d’activation du courrier électronique dynamique est recherchée par le ou les fournisseurs de messagerie appropriés.
-1. Copiez l’adresse de l’expéditeur affichée dans le champ **[!UICONTROL From]** de la remise et collez-la dans la section appropriée des paramètres de votre compte de fournisseur de messagerie.
+1. Copiez l’adresse de l’expéditeur affichée dans le champ **[!UICONTROL De]** la remise et collez-la dans la section appropriée des paramètres du compte du fournisseur de messagerie.
 
 Pour plus de détails, consultez les documentations des développeurs [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) et [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#individual-mailbox-registration) .
 
@@ -212,4 +212,4 @@ Si, par exemple, vous avez inclus une liste de produits dans votre courrier éle
 >
 >Vous pouvez créer une règle de traitement du courrier pour empêcher des domaines spécifiques de recevoir des courriers électroniques AMP. Voir [Gestion des formats](../../installation/using/email-deliverability.md#managing-email-formats)de courrier électronique.
 >
->Par défaut, l’ **[!UICONTROL AMP inclusion]** option est définie sur **[!UICONTROL No]**.
+>Par défaut, l’option d’inclusion **** AMP est définie sur **[!UICONTROL Non]**.
