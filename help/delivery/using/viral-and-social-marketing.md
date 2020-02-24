@@ -42,7 +42,7 @@ Pour permettre aux destinataires de vos diffusions de partager le contenu des me
 
 >[!NOTE]
 >
->Par défaut, ce lien n’est pas proposé dans la liste des blocs. Vous pouvez y accéder en cliquant sur **[!UICONTROL Other...]**, puis en sélectionnant le **[!UICONTROL Social network sharing links]** bloc.
+>Par défaut, ce lien n&#39;est pas proposé dans la liste des blocs. Vous pouvez y accéder en cliquant sur **[!UICONTROL Autre...]**. Choisissez ensuite le bloc **[!UICONTROL Liens de partage vers réseaux sociaux]**.
 
 ![](assets/s_ncs_user_viral_add_link_via_others.png)
 
@@ -54,7 +54,7 @@ Lorsque le destinataire clique sur l&#39;icône d&#39;un des réseaux sociaux pr
 
 >[!NOTE]
 >
->Ce bloc de personnalisation contient tous les liens (pour l’envoi et le partage de messages avec tous les réseaux sociaux). Il peut être modifié pour répondre à vos besoins. Toutefois, la configuration est réservée aux utilisateurs avancés. Pour modifier le bloc de personnalisation correspondante, accédez au **[!UICONTROL Resources > Campaign management > Personalization blocks]** noeud de l’arborescence Adobe Campaign.
+>Ce bloc de personnalisation contient tous les liens (envoi d&#39;un message et partage vers tous les réseaux sociaux). Il peut être modifié selon vos besoins. Ce paramétrage est toutefois réservé à des utilisateurs avancés. Pour cela, éditez le bloc de personnalisation correspondant accessible à partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;arborescence Adobe Campaign.
 
 ## Marketing viral : transférer à un ami {#viral-marketing--forward-to-a-friend}
 
@@ -64,7 +64,7 @@ Pour permettre le transfert d&#39;un message, le principe est le même que pour 
 
 Les étapes sont les suivantes :
 
-1. Ajoutez le bloc **[!UICONTROL Social network sharing links]** de personnalisation dans le corps du message d’origine.
+1. Ajoutez le bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]** dans le corps du message d&#39;origine.
 1. Le destinataire du message peut cliquer sur l&#39;icône **[!UICONTROL Email]** afin d&#39;envoyer ce message à un ou plusieurs amis.
 
    ![](assets/s_ncs_user_viral_email_link.png)
@@ -73,13 +73,13 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_viral_email_msg.png)
 
-   The message is sent to them when the main recipient clicks the **[!UICONTROL Next]** button.
+   Le message leur est envoyé lorsque le destinataire principal clique sur le bouton **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
-   >Le contenu de ce message peut être personnalisé pour répondre à vos besoins. Il est créé à partir du **[!UICONTROL Transfer of original message]** modèle, qui est stocké dans le **[!UICONTROL Administration > Campaign management > Technical delivery templates]** noeud.
+   >Le contenu de ce message peut être personnalisé selon vos besoins. Il est créé à partir du modèle **[!UICONTROL Transfert du message initial]**, stocké dans le noeud **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** de l&#39;arborescence.
    >
-   >It is also possible to change the message forward form made available to the referrer To do this, you need to change the **Viral form** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.
+   >Vous pouvez également modifier le formulaire de transfert du message proposé au parrain. Pour cela, vous devez modifier l&#39;application Web **Formulaire de partage** stockée dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence.
 
 1. Dans le message transféré, un lien permet au filleul d&#39;enregistrer son profil dans la base de données. Pour cela, il dispose d&#39;un formulaire de saisie.
 
@@ -87,11 +87,11 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Cette configuration peut être adaptée. Pour ce faire, vous devez modifier l’application Web d’abonnement **du** destinataire stockée dans le **[!UICONTROL Resources > Online > Web applications]** noeud.
+   >Ce paramétrage peut être adapté. Pour cela, vous devez modifier l&#39;application Web **Inscription de destinataire** stockée dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence.
    >
    >Pour plus d&#39;informations sur les applications Web, consultez [cette section](../../web/using/about-web-applications.md).
 
-   Une fois la validation effectuée, un message de confirmation leur est envoyé : ils ne seront enregistrés pour de bon qu&#39;une fois qu&#39;ils auront activé le lien dans le message de confirmation. Ce message est créé en fonction du **[!UICONTROL Registration confirmation]** modèle, qui est stocké dans le **[!UICONTROL Administration > Campaign management > Technical delivery templates]** noeud.
+   A la validation du formulaire, un message de confirmation est adressé au filleul : il ne sera définitivement inscrit que lorsqu&#39;il aura activé le lien contenu dans le message de confirmation. Ce message est créé à partir du modèle **[!UICONTROL Confirmation d&#39;inscription]**, stocké dans le nœud **[!UICONTROL Administration > Gestion de campagnes > Modèles des diffusions techniques]** de l&#39;arborescence.
 
    Le filleul est alors ajouté dans le dossier **Destinataires** de la base de données, et il est abonné (par défaut) au service d&#39;information **Newsletter**.
 
@@ -103,7 +103,7 @@ Chaque partage et chaque accès à l&#39;information partagée fait l&#39;objet 
 
    ![](assets/s_ncs_user_network_del_tracking_tab.png)
 
-* dans un **[!UICONTROL Sharing to social networks]** rapport dédié :
+* Dans un rapport dédié **[!UICONTROL Partage vers les réseaux sociaux]** :
 
    ![](assets/s_ncs_user_viral_report.png)
 
