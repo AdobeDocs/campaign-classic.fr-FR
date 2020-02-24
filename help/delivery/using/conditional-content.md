@@ -28,7 +28,7 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 
-* Affichage de &quot;M.&quot; ou &quot;Mme&quot; selon la valeur du **[!UICONTROL Gender]** champ (M ou F) dans la source de données,
+* Affichage de &quot;Monsieur&quot; ou &quot;Madame&quot; selon que la valeur du champ **[!UICONTROL Genre]** de la source de données vaut respectivement M ou F,
 * Assemblage personnalisé d&#39;une newsletter ou d&#39;offres promotionnelles en fonction des centres d&#39;intérêt renseignés ou détectés :
 
    * Centre d&#39;intérêt 1 -- > Bloc 1
@@ -38,7 +38,7 @@ Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière 
 
 Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, respectez les étapes suivantes :
 
-1. Cliquez sur l’icône de personnalisation et sélectionnez **[!UICONTROL Conditional content > If]**.
+1. Cliquez sur l&#39;icône de personnalisation et choisissez **[!UICONTROL Contenu conditionnel > Si]**.
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
@@ -57,7 +57,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
       ![](assets/s_ncs_user_conditional_content04.png)
 
-1. Click the **[!UICONTROL Preview]** tab to view the content of the message according to the delivery recipient:
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour visualiser le contenu du message en fonction du destinataire de la diffusion :
 
    * Sélection d&#39;un destinataire pour lequel la condition est vérifiée :
 
@@ -67,7 +67,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
       ![](assets/s_ncs_user_conditional_content06.png)
 
-Vous pouvez ajouter d’autres cas et définir un contenu différent selon les valeurs d’un ou de plusieurs champs. Pour ce faire, utilisez **[!UICONTROL Conditional content > Else]** et **[!UICONTROL Conditional content > Else if]**. Ces expressions sont configurées de la même manière que l’expression **if** .
+Vous pouvez ajouter d&#39;autres cas et définir un contenu différent en fonction des valeurs d&#39;un ou plusieurs champs. Utilisez pour cela les options **[!UICONTROL Contenu conditionnel > Sinon]** et **[!UICONTROL Contenu conditionnel > Sinon si]**. Le paramétrage de ces expressions est le même que pour l&#39;expression **if**.
 
 ![](assets/s_ncs_user_conditional_content07.png)
 
@@ -75,7 +75,7 @@ Vous pouvez ajouter d’autres cas et définir un contenu différent selon les v
 >
 >Pour respecter la syntaxe du JavaScript, les caractères **%> &lt;%** doivent être supprimés après l&#39;ajout de conditions de type **Sinon** et **Sinon si**.
 
-Click **[!UICONTROL Preview]** and select a recipient to view the conditional content.
+Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire pour visualiser le contenu conditionnel.
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
@@ -105,7 +105,7 @@ Dans l’exemple ci-dessous, vous apprendrez à créer un courrier électronique
    <% } %>
    ```
 
-1. Test email content in the **[!UICONTROL Preview]** tab by selecting recipients with different preferred languages.
+1. Testez le contenu de l&#39;email dans l&#39;onglet **[!UICONTROL Aperçu]** en sélectionnant des destinataires avec des préférences linguistiques différentes.
 
    >[!NOTE]
    >
