@@ -38,10 +38,10 @@ Pour installer la console Adobe Campaign, les étapes sont les suivantes :
 
    Au besoin, utilisez ceux du compte interne définis lors de la création de l&#39;instance.
 
-1. Click the **[!UICONTROL Download]** link on the installation page.
+1. Cliquez sur le lien **[!UICONTROL Téléchargement]** proposé dans la page d&#39;installation.
 1. Téléchargez et enregistrez le fichier d&#39;installation client.
 1. Exécutez le fichier téléchargé sur un poste sous Windows : l&#39;installation démarre. Le chemin d&#39;installation par défaut de la console cliente est **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client**, où X correspond à 6 ou 7, selon votre version d&#39;Adobe Campaign.
-1. Once the installation program has finished, start the console from the Windows **[!UICONTROL Start]** menu (in the **Adobe Campaign** program group).
+1. Une fois le programme d&#39;installation terminé, lancez la console depuis le menu **[!UICONTROL Démarrer]** de Windows (dans le groupe de programmes **Adobe Campaign**).
 
 >[!NOTE]
 >
