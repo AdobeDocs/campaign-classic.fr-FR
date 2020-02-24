@@ -77,13 +77,13 @@ Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
 
    Ce fichier peut être téléchargé depuis la page du support Adobe Campaign ([https://support.neolane.net/](https://support.neolane.net/)) en cliquant sur le lien **Centre de téléchargement**.
 
-1. Sélectionnez le mode d’installation : choisir **[!UICONTROL Update or repair]**
-1. Clics **[!UICONTROL Next]** .
-1. Clics **[!UICONTROL Finish]** .
+1. Sélectionnez le mode d&#39;installation : choisissez **[!UICONTROL Mise à jour ou réparation]**
+1. Cliquez sur **[!UICONTROL Suivant]** .
+1. Cliquez sur **[!UICONTROL Terminer]** .
 
    Le programme d&#39;installation copie alors les nouveaux fichiers.
 
-1. Once the operation is complete, click **[!UICONTROL Finish]** .
+1. Lorsque l&#39;opération est terminée, cliquez sur **[!UICONTROL Terminer]** .
 
 ### synchroniser les ressources,{#synchronize-resources}
 
@@ -215,14 +215,14 @@ Le résultat de la synchronisation peut être consulté de deux manières :
 
 Pour résoudre un conflit, procédez de la manière suivante :
 
-1. Dans l’arborescence d’Adobe Campaign, accédez à **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]** .
+1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]** .
 1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
 
 Il existe trois possibilités de résoudre un conflit :
 
-* **[!UICONTROL Declare as resolved]** : nécessite une intervention préalable de l’utilisateur.
-* **[!UICONTROL Accept the new version]** : recommandé si les ressources fournies avec Adobe Campaign n’ont pas été modifiées par l’utilisateur.
-* **[!UICONTROL Keep the current version]** : signifie que la mise à jour est rejetée.
+* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention de l&#39;utilisateur au préalable.
+* **[!UICONTROL Accepter la nouvelle version]** : recommandé si les ressources livrées avec Adobe Campaign n&#39;ont pas été modifiées par l&#39;utilisateur.
+* **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
 
    >[!CAUTION]
    >
@@ -238,7 +238,7 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. Allez au conflit que vous avez résolu. Cliquez sur l’ **[!UICONTROL Actions]** icône et sélectionnez **[!UICONTROL Declare as resolved]** .
+1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]** .
 1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 ### Bonnes pratiques {#best-practices}
