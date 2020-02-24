@@ -26,13 +26,13 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 La création, l&#39;édition et la publication d&#39;un contenu peuvent être automatisées à partir d&#39;un workflow paramétré depuis l&#39;interface cliente Adobe Campaign.
 
-The **Content management** activity is accessed via the **[!UICONTROL Tools]** toolbar of the workflow diagram.
+L&#39;activité **Gestion de contenu** est accessible à partir de la barre d&#39;outils **[!UICONTROL Outils]** du diagramme de workflow.
 
 Les propriétés de l&#39;activité se divisent en quatre étapes :
 
-* **[!UICONTROL Content]** : permet de saisir du contenu existant ou de créer du contenu,
-* **[!UICONTROL Update content]** : vous permet de modifier l’objet du contenu ou de mettre à jour le contenu au moyen d’un flux de données XML,
-* **[!UICONTROL Action to execute]** : permet d’enregistrer ou de générer du contenu,
+* **[!UICONTROL Contenu]** : permet de renseigner un contenu déjà existant ou de le créer,
+* **[!UICONTROL Mettre à jour du contenu]** : permet de modifier le sujet du contenu ou de mettre à jour le contenu à partir d&#39;un flux de données XML,
+* **[!UICONTROL Action à effectuer]** : permet d&#39;enregistrer ou de générer le contenu,
 * **[!UICONTROL Transition]** : permet de générer ou non une transition sortante et, si elle existe, de la nommer.
 
 ![](assets/d_ncs_content_wf.png)
@@ -79,7 +79,7 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 ### Transition {#transition}
 
-L’option **Générer une transition** de sortie vous permet d’ajouter une transition de sortie à l’ **[!UICONTROL Content management]** activité afin de lier une nouvelle activité à l’exécution du processus. Après avoir coché cette option, entrez une étiquette pour la transition.
+L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition en sortie de l&#39;activité de **[!UICONTROL Gestion de contenu]** afin d&#39;enchaîner l&#39;exécution du workflow sur une nouvelle activité. Lorsque cette option est cochée, vous devez saisir le libellé de la transition.
 
 ## Exemples {#examples}
 
@@ -95,7 +95,7 @@ Le contenu est paramétré à partir de l&#39;activité Gestion de contenu, comm
 
 Une nouvelle instance de contenu est créée à partir du modèle de publication et du dossier chaîne de contenu.
 
-Dans notre exemple, nous avons surchargé le sujet de la livraison. Elle sera prise en compte au lieu de celle saisie dans le **[!UICONTROL Delivery]** modèle.
+Dans notre exemple, nous avons surchargé le sujet de la diffusion. Il sera pris en compte à la place de celui renseigné dans le modèle de diffusion de l&#39;activité **[!UICONTROL Diffusion]**.
 
 Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL renseignée :
 
