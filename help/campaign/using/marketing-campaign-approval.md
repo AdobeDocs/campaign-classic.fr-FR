@@ -35,7 +35,7 @@ La procédure d&#39;approbation est présentée dans [Vérification et approbati
 
 >[!NOTE]
 >
->Seul le propriétaire de la remise peut lancer une livraison. Pour qu’un autre opérateur (ou groupe d’opérateurs) puisse démarrer une diffusion, vous devez les ajouter en tant que réviseurs dans le **[!UICONTROL Delivery start:]** champ.\
+>Seul le propriétaire d&#39;une diffusion peut démarrer cette dernière. Pour qu&#39;un autre opérateur (ou un groupe d&#39;opérateurs) puisse démarrer une diffusion, vous devez l&#39;ajouter comme validant au niveau du champ **[!UICONTROL Démarrage de la diffusion]**.\
 >Voir aussi [Sélection de réviseurs](#selecting-reviewers).
 
 ### Principe de fonctionnement {#operating-principle-}
@@ -52,7 +52,7 @@ Après confirmation du choix de l&#39;opérateur, la validation ou le refus du t
 
 ![](assets/s_user_validation_link_in_op_board.png)
 
-The information is also available in the approval logs of the campaign (Accessed via the **[!UICONTROL Edit > Tracking > Approvals]** tab):
+L&#39;information est également disponible dans les logs de validation de l&#39;opération. Ils sont accessibles à partir de l&#39;onglet **[!UICONTROL Edition > Tracking > Validations]** :
 
 ![](assets/s_user_validation_log_in_op_edit_tab.png)
 
@@ -60,9 +60,9 @@ Ces messages de notification sont envoyés aux opérateurs spécifiés pour chaq
 
 Les validations peuvent être activées au niveau du modèle de l&#39;opération, au niveau de chaque opération ou au niveau de la diffusion.
 
-Toutes les tâches nécessitant une approbation sont sélectionnées dans le modèle de campagne ( **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** onglet), tout comme les opérateurs chargés de l’approbation (ils recevront des notifications, sauf si cette option n’est pas activée). For more on this, refer to [Approving processes](#approving-processes).
+**[!UICONTROL Toutes les tâches nécessitant une approbation sont sélectionnées dans le modèle de campagne (]** Propriétés **[!UICONTROL > Paramètres de campagne]** avancés... > **[!UICONTROL onglet Approbations]** ), tout comme les opérateurs chargés de l’approbation (ils recevront des notifications, sauf si cette option n’est pas activée). For more on this, refer to [Approving processes](#approving-processes).
 
-These settings can be overridden for each campaign created using this template, and individually for each campaign delivery: click the **[!UICONTROL Properties]** button, then the **[!UICONTROL Approvals]** tab.
+Ce paramétrage peut être surchargé au niveau de chaque opération créée depuis ce modèle et également unitairement au niveau de chacune des diffusions de l&#39;opération, en cliquant sur le bouton **[!UICONTROL Propriétés]** puis sur l&#39;onglet **[!UICONTROL Validations]**.
 
 Dans l&#39;exemple ci-dessous, le contenu de cette diffusion courrier ne fera l&#39;objet d&#39;aucune validation :
 
@@ -70,17 +70,17 @@ Dans l&#39;exemple ci-dessous, le contenu de cette diffusion courrier ne fera l&
 
 ### Sélection des opérateurs validants {#selecting-reviewers}
 
-Pour chaque type d’approbation, les opérateurs ou groupes d’opérateurs chargés de l’approbation sont sélectionnés dans la liste déroulante de la remise. D’autres opérateurs peuvent être ajoutés à l’aide du **[!UICONTROL Edit...]** lien. Cette fenêtre vous permet également de modifier la date limite d’approbation.
+Pour chaque type de validation, les opérateurs ou groupes d&#39;opérateurs validants sont sélectionnés dans la liste déroulante de la validation concernée. Des opérateurs supplémentaires peuvent être ajoutés depuis le lien **[!UICONTROL Editer...]**. Cette fenêtre vous permet également de modifier la date limite de la validation.
 
 ![](assets/s_user_validation_add_operator.png)
 
-Si aucun réviseur n’est spécifié, le gestionnaire de campagne est responsable de l’approbation et reçoit les notifications. Le gestionnaire de campagne est spécifié dans l’ **[!UICONTROL Edit > Properties]** onglet de la campagne :
+Si aucun opérateur validant n&#39;est identifié, le responsable de l&#39;opération sera chargé de la validation. Les notifications lui seront alors adressées. Le responsable de l&#39;opération est désigné dans l&#39;onglet **[!UICONTROL Edition > Propriétés]** de l&#39;opération :
 
 ![](assets/s_user_op_manager_field.png)
 
 >[!NOTE]
 >
->All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights can also approve jobs, but they will not receive notifications.\
+>Tous les autres opérateurs Adobe Campaign ayant des droits **[!UICONTROL Administrateur]** sont également habilités à valider les traitements. En revanche, ils ne reçoivent pas de notifications.\
 >Par défaut, le responsable de la campagne ne peut pas effectuer de validation ou démarrer les diffusions si des opérateurs validants sont définis. Vous pouvez modifier ce comportement et autoriser le responsable de la campagne à valider/démarrer les diffusions en créant l&#39;option **NmsCampaign_Activate_OwnerConfirmation** avec pour valeur **1**.
 
 ### Modes de validation {#approval-modes}
@@ -91,7 +91,7 @@ Pour valider un traitement depuis la console ou l&#39;interface web, cliquez sur
 
 ![](assets/s_user_validation_from_console.png)
 
-Vérifiez les informations à approuver, choisissez d’accepter ou de rejeter l’approbation et, si nécessaire, saisissez un commentaire. Cliquez sur **[!UICONTROL Ok]** pour enregistrer.
+Vérifiez les informations, puis acceptez ou refusez la validation. Saisissez éventuellement un commentaire et cliquez sur **[!UICONTROL Ok]** pour enregistrer.
 
 >[!NOTE]
 >
@@ -103,11 +103,11 @@ Cliquez sur le lien disponible dans le message de notification (voir [Notificati
 
 ![](assets/s_user_validation__log_in.png)
 
-Select **[!UICONTROL Accept]** or **[!UICONTROL Reject]** and enter a comment if necessary.
+Sélectionnez **[!UICONTROL Accepter]** ou **[!UICONTROL Refuser]** et saisissez éventuellement un commentaire.
 
 ![](assets/s_user_validation_save_target_validation.png)
 
-Clics **[!UICONTROL Validate]**.
+Cliquez sur **[!UICONTROL Valider]**.
 
 >[!NOTE]
 >
@@ -117,19 +117,19 @@ Clics **[!UICONTROL Validate]**.
 
 Les informations sont remontées à différents niveaux :
 
-* Dans le journal d’approbation de campagne, **[!UICONTROL Approvals]** sous-onglet de l’ **[!UICONTROL Edit > Tracking]** onglet :
+* Au niveau du journal des validations de l&#39;opération, sous-onglet **[!UICONTROL Validations]** de l&#39;onglet **[!UICONTROL Edition > Tracking]** :
 
    ![](assets/s_user_validation_log_from_op.png)
 
-* Dans le journal de diffusion de la campagne, **[!UICONTROL Deliveries]** sous-onglet de l’ **[!UICONTROL Edit > Tracking]** onglet :
+* Dans le journal des diffusions de l&#39;opération, sous-onglet **[!UICONTROL Diffusions]** de l&#39;onglet **[!UICONTROL Edition > Tracking]** :
 
    ![](assets/s_user_validation_log_from_delivery_list.png)
 
-* The approval status for each delivery can be viewed by clicking the **[!UICONTROL Hide/show log]** option of the **[!UICONTROL Summary]** tab.
+* Au niveau de chaque diffusion, l&#39;état des validations peut être consulté en cliquant sur l&#39;option **[!UICONTROL Afficher/cacher le journal]**, dans l&#39;onglet **[!UICONTROL Résumé]** :
 
    ![](assets/s_user_validation_log_delivery.png)
 
-* This information can also be accessed via the **[!UICONTROL Tracking > Approvals]** tab of each delivery:
+* Ces informations sont également accessibles depuis l&#39;onglet **[!UICONTROL Tracking > Validations]** de chaque diffusion :
 
    ![](assets/s_user_validation_log_from_exe_tab.png)
 
@@ -141,7 +141,7 @@ Les informations sont remontées à différents niveaux :
 
 Lors de la création d&#39;un workflow de ciblage, lorsque la validation est automatique (mode par défaut), Adobe Campaign propose le lien de validation ou envoie une notification dès qu&#39;un ciblage est à valider.
 
-To choose the approval mode (manual or automatic), click the **[!UICONTROL Edit > Properties]** tab of the campaign or campaign template, then click **[!UICONTROL Advanced campaign settings...]** and finally the **[!UICONTROL Approvals]** tab.
+Pour sélectionner le mode de validation (manuelle ou automatique), cliquez sur l&#39;onglet **[!UICONTROL Edition > Propriétés]** de l&#39;opération ou du modèle d&#39;opération, puis sur l&#39;option **[!UICONTROL Paramètres avancés de l&#39;opération...]**, et enfin sur l&#39;onglet **[!UICONTROL Validations]**.
 
 ![](assets/s_user_validation_select_mode.png)
 
@@ -149,7 +149,7 @@ To choose the approval mode (manual or automatic), click the **[!UICONTROL Edit 
 >
 >Le mode de validation sélectionné sera appliqué à toutes les diffusions de l&#39;opération.
 
-Lorsqu’un processus de ciblage est en cours de création, l’approbation manuelle vous permet d’éviter de créer des liens d’approbation ou d’envoyer automatiquement des notifications. Le tableau de bord de la campagne propose ensuite un **[!UICONTROL Submit targeting for approval]** lien permettant de lancer manuellement le processus d’approbation.
+La validation manuelle permet, lors de la construction du workflow de ciblage, de ne pas créer les liens de validation et envoyer les notifications automatiquement. Le tableau de bord de l&#39;opération propose alors un lien **[!UICONTROL Soumettre le ciblage à validation]** afin de lancer le processus de validation manuellement.
 
 Un message de confirmation vous permet d’autoriser les approbations pour les tâches sélectionnées pour cette remise.
 
@@ -167,13 +167,13 @@ Le contenu des courriers électroniques de notification peut être personnalisé
 
 Par défaut, les messages de notification sont envoyés si la validation du traitement correspondant est activée au niveau du modèle de l&#39;opération, au niveau de l&#39;opération ou au niveau de la diffusion concernée. Toutefois, il est possible de désactiver les notifications afin de n&#39;autoriser les validations que depuis la console.
 
-Pour ce faire, modifiez la fenêtre d’approbation de la campagne ou du modèle de campagne ( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** onglet) et sélectionnez **[!UICONTROL Do not enable notification sending]**.
+Pour cela, éditez la fenêtre de validation de l&#39;opération ou du modèle d&#39;opération concerné (onglet **[!UICONTROL Edition > Propriétés]** > **[!UICONTROL Paramètres avancés de l&#39;opération...]** > **[!UICONTROL Validations]**) et cochez l&#39;option **[!UICONTROL Ne pas activer l&#39;envoi de notifications]**.
 
 ![](assets/s_user_validation_notif_desactivate.png)
 
 #### Contenu des messages de notification {#notification-content}
 
-Le contenu de la notification est défini dans un modèle spécifique : **[!UICONTROL Notification of validations for the marketing campaign]**. Ce modèle est enregistré dans le **[!UICONTROL Administration > Campaign management > Technical delivery templates]** dossier de l’arborescence Adobe Campaign.
+Le contenu des notifications est défini dans un modèle spécifique : **[!UICONTROL Notification des validations dans une opération marketing]**. Ce modèle est enregistré dans le dossier **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]** de l&#39;arborescence Adobe Campaign.
 
 ## Contrôler et valider les diffusions {#checking-and-approving-deliveries}
 
@@ -193,7 +193,7 @@ Une fois ces phases de validation terminées, la remise peut être lancée. Voir
 
 Les étapes qui doivent être approuvées apparaissent dans le tableau de bord de la campagne (via la console de l’interface Web). Elles apparaissent également dans le tableau de suivi des remises et dans le tableau de bord des remises.
 
-At this point, the status of the campaign is **[!UICONTROL To validate]**.
+Le statut de l&#39;opération est alors **[!UICONTROL A valider]**.
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 >[!NOTE]
 >
->Dans un processus de ciblage, si une erreur liée à un problème de configuration se produit pendant la préparation du message, le lien s’affiche sur le tableau de bord. **[!UICONTROL Restart message preparation]** Corrigez l’erreur et cliquez sur ce lien pour redémarrer la préparation des messages tout en contournant l’étape de ciblage.
+>Lors d&#39;un workflow de ciblage, si une erreur liée à un problème de paramétrage s&#39;est produite au cours de la préparation des messages, le tableau de bord propose le lien **[!UICONTROL Relancer la préparation des messages]**. Corrigez l&#39;erreur, puis cliquez sur ce lien afin de relancer la préparation des messages sans repasser par la phase de ciblage.
 
 ![](assets/s_user_validation_relaunch_message_preparation.png)
 
@@ -216,21 +216,21 @@ Pour chaque diffusion de l&#39;opération, il est possible de valider les traite
 
 * **Valider le ciblage, le contenu, le budget**
 
-   Lorsque les options **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** ou **[!UICONTROL Enable budget approval]** sont sélectionnées dans la fenêtre des paramètres d’approbation des tâches, les liens pertinents s’affichent dans le tableau de bord de campagne pour les livraisons concernées.
+   Lorsque les options **[!UICONTROL Activer la validation de la cible]**, **[!UICONTROL Activer la validation du contenu]** ou **[!UICONTROL Activer la validation du budget]** sont sélectionnées dans la fenêtre de paramétrage de la validation des traitements, alors les liens correspondants sont proposés dans le tableau de bord de l&#39;opération pour les diffusions concernées.
 
    >[!NOTE]
    >
    >La validation du budget n&#39;est disponible que si vous avez activé la validation du ciblage, dans la fenêtre de paramétrage de la validation des traitements. Le lien proposant la validation du budget ne s&#39;affiche qu&#39;une fois que la cible a été analysée. De plus, ce lien s&#39;affiche en même temps que le lien proposant la validation du ciblage.
 
-   Si les options **[!UICONTROL Assign content editing]** ou **[!UICONTROL External content approval]** sont sélectionnées dans la fenêtre des paramètres d’approbation, le tableau de bord affiche les **[!UICONTROL Available content]** liens et **[!UICONTROL External content approval]** les liens.
+   Lorsque les options **[!UICONTROL Assigner l&#39;édition du contenu]** ou **[!UICONTROL Validation externe du contenu]** sont sélectionnées dans la fenêtre de paramétrage de la validation des traitements, le tableau de bord propose respectivement les liens **[!UICONTROL Contenu disponible]** et **[!UICONTROL Validation externe du contenu]**.
 
    La validation du contenu permet d&#39;accéder aux BAT envoyés.
 
 * **Valider l&#39;extraction (diffusion courrier)**
 
-   When **[!UICONTROL Enable extraction approval]** is selected in the approval settings window, the extracted file must be approved before the router can be notified.
+   Lorsque l&#39;option **[!UICONTROL Activer la validation de l&#39;extraction]** est sélectionnée dans la fenêtre de paramétrage de la validation des traitements, le fichier extrait doit être validé avant que le routeur puisse être notifié.
 
-   An **[!UICONTROL Approve content]** link is available on the campaign dashboard as shown below:
+   Un lien **[!UICONTROL Valider le contenu]** est proposé dans le tableau de bord de l&#39;opération, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_user_edit_file_valid.png)
 
@@ -244,7 +244,7 @@ Pour chaque diffusion de l&#39;opération, il est possible de valider les traite
 
 * **Valider les diffusions associées**
 
-   L’ **[!UICONTROL Enable individual approval of each associated delivery]** option est utilisée pour une remise principale associée aux livraisons secondaires. Par défaut, cette option n’est pas sélectionnée afin qu’une approbation globale de la remise principale puisse être effectuée. Si cette option est sélectionnée, chaque remise doit être approuvée individuellement.
+   L&#39;option **[!UICONTROL Activer la validation individuelle de chaque diffusion associée]** est utilisée dans le cas d&#39;une diffusion principale associée à des diffusions secondaires. Par défaut, cette option n&#39;est pas cochée ce qui permet d&#39;effectuer une validation globale au niveau de la diffusion principale. Si cette option est sélectionnée, chaque diffusion devra faire l&#39;objet d&#39;une validation.
 
    ![](assets/s_ncs_user_task_valid_associate.png)
 
@@ -258,11 +258,11 @@ Les phases d’approbation sont définies avec le modèle associé à la campagn
 
 Ces informations peuvent cependant être surchargées au niveau de chaque opération et de chacune des diffusions.
 
-For a campaign, click the **[!UICONTROL Edit > Properties]** tab, then the **[!UICONTROL Advanced campaign settings...]** link, and finally the **[!UICONTROL Approvals]** sub-tab to access the approvals configuration page.
+Au niveau de l&#39;opération, cliquez sur l&#39;onglet **[!UICONTROL Edition > Propriétés]**, puis sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** et enfin sur le sous-onglet **[!UICONTROL Validations]** pour accéder à la page de paramétrage du mode de validation des traitements.
 
 Vous pouvez sélectionner et désélectionner les traitements à valider et désigner les opérateurs Adobe Campaign chargés de la validation. Il peut s&#39;agir d&#39;un opérateur individuel, d&#39;un groupe d&#39;opérateurs ou d&#39;une liste d&#39;opérateurs.
 
-To select a list of operators, click the **[!UICONTROL Edit...]** link to the right of the field designating the first reviewer and add as many operators as necessary, as shown below:
+Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Editer...]** situé à droite du champ désignant le premier validant et ajoutez autant d&#39;opérateurs additionnels que nécessaire, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_user_validation_add_operator.png)
 
@@ -277,7 +277,7 @@ To select a list of operators, click the **[!UICONTROL Edit...]** link to the ri
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
-For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL Approvals]** tab to view and edit approval dates and automatic reminders.
+Au niveau de chaque diffusion, cliquez sur le bouton **[!UICONTROL Suivi]** puis sur l&#39;onglet **[!UICONTROL Validations]** pour visualiser et modifier les dates de validation et de rappel calculées automatiquement.
 
 ![](assets/s_ncs_user_edit_del_valid.png)
 
@@ -293,15 +293,15 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 >
 >Les fonctionnalités de validation du contenu présentées ci-après doivent venir en complément de l&#39;envoi des BAT.
 
-Il est possible de configurer un cycle d’approbation du contenu. Pour ce faire, sélectionnez l’ **[!UICONTROL Enable content approval]** option dans la fenêtre des paramètres d’approbation. Les étapes principales du cycle d’approbation du contenu sont les suivantes :
+Il est possible de configurer un cycle d’approbation du contenu. Pour ce faire, sélectionnez l’option **[!UICONTROL Activer l’approbation]** du contenu dans la fenêtre des paramètres d’approbation. Les étapes principales du cycle d’approbation du contenu sont les suivantes :
 
-1. After creating a new delivery, the campaign manager clicks the **[!UICONTROL Submit content]** link on the campaign dashboard to start the content approval cycle.
+1. Après la création d&#39;une nouvelle diffusion, le responsable de l&#39;opération clique sur le lien **[!UICONTROL Soumettre le contenu]**, dans le tableau de bord de l&#39;opération, pour lancer le cycle de validation du contenu.
 
    ![](assets/s_ncs_user_validation_submit_content_validation.png)
 
    >[!NOTE]
    >
-   >Si l’ **[!UICONTROL Enable the sending of proofs]** option (pour les livraisons par courrier électronique) ou **[!UICONTROL Enable the sending and approval of proofs]** (pour les livraisons par courrier électronique direct) a été sélectionnée dans la fenêtre des paramètres d’approbation, les épreuves sont envoyées automatiquement.
+   >Si vous avez sélectionné, dans la fenêtre de paramétrage de la validation des traitements, l&#39;option **[!UICONTROL Activer l&#39;envoi des BAT]** (pour une diffusion email) ou **[!UICONTROL Activer l&#39;envoi et la validation des BAT]** (pour une diffusion courrier), l&#39;envoi des BAT se fait automatiquement.
 
 1. Un email de notification est envoyé au responsable du contenu. Celui-ci choisi alors de valider ou non le contenu :
 
@@ -319,7 +319,7 @@ Il est possible de configurer un cycle d’approbation du contenu. Pour ce faire
 
       >[!NOTE]
       >
-      >Ce tableau de bord de campagne vous permet d’afficher la liste des épreuves qui ont été envoyées en cliquant sur le **[!UICONTROL Inbox rendering...]** lien. Pour afficher leur contenu, cliquez sur l’ **[!UICONTROL Detail]** icône à droite de la liste.
+      >Dans le tableau de bord de l&#39;opération, vous pouvez visualiser la liste des BAT envoyés, en cliquant sur le lien **[!UICONTROL Inbox Rendering...]**. Vous pouvez consulter leur contenu en cliquant sur l&#39;icône **[!UICONTROL Détails]** située à droite de la liste.
 
       ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
@@ -327,15 +327,15 @@ Il est possible de configurer un cycle d’approbation du contenu. Pour ce faire
 
    >[!NOTE]
    >
-   >La personne responsable de la campagne peut relancer le cycle d’approbation du contenu à tout moment. Pour ce faire, cliquez sur le lien sur la **[!UICONTROL Content status]** ligne du tableau de bord de la campagne (au niveau de la diffusion), puis cliquez sur **[!UICONTROL Reset content approval to submit it again]**.
+   >A tout moment, le responsable de l&#39;opération peut relancer le cycle de validation du contenu. Pour cela, cliquez sur le lien situé sur la ligne **[!UICONTROL Etat du contenu]**, dans le tableau de bord de l&#39;opération (au niveau de la diffusion), puis cliquez sur **[!UICONTROL Réinitialiser la validation du contenu pour la soumettre à nouveau.]**
 
    ![](assets/s_user_validation_relaunch_content_validation.png)
 
 #### Assigner l&#39;édition du contenu {#assign-content-editing}
 
-Cette option vous permet de définir une personne responsable de la modification du contenu, par exemple un webmestre. Si l’ **[!UICONTROL Assign content editing]** option est sélectionnée dans la fenêtre des paramètres d’approbation, plusieurs étapes d’approbation sont ajoutées entre la création et la remise du courrier électronique de notification à la personne responsable du contenu :
+Cette option permet de définir un responsable de l&#39;édition du contenu, par exemple un webmaster. Lorsque l&#39;option **[!UICONTROL Assigner l&#39;édition du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation des traitements, plusieurs étapes de validation sont ajoutées entre la création de la diffusion et l&#39;envoi de l&#39;email de notification au responsable du contenu :
 
-1. After creating a new delivery, the person responsible for the campaign clicks the **[!UICONTROL Submit content editing]** link in the campaign dashboard to start the content editing cycle.
+1. Après la création d&#39;une nouvelle diffusion, le responsable de l&#39;opération clique sur le lien **[!UICONTROL Soumettre l&#39;édition du contenu]**, dans le tableau de bord de l&#39;opération, pour lancer le cycle d&#39;édition du contenu.
 
    ![](assets/s_ncs_user_validation_submit_content_edition.png)
 
@@ -349,13 +349,13 @@ Cette option vous permet de définir une personne responsable de la modification
 
    >[!NOTE]
    >
-   >Si l’ **[!UICONTROL Enable the sending of proofs]** option (pour les livraisons par courrier électronique) ou **[!UICONTROL Enable the sending and approval of proofs]** (pour les livraisons par courrier électronique direct) a été sélectionnée dans la fenêtre des paramètres d’approbation, les épreuves sont envoyées automatiquement.
+   >Si vous avez sélectionné, dans la fenêtre de paramétrage de la validation des traitements, l&#39;option **[!UICONTROL Activer l&#39;envoi des BAT]** (pour une diffusion email) ou **[!UICONTROL Activer l&#39;envoi et la validation des BAT]** (pour une diffusion courrier), l&#39;envoi des BAT se fait automatiquement.
 
 1. Lorsqu&#39;il a terminé l&#39;édition du contenu de la diffusion, le responsable de l&#39;édition du contenu peut mettre le contenu à disposition.
 
    Pour cela, il peut :
 
-   * click the **[!UICONTROL Available content]** link via the Adobe Campaign console.
+   * cliquer sur le lien **[!UICONTROL Contenu disponible]** à partir de la console Adobe Campaign.
 
       ![](assets/s_ncs_user_validation_submit_content_available.png)
 
@@ -373,7 +373,7 @@ Cette option vous permet de définir une personne responsable de la modification
 
 #### Validation externe du contenu {#external-content-approval}
 
-Cette option vous permet de définir un opérateur externe chargé d’approuver le rendu de remise, tel que la cohérence de la communication avec la marque, les tarifs, etc. Lorsque l’ **[!UICONTROL External content approval]** option est sélectionnée dans la fenêtre des paramètres d’approbation, plusieurs étapes d’approbation sont ajoutées entre l’approbation du contenu et la remise de la notification à la personne responsable de la campagne :
+Cette option permet de définir un responsable externe du contenu qui validera le rendu de la diffusion, par exemple la cohérence de la communication de la marque, les tarifs annoncés, etc. Lorsque l&#39;option **[!UICONTROL Validation externe du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation des traitements, plusieurs étapes de validation sont ajoutées entre la validation du contenu par le responsable du contenu et l&#39;envoi de l&#39;email de notification au responsable de l&#39;opération :
 
 1. Le responsable externe du contenu reçoit un email de notification l&#39;informant que le contenu a été validé et que la validation externe doit être effectuée.
 1. L&#39;email de notification propose des liens vers les BAT envoyés, lui permettant de visualiser le rendu de la diffusion, et un bouton pour valider ou refuser le contenu de la diffusion.
@@ -388,11 +388,11 @@ Cette option vous permet de définir un opérateur externe chargé d’approuver
 
 Pour les diffusions offline, Adobe Campaign génère un fichier d&#39;extraction qui, selon le paramétrage, est transmis au routeur. Le contenu du fichier dépend du modèle d&#39;export utilisé.
 
-When the content, targeting and budget have been approved, the delivery changes to **[!UICONTROL Extraction pending]** until the extraction workflow for the campaigns is launched.
+Une fois le contenu, le ciblage et le budget validés, la diffusion passe à l&#39;état **[!UICONTROL Extraction en attente]**, en attendant le lancement du workflow d&#39;extraction pour les opérations.
 
 ![](assets/s_ncs_user_waiting_file_extraction.png)
 
-On the extraction request date, the extraction file is created and the delivery status changes to **[!UICONTROL File to approve]**.
+A la date de la demande d&#39;extraction, le fichier d&#39;extraction est créé et la diffusion passe à l&#39;état **[!UICONTROL Fichier à valider]**.
 
 ![](assets/s_ncs_user_file_extract_to_valid.png)
 
