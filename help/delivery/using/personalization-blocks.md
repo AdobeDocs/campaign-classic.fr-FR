@@ -26,9 +26,9 @@ Les blocs de personnalisation sont dynamiques, personnalisés et contiennent un 
 
 >[!NOTE]
 >
->Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
+>Les blocs de personnalisation sont aussi disponibles depuis le **[!UICONTROL Digital Content Editor (DCE)]**. Pour plus d&#39;informations, reportez-vous à [cette page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
-Les blocs de personnalisation sont accessibles via le **[!UICONTROL Resources > Campaign Management > Personalization blocks]** noeud de l’explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir Blocs [](#out-of-the-box-personalization-blocks)de personnalisation prêts à l’emploi).
+Les blocs de personnalisation sont accessibles notamment à partir du nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir Blocs [](#out-of-the-box-personalization-blocks)de personnalisation prêts à l’emploi).
 
 Vous pouvez définir de nouveaux blocs qui vous permettront d&#39;optimiser la personnalisation de vos livraisons. Pour plus d’informations, reportez-vous à la section [Définition de blocs](#defining-custom-personalization-blocks)de personnalisation personnalisée.
 
@@ -36,12 +36,12 @@ Vous pouvez définir de nouveaux blocs qui vous permettront d&#39;optimiser la p
 
 Pour insérer un bloc de personnalisation dans un message, procédez comme suit :
 
-1. In the content editor of the delivery wizard, click the personalized field icon and select the **[!UICONTROL Include]** menu.
-1. Select a personalization block from the list (the list displays the 10 last used blocks), or click the **[!UICONTROL Other...]** menu to access the full list.
+1. Dans l&#39;éditeur de contenus de l&#39;assistant de diffusion, cliquez sur l&#39;icône des champs de personnalisation et sélectionnez le menu **[!UICONTROL Inclure]**.
+1. Sélectionnez un bloc de personnalisation dans la liste (la liste affiche les 10 derniers blocs utilisés) ou cliquez sur le menu **[!UICONTROL Autre...]** pour accéder à la liste complète.
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. Le **[!UICONTROL Other...]** menu donne accès à tous les blocs de personnalisation prêts à l’emploi et personnalisés (voir les blocs [de personnalisation prêts à l’emploi et](#out-of-the-box-personalization-blocks) Définition des blocs [](#defining-custom-personalization-blocks)de personnalisation personnalisée).
+1. **[!UICONTROL L&#39;]** Autre... donne accès à tous les blocs de personnalisation prêts à l’emploi et personnalisés (voir les blocs [de personnalisation prêts à l’emploi et](#out-of-the-box-personalization-blocks) Définition de blocs [](#defining-custom-personalization-blocks)de personnalisation personnalisée).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -49,15 +49,15 @@ Pour insérer un bloc de personnalisation dans un message, procédez comme suit�
 
    ![](assets/s_ncs_user_personalized_block03.png)
 
-1. Click the **[!UICONTROL Preview]** tab and select a recipient to view the personalization.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire pour visualiser la personnalisation relative à ce destinataire.
 
    ![](assets/s_ncs_user_personalized_block04.png)
 
-Vous pouvez inclure le code source d’un bloc de personnalisation dans le contenu de diffusion. Pour ce faire, sélectionnez-la **[!UICONTROL Include the HTML source code of the block]** lors de sa sélection.
+Vous pouvez inclure le code source d&#39;un bloc de personnalisation dans le contenu de la diffusion. Pour cela, cochez l&#39;option **[!UICONTROL Inclure le code source HTML du bloc]** lorsque vous le sélectionnez.
 
 ![](assets/s_ncs_user_personalized_block05.png)
 
-Le code source HTML est inséré dans le contenu de diffusion. Par exemple, le bloc **[!UICONTROL Greetings]** de personnalisation s’affiche comme suit :
+Le code source HTML est inséré dans le contenu de la diffusion. Par exemple, le bloc de personnalisation **[!UICONTROL Salutations]** s&#39;affiche comme ci-dessous :
 
 ![](assets/s_ncs_user_personalized_block06.png)
 
@@ -67,22 +67,22 @@ Dans cet exemple, nous créons un email dans lequel nous utilisons les blocs de 
 
 Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 
-* **[!UICONTROL Link to mirror page]** .
-* **[!UICONTROL Social network sharing links]** .
-* **[!UICONTROL Unsubscription link]** .
+* **[!UICONTROL Lien vers la page miroir]** .
+* **[!UICONTROL Liens de partage vers les réseaux sociaux]** .
+* **[!UICONTROL Lien de désabonnement]** .
 
 >[!NOTE]
 >
 >Pour plus d’informations sur la génération de la page miroir, voir [Génération de la page](../../delivery/using/sending-messages.md#generating-the-mirror-page)miroir.
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
-1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
-1. Insérez les blocs de personnalisation dans le corps du message. Pour ce faire, cliquez sur dans le contenu du message, cliquez sur l’icône de champ personnalisé et sélectionnez le **[!UICONTROL Include]** menu.
+1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
+1. Insérez ensuite les blocs de personnalisation dans le corps du message. Pour cela, cliquez dans le contenu du message, cliquez sur l&#39;icône de champs de personnalisation et sélectionnez le menu **[!UICONTROL Inclure]**.
 1. Sélectionnez le premier bloc à insérer. Renouvelez la procédure pour inclure les deux autres blocs.
 
    ![](assets/s_ncs_user_personalized_block_example.png)
 
-1. Cliquez sur l’ **[!UICONTROL Preview]** onglet pour afficher le résultat de la personnalisation. Vous devez sélectionner un destinataire pour afficher son message.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour visualiser le résultat de la personnalisation. Vous devez sélectionner un destinataire pour afficher son message.
 
    ![](assets/s_ncs_user_personalized_block_example2.png)
 
@@ -98,18 +98,18 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
 ![](assets/s_ncs_user_personalized_block_list.png)
 
-* **[!UICONTROL Greetings]** : insère les salutations avec le nom du destinataire. Exemple : &quot;Bonjour John Doe&quot;.
-* **[!UICONTROL Insert logo]** : insère un logo prêt à l’emploi qui a été défini lors de la configuration de l’instance.
-* **[!UICONTROL Powered by Adobe Campaign]** : insère le logo &quot;Optimisé par Adobe Campaign&quot;.
-* **[!UICONTROL Mirror page URL]** : insère l’URL de la page miroir, ce qui permet aux concepteurs de distribution de vérifier le lien.
+* **[!UICONTROL Salutations]** : insère des salutations avec le nom du destinataire. Par exemple : &quot;Bonjour John Doe,&quot;.
+* **[!UICONTROL Insertion du logo]** : insère un logo prêt à l&#39;emploi qui a été défini lors du paramétrage de l&#39;instance.
+* **[!UICONTROL Powered by Adobe Campaign]** : insère le logo &quot;Powered by Adobe Campaign&quot;.
+* **[!UICONTROL URL de page miroir]** : insère l&#39;URL de page miroir qui permet aux concepteurs de diffusion de vérifier le lien.
 
    >[!NOTE]
    >
    >Pour plus d’informations sur la génération de la page miroir, voir [Génération de la page](../../delivery/using/sending-messages.md#generating-the-mirror-page)miroir.
 
-* **[!UICONTROL Link to mirror page]** : insère un lien vers la page miroir : &quot;Si vous ne parvenez pas à afficher ce message correctement, cliquez ici&quot;.
-* **[!UICONTROL Unsubscription link]** : insère un lien permettant de se désabonner de toutes les livraisons (liste noire).
-* **[!UICONTROL Formatting function for proper nouns]** : génère la fonction **[!UICONTROL toSmartCase]** JavaScript, qui modifie la première lettre de chaque mot en majuscules. Ce bloc doit être inséré dans le code source de la remise, dans les **`<script>...</script>`** balises.
+* **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici. ».
+* **[!UICONTROL Lien de désabonnement]** : insère un lien permettant de se désabonner de toutes les diffusions (blacklistage).
+* **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule. Ce bloc doit être inséré dans le code source de la remise, dans les **`<script>...</script>`** balises.
 
    Dans l’exemple ci-dessous, la fonction est utilisée pour remplacer l’élément &quot;Mon en-tête&quot; par &quot;Mon nouvel en-tête&quot; par des lettres majuscules à chaque mot :
 
@@ -122,37 +122,37 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
    ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
 
-* **[!UICONTROL Registration page URL]** : insère une URL d’abonnement (voir [A propos des services et des abonnements](../../delivery/using/about-services-and-subscriptions.md)).
-* **[!UICONTROL Registration link]** : insère un lien d’abonnement. qui a été définie lors de la configuration de l’instance.
-* **[!UICONTROL Registration link (with referrer)]** : insère un lien d’abonnement permettant d’identifier le visiteur et la diffusion. Le lien a été défini lors de la configuration de l’instance.
+* **[!UICONTROL URL]** de la page d&#39;inscription : insère une URL d’abonnement (voir [A propos des services et des abonnements](../../delivery/using/about-services-and-subscriptions.md)).
+* **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription qui a été défini lors du paramétrage de l&#39;instance.
+* **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription qui permet d&#39;identifier le visiteur et la diffusion. Le lien a été défini lors du paramétrage de l&#39;instance.
 
    >[!NOTE]
    >
    >Ce bloc peut être utilisé dans les diffusions qui ciblent uniquement les visiteurs.
 
-* **[!UICONTROL Registration confirmation]** : insère un lien permettant de confirmer l’abonnement.
-* **[!UICONTROL Social network sharing links]** : insère des boutons qui permettent au destinataire de partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, Twitter, Google + et LinkedIn (voir [Marketing Viral : à un ami](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
-* **[!UICONTROL Style of content emails]** et **[!UICONTROL Notification style]** : générer du code qui formate un courrier électronique avec des styles HTML prédéfinis. Ces blocs doivent être insérés dans le code source de la remise, dans la **[!UICONTROL ...]** section, en **`<style>...</style>`** balises.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : insère une URL permettant de définir une offre d’interaction **[!UICONTROL Accepted]** (voir [cette section](../../interaction/using/offer-analysis-report.md)).
+* **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l&#39;inscription.
+* **[!UICONTROL Liens]** de partage sur les réseaux sociaux : insère des boutons qui permettent au destinataire de partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, Twitter, Google + et LinkedIn (voir [Marketing Viral : à un ami](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Style des courriels]** de contenu et style **[!UICONTROL de]** notification : générer du code qui formate un courrier électronique avec des styles HTML prédéfinis. **[!UICONTROL Ces blocs doivent être insérés dans le code source de la remise, dans le]**... , dans les **`<style>...</style>`** balises .
+* **[!UICONTROL URL d&#39;acceptation d&#39;une offre en mode unitaire]** : insère une URL permettant de définir une offre d&#39;interaction comme étant **[!UICONTROL Acceptée]** (voir [cette section](../../interaction/using/offer-analysis-report.md)).
 
 ## Définir des blocs de personnalisation personnalisés {#defining-custom-personalization-blocks}
 
-Vous pouvez définir de nouveaux champs de personnalisation à insérer à partir de l’icône de champ personnalisé via le **[!UICONTROL Include...]** menu. Ces champs sont définis dans des blocs de personnalisation.
+Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l&#39;icône des champs personnalisés via le menu **[!UICONTROL Inclure...]**. Ces champs sont définis dans des blocs de personnalisation.
 
 Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez les étapes suivantes :
 
-1. Cliquez sur le **[!UICONTROL Resources > Campaign Management > Personalization blocks]** noeud.
-1. Right-click the list of blocks and select **[!UICONTROL New]** .
+1. Cliquez sur le nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]**.
+1. Cliquez avec le bouton droit dans la liste des blocs et choisissez **[!UICONTROL Nouveau]** .
 1. Renseignez le paramétrage du bloc de personnalisation :
 
    ![](assets/s_ncs_user_personalized_block.png)
 
    * Saisissez le libellé du bloc. Ce libellé sera affiché dans la fenêtre d&#39;insertion de champs de personnalisation.
-   * Sélectionnez **[!UICONTROL Visible in the customization menus]** pour rendre ce bloc accessible à partir de l’icône d’insertion du champ de personnalisation.
-   * Si nécessaire, sélectionnez **[!UICONTROL The content of the personalization block depends upon the format]** pour définir deux blocs distincts pour les courriers électroniques au format HTML et ceux au format texte.
+   * Sélectionnez l&#39;option **[!UICONTROL Afficher dans les menus de personnalisation]** pour rendre ce bloc accessible depuis l&#39;icône d&#39;insertion de champs de personnalisation.
+   * Sélectionnez éventuellement l&#39;option **[!UICONTROL Le contenu du bloc dépend du format]** pour définir deux blocs distincts pour les emails au format HTML et ceux au format texte.
 
       Deux onglets seront alors affichés dans la section inférieure de cet éditeur (Contenu HTML et Contenu Texte) pour définir les contenus correspondants.
 
       ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Enter the content (in HTML, text, JavaScript, etc.) of the personalization block(s) and click **[!UICONTROL Save]** .
+   * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]** .
