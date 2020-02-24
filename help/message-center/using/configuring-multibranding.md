@@ -85,5 +85,5 @@ Sur l&#39;instance de pilotage, vous devez lier les modèles de diffusion et les
 
 1. Créez un compte externe par marque avec le même nom interne qu&#39;à l&#39;étape 1.
 1. Créez un modèle de diffusion par défaut par marque.
-1. In the delivery template&#39;s **[!UICONTROL Properties]** , set the routing to the external account of the brand.
+1. Dans les **[!UICONTROL Propriétés]** du modèle de diffusion, définissez le routage sur le compte externe de la marque.
 
