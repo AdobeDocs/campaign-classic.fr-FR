@@ -36,7 +36,7 @@ Marketing Analytics permet de simplifier la création de rapports ainsi que l&#
 
 ### Etape 1 - Création d&#39;un rapport basé sur un cube {#step-1---creating-a-report-based-on-a-cube}
 
-To create a report based on a cube, click the **[!UICONTROL Create]** button in the **[!UICONTROL Reports]** universe and select the cube you want to use.
+Pour créer un rapport basé sur un cube, cliquez sur le bouton **[!UICONTROL Créer]** de l&#39;univers des **[!UICONTROL Rapports]** et choisissez le cube à utiliser.
 
 La procédure est décrite dans la section [Créer un rapport basé sur un cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
@@ -44,7 +44,7 @@ La procédure est décrite dans la section [Créer un rapport basé sur un cube]
 
 L&#39;affichage par défaut propose alors les deux premières dimensions du cube (dans notre exemple : l&#39;âge et la ville).
 
-The **[!UICONTROL Add]** buttons on each axis enable you to add dimensions.
+Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#39;ajouter d&#39;autres dimensions.
 
 ![](assets/s_advuser_cube_in_report_03.png)
 
@@ -75,7 +75,7 @@ The **[!UICONTROL Add]** buttons on each axis enable you to add dimensions.
 
 1. Cliquez sur **[!UICONTROL Ok]** pour confirmer l&#39;insertion : la dimension est alors ajoutée parmi les dimensions existantes.
 
-   The yellow banner above the table shows that you have made changes: click the **[!UICONTROL Save]** button to save them.
+   Le bandeau jaune situé au-dessus du tableau indique que vous avez effectué des modifications : cliquez sur le bouton **[!UICONTROL Enregistrer]** si vous souhaitez les sauvegarder.
 
    ![](assets/s_advuser_cube_in_report_04c.png)
 
@@ -85,11 +85,11 @@ Une fois les lignes et colonnes positionnées, indiquez les mesures que vous sou
 
 Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mesures :
 
-1. Cliquez sur le **[!UICONTROL Measures]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Mesures]**.
 
    ![](assets/s_advuser_cube_in_report_05.png)
 
-1. The **[!UICONTROL Use a measure]** button enables you to select one of the existing measures.
+1. Le bouton **[!UICONTROL Utiliser une mesure]** permet de sélectionner une des mesures existantes.
 
    ![](assets/s_advuser_cube_in_report_08.png)
 
@@ -97,13 +97,13 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_09.png)
 
-   La configuration générale des mesures est également disponible via l’ **[!UICONTROL Edit the configuration of the pivot table]** icône de l’en-tête.
+   Un paramétrage global des mesures est également proposé à partir de l&#39;icône **[!UICONTROL Editer la configuration du tableau pivot]** située dans l&#39;entête.
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
    Vous pouvez notamment choisir d&#39;afficher ou non les libellés des mesures. Voir à ce propos [Configuration de l&#39;affichage](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
-1. Il est possible de construire de nouvelles mesures en utilisant les mesures existantes. Pour ce faire, cliquez sur **[!UICONTROL Create a measure]** et configurez-le.
+1. Vous pouvez construire de nouvelles mesures à partir des mesures existantes. Pour cela, cliquez sur le bouton **[!UICONTROL Créer une mesure]** et indiquez son paramétrage.
 
    ![](assets/s_advuser_cube_in_report_config_02a.png)
 
@@ -120,9 +120,9 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_config_02b.png)
 
-   Une fois que vous avez créé une mesure, vous pouvez la modifier et, si nécessaire, modifier sa configuration. Pour ce faire, cliquez sur le **[!UICONTROL Measures]** bouton, puis accédez à l&#39;onglet de la mesure à modifier.
+   Une fois créée, vous pouvez éditer et, au besoin, modifier, la configuration de la mesure. Pour cela, cliquez sur le bouton **[!UICONTROL Mesures]**, puis sur l&#39;onglet de la mesure à éditer.
 
-   Cliquez ensuite **[!UICONTROL Edit the dynamic measure]** sur pour accéder au menu des paramètres.
+   Cliquez ensuite sur le bouton **[!UICONTROL Editer la mesure dynamique]** pour accéder aux paramétrages.
 
 ## Construire une population cible {#building-a-target-population}
 
@@ -132,23 +132,23 @@ Pour cela, vous pouvez les ajouter à un panier, dont le contenu sera exporté.
 
 Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
-1. Click the cells that contain the population to be collected to select them, then click the **[!UICONTROL Add to cart]** icon.
+1. Cliquez sur les cellules contenant les populations à collecter pour les sélectionner, puis cliquez sur l&#39;icône **[!UICONTROL Ajouter au panier]**.
 
    ![](assets/s_advuser_cube_in_report_config_02c.png)
 
    Répétez l&#39;opération autant de fois que nécessaire, pour collecter les différents profils.
 
-1. Click the **[!UICONTROL Show cart]** button to view its content before running the export.
+1. Cliquez sur le bouton **[!UICONTROL Afficher le panier]** pour en visualiser le contenu avant de réaliser l&#39;export.
 
    ![](assets/s_advuser_cube_in_report_config_02d.png)
 
-1. The **[!UICONTROL Export]** button lets you group the items in the cart into a list.
+1. Le bouton **[!UICONTROL Exporter]** permet de regrouper les éléments du panier dans une liste.
 
    Vous devez indiquer le nom de la liste et le type d&#39;export à réaliser.
 
    ![](assets/s-advuser_cube_in_report_config_02e.png)
 
-   Click **[!UICONTROL Start]** to run the export.
+   Cliquez sur **[!UICONTROL Démarrer]** pour lancer l&#39;export.
 
 1. Une fois l&#39;export terminé, un message vous en confirme la bonne exécution, ainsi que le nombre d&#39;enregistrements traités.
 
@@ -156,7 +156,7 @@ Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
    Vous pouvez choisir de conserver le contenu du panier ou de le vider.
 
-   La liste correspondante est accessible via l&#39; **[!UICONTROL Profiles and targets]** univers.
+   La liste correspondante est accessible à partir de l&#39;univers **[!UICONTROL Profils et cibles]**.
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 
@@ -168,7 +168,7 @@ Pour créer un tableau qui explore les données d&#39;un cube, les étapes sont 
 
    ![](assets/s_advuser_cube_in_report_01.png)
 
-1. In the **[!UICONTROL Data]** tab of the page, select a cube to process the dimensions it contains and display calculated measures.
+1. Dans l&#39;onglet **[!UICONTROL Données]** de la page, sélectionnez un cube afin d&#39;exploiter les dimensions qu&#39;il contient et afficher les mesures calculées.
 
    ![](assets/s_advuser_cube_in_report_02.png)
 
