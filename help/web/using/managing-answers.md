@@ -32,7 +32,7 @@ En complément des modes de stockage standard communs à tous les formulaires We
 
 ### Stocker dans un champ archivé {#storing-in-an-archived-field}
 
-Il est facile d&#39;étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les enquêtes. Pour ce faire, sélectionnez l’ **[!UICONTROL Store answers to a question]** option lors de la création du champ de saisie. Cliquez sur le **[!UICONTROL New field...]** lien et donnez-en les propriétés :
+Vous pouvez facilement étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Vous devez pour cela choisir l&#39;option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le lien **[!UICONTROL Nouveau champ...]** et indiquez ses propriétés :
 
 ![](assets/s_ncs_admin_survey_new_space.png)
 
@@ -54,19 +54,19 @@ Par exemple, vous pouvez créer une liste déroulante afin que l&#39;utilisateur
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 
-The **[!UICONTROL Edit link]** icon located to the right of the field lets you edit the content of this enumeration:
+L&#39;icône **[!UICONTROL Editer le lien]** située à droite du champ permet d&#39;éditer le contenu de cette énumération :
 
 ![](assets/s_ncs_admin_survey_database_values_2c.png)
 
-Dans l’ **[!UICONTROL General]** onglet du champ, le **[!UICONTROL Initialize the list of values from the database]** lien vous permet d’entrer automatiquement la liste des étiquettes proposées.
+Dans l&#39;onglet **[!UICONTROL Général]** du champ, le lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]** permet de renseigner automatiquement la liste des libellés proposés.
 
 ![](assets/s_ncs_admin_survey_database_values_2.png)
 
 **Exemple** : stocker tous les contrats d&#39;un destinataire dans un même champ
 
-Pour stocker différents types de contrats dans un champ, créez un champ **[!UICONTROL Text]** d’entrée et sélectionnez l’ **[!UICONTROL Store answers to a question]** option.
+Pour stocker les types de contrats d&#39;un utilisateur dans un même champ, créez un champ de saisie de type **[!UICONTROL Texte]** et sélectionnez l&#39;option **[!UICONTROL Stocker les réponses à une question]**.
 
-Cliquez sur le **[!UICONTROL New field...]** lien et saisissez les propriétés du champ. Sélectionnez l’ **[!UICONTROL Multiple values]** option permettant de stocker plusieurs valeurs.
+Cliquez sur le lien **[!UICONTROL Nouveau champ...]** et indiquez les propriétés du champ. Sélectionnez l&#39;option **[!UICONTROL Choix multiples]** afin de permettre le stockage de plusieurs valeurs.
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
@@ -74,7 +74,7 @@ Créez les champs de saisie des autres contrats, et stockez les informations dan
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex2.png)
 
-When users approve the survey, their answers will be stored in the **[!UICONTROL Contracts]** field.
+Lorsque l&#39;utilisateur valide le questionnaire, ses réponses sont stockées dans le champ **[!UICONTROL Contrats]**.
 
 Dans notre exemple, pour les réponses suivantes :
 
@@ -82,11 +82,11 @@ Dans notre exemple, pour les réponses suivantes :
 
 Le profil du répondant contiendra les quatre contrats renseignés.
 
-They can be viewed in the **[!UICONTROL Answers]** tab of the survey by displaying the relevant columns.
+Vous pouvez les visualiser dans l&#39;onglet **[!UICONTROL Réponses]** du questionnaire, en affichant les colonnes correspondantes.
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
-Vous pouvez également filtrer les destinataires en fonction des réponses afin d’afficher uniquement les utilisateurs qui vous intéressent. Pour ce faire, créez un processus de ciblage et utilisez la **[!UICONTROL Survey responses]** zone.
+Vous pouvez également filtrer les destinataires en fonction des réponses fournies pour n&#39;afficher que les utilisateurs recherchés. Pour cela, créez un workflow de ciblage et utilisez la boîte **[!UICONTROL Réponses à un questionnaire]**.
 
 ![](assets/s_ncs_admin_survey_read_responses_wf.png)
 
@@ -114,12 +114,12 @@ Il est possible d&#39;archiver les réponses aux enquêtes au format XML. Vous p
 
 Pour cela :
 
-* Edit the survey properties via the **[!UICONTROL Properties]** button of the **[!UICONTROL Edit]** tab.
-* Cliquez sur le **[!UICONTROL Advanced parameters]** lien et cochez l’ **[!UICONTROL Save a copy of raw answers]** option.
+* Editez les propriétés du questionnaire à partir du bouton **[!UICONTROL Propriétés]** de l&#39;onglet **[!UICONTROL Edition]**.
+* Cliquez sur le lien **[!UICONTROL Paramètres avancés]** et cochez l&#39;option **[!UICONTROL Conserver une copie des réponses brutes]**.
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)
 
-Vous pouvez l&#39;activer par défaut pour toutes les enquêtes (cette option est appliquée lorsque l&#39;enquête est publiée). Pour ce faire, créez l’ **[!UICONTROL NmsWebApp_XmlBackup]** option et attribuez-lui **[!UICONTROL 1]** une valeur, comme illustré ci-dessous :
+Vous pouvez l&#39;activer par défaut pour tous les questionnaires (cette option est appliquée à la publication du questionnaire). Pour cela, créez l&#39;option **[!UICONTROL NmsWebApp_XmlBackup]** et attribuez-lui la valeur **[!UICONTROL 1]**, comme ci-dessous :
 
 ![](assets/s_ncs_admin_survey_xml_global_option.png)
 
@@ -133,7 +133,7 @@ Vous pouvez attribuer un score aux options proposées dans les pages du question
 
 ![](assets/s_ncs_admin_survey_score_create.png)
 
-The scores are accumulated and saved on the server side when the page is confirmed, i.e. when the user clicks the **[!UICONTROL Next]** or **[!UICONTROL Finish]** button.
+Les scores sont cumulés et sauvegardés côté serveur, au moment de la validation de la page, c&#39;est-à-dire lorsque l&#39;utilisateur clique sur un bouton **[!UICONTROL Suivant]** ou **[!UICONTROL Terminer]**.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Les scores peuvent être utilisés dans des tests et dans des scripts.
 
    ![](assets/s_ncs_admin_survey_score_exb.png)
 
-* When the user clicks the **[!UICONTROL Next]** button, the two values are added up.
+* Lorsque l&#39;utilisateur clique sur le bouton **[!UICONTROL Suivant]**, les deux valeurs sont additionnées.
 
    ![](assets/s_ncs_admin_survey_score_exe.png)
 
