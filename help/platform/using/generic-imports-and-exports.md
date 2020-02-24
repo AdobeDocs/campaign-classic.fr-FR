@@ -28,7 +28,7 @@ Adobe Campaign propose également un module d&#39;import qui permet d&#39;alimen
 
 >[!NOTE]
 >
->Les exportations et les importations sont configurées dans des modèles dédiés exécutés par le biais de processus via les **[!UICONTROL Import]** et **[!UICONTROL Export]** activités. Ils peuvent être répétés automatiquement selon un calendrier, par exemple pour automatiser l’échange de données entre plusieurs systèmes d’information. Si nécessaire, vous pouvez créer une importation ou une exportation occasionnelle via le **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** noeud de l’arborescence Adobe Campaign.
+>Les exports et imports sont paramétrés dans des modèles dédiés et exécutés au travers des workflows via les activités **[!UICONTROL Import]** et **[!UICONTROL Export]**. Ainsi, ils peuvent être rejoués automatiquement de façon planifiée, afin par exemple d&#39;automatiser les échanges de données entre plusieurs systèmes d&#39;information. Au besoin, vous pouvez créer un import ou un export ponctuel depuis le nœud **[!UICONTROL Profils et Cibles > Traitements > Imports et exports génériques]** de l&#39;arborescence d&#39;Adobe Campaign.
 
 Vous pouvez ainsi :
 
@@ -42,11 +42,11 @@ Vous pouvez ainsi :
 
 ## Créer un modèle de traitement {#creating-a-job-template}
 
-Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
+Les modèles d&#39;import et d&#39;export sont stockés dans le répertoire **[!UICONTROL Ressources > Modèles > Modèles de traitement]** de l&#39;arborescence d&#39;Adobe Campaign.
 
 ![](assets/s_ncs_user_export_wizard_template.png)
 
-Par défaut, ce répertoire contient trois modèles d’importation et un modèle d’exportation. Elles ne doivent pas être modifiées. Vous pouvez les dupliquer pour créer vos propres modèles ou créer un nouveau modèle via le **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]** menu.
+Par défaut, trois modèles d&#39;import et un modèle d&#39;export sont présents dans ce répertoire. Ils ne doivent pas être modifiés. Vous pouvez les dupliquer pour créer vos propres modèles, ou créer un nouveau modèle à partir du menu **[!UICONTROL Nouveau > Modèle d&#39;import]**/**[!UICONTROL Modèle d&#39;export]**.
 
 ![](assets/s_ncs_user_export_wizard_template_create.png)
 
@@ -54,9 +54,9 @@ La procédure de création d’un modèle de processus est présentée dans [l�
 
 >[!NOTE]
 >
->The native template **[!UICONTROL Import blacklist]** is already configured to import a list of blacklisted e-mail addresses.
+>Le modèle natif **[!UICONTROL Import d&#39;un fichier repoussoir]** est déjà paramétré afin d&#39;importer une liste d&#39;emails en blackliste.
 > 
->Les **[!UICONTROL New text import]** modèles et **[!UICONTROL New text export]** les modèles vous permettent de configurer une importation ou une exportation à partir de zéro.
+>Les modèles **[!UICONTROL Nouvel import texte]** et **[!UICONTROL Nouvel export texte]** permettent de paramétrer un import ou un export en partant de zéro.
 
 ## Créer un import/export {#creating-a-new-import-export}
 
@@ -64,9 +64,9 @@ Une fois le modèle paramétré, les opérations d&#39;import et d&#39;export pe
 
 Ils permettent tous d&#39;ouvrir l&#39;assistant d&#39;[import](../../platform/using/importing-data.md) ou d&#39;[export](../../platform/using/exporting-data.md#export-wizard).
 
-* In the **[!UICONTROL Profiles and targets]** section of Adobe Campaign workspace, click the **[!UICONTROL Jobs]** link: this takes you to the list of existing imports and exports.
+* Dans la section **[!UICONTROL Profils et cibles]** de l&#39;espace de travail d&#39;Adobe Campaign, cliquez sur le lien **[!UICONTROL Traitements]** : vous accédez alors à la liste des imports et exports existants.
 
-   Click the **[!UICONTROL Create]** button and select the type of job you want to perform.
+   Cliquez sur le bouton **[!UICONTROL Créer]** et choisissez le type de traitement que vous souhaitez réaliser.
 
    ![](assets/s_ncs_user_import_from_home.png)
 
@@ -76,7 +76,7 @@ Ils permettent tous d&#39;ouvrir l&#39;assistant d&#39;[import](../../platform/u
 
 * Les imports et exports peuvent aussi être lancés à partir de l&#39;explorateur Adobe Campaign.
 
-   Pour exporter/importer des données, cliquez sur le **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** noeud, puis sur l’ **[!UICONTROL New]** icône, puis sélectionnez **[!UICONTROL Export]** ou **[!UICONTROL Import]**. L’assistant approprié s’ouvre.
+   Pour exporter/importer des données, cliquez sur le nœud **[!UICONTROL Profils et Cibles > Traitements > Imports et exports génériques]**, puis sur l&#39;icône **[!UICONTROL Nouveau]**, et sélectionnez **[!UICONTROL Export]** ou **[!UICONTROL Import]**. Vous accédez ainsi à l&#39;assistant correspondant.
 
    ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 
@@ -86,8 +86,8 @@ Le tracking de l&#39;exécution est visualisable dans la section supérieure de 
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
-* The **[!UICONTROL Log]** tab lets you look at log messages concerning execution.
-* L’ **[!UICONTROL Rejects]** onglet contient les enregistrements rejetés. See [Behavior in the event of an error](../../platform/using/importing-data.md#behavior-in-the-event-of-an-error).
+* L&#39;onglet **[!UICONTROL Journal]** permet de consulter les messages de logs relatifs à l&#39;exécution.
+* The **[!UICONTROL Rejects]** tab contains the rejected records. See [Behavior in the event of an error](../../platform/using/importing-data.md#behavior-in-the-event-of-an-error).
 
 >[!NOTE]
 >
