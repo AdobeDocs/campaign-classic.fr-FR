@@ -26,7 +26,7 @@ Vous pouvez conditionner l&#39;affichage de certains éléments d&#39;un rapport
 
 Pour rendre des éléments spécifiques conditionnels, adaptez leurs paramètres de visibilité. For more on this, refer to [Conditioning item display](#conditioning-item-display).
 
-Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de **[!UICONTROL Test]** type. Voir à ce sujet la section [Conditionner l&#39;affichage d&#39;une page](#conditioning-page-display).
+Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de type **[!UICONTROL Test]** . Voir à ce sujet la section [Conditionner l&#39;affichage d&#39;une page](#conditioning-page-display).
 
 ## Conditionner l&#39;affichage d&#39;un élément {#conditioning-item-display}
 
@@ -47,7 +47,7 @@ Dans le diagramme d&#39;un rapport, l&#39;activité **[!UICONTROL Test]** vous p
 Le principe de fonctionnement de cette activité est le suivant :
 
 1. Positionnez un **[!UICONTROL Test]** dans le diagramme puis éditez-le.
-1. Click the **[!UICONTROL Add]** button to create the various possible cases.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer les différents cas possibles.
 
    ![](assets/reporting_test_sample.png)
 
@@ -55,7 +55,7 @@ Le principe de fonctionnement de cette activité est le suivant :
 
    ![](assets/reporting_test_transitions.png)
 
-1. Select the **[!UICONTROL Enable default transition]** to add a transition, in case one of the configured conditions isn&#39;t met.
+1. Sélectionnez l&#39;option **[!UICONTROL Activer le branchement par défaut]** pour ajouter une transition, dans le cas où aucune des conditions paramétrées ne soit remplie.
 
    Voir à ce propos [cette section](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 
