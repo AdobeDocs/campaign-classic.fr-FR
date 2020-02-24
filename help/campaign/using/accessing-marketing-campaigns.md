@@ -34,9 +34,9 @@ Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
 Cliquez sur les liens de la barre de navigation pour accéder aux différents univers.
 
-Les éléments de campagne se trouvent dans l’ **[!UICONTROL Campaigns]** univers : vous trouverez ici un aperçu des programmes et campagnes marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, composées de livraisons, de tâches, de ressources liées, etc. Dans le cadre de la gestion des campagnes marketing à l’aide de Campaign, les informations concernant les livraisons, les budgets, les réviseurs et les documents liés sont disponibles dans les campagnes.
+Les éléments de campagne se trouvent dans l’univers **[!UICONTROL Campagnes]** : vous trouverez ici un aperçu des programmes et campagnes marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, composées de livraisons, de tâches, de ressources liées, etc. Dans le cadre de la gestion des campagnes marketing à l’aide de Campaign, les informations concernant les livraisons, les budgets, les réviseurs et les documents liés sont disponibles dans les campagnes.
 
-Le bloc de navigation de l’ **[!UICONTROL Campaigns]** univers propose différentes entrées, selon les modules installés sur l’instance. Vous pouvez, par exemple, accéder à :
+Le bloc de navigation de l&#39;univers **[!UICONTROL Campagnes]** offre plusieurs entrées, selon les modules installés sur l&#39;instance. Par exemple, vous pouvez accéder aux éléments suivants :
 
 * **Calendrier** de campagne : calendrier des plans, des programmes marketing, des livraisons et des campagnes. Reportez-vous au calendrier [](#campaign-calendar)des campagnes.
 * **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
@@ -51,13 +51,13 @@ Le bloc de navigation de l’ **[!UICONTROL Campaigns]** univers propose différ
 
 ### Calendrier des campagnes {#campaign-calendar}
 
-Chaque campagne appartient à un programme qui appartient à son tour à un plan. Les plans, les programmes et les campagnes sont accessibles via le **[!UICONTROL Campaign calendar]** menu de l’univers **Campagnes** .
+Chaque opération s&#39;inscrit dans un programme, lui-même inscrit dans un plan. Les plans, programmes et leurs opérations sont accessibles à partir du menu **[!UICONTROL Calendrier des campagnes]** de l&#39;univers **Campagnes**.
 
-To edit a plan, program, campaign or delivery, click its name in the calendar and then click **[!UICONTROL Open...]**. It is then displayed in a new tab, as shown below:
+Pour éditer un plan, un programme, une opération ou une diffusion, cliquez sur son nom dans le calendrier, puis sur le lien **[!UICONTROL Ouvrir...]**. L&#39;élément visé est alors affiché dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/d_ncs_user_interface_hierar.png)
 
-Vous pouvez filtrer les informations affichées dans le calendrier de campagne. Pour ce faire, cliquez sur le **[!UICONTROL Filter]** lien et sélectionnez les critères de filtrage.
+Vous pouvez filtrer les informations affichées dans le calendrier des campagnes. Pour cela, cliquez sur le lien **[!UICONTROL Filtrer]** et sélectionnez les critères de filtrage.
 
 ![](assets/campaign_planning_filter.png)
 
@@ -65,7 +65,7 @@ Vous pouvez filtrer les informations affichées dans le calendrier de campagne. 
 >
 >Lorsque vous filtrez sur une date, toutes les opérations dont la date de début est postérieure à la date indiquée et/ou dont la date de fin est antérieure à la date indiquée seront affichées. Les dates doivent être sélectionnées au travers des calendriers proposés à droite de chacun des champs.
 
-You can also use the **[!UICONTROL Search]** field to filter the displayed items.
+Vous pouvez également utiliser le champ **[!UICONTROL Rechercher]** pour filtrer les éléments affichés.
 
 Les icônes associées à chaque élément vous permettent de visualiser son statut : terminé, en cours, en édition, etc.
 
@@ -89,9 +89,9 @@ Lorsque vous éditez un programme, utilisez les onglets présentés ci-dessous p
 
 #### Parcourir les opérations {#browsing-campaigns}
 
-Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]** tab of the program, or the list of campaigns.
+Vous pouvez accéder aux opérations à partir du calendrier des campagnes, de l&#39;onglet **[!UICONTROL Planning]** du programme ou à partir de la liste des opérations.
 
-1. Via the campaign calendar, select the campaign you want to display, then click the **[!UICONTROL Open]** link.
+1. Depuis le calendrier des campagnes, sélectionnez l&#39;opération à afficher puis cliquez sur le lien **[!UICONTROL Ouvrir]**.
 
    ![](assets/campaign_planning_edit_op.png)
 
@@ -99,8 +99,8 @@ Campaigns can be accessed via the campaign calendar, the **[!UICONTROL Schedule]
 
    ![](assets/campaign_op_edit.png)
 
-1. Via the **[!UICONTROL Schedule]** tab of the program, the edit mode is the same as via the campaign calendar.
-1. Via the **[!UICONTROL Campaigns]** link of the **[!UICONTROL Campaigns]** universe, click the name of the campaign you want to edit.
+1. Depuis l&#39;onglet **[!UICONTROL Planning]** du programme, le mode d&#39;édition est le même que depuis le calendrier des campagnes.
+1. Depuis le lien **[!UICONTROL Opérations]** de l&#39;univers des **[!UICONTROL Campagnes]**, cliquez sur le nom de l&#39;opération à éditer.
 
    ![](assets/campaign_edit_from_list.png)
 
@@ -136,7 +136,7 @@ For more on this, refer to [Discussion forums](../../campaign/using/discussion-f
 
 #### Rapports {#reports}
 
-The **[!UICONTROL Reports]** link lets you access the campaign reports.
+Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;opération.
 
 ![](assets/campaign_reporting_tab.png)
 
@@ -156,7 +156,7 @@ Les opérations sont créées à partir de modèles d&#39;opérations : vous pou
 
 >[!NOTE]
 >
->To access the campaign configurations and make changes to them, click the **[!UICONTROL Advanced campaign parameters...]** link in the **[!UICONTROL Edit]** tab. Pour plus d’informations sur la définition de paramètres au niveau de la campagne afin que les remises héritent automatiquement des valeurs, voir [notre note technique](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]** Pour plus d’informations sur la définition de paramètres au niveau de la campagne afin que les remises héritent automatiquement des valeurs, voir [notre note technique](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
