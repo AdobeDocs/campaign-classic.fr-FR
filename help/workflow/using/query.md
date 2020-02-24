@@ -35,7 +35,7 @@ Pour plus d&#39;informations sur les exemples de requêtes, consultez cette [sec
 
 For more on using and managing additional data, refer to [Adding data](#adding-data).
 
-The **[!UICONTROL Edit query...]** link lets you define the targeting type, the restrictions, and the selection criteria for the population in the following way:
+Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de ciblage, les restrictions et les critères de sélection de la population de la manière suivante :
 
 1. Sélectionnez la dimension de ciblage et de filtrage. Par défaut, la cible est sélectionnée parmi les destinataires. La liste des filtres de restriction est la même que celle utilisée lors du ciblage d&#39;une diffusion.
 
@@ -47,21 +47,21 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
    ![](assets/s_user_segmentation_query_edit.png)
 
-   A query can be based on data from the inbound transition, if necessary, by selecting **[!UICONTROL Temporary schema]** when choosing targeting and filtering dimensions.
+   Une requête peut être basée sur les données de la transition entrante, le cas échéant, en sélectionnant **[!UICONTROL Schéma temporaire]** lors du choix des dimensions de ciblage et de filtrage.
 
    ![](assets/query_temporary_table.png)
 
-1. Définissez les populations à l’aide de l’assistant. Les champs à saisir peuvent différer selon le type de cible. Vous pouvez prévisualiser la population ciblée avec vos critères actuels à l’aide de l’ **[!UICONTROL Preview]** onglet.
+1. Définissez la sélection des populations via l&#39;assistant. Les champs à renseigner peuvent différer en fonction du type de cible. Vous pouvez afficher un aperçu de la population ciblée avec vos critères actuels via l&#39;onglet **[!UICONTROL Aperçu]**.
 
    La création et l&#39;utilisation des filtres et des requêtes sont présentées dans cette [section](../../platform/using/filtering-options.md).
 
    ![](assets/s_user_segmentation_wizard.png)
 
-1. If you have selected **[!UICONTROL Filtering conditions]** at step 1 or using the **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** option, then you will have to manually add filtering criteria later on.
+1. Ajoutez éventuellement des critères de filtrage manuellement si vous avez sélectionné **[!UICONTROL Critères de filtrage]** à l&#39;étape 1 ou via l&#39;option **[!UICONTROL Filtres]** > **[!UICONTROL Filtre avancé...]**.
 
    Vous pouvez également ajouter des conditions de groupement de données en cochant la case correspondante. Pour cela, la dimension de filtrage doit impérativement être différente de la dimension de ciblage de la requête. Pour plus d&#39;informations concernant le groupement, consultez cette [section](../../workflow/using/querying-using-grouping-management.md).
 
-   Vous pouvez également ajouter d’autres critères à l’aide du générateur d’expression et le combiner avec les options logiques ET, OU et EXCEPT. Vous pouvez ensuite afficher un aperçu de la combinaison **[!UICONTROL Corresponding SQL query...]** de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
+   Vous pouvez ajouter plusieurs critères en vous aidant de l&#39;outil de construction d&#39;expressions et les combiner via les opérateurs logiques ET, OU et SAUF. Vous pouvez ensuite afficher la **[!UICONTROL Requête SQL correspondante...]** à votre combinaison de critères. Voir à ce propos cette [section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
    Enregistrez votre filtre si vous souhaitez pouvoir le réutiliser ultérieurement.
 
@@ -71,7 +71,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
 Les colonnes additionnelles permettent de collecter des informations supplémentaires sur la population ciblée, par exemple ses numéros de contrats, ses abonnements à des newsletters ou son origine. Ces données peuvent être stockées dans la base de données Adobe Campaign ou dans une base externe.
 
-The **[!UICONTROL Add data...]** link lets you select the additional data to collect.
+Le lien **[!UICONTROL Ajouter des données...]** permet de sélectionner les données additionnelles à collecter.
 
 ![](assets/wf_add_data_link.png)
 
@@ -79,9 +79,9 @@ Sélectionnez d&#39;abord le type de données à ajouter :
 
 ![](assets/wf_add_data_1st_option.png)
 
-* Sélectionnez **[!UICONTROL Data linked to the filtering dimension]** les données dans la base de données Adobe Campaign.
-* Sélectionnez **[!UICONTROL External data]** pour ajouter des données à partir d’une base de données externe. Cette option n’est disponible que si vous avez acheté l’option Accès **aux données** fédérées. For more on this, refer to [Accessing an external database (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
-* Sélectionnez l’ **[!UICONTROL An offer proposition]** option pour ajouter un ensemble de colonnes qui vous permet de stocker la meilleure proposition générée par le moteur d’offre. This option is only available if you have purchased the **Interaction** module.
+* Sélectionnez **[!UICONTROL Données liées à la dimension de ciblage]** pour sélectionner des données de la base Adobe Campaign.
+* Select **[!UICONTROL External data]** to add data from an external database. This option is only available if you have purchased the **Federated Data Access** option. For more on this, refer to [Accessing an external database (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
+* Sélectionnez l&#39;option **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n&#39;est disponible que si vous avez acquis le module **Interaction**.
 
 Si aucun module optionnel n&#39;est installé sur la plate-forme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
 
@@ -98,20 +98,20 @@ Pour ajouter des données de la base Adobe Campaign :
    Vous pouvez ajouter :
 
    * Champ calculé sur la base de données provenant de la population ciblée ou d’un total (nombre d’achats en attente au cours du dernier mois, montant moyen d’un reçu, etc.). Par exemple, accédez à [Sélection de données](../../workflow/using/targeting-data.md#selecting-data).
-   * A new field, created using the **[!UICONTROL Add]** button to the right of the list of output columns.
+   * Un nouveau champ, créé à partir du bouton **[!UICONTROL Ajouter]** situé à droite de la liste des colonnes de sortie.
 
       Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières livraisons, etc. Les collections coïncident avec des champs pouvant avoir plusieurs valeurs pour le même profil (relation 1-N). Pour plus d’informations, reportez-vous à la section [Modification de données](../../workflow/using/targeting-data.md#editing-additional-data)supplémentaires.
 
 Pour ajouter une collection d&#39;informations liées à une population ciblée :
 
-1. À la première étape de l’assistant, sélectionnez l’ **[!UICONTROL Data linked to the filtering dimension]** option :
-1. Select the table which contains the information you want to collect and click **[!UICONTROL Next]**.
+1. Sélectionnez l&#39;option **[!UICONTROL Données liées à la dimension de filtrage]** à la première étape de l&#39;assistant :
+1. Sélectionnez la table contenant les informations à collecter et cliquez sur le bouton **[!UICONTROL Suivant.]**
 
    ![](assets/wf_add_data_linked_table.png)
 
-1. Si nécessaire, indiquez le nombre d’éléments de la collection que vous souhaitez conserver en sélectionnant l’une des valeurs du **[!UICONTROL Data collected]** champ. Par défaut, toutes les lignes de la collection sont récupérées, puis filtrées selon les conditions spécifiées à l’étape suivante.
+1. Au besoin, indiquez le nombre d&#39;éléments de la collection que vous souhaitez conserver en sélectionnant une des valeurs du champ **[!UICONTROL Données collectées]**. Par défaut, toutes les lignes de la collection sont récupérées, puis filtrées selon les conditions définies à l&#39;étape suivante.
 
-   * If a single element of the collection coincides with the filtering conditions for this collection, select **[!UICONTROL Single row]** in the **[!UICONTROL Data collected]** field.
+   * Si un seul élément de la collection correspond aux conditions de filtrage définies à l&#39;étape suivante, sélectionnez **[!UICONTROL Ligne unique]** dans le champ **[!UICONTROL Données collectées]**.
 
       >[!IMPORTANT]
       >
@@ -119,15 +119,15 @@ Pour ajouter une collection d&#39;informations liées à une population ciblée�
       >
       >Si la condition initiale n&#39;est pas respectée, le résultat peut être erroné (lignes manquantes ou doublons).
 
-   * If you choose to recover several lines (**[!UICONTROL Limit the line count]**) you can specify the number of lines to collect.
-   * Si les colonnes collectées contiennent des agrégats, par exemple le nombre d&#39;échecs déclarés, la dépense moyenne sur un site, etc. vous pouvez utiliser la **[!UICONTROL Aggregates]** valeur.
+   * Si vous choisissez de récupérer plusieurs lignes (**[!UICONTROL Limiter le nombre de lignes]**), vous pouvez indiquer le nombre de lignes à collecter.
+   * Si les colonnes collectées contiennent des agrégats, par exemple le nombre de sinistres déclarés, la moyenne des dépenses sur un site, etc., vous pouvez utiliser la valeur **[!UICONTROL Agrégats]**.
    ![](assets/query_add_collection_param.png)
 
 1. Définissez la sous-sélection des éléments de la collection. Par exemple : les achats des 15 derniers jours seulement.
 
    ![](assets/query_add_columns_collection_filter.png)
 
-1. Si vous avez sélectionné l’ **[!UICONTROL Limit the line count]** option, définissez l’ordre dans lequel les données collectées doivent être filtrées. Une fois que le nombre de lignes collectées est supérieur au nombre de lignes que vous avez indiqué de conserver, l’ordre de filtrage vous permet de spécifier les lignes à conserver.
+1. Si vous avez sélectionné l&#39;option **[!UICONTROL Limiter le nombre de lignes]**, définissez l&#39;ordre de tri des données collectées. Lorsque le nombre de lignes collectées est supérieur au nombre de lignes à conserver que vous avez indiqué, l&#39;ordre de tri permet de définir quelles sont les lignes à conserver.
 
 ## Exemple : ciblage sur des attributs destinataires simples {#example--targeting-on-simple-recipient-attributes}
 
@@ -137,8 +137,8 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 >
 >D&#39;autres exemples de requête sont présentés dans [cette section](../../workflow/using/querying-recipient-table.md).
 
-1. Name your query then select the **[!UICONTROL Edit query...]** link.
-1. Select **[!UICONTROL Filtering conditions]** in the list of types of filter available.
+1. Nommez votre requête puis sélectionnez le lien **[!UICONTROL Editer la requête...]**.
+1. Sélectionnez **[!UICONTROL Critères de filtrage]** dans la liste des types de filtres disponibles.
 1. Renseignez les différents critères correspondant à la cible souhaitée. Ici, les critères sont combinés à l’aide de l’opérateur ET. Pour faire partie de la sélection, ils devront donc réunir les quatre conditions suivantes :
 
    * Les destinataires dont la civilité est &quot;M.&quot; (également possible en utilisant le champ **Genre** et la valeur **Masculin**).
@@ -155,8 +155,8 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 
    ![](assets/query_example_preview.png)
 
-1. Save your filters so that you can use them again at a later date by clicking **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
-1. Continue editing your workflow by adding other activities to it. Once it has been launched and the previous query step finished, the number of recipients found will be displayed. You can display further details using the mouse pop-up menu (right click the transition > **[!UICONTROL Display the target...]**).
+1. Sauvegardez éventuellement vos filtres pour pouvoir les réutiliser ultérieurement puis cliquez sur **[!UICONTROL Terminer]** > **[!UICONTROL Ok]**.
+1. Poursuivez l&#39;édition de votre workflow en y ajoutant d&#39;autres activités. Une fois ce dernier lancé et l&#39;étape de la requête précédemment créée terminée, le nombre de destinataires trouvés s&#39;affiche. Vous pouvez en afficher le détail via le menu contextuel de la souris (clic droit sur la transition > **[!UICONTROL Afficher la cible]**).
 
    ![](assets/query_example_result.png)
 
@@ -166,9 +166,9 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
 * schema
 * recCount
 
-Cet ensemble de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identificateurs cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:destinataire) et **[!UICONTROL recCount]** est le nombre d’éléments de la table.
+Ce triplet de valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
-Cette valeur correspond au schéma de la table de travail. Ce paramètre est valide pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
+Cette valeur est le schéma de la table de travail. Ce paramètre est valable pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
 
 ## Optimisation de vos requêtes {#optimizing-queries}
 
