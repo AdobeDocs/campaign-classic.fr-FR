@@ -80,9 +80,9 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur le **[!UICONTROL Edit the dynamic condition...]** lien, voir Cas d’ [utilisation : sélection des adresses de départ sur des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
+   >**[!UICONTROL Pour plus d&#39;informations sur la]** modification de la condition dynamique... , reportez-vous à la [page Cas d’utilisation : sélection des adresses de départ sur des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
-1. Click the **[!UICONTROL Preview]** tab then select a seed address to test the personalization.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** puis sélectionnez une adresse de contrôle pour tester la personnalisation.
 
    ![](assets/dlv_seeds_usecase_28.png)
 
@@ -90,7 +90,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    La subsitution aléatoire des champs s&#39;effectue **au moment de l&#39;envoi de la diffusion**.
 
-1. Cliquez sur le **[!UICONTROL Send]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Envoyer]**.
 1. Analysez votre diffusion puis **confirmez l&#39;envoi**.
 
    Les adresses de contrôle reçoivent la diffusion dans leur boîte email.
