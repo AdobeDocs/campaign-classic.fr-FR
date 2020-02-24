@@ -29,21 +29,21 @@ You can extract data from a workflow table in an external file using the **[!UIC
 Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
 
 1. Indiquez le nom du fichier de sortie : ce nom peut contenir des variables, insérées à partir du bouton de personnalisation situé à droite du champ.
-1. Cliquez sur **[!UICONTROL Edit the file format...]** pour sélectionner les données à extraire.
+1. Cliquez sur **[!UICONTROL Editer le format du fichier...]** pour sélectionner les données à extraire.
 
    ![](assets/s_advuser_extract_file_param.png)
 
-   The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option adds an extra step to filter the final result of the aggregate, for example on a given purchase order type, customers who have ordered more than 10 times, etc.
+   L&#39;option **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** ajoute une étape supplémentaire afin de filtrer sur le résultat final de l&#39;agrégat, par exemple sur tel type de commande, sur les clients ayant passé plus de 10 commandes, etc.
 
-1. Si nécessaire, vous pouvez ajouter de nouvelles colonnes au fichier de sortie, telles que le calcul ou les résultats de traitement, par exemple. To do this, click the **[!UICONTROL Add]** icon
+1. Au besoin, vous pouvez ajouter de nouvelles colonnes dans le fichier de sortie, résultat de calculs ou de traitements sur les données par exemple. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Ajouter]**.
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
-   In the additional line, click the **[!UICONTROL Edit expression]** icon to define the content of the new column.
+   Dans la ligne supplémentaire, cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** pour définir le contenu de la nouvelle colonne.
 
    ![](assets/s_advuser_extract_file_add_exp.png)
 
-   Vous accédez alors à la fenêtre de sélection. Cliquez sur **[!UICONTROL Advanced selection]** pour choisir le processus à appliquer aux données.
+   Vous accédez alors à la fenêtre de sélection. Cliquez sur **[!UICONTROL Sélection avancée]** afin de choisir le traitement à effectuer sur les données.
 
    ![](assets/s_advuser_extract_file_advanced_selection.png)
 
@@ -55,12 +55,12 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
 
 Les fonctions d&#39;agrégat disponibles sont les suivantes :
 
-* **[!UICONTROL Count]** pour comptabiliser toutes les valeurs non nulles du champ à agréger, y compris les valeurs en double (du champ agrégé),
+* **[!UICONTROL Comptage]** pour compter toutes les valeurs non-nulles du champ à agréger, y compris les valeurs en double (du champ agrégé),
 
-   **[!UICONTROL Distinct]** Comptage   pour compter le nombre total de valeurs différentes et non nulles du champ à agréger (les valeurs en double sont éliminées avant le calcul),
+   **[!UICONTROL Comptage distinct]** pour compter le nombre total de valeurs différentes et non nulles du champ à agréger (les valeurs en double sont éliminées avant le calcul),
 
-* **[!UICONTROL Sum]** pour calculer la somme des valeurs d’un champ numérique,
-* **[!UICONTROL Minimum value]** pour calculer les valeurs minimales d’un champ (numériques ou autres),
-* **[!UICONTROL Maximum value]** pour calculer les valeurs maximales d’un champ (numériques ou autres),
-* **[!UICONTROL Average]** pour calculer la moyenne des valeurs d’un champ numérique.
+* **[!UICONTROL Somme]** pour calculer la somme des valeurs d&#39;un champ numérique,
+* **[!UICONTROL Minimum]** pour calculer le minimum des valeurs d&#39;un champ (numérique ou non),
+* **[!UICONTROL Maximum]** pour calculer le maximum des valeurs d&#39;un champ (numérique ou non),
+* **[!UICONTROL Moyenne]** pour calculer la moyenne des valeurs d&#39;un champ numérique.
 
