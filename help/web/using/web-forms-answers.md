@@ -24,13 +24,13 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## Champs de stockage des réponses {#response-storage-fields}
 
-Les réponses aux formulaires peuvent être enregistrées dans un champ de la base de données ou temporairement dans une variable locale. Le mode de stockage des réponses est choisi lors de la création de champs. Il peut être modifié via le **[!UICONTROL Edit storage...]** lien.
+Les réponses aux formulaires peuvent être enregistrées dans un champ de la base ou temporairement dans une variable locale. Le mode de stockage des réponses est sélectionné lors de la création d&#39;un champ. Il peut être modifié à partir du lien **[!UICONTROL Editer le stockage...]**.
 
 Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivantes sont disponibles :
 
 ![](assets/s_ncs_admin_survey_select_storage.png)
 
-* **[!UICONTROL Edit a recipient]**
+* **[!UICONTROL Editer un destinataire]**
 
    Vous pouvez sélectionner un champ de la base de données : les réponses des utilisateurs seront stockées dans ce champ. Pour chaque utilisateur, seule la dernière valeur saisie est enregistrée : il est ajouté à leur profil : Reportez-vous à [Stockage des données dans la base de données](#storing-data-in-the-database).
 
@@ -40,13 +40,13 @@ Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivant
 
 ### Storing data in the database {#storing-data-in-the-database}
 
-To save the data in an existing field of the database, click the **[!UICONTROL Edit expression]** icon and select it from the list of available fields.
+Pour enregistrer les données dans un champ existant de la base de données, cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** et sélectionnez-le dans la liste des champs disponibles.
 
 ![](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
->Le document de référence par défaut est le schéma **nms:Recipient** . Pour l’afficher ou en choisir un nouveau, sélectionnez le formulaire dans la liste, puis cliquez sur le **[!UICONTROL Properties]** bouton .
+>Le document de référence par défaut est le schéma des destinataires **nms:recipient**. Pour le visualiser ou en choisir un nouveau, sélectionnez le formulaire dans la liste et cliquez sur le bouton **[!UICONTROL Propriétés]**.
 
 ### Stocker les données dans une variable locale {#storing-data-in-a-local-variable}
 
@@ -56,11 +56,11 @@ Ainsi, vous pouvez utiliser la valeur d&#39;un champ non enregistré pour autori
 
 ![](assets/s_ncs_admin_survey_no_storage_variable.png)
 
-It is stored in a variable which must be selected when the drop-down box is created, or via the **[!UICONTROL Edit storage...]** link.
+Il est enregistré dans une variable qui doit être sélectionnée lors de la création de la liste déroulante ou via le lien **[!UICONTROL Editer le stockage...]**.
 
 ![](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
-Vous pouvez afficher les variables existantes et en créer de nouvelles par le **[!UICONTROL Edit variables...]** lien. Click the **[!UICONTROL Add]** button to create a new variable.
+Vous pouvez afficher les variables existantes et créer de nouvelles variables à partir du lien **[!UICONTROL Editer les variables...]**. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle variable.
 
 ![](assets/s_ncs_admin_survey_add_a_variable.png)
 
@@ -68,11 +68,11 @@ La variable ajoutée sera disponible dans la liste des variables locales lors de
 
 >[!NOTE]
 >
->Pour chaque formulaire, vous pouvez créer des variables en amont. Pour ce faire, sélectionnez le formulaire et cliquez sur le **[!UICONTROL Properties]** bouton. L’ **[!UICONTROL Variables]** onglet contient les variables locales du formulaire.
+>Pour chaque formulaire, les variables peuvent être créées en amont. Pour cela, sélectionnez le formulaire et cliquez sur le bouton **[!UICONTROL Propriétés]**. L&#39;onglet **[!UICONTROL Variables]** regroupe les variables locales pour le formulaire.
 
 **Exemple de stockage local avec conditionnement**
 
-In the above example, the container that includes data concerning private vehicles is displayed only if the **[!UICONTROL Private]** option is selected from the drop-down list, as indicated in the visibility condition:
+Dans l&#39;exemple ci-dessus, le conteneur PARTICULIER (qui regroupe les données relatives aux véhicules particuliers) n&#39;est affiché que si l&#39;option **[!UICONTROL Particulier]** est sélectionnée dans la liste déroulante, comme indiqué dans la condition de visibilité :
 
 ![](assets/s_ncs_admin_survey_add_a_condition.png)
 
@@ -122,7 +122,7 @@ Pour enregistrer les informations collectées dans les pages d&#39;un formulaire
 
 Deux modes d&#39;utilisation de cette boîte sont possibles :
 
-* Si vous accédez au formulaire Web par le biais d’un lien envoyé par courrier électronique et si l’utilisateur qui accède à l’application se trouve déjà dans la base de données, vous pouvez sélectionner l’ **[!UICONTROL Update the preloaded record]** option. Pour plus d’informations, reportez-vous à la section [Diffusion d’un formulaire par courrier électronique](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
+* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. Pour plus d’informations, reportez-vous à la section [Diffusion d’un formulaire par courrier électronique](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
 
    Dans ce cas, Adobe Campaign utilise la clé primaire chiffrée du profil utilisateur, identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez configurer les informations à précharger via la zone de préchargement. Pour plus d’informations, reportez-vous à la section [Préchargement des données](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)de formulaire.
 
@@ -134,7 +134,7 @@ Deux modes d&#39;utilisation de cette boîte sont possibles :
 
    ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-Par défaut, les données sont importées dans la base de données par une **[!UICONTROL Update or insertion]** opération : s’il existe dans la base de données, l’élément est mis à jour (par exemple, le bulletin d’information sélectionné ou l’adresse électronique saisie). S’il n’existe pas, les informations sont ajoutées.
+Par défaut, les données sont importées dans la base par une opération de **[!UICONTROL Mise à jour ou insertion]** : s&#39;il existe dans la base, l&#39;élément est mis à jour (par exemple la newsletter choisie ou l&#39;email renseigné). S&#39;il n&#39;existe pas, l&#39;information est ajoutée.
 
 Vous pouvez toutefois modifier ce comportement. Pour cela, sélectionnez la racine de l&#39;élément et choisissez, dans la liste déroulante, l&#39;opération à effectuer :
 
@@ -144,7 +144,7 @@ Vous pouvez sélectionner un dossier de recherche pour la réconciliation et le 
 
 >[!NOTE]
 >
->Les opérations possibles sont les suivantes : **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
+>Les opérations possibles sont : **[!UICONTROL Réconciliation seule]**,**[!UICONTROL Mise à jour ou insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Mise à jour]**, **[!UICONTROL Suppression]**.\
 >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire.\
 >Consultez [cette section](../../platform/using/access-management.md).
 
