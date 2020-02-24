@@ -26,11 +26,11 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 Pour créer une offre, procédez comme suit :
 
-1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Offers]** link.
+1. Positionnez-vous sur l&#39;univers **[!UICONTROL Campagnes]** et cliquez sur le lien **[!UICONTROL Offres]**.
 
    ![](assets/offer_create_001.png)
 
-1. Cliquez sur le **[!UICONTROL Create]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/offer_create_005.png)
 
@@ -38,7 +38,7 @@ Pour créer une offre, procédez comme suit :
 
    ![](assets/offer_create_002.png)
 
-1. Click **[!UICONTROL Save]** to create the offer.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer l&#39;offre.
 
    ![](assets/offer_create_003.png)
 
@@ -48,7 +48,7 @@ Pour créer une offre, procédez comme suit :
 
 ## Paramétrer l&#39;éligibilité d&#39;une offre {#configuring-offer-eligibility}
 
-In the **[!UICONTROL Eligibility]** tab, define the period the offer will be valid for and can be presented, the filters to apply to the target and the offer weight.
+Dans l&#39;onglet **[!UICONTROL Eligibilité de l&#39;offre]**, vous définissez la période pendant laquelle l&#39;offre est valable et peut être présentée, les filtres à appliquer à la cible et le poids de l&#39;offre.
 
 ### Définir la période d&#39;éligibilité d&#39;une offre {#defining-the-eligibility-period-of-an-offer}
 
@@ -62,7 +62,7 @@ En dehors de ces dates, l&#39;offre ne sera pas sélectionnée par le moteur d&#
 
 Vous pouvez appliquer des filtres sur la cible de l&#39;offre.
 
-Pour ce faire, cliquez sur le **[!UICONTROL Edit query]** lien et sélectionnez le filtre à appliquer. (Consultez [cette section](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)).
+Pour cela, cliquez sur le lien **[!UICONTROL Edition de la requête]** et sélectionnez le filtre que vous souhaitez appliquer. (Reportez-vous à [cette section](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)).
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -84,7 +84,7 @@ Par exemple, une offre peut avoir un poids A pour les contacts âgés de 18 à 2
 
 Pour créer un poids dans une offre, procédez comme suit :
 
-1. Clics **[!UICONTROL Add]**.
+1. Cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](assets/offer_weight_create_001.png)
 
@@ -120,22 +120,22 @@ Pour créer un poids dans une offre, procédez comme suit :
 
 Une fois le paramétrage terminé, un résumé des règles d&#39;éligibilité est disponible dans le tableau de bord de l&#39;offre.
 
-Pour l’afficher, cliquez sur le **[!UICONTROL Schedule and eligibility rules]** lien.
+Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;éligibilités de l&#39;offre]**.
 
 ![](assets/offer_eligibility_create_005.png)
 
 ## Créer le contenu de l&#39;offre {#creating-the-offer-content}
 
-1. Click the **[!UICONTROL Edit]** tab, then click the **[!UICONTROL Content]** tab.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Edition]** de l&#39;offre, puis sur l&#39;onglet **[!UICONTROL Contenu]**.
 
    ![](assets/offer_content_create_001.png)
 
 1. Complétez les différents champs du contenu de l&#39;offre.
 
-   * **[!UICONTROL Title]** : Indiquez le titre que vous souhaitez faire apparaître dans votre offre. Avertissement : il ne s’agit pas du libellé de l’offre, défini dans l’ **[!UICONTROL General]** onglet.
-   * **[!UICONTROL Destination URL]** : spécifiez l’URL de votre offre. Pour être traité correctement, il doit commencer par &quot;http://&quot; ou &quot;https://&quot;.
-   * **[!UICONTROL Image URL]** : spécifiez une URL ou un chemin d’accès à l’image de votre offre.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : entrez le corps de votre offre dans l’onglet de votre choix. Pour générer le suivi, il **[!UICONTROL HTML content]** doit être composé d’éléments HTML pouvant être inclus dans un élément `<div>` de type. Par exemple, le résultat d’un `<table>` élément dans la page HTML sera le suivant :
+   * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s&#39;agit pas du libellé de l&#39;offre défini dans l&#39;onglet **[!UICONTROL Général]**.
+   * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traitée correctement, elle doit impérativement débuter par &quot;http://&quot; ou &quot;https://&quot;.
+   * **[!UICONTROL URL de l&#39;image]** : indiquez une URL ou un chemin d&#39;accès vers l&#39;image de votre offre.
+   * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le suivi, le contenu **** HTML doit être composé d’éléments HTML qui peuvent être placés dans un élément de `<div>` type. Par exemple, le résultat d’un `<table>` élément dans la page HTML sera le suivant :
 
    ```
       <div> 
@@ -156,7 +156,7 @@ Pour l’afficher, cliquez sur le **[!UICONTROL Schedule and eligibility rules]*
 
    ![](assets/offer_content_create_002.png)
 
-   Pour rechercher les champs obligatoires tels qu’ils ont été définis lors de la configuration de l’espace d’offre, cliquez sur le **[!UICONTROL Content definitions]** lien pour afficher la liste. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_content_create_003.png)
 
@@ -166,7 +166,7 @@ Pour l’afficher, cliquez sur le **[!UICONTROL Schedule and eligibility rules]*
 
 Dès lors que le contenu de votre offre a été paramétré, vous pouvez prévisualiser l&#39;offre telle qu&#39;elle apparaîtra pour son destinataire. Pour cela :
 
-1.  Cliquez sur l’ **[!UICONTROL Preview]** onglet.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]**.
 
    ![](assets/offer_preview_create_001.png)
 
@@ -186,7 +186,7 @@ Vous avez la possibilité de créer des hypothèses sur vos propositions d&#39;o
 >
 >Ces hypothèses sont réalisées à l&#39;aide du module Response Manager. Vérifiez votre contrat de licence.
 
-Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
+Les hypothèses réalisées sur une proposition d&#39;offre sont référencées au niveau de leur onglet **[!UICONTROL Mesure]**.
 
 La création des hypothèses est expliquée dans le détail sur [cette page](../../campaign/using/about-response-manager.md).
 
