@@ -58,12 +58,12 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * Les logs d&#39;archivage des emails ont été améliorés, ce qui permet de vérifier plus facilement et plus clairement quels emails ont été diffusés avec succès ou non via l&#39;archivage BCC. (NEO-10675)
 * Correction d&#39;une erreur qui entraînait l&#39;affichage des adresses IP des équilibreurs de charge au lieu de celles des clients dans les broadlogs de tracking. (NEO-11295)
 * Correction d&#39;une erreur liée au codage LATIN1 lors de l&#39;utilisation d&#39;une connexion FDA à une base de données PostgreSQL.(NEO-11299)
-* Correction d’un problème survenant lors de l’utilisation de l’option **[!UICONTROL Prepare the personalization data with a workflow]** de remise. (NEO-11047, NEO-11301)
+* Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation de l&#39;option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow.]** (NEO-11047, NEO-11301)
 * Correction d&#39;une erreur aléatoire qui entraînait le remplacement incorrect des propriétés d&#39;une diffusion. (NEO-11015)
-* Fixed an issue when using calculated fields in a **[!UICONTROL Survey answers]** workflow activity. (NEO-11382)
-* Correction d’un problème lors de l’utilisation de données stockées dans XML dans une activité de **[!UICONTROL Survey answers]** flux de travail. (NEO-10816)
+* Correction d&#39;une erreur lors de l&#39;utilisation de champs calculés dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-11382)
+* Correction d’un problème lors de l’utilisation de données stockées dans XML dans une activité de flux de travail des réponses **** Survey. (NEO-10816)
 * Correction d’un problème lors de la mise à niveau du serveur avec la version 8935.
-* Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.
+* Correction d&#39;un problème qui affichait des erreurs inutiles dans le log de postupgrade lorsqu&#39;une activité de workflow **[!UICONTROL Réponses au questionnaire]** n&#39;était pas entièrement configurée.
 * Teradata de la FDA : correction d’un problème lié aux champs et index auto-incrémentés dans les tables SQL.
 
 ## Version 18.4.3 - Version 8935{#release-18-4-3-build-8935}
@@ -76,7 +76,7 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * Correction d’une erreur avec la personnalisation du lien de l’image dans les diffusions LINE. (NEO-11077)
 * Correction d’une erreur qui empêchait le bon fonctionnement du mécanisme de génération de séquence d’identifiants. (NEO-11115)
 * Correction d’une erreur qui empêchait les demandes d’accès à des informations personnelles (RGPD) de fonctionner lors de l’utilisation d’un espace de nommage personnalisé avec une clé de réconciliation de type entier. (NEO-11123)
-* Correction d’une erreur qui pouvait se produire lors de l’utilisation de l’ **[!UICONTROL Distribution of values]** option dans les activités de **[!UICONTROL Query]** processus. (NEO-10958)
+* Correction d’une erreur qui pouvait survenir lors de l’utilisation de l’option **[!UICONTROL Répartition des valeurs]** dans les activités de workflow **[!UICONTROL Requête]**. (NEO-10958)
 * Correction d’une erreur lors de la synchronisation des emplacements de l’instance marketing vers l’instance d’interaction. (NEO-11162)
 * Amélioration de la gestion des index aux noms longs lors du postupgrade.
 
@@ -87,7 +87,7 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 **Améliorations**
 
 * Correction d’une erreur qui empêchait Windows Server d’être mis à jour correctement.
-* Correction d’un problème dans l’ **[!UICONTROL Survey Result]** activité lors de l’utilisation de données stockées dans XML. Le rapport s’affichait incorrectement. (NEO-10816)
+* Correction d’une erreur dans l’activité **[!UICONTROL Résultat du questionnaire]** lors de l’utilisation de données stockées en XML. Le rapport ne s’affichait pas correctement. (NEO-10816)
 * Correction d’un problème de performance qui pouvait se produire avec le processus inMail lors de l’utilisation d’un serveur de mails rebonds. (NEO-10641)
 * Correction d’un problème de mise à niveau de la base de données qui pouvait survenir lors de la mise à niveau de plus de 1 000 schémas.
 
@@ -146,7 +146,7 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * Application des restrictions d&#39;accès sur l&#39;appel SOAP de l&#39;assistant de déploiement (xtk:serverOptions#SaveOptions).
 * La bibliothèque obsolète weka.jar a été supprimée et la bibliothèque OpenSSL a été mise à jour pour optimiser la sécurité.
 * Amélioration du workflow technique de facturation pour sécuriser les performances des instances.
-* Les administrateurs peuvent définir ou réinitialiser le mot de passe de n’importe quel opérateur. Pour ce faire, cliquez avec le bouton droit sur un opérateur, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** et définissez le nouveau mot de passe de l’opérateur. Nous recommandons aux opérateurs de modifier leur mot de passe lorsqu’ils se reconnectent pour la première fois. Pour plus d&#39;informations, consultez la [documentation détaillée](../../production/using/lost-password.md).
+* Les administrateurs peuvent à nouveau définir ou réinitialiser le mot de passe des opérateurs. Pour cela, cliquez avec le bouton droit sur un opérateur, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Réinitialiser le mot de passe]**, puis définissez le nouveau mot de passe de l&#39;opérateur. Nous recommandons aux opérateurs de changer leur mot de passe lors de leur première reconnexion. Pour plus d&#39;informations, consultez la [documentation détaillée](../../production/using/lost-password.md).
 * Pour prendre en charge la nouvelle fonctionnalité multi-tenant d&#39;Adobe Target, un nouveau paramètre &quot;at_property&quot; peut maintenant être ajouté aux URL lors de la configuration des options et des comptes externes pour l&#39;intégration avec Target. La valeur à utiliser pour ce paramètre figure dans Adobe Target et sera utilisée par Campaign lors des appels à Target. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
 * Vous pouvez maintenant spécifier l&#39;ouverture d&#39;une landing page par défaut lors d&#39;un clic sur une image fournie par Adobe Target. Auparavant, un clic sur cette image affichait l&#39;image par défaut définie lors de la création de l&#39;email. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
 * Ajout de la case à cocher **Activer les traces SMPP** dans le compte externe pour forcer la sortie des traces. Pour plus d&#39;informations, consultez la [documentation détaillée](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
