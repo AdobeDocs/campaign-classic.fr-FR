@@ -24,7 +24,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ## Activer la connexion via l&#39;IMS {#enabling-the-ims-connection}
 
-1. Pour activer la connexion via IMS, vérifiez **[!UICONTROL Connect with an Adobe ID]** dans la fenêtre des connexions de la console.
+1. Pour activer la connexion via l&#39;IMS, cochez la case **[!UICONTROL Se connecter avec un Adobe ID]** dans la fenêtre de gestion des connexions de la console.
 
    ![](assets/ims_1.png)
 
@@ -34,7 +34,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ## Désactiver la connexion via l&#39;IMS {#disabling-the-ims-connection}
 
-Pour désactiver la connexion à l’aide de l’ID Adobe, déconnectez-vous, cliquez **[!UICONTROL File > Connections]** et désélectionnez **[!UICONTROL Connect with an Adobe ID]**.
+Pour désactiver la connexion via l&#39;Adobe ID, déconnectez-vous, cliquez sur le menu **[!UICONTROL Fichier > Connexions]** et décochez la case **[!UICONTROL Se connecter avec un Adobe ID]**.
 
 ![](assets/ims_4.png)
 
