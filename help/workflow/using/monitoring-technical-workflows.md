@@ -28,7 +28,7 @@ D’autres méthodes de surveillance des différents processus de campagne sont 
 
 ## Tableau de bord de supervision de l&#39;instance {#instance-monitoring-dashboard}
 
-The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitoring]** universe.
+Le tableau de bord de supervision de l&#39;instance est accessible via l&#39;univers **[!UICONTROL Supervision]**.
 
 ![](assets/monitoring_technical_workflows1.png)
 
@@ -40,35 +40,35 @@ Dans Indicateurs système et fichiers core, vérifier qu&#39;aucun indicateur n&
 
 ## Workflows techniques {#technical-workflows}
 
-Les processus techniques sont disponibles à partir de **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+Les workflows techniques sont disponibles via **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Workflows techniques]**.
 
 Selon le workflow technique, suivez les étapes détaillées ci-après pour vérifier que tout fonctionne comme prévu.
 
 Pour comprendre la fonction de chaque workflow technique, consultez cette [section](../../workflow/using/about-technical-workflows.md).
 
-Pour **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+Pour le **[!UICONTROL Workflow de Nettoyage de la base (&#39;cleanup&#39;)]** :
 
-1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. Pour plus d&#39;informations à ce propos, Voir à ce propos consultez [cette page](../../workflow/using/delivery.md).
+1. Vérifiez que le workflow **[!UICONTROL Nettoyage de la base]** s&#39;exécute et se termine correctement tous les jours. Voir à ce propos cette [page](../../workflow/using/delivery.md).
 1. Allez voir le journal des logs pour vérifier que le temps écoulé reste relativement constant et n&#39;affecte pas d&#39;autres workflows.
 1. Pour plus d&#39;informations, consultez cette [page](../../production/using/database-cleanup-workflow.md).
 
-Pour **[!UICONTROL Tracking workflow (‘tracking’)]**:
+Pour le **[!UICONTROL Workflow de tracking (&#39;tracking&#39;)]** :
 
 Vérifiez que le workflow de Tracking s&#39;exécute comme prévu (une fois par heure par défaut) et que le journal des logs n&#39;indique pas d&#39;erreurs récurrentes. Voir à ce propos cette [section](../../workflow/using/delivery.md).
 
-Pour **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+Pour la **[!UICONTROL Mise à jour délivrabilité (&#39;deliverabilityUpdate&#39;)]** :
 
-1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. Pour plus d&#39;informations à ce propos, Voir à ce propos consultez [cette page](../../workflow/using/delivery.md).
+1. Vérifiez que le workflow **[!UICONTROL Mise à jour délivrabilité]** s&#39;exécute et se termine correctement tous les jours. Voir à ce propos cette [page](../../workflow/using/delivery.md).
 1. Dans le journal des logs, vérifiez que les règles sont mises à jour régulièrement.
 
-Pour **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
+Pour le **[!UICONTROL Processus de campagne (&#39;operationMgt&#39;, &#39;deliveryMgt&#39;, ...)]** :
 
-1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. Pour plus d&#39;informations à ce propos, Voir à ce propos consultez [cette page](../../workflow/using/campaign.md).
+1. Examinez tous les workflows situés sous le dossier **[!UICONTROL Processus de campagne.]** Pour plus d’informations à ce propos, consultez [cette page](../../workflow/using/campaign.md).
 1. Vérifiez que les workflow s&#39;exécutent comme prévu et que le journal des logs n&#39;indique pas d&#39;erreurs récurrentes.
 
 ## Supervision de workflow {#workflow-supervision}
 
-The **[!UICONTROL Workflow supervisors]** group should contain operators that need to be kept informed of failures and who can take action in time.
+Le groupe **[!UICONTROL Superviseurs de workflow]** doit contenir des opérateurs devant être tenus informés des échecs et pouvant réagir à temps.
 
 ![](assets/monitoring_technical_workflows3.png)
 
@@ -83,7 +83,7 @@ Tous les workflows devant être en état d&#39;exécution pour que la plate-form
 Tous les workflows techniques personnalisés doivent être documentés dans une feuille de travail contenant :
 
 * Le nom et l&#39;emplacement du workflow.
-* L&#39;objectif.
+* Objectif.
 * La planification et les dépendances.
 * L&#39;opérateur en charge de la surveillance.
 * Des consignes sur les mesures à adopter en cas d&#39;erreur.
