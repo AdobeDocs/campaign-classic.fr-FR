@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Création des types d&#39;événement{#creating-event-types}
 
-Les types d’événements destinés à être traités par Adobe Campaign doivent être créés dans l’instance de contrôle. Vous pouvez le faire via le **[!UICONTROL Administration > Platform > Enumerations]** dossier de l’arborescence. Chaque type d’événement correspond à une valeur de l’ **[!UICONTROL eventType]** énumération. Il peut s&#39;agir d&#39;une confirmation de commande, d&#39;un mot de passe ou d&#39;un changement de livraison de commande, etc.
+Les types d&#39;événements destinés à être traités par Adobe Campaign doivent être créés dans l&#39;instance de pilotage. Vous pouvez le faire depuis le dossier **[!UICONTROL Administration > Plateforme > Enumérations]** de l&#39;arborescence. A chaque type d&#39;événement doit correspondre une valeur dans l&#39;énumération **[!UICONTROL eventType]**. Il peut s&#39;agir par exemple d&#39;une confirmation de commande, de changement de mot de passe ou d&#39;envoi de commande.
 
 ![](assets/messagecenter_eventtype_enum_001.png)
 
