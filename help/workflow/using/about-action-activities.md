@@ -1,7 +1,7 @@
 ---
-title: A propos des activités d’action
-seo-title: A propos des activités d’action
-description: A propos des activités d’action
+title: À propos des activités d’action
+seo-title: À propos des activités d’action
+description: À propos des activités d’action
 seo-description: null
 page-status-flag: never-activated
 uuid: f7da73e0-0661-440e-8e69-f92290b69415
@@ -20,7 +20,7 @@ source-git-commit: 4ae7f17a4589da8f6b0014801cfa3f06aa928c69
 ---
 
 
-# A propos des activités d’action{#about-action-activities}
+# À propos des activités d’action{#about-action-activities}
 
 * **Livraison**: vous permet de configurer une action de remise. Refer to the [Delivery](../../workflow/using/delivery.md) section.
 * **Contrôle** de remise : vous permet de démarrer, de suspendre ou d’arrêter une livraison. Refer to the [Delivery control](../../workflow/using/delivery-control.md) section.
