@@ -29,16 +29,16 @@ Pour créer un environnement de test (bac à sable), procédez comme suit :
 >Utilisez uniquement cette méthode de création d’environnement pour les environnements de test. Dans tous les autres cas, utilisez l’assistant de mappage de cible. Pour plus d’informations, reportez-vous à la section [Création d’un environnement](../../interaction/using/live-design-environments.md#creating-an-offer-environment)d’offre.
 
 1. Lancez l&#39;explorateur Adobe Campaign et positionnez-vous au niveau du noeud racine de l&#39;instance.
-1. Right-click and add a **[!UICONTROL Generic folder]** using the drop-down menus.
+1. Cliquez avec le bouton droit et ajoutez un **[!UICONTROL Dossier libre]** à l&#39;aide des menus contextuels.
 
    ![](assets/offer_env_creation_001.png)
 
-1. Next, go to the folder you just created and add an **[!UICONTROL Offer environment]** using the right-click menus.
+1. Positionnez-vous ensuite sur le dossier que vous venez de créer, et ajoutez un dossier **[!UICONTROL Environnement d&#39;offres]** à l&#39;aide des menus contextuels.
 
    ![](assets/offer_env_creation_001bis.png)
 
 1. Procédez de la même manière pour créer les sous-dossiers et éléments de l&#39;environnement.
-1. Once your tests have finished and you wish to use the environment in production, duplicate the offers and spaces in your design environment. (Right-click > **[!UICONTROL Actions]** > **[!UICONTROL Deploy]** ).
+1. Lorsque vos tests sont terminés et que vous souhaitez utiliser l&#39;environnement en production, dupliquez les offres et emplacements dans votre environnement en édition (clic droit > **[!UICONTROL Actions]** > **[!UICONTROL Déployer]** ).
 
    ![](assets/migration_interaction_5.png)
 
