@@ -86,29 +86,29 @@ Dans le contexte des cubes, les concepts listés ci-dessous doivent être connus
 
 ## Espace de travail des cubes {#cube-workspace}
 
-Les cubes sont stockés dans le **[!UICONTROL Administration > Configuration > Cubes]** noeud.
+Les cubes sont localisés sous le noeud **[!UICONTROL Administration > Paramétrage > Cubes]**.
 
 ![](assets/s_advuser_cube_node.png)
 
 Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
-* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** universe of the Adobe Campaign platform.
+* L&#39;exploration des données peut être réalisée directement dans un rapport, conçu à partir de l&#39;univers **[!UICONTROL Rapports]** de la plateforme Adobe Campaign.
 
    Pour cela, créez un nouveau rapport et sélectionnez le cube à utiliser.
 
    ![](assets/cube_create_new.png)
 
-   Les cubes apparaissent comme des modèles en fonction des rapports créés. Une fois que vous avez choisi un modèle, cliquez sur **[!UICONTROL Create]** pour configurer et afficher le rapport correspondant.
+   Les cubes apparaissent comme des modèles à partir desquels sont créés les rapports. Une fois le modèle sélectionné, cliquez sur le bouton **[!UICONTROL Créer]** pour paramétrer et visualiser le rapport correspondant.
 
    Vous pouvez alors adapter les mesures, modifier le mode d&#39;affichage ou configurer le tableau, puis afficher le rapport à partir du bouton central.
 
    ![](assets/cube_display_new.png)
 
-* You can also reference a cube in the **[!UICONTROL Query]** box of a report to use its indicators, as shown below:
+* Vous pouvez également référencer un cube dans la boîte de **[!UICONTROL Requête]** d&#39;un rapport afin d&#39;en utiliser les indicateurs, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_advuser_query_using_a_cube.png)
 
-* Vous pouvez également insérer un tableau croisé dynamique basé sur un cube dans n’importe quelle page d’un rapport. Pour ce faire, référencez le cube à utiliser dans l’ **[!UICONTROL Data]** onglet du tableau croisé dynamique de la page concernée.
+* Vous pouvez également insérer un tableau croisé dynamique basé sur un cube dans n&#39;importe quelle page d&#39;un rapport. Pour cela, référencez le cube à utiliser dans l&#39;onglet **[!UICONTROL Données]** du tableau croisé dynamique de la page concernée.
 
    ![](assets/s_advuser_cube_in_report.png)
 
