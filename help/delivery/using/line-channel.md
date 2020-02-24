@@ -65,21 +65,21 @@ Enfin, pour créer un compte externe sur Adobe Campaign :
 
 1. Complètez les champs **Libellé** et **Nom interne**.
 1. Dans le champ **[!UICONTROL Type]**, sélectionnez Routage. Dans le champ **Canal**, sélectionnez LINE.
-1. Click **[!UICONTROL Save]** to create your LINE external account.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer votre compte externe LINE.
 1. Un champ de personnalisation **LINE** apparaît sous l&#39;icône **Général**. Renseignez les champs suivants :
 
    ![](assets/line_config_2.png)
 
-   * **Alias** du canal : est fourni via votre compte LINE dans l’onglet **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]** .
+   * **Alias du canal** : est fourni via votre compte LINE dans l&#39;onglet **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]**.
    * **Identifiant du canal** : est fourni via votre compte LINE dans l&#39;onglet **Channels**> **Basic Information panel**.
    * **Clé secrète du canal** : est fourni via votre compte LINE dans l&#39;onglet **Channels**> **Basic Information panel**.
-   * **Jeton** d’accès : est fourni via votre compte LINE sur le portail des développeurs ou en cliquant sur le **[!UICONTROL Get access token]** bouton.
+   * **Jeton d&#39;accès** : est fourni via votre compte LINE sur le portail destiné aux développeurs ou en cliquant sur le bouton **[!UICONTROL Récupérer le jeton d&#39;accès]**.
    * **Date d&#39;expiration du jeton d&#39;accès** : permet de spécifier la date d&#39;expiration d&#39;Access token.
    * **Service d&#39;abonnement LINE** : permet de spécifier le service auquel les utilisateurs seront abonnés.
 
 >[!NOTE]
 >
->Vous devez vérifier que les processus **[!UICONTROL LINE access token update (updateLineAccessToken)]** et **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** les processus ont démarré. Dans l’explorateur, cliquez **[!UICONTROL Administration > Production > Technical workflows > LINE workflows]** pour vérifier l’état des processus.
+>Vous devez vérifier que les workflows **[!UICONTROL Mise à jour du jeton d&#39;accès LINE (updateLineAccessToken)]** et **[!UICONTROL Nettoyage des utilisateurs LINE bloqués (deleteBlockedLineUsers)]** sont démarrés. Depuis l&#39;explorateur, cliquez sur **[!UICONTROL Administration > Exploitation > Workflows techniques > Workflows LINE]** pour vérifier l&#39;état des workflows.
 
 ## Créer la diffusion {#creating-the-delivery}
 
@@ -89,13 +89,13 @@ Pour créer une diffusion **LINE** vous devez suivre les étapes suivantes :
 >
 >Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
-1. Dans l’ **[!UICONTROL Campaigns]** onglet, sélectionnez **[!UICONTROL Deliveries]** puis cliquez sur le **[!UICONTROL Create]** bouton.
-1. In the window that appears, select **[!UICONTROL LINE V2 delivery]** delivery template.
+1. Depuis l&#39;onglet **[!UICONTROL Campagnes]**, sélectionnez **[!UICONTROL Diffusions]** puis cliquez sur le bouton **[!UICONTROL Créer]**.
+1. Dans la fenêtre qui s&#39;affiche, sélectionnez le modèle de diffusion **[!UICONTROL Diffusion LINE V2]**.
 
    ![](assets/line_message_01.png)
 
 1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
-1. Click **[!UICONTROL Continue]** to create your delivery.
+1. Cliquez sur **[!UICONTROL Continuer]** pour valider la création de votre diffusion.
 
 ## Définir le contenu {#defining-the-content}
 
@@ -147,11 +147,11 @@ Vous pouvez utiliser :
 
    Vous devez ensuite ajouter un texte alternatif qui apparaîtra en pop-up sur l&#39;appareil mobile du destinataire.
 
-* et **[!UICONTROL Links]**.
+* et les **[!UICONTROL Liens]**.
 
    ![](assets/line_message_05.png)
 
-   La **[!UICONTROL Links]** section vous permet de choisir entre différentes mises en page qui divisent votre image en plusieurs zones cliquables. Vous pouvez ensuite attribuer à chacun d’eux un lien dédié.
+   La section **[!UICONTROL Liens]** vous permet d&#39;effectuer un choix parmi différentes dispositions qui divisent votre image en plusieurs zones interactives. Vous pouvez ensuite affecter à chaque zone un lien dédié.
 
 >[!NOTE]
 >
@@ -175,11 +175,11 @@ L’envoi de remises LINE est similaire à l’envoi d’une remise par courrier
 
 ## Accéder aux rapports {#accessing-reports}
 
-Vous pouvez afficher les rapports sur le service LINE en cliquant **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]** dans l’explorateur. Cliquez ensuite sur l’ **[!UICONTROL Reports]** icône du service LINE.
+Vous pouvez visualiser les rapports du service LINE en cliquant sur **[!UICONTROL Profils et Cibles > Services et abonnements > LINE]** dans l&#39;explorateur. Cliquez ensuite sur l&#39;icône **[!UICONTROL Rapports]** dans le service LINE.
 
 ![](assets/line_reports.png)
 
-Pour afficher les rapports sur les livraisons en ligne, cliquez sur **[!UICONTROL Campaign Management > Deliveries]** puis sélectionnez la livraison souhaitée. Les rapports de suivi indiquent le taux de clics publicitaires. LINE ne tient pas compte du taux d&#39;ouverture.
+Pour visualiser les rapports des diffusions LINE, cliquez sur **[!UICONTROL Gestion de campagne > Diffusions]** puis sélectionnez la diffusion désirée. Les rapports de tracking indiquent le taux de clic. LINE ne prend pas en compte le taux d&#39;ouverture.
 
 ![](assets/line_reports_01.png)
 
@@ -187,11 +187,11 @@ Pour afficher les rapports sur les livraisons en ligne, cliquez sur **[!UICONTRO
 
 Dans cet exemple, nous allons créer et paramétrer un message texte et une image contenant des données qui seront personnalisées en fonction du destinataire.
 
-1. Create your LINE delivery by clicking the **[!UICONTROL Create]** button from the **[!UICONTROL Campaign]** tab.
+1. Créez votre diffusion LINE en cliquant sur le bouton **[!UICONTROL Créer]** depuis l&#39;onglet **[!UICONTROL Campagnes]**.
 
    ![](assets/line_usecase.png)
 
-1. Select the **[!UICONTROL LINE V2 delivery]** delivery template and name your delivery.
+1. Sélectionnez le modèle de diffusion **[!UICONTROL Diffusion LINE V2]** et nommez votre diffusion.
 
    ![](assets/line_usecase_01.png)
 
@@ -199,28 +199,28 @@ Dans cet exemple, nous allons créer et paramétrer un message texte et une imag
 
    ![](assets/line_usecase_02.png)
 
-1. Cliquez sur **[!UICONTROL Add]** pour créer votre message et sélectionnez le **[!UICONTROL Message type]**.
+1. Cliquez sur **[!UICONTROL Ajouter]** pour créer votre message et sélectionnez le **[!UICONTROL Type de message]**.
 
    Nous voulons d&#39;abord créer un message texte.
 
    ![](assets/line_usecase_03.png)
 
-1. Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor > First name]**.
+1. Positionnez votre curseur à l&#39;endroit où vous souhaitez insérer le texte personnalisé, cliquez sur l&#39;icône déroulante, puis sélectionnez **[!UICONTROL Visiteur > Prénom]**.
 
    ![](assets/line_usecase_05.png)
 
-1. Suivez la même procédure pour ajouter une image, en la sélectionnant **[!UICONTROL Image and links]** dans la **[!UICONTROL Message type]** liste déroulante.
+1. Suivez la même procédure pour ajouter une image, en sélectionnant **[!UICONTROL Image et liens]** dans la liste déroulante **[!UICONTROL Type de message]**.
 
    Ajoutez l&#39;image URL.
 
    ![](assets/line_usecase_07.png)
 
-1. In the **[!UICONTROL Links]** section, select the layout that will divide your image in multiple clickable regions.
+1. Dans la section **[!UICONTROL Liens]**, sélectionnez la disposition qui divisera l&#39;image en plusieurs zones interactives.
 1. Affectez une URL à chaque zone de votre image.
 
    ![](assets/line_usecase_08.png)
 
-1. Save your delivery then click **[!UICONTROL Send]** to analyze and send it to the target.
+1. Sauvegardez votre diffusion puis cliquez sur **[!UICONTROL Envoyer]** afin de l&#39;analyser puis de l&#39;envoyer à la cible.
 
    La diffusion est envoyée à la cible :
 
