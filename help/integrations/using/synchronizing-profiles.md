@@ -48,7 +48,7 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
 ## Création d&#39;un nouveau destinataire {#creating-a-new-recipient}
 
-1. Créez un destinataire dans Campaign v7 pour la réplication vers Campaign Standard. Entrez autant d’informations que possible, y compris le nom de famille, le prénom, l’adresse électronique et l’adresse postale du destinataire. Toutefois, ne choisissez pas un destinataire **[!UICONTROL Salutation]** puisqu’il sera ajouté dans la section suivante, [Modification d’un destinataire](#editing-a-recipient). Pour plus d’informations, voir [Ajout de destinataires](../../platform/using/adding-profiles.md).
+1. Créez un destinataire dans Campaign v7 pour la réplication vers Campaign Standard. Entrez autant d’informations que possible, y compris le nom de famille, le prénom, l’adresse électronique et l’adresse postale du destinataire. Toutefois, ne choisissez pas une **[!UICONTROL formule]** de politesse, car elle sera ajoutée à la section suivante, [Modification d’un destinataire](#editing-a-recipient). Pour plus d’informations, voir [Ajout de destinataires](../../platform/using/adding-profiles.md).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -62,7 +62,7 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
 Les étapes ci-après permettant la modification d&#39;une seule information montrent de façon simple comment Campaign v7 devient la base de données principale de Campaign Standard lors de l&#39;utilisation de la réplication des données. La modification ou la suppression de données répliquées dans Campaign v7 a le même impact sur les données correspondantes dans Campaign Standard.
 
-1. Sélectionnez le nouveau destinataire dans [Création d’un nouveau destinataire](#creating-a-new-recipient) et modifiez son nom. Par exemple, choisissez un **[!UICONTROL Salutation]** pour le destinataire (p. ex. M. ou Mme). Pour plus d’informations, voir [Modification d’un profil](../../platform/using/editing-a-profile.md).
+1. Sélectionnez le nouveau destinataire dans [Création d’un nouveau destinataire](#creating-a-new-recipient) et modifiez son nom. Par exemple, choisissez une **[!UICONTROL formule de politesse]** pour le destinataire (p. ex. M. ou Mme). Pour plus d’informations, voir [Modification d’un profil](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
@@ -78,18 +78,18 @@ Les profils et services répliqués depuis Campaign v7 permettent aux spéciali
 
 Pour plus d&#39;informations et des instructions complètes relatives aux workflows Campaign Standard, reportez-vous à la section [Workflows](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/about-workflows-and-data-management/workflow-data-and-processes.html).
 
-1. Go to Campaign Standard and click **[!UICONTROL Marketing Activities]**.
-1. Click **[!UICONTROL Create]** on the upper right.
-1. Clics **[!UICONTROL Workflow]**.
-1. Cliquez sur **[!UICONTROL New workflow]** et **[!UICONTROL Next]**.
-1. Enter a name for the workflow in the **[!UICONTROL Label]** field and additional information if needed. Clics **[!UICONTROL Next]**.
-1. From **[!UICONTROL Targeting]** on the left, drag a **[!UICONTROL Query]** target to the workspace.
+1. Allez dans Campaign Standard et cliquez sur **[!UICONTROL Activités marketing]**.
+1. Cliquez sur **[!UICONTROL Créer]** en haut à droite.
+1. Cliquez sur **[!UICONTROL Workflow]**.
+1. Cliquez sur **[!UICONTROL Nouveau workflow]**, puis sur **[!UICONTROL Suivant]**.
+1. Saisissez un nom pour le workflow dans le champ **[!UICONTROL Libellé]** et d&#39;autres informations si nécessaire. Cliquez ensuite sur **[!UICONTROL Suivant]**.
+1. Depuis **[!UICONTROL Ciblage]** à gauche, déplacez une activité **[!UICONTROL Requête]** vers l&#39;espace de travail.
 
    ![](assets/acs_connect_profile_sync_05.png)
 
-1. Double click the **[!UICONTROL Query]** activity and choose a parameter that can be used with the replicated database. Par exemple, vous pouvez :
+1. Double-cliquez sur l&#39;activité **[!UICONTROL Requête]** et sélectionnez un paramètre pouvant être utilisé avec la base de données répliquée. Vous pouvez par exemple :
 
-   * Faites glisser le curseur **[!UICONTROL Profiles]** vers l’espace de travail. Utilisez le menu déroulant des champs pour choisir **[!UICONTROL Is external resource]** de rechercher les profils répliqués à partir de Campaign v7.
+   * Placer **[!UICONTROL Profils]** dans l&#39;espace de travail. Utilisez le menu déroulant du champ pour sélectionner .**[!UICONTROL Est une ressource externe]** afin de trouver les profils qui ont été répliqués depuis Campaign v7.
    * Placer d&#39;autres paramètres de requête pour cibler davantage les profils répliqués.
 
 ## Création d&#39;une diffusion {#creating-a-delivery}
@@ -106,26 +106,26 @@ Suivez la procédure ci-dessous pour ajouter une diffusion email à un workflow 
 >
 >Avant de suivre la procédure ci-dessous, demandez à votre consultant de configurer l&#39;application web pour le service de désinscription.
 
-1. Click **[!UICONTROL Channels]** on the left.
-1. Drag **[!UICONTROL Email delivery]** to the existing workflow in the workspace.
+1. Cliquez sur **[!UICONTROL Canaux]** à gauche.
+1. Positionnez **[!UICONTROL Diffusion Email]** dans le workflow existant de l&#39;espace de travail.
 
    ![](assets/acs_connect_profile_sync_07.png)
 
-1. Cliquez deux fois sur l’ **[!UICONTROL Email delivery]** activité et choisissez **[!UICONTROL Single send email]** ou **[!UICONTROL Recurring email]**. Sélectionnez vos options et cliquez sur **[!UICONTROL Next]**.
-1. Cliquez sur **[!UICONTROL Send via email]** , puis sur **[!UICONTROL Next]**.
+1. Double-cliquez sur l&#39;activité **[!UICONTROL Diffusion Email]** et sélectionnez **[!UICONTROL Email unique]** ou **[!UICONTROL Email récurrent]**. Sélectionnez vos options, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Cliquez sur **[!UICONTROL Diffuser par email]**, puis sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_profile_sync_08.png)
 
-1. Enter a name for the delivery in the **[!UICONTROL Label]** field and additional information if needed. Clics **[!UICONTROL Next]**.
+1. Saisissez un nom pour la diffusion dans le champ **[!UICONTROL Libellé]** et d&#39;autres informations si nécessaire. Cliquez ensuite sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_profile_sync_09.png)
 
-1. In the **[!UICONTROL Subject]** field, enter the subject that will appear in the recipient&#39;s email inbox.
-1. Cliquez sur **[!UICONTROL Change content]** pour ajouter un modèle HTML.
+1. Dans le champ **[!UICONTROL Objet]**, saisissez l&#39;objet qui apparaîtra dans la boîte email du destinataire.
+1. Cliquez sur **[!UICONTROL Changer de contenu]** pour ajouter un modèle HTML.
 
    ![](assets/acs_connect_profile_sync_10.png)
 
-1. Choose content that includes the link to unsubscribe to the service. Click **[!UICONTROL Confirm]**.
+1. Sélectionnez un contenu qui comprend le lien de désinscription au service. Cliquez sur **[!UICONTROL Confirmer]**.
 
    ![](assets/acs_connect_profile_sync_11.png)
 
@@ -138,7 +138,7 @@ Suivez la procédure ci-dessous pour ajouter une diffusion email à un workflow 
    ![](assets/acs_connect_profile_sync_13.png)
 
 1. Sélectionnez le texte avec votre curseur et cliquez sur l&#39;icône représentant une chaîne.
-1. Clics **[!UICONTROL Link to a landing page]**.
+1. Cliquez sur **[!UICONTROL Lien vers une landing page]**.
 
    ![](assets/acs_connect_profile_sync_14.png)
 
@@ -146,20 +146,20 @@ Suivez la procédure ci-dessous pour ajouter une diffusion email à un workflow 
 
    ![](assets/acs_connect_profile_sync_15.png)
 
-1. Choose the web application created by the consultant and click **[!UICONTROL Confirm]**.
+1. Sélectionnez l&#39;application web créée par le consultant, puis cliquez sur **[!UICONTROL Confirmer]**.
 
    ![](assets/acs_connect_profile_sync_16.png)
 
-1. Clics **[!UICONTROL Create]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 1. Revenez au workflow en cliquant sur le nom de la diffusion.
 
    ![](assets/acs_connect_profile_sync_17.png)
 
-1. Cliquez sur **[!UICONTROL Start]** pour envoyer la diffusion. L’icône de remise de courrier électronique clignote pour indiquer qu’elle est en cours de préparation pour la remise.
+1. Cliquez sur **[!UICONTROL Démarrer]** pour envoyer la diffusion. L&#39;icône représentant la diffusion email clignote pour indiquer que l&#39;envoi est en cours de préparation.
 
    ![](assets/acs_connect_profile_sync_18.png)
 
-1. Cliquez deux fois sur le **[!UICONTROL Email delivery]** canal et choisissez **[!UICONTROL Confirm]** d’envoyer le courriel. Cliquez sur **[!UICONTROL OK]** pour envoyer les messages.
+1. Double-cliquez sur le canal **[!UICONTROL Diffusion Email]** et sélectionnez **[!UICONTROL Confirmer]** pour envoyer l&#39;email. Cliquez sur **[!UICONTROL OK]** pour envoyer les messages.
 
    ![](assets/acs_connect_profile_sync_19.png)
 
@@ -175,11 +175,11 @@ Suivez les instructions des sections [Création d’un flux de travail](#creatin
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. Les données des destinataires dans Campaign v7 sont mises à jour pour indiquer que l’utilisateur s’est désabonné. Vérifiez que la case **[!UICONTROL No longer contact (by any channel)]** est cochée pour le destinataire. Pour savoir comment afficher un destinataire dans Campaign v7, voir [Modification d’un profil](../../platform/using/editing-a-profile.md).
+1. Les données du destinataire dans Campaign v7 sont mises à jour pour prendre en compte la désinscription de l&#39;utilisateur. Vérifiez que la case **[!UICONTROL Ne plus contacter (tous canaux)]** est cochée pour le destinataire. Pour savoir comment visualiser un destinataire dans Campaign v7, consultez la section [Editer un profil](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Go to Campaign Standard and open the profile details for the recipient. Confirm that a checkbox appears next to **[!UICONTROL No longer contact (by any channel)]**. To learn where to find profiles in Campaign Standard, see [Navigation Basics](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
+1. Allez dans Campaign Standard et affichez le détail du profil du destinataire. Vérifiez qu&#39;une case à cocher apparaît en regard de l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]**. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html).
 
    ![](assets/acs_connect_profile_sync_23.png)
 
