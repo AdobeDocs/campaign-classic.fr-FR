@@ -34,7 +34,7 @@ Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transfé
 * Pour les architectures **** hébergées et hybrides, contactez le gestionnaire de compte pour l’activer. L’adresse CC de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
 * Pour les installations **** sur site, suivez les instructions ci-dessous pour les activer - reportez-vous aux sections [Activation de l’archivage des e-mails (sur site)](#activating-email-archiving--on-premise-) et [Configuration de l’adresse e-mail BCC (sur site)](#configuring-the-bcc-email-address--on-premise-) .
 * Vous ne pouvez utiliser qu&#39;une seule adresse email en Cci.
-* Une fois que le Cci par courrier électronique est configuré, assurez-vous que la fonction est activée dans le modèle de remise ou dans la diffusion via l’ **[!UICONTROL Archive emails]** option. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
+* Une fois la fonctionnalité email en Cci paramétrée, vérifiez qu’elle est activée dans le modèle de diffusion ou la diffusion par le biais de l’option **[!UICONTROL Archiver les emails]**. Voir à ce sujet [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 * Seuls les emails envoyés sont pris en compte, les retours ne le sont pas.
 * Le système d’archivage des e-mails a été modifié avec Adobe Campaign 17.2 (version 8795). Si vous utilisiez déjà l’archivage des e-mails, vous devez effectuer une mise à niveau manuelle vers le nouveau système d’archivage des e-mails (BCC). Pour plus d’informations, voir la section [Mise à jour du système d’archivage des e-mails (BCC)](#updated-email-archiving-system--bcc-) .
 
@@ -62,7 +62,7 @@ The full path is as follows: **`<datalogpath>  YYYY-MM-DDHHh`**. The date and ti
 C:\emails\2018-12-02\13h
 ```
 
-Le nom du fichier d’archive est **`<deliveryid>-<broadlogid>.eml`** défini lorsque l’état des courriers électroniques n’est pas **[!UICONTROL Sent]**. Une fois l’état défini sur **[!UICONTROL Sent]**, le nom du fichier devient **`<deliveryid>-<broadlogid>-sent.eml`**. Par exemple :
+Le nom du fichier d’archive est **`<deliveryid>-<broadlogid>.eml`** défini lorsque l’état des courriers électroniques n’est pas **[!UICONTROL Envoyé]**. Une fois que l’état est **[!UICONTROL Envoyé]**, le nom du fichier devient **`<deliveryid>-<broadlogid>-sent.eml`**. Par exemple :
 
 ```
 C:\emails\2018-12-02\13h\4012-8040-sent.eml
@@ -72,7 +72,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >Dans une instance mid-sourcing, le dossier des emails archivés se trouve sur le serveur de mid-sourcing.
 >
->L’ID de diffusion et l’ID de publication à l’écran proviennent du serveur mid-sourcing lorsque l’état des courriers électroniques n’est pas envoyé. Une fois l’état défini sur **[!UICONTROL Sent]**, ces identifiants proviennent du serveur marketing.
+>Les deliveryID et broadlogID sont ceux du serveur de mid-sourcing lorsque le statut des emails n&#39;est pas envoyé. Une fois le statut changé en **[!UICONTROL Envoyé]**, ces ID sont ceux du serveur marketing.
 
 ### Paramètres {#parameters}
 
@@ -126,7 +126,7 @@ In the **config-`<instance name>.xml`**file, use the following parameters to def
 >
 >Si vous utilisez un relais SMTP, les modifications apportées aux emails par le relais ne sont pas prises en compte dans le processus d&#39;archivage.
 >
->En outre, le relais attribue un **[!UICONTROL Sent]** état à tous les courriers électroniques, y compris ceux qui ne sont pas envoyés. Par conséquent, tous les messages sont archivés.
+>En outre, le relais affecte le statut **[!UICONTROL Envoyé]** à tous les emails, y compris ceux qui ne sont pas envoyés. Tous les messages sont donc archivés.
 
 ## Système d&#39;archivage des emails mis à jour (Cci) {#updated-email-archiving-system--bcc-}
 
@@ -140,7 +140,7 @@ Pour ce faire, apportez les modifications suivantes au **`config-<instance>.xml`
 1. Définissez le paramètre **compressionFormat** sur **1** si nécessaire.
 1. Définissez le paramètre **archivingType** sur **1**.
 
-Une fois que le Cci par courrier électronique est configuré, veillez à sélectionner l’ **[!UICONTROL Archive emails]** option dans le modèle de remise ou dans la diffusion. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
+Une fois la fonctionnalité email en Cci paramétrée, veillez à sélectionner l&#39;option **[!UICONTROL Archiver les emails]** dans le modèle de diffusion ou la diffusion. Voir à ce sujet [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 
 ## Bonnes pratiques {#best-practices}
 
