@@ -31,8 +31,8 @@ La simulation permet de suivre et de comparer l&#39;impact des diffusions les un
 >[!NOTE]
 >
 >Les diffusions préparées en mode Test n&#39;ont pas d&#39;impact les unes sur les autres, par exemple lors de l&#39;évaluation d&#39;une opération dans le cadre du marketing distribué, ou tant que l&#39;inscription des diffusions au calendrier prévisionnel n&#39;est pas validée.\
->Cela signifie que les règles de pression et de capacité ne sont appliquées qu&#39;aux livraisons en **[!UICONTROL Target estimation and message personalization]** mode. Les livraisons en **[!UICONTROL Estimation and approval of the provisional target]** mode et en **[!UICONTROL Target evaluation]** mode ne sont pas prises en compte.\
->The delivery mode is chosen in the **[!UICONTROL Typology]** sub-tab of the delivery properties.
+>Ainsi, les règles de pression et de capacité ne sont appliquées qu&#39;aux diffusions en mode **[!UICONTROL Estimation de la cible et personnalisation des messages]**. Les diffusions en mode **[!UICONTROL Estimation et validation de la cible prévisionnelle]** et **[!UICONTROL Evaluation de la cible]** ne sont pas prises en compte.\
+>Le mode de diffusion est sélectionné dans les propriétés de la diffusion, sous l&#39;onglet **[!UICONTROL Typologie]**.
 
 ![](assets/simu_campaign_select_delivery_mode.png)
 
@@ -42,19 +42,19 @@ La simulation permet de suivre et de comparer l&#39;impact des diffusions les un
 
 Pour créer une simulation, les étapes sont les suivantes :
 
-1. Go to the **[!UICONTROL Campaigns]** universe, click the **[!UICONTROL More]** link within the **[!UICONTROL Create]** section and select the **[!UICONTROL Simulation]** option.
+1. Dans l&#39;univers des **[!UICONTROL Campagnes]**, cliquez sur le lien **[!UICONTROL Autres choix]** de la section **[!UICONTROL Créer]** et choisissez **[!UICONTROL Simulation]**.
 
    ![](assets/simu_campaign_opti_01.png)
 
-1. Entrez le modèle et le nom de la simulation. Cliquez sur **[!UICONTROL Save]** pour créer la simulation.
+1. Indiquez le modèle et le nom de la simulation. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la simulation.
 
    ![](assets/simu_campaign_opti_02.png)
 
-1. Click the **[!UICONTROL Edit]** tab to configure it.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Edition]** pour la paramétrer.
 
    ![](assets/simu_campaign_opti_edit.png)
 
-1. Dans l’ **[!UICONTROL Scope]** onglet, spécifiez les livraisons à prendre en compte pour cette simulation. Pour ce faire, cliquez sur le **[!UICONTROL Add]** bouton et spécifiez le mode de sélection de remise à prendre en compte.
+1. Dans l&#39;onglet **[!UICONTROL Périmètre]**, indiquez les diffusions à considérer dans cette simulation. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et indiquez le mode de sélection des diffusions à prendre en compte.
 
    ![](assets/simu_campaign_opti_edit_scope.png)
 
@@ -62,7 +62,7 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Si vous sélectionnez des livraisons par le biais d’un plan, d’un programme ou d’une campagne, Adobe Campaign peut automatiquement actualiser la liste des livraisons afin de tenir compte de chaque lancement d’une simulation. Pour ce faire, cochez l’ **[!UICONTROL Refresh the selection of deliveries each time the simulation is started]** option.
+   >Si vous sélectionnez les diffusions d&#39;un plan, d&#39;un programme ou d&#39;une opération, Adobe Campaign peut réactualiser automatiquement la liste des diffusions à prendre en compte à chaque lancement de la simulation. Pour cela, cochez l&#39;option **[!UICONTROL Réactualiser la sélection des diffusions à chaque démarrage de la simulation]**.
    >  
    >Dans le cas contraire, seules les diffusions présentes dans le plan, le programme et la ou les opérations au moment de la création de la simulation seront prises en comptes : les diffusions ajoutées ultérieurement seront ignorées.
 
@@ -72,21 +72,21 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    ![](assets/simu_campaign_opti_edit_scope_select.png)
 
-   Cliquez sur **[!UICONTROL Finish]** pour valider la sélection.
+   Cliquez sur le bouton **[!UICONTROL Terminer]** pour valider la sélection.
 
    Il est possible de combiner des diffusions sélectionnées manuellement avec celles appartenant à un ou plusieurs plans, programmes ou opérations.
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   Si nécessaire, vous pouvez utiliser une condition dynamique via le **[!UICONTROL Edit the dynamic condition...]** lien.
+   **[!UICONTROL Si nécessaire, vous pouvez utiliser une condition dynamique via la]** commande Modifier la condition dynamique... link.
 
-   Click **[!UICONTROL Save]** to approve this configuration.
+   Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour valider ce paramétrage.
 
    >[!NOTE]
    >
    >Seules les diffusions dont la cible a été calculée sont prises en compte dans les calculs des simulations (états : **Cible prête** ou **Prête à être diffusée**).
 
-1. In the **[!UICONTROL Calculations]** tab, select an analysis dimension such as the recipient schema for example.
+1. Dans l&#39;onglet **[!UICONTROL Calculs]**, sélectionnez une dimension d&#39;analyse comme, par exemple, le schéma des destinataires.
 
    ![](assets/simu_campaign_opti_dimension.png)
 
@@ -96,11 +96,11 @@ Pour créer une simulation, les étapes sont les suivantes :
 
 ### Paramètres d&#39;exécution {#execution-settings}
 
-The **[!UICONTROL General]** tab of the simulation lets you enter execution settings:
+Dans l&#39;onglet **[!UICONTROL Général]** de la simulation, vous pouvez indiquer ses paramètres d&#39;exécution :
 
-* L’ **[!UICONTROL Schedule execution for down-time]** option reporte le lancement de la simulation à une période moins occupée, en fonction du niveau de priorité choisi. Les simulations utilisent des ressources de base de données importantes, c&#39;est pourquoi les simulations non urgentes devraient être programmées la nuit, par exemple.
-* The **[!UICONTROL Priority]** is the level applied to the simulation to delay its triggering.
-* **[!UICONTROL Save SQL queries in the log]**. Les journaux SQL vous permettent de diagnostiquer une simulation lorsqu’elle se termine par des erreurs. Ils peuvent également vous aider à comprendre pourquoi une simulation est trop lente. Ces messages seront visibles après la simulation dans le **[!UICONTROL SQL logs]** sous-onglet de l’ **[!UICONTROL Audit]** onglet.
+* **[!UICONTROL Différer l&#39;exécution vers une plage horaire de faible activité]** reporte le lancement de la simulation vers une plage horaire moins chargée, en fonction du degré de priorité choisie. Une simulation est très coûteuse en termes de ressources sur le moteur de base de données. A ce titre, il est souvent utile de décaler l&#39;exécution des simulations non urgentes vers une plage de faible activité (la nuit par exemple).
+* La **[!UICONTROL Priorité]** est le niveau appliqué à la simulation pour en différer le déclenchement.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**. Les logs SQL servent à diagnostiquer une simulation si elle se termine en erreur. Ils peuvent aussi aider à savoir pourquoi une simulation est trop lente. Ces messages seront visibles après la simulation dans le sous-onglet **[!UICONTROL Logs SQL]** de l&#39;onglet **[!UICONTROL Suivi]**.
 
 ## Exécuter la simulation {#executing-a-simulation}
 
@@ -108,18 +108,18 @@ The **[!UICONTROL General]** tab of the simulation lets you enter execution sett
 
 Une fois le périmètre de la simulation défini, vous pouvez l&#39;exécuter.
 
-To do this, open the simulation dashboard and click **[!UICONTROL Start simulation]**.
+Pour cela, ouvrez le tableau de bord de la simulation et cliquez sur le bouton **[!UICONTROL Démarrer la simulation]**.
 
 ![](assets/simu_campaign_opti_start.png)
 
-Once execution is complete, open the simulation and click the **[!UICONTROL Results]** tab to view the targets calculated for each delivery.
+Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;onglet **[!UICONTROL Résultats]** pour visualiser les cibles calculées pour chacune des diffusions considérées.
 
 ![](assets/simu_campaign_opti_results.png)
 
-1. Le **[!UICONTROL Deliveries]** sous-onglet répertorie toutes les livraisons prises en compte par la simulation. Il montre deux chiffres :
+1. Le sous-onglet **[!UICONTROL Diffusions]** liste les diffusions prises en compte par la simulation. Il présente deux comptages :
 
-   * The **[!UICONTROL Initial count]** is the target as it was calculated during its estimation in the delivery.
-   * The **[!UICONTROL Final count]** is the number of recipients counted after simulation.
+   * Le **[!UICONTROL Comptage initial]** correspond à la cible telle qu&#39;elle a été calculée lors de son estimation, au niveau de la diffusion.
+   * Le **[!UICONTROL Comptage final]** affiche le nombre de destinataires comptabilisés après l&#39;exécution de la simulation.
 
       Le delta entre comptage initial et final reflète l&#39;application des différentes règles ou filtrages paramétrés en amont de la simulation.
 
@@ -129,8 +129,8 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 
    ![](assets/simu_campaign_opti_14.png)
 
-1. Le **[!UICONTROL Alerts]** sous-onglet regroupe tous les messages d’alerte générés pendant la simulation. Des messages d’alerte peuvent être envoyés en cas de surcharge de capacité (si le nombre de destinataires ciblés dépasse la capacité définie, par exemple).
-1. Le **[!UICONTROL Exploration of the exclusions]** sous-onglet permet de créer un tableau d’analyse des résultats. L’utilisateur doit indiquer des variables dans les axes abscisses/ordinates.
+1. Le sous-onglet **[!UICONTROL Alertes]** regroupe tous les messages d&#39;alerte générés lors de la simulation. Ainsi, les messages d&#39;alerte peuvent avertir l&#39;utilisateur d&#39;un dépassement de capacité (par exemple : trop de destinataires ciblés par rapport à la capacité fixée).
+1. Le sous-onglet **[!UICONTROL Exploration des exclusions]** permet de créer un tableau d&#39;analyse des résultats. L&#39;utilisateur doit indiquer des variables dans les axes des abscisses/ordonnées.
 
    For an example of analysis table creation, refer to the end of [Exploring results](#exploring-results).
 
@@ -138,19 +138,19 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 
 #### Journal {#audit}
 
-L’ **[!UICONTROL Audit]** onglet permet de surveiller l’exécution de la simulation. Le **[!UICONTROL SQL Logs]** sous-onglet est utile aux utilisateurs expérimentés. Il répertorie les journaux d’exécution au format SQL. Ces journaux ne s’affichent que si l’ **[!UICONTROL Save SQL queries in the log]** option a été sélectionnée dans l’ **[!UICONTROL General]** onglet avant l’exécution de la simulation.
+L&#39;onglet **[!UICONTROL Journal]** sert à suivre l&#39;exécution de la simulation. Le sous-onglet **[!UICONTROL Logs SQL]** est utile aux utilisateurs experts. Il répertorie les logs d&#39;exécution, en langage SQL. Ces logs ne s&#39;affichent que si l&#39;option **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** a été sélectionnée dans l&#39;onglet **[!UICONTROL Général]** avant l&#39;exécution de la simulation.
 
 ![](assets/simu_campaign_opti_11.png)
 
 #### Explorer les résultats {#exploring-results}
 
-Le **[!UICONTROL Exploration of the exclusions]** sous-onglet permet d’analyser les données résultant d’une simulation.
+Le sous-onglet **[!UICONTROL Exploration des exclusions]** permet d&#39;analyser les données issues de la simulation.
 
 L&#39;analyse descriptive est présentée dans cette [section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
 ## Résultats d&#39;une simulation {#results-of-a-simulation}
 
-Les indicateurs dans les **[!UICONTROL Log]** onglets **[!UICONTROL Results]** et fournissent un premier aperçu des résultats de la simulation. Pour une vue plus détaillée des résultats, ouvrez l’ **[!UICONTROL Reports]** onglet.
+Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. La vue **[!UICONTROL Rapports]** accessible depuis le tableau de bord de la simulation permet d&#39;avoir une vue plus fiable des informations.****
 
 ### Rapports {#reports}
 
@@ -158,19 +158,19 @@ Pour analyser le résultat d&#39;une simulation, éditez les rapports qui lui so
 
 Par défaut, les rapports suivants sont proposés :
 
-* **[!UICONTROL Detail of simulation exclusions]** : ce rapport fournit un tableau détaillé des causes d&#39;exclusion pour toutes les livraisons concernées.
-* **[!UICONTROL Simulation summary]** : ce rapport montre les populations exclues de la simulation tout au long des différentes livraisons.
-* **[!UICONTROL Summary of exclusions linked to the simulation]** : ce rapport montre un graphique des exclusions causées par la simulation, ainsi que la règle de typologie appliquée et un graphique montrant le ratio d’exclusion par règle.
+* **[!UICONTROL Détail des exclusions de la simulation]** : ce rapport propose un tableau détaillé de toutes les causes d&#39;exclusion, pour toutes les diffusions concernées par cette simulation.
+* **[!UICONTROL Résumé de la simulation]** : ce rapport résume les volumes de populations exclues par la simulation, dans les différentes diffusions concernées.
+* **[!UICONTROL Synthèse des exclusions dues à la simulation]** : ce rapport affiche un tableau des exclusions dues à la simulation, avec la règle de typologie appliquée, et un graphique représentant la proportion d&#39;exclusion par règle.
 
 >[!NOTE]
 >
 >Vous pouvez créer des rapports et les ajouter aux rapports proposés. Voir à ce sujet [cette section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
-To access reports, click the **[!UICONTROL Reports]** link of the targeted simulation via its dashboard.
+Pour accéder aux rapports, cliquez sur le lien **[!UICONTROL Rapports]** de la simulation visée à partir de son tableau de bord.
 
 ![](assets/campaign_opt_reporting_edit_from_board.png)
 
-You can also edit reports using the **[!UICONTROL Reports]** link accessible from the simulation dashboard.
+Vous pouvez également éditer les rapports à partir du lien **[!UICONTROL Rapports]** accessible depuis le tableau de bord de la simulation.
 
 ### Comparer les simulations {#comparing-simulations-}
 
@@ -181,7 +181,7 @@ Pour comparer les résultats, vous devez utiliser les rapports. En effet, Adobe 
 **Exemple :**
 
 1. Créez une simulation sur une diffusion à laquelle la typologie **A** est appliquée.
-1. Dans l’ **[!UICONTROL Reports]** onglet, modifiez l’un des rapports disponibles, par exemple **[!UICONTROL Detail of simulation exclusions]** .
+1. Dans l&#39;onglet **[!UICONTROL Rapports]**, éditez un des rapports disponibles, par exemple **[!UICONTROL Détail des exclusions de la simulation]**.
 1. Dans la section supérieure droite du rapport, cliquez sur l&#39;icône de création d&#39;un nouvel historique.
 
    ![](assets/campaign_opt_reporting_create_hist.png)
@@ -195,37 +195,37 @@ Pour comparer les résultats, vous devez utiliser les rapports. En effet, Adobe 
 
 ### Axes de reporting {#reporting-axes}
 
-L’ **[!UICONTROL Calculations]** onglet vous permet de définir les axes des rapports sur la cible. Ces axes seront utilisés lors de l’analyse des résultats (voir [Exploration des résultats](#exploring-results)).
+L’onglet **[!UICONTROL Calculs]** vous permet de définir des axes de création de rapports sur la cible. Ces axes seront utilisés lors de l’analyse des résultats (voir [Exploration des résultats](#exploring-results)).
 
 >[!NOTE]
 >
 >Il est recommandé de définir des axes de calculs dans un modèle de simulation plutôt que dans chaque simulation.\
->Les modèles de simulation sont enregistrés dans le **[!UICONTROL Resources > Templates > Simulation templates]** noeud de l’arborescence Adobe Campaign.
+>Les modèles de simulation sont enregistrés dans le noeud **[!UICONTROL Ressources > Modèles > Modèles de simulation]** de l&#39;arborescence Adobe Campaign.
 
 **Exemple :**
 
 Dans l&#39;exemple suivant, nous allons créer un axe de reporting supplémentaire portant sur le statut du destinataire (&quot;Client&quot;, &quot;Prospect&quot; ou aucun).
 
-1. Pour définir un axe de création de rapports, sélectionnez le tableau contenant les informations à traiter dans le **[!UICONTROL Analysis dimension]** champ. Cette information est obligatoire.
+1. Pour définir un axe de reporting, sélectionnez la table contenant les informations à exploiter dans le champ **[!UICONTROL Dimension d&#39;analyse]**. Cette information est obligatoire.
 1. Ici, nous allons sélectionner le champ Segment de la table des destinataires.
 
    ![](assets/simu_campaign_opti_09.png)
 
 1. Les options disponibles sont les suivantes :
 
-   * **[!UICONTROL Generate target overlap statistics]** permet de récupérer toutes les statistiques de chevauchement dans le rapport de simulation. Les chevauchements sont des destinataires ciblés dans au moins deux livraisons au sein d’une même simulation.
+   * **[!UICONTROL Générer les statistiques de recouvrement des cibles]** afin d&#39;obtenir toutes les statistiques de recouvrement dans le rapport de simulation. Le recouvrement correspond aux destinataires ciblés dans au moins deux diffusions d&#39;une même simulation.
 
       >[!IMPORTANT]
       >
       >Le choix de cette option augmente considérablement le temps d&#39;exécution de la simulation.
 
-   * **[!UICONTROL Keep the simulation work table]** permet de conserver les traces de simulation.
+   * **[!UICONTROL Conserver la table de travail de la simulation]** afin de garder des traces de la simulation.
 
       >[!IMPORTANT]
       >
       >La conservation systématique de ces tables requiert une capacité de stockage élevée : assurez-vous que la taille de la base de données le permet.
 
-When the simulation results are displayed, the information on the selected expression will be displayed in the **[!UICONTROL Overlaps]** sub-tab.
+A l&#39;affichage des résultats de la simulation, les informations relatives à l&#39;expression sélectionnée seront affichées dans le sous-onglet **[!UICONTROL Recouvrements]**.
 
 Les recouvrements des cibles de diffusions indiquent les destinataires ciblés dans au moins deux des diffusions d&#39;une simulation.
 
@@ -233,6 +233,6 @@ Les recouvrements des cibles de diffusions indiquent les destinataires ciblés d
 
 >[!NOTE]
 >
->Ce sous-onglet s’affiche uniquement si l’ **[!UICONTROL Generate target recovery statistics]** option a été activée.
+>Ce sous-onglet n&#39;est affiché que si l&#39;option **[!UICONTROL Générer les statistiques de recouvrement des cibles]** a été activée.
 
-Les informations sur les axes de création de rapports peuvent être traitées dans les rapports d’analyse des exclusions créés dans le **[!UICONTROL Exploring exclusions]** sous-onglet. For more on this, refer to [Exploring results](#exploring-results).
+The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Exploring results](#exploring-results).
