@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Mise à jour de la console{#console-update}
 
-If you selected the **[!UICONTROL Do not request console update]** option and you wish to reactivate the update request, apply the following procedure:
+Si vous avez coché l&#39;option **[!UICONTROL Ne pas demander la mise à jour de la console]** et que vous souhaitez réactiver la demande de mise à jour, la procédure est la suivante :
 
 1. Open the editor of the registry database using the **regedit** command in the Windows **[!UICONTROL Start > Execute]** menu.
 
