@@ -36,11 +36,11 @@ Lorsque la console Adobe Campaign est démarrée, vous accédez à une page de c
 
 Pour créer une instance, procédez comme suit :
 
-1. Cliquez sur le lien dans le coin supérieur droit des champs d’informations d’identification pour accéder à la fenêtre de configuration de la connexion. Ce lien peut être soit **[!UICONTROL New...]** soit un nom d’instance existant.
+1. Pour accéder à la fenêtre de paramétrage des connexions, cliquez sur le lien situé en haut à droite des champs des identifiant et mot de passe. Ce lien peut être **[!UICONTROL Nouveau...]** ou le nom d&#39;une instance existante.
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
-1. Click **[!UICONTROL Add > Connection]** and enter the label and URL of the Adobe Campaign application server.
+1. Cliquez sur le menu **[!UICONTROL Ajouter > Connexion]** et saisissez le libellé et l&#39;URL du serveur applicatif Adobe Campaign.
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
@@ -52,15 +52,15 @@ Pour créer une instance, procédez comme suit :
    >
    >For the connection URL, only use the following characters: `[a-z]`, `[A-Z]`, `[0-9]` and dashes (-) or full stops.
 
-1. Cliquez sur **[!UICONTROL Ok]** pour valider ce paramétrage : vous pouvez alors démarrer le processus de création de l&#39;instance.
-1. In the **[!UICONTROL Connection settings]** window, enter the **internal** login and its password to connect to the Adobe Campaign application server. Une fois connecté, vous accédez à l’assistant de création d’instances pour déclarer une nouvelle instance.
-1. Dans le **[!UICONTROL Name]** champ, saisissez le nom **de l’** instance. Ce nom étant utilisé pour générer un fichier de configuration **config-`<instance>`.xml** et dans les paramètres de ligne de commande pour identifier l’instance, veillez à choisir un nom court sans caractères spéciaux. Par exemple : **eMarketing**.
+1. Cliquez sur **[!UICONTROL OK]** pour valider ce paramétrage : vous pouvez alors démarrer le processus de création de l&#39;instance.
+1. In the **[!UICONTROL Connection settings]** window, enter the **internal** login and its password to connect to the Adobe Campaign application server. Once connected, you access the instance creation wizard to declare a new instance
+1. Dans le champ **[!UICONTROL Nom]** , saisissez le nom **de l’** instance. Ce nom étant utilisé pour générer un fichier de configuration **config-`<instance>`.xml** et dans les paramètres de ligne de commande pour identifier l’instance, veillez à choisir un nom court sans caractères spéciaux. Par exemple : **eMarketing**.
 
    ![](assets/s_ncs_install_create_instance.png)
 
    Le nom de l&#39;instance accolé au nom de domaine ne doit pas dépasser 40 caractères. Ceci permet de limiter la taille des en-têtes &quot;Message-ID&quot; et d&#39;éviter qu&#39;un message ne soit considéré comme un spam, par exemple par un outil comme SpamAssassin.
 
-1. Dans les **[!UICONTROL DNS masks]** champs, entrez la **liste des masques** DNS auxquels l’instance doit être attachée. Le serveur Adobe Campaign utilise le nom d’hôte qui apparaît dans les requêtes HTTP pour déterminer l’instance à atteindre.
+1. Dans les champs **[!UICONTROL Masques DNS]**, saisissez la **liste des masques DNS** auxquels l&#39;instance doit être attachée. Le serveur Adobe Campaign utilise le nom d&#39;hôte (hostname) qui apparaît dans les requêtes HTTP pour déterminer quelle instance atteindre.
 
    Le nom d’hôte est contenu entre la chaîne **https://** et la première barre oblique **/** de l’adresse du serveur.
 
@@ -74,7 +74,7 @@ Pour créer une instance, procédez comme suit :
 
    En complément, le serveur doit pouvoir se connecter à lui-même par ce nom, et si possible via une adresse de bouclage (loopback) - 127.0.0.1 -, notamment pour permettre l&#39;export des rapports en PDF.
 
-1. In the **[!UICONTROL Language]** drop-down list, select the **instance language**: English (US), English (UK), French, or Japanese.
+1. Dans la liste déroulante **[!UICONTROL Langue]**, sélectionnez la **langue de l&#39;instance** : anglais (US), anglais (UK) , français ou japonais.
 
    Les différences entre l’anglais américain et l’anglais britannique sont présentées dans [cette section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
@@ -82,7 +82,7 @@ Pour créer une instance, procédez comme suit :
    >
    >La langue de l&#39;instance ne peut plus être modifiée après cette étape. Les instances d&#39;Adobe Campaign ne sont pas multilingues : vous ne pouvez pas passer d&#39;une langue à une autre.
 
-1. Cliquez sur **[!UICONTROL Ok]** pour confirmer la déclaration d’instance. Déconnectez-vous et reconnectez-vous pour déclarer la base de données.
+1. Cliquez sur **[!UICONTROL Ok]** pour valider la déclaration de l&#39;instance. Vous devez alors vous reconnecter pour procéder à la déclaration de la base de données.
 
    >[!NOTE]
    >
