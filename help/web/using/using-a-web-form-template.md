@@ -22,13 +22,13 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 # Utiliser un modèle de formulaire web{#using-a-web-form-template}
 
-Les modèles de formulaire sont des configurations réutilisables qui vous permettent de créer des formulaires. Par défaut, les modèles de formulaire sont stockés avec les modèles d’application Web dans le **[!UICONTROL Resources > Templates > Web application templates]** noeud.
+Un modèle de formulaire est un paramétrage réutilisable pour créer de nouveaux formulaires. Les modèles de formulaires sont stockés par défaut avec les modèles d&#39;applications Web, sous le noeud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications Web]**.
 
 Vous pouvez ensuite créer de nouveaux modèles ou convertir un formulaire existant en modèle.
 
 ## Convert an existing form into a template {#convert-an-existing-form-into-a-template}
 
-A form can be changed into a template and its configuration re-used. To do this, select the form, right-click and select **[!UICONTROL Actions > Save as template...]**.
+Un formulaire peut être transformé en modèle afin que le paramétrage défini soit réutilisable. Pour cela, sélectionnez le formulaire, cliquez sur le bouton droit de la souris et choisissez **[!UICONTROL Actions > Sauver comme modèle...]**.
 
 ![](assets/s_ncs_admin_survey_saveastemplate.png)
 
@@ -36,14 +36,14 @@ Cette action ouvre la fenêtre de création des applications Web. Vous pouvez sa
 
 ## Create a new form template {#create-a-new-form-template}
 
-Pour créer un modèle de formulaire Web, cliquez avec le bouton droit de la souris sur la liste des modèles d’application Web et sélectionnez **[!UICONTROL New]**. Vous pouvez également utiliser le **[!UICONTROL New]** bouton au-dessus de la liste des modèles.
+Pour créer un modèle de formulaire Web, cliquez sur le bouton droit de la souris depuis la liste des modèles d&#39;applications Web, et choisissez **[!UICONTROL Nouveau]**. Vous pouvez également utiliser le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des modèles.
 
 ![](assets/s_ncs_admin_survey_createtemplate.png)
 
-Entrez le nom du modèle. Dans le **[!UICONTROL Instance folder]** champ, sélectionnez le dossier dans lequel les formulaires Web créés à partir de ce modèle sont enregistrés. Le **[!UICONTROL Nature]** champ vous permet d&#39;ajouter des informations descriptives pour trier et/ou filtrer les différents modèles d&#39;application Web.
+Saisissez le nom du modèle. Sélectionnez le dossier d&#39;enregistrement des formulaires web créés à partir de ce modèle dans le champ **[!UICONTROL Dossier des instances]**. Le champ **[!UICONTROL Nature]** vous permet d&#39;ajouter une information descriptive afin de classer et/ou filtrer vos différents modèles d&#39;applications web.
 
 ![](assets/s_ncs_admin_survey_createtemplate_details.png)
 
-Click the **[!UICONTROL Save]** button to create the template, then build the content of this template and define its parameters.
+Cliquez sur **[!UICONTROL Enregistrer]** pour créer le modèle puis construisez le contenu de ce modèle et définissez ses paramètres.
 
 Vous pouvez ensuite sélectionner ce modèle lors de la création d&#39;un nouveau formulaire.
