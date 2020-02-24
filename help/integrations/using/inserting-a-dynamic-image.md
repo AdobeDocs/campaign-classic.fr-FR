@@ -35,15 +35,15 @@ Vous devez au préalable réaliser les actions suivantes dans Adobe Target :
 Pour insérer une image Adobe Target dans une diffusion Adobe Campaign :
 
 1. Créez une diffusion email.
-1. Dans les champs de personnalisation disponibles, sélectionnez **[!UICONTROL Include > Dynamic image served by Adobe Target]**.
+1. Dans les champs de personnalisation disponibles, sélectionnez **[!UICONTROL Inclure > Image dynamique servie par Adobe Target]**.
 
    ![](assets/tar_insert_dynamic_image.png)
 
 1. Dans la fenêtre qui s&#39;ouvre, sélectionnez l&#39;image qui s&#39;affichera par défaut dans l&#39;email. Vous pouvez indiquer l&#39;URL de l&#39;image ou utiliser une [image partagée](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 1. Saisissez le nom du &quot;rawbox&quot; défini dans Adobe Target.
-1. Entrez une URL dans le **[!UICONTROL Landing Page]** champ si vous souhaitez que l’image par défaut redirige vers une page d’entrée par défaut. Cette URL est uniquement destinée aux cas où l’image par défaut est affichée dans le courrier électronique final et est facultative.
+1. Saisissez une URL dans le champ **[!UICONTROL Landing Page]** si vous souhaitez que l&#39;image par défaut effectue une redirection vers une landing page par défaut. Cette URL n&#39;est nécessaire que dans les cas où l&#39;image par défaut est affichée dans l&#39;email final et est facultative.
 1. Si vous utilisez les autorisations d&#39;Enterprise permissions dans vos paramètres d&#39;Adobe Target, ajoutez la propriété correspondante dans ce champ. Vous trouverez des informations supplémentaires sur les autorisations d&#39;Enterprise dans [cette page](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html). Ce champ est facultatif. Il n&#39;est pas obligatoire si vous n&#39;utilisez pas les autorisations d&#39;Enterprise dans Target.
-1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. Les champs d&#39;Adobe Campaign utilisés doivent avoir été spécifiés au niveau du &quot;rawbox&quot;. 
+1. Dans **[!UICONTROL Paramètres de décision additionnels]**, associez les champs définis dans les segments Adobe Target et les champs d&#39;Adobe Campaign. Les champs d&#39;Adobe Campaign utilisés doivent avoir été spécifiés au niveau du &quot;rawbox&quot;. 
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
