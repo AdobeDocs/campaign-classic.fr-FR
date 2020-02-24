@@ -38,9 +38,9 @@ Le chapitre suivant présente les étapes de conception d&#39;un formulaire de t
 >
 >Lors de la configuration d&#39;applications web et de formulaires web, vous devez disposer d&#39;une résolution verticale minimale de 900 pixels (ex : 1 600x900).
 
-Les formulaires Web sont accessibles via le menu Applications Web de l’onglet **Campagnes** . Dans l’arborescence d’Adobe Campaign, ils sont regroupés sous le **[!UICONTROL Resources > Online > Web Applications]** noeud.
+Les formulaires Web sont accessibles via le menu Applications Web de l’onglet **Campagnes** . Dans l’arborescence d’Adobe Campaign, ils sont regroupés sous le noeud **[!UICONTROL Ressources > En ligne > Applications]** Web.
 
-To create a Web form, click the **[!UICONTROL Create]** button above the list of Web applications.
+Pour créer un formulaire Web, cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des applications Web.
 
 ![](assets/webapp_create_new.png)
 
@@ -52,7 +52,7 @@ Vous accédez alors au tableau de bord du formulaire.
 
 ![](assets/webapp_empty_dashboard.png)
 
-The **[!UICONTROL Edit]** tab lets you create your content.
+L&#39;onglet **[!UICONTROL Edition]** permet d&#39;en créer le contenu.
 
 ![](assets/webapp_edit_tab.png)
 
@@ -83,8 +83,8 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 
 >[!NOTE]
 >
->* Lors de la conception de la page, vous pouvez afficher le rendu final dans l’ **[!UICONTROL Preview]** onglet. Pour afficher les modifications, enregistrez d’abord le formulaire. Toutes les erreurs s’affichent dans l’ **[!UICONTROL Log]** onglet.
->* Pour vous assurer que l’affichage des pages et le stockage des informations se produisent dans la séquence appropriée, activez le mode de débogage dans le formulaire Web. Pour ce faire, accédez au **[!UICONTROL Preview]** sous-onglet et cochez la **[!UICONTROL Enable debug mode]** case : toutes les informations collectées et les erreurs d&#39;exécution possibles s&#39;afficheront au bas de chaque page.
+>* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans le sous-onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
+>* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
 >
 
 
