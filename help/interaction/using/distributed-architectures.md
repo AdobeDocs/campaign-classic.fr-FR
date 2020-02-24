@@ -69,7 +69,7 @@ Le package Interaction doit être installé sur toutes les instances (pilotage e
 >
 >Lors de l&#39;installation du package, les champs de type **long** de la table **nms:proposition**, tels que l&#39;identifiant de la proposition, deviennent de type **int64**. Les types de données sont décrits dans [cette section](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
-La durée de rétention des données doit être configurée sur chaque instance (via la **[!UICONTROL Data purge]** fenêtre de l’assistant de déploiement). Sur les instances d’exécution, cette période doit correspondre à la profondeur historique nécessaire pour le calcul des règles de typologie (période coulissante) et des règles d’éligibilité.
+La durée de rétention des données doit être paramétrée sur chaque instance (via la fenêtre **[!UICONTROL Purge des données]** de l&#39;assistant de déploiement). Sur les instances d&#39;exécution, cette période doit correspondre à la profondeur d&#39;historique nécessaire au calcul des règles de typologie (période glissante) et aux règles d&#39;éligibilité.
 
 Sur les instances de pilotage :
 
@@ -78,11 +78,11 @@ Sur les instances de pilotage :
    ![](assets/interaction_powerbooster1.png)
 
    * Renseignez le libellé et un nom interne court et explicite.
-   * Select the **[!UICONTROL Execution instance]**.
-   * Cochez l’ **[!UICONTROL Enabled]** option.
+   * Sélectionnez le type **[!UICONTROL Instance d&#39;exécution]**.
+   * Cochez l&#39;option **[!UICONTROL Activé]**.
    * Renseignez les paramètres de connexion à l&#39;instance d&#39;exécution.
-   * Chaque instance d’exécution doit être liée à un identifiant. Cet identifiant est attribué lorsque vous cliquez sur le **[!UICONTROL Initialize connection]** bouton.
-   * Check the type of application used: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, or both.
+   * Chaque instance d&#39;exécution doit être associée à un identifiant. Cet identifiant est attribué lorsque vous cliquez sur le bouton **[!UICONTROL Initialiser la connexion]**.
+   * Cochez le type d&#39;application utilisée : **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, ou les deux.
    * Renseignez le compte FDA utilisé. Un opérateur doit être créé sur les instances d&#39;exécution et doit posséder les droits de lecture et de modification suivants au niveau de la base de données de l&#39;instance en question :
 
       ```
@@ -104,7 +104,7 @@ Sur les instances de pilotage :
       >
       >En cas d&#39;erreur, vous pouvez consulter les workflows de synchronisation et de notification des offres, disponibles dans les workflows techniques de l&#39;application.
 
-Si, pour des raisons d’optimisation, seule une partie de la base de données marketing est dupliquée sur les instances d’exécution, vous pouvez spécifier un schéma restreint lié à l’environnement pour permettre aux utilisateurs d’utiliser uniquement les données disponibles sur les instances d’exécution. Vous pouvez créer une offre à l’aide de données non disponibles sur les instances d’exécution. Pour ce faire, vous devez désactiver la règle sur les autres canaux en limitant cette règle sur le canal sortant (**[!UICONTROL Taken into account if]** champ).
+Si, pour des raisons d&#39;optimisation, seulement une partie de la base marketing est dupliquée sur les instances d&#39;exécution, il est possible de définir un schéma restreint associé à l&#39;environnement afin de permettre aux utilisateurs de n&#39;utiliser que les données disponibles sur les instances d&#39;exécution. Il est possible de créer une offre utilisant des données non disponibles sur les instances d&#39;exécution. Pour cela, vous devez désactiver la règle sur les autres canaux en limitant cette règle au canal sortant (champ **[!UICONTROL Pris en compte si]**).
 
 ![](assets/ita_filtering.png)
 
