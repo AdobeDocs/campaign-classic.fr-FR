@@ -36,11 +36,11 @@ La liste des options disponibles dans le menu **[!UICONTROL Actions]** et le men
 
 ### Barre d&#39;outils des actions {#actions-toolbar}
 
-Les boutons de la barre d’outils sont détaillés dans cette [section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). Le **[!UICONTROL Actions]** bouton vous donne accès à d’autres options d’exécution pour agir sur des processus sélectionnés. Vous pouvez également utiliser le **[!UICONTROL File > Actions]** menu ou cliquer avec le bouton droit sur un flux de travail et sélectionner **[!UICONTROL Actions]**.
+Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow). Le bouton **[!UICONTROL Actions]** vous donne accès à des options d&#39;exécution supplémentaires permettant d&#39;agir individuellement sur le ou les workflows sélectionnés. Vous pouvez également utiliser le menu **[!UICONTROL Fichier > Actions]** ou cliquer avec le bouton droit sur un workflow et sélectionner **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
-* **[!UICONTROL Start]**
+* **[!UICONTROL Début]**
 
    Cette action permet de lancer l&#39;exécution d&#39;un workflow : un workflow **Terminé**, **En édition** ou **En pause** passe alors en état **Démarré**. Le moteur de workflow va prendre en charge l&#39;exécution de ce workflow. Si le workflow était en pause, il s&#39;agit d&#39;une reprise, sinon il s&#39;agit d&#39;un démarrage et les activités initiales sont alors activées.
 
@@ -50,43 +50,43 @@ Les boutons de la barre d’outils sont détaillés dans cette [section](../../c
 
    Cette action a pour effet de passer le workflow **En pause**. Aucune activité ne sera activée jusqu&#39;à la prochaine reprise mais les opérations en cours ne seront pas suspendues.
 
-* **[!UICONTROL Stop]**
+* **[!UICONTROL Stopper]**
 
    Cette action arrête un workflow en cours d&#39;exécution : l&#39;instance passe alors en état **Terminé**. Les opérations en cours sont interrompues, si possible. Les imports ou requêtes SQL en cours sont immédiatement annulées.
 
    L&#39;arrêt est un processus asynchrone. La demande est enregistrée, puis le ou les serveurs de workflow vont annuler les opérations en cours. L&#39;arrêt d&#39;une instance peut donc prendre un certain temps, notamment si le workflow est distribué sur plusieurs serveurs : chacun des serveurs doit prendre la main pour annuler les tâches en cours.
 
-* **[!UICONTROL Restart]**
+* **[!UICONTROL Redémarrer]**
 
    Cette action consiste à arrêter puis démarrer un workflow. Dans la plupart des cas, elle permet de redémarrer plus vite. Elle est également utile pour automatiser le redémarrage lorsque l&#39;arrêt prend un certain temps : en effet la commande &#39;Démarrer&#39; n&#39;est disponible que lorsque l&#39;arrêt est effectif.
 
-   Les **[!UICONTROL Start / Pause / Stop / Restart]** actions sont également disponibles via les icônes d’exécution de la barre d’outils. Voir à ce propos cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+   Les actions **[!UICONTROL Démarrer / Pause / Stopper / Redémarrer]** sont également disponibles via les icônes d&#39;exécution de la barre d&#39;outils. Voir à ce sujet cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
-* **[!UICONTROL Purge history]**
+* **[!UICONTROL Purge de l&#39;historique]**
 
    Cette action vous permet de purger l’historique du processus. Pour plus d’informations, reportez-vous à la section [Purge des journaux](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 
-* **[!UICONTROL Start in simulation mode]**
+* **[!UICONTROL Démarrer en mode simulation]**
 
-   Cette option vous permet de démarrer le processus en mode simulation plutôt qu’en mode réel. Cela signifie que lorsque vous activez ce mode, seules les activités qui n’affectent pas la base de données ou le système de fichiers sont exécutées (ex. **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Activités qui ont un impact (p. ex. **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.) ainsi que ceux qui les suivent (dans la même branche) ne sont pas exécutés.
+   Cette option permet de démarrer le workflow, non pas en mode réel, mais en mode simulation. Lorsque vous activez ce mode, seules les activités n&#39;ayant pas d&#39;impact sur la base ni sur le système de fichiers sont exécutées, par exemple les activités de type **[!UICONTROL Requête]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. Les activités ayant un impact (**[!UICONTROL Export]**, **[!UICONTROL Import]**, etc) ainsi que celles qui leur succèdent (dans la même branche) ne sont pas exécutées.
 
-* **[!UICONTROL Execute pending tasks now]**
+* **[!UICONTROL Traitement anticipé des tâches en attente]**
 
-   This action lets you start all pending tasks as soon as possible. To start a specific task, right-click its activity and select **[!UICONTROL Execute pending task(s) now]**.
+   Cette action permet de lancer dès que possible toutes les tâches en attente. Si vous souhaitez lancer une tâche particulière, cliquez avec le bouton droit sur l&#39;activité correspondante et sélectionnez **[!UICONTROL Traitement anticipé de la (des) tâche(s)]**.
 
-* **[!UICONTROL Unconditional stop]**
+* **[!UICONTROL Arrêt inconditionnel]**
 
-   Cette option change l’état du processus en **[!UICONTROL Finished]**. Cette action ne doit être utilisée qu’en dernier recours si le processus d’arrêt normal échoue après plusieurs minutes. N’utilisez l’arrêt inconditionnel que si vous êtes sûr qu’aucune tâche de flux de travaux n’est en cours.
+   Lorsque cette option est sélectionnée, l&#39;état du workflow passe à **[!UICONTROL Terminé]**. Cette action ne doit être utilisée qu&#39;en dernier recours, lorsqu&#39;un arrêt normal ne fonctionne pas après plusieurs minutes. N&#39;utilisez l&#39;arrêt inconditionnel que si vous êtes sûr qu&#39;il n&#39;y a aucun traitement réel en cours sur le workflow.
 
    >[!CAUTION]
    >
    >Cette option est réservée à un utilisateur expert.
 
-* **[!UICONTROL Save as template]**
+* **[!UICONTROL Sauver comme modèle]**
 
-   Cette action crée un nouveau modèle de flux de travail en fonction du flux de travail sélectionné. Vous devez spécifier le dossier dans lequel il sera enregistré (dans le **[!UICONTROL Folder]** champ).
+   Cette action crée un nouveau modèle de workflow à partir du workflow sélectionné. Vous devez indiquer son dossier d&#39;enregistrement (dans le champ **[!UICONTROL Dossier]**).
 
-   Les options **[!UICONTROL Mass update of selected lines]** et **[!UICONTROL Merge selected lines]** sont des options de plateformes génériques disponibles dans tous les **[!UICONTROL Actions]** menus. Voir à ce propos cette [section](../../platform/using/updating-data.md).
+   Les options **[!UICONTROL Mettre à jour en masse les lignes sélectionnées]** et **[!UICONTROL Fusionner les lignes sélectionnées]** sont des options génériques de la plateforme disponibles dans tous les menus **[!UICONTROL Actions]**. Voir à ce sujet cette [section](../../platform/using/updating-data.md).
 
 ### Menu contextuel {#right-click-menu}
 
@@ -96,21 +96,21 @@ Lorsqu&#39;une ou plusieurs activités d&#39;un workflow sont sélectionnées, v
 
 Les options disponibles dans le menu contextuel sont les suivantes :
 
-**[!UICONTROL Open]**: cette option vous permet d’accéder aux propriétés de l’activité.
+**[!UICONTROL Ouvrir :]** cette option permet d&#39;accéder aux propriétés de l&#39;activité.
 
-**[!UICONTROL Display logs:]** cette option vous permet d’afficher le journal d’exécution de la tâche pour l’activité sélectionnée. Reportez-vous à [Affichage des journaux](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+**** Afficher les journaux : cette option vous permet d’afficher le journal d’exécution de la tâche pour l’activité sélectionnée. Reportez-vous à [Affichage des journaux](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
 
-**[!UICONTROL Execute pending task(s) now:]** cette action vous permet de démarrer les tâches en attente dès que possible.
+**[!UICONTROL Traitement anticipé de la (des) tâche(s) :]** cette action permet de lancer dès que possible la ou les tâches en attente de l&#39;activité.
 
-**[!UICONTROL Workflow restart from a task:]** cette option vous permet de redémarrer le processus à l’aide des résultats précédemment stockés pour cette activité.
+**[!UICONTROL Redémarrage du workflow à partir d&#39;une tâche :]** cette option permet de redémarrer le workflow en utilisant les résultats précédemment stockés pour cette activité.
 
-**[!UICONTROL Cut/Copy/Paste/Delete:]** ces options vous permettent de couper, copier, coller et supprimer des activités.
+**[!UICONTROL Couper/Copier/Coller/Supprimer :]** ces options permettent de couper, copier, coller et supprimer les activités.
 
-**[!UICONTROL Copy as bitmap:]** cette option vous permet de réaliser une capture d’écran de toutes les activités.
+**[!UICONTROL Copier en tant qu&#39;image :]** cette option permet d&#39;effectuer une capture d&#39;écran de l&#39;ensemble des activités.
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** ces options sont également disponibles dans l’ **[!UICONTROL Advanced]** onglet des propriétés de l’activité. Ils sont détaillés dans [Exécution](../../workflow/using/advanced-parameters.md#execution).
+**** Exécution normale / Activer mais pas exécuter / Ne pas activer : ces options sont également disponibles dans l’onglet **[!UICONTROL Avancé]** des propriétés de l’activité. Ils sont détaillés dans [Exécution](../../workflow/using/advanced-parameters.md#execution).
 
-**[!UICONTROL Save / Cancel:]** vous permet d’enregistrer ou d’annuler les modifications apportées à un processus.
+**[!UICONTROL Enregistrer/Annuler :]** permet d&#39;enregistrer ou d&#39;annuler les modifications effectuées sur le workflow.
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ Sélectionnez pour cela le menu correspondant :
 
 * Afficher la cible
 
-   This menu displays the available data on the target population as well as the structure of the work table (**[!UICONTROL Schema]** tab).
+   Ce menu affiche les données relatives à la population de la cible ainsi que la structure de la table de travail (onglet **[!UICONTROL Schéma]**).
 
    ![](assets/wf-right-click-display.png)
 
@@ -174,7 +174,7 @@ Sélectionnez pour cela le menu correspondant :
 
    Voir à ce propos cette [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
-Les données cible sont purgées au fur et à mesure de l’exécution du processus. Seule la dernière table de travail est accessible. Vous pouvez configurer le processus de sorte que toutes les tables de travail restent accessibles : vérifiez l’ **[!UICONTROL Keep the result of interim populations between two executions]** option dans les propriétés du flux de travaux.
+Les données de la cible sont purgées au fur et à mesure de l&#39;exécution du workflow. Seule la dernière table de travail est accessible. Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles. Pour cela, cochez l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
 
 Toutefois, l&#39;activation de cette option est à éviter lorsque les données manipulées sont volumineuses.
 
@@ -190,9 +190,9 @@ Vous pouvez ainsi utiliser dans une diffusion des données collectées via une l
 %= targetData.FIELD %
 ```
 
-**[!UICONTROL Target extension]** (targetData) les éléments de personnalisation de type ne sont pas disponibles pour les processus de ciblage. La cible de diffusion doit être intégrée au flux de travail et spécifiée dans la transition entrante de la diffusion.
+Les éléments de personnalisation de type **[!UICONTROL Extension de la cible]** (targetData) ne sont disponible que dans le cadre des workflows de ciblage. Ainsi, la cible de la diffusion doit être construite dans le workflow et spécifiée dans la transition entrante de la diffusion.
 
-Si vous souhaitez créer des épreuves de remise, la cible de la preuve doit être construite en fonction du **[!UICONTROL Address substitution]** mode afin que les données de personnalisation puissent être saisies. Voir à ce propos cette [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
+Si vous souhaitez créer des BAT pour les diffusions, la cible des BAT doit alors être construite selon le mode **[!UICONTROL Substitution des adresses]**, afin que les données de personnalisation puissent être renseignées. Voir à ce propos cette [section](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof).
 
 Dans l&#39;exemple suivant, nous allons collecter dans une liste des informations relatives à des clients qui seront utilisées dans un mail personnalisé.
 
@@ -218,23 +218,23 @@ Les étapes sont les suivantes :
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. Configure the **[!UICONTROL Enrichment]** type activity to reconcile the collected data with that already in the Adobe Campaign database.
+1. Paramétrez l&#39;activité de type **[!UICONTROL Enrichissement]** afin de réconcilier les données collectées avec celles de la base Adobe Campaign.
 
    Ici, la clé de réconciliation est le numéro de compte :
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. Then configure the **[!UICONTROL Delivery]**: it is created based on a template, and the recipients are specified by the inbound transition.
+1. Configurez ensuite la **[!UICONTROL Diffusion]** : elle est créée depuis un modèle et les destinataires sont ceux spécifiés par la transition entrante.
 
    ![](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
-   >Seules les données contenues dans la transition peuvent être utilisées pour personnaliser la diffusion. **Les champs de personnalisation de type targetData** ne sont disponibles que pour la population entrante de l’ **[!UICONTROL Delivery]** activité.
+   >Seules les données contenues dans la transition peuvent être utilisées pour personnaliser la diffusion. Les champs de personnalisation de type **targetData** ne sont disponibles que pour la population en entrée de l&#39;activité **[!UICONTROL Diffusion]**.
 
 1. Dans le modèle de diffusion, utilisez les champs collectés dans le workflow.
 
-   To do this, insert **[!UICONTROL Target extension]** type personalization fields.
+   Pour cela, insérez des champs de personnalisation de type **[!UICONTROL Extension de la cible]**.
 
    ![](assets/wf-targetdata-sample-5.png)
 
@@ -244,7 +244,7 @@ Les étapes sont les suivantes :
 
    ![](assets/wf-targetdata-sample-6.png)
 
-   **[!UICONTROL Target extension]** (targetData) Les données de type sont insérées dans les remises en utilisant les mêmes caractéristiques que tous les champs de personnalisation. Ils peuvent également être utilisés dans le sujet, les étiquettes de liens ou les liens eux-mêmes.
+   Les données de type **[!UICONTROL Extension de la cible]** (targetData) sont insérées dans les diffusions selon les mêmes caractéristiques que tous les champs de personnalisation. Elles peuvent ainsi par exemple être utilisées dans l&#39;objet du message, les libellés des liens ou les liens eux-mêmes, etc.
 
    Les messages adressés aux destinataires collectés contiendront donc les données suivantes :
 
@@ -278,15 +278,15 @@ Il est possible de recevoir un message de validation qui contient un lien vers u
 
 La gestion des opérateurs est présentée dans cette [section](../../platform/using/access-management.md).
 
-Les courriers électroniques d’approbation sont envoyés en permanence. Le modèle de remise par défaut est **[!UICONTROL notifyAssignee]**: Il est enregistré dans le **[!UICONTROL Administration > Campaign management > Technical delivery templates]** dossier. Ce scénario peut être personnalisé et il est également recommandé de faire une copie et de modifier les modèles pour chaque activité.
+L&#39;envoi des emails de validation se fait grâce à une diffusion au fil de l&#39;eau. Le modèle de diffusion par défaut est **[!UICONTROL notifyAssignee]** : il est enregistré dans le dossier **[!UICONTROL Administration > Gestion de campagne > Modèles des diffusions techniques]**. Ce modèle peut être personnalisé, mais il est recommandé d&#39;en faire une copie et de changer de modèle pour chaque activité.
 
-Les distributions créées à l’aide de ce modèle sont stockées dans le **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** dossier.
+Les diffusions créées depuis ce modèle sont stockées dans le dossier **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Diffusions techniques > Notifications de workflow]**.
 
 ### Validation depuis la console {#approval-via-the-console}
 
 Dans les opérations, les éléments à valider sont affichés dans le tableau de bord de l&#39;opération.
 
-Pour les processus techniques, les tâches que l’utilisateur peut approuver sont accessibles à partir de l’arborescence du **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]** dossier.
+Pour les workflows techniques, les tâches que l&#39;utilisateur peut valider sont accessibles depuis l&#39;arborescence en sélectionnant le dossier **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Validations en attente]**.
 
 ![](assets/validation-node.png)
 
@@ -307,16 +307,16 @@ Le deuxième onglet des propriétés de l&#39;activité de validation permet de 
 
 ![](assets/expiration.png)
 
-To add a new expiration, click **[!UICONTROL Add]**. A transition is added to each of the expirations created. Vous pouvez ainsi :
+Pour ajouter une nouvelle expiration, cliquez sur le bouton **[!UICONTROL Ajouter]**. Une transition est ajoutée pour chacune des expirations créées. Vous pouvez :
 
 * soit modifier les paramètres usuels directement depuis la liste en cliquant sur une cellule (ou en appuyant sur la touche F2),
-* or edit the expression by clicking the **[!UICONTROL Detail...]** button.
+* soit éditer l&#39;expiration en cliquant sur le bouton **[!UICONTROL Détail...]**.
 
 >[!NOTE]
 >
 >Il n&#39;est pas nécessaire d&#39;ordonner les expirations, elles seront traitées par ordre chronologique.
 
-L’ **[!UICONTROL Do not terminate the task]** option laisse l’approbation active lorsque le délai est dépassé. Ce mode permet de gérer les rappels tout en laissant l’approbation active : peuvent toujours répondre. Cette option est désactivée par défaut, ce qui signifie que la tâche est considérée comme terminée à l’expiration et que les opérateurs ne peuvent plus répondre.
+L&#39;option **[!UICONTROL Ne pas terminer la tâche]** laisse la validation active une fois le délai expiré. Ce mode de fonctionnement permet de gérer des relances tout en laissant la validation active : les opérateurs ont toujours la possibilité de répondre. Cette option est désactivée par défaut : lorsque le délai est expiré la tâche est terminée et les opérateurs ne peuvent plus répondre.
 
 Vous pouvez créer quatre types d&#39;expirations :
 
