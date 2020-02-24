@@ -30,7 +30,7 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 
    ![](assets/offer_delivery_example_001.png)
 
-1. Edit the email delivery and click the **[!UICONTROL Offers]** icon.
+1. Editez la diffusion email et cliquez sur l&#39;icône **[!UICONTROL Offres]**.
 
    ![](assets/offer_delivery_example_002.png)
 
@@ -58,18 +58,18 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 
    ![](assets/offer_delivery_example_008.png)
 
-1. Click **[!UICONTROL Preview]** to preview your offers in the delivery then select a recipient to preview the offers as they will receive them.
+1. Cliquez sur **[!UICONTROL Aperçu]** pour prévisualiser vos offres dans la diffusion puis sélectionnez un destinataire afin de visualiser les offres telles qu&#39;il les recevra.
 
    ![](assets/offer_delivery_example_009.png)
 
 1. Enregistrez votre diffusion et lancez le workflow de ciblage.
-1. Open your delivery and click the **[!UICONTROL Audit]** tab of your delivery: you can see that the offer engine has selected the propositions to be made from the various offers in the catalog.
+1. Ouvrez votre diffusion et cliquez sur l&#39;onglet **[!UICONTROL Suivi]** : vous pouvez constater que le moteur d&#39;offre a déterminé les propositions à faire entre les différentes offres existant dans la catégorie.
 
    ![](assets/offer_delivery_example_010.png)
 
 ## Effectuer une simulation d&#39;offres {#perform-an-offer-simulation}
 
-1. Dans l’ **[!UICONTROL Profiles and Targets]** univers, cliquez sur le **[!UICONTROL Simulations]** lien, puis sur le **[!UICONTROL Create]** bouton.
+1. Dans l&#39;univers **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Simulations]**, puis sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/offer_simulation_001.png)
 
@@ -81,7 +81,7 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 
    ![](assets/offer_simulation_example_003.png)
 
-1. Cliquez sur l’ **[!UICONTROL Edit]** onglet, puis **[!UICONTROL Scope]**.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Edition]**, puis sur **[!UICONTROL Périmètre]**.
 
    ![](assets/offer_simulation_example_004.png)
 
@@ -110,21 +110,21 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 
    ![](assets/offer_simulation_example_009.png)
 
-1. Save your settings, then click **[!UICONTROL Start]** in the **[!UICONTROL Dashboard]** tab to run the simulation.
+1. Enregistrez vos paramètres puis cliquez sur **[!UICONTROL Démarrer la simulation]**, sur l&#39;onglet **[!UICONTROL Tableau de bord]**, pour lancer la simulation.
 
    ![](assets/offer_simulation_example_010.png)
 
-1. Once the simulation is finished, consult the **[!UICONTROL Results]** for a detailed breakdown of propositions per offer.
+1. Lorsque la simulation est terminée, consultez les **[!UICONTROL Résultats]** pour connaître la répartition des propositions par offres.
 
    Dans notre exemple, le moteur d&#39;offres a bien basé la répartition des offres sur une base de 3 propositions.
 
    ![](assets/offer_simulation_example_011.png)
 
-1. Affichez la liste **[!UICONTROL Breakdown of offers by rank]** des offres sélectionnées par le moteur d’offre.
+1. Affichez le rapport **[!UICONTROL Répartition des offres par rang]** pour voir le classement des offres sélectionnées par le moteur d&#39;offres.
 
    ![](assets/offer_simulation_example_012.png)
 
-1. If necessary, you can change the scope settings and run the simulation again by clicking **[!UICONTROL Start simulation]**.
+1. Si besoin est, modifiez les éléments du périmètre autant de fois que nécessaire et relancez la simulation en cliquant sur **[!UICONTROL Démarrer la simulation]**.
 
    ![](assets/offer_simulation_example_010.png)
 
