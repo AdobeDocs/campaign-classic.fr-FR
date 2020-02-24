@@ -38,23 +38,23 @@ Deux types de mises à jour sont possibles : mise à jour en masse pour un ensem
 
 ### Mise à jour en masse {#mass-update}
 
-Pour une mise à jour en masse, utilisez **[!UICONTROL Action > Mass update of selected lines...]**. L’assistant vous aide à configurer et à exécuter la mise à jour.
+Pour une mise à jour en masse, utilisez l&#39;option **[!UICONTROL Action > Mettre à jour en masse les lignes sélectionnées...]**. Un assistant vous permet de paramétrer et de lancer la mise à jour.
 
 La première étape de l&#39;assistant permet de spécifier le ou les champs sur lesquels porte la mise à jour.
 
-La section de gauche de l’assistant affiche la liste des champs disponibles. Utilisez le **[!UICONTROL Find]** champ pour lancer une recherche dans ces champs. Appuyez sur la touche **Entrée** pour parcourir la liste. Les noms de champ correspondant à votre entrée apparaissent en gras, comme illustré ci-dessous.
+La section gauche de l&#39;assistant propose la liste des champs disponibles. Utilisez le champ **[!UICONTROL Rechercher]** pour lancer une recherche parmi ces champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre saisie apparaissent en gras, comme dans l&#39;exemple ci-dessous.
 
 Double-cliquez sur le ou les champs à mettre à jour afin de les afficher dans la section droite de l&#39;assistant.
 
 ![](assets/s_ncs_user_update_wizard01_1.png)
 
-In the event of an error, use the **[!UICONTROL Delete]** button to delete a field from the list of fields to be updated.
+En cas d&#39;erreur, utilisez le bouton **[!UICONTROL Supprimer]** pour supprimer un champ de la liste des champs à mettre à jour.
 
 Sélectionnez ou saisissez les valeurs à appliquer aux profils à mettre à jour.
 
 ![](assets/s_ncs_user_update_wizard01_12.png)
 
-You can click **[!UICONTROL Distribution of values]** to display the distribution of values of the selected field for the recipients present in the current folder (not only the recipients affected by the update).
+Vous pouvez cliquer sur le bouton **[!UICONTROL Répartition des valeurs]** pour visualiser la répartition des valeurs du champ sélectionné pour les destinataires présents dans le dossier courant (et non pas seulement pour les destinataires visés par la mise à jour).
 
 ![](assets/s_ncs_user_update_wizard01_2.png)
 
@@ -62,34 +62,34 @@ Vous pouvez définir des filtres pour l&#39;affichage dans cette fenêtre de ré
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
-Fermez cette fenêtre et cliquez sur **[!UICONTROL Next]** pour afficher la deuxième étape de l&#39;assistant de mise à jour. Dans cette étape, vous pouvez lancer la mise à jour en cliquant sur **[!UICONTROL Start]**.
+Fermez cette fenêtre et cliquez sur le bouton **[!UICONTROL Suivant]** pour afficher la seconde étape de l&#39;assistant de mise à jour. Cette étape permet de lancer la mise à jour à partir du bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_user_update_wizard01_4.png)
 
 Les informations relatives à l&#39;exécution de la mise à jour sont affichées dans la section supérieure de l&#39;assistant.
 
-Le **[!UICONTROL Stop]** permet d’annuler la mise à jour, mais certains enregistrements ont peut-être été mis à jour et l’arrêt du processus n’annule pas ces mises à jour. La barre de progression indique la progression de l’opération.
+Le bouton **[!UICONTROL Arrêter]** permet d&#39;annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l&#39;arrêt du traitement n&#39;annulera pas ces mises à jour. La barre de progression indique l&#39;avancement de l&#39;opération.
 
 ### Fusion de données {#merge-data}
 
-Sélectionnez **[!UICONTROL Merge selected lines...]** pour lancer la fusion de deux profils de destinataires. Les profils à fusionner doivent être sélectionnés avant de sélectionner l’option. La fusion est configurée et lancée à l’aide d’un assistant.
+L&#39;option **[!UICONTROL Fusionner les lignes sélectionnées...]** permet de lancer la fusion de deux profils de destinataires. Les deux profils à fusionner doivent être sélectionnés avant de choisir l&#39;option. Un assistant vous permet de paramétrer et de lancer la fusion.
 
-L’assistant affiche les valeurs à récupérer pour chaque champ rempli dans l’un ou l’autre des profils source. Si un ou plusieurs champs des profils à fusionner ont des valeurs différentes, ils sont affichés dans la **[!UICONTROL List of conflicts]** section. Vous pouvez ensuite sélectionner le profil par défaut à l’aide des boutons radio situés sous la liste, comme dans l’exemple suivant :
+L&#39;assistant permet de visualiser les valeurs qui seront récupérées pour chaque champ renseigné dans l&#39;un ou l&#39;autre des profils sources. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
 
 ![](assets/s_ncs_user_merge_wizard01_1.png)
 
-Click **[!UICONTROL Compute]** to display the result of your choice.
+Cliquez sur le bouton **[!UICONTROL Calculer]** pour visualiser le résultat de votre choix.
 
 ![](assets/s_ncs_user_merge_wizard01_2.png)
 
-Check the **[!UICONTROL Result]** columns of both sections of the window, and click **[!UICONTROL Finish]** to run the merge.
+Vérifiez les colonnes **[!UICONTROL Résultat]** des deux sections de la fenêtre et cliquez sur le bouton **[!UICONTROL Terminer]** pour lancer la fusion.
 
 ## export des données {#exporting-data}
 
 Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;export :
 
 1. Sélectionnez les enregistrements à exporter.
-1. Right-click and select **[!UICONTROL Export...]**.
+1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Exporter...]**.
 
    ![](assets/s_ncs_user_export_list.png)
 
@@ -104,28 +104,28 @@ Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;
 Dans la plupart des cas, les destinataires s&#39;abonnent à une newsletter par le biais d&#39;une landing page dédiée, comme expliqué dans [cette section](../../delivery/using/managing-subscriptions.md). Toutefois, les profils de destinataires filtrés peuvent être abonnés manuellement à un service (Newsletter ou Service viral). Pour cela :
 
 1. Sélectionnez les destinataires à abonner et cliquez avec le bouton droit de la souris.
-1. Sélectionner **[!UICONTROL Actions > Subscribe selection to a service]**.
+1. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**.
 
    ![](assets/s_ncs_user_selection_subscribe_service.png)
 
-1. Select the desired service and click **[!UICONTROL Next]**:
+1. Sélectionnez le service visé et cliquez sur **[!UICONTROL Suivant]** :
 
    ![](assets/s_ncs_user_selection_subscribe_service_2.png)
 
    >[!NOTE]
    >
-   >This editor lets you create a new service: click the **[!UICONTROL Create]** button.
+   >Depuis cet éditeur, vous pouvez créer un nouveau service. Pour cela cliquez sur le bouton **[!UICONTROL Créer]**.
 
-1. Vous pouvez **[!UICONTROL Send a confirmation message]** contacter des destinataires. Le contenu de ce message peut être configuré dans le scénario d’abonnement lié au service sélectionné.
-1. Click the **[!UICONTROL Start]** button to run the subscription process.
+1. Vous pouvez choisir d&#39;**[!UICONTROL Envoyer un message de confirmation]** aux destinataires. Le contenu de ce message est paramétré dans le scénario d&#39;inscription associé au service sélectionné.
+1. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;abonnement.
 
    ![](assets/s_ncs_user_selection_subscribe_service_3.png)
 
-La section supérieure de la fenêtre vous permet de surveiller le processus d’exécution. Le **[!UICONTROL Stop]** bouton permet d’arrêter le processus. Toutefois, les destinataires déjà traités seront abonnés.
+La section supérieure de la fenêtre vous permet de suivre l&#39;exécution. Le bouton **[!UICONTROL Arrêter]** vous permet de stopper l&#39;opération. Les destinataires ayant déjà été traités seront toutefois abonnés.
 
-Si vous désélectionnez l’ **[!UICONTROL Do not keep a trace of this job in the database]** option, vous pouvez sélectionner (ou créer) le dossier d’exécution dans lequel les informations sur ce processus seront stockées.
+Si vous décochez l&#39;option **[!UICONTROL Ne pas conserver trace de ce traitement dans la base de données]** vous pouvez sélectionner (ou créer) le dossier d&#39;exécution où seront stockées les informations relatives à ce traitement.
 
-To check on the process, go to the **[!UICONTROL Subscriptions]** tab on the profiles of the recipients concerned by this operation, or to the **[!UICONTROL Subscriptions]** tab accessed via the **[!UICONTROL Profiles and Targets > Services and Subscriptions]** node.
+Vous pouvez vérifier le traitement depuis l&#39;onglet **[!UICONTROL Abonnements]** du profil des destinataires concernés par cette opération, ou depuis l&#39;onglet **[!UICONTROL Abonnements]** accessible depuis le noeud **[!UICONTROL Profils et Cibles > Services et Abonnements]**.
 
 ![](assets/s_ncs_user_selection_subscribe_service_4.png)
 
