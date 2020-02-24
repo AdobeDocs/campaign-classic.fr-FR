@@ -57,7 +57,7 @@ Le mode de stockage des dates et heures est sélectionné lors de la création d
 D&#39;un point de vue technique, les informations de type **Date+heure** peuvent être stockées dans la base de données selon deux modes différents :
 
 1. Format TIMESTAMP WITH TIMEZONE : le moteur de base de données stocke les dates en UTC. Chaque session ouverte aura un fuseau horaire associé et les dates seront converties en fonction de ce fuseau horaire.
-1. Format local + fuseau horaire local : toutes les dates sont stockées au format local (sans gestion des délais) et un seul fuseau horaire leur est affecté. Le fuseau horaire est stocké dans l’option **WdbcTimeZone** de l’instance Adobe Campaign et peut être modifié via le **[!UICONTROL Administration > Platform > Options]** menu de l’arborescence.
+1. Format local + fuseau horaire local : toutes les dates sont stockées au format local (pas de gestion des décalages horaires) et un fuseau horaire unique leur est associé. Le fuseau horaire est stocké dans l&#39;option **WdbcTimeZone** de l&#39;instance Adobe Campaign et peut être modifié à partir du menu **[!UICONTROL Administration > Plateforme > Options]** de l&#39;arborescence.
 
 >[!CAUTION]
 >
@@ -65,9 +65,9 @@ D&#39;un point de vue technique, les informations de type **Date+heure** peuvent
 
 ### Création d&#39;une nouvelle instance {#creating-a-new-instance}
 
-Pour que plusieurs utilisateurs internationaux puissent travailler sur la même instance, vous devez configurer des fuseaux horaires lors de la création de l’instance afin de gérer les décalages horaires entre les pays. Lors de la création de l’instance, sélectionnez le mode de gestion de la date et de l’heure dans la **[!UICONTROL Time zone]** section de l’étape de configuration de la base de données.
+Afin de permettre à plusieurs utilisateurs internationaux de collaborer sur une même instance, vous devez configurer les fuseaux horaires (timezone) lors de la création de l&#39;instance pour gérer les décalages horaires entre les pays. Pour cela, lors de la création de l&#39;instance, sélectionnez le mode de gestion des dates et heures dans la section **[!UICONTROL Fuseau horaire]** de l&#39;étape de configuration de la base de données.
 
-Cochez l’ **[!UICONTROL UTC database (date fields with time zone)]** option pour stocker toutes les données avec des dates et des heures au format UTC (champs SQL et XML).
+Cochez l&#39;option **[!UICONTROL Base UTC (champs dates avec fuseau horaire)]** pour stocker toutes les données comportant des dates et heures au format UTC (champs SQL et champs XML).
 
 ![](assets/install_wz_select_utc_option.png)
 
@@ -79,7 +79,7 @@ Si la base n&#39;est pas UTC, vous pouvez sélectionner le fuseau horaire parmi 
 
 ![](assets/install_wz_unselect_utc_option.png)
 
-Lorsque l’ **[!UICONTROL UTC Database (date fields with time zone)]** option est sélectionnée, les champs SQL sont stockés au format TIMESTAMP AVEC TIMEZONE.
+Lorsque l&#39;option **[!UICONTROL Base UTC (champs dates avec fuseau horaire)]** est sélectionnée, les champs SQL sont stockés au format TIMESTAMP WITH TIMEZONE.
 
 Dans le cas contraire, ils sont stockés au format local et vous devez sélectionner le fuseau horaire à appliquer à la base de données.
 
