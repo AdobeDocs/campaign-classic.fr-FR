@@ -29,7 +29,7 @@ Pour intégrer des offres lors de la création d&#39;une diffusion, deux méthod
 
 ## Diffusion avec appel au moteur d&#39;offres {#delivering-with-a-call-to-the-offer-engine}
 
-Pour présenter une offre au cours d’une campagne marketing, il vous suffit de créer une action de diffusion classique basée sur le canal choisi. Le moteur d’offre est appelé lorsque le contenu de remise est défini en cliquant sur l’ **[!UICONTROL Offers]** icône disponible dans la barre d’outils.
+Pour présenter une offre lors d&#39;une campagne marketing, il vous suffit de créer une action de diffusion classique selon le canal choisi. L&#39;appel du moteur d&#39;offres se fait au moment de la définition du contenu de la diffusion, en cliquant sur l&#39;icône **[!UICONTROL Offres]**, disponible dans la barre d&#39;outils.
 
 ![](assets/offer_delivery_009.png)
 
@@ -57,11 +57,11 @@ Les étapes successives pour insérer des propositions d&#39;offres dans vos dif
 
    ![](assets/offer_delivery_005.png)
 
-1. Sélectionnez l’ **[!UICONTROL Exclude non-eligible recipients]** option si nécessaire. Pour plus d’informations, reportez-vous à la section [Paramètres d’appel du moteur](#parameters-for-calling-offer-engine)d’offres.
+1. Sélectionnez l’option **[!UICONTROL Exclure les destinataires]** non éligibles si nécessaire. Pour plus d’informations, reportez-vous à la section [Paramètres d’appel du moteur](#parameters-for-calling-offer-engine)d’offres.
 
    ![](assets/offer_delivery_006.png)
 
-1. Si nécessaire, sélectionnez l’ **[!UICONTROL Do not display anything if no offers are selected]** option. Pour plus d’informations, reportez-vous à la section [Paramètres d’appel du moteur](#parameters-for-calling-offer-engine)d’offres.
+1. Si nécessaire, sélectionnez l’option **[!UICONTROL Ne rien afficher si aucune offre n’est sélectionnée]** . Pour plus d’informations, reportez-vous à la section [Paramètres d’appel du moteur](#parameters-for-calling-offer-engine)d’offres.
 
    ![](assets/offer_delivery_007.png)
 
@@ -75,12 +75,12 @@ Les étapes successives pour insérer des propositions d&#39;offres dans vos dif
 
 ### Paramètres d&#39;appel au moteur d&#39;offres {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** : espace de l’environnement de l’offre qui doit être sélectionné pour activer le moteur d’offre.
-* **[!UICONTROL Category]** : dossier spécifique dans lequel les offres sont triées. Si aucune catégorie n’est spécifiée, toutes les offres contenues dans l’environnement sont prises en compte par le moteur d’offre, sauf si un thème est sélectionné.
-* **[!UICONTROL Themes]** : mots-clés définis en amont dans les catégories. Ces filtres vous permettent d’affiner le nombre d’offres à présenter en les sélectionnant dans un ensemble de catégories.
-* **[!UICONTROL Number of propositions]** : nombre d’offres renvoyées par le moteur pouvant être insérées dans le corps de livraison. S’ils ne sont pas insérés dans le message, les offres sont toujours générées, mais pas présentées.
-* **[!UICONTROL Exclude non-eligible recipients]** : Cette option vous permet d’activer ou de désactiver l’exclusion des destinataires pour lesquels il n’existe pas suffisamment d’offres éligibles. Le nombre de propositions admissibles peut être inférieur au nombre de propositions demandées. Si cette case est cochée, les destinataires qui n’ont pas assez de propositions seront exclus de la remise. Si vous ne sélectionnez pas cette option, ces destinataires ne seront pas exclus, mais ils n’auront pas le nombre de propositions demandé.
-* **[!UICONTROL Do not display anything if no offer is selected]** : cette option vous permet de choisir le mode de traitement du message au cas où l’une des propositions n’existerait pas. Lorsque cette case est cochée, la représentation de la proposition manquante n’est pas affichée et aucun contenu n’apparaît dans le message pour cette proposition. Si la case n’est pas cochée, le message lui-même est annulé pendant l’envoi et les destinataires ne recevront plus de messages.
+* **[!UICONTROL Emplacement]** : emplacement de l&#39;environnement des offres à choisir obligatoirement afin d&#39;activer le moteur d&#39;offres.
+* **[!UICONTROL Catégorie]** : dossier spécifique dans lequel les offres sont classées. Si aucune catégorie n&#39;est spécifiée, c&#39;est la totalité des offres contenues dans l&#39;environnement qui seront prises en compte par le moteur d&#39;offres, sauf si un thème est sélectionné.
+* **[!UICONTROL Thèmes]** : mots-clés définis préalablement au niveau des catégories. Ils agissent comme un filtre et permettent d&#39;affiner les offres à présenter en les sélectionnant dans un ensemble de catégories.
+* **[!UICONTROL Nombre de propositions]** : nombre d&#39;offres renvoyées par le moteur qui pourront être insérées dans le corps de la diffusion. Si elles ne sont pas insérées dans le message, les offres seront néanmoins générées, mais non présentées.
+* **[!UICONTROL Exclure les destinataires non éligibles]** : cette option permet d&#39;activer ou non l&#39;exclusion des destinataires pour lesquels il n&#39;y a pas assez d&#39;offres éligibles. Pour chaque destinataire, il se peut que le nombre de propositions éligibles soit inférieur au nombre de propositions requis. En cochant cette case, les destinataires pour lesquels le nombre de propositions requis n&#39;est pas atteint seront exclus de la diffusion. Si vous ne sélectionnez pas cette option, ces destinataires seront conservés, mais ils auront un nombre de propositions inférieur au nombre demandé.
+* **[!UICONTROL Ne rien afficher si aucune offre n&#39;est sélectionnée]** : cette option permet de choisir le traitement du message au cas où l&#39;une des propositions n&#39;existerait pas. En cochant cette case, la représentation de la proposition manquante ne s&#39;affichera pas et aucun contenu n&#39;apparaîtra dans le message pour cette proposition. Si la case est décochée, le message lui-même est annulé au moment de l&#39;envoi et les destinataires ne recevront aucun message.
 
 ### Insérer une proposition d&#39;offres dans une diffusion {#inserting-an-offer-proposition-into-a-delivery}
 
@@ -97,21 +97,21 @@ Vous avez également la possibilité de présenter des offres dans une diffusion
 Pour plus d&#39;informations sur les compositions de diffusion, consultez le guide [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 1. Créez une nouvelle opération ou accédez à une opération existante.
-1. Access the delivery outlines via the campaign&#39;s **[!UICONTROL Edit]** > **[!UICONTROL Documents]** tab.
-1. Add an outline then insert as many offers as you like into it by right-clicking on the outline and selecting **[!UICONTROL New]** > **[!UICONTROL Offer]**, then save the campaign.
+1. Accédez aux compositions de diffusion via l&#39;onglet **[!UICONTROL Edition]** > **[!UICONTROL Documents]** de l&#39;opération.
+1. Ajoutez une composition puis insérez autant d&#39;offres que vous souhaitez dans cette composition en cliquant droit sur cette dernière et en sélectionnant **[!UICONTROL Nouveau]** > **[!UICONTROL Offre]**, puis enregistrez l&#39;opération.
 
    ![](assets/int_compo_offre1.png)
 
 1. Créez une diffusion dans laquelle vous avez accès aux compositions de diffusion (par exemple une diffusion de type courrier).
-1. Lors de la modification de la diffusion, cliquez sur **[!UICONTROL Select a delivery outline]**.
+1. Dans l&#39;édition de la diffusion, sélectionnez **[!UICONTROL Choisir une composition de diffusion]**.
 
    >[!NOTE]
    >
-   >Depending on the type of delivery, this option can be found in the **[!UICONTROL Properties]** > **[!UICONTROL Advanced]** menu (for email deliveries for example).
+   >Selon le type de diffusion, cette option peut se trouver dans le menu **[!UICONTROL Propriétés]** > **[!UICONTROL Avancé]** (par exemple pour les diffusions par e-mail).
 
    ![](assets/int_compo_offre2.png)
 
-1. Using the **[!UICONTROL Offers]** button, you can then configure the offer space as well as the number of offers to present in the delivery.
+1. Via le bouton **[!UICONTROL Offres]**, vous pouvez ensuite paramétrer l&#39;emplacement ainsi que le nombre d&#39;offres à présenter dans la diffusion.
 
    ![](assets/int_compo_offre3.png)
 
