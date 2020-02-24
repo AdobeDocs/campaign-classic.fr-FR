@@ -24,7 +24,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ## Démarrage d&#39;Adobe Campaign {#starting-adobe-campaign}
 
-Vous pouvez démarrer Adobe Campaign en sélectionnant **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
+Vous pouvez démarrer Adobe Campaign à partir du menu **[!UICONTROL Démarrer / Tous les programmes / Adobe Campaign v.X / Console cliente Adobe Campaign]**.
 
 La page de connexion de la console cliente permet de configurer ou de sélectionner une base de données existante, et de s&#39;y connecter en utilisant un identifiant et un mot de passe :
 
@@ -36,15 +36,15 @@ Il est possible de vous connecter à Adobe Campaign via votre Adobe ID. Voir à 
 
 Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
-1. Saisissez l&#39;identifiant du compte opérateur dans le champ **[!UICONTROL login]**.
+1. Saisissez l&#39;identifiant du compte opérateur dans le champ **[!UICONTROL Login]**.
 
    L&#39;identifiant vous est fourni par l&#39;administrateur de la plate-forme Adobe Campaign.
 
-1. Enter your password in the **[!UICONTROL Password]** field.
+1. Saisissez votre mot de passe dans le champ **[!UICONTROL Mot de passe]**.
 
-   La première fois que vous accédez à la base de données, votre mot de passe est celui que vous donne l’administrateur. Une fois connecté, vous pouvez modifier votre mot de passe par le **[!UICONTROL Tools > Change password...]** menu. Des détails sur les opérateurs et les connexions sont disponibles dans la gestion des [](../../platform/using/access-management.md)accès.
+   **[!UICONTROL La première fois que vous accédez à la base de données, votre mot de passe est celui que vous donne l’administrateur. Une fois connecté, vous pouvez modifier votre mot de passe via]** Outils > Modifier le mot de passe... . Des détails sur les opérateurs et les connexions sont disponibles dans la gestion des [](../../platform/using/access-management.md)accès.
 
-1. Cliquez sur **[!UICONTROL Log in]** pour confirmer.
+1. Cliquez sur **[!UICONTROL Se connecter]** pour valider.
 
 Vous pouvez maintenant accéder à l&#39;[espace de travail Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
 
@@ -54,24 +54,24 @@ Vous pouvez accéder aux paramètres de connexion au serveur via le lien situé 
 
 ![](assets/s_ncs_user_connections_management.png)
 
-Dans la **[!UICONTROL Connections]** fenêtre, cliquez sur **[!UICONTROL Add > Connection]**.
+Dans la fenêtre **[!UICONTROL Connexions]**, cliquez sur **[!UICONTROL Ajouter > Connexion]**.
 
 ![](assets/s_ncs_user_add_connexion.png)
 
 Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
-* Enter a **[!UICONTROL Label]** to assign a name to your database connection.
-* Ajoutez l’adresse du serveur d’applications dans le **[!UICONTROL URL]** champ. Si vous ne connaissez pas l’URL de connexion, contactez l’administrateur.
-* Vérifiez **[!UICONTROL Connect with an Adobe ID]** que les opérateurs se connectent à la console à l’aide de leur Adobe ID. Voir à ce propos [cette page](../../integrations/using/about-adobe-id.md).
-* Click **[!UICONTROL OK]** to validate.
+* Saisissez un **[!UICONTROL libellé]** qui correspond au nom que vous souhaitez attribuer à votre connexion vers la base de données.
+* Ajoutez l&#39;adresse du serveur applicatif dans le champ **[!UICONTROL URL]**. Si vous ne connaissez pas l&#39;URL de connexion, contactez votre administrateur.
+* Cochez la case **[!UICONTROL Se connecter avec un Adobe ID]** pour que les opérateurs puissent se connecter à la console via leur Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
+* Cliquez sur **[!UICONTROL OK]** pour valider.
 
 >[!NOTE]
 >
->Le **[!UICONTROL Add]** bouton vous permet de créer **[!UICONTROL folders]** pour organiser toutes vos connexions. Faites glisser et déposez simplement chaque connexion dans un dossier.
+>Le bouton **[!UICONTROL Ajouter]** permet de créer des **[!UICONTROL dossiers]** dans lesquels vous pourrez classer vos différentes connexions par des opérations de glisser-déplacer.
 
 ## Opérateurs et permissions {#operators-and-permissions}
 
-The identifiers and passwords of operators with access to the software and their respective permissions are defined by your Adobe Campaign system administrator in the **[!UICONTROL Administration > Access management > Operators]** node of the Adobe Campaign tree.
+Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ainsi que leurs permissions respectives, sont définis par l&#39;administrateur du système Adobe Campaign dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;arborescence d&#39;Adobe Campaign.
 
 This functionality is detailed in the [Access management](../../platform/using/access-management.md) section.
 
@@ -87,7 +87,7 @@ Pour vous déconnecter d&#39;Adobe Campaign, utilisez la première icône de la 
 
 ## Obtention de la version de Campaign {#getting-your-campaign-version}
 
-The **[!UICONTROL Help > About...]** menu lets you access the following information:
+Le menu **[!UICONTROL Aide > À propos...]** vous permet d&#39;accéder aux informations suivantes :
 
 * numéro de la **version** installée.
 * numéro de **build**.
