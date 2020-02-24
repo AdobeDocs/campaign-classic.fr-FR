@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## Principes {#principles}
 
-To edit, create and configure the schemas, click the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign client console.
+Pour éditer, créer et paramétrer les schémas, cliquez sur le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de la console cliente Adobe Campaign.
 
 >[!NOTE]
 >
@@ -56,8 +56,8 @@ Dans l&#39;exemple suivant, nous allons créer une nouvelle table pour les **con
 
 Pour cela, vous devez créer le schéma de la table puis procéder à la mise à jour de la structure de la base pour générer la table correspondante. Les étapes sont les suivantes :
 
-1. Modifiez le **[!UICONTROL Administration > Configuration > Data schemas]** noeud de l’arborescence Adobe Campaign et cliquez sur **[!UICONTROL New]** .
-1. Choisissez l’ **[!UICONTROL Create a new table in the data model]** option et cliquez sur **[!UICONTROL Next]** .
+1. Editez le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de l&#39;arborescence Adobe Campaign et cliquez sur l&#39;icône **[!UICONTROL Nouveau]** .
+1. Sélectionnez l&#39;option **[!UICONTROL Créer une nouvelle table dans le modèle de données de la base]** et cliquez sur **[!UICONTROL Suivant]** .
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
@@ -69,7 +69,7 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
    >
    >Par défaut, les schémas créés par les utilisateurs sont stockés dans l’espace de noms &quot;cus&quot;. Pour plus d&#39;informations, reportez-vous à [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
-1. Créez le contenu du tableau. Nous vous recommandons d’utiliser l’assistant d’entrée pour vous assurer qu’aucun paramètre n’est manquant. Pour ce faire, cliquez sur le **[!UICONTROL Insert]** bouton et choisissez le type de paramètre à ajouter.
+1. Créez le contenu de la table. Il est recommandé d&#39;utiliser l&#39;assistant de saisie afin de n&#39;omettre aucun paramètre. Pour cela, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
