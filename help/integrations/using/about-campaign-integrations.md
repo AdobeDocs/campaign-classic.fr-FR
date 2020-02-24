@@ -42,7 +42,7 @@ La gestion des organisations et la liaison de comptes à Adobe Experience Cloud 
 >
 >Lors d&#39;une nouvelle installation d&#39;Adobe Campaign ou de l&#39;intégration d&#39;une installation existante avec Adobe Experience Cloud, le [Service Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/) est activé. Ce service remplace le cookie permanent utilisé en premier lieu par Adobe Campaign pour ses fonctionnalités de tracking.
 >
->Un identifiant visiteur unique sera alors attribué aux destinataires qui génèrent des journaux de suivi. Cet ID sera enregistré dans le **[!UICONTROL Requester UUID (@sourceID)]** champ de la **[!UICONTROL nms:trackingLogRcp]** table. Les données de suivi des destinataires qui existaient avant la mise en oeuvre du service d’identification des visiteurs ne seront donc plus utilisables.
+>Un identifiant visiteur unique sera alors attribué aux destinataires générant des logs de tracking. Cet identifiant sera enregistré dans le champ **[!UICONTROL UUID du demandeur (@sourceID)]** de la table **[!UICONTROL nms:trackingLogRcp]**. Les données de tracking des destinataires qui existaient avant l&#39;implémentation du service d&#39;identification des visiteurs ne seront donc plus utilisables.
 >
 >L&#39;identifiant sera ensuite reconnu par les autre solutions Adobe Experience Cloud partageant le même [CNAME](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cname.html).
 
