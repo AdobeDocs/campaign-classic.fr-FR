@@ -32,18 +32,18 @@ Adobe Campaign permet d&#39;assurer la cohérence des communications au travers 
 
 Avant de diffuser des messages, vous devez vous assurer que votre organisation a la capacité de gérer l&#39;envoi (infrastructure matérielle), les réponses que la diffusion peut générer (messages entrants), le nombre d&#39;appels à assurer pour contacter les adhérents (capacités de traitement du centre d&#39;appels), etc.
 
-To do this, you need to create **[!UICONTROL Capacity]** typology rules.
+Pour cela, vous devez créer des règles de typologie de type **[!UICONTROL Capacité]**.
 
 Dans l&#39;exemple suivant, nous allons créer une règle de typologie pour une campagne de fidélisation par téléphone. Elle permettra de limiter le nombre de messages à 20 par jour, c&#39;est-à-dire la capacité de traitement des appels par un centre d&#39;appels. Cette règle sera ensuite appliquée à deux diffusions afin de suivre son effet par le biais des logs.
 
 Pour créer une règle de capacité, procédez comme suit :
 
-1. Sous le **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** noeud, cliquez sur **[!UICONTROL New]**.
-1. Select a **[!UICONTROL Capacity]** rule type.
+1. Sous le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies > Règles de typologie]**, cliquez sur **[!UICONTROL Nouveau]**.
+1. Sélectionnez un type de règle **[!UICONTROL Capacité]**.
 
    ![](assets/campaign_opt_create_capacity_01.png)
 
-1. Dans l’ **[!UICONTROL Capacity]** onglet, créez les lignes de disponibilité : dans notre exemple, il s&#39; agit de périodes pendant lesquelles des appels peuvent être faits. Sélectionnez une période de 24 heures et entrez 150 dans la quantité initiale, ce qui signifie que le centre d’appels peut gérer 150 appels par jour.
+1. Dans l&#39;onglet **[!UICONTROL Capacité]**, créez les lignes de disponibilité : dans notre exemple, elles correspondent à des périodes pendant lesquelles les appels peuvent être passés. Sélectionnes 24 heures et saisissez 150 dans la quantité initiale, ce qui indique que le centre d&#39;appels peut traiter 150 appels par jour.
 
    ![](assets/campaign_opt_create_capacity_02.png)
 
@@ -52,9 +52,9 @@ Pour créer une règle de capacité, procédez comme suit :
    >Les lignes de disponibilité n&#39;ont qu&#39;un caractère indicatif. Si vous devez exclure des messages lorsque la limite de capacité est atteinte, reportez-vous à [cette section](#exclude-messages-when-capacity-limit-reached).
 
 1. Associez cette règle à une typologie, puis référencez cette typologie au niveau de la diffusion pour appliquer cette règle de capacité. Pour plus d&#39;informations, consultez [cette section](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery).
-1. You can monitor consumption from the rule **[!UICONTROL Consumptions]** and **[!UICONTROL Capacity]** tabs.
+1. Vous pouvez suivre la consommation dans les onglets **[!UICONTROL Consommations]** et **[!UICONTROL Capacité]**.
 
-   When a rule is used in a delivery, the **[!UICONTROL Consumed]** and **[!UICONTROL Remaining]** columns provide information on the load, as shown below:
+   Lorsqu&#39;une règle est utilisée dans une diffusion, les colonnes **[!UICONTROL Consommé]** et **[!UICONTROL Restant]** indiquent la charge utilisée, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/campaign_opt_create_capacity_03.png)
 
@@ -66,7 +66,7 @@ Pour définir la charge maximale, vous devez définir les lignes de disponibilit
 
 ### Ajouter unitairement les lignes de disponibilité {#adding-availability-lines-one-by-one}
 
-Pour créer une ligne de disponibilité, cliquez sur le **[!UICONTROL Add]** bouton et sélectionnez **[!UICONTROL Add an availability line]**. Entrez la période de disponibilité et la charge disponible.
+Pour créer unitairement une ligne de disponibilité, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez l&#39;option **[!UICONTROL Ajouter une ligne de disponibilité]**. Renseignez la plage de disponibilité et la charge disponible.
 
 ![](assets/campaign_opt_create_capacity_02.png)
 
@@ -74,9 +74,9 @@ Vous pouvez ajouter autant de lignes que nécessaires pour correspondre à votre
 
 ### Ajouter un ensemble de lignes de disponibilité {#add-a-set-of-availability-lines}
 
-Pour définir des périodes de disponibilité pour une période donnée, cliquez sur le **[!UICONTROL Add]** bouton et sélectionnez l’ **[!UICONTROL Add a set of availability lines]** option. Indiquez une durée pour chaque période et le nombre de périodes à créer.
+Pour définir des plages de disponibilité sur une période donnée, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez l&#39;option **[!UICONTROL Ajouter un ensemble de lignes de disponibilité]**. Indiquez la durée de chaque plage et le nombre de plages à créer.
 
-To automate the frequency of page creation, click the **[!UICONTROL Change]** button and define time period scheduling.
+Pour automatiser la fréquence de création des plages, cliquez sur le bouton **[!UICONTROL Changer]** et définissez la planification des plages.
 
 ![](assets/campaign_opt_create_capacity_07.png)
 
@@ -94,7 +94,7 @@ Par exemple, nous allons définir un planning afin de créer les plages de dispo
 
    ![](assets/campaign_opt_create_capacity_10.png)
 
-The **[!UICONTROL Forecasting]** workflow automatically creates all matching lines.
+Le workflow **[!UICONTROL Prévisionnel]** crée automatiquement toutes les lignes correspondantes.
 
 ![](assets/campaign_opt_create_capacity_12.png)
 
@@ -104,11 +104,11 @@ The **[!UICONTROL Forecasting]** workflow automatically creates all matching lin
 
 ## Exclure des messages lorsque la limite de capacité est atteinte {#exclude-messages-when-capacity-limit-reached}
 
-Les lignes de disponibilité ne sont fournies qu&#39;à titre d&#39;information. Pour exclure les messages en trop, cochez l’ **[!UICONTROL Exclude from the target messages in excess of capacity]** option. Cela empêche le dépassement de la capacité. Pour la même population que dans l&#39;exemple précédent, la consommation et la capacité restante ne peuvent pas dépasser la quantité initiale:
+Les lignes de disponibilité n&#39;ont qu&#39;un caractère indicatif. Pour exclure les messages excédentaires, cochez l&#39;option **[!UICONTROL Exclure de la cible les messages en sur-capacité]**. Dans ce cas, la capacité ne pourra pas être dépassée. Pour la même population que dans l&#39;exemple précédent, la consommation et la capacité restante ne pourront pas excéder la quantité initiale :
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-Le nombre de messages à traiter est réparti uniformément sur la plage de disponibilité définie. Ceci est particulièrement pertinent pour les centres d’appels, car leur nombre maximal d’appels par jour est limité. Dans le cas des diffusions par courrier électronique, l’ **[!UICONTROL Do not limit instantaneous delivery capacity]** option vous permet d’ignorer cette plage de disponibilité et d’envoyer vos courriers électroniques en même temps.
+Le nombre de messages à traiter est réparti proportionnellement sur la totalité de la plage de disponibilité définie. C&#39;est le cas notamment pour les centres d&#39;appels dont le nombre maximum d&#39;appels par jour est plafonné. Dans le cas des diffusions email, l&#39;option **[!UICONTROL Ne pas limiter la capacité instantanée de diffusion]** permet d&#39;ignorer cette plage de disponibilité et d&#39;envoyer vos emails en masse au même moment.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
@@ -120,10 +120,10 @@ Le nombre de messages à traiter est réparti uniformément sur la plage de disp
 
 ## Suivre les consommations {#monitoring-consumption}
 
-Par défaut, les règles de capacité ne sont utilisées qu’à des fins d’indication. Sélectionnez l’ **[!UICONTROL Exclude messages in excess of capacity from the target]** option pour empêcher le dépassement de la charge définie. Dans ce cas, les messages en excès seront automatiquement exclus des remises à l’aide de cette règle de typologie.
+Par défaut, les règles de capacité n&#39;ont qu&#39;un caractère indicatif. Sélectionnez l&#39;option **[!UICONTROL Exclure de la cible les messages en sur-capacité]** pour que la charge définie ne puisse pas être dépassée. Dans ce cas, les messages excédentaires seront automatiquement exclus des diffusions utilisant cette règle de typologie.
 
-To monitor consumptions, view the values displayed in the **[!UICONTROL Consumed]** column of the **[!UICONTROL Capacity]** tab in the typology rule.
+Pour suivre les consommations, consultez les valeurs affichées dans la colonne **[!UICONTROL Consommé]** de l&#39;onglet **[!UICONTROL Capacité]** de la règle de typologie.
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-To view consumption lines, click the **[!UICONTROL Consumptions]** tab in the rule.
+Pour visualiser les lignes de consommation, cliquez sur l&#39;onglet **[!UICONTROL Consommations]** de la règle.
