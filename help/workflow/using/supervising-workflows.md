@@ -33,7 +33,7 @@ Pour suivre le statut d&#39;un ensemble de workflows, vous devez procéder comme
 
 1. Créer le Workflow de suivi.
 1. Ecrire le JavaScript permettant de déterminer les workflows ayant le statut en erreur, en pause ou stoppé.
-1. Create the **[!UICONTROL Test]** activity.
+1. Créer l&#39;activité **[!UICONTROL Test]**.
 1. Préparer le modèle de diffusion.
 
 >[!NOTE]
