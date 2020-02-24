@@ -26,7 +26,7 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 Vous pouvez spécifier une condition de visibilité sur un élément de la page web : cet élément ne sera visible que si la condition de visibilité est respectée.
 
-To add a visibility condition, select a block and enter the condition in the **[!UICONTROL Visibility condition]** field using the expression editor.
+Pour ajouter une condition de visibilité, sélectionnez un bloc et saisissez la condition à remplir dans le champ **[!UICONTROL Condition de visibilité]** au moyen de l&#39;éditeur d&#39;expression.
 
 ![](assets/dce_add_condition.png)
 
@@ -78,11 +78,11 @@ En effet, si le modèle utilisé ne contient pas de valeur par défaut, vous dev
 
 Pour cela :
 
-* Cliquez sur l’ **[!UICONTROL Edit]** icône .
+* Cliquez sur l&#39;icône **[!UICONTROL Edition]**.
 
    ![](assets/dce_sidebar_options.png)
 
-* Enter the itemized list value (defined by the selected field) into the **[!UICONTROL Value]** field.
+* Complétez le champ **[!UICONTROL Valeur]** avec la valeur de l&#39;énumération associée (définie par le champ sélectionné).
 
    ![](assets/dce_sidebar_completeoptionradio.png)
 
@@ -92,9 +92,9 @@ Les champs de formulaires de type boutons radio, zones de saisie, listes déroul
 
 Vous pouvez ainsi :
 
-* Delete the block containing the form fields using the **[!UICONTROL Delete]** icon.
-* Duplicate the selected field by creating a new block using the **[!UICONTROL Duplicate]** icon.
-* Edit the **[!UICONTROL Form data]** window to link a database field to the form zone, using the **[!UICONTROL Edit]** icon.
+* Supprimer le bloc contenant le champ du formulaire à partir de l&#39;icône **[!UICONTROL Supprimer]**.
+* Dupliquer le champ sélectionné en créant un nouveau bloc, à partir de l&#39;icône **[!UICONTROL Dupliquer]**.
+* Editer la fenêtre **[!UICONTROL Données de formulaire]** afin d&#39;associer un champ de la base à la zone du formulaire, à partir de l&#39;icône **[!UICONTROL Editer]**.
 
    ![](assets/dce_toolbar_formblock_edition.png)
 
@@ -106,13 +106,13 @@ Lorsque l&#39;utilisateur clique sur un bouton, vous pouvez définir une action 
 
 Les actions disponibles sont les suivantes :
 
-* **[!UICONTROL Refresh]** : actualise la page active.
-* **[!UICONTROL Next page]** : crée un lien vers la page suivante de l&#39;application Web.
-* **[!UICONTROL Previous page]** : crée un lien vers la page précédente de l&#39;application Web.
+* **[!UICONTROL Actualiser]** : actualise la page en cours.
+* **[!UICONTROL Page suivante]** : crée un lien vers la prochaine page de l&#39;application Web.
+* **[!UICONTROL Page précédente]** : crée un lien vers la page précédente de l&#39;application Web.
 
 >[!NOTE]
 >
->The **[!UICONTROL None]** value allows you to not activate the button.
+>La valeur **[!UICONTROL Aucune]** permet de ne pas activer le bouton.
 
 Vous pouvez modifier le libellé associé au bouton dans le champ correspondant.
 
@@ -162,7 +162,7 @@ L&#39;option **Lien vers une application Web** permet d&#39;accéder à une appl
 
 Sélectionnez l&#39;application Web à partir du champ correspondant.
 
-The list of suggested Web applications corresponds to the available applications in the **[!UICONTROL Resources > Online > Web Applications]** node.
+La liste des applications Web proposées correspond aux applications notamment disponibles dans le noeud **[!UICONTROL Ressources > On-Line > Applications Web]**.
 
 ### Lien vers une action {#link-to-an-action}
 
@@ -178,8 +178,8 @@ L&#39;option **Lien définissant une action** permet de paramétrer une action l
 
 Lorsqu&#39;un lien a été inséré, la barre d&#39;outils propose deux nouvelles icônes : **Editer le lien** et **Rompre le lien** qui permettent d&#39;interagir avec le lien créé.
 
-* **[!UICONTROL Edit link]** vous permet d’afficher une fenêtre contenant tous les paramètres du lien.
-* **[!UICONTROL Break the link]** permet de supprimer, après confirmation, le lien et tous les paramètres associés.
+* **[!UICONTROL Editer le lien]** permet d&#39;afficher une fenêtre récapitulative de tous les paramètres du lien.
+* **[!UICONTROL Rompre le lien]** permet de supprimer, après confirmation, le lien ainsi que tous les paramétrages liés.
 
 >[!NOTE]
 >
@@ -266,7 +266,7 @@ L&#39;option **Champ de personnalisation** de l&#39;icône d&#39;insertion perme
 
 ![](assets/dce_toolbar_textblock_persofield.png)
 
-Par défaut, les champs proposés proviennent du **[!UICONTROL Recipient]** tableau. Si nécessaire, modifiez les propriétés de l&#39;application Web pour sélectionner un autre tableau.
+Par défaut, les champs proposés sont ceux de la table **[!UICONTROL Destinataire]**. Au besoin, éditez les propriétés de l&#39;application Web pour sélectionner une autre table.
 
 Le nom du champ apparaît dans l&#39;éditeur, surligné en jaune. Il sera remplacé, lors de la génération de la personnalisation (par exemple, lors de la prévisualisation d&#39;une landing page), par la valeur correspondant au profil du destinataire ciblé.
 
