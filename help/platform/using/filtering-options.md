@@ -39,7 +39,7 @@ Plusieurs modes de filtrage des informations affichées sont possibles. Au besoi
 
 ## Filtrer par dossier {#filter-by-folder}
 
-Click the **[!UICONTROL Folder]** icon to select the folder containing the data to display.
+Cliquez sur l&#39;icône **[!UICONTROL Dossier]** pour sélectionner le dossier contenant les données à afficher.
 
 ![](assets/filter_web_select_folder.png)
 
