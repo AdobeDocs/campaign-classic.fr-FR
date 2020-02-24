@@ -33,7 +33,7 @@ Si vous utilisez Adobe Managed Services, vous pouvez bénéficier de la mise à 
 
 ## 2. What is the database cleanup workflow? {#what-is-the-database-cleanup-workflow-}
 
-Le processus de nettoyage de la base de données supprime les données obsolètes afin d’éviter une croissance exponentielle de la base de données. Ce processus technique intégré est déclenché automatiquement sans intervention de l’utilisateur. Il est accessible via le **[!UICONTROL Administration > Production > Technical workflows]** noeud de l’Explorateur de campagnes.
+Le workflow Nettoyage de la base de données permet de supprimer les données obsolètes afin d’éviter une croissance exponentielle de la base. Ce workflow technique intégré se déclenche de manière automatique sans intervention de l’utilisateur. Il est accessible à partir du nœud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l’explorateur Campaign.
 
 [Cliquez ici pour en savoir plus](../../production/using/database-cleanup-workflow.md) sur le workflow de nettoyage de la base.
 
