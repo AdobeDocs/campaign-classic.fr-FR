@@ -22,7 +22,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # Choisir un mapping de ciblage{#selecting-a-target-mapping}
 
-Par défaut, les modèles de diffusion sont ciblés **[!UICONTROL Recipients]**. Leur mappage cible utilise donc les champs de la table **nms:Recipient** . Adobe Campaign propose d’autres mappages de cibles pour vos livraisons, à utiliser en fonction de vos besoins.
+Par défaut, les modèles de diffusion ciblent les **[!UICONTROL Destinataires]**. Leur mapping de ciblage utilise donc les champs de la table **nms:recipient**. Adobe Campaign propose d&#39;autres mappings de ciblage pour vos diffusions que vous pouvez utiliser selon vos besoins.
 
 ![](assets/delivery_select_mapping.png)
 
@@ -35,7 +35,7 @@ Ces mappings sont les suivants :
 | Abonnements  | Diffuser aux destinataires abonnés à un service d&#39;information, par exemple une newsletter | nms:subscription |
 | Abonnements des visiteurs | Diffuser à des visiteurs abonnés à un service d&#39;information | nms:visitorSub |
 | Service | Publier sur un compte Twitter ou une page Facebook | nms:service |
-| Les opérateurs | Diffuser aux opérateurs Adobe Campaign | nms:operator |
+| Opérateurs | Diffuser aux opérateurs Adobe Campaign | nms:operator |
 | Fichier externe | Diffuser depuis un fichier contenant les toutes informations nécessaires à la diffusion | Aucun schéma associé, aucune cible renseignée |
 
 >[!NOTE]
