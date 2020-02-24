@@ -26,7 +26,7 @@ Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opéra
 
 ## Créer des diffusions {#creating-deliveries}
 
-To create a delivery linked to a campaign, click the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
+Pour créer une diffusion associée à une opération, cliquez sur le lien **[!UICONTROL Ajouter une diffusion]** proposé dans le tableau de bord de l&#39;opération.
 
 ![](assets/campaign_op_add_delivery.png)
 
@@ -56,13 +56,13 @@ Vous pouvez définir des critères de filtrage des destinataires présents dans 
 
 Vous pouvez par exemple importer une population dans une liste puis cibler cette liste dans les diffusions.
 
-1. To do this, edit the concerned delivery and click the **[!UICONTROL To]** link to change the targeted population.
+1. Pour cela, éditez la diffusion concernée et cliquez sur le lien **[!UICONTROL Pour]** afin de modifier la population ciblée.
 
-1. Dans l’ **[!UICONTROL Main target]** onglet, sélectionnez l’ **[!UICONTROL Defined via the database]** option et cliquez **[!UICONTROL Add]** pour sélectionner les destinataires.
+1. Dans l&#39;onglet **[!UICONTROL Cible principale]**, choisissez l&#39;option **[!UICONTROL Définie depuis la base de données]** et cliquez sur **[!UICONTROL Ajouter]** pour sélectionner les destinataires.
 
 ![](assets/s_user_target_group_add.png)
 
-1. Choisissez **[!UICONTROL A list of recipients]** puis cliquez **[!UICONTROL Next]** pour le sélectionner.
+1. Choisissez **[!UICONTROL Une liste de destinataires]** et cliquez sur **[!UICONTROL Suivant]** pour le sélectionner parmi les listes existantes.
 
 ![](assets/s_user_target_group_next.png)
 
@@ -78,7 +78,7 @@ Le mode de fonctionnement du module de workflow est détaillé dans le guide [Au
 
 #### Créer un workflow de ciblage {#creating-a-targeting-workflow}
 
-Le ciblage peut être créé via une combinaison de conditions de filtrage dans une séquence graphique d’un flux de travail. Vous pouvez créer des populations et des sous-populations qui seront ciblées selon vos besoins. Pour afficher l’éditeur de flux de travail, cliquez sur l’ **[!UICONTROL Targeting and workflows]** onglet dans le tableau de bord de la campagne.
+Le ciblage peut être construit grâce à une combinaison de critères de filtrage, enchaînés graphiquement dans un workflow. Vous pouvez ainsi créer des populations et sous-populations qui seront ciblées selon vos besoins. Pour afficher l&#39;éditeur de workflows, cliquez sur l&#39;onglet **[!UICONTROL Ciblages et workflows]** dans le tableau de bord des campagnes.
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
@@ -108,16 +108,16 @@ La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux f
 
 Vous pouvez créer plusieurs workflows de ciblage pour une même opération. Pour ajouter un workflow :
 
-1. Accédez à la section supérieure gauche de la zone de création du processus, cliquez avec le bouton droit de la souris, puis sélectionnez **[!UICONTROL Add]**. Vous pouvez également utiliser le **[!UICONTROL New]** bouton situé au-dessus de cette zone.
+1. Positionnez le pointeur de la souris dans la section supérieure gauche de la zone de création des workflows, cliquez avec le bouton droit et choisissez **[!UICONTROL Ajouter]**. Vous pouvez également utiliser le bouton **[!UICONTROL Nouveau]** situé au-dessus de cette zone.
 
    ![](assets/s_ncs_user_add_a_wf.png)
 
-1. Select the **[!UICONTROL New workflow]** template and name this workflow.
-1. Cliquez sur **[!UICONTROL OK]** pour valider la création du workflow, puis créez le diagramme pour ce workflow.
+1. Sélectionnez le modèle de workflow **[!UICONTROL Nouveau workflow]** et nommez ce workflow.
+1. Cliquez sur **[!UICONTROL Ok]** pour valider la création du workflow, puis créez le diagramme pour ce workflow.
 
 #### Exécuter un workflow {#executing-a-workflow}
 
-Targeting workflows can be launched manually via the **[!UICONTROL Start]** button in the toolbar, provided that you have the appropriate rights.
+Les workflows de ciblage peuvent être lancés manuellement via le bouton **[!UICONTROL Démarrer]** de la barre d&#39;outils, sous réserve que vous disposiez des droits adéquats.
 
 Le ciblage peut être planifié afin de s&#39;exécuter automatiquement selon un planning (planificateur) ou un événement (signal externe, import d&#39;un fichier, etc.).
 
@@ -127,7 +127,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
 * Démarrer ou redémarrer
 
-   * L’ **[!UICONTROL Start]** icône vous permet de lancer le processus de ciblage. Lorsque vous cliquez sur cette icône, toutes les activités sans transition d’entrée sont activées (à l’exception des sauts de point de fin).
+   * L&#39;icône **[!UICONTROL Démarrer]** permet de lancer le workflow de ciblage. Lorsque vous cliquez sur cette icône, toutes les activités qui n&#39;ont pas de transition entrante sont activées (sauf les sauts de type &#39;arrivée&#39;).
 
       ![](assets/s_user_segmentation_start.png)
 
@@ -135,19 +135,19 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
       ![](assets/s_user_segmentation_start_status.png)
 
-      The process status changes to **[!UICONTROL Started]**.
+      Puis le processus passe en état **[!UICONTROL Démarré]**.
 
-   * Vous pouvez redémarrer le processus de ciblage via l’icône de barre d’outils appropriée. Cette commande peut s’avérer utile si l’ **[!UICONTROL Start]** icône n’est pas disponible, par exemple lorsque l’arrêt du processus de ciblage est en cours. Dans ce cas, cliquez sur l’ **[!UICONTROL Restart]** icône pour anticiper le redémarrage. Le serveur prend la requête en compte, comme le montre son état :
+   * Vous pouvez redémarrer le workflow de ciblage à partir de l&#39;icône correspondante de la barre d&#39;outils. Cette commande peut être utile si l&#39;icône **[!UICONTROL Démarrer]** n&#39;est pas disponible, par exemple lorsque l&#39;arrêt du workflow de ciblage est en cours. Dans ce cas, cliquez sur l&#39;icône **[!UICONTROL Redémarrer]** pour anticiper le démarrage. La demande est prise en compte par le serveur, comme le notifie son état :
 
       ![](assets/s_user_segmentation_restart_status.png)
 
-      The process then enters **[!UICONTROL Started]** status.
+      Puis le processus passe en état **[!UICONTROL Démarré]**.
 
 * Arrêter ou suspendre
 
    * Les icônes de la barre d&#39;outils permettent d&#39;arrêter ou suspendre un workflow de ciblage en cours d&#39;exécution.
 
-      When you click **[!UICONTROL Pause]**, operations in progress **[!UICONTROL are not]** paused, but no other activity is launched until the next restart.
+      Lorsque vous cliquez sur l&#39;icône **[!UICONTROL Pause]**, les opérations en cours **[!UICONTROL ne sont pas]** suspendues, mais aucune autre activité n&#39;est lancée jusqu&#39;à la prochaine reprise.
 
       ![](assets/s_user_segmentation_pause.png)
 
@@ -155,7 +155,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
       ![](assets/s_user_segmentation_pause_status.png)
 
-      You can also pause a targeting workflow automatically when its execution reaches a particular activity. To do this, right-click the activity from which targeting workflow is to be paused, and select **[!UICONTROL Enable but do not execute]**.
+      Vous pouvez également suspendre automatiquement un workflow de ciblage lorsque l&#39;exécution arrive à une activité. Pour cela, cliquez avec le bouton droit sur l&#39;activité à partir de laquelle le workflow de ciblage sera suspendu et choisissez **[!UICONTROL Activer mais ne pas exécuter]**.
 
       ![](assets/s_user_segmentation_donotexecute.png)
 
@@ -167,16 +167,16 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
       >
       >Cette option est utile lors des phases de conception et de test d&#39;une opération de ciblage.
 
-      Click **[!UICONTROL Start]** to resume execution.
+      Cliquez sur **[!UICONTROL Démarrer]** pour reprendre l&#39;exécution.
 
-   * Click the **[!UICONTROL Stop]** icon to stop the execution in progress.
+   * Cliquez sur l&#39;icône **[!UICONTROL Arrêter]** pour stopper l&#39;exécution en cours.
 
       ![](assets/s_user_segmentation_stop.png)
 
       La commande est prise en compte par le serveur, comme le notifie son état :
 
       ![](assets/s_user_segmentation_stop_status.png)
-   You can also stop a targeting workflow automatically when the execution reaches an activity. To do this, right-click the activity from which targeting workflow will be stopped, and select **[!UICONTROL Do not activate]**.
+   Vous pouvez également arrêter automatiquement un workflow de ciblage lorsque l&#39;exécution arrive à une activité. Pour cela, cliquez avec le bouton droit sur l&#39;activité à partir de laquelle le workflow de ciblage sera suspendu et choisissez **[!UICONTROL Ne pas activer]**.
 
    ![](assets/s_user_segmentation_donotactivate.png)
 
@@ -190,9 +190,9 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
 * Arrêt inconditionnel
 
-   Dans l’Explorateur, sélectionnez **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** pour accéder à chaque flux de travail de campagne et agir dessus.
+   Dans l&#39;Explorateur, sélectionnez **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Workflows des opérations]** pour accéder aux workflows des opérations et agir sur ces derniers.
 
-   Vous pouvez arrêter votre flux de travail sans condition en cliquant sur l’ **[!UICONTROL Actions]** icône et en sélectionnant **[!UICONTROL Unconditional]** Arrêter. Cette action met fin à votre processus de campagne.
+   Vous pouvez effectuer un arrêt conditionnel de votre workflow en cliquant sur l&#39;icône **[!UICONTROL Actions]** et en sélectionnant **[!UICONTROL Arrêt inconditionnel]**. Cette action arrête votre workflow d&#39;opération.
 
    ![](assets/s_user_segmentation_stop_unconditional.png)
 
@@ -206,13 +206,13 @@ La population témoin peut être extraite de la cible principale et/ou issue d&#
 
 Vous pouvez définir un groupe de contrôle au niveau de la campagne, auquel cas le groupe de contrôle sera appliqué à chaque diffusion de la campagne concernée.
 
-1. Modifiez la campagne concernée et cliquez sur l’ **[!UICONTROL Edit]** onglet.
-1. Clics **[!UICONTROL Advanced campaign settings]**.
+1. Modifiez la campagne concernée et cliquez sur l’onglet **[!UICONTROL Modifier]** .
+1. Cliquez sur Paramètres **[!UICONTROL de campagne]** avancés.
 
    ![](assets/s_ncs_user_edit_op_target.png)
 
-1. Select the **[!UICONTROL Enable and edit control group configuration]** option.
-1. Cliquez sur **[!UICONTROL Edit...]** pour configurer le groupe de contrôle.
+1. Sélectionnez l’option **[!UICONTROL Activer et modifier la configuration]** du groupe de contrôle.
+1. **[!UICONTROL Cliquez sur]** Modifier... pour configurer le groupe de contrôle.
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
@@ -228,12 +228,12 @@ Par défaut, le paramétrage de la population témoin défini au niveau de l&#39
 >
 >Si vous avez défini une population témoin au niveau d&#39;une opération et que vous la configurez également pour une diffusion liée à cette opération, seule la population témoin définie pour la diffusion sera appliquée.
 
-1. Modifiez la livraison concernée, puis cliquez sur le **[!UICONTROL To]** lien dans la **[!UICONTROL Email parameters]** section.
+1. Edit the delivery concerned and then click the **[!UICONTROL To]** link in the **[!UICONTROL Email parameters]** section.
 
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
-1. Cliquez sur l’ **[!UICONTROL Control group]** onglet, puis sélectionnez **[!UICONTROL Enable and edit control group configuration]**.
-1. Cliquez sur **[!UICONTROL Edit...]** pour configurer le groupe de contrôle.
+1. Cliquez sur l’onglet Groupe **[!UICONTROL de]** contrôle, puis sélectionnez **[!UICONTROL Activer et modifiez la configuration]** du groupe de contrôle.
+1. **[!UICONTROL Cliquez sur]** Modifier... pour configurer le groupe de contrôle.
 
 La procédure de configuration est présentée dans [Extraction du groupe de contrôle de la cible](#extracting-the-control-group-from-the-main-target) principale et [Ajout d&#39;une population](#adding-a-population).
 
@@ -243,12 +243,12 @@ Vous pouvez extraire des destinataires de la cible principale de la diffusion : 
 
 ![](assets/s_ncs_user_extract_from_target_population.png)
 
-Pour extraire un groupe de contrôle, activez-le pour la campagne ou la diffusion et sélectionnez l’une des options suivantes : **[!UICONTROL Activate random sampling]** ou **[!UICONTROL Keep only the first records after sorting]**.
+Pour extraire une population témoin, activez la population témoin au niveau de l&#39;opération ou de la diffusion et choisissez une des options suivantes : **[!UICONTROL Activer le tirage aléatoire]** ou **[!UICONTROL Conserver les premiers suite à un tri]**.
 
-* **[!UICONTROL Activate random sampling]** : cette option applique un échantillonnage aléatoire aux destinataires dans la population ciblée. Si vous définissez ensuite le seuil sur 100, le groupe de contrôle sera composé de 100 destinataires sélectionnés de manière aléatoire dans la population ciblée. L’échantillonnage aléatoire dépend du moteur de base de données.
-* **[!UICONTROL Keep only the first records after sorting]** : cette option vous permet de définir une limite en fonction d’un ou de plusieurs ordres de tri. Si vous sélectionnez le **[!UICONTROL Age]** champ comme critère de tri, puis définissez 100 comme seuil, le groupe de contrôle sera composé des 100 destinataires les plus jeunes. Par exemple, il peut être intéressant de définir un groupe de contrôle qui comprend les destinataires qui effectuent peu d’achats ou ceux qui effectuent des achats fréquents et de comparer leur comportement avec celui des destinataires contactés.
+* **[!UICONTROL Activer le tirage aléatoire]** : cette option applique un tirage aléatoire sur les destinataires présents dans la population ciblée. Si vous définissez ensuite une limite de 100, la population témoin sera composée de 100 destinataires choisis aléatoirement dans la population ciblée. Le tirage aléatoire appliqué dépend du moteur de base de données.
+* **[!UICONTROL Conserver les premiers suite à un tri]** : cette option permet de définir une limitation suivant un ou plusieurs ordres de tri. Si vous choisissez le champ **[!UICONTROL Age]** comme critère de tri, et que vous définissez ensuite une limite de 100, la population témoin sera composée des 100 destinataires les moins âgés. Il peut être intéressant, par exemple, de définir comme population témoin, des contacts qui achètent peu, ou au contraire, qui achètent fréquemment, et de comparer leur comportement aux destinataires qui ont été contactés.
 
-Click **[!UICONTROL Next]** to define the sorting order (if necessary) and select the recipient limitation mode.
+Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin) et sélectionnez le mode de limitation des destinataires.
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
@@ -270,17 +270,17 @@ Une fois que toutes les approbations ont été accordées, la livraison est prê
 
 ### Démarrer une diffusion online {#starting-an-online-delivery}
 
-Une fois toutes les demandes d’approbation accordées, l’état de remise devient **[!UICONTROL Pending confirmation]** et peut être démarré par un opérateur. Le cas échéant, l’opérateur Adobe Campaign (ou le groupe d’opérateurs) désigné comme réviseur pour lancer la diffusion est averti qu’une diffusion est prête à être lancée.
+Une fois toutes les demandes de validation approuvées, la diffusion passe à l&#39;état **[!UICONTROL A confirmer]**, et peut être démarrée par un opérateur. Le cas échéant, l&#39;opérateur Adobe Campaign (ou le groupe d&#39;opérateurs) désigné comme validant pour le démarrage de la diffusion est alors notifié qu&#39;une diffusion est prête à être démarrée.
 
 >[!NOTE]
 >
->If a specific operator or group of operators is designated for starting a delivery in the delivery&#39;s properties, you can also allow the operator in charge of the delivery to confirm the send. To do this, activate the **NMS_ActivateOwnerConfirmation** option by entering **1** as the value. Les options sont gérées à partir du noeud **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** dans l’explorateur Adobe Campaign.
+>Si un opérateur spécifique ou groupe d&#39;opérateurs est désigné pour le démarrage de la diffusion dans les propriétés de cette dernière, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour cela activez l&#39;option **NMS_ActivateOwnerConfirmation** en indiquant comme valeur **1**. Les options sont gérées depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]****[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
 >  
 >Pour désactiver cette option, indiquez **0** comme valeur. Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l&#39;opérateur ou le groupe d&#39;opérateurs désigné pour l&#39;envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l&#39;envoi.
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
 
-Les informations s’affichent également dans le tableau de bord de la campagne. Le **[!UICONTROL Confirm delivery]** lien vous permet de démarrer la remise.
+L&#39;information est également remontée au niveau du tableau de bord de l&#39;opération. Le lien **[!UICONTROL Confirmer l&#39;envoi]** permet de lancer la diffusion.
 
 ![](assets/s_ncs_user_edit_del_to_start.png)
 
@@ -288,7 +288,7 @@ Un message de confirmation permet de sécuriser cette action.
 
 ### Démarrer une diffusion offline {#starting-an-offline-delivery}
 
-Une fois que toutes les approbations ont été accordées, l’état de remise devient **[!UICONTROL Pending extraction]**. Les fichiers d’extraction sont créés par le biais d’un flux de travail spécial qui, dans une configuration par défaut, démarre automatiquement lorsqu’un envoi direct par courrier est en attente d’extraction. Lorsqu’un processus est en cours, il s’affiche dans le tableau de bord et peut être modifié via son lien.
+Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39;état **[!UICONTROL En attente d&#39;extraction]**. Les fichiers d&#39;extraction sont créés via un workflow spécifique qui, dans une configuration par défaut, démarre automatiquement lorsqu&#39;une diffusion courrier est en attente d&#39;extraction. Lorsqu&#39;un traitement est en cours, il est affiché dans le tableau de bord : il peut être édité depuis son lien.
 
 >[!NOTE]
 >
@@ -311,19 +311,19 @@ Pour plus d’informations, reportez-vous à la section [Approbation d’un fich
 ![](assets/s_ncs_user_file_valid_select_BAT.png)
 
 
-* Cliquez sur le **[!UICONTROL Send a proof]** bouton pour créer les épreuves.
+* Cliquez sur le bouton **[!UICONTROL Envoyer un BAT]** pour lancer la création des BAT.
 
    La cible des BAT doit avoir été préalablement définie.
 
-   Vous pouvez créer autant de preuves que nécessaire. Ces informations sont accessibles via le **[!UICONTROL Direct mail...]** lien des détails de remise.
+   Vous pouvez créer autant de BAT que nécessaire. Ils sont accessibles à partir du lien **[!UICONTROL Courriers...]** du détail de la diffusion.
 
    ![](assets/s_ncs_user_file_notif_submit_proof.png)
 
-* L’état de remise devient **[!UICONTROL To submit]**. Cliquez sur le **[!UICONTROL Submit proofs]** bouton pour lancer le processus d’approbation.
+* La diffusion est alors à l&#39;état **[!UICONTROL A soumettre]**. Le bouton **[!UICONTROL Soumettre les BAT]** lance le processus de validation des BAT.
 
    ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
 
-* The delivery status changes to **[!UICONTROL Proof to validate]** and a button lets you accept or reject approval.
+* La diffusion passe à l&#39;état **[!UICONTROL BAT à valider]** et un bouton permet d&#39;accepter ou refuser la validation.
 
    ![](assets/s_ncs_user_file_notif_supplier_link.png)
 
@@ -337,11 +337,11 @@ Pour plus d’informations, reportez-vous à la section [Approbation d’un fich
 
 L&#39;extraction du fichier lance deux opérations : le calcul des budgets et le calcul des stocks. Les lignes budgétaires sont mises à jour.
 
-* L’ **[!UICONTROL Budget]** onglet permet de gérer les budgets de la campagne. Le total des entrées de coût est affiché dans le **[!UICONTROL Calculates cost]** champ de l’onglet principal de la campagne et du programme auquel elle appartient. Les montants sont également répercutés dans le budget de la campagne.
+* Au niveau de l&#39;opération, l&#39;onglet **[!UICONTROL Budget]** permet de gérer les budgets. Le cumul des lignes de coût est repris dans le champ **[!UICONTROL Coût calculé]** de l&#39;onglet principal de l&#39;opération et du programme auquel elle appartient. Les montants sont également répercutés au niveau du budget de l&#39;opération.
 
    Le coût réel sera calculé au final en fonction des informations fournies par le routeur : seuls les courriers réellement envoyés sont facturés.
 
-* Les stocks sont définis dans le **[!UICONTROL Administration > Campaign management > Stocks]** noeud de l’arborescence et les structures de coûts dans le **[!UICONTROL Administration > Campaign management > Service providers]** noeud.
+* Les stocks sont définis dans le noeud **[!UICONTROL Administration > Gestion de campagne > Stocks]** de l&#39;arborescence, et les structures de coût, dans le noeud **[!UICONTROL Administration > Gestion de campagne > Prestataires]**.
 
    Au niveau des stocks, vous pouvez visualiser les lignes de stocks. Pour définir le stock initial, vous devez ouvrir une ligne de stock. Le stock est décrémenté au fur et à mesure des diffusions. Vous pouvez définir un niveau d&#39;alerte et des notifications.
 
@@ -367,12 +367,12 @@ Dans une campagne, vous pouvez également faire référence à d&#39;autres él�
 
 Des documents peuvent être associés au niveau de l&#39;opération (documents contextuels) ou au niveau du programme (documents généraux).
 
-The **[!UICONTROL Documents]** tab contains:
+L&#39;onglet **[!UICONTROL Documents]** contient :
 
 * la liste de tous les documents nécessaires au contenu (maquette, images, etc.) qui pourront être téléchargés en local par les opérateurs Adobe Campaign possédant les droits adéquats,
 * les documents contenant des informations destinées au routeur, s&#39;ils existent.
 
-The documents are linked to the program or the campaign via the **[!UICONTROL Edit > Documents]** tab.
+Les documents sont rattachés au programme ou à l&#39;opération via leur onglet **[!UICONTROL Edition > Documents]**.
 
 ![](assets/s_ncs_user_op_add_document.png)
 
@@ -380,11 +380,11 @@ Vous pouvez également ajouter un document dans une opération via le lien propo
 
 ![](assets/add_a_document_in_op.png)
 
-Click the **[!UICONTROL Details]** icon to view the content of a file and to add information:
+Cliquez sur l&#39;icône **[!UICONTROL Détails]** pour visualiser le contenu d&#39;un fichier et ajouter des informations complémentaires :
 
 ![](assets/s_ncs_user_op_add_document_details.png)
 
-In the dashboard, documents associated with the campaign are grouped in the **[!UICONTROL Document(s)]** section, as in the following example:
+Au niveau du tableau de bord, les documents associés à l&#39;opération sont regroupés dans la section **[!UICONTROL Document(s)]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_op_edit_document.png)
 
@@ -404,7 +404,7 @@ Les compositions permettent, au niveau de l&#39;opération, de structurer des é
 
 #### Créer une composition {#creating-an-outline}
 
-To create an outline, click the **[!UICONTROL Delivery outlines]** sub-tab in the **[!UICONTROL Edit > Documents]** tab of the concerned campaign.
+Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositions de diffusions]** proposé dans l&#39;onglet **[!UICONTROL Edition > Documents]** de l&#39;opération concernée.
 
 >[!NOTE]
 >
@@ -414,25 +414,25 @@ To create an outline, click the **[!UICONTROL Delivery outlines]** sub-tab in th
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
-Cliquez ensuite sur **[!UICONTROL Add a delivery outline]** et créez la hiérarchie des contours de la campagne :
+Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et créez l&#39;arborescence des compositions pour l&#39;opération :
 
-1. Cliquez avec le bouton droit sur la racine de l’arborescence et sélectionnez **[!UICONTROL New > Delivery outlines]**.
-1. Cliquez avec le bouton droit sur le contour que vous venez de créer et sélectionnez **[!UICONTROL New > Item]** ou **[!UICONTROL New > Personalization fields]**.
+1. Cliquez avec le bouton droit sur la racine de l&#39;arborescence et choisissez **[!UICONTROL Nouveau > Compositions de diffusion]**.
+1. Cliquez avec le bouton droit de la souris sur la composition que vous venez de créer et choisissez **[!UICONTROL Nouveau > Article]** ou **[!UICONTROL Nouveau > Champs de personnalisation]**.
 
 ![](assets/s_ncs_user_op_add_composition.png)
 
 Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
-* Les champs de personnalisation vous permettent de créer des éléments de personnalisation liés aux remises plutôt qu’aux destinataires. Il est ainsi possible de créer des valeurs à utiliser dans les livraisons pour une cible spécifique (offre de bienvenue, réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans le contour via le **[!UICONTROL Import personalization fields...]** lien.
+* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Ainsi, il est possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, pourcentage de réduction, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition, via le lien **[!UICONTROL Importer des champs de personnalisation...]**.
 
    ![](assets/s_ncs_user_op_add_composition_field.png)
 
-   They can also be created directly in the outline by clicking the **[!UICONTROL Add]** icon to the right of the list zone.
+   Ils peuvent également être créés directement dans la composition, en cliquant sur l&#39;icône **[!UICONTROL Ajouter]** située à droite de la zone de liste.
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* The resources are marketing resources generated in the marketing resource dashboard accessed via the **[!UICONTROL Resources]** link of the **[!UICONTROL Campaigns]** universe.
+* Les ressources sont des ressources marketing qui sont gérées dans le tableau de bord des ressources marketing accessible à partir du lien **[!UICONTROL Ressources]** de l&#39;univers **[!UICONTROL Campagnes]**.
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
@@ -450,7 +450,7 @@ La composition sélectionnée est alors affichée dans la section inférieure de
 
 ![](assets/s_ncs_user_op_select_composition_b.png)
 
-The **[!UICONTROL Summary]** tab of the delivery also displays this information:
+L&#39;onglet **[!UICONTROL Résumé]** de la diffusion affiche également cette information :
 
 ![](assets/s_ncs_user_op_select_composition_c.png)
 
