@@ -353,7 +353,7 @@ La valeur doit être une expression conforme au langage XPath. Pour plus d’inf
 
    >[!NOTE]
    >
-   >In the Adobe Campaign client console, the **[!UICONTROL Administration>Counters]** node is used to manage counters.
+   >Dans la console cliente Adobe Campaign, le noeud **[!UICONTROL Administration>Compteurs]** permet de gérer les compteurs.
 
 Pour lier une valeur par défaut à un champ, vous pouvez utiliser la variable `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
@@ -377,7 +377,7 @@ Une liste déroulante énumère la liste de ces valeurs à partir du formulaire 
 
 >[!NOTE]
 >
->In the Adobe Campaign client console, the **[!UICONTROL Administration > Enumerations]** node is used to manage enumerations.
+>Dans la console cliente Adobe Campaign, le nœud **[!UICONTROL Administration > Enumérations]** permet de gérer les énumérations.
 
 #### Enumération fixe {#set-enumeration}
 
@@ -419,7 +419,7 @@ The enumeration values are declared in the **`<value>`** element with the follow
 
    En revanche, l&#39;attribut **name** ne stocke pas de valeur en interne, mais un code, ce qui permet d&#39;étendre les tables concernées sans avoir à modifier leur schéma.
 
-   The values are defined via the **[!UICONTROL Administration>Enumerations]** node.
+   Les valeurs sont définies depuis le noeud **[!UICONTROL Administration>Enumérations]**.
 
    Cette énumération est utilisée par exemple, pour spécifier la nature des opérations.
 
