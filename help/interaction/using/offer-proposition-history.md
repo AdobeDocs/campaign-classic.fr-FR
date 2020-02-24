@@ -28,7 +28,7 @@ Une fois vos propositions d&#39;offres effectuées, vous pouvez consulter l&#39;
 >
 >Cette fonctionnalité n&#39;est visible que par le chargé de diffusion, dans un environnement en ligne.
 
-* At the offer level, in the **[!UICONTROL Edit]** tab, click **[!UICONTROL Propositions]**.
+* Au niveau de l&#39;offre, dans l&#39;onglet **[!UICONTROL Edition]**, cliquez sur **[!UICONTROL Propositions]**.
 
    ![](assets/offer_followup_006.png)
 
