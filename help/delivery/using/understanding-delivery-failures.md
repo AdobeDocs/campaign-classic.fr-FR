@@ -218,39 +218,39 @@ La plateforme Adobe Campaign permet de gérer les échecs d&#39;envoi d&#39;ema
 
 Lorsque l&#39;envoi d&#39;un email échoue, le serveur de diffusion Adobe Campaign reçoit un message d&#39;erreur de la part du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est constituée à partir des chaînes contenues dans le message renvoyé par le serveur distant. A chaque message d&#39;erreur sont attribués un type et une raison d&#39;échec.
 
-Cette liste est disponible via le **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** noeud. Il contient toutes les règles utilisées par Adobe Campaign pour évaluer les échecs de remise. Il n’est pas exhaustif et est régulièrement mis à jour par Adobe Campaign ; il peut également être géré par l’utilisateur.
+Cette liste est disponible depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Qualification des logs de diffusion]**. Il contient toutes les règles utilisées par Adobe Campaign pour qualifier les erreurs de diffusion. Cette liste est non exhaustive et est régulièrement mise à jour par Adobe Campaign. Elle peut également être gérée par l&#39;utilisateur.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-* Le message renvoyé par le serveur distant lors de la première occurrence de ce type d’erreur s’affiche dans la **[!UICONTROL First text]** colonne du **[!UICONTROL Delivery log qualification]** tableau. Si cette colonne n’est pas affichée, cliquez sur le **[!UICONTROL Configure list]** bouton situé au bas droit de la liste pour la sélectionner.
+* Le message renvoyé par le serveur distant à la première occurrence de ce type d&#39;erreur est affiché dans la colonne **[!UICONTROL Premier texte]** de la table **[!UICONTROL Qualification des logs de diffusion]**. Si cette colonne n&#39;est pas visible, cliquez sur le bouton **[!UICONTROL Configurer la liste]** en bas à droite de la liste pour la sélectionner.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaign filtre ce message pour supprimer le contenu de la variable (ID, dates, adresses électroniques, numéros de téléphone, etc.). et affiche le résultat filtré dans la **[!UICONTROL Text]** colonne. Les variables sont remplacées par **`#xxx#`**, à l’exception des adresses remplacées par **`*`**.
+Adobe Campaign filtre ce message pour supprimer le contenu de la variable (ID, dates, adresses électroniques, numéros de téléphone, etc.) et affiche le résultat filtré dans la colonne **[!UICONTROL Texte]** . Les variables sont remplacées par **`#xxx#`**, à l’exception des adresses remplacées par **`*`**.
 
 Ce processus permet de regrouper tous les échecs d&#39;un même type et d&#39;éviter plusieurs entrées pour des erreurs similaires dans la table Qualification des logs de diffusion.
 
 >[!NOTE]
 >
->Le **[!UICONTROL Number of occurrences]** champ affiche le nombre d’occurrences du message dans la liste. Elle est limitée à 100 000 occurrences. Vous pouvez modifier le champ, si vous souhaitez, par exemple, le réinitialiser.
+>Le champ **[!UICONTROL Nombre d&#39;occurrences]** affiche le nombre d&#39;occurrences du message dans la liste. Ce nombre est limité à 100 000 occurrences. Vous pouvez modifier le champ si vous le souhaitez, par exemple pour le réinitialiser.
 
 Les statuts de qualification des mails rebonds sont les suivants :
 
-* **[!UICONTROL To qualify]** : le courrier rebond n&#39;a pas pu être qualifié. La qualification doit être attribuée à l&#39;équipe de délivrabilité pour garantir une livraison efficace de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le courrier de rebonds n&#39;est pas utilisé pour enrichir la liste des règles de gestion du courrier électronique.
-* **[!UICONTROL Keep]** : le courrier de rebonds a été qualifié et sera utilisé par le processus **Actualiser pour la délivrabilité** afin d’être comparé aux règles de gestion des courriers électroniques existantes et d’enrichir la liste.
-* **[!UICONTROL Ignore]** : le courrier de rebonds a été qualifié, mais ne sera pas utilisé par le processus **Actualiser pour la délivrabilité** . Elle ne sera pas envoyée aux instances client.
+* **[!UICONTROL A qualifier]** : le mail rebond n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe Délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail rebond n&#39;est pas utilisé pour compléter la liste des règles de gestion des emails.
+* **[!UICONTROL Conserver]** : le mail rebond a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des emails existantes et en enrichir la liste.
+* **[!UICONTROL Ignorer]** : le mail rebond a été qualifié mais ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité**. Il ne sera donc pas envoyé vers les instances clientes.
 
 ![](assets/deliverability_qualif_status.png)
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les qualifications de rebond dans le **[!UICONTROL Delivery log qualification]** tableau ne sont plus utilisées. La MTA améliorée déterminera le type et la qualification de rebond, puis renverra ces informations à Campaign.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les qualifications de rebond dans le tableau de qualification **[!UICONTROL du journal de]** livraison ne sont plus utilisées. La MTA améliorée déterminera le type et la qualification de rebond, puis renverra ces informations à Campaign.
 >
 >Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### Règles de gestion des emails {#email-management-rules}
 
-Les règles de courrier sont accessibles via le **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** noeud. Les règles de gestion des courriers électroniques sont affichées dans la partie inférieure de la fenêtre.
+Les règles mail sont accessibles depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Jeux de règles mail]**. Vous pouvez consulter les règles de gestion des emails dans la section inférieure de la fenêtre.
 
 Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
 
@@ -276,7 +276,7 @@ Les règles par défaut sont les suivantes :
 
    Les règles de gestion des domaines permettent de réguler le flux des emails sortants pour un domaine spécifique. Elles consistent à faire un échantillonnage des messages qui reviennent en erreur et de bloquer les envois le cas échéant. Le serveur de messagerie d&#39;Adobe Campaign applique les règles spécifiques aux domaines, puis celles du cas général symbolisé par un astérisque dans la liste des règles. Des règles pour les domaines hotmail et msn sont disponibles par défaut dans Adobe Campaign.
 
-   Click the **[!UICONTROL Detail]** icon to access rule configuration.
+   Cliquez sur l&#39;icône **[!UICONTROL Détail]** pour accéder au paramétrage des règles.
 
    ![](assets/tech_quarant_domain_rules_02.png)
 
@@ -295,7 +295,7 @@ Les règles par défaut sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les règles de débit de **[!UICONTROL MX management]** diffusion ne sont plus utilisées. La MTA améliorée utilise ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
+   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les règles de débit de remise de gestion **** MX ne sont plus utilisées. La MTA améliorée utilise ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
    >
    >Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
