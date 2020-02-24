@@ -36,8 +36,8 @@ Lorsque l&#39;application doit accéder aux données d&#39;une table déjà exis
 
 Pour créer le schéma correspondant, les étapes sont les suivantes :
 
-1. Modifiez le **[!UICONTROL Administration>Configuration>Data schemas]** noeud de l’arborescence Adobe Campaign et cliquez sur **[!UICONTROL New]** .
-1. Sélectionnez l’ **[!UICONTROL Access data from an existing table or an SQL view]** option et cliquez sur **[!UICONTROL Next]** .
+1. Editez le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de l&#39;arborescence Adobe Campaign et cliquez sur l&#39;icône **[!UICONTROL Nouveau]** .
+1. Sélectionnez l&#39;option **[!UICONTROL Accéder aux données d&#39;une table déjà existante ou d&#39;une vue SQL]** et cliquez sur **[!UICONTROL Suivant]** .
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
