@@ -37,7 +37,7 @@ Les étapes de réalisation sont présentées ci-après, les options et descript
 
 ## Sélectionner la table de travail {#selecting-the-work-table}
 
-To create a cube, click the **[!UICONTROL New]** button above the list of cubes.
+Pour créer un cube, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des cubes.
 
 ![](assets/s_advuser_cube_create.png)
 
@@ -45,9 +45,9 @@ Sélectionnez le schéma des faits, c&#39;est-à-dire celui qui contient les él
 
 ![](assets/s_advuser_cube_wz_02.png)
 
-Click **[!UICONTROL Save]** to create the Cube: it will appear on the list of Cubes and may then be configured using the appropriate tabs.
+Cliquez sur **[!UICONTROL Enregistrer]** pour créer le cube : il apparaît alors dans la liste des cubes et peut être paramétré au travers de ses onglets.
 
-Click the **[!UICONTROL Filter the source data...]** link to apply the calculations of this Cube to a select of data in the database.
+Cliquez sur le lien **[!UICONTROL Filtrer les données de la source...]** si vous souhaitez n&#39;appliquer les calculs de ce cube qu&#39;à une sélection de données de la base.
 
 ![](assets/s_advuser_cube_wz_03.png)
 
@@ -55,21 +55,21 @@ Click the **[!UICONTROL Filter the source data...]** link to apply the calculati
 
 Les dimensions correspondent à des axes d&#39;analyse qui sont définis pour chaque cube selon le schéma des faits auquel il se rapporte. Ce sont les dimensions explorées dans l&#39;analyse, comme par exemple le temps (année, mois, jour, etc.), une nomenclature de produits ou contrats (famille, référence, etc.), un segment de population (par ville, tranche d&#39;âge, statut, etc.).
 
-These analysis axes are defined in the **[!UICONTROL Dimension]** tab of the Cube.
+Ces axes d&#39;analyse sont définis dans l&#39;onglet **[!UICONTROL Dimensions]** du cube.
 
-Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[!UICONTROL Expression field]**, click the **[!UICONTROL Edit expression]** icon to select the field that contains the concerned data.
+Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimension, puis, dans le champ **[!UICONTROL Expression]**, cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** afin de sélectionner le champ qui contient les données concernées.
 
 ![](assets/s_advuser_cube_wz_04.png)
 
 * Choisissez d&#39;abord l&#39;**Age** des destinataires. Pour ce champ, vous pouvez définir une mise en classe afin de regrouper les âges pour faciliter la lisibilité des informations. Il est recommandé de définir une mise en classe lorsque les valeurs distinctes peuvent être nombreuses.
 
-   Pour ce faire, cochez l’ **[!UICONTROL Enable binning]** option. Les modes d’épinglage sont détaillés dans [Data Binning](../../reporting/using/concepts-and-methodology.md#data-binning).
+   Pour cela, cochez l&#39;option **[!UICONTROL Activer la mise en classe.]** Les modes d’épinglage sont détaillés dans [Data Binning](../../reporting/using/concepts-and-methodology.md#data-binning).
 
    ![](assets/s_advuser_cube_wz_05.png)
 
 * Ajoutez une dimension de type **Date**. Ici, nous allons d&#39;afficher les dates de création des profils de destinataires.
 
-   To do this, click **[!UICONTROL Add]** and select the **[!UICONTROL Creation date]** field in the recipient table.
+   Pour cela, cliquez sur **[!UICONTROL Ajouter]** et choisissez le champ **[!UICONTROL Date de création]** dans la table des destinataires.
 
    ![](assets/s_advuser_cube_wz_06.png)
 
@@ -81,7 +81,7 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
 * Créez une autre dimension afin d&#39;analyser les données par rapport à la ville du destinataire.
 
-   To do this, add a new dimension and select the city in the **[!UICONTROL Location]** node of the recipient schema.
+   Pour cela, ajoutez une nouvelle dimension et sélectionnez la ville, sous le noeud **[!UICONTROL Localisation]** du schéma des destinataires.
 
    ![](assets/s_advuser_cube_wz_08.png)
 
@@ -93,24 +93,24 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
    ![](assets/s_advuser_cube_wz_10.png)
 
-   Seules les valeurs de l&#39;énumération s&#39;affichent. Les autres seront regroupées sous le libellé défini dans le **[!UICONTROL Label of the other values]** champ.
+   Seules les valeurs présentes dans l&#39;énumération seront affichées. Toutes les autres seront regroupées sous le libellé défini dans le champ **[!UICONTROL Libellé des autres valeurs]**.
 
    Pour plus d’informations, reportez-vous à la section Gestion [dynamique des bacs](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## Construire les indicateurs {#building-indicators}
 
-Une fois les dimensions définies, vous devez spécifier un mode de calcul pour les valeurs à afficher dans les cellules. Pour ce faire, créez les indicateurs correspondants dans l’ **[!UICONTROL Measures]** onglet : créez autant de mesures que de colonnes à afficher dans le rapport qui utiliseront le cube.
+Une fois les dimensions définies, vous devez spécifier le mode de calcul des valeurs qui seront affichées dans les cellules. Pour cela, créez les indicateurs correspondants dans l&#39;onglet **[!UICONTROL Mesures]** : créez autant de mesures que de colonnes à afficher au niveau du rapport qui utilisera le cube.
 
 Pour cela, les étapes sont les suivantes :
 
-1. Cliquez sur le **[!UICONTROL Add]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
 1. Sélectionnez le type de mesure et la formule à appliquer. Ici, nous allons compter le nombre de femmes parmi les destinataires.
 
-   Our measure is based on the fact schema and uses the **[!UICONTROL Count]** operator.
+   Notre mesure se base sur le schéma des faits et utilise l&#39;opérateur **[!UICONTROL Comptage]**.
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   Le **[!UICONTROL Filter the measure data...]** lien vous permet de sélectionner uniquement des femmes. For more on defining measures and the available options, refer to [Defining measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de ne sélectionner que les femmes. For more on defining measures and the available options, refer to [Defining measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -126,11 +126,11 @@ Une fois le cube paramétré, il peut être utilisé comme modèle pour créer u
 
 Pour cela :
 
-1. Click the **[!UICONTROL Create]** button of the **[!UICONTROL Reports]** universe and select the cube you have just created.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** de l&#39;univers des **[!UICONTROL Rapports]** et sélectionnez le cube que vous venez de créer.
 
    ![](assets/s_advuser_cube_wz_14.png)
 
-1. Click the **[!UICONTROL Create]** button to confirm: this will take you to the report configuration and viewing page.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** pour valider : vous accédez alors à la page de configuration et de visualisation du rapport.
 
    Par défaut, les deux premières dimensions disponibles sont proposées en colonne et en ligne mais aucune valeur n&#39;est affichée dans le tableau. Pour générer le tableau, cliquez sur l&#39;icône centrale :
 
