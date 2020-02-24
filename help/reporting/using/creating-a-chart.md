@@ -38,15 +38,15 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
    ![](assets/s_ncs_advuser_report_wizard_018.png)
 
-1. Click the **[!UICONTROL Data]** tab to define the data source and the series to be calculated.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Données]** pour définir la source des données et les séries à calculer.
 
    The statistics to be displayed in the chart can be calculated based on a query or on the context data, i.e. the data provided by the inbound transition of the current page (for more on this, refer to [Using context data](../../reporting/using/using-the-context.md#using-context-data)).
 
-   * Click the **[!UICONTROL Filter data...]** link to define filtering criteria for the data in the database.
+   * Cliquez sur le lien **[!UICONTROL Filtrer les données...]** pour définir les critères de filtrage sur les données de la base.
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * Pour utiliser des données contextuelles, sélectionnez cette option et cliquez sur le **[!UICONTROL Advanced settings...]** lien. Sélectionnez ensuite les données qui seront concernées par les statistiques.
+   * Pour utiliser les données du contexte, sélectionnez cette option et cliquez sur le lien **[!UICONTROL Paramètres avancés...]**. Sélectionnez ensuite les données sur lesquelles porteront les statistiques.
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -62,11 +62,11 @@ Le type de graphique est sélectionné lors de son insertion dans la page.
 
 ![](assets/s_advuser_report_page_activity_04.png)
 
-It can also be altered via the **[!UICONTROL Chart type]** section of the **[!UICONTROL General]** tab in the chart.
+Il peut également être modifié à partir de la section **[!UICONTROL Type de graphe]** de l&#39;onglet **[!UICONTROL Général]** du graphique.
 
 ![](assets/reporting_change_graph_type.png)
 
-Les variantes dépendent du type de graphique sélectionné. Ils sont sélectionnés via le **[!UICONTROL Variants...]** lien.
+Les variantes dépendent du type de graphique sélectionné. Elles sont sélectionnées à partir du lien **[!UICONTROL Variantes...]**.
 
 ### Répartition : les secteurs {#breakdown--pie-charts}
 
@@ -76,7 +76,7 @@ Les secteurs ne permettent d&#39;analyser qu&#39;une seule variable.
 
 ![](assets/reporting_graph_type_sector_1.png)
 
-The **[!UICONTROL Variants]** link lets you personalize the overall rendering of the chart.
+Le lien **[!UICONTROL Variantes...]** permet de personnaliser le rendu général du graphique.
 
 ![](assets/reporting_graph_type_sector_2.png)
 
@@ -106,11 +106,11 @@ Ce type de représentation graphique permet de comprendre l&#39;évolution d&#39
 
 Les histogrammes permettent de comparer différentes valeurs d&#39;une ou deux variables.
 
-For these types of charts, the following options are offered in the **[!UICONTROL Variants]** window:
+Pour ces types de graphes, les options suivantes sont proposées dans la fenêtre **[!UICONTROL Variantes]** :
 
 ![](assets/reporting_select_graph_var.png)
 
-Check the **[!UICONTROL Display caption]** option to show the caption with the chart and choose its position:
+Cochez l&#39;option **[!UICONTROL Afficher la légende]** pour qu&#39;elle apparaisse avec le graphique. Vous pourrez ainsi en définir la position :
 
 ![](assets/reporting_select_graph_legend.png)
 
@@ -118,7 +118,7 @@ Lorsque les valeurs s&#39;y prêtent, vous pouvez les empiler.
 
 ![](assets/reporting_graph_type_histo.png)
 
-Si nécessaire, vous pouvez inverser la séquence d’affichage des valeurs. To do this, select the **[!UICONTROL Reverse stacking]** option.
+Au besoin, vous pouvez inverser l&#39;ordre d&#39;affichage des valeurs. Pour cela, sélectionnez l&#39;option **[!UICONTROL Empilement inversé]**.
 
 ### Conversion : le funnel {#conversion--funnel}
 
@@ -134,25 +134,25 @@ Ces éléments sont définis lors du paramétrage du graphique.
 
 ![](assets/reporting_graph_type_gauge1.png)
 
-* Le **[!UICONTROL Value]** champ est représenté par un cadran noir dans le graphique. Il représente l’élément dont vous souhaitez calculer la progression. La valeur à représenter doit avoir déjà été enregistrée pour être utilisée.
-* The **[!UICONTROL Goal]** field represents the maximum value to achieve.
-* Using the **[!UICONTROL Other mark]** field you can add a second indicator to the chart.
-* The **[!UICONTROL Display range]** fields let you specify the values between which the report is calculated.
-* The **[!UICONTROL Value ranges]** field lets you attribute statuses (None, Bad, Acceptable, Good) to a set of values to better illustrate the progress.
+* Le champ **[!UICONTROL Valeur]** est représenté par une flèche noire sur le graphique. Il définit l&#39;élément dont vous voulez calculer la progression. La valeur à définir doit être pré-enregistrée pour pouvoir être utilisée.
+* Le champ **[!UICONTROL Objectif]** représente la valeur maximale à atteindre.
+* Avec le champ **[!UICONTROL Autre marque]**, vous pouvez ajouter un deuxième indicateur sur le graphique.
+* Les champs **[!UICONTROL Plage d&#39;affichage]** permettent de définir les valeurs entre lesquelles le rapport est calculé.
+* Les **[!UICONTROL Plages de valeurs]** vous permettent d&#39;attribuer un statut (Aucun, Médiocre, Satisfaisant, Bon) à un ensemble de valeurs sur le graphique, pour mieux illustrer la progression.
 
-In the **[!UICONTROL Display settings]** section, the **[!UICONTROL Change appearance...]** lets you configure the way the chart is displayed.
+Dans la section **[!UICONTROL Paramètres d&#39;affichage]**, le lien **[!UICONTROL Modifier l&#39;apparence...]** vous permet de paramétrer l&#39;affichage du graphique.
 
 ![](assets/reporting_graph_type_gauge2.png)
 
-L’ **[!UICONTROL Display the value below the gauge]** option vous permet d’afficher la progression de la valeur sous le graphique.
+L&#39;option **[!UICONTROL Afficher la valeur sous la jauge]** permet d&#39;indiquer la progression de la valeur sous le graphique.
 
-Le **[!UICONTROL Aperture ratio]** champ, qui doit être compris entre 0 et 1, vous permet de modifier l&#39;ouverture du rapport dans un cercle plus ou moins complet. Dans l’exemple ci-dessus, la valeur 0,50 correspond à un demi-cercle.
+Le champ **[!UICONTROL Ratio d&#39;ouverture]**, qui doit être défini entre 0 et 1, permet de modifier l&#39;affichage du rapport en un cercle plus ou moins complet. Dans l&#39;exemple ci-dessus, la valeur 0,50 correspond à un demi-cercle.
 
-The **[!UICONTROL Width]** field lets you edit the chart size.
+Le champ **[!UICONTROL Largeur]** permet de modifier la taille du graphique.
 
 ## Interaction avec le graphique {#interaction-with-the-chart}
 
-Vous pouvez définir une action lorsque l’utilisateur clique sur le graphique. Ouvrez la **[!UICONTROL Interaction events]** fenêtre et sélectionnez l’action à exécuter.
+Vous pouvez définir une action lorsque l&#39;utilisateur clique sur le graphique. Ouvrez la fenêtre **[!UICONTROL Evénements d&#39;interaction]** et choisissez l&#39;action à effectuer.
 
 Les types d&#39;interactions possibles et leurs paramétrages sont présentés dans [cette section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -162,9 +162,9 @@ Les types d&#39;interactions possibles et leurs paramétrages sont présentés d
 
 Dans les graphiques, vous pouvez afficher des statistiques sur les données collectées.
 
-These statistics are defined via the **[!UICONTROL Series parameters]** section of the **[!UICONTROL Data]** tab.
+Ces statistiques sont définies à partir de la section **[!UICONTROL Paramètres des séries]** de l&#39;onglet **[!UICONTROL Données]**.
 
-Pour créer une statistique, cliquez sur l’ **[!UICONTROL Add]** icône et configurez la fenêtre appropriée. Les types de calcul disponibles sont détaillés ci-dessous.
+Pour créer une nouvelle statistique, cliquez sur l&#39;icône **[!UICONTROL Ajouter]** et paramétrez la fenêtre correspondante. Les types de calculs possibles sont présentés ci-après.
 
 ![](assets/reporting_add_statistics.png)
 
