@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Mettre à jour la structure de la base de données{#updating-the-database-structure}
 
-To apply the modifications made to the schemas, launch the database update wizard. This wizard is accessible via **[!UICONTROL Tools > Advanced > Update database structure]** . It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.
+Pour appliquer les modifications apportées dans les schémas, vous devez lancer l&#39;assistant de mise à jour de la base de données. Cet assistant est accessible à partir du menu **[!UICONTROL Outils > Avancé > Mise à jour de la structure de la base]**. Il vérifie si la structure physique de la base est bien conforme à sa description logique et exécute les scripts SQL de mise à jour.
 
 ![](assets/d_ncs_integration_schema_update.png)
 
@@ -30,9 +30,9 @@ Les modules présents dans la base de données sont automatiquement renseignés 
 
 ![](assets/d_ncs_integration_schema_update_select.png)
 
-The **[!UICONTROL Add stored procedures]** and **[!UICONTROL Import initialization data]** options are used to launch the initial SQL scripts and the data packages executed when the database is created.
+Les options **[!UICONTROL Ajouter les procédures stockées]** et **[!UICONTROL Importer les données d&#39;initialisation]** permettent respectivement de lancer les scripts SQL initiaux et les packages de données (&quot;data package&quot;) exécutés lors de la création de la base de données.
 
-Vous pouvez importer un ensemble de données à partir d’un package de données externe. Pour ce faire, sélectionnez **[!UICONTROL Import a package]** et saisissez le fichier XML du package.
+Il est possible d&#39;importer un jeu de données provenant d&#39;un package de données externe : pour cela, il faut cocher l&#39;option **[!UICONTROL Importer un package]** et renseigner le fichier XML du package.
 
 Suivez les étapes et visualisez le script SQL de mise à jour de la base de données :
 
