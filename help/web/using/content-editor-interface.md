@@ -53,7 +53,7 @@ Elle contient quatre icônes :
    >
    >Le contenu sélectionné remplace le contenu actuel.
 
-* L’icône **Enregistrer en tant que modèle** vous permet d’enregistrer le contenu actuel en tant que modèle. Vous devez entrer le libellé et le nom interne du modèle. Les modèles sont stockés dans le **[!UICONTROL Resources > Templates > Content templates]** noeud.
+* L’icône **Enregistrer comme modèle** permet d’enregistrer le contenu actuel en tant que modèle. Vous devez saisir le libellé et le nom interne du modèle. Les modèles sont stockés dans le nœud : **[!UICONTROL Ressources > Modèles > Modèles de contenu]**.
 
    ![](assets/dce_popup_savetemplate.png)
 
