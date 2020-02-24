@@ -63,7 +63,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->Vous pouvez également utiliser des énumérations gérées par l’utilisateur (généralement sous **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) pour spécifier les valeurs d’un champ donné. Il s’agit en fait d’énumérations globales et d’un meilleur choix si votre énumération peut être utilisée en dehors du schéma spécifique dans lequel vous travaillez.
+>Vous pouvez également ajouter des énumérations gérées par l&#39;utilisateur (accessibles depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Platform]**) pour spécifier les valeurs d&#39;un champ donné. Cela peut être judicieux si vous envisagez d&#39;utiliser votre énumération en dehors du schéma sur lequel vous travaillez.
 
 To find out more about enumerations, refer to the [Enumerations](../../configuration/using/schema-structure.md#enumerations) and [`<enumeration>` element](../../configuration/using/elements-and-attributes.md#enumeration--element) sections.
 
@@ -120,7 +120,7 @@ To find out more about keys, refer to the [Management of keys](../../configurati
 
 ## Attributs (champs) {#attributes--fields-}
 
-Les attributs vous permettent de définir les champs qui constituent votre objet de données. Vous pouvez utiliser le **[!UICONTROL Insert]** bouton de la barre d’outils de l’édition de schémas pour déposer des modèles d’attributs vides dans votre XML où se trouve votre curseur. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
+Attributes allow you to define the fields which make up your data object. You can use the **[!UICONTROL Insert]** button in the schema edition toolbar to drop empty attribute templates into your XML where your cursor is. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
 
 ![](assets/schemaextension_getting_started_2.png)
 
@@ -229,5 +229,5 @@ Voir à ce sujet la section [Mettre à jour la structure de la base de données]
 
 >[!NOTE]
 >
->Lorsque les modifications n&#39;affectent pas la structure de la base de données, vous devez simplement régénérer les schémas. Pour ce faire, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Actions > Regenerate selected schemas...]** . For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+>**[!UICONTROL Lorsque les modifications n&#39;affectent pas la structure de la base de données, vous devez simplement régénérer les schémas. Pour ce faire, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit de la souris et choisissez]** Actions > Régénérer les schémas sélectionnés.... For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
 
