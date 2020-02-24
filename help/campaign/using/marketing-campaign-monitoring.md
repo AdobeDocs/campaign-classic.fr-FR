@@ -24,27 +24,27 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## Tracking d’une opération {#tracking-a-campaign}
 
-Pour chaque campagne, l’ **[!UICONTROL Tracking]** onglet vous permet d’afficher toutes les tâches et leur état. Les informations suivantes sont accessibles via ce sous-onglet :
+Pour chaque opération, l&#39;onglet **[!UICONTROL Tracking]** permet de visualiser les traitements réalisés et leurs états. Les informations accessibles depuis ce sous-onglet sont les suivantes :
 
 * Le journal des activités affiche les traitements réalisés sur l&#39;opération en général : création ou démarrage de workflow, validation, extraction, etc.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
-* Le **[!UICONTROL Deliveries]** sous-onglet contient toutes les livraisons de la campagne qui peuvent être modifiées à partir de cette vue. Pour ce faire, sélectionnez la diffusion et cliquez sur l’ **[!UICONTROL Detail]** icône .
+* Le sous-onglet **[!UICONTROL Diffusions]** regroupe toutes les diffusions de l&#39;opération. Vous pouvez les éditer depuis cette vue. Pour cela, sélectionner la diffusion et cliquez sur l&#39;icône **[!UICONTROL Détail]**.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* Le **[!UICONTROL Tasks]** sous-onglet regroupe toutes les tâches liées à la campagne. Cette vue vous permet de les modifier ou de les supprimer. Les tâches sont disponibles avec l’application MRM. Elles sont détaillées dans [Création et gestion des tâches](../../campaign/using/creating-and-managing-tasks.md).
+* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. Elles sont détaillées dans [Création et gestion des tâches](../../campaign/using/creating-and-managing-tasks.md).
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
-* Les processus créés pour générer des messages pour les fournisseurs de services s’affichent dans le **[!UICONTROL Jobs on service providers]** sous-onglet. Cliquez sur l’ **[!UICONTROL Detail]** icône pour afficher le processus sélectionné.
+* Les workflows créés pour générer les messages aux prestataires sont affichés dans le sous-onglet **[!UICONTROL Traitements sur les prestataires]**. Cliquez sur l&#39;icône **[!UICONTROL Détail]** pour afficher le workflow sélectionné.
 
    ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
 ## Tracking de la diffusion {#delivery-tracking}
 
-The list of deliveries is available via the **[!UICONTROL Deliveries]** link of the Campaign node.
+La liste des diffusions peut être affichée à partir du lien **[!UICONTROL Diffusions]** de l&#39;univers des Campagnes.
 
 ![](assets/s_ncs_user_op_del_state_from_homepage.png)
 
@@ -60,4 +60,4 @@ Pour contrôler l&#39;état d&#39;une diffusion, éditez-la et consultez son tab
 
 You can look up the status of deliveries by clicking the **[!UICONTROL Deliveries]**, which is accessible via the Adobe Campaign home page. Voir Suivi [des remises](#delivery-tracking).
 
-Les informations concernant les processus exécutés dans une campagne sont collectées dans l’ **[!UICONTROL Edit > Audit]** onglet de la campagne. Vous pouvez y afficher la liste des livraisons de la campagne. Voir [Suivi d’une campagne](#tracking-a-campaign).
+Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. There, you can view the list of deliveries in the campaign. Voir [Suivi d’une campagne](#tracking-a-campaign).
