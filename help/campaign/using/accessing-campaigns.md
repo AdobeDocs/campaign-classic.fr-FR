@@ -34,7 +34,7 @@ Elle est ajoutée dans le détail de la commande correspondante et peut être é
 
 ![](assets/mkg_dist_local_op_edit_new_op1.png)
 
-The campaign remains accessible in the Campaign overview, located via the **[!UICONTROL Campaigns]** link on the home page.
+L&#39;opération est également accessible à partir de la vue d&#39;ensemble des opérations affichées à partir du lien **[!UICONTROL Opérations]** de la page d&#39;accueil.
 
 ## Paramétrages disponibles {#available-settings}
 
