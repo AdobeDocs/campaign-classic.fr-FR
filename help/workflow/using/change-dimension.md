@@ -32,7 +32,7 @@ Il est possible de définir des critères de dédoublonnage des données.
 
 Pour paramétrer l&#39;activité de changement de dimension, respectez les étapes suivantes :
 
-1. Select the new targeting dimension via the **[!UICONTROL Change dimension]** field.
+1. Sélectionnez la nouvelle dimension de ciblage à partir du champ **[!UICONTROL Changement de dimension]**.
 
    ![](assets/s_user_change_dimension_param1.png)
 
@@ -42,7 +42,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
    Lorsque vous choisissez de ne conserver qu&#39;un seul enregistrement, une collection apparaît dans le schéma de travail : cette collection représente tous les enregistrements qui ne seront pas ciblés dans le résultat final (puisqu&#39;un seul enregistrement est conservé). Cette collection permet, comme toute autre collection, de calculer des agrégats ou de récupérer des informations en colonne.
 
-   For example, if you change the **[!UICONTROL Customers]** dimension to the **[!UICONTROL Recipients]** dimension, it will be possible to target customers of a specific store, while adding the number of purchases made.
+   Par exemple, si on passe de la dimension des **[!UICONTROL Clients]** à celle des **[!UICONTROL Destinataires]**, il sera possible de cibler les clients d&#39;un magasin, en précisant le nombre d&#39;achats réalisés.
 
 1. Si vous choisissez de ne pas conserver tous les enregistrements, vous pouvez configurer le mode de gestion des doublons.
 
@@ -52,11 +52,11 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
    Dans l&#39;exemple ci-dessus, les destinataires seront dédoublonnés d&#39;abord sur leur adresse email, puis, au besoin, sur leur numéro de compte.
 
-1. The **[!UICONTROL Result]** tab lets you add additional information.
+1. L&#39;onglet **[!UICONTROL Résultat]** permet d&#39;ajouter des informations complémentaires.
 
    For example, you can recover the county based on the zip code by using a **Substring** type function. Pour cela :
 
-   * Cliquez sur le **[!UICONTROL Add data...]** lien et sélectionnez **[!UICONTROL Data linked to the filtering dimension]**.
+   * Cliquez sur le lien **[!UICONTROL Ajouter des données...]** et sélectionnez **[!UICONTROL Données liées à la dimension de filtrage]**.
 
       ![](assets/wf_change-dimension_sample_01.png)
 
@@ -64,11 +64,11 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
       >
       >For information on creating and managing additional columns, refer to [Adding data](../../workflow/using/query.md#adding-data).
 
-   * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient&#39;s **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
+   * Choisissez la dimension de ciblage précédente (avant le basculement d&#39;axe) et sélectionnez le **[!UICONTROL Code Postal]** dans la sous-arborescence **[!UICONTROL Localisation]** du destinataire, puis cliquez sur **[!UICONTROL Editer l&#39;expression]**.
 
       ![](assets/wf_change-dimension_sample_02.png)
 
-   * Cliquez sur **[!UICONTROL Advanced selection]** , puis sélectionnez **[!UICONTROL Edit the formula using an expression]**.
+   * Cliquez sur **[!UICONTROL Sélection avancée]** et choisissez **[!UICONTROL Editer la formule à partir d&#39;une expression]**.
 
       ![](assets/wf_change-dimension_sample_03.png)
 
