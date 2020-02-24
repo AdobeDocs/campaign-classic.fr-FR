@@ -42,7 +42,7 @@ La clé d&#39;identification d&#39;une feuille de style est une chaîne construi
 
 ## Création et paramétrage du modèle {#creating-and-configuring-the-template}
 
-Les modèles de publication sont stockés par défaut dans le **[!UICONTROL Administration > Configuration > Publication templates]** noeud. Pour créer un modèle, cliquez sur le **[!UICONTROL New]** bouton au-dessus de la liste des modèles.
+Les modèles de publication sont stockés par défaut dans le noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**. Pour créer un nouveau modèle, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des modèles.
 
 Pour paramétrer le modèle de publication, indiquez le nom du modèle (c&#39;est-à-dire la clé d&#39;identification composée du nom et de l&#39;espace de nommage), son libellé, le schéma de données et le formulaire de saisie auxquels il est associé.
 
@@ -56,11 +56,11 @@ The **Check status to validate content generation** option forces a check on the
 
 Un modèle de transformation doit être ajouté pour chaque document de sortie. Vous pouvez créer autant de modèles de transformation que nécessaire.
 
-Le **[!UICONTROL Name of template]** champ est un libellé gratuit qui décrit le type de rendu à la sortie. Pour chaque modèle de transformation, les paramètres de publication sont disponibles dans les onglets.
+Le champ **[!UICONTROL Nom du modèle]** est un libellé libre qui décrit le type de rendu en sortie. Pour chaque modèle de transformation, les paramètres de publication sont renseignés dans les onglets.
 
 ### Rendu {#rendering}
 
-L’ **[!UICONTROL Rendering]** onglet, choisissez :
+Dans l&#39;onglet **[!UICONTROL Rendu]**, choisissez :
 
 * le type de rendu utilisé pour la projection du document de sortie : feuille de style XSL ou template JavaScript,
 * le format du document de sortie : HTML, Texte, XML ou RTF,
@@ -68,15 +68,15 @@ L’ **[!UICONTROL Rendering]** onglet, choisissez :
 
 ### Publication {#publication}
 
-Publication involves generating the output document in the form of a file, if the type selected is **[!UICONTROL File]**.
+La publication consiste à générer le document de sortie sous la forme d&#39;un fichier. Pour cela, vous devez sélectionner le type **[!UICONTROL Fichier]**.
 
 ![](assets/d_ncs_content_model2.png)
 
 Les options de publication disponibles sont les suivantes :
 
-* Le jeu de caractères d’encodage du fichier de sortie peut être forcé via le **[!UICONTROL Encoding]** champ. Le jeu de caractères Latin 1 (1252) est utilisé par défaut.
-* Cette **[!UICONTROL Multi-file generation]** option active un mode de publication de document spécial. Cette option consiste à renseigner une balise de partitionnement au début de chaque page du document de sortie. La génération du contenu génère un fichier pour chaque balise de partitionnement renseignée. Ce mode est utilisé pour générer des mini-sites à partir d’un bloc de contenu. for more on this, refer to [Multi-file generation](#multi-file-generation).
-* Le **[!UICONTROL Location]** champ contient le nom du fichier de sortie. Le nom peut être composé de variables afin de générer un nom de fichier automatique.
+* Il est possible de forcer le jeu de caractères d&#39;encodage du fichier en sortie à partir du champ **[!UICONTROL Codage]**. Le jeu de caractères Latin 1 (1252) est le mode par défaut.
+* The **[!UICONTROL Multi-file generation]** option activates a special document publication mode. This option consists of populating a partitioning tag at the beginning of each page of the output document. Generating the content will produce a file for each populated partitioning tag. This mode is used to generate mini-sites from a content block. for more on this, refer to [Multi-file generation](#multi-file-generation).
+* Le champ d&#39;édition **[!UICONTROL Localisation]** contient le nom du fichier en sortie. Le nom peut être construit à partir de variables afin de générer un nom de fichier automatique.
 
    A variable is populated with the following format: **`$(<xpath>)`, where `<xpath>` is the path of a field of the publication template data schema.
 
@@ -110,7 +110,7 @@ Un traitement d&#39;agrégation de données à partir d&#39;un script ou d&#39;u
 
 ### Génération multi-fichiers {#multi-file-generation}
 
-Pour activer la génération de plusieurs fichiers, sélectionnez l’ **[!UICONTROL Multi-file generation]** option dans le modèle de publication. Cette option vous permet de spécifier des balises de partitionnement dans la feuille de style pour le début de chaque page du document de sortie. La génération du contenu produira un fichier pour chaque balise de partitionnement rencontrée.
+Pour activer la génération multi-fichiers, cochez l&#39;option **[!UICONTROL Génération multi-fichiers]** dans le modèle de publication. Cette option permet de renseigner dans la feuille de style des balises de découpe en début de chaque page du document en sortie. La génération du contenu produira autant de fichiers que de balises de découpe rencontrées.
 
 La balise de découpe à intégrer dans la feuille de style est la suivante :
 
@@ -182,8 +182,8 @@ The filename is constructed with the **$(path)** variable containing the publica
 
 Le modèle de publication doit être renseigné avec les deux feuilles de style &quot;cus:livre.xsl&quot; et &quot;cus:chapitre.xsl&quot;.
 
-The **[!UICONTROL Multi-file generation]** option must be active on the chapter transformation model:
+L&#39;option **[!UICONTROL Génération multi-fichiers]** doit être active sur le modèle de transformation des chapitres :
 
 ![](assets/d_ncs_content_chunk2.png)
 
-The **[!UICONTROL Location]** field is not used in the generation of multiple files, but you must still populate this field to avoid an error when publishing.
+Le champ **[!UICONTROL Localisation]** n&#39;est pas utilisé dans la génération multi-fichiers, vous devez toutefois renseigner ce champ afin d&#39;éviter une erreur lors de la publication.
