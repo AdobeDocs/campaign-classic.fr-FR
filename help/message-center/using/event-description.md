@@ -124,7 +124,7 @@ Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** 
 
 Dans cet exemple, deux canaux sont renseignés : l&#39;adresse email et le numéro de téléphone portable. Le champ **wishedChannel** permet de définir le canal qui sera utilisé lors de la transformation de l&#39;évènement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
 
-Si vous souhaitez reporter la remise d’un événement, ajoutez le **[!UICONTROL scheduled]** champ suivi de la date préférée. L&#39;événement sera transformé en message à cette date.
+Si vous souhaitez différer le traitement d&#39;un évènement, ajoutez le champ **[!UICONTROL scheduled]** suivi de la date désirée. L&#39;évènement sera transformé en message à cette date.
 
 Nous vous conseillons de remplir les attributs @wishedChannel et @emailFormat avec des valeurs numériques. La table de correspondance entre les valeurs numériques et les labels associés se trouve dans la description des schémas de données.
 
