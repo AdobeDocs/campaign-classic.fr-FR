@@ -44,7 +44,7 @@ Les fichiers de configuration de Campaign Classic sont stockés dans le dossier 
 
 Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration des zones de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
 
-Les opérateurs sont liés à une zone de sécurité à partir de son profil dans la console ( **[!UICONTROL Administration > Access management > Operators]** noeud). Découvrez comment lier des zones à des opérateurs de campagne dans [cette section](#linking-a-security-zone-to-an-operator).
+Les opérateurs sont liés à une zone de sécurité depuis le profil dans la console (nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**). Apprenez comment lier les zones aux opérateurs Campaign dans [cette section](#linking-a-security-zone-to-an-operator).
 
 ### Création des zones de sécurité {#creating-security-zones}
 
@@ -204,31 +204,31 @@ Une fois les zones définies, chaque opérateur doit être associé à l&#39;une
 
 La configuration technique des zones est effectuée dans le fichier de configuration du serveur Campaign : **serverConf.xml**.
 
-Prior to this, you must start by configuring the out-of-the-box **[!UICONTROL Security zone]** enumeration to link a label to the internal name of the zone defined in the **serverConf.xml** file.
+Au préalable, vous devez configurer l&#39;énumération d&#39;usine **[!UICONTROL Zone de sécurité]** pour associer un libellé au nom interne de la zone défini dans le fichier **serverConf.xml**.
 
 Ce paramétrage est effectué dans l&#39;explorateur Campaign :
 
-1. Cliquez sur le **[!UICONTROL Administration > Platform > Enumerations]** noeud.
-1. Sélectionnez l&#39;énumération **[!UICONTROL Security zone (securityZone)]** système.
+1. Cliquez sur le nœud **[!UICONTROL Administration > Plate-Forme > Enumérations]**.
+1. Sélectionnez l&#39;énumération système **[!UICONTROL Zone de sécurité (securityZone)]**.
 
    ![](assets/enum_securityzone.png)
 
-1. For each security zone defined in the configuration file of the server, click the **[!UICONTROL Add]** button.
-1. Dans le **[!UICONTROL Internal name]** champ, saisissez le nom de la zone définie dans le fichier **serverConf.xml** . Il correspond à l’attribut **@name** de l’ `<securityzone>` élément. Dans le champ **Libellé**, rentrez le libellé associé au nom interne.
+1. Pour chaque zone de sécurité définie dans le fichier de configuration du serveur, cliquez sur le bouton **[!UICONTROL Ajouter]**.
+1. Dans le champ Nom **** interne, saisissez le nom de la zone définie dans le fichier **serverConf.xml** . Il correspond à l’attribut **@name** de l’ `<securityzone>` élément. Dans le champ **Libellé**, rentrez le libellé associé au nom interne.
 
    ![](assets/enum_addsecurityvalue.png)
 
 1. Cliquez sur OK et enregistrez les modifications.
 
-Once the zones are defined and the **[!UICONTROL Security zone]** enumeration is configured, you need to link each operator to a security zone:
+Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécurité]** configurée, vous devez associer chaque opérateur à une zone :
 
-1. Cliquez sur le **[!UICONTROL Administration > Access management > Operators]** noeud.
-1. Select the operator whom you want to link a security zone to, and click the **[!UICONTROL Edit]** tab.
-1. Accédez à l’ **[!UICONTROL Access rights]** onglet et cliquez sur le **[!UICONTROL Edit access parameters...]** lien.
+1. Cliquez sur le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**.
+1. Sélectionnez l&#39;opérateur auquel vous voulez associer une zone de sécurité et cliquez sur l&#39;onglet **[!UICONTROL Edition]**.
+1. Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, cliquez sur le lien **[!UICONTROL Editer les paramètres d&#39;accès...]**.
 
    ![](assets/zone_operator.png)
 
-1. Select a zone from the **[!UICONTROL Authorized connection zone]** drop-down list
+1. Sélectionnez une zone dans la liste déroulante **[!UICONTROL Zone autorisée pour la connexion]**
 
    ![](assets/zone_operator_selection.png)
 
@@ -309,7 +309,7 @@ Pour cela, les étapes sont les suivantes :
 
    Vous pouvez définir plusieurs noms pour une même affinité : ces noms doivent être séparés les uns des autres par le caractère **;**.
 
-   Exemple:
+   Exemple :
 
    ```
     IPAffinity name="mid.Server;WWserver;local.Server">
@@ -395,7 +395,7 @@ Les JSSP utilisées pour Mobile App Channel sont les suivantes :
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp
 
-**Exemple:**
+**Exemple :**
 
 Vous pouvez empêcher la connexion des postes clients de l&#39;extérieur. Pour cela, il suffit de restreindre l&#39;exécution de **soaprouter.jsp** et de n&#39;autoriser que l&#39;exécution des pages miroirs, des liens viraux, des formulaires web et des ressources publiques.
 
@@ -496,7 +496,7 @@ Lorsque plusieurs serveurs sont utilisés pour servir la redirection, ceux-ci de
 
 The URLs of the redundant servers must be specified in the redirection configuration, via the **serverConf.xml** file. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
-**Exemple:**
+**Exemple :**
 
 ```
 <spareserver enabledIf="$(hostname)!='front_srv1'" id="1" url="http://front_srv1:8080" />
@@ -540,7 +540,7 @@ Si l&#39;accès se fait depuis la console Adobe Campaign, préférez le mode **h
 
 Vous pouvez choisir de forcer l&#39;exécution d&#39;un workflow ou d&#39;une activité de workflow sur une machine particulière. Vous devez pour cela définir une ou plusieurs affinités au niveau du workflow ou de l&#39;activité concernée.
 
-1. Create the affinities of the workflow or activity by entering them in the **[!UICONTROL Affinity]** field.
+1. Créez la ou les affinités du workflow ou de l&#39;activité en la tapant dans le champ **[!UICONTROL Affinité]**.
 
    Vous pouvez choisir librement le nom des affinités. Cela dit, évitez les espaces ou les signes de ponctuation. Si vous utilisez des serveurs différents, indiquez des noms différents.
 
