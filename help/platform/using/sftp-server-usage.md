@@ -57,7 +57,7 @@ Pour éviter de tels problèmes, Adobe recommande de suivre les bonnes pratiques
 
 La section ci-après indique les informations à vérifier et à fournir à l’équipe de support Adobe via un [ticket de support](https://support.neolane.net) lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés Adobe.
 
-1. Vérifiez que votre instance est en cours d’exécution. Pour ce faire, ouvrez votre navigateur, puis faites un **[!UICONTROL GET]** appel sur le point de terminaison de l’instance **[!UICONTROL /r/test]** :
+1. Vérifiez que votre instance est en cours d’exécution. Pour cela, ouvrez votre navigateur, puis effectuez un appel **[!UICONTROL GET]** sur le point d’entrée **[!UICONTROL /r/test]** de l’instance :
 
    ```
    https://instanceUrl/r/test
