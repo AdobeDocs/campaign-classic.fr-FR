@@ -32,7 +32,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ## Instance de pilotage {#control-instance}
 
-Si vous disposez d’une architecture ventilée, vous devez spécifier les instances d’exécution liées à l’instance de contrôle et les connecter. Les modèles de message transactionnel sont déployés sur les instances d’exécution. La connexion entre l’instance de contrôle et les instances d’exécution est créée en configurant le **[!UICONTROL Execution instance]** type de comptes externes. Vous devez créer autant de comptes externes que d’instances d’exécution.
+Dans le cas d&#39;une architecture répartie, vous devez indiquer dans l&#39;instance de pilotage les instances d&#39;exécution qui lui sont reliées et établir une connexion entre elles. Ce sont vers les instances d&#39;exécution que sont déployés les modèles de message transactionnel. La connexion entre l&#39;instance de pilotage et les instances d&#39;exécution se réalise en configurant des comptes externes de type **[!UICONTROL Instance d&#39;exécution]**. Vous devez créer autant de comptes externes que d&#39;instances d&#39;exécution.
 
 >[!NOTE]
 >
@@ -40,8 +40,8 @@ Si vous disposez d’une architecture ventilée, vous devez spécifier les insta
 
 Procédez comme suit pour créer un compte externe de type instance d&#39;exécution :
 
-1. Accédez au **[!UICONTROL Administration > Platform > External accounts]** dossier.
-1. Select one of the execution instance type external accounts provided out-of-the-box with Adobe Campaign, right-click and choose **[!UICONTROL Duplicate]** .
+1. Positionnez-vous au niveau du dossier **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+1. Sélectionnez un des comptes externes de type instance d&#39;exécution fournis d&#39;usine par Adobe Campaign avec le bouton droit de la souris et choisissez **[!UICONTROL Dupliquer]** dans le menu contextuel .
 
    ![](assets/messagecenter_create_extaccount_001.png)
 
@@ -49,7 +49,7 @@ Procédez comme suit pour créer un compte externe de type instance d&#39;exécu
 
    ![](assets/messagecenter_create_extaccount_002.png)
 
-1. Select the **[!UICONTROL Enabled]** option to make the external account operational.
+1. Sélectionnez l&#39;option **[!UICONTROL Activé]** afin que le compte externe soit opérationnel.
 
    ![](assets/messagecenter_create_extaccount_003.png)
 
@@ -85,7 +85,7 @@ Procédez comme suit pour créer un compte externe de type instance d&#39;exécu
 
    Reportez-vous à la section [Accès à une base de données externe](../../platform/using/about-fda.md) pour plus d&#39;informations sur le Federated Data Access (FDA).
 
-1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
+1. Cliquez sur **[!UICONTROL Tester la connexion]** pour vérifier que la connexion entre l&#39;instance de pilotage et l&#39;instance d&#39;exécution est effective.
 
    ![](assets/messagecenter_create_extaccount_006.png)
 
@@ -103,16 +103,16 @@ Pour utiliser un mot de passe vide, accédez aux instances d’exécution et dé
 >
 >Lorsque des instances d’exécution sont utilisées par plusieurs instances de contrôle, les données peuvent être divisées par dossier et par opérateur. Pour plus d’informations, reportez-vous à [Utilisation de plusieurs instances](#using-several-control-instances)de contrôle.
 
-1. Accédez au dossier de l’opérateur dans l’instance d’exécution ( **[!UICONTROL Administration > Access management > Operators]** ).
+1. Positionnez-vous au niveau du dossier des opérateurs dans l&#39;arborescence de l&#39;instance d&#39;exécution (**[!UICONTROL Administration > Gestion des accès > Opérateurs]** ).
 1. Sélectionnez l&#39;agent **Message Center**.
 
    ![](assets/messagecenter_operator_001.png)
 
-1. Sélectionnez l’ **[!UICONTROL Edit]** onglet, cliquez sur **[!UICONTROL Access rights]** , puis sur le **[!UICONTROL Edit the access parameters...]** lien.
+1. Sélectionnez l&#39;onglet **[!UICONTROL Edition]**, cliquez sur **[!UICONTROL Droits d&#39;accès]**, et cliquez sur le lien **[!UICONTROL Editer les paramètres d&#39;accès...]**
 
    ![](assets/messagecenter_operator_002.png)
 
-1. Dans la **[!UICONTROL Access settings]** fenêtre, cliquez sur le **[!UICONTROL Add a trusted IP mask]** lien et ajoutez l’adresse IP de l’instance de contrôle.
+1. Dans la fenêtre **[!UICONTROL Paramètres d&#39;accès]**, cliquez sur le lien **[!UICONTROL Ajouter un masque IP de confiance]**, et ajoutez l&#39;adresse IP de l&#39;instance de pilotage.
 
    ![](assets/messagecenter_operator_003.png)
 
@@ -142,7 +142,7 @@ Dans l’arborescence de toutes les instances d’exécution, créez un dossier 
 
 Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réalisé sur TOUTES les instances d&#39;exécution.
 
-1. Créez un dossier par opérateur dans le **[!UICONTROL Administration > Production > Message Center]** noeud : **Dossier 1** et **Dossier 2**. Pour plus d’informations sur la création de dossiers et de vues, voir [Plateforme](../../platform/using/access-management.md#folders-and-views).
+1. Créez un dossier par opérateur dans le noeud **[!UICONTROL Administration > Exploitation > Message Center]** : **Dossier 1** et **Dossier 2**. La création de dossiers et de vues est présentée dans le guide [Platform](../../platform/using/access-management.md#folders-and-views).
 
    ![](assets/messagecenter_multi_control_3.png)
 
@@ -152,13 +152,13 @@ Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réali
 
    >[!NOTE]
    >
-   >**Les opérateurs mc1** et **mc2** doivent avoir **[!UICONTROL Message Center execution]** des droits et ne peuvent pas accéder à la console client Adobe Campaign. Un opérateur doit toujours être lié à une zone de sécurité. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+   >Les opérateurs **mc1** et **mc2** doivent disposer du droit **[!UICONTROL Exécution Message Center]**, et l&#39;accès à la console cliente Adobe Campaign ne doit pas leur être autorisé. Un opérateur doit toujours être associé à une zone de sécurité. Voir à ce sujet [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-1. For each operator, check the **[!UICONTROL Restrict to information found in sub-folders of]** box, and select the relevant folder (**Folder 1** for the **mc1** operator and **Folder 2** for the **mc2** operator).
+1. Pour chaque opérateur, cochez la case **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]**, et sélectionnez le dossier correspondant (**Dossier 1** pour l&#39;opérateur **mc1** et **Dossier 2** pour l&#39;opérateur **mc2**).
 
    ![](assets/messagecenter_multi_control_5.png)
 
-1. Attribuez à chaque opérateur des autorisations de lecture et d’écriture pour son dossier. Pour ce faire, cliquez avec le bouton droit sur le dossier et sélectionnez **[!UICONTROL Properties]** . Sélectionnez ensuite l’ **[!UICONTROL Security]** onglet et ajoutez l’opérateur approprié (**mc1** pour **Folder 1** et **mc2** pour Folder 2). **** Vérifiez que les **[!UICONTROL Read/Write data]** cases sont cochées.
+1. Attribuez à chaque opérateur les droits en lecture et en écriture sur son dossier. Pour cela, effectuez un clic droit sur le dossier et sélectionnez **[!UICONTROL Propriétés]**. Sélectionnez ensuite l&#39;onglet **[!UICONTROL Sécurité]** et ajoutez l&#39;opérateur correspondant (**mc1** pour le dossier **Dossier 1** et **mc2** pour le dossier **Dossier 2**). Vérifiez que les cases **[!UICONTROL Lecture/Ecriture des données]** sont bien cochées.
 
    ![](assets/messagecenter_multi_control_6.png)
 
