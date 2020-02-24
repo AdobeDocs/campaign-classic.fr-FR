@@ -46,7 +46,7 @@ Une fois que vous avez créé votre email et défini son contenu, suivez les ét
 
 Pour plus d&#39;informations sur la conception d&#39;une diffusion, consultez [cette section](../../delivery/using/about-email-channel.md).
 
-1. Go to the **[!UICONTROL Preview]** tab.
+1. Accédez à l&#39;onglet **[!UICONTROL Aperçu]**.
 1. Sélectionnez un destinataire pour prévisualiser votre diffusion.
 
    ![](assets/s_tn_del_preview_spamassassin_recipient.png)
@@ -59,12 +59,12 @@ Pour plus d&#39;informations sur la conception d&#39;une diffusion, consultez [c
 
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
-1. Click the **[!UICONTROL More...]** link next to the warning.
-1. Sélectionnez l’ **[!UICONTROL Anti-spam checking]** onglet.
-1. Go to the **[!UICONTROL Points / Rule / Description]** section to view the reasons for this risk.
+1. Cliquez sur le lien **[!UICONTROL Détail...]** situé en regard de l&#39;avertissement.
+1. Sélectionnez l&#39;onglet **[!UICONTROL Vérification anti-spam]**.
+1. Accédez à la section **[!UICONTROL Points / Règle / Description]** pour découvrir les raisons de ce risque.
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >
->Chaque fois que vous cliquez sur **[!UICONTROL Anti-spam checking]**, le service SpamAssassin est appelé et le message est de nouveau analysé pour détecter les messages antispam. Veillez à modifier votre contenu avant d’exécuter à nouveau l’analyse antispam.
+>Chaque fois que vous cliquez sur **[!UICONTROL Vérification anti-spam]**, le service SpamAssassin est appelé et le message est réanalysé pour la détection des emails indésirables. Veillez à modifier votre contenu avant de réexécuter l&#39;analyse anti-spam.
