@@ -22,7 +22,7 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
 
-Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit d’éléments statiques tels que des images, du contenu HTML, d’une barre horizontale ou d’un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d’outils, en cliquant sur le **[!UICONTROL Add static element]** menu.
+Vous pouvez inclure dans une page de formulaire des éléments avec lesquels l&#39;utilisateur n&#39;a pas d&#39;interaction : il s&#39;agit d&#39;éléments statiques tels qu&#39;une image, un contenu HTML, une barre horizontale ou lien hypertexte. Ces éléments sont créés à partir du premier bouton de la barre d&#39;outils, depuis le menu **[!UICONTROL Ajouter un élément statique]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -41,7 +41,7 @@ Les types de champs disponibles sont les suivants :
 
 Vous pouvez inclure des contenus HTML dans une page de formulaire : liens hypertextes, images, paragraphes formatés, objets vidéo, Flash, etc.
 
-The HTML editor lets you enter the content to insert into the form page. To open the editor, go to **[!UICONTROL Static elements>HTML]** .
+L&#39;éditeur HTML vous permet de saisir directement le contenu à insérer dans la page du formulaire. Pour accéder à cet éditeur, choisissez le menu **[!UICONTROL Eléments statiques > HTML]** .
 
 Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour y coller un contenu externe. Pour basculer en mode &quot;code source&quot;, cliquez sur la première icône de la barre d&#39;outils :
 
@@ -53,24 +53,24 @@ Pour insérer un champ de la base, utilisez le bouton de personnalisation.
 
 >[!NOTE]
 >
->Les chaînes saisies dans l’éditeur HTML ne sont traduites que si elles sont définies dans le **[!UICONTROL Texts]** sous-onglet. Sinon, elles ne seront pas collectées. Pour plus d’informations, reportez-vous à la section [Traduction d’un formulaire](../../web/using/translating-a-web-form.md)Web.
+>The strings entered in the HTML editor are only translated if they are defined in the **[!UICONTROL Texts]** sub-tab. Otherwise they will not be collected. Pour plus d’informations, reportez-vous à la section [Traduction d’un formulaire](../../web/using/translating-a-web-form.md)Web.
 
 ### Insérer un lien {#inserting-a-link}
 
 Renseignez les champs de la fenêtre d&#39;édition, comme dans l&#39;exemple ci-dessous :
 
-Pour ajouter un lien hypertexte, accédez à **[!UICONTROL Static elements>Link]**.
+Pour ajouter un lien hypertexte, choisissez le menu **[!UICONTROL Eléments statiques > Lien]**.
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
-* The **[!UICONTROL Label]** is the content of the hypertext link as it will be displayed on the form page.
+* Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu&#39;il sera affiché dans la page du formulaire.
 * The **[!UICONTROL URL]** is the desired address, e.g.: [https://www.adobe.com](https://www.adobe.com) for a website, or [info@adobe.com](mailto:info@adobe.com) to send a message.
-* Le **[!UICONTROL Window]** champ vous permet de sélectionner le mode d’affichage du lien dans le cas d’un site. Vous pouvez décider d’ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre active ou dans une autre fenêtre.
+* Le champ **[!UICONTROL Fenêtre]** permet de sélectionner le mode d&#39;affichage du lien, lorsqu&#39;il s&#39;agit d&#39;un site. Vous pouvez choisir d&#39;ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre courante ou dans une autre fenêtre.
 * Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_admin_survey_send_an_email.png)
 
-* Vous pouvez choisir d’afficher le lien sous forme de bouton ou d’image. Pour ce faire, sélectionnez le type d’affichage dans le **[!UICONTROL Type]** champ.
+* Vous pouvez choisir d&#39;afficher le lien sous forme de bouton ou d&#39;image. Pour cela, sélectionnez l&#39;affichage dans le champ **[!UICONTROL Type]**.
 
 ### Types de liens {#types-of-links}
 
@@ -82,29 +82,29 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
 * Actualiser la page
 
-   To do this, select the **[!UICONTROL Refresh page]** option in the drop-down box of the **[!UICONTROL Action]** field.
+   Pour cela, sélectionnez l&#39;option **[!UICONTROL Actualiser la page]** dans la liste déroulante du champ **[!UICONTROL Action]**.
 
    ![](assets/s_ncs_admin_survey_link_refresh.png)
 
 * Afficher la page suivante / précédente
 
-   To do this, select the **[!UICONTROL Next page]** or **[!UICONTROL Previous page]** option in the drop-down box of the **[!UICONTROL Action]** field.
+   Pour cela, sélectionnez l&#39;option **[!UICONTROL Page suivante]** ou **[!UICONTROL Page précédente]** dans la liste déroulante du champ **[!UICONTROL Action]**.
 
    ![](assets/s_ncs_admin_survey_link_next.png)
 
-   You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. Consultez à ce sujet cette [page](../../web/using/defining-web-forms-page-sequencing.md).
+   Vous pouvez masquer les boutons **[!UICONTROL Suivant]** et/ou **[!UICONTROL Précédent]** si un lien est destiné à les remplacer. Voir à ce sujet cette [page](../../web/using/defining-web-forms-page-sequencing.md).
 
-   The link will replace the **[!UICONTROL Next]** button used by default.
+   Ainsi, le lien paramétré remplacera le bouton **[!UICONTROL Suivant]** utilisé par défaut.
 
    ![](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * Afficher une autre page
 
-   The **[!UICONTROL Enable a transition]** option lets you display a specific page associated with the outgoing transition selected in the **[!UICONTROL Transition]** field.
+   L&#39;option **[!UICONTROL Activer une transition]** permet d&#39;afficher une page spécifique, associée à la transition sortante sélectionnée dans le champ **[!UICONTROL Transition]**.
 
    ![](assets/s_ncs_admin_survey_link_viral.png)
 
-   Par défaut, une page ne comporte qu’une seule transition de sortie. Pour créer de nouvelles transitions, sélectionnez la page, puis cliquez sur le **[!UICONTROL Add]** bouton de la **[!UICONTROL Output transitions]** section, comme illustré ci-dessous :
+   Par défaut, une page n&#39;a qu&#39;une transition sortante. Pour créer de nouvelles transitions, sélectionnez la page puis cliquez sur le bouton **[!UICONTROL Ajouter]** de la section **[!UICONTROL Transitions sortantes]**, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_admin_survey_add_transition.png)
 
@@ -120,13 +120,13 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
    >[!CAUTION]
    >
-   >Cette fonction n’est disponible que si vous avez installé l’ **[!UICONTROL Social Marketing]** application. Pour utiliser cette option, vous devez créer une application Facebook avec un compte externe de **[!UICONTROL Facebook Connect]** type. Voir à ce propos [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+   >Cette fonction n&#39;est disponible que si vous avez installé l&#39;application **[!UICONTROL Social Marketing]**. Avant d&#39;utiliser cette option, vous devez créer une application Facebook, ainsi qu&#39;un compte externe de type **[!UICONTROL Facebook Connect]**. Voir à ce sujet [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
-   The **[!UICONTROL Preload with Facebook]** option lets you insert a button into a form to preload fields using Facebook profile information.
+   L&#39;option **[!UICONTROL Précharger avec Facebook]** permet d&#39;insérer, dans un formulaire, un bouton permettant de pré-remplir les champs grâce aux informations de profil Facebook.
 
    ![](assets/web_social_webapp_037.png)
 
-   When a user clicks the **[!UICONTROL Fill in automatically]** button, the Facebook request for permission window opens.
+   Lorsque l&#39;utilisateur clique sur le bouton **[!UICONTROL Remplir automatiquement]**, l&#39;écran de demande de connexion Facebook apparaît.
 
    ![](assets/web_social_webapp_029.png)
 
@@ -142,8 +142,8 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web composée des éléments suivants :
 
 * une page contenant le formulaire
-* une **[!UICONTROL Record]** activité
-* une **[!UICONTROL End]** activité
+* une activité **[!UICONTROL Enregistrement]**
+* Une activité **[!UICONTROL Fin]**.
 
 ![](assets/social_webapp_031.png)
 
@@ -157,15 +157,15 @@ Les étapes d&#39;ajout du bouton de pré-remplissage sont les suivantes :
 
    ![](assets/social_webapp_033.png)
 
-1. Enter the label and select the **[!UICONTROL Button]** type.
+1. Renseignez le libellé et sélectionnez le type **[!UICONTROL Bouton]**.
 
    ![](assets/social_webapp_034.png)
 
-1. Accédez au **[!UICONTROL Action]** champ et sélectionnez **[!UICONTROL Preload with Facebook]**.
+1. Dans le champ **[!UICONTROL Action]**, sélectionnez **[!UICONTROL Précharger avec Facebook]**.
 
    ![](assets/social_webapp_035.png)
 
-1. Accédez au **[!UICONTROL Application]** champ et sélectionnez le **[!UICONTROL Facebook Connect]** type de compte externe créé précédemment. Voir à ce propos [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+1. Dans le champ **[!UICONTROL Application]**, sélectionnez le compte externe de type **[!UICONTROL Facebook Connect]** créé précédemment. Voir à ce sujet [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
    ![](assets/social_webapp_036.png)
 
@@ -196,16 +196,16 @@ Le résultat sera le suivant :
 
 ### Utilisation de variables texte {#using-text-variables}
 
-The **[!UICONTROL Text]** tab lets you create variable fields which can be used in the HTML between the &lt;%= and %> characters with the following syntax: **$(IDENTIFIER)**.
+L&#39;onglet **[!UICONTROL Texte]** permet de créer des champs variables qui peuvent être utilisés dans le HTML entre les caractères &lt;%= et %>, avec la syntaxe suivante : **$(IDENTIFIER)**.
 
 Utilisez cette méthode pour localiser facilement vos chaînes. See [Translating a web form](../../web/using/translating-a-web-form.md)
 
 For example, you can create a **Contact** field that will enable you to display the &quot;Date of last contact:&quot; string to the HTML content. Pour ce faire, procédez comme suit :
 
-1. Click on the **[!UICONTROL Text]** tab of the HTML text.
-1. Cliquez sur l’ **[!UICONTROL Add]** icône .
-1. In the **[!UICONTROL Identifier]** column, enter the name of the variable
-1. In the **[!UICONTROL Text]** column, enter the default value.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Textes]** du texte HTML.
+1. Cliquez sur l&#39;icône **[!UICONTROL Ajouter]**.
+1. Dans la colonne **[!UICONTROL Identifiant]**, indiquez le nom de la variable.
+1. Dans la colonne **[!UICONTROL Texte]**, saisissez la valeur par défaut.
 
    ![](assets/s_ncs_admin_survey_html_text.png)
 
@@ -215,9 +215,9 @@ For example, you can create a **Contact** field that will enable you to display 
 
    >[!CAUTION]
    >
-   >Si vous saisissez ces caractères dans l’éditeur HTML, les champs **&lt;** et **>** sont remplacés par leurs caractères d’échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l’ **[!UICONTROL Display source code]** icône de l’éditeur de texte HTML.
+   >Si vous saisissez ces caractères dans l&#39;éditeur HTML, les champs **&lt;** et **>** sont remplacés par leurs caractères d&#39;échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l&#39;icône **[!UICONTROL Afficher le code source]** de l&#39;éditeur de texte HTML.
 
-1. Open the **[!UICONTROL Preview]** label of the form to view the value entered in the HTML:
+1. Ouvrez l&#39;onglet **[!UICONTROL Prévisualisation]** du formulaire pour visualiser la valeur renseignée dans le HTML :
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
@@ -227,7 +227,7 @@ Ce mode de fonctionnement vous permet de factoriser le texte des formulaires Web
 
 Pour inclure des images dans les formulaires, elles doivent être enregistrées sur un serveur accessible depuis l&#39;extérieur.
 
-Sélectionnez le **[!UICONTROL Static elements>Image]** menu.
+Sélectionnez le menu **[!UICONTROL Eléments statiques > Image]**.
 
 Sélectionner la source de l&#39;image à insérer : elle peut être issue de la bibliothèque de ressources publiques ou stockée sur un serveur externe accessible de l&#39;extérieur.
 
