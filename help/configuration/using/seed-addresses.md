@@ -22,7 +22,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 # Adresses de contrôle{#seed-addresses}
 
-Si le tableau des destinataires est un tableau personnalisé, des configurations supplémentaires sont requises. Le **[!UICONTROL nms:seedMember]** schéma doit être étendu. Un onglet supplémentaire est ajouté aux adresses de base pour définir les champs appropriés, comme illustré ci-dessous :
+Si la table des destinataires est une table personnalisée, vous devez effectuer des paramétrages complémentaires. Le schéma **[!UICONTROL nms:seedMember]** doit être étendu. Un onglet supplémentaire est alors ajouté au niveau des adresses de contrôle afin de définir les champs adéquats, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
@@ -56,7 +56,7 @@ Les étapes sont les suivantes :
    name="custom_customNamespace_customSchema"
    ```
 
-   Cet élément doit contenir les champs requis pour exporter les campagnes. Ces champs doivent porter le même nom que les champs correspondants du schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]** , le **[!UICONTROL nms:seedMember]** schéma doit être étendu comme suit :
+   Cet élément doit contenir les champs nécessaires à l&#39;export de campagnes. Ces champs doivent porter le même nom que le champ correspondant dans le schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l&#39;exemple suivant :
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -87,7 +87,7 @@ Les étapes sont les suivantes :
    >    * In the **nms:seedMember** extension, the field containing the email address must have **name=&quot;email&quot;** as an attribute. The SQL name must be different from &#39;sEmail&#39; which is already used for the recipient schema. This attribute must be immediately declared under the **`<element name="custom_cus_person" />`** element.
 
 
-1. Modifiez le **[!UICONTROL seedMember]** formulaire en conséquence pour définir un nouvel onglet &quot;Destinataire interne&quot; dans la **[!UICONTROL Seed addresses]** fenêtre. For more on this, refer to [Form structure](../../configuration/using/form-structure.md).
+1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet &quot;Destinataire interne&quot; dans la fenêtre des adresses **[!UICONTROL de]** démarrage. For more on this, refer to [Form structure](../../configuration/using/form-structure.md).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"
