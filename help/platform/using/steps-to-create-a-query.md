@@ -38,38 +38,38 @@ Les étapes de construction d&#39;une requête dans Adobe Campaign sont les suiv
 
 ## Etape 1 - Sélection de la table {#step-1---choose-a-table}
 
-Sélectionnez le tableau contenant les données à interroger dans la **[!UICONTROL Document type]** fenêtre. Si nécessaire, filtrez les données à l’aide du champ de filtre ou du **[!UICONTROL Filters]** bouton.
+Sélectionnez la table contenant les données sur lesquelles vous souhaitez effectuer une requête dans la fenêtre **[!UICONTROL Type de document]**. Au besoin, filtrez les données en utilisant le champ de filtrage ou le bouton **[!UICONTROL Filtres]**.
 
 ![](assets/query_editor_nveau_21.png)
 
 ## Etape 2 - Sélection des données à extraire {#step-2---choose-data-to-extract}
 
-In the **[!UICONTROL Data to extract]** window, select the data to display: these fields will make up the output columns.
+Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les données à afficher : ces champs constitueront les colonnes de sortie.
 
-Par exemple, sélectionnez **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** et **[!UICONTROL City]**. Les résultats seront organisés en fonction de cette sélection. Utilisez les flèches bleues à droite de la fenêtre pour modifier l’ordre des colonnes.
+Sélectionnez par exemple **[!UICONTROL Age]**, **[!UICONTROL Clé primaire]**, **[!UICONTROL Domaine de l&#39;email]** et **[!UICONTROL Ville]**. Les résultats seront organisés en fonction de cette sélection. Réordonnez les colonnes de sortie avec les flèches bleues situées à droite de la fenêtre.
 
 ![](assets/query_editor_nveau_01.png)
 
-Vous pouvez modifier une expression en y insérant une formule ou en exécutant un processus sur une fonction d’agrégation. Pour ce faire, cliquez sur le champ de **[!UICONTROL Expression]** colonne, puis sélectionnez **[!UICONTROL Edit expression]**.
+Vous pouvez éditer une expression en y insérant une formule ou réaliser un traitement sur une fonction d&#39;agrégat. Pour cela, cliquez dans le champ de la colonne **[!UICONTROL Expression]** puis choisissez **[!UICONTROL Editer l&#39;expression]**.
 
 ![](assets/query_editor_nveau_97.png)
 
-Il est possible de grouper les données de colonne de sortie : pour ce faire, vérifiez **[!UICONTROL Yes]** dans la **[!UICONTROL Group]** colonne de la **[!UICONTROL Data to extract]** fenêtre. Cette fonction génère un résultat autour de l’axe de regroupement vérifié. Vous trouverez un exemple de requête avec regroupement dans [cette section](../../workflow/using/querying-delivery-information.md).
+Vous pouvez regrouper les données des colonnes de sortie : pour cela, cochez **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Grouper]** de la fenêtre **[!UICONTROL Données à extraire]**. Cette fonction génère un résultat autour de l&#39;axe de groupement coché. Un exemple de requête avec regroupement est proposé dans [cette section](../../workflow/using/querying-delivery-information.md).
 
 ![](assets/query_editor_nveau_56.png)
 
-* La **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** fonction vous permet de &quot;grouper par&quot; et de sélectionner ce qui a été regroupé (&quot;avoir&quot;). Cette fonction s’applique à tous les champs de la colonne de sortie. Par exemple, cette option vous permet de regrouper tous les choix d’une colonne de sortie et de récupérer un type spécifique d’informations, comme les destinataires situés entre 35 et 50.
+* La fonction de groupement **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** permet un groupement (&quot;group by&quot;) et une sélection de ce qui a été groupé (&quot;having&quot;). Elle s&#39;applique aux champs inscrits en colonne de sortie. Par exemple, cette option regroupe les choix d&#39;une colonne de sortie et récupère un type d&#39;information particulier : les destinataires âgés de 35 à 50 ans.
 
    Voir à ce propos [cette section](../../workflow/using/querying-using-grouping-management.md).
 
-* La **[!UICONTROL Remove duplicate rows (DISTINCT)]** fonction permet de dédupliquer des résultats identiques obtenus dans la colonne de sortie. Si, par exemple, vous effectuez un recensement en sélectionnant les champs Nom, Prénom et Courriel dans la colonne de sortie, ceux qui contiennent des données identiques seront éliminés, car cela signifie que le même contact a été entré plusieurs fois dans la base de données : un seul résultat sera pris en compte.
+* La fonction **[!UICONTROL Supprimer les doublons (DISTINCT)]** permet de dédoublonner des résultats identiques obtenus en colonne de sortie. Si l&#39;on recense les destinataires en sélectionnant les champs Nom, Prénom et Email en colonne de sortie, ceux qui ont un prénom, un nom et une adresse email identiques sont éliminés. En effet, il s&#39;agit du même contact renseigné plus d&#39;une fois dans la base. Ainsi, un seul résultat sera pris en compte.
 
 ## Etape 3 - Tri des données {#step-3---sort-data}
 
-La **[!UICONTROL Sorting]** fenêtre vous permet de trier le contenu des colonnes. Utilisez les flèches pour modifier l’ordre des colonnes :
+La fenêtre **[!UICONTROL Tris]** permet de trier le contenu des colonnes. Utilisez les flèches pour modifier l&#39;ordre de tri des colonnes :
 
-* The **[!UICONTROL Sorting]** column enables a simple sort and arranges column content from A to Z or in ascending order.
-* Le **[!UICONTROL Descending sort]** groupe le contenu de Z à A et dans l’ordre décroissant. Cela s’avère utile pour consulter les ventes d’enregistrements, par exemple : les chiffres les plus élevés figurent en haut de la liste.
+* Avec **[!UICONTROL Tri]**, le contenu de chaque colonne est ordonné de A à Z. Le contenu est ordonné par ordre croissant s&#39;il est chiffré.
+* Avec **[!UICONTROL Tri descendant]** le contenu de la colonne est ordonné de Z à A ou dans un ordre décroissant si le contenu est chiffré. Un tri descendant est utile par exemple pour visualiser les ventes de disques, avec les meilleurs scores affichés en haut de la liste.
 
 Dans cet exemple, les données seront triées en fonction de l&#39;âge des destinataires, du plus jeune au plus âgé.
 
@@ -83,14 +83,14 @@ Les filtres proposés dépendent de la table sur laquelle porte la requête.
 
 ![](assets/query_editor_nveau_09.png)
 
-Once you select the **[!UICONTROL Filtering conditions]** you will access the **[!UICONTROL Target elements]** section: this lets you define how to filter the data to collect.
+Après la sélection de **[!UICONTROL Critères de filtrage]**, vous accédez à la section **[!UICONTROL Eléments de la cible]** : vous pouvez y définir comment filtrer les données à collecter.
 
 * Pour créer un nouveau filtre, sélectionnez les champs, opérateurs et valeurs nécessaires à la création de la formule à vérifier pour que les données soient sélectionnées. Il est possible de combiner plusieurs conditions (pour plus d’informations, voir [Définition des conditions](../../platform/using/defining-filter-conditions.md)de filtre).
-* To use previously saved filters, open the drop-down list by clicking the **[!UICONTROL Add]** button, click **[!UICONTROL Predefined filter]** and select the one you want.
+* Pour utiliser des filtres enregistrés au préalable, déroulez la liste du bouton **[!UICONTROL Ajouter]**, cliquez sur **[!UICONTROL Filtre prédéfini]** puis sélectionnez un filtre pré-enregistré.
 
    ![](assets/query_editor_15.png)
 
-* Les filtres créés dans le **[!UICONTROL Generic query editor]** sont disponibles dans d&#39;autres applications de requête et inversement. Pour enregistrer un filtre, cliquez sur l’ **[!UICONTROL Save]** icône .
+* Les filtres créés dans le **[!UICONTROL Requêteur générique]** peuvent être utilisés dans d&#39;autres applications de requêtage (et inversement). Pour enregistrer un filtre, cliquez sur l&#39;icône **[!UICONTROL Enregistrer]**.
 
    >[!NOTE]
    >
@@ -104,17 +104,17 @@ Dans l&#39;exemple ci-dessous, pour ne récupérer que les destinataires de lang
 >
 >Vous pouvez accéder directement à une option en inscrivant la formule suivante dans le champ **Valeur** : **$(options:OPTION_NAME)**.
 
-Cliquez sur l’ **[!UICONTROL Preview]** onglet pour afficher le résultat de la condition de filtrage. Dans ce cas, tous les destinataires anglophones sont affichés avec leur nom, prénom et adresse électronique.
+Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** afin de visualiser le résultat de la condition de filtrage. Dans ce cas, chaque destinataire de langue française est affiché avec son nom, prénom et adresse email.
 
 ![](assets/query_editor_nveau_98.png)
 
-Users familiar with SQL language can click **[!UICONTROL Generate SQL query]** to view the query in SQL.
+Les utilisateurs maîtrisant le langage SQL peuvent cliquer sur **[!UICONTROL Requête SQL correspondante]** pour visualiser la requête en SQL.
 
 ![](assets/query_editor_nveau_99.png)
 
 ## Etape 5 - Formatage des données {#step-5---format-data}
 
-Une fois les filtres de restriction configurés, vous accédez à la **[!UICONTROL Data formatting]** fenêtre. Cette fenêtre vous permet de réorganiser les colonnes de sortie, de transformer les données et de modifier la casse des libellés de colonne. Vous pouvez également appliquer une formule au résultat final à l’aide d’un champ calculé.
+Après le paramétrage de filtres de restriction, vous accédez à la fenêtre **[!UICONTROL Formatage des données]**. Elle permet de réordonner l&#39;affichage des colonnes de sortie, de transformer les données et de modifier la casse des libellés de colonnes. Elle permet également d&#39;appliquer une formule sur le résultat final, grâce à un champ calculé.
 
 >[!NOTE]
 >
@@ -124,17 +124,17 @@ Une colonne qui n&#39;est pas cochée ne s&#39;affichera pas dans la fenêtre de
 
 ![](assets/query_editor_nveau_10.png)
 
-La **[!UICONTROL Transformation]** colonne vous permet de changer le libellé d’une colonne en majuscules ou en minuscules. Sélectionnez la colonne et cliquez sur dans la **[!UICONTROL Transformation]** colonne. Vous pouvez choisir :
+La colonne **[!UICONTROL Transformation]** permet de modifier la casse du libellé d&#39;une colonne. Sélectionnez une colonne puis cliquez dans la colonne **[!UICONTROL Transformation]**. Les modifications possibles sont :
 
-* **[!UICONTROL Switch to lower case]**,
-* **[!UICONTROL Switch to upper case]**,
-* **[!UICONTROL First letter in upper case]**.
+* **[!UICONTROL Passer en minuscules]**,
+* **[!UICONTROL Passer en majuscules]**,
+* **[!UICONTROL Première lettre en majuscule]**.
 
 ![](assets/query_editor_nveau_42.png)
 
 ## Etape 6 - Prévisualisation des données {#step-6---preview-data}
 
-La **[!UICONTROL Data preview]** fenêtre est la dernière étape. Cliquez sur **[!UICONTROL Start the preview of the data]** pour obtenir le résultat de votre requête. Il est disponible en colonnes ou au format XML. Cliquez sur l&#39; **[!UICONTROL Generated SQL queries]** onglet pour afficher la requête au format SQL.
+La fenêtre **[!UICONTROL Prévisualisation des données]** est la dernière étape. Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour obtenir le résultat de la requête. Il est disponible soit en colonnes, soit au format XML. Cliquez sur l&#39;onglet **[!UICONTROL Requêtes SQL générées]** pour visualiser la requête en langage SQL.
 
 Dans cet exemple, les données sont triées selon l&#39;âge des destinataires ciblés et dans un ordre croissant.
 
@@ -142,5 +142,5 @@ Dans cet exemple, les données sont triées selon l&#39;âge des destinataires c
 
 >[!NOTE]
 >
->Par défaut, seules les 200 premières lignes sont affichées dans la **[!UICONTROL Data preview]** fenêtre. Pour modifier ce paramètre, saisissez un nombre dans la **[!UICONTROL Lines to display]** zone et cliquez sur **[!UICONTROL Start the preview of the data]**.
+>Dans la fenêtre **[!UICONTROL Prévisualisation des données]**, les 200 premières lignes de résultat s&#39;affichent par défaut. Pour modifier cette quantité, saisissez un chiffre dans la case **[!UICONTROL Lignes à visualiser]**, validez puis cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**.
 
