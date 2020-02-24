@@ -93,7 +93,7 @@ Par exemple, vous pouvez choisir de ne présenter l&#39;offre qu&#39;aux personn
 
 >[!NOTE]
 >
->Vous devez limiter la règle sur les canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle sur le canal Web entrant (**[!UICONTROL Taken into account if]** champ).
+>Vous devez limiter la règle aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant (champ **[!UICONTROL Pris en compte si]**).
 
 ### Personnalisation  {#personalization}
 
@@ -105,11 +105,11 @@ Il est également possible d&#39;utiliser ces données additionnelles lors de la
 >
 >Vous devez limiter la personnalisation aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant.
 
-Si vous avez personnalisé une offre à l’aide de données supplémentaires, ces données n’apparaîtront pas dans l’aperçu par défaut car elles ne sont pas disponibles dans la base de données. Dans l’ **[!UICONTROL Example of call data]** onglet de l’environnement, vous devez ajouter des exemples de valeur à utiliser dans l’aperçu. Respectez la même structure xml que dans l&#39;extension de schéma **nms:interaction** . For more on this, refer to [Additional data configuration](#additional-data-configuration).
+If you have personalized an offer using additional data, this data will not appear in the preview by default because it is not available in the database. In the environment&#39;s **[!UICONTROL Example of call data]** tab, you must add value samples to use in the preview. Please respect the same xml structure that is in the **nms:interaction** schema extension. For more on this, refer to [Additional data configuration](#additional-data-configuration).
 
 ![](assets/ita_calldata_preview.png)
 
-Lors de la prévisualisation, cliquez **[!UICONTROL Content personalization options for the preview]** et sélectionnez une valeur dans le **[!UICONTROL Call data]** champ.
+Lors de la prévisualisation, cliquez sur **[!UICONTROL Options de personnalisation du contenu pour l&#39;aperçu]** et sélectionnez une valeur dans le champ **[!UICONTROL Données d&#39;appel]**.
 
 ![](assets/ita_calldata_preview2.png)
 
@@ -121,9 +121,9 @@ Au moment de l&#39;appel au moteur, il est possible de stocker les données addi
 >
 >You must have extended the **nms:propositionRcp** schema and declared the fields that will contain the data to be stored. Pour en savoir plus : Configuration [de données](#additional-data-configuration)supplémentaire.
 
-In the offer space, go to the **[!UICONTROL Storage]** tab and click the **[!UICONTROL Add]** button.
+Au niveau de l&#39;emplacement, positionnez-vous sur l&#39;onglet **[!UICONTROL Stockage]** et cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
-Dans la **[!UICONTROL Storage path]** colonne, sélectionnez le champ de stockage dans le tableau des propositions. Dans la **[!UICONTROL Expression]** colonne, sélectionnez le champ supplémentaire dans le **[!UICONTROL Interaction]** noeud.
+Dans la colonne **[!UICONTROL Chemin de stockage]**, sélectionnez le champ de stockage dans la table des propositions. Dans la colonne **[!UICONTROL Expression]**, sélectionnez le champ additionnel dans le noeud **[!UICONTROL Interaction]**.
 
 Il est possible de récupérer les données d&#39;appel au moment de la génération de la proposition ou au moment de son acceptation (lorsque la personne clique sur l&#39;offre).
 
