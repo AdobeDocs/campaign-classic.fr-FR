@@ -22,17 +22,17 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Début et Fin{#start-and-end}
 
-Les activités **[!UICONTROL Start]** et **[!UICONTROL End]** vous permettent de marquer graphiquement le début et la fin d’un flux de travail. Ces activités n&#39;ont aucun impact fonctionnel et sont donc facultatives.
+Les activités **[!UICONTROL Début]** et **[!UICONTROL Fin]** permettent de marquer graphiquement le début et la fin d&#39;un workflow. Elles n&#39;ont pas d&#39;impact fonctionnel et sont donc facultatives.
 
-* **[!UICONTROL Start]**
+* **[!UICONTROL Début]**
 
    L&#39;exécution d&#39;un workflow démarre par les activités sans transition entrante et les activités de type Début.
 
    ![](assets/s_user_segmentation_start_stop.png)
 
-* **[!UICONTROL End]**
+* **[!UICONTROL Fin]**
 
-   Vous pouvez configurer l’ **[!UICONTROL End]** activité pour interrompre toutes les tâches en cours. Pour ce faire, double-cliquez sur l’activité pour afficher ses propriétés, puis cochez l’option appropriée.
+   Vous pouvez paramétrer l&#39;activité **[!UICONTROL Fin]** pour qu&#39;elle interrompe toutes les tâches en cours. Pour cela, double-cliquez sur l&#39;activité pour afficher ses propriétés et cochez l&#39;option correspondante.
 
    ![](assets/s_user_segmentation_end.png)
 
