@@ -53,13 +53,13 @@ source-git-commit: d046304657f04312d78176c49a650690b05e4c94
 * Correction d&#39;une erreur qui entraînait l&#39;affichage des adresses IP des équilibreurs de charge au lieu de celles des clients dans les broadlogs de tracking. (NEO-11295)
 * Correction d&#39;une erreur aléatoire qui entraînait le remplacement incorrect des propriétés d&#39;une diffusion. (NEO-11015)
 * Correction d&#39;une erreur de syntaxe lors du tri des résultats d&#39;une activité d&#39;enrichissement. (NEO-11394)
-* Fixed an issue when using calculated fields in a **[!UICONTROL Survey answers]** workflow activity. (NEO-11382)
+* Correction d&#39;une erreur lors de l&#39;utilisation de champs calculés dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-11382)
 * Mise à jour de Tomcat pour éviter l&#39;exploitation de vulnérabilités. (NEO-11503)
 * Correction d&#39;une erreur liée au codage LATIN1 lors de l&#39;utilisation d&#39;une connexion FDA à une base de données PostgreSQL.(NEO-11299)
-* Correction d’un problème survenant lors de l’utilisation de l’option **[!UICONTROL Prepare the personalization data with a workflow]** de remise. (NEO-11047)
+* Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation de l&#39;option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow]**. (NEO-11047)
 * Correction d&#39;une erreur de postupgrade qui empêchait l&#39;envoi de SMS lors de l&#39;utilisation d&#39;un connecteur étendu.
 * Amélioration de l&#39;import/export de package (ajout de log et de région dans l&#39;interface).
-* Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.
+* Correction d&#39;un problème qui affichait des erreurs inutiles dans le log de postupgrade lorsqu&#39;une activité de workflow **[!UICONTROL Réponses au questionnaire]** n&#39;était pas entièrement configurée.
 
 **Evolutions techniques**
 
@@ -67,11 +67,11 @@ Query banding
 
 Une clé spécifique (PROXYUSER ou PROXYROLE) est utilisée pour associer un utilisateur ou un rôle Teradata à un utilisateur Campaign. Une nouvelle permission a été ajoutée pour utiliser ce rôle/utilisateur proxy. Vous devez ajouter le droit d&#39;accès GRANT CONNECT THROUGH au compte de base de données (celui défini dans le compte externe Teradata).
 
-Un nouvel onglet a été ajouté aux comptes externes Teradata. L’ **[!UICONTROL Query banding]** onglet comprend les options suivantes :
+Un nouvel onglet a été ajouté dans les comptes externes de Teradata. L’onglet **[!UICONTROL Query banding]** comprend les options suivantes :
 
-* **[!UICONTROL Active]**: cochez cette case pour activer la fonction.
-* **[!UICONTROL Default]**: entrez une bande de requête par défaut qui sera utilisée si un utilisateur n’a pas de bande de requête associée. S’il n’y a pas de bande de requête par défaut définie, les utilisateurs qui n’ont pas de bande de requête associée ne pourront pas utiliser Teradata.
-* **[!UICONTROL Users]**: pour chaque utilisateur, spécifiez une bande de requête. Vous pouvez ajouter autant de paires clé/valeur que nécessaire. Par exemple : &quot;priorité=1;charge de travail=élevée;&quot;
+* **[!UICONTROL Activer]** : cochez cette case pour activer la fonctionnalité.
+* **[!UICONTROL Par défaut]** : saisissez un query banding par défaut qui sera utilisé si un utilisateur n’a aucun query banding associé. Si aucun query banding par défaut n’est défini, les utilisateurs sans query banding associé ne pourront pas utiliser Teradata.
+* **[!UICONTROL Utilisateurs]** : pour chaque utilisateur, spécifiez un query banding. Vous pouvez ajouter autant de paires clé/valeur que nécessaire. Par exemple : ’priority=1;workload=high;’
 
 Pour plus d’informations sur query banding, référez-vous à ces articles :
 
