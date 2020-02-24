@@ -34,17 +34,17 @@ Cette section détaille les principes clés et les bonnes pratiques pour la cré
 
 ## Créer un nouveau workflow {#creating-a-new-workflow}
 
-Accédez à **[!UICONTROL Explorer]** un dossier de processus. Par défaut, vous pouvez utiliser **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
+A partir de l&#39;**[!UICONTROL Explorateur]**, accédez à un dossier de workflow. Par défaut, vous pouvez utiliser **[!UICONTROL Profils et cibles]** > **[!UICONTROL Traitements]** > **[!UICONTROL Workflows de ciblage]**.
 
-Click the **[!UICONTROL New]** button located above the list of workflows.
+Pour créer un workflow, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des workflows.
 
 ![](assets/create_a_wf_icon.png)
 
-Or, you can also use the **[!UICONTROL Create]** button in the workflow overview (**[!UICONTROL Monitoring]** > **[!UICONTROL Workflow]** link).
+Vous pouvez également utiliser le bouton **[!UICONTROL Créer]** de la vue d’ensemble des workflows (**[!UICONTROL Supervision]** > lien **[!UICONTROL Workflow]**).
 
 ![](assets/create_a_wf.png)
 
-Enter a label and click **[!UICONTROL Save]**.
+Saisissez un libellé puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39
 
 * **Alignement des objets**
 
-   Pour aligner des icônes, sélectionnez-les, puis cliquez sur l’ **[!UICONTROL Align vertically]** icône ou **[!UICONTROL Align horizontally]** .
+   Pour aligner les icônes, sélectionnez-les et cliquez sur l&#39;icône **[!UICONTROL Aligner verticalement]** ou **[!UICONTROL Aligner horizontalement]**.
 
    Utilisez la touche **CTRL** pour sélectionner plusieurs activités discontinues ou désélectionner une ou plusieurs activités d&#39;une sélection. Cliquez sur l&#39;arrière-plan du diagramme pour tout désélectionner.
 
@@ -117,13 +117,13 @@ L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39
 
 ## Configurer les activités {#configuring-activities}
 
-Double-click an activity to configure it or right-click and select **[!UICONTROL Open...]**.
+Double-cliquez sur une activité pour la paramétrer ou cliquez avec le bouton droit et choisissez **[!UICONTROL Ouvrir…]**.
 
 >[!NOTE]
 >
 >Les activités de workflow d’opérations disponibles sont présentées dans [cette section](../../workflow/using/about-activities.md).
 
-Le premier onglet contient la configuration de base. The **[!UICONTROL Advanced]** tab contains the additional parameters, which are used particularly for defining behavior when an error is encountered, specifying the execution duration for an activity, and for entering an initialization script.
+Le premier onglet contient le paramétrage de base. L’onglet **[!UICONTROL Avancé]** contient des paramètres supplémentaires, qui permettent notamment de définir le comportement en cas d’erreur ainsi que la durée d’exécution de l’activité, et de saisir un script d’initialisation.
 
 Afin de faciliter la compréhension des activités et améliorer la lisibilité du workflow, vous pouvez saisir des commentaires dans les activités : ces commentaires seront affichés automatiquement lorsqu&#39;un opérateur passe la souris sur l&#39;activité.
 
@@ -141,7 +141,7 @@ Toutes ces activités sont regroupées dans le premier onglet du workflow.
 >
 >Les activités de ciblage sont présentées dans [cette section](../../workflow/using/about-activities.md).
 
-Les processus de ciblage peuvent être créés et modifiés via le **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** noeud de l’arborescence Adobe Campaign ou via le **[!UICONTROL Profiles and Targets > Targeting workflows]** menu de la page d’accueil.
+Les workflows de ciblage peuvent être créés et édités à partir du noeud **[!UICONTROL Profils et Cibles > Traitements > Workflows de ciblage]** de l&#39;arborescence Adobe Campaign ou à partir du menu **[!UICONTROL Profils et Cibles > Workflows de ciblage]** de la page d&#39;accueil.
 
 ![](assets/target_wf.png)
 
@@ -165,7 +165,7 @@ Par exemple, pour sélectionner les clients détenteur d&#39;une assurance-vie d
 
 Lors de la sélection d&#39;une dimension de ciblage, seules les dimensions de filtrage compatibles sont proposées dans l&#39;interface.
 
-Ces deux dimensions doivent être liées. Ainsi, le contenu de la **[!UICONTROL Filtering dimension]** liste dépend de la dimension de ciblage spécifiée dans le premier champ.
+Ces deux dimensions doivent nécessairement avoir un lien. Ainsi, le contenu de la liste **[!UICONTROL Dimension de filtrage]** dépend de la dimension de ciblage indiquée dans le premier champ.
 
 Par exemple, pour les destinataires (**recipient**), les dimensions de filtrage disponibles seront les suivantes :
 
@@ -177,7 +177,7 @@ Tandis que pour les **Applications Web**, la liste proposera les dimensions de f
 
 ## Les workflows des opérations {#campaign-workflows}
 
-Pour chaque campagne, vous pouvez créer des processus à exécuter à partir de l’ **[!UICONTROL Targeting and workflows]** onglet. Ces processus sont spécifiques à la campagne.
+Pour chaque opération, vous pouvez créer des workflows à exécuter depuis l&#39;onglet **[!UICONTROL Ciblage et workflows]**. Ces workflows sont spécifiques aux opérations.
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
@@ -185,7 +185,7 @@ Cet onglet contient les mêmes activités que pour tous les processus. Elles son
 
 En plus des opérations de ciblage, les workflows des opérations permettent de créer et paramétrer intégralement des diffusions sur tous les canaux disponibles. Une fois créées dans un workflow, ces diffusions sont accessibles depuis le tableau de bord de l&#39;opération.
 
-Tous les processus de campagne sont centralisés sous le **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** noeud.
+Tous les workflows des opérations sont centralisés sous le noeud **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Workflows des opérations]**.
 
 ![](assets/campaigns_wf.png)
 
@@ -193,19 +193,19 @@ Les workflows des opérations et des exemples de mise en œuvre sont présentés
 
 ## Workflows techniques {#technical-workflows}
 
-Les processus techniques sont fournis prêts à l’emploi avec Adobe Campaign. Il s’agit d’opérations ou de tâches planifiées pour une exécution périodique sur le serveur. Ils vous permettent d’effectuer des opérations de maintenance sur la base de données, de transférer des informations sur les livraisons et de configurer des processus provisoires sur les livraisons. Les processus techniques sont configurés via le **[!UICONTROL Administration > Production > Technical workflows]** noeud.
+Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés périodiquement pour s&#39;exécuter sur le serveur. Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions. La configuration des workflows techniques est réalisée depuis le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
 
 ![](assets/navtree.png)
 
 Des modèles natifs sont disponibles pour créer des workflows techniques. Ils peuvent être paramétrés selon vos besoins.
 
-The **[!UICONTROL Campaign process]** subfolder centralizes the workflows required for executing processes within the campaigns: task notification, stock management, cost calculation, etc.
+Le sous-dossier **[!UICONTROL Processus de campagne]** centralise les workflows nécessaires à l&#39;exécution des traitements dans les opérations : notification des tâches, gestion des stocks, calcul des coûts, etc.
 
 >[!NOTE]
 >
 >La liste des workflows techniques installés avec chaque module est disponible dans une [section dédiée](../../workflow/using/about-technical-workflows.md).
 
-Vous pouvez créer d’autres processus techniques dans le **[!UICONTROL Administration > Production > Technical workflows]** noeud de l’arborescence. Ce processus est toutefois réservé aux utilisateurs expérimentés.
+Vous pouvez créer d&#39;autres workflows techniques dans le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l&#39;arborescence. Cette manipulation est toutefois réservée à des utilisateurs experts.
 
 Les activités proposées sont les mêmes que pour les processus de ciblage. For more on this, refer to [Implementation steps](#implementation-steps-).
 
@@ -215,7 +215,7 @@ Un modèle de workflow contient le paramétrage global des propriétés et éven
 
 Vous pouvez créer de nouveaux modèles de workflows à partir de modèles existants ou transformer directement un workflow en modèle.
 
-Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workflow templates]** node of the Adobe Campaign tree.
+Les modèles de workflows sont stockés dans le noeud **[!UICONTROL Ressources > Modèles > Modèles de workflow]** de l&#39;arborescence Adobe Campaign.
 
 ![](assets/s_advuser_wf_template_tree.png)
 
