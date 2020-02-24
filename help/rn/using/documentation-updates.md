@@ -48,9 +48,9 @@ La section Processus de nettoyage de base de données a été mise à jour. Les 
 
 Une limitation de la FDA sur HTTP a été ajoutée au guide de messagerie transactionnelle. [En savoir plus](../../production/using/database-cleanup-workflow.md)
 
-Des informations ont été ajoutées sur la nouvelle option qui vous permet de définir une période d’expiration pour les activités **[!UICONTROL JavaScript code]** et **[!UICONTROL Advanced JavaScript code]** le flux de travail. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
+Des informations ont été ajoutées sur la nouvelle option qui vous permet de définir un délai d’expiration pour le code **** JavaScript et les activités de flux de travail du code **[!UICONTROL JavaScript]** avancé. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
 
-Des informations ont été ajoutées sur la nouvelle **[!UICONTROL Start Pending]** vue disponible dans le noeud **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** . [En savoir plus](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+Des informations ont été ajoutées sur la nouvelle vue **[!UICONTROL Démarrer en attente]** disponible dans le noeud **[!UICONTROL Administration]** > **[!UICONTROL Audit]** **[!UICONTROL > État des flux de travail.]** [En savoir plus](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 Le guide [Envoi de notifications](../../delivery/using/about-mobile-app-channel.md) Push a été déplacé, réorganisé et amélioré avec des informations plus précises.
 
@@ -60,7 +60,7 @@ La page de la matrice **des fonctionnalités hébergées et sur site de** Campai
 
 La page de la matrice **des fonctionnalités de** Campaign Classic a été mise à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-Le nouveau **[!UICONTROL Cleanup of Nmsaddress]** processus a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
+Le nouveau **[!UICONTROL processus de nettoyage de Nmsaddress]** a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
 Une limitation a été ajoutée lors de l’utilisation d’une activité de requête dans un processus. [En savoir plus](../../workflow/using/query.md).
 
