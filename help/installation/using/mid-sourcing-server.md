@@ -63,7 +63,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
    For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 * Les étapes **6**,**9** et **10** ne sont pas nécessaires.
-* Au cours des étapes **12** et **13**, vous devez indiquer le port 8080 dans l’URL de connexion (puisque la console communique directement avec Tomcat et non via le serveur Web). L’URL devient [http://console.campaign.net:8080](http://console.campaign.net). Au cours de l’étape **13**, sélectionnez le **[!UICONTROL Issue towards Mid-sourcing]** pack ainsi que ceux à installer.
+* Lors des étapes **12** et **13**, vous devez indiquer le port 8080 dans l&#39;URL de connexion (car la console communique directement avec Tomcat sans passer par le serveur Web). L&#39;URL devient [http://console.campaign.net:8080](http://console.campaign.net). A l&#39;étape **13**, sélectionnez le package **[!UICONTROL Emission vers Mid-Sourcing]**, en complément des packages à installer.
 
    ![](assets/s_ncs_install_midsourcing02.png)
 
@@ -87,7 +87,7 @@ A partir de la console client, recherchez le routage des **courriels à l’aide
    >
    >Si vous installez un serveur de mid-sourcing et que vous souhaitez installer des modules Adobe Campaign supplémentaires, il est déconseillé de choisir le module Campaign. Préférez le module Delivery.
 
-   Follow the same procedure as for the standard deployment, selecting only the **[!UICONTROL Mid-sourcing platform]** option.
+   Suivez la même procédure que pour un déploiement standard en sélectionnant uniquement l&#39;option **[!UICONTROL Plate-forme de Mid-sourcing]**.
 
    ![](assets/s_ncs_install_midsourcing01.png)
 
@@ -105,20 +105,20 @@ A partir de la console client, recherchez le routage des **courriels à l’aide
 
 Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instances de soumission. Chaque instance pouvant effectuer des soumissions sera associée à un opérateur dans la base de mid-sourcing. Pour créer un second compte sur le serveur de mid-sourcing :
 
-1. Create a folder in the **[!UICONTROL Mid-sourcing > Deliveries]** node that will be associated with the default mid-sourcing account (for example: prod).
-1. Create a folder in the **[!UICONTROL Mid-sourcing > Deliveries]** node with the same name as the account (for example: acceptance_test).
+1. Créez un dossier sous le nœud **[!UICONTROL Mid-sourcing > Diffusions]** qui sera associé au compte mid-sourcing par défaut (par exemple : prod).
+1. Créez un dossier sous le nœud **[!UICONTROL Mid-sourcing > Diffusions]** qui aura le même nom que le compte (par exemple : recette).
 
    ![](assets/mid_recette_account.png)
 
-1. Dans **[!UICONTROL Mid-sourcing > Access Management > Operators]**, créez un compte.
+1. Créez un nouveau compte depuis le noeud **[!UICONTROL Mid-sourcing > Gestion des accès > Opérateurs]**.
 
    ![](assets/mid_recette_user_create.png)
 
-1. Dans l’ **[!UICONTROL Access rights]** onglet, attribuez à cet opérateur les droits du groupe d’envois **de** Mid-sourcing. Ce droit d&#39;accès est disponible dans **[!UICONTROL Mid-sourcing > Access Management > Operator groups]**.
+1. Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, attribuez à cet opérateur les droits du groupe **Soumissions mid-sourcing**. Ce droit d&#39;accès est accessible sous **[!UICONTROL Mid-sourcing > Gestion des accès > Groupes d&#39;opérateurs]**.
 
    ![](assets/mid_recette_user_rights.png)
 
-1. Sélectionnez l’ **[!UICONTROL Restrict to data in the sub-folders of]** option et sélectionnez le dossier des livraisons pour restreindre cet opérateur au dossier des livraisons de milieu de gamme.
+1. Sélectionnez l&#39;option **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]** et séléctionnez le dossier Diffusions pour restreindre l&#39;accès de cet opérateur au répertoire de diffusions mid-sourcing.
 
    ![](assets/mid_recette_user_restrictions.png)
 
@@ -147,18 +147,18 @@ Vous devez arrêter et redémarrer le serveur pour que cette modification soit p
 **Paramétrage du serveur de mid-sourcing**
 
 1. Positionnez-vous au niveau des opérateurs et sélectionnez l&#39;opérateur **[!UICONTROL mid]**.
-1. In the **[!UICONTROL Frontal servers]** tab, enter the tracking server connection parameters.
+1. Dans l&#39;onglet **[!UICONTROL Serveurs frontaux]** complétez les paramètres de connexion au serveur de tracking.
 
    Pour créer une instance de tracking, indiquez l&#39;URL du serveur de tracking, le mot de passe du compte internal du serveur de tracking, ainsi que le nom de l&#39;instance, son mot de passe et les masques DNS qui lui sont associés.
 
    ![](assets/s_ncs_install_midsourcing_tracking02.png)
 
-1. Après avoir saisi les paramètres de connexion, cliquez sur **[!UICONTROL Confirm the configuration]**.
+1. Lorsque vous avez complété les paramètres de connexion, cliquez sur **[!UICONTROL Valider le paramétrage]**.
 1. Si besoin est, définissez l&#39;emplacement où seront stockées les images contenues dans les diffusions. Pour cela, choisissez un des modes de publication disponible dans la liste déroulante.
 
    ![](assets/s_ncs_install_midsourcing_tracking03.png)
 
-   If you choose the **[!UICONTROL Tracking server(s)]** option, the images will be copied on the mid-sourcing server.
+   Si vous choisissez l&#39;option **[!UICONTROL Serveur(s) de tracking]**, les images seront forcément copiées sur le serveur de mid-sourcing.
 
 **Paramétrage de la plateforme cliente**
 
@@ -167,16 +167,16 @@ Vous devez arrêter et redémarrer le serveur pour que cette modification soit p
 
    ![](assets/s_ncs_install_midsourcing_tracking06.png)
 
-1. Confirmez votre configuration en cliquant sur **[!UICONTROL Test the connection]**.
+1. Validez votre paramétrage en cliquant sur **[!UICONTROL Tester la connexion]**.
 1. Déclarez l&#39;instance de tracking référencée sur le serveur de mid-sourcing :
 
-   Cliquez sur le lien **[!UICONTROL Use this platform as a platform to access the tracking servers]**,
+   Cliquez sur le lien **[!UICONTROL Utiliser cette plate-forme comme proxy pour accéder aux serveurs de tracking]**,
 
    Indiquez le nom de l&#39;instance de tracking, puis validez la connexion avec le serveur de tracking.
 
    ![](assets/s_ncs_install_midsourcing_tracking05.png)
 
-If the delivery of messages is to be managed by several mid-sourcing servers, select the option **[!UICONTROL Routing with alternating mid-sourcing accounts]** and specify the different servers.
+Si l&#39;envoi de messages doit être géré par plusieurs serveurs de mid-sourcing, sélectionnez l&#39;option **[!UICONTROL Routage avec alternance des comptes mid-sourcing utilisés]** et indiquez les différents serveurs.
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)
 
