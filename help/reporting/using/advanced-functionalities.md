@@ -30,7 +30,7 @@ Cette activité vous permet de traiter vos données et créer facilement des req
 
 Il vous suffit de taper votre requête dans la fenêtre de script.
 
-L’ **[!UICONTROL Texts]** onglet permet de définir des chaînes de texte.  Ils peuvent ensuite être utilisés avec la syntaxe suivante : **$(Identifiant)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajout d’un en-tête et d’un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+L’onglet **[!UICONTROL Textes]** permet de définir des chaînes de texte. Ils peuvent ensuite être utilisés avec la syntaxe suivante : **$(Identifiant)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajout d’un en-tête et d’un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 >[!CAUTION]
 >
@@ -49,7 +49,7 @@ Dans le cas contraire, les données en cours seront affichées.
 Vous pouvez ajouter un script externe qui sera exécuté côté serveur et/ou côté client. Pour cela :
 
 1. Editez les propriétés du rapport et cliquez sur l&#39;onglet **[!UICONTROL Scripts]**.
-1. Click **[!UICONTROL Add]** and select the script to be referenced.
+1. Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez le script à référencer.
 1. Choisissez ensuite le mode d&#39;exécution.
 
    Si vous ajoutez plusieurs scripts, utilisez les flèches de la barre d&#39;outils pour définir leur ordre d&#39;exécution.
