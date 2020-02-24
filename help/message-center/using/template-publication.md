@@ -32,13 +32,13 @@ Lorsque le modèle de message créé sur l&#39;instance de pilotage est finalis�
 >
 >Lors de la publication de modèles de messages transactionnels, les règles de typologie sont automatiquement publiées sur les instances d&#39;exécution.
 
-1. Dans l’instance de contrôle, accédez au **[!UICONTROL Message Center > Transactional message templates]** dossier de l’arborescence.
+1. Dans l&#39;instance de pilotage, positionnez-vous au niveau du dossier **[!UICONTROL Message Center > Modèle de messages transactionnels]** dans l&#39;arborescence.
 1. Sélectionnez le modèle que vous souhaitez publier sur vos instances d&#39;exécution.
-1. Clics **[!UICONTROL Publication]** .
+1. Cliquez sur **[!UICONTROL Publication]** .
 
    ![](assets/messagecenter_publish_model_008.png)
 
-Once publication is complete, both message templates to be applied to batch and real time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center > Default > Transactional message templates]** folder.
+Lorsque la publication est terminée, les deux modèles de messages destinés à être appliqués aux types d&#39;événements batch et temps réel sont créés dans l&#39;arborescence de l&#39;instance d&#39;exploitation dans le dossier **[!UICONTROL Administration > Exploitation > Message Center > Défaut > Modèles de messages transactionnels]**.
 
 ![](assets/messagecenter_deployed_model_001.png)
 
