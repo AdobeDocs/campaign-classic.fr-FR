@@ -22,7 +22,7 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
-Le **[!UICONTROL Administration / Platform / Options]** noeud vous permet de configurer les options Adobe Campaign.
+Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign.
 
 >[!NOTE]
 >
