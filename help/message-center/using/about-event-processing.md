@@ -39,12 +39,12 @@ Le processus de traitement des événements des messages transactionnels est le 
 
 ## Etat des événements {#event-statuses}
 
-L’historique **des**&#x200B;événements, sous **[!UICONTROL Message Center]** > **[!UICONTROL Event history]** , regroupe tous les événements traités en une seule vue. Ils peuvent être classés par type d’événement ou par **état**. Ces états sont les suivants :
+L&#39;**historique des événements** (sous **[!UICONTROL Message Center]** > **[!UICONTROL Historique des événements]**), regroupe dans une même vue tous les événements traités. Ils peuvent être catégorisés par type d&#39;événement ou par **statut**. Ces statuts sont les suivants :
 
 * **En attente** : l&#39;événement peut être :
 
-   * un événement qui vient d&#39;être collecté et qui n&#39;a pas encore été traité. La **[!UICONTROL Number of errors]** colonne affiche la valeur 0. Le modèle de courrier électronique n’a pas encore été lié.
-   * un événement traité mais dont la confirmation est erronée. La **[!UICONTROL Number of errors]** colonne affiche une valeur qui n’est pas 0. Pour savoir quand cet événement sera traité à nouveau, consultez la **[!UICONTROL Process requested on]** colonne.
+   * un événement qui vient d&#39;être collecté et qui n&#39;a pas encore été traité (la colonne **[!UICONTROL Nombre d&#39;erreurs]** a 0 de valeur). Le modèle d&#39;email n&#39;a pas encore été associé.
+   * un événement traité, mais dont la confirmation présente une erreur. La colonne **[!UICONTROL Nombre d&#39;erreurs]** a une valeur différente de 0. Pour savoir quand cet événement sera traité de nouveau, consultez la colonne **[!UICONTROL Traitement demandé le]**.
 
 * **En attente de diffusion** : l&#39;événement a été traité et le modèle de diffusion est associé. L&#39;email est en attente de diffusion. Le processus de diffusion classique est appliqué. Pour plus de détails, vous pouvez ouvrir la diffusion en question. Voir [Delivery](../../delivery/using/about-message-tracking.md).
 * **Envoyé**, **Ignoré** et **Erreur de diffusion** : ces statuts de diffusion sont récupérés par le workflow **updateEventsStatus** qui collecte les statuts des diffusions. Pour plus de détails, vous pouvez ouvrir la diffusion concernée.
