@@ -24,11 +24,11 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le corps du message, vous pouvez afficher l&#39;aperçu de votre message et vérifier la personnalisation de ce dernier.
 
-1. In the message template, click the **[!UICONTROL Preview]** tab.
+1. Dans le modèle de message, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]**.
 
    ![](assets/messagecenter_preview_001.png)
 
-1. Sélectionnez **[!UICONTROL A seed address]** dans la liste déroulante.
+1. Sélectionnez **[!UICONTROL Adresse de contrôle]** dans la liste déroulante.
 
    ![](assets/messagecenter_preview_002.png)
 
