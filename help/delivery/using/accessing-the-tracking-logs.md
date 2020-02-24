@@ -22,7 +22,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # Accéder aux logs de tracking{#accessing-the-tracking-logs}
 
-When the delivery has been sent and tracking activated, the **[!UICONTROL Tracking]** technical workflow is in charge of retrieving the tracking data. Il est exécuté toutes les heures par défaut.
+Une fois la diffusion envoyée et le tracking activé, le workflow technique **[!UICONTROL Tracking]** est chargé de récupérer les informations de tracking. Par défaut, il s&#39;exécute toutes les heures.
 
 Ces informations sont remontées dans l&#39;onglet **[!UICONTROL Tracking]** du profil des destinataires ciblés par la diffusion, comme dans l&#39;exemple suivant :
 
@@ -34,4 +34,4 @@ Elles sont également accessibles depuis l&#39;onglet **[!UICONTROL Tracking]** 
 
 >[!NOTE]
 >
->If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. Consultez [cette section](../../delivery/using/how-to-configure-tracked-links.md).
+>Si l&#39;onglet **[!UICONTROL Tracking]** d&#39;une diffusion n&#39;est pas visible, cela signifie que le tracking n&#39;a pas été activé. Consultez [cette section](../../delivery/using/how-to-configure-tracked-links.md).
