@@ -22,7 +22,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 Dans cet exemple, vous allez récupérer les destinataires non contactés au cours des 7 derniers jours. Cette requête concerne toutes les diffusions.
 
-Cet exemple montre également comment configurer un filtre lié au choix d&#39;un élément de collection (ou noeud orange). Les éléments Collection sont disponibles dans la **[!UICONTROL Field to select]** fenêtre.
+Ce cas indique par ailleurs comment paramétrer un filtrage découlant du choix d&#39;un élément de collection (ou noeud orange). Les éléments de collection sont disponibles dans la fenêtre **[!UICONTROL Champ à sélectionner]**.
 
 * Quelle table doit-on sélectionner ?
 
@@ -39,7 +39,7 @@ Cet exemple montre également comment configurer un filtre lié au choix d&#39;u
 Les étapes sont les suivantes :
 
 1. Ouvrez le Requêteur générique et sélectionnez la table des Destinataires **[!UICONTROL (nms:recipient)]**.
-1. Dans la **[!UICONTROL Data to extract]** fenêtre, sélectionnez **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** et **[!UICONTROL Email]**.
+1. Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les champs **[!UICONTROL Clé primaire]**, **[!UICONTROL Prénom]**, **[!UICONTROL Nom]** et **[!UICONTROL Email]**.
 
    ![](assets/query_editor_nveau_33.png)
 
@@ -47,20 +47,20 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_34.png)
 
-1. Dans la **[!UICONTROL Data filtering]** fenêtre, sélectionnez **[!UICONTROL Filtering conditions]**.
-1. Dans la **[!UICONTROL Target element]** fenêtre, la condition de filtrage pour l’extraction de profils sans journal de suivi au cours des 7 derniers jours implique deux étapes. L’élément que vous devez sélectionner est un lien de type &quot;plusieurs à plusieurs&quot;.
+1. Dans la fenêtre **[!UICONTROL Filtrage des données]**, choisissez **[!UICONTROL Critères de filtrage]**.
+1. Dans la fenêtre **[!UICONTROL Elément de la cible]**, la condition de filtrage qui permet d&#39;extraire de la base les profils qui n&#39;ont aucun log de tracking pour les 7 derniers jours est réalisée en deux étapes. En effet, l&#39;élément de collection que vous allez sélectionner est un lien n-n.
 
-   * Commencez par sélectionner l’élément **[!UICONTROL Recipient delivery logs (broadlog)]** Collection (noeud orange) pour la première **[!UICONTROL Value]** colonne.
+   * Tout d&#39;abord, sélectionnez l&#39;élément de collection (noeud orange) **[!UICONTROL Logs de diffusion des destinataires (broadlog)]** pour la première colonne **[!UICONTROL Valeur]**.
 
       ![](assets/query_editor_nveau_67.png)
 
-      Sélectionnez l’ **[!UICONTROL do not exist as]** opérateur. Il n’est pas nécessaire de sélectionner une seconde valeur dans cette ligne.
+      Sélectionnez l&#39;opérateur **[!UICONTROL n&#39;existent pas tel que]**. Il n&#39;y a pas de seconde valeur à sélectionner dans cette ligne.
 
-   * Le contenu de la seconde condition de filtrage dépend de la première. Ici, le **[!UICONTROL Event date]** champ est offert directement dans le **[!UICONTROL Recipient delivery logs]** tableau puisqu&#39;il existe un lien vers ce tableau.
+   * Le contenu de la seconde condition de filtrage découle directement du choix de la première. Ici, le champ **[!UICONTROL Date de l&#39;événement]** est directement proposé dans la table **[!UICONTROL Logs de diffusion des destinataires]** car un lien s&#39;opère vers cette table.
 
       ![](assets/query_editor_nveau_36.png)
 
-      Sélectionnez **[!UICONTROL Event date]** l’opérateur **[!UICONTROL greater than or equal to]** . Sélectionnez la **[!UICONTROL DaysAgo (7)]** valeur. Pour ce faire, cliquez sur **[!UICONTROL Edit expression]** dans le **[!UICONTROL Value]** champ. Dans la **[!UICONTROL Formula type]** fenêtre, sélectionnez **[!UICONTROL Process on dates]** et **[!UICONTROL Current date minus n days]**, en indiquant &quot;7&quot; comme valeur.
+      Sélectionnez **[!UICONTROL Date de l&#39;événement]** avec l&#39;opérateur **[!UICONTROL supérieur ou égal à]**. Sélectionnez la valeur **[!UICONTROL DaysAgo (7)]**. Pour cela, cliquez sur **[!UICONTROL Editer l&#39;expression]** dans le champ **[!UICONTROL Valeur]**. Dans la fenêtre **[!UICONTROL Type de formule]**, sélectionnez **[!UICONTROL Traitement sur les dates]** puis **[!UICONTROL Date courante moins n jours]** et saisissez la valeur &quot;7&quot;.
 
       ![](assets/query_editor_nveau_37.png)
 
@@ -68,13 +68,13 @@ Les étapes sont les suivantes :
 
       ![](assets/query_editor_nveau_38.png)
 
-1. Dans la **[!UICONTROL Data formatting]** fenêtre, basculez les noms en majuscules. Cliquez sur la **[!UICONTROL Last name]** ligne dans la **[!UICONTROL Transformation]** colonne et sélectionnez **[!UICONTROL Switch to upper case]** dans le menu déroulant.
+1. Dans la fenêtre **[!UICONTROL Formatage des données]**, modifiez la casse des noms : ils doivent s&#39;afficher en majuscules. Cliquez sur la ligne du **[!UICONTROL Nom]** dans la colonne **[!UICONTROL Transformation]** et choisissez **[!UICONTROL Passer en majuscules]** dans le menu déroulant.
 
    ![](assets/query_editor_nveau_39.png)
 
-1. Utilisez la **[!UICONTROL Add a calculated field]** fonction pour insérer une colonne dans la fenêtre d’aperçu des données.
+1. Utilisez la fonction **[!UICONTROL Ajouter un champ calculé]** pour insérer une colonne dans la fenêtre de prévisualisation des données.
 
-   Dans cet exemple, ajoutez un champ calculé avec les prénoms et les noms des destinataires dans une seule colonne. Cliquez sur la **[!UICONTROL Add a calculated field]** fonction. Dans la **[!UICONTROL Export calculated field definition]** fenêtre, saisissez une étiquette et un nom interne, puis choisissez le **[!UICONTROL JavaScript Expression]** type. Saisissez ensuite l’expression suivante :
+   Dans cet exemple, ajoutez un champ calculé qui regroupe le prénom et le nom des destinataires dans une seule colonne. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**. Dans la fenêtre **[!UICONTROL Définition d&#39;un champ calculé d&#39;export]**, saisissez un libellé et un nom interne puis choisissez le type **[!UICONTROL Expression JavaScript]**. Entrez l&#39;expression ci-dessous :
 
    ```
    var rep = source._firstName+" - "+source._lastName
@@ -83,10 +83,10 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_40.png)
 
-   Clics **[!UICONTROL OK]**. La **[!UICONTROL Data formatting]** fenêtre est configurée.
+   Cliquez sur **[!UICONTROL OK]**. La fenêtre **[!UICONTROL Formatage des données]** est paramétrée.
 
    Pour plus d&#39;informations sur l&#39;ajout de champs calculés, consultez cette section.
 
-1. Le résultat s’affiche dans la **[!UICONTROL Data preview]** fenêtre. Les destinataires qui n’ont pas été contactés au cours des 7 derniers jours sont affichés par ordre alphabétique. Les noms sont affichés en majuscules et la colonne avec les prénoms et les noms de famille a été créée.
+1. Le résultat s&#39;affiche dans la fenêtre **[!UICONTROL Prévisualisation des données]**. Les destinataires non contactés dans les 7 jours antérieurs à la date courante sont affichés. Ils sont ordonnés alphabétiquement. Les noms sont en majuscules. La colonne supplémentaire qui regroupe les prénoms et les noms est bien là.
 
    ![](assets/query_editor_nveau_41.png)
