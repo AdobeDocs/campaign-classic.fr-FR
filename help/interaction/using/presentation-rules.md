@@ -28,8 +28,8 @@ Dans votre base, vous disposez de plusieurs offres de voyages pour l&#39;Europe,
 
 Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au Canada qu&#39;une seule fois à un destinataire et à ne pas lui reproposer s&#39;il l&#39;a déjà refusé.
 
-1. Dans l’arborescence d’Adobe Campaign, accédez au noeud **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** .
-1. Create a new **[!UICONTROL Offer presentation]** type rule.
+1. Dans l&#39;arborescence Adobe Campaign, positionnez-vous au niveau du noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagnes]** > **[!UICONTROL Gestion des typologies]** > **[!UICONTROL Règles de typologie]**.
+1. Créez une nouvelle règle de type **[!UICONTROL Présentation des offres]**.
 
    ![](assets/offer_typology_example_001.png)
 
@@ -37,11 +37,11 @@ Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au 
 
    ![](assets/offer_typology_example_002.png)
 
-1. Choose the **[!UICONTROL All channels]** option to extend the rule to all channels.
+1. Sélectionnez l&#39;option **[!UICONTROL Tous les canaux]** afin que la règle ne se limite pas à un seul canal.
 
    ![](assets/offer_typology_example_003.png)
 
-1. Click the **[!UICONTROL Edit expression]** link and choose the **[!UICONTROL Category]** node as an expression.
+1. Cliquez sur le lien **[!UICONTROL Critères d&#39;application de la règle]** et choisissez le noeud **[!UICONTROL Catégorie]** comme expression.
 
    ![](assets/offer_typology_example_004.png)
 
@@ -49,7 +49,7 @@ Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au 
 
    ![](assets/offer_typology_example_005.png)
 
-1. In the **[!UICONTROL Offer presentation]** tab, choose the same dimensions as those configured in the environment.
+1. Dans l&#39;onglet **[!UICONTROL Présentation des offres]**, sélectionnez les mêmes dimensions que celles paramétrées au niveau de l&#39;environnement.
 
    ![](assets/offer_typology_example_006.png)
 
@@ -61,11 +61,11 @@ Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au 
 
    ![](assets/offer_typology_example_008.png)
 
-1. Sélectionnez le **[!UICONTROL Offers for the same category]** filtre pour exclure toutes les offres de la catégorie **Canada** .
+1. Sélectionnez le filtre **[!UICONTROL Les offres de la même catégorie]** afin d&#39;exclure toute offre provenant de la catégorie **Canada**.
 
    ![](assets/offer_typology_example_020.png)
 
-1. Select the **[!UICONTROL Rejected propositions]** filter to take into account only propositions rejected by the recipient.
+1. Sélectionnez le filtre **[!UICONTROL Propositions refusées]** afin de ne prendre en compte que les propositions refusées par le destinataire.
 
    ![](assets/offer_typology_example_021.png)
 
@@ -79,7 +79,7 @@ Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au 
 
    ![](assets/offer_typology_example_013.png)
 
-1. Go to the offer environment, (**Environment - Recipient** in this case) and reference the new typology just created using the drop-down list in the **[!UICONTROL Eligibility]** tab.
+1. Positionnez-vous au niveau de votre environnement d&#39;offres, soit **Environnement - Destinataire** dans notre exemple, et référencez la typologie que vous venez de créer à l&#39;aide de la liste déroulante de l&#39;onglet **[!UICONTROL Eligibilité]**.
 
    ![](assets/offer_typology_example_014.png)
 
@@ -89,7 +89,7 @@ Voici un exemple d&#39;application de la règle de typologie créée précédemm
 
 Vous allez faire une première proposition d&#39;offre appartenant, entre autre, à la catégorie de voyages pour le Canada. Si l&#39;offre est refusée par un des destinataires une première fois, elle n&#39;est pas reproposée au destinataire qui l&#39;a refusée.
 
-1. In the **Frequent travelers** recipient folder, choose one of the profiles to check the offers for which they are eligible: click the **[!UICONTROL Propositions]** tab, then the **[!UICONTROL Preview]** tab.
+1. Dans le dossier de destinataires **Grands voyageurs**, sélectionnez un des profils pour vérifier les offres auxquelles il est éligible : cliquez sur l&#39;onglet **[!UICONTROL Propositions]**, puis le sous-onglet **[!UICONTROL Prévisualisation]**.
 
    Dans notre exemple, le destinataire **Nicolas Lumos** est éligible à une offre qui fait partie de la catégorie **Canada**.
 
