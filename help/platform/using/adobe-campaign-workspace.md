@@ -62,15 +62,15 @@ Les différentes fonctionnalités de la plate-forme sont réparties dans les fon
 
 La liste des fonctions principales auxquelles vous pouvez accéder dépend des packages et des composants additionnels installés, ainsi que de vos droits d&#39;accès.
 
-Chaque fonctionnalité comprend un ensemble de fonctionnalités basées sur les besoins liés aux tâches et le contexte d’utilisation. Par exemple, le **[!UICONTROL Profiles and targets]** lien vous conduit aux listes de destinataires, aux services d’abonnement, aux processus de ciblage existants et aux raccourcis pour créer ces éléments.
+Chaque fonction propose un ensemble de fonctionnalités, organisé selon les besoins métiers relatifs au contexte d&#39;utilisation. Ainsi, le lien **[!UICONTROL Profils et cibles]** vous permet par exemple d&#39;accéder aux listes de destinataires, services d&#39;abonnement, workflows de ciblage existants, ainsi qu&#39;aux raccourcis pour créer ces éléments.
 
-The lists are available via the **[!UICONTROL Lists]** link in the left-hand section of the **[!UICONTROL Profiles and Targets]** interface.
+Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** proposé dans la section gauche de l&#39;interface **[!UICONTROL Profils et cibles]**.
 
 ![](assets/recipient_list_overview.png)
 
 ### Utiliser les onglets {#using-tabs}
 
-* Lorsque vous cliquez sur une fonctionnalité principale ou sur un lien, la page appropriée remplace la page active. Pour revenir à la page précédente, cliquez sur le **[!UICONTROL Back]** bouton de la barre d’outils. Pour revenir à la page d&#39;accueil, cliquez sur le **[!UICONTROL Home]** bouton.
+* Lorsque vous cliquez sur une fonction principale ou un lien, la page correspondante vient remplacer la page courante. Pour retourner sur la page précédente, utilisez le bouton **[!UICONTROL Retour]** de la barre d&#39;outils. Pour revenir à la page d&#39;accueil, cliquez sur le bouton **[!UICONTROL Accueil]**.
 
    ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
@@ -80,11 +80,11 @@ The lists are available via the **[!UICONTROL Lists]** link in the left-hand sec
 
 ### Créer un élément {#creating-an-element}
 
-Chaque section de fonctionnalités principales vous permet de parcourir les éléments disponibles. Pour ce faire, utilisez les raccourcis de la **[!UICONTROL Browsing]** section. Le **[!UICONTROL Other choices]** lien vous permet d’accéder à toutes les autres pages, quel que soit l’environnement.
+Dans chaque section des fonctions principales, vous pouvez naviguer parmi les éléments disponibles. Pour cela, utilisez les raccourcis proposés dans la section **[!UICONTROL Navigation]**. Le lien **[!UICONTROL Autres choix]** permet d&#39;accéder à toutes les autres pages, indépendamment de celles de la fonction courante.
 
-Vous pouvez créer un élément (diffusion, application Web, flux de travail, etc.) à l’aide des raccourcis de la **[!UICONTROL Create]** section située à gauche de l’écran. Utilisez le **[!UICONTROL Create]** bouton au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
+Vous pouvez créer un nouvel élément (diffusion, application web, workflow, etc.) à partir des raccourcis proposés dans la section **[!UICONTROL Créer]** située dans la partie gauche de l&#39;écran. Utilisez le bouton **[!UICONTROL Créer]** situé au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
 
-For example, on the delivery page, use the **[!UICONTROL Create]** button to create a new delivery.
+Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTROL Créer]** pour créer une nouvelle diffusion.
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
@@ -94,7 +94,7 @@ For example, on the delivery page, use the **[!UICONTROL Create]** button to cre
 
 L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctions d&#39;Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plate-forme.
 
-The **[!UICONTROL Explorer]** workspace is divided into three zones:
+L&#39;espace de travail **[!UICONTROL Explorateur]** est divisé en trois zones :
 
 ![](assets/s_ncs_user_navigation.png)
 
@@ -112,7 +112,7 @@ Pour une navigation et une convivialité optimales, Adobe recommande l&#39;utili
 >
 >Les résolutions inférieures à 1 600x900 pixels peuvent ne pas être prises en charge par Adobe Campaign.
 
-In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL Details]** zone appear to be truncated, expand it using the arrow on top of the zone or click the **[!UICONTROL Enlarge]** button.
+Dans l&#39;espace de travail de l&#39;**[!UICONTROL Explorateur]**, si certaines parties de la zone **[!UICONTROL Détails]** semblent tronquées, développez-la à l&#39;aide de la flèche située en haut de la zone ou cliquez sur le bouton **[!UICONTROL Agrandir]**.
 
 ![](assets/s_ncs_user_resolution.png)
 
@@ -130,7 +130,7 @@ Pour naviguer dans une liste, vous pouvez utiliser **les ascenseurs** (barres de
 
 Par défaut, Adobe Campaign charge en mémoire les 200 premiers enregistrements d&#39;une liste. Par conséquent, l&#39;affichage ne propose pas nécessairement l&#39;intégralité des enregistrements de la table dont vous affichez le contenu. Vous pouvez lancer un décompte du nombre d&#39;enregistrements de la liste et déclencher le chargement en mémoire d&#39;enregistrements supplémentaires.
 
-In the lower right-hand part of the list screen, a **[!UICONTROL counter]** shows how many records have been loaded and the total number of records in the database (after applying any filters):
+En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique le nombre d&#39;enregistrements chargés en mémoire par rapport au nombre total d&#39;enregistrements dans la base (après application de tous les filtres éventuels) :
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
@@ -138,11 +138,11 @@ Si un &quot;**?**&quot; apparaît à la place du nombre de droite, cliquez sur l
 
 ### Charger d&#39;autres enregistrements {#loading-more-records}
 
-To load (and therefore display) additional records (200 lines by default) click **[!UICONTROL Continue loading]**.
+Pour charger (et donc afficher) des enregistrements supplémentaires (par défaut, 200 lignes), cliquez sur le bouton **[!UICONTROL Continuer le chargement]**.
 
 ![](assets/s_ncs_user_load_list.png)
 
-To load all the records, right-click the list and select **[!UICONTROL Load all]**.
+Si vous souhaitez charger l&#39;intégralité des enregistrements, cliquez dans la liste avec le bouton droit et sélectionnez **[!UICONTROL Tout charger]**.
 
 >[!CAUTION]
 >
@@ -150,7 +150,7 @@ To load all the records, right-click the list and select **[!UICONTROL Load all]
 
 ### Modifier le nombre d&#39;enregistrements par défaut {#change-default-number-of-records}
 
-To change the default number of records loaded, click **[!UICONTROL Configure list]** in the bottom right-hand corner of the list.
+Pour modifier le nombre d&#39;enregistrements chargés par défaut, cliquez sur le bouton **[!UICONTROL Configurer la liste]**, en bas à droite de la liste.
 
 ![](assets/s_ncs_user_configure_list.png)
 
@@ -167,7 +167,7 @@ Deux méthodes permettent d&#39;ajouter une colonne à une liste.
 Vous pouvez ajouter rapidement une colonne à une liste à partir du détail d’un enregistrement. Pour cela :
 
 1. Depuis un écran de détail, cliquez avec le bouton droit sur le champ à afficher dans une colonne.
-1. Sélectionner **[!UICONTROL Add in the list]**.
+1. Sélectionnez **[!UICONTROL Ajouter dans la liste]**.
 
    La colonne est ajoutée à droite des colonnes déjà affichées.
 
@@ -175,11 +175,11 @@ Vous pouvez ajouter rapidement une colonne à une liste à partir du détail d�
 
 Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher des données qui ne sont pas affichées sur l&#39;écran de détail, consiste à utiliser la fenêtre de configuration de liste. Pour cela :
 
-1. Click **[!UICONTROL Configure list]** below and to the right of the list.
+1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]**.
+1. Dans la fenêtre de configuration de la liste, double-cliquez parmi les **[!UICONTROL Champs disponibles]** sur le champ à ajouter à la liste afin de l&#39;ajouter aux **[!UICONTROL Colonnes de sortie]**.
 
    ![](assets/s_ncs_user_configurelist.png)
 
@@ -201,7 +201,7 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
 
    ![](assets/s_ncs_user_columns_order_down.png)
 
-1. If you need, you can click **[!UICONTROL Distribution of values]** to view the repartition of values for the selected field in the current folder.
+1. Au besoin, vous pouvez cliquer sur **[!UICONTROL Répartition des valeurs]** pour visualiser la répartition des valeurs du champ sélectionné dans le dossier courant.
 
    ![](assets/s_ncs_user_configurelist_values.png)
 
@@ -211,20 +211,20 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
 
 Vous pouvez créer de nouvelles colonnes pour afficher des champs supplémentaires dans la liste. Pour cela :
 
-1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
-1. Click **[!UICONTROL Add]** to display a new field in the list.
+1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
+1. Cliquez sur **[!UICONTROL Ajouter]** pour afficher un nouveau champ dans la liste.
 
 #### Retirer une colonne {#remove-a-column}
 
-You can mask one or more columns in a list of records using **[!UICONTROL Configure list]** located below and to the right of the list.
+Vous pouvez masquer une ou plusieurs colonnes dans une liste d&#39;enregistrements via le bouton **[!UICONTROL Configurer la liste]** situé en bas à droite de la liste.
 
 ![](assets/s_ncs_user_configure_list.png)
 
-In the list configuration window, select the column to be masked from the **[!UICONTROL Output columns]** zone, and click the delete button.
+Dans la fenêtre de configuration de la liste, sélectionnez la colonne à masquer dans la zone **[!UICONTROL Colonnes de sortie]** et cliquez sur le bouton de suppression.
 
 ![](assets/s_ncs_user_removecolumn_icon.png)
 
-Répétez cette opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
+Répétez l&#39;opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
 
 #### Ajuster la largeur des colonnes {#adjust-column-width}
 
@@ -237,7 +237,7 @@ Les listes peuvent afficher :
 * soit les enregistrements contenus dans le dossier sélectionné uniquement,
 * soit les enregistrements du dossier sélectionné ET ceux de ses sous-dossiers.
 
-To switch from one display mode to the other, click **[!UICONTROL Display sub-levels]** in the toolbar.
+Pour basculer d&#39;un mode d&#39;affichage à l&#39;autre, cliquer sur l&#39;icône **[!UICONTROL Afficher les fils]** dans la barre d&#39;outils.
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
@@ -256,24 +256,24 @@ Par exemple, pour un dossier de diffusions, il est possible de paramétrer l&#39
 Pour enregistrer cette configuration de liste en vue de la réutiliser, procédez comme suit :
 
 1. Cliquez avec le bouton droit sur le dossier contenant les données affichées.
-1. Sélectionner **[!UICONTROL Properties]**.
-1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field.
+1. Sélectionnez **[!UICONTROL Propriétés]**.
+1. Cliquez sur **[!UICONTROL Paramètres avancés]** et indiquez un nom dans le champ **[!UICONTROL Configuration]**.
 
    ![](assets/s_ncs_user_folder_save_config_2.png)
 
-1. Cliquez sur **[!UICONTROL OK]** , puis sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL OK]**, puis sur **[!UICONTROL Enregistrer]**.
 
 Vous pouvez ensuite appliquer cette configuration à un autre dossier de type **Diffusions** :
 
 ![](assets/s_ncs_user_folder_save_config_3.png)
 
-Cliquez sur **[!UICONTROL Save]** dans la fenêtre des propriétés du dossier. L’affichage de la liste est modifié pour correspondre à la configuration spécifiée :
+Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du dossier. L&#39;affichage de la liste est modifié pour correspondre à la configuration indiquée :
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
 ### Exporter une liste {#exporting-a-list}
 
-To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
+Pour exporter les données d&#39;une liste, vous devez utiliser l&#39;assistant d&#39;export. Pour y accèder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
 
 L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expliquée dans la rubrique Importations et exportations [génériques](../../platform/using/generic-imports-and-exports.md).
 
@@ -289,11 +289,11 @@ Cliquez sur l&#39;en-tête de la colonne pour appliquer un tri ascendant, un tri
 
 Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour cela, procédez comme suit :
 
-1. **[!UICONTROL Configure list]** en bas et à droite de la liste.
+1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. In the list configuration window, click the **[!UICONTROL Sorting]** tab.
+1. Dans la fenêtre de configuration de la liste, cliquez sur l&#39;onglet **[!UICONTROL Tris]**.
 1. Sélectionnez les champs à trier et le sens du tri (ascendant/descendant).
 
    ![](assets/s_ncs_user_configurelist_sort.png)
@@ -308,7 +308,7 @@ Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour
 
 ### Lancer une recherche {#running-a-search}
 
-Vous pouvez exécuter une recherche des champs disponibles dans un éditeur à l’aide du **[!UICONTROL Search]** champ situé au-dessus de la liste des champs. Appuyez sur **Entrée** sur le clavier ou parcourez la liste. Les champs correspondant à votre recherche auront des libellés en gras.
+Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à partir du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre recherche apparaissent en gras.
 
 >[!NOTE]
 >
@@ -353,24 +353,24 @@ Les principales différences entre l&#39;anglais américain et l&#39;anglais bri
 
 ### Ajouter des valeurs dans une énumération {#add-values-in-an-enumeration}
 
-A l’aide des champs d’entrée avec une liste déroulante, vous pouvez entrer une valeur d’énumération qui peut être stockée puis proposée en tant qu’option dans la liste déroulante. Par exemple, dans le **[!UICONTROL City]** champ de l’ **[!UICONTROL General]** onglet d’un profil de destinataire, vous pouvez entrer à Londres. Lorsque vous appuyez sur Entrée pour confirmer cette valeur, un message vous demande si vous souhaitez enregistrer cette valeur pour l’énumération associée au champ.
+Lorsque vous utilisez des champs de saisie avec une liste déroulante, vous pouvez saisir une valeur d’énumération qui peut être stockée et proposée comme option dans la liste déroulante. Par exemple, dans le champ **[!UICONTROL Ville]** de l’onglet **[!UICONTROL Général]** d’un profil de destinataire, vous pouvez saisir Londres. Lorsque vous appuyez sur Entrée pour confirmer cette valeur, un message vous demande si vous souhaitez l’enregistrer pour l’énumération associée au champ.
 
 ![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
 
-If you click **[!UICONTROL Yes]**, this value will be available in the combo box of the relevant field (in this case: **[!UICONTROL London]**).
+Si vous cliquez sur **[!UICONTROL Oui]**, cette valeur sera disponible dans la liste déroulante du champ correspondant (ici : **[!UICONTROL Londres]**).
 
 >[!NOTE]
 >
->Les énumérations (également appelées &quot;listes détaillées&quot;) sont gérées par l’administrateur via la **[!UICONTROL Administration > Platform > Enumerations]** section. For more on this, refer to [Managing enumerations](../../platform/using/managing-enumerations.md).
+>Les énumérations (également appelées &quot;listes détaillées&quot;) sont gérées par l’administrateur via la section **[!UICONTROL Administration > Plateforme > Enumérations]** . For more on this, refer to [Managing enumerations](../../platform/using/managing-enumerations.md).
 
 ### Unités par défaut {#default-units}
 
 Dans les champs qui expriment une durée (par exemple : période de validité des ressources d&#39;une diffusion, délai de validation d&#39;une tâche, etc.), la valeur peut être exprimée dans les **unités** suivantes :
 
-* **[!UICONTROL s]** pendant les secondes,
-* **[!UICONTROL mn]** pendant quelques minutes,
-* **[!UICONTROL h]** pendant des heures,
-* **[!UICONTROL d]** pendant des jours.
+* **[!UICONTROL s]** pour les secondes,
+* **[!UICONTROL mn]** pour les minutes,
+* **[!UICONTROL h]** pour les heures,
+* **[!UICONTROL j]** pour les jours.
 
 ![](assets/enter_unit_sample.png)
 
