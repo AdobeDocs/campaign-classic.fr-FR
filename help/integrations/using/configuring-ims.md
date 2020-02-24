@@ -39,13 +39,13 @@ Pour utiliser cette fonctionnalité, vous devez impérativement installer la ver
 
 ## Installer le package {#installing-the-package}
 
-Vous devez installer le **[!UICONTROL Integration with the Adobe Experience Cloud]** package. L’installation d’un package d’intégration est identique à l’installation d’un package standard, qui est détaillée dans [cette page](../../installation/using/installing-campaign-standard-packages.md).
+Vous devez installer le package **[!UICONTROL Intégration avec Adobe Experience Cloud]**. L’installation d’un package d’intégration est identique à l’installation d’un package standard, détaillée sur [cette page](../../installation/using/installing-campaign-standard-packages.md).
 
 ![](assets/ims_6.png)
 
 ## Configurer le compte externe {#configuring-the-external-account}
 
-Configurez le compte externe **Adobe Experience Cloud** dans **[!UICONTROL Administration > Platform > External accounts]**.
+Configurez le compte externe **Adobe Experience Cloud** dans **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
 
 >[!CAUTION]
 >
@@ -57,9 +57,9 @@ Renseignez les informations suivantes :
 
 * les informations de connexion au serveur IMS utilisé (identifiant et secret). Ces informations sont fournies par le support Adobe. Pour plus d&#39;informations, consultez la [FAQ Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html).
 
-   L&#39; **[!UICONTROL Callback server]** adresse doit être spécifiée dans **https**. Ce champ correspond à l’URL d’accès de votre instance Adobe Campaign.
+   L&#39;adresse du **[!UICONTROL Serveur de rappel]** (callback server) doit être indiquée en **https**. Ce champ correspond à l&#39;URL d&#39;accès à votre instance Adobe Campaign.
 
-* IMS organization ID: this information is available on the Experience Cloud (in **[!UICONTROL Administration > Experience Cloud Details]** ) and is provided when you first connect to the Adobe Experience Cloud.
+* l’identifiant de l’organisation IMS : cette information est disponible dans Experience Cloud (dans **[!UICONTROL Administration > Détails Experience Cloud]**). Elle est fournie lors de votre première connexion à Adobe Experience Cloud.
 * le masque de correspondance : ce champ permet de définir la syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes d&#39;Adobe Campaign. Si vous utilisez la syntaxe &quot;Campaign - tenant_id - (.*)&quot;, le groupe de sécurité créé dans Adobe Campaign sera associé au nom de configuration &quot;Campaign - tenant_id - internal_name&quot; dans Enterprise Dashboard.
 
    >[!CAUTION]
