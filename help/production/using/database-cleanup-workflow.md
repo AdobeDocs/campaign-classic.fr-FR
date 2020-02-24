@@ -24,7 +24,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ## Introduction {#introduction}
 
-Le **[!UICONTROL Database cleanup]** flux de travail accessible via le **[!UICONTROL Administration > Production > Technical workflows]** noeud permet de supprimer des données obsolètes afin d’éviter une croissance exponentielle de la base de données. Le processus est déclenché automatiquement sans intervention de l’utilisateur.
+Le workflow **[!UICONTROL Nettoyage de la base]** (cleanup), accessible à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]**, permet de supprimer les données obsolètes afin d&#39;éviter une croissance exponentielle de la base. Le workflow se déclenche de manière automatique sans intervention de l&#39;utilisateur.
 
 ![](assets/ncs_cleanup_workflow.png)
 
@@ -38,26 +38,26 @@ Le paramétrage du nettoyage de la base s&#39;effectue à deux niveaux : dans le
 >
 >Pour plus d’informations sur le planificateur, reportez-vous à [cette section](../../workflow/using/scheduler.md).
 
-Par défaut, le **[!UICONTROL Database cleanup]** processus est configuré pour démarrer tous les jours à 4 heures du matin. Le planificateur vous permet de modifier la fréquence de déclenchement du processus. Les fréquences suivantes sont disponibles :
+Par défaut, le workflow **[!UICONTROL Nettoyage de la base]** est paramétré pour se déclencher tous les jours, à 4 heures du matin. Le planificateur vous permet de modifier la fréquence de déclenchement du workflow. Les fréquences disponibles sont les suivantes :
 
-* **[!UICONTROL Several times a day]**
-* **[!UICONTROL Daily]**
-* **[!UICONTROL Weekly]**
-* **[!UICONTROL Once]**
+* **[!UICONTROL Plusieurs fois par jour]**
+* **[!UICONTROL Quotidien]**
+* **[!UICONTROL Hebdomadaire]**
+* **[!UICONTROL Une seule fois]**
 
 ![](assets/ncs_cleanup_scheduler.png)
 
 >[!CAUTION]
 >
->Pour que le **[!UICONTROL Database cleanup]** flux de travaux commence à la date et à l’heure définies dans le planificateur, le moteur de flux de travaux (wfserver) doit être démarré. Si ce n&#39;est pas le cas, le nettoyage de la base de données n&#39;aura lieu qu&#39;au prochain démarrage du moteur de flux de travail.
+>Pour que le workflow **[!UICONTROL Nettoyage de la base]** puisse se lancer à la date et heure définies dans le planificateur, le moteur de workflow (wfserver) doit être démarré. Si ce n&#39;est pas le cas, le nettoyage de la base se déclenchera au prochain démarrage du moteur de workflow.
 
 ### L&#39;assistant de déploiement {#deployment-wizard}
 
-Le **[!UICONTROL Deployment wizard]** , accessible par le **[!UICONTROL Tools > Advanced]** menu, vous permet de configurer la durée d’enregistrement des données. Les valeurs sont exprimées en jours. Si ces valeurs ne sont pas modifiées, le processus utilise les valeurs par défaut.
+L&#39;**[!UICONTROL Assistant de déploiement]**, accessible à partir du menu **[!UICONTROL Outils > Avancé]**, vous permet de paramétrer la durée pendant laquelle certaines données sont conservées. Les valeurs sont exprimées en jours. Si ces valeurs ne sont pas modifiées, le workflow utilisera les valeurs par défaut.
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
-Les champs de la **[!UICONTROL Purge of data]** fenêtre coïncident avec les options suivantes. Elles sont utilisées par certaines des tâches exécutées par le **[!UICONTROL Database cleanup]** processus :
+Les champs de la fenêtre **[!UICONTROL Purge des données]** correspondent aux options suivantes. Ces options sont utilisées par certaines des tâches exécutées par le workflow **[!UICONTROL Nettoyage de la base]** :
 
 * Suivi consolidé : **NmsCleanup_TrackingStatPurgeDelay** (voir [Nettoyage des journaux](#cleanup-of-tracking-logs)de suivi)
 * Journaux de remise : **NmsCleanup_BroadLogPurgeDelay** (voir [Nettoyage des journaux](#cleanup-of-delivery-logs)de remise)
@@ -69,18 +69,18 @@ Les champs de la **[!UICONTROL Purge of data]** fenêtre coïncident avec les op
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Offer propositions]** field is only available when the **Interaction** module is installed.
+   >Le champ **[!UICONTROL Propositions d&#39;offres]** est uniquement disponible si le module **Interaction** est installé.
 
 * Evénements : **NmsCleanup_EventPurgeDelay** (voir [Nettoyage des événements](#cleansing-expired-events)expirés)
 * Evénements archivés : **NmsCleanup_EventHistoPurgeDelay** (voir [Nettoyage des événements](#cleansing-expired-events)expirés)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Events]** and **[!UICONTROL Archived events]** fields are only available if the **Message Center** module is installed.
+   >Les champs **[!UICONTROL Evénements]** et **[!UICONTROL Evénements historisés]** sont uniquement disponibles si le module **Message Center** est installé.
 
 * Piste d’audit : **XtkCleanup_AuditTrailPurgeDelay** (voir [Nettoyage de la piste](#cleanup-of-audit-trail)d’audit)
 
-All tasks executed by the **[!UICONTROL Database cleanup]** workflow are described in the following section.
+L&#39;ensemble des tâches exécutées par le workflow **[!UICONTROL Nettoyage de la base]** sont décrites dans la section qui suit.
 
 ## Tâches effectuées par le workflow Nettoyage de la base {#tasks-carried-out-by-the-database-cleanup-workflow}
 
@@ -97,7 +97,7 @@ All tasks executed by the **[!UICONTROL Database cleanup]** workflow are describ
 
 ### Nettoyage des listes à supprimer {#lists-to-delete-cleanup}
 
-La première tâche exécutée par le **[!UICONTROL Database cleanup]** processus supprime tous les groupes avec **deleteStatus != attribut 0** du **NmsGroup**. Les enregistrements liés à ces groupes et qui existent dans d&#39;autres tableaux sont également supprimés.
+La première tâche exécutée par le processus de nettoyage **[!UICONTROL de la]** base de données supprime tous les groupes avec **deleteStatus != attribut 0** du **NmsGroup**. Les enregistrements liés à ces groupes et qui existent dans d&#39;autres tableaux sont également supprimés.
 
 1. Les listes à supprimer sont récupérées à l&#39;aide de la requête SQL suivante :
 
@@ -131,9 +131,9 @@ La première tâche exécutée par le **[!UICONTROL Database cleanup]** processu
 
 Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
-1. Le **[!UICONTROL Database cleanup]** processus sélectionne toutes les livraisons pour lesquelles le champ **deleteStatus** a la valeur **[!UICONTROL Yes]** ou **[!UICONTROL Recycled]** et dont la date de suppression est antérieure à la période définie dans le champ **[!UICONTROL Deleted deliveries]** (**NmsCleanup_RecycledDeliveryPurgeDelay) de l’assistant de déploiement.** For more on this, refer to [Deployment wizard](#deployment-wizard). Cette période est calculée par rapport à la date actuelle du serveur.
+1. Le processus de nettoyage **[!UICONTROL de la]** base de données sélectionne toutes les livraisons pour lesquelles le champ **deleteStatus** a la valeur **[!UICONTROL Yes]** ou **[!UICONTROL Recycled et dont la date de suppression est antérieure à la période définie dans le champ Deleted distributions (NmsCleanup_RecycledDeliveryPurgeDelay) de l&#39;assistant de déploiement.]********** For more on this, refer to [Deployment wizard](#deployment-wizard). Cette période est calculée par rapport à la date actuelle du serveur.
 1. La tâche sélectionne ensuite, pour chaque serveur de mid-sourcing, la liste des diffusions à supprimer.
-1. The **[!UICONTROL Database cleanup]** workflow deletes delivery logs, attachments, mirror page information and all other related data.
+1. Le workflow **[!UICONTROL Nettoyage de la base]** supprime les logs de diffusion, les pièces jointes, les informations de pages miroir et toute autre donnée associée.
 1. Avant la suppression définitive de la diffusion, le workflow purge les informations associées dans les tables suivantes :
 
    * Dans la table des exclusions de diffusion (**NmsDlvExclusion**), la requête suivante est utilisée :
@@ -179,7 +179,7 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
 #### Diffusions utilisant le mid-sourcing {#deliveries-using-mid-sourcing}
 
-The **[!UICONTROL Database cleanup]** workflow also deletes deliveries on the mid-sourcing server(s).
+Le workflow **[!UICONTROL Nettoyage de la base]** supprime également les diffusions sur le(s) serveur(s) de mid-sourcing.
 
 1. Pour cela, le workflow vérifie que chaque diffusion est inactive (en se basant sur son état). Si une diffusion est active, elle sera interrompue avant d&#39;être supprimée. La vérification est effectuée en exécutant la requête suivante :
 
@@ -189,13 +189,13 @@ The **[!UICONTROL Database cleanup]** workflow also deletes deliveries on the mi
 
    where **$(l)** is the identifier of the delivery.
 
-1. Si la valeur de l’état est **[!UICONTROL Start pending]** , **[!UICONTROL In progress]** , **[!UICONTROL Recovery pending]** , **[!UICONTROL Recovery in progress]** , **[!UICONTROL Pause requested]** **[!UICONTROL Pause in progress]** **[!UICONTROL Paused]** , ou (valeurs 51, 55, 61, 62, 71, 72, 75), la remise est arrêtée et la tâche purge les informations liées.
+1. Si l&#39;état a pour valeur **[!UICONTROL Démarrage en attente]**, **[!UICONTROL En cours]**, **[!UICONTROL Reprise en attente]**, **[!UICONTROL Reprise en cours]**, **[!UICONTROL Pause demandée]**, **[!UICONTROL Pause en cours]**, ou **[!UICONTROL En pause]** (valeurs 51, 55, 61, 62, 71, 72, 75), la diffusion est alors stoppée et la tâche procède à la purge des informations associées.
 
 ### Nettoyage des diffusions ayant expiré {#cleanup-of-expired-deliveries}
 
 Cette tâche interrompt les diffusions dont la période de validité a expiré.
 
-1. Le **[!UICONTROL Database cleanup]** processus crée la liste des livraisons qui ont expiré. Cette liste comprend toutes les livraisons arrivées à expiration avec un statut autre que **[!UICONTROL Finished]** , ainsi que les livraisons récemment interrompues avec plus de 10 000 messages non traités. La requête suivante est utilisée :
+1. Le workflow **[!UICONTROL Nettoyage de la base]** crée la liste des diffusions ayant expiré. Cette liste inclut toutes les diffusions ayant expiré dont l&#39;état est différent de **[!UICONTROL Terminé]**, ainsi que les diffusions récemment arrêtées avec plus de 10000 messages non traités. La requête suivante est utilisée :
 
    ```
    SELECT iDeliveryId, iState FROM NmsDelivery WHERE iDeleteStatus=0 AND iIsModel=0 AND iDeliveryMode=1 AND ( (iState >= 51 AND iState < 85 AND tsValidity IS NOT NULL AND tsValidity < $(currentDate) ) OR (iState = 85 AND DateMinusDays(15) < tsLastModified AND iToDeliver - iProcessed >= 10000 ))
@@ -217,7 +217,7 @@ Cette tâche interrompt les diffusions dont la période de validité a expiré.
    SELECT iExtAccountId FROM NmsExtAccount WHERE iActive<>0 AND sName=$(providerName)
    ```
 
-1. In the list of expired deliveries, delivery logs whose status is **[!UICONTROL Pending]** , switch to **[!UICONTROL Delivery cancelled]** , and all deliveries in this list switch to **[!UICONTROL Finished]** .
+1. Dans la liste de diffusions ayant expiré, les logs de diffusion dont le statut est **[!UICONTROL En attente]** passent au statut **[!UICONTROL Envoi annulé]**, et toutes les diffusions de cette liste passent au statut **[!UICONTROL Terminé]** .
 
    Les requêtes utilisées sont les suivantes :
 
@@ -282,7 +282,7 @@ Cette tâche supprime les ressources web (pages miroir) utilisées par les diffu
 
 ### Nettoyage des tables de travail {#cleanup-of-work-tables}
 
-This task deletes from the database, all work tables which match deliveries whose status is **[!UICONTROL Being edited]** , **[!UICONTROL Stopped]** or **[!UICONTROL Deleted]** .
+Cette tâche supprime, dans la base de données, les tables de travail correspondant aux diffusions dont l&#39;état est **[!UICONTROL En édition]**, **[!UICONTROL Stoppé]** ou **[!UICONTROL Supprimée]** .
 
 1. La liste des tables dont le nom commence par **wkDlv_** est récupérée en premier lieu avec la requête suivante (postgresql) :
 
@@ -296,7 +296,7 @@ This task deletes from the database, all work tables which match deliveries whos
    SELECT iDeliveryId FROM NmsDelivery WHERE iDeliveryId<>0 AND iDeleteStatus=0 AND iState NOT IN (0,85,100);
    ```
 
-   where 0 is the value which matches the **[!UICONTROL Being edited]** delivery status, 85 matches the **[!UICONTROL Stopped]** status and 100 matches the **[!UICONTROL Deleted]** status.
+   où 0 est la valeur correspondant à l&#39;état de diffusion **[!UICONTROL En édition]**, 85 correspond à l&#39;état **[!UICONTROL Stoppé]** et 100 correspond à l&#39;état **[!UICONTROL Supprimée]**.
 
 1. Les tables qui ne sont plus utilisées sont supprimées à l&#39;aide de la requête suivante :
 
