@@ -43,7 +43,7 @@ Leur déclaration est similaire à celle des méthodes natives. La seule différ
 
 Ce nom correspond au nom (avec l&#39;espace de nommage) de l&#39;entité de type &#39;Code JavaScript&#39;.
 
-Exemple:
+Exemple :
 
 La méthode testLog(msg) est déclarée dans une extension de nms:recipient
 
@@ -77,7 +77,7 @@ Le nom de la fonction doit respecter le format suivant :
  <schema-namespace>_<schema-name>_<method-name>
 ```
 
-Exemple:
+Exemple :
 
 La fonction JavaScript suivante correspond à l&#39;implémentation de la méthode déclarée plus haut. Elle doit être définie dans l&#39;entité de type &#39;Code JavaScript&#39; et de nom &#39;cus:test&#39;.
 
@@ -113,7 +113,7 @@ function nms_recipient_setLastName(self, name)
 
 Lorsque plusieurs valeurs doivent être retournées, celles-ci doivent être retournées sous la forme d&#39;un tableau.
 
-Exemple:
+Exemple :
 
 ```
 function nms_recipient_getKey(self)
