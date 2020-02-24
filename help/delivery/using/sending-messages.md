@@ -43,17 +43,17 @@ Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, l&#39
 
 Pour ce faire, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** ou **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Accédez à **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** ou **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Sélectionnez la diffusion de votre choix ou dupliquez le modèle d&#39;usine **Diffusion email**, puis sélectionnez le modèle dupliqué.
 1. Cliquez sur le bouton **Propriétés**.
-1. Sélectionnez l’ **[!UICONTROL Delivery]** onglet.
+1. Sélectionnez l&#39;onglet **[!UICONTROL Diffusion]**.
 1. Cochez la case **Archiver les emails** pour conserver une copie de tous les messages envoyés pour cette diffusion ou pour chaque diffusion basée sur ce modèle.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 
    >[!NOTE]
    >
-   >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
+   >Si les emails envoyés à l&#39;adresse en bcc sont ouverts et font l&#39;objet de clics, cela sera pris en compte dans les **[!UICONTROL Ouvertures totales]** et les **[!UICONTROL Clics]** provenant de l&#39;analyse d&#39;envoi, ce qui pourrait entraîner des erreurs de calcul.
 
 ## Générer la page miroir {#generating-the-mirror-page}
 
@@ -61,7 +61,7 @@ La page miroir est une page HTML accessible en ligne via un navigateur web et do
 
 Par défaut, la page miroir est générée si le lien est inséré dans le contenu du courrier. Pour plus d’informations sur l’insertion de blocs de personnalisation, reportez-vous à la section Blocs de [personnalisation](../../delivery/using/personalization-blocks.md).
 
-In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL Validity]** tab lets you modify the generation mode for this page.
+Dans les propriétés de diffusion, le champ **[!UICONTROL Mode]** de l&#39;onglet **[!UICONTROL Validité]** vous permet de modifier le mode de génération de la page.
 
 ![](assets/s_ncs_user_wizard_miror_page_mode.png)
 
@@ -71,9 +71,9 @@ In the delivery properties, the **[!UICONTROL Mode]** field of the **[!UICONTROL
 
 Outre le mode par défaut, les options disponibles sont les suivantes :
 
-* **[!UICONTROL Force the generation of the mirror page]** : même si aucun lien vers la page miroir n’est inséré dans la remise, la page miroir est créée.
-* **[!UICONTROL Do not generate the mirror page]** : aucune page miroir n’est générée, même si le lien est présent dans la diffusion.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]** : cette option vous permet d’accéder au contenu de la page miroir, avec des informations de personnalisation, dans la fenêtre du journal de diffusion. Pour ce faire, après la fin de la remise, cliquez sur l’ **[!UICONTROL Delivery]** onglet et sélectionnez la ligne du destinataire dont vous souhaitez afficher la page miroir. Cliquez sur le **[!UICONTROL Display the mirror page for this message...]** lien.
+* **[!UICONTROL Forcer la génération de la page miroir]** : même si aucun lien vers la page miroir n&#39;est inséré dans la diffusion, la page miroir sera créée.
+* **[!UICONTROL Ne pas générer de page miroir]** : aucune page miroir n&#39;est générée, même si le lien est présent dans la diffusion.
+* **[!UICONTROL Générer une page miroir accessible depuis l&#39;identifiant du message]** : cette option permet d&#39;accéder au contenu de la page miroir, avec les informations de personnalisation, dans la fenêtre des logs de diffusion. Pour cela, une fois la diffusion terminée, cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** et sélectionnez la ligne du destinataire dont vous souhaitez visualiser la page miroir. Cliquez ensuite sur le lien **[!UICONTROL Afficher la page miroir de ce message...]**.
 
    ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -89,19 +89,19 @@ Vous pouvez également définir une adresse spécifique depuis cet écran afin d
 
 ## Encodage des caractères {#character-encoding}
 
-Dans l’ **[!UICONTROL SMTP]** onglet des paramètres de remise, la **[!UICONTROL Character encoding]** section vous permet de définir un codage spécifique.
+Dans l’onglet **[!UICONTROL SMTP]** des paramètres de remise, la section Codage **[!UICONTROL des]** caractères vous permet de définir un codage spécifique.
 
 Le codage par défaut est UTF-8. Si certains fournisseurs de messagerie de vos destinataires ne prennent pas en charge le codage UTF-8 standard, vous pouvez définir un codage spécifique pour afficher correctement les caractères spéciaux sur les destinataires de vos courriels.
 
 Par exemple, vous souhaitez envoyer un courrier électronique contenant des caractères japonais. Pour vous assurer que tous les caractères s’afficheront correctement à vos destinataires au Japon, vous pouvez utiliser un encodage prenant en charge les caractères japonais plutôt que le format UTF-8 standard.
 
-Pour ce faire, sélectionnez l’ **[!UICONTROL Force the encoding used for messages]** option dans la **[!UICONTROL Character encoding]** section et choisissez un codage dans la liste déroulante qui s’affiche.
+Pour ce faire, sélectionnez l’option **[!UICONTROL Forcer le codage utilisé pour les messages]** dans la section Codage **** Caractère, puis choisissez un codage dans la liste déroulante qui s’affiche.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
 ## Ajouter des en-têtes SMTP {#adding-smtp-headers}
 
-Il est possible d’ajouter des en-têtes SMTP à vos livraisons. Pour ce faire, utilisez la section appropriée de l’ **[!UICONTROL SMTP]** onglet dans la remise.
+Vous pouvez ajouter des en-têtes SMTP supplémentaires à vos diffusions. Pour cela, utilisez la section correspondante dans l&#39;onglet **[!UICONTROL SMTP]** des propriétés de la diffusion.
 
 Le script saisi dans cette fenêtre doit référencer un en-tête par ligne, sous la forme **nom: valeur**.
 
