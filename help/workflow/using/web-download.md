@@ -30,44 +30,44 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
 
    Pour indiquer le fichier à télécharger, vous pouvez saisir directement l&#39;URL du fichier à télécharger, utiliser un compte HTTP externe où le fichier est stocké ou télécharger le fichier à partir d&#39;une instance Adobe Campaign. Les paramètres disponibles sont présentés ci-dessous :
 
-   * Pour entrer directement l’URL du fichier à télécharger, sélectionnez l’ **[!UICONTROL Explicit URL]** option et indiquez l’URL dans le champ approprié. Cette URL peut être construite avec des données variables.
+   * Pour saisir directement l&#39;URL du fichier à télécharger, sélectionnez l&#39;option **[!UICONTROL URL explicite]** et indiquez l&#39;URL dans le champ correspondant. Cette URL peut être construite avec des données variables.
 
       ![](assets/download_web_edit.png)
 
-   * To use an **[!UICONTROL External account]**, select the account from the drop-down list, and specify the file to be downloaded.
+   * Pour utiliser un **[!UICONTROL Compte externe]**, sélectionnez le compte dans la liste déroulante et indiquez le fichier à télécharger.
 
-      Les comptes externes sont configurés à partir du **[!UICONTROL Administration > Platform > External accounts]** noeud de l’arborescence Adobe Campaign. Les paramètres du compte peuvent être modifiés par l’ **[!UICONTROL Edit link]** icône.
+      Les comptes externes sont paramétrés depuis le noeud **[!UICONTROL Administration > Plate-forme > Comptes externes]** de l&#39;arborescence Adobe Campaign. Les paramètres du compte peuvent être édités à partir de l&#39;icône **[!UICONTROL Editer le lien]**.
 
       ![](assets/download_web_edit_external.png)
 
-   * To download the file from the Adobe Campaign instance, select the **[!UICONTROL Adobe Campaign Instance]** option.
+   * Pour télécharger le fichier depuis l&#39;instance Adobe Campaign, choisissez l&#39;option **[!UICONTROL Instance Adobe Campaign]**.
 
       ![](assets/download_web_edit_instance.png)
 
 1. **Historisation des fichiers**
 
-   The **[!UICONTROL File historization settings...]** link lets you specify the file storage directory and the purge frequency of this directory.
+   Le lien **[!UICONTROL Paramètres d&#39;historisation des fichiers...]** permet d&#39;indiquer le répertoire de stockage des fichiers et la fréquence de purge de ce répertoire.
 
    ![](assets/download_web_edit_hist.png)
 
    Les options disponibles sont les suivantes :
 
-   * **[!UICONTROL Use a default storage directory]**: le fichier est toujours déplacé avant d’être traité. Si cette option est cochée, le fichier est déplacé dans le répertoire de stockage par défaut (répertoire **vars** du dossier d’installation d’Adobe Campaign). Pour spécifier un répertoire de stockage, décochez la case et entrez son chemin dans le **[!UICONTROL Storage directory]** champ
-   * **[!UICONTROL Number of files]**: entrez le nombre maximal de fichiers à conserver dans le répertoire de stockage.
-   * **[!UICONTROL Maximum size (in Mb)]**: entrez la capacité maximale du répertoire de stockage (en mégaoctets).
+   * **[!UICONTROL Utiliser un répertoire de stockage par défaut]** : le fichier est toujours déplacé avant d&#39;être traité. Lorsque cette option est cochée, le fichier est déplacé dans le répertoire de stockage par défaut (le répertoire **vars** du dossier d&#39;installation d&#39;Adobe Campaign). Si vous souhaitez spécifier un répertoire de stockage particulier, décochez la case, et saisissez le chemin du répertoire dans le champ **[!UICONTROL Répertoire de stockage]**.
+   * **[!UICONTROL Nombre de fichiers]** : saisissez le nombre maximal de fichiers à conserver dans le répertoire de stockage.
+   * **[!UICONTROL Taille maximale (en Mo)]** : saisissez la capacité maximale du répertoire de stockage (en méga octets).
    Chaque fichier est toujours conservé 24 heures avant d&#39;être soumis aux règles de purge définies. La purge a lieu juste avant le début du traitement de l&#39;activité et ne prend donc pas en compte les fichiers du workflow en cours.
 
    Les fichiers sont toujours supprimés du plus ancien au plus récent. Les fichiers les plus anciens sont supprimés jusqu&#39;à ce que les deux règles de purge soient vérifiées. Ainsi, si une limite de 100 fichiers est définie, cela signifie que le répertoire de stockage contiendra toujours les 100 fichiers les plus récents avant le début du workflow, en plus des fichiers traités dans le workflow en cours.
 
-   Si vous ne souhaitez plus définir de limite pour les options **[!UICONTROL Number of files]** et **[!UICONTROL Maximum size (in Mb)]** , entrez 0 comme valeur.
+   Si vous ne souhaitez pas définir de limite pour les options **[!UICONTROL Nombre de fichiers]** et **[!UICONTROL Taille maximale (en Mo)]**, saisissez la valeur 0.
 
 1. **Paramètres avancés**
 
-   The **[!UICONTROL Advanced parameters...]** link lets you specify the additional options shown below:
+   Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;indiquer les options supplémentaires ci-dessous :
 
    ![](assets/download_web_edit_advanced.png)
 
-   Cette **[!UICONTROL Process errors]** option est détaillée dans la section Erreurs [de](../../workflow/using/monitoring-workflow-execution.md#processing-errors)traitement.
+   The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 ## Paramètres de sortie {#output-parameters}
 
