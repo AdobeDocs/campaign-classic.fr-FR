@@ -56,7 +56,7 @@ Pour continuer à utiliser la page d&#39;accueil v6.02, vous devez installer un 
 
 Pour cela, importez le package de compatibilité :
 
-Cliquez sur **[!UICONTROL Tools > Advanced > Import package]** et sélectionnez le package **campaignMigration.xml** dans le **`\nl\datakit\nms\[Your language]\package\optional`**.
+Click **[!UICONTROL Tools > Advanced > Import package]** and choose the **campaignMigration.xml** package in the **`\nl\datakit\nms\[Your language]\package\optional`**.
 
 Pour permettre l&#39;accès aux interfaces de type Applications web v6.02, l&#39;option **sessionTokenOnly** des paramètres du serveur doit être activée, dans le fichier **serverConf.xml** :
 
@@ -70,11 +70,11 @@ Une fois le package installé, la page d&#39;accueil d&#39;Adobe Campaign v7 est
 
 ![](assets/dashboards.png)
 
-Tous les liens de cette page d’accueil pointent vers les écrans v7, à l’exception des listes (**[!UICONTROL operation list]**, **[!UICONTROL delivery tracking in operations]**, etc.) lien vers la présentation v6.02 (applications Web).
+Tous les liens de cette page d’accueil pointent vers les écrans v7, à l’exception des listes (liste **[!UICONTROL des]** opérations, suivi des **[!UICONTROL remises dans les opérations]**, etc.). lien vers la présentation v6.02 (applications Web).
 
 ![](assets/dashboards2.png)
 
-If you want to add another overview configured in v6.02, you need to add this to the home page from the dashboard. (**[!UICONTROL Administration > Access management > Dashboard]**).
+Si vous souhaitez ajouter une autre vue d&#39;ensemble paramétrée en v6.02, vous devez l&#39;ajouter sur la page d&#39;accueil à partir des tableaux de bord (**[!UICONTROL Administration > Gestion des accès > Tableaux de bord]**).
 
 >[!NOTE]
 >
