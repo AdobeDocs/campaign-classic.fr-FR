@@ -32,7 +32,7 @@ Un certain nombre de champs de la console ont ainsi été définis avec ce type 
 
 ## Accès aux valeurs {#access-to-values}
 
-The values for this type of field are defined and overall administration of these fields (adding/deleting a value) is performed via the **[!UICONTROL Administration > Platform > Enumerations]** node of the tree.
+La définition des valeurs des champs de ce type et l&#39;administration globale de ces champs (ajout/suppression d&#39;une valeur) s&#39;effectue depuis le nœud **[!UICONTROL Administration > Plate-forme > Enumérations]** de l&#39;arborescence.
 
 ![](assets/s_ncs_user_itemized_list_node.png)
 
@@ -41,15 +41,15 @@ The values for this type of field are defined and overall administration of thes
 
    ![](assets/s_ncs_user_itemized_list_values.png)
 
-   To create a new enumeration value, click **[!UICONTROL Add]**.
+   Pour créer une nouvelle valeur d&#39;énumération, cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](assets/s_ncs_user_itemized_list.png)
 
-   Si l’ **[!UICONTROL Open]** option est sélectionnée, l’utilisateur peut ajouter une nouvelle valeur de liste détaillée directement dans le champ correspondant. Un message de confirmation vous permet de créer cette valeur.
+   Si l&#39;option **[!UICONTROL Ouverte]** est sélectionnée, l&#39;utilisateur peut ajouter une nouvelle valeur d&#39;énumération par saisie directe dans le champ correspondant. Un message de confirmation permet de créer cette valeur.
 
    ![](assets/s_ncs_user_itemized_list_new_value.png)
 
-* If the **[!UICONTROL Closed]** option is selected, users will not be able to create new values, but merely choose from the values available.
+* Si l&#39;option **[!UICONTROL Fermée]** est sélectionnée, alors les utilisateurs ne pourront pas créer de nouvelles valeurs mais seulement choisir parmi les valeurs proposées.
 
 ## Normaliser les données {#standardizing-data}
 
@@ -63,23 +63,23 @@ Dans les champs énumérés, il est possible de saisir d&#39;autres valeurs que 
 
 En effet, la valeur saisie peut être :
 
-* Added to the itemized list values: in this case the **[!UICONTROL Open]** option must be selected,
-* remplacée automatiquement par son  : cet alias doit être défini dans l&#39;onglet **[!UICONTROL Alias]** Alias de l&#39;énumération,
+* ajoutée aux valeurs de l&#39;énumération : l&#39;option **[!UICONTROL Ouverte]** doit être cochée,
+* remplacée automatiquement par son alias : cet alias doit être défini dans l&#39;onglet **[!UICONTROL Alias]** de l&#39;énumération,
 * stockée dans la liste des alias : un alias pourra lui être attribué ultérieurement.
 
    >[!NOTE]
    >
-   >If you need to use data cleansing capabilities, select the **[!UICONTROL Alias cleansing]** option in the itemized list.
+   >Si vous devez utiliser les fonctionnalités de normalisation des données, sélectionnez l&#39;option **[!UICONTROL Support des alias]** dans l&#39;énumération.
 
 ### Utilisation des alias {#using-aliases}
 
-Cette option **[!UICONTROL Alias cleansing]** permet d’utiliser des alias pour la liste détaillée sélectionnée. Lorsque cette option est sélectionnée, l’ **[!UICONTROL Alias]** onglet s’affiche au bas de la fenêtre.
+L&#39;option **[!UICONTROL Support des alias]** permet de gérer les alias pour l&#39;énumération sélectionnée. Lorsque cette option est cochée, l&#39;onglet **[!UICONTROL Alias]** est ajouté en bas de la fenêtre.
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
 #### Créer un alias {#creating-an-alias}
 
-To create an alias, click **[!UICONTROL Add]**.
+Pour créer un alias, cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_create.png)
 
@@ -101,15 +101,15 @@ Thus, when a user enters the value **NEILSEN** in a &quot;company&quot; field (i
 
 #### Conversion des valeurs en alias {#converting-values-into-aliases}
 
-To convert an enumeration value into an alias, right-click in the list of values and choose **[!UICONTROL Convert values into aliases...]**.
+Pour transformer une valeur d&#39;énumération en alias, cliquez avec le bouton droit de la souris dans la liste des valeurs et sélectionnez l&#39;option **[!UICONTROL Convertir des valeurs en alias...]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail.png)
 
-Choose the values you want to convert and click **[!UICONTROL Next]**.
+Sélectionnez les valeurs que vous souhaitez convertir et cliquez sur le bouton **[!UICONTROL Suivant]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_transform.png)
 
-Click **[!UICONTROL Start]** to run the conversion.
+Cliquez sur **[!UICONTROL Démarrer]** pour lancer la conversion.
 
 ![](assets/s_ncs_user_itemized_list_alias_detail1.png)
 
@@ -119,44 +119,44 @@ Une fois l&#39;exécution terminée, l&#39;alias est ajouté dans la liste des a
 
 #### Récupération des apparitions des alias {#retrieving-alias-hits}
 
-Les valeurs saisies par les utilisateurs peuvent être converties en alias. En effet, lorsque l’utilisateur saisit une valeur qui n’est pas incluse dans la liste détaillée, la valeur est stockée dans l’ **[!UICONTROL Alias]** onglet.
+Les valeurs saisies par les utilisateurs peuvent être transformées en alias. En effet, lorsque l&#39;utilisateur saisit une valeur qui n&#39;est pas présente dans la liste des valeurs d&#39;énumération, cette valeur est stockée dans l&#39;onglet **[!UICONTROL Alias]**.
 
 The **Alias cleansing** technical workflow recovers these values every night to update itemized list. Reportez-vous à la section [Exécution du nettoyage des données](#running-data-cleansing)
 
-Si nécessaire, la **[!UICONTROL Hits]** colonne peut afficher le nombre de fois où cette valeur a été saisie. Le calcul de cette valeur peut prendre du temps et de la mémoire. Pour plus d’informations, reportez-vous à la section [Calcul des occurrences](#calculating-entry-occurrences)d’entrée.
+If necessary, the **[!UICONTROL Hits]** column can display the number of times this value was entered. Calculating this value can be both time and memory consuming. Pour plus d’informations, reportez-vous à la section [Calcul des occurrences](#calculating-entry-occurrences)d’entrée.
 
 ### Exécution de la normalisation des données {#running-data-cleansing}
 
-Le nettoyage des données est effectué par le processus **[!UICONTROL Alias cleansing]** technique. Les configurations définies pour les énumérations sont appliquées pendant l’exécution. Reportez-vous à la section Processus [de nettoyage des](#alias-cleansing-workflow)alias.
+Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. The configurations defined for enumerations are applied during execution. Reportez-vous à la section Processus [de nettoyage des](#alias-cleansing-workflow)alias.
 
-Cleansing can be triggered via the **[!UICONTROL Cleanse values...]** link.
+Vous pouvez déclencher la normalisation via le lien **[!UICONTROL Uniformiser les valeurs...]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_start_normalize.png)
 
-The **[!UICONTROL Advanced parameters...]** link lets you set the date starting from which collected values are taken into account.
+Le lien **[!UICONTROL Paramètres avancés...]** permet de définir la date de prise en compte des valeurs collectées.
 
 ![](assets/s_ncs_user_itemized_list_alias_normalize.png)
 
-Click the **[!UICONTROL Start]** button to run data cleansing.
+Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;uniformisation des données.
 
 #### Calcul des occurrences de saisie {#calculating-entry-occurrences}
 
-Le **[!UICONTROL Alias]** sous-onglet d’une liste détaillée peut afficher le nombre d’occurrences d’un alias parmi toutes les valeurs saisies. Ces informations sont une estimation et seront affichées dans la **[!UICONTROL Hits]** colonne.
+Le sous-onglet **[!UICONTROL Alias]** d&#39;une énumération peut afficher le nombre d&#39;apparitions d&#39;un alias parmi toutes les valeurs saisies. Cette information est une estimation. Elle s&#39;affichera dans la colonne **[!UICONTROL Hits]**.
 
 >[!CAUTION]
 >
 >Le calcul des occurrences de saisie d&#39;un alias peut être long. Cette fonctionnalité doit par conséquent être utilisée avec précaution.
 
-Vous pouvez exécuter le calcul des accès manuellement via le **[!UICONTROL Cleanse values...]** lien. Pour ce faire, cliquez sur le **[!UICONTROL Advanced parameters...]** lien et sélectionnez une ou plusieurs options.
+Vous pouvez lancer le calcul des occurrences ponctuellement, via le lien **[!UICONTROL Uniformiser les valeurs...]**. Pour cela, cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et sélectionnez la ou les options souhaitées.
 
 ![](assets/s_ncs_user_itemized_list_alias_hits.png)
 
-* **[!UICONTROL Update the number of alias hits]**: vous pouvez ainsi mettre à jour les accès qui ont déjà été calculés, en fonction de la date saisie.
-* **[!UICONTROL Recalculate the number of alias hits from the start]**: vous permet d’exécuter le calcul sur l’ensemble de la plateforme Adobe Campaign.
+* **[!UICONTROL Actualiser le nombre d&#39;apparitions des alias]** : permet de mettre à jour les occurrences déjà calculées, à partir de la date de prise en compte renseignée.
+* **[!UICONTROL Recalculer depuis le début le nombre d&#39;apparitions des alias]** : permet de réinitialiser tout le calcul sur l&#39;ensemble de la plate-forme Adobe Campaign.
 
 Vous pouvez également créer un workflow dédié afin que ce calcul s&#39;exécute automatiquement pour une période donnée, par exemple toutes les semaines.
 
-To do this, create a copy of the **[!UICONTROL Alias cleansing]** workflow, change the scheduler and use the following settings in the **[!UICONTROL Enumeration value cleansing]** activity:
+Pour cela, créez une copie du workflow **[!UICONTROL Gestion des alias]**, modifiez le planificateur et utilisez les paramètres suivants dans l&#39;activité **[!UICONTROL Uniformisation des valeurs des énumérations]** :
 
 * **-updateHits** pour mettre à jour le nombre d&#39;accès d&#39;alias,
 * **-updateHits:full** pour recalculer toutes les apparitions des alias.
@@ -165,7 +165,7 @@ To do this, create a copy of the **[!UICONTROL Alias cleansing]** workflow, chan
 
 Le workflow **Gestion des alias** exécute la normalisation des valeurs d&#39;énumération. Par défaut, sa fréquence d&#39;exécution est quotidienne.
 
-Il est accessible via le **[!UICONTROL Administration > Production > Technical workflows]** noeud.
+Il est accessible à partir du noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
 
 ![](assets/s_ncs_user_itemized_list_alias_wf.png)
 
