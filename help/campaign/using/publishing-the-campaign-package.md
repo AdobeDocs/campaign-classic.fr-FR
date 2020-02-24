@@ -22,17 +22,17 @@ source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 # Publier le kit d&#39;opération{#publishing-the-campaign-package}
 
-Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]**.
+Les opérateurs de l&#39;entité centrale publient dans la **[!UICONTROL liste des kits d&#39;opérations]**, les kits qu&#39;ils souhaitent proposer aux entités locales.
 
-Avant de pouvoir les publier dans la liste des packages de campagne, les packages de campagne doivent être approuvés par l’entité centrale. Pour ce faire, vous pouvez spécifier un réviseur ou un groupe de réviseurs via le **[!UICONTROL Approval parameters]** lien du package de campagne.
+Avant d&#39;être publiés dans la liste des kits d&#39;opération, les kits d&#39;opération doivent être validés par l&#39;entité centrale. Pour cela, vous pouvez définir un validant ou groupe de validants à partir du lien **[!UICONTROL Paramètres de validation...]** du kit d&#39;opération.
 
 ## Définir un opérateur validant {#assigning-a-reviewer}
 
-To select the reviewer, click the **[!UICONTROL Approval parameters]** link from the campaign package and choose the relevant reviewer from the drop-down list.
+Pour indiquer le validant, cliquez sur le lien **[!UICONTROL Paramètres de validation...]** du kit d&#39;opération et choisissez l&#39;opérateur concerné dans la liste déroulante.
 
 ![](assets/s_advuser_mkg_dist_define_valid.png)
 
-You may then begin the approval process by clicking **[!UICONTROL Submit for approval]**.
+Vous pouvez alors lancer le processus de validation en cliquant sur le bouton **[!UICONTROL Soumettre à validation]**.
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
@@ -46,7 +46,7 @@ Un message de notification est alors envoyé à l&#39;opérateur validant afin d
 
 ## Ajouter d&#39;autres opérateurs validants {#adding-other-reviewers}
 
-You can add other reviewers from the **[!UICONTROL Edit...]** link, found in the campaign package&#39;s **[!UICONTROL Approval parameters...]** tab.
+Depuis le lien **[!UICONTROL Paramètres de validation...]** du kit d&#39;opération, le lien **[!UICONTROL Editer...]** permet d&#39;ajouter d&#39;autres opérateurs validants.
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
@@ -54,17 +54,17 @@ You can add other reviewers from the **[!UICONTROL Edit...]** link, found in the
 
 Par défaut, les opérateurs validants disposent de trois jours pour procéder à la validation, à partir de la date de soumission.
 
-Dans la fenêtre Modifier les réviseurs, vous pouvez également définir des rappels pour envoyer un ou plusieurs messages si un package de campagne n’a pas été approuvé. Pour ce faire, cliquez sur le **[!UICONTROL Add reminder]** lien, puis sur le **[!UICONTROL Add]** bouton.
+Vous pouvez aussi, dans la section inférieure de la fenêtre d&#39;édition des validants, paramétrer des rappels afin d&#39;envoyer un ou plusieurs messages d&#39;alerte en cas de non validation du kit d&#39;opération. Pour cela, cliquez sur le lien **[!UICONTROL Ajouter un rappel]** puis sur le bouton **[!UICONTROL Ajouter]**.
 
-Les rappels peuvent être envoyés à une date donnée et/ou **x** jours après la date d&#39;envoi. Le type de rappel peut être configuré dans la première colonne du tableau des rappels. Dans l’exemple ci-dessous, les réviseurs recevront un message de rappel le 29/01/2014, c’est-à-dire deux jours avant la date sélectionnée dans la **[!UICONTROL Date]** colonne, et un deuxième rappel un jour avant la fin de la période d’approbation, c’est-à-dire deux jours après la date d’approbation de l’envoi.
+Les rappels peuvent être envoyés à une date donnée et/ou **x** jours à partir de la date de soumission. Le type de rappel est sélectionné dans la première colonne du tableau des rappels. Dans l&#39;exemple ci-dessous, les opérateurs validants recevront un message de rappel un jour avant la fin de la période de validation, soit deux jours après la date de soumission à validation, puis un second rappel le 29/01/2014, soit deux jours avant la date sélectionnée dans la colonne **[!UICONTROL Date]**.
 
 ![](assets/s_advuser_mkg_dist_reminder_planning.png)
 
-Une fois défini et que le package a été envoyé pour approbation, le calendrier d’exécution s’affiche dans l’ **[!UICONTROL Audit]** onglet. Il indique la date limite de traitement calculée en fonction de la configuration précédente, ainsi que les dates de tous les rappels configurés.
+Une fois défini et une fois que le kit a été soumis à validation, le planning des traitements est affiché directement dans l&#39;onglet **[!UICONTROL Suivi]**. Il indique la date limite de traitement calculée à partir du paramétrage spécifié ci-avant, et la date du ou des rappels paramétrés.
 
 ## Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
-If no reviewer has been specified or if none of the notified operators have approved the package, the **[!UICONTROL Approve the package]** button lets you proceed directly to the approval from the campaign package **[!UICONTROL Dashboard]** or from the packages overview.
+Si aucun validant n&#39;a été défini ou si aucun des opérateurs notifiés n&#39;a validé le kit, le bouton **[!UICONTROL Valider le kit]** permet de procéder directement à la validation depuis l&#39;onglet **[!UICONTROL Tableau de bord]** du kit d&#39;opération ou depuis la vue d&#39;ensemble des kits.
 
 ![](assets/s_advuser_mkg_dist_valid_button.png)
 
