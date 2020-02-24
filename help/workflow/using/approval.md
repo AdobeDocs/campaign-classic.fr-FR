@@ -30,7 +30,7 @@ Par défaut, une validation est assignée à un groupe d&#39;opérateurs. Ce gro
 
 Au besoin, vous pouvez affecter la tâche de validation à un opérateur unique ou à un ensemble d&#39;opérateurs défini par un filtre.
 
-* To select a single operator, select the **[!UICONTROL Operator]** value in the **[!UICONTROL Assignment type]** field and select the relevant operator in the drop-down list of the **[!UICONTROL Assignee]** field.
+* Pour sélectionner un opérateur unique, sélectionnez la valeur **[!UICONTROL Opérateur]** dans le champ **[!UICONTROL Type d&#39;affectation]** et sélectionnez l&#39;opérateur concerné dans la liste déroulante du champ **[!UICONTROL Assignation]**.
 
    ![](assets/s_advuser_validation_box_assign.png)
 
@@ -38,7 +38,7 @@ Au besoin, vous pouvez affecter la tâche de validation à un opérateur unique 
    >
    >Seul l&#39;opérateur sélectionné sera habilité à valider la tâche.
 
-* Vous pouvez définir une requête pour le filtrage des opérateurs d’approbation. Pour ce faire, sélectionnez la **[!UICONTROL Filter]** valeur dans le **[!UICONTROL Assignment type]** champ et cliquez sur le **[!UICONTROL Advanced parameters...]** lien pour définir les conditions de filtrage, comme indiqué dans l’exemple suivant :
+* Vous pouvez définir une requête afin de filtrer les opérateurs validants. Pour cela, sélectionnez la valeur **[!UICONTROL Filtre]** dans le champ **[!UICONTROL Type d&#39;affectation]** puis cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour définir les critères de filtrage, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_advuser_validation_box_filter.png)
 
@@ -52,7 +52,7 @@ Un opérateur peut valider les tâches qui lui sont assignées depuis la console
 
 La modification du titre ou du corps du message de l&#39;activité n&#39;affecte pas les tâches en cours, en revanche, la modification des choix possibles affecte directement les tâches en cours qui héritent automatiquement de la nouvelle liste de choix.
 
-**Les tâches de type d’approbation** sont accessibles à partir du **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** noeud : les opérateurs peuvent accéder directement au formulaire d’approbation via cette vue.
+Les tâches de type **Validation** sont accessibles depuis le noeud **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Validations en attente]** : les opérateurs peuvent accéder directement au formulaire de validation depuis cette vue.
 
 ![](assets/s_advuser_validation_from_console.png)
 
@@ -62,11 +62,11 @@ Les variables de personnalisation peuvent être utilisées dans le message envoy
 
 ![](assets/edit_validation.png)
 
-Ce **[!UICONTROL Title]** champ contient le titre du message : Il s’agit de l’objet du message électronique envoyé. Le titre, ainsi que le corps du message, sont des modèles JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du flux de travail.
+Le champ **[!UICONTROL Titre]** contient le titre du message : il s&#39;agit du sujet de l&#39;email envoyé. Le titre, comme le corps du message, sont des templates JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du workflow.
 
 La section inférieure de l&#39;éditeur permet de définir la liste des réponses possibles. A chaque réponse correspond une transition. Le nom est l&#39;identifiant interne et le libellé est le texte qui sera affiché dans la liste des choix.
 
-Cliquez sur le **[!UICONTROL Advanced parameters...]** lien pour sélectionner le modèle de remise à utiliser pour avertir les opérateurs. Le modèle par défaut (nom interne &#39;notifierAssignee&#39;) prend le titre et le message, et ajoute un lien à la page Web utilisée pour répondre.
+Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour sélectionner le modèle de diffusion à utiliser pour notifier les opérateurs. Le modèle par défaut (nom interne &#39;notifyAssignee&#39;) reprend le titre et le message et ajoute un lien vers la page web permettant de répondre.
 
 Ce modèle peut être modifié pour personnaliser la présentation du message, mais il est préférable d&#39;en faire une copie. Le mécanisme de ciblage (fichier externe, mapping de ciblage) ne doit pas être modifié car il est nécessaire au bon fonctionnement de la notification.
 
@@ -80,5 +80,5 @@ An approval example is shown in [Defining approvals](../../workflow/using/execut
 
 * **[!UICONTROL responseOperator]**
 
-   Identifiant de l’opérateur qui a répondu. Ce champ est une valeur numérique, mais un **[!UICONTROL String]** champ.
+   Identifiant de l&#39;opérateur qui a répondu. Ce champ est une valeur numérique, mais de type **[!UICONTROL String]**.
 
