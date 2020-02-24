@@ -57,7 +57,7 @@ Vous pouvez définir le comportement de l’application lorsque l’utilisateur 
 >* Attention : dans certains pays, la loi exige que vous informiez les utilisateurs de vos applications mobiles du type de données collectées et de la finalité de leur traitement. Vous devez vérifier la législation.
 
 
-Le processus **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) met à jour les désabonnements de notification sur les périphériques mobiles. For more information on this workflow, refer to the [Workflows guide](../../workflow/using/mobile-app-channel.md).
+Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez le [Guide Workflows](../../workflow/using/mobile-app-channel.md).
 
 Adobe Campaign est compatible avec les API binaires et HTTP/2. Pour plus d’informations sur les étapes de configuration, voir [Configuration d’une application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) .
 
