@@ -26,9 +26,9 @@ La nouvelle table des destinataires, comme la table destinataire native d&#39;Ad
 
 Ces filtres seront disponibles dans l&#39;écran de sélection de la cible au même titre et avec les mêmes fonctionnalités que les segments pour les destinataires (possibilité d&#39;utiliser des formulaires de saisie de paramètres, organisation en dossiers hiérarchisés, etc.).
 
-1. Accédez au **[!UICONTROL Administration > Configuration > Predefined filters]** noeud.
+1. Ouvrez le nœud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]**.
 1. Créez un nouveau filtre.
-1. Enter the **[!UICONTROL Label]** of the filter, then select the schema which matches the external recipient table in the **[!UICONTROL Document type]** field.
-1. Create your **[!UICONTROL filtering conditions]** based on the fields of your schema.
+1. Complétez le **[!UICONTROL Libellé]** du filtre puis sélectionnez dans le champ **[!UICONTROL Type de document]** le schéma correspondant à la table externe des destinataires.
+1. Créez vos **[!UICONTROL conditions de filtrage]** basées sur les champs de votre schéma.
 1. Enregistrez le filtre.
 
