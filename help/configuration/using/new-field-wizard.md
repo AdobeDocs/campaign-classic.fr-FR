@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Assistant d&#39;ajout de champs{#new-field-wizard}
 
-A wizard accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
+Un assistant accessible à partir du menu **[!UICONTROL Outils > Avancé > Ajout de champs]** permet d&#39;ajouter un ou plusieurs champs dans une table de la base de données.
 
 La validation de l&#39;assistant met à jour le schéma d&#39;extension de la table à étendre et lance le script SQL pour modifier la structure physique de la base de données.
 
@@ -40,7 +40,7 @@ Les écrans de l&#39;assistant contiennent les étapes suivantes :
 
    ![](assets/d_ncs_integration_schema_addfield2.png)
 
-1. To confirm the changes, click the **[!UICONTROL Finish]** button.
+1. Pour valider les modifications, cliquez sur le bouton **[!UICONTROL Terminer]**.
 
 Un fichier d&#39;extension de nom &quot;cus:recipient&quot; dans notre exemple, est automatiquement créé et le script SQL correspondant exécuté :
 
