@@ -33,19 +33,19 @@ Ils peuvent ainsi :
 
 ## Filtrer les kits {#filter-packages}
 
-Dans **[!UICONTROL Campaigns universe]**, vous pouvez afficher la liste des **[!UICONTROL Campaign packages]** groupes qui regroupent toutes les campagnes de marketing distribué existantes. Vous pouvez filtrer cette liste afin qu’elle affiche uniquement les campagnes publiées, en retard, en attente d’approbation, etc. Pour ce faire, cliquez sur les liens dans la section supérieure de cette vue ou utilisez le **[!UICONTROL Filter list]** lien et sélectionnez l’état du package de campagne à afficher.
+Depuis l&#39;univers des **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **[!UICONTROL Kits d&#39;opération]** qui regroupe toutes les opérations de Marketing Distribué existantes. Cette liste peut être filtrée afin de n&#39;afficher que les opérations publiées, en retard, en attente de validation, etc. Pour cela, cliquez sur les liens proposés dans la section supérieure de cette vue, ou utilisez le lien **[!UICONTROL Filtrer la liste]** et sélectionnez l&#39;état des kits d&#39;opération à afficher.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
 ## Editer les kits {#edit-packages}
 
-The **[!UICONTROL Campaign packages]** page lets you view the summary of each package.
+La page des **[!UICONTROL Kits d&#39;opération]** permet de visualiser le résumé de chaque kit.
 
 Ce résumé affiche les informations suivantes : le libellé, le type d&#39;opération, le nom de l&#39;opération à partir de laquelle le kit a été créé et le dossier d&#39;enregistrement.
 
 Cliquez sur le nom du kit pour l&#39;éditer. Vous pourrez alors visualiser les commandes réalisées par les entités locales et leur état.
 
-This information is also offered in the **[!UICONTROL Campaign orders]** view which lists all orders.
+Cette information est proposée aussi dans la vue **[!UICONTROL Commandes d&#39;opérations]** qui liste unitairement toutes les commandes réalisées.
 
 ![](assets/mkg_dist_catalog_op_command_details.png)
 
@@ -55,7 +55,7 @@ L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 
-   The **[!UICONTROL Edit > General]** tab lets you view information entered by the local entity when it ordered the campaign.
+   L&#39;onglet **[!UICONTROL Edition > Général]** permet de consulter les informations renseignées par l&#39;entité locale lors de la commande de l&#39;opération.
 
    ![](assets/mkg_dist_catalog_op_command_edit1a.png)
 
@@ -67,11 +67,11 @@ L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux
 
 A tout moment, l&#39;entité centrale a la possibilité d&#39;annuler un kit d&#39;opération.
 
-Cliquez sur **[!UICONTROL Cancel]** dans le package de campagne **[!UICONTROL Dashboard]**.
+Pour cela, cliquez sur le bouton **[!UICONTROL Annuler]** à partir du **[!UICONTROL Tableau de bord]** du kit d&#39;opération.
 
 ![](assets/mkg_dist_cancel_op_from_dashboard.png)
 
-The **[!UICONTROL Comment]** field lets you justify the cancellation.
+Vous avez la possibilité de motiver cette annulation dans le champ **[!UICONTROL Commentaire]**.
 
 Pour les **opérations locales**, l&#39;annulation d&#39;un kit le supprime de la liste des opérations marketing disponibles.
 
@@ -96,15 +96,15 @@ Une fois annulée, l&#39;entité centrale peut toujours accéder au kit et éven
 Vous pouvez réinitialiser un kit d&#39;opération déjà publié afin de le modifier puis le mettre à nouveau à disposition des entités locales.
 
 1. Pour cela, sélectionnez le kit concerné.
-1. Cliquez sur le **[!UICONTROL Reinitialize the package to reuse it]** lien, puis sur **[!UICONTROL OK]**.
+1. Cliquez sur le lien **[!UICONTROL Réinitialiser le kit pour l&#39;utiliser à nouveau]**, puis sur **[!UICONTROL OK]**.
 
    ![](assets/mkg_dist_mutual_op_reinit.png)
 
-1. Click the **[!UICONTROL Save]** button to approve package re-initialization.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour valider la réinitialisation du kit.
 
    ![](assets/mkg_dist_mutual_op_reinit2.png)
 
-1. The package status changes to **[!UICONTROL Being edited]**. Modify, approve and publish it again to restore it to the list of campaign package.
+1. Le kit prend le statut **[!UICONTROL En édition]**. Il peut alors être modifié puis validé et publié pour être à nouveau proposé dans la liste des kits d&#39;opération.
 
 >[!NOTE]
 >
