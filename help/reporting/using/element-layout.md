@@ -32,21 +32,21 @@ Vous pouvez paramétrer la mise en page du rapport au niveau de la page (à la r
 
 Vous pouvez utiliser les options de chaque page du rapport.
 
-The **[!UICONTROL General]** tab lets you change the title of the page, as well as configure legend positions and browsing between the report pages.
+L&#39;onglet **[!UICONTROL Général]**, vous permet de modifier le titre de la page, de choisir la position des légendes et de paramétrer la navigation entre les différentes pages du rapport.
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-Le **[!UICONTROL Title]** champ permet de personnaliser le libellé dans l’en-tête de la page du rapport. Le titre de la fenêtre peut être configuré via la **[!UICONTROL Properties]** fenêtre du rapport. Pour plus d’informations, voir [Ajout d’un en-tête et d’un pied de page](#adding-a-header-and-a-footer).
+The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. Pour plus d’informations, voir [Ajout d’un en-tête et d’un pied de page](#adding-a-header-and-a-footer).
 
-Les **[!UICONTROL Display settings]** options vous permettent de sélectionner la position de la légende de contrôle dans une page de rapport et de définir le nombre de colonnes sur la page. Pour plus d’informations sur la mise en page, reportez-vous à la section Mise en page **de l’** élément de [cette section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
+Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de choisir la position de la légende des contrôles dans la page d&#39;un rapport et de définir le nombre de colonnes de la page. Pour plus d&#39;informations sur la mise en page, reportez-vous à la section **Mettre en page les éléments** de [cette section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 
-Sélectionnez les différentes options de la **[!UICONTROL Browse]** section pour autoriser la navigation d&#39;une page de rapport à une autre. Si l’option **[!UICONTROL Disable next page]** ou **[!UICONTROL Disable previous page]** est sélectionnée, les boutons **[!UICONTROL Next]** et **[!UICONTROL Previous]** disparaissent de la page du rapport.
+Sélectionnez les différentes options de la section **[!UICONTROL Navigation]** pour autoriser ou non le passage entre les différentes pages du rapport. Lorsque l&#39;option **[!UICONTROL Ne pas autoriser le retour à la page précédente]** ou **[!UICONTROL Ne pas autoriser le passage à la page suivante]** est sélectionnée, les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]** ne sont plus disponibles dans la page du rapport.
 
 ## Ajouter un en-tête et un pied de page {#adding-a-header-and-a-footer}
 
 La fenêtre des propriétés du rapport permet également de définir des éléments de mise en page, tels que : le titre de la fenêtre, le contenu HTML de la zone d&#39;en-tête et celui du pied de page.
 
-To access the properties window, click the **[!UICONTROL Properties]** button of the report.
+Pour accéder à la fenêtre les propriétés, cliquez sur le bouton **[!UICONTROL Propriétés]** du rapport.
 
 ![](assets/reporting_properties.png)
 
@@ -56,7 +56,7 @@ L&#39;onglet **[!UICONTROL Page]** permet de personnaliser l&#39;affichage.
 
 Le contenu paramétré dans cet onglet sera visible sur toutes les pages du rapport.
 
-The **[!UICONTROL Texts]** sub-tab enables you to define variable content: it will be taken into account during the translation cycle if the report is designed for use in several languages.
+Le sous-onglet **[!UICONTROL Textes]** permet de définir des contenus variables : ils seront pris en compte dans le cycle de traduction lorsque le rapport est destiné à être proposé dans plusieurs langues.
 
 Vous pouvez ainsi créer une liste de fragments de textes et les associer à des identifiants :
 
