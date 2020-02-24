@@ -48,4 +48,4 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
+   Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour lancer la création du mapping de diffusion : toutes les tables liées sont créées automatiquement, selon les paramètres sélectionnés.
