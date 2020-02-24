@@ -29,7 +29,7 @@ source-git-commit: 418a36cd51106dae2b4201c8b5abda9b05285a18
 Adobe Campaign vous permet d&#39;échanger et de partager des audiences/segments avec les différentes solutions d&#39;Adobe Experience Cloud et les core services. En intégrant **Adobe Campaign** avec **People core service** (également appelé **Profiles &amp; Audiences core service**) ou Adobe Audience Manager, vous pouvez :
 
 * importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d&#39;Adobe Experience Cloud. L&#39;import d&#39;audiences peut être réalisé depuis les listes dans Adobe Campaign.
-* Exportez des listes sous la forme d’audiences partagées Adobe Experience Cloud. Ces audiences peuvent être utilisées dans les différentes solutions Adobe Experience Cloud que vous utilisez. Audiences can be exported after targeting in a workflow, using a dedicated **[!UICONTROL Update shared audience]** activity.
+* exporter des listes sous la forme d’audiences partagées Adobe Experience Cloud. Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez. L’export d’audiences peut être réalisé à la suite d’un ciblage dans un workflow, à l’aide d’une activité dédiée **[!UICONTROL Mise à jour d’audience partagée]**.
 
 >[!CAUTION]
 >
