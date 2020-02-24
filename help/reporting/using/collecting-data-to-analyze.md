@@ -32,7 +32,7 @@ Dans cette activité, trois méthodes distinctes sont proposées :
 
 Le choix de l&#39;une ou l&#39;autre des méthodes dépend du type de calcul à réaliser, du volume des données à manipuler, de leur pérennité, etc. Tous ces paramètres doivent être étudiés avec précision afin de ne pas surcharger la base Adobe Campaign et d&#39;optimiser la génération et la manipulation des rapports créés. Reportez-vous à ce propos à [cette page](../../reporting/using/best-practices.md#optimizing-report-creation).
 
-In all cases, data is collected via a **[!UICONTROL Query]** type activity.
+Dans tous les cas, les données sont collectées au travers d&#39;une activité de type **[!UICONTROL Requête]**.
 
 ![](assets/reporting_query_edit.png)
 
@@ -50,11 +50,11 @@ L&#39;exemple suivant permet de collecter le nombre de destinataires de chaque p
 
 Pour créer un rapport, vous pouvez utiliser les données d&#39;une liste de données importées.
 
-To do this, select the **[!UICONTROL Use an imported list]** option in the query box and select the concerned list.
+Pour cela, sélectionnez l&#39;option **[!UICONTROL Utiliser une liste importée]** dans la boîte de requête puis sélectionnez la liste concernée.
 
 ![](assets/reporting_query_from_list.png)
 
-Click the **[!UICONTROL Edit query...]** link to define the data to collect among the elements in this list for building the report.
+Cliquez sur le lien **[!UICONTROL Editer la requête...]** pour définir les données à collecter parmi les éléments de cette liste, pour la construction du rapport.
 
 ## Utiliser un cube {#using-a-cube}
 
@@ -64,7 +64,7 @@ Vous pouvez sélectionner un cube afin de définir la requête.
 
 Les cubes permettent d&#39;étendre les capacités d&#39;exploration et d&#39;analyse des données de la base, tout en simplifiant le paramétrage des rapports et tables pour les utilisateurs finaux : il suffit de sélectionner un cube existant, entièrement paramétré, pour en exploiter les calculs, mesures et statistiques. Pour plus d&#39;informations sur la création de cubes, consultez [cette section](../../reporting/using/about-cubes.md).
 
-Click the **[!UICONTROL Edit query...]** link and select the indicators that you want to display or use in your report.
+Cliquez sur le lien **[!UICONTROL Editer la requête...]** et sélectionnez les indicateurs que vous souhaitez afficher ou exploiter dans votre rapport.
 
 ![](assets/reporting_query_from_cube_edit_query.png)
 
@@ -74,9 +74,9 @@ Les données doivent être filtrées afin de ne pas exécuter de requêtes sur l
 
 ### Filtrage simplifié {#simplified-filter}
 
-You can select the **[!UICONTROL Filter automatically with the context]** option to make the report accessible via a specific node of the tree such as a list, a recipient, or a delivery.
+Vous pouvez sélectionner l&#39;option **[!UICONTROL Filtrer automatiquement avec le contexte]** pour rendre le rapport accessible depuis un noeud spécifique de l&#39;arborescence comme une liste, un destinataire, une diffusion.
 
-L’ **[!UICONTROL Filter with the folder]** option vous permet de spécifier un dossier et de ne prendre en compte que son contenu. Vous pouvez ainsi filtrer les données du rapport afin de n’afficher que les données de l’un des dossiers de l’arborescence, comme illustré ci-dessous :
+L&#39;option **[!UICONTROL Filtrer avec le dossier]** permet de spécifier un dossier précis pour ne prendre en compte que les éléments du dossier spécifié. Ainsi, vous pourrez filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence, comme ci-dessous :
 
 ![](assets/reporting_control_folder.png)
 
@@ -84,6 +84,6 @@ L’ **[!UICONTROL Filter with the folder]** option vous permet de spécifier un
 
 Paramétrez le nombre d&#39;enregistrements à extraire via la requête à l&#39;aide des options de limitation de résultat :
 
-* **[!UICONTROL Limit to first record]** pour extraire un résultat,
-* **[!UICONTROL Size]** pour extraire un nombre défini d’enregistrements.
+* **[!UICONTROL Limiter au premier enregistrement]** pour extraire un seul résultat,
+* **[!UICONTROL Taille]** pour extraire un nombre d&#39;enregistrements précis.
 
