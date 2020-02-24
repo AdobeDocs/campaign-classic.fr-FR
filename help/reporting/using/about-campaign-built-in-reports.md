@@ -26,7 +26,7 @@ Ce chapitre propose la liste des rapports intégrés d&#39;Adobe Campaign, leur
 
 >[!NOTE]
 >
->Vous pouvez également apprendre à ajouter vos propres rapports à l’ **[!UICONTROL Reports]** onglet. Pour plus d&#39;informations, consultez cette [page](../../reporting/using/configuring-access-to-the-report.md#defining-the-filtering-options).
+>Vous pouvez également apprendre à ajouter vos propres rapports à l’onglet **[!UICONTROL Rapports]** . Pour plus d&#39;informations, consultez cette [page](../../reporting/using/configuring-access-to-the-report.md#defining-the-filtering-options).
 
 Ces rapports et leur contenu sont décrits dans les documents relatifs aux fonctionnalités auxquelles ils se rapportent.
 
@@ -42,7 +42,7 @@ Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cli
 
 Pour accéder aux rapports intégrés de Campaign :
 
-1. Sélectionnez l’ **[!UICONTROL Reports]** onglet de l’interface Adobe Campaign.
+1. Sélectionnez l’onglet **[!UICONTROL Rapports]** de l’interface Adobe Campaign.
 
    ![](assets/reporting_access_from_home.png)
 
