@@ -69,7 +69,7 @@ Lorsque vous incluez des offres dans des remises, les offres sont généralement
 
 Lorsque vous sélectionnez des offres dans une activité d’enrichissement, vous pouvez choisir l’espace d’offre à utiliser. Cependant, quel que soit l’espace d’offre sélectionné, le menu de personnalisation de la remise dépend de l’espace d’offre configuré dans la remise.
 
-Dans l’exemple ci-dessous, l’espace d’offre sélectionné dans la remise est **[!UICONTROL Email (Environment - Recipient)]**:
+Dans l’exemple ci-dessous, l’espace d’offre sélectionné dans la remise est **[!UICONTROL Courriel (Environnement - Destinataire)]**:
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
@@ -81,7 +81,7 @@ Dans l’exemple ci-dessous, la fonction de rendu HTML est disponible dans la li
 
 Cette fonction insère du code tel que : `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
-Lorsque vous sélectionnez la proposition, la valeur de l’ **[!UICONTROL view]** attribut est la suivante :
+Lorsque vous sélectionnez la proposition, la valeur de l’attribut **[!UICONTROL vue]** est la suivante :
 * &quot;render/html&quot; : rendu HTML. Il utilise la fonction de rendu HTML.
 * &quot;offer/view/html&quot; : contenu HTML. Il n’utilise pas la fonction de rendu HTML. Il inclut uniquement le champ HTML.
 
