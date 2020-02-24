@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## Définition du périmètre {#definition-of-the-scope}
 
-Open the **[!UICONTROL Scope]** tab to choose your settings.
+Positionnez-vous dans l&#39;onglet **[!UICONTROL Périmètre]** pour choisir vos paramètres.
 
 Vous devez définir obligatoirement :
 
@@ -51,9 +51,9 @@ Vous pouvez également choisir d&#39;effectuer la simulation sur toutes les offr
 
 ## Ajout d&#39;axes de reporting {#adding-reporting-axes}
 
-You can enhance the simulation analysis by adding reporting axes on the target or the offers themselves via the **[!UICONTROL Calculations]** tab.
+Vous pouvez enrichir l&#39;analyse de la simulation en ajoutant des axes de reporting sur la cible ou les offres elles-mêmes depuis l&#39;onglet **[!UICONTROL Calculs]**.
 
-Pour ce faire, cliquez sur le **[!UICONTROL Add]** bouton et choisissez les champs appropriés. Les axes seront utilisés pour le calcul de la simulation et sont affichés dans le rapport d’analyse. For more on this, refer to [Simulation tracking](../../interaction/using/simulation-tracking.md).
+To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. Axes will be used for calculating the simulation and are displayed in the analysis report. For more on this, refer to [Simulation tracking](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)
 
