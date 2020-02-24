@@ -32,7 +32,7 @@ Le type d&#39;interface Web **par formulaire** implique l&#39;utilisation d&#39;
 >
 >L&#39;application Web utilisée dans cet exemple n&#39;est pas une application Web native d&#39;Adobe Campaign. Pour utiliser un formulaire dans une opération, vous devez créer l&#39;application Web dédiée.
 
-When creating the campaign template, click the **[!UICONTROL Zoom]** icon within the **[!UICONTROL Web interface]** option of the **[!UICONTROL Advanced campaign settings...]** link to access details of the Web application.
+Lors de la création du modèle d&#39;opération, cliquez sur l&#39;icône **[!UICONTROL Loupe]** de l&#39;option **[!UICONTROL Interface web]** du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** pour accéder aux détails de l&#39;application Web.
 
 ![](assets/mkg_dist_local_op_form1.png)
 
@@ -40,7 +40,7 @@ When creating the campaign template, click the **[!UICONTROL Zoom]** icon within
 >
 >Le paramétrage de l&#39;application Web n&#39;est disponible qu&#39;au niveau du modèle d&#39;opération.
 
-In the **[!UICONTROL Edit]** tab, select the **Campaign order** activity and open it to access its content.
+Dans l&#39;onglet **[!UICONTROL Edition]**, sélectionnez l&#39;activité **Commande d&#39;opération** et ouvrez-la pour accéder à son contenu.
 
 ![](assets/mkg_dist_web_app1.png)
 
@@ -101,7 +101,7 @@ Les étapes sont les suivantes :
 
 **Pour l&#39;entité centrale :**
 
-1. Créez une **[!UICONTROL Data distribution]** activité.
+1. Créez une activité **[!UICONTROL Répartition de données]**.
 1. Créez l&#39;opération collaborative.
 1. Publiez l&#39;opération.
 
@@ -111,7 +111,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_target_valid8.png)
 
-1. By clicking the **[!UICONTROL Access your contact list and approve targeting]** link, the local entity is given access (via Web browser) to the list of clients selected for the campaign.
+1. En cliquant sur le lien **[!UICONTROL Accéder à votre liste de contacts et valider le ciblage]**, l&#39;entité locale a accès, depuis un navigateur Web, à la liste de ses clients sélectionnés pour l&#39;opération.
 
    ![](assets/mkg_dist_use_case_target_valid9.png)
 
@@ -125,35 +125,35 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 #### Créer une activité Répartition de données {#creating-a-data-distribution-activity}
 
-1. Pour configurer une campagne collaborative (par approbation de la cible), vous devez d’abord créer une **[!UICONTROL Data distribution activity]** campagne. Cliquez sur l’ **[!UICONTROL New]** icône dans le **[!UICONTROL Resources > Campaign management > Data distribution]** noeud.
+1. Pour mettre en place une opération collaborative par validation de la cible, vous devez tout d&#39;abord créer une activité **[!UICONTROL Répartition de données]**. A partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Répartition de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
-1. In the **[!UICONTROL General]** tab, you must specify:
+1. Dans l&#39;onglet **[!UICONTROL Général]** vous devez indiquer :
 
-   * the **[!UICONTROL Targeting dimension]**. Here the **Data distribution** is carried out on the **Recipients**.
-   * the **[!UICONTROL Distribution type]**. You can choose a **Fixed size** or a **Size as a percentage**.
-   * the **[!UICONTROL Assignment type]**. Select the **Local entity** option.
-   * the **[!UICONTROL Distribution type]**. Here, it is the **[!UICONTROL Origin (@origin)]** field present in the Recipient table that lets you identify the relationship between the contact and the local entity.
-   * Champ **[!UICONTROL Approval storage]** . Sélectionnez l’option d’approbation **locale du destinataire** .
+   * la **[!UICONTROL Dimension de ciblage]**. Ici la **Répartition de données** s&#39;effectue sur les **Destinataires**.
+   * le **[!UICONTROL Type de répartition]**. Vous pouvez choisir une **taille fixe** ou une **taille en pourcentage**.
+   * le **[!UICONTROL Type d&#39;affectation]**. Choisissez l&#39;option **Entité locale**.
+   * le **[!UICONTROL Champ de répartition]**. Ici, c&#39;est le champ **[!UICONTROL Origine (@origin)]** présent dans la table des Destinataires qui vous permet d&#39;identifier la relation entre le contact et l&#39;entité locale.
+   * Le champ **[!UICONTROL Stockage des validations]**. Choisissez l&#39;option **Validation en local d&#39;un destinataire**.
 
-1. In the **[!UICONTROL Breakdown]** tab, specify:
+1. Dans l&#39;onglet **[!UICONTROL Répartition]**, indiquez :
 
-   * the **[!UICONTROL Distribution field value]**, which corresponds to the local entities involved in the upcoming campaign.
-   * the local entity **[!UICONTROL label]**.
-   * le **[!UICONTROL Size]** (fixe ou en pourcentage). La valeur **par défaut** 0 implique la sélection de tous les destinataires liés à l’entité locale.
+   * la **[!UICONTROL Valeur du champ de répartition]**, qui correspond aux entités locales impliquées dans l&#39;opération à venir.
+   * le **[!UICONTROL libellé]** de l&#39;entité locale.
+   * la **[!UICONTROL taille]** (fixe ou en pourcentage) choisie. La **valeur par défaut 0** implique la sélection de tous les destinataires liés à l&#39;entité locale.
    ![](assets/mkg_dist_use_case_target_valid4.png)
 
 1. Enregistrez votre nouvelle boîte de répartition.
 
 #### Créer une opération collaborative {#creating-a-collaborative-campaign}
 
-1. A partir du **[!UICONTROL Campaign management > Campaign]** noeud, créez un nouveau **[!UICONTROL collaborative campaign (by target approval)]**.
-1. Dans l’ **[!UICONTROL Targeting and workflows]** onglet, créez un processus pour votre campagne. Il doit contenir une activité **fractionnée** dans laquelle le **[!UICONTROL Record count limitation]** code est défini par l’ **[!UICONTROL Data distribution]** activité.
+1. A partir du noeud **[!UICONTROL Gestion de campagne > Opération]**, créez une nouvelle **[!UICONTROL opération collaborative par validation de la cible]**.
+1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]**, créez un workflow pour votre opération. Celui-ci doit contenir une activité de **Partage** dont la **[!UICONTROL limitation du nombre d&#39;enregistrements]** est définie par l&#39;activité **[!UICONTROL Répartition de données]**.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)
 
-1. Add a **[!UICONTROL Local approval]** action where you can specify:
+1. Ajoutez une action **[!UICONTROL Validation en local]** où vous pouvez définir :
 
    * le contenu du message qui sera envoyé aux entités locales lors de la notification,
    * le rappel pour la validation,
@@ -166,7 +166,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 Vous pouvez désormais créer un **kit d&#39;opération** à partir de l&#39;univers **Campagnes**.
 
-1. Choisis ton **[!UICONTROL Reference campaign]**. Dans l’ **[!UICONTROL Edit]** onglet de votre pack, vous pouvez sélectionner le **[!UICONTROL Approval mode]** à utiliser pour votre campagne :
+1. Choisissez votre **[!UICONTROL Opération de référence]**. Dans l&#39;onglet **[!UICONTROL Edition]** de votre kit, vous pouvez choisir le **[!UICONTROL Mode de validation]** que vous souhaitez utiliser pour votre opération :
 
    * avec le mode **Manuel**, les entités locales participent à l&#39;opération si elles acceptent l&#39;invitation de l&#39;entité centrale. Elles peuvent supprimer des contacts pré-sélectionnés si elles le souhaitent et une validation d&#39;un manager est obligatoire pour confirmer la participation.
    * avec le mode **Automatique**, les entités locales participent obligatoirement à l&#39;opération, à moins qu&#39;elles ne s&#39;en désinscrivent. Elles peuvent supprimer des contacts sans qu&#39;aucune validation ne soit demandée.
@@ -205,7 +205,7 @@ Les étapes sont les suivantes :
 **Pour l&#39;entité centrale :**
 
 1. Créez l&#39;opération collaborative.
-1. Configurez le **[!UICONTROL Advanced campaign settings...]** comme vous le feriez pour une campagne locale.
+1. Paramétrez les **[!UICONTROL Paramètres avancés de l&#39;opération...]** comme pour une opération locale.
 1. Paramétrez le workflow de l&#39;opération et la diffusion comme pour une opération locale.
 1. Mettez à jour le formulaire web.
 1. Créez le kit d&#39;opération et publiez.
@@ -234,7 +234,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. Dans l’ **[!UICONTROL Edit]** onglet de la campagne, cliquez sur le **[!UICONTROL Advanced campaign settings...]** lien pour la configurer en tant que campagne locale. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
+1. **[!UICONTROL Dans l’onglet]** Modifier **[!UICONTROL de la campagne, cliquez sur les paramètres de campagne]** avancés... pour le configurer en tant que campagne locale. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 
@@ -243,7 +243,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_form_3.png)
 
-1. Finalize the package configuration by selecting the approval mode in the **[!UICONTROL Edit]** tab.
+1. Finalisez le paramétrage du kit en choisissant le mode de validation dans l&#39;onglet **[!UICONTROL Edition]**.
 
    ![](assets/mkg_dist_use_case_form_4.png)
 
