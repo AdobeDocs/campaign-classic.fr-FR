@@ -42,17 +42,17 @@ Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue 
 
    C&#39;est ce titre qui apparaîtra en tête de la vue d&#39;ensemble, ainsi que dans l&#39;aperçu de l&#39;application web.
 
-1. In the Web application properties, modify the rendering of your application by selecting the **[!UICONTROL Single-page Web application]** template.
+1. Dans les propriétés de l&#39;application web, modifiez le rendu de votre application web en sélectionnant le modèle **[!UICONTROL Application web Mono-page]**.
 
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
-1. Open the **[!UICONTROL Page]** activity of your Web application and open a list (**[!UICONTROL Static element > List]**).
-1. Dans l’ **[!UICONTROL Data]** onglet de votre liste, sélectionnez le type de **[!UICONTROL Web applications]** document et les colonnes **[!UICONTROL Label]** , **[!UICONTROL Creation date]** et **[!UICONTROL Type of application]** de sortie.
-1. In the **[!UICONTROL Filter]** sub-tab, create the following filter as shown below in order to display Web applications only and exclude templates from your view.
+1. Ouvrez l&#39;activité **[!UICONTROL Page]** de votre application web et créez une liste (**[!UICONTROL Elément statique > Liste]**).
+1. Dans l&#39;onglet **[!UICONTROL Données]** de votre liste, sélectionnez le type de document **[!UICONTROL Applications Web]** et les colonnes de sortie **[!UICONTROL Libellé]**, **[!UICONTROL Créé le]** et **[!UICONTROL Type d&#39;application]**.
+1. Dans le sous-onglet **[!UICONTROL Filtre]**, créez le filtre suivant comme illustré ci-dessous pour n&#39;afficher que les applications web et exclure les modèles de votre vue.
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
 
-1. Close the configuration window of your page and click **[!UICONTROL Preview]**.
+1. Fermez la fenêtre de paramétrage de votre page et cliquez sur **[!UICONTROL Prévisualisation]**.
 
    La liste des applications Web disponibles dans votre base de données s&#39;affiche.
 
@@ -62,8 +62,8 @@ Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue 
 
 Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines données en fonction de leur emplacement dans l&#39;arborescence Adobe Campaign. Il s&#39;agit d&#39;un filtre sur dossier. Procédez comme suit pour l&#39;ajouter dans votre vue d&#39;ensemble.
 
-1. Placez votre curseur sur le **[!UICONTROL Page]** noeud de votre application Web et ajoutez un **[!UICONTROL Select folder]** élément (**[!UICONTROL Advanced controls > Select folder]**).
-1. Dans la **[!UICONTROL Storage]** fenêtre qui s&#39;affiche, cliquez sur le **[!UICONTROL Edit variables]** lien.
+1. Positionnez-vous sur le noeud **[!UICONTROL Page]** de votre application Web et ajoutez un élément **[!UICONTROL Choix de dossier]** (**[!UICONTROL Contrôle avancés > Choix de dossier]**).
+1. Dans la fenêtre **[!UICONTROL Stockage]** qui s&#39;affiche, cliquez sur le lien **[!UICONTROL Editer les variables]**.
 1. Modifiez le libellé de la variable à votre convenance.
 1. Modifiez le nom de la variable avec la valeur **folder**.
 
@@ -75,11 +75,11 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 
    ![](assets/s_ncs_configuration_webapp_variable_xml.png)
 
-1. Sélectionnez l’ **[!UICONTROL Refresh page]** interaction.
+1. Sélectionnez l&#39;interaction **[!UICONTROL Actualiser la page]**.
 
    ![](assets/s_ncs_configuration_webapp_variable.png)
 
-1. Placez votre curseur sur votre liste, puis dans l’ **[!UICONTROL Advanced]** onglet, référencez la variable précédemment créée dans l’ **[!UICONTROL Folder filter XPath]** onglet de la liste. Vous devez utiliser le nom de l’élément concerné par le lien du dossier, c’est-à-dire le **dossier**.
+1. Placez votre curseur sur votre liste et, dans l’onglet **[!UICONTROL Avancé]** , référencez la variable précédemment créée dans l’onglet XPath **[!UICONTROL du filtre]** Dossier de la liste. Vous devez utiliser le nom de l’élément concerné par le lien du dossier, c’est-à-dire le **dossier**.
 
    ![](assets/s_ncs_configuration_webapp_variable002.png)
 
@@ -89,7 +89,7 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 
 ## Ajouter un bouton pour paramétrer une nouvelle application web {#adding-a-button-to-configure-a-new-web-application}
 
-1. Placez votre curseur sur l’ **[!UICONTROL Page]** élément et ajoutez un lien (**[!UICONTROL Static elements > Link]**).
+1. Positionnez-vous sur l&#39;élément **[!UICONTROL Page]** et ajoutez un lien (**[!UICONTROL Eléments statiques > Lien]**).
 1. Modifiez le libellé du lien car il apparaîtra sur le bouton dans la vue d&#39;ensemble.
 
    Dans notre exemple, le libellé est **Nouveau**.
@@ -105,11 +105,11 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 1. Choisissez d&#39;afficher l&#39;URL dans la même fenêtre.
 1. Add the Web application icon in the image field: **/nms/img/webApp.png**.
 
-   This icon will appear on the **[!UICONTROL New]** button.
+   Cette icône apparaîtra sur le bouton **[!UICONTROL Nouveau]**.
 
 1. Entrez **button** dans le champ **[!UICONTROL Style]**.
 
-   This style is referred to in the **[!UICONTROL Single-page Web application]** template selected previously.
+   Ce style est référencé dans le modèle **[!UICONTROL Application Web Mono-page]** sélectionné précédemment.
 
    ![](assets/s_ncs_configuration_webapp_link.png)
 
@@ -118,17 +118,17 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 Lorsque vous paramétrez une liste dans votre vue d&#39;ensemble, vous pouvez choisir d&#39;afficher des détails supplémentaires pour chaque entrée de votre liste.
 
 1. Positionnez-vous sur votre élément liste créé précédemment.
-1. Dans l’ **[!UICONTROL General]** onglet, sélectionnez le mode **[!UICONTROL Columns and additional detail]** d’affichage dans la liste déroulante.
+1. Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez le mode d&#39;affichage **[!UICONTROL Colonnes et détail additionnel]** dans la liste déroulante.
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. Dans l’ **[!UICONTROL Data]** onglet, ajoutez les colonnes **[!UICONTROL Primary key]** , **[!UICONTROL Internal name]** et **[!UICONTROL Description]** et sélectionnez l’ **[!UICONTROL Hidden field]** option correspondante.
+1. Dans l&#39;onglet **[!UICONTROL Données]**, ajoutez les colonnes **[!UICONTROL Clé primaire]**, **[!UICONTROL Nom interne]** et **[!UICONTROL Description]** et cochez l&#39;option **[!UICONTROL Champ non visible]** pour chacune d&#39;elles.
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 
    De cette façon, ces informations ne seront visibles qu&#39;au niveau du détail de chaque entrée.
 
-1. In the **[!UICONTROL Additional detail]** tab, add the following code:
+1. Dans l&#39;onglet **[!UICONTROL Détail additionnel]**, ajoutez le code suivant :
 
    ```
    <div class="detailBox">
@@ -171,7 +171,7 @@ Dans cette section, vous allez créer un filtre afin d&#39;afficher dans la vue 
 
 Ces deux éléments seront rassemblés dans un même conteneur afin de les regrouper graphiquement dans la vue d&#39;ensemble.
 
-1. Place your cursor on the **[!UICONTROL Page]** element and select **[!UICONTROL Container > Standard]**.
+1. Positionnez-vous au niveau de l&#39;élément **[!UICONTROL Page]** et sélectionnez les menus **[!UICONTROL Conteneur > Standard]**.
 1. Paramétrez le nombre de colonnes à **2**, afin que l&#39;éditeur de lien et le lien soient côte à côte.
 
    ![](assets/s_ncs_configuration_webapp_container.png)
@@ -180,26 +180,26 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
 1. Appliquez **dottedFilter**.
 
-   This style is referred to in the **[!UICONTROL Single-page Web applicatio]** n template selected previously.
+   Ce style est référencé dans le modèle **[!UICONTROL Application Web Mono-page]** sélectionné précédemment.
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 
 ### Créer un filtre à l&#39;aide d&#39;un éditeur de lien {#creating-a-filter-using-a-link-editor}
 
-1. Place your cursor on the container created during the previous stage and insert a link editor via the **[!UICONTROL Advanced controls]** menu.
-1. In the storage window which opens automatically, select the **[!UICONTROL Variables]** option, then click the **[!UICONTROL Edit variables]** link and create an XML variable for filtering data.
+1. Positionnez-vous sur le conteneur créé à l&#39;étape précédente et insérez un éditeur de lien depuis le menu **[!UICONTROL Contrôles avancés]**.
+1. Dans la fenêtre de stockage qui s&#39;ouvre automatiquement, sélectionnez l&#39;option **[!UICONTROL Variable]** puis cliquez sur le lien **[!UICONTROL Editer les variables]** et créez une variable de type XML qui servira à filtrer les données.
 
    ![](assets/s_ncs_configuration_webapp_variable003.png)
 
 1. Modifiez le libellé.
 
-   It will appear next to the **[!UICONTROL Filter]** field in the overview.
+   Il apparaîtra à côté du champ **[!UICONTROL Filtre]** dans la vue d&#39;ensemble.
 
 1. Choisissez la table des Opérateurs comme schéma d&#39;application.
 
    ![](assets/s_ncs_configuration_webapp_linkeditor.png)
 
-1. Place your cursor on the list element and create a filter via the **[!UICONTROL Data > Filter]** tab:
+1. Positionnez-vous sur l&#39;élément liste et créez un filtre depuis l&#39;onglet **[!UICONTROL Données > Filtre]** :
 
    * **Expression :** clé étrangère du lien &#39;Créé par&#39;
    * **Opérateur :** égal à
@@ -213,9 +213,9 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
 ### Créer un lien d&#39;actualisation {#creating-a-refresh-link}
 
-1. Place the cursor on the container and insert a **[!UICONTROL Link]** via the **[!UICONTROL Static elements]** menu.
+1. Positionnez-vous au niveau du conteneur et insérez un **[!UICONTROL Lien]** depuis le menu **[!UICONTROL Elément statique]**.
 1. Modifiez le libellé.
-1. Sélectionner **[!UICONTROL Refresh data in a list]**.
+1. Choisissez l&#39;action **[!UICONTROL Actualiser les données d&#39;une liste]**.
 1. Ajoutez la liste créée précédemment.
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
@@ -225,7 +225,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)
 
-L&#39;application Web est maintenant configurée. Vous pouvez cliquer sur l’ **[!UICONTROL Preview]** onglet pour le prévisualiser.
+L&#39;application Web est maintenant paramétrée. Vous pouvez cliquer sur l&#39;onglet **[!UICONTROL Prévisualisation]** pour en avoir un aperçu.
 
 ![](assets/s_ncs_configuration_webapp_result.png)
 
