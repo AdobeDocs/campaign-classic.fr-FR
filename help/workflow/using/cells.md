@@ -22,15 +22,15 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Cellules{#cells}
 
-L’ **[!UICONTROL Cells]** activité fournit une vue des différents sous-ensembles sous la forme de colonnes de données. Il facilite la manipulation des sous-ensembles et est également conçu pour encourager les possibilités de personnalisation.
+L&#39;activité **[!UICONTROL Cellules]** propose une vue des différents sous-ensembles sous forme de colonnes de données. Elle permet de faciliter la manipulation de ces sous-ensembles, lorsqu&#39;ils sont nombreux. Elle est également conçue pour favoriser les possibilités de personnalisation.
 
 ![](assets/wf_split_cells.png)
 
-Cette activité peut être configurée pour entrer des paramètres spécifiques en fonction des besoins de l’utilisateur. Par défaut, les détails de chaque sous-ensemble sont détaillés dans une fenêtre dédiée via les **[!UICONTROL Selection]** onglets et les **[!UICONTROL Advanced]** . Dans l’exemple ci-dessous, le formulaire a été modifié : un **[!UICONTROL Data]** onglet a été ajouté pour activer l’association d’une offre et un niveau de priorité pour chaque sous-ensemble.
+Cette activité peut être configurée afin de renseigner des paramètres spécifiques, selon les besoins de l&#39;utilisateur. Par défaut, le détail de chaque sous-ensemble est décrit dans une fenêtre dédiée au travers des onglets **[!UICONTROL Sélection]** et **[!UICONTROL Avancé]**. Dans l&#39;exemple ci-dessous, le formulaire a été modifié : un onglet **[!UICONTROL Données]** a été ajouté afin de permettre l&#39;association d&#39;une offre et d&#39;un niveau de priorité à chaque sous-ensemble.
 
 ![](assets/wf_split_cells_with_customization.png)
 
-For this configuration, the following information was added to the workflow form (in the **[!UICONTROL Administration > Configurations > Input forms]** node of the Adobe Campaign tree):
+Pour réaliser ce paramétrage, les informations suivantes ont été ajoutées dans le formulaire des workflows (sous le noeud **[!UICONTROL Administration > Paramétrages > Formulaires de saisie]** de l&#39;arborescence Adobe Campaign) :
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">
