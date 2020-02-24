@@ -99,7 +99,7 @@ vacuum full nmsdelivery;
 >* Adobe recommande d&#39;ajouter tables spécifiques à votre modèle de données, notamment celles qui subissent des mises à jour massives. Par exemple, cela peut être le cas pour **NmsRecipient** si vous procédez chaque jour à d&#39;importantes réplications de données.
 >* The **vacuum** and **re-index** commands will lock the table, which pauses some processes while maintenance is carried out.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), le **vide complet** peut devenir assez inefficace et prendre beaucoup de temps. Adobe déconseille de l’utiliser pour la table **YyyNmsBroadLogXxx** .
->* Cette opération de maintenance peut être implémentée par un flux de travaux Adobe Campaign à l’aide d’une **[!UICONTROL SQL]** activité (pour plus d’informations, reportez-vous à [cette section](../../workflow/using/executing-a-workflow.md#architecture)). Veillez à programmer la maintenance pour un temps d’activité faible qui n’entre pas en conflit avec votre fenêtre de sauvegarde.
+>* Cette opération de maintenance peut être effectuée par un workflow d’Adobe Campaign via une activité de type **[!UICONTROL SQL]** (voir à ce sujet [cette section](../../workflow/using/executing-a-workflow.md#architecture)). Assurez-vous de lancer la maintenance pendant une période de faible activité et en dehors des périodes de sauvegarde.
 >
 
 
@@ -373,19 +373,19 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l’administrateur de base de données pour connaître les procédures de maintenance de cette version.
 
 1. Connectez-vous à Microsoft SQL Server Management Studio avec un identifiant auquel ont été attribués des droits administrateur.
-1. Accédez au **[!UICONTROL Management > Maintenance Plans]** dossier, cliquez dessus avec le bouton droit de la souris et choisissez **[!UICONTROL Maintenance Plan Wizard]**
-1. Click **[!UICONTROL Next]** when the first page comes up.
-1. Select the type of maintenance plan you want to create (separate schedules for each task or single schedule for the whole plan), then click the **[!UICONTROL Change...]** button.
-1. Dans la **[!UICONTROL Job schedule properties]** fenêtre, sélectionnez les paramètres d’exécution de votre choix, cliquez sur **[!UICONTROL OK]** , puis sur **[!UICONTROL Next]** .
-1. Select the maintenance tasks you want to perform, then click **[!UICONTROL Next]** .
+1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]** dans le menu contextuel.
+1. Cliquez sur **[!UICONTROL Suivant]** lorsque la page d&#39;accueil s&#39;affiche.
+1. Choisissez le type de plan de maintenance que vous souhaitez créer (exécution de la maintenance en une fois ou création d&#39;un plan pour chaque tâche de maintenance), puis cliquez sur **[!UICONTROL Modifier]**.
+1. Dans la fenêtre **[!UICONTROL Propriétés de la planification du travail]**, choisissez les paramètres d&#39;exécution voulus et cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Suivant]** .
+1. Sélectionnez les tâches de maintenance à effectuer comme illustré ci-dessous puis cliquez sur **[!UICONTROL Suivant]** .
 
    >[!NOTE]
    >
    >Nous vous conseillons d&#39;effectuer au moins les tâches de maintenance comme illustré ci-dessus. Vous pouvez également sélectionner la tâche de mise à jour des statistiques si vous le souhaitez, sachant que cette tâche est déjà effectuée par le workflow de nettoyage de la base.
 
-1. In the drop-down list, select the database which you want to run the **[!UICONTROL Database Check Integrity]** task on.
-1. Select the database and click **[!UICONTROL OK]** , then click **[!UICONTROL Next]** .
-1. Configure the maximum size allocated to your database, then click **[!UICONTROL Next]** .
+1. Dans la liste déroulante, sélectionnez la base sur laquelle vous souhaitez effectuer la tâche **[!UICONTROL Vérifier l&#39;intégrité de la base de données]**.
+1. Sélectionnez la base concernée et cliquez sur **[!UICONTROL OK]** puis **[!UICONTROL Suivant]** .
+1. Configurez la taille maximale allouée à votre base de données puis cliquez sur **[!UICONTROL Suivant]** .
 
    >[!NOTE]
    >
@@ -395,7 +395,7 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
 
    * Si le taux de fragmentation de l&#39;index est compris entre 10% et 40%, il est recommandé d&#39;effectuer une réorganisation :
 
-      Choose which databases and objects (tables or views) you want to reorganize, then click **[!UICONTROL Next]** .
+      Choisissez la base de données et les objets (tables ou vues) dont vous voulez réorganiser l&#39;index puis cliquez sur **[!UICONTROL Suivant]** .
 
       >[!NOTE]
       >
@@ -403,22 +403,22 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
 
    * Si le taux de fragmentation de l&#39;index est supérieur à 40%, il est recommandé d&#39;effectuer une reconstruction :
 
-      Select the options you want to apply to the index rebuild task, then click **[!UICONTROL Next]** .
+      Choisissez les options de la tâche de reconstruction de l&#39;index puis cliquez sur **[!UICONTROL Suivant]** .
 
       >[!NOTE]
       >
-      >Le processus de reconstruction de l&#39;index est plus contraignant en termes d&#39;utilisation du processeur et verrouille les ressources de la base de données. Sélectionnez l’ **[!UICONTROL Keep index online while reindexing]** option si vous souhaitez que l’index soit disponible lors de la reconstruction.
+      >Le processus de reconstruction de l&#39;index est plus contraignant en termes d&#39;utilisation du processeur et verrouille les ressources de la base de données. Cochez l&#39;option **[!UICONTROL Keep index online while reindexing]** (Conserver l&#39;index en ligne lors de la réindexation) si vous souhaitez que l&#39;index soit disponible pendant la reconstruction.
 
-1. Select the options you want to display in the activity report, then click **[!UICONTROL Next]** .
-1. Check the list of tasks configured for the maintenance plan, then click **[!UICONTROL Finish]** .
+1. Choisissez les options du rapport d&#39;activité des tâches de maintenance puis cliquez sur **[!UICONTROL Suivant]** .
+1. Vérifiez la liste des tâches du plan de maintenance puis cliquez sur **[!UICONTROL Terminer]** .
 
    L&#39;état d&#39;avancement du plan de maintenance et le statut des différentes étapes s&#39;affiche à l&#39;écran.
 
-1. Once the maintenance plan is complete, click **[!UICONTROL Close]** .
-1. Dans l’explorateur Microsoft SQL Server, double-cliquez sur le **[!UICONTROL Management > Maintenance Plans]** dossier.
+1. Lorsque le plan de maintenance est arrivé à son terme, cliquez sur **[!UICONTROL Fermer]** .
+1. Dans l’explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
 1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
 
-   Notez qu’un objet a été créé dans le **[!UICONTROL SQL Server Agent > Jobs]** dossier. Cet objet vous permet de démarrer le plan de maintenance. Dans notre exemple, il n&#39;y a qu&#39;un seul objet puisque toutes les tâches de maintenance font partie du même plan.
+   Vous remarquerez qu&#39;un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Travaux]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple il n&#39;y a qu&#39;un seul objet car toutes les tâches de maintenance font partie du même plan de maintenance.
 
    >[!CAUTION]
    >
