@@ -24,11 +24,11 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 L&#39;activité **Signal externe** permet de déclencher l&#39;exécution d&#39;un ensemble de tâches dans un workflow par programmation.
 
-Lorsqu’une tâche &quot;Signal externe&quot; est activée, elle est suspendue indéfiniment ou jusqu’à la fin de la période spécifiée. Sa transition est activée par l’appel SOAP **PostEvent(sessionToken, workflowId, activité, transition, paramètres, complete).** Le **[!UICONTROL complete]** paramètre permet à la tâche d’être terminée, de sorte qu’elle ne réagira pas aux appels suivants.
+Lorsqu’une tâche &quot;Signal externe&quot; est activée, elle est suspendue indéfiniment ou jusqu’à la fin de la période spécifiée. Sa transition est activée par l’appel SOAP **PostEvent(sessionToken, workflowId, activité, transition, paramètres, complete).** Le paramètre **[!UICONTROL complete]** permet à la tâche d’être terminée. Il ne réagira donc pas aux appels suivants.
 
 Reportez-vous à la documentation en ligne sur les appels SOAP pour plus d&#39;information sur la fonction PostEvent.
 
-Vous pouvez configurer cette activité afin de définir des événements si aucun signal n’est reçu. Pour ce faire, modifiez l’activité et cliquez sur l’ **[!UICONTROL Expiration]** onglet. Cliquez sur le **[!UICONTROL Insert]** bouton pour créer et configurer un événement.
+Vous pouvez paramétrer cette activité afin de définir des événements en cas de non-réception de signal. Pour cela, éditez l&#39;activité et cliquez sur l&#39;onglet **[!UICONTROL Expiration]**. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer et paramétrer un événement.
 
 ![](assets/edit_signal.png)
 
