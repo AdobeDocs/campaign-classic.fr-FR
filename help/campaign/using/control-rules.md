@@ -28,26 +28,26 @@ Les règles de contrôle permettent de s&#39;assurer de la validité et la quali
 
 Un ensemble de règles livrées d&#39;usine assurent les contrôles usuels. Ces règles, qui apparaissent en gras dans l&#39;interface, sont les suivantes :
 
-* **[!UICONTROL Object approval]** (adresse électronique) : vérifie que l&#39;objet et l&#39;adresse de l&#39;expéditeur ne contiennent pas de caractères spéciaux pouvant entraîner des problèmes pour certains agents de messagerie.
-* **[!UICONTROL URL label approval]** (adresse électronique) : vérifie que chaque URL de suivi possède une étiquette.
-* **[!UICONTROL URL approval]** (adresse électronique) : vérifie les URL de suivi (présence du caractère &quot;&amp;&quot;).
-* **[!UICONTROL Message size approval]** (mobile) : vérifie la taille des messages SMS.
-* **[!UICONTROL Validity period check]** (adresse électronique) : vérifie que la période de validité de la remise est suffisamment longue pour envoyer tous les messages.
-* **[!UICONTROL Proof size check]** (tous les canaux) : génère un message d’erreur si la population cible de la preuve dépasse 100 destinataires.
-* **[!UICONTROL Wave scheduling check]** (adresse électronique) : vérifie que la dernière vague de livraisons doit commencer avant la fin de la période de validité, si la livraison est ventilée en plusieurs vagues.
-* **[!UICONTROL Unsubscription link approval]** (adresse électronique) : vérifie la présence d’au moins une URL de désabonnement (exclusion) dans chaque contenu (HTML et texte).
+* **[!UICONTROL Validation du sujet]** (email) : vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents mail.
+* **[!UICONTROL Validation des libellés d&#39;URL]** (email) : vérifie la présence d&#39;un libellé pour chaque URL de tracking.
+* **[!UICONTROL Validation des URL]** (email) : vérifie les URL de tracking (présence du caractère &quot;&amp;&quot;).
+* **[!UICONTROL Validation de la taille du message]** (mobile) : vérifie la taille des messages SMS.
+* **[!UICONTROL Vérification de la durée de validité]** (email) : vérifie que la durée de validité de la diffusion est suffisante pour l&#39;envoi de tous les messages.
+* **[!UICONTROL Vérification de la taille des BAT]** (tous les canaux) : génère un message d&#39;erreur si la population cible d&#39;un BAT dépasse 100 destinataires.
+* **[!UICONTROL Vérification de la planification des vagues]** (email) : vérifie que la dernière vague d&#39;envoi est planifiée avant la fin de validité de la diffusion, lorsque la diffusion est envoyée en plusieurs vagues.
+* **[!UICONTROL Validation du lien de désinscription]** (email) : vérifie la présence d&#39;au moins une URL de désinscription (URL de type opt-out) dans chacun des contenus (HTML et Texte).
 
 ## Créer une règle de contrôle {#creating-a-control-rule}
 
-Il est possible de créer de nouvelles règles de contrôle en fonction de vos besoins. Pour ce faire, créez une règle **[!UICONTROL Control]** de typologie et saisissez la formule de contrôle dans SQL dans l’ **[!UICONTROL Code]** onglet.
+Afin de répondre à vos besoins, vous pouvez définir de nouvelles règles de contrôle. Pour cela, créez une règle de typologie de type **[!UICONTROL Contrôle]** et saisissez la formule de contrôle en SQL dans l&#39;onglet **[!UICONTROL Code]**.
 
-**Exemple:**
+**Exemple :**
 
 Dans l&#39;exemple suivant, nous allons créer une règle afin de ne pas diffuser une offre par SMS à plus de 100 destinataires. Cette règle sera référencée dans une typologie de campagne qui sera associée aux diffusions SMS proposant l&#39;offre concernée.
 
 Les étapes sont les suivantes :
 
-1. Create a **[!UICONTROL Control]** typology rule. Sélectionnez un niveau **[!UICONTROL Warning]** d’alerte.
+1. Créez une règle de typologie de type **[!UICONTROL Contrôle]**. Sélectionnez un niveau d&#39;alerte de type Avertissement (**[!UICONTROL Warning]**).
 
    ![](assets/campaign_opt_create_control_01.png)
 
@@ -75,7 +75,7 @@ Les étapes sont les suivantes :
 
    ![](assets/campaign_opt_create_control_05.png)
 
-   At the end of the analysis, the **[!UICONTROL Confirm delivery]** button will not be available.
+   A la fin de l&#39;analyse, le bouton **[!UICONTROL Confirmer l&#39;envoi]** ne sera pas disponible.
 
    ![](assets/campaign_opt_create_control_06.png)
 
