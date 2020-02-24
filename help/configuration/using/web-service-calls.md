@@ -199,7 +199,7 @@ Deux modes d&#39;authentification sont disponibles :
 
 * **via un appel à la méthode logon()**. Ce mode génère un jeton de session et un jeton de sécurité. C&#39;est le mode le plus sécurisé et donc celui qui est conseillé.
 
-ou
+or
 
 * **via login et mot de passe** Adobe Campaign qui crée un jeton de session. Le jeton de session expire automatiquement après un délai. Ce mode est déconseillé et il demande de réduire les paramètres de sécurité de l&#39;application dans la configuration des zones (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
 
