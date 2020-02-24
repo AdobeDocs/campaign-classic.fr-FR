@@ -22,11 +22,11 @@ source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 # A propos des workflows techniques{#about-technical-workflows}
 
-The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your licence agreement. By default, they are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+Les workflows présentés dans cette section sont installés avec les packages intégrés d’Adobe Campaign. Ces packages, de même que les workflows techniques associés, dépendent de votre contrat de licence. Par défaut, ils sont disponibles dans un sous-dossier du nœud suivant : **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Workflows techniques]**.
 
 >[!NOTE]
 >
->Technical workflows related to the Message Center module are available by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
+>Les workflows techniques associés au module Message Center module sont disponibles par défaut dans le nœud **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Message Center]** > **[!UICONTROL Workflows techniques]**.
 
 For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-technical-workflows.md).
 
