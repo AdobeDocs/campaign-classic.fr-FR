@@ -28,7 +28,7 @@ Le résultat des calculs des hypothèses est disponible à divers niveaux de la 
 
 ### Indicators {#indicators}
 
-Une fois l&#39;hypothèse calculée, plusieurs indicateurs de mesure sont mis à jour automatiquement. Ceux-ci sont disponibles dans l&#39; **[!UICONTROL General]** onglet de l&#39;hypothèse.
+Lorsque l&#39;hypothèse a été calculée, plusieurs indicateurs de mesure sont automatiquement mis-à-jour. Ils sont disponibles dans l&#39;onglet **[!UICONTROL Général]** de l&#39;hypothèse.
 
 ![](assets/response_hypothesis_delivery_example_010.png)
 
@@ -40,7 +40,7 @@ Ces indicateurs sont les suivants :
 * **Taux de réponse des témoins** : nombre de témoins répondants / total des témoins de la diffusion.
 * **Nombres de réactions** : nombre d&#39;enregistrements dans la table contenant la relation entre les individus, l&#39;hypothèse et la table des transactions.
 
-Pour obtenir la liste complète des indicateurs, cliquez sur le **[!UICONTROL Display the list]** lien suivant :
+Vous pouvez obtenir la liste complète des indicateurs en cliquant sur le lien **[!UICONTROL Afficher la liste]** :
 
 ![](assets/response_hypothesis_indicators_002.png)
 
@@ -63,21 +63,21 @@ Les informations données par les indicateurs sont les suivantes :
 
 ### Réactions {#reactions}
 
-You can view recipients&#39; reactions to the hypotheses via the **[!UICONTROL Reactions]** tab.
+Vous pouvez visualiser les réactions des destinataires aux hypothèses depuis l&#39;onglet **[!UICONTROL Réactions]**.
 
-1. Once hypothesis calculation is complete, go to the **[!UICONTROL Campaign management > Measurement hypotheses]** node of the Adobe Campaign tree.
-1. Select the desired hypothesis and click the **[!UICONTROL Reactions]** tab to view the list of recipients likely to purchase something following the marketing campaign.
+1. Lorsque le calcul de l&#39;hypothèse est terminé, positionnez-vous au niveau du noeud **[!UICONTROL Gestion de campagne > Hypothèses de mesure]** dans l&#39;arborescence d&#39;Adobe Campaign.
+1. Sélectionnez l&#39;hypothèse voulue dans la liste et cliquez sur l&#39;onglet **[!UICONTROL Réactions]** afin de voir la liste des destinataires susceptibles de faire un achat suite à la campagne marketing.
 
    ![](assets/response_hypothesis_reactions_001.png)
 
 ## Rapports {#reports}
 
-Le **[!UICONTROL Hypothesis report]** rapport vous permet d’afficher les résultats des hypothèses appliquées aux campagnes et aux livraisons. Le présent rapport contient les indicateurs calculés par l&#39;hypothèse (pour plus de détails, voir [Indicateurs](#indicators)).
+Le rapport **** d’hypothèse vous permet d’afficher les résultats des hypothèses appliquées aux campagnes et aux livraisons. Le présent rapport contient les indicateurs calculés par l&#39;hypothèse (pour plus de détails, voir [Indicateurs](#indicators)).
 
-* **Au niveau** de la campagne : cliquez sur le **[!UICONTROL Reports]** lien de la campagne concernée et sélectionnez le **[!UICONTROL Hypothesis report]**. Ce rapport contient la liste des livraisons de campagne et les hypothèses calculées pour chaque remise.
+* **Au niveau d&#39;une opération** : cliquez sur le lien **[!UICONTROL Rapports]** de l&#39;opération concernée et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Ce rapport contiendra la liste des diffusions de l&#39;opération et les hypothèses calculées pour chacune des diffusions.
 
    ![](assets/response_hypothesis_campaign_report_001.png)
 
-* **Au niveau** de la livraison : pour accéder au rapport, ouvrez la remise concernée, cliquez sur le **[!UICONTROL Reports]** sous l&#39; **[!UICONTROL Summary]** onglet et sélectionnez le **[!UICONTROL Hypothesis report]**. Si plusieurs hypothèses ont été calculées pour la même livraison, le rapport contiendra toutes les hypothèses.
+* **Au niveau d&#39;une diffusion** : pour accéder au rapport, ouvrez la diffusion concernée, cliquez sur l&#39;onglet **[!UICONTROL Rapports]** dans l&#39;onglet **[!UICONTROL Résumé]**, et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Si plusieurs hypothèses ont été calculées pour une même diffusion, le rapport contiendra la totalité des hypothèses.
 
    ![](assets/response_hypothesis_delivery_report_001.png)
