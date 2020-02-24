@@ -32,40 +32,40 @@ Vous allez effectuer une requête pour retrouver les domaines d&#39;email ciblé
 
 * Groupement des données ?
 
-   Basé sur le domaine de courriel avec un nombre de clés primaires supérieur à 30. Cette opération est effectuée avec l&#39; **[!UICONTROL Group by + Having]** option. **[!UICONTROL Group by + Having]** vous permet de grouper des données (&quot;group by&quot;) et de sélectionner ce qui a été regroupé (&quot;have&quot;).
+   En fonction du domaine d&#39;email avec un comptage des clés primaires supérieures à 30. Cette opération s&#39;effectue avec l&#39;option **[!UICONTROL Group by + Having]**. **[!UICONTROL Group by + Having]** sert à effectuer un groupement (&quot;group by&quot;) et une sélection de ce qui a été groupé (&quot;having&quot;).
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 
-1. Open the **[!UICONTROL Generic query editor]** and choose the Recipient table (**nms:recipient**).
+1. Ouvrez le **[!UICONTROL Requêteur générique]** et choisissez la table des Destinataires (**nms:recipient**).
 
    ![](assets/query_editor_02.png)
 
-1. Dans la **[!UICONTROL Data to extract]** fenêtre, sélectionnez les **[!UICONTROL Email domain]** et **[!UICONTROL Primary key]** champs. Exécutez un compte sur le **[!UICONTROL Primary key]** champ.
+1. Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les champs **[!UICONTROL Domaine de l&#39;email]** et **[!UICONTROL Clé primaire]**. Faites un comptage du champ **[!UICONTROL Clé primaire]**.
 
    Pour plus d&#39;informations sur le comptage d&#39;une clé primaire, consultez [cette section](../../platform/using/defining-filter-conditions.md#building-expressions).
 
-1. Cochez la **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** case.
+1. Sélectionnez l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]**.
 
    ![](assets/query_editor_nveau_29.png)
 
-1. Dans la **[!UICONTROL Sorting]** fenêtre, triez les domaines de courriel dans l’ordre décroissant. Pour ce faire, cochez **[!UICONTROL Yes]** la **[!UICONTROL Descending sort]** colonne. Clics **[!UICONTROL Next]**.
+1. Dans la fenêtre **[!UICONTROL Tris]**, ordonnez les domaines d&#39;email en tri descendant. Pour cela, cochez **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Tri descendant]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_nveau_70.png)
 
-1. Dans **[!UICONTROL Data filtering]**, sélectionnez **[!UICONTROL Filtering conditions]**. Accédez à la **[!UICONTROL Target elements]** fenêtre et cliquez sur **[!UICONTROL Next]**.
-1. Dans la **[!UICONTROL Data grouping]** fenêtre, sélectionnez le **[!UICONTROL Email domain]** en cliquant **[!UICONTROL Add]**.
+1. Dans **[!UICONTROL Filtrage des données]**, sélectionnez **[!UICONTROL Critères de filtrage]**, puis dans la fenêtre **[!UICONTROL Elément de la cible]**, cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Groupement des données]**, sélectionnez le **[!UICONTROL Domaine de l&#39;email]** en cliquant sur **[!UICONTROL Ajouter]**.
 
-   Cette fenêtre de regroupement de données ne s’affiche que si la **[!UICONTROL Handle groupings (GROUP BY + HAVING]**) case a été cochée.
+   C&#39;est dans cette fenêtre que s&#39;opère le regroupement (GROUP BY) : cette fenêtre ne s&#39;affiche que si l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** a été sélectionnée.
 
    ![](assets/query_editor_blacklist_04.png)
 
-1. In the **[!UICONTROL Grouping condition]** window, indicate a primary key count greater than 30 since we only want email domains targeted more than 30 times to be returned as results.
+1. Dans la fenêtre **[!UICONTROL Condition de groupement]**, indiquez un comptage de la clé primaire supérieur à 30. Ainsi, seuls les domaines d&#39;email ciblés plus de 30 fois seront retournés en résultat.
 
-   This window appears when the **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** box was checked: this is where the grouping result is filtered (HAVING).
+   Cette fenêtre s&#39;affiche si la case **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** a été cochée au préalable : c&#39;est là que le résultat du groupement est filtré (HAVING).
 
    ![](assets/query_editor_blacklist_05.png)
 
-1. Dans la **[!UICONTROL Data formatting]** fenêtre, cliquez sur **[!UICONTROL Next]**: aucune mise en forme n&#39;est nécessaire ici.
-1. In the data preview window, click **[!UICONTROL Launch data preview]**: here, three different email domains targeted over 30 times are returned.
+1. Dans la fenêtre **[!UICONTROL Formatage des données]**, cliquez sur **[!UICONTROL Suivant]** : aucun formatage n&#39;est nécessaire dans cet exemple.
+1. Dans la fenêtre de prévisualisation des données, cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** : ici, neuf domaines d&#39;emails différents ciblés plus de 30 fois sont retournés en résultat.
 
    ![](assets/query_editor_blacklist_06.png)
