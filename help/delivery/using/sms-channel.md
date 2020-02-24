@@ -44,15 +44,15 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 
 ### Activation d&#39;un compte externe {#activating-an-external-account}
 
-The list of external accounts can be found in the **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** node of the Adobe Campaign explorer tree.
+La liste des comptes externes est accessible depuis le nœud **[!UICONTROL Plate-forme]** > **[!UICONTROL Comptes externes]** de l&#39;arborescence de l&#39;explorateur Adobe Campaign.
 
-* Par exemple, accédez au compte par défaut appelé **[!UICONTROL NetSize mobile delivery]**.
-* Dans l’ **[!UICONTROL General]** onglet, cochez la **[!UICONTROL Enabled]** case.
+* Par exemple, positionnez-vous sur le compte **[!UICONTROL Routage vers mobiles par NetSize]**.
+* Dans l&#39;onglet **[!UICONTROL Général]**, cochez la case **[!UICONTROL Activé]**.
 
    ![](assets/s_user_external_account_01.png)
 
-* Check that the **[!UICONTROL Mobile]** option is selected for the **[!UICONTROL Channel]** field.
-* Dans le **[!UICONTROL Mobile]** panneau, sélectionnez un connecteur dans la liste déroulante : NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 ou Extended generic SMPP. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez la section [Création d&#39;un compte](#creating-an-smpp-external-account) externe SMPP.
+* Vérifiez que l&#39;option **[!UICONTROL Mobile]** est bien sélectionnée pour le champ **[!UICONTROL Canal]**.
+* Dans l’onglet **[!UICONTROL Mobile]** , sélectionnez un connecteur dans la liste déroulante : NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 ou Extended generic SMPP. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez la section [Création d&#39;un compte](#creating-an-smpp-external-account) externe SMPP.
 
    ![](assets/s_user_external_account_connect_01.png)
 
@@ -60,11 +60,11 @@ The list of external accounts can be found in the **[!UICONTROL Platform]** > **
 
    ![](assets/s_user_external_account_param.png)
 
-* Dans l’ **[!UICONTROL Connector]** onglet, laissez le mode **[!UICONTROL Call Web Service]** d’activation sélectionné par défaut.
+* Dans l&#39;onglet **[!UICONTROL Connecteur]**, laissez le mode d&#39;activation **[!UICONTROL Appel d&#39;un web service]** sélectionné par défaut.
 
    ![](assets/s_user_external_account_param_02.png)
 
-* Si l’ **[!UICONTROL Connector]** onglet est affiché, spécifiez l’URL d’accès du connecteur. L’adresse doit se terminer par **netsize.jsp** si votre fournisseur est NetSize. Pour tous les autres connecteurs, l’adresse URL se termine par **smpp34.jsp**.
+* Si l’onglet **[!UICONTROL Connector]** s’affiche, spécifiez l’URL d’accès du connecteur. L’adresse doit se terminer par **netsize.jsp** si votre fournisseur est NetSize. Pour tous les autres connecteurs, l’adresse URL se termine par **smpp34.jsp**.
 
 ### Création d&#39;un compte externe SMPP {#creating-an-smpp-external-account}
 
@@ -74,21 +74,21 @@ Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez 
 
 Pour ce faire, procédez comme suit :
 
-1. Dans le noeud **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** de l’arborescence, cliquez sur l’ **[!UICONTROL New]** icône .
+1. Dans le nœud **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
 1. Définissez le type de compte sur **Routage**, le canal sur **Mobile (SMS)** et le mode de diffusion sur **Envoi en masse**.
 
    ![](assets/extended_smpp_create_account.png)
 
-1. Cochez la **[!UICONTROL Enabled]** case.
-1. Dans l’ **[!UICONTROL Mobile]** onglet, sélectionnez **[!UICONTROL Extended generic SMPP]** dans la liste **[!UICONTROL Connector]** déroulante.
+1. Cochez la case **[!UICONTROL Activé]**.
+1. Dans l&#39;onglet **[!UICONTROL Mobile]**, sélectionnez **[!UICONTROL SMPP Générique étendu]** dans la liste déroulante **[!UICONTROL Connecteur]**.
 
    ![](assets/extended_smpp_connector.png)
 
-   Cette **[!UICONTROL Enable verbose SMPP traces in the log file]** option vous permet de vider tout le trafic SMPP dans les fichiers journaux. Cette option doit être activée pour dépanner le connecteur et pour comparer le trafic affiché chez le fournisseur.
+   L&#39;option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** vous permet de sauvegarder tout le trafic SMPP dans les fichiers journaux. Cette option doit être activée pour résoudre les problèmes liés au connecteur et pour effectuer une comparaison avec le trafic observé par le fournisseur.
 
-1. Contact your SMS service provider who will explain to you how to complete the different external account fields from the **[!UICONTROL Connection settings]** tab.
+1. Adressez-vous à votre fournisseur de service SMS pour qu&#39;il vous explique comment renseigner dans l&#39;onglet **[!UICONTROL Paramètres de connexion]** les différents champs du compte externe.
 
-   Then, contact your provider, depending on the one chosen, who will give you the value to enter into the **[!UICONTROL SMSC implementation name]** field.
+   Contactez ensuite votre fournisseur qui vous donnera la valeur à saisir dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]**, en fonction du fournisseur que vous aurez choisi.
 
    Vous pouvez définir le nombre de connexions au fournisseur par MTA child. Par défaut, ce nombre est défini sur 1.
 
@@ -108,21 +108,21 @@ Pour ce faire, procédez comme suit :
 
    Voir à ce propos [cette section](#about-character-transliteration).
 
-1. In the **[!UICONTROL Throughput and delays]** tab, you can specify the maximum throughput of outbound messages (&quot;MT&quot;, Mobile Terminated) in MT per second. Si vous indiquez &quot;0&quot; dans le champ correspondant, le débit ne sera pas limité.
+1. Dans l&#39;onglet **[!UICONTROL Débit et délais]**, vous pouvez indiquer le débit maximum des messages sortants (&quot;MT&quot;, Mobile Terminated) en MT par seconde. Si vous indiquez &quot;0&quot; dans le champ correspondant, le débit ne sera pas limité.
 
    Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
-1. Dans l’ **[!UICONTROL Mapping of encodings]** onglet, vous pouvez définir des encodages.
+1. Dans l&#39;onglet **[!UICONTROL Mapping des encodages]**, vous pouvez définir les encodages.
 
    Voir à ce propos [cette section](#about-text-encodings).
 
-1. Dans le **[!UICONTROL SMSC specificities]** panneau, l’ **[!UICONTROL Send full phone number]** option est désactivée par défaut. Ne l&#39;activez pas si vous voulez respecter le protocole SMPP et transférer uniquement les chiffres au serveur du fournisseur SMS (SMSC).
+1. Dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]**, l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut. Ne l&#39;activez pas si vous souhaitez respecter le protocole SMPP et ne transmettre que des chiffres au serveur du fournisseur SMS (SMSC).
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 
-   La **[!UICONTROL Enable TLS over SMPP]** case à cocher vous permet de chiffrer le trafic SMPP. For more on this, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+   La case à cocher **[!UICONTROL Activer le TLS sur SMPP]** vous permet de chiffrer le trafic SMPP. Voir à ce sujet cette [note technique](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
-1. If you are configuring an **[!UICONTROL Extended generic SMPP]** connector, you can set up automatic replies.
+1. Si vous paramétrez un connecteur **[!UICONTROL SMPP Générique étendu]**, vous pouvez configurer des réponses automatiques.
 
    Voir à ce propos [cette section](#automatic-reply).
 
@@ -132,8 +132,8 @@ La translittération des caractères peut être configurée dans un compte exter
 
 La translittération consiste à remplacer un caractère d&#39;un SMS par un autre lorsque ce caractère n&#39;est pas pris en charge par la norme GSM.
 
-* If transliteration is **[!UICONTROL authorized]**, each character that is not taken into account is replaced by a GSM character when the message is sent. Par exemple, la lettre &quot;ë&quot; est remplacée par &quot;e&quot;. Le message est alors légèrement altéré, mais la limite du nombre de caractères demeure identique.
-* When transliteration is **[!UICONTROL not authorized]**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. Or les SMS utilisant l&#39;encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
+* Lorsque la translittération est **[!UICONTROL autorisée]**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l&#39;envoi du message. Par exemple, la lettre &quot;ë&quot; est remplacée par &quot;e&quot;. Le message est alors légèrement altéré, mais la limite du nombre de caractères demeure identique.
+* Lorsque la translittération **[!UICONTROL n&#39;est pas autorisée]**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l&#39;encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
 
 >[!CAUTION]
 >
@@ -328,7 +328,7 @@ CR : retour chariot (Carriage Return)
 
 Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
 
-When configuring a new SMPP mobile delivery external account, you can define the **[!UICONTROL Mapping of encodings]** in the **[!UICONTROL Mobile]** tab: the **[!UICONTROL data_coding]** field allows Adobe Campaign to communicate which encoding is used to the SMSC.
+Lors du paramétrage d&#39;un nouveau compte externe de routage vers mobiles par SMPP, vous pouvez définir le **[!UICONTROL Mapping des encodages]** dans l&#39;onglet **[!UICONTROL Mobile]** : le champ **[!UICONTROL data_coding]** permet à Adobe Campaign de communiquer les encodages utilisés au SMSC.
 
 >[!NOTE]
 >
@@ -353,7 +353,7 @@ Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : 
 
 Lors du paramétrage d&#39;un connecteur SMPP Générique étendu, vous pouvez paramétrer des réponses automatiques.
 
-When a subscriber replies to an SMS message which was sent to them via Adobe Campaign and their message contains a keyword such as &quot;STOP&quot;, you can configure messages which are automatically sent back to them in the **[!UICONTROL Automatic reply sent to the MO]** section.
+Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campaign par un message contenant un mot-clé tel que &quot;STOP&quot;, vous pouvez configurer les messages qui lui sont automatiquement renvoyés dans la section **[!UICONTROL Réponse automatique aux MO]**.
 
 >[!NOTE]
 >
@@ -361,22 +361,22 @@ When a subscriber replies to an SMS message which was sent to them via Adobe Cam
 
 Pour chaque mot-clé, indiquez un numéro court (short code), c&#39;est-à-dire un numéro habituellement utilisé pour envoyer les diffusions et qui servira de nom d&#39;expéditeur, puis saisissez le message qui sera adressé à l&#39;abonné.
 
-Vous pouvez également lier une action à votre réponse automatique : **[!UICONTROL Send to quarantine]** ou **[!UICONTROL Remove from quarantine]**. Par exemple, si un destinataire envoie le mot-clé &quot;STOP&quot;, il reçoit automatiquement une confirmation de désabonnement et est envoyé en quarantaine.
+Vous pouvez également associer une action à votre réponse automatique : **[!UICONTROL Envoyer en quarantaine]** ou **[!UICONTROL Sortir de la quarantaine]**. Par exemple, si un destinataire envoie le mot-clé « STOP », il reçoit automatiquement une confirmation de désinscription et il est mis en quarantaine.
 
 ![](assets/extended_smpp_reply.png)
 
-If you link the **[!UICONTROL Remove from quarantine]** action to an automatic response, the recipients sending the corresponding keyword are automatically removed from quarantine.
+Si vous associez l’action **[!UICONTROL Sortir de quarantaine]** à une réponse automatique, les destinataires qui envoient le mot-clé correspondant sont automatiquement retirés de la quarantaine.
 
-Les destinataires sont répertoriés dans le **[!UICONTROL Non deliverables and addresses]** tableau disponible dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** .
+Les destinataires sont répertoriés dans la table **[!UICONTROL NP@I et Adresses]** accessible via le menu **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion des NP@I]**.
 
-* To send the same reply no matter what the short code, leave the **[!UICONTROL Short code]** column empty.
-* To send the same reply no matter what the keyword, leave the **[!UICONTROL Keyword]** column empty.
-* To carry out an action without sending a response, leave the **[!UICONTROL Response]** column empty. Par exemple, cela vous permet de supprimer de la quarantaine un utilisateur qui répond avec un message autre que &quot;STOP&quot;.
+* Pour envoyer la même réponse quel que soit le numéro court, laissez la colonne **[!UICONTROL Numéro court]** vide.
+* Pour envoyer la même réponse quel que soit le mot-clé, laissez la colonne &quot;**[!UICONTROL Mot-clé]**&quot; vide.
+* Pour effectuer une action sans envoyer de réponse, laissez la colonne **[!UICONTROL Réponse]** vide. Cela permet notamment de retirer de la quarantaine un utilisateur qui envoie un message autre que « STOP ».
 
 Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un code court, il peut être reçu sur n&#39;importe quelle connexion de votre compte externe. Par conséquent, la réponse automatique envoyée ne pouvait pas être le message attendu.
 Pour éviter cela, appliquez l’une des solutions suivantes, selon le fournisseur utilisé :
 * Créez un compte fournisseur pour chaque compte externe.
-* Utilisez le **[!UICONTROL System type]** champ de l’onglet **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** pour distinguer chaque code court. Demandez à votre fournisseur une valeur différente pour chaque compte.
+* Utilisez le champ Type **** système de l’onglet Paramètres **** Mobile **[!UICONTROL >]** Connexion pour distinguer chaque code court. Demandez à votre fournisseur une valeur différente pour chaque compte.
 
    ![](assets/extended_smpp_system-type.png)
 
@@ -384,7 +384,7 @@ La procédure de configuration d’un compte externe à l’aide du connecteur S
 
 ### Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign vous fournit un modèle de diffusion vers les mobiles. Ce modèle est disponible dans le **[!UICONTROL Resources > Templates > Delivery templates]** noeud. Voir à ce propos la section [Modèles](../../delivery/using/about-templates.md).
+Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. Voir à ce propos la section [Modèles](../../delivery/using/about-templates.md).
 
 Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le connecteur du canal est référencé.
 
@@ -392,8 +392,8 @@ Afin de conserver le modèle de diffusion natif, nous vous conseillons de le dup
 
 Dans l&#39;exemple ci-dessous, nous créons un modèle pour diffuser des messages par l&#39;intermédiaire du compte NetSize que nous avons activé précédemment. Pour cela :
 
-1. Accédez au **[!UICONTROL Delivery templates]** noeud.
-1. Cliquez avec le bouton droit sur le **[!UICONTROL Send to mobiles]** modèle, puis sélectionnez **[!UICONTROL Duplicate]**.
+1. Positionnez-vous au niveau du nœud **[!UICONTROL Modèles de diffusion]**.
+1. Cliquez avec le bouton droit sur le modèle **[!UICONTROL Diffuser vers mobiles]** et sélectionnez **[!UICONTROL Dupliquer]**.
 
    ![](assets/s_user_mobile_template_change_01.png)
 
@@ -401,12 +401,12 @@ Dans l&#39;exemple ci-dessous, nous créons un modèle pour diffuser des message
 
    ![](assets/s_user_mobile_template_change_02.png)
 
-1. Clics **[!UICONTROL Properties]**.
-1. In the **[!UICONTROL General]** tab, select a routing mode that corresponds to an external account that you configured, for example **[!UICONTROL NetSize mobile delivery]**.
+1. Cliquez sur **[!UICONTROL Propriétés]**.
+1. Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez un mode de routage qui correspond à un compte externe que vous avez configuré, par exemple **[!UICONTROL Routage vers mobiles par NetSize]**.
 
    ![](assets/s_user_mobile_template_change_03.png)
 
-1. Click **[!UICONTROL Save]** to create the template.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer le modèle.
 
    ![](assets/s_user_mobile_template_list.png)
 
@@ -423,24 +423,24 @@ Pour créer une diffusion SMS, procédez comme suit :
 >Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
-1. Sélectionnez le modèle de remise **[!UICONTROL Send to mobiles (NetSize)]** que vous avez créé précédemment. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
+1. Sélectionnez le modèle de remise **[!UICONTROL Envoyer vers les mobiles (NetSize)]** que vous avez créé précédemment. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
 
    ![](assets/s_user_mobile_wizard.png)
 
 1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
-1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
+1. Cliquez sur **[!UICONTROL Continuer]** pour valider ces informations et afficher la fenêtre de configuration du message.
 
 ## Définir le contenu du SMS {#defining-the-sms-content}
 
 Pour définir le contenu du SMS, procédez comme suit :
 
-1. Entrez le contenu du message dans la **[!UICONTROL Text content]** section de l’assistant. Les boutons de la barre d’outils vous permettent d’importer, d’enregistrer ou de rechercher du contenu. Le dernier bouton est utilisé pour insérer des champs de personnalisation.
+1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu texte]** de l&#39;assistant. Les boutons de la barre d&#39;outils permettent d&#39;importer, d&#39;enregistrer ou de rechercher dans un contenu. Le dernier bouton permet d&#39;insérer des champs de personnalisation.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
    The use of personalization fields is presented in the [About personalization](../../delivery/using/about-personalization.md) section.
 
-1. Cliquez **[!UICONTROL Preview]** au bas de la page pour afficher le rendu du message avec sa personnalisation. Pour lancer l’aperçu, sélectionnez un destinataire à l’aide du **[!UICONTROL Test personalization]** bouton de la barre d’outils. Vous pouvez sélectionner un destinataire parmi les cibles définies ou en choisir un autre.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** en bas de page afin de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, vous devez choisir un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Sélectionnez un individu parmi la ou les cibles définies ou choisissez une autre personne.
 
    ![](assets/s_ncs_user_wizard_sms01_139.png)
 
@@ -448,7 +448,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_sms01_140.png)
 
-1. Click the **[!UICONTROL Data loaded]** link to view the information concerning the recipient.
+1. Cliquez sur le lien **[!UICONTROL Données chargées]** pour visualiser les informations concernant le destinataire.
 
    ![](assets/s_user_mobile_wizard_sms_02.png)
 
@@ -472,7 +472,7 @@ For more on the inclusion of a seed list, refer to [About seed addresses](../../
 
 ## Envoyer les SMS {#sending-sms-messages}
 
-To approve your message and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
+Pour valider votre message et le diffuser aux destinataires de la diffusion en cours de création, cliquez sur **[!UICONTROL Envoyer]**.
 
 Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion est présenté dans les sections ci-dessous :
 
@@ -481,7 +481,7 @@ Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion
 
 ### Paramètres avancés {#advanced-parameters}
 
-Le **[!UICONTROL Properties]** bouton donne accès au paramètre de remise avancé. Les paramètres spécifiques aux livraisons SMS se trouvent dans la **[!UICONTROL SMS parameters]** section de l&#39; **[!UICONTROL Delivery]** onglet.
+Le bouton **[!UICONTROL Propriétés]** permet d&#39;accéder aux paramètres avancés de la diffusion. Les paramètres spécifiques à l&#39;envoi des SMS sont regroupés dans la section **[!UICONTROL Paramètres SMS]** de l&#39;onglet **[!UICONTROL Envoi]**.
 
 Les options disponibles sont les suivantes :
 
@@ -496,8 +496,8 @@ Les options disponibles sont les suivantes :
    >Vérifiez la loi en vigueur dans votre pays concernant la modification du nom de l&#39;expéditeur. Vérifiez également auprès de votre opérateur s&#39;il propose cette fonctionnalité.
 
 * **Mode de transmission** : moyen d&#39;acheminement des messages par SMS.
-* **Priorité**: niveau d’importance attribué à un message. **[!UICONTROL Normal]** la priorité est sélectionnée par défaut. Demandez à votre fournisseur de services quel est le coût des SMS envoyés avec **[!UICONTROL High]** priorité.
-* **Type de demande**: choisissez l&#39;application que vous souhaitez affecter à votre diffusion SMS. L’ **[!UICONTROL Direct Marketing]** option est sélectionnée par défaut et est la plus utilisée.
+* **Priorité** : niveau d&#39;importance attribué à un message. La priorité **[!UICONTROL Normale]** est sélectionnée par défaut. Renseignez-vous auprès de votre fournisseur pour connaître les tarifs d&#39;un SMS envoyé en priorité **[!UICONTROL Haute]**.
+* **Type d&#39;application** : choisissez l&#39;application que vous souhaitez attribuer à votre diffusion par SMS. L&#39;option **[!UICONTROL Marketing Direct]** est sélectionnée par défaut et constitue l&#39;utilisation la plus courante.
 
 **Paramètres propres au connecteur NetSize**
 
