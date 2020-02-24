@@ -81,7 +81,7 @@ DKIM a remplacé l&#39;authentification **DomainKeys**.
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, la signature de l’authentification par courrier électronique DKIM est effectuée par la MTA améliorée. Dans le cadre de la mise à niveau améliorée de la MTA, la signature de la messagerie instantanée par la MTA de campagne native sera désactivée dans le **[!UICONTROL Domain management]** tableau.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, la signature de l’authentification par courrier électronique DKIM est effectuée par la MTA améliorée. Dans le cadre de la mise à niveau améliorée de la MTA, la signature de la messagerie instantanée par la MTA de campagne native sera désactivée dans la table de gestion **[!UICONTROL des]** domaines.
 >
 >Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
@@ -149,8 +149,8 @@ La mise en place d&#39;une feedback loop pour une instance suppose d&#39;avoir :
 
 La mise en oeuvre d’une boucle de commentaire simple dans Adobe Campaign utilise la fonctionnalité de message de rebond. La boîte aux lettres de boucle de commentaire est utilisée comme boîte aux lettres de rebond et une règle est définie pour détecter ces messages. Les adresses électroniques des destinataires qui ont signalé le message comme indésirable seront ajoutées à la liste de quarantaine.
 
-* Créez ou modifiez une règle de courrier de retour, **feedback_loop**, **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** avec la raison **Refused** et le type **Hard**.
-* If a mailbox has been defined specially for the feedback loop, define the parameters to access it by creating a new external Bounce Mails account in **[!UICONTROL Administration > Platform > External accounts]**.
+* Créez ou adaptez une règle de mails rebonds **Feedback_loop** dans **[!UICONTROL Administration>Gestion de campagne>Gestion des NP@I>Jeux de règles mail]** avec la raison **Refusé** et le type **Hard**.
+* Si une boîte a été définie spécialement pour la feedback loop, définissez les paramètres pour relever son contenu en créant un nouveau compte externe de type Mails rebonds dans **[!UICONTROL Administration>Plate-forme>Comptes externes]**.
 
 Le mécanisme est immédiatement opérationnel pour traiter les notifications de plaintes. Pour vérifier le bon fonctionnement de la règle, vous pouvez temporairement désactiver les comptes afin qu&#39;ils ne relèvent pas ces messages, puis vérifier le contenu de la boîte de feedback loop manuellement. Sur le serveur, exécutez les commandes suivantes :
 
@@ -236,7 +236,7 @@ La règle de typologie doit contenir le script qui génère la ligne de commande
 
    Un clic sur le lien **unsubscribe** redirige l&#39;utilisateur vers votre formulaire de désinscription.
 
-   Exemple:
+   Exemple :
 
    ![](assets/s_tn_del_unsubscribe_param.png)
 
@@ -246,7 +246,7 @@ La règle de typologie doit contenir le script qui génère la ligne de commande
 
 SMTP (Simple Mail Transfer Protocol) est une norme Internet pour la transmission de courriels.
 
-Les erreurs SMTP qui ne sont pas vérifiées par une règle sont répertoriées dans le dossier **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** . Ces messages d’erreur sont par défaut interprétés comme des erreurs logicielles inaccessibles. Les erreurs les plus courantes doivent être identifiées et une règle correspondante doit être ajoutée dans **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** si vous souhaitez correctement évaluer les commentaires des serveurs SMTP. Sans cela, la plate-forme effectuera des tentatives inutiles (cas d’utilisateurs inconnus) ou placera incorrectement certains destinataires en quarantaine après un nombre donné de tests.
+The SMTP errors that aren&#39;t checked by a rule are listed in the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** folder. These error messages are by default interpreted as unreachable soft errors. The most common errors must be identified and a corresponding rule added in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** if you wish to correctly qualify the feedback from the SMTP servers. Without this, the platform will perform unnecessary retries (case of unknown users) or wrongly place certain recipients in quarantine after a given number of tests.
 
 ### Adresses IP dédiées {#dedicated-ips}
 
