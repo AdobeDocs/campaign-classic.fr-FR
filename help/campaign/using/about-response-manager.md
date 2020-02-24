@@ -40,7 +40,7 @@ Par exemple, suite à une diffusion faisant la promotion d&#39;un article, vous 
 
 >[!CAUTION]
 >
->Response Manager est une **[!UICONTROL Campaign]** option. Veuillez vérifier votre accord de licence.
+>Le Response Manager est une option de **[!UICONTROL Campaign]**. Vérifiez votre contrat de licence.
 
 Vous pouvez également comptabiliser l&#39;ensemble des réactions du foyer du destinataire ayant reçu la diffusion ou l&#39;offre.
 
@@ -57,7 +57,7 @@ Pour définir et créer des hypothèses de mesure, procédez comme suit :
 1. Définissez un modèle d’hypothèse. Reportez-vous à [Création d&#39;un modèle](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)d&#39;hypothèse.
 1. Créez une ou plusieurs hypothèses sur une diffusion existante. Refer to [Referencing a hypothesis in a campaign delivery](../../campaign/using/creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery).
 
-   ou
+   or
 
    Créez une ou plusieurs hypothèses sur les offres. Reportez-vous à [Création d’une hypothèse sur une offre](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-an-offer).
 
