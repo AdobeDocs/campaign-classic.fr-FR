@@ -77,12 +77,12 @@ Pour créer et rendre disponible une application web, vous devez :
 
 ## Configuration initiale de l&#39;application Web {#web-application-initial-configuration}
 
-Les applications Web sont créées via le **[!UICONTROL Web Applications]** lien dans les **[!UICONTROL Campaigns]** et **[!UICONTROL Profiles and targets]** onglets.
+Web application are created via the **[!UICONTROL Web Applications]** link in the **[!UICONTROL Campaigns]** and **[!UICONTROL Profiles and targets]** tabs.
 
-Les applications Web sont stockées dans le **[!UICONTROL Resources > Online > Web Applications]** noeud de l’arborescence Adobe Campaign. Les configurations sont ventilées dans les dossiers suivants :
+Les applications web sont stockées dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence Adobe Campaign. Les paramétrages sont répartis dans les dossiers suivants :
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**: contient les modèles de rendu pour la présentation du formulaire Web (applications et enquêtes). Le modèle vous permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille de style peut être surchargée au niveau du modèle. Voir à ce propos [cette page](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
-* **[!UICONTROL Resources > Templates > Web application templates]**: contient des modèles de formulaire. Pour créer un formulaire ou une application Web, vous devez commencer à partir d’un modèle.
+* **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires web (applications et questionnaires). Le modèle permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille peut être surchargée au niveau du modèle. Voir à ce sujet [cette page](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Ressources > Modèles > Modèles d&#39;application web]** : contient des modèles de formulaires. Pour créer un formulaire ou une application web, vous devez utiliser un modèle.
 
 ## Modèles d&#39;applications web {#web-application-templates}
 
@@ -90,9 +90,9 @@ Par défaut, Adobe Campaign fournit un modèle par type d&#39;application web di
 
 >[!NOTE]
 >
->You can convert an existing Web application into a template. To do this, select the form and right-click. Select **[!UICONTROL Actions > Save as template...]**.
+>Vous pouvez transformer une application Web existante en modèle. Pour cela, sélectionnez le formulaire concerné et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
 
-Vous pouvez créer des modèles via le **[!UICONTROL Resources > Templates > Web Application templates]** noeud de l’arborescence Adobe Campaign.
+Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications web]** de l&#39;arborescence Adobe Campaign.
 
 L&#39;assistant de création vous permet de sélectionner les options à activer, comme dans l&#39;exemple ci-dessous.
 
