@@ -32,5 +32,5 @@ Avant de créer vos offres, vous devez d’abord spécifier un environnement (vo
 
 >[!CAUTION]
 >
->Creating the offer catalog, i.e. the categories and the offers, is the responsibility of the **[!UICONTROL Offer manager]**.
+>La création du catalogue d&#39;offres, soit les catégories et les offres, est de la responsabilité du **[!UICONTROL Chargé d&#39;offres]**.
 
