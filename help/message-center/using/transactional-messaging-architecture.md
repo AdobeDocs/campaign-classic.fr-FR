@@ -57,11 +57,11 @@ L&#39;installation des packages des messages transactionnels requiert de nombreu
 
 Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant d’installer les packages de messages transactionnels. Reportez-vous à [Ajout d’un canal](#adding-a-delivery-channel)de distribution.
 
-* To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
+* Pour installer l&#39;instance de pilotage sur votre machine, sélectionnez le module **[!UICONTROL Pilotage des messages transactionnels]**.
 
    ![](assets/messagecenter_install_controlinstance_001.png)
 
-* To install the execution instance on your machine, select the **[!UICONTROL Transactional message execution]** module.
+* Pour installer l&#39;instance d&#39;exécution sur votre machine, sélectionnez le module **[!UICONTROL Exécution des messages transactionnels]**.
 
    ![](assets/messagecenter_install_executioninstance_001.png)
 
@@ -69,9 +69,9 @@ Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les 
 
 L&#39;ajout d&#39;un canal de diffusion (Canal mobile, Mobile App Channel, etc.) doit être impérativement effectué avant l&#39;installation du package des messages transactionnels. Si vous avez démarré un projet des messages transactionnels sur le canal email, puis que vous décidez, au cours du projet, d&#39;ajouter un nouveau canal, vous devez suivre ces étapes :
 
-1. Installez le canal dont vous avez besoin, par exemple le canal **** Mobile, à l’aide de l’assistant d’importation de package ( **[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]** ).
-1. Effectuez une importation de fichier ( **[!UICONTROL Tools > Advanced > Import package... > File]** ), puis sélectionnez le fichier ****`[Your language]`**datakitnmspackagemessageCenter.xml** .
-1. Dans la section **[!UICONTROL XML content of the data to import]** , conservez uniquement le modèle de remise correspondant au canal ajouté. Par exemple, si vous avez ajouté le canal **** Mobile, conservez uniquement l’élément **entités** qui correspond au **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si vous avez ajouté le canal **d’application** mobile, conservez uniquement le message **transactionnel** iOS (iosTriggerMessage) et le message **transactionnel** Android (androidTriggerMessage).
+1. Installez le canal dont vous avez besoin, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package... > Package Adobe Campaign]** ).
+1. Effectuez une importation de fichier ( **[!UICONTROL Outils > Avancé > Importer un package... > Fichier]** ), puis sélectionnez le fichier ****`[Your language]`**datakitnmspackagemessageCenter.xml** .
+1. Dans la partie **[!UICONTROL Contenu XML des données à importer]**, conservez uniquement le modèle de diffusion correspondant au canal ajouté. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **entities** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le canal **Mobile App Channel**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
@@ -163,68 +163,68 @@ Lorsqu&#39;ils sont combinés avec le canal LINE, les messages transactionnels p
 
 Pour utiliser le module des messages transactionnels avec LINE, les éléments suivants sont nécessaires pour la configuration de votre instance **marketing** et de votre instance d&#39;**exécution** :
 
-* Install the **[!UICONTROL LINE Connect]** package on both instances.
-* Install the **[!UICONTROL Transactional message control]** package on your marketing instance, and the **[!UICONTROL Transactional message execution]** package on the execution instance.
+* Installez le package **[!UICONTROL LINE Connect]** sur les deux instances.
+* Installez le package **[!UICONTROL Transactional message control]** sur l&#39;instance marketing et le package **[!UICONTROL Transactional message execution]** sur l&#39;instance d&#39;exécution.
 * Créez un **compte externe** et un **service** LINE sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d&#39;informations sur la création d&#39;un compte externe et d&#39;un service LINE, consultez cette [page](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-).
 
-Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UICONTROL External account]** , you need to configure different external accounts on both instances:
+Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **[!UICONTROL Compte externe]**, vous devez ensuite configurer les différents comptes externes sur les deux instances :
 
-1. Create an **[!UICONTROL External database]** external account in your **execution** instance with the following configuration:
+1. Créez un compte externe **[!UICONTROL Base externe]** dans l&#39;instance d&#39;**exécution** avec la configuration suivante :
 
    ![](assets/line_config_mc.png)
 
-   * **[!UICONTROL Label]** et **[!UICONTROL Internal name]** : nommez votre compte externe selon vos besoins.
-   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL External database]** .
-   * **[!UICONTROL Enabled]** doit être cochée.
-   Dans la **[!UICONTROL Connection]** catégorie :
+   * **[!UICONTROL Libellé]** et **[!UICONTROL Nom interne]** : attribuez un nom à votre compte externe.
+   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Base externe]** .
+   * La case **[!UICONTROL Activé]** doit être cochée.
+   Dans la catégorie **[!UICONTROL Connexion]** :
 
    * **[!UICONTROL Type]** : sélectionnez votre serveur de base de données, par exemple PostgresSQL.
-   * **[!UICONTROL Server]** : saisissez l’URL du serveur de base de données.
-   * **[!UICONTROL Account]** : saisissez votre compte de base de données.
+   * **[!UICONTROL Serveur]** : saisissez l&#39;URL du serveur de base de données.
+   * **[!UICONTROL Compte]** : saisissez le compte de la base de données.
 
       >[!NOTE]
       >
       >L&#39;utilisateur de la base de données doit avoir des droits de lecture sur les tables suivantes pour la connexion FDA : XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg, NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder.
 
-   * **[!UICONTROL Password]** : saisissez le mot de passe de votre compte de base de données.
-   * **[!UICONTROL Database]** : saisissez le nom de la base de données de l’instance d’exécution.
-   * **[!UICONTROL Target of an HTTP relay to remote database's account]** doit être cochée.
+   * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte de la base de données.
+   * **[!UICONTROL Base de données]** : saisissez le nom de la base de données de l&#39;instance d&#39;exécution.
+   * La case **[!UICONTROL Cible d&#39;un compte Relais HTTP vers base distante]** doit être cochée.
 
 
-1. Create an **[!UICONTROL External Database]** account in your **marketing** instance with the following configuration.
+1. Créez un compte **[!UICONTROL Base de données externe]** dans l&#39;instance **marketing** avec la configuration ci-dessous.
 
    ![](assets/line_config_mc_1.png)
 
-   * **[!UICONTROL Label]** et **[!UICONTROL Internal name]** : nommez votre compte externe selon vos besoins.
-   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL External database]** .
+   * **[!UICONTROL Libellé]** et **[!UICONTROL Nom interne]** : attribuez un nom à votre compte externe.
+   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Base externe]** .
    * La case Activé doit être cochée.
-   Dans la **[!UICONTROL Connection]** catégorie :
+   Dans la catégorie **[!UICONTROL Connexion]** :
 
-   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL HTTP relay to remote Database]** .
-   * **[!UICONTROL Server]** : saisissez l’URL du serveur de votre campagne de l’instance d’exécution.
-   * **[!UICONTROL Account]** : saisissez le compte utilisé pour accéder à votre instance d’exécution.
-   * **[!UICONTROL Password]** : saisissez le mot de passe du compte utilisé pour accéder à votre instance d’exécution.
-   * **[!UICONTROL Data Source]** : saisissez la syntaxe suivante **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** .
+   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Relais HTTP vers base distante]** .
+   * **[!UICONTROL Serveur]** : saisissez l&#39;URL du serveur Campaign de l&#39;instance d&#39;exécution.
+   * **[!UICONTROL Compte]** : saisissez le compte utilisé pour accéder à l&#39;instance d&#39;exécution.
+   * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte utilisé pour accéder à l&#39;instance d&#39;exécution.
+   * **[!UICONTROL Data Source]** : saisissez la syntaxe suivante **[!UICONTROL nms:extAccount:ID pour le compte de base de données externe dans l&#39;instance d&#39;exécution]** .
 
 
-1. Create an **[!UICONTROL Execution instance]** external account in your **marketing** instance using the following configuration to create the data synchronization workflow:
+1. Créez un compte externe **[!UICONTROL Instance d&#39;exécution]** dans votre instance **marketing** à l&#39;aide de la configuration suivante pour créer le workflow de synchronisation des données :
 
    ![](assets/line_config_mc_2.png)
 
-   * **[!UICONTROL Label]** et **[!UICONTROL Internal name]** : nommez votre compte externe selon vos besoins.
-   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Execution instance]** .
+   * **[!UICONTROL Libellé]** et **[!UICONTROL Nom interne]** : attribuez un nom à votre compte externe.
+   * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Instance d&#39;exécution]** .
    * La case Activé doit être cochée.
-   Dans la **[!UICONTROL Connection]** catégorie :
+   Dans la catégorie **[!UICONTROL Connexion]** :
 
    * **[!UICONTROL URL]** : saisissez l&#39;URL de l&#39;instance d&#39;exécution.
-   * **[!UICONTROL Account]** : saisissez votre compte utilisé pour accéder à votre instance d’exécution.
-   * **[!UICONTROL Password]** : saisissez le mot de passe du compte utilisé pour accéder à votre instance d’exécution.
-   Dans la **[!UICONTROL Account connection method]** catégorie :
+   * **[!UICONTROL Compte]** : saisissez le compte utilisé pour accéder à l&#39;instance d&#39;exécution.
+   * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte utilisé pour accéder à l&#39;instance d&#39;exécution.
+   Dans la catégorie **[!UICONTROL Méthode de connexion au compte]** :
 
-   * **[!UICONTROL Method]** : sélectionnez **[!UICONTROL Federated Data Access (FDA)]** .
-   * **[!UICONTROL FDA account]** : sélectionnez votre compte FDA dans la liste déroulante.
-   * Cliquez sur le **[!UICONTROL Create the archiving workflow]** bouton.
-   * Cliquez sur le **[!UICONTROL Create data synchronization workflow]** bouton pour créer le processus de synchronisation des données LINE.
+   * **[!UICONTROL Méthode]** : sélectionnez **[!UICONTROL Federated Data Access (FDA)]** .
+   * **[!UICONTROL Compte FDA]** : sélectionnez votre compte FDA dans la liste déroulante.
+   * Cliquez sur le bouton **[!UICONTROL Créer le workflow d&#39;archivage]**.
+   * Cliquez sur le bouton **[!UICONTROL Créer le workflow de synchronisation des données]** pour créer le workflow de synchronisation des données LINE.
 
 
 
