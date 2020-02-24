@@ -41,7 +41,7 @@ Vous pouvez tester le tracking sur les pages miroir, les logs d&#39;email et les
    >
    >The recipient&#39;s profile page is located in the **Profiles and Targets > Recipients** folder by default.
 
-   To check the email log tracking, look for the values **Open** and **[!UICONTROL Email click]** in the **Type** column.
+   Pour vérifier le tracking des logs d&#39;email, recherchez les valeurs **Ouverture** et **[!UICONTROL Clic email]** dans la colonne **Type**.
 
-   If the open logs do not appear, go to the delivery and access its **Properties** to make sure that both **Activate tracking** and **[!UICONTROL Opens tracking]** options are checked.
+   Si les logs d&#39;ouverture n&#39;apparaissent pas, accédez à la diffusion. Vérifiez dans ses **propriétés** que les options **Activer le tracking** et **[!UICONTROL Tracking d&#39;ouverture]** sont cochées.
 
