@@ -24,20 +24,20 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 Pour créer un rapport, les étapes sont les suivantes :
 
-1. Open the Adobe Campaign Explorer and from the **[!UICONTROL Administration > Configuration]** node, then select the **[!UICONTROL Reports]** folder.
-1. Click the **[!UICONTROL New]** button above the list of reports.
-1. Sélectionnez **[!UICONTROL Create a new report from a template]** puis cliquez sur **[!UICONTROL Next]**.
+1. Ouvrez l&#39;Explorateur Adobe Campaign et, depuis le nœud **[!UICONTROL Administration > Paramétrage]**, sélectionnez le dossier **[!UICONTROL Rapports]**.
+1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des rapports.
+1. Choisissez **[!UICONTROL Créer un nouveau rapport depuis un modèle]** et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/s_ncs_advuser_report_wizard_new_01.png)
 
 1. Choisissez le modèle de rapport dans la liste déroulante.
 
-   * The **[!UICONTROL Extended report]** lets you create a report configured using a chart.
-   * The **[!UICONTROL Qualitative distribution]** report lets you create statistics based on all types of data (company name, email domain, etc.).
-   * The **[!UICONTROL Quantitative distribution]** report lets you create statistics on data that can be measured or counted (invoice amount, recipient age, etc.).
+   * Le modèle **[!UICONTROL Rapport étendu]** permet de créer un rapport paramétré à l&#39;aide d&#39;un diagramme.
+   * Le rapport **[!UICONTROL Distribution qualitative]** permet de faire des statistiques sur tous types de données (ex. nom d&#39;une société, domaine d&#39;email, etc.).
+   * Le rapport **[!UICONTROL Distribution quantitative]** permet de faire des statistiques sur des données qui peuvent être mesurées ou comptées (ex. montant d&#39;une facture, âge d&#39;un destinataire).
    Pour plus d&#39;informations sur ces modèles de rapport, consultez [cette section](../../reporting/using/about-descriptive-analysis.md).
 
-1. Entrez le nom du rapport et sa description dans les champs correspondants. Spécifiez le **[!UICONTROL schema]** mode d’application du rapport.
+1. Saisissez le nom du rapport et sa description dans les champs correspondants. Indiquez le **[!UICONTROL schéma]** sur lequel s&#39;appliquera le rapport.
 
    ![](assets/s_ncs_advuser_report_wizard_020.png)
 
@@ -117,13 +117,13 @@ Vous pouvez également cliquer avec le bouton droit sur le noeud dans lequel vou
 
 Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 
-* Bar, pie, curve type **[!UICONTROL charts]**, etc.
-* Pivot; List with group, or Breakdown **[!UICONTROL tables]**.
-* Type de texte ou de nombre **[!UICONTROL Input controls]**.
-* Drop-down list, checkbox, radio button, multiple choice, date, or Matrix type **[!UICONTROL Selection controls]**.
-* Link editor, Constant, Folder selection type **[!UICONTROL Advanced controls]**.
-* Valeur, lien, HTML, image, etc. **[!UICONTROL Static elements]**.
-* **[!UICONTROL Containers]** qui vous permettent de contrôler la disposition des composants.
+* Des **[!UICONTROL Graphiques]** de type Histogramme, Secteurs, Courbes, etc.
+* Des **[!UICONTROL Tableaux]** de type Tableau croisé dynamique, Liste avec groupement ou Distribution.
+* Des **[!UICONTROL Contrôles de saisie]** de type Texte ou Nombre.
+* Des **[!UICONTROL Contrôles de sélection]** de type Liste déroulante, Case à cocher, Bouton radio, Choix multiples, Dates ou Matrice.
+* Des **[!UICONTROL Contrôles avancés]** de type Editeur de lien, Constante, Choix de dossier.
+* Des **[!UICONTROL Eléments statiques]** de type Valeur, Lien, HTML, Image, etc.
+* Des **[!UICONTROL Conteneur]** pour assurer la mise en page des composants.
 
 Le mode de paramétrage d&#39;une page et de ses composants est présenté dans [cette section](../../web/using/about-web-forms.md).
 
