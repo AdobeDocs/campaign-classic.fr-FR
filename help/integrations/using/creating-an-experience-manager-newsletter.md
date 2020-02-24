@@ -32,35 +32,35 @@ Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégrati
 
    ![](assets/aem_uc_1.png)
 
-1. Sélectionner **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Master Area > Email campaigns]**.
-1. Click the **[!UICONTROL Create]** button in the upper right side of the page then select **[!UICONTROL Page]**.
+1. Sélectionnez **[!UICONTROL Campagnes > Nom de votre marque (We.Retail, dans le cas présent) > Zone maître > Campagnes par courriel]**.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** en haut à droite de la page, puis sélectionnez **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)
 
-1. Select the **[!UICONTROL Adobe Campaign Email (AC 6.1)]** template and name your newsletter.
-1. Une fois votre page créée, accédez au **[!UICONTROL Page information]** menu et cliquez sur **[!UICONTROL Open Properties]**.
+1. Sélectionnez le modèle **[!UICONTROL Adobe Campaign Email (AC 6.1)]** et attribuez un nom à votre newsletter.
+1. Une fois votre page créée, accédez au menu **[!UICONTROL Informations sur la page]**, puis cliquez sur **[!UICONTROL Ouvrir les propriétés]**.
 
    ![](assets/aem_uc_3.png)
 
-1. Dans l’ **[!UICONTROL Cloud Services]** onglet, sélectionnez **[!UICONTROL Adobe Campaign]** et votre instance Adobe Campaign **[!UICONTROL Cloud service configuration]** dans la deuxième liste déroulante.
+1. Dans l&#39;onglet **[!UICONTROL Services Cloud]**, sélectionnez **[!UICONTROL Adobe Campaign]** en tant que **[!UICONTROL Configurations du service Cloud]** et votre instance Adobe Campaign dans la seconde liste déroulante.
 
    ![](assets/aem_uc_4.png)
 
 1. Editez le contenu de votre email en ajoutant des composants, par exemple des champs de personnalisation depuis Adobe Campaign.
-1. Lorsque votre adresse électronique est prête, accédez au **[!UICONTROL Page information]** menu et cliquez sur **[!UICONTROL Start workflow]**.
+1. Lorsque votre email est prêt, accédez au menu **[!UICONTROL Informations sur la page]**, puis cliquez sur **[!UICONTROL Démarrer le flux de travail]**.
 
    ![](assets/aem_uc_5.png)
 
-1. Dans la première liste déroulante, sélectionnez **[!UICONTROL Publish to Adobe Campaign]** comme modèle de flux de travail et cliquez sur **[!UICONTROL Start workflow]**.
+1. Dans la première liste déroulante, sélectionnez **[!UICONTROL Publier dans Adobe Campaign]** en tant que modèle de workflow, puis cliquez sur **[!UICONTROL Démarrer le flux de travail]**.
 
    ![](assets/aem_uc_6.png)
 
-1. Ensuite, comme l’étape précédente, lancez le **[!UICONTROL Approve for Campaign]** flux de travaux.
-1. Une clause de rejet de responsabilité s’affiche en haut de votre page. Cliquez sur **[!UICONTROL Complete]** pour confirmer la révision, puis sur **[!UICONTROL Ok]**.
+1. Comme à l&#39;étape précédente, lancez ensuite le workflow **[!UICONTROL Approuver pour Adobe Campaign]**.
+1. Une clause d&#39;exclusion de responsabilité apparaît en haut de la page. Cliquez sur **[!UICONTROL Terminé]** pour confirmer la consultation, puis cliquez sur **[!UICONTROL OK]**.
 
    ![](assets/aem_uc_7.png)
 
-1. Cliquez de nouveau **[!UICONTROL Complete]** et sélectionnez **[!UICONTROL Newsletter approval]** dans la **[!UICONTROL Next Step]** liste déroulante.
+1. Cliquez à nouveau sur **[!UICONTROL Terminé]**, puis sélectionnez **[!UICONTROL Approbation de la newsletter]** dans la liste déroulante **[!UICONTROL Étape suivante]**.
 
    ![](assets/aem_uc_8.png)
 
@@ -68,23 +68,23 @@ Votre newsletter est maintenant prête et synchronisée dans Adobe Campaign.
 
 **Depuis Adobe Campaign :**
 
-1. Dans l’ **[!UICONTROL Campaigns]** onglet, cliquez **[!UICONTROL Deliveries]** puis **[!UICONTROL Create]**.
+1. Dans l&#39;onglet **[!UICONTROL Campagnes]**, cliquez sur **[!UICONTROL Diffusions]** et sur **[!UICONTROL Créer]**.
 
    ![](assets/aem_uc_9.png)
 
-1. Dans la **[!UICONTROL Delivery template]** liste déroulante, sélectionnez le **[!UICONTROL Email delivery with AEM content (mailAEMContent)]** modèle.
+1. Dans la liste déroulante **[!UICONTROL Modèle de diffusion]**, sélectionnez le modèle **[!UICONTROL Diffusion par email avec contenu AEM (mailAEMContent)]**.
 
    ![](assets/aem_uc_10.png)
 
-1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]**.
-1. Cliquez sur le **[!UICONTROL Synchronize]** bouton.
+1. Ajoutez un **[!UICONTROL Libellé]** à votre diffusion, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Cliquez sur le bouton **[!UICONTROL Synchroniser]**.
 
-   Si ce bouton n’apparaît pas dans votre interface, cliquez sur le **[!UICONTROL Properties]** bouton et sélectionnez l’ **[!UICONTROL Advanced]** onglet. Le **[!UICONTROL Content editing mode]** champ doit être défini sur **[!UICONTROL AEM]** avec votre instance AEM dans le **[!UICONTROL AEM account]** champ.
+   Si ce bouton ne s&#39;affiche pas dans votre interface, cliquez sur le bouton **[!UICONTROL Propriétés]** et sélectionnez l&#39;onglet **[!UICONTROL Avancé]**. Le champ **[!UICONTROL Mode d&#39;édition du contenu]** doit être défini sur **[!UICONTROL AEM]** avec votre instance AEM dans le champ **[!UICONTROL Compte AEM]**.
 
    ![](assets/aem_uc_11.png)
 
-1. Sélectionnez la diffusion ayant été précédemment créée dans Adobe Experience Manager, puis cliquez sur **[!UICONTROL Ok]**.
-1. Click the **[!UICONTROL Refresh content]** button as soon as some changes are made to your AEM delivery.
+1. Sélectionnez la diffusion ayant été précédemment créée dans Adobe Experience Manager, puis cliquez sur **[!UICONTROL OK]**.
+1. Cliquez sur le bouton **[!UICONTROL Rafraîchir le contenu]** dès que des modifications sont apportées à votre diffusion AEM.
 
    ![](assets/aem_uc_12.png)
 
