@@ -48,7 +48,7 @@ Les principales méthodes pour créer des profils de destinataires sont les suiv
 
 ## Profils et cibles {#profiles-and-targets}
 
-Le **[!UICONTROL Profiles and targets]** lien vous permet d’afficher les destinataires stockés dans la base de données Adobe Campaign. Vous pouvez créer un nouveau destinataire, modifier un destinataire existant et accéder à son profil. Voir à ce propos [cette page](../../platform/using/editing-a-profile.md).
+Le lien **[!UICONTROL Profils et cibles]** permet d&#39;afficher les destinataires stockés dans la base de données Adobe Campaign. Vous pouvez créer un nouveau destinataire, en éditer un existant et accéder à son profil. Pour plus d&#39;informations, consultez [cette page](../../platform/using/editing-a-profile.md).
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
@@ -62,9 +62,9 @@ Il permet également d&#39;accéder :
 
 La page des destinataires permet d&#39;effectuer les opérations courantes sur les profils : édition, mise à jour, ajout, suppression, tri.
 
-Pour des manipulations de profil plus avancées, vous devez modifier l’arborescence d’Adobe Campaign. Pour ce faire, cliquez sur le **[!UICONTROL Explorer]** lien de la page d’accueil d’Adobe Campaign.
+Pour des manipulations de profils plus avancées, il est nécessaire d&#39;éditer l&#39;arborescence Adobe Campaign pour accéder à des fonctionnalités avancées. Pour cela, cliquez sur le lien **[!UICONTROL Explorateur]** depuis la page d&#39;accueil d&#39;Adobe Campaign.
 
-Par défaut, les destinataires sont stockés dans le **[!UICONTROL Profiles and Targets > Recipients]** noeud de l’arborescence. Vous pouvez créer des destinataires à partir de cette vue, ainsi que :
+Par défaut, les destinataires sont stockés dans le nœud **[!UICONTROL Profils et Cibles > Destinataires]** de l&#39;arborescence. Vous pouvez créer des destinataires depuis cette vue, mais aussi :
 
 * sort and filter the profiles of the database; see [Filtering options](../../platform/using/filtering-options.md),
 * move, copy or delete profiles from the database; see [Managing profiles](../../platform/using/managing-profiles.md),
@@ -72,7 +72,7 @@ Par défaut, les destinataires sont stockés dans le **[!UICONTROL Profiles and 
 * destinataires de l&#39;exportation; voir [Exportation et importation de profils](../../platform/using/exporting-and-importing-profiles.md),
 * créer des groupes de destinataires ; voir [Création et gestion des listes](../../platform/using/creating-and-managing-lists.md).
 
-To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon.
+Pour accéder aux fonctionnalités avancées et aux paramétrages, vous devez cliquer sur l&#39;icône **[!UICONTROL Explorateur]**.
 
 ![](assets/d_ncs_user_interface01.png)
 
@@ -80,7 +80,7 @@ La présentation générale de l’explorateur Adobe Campaign est présentée da
 
 >[!NOTE]
 >
->Vous pouvez également afficher une vue avancée de cette liste à partir de l’arborescence Adobe Campaign en cliquant sur le **[!UICONTROL Profiles and targets > Recipients]** lien. L’affichage de la liste peut être configuré en fonction de vos besoins. Vous pouvez ajouter ou supprimer des colonnes, définir l’ordre des colonnes, trier les données, etc. La configuration de l’affichage de liste est décrite dans [Utilisation de l’explorateur](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)Adobe Campaign.
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. La configuration de l’affichage de liste est décrite dans [Utilisation de l’explorateur](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)Adobe Campaign.
 >
 >Vous pouvez également définir les vues des destinataires. Pour plus d’informations sur cette fonctionnalité, voir [Dossiers et vues](../../platform/using/access-management.md#folders-and-views).
 
@@ -96,8 +96,8 @@ La facturation ne concerne que les profils **actifs**. Un profil est considéré
 >
 >Les canaux Facebook et Twitter ne sont pas prises en compte.
 
-Vous pouvez avoir une vue d’ensemble du **[!UICONTROL Number of active profiles]** menu **[!UICONTROL Administration > Campaign Management > Customer metrics]** .
+Vous pouvez obtenir un aperçu du **[!UICONTROL Nombre de profils actifs]** depuis le menu **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]**.
 
-Le décompte réel est effectué par le flux de travail **[!UICONTROL Number of active billing profiles]****[!UICONTROL billingActiveContactCount]**( [)](../../workflow/using/delivery.md)technique, qui s’exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le **[!UICONTROL Customer metrics]** menu. Chaque période dure 12 mois.
+La comptabilisation est réalisée par le [workflow technique](../../workflow/using/delivery.md) **[!UICONTROL Nombre de profils de facturation actifs]** (**[!UICONTROL billingActiveContactCount]**), qui s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le menu **[!UICONTROL Mesures des clients]**. Chaque période dure 12 mois.
 
 Les profils exclus lors de la préparation de la diffusion (règles de typologie, quarantaines) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions ne sera comptabilisé qu&#39;une seule fois.
