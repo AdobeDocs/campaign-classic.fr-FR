@@ -35,7 +35,7 @@ Les limitations suivantes sont des contraintes inhérentes à Twitter.
 
 ### Créer la diffusion {#creating-the-delivery}
 
-Create a new delivery based on the **[!UICONTROL Tweet (twitter)]** delivery template.
+Créez une nouvelle diffusion basée sur le modèle de diffusion **[!UICONTROL Tweeter (twitter)]**.
 
 ![](assets/social_twitter_delivery_001.png)
 
@@ -43,45 +43,45 @@ Create a new delivery based on the **[!UICONTROL Tweet (twitter)]** delivery tem
 
 Vous devez sélectionner le ou les comptes sur lesquels vous souhaitez envoyer votre tweet.
 
-1. Cliquez sur le **[!UICONTROL To]** lien.
+1. Cliquez sur le lien **[!UICONTROL Pour]**.
 
    ![](assets/social_twitter_delivery_002.png)
 
-1. Cliquez sur le **[!UICONTROL Add]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
    ![](assets/social_twitter_delivery_006.png)
 
-1. Sélectionner **[!UICONTROL A Twitter account]**.
+1. Sélectionnez **[!UICONTROL Un compte Twitter]**.
 
    ![](assets/social_twitter_delivery_007.png)
 
-1. In the **[!UICONTROL Folder]** field, select the service folder which contains the Twitter account. Sélectionnez ensuite le compte Twitter auquel vous souhaitez envoyer votre tweet.
+1. Dans le champ **[!UICONTROL Dossier]**, sélectionnez le dossier de services contenant le compte Twitter. Sélectionnez ensuite le compte Twitter sur lequel vous souhaitez envoyer votre tweet.
 
    ![](assets/social_twitter_delivery_011.png)
 
 ### Choisir la cible du BAT {#selecting-the-target-of-the-proof}
 
-L’ **[!UICONTROL Target of the proofs]** onglet vous permet de définir le compte Twitter à utiliser pour les remises de test avant la remise finale.  Nous vous recommandons donc de créer un compte Twitter privé dédié à l&#39;envoi de preuves. Pour plus d’informations sur la création d’un compte Twitter privé, voir [Création d’un compte de test sur Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de sélection de la cible d’épreuve sont identiques à celles de sélection de la cible principale. Reportez-vous à [Création d’un compte test sur Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
+L’onglet **[!UICONTROL Cible des épreuves]** permet de définir le compte Twitter à utiliser pour les remises de test avant la remise finale. Nous vous recommandons donc de créer un compte Twitter privé dédié à l&#39;envoi de preuves. Pour plus d’informations sur la création d’un compte Twitter privé, voir [Création d’un compte de test sur Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de sélection de la cible d’épreuve sont identiques à celles de sélection de la cible principale. Reportez-vous à [Création d’un compte test sur Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
 
 ![](assets/social_twitter_delivery_004.png)
 
 >[!NOTE]
 >
->Si vous utilisez le même compte de test Twitter pour toutes vos livraisons, vous pouvez enregistrer la cible de preuve dans le modèle de **[!UICONTROL Tweet]** livraison, accessible via le **[!UICONTROL Resources > Templates > Delivery templates]** noeud. La cible d’épreuve sera alors saisie par défaut pour chaque nouvelle remise.
+>Si vous utilisez le même compte Twitter de test pour toutes vos diffusions, vous pouvez enregistrer la cible du BAT dans le modèle de diffusion **[!UICONTROL Tweeter]**, accessible à partir du noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. La cible du BAT sera alors renseignée par défaut pour chaque nouvelle diffusion.
 
 ### Définir le contenu du message {#defining-the-message-content}
 
-Type the content of your tweet in the **[!UICONTROL Content]** tab.
+Saisissez le contenu du tweet dans l&#39;onglet **[!UICONTROL Contenu]**.
 
 ![](assets/social_twitter_delivery_005.png)
 
 ### Visualiser l&#39;aperçu {#viewing-the-preview}
 
-The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
+L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu du tweet.
 
-1.  Cliquez sur l’ **[!UICONTROL Preview]** onglet.
-1. Cliquez sur le menu **[!UICONTROL Test personalization]** déroulant et sélectionnez **[!UICONTROL Service]**.
-1. In the **[!UICONTROL Folder]** field, select the service folder which contains your Twitter account.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]**.
+1. Cliquez sur le menu déroulant **[!UICONTROL Tester la personnalisation]** et sélectionnez **[!UICONTROL Service]**.
+1. Dans le champ **[!UICONTROL Dossier]**, sélectionnez le dossier de services contenant votre compte Twitter.
 1. Sélectionnez le compte Twitter sur lequel vous souhaitez tester l&#39;aperçu.
 
 ![](assets/social_twitter_delivery_008.png)
@@ -92,13 +92,13 @@ The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 ### Configurer le tracking {#configuring-tracking}
 
-Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
+Le tracking est visualisable dans les rapports de diffusion et dans l&#39;onglet **[!UICONTROL Edition > Tracking]** de la diffusion et du service.
 
 La configuration du tracking s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/monitoring-a-delivery.md).
 
 >[!NOTE]
 >
->In the **[!UICONTROL Tweet]** delivery template, tracking is enabled by default.
+>Dans le modèle de diffusion **[!UICONTROL Tweeter]**, le tracking est activé par défaut.
 
 >[!IMPORTANT]
 >
@@ -112,17 +112,17 @@ L’envoi du BAT s’effectue de la même manière que pour une diffusion email.
 
 ### Envoyer le message {#sending-the-message}
 
-1. Once the content is approved, click the **[!UICONTROL Send]** button.
-1. Sélectionnez **[!UICONTROL Deliver as soon as possible]** puis cliquez sur le **[!UICONTROL Analyze]** bouton.
+1. Une fois le contenu validé, cliquez sur le bouton **[!UICONTROL Envoyer]**.
+1. Choisissez **[!UICONTROL Diffuser dès que possible]** et cliquez sur le bouton **[!UICONTROL Analyser]**.
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Postpone the delivery]** option lets you postpone delivery to a later date.
+   >L&#39;option **[!UICONTROL Différer la diffusion]** permet de différer l&#39;envoi de la diffusion à une date ultérieure.
 
    ![](assets/social_twitter_delivery_012.png)
 
 1. Une fois l&#39;analyse terminée, vérifiez le résultat de l&#39;analyse.
-1. Cliquez sur **[!UICONTROL Confirm delivery]**, puis sur **[!UICONTROL Yes]**.
+1. Cliquez sur le bouton **[!UICONTROL Confirmer l&#39;envoi]**, puis cliquez sur **[!UICONTROL Oui]**.
 
 ![](assets/social_facebook_delivery_016.png)
 
@@ -130,7 +130,7 @@ L’envoi du BAT s’effectue de la même manière que pour une diffusion email.
 
 ### Principe de fonctionnement {#operating-principle}
 
-Le **[!UICONTROL Synchronize Twitter accounts]** processus (voir [Synchronisation des comptes](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)Twitter) récupère la liste des abonnés Twitter afin que vous puissiez leur envoyer des messages directs. Les abonnés récupérés sont stockés dans un tableau spécifique : le tableau des visiteurs. Pour afficher la liste des abonnés Twitter, accédez au **[!UICONTROL Profiles and Targets > Visitors]** noeud.
+Le processus **[!UICONTROL Synchroniser les comptes]** Twitter (voir [Synchronisation des comptes](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)Twitter) récupère la liste des abonnés Twitter afin que vous puissiez leur envoyer des messages directs. Les abonnés récupérés sont stockés dans un tableau spécifique : le tableau des visiteurs. Pour afficher la liste des abonnés Twitter, accédez au noeud **[!UICONTROL Profils et cibles > Visiteurs]** .
 
 ![](assets/social_twitter_visitors_001.png)
 
@@ -140,14 +140,14 @@ Le **[!UICONTROL Synchronize Twitter accounts]** processus (voir [Synchronisatio
 
 Pour chaque abonné, Adobe Campaign récupère les informations suivantes :
 
-* **[!UICONTROL Origin]**: nom du réseau social (**Twitter** dans ce cas)
-* **[!UICONTROL External ID]**: identifiant utilisateur
-* **[!UICONTROL User name]**: nom de compte de l’utilisateur
-* **[!UICONTROL Full name]**: nom de l’utilisateur
-* **[!UICONTROL Language]**: langage utilisateur
-* **[!UICONTROL Number of friends]**: nombre d’abonnés
-* **[!UICONTROL Time zone]**: fuseau horaire utilisateur
-* **[!UICONTROL Verified]**: ce champ indique si l’utilisateur dispose d’un compte Twitter vérifié.
+* **[!UICONTROL Origine]** : nom du réseau social (**Twitter**, dans ce cas)
+* **[!UICONTROL Id externe]** : identifiant de l&#39;utilisateur
+* **[!UICONTROL Pseudo]** : nom de compte de l&#39;utilisateur
+* **[!UICONTROL Nom]** complet : nom de l’utilisateur
+* **[!UICONTROL Langue]** : langue de l&#39;utilisateur
+* **[!UICONTROL Nombre d&#39;amis]** : nombre d&#39;abonnés au compte de l&#39;utilisateur
+* **[!UICONTROL Fuseau horaire]** : fuseau horaire de l&#39;utilisateur
+* **[!UICONTROL Vérifié]** : ce champ indique si l&#39;utilisateur possède un compte Twitter vérifié
 
 ### Limitations {#limitations-1}
 
@@ -159,7 +159,7 @@ Les limitations suivantes sont des contraintes inhérentes à Twitter.
 
 ### Créer la diffusion {#creating-the-delivery-}
 
-Create a new delivery based on the **[!UICONTROL Tweet (Direct Message)]** delivery template.
+Créez une nouvelle diffusion basée sur le modèle de diffusion **[!UICONTROL Tweeter (Direct Message)]**.
 
 ![](assets/social_twitter_delivery_010.png)
 
@@ -167,11 +167,11 @@ Create a new delivery based on the **[!UICONTROL Tweet (Direct Message)]** deliv
 
 Vous devez sélectionner les abonnés à qui vous souhaitez envoyer votre message direct.
 
-1. Cliquez sur le **[!UICONTROL To]** lien.
+1. Cliquez sur le lien **[!UICONTROL Pour]**.
 
    ![](assets/social_twitter_delivery_016.png)
 
-1. Cliquez sur le **[!UICONTROL Add]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
    ![](assets/social_twitter_delivery_006.png)
 
@@ -179,29 +179,29 @@ Vous devez sélectionner les abonnés à qui vous souhaitez envoyer votre messag
 
    ![](assets/social_twitter_delivery_017.png)
 
-   * Select **[!UICONTROL Twitter subscribers]** to send a direct message to all account followers.
+   * Sélectionnez **[!UICONTROL Abonnés d&#39;un compte Twitter]** pour envoyer un message direct à tous les abonnés d&#39;un compte.
 
       >[!IMPORTANT]
       >
       >Vous ne pouvez pas envoyer plus de 250 messages par jour. Si votre compte Twitter comporte plus de 250 abonnés, il est vivement recommandé d’effectuer un envoi en plusieurs vagues. L’envoi en plusieurs vagues s’effectue de la même manière que pour une diffusion email. Reportez-vous à [cette section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 
-   * Sélectionnez **[!UICONTROL Filter conditions]** pour définir une requête et afficher son résultat. Cette option est la même que pour les diffusions par courrier électronique. Pour plus d&#39;informations, consultez [cette section](../../platform/using/defining-filter-conditions.md).
+   * Sélectionnez **[!UICONTROL Conditions de filtrage]** afin de définir une requête et d’en visualiser le résultat. Cette option s’utilise de la même manière que pour une diffusion email. Reportez-vous à [cette section](../../platform/using/defining-filter-conditions.md) pour plus d’informations.
 
       ![](assets/social_twitter_delivery_018.png)
 
 ### Choisir la cible du BAT {#selecting-the-target-of-the-proof-1}
 
-L&#39; **[!UICONTROL Target of the proofs]** onglet vous permet de sélectionner l&#39;abonné qui recevra la preuve de votre message direct. Le processus de sélection est le même que pour la cible principale. Reportez-vous à [Sélection de la cible](#selecting-the-main-target)principale.
+The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Reportez-vous à [Sélection de la cible](#selecting-the-main-target)principale.
 
 ![](assets/social_twitter_delivery_020.png)
 
 >[!NOTE]
 >
->Si vous souhaitez envoyer toutes vos épreuves de message direct au même suiveur Twitter, vous pouvez enregistrer la cible de preuve dans le modèle de **[!UICONTROL Tweet (Direct Message)]** diffusion, accessible via le **[!UICONTROL Resources > Templates > Delivery templates]** noeud. La cible d’épreuve sera alors saisie par défaut pour chaque nouvelle remise.
+>Si vous souhaitez envoyer tous les BAT de vos messages directs au même abonné Twitter, vous pouvez enregistrer la cible du BAT dans le modèle de diffusion **[!UICONTROL Tweeter (Direct Message)]**, accessible à partir du noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. La cible du BAT sera alors renseignée par défaut pour chaque nouvelle diffusion.
 
 ### Définir le contenu du message {#defining-message-content-}
 
-Enter the content of the tweet in the **[!UICONTROL Content]** tab.
+Saisissez le contenu du tweet dans l&#39;onglet **[!UICONTROL Contenu]**.
 
 ![](assets/social_twitter_delivery_015.png)
 
