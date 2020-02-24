@@ -32,7 +32,7 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 Avant la migration, vous devez installer le dernier build correspondant à la version que vous utilisez.
 
-Check the version on your server by going to the **[!UICONTROL Help> About]** menu on the client console using the **nlserver pdump** command.
+Vérifiez la version de votre serveur via le menu **[!UICONTROL Aide > A propos]** de la console cliente ou à l&#39;aide de la commande **nlserver pdump**.
 
 ### Sauvegarde des données {#data-backup}
 
