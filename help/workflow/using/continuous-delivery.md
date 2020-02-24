@@ -26,7 +26,7 @@ Une activité de type **Diffusion au fil de l&#39;eau** permet d&#39;ajouter de 
 
 ![](assets/edit_diffusion_fil.png)
 
-L’ **[!UICONTROL Process errors]** option affiche une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le processus ne passe pas en mode d’erreur et poursuit l’exécution.
+L&#39;option **[!UICONTROL Traiter les erreurs]** fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d&#39;erreur et continue son exécution.
 
 Les erreurs prises en compte sont les erreurs du système de fichiers (impossible de déplacer un fichier, impossible d&#39;accéder au répertoire, etc.).
 
@@ -39,7 +39,7 @@ Cette option ne traite pas les erreurs liées au paramétrage de l&#39;activité
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
-Uniquement lorsque l’ **[!UICONTROL Specified by the inbound event]** option est sélectionnée.
+Uniquement lorsque l&#39;action **[!UICONTROL Spécifiés par l&#39;événement entrant]** est sélectionnée.
 
 ## Paramètres de sortie {#output-parameters}
 
@@ -47,6 +47,6 @@ Uniquement lorsque l’ **[!UICONTROL Specified by the inbound event]** option e
 * schema
 * recCount
 
-Cet ensemble de trois valeurs identifie la cible résultant de la remise à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:destinataire) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
 La transition associée au complémentaire possède les mêmes paramètres.
