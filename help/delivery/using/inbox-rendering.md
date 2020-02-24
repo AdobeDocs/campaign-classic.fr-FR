@@ -34,7 +34,7 @@ Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox ren
 
 >[!NOTE]
 >
->Le rendu de la boîte de réception n’est pas nécessaire pour tester la personnalisation dans les remises. La personnalisation peut être vérifiée à l’aide des outils Adobe Campaign tels que **[!UICONTROL Preview]** et les [preuves](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+>L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Celles-ci peuvent être vérifiées à l&#39;aide des outils d&#39;Adobe Campaign tels que l&#39;**[!UICONTROL aperçu]** et les [bons à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activation du rendu de la boîte de réception{#activating-inbox-rendering}
 
@@ -42,18 +42,18 @@ Pour les clients hébergés et hybrides, le rendu de la boîte de réception est
 
 Pour les installations sur site, suivez les étapes ci-dessous pour configurer le rendu de la boîte de réception.
 
-1. Installez le **[!UICONTROL Inbox rendering (IR)]** package via le menu **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** . Pour plus d’informations, voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard Campaign Classic.
-1. Configurez un compte externe du type HTTP via le noeud **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** . For more on this, see [Creating an external account](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Installez le package de rendu de la **[!UICONTROL boîte de]** réception (IR) **[!UICONTROL via le menu]** Outils **[!UICONTROL >]** Avancé **[!UICONTROL >Importer le package.]** Pour plus d’informations, voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard Campaign Classic.
+1. Configurez un compte externe de type HTTP via le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > Comptes **** externes. For more on this, see [Creating an external account](../../platform/using/external-accounts.md#creating-an-external-account).
 1. Définissez les paramètres du compte externe comme suit :
-   * **[!UICONTROL Label]**: Informations sur le serveur de délivrabilité
-   * **[!UICONTROL Internal name]**: délivrabilityInstance
+   * **[!UICONTROL Étiquette]**: Informations sur le serveur de délivrabilité
+   * **[!UICONTROL Nom]** interne : délivrabilityInstance
    * **[!UICONTROL Type]**: HTTP
-   * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Encryption]**: Aucun
-   * Cochez l’ **[!UICONTROL Enabled]** option.
+   * **[!UICONTROL Serveur]**: https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL Chiffrement]**: Aucun
+   * Cochez l&#39;option **[!UICONTROL Activé]**.
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. Accédez au noeud **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** . Recherchez l’ **[!UICONTROL DmRendering_cuid]** option et contactez l’assistance pour obtenir l’identifiant des rapports de remise qui doit être copié dans le **[!UICONTROL Value (text)]** champ.
+1. Accédez au noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]** . Recherchez l’option **[!UICONTROL DmRendering_cuid]** et contactez l’assistance technique pour obtenir l’identifiant des rapports de livraison qui doit être copié dans le champ **[!UICONTROL Valeur (texte)]** .
 1. Modifiez le fichier **serverConf.xml** pour autoriser un appel au serveur Litmus. Ajoutez la ligne suivante à la `<urlPermission>` section :
 
    ```
@@ -92,7 +92,7 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 
 
 
-Le nombre de jetons disponibles restants s’affiche dans le rapport **[!UICONTROL General summary]** de rendu de la [boîte de réception](#inbox-rendering-report).
+The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -111,7 +111,7 @@ Une fois que vous avez créé votre diffusion email et défini son contenu ainsi
 Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion, consultez [cette section](../../delivery/using/about-email-channel.md).
 
 1. Dans la barre supérieure de la diffusion, cliquez sur le bouton **[!UICONTROL Inbox rendering]**.
-1. Select **[!UICONTROL Analyze]** to start the capture process.
+1. Sélectionnez **[!UICONTROL Analyser]** pour commencer la capture.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
@@ -131,13 +131,13 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
 Ce rapport présente les inbox renderings tels qu&#39;ils apparaissent côté destinataire. Ils peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
-The **[!UICONTROL General summary]** presents the number of messages received, unwanted (spam), not received, or pending reception, as a list and through a graphical color-coded representation.
+La **[!UICONTROL synthèse générale]** présente le nombre de messages reçus, indésirables (spam), non reçus ou en attente de réception sous la forme d&#39;une liste et dans une représentation graphique avec un code-couleur.
 
 ![](assets/s_tn_inbox_rendering_summary.png)
 
 Survolez le graphique avec la souris pour afficher les détails de chaque couleur.
 
-Le corps du rapport est divisé en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
+Le rapport est divisé en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Clients de messagerie]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
