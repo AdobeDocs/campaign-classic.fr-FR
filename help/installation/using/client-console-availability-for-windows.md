@@ -49,12 +49,12 @@ Dès qu&#39;une nouvelle version de la console cliente est disponible, vous ête
 
 >[!NOTE]
 >
->In the prompt that is displayed, Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the console is available.\
+>Dans l&#39;invite qui apparaît, Adobe recommande de conserver l&#39;option **[!UICONTROL Ne plus poser cette question]** non sélectionnée pour que tous les utilisateurs soient informés de la disponibilité d&#39;une nouvelle version de la console.\
 >Si vous sélectionnez cette option et choisissez de ne pas télécharger la dernière version, aucun autre utilisateur ne sera informé des nouvelles versions disponibles.
 
 Pour réinitialiser cette invite, procédez comme suit (seuls les administrateurs système qui maîtrisent l&#39;édition de la base du registre doivent apporter ces modifications) :
 
-1. Open Registry Editor using the **regedit** command from the **[!UICONTROL Start > Run]** menu.
+1. Ouvrez l&#39;Editeur du Registre à l&#39;aide de la commande **regedit** dans le menu **[!UICONTROL Démarrer]** > Exécuter.
 1. Recherchez le noeud et développez-le.
 
    ```
