@@ -182,7 +182,7 @@ La zone d&#39;édition permet de renseigner le contenu du template JavaScript :
 >
 >Il est nécessaire de renseigner le schéma du modèle de données associé pour l&#39;initialisation des objets JavaScript.
 
-To generate the preview of the output document at any time, select a content and an output format (HTML, Text, XML), then click **[!UICONTROL Generate]** :
+Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez sélectionner un contenu et le format de sortie (HTML, Texte, XML) puis cliquer sur le bouton **[!UICONTROL Générer]** :
 
 ![](assets/d_ncs_content_form17.png)
 
@@ -237,7 +237,7 @@ Les étapes de réalisation de cet exemple sont les suivantes :
    </srcSchema>
    ```
 
-1. Create the linked **[!UICONTROL Content management]** type form (**neo:news**)
+1. Créez le formulaire associé (**neo:news**) de type **[!UICONTROL Gestion de contenu]** :
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -510,7 +510,7 @@ La zone d&#39;édition permet de renseigner le contenu de la feuille de style :
 
 ![](assets/d_ncs_content_form14.png)
 
-To generate a preview of the output document at any time, select a content instance and the format (HTML, Text, XML), and then click **[!UICONTROL Generate]** :
+Pour générer à tout moment l&#39;aperçu du document de sortie, vous devez sélectionner une instance de contenu et le format de mise en forme (HTML, Texte, XML), puis cliquer sur le bouton **[!UICONTROL Générer]** :
 
 ![](assets/d_ncs_content_form15.png)
 
@@ -526,7 +526,7 @@ Les images renseignées dans le document HTML de sortie peuvent être référenc
 
 Le référencement relatif permet de renseigner l&#39;URL du serveur contenant les images dans les options **NcmRessourcesDir** et **NcmRessourcesDirPreview**. Ces options contiennent l&#39;emplacement des images pour la publication et la prévisualisation dans la console cliente Adobe Campaign.
 
-These two options are accessible via the option management screen in the **[!UICONTROL Administration > Platform > Options]** folder.
+Ces deux options sont accessibles à partir de l&#39;écran des gestions des options dans le dossier **[!UICONTROL Administration > Plateforme > Options]**.
 
 **Exemple**:
 
@@ -547,7 +547,7 @@ Exemple d&#39;utilisation de l&#39;option d&#39;emplacement des images et son ut
 
 ### Utilisation des ressources publiques {#using-public-resources}
 
-You can also use **[!UICONTROL Public resources]** to declare images and upload them onto the server depending on the instance settings entered in the deployment wizard.
+Vous pouvez également utiliser les **[!UICONTROL Ressources publiques]** pour déclarer les images et les télécharger sur le serveur selon les paramètres de l&#39;instance, renseignés dans l&#39;assistant de déploiement.
 
 Vous pourrez ensuite appeler ces images dans les contenus. Pour cela, utilisez la syntaxe suivante dans le schéma de gestion de contenu :
 
@@ -567,7 +567,7 @@ Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la sy
 
 >[!NOTE]
 >
->For more on **[!UICONTROL Public resources]** and how to configure and use them, refer to [this section](../../installation/using/deploying-an-instance.md#managing-public-resources).
+>Les **[!UICONTROL Ressources publiques]**, leur paramétrage et leur mode d&#39;utilisation sont présentés dans [cette section](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
 ## Affichage des dates {#date-display}
 
