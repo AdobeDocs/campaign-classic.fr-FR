@@ -30,9 +30,9 @@ Dans un workflow, vous pouvez adapter les plannings d&#39;exécution des activit
 
 ## Planifier l&#39;exécution {#execution-scheduling}
 
-Vous pouvez planifier l’exécution des tâches à l’aide du planificateur (voir [Planificateur](../../workflow/using/scheduler.md)). Vous pouvez également utiliser les options de planification disponibles dans les activités qui offrent cette fonctionnalité. Ces activités offrent un **[!UICONTROL Schedule]** onglet : **[!UICONTROL File collector]**, **[!UICONTROL File transfer]**, **[!UICONTROL Web download]**, **[!UICONTROL Email reception]** &amp; **[!UICONTROL SMS]**, etc.
+Vous pouvez planifier l’exécution des tâches à l’aide du planificateur (voir [Planificateur](../../workflow/using/scheduler.md)). Vous pouvez également utiliser les options de planification disponibles dans les activités qui offrent cette fonctionnalité. Ces activités offrent un onglet **[!UICONTROL Planification]** : Collecteur **[!UICONTROL de]** fichiers, transfert **[!UICONTROL de]** fichiers, téléchargement **** Web, réception de **[!UICONTROL courriels et SMS, etc.]******
 
-Pour toutes les tâches planifiées, c’est-à-dire toutes les activités avec des options de planification, vous pouvez sélectionner le fuseau horaire à appliquer. Le fuseau horaire est sélectionné via l’ **[!UICONTROL Advanced]** onglet de l’activité concernée :
+Dans toute tâche planifiée, c&#39;est-à-dire dans toute activité qui propose des options de planification, vous pouvez choisir le fuseau horaire à appliquer. Le fuseau horaire est sélectionné à partir de l&#39;onglet **[!UICONTROL Avancé]** de l&#39;activité concernée :
 
 ![](assets/wf-timezone-in-a-box.png)
 
@@ -54,8 +54,8 @@ Les valeurs possibles sont les suivantes :
 
    Utilise le fuseau horaire sélectionné.
 
-If the **[!UICONTROL By default]** value is selected, the time zone of the workflow is applied, or, otherwise, that of the application server.
+Si la valeur **[!UICONTROL Par défaut]** est sélectionnée, le fuseau horaire du workflow est appliqué, ou, à défaut, celui du serveur applicatif.
 
 ## Associer un fuseau horaire à une activité {#linking-a-time-zone-to-an-activity}
 
-L’ **[!UICONTROL Advanced]** onglet des activités du flux de travail vous permet de sélectionner son fuseau horaire. Bien que, la plupart du temps, le fuseau horaire des processus soit suffisant, il peut être nécessaire de le surcharger encore et encore pour une activité spécifique, telle que l’importation de données, afin de lier les dates à leur fuseau horaire correct.
+L&#39;onglet **[!UICONTROL Avancé]** des activités de workflow permet de sélectionner le fuseau horaire de l&#39;activité. Si, la plupart du temps, le fuseau horaire du workflow est suffisant, il peut être utile de le surcharger ponctuellement pour telle ou telle activité, par exemple dans le cadre d&#39;un import de données, afin d&#39;associer aux dates le bon fuseau horaire.
