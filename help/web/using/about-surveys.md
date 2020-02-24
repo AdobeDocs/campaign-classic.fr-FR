@@ -81,10 +81,10 @@ Pour plus d’informations sur la configuration et le séquencement de ces étap
 
 ## Paramétrage des enquêtes {#surveys-configuration}
 
-Les enquêtes sont stockées dans le **[!UICONTROL Resources > Online > Web Applications]** noeud de l&#39;arborescence Adobe Campaign. Les configurations se trouvent dans les dossiers suivants :
+Les questionnaires sont stockés dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence Adobe Campaign. Les paramétrages sont répartis dans les dossiers suivants :
 
-* **[!UICONTROL Administration > Configuration > Form rendering]**: contient les modèles de rendu pour la présentation de formulaires Web (applications et enquêtes).
-* **[!UICONTROL Resources > Templates > Web application templates]**: contient les modèles de formulaire. Pour créer un formulaire, vous devez commencer par un modèle.
+* **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires Web (applications et questionnaires).
+* **[!UICONTROL Ressources > Modèles > Modèles d&#39;application Web]** : contient des modèles de formulaires. Pour créer un formulaire, vous devez partir d&#39;un modèle.
 
 >[!NOTE]
 >
