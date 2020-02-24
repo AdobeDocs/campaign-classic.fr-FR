@@ -24,7 +24,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 Vous trouverez ci-dessous un exemple de configuration pour une entreprise qui vend des forfaits de vacances en ligne. Elle propose son application mobile (Neotrips) en deux versions : Neotrips pour Android et Neotrips pour iOS. Pour configurer l’application mobile dans Adobe Campaign, vous devez procéder comme suit :
 
-* Create a **[!UICONTROL Mobile application]** type information service for the Neotrips mobile application.
+* Créez un service d’information de type **[!UICONTROL Application mobile]** pour l’application mobile Neotrips.
 * Ajoutez, à ce service, les versions iOS et Android de l&#39;application.
 * Créez une diffusion pour iOS et Android.
 
@@ -32,7 +32,7 @@ Vous trouverez ci-dessous un exemple de configuration pour une entreprise qui ve
 
 >[!NOTE]
 >
->Go to the **[!UICONTROL Subscriptions]** tab of the service to view the list of subscribers to the service, i.e. all people who have installed the application on their mobile and agreed to receive notifications.
+>Dans l&#39;onglet **[!UICONTROL Abonnements]** du service, vous trouverez la liste de tous les abonnés au service, c&#39;est-à-dire toutes les personnes ayant installé l&#39;application sur leur terminal mobile et accepté de recevoir des notifications.
 
 ## Configuration de l’application mobile avec iOS {#configuring-the-mobile-application-ios}
 
@@ -44,23 +44,23 @@ Vous trouverez ci-dessous un exemple de configuration pour une entreprise qui ve
 
 ### Étape 1 : Installation du package {#installing-package-ios}
 
-1. Accédez à l’assistant d’importation de package **[!UICONTROL Tools > Advanced > Package import...]** dans la console client Adobe Campaign.
+1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
    ![](assets/package_ios.png)
 
-1. Sélectionner **[!UICONTROL Install a standard package]**.
+1. Sélectionnez **[!UICONTROL Installer un package standard]**.
 
-1. Dans la liste qui s&#39;affiche, cochez **[!UICONTROL Mobile App Channel]**.
+1. Dans la liste qui s’affiche, vérifiez le canal **[!UICONTROL des applications]** mobiles.
 
    ![](assets/package_ios_2.png)
 
-1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
+1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
-   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
    ![](assets/package_ios_3.png)
 
-1. **[!UICONTROL Close]** la fenêtre d’installation.
+1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
 
 ### Étape 2 : Configuration d’un compte externe iOS {#configuring-external-account-ios}
 
@@ -71,9 +71,9 @@ Deux connecteurs sont disponibles pour iOS :
 
 Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
-1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
-1. Sélectionnez le compte **[!UICONTROL iOS routing]** externe.
-1. Dans l’ **[!UICONTROL Connector]** onglet, renseignez le **[!UICONTROL Access URL of the connector]** champ :
+1. Accédez à **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+1. Select the **[!UICONTROL iOS routing]** external account.
+1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL URL d&#39;accès au connecteur]** :
 
    Pour le connecteur HTTP2 iOS : http://localhost:8080/nms/jsp/iosHTTP2.jsp
 
@@ -83,57 +83,57 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
    >
    > Vous pouvez également le configurer comme suit https://localhost:8080/nms/jsp/ios.jsp, mais nous vous conseillons d’utiliser la version 2 du connecteur.
 
-1. Clics **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Votre connecteur iOS est maintenant configuré. Vous pouvez commencer à créer votre service.
 
 ### Étape 3 : Configuration du service iOS {#configuring-ios-service}
 
-1. Accédez au **[!UICONTROL Profiles and Targets > Services and subscriptions]** noeud et cliquez sur **[!UICONTROL New]**.
+1. Dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Profils et Cibles > Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
    ![](assets/nmac_service_1.png)
 
-1. Définissez un **[!UICONTROL Label]** et un **[!UICONTROL Internal name]**.
-1. Accédez au **[!UICONTROL Type]** champ et sélectionnez **[!UICONTROL Mobile application]**.
+1. Définissez un **[!UICONTROL Libellé]** et un **[!UICONTROL Nom interne]**.
+1. Dans le champ **[!UICONTROL Type]**, choisissez **[!UICONTROL Application mobile]**.
 
    >[!NOTE]
    >
-   >Le mappage **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** cible par défaut est lié à la table des destinataires. Si vous souhaitez utiliser un mappage de cible différent, vous devez créer un mappage de cible et le saisir dans le **[!UICONTROL Target mapping]** champ du service. Pour plus d’informations sur la création du mappage des cibles, reportez-vous au guide [de](../../configuration/using/about-custom-recipient-table.md)configuration.
+   >Le mapping de ciblage par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez créer un nouveau mapping de ciblage et le renseigner dans le champ **[!UICONTROL Mapping de ciblage]** du service. La création d&#39;un mapping de ciblage est présentée dans le [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
-1. Cliquez ensuite sur le **[!UICONTROL Add]** bouton pour sélectionner le type d’application.
+1. Cliquez ensuite sur le bouton **[!UICONTROL Ajouter]** pour sélectionner le type d’application.
 
    ![](assets/nmac_service_2.png)
 
-1. La fenêtre suivante s’affiche. Sélectionnez **[!UICONTROL Create an iOS application]** et commencez en saisissant la **[!UICONTROL Label]**.
+1. La fenêtre suivante s’affiche. Sélectionnez **[!UICONTROL Créer une application]** iOS et commencez par saisir le **[!UICONTROL libellé]**.
 
    ![](assets/nmac_ios_2.png)
 
-1. Vous pouvez, si nécessaire, enrichir le contenu d’un message push avec certains messages **[!UICONTROL Application variables]** . Elles sont entièrement personnalisables et font partie de la charge utile du message envoyé au périphérique mobile.
+1. Vous pouvez, si nécessaire, enrichir un contenu de message push avec certaines variables **[!UICONTROL d’]** application. Elles sont entièrement personnalisables et font partie de la charge utile du message envoyé au périphérique mobile.
 Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer une notification Push riche, puis fournissons à l’application l’image à afficher dans la notification.
 
    ![](assets/nmac_ios_3.png)
 
-1. L’ **[!UICONTROL Subscription parameters]** onglet vous permet de définir le mappage avec une extension du **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schéma.
+1. L’onglet Paramètres **[!UICONTROL d’]** abonnement vous permet de définir le mappage avec une extension du schéma des applications **[!UICONTROL d’abonné (nms:appsubscriptionRcp)]** .
 
    >[!NOTE]
    >
    >Assurez-vous que vous n&#39;utilisez pas le même certificat pour la version de développement (sandbox) et la version de production de l&#39;application.
 
-1. L&#39; **[!UICONTROL Sounds]** onglet vous permet de spécifier un son à lire. Cliquez sur **[!UICONTROL Add]** et remplissez le **[!UICONTROL Internal name]** champ qui doit contenir le nom du fichier incorporé dans l’application ou le nom du son système.
+1. L’onglet **[!UICONTROL Sons]** vous permet de spécifier un son à lire. Cliquez sur **[!UICONTROL Ajouter]** et remplissez le champ Nom **** interne qui doit contenir le nom du fichier incorporé dans l’application ou le nom du son système.
 
-1. Cliquez sur **[!UICONTROL Next]** pour commencer à configurer l’application de développement.
+1. Cliquez sur **[!UICONTROL Suivant]** pour commencer à configurer l’application de développement.
 
-1. Assurez-vous que la même **[!UICONTROL Integration key]** est définie dans Adobe Campaign et dans le code de l’application via le SDK. Pour plus d’informations à ce sujet, voir : [Intégration du SDK de campagne dans l’application](#integrating-campaign-sdk-into-the-mobile-application)mobile. Cette clé d’intégration, spécifique à chaque application, vous permet de lier l’application mobile à la plateforme Adobe Campaign.
+1. Assurez-vous que la même clé **[!UICONTROL d’]** intégration est définie dans Adobe Campaign et dans le code de l’application via le SDK. Pour plus d’informations à ce sujet, voir : [Intégration du SDK de campagne dans l’application](#integrating-campaign-sdk-into-the-mobile-application)mobile. Cette clé d’intégration, spécifique à chaque application, vous permet de lier l’application mobile à la plateforme Adobe Campaign.
 
    >[!NOTE]
    >
-   > La valeur **[!UICONTROL Integration key]** est entièrement personnalisable, mais elle doit être identique à celle spécifiée dans le SDK.
+   > La clé **[!UICONTROL d’intégration]** est entièrement personnalisable avec une valeur de chaîne, mais doit être exactement la même que celle spécifiée dans le SDK.
 
-1. Sélectionnez l’une des icônes prêtes à l’emploi dans le **[!UICONTROL Application icon]** champ pour personnaliser l’application mobile dans votre service.
+1. Sélectionnez l’une des icônes prêtes à l’emploi dans le champ d’icône **[!UICONTROL de l’]** application pour personnaliser l’application mobile dans votre service.
 
-1. Click the **[!UICONTROL Enter the certificate...]** link then select the authentication certificate and enter the password that was provided by the mobile application developer. Vous pouvez cliquer **[!UICONTROL Test the connection]** pour vous assurer qu’il fonctionne.
+1. Cliquez sur le lien **[!UICONTROL Renseigner le certificat]** puis sélectionnez le certificat d&#39;authentification et saisissez le mot de passe qui vous ont été fournis par le développeur de l&#39;application mobile. Vous pouvez cliquer sur **[!UICONTROL Tester la connexion]** pour vous assurer qu’elle est réussie.
 
    >[!NOTE]
    >
@@ -141,11 +141,11 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
    ![](assets/nmac_ios_4.png)
 
-1. Cliquez sur **[!UICONTROL Next]** pour commencer à configurer l’application de production et suivez les étapes décrites ci-dessus.
+1. Cliquez sur **[!UICONTROL Suivant]** pour commencer à configurer l’application de production et suivez les étapes décrites ci-dessus.
 
    ![](assets/nmac_ios_5.png)
 
-1. Clics **[!UICONTROL Finish]**. Votre application iOS est maintenant prête à être utilisée dans Campaign Classic.
+1. Cliquez sur **[!UICONTROL Terminer]**. Votre application iOS est maintenant prête à être utilisée dans Campaign Classic.
 
 ### Étape 4 : Création d’une notification iOS enrichie {#creating-ios-delivery}
 
@@ -153,22 +153,22 @@ Avec iOS 10 ou version ultérieure, il est possible de générer des notificati
 
 Vous devez maintenant créer une nouvelle diffusion et la lier à l’application mobile que vous avez créée.
 
-1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
+1. Accédez à **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 
-1. Clics **[!UICONTROL New]**.
+1. Cliquez sur **[!UICONTROL Nouveau]**.
 
    ![](assets/nmac_android_3.png)
 
-1. Sélectionnez **[!UICONTROL Deliver on iOS (ios)]** dans la **[!UICONTROL Delivery template]** liste déroulante. Ajoutez un élément **[!UICONTROL Label]** à votre livraison.
+1. Sélectionnez **[!UICONTROL Livrer sur iOS (ios)]** dans la liste déroulante des modèles **[!UICONTROL de]** diffusion. Ajoutez une **[!UICONTROL étiquette]** à votre diffusion.
 
-1. Cliquez sur **[!UICONTROL To]** pour définir la population à cibler. Par défaut, le mappage **[!UICONTROL Subscriber application]** cible est appliqué. Cliquez sur **[!UICONTROL Add]** pour sélectionner notre service créé précédemment.
+1. Cliquez sur **[!UICONTROL À]** pour définir la population à cibler. Par défaut, le mappage cible de l’application **** abonné est appliqué. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner le service créé précédemment.
 
    ![](assets/nmac_ios_9.png)
 
-1. Dans la **[!UICONTROL Target type]** fenêtre, sélectionnez **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]** et cliquez sur **[!UICONTROL Next]**.
+1. Dans la fenêtre Type **[!UICONTROL de]** Target, sélectionnez **[!UICONTROL Abonnés d’une application mobile iOS (iPhone, iPad)]** et cliquez sur **[!UICONTROL Suivant]**.
 
-1. Dans la **[!UICONTROL Service]** liste déroulante, sélectionnez votre service créé précédemment, puis l’application à cibler, puis cliquez sur **[!UICONTROL Finish]**.
-Les éléments **[!UICONTROL Application variables]** sont automatiquement ajoutés en fonction de ce qui a été ajouté lors des étapes de configuration.
+1. Dans la liste déroulante **[!UICONTROL Service]** , sélectionnez votre service créé précédemment, puis l’application à cibler, puis cliquez sur **[!UICONTROL Terminer]**.
+Les variables **** Application sont automatiquement ajoutées en fonction de ce qui a été ajouté au cours des étapes de configuration.
 
    ![](assets/nmac_ios_6.png)
 
@@ -178,7 +178,7 @@ Les éléments **[!UICONTROL Application variables]** sont automatiquement ajout
 
 1. Check the **[!UICONTROL Mutable content]** box in the edit notification window to allow the mobile application to download media content.
 
-1. Click **[!UICONTROL Save]** and send your delivery.
+1. Cliquez sur **[!UICONTROL Enregistrer]**, puis envoyez votre diffusion.
 
 L’image et la page Web doivent être affichées dans la notification Push lorsqu’elles sont reçues sur les périphériques iOS mobiles des abonnés.
 
@@ -188,23 +188,23 @@ L’image et la page Web doivent être affichées dans la notification Push lors
 
 ### Étape 1 : Installation du package {#installing-package-android}
 
-1. Accédez à l’assistant d’importation de package **[!UICONTROL Tools > Advanced > Package import...]** dans la console client Adobe Campaign.
+1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
    ![](assets/package_ios.png)
 
-1. Sélectionner **[!UICONTROL Install a standard package]**.
+1. Sélectionnez **[!UICONTROL Installer un package standard]**.
 
-1. Dans la liste qui s&#39;affiche, cochez **[!UICONTROL Mobile App Channel]**.
+1. Dans la liste qui s’affiche, vérifiez le canal **[!UICONTROL des applications]** mobiles.
 
    ![](assets/package_ios_2.png)
 
-1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
+1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
-   Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
    ![](assets/package_ios_3.png)
 
-1. **[!UICONTROL Close]** la fenêtre d’installation.
+1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
 
 ### Étape 2 : Configuration du compte externe Android {#configuring-external-account-android}
 
@@ -215,9 +215,9 @@ Deux connecteurs sont disponibles pour Android :
 
 Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
-1. Go to **[!UICONTROL Administration > Platform > External accounts]**.
-1. Sélectionnez le compte **[!UICONTROL Android routing]** externe.
-1. Dans l’ **[!UICONTROL Connector]** onglet, renseignez le **[!UICONTROL JavaScript used in the connector]** champ :
+1. Accédez à **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+1. Sélectionnez le compte externe de **[!UICONTROL routage Android]**.
+1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL JavaScript du connecteur]** :
 
    Pour Android V2 : https://localhost:8080/nms/jsp/androidPushConnectorV2.js
 
@@ -233,51 +233,51 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
 ### Étape 3 : Configuration du service Android {#configuring-android-service}
 
-1. Accédez au **[!UICONTROL Profiles and Targets > Services and subscriptions]** noeud et cliquez sur **[!UICONTROL New]**.
+1. Dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Profils et Cibles > Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
    ![](assets/nmac_service_1.png)
 
-1. Définissez un **[!UICONTROL Label]** et un **[!UICONTROL Internal name]**.
-1. Accédez au **[!UICONTROL Type]** champ et sélectionnez **[!UICONTROL Mobile application]**.
+1. Définissez un **[!UICONTROL Libellé]** et un **[!UICONTROL Nom interne]**.
+1. Dans le champ **[!UICONTROL Type]**, choisissez **[!UICONTROL Application mobile]**.
 
    >[!NOTE]
    >
-   >Le mappage **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** cible par défaut est lié à la table des destinataires. Si vous souhaitez utiliser un mappage de cible différent, vous devez créer un mappage de cible et le saisir dans le **[!UICONTROL Target mapping]** champ du service. Pour plus d’informations sur la création du mappage des cibles, reportez-vous au guide [de](../../configuration/using/about-custom-recipient-table.md)configuration.
+   >Le mapping de ciblage par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez créer un nouveau mapping de ciblage et le renseigner dans le champ **[!UICONTROL Mapping de ciblage]** du service. La création d&#39;un mapping de ciblage est présentée dans le [Guide de configuration](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
-1. Cliquez ensuite sur le **[!UICONTROL Add]** bouton pour sélectionner le type d’application.
+1. Cliquez ensuite sur le bouton **[!UICONTROL Ajouter]** pour sélectionner le type d’application.
 
    ![](assets/nmac_service_2.png)
 
-1. Sélectionner **[!UICONTROL Create an Android application]**.
+1. Sélectionnez **[!UICONTROL Créer une application]** Android.
 
    ![](assets/nmac_android.png)
 
-1. Entrez un **[!UICONTROL Label]**.
+1. Saisissez un **[!UICONTROL Libellé]**.
 
-1. Assurez-vous que la même **[!UICONTROL Integration key]** est définie dans Adobe Campaign et dans le code de l’application via le SDK. Pour plus d’informations à ce sujet, voir : [Intégration du SDK de campagne dans l’application](#integrating-campaign-sdk-into-the-mobile-application)mobile.
+1. Assurez-vous que la même clé **[!UICONTROL d’]** intégration est définie dans Adobe Campaign et dans le code de l’application via le SDK. Pour plus d’informations à ce sujet, voir : [Intégration du SDK de campagne dans l’application](#integrating-campaign-sdk-into-the-mobile-application)mobile.
 
    >[!NOTE]
    >
-   > La valeur **[!UICONTROL Integration key]** est entièrement personnalisable, mais elle doit être identique à celle spécifiée dans le SDK.
+   > La clé **[!UICONTROL d’intégration]** est entièrement personnalisable avec une valeur de chaîne, mais doit être exactement la même que celle spécifiée dans le SDK.
 
-1. Sélectionnez l’une des icônes prêtes à l’emploi dans le **[!UICONTROL Application icon]** champ pour personnaliser l’application mobile dans votre service.
+1. Sélectionnez l’une des icônes prêtes à l’emploi dans le champ d’icône **[!UICONTROL de l’]** application pour personnaliser l’application mobile dans votre service.
 
 1. Entrez les paramètres de connexion de l’application : saisissez la clé de projet fournie par le développeur de l’application mobile.
 
-1. Vous pouvez, si nécessaire, enrichir le contenu d’un message push avec certains messages **[!UICONTROL Application variables]** . Elles sont entièrement personnalisables et font partie de la charge utile du message envoyé au périphérique mobile.
+1. Vous pouvez, si nécessaire, enrichir un contenu de message push avec certaines variables **[!UICONTROL d’]** application. Elles sont entièrement personnalisables et font partie de la charge utile du message envoyé au périphérique mobile.
 
    Dans l’exemple suivant, nous ajoutons **title**, **imageURL** et **iconURL** pour créer une notification Push riche, puis fournissons à l’application l’image, le titre et l’icône à afficher dans la notification.
 
    ![](assets/nmac_android_2.png)
 
-1. Cliquez **[!UICONTROL Finish]** alors **[!UICONTROL Save]**. Votre application Android est maintenant prête à être utilisée dans Campaign Classic.
+1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Votre application Android est maintenant prête à être utilisée dans Campaign Classic.
 
-Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL User identifier]** (@userKey) de la **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** table. Cette clé vous permet de lier un abonnement à un destinataire. Pour collecter des données supplémentaires (par exemple, une clé de rapprochement complexe), vous devez appliquer la configuration suivante :
+Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL Identifiant de l&#39;utilisateur]** (@userKey) de la table **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]**. Cette clé permet de relier un abonnement à un destinataire. Si vous souhaitez collecter des données additionnelles (par exemple une clé de réconciliation complexe), vous devez effectuer le paramétrage suivant :
 
-1. Créez une extension du **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schéma et définissez les nouveaux champs.
-1. Définissez le mappage dans l’ **[!UICONTROL Subscription parameters]** onglet.
+1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** et définissez les nouveaux champs.
+1. Définissez le mapping dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]**.
    >[!CAUTION]
    >
    >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. Reportez-vous à la section [Intégration du SDK de campagne dans l’application](#integrating-campaign-sdk-into-the-mobile-application) mobile.
@@ -286,22 +286,22 @@ Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL User
 
 Vous devez maintenant créer une nouvelle diffusion et la lier à l’application mobile que vous avez créée.
 
-1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
+1. Accédez à **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 
-1. Clics **[!UICONTROL New]**.
+1. Cliquez sur **[!UICONTROL Nouveau]**.
 
    ![](assets/nmac_android_3.png)
 
-1. Sélectionnez **[!UICONTROL Deliver on Android (android)]** dans la **[!UICONTROL Delivery template]** liste déroulante. Ajoutez un élément **[!UICONTROL Label]** à votre livraison.
+1. Sélectionnez **[!UICONTROL Livrer sur Android (android)]** dans la liste déroulante Modèle **[!UICONTROL de]** diffusion. Ajoutez une **[!UICONTROL étiquette]** à votre diffusion.
 
-1. Cliquez sur **[!UICONTROL To]** pour définir la population à cibler. Par défaut, le mappage **[!UICONTROL Subscriber application]** cible est appliqué. Cliquez sur **[!UICONTROL Add]** pour sélectionner notre service créé précédemment.
+1. Cliquez sur **[!UICONTROL À]** pour définir la population à cibler. Par défaut, le mappage cible de l’application **** abonné est appliqué. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner le service créé précédemment.
 
    ![](assets/nmac_android_7.png)
 
-1. Dans la **[!UICONTROL Target type]** fenêtre, sélectionnez Abonnés d&#39;une application mobile Android et cliquez sur **[!UICONTROL Next]**.
+1. Dans la fenêtre Type **[!UICONTROL de]** Target, sélectionnez Abonnés d’une application mobile Android et cliquez sur **[!UICONTROL Suivant]**.
 
-1. Dans la **[!UICONTROL Service]** liste déroulante, sélectionnez le service créé précédemment, puis l’application, puis cliquez sur **[!UICONTROL Finish]**.
-Les éléments **[!UICONTROL Application variables]** sont automatiquement ajoutés en fonction de ce qui a été ajouté lors des étapes de configuration.
+1. Dans la liste déroulante **[!UICONTROL Service]** , sélectionnez le service créé précédemment, puis l’application, puis cliquez sur **[!UICONTROL Terminer]**.
+Les variables **** Application sont automatiquement ajoutées en fonction de ce qui a été ajouté au cours des étapes de configuration.
 
    ![](assets/nmac_android_6.png)
 
@@ -309,7 +309,7 @@ Les éléments **[!UICONTROL Application variables]** sont automatiquement ajout
 
    ![](assets/nmac_android_5.png)
 
-1. Click **[!UICONTROL Save]** and send your delivery.
+1. Cliquez sur **[!UICONTROL Enregistrer]**, puis envoyez votre diffusion.
 
 L&#39;image et la page web doivent s&#39;afficher dans la notification push lors de la réception sur les appareils Android des abonnés.
 
