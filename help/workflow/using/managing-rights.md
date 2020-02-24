@@ -34,16 +34,16 @@ La gestion des opérateurs et des permissions associées sont présentées dans 
 
 Les groupes d&#39;opérateurs associés aux workflows sont les suivants :
 
-* Le **[!UICONTROL Workflow execution]** groupe vous permet de contrôler l’exécution et l’approbation des processus de ciblage : le WORKFLOW nommé right est mappé aux opérateurs de ce groupe. Elle est requise pour toutes les actions sur les processus, en plus des droits d’accès aux fichiers de données. Par défaut, le **[!UICONTROL Workflow execution]** groupe dispose d’un accès en lecture seule aux fichiers de flux de travail de ciblage standard et aux modèles de flux de travail. Les opérateurs de ce groupe ont également accès en lecture et en écriture au fichier d&#39;approbations en attente.
-* The **[!UICONTROL Workflow supervisors]** group lets operators manage workflow approvals.
-* Le **[!UICONTROL Operation Managers]** groupe pour accéder aux processus de campagne.
+* Le groupe **[!UICONTROL Exécution des workflows]** permet de contrôler l&#39;exécution et la validation des workflows de ciblage : le droit nommé WORKFLOW est associé aux opérateurs de ce groupe. Il est nécessaire à toute action sur les workflows, en plus des permissions d&#39;accès aux dossiers de données. Le groupe **[!UICONTROL Exécution des workflows]** a par défaut accès en lecture aux dossiers standard des workflows de ciblage et des modèles de workflow. Les opérateurs de ce groupe ont également accès en lecture et en écriture au dossier des validations en attente.
+* Le groupe **[!UICONTROL Superviseurs de workflows]** permet aux opérateurs de gérer les validations de workflows.
+* Le groupe **[!UICONTROL Chargés d&#39;opération]** pour accéder aux workflows des opérations.
 
 ## Droits nommés {#named-rights}
 
-Seul le flux de travail nommé right est spécifique aux processus : il vous permet de créer, démarrer et arrêter des processus. Les droits de lecture sur le fichier de flux de travail sont requis pour que le droit nommé soit applicable. Pour les processus de ciblage, la lecture à droite du **[!UICONTROL Profiles and Targets]** fichier est nécessaire.
+Seul le droit nommé WORKFLOW est spécifique aux workflows : il permet de créer, démarrer et arrêter les workflows. Le droit en lecture sur le dossier des workflows est au minimum requis pour que ce droit nommé puisse s&#39;appliquer. Pour les workflows de ciblage, le droit en lecture sur le dossier **[!UICONTROL Profils et Cibles]** est nécessaire.
 
 ## Compte d&#39;exécution d&#39;un workflow {#workflow-execution-account}
 
 Vous pouvez paramétrer, au niveau du modèle de workflow, le compte d&#39;exécution à utiliser. Le compte d&#39;exécution permet d&#39;associer les permissions directement au workflow, indépendamment de l&#39;opérateur Adobe Campaign qui lancera son exécution. Par défaut, chaque workflow s&#39;exécute avec les droits de l&#39;opérateur qui l&#39;a démarré.
 
-Pour mapper un compte d’exécution à un processus, accédez à la liste des modèles de processus et cliquez avec le bouton droit sur le modèle lié au processus. Sélectionnez **[!UICONTROL Action > Change execution account...]** ensuite le compte à utiliser.
+Pour associer un compte d&#39;exécution à un workflow, accédez à la liste des modèles de workflow et cliquez avec le bouton droit de la souris sur le modèle associé au workflow. Choisissez **[!UICONTROL Action > Changer le compte d&#39;exécution...]** puis sélectionnez le compte à utiliser.
