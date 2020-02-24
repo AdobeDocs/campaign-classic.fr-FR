@@ -44,21 +44,21 @@ Pour créer votre test A/B, vous allez suivre les étapes suivantes :
 
 ## Etape 1 : créer un workflow de ciblage {#step-1--creating-a-targeting-workflow}
 
-Vous devez créer votre processus dans l’ **[!UICONTROL Targeting and Workflows]** onglet d’une campagne. Il se compose d’une **[!UICONTROL Query]** activité, d’une **[!UICONTROL Split]** activité liée à deux **[!UICONTROL Email delivery]** activités, d’une **[!UICONTROL Wait]** activité, d’une **[!UICONTROL JavaScript code]** activité et d’une **[!UICONTROL Delivery]** activité.
+Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]** d&#39;une opération. Il est composé d&#39;une activité **[!UICONTROL Requête]**, d&#39;une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusions e-mail]**, une activité **[!UICONTROL Attente]**, d&#39;une activité **[!UICONTROL Code JavaScript]** et une activité **[!UICONTROL Diffusion]**.
 
 1. Créez une opération si elle n&#39;existe pas déjà, (voir à ce sujet cette [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
-1. Go to the **[!UICONTROL Targeting and Workflows]** tab.
+1. Positionnez-vous dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]**.
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Modifiez le libellé du workflow déjà existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un (voir à ce sujet cette [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. Utilisez la souris pour faire glisser des activités dans le diagramme de flux de travail, notamment une **[!UICONTROL Query]** (**[!UICONTROL Target]** onglet), une **[!UICONTROL Split]** (**[!UICONTROL Target]** onglet), deux **[!UICONTROL Email deliveries]** (**[!UICONTROL Deliveries]** onglet), une **[!UICONTROL Wait]** activité (onglet ), une activité  (onglet ) et une activité (onglet de).**[!UICONTROL Flow Control]****[!UICONTROL JavaScript code]****[!UICONTROL Actions]****[!UICONTROL Delivery]****[!UICONTROL Actions]**
+1. A l&#39;aide de la souris, faites glisser les différentes activités dans la fenêtre du workflow, soit une activité **[!UICONTROL Requête]** (onglet **[!UICONTROL Ciblage]**), une activité **[!UICONTROL Partage]** (onglet **[!UICONTROL Ciblage]**), deux activités **[!UICONTROL Diffusion e-mail]** (onglet **[!UICONTROL Diffusions]**), une activité **[!UICONTROL Attente]** (onglet **[!UICONTROL Ordonnancement]**), une activité **[!UICONTROL Code JavaScript]** (onglet **[!UICONTROL Action]**) et une activité **[!UICONTROL Diffusion]** (onglet **[!UICONTROL Actions]**).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
@@ -66,15 +66,15 @@ Vous devez créer votre processus dans l’ **[!UICONTROL Targeting and Workflow
 
 ### Paramétrage de l&#39;activité Requête {#configuring-the-query-activity}
 
-* Double-click the **[!UICONTROL Query]** activity.
+* Double-cliquez sur l&#39;activité **[!UICONTROL Requête]**.
 
    ![](assets/use_case_abtesting_createrecipients_001.png)
 
-* Click the **[!UICONTROL Edit query]** link and select the recipients you want to target.
+* Cliquez sur le lien **[!UICONTROL Editer la requête]** et sélectionnez les destinataires que vous souhaitez cibler.
 
    ![](assets/use_case_abtesting_createrecipients_002.png)
 
-* Liez l’ **[!UICONTROL Query]** activité à l’ **[!UICONTROL Split]** activité.
+* Reliez l&#39;activité **[!UICONTROL Requête]** à l&#39;activité **[!UICONTROL Partage]**.
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
@@ -84,7 +84,7 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
 1. Création de la population A :
 
-   * Double-click the **[!UICONTROL Split]** activity.
+   * Double-cliquez sur l&#39;activité **[!UICONTROL Partage]**.
 
       ![](assets/use_case_abtesting_createrecipients_004.png)
 
@@ -92,21 +92,21 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
       ![](assets/use_case_abtesting_createrecipients_005.png)
 
-   * Select the **[!UICONTROL Limit the selected records]** option.
+   * Sélectionnez l&#39;option **[!UICONTROL Limiter les enregistrements sélectionnés]**.
 
       ![](assets/use_case_abtesting_createrecipients_006.png)
 
-   * Cliquez sur le **[!UICONTROL Edit]** lien, sélectionnez **[!UICONTROL Activate random sampling]**, puis cliquez sur **[!UICONTROL Next]**.
+   * Cliquez sur le lien **[!UICONTROL Editer]**, sélectionnez **[!UICONTROL Activer le tirage aléatoire]**, puis cliquez sur **[!UICONTROL Suivant]**.
 
       ![](assets/use_case_abtesting_createrecipients_007.png)
 
-   * Set the threshold to 10%, then click **[!UICONTROL Finish]**.
+   * Configurez la limite à 10%, puis cliquez sur **[!UICONTROL Terminer]**.
 
       ![](assets/use_case_abtesting_createrecipients_008.png)
 
 1. Création de la population B :
 
-   * Click **[!UICONTROL Add]** to create a new tab for population B.
+   * Cliquez sur **[!UICONTROL Ajouter]** pour créer un nouvel onglet destiné à la population B.
 
       ![](assets/use_case_abtesting_createrecipients_009.png)
 
@@ -116,11 +116,11 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
 1. Création de la population restante :
 
-   * Go to the **[!UICONTROL General]** tab.
+   * Positionnez-vous dans l&#39;onglet **[!UICONTROL Général]**.
 
       ![](assets/use_case_abtesting_createrecipients_011.png)
 
-   * Sélectionner **[!UICONTROL Generate complement]**.
+   * Sélectionnez **[!UICONTROL Générer le complémentaire]**.
 
       ![](assets/use_case_abtesting_createrecipients_012.png)
 
@@ -130,10 +130,10 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
 ## Etape 3 : créer deux modèles de diffusions {#step-3--creating-two-delivery-templates}
 
-Nous voulons maintenant créer deux modèles de remise. Chaque modèle est référencé dans une **[!UICONTROL Email delivery]** activité liée à l’ **[!UICONTROL Split]** activité. Voir à ce propos cette [section](../../delivery/using/about-templates.md).
+Vous allez à présent créer deux modèles de diffusions. Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion-email]** rattachée à l&#39;activité **[!UICONTROL Partage]**. Reportez-vous à cette [section](../../delivery/using/about-templates.md) pour plus d&#39;informations.
 
-1. Accédez au **[!UICONTROL Resources > Delivery template]** dossier.
-1. Duplicate the **[!UICONTROL Email]** delivery template.
+1. Positionnez-vous dans le dossier **[!UICONTROL Ressources > Modèle de diffusion]**.
+1. Dupliquez le modèle de diffusion **[!UICONTROL Email]**.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
 
@@ -147,9 +147,9 @@ Nous voulons maintenant créer deux modèles de remise. Chaque modèle est réf�
 
 ## Etape 4 : paramétrer les diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
-L’étape suivante consiste à configurer les remises. Ils sont destinés aux trois populations créées au cours de l&#39;étape précédente : [Étape 2 : Configuration des échantillons](#step-2--configuring-population-samples)de population. Les deux premières livraisons vous permettent d&#39;envoyer des contenus différents à la population A et B. La troisième livraison est destinée à la population qui n&#39;a reçu ni A ni B. Son contenu sera calculé par un script et sera identique à A ou B, selon lequel l’un des résultats a obtenu le taux d’ouverture le plus élevé. Nous devons configurer une période d&#39;attente pour la troisième livraison, pour connaître le résultat des livraisons A et B. C’est pourquoi la troisième diffusion comprend une **[!UICONTROL Wait]** activité.
+L’étape suivante consiste à configurer les remises. Ils sont destinés aux trois populations créées au cours de l&#39;étape précédente : [Étape 2 : Configuration des échantillons](#step-2--configuring-population-samples)de population. Les deux premières livraisons vous permettent d&#39;envoyer des contenus différents à la population A et B. La troisième livraison est destinée à la population qui n&#39;a reçu ni A ni B. Son contenu sera calculé par un script et sera identique à A ou B, selon lequel l’un des résultats a obtenu le taux d’ouverture le plus élevé. Nous devons configurer une période d&#39;attente pour la troisième livraison, pour connaître le résultat des livraisons A et B. C’est pourquoi la troisième diffusion comprend une activité **[!UICONTROL d’attente]** .
 
-1. Go to the **[!UICONTROL Split]** activity and link the transition destined for population A to one of the email deliveries already in the workflow.
+1. Depuis l&#39;activité **[!UICONTROL Partage]**, rattachez la transition destinée à la population A à l&#39;une des diffusions e-mail déjà présentes dans le workflow.
 
    ![](assets/use_case_abtesting_createdeliveries_001.png)
 
@@ -158,11 +158,11 @@ L’étape suivante consiste à configurer les remises. Ils sont destinés aux t
 
    ![](assets/use_case_abtesting_createdeliveries_003.png)
 
-1. Click **[!UICONTROL Continue]** to view the delivery, then save it.
+1. Cliquez sur **[!UICONTROL Continuer]** pour visualiser la diffusion puis enregistrez-la.
 
    ![](assets/use_case_abtesting_createdeliveries_002.png)
 
-1. Link the transition of the **[!UICONTROL Split]** activity destined for population B to the second email delivery.
+1. Rattachez la transition de l&#39;activité **[!UICONTROL Partage]** destiné à la population B à la seconde diffusion e-mail.
 
    ![](assets/use_case_abtesting_createdeliveries_004.png)
 
@@ -170,15 +170,15 @@ L’étape suivante consiste à configurer les remises. Ils sont destinés aux t
 
    ![](assets/use_case_abtesting_createdeliveries_005.png)
 
-1. Link the transition destined for the remaining population to the **[!UICONTROL Wait]** activity.
+1. Reliez la transition destinée à la population restante à l&#39;activité **[!UICONTROL Attente]**.
 
    ![](assets/use_case_abtesting_createdeliveries_006.png)
 
-1. Open the **[!UICONTROL Wait]** activity and configure a 5-day waiting period.
+1. Ouvrez l&#39;activité **[!UICONTROL Attente]** et configurez le délai à 5 jours.
 
    ![](assets/use_case_abtesting_createdeliveries_007.png)
 
-1. Liez l’ **[!UICONTROL Wait]** activité à l’ **[!UICONTROL JavaScript code]** activité.
+1. Reliez l&#39;activité **[!UICONTROL Attente]** à l&#39;activité **[!UICONTROL Code JavaScript]**.
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
@@ -238,12 +238,12 @@ Pour une explication détaillée du script, reportez-vous aux [détails du scrip
 
 ### Mise en oeuvre {#implementation}
 
-1. Ouvrez votre **[!UICONTROL JavaScript code]** activité.
-1. Copiez le script proposé dans [Exemple d’un script](#example-of-a-script) dans la **[!UICONTROL JavaScript code]** fenêtre.
+1. Ouvrez votre activité **[!UICONTROL Code JavaScript]**,
+1. Copiez le script proposé dans [Exemple de script](#example-of-a-script) dans la fenêtre de code **** JavaScript.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
-1. In the **[!UICONTROL Label]** field, enter the name of the script, i.e.
+1. Dans le champ **[!UICONTROL Libellé]**, entrez le nom du script, soit
 
    ```
    <%= vars.deliveryId %>
@@ -251,7 +251,7 @@ Pour une explication détaillée du script, reportez-vous aux [détails du scrip
 
    ![](assets/use_case_abtesting_configscript_003.png)
 
-1. Fermez l’ **[!UICONTROL JavaScript code]** activité.
+1. Fermez l&#39;activité **[!UICONTROL Code JavaScript]**.
 1. Sauvegardez votre workflow.
 
 ### Détails du script {#details-of-the-script}
@@ -341,18 +341,18 @@ L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une 
 
 Une fois que le script pour sélectionner le gagnant du test A/B a été créé, vous pouvez définir les paramètres de la diffusion finale.
 
-1. Connectez l’ **[!UICONTROL JavaScript code]** activité à l’ **[!UICONTROL Delivery]** activité restante.
-1. Open the **[!UICONTROL Delivery]** activity.
-1. Désélectionnez l’ **[!UICONTROL Generate an outbound transition]** option pour terminer le processus avec cette activité.
+1. Reliez l&#39;activité **[!UICONTROL Code JavaScript]** à l&#39;activité **[!UICONTROL Diffusion]** restante.
+1. Ouvrez l&#39;activité **[!UICONTROL Diffusion]**.
+1. Décochez l&#39;option **[!UICONTROL Générer une transition sortante]** pour terminer le workflow avec cette activité.
 1. Conservez les valeurs par défaut des autres options.
 
    ![](assets/ab_test_final_delivery.png)
 
-By preparing the delivery specified in the transition (defined via the **[!UICONTROL Javascript Code]** activity), you will be then able to approve it and to start the sending, as described in the next step.
+En préparant la diffusion spécifiée dans la transition (définie via l&#39;activité **[!UICONTROL Code Javascript]**), vous pourrez alors la valider et démarrer l&#39;envoi, comme décrit à l&#39;étape suivante.
 
 ## Etape 7 : lancer le workflow {#step-7--starting-the-workflow}
 
-1. Cliquez sur **[!UICONTROL Start]** le processus.
+1. Cliquez sur **[!UICONTROL Démarrer]** le workflow.
 
    ![](assets/use_case_abtesting_startwkfl_001.png)
 
@@ -370,7 +370,7 @@ By preparing the delivery specified in the transition (defined via the **[!UICON
 
 Lorsque les diffusions test ont été envoyées, vous avez la possibilité de vérifier à quel(s) destinataire(s) elles ont été envoyées et si elles ont été ouvertes.
 
-* To find out which recipients have been targeted, open a delivery via the campaign dashboard and click the **[!UICONTROL Delivery]** tab.
+* Pour savoir quel destinataire a été ciblé, ouvrez une des diffusions depuis le tableau de bord de l&#39;opération et cliquez sur l&#39;onglet **[!UICONTROL Diffusion]**.
 
    ![](assets/use_case_abtesting_analysis_001.png)
 
