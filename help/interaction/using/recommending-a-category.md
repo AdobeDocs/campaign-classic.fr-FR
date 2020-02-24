@@ -27,8 +27,8 @@ Il peut arriver qu&#39;un destinataire soit considéré comme non éligible à t
 Pour toujours inclure une catégorie dans les recommandations, suivez les étapes ci-dessous :
 
 1. Ouvrez l&#39;explorateur et cliquez sur un catalogue d&#39;offres de votre arborescence.
-1. Cliquez sur l’ **[!UICONTROL Eligibility]** onglet et cochez la **[!UICONTROL Always include this category in the recommendations]** case.
-1. Finish and approve by clicking **[!UICONTROL Save]**.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Eligibilité]** et cochez la case **[!UICONTROL Toujours inclure cette catégorie dans les recommandations]**.
+1. Validez en cliquant sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/offer_cat_default_001.png)
 
