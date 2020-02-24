@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Par défaut, vos nouveaux processus reposent sur un modèle de flux de travail préconfiguré et basé sur une table de destinataires (nms:destinataire). Pour qu’ils soient automatiquement basés sur la table personnalisée des destinataires référencés dans l’option **Nms_DefaultRcpSchema** (voir [Configuration de l’interface](../../configuration/using/configuring-the-interface.md) ), vous devez créer un nouveau modèle de flux de travail.
 
-Créez un modèle via le **[!UICONTROL Resources > Templates > Workflow templates]** noeud. Dans les propriétés du modèle, les dimensions fournies correspondent à votre tableau de destinataires externes.
+Créez un modèle à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles de workflow]**. Dans les propriétés du modèle, les dimensions renseignées correspondent alors à votre table de destinataires externe.
 
 En basant vos nouveaux workflows sur le modèle nouvellement créé, votre table personnalisée sera sélectionnée par défaut au niveau des dimensions de ciblage et de filtrage globales du workflow.
 
