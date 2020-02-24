@@ -28,29 +28,29 @@ Si vous souhaitez mettre à jour les profils stockés en base via un formulaire 
 
 Les méthodes d&#39;identification possibles sont les suivantes :
 
-* **[!UICONTROL Adobe Campaign Encryption]**
+* **[!UICONTROL Cryptage Adobe Campaign]**
 
    Cette méthode de cryptage utilise l&#39;identifiant (ID) crypté par Adobe Campaign. Cette méthode n&#39;est applicable que sur un objet Adobe Campaign et l&#39;identifiant crypté ne peut être généré que par la plateforme Adobe Campaign.
 
    When using this method, you need to adapt the URL of the form to deliver to the email address by adding the **`<%=escapeUrl(recipient.cryptedId) %>`** parameter. Pour plus d’informations, reportez-vous à la section [Diffusion d’un formulaire par courrier électronique](#delivering-a-form-via-email).
 
-* **[!UICONTROL DES encryption]**
+* **[!UICONTROL Cryptage DES]**
 
    ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-   Cette méthode de chiffrement utilise un identifiant (ID) fourni en externe, lié à une clé partagée par Adobe Campaign et le fournisseur externe. Le **[!UICONTROL Des key]** champ vous permet de saisir cette clé de chiffrement.
+   Cette méthode de cryptage utilise un identifiant (ID) fourni de l&#39;extérieur associé à une clé commune entre Adobe Campaign et le fournisseur externe. Le champ **[!UICONTROL Clé DES]** permet de saisir cette clé de cryptage.
 
-* **[!UICONTROL List of fields]**
+* **[!UICONTROL Liste de champs]**
 
    Cette option permet de sélectionner parmi les champs du contexte courant du formulaire, ceux qui seront utilisés pour retrouver le profil correspondant dans la base de données.
 
    ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   Les champs peuvent être ajoutés aux propriétés du formulaire via l’ **[!UICONTROL Parameters]** onglet (voir [Ajout de paramètres](../../web/using/defining-web-forms-properties.md#adding-parameters)). Ils sont placés dans l’URL du formulaire ou dans les zones d’entrée.
+   Les champs peuvent être ajoutés aux propriétés du formulaire via l’onglet **[!UICONTROL Paramètres]** (voir [Ajout de paramètres](../../web/using/defining-web-forms-properties.md#adding-parameters)). Ils sont placés dans l’URL du formulaire ou dans les zones d’entrée.
 
    >[!CAUTION]
    >
-   >Les données des champs sélectionnés ne sont pas chiffrées. Il ne doit pas être fourni sous forme chiffrée, car Adobe Campaign ne pourra pas le déchiffrer si l’ **[!UICONTROL Field list]** option est sélectionnée.
+   >Les données des champs sélectionnées ne sont pas cryptées. Elles ne doivent pas être fournies sous forme cryptée car Adobe Campaign ne pourra pas les décrypter si l&#39;option **[!UICONTROL Liste de champs]** est sélectionnée.
 
    Dans l&#39;exemple ci-dessous, le pré-chargement du profil est basé sur l&#39;adresse email.
 
@@ -68,11 +68,11 @@ Les méthodes d&#39;identification possibles sont les suivantes :
    > 
    >Cette fonctionnalité est particulièrement utile dans les applications Web mais n&#39;est pas recommandée dans les formulaires publics. L&#39;option de contrôle d&#39;accès sélectionnée doit être &quot;Activer le contrôle d&#39;accès&quot;.
 
-Cette **[!UICONTROL Skip preloading if identification is empty]** option doit être sélectionnée si vous ne souhaitez pas mettre à jour les profils. Dans ce cas, chaque profil saisi sera ajouté à la base de données après approbation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est publié sur un site Web.
+L&#39;option **[!UICONTROL Ignorer le pré-chargement si l&#39;identification est vide]** doit être sélectionnée si vous ne souhaitez pas effectuer de mise à jour des profils. Dans ce cas, chaque profil saisi sera ajouté en base après validation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est diffusé sur un site web.
 
-Cette **[!UICONTROL Auto-load data referenced in the form]** option vous permet de précharger automatiquement les données qui correspondent aux champs d’entrée et de fusion dans le formulaire. Toutefois, les données référencées dans **[!UICONTROL Script]** et **[!UICONTROL Test]** les activités ne sont pas concernées. Si cette option n’est pas sélectionnée, vous devez définir les champs à l’aide de l’ **[!UICONTROL Load additional data]** option.
+L&#39;option **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** permet de précharger automatiquement les données correspondant aux champs de saisie et aux champs de fusion du formulaire. En revanche, les données référencées dans les activités **[!UICONTROL Script]** et **[!UICONTROL Test]** ne sont pas concernées. Lorsque cette option n&#39;est pas sélectionnée, vous devez définir les champs à l&#39;aide de l&#39;option **[!UICONTROL Chargement de données additionnelles]**.
 
-The **[!UICONTROL Load additional data]** option lets you add information which is not used in the pages of the form, but will nonetheless be preloaded.
+L&#39;option **[!UICONTROL Chargement de données additionnelles]** permet d&#39;ajouter des informations supplémentaires qui ne sont pas utilisées dans les pages du formulaire mais seront toutefois pré-remplies.
 
 Vous pouvez par exemple précharger le genre du destinataire et l&#39;orienter automatiquement vers la page correspondante via une boîte de test.
 
@@ -88,7 +88,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **Formulaire en édition**
 
-   C&#39;est la phase de conception initiale. Lorsqu’un nouveau formulaire est créé, il est en phase de modification. L’accès au formulaire, à des fins de test uniquement, nécessite l’utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le **[!UICONTROL Preview]** sous-onglet. Voir Paramètres [d’URL de](../../web/using/defining-web-forms-properties.md#form-url-parameters)formulaire.
+   This is the initial design phase. When a new form is created, it is in the editing phase. Access to the form, for testing purposes only, then requires the parameter **[!UICONTROL __uuid]** to be used in its URL. This URL is accessible in the **[!UICONTROL Preview]** sub-tab. Voir Paramètres [d’URL de](../../web/using/defining-web-forms-properties.md#form-url-parameters)formulaire.
 
    >[!CAUTION]
    >
@@ -98,11 +98,11 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
    Une fois la phase de conception terminée, le formulaire peut être remis. Tout d&#39;abord, il doit être publié. Pour plus d’informations, reportez-vous à la section [Publication d’un formulaire](#publishing-a-form).
 
-   The form will be **[!UICONTROL Live]** until it expires.
+   Le formulaire est alors **[!UICONTROL En ligne]**, jusqu&#39;à ce que sa date de clôture soit atteinte.
 
    >[!CAUTION]
    >
-   >To be delivered, the URL of the survey must not contain the **[!UICONTROL __uuid]** parameter.
+   >Pour être diffusé, l&#39;URL du formulaire NE DOIT PAS CONTENIR le paramètre **[!UICONTROL __uuid]**.
 
 1. **Formulaire indisponible**
 
@@ -116,25 +116,25 @@ L&#39;état de publication d&#39;un formulaire est affiché dans la liste des fo
 
 ### Publier un formulaire {#publishing-a-form}
 
-Pour modifier l’état d’un formulaire, vous devez le publier. Pour ce faire, cliquez sur le **[!UICONTROL Publication]** bouton au-dessus de la liste des formulaires Web et sélectionnez l’état dans la liste déroulante.
+Pour modifier l&#39;état d&#39;un formulaire, vous devez le publier. Pour cela, cliquez sur le bouton **[!UICONTROL Publication]** situé au-dessus de la liste des formulaires Web et sélectionnez l&#39;état dans la liste déroulante.
 
 ![](assets/webapp_publish_webform.png)
 
 ### Mettre un formulaire à disposition {#making-a-form-available-online}
 
-Pour que les utilisateurs puissent y accéder, le formulaire doit être en production et démarré, c’est-à-dire pendant la période de validité. Les dates de validité sont saisies via le **[!UICONTROL Properties]** lien du formulaire.
+Pour être accessible par les utilisateurs, le formulaire doit être en production et démarré, c&#39;est-à-dire dans sa période de validité. Les dates de validité sont renseignées depuis le lien **[!UICONTROL Propriétés]** du formulaire.
 
-* Use the fields in the **[!UICONTROL Project]** section to enter start and end dates for the form.
+* Utilisez les champs de la section **[!UICONTROL Projet]** pour indiquer les dates de démarrage et de clôture du formulaire.
 
    ![](assets/webapp_availability_date.png)
 
-* Cliquez sur le **[!UICONTROL Personalize the message displayed if the form is closed...]** lien pour définir le message d’erreur à afficher si l’utilisateur tente d’accéder au formulaire alors qu’il n’est pas valide.
+* Cliquez sur le lien **[!UICONTROL Personnaliser le message affiché si le formulaire est fermé]** pour définir le message d&#39;erreur à afficher si l&#39;utilisateur tente d&#39;accéder au formulaire en dehors de sa période de validité.
 
    See [Accessibility of the form](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form).
 
 ### Diffuser un formulaire par email {#delivering-a-form-via-email}
 
-Lorsque vous envoyez une invitation par courrier électronique, vous pouvez utiliser l’ **[!UICONTROL Adobe Campaign Encryption]** option de rapprochement des données. Pour ce faire, accédez à l’assistant de remise et adaptez le lien au formulaire en ajoutant le paramètre suivant :
+Lorsque vous diffusez une invitation par email, vous pouvez utiliser l&#39;option **[!UICONTROL Cryptage Adobe Campaign]** pour assurer la réconciliation des données. Pour cela, dans l&#39;assistant de diffusion, vous devez adapter le lien vers le formulaire en ajoutant le paramètre suivant :
 
 ```
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
@@ -142,21 +142,21 @@ Lorsque vous envoyez une invitation par courrier électronique, vous pouvez util
 
 Dans ce cas, la clé de rapprochement pour le stockage des données doit être l’identifiant chiffré du destinataire. Pour plus d’informations, reportez-vous à la section [Préchargement des données](#pre-loading-the-form-data)de formulaire.
 
-Dans ce cas, vous devez cocher l’ **[!UICONTROL Update the preloaded record]** option dans la zone d’enregistrement. Pour plus d&#39;informations, reportez-vous à la section [Enregistrement des réponses](../../web/using/web-forms-answers.md#saving-web-forms-answers)aux formulaires Web.
+Dans ce cas, vous devez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement]** préchargé dans la zone d’enregistrement. Pour plus d&#39;informations, reportez-vous à la section [Enregistrement des réponses](../../web/using/web-forms-answers.md#saving-web-forms-answers)aux formulaires Web.
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### Log responses {#log-responses}
 
-Le suivi des réponses peut être activé dans un onglet dédié pour surveiller l&#39;impact de votre formulaire Web. Pour ce faire, cliquez sur le **[!UICONTROL Advanced parameters...]** lien dans la fenêtre des propriétés du formulaire et sélectionnez l’ **[!UICONTROL Log responses]** option.
+Vous pouvez activer le tracking des réponses dans un onglet dédié afin de suivre l&#39;impact de votre formulaire Web. Pour cela, cliquez sur le lien **[!UICONTROL Propriétés avancées...]** de la fenêtre des propriétés du formulaire et sélectionnez l&#39;option **[!UICONTROL Enregistrer une trace des réponses]**.
 
 ![](assets/s_ncs_admin_survey_trace.png)
 
-The **[!UICONTROL Responses]** tab appears to let you view the identity of respondents.
+L&#39;onglet **[!UICONTROL Réponses]** permet alors de visualiser l&#39;identité des répondants.
 
 ![](assets/s_ncs_admin_survey_trace_tab.png)
 
-Select a recipient and click the **[!UICONTROL Detail...]** button to view the responses provided.
+Sélectionnez un destinataire et cliquez sur le bouton **[!UICONTROL Détail...]** pour visualiser les réponses fournies.
 
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
