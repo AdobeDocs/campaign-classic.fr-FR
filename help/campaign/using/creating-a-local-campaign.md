@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Créer une opération locale{#creating-a-local-campaign}
 
-Une campagne locale est une instance créée à partir d’un modèle référencé dans la liste de **[!UICONTROL campaign packages]** avec un calendrier **d’exécution** spécifique. Son objectif est de répondre à un besoin de communication local en utilisant un modèle de campagne qui a été configuré et configuré par l&#39;entité centrale. Les principales étapes de la mise en oeuvre d’une opération locale sont les suivantes :
+Une opération locale est une instance d&#39;opération créée à partir d&#39;un modèle d&#39;opération référencé dans la liste des **[!UICONTROL kits d&#39;opération]** avec un **planning d&#39;exécution spécifique** à chaque commande de l&#39;entité locale. L&#39;objectif est de répondre à un besoin local de communication en utilisant un modèle d&#39;opération formalisé et paramétré par l&#39;entité centrale. Les grandes étapes de la mise en oeuvre d&#39;une opération locale sont les suivantes :
 
 **Pour l&#39;entité centrale**
 
@@ -38,9 +38,9 @@ Une campagne locale est une instance créée à partir d’un modèle référenc
 
 ## Créer un modèle d&#39;opération locale {#creating-a-local-campaign-template}
 
-To create a campaign package, you must first create the **campaign template** via the **[!UICONTROL Resources > Templates]** node.
+Pour créer un kit d&#39;opération, vous devez d&#39;abord créer le **modèle d&#39;opération** à partir du noeud **[!UICONTROL Ressources > Modèles]**.
 
-To create a new local template, duplicate the default **[!UICONTROL Local campaign (opLocal)]** template.
+Pour créer un nouveau modèle d&#39;opération locale, dupliquez le modèle par défaut **[!UICONTROL Opération locale (opLocal)]**.
 
 ![](assets/mkg_dist_local_op_creation.png)
 
@@ -48,7 +48,7 @@ Nommez votre modèle d&#39;opération et renseignez les champs disponibles.
 
 ![](assets/mkg_dist_local_op_creation1.png)
 
-Dans la fenêtre de campagne, cliquez sur l’ **[!UICONTROL Edit]** onglet, puis sur le **[!UICONTROL Advanced campaign settings...]** lien.
+Dans la fenêtre de l&#39;opération, cliquez sur l&#39;onglet **[!UICONTROL Edition]**, puis sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]**.
 
 ![](assets/mkt_distr_4.png)
 
@@ -64,15 +64,15 @@ Sélectionnez le type d&#39;interface Web à appliquer aux opérations créées 
 
 Quatre types d&#39;interface Web sont disponibles :
 
-* **[!UICONTROL By brief]** : l’entité locale doit fournir une description décrivant les configurations de campagne. Une fois la commande approuvée, l’entité centrale configure et exécute la campagne dans son ensemble.
+* **[!UICONTROL Par brief]** : l&#39;entité locale doit éditer un brief où elle peut saisir la description des paramètres de l&#39;opération. Une fois la commande validée, l&#39;entité centrale paramètre et exécute l&#39;intégralité de l&#39;opération.
 
    ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** : l&#39;entité locale a accès à un formulaire Web où, selon le modèle utilisé, elle peut modifier le contenu, la cible, sa taille maximale, ainsi que les dates de création et d&#39;extraction à l&#39;aide des champs de personnalisation. L&#39;entité locale peut évaluer la cible et prévisualiser le contenu de ce formulaire Web.
+* **[!UICONTROL Par formulaire]** : l&#39;entité locale a accès à un formulaire Web où elle peut, par exemple, éditer le contenu, la cible, la taille maximale de la cible, ainsi que les dates de création et d&#39;extraction grâce à des champs de personnalisation, selon le formulaire utilisé. Il est possible pour l&#39;entité locale d&#39;évaluer la cible et de prévisualiser le contenu depuis ce formulaire Web.
 
    ![](assets/mkt_distr_8.png)
 
-   The form offered is specified in a Web application that must be selected in a drop-down list from the **[!UICONTROL Web Interface]** field in the template&#39;s **[!UICONTROL Advanced campaign settings...]** link. Reportez-vous à [Création d’une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+   **[!UICONTROL Le formulaire proposé est spécifié dans une application Web qui doit être sélectionnée dans une liste déroulante du champ Interface]****[!UICONTROL Web dans les paramètres de campagne]** avancée du modèle... link. Reportez-vous à [Création d’une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
    >[!NOTE]
    >
@@ -80,27 +80,27 @@ Quatre types d&#39;interface Web sont disponibles :
 
    ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** : l’entité locale a accès aux paramètres de campagne dans son extranet (et non dans Adobe Campaign). Ces paramètres sont identiques à ceux d’une campagne **locale (par formulaire)**.
-* **[!UICONTROL Pre-set]** : l&#39;entité locale commande la campagne à l&#39;aide du formulaire par défaut, sans le localiser.
+* **[!UICONTROL Par formulaire externe]** : l&#39;entité locale a accès aux paramètres de la campagne dans son extranet (non Adobe Campaign). Ces paramètres sont identiques à ceux d&#39;une **opération locale par formulaire**.
+* **[!UICONTROL Simple]** : l&#39;entité locale commande l&#39;opération en utilisant le formulaire par défaut, sans la localiser.
 
    ![](assets/mkt_distr_5.png)
 
 ### Les valeurs par défaut {#default-values}
 
-Sélectionnez les éléments **[!UICONTROL Default values]** à remplir par les entités locales. Par exemple :
+Sélectionnez les **[!UICONTROL Valeurs par défaut]** qui seront renseignées par les entités locales. Par exemple :
 
 * les dates de contact et d&#39;extraction,
 * les caractéristiques de la cible (segment d&#39;âge, etc.).
 
 ![](assets/mkg_dist_local_op_creation2.png)
 
-Renseignez les champs **[!UICONTROL Parent marketing program]** et **[!UICONTROL Charge]** .
+Sélectionnez le **[!UICONTROL Programme d&#39;appartenance]** et le **[!UICONTROL Budget]**.
 
 ![](assets/mkg_dist_local_op_creation3.png)
 
 ### Validations {#approvals}
 
-À partir du **[!UICONTROL Advanced parameters for campaign entry]** lien, vous pouvez spécifier le nombre maximal de réviseurs.
+A partir du lien **[!UICONTROL Paramètres avancés de saisie de l&#39;opération...]**, vous pouvez définir le nombre maximum de validants.
 
 ![](assets/s_advuser_mkg_dist_add_valid_op1.png)
 
@@ -112,7 +112,7 @@ Si l&#39;on ne souhaite pas renseigner de validants pour les opérations, le nom
 
 ### Documents {#documents}
 
-Vous pouvez autoriser les opérateurs d’entité locale à lier des documents (fichiers texte, feuilles de calcul, images, descriptions de campagne, etc.) à la campagne locale lors de la création de la commande. Le **[!UICONTROL Advanced parameters for campaign entry...]** lien permet de limiter le nombre de documents. Pour ce faire, entrez simplement le nombre maximal autorisé dans le **[!UICONTROL Number of documents]** champ.
+Vous pouvez permettre aux opérateurs de l&#39;entité locale d&#39;associer des documents (fichiers textes, tableurs, images, description de l&#39;opération, etc.) à l&#39;opération locale, lors de la création de la commande. Le lien **[!UICONTROL Paramètres avancés de saisie de l&#39;opération...]** permet de limiter le nombre de documents. Pour cela, indiquez le nombre maximum de documents autorisés dans le champ **[!UICONTROL Nombre de documents]**.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -120,31 +120,31 @@ Lors de la commande d&#39;un kit d&#39;opération, le formulaire propose d&#39;a
 
 ![](assets/s_advuser_mkg_dist_add_docs.png)
 
-If you do not wish to display a document upload field, enter **[!UICONTROL 0]** in the **[!UICONTROL Number of documents]** field.
+Pour ne proposer aucun champ pour le téléchargement de documents, saisissez la valeur **[!UICONTROL 0]** dans le champ **[!UICONTROL Nombre de documents]**.
 
 >[!NOTE]
 >
->Vous **[!UICONTROL Advanced parameters for campaign entry]** pouvez désactiver la fonction en cochant **[!UICONTROL Do not display the page used to enter the campaign parameters]**.
+>Les **[!UICONTROL paramètres avancés de saisie de l&#39;opération...]** peuvent être désactivés en cliquant sur **[!UICONTROL Ne pas afficher la page de saisie des paramètres de l&#39;opération]**.
 
 ![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
 
 ### Workflow {#workflow}
 
-Dans l’ **[!UICONTROL Targeting and workflows]** onglet, créez le processus de campagne qui collecte les **[!UICONTROL Default values]** données spécifiées dans la **[!UICONTROL Advanced campaign settings...]** section et crée les livraisons.
+Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]**, créez le workflow de l&#39;opération qui collecte les **[!UICONTROL Valeurs par défaut]** définies dans les **[!UICONTROL Paramètres avancés de l&#39;opération...]** et crée les diffusions.
 
 ![](assets/mkg_dist_local_op_creation4b.png)
 
-Double click the **[!UICONTROL Query]** activity to configure it according to the specified **[!UICONTROL Default values]**.
+Double-cliquez sur l&#39;activité **[!UICONTROL Requête]** pour la paramétrer en fonction des **[!UICONTROL Valeurs par défaut]** définies.
 
 ![](assets/mkt_dist_local_campaign_localize_query.png)
 
 ### Diffusion {#delivery}
 
-In the **[!UICONTROL Audit]** tab, click the **[!UICONTROL Detail...]** icon to view the **[!UICONTROL Scheduling]** for the selected delivery.
+Dans l&#39;onglet **[!UICONTROL Suivi]**, cliquez sur l&#39;icône **[!UICONTROL Détails]** pour avoir accès à la **[!UICONTROL Planification]** de la diffusion choisie.
 
 ![](assets/mkg_dist_local_op_creation4c.png)
 
-The **[!UICONTROL Scheduling]** icon lets you configure the delivery&#39;s contact and execution date.
+L&#39;icône **[!UICONTROL Planification]** vous permet de paramétrer la date de contact et d&#39;exécution de la diffusion.
 
 ![](assets/mkg_dist_local_op_creation4d.png)
 
@@ -152,11 +152,11 @@ Au besoin, paramétrez la taille maximale de la diffusion :
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
-Localisez le code HTML de votre diffusion. Par exemple, dans **[!UICONTROL Delivery > Current order > Additional fields]**, utilisez le **[!UICONTROL Age segment]** champ pour localiser la remise en fonction de l’âge de la cible.
+Localisez le HTML de votre diffusion. Par exemple, dans **[!UICONTROL Diffusion > Commande courante > Champs additionnels]**, utilisez le champs **[!UICONTROL Segment d&#39;âge]** pour localiser la diffusion en fonction de l&#39;âge de la cible.
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-Enregistrez votre modèle de campagne. You can now use it from the **Campaign packages** view in the **Campaigns** universe, by clicking the **[!UICONTROL Create]** button.
+Enregistrez votre modèle d&#39;opération. Vous pouvez désormais l&#39;utiliser depuis la vue **Kits d&#39;opération** de l&#39;univers **Campagnes**, en cliquant sur le bouton **[!UICONTROL Créer]**.
 
 ![](assets/mkt_distr_9.png)
 
@@ -170,14 +170,14 @@ Pour mettre à disposition le modèle d&#39;opération auprès des entités loca
 
 Les étapes sont les suivantes :
 
-1. In the **[!UICONTROL Navigation]** section on the **Campaigns** page, click the **[!UICONTROL Campaign packages]** link.
-1. Cliquez sur le **[!UICONTROL Create]** bouton.
+1. Dans la section **[!UICONTROL Navigation]** de l&#39;univers **Campagnes**, cliquez sur le lien **[!UICONTROL Kits d&#39;opération]**.
+1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/mkg_dist_add_an_entry.png)
 
 1. La section supérieure de la fenêtre permet de sélectionner le modèle de kit d&#39;opération défini [précédemment](#creating-a-local-campaign-template).
 
-   Par défaut, le **[!UICONTROL New local campaign package (localEmpty)]** modèle est utilisé pour les campagnes locales.
+   Par défaut, le modèle **[!UICONTROL Nouveau kit d&#39;opération (localEmpty)]** peut être utilisé pour les opérations locales.
 
 1. Définissez le libellé du kit d&#39;opération, son dossier d&#39;enregistrement et indiquez son planning de réalisation.
 
@@ -197,19 +197,19 @@ Ces informations sont accessibles depuis le mail de notification adressé aux ag
 
 ### Audience {#audience}
 
-Pour une campagne locale, l’entité centrale peut spécifier les entités locales impliquées en vérifiant le **[!UICONTROL Limit the package to a set of local entities]**.
+Pour une opération locale, l&#39;entité centrale peut définir les entités locales impliquées en cochant l&#39;option **[!UICONTROL Restreindre le kit à un ensemble d&#39;entités locales]**.
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
 ### Paramétrages additionnels {#additional-settings}
 
-Once the package is saved, the central entity can edit it from the **[!UICONTROL Edit]** tab.
+Lorsque le kit est enregistré, l&#39;entité centrale peut l&#39;éditer depuis l&#39;onglet **[!UICONTROL Edition]**.
 
 ![](assets/mkg_dist_edit_kit.png)
 
-From the **[!UICONTROL General]** tab, the central entity can:
+Depuis l&#39;onglet **[!UICONTROL Général]**, l&#39;entité centrale peut :
 
-* configure the campaign package reviewer(s) from the **[!UICONTROL Approval parameters...]** link,
+* paramétrer le ou les validants du kit d&#39;opération depuis le lien **[!UICONTROL Paramètres de validation...]**,
 * revoir le planning de réalisation,
 * ajouter ou supprimer des entités locales.
 
@@ -217,7 +217,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
 >
 >Par défaut, chaque entité ne peut commander qu&#39;une seule fois une **opération locale**.
 >   
->Check the **[!UICONTROL Enable multiple creation]** option to allow several local campaigns to be created from the campaign package.
+>Cochez l&#39;option **[!UICONTROL Autoriser la création multiple]** pour lui permettre de créer plusieurs opérations locales à partir du kit d&#39;opération.
 
 ![](assets/mkg_dist_local_op_multi_crea.png)
 
@@ -239,7 +239,7 @@ Pour utiliser une opération proposée par l&#39;entité centrale, l&#39;entité
 
 Pour commander une opération :
 
-1. Click **[!UICONTROL Order campaign]** in the notification message, or the corresponding button in Adobe Campaign.
+1. Cliquez sur lien **[!UICONTROL Commander l&#39;opération]** dans le message de notification, ou sur le bouton correspondant dans la console Adobe Campaign.
 
    Saisissez votre identifiant et votre mot de passe pour procéder à la commande. L&#39;interface de saisie des paramétrages se compose d&#39;un ensemble de pages définies dans une application Web.
 
@@ -247,7 +247,7 @@ Pour commander une opération :
    >
    >Les applications Web sont présentées dans le guide [Fonctionnalités Web](../../web/using/about-web-applications.md) .
 
-1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]**.
+1. Renseignez les informations utiles dans la première page (libellé de la commande et commentaire) et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
@@ -265,7 +265,7 @@ Pour commander une opération :
 
    ![](assets/mkg_dist_local_op_catalog_detail_1.png)
 
-   The **[!UICONTROL Edit]** tab contains information entered by the local entity when ordering the campaign.
+   L&#39;onglet **[!UICONTROL Edition]** contient les informations renseignées par l&#39;entité locale lors de la commande :
 
    ![](assets/mkg_dist_local_op_catalog_detail_1b.png)
 
@@ -277,7 +277,7 @@ Pour commander une opération :
 
 1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** universe. The campaign can then be used. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
 
-   The **[!UICONTROL Start targeting with order approval]** option lets the local entity run the campaign as soon as the order has been approved.
+   L&#39;option **[!UICONTROL Démarrer le ciblage à la validation de la commande]** permet à l&#39;entité locale d&#39;exécuter l&#39;opération dès que sa commande a été validée.
 
    ![](assets/mkg_dist_local_op_catalog_use.png)
 
@@ -285,7 +285,7 @@ Pour commander une opération :
 
 Pour confirmer la commande d&#39;une opération, l&#39;entité centrale doit la valider.
 
-The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** universe lets you view the status of campaign orders and approve them.
+La vue d&#39;ensemble **[!UICONTROL Commandes d&#39;opération]**, accessible à partir du lien correspondant dans l&#39;univers **Campagnes**, permet de visualiser l&#39;état des commandes d&#39;opérations et de procéder à leur validation.
 
 >[!NOTE]
 >
@@ -307,13 +307,13 @@ Lorsqu&#39;une commande d&#39;opération est effectuée par une entité locale, 
 
 #### Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
-The order may also be approved via the console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
+La commande peut également être validée à partir de la console, depuis la vue d&#39;ensemble des commandes d&#39;opérations. Pour valider une commande, sélectionnez-la puis cliquez sur le bouton **[!UICONTROL Valider la commande]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
 >[!NOTE]
 >
->La campagne peut toujours être modifiée et reconfigurée jusqu’à la date de disponibilité de la campagne. Les entités locales peuvent également rejeter la campagne en cliquant sur le **[!UICONTROL Cancel]** bouton.
+>L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
 #### Créer une campagne  {#creating-a-campaign}
 
@@ -335,7 +335,7 @@ L&#39;information est affichée dans la liste des kits d&#39;opération ou dans 
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
-They can view the related comment in the campaign package&#39;s **[!UICONTROL Edit]** tab.
+Elles peuvent visualiser le commentaire saisi dans l&#39;onglet **[!UICONTROL Edition]** du kit d&#39;opération.
 
 ![](assets/mkg_dist_do_not_valid_tab.png)
 
@@ -351,8 +351,8 @@ Pour chaque entité locale, les réviseurs sont sélectionnés pour l’approbat
 
 ### Annuler une commande {#canceling-an-order}
 
-The central agency can cancel an order using the **[!UICONTROL Delete]** button, located on the order dashboard.
+L&#39;entité centrale a la possibilité d&#39;annuler une commande à partir du bouton **[!UICONTROL Supprimer]**, disponible dans le tableau de bord de la commande.
 
 ![](assets/mkg_dist_local_op_cancel.png)
 
-This cancels the campaign in the **[!UICONTROL Campaign orders]** view.
+L&#39;opération est alors annulée au niveau de la vue **[!UICONTROL Commandes d&#39;opérations]**.
