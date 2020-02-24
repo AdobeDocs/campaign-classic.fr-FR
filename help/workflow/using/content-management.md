@@ -40,49 +40,49 @@ Les propriétés de l&#39;activité se divisent en trois étapes :
 
 1. **Content**
 
-   * **[!UICONTROL Specified in the transition]**
+   * **[!UICONTROL Spécifié par la transition]**
 
-      Cette option vous permet d’utiliser le contenu spécifié dans la transition, c’est-à-dire que l’événement qui active la gestion du contenu doit contenir une **[!UICONTROL contentId]** variable. Cette variable peut avoir été définie par une gestion de contenu précédente ou par n’importe quel script.
+      Cette option permet d&#39;utiliser le contenu spécifié par la transition, c&#39;est-à-dire que l&#39;événement qui active la gestion de contenu doit contenir une variable **[!UICONTROL contentId]**. Cette variable peut avoir été définie par une gestion de contenu précédente ou par un script quelconque.
 
-   * **[!UICONTROL Explicit]**
+   * **[!UICONTROL Explicite]**
 
-      Cette option vous permet de sélectionner un contenu déjà créé, via le **[!UICONTROL Content]** champ. Ce champ n’est visible que lorsque l’ **[!UICONTROL Explicit]** option est sélectionnée.
+      Cette option permet de sélectionner un contenu déjà créé, à partir du champ **[!UICONTROL Contenu]**. Ce champ n&#39;est visible que lorsque l&#39;option **[!UICONTROL Explicite]** est sélectionnée.
 
       ![](assets/content_mgmt_explicit.png)
 
-   * **[!UICONTROL Calculated by a script]**
+   * **[!UICONTROL Calculé par un script]**
 
-      L’identifiant de contenu est calculé par un script. Le **[!UICONTROL Script]** champ vous permet de définir un modèle JavaScript évaluant l’identifiant (clé primaire) du contenu. Ce champ n’est visible que lorsque l’ **[!UICONTROL Calculated by a script]** option est sélectionnée.
+      L&#39;identifiant du contenu est calculé par un script. Le champ **[!UICONTROL Script]** permet de définir un template JavaScript évaluant l&#39;identifiant (la clé primaire) du contenu. Ce champ n&#39;est visible que lorsque l&#39;option **[!UICONTROL Calculé par un script]** est sélectionnée.
 
       ![](assets/content_mgmt_script.png)
 
-   * **[!UICONTROL New, created from a publication template]**
+   * **[!UICONTROL Nouveau, créé depuis un modèle de publication]**
 
-      Crée un nouveau contenu à partir d’un modèle de publication. Ce nouveau contenu sera enregistré dans le fichier spécifié dans le **[!UICONTROL String]** champ. Le **[!UICONTROL Template]** champ spécifie le modèle de publication à utiliser pour créer le contenu.
+      Créer un nouveau contenu depuis un modèle de publication. Ce nouveau contenu sera enregistré dans le dossier indiqué dans le champ **[!UICONTROL Chaîne]**. Le champ **[!UICONTROL Modèle]** indique le modèle de publication à utiliser pour créer le contenu.
 
       ![](assets/content_mgmt_new.png)
 
 1. **Mettre à jour le contenu**
 
-   * **[!UICONTROL Subject]**
+   * **[!UICONTROL Objet]**
 
       Ce champ permet de modifier l&#39;objet du contenu.
 
-   * **[!UICONTROL Access to data from an XML feed]**
+   * **[!UICONTROL Accès aux données provenant d&#39;un flux XML]**
 
-      Cette option vous permet de construire le contenu à partir d’un document XML téléchargé via une feuille de style XSL. Lorsque cette option est sélectionnée, le **[!UICONTROL URL]** champ spécifie l’URL de téléchargement du contenu XML. Vous **[!UICONTROL XSL stylesheet]** permet de spécifier la feuille de style à utiliser pour transformer le document XML téléchargé. Cette propriété est facultative.
+      Cette option permet de construire le contenu à partir d&#39;un document XML téléchargé depuis un serveur Web et éventuellement de le transformer via une feuille de style XSL. Lorsque cette option est cochée, le champ **[!UICONTROL URL]** indique l&#39;URL de téléchargement du contenu XML. Le champ **[!UICONTROL Feuille de style XSL]** permet d&#39;indiquer la feuille de style à utiliser pour transformer le document XML téléchargé. Cette propriété est optionnelle.
 
       ![](assets/content_mgmt_xmlcontent.png)
 
 1. **Action à effectuer**
 
-   * **[!UICONTROL Save]**
+   * **[!UICONTROL Enregistrer]**
 
       Cette option enregistre le contenu créé ou modifié.
 
       La transition sortante est activée une seule fois avec pour paramètre l&#39;identifiant du contenu enregistré dans la variable **[!UICONTROL contentId]**.
 
-   * **[!UICONTROL Generate]**
+   * **[!UICONTROL Générer]**
 
       Cette option enregistre le contenu puis génère les fichiers de sortie pour chacun des modèles de transformation dont le type de publication est &#39;Fichier&#39;.
 
@@ -94,7 +94,7 @@ Les propriétés de l&#39;activité se divisent en trois étapes :
 
 * contentId
 
-Identifiant du contenu à utiliser si l’ **[!UICONTROL Specified in the transition]** option est activée.
+Identifiant du contenu à utiliser, si l&#39;option **[!UICONTROL Spécifié par la transition]** est activée.
 
 ## Paramètres de sortie {#output-parameters}
 
@@ -104,7 +104,7 @@ Identifiant du contenu à utiliser si l’ **[!UICONTROL Specified in the transi
 
 * filename
 
-   Full name of the generated file if the selected action is **[!UICONTROL Generate]**.
+   Nom complet du fichier généré, si l&#39;action sélectionnée est **[!UICONTROL Générer]**.
 
 ## Exemples {#examples}
 
