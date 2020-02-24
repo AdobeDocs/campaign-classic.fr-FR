@@ -42,9 +42,9 @@ Avant de démarrer ce cas pratique, vous devez disposer d&#39;un questionnaire e
 
 Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
-1. Créez un processus et importez une **[!UICONTROL Answers to a survey]** activité. For more on using this activity, refer to [this section](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data).
+1. Créez un workflow et positionnez une activité **[!UICONTROL Réponses à un questionnaire]**. L’utilisation de cette activité est présentée dans [cette section](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data).
 1. Editez l&#39;activité et sélectionnez le questionnaire dont vous souhaitez analyser les réponses.
-1. Activez l’ **[!UICONTROL Select all the answer data]** option pour collecter toutes les informations.
+1. Activez l&#39;option **[!UICONTROL Sélectionner toutes les données des réponses]** afin de collecter toutes les informations.
 
    ![](assets/reporting_usecase_1_01.png)
 
@@ -52,11 +52,11 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
    ![](assets/reporting_usecase_1_02.png)
 
-1. Once the answer collection box is configured, position a **[!UICONTROL List update]** type activity to save the data.
+1. Une fois la boîte de collecte des réponses paramétrée, positionnez une activité de type **[!UICONTROL Mise à jour de liste]** pour sauvegarder ces données.
 
    ![](assets/reporting_usecase_1_04.png)
 
-   Dans cette activité, spécifiez la liste à mettre à jour et désactivez l’ **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** option : les réponses sont ajoutées au tableau existant. Cette option vous permet de référencer la liste dans un cube. Le schéma lié à la liste ne sera pas recréé pour chaque mise à jour, ce qui garantit l&#39;intégrité du cube qui utilise cette liste.
+   Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l&#39;option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses seront ajoutées à la table existante. Cette option permettra de référencer la liste dans un cube : le schéma associé à la liste ne sera pas regénéré à chaque mise à jour, ce qui permet de garantir l&#39;intégrité du cube utilisant cette liste.
 
    ![](assets/reporting_usecase_1_03.png)
 
@@ -68,7 +68,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
 1. Ajoutez un planificateur afin d&#39;automatiser une collecte quotidienne des réponses et la mise à jour de la liste.
 
-   Les activités **[!UICONTROL List update]** et **[!UICONTROL Scheduler]** les activités sont décrites en détail dans .
+   The **[!UICONTROL List update]** and **[!UICONTROL Scheduler]** activities are detailed in .
 
 ## Etape 2 - Créer le cube, ses mesures et ses indicateurs {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
@@ -82,7 +82,7 @@ Définissez les dimensions et mesures à afficher dans le rapport. Ici, nous aff
 
 ![](assets/reporting_usecase_2_02.png)
 
-The **[!UICONTROL Preview]** tab lets you control the rendering of the report.
+L&#39;onglet **[!UICONTROL Prévisualisation]** permet de contrôler le rendu du rapport.
 
 ## Etape 3 - Créer le rapport et paramétrer l&#39;affichage des données dans le tableau {#step-3---creating-the-report-and-configuring-the-data-layout-within-the-table}
 
