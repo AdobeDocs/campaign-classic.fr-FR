@@ -41,7 +41,7 @@ L&#39;activité de composition de diffusion, disponible dans les workflows de ca
 1. Complétez les champs disponibles en fonction de votre diffusion.
 1. Deux cas se présentent :
 
-   * Si vous souhaitez appeler le moteur d’offre, cochez la **[!UICONTROL Restrict the number of propositions selected]** case. Spécifiez l’espace d’offre et le nombre de propositions qui seront présentées dans la diffusion.
+   * Si vous souhaitez appeler le moteur d&#39;offres, cochez la case **[!UICONTROL Limiter le nombre de propositions sélectionnées]**. Définissez l&#39;emplacement et le nombre d&#39;offres qui seront présentées dans la diffusion.
 
       Les poids et règles d&#39;éligibilité des offres seront pris en compte par le moteur d&#39;offres.
 
@@ -74,19 +74,19 @@ Deux méthodes permettent de définir des propositions d&#39;offre.
 After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
 
 1. Placez et ouvrez une activité d&#39;enrichissement.
-1. Dans l’ **[!UICONTROL Enrichment]** onglet, sélectionnez **[!UICONTROL Add data]**.
-1. Sélectionnez **[!UICONTROL An offer proposition]** les types de données à ajouter.
+1. Dans l&#39;onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]**.
+1. Sélectionnez **[!UICONTROL Une proposition d&#39;offre]** dans les types de données à ajouter.
 
    ![](assets/int_enrichment_offer2.png)
 
 1. Indiquez un identifiant ainsi qu&#39;un libellé pour la proposition qui sera ajoutée.
 1. Définissez la sélection de l&#39;offre. Deux options sont possibles :
 
-   * **[!UICONTROL Search for the best offer in a category]** : cochez cette option et spécifiez les paramètres d’appel du moteur d’offre (espace d’offre, catégorie ou thème(s), date de contact, nombre d’offres à conserver). Le moteur calculera automatiquement les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de remplir le champ **[!UICONTROL Category]** ou le **[!UICONTROL Theme]** champ, plutôt que les deux en même temps.
+   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l&#39;appel au moteur d&#39;offres (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Il est conseillé de ne pas renseigner les champs **[!UICONTROL Catégorie]** et **[!UICONTROL Thèmes]** en même temps.
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A predefined offer]** : cochez cette option et spécifiez un espace d’offre, une offre spécifique et une date de contact pour configurer directement l’offre que vous souhaitez ajouter, sans appeler le moteur d’offre.
+   * **[!UICONTROL Une offre prédéfinie]** : cochez cette option et définissez un emplacement, une offre précise, ainsi qu&#39;une date de contact afin de directement paramétrer l&#39;offre que vous souhaitez ajouter, sans appeler le moteur d&#39;offres.
 
       ![](assets/int_enrichment_offer4.png)
 
@@ -102,8 +102,8 @@ Vous avez également la possibilité de référencer un lien vers une offre dans
 
 Pour cela :
 
-1. Sélectionnez **[!UICONTROL Add data]** dans l’ **[!UICONTROL Enrichment]** onglet de l’activité.
-1. In the window where you choose the type of data to add, select **[!UICONTROL A link]**.
+1. Dans l&#39;onglet **[!UICONTROL Enrichissement]** de l&#39;activité, sélectionnez **[!UICONTROL Ajouter des données]**.
+1. Dans la fenêtre de sélection du type de données à ajouter, choisissez **[!UICONTROL Un lien]**.
 1. Sélectionnez le type du lien que vous souhaitez établir ainsi que sa cible. Dans le cas présent, la cible est le schéma des offres.
 
    ![](assets/int_enrichment_link1.png)
@@ -124,26 +124,26 @@ Par défaut, lorsque l&#39;activité d&#39;**enrichissement** est utilisée pour
 
 >[!NOTE]
 >
->Remember: The **[!UICONTROL Offer engine]** activity does store this information by default.
+>Rappel : L&#39;activité **[!UICONTROL Moteur d&#39;offres]** stocke bien ces informations par défaut.
 
 Cependant, il est possible de stocker ces informations de la manière suivante :
 
 1. Créez un appel au moteur d’offre dans une activité d’enrichissement placée après une requête et avant une activité de remise. Reportez-vous à la section [Spécification d’une offre ou d’un appel au moteur](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine) d’offre.
-1. Dans la fenêtre principale de l’activité, sélectionnez **[!UICONTROL Edit additional data...]**.
+1. Dans la fenêtre principale de l&#39;activité, sélectionnez **[!UICONTROL Editer les données additionnelles]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
 
-1. Add the **[!UICONTROL @rank]** columns for the ranking and **[!UICONTROL @weight]** for the offer weight.
+1. Ajoutez les colonnes **[!UICONTROL @rank]** pour le rang et **[!UICONTROL @weight]** pour le poids des offres.
 
    ![](assets/ita_enrichment_rankweight_2.png)
 
 1. Validez votre ajout et enregistrez votre workflow.
 
-La diffusion stocke automatiquement le classement et le poids des offres. Ces informations sont visibles dans l’ **[!UICONTROL Offers]** onglet de la remise.
+La diffusion stocke automatiquement le rang et le poids des offres. Ces informations sont visibles au niveau de l&#39;onglet **[!UICONTROL Offres]** de la diffusion.
 
 ## Moteur d&#39;offres {#offer-engine}
 
-The **[!UICONTROL Offer engine]** activity also lets you specify a call to the offer engine prior to the delivery.
+L&#39;activité **[!UICONTROL Moteur d&#39;offres]** vous permet également de définir un appel au moteur d&#39;offres en amont d&#39;une diffusion.
 
 Cette activité fonctionne sur le même principe que l&#39;activité d&#39;enrichissement avec un appel au moteur, en enrichissant les données de la population entrante avec une offre calculée par le moteur, avant une diffusion.
 
@@ -151,7 +151,7 @@ Cette activité fonctionne sur le même principe que l&#39;activité d&#39;enric
 
 After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
 
-1. Add and open an **[!UICONTROL Offer engine]** activity.
+1. Placez et ouvrez une activité **[!UICONTROL Moteur d&#39;offres]**.
 1. Renseignez les différents champs disponibles afin de définir les paramètres d&#39;appel au moteur (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres.
 
    >[!NOTE]
@@ -164,13 +164,13 @@ After configuring your query (refer to the [Workflows guide](../../workflow/usin
 
 ## Offres par cellule {#offers-by-cell}
 
-The **[!UICONTROL Offers by cell]** activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.
+L&#39;activité **[!UICONTROL Offres par cellules]** vous permet de répartir la population entrante (par exemple issue d&#39;une requête) en plusieurs segments, et de définir une offre à proposer pour chacun de ces segments.
 
 Pour cela :
 
-1. Add the **[!UICONTROL Offers by cell]** activity once you have specified the target population, then open it.
-1. In the **[!UICONTROL General]** tab, select the offer space on which you want to present the offers.
-1. In the **[!UICONTROL Cells]** tab, specify the different sub-sets using the **[!UICONTROL Add]** button:
+1. Placez l&#39;activité **[!UICONTROL Offres par cellules]** après avoir défini la population cible, puis ouvrez-là.
+1. Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez l&#39;emplacement sur lequel vous souhaitez proposer les offres.
+1. Dans l&#39;onglet **[!UICONTROL Cellules]**, définissez les différents sous-ensembles via le bouton **[!UICONTROL Ajouter]** :
 
    * Définissez la population du sous-ensemble grâce aux règles de filtrage et de limitation disponibles.
    * Sélectionnez ensuite l&#39;offre que vous souhaitez proposer au sous-ensemble. Les offres disponibles sont celles éligibles sur l&#39;emplacement sélectionné à l&#39;étape précédente.
