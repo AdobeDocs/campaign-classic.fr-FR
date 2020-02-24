@@ -87,7 +87,7 @@ Pour cela, les étapes sont les suivantes :
       </element>
    ```
 
-1. Cliquez sur le **[!UICONTROL Administration > Campaign management > Target mappings]** noeud.
+1. Cliquez sur le nœud **[!UICONTROL Administration > Gestion de campagne > Mappings de ciblage]**.
 1. Cliquez sur le bouton **Nouveau** afin de lancer l&#39;assistant de création d&#39;un nouveau mapping de ciblage.
 1. Complétez le champ **Libellé** et sélectionnez le schéma que vous venez de créer dans le champ **Dimension de ciblage**.
 
@@ -99,7 +99,7 @@ Pour cela, les étapes sont les suivantes :
 
 1. Dans la fenêtre suivante **Stockage**, complétez le champ **Suffixe des schémas d&#39;extension** pour différencier les nouveaux schémas crées des schémas génériques fournis par Adobe Campaign.
 
-   Cliquez sur **[!UICONTROL Define new additional fields]** pour sélectionner la dimension à cibler dans votre diffusion.
+   Cliquez sur **[!UICONTROL Définir de nouveaux champs additionnels]** pour sélectionner la dimension que vous souhaitez cibler dans votre diffusion.
 
    Par défaut, la gestion des exclusions est stockée dans la même table que les messages. Cochez l&#39;onglet **Générer un schéma de stockage pour le tracking** si vous voulez associer un stockage pour le tracking associé à votre mapping de ciblage.
 
