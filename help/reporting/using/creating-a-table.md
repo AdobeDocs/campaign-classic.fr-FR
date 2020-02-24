@@ -28,11 +28,11 @@ Vous pouvez ajouter un tableau dans un rapport afin d&#39;afficher les données.
 
 ## Créer une liste avec groupement {#creating-a-list-with-group}
 
-Un tableau de **[!UICONTROL List with group]** type vous permet de regrouper des données dans le tableau et d’en produire des statistiques. Par exemple, vous pouvez créer des totaux et des sous-totaux pour les données. Chaque groupe possède sa propre ligne d’en-tête, de détail et de pied de page.
+Un tableau de type **[!UICONTROL Liste avec groupement]** vous permet de regrouper certaines de vos données dans le tableau et de produire des statistiques sur les données qu&#39;il contient. Vous pouvez par exemple créer des totaux et des sous-totaux sur les données. Chaque groupement contient une ligne d&#39;en-tête, de détail et de pied.
 
 >[!CAUTION]
 >
->L’ **[!UICONTROL Page]** activité contenant le tableau doit être précédée d’une **[!UICONTROL Query]** activité ou **[!UICONTROL Script]** activité pour collecter les données à analyser dans le rapport. Pour plus d’informations sur ces activités, reportez-vous à la section [Collecte de données pour analyser](../../reporting/using/collecting-data-to-analyze.md) l’activité [de](../../reporting/using/advanced-functionalities.md#script-activity)script.
+>The **[!UICONTROL Page]** activity containing the table must be preceded by a **[!UICONTROL Query]** or **[!UICONTROL Script]** activity to collect the data to be analyzed in the report. Pour plus d’informations sur ces activités, reportez-vous à la section [Collecte de données pour analyser](../../reporting/using/collecting-data-to-analyze.md) l’activité [de](../../reporting/using/advanced-functionalities.md#script-activity)script.
 
 ### Principe de fonctionnement {#operating-principle}
 
@@ -40,7 +40,7 @@ Il se peut que vous ayez besoin d&#39;analyser plusieurs catégories de données
 
 Dans l&#39;exemple ci-dessous, le groupement fait apparaître l&#39;ensemble des opérations de votre base, les diffusions et le nombre de messages envoyés par diffusion et par opération.
 
-It lets you list the campaigns (**[!UICONTROL Label (Campaign)]**, the list of deliveries (**[!UICONTROL Label]** ) linked to the campaign, and lets you count the number of messages sent per delivery (**[!UICONTROL Processed)]**, before adding them up for each campaign (**[!UICONTROL Sum(@processed)]** ).
+Il permet de répertorier la liste des opérations (**[!UICONTROL Libellé (Opération)]**), la liste des diffusions (**[!UICONTROL Libellé]**) rattachées à l&#39;opération et de comptabiliser le nombre de messages envoyés pour chaque diffusion (**[!UICONTROL Traités]**), puis de les additionner pour chaque opération (**[!UICONTROL Sum(@processed)]** ).
 
 ![](assets/s_advuser_ergo_listgroup_005.png)
 
@@ -50,20 +50,20 @@ Un exemple complet de mise en oeuvre est fourni ici : Cas [d’utilisation : Cr�
 
 Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;Liste avec groupement&#39; sont les suivantes :
 
-1. Accédez au graphique du rapport et importez une **[!UICONTROL Query]** activité. Reportez-vous à la section [Collecte de données à analyser](../../reporting/using/collecting-data-to-analyze.md).
+1. Go to the report chart and place a **[!UICONTROL Query]** activity. Reportez-vous à la section [Collecte de données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 1. Renseigner la table source et sélectionner les champs de la table sur lesquels porteront les statistiques.
-1. Placez une **[!UICONTROL Page]** activité dans le graphique. Voir à ce sujet la section [Eléments statiques](../../reporting/using/creating-a-new-report.md#static-elements).
-1. Insérez un tableau de **[!UICONTROL List with group]** type dans la page.
+1. Placez une activité **[!UICONTROL Page]** dans le graphique. Voir à ce sujet la section [Eléments statiques](../../reporting/using/creating-a-new-report.md#static-elements).
+1. Insérer un tableau de type **[!UICONTROL Liste avec groupement]** dans la page.
 1. Indiquer le chemin des données, soit la table choisie comme source de données dans la requête.
 
    Cette étape est indispensable pour retrouver les champs de la table source et les insérer par la suite dans les cellules du tableau.
 
 1. Créer le tableau et son contenu.
-1. Affichez le rapport finalisé dans l’ **[!UICONTROL Preview]** onglet. Vous pouvez ensuite publier le rapport et l’exporter dans un autre format, si nécessaire. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+1. Display the finalized report in the **[!UICONTROL Preview]** tab. You can then publish the report and export it into a different format if necessary. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 ### Ajouter des lignes et des colonnes {#adding-lines-and-columns}
 
-By default, a **[!UICONTROL List with group]** type table includes a header, a detail line, and a footer line.
+Un tableau de type **[!UICONTROL Liste avec groupement]** est composé par défaut d&#39;une ligne d&#39;en-tête, d&#39;une ligne de détail et d&#39;une ligne de pied.
 
 Un groupement contient lui-même une ligne d&#39;en-tête, de détail et de pied.
 
@@ -89,11 +89,11 @@ Le groupement peut être positionné dans n&#39;importe quelle ligne du tableau 
 
 ![](assets/s_advuser_ergo_listgroup_006.png)
 
-The nature of the line you add depends on the location of the cursor. For example, to add a header line, place your cursors on a header, then click **[!UICONTROL Add > A line above/below]**.
+La nature de la ligne que vous ajoutez dépend de l&#39;emplacement du curseur : par exemple, pour ajouter une ligne d&#39;en-tête, vous devez positionner la souris sur un en-tête puis cliquer sur **[!UICONTROL Ajouter > Une ligne au-dessus/dessous]**.
 
 ![](assets/s_advuser_ergo_listgroup_006a.png)
 
-The width of the columns can be modified via the **[!UICONTROL Column format]** item.
+La largeur des colonnes peut être modifiée à partir de l&#39;entrée **[!UICONTROL Format de la colonne]**.
 
 **Groupement** : de même, pour ajouter un groupement, positionnez-vous sur une ligne et sélectionnez l&#39;entrée correspondante dans le menu contextuel.
 
@@ -115,11 +115,11 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
 * Saisir un libellé dans une cellule, par exemple dans une cellule d&#39;en-tête.
 
-   Pour ce faire, appliquez le même processus que pour insérer un champ dans la base de données, mais ne sélectionnez pas d’expression. Entrez le libellé dans le **[!UICONTROL Label]** champ. Il s’affichera tel quel.
+   Pour cela, procédez comme pour insérer un champ de la base mais ne sélectionnez aucune expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** : il sera affiché tel quel.
 
 * Calculer un agrégat (une moyenne, une somme, etc.) et l&#39;afficher dans une cellule.
 
-   To do this, use the **[!UICONTROL Aggregates]** menu entry and select the desired campaign.
+   Pour cela, utilisez l&#39;entrée de menu **[!UICONTROL Agrégats]** et sélectionnez l&#39;opération voulue.
 
    ![](assets/s_advuser_ergo_listgroup_008.png)
 
@@ -127,24 +127,24 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
 ![](assets/s_advuser_ergo_listgroup_017.png)
 
-To define the cell format, the **[!UICONTROL Cell format...]** menu lets you access all formatting options available for the selected cell.
+Pour définir le format de cellule, le menu **[!UICONTROL Format de la cellule...]** permet d&#39;accéder à toutes les options de formatage disponibles pour la cellule sélectionnée.
 
 Ces options permettent de personnaliser le rendu final du rapport et en optimiser la lisibilité des informations.
 
-Utilisez le **[!UICONTROL Carriage return]** champ lorsque vous exportez des données vers Excel : sélectionnez la **[!UICONTROL Yes]** valeur pour forcer le retour chariot. Cette valeur est conservée lors de l’exportation. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+Use the **[!UICONTROL Carriage return]** field when exporting data to Excel: select the **[!UICONTROL Yes]** value to force the carriage return. This value will be kept when exporting. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
-The **[!UICONTROL Cell format]** window lets you access the following tab:
+La fenêtre **[!UICONTROL Format de la cellule]**, vous permet d&#39;accéder aux onglets suivants :
 
-* L’ **[!UICONTROL Value]** onglet
-* L’ **[!UICONTROL Borders]** onglet
-* L’ **[!UICONTROL Click]** onglet
-* L’ **[!UICONTROL Extra]** onglet
+* l&#39;onglet **[!UICONTROL Valeur]**,
+* l&#39;onglet **[!UICONTROL Bordures]**,
+* l&#39;onglet **[!UICONTROL Clic]**,
+* l&#39;onglet **[!UICONTROL Plus]**.
 
-The **[!UICONTROL Value]** tab lets you change the font and the various value attributes or to define a format based on their nature.
+L&#39;onglet **[!UICONTROL Valeur]** permet de modifier la police et les différents attributs des valeurs ou leur définir un format selon leur nature.
 
 ![](assets/s_advuser_ergo_listgroup_009.png)
 
-The format changes data display: for example, the **[!UICONTROL Number]**, **[!UICONTROL Monetary]** and **[!UICONTROL Percentage]** formats allow you to align the figures on the right and display decimal points.
+Le format modifie l&#39;affichage des données : par exemple, les formats **[!UICONTROL Nombre]**, **[!UICONTROL Monétaire]** et **[!UICONTROL Pourcentage]** permettent d&#39;aligner les chiffres à droite et de faire apparaître des décimales.
 
 Exemple de paramétrage d&#39;un format monétaire : vous pouvez indiquer la monnaie dans laquelle sont exprimées les valeurs, utiliser ou non le séparateur de milliers et afficher en rouge les valeurs négatives. La position du symbole monétaire dépend de la langue de l&#39;opérateur, telle qu&#39;elle a été définie dans son profil.
 
@@ -158,7 +158,7 @@ L&#39;onglet **Bordures** permet de d&#39;ajouter des bordures aux lignes et col
 
 ![](assets/s_advuser_ergo_listgroup_014.png)
 
-Si nécessaire, vous pouvez définir des bordures dans le modèle de tableau (**[!UICONTROL Administration > Configuration > Form rendering]** ).
+Au besoin, vous pouvez définir les bordures au niveau du modèle du tableau (**[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** ).
 
 La syntaxe sera alors du type :
 
@@ -192,7 +192,7 @@ dans l&#39;onglet Excel :
  </style> 
 ```
 
-The **[!UICONTROL Click]** tab lets you define an action when the user clicks the content of a cell or of the table.
+L&#39;onglet **[!UICONTROL Clic]** permet de définir une action lorsque l&#39;utilisateur clique sur le contenu d&#39;une cellule du tableau.
 
 Dans l&#39;exemple ci-dessous, cliquer sur la valeur dans la cellule vous permet d&#39;afficher à la deuxième page du rapport : elle contiendra les informations relatives à la diffusion contenue dans la cellule.
 
@@ -210,11 +210,11 @@ Dans cet exemple, vous allez créer un rapport de deux pages : la première page
 
 ### Etape 1 - Créer un rapport {#step-1---create-a-report}
 
-Create a new report that concerns the campaign schema, **[!UICONTROL Campaigns (nms)]**.
+Créez un nouveau rapport qui porte sur le schéma des opérations : **[!UICONTROL Opérations (nms)]**.
 
 ![](assets/s_advuser_report_listgroup_001.png)
 
-Click **[!UICONTROL Save]** to create the report.
+Cliquez sur **[!UICONTROL Enregistrer]** pour créer le rapport.
 
 Positionnez dans le diagramme les premiers composants qui vont être utilisés pour concevoir le contenu du rapport : une première requête et une première page.
 
@@ -226,8 +226,8 @@ La première requête permet de collecter les diffusions associées à chaque op
 
 Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les étapes suivantes pour la paramétrer :
 
-1. Start by changing the schema on which the query&#39;s source is applied: select the **[!UICONTROL Deliveries (nms)]** schema.
-1. Click the **[!UICONTROL Edit query]** link and display the advanced fields.
+1. Modifiez d&#39;abord le schéma sur lequel la source de la requête porte : choisissez le schéma **[!UICONTROL Diffusions (nms)]**.
+1. Cliquez sur le lien **[!UICONTROL Editez la requête]**, affichez les champs avancés.
 
    ![](assets/reporting_quick_start_query-1.png)
 
@@ -253,7 +253,7 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
    * Taux d&#39;erreur : **@errorRatio**
 
 
-1. Cliquez deux fois sur le **[!UICONTROL Next]** bouton pour accéder à l’ **[!UICONTROL Data filtering]** étape.
+1. Cliquez deux fois sur le bouton **[!UICONTROL Suivant]**, jusqu&#39;à l&#39;étape **[!UICONTROL Filtrage des données]**.
 
    Ajoutez une condition de filtrage afin de ne collecter que les diffusions rattachées à une opération.
 
@@ -261,7 +261,7 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
 
    ![](assets/reporting_quick_start_query_filter.png)
 
-1. Click **[!UICONTROL Finish]** to save these conditions, then click **[!UICONTROL Ok]** to close the query editor.
+1. Cliquez sur **[!UICONTROL Terminer]** pour enregistrez ces conditions puis sur **[!UICONTROL Ok]** pour fermer l&#39;éditeur de requête.
 
 ### Etape 3 - Créez la première page {#step-3--create-the-first-page}
 
@@ -275,11 +275,11 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_004.png)
 
-1. Cliquez sur le **[!UICONTROL Table data XPath...]** lien et sélectionnez le lien de diffusion, c.-à-d. `[query/delivery]`.
+1. **[!UICONTROL Cliquez sur les données]** Table XPath... et sélectionnez le lien de diffusion, c.-à-d. `[query/delivery]`.
 
    ![](assets/s_advuser_report_listgroup_005.png)
 
-1. Click the **[!UICONTROL Data]** tab and change layout of the table: add three columns on the right.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Données]** et modifiez l&#39;aspect du tableau : ajoutez trois colonnes à droite.
 
    ![](assets/s_advuser_report_listgroup_006.png)
 
@@ -293,19 +293,19 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_007.png)
 
-1. Edit the first cell of the group header and insert the **[!UICONTROL Label]** field of the campaigns as an expression.
+1. Editez la première cellule de l&#39;en-tête de groupement et insérez le champ **[!UICONTROL Libellé]** des opérations comme expression.
 
    ![](assets/s_advuser_report_listgroup_009.png)
 
-1. Edit the second cell of the details line and select the deliveries **[!UICONTROL Label]**.
+1. Editez la 2e cellule de la ligne de détails et choisissez le champ **[!UICONTROL Libellé]** des diffusions.
 
    ![](assets/s_advuser_report_listgroup_011.png)
 
-1. Modifiez le format de cette cellule et ouvrez l’ **[!UICONTROL Click]** onglet. Configurez les options appropriées de sorte que lorsque l’utilisateur clique sur le nom d’une diffusion, celle-ci s’ouvre dans la même fenêtre.
+1. Editez le format de cette cellule et ouvrez l&#39;onglet **[!UICONTROL Clic]**. Paramétrez les options adéquates pour que lorsque l&#39;utilisateur clique dans le nom d&#39;une diffusion, elle s&#39;ouvre dans la même fenêtre.
 
    ![](assets/s_advuser_report_listgroup_0111.png)
 
-   Pour ce faire, sélectionnez une action de **[!UICONTROL Next page]** type et sélectionnez **[!UICONTROL In the same window]** comme option d’ouverture.
+   Pour cela, sélectionnez une action de type **[!UICONTROL Page suivante]** avec l&#39;option d&#39;ouverture **[!UICONTROL Dans la même fenêtre]**.
 
    ![](assets/s_advuser_report_listgroup_0112.png)
 
@@ -313,11 +313,11 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_010.png)
 
-1. Edit the second cell of the footer line of the group and enter **[!UICONTROL Total per campaign]** as a label.
+1. Editez la 2e cellule de la ligne de pied du groupement et saisissez le libellé **[!UICONTROL Total par opération]**.
 
    ![](assets/s_advuser_report_listgroup_012.png)
 
-1. Edit the third cell of the header line of the group and enter **[!UICONTROL Number of messages sent]** as a label.
+1. Editez la 3e cellule de la ligne d&#39;en-tête du groupement et saisissez le libellé **[!UICONTROL Nombre de messages envoyés]**.
 
    ![](assets/s_advuser_report_listgroup_013.png)
 
@@ -327,7 +327,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_014.png)
 
-1. Edit the third cell of the footer line of the group, select the processed delivery indicator and apply the **[!UICONTROL Sum]** aggregate to it.
+1. Editez la 3e cellule de la ligne de pied du groupement, sélectionnez l&#39;indicateur des diffusions traitées et appliquez-lui l&#39;agrégat **[!UICONTROL Somme]**.
 
    ![](assets/s_advuser_report_listgroup_015.png)
 
@@ -337,21 +337,21 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
 1. Sélectionnez cette cellule pour afficher une barre de valeur pour représenter le taux d&#39;erreur des diffusions.
 
-   Pour ce faire, accédez au format de cellule, puis accédez à l’ **[!UICONTROL More]** onglet. Sélectionnez l’ **[!UICONTROL Value bar]** entrée dans la liste déroulante et sélectionnez l’ **[!UICONTROL Hide the cell value]** option.
+   Pour cela, accédez au format de la cellule puis à l&#39;onglet **[!UICONTROL Plus]**. Choisissez ensuite l&#39;entrée **[!UICONTROL Barre de valeur]** dans la liste déroulante et sélectionnez l&#39;option **[!UICONTROL Cacher la valeur de la cellule]**.
 
    ![](assets/s_advuser_report_listgroup_023.png)
 
-   Vous pouvez désormais afficher un rendu du rapport. Cliquez sur l’ **[!UICONTROL Preview]** onglet et sélectionnez l’ **[!UICONTROL Global]** option : affiche la liste de toutes les livraisons de la base de données Adobe Campaign liées à une campagne.
+   Vous pouvez dès à présent visualiser le rendu de ce rapport. Cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** et sélectionnez l&#39;option **[!UICONTROL Global]** : vous affichez ainsi la liste de toutes les diffusions de la base Adobe Campaign qui sont liées à une opération.
 
    ![](assets/s_advuser_report_listgroup_025.png)
 
-   Nous vous recommandons d’utiliser l’ **[!UICONTROL Preview]** onglet pour vous assurer que les données de votre tableau sont correctement sélectionnées et configurées. Une fois cette opération effectuée, vous pouvez mettre en forme votre tableau.
+   Il est conseillé d&#39;utiliser l&#39;onglet **[!UICONTROL Aperçu]** pour vérifier que vous avez sélectionné et correctement paramétré les données de votre tableau. Cette vérification faite, vous pouvez passer au formatage de votre tableau.
 
-1. Apply the **[!UICONTROL Bold]** style to the cells that show the total per campaign and the total number of messages processed.
+1. Appliquez le style **[!UICONTROL Gras]** aux cellules contenant le total par opération et la somme des messages traités.
 
    ![](assets/s_advuser_report_listgroup_024.png)
 
-1. Click the 1st cell of the group header line, the one that displays the campaign name, and select **[!UICONTROL Edit > Merge to right]**.
+1. Cliquez sur la 1ère cellule de la ligne d&#39;en-tête du groupement, celle qui affiche le nom de l&#39;opération, et choisissez **[!UICONTROL Editer > Fusionner à droite]**.
 
    ![](assets/s_advuser_report_listgroup_026.png)
 
@@ -367,7 +367,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
 Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher le détail d&#39;une diffusion lorsque l&#39;utilisateur du rapport clique dessus. Avant d&#39;ajouter la requête, éditez la page que vous avez créée et activez la transition sortante afin de pouvoir la relier à la requête.
 
-1. Add a new query after the **[!UICONTROL Page]** activity and edit its schema: select the **[!UICONTROL Recipient delivery logs]** schema.
+1. Ajoutez une nouvelle requête à la suite de l&#39;activité **[!UICONTROL Page]** et modifiez le schéma sur lequel elle porte : choisissez le schéma **[!UICONTROL Logs de diffusion des destinataires]**.
 
    ![](assets/reporting_quick_start_query-2.png)
 
@@ -377,7 +377,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
       ![](assets/reporting_quick_start_query-2_count.png)
 
-   * collect recipient email domains and group information on this field: to do this, select the **[!UICONTROL Group]** option in the domain name column.
+   * collecter les domaines des emails des destinataires et regrouper les informations sur ce champ : pour cela, sélectionnez l&#39;option **[!UICONTROL Grouper]** sur la colonne du nom de domaine.
    ![](assets/reporting_quick_start_query-2_filter.png)
 
    Associez les alias suivants aux champs :
@@ -388,7 +388,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
       ![](assets/reporting_quick_start_query-2_alias.png)
 
 
-1. Click the **[!UICONTROL Next]** button twice: this takes you to the **[!UICONTROL Data filtering]** step.
+1. Cliquez deux fois sur le bouton **[!UICONTROL Suivant]**, jusqu&#39;à l&#39;étape **[!UICONTROL Filtrage des données]**.
 
    Ajoutez une condition de filtrage afin de ne collecter que les informations liées à la diffusion sélectionnée.
 
@@ -401,48 +401,48 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 ### Etape 5- Créez la seconde page {#step-5---create-the-second-page}
 
 1. Editez la page et saisissez son libellé, ici : **Domaines d&#39;email**.
-1. Uncheck the **[!UICONTROL Enable output transitions]** option: this is the last page of the report and will not be followed by another activity.
+1. Décochez l&#39;option **[!UICONTROL Activer les transitions sortantes]** : cette page est la dernière du rapport et ne sera suivie d&#39;aucune activité supplémentaire.
 
    ![](assets/s_advuser_report_listgroup_028.png)
 
 1. Ajoutez une nouvelle liste avec groupement à l&#39;aide du menu contextuel et nommez-la **Domaines d&#39;email par destinataires**.
-1. Cliquez sur le **[!UICONTROL Table data XPath...]** lien et sélectionnez-le **[!UICONTROL Recipient delivery logs]** .
+1. Cliquez sur le lien **[!UICONTROL Chemin des données du tableau]** et sélectionnez le lien **[!UICONTROL Logs de diffusion des destinataires]**.
 
    ![](assets/s_advuser_report_listgroup_029.png)
 
-1. In the **[!UICONTROL Data]** tab, adapt the table as follows:
+1. Dans l&#39;onglet **[!UICONTROL Données]**, adaptez le tableau comme suit :
 
    * Ajoutez deux colonnes supplémentaires à droite.
-   * Dans la première cellule de la ligne de détail, ajoutez l’ **[!UICONTROL rowNum()-1]** expression pour comptabiliser le nombre de lignes. Modifiez ensuite le format de la cellule : dans l’ **[!UICONTROL Extra]** onglet, sélectionnez **[!UICONTROL Color tab]** et cliquez sur **[!UICONTROL Ok]**.
+   * Dans la 1ère cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL rowNum()-1]** afin de compter le nombre de lignes. Puis modifiez le format de cellule : dans l&#39;onglet **[!UICONTROL Plus]**, sélectionnez **[!UICONTROL Pastille de couleur]** et cliquez sur **[!UICONTROL Ok]**.
 
       ![](assets/s_advuser_report_listgroup_018.png)
 
       Ce paramétrage va vous permettre d&#39;utiliser le tableau comme légende pour le graphique.
 
-   * In the second cell of the detail line, add the **[!UICONTROL Email domain(Recipient)]** expression.
-   * In the third cell of the detail line, add the **[!UICONTROL count(primary key)]** expression.
+   * Dans la 2e cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL Domaine de l&#39;email(Destinataire)]**.
+   * Dans la 3e cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL count(clé primaire)]**.
    ![](assets/s_advuser_report_listgroup_019.png)
 
 1. Add a pie chart to the page using the right-click menu and assign the **Email domains** label to it. Pour plus d’informations, voir Types de [graphiques et variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
-1. Cliquez sur le **[!UICONTROL Variants]** lien et désélectionnez les options **[!UICONTROL Display label]** et **[!UICONTROL Display caption]** .
+1. Cliquez sur le lien **[!UICONTROL Variantes]** et déselectionnez les options **[!UICONTROL Afficher les libellés]** et **[!UICONTROL Afficher la légende]**.
 1. Vérifiez qu&#39;aucun tri de valeurs n&#39;est paramétré. Reportez-vous à [cette section](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report) pour plus d&#39;informations sur ce sujet.
 
    ![](assets/s_advuser_report_listgroup_0191.png)
 
-1. In the **[!UICONTROL Data]** tab, change the data source: select **[!UICONTROL Context data]** from the drop-down list.
+1. Dans l&#39;onglet **[!UICONTROL Données]**, modifiez la source de données : choisissez **[!UICONTROL Données du contexte]** dans la liste déroulante.
 
    ![](assets/s_advuser_report_listgroup_020.png)
 
-1. Then click **[!UICONTROL Advanced settings]** and select the link to the recipient delivery logs.
+1. Puis cliquez sur **[!UICONTROL Paramètres avancés]** et choisissez le lien des logs de diffusion des destinataires.
 
    ![](assets/s_advuser_report_listgroup_0201.png)
 
-1. Dans la **[!UICONTROL Chart type]** section, sélectionnez la **[!UICONTROL Email domain]** variable.
+1. Dans la partie **[!UICONTROL Nature du graphe]**, sélectionnez la variable **[!UICONTROL Domaine de l&#39;email]**.
 1. Ajoutez ensuite le calcul à effectuer : choisissez la somme comme opérateur.
 
    ![](assets/s_advuser_report_listgroup_0202.png)
 
-1. Click the **[!UICONTROL Detail]** button to select the field which the count will concern, then close the configuration window.
+1. Cliquez sur le bouton **[!UICONTROL Détail]** pour choisir le champ sur lequel va porter le comptage, puis fermez la fenêtre de configuration de la page.
 
    ![](assets/s_advuser_report_listgroup_030.png)
 
@@ -452,7 +452,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
 ### Etape 6 - Visualiser le rapport {#step-6---viewing-the-report}
 
-To view the result of this configuration, click the **[!UICONTROL Preview]** tab and select the **[!UICONTROL Global]** option.
+Pour visualiser le résultat de ce paramétrage, cliquez sur l&#39;onglet **[!UICONTROL Prévisualisation]** puis sélectionnez l&#39;option **[!UICONTROL Global]**.
 
 La première page de votre rapport présente la liste de toutes les diffusions contenues dans la base de données.
 
