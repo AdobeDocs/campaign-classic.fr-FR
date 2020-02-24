@@ -24,19 +24,19 @@ source-git-commit: 7c4e4c7d7433f782f810fdc2ecdeeedacd72b6c6
 
 Le **Planificateur** est une tâche persistante qui active sa transition aux moments spécifiés par son planning.
 
-The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. L&#39;activité ne doit jamais comporter de transition entrante.
+L&#39;activité **[!UICONTROL Planificateur]** est à considérer comme un départ planifié. Les règles de positionnement de l&#39;activité dans le diagramme sont les mêmes que pour l&#39;activité **[!UICONTROL Début]**. L&#39;activité ne doit jamais comporter de transition entrante.
 
 Il est recommandé de ne pas planifier l&#39;exécution d&#39;un workflow à une fréquence supérieure à toutes les 15 minutes, afin de ne pas nuire aux performances générales du système et d&#39;éviter la création de blocs dans la base de données.
 
-Lors de la création de votre processus, n’utilisez jamais plus d’une **[!UICONTROL Scheduler]** activité par branche. For more on this, refer to: [Using activities](../../workflow/using/workflow-best-practices.md#using-activities).
+When building your workflow, never use more than one **[!UICONTROL Scheduler]** activity per branch. For more on this, refer to: [Using activities](../../workflow/using/workflow-best-practices.md#using-activities).
 
-The scheduler defines the activation schedule of the transition. To configure it, double-click the graphical object, then click **[!UICONTROL Change...]**
+Le planificateur définit le planning d&#39;activation de sa transition. Pour le paramétrer, double-cliquez sur l&#39;objet graphique et cliquez sur le bouton **[!UICONTROL Changer...]**.
 
 ![](assets/s_user_segmentation_scheduler.png)
 
 Un assistant permet de définir la fréquence et la période de validité de l&#39;activité. Les étapes de paramétrage sont les suivantes :
 
-1. Select the activation frequency and click **[!UICONTROL Next]**.
+1. Sélectionnez la fréquence d&#39;activation et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/s_user_segmentation_scheduler2.png)
 
@@ -48,7 +48,7 @@ Un assistant permet de définir la fréquence et la période de validité de l&#
 
    ![](assets/s_user_segmentation_scheduler4.png)
 
-1. Check the configuration and click **[!UICONTROL Finish]** to save.
+1. Vérifiez le paramétrage et cliquez sur le bouton **[!UICONTROL Terminer]** pour l&#39;enregistrer.
 
    ![](assets/s_user_segmentation_scheduler5.png)
 
