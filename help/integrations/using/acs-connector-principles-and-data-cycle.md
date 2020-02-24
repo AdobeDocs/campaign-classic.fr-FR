@@ -74,9 +74,9 @@ La réplication des données pour les destinataires, abonnements, services et pa
 
 ACS Connector réplique les éléments suivants de façon périodique de Campaign Standard vers Campaign v7 :
 
-* **[!UICONTROL Delivery IDs]**
-* **[!UICONTROL Email broad logs]**
-* **[!UICONTROL Email tracking logs]**
+* **[!UICONTROL Identifiants des diffusions]**
+* **[!UICONTROL BroadLogs des emails]**
+* **[!UICONTROL Logs de tracking des emails]**
 
 La réplication des logs des emails et des identifiants des diffusions permet d&#39;accéder à l&#39;historique des diffusions et aux données de tracking des destinataires v7 depuis Campaign v7.
 
@@ -129,13 +129,13 @@ The **advanced implementation** will allow you to perform more complex use cases
 
 ### Installer le package {#installing-the-package}
 
-Pour utiliser cette fonctionnalité, le package **[!UICONTROL ACS Connector]** doit être installé. Cette opération est toujours effectuée par l’administrateur technique ou le consultant Adobe.
+Pour permettre l&#39;utilisation de cette fonctionnalité, le package **[!UICONTROL ACS Connector]** doit être installé. Cette étape est toujours effectuée par l&#39;administrateur technique ou le consultant Adobe.
 
 Tous les éléments techniques liés à ACS Connector sont disponibles dans le nœud **[!UICONTROL Administration > ACS Connector]** de l&#39;explorateur.
 
 ### Workflows techniques et de réplication {#technical-and-replication-workflows}
 
-After the installation of the package, two technical workflows are available under **[!UICONTROL Administration > ACS Connector > Process]**.
+Après l&#39;installation du package, deux workflows techniques sont disponibles dans **[!UICONTROL Administration > ACS Connector > Traitement]**.
 
 >[!CAUTION]
 >
@@ -273,11 +273,11 @@ Vous trouverez ci-dessous la liste des champs de destinataire répliqués dans l
 
 Les droits sont gérés différemment dans Campaign v7 et dans Campaign Standard. Dans Campaign v7, la gestion des droits est basée sur les dossiers, tandis que dans Campaign Standard, elle repose sur l&#39;accès aux entités (entités organisationnelles/géographiques). Un utilisateur de Campaign Standard appartient au groupe de sécurité qui contient le contexte des restrictions. Le système des droits de Campaign v7 doit donc être converti pour correspondre à celui de Campaign Standard. La conversion des droits peut se faire de plusieurs façons. Vous trouverez ci-dessous un exemple de mise en œuvre.
 
-1. Sous **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**, utilisez le **[!UICONTROL Synchronize]** bouton pour récupérer tous les groupes de sécurité de Campaign Standard. Les groupes standard de campagne prêts à l’emploi sont exclus.
+1. Dans **[!UICONTROL Administration > ACS Connector > Gestion des droits > Groupes de sécurité]**, utilisez le bouton **[!UICONTROL Synchroniser]** pour récupérer tous les groupes de sécurité de Campaign Standard. Les groupes d&#39;usine de Campaign Standard sont exclus.
 
    ![](assets/acs_connect_implementation_4.png)
 
-1. Si votre gestion des droits est basée sur des dossiers, accédez à **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** et mappez chaque dossier nécessaire avec un groupe de sécurité.
+1. Si la gestion des droits est basée sur les dossiers, accédez à **[!UICONTROL Administration > ACS Connector > Gestion des droits > Mapping des dossiers]**, puis associez chaque dossier nécessaire à un groupe de sécurité.
 
    ![](assets/acs_connect_implementation_5.png)
 
@@ -304,7 +304,7 @@ La mise en œuvre avancée ajoute des workflows de réplication personnalisés s
 
 Les champs de destinataire d&#39;usine sont répliqués dans le cadre de la mise en œuvre de base. Pour répliquer les champs personnalisés que vous avez ajoutés au schéma de destinataire, il faut les identifier.
 
-1. Sous **[!UICONTROL Administration > ACS Connector > Data mapping]**, créez un mappage de ciblage sur le **[!UICONTROL nms:recipient]** tableau.
+1. Dans **[!UICONTROL Administration > ACS Connector > Mapping des données]**, créez un mapping de ciblage sur la table **[!UICONTROL nms:recipient]**.
 
    ![](assets/acs_connect_implementation_6.png)
 
@@ -312,7 +312,7 @@ Les champs de destinataire d&#39;usine sont répliqués dans le cadre de la mise
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. Ouvrez le processus de réplication de profil dédié (pas le modèle, mais l’instance de flux de travail elle-même). Modifiez les **[!UICONTROL Query]** activités et les **[!UICONTROL Update data]** activités pour inclure ces champs. See [Technical and replication workflows](#technical-and-replication-workflows).
+1. Open the dedicated profile replication workflow (not the template, but the workflow instance itself). Modify the **[!UICONTROL Query]** and **[!UICONTROL Update data]** activities to include these fields. See [Technical and replication workflows](#technical-and-replication-workflows).
 
    ![](assets/acs_connect_implementation_8.png)
 
@@ -322,7 +322,7 @@ Les champs de destinataire d&#39;usine sont répliqués dans le cadre de la mise
 
 La table des destinataires d&#39;usine est répliquée dans le cadre de la mise en œuvre de base. Si vous avez ajouté des tables personnalisées de destinataires, voici comment les identifier.
 
-1. Sous **[!UICONTROL Administration > ACS Connector > Data mapping]**, créez un mappage de ciblage sur votre tableau de profil personnalisé.
+1. Dans **[!UICONTROL Administration > ACS Connector > Mapping des données]**, créez un mapping de ciblage sur la table personnalisée des profils.
 
    ![](assets/acs_connect_implementation_10.png)
 
@@ -330,6 +330,6 @@ La table des destinataires d&#39;usine est répliquée dans le cadre de la mise 
 
    ![](assets/acs_connect_implementation_10.png)
 
-1. Si votre gestion des droits est basée sur des dossiers, accédez à **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** et définissez un groupe de sécurité pour les dossiers liés à vos tables personnalisées. Voir Conversion des [droits](#rights-conversion).
+1. If your rights management is folder-based, go to **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]**, and define a security group for the folders linked to your custom tables. Voir Conversion des [droits](#rights-conversion).
 1. Use the **[!UICONTROL New replication]** workflow (not the template, but the workflow instance itself) to include the custom table and the fields to replicate. See [Technical and replication workflows](#technical-and-replication-workflows).
 
