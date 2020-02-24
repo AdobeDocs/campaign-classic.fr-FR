@@ -49,7 +49,7 @@ Vous pouvez accorder deux types de permissions à un utilisateur :
 
 Un opérateur est un utilisateur Adobe Campaign qui possède des permissions pour se connecter et effectuer des actions.
 
-Par défaut, les opérateurs sont stockés dans le **[!UICONTROL Administration > Access management > Operators]** noeud.
+Les opérateurs sont stockés par défaut dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**.
 
 ![](assets/s_ncs_user_list_operators.png)
 
@@ -69,45 +69,45 @@ Les utilisateurs peuvent également se connecter directement à Adobe Campaign 
 
 Pour créer un opérateur et accorder des permissions, procédez comme suit :
 
-1. Click the **[!UICONTROL New]** button located above the list of operators, and enter the details of the new operator.
+1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des opérateurs et indiquez les détails de ce nouvel opérateur.
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. Indiquez le nom **[!UICONTROL Identification parameters]** de l’utilisateur : son identifiant, son mot de passe et son nom. L’opérateur utilisera le nom de connexion et le mot de passe pour se connecter à Adobe Campaign. Une fois connecté, l’utilisateur peut modifier son mot de passe par le **[!UICONTROL Tools > Change password]** menu. Le courrier électronique de l’opérateur est essentiel car il permet à l’opérateur de recevoir des notifications, par exemple lors du traitement des approbations.
+1. Indiquez les **[!UICONTROL Paramètres d&#39;identification]** de l&#39;utilisateur : son login, son mot de passe et son nom. Le login et le mot de passe permettront à l&#39;opérateur de se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
 
    Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Voir à ce propos [cette page](../../campaign/using/about-distributed-marketing.md).
 
-1. Select the permissions granted to the operator in the **[!UICONTROL Operator access rights]** section.
+1. Sélectionnez les permissions accordées à l&#39;opérateur dans la section **[!UICONTROL Droits d&#39;accès de l&#39;opérateur]**.
 
-   To assign rights to the operator, click the **[!UICONTROL Add]** button located above the list of rights, then select a group of operators from the list of available groups:
+   Pour attribuer des permissions à l&#39;opérateur, cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des droits puis sélectionnez un groupe d&#39;opérateurs dans la liste des groupes disponibles :
 
    ![](assets/s_ncs_user_permissions_operators.png)
 
-   Vous pouvez également sélectionner un ou plusieurs droits nommés (voir Droits [](#named-rights)nommés). Pour ce faire, cliquez sur la flèche à droite du **[!UICONTROL Folder]** champ, puis sélectionnez **[!UICONTROL Named rights]**:
+   Vous pouvez également sélectionner un ou plusieurs droits nommés (voir Droits [](#named-rights)nommés). Pour ce faire, cliquez sur la flèche à droite du champ **[!UICONTROL Dossier]** , puis sélectionnez Droits **** nommés :
 
    ![](assets/s_ncs_user_rights_operators.png)
 
    Choisissez les groupes et/ou les droits nommés à attribuer et cliquez sur **[!UICONTROL OK]** pour valider.
 
-1. Cliquez sur **[!UICONTROL Ok]** pour créer l&#39;opérateur : son profil est alors ajouté à la liste des opérateurs existants.
+1. Cliquez sur **[!UICONTROL OK]** pour créer l&#39;opérateur : son profil est alors ajouté à la liste des opérateurs existants.
 
    ![](assets/operator_profile_new.png)
 
 >[!NOTE]
 >
->You can organize the operators according to your requirements by creating new operator folders. To do this, right-click the operator folder and select **[!UICONTROL Add an 'Operators' folder]**.
+>Vous pouvez organiser les opérateurs selon vos besoins en créant des dossiers d&#39;opérateurs. Pour cela, cliquez avec le bouton droit de la souris sur le dossier des opérateurs et sélectionnez **[!UICONTROL Ajouter un dossier &#39;Opérateurs&#39;]**.
 
-Une fois le profil de l’opérateur créé, vous pouvez ajouter ou mettre à jour leurs informations. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Edit]**.
+Une fois le profil de l&#39;opérateur créé, vous pouvez compléter ou mettre à jour ses informations. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Edition]**.
 
 ![](assets/operator_edit_profile.png)
 
 >[!NOTE]
 >
->Le **[!UICONTROL Session timeout]** champ permet d&#39;ajuster le délai avant le délai d&#39;expiration de la session de la FDA. Pour plus d’informations, reportez-vous à la section [A propos de l’accès](../../platform/using/about-fda.md)aux données fédérées.
+>Le champ **[!UICONTROL Session timeout]** permet d’ajuster le délai avant l’expiration de la session de la FDA. Pour plus d’informations, reportez-vous à la section [A propos de l’accès](../../platform/using/about-fda.md)aux données fédérées.
 
 ### Fuseau horaire de l&#39;opérateur {#time-zone-of-the-operator}
 
-Dans l’ **[!UICONTROL General]** onglet, vous pouvez sélectionner le fuseau horaire de l’opérateur. Par défaut, les opérateurs fonctionnent dans le fuseau horaire du serveur. Il est toutefois possible de sélectionner un autre fuseau horaire à l’aide de la liste déroulante.
+Dans l’onglet **[!UICONTROL Général]**, vous pouvez sélectionner le fuseau horaire de l’opérateur. Par défaut, les opérateurs travaillent dans le fuseau horaire du serveur. Il est toutefois possible de sélectionner un autre fuseau horaire parmi ceux proposés dans la liste déroulante.
 
 Les paramétrages relatifs aux fuseaux horaires sont décrits sur [cette page](../../installation/using/time-zone-management.md).
 
@@ -117,18 +117,18 @@ Les paramétrages relatifs aux fuseaux horaires sont décrits sur [cette page](.
 >
 >Les contraintes et recommandations relatives à ces contextes sont présentées dans les sections correspondantes de la documentation d&#39;Adobe Campaign.
 
-In addition, the **[!UICONTROL Regional settings]** drop-down list lets you select the format to display dates and numbers.
+En outre, la liste déroulante **[!UICONTROL Paramètres régionaux]** vous permet de sélectionner le format d&#39;affichage des dates et des nombres.
 
 ### Options de droits d&#39;accès {#access-rights-options}
 
-Use the **[!UICONTROL Access rights]** tab to update the groups and named rights linked to the operator.
+Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, vous pouvez mettre à jour les groupes et droits nommés associés à l&#39;opérateur.
 
 ![](assets/operator_profile_security_options.png)
 
-The **[!UICONTROL Edit the access parameters...]** link lets you access the following options:
+Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;accéder aux options suivantes :
 
-* The **[!UICONTROL Disable account]** option lets you disable the operator&#39;s account: he will no longer access Adobe Campaign.
-* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
+* L&#39;option **[!UICONTROL Bloquer le compte]** permet de désactiver le compte de l&#39;opérateur : celui-ci ne peut plus accéder à Adobe Campaign.
+* L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
 * Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 * Vous pouvez également définir un masque IP de confiance à partir du lien correspondant.
 
@@ -142,7 +142,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
    >
    >Afin de préserver la sécurité de l&#39;accès à votre plateforme, cette option doit être utilisée avec précaution.
 
-* Cette **[!UICONTROL Restrict to information found in sub-folders of:]** option vous permet de limiter les droits attribués à l’opérateur d’un dossier. Seuls les sous-dossiers du noeud spécifié dans cette option seront visibles par l’utilisateur :
+* L&#39;option **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]** permet de limiter les droits attribués à l&#39;opérateur à un dossier. Seuls les sous-dossiers du noeud spécifié dans cette option seront visibles par l&#39;utilisateur :
 
    ![](assets/s_ncs_user_restrictions_operators.png)
 
@@ -152,7 +152,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
 
 ### Dossiers, validation et tâches d&#39;un opérateur {#folders--approval-and-tasks-of-an-operator}
 
-L’ **[!UICONTROL Audit]** onglet permet d’afficher les informations relatives à l’opérateur. Les différents onglets sont ajoutés automatiquement en fonction des paramètres définis dans la zone d’intervention de l’opérateur.
+L&#39;onglet **[!UICONTROL Suivi]** permet de visualiser des informations relatives à l&#39;opérateur. Les différents onglets sont alimentés automatiquement en fonction des paramètres définis et des champs d&#39;intervention de l&#39;opérateur.
 
 Vous pouvez accéder à :
 
@@ -184,19 +184,19 @@ Adobe Campaign utilise des opérateurs techniques dont les profils sont paramét
 
 Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit nommé ADMINISTRATION, ce qui risque de créer des failles de sécurité. Pour remédier à ce problème, il est recommandé de lui ôter ce droit. Pour cela :
 
-1. Dans le **[!UICONTROL Administration > Access management > Named rights]** noeud, cliquez **[!UICONTROL New]** pour créer un droit et lui donner un nom WEBAPP.
+1. Depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]**, cliquez sur **[!UICONTROL Nouveau]** pour créer un droit que vous nommerez par exemple WEBAPP.
 
    ![](assets/s_ncs_default_operators_webapp_right.png)
 
    Named rights are detailed in the [Named rights](#named-rights) section.
 
-1. Dans le **[!UICONTROL Administration > Access management > Operators]** noeud, sélectionnez l&#39;opérateur de l&#39;agent des applications Web (&quot;webapp&quot;).
+1. Depuis le noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**, sélectionnez l&#39;opérateur Agent des applications web (&#39;webapp&#39;).
 
-   Select the **[!UICONTROL Edit]** tab, then the **[!UICONTROL Access rights]** tab and delete the ADMINISTRATION named right from the list.
+   Cliquez sur l&#39;onglet **[!UICONTROL Edition]**, puis sur l&#39;onglet **[!UICONTROL Droits d&#39;accès]** et supprimez le droit nommé ADMINISTRATION de la liste.
 
    ![](assets/s_ncs_default_operators_webapp_admin_right.png)
 
-   Click **[!UICONTROL Add]** and select the WEBAPP right that you have just created, then save your changes.
+   Cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le droit WEBAPP que vous venez de créer, puis enregistrez vos modifications.
 
    ![](assets/s_ncs_default_operators_webapp_webapp_right.png)
 
@@ -212,27 +212,27 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 ## Les groupes d&#39;opérateurs {#operator-groups}
 
-Les groupes d’opérateurs sont créés via le **[!UICONTROL Administration > Access management > Operator groups]** noeud de l’arborescence.
+Les groupes d&#39;opérateurs sont créés depuis le noeud **[!UICONTROL Administration > Gestion des accès > Groupes d&#39;opérateurs]** de l&#39;arborescence.
 
 ### Créer un nouveau groupe d&#39;opérateurs {#creating-a-new-operator-group}
 
 Pour créer un nouveau groupe d&#39;opérateurs, les étapes sont les suivantes :
 
-1. Click the **[!UICONTROL New]** button to the right of the list of groups or right-click the list and choose **[!UICONTROL New]**.
-1. In the section lower window, from the **[!UICONTROL General]** tab, enter the name and a description for this group in the corresponding fields.
+1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des groupes ou cliquez avec le bouton droit dans la liste et choisissez **[!UICONTROL Nouveau]**.
+1. Dans la section inférieure de la fenêtre, depuis l&#39;onglet **[!UICONTROL Général]**, saisissez le nom et une description pour ce groupe dans les champs correspondants.
 
    ![](assets/s_ncs_user_create_operator_gp.png)
 
-1. Click the **[!UICONTROL Content]** tab to define authorizations for this group.
-1. Click the **[!UICONTROL Add]** button to select an appointed right or an operator to associate to the group.
-1. Click the drop-down list or on the folder to the right of the **[!UICONTROL Folder]** field to locate the appointed rights or operators to associate to this group.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Contenu]** pour définir les autorisations accordées à ce groupe.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour sélectionner un droit nommé ou un opérateur à associer au groupe.
+1. Cliquez sur la liste déroulante ou sur le dossier situés à droite du champ **[!UICONTROL Dossier]** pour localiser et afficher les droits nommés ou les opérateurs à associer à ce groupe.
 1. Sélectionnez les droits ou opérateurs à ajouter et cliquez sur **[!UICONTROL OK]** pour valider.
 
    ![](assets/s_ncs_user_create_operator_gp03.png)
 
    Répétez éventuellement cette opération pour ajouter d&#39;autres droits ou opérateurs.
 
-1. Click the **[!UICONTROL Save]** button to add the group to the list.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour ajouter le groupe à la liste.
 
 ### Les groupes par défaut {#default-groups}
 
@@ -281,7 +281,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 ## Droits nommés {#named-rights}
 
-Par défaut, Adobe Campaign propose un ensemble de droits nommés qui vous permet de définir les autorisations attribuées aux opérateurs et aux groupes d’opérateurs. Ces droits peuvent être modifiés à partir du **[!UICONTROL Administration > Access management > Named rights]** noeud de l’arborescence.
+Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et groupes d&#39;opérateurs. Ces droits peuvent être édités depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
 
 ![](assets/s_ncs_admin_named_rights.png)
 
@@ -326,11 +326,11 @@ A chaque dossier de l&#39;arborescence sont attachées des propriétés d&#39;ac
 
 Pour éditer les permissions sur un dossier spécifique de l&#39;arborescence, suivez les étapes ci-dessous :
 
-1. Right-click on the folder and select **[!UICONTROL Properties...]**.
+1. Cliquez avec le bouton droit sur le dossier et sélectionnez **[!UICONTROL Propriétés...]**.
 
    ![](assets/s_ncs_user_folder_properties.png)
 
-1. Click the **[!UICONTROL Security]** tab to view authorizations on this folder.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Sécurité]** pour visualiser les autorisations sur ce dossier.
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
@@ -342,15 +342,15 @@ Pour modifier les permissions, vous pouvez :
 
    ![](assets/s_ncs_user_folder_properties_security02.png)
 
-* **Autorisez un groupe ou un opérateur**. To do this, click the **[!UICONTROL Add]** button and select the group or operator to which you want to assign authorizations for this folder.
-* **Interdit à un groupe ou à un opérateur**. Pour ce faire, cliquez sur **[!UICONTROL Delete]** et sélectionnez le groupe ou l’opérateur dont vous souhaitez supprimer l’autorisation pour ce dossier.
+* **Autoriser un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez attribuer des autorisations sur ce dossier.
+* **Interdire un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Supprimer]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez retirer toute autorisation sur ce dossier.
 * **Sélectionner les droits attribués à un groupe ou un opérateur**. Pour cela, cliquez sur le groupe ou l&#39;opérateur visé : cochez les droits d&#39;accès que vous voulez lui attribuer et décochez les autres.
 
    ![](assets/s_ncs_user_folder_properties_security03.png)
 
 ### Propager les permissions {#propagate-permissions}
 
-Vous pouvez propager des autorisations et des droits d’accès. Pour ce faire, sélectionnez l’ **[!UICONTROL Propagate]** option dans les propriétés du dossier.
+Vous pouvez propager les autorisations et les droits d&#39;accès. Pour cela, sélectionnez l&#39;option **[!UICONTROL Propager]** dans les propriétés du dossier.
 
 Les autorisations définies dans cette fenêtre seront alors appliquées à l&#39;ensemble des sous-dossiers du nœud courant. Vous pourrez ensuite surcharger ces autorisations pour chacun des sous-dossiers.
 
@@ -360,7 +360,7 @@ Les autorisations définies dans cette fenêtre seront alors appliquées à l&#3
 
 ### Accorder l&#39;accès à tous les opérateurs {#grant-access-to-all-operators}
 
-Dans l’ **[!UICONTROL Security]** onglet, si l’ **[!UICONTROL System folder]** option est sélectionnée, tous les opérateurs auront accès à ces données, quels que soient leurs droits. Si cette option est désactivée, vous devez ajouter explicitement l’opérateur (ou leur groupe) à la liste des autorisations pour qu’ils aient accès.
+Dans l&#39;onglet **[!UICONTROL Sécurité]**, si l&#39;option **[!UICONTROL Dossier système]** est cochée, tous les opérateurs auront accès aux données qu&#39;il contient, quels que soient leurs droits. Si elle n&#39;est pas cochée, alors il faut ajouter explicitement l&#39;opérateur (ou son groupe) dans la liste des autorisations pour qu&#39;il puisse y accéder.
 
 ![](assets/s_ncs_user_folder_properties_security03b.png)
 
@@ -368,7 +368,7 @@ Dans l’ **[!UICONTROL Security]** onglet, si l’ **[!UICONTROL System folder]
 
 ### A propos des dossiers et des vues {#about-folders-and-views}
 
-Les dossiers sont des noeuds dans l’arborescence d’Adobe Campaign. Ces noeuds sont créés en cliquant avec le bouton droit de la souris sur l’arborescence, via le **[!UICONTROL Add new folder]** menu. Par défaut, le premier menu vous permet d’ajouter le dossier correspondant au contexte actuel.
+Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l&#39;arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Vous pouvez ensuite sélectionner le type de dossier à créer. Par défaut, le premier menu propose d&#39;ajouter le dossier correspondant au contexte courant.
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
@@ -390,12 +390,12 @@ Lorsque vous transformez un dossier en vue, l&#39;ensemble des données correspo
 
 Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;afficher des données spécifiques :
 
-1. Create a new **[!UICONTROL Deliveries]** type folder, and name it **Deliveries France**.
-1. Right-click this folder and select **[!UICONTROL Properties...]**.
+1. Créez un nouveau dossier de type **[!UICONTROL Diffusions]** et nommez-le **Diffusions France**.
+1. Cliquez avec le bouton droit sur ce dossier et choisissez **[!UICONTROL Propriétés...]**.
 
    ![](assets/s_ncs_user_add_folder_exple.png)
 
-1. Dans l’ **[!UICONTROL Restriction]** onglet, sélectionnez **[!UICONTROL This folder is a view]**. Toutes les livraisons de la base de données s’affichent alors.
+1. Depuis l&#39;onglet **[!UICONTROL Restriction]**, sélectionnez l&#39;option **[!UICONTROL Ce dossier est une vue]** : toutes les diffusions de la base y seront alors affichées.
 
    ![](assets/s_ncs_user_add_folder_exple01.png)
 
