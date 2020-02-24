@@ -94,15 +94,15 @@ Un package de données peut être construit à la main à partir de n&#39;import
 
 Les packages peuvent être exportés de trois manières différentes :
 
-* Vous **[!UICONTROL Package Export Wizard]** pouvez exporter un ensemble d’objets dans un seul package. Pour plus d’informations, voir [Exportation d’un ensemble d’objets dans un package.](#exporting-a-set-of-objects-in-a-package)
-* A **single object** can be exported in a package directly by right-clicking on it and selecting **[!UICONTROL Actions > Export in a package]**.
+* L’Assistant **[!UICONTROL d’exportation de]** package vous permet d’exporter un ensemble d’objets dans un seul package. Pour plus d’informations, voir [Exportation d’un ensemble d’objets dans un package.](#exporting-a-set-of-objects-in-a-package)
+* Un **objet unique** peut être directement exporté dans un package en cliquant dessus avec le bouton droit de la souris et en sélectionnant **[!UICONTROL Actions > Exporter dans un package]**.
 * **Les définitions** de package vous permettent de créer une structure de package dans laquelle vous ajoutez des objets qui seront exportés ultérieurement dans un package. Pour plus d’informations, reportez-vous à la section [Gestion des définitions de package.](#managing-package-definitions)
 
 Une fois un package exporté, vous pourrez l&#39;importer ainsi que toutes les entités ajoutées dans une autre instance Campaign.
 
 ### Exporter un ensemble d&#39;objets dans un package {#exporting-a-set-of-objects-in-a-package}
 
-The package export wizard is accessible via the **[!UICONTROL Tools > Advanced > Export package...]** menu of the Adobe Campaign client console.
+L&#39;assistant d&#39;export de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Export de package...]** de la console cliente Adobe Campaign.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
@@ -114,11 +114,11 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
 
    >[!CAUTION]
    >
-   >Si vous exportez un dossier **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]****[!UICONTROL Program]** ou de **[!UICONTROL Plan]** type, ne sélectionnez jamais le dossier **** xtk:folder car vous risquez de perdre des données. Sélectionnez l&#39;entité qui correspond au dossier : **nms:offerCategory** pour les catégories d’offres, **nms:offerEnv** pour les environnements d’offres, **nms:program** pour les programmes et **nms:plan pour les plans.**
+   >Si vous exportez un dossier de type **[!UICONTROL Catégorie d&#39;offres]**, **[!UICONTROL Environnement d&#39;offres]**, **[!UICONTROL Programme]** ou **[!UICONTROL Plan]**, ne sélectionnez en aucun cas l&#39;entité **xtk:folder** au risque de perdre une partie des données. Sélectionnez l&#39;entité correspondant au dossier : **nms:offerCategory** pour les catégories d&#39;offres, **nms:offerEnv** pour les environnements d&#39;offres, **nms:program** pour les programmes et **nms:plan** pour les plans.
 
-   La gestion des listes vous permet d’ajouter ou de supprimer des entités à exporter à partir de la configuration. Cliquez sur **[!UICONTROL Add]** pour sélectionner une nouvelle entité.
+   La gestion de la liste permet l&#39;ajout ou la suppression de la configuration des entités à exporter. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner une nouvelle entité.
 
-   The **[!UICONTROL Detail]** button edits the selected configuration.
+   Le bouton **[!UICONTROL Détail]** édite la configuration sélectionnée.
 
    >[!NOTE]
    >
@@ -134,7 +134,7 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
    >
    >L&#39;éditeur de requêtes est présenté dans [cette section](../../platform/using/about-queries-in-campaign.md).
 
-1. Click **[!UICONTROL Next]** and select the sorting columns to order the data during extraction:
+1. Cliquez sur **[!UICONTROL Suivant]** et sélectionnez les colonnes de tri pour ordonnancer les données lors de l&#39;extraction :
 
    ![](assets/ncs_datapackage_export5.png)
 
@@ -142,7 +142,7 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
 
    ![](assets/ncs_datapackage_export6.png)
 
-1. La dernière page de l’assistant d’exportation de package vous permet de démarrer l’exportation. Les données seront stockées dans le fichier indiqué dans le **[!UICONTROL File]** champ.
+1. La dernière étape de l&#39;assistant d&#39;export de package permet de démarrer l&#39;export. Les données seront stockées dans le fichier indiqué dans le champ **[!UICONTROL Fichier]**.
 
    ![](assets/ncs_datapackage_export7.png)
 
@@ -242,9 +242,9 @@ Les définitions de packages vous permettent de créer une structure de package 
 
 ### Créer une définition de package {#creating-a-package-definition}
 
-Les définitions de package sont accessibles à partir du **[!UICONTROL Administration > Configuration > Package management > Package definitions]** menu.
+Les définitions de packages sont accessibles à partir du menu **[!UICONTROL Administration > Paramétrage > Gestion des packages > Définitions de packages]**.
 
-To create a package definition, click the **[!UICONTROL New]** button, then fill in the package definition general information.
+Pour créer une définition de package, cliquez sur le bouton **[!UICONTROL Nouveau]**, puis remplissez les informations générales de la définition de package.
 
 ![](assets/packagedefinition_create.png)
 
@@ -258,17 +258,17 @@ Vous pouvez ensuite ajouter des entités à la définition de package et l&#39;e
 
 ### Ajouter des entités à une définition de package {#adding-entities-to-a-package-definition}
 
-Dans l’ **[!UICONTROL Content]** onglet, cliquez sur le **[!UICONTROL Add]** bouton pour sélectionner les entités à exporter avec le package. Les bonnes pratiques lors de la sélection d’entités sont présentées dans la section [Exportation d’un ensemble d’objets dans un package](#exporting-a-set-of-objects-in-a-package) .
+Dans l’onglet **[!UICONTROL Contenu]** , cliquez sur le bouton **[!UICONTROL Ajouter]** pour sélectionner les entités à exporter avec le package. Les bonnes pratiques lors de la sélection d’entités sont présentées dans la section [Exportation d’un ensemble d’objets dans un package](#exporting-a-set-of-objects-in-a-package) .
 
 ![](assets/packagedefinition_addentities.png)
 
 Les entités peuvent être ajoutées directement à une définition de package à partir de leur emplacement dans l&#39;instance. Pour ce faire, suivez les étapes ci-dessous :
 
-1. Cliquez avec le bouton droit de la souris sur l&#39;entité souhaitée, puis sélectionnez **[!UICONTROL Actions > Export in a package]**.
+1. Cliquez avec le bouton droit de la souris sur l&#39;entité désirée, puis sélectionnez **[!UICONTROL Actions > Exporter dans un package]**.
 
    ![](assets/packagedefinition_singleentity.png)
 
-1. Sélectionnez **[!UICONTROL Add to a package definition]**, puis sélectionnez la définition de package à laquelle vous souhaitez ajouter l&#39;entité.
+1. Sélectionnez **[!UICONTROL Ajout dans une définition de package]**, puis sélectionnez la définition de package dans laquelle vous voulez ajouter l&#39;entité.
 
    ![](assets/packagedefinition_packageselection.png)
 
@@ -278,13 +278,13 @@ Les entités peuvent être ajoutées directement à une définition de package �
 
 ### Paramétrer la génération des définitions de packages {#configuring-package-definitions-generation}
 
-La génération de package peut être configurée à partir de l’ **[!UICONTROL Content]** onglet de définition de package. To do this, click the **[!UICONTROL Generation parameters]** link.
+La génération de packages peut être paramétrée à partir de l&#39;onglet **[!UICONTROL Contenu]** de définition de package. Pour ce faire, cliquez sur le lien **[!UICONTROL Paramètres de génération]**.
 
 ![](assets/packagedefinition_generationparameters.png)
 
-* **[!UICONTROL Include the definition]**: inclut la définition actuellement utilisée dans la définition de package.
-* **[!UICONTROL Include an installation script]**: vous permet d’ajouter un script javascript à exécuter lors de l’importation du package. Lorsqu’elle est sélectionnée, un **[!UICONTROL Script]** onglet est ajouté à l’écran de définition de package.
-* **[!UICONTROL Include default values]**: ajoute au package les valeurs de tous les attributs des entités.
+* **[!UICONTROL Inclure la définition]** : inclut la définition actuellement utilisée dans la définition de package.
+* **[!UICONTROL Inclure un script d&#39;installation]** : vous permet d&#39;ajouter un script JavaScript à exécuter à l&#39;importation du package. S&#39;il est sélectionné, un onglet **[!UICONTROL Script]** est ajouté à l&#39;écran de définition de package.
+* **[!UICONTROL Inclure les valeurs par défaut]** : ajoute au package les valeurs de tous les attributs des entités.
 
    Cette option n’est pas sélectionnée par défaut de manière à éviter les exports de longueur importante. Cela signifie que les attributs des entités avec des valeurs par défaut (&#39;chaîne vide&#39;, &#39;0&#39; et &#39;faux&#39; si elles ne sont pas définies d’une autre façon dans le schéma) ne seront pas ajoutés dans le package et ne seront donc pas exportés.
 
@@ -294,15 +294,15 @@ La génération de package peut être configurée à partir de l’ **[!UICONTRO
    >
    >Si l&#39;instance où le package est importé contient des entités identiques à celles du package (par exemple, avec le même ID externe), leurs attributs ne seront pas mis à jour. Cela se produit si les attributs d&#39;une instance précédente possèdent des valeurs par défaut, car ils ne sont pas inclus dans le package.
    >
-   >In that case, selecting the **[!UICONTROL Include default values]** option would prevent versions merging, as all attributes from the former instance would be exported with the package.
+   >Dans ce cas, la sélection de l’option **[!UICONTROL Inclure les valeurs par défaut]** empêcherait la fusion des versions, car tous les attributs de l’instance précédente seraient exportés avec le package.
 
 ### Exporter des packages à partir d&#39;une définition de package {#exporting-packages-from-a-package-definition}
 
 Pour exporter un package à partir d&#39;une définition de package, suivez les étapes ci-dessous :
 
-1. Select the package definition to export, then click the **[!UICONTROL Actions]** button and select **[!UICONTROL Export the package]**.
+1. Sélectionnez la définition de package à exporter, puis cliquez sur le bouton **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Exporter le package]**.
 1. Un fichier XML correspondant au package exporté est sélectionné par défaut. Il est nommé en fonction de l&#39;espace de nommage et du nom de la définition de package.
-1. Once the package name and location defined, click the **[!UICONTROL Start]** button to launch the export.
+1. Une fois le nom de package et l&#39;emplacement définis, cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;exportation.
 
    ![](assets/packagedefinition_packageexport.png)
 
@@ -310,7 +310,7 @@ Pour exporter un package à partir d&#39;une définition de package, suivez les 
 
 ### A propos de l&#39;import de packages {#about-package-import}
 
-The package import wizard is accessible via the main menu **[!UICONTROL Tools > Advanced > Package import...]** of the Adobe Campaign client console.
+L&#39;assistant d&#39;import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
 Vous pouvez importer le package d&#39;un export réalisé antérieurement, par exemple à partir d&#39;une autre instance Adobe Campaign, ou un package standard, selon les conditions de votre licence.
 
@@ -318,13 +318,13 @@ Vous pouvez importer le package d&#39;un export réalisé antérieurement, par e
 
 ### Installer un package depuis un fichier {#installing-a-package-from-a-file}
 
-To import an existing data package, select the XML file and click **[!UICONTROL Open]**.
+Pour importer un package de données existant, sélectionnez le fichier XML et cliquez sur **[!UICONTROL Ouvrir]**.
 
 ![](assets/ncs_datapackage_import_1.png)
 
 Le contenu du package à importer est alors affiché dans la section centrale de l&#39;éditeur.
 
-Cliquez sur **[!UICONTROL Next]** et **[!UICONTROL Start]** pour lancer l’importation.
+Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Démarrer]** pour lancer l&#39;import.
 
 ![](assets/ncs_datapackage_import_2.png)
 
