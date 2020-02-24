@@ -1,7 +1,7 @@
 ---
-title: Intérêt
-seo-title: Intérêt
-description: Intérêt
+title: Objectif
+seo-title: Objectif
+description: Objectif
 seo-description: null
 page-status-flag: never-activated
 uuid: 4452d839-318a-49d8-8abb-4ba04c803e9f
@@ -20,7 +20,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 ---
 
 
-# Intérêt{#purpose}
+# Objectif{#purpose}
 
 L&#39;objectif de ce cas pratique est d&#39;ajouter des pièces jointes d&#39;emails à la volée aux envois sortants.
 
