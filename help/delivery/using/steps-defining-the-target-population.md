@@ -39,35 +39,35 @@ Les destinataires peuvent également être stockés dans un fichier externe. The
 
 Pour sélectionner les destinataires de la diffusion en cours de création, procédez comme suit :
 
-1. Cliquez sur le **[!UICONTROL To]** lien.
+1. Cliquez sur le lien **[!UICONTROL Pour]**.
 1. Si les destinataires sont stockés en base, sélectionnez la première option.
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Sélectionnez le mappage de cible dans la liste **[!UICONTROL Target mapping]** déroulante. Le mappage de cible par défaut d’Adobe Campaign est **[!UICONTROL Recipients]**.
+1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]**. Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataires]**.
 
    D’autres mappages de cibles sont disponibles et certains peuvent être liés à votre configuration spécifique. Pour plus d’informations sur les mappages de cibles, voir [Sélection d’un mappage](../../delivery/using/selecting-a-target-mapping.md)de cibles.
 
-1. Click the **[!UICONTROL Add]** button to define restriction filters.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les filtres de restriction.
 
    Vous pouvez alors sélectionner le type de filtrage à appliquer :
 
    ![](assets/s_ncs_user_wizard_email02b.png)
 
-   Vous pouvez sélectionner des destinataires à l’aide des types de ciblage définis dans la base de données. Pour utiliser un type de cible, sélectionnez-le et cliquez sur **[!UICONTROL Next]**. Pour chaque cible, vous pouvez afficher les destinataires concernés en cliquant sur l’ **[!UICONTROL Preview]** onglet. Pour certains types de cible, le **[!UICONTROL Refine target]** bouton permet de combiner plusieurs critères de ciblage.
+   Vous pouvez sélectionner les destinataires en utilisant les types de ciblage définis dans la base. Pour utiliser un type de cible, sélectionnez-le et cliquez sur **[!UICONTROL Suivant]**. Pour chaque cible, vous pouvez visualiser les destinataires concernés en cliquant sur l&#39;onglet **[!UICONTROL Aperçu]**. Pour certains types de cibles, le bouton **[!UICONTROL Affiner la cible]** permet de conjuguer plusieurs critères de ciblage.
 
    Par défaut, les types de cibles suivants sont proposés :
 
-   * **[!UICONTROL Filtering conditions]** : cette option vous permet de définir une requête et d’afficher le résultat. La méthode de définition des requêtes est présentée dans [cette section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
-   * **[!UICONTROL Subscribers of an information service]** : cette option vous permet de sélectionner un bulletin d’information auquel les destinataires doivent s’abonner pour être ciblés par la diffusion en cours de création.
+   * **[!UICONTROL Critères de filtrage]** : cette option permet de définir une requête et d&#39;en visualiser le résultat. Le mode de définition des requêtes est présenté dans [cette section](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   * **[!UICONTROL Abonnés d&#39;un service d&#39;information]** : cette option vous permet de sélectionner une newsletter à laquelle les destinataires doivent être abonnés pour être ciblés par la diffusion en cours de création.
 
       ![](assets/s_ncs_user_wizard_email02c.png)
 
-   * **[!UICONTROL Recipients of a delivery]** : cette option vous permet de définir les destinataires d’une diffusion existante comme critère de ciblage. Vous devez ensuite sélectionner la diffusion dans la liste :
+   * **[!UICONTROL Destinataires d&#39;une diffusion]** : cette option permet de définir comme critère de ciblage les destinataires d&#39;une diffusion existante. Vous devez alors sélectionner la diffusion dans la liste :
 
       ![](assets/s_ncs_user_wizard_email02d.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]** : cette option vous permet de sélectionner un dossier de remise et de cibler les destinataires des livraisons dans ce dossier.
+   * **[!UICONTROL Destinataires des diffusions appartenant à un dossier]** : cette option permet de sélectionner un dossier de diffusions et de cibler les destinataires des diffusions contenues dans ce dossier.
 
       ![](assets/s_ncs_user_wizard_email02e.png)
 
@@ -77,18 +77,18 @@ Pour sélectionner les destinataires de la diffusion en cours de création, proc
 
       >[!NOTE]
       >
-      >The **[!UICONTROL Include sub-folders]** option also lets you target the deliveries contained in folders located in the tree structure below the selected node.
+      >L&#39;option **[!UICONTROL Inclure les sous-dossiers]** permet de cibler également sur les diffusions contenues dans les dossiers situés en sous-arborescence du noeud sélectionné.
 
-   * **[!UICONTROL Recipients included in a folder]** : cette option vous permet de cibler les profils contenus dans un dossier spécifique de l’arborescence.
-   * **[!UICONTROL A recipient]** : cette option vous permet de sélectionner un destinataire spécifique dans les profils de la base de données.
-   * **[!UICONTROL A list of recipients]** : cette option vous permet de cibler une liste de destinataires. Les listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
-   * **[!UICONTROL User filters]** : cette option vous permet d’accéder aux filtres préconfigurés pour les utiliser comme critères de filtrage pour les profils de la base de données. Les filtres préconfigurés sont présentés dans [cette section](../../platform/using/creating-filters.md#saving-a-filter).
-   * Cette option **[!UICONTROL Exclude recipients corresponding to this segment]** vous permet de cibler les destinataires qui ne répondent pas aux critères de ciblage définis. Pour utiliser cette option, sélectionnez la zone appropriée, puis appliquez le ciblage, comme défini précédemment, pour exclure les profils résultants.
+   * **[!UICONTROL Destinataires présents dans un dossier]** : cette option permet de cibler les profils contenus dans un dossier spécifique de l&#39;arborescence.
+   * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
+   * **[!UICONTROL Une liste de destinataires]** : cette option permet de cibler une liste de destinataires. Les listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
+   * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Les filtres préconfigurés sont présentés dans [cette section](../../platform/using/creating-filters.md#saving-a-filter).
+   * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler sur les destinataires ne répondant pas au(x) critère(s) de ciblage défini(s). Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
 
       ![](assets/s_ncs_user_wizard_email02g.png)
 
-1. Entrez un nom pour ce ciblage dans le **[!UICONTROL Label]** champ. Par défaut, le libellé sera celui du premier critère de ciblage. Pour une combinaison, il est préférable d’utiliser un nom explicite.
-1. Click **[!UICONTROL Finish]** to validate the configured targeting.
+1. Saisissez un nom pour ce ciblage dans le champ **[!UICONTROL Libellé]**. Par défaut, le libellé sera celui correspondant au premier critère de ciblage. En cas de combinaison, il est préférable d&#39;utiliser un nom explicite.
+1. Cliquez sur **[!UICONTROL Terminer]** pour valider le ciblage paramétré.
 
    Les critères de ciblage définis sont résumés dans la section centrale de l&#39;onglet de paramétrage de la cible principale. Cliquez sur un critère pour en visualiser le contenu (paramétrage et aperçu). Cliquez sur la croix située après le libellé d&#39;un critère pour le supprimer.
 
@@ -100,20 +100,20 @@ Vous pouvez choisir de lancer une diffusion sur des destinataires non enregistr�
 
 Pour cela :
 
-1. Click the **[!UICONTROL To]** link to select the recipients of your delivery.
-1. Select the **[!UICONTROL Defined in an external file]** option.
+1. Cliquez sur le lien **[!UICONTROL Pour]** afin de sélectionner les destinataires de la diffusion.
+1. Sélectionnez l&#39;option **[!UICONTROL Définie dans un fichier externe]**.
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. Par défaut, les destinataires sont importés dans la base de données. Vous devez sélectionner le **[!UICONTROL Target mapping]**. Pour plus d’informations sur les mappages de cibles, voir [Sélection d’un mappage de cibles.](../../delivery/using/selecting-a-target-mapping.md)
+1. Par défaut, les destinataires sont importés dans la base de données. Vous devez sélectionner le mappage **** Target. Pour plus d’informations sur les mappages de cibles, voir [Sélection d’un mappage de cibles.](../../delivery/using/selecting-a-target-mapping.md)
 
-   Vous pouvez également choisir **[!UICONTROL Do not import the recipients into the database]**.
+   Vous pouvez également sélectionner **[!UICONTROL Ne pas importer les destinataires dans la base]**.
 
-1. When importing the recipients, click the **[!UICONTROL File format definition...]** link to select and configure the external file.
+1. Lors de l&#39;import des destinataires, cliquez sur le lien **[!UICONTROL Définition du format du fichier...]** pour sélectionner et configurer le fichier externe.
 
    Pour plus d&#39;informations sur l&#39;import de données, consultez [cette section](../../platform/using/importing-data.md#step-2---source-file-selection).
 
-1. Click **[!UICONTROL Finish]** and configure your delivery as a standard delivery.
+1. Cliquez sur **[!UICONTROL Terminer]** et configurez votre diffusion comme une diffusion standard.
 
 >[!CAUTION]
 >
@@ -135,13 +135,13 @@ L&#39;onglet **[!UICONTROL Exclusions]** permet de limiter le nombre de messages
 >
 >Bien que les paramètres par défaut soient recommandés, vous pouvez adapter les paramètres selon vos besoins. Ces options ne doivent toutefois être modifiées que par un utilisateur expert afin d&#39;éviter toute mauvaise utilisation et erreur.
 
-Click the **[!UICONTROL Edit...]** link to modify the default configuration.
+Cliquez sur le lien **[!UICONTROL Editer]** pour modifier la configuration par défaut.
 
 ![](assets/s_ncs_user_wizard_email02i.png)
 
 Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]**. Cette option est active par défaut : il vous permet d’éliminer les adresses électroniques en double lors de la remise. La stratégie appliquée peut varier en fonction de l’utilisation d’Adobe Campaign et du type de données dans la base de données.
+* **[!UICONTROL Exclure les adresses en double lors de la diffusion]** : cette option, active par défaut, permet d’effectuer un dédoublonnage des adresses email lors de la diffusion. La stratégie adoptée peut être variable en fonction de l’utilisation d’Adobe Campaign et de la nature des données dans la base de données.
 
    La valeur par défaut de l&#39;option est paramétrable pour chaque modèle de diffusion.
 
@@ -150,22 +150,22 @@ Les options disponibles sont les suivantes :
    * Diffusion d&#39;une newsletter ou distribution électronique de documents : pas de dédoublonnage, dans certains cas, si les données ne comportent nativement pas de doublons. Un couple s&#39;inscrivant avec la même adresse email pourrait s&#39;attendre à recevoir deux emails spécifiques personnalisés à leurs nom et prénom respectifs. Dans ce cas, cette option peut être décochée.
    * Diffusion d&#39;une campagne marketing : le dédoublonnage est fondamental pour éviter l&#39;envoi d&#39;un trop grand nombre de messages à un même destinataire. Dans ce cas, cette option doit être cochée.
 
-      If you unselect this option, you can access an additional option: **[!UICONTROL Keep duplicate records (same identifier)]**. It lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
+      Si vous décochez cette option, vous avez accès à une option supplémentaire : **[!UICONTROL Conserver les enregistrements ciblés en double (même identifiant)]**. Elle permet d&#39;autoriser des envois multiples vers les destinataires qui correspondent à plusieurs critères de ciblage.
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , c&#39;est-à-dire les destinataires dont l&#39;adresse électronique figure sur une liste noire (&quot;exclusion&quot;). Cette option doit rester sélectionnée pour respecter l&#39;éthique professionnelle du e-marketing et les lois régissant le commerce électronique.
-* **[!UICONTROL Exclude quarantined recipients]**. Cette option vous permet d’exclure de la cible les profils avec une adresse qui ne répond pas. Nous vous recommandons vivement de conserver cette option sélectionnée.
+* **[!UICONTROL Exclure les destinataires ne souhaitant plus être contactés]**, c&#39;est-à-dire ceux dont les adresses emails sont en blackliste (opt-out). Cette option doit rester cochée afin de respecter les règles déontologiques de l&#39;e-marketing et de la loi LCEN.
+* **[!UICONTROL Exclure les destinataires en quarantaine]**. Cette option permet d&#39;exclure de la cible les profils dont les adresses ne répondent pas. Il est vivement recommandé de NE PAS décocher cette option.
 
    >[!NOTE]
    >
    >Pour plus d&#39;informations sur la gestion de la quarantaine, consultez [Présentation de la gestion](../../delivery/using/understanding-quarantine-management.md)de la quarantaine.
 
-* **[!UICONTROL Limit delivery]** à un nombre donné de messages. Cette option vous permet de saisir le nombre maximal de messages à envoyer. Si le contenu de la cible dépasse le nombre de messages indiqué, une sélection aléatoire est appliquée à la cible.
+* **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages. Cette option permet de saisir le nombre maximal de messages à envoyer. Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
 
 ### Réduire la taille de la population cible {#reducing-the-size-of-the-target-population}
 
-Vous pouvez réduire la taille de la population cible. Pour ce faire, indiquez le nombre de destinataires à exporter dans le **[!UICONTROL Requested quantity]** champ.
+Vous pouvez réduire la taille de la population cible. Pour ce faire, indiquez le nombre de destinataires à exporter dans le champ Quantité **** demandée.
 
 ![](assets/s_ncs_user_edit_del_exe_tab.png)
 
@@ -175,17 +175,17 @@ Le Bon à Tirer (BAT) est un message spécifique qui permet de tester une diffus
 
 Pour sélectionner la cible des BAT, procédez comme suit :
 
-1. Cliquez sur le **[!UICONTROL To]** lien.
-1.  Cliquez sur l’ **[!UICONTROL Target of the proofs]** onglet.
-1. Cliquez sur le **[!UICONTROL Targeting mode]** champ pour choisir la méthode à appliquer : **[!UICONTROL Definition of a specific proof target]** , **[!UICONTROL Substitution of the address]** , **[!UICONTROL Seed addresses]** ou **[!UICONTROL Specific target and seed addresses]**.
+1. Cliquez sur le lien **[!UICONTROL Pour]**.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Cible des BAT]**.
+1. Cliquez sur le champ **[!UICONTROL Mode de ciblage]** pour sélectionner la méthode à appliquer : **[!UICONTROL Définition d&#39;une cible spécifique au BAT]**, **[!UICONTROL Substitution de l&#39;adresse]**, **[!UICONTROL Adresses de contrôle]** ou **[!UICONTROL Cible spécifique et Adresses de contrôle]**.
 
 >[!NOTE]
 >
->En général, la cible de la preuve peut être ajoutée à la cible principale. Pour ce faire, sélectionnez l’option appropriée dans la section inférieure de l’ **[!UICONTROL Main target]** onglet.
+>En règle générale, la cible du BAT peut être ajoutée à la cible principale. Pour cela, cochez l&#39;option correspondante dans la section inférieure de l&#39;onglet **[!UICONTROL Cible principale]**.
 
 ## Définir une cible spécifique au BAT {#defining-a-specific-proof-target}
 
-When selecting the proof target, the **[!UICONTROL Definition of a specific proof target]** option lets you select the proof recipients from the profiles in the database.
+Lorsque vous sélectionnez la cible du BAT, l&#39;option **[!UICONTROL Définition d&#39;une cible spécifique au BAT]** vous permet de sélectionner les destinataires du BAT parmi les profils de la base de données.
 
 Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
 
@@ -195,7 +195,7 @@ For more on proof sending, refer to [this section](../../delivery/using/steps-va
 
 ### Utiliser une substitution de l&#39;adresse dans le BAT {#using-address-substitution-in-proof}
 
-Instead of selecting dedicated recipients in the database, you can use the **[!UICONTROL Substitution of the address]** option.
+Au lieu de sélectionner des destinataires dédiés dans la base de données, vous pouvez utiliser l&#39;option **[!UICONTROL Substitution de l&#39;adresse]**.
 
 Cette option permet d&#39;utiliser les profils des destinataires de la diffusion en remplaçant leurs adresses email par une ou plusieurs autres adresses qui recevront le BAT.
 
@@ -205,13 +205,13 @@ Lorsque cette option est sélectionnée, les adresses du BAT sont renseignées v
 
 Le mode de paramétrage est le suivant :
 
-1. Click the **[!UICONTROL Add]** icon to define a substitution.
+1. Cliquez sur l&#39;icône **[!UICONTROL Ajouter]** pour définir une substitution.
 1. Saisissez l&#39;adresse du destinataire à utiliser ou sélectionnez-la dans la liste.
-1. Select the profile to use in the proof: save the **[!UICONTROL Random]** value in the **[!UICONTROL Profile to use]** column to use the data of any profile of the target in the proof.
+1. Sélectionnez le profil à utiliser dans le BAT : conservez la valeur **[!UICONTROL Aléatoire]** dans la colonne **[!UICONTROL Profil à utiliser]** pour utiliser les données de n&#39;importe quel profil de la cible dans le BAT.
 
    ![](assets/s_ncs_user_wizard_email_bat_substitute_choose.png)
 
-1. Click the **[!UICONTROL Detail]** icon to select a profile from the main target, as in the following example:
+1. Cliquez sur l&#39;icône **[!UICONTROL Détail]** pour sélectionner un profil de la cible principale, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_user_wizard_email_bat_substitute_select.png)
 
@@ -219,7 +219,7 @@ Le mode de paramétrage est le suivant :
 
 ## Utiliser des adresses de contrôle en tant que BAT {#using-seed-addresses-as-proof}
 
-You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option lets you use or import a list of existing seed addresses.
+Vous pouvez utiliser des **[!UICONTROL Adresses de contrôle]** en tant que cible des BAT : cette option permet d&#39;utiliser ou d&#39;importer une liste d&#39;adresses de contrôle existantes.
 
 ![](assets/s_ncs_user_wizard_email_bat_control_address.png)
 
@@ -227,4 +227,4 @@ You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option
 >
 >Les adresses de départ sont présentées dans [A propos des adresses](../../delivery/using/about-seed-addresses.md)de départ.
 
-Vous pouvez combiner la définition d’une cible de preuve spécifique et l’utilisation d’adresses de départ à l’aide de l’ **[!UICONTROL Specific target and Seed addresses]** option. Les configurations associées sont ensuite définies dans deux sous-onglets distincts.
+A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de contrôle]**, vous pouvez cumuler la définition d&#39;une cible spécifique au BAT et l&#39;utilisation des adresses de contrôle. Les paramétrages correspondants sont alors définis dans deux sous-onglets distincts.
