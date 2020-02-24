@@ -280,8 +280,8 @@ A ce stade, le serveur IIS doit être arrêté. Reportez-vous à [Service stop](
 1. Ouvrez la console **Internet Information Services (IIS) Manager**.
 1. Modifiez les liaisons (ports d&#39;écoute) du site utilisé pour la version précédente d&#39;Adobe Campaign :
 
-   * Right-click the site used for Adobe Campaign previous version and select **[!UICONTROL Edit bindings]**.
-   * For each type of listen port (**[!UICONTROL http]** and/or **[!UICONTROL https]**), select the appropriate line and click **[!UICONTROL Edit]**.
+   * Cliquez avec le bouton droit sur le site utilisé pour la version précédente d&#39;Adobe Campaign et sélectionnez **[!UICONTROL Modifier les liaisons]**.
+   * Pour chaque type de port d&#39;écoute (**[!UICONTROL http]** et/ou **[!UICONTROL https]**), sélectionnez la ligne correspondante et cliquez sur **[!UICONTROL Modifier]**.
    * Saisissez un autre port que celui qui est renseigné. Par défaut, le port d&#39;écoute est 80 pour le http et 443 pour le https. Vérifiez que le nouveau port est disponible.
 
       ![](assets/_migration_iis_3_611.png)
@@ -292,15 +292,15 @@ A ce stade, le serveur IIS doit être arrêté. Reportez-vous à [Service stop](
 
 1. Créez un nouveau site web pour Adobe Campaign v7 :
 
-   * Cliquez avec le bouton droit sur le **[!UICONTROL Sites]** dossier et sélectionnez **[!UICONTROL Add Web Site...]**.
+   * Cliquez avec le bouton droit sur le dossier **[!UICONTROL Sites]** et sélectionnez **[!UICONTROL Ajouter un site Web]**.
 
       ![](assets/_migration_iis_4.png)
 
    * Renseignez le nom du site, par exemple **Adobe Campaign v7**.
-   * Le chemin d’accès au répertoire de base du site Web n’est pas utilisé, mais le **[!UICONTROL Physical access path]** champ doit être saisi. Entrez le chemin d&#39;accès IIS par défaut : **C:\inetpub\wwwroot**.
-   * Cliquez sur le bouton **[!UICONTROL Connect as...]** en tant que et assurez-vous que l’ **[!UICONTROL Application user]** option est sélectionnée.
-   * Vous pouvez laisser les valeurs par défaut dans les **[!UICONTROL IP address]** champs et **[!UICONTROL Port]** . Si vous souhaitez utiliser d’autres valeurs, assurez-vous que l’adresse IP et/ou le port sont disponibles.
-   * Cochez la **[!UICONTROL Start Web site immediately]** case.
+   * Le chemin d&#39;accès au répertoire de base du site Web n&#39;est pas utilisé, mais le champ **[!UICONTROL Chemin d&#39;accès physique]** doit être obligatoirement renseigné. Saisissez par exemple le chemin physique par défaut de IIS : **C:\inetpub\wwwroot**.
+   * Cliquez sur le bouton **[!UICONTROL Se connecter en tant que]**, et vérifiez que l&#39;option **[!UICONTROL Utilisateur de l&#39;application]** est sélectionnée.
+   * Dans les champs **[!UICONTROL Adresse IP]** et **[!UICONTROL Port]**, vous pouvez laisser les valeurs par défaut. Si vous souhaitez utiliser d&#39;autres valeurs, vérifiez que l&#39;adresse IP et/ou le port sont disponibles.
+   * Cochez la case **[!UICONTROL Démarrage immédiat du site Web]**.
 
       ![](assets/_migration_iis_5_7.png)
 
@@ -325,7 +325,7 @@ A ce stade, le serveur IIS doit être arrêté. Reportez-vous à [Service stop](
 
       ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
 
-   * In the **[!UICONTROL Content view]** tab, make sure the Website configuration is correctly configured with Adobe Campaign resources:
+   * Dans l&#39;onglet **[!UICONTROL Affichage du contenu]**, vérifiez que la configuration du site Web est bien paramétrée avec les ressources Adobe Campaign :
 
       ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
 
