@@ -33,8 +33,8 @@ Grâce aux applications Web, le marketing social vous permet d’afficher du con
 Les étapes de paramétrage sont les suivantes :
 
 1. Créez une ou plusieurs applications Facebook. Pour plus d’informations à ce sujet, voir : [Création d’une application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)Facebook.
-1. Entrez les liens **[!UICONTROL terms of service]** et **[!UICONTROL Privacy policy]** les liens à afficher sur l’écran de demande d’autorisation Facebook. Pour plus d’informations à ce sujet, voir : [Saisir les liens](#entering-the-terms-of-service-and-privacy-policy-links)des conditions de service et de la politique de confidentialité.
-1. Pour chaque application Facebook, créez un **[!UICONTROL Facebook Connect]** type de compte externe. For more on this, refer to: [Configuring external accounts](#configuring-external-accounts).
+1. Enter the **[!UICONTROL terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. Pour plus d’informations à ce sujet, voir : [Saisir les liens](#entering-the-terms-of-service-and-privacy-policy-links)des conditions de service et de la politique de confidentialité.
+1. For each Facebook application, create a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to: [Configuring external accounts](#configuring-external-accounts).
 1. Pour chaque application Facebook, créez une application Web de type Facebook dans Adobe Campaign. Pour plus d’informations à ce sujet, voir : [Création d’une application](#creating-a-facebook-type-web-application)Web de type Facebook.
 1. Configurez vos applications Facebook afin qu’elles s’affichent sous forme d’onglets sur votre page Facebook. For more on this, refer to: [Configuring Facebook tabs](#configuring-facebook-tabs).
 
@@ -44,15 +44,15 @@ Pour chaque application Facebook, vous devez créer un compte externe de type **
 
 Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ainsi qu&#39;à un navigateur Internet connecté au compte Facebook administrateur de vos pages :
 
-* **Facebook**: sélectionnez l’application créée précédemment ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)), puis sélectionnez l’onglet **[!UICONTROL Settings]** > **[!UICONTROL Basic]** .
+* **Facebook** : sélectionnez l&#39;application créée précédemment ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)), et sélectionnez l&#39;onglet **[!UICONTROL Paramètres]** > **[!UICONTROL Général]**.
 
    ![](assets/social_webapp_fb_008.png)
 
    >[!NOTE]
    >
-   >Si la **[!UICONTROL Facebook Web Games]** section n’apparaît pas, cliquez sur le **[!UICONTROL Add Platform]** bouton, au bas de la page, puis sélectionnez **[!UICONTROL Facebook Web Games]**.
+   >Si la section **[!UICONTROL Jeux Web Facebook]** n&#39;apparaît pas, cliquez sur le bouton **[!UICONTROL Ajouter une plateforme]**, en bas de la page, et sélectionnez **[!UICONTROL Jeux Web Facebook]**.
 
-* **Adobe Campaign**: accédez au **[!UICONTROL Administration > Platform > External accounts]** noeud de l’arborescence et cliquez sur **[!UICONTROL New]**.
+* **Adobe Campaign** : dans l&#39;arborescence, positionnez-vous sur le noeud **[!UICONTROL Administration > Plate-forme > Comptes externes]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
    ![](assets/social_webapp_fb_005.png)
 
@@ -60,7 +60,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    ![](assets/social_webapp_fb_006.png)
 
-1. Sélectionnez un mode d’hébergement pour l’application : **[!UICONTROL hosted by a partner]** ou **[!UICONTROL hosted by this instance]**.
+1. Choisissez le mode d&#39;hébergement de l&#39;application : **[!UICONTROL hébergée chez un partenaire]** ou **[!UICONTROL hébergée sur cette instance]**.
 
    ![](assets/social_webapp_fb_012.png)
 
@@ -72,7 +72,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
    >
    >Les paramètres du service Web sont détaillés dans le fichier WSDL disponible ici : **`https://<Instance name>/nl/jsp/schemawsdl.jsp?schema=nms:visitor`**
 
-   To integrate the third-party application into Adobe Campaign, you need to copy the content of the **[!UICONTROL App ID]** and **[!UICONTROL App Secret]** Facebook fields and paste it into the **[!UICONTROL Application ID]** and **[!UICONTROL Application secret]** fields of the console.
+   Pour intégrer l&#39;application tierce dans Adobe Campaign, vous devez copier le contenu des champs Facebook **[!UICONTROL Identifiant de l&#39;app]** et **[!UICONTROL Clé secrète]**, et les coller dans les champs **[!UICONTROL ID de l&#39;application]** et **[!UICONTROL Clé secrète]** dans la console.
 
    ![](assets/social_facebook_external_account_013.png)
 
@@ -80,7 +80,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    Si vous souhaitez héberger l’application sur cette instance (si vous n’avez pas d’application tierce), vous devez utiliser les applications Web Adobe Campaign pour acquérir des profils Facebook. Pour plus d’informations, reportez-vous à [Exemples d’applications](../../social/using/examples-of-facebook-apps.md)Facebook.
 
-   Dans la console Adobe Campaign, copiez l’adresse contenue dans le **[!UICONTROL Secure Canvas URL]** champ et collez-la dans le **[!UICONTROL Facebook Web games (https)]** champ sur Facebook (dans la **[!UICONTROL Facebook Web Games]** section).
+   Dans la console Adobe Campaign, copiez l&#39;adresse contenue dans le champ **[!UICONTROL URL sécurisée du canevas]** et collez-la dans le champ **[!UICONTROL Jeux Web Facebook (https)]** sur Facebook (dans la section **[!UICONTROL Jeux Web Facebook]**).
 
    ![](assets/social_facebook_external_account_009.png)
 
@@ -88,25 +88,25 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
    >
    >N&#39;utilisez en aucun cas l&#39;URL non sécurisée.
 
-   Sur Facebook, copiez le contenu des champs **[!UICONTROL App ID]** et **[!UICONTROL App Secret]** et collez-le dans les **[!UICONTROL Application ID]** champs et **[!UICONTROL Application secret]** de la console.
+   Sur Facebook, copiez le contenu des champs **[!UICONTROL Identifiant de l&#39;app]** et **[!UICONTROL Clé secrète]** et collez-les dans les champs **[!UICONTROL ID de l&#39;application]** et **[!UICONTROL Clé secrète]** dans la console.
 
    ![](assets/social_facebook_external_account_008.png)
 
-1. On Facebook, click the **[!UICONTROL Save Changes]** button at the bottom of the page.
+1. Sur Facebook, cliquez sur le bouton **[!UICONTROL Enregistrer les modifications]**, en bas de la page.
 1. In the Adobe Campaign console, click the **[!UICONTROL Subscribe]** button to enable Adobe Campaign to recover the data in real time each time a fan checks in via this application. Pour plus d’informations à ce sujet, voir : [Exemples d’applications](../../social/using/examples-of-facebook-apps.md)Facebook.
 
    ![](assets/social_webapp_fb_013.png)
 
 ## Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité {#entering-the-terms-of-service-and-privacy-policy-links}
 
-We strongly recommend adding the **[!UICONTROL Terms of service]** and **[!UICONTROL Privacy policy]** links, to be displayed on the Facebook permission request screen.
+Nous vous recommandons vivement d&#39;ajouter les liens **[!UICONTROL Conditions d&#39;utilisation]** et **[!UICONTROL Politique de confidentialité]**, qui apparaitront sur l&#39;écran de demande de permission Facebook.
 
 ![](assets/social_fb_terms_of_services_001.png)
 
 Les étapes de paramétrage sont les suivantes :
 
 1. Saisissez l&#39;adresse [https://developers.facebook.com/apps](https://developers.facebook.com/apps), puis sélectionnez l&#39;application Facebook.
-1. Sélectionnez l’ **[!UICONTROL Settings > Basic]** onglet et saisissez les **[!UICONTROL Privacy Policy URL]** champs et **[!UICONTROL Terms of Service URL]** .
+1. Dans la section **[!UICONTROL Paramètres > Général]**, renseignez les champs **[!UICONTROL URL de la Politique de confidentialité]** et **[!UICONTROL URL des conditions de service]**.
 
    ![](assets/social_fb_terms_of_services.png)
 
@@ -114,7 +114,7 @@ Les étapes de paramétrage sont les suivantes :
 
 L&#39;application web Adobe Campaign de type Facebook permet d&#39;afficher du contenu personnalisé dans votre application Facebook. Pour chaque application Facebook, vous devez créer une application web dans Adobe Campaign. Les étapes de création d&#39;une application web de type Facebook sont les suivantes.
 
-1. Allez dans l&#39; **[!UICONTROL Social networks]** univers, cliquez sur le **[!UICONTROL Applications]** lien, puis sur le **[!UICONTROL Create]** bouton.
+1. Positionnez-vous sur l&#39;univers **[!UICONTROL Réseaux sociaux]**, cliquez sur le lien **[!UICONTROL Applications]** puis sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/social_webapp_001.png)
 
@@ -126,21 +126,21 @@ L&#39;application web Adobe Campaign de type Facebook permet d&#39;afficher du c
    >
    >Quatre modèles d&#39;applications web Facebook sont proposés par défaut :
    >
-   >* **[!UICONTROL New Facebook application]**: sélectionnez ce modèle si vous souhaitez commencer à partir d’une application vide.
-   >* **[!UICONTROL Pre-entered form]**: Application Facebook avec un formulaire et un bouton &quot;connexion Facebook&quot; qui permet aux utilisateurs de remplir automatiquement les champs du formulaire à l’aide des données de leur profil. Cela permet aux utilisateurs de remplir le formulaire plus rapidement et aux marques d’obtenir des informations de meilleure qualité.
-   >* **[!UICONTROL "Canvas page" competition]**: application Facebook affichée à l’écran pour une meilleure expérience visuelle pour les utilisateurs.
-   >* **[!UICONTROL "Page Tab" competition]**: Application Facebook entièrement intégrée aux onglets de la page de marque.
+   >* **[!UICONTROL Nouvelle application Facebook]** : sélectionnez ce modèle si vous souhaitez partir d&#39;une application vierge.
+   >* **[!UICONTROL Formulaire pré-rempli]** : application Facebook comportant un formulaire et un bouton &quot;Facebook login&quot; permettant aux utilisateurs de le remplir automatiquement grâce aux données de leur profil. Cela permet à l&#39;utilisateur de remplir le formulaire plus rapidement et aux marques d&#39;obtenir des informations de meilleure qualité.
+   >* **[!UICONTROL Jeux concours &quot;Page Canvas&quot;]** : application Facebook s&#39;affichant sur la totalité de l&#39;écran pour une expérience visuelle plus agréable pour les utilisateurs.
+   >* **[!UICONTROL Jeux concours &quot;Page Tab&quot;]** : application Facebook encapsulée au sein des onglets des pages de marque.
 
 
-1. Dans le **[!UICONTROL Application]** champ, saisissez le compte externe lié à l’application Facebook. For more on this, refer to: [Configuring external accounts](#configuring-external-accounts).
+1. Dans le champ **[!UICONTROL Application]** , saisissez le compte externe lié à l’application Facebook. For more on this, refer to: [Configuring external accounts](#configuring-external-accounts).
 
    ![](assets/social_webapp_005.png)
 
-1. Sélectionnez l’ **[!UICONTROL Edit]** onglet, puis modifiez l’application Web. Pour plus d’informations à ce sujet, voir : [Exemples d’applications](../../social/using/examples-of-facebook-apps.md)Facebook.
+1. Sélectionnez l’onglet **[!UICONTROL Modifier]** , puis modifiez l’application Web. Pour plus d’informations à ce sujet, voir : [Exemples d’applications](../../social/using/examples-of-facebook-apps.md)Facebook.
 
    ![](assets/social_webapp_003.png)
 
-1. Once the web application is complete, select the **[!UICONTROL Dashboard]** tab, then click **[!UICONTROL Publish]** to publish online.
+1. Une fois l&#39;application web terminée, sélectionnez l&#39;onglet **[!UICONTROL Tableau de bord]**, puis cliquez sur **[!UICONTROL Publier]** pour la mettre en ligne.
 
    ![](assets/social_webapp_004.png)
 
@@ -148,27 +148,27 @@ L&#39;application web Adobe Campaign de type Facebook permet d&#39;afficher du c
 
 Vous pouvez paramétrer vos applications Facebook pour qu&#39;elles apparaissent sous la forme d&#39;onglets sur votre page Facebook. Les étapes de paramétrage sont les suivantes :
 
-1. Select the Facebook application ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)), and select the **[!UICONTROL Settings > Basic]** tab.
+1. Sélectionnez l&#39;application Facebook ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)), et sélectionnez l&#39;onglet **[!UICONTROL Paramètres > Général]**.
 
    ![](assets/social_webapp_fb_008.png)
 
-1. Au bas de la page, cliquez sur le **[!UICONTROL Add Platform]** bouton, puis sélectionnez **[!UICONTROL Page Tab]**.
+1. En bas de la page, cliquez sur le bouton **[!UICONTROL Ajouter une plateforme]**, et sélectionnez **[!UICONTROL Onglet Page]**.
 
    ![](assets/social_webapp_fb_008bis.png)
 
-1. In the **[!UICONTROL Page Tab Name]** field of the **[!UICONTROL Page Tab]** section, enter the label as you want it to appear on the Facebook page.
+1. Dans le champ **[!UICONTROL Nom de l&#39;onglet de Page]** de la section **[!UICONTROL Onglet Page]**, renseignez le libellé qui apparaîtra sur la page Facebook.
 
    ![](assets/social_webapp_fb_001.png)
 
-1. Dans le **[!UICONTROL Secure Page Tab URL]** champ, saisissez l’URL publique de l’application Web, accessible via l’ **[!UICONTROL Dashboard]** onglet de l’application Web. Pour plus d’informations sur la création d’applications Web de type Facebook, voir [Création d’une application](#creating-a-facebook-type-web-application)Web de type Facebook.
+1. Dans le champ URL **[!UICONTROL d’onglet de page]** sécurisée, saisissez l’URL publique de l’application Web, accessible via l’onglet **[!UICONTROL Tableau de bord]** de l’application Web. Pour plus d’informations sur la création d’applications Web de type Facebook, voir [Création d’une application](#creating-a-facebook-type-web-application)Web de type Facebook.
 
    ![](assets/social_webapp_fb_002.png)
 
-1. Sur la page **[!UICONTROL Dashboard]** de l’application Web, cliquez sur le **[!UICONTROL Add a page tab]** lien.
+1. Sur l&#39;onglet **[!UICONTROL Tableau de bord]** de l&#39;application web, cliquez sur le lien **[!UICONTROL Ajouter un onglet de page]**.
 
    ![](assets/social_webapp_fb_0010.png)
 
-1. Select the Facebook page you want to add the tab to and click **[!UICONTROL Add Page Tab]**.
+1. Sélectionnez la page Facebook sur laquelle vous souhaitez ajouter l&#39;onglet et cliquez sur **[!UICONTROL Ajouter un onglet de page]**.
 
    ![](assets/social_webapp_fb_0011.png)
 
