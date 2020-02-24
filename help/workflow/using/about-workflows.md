@@ -33,7 +33,7 @@ Les workflows interviennent dans différents contextes et à différentes étape
 Ainsi, Adobe Campaign utilise des workflows pour :
 
 * Exécutez des campagnes de ciblage. For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
-* Créez des campagnes : pour chaque campagne, l’ **[!UICONTROL Workflow]** onglet vous permet de créer la cible et les livraisons. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
+* Créez des campagnes : pour chaque campagne, l’onglet **[!UICONTROL Processus]** vous permet de créer la cible et les livraisons. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
 * Exécuter des processus techniques : nettoyage, collecte des informations de suivi ou calculs provisoires. For more on this, refer to [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows).
 
 Un workflow peut désigner à la fois une définition de procédure (le modèle de workflow : une représentation de ce qui est censé se produire) et une instance de cette procédure (une instance de workflow : une représentation de ce qui est en train de se produire).
@@ -44,9 +44,9 @@ Le modèle de workflow décrit les différentes tâches à effectuer et la faço
 
 Chaque workflow comprend :
 
-* **[!UICONTROL Activities]**
+* **[!UICONTROL Activités]**
 
-   Une activité décrit un modèle de tâche. Les différentes activités disponibles sont représentées sur le diagramme par des icônes. Chaque type possède des propriétés communes et des propriétés spécifiques. Par exemple, alors que toutes les activités ont un nom et une étiquette, seule l’ **[!UICONTROL Approval]** activité a une affectation.
+   Une activité décrit un modèle de tâche. Il existe différents types d&#39;activités, représentés sur le diagramme par des icônes. Chaque type possède des propriétés communes et des propriétés spécifiques. Par exemple, si toutes les activités ont un nom et un libellé, seule l&#39;activité **[!UICONTROL Validation]** a une assignation.
 
    Dans un diagramme de workflow, une même activité peut engendrer plusieurs tâches, notamment en cas de boucle ou d&#39;actions récurrentes (périodiques).
 
@@ -64,7 +64,7 @@ Chaque workflow comprend :
 
    Pour plus d&#39;informations sur la création d&#39;un workflow, consultez [cette section](../../workflow/using/building-a-workflow.md).
 
-* **[!UICONTROL Worktables]**
+* **[!UICONTROL Tables de travail]**
 
    La table de travail contient l&#39;ensemble des informations portées par la transition. Ainsi, chaque workflow utilise plusieurs tables de travail. Les données véhiculées dans ces tables peuvent être accédées et utilisées tout au long du cycle de vie du workflow, sous réserve qu&#39;elles ne soient pas purgées. En effet, les tables inutiles sont purgées à chaque passivation du workflow, et potentiellement en cours d&#39;exécution pour les plus volumineuses afin de ne pas surcharger le serveur.
 
