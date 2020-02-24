@@ -24,9 +24,9 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Les données traitées dans un workflow peuvent provenir de listes dont les données ont été préparées et structurées au préalable (lors d&#39;une segmentation antérieure ou d&#39;un chargement de fichier).
 
-L’ **[!UICONTROL Read list]** activité vous permet de copier les données d’une liste dans la table de travail du processus, comme les données d’une requête. Il est ensuite accessible tout au long du processus.
+L&#39;activité **[!UICONTROL Lecture de liste]** permet de copier les données d&#39;une liste dans une table de travail du workflow, comme les données issues d&#39;une requête. Elles sont alors accessibles tout au long du workflow.
 
-The list to be processed can be specified explicitly, computed by a script or localized dynamically, according to options selected and parameters defined in a **[!UICONTROL Read list]** activity.
+La liste à traiter peut être spécifiée explicitement, calculée par un script ou localisée dynamiquement, selon les options sélectionnées et les paramètres définis dans l&#39;activité **[!UICONTROL Lecture de liste]**.
 
 ![](assets/list_edit_select_option_01.png)
 
@@ -34,7 +34,7 @@ Si la liste n&#39;est pas spécifiée explicitement, vous devez indiquer une lis
 
 ![](assets/s_advuser_list_template_select.png)
 
-Once the list selection has been configured, you can add a filter using the **[!UICONTROL Edit query]** option to keep one part of the population for the next workflow.
+Une fois la sélection de la liste paramétrée, vous pouvez ajouter un filtre en utilisant l&#39;option **[!UICONTROL Éditer la requête]** afin de ne conserver qu&#39;une partie de la population pour la suite du workflow.
 
 ![](assets/wf_readlist_1.png)
 
@@ -42,7 +42,7 @@ Once the list selection has been configured, you can add a filter using the **[!
 >
 >Pour pouvoir créer un filtre dans une activité de lecture de liste, la liste concernée doit être de type &quot;fichier&quot;.
 
-Les listes peuvent être créées directement dans Adobe Campaign via le **[!UICONTROL Profiles and Targets > Lists]** lien de la page d’accueil. Ils peuvent également être créés dans un processus à l’aide de l’ **[!UICONTROL List update]** activité.
+Les listes peuvent être créées directement dans Adobe Campaign à partir du lien **[!UICONTROL Profils et Cibles > Listes]** de la page d&#39;accueil. Elles peuvent également être créées dans un workflow en utilisant l&#39;activité **[!UICONTROL Mise à jour de liste]**.
 
 **Exemple : exclure une liste d&#39;adresses d&#39;un envoi**
 
@@ -64,13 +64,13 @@ Les profils contenus dans le dossier **NvxContacts** doivent être ciblés par u
 
    ![](assets/s_advuser_list_read_sample_3.png)
 
-   Les règles d’exclusion sont configurées dans la section centrale de l’outil de modification. Cliquez sur le **[!UICONTROL Add]** bouton pour définir le type d’exclusion à appliquer.
+   Les règles d&#39;exclusion sont paramétrées dans la section centrale de l&#39;éditeur. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir le type d&#39;exclusion à appliquer.
 
    Vous pouvez définir plusieurs exclusions, selon le nombre de transitions en entrée de l&#39;activité.
 
-1. In the **[!UICONTROL Exclusion set]** field, select the **[!UICONTROL Read list]** activity: the data in this activity is to be excluded from the main set.
+1. Dans le champ **[!UICONTROL Ensemble exclu]**, sélectionnez l&#39;activité **[!UICONTROL Lecture de liste]** : ce sont les données contenues dans cette activité qui sont à exclure de l&#39;ensemble principal.
 
-   Dans notre exemple, nous avons une exclusion sur les jointures : les données contenues dans la liste seront rapprochées des données du jeu principal via le champ contenant l’adresse électronique. Pour configurer la jointure, sélectionnez **[!UICONTROL Joins]** dans le **[!UICONTROL Change dimension]** champ.
+   Dans notre exemple, il s&#39;agit d&#39;une exclusion sur jointure : les données contenues dans la liste seront rapprochées des données de l&#39;ensemble principal via le champ qui contient l&#39;adresse email. Pour paramétrer la jointure, sélectionnez **[!UICONTROL Jointures]** dans le champ **[!UICONTROL Changement de dimension]**.
 
    ![](assets/s_advuser_list_read_sample_4.png)
 
