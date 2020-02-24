@@ -224,11 +224,11 @@ Pour importer la configuration de la base de données de l&#39;environnement-cib
 1. Ouvrir la console d&#39;administration de la base de données et purger les comptes externes (table nms:extAccount) dont l&#39;ID est différent de 0 (@id &lt;> 0).
 1. Au niveau de la console Adobe Campaign, importer le package options_recette.xml précédemment créé via la fonctionnalité d&#39;import de package.
 
-   Check that the options have indeed been updated in the **[!UICONTROL Administration > Platform > Options]** node.
+   Vérifier que les options ont bien été mises à jour dans le noeud **[!UICONTROL Administration > Plate-forme > Options]**.
 
 1. Au niveau de la console Adobe Campaign, importer le package extaccount_recette.xml précédemment créé via la fonctionnalité d&#39;import de package.
 
-   Vérifiez que les bases de données externes ont bien été importées dans **[!UICONTROL Administration > Platform > External accounts]** .
+   Vérifier que les comptes externes ont bien été importés dans le noeud **[!UICONTROL Administration > Plate-forme > Comptes externes]** .
 
 ### Etape 9 - Redémarrer l&#39;ensemble des processus et changer les utilisateurs (recette) {#step-9---restart-all-processes-and-change-users--dev-}
 
