@@ -22,17 +22,17 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Utiliser le contexte{#using-the-context}
 
-Lorsque vous souhaitez représenter des données sous la forme **[!UICONTROL tables]** ou **[!UICONTROL charts]**, elles peuvent provenir de deux sources : une nouvelle requête (voir [Définition d’un filtre direct sur les données](#defining-a-direct-filter-on-data)) ou le contexte du rapport (voir [Utilisation de données](#using-context-data)contextuelles).
+When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Defining a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](#using-context-data)).
 
 ## Définir un filtre direct sur les données {#defining-a-direct-filter-on-data}
 
 ### Filtrer les données {#filtering-data}
 
-L’utilisation d’une activité de **[!UICONTROL Query]** type n’est pas obligatoire lors de la création d’un rapport. Les données peuvent être filtrées directement dans les tableaux et les graphiques qui composent le rapport.
+Il n&#39;est pas obligatoire d&#39;utiliser une activité de type **[!UICONTROL Requête]** lors de la construction d&#39;un rapport. En effet, les données peuvent être filtrées directement au niveau des tableaux et des graphiques qui composent ce rapport.
 
 Ainsi, vous pouvez sélectionner les données à afficher dans le rapport directement depuis l&#39;activité **[!UICONTROL Page]** du rapport.
 
-To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL Data]** tab: this link lets you access the expressions editor to define a query on the data to be analyzed.
+Pour cela, cliquez sur le lien **[!UICONTROL Filtrer les données...]** disponible dans l&#39;onglet **[!UICONTROL Données]** : ce lien permet d&#39;accéder à l&#39;éditeur d&#39;expressions pour définir une requête sur les données à analyser.
 
 ![](assets/reporting_filter_data_from_page.png)
 
@@ -40,7 +40,7 @@ To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL 
 
 Dans l&#39;exemple suivant, le graphique ne doit afficher que les profils de destinataires vivant en France et qui ont effectué des achats pendant l&#39;année.
 
-Pour définir ce filtre, placez une page dans le graphique et modifiez-la. Cliquez sur le **[!UICONTROL Filter data]** lien et créez le filtre correspondant aux données à afficher. Pour plus d&#39;informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
+Pour définir ce filtre, positionnez une page dans le diagramme et éditez-la. Cliquez sur le lien **[!UICONTROL Filtrer les données]** et créez le filtre correspondant aux données que vous voulez afficher. Pour plus d&#39;informations sur la construction des requêtes dans Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-queries-in-campaign.md).
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 
@@ -60,8 +60,8 @@ Les étapes sont les suivantes :
 
 1. Positionnez une page dans le diagramme et éditez-la.
 1. Créez un tableau croisé dynamique.
-1. Go to the **[!UICONTROL Data]** tab and select the cube to be used.
-1. Click the **[!UICONTROL Filter data...]** link and define the following query to remove Adobe from the list of companies.
+1. Dans l&#39;onglet **[!UICONTROL Données]**, sélectionnez le cube à utiliser.
+1. Cliquez sur le lien **[!UICONTROL Filtrer les données...]** et définissez la requête suivante afin de retirer Adobe de la liste des sociétés.
 
    ![](assets/s_ncs_advuser_report_display_03.png)
 
@@ -71,20 +71,20 @@ Le résultat sera que seuls les destinataires répondant aux critères de filtra
 
 ## Utiliser les données du contexte {#using-context-data}
 
-To represent data in the form of a **[!UICONTROL table]** or a **[!UICONTROL chart]**, the data can come from the report context.
+Lorsque vous souhaitez représenter les données sous forme de **[!UICONTROL tableau]** ou de **[!UICONTROL graphique]**, les données peuvent provenir du contexte du rapport.
 
-In the page that contains the table or the chart, the **[!UICONTROL Data]** tab lets you select the data source.
+Dans la page contenant le tableau ou le graphique, l&#39;onglet **[!UICONTROL Données]** permet de sélectionner la source des données.
 
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
-* Cette **[!UICONTROL New query]** option vous permet de créer une requête pour collecter des données. Pour plus d’informations, reportez-vous à la section [Définition d’un filtre direct sur les données](#defining-a-direct-filter-on-data).
-* L’ **[!UICONTROL Context data]** option vous permet d’utiliser les données d’entrée : le contexte du rapport coïncide avec les informations contenues dans la transition entrante de la page qui contient le graphique ou le tableau. Ce contexte peut, par exemple, contenir des données collectées via une **[!UICONTROL Query]** activité placée avant l’ **[!UICONTROL Page]** activité et pour lesquelles vous devez spécifier le tableau et les champs concernés par le rapport.
+* L’option **[!UICONTROL Nouvelle requête]** vous permet de créer une requête pour collecter des données. Pour plus d’informations, reportez-vous à la section [Définition d’un filtre direct sur les données](#defining-a-direct-filter-on-data).
+* L&#39;option **[!UICONTROL Données du contexte]** permet d&#39;utiliser les données d&#39;entrée : le contexte du rapport correspond aux informations qui sont véhiculées dans la transition entrante de la page contenant le graphique ou le tableau. Ce contexte peut, par exemple, contenir les données collectées via une activité **[!UICONTROL Requête]** placée avant l&#39;activité **[!UICONTROL Page]**, et dans laquelle vous spécifiez la table et les champs sur lesquels doit porter le rapport.
 
 Par exemple, dans une boîte de requête, construisez la requête suivante sur les destinataires :
 
 ![](assets/s_ncs_advuser_report_datasource_2.png)
 
-Then indicate the source of the data in your report, in this case: **[!UICONTROL Data from the context]**.
+Indiquez ensuite la source des données de votre rapport, ici : les **[!UICONTROL Données du contexte]**.
 
 L&#39;emplacement des données est déduit automatiquement. Vous pouvez, au besoin, forcer le chemin des données.
 
