@@ -42,7 +42,7 @@ Pour insérer des balises de personnalisation dans le corps d&#39;un message ema
 
 1. Dans le modèle de message, cliquez sur l&#39;onglet correspondant au format de l&#39;email (HTML ou texte).
 1. Rédigez le corps du message.
-1. Dans le corps du texte, insérez la balise à l’aide des **[!UICONTROL Real time events>Event XML]** menus.
+1. Dans le corps du texte, insérez la balise à l&#39;aide des menus **[!UICONTROL Evénement temps réel>XML de l&#39;événement]**.
 
    ![](assets/messagecenter_create_custo_002.png)
 
