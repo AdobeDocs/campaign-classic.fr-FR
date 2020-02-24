@@ -28,7 +28,7 @@ La vue affichée est une liste associée à un schéma et à un formulaire de sa
 
 ![](assets/d_ncs_integration_navigation.png)
 
-To add a new folder to the tree, right-click the folder in the branch where you wish to insert a folder, and select **[!UICONTROL Add new folder]** . In the shortcut menu, select the type of file to be created.
+Pour ajouter un nouveau dossier dans l&#39;arborescence, cliquez avec le bouton droit sur le dossier dans la branche duquel vous souhaitez insérer un dossier et choisissez **[!UICONTROL Ajouter un dossier]**. Dans le menu contextuel, sélectionnez le type de dossier à créer.
 
 ![](assets/d_ncs_integration_navigation_create.png)
 
