@@ -30,7 +30,7 @@ Commencez par concevoir votre pièce jointe. Consultez cet [article](../../deliv
 
 Vous pouvez envoyer des courriers électroniques via un déclencheur de message SOAP. Pour plus d’informations sur les requêtes SOAP, voir Description [de l’](../../message-center/using/event-description.md)événement. Dans l’appel SOAP, il existe un paramètre d’URL (URL de la pièce jointe).
 
-Lors de la conception de votre courriel, cliquez sur **[!UICONTROL Attachment]** . Dans l’ **[!UICONTROL Attachment definition]** écran, saisissez le paramètre de pièce jointe SOAP :
+Lors de la conception de votre email, cliquez sur **[!UICONTROL Pièce jointe]**. Dans l&#39;écran **[!UICONTROL Définition d&#39;un fichier attaché]**, saisissez le paramètre de pièce jointe SOAP :
 
 ```
 <%= rtEvent.ctx.attachementUrl %>
