@@ -56,7 +56,7 @@ The declaration of file types is structured in the document with the following e
 
 Une commande globale permet de lancer une action, cette action peut être une forme de saisie ou un appel SOAP.
 
-Global commands are accessible from the main **[!UICONTROL Tools]** menu.
+Les commandes globales sont accessibles à partir du menu principal **[!UICONTROL Outils]**.
 
 La struture du paramétrage des commandes est la suivante :
 
@@ -87,7 +87,7 @@ The description of a global command is entered in the **`<command>`** element wi
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
 * **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple &quot;cus:recipient&quot;).
-* **droits**: liste de droits nommés (séparés par une virgule) permettant d’accéder à cette commande. La liste des droits disponibles est accessible à partir du **[!UICONTROL Administration > Access management > Named rights]** dossier.
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 
 Un **`<command>`** élément peut contenir **`<command>`** des sous-éléments. Dans ce cas, l’élément parent vous permet d’afficher un sous-menu composé de ces éléments enfants.
@@ -158,14 +158,14 @@ La structure du paramétrage des types de dossier est la suivante :
 </model>
 ```
 
-La déclaration de type de dossier doit être saisie sous un **`<model>`** élément. Cet élément vous permet de définir une organisation hiérarchique visible à partir du **[!UICONTROL Add new folder]** menu. Un **`<model>`** élément doit contenir **`<nodemodel>`** des éléments et d’autres **`<model>`** éléments.
+La déclaration de type de dossier doit être saisie sous un **`<model>`** élément. Cet élément vous permet de définir une organisation hiérarchique visible à partir du menu **[!UICONTROL Ajouter un nouveau dossier]** . Un **`<model>`** élément doit contenir **`<nodemodel>`** des éléments et d’autres **`<model>`** éléments.
 
-The **name** and **label** attributes populate the internal name of the element and the label displayed in the **[!UICONTROL Add new folder]** menu.
+Les attributs **name** et **label** renseignent le nom interne de l&#39;élément et le libellé affiché dans le menu **[!UICONTROL Ajouter un dossier]**.
 
 The **`<nodemodel>`** element contains the description of the folder type with the following properties:
 
 * **name** : nom interne.
-* **libellé**: est utilisée dans le **[!UICONTROL Add new folder]** menu et comme étiquette par défaut lors de l’insertion d’un dossier.
+* **label** : libellé utilisé dans le menu **[!UICONTROL Ajouter un dossier]** et comme libellé par défaut lors de l&#39;insertion d&#39;un dossier.
 * **img** : image par défaut à l&#39;insertion du dossier.
 * **hiddenCommands** : liste des commandes (séparées par une virgule) à masquer, les valeurs possibles sont : &quot;insert&quot;, &quot;delete&quot;, &quot;update&quot; et &quot;duplicate&quot;.
 * **newFolderShortCuts**: liste de raccourcis sur les modèles (**`<nodemodel>`** séparés par une virgule) dans la création de dossiers.
@@ -256,7 +256,7 @@ The description of a command is entered on the **`<command>`** element with the 
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
 * **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple : &quot;cus:recipient&quot;).
-* **droits**: liste de droits nommés (séparés par une virgule) permettant d’accéder à cette commande. La liste des droits disponibles est accessible à partir du **[!UICONTROL Administration > Access management > Named rights]** dossier.
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 * **monoSelection** : force la mono sélection (sélection multiple par défaut).
 * **refreshView** : force le rechargement de la liste après l&#39;exécution de la commande.
