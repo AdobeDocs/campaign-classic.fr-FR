@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Suivi des simulations{#simulation-tracking}
 
-Once the simulation is finished, you can analyze its result via the **[!UICONTROL Results]** tab which is added to the simulation window and the **[!UICONTROL Breakdown of offers by rank]** report, available via in the simulation dashboard.
+Une fois la simulation effectuée, vous pouvez analyser son résultat depuis l&#39;onglet **[!UICONTROL Résultats]** qui s&#39;ajoute dans la fenêtre de simulation et le rapport **[!UICONTROL Répartition des offres par rang]** disponible depuis le tableau de bord de la simulation.
 
 Les résultats de la simulation consistent en la répartition des propositions par rang et par personnes ciblées. S&#39;ils ont été paramétrés, les axes de reporting sont également pris en compte et affichés dans cet onglet.
 
