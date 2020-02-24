@@ -34,15 +34,15 @@ L&#39;objectif principal de ce cas d&#39;utilisation est de faire correspondre l
 
 Pour créer une nouvelle Application Web de type Landing Page, respectez les étapes suivantes :
 
-1. Accédez à l’ **[!UICONTROL Campaigns]** onglet et cliquez sur le **[!UICONTROL Web application]** lien, puis cliquez sur le **[!UICONTROL Create]** bouton.
-1. Sélectionnez le **[!UICONTROL New landing page]** modèle et saisissez une étiquette, puis cliquez sur **[!UICONTROL Save]**.
+1. Go to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Web application]** link, then click the **[!UICONTROL Create]** button.
+1. Sélectionnez le modèle **[!UICONTROL Nouvelle landing page]**, saisissez un libellé, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/dce_uc1_newlandingpage.png)
 
-1.  Cliquez sur l’ **[!UICONTROL Edit]** onglet.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Edition]**.
 1. Supprimez l&#39;activité **Fin**.
 1. Add a **[!UICONTROL Page]** activity after the **[!UICONTROL Storage]** activity.
-1. Modifiez l’activité **Page 2** , puis désélectionnez l’ **[!UICONTROL Activate outbound transitions]** option dans l’ **[!UICONTROL Properties]** onglet.
+1. Editez l&#39;activité **Page 2**, puis décochez l&#39;option **[!UICONTROL Activer les transitions sortantes]** dans l&#39;onglet **[!UICONTROL Propriétés]**.
 
    ![](assets/dce_uc1_transition.png)
 
@@ -69,7 +69,7 @@ Un modèle doit contenir :
 Pour charger le modèle dans la première page, respectez les étapes suivantes :
 
 1. Ouvrez la première activité **[!UICONTROL Page]** de l&#39;application Web.
-1. Sélectionnez **[!UICONTROL From a file]** pour récupérer votre modèle de contenu.
+1. Sélectionnez **[!UICONTROL A Partir d&#39;un fichier]** comme choix de modèles de contenus disponibles.
 
    ![](assets/dce_uc1_selectmodel.png)
 
@@ -78,15 +78,15 @@ Pour charger le modèle dans la première page, respectez les étapes suivantes 
 
    Lors du chargement, la liste des fichiers chargés apparait. Le système d&#39;import vérifie que tous les fichiers liés au HTML sélectionné sont présents (CSS, images, etc.).
 
-   Click the **[!UICONTROL Close]** button once the import has finished.
+   Cliquez sur le bouton **[!UICONTROL Fermer]** lorsque l&#39;import est terminé.
 
    ![](assets/dce_uc1_import.png)
 
    >[!CAUTION]
    >
-   >Vous devez attendre d’avoir reçu le message suivant avant de fermer : **[!UICONTROL The external resources have been successfully published]** .
+   >Vous devez attendre d’avoir reçu le message suivant avant de fermer : **[!UICONTROL Les ressources externes ont été publiées]** avec succès.
 
-1.  Cliquez sur l’ **[!UICONTROL Properties]** onglet.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Propriétés]**.
 1. Enter a **label** for each page (for example: Page 1= Collect, Page 2=Thank you).
 
    ![](assets/dce_uc1_pagelabel.png)
@@ -107,7 +107,7 @@ Dans cette section, nous allons ajuster le contenu importé puis associer les ch
 
 Nous allons d&#39;abord modifier les couleurs de la page. Pour cela :
 
-1. Ouvrez la **[!UICONTROL Collection]** page.
+1. Ouvrez la page **[!UICONTROL Collecte]**.
 1. Cliquez sur la zone d&#39;arrière-plan.
 1. Cliquez sur la zone **Couleur de fond** dans la zone droite.
 1. Sélectionnez une nouvelle couleur de fond dans le nuancier.
@@ -124,7 +124,7 @@ Nous allons d&#39;abord modifier les couleurs de la page. Pour cela :
 Nous allons associer les champs proposés dans la page à des champs de la base de données, afin de stocker les informations renseignées.
 
 1. Sélectionnez un champ du formulaire.
-1. Edit the **[!UICONTROL Field]** section on right-hand side of the editor.
+1. Editez la section **[!UICONTROL Champ]** dans la zone droite de l&#39;éditeur.
 1. Sélectionnez le champ de la base de données que vous souhaitez associer au champ sélectionné.
 
    ![](assets/dce_uc1_mapping.png)
@@ -139,9 +139,9 @@ Il est possible de rendre un champ obligatoire : par exemple, cliquez sur le cha
 
 This step is mandatory because it will allow the Web application to determine the sequence of the next steps: Saving the collected data in the database then displaying the next page (**Thank you** page).
 
-1. Select the **[!UICONTROL Send it!]** button of the **[!UICONTROL Collection]** page.
-1. Click the **[!UICONTROL Action]** drop-down menu.
-1. Sélectionnez l’ **[!UICONTROL Next page]** action.
+1. Sélectionnez le bouton **[!UICONTROL Send It!]** de la page **[!UICONTROL Collecte]**.
+1. Cliquez dans le menu déroulant **[!UICONTROL Action]**.
+1. Sélectionnez l&#39;action **[!UICONTROL Page Suivante]**.
 
    ![](assets/dce_uc1_actionbouton.png)
 
@@ -149,9 +149,9 @@ This step is mandatory because it will allow the Web application to determine th
 
 Cette étape permet de personnaliser le contenu de la page de remerciements. Pour cela :
 
-1. Ouvrez la **[!UICONTROL Thank you]** page.
+1. Ouvrez la page **[!UICONTROL Remerciements]**.
 1. Positionnez le curseur dans une zone de texte, là où vous souhaitez insérer le prénom du destinataire.
-1. Sélectionnez **[!UICONTROL Personalization field]** dans le **[!UICONTROL Insert]** menu de la barre d’outils.
+1. Sélectionnez **[!UICONTROL Champ de personnalisation]** dans le menu **[!UICONTROL Insérer]** de la barre d&#39;outils.
 1. Sélectionnez le prénom.
 
    ![](assets/dce_uc1_persochamp.png)
@@ -162,7 +162,7 @@ Le champ de personnalisation s&#39;affiche sur fond jaune dans l&#39;éditeur.
 
 ## Etape 3 - Publication du contenu {#step-3---publishing-content}
 
-Le contenu est publié à partir du tableau de bord de l&#39;application Web. Cliquez sur le **[!UICONTROL Publish]** bouton pour l’exécuter.
+Le contenu est publié à partir du tableau de bord de l&#39;application Web. Cliquez sur le bouton **[!UICONTROL Publier]** pour l’exécuter.
 
 ![](assets/dce_uc1_pub_dashboard.png)
 
