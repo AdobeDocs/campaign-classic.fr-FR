@@ -32,13 +32,13 @@ Sur l&#39;instance de pilotage, vous devez créer un workflow d&#39;archivage pa
 
 **Architecture répartie**
 
-Si une ou plusieurs instances d’exécution sont enregistrées, sur l’instance de contrôle, vous devez créer un processus d’archivage pour chaque compte **[!UICONTROL Message Center execution instance]** externe. Cliquez sur le **[!UICONTROL Create the archiving workflow]** bouton pour créer et démarrer le processus.
+Si vous disposez d&#39;une ou plusieurs instances d&#39;exécution, vous devez créer, sur l&#39;instance de pilotage, un workflow d&#39;archivage pour chaque compte externe de type **[!UICONTROL Instance d&#39;exécution Message Center]**. Cliquez sur le bouton **[!UICONTROL Créer le workflow d&#39;archivage]** pour créer et démarrer le workflow.
 
 ![](assets/messagecenter_archiving_002.png)
 
 **Architecture minimale**
 
-Une fois les modules de contrôle et d’exécution installés sur la même instance, vous devez créer le processus d’archivage à l’aide de l’assistant de déploiement. Cliquez sur le **[!UICONTROL Create the archiving workflow]** bouton pour créer et démarrer le processus.
+Lorsque les modules de pilotage et d&#39;exécution sont installés sur la même instance, vous devez créer le workflow d&#39;archivage depuis l&#39;assistant de déploiement. Cliquez sur le bouton **[!UICONTROL Créer le workflow d&#39;archivage]** pour créer et démarrer le workflow.
 
 ![](assets/messagecenter_archiving_001.png)
 
@@ -46,16 +46,16 @@ Une fois les modules de contrôle et d’exécution installés sur la même inst
 
 Sur la ou les instances d&#39;exécution, les workflows techniques des messages transactionnels sont accessibles depuis le dossier **Administration > Exploitation > Message Center**. Vous devez simplement les démarrer. La liste des workflows est la suivante :
 
-* **[!UICONTROL Processing batch events]** (nom interne : **[!UICONTROL batchEventsProcessing]** ) : ce processus vous permet de ventiler les événements de lot dans une file d’attente avant qu’ils ne soient liés à un modèle de message.
-* **[!UICONTROL Processing real time events]** (nom interne : **[!UICONTROL rtEventsProcessing]** ) : ce processus vous permet de ventiler les événements en temps réel dans une file d’attente avant qu’ils ne soient liés à un modèle de message.
-* **[!UICONTROL Update event status]** (nom interne : **[!UICONTROL updateEventStatus]** ) : ce processus vous permet d’attribuer un état à l’événement.
+* **[!UICONTROL Traitement des événements batch]** (nom interne : **[!UICONTROL batchEventsProcessing]**) : ce workflow permet de répartir les événements batch dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message.
+* **[!UICONTROL Traitement des événements temps réel]** (nom interne : **[!UICONTROL rtEventsProcessing]**) : ce workflow permet de répartir les événements temps réel dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message.
+* **[!UICONTROL Mise à jour du statut des événements]** (nom interne : **[!UICONTROL updateEventsStatus]**) : ce workflow permet d&#39;attribuer un statut à l&#39;événement.
 
    Les statuts d&#39;un événement sont les suivants :
 
-   * **[!UICONTROL Pending]** : l’événement se trouve dans la file d’attente. Aucun modèle de message ne lui a encore été associé.
-   * **[!UICONTROL Pending delivery]** : l’événement se trouve dans la file d’attente, un modèle de message lui a été affecté et est en cours de traitement par la remise.
-   * **[!UICONTROL Sent]** : cet état est copié à partir des journaux de remise. Cela signifie que la livraison a été envoyée.
-   * **[!UICONTROL Ignored by the delivery]** : cet état est copié à partir des journaux de remise. Il signifie que la diffusion a été ignorée.
-   * **[!UICONTROL Delivery failed]** : cet état est copié à partir des journaux de remise. Il signifie que la diffusion a échoué.
-   * **[!UICONTROL Event not taken into account]** : l&#39;événement n&#39;a pas pu être lié à un modèle de message. L&#39;événement ne sera pas retraité.
+   * **[!UICONTROL En attente]** : l&#39;événement se trouve dans la file d&#39;attente. Aucun modèle de message ne lui a encore été associé.
+   * **[!UICONTROL En attente de diffusion]** : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.
+   * **[!UICONTROL Envoyé]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été envoyée.
+   * **[!UICONTROL Ignoré par la diffusion]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.
+   * **[!UICONTROL Erreur de diffusion]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.
+   * **[!UICONTROL Evénement non pris en charge]** : l&#39;association de l&#39;événement à un modèle de message a échoué. L&#39;événement ne sera pas retraité.
 
