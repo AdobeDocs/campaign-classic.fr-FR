@@ -32,12 +32,12 @@ Pour savoir comment simuler une offre, suivez les étapes ci-dessous. Vous pouve
 
 Pour effectuer une simulation de vos offres, procédez de la manière suivante :
 
-1. Dans l’ **[!UICONTROL Profiles and Targets]** univers, cliquez sur le **[!UICONTROL Simulations]** lien, puis sur le **[!UICONTROL Create]** bouton.
+1. Dans l&#39;univers **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Simulations]**, puis sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/offer_simulation_001.png)
 
 1. Enregistrez puis éditez la simulation que vous venez de créer.
-1. Go to the **[!UICONTROL Edit]** tab and specify the execution settings.
+1. Dans l&#39;onglet **[!UICONTROL Edition]**, spécifiez les paramètres d&#39;exécution.
 
    For more on this, refer to [Execution settings](../../interaction/using/execution-settings.md).
 
@@ -53,13 +53,13 @@ Pour effectuer une simulation de vos offres, procédez de la manière suivante :
 
    ![](assets/offer_simulation_004.png)
 
-1. Ajoutez des axes de création de rapports pour améliorer le **[!UICONTROL Offer distribution by rank]** rapport (facultatif).
+1. Ajoutez des axes de reporting pour enrichir le rapport **[!UICONTROL Répartition des offres par rang]** (étape optionnelle).
 
    Pour plus d’informations, voir [Ajout d’axes](../../interaction/using/simulation-scope.md#adding-reporting-axes)de création de rapports.
 
    ![](assets/offer_simulation_005.png)
 
-1. Click **[!UICONTROL Save]** to record the simulation settings.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour sauvegarder les paramètres de la simulation.
 1. Lancez la simulation depuis le tableau de bord.
 
    ![](assets/offer_simulation_006.png)
