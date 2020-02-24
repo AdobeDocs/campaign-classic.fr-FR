@@ -28,15 +28,15 @@ Pour appliquer les règles de typologie que vous avez créées, vous devez les a
 
 1. Créez une typologie de campagne.
 
-   Les typologies sont accessibles via le noeud **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** .
+   Les typologies sont accessibles sous le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies]** > **[!UICONTROL Typologies]**.
 
-1. Go to the **[!UICONTROL Rules]** tab, click the **[!UICONTROL Add]** button and select the rules to apply with this typology.
+1. Accédez à l&#39;onglet **[!UICONTROL Règles]**, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les règles à appliquer avec cette typologie.
 
    ![](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Enregistrez la typologie : elle est alors ajoutée à la liste des typologies existantes.
 1. Ouvrez la diffusion à laquelle vous souhaitez appliquer les règles.
-1. Open the delivery properties and access the **[!UICONTROL Typology]** tab.
+1. Ouvrez les propriétés de diffusion et accédez à l&#39;onglet **[!UICONTROL Typologie]**.
 1. Sélectionnez la typologie dans la liste déroulante.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -51,7 +51,7 @@ Vous pouvez restreindre le champ d&#39;application d&#39;une règle selon vos be
 
 En effet, les règles de typologie peuvent ne concerner que certaines diffusions auxquelles elles sont associées, ou certains destinataires parmi la cible d&#39;une diffusion.
 
-Pour définir les conditions d’application d’une règle, cliquez sur le **[!UICONTROL Edit the rule application conditions...]** lien dans l’ **[!UICONTROL General]** onglet.
+Pour définir les critères d&#39;application d&#39;une règle, cliquez sur le lien **[!UICONTROL Editer les critères d&#39;application de la règle...]**, dans l&#39;onglet **[!UICONTROL Général]**.
 
 Utilisez alors l&#39;éditeur de requêtes pour définir les conditions de filtrage. Dans l&#39;exemple ci-dessous, seules les diffusions contenant le terme &#39;offre&#39; dans leur libellé, et celles créées avant le 1er avril 2013, sont concernées par la règle de capacité.
 
@@ -67,11 +67,11 @@ Les arbitrages sont automatiquement ré-exécutés chaque nuit, via le workflow 
 
 En effet, certains calculs utilisent des valeurs qui ne changent pas quotidiennement. Il serait donc inutile de recalculer les données tous les jours, et de surcharger inutilement la base de données. Par exemple, si un processus alimente toutes les semaines la base de marketing avec les scores d&#39;appétence des clients et les éléments de consolidation des actes d&#39;achat, il est inutile de recalculer tous les jours les données basées sur ces valeurs.
 
-Pour ce faire, le **[!UICONTROL Frequency]** champ de l’ **[!UICONTROL General]** onglet vous permet de définir une période maximale pendant laquelle le ciblage est enregistré. Par défaut, la valeur **0** indique que le calcul reste valide jusqu’à la prochaine exécution du réarbitrage quotidien.
+Pour cela, le champ **[!UICONTROL Fréquence]** de l&#39;onglet **[!UICONTROL Général]** permet de définir la durée maximale pendant laquelle les calculs sont conservés. Par défaut, la valeur **0s** indique que les calculs restent valides jusqu&#39;à la prochaine exécution du ré-arbitrage quotidien.
 
-To save the results beyond this period, enter a value greater than 12 in the **[!UICONTROL Frequency]** field: once this period expires, all rules are re-applied.
+Pour conserver les résultats au-delà de cette limite, indiquez une valeur supérieure à 12h dans le champ **[!UICONTROL Fréquence]** : une fois ce délai expiré, toutes les règles sont réappliquées.
 
-L’ **[!UICONTROL Re-apply the rule at the start of personalization]** option vous permet d’appliquer automatiquement la règle pendant la phase de personnalisation, y compris si la période indiquée dans le **[!UICONTROL Frequency]** champ est toujours valide.
+L&#39;option **[!UICONTROL Réappliquer la règle au début de la personnalisation]** permet d&#39;appliquer systématiquement la règle lors de la phase de personnalisation, y compris si le délai indiqué dans le champ **[!UICONTROL Fréquence]** n&#39;a pas expiré.
 
 ## Sélectionner la phase d&#39;application de la règle {#selecting-the-rule-application-phase}
 
@@ -98,33 +98,33 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 >
 >Si vous utilisez le module Interaction de Campaign, les règles d&#39;éligibilité aux offres sont appliquées avec les règles de filtrage (pour les offres présentes dans les compositions de diffusion) ou lors de la phase de personnalisation, lors de l&#39;appel au moteur d&#39;offres.
 
-Vous pouvez adapter la séquence d’exécution des règles du même type à l’aide du champ approprié dans l’ **[!UICONTROL General]** onglet de la règle. Lorsque plusieurs règles sont exécutées au cours de la même phase de traitement des messages, vous pouvez configurer leur séquence d’exécution dans le **[!UICONTROL Execution sequence]** champ.
+Vous pouvez adapter l&#39;ordre d&#39;exécution des règles de même type à partir du champ correspondant dans l&#39;onglet **[!UICONTROL Général]** de la règle. En effet, lorsque plusieurs règles sont exécutées lors de la même phase de traitement des messages, vous pouvez choisir dans quel ordre elles doivent être appliquées à partir du champ **[!UICONTROL Ordre d&#39;exécution]**.
 
 Par exemple, une règle de pression dont l&#39;ordre d&#39;exécution est positionné à 20 sera exécutée avant une règle de pression dont l&#39;ordre d&#39;exécution est positionné à 30.
 
 ### Cas des règles de contrôle {#control-rules}
 
-Pour **[!UICONTROL Control]** les règles, vous pouvez décider à quel moment du cycle de vie de la diffusion la règle sera appliquée (avant ou après le ciblage, au début de la personnalisation, à la fin de l’analyse). Select the value to apply in the drop-down list of the **[!UICONTROL Phase]** field, in the **[!UICONTROL General]** tab of the typology rule.
+Pour les règles de **[!UICONTROL Contrôle]**, vous pouvez choisir le moment où la règle sera appliquée, parmi les étapes du cycle de vie des diffusions (avant ou après le ciblage, au début de la personnalisation, à la fin de l&#39;analyse). Sélectionnez la valeur à appliquer dans la liste déroulante du champ **[!UICONTROL Phase]**, dans l&#39;onglet **[!UICONTROL Général]** de la règle de typologie.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
 Les valeurs possibles sont les suivantes :
 
-* **[!UICONTROL At the start of targeting]**
+* **[!UICONTROL Au début du ciblage]**
 
    La règle de contrôle peut être appliquée à cette phase afin de ne pas exécuter l&#39;étape de personnalisation en cas d&#39;erreur.
 
-* **[!UICONTROL After targeting]**
+* **[!UICONTROL Après le ciblage]**
 
    Lorsqu&#39;il est utile de connaître le volume de la cible pour appliquer la règle de contrôle, sélectionnez cette phase.
 
-   For example, the **[!UICONTROL Check proof size]** control rule applies after each targeting stage: this rule prevents message personalization if there are too many proof recipients.
+   Par exemple, la règle de contrôle **[!UICONTROL Vérification de la taille des BAT]** s&#39;applique obligatoirement après l&#39;étape de ciblage : cette règle permet de ne pas préparer la personnalisation des messages si les destinataires du BAT sont trop nombreux.
 
-* **[!UICONTROL At the start of personalization]**
+* **[!UICONTROL Au début de la personnalisation]**
 
    Cette phase doit être sélectionnée lorsque le contrôle porte sur la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d&#39;analyse.
 
-* **[!UICONTROL At the end of the analysis]**
+* **[!UICONTROL A la fin de l&#39;analyse]**
 
    Lorsqu&#39;un contrôle nécessite que la personnalisation des messages soit terminée, sélectionnez cette phase.
 
@@ -132,23 +132,23 @@ Les valeurs possibles sont les suivantes :
 
 ### Contrôle du trafic SMTP sortant {#control-outgoing-smtp-traffic}
 
-Vous pouvez également utiliser le **[!UICONTROL Managing affinities with IP addresses]** champ pour lier les livraisons au serveur de distribution (MTA) de cette affinité. Cela vous permet de limiter le nombre de courriers électroniques pour des livraisons spécifiques vers des ordinateurs ou des adresses de sortie.
+Vous pouvez utiliser le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour associer les diffusions au serveur de diffusions (MTA) qui gère l&#39;affinité en question. Ainsi, il est possible de limiter l&#39;envoi d&#39;emails pour des diffusions spécifiques, vers certaines machines ou adresses de sortie.
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
->Affinity management does not apply for **[!UICONTROL Filtering]** typologies.\
+>La gestion des affinités ne s&#39;applique pas pour les typologies de type **[!UICONTROL Filtrage]**.\
 >Les affinités sont définies directement dans le fichier de configuration de l&#39;instance, sur le serveur Adobe Campaign. Voir à ce sujet [cette section](../../installation/using/about-initial-configuration.md).
 
 ### Campaign Optimization et le Marketing Distribué {#campaign-optimization-and-distributed-marketing}
 
-L’ **[!UICONTROL Distributed Marketing]** onglet vous permet de définir le remappage des typologies et/ou des règles qui s’appliquent lorsqu’une campagne partagée est commandée et/ou réservée. Les typologies/règles définies pour une entité locale (liées à celles définies pour l&#39;entité centrale) remplacent les règles/typologies liées à l&#39;entité centrale. Le remappage permet d’adapter les règles d’entité centrale aux entités locales qui commandent la campagne.
+L&#39;onglet **[!UICONTROL Marketing Distribué]** permet de définir le paramétrage d&#39;une opération collaborative et les entités locales impliquées par cette opération lors de la commande de celle-ci. Les typologies/règles définies pour une entité locale (associées aux typologies/règles définies pour le central) remplacent les règles/typologies associées au central. Le remapping permet d&#39;adapter les règles du central aux règles des entités locales qui ont commandé l&#39;opération.
 
 ![](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
->In typologies and typology rules, the **[!UICONTROL Distributed Marketing]** tab is added if your license includes this option: please check you license agreement.\
+>Dans les typologies et règles de typologie, l&#39;onglet **[!UICONTROL Marketing Distribué]** est proposé si votre licence inclut cette option : vérifiez votre contrat de licence.\
 >Pour plus d’informations sur le marketing distribué, voir [A propos du marketing](../../campaign/using/about-distributed-marketing.md)distribué.
 
