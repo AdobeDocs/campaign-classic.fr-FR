@@ -24,11 +24,11 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Les points d&#39;extension (hooks) permettent de modifier le **comportement standard du moteur**.
 
-Les **[!UICONTROL Target loading]** crochets et **[!UICONTROL Proposition post-processing]** les crochets sont configurés, dans Adobe Campaign, dans l’espace d’offre :
+Les points d&#39;extension **[!UICONTROL Chargement de la cible]** et **[!UICONTROL Post-traitement des propositions]** sont configurés, dans Adobe Campaign, au niveau de l&#39;emplacement :
 
 ![](assets/interaction_hooks_1.png)
 
-The **[!UICONTROL Dynamic offer]** hook is configured with the offer weight in Adobe Campaign:
+Le point d&#39;extension **[!UICONTROL Offre dynamique]** est configuré, dans Adobe Campaign, au niveau du poids de l&#39;offre :
 
 ![](assets/interaction_hooks_2.png)
 
@@ -53,7 +53,7 @@ Les données collectées doivent être insérées dans le nœud des données d&#
 >
 >Le paramètre **xmlInteraction** contient à la fois les données d&#39;appel et le profil du contact qui a été chargé par la requête d&#39;usine.
 
-**Exemple:**
+**Exemple :**
 
 ```
 // Call an external system to get additional data for the target
@@ -98,7 +98,7 @@ Le post-traitement est exécuté après l&#39;application des règles de typolog
 * liste des propositions modifiée (premier paramètre du point d&#39;extension)
 * noeud Interaction modifié
 
-**Exemple:**
+**Exemple :**
 
 ```
 var aReturnedProps = [];
@@ -124,7 +124,7 @@ return aReturnedProps;
 
 Ce point d&#39;extension permet d&#39;appeler un moteur externe pour sélectionner une liste de produits associés à une offre. L&#39;exécution s&#39;effectue dans l&#39;offre après l&#39;application des règles d&#39;éligibilité, et avant l&#39;application des règles de typologie.
 
-Auparavant, l&#39;intégrateur devrait étendre les propositions **schéma PropositionRcp** avec les informations supplémentaires sur le produit. Pour spécifier l’emplacement de stockage de ces données, un **[!UICONTROL Proposition being processed]** lien est disponible dans l’ **[!UICONTROL Storage]** onglet de l’espace
+L&#39;intégrateur doit, au préalable, avoir étendu le schéma des propositions **PropositionRcp** avec les données additionnelles du produit qu&#39;il souhaite stocker avec la proposition. Pour définir le stockage de ces données (code produit, par exemple), un lien **[!UICONTROL Proposition en cours de traitement]** est disponible dans l&#39;onglet **[!UICONTROL Stockage]** de l&#39;emplacement.
 
 ![](assets/interaction_hooks_3.png)
 
@@ -147,7 +147,7 @@ Un tableau des propositions à générer est retourné. Chaque élément de ce 
 >
 >Le système vérifie que l&#39;identifiant de l&#39;offre est le même en entrée et en sortie.
 
-**Exemple:**
+**Exemple :**
 
 ```
 var product = getUrl("https://EXTERNAL_SYSTEM?offerCode=" + encodeURIComponent(xmlOffer.@code));
