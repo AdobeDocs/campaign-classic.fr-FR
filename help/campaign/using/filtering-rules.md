@@ -32,7 +32,7 @@ Vous pouvez par exemple filtrer les abonnés à vos newsletters afin de ne jamai
 
 Pour définir ce filtrage, les étapes sont les suivantes :
 
-1. Create a **[!UICONTROL Filtering]** typology rule applicable to all communication channels.
+1. Créez une règle de typologie de type **[!UICONTROL Filtrage]**, applicable à tous les canaux de communication.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
@@ -40,7 +40,7 @@ Pour définir ce filtrage, les étapes sont les suivantes :
 
    ![](assets/campaign_opt_create_filter_02.png)
 
-1. Créez le filtre à l’aide du **[!UICONTROL Edit the query from the targeting dimension...]** lien.
+1. Créez le filtre à partir du lien **[!UICONTROL Editer la requête à partir de la dimension de ciblage...]**.
 
    ![](assets/campaign_opt_create_filter_03.png)
 
@@ -56,7 +56,7 @@ Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont
 
 Vous pouvez restreindre le champ d&#39;application de la règle de filtrage en fonction de la diffusion ou de la composition de diffusion associée.
 
-To do this, go to the **[!UICONTROL General]** tab of the typology rule, select the type of restriction to apply and create the filter, as shown below:
+Pour cela, dans l&#39;onglet **[!UICONTROL Général]** de la règle de typologie, sélectionnez le type de restriction à appliquer et créez le filtre, comme ci-dessous :
 
 ![](assets/campaign_opt_create_filter_06.png)
 
@@ -64,19 +64,19 @@ Dans ce cas, même si la règle est associée à toutes les diffusions, elle ne 
 
 >[!NOTE]
 >
->Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. Voir à ce propos [cette section](../../workflow/using/delivery-outline.md).
+>Les typologies et les règles de filtrage peuvent être utilisées dans un workflow, dans l&#39;activité **[!UICONTROL Composition de diffusion]**. Voir à ce propos [cette section](../../workflow/using/delivery-outline.md).
 
 ## Créer et utiliser une typologie de filtrage {#creating-and-using-a-filtering-typology}
 
-You can create **[!UICONTROL Filtering]** typologies: they only contain filtering rules.
+Vous pouvez créer des typologies de **[!UICONTROL Filtrage]** : elles ne contiennent que des règles de filtrage.
 
 ![](assets/campaign_opt_create_typo_filtering.png)
 
-These specific typologies can be linked to a delivery when the target is selected: in the delivery wizard, click the **[!UICONTROL To]** link, then click the **[!UICONTROL Exclusions]** tab.
+Ces typologies spécifiques peuvent être associées à une diffusion lors du choix de la cible : dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Pour]**, puis sur l&#39;onglet **[!UICONTROL Exclusions]**.
 
 ![](assets/campaign_opt_apply_typo_filtering.png)
 
-Sélectionnez ensuite la typologie de filtrage à appliquer à la diffusion. Pour ce faire, cliquez sur le **[!UICONTROL Add]** bouton et sélectionnez les typologies à appliquer.
+Sélectionnez ensuite la ou les typologies de filtrage à appliquer à la diffusion. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionner la typologie à appliquer.
 
 Vous pouvez également associer directement des règles de filtrage depuis cet onglet, sans qu&#39;elles soient regroupées dans une typologie. Pour cela, utilisez la section inférieure de la fenêtre.
 
@@ -92,7 +92,7 @@ Vous pouvez également associer directement des règles de filtrage depuis cet o
 
 ## Règles d&#39;exclusion de délivrabilité par défaut {#default-deliverability-exclusion-rules}
 
-Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) et **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
+Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclusion des adresses]** (**[!UICONTROL addressExclusions]**) et **[!UICONTROL Exclusion des domaines]** (**[!UICONTROL domainExclusions]**). Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
 Ces règles d&#39;exclusion permettent d&#39;éviter tout blacklistage lié à une activité malveillante, notamment l&#39;utilisation d&#39;un spam trap (piège à spam). Si un spam trap est par exemple utilisé pour s&#39;abonner par le biais de l&#39;un de vos formulaires web, un email de confirmation lui est automatiquement envoyé. Votre adresse est alors automatiquement blacklistée.
 
