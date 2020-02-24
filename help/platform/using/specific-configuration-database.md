@@ -169,33 +169,32 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
    /etc/init.d/nlserver6 stop
    /etc/init.d/nlserver6 start
    ```
+1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
 
-1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
 
-1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
+1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** prêt à l’emploi.
 
-1. Sélectionnez le compte **[!UICONTROL Snowflake]** externe prêt à l’emploi.
+1. Pour configurer le compte externe **[!UICONTROL Snowflake]** :
 
-1. To configure the **[!UICONTROL Snowflake]** external account:
-
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Serveur]**
 
       URL du serveur Snowflake.
 
-   * **[!UICONTROL Account]**
+   * **[!UICONTROL Compte]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Password]**
+   * **[!UICONTROL Mot de passe]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Database]**
+   * **[!UICONTROL Base de données]**
 
       Nom de votre base de données.
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy function]** bouton pour créer des fonctions.
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
@@ -227,32 +226,32 @@ Le connecteur prend en charge les options suivantes :
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
 
-1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
+1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
 
-1. Sélectionnez le compte **[!UICONTROL Snowflake]** externe prêt à l’emploi.
+1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** prêt à l’emploi.
 
-1. To configure the **[!UICONTROL Snowflake]** external account:
+1. Pour configurer le compte externe **[!UICONTROL Snowflake]** :
 
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Serveur]**
 
       URL du serveur Snowflake.
 
-   * **[!UICONTROL Account]**
+   * **[!UICONTROL Compte]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Password]**
+   * **[!UICONTROL Mot de passe]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Database]**
+   * **[!UICONTROL Base de données]**
 
       Nom de votre base de données
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy function]** bouton pour créer des fonctions.
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
@@ -272,32 +271,32 @@ Le connecteur prend en charge les options suivantes :
 
 1. Configurez le pilote ODBC. Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. Une fois le pilote ODBC installé et configuré, vous devez configurer votre compte externe Snowflake dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+1. Une fois le pilote ODBC installé et configuré, vous devez configurer votre compte externe Snowflake dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
 
-1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
+1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
 
-1. Sélectionnez le compte **[!UICONTROL Snowflake]** externe prêt à l’emploi.
+1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** prêt à l’emploi.
 
-1. To configure the **[!UICONTROL Snowflake]** external account:
+1. Pour configurer le compte externe **[!UICONTROL Snowflake]** :
 
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Serveur]**
 
       URL du serveur Snowflake.
 
-   * **[!UICONTROL Account]**
+   * **[!UICONTROL Compte]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Password]**
+   * **[!UICONTROL Mot de passe]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Database]**
+   * **[!UICONTROL Base de données]**
 
       Nom de votre base de données
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy function]** bouton pour créer des fonctions.
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
@@ -326,31 +325,31 @@ La connexion à une base de données externe Hadoop dans FDA requiert les config
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, configurez votre compte externe Hadoop dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
+1. Dans Campaign Classic, configurez votre compte externe Hadoop dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
 
-1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
+1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
 
-1. Cliquez sur **[!UICONTROL Create]** et sélectionnez **[!UICONTROL External database]** le type de compte.
+1. Cliquez sur **[!UICONTROL Créer]** et sélectionnez Base de données **** externe comme type de compte.
 
-1. To configure the **[!UICONTROL  Hadoop]** external account:
+1. Pour configurer le compte externe **[!UICONTROL Hadoop]** :
 
    * **[!UICONTROL Type]**
 
       ODBC (Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Server]**
+   * **[!UICONTROL Serveur]**
 
       Nom du DNS.
 
-   * **[!UICONTROL Account]**
+   * **[!UICONTROL Compte]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Password]**
+   * **[!UICONTROL Mot de passe]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Database]**
+   * **[!UICONTROL Base de données]**
 
       Nom de votre base de données s’il n’est pas spécifié dans DSN. Il peut rester vide s’il est spécifié dans le DSN.
 
