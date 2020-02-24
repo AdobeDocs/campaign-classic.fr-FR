@@ -26,7 +26,7 @@ Les agrégateurs permettent d&#39;enrichir le contenu avec des données externes
 
 ## Requêtes génériques {#generic-queries}
 
-Queries are configured via the publication template in the **[!UICONTROL Aggregator]** tab.
+Les requêtes sont paramétrées à partir du modèle de publication dans l&#39;onglet **[!UICONTROL Agrégateur]**.
 
 Les données récupérées vont enrichir le document XML en sortie à partir de son élément principal.
 
@@ -107,7 +107,7 @@ Dans le formulaire de saisie, le contrôle d&#39;édition du lien est déclaré 
 
 ![](assets/d_ncs_content_link.png)
 
-The **[!UICONTROL Magnifier]** icon enables you to open the edit form of the linked element.
+L&#39;icône **[!UICONTROL Loupe]** permet de lancer le formulaire d&#39;édition de l&#39;élément lié.
 
 #### Collection de liens {#link-collection}
 
@@ -262,7 +262,7 @@ Le résultat obtenu après exécution du script :
 <contact id="11504982510" lastName="Martinez" recipient-cs="Martinez Peter (peter.martinez@adobe.com)" recipient-id="3013"/> 
 ```
 
-The content of the JavaScript code is added via the **[!UICONTROL Administration > Configuration > Content management > JavaScript Codes]** folder and must be populated in the publication template for each transformation.
+Le contenu du code JavaScript est ajouté à partir du dossier **[!UICONTROL Administration > Paramétrage > Gestion de contenu > Codes JavaScript]** et doit être renseigné dans le modèle de publication pour chaque transformation.
 
 ![](assets/d_ncs_content_link5.png)
 
