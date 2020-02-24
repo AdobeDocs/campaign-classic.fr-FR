@@ -44,7 +44,7 @@ L&#39;activité de composition de diffusion, disponible dans les workflows de ca
 1. Complétez les champs disponibles en fonction de votre diffusion.
 1. Deux cas se présentent :
 
-   * Si vous souhaitez appeler le moteur d’offre, cochez la **[!UICONTROL Restrict the number of propositions selected]** case. Spécifiez l’espace d’offre et le nombre de propositions qui seront présentées dans la diffusion.
+   * Si vous souhaitez appeler le moteur d&#39;offres, cochez la case **[!UICONTROL Limiter le nombre de propositions sélectionnées]**. Définissez l&#39;emplacement et le nombre d&#39;offres qui seront présentées dans la diffusion.
 
       Les poids et règles d&#39;éligibilité des offres seront pris en compte par le moteur d&#39;offres.
 
