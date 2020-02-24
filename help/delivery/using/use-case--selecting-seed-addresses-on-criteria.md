@@ -22,7 +22,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 # Cas pratique : sélection des adresses de contrôle selon des critères{#use-case-selecting-seed-addresses-on-criteria}
 
-In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic condition...]** link lets you choose seed addresses based on specific selection criteria.
+Le lien **[!UICONTROL Editer la condition dynamique...]** permet, dans le cadre d&#39;une diffusion ou d&#39;une opération, de choisir des adresses de contrôle en fonction de critères de sélection spécifiques.
 
 Dans ce cas pratique, le site **Ma librairie en ligne** souhaite personnaliser ses newsletters en fonction des goûts littéraires de ses clients.
 
@@ -51,16 +51,16 @@ Pour créer une valeur commune comme celle utilisée dans notre exemple (Service
 
 Pour plus de détails sur les extensions de schéma, voir [le guide Configuration ](../../configuration/using/data-schemas.md).
 
-1. Dans le **[!UICONTROL Administration > Configuration > Data schemas]** noeud, cliquez sur l’ **[!UICONTROL New]** icône.
-1. Dans la **[!UICONTROL Creation of a data schema]** fenêtre, sélectionnez l’ **[!UICONTROL Extension of a schema]** option et cliquez sur **[!UICONTROL Next]**.
+1. Dans le noeud **[!UICONTROL Administration > Paramétrage > Schémas de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
+1. Dans la fenêtre **[!UICONTROL Création d&#39;un schéma de données]** sélectionnez l&#39;option **[!UICONTROL Extension d&#39;un schéma]** et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/dlv_seeds_usecase_09.png)
 
-1. Sélectionnez le schéma **[!UICONTROL Seed addresses]** source, saisissez **doc** comme **[!UICONTROL Namespace]** document et cliquez sur **[!UICONTROL Ok]**.
+1. Choisissez le schéma source **[!UICONTROL Adresses de contrôle]**, choisissez **doc** comme **[!UICONTROL espace de nommage]** et cliquez sur **[!UICONTROL Ok]**.
 
    ![](assets/dlv_seeds_usecase_10.png)
 
-1. Clics **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Dans la fenêtre d&#39;édition du schéma, copiez les lignes ci-dessous à l&#39;emplacement indiqué dans la capture d&#39;écran :
 
    ```
@@ -74,7 +74,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
    ![](assets/dlv_seeds_usecase_20.png)
 
-   Copiez ensuite les lignes suivantes et collez-les sous l’ **[!UICONTROL Seed to insert in the export files]** élément.
+   Copiez ensuite les lignes suivantes sous l&#39;élément **[!UICONTROL Adresse de contrôle à insérer dans les fichiers d&#39;export]** :
 
    ```
        <element aggregate="doc:seedMember:common">
@@ -83,18 +83,18 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
    ![](assets/dlv_seeds_usecase_29.png)
 
-   In this case, you are specifying that a new enumeration named **[!UICONTROL Department]** has been created in the seed address table, and it is based on the standard **[!UICONTROL @company]** enumeration template (labeled under the name **Company** in the seed address form).
+   De ce fait, vous spécifiez la création d&#39;une nouvelle énumération dans la table des adresses de contrôle nommée **[!UICONTROL Service]** et basée sur le modèle de l&#39;énumération standard **[!UICONTROL @company]** (labellisée sous le nom **Société** dans le formulaire des adresses de contrôle).
 
-1. Clics **[!UICONTROL Save]**.
-1. Dans le **[!UICONTROL Tools > Advanced]** menu, sélectionnez l’ **[!UICONTROL Update database structure]** option.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans le menu **[!UICONTROL Outils > Avancé]**, sélectionnez l&#39;option **[!UICONTROL Mise à jour de la structure de la base]**.
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. When the update wizard is displayed, click the **[!UICONTROL Next]** button to access the Edit tables window: changes carried out in the seed address data schema require a structure update.
+1. Lorsque l&#39;assistant de mise à jour s&#39;affiche, cliquez sur le bouton **[!UICONTROL Suivant]** pour accéder à l&#39;édition des tables : les changements effectués dans le schéma de données des adresses de contrôle nécessitent une mise à jour de la structure.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. Suivez l’assistant jusqu’à ce que vous arriviez à la page pour exécuter la mise à jour. Cliquez sur le **[!UICONTROL Start]** bouton.
+1. Suivez l&#39;assistant pour afficher la page de lancement de la mise à jour. Cliquez sur le bouton **[!UICONTROL Démarrer]**.
 
    ![](assets/dlv_seeds_usecase_14.png)
 
@@ -106,7 +106,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
 Le schéma de données des adresses de contrôle peut reprendre des valeurs provenant d&#39;une table liée au schéma de données des destinataires.
 
-For example, the user would like to integrate the **[!UICONTROL Internet Extension]** found in the **[!UICONTROL Country]** table that is linked to the recipients schema.
+Par exemple, l&#39;utilisateur souhaite intégrer l&#39;**[!UICONTROL Extension Internet]** disponible dans la table **[!UICONTROL Pays]** qui est liée au schéma des destinataires.
 
 ![](assets/dlv_seeds_usecase_06.png)
 
@@ -123,7 +123,7 @@ Il doit donc étendre le schéma de données des adresses de contrôle comme pr�
 
 Elles indiquent :
 
-* that the user wants to create a new element named **[!UICONTROL Internet Extension]**,
+* que l&#39;utilisateur souhaite créer un nouvel élément nommé **[!UICONTROL Extension Internet]**,
 * que cet élément provient de la table **[!UICONTROL Country]**.
 
 >[!CAUTION]
@@ -134,13 +134,13 @@ Elles indiquent :
 
 ![](assets/dlv_seeds_usecase_07.png)
 
-The user can then follow from **step 5** of the section, and update the **[!UICONTROL Input form]** of the seed addresses.
+L&#39;utilisateur peut ensuite reprendre la section  à partir de l&#39;**étape 5** et mettre à jour le **[!UICONTROL Formulaire de saisie]** des adresses de contrôle.
 
 Reportez-vous à la section [Mise à jour du formulaire](#updating-the-input-form) d’entrée.
 
 #### Mettre à jour le formulaire de saisie {#updating-the-input-form}
 
-1. Dans le **[!UICONTROL Administration > Configuration > Input forms]** noeud, recherchez le formulaire d’entrée des adresses de départ.
+1. Dans le noeud **[!UICONTROL Administration > Paramétrage > Formulaire de saisie]**, recherchez le formulaire des adresses de contrôle.
 
    ![](assets/dlv_seeds_usecase_19.png)
 
@@ -153,11 +153,11 @@ Reportez-vous à la section [Mise à jour du formulaire](#updating-the-input-for
    ![](assets/dlv_seeds_usecase_21.png)
 
 1. Enregistrez vos modifications.
-1. Ouvrez une adresse de départ. Le **[!UICONTROL Department]** champ apparaît dans le **[!UICONTROL Recipient]** tableau.
+1. Ouvrez une adresse de contrôle. Le champ **[!UICONTROL Service]** apparaît dans la table **[!UICONTROL Destinataire]**.
 
    ![](assets/dlv_seeds_usecase_22.png)
 
-1. Edit the seed addresses that you want to use for the delivery and enter **Purchasing** as the value in the **[!UICONTROL Department]** field.
+1. Editez les adresses de contrôle que vous souhaitez utiliser pour la diffusion et saisissez la valeur **Achat** dans le champ **[!UICONTROL Service]**.
 
 ## Etape 3 - Définir la condition {#step-3---defining-the-condition}
 
@@ -167,11 +167,11 @@ Vous pouvez maintenant définir la condition dynamique de sélection des adresse
 
    ![](assets/dlv_seeds_usecase_01.png)
 
-1. Cliquez sur le **[!UICONTROL To]** lien, puis sur l’ **[!UICONTROL Seed addresses]** onglet pour accéder au **[!UICONTROL Edit the dynamic condition...]** lien.
+1. Cliquez sur le lien **[!UICONTROL Pour]** puis sur l&#39;onglet **[!UICONTROL Adresses de contrôle]** afin d&#39;accéder au lien **[!UICONTROL Editer la condition dynamique]**.
 
    ![](assets/dlv_seeds_usecase_02.png)
 
-1. Sélectionnez l’expression qui vous permet de choisir les adresses de départ souhaitées. L’utilisateur sélectionne ici l’ **[!UICONTROL Department (@workField)]** expression.
+1. Choisissez l&#39;expression qui vous permet de sélectionner les adresses de contrôle désirées. Ici l&#39;utilisateur sélectionne l&#39;expression **[!UICONTROL Service (@workField)]**.
 
    ![](assets/dlv_seeds_usecase_03.png)
 
@@ -183,20 +183,20 @@ Vous pouvez maintenant définir la condition dynamique de sélection des adresse
    >
    >L&#39;extension de schéma créée plus tôt provient du schéma **recipient**. Les valeurs affichées dans l&#39;écran ci-dessus viennent d&#39;une énumération du schéma **recipient**.
 
-1. Clics **[!UICONTROL Ok]**.
+1. Cliquez sur **[!UICONTROL Ok]**.
 
-   The query is displayed in the **[!UICONTROL Select target]** window.
+   La requête s&#39;affiche dans la fenêtre **[!UICONTROL Choix de la cible]**.
 
    ![](assets/dlv_seeds_usecase_04.png)
 
 1. Cliquez sur **[!UICONTROL Ok]** pour valider la requête.
-1. Analyze your delivery then click on the **[!UICONTROL Delivery]** tab to access the delivery logs.
+1. Analysez votre diffusion puis cliquez sur l&#39;onglet **[!UICONTROL Diffusion]** pour accéder aux logs de diffusion.
 
    Les adresses de contrôle du service des achats sont affichées comme étant en attente de l&#39;envoi de la difusion, comme celles des destinataires ou des autres adresses de contrôle.
 
    ![](assets/dlv_seeds_usecase_05.png)
 
-1. Click the **[!UICONTROL Send]** button to start the delivery.
+1. Cliquez sur le bouton **[!UICONTROL Envoyer]** pour démarrer votre diffusion.
 
    Les membres du service des achats qui font partie de vos adresses de contrôle recevront la diffusion dans leur boîte email.
 
