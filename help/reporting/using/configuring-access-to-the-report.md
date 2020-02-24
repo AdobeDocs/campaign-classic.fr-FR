@@ -24,21 +24,21 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## Contexte d&#39;affichage des rapports {#report-display-context}
 
-Définissez le contexte d’affichage du rapport dans la plateforme Adobe Campaign à l’aide de l’ **[!UICONTROL Display]** onglet. L’accès à un rapport dépend du type de sélection, des conditions d’affichage et des autorisations d’accès.
+Définissez le contexte d&#39;affichage du rapport dans la plateforme Adobe Campaign à partir de l&#39;onglet **[!UICONTROL Affichage]**. L&#39;accès à un rapport dépend de son type de sélection, de ses conditions d&#39;affichage et des autorisations d&#39;accès.
 
 ### Type de sélection {#selection-type}
 
-L’accès au rapport peut être limité à un contexte spécifique ou à un espace d’offre, par exemple une remise, un destinataire, une sélection de destinataires, etc. Cet accès est configuré dans la **[!UICONTROL Selection type]** section de l’ **[!UICONTROL Display]** onglet.
+L&#39;accès au rapport peut être limité à un contexte, ou emplacement, spécifique, par exemple une diffusion, un destinataire, une sélection de destinataires, etc. Cet accès est paramétré dans la section **[!UICONTROL Type de sélection]** de l&#39;onglet **[!UICONTROL Affichage]**.
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
-* **[!UICONTROL Single selection]** : le rapport n&#39;est accessible que lorsqu&#39;une entité spécifique est sélectionnée.
-* **[!UICONTROL Multiple selection]** : le rapport est accessible lorsque plusieurs entités sont sélectionnées.
+* **[!UICONTROL Mono-sélection]** : le rapport n&#39;est accessible que lorsqu&#39;on sélectionne une entité particulière.
+* **[!UICONTROL Multi-sélection]** : le rapport est accessible lorsque plusieurs entités sont sélectionnées.
 * **[!UICONTROL Global]** : le rapport est accessible depuis la liste des rapports disponibles dans l&#39;univers Rapport.
 
 ### Ordre d&#39;affichage {#display-sequence}
 
-The **[!UICONTROL Sequence]** field lets you enter a numeric value that specifies the display sequence of the report in the list.
+Le champ **[!UICONTROL Ordre]** permet de saisir une valeur numérique qui spécifie l&#39;ordre d&#39;affichage du rapport dans la liste.
 
 Par défaut, les rapports sont affichés par pertinence : la valeur saisie dans ce champ permet de trier les rapports, du plus pertinent (valeur la plus grande), au moins pertinent (valeur la plus petite).
 
@@ -60,7 +60,7 @@ Donc si le canal principal de l&#39;opération est le canal courrier, le rapport
 
 Le rapport peut être partagé ou non avec d&#39;autres opérateurs.
 
-Pour rendre le rapport accessible, sélectionnez l’ **[!UICONTROL Report shared with other operators]** option. Si cette option n’est pas sélectionnée, seul l’opérateur qui a créé le rapport peut accéder au rapport.
+Pour rendre le rapport accessible, sélectionnez l&#39;option **[!UICONTROL Rapport partagé avec les autres opérateurs]**. Si cette option n&#39;est pas sélectionnée, seul l&#39;opérateur qui a créé le rapport peut accéder au rapport.
 
 Le rapport peut également être partagé avec des opérateurs ou des groupes d&#39;opérateurs spécifiques qui sont ajoutés dans la fenêtre des autorisations.
 
@@ -68,7 +68,7 @@ Le rapport peut également être partagé avec des opérateurs ou des groupes d&
 
 ### Définir les options de filtrage {#defining-the-filtering-options}
 
-The **[!UICONTROL Reports]** universe displays all available reports in the platform and for which the connected operator has an access right.
+L&#39;univers **[!UICONTROL Rapports]** affiche tous les rapports disponibles dans la plateforme, et pour lesquels l&#39;opérateur connecté a un droit d&#39;accès.
 
 Par défaut, ils sont triés par pertinence mais vous pouvez appliquer d&#39;autres types de filtres : alphabétique, par ancienneté, etc.
 
@@ -76,7 +76,7 @@ Vous pouvez également filtrer l&#39;affichage selon la catégorie du rapport :
 
 ![](assets/report_ovv_select_type.png)
 
-To define the category of a report, select it via the **[!UICONTROL Display]** tab, as shown below:
+Pour définir la catégorie d&#39;un rapport, sélectionnez-la à partir de l&#39;onglet **[!UICONTROL Affichage]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/report_select_category.png)
 
@@ -88,7 +88,7 @@ Vous pouvez faire en sorte qu&#39;un rapport soit accessible depuis un noeud sp�
 
 A titre d&#39;exemple, nous allons créer un lien vers un rapport afin qu&#39;il soit accessible depuis une liste de destinataires.
 
-1. Cliquez sur **[!UICONTROL New]** puis sélectionnez **[!UICONTROL Create a link to an existing report]** dans l’assistant de création de rapports.
+1. Cliquez sur **[!UICONTROL Nouveau]** et choisissez **[!UICONTROL Créer un lien vers un rapport existant]** dans l&#39;assistant de création de rapport.
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -108,19 +108,19 @@ A titre d&#39;exemple, nous allons créer un lien vers un rapport afin qu&#39;il
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 
 1. Publiez votre rapport.
-1. Go to one of your recipient lists and click the **[!UICONTROL Reports]** link: the report you have just created is accessible.
+1. Positionnez-vous dans une de vos listes de destinataires et cliquez sur le lien **[!UICONTROL Rapports]** : le rapport que vous venez de créer est alors accessible.
 
    ![](assets/s_ncs_advuser_report_wizard_link_05.png)
 
 ## Aperçu du rapport {#preview-of-the-report}
 
-Before publishing your report, make sure it is displayed correctly in the **[!UICONTROL Preview]** tab.
+Avant de publier votre rapport, vérifiez qu&#39;il s&#39;affiche correctement dans l&#39;onglet **[!UICONTROL Prévisualisation]**.
 
 ![](assets/s_ncs_advuser_report_preview_01.png)
 
-To display the preview of the report, select the **[!UICONTROL Global]** or the **[!UICONTROL Selection]** option.
+Pour afficher l&#39;aperçu du rapport, sélectionnez l&#39;option **[!UICONTROL Global]** ou **[!UICONTROL Sélection]**.
 
-Ces deux options sont sélectionnées en fonction des paramètres d’affichage du rapport. Si le paramètre d’affichage est défini **[!UICONTROL Global]**, vous devez sélectionner l’option **[!UICONTROL Global]** Aperçu. Si les paramètres d’affichage sont **[!UICONTROL Single selection]** ou **[!UICONTROL Multiple selection]**, l’option **[!UICONTROL Selection]** d’aperçu doit être sélectionnée.
+Vous devrez choisir entre ses deux options en fonction des paramètres d&#39;affichage du rapport. Si le paramètre d&#39;affichage choisi est **[!UICONTROL Global]**, vous devrez sélectionner l&#39;option d&#39;aperçu **[!UICONTROL Global]**. Si les paramètres d&#39;affichage sont **[!UICONTROL Mono-sélection]** ou **[!UICONTROL Multi-sélection]**, l&#39;option d&#39;aperçu **[!UICONTROL Sélection]** doit être sélectionné.
 
 Pour plus d&#39;informations sur ce sujet, reportez-vous au contexte [d&#39;affichage des](#report-display-context)rapports.
 
@@ -132,13 +132,13 @@ Pour plus d&#39;informations sur ces paramètres, consultez la section **Défini
 
 La publication du rapport est obligatoire pour le partager avec d’autres opérateurs et l’afficher dans la liste des rapports disponibles (reportez-vous également au contexte [d’affichage des](#report-display-context)rapports). Cette opération doit être exécutée à nouveau chaque fois que le rapport est modifié.
 
-1. Open the publishing wizard by clicking **[!UICONTROL Publish]** in the toolbar.
+1. Ouvrez l&#39;assistant de publication en cliquant sur **[!UICONTROL Publier]** dans la barre d&#39;outils.
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 
-1. Cliquez sur **[!UICONTROL Start]** pour publier.
+1. Cliquez sur **[!UICONTROL Démarrer]** pour lancer la publication.
 
    ![](assets/s_ncs_advuser_report_publish_02.png)
 
-1. Click the **[!UICONTROL Enlarge]** icon to open the report in a web browser.
+1. Le rapport est alors disponible pour dans l&#39;univers **[!UICONTROL Rapports]**.
 
