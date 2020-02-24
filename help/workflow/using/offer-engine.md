@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Moteur d&#39;offres{#offer-engine}
 
-The **[!UICONTROL Offer engine]** activity lets you define a call to the offer engine prior to a delivery.
+L&#39;activité **[!UICONTROL Moteur d&#39;offres]** vous permet de définir un appel au moteur d&#39;offres en amont d&#39;une diffusion.
 
 Cette activité fonctionne sur le même principe que l&#39;activité d&#39;enrichissement avec un appel au moteur, en enrichissant les données de la population entrante avec une offre calculée par le moteur, avant une diffusion.
 
@@ -30,7 +30,7 @@ Cette activité fonctionne sur le même principe que l&#39;activité d&#39;enric
 
 Après avoir paramétré votre requête (voir cette [section](../../workflow/using/query.md)) :
 
-1. Add and open an **[!UICONTROL Offer engine]** activity.
+1. Placez et ouvrez une activité **[!UICONTROL Moteur d&#39;offres]**.
 1. Renseignez les différents champs disponibles afin de définir les paramètres d&#39;appel au moteur (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres.
 
    >[!CAUTION]
