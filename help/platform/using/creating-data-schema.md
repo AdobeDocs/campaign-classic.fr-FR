@@ -24,7 +24,7 @@ source-git-commit: 9a26ec7ed1c8463270ac9f97079f49e00d5b258e
 
 Pour créer un schéma sur une base de données externe :
 
-1. Cliquez sur le **[!UICONTROL New]** bouton au-dessus de la liste des schémas de données et choisissez **[!UICONTROL Access external data]**.
+1. Cliquez sur le bouton **[!UICONTROL Nouveau]** au-dessus de la liste des schémas de données et choisissez **[!UICONTROL Accéder aux données]** externes.
 
    ![](assets/wf_new_schema_fda.png)
 
@@ -32,9 +32,9 @@ Pour créer un schéma sur une base de données externe :
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. Cliquez sur **[!UICONTROL OK]** pour confirmer. Adobe Campaign détecte automatiquement la structure du tableau sélectionné et génère le schéma logique. Notez qu’Adobe Campaign ne génère pas de liens.
+1. Cliquez sur **[!UICONTROL Ok]** pour valider. Adobe Campaign détecte automatiquement la structure de la table sélectionnée et génère le schéma logique. Notez qu’Adobe Campaign ne génère pas de liens.
 
-1. Click **[!UICONTROL Save]** to confirm creation.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour en valider la création.
 
    >[!CAUTION]
    >
