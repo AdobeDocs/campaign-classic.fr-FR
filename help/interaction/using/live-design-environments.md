@@ -26,14 +26,14 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Interaction fonctionne avec deux types d&#39;environnements d&#39;offres :
 
-* **[!UICONTROL Design]** environnements d’offres qui incluent des offres en cours de modification et qui peuvent être modifiées. Ces offres ne sont pas passées par le cycle d’approbation et ne sont pas diffusées aux contacts.
-* **[!UICONTROL Live]** environnements d’offres qui incluent des offres approuvées lorsqu’elles sont présentées à des contacts. Les offres de cet environnement sont en lecture seule.
+* des environnements d&#39;offres **[!UICONTROL En édition]**, dans lesquels les offres sont en cours de création et peuvent être modifiées. Ces offres ne sont pas encore passées par un cycle de validation et ne sont donc pas diffusées aux contacts.
+* des environnements d&#39;offres **[!UICONTROL En ligne]** qui contiennent les offres validées, telles qu&#39;elles sont présentées aux contacts. Les offres contenues dans ces environnements sont en lecture seule.
 
 ![](assets/offer_environments_overview_001.png)
 
-Chaque **[!UICONTROL Design]** environnement est lié à un **[!UICONTROL Live]** environnement. Lorsqu’une offre est terminée, son contenu et ses règles d’éligibilité sont soumis à un cycle d’approbation. Une fois ce cycle terminé, l’offre concernée est automatiquement déployée dans l’ **[!UICONTROL Live]** environnement. À partir de ce moment, il sera disponible pour livraison.
+Chaque environnement **[!UICONTROL En édition]** est associé à un environnement **[!UICONTROL En ligne]**. Lorsqu&#39;une offre est finalisée, son contenu et ses règles d&#39;éligibilité passent par un cycle de validation. Lorsque le cycle de validation est complet, l&#39;offre concernée est automatiquement déployée dans l&#39;environnement **[!UICONTROL En ligne]**. Dès lors, elle est disponible pour être diffusée.
 
-Par défaut, l’interaction s’accompagne d’un **[!UICONTROL Design]** environnement et d’un **[!UICONTROL Live]** environnement qui lui sont associés. Les deux environnements sont préconfigurés pour cibler le tableau des destinataires prêts à l’emploi.
+Par défaut, Interaction est livré avec un environnement **[!UICONTROL En édition]** et l&#39;environnement **[!UICONTROL En ligne]** qui lui est associé. Les deux environnements sont pré-paramétrés pour cibler la table des destinataires livrée d&#39;usine.
 
 >[!NOTE]
 >
@@ -41,17 +41,17 @@ Par défaut, l’interaction s’accompagne d’un **[!UICONTROL Design]** envir
 
 ![](assets/offer_environments_overview_002.png)
 
-Les gestionnaires des offres et les responsables de la prestation ont accès à différentes vues de l’environnement. Les responsables de prestation peuvent uniquement afficher l’environnement des **[!UICONTROL Live]** offres et utiliser les offres pour les diffuser. Les gestionnaires d’offres peuvent afficher et modifier l’ **[!UICONTROL Design]** environnement et afficher l’ **[!UICONTROL Live]** environnement. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
+Offer managers and the delivery managers have access to different views of the environment. Delivery managers can only view the **[!UICONTROL Live]** offer environment and use offers to deliver them. Offer managers can view and alter the **[!UICONTROL Design]** environment and view the **[!UICONTROL Live]** environment. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
 
 ## Créer un environnement d&#39;offres {#creating-an-offer-environment}
 
 Par défaut, Interaction est livré avec un environnement pré-paramétré pour cibler la table des destinataires (offres identifiées). Si vous souhaitez cibler une autre table (table des visiteurs pour les offres anonymes ou table de destinataires spécifique), vous devez effectuer le paramétrage suivant :
 
-1. Placez votre curseur sur le noeud **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Delivery mappings]** . Cliquez avec le bouton droit sur le mappage de remise à utiliser (**[!UICONTROL Visitors]** si vous souhaitez utiliser des offres anonymes) et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
+1. Positionnez-vous sur le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**. Cliquez avec le bouton droit sur le mapping de ciblage que vous souhaitez utiliser (**[!UICONTROL Visiteurs]** si vous souhaitez utiliser les offres anonymes) et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Modifier les options de la dimension de ciblage]**.
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. Cliquez **[!UICONTROL Next]** pour passer à l’écran suivant de l’assistant, cochez la **[!UICONTROL Generate a storage schema for propositions]** case et cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Suivant]** pour accéder au second écran de l&#39;assistant, cochez la case **[!UICONTROL Générer un schéma de stockage pour les propositions]**, et cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/offer_env_anonymous_002.png)
 
@@ -59,9 +59,9 @@ Par défaut, Interaction est livré avec un environnement pré-paramétré pour 
    >
    >Si la case était déjà cochée, décochez-la puis recochez-la.
 
-1. Adobe Campaign crée deux environnements (**[!UICONTROL Design]** et **[!UICONTROL Live]** ) avec des informations de ciblage issues du mappage de cible précédemment activé. L’environnement est préconfiguré avec les informations de ciblage.
+1. Adobe Campaign crée les deux environnements (**[!UICONTROL En édition]** et **[!UICONTROL En ligne]**) correspondant au mapping de ciblage activé précédemment. L&#39;environnement est pré-paramétré avec les informations de ciblage.
 
-   Si vous avez activé **[!UICONTROL Visitor]** le mappage, la **[!UICONTROL Environment dedicated to incoming anonymous interactions]** case est automatiquement cochée dans l’ **[!UICONTROL General]** onglet de l’environnement.
+   Si vous avez activé le mapping **[!UICONTROL Visiteurs]**, la case **[!UICONTROL Environnement dédié aux interactions anonymes entrantes]** est automatiquement cochée dans l&#39;onglet **[!UICONTROL Général]** de l&#39;environnement.
 
    Cette option permet d&#39;activer les fonctions spécifiques aux interactions anonymes, notamment dans le paramétrage des emplacements de l&#39;environnement. Vous pourrez ainsi paramétrer des options permettant de basculer d&#39;un environnement &quot;identifié&quot; à un environnement &quot;anonyme&quot;.
 
