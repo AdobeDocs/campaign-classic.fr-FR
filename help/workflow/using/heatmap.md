@@ -58,11 +58,11 @@ Notez que le transfert de vos données est uniquement disponible pour les utilis
 
 Trois options sont disponibles :
 
-* **[!UICONTROL Accept]** : En acceptant cet accord, vous autorisez Adobe Campaign à collecter vos données et à les transférer aux États-Unis afin de pouvoir vous aider en cas de détection d’anomalies.
-* **[!UICONTROL Refuse]** : En refusant le contrat, vos données ne seront pas transférées, mais vous pouvez toujours utiliser Workflow Heatmap.
-* **[!UICONTROL Do not show this message again]** : En cliquant sur **[!UICONTROL Do not show this message again]** , la fenêtre contextuelle ne s’affichera plus lors de l’accès au plan de chauffage du flux de travail, mais elle est toujours disponible à partir du **[!UICONTROL Term of use]** bouton.
+* **[!UICONTROL Accepter]** : en acceptant cet accord, vous autorisez Adobe Campaign à collecter vos données et à les transférer aux États-Unis afin de vous aider si des anomalies sont détectées.
+* **[!UICONTROL Refuser]** : si vous refusez l’accord, vos données ne seront pas transférées, mais vous pourrez continuer à utiliser la carte thermique des workflows.
+* **[!UICONTROL Ne plus afficher ce message]** : si vous cliquez sur **[!UICONTROL Ne plus afficher ce message]**, la fenêtre contextuelle n’apparaîtra plus lorsque vous accéderez à la carte thermique des workflows, mais elle restera accessible au moyen du bouton **[!UICONTROL Conditions d’utilisation]**.
 
-This choice is not final, you can always change it by clicking the **[!UICONTROL Term of use]** button.
+Ce choix n’est pas définitif, vous pouvez toujours le modifier en cliquant sur le bouton **[!UICONTROL Conditions d’utilisation]**.
 
 ## Utilisation de la carte thermique {#using-the-heatmap}
 
@@ -70,7 +70,7 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 >
 >Seuls les utilisateurs disposant de droits d&#39;administration peuvent accéder à la Carte thermique des workflows Campaign.
 
-1. Accédez à **[!UICONTROL Monitoring]** et cliquez sur le **[!UICONTROL Workflow HeatMap]** lien pour afficher la **[!UICONTROL Campaign Workflow HeatMap]** page.
+1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 
    ![](assets/wkf_monitoring_path.png)
 
@@ -80,10 +80,10 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 
    >[!NOTE]
    >
-   >Seuls les processus qui n’ont pas été supprimés par le **[!UICONTROL Database cleanup]** processus sont visibles. For more on the Database cleanup workflow, refer to [this section](../../production/using/database-cleanup-workflow.md).\
+   >Seuls les workflows qui n&#39;ont pas été supprimés par le workflow **[!UICONTROL Nettoyage de la base]** sont visibles. Pour plus d&#39;informations sur le workflow Nettoyage de la base, consultez [cette section](../../production/using/database-cleanup-workflow.md).\
    >Par défaut, le fuseau horaire de la carte thermique des workflows est celui défini pour l&#39;utilisateur administrateur actuel. Vous pouvez vouloir le changer si, par exemple, vous ne vous trouvez pas dans la même zone géographique que les utilisateurs marketing avec lesquels vous travaillez.
 
-1. Cliquez sur le **[!UICONTROL Filters]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Filtres]**.
 
    ![](assets/wkf_monitoring_filters.png)
 
@@ -97,18 +97,18 @@ This choice is not final, you can always change it by clicking the **[!UICONTROL
 
    >[!NOTE]
    >
-   >Le **[!UICONTROL Min duration]** filtre est appliqué. Si vous ne parvenez pas à trouver un flux de travail spécifique, réinitialisez la durée minimale sur 0 afin que tous les flux de travail s’affichent dans la liste.
+   >Le filtre **[!UICONTROL Durée min.]** est appliqué. Si vous ne parvenez pas à trouver un workflow spécifique, réinitialisez la durée minimale à 0 afin que tous les workflows soient affichés dans la liste.
 
-1. You can also filter on the **[!UICONTROL Workflow type]** :
+1. Vous pouvez également appliquer un filtre selon le **[!UICONTROL Type de workflow]** :
 
-   * **[!UICONTROL Technical]** : Seuls les processus [techniques](../../workflow/using/building-a-workflow.md#technical-workflows) prêts à l’emploi et les processus [de gestion des](../../workflow/using/targeting-data.md#data-management) données s’affichent.
+   * **[!UICONTROL Technique]** : seuls les [workflows techniques d&#39;usine](../../workflow/using/building-a-workflow.md#technical-workflows) et les [workflows de Data Management ](../../workflow/using/targeting-data.md#data-management) s&#39;affichent.
    * **[!UICONTROL Marketing]** : seuls les workflows associés à une campagne marketing, appelés [workflows de campagne](../../workflow/using/building-a-workflow.md#campaign-workflows), s&#39;affichent.
 
-1. To search a specific workflow by name, you can also use the **[!UICONTROL Workflow name filter]** field.
+1. Pour rechercher un workflow spécifique par nom, vous pouvez également utiliser le champ **[!UICONTROL Filtre de nom de workflow]**.
 
    ![](assets/wkf_monitoring_filters_name.png)
 
-1. If you edited some workflows in the time between, click the **[!UICONTROL Reload data]** button to refresh the data that are displayed in the grid.
+1. Si vous avez édité certains workflows entre temps, cliquez sur le bouton **[!UICONTROL Recharger les données]** pour actualiser les données affichées dans la grille.
 
 ## Lecture de la carte thermique {#reading-the-heatmap}
 
@@ -117,7 +117,7 @@ La Carte thermique des workflows Campaign est une grille qui se lit naturellemen
 * Les cellules d&#39;un rouge plus foncé correspondent aux périodes pendant lesquelles un grand nombre de workflows s&#39;exécutent simultanément.
 * Les cellules grises correspondent aux périodes pendant lesquelles aucun workflow ne s&#39;exécute.
 
-To learn how the color code is applied and how to navigate the HeatMap, click the **[!UICONTROL Help]** button.
+Pour découvrir comment le code-couleur est appliqué et comment parcourir la carte thermique, cliquez sur le bouton **[!UICONTROL Aide]**.
 
 ![](assets/wkf_monitoring_legend.png)
 
@@ -136,7 +136,7 @@ Dans l&#39;exemple suivant, trois workflows sont en cours d&#39;exécution (quel
    Toutes les activités de chaque workflow sont répertoriées, avec leur durée.
 
 1. Cliquez sur l&#39;identifiant ou le nom d&#39;un workflow pour l&#39;ouvrir directement.
-1. Pour revenir à la **[!UICONTROL Campaign Workflow HeatMap]** vue, cliquez sur le **[!UICONTROL Home]** bouton.
+1. Pour revenir à la vue **[!UICONTROL Carte thermique des workflows Campaign]**, cliquez sur le bouton **[!UICONTROL Accueil]**.
 
 ## Cas pratiques : utilisation de la carte thermique pour prendre des mesures {#use-cases--using-the-heatmap-to-take-actions}
 
@@ -146,7 +146,7 @@ La Carte thermique des workflows Campaign peut s&#39;avérer utile dans deux pri
 
 En tant qu&#39;administrateur de Campaign, la carte thermique des workflows peut vous aider à analyser la charge de l&#39;instance et à planifier les workflows existants ou nouveaux aux moments appropriés.
 
-1. Dans la **[!UICONTROL Campaign Workflow HeatMap]** vue, cliquez sur le **[!UICONTROL Filters]** bouton.
+1. Dans la vue **[!UICONTROL Carte thermique des workflows Campaign]**, cliquez sur le bouton **[!UICONTROL Filtres]**.
 1. Définissez la durée sur quelques secondes ou minutes.
 1. Excluez les workflows les plus courts n&#39;étant pas significatifs en augmentant le filtre de durée.
 
@@ -161,12 +161,12 @@ En tant qu&#39;administrateur de Campaign, la carte thermique des workflows peut
 
 En tant qu&#39;administrateur de Campaign, la carte thermique des workflows vous permet de trouver les workflows les plus longs pouvant ralentir l&#39;activité.
 
-1. Dans la **[!UICONTROL Campaign Workflow HeatMap]** vue, cliquez sur le **[!UICONTROL Filters]** bouton.
+1. Dans la vue **[!UICONTROL Carte thermique des workflows Campaign]**, cliquez sur le bouton **[!UICONTROL Filtres]**.
 1. Définissez la durée sur 1 heure.
 
    ![](assets/wkf_monitoring_long_duration.png)
 
-1. Include more results by decreasing the **[!UICONTROL Min duration]** filter.
+1. Incluez d&#39;autres résultats en diminuant le filtre **[!UICONTROL Durée min.]**.
 1. Examinez les résultats pour trouver les workflows les plus longs, susceptibles d&#39;avoir un impact plus important sur les ressources du serveur et de la base de données (CPU, RAM, réseau, IOPS, etc.).
 1. Prenez les mesures adéquates :
 
@@ -179,9 +179,9 @@ L&#39;exemple ci-dessous montre comment rendre la planification plus efficace et
 
 Dans ce cas pratique, de nombreux utilisateurs se plaignent des performances des workflows. Vous devez rechercher ce qui ralentit l&#39;activité et comment résoudre le problème.
 
-1. Accédez à **[!UICONTROL Monitoring]** et cliquez sur le **[!UICONTROL Workflows]** lien pour afficher la **[!UICONTROL Campaign Workflow HeatMap]** page.
-1. Définissez le **[!UICONTROL Min duration]** filtre sur 5 minutes.
-1. Définissez le **[!UICONTROL Workflow type]** filtre sur **[!UICONTROL Marketing]** .
+1. Accédez à **[!UICONTROL Suivi]**, puis cliquez sur le lien **[!UICONTROL Workflows]** pour afficher la page **[!UICONTROL Carte thermique des workflows Campaign]**.
+1. Définissez le filtre **[!UICONTROL Durée min.]** sur 5 minutes.
+1. Définissez le filtre **[!UICONTROL Type de workflow]** sur **[!UICONTROL Marketing]** .
 1. Dans la grille de la carte thermique, notez les points suivants :
 
    ![](assets/wkf_monitoring_without.png)
@@ -192,7 +192,7 @@ Dans ce cas pratique, de nombreux utilisateurs se plaignent des performances des
    * Les performances sont faibles.
 
 1. Au lieu d&#39;avoir 50 workflows commençant à 10h00, répartissez les heures de début de manière uniforme sur le reste de la journée.
-1. Retournez à la **[!UICONTROL Campaign Workflow HeatMap]** page et cliquez sur le **[!UICONTROL Reload data]** bouton.
+1. Retournez dans la page **[!UICONTROL Carte thermique des workflows Campaign]**, puis cliquez sur le bouton **[!UICONTROL Recharger les données]**.
 1. Notez maintenant les points suivants :
 
    ![](assets/wkf_monitoring_with.png)
