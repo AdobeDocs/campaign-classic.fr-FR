@@ -24,13 +24,13 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ## Fichier d&#39;extraction {#extraction-file}
 
-Le nom du fichier contenant les données extraites est défini dans le **[!UICONTROL File]** champ. Le bouton à droite du champ permet d’utiliser des champs de personnalisation pour créer le nom de fichier.
+Le nom du fichier contenant les données extraites est défini dans le champ **[!UICONTROL Fichier]**. Le bouton situé à droite du champ permet d&#39;utiliser des champs de personnalisation pour créer le nom du fichier.
 
-By default, the extraction file is created and stored on the server. You can save it on your computer. To do this, check the **[!UICONTROL Download the generated file after the analysis of the delivery]**. In this case, you need to indicate the access path to the local storage directory as well as the file name.
+Par défaut, le fichier d&#39;extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre machine. Pour cela, cochez l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]**. Dans ce cas, vous devez indiquer le chemin d&#39;accès au répertoire de stockage local et le nom du fichier.
 
 ![](assets/s_ncs_user_mail_delivery_local_file.png)
 
-Dans le cas d’une livraison directe par courrier, le contenu de l’extraction est défini dans **[!UICONTROL Edit the extraction file format...]** le lien.
+Pour une diffusion par courrier, le contenu de l&#39;extraction est défini à partir du lien **[!UICONTROL Editer le format du fichier d&#39;extraction...]**.
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
