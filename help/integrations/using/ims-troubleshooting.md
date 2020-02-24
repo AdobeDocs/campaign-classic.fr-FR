@@ -41,14 +41,14 @@ Vérifiez que votre Product Context est identique pour Campaign et Experience C
 
 Par exemple, si le **Product Context** n&#39;apparaît pas, le Product Context par défaut doit être **dma_campaign** à la fois dans Campaign et Experience Cloud. Si le champ **Product Context** apparaît, le Product Context par défaut doit être **dma_campaign_classic** à la fois dans Campaign et Experience Cloud.
 
-**[!UICONTROL IMS Server URL]**
+**[!UICONTROL URL du serveur IMS]**
 
-Dans le compte externe Campaign **Adobe Marketing Cloud** , vérifiez que le **[!UICONTROL IMS Server URL]** paramètre est [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) ou [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). Assurez-vous que les instances d’étape et de production pointent vers le même point final de production IMS.
+Dans le compte externe **Adobe Marketing Cloud** Campaign, vérifiez que l&#39;**[!UICONTROL URL du serveur IMS]** est [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) ou [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). Assurez-vous que les instances d&#39;étape et de production pointent sur le même point de terminaison de production IMS.
 
 **Masque de correspondance**
 
 * Vérifiez que l&#39;utilisateur tentant de se connecter fait partie d&#39;un groupe d&#39;opérateurs dans Enterprise Dashboard.
-* Check that the **[!UICONTROL Association Mask]** is a prefix of the user&#39;s operator group name in the Enterprise Dashboard.
+* Vérifiez que le **[!UICONTROL masque de correspondance]** est un préfixe du nom de groupe d&#39;opérateurs de l&#39;utilisateur dans Enterprise Dashboard.
 * Assurez-vous qu&#39;il n&#39;y a aucun espace blanc ni faute d&#39;orthographe.
 * Vérifiez que les noms des groupes d’opérateurs dans Campaign n’ont pas été modifiés et respectez la syntaxe suivante :
 
@@ -78,11 +78,11 @@ Redémarrez le serveur si des modifications ont été apportées aux paramètres
 
 * L&#39;utilisateur est redirigé vers la page adobe.com :
 
-   Il y a un problème avec le **[!UICONTROL Callback URL]**. Refer to the previous steps to check the **[!UICONTROL Callback URL]** configuration.
+   Il y a un problème avec l&#39;**[!UICONTROL URL de callback]**. Reportez-vous aux étapes précédentes pour vérifier le paramétrage de l&#39;**[!UICONTROL URL de callback]**.
 
 * Affichage du message &quot;Le login ne possède aucun droit correspondant à l&#39;expression&quot; :
 
-   Refer to the previous steps to check the **[!UICONTROL Association Mask]** and operator groups configuration.
+   Reportez-vous aux étapes précédentes pour vérifier le paramétrage du **[!UICONTROL masque de correspondance]** et des groupes d&#39;opérateurs.
 
 * L&#39;utilisateur ne parvient pas à accéder à la page de login Adobe ID :
 
