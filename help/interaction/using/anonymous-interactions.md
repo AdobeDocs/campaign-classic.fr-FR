@@ -28,17 +28,17 @@ Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/indetifi
 
 Par défaut, l’interaction est fournie avec un environnement préconfiguré pour cibler la table des destinataires (offres identifiées). Si vous souhaitez cibler une autre table (table des visiteurs pour les offres anonymes ou table des destinataires spécifique), vous devez utiliser l’assistant de mappage de cible pour créer l’environnement. For more on this, see [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
-Lorsque vous créez un environnement anonyme via l’assistant de création de mappage, la **[!UICONTROL Environment dedicated to incoming anonymous interactions]** zone est automatiquement cochée dans l’onglet **[!UICONTROL General]** de l’environnement.
+Lorsque vous créez l&#39;environnement anonyme via l&#39;assistant de création de mapping, la case **[!UICONTROL Environnement dédié aux interactions anonymes entrantes]** est automatiquement cochée dans l&#39;onglet **[!UICONTROL Général]** de l&#39;environnement.
 
-La **[!UICONTROL Targeting dimension]** procédure est automatiquement terminée. Par défaut, il est lié au tableau des visiteurs.
+La **[!UICONTROL Dimension de ciblage]** est automatiquement préremplie. Elle pointe par défaut sur la table des visiteurs.
 
-Le **[!UICONTROL Visitor folder]** champ apparaît. Le lien vers le **[!UICONTROL Visitors]** dossier est automatiquement terminé. Ce champ vous permet de choisir l’emplacement de stockage des profils des visiteurs.
+Le champ **[!UICONTROL Dossier des visiteurs]** s&#39;affiche. Il est automatiquement prérempli pour pointer sur le dossier **[!UICONTROL Visiteurs]**. Ce champ permet de spécifier l&#39;endroit où sont stockés les profils des visiteurs.
 
 ![](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
->If you want to filter several types of visitors, for instance in the case of anonymous offers presented for one or more brands, you need to create an environment for each brand, and a **[!UICONTROL Visitors]** type folder for each environment.
+>Si vous souhaitez trier plusieurs types de visiteurs, par exemple dans le cas d&#39;offres anonymes proposées pour plusieurs marques, vous devez créer un environnement pour chaque marque puis un dossier de type **[!UICONTROL Visiteurs]** pour chaque environnement.
 
 ## Catalogue d&#39;offres pour interactions anonymes {#offer-catalog-for-anonymous-interactions}
 
@@ -52,7 +52,7 @@ Les visiteurs anonymes peuvent être soumis à un processus d&#39;identification
 
 Durant cette étape, un rapprochement est effectué entre les données récupérées par les cookies et celles contenues dans votre base de données. Dans certains cas, le visiteur est reconnu (il est alors identifié implicitement), dans d&#39;autres, il ne l&#39;est pas (et reste donc anonyme).
 
-Pour exécuter cette analyse, cochez l’ **[!UICONTROL Implicitly identify the individual based on their browser history]** option correspondant à l’espace d’offre.
+Afin d&#39;effectuer cette analyse, au niveau de l&#39;emplacement, cochez la case **[!UICONTROL Identifier implicitement l&#39;individu à partir de son historique de navigation]**.
 
 ![](assets/identification_anonymous_visitors.png)
 
@@ -62,7 +62,7 @@ Après analyse, si un visiteur anonyme n&#39;est pas identifié, il vous est pos
 
 En cas d&#39;absence d&#39;élément permettant d&#39;identifier un contact ou si vous ne souhaitez pas proposer d&#39;offre identifiée à un contact pouvant être identifié implicitement, vous pouvez choisir d&#39;effectuer un basculement vers un environnement anonyme.
 
-Pour ce faire, vérifiez le **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**, puis spécifiez l’environnement dédié à ces visiteurs non identifiés dans le **[!UICONTROL Linked anonymous space]** lorsque vous spécifiez un espace d’offre.
+Pour cela, cochez la case **[!UICONTROL Basculer sur un emplacement anonyme si aucun individu n&#39;a été identifié]**, puis spécifiez l&#39;environnement dédié à ces visiteurs non identifiés dans la zone **[!UICONTROL Emplacement anonyme associé]** de la définition d&#39;un emplacement.
 
 ![](assets/anonymous_to_anonymous_environment.png)
 
