@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # Rapport Analyse des offres{#offer-analysis-report}
 
-The **[!UICONTROL Offer analysis]** report provides you with an overview of the number of accepted or rejected propositions.
+Le rapport **[!UICONTROL Analyse des offres]** vous permet d&#39;avoir une vue d&#39;ensemble du nombre de propositions acceptées ou refusées.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Les statistiques sont classées selon trois critères :
 
    ![](assets/offer_report_perdeliveries.png)
 
-Les données peuvent être filtrées en fonction des différents critères disponibles dans la section supérieure du rapport. Une fois que vous avez sélectionné les critères de votre choix, cliquez sur le **[!UICONTROL Refresh]** lien pour les appliquer au rapport.
+Vous pouvez filtrer les données à l&#39;aide de différents critères disponibles dans la partie supérieure du rapport. Lorsque vous avez choisi les critères, cliquez sur le lien **[!UICONTROL Actualiser]** pour les appliquer au rapport.
 
 ![](assets/offer_report_criteria.png)
 
