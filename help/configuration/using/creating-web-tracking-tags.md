@@ -29,7 +29,7 @@ Chaque page du site que vous souhaitez tracker doit être référencée dans vot
 
 ## Définir les URL à tracker dans Adobe Campaign {#defining-the-urls-to-be-tracked-in-the-application}
 
-Cette méthode vous permet de définir manuellement les pages à suivre, puis de générer un exemple de la balise de suivi Web associée. Cette opération est définie dans le **[!UICONTROL Campaign execution>Resources>Web tracking tags]** noeud de la console client.
+Cette méthode permet de définir manuellement les pages qui font l&#39;objet d&#39;un tracking Web, puis de générer la balise de tracking Web associée. Cette opération est réalisée depuis le noeud **[!UICONTROL Ressources>On-line>Balises de tracking Web]** de la console Adobe Campaign.
 
 ![](assets/d_ncs_integration_webtracking_screen.png)
 
@@ -38,7 +38,7 @@ Pour générer le code HTML à insérer dans la page :
 * Saisissez le libellé de la balise : il sera affiché dans les logs de tracking,
 * Indiquez l&#39;URL source : ce champ est informatif et permet d&#39;indiquer la page trackée (facultatif),
 * Saisissez éventuellement une limite de validité,
-* Cliquez sur **[!UICONTROL Generate]** Code HTML.
+* Cliquez sur **[!UICONTROL Générer]** le code HTML.
 
 Copiez ensuite le code généré et collez-le dans la page à tracker.
 
