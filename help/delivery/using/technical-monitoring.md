@@ -24,7 +24,7 @@ source-git-commit: 38700b79aeb19c75d10d2f5eb60c1efdb12e62e3
 
 ## Rapport de surveillance de la délivrabilité technique {#technical-deliverability-monitoring}
 
-Le rapport de surveillance de la délivrabilité technique est mis à jour quotidiennement et disponible en accédant à **[!UICONTROL Monitoring]** > **[!UICONTROL Overview]** et en cliquant sur le **[!UICONTROL Technical monitoring]** lien dans l’onglet Adobe Campaign **[!UICONTROL Home]** . Il comprend plusieurs indicateurs de qualité de la délivrabilité pour votre plateforme.
+Le rapport de surveillance de la délivrabilité technique est mis à jour quotidiennement et disponible en accédant à **[!UICONTROL Surveillance]** > **[!UICONTROL Aperçu]** et en cliquant sur le lien de surveillance **** technique dans l’onglet **[!UICONTROL Accueil d’Adobe Campaign.]** Il comprend plusieurs indicateurs de qualité de la délivrabilité pour votre plateforme.
 
 Ces indicateurs sont mis à jour tous les jours à 9 heures.
 
@@ -36,9 +36,9 @@ Ces indicateurs sont mis à jour tous les jours à 9 heures.
 
 Les indicateurs utilisés dans ce rapport sont les suivants :
 
-* **[!UICONTROL Reverse DNS]** : Adobe Campaign vérifie qu’un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l’IP.
+* **[!UICONTROL Reverse DNS]** : Adobe Campaign vérifie qu&#39;un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l&#39;IP.
 
-* **[!UICONTROL SPF]** (Cadre stratégique pour l&#39;expéditeur) : Mécanisme d’authentification qui permet aux fournisseurs de services Internet et de boîtes aux lettres de vérifier si l’expéditeur du courrier électronique est autorisé sur le domaine d’envoi.
+* **[!UICONTROL SPF]** (Cadre de politique de l&#39;expéditeur) : Mécanisme d’authentification qui permet aux fournisseurs de services Internet et de boîtes aux lettres de vérifier si l’expéditeur du courrier électronique est autorisé sur le domaine d’envoi.
 
    <!--
     >[!NOTE]
@@ -48,7 +48,7 @@ Les indicateurs utilisés dans ce rapport sont les suivants :
 
 * **[!UICONTROL DomainKeys]** : Service développé par Yahoo visant à certifier l&#39;identité de l&#39;émetteur d&#39;un email.
 
-* **[!UICONTROL IP and RBL domain]** (Liste des trous noirs en temps réel) : Liste des adresses et domaines IP qui ont été marqués par les organisations de liste de blocage pour mauvaise réputation d’envoi. Ces listes sont conservées par des organisations dédiées telles que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux URL qui ont un impact significatif sur la délivrabilité. Ces RBL reflètent la réputation d&#39;envoi et peuvent être référencées par les FAI avant d&#39;accepter de recevoir vos courriels.
+* **[!UICONTROL Domaine]** IP et RBL (Liste des trous noirs en temps réel) : Liste des adresses et domaines IP qui ont été marqués par les organisations de liste de blocage pour mauvaise réputation d’envoi. Ces listes sont conservées par des organisations dédiées telles que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux URL qui ont un impact significatif sur la délivrabilité. Ces RBL reflètent la réputation d&#39;envoi et peuvent être référencées par les FAI avant d&#39;accepter de recevoir vos courriels.
 
 * **[!UICONTROL SNDS]** (Smart Network Data Services) : Un service [anti-spam](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx)Windows Live Hotmail. Hotmail est le seul FAI qui fournit ce type d&#39;informations. Les scores de référence sont un résultat de filtre vert, un taux de plainte inférieur à 0,1 % et un taux zéro de pourriel.
 
