@@ -28,14 +28,14 @@ L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes 
 
 Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont remplis :
 
-* L’activité est disponible uniquement pour les sources de données distantes. Le **[!UICONTROL FDA]** (Federated Data Access) package doit donc être installé sur votre instance (voir [cette section](../../platform/using/about-fda.md)).
+* L&#39;activité est disponible pour les sources de données distantes uniquement. Le package **[!UICONTROL FDA]** (Federated Data Access) doit donc être installé sur votre instance (voir [cette section](../../platform/using/about-fda.md)).
 * Le schéma sortant doit exister dans la base de données et être associé à une base de données FDA (pour plus d&#39;informations sur les schémas de données, reportez-vous à [cette section](../../configuration/using/about-schema-reference.md)).
-* L’opérateur qui exécute le flux de travail doit avoir le **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** nom right. For more on named rights, refer to [this section](../../platform/using/access-management.md#named-rights).
+* L&#39;opérateur exécutant le workflow doit disposer du droit nommé **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. Pour plus d&#39;informations sur les droits nommés, reportez-vous à [cette section](../../platform/using/access-management.md#named-rights).
 
 ## Configuration de l&#39;activité Gestion des données SQL {#configuring-the-sql-data-management-activity}
 
-1. Specify the activity **[!UICONTROL Label]**.
-1. Sélectionnez le **[!UICONTROL External account]** à utiliser, puis sélectionnez le **[!UICONTROL Outbound schema]** lien vers ce compte externe.
+1. Indiquez le **[!UICONTROL Libellé]** de l&#39;activité.
+1. Sélectionnez le **[!UICONTROL Compte externe]** à utiliser, puis le **[!UICONTROL Schéma sortant]** associé à ce compte externe.
 
    >[!CAUTION]
    >
@@ -47,7 +47,7 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
    >
    >Il incombe à la personne chargée de l&#39;écriture du script SQL de s&#39;assurer que celui-ci est fonctionnel et que ses références (noms de champs, etc.) sont conformes au schéma sortant.
 
-   Si vous souhaitez charger un code SQL existant, sélectionnez l’ **[!UICONTROL The SQL script is contained in an entity stored in the database]** option. Les scripts SQL doivent être créés et stockés dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** .
+   Si vous souhaitez charger un code SQL existant, sélectionnez l&#39;option **[!UICONTROL Le code SQL est contenu dans une entité stockée dans la base]**. Les scripts SQL doivent être créés et stockés dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Paramétrage]** / **[!UICONTROL Scripts SQL]**.
 
    Sinon, saisissez ou effectuez un copier-coller du script SQL dans la zone dédiée.
 
@@ -60,10 +60,10 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
 
       >[!NOTE]
       >
-      >The (&#39;name&#39;) value corresponds to the **[!UICONTROL Name]** field from the transition properties.
+      >La valeur (&#39;nom&#39;) correspond au champ **[!UICONTROL Nom]** des propriétés de la transition.
 
-1. Si le script SQL contient déjà des commandes pour créer une table de travail sortante, désélectionnez l’ **[!UICONTROL Automatically create work table]** option. Dans le cas contraire, une table de travail est automatiquement créée une fois le flux de travail exécuté.
-1. Cliquez sur **[!UICONTROL Ok]** pour valider la configuration de l&#39;activité.
+1. Si le script SQL contient déjà des commandes pour créer une table de travail sortante, désélectionnez l&#39;option **[!UICONTROL Créer automatiquement une table de travail]**. Sinon, une table de travail est automatiquement créée lorsque le workflow est exécuté.
+1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l&#39;activité.
 
 L&#39;activité est maintenant configurée. Elle est prête à être exécutée dans le workflow.
 
