@@ -45,9 +45,9 @@ Le scénario mis en oeuvre dans cet exemple est le suivant :
 
 Les messages de confirmation sont adressés via un modèle de diffusion dédié, référencé au niveau du service temporaire.
 
-1. Dans la **[!UICONTROL Explorer]** , sélectionnez **[!UICONTROL Resources > Templates > Delivery templates]**.
+1. Dans l&#39;**[!UICONTROL Explorateur]**, sélectionnez **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**.
 1. Créez un modèle de diffusion pour adresser les messages de confirmation d&#39;abonnement.
-1. Click the **[!UICONTROL To]** button in the **[!UICONTROL Email parameters]** to associate the delivery template with the Subscriptions target mapping instead of Recipients.
+1. Cliquez sur le bouton **[!UICONTROL Pour]** dans les **[!UICONTROL Paramètres de l&#39;e-mail]** pour associer le modèle de diffusion au mapping de ciblage Abonnements au lieu de Destinataires.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
@@ -55,7 +55,7 @@ Les messages de confirmation sont adressés via un modèle de diffusion dédié,
 
    Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Exclusions]**.
 
-1. Cliquez sur le **[!UICONTROL Edit...]** lien et désélectionnez l’ **[!UICONTROL Exclude recipients who no longer want to be contacted (blacklist)]** option.
+1. Cliquez sur le lien **[!UICONTROL Editer...]** et désélectionnez l&#39;option **[!UICONTROL Exclure les destinataires ne souhaitant plus être contactés (blackliste)]**.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)
 
@@ -85,13 +85,13 @@ Le workflow du formulaire web contiendra les activités suivantes :
 
 Pour ce faire, procédez comme suit :
 
-1. Créez un formulaire Web et choisissez le modèle **[!UICONTROL Newsletter subscription (subNewsletter)]**.
+1. Créez un formulaire Web et sélectionnez le modèle **[!UICONTROL Inscription à la Newsletter (subNewsletter)]**.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 
-1. In the **[!UICONTROL Edit]** tab, we need to configure the existing workflow since we want to add a confirmation message to the recipients who want to subscribe.
+1. Dans l&#39;onglet **[!UICONTROL Edition]**, nous devons configurer le workflow existant, dans la mesure où nous souhaitons ajouter un message de confirmation pour les destinataires qui souhaitent s&#39;inscrire.
 
-   To do so, double-click the **[!UICONTROL Preloading]** box and configure it as follows.
+   Pour cela, double-cliquez sur l&#39;activité **[!UICONTROL Pré-chargement]** et configurez-la comme suit.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
 
@@ -101,7 +101,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
 
-   L’ **[!UICONTROL Test]** activité peut concerner le courrier électronique du destinataire. Dans ce cas, configurez-le comme suit :
+   L&#39;activité **[!UICONTROL Test]** peut s&#39;appliquer à l&#39;email des destinataires. Dans ce cas, configurez-la comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
 
@@ -109,7 +109,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   La première **[!UICONTROL Script]** activité mettra les destinataires sur liste noire jusqu’à ce qu’ils confirment leur abonnement au bulletin d’information. Son contenu doit être le suivant :
+   La première activité **[!UICONTROL Script]** blackliste les destinataires jusqu&#39;à ce qu&#39;ils valident leur inscription à la newsletter. Son contenu doit être le suivant :
 
    ```
    ctx.recipient.@blackList=1
@@ -117,7 +117,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   La seconde **[!UICONTROL Script]** activité autorise l’envoi de diffusions aux utilisateurs et les abonne à la newsletter. Les deux dernières lignes du script vous permettront de transférer vos destinataires du dossier temporaire vers un autre dossier et de les réconcilier avec les profils existants dès qu’ils auront confirmé l’abonnement.
+   La seconde activité **[!UICONTROL Script]** autorise l&#39;envoi des diffusions aux utilisateurs et les inscrit à la newsletter. Les deux dernières lignes du script permet de transférer les destinataires du dossier Temp vers un autre dossier et de les réconcilier avec les profils existants dès validation de l&#39;inscription.
 
    ```
    ctx.recipient.@blackList=0
@@ -132,11 +132,11 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
 
-1. Double-click the **[!UICONTROL Subscription]** activity to personalize the subscription form and link a checkbox with the temporary service previously created.
+1. Double-cliquez sur l&#39;activité **[!UICONTROL Inscription]** pour personnaliser le formulaire d&#39;inscription et associer une case à cocher au service temporaire créé précédemment.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5c.png)
 
-1. Configure the **[!UICONTROL Storage]** activity to save the information entered in the form page.
+1. Configurez l&#39;activité **[!UICONTROL Enregistrement]** afin de sauvegarder les informations renseignées dans la page du formulaire.
 
    Cette activité permet de créer les profils de destinataires dans un dossier temporaire dédié afin de les différencier des profils en base, auxquels des communications peuvent être adressées.
 
@@ -146,9 +146,9 @@ Pour ce faire, procédez comme suit :
    >
    >Vous ne devez pas définir d&#39;options de réconciliation.
 
-1. Add two **[!UICONTROL End]** activities to display a message for the user.
+1. Ajoutez deux activités **[!UICONTROL Fin]** pour afficher un message à l&#39;intention de l&#39;utilisateur.
 
-   The second **[!UICONTROL End]** box will display the confirmation message once the subscription is complete.
+   La seconde activité **[!UICONTROL Fin]** affichera le message de confirmation une fois l&#39;inscription terminée.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
 
