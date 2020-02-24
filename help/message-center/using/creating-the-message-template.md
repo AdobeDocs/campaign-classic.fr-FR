@@ -22,8 +22,8 @@ source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
 # Création du modèle de message{#creating-the-message-template}
 
-1. Accédez au **[!UICONTROL Message Center >Transactional message templates]** dossier dans l’arborescence d’Adobe Campaign.
-1. In the list of transactional message templates, right-click and select **[!UICONTROL New]** in the drop-down menu or click the **[!UICONTROL New]** button above the list of transactional message templates.
+1. Positionnez-vous au niveau du dossier **[!UICONTROL Message Center > Modèles de messages transactionnels]** dans l&#39;arborescence Adobe Campaign.
+1. Dans la liste des modèles de messages transactionnels, cliquez avec le bouton droit de la souris et sélectionnez **[!UICONTROL Nouveau]** dans le menu contextuel ou cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des modèles de messages transactionnels.
 
    ![](assets/messagecenter_create_model_001.png)
 
