@@ -36,23 +36,23 @@ Pour les configurations avancées telles que la gestion des blocs et des champs 
 
 ### Installation du package d&#39;intégration AEM dans Adobe Campaign {#install-the-aem-integration-package-in-adobe-campaign}
 
-You first need to install the **[!UICONTROL AEM integration]** package.
+Vous devez d&#39;abord installer le package **[!UICONTROL AEM Integration]**.
 
-1. From your Adobe Campaign instance, select **[!UICONTROL Tools]** from the upper toolbar.
-1. Sélectionner **[!UICONTROL Tools > Advanced > Import package...]**.
+1. Depuis votre instance Adobe Campaign, sélectionnez **[!UICONTROL Outils]** dans la barre d&#39;outils supérieure.
+1. Sélectionnez **[!UICONTROL Outils > Avancé > Import de package...]**.
 
    ![](assets/aem_config_1.png)
 
-1. Sélectionner **[!UICONTROL Install a standard package]**.
-1. Cochez **[!UICONTROL AEM integration]** puis cliquez sur le **[!UICONTROL Next]** bouton.
+1. Sélectionnez **[!UICONTROL Installer un package standard]**.
+1. Cochez **[!UICONTROL AEM Integration]**, puis cliquez sur le bouton **[!UICONTROL Suivant]**.
 
    ![](assets/aem_config_2.png)
 
-1. Dans la fenêtre suivante, cliquez sur le **[!UICONTROL Start]** bouton pour lancer l&#39;installation de votre pack. Fermez la fenêtre une fois l’installation terminée.
+1. Dans la fenêtre suivante, cliquez sur le bouton **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package. Une fois l&#39;installation terminée, fermez la fenêtre.
 
 ### Configuration de la zone de sécurité pour l&#39;opérateur AEM {#configure-the-security-zone-for-aem-operator}
 
-Le **[!UICONTROL AEM integration]** package définit l’ **[!UICONTROL aemserver]** opérateur dans Campaign. Cet opérateur sera utilisé pour connecter le serveur Adobe Experience Manager à Adobe Campaign.
+Le package **[!UICONTROL AEM Integration]** définit l&#39;opérateur **[!UICONTROL aemserver]** dans Campaign. Cet opérateur sera utilisé pour connecter le serveur Adobe Experience Manager à Adobe Campaign.
 
 Vous devez configurer une zone de sécurité pour que cet opérateur puisse se connecter à Adobe Campaign par le biais d&#39;Adobe Experience Manager.
 
@@ -69,29 +69,29 @@ Si votre instance de Campaign est hébergée par Adobe, contactez l&#39;équipe 
 
 ### Configuration du compte externe {#configure-the-external-account}
 
-Le **[!UICONTROL AEM integration]** pack a créé le compte externe pour Adobe Experience Cloud. Vous devez maintenant le configurer pour vous connecter à votre instance Adobe Experience Manager.
+Le package **[!UICONTROL AEM Integration]** a créé le compte externe pour Adobe Experience Cloud. Vous devez maintenant le configurer pour qu&#39;il se connecte à votre instance Adobe Experience Manager.
 
 Pour configurer le compte externe AEM, procédez comme suit :
 
-1. Cliquez sur le **[!UICONTROL Explorer]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Explorateur]**.
 
    ![](assets/aem_config_3.png)
 
-1. Sélectionner **[!UICONTROL Administration > Platform > External accounts]**.
-1. Dans la **[!UICONTROL External account]** liste, sélectionnez **[!UICONTROL AEM instance]**.
+1. Sélectionnez **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+1. Dans la liste **[!UICONTROL Compte externe]**, sélectionnez **[!UICONTROL Instance AEM]**.
 1. Renseignez les paramètres de votre instance de création AEM :
 
-   * **[!UICONTROL Server]**
-   * **[!UICONTROL Account]**
-   * **[!UICONTROL Password]**
+   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Compte]**
+   * **[!UICONTROL Mot de passe]**
    >[!NOTE]
    >
-   >Make sure that your **[!UICONTROL Server]** address does not end with a a trailing slash.
+   >Vérifiez que l&#39;adresse du **[!UICONTROL Serveur]** ne se termine pas par une barre oblique.
 
    ![](assets/aem_config_4.png)
 
-1. Cochez la **[!UICONTROL Enabled]** case.
-1. Cliquez sur le **[!UICONTROL Save]** bouton.
+1. Cochez la case **[!UICONTROL Activé]**.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 
 ### Configuration du filtrage des ressources AEM {#configure-aem-resources-filtering}
 
@@ -99,10 +99,10 @@ L&#39;option **AEMResourceTypeFilter** sert à filtrer les types de ressources E
 
 Pour vérifier si l&#39;option **[!UICONTROL AEMResourceTypeFilter]** est configurée :
 
-1. Cliquez sur le **[!UICONTROL Explorer]** bouton.
-1. Sélectionner **[!UICONTROL Administration > Platform > Options]**.
-1. Dans la **[!UICONTROL Options]** liste, sélectionnez **[!UICONTROL AEMResourceTypeFilter]**.
-1. In the **[!UICONTROL Value (text)]** field, the path should be as follows:
+1. Cliquez sur le bouton **[!UICONTROL Explorateur]**.
+1. Sélectionnez **[!UICONTROL Administration > Plate-forme > Options]**.
+1. Dans la liste **[!UICONTROL Options]**, sélectionnez **[!UICONTROL AEMResourceTypeFilter]**.
+1. Dans le champ **[!UICONTROL Valeur (texte)]**, le chemin doit être le suivant :
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
