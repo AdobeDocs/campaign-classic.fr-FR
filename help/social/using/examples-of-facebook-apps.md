@@ -65,11 +65,11 @@ Pour créer cette application, suivez les étapes ci-dessous :
 
    ![](assets/social_create_facebook_app_002.png)
 
-1. Créez un compte **[!UICONTROL Facebook Connect]** externe de type et saisissez les paramètres de l’application Facebook. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+1. Créez un compte externe de type connexion **** Facebook et saisissez les paramètres de l’application Facebook. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
    ![](assets/social_quick_start_2.png)
 
-1. Entrez les liens **[!UICONTROL Terms of service]** et **[!UICONTROL Privacy policy]** les liens à afficher sur l’écran de demande d’autorisation Facebook. Pour plus d’informations à ce sujet, voir : [Saisir les liens](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links)des conditions de service et de la politique de confidentialité.
+1. Enter the **[!UICONTROL Terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. Pour plus d’informations à ce sujet, voir : [Saisir les liens](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links)des conditions de service et de la politique de confidentialité.
 
    ![](assets/social_quick_start_1.png)
 
@@ -77,7 +77,7 @@ Pour créer cette application, suivez les étapes ci-dessous :
 
    ![](assets/social_webapp_005.png)
 
-1. Modifiez votre application Web. In this example, we have added a **[!UICONTROL Page]** activity and defined a title for it.
+1. Editez votre application web. Dans cet exemple, nous avons ajouté une activité **[!UICONTROL Page]** pour laquelle nous avons défini un titre.
 
    ![](assets/social_quick_start_4.png)
 
@@ -101,16 +101,16 @@ Vérifiez que l&#39;onglet de l&#39;application **App01** apparaît bien sur vot
 >
 >Suivez les étapes de configuration décrites dans [Création d’une application](../../social/using/creating-a-facebook-application.md)Facebook.
 
-Dans l’exemple 1, nous avons personnalisé l’affichage de la page Facebook en fonction de la valeur du **[!UICONTROL Fan of the page]** champ. Il est également possible de traiter le **[!UICONTROL Application settings]** champ. Ce champ vous permet de récupérer les données contenues dans un lien généré par Adobe Campaign, via Facebook.
+Dans l&#39;exemple 1, nous avions personnalisé l&#39;affichage de la page Facebook en fonction de la valeur du champ **[!UICONTROL Fan de la page]**. Il est également possible d&#39;exploiter le champ **[!UICONTROL Paramètres de l&#39;application]**. Ce champ permet de récupérer depuis Facebook des données contenues dans un lien généré par Adobe Campaign.
 
-Prenons l&#39;exemple d&#39;une entreprise qui décide d&#39;envoyer une campagne par courriel. Dans la diffusion, un lien pointe vers l’application Facebook. Ce lien est personnalisé grâce au **[!UICONTROL app_data]** paramètre ajouté à la fin de l’URL. La valeur de ce paramètre peut être un indicateur qui reflète la signification du client. Dans notre exemple, les valeurs du **[!UICONTROL app_data]** paramètre sont **[!UICONTROL big]** (client important) et **[!UICONTROL small]** (client moins important).
+Prenons pour exemple une société qui décide d&#39;animer une campagne e-mail. Dans la diffusion, un lien pointe vers l&#39;application Facebook. Ce lien est personnalisé grâce au paramètre **[!UICONTROL app_data]** ajouté à la fin de l&#39;URL. La valeur de ce paramètre peut être, par exemple, un indicateur reflétant l&#39;importance du client. Dans notre exemple, les valeurs du paramètre **[!UICONTROL app_data]** sont **[!UICONTROL big]** (client important) et **[!UICONTROL small]** (client moins important).
 
 Une fois personnalisée, l&#39;URL devient :
 
 * `http://<path of the Facebook application>&app_data=big` (pour un client important)
 * `http://<path of the Facebook application>&app_data=small` (pour un client moins important)
 
-Among the anonymous data forwarded to Adobe Campaign by Facebook, the value of the **[!UICONTROL Application parameters]** field is collected, thus enabling Adobe Campaign to personalize application display based on this parameter.
+Parmi les données anonymes transmises par Facebook à Adobe Campaign, la valeur du champ **[!UICONTROL Paramètres de l&#39;application]** est récupérée, permettant ainsi à Adobe Campaign de personnaliser l&#39;affichage de l&#39;application en fonction de ce paramètre.
 
 Si l&#39;utilisateur est un client important (la valeur du paramètre **[!UICONTROL app_data]** est **[!UICONTROL big]**), l&#39;image suivante s&#39;affiche :
 
@@ -122,8 +122,8 @@ Si l&#39;utilisateur est un client moins important (la valeur du paramètre **[!
 
 Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web composée des éléments suivants :
 
-* Activité **[!UICONTROL Test]** basée sur le **[!UICONTROL Application parameter]** champ.
-* two pages which contain the images to display according to the value of the **[!UICONTROL Application parameter]** field.
+* une activité **[!UICONTROL Test]** basée sur le champ **[!UICONTROL Paramètre de l&#39;application]**.
+* deux pages contenant les images à afficher en fonction de la valeur du champ **[!UICONTROL Paramètre de l&#39;application]**.
 
 ![](assets/social_webapp_018.png)
 
@@ -149,38 +149,38 @@ S&#39;il accepte de partager ses informations, l&#39;écran suivant apparaît.
 
 Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web composée des éléments suivants :
 
-* une **[!UICONTROL Test]** activité
+* une activité **[!UICONTROL Test]**
 * trois pages
-* une **[!UICONTROL Access control]** activité
-* une **[!UICONTROL Pre-loading]** activité
-* une **[!UICONTROL Save]** activité
-* une **[!UICONTROL End]** activité
+* une activité **[!UICONTROL Contrôle d&#39;accès]**
+* une activité **[!UICONTROL Pré-chargement]**
+* a **[!UICONTROL Save]** activity
+* Une activité **[!UICONTROL Fin]**.
 
 ![](assets/social_webapp_019.png)
 
 ### Activité Test {#test-activity}
 
-L’ **[!UICONTROL Test]** activité est basée sur le **[!UICONTROL ID]** champ et le champ **[!UICONTROL Application parameters]** .
+L&#39;activité **[!UICONTROL Test]** est basée sur les champs **[!UICONTROL Identifiant (UID)]** et **[!UICONTROL Paramètre de l&#39;application]**.
 
 ![](assets/social_webapp_023.png)
 
 Celle-ci comporte trois branches :
 
-* **[!UICONTROL identifier (UID) is empty]** : l’identifiant n’est transmis par Facebook que si l’utilisateur a déjà accepté de partager ses informations. La première branche de l’ **[!UICONTROL Test]** activité vous permet de rendre le concours disponible uniquement pour les utilisateurs qui n’ont jamais participé, c’est-à-dire ceux qui ont un ID vide.
-* **[!UICONTROL application parameter equals 'thanks']** : pour éviter une erreur d’affichage liée à Facebook, la page de fin de l’application Web pointe vers l’URL de l’application Facebook à laquelle le **[!UICONTROL app_data]** paramètre est ajouté à l’aide de la **[!UICONTROL thanks]** valeur (pour plus d’informations, reportez-vous à : Activité [de fin](#end-activity)). La deuxième branche vous permet de savoir si l’utilisateur provient de l’ **[!UICONTROL End]** activité de la première branche (et vient d’entrer dans le concours) pour afficher un message de remerciement. Pour plus d’informations sur l’utilisation de paramètres d’URL supplémentaires, voir : [Comment transférer des paramètres vers une application Facebook?](#how-to-forward-settings-to-a-facebook-application-).
-* **[!UICONTROL Default branch]** : si l&#39;utilisateur a déjà participé au concours (ID déjà entré) à une date antérieure (paramètre d&#39;application différent de **[!UICONTROL thanks]**), nous afficherons une page indiquant qu&#39;il a déjà participé.
+* **[!UICONTROL identifiant (UID) est vide]** : L&#39;identifiant n&#39;est transmis par Facebook que si l&#39;utilisateur a déjà accepté de partager ses informations. La première branche de l&#39;activité **[!UICONTROL Test]** permet de proposer le jeu uniquement si l&#39;utilisateur n&#39;a jamais joué, donc si l&#39;identifiant est vide.
+* **[!UICONTROL le paramètre d&#39;application est égal à &#39;Merci&#39;]** : pour éviter une erreur d’affichage liée à Facebook, la page de fin de l’application Web pointe vers l’URL de l’application Facebook à laquelle le paramètre **[!UICONTROL app_data]** est ajouté lors de l’utilisation de la valeur de **[!UICONTROL remerciements]** (pour plus d’informations, reportez-vous à la section : Activité [de fin](#end-activity)). La seconde branche vous permet de savoir si l’utilisateur provient de l’activité **[!UICONTROL Fin]** de la première branche (et vient d’entrer dans le concours) pour afficher un message de remerciement. Pour plus d’informations sur l’utilisation de paramètres d’URL supplémentaires, voir : [Comment transférer des paramètres vers une application Facebook?](#how-to-forward-settings-to-a-facebook-application-).
+* **[!UICONTROL Branchement par défaut]** : si l&#39;utilisateur a déjà joué (identifiant renseigné) et qu&#39;il ne vient pas de participer au jeu (paramètre d&#39;application différent de **[!UICONTROL thanks]**), nous lui affichons une page lui indiquant qu&#39;il a déjà participé.
 
 ### Page du jeu {#competition-page}
 
-Pour éviter l’erreur d’affichage liée à Facebook, vous devez également sélectionner **[!UICONTROL Parent window]** ou **[!UICONTROL In the top window]** dans le **[!UICONTROL Window]** champ de la page du concours.
+Pour contourner l&#39;erreur d&#39;affichage liée à Facebook, vous devez également sélectionner **[!UICONTROL Fenêtre parente]** ou **[!UICONTROL Dans la fenêtre la plus en avant]** dans le champ **[!UICONTROL Fenêtre]** de la page proposant de participer au concours.
 
 ![](assets/social_webapp_028.png)
 
 ### Activité Contrôle d&#39;accès {#access-control-activity}
 
-L’ **[!UICONTROL Access control]** activité vous permet d’afficher la page de demande d’autorisation Facebook lorsque l’utilisateur entre dans le concours. S&#39;ils acceptent de partager leurs informations, elles sont récupérées pendant le préchargement. For more on this, refer to: [Pre-loading activity](#pre-loading-activity).
+The **[!UICONTROL Access control]** activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: [Pre-loading activity](#pre-loading-activity).
 
-Si vous avez précédemment saisi le compte externe lors de la création de l’application Web (voir [Création d’une application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)Web de type Facebook), vous n’avez pas besoin de modifier l’activité. Dans le cas contraire, accédez au **[!UICONTROL Application]** champ et sélectionnez le compte externe lié à l’application Facebook.
+Si vous avez précédemment saisi le compte externe lors de la création de l’application Web (voir [Création d’une application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)Web de type Facebook), vous n’avez pas besoin de modifier l’activité. Dans le cas contraire, accédez au champ **[!UICONTROL Application]** et sélectionnez le compte externe lié à l’application Facebook.
 
 ![](assets/social_webapp_024.png)
 
@@ -188,14 +188,14 @@ Si vous avez précédemment saisi le compte externe lors de la création de l’
 
 Sélectionnez la source des données à utiliser pour le préchargement :
 
-* **[!UICONTROL Marketing database]** : cette option vous permet de précharger des données via la base de données Adobe Campaign.
+* **[!UICONTROL Base marketing]** : cette option permet d&#39;effectuer le préchargement des données depuis la base Adobe Campaign.
 * **[!UICONTROL Facebook]** : cette option permet d&#39;effectuer le préchargement à partir des données Facebook.
 
 ![](assets/social_webapp_029.png)
 
 **Base marketing**
 
-Cette option vous permet de récupérer les données d’un profil existant dans le tableau des visiteurs. La vérification est effectuée en fonction de l’ID Facebook externe récupéré lorsque l’utilisateur clique sur l’onglet de l’application Facebook. Si vous ajoutez un formulaire après l’ **[!UICONTROL Pre-loading]** activité, les champs contenant des informations dans la base de données sont préchargés.
+Cette option permet de récupérer les données d&#39;un profil existant dans la table des visiteurs. La vérification est faite à partir de l&#39;identifiant externe Facebook récupéré lorsque l&#39;utilisateur clique sur l&#39;onglet de l&#39;application Facebook. Si vous ajoutez un formulaire à la suite de l&#39;activité **[!UICONTROL Pré-chargement]**, les champs contenant des informations existantes en base seront pré-remplis.
 
 ![](assets/social_webapp_030.png)
 
@@ -209,23 +209,23 @@ Cette option permet de définir les informations de profil Facebook à récupér
 
 ![](assets/social_webapp_025.png)
 
-The **[!UICONTROL Database information]** option lets you collect the following data:
+L&#39;option **[!UICONTROL Informations de base]** permet de récupérer les données suivantes :
 
-* **[!UICONTROL External ID]**: ID utilisateur
-* **[!UICONTROL Gender]**: sexe de l’utilisateur
-* **[!UICONTROL Verified]** : ce champ indique si l’utilisateur dispose d’un compte Facebook vérifié.
-* **[!UICONTROL Full name]**: nom complet de l’utilisateur
-* **[!UICONTROL First name]**: prénom de l’utilisateur
-* **[!UICONTROL Last name]**: nom de famille de l’utilisateur
-* **[!UICONTROL Language]**: langue de l’utilisateur
+* **[!UICONTROL Id externe]** : identifiant de l&#39;utilisateur
+* **[!UICONTROL Sexe]** : genre de l&#39;utilisateur
+* **[!UICONTROL Vérifié]** : ce champ indique si l&#39;utilisateur possède un compte Facebook vérifié
+* **[!UICONTROL Nom complet]** : nom complet de l&#39;utilisateur
+* **[!UICONTROL Prénom]** : prénom de l&#39;utilisateur
+* **[!UICONTROL Nom]** : nom de l&#39;utilisateur
+* **[!UICONTROL Langue]** : langue de l&#39;utilisateur
 
 Vous pouvez également choisir de récupérer la photo de profil, la liste des amis, l&#39;adresse email, la date de naissance, les centres d&#39;intérêt et le lieu en cochant les cases correspondantes.
 
-Avant de cliquer **[!UICONTROL Ok]**, cochez la **[!UICONTROL I agree to comply with Facebook conditions of use]** case.
+Avant de cliquer sur **[!UICONTROL Ok]**, vous devez cocher la case : **[!UICONTROL Je m&#39;engage à respecter les conditions d&#39;utilisation de Facebook.]**
 
 >[!NOTE]
 >
->If you check one or more boxes in the **[!UICONTROL Private information]** section, the Facebook permission request screen will automatically display the access request for this data.
+>Si vous cochez une ou plusieurs cases de la section **[!UICONTROL Informations privées]**, l&#39;écran de demande de permissions Facebook affichera automatiquement la demande d&#39;accès à ces données.
 >
 >Pour récupérer les informations sélectionnées, l&#39;utilisateur doit avoir accepté de les partager.
 >
@@ -233,7 +233,7 @@ Avant de cliquer **[!UICONTROL Ok]**, cochez la **[!UICONTROL I agree to comply 
 
 ### Activité Enregistrement {#save-activity}
 
-The **[!UICONTROL Save]** activity lets you store the information collected during the previous stages in the visitors&#39; table.
+L&#39;activité **[!UICONTROL Enregistrement]** permet de stocker, dans la table des visiteurs, les informations récupérées lors des étapes précédentes.
 
 Si le profil existe déjà dans la table des visiteurs, ses données sont mises à jour avec les nouvelles données récupérées.
 
@@ -241,24 +241,24 @@ Si le profil n&#39;existe pas en base et que l&#39;adresse email de l&#39;utilis
 
 ![](assets/social_webapp_026.png)
 
-1. Dans le **[!UICONTROL Visitor creation folder]** champ, sélectionnez le dossier dans lequel le profil sera créé. Dans le cas d’une application Web de type Facebook, le dossier de création par défaut est **[!UICONTROL Visitors]**.
-1. In the **[!UICONTROL Reconciliation mode]** field, select the reconciliation mode you want to use:
+1. Dans le champ **[!UICONTROL Dossier de création du visiteur]**, sélectionnez le dossier dans lequel le profil sera créé. Dans le cas d&#39;une application web de type Facebook, le dossier de création par défaut est **[!UICONTROL Visiteurs]**.
+1. Dans le champ **[!UICONTROL Mode de réconciliation]**, sélectionnez la méthode de réconciliation que vous souhaitez utiliser :
 
-   * **[!UICONTROL Automatic]** : La conciliation est effectuée sur la base du courriel, du nom, du prénom et de la date de naissance.
-   * **[!UICONTROL Manual]** : Sélectionnez une ou plusieurs clés de réconciliation.
-   * **[!UICONTROL None]** : Aucune réconciliation n&#39;aura lieu.
+   * **[!UICONTROL Automatique]** : La réconciliation se fait sur l&#39;email, puis sur le nom, le prénom et la date de naissance.
+   * **[!UICONTROL Manuelle]** : Vous devez sélectionner une ou plusieurs clés de réconciliation.
+   * **[!UICONTROL Aucune]** : Aucune réconciliation n&#39;est effectuée.
 
 1. Dans le champ **[!UICONTROL Mapping]**, sélectionnez le schéma sur lequel vous souhaitez effectuer la réconciliation.
 
    >[!CAUTION]
    >
-   >Assurez-vous que les champs de l’ **[!UICONTROL Social networks]** onglet sont correctement saisis dans le mappage de remise. Les mappages de remise sont accessibles via le **[!UICONTROL Administration > Campaign management > Target mappings]** noeud.
+   >Assurez-vous que les champs de l&#39;onglet **[!UICONTROL Réseaux sociaux]** du mapping de diffusion sont correctement renseignés. Les mappings de diffusions sont accessibles à partir du noeud **[!UICONTROL Administration > Gestion de campagne > Mappings de ciblage]**.
 
 1. Vous pouvez sélectionner un dossier de recherche pour la réconciliation et un dossier de création pour les nouveaux profils. Si ces champs sont vides, les profils sont recherchés et créés dans le dossier par défaut correspondant au schéma du mapping.
 
 ### Activité de fin {#end-activity}
 
-Pour éviter l’erreur d’affichage liée à Facebook, vous devez cocher la **[!UICONTROL Use an external URL]** case et saisir l’URL de l’application Facebook, suivie du **[!UICONTROL app_data]** paramètre et d’une valeur. Cette valeur sera utilisée dans l’ **[!UICONTROL Test]** activité pour détecter si l’utilisateur vient d’entrer dans le concours et pour afficher un message de remerciement, le cas échéant. For more on this, refer to: [Test activity](#test-activity).
+To sidestep the display error linked to Facebook, you need to check the **[!UICONTROL Use an external URL]** box and enter the URL of the Facebook application, followed by the **[!UICONTROL app_data]** parameter and a value. This value will be used in the **[!UICONTROL Test]** activity to detect whether or not the user has just entered the competition, and to display a thank you message if applicable. For more on this, refer to: [Test activity](#test-activity).
 
 Dans notre exemple, la valeur utilisée est **thanks**.
 
@@ -266,13 +266,13 @@ Dans notre exemple, la valeur utilisée est **thanks**.
 
 ### Ecran de détails d&#39;un visiteur {#details-screen-of-a-visitor}
 
-Comme pour les abonnés de Twitter (voir : Principe [d’exploitation](../../social/using/publishing-on-twitter.md#operating-principle)), les profils Facebook récupérés sont stockés dans le tableau des visiteurs. Pour afficher la liste des visiteurs, accédez au **[!UICONTROL Profiles and Targets > Visitors]** noeud.
+Comme pour les abonnés de Twitter (voir : Principe [d’exploitation](../../social/using/publishing-on-twitter.md#operating-principle)), les profils Facebook récupérés sont stockés dans le tableau des visiteurs. Pour afficher la liste des visiteurs, accédez au noeud **[!UICONTROL Profils et cibles > Visiteurs]** .
 
-Chaque prospect Facebook qui accepte de partager ses informations de profil est ajouté à la liste des visiteurs. Si la **[!UICONTROL Friends]** case est cochée dans l’ **[!UICONTROL Pre-load]** activité (voir : activité [de préchargement](#pre-loading-activity)), des amis sont également ajoutés.
+Chaque prospect Facebook qui accepte de partager ses informations de profil est ajouté à la liste des visiteurs. Si la case **[!UICONTROL Amis]** est cochée dans l’activité de **[!UICONTROL préchargement]** (voir : activité [de préchargement](#pre-loading-activity)), des amis sont également ajoutés.
 
 ![](assets/social_webapp_037.png)
 
-In the **[!UICONTROL Summary]** section of the visitor detail window, there are two possible states for the **[!UICONTROL New Contact]** indicator:
+Dans la section **[!UICONTROL Résumé]** de l&#39;écran de détails d&#39;un visiteur, l&#39;indicateur **[!UICONTROL Nouveau Contact]** peut avoir deux états :
 
 ![](assets/social_webapp_038.png)
 
@@ -280,15 +280,15 @@ Si une coche verte est affichée, cela signifie que le visiteur n&#39;a été r�
 
 ![](assets/social_webapp_039.png)
 
-Une croix rouge signifie que le visiteur a été réconcilié avec un destinataire. Vous pouvez cliquer sur la loupe à droite du **[!UICONTROL Recipient]** champ pour afficher le destinataire correspondant.
+Une croix rouge indique que le visiteur a été réconcilié avec un destinataire. Vous pouvez cliquer sur la loupe située à droite du champ **[!UICONTROL Destinataire]** pour afficher le destinataire correspondant.
 
 ![](assets/social_webapp_040.png)
 
-Accédez à la fenêtre détaillée d’un destinataire pour afficher le visiteur correspondant, le cas échéant. Sélectionnez l’ **[!UICONTROL Others]** onglet, puis cliquez deux fois sur le nom du visiteur dans la **[!UICONTROL Web identities]** section.
+A partir de l&#39;écran de détails d&#39;un destinataire, vous pouvez également afficher le visiteur correspondant, le cas échéant. Sélectionnez l&#39;onglet **[!UICONTROL Autres]**, puis double-cliquez sur le nom du visiteur dans la section **[!UICONTROL Identités web]**.
 
 ![](assets/social_webapp_041.png)
 
-The **[!UICONTROL Activities]** screen of a visitor&#39;s details page contains the following information:
+L&#39;onglet **[!UICONTROL Activités]** de l&#39;écran de détails d&#39;un visiteur regroupe les informations suivantes :
 
 * activités de type &quot;Open Graph&quot; du fan : musique écoutée, vidéos visionnées, articles lus et déduction des applications installées (Deezer, Spotify, Dailymotion, Yahoo News, etc.)
 
@@ -302,15 +302,15 @@ The **[!UICONTROL Activities]** screen of a visitor&#39;s details page contains 
 
    >[!NOTE]
    >
-   >Pour qu’Adobe Campaign puisse collecter les visites d’un fan, vous devez cliquer sur le **[!UICONTROL Subscribe]** bouton de l’écran de configuration du service. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+   >In order for Adobe Campaign to collect a fan&#39;s check-ins, you need to click the **[!UICONTROL Subscribe]** button on the service configuration screen. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
 ## Comment pré-remplir les champs d&#39;un formulaire avec les données de profil Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
-L’ **[!UICONTROL Social Marketing]** application vous permet également d’ajouter un bouton à un formulaire pour le préchargement de champs à l’aide des informations de profil Facebook. Cette option, disponible dans tous les modèles d’applications Web (activités de **[!UICONTROL Page]** type), est détaillée dans [cette section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+L’application **[!UICONTROL Social Marketing]** vous donne également la possibilité d’insérer, dans un formulaire, un bouton permettant de pré-remplir les champs grâce aux informations de profil Facebook. Cette option, disponible dans tous les modèles d’application web (activités de type **[!UICONTROL Page]**), est présentée dans [cette section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
 ![](assets/social_webapp_035.png)
 
 >[!NOTE]
 >
->Avant de commencer à utiliser cette fonction, vous devez créer une application Facebook et un compte externe de **[!UICONTROL Facebook Connect]** type. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+>Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
