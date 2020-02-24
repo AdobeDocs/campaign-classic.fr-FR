@@ -24,15 +24,15 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 Social Marketing met à disposition des rapports permettant de mesurer le taux de réactivité des diffusions Facebook et Twitter et d&#39;analyser l&#39;acquisition de profils Facebook. Les rapports disponibles sont les suivants :
 
-* The **[!UICONTROL Reactivity rate]** report, available via the **[!UICONTROL Summary]** tab of a Facebook or Twitter delivery.
+* Le rapport **[!UICONTROL Taux de réactivité]**, disponible à partir de l&#39;onglet **[!UICONTROL Résumé]** d&#39;une diffusion Facebook ou Twitter.
 
    ![](assets/social_report_3.png)
 
-* The **[!UICONTROL Reactivity rate]** report, available via the **[!UICONTROL Dashboard]** tab of a Twitter or Facebook service.
+* Le rapport **[!UICONTROL Taux de réactivité]**, disponible à partir de l&#39;onglet **[!UICONTROL Tableau de bord]** d&#39;un service Twitter ou Facebook.
 
    ![](assets/social_report_2.png)
 
-* The **[!UICONTROL Fan acquisition]** report, available via the **[!UICONTROL Dashboard]** tab of a Facebook service.
+* Le rapport **[!UICONTROL Acquisition des fans]**, disponible à partir de l&#39;onglet **[!UICONTROL Tableau de bord]** d&#39;un service Facebook.
 
    ![](assets/social_report_1.png)
 
