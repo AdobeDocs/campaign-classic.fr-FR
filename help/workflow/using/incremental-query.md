@@ -34,30 +34,30 @@ The query is defined in the same way as for standard queries (refer to [Creating
 
 Pour cela :
 
-1. Dans l’ **[!UICONTROL Scheduling & History]** onglet, sélectionnez l’ **[!UICONTROL Schedule execution]** option. La tâche reste active une fois qu’elle a été créée et ne sera déclenchée qu’aux moments spécifiés par le calendrier d’exécution de la requête. Cependant, si l&#39;option est désactivée, la requête est exécutée immédiatement **et en une seule fois**.
-1. Cliquez sur le **[!UICONTROL Change]** bouton.
+1. Dans l&#39;onglet **[!UICONTROL Planification &amp; Historique]**, sélectionnez l&#39;option **[!UICONTROL Planifier l&#39;exécution]**. La tâche reste active une fois créée et ne se déclenchera qu&#39;aux heures spécifiées par le planning pour exécuter la requête. En revanche, si l&#39;option est désactivée, la requête est exécutée immédiatement **et une seule fois**.
+1. Cliquez sur le bouton **[!UICONTROL Changer]**.
 
-   In the **[!UICONTROL Schedule editing wizard]** window, you can configure the type of frequency, event recurrence and event validity period.
+   Dans la fenêtre **[!UICONTROL Assistant d&#39;édition d&#39;un planning]** qui s&#39;affiche, vous pouvez paramétrer le type de périodicité, les événements de la périodicité et la période de validité des événements.
 
    ![](assets/s_user_segmentation_wizard_11.png)
 
-1. Click **[!UICONTROL Finish]** to save the schedule.
+1. Cliquez sur **[!UICONTROL Terminer]** pour enregistrer le planning.
 
    ![](assets/s_user_segmentation_wizard_valid.png)
 
-1. The lower section of the **[!UICONTROL Scheduling & History]** tab allows you to select the number of days to be taken into account in the history.
+1. La section inférieure de l&#39;onglet **[!UICONTROL Planification &amp; Historique]** permet de sélectionner le nombre de jours d&#39;historique à prendre en compte.
 
    ![](assets/edit_request_inc.png)
 
-   * **[!UICONTROL History in days]**
+   * **[!UICONTROL Jours d&#39;historique]**
 
       Les destinataires déjà ciblés peuvent être historisés un nombre maximum de jours à partir du jour où ils sont ciblés. Si cette valeur vaut zéro, les destinataires ne sont jamais supprimés de l&#39;historique.
 
-   * **[!UICONTROL Keep history when starting]**
+   * **[!UICONTROL Conserver l&#39;historique au démarrage]**
 
       Cette option permet de ne pas effacer l&#39;historique lors de l&#39;activation de l&#39;activité.
 
-   * **[!UICONTROL SQL table name]**
+   * **[!UICONTROL Nom de la table SQL]**
 
       Ce champ permet de surcharger la table SQL par défaut contenant les données d&#39;historique.
 
@@ -70,14 +70,14 @@ Ces campagnes étant lancées à chaque début de saison afin de proposer des ac
 ![](assets/incremental_query_example.png)
 
 1. Placez une activité de requête incrémentale ainsi qu&#39;une activité de mise à jour de liste dans un nouveau workflow.
-1. Configurez l’ **[!UICONTROL Incremental query]** onglet de l’activité comme indiqué dans [Création d’une requête](../../workflow/using/query.md#creating-a-query).
-1. Sélectionnez l’ **[!UICONTROL Scheduling & History]** onglet, puis spécifiez un historique de 270 jours. Un destinataire déjà ciblé ne sera plus ciblé pendant 270 jours, soit environ 9 mois.
+1. Configure the **[!UICONTROL Incremental query]** tab of the activity as specified in [Creating a query](../../workflow/using/query.md#creating-a-query).
+1. Sélectionnez l&#39;onglet **[!UICONTROL Planification &amp; Historique]** et indiquez un historique de 270 jours. Un destinataire déjà ciblé ne sera plus ciblé pour une période de 270 jours, soit environ 9 mois.
 
-   Then click the **[!UICONTROL Change...]** button.
+   Cliquez ensuite sur le bouton **[!UICONTROL Changer...]**.
 
-1. To ensure the list is updated before the start of each season, select **[!UICONTROL Monthly]**.
+1. Le but étant de mettre à jour la liste avant chaque début de saison, sélectionnez le type de périodicité **[!UICONTROL Mensuel]**.
 1. À l&#39;écran suivant, sélectionnez les mois de mars, juin, septembre et décembre. Indiquez comme jour le 20 du mois et choisissez l&#39;heure à laquelle lancer l&#39;exécution du workflow.
-1. Next select the validity period for the query. For example, if you want this activity to be permanently active, select **[!UICONTROL Permanent validity]**.
+1. Sélectionnez ensuite la période de validité de la requête. Par exemple, si vous souhaitez que cette dernière soit active en permanence, sélectionnez **[!UICONTROL Validité permanente]**.
 
    ![](assets/incremental_query_example_2.png)
 
@@ -91,4 +91,4 @@ Le workflow sera ainsi lancé automatiquement juste avant chaque début de saiso
 * schema
 * recCount
 
-Cet ensemble de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identificateurs cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:destinataire) et **[!UICONTROL recCount]** est le nombre d’éléments de la table.
+Ce triplet de valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
