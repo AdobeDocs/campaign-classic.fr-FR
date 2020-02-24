@@ -126,22 +126,22 @@ Voici une liste descriptive des opérateurs disponibles :
 
 Dans les requêtes utilisant plus d&#39;un critère de filtrage, vous devez définir les liens entre conditions. Il y a trois liens possibles :
 
-* **[!UICONTROL And]** permet de combiner deux conditions de filtrage,
-* **[!UICONTROL Or]** vous permet d’offrir une alternative,
-* **[!UICONTROL Except]** vous permet de définir une exception.
+* **[!UICONTROL Et]** permet de cumuler deux conditions de filtrage,
+* **[!UICONTROL Ou]** sert à proposer une alternative,
+* **[!UICONTROL Sauf]** sert à définir une exception.
 
-Click **[!UICONTROL And]** (offered by default) and choose from the drop-down list.
+Cliquez sur le **[!UICONTROL Et]** (proposé par défaut) et faites votre choix dans la liste déroulante.
 
 ![](assets/query_condition_modif_01.png)
 
-* **[!UICONTROL And]**: ajoute une condition et active le surfiltrage.
-* **[!UICONTROL Or]**: ajoute une condition et active le surfiltrage.
+* **[!UICONTROL Et]** : ajoute une condition en plus de la précédente et permet de surfiltrer.
+* **[!UICONTROL Ou]** : permet de prendre en compte au moins un résultat par rapport aux conditions définies.
 
    L&#39;exemple ci-dessous permet de retrouver des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; OU dont le code postal commence par le chiffre &quot;49&quot;.
 
    ![](assets/query_condition_modif_02.png)
 
-* **[!UICONTROL Except]**: si vous avez deux filtres et que le premier ne renvoie pas de valeur, ce type de lien crée une exception.
+* **[!UICONTROL Sauf]** : si vous avez deux filtres et que le premier permet de ne pas obtenir de valeur, une relation de ce type crée une exception.
 
    Dans l&#39;exemple ci-dessous, on recherche des destinataires dont le domaine d&#39;email contient &quot;voila.fr&quot; SAUF si le nom de famille des destinataires correspond à la valeur &quot;Smith&quot;.
 
@@ -162,33 +162,33 @@ Cette section explique comment hiérarchiser les conditions. Ceci est possible g
 
 * Les flèches pointant vers le haut et vers le bas permettent de déplacer une condition. Cela modifie l&#39;ordre d&#39;exécution des filtres.
 
-Cet exemple montre comment utiliser la flèche pour supprimer un niveau de parenthèse. Commencez par la condition de filtrage suivante : **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**.
+L&#39;exemple qui suit montre le comportement de la flèche servant à supprimer le niveau de parenthèse. La condition de filtrage de base est : **[!UICONTROL Ville égale à Saumur OU genre égal à masculin et numéro de téléphone mobile non renseigné OU numéro de compte commence par &quot;95&quot; et dont nom de société commence par &quot;A&quot;]**.
 
-Placez votre curseur sur la condition de **[!UICONTROL Gender (@gender) equal to Male]** filtrage et cliquez sur la **[!UICONTROL Remove a parenthesis level]** flèche.
+Pointez votre curseur sur la condition de filtrage **[!UICONTROL Gender (@gender) égal à Masculin]** puis cliquez sur la flèche **[!UICONTROL Supprimer un niveau de parenthèses]**.
 
 ![](assets/query_editor_nveau_32.png)
 
-La **[!UICONTROL Gender (@gender) equal to Male]** condition a été supprimée de ses parenthèses. Il est passé au même niveau que la condition &quot;City égale à Londres&quot;. Ces conditions sont liées (**[!UICONTROL And]**).
+La condition **[!UICONTROL Gender (@gender) égal à Masculin]** vient d&#39;être extraite de sa parenthèse. Elle se situe désormais au même niveau que la condition &quot;Ville égale à Saumur&quot;. Ces deux conditions sont liées par un **[!UICONTROL Et]**.
 
 ## Sélectionner les données à extraire {#selecting-data-to-extract}
 
-The available fields vary from one table to another. All fields are stored in a main node known as the **[!UICONTROL Main element]**. In the following example, the available fields are in the recipient table. Les champs sont toujours affichés par ordre alphabétique.
+Les champs disponibles varient d&#39;une table à l&#39;autre. Tous les champs sont stockés dans un nœud principal, nommé **[!UICONTROL Elément principal]**. Les champs de l&#39;exemple ci-dessous sont ceux de la table des destinataires (nms:recipient). Les champs sont toujours ordonnés alphabétiquement.
 
-Le détail du champ sélectionné est visible au bas de la fenêtre. Par exemple, le **[!UICONTROL Email domain]** champ est un **[!UICONTROL Calculated SQL field]** et son extension est **[!UICONTROL (@domain)]**.
+Le détail du champ sélectionné est visible au bas de la fenêtre. Par exemple, le champ **[!UICONTROL Domaine de l&#39;email]** est un **[!UICONTROL Champ calculé SQL]**. Le reste de son appellation est **[!UICONTROL (@domain)]**.
 
 ![](assets/query_editor_nveau_59.png)
 
 >[!NOTE]
 >
->Use the **[!UICONTROL Search]** tool to find an available field.
+>Utilisez la section **[!UICONTROL Rechercher]** pour retrouver un champ disponible.
 
-Cliquez deux fois sur un champ disponible pour l’ajouter aux colonnes de sortie. A la fin de la requête, chaque champ sélectionné crée une colonne dans la **[!UICONTROL Data preview]** fenêtre.
+Double-cliquez sur un champ disponible pour l&#39;ajouter aux colonnes de sortie. En fin de requête, chaque champ sélectionné correspond à une colonne dans la fenêtre **[!UICONTROL Prévisualisation des données]**.
 
 ![](assets/query_editor_nveau_01.png)
 
-Les champs avancés ne sont pas affichés par défaut. Cliquez **[!UICONTROL Display advanced fields]** dans le coin inférieur droit des champs disponibles pour tout afficher. Cliquez de nouveau pour revenir à l’ancienne vue.
+Les champs avancés ne sont pas affichés par défaut. Cliquez sur **[!UICONTROL Afficher les champs avancés]**, en bas à droite des champs disponibles pour les afficher. Cette fonction affiche le nom complet des champs.
 
-Par exemple, dans le tableau des destinataires, les champs avancés sont **Boolean 1**, **[!UICONTROL Boolean 2]**, **[!UICONTROL Boolean 3]**, **[!UICONTROL Foreign key of "Folder" link]**, etc.
+Par exemple, dans la table des destinataires, les champs avancés sont **Booléen 1**, **[!UICONTROL Booléen 2]**, **[!UICONTROL Booléen 3]**, **[!UICONTROL Clé étrangère du lien &quot;Dossier&quot;]**, etc.
 
 L&#39;exemple ci-dessous montre les champs avancés de la table des destinataires.
 
@@ -264,7 +264,7 @@ Liens vers une table et éléments de collection :
 
 >[!NOTE]
 >
->* Utilisez le **[!UICONTROL Add]** bouton (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [Création d’expressions](#building-expressions).
+>* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [Création d’expressions](#building-expressions).
 >* Supprimez une colonne de sortie en cliquant sur la croix rouge **Supprimer**.
 >* Modifiez l&#39;ordre des colonnes de sortie grâce aux flèches.
 >* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
@@ -272,42 +272,42 @@ Liens vers une table et éléments de collection :
 
 ## Création de champs calculés {#creating-calculated-fields}
 
-If necessary, add a column during data formatting. A calculated field adds a column to the data preview section. Click **[!UICONTROL Add a calculated field]**.
+Au besoin, ajoutez une colonne lors du formatage des données. Un champ calculé rajoute une colonne dans la fenêtre de prévisualisation des données. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**.
 
 ![](assets/query_editor_nveau_43.png)
 
 Quatre types de champ calculé sont proposés :
 
-* **[!UICONTROL Fixed string]**: vous permet d’ajouter une chaîne de caractères.
+* **[!UICONTROL Chaîne fixe]** : pour ajouter une chaîne de caractères.
 
    ![](assets/query_editor_nveau_60.png)
 
-* **[!UICONTROL String with JavaScript tags]**: la valeur du champ calculé combine une chaîne de caractères et des directives JavaScript.
+* **[!UICONTROL Chaîne avec fusion JavaScript]** : la valeur du champ calculé combine une chaîne de caractères à des directives JavaScript.
 
    ![](assets/query_editor_nveau_61.png)
 
-* **[!UICONTROL JavaScript expression]**: la valeur du champ calculé est le résultat d’une évaluation de fonction JavaScript. La valeur renvoyée peut être saisie (nombre, date, etc.).
+* **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript. La valeur retournée peut être typée (nombre, date, etc.).
 
    ![](assets/query_editor_nveau_62.png)
 
-* **[!UICONTROL Enumerations]**: Ce type de champ vous permet d’utiliser/de modifier le contenu d’une des colonnes de sortie dans une nouvelle colonne.
+* **[!UICONTROL Enumérations]**. Ce type de champ permet d&#39;utiliser/transformer le contenu d&#39;une des colonnes de sortie dans une nouvelle colonne.
 
    On peut utiliser la valeur source d&#39;une colonne et lui donner une valeur de destination. Cette valeur de destination sera affichée dans la nouvelle colonne de sortie.
 
-   An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to [this section](../../workflow/using/adding-enumeration-type-calculated-field.md).
+   Un exemple d&#39;ajout de champ calculé de type **[!UICONTROL Enumérations]** est disponible. Reportez-vous à [cette section](../../workflow/using/adding-enumeration-type-calculated-field.md).
 
    ![](assets/query_editor_nveau_63.png)
 
-   The **[!UICONTROL Enumerations]** type calculated field can include 4 conditions:
+   Le champ calculé de type **[!UICONTROL Enumérations]** peut comporter quatre conditions :
 
-   * **[!UICONTROL Keep the source value]** restaure la valeur source à la cible sans la modifier.
-   * **[!UICONTROL Use the following value]** vous permet de saisir une valeur de destination par défaut pour les valeurs source non définies.
-   * **[!UICONTROL Generate a warning and continue]** avertit l’utilisateur que la valeur source ne peut pas être modifiée.
-   * **[!UICONTROL Generate an error and reject the line]** empêche le calcul et l’importation de la ligne.
+   * **[!UICONTROL Conserver la valeur source]** restitue la valeur de la source, sans transformation dans la cible.
+   * **[!UICONTROL Utiliser la valeur suivante]** sert à saisir une valeur de destination par défaut, pour les valeurs sources non définies.
+   * **[!UICONTROL Générer un avertissement et continuer]** avertit l&#39;utilisateur que la valeur source ne peut être transformée.
+   * **[!UICONTROL Générer une erreur et rejeter la ligne]** empêche le calcul de la ligne et son export.
 
-Cliquez sur **[!UICONTROL Detail of calculated field]** pour afficher les détails du champ inséré.
+Cliquez sur la loupe **[!UICONTROL Détail du champ calculé]** pour visualiser le champ inséré en détail.
 
-Pour supprimer ce champ calculé, cliquez sur la **[!UICONTROL Remove the calculated field]** croix.
+Pour retirer le champ, cliquez sur la croix rouge **[!UICONTROL Enlever le champ calculé]**.
 
 ![](assets/query_editor_nveau_58.png)
 
@@ -319,11 +319,11 @@ L&#39;exemple ci-dessous présente comment faire un comptage sur une clé primai
 
 Les étapes sont les suivantes :
 
-1. Cliquez sur **[!UICONTROL Add]** dans la **[!UICONTROL Data to extract]** fenêtre. Dans la **[!UICONTROL Formula type]** fenêtre, sélectionnez un type de formule pour entrer l’expression.
+1. Cliquez sur **[!UICONTROL Ajouter]** dans la fenêtre **[!UICONTROL Données à extraire]**. Dans la fenêtre **[!UICONTROL Type de formule]**, sélectionnez un type de formule pour renseigner votre expression.
 
-   Il existe plusieurs types de formules : **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
+   Plusieurs types de formules sont disponibles : **[!UICONTROL Champ simple]**, **[!UICONTROL Agrégat]**, **[!UICONTROL Expression]**.
 
-   Sélectionnez **[!UICONTROL Process on an aggregate function]**, puis **[!UICONTROL Count]**. Clics **[!UICONTROL Next]**.
+   Sélectionnez **[!UICONTROL Traitement sur une fonction d&#39;agrégat]** puis **[!UICONTROL Comptage]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_nveau_54.png)
 
@@ -331,22 +331,22 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_88.png)
 
-Here is a detailed view of the choices available in the **[!UICONTROL Formula types]** window:
+Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
 
 ![](assets/query_editor_nveau_05.png)
 
-1. **[!UICONTROL Field only]** vous permet de revenir à la **[!UICONTROL Field to select]** fenêtre.
-1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. Voici quelques exemples d’utilisation agrégée :
+1. **[!UICONTROL Champ simple]** permet de revenir à la fenêtre **[!UICONTROL Champ à sélectionner]**.
+1. **[!UICONTROL Agrégat (Traitement sur une fonction d&#39;agrégat)]**. Voici des exemples d&#39;utilisation des agrégats :
 
-   * **[!UICONTROL Count]** vous permet d’exécuter un nombre de clés primaires.
-   * **[!UICONTROL Sum]** vous permet de cumuler tous les achats effectués par un client sur une période d’un an.
-   * **[!UICONTROL Maximum value]** vous permet de trouver les clients ayant acheté le plus de produits &quot;n&quot;.
-   * **[!UICONTROL Minimum value]** vous permet de trier les clients et de rechercher ceux qui se sont abonnés à une offre récemment.
-   * **[!UICONTROL Average]**. Cette fonction vous permet de calculer l’âge moyen de vos destinataires.
+   * **[!UICONTROL Comptage]** permet d&#39;effectuer un comptage de clé primaire.
+   * **[!UICONTROL Somme]** sert à totaliser tous les achats d&#39;un prospect sur une année.
+   * **[!UICONTROL Valeur maximum]** pour retrouver des clients qui ont acheté un maximum de &quot;n&quot; produits.
+   * **[!UICONTROL Valeur minimum]** permet d&#39;obtenir parmi des clients, ceux qui ont souscrit à une offre le plus récemment.
+   * **[!UICONTROL Moyenne]**. Cette fonction permet de calculer l&#39;âge moyen des destinataires.
 
-      La **[!UICONTROL Distinct]** zone permet de récupérer les valeurs uniques et non nulles d’une colonne. Par exemple, vous pouvez récupérer tous les journaux de suivi d’un destinataire et ces journaux de suivi sont modifiés sur la valeur 1, car ils concernent tous le même destinataire.
+      La case **[!UICONTROL Distinct]** permet de récupérer les valeurs uniques et non nulles d&#39;une colonne. On peut ainsi récupérer les logs de tracking d&#39;un destinataire qui seront ramenés à la valeur 1 car il s&#39;agit d&#39;un seul destinataire.
 
-1. **[!UICONTROL Expression]** ouvre la **[!UICONTROL Edit the expression]** fenêtre. Vous pouvez ainsi détecter les numéros de téléphone avec trop de chiffres, susceptibles d’être des erreurs d’entrée.
+1. **[!UICONTROL Expression]** ouvre la fenêtre **[!UICONTROL Edition de l&#39;expression]**. Par exemple, une expression pourra détecter les numéros de téléphone de plus de 10 chiffres, synonymes de possibles erreurs de saisie.
 
    ![](assets/query_editor_nveau_71.png)
 
@@ -354,7 +354,7 @@ Here is a detailed view of the choices available in the **[!UICONTROL Formula ty
 
 ## Liste des fonctions {#list-of-functions}
 
-Si une formule de **[!UICONTROL Expression]** type est choisie, vous serez dirigé vers la fenêtre &quot;modifier l’expression&quot;. Diverses catégories de fonctions peuvent être associées aux champs disponibles : **[!UICONTROL Aggregates]**, **[!UICONTROL String]**, **[!UICONTROL Date]**, **[!UICONTROL Numerical]**, **[!UICONTROL Currency]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Windowing function]** et .**[!UICONTROL Others]**
+Dans le cas où une formule de type **[!UICONTROL Expression]** est choisie, vous vous retrouvez dans la fenêtre édition de l&#39;expression. Différentes catégories de fonctions sont à associer aux champs disponibles : **[!UICONTROL Agrégats]**, **[!UICONTROL Chaine]**, **[!UICONTROL Date]**, **[!UICONTROL Numérique]**, **[!UICONTROL Monétaire]**, **[!UICONTROL Géomarketing]**, **[!UICONTROL Autres]** et **[!UICONTROL Fonctions Windows]**.
 
 L&#39;éditeur d&#39;expression se présente comme suit :
 
