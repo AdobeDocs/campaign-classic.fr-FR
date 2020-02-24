@@ -30,7 +30,7 @@ Toutes les données collectées peuvent être utilisées pour mettre à jour la 
 
 Les données de la base Adobe Campaign et les listes existantes peuvent être mises à jour via deux activités dédiées :
 
-* The **[!UICONTROL List update]** activity lets you store worktables in a datalist.
+* L&#39;activité **[!UICONTROL Mise à jour de liste]** permet de stocker les tables de travail dans une liste de données.
 
    Vous pouvez sélectionner une liste existante ou la créer. Dans ce cas, le nom et éventuellement le dossier d&#39;enregistrement sont calculés.
 
@@ -38,7 +38,7 @@ Les données de la base Adobe Campaign et les listes existantes peuvent être mi
 
    Reportez-vous à la mise à jour [de la](../../workflow/using/list-update.md)liste.
 
-* The **[!UICONTROL Update data]** activity performs a mass update of the fields in the database.
+* L&#39;activité **[!UICONTROL Mise à jour de données]** permet de mettre à jour en masse les champs de la base de données.
 
    For more on this, refer to [Update data](../../workflow/using/update-data.md).
 
@@ -70,7 +70,7 @@ Dans le cadre d&#39;une diffusion par email, les champs de personnalisation peuv
 
 ![](assets/s_advuser_add_data_email.png)
 
-Si un code de segment est spécifié dans une activité de ciblage, il est ajouté à une colonne spécifique du tableau de flux de travail et sera proposé avec les champs de personnalisation. Pour afficher tous les champs de personnalisation, cliquez sur le **[!UICONTROL Target extension > Other...]** lien accessible via le bouton de personnalisation.
+Si un code segment est indiqué dans une activité de ciblage, il est ajouté dans une colonne spécifique de la table du workflow et il sera proposé parmi les champs de personnalisation. Pour afficher tous les champs de personnalisation, cliquez sur le lien **[!UICONTROL Extension de la cible > Autre...]** accessible à partir du bouton de personnalisation.
 
 ![](assets/s_advuser_segment_code_select.png)
 
@@ -78,7 +78,7 @@ Si un code de segment est spécifié dans une activité de ciblage, il est ajout
 
 ### Compresser ou chiffrer un fichier {#zipping-or-encrypting-a-file}
 
-Adobe Campaign vous permet d’exporter des fichiers compressés ou chiffrés. Lors de la définition d’une exportation via une **[!UICONTROL Data extraction (file)]** activité, vous pouvez définir un post-traitement pour compresser ou chiffrer le fichier.
+Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors de la définition d&#39;un export par le biais d&#39;une activité **[!UICONTROL Extraction (fichier)]**, vous pouvez définir une étape de post-traitement pour le compresser ou le chiffrer.
 
 Pour ce faire :
 
