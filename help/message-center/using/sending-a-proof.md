@@ -31,7 +31,7 @@ L&#39;envoi d&#39;un BAT se fait selon le même principe que pour une diffusion 
 
 Pour effectuer l&#39;envoi :
 
-1. Cliquez sur le **[!UICONTROL Send a proof]** bouton dans la fenêtre de remise.
+1. Cliquez sur bouton **[!UICONTROL Envoyer un BAT]** dans la fenêtre de diffusion.
 1. Analysez la diffusion.
 1. Corrigez les erreurs et validez la diffusion.
 
@@ -41,7 +41,7 @@ Pour effectuer l&#39;envoi :
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
+Les BAT sont accessibles au niveau de chaque modèle, depuis l&#39;onglet **[!UICONTROL Suivi]**.
 
 ![](assets/messagecenter_send_proof_003.png)
 
