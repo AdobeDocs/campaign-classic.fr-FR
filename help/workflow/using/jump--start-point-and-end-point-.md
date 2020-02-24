@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Saut (départ et arrivée){#jump-start-point-and-end-point}
 
-**[!UICONTROL Jump]** Les objets graphiques de type -type sont utilisés pour améliorer la lisibilité d&#39;un diagramme complexe, particulièrement lorsqu&#39;il s&#39;agit de transitions entre deux niveaux.
+Les objets graphiques de type **[!UICONTROL Saut]** sont utilisés pour améliorer la lisibilité d&#39;un diagramme complexe, notamment dans le cas où des transitions se croisent.
 
 Les sauts sont des transitions sans flèches : ils permettent de passer d&#39;une activité à une autre, comme dans l&#39;exemple ci-dessous.
 
