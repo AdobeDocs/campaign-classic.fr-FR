@@ -24,20 +24,20 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 Dans cet exemple, nous souhaitons envoyer à un opérateur une alerte qui contiendra le nom des profils qui ont ouvert une newsletter, sans toutefois cliquer sur le lien qu&#39;il contient.
 
-Les champs de prénom et de nom des profils sont liés à la dimension de **[!UICONTROL Recipients]** ciblage, tandis que l’ **[!UICONTROL Alert]** activité est liée à la dimension de **[!UICONTROL Operator]** ciblage. Par conséquent, aucun champ n’est disponible entre les deux dimensions de ciblage pour effectuer un rapprochement et récupérer les champs de prénom et de nom, puis les afficher dans l’activité Alerte.
+Les champs de prénom et nom des profils sont liés à la dimension de ciblage **[!UICONTROL Destinataires]**, alors que l&#39;activité **[!UICONTROL Alerte]** est liée à la dimension de ciblage **[!UICONTROL Opérateur]**. En conséquence, aucun champ n&#39;est disponible entre les deux dimensions de ciblage pour effectuer une réconciliation, récupérer les champs de prénom et nom, et les afficher dans l&#39;activité Alerte.
 
 Le processus créé un workflow comme ci-dessous :
 
-1. Use a **[!UICONTROL Query]** activity to target data.
-1. Add a **[!UICONTROL JavaScript code]** activity into the workflow to save the population form the query to the instance variable.
+1. Utilisez une activité **[!UICONTROL Requête]** sur les données de la cible.
+1. Ajoutez une activité **[!UICONTROL Code JavaScript]** dans le workflow afin d&#39;enregistrer la population de la requête dans la variable d&#39;instance.
 1. Utilisez une activité **[!UICONTROL Test]** pour vérifier le nombre de personnes.
-1. Use an **[!UICONTROL Alert]** activity to send an alert to an operator, depending on the **[!UICONTROL Test]** activity result.
+1. Utilisez une activité **[!UICONTROL Alerte]** pour envoyer une alerte à un opérateur, selon le résultat de l&#39;activité **[!UICONTROL Test]**.
 
 ![](assets/uc_operator_1.png)
 
 ## Enregistrer la population dans la variable d&#39;instance {#saving-the-population-to-the-instance-variable}
 
-Add the code below into the **[!UICONTROL JavaScript code]** activity.
+Ajoutez le code ci-dessous dans l&#39;activité **[!UICONTROL Code JavaScript]**.
 
 ```
 var query = xtk.queryDef.create(  
@@ -60,11 +60,11 @@ Assurez-vous que le code JavaScript correspond à vos informations de workflow 
 
 Pour récupérer ces informations, procédez comme suit :
 
-1. Cliquez avec le bouton droit de la souris sur la transition sortante à partir de l’ **[!UICONTROL Query]** activité, puis sélectionnez **[!UICONTROL Display the target]**.
+1. Cliquez avec le bouton droit sur la transition sortante à partir de l&#39;activité **[!UICONTROL Requête]**, puis sélectionnez **[!UICONTROL Afficher la cible]**.
 
    ![](assets/uc_operator_4.png)
 
-1. Cliquez avec le bouton droit sur la liste, puis sélectionnez **[!UICONTROL Configure list]**.
+1. Cliquez avec le bouton droit sur la liste, puis sélectionnez **[!UICONTROL Configurer la liste]**.
 
    ![](assets/uc_operator_5.png)
 
@@ -84,7 +84,7 @@ var.recCount>0
 
 ## Configurer l&#39;alerte {#setting-up-the-alert}
 
-Now that the population has been added into the instance variable with the desired fields, you can add these information into the **[!UICONTROL Alert]** activity.
+Maintenant que la population a été ajoutée dans la variable d&#39;instance avec les champs souhaités, vous pouvez ajouter ces informations dans l&#39;activité **[!UICONTROL Alerte]**.
 
 Pour ce faire, ajoutez le code ci-dessous dans l&#39;onglet **[!UICONTROL Source]** :
 
@@ -101,7 +101,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->The **[!UICONTROL <%= item.target.recipient.@fieldName %>]** command lets you add one of the fields that have been saved to the instance variable through the **[!UICONTROL JavaScript code]** activity.\
+>Le **[!UICONTROL &lt;%= item.target.Recipient.@fieldName %>]** command lets you add one of the fields that have been saved to the instance variable through the **[!UICONTROL JavaScript code]** activity.\
 >Vous pouvez ajouter autant de champs que vous le souhaitez, dès lors qu&#39;ils ont été insérés dans le code JavaScript.
 
 ![](assets/uc_operator_8.png)
