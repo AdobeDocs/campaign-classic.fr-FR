@@ -52,7 +52,7 @@ Selon le canal, les modes de diffusion peuvent être les suivants :
 * Envoi en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
 * Envoi en externe, via un opérateur spécialisé, auquel est fourni le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal Courrier).
 
-Les comptes externes sont configurés via le **[!UICONTROL Administration > Platform > External accounts]** noeud. Cette configuration ne doit être effectuée que par des utilisateurs experts.
+Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plate-forme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
 
 ## Diffusions Email {#email-deliveries}
 
@@ -78,7 +78,7 @@ Pour les messages LINE, vous pouvez envoyer du texte ou des images et des liens.
 
 Pour diffuser des SMS ou des messages LINE vers un téléphone mobile, il vous faut :
 
-* An external account configured on the **[!UICONTROL Mobile (SMS)]** channel or on the **[!UICONTROL LINE]** channel.
+* un compte externe paramétré sur le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL LINE]**,
 * un modèle de diffusion SMS ou LINE correctement lié à ce compte externe.
 
 ## Notifications push {#push-notifications}
