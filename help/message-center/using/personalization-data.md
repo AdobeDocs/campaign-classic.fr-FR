@@ -30,7 +30,7 @@ Ces données n&#39;ont pour but que de tester vos messages avant leur envoi effe
 
 This information enables you to personalize message content using personalization tags (for more on this, refer to [Creating message content](../../message-center/using/creating-message-content.md)).
 
-1. In the message template, click the **[!UICONTROL Seed addresses]** tab.
+1. Dans le modèle de message, cliquez sur l&#39;onglet **[!UICONTROL Adresses de contrôle]**.
 1. Dans le contenu de l&#39;événement, entrez les informations de test au format XML.
 
    ![](assets/messagecenter_create_custo_001.png)
