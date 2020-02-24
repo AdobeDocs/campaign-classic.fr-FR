@@ -65,9 +65,9 @@ Voir à ce propos [cette section](../../production/using/recommendations.md).
 
 Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;elles deviennent trop volumineuses, les performances de la base sont affectées. Ces tables sont créées notamment par les workflows et les diffusions. Elles ne disparaissent pas de la base tant que le traitement des workflows et des diffusions n&#39;est pas terminé ou qu&#39;ils n&#39;ont pas été interrompus ou supprimés. Pour limiter les tables de travail vous pouvez effectuer les opérations suivantes :
 
-* arrêter ou supprimer des livraisons avec les états suivants : **[!UICONTROL Failed]** , **[!UICONTROL In progress]** , **[!UICONTROL Ready for delivery]** ou **[!UICONTROL Paused]** .
+* arrêter ou supprimer les diffusions dont le statut est, au choix, **[!UICONTROL En échec]**, **[!UICONTROL En cours]**, **[!UICONTROL Prête à être diffusée]**, ou **[!UICONTROL En pause]** .
 * arrêter ou supprimer les workflows qui sont en pause à cause d&#39;une erreur,
-* stop all workflows used for tests which do not contain an **[!UICONTROL End]** activity and whose status therefore remains **[!UICONTROL Paused]** .
+* arrêter les workflows utilisés pour faire des tests, qui ne contiennent pas d&#39;activité **[!UICONTROL Fin]** et dont le statut est, de ce fait, **[!UICONTROL En pause]** .
 
 >[!CAUTION]
 >
