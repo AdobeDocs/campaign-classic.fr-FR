@@ -36,7 +36,7 @@ Les commandes d&#39;installation permettent de :
 >
 >L&#39;utilisateur système **neolane** ne doit pas avoir été créé avant de lancer ces commandes. L&#39;utilisateur **neolane** est automatiquement créé lors de l&#39;installation.
 >
->Le répertoire **racine** lié à l’utilisateur **néolane** est également créé automatiquement dans **[!UICONTROL /usr/local/neolane]**. Assurez-vous qu&#39;il y a suffisamment d&#39;espace sur le **[!UICONTROL /usr/local]** disque (plusieurs Go).
+>Le répertoire **home** associé à l&#39;utilisateur **neolane** est lui aussi automatiquement créé sous **[!UICONTROL /usr/local/neolane]**. Assurez-vous que **[!UICONTROL /usr/local]** comporte suffisamment d&#39;espace disque (quelques giga-octets sont nécessaires).
 
 You can run the **ping`hostname`**command to make sure the server can reach itself.
 
