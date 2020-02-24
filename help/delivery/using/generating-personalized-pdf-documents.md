@@ -30,7 +30,7 @@ Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot;
 
 Pour personnaliser vos documents, vous disposez des mêmes fonctionnalités JavaScript que celles disponibles pour la personnalisation des e-mails.
 
-Vous devez activer l’ **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** option. Cette option est accessible lorsque vous joignez le fichier au courrier électronique de remise. Pour plus d’informations sur l’association d’un fichier calculé, reportez-vous à la section [Joindre des fichiers](../../delivery/using/attaching-files.md) .
+You need to activate the **[!UICONTROL &quot;The content of the file is personalized and converted to PDF during the delivery of each message&quot;]** option. This option is accessible when you attach the file to the delivery email. Pour plus d’informations sur l’association d’un fichier calculé, reportez-vous à la section [Joindre des fichiers](../../delivery/using/attaching-files.md) .
 
 Exemple de personnalisation de l&#39;en-tête d&#39;une facture :
 
@@ -43,7 +43,7 @@ Si vous souhaitez générer des tableaux dynamiques ou inclure des images à par
 La procédure pour générer des tableaux dynamiques est la suivante :
 
 * Créez un tableau de trois lignes, avec autant de colonnes que vous le souhaitez, et paramétrez sa mise en forme (bordures, trame, etc.).
-* Placez votre curseur sur le tableau et cliquez sur le **[!UICONTROL Table > Table properties]** menu. Accédez à l’ **[!UICONTROL Table]** onglet et saisissez un nom commençant par **NlJsTable**.
+* Positionnez le curseur sur le tableau créé, et cliquez dans le menu **[!UICONTROL Tableau > Propriétés du tableau]**. Depuis l&#39;onglet **[!UICONTROL Tableau]**, saisissez un nom commençant par **NlJsTable**.
 * Dans la première cellule de la première ligne, définissez une boucle (&quot;for&quot; par exemple) qui va permettre d&#39;itérer sur les valeurs que vous souhaitez afficher dans votre tableau.
 * Insérez, dans chaque cellule de la deuxième ligne du tableau, les scripts retournant les valeurs à afficher.
 * Fermez votre boucle dans la troisième et dernière ligne du tableau.
@@ -69,9 +69,9 @@ Pour cela, il est nécessaire de paramétrer un bloc de personnalisation puis d&
 
 **Etape n°2 : Création du bloc de personnalisation:**
 
-* Accédez au **[!UICONTROL Resources > Campaign management > Personalization blocks]** menu de la console Adobe Campaign.
+* Allez dans le menu **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de la console Adobe Campaign.
 * Créez un nouveau bloc de personnalisation &quot;Mon Logo&quot; avec pour nom interne &quot;Mon_Logo&quot;.
-* Cliquez sur le **[!UICONTROL Advanced parameters...]** lien, puis cochez l&#39; **[!UICONTROL "The content of the block is included in an attachment"]** option. Vous pouvez ainsi copier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
+* Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** et cochez l&#39;option **[!UICONTROL &quot;Le bloc est inclus dans un document attaché&quot;]**. Cette option va permettre de recopier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
 
    ![](assets/s_ncs_pdf_bloc_option.png)
 
