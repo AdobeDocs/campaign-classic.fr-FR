@@ -55,8 +55,8 @@ Une fois que la cible et ses données additionnelles ont été définies, il est
 
 Pour obtenir l&#39;audience finale et ses données additionnelles :
 
-1. Créez un nouveau flux de travail à partir de **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
-1. Ajoutez une **[!UICONTROL Query]** activité et sélectionnez les destinataires auxquels vous souhaitez envoyer le courrier électronique final. Par exemple, tous les bénéficiaires âgés de 18 à 30 ans et vivant en France.
+1. Créez un nouveau workflow depuis **[!UICONTROL Profils et Cibles]** > **[!UICONTROL Traitements]** > **[!UICONTROL Workflows de ciblage]**.
+1. Ajoutez une activité **[!UICONTROL Requête]** et sélectionnez les destinataires auxquels vous souhaitez envoyer l&#39;email final, tels que par exemple, tous les destinataires ayant entre 18 et 30 ans et habitant en France.
 
    ![](assets/acs_connect_query1.png)
 
@@ -64,47 +64,47 @@ Pour obtenir l&#39;audience finale et ses données additionnelles :
 
    Cet exemple montre comment ajouter un agrégat pour comptabiliser le nombre de diffusions reçues par un destinataires au cours d&#39;une année.
 
-   Dans la **[!UICONTROL Query]**, sélectionnez **[!UICONTROL Add data...]**.
+   Dans la **[!UICONTROL Requête]**, sélectionnez **[!UICONTROL Ajouter des données...]**.
 
    ![](assets/acs_connect_query2.png)
 
-1. Sélectionnez **[!UICONTROL Data linked to the filtering dimension]** puis cliquez sur **[!UICONTROL Next]**.
+1. Sélectionnez **[!UICONTROL Données liées à la dimension de filtrage]**, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_query3.png)
 
-1. Choisissez **[!UICONTROL Data linked to the filtering dimension]** puis sélectionnez le **[!UICONTROL Recipient delivery logs]** noeud et cliquez sur **[!UICONTROL Next]**.
+1. Sélectionnez **[!UICONTROL Données liées à la dimension de filtrage]**, puis le nœud **[!UICONTROL Logs de diffusion du destinataire]**. Cliquez ensuite sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_query4.png)
 
-1. Sélectionnez **[!UICONTROL Aggregates]** dans le **[!UICONTROL Data collected]** champ et cliquez sur **[!UICONTROL Next]**.
+1. Dans le champ **[!UICONTROL Données collectées]**, sélectionnez **[!UICONTROL Agrégats]**, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_query5.png)
 
-1. Add a filtering condition to only take into account logs that were created during the last 365 days and click **[!UICONTROL Next]**.
+1. Ajoutez une condition de filtrage pour ne prendre en compte que les logs créés au cours des derniers 365 jours, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/acs_connect_query6.png)
 
 1. Définissez les colonnes de sortie. Dans le cas présent, seule la colonne permettant de compter le nombre de diffusions est nécessaire. Pour la définir :
 
-   * Select **[!UICONTROL Add]** on the right of the window.
-   * Dans la **[!UICONTROL Select field]** fenêtre, cliquez sur **[!UICONTROL Advanced selection]**.
-   * Sélectionnez **[!UICONTROL Aggregate]**, puis **[!UICONTROL Count]**. Sélectionnez l’ **[!UICONTROL Distinct]** option, puis cliquez sur **[!UICONTROL Next]**.
-   * Dans la liste des champs, sélectionnez le champ utilisé pour la fonction **Count** . Choisissez un champ qui sera toujours renseigné, par exemple le **[!UICONTROL Primary key]** champ, puis cliquez sur **[!UICONTROL Finish]**.
-   * Modifiez l’expression dans la **[!UICONTROL Alias]** colonne. Cet alias vous permettra de récupérer facilement la colonne ajoutée dans la remise finale. Par exemple, **les livraisons** NB.
-   * Cliquez sur **[!UICONTROL Finish]** et enregistrez la configuration de l’ **[!UICONTROL Query]** activité.
+   * Sélectionnez **[!UICONTROL Ajouter]** à droite de la fenêtre.
+   * Dans la fenêtre **[!UICONTROL Sélection du champ]**, cliquez sur **[!UICONTROL Sélection avancée]**.
+   * Sélectionnez **[!UICONTROL Agrégat]**, puis **[!UICONTROL Comptage]**. Cochez l&#39;option **[!UICONTROL Distinct]**, puis cliquez sur **[!UICONTROL Suivant]**.
+   * Dans la liste des champs, sélectionnez le champ utilisé pour la fonction de **Comptage**. Choisissez un champ qui sera toujours renseigné, par exemple le champ **[!UICONTROL Clé primaire]**, puis cliquez sur **[!UICONTROL Terminer]**.
+   * Changez l&#39;expression dans la colonne **[!UICONTROL Alias]**. Cet alias, par exemple **NBdeliveries**, permettra de récupérer facilement la colonne ajoutée à la diffusion finale.
+   * Cliquez sur **[!UICONTROL Terminer]** et enregistrez la configuration de l&#39;activité **[!UICONTROL Requête]**.
    ![](assets/acs_connect_query7.png)
 
 1. Enregistrez le workflow. La section suivante montre comment partager la population avec ACS.
 
 ## Partager la cible avec Campaign Standard {#share-the-target-with-campaign-standard}
 
-Once the target population is defined, you can share it with ACS through a **[!UICONTROL List update]** activity.
+Une fois que la population cible est définie, vous pouvez la partager avec ACS par le biais d&#39;une activité **[!UICONTROL Mise à jour de liste]**.
 
-1. In the workflow created previously, add a **[!UICONTROL List update]** activity and specify the list you want to update or create.
+1. Dans le workflow précédemment créé, ajoutez une activité **[!UICONTROL Mise à jour de liste]** et spécifiez la liste que vous souhaitez mettre à jour ou créer.
 
    Spécifiez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mappage de dossiers défini lors de l’implémentation, ce qui peut avoir un impact sur leur visibilité une fois partagées dans Campaign Standard. Reportez-vous à la section Conversion [des](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) droits.
 
-1. Vérifiez que l’ **[!UICONTROL Share with ACS]** option est cochée. Elle est vérifiée par défaut.
+1. Vérifiez que l&#39;option **[!UICONTROL Partager avec ACS]** est cochée. Elle l&#39;est par défaut.
 
    ![](assets/acs_connect_listupdate1.png)
 
@@ -112,7 +112,7 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
    La cible et ses données additionnelles sont enregistrées dans une liste, dans Campaign v7, et sont immédiatement partagées en tant qu&#39;audience de type liste dans Campaign Standard. Seuls les profils qui ont été répliqués sont partagés avec ACS.
 
-Si une erreur se produit sur l’ **[!UICONTROL List update]** activité, cela signifie que la synchronisation avec Campaign Standard peut avoir échoué. Pour plus d’informations sur ce qui s’est passé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. Ce dossier contient les processus de synchronisation déclenchés par l’exécution de l’ **[!UICONTROL List update]** activité. Reportez-vous à la section [Résolution des problèmes du connecteur](../../integrations/using/troubleshooting-the-acs-connector.md) ACS.
+If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. To be able to see more details about what went wrong, go to **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. Reportez-vous à la section [Résolution des problèmes du connecteur](../../integrations/using/troubleshooting-the-acs-connector.md) ACS.
 
 ## Récupérer les données dans Campaign Standard et les utiliser dans une diffusion {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
@@ -122,14 +122,14 @@ Une fois que le workflow de ciblage a été exécuté dans Campaign v7, l&#39;a
 
 En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite utiliser cette audience et ses données additionnelles dans une diffusion.
 
-1. Create a new workflow from the **[!UICONTROL Marketing activities]** menu.
-1. Add a **[!UICONTROL Read audience]** activity and select the audience you previously shared from Campaign v7.
+1. Créez un nouveau workflow depuis le menu **[!UICONTROL Activités marketing]**.
+1. Ajoutez une activité **[!UICONTROL Lecture audience]** et sélectionnez l&#39;audience que vous avez précédemment partagée depuis Campaign v7.
 
-   Cette activité est utilisée pour récupérer les données de l’audience sélectionnée. Vous pouvez également en appliquer un supplémentaire **[!UICONTROL Source Filtering]** si nécessaire en utilisant l’onglet correspondant de cette activité.
+   Cette activité sert à récupérer les données de l&#39;audience sélectionnée. Si besoin, vous pouvez également appliquer un autre **[!UICONTROL Filtrage de la source]** à l&#39;aide de l&#39;onglet adéquat de cette activité.
 
-1. Add an **[!UICONTROL Email delivery]** activity and configure it as any other [email delivery activity](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
+1. Ajoutez une activité **[!UICONTROL Diffusion Email]** et configurez-la comme n&#39;importe quelle autre [activité de diffusion email](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
 1. Ouvrez le contenu de la diffusion.
-1. Ajouter un champ de personnalisation Recherchez le **[!UICONTROL Additional data (targetData)]** noeud dans la fenêtre contextuelle. Ce noeud contient les données supplémentaires de l’audience qui ont été calculées dans le processus de ciblage initial. Vous pouvez les utiliser comme tout autre champ de personnalisation.
+1. Ajoutez un champ de personnalisation. Dans la fenêtre contextuelle, recherchez le nœud **[!UICONTROL Données additionnelles (targetData)]**. Ce nœud contient les données additionnelles de l&#39;audience qui ont été calculées dans le workflow de ciblage initial. Vous pouvez les utiliser comme tout autre champ de personnalisation.
 
    Dans cet exemple, les données additionnelles provenant du workflow de ciblage d&#39;origine sont le nombre de diffusions envoyées à chaque destinataire au cours des 365 dernier jours. L&#39;alias NBdeliveries spécifié dans le workflow de ciblage est visible ici.
 
