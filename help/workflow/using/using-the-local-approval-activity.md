@@ -22,7 +22,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 # Utiliser l&#39;activité Validation en local{#using-the-local-approval-activity}
 
-The **[!UICONTROL Local approval]** activity integrated into a targeting workflow lets you set up a recipient approval process before the delivery is sent.
+Intégrée à un workflow de ciblage, l&#39;activité **[!UICONTROL Validation en local]** permet de mettre en place un processus de validation des destinataires avant l&#39;envoi de la diffusion.
 
 >[!CAUTION]
 >
@@ -34,15 +34,15 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 Les étapes principales du processus de validation en local sont les suivantes :
 
-1. The population resulting from targeting can be limited thanks to a **[!UICONTROL Split]** type activity using a data distribution model.
+1. La population issue du ciblage peut être limitée à partir d&#39;une activité de type **[!UICONTROL Partage]** utilisant un modèle de répartition de données.
 
    ![](assets/local_validation_intro_1.png)
 
-1. L’ **[!UICONTROL Local approval]** activité prend ensuite le relais et envoie un courrier électronique de notification à chaque superviseur local. L’activité est suspendue jusqu’à ce que chaque superviseur local approuve les destinataires qui leur sont affectés.
+1. L&#39;activité **[!UICONTROL Validation en local]** prend ensuite le relai et envoie un email de notification à chaque responsable local. L&#39;activité se met ensuite en attente et chaque responsable local valide les destinataires qui lui sont assignés.
 
    ![](assets/local_validation_intro_4.png)
 
-1. Une fois la date limite d’approbation atteinte, le processus recommence. Dans cet exemple, l’ **[!UICONTROL Delivery]** activité démarre et la diffusion est envoyée aux cibles approuvées.
+1. Lorsque la date limite de validation est atteinte, le workflow reprend. Dans notre exemple, l&#39;activité **[!UICONTROL Diffusion]** démarre et la diffusion est envoyée aux cibles validées.
 
    >[!NOTE]
    >
@@ -50,43 +50,43 @@ Les étapes principales du processus de validation en local sont les suivantes :
 
    ![](assets/local_validation_intro_6.png)
 
-1. A few days later, the second **[!UICONTROL Local approval]** type activity sends a notification email to each local supervisor with a summary of the actions carried out by their contacts (clicks, opens, etc.).
+1. Quelques jours plus tard, la seconde activité de type **[!UICONTROL Validation en local]** envoie un email de notification à chaque responsable local lui indiquant les actions effectuées par ses contacts (clics, ouvertures, etc.).
 
    ![](assets/local_validation_intro_5.png)
 
 ## Etape 1 : création du modèle de répartition de données {#step-1--creating-the-data-distribution-template-}
 
-Le modèle de distribution de données vous permet de limiter la population résultant du ciblage en fonction du regroupement de données tout en vous permettant d’affecter chaque valeur à un superviseur local. Dans cet exemple, nous avons défini le **[!UICONTROL Email address domain]** champ comme un champ de distribution et attribué un domaine à chaque superviseur local
+Le modèle de répartition de données permet de limiter la population issue du ciblage à partir d&#39;un groupement de données, et permet d&#39;affecter chaque valeur du groupement à un responsable local. Dans notre exemple, nous avons défini le champ **[!UICONTROL Domaine de l&#39;adresse email]** comme champ de répartition et affecté un domaine à chaque responsable local.
 
 Pour plus d’informations sur la création d’un modèle de distribution de données, voir [Limitation du nombre d’enregistrements de sous-ensembles par distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)de données.
 
-1. Pour créer le modèle de distribution des données, accédez au **[!UICONTROL Resources > Campaign management > Data distribution]** noeud et cliquez sur **[!UICONTROL New]**.
+1. Pour créer le modèle de répartition de données, positionnez-vous sur le noeud **[!UICONTROL Ressources > Gestion de campagne > Répartition de données]**, et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
    ![](assets/local_validation_data_distribution_1.png)
 
-1. Sélectionnez l’ **[!UICONTROL General]** onglet.
+1. Sélectionnez l&#39;onglet **[!UICONTROL Général]**.
 
    ![](assets/local_validation_data_distribution_2.png)
 
-1. Entrez le **[!UICONTROL Label]** et le **[!UICONTROL Distribution context]**. Dans cet exemple, nous avons sélectionné le schéma de **[!UICONTROL Recipient]** ciblage et le **[!UICONTROL Email domain]** champ comme champ de distribution. La liste des destinataires est ventilée par domaine.
-1. Dans le **[!UICONTROL Distribution type]** champ, sélectionnez le mode d’expression de la valeur de limite cible dans l’ **[!UICONTROL Distribution]** onglet. Ici, nous avons choisi **[!UICONTROL Percentage]**.
-1. Dans le **[!UICONTROL Approval storage]** champ, saisissez le schéma de stockage des approbations correspondant au schéma de ciblage utilisé. Nous allons utiliser ici le schéma de stockage par défaut : **[!UICONTROL Local approval of recipients]**.
-1. Cliquez ensuite sur le **[!UICONTROL Advanced parameters]** lien.
+1. Renseignez le **[!UICONTROL Libellé]** et le **[!UICONTROL Contexte de répartition]**. Dans notre exemple, nous avons sélectionné le schéma de ciblage **[!UICONTROL Destinataire]** et le champ **[!UICONTROL Domaine de l&#39;email]** comme champ de répartition. La liste de destinataires sera répartie par domaine.
+1. Dans le champ **[!UICONTROL Type de répartition]**, sélectionnez la manière dont sera exprimée la valeur de limitation de la cible dans l&#39;onglet **[!UICONTROL Distribution]**. Ici, nous avons choisi **[!UICONTROL Pourcentage]**.
+1. Dans le champ **[!UICONTROL Stockage des validations]**, renseignez le schéma de stockage des validations correspondant au schéma de ciblage utilisé. Ici nous utilisons le schéma de stockage par défaut : **[!UICONTROL Validation en local des destinataire]**.
+1. Cliquez ensuite sur le lien **[!UICONTROL Paramètres avancés]**.
 
    ![](assets/local_validation_data_distribution_3.png)
 
-1. Keep the **[!UICONTROL Approve the targeted messages]** option checked so that all recipients are pre-selected from the list of recipients to approve.
-1. Dans le **[!UICONTROL Delivery label]** champ, nous avons laissé l’expression par défaut (chaîne de calcul de la diffusion). Le libellé standard de la livraison sera utilisé dans la notification de retour.
-1. In the **[!UICONTROL Grouping field]** section, we have selected the **[!UICONTROL Gender]** field as a grouping field for displaying recipients in the approval and feedback notifications.
-1. Dans la **[!UICONTROL Edit targeted messages]** section, nous avons sélectionné l&#39; **[!UICONTROL Edit recipients]** application Web et le **[!UICONTROL recipientId]** paramètre. Dans les notifications d’approbation et de commentaires, les destinataires peuvent cliquer et pointer vers l’URL de l’application Web. Le paramètre d’URL supplémentaire sera **[!UICONTROL recipientId]**.
-1. Cliquez ensuite sur l’ **[!UICONTROL Distribution]** onglet. Pour chaque domaine, saisissez les champs suivants :
+1. Laissez cochée l&#39;option **[!UICONTROL Valider les messages ciblés]** afin que tous les destinataires soient pré-sélectionnés dans la liste de destinataires à valider.
+1. Dans le champ **[!UICONTROL Libellé de la diffusion]**, nous avons laissé l&#39;expression par défaut (compute string de la diffusion). Le libellé standard de la diffusion sera utilisé dans la notification de retour.
+1. Dans le champ **[!UICONTROL Champ de groupement]**, nous avons choisi le champ **[!UICONTROL Genre]** comme champ de regroupement pour l&#39;affichage des destinataires dans les notifications de validation et de retour.
+1. Dans la section **[!UICONTROL Edition des messages ciblés]**, nous avons sélectionné l&#39;application web **[!UICONTROL Edition des destinataires]** et le paramètre **[!UICONTROL recipientId]**. Dans les notifications de validation et de retour, les destinataires seront cliquables et pointeront vers l&#39;url de l&#39;application web. Le paramètre additionnel de l&#39;url sera **[!UICONTROL recipientId]**.
+1. Cliquez ensuite sur l&#39;onglet **[!UICONTROL Distribution]**. Pour chaque domaine, renseignez les champs suivants :
 
    ![](assets/local_validation_data_distribution_4.png)
 
-   * **[!UICONTROL Value]**: saisissez la valeur du nom de domaine.
-   * **[!UICONTROL Percentage / Fixed]**: pour chaque domaine, saisissez le nombre maximal. nombre de destinataires auxquels vous souhaitez envoyer la remise. Dans cet exemple, nous voulons limiter la diffusion à 10 % par domaine.
-   * **[!UICONTROL Label]**: saisissez le libellé du domaine à afficher dans les notifications d’approbation et de commentaires.
-   * **[!UICONTROL Group or operator]**: sélectionnez l’opérateur ou le groupe d’opérateurs affectés au domaine.
+   * **[!UICONTROL Valeur]** : saisissez la valeur du nom de domaine.
+   * **[!UICONTROL Pourcentage / Fixe]** : saisissez, pour chaque domaine, la limite de destinataires auxquels vous souhaitez envoyer la diffusion. Dans notre exemple, nous avons choisi de limiter l&#39;envoi à 10% pour chaque domaine.
+   * **[!UICONTROL Libellé]** : saisissez le libellé du domaine qui apparaîtra dans les notifications de validation et de retour.
+   * **[!UICONTROL Groupe ou opérateur]** : sélectionnez l&#39;opérateur ou le groupe d&#39;opérateurs affecté au domaine.
 
       >[!CAUTION]
       >
@@ -100,36 +100,36 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 Les activités suivantes ont été ajoutées :
 
-* Deux **[!UICONTROL Query]** activités :
-* One **[!UICONTROL Intersection]** activity,
-* One **[!UICONTROL Split]** activity,
-* One **[!UICONTROL Local approval]** activity,
-* One **[!UICONTROL Delivery]** activity,
-* One **[!UICONTROL Wait]** activity,
-* Une deuxième **[!UICONTROL Local approval]** activité,
-* One **[!UICONTROL End]** activity.
+* deux activités **[!UICONTROL Requête]**,
+* une activité **[!UICONTROL Intersection]**,
+* une activité **[!UICONTROL Partage]**,
+* une activité **[!UICONTROL Validation en local]**,
+* une activité **[!UICONTROL Diffusion]**,
+* une activité **[!UICONTROL Attente]**,
+* une seconde activité **[!UICONTROL Validation en local]**,
+* une activité **[!UICONTROL Fin]**.
 
 ### Requêtes, Intersection et Partage {#queries--intersection-and-split}
 
-Le ciblage en amont se compose de deux requêtes, une intersection et une division. The population resulting from targeting can be limited using a **[!UICONTROL Split]** activity using a data distribution template.
+Le ciblage en amont est composé de deux requêtes, une intersection et un partage. La population issue du ciblage peut être limitée à l&#39;aide de l&#39;activité **[!UICONTROL Partage]** utilisant un modèle de répartition de données.
 
 Pour plus d’informations sur la configuration d’une activité fractionnée, voir [Fractionner](../../workflow/using/split.md). La création d’un modèle de distribution de données est détaillée dans [Limitation du nombre d’enregistrements de sous-ensembles par distribution](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)de données.
 
-Si vous ne souhaitez pas limiter la population de la requête, vous n’avez pas à utiliser les activités **[!UICONTROL Query]**, **[!UICONTROL Intersection]** et **[!UICONTROL Split]** . Dans ce cas, complétez le modèle de distribution de données dans la première **[!UICONTROL Local approval]** activité.
+Si vous ne souhaitez pas limiter la population issue de la requête, il n&#39;est pas nécessaire d&#39;utiliser les activités **[!UICONTROL Requête]**, **[!UICONTROL Intersection]** et **[!UICONTROL Partage]**. Dans ce cas, renseignez le modèle de répartition de données dans la première activité de type **[!UICONTROL Validation en local]**.
 
-1. Dans la **[!UICONTROL Record count limitation]** section, sélectionnez l’ **[!UICONTROL Limit the selected records]** option et cliquez sur le **[!UICONTROL Edit]** lien.
+1. Dans la section **[!UICONTROL Limitation du nombre d&#39;enregistrements]**, sélectionnez l&#39;option **[!UICONTROL Limiter les enregistrements sélectionnés]** et cliquez sur le lien **[!UICONTROL Editer]**.
 
    ![](assets/local_validation_split_1.png)
 
-1. Sélectionnez l’ **[!UICONTROL Keep only the first records after sorting]** option et cliquez sur **[!UICONTROL Next]**.
+1. Sélectionnez l&#39;option **[!UICONTROL Conserver les premiers suite à un tri]** et cliquez sur le bouton **[!UICONTROL Suivant]**.
 
    ![](assets/local_validation_split_1bis.png)
 
-1. Dans la **[!UICONTROL Sort columns]** section, ajoutez le champ auquel le tri est appliqué. Ici, nous avons choisi le **[!UICONTROL Email]** champ. Clics **[!UICONTROL Next]**.
+1. Dans la section **[!UICONTROL Colonnes de tri]**, ajoutez le champ sur lequel le tri est effectué. Dans notre exemple, nous avons choisi le champ **[!UICONTROL Email]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/local_validation_split_2.png)
 
-1. Sélectionnez l’ **[!UICONTROL By data distribution]** option, sélectionnez le modèle de distribution créé précédemment (voir [Étape 1 : Création du modèle](#step-1--creating-the-data-distribution-template-)de distribution des données) et cliquez sur **[!UICONTROL Finish]**.
+1. Sélectionnez l’option **[!UICONTROL Par distribution]** des données, puis sélectionnez le modèle de distribution créé précédemment (reportez-vous à l’ [étape 1 : Création du modèle](#step-1--creating-the-data-distribution-template-)de distribution des données) et cliquez sur **[!UICONTROL Terminer]**.
 
    ![](assets/local_validation_split_3.png)
 
@@ -139,45 +139,45 @@ Dans le modèle de répartition, nous avons choisi de limiter la population à 1
 
 ### Notification de validation {#approval-notification}
 
-The **[!UICONTROL Local approval]** activity lets you send a notification to each local supervisor.
+L&#39;activité **[!UICONTROL Validation en local]** permet d&#39;envoyer une notification à chaque responsable local.
 
-Pour plus d’informations sur la configuration de l’ **[!UICONTROL Local approval]** activité, voir Approbation [](../../workflow/using/local-approval.md)locale.
+For more on configuring the **[!UICONTROL Local approval]** activity, refer to [Local approval](../../workflow/using/local-approval.md).
 
 ![](assets/local_validation_workflow_2.png)
 
 Les champs à renseigner sont les suivants :
 
-1. Dans la **[!UICONTROL Action to execute]** section, sélectionnez l’ **[!UICONTROL Target approval notification]** option.
-1. Dans la **[!UICONTROL Distribution context]** section, sélectionnez l’ **[!UICONTROL Specified in the transition]** option.
+1. Dans la section **[!UICONTROL Action à effectuer]**, sélectionnez l&#39;option **[!UICONTROL Notification pour la validation de la cible]**.
+1. Dans la section **[!UICONTROL Contexte de répartition]**, sélectionnez l&#39;option **[!UICONTROL Spécifié par la transition]**.
 
-   If you don&#39;t want to limit the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template created previously in the **[!UICONTROL Data distribution]** field.
+   Si vous ne souhaitez pas limiter la population ciblée, sélectionnez ici l&#39;option **[!UICONTROL Explicite]** et renseignez le modèle de répartition créé précédemment dans le champ **[!UICONTROL Répartition des données]**.
 
-1. Dans la section **[!UICONTROL Notification]**, sélectionnez le modèle de diffusion ainsi que l&#39;objet qui seront utilisés pour l&#39;email de notification. Ici, nous avons choisi le modèle par défaut : **[!UICONTROL Local approval notification]**.
-1. Dans la **[!UICONTROL Approval schedule]** section, nous avons conservé la date limite d’approbation par défaut (3 jours) et ajouté un rappel. La livraison s&#39;arrête 3 jours après le début de l&#39;approbation. Une fois la date limite d’approbation atteinte, les destinataires qui n’ont pas été approuvés ne sont pas pris en compte par le ciblage.
+1. Dans la section **[!UICONTROL Notification]**, sélectionnez le modèle de diffusion ainsi que l&#39;objet qui seront utilisés pour l&#39;email de notification. Dans notre exemple, nous avons choisi le modèle par défaut : **[!UICONTROL Notification de la validation en local]**.
+1. Dans la section **[!UICONTROL Planning de validation]**, nous avons laissé le délai de validation par défaut (3 jours) et ajouté un rappel. La diffusion partira donc 3 jours après le début de la de la validation. Une fois le délai de validation atteint, les destinataires qui n&#39;ont pas été validés ne sont pas pris en compte dans le ciblage.
 
-The notification email sent by the **[!UICONTROL Local approval]** activity to local supervisors is as follows:
+L&#39;email de notification envoyé par l&#39;activité **[!UICONTROL Validation en local]** aux responsables locaux est le suivant :
 
 ![](assets/local_validation_intro_2.png)
 
 ### Attente {#wait}
 
-L’activité d’attente vous permet de différer le début de la deuxième activité d’approbation locale qui enverra la notification de retour d’informations de remise. Dans le **[!UICONTROL Duration]** champ, nous avons saisi la **[!UICONTROL 5d]** valeur (5 jours). Les actions effectuées par les destinataires pendant 5 jours après l’envoi de la livraison seront incluses dans la notification de retour.
+L&#39;activité d&#39;attente permet de retarder le démarrage de la seconde activité de validation en local qui enverra la notification de retour de diffusion. Dans le champ **[!UICONTROL Durée]**, nous avons saisi la valeur **[!UICONTROL 5j]** (5 jours). Les actions effectuées par les destinataires au cours des 5 jours suivant l&#39;envoi de la diffusion seront prises en compte pour la notification de retour.
 
 ![](assets/local_validation_workflow_3.png)
 
 ### Notification de retour {#feedback-notification}
 
-The second **[!UICONTROL Local approval]** activity lets you send a delivery feedback notification to each local supervisor.
+La seconde activité **[!UICONTROL Validation en local]** permet d&#39;envoyer une notification de retour de diffusion à chaque responsable local.
 
 ![](assets/local_validation_workflow_4.png)
 
 Les champs à renseigner sont les suivants.
 
-1. Dans la **[!UICONTROL Action to execute]** section, choisissez **[!UICONTROL Delivery feedback report]**.
-1. Dans la **[!UICONTROL Delivery]** section, choisissez **[!UICONTROL Specified in the transition]**.
+1. Dans la section **[!UICONTROL Action à effectuer]**, sélectionnez l&#39;option **[!UICONTROL Rapport de retour de diffusion]**.
+1. Dans la section **[!UICONTROL Diffusion]**, sélectionnez l&#39;option **[!UICONTROL Spécifiée par la transition]**.
 1. Dans la section **[!UICONTROL Notification]**, sélectionnez le modèle de diffusion ainsi que l&#39;objet qui seront utilisés pour l&#39;email de notification.
 
-Once the deadline configured in the wait activity is reached, the second **[!UICONTROL Local approval]** type activity sends the following notification email to each local supervisor:
+Une fois le délai défini dans l&#39;activité d&#39;attente passé, la seconde activité de type **[!UICONTROL Validation en local]** envoie à chaque responsable local l&#39;email de notification suivant :
 
 ![](assets/local_validation_intro_3.png)
 
@@ -185,15 +185,15 @@ Once the deadline configured in the wait activity is reached, the second **[!UIC
 
 A chaque démarrage de l&#39;activité de validation en local, une tâche de validation est créée. L&#39;administrateur a la possibilité de contrôler chacune de ces tâches de validation.
 
-Go to the targeting workflow of your campaign and click the **[!UICONTROL Local approval tasks]** tab.
+Dans le workflow de ciblage de votre opération, cliquez sur l&#39;onglet **[!UICONTROL Tâches de validation en local]**.
 
 ![](assets/local_validation_admin_1.png)
 
-The list of local approval tasks can also be accessed via the **[!UICONTROL Approval tasks]** tab of the data distribution template.
+Vous pouvez également accéder à la liste des tâches de validation en local à partir de l&#39;onglet **[!UICONTROL Tâches de validation]** du modèle de répartition de données.
 
 ![](assets/local_validation_admin_2.png)
 
-Sélectionnez la tâche à surveiller, puis cliquez sur le **[!UICONTROL Detail]** bouton. L’ **[!UICONTROL General]** onglet de la tâche d’approbation locale vous permet d’afficher des informations sur la tâche. Si nécessaire, vous pouvez modifier les dates d’approbation et de rappel.
+Sélectionnez la tâche que vous souhaitez suivre et cliquez sur le bouton **[!UICONTROL Détail]**. L&#39;onglet **[!UICONTROL Général]** de la tâche de validation en local vous permet de visualiser les informations générales de la tâche. Vous avez également la possibilité de modifier, si besoin, la limite de validation ainsi que la date de rappel.
 
 ![](assets/local_validation_admin_3.png)
 
@@ -209,19 +209,19 @@ L&#39;onglet **[!UICONTROL Distribution]** de la tâche vous permet de visualise
 
 ![](assets/local_validation_admin_4.png)
 
-Sélectionnez un journal d’approbation et cliquez sur le **[!UICONTROL Detail]** bouton pour afficher plus d’informations. L’ **[!UICONTROL General]** onglet du journal d’approbation local vous permet d’afficher les informations générales du journal. Vous pouvez également modifier l’état d’approbation.
+Sélectionnez un log de validation et cliquez sur le bouton **[!UICONTROL Détail]** pour afficher ses détails. L&#39;onglet **[!UICONTROL Général]** du log de validation en local vous permet de visualiser les informations générales du log. Vous avez également la possibilité de modifier le statut de la validation.
 
 ![](assets/local_validation_admin_5.png)
 
 Cet onglet affiche les informations suivantes :
 
 * la tâche de validation liée
-* le statut d&#39;approbation (**[!UICONTROL Approved]** ou **[!UICONTROL Pending]**)
+* le statut de la validation (**[!UICONTROL Validé]** ou **[!UICONTROL En attente]**)
 * le modèle de répartition utilisé
 * le responsable local qui a validé et la date de validation
 * le nombre de messages ciblés et validés.
 
-L’ **[!UICONTROL Targeted]** onglet du journal d’approbation affiche la liste des destinataires ciblés et leur état d’approbation. Vous pouvez modifier cet état si nécessaire.
+L&#39;onglet **[!UICONTROL Ciblés]** du log de validation affiche la liste des destinataires ciblés et leur statut de validation. Vous avez la possibilité de modifier ce statut si besoin.
 
 ![](assets/local_validation_admin_6.png)
 
