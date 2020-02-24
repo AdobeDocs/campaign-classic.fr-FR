@@ -76,29 +76,29 @@ Pour configurer la hiérarchie des dossiers pour les plans et programmes marketi
 
 ### Ajouter une opération {#adding-a-campaign}
 
-Vous pouvez créer une campagne à partir de la liste des campagnes. Pour afficher cette vue, sélectionnez le **[!UICONTROL Campaigns]** menu dans le **[!UICONTROL Campaigns]** tableau de bord.
+Vous pouvez créer une opération depuis la liste des opérations. Pour afficher cette vue, sélectionnez le lien **[!UICONTROL Opérations]** disponible depuis l&#39;univers **[!UICONTROL Campagnes]**.
 
 ![](assets/s_ncs_user_add_an_op_from_list.png)
 
-Le **[!UICONTROL Program]** champ vous permet de sélectionner le programme auquel la campagne sera associée. Cette information est obligatoire.
+Le champ **[!UICONTROL Programme]** permet de sélectionner le programme auquel sera rattachée l&#39;opération. Cette information est obligatoire.
 
 ![](assets/s_ncs_user_new_op_wz_a.png)
 
-Les campagnes peuvent également être créées via un programme. Pour ce faire, cliquez sur le **[!UICONTROL Add]** bouton dans l&#39; **[!UICONTROL Schedule]** onglet du programme concerné.
+Les opérations peuvent également être créées depuis un programme. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** proposé dans l&#39;onglet **[!UICONTROL Planning]** programme concerné.
 
 ![](assets/s_ncs_user_add_an_op.png)
 
-Lorsque vous créez une campagne via l’ **[!UICONTROL Schedule]** onglet d’un programme, celle-ci est automatiquement liée au programme concerné. Le **[!UICONTROL Program]** champ est alors masqué.
+Lorsque vous créez une opération à partir de l&#39;onglet **[!UICONTROL Planning]** d&#39;un programme, l&#39;opération est automatiquement rattachée au programme concerné. Le champ **[!UICONTROL Programme]** est alors masqué.
 
 Dans la fenêtre de création de campagne, sélectionnez le modèle de campagne et ajoutez un nom et une description de la campagne. Vous pouvez également spécifier les dates de début et de fin de la campagne.
 
-Cliquez sur **[!UICONTROL OK]** pour créer la campagne. Il est ajouté au programme.
+Cliquez sur **[!UICONTROL OK]** pour créer l&#39;opération. Elle est ajoutée au planning du programme.
 
 ![](assets/s_ncs_user_program_planning_with_op.png)
 
 >[!NOTE]
 >
->To filter the campaigns to display, click the **[!UICONTROL Filter]** link and select the status of campaigns to display.
+>Pour filtrer les opérations à afficher, cliquez sur le lien **[!UICONTROL Filtrer]** et sélectionnez le statut des opérations à afficher
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
@@ -106,7 +106,7 @@ Cliquez sur **[!UICONTROL OK]** pour créer la campagne. Il est ajouté au progr
 
 Vous pouvez ensuite éditer l&#39;opération que vous venez de créer et en définir les paramètres.
 
-To open and configure a campaign, select it from the schedule and click **[!UICONTROL Open]**.
+Pour ouvrir et configurer une opération, sélectionnez-la dans le planning et cliquez sur le lien **[!UICONTROL Ouvrir]**.
 
 ![](assets/s_ncs_user_new_op_edit.png)
 
@@ -124,7 +124,7 @@ Les opérations récurrentes sont créées à partir d&#39;un modèle spécifiqu
 
 #### Création d’un modèle pour les campagnes récurrentes {#creating-the-campaign-template}
 
-1. Create a **[!UICONTROL Recurring]** campaign template.
+1. Créez un modèle d&#39;opération de type **[!UICONTROL Récurrente]**.
 
    >[!NOTE]
    >
@@ -136,28 +136,28 @@ Les opérations récurrentes sont créées à partir d&#39;un modèle spécifiqu
 
    ![](assets/s_ncs_user_op_template_recur_duplicate.png)
 
-1. For this type of campaign, a **[!UICONTROL Schedule]** tab is added in order to create the template execution schedule.
+1. Pour ce type d&#39;opération, un onglet **[!UICONTROL Planning]** est ajouté afin de créer le planning d&#39;exécution du modèle.
 
 Dans cet onglet, définissez les dates prévues d&#39;exécution des opérations basées sur ce modèle.
 
 ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-Vous pouvez utiliser l’assistant de création de planification pour remplir automatiquement toutes les dates d’exécution. Pour ce faire, cliquez sur le **[!UICONTROL Complete the execution schedule...]** lien situé au-dessus du tableau.
+Vous pouvez utiliser l&#39;assistant de création de planning pour afin de renseigner automatiquement toutes les dates d&#39;exécution. Pour cela, cliquez sur le lien **[!UICONTROL Compléter le planning d&#39;exécution...]** situé au-dessus du tableau.
 
 ![](assets/s_ncs_user_op_template_recur_planning_wz.png)
 
-Le mode de configuration du calendrier d’exécution coïncide avec l’ **[!UICONTROL Scheduler]** objet du flux de travail. Voir à ce propos [cette section](../../workflow/using/executing-a-workflow.md#architecture).
+Le mode de paramétrage du planning d&#39;exécution correspond à celui de l&#39;objet **[!UICONTROL Planificateur]** du Workflow. Voir à ce sujet [cette section](../../workflow/using/executing-a-workflow.md#architecture).
 
 >[!IMPORTANT]
 >
 >Le paramétrage du planning d&#39;exécution doit être réalisé avec précaution afin de ne pas surcharger la base de données. En effet, les opérations récurrentes dupliquent le ou les workflows de leur modèle selon le planning défini. La mise en place trop grande fréquence de création de ces workflows peut nuire au bon fonctionnement de la base de données.
 
-1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
+1. Indiquez une valeur dans le champ **[!UICONTROL Créer d&#39;avance pour]** afin de créer les workflows correspondants pour la période indiquée.
 1. Créez le modèle de workflow qui sera utilisé dans les opérations basées sur ce modèle, avec les paramètres de ciblage et une ou plusieurs diffusions génériques.
 
    >[!NOTE]
    >
-   >Ce processus doit être enregistré en tant que modèle de processus récurrent. Pour ce faire, modifiez les propriétés du processus et sélectionnez l’ **[!UICONTROL Recurring workflow template]** option dans l’ **[!UICONTROL Execution]** onglet.
+   >Ce workflow doit être enregistré comme un modèle de workflow récurrent. Pour cela, éditez les propriétés du workflow et sélectionnez l&#39;option **[!UICONTROL Modèle de workflow récurrent]** dans l&#39;onglet **[!UICONTROL Exécution]**.
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
@@ -174,19 +174,19 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
 
    Pour chaque ligne, il est possible d&#39;ajouter les options supplémentaires suivantes :
 
-   * **[!UICONTROL To be approved]** : vous permet de forcer les demandes d’approbation de remise dans le processus.
-   * **[!UICONTROL To be started]** : vous permet de démarrer le flux de travail lorsque la date de début est atteinte.
-   Le **[!UICONTROL Create in advance for]** champ vous permet de créer tous les processus couvrant la période saisie.
+   * **[!UICONTROL A valider]** : permet de forcer les demandes de validation des diffusions dans le workflow.
+   * **[!UICONTROL A démarrer]** : permet de démarrer le workflow une fois la date de début atteinte.
+   Le champ **[!UICONTROL Créer d&#39;avance pour]** permet de créer l&#39;ensemble des workflows couvrant la période renseignée.
 
-   Lors de l’exécution du **[!UICONTROL Jobs on campaigns]** processus, les processus dédiés sont créés en fonction des occurrences définies dans la planification de la campagne. Un processus est donc créé pour chaque date d’exécution.
+   A l&#39;exécution du workflow **[!UICONTROL Traitements sur les opérations]**, les workflows dédiés sont créés selon les occurrences définies dans le planning de l&#39;opération. Ainsi, un workflow est créé pour chaque date d&#39;exécution.
 
-1. Les processus récurrents sont créés automatiquement à partir du modèle de processus présent dans la campagne. Ils sont visibles à partir de l’ **[!UICONTROL Targeting and workflows]** onglet de la campagne.
+1. Les workflows récurrents sont créés automatiquement à partir du modèle de workflow présent dans l&#39;opération. Ils sont visibles à partir de l&#39;onglet **[!UICONTROL Ciblages et workflows]** de l&#39;opération.
 
    ![](assets/s_ncs_user_op_recur_planning_wfs.png)
 
    Le libellé d&#39;une instance de workflow récurrent est composé du libellé de son modèle et du numéro du workflow. Les deux informations sont séparées par un caractère #.
 
-   Workflows created from the schedule are automatically associated with it in the **[!UICONTROL Workflow]** column of the **[!UICONTROL Schedule]** tab.
+   Les workflow créés à partir du planning y sont automatiquement associés, dans la colonne **[!UICONTROL Workflow]** de l&#39;onglet **[!UICONTROL Planning]**.
 
    ![](assets/s_ncs_user_op_recur_planning_wfs_1.png)
 
@@ -205,7 +205,7 @@ Une opération périodique est une opération basée sur un modèle spécifique 
 
 #### Créer le modèle d&#39;opération {#creating-the-campaign-template-1}
 
-1. Create a **[!UICONTROL Periodic]** campaign template, preferably by duplicating an existing campaign template.
+1. Créez un modèle d&#39;opération de type **[!UICONTROL Périodique]**, de préférence en dupliquant un modèle d&#39;opération existant.
 
    ![](assets/s_ncs_user_op_template_period_create.png)
 
@@ -223,7 +223,7 @@ Une opération périodique est une opération basée sur un modèle spécifique 
    >
    >Ce workflow est un modèle de workflow. Il ne peut pas être exécuté à partir du modèle d&#39;opération.
 
-1. Complete its execution schedule as for a recurring campaign template: click the **[!UICONTROL Add]** button and define the start and end dates, or fill in the execution schedule via the link.
+1. Renseignez son planning d&#39;exécution selon le même mode que pour un modèle d&#39;opération récurrente : cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez les dates de début et de fin, ou complétez le planning d&#39;exécution à partir du lien.
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
