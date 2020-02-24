@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Utiliser une table de destinataires externe{#using-an-external-recipient-table}
 
-Si le tableau de livraison est un tableau externe, vous devrez effectuer des configurations supplémentaires. Le **[!UICONTROL nms:seedmember]** schéma doit être étendu. Un onglet est ajouté aux adresses de base pour définir les champs appropriés, comme illustré ci-dessous :
+Si la table des diffusions est une table externe, vous devez effectuer des paramétrages complémentaires. Le schéma **[!UICONTROL nms:seedmember]** doit alors être étendu. Un onglet supplémentaire est alors ajouté au niveau des adresses de contrôle afin de définir les champs adéquats, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
