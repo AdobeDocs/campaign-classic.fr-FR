@@ -85,7 +85,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 
 Module usage and the syntax of its parameters are displayed using the following command: **nlserver`[module]`-?**
 
-Exemple:
+Exemple :
 
 **nlserver config -?**
 
