@@ -26,19 +26,19 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 L&#39;import d&#39;audiences/de segments depuis Audience Manager ou People core service dans Adobe Campaign peut être réalisé via les listes de destinataires.
 
-1. Accédez au noeud **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Lists]** dans l’explorateur Adobe Campaign.
-1. Dans la barre d’actions, sélectionnez **[!UICONTROL New]** > **[!UICONTROL Create a shared audience...]**.
+1. Accédez au noeud **[!UICONTROL Profils et Cibles]** > **[!UICONTROL Listes]** de l&#39;explorateur Adobe Campaign.
+1. Depuis la barre d&#39;actions, sélectionnez **[!UICONTROL Nouveau]** > **[!UICONTROL Créer une audience partagée...]**.
 
    ![](assets/aam_import_audience.png)
 
-1. In the window that opens, click **[!UICONTROL Select a shared audience]** to go to the list of shared audiences/segments available from the other Adobe Experience Cloud solutions.
+1. Dans la fenêtre qui s’ouvre, cliquez sur **[!UICONTROL Sélectionner une audience partagée]** afin d’accéder à la liste des audiences partagées/segments disponibles à partir des autres solutions Adobe Experience Cloud.
 1. Sélectionnez l&#39;audience de votre choix puis validez. Les informations de l&#39;audience sélectionnée sont automatiquement renseignées.
 
-   Notez que pour pouvoir importer une audience partagée, vous devez vous voir attribuer le **[!UICONTROL Audience library]** produit dans la console d’administration et être administrateur dans Audience Manager. Pour plus d&#39;informations à ce sujet, consultez la documentation relative à la [console d&#39;administration](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+   Veuillez noter que pour pouvoir importer une audience partagée, le produit **[!UICONTROL Audience partagée]** devrait vous être assigné dans la console d&#39;administration et vous devriez être administrateur dans Audience Manager. Pour en savoir plus à ce sujet, consultez la [documentation de la console d&#39;administration](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
    ![](assets/aam_import_audience_3.png)
 
-1. Select the AMC Data source from the **[!UICONTROL AMC Data source]** field to define the type of data expected.
+1. Sélectionnez la source de données AMC au niveau du champ **[!UICONTROL AMC Datasource]** afin de définir le type de données attendu.
 
    ![](assets/aam_import_audience_2.png)
 
@@ -62,19 +62,19 @@ L&#39;export d&#39;une audience depuis Adobe Campaign vers People core service 
 
 1. Créez un nouveau workflow de ciblage.
 1. En utilisant les différentes activités à votre disposition, ciblez un ensemble de destinataires.
-1. After the targeting, drag and drop an **[!UICONTROL Update shared audience]** activity, then open it.
+1. A la suite du ciblage, placez une activité **[!UICONTROL Mise à jour d&#39;audience partagée]** puis ouvrez-la.
 
    ![](assets/aam_export_example.png)
 
-1. Définissez l’audience que vous souhaitez exporter via l’ **[!UICONTROL Select a shared audience]** option. Dans la fenêtre qui s’ouvre, vous pouvez sélectionner une audience existante ou en créer une nouvelle.
+1. Définissez l&#39;audience que vous souhaitez exporter via l&#39;option **[!UICONTROL Sélectionner une audience partagée]**. Dans la fenêtre de sélection qui s&#39;ouvre, vous pouvez choisir une audience existante ou créer une nouvelle audience.
 
    Si vous sélectionnez une audience existante, seuls les nouveaux enregistrements seront ajoutés à l&#39;audience.
 
    Pour exporter votre liste de destinataires dans une nouvelle audience, renseignez le champ **[!UICONTROL Segment name]** puis cliquez sur **[!UICONTROL Create]** avant de sélectionner l&#39;audience nouvellement créée.
 
-   Terminez l&#39;opération en cliquant sur la coche de validation située en haut à droite de la fenêtre, puis sur le bouton **[!UICONTROL OK]**.
+   Terminez l&#39;opération en cliquant sur la coche de validation située en haut à droite de la fenêtre, puis sur le bouton **[!UICONTROL Ok]**.
 
-1. Sélectionnez le type **[!UICONTROL AMC Data source]** de données attendu. Le schéma est déterminé automatiquement.
+1. Sélectionnez la source de données AMC **[!UICONTROL AMC Datasource]** afin de définir le type de données attendu. Le schéma est automatiquement déduit.
 
    ![](assets/aam_export_audience_activity.png)
 
