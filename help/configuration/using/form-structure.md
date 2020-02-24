@@ -217,7 +217,7 @@ Le conteneur principal est défini par l&#39;attribut **type=&quot;iconbox&quot;
 
 The icon of a page is populated from the `img="<image>"` attribute, where `<image>` is the name of the image corresponding to its key made up of the name and namespace (e.g., &quot;xtk:properties.png&quot;).
 
-Les images sont disponibles à partir du **[!UICONTROL Administration > Configuration > Images]** noeud.
+Les images sont disponibles à partir du noeud **[!UICONTROL Administration > Paramétrage > Images]**.
 
 #### Conteneur de visibilité {#visibility-container}
 
@@ -277,11 +277,11 @@ Le choix de la cible est accessible à partir de la zone d&#39;édition. Une aid
 
 Une liste déroulante permet de sélectionner un élément de la cible parmi la liste des enregistrements déjà créés.
 
-The **[!UICONTROL Modify the link]** (folder) icon launches a selection form with the list of targeted elements and a filter zone:
+L&#39;icône **[!UICONTROL Modifier le lien]** (dossier) lance une forme de sélection avec la liste des éléments ciblés et une zone de filtrage :
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-L’icône **[!UICONTROL Edit link]** (loupe) lance le formulaire de modification de l’élément lié. Le formulaire utilisé est déduit par défaut sur la clé du schéma ciblé. L’attribut **form** vous permet de forcer le nom du formulaire de modification (ex. &quot;cus:company2&quot;).
+L&#39;icône **[!UICONTROL Editer le lien]** (loupe) lance la forme d&#39;édition de l&#39;élément lié. La forme utilisée est déduite par défaut sur la clé du schéma ciblé, l&#39;attribut **form** permet de forcer le nom de la forme d&#39;édition (par exemple &quot;cus:company2&quot;).
 
 You can restrict the choice of target elements by adding the **`<sysfilter>`** element from the link definition in the input form:
 
@@ -346,9 +346,9 @@ The columns are declared via the **`<input>`** elements of the list. L’attribu
 
 Une barre d&#39;outils avec un libellé (défini sur le lien dans le schéma) est automatiquement positionnée au-dessus de la liste.
 
-The list can be filtered via the **[!UICONTROL Filters]** button and configured to add and sort the columns.
+La liste peut être filtrée à partir du bouton **[!UICONTROL Filtres]** et configurée pour ajouter et trier les colonnes.
 
-Les boutons **[!UICONTROL Add]** et **[!UICONTROL Delete]** permettent d’ajouter et de supprimer des éléments de collection sur le lien. Par défaut, l’ajout d’un élément lance le formulaire de modification du schéma cible.
+Les boutons **[!UICONTROL Ajouter]** et **[!UICONTROL Supprimer]** permettent l&#39;ajout et la suppression des éléments de collection du lien. L&#39;ajout d&#39;un élément lance par défaut la forme d&#39;édition du schéma cible.
 
 The **[!UICONTROL Detail]** button is automatically added when the **zoom=&quot;true&quot;** attribute is completed on the **`<input>`** tag of the list: it lets you launch the edit form of the selected line.
 
@@ -406,7 +406,7 @@ L&#39;attribut **xpathChoiceTarget** permet de lancer une forme de choix à part
 * **toolbarAlign** : modifie la géométrie verticale ou horizontale de la barre d&#39;outils (valeurs possibles : &quot;vertical&quot;|&quot;horizontal&quot;)
 * **img** : affiche l&#39;image associée à la liste
 * **form** : surcharge la forme d&#39;édition de l&#39;élément ciblé
-* **** : ajoute le bouton **[!UICONTROL Zoom]** Zoom pour l&#39;édition de l&#39;élément ciblé
+* **zoom** : ajoute le bouton **[!UICONTROL Zoom]** pour l&#39;édition de l&#39;élément ciblé
 * **xpathEditTarget** : fixe l&#39;édition sur le lien renseigné
 * **xpathChoiceTarget** : pour l&#39;ajout, lance la forme de choix sur le lien renseigné
 
@@ -468,7 +468,7 @@ L&#39;insertion et l&#39;édition des données d&#39;une liste peut être rensei
 </input>
 ```
 
-Le formulaire de modification est rempli à partir de l’ `<form>` élément sous la définition de liste. Sa structure est identique à celle d’un formulaire d’entrée. Le **[!UICONTROL Detail]** bouton est ajouté automatiquement lorsque l’attribut **zoom=&quot;true&quot;** est rempli sur la **`<input>`** balise de la liste. Cet attribut vous permet de lancer le formulaire de modification de la ligne sélectionnée.
+Le formulaire de modification est rempli à partir de l’ `<form>` élément sous la définition de liste. Sa structure est identique à celle d’un formulaire d’entrée. Le bouton **[!UICONTROL Détail]** est ajouté automatiquement lorsque l’attribut **zoom=&quot;true&quot;** est renseigné sur la **`<input>`** balise de la liste. Cet attribut vous permet de lancer le formulaire de modification de la ligne sélectionnée.
 
 >[!NOTE]
 >
@@ -481,7 +481,7 @@ Le formulaire de modification est rempli à partir de l’ `<form>` élément so
 * **toolbarAlign** : modifie le positionnement de la barre d&#39;outils (valeurs possibles : &quot;vertical&quot;|&quot;horizontal&quot;)
 * **img** : affiche l&#39;image associée à la liste
 * **form** : surcharge la forme d&#39;édition de l&#39;élément ciblé
-* **** : ajoute le bouton **[!UICONTROL Zoom]** Zoom pour l&#39;édition de l&#39;élément ciblé
+* **zoom** : ajoute le bouton **[!UICONTROL Zoom]** pour l&#39;édition de l&#39;élément ciblé
 * **zoomOnAdd** : lance le forme d&#39;édition sur l&#39;ajout
 * **xpathChoiceTarget** : pour l&#39;ajout, lance la forme de choix sur le lien renseigné
 
@@ -630,9 +630,9 @@ Un assistant se construit de la façon suivante :
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-The presence of the **type=&quot;wizard&quot;** attribute on the `<form>` element lets you define the wizard mode in the construction of the form. Les pages sont terminées à partir d’ `<container>` éléments, qui sont des enfants de l’ `<form>` élément. L’ `<container>` élément d’une page est rempli avec les attributs de titre du titre et du desc pour afficher la description sous le titre de la page. The **[!UICONTROL Previous]** and **[!UICONTROL Next]** buttons are automatically added to allow browsing between pages.
+The presence of the **type=&quot;wizard&quot;** attribute on the `<form>` element lets you define the wizard mode in the construction of the form. Les pages sont terminées à partir d’ `<container>` éléments, qui sont des enfants de l’ `<form>` élément. L’ `<container>` élément d’une page est rempli avec les attributs de titre du titre et du desc pour afficher la description sous le titre de la page. Les boutons **[!UICONTROL Précédent]** et **[!UICONTROL Suivant]** sont automatiquement ajoutés afin de naviguer de page en page.
 
-The **[!UICONTROL Finish]** button saves the data entered and closes the form.
+Le bouton **[!UICONTROL Terminer]** enregistre les informations saisies et ferme le formulaire.
 
 ### Méthodes SOAP {#soap-methods}
 
