@@ -22,7 +22,7 @@ source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 # Diffusions cross-canal{#cross-channel-deliveries}
 
-Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.
+Les diffusions cross-canal sont disponibles dans l&#39;onglet **[!UICONTROL Diffusions]** des activités d&#39;un workflow de campagne.
 
 Elles permettent de créer une diffusion propre à un canal en particulier. Vous pouvez y définir le modèle sur lequel vous souhaitez baser votre diffusion ainsi que son contenu, de la même manière qu&#39;avec un assistant de diffusion classique.
 
@@ -41,7 +41,7 @@ Vous pouvez définir la cible de votre diffusion en amont du workflow via les di
 Par exemple, ici, nous allons créer un workflow pour envoyer un email ou un SMS aux abonnés aux notifications push, suivi d&#39;une notification push une semaine plus tard. Pour cela :
 
 1. Créez une campagne.
-1. Dans l’ **[!UICONTROL Targeting and workflows]** onglet de votre campagne, ajoutez une **[!UICONTROL Query]** balise à votre processus.
+1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de votre campagne, ajoutez une **[!UICONTROL Requête]** à votre workflow.
 1. Configurez votre requête. Par exemple, ici, nous sélectionnons les destinataires abonnés aux notification push comme dimension cible.
 
    >[!NOTE]
@@ -54,15 +54,15 @@ Par exemple, ici, nous allons créer un workflow pour envoyer un email ou un SMS
 
    ![](assets/cross_channel_delivery_2.png)
 
-1. Add a **[!UICONTROL Split]** activity to your workflow to divide recipients who have a mobile number and those who have an email address.
-1. In the **[!UICONTROL Delivery]** tab, select a delivery for each of your targets.
+1. Ajoutez une activité de **[!UICONTROL Partage]** à votre workflow pour diviser les destinataires ayant un numéro de mobile et ceux ayant une adresse email.
+1. Dans l&#39;onglet **[!UICONTROL Diffusion]**, sélectionnez une diffusion pour chacune de vos cibles.
 
    Pour créer votre diffusion, procédez de la même manière qu&#39;avec un assistant de diffusion classique en double-cliquant sur l&#39;activité diffusion de votre workflow. Voir à ce propos cette [page](../../delivery/using/about-email-channel.md).
 
    ![](assets/cross_channel_delivery_3.png)
 
-1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
-1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
+1. Pour éviter que les destinataires ne reçoivent trop de diffusion à la fois, ajoutez et configurez une activité **[!UICONTROL Attente]**.
+1. Ajoutez une activité **[!UICONTROL Partage]** pour diviser les abonnés aux applications mobiles iOS ou Android.
 
    Sélectionnez un service pour chacun des systèmes d&#39;exploitation. Pour en savoir plus sur la création de service, voir cette [page](../../delivery/using/configuring-the-mobile-application.md).
 
