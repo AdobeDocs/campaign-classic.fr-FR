@@ -67,7 +67,7 @@ Afin d&#39;identifier la source de trafic sur une application Web, Adobe Campaig
 
 ## Applications web conçues avec Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-When a Web application is created using the HTML content editor - **Digital Content Editor (DCE)** - tracking tags are inserted from the **[!UICONTROL Properties]** tab of the editor. Pour plus d’informations sur Digital Content Editor (DCE), reportez-vous à [cette section](../../web/using/about-campaign-html-editor.md).
+Lorsqu&#39;une application web est créée en utilisant l&#39;éditeur de contenus HTML - **Digital Content Editor (DCE)** -, les balises de tracking sont insérées depuis le sous-onglet **[!UICONTROL Propriétés]** de l&#39;éditeur. Pour plus d&#39;informations sur le Digital Content Editor (DCE), consultez [cette section](../../web/using/about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 
@@ -75,7 +75,7 @@ Lorsque l&#39;opérateur utilise l&#39;interface Web, les balises de tracking do
 
 ![](assets/trackers_3.png)
 
-The **[!UICONTROL Display blocks]** icon lets you view the number of tracking tags defined for the page.
+L&#39;icône **[!UICONTROL Afficher les blocs]** permet de visualiser le nombre de balises de tracking configurées pour la page.
 
 ![](assets/trackers_4.png)
 
