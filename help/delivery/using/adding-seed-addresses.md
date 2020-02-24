@@ -24,7 +24,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ## Adresses de contrôle dans une diffusion {#seed-addresses-in-a-delivery}
 
-To add specific seed addresses for a delivery, click the **[!UICONTROL To]** link, then select the **[!UICONTROL Seed addresses]** tab.
+Pour ajouter des adresses de contrôle spécifiques à une diffusion, cliquez sur le lien **[!UICONTROL Pour]**, puis sélectionnez l&#39;onglet **[!UICONTROL Adresses de contrôle]**.
 
 ![](assets/s_ncs_user_edit_del_addresses_tab.png)
 
@@ -32,23 +32,23 @@ Trois modes d&#39;insertion sont possibles :
 
 1. Vous pouvez saisir les adresses de contrôle.
 
-   Pour ce faire, cliquez sur le **[!UICONTROL Add]** bouton et définissez le contenu des champs d’adresse. Répétez cette opération pour chaque adresse. Voir à ce propos [cette section](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address).
+   Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez le contenu des champs de l&#39;adresse. Répétez l&#39;opération pour chaque adresse à ajouter. Voir à ce propos [cette section](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address).
 
 1. Vous pouvez importer des modèles d&#39;adresses que vous pourrez adapter selon vos besoins.
 
-   Pour ce faire, cliquez sur le **[!UICONTROL Import seed templates...]** lien et sélectionnez le dossier contenant les modèles d’adresse. Pour plus d’informations, reportez-vous à la section [Création de modèles](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates)d’adresse de départ.
+   **[!UICONTROL Pour ce faire, cliquez sur le bouton]** Importer les modèles de base... et sélectionnez le dossier contenant les modèles d’adresse. Pour plus d’informations, reportez-vous à la section [Création de modèles](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates)d’adresse de départ.
 
-   If necessary, once they are added, you can double-click them or click the **[!UICONTROL Detail...]** button to adapt the content of each address.
+   **[!UICONTROL Si nécessaire, une fois ajoutés, vous pouvez double-cliquer dessus ou cliquer sur le]** détail... pour adapter le contenu de chaque adresse.
 
 1. Vous pouvez créer une condition pour sélectionner dynamiquement les adresses de contrôle à insérer.
 
-   Pour ce faire, cliquez sur le **[!UICONTROL Edit the dynamic condition...]** lien, puis entrez les paramètres de sélection de l’adresse de départ. Par exemple, vous pouvez inclure toutes les adresses de base contenues dans un dossier spécifique ou les adresses de base appartenant à un service spécifique de votre organisation.
+   Pour cela, cliquez sur le lien **[!UICONTROL Editer la condition dynamique...]**, puis indiquez les paramètres de sélection des adresses de contrôle. Vous pouvez par exemple inclure toutes les adresses de contrôle contenues dans un dossier spécifique ou les adresses de contrôle appartenant à un service particulier de votre société.
 
    Vous trouverez un exemple dans cette section : Cas [d’utilisation : sélection des adresses de départ sur des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >
->This option is used when the recipient table used is not the default **nms:recipient** table and you are using the Inbox Rendering functionality provided with Adobe Campaign&#39;s **[!UICONTROL Deliverability]** module.
+>Cette option est notamment utilisée lorsque la table des destinataires utilisée n&#39;est pas la table par défaut **nms:recipient** et que vous utilisez la fonctionnalité d&#39;Inbox Rendering fournie avec le module de **[!UICONTROL Délivrabilité]** d&#39;Adobe Campaign.
 >
 >Pour plus d’informations, reportez-vous à la section [Utilisation d’un tableau](../../delivery/using/using-an-external-recipient-table.md) de destinataire externe et à la documentation sur le rendu [de la](../../delivery/using/inbox-rendering.md)boîte de réception.
 
@@ -58,9 +58,9 @@ Pour les diffusions courrier, vous pouvez personnaliser le mode d&#39;insertion 
 
 ## Adresses de contrôle dans une opération {#seed-addresses-in-a-campaign}
 
-To add seed addresses to a target for a campaign, select the operation and click the **[!UICONTROL Edit]** tab.
+Pour ajouter des adresses de contrôle dans la cible au niveau d&#39;une opération, sélectionnez l&#39;opération visée et cliquez sur l&#39;onglet **[!UICONTROL Edition]**.
 
-Cliquez sur le **[!UICONTROL Advanced campaign settings...]** lien, puis sur l’ **[!UICONTROL Seed addresses]** onglet, comme illustré ci-dessous :
+Cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** puis sur l&#39;onglet **[!UICONTROL Adresses de contrôle]**, comme ci-dessous :
 
 ![](assets/s_ncs_user_edit_op_addresses_tab.png)
 
