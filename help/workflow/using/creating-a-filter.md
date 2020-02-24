@@ -26,17 +26,17 @@ Les filtres disponibles dans Adobe Campaign sont définis au travers de conditio
 >
 >Pour plus d&#39;informations sur la création de filtres, consultez [cette section](../../platform/using/filtering-options.md).
 
-Le **[!UICONTROL Administration > Configuration > Predefined filters]** noeud contient tous les filtres utilisés dans les listes et les aperçus.
+Le nœud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]** contient tous les filtres utilisés dans les listes et vues d&#39;ensemble.
 
-For example, the list of operators can be filtered by **[!UICONTROL Active accounts]**:
+Par exemple, la liste des opérateurs peut être filtrée par **[!UICONTROL Compte actifs]** :
 
 ![](assets/query_editor_filter_sample_1.png)
 
-The matching filter contains the query on the **[!UICONTROL Account disabled]** value of the **[!UICONTROL Operators]** schema:
+Le filtre correspondant contient la requête sur la valeur **[!UICONTROL Compte bloqué]** du schéma des **[!UICONTROL Opérateurs]** :
 
 ![](assets/query_editor_filter_sample_2.png)
 
-For the same list, the **[!UICONTROL By login or label]** filter lets you filter the data on the list based on the value entered in the filter field:
+Pour la même liste, le filtre **[!UICONTROL Par login ou libellé]** permet de filtrer les données de la liste selon la valeur saisie dans le champ de filtrage :
 
 ![](assets/query_editor_filter_sample_3.png)
 
@@ -54,7 +54,7 @@ Pour correspondre aux critères de filtrage, le compte de l&#39;opérateur doit 
 >
 >La fonction **[!UICONTROL Upper]** permet de ne pas prendre en compte la casse des caractères (majuscules/minuscules).
 
-La **[!UICONTROL Taken into account if]** colonne vous permet de définir les critères d’application de ces conditions de filtrage. Ici, les caractères **$(/tmp/@text)** représentent le contenu du champ de saisie lié au filtre :
+La colonne **[!UICONTROL Pris en compte si]** permet de définir les critères d&#39;application de ces conditions de filtrage. Ici, les caractères **$(/tmp/@text)** représentent le contenu du champ de saisie associé au filtre :
 
 ![](assets/query_editor_filter_sample_5.png)
 
