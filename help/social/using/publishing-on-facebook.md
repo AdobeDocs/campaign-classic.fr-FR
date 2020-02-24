@@ -33,7 +33,7 @@ Les limitations suivantes sont des contraintes inhérentes à Facebook.
 
 ## Créer la diffusion {#creating-the-delivery}
 
-Créez une remise à l’aide du modèle de **[!UICONTROL Publish to a brand page]** remise.
+Créez une nouvelle diffusion basée sur le modèle de diffusion **[!UICONTROL Publier sur une page de marque]**.
 
 ![](assets/social_facebook_delivery_001.png)
 
@@ -41,61 +41,61 @@ Créez une remise à l’aide du modèle de **[!UICONTROL Publish to a brand pag
 
 Vous devez sélectionner la ou les pages sur lesquelles vous souhaitez envoyer votre publication.
 
-1. Cliquez sur le **[!UICONTROL To]** lien.
+1. Cliquez sur le lien **[!UICONTROL Pour]**.
 
    ![](assets/social_facebook_delivery_010.png)
 
-1. Cliquez sur le **[!UICONTROL Add]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
    ![](assets/social_facebook_delivery_011.png)
 
-1. Sélectionner **[!UICONTROL A Facebook page]**.
+1. Sélectionnez **[!UICONTROL Une page Facebook]**.
 
    ![](assets/social_facebook_delivery_012.png)
 
-1. Dans le **[!UICONTROL Folder]** champ, sélectionnez le dossier de service qui contient la page Facebook. Par défaut, les pages sont stockées à la racine du dossier du **[!UICONTROL Facebook]** service. Sélectionnez ensuite la page Facebook sur laquelle vous souhaitez publier du contenu.
+1. Dans le champ **[!UICONTROL Dossier]**, sélectionnez le dossier de services contenant la page Facebook. Par défaut, les pages sont stockées à la racine du dossier de services **[!UICONTROL Facebook]**. Sélectionnez ensuite la page Facebook sur laquelle vous souhaitez envoyer votre publication.
 
    ![](assets/social_facebook_delivery_013.png)
 
 ## Choisir la cible du BAT {#selecting-the-proof-target}
 
-L’ **[!UICONTROL Target of the proofs]** onglet vous permet de définir la page Facebook que vous souhaitez utiliser pour tester les remises avant de les envoyer.  Nous vous recommandons de créer une page Facebook privée dédiée à cet effet. Pour plus d’informations sur la création d’une page Facebook privée, voir [Création d’une page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)Facebook de test. Pour sélectionner la cible d’épreuve, appliquez les mêmes étapes que pour la cible principale : [Sélection de la cible](#selecting-the-main-target)principale.
+L’onglet **[!UICONTROL Cible des épreuves]** vous permet de définir la page Facebook que vous souhaitez utiliser pour tester les remises avant de les envoyer. Nous vous recommandons de créer une page Facebook privée dédiée à cet effet. Pour plus d’informations sur la création d’une page Facebook privée, voir [Création d’une page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)Facebook de test. Pour sélectionner la cible d’épreuve, appliquez les mêmes étapes que pour la cible principale : [Sélection de la cible](#selecting-the-main-target)principale.
 
 ![](assets/social_facebook_delivery_004.png)
 
 >[!NOTE]
 >
->Si vous utilisez la même page de test Facebook pour toutes les remises, vous pouvez enregistrer la cible de validation dans le modèle de **[!UICONTROL Publish to a brand page]** remise, accessible via le **[!UICONTROL Resources > Templates > Delivery templates]** noeud. La cible d’épreuve sera saisie par défaut pour chaque nouvelle remise.
+>Si vous utilisez la même page de test Facebook pour toutes vos diffusions, vous pouvez enregistrer la cible du BAT dans le modèle de diffusion **[!UICONTROL Publier sur une page de marque]**, accessible à partir du noeud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**. La cible du BAT sera alors renseignée par défaut pour chaque nouvelle diffusion.
 
 ## Définir l&#39;audience {#defining-the-audience}
 
 Si vous souhaitez utiliser des segments locaux afin d&#39;affiner le type de public qui sera autorisé à visualiser la publication, nous vous conseillons de créer une page Facebook par segment (par exemple : Adobe Campaign Paris, Adobe Campaign London, etc.).
 
-Cependant, il est également possible d’utiliser les filtres d’audience utilisés par Facebook. L’ **[!UICONTROL Audience]** onglet de **[!UICONTROL Select target window]** propose quatre filtres :
+Il est cependant aussi possible d&#39;utiliser les filtres d&#39;audience utilisés par Facebook. L&#39;onglet **[!UICONTROL Audience]** de la fenêtre **[!UICONTROL Choix de la cible]** vous propose quatre filtres :
 
 * **[!UICONTROL Country]**
-* **[!UICONTROL Regions]**
-* **[!UICONTROL Cities]**
-* **[!UICONTROL Languages]**
+* **[!UICONTROL Régions]**
+* **[!UICONTROL Villes]**
+* **[!UICONTROL Langues]**
 
 >[!IMPORTANT]
 >
->Utilisez cette fonction avec soin. Dans les rapports de diffusion, l’ **[!UICONTROL Number of fans]** indicateur ne tient pas compte de ces filtres Facebook.
+>Utilisez cette fonction avec précaution. Dans les rapports de diffusion, l&#39;indicateur **[!UICONTROL Nombre de fan]** ne prendra pas en compte ces filtres Facebook.
 >
 >Facebook peut être amené à modifier la liste des filtres d&#39;audience ainsi que leurs valeurs.
 
 ## Définir le contenu du message {#defining-message-content}
 
-Select the type of publication using the **[!UICONTROL Content type]** drop-down menu.
+Sélectionnez le type de publication à l&#39;aide du menu déroulant **[!UICONTROL Type de contenu]**.
 
 ![](assets/social_facebook_delivery_006.png)
 
 Les types de diffusion suivants sont proposés :
 
-* a **[!UICONTROL Status]**
-* a **[!UICONTROL Status with a link]**
-* a **[!UICONTROL Status with a YouTube link]**
-* a **[!UICONTROL Photo album]**
+* un **[!UICONTROL Statut]**
+* un **[!UICONTROL Statut avec un lien]**
+* un **[!UICONTROL Statut avec un lien YouTube]**
+* un **[!UICONTROL Album photo]**
 
 ### Publier un statut {#publishing-a-status}
 
@@ -119,19 +119,19 @@ Renseignez les différents champs proposés :
 >
 >Toutes les URL doivent commencer par **&quot;http://&quot;** ou **&quot;https://&quot;**.
 
-1. In the **[!UICONTROL Status]** field, enter the text which will be displayed under the name of the page.
-1. In the **[!UICONTROL Name]** field, enter the publication title.
-1. In the **[!UICONTROL Link]** field, enter the URL that the publication points to.
+1. Dans le champ **[!UICONTROL Statut]**, saisissez le texte qui sera affiché sous le nom de la page.
+1. Dans le champ **[!UICONTROL Nom]**, saisissez le titre de la publication.
+1. Dans le champ **[!UICONTROL Lien]**, saisissez l&#39;URL vers laquelle pointe la publication.
 
    >[!NOTE]
    >
-   >If you want to add the **[!UICONTROL Link]** field to the URL of a Facebook application to promote it, we recommend that you adapt it to smartphone display criteria:
+   >Si vous souhaitez ajouter, dans le champ **[!UICONTROL Lien]**, l&#39;url d&#39;une application Facebook afin de la promouvoir, nous vous recommandons de la configurer pour qu&#39;elle s&#39;adapte à un affichage smartphone :
    >
    >1. Select the Facebook application [https://developers.facebook.com/apps](https://developers.facebook.com/apps), and select the **[!UICONTROL Settings > Basic]** tab.
-   >1. Enter the **[!UICONTROL Namespace]** field.
-   >1. Enter the **[!UICONTROL Mobile Site URL]** field: when a user clicks the publication link on their smartphone, they will automatically be redirected by Facebook to the URL defined in this field.
+   >1. Renseignez le champ **[!UICONTROL Namespace]**.
+   >1. Renseignez le champ **[!UICONTROL URL du site mobile]** : lorsqu&#39;un utilisateur cliquera sur le lien de la publication depuis un smartphone, il sera automatiquement redirigé par Facebook sur l&#39;url définie dans ce champ.
    >1. Construisez votre application web de manière à personnaliser l&#39;affichage de l&#39;application Facebook en fonction de l&#39;appareil utilisé (smartphone ou PC).
-   >1. Go to the **[!UICONTROL Link]** field of the publication via the Adobe Campaign console, enter the URL of the **[!UICONTROL Canvas page]** field.
+   >1. Dans le champ **[!UICONTROL Lien]** de la publication depuis la console Adobe Campaign, saisissez l&#39;url du champ **[!UICONTROL Page Canevas]**.
 
 
 1. Dans le champ **[!UICONTROL Image]**, saisissez l&#39;URL de l&#39;image qui apparaîtra sur le côté gauche de la publication.
@@ -140,7 +140,7 @@ Renseignez les différents champs proposés :
    >
    >L&#39;image doit être hébergée sur un site Internet public pour que Facebook puisse la télécharger.
 
-1. In the **[!UICONTROL Caption]** field, enter the text that will appear at the end of the publication.
+1. Dans le champ **[!UICONTROL Légende]**, saisissez le texte qui apparaîtra à la fin de la publication.
 1. Dans le champ **[!UICONTROL Description]**, saisissez le texte qui apparaîtra sous le titre.
 
 ![](assets/social_facebook_delivery_005.png)
@@ -157,10 +157,10 @@ Renseignez les différents champs proposés :
 >
 >Toutes les URL doivent commencer par **&quot;http://&quot;** ou **&quot;https://&quot;**.
 
-1. In the **[!UICONTROL Status]** field, enter the text which will be displayed under the name of the page.
-1. In the **[!UICONTROL Name]** field, enter the publication title.
-1. Dans le **[!UICONTROL Video code]** champ, saisissez le code de la vidéo YouTube. Par exemple, pour le lien &quot;http://www.youtube.com/watch?v=abc123456&#39;&quot;, le code vidéo sera &quot;abc123456&quot;.
-1. In the **[!UICONTROL Caption]** field, enter the text that will appear at the end of the publication.
+1. Dans le champ **[!UICONTROL Statut]**, saisissez le texte qui sera affiché sous le nom de la page.
+1. Dans le champ **[!UICONTROL Nom]**, saisissez le titre de la publication.
+1. Dans le champ **[!UICONTROL Code vidéo]**, saisissez le code de la vidéo YouTube. Par exemple, pour le lien &#39;http://www.youtube.com/watch?v=abc123456&#39;, le code de la vidéo sera &#39;abc123456&#39;.
+1. Dans le champ **[!UICONTROL Légende]**, saisissez le texte qui apparaîtra à la fin de la publication.
 1. Dans le champ **[!UICONTROL Description]**, saisissez le texte qui apparaîtra sous le titre.
 
 ![](assets/social_facebook_delivery_youtube.png)
@@ -175,18 +175,18 @@ Renseignez les différents champs proposés :
 
 1. Start by entering the **[!UICONTROL Album name]**.
 1. Saisissez ensuite la **[!UICONTROL Description]** qui apparaîtra au-dessus des photos.
-1. To add a photo, click the **[!UICONTROL Add]** button, select the photo and click **[!UICONTROL Open]**.
+1. Pour ajouter une photo, cliquez sur le bouton **[!UICONTROL Ajouter]**, sélectionnez la photo et cliquez sur **[!UICONTROL Ouvrir]**.
 1. Pour chaque photo, vous avez la possibilité d&#39;ajouter une légende.
 
 ![](assets/social_facebook_delivery_photos.png)
 
 ## Visualiser l&#39;aperçu {#previewing}
 
-The **[!UICONTROL Preview]** tab lets you view the rendering of the publication.
+L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu de la publication.
 
-1.  Cliquez sur l’ **[!UICONTROL Preview]** onglet.
-1. Cliquez sur le menu **[!UICONTROL Test personalization]** déroulant et sélectionnez **[!UICONTROL Service]**.
-1. In the **[!UICONTROL Folder]** field, select the service folder which contains your Facebook pages. Par défaut, les pages sont stockées à la racine du dossier du **[!UICONTROL Facebook]** service.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]**.
+1. Cliquez sur le menu déroulant **[!UICONTROL Tester la personnalisation]** et sélectionnez **[!UICONTROL Service]**.
+1. Dans le champ **[!UICONTROL Dossier]**, sélectionnez le dossier de services contenant vos pages Facebook. Par défaut, les pages sont stockées à la racine du dossier de services **[!UICONTROL Facebook]**.
 1. Sélectionnez la page Facebook sur laquelle vous souhaitez tester l&#39;aperçu.
 
 ![](assets/social_facebook_delivery_008.png)
@@ -197,15 +197,15 @@ The **[!UICONTROL Preview]** tab lets you view the rendering of the publication.
 
 ## Configurer le tracking {#configuring-tracking}
 
-Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
+Le tracking est visualisable dans les rapports de diffusion et dans l&#39;onglet **[!UICONTROL Edition > Tracking]** de la diffusion et du service.
 
-Les clics sur l’URL contenue dans la diffusion sont mesurés par Adobe Campaign. Le nombre de clics sur le **[!UICONTROL Like]** bouton, le nombre de commentaires et le nombre de fans sont mesurés par Facebook.
+Les clics sur l&#39;URL contenue dans la diffusion sont mesurés par Adobe Campaign. Le nombre de clics sur le bouton **[!UICONTROL J&#39;aime]**, le nombre de commentaires et le nombre de fans sont mesurés par Facebook.
 
 La configuration du tracking s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/monitoring-a-delivery.md).
 
 >[!NOTE]
 >
->In the **[!UICONTROL Publish to a brand page]** delivery template, tracking is enabled by default.
+>Dans le modèle de diffusion **[!UICONTROL Publier sur une page de marque]**, le tracking est activé par défaut.
 
 ## Envoyer le BAT {#sending-the-proof}
 
@@ -215,17 +215,17 @@ L’envoi du BAT s’effectue de la même manière que pour une diffusion email.
 
 ## Envoyer le message {#sending-the-message}
 
-1. Once the content is approved, click the **[!UICONTROL Send]** button.
-1. Sélectionnez **[!UICONTROL Deliver as soon as possible]** puis cliquez sur le **[!UICONTROL Analyze]** bouton.
+1. Une fois le contenu validé, cliquez sur le bouton **[!UICONTROL Envoyer]**.
+1. Choisissez **[!UICONTROL Diffuser dès que possible]** et cliquez sur le bouton **[!UICONTROL Analyser]**.
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Postpone the delivery]** option lets you postpone delivery to a later date.
+   >L&#39;option **[!UICONTROL Différer la diffusion]** permet de différer l&#39;envoi de la diffusion à une date ultérieure.
 
    ![](assets/social_facebook_delivery_009.png)
 
 1. Une fois l&#39;analyse terminée, vérifiez le résultat de l&#39;analyse.
-1. Cliquez sur **[!UICONTROL Confirm delivery]**, puis sur **[!UICONTROL Yes]**.
+1. Cliquez sur le bouton **[!UICONTROL Confirmer l&#39;envoi]**, puis cliquez sur **[!UICONTROL Oui]**.
 
    ![](assets/social_facebook_delivery_016.png)
 
