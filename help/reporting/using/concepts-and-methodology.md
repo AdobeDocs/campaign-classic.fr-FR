@@ -42,11 +42,11 @@ Pour générer automatiquement les classes, Adobe Campaign propose également un
 
 ### Définir chaque classe {#defining-each-bin}
 
-To create each bin individually, select the **[!UICONTROL Define each bin]** option and use the table to create the various bins.
+Pour créer unitairement chaque classe, sélectionnez l&#39;option **[!UICONTROL Définir chaque classe]** et utilisez le tableau pour créer les différentes classes.
 
 ![](assets/s_advuser_cube_class_01.png)
 
-Click the **[!UICONTROL Add]** button to create a new bin and list the values which will be grouped into the bin.
+Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle classe et listez les valeurs qui seront regroupées dans la classe.
 
 ![](assets/s_advuser_cube_class_02.png)
 
@@ -54,7 +54,7 @@ Dans l&#39;exemple ci-dessous, les langues seront réparties dans trois groupes 
 
 ![](assets/s_advuser_cube_class_03.png)
 
-Vous pouvez utiliser un masque SQL pour combiner plusieurs valeurs dans un filtre. Pour ce faire, vérifiez **[!UICONTROL Yes]** la **[!UICONTROL Use an SQL mask]** colonne et entrez le filtre SQL à appliquer dans la **[!UICONTROL Value or expression]** colonne.
+Vous pouvez utiliser un masque SQL pour regrouper plusieurs valeurs selon un filtre. Pour cela, cochez l&#39;option **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Utiliser un masque SQL]** et saisissez le filtre SQL à appliquer dans la colonne **[!UICONTROL Valeur ou expression]**.
 
 Dans l&#39;exemple ci-dessous, tous les domaines d&#39;email commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), ou par **ymail** (ymail.com, ymail.eu, etc.) seront regoupés sous le libellé **YAHOO!**, ainsi que les adresses du domaine **rocketmail.com**.
 
@@ -67,7 +67,7 @@ Les valeurs peuvent être gérées dynamiquement via les énumérations. Ainsi, 
 Pour créer ce type de mise en classe des valeurs, les étapes sont les suivantes :
 
 1. Créez une nouvelle dimension et activez la mise en classe.
-1. Sélectionnez l’ **[!UICONTROL Dynamically link the values to an enumeration]** option et sélectionnez l’énumération correspondante.
+1. Sélectionnez l&#39;option **[!UICONTROL Lier dynamiquement les valeurs à une énumération]** et sélectionnez l&#39;énumération correspondante.
 
    ![](assets/s_advuser_cube_class_04.png)
 
@@ -77,7 +77,7 @@ Pour créer ce type de mise en classe des valeurs, les étapes sont les suivante
 
 Vous pouvez regrouper les valeurs dans des plages selon l&#39;intervalle souhaité.
 
-Pour définir manuellement des plages, cliquez sur le **[!UICONTROL Add]** bouton et sélectionnez **[!UICONTROL Define a range]** :
+Pour définir manuellement les intervalles, cliquez sur le bouton **[!UICONTROL Ajouter]** et choisissez l&#39;option **[!UICONTROL Définir un intervalle]** :
 
 ![](assets/s_advuser_cube_class_05.png)
 
@@ -85,7 +85,7 @@ Indiquez ensuite les bornes inférieures et supérieures et cliquez sur **[!UICO
 
 ### Générer automatiquement les classes {#generating-bins-automatically}
 
-Il est également possible de générer des chutiers automatiquement. To do this, click the **[!UICONTROL Generate bins...]** link.
+Vous pouvez également générer automatiquement les classes. Pour cela, cliquez sur le lien **[!UICONTROL Générer les classes...]**.
 
 ![](assets/s_advuser_cube_class_06.png)
 
@@ -113,7 +113,7 @@ Elle est construite selon le modèle suivant :
 
 ![](assets/nmx_enum_domain.png)
 
-Pour créer un rapport à l’aide de cette énumération, créez un cube utilisant la **[!UICONTROL Email domain]** dimension. Choisissez ensuite l’ **[!UICONTROL Enable binning]** option **[!UICONTROL Dynamically link the values to an enumeration]**. Sélectionnez ensuite l’énumération **Domaines** comme illustré ci-dessus. Toutes les valeurs sans alias spécifié seront regroupées sous le libellé **Autres** .
+Pour créer un rapport utilisant cette énumération, créez un Cube utilisant la dimension **[!UICONTROL Domaine de l&#39;email]**. Choisissez l&#39;option **[!UICONTROL Activer la mise en classe]** puis **[!UICONTROL Lier dynamiquement les valeurs à une énumération]**. Choisissez alors l&#39;énumération **Domaines(domain)** présentée ci-dessus. Toutes les valeurs pour lesquelles aucun alias n&#39;a été défini seront regroupées sous le libellé **Autres**.
 
 ![](assets/nmx_add_dimension.png)
 
@@ -123,7 +123,7 @@ Il suffira de modifier l&#39;énumération pour mettre à jour le rapport associ
 
 ![](assets/nmx_add_alias.png)
 
-L’ **[!UICONTROL Domains]** énumération permet de générer des rapports intégrés qui affichent la liste des domaines. Pour adapter le contenu de ces rapports, vous pouvez modifier cette liste.
+L&#39;énumération **[!UICONTROL Domaines]** est utilisée pour générer les rapports natifs affichant la liste des domaines. Pour adapter le contenu de ces rapports, vous pouvez modifier cette liste.
 
 Vous pouvez créer d&#39;autres énumérations réservées à la mise en classe et les utiliser dans d&#39;autres Cubes : toutes les valeurs d&#39;alias seront regroupées dans les classes définies dans le premier onglet de l&#39;énumération.
 
@@ -143,7 +143,7 @@ Les agrégats sont définis au niveau du cube, dans l&#39;onglet correspondant.
 
 Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
-1. Click the **[!UICONTROL Aggregates]** tab of the cube, then click the **[!UICONTROL Add]** button.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Agrégats]** du cube puis sur le bouton **[!UICONTROL Ajouter]**.
 
    ![](assets/s_advuser_cube_agregate_02.png)
 
@@ -156,8 +156,8 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. Le planificateur est détaillé dans [cette section](../../workflow/using/scheduler.md).
-   * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
+   * L&#39;activité **[!UICONTROL Planificateur]** permet de définir la fréquence de mise à jour des calculs. Le planificateur est présenté dans [cette section](../../workflow/using/scheduler.md).
+   * L&#39;activité **[!UICONTROL Mise à jour d&#39;agrégat]** permet de choisir le mode de mise à jour à appliquer : complète ou partielle.
 
       Par défaut, une mise à jour complète est réalisée à chaque calcul. Pour permettre une mise à jour partielle des données, sélectionnez l&#39;option correspondante puis définissez les conditions de mise à jour.
 
@@ -165,27 +165,27 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
 ## Définition des mesures {#defining-measures}
 
-Les types de mesures sont définis dans l’ **[!UICONTROL Measures]** onglet du cube. Vous pouvez calculer des sommes, des moyennes, des écarts, etc.
+Les types de mesures à réaliser sont définis dans l&#39;onglet **[!UICONTROL Mesures]** du cube. Vous pouvez calculer des sommes, des moyennes, des écarts, etc.
 
 Vous pouvez créer autant de mesures que nécessaire : sélectionnez ensuite la mesure à afficher ou masquer dans le tableau. Voir à ce propos [Affichage des mesures](#displaying-measures).
 
 Pour définir une nouvelle mesure, les étapes sont les suivantes :
 
-1. Click the **[!UICONTROL Add]** button above the list of measures and select the type of measure and the formula to be calculated.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des mesures et sélectionnez le type de mesure et la formule à calculer.
 
    ![](assets/s_advuser_cube_create_a_measure.png)
 
 1. Au besoin, selon l&#39;opérateur sélectionné, choisissez l&#39;expression sur laquelle porte l&#39;opération.
 
-   Le **[!UICONTROL Advanced selection]** bouton permet de créer des formules de calcul complexes. Voir à ce propos [cette section](../../platform/using/about-queries-in-campaign.md).
+   Le bouton **[!UICONTROL Sélection avancée]** permet de créer des formules de calcul complexes. Voir à ce sujet [cette section](../../platform/using/about-queries-in-campaign.md).
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
-1. The **[!UICONTROL Filter the measure data...]** link lets you restrict the calculation field and only apply it to specific data in the database.
+1. Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de restreindre le champ du calcul et de ne l&#39;appliquer qu&#39;à certaines données de la base.
 
    ![](assets/s_advuser_cube_create_a_measure_02.png)
 
-1. Enter the label of the measure and add a description, then click **[!UICONTROL Finish]** to create it.
+1. Saisissez le libellé de la mesure et ajoutez une description, puis cliquez sur **[!UICONTROL Terminer]** pour créer la mesure.
 
 ## Affichage des mesures {#displaying-measures}
 
@@ -197,7 +197,7 @@ Vous pouvez paramétrer l&#39;affichage des mesures dans le tableau selon vos be
 
 ### Ordre d&#39;affichage {#display-sequence}
 
-The measures calculated in the cube are configured via the **[!UICONTROL Measures]** button.
+Les mesures calculées dans le cube sont configurées à partir du bouton **[!UICONTROL Mesures]**.
 
 Vous pouvez changer l&#39;ordre d&#39;affichage en déplaçant les lignes. Dans l&#39;exemple suivant, les données de la France sont déplacées en bas de la liste : elles seront alors affichées dans la dernière colonne.
 
@@ -207,7 +207,7 @@ Vous pouvez changer l&#39;ordre d&#39;affichage en déplaçant les lignes. Dans 
 
 Le paramétrage des mesures, lignes et colonnes affichées peut être réalisé unitairement pour chaque mesure ou au niveau général. Une icône spécifique permet d&#39;accéder à la fenêtre de sélection des modes d&#39;affichage.
 
-* Cliquez sur l’ **[!UICONTROL Edit the configuration of the pivot table]** icône pour accéder à la fenêtre de configuration.
+* Cliquez sur l&#39;icône **[!UICONTROL Editer la configuration du tableau pivot]** pour accéder à la fenêtre de configuration générale pour toutes les mesures.
 
    Vous pouvez choisir d&#39;afficher ou non les libellés des mesures ainsi que leur localisation (en ligne ou en colonne).
 
@@ -227,7 +227,7 @@ Au niveau de chaque mesure, vous pouvez définir l&#39;unité et le formatage à
 
 Une fois le rapport paramétré, vous pouvez choisir de le conserver et de le partager avec d&#39;autres opérateurs.
 
-Pour ce faire, cliquez sur l’ **[!UICONTROL Show the report properties]** icône et activez l’ **[!UICONTROL Share this report]** option.
+Pour cela, cliquez sur l&#39;icône **[!UICONTROL Afficher les propriétés du rapport]** et activez l&#39;option **[!UICONTROL Partager ce rapport]**.
 
 ![](assets/cube_share_option.png)
 
@@ -243,7 +243,7 @@ Vous pouvez créer des filtres afin de n&#39;afficher qu&#39;une partie des donn
 
 Pour cela :
 
-1. Cliquez sur l’ **[!UICONTROL Add a filter]** icône .
+1. Cliquez sur l&#39;icône **[!UICONTROL Ajouter un filtre]**.
 
    ![](assets/neolap_add_filter.png)
 
@@ -269,7 +269,7 @@ Pour cela :
 
 A chaque modification (ajout, modification, suppression de filtres), cliquez sur la flèche pour relancer le calcul du rapport.
 
-Les filtres peuvent également être créés en fonction d’une sélection. Pour ce faire, sélectionnez vos cellules, lignes et colonnes source, puis cliquez sur l’ **[!UICONTROL Add a filter]** icône .
+Un filtre peut également être créé à partir d&#39;une sélection. Pour cela, choisissez la ou les cellules, lignes et colonnes sources et cliquez sur l&#39;icône **[!UICONTROL Ajouter un filtre]**.
 
 Pour sélectionner une ligne, une colonne ou une cellule, cliquez dessus avec le bouton gauche de la souris. Pour la dé-sélectionner, cliquez une seconde fois.
 
