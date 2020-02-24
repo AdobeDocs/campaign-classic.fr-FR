@@ -24,56 +24,56 @@ source-git-commit: 1c4b5b7c44bbc74f56d3c70b93b131bba4d78c6f
 
 Dans cet exemple, nous souhaitons envoyer un email avec des champs de données personnalisés aux destinataires qui célèbrent leur anniversaire ce mois-ci. Cet email inclura un coupon valide une semaine avant et après leur anniversaire.
 
-Nous devons cibler les destinataires d&#39;une liste qui célébreront leur anniversaire ce mois-ci avec une **[!UICONTROL Split]** activité. Ensuite, à l’aide de l’ **[!UICONTROL Enrichment]** activité, le champ de données personnalisées agira comme des dates de validité dans le courrier électronique pour l’offre spéciale du client.
+Nous devons cibler à partir d&#39;une liste les destinataires qui célébreront leur anniversaire ce mois-ci avec une activité **[!UICONTROL Partage]**. Ensuite, grâce à l&#39;activité **[!UICONTROL Enrichissement]**, le champ de données personnalisé présentera les dates de validité dans l&#39;email pour l&#39;offre spéciale du client.
 
 ![](assets/uc_enrichment.png)
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, drag and drop a **[!UICONTROL Read list]** activity to target your list of recipients.
+1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de votre campagne, faites glisser et déposez une activité **[!UICONTROL Lecture de liste]** pour cibler votre liste de destinataires.
 1. La liste à traiter peut être spécifiée explicitement, calculée par un script ou localisée dynamiquement, selon les options sélectionnées et les paramètres définis ici.
 
    ![](assets/uc_enrichment_1.png)
 
-1. Add a **[!UICONTROL Split]** activity to differentiate recipients who will celebrate their birthdays this month from other recipients.
-1. Pour fractionner votre liste, dans la **[!UICONTROL Filtering of selected records]** catégorie, sélectionnez **[!UICONTROL Add a filtering condition on the inbound population]**. Cliquez ensuite sur **[!UICONTROL Edit]**.
+1. Ajoutez une activité **[!UICONTROL Partage]** pour différencier les destinataires qui célébreront leur anniversaire ce mois-ci des autres destinataires.
+1. Pour partager votre liste, dans la catégorie **[!UICONTROL Filtrage des enregistrements sélectionnés]**, sélectionnez **[!UICONTROL Ajouter une condition de filtrage sur la population entrante]**, puis cliquez sur **[!UICONTROL Editer]**.
 
    ![](assets/uc_enrichment_2.png)
 
-1. Select **[!UICONTROL Filtering conditions]** then click the **[!UICONTROL Edit expression]** button to filter the month of the recipient&#39;s birthday.
+1. Sélectionnez **[!UICONTROL Critères de filtrage]**, puis cliquez sur le bouton **[!UICONTROL Editer l&#39;expression]** pour filtrer le mois de l&#39;anniversaire du destinataire.
 
    ![](assets/uc_enrichment_3.png)
 
-1. Cliquez **[!UICONTROL Advanced Selection]** puis **[!UICONTROL Edit the formula using an expression]** et ajoutez l’expression suivante : Mois(@bornDate).
-1. Dans la **[!UICONTROL Operator]** colonne, sélectionnez le **[!UICONTROL equal to]**.
-1. Further filter your condition, by adding the **[!UICONTROL Value]** month of the current date: Month(GetDate()).
+1. Cliquez sur **[!UICONTROL Sélection avancée]**, puis sur **[!UICONTROL Editer la formule à partir d&#39;une expression]** et ajoutez l&#39;expression suivante : Month(@birthDate).
+1. Dans la colonne **[!UICONTROL Opérateur]**, sélectionnez **[!UICONTROL égal à]**.
+1. Filtrez davantage votre condition en ajoutant la **[!UICONTROL Valeur]** de mois de la date actuelle : Month(GetDate()).
 
    Cela interrogera les destinataires dont le mois d&#39;anniversaire correspond au mois actuel.
 
    ![](assets/uc_enrichment_4.png)
 
-1. Clics **[!UICONTROL Finish]**. Ensuite, dans l’ **[!UICONTROL General]** onglet de votre **[!UICONTROL Split]** activité, cliquez sur **[!UICONTROL Generate complement]** dans la **[!UICONTROL Results]** catégorie.
+1. Cliquez sur **[!UICONTROL Terminer]**. Puis, dans l&#39;onglet **[!UICONTROL Général]** de votre activité **[!UICONTROL Partage]**, cliquez sur **[!UICONTROL Générer le complémentaire]** dans la catégorie **[!UICONTROL Résultats]**.
 
-   Vous pouvez **[!UICONTROL Complement]** ainsi ajouter une activité de remise ou mettre à jour une liste. Ici, nous venons d&#39;ajouter une **[!UICONTROL End]** activité.
+   Avec le résultat **[!UICONTROL Complément]**, vous pouvez ajouter une activité de diffusion ou mettre à jour une liste. Ici, nous avons ajouté une activité **[!UICONTROL Fin]**.
 
    ![](assets/uc_enrichment_6.png)
 
-You now need to configure your **[!UICONTROL Enrichment]** activity:
+Vous devez maintenant paramétrer votre activité **[!UICONTROL Enrichissement]** :
 
-1. Add an **[!UICONTROL Enrichment]** activity after your subset to add your custom date fields.
+1. Ajoutez une activité **[!UICONTROL Enrichissement]** après votre sous-ensemble pour ajouter vos champs de date personnalisés.
 
    ![](assets/uc_enrichment_7.png)
 
-1. Ouvrez votre **[!UICONTROL Enrichment]** activité. Dans la **[!UICONTROL Complementary information]** catégorie, cliquez sur **[!UICONTROL Add data]**.
+1. Ouvrez votre activité **[!UICONTROL Enrichissement]**. Dans la catégorie **[!UICONTROL Complément d&#39;information]**, cliquez sur **[!UICONTROL Ajouter des données]**.
 
    ![](assets/uc_enrichment_8.png)
 
-1. Sélectionnez **[!UICONTROL Data linked to the filtering dimension]** alors **[!UICONTROL Data of the filtering dimension]**.
-1. Cliquez sur le **[!UICONTROL Add]** bouton.
+1. Sélectionnez **[!UICONTROL Données liées à la dimension de filtrage]**, puis **[!UICONTROL Données de la dimension de filtrage]**.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
    ![](assets/uc_enrichment_9.png)
 
-1. Add a **[!UICONTROL Label]**. Dans la **[!UICONTROL Expression]** colonne, cliquez ensuite sur **[!UICONTROL Edit expression]**.
+1. Ajoutez un **[!UICONTROL Libellé]**. Puis, dans la colonne **[!UICONTROL Expression]**, cliquez sur **[!UICONTROL Editer l&#39;expression]**.
 
    ![](assets/uc_enrichment_10.png)
 
@@ -89,24 +89,24 @@ You now need to configure your **[!UICONTROL Enrichment]** activity:
 
 1. Cliquez sur **[!UICONTROL Ok]**. Votre enrichissement est maintenant prêt.
 
-Après votre **[!UICONTROL Enrichment]** activité, vous pouvez ajouter une diffusion. Dans ce cas, nous avons ajouté une remise par courrier électronique pour envoyer aux destinataires une offre spéciale avec des dates de validité aux clients qui célèbrent leur anniversaire ce mois-ci.
+Après votre activité **[!UICONTROL Enrichissement]**, vous pouvez ajouter une diffusion. Dans ce cas, nous avons ajouté une diffusion par email pour envoyer une offre spéciale avec des dates de validité aux clients célébrant leur anniversaire ce mois-ci.
 
-1. Faites glisser une **[!UICONTROL Email delivery]** activité après votre **[!UICONTROL Enrichment]** activité.
+1. Faites glisser et déposez une activité **[!UICONTROL Diffusion par email]** après votre activité **[!UICONTROL Enrichissement]**.
 
    ![](assets/uc_enrichment_15.png)
 
-1. Double-click your **[!UICONTROL Email delivery]** activity to start personalizing your delivery.
-1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]**.
-1. Click **[!UICONTROL Save]** to create your email delivery.
-1. Vérifiez dans l’ **[!UICONTROL Approval]** onglet de la remise du courrier électronique **[!UICONTROL Properties]** que le **[!UICONTROL Confirm delivery before sending option]** message est coché.
+1. Double cliquez sur votre activité **[!UICONTROL Diffusion par email]** pour commencer à personnaliser votre diffusion.
+1. Ajoutez un **[!UICONTROL Libellé]** à votre diffusion, puis cliquez sur **[!UICONTROL Continuer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour créer votre diffusion par email.
+1. Vérifiez dans l&#39;onglet **[!UICONTROL Approbation]** des **[!UICONTROL Propriétés]** de la diffusion par email que l&#39;option **[!UICONTROL Confirmer la diffusion avant l&#39;envoi]** est cochée.
 
    Ensuite, démarrez votre workflow pour enrichir votre transition sortante avec les informations ciblées.
 
    ![](assets/uc_enrichment_18.png)
 
-You can now start designing your email delivery with the custom date fields created in the **[!UICONTROL Enrichment]** activity.
+Vous pouvez maintenant commencer à concevoir votre diffusion par email avec les champs de date personnalisés créés dans l&#39;activité **[!UICONTROL Enrichissement]**.
 
-1. Cliquez deux fois sur votre **[!UICONTROL Email delivery]** activité.
+1. Double cliquez sur votre activité **[!UICONTROL Diffusion par email]**.
 1. Ajoutez vos extensions cibles à votre email. Il devrait se trouver à l&#39;intérieur de l&#39;expression suivante afin de paramétrer le format de vos dates de validité :
 
    ```
@@ -114,7 +114,7 @@ You can now start designing your email delivery with the custom date fields crea
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. Clics ![](assets/uc_enrichment_16.png) . Select **[!UICONTROL Target extension]** then the previously created custom validity dates with the **[!UICONTROL Enrichment]** activity to add your extension to the formatDate expression.
+1. Cliquez sur ![](assets/uc_enrichment_16.png). Sélectionnez **[!UICONTROL Extension de la cible]**, puis les dates de validité personnalisées créées précédemment avec l&#39;activité **[!UICONTROL Enrichissement]** pour ajouter votre extension à l&#39;expression FormatDate.
 
    ![](assets/uc_enrichment_19.png)
 
