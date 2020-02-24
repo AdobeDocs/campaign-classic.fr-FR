@@ -103,9 +103,9 @@ La gestion du suivi Web a également été modifiée. Une fois la migration vers
 
 Trois modes sont disponibles :
 
-* **Suivi** web de session : Si le **[!UICONTROL Leads]** package n’a pas été installé, cette option est sélectionnée par défaut. Cette option est idéale en termes de performances et vous permet de limiter la taille des journaux de suivi.
+* **Tracking Web de session** : Si le package **[!UICONTROL Leads]** n&#39;est pas installé, cette option est sélectionnée par défaut. Cette option est la plus avantageuse en termes de performances et permet de limiter la taille des logs de tracking.
 * **Tracking Web permanent**
-* **Suivi** Web anonyme : Si le **[!UICONTROL Leads]** package est installé, cette option est sélectionnée par défaut. C&#39;est l&#39;option qui consomme le plus de ressources. Comme ci-dessus, la colonne **sSourceId** doit être indexée (dans la table de suivi et la table **CrmIncomingLead** ).
+* **Tracking Web anonyme** : Si le package **[!UICONTROL Leads]** est installé, cette option est sélectionnée par défaut. Cette option est la plus contraignante en termes de performances. Comme pour l&#39;option Tracking Web permanent, la colonne **sSourceId** doit être indexée (dans la table de tracking et la table **CrmIncomingLead**).
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Trois modes sont disponibles :
 
 Lors de la migration, l&#39;arborescence est automatiquement réorganisée selon les nouvelles normes de la v7. Les nouveaux dossiers sont ajoutés, les dossiers obsolètes supprimés et le contenu de ces derniers placés dans le dossier &quot;To move&quot;. Tous les éléments de ce dossier doivent être vérifiés après la migration, et pour chacun, le consultant doit décider s&#39;il souhaite le conserver ou le supprimer. Il doit ensuite replacer au bon endroit les éléments à conserver.
 
-Une option a été ajoutée pour désactiver la migration automatique de l’arborescence de navigation. Cette opération est désormais manuelle. Les dossiers obsolètes ne sont pas supprimés et les nouveaux dossiers ne sont pas ajoutés. Cette option ne doit être utilisée que si l’arborescence de navigation v5 prête à l’emploi a subi trop de modifications. Ajoutez l’option à la console, avant de procéder à la migration, dans le **[!UICONTROL Administration > Options]** noeud :
+Une option a été ajoutée permettant de désactiver la migration automatique de l&#39;arborescence. Celle-ci devient donc manuelle. Les dossiers obsolètes ne sont pas supprimés et les nouveaux dossiers ne sont pas ajoutés. Cette option n&#39;est à utiliser que dans le cas où l&#39;arborescence d&#39;usine v5 a subi un nombre de modifications trop important. L&#39;option est à ajouter dans la console, avant la migration, au niveau du noeud **[!UICONTROL Administration > Options]** :
 
 * Nom interne : NlMigration_KeepFolderStructure
 * Type de données : Entier
