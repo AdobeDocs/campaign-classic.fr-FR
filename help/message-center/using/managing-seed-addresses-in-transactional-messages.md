@@ -26,7 +26,7 @@ Une adresse de contrôle est utilisée pour afficher l&#39;aperçu de votre mess
 
 ## Créer une adresse de contrôle {#creating-a-seed-address}
 
-1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab.
+1. Dans le modèle de message transactionnel, cliquez sur l&#39;onglet **[!UICONTROL Adresses de contrôle]**.
 
    ![](assets/messagecenter_create_seedaddr_001.png)
 
@@ -48,7 +48,7 @@ Une adresse de contrôle est utilisée pour afficher l&#39;aperçu de votre mess
 
 ## Créer plusieurs adresses de contrôle {#creating-several-seed-addresses}
 
-1. Cliquez sur le **[!UICONTROL Add other seed addresses]** lien, puis sur le **[!UICONTROL Add]** bouton.
+1. Cliquez sur le lien **[!UICONTROL Ajouter d&#39;autres adresses de contrôle]**, puis sur le bouton **[!UICONTROL Ajouter]**.
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
