@@ -28,23 +28,23 @@ Pour créer une diffusion basée sur un modèle existant, vous devez sélectionn
 
 ![](assets/s_ncs_user_wizard_select_template.png)
 
-Otherwise, click the **[!UICONTROL Select link]** folder to the right of the field to browse the tree.
+Sinon, cliquez sur le dossier **[!UICONTROL Choisir le lien]** situé à droite du champ pour parcourir l&#39;arborescence.
 
 ![](assets/s_ncs_user_wizard_choose_link.png)
 
-Select the desired directory from the **[!UICONTROL Folder]** field, or click the **[!UICONTROL Display sub-levels]** icon to display the contents of the directories in the sub-trees of the current directory.
+Sélectionnez le répertoire visé depuis le champ **[!UICONTROL Dossier]** ou cliquez sur l&#39;icône **[!UICONTROL Afficher les fils]** pour afficher le contenu des répertoires situés en sous-arborescence du répertoire courant.
 
 Sélectionnez le modèle de diffusion à utiliser et cliquez sur **[!UICONTROL Ok]**.
 
 ## Exécuter le modèle {#executing-the-template}
 
-You can launch the execution of a template directly from the template list without creating a delivery first. To do this, select the template to be executed and right-click. Select **[!UICONTROL Actions>Execute the delivery template...]**.
+Vous pouvez lancer l&#39;exécution d&#39;un modèle directement depuis la liste des modèles, sans créer de diffusion au préalable. Pour cela, sélectionnez le modèle à exécuter et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions>Exécuter le modèle de diffusion...]**.
 
-Vous pouvez également utiliser **[!UICONTROL File>Actions>Execute the delivery template...]**.
+Vous pouvez aussi utiliser le menu **[!UICONTROL Fichier > Actions > Exécuter le modèle de diffusion...]**.
 
 ![](assets/s_ncs_user_template_execute_menu.png)
 
-Enter the delivery parameters and click **[!UICONTROL Send]**.
+Renseignez ensuite les paramètres de la diffusion et cliquez sur **[!UICONTROL Envoyer]**.
 
 Cette action crée une diffusion dans le dossier attaché au modèle. Le nom de cette diffusion est le nom du modèle de diffusion à partir duquel elle a été créée.
 
