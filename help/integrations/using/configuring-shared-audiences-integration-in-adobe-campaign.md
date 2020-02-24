@@ -33,26 +33,26 @@ Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et 
 
 Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;Adobe Campaign en procédant comme suit :
 
-1. Cliquez sur l’ **[!UICONTROL Explorer]** icône .
-1. Go to **[!UICONTROL Administration > Platform > External accounts]**. Les comptes SFTP mentionnés doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
+1. Cliquez sur l&#39;icône **[!UICONTROL Explorateur]**.
+1. Accédez à **[!UICONTROL Administration > Plate-forme > Comptes externes]**. Les comptes SFTP mentionnés doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
 
-   * **[!UICONTROL importSharedAudience]** : compte SFTP dédié à l&#39;import d&#39;audiences.
-   * **[!UICONTROL exportSharedAudience]** : compte SFTP dédié à l&#39;export d&#39;audiences.
+   * **[!UICONTROL importSharedAudience : compte SFTP dédié à l&#39;import d&#39;audiences.]**
+   * **[!UICONTROL exportSharedAudience : compte SFTP dédié à l&#39;export d&#39;audiences.]**
    ![](assets/aam_config_1.png)
 
-1. Fill in the **[!UICONTROL Server]** field: **ftp-out.demdex.com** domain for the import external account and **ftp-in.demdex.com** domain for the export external account.
+1. Renseignez le champ **[!UICONTROL Serveur]** : utilisez le domaine **ftp-out.demdex.com** pour le compte externe d&#39;import et le domaine **ftp-in.demdex.com** pour celui d&#39;export.
 
    Souvenez-vous qu&#39;un export depuis Campaign est un import pour Audience Manager ou People core service.
 
    >[!NOTE]
    >
-   >Si vous utilisez S3, saisissez la syntaxe **[!UICONTROL AWS S3 Account Server]** suivante :\
+   >Si vous utilisez S3, saisissez votre serveur **[!UICONTROL de compte]** AWS S3 en respectant la syntaxe suivante :\
    `<S3bucket name>.s3.amazonaws.com/<s3object path>`\
    For more information on how to configure your S3 account, refer to this [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
 
    ![](assets/aam_config_2.png)
 
-1. Ajoutez les **[!UICONTROL Account]** et **[!UICONTROL Password]** fournis par Adobe.
+1. Indiquez le **[!UICONTROL Compte]** et le **[!UICONTROL Mot de passe]** fournis par Adobe.
 
 Vos comptes externes sont maintenant configurés.
 
@@ -60,11 +60,11 @@ Vos comptes externes sont maintenant configurés.
 
 La source de données **Destinataires - Id Visiteur** est créée dans Audience Manager. Il s&#39;agit d&#39;une source de données d&#39;usine configurée par défaut pour le Visitor ID. Les segments créés à partir de Campaign font partie de cette source de données.
 
-Pour configurer la source de **[!UICONTROL Recipient - Visitor ID]** données :
+Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]** :
 
-1. Dans le **[!UICONTROL Explorer]** noeud, sélectionnez **[!UICONTROL Administration > Platform > AMC Data sources]**.
-1. Sélectionner **[!UICONTROL Recipient - Visitor ID]**.
-1. Entrez les informations **[!UICONTROL Data Source ID]** et **[!UICONTROL AAM Destination ID]** fournies par Adobe.
+1. Depuis le nœud **[!UICONTROL Explorateur]**, sélectionnez **[!UICONTROL Administration > Plate-forme > AMC Data sources]**.
+1. Sélectionnez **[!UICONTROL Destinataire - Id Visiteur]**.
+1. Saisissez le **[!UICONTROL Data Source ID]** et le **[!UICONTROL AAM Destination ID]** fournis par Adobe.
 
    ![](assets/aam_config_3.png)
 
