@@ -32,7 +32,7 @@ Toutefois, les différences fonctionnelles sont les suivantes :
 
 >[!CAUTION]
 >
->Il est vivement recommandé que les configurations appliquées soient vérifiées en permanence afin de détecter toute erreur au début du processus de construction de l&#39;application Web. Pour vérifier le rendu d’une modification, enregistrez l’application, puis cliquez sur le **[!UICONTROL Preview]** sous-onglet.
+>Il est vivement recommandé de contrôler au fur et à mesure les paramétrages appliqués afin de détecter les éventuelles erreurs suffisamment tôt dans le processus de construction de l&#39;application web. Pour contrôler le rendu d&#39;une modification, enregistrez l&#39;application puis cliquez sur le sous-onglet **[!UICONTROL Prévisualisation]**.
 >
 >Tant que l&#39;application web n&#39;est pas publiée, les modifications ne sont pas visibles par l&#39;utilisateur final.
 
@@ -42,7 +42,7 @@ Vous pouvez inclure des graphiques dans les applications Web. Pour cela, utilise
 
 ![](assets/s_ncs_admin_webapps_bar_graph.png)
 
-Vous pouvez également sélectionner le **[!UICONTROL Add a chart]** menu.
+Vous pouvez également sélectionner le menu **[!UICONTROL Ajouter un graphique]**.
 
 ![](assets/s_ncs_admin_webapps_graph.png)
 
@@ -62,7 +62,7 @@ L&#39;interface d&#39;Adobe Campaign utilise de nombreuses applications web afin
 
 Elles se présentent dans l&#39;interface sous la forme de tableaux de bord et elles ne sont composées que d&#39;une seule page.
 
-Les applications Web prêtes à l&#39;emploi sont stockées dans le **[!UICONTROL Administration > Configuration > Web applications]** noeud.
+Les applications web d&#39;usine sont stockées sous le nœud **[!UICONTROL Administration > Paramétrage > Applications web]**.
 
 ## Modification d&#39;applications Web de type formulaire {#edit-forms-type-web-applications}
 
