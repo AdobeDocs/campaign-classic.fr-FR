@@ -28,7 +28,7 @@ L&#39;éditeur permet de saisir le libellé et la durée d&#39;attente, comme da
 
 ![](assets/edit_wait.png)
 
-In the **[!UICONTROL Duration]** field, the value can be expressed in the unit of your choice: (according to the operator&#39;s regional settings):
+Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l&#39;unité de votre choix (en fonction des paramètres régionaux définis pour l&#39;utilisateur) :
 
 * Si les paramètres régionaux ne sont pas définis : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **d** pour les jours, **y** pour les années. Lors de la validation, la valeur est automatiquement traduite dans l&#39;unité la plus lisible.
 
