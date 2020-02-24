@@ -1,6 +1,6 @@
 ---
-title: Activités d'action
-seo-title: Activités d'action
+title: Activités d’action
+seo-title: Activités d’action
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -17,5 +17,5 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 ---
 
 
-# Activités d&#39;action{#action-activities}
+# Activités d’action{#action-activities}
 
