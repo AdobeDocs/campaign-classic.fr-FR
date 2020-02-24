@@ -34,26 +34,26 @@ Pour permettre la connexion à la base de données externe, vous devez indiquer 
 
 Pour activer une connexion à une base de données externe partagée, tant que cette connexion est active, la base de données est accessible via Adobe Campaign.
 
-1. La configuration doit être définie au préalable via le **[!UICONTROL Administration > Platform > External accounts]** noeud.
-1. Cliquez sur le **[!UICONTROL New]** bouton et sélectionnez le **[!UICONTROL External database]** type.
-1. Define the **[!UICONTROL Connection]** parameters of the external database.
+1. Le paramétrage doit être défini préalablement via le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]**.
+1. Cliquez sur le lien **[!UICONTROL Nouveau]** et sélectionnez le type **[!UICONTROL Base de données externe]**.
+1. Définissez les paramètres **[!UICONTROL Connexion]** de la base de données externe.
 
-   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. En outre, certaines configurations supplémentaires peuvent être nécessaires selon les bases de données utilisées. Reportez-vous à la section Configurations [spécifiques par type](#specific-configurations-by-database-type) de base de données.
+   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. Moreover, certain additional configurations may be necessary depending on the databases used. Reportez-vous à la section Configurations [spécifiques par type](#specific-configurations-by-database-type) de base de données.
 
-1. Once the parameters are entered, click the **[!UICONTROL Test the connection]** button to approve them.
+1. Une fois les paramètres renseignés, cliquez sur le bouton **[!UICONTROL Tester la connexion]** pour les valider.
 
    ![](assets/wf-external-account-create.png)
 
-1. If necessary, uncheck the **[!UICONTROL Enabled]** option to disable access to this database without deleting its configuration.
-1. Pour autoriser Adobe Campaign à accéder à cette base de données, vous devez déployer les fonctions SQL. Cliquez sur l’ **[!UICONTROL Parameters]** onglet puis sur le **[!UICONTROL Deploy functions]** bouton.
+1. Si nécessaire, désélectionnez l&#39;option **[!UICONTROL Activé]** pour désactiver l&#39;accès à cette base de données sans supprimer son paramétrage.
+1. Pour permettre à Adobe Campaign d&#39;accéder à cette base, vous devez déployer les fonctions SQL. Cliquez sur l&#39;onglet **[!UICONTROL Paramètres]** puis sur le bouton **[!UICONTROL Déployer les fonctions]**.
 
    ![](assets/wf-external-account-functions.png)
 
-You can define specific work tablespaces for the tables and for the index in the **[!UICONTROL Parameters]** tab.
+Vous pouvez définir des tablespaces de travail spécifiques pour les tables et pour les index dans l&#39;onglet **[!UICONTROL Paramètres]**.
 
 ## Créer une connexion ponctuelle {#creating-a-temporary-connection}
 
-Vous pouvez directement définir une connexion à une base de données externe à partir des activités du processus. Dans ce cas, il sera stocké dans une base de données externe locale, réservée pour être utilisée dans un flux de travaux en cours : il ne sera pas enregistré sur les comptes externes. Ce type de connexion ponctuelle peut être créé sur différentes activités du flux de travaux, en particulier **[!UICONTROL Query]**, le **[!UICONTROL Data loading (RDBMS)]**, l’ **[!UICONTROL Enrichment]** activité ou l’ **[!UICONTROL Split]** activité.
+Vous pouvez définir directement une connexion à une base externe à partir des activités d&#39;un workflow. Dans ce cas, il s&#39;agira d&#39;une base externe locale, réservée à une utilisation dans le cadre du workflow courant : elle ne sera pas enregistrée dans les comptes externes. Ce type de connexion ponctuelle peut être créée dans différentes activités du workflow, notamment l&#39;activité de **[!UICONTROL Requête]**, l&#39;activité de **[!UICONTROL Chargement (SGBD)]**, l&#39;activité d&#39;**[!UICONTROL Enrichissement]** ou l&#39;activité de **[!UICONTROL Partage]**.
 
 >[!CAUTION]
 >
@@ -61,8 +61,8 @@ Vous pouvez directement définir une connexion à une base de données externe �
 
 Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes pour créer une connexion ponctuelle à une base externe :
 
-1. Cliquez sur le bouton **[!UICONTROL Add data...]** et sélectionnez les **[!UICONTROL External data]** options.
-1. Select the **[!UICONTROL Locally defining the data source]** option.
+1. Cliquez sur le lien **[!UICONTROL Ajouter des données...]** et sélectionnez l&#39;option **[!UICONTROL Données externes]**.
+1. Choisissez l&#39;option **[!UICONTROL En définissant localement la source de données]**.
 
    ![](assets/wf_add_data_local_external_data.png)
 
@@ -72,7 +72,7 @@ Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes po
 
    ![](assets/wf_add_data_local_external_data_param.png)
 
-   Cliquez sur le **[!UICONTROL Next]** bouton.
+   Cliquez sur le bouton **[!UICONTROL Suivant]**.
 
 1. Sélectionnez la table où sont stockées les données.
 
@@ -80,16 +80,16 @@ Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes po
 
    ![](assets/wf_add_data_local_external_data_select_table.png)
 
-1. Cliquez sur le **[!UICONTROL Add]** bouton pour définir un ou plusieurs champs de réconciliation entre les données de base de données externes et les données de la base de données Adobe Campaign. Les **[!UICONTROL Edit expression]** icônes du **[!UICONTROL Remote field]** et **[!UICONTROL Local field]** vous donnent accès à la liste des champs de chacun des tableaux.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir un ou plusieurs champs de réconciliation entre les données de la base externe et celles de la base Adobe Campaign. Les icônes **[!UICONTROL Editer l&#39;expression]** des colonnes **[!UICONTROL Champ distant]** et **[!UICONTROL Champ local]** permettent d&#39;accéder à la liste des champs de chacune des tables.
 
    ![](assets/wf_add_data_local_external_data_join.png)
 
 1. Au besoin, indiquez une condition de filtrage et le mode de tri des données.
-1. Select the additional data to be collected in the external database. To do this, double click on the fields(s) that you want to add to display them in the **[!UICONTROL Output columns]**.
+1. Sélectionnez les données additionnelles à collecter dans la base externe. Pour cela, double-cliquez sur le ou les champs à ajouter afin de les afficher parmi les **[!UICONTROL Colonnes de sortie]**.
 
    ![](assets/wf_add_data_local_external_data_select.png)
 
-   Click **[!UICONTROL Finish]** to confirm this configuration.
+   Cliquez sur le bouton **[!UICONTROL Terminer]** pour valider ce paramétrage.
 
 ## Connexion sécurisée {#secure-connection}
 
