@@ -114,7 +114,7 @@ Pour présenter une offre à un contact identifié, le processus est similaire �
 </script>
 ```
 
-1. Go to the offer space that will be called up by the web page, click **[!UICONTROL Advanced parameters]** and add one or more identification keys.
+1. Dans l&#39;emplacement destiné à être appelé par la page web, cliquez sur **[!UICONTROL Paramètres avancés]** et ajoutez une ou plusieurs clés d&#39;identification.
 
    ![](assets/interaction_htmlmode_001.png)
 
@@ -134,9 +134,9 @@ Pour présenter une offre à un contact identifié, le processus est similaire �
 
 Vous pouvez utiliser une fonction de rendu afin que la représentation HTML de l&#39;offre soit automatiquement générée.
 
-1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. Sélectionner **[!UICONTROL Overload the HTML rendering function]**.
-1. Go to the **[!UICONTROL HTML rendering]** tab and insert the variables that match the fields defined for the offer content in the offer space.
+1. Dans l&#39;emplacement de l&#39;offre, cliquez sur le lien **[!UICONTROL Editer les fonctions]**.
+1. Sélectionnez **[!UICONTROL Surcharger la fonction de rendu HTML]**.
+1. Dans l&#39;onglet **[!UICONTROL Rendu HTML]**, insérez les variables correspondant aux champs définis pour le contenu de l&#39;offre dans l&#39;emplacement.
 
    ![](assets/interaction_htmlmode_002.png)
 
@@ -272,7 +272,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    ![](assets/interaction_xmlmode_form.png)
 
-   The **[!UICONTROL Title 2]** and **[!UICONTROL Price]** fields have been added and the **[!UICONTROL Destination URL]** field is no longer displayed.
+   Les champs **[!UICONTROL Titre 2]** et **[!UICONTROL Prix]** ont été ajoutés et le champ **[!UICONTROL URL de destination]** n&#39;est plus affiché.
 
 1. **Créer une offre**
 
@@ -317,9 +317,9 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
 Vous pouvez utiliser une fonction de rendu XML pour créer la présentation d&#39;une offre. Cette fonction modifiera le noeud XML qui est renvoyé vers la page HTML lors de l&#39;appel au moteur.
 
-1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. Sélectionner **[!UICONTROL Overload the XML rendering function]**.
-1. Go to the **[!UICONTROL XML rendering]** tab and insert the desired function.
+1. Dans l&#39;emplacement de l&#39;offre, cliquez sur le lien **[!UICONTROL Editer les fonctions]**.
+1. Sélectionnez **[!UICONTROL Surcharger la fonction de rendu XML]**.
+1. Dans l&#39;onglet **[!UICONTROL Rendu XML]**, insérez la fonction voulue.
 
    La fonction peut ressembler à l&#39;exemple ci-dessous :
 
