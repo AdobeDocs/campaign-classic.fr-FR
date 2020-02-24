@@ -30,11 +30,11 @@ Dans certains cas, vous devrez également mettre en place de nouveaux cubes spé
 
 Les rapports concernés sont les suivants :
 
-* **[!UICONTROL Recent proposition tracking]** (Propositions récentes) : suivi des propositions en temps réel.
-* **[!UICONTROL Breakdown of opens]** (openByUserAgent) : s’ouvre ventilé selon le logiciel utilisateur.
-* **[!UICONTROL Statistics of the sharing activities]** (forwardActivities) : analyse des activités de partage, des ouvertures et des abonnements par période.
-* **[!UICONTROL Tracking indicators]** (mobileAppDeliveryComments) : indicateurs de suivi pour une diffusion sur une application mobile.
-* **[!UICONTROL Offer analysis]** (offerAnalysis) : analyse des offres par date et par canal.
-* **[!UICONTROL Reactivity rate]** (mobileAppDistribution) : taux de réactivité pour les dernières livraisons.
-* **[!UICONTROL Breakdown of subscriptions]** (mobileAppDistribution) : ventilation des abonnements actifs par application mobile.
+* **[!UICONTROL Suivi des propositions récentes]** (recentPropositions) : suivi en temps réél des propositions.
+* **[!UICONTROL Répartition des ouvertures]** (opensByUserAgent) : répartition des ouvertures selon les logiciels utilisateur.
+* **[!UICONTROL Statistiques des activités de partage]** (forwardActivities) : analyse des partages, ouvertures et abonnements par périodes de temps.
+* **[!UICONTROL Indicateurs de tracking]** (mobileAppDeliveryFeedback) : indicateurs de tracking d&#39;une diffusion sur une application mobile.
+* **[!UICONTROL Analyse des offres]** (offerAnalysis) : analyse des offres par date et canal.
+* **[!UICONTROL Taux de réactivité]** (mobileAppReactivityRate) : taux de réactivité des dernières diffusions.
+* **[!UICONTROL Répartition des abonnements]** (mobileAppDistribution) répartition des abonnements actifs par application mobile.
 
