@@ -40,15 +40,15 @@ Lorsqu&#39;un rapport contient plusieurs pages, vous devez répéter l&#39;opér
 
 Vous pouvez paramétrer votre rapport en vue de son export au format PDF, Excel ou OpenOffice. Ouvrez l&#39;explorateur Adobe Campaign et sélectionnez le rapport concerné.
 
-Export options are accessed via the **[!UICONTROL Page]** activities of the report, in the **[!UICONTROL Advanced]** tab.
+Les options d&#39;export sont accessibles depuis la ou les activité(s) **[!UICONTROL Page]** du rapport, dans l&#39;onglet **[!UICONTROL Avancé]**.
 
-Modifiez les paramètres de **[!UICONTROL Paper]** et **[!UICONTROL Margins]** selon vos besoins. Vous pouvez également autoriser l’exportation d’une page au format PDF uniquement. Pour ce faire, désélectionnez l’ **[!UICONTROL Activate OpenOffice/Microsoft Excel export]** option.
+Modifiez les paramètres **[!UICONTROL Papier]** et **[!UICONTROL Marges]** selon vos besoins. Vous pouvez également n&#39;autoriser l&#39;export d&#39;une page qu&#39;au format PDF. Pour cela, dé-sélectionnez l&#39;option **[!UICONTROL Activer l&#39;export OpenOffice/ Microsoft Excel]**.
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
 ### Exporter dans Microsoft Excel {#exporting-into-microsoft-excel}
 
-For **[!UICONTROL List with group]** type reports destined to be exported into Excel, the following recommendations and limitations apply:
+Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à être exportés au format Excel, les recommandations et limitations sont les suivantes:
 
 * Ces rapports ne doivent pas contenir de ligne vide.
 
@@ -58,7 +58,7 @@ For **[!UICONTROL List with group]** type reports destined to be exported into E
 
    ![](assets/export_limitations_hide_label.png)
 
-* Les rapports n’ont pas besoin d’utiliser une mise en forme spécifique définie au niveau de la cellule. Il est préférable d’utiliser **[!UICONTROL Form rendering]** pour définir le format des cellules du tableau. On **[!UICONTROL Form rendering]** peut y accéder par **[!UICONTROL Administration > Configuration > Form rendering]**.
+* Les rapports ne doivent pas utiliser de formatage spécifique défini au niveau des cellules. Il est préférable d&#39;utiliser le **[!UICONTROL Rendu des formulaires]** pour définir le format des cellules du tableau. Le **[!UICONTROL Rendu des formulaires]** est accessible depuis **[!UICONTROL Administration > Paramétrage > Rendu des formulaires]**.
 * Il est recommandé de ne pas insérer de contenu HTML.
 * Lorsqu&#39;un rapport contient plusieurs éléments de type tableaux, graphiques, etc., ils seront exportés les uns en-dessous des autres.
 * Vous pouvez forcer le retour chariot dans les cellules : cette configuration sera conservée dans Excel. Pour plus d’informations, reportez-vous à ce document [Définition du format](../../reporting/using/creating-a-table.md#defining-cell-format)de cellule.
@@ -93,7 +93,7 @@ Pour en savoir plus sur le fichier **nlserver**, consultez [cette section](../..
 
 Vous pouvez imprimer votre rapport : pour cela, cliquez sur l&#39;icône d&#39;impression. La boîte de dialogue d&#39;impression s&#39;ouvre.
 
-Pour un meilleur résultat, modifiez les options d’impression d’Internet Explorer et sélectionnez **[!UICONTROL Print background colors and images]**.
+Pour un meilleur résultat, éditez les options d&#39;impression d&#39;Internet Explorer et sélectionnez l&#39;option **[!UICONTROL Imprimer les couleurs et les images d&#39;arrière-plan]**.
 
 ![](assets/s_ncs_advuser_report_print_options.png)
 
@@ -113,7 +113,7 @@ La ou les dates d&#39;historiques s&#39;affichent sous l&#39;icône d&#39;affich
 
 ![](assets/s_ncs_advuser_report_history_04.png)
 
-Il est possible de supprimer une archive de rapport. Pour ce faire, accédez au noeud Adobe Campaign où sont stockés vos rapports. Cliquez sur l’ **[!UICONTROL Archives]** onglet, sélectionnez celui que vous souhaitez supprimer, puis cliquez sur **[!UICONTROL Delete]**.
+Vous avez la possibilité de supprimer l&#39;historique d&#39;un rapport. Pour cela, positionnez-vous dans l&#39;arborescence d&#39;Adobe Campaign au niveau du noeud où se trouvent vos rapports. Cliquez sur l&#39;onglet **[!UICONTROL Historiques]**, sélectionnez l&#39;historique voulu et cliquez sur **[!UICONTROL Supprimer]**.
 
 ![](assets/s_ncs_advuser_report_history_01.png)
 
