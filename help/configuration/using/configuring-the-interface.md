@@ -30,7 +30,7 @@ Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans
 
 Au préalable, Adobe Campaign utilise une variable globale &quot;Nms_DefaultRcpSchema&quot; pour dialoguer avec la base de destinataires installée par défaut (nms:recipient). Il convient donc de modifier cette variable.
 
-1. Accédez au **[!UICONTROL Administration>Platform>Options]** noeud de l&#39;explorateur.
+1. Ouvrez le noeud **[!UICONTROL Administration > Plate-forme > Options]** dans l&#39;explorateur.
 1. Modifiez la valeur de la variable **Nms_DefaultRcpSchema** avec le nom du schéma correspondant à la table externe des destinataires (dans notre exemple : cus:individual).
 1. Enregistrez les modifications.
 
@@ -69,7 +69,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
 ## Créer un nouveau type de dossier dans l&#39;arborescence de navigation {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
-1. Accédez au **[!UICONTROL Administration>Configuration>Navigation hierarchies]** noeud.
+1. Ouvrez le noeud **[!UICONTROL Administration > Paramétrage > Arborescences de navigation]** dans l&#39;explorateur.
 1. Créez un nouveau document **navtree** de type **xtk:navtree**
 1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
 
