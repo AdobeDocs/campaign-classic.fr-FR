@@ -24,7 +24,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 La création des emplacements ne peut être effectuée que par un **administrateur technique** qui a accès au sous-dossier des emplacements. Elle ne s&#39;effectue que dans l&#39;environnement en édition. Les emplacements sont automatiquement dupliqués dans l&#39;environnement en ligne lors de la validation des offres.
 
-Le contenu des offres de catalogue est configuré dans les espaces d’offre. Par défaut, le contenu peut inclure les champs suivants : **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** et **[!UICONTROL Text content]**. La séquence de champs est configurée dans l’espace d’offre.
+Le contenu des offres du catalogue est paramétré dans les emplacements. Par défaut, le contenu peut être composé des champs suivants : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL de l&#39;image]**, **[!UICONTROL Contenu HTML]** et **[!UICONTROL Contenu Texte]**. L&#39;ordre des champs est paramétré au niveau de l&#39;emplacement.
 
 Les paramètres avancés vous permettent de spécifier une clé d’identification des contacts (qui peut être composée de différents éléments, le nom et le champ de courrier électronique en même temps, par exemple). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
 
@@ -34,7 +34,7 @@ Le rendu HTML ou XML est créé via une fonction de rendu. L&#39;ordre des champ
 
 Pour créer un nouvel emplacement, procédez comme suit :
 
-1. Go to the list of offer spaces and click **[!UICONTROL New]**.
+1. Dans la liste des emplacements, cliquez sur **[!UICONTROL Nouveau]**.
 
    ![](assets/offer_space_create_001.png)
 
@@ -42,20 +42,20 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    ![](assets/offer_space_create_002.png)
 
-1. Check the **[!UICONTROL Enable unitary mode]** box if one of the following cases applies to you:
+1. Cochez la case **[!UICONTROL Autoriser le mode unitaire]** si vous êtes dans l&#39;un des deux cas suivants :
 
    * utilisation d&#39;Interaction avec Message Center
    * si vous utilisez le mode unitaire d&#39;Interaction (interactions entrantes)
 
-1. Accédez à la **[!UICONTROL Content field]** fenêtre et cliquez sur **[!UICONTROL Add]**.
+1. Dans la fenêtre **[!UICONTROL Champs de contenu]**, cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](assets/offer_space_create_003.png)
 
-1. Accédez au **[!UICONTROL Content]** noeud et sélectionnez les champs dans l’ordre suivant : **[!UICONTROL Title]**, alors **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, alors **[!UICONTROL Destination URL]**.
+1. Depuis le noeud **[!UICONTROL Contenu]** sélectionnez successivement les champs dans l&#39;ordre suivant : **[!UICONTROL Titre]**, puis **[!UICONTROL URL de l&#39;image]**, puis **[!UICONTROL Contenu HTML]**, puis **[!UICONTROL URL de destination]**.
 
    ![](assets/offer_space_create_004.png)
 
-1. Check the **[!UICONTROL Required]** box to make each field mandatory.
+1. Sélectionnez la case **[!UICONTROL Requis]** afin de rendre chaque champ obligatoire.
 
    >[!NOTE]
    >
@@ -63,13 +63,13 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    ![](assets/offer_space_create_005.png)
 
-1. Cliquez sur **[!UICONTROL Edit functions]** pour créer une fonction de rendu.
+1. Cliquez sur **[!UICONTROL Editer les fonctions]** pour créer une fonction de rendu.
 
    Ces fonctions sont utilisées pour générer la représentation des offres sur un emplacement. Plusieurs formats sont possibles : le HTML ou le texte pour les interactions sortantes et le XML pour les interactions entrantes.
 
    ![](assets/offer_space_create_006.png)
 
-1. Accédez à l’ **[!UICONTROL HTML rendering]** onglet et sélectionnez **[!UICONTROL Overload the HTML rendering function]**.
+1. Positionnez-vous sur l&#39;onglet **[!UICONTROL Rendu HTML]** et sélectionnez **[!UICONTROL Surcharger la fonction de rendu HTML]**.
 1. Insérez votre fonction de rendu.
 
    ![](assets/offer_space_create_007.png)
@@ -88,12 +88,12 @@ Une proposition d&#39;offre peut avoir différents états en fonction des intera
 
 Interaction fournit d&#39;usine les valeurs suivantes qui peuvent être utilisées pour marquer l&#39;état d&#39;une proposition d&#39;offre :
 
-* **[!UICONTROL Accepted]**.
-* **[!UICONTROL Scheduled]**.
-* **[!UICONTROL Generated]**.
-* **[!UICONTROL Interested]**.
-* **[!UICONTROL Presented]**.
-* **[!UICONTROL Rejected]**.
+* **[!UICONTROL Acceptée]**.
+* **[!UICONTROL Différée]**.
+* **[!UICONTROL Générée]**.
+* **[!UICONTROL Intéressante]**.
+* **[!UICONTROL Présentée]**.
+* **[!UICONTROL Rejetés]**.
 
 Ces valeurs ne sont pas appliquées par défaut et doivent donc être paramétrées.
 
@@ -103,13 +103,13 @@ Ces valeurs ne sont pas appliquées par défaut et doivent donc être paramétr�
 
 ### Paramétrer l&#39;état à la création de la proposition {#configuring-the-status-when-the-proposition-is-created}
 
-Lorsqu’une proposition d’offre est créée par le moteur d’interaction, son état est modifié, qu’il s’agisse d’une interaction entrante ou sortante. Le choix entre ces deux valeurs dépend de la configuration des espaces d’offre dans l’ **[!UICONTROL Design]** environnement.
+Lorsqu&#39;une proposition d&#39;offre est créée par le moteur d&#39;interaction, son état est modifié, qu&#39;il s&#39;agisse d&#39;une interaction entrante ou sortante. Le choix entre les différentes valeurs dépend de la façon dont auront été configurés les emplacements des offres dans l&#39;environnement **[!UICONTROL En édition]**.
 
 Pour chaque emplacement, vous pouvez paramétrer l&#39;état que vous souhaitez appliquer lors de la création de la proposition, selon l&#39;information que vous voulez voir apparaître dans les rapports d&#39;offre.
 
 Pour cela :
 
-1. Go to the **[!UICONTROL Storage]** tab of the desired space.
+1. Positionnez-vous dans l&#39;onglet **[!UICONTROL Stockage]** de l&#39;emplacement de votre choix.
 1. Sélectionnez l&#39;état que vous souhaitez voir s&#39;appliquer lors de la création de la proposition.
 
    ![](assets/offer_update_status_001.png)
@@ -120,14 +120,14 @@ Lorsqu&#39;une proposition d&#39;offre est acceptée, vous pouvez utiliser une d
 
 Pour cela :
 
-1. Go to the **[!UICONTROL Storage]** tab of the desired space.
+1. Positionnez-vous dans l&#39;onglet **[!UICONTROL Stockage]** de l&#39;emplacement de votre choix.
 1. Sélectionnez l&#39;état que vous souhaitez appliquer à la proposition lorsqu&#39;elle est acceptée.
 
    ![](assets/offer_update_status_002.png)
 
 **Interaction entrante**
 
-L’ **[!UICONTROL Storage]** onglet vous permet de définir des états pour les propositions d’offre **proposées** et **acceptées** uniquement. Pour une interaction entrante, l’état des propositions d’offre doit être spécifié directement dans l’URL pour appeler le moteur d’offre, plutôt que par l’intermédiaire de l’interface. Ainsi, vous pourrez spécifier le statut à appliquer dans d’autres cas, par exemple si une proposition d’offre est rejetée.
+L&#39;onglet **[!UICONTROL Stockage]** permet de définir les états des propositions d&#39;offre **présentée** et **acceptée** uniquement. Dans le cas d&#39;une interaction entrante, vous devez préciser directement l&#39;état de la proposition d&#39;offre dans l&#39;URL d&#39;appel plutôt que dans l&#39;interface. Vous serez ainsi en mesure de spécifier l&#39;état à appliquer dans d&#39;autres cas, par exemple si une proposition d&#39;offre est refusée.
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
@@ -139,17 +139,17 @@ Par exemple, la proposition (identifiant **40004**) correspondant à l&#39;offre
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
-As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL Accepted]** status (value **3**) is applied to the proposition and the visitor is redirected to a new page of the **Neobank** site to take out the insurance contract.
+Dès lors qu&#39;un visiteur clique sur l&#39;offre, et donc sur l&#39;URL, le statut **[!UICONTROL Acceptée]**, (correspondant à la valeur **3**), est appliqué à la proposition et le visiteur est redirigé sur une nouvelle page du site **Neobank** pour souscrire à l&#39;assurance.
 
 >[!NOTE]
 >
->Si vous souhaitez spécifier un autre état dans l’URL (par exemple, si une proposition d’offre est rejetée), utilisez la valeur correspondant à l’état souhaité. Exemple : **[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** = &quot;1&quot;, etc.
+>Si vous souhaitez appliquer un autre état dans l&#39;URL (par exemple, si une proposition d&#39;offre est refusée), utilisez la valeur correspondant à l&#39;état souhaité. Par exemple, **[!UICONTROL Refusée]** = &quot;5&quot;, **[!UICONTROL Présentée]** = &quot;1&quot;, etc.
 >
->Les états et leurs valeurs peuvent être récupérés dans le schéma de **[!UICONTROL Offer propositions (nms)]** données. Voir à ce propos [cette page](../../configuration/using/data-schemas.md).
+>Les états et leur valeur peuvent être récupérés dans le schéma de données **[!UICONTROL Offer propositions (nms)]**. Voir à ce propos [cette page](../../configuration/using/data-schemas.md).
 
 **Interaction sortante**
 
-En cas d’interaction sortante, vous pouvez appliquer automatiquement l’ **[!UICONTROL Interested]** état à une proposition d’offre lorsque la remise contient un lien. Ajoutez simplement la valeur **_urlType=&quot;11&quot;** au lien :
+Dans le cas d&#39;une interaction sortante, vous pouvez appliquer automatiquement le statut **[!UICONTROL Intéressante]** à une proposition d&#39;offre lorsque la diffusion contient un lien. Il suffit d&#39;ajouter la valeur **_urlType=&quot;11&quot;** dans le lien :
 
 ```
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
