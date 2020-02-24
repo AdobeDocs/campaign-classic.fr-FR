@@ -26,8 +26,8 @@ Voici la définition des éléments principaux d&#39;Interaction.
 
 * **Environnement** : ensemble regroupant un Catalogue d&#39;offres et des points d&#39;intégration (emplacements). Vous devez créer un environnement par dimension de ciblage. Il existe deux types d&#39;environnements :
 
-   * **Environnement** de création : environnement dans lequel les offres sont créées et/ou les règles de typologie sont définies (règles qui déterminent les offres à présenter ou non à une personne ciblée). La table des personnes qui seront ciblées par les offres et la table de stockage de toutes les propositions d’offre sont également définies dans cette section. Le **[!UICONTROL Design environment]** noeud contient des sous-dossiers d’espace d’offre, des filtres prédéfinis et des catégories d’offres. Pour chaque **[!UICONTROL Design environment]** élément, il y a une lecture seule correspondante **[!UICONTROL Live environment]**, générée à partir de cette même **[!UICONTROL Design environment]**.
-   * **Environnement** en direct : environnement lié à un **[!UICONTROL Design environment]**. Il contient des offres en lecture seule dont le contenu et l’éligibilité ont été approuvés via le **[!UICONTROL Design environment]**. Ils doivent être sélectionnés pour être présentés sur un site Web ou insérés dans un message.
+   * **Environnement en édition** : environnement dans lequel sont créées les offres et où sont définies les règles de typologie qui vont déterminer les offres à présenter ou non à une personne ciblée. La table des individus qui seront ciblés par les offres et la table destinée à stocker toutes les propositions d&#39;offres y sont également définies. Le nœud **[!UICONTROL Environnement en édition]** contient les sous-dossiers des emplacements, des filtres prédéfinis et des catégories d&#39;offres. À chaque **[!UICONTROL Environnement en édition]** correspond un **[!UICONTROL Environnement en ligne]** en lecture seule, généré à partir de ce même **[!UICONTROL Environnement en édition]**.
+   * **Environnement en ligne** : environnement associé à un **[!UICONTROL Environnement en édition]**. Il contient des offres en lecture seule dont le contenu et l&#39;éligibilité ont été validés à partir de l&#39;**[!UICONTROL Environnement en édition]**. Elles sont destinées à être sélectionnées pour être présentées sur un site web ou insérées dans un message.
 
 * **Emplacement** : dossier définissant les lieux d&#39;exposition de l&#39;offre. La définition d&#39;un emplacement permet à la fois d&#39;indiquer le canal utilisé, de spécifier s&#39;il est possible ou non de l&#39;utiliser en mode unitaire (par défaut : uniquement en mode batch), de construire le contenu de l&#39;offre par l&#39;intermédiaire de fonctions de rendu et de spécifier le thème des offres présentées. Un emplacement est une interface entre le canal et le moteur d&#39;offres.
 
@@ -56,8 +56,8 @@ Voici la définition des éléments principaux d&#39;Interaction.
 * **Arbitrage** : étape de sélection des offres qui seront présentées sur un emplacement (offres éligibles). Le principe d&#39;arbitrage est de classer les offres par priorité, en prenant en compte les poids définis au niveau des offres et des catégories.
 * **Contact** : contact à l&#39;origine d&#39;une interaction entrante. Lors du traitement de l&#39;appel au moteur, le contact est associé à une dimension de ciblage. On distingue deux types de contacts :
 
-   * **[!UICONTROL Identified contact]** : un contact qui a été volontairement identifié sur le canal. Dans les interactions sortantes, le contact est automatiquement identifié.
-   * **[!UICONTROL Anonymous contact]** : un contact qui ne s’est pas volontairement abonné via le canal mais qui peut être implicitement identifié par un cookie. Cette terminologie n’est utilisée que pour les interactions entrantes.
+   * **[!UICONTROL Contact identifié]** : contact s&#39;étant volontairement identifié sur le canal. Dans les interactions sortantes, le contact est systématiquement identifié.
+   * **[!UICONTROL Contact anonyme]** : contact qui ne s&#39;est pas volontairement inscrit sur le canal mais qui peut être identifié implicitement au moyen d&#39;un cookie. Cette terminologie n&#39;a lieu d&#39;être que dans le cadre d&#39;interactions entrantes.
 
       >[!NOTE]
       >
@@ -69,9 +69,9 @@ Voici la définition des éléments principaux d&#39;Interaction.
 * **Mode unitaire** : un seul contact est traité à la fois. Ce mode est généralement utilisé pour les interactions entrantes et pour les messages transactionnels.
 * **Mode d&#39;identification** : il se réfère au statut d&#39;un contact.
 
-   * **[!UICONTROL explicit]** : le contact est identifié après sa connexion à l&#39;interface du canal.
-   * **[!UICONTROL implicit]** : le contact a été identifié par un cookie (permanent ou session). Il peut être traité comme un contact anonyme ou identifié.
-   * **[!UICONTROL anonymous]** : le contact ne peut pas être identifié.
+   * **[!UICONTROL explicite]** : le contact est identifié, il s&#39;est authentifié sur l&#39;interface du canal.
+   * **[!UICONTROL implicite]** : le contact a été identifié par un cookie (de session ou permanent). Il peut être traité comme un contact anonyme ou comme un contact identifié.
+   * **[!UICONTROL anonyme]** : le contact n&#39;a pas pu être identifié.
 
 * **Offre éligible** : offre répondant à des contraintes définies en amont pouvant être proposée de façon cohérente à une cible.
 * **Règles de présentation** : règles de typologie référencées au niveau de l&#39;environnement d&#39;offres permettant d&#39;exclure certaines offres en tenant compte de l&#39;historique des propositions.
