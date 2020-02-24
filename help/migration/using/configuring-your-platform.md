@@ -80,7 +80,7 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 
    Si vous utilisez le bloc de personnalisation de la version v5 dans vos messages, les pages miroir ne s&#39;affichent pas. Adobe recommande vivement d&#39;utiliser le nouveau bloc de personnalisation lors de l&#39;insertion d&#39;une page miroir dans vos messages.
 
-   Cependant, en tant que solution temporaire (et comme les pages miroirs sont toujours actives), vous pouvez revenir à l’ancien bloc de personnalisation pour éviter ce problème en modifiant l’option **[!UICONTROL XtkAcceptOldPasswords]** et en la définissant sur **[!UICONTROL 1]**. Cela n’affectera pas l’utilisation du nouveau bloc de personnalisation v6.x.
+   A titre de solution temporaire (et pendant que les pages miroir sont toujours en ligne), vous pouvez revenir à l&#39;ancien bloc de personnalisation pour éviter ce problème en définissant l&#39;option **[!UICONTROL XtkAcceptOldPasswords]** sur **[!UICONTROL 1]**. Ce paramétrage n&#39;a aucun impact sur l&#39;utilisation du nouveau bloc de personnalisation de la version v6.x.
 
 * Syntaxe
 
