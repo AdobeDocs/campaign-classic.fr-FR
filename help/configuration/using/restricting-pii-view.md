@@ -28,7 +28,7 @@ Certains clients ont besoin que les utilisateurs marketing puissent accéder aux
 
 ## Mise en oeuvre {#implementation}
 
-Un nouvel attribut qui peut être appliqué à n’importe quel élément ou attribut a été ajouté aux schémas, il complète l’attribut existant **[!UICONTROL visibleIf]** . Cet attribut est : **[!UICONTROL accessibleIf]** . Lorsqu’elle contient une expression XTK liée au contexte utilisateur actuel, elle peut exploiter **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]** , par exemple.
+Un nouvel attribut pouvant être appliqué à un élément ou un attribut a été ajouté aux schémas. Il complète l&#39;attribut **[!UICONTROL visibleIf]** existant et s&#39;appelle **[!UICONTROL accessibleIf]**. Lorsqu&#39;il contient une expression XTK liée au contexte utilisateur actuel, cet attribut peut utiliser des valeurs telles que **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]**.
 
 Vous trouverez ci-dessous un exemple d&#39;extension de schéma de destinataire qui illustre cette utilisation :
 
@@ -47,8 +47,8 @@ Vous trouverez ci-dessous un exemple d&#39;extension de schéma de destinataire 
 
 Les principales propriétés sont les suivantes :
 
-* **[!UICONTROL visibleIf]** : masque les champs des métadonnées, de sorte qu’ils ne sont pas accessibles dans une vue de schéma, une sélection de colonnes ou un créateur d’expressions. Mais cela ne masque aucune donnée, si le nom du champ est saisi manuellement dans une expression, la valeur s’affiche.
-* **[!UICONTROL accessibleIf]** : masque les données (en les remplaçant par des valeurs vides) de la requête résultante. Si visibleIf est vide, il obtient la même expression que **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL visibleIf]** : cache les champs des métadonnées. Ils ne sont donc pas accessibles dans la vue d&#39;un schéma, la sélection de colonnes ou l&#39;édition d&#39;expressions. Cette propriété ne masque toutefois aucune donnée. Si le nom du champ est saisi manuellement dans une expression, la valeur s&#39;affiche.
+* **[!UICONTROL accessibleIf]** : cache les données (en les remplaçant par des valeurs vides) de la requête obtenue. Si la propriété visibleIf est vide, elle prend la même expression que la propriété **[!UICONTROL accessibleIf]** .
 
 Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont les suivantes :
 
