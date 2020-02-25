@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -56,4 +56,4 @@ Découvrez les principales fonctionnalités d&#39;Adobe Campaign en regardant no
 * [Gérer les adresses de contrôle et les bons à tirer dans un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html) : apprenez à ajouter des listes de contrôle et des bons à tirer à un email existant dans Adobe Campaign.
 * [Intégration d&#39;Adobe Campaign avec Microsoft Dynamics 365](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html) : découvrez comment lier et synchroniser Adobe Campaign et Microsoft Dynamics via les connecteurs CRM.
 
-En plus de ces courtes vidéos détaillées, notre site Web propose des [cours de formation](https://training.adobe.com/training/courses.html) et des [vidéos de présentation](https://www.adobe.com/training/video.html).
+En plus de ces courtes vidéos détaillées, notre site Web propose des [cours de formation](https://learning.adobe.com/catalog.html) et des [vidéos de présentation](https://www.adobe.com/training/video.html).
