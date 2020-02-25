@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -106,7 +106,7 @@ Vous pouvez le Digital Content Editor Adobe Campaign pour concevoir une landing 
 
 ## How can I track deliveries? {#how-can-i-track-deliveries-}
 
-Vous pouvez effectuer un tracking des diffusions envoyées avec Campaign Classic via des [rapports de diffusion](../../reporting/using/reports-on-deliveries.md#delivery-reports) dédiés et les suivre ensuite.
+Vous pouvez effectuer un tracking des diffusions envoyées avec Campaign Classic via des [rapports de diffusion](../../reporting/using/delivery-reports.md) dédiés et les suivre ensuite.
 
 En savoir plus sur la gestion du suivi dans Campaign dans [cette page](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
