@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7aa381654805798fcdd24f588160bed15e037a2b
+source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
 
@@ -45,7 +45,7 @@ En tant qu&#39;utilisateur expert, vous pouvez configurer les fonctionnalités d
 
 ## How to configure email deliverability? {#how-to-configure-email-deliverability-}
 
-En plus du [guide de prise en main sur la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html), consultez la section sur la configuration de la délivrabilité des emails pour configurer votre instance afin d&#39;optimiser les fonctionnalités d&#39;envoi de Campaign.
+En plus du [guide de prise en main sur la délivrabilité](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), consultez la section sur la configuration de la délivrabilité des emails pour configurer votre instance afin d&#39;optimiser les fonctionnalités d&#39;envoi de Campaign.
 
 [Pour en savoir plus, cliquez ici](../../installation/using/email-deliverability.md).
 
