@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
 
 
 # Canaux de communication{#communication-channels}
 
-Avec Adobe Campaign, vous pouvez envoyer des campagnes cross-canal, notamment des emails, des SMS, des messages LINE, des notifications push et des courriers, et mesurer leur efficacité au travers de différents [rapports](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports) dédiés. Ces messages sont conçus et envoyés par le biais des diffusions. Ils peuvent être personnalisés pour chaque destinataire.
+Avec Adobe Campaign, vous pouvez envoyer des campagnes cross-canal, notamment des emails, des SMS, des messages LINE, des notifications push et des courriers, et mesurer leur efficacité au travers de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés par le biais des diffusions. Ils peuvent être personnalisés pour chaque destinataire.
 
 Les principales fonctionnalités vont du ciblage, définition et personnalisation des messages, exécution des communications jusqu&#39;aux rapports opérationnels associés. Le point d&#39;entrée fonctionnel principal est l&#39;assistant de diffusion. Autour de ce point d&#39;entrée, plusieurs fonctionnalités sont couvertes par Adobe Campaign.
 
@@ -52,7 +52,7 @@ Selon le canal, les modes de diffusion peuvent être les suivants :
 * Envoi en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
 * Envoi en externe, via un opérateur spécialisé, auquel est fourni le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal Courrier).
 
-Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plate-forme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
+Les comptes externes sont configurés via le **[!UICONTROL Administration > Platform > External accounts]** noeud. Cette configuration ne doit être effectuée que par des utilisateurs experts.
 
 ## Diffusions Email {#email-deliveries}
 
@@ -78,7 +78,7 @@ Pour les messages LINE, vous pouvez envoyer du texte ou des images et des liens.
 
 Pour diffuser des SMS ou des messages LINE vers un téléphone mobile, il vous faut :
 
-* un compte externe paramétré sur le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL LINE]**,
+* An external account configured on the **[!UICONTROL Mobile (SMS)]** channel or on the **[!UICONTROL LINE]** channel.
 * un modèle de diffusion SMS ou LINE correctement lié à ce compte externe.
 
 ## Notifications push {#push-notifications}
