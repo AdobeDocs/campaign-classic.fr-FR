@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Dans un formulaire Web, les champs permettent aux utilisateurs de saisir des informations et sélectionner des options. Le formulaire Web peut proposer champs de saisie, des champs de sélection, des contenus statiques ainsi que des contenus avancés de type captcha, abonnements, etc.
 
-Lorsque vous utilisez l&#39;assistant d&#39;ajout de champs, le type de champ est automatiquement détecté en fonction du champ ou de la variable de stockage sélectionnée. Au besoin, vous pouvez le modifier à partir de la liste déroulante **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**.
+Lorsque vous utilisez l’assistant pour ajouter des champs, le type de champ est détecté automatiquement en fonction du champ ou de la variable de stockage sélectionné. Vous pouvez le modifier à l’aide de la **[!UICONTROL Type]** liste déroulante de l’ **[!UICONTROL General]** onglet.
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 
@@ -51,23 +51,23 @@ Spécifiez le mode de stockage des réponses : mettez à jour un champ de la bas
 
 ## Assistant de création de champs {#field-creation-wizard}
 
-Pour chaque page du formulaire, vous pouvez ajouter un champ via le premier bouton de la barre d&#39;outils, depuis le menu **[!UICONTROL Ajout assisté]**.
+Pour chaque page du formulaire, vous pouvez ajouter un champ via le premier bouton de la barre d’outils. Pour ce faire, accédez au **[!UICONTROL Add using the wizard]** menu.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
 Sélectionnez le type de champ que vous souhaitez créer : vous pouvez choisir d&#39;ajouter un champ de la base, une variable ou d&#39;importer un groupe de champs créé dans un autre formulaire et regroupés dans un conteneur.
 
-Cliquez sur le bouton **[!UICONTROL Suivant]** et choisissez le champ ou la variable de stockage, ou le conteneur à importer.
+Click **[!UICONTROL Next]** and select the storage field or variable, or the container you want to import.
 
 ![](assets/s_ncs_admin_webform_wz_confirm_db.png)
 
-Cliquez sur **[!UICONTROL Terminer]** pour insérer le champ sélectionné dans la page.
+Click **[!UICONTROL Finish]** to insert the selected field into the page.
 
 ![](assets/s_ncs_admin_webform_wz_insert_field.png)
 
 ## Ajouter des champs de saisie {#adding-input-fields}
 
-Pour ajouter un champ de saisie, cliquez sur le bouton **[!UICONTROL Contrôle de saisie]** et sélectionnez le type de champ à ajouter.
+To add an input field, click the **[!UICONTROL Input control]** button and choose the type of field you want to add.
 
 ![](assets/s_ncs_admin_webform_select_field.png)
 
@@ -105,11 +105,11 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
    ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
-   Vous pouvez sélectionner le type d&#39;éditeur qui sera proposé aux utilisateurs. Pour cela, utilisez la liste déroulante du champ **[!UICONTROL Editeur Html]** de l&#39;onglet **[!UICONTROL Avancé]**.
+   Vous pouvez sélectionner le type d’éditeur proposé aux utilisateurs. Pour ce faire, utilisez la liste déroulante du **[!UICONTROL HTML editor]** champ dans l’ **[!UICONTROL Advanced]** onglet.
 
    ![](assets/webapp_enrich_text_type.png)
 
-   Selon le type d&#39;éditeur sélectionné, le nombre d&#39;icônes affichées sera différent. Pour un éditeur **[!UICONTROL Avancé]**, le rendu sera le suivant :
+   Le nombre d’icônes affichées varie selon le type d’éditeur. Pour un **[!UICONTROL Advanced]** éditeur, le rendu sera le suivant :
 
    ![](assets/webapp_enrich_text_max.png)
 
@@ -119,9 +119,9 @@ Les champs de saisie sont tous paramétrés selon le même mode, au travers des 
 
 ![](assets/s_ncs_admin_survey_txt_param.png)
 
-L&#39;onglet **[!UICONTROL Général]** permet de saisir le nom du champ et éventuellement de lui attribuer une valeur par défaut.
+The **[!UICONTROL General]** tab lets you enter the name of the field and attribute a default value to it if necessary.
 
-Vous pouvez modifier le mode de stockage des réponses à partir du lien **[!UICONTROL Editer le stockage...]**. Les valeurs peuvent être enregistrées dans un champ existant de la base de données, mais vous pouvez choisir de ne pas enregistrer les informations dans la base, en utilisant une variable locale.
+Le mode de stockage des réponses peut être modifié via le **[!UICONTROL Edit storage...]** lien. Les valeurs peuvent être stockées dans un champ existant de la base de données ; ou vous pouvez choisir de ne pas enregistrer les informations dans la base de données (utilisez une variable locale).
 
 >[!NOTE]
 >
@@ -135,13 +135,13 @@ Dans une page de formulaire, vous pouvez insérer une liste déroulante : elle p
 
 ![](assets/s_ncs_admin_survey_dropdown_sample.png)
 
-Pour ajouter une liste déroulante dans une page de formulaire, cliquez sur le bouton **[!UICONTROL Contrôles de sélection > Liste déroulante...]** dans la barre d&#39;outils de l&#39;éditeur de page.
+To add a drop-down box to a form page, click the **[!UICONTROL Selection controls > Drop-down list]** button in the toolbar of the page editor.
 
 ![](assets/s_ncs_admin_survey_create_dropdown.png)
 
 Sélectionnez le mode de stockage des réponses et validez votre choix.
 
-Définissez les libellés et valeurs de la liste dans la section inférieure de l&#39;onglet **[!UICONTROL Général]**. Si les informations sont stockées dans un champ existant de la base de données et s&#39;il s&#39;agit d&#39;un champ d&#39;énumération, vous pouvez renseigner automatiquement les valeurs en cliquant sur le lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]**, comme dans l&#39;exemple suivant :
+Définissez les libellés et les valeurs de la liste dans la section inférieure de l’ **[!UICONTROL General]** onglet. Si les informations sont stockées dans un champ existant de la base de données et qu’il s’agit d’un champ d’énumération, vous pouvez renseigner les valeurs automatiquement en cliquant sur **[!UICONTROL Initialize the list of values from the database]** , comme illustré ci-dessous :
 
 ![](assets/s_ncs_admin_survey_database_values.png)
 
@@ -149,11 +149,11 @@ Définissez les libellés et valeurs de la liste dans la section inférieure de 
 >
 >Utilisez les flèches situées à droite de la liste des valeurs pour les ordonner.
 
-Si les données sont stockées dans une table liée, vous pouvez sélectionner le champ où sont enregistrées les valeurs à proposer dans la liste. Par exemple, si vous sélectionnez la table des pays, cliquez sur le lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données...]** et sélectionnez le champ visé.
+Si les données sont stockées dans un tableau lié, vous pouvez sélectionner le champ dans lequel les valeurs à suggérer dans la liste sont enregistrées. Par exemple, si vous sélectionnez le tableau des pays, cliquez sur **[!UICONTROL Initialize the list of values from the database...]** et sélectionnez le champ de votre choix.
 
 ![](assets/s_ncs_admin_survey_preload_values.png)
 
-Cliquez ensuite sur le lien **[!UICONTROL Charger]** pour récupérer les valeurs :
+Next, click the **[!UICONTROL Load]** link to retrieve the values:
 
 ![](assets/s_ncs_admin_survey_load_button.png)
 
@@ -167,17 +167,17 @@ Pour que l&#39;utilisateur puisse sélectionner une option, utilisez une case à
 
 ![](assets/s_ncs_admin_survey_check_box.png)
 
-Pour ajouter une case à cocher dans une page de formulaire, cliquez sur l&#39;icône **[!UICONTROL Contrôles de sélection > Case à cocher...]** dans la barre d&#39;outils de l&#39;éditeur de page.
+To add a checkbox to a form, click the **[!UICONTROL Selection controls > Checkbox...]** icon in the toolbar of the page editor.
 
 Sélectionnez le mode de stockage des réponses et validez votre choix.
 
-Saisissez le libellé de la case dans le champ **[!UICONTROL Libellé]** de l&#39;onglet **[!UICONTROL Général]**.
+Enter the label of the box in the **[!UICONTROL Label]** field of the **[!UICONTROL General]** tab.
 
 ![](assets/s_ncs_admin_survey_check_box_edit.png)
 
-Une case à cocher permet d&#39;attribuer au champ (ou à la variable) de stockage une valeur ou une autre selon que la case est cochée ou non. La section **[!UICONTROL Valeurs]** permet de saisir la valeur à attribuer si la case est cochée (dans le champ **[!UICONTROL Valeur]**) et la valeur à attribuer si la case est décochée (dans le champ **[!UICONTROL Valeur vide]**). Ces valeurs dépendent du format de stockage des données.
+Une case à cocher vous permet d’attribuer une valeur au champ de stockage (ou à la valeur) selon que la case est cochée ou non. La **[!UICONTROL Values]** section vous permet de saisir la valeur à affecter si la case est cochée (dans le **[!UICONTROL Value]** champ) et la valeur à affecter si elle n’est pas cochée (dans le **[!UICONTROL Empty value]** champ). Ces valeurs dépendent du format de stockage des données.
 
-Si le champ (ou la variable) de stockage est de type booléen, la valeur à attribuer si la case n&#39;est pas cochée est déduite automatiquement. Dans ce cas, seul le champ **[!UICONTROL Valeur si coché]** est proposé, comme dans l&#39;exemple suivant :
+Si le champ de stockage (ou la variable) est booléen, la valeur à affecter si la case n’est pas cochée est déduite automatiquement. Dans ce cas, seul le **[!UICONTROL Value if checked]** champ est proposé, comme illustré ci-dessous :
 
 ![](assets/s_ncs_admin_survey_check_box_enum.png)
 
@@ -187,11 +187,11 @@ Nous allons insérer une case à cocher dans un formulaire afin de transmettre u
 
 ![](assets/s_ncs_admin_survey_check_box_ex.png)
 
-L&#39;information sera remontée dans la base de données dans un champ existant (ici, le champ **[!UICONTROL Commentaire]**) :
+The information will be uploaded to the database and into an existing field (in this case, the **[!UICONTROL Comment]** field):
 
 ![](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
-Si la case &quot;Demande d&#39;intervention&quot; est cochée, la colonne **[!UICONTROL Commentaire]** contiendra le message &quot;Intervention souhaitée&quot;, si elle est décochée, elle contiendra le message &quot;Sans intervention&quot;. Pour obtenir ce résultat, le paramétrage de la case à cocher dans la page du formulaire doit être le suivant :
+Si la case &quot;Maintenance requise&quot; est cochée, la **[!UICONTROL Comment]** colonne contiendra &quot;Maintenance requise&quot;. Si la case n&#39;est pas cochée, la colonne indique &quot;Maintenance non requise&quot;. Pour obtenir ce résultat, appliquez la configuration suivante à la case à cocher de la page du formulaire :
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
@@ -209,7 +209,7 @@ Vous pouvez créer les boutons radio individuellement (boutons unitaires) ou via
 
 ### Ajout de boutons uniques {#add-single-buttons}
 
-Pour ajouter un bouton radio dans une page de formulaire, sélectionnez le menu **[!UICONTROL Contrôles de saisie > Bouton radio]** dans la barre d&#39;outils de l&#39;éditeur de page et choisissez le mode de stockage.
+To add a radio button to a form page, go to the **[!UICONTROL Selection controls > Radio button]** menu in the toolbar of the page editor and choose a storage mode.
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
@@ -217,7 +217,7 @@ Les boutons radio sont configurés de la même manière que les cases à cocher 
 
 ### Add a list of buttons {#add-a-list-of-buttons}
 
-Pour ajouter des boutons radio via une liste, sélectionnez le menu **[!UICONTROL Contrôles de sélection > Choix multiples]** dans la barre d&#39;outils de l&#39;éditeur de page.
+To add radio buttons via a list, go to the **[!UICONTROL Selection controls>Multiple choice]** menu in the toolbar of the page editor.
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
@@ -226,7 +226,7 @@ Vous ajoutez autant de boutons radio que de libellés. L&#39;avantage est de pou
 >[!NOTE]
 >
 >Vous ne pouvez pas autoriser le choix de plusieurs valeurs dans les formulaires Web. Les sélections multiples ne peuvent être activées que dans les formulaires de type **Questionnaire.** Voir à ce propos [cette section](../../web/using/about-surveys.md).\
->Vous pouvez toutefois insérer un champ de type **[!UICONTROL Choix multiple]** dans une application Web, mais vous ne pouvez pas autoriser le choix de plusieurs valeurs : les options proposées pourront être sélectionnées via des boutons radio.
+>It is possible, however, to insert a **[!UICONTROL Multiple choice]** type field into a Web application; but without authorizing the selection of several values: the options offered can be selected using radio buttons.
 
 ## Ajouter des matrices {#adding-grids}
 
@@ -246,7 +246,7 @@ Dans chaque ligne de matrice, une seule option peut être sélectionnée.
 
 >[!NOTE]
 >
->In our example, the label of the grid is hidden. To do this, go to the **[!UICONTROL Advanced]** tab, the **[!UICONTROL Label position]** display is defined as **[!UICONTROL Hidden]** . See [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
+>Dans notre exemple, le libellé de la grille est masqué. Pour ce faire, accédez à l’ **[!UICONTROL Advanced]** onglet, l’ **[!UICONTROL Label position]** affichage est défini comme **[!UICONTROL Hidden]** . See [Defining the position of labels](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Ajouter des dates et des nombres {#adding-dates-and-numbers}
 
@@ -256,7 +256,7 @@ Le contenu des champs du formulaire peut être formaté pour correspondre aux do
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-Pour permettre à l&#39;utilisateur d&#39;indiquer une date dans une page de formulaire, sélectionnez le menu **[!UICONTROL Ajouter une zone de saisie > Date...]** dans la barre d&#39;outils de l&#39;éditeur de page.
+To allow the user to enter a date in a form page, select **[!UICONTROL Add input field > Date...]** in the toolbar or page editor.
 
 Indiquez le libellé du champ et le mode de stockage des données.
 
@@ -278,7 +278,7 @@ Toutefois, il peut être plus adapté, par exemple pour indiquer une date de nai
 
 ![](assets/s_ncs_admin_survey_date_list_select.png)
 
-Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Avancé]** et choisissez un mode de saisie par **[!UICONTROL Listes déroulantes]**.
+To do this, click the **[!UICONTROL Advanced]** tab and choose the input mode using **[!UICONTROL Drop-down lists]**.
 
 ![](assets/s_ncs_admin_survey_date_selection.png)
 
@@ -300,7 +300,7 @@ En fonction du champ de stockage des données dans la base, un formatage spécif
 
 La valeur par défaut est la valeur affichée dans le champ lors de l&#39;affichage du formulaire. Elle peut être corrigée par l&#39;utilisateur.
 
-Vous pouvez ajouter un préfixe et/ou un suffixe au champ numérique, à partir de l&#39;onglet **[!UICONTROL Avancé]**, comme dans l&#39;exemple suivant :
+You can add a prefix and/or suffix to the numeric field via the **[!UICONTROL Advanced]** tab, as shown below:
 
 ![](assets/s_ncs_admin_survey_number_ex_conf.png)
 
@@ -312,11 +312,11 @@ Dans le formulaire, le rendu sera :
 
 Vous pouvez ajouter des contrôles pour permettre aux utilisateurs de s&#39;abonner ou se désabonner à un ou plusieurs services d&#39;information (newsletters, alertes, notifications en temps réel, etc.). Pour s&#39;abonner, l&#39;utilisateur coche le service correspondant.
 
-Pour créer une case à cocher d&#39;abonnement, cliquez sur **[!UICONTROL Contrôles avancés > Abonnement]**.
+Pour créer une case à cocher d’abonnement, cliquez sur **[!UICONTROL Advanced controls>Subscription]**.
 
 ![](assets/s_ncs_admin_survey_subscription_edit.png)
 
-Indiquez le libellé de la case à cocher et sélectionnez le service d&#39;information concerné dans la liste déroulante **[!UICONTROL Service]**.
+Indiquez le libellé de la case à cocher et sélectionnez le d&#39;information concerné dans la liste déroulante **[!UICONTROL Service]** Service.
 
 >[!NOTE]
 >
@@ -340,11 +340,11 @@ Les **captcha** permettent de prévenir l&#39;utilisation frauduleuse de vos for
 >
 >Si votre formulaire est composé de plusieurs pages, le Captcha doit toujours être positionné dans la dernière page, immédiatement avant la boîte d&#39;enregistrement, afin de prévenir tout contournement de la sécurité.
 
-Pour insérer un Captcha dans un formulaire, cliquez sur le premier bouton de la barre d&#39;outils et choisissez **[!UICONTROL Contrôles avancés > Captcha]**.
+To insert a Captcha into a form, click the first button on the toolbar and Select **[!UICONTROL Advanced controls>Captcha]**.
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 
-Saisissez le libellé du champ. Ce libellé sera affiché devant la zone d&#39;affichage du captcha. Vous pouvez modifier le positionnement de ce libellé à partir de l&#39;onglet **[!UICONTROL Avancé]**.
+Entrez le libellé du champ. Cette étiquette sera affichée devant la zone d&#39;affichage de Captcha. Vous pouvez modifier la position de ce libellé dans l’ **[!UICONTROL Advanced]** onglet.
 
 ![](assets/s_ncs_admin_survey_captcha_adv.png)
 
@@ -360,7 +360,7 @@ Lors de la validation de la page, le champ de saisie est affiché en rouge si le
 
 ![](assets/s_ncs_admin_survey_captcha_error.png)
 
-Vous pouvez créer un message d&#39;erreur à afficher : pour cela, utilisez le lien **[!UICONTROL Personnaliser le message]** dans l&#39;onglet **[!UICONTROL Général]**.
+Vous pouvez créer un message d’erreur à afficher. Pour ce faire, utilisez le **[!UICONTROL Personalize the message]** lien dans l’ **[!UICONTROL General]** onglet.
 
 ![](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
@@ -374,9 +374,9 @@ Vous pouvez ajouter dans une page un champ de téléchargement. Cette fonctionna
 
 ![](assets/s_ncs_admin_survey_download_file.png)
 
-Pour ajouter un champ de téléchargement dans une page de formulaire, sélectionnez le menu **[!UICONTROL Contrôles avancés > Fichier...]** dans la barre d&#39;outils de l&#39;éditeur de page.
+To insert an upload field to a form page, select the **[!UICONTROL Advanced controls > File...]** menu in the toolbar of the page editor.
 
-Les fichiers téléchargés sont stockés par défaut dans les ressources fichiers accessibles à partir du menu **[!UICONTROL Ressources > On-line > Ressources publiques]**. Vous pouvez modifier ce comportement par un script. Ce script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html) notamment celles relatives à la manipulation des fichiers.
+Par défaut, les fichiers téléchargés sont stockés dans des fichiers de ressources accessibles via le **[!UICONTROL Resources > Online > Public resources]** menu. Vous pouvez utiliser un script pour modifier ce comportement. Ce script peut utiliser les fonctions définies dans la documentation [JSAPI de](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)Campaign, y compris celles qui concernent la manipulation de fichiers.
 
 Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans un champ de la base. Vous pouvez, par exemple, étendre le schéma des destinataires afin d&#39;ajouter un lien vers les ressources fichiers.
 
