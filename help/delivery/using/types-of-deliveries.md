@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -38,7 +38,7 @@ Une **diffusion récurrente** permet de créer une diffusion à chaque exécutio
 
 Par exemple, si vous exécutez ce type d&#39;activité une fois par mois, vous obtiendrez 12 diffusions au bout d&#39;un an.
 
-Les diffusions récurrentes sont créées dans des workflows par le biais de l&#39;activité [](../../workflow/using/recurring-delivery.md)Diffusion récurrente. Un exemple d&#39;utilisation de cette activité est présenté dans la section suivante : [Créer une diffusion récurrente dans un workflow de ciblage](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Les diffusions récurrentes sont créées dans des workflows par le biais de l&#39;activité [](../../workflow/using/recurring-delivery.md)Diffusion récurrente. Un exemple d&#39;utilisation de cette activité est présenté dans la section suivante : [Créer une diffusion récurrente dans un workflow de ciblage](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Diffusion (au fil de l&#39;eau){#continuous-delivery}
 
