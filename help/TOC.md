@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
+source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
    + Filtrer les données {#filtering-data}
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
-      + [Cas pratique](platform/using/use-case.md)
+      + [Cas d’utilisation](platform/using/use-case.md)
    + Créer une requête {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
@@ -224,7 +224,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
       + [A propos de l&#39;analyse descriptive](reporting/using/about-descriptive-analysis.md)
       + [Utiliser l&#39;assistant d&#39;analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [Traitement du rapport](reporting/using/processing-a-report.md)
-      + [Cas pratiques](reporting/using/use-cases.md)
+      + [Cas d’utilisation](reporting/using/use-cases.md)
    + Créer de nouveaux rapports {#creating-new-reports}
       + [A propos de la création de rapports dans Campaign](reporting/using/about-reports-creation-in-campaign.md)
       + [Créer un nouveau rapport](reporting/using/creating-a-new-report.md)
@@ -384,7 +384,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
       + [Téléchargement Web](workflow/using/web-download.md)
       + [Réception d&#39;emails](workflow/using/inbound-emails.md)
       + [Réception de SMS](workflow/using/inbound-sms.md)
-   + Cas pratiques {#use-cases}
+   + Cas d’utilisation {#use-cases}
       + [Utiliser l&#39;activité Validation en local](workflow/using/using-the-local-approval-activity.md)
       + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
       + [Workflow de supervision](workflow/using/supervising-workflows.md)
@@ -525,7 +525,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
    + Utilisation :{#use-case}
       + [Objectif](message-center/using/purpose.md)
-      + [Remarques importantes ](message-center/using/important-notes.md)
+      + [Remarques importantes  ](message-center/using/important-notes.md)
       + [Mise en oeuvre](message-center/using/implementation.md)
 + Intégration aux médias sociaux {#integrating-with-social-media}
    + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
@@ -584,7 +584,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
    + Paramétrages additionnels {#additional-configurations}
       + [Configuration du serveur Campaign](installation/using/configuring-campaign-server.md)
       + [Connexion par LDAP](installation/using/connecting-through-ldap.md)
-      + [Délivrabilité des emails](installation/using/email-deliverability.md)
+      + [Configurations techniques des courriers électroniques](installation/using/email-deliverability.md)
       + [Archivage des emails](installation/using/email-archiving.md)
       + [Gestion des fuseaux horaires](installation/using/time-zone-management.md)
       + [Paramétrage de SpamAssassin](installation/using/configuring-spamassassin.md)
