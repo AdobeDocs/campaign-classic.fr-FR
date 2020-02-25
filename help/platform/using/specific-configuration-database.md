@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
+source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
 
 ---
 
@@ -169,32 +169,32 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
    /etc/init.d/nlserver6 stop
    /etc/init.d/nlserver6 start
    ```
-1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
 
-1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** prêt à l’emploi.
+1. Sélectionnez le compte **[!UICONTROL Snowflake]** externe prêt à l’emploi.
 
-1. Pour configurer le compte externe **[!UICONTROL Snowflake]** :
+1. To configure the **[!UICONTROL Snowflake]** external account:
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Server]**
 
       URL du serveur Snowflake.
 
-   * **[!UICONTROL Compte]**
+   * **[!UICONTROL Account]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Mot de passe]**
+   * **[!UICONTROL Password]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Base de données]**
+   * **[!UICONTROL Database]**
 
       Nom de votre base de données.
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
+1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy function]** bouton pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
@@ -226,32 +226,32 @@ Le connecteur prend en charge les options suivantes :
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
 
-1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** prêt à l’emploi.
+1. Sélectionnez le compte **[!UICONTROL Snowflake]** externe prêt à l’emploi.
 
-1. Pour configurer le compte externe **[!UICONTROL Snowflake]** :
+1. To configure the **[!UICONTROL Snowflake]** external account:
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Server]**
 
       URL du serveur Snowflake.
 
-   * **[!UICONTROL Compte]**
+   * **[!UICONTROL Account]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Mot de passe]**
+   * **[!UICONTROL Password]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Base de données]**
+   * **[!UICONTROL Database]**
 
       Nom de votre base de données
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
+1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy function]** bouton pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
@@ -271,32 +271,32 @@ Le connecteur prend en charge les options suivantes :
 
 1. Configurez le pilote ODBC. Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. Une fois le pilote ODBC installé et configuré, vous devez configurer votre compte externe Snowflake dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Une fois le pilote ODBC installé et configuré, vous devez configurer votre compte externe Snowflake dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
 
-1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** prêt à l’emploi.
+1. Sélectionnez le compte **[!UICONTROL Snowflake]** externe prêt à l’emploi.
 
-1. Pour configurer le compte externe **[!UICONTROL Snowflake]** :
+1. To configure the **[!UICONTROL Snowflake]** external account:
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Server]**
 
       URL du serveur Snowflake.
 
-   * **[!UICONTROL Compte]**
+   * **[!UICONTROL Account]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Mot de passe]**
+   * **[!UICONTROL Password]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Base de données]**
+   * **[!UICONTROL Database]**
 
       Nom de votre base de données
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
+1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy function]** bouton pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
@@ -325,31 +325,31 @@ La connexion à une base de données externe Hadoop dans FDA requiert les config
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, configurez votre compte externe Hadoop dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Dans Campaign Classic, configurez votre compte externe Hadoop dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
 
-1. Cliquez sur **[!UICONTROL Créer]** et sélectionnez Base de données **** externe comme type de compte.
+1. Cliquez sur **[!UICONTROL Create]** et sélectionnez **[!UICONTROL External database]** le type de compte.
 
-1. Pour configurer le compte externe **[!UICONTROL Hadoop]** :
+1. To configure the **[!UICONTROL  Hadoop]** external account:
 
    * **[!UICONTROL Type]**
 
       ODBC (Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Server]**
 
       Nom du DNS.
 
-   * **[!UICONTROL Compte]**
+   * **[!UICONTROL Account]**
 
       Nom de l&#39;utilisateur.
 
-   * **[!UICONTROL Mot de passe]**
+   * **[!UICONTROL Password]**
 
       Mot de passe du compte de l&#39;utilisateur.
 
-   * **[!UICONTROL Base de données]**
+   * **[!UICONTROL Database]**
 
       Nom de votre base de données s’il n’est pas spécifié dans DSN. Il peut rester vide s’il est spécifié dans le DSN.
 
@@ -392,7 +392,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    User/Password: admin/<your password here>
    ```
 
-1. Créez le compte externe Hadoop, comme indiqué dans la section [Création d’une connexion](#creating-a-shared-connection) partagée.
+1. Créez le compte externe Hadoop, comme indiqué dans la section [Création d’une connexion](../../message-center/using/creating-a-shared-connection.md) partagée.
 
 ### Pour Linux {#for-linux}
 
@@ -447,7 +447,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    >
    >Le paramètre **UseNativeQuery** est ici très important. Campaign est basé sur Hive et ne fonctionnera pas correctement si le paramètre UseNativeQuery n&#39;est pas défini. En règle générale, le pilote ou Hive SQL Connector réécrit les requêtes et modifie l&#39;ordre des colonnes.
 
-   La configuration de l&#39;authentification dépend de la configuration de Hive/Hadoop. Par exemple, pour HDInsight, utilisez AuthMech=6 pour l&#39;authentification par utilisateur/mot de passe, comme décrit [ici](http://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
+   La configuration de l&#39;authentification dépend de la configuration de Hive/Hadoop. Par exemple, pour HDInsight, utilisez AuthMech=6 pour l&#39;authentification par utilisateur/mot de passe, comme décrit [ici](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
 
 1. Exportez les variables.
 
@@ -479,7 +479,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    isql vorac -v
    ```
 
-1. Créez le compte externe Hadoop, comme indiqué dans la section [Création d’une connexion](#creating-a-shared-connection) partagée.
+1. Créez le compte externe Hadoop, comme indiqué dans la section [Création d’une connexion](../../message-center/using/creating-a-shared-connection.md) partagée.
 
 ## Configurer l’accès à Netezza {#configure-access-to-netezza}
 
@@ -528,7 +528,7 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
    * **ODBCINI**: emplacement du fichier odbc.ini (par exemple, /etc/odbc.ini).
    * **NZ_ODBC_INI_PATH**: emplacement du fichier odbc.ini. Netezza nécessite également cette seconde variable pour utiliser le fichier odbc.ini.
 
-1. Créez le compte externe Netezza, comme indiqué dans la section [Création d&#39;une connexion](#creating-a-shared-connection) partagée.
+1. Créez le compte externe Netezza, comme indiqué dans la section [Création d&#39;une connexion](../../message-center/using/creating-a-shared-connection.md) partagée.
 
 >[!NOTE]
 >
@@ -624,7 +624,7 @@ La connexion à une base de données externe Sybase IQ en FDA requiert les param
    * Si vous utilisez un fichier customer.sh pour déclarer le chemin d&#39;accès : ajoutez le chemin d&#39;accès /opt/sybase/IQ-16_0/lib64 pour la variable LD_LIBRARY_PATH.
    * Sinon, utilisez une commande Unix.
 
-1. Créez un compte externe FDA, comme décrit dans la section [Création d&#39;une connexion](#creating-a-shared-connection) partagée. Pour Sybase IQ, le nom du serveur correspond à la connexion ODBC (`<server_alias>`) définie à l’étape 5. Ce n&#39;est pas nécessairement le nom du serveur lui-même.
+1. Créez un compte externe FDA, comme décrit dans la section [Création d&#39;une connexion](../../message-center/using/creating-a-shared-connection.md) partagée. Pour Sybase IQ, le nom du serveur correspond à la connexion ODBC (`<server_alias>`) définie à l’étape 5. Ce n&#39;est pas nécessairement le nom du serveur lui-même.
 
 >[!NOTE]
 >
@@ -634,7 +634,7 @@ La connexion à une base de données externe Sybase IQ en FDA requiert les param
 
 La connexion à une base de données externe Teradata en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign. Pour plus d’informations sur le paramétrage de votre base de données Teradata, consultez cet [article](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html).
 
-1. Installez le [pilote ODBC pour Teradata](http://downloads.teradata.com/download/connectivity/odbc-driver/linux).
+1. Installez le [pilote ODBC pour Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
    Il est constitué de trois packages pouvant être installés sur Red Hat (ou CentOS)/Suse dans l&#39;ordre suivant :
 
@@ -711,4 +711,4 @@ La connexion à une base de données externe SAP HANA en FDA requiert certains p
    * **LD_LIBRARY_PATH**: Il doit inclure le lien vers votre client SAP Hana (/usr/sap/hdbclient/libodbcHDB.so) par défaut.
    * **ODBCINI**: emplacement du fichier odbc.ini (par exemple, /etc/odbc.ini).
 
-1. Créez le compte externe SAP Hana, comme indiqué dans la section [Création d’une connexion](#creating-a-shared-connection) partagée.
+1. Créez le compte externe SAP Hana, comme indiqué dans la section [Création d’une connexion](../../message-center/using/creating-a-shared-connection.md) partagée.
