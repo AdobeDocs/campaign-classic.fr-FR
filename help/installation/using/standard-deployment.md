@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -63,7 +63,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 
 ### Installation du serveur applicatif {#installing-the-application-server}
 
-Suivez les étapes pour installer une instance autonome depuis le serveur d’applications Adobe Campaign jusqu’à la création de la base de données (étape 12). Reportez-vous à [Installation et configuration (machine unique)](#installing-and-configuring--single-machine-).
+Suivez les étapes pour installer une instance autonome depuis le serveur d’applications Adobe Campaign jusqu’à la création de la base de données (étape 12). Reportez-vous à [Installation et configuration (machine unique)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 La machine n&#39;étant pas un serveur de tracking, ne pas tenir compte de l&#39;intégration du serveur Web.
 
