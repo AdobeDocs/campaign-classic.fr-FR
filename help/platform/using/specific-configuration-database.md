@@ -169,6 +169,7 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
    /etc/init.d/nlserver6 stop
    /etc/init.d/nlserver6 start
    ```
+
 1. Dans Campaign Classic, configurez votre compte externe Snowflake dans Campaign Classic. From the **[!UICONTROL Explorer]**, unfold the **[!UICONTROL Administration]** menu.
 
 1. Dépliez le **[!UICONTROL Platform]** menu et cliquez sur **[!UICONTROL External accounts]**.
