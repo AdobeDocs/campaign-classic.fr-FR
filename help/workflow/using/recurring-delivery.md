@@ -15,16 +15,16 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b836ca3179b85877ec917a3bf28c94dbbac7772
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
 
 # Diffusion récurrente{#recurring-delivery}
 
-Une activité de **[!UICONTROL Diffusion récurrente]** permet de paramétrer une instance d&#39;un modèle de diffusion spécifique à une opération.
+A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
 
-Cette activité est uniquement disponible à partir de l&#39;onglet **[!UICONTROL Ciblages et workflows]** d&#39;une opération.
+This activity is only available from the **[!UICONTROL Targeting and workflows]** tab found in a campaign.
 
 Pour cela :
 
@@ -36,10 +36,10 @@ Pour cela :
 
 Le paramétrage de cette activité est semblable à la création d&#39;un modèle de diffusion au niveau des options disponibles. Voir à ce sujet cette [section](../../delivery/using/about-templates.md).
 
-Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Un exemple d&#39;utilisation de cette activité est proposé dans cette [section](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 >[!NOTE]
 >
->Il n&#39;est pas possible d&#39;envoyer un bon à tirer à partir d&#39;une activité de type **[!UICONTROL Diffusion récurrente]**.\
->Pour directement créer une diffusion via un workflow de campagne, utilisez les activités de diffusion spécifiques à un canal, qui sont pré-paramétrées (ex : **[!UICONTROL Diffusion e-mail]**).
+>It is not possible to send a proof from a **[!UICONTROL Recurring delivery]** type activity.\
+>To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. **[!UICONTROL Email delivery]**).
 
