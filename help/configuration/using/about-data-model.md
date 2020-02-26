@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ce2a1a55e244180a4e62d6f3b5a5ed5bb8aff6e
+source-git-commit: b7fa53a0463c5752a5fe4d11262dbf7b8ad77144
 
 ---
 
@@ -24,7 +24,7 @@ Cette section décrit les principes de base du modèle de données Adobe Campaig
 
 Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction.
 
-Pour accéder à la description de chaque tableau, accédez à **[!UICONTROL Admin > Configuration > Schémas]** de données, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]** .
+Pour accéder à la description de chaque tableau, accédez à **[!UICONTROL Admin > Configuration > Data schemas]**, sélectionnez une ressource dans la liste et cliquez sur l’ **[!UICONTROL Documentation]** onglet.
 
 ![](assets/data-model_documentation-tab.png)
 
