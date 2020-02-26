@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
 
 ---
 
@@ -41,15 +41,15 @@ Le contenu de ces onglets n&#39;est plus modifiable lorsque la diffusion a été
 
 ### Synthèse des diffusions (Delivery summary){#delivery-summary}
 
-The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: delivery status, channel used, information about the sender, subject, information concerning execution. Pour plus d’informations, reportez-vous à la section [Nombre de messages envoyés](#number-of-messages-sent).
+L’ **[!UICONTROL Summary]** onglet contient les caractéristiques de la diffusion : état de livraison, canal utilisé, informations sur l&#39;expéditeur, sujet, informations concernant l&#39;exécution. Pour plus d’informations, reportez-vous à la section [Nombre de messages envoyés](#number-of-messages-sent).
 
-Le lien **[!UICONTROL Rapports]** permet de consulter un ensemble de rapports relatifs à l&#39;action de diffusion : rapport général d&#39;envoi, rapport détaillé, rapport de diffusion, répartition des messages en échec, taux d&#39;ouverture, clics et transactions, etc. Le contenu de cet onglet est paramétrable en fonction de vos besoins. Reportez-vous à [cette section](../../reporting/using/delivery-reports.md) pour plus d&#39;informations.
+Le **[!UICONTROL reports]** lien vous permet de consulter un ensemble de rapports concernant l’action de remise : rapport général de livraison, rapport détaillé, rapport de livraison, distribution des messages en échec, taux d&#39;ouverture, clics et transactions, etc. Le contenu de cet onglet peut être configuré selon vos besoins. Voir à ce sujet [cette section](../../reporting/using/delivery-reports.md).
 
 ### Logs et historique de la diffusion {#delivery-logs-and-history}
 
-L&#39;onglet **[!UICONTROL Diffusion]** propose un historique des occurrences de cette diffusion. Il contient les logs de diffusion, c&#39;est-à-dire la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire et les messages associés.
+L’ **[!UICONTROL Delivery]** onglet donne un historique des occurrences de cette remise. Il contient les journaux de remise, c&#39;est-à-dire la liste des messages envoyés, leur état et les messages associés.
 
-Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires pour lesquels l&#39;envoi a échoué ou ceux dont l&#39;adresse est en quarantaine. Pour cela, cliquez sur le bouton **[!UICONTROL Filtres]** et choisissez **[!UICONTROL Par Statut]**. Sélectionnez ensuite le statut dans la liste déroulante affichée au-dessus de la liste.
+Pour une remise, vous pouvez afficher (par exemple) uniquement les destinataires dont la remise a échoué ou dont l’adresse est en quarantaine. Pour ce faire, cliquez sur le **[!UICONTROL Filters]** bouton et sélectionnez **[!UICONTROL By state]**. Sélectionnez ensuite l’état dans la liste déroulante.
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
@@ -57,11 +57,11 @@ Les différents statuts sont répertoriés sur [cette page](#delivery-statuses).
 
 >[!NOTE]
 >
->**[!UICONTROL La page]** Afficher le miroir de ce message... vous permet d’afficher la page miroir du contenu de la remise sélectionnée dans la liste dans une nouvelle fenêtre.La page miroir est disponible uniquement pour les livraisons pour lesquelles le contenu HTML a été défini. Pour plus d’informations, reportez-vous à [Génération de la page](../../delivery/using/sending-messages.md#generating-the-mirror-page)miroir.
+>Le **[!UICONTROL Display the mirror page for this message...]** lien vous permet d’afficher la page miroir du contenu de la remise sélectionnée dans la liste dans une nouvelle fenêtre. La page miroir est disponible uniquement pour les livraisons pour lesquelles le contenu HTML a été défini. Pour plus d’informations, reportez-vous à [Génération de la page](../../delivery/using/sending-messages.md#generating-the-mirror-page)miroir.
 
 ### Tracking {#tracking-logs}
 
-L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking sont mises à jour toutes les heures.
+The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. Cet onglet affiche les données de suivi des messages envoyés, c’est-à-dire toutes les URL faisant l’objet d’un suivi par Adobe Campaign. Les données de suivi sont mises à jour toutes les heures.
 
 >[!NOTE]
 >
@@ -69,21 +69,21 @@ L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour c
 
 La configuration du suivi est effectuée à l’étape appropriée dans l’assistant de remise. See [How to configure tracked links](../../delivery/using/how-to-configure-tracked-links.md).
 
-Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports de diffusion. Voir [cette section](../../reporting/using/delivery-reports.md).
+**[!UICONTROL Tracking]** sont interprétées dans les rapports de remise. Reportez-vous à [cette section](../../reporting/using/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ### Suivi de la diffusion {#delivery-audit-}
 
-L&#39;onglet **[!UICONTROL Suivi]** contient le journal de la diffusion et tous les messages relatifs aux bons à tirer (BAT). Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les informations. Le bouton **[!UICONTROL Filtres]** permet d&#39;appliquer un filtre sur les données.
+L&#39; **[!UICONTROL Audit]** onglet contient le journal de livraison et tous les messages concernant les épreuves. Le **[!UICONTROL Refresh]** bouton permet de mettre à jour les données. Utilisez le **[!UICONTROL Filters]** bouton pour définir un filtre sur les données.
 
 Les icônes spéciales permettent d’identifier les erreurs ou les avertissements. Voir [Analyse de la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
-Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des BAT qui ont été envoyés.
+The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have been sent.
 
 ![](assets/s_ncs_user_delivery_log_tab.png)
 
-Vous pouvez modifier les informations affichées dans cette fenêtre (ainsi que celles des onglets **[!UICONTROL Diffusion]** et **[!UICONTROL Tracking]**) en sélectionnant les colonnes à afficher. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Configurer la liste]**, située en bas à droite. La configuration de l&#39;affichage des listes est présentée dans [cette section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+Vous pouvez modifier les informations affichées dans cette fenêtre (ainsi que celles des **[!UICONTROL Delivery]** et **[!UICONTROL Tracking]** onglets) en sélectionnant les colonnes à afficher. Pour ce faire, cliquez sur l’ **[!UICONTROL Configure list]** icône située dans le coin inférieur droit. For more on configuring list display, refer to [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ### Synchronisation du tableau de bord des diffusions {#delivery-dashboard-synchronization}
 
@@ -91,12 +91,12 @@ Dans le tableau de bord des diffusions, vous souhaitez vérifier les messages tr
 
 Certains indicateurs ou statuts peuvent être incorrects ou ne pas être à jour. Ce problème peut être résolu à l&#39;aide des solutions suivantes :
 
-* Si le statut de votre diffusion est incorrect, vérifiez que toutes les validations nécessaires ont été effectuées pour celle-ci ou que les workflows **[!UICONTROL operationMgt]** et **[!UICONTROL deliveryMgt]** s&#39;exécutent sans erreur. La diffusion peut aussi utiliser une affinité qui n&#39;est pas configurée sur l&#39;instance d&#39;envoi.
-* Si les indicateurs de diffusion sont toujours à zéro et que vous utilisez une configuration en mid-sourcing, vérifiez le workflow technique **[!UICONTROL Mid-sourcing (compteurs des diffusions)]**. Lancez-le si son statut n&#39;est pas **[!UICONTROL Démarré]**. Vous pouvez ensuite essayer de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l&#39;explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d&#39;envoi et de tracking]**. Pour plus d&#39;informations sur les indicateurs de tracking, voir cette [section](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
-* Si le compteur de diffusions ne correspond pas à votre diffusion, essayez de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l&#39;explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d&#39;envoi et de tracking]** pour effectuer une nouvelle synchronisation. Pour plus d&#39;informations sur les indicateurs de tracking, référez-vous à cette [section](../../reporting/using/reports-on-deliveries.md#tracking-indicators).
-* Si votre compteur de diffusions n&#39;est pas à jour pour les déploiements Mid-sourcing, vérifiez que le workflow technique **[!UICONTROL Mid-sourcing (compteurs des diffusions)]** est en cours d&#39;exécution. Pour plus d&#39;informations à ce sujet, voir cette [page](../../installation/using/mid-sourcing-deployment.md).
+* Si votre état de remise est incorrect, vérifiez que toutes les approbations nécessaires ont été effectuées pour cette remise ou que les processus **[!UICONTROL operationMgt]** et **[!UICONTROL deliveryMgt]** les processus sont exécutés sans erreur. Cela peut également être dû à la diffusion à l’aide d’une affinité non configurée sur l’instance d’envoi.
+* Si vos indicateurs de livraison sont toujours à zéro et si vous utilisez une configuration de mi-approvisionnement, vérifiez le flux de travail **[!UICONTROL Mid-sourcing (delivery counters)]** technique. Démarrez-la si son état n’est pas **[!UICONTROL Started]**. Vous pouvez ensuite essayer de recalculer les indicateurs en cliquant avec le bouton droit sur la diffusion appropriée dans l’explorateur Adobe Campaign et en sélectionnant **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+* Si votre compteur de remise n’est pas à jour pour les déploiements de mi-origines, vérifiez que le flux de travaux **[!UICONTROL Mid-Sourcing (Delivery counters)]** technique est en cours d’exécution. Pour plus d’informations à ce propos, consultez [cette page](../../installation/using/mid-sourcing-deployment.md).
 
-Vous pouvez également effectuer un tracking de vos diffusions à l&#39;aide de différents rapports dans le tableau de bord des diffusions. Voir à ce sujet cette [section](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports).
+Vous pouvez également effectuer un tracking de vos diffusions à l&#39;aide de différents rapports dans le tableau de bord des diffusions. Voir à ce sujet cette [section](../../reporting/using/delivery-reports.md).
 
 ## Problèmes de performance {#performance-issues}
 
@@ -112,14 +112,14 @@ La maintenance de la plateforme et de la base de données peut également impact
 
 ### Diffusions lentes {#slow-deliveries}
 
-Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion semble prendre plus de temps que d&#39;habitude. Cela peut être dû à différents éléments :
+Après avoir cliqué sur le **[!UICONTROL Send]** bouton, votre livraison semble prendre plus de temps que d&#39;habitude. Cela peut être dû à différents éléments :
 
 * Certains fournisseurs de service de messagerie peuvent avoir blacklisté vos adresses IP. Vérifiez les broadlogs et consultez ce guide de [prise en main](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html).
 * Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) d&#39;Adobe Campaign.
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
-   * Messages mis en attente (message **[!UICONTROL Quotas atteints]**) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d&#39;informations sur ce message, consultez [cette page](../../delivery/using/technical-recommendations.md#quota-met). Pour en savoir plus sur les règles MX, reportez-vous à [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
-   * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et un blacklistage éventuel.
+   * Messages en attente (**[!UICONTROL quotas met]** message) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été respectés. For more information about this message, refer to [this page](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ). Pour en savoir plus sur les règles MX, consultez [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
+   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.
 
 * Un problème lié au système peut empêcher les serveurs d&#39;interagir ensemble : l&#39;ensemble du processus d&#39;envoi peut être ainsi ralenti. Vérifiez que les serveurs ne présentent aucun problème de mémoire ou de ressource qui peut impacter Campaign dans le processus de récupération des données de personnalisation par exemple.
 
@@ -204,11 +204,11 @@ Pour apprendre à optimiser la délivrabilité de vos emails Adobe Campaign, co
 
 ### Statut En attente {#pending-status}
 
-Après avoir validé votre diffusion, vous pouvez constater que son statut est **[!UICONTROL En attente]**.Ce statut signifie que le processus d&#39;exécution attend la disponibilité de certaines ressources.
+After confirming your delivery, you can see that the status of your delivery is **[!UICONTROL Pending]**. This status means that the execution process is waiting on the availability of some resources.
 
-Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée. Voir à ce sujet la section [Planifier la diffusion](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+L’ **[!UICONTROL Pending]** état peut d’abord signifier que votre livraison a été planifiée et est en attente jusqu’à la date donnée. For more on this, refer to the [Delivery scheduling](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending) section.
 
-Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL En attente]**, la raison peut en être la suivante :
+If your delivery is not being sent and its status remains **[!UICONTROL Pending]**, it can be the result of:
 
 * Le Message Transfert Agent (MTA) qui exécute les modules et les processus sur le serveur de diffusion et qui gère l&#39;envoi des emails peut ne pas avoir été lancé ou doit être redémarré. Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
@@ -232,12 +232,12 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
    >
    >Remplacez `<INSTANCENAME>` par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration : `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
 
-* La diffusion peut utiliser une affinité non configurée sur le serveur d’envoi. Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec des adresses]** IP pour lier les livraisons à la MTA qui gère l’affinité. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
-* Lorsque la préparation de la diffusion est en attente, cela peut indiquer que trop de campagnes sont en cours d&#39;exécution, ce qui a bloqué la mise à jour de l&#39;état de la diffusion. Pour résoudre ce problème, accédez à **[!UICONTROL Options]** et augmentez la valeur de l&#39;option **[!UICONTROL NmsOperation_LimitConcurrency]** (la valeur par défaut est 10). N&#39;exécutez pas un nombre de campagnes plus élevé que la valeur affectée à cette option spécifique.
+* La diffusion peut utiliser une affinité non configurée sur le serveur d’envoi. Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le **[!UICONTROL Managing affinities with IP addresses]** champ pour lier les livraisons au MTA qui gère l’affinité. For more information on affinities, refer to [this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+* Lorsque la préparation de la diffusion est en attente, il peut y avoir trop de campagnes en cours d’exécution, ce qui bloque la mise à jour de l’état de la diffusion. Pour résoudre ce problème, accédez à **[!UICONTROL Options]** et augmentez la valeur de **[!UICONTROL NmsOperation_LimitConcurrency]** (10 par défaut). N’exécutez pas plus de campagnes que la valeur affectée à cette option spécifique.
 
 ### Statut En échec {#failed-status}
 
-Si l&#39;état d&#39;une diffusion par email est **[!UICONTROL En échec]**, la raison peut être un problème lié aux blocs de personnalisation. Dans une diffusion, les blocs de personnalisation peuvent générer des erreurs lorsque les schémas ne correspondent pas au mapping de diffusion, par exemple.
+Si l’état d’une remise par courrier électronique est **[!UICONTROL Failed]** défini, il peut être lié à un problème lié aux blocs de personnalisation. Les blocs de personnalisation d’une remise peuvent générer des erreurs lorsque les schémas ne correspondent pas au mappage de la remise, par exemple.
 
 Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a échoué. Voici les erreurs possibles que vous pouvez détecter dans les logs de diffusion :
 
@@ -257,7 +257,7 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
    En règle générale, cette erreur signifie qu&#39;un champ ou un bloc de personnalisation dans l&#39;email possède plusieurs valeurs pour le destinataire. Un bloc de personnalisation est utilisé et il récupère plusieurs enregistrements pour un destinataire spécifique.
 
-   Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l&#39;un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l&#39;activité de diffusion pour vérifier qu&#39;il n&#39;existe qu&#39;un seul champ de personnalisation à la fois. Pour plus d&#39;informations sur la déduplication, consultez [cette page](../../workflow/using/deduplication.md).
+   Pour résoudre ce problème, vérifiez les données de personnalisation utilisées, puis vérifiez la cible pour les destinataires qui ont plusieurs entrées pour l’un de ces champs. Vous pouvez également utiliser une **[!UICONTROL Deduplication]** activité dans le processus de ciblage avant l’activité de diffusion pour vérifier qu’il n’existe qu’un seul champ de personnalisation à la fois. For more information on deduplication, refer to [this page](../../workflow/using/deduplication.md).
 
 * Certaines diffusions peuvent échouer avec une erreur &quot;Inatteignable&quot; indiquant : &quot;Réception d&#39;un email de rebond (la règle &#39;Auto_replies&#39; s&#39;est appliquée à ce rebond). Cela signifie que la diffusion a réussi mais qu&#39;Adobe Campaign a reçu une réponse automatique du destinataire (par exemple, une réponse &quot;Out of office&quot;) qui correspond aux règles d&#39;un email de rebond &#39;Auto_replies&#39;. L&#39;email de réponse automatique est ignoré par Adobe Campaign et l&#39;adresse du destinataire ne sera pas mise en quarantaine.
 
@@ -269,19 +269,19 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
 ## nombre d&#39;envois {#number-of-messages-sent}
 
-Vous pouvez accéder aux diffusions à partir de la liste des diffusions accessible depuis le nœud **[!UICONTROL Gestion de campagne > Diffusions]** de l&#39;arborescence.
+You can access deliveries from the delivery list, via the **[!UICONTROL Campaign Management > Deliveries]** node of the tree.
 
 Par défaut, la liste des diffusions affiche les noms et états des diffusions créées dans le nœud sélectionné. Elle affiche également le nombre de messages à envoyer, traités et envoyés avec succès.
 
-* Le nombre de **[!UICONTROL messages à envoyer]** correspond au nombre de destinataires ciblés après analyse de la diffusion et avant envoi.
-* Le nombre de messages de la colonne **[!UICONTROL succès]** correspond au nombre de messages émis par le serveur et bien reçus par le destinataire.
-* Le nombre de messages **[!UICONTROL traités]** correspond au nombre de messages reçus avec succès auquel s&#39;ajoute le nombre de messages en erreur.
+* The number of **[!UICONTROL Messages to send]** corresponds to the number of recipients targeted after analysis and prior to delivery.
+* The number of messages in the **[!UICONTROL success]** column corresponds to the number of messages sent by the server and received by the recipients.
+* The number of **[!UICONTROL processed]** messages corresponds to the number of messages received plus the number of messages with errors.
 
 Le tableau de bord de la diffusion permet de suivre le nombre de messages envoyés.
 
 >[!NOTE]
 >
->Pour les diffusions volumineuses, il peut être utile d&#39;actualiser ces valeurs. Pour cela, sélectionnez la diffusion visée et cliquez avec le bouton droit de la souris. Choisissez **[!UICONTROL Action > Recalculer les indicateurs de diffusion et de tracking...]** et renseignez les étapes de l&#39;assistant pour mettre à jour les informations.
+>Pour les livraisons volumineuses, vous pouvez mettre à jour ces valeurs. Pour ce faire, sélectionnez la livraison en question, puis cliquez dessus avec le bouton droit de la souris. Sélectionnez **[!UICONTROL Action > Recompute delivery and tracking indicators...]** puis utilisez l’assistant pour mettre à jour ces informations.
 
 ## Diffusions planifiées {#scheduled-deliveries-}
 
