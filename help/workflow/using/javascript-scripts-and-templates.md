@@ -114,7 +114,9 @@ Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiqu
 
 1. Dans la section Script d’initialisation de l’onglet Avancé de l’activité Scinder, définissez une condition JS. La condition JS sélectionne le pourcentage d’échantillonnage aléatoire de la première transition sortant de l’activité Scinder et la met à jour vers une valeur définie par la variable d’instance créée précédemment.
 
-   ```activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;```
+   ```
+   activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
+   ```
 
    ![](assets/js_ex3.png)
 
