@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc6f0f2989977c5a199dbfd413c6a2bac4628545
+source-git-commit: 230ff1a8453cf512b7da828cdcdd49edca59331c
 
 ---
 
@@ -25,6 +25,20 @@ Découvrez toutes les dernières mises à jour de la documentation Adobe Campaig
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d’Adobe Campaign Classic.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
+
+## February 2020 {#february-2020}
+
+Une nouvelle section présentant les meilleures pratiques et les recommandations clés lors de la conception du modèle de données Adobe Campaign est désormais disponible. [En savoir plus](../../configuration/using/data-model-best-practices.md)
+
+La section &quot;Envoi du courrier électronique&quot; a été renommée &quot;Configurations de courrier électronique technique&quot;. [En savoir plus](../../installation/using/email-deliverability.md)
+
+Le document FAQ sur la délivrabilité a été mis à jour avec plus de détails sur le message d&#39;erreur &quot;quotas satisfaits&quot;. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
+
+AMP for Email étant désormais pris en charge par trois fournisseurs de messagerie (Gmail, Outlook et Mail.ru), la section décrivant comment définir le contenu interactif avec AMP a été mise à jour. [En savoir plus](../../delivery/using/defining-interactive-content.md)
+
+La section Archivage du courrier électronique a été clarifiée. [En savoir plus](../../installation/using/email-archiving.md#recommendations-and-limitations)
+
+
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
@@ -48,9 +62,9 @@ La section Processus de nettoyage de base de données a été mise à jour. Les 
 
 Une limitation de la FDA sur HTTP a été ajoutée au guide de messagerie transactionnelle. [En savoir plus](../../production/using/database-cleanup-workflow.md)
 
-Des informations ont été ajoutées sur la nouvelle option qui vous permet de définir un délai d’expiration pour le code **** JavaScript et les activités de flux de travail du code **[!UICONTROL JavaScript]** avancé. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
+Des informations ont été ajoutées sur la nouvelle option qui vous permet de définir une période d’expiration pour les activités **[!UICONTROL JavaScript code]** et **[!UICONTROL Advanced JavaScript code]** le flux de travail. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md)
 
-Des informations ont été ajoutées sur la nouvelle vue **[!UICONTROL Démarrer en attente]** disponible dans le noeud **[!UICONTROL Administration]** > **[!UICONTROL Audit]** **[!UICONTROL > État des flux de travail.]** [En savoir plus](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+Des informations ont été ajoutées sur la nouvelle **[!UICONTROL Start Pending]** vue disponible dans le noeud **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** . [En savoir plus](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 Le guide [Envoi de notifications](../../delivery/using/about-mobile-app-channel.md) Push a été déplacé, réorganisé et amélioré avec des informations plus précises.
 
@@ -60,19 +74,13 @@ La page de la matrice **des fonctionnalités hébergées et sur site de** Campai
 
 La page de la matrice **des fonctionnalités de** Campaign Classic a été mise à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
-Le nouveau **[!UICONTROL processus de nettoyage de Nmsaddress]** a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
+Le nouveau **[!UICONTROL Cleanup of Nmsaddress]** processus a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
 Une limitation a été ajoutée lors de l’utilisation d’une activité de requête dans un processus. [En savoir plus](../../workflow/using/query.md).
 
 Une nouvelle section a été ajoutée pour détailler les règles améliorées de validation des adresses électroniques afin d’envoyer une adresse en quarantaine en cas d’erreur logicielle. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 Le paramètre du fichier de configuration indiquant qu’une instance utilise ou non la MTA améliorée est maintenant documenté. [En savoir plus](../../installation/using/the-server-configuration-file.md#mta)
-
-## February 2020 {#february-2020}
-
-AMP for Email étant désormais pris en charge par trois fournisseurs de messagerie (Gmail, Outlook et Mail.ru), la section décrivant comment définir le contenu interactif avec AMP a été mise à jour. [En savoir plus](../../delivery/using/defining-interactive-content.md)
-
-La section Archivage du courrier électronique a été clarifiée. [En savoir plus](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## Janvier 2020 {#january-2020}
 
