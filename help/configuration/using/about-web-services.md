@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: a047e4af6e31c54fa2444943a18da5913e115c09
 
 ---
 
@@ -122,7 +122,7 @@ Dans SOAP, les paramètres sont reconnus par ordre d’apparition. Le premier pa
 
 The result of the query is entered from the `<pdomoutput>` element.
 
-## Gestion des erreurs  {#error-management}
+## Gestion des erreurs   {#error-management}
 
 Exemple de réponse d&#39;erreur SOAP :
 
@@ -180,6 +180,6 @@ Pour soumettre le service Web, il faut contacter le serveur Adobe Campaign impl�
 
 L&#39;URL du serveur est la suivante :
 
-[https://`<server>`/nl/jsp/soaprouter.jsp`](https://XXXX//nl/jsp/soaprouter.jsp)
+https://serverName/nl/jsp/soaprouter.jsp
 
 With **`<server>`** the Adobe Campaign application server (**nlserver web**).
