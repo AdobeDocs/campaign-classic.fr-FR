@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 230ff1a8453cf512b7da828cdcdd49edca59331c
+source-git-commit: 7082ff9c8ce18f12734831bc4f00c9a1b71376b3
 
 ---
 
@@ -25,6 +25,10 @@ Découvrez toutes les dernières mises à jour de la documentation Adobe Campaig
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d’Adobe Campaign Classic.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md).
+
+## March 2020 {#march-2020}
+
+La page des meilleures pratiques relatives aux modèles de données a été mise à jour avec de nouvelles sections, notamment [Séquences](../../configuration/using/data-model-best-practices.md#sequences), [Performances](../../configuration/using/data-model-best-practices.md#performance) et Tableaux [](../../configuration/using/data-model-best-practices.md#large-tables)volumineux, entre autres. [En savoir plus](../../configuration/using/data-model-best-practices.md)
 
 ## February 2020 {#february-2020}
 
