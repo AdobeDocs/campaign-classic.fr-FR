@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
 
 ---
 
 
 # A propos des typologies de campagne{#about-campaign-typologies}
 
-Campaign Optimization est le module d&#39;Adobe Campaign qui permet de contrôler, filtrer et suivre l&#39;envoi des diffusions. Afin d&#39;éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contraintes spécifiques. Vous pourrez ainsi vous assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect de la cohérence de la communication de l&#39;entreprise.
+Optimisation de campagne est le module Adobe Campaign qui vous permet de contrôler, de filtrer et de surveiller l’envoi des livraisons. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester diverses combinaisons en appliquant des règles de contrainte spécifiques. Cela garantit que les messages envoyés répondent aux besoins et aux attentes des clients et aux politiques de communication de l&#39;entreprise.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Une fois créées, les règles de typologie sont regroupées dans des typologies
 
 Une typologie de campagne peut contenir plusieurs [règles de typologie](#typology-rules), mais une diffusion ne peut référencer qu&#39;une seule typologie.
 
-L&#39;onglet **[!UICONTROL Règles]** permet d&#39;ajouter, supprimer ou visualiser les règles de typologie à appliquer.
+The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules to apply.
 
 ![](assets/campaign_opt_rules_tab.png)
 
@@ -53,13 +53,13 @@ Vous trouverez ci-dessous les étapes nécessaires pour créer et appliquer une 
 
 1. Créez des règles de typologie.
 
-   Les règles de typologies sont regroupées sous le noeud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies > Règles de typologie]**.
+   Les règles de typologie se trouvent dans le **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** noeud.
 
    Les différents types de règles disponibles dans Campaign sont présentés dans les sections suivantes : [règles de pression commerciale](../../campaign/using/pressure-rules.md), [règles de capacité](../../campaign/using/consistency-rules.md#controlling-capacity), [règles de contrôle](../../campaign/using/control-rules.md) et [règles de filtrage](../../campaign/using/filtering-rules.md).
 
 1. Créez une typologie et référencez les règles que vous avez créées dans celle-ci.
 
-   Les typologies sont accessibles sous le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies]** > **[!UICONTROL Typologies]**.
+   Les typologies sont accessibles via le noeud **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** .
 
 1. Configurez votre diffusion pour utiliser la typologie que vous avez créée. Pour plus d&#39;informations, consultez [cette section](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery).
 1. Testez et contrôlez le comportement par le biais de simulations de campagnes. Pour plus d&#39;informations sur les simulations de campagnes, consultez [cette section](../../campaign/using/campaign-simulations.md).
