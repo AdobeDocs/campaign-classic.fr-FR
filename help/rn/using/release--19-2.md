@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 410fd89cd030ac3d4644e6aa025ed5f03adb788f
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
 
 # Version 19.2{#release-19-2}
 
-[Mise à niveau](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) de build| Versions [du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration| Mises à jour [de la documentation](../../rn/using/documentation-updates.md) | Versions [précédentes](../../rn/using/release--19-1.md) | Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Créer une mise à niveau](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | Versions [du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration| Mises à jour [de la documentation](../../rn/using/documentation-updates.md) | Versions [précédentes](../../rn/using/release--19-1.md) | Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -30,20 +30,20 @@ source-git-commit: 410fd89cd030ac3d4644e6aa025ed5f03adb788f
    <td><img src="assets/green3.png"/><strong>Disponibilité générale</strong></td>
    <td><img src="assets/blue3.png"/><strong>Candidat à la libération</strong></td> 
    <td><img src="assets/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Déconseillé</strong></td> 
+   <td><img src="assets/red3.png"/><strong>Obsolète</strong></td> 
   </tr> 
    <tr> 
-   <td>Dernière version stable disponible. <br>Création validée en production. </td>
-   <td>Génération validée par Adobe. <br>En attente de vérification de la production. </td>
-   <td>Version plus récente disponible avec correctifs. <br>Mise à jour requise. </td>
-   <td>Contient des régressions connues. <br>La mise à jour est obligatoire. </td>
+   <td>Dernière version stable disponible. Création validée en production.<br> </td>
+   <td>Génération validée par Adobe. En attente de vérification de la production.<br> </td>
+   <td>Version plus récente disponible avec correctifs de bogues. La mise à jour est requise.<br> </td>
+   <td>Contient des régressions connues. La mise à jour est obligatoire.<br> </td>
   </tr> 
  </tbody> 
 </table>
 
-Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032) pour voir la **dernière version** stable (GA).
+La **dernière version** stable est 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue-2.png) Version 19.2.3 - Version 9081 {#release-19-2-3-build-9081}
+## ![](assets/blue_2.png) Version 19.2.3 - Version 9081 {#release-19-2-3-build-9081}
 
 _7 février 2020_
 
@@ -52,7 +52,7 @@ _7 février 2020_
 * Correction d’un problème de régression en raison de l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur le serveur Windows. (NÉO-20629)
 * Correction d’un problème qui affichait un numéro de balise de version incorrect dans le menu **À propos** .
 
-## ![](assets/orange-2.png) Version 19.2 - Version 9080 {#release-19-2-build-9080}
+## ![](assets/orange_2.png) Version 19.2 - Version 9080 {#release-19-2-build-9080}
 
 _2 décembre 2019_
 
@@ -67,7 +67,7 @@ _2 décembre 2019_
  <tbody> 
   <tr> 
    <td> <p>L’ACCP est la nouvelle loi sur la protection des renseignements personnels de l’État de Californie qui harmonise et modernise les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Cette loi s'applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant en Californie.</p>
-    <p> Outre les fonctionnalités de confidentialité déjà disponibles (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), Adobe Campaign vous aide à mieux vous préparer à l’application CCPA :</p>
+    <p>Outre les fonctionnalités de confidentialité déjà disponibles (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), Adobe Campaign vous aide à mieux vous préparer à l’application CCPA :</p>
     <ul>
       <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">En savoir plus</a></li>
       <li>Vous pouvez déterminer si un consommateur a choisi de ne pas vendre de renseignements personnels. Pour ce faire, vous devez étendre le tableau Profils et ajouter un champ <strong>d’exclusion pour l’ACCP</strong> . <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">En savoir plus</a></li></td> 
@@ -99,7 +99,7 @@ _2 décembre 2019_
  <tbody> 
   <tr> 
 <td> <p>Adobe Campaign vous permet de tester le nouveau format interactif <a href="https://amp.dev/about/email/">AMP pour le courrier électronique</a> , qui permet aux spécialistes du marketing d’inclure des composants AMP dans les messages afin d’améliorer l’expérience du courrier électronique grâce à un contenu riche, dynamique et interactif, directement exploitable dans le message lui-même.</p>
-   <p> Cette fonctionnalité est publiée en version bêta publique.</p>
+   <p>Cette fonctionnalité est publiée en version bêta publique.</p>
    <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
   </tr> 
  </tbody> 
@@ -152,7 +152,7 @@ Vérifiez que vous utilisez les versions prises en charge des systèmes réperto
 
 _SDK de campagne mobile_
 
-La version 1.0.26 du SDK iOS est désormais disponible. Dans cette nouvelle version, nous avons ajouté la prise en charge d’iOS 13. Cette nouvelle version prend désormais en charge la priorité des notifications et le nouveau processus de gestion des jetons d’enregistrement pour les notifications Push iOS 13. Si vous exécutez des applications sur une version précédente du SDK, vous devez recompiler vos applications avec le nouveau SDK. Pour obtenir le SDK, contactez le service à la clientèle Adobe.
+La version 1.0.26 du SDK iOS est désormais disponible. Dans cette nouvelle version, nous avons ajouté la prise en charge d’iOS 13. Cette nouvelle version prend désormais en charge la priorité des notifications et le nouveau processus de gestion des jetons d’enregistrement pour les notifications Push iOS 13. Si vous exécutez des applications sur une version précédente du SDK, vous devez recompiler vos applications avec le nouveau SDK. Pour obtenir le SDK, contactez le service à la clientèle d’Adobe.
 
 **Correctifs**
 
@@ -160,7 +160,7 @@ La version 1.0.26 du SDK iOS est désormais disponible. Dans cette nouvelle vers
 * Correction d’un problème en raison duquel certains messages ne pouvaient pas être traités par le serveur d’approvisionnement intermédiaire. (NEO-12395)
 * Correction d’un problème dans le processus de nettoyage de la base de données lors de l’utilisation de l’option Bande de requête avec Teradata. (NEO-12399)
 * Correction d’un problème affectant l’analyse de remise avec la règle de typologie incluant le domaine ne.jp. (NEO-12609)
-* Correction d’un problème lié aux SMS sur les mises à jour TLS qui impliquaient une stratégie de certificat plus restrictive. Ces mises à jour peuvent entraîner un échec de connexion entre les serveurs de marketing et de mi-sourcing en cas de certificat obsolète. (NEO-17698)
+* Correction d’un problème lié aux SMS sur les mises à jour TLS qui impliquaient une stratégie de certificat plus restrictive. Ces mises à jour peuvent entraîner un échec de connexion entre les serveurs de marketing et de mi-sourcing dans le cas d’un certificat obsolète. (NEO-17698)
 * Correction d’un problème lors de l’utilisation du bouton **Tester la connexion** sur un compte externe dans un environnement de milieu de gamme avec l’authentification Vault. (NEO-12722)
 * Correction d’un problème sur les requêtes utilisant des fonctions de date avec une connexion Hadoop de la FDA. (NEO-12847)
 * Correction d’un problème lors du remplacement d’une image dans l’éditeur de courrier électronique. (NEO-13098)
