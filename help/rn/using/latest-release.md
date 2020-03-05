@@ -13,14 +13,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d94ded3b87244a7cd51a15c1ebe409c9fdfcd843
+source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 ---
 
 
 # Dernière version{#latest-release}
 
-[Mise à niveau](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) de build| Versions [du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration| Mises à jour [de la documentation](../../rn/using/documentation-updates.md) | Versions [précédentes](../../rn/using/release--19-2.md) | Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Créer une mise à niveau](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | Versions [du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration| Mises à jour [de la documentation](../../rn/using/documentation-updates.md) | Versions [précédentes](../../rn/using/release--19-2.md) | Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -28,20 +28,20 @@ source-git-commit: d94ded3b87244a7cd51a15c1ebe409c9fdfcd843
    <td><img src="assets/green3.png"/><strong>Disponibilité générale</strong></td>
    <td><img src="assets/blue3.png"/><strong>Candidat à la libération</strong></td> 
    <td><img src="assets/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Déconseillé</strong></td> 
+   <td><img src="assets/red3.png"/><strong>Obsolète</strong></td> 
   </tr> 
    <tr> 
-   <td>Dernière version stable disponible. <br>Création validée en production. </td>
-   <td>Génération validée par Adobe. <br>En attente de vérification de la production. </td>
-   <td>Version plus récente disponible avec correctifs. <br>Mise à jour requise. </td>
-   <td>Contient des régressions connues. <br>La mise à jour est obligatoire. </td>
+   <td>Dernière version stable disponible. Création validée en production.<br> </td>
+   <td>Génération validée par Adobe. En attente de vérification de la production.<br> </td>
+   <td>Version plus récente disponible avec correctifs de bogues. La mise à jour est requise.<br> </td>
+   <td>Contient des régressions connues. La mise à jour est obligatoire.<br> </td>
   </tr> 
  </tbody> 
 </table>
 
-Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032) pour voir la **dernière version** stable (GA).
+La **dernière version** stable est 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue-2.png) Version 20.1 - Version 9122 {#release-20-1-build-XXXX}
+## ![](assets/blue_2.png) Version 20.1 - Version 9122 {#release-20-1-build-9122}
 
 _17 février 2020_
 
@@ -55,7 +55,7 @@ _17 février 2020_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Snowflake est un entrepôt de données cloud entièrement géré, conçu pour évoluer à la fois au niveau du stockage et du calcul. Avec ce nouveau connecteur, Adobe Campaign peut désormais exploiter la puissance de Snowflake pour effectuer la segmentation Big Data. Ce connecteur est disponible pour tous les clients, y compris les clients hébergés par Adobe.</p>
+   <td> <p>Snowflake est un entrepôt de données cloud entièrement géré conçu pour évoluer à la fois au niveau du stockage et du calcul. Avec ce nouveau connecteur, Adobe Campaign peut désormais exploiter la puissance de Snowflake pour effectuer la segmentation Big Data. Ce connecteur est disponible pour tous les clients, y compris les clients hébergés par Adobe.</p>
     <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutorial video</a>.</p>
    </td> 
   </tr> 
@@ -83,7 +83,7 @@ _17 février 2020_
 
 * Correction d’un petit problème de mémoire dans cryptString. (NÉO-20071)
 
-* Amélioration du JSP du moniteur pour corriger une divulgation d’IP interne. (NEO-16821)
+* Amélioration du JSP du moniteur afin de corriger une divulgation d’IP interne. (NEO-16821)
 
 * Correction d’un problème en raison duquel les informations de suivi de pile pouvaient être affichées pour les utilisateurs non administrateurs. (NEO-12388)
 
@@ -101,7 +101,7 @@ _17 février 2020_
 
 * L’analyse de diffusion est maintenant arrêtée lorsque aucune affinité correspondante n’est trouvée sur le serveur de milieu de gamme, avec le message d’erreur correspondant affiché.
 
-* Le basculement de base de données pour les publications est désormais pris en charge : lorsque le serveur de base de données se bloque et redémarre, Campaign se reconnecte désormais automatiquement.
+* Le basculement de base de données pour les publications est maintenant pris en charge : lorsque le serveur de base de données se bloque et redémarre, Campaign se reconnecte désormais automatiquement.
 
 * La vue **Démarrer en attente** a été ajoutée au noeud Administration > Audit > Etat des processus. Cela vous permet de surveiller tous les processus de votre instance qui attendent d’être démarrés par le processus **operationMgt** . Cette vue est fournie avec le package des campagnes marketing. [En savoir plus](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
@@ -133,7 +133,7 @@ _17 février 2020_
 
 * Correction d’un problème de régression en raison de l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur le serveur Windows. (NÉO-20629)
 
-* Correction d’un problème avec l’activité de requête incrémentielle en cas d’ID de flux de travail négatifs. (NEO-19779)
+* Correction d’un problème lié à l’activité de requête incrémentielle en cas d’ID de flux de travail négatifs. (NEO-19779)
 
 * Correction d’un problème de codage lors de l’exécution de requêtes via le connecteur de la FDA Netezza. (NEO-19594)
 
@@ -159,13 +159,13 @@ _17 février 2020_
 
 * Correction d’un problème lors de l’utilisation de l’option **A selection of columns** réconciliation dans une activité de flux de travail **Union** .
 
-* Correction d’un problème de blocage de la console qui pouvait se produire lors de l’utilisation d’une liste d’enrichissement endommagée dans un flux de travail. (NEO-18096)
+* Correction d’un problème de plantage de la console qui pouvait se produire lors de l’utilisation d’une liste d’enrichissement endommagée dans un flux de travail. (NEO-18096)
 
-* Correction de divers problèmes de blocage de la console qui pouvaient se produire dans les processus (NEO-18010, NEO-18032)
+* Correction de divers problèmes de plantage de la console qui pouvaient se produire dans les processus (NEO-18010, NEO-18032)
 
-* Correction d’un problème en raison duquel l’exécution d’une activité de flux de travaux de signaux **** externes était autorisée même lorsqu’elle était désactivée. (NEO-17524)
+* Correction d’un problème en raison duquel l’exécution d’une activité de flux de travaux de signaux **** externes était autorisée, même lorsqu’elle était désactivée. (NEO-17524)
 
-* Correction d’un problème lors de la création d’un schéma.
+* Correction d’un problème lors de la création d’un nouveau schéma.
 
 * Correction d’un problème de suivi lors de l’envoi de messages SMS. (NEO-19595)
 
