@@ -66,7 +66,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Gestion des énumérations](platform/using/managing-enumerations.md)
       + [Comptes externes](platform/using/external-accounts.md)
    + Accéder à une base externe (FDA){#accessing-external-database}
-      + [À propos de la FDA](platform/using/about-fda.md)
+      + [A propos des](platform/using/about-fda.md)
       + [Configurations spécifiques par type de base de données](platform/using/specific-configuration-database.md)
       + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
       + [Connexion à la base de données](platform/using/connecting-to-database.md)
@@ -84,8 +84,8 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Accès aux informations sur les diffusions](delivery/using/accessing-deliveries-information.md)
       + [Types de diffusions](delivery/using/types-of-deliveries.md)
    + Etapes clés lors de la création d&#39;une diffusion {#key-steps-when-creating-a-delivery}
-      + [A propos de la création de diffusion ](delivery/using/steps-about-delivery-creation-steps.md)
-      + [Création et identification de la diffusion](delivery/using/steps-create-and-identify-the-delivery.md)
+      + [A propos de la création de ](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Création et identification du](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Définir la population cible](delivery/using/steps-defining-the-target-population.md)
       + [Valider la diffusion](delivery/using/steps-validating-the-delivery.md)
       + [Envoyer la diffusion](delivery/using/steps-sending-the-delivery.md)
@@ -156,7 +156,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Inbox rendering](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Bases de blacklistage](delivery/using/blacklisting-databases.md)
-   + Module de gestion de contenu {#content-management}
+   + Module {#content-management}
       + [A propos de la gestion de contenu](delivery/using/about-content-management.md)
       + [Ressources et principes de la gestion de contenu](delivery/using/content-manager-resources-and-principles.md)
       + [Cas pratique : utiliser la gestion de contenu](delivery/using/use-case--creating-content-management.md)
@@ -173,10 +173,10 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Accès aux campagnes marketing](campaign/using/accessing-marketing-campaigns.md)
    + Orchestration des campagnes {#orchestrate-campaigns}
       + [Configuration des campagnes marketing](campaign/using/setting-up-marketing-campaigns.md)
-      + [Modèles de campagne marketing](campaign/using/marketing-campaign-templates.md)
-      + [Livraisons de campagnes marketing](campaign/using/marketing-campaign-deliveries.md)
-      + [Approbation de campagne marketing](campaign/using/marketing-campaign-approval.md)
-      + [Surveillance des campagnes marketing](campaign/using/marketing-campaign-monitoring.md)
+      + [du marketing](campaign/using/marketing-campaign-templates.md)
+      + [de Campaign marketing](campaign/using/marketing-campaign-deliveries.md)
+      + [Approbation de Campaign marketing](campaign/using/marketing-campaign-approval.md)
+      + [Surveillance des Campaign marketing](campaign/using/marketing-campaign-monitoring.md)
       + [Prestataires, stocks et budgets](campaign/using/providers--stocks-and-budgets.md)
    + Tâches, ressources et budgets {#tasks--resources-and-budgets}
       + [A propos de la gestion des ressources marketing](campaign/using/about-marketing-resource-management.md)
@@ -208,13 +208,13 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Suivi des hypothèses](campaign/using/hypothesis-tracking.md)
 + Reporting {#reporting}
    + Reporting dans Adobe Campaign {#reporting-in-adobe-campaign}
-      + [Commencer à créer des rapports](reporting/using/about-adobe-campaign-reporting-tools.md)
-      + [Meilleures pratiques pour la création de rapports](reporting/using/best-practices.md)
+      + [Commencer avec les](reporting/using/about-adobe-campaign-reporting-tools.md)
+      + [Meilleures pratiques pour les](reporting/using/best-practices.md)
    + Accès aux rapports natifs {#accessing-built-in-reports}
       + [A propos des rapports natifs de Campaign](reporting/using/about-campaign-built-in-reports.md)
       + [Liste des rapports](reporting/using/list-of-reports.md)
    + Rapports sur les diffusions{#reports-on-deliveries}
-      + [A propos des rapports sur les livraisons](reporting/using/reports-on-deliveries.md)
+      + [A propos des rapports sur les](reporting/using/reports-on-deliveries.md)
       + [Rapports globaux](reporting/using/global-reports.md)
       + [Rapports sur les diffusions](reporting/using/delivery-reports.md)
       + [Rapports cumulés](reporting/using/cumulative-reports.md)
@@ -313,7 +313,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes liés à ACS Connector](integrations/using/troubleshooting-the-acs-connector.md)
-+ Automatisation avec les processus {#automating-with-workflows}
++ Automatisation avec  de {#automating-with-workflows}
    + Introduction {#introduction}
       + [A propos des workflows](workflow/using/about-workflows.md)
       + [A propos des activités](workflow/using/about-activities.md)
@@ -346,7 +346,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Mise à jour de données](workflow/using/update-data.md)
       + [Connecteur CRM](workflow/using/crm-connector.md)
    + Activités de contrôle de flux {#flow-control-activities}
-      + [A propos des activités de contrôle du flux](workflow/using/about-flow-control-activities.md)
+      + [A propos du contrôle](workflow/using/about-flow-control-activities.md)
       + [Début et Fin](workflow/using/start-and-end.md)
       + [Branchement](workflow/using/fork.md)
       + [Rendez-vous](workflow/using/and-join.md)
@@ -372,13 +372,13 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Chargement (SOAP)](workflow/using/loading--soap-.md)
       + [Chargement (fichier)](workflow/using/data-loading--file-.md)
       + [Gestion de contenu](workflow/using/content-management.md)
-      + [Extraction de données (fichier)](workflow/using/extraction--file-.md)
+      + [de données  (fichier)](workflow/using/extraction--file-.md)
       + [Code SQL et code JavaScript](workflow/using/sql-code-and-javascript-code.md)
       + [Gestion des données SQL](workflow/using/sql-data-management.md)
       + [Module nlserver](workflow/using/nlserver-module.md)
       + [Mise à jour d&#39;agrégat](workflow/using/update-aggregate.md)
    + Activités événementielles {#event-activities}
-      + [A propos des activités d’événement](workflow/using/about-event-activities.md)
+      + [À propos  ](workflow/using/about-event-activities.md)
       + [Collecteur de fichiers](workflow/using/file-collector.md)
       + [Envoi de fichier](workflow/using/file-transfer.md)
       + [Téléchargement Web](workflow/using/web-download.md)
@@ -402,17 +402,17 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
          + [Réaliser un calcul d&#39;agrégats](workflow/using/performing-aggregate-computing.md)
          + [Requête avec gestion des regroupements](workflow/using/querying-using-grouping-management.md)
          + [Interrogation à l’aide d’une relation de type &quot;plusieurs à plusieurs&quot;](workflow/using/querying-using-many-to-many-relationship.md)
-         + [Ajout d’un champ calculé de type d’énumération](workflow/using/adding-enumeration-type-calculated-field.md)
+         + [Ajout d’un champ calculé de type  de](workflow/using/adding-enumeration-type-calculated-field.md)
          + [Création d&#39;un filtre](workflow/using/creating-a-filter.md)
          + [Filtrer les destinataires en double](workflow/using/filtering-duplicated-recipients.md)
       + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
       + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-   + Processus de surveillance {#monitoring-workflows}
+   +  de surveillance {#monitoring-workflows}
       + [Surveiller l&#39;exécution des workflows](workflow/using/monitoring-workflow-execution.md)
       + [Surveiller les workflows techniques](workflow/using/monitoring-technical-workflows.md)
       + [Carte thermique des workflows](workflow/using/heatmap.md)
    + Gestion avancée {#advanced-management}
-      + [Propriétés d&#39;exécution ](workflow/using/workflow-properties.md)
+      + [Propriétés d&#39;exécution  ](workflow/using/workflow-properties.md)
       + [Paramètres avancés](workflow/using/advanced-parameters.md)
       + [Scripts/Templates JavaScript](workflow/using/javascript-scripts-and-templates.md)
       + [Accéder à une base externe (FDA)](workflow/using/accessing-an-external-database--fda-.md)
@@ -440,7 +440,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Règlement sur la protection des informations personnelles](workflow/using/general-data-protection-regulation--gdpr-.md)
       + [Emission vers Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
       + [Plate-forme de Mid-sourcing](workflow/using/mid-sourcing-platform.md)
-+ Gestion des offres {#managing-offers}
++ Gestion   des {#managing-offers}
    + Présentation d&#39;Interaction {#interaction-overview}
       + [Interaction et la gestion des offres](interaction/using/interaction-and-offer-management.md)
       + [Glossaire](interaction/using/glossary.md)
@@ -525,7 +525,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
    + Utilisation :{#use-case}
       + [Objectif](message-center/using/purpose.md)
-      + [Remarques importantes  ](message-center/using/important-notes.md)
+      + [Remarques importantes   ](message-center/using/important-notes.md)
       + [Mise en oeuvre](message-center/using/implementation.md)
 + Intégration aux médias sociaux {#integrating-with-social-media}
    + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
@@ -541,7 +541,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
    + Annexes {#annexes}
       + [Exemples d&#39;apps Facebook](social/using/examples-of-facebook-apps.md)
       + [Effectuer un tracking](social/using/tracking.md)
-+ Installation de Campaign Classic {#installing-campaign-classic}
++ Installation Campaign Classic {#installing-campaign-classic}
    + Architecture et modèles d&#39;hébergement {#architecture-and-hosting-models}
       + [Avant de lire](installation/using/before-reading.md)
       + [Architecture générale](installation/using/general-architecture.md)
@@ -564,13 +564,13 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Déploiement Mid-sourcing](installation/using/mid-sourcing-deployment.md)
       + [Power Booster et Power Cluster](installation/using/power-booster-and-power-cluster.md)
    + Installation de Campaign sous Windows  {#installing-campaign-in-windows-}
-      + [Conditions préalables à l&#39;installation de Campaign sous Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+      + [Conditions préalables à l’installation Campaign sous Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [Installation du serveur](installation/using/installing-the-server.md)
       + [Intégration à un serveur Web pour Windows](installation/using/integration-into-a-web-server-for-windows.md)
       + [Disponibilité de la console client pour Windows](installation/using/client-console-availability-for-windows.md)
       + [Installation de la console](installation/using/installing-the-client-console.md)
    + Installer Campaign dans Linux  {#installing-campaign-in-linux-}
-      + [Conditions préalables à l&#39;installation de Campaign sous Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+      + [Conditions préalables à l&#39;installation Campaign sous Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Installation de packs avec Linux](installation/using/installing-packages-with-linux.md)
       + [Intégration à un serveur Web pour Linux](installation/using/integration-into-a-web-server-for-linux.md)
       + [Disponibilité de la console client pour Linux](installation/using/client-console-availability-for-linux.md)
@@ -578,9 +578,9 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [A propos de la configuration initiale](installation/using/about-initial-configuration.md)
       + [Création et connexion à une instance](installation/using/creating-an-instance-and-logging-on.md)
       + [Création et paramétrage de la base de données](installation/using/creating-and-configuring-the-database.md)
-      + [Configuration du serveur de campagne](installation/using/campaign-server-configuration.md)
+      + [Configuration du serveur Campaign](installation/using/campaign-server-configuration.md)
       + [Déploiement d&#39;une instance](installation/using/deploying-an-instance.md)
-      + [Installation des packs standard Campaign Classic](installation/using/installing-campaign-standard-packages.md)
+      + [Installation Campaign Classic packs standard](installation/using/installing-campaign-standard-packages.md)
    + Paramétrages additionnels {#additional-configurations}
       + [Configuration du serveur Campaign](installation/using/configuring-campaign-server.md)
       + [Connexion par LDAP](installation/using/connecting-through-ldap.md)
@@ -594,9 +594,9 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Le fichier de configuration du serveur](installation/using/the-server-configuration-file.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création de nouvelles instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign Classic](installation/using/configuring-campaign-options.md)
+      + [des options Campaign Classic](installation/using/configuring-campaign-options.md)
       + [Désinstaller Campaign](installation/using/uninstalling-campaign.md)
-+ Surveillance de campagne classique {#monitoring-campaign-classic}
++ Campaign Classic de surveillance {#monitoring-campaign-classic}
    + Introduction {#introduction}
       + [Avant-propos](production/using/foreword.md)
       + [Architecture générale](production/using/general-architecture.md)
@@ -642,20 +642,20 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Mise à jour de la console](production/using/console-update.md)
       + [Perte de mot de passe](production/using/lost-password.md)
       + [Comportement des JSP](production/using/jsp-behavior.md)
-+ Configuration de Campaign Classic {#configuring-campaign-classic}
++ Configuration des Campaign Classic {#configuring-campaign-classic}
    + Modèle de données {#data-model}
       + [À propos du modèle de données](configuration/using/about-data-model.md)
-      + [Utilisation du tableau Destinataire par défaut](configuration/using/default-recipient-table.md)
+      + [Utilisation du tableau de par défaut](configuration/using/default-recipient-table.md)
       + [Extension du modèle de données](configuration/using/extending-data-model.md)
-      + [Utilisation d’un tableau de destinataires personnalisé](configuration/using/custom-recipient-table.md)
+      + [Utilisation d’un tableau de personnalisé](configuration/using/custom-recipient-table.md)
       + [Bonnes pratiques](configuration/using/data-model-best-practices.md)
    + Référence des schémas (xtk:srcSchema){#schema-reference}
-      + [A propos de la référence de schéma](configuration/using/about-schema-reference.md)
+      + [A propos de la référence](configuration/using/about-schema-reference.md)
       + [Structure d&#39;un schéma](configuration/using/schema-structure.md)
       + [Mapping de la base de données](configuration/using/database-mapping.md)
       + [Eléments et attributs](configuration/using/elements-and-attributes.md)
    + Edition des schémas {#editing-schemas}
-      + [A propos de l’édition de schéma](configuration/using/about-schema-edition.md)
+      + [A propos de l&#39;édition](configuration/using/about-schema-edition.md)
       + [Schémas de données](configuration/using/data-schemas.md)
       + [Schéma d&#39;une table existante](configuration/using/schema-of-an-existing-table.md)
       + [Extension d&#39;un schéma](configuration/using/extending-a-schema.md)
@@ -663,9 +663,9 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Limitation de l&#39;affichage des PII](configuration/using/restricting-pii-view.md)
       + [Mettre à jour la structure de la base de données](configuration/using/updating-the-database-structure.md)
       + [Assistant d&#39;ajout de champs](configuration/using/new-field-wizard.md)
-      + [Structure d’un schéma de données](configuration/using/structure-of-a-data-schema.md)
+      + [Structure d’un de données](configuration/using/structure-of-a-data-schema.md)
       + [Régénération des schémas](configuration/using/regenerating-schemas.md)
-      + [Exemples d&#39;édition de schémas](configuration/using/examples-of-schemas-edition.md)
+      + [Exemples d’ d’édition](configuration/using/examples-of-schemas-edition.md)
    + Formulaires de saisie {#input-forms}
       + [Identification d&#39;un formulaire](configuration/using/identifying-a-form.md)
       + [Editer les formulaires](configuration/using/editing-forms.md)
@@ -683,8 +683,8 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Configuration](configuration/using/configuration.md)
       + [Edition](configuration/using/edition.md)
    + Utilisation d&#39;une table de destinataires par défaut {#use-a-custom-recipient-table}
-      + [A propos du tableau des destinataires personnalisés](configuration/using/about-custom-recipient-table.md)
-      + [Caractéristiques du schéma](configuration/using/schema-characteristics.md)
+      + [A propos du tableau de personnalisé](configuration/using/about-custom-recipient-table.md)
+      + [Caractéristiques](configuration/using/schema-characteristics.md)
       + [Target mapping](configuration/using/target-mapping.md)
       + [Configuration de l&#39;interface](configuration/using/configuring-the-interface.md)
       + [Adresses de contrôle](configuration/using/seed-addresses.md)
@@ -712,9 +712,9 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Tester la migration](migration/using/testing-the-migration.md)
       + [Configurer votre plateforme](migration/using/configuring-your-platform.md)
    + Migration vers Adobe Campaign 7 {#migrating-to-adobe-campaign-7}
-      + [Conditions préalables à la migration vers Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-      + [Migration dans Windows pour Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [Migration sous Linux pour Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+      + [Conditions préalables à la migration vers  Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
+      + [Migration sous Windows pour  Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+      + [Migration sous Linux pour  Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + Configuration {#configuration}
       + [Paramétrages généraux](migration/using/general-configurations.md)
       + [Paramétrages spécifiques v5.11](migration/using/specific-configurations-in-v5-11.md)
