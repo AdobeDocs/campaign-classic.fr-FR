@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2758b5e81d1720a4f01a610e51c4a33995d88d1
+source-git-commit: ae44e38e9d05478e8ebfacb1e063cdfd5d7ff30c
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: d2758b5e81d1720a4f01a610e51c4a33995d88d1
 
 Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations sur une base externe via FDA, ce dernier doit disposer d&#39;un droit nommé spécifique dans Adobe Campaign.
 
-1. Sélectionnez le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;explorateur Adobe Campaign.
+1. Sélectionnez le **[!UICONTROL Administration > Access Management > Named Rights]** noeud dans l’explorateur de Adobe Campaign .
 1. Créez un nouveau droit en indiquant le libellé de votre choix.
-1. Le champ **[!UICONTROL Nom]** doit être de la forme suivante : **user:base@server**, où :
+1. The **[!UICONTROL Name]** field must take the following format **user:base@server**, where :
 
    * **user** correspond au nom de l&#39;utilisateur sur la base de données externe.
    * **base** correspond au nom de la base de données externe.
@@ -36,7 +36,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
       >
       >La partie **:base** est optionnelle sur Oracle.
 
-1. Enregistrez le droit nommé puis associez-le à l&#39;utilisateur de votre choix à partir du noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur Adobe Campaign.
+1. Save the named right then link it to your chosen user from the **[!UICONTROL Administration > Access Management > Operators]** node of the Adobe Campaign explorer.
 
 Ensuite, pour exploiter les données contenues dans une base externe, l&#39;utilisateur Adobe Campaign doit au minimum avoir les droits en &#39;Ecriture&#39; sur cette base, afin de permettre la création des tables de travail. Ces tables sont automatiquement supprimées par Adobe Campaign.
 
@@ -52,4 +52,4 @@ En règle générale, les droits d&#39;accès suivants sont nécessaires :
 
 >[!NOTE]
 >
->L&#39;administrateur de la base de données doit faire correspondre ces droits avec les droits spécifiques à chaque moteur de base de données. Pour plus d&#39;informations, consultez les [Droits spécifiques par SGBDR](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/technicalResources.html) (document en anglais).
+>L&#39;administrateur de la base de données doit faire correspondre ces droits avec les droits spécifiques à chaque moteur de base de données. Pour plus d&#39;informations, consultez les [Droits spécifiques par SGBDR](https://docs.adobe.com/content/help/en/campaign-classic/using/assets/fda_rdbms_rights.pdf) (document en anglais).
