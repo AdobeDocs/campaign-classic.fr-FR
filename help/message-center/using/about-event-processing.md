@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c2c53041d8a19a491b8ec4da12a8a0ced25cf9a
+source-git-commit: ceb5b2fdcd0dfca28412534ed3417367026f71d0
 
 ---
 
 
 # A propos du traitement des événements{#about-event-processing}
 
-Dans le cadre d’une messagerie transactionnelle, un événement est généré par un système d’informations externe et envoyé à Adobe Campaign par le biais des méthodes **[!UICONTROL PushEvent]** et **[!UICONTROL PushEvents]** (voir la description [de l’](../../message-center/using/event-description.md)événement). Il contient des données liées à l’événement, telles que son type (confirmation de commande ou création de compte sur un site Web, par exemple), son adresse électronique ou son numéro de mobile, ainsi que d’autres informations qui vous permettent d’enrichir et de personnaliser le message transactionnel avant sa remise. Il peut s’agir des coordonnées du client, de la langue du message ou du format du courrier électronique.
+Dans le cadre de la messagerie transactionnelle, un est généré par un système d&#39;information externe et est envoyé à   par l&#39;intermédiaire des méthodes **[!UICONTROL PushEvent]** et **[!UICONTROL PushEvents]** (reportez-vous à la description [du](../../message-center/using/event-description.md)du--). Il contient des données liées au  du, telles que son type (confirmation de commande ou création de compte sur un site Web, par exemple), son adresse électronique ou son numéro de téléphone mobile, ainsi que d’autres informations qui vous permettent d’enrichir et de personnaliser le  avant de vous. Il peut s’agir des coordonnées du client, de la langue du message ou du .
 
 Exemple de données d&#39;un événement :
 
@@ -31,20 +31,19 @@ Exemple de données d&#39;un événement :
 Le processus de traitement des événements des messages transactionnels est le suivant :
 
 1. Collecte des événements,
-1. Enrichissement de l&#39;événement avant son acheminement vers un modèle de message (si vous avez acquis l&#39;option d&#39;enrichissement disponible pour le module des messages transactionnels de Campaign),
 1. Acheminement de l&#39;événement vers un modèle de message,
 1. Enrichissement de l&#39;événement avec des données de personnalisation,
 1. Exécution des diffusions,
 1. Recyclage des événements dont la diffusion associée a échoué (cette étape peut être réalisée à l&#39;aide d&#39;un workflow Adobe Campaign).
 
-## Etat des événements {#event-statuses}
+## Etat des {#event-statuses}
 
-L&#39;**historique des événements** (sous **[!UICONTROL Message Center]** > **[!UICONTROL Historique des événements]**), regroupe dans une même vue tous les événements traités. Ils peuvent être catégorisés par type d&#39;événement ou par **statut**. Ces statuts sont les suivants :
+L’historique ****, sous **[!UICONTROL Message Center]** > **[!UICONTROL Event history]** , regroupe tous les traités  en un seul et même . Ils peuvent être classés par  ou par **statut**. Ces états sont les suivants :
 
 * **En attente** : l&#39;événement peut être :
 
-   * un événement qui vient d&#39;être collecté et qui n&#39;a pas encore été traité (la colonne **[!UICONTROL Nombre d&#39;erreurs]** a 0 de valeur). Le modèle d&#39;email n&#39;a pas encore été associé.
-   * un événement traité, mais dont la confirmation présente une erreur. La colonne **[!UICONTROL Nombre d&#39;erreurs]** a une valeur différente de 0. Pour savoir quand cet événement sera traité de nouveau, consultez la colonne **[!UICONTROL Traitement demandé le]**.
+   * un qui vient d&#39;être collecté et qui n&#39;a pas encore été traité. La **[!UICONTROL Number of errors]** colonne affiche la valeur 0. Le modèle de courrier électronique n’a pas encore été lié.
+   * un traité mais dont la confirmation est erronée. La **[!UICONTROL Number of errors]** colonne affiche une valeur qui n’est pas 0. Pour savoir quand ce sera traité à nouveau, consultez la **[!UICONTROL Process requested on]** colonne.
 
 * **En attente de diffusion** : l&#39;événement a été traité et le modèle de diffusion est associé. L&#39;email est en attente de diffusion. Le processus de diffusion classique est appliqué. Pour plus de détails, vous pouvez ouvrir la diffusion en question. Voir [Delivery](../../delivery/using/about-message-tracking.md).
 * **Envoyé**, **Ignoré** et **Erreur de diffusion** : ces statuts de diffusion sont récupérés par le workflow **updateEventsStatus** qui collecte les statuts des diffusions. Pour plus de détails, vous pouvez ouvrir la diffusion concernée.
