@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 >
 >Le MTA donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
-Sur l&#39;instance d&#39;exécution, lorsque les phases d&#39;enrichissement ont été effectuées et qu&#39;un modèle de diffusion a été associé à l&#39;événement, la diffusion est envoyée. Toutes les diffusions sont regroupées dans le dossier **[!UICONTROL Administration > Exploitation > Message Center > Défaut > Diffusions]**.
+Sur le  , une fois l&#39;étape du  terminée et qu&#39;un a été lié à l&#39;, leest envoyé. Tous les  de sont regroupés dans le **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** dossier.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
@@ -38,4 +38,4 @@ Ce classement peut être modifié dans les propriétés du modèle de message co
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, tous les messages transactionnels peuvent également être envoyés avec la MTA améliorée d’Adobe Campaign pour une meilleure délivrabilité, un meilleur débit et une meilleure gestion des retours. Tous les impacts sont identiques aux messages marketing standard et sont détaillés dans le document MTA [amélioré d’](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, toutes les  de peuvent également être envoyées avec la  MTA améliorée afin d’améliorer la délivrabilité, le débit et la gestion des rebonds. Les impacts sont identiques à ceux des messages marketing standard. Ils sont présentés dans le document [Serveur de diffusion MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
