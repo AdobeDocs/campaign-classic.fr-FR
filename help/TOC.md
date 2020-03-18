@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
+source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
 
 ---
 
@@ -645,9 +645,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 + Configuration des Campaign Classic {#configuring-campaign-classic}
    + Modèle de données {#data-model}
       + [À propos du modèle de données](configuration/using/about-data-model.md)
-      + [Utilisation du tableau de par défaut](configuration/using/default-recipient-table.md)
-      + [Extension du modèle de données](configuration/using/extending-data-model.md)
-      + [Utilisation d’un tableau de personnalisé](configuration/using/custom-recipient-table.md)
+      + [Description du modèle de données](configuration/using/data-model-description.md)
       + [Bonnes pratiques](configuration/using/data-model-best-practices.md)
    + Référence des schémas (xtk:srcSchema){#schema-reference}
       + [A propos de la référence](configuration/using/about-schema-reference.md)
