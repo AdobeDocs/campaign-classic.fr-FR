@@ -15,16 +15,16 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c57fb0f2d9867b5ea96185c1984e0b1baeb056a
+source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
 
 
 # Description des événements{#event-description}
 
-## A propos du modèle de données des messages transactionnels {#about-transactional-messaging-datamodel}
+## À propos du modèle de données de messagerie transactionnelle {#about-transactional-messaging-datamodel}
 
-Les messages transactionnels reposent sur le modèle de données Campaign et utilisent deux autres tables distinctes. Ces tables, **NmsRtEvent** et **NmsBatchEvent**, contiennent les mêmes champs qui permettent de gérer respectivement les événements de type temps réel et batch.
+La messagerie transactionnelle repose sur le modèle de données Adobe Campaign  et utilise deux tableaux distincts supplémentaires. Ces [tableaux](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** et **NmsBatchEvent**, contiennent les mêmes champs et vous permettent de gérer les  d’un côté et les  de l’autre.
 
 ## Méthodes SOAP {#soap-methods}
 
@@ -82,7 +82,7 @@ Exemple avec PushEvent :
 
 >[!NOTE]
 >
->En cas d’appel à la méthode **PushEvents** , nous devons ajouter un élément XML parent pour nous conformer au code XML standard. Cet élément XML encadrera les différents **`<rtevent>`** éléments contenus dans l’événement.
+>En cas d’appel à la méthode **PushEvents** , nous devons ajouter un élément XML parent pour nous conformer au code XML standard. Cet élément XML encadrera les différents **`<rtevent>`** éléments contenus dans le  de.
 
 Exemple avec PushEvents :
 
@@ -112,9 +112,9 @@ The **`<rtevent>`** and **`<batchevent>`** elements have a set of attributes as 
 
 >[!NOTE]
 >
->L’ **`<batchevent>`** élément vous permet d’ajouter l’événement à la file d’attente &quot;batch&quot;. L’ **`<rtevent>`** événement est ajouté à la file d’attente en temps réel.
+>L’ **`<batchevent>`** élément vous permet d’ajouter le à la file d’attente &quot;batch&quot;. Le **`<rtevent>`** programme ajoute le  à la file d’attente &quot;en temps réel&quot;.
 
-Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** sont @type et @email. La valeur de @type doit être identique à la valeur de liste détaillée définie lors de la configuration de l’instance d’exécution. Cette valeur vous permet de définir le modèle à lier au contenu de l’événement pendant la diffusion.
+Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** sont @type et @email. La valeur de @type doit être identique à la valeur de  de détaillée définie lors de la configuration de l’ de. Cette valeur vous permet de définir le modèle à lier au contenu du  de pendant la  du.
 
 `<rtevent> configuration example:`
 
@@ -124,7 +124,7 @@ Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** 
 
 Dans cet exemple, deux canaux sont renseignés : l&#39;adresse email et le numéro de téléphone portable. Le champ **wishedChannel** permet de définir le canal qui sera utilisé lors de la transformation de l&#39;évènement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
 
-Si vous souhaitez différer le traitement d&#39;un évènement, ajoutez le champ **[!UICONTROL scheduled]** suivi de la date désirée. L&#39;évènement sera transformé en message à cette date.
+Si vous souhaitez reporter un  de , ajoutez le **[!UICONTROL scheduled]** champ suivi de la date préférée. Le  sera transformé en message à cette date.
 
 Nous vous conseillons de remplir les attributs @wishedChannel et @emailFormat avec des valeurs numériques. La table de correspondance entre les valeurs numériques et les labels associés se trouve dans la description des schémas de données.
 
@@ -132,7 +132,7 @@ Nous vous conseillons de remplir les attributs @wishedChannel et @emailFormat av
 >
 >La description détaillée de tous les attributs autorisés et de leurs valeurs se trouve dans la description du schéma de données de **nms:rtEvent** et **nms:BatchEvent**.
 
-L’ **`<ctx>`** élément contient les données du message. Son contenu XML est ouvert, ce qui signifie qu’il peut être configuré selon le contenu à diffuser.
+L’ **`<ctx>`** élément contient les données du message. Son contenu XML est ouvert, ce qui signifie qu’il peut être configuré en fonction du contenu à diffuser.
 
 >[!NOTE]
 >
