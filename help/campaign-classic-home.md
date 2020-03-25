@@ -1,11 +1,11 @@
 ---
 keywords: Campaign Classic;home;popular topics
-seo-title: Documentation du produit Adobe Campaign Classic
+seo-title: ' Adobe Campaign documentation du produit Classic'
 solution: Campaign Classic
-title: Documentation du produit Adobe Campaign Classic
+title: ' Adobe Campaign documentation du produit Classic'
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
+source-git-commit: d674d8a0cabb72a8a344019de688ad7027cb3e8d
 
 ---
 
@@ -16,15 +16,13 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
 
 ## Nouveautés
 
-* **[Gestion](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>de la confidentialité Découvrez comment Adobe Campaign peut vous aider à respecter vos règles de confidentialité.
+* **[Gestion](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>de la confidentialité Découvrez comment  Adobe Campaign peut vous aider à vous conformer à votre politique de confidentialité.
 
 * **[Guide](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>de suivi Comprendre les fonctionnalités de suivi dans Campaign
 
-* **[Guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>de maintenance Découvrez comment surveiller votre instance et vos processus de campagne
+* **[Guide](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>de maintenance Découvrez comment surveiller votre instance Campaign et vos processus
 
 * **[Contenu interactif avec AMP](delivery/using/defining-interactive-content.md)**<br/>Découvrez comment envoyer des courriers électroniques dynamiques avec le nouveau format[AMP pour les courriels](https://amp.dev/about/email/).
-
-* **[Panneau](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)**<br/>de configurationDécouvrez comment gérer les paramètres et suivre l&#39;utilisation de votre instance de campagne
 
 [Cliquez ici pour plus de mises à jour](/help/rn/using/documentation-updates.md)
 
@@ -42,7 +40,7 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
     </a>
     </div>
     <p>
-    <em>Trouver des réponses aux questions courantes lors de l’utilisation de Campaign Classic</em>
+    <em>Trouver des réponses aux questions les plus courantes lors de l’utilisation des Campaign Classic</em>
     <p>
   </td>
    <td>
@@ -72,15 +70,13 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
 </tr>
 </table>
 
-
 ## Ressources supplémentaires
 
-* [Notes de mise à jour](/help/rn/using/latest-release.md)
-
-* [Vidéos pratiques](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-
-* [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
-
-* [Guide de mise en oeuvre](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
-
-* [Notes techniques](https://helpx.adobe.com/campaign/kb/article-list.html)
+<table>
+<tr>
+  <td valign="top"><strong>Pages</strong>utiles * [Notes de mise à jour](/help/rn/using/latest-release.md) * [Vidéos pratiques](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) * [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) * [Prise en main de Campaign Classic](../../platform/using/about-adobe-campaign-classic.md) * [Mise à niveau vers Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html) * [Fonctions obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) * [Documentation du Panneau de configuration](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+  </td>
+  <td valign="top"><strong>Ressources pour les développeurs</strong>* [des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) * [modèle de données Campaign Classic](../../configuration/using/about-data-model.md) * [documentation JSAPI](../../configuration/using/about-web-services.md) * [Guide de mise en oeuvre](https://helpx.adobe.com/campaign/kb/acc-implementation.html) * [Guide de suivi](https://helpx.adobe.com/campaign/kb/acc-tracking.html) * [Liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html) * [Notes techniques](https://helpx.adobe.com/campaign/kb/article-list.html)
+  </td>
+</tr>
+</table>
