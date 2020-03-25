@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: becdffadaaaa40359b61a6ad786b9fd8ebecc6e9
+source-git-commit: cda7ae757a6de0e8cd6227faa2b731e9f392791b
 
 ---
 
@@ -75,7 +75,7 @@ Les étapes suivantes décrivent le paramétrage du connecteur de données via u
    * Intégrations (Supprimer)
    ![](assets/adobe_genesis_install_002.png)
 
-1. From the list of partners, select **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
+1. From the list of partners, select **[!UICONTROL Adobe Campaign Classic]**.
 
    ![](assets/adobe_genesis_install_014.png)
 
