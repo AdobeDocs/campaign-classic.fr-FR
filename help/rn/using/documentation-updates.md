@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2de7987a0e5089a9023c0cf3b4c6c61a758a5e5f
+source-git-commit: 295dcd0ac302194df5e202ccabb579f006ed5651
 
 ---
 
@@ -32,6 +32,14 @@ La page des meilleures pratiques relatives aux modèles de données a été mise
 
 Une nouvelle section décrivant le modèle de données  Adobe Campaign prédéfinies et l’interaction de tableaux prêts à l’emploi est désormais disponible. [En savoir plus](../../configuration/using/data-model-description.md)
 
+Des ressources supplémentaires ont été ajoutées au  de documentation. [En savoir plus](../../campaign-classic-home.md)
+
+Un exemple d’utilisation a été ajouté sur la manière d’intégrer un   d’Adobe dans un courrier électronique en. [En savoir plus](../../integrations/using/inserting-a-dynamic-image.md)
+
+Une nouvelle section détaillant les différentes langues disponibles dans  Adobe Campaign est maintenant disponible. [En savoir plus](../../platform/using/adobe-campaign-workspace.md#languages)
+
+La page de gestion d&#39;accès a été mise à jour avec plus d&#39;informations sur les  de. [En savoir plus](../../platform/using/access-management.md#named-rights)
+
 ## Février 2020 {#february-2020}
 
 Une nouvelle section présentant les meilleures pratiques et les recommandations clés lors de la conception du modèle de données Adobe Campaign  est maintenant disponible. [En savoir plus](../../configuration/using/data-model-best-practices.md)
@@ -43,8 +51,6 @@ Le  FAQ sur la délivrabilité a été mis à jour avec plus de détails sur le 
 AMP for Email étant désormais pris en charge par trois fournisseurs de messagerie (Gmail, Outlook et Mail.ru), la section décrivant comment définir le contenu interactif avec AMP a été mise à jour. [En savoir plus](../../delivery/using/defining-interactive-content.md)
 
 La section Archivage du courrier électronique a été clarifiée. [En savoir plus](../../installation/using/email-archiving.md#recommendations-and-limitations)
-
-
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
