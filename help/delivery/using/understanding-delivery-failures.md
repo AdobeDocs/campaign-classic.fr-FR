@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
+source-git-commit: 5e34e49d66f5d943951cd5d9a11d45df9af544ba
 
 ---
 
@@ -300,7 +300,7 @@ Les règles par défaut sont les suivantes :
 
    * Vous pouvez choisir d&#39;activer ou non certaines normes d&#39;identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
    * **Relais SMTP** : permet de configurer l&#39;adresse IP et le port d&#39;un serveur relais pour un domaine particulier. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#smtp-relay).
-   Si vos messages sont affichés dans Outlook **[!UICONTROL on behalf of]** avec un nom de domaine différent, assurez-vous de ne pas signer vos courriels avec l&#39;ID **d&#39;** expéditeur, qui est la norme d&#39;authentification de messagerie propriétaire obsolète de Microsoft. Si l’ **[!UICONTROL Sender ID]** option est activée, décochez la case correspondante et contactez l’assistance Adobe Campaign . Votre délivrabilité ne sera pas affectée.
+   Si vos messages sont affichés dans Outlook avec **[!UICONTROL on behalf of]** l&#39;adresse de l&#39;expéditeur, veillez à ne pas signer vos courriels avec l&#39;ID **de l&#39;** expéditeur, qui est la norme d&#39;authentification de messagerie propriétaire obsolète de Microsoft. Si l’ **[!UICONTROL Sender ID]** option est activée, décochez la case correspondante et contactez l’assistance Adobe Campaign . Votre délivrabilité ne sera pas affectée.
 
    >[!NOTE]
    >
