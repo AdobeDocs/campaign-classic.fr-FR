@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: ' Adobe Campaign documentation du produit Classic'
 topic: Premium
 translation-type: tm+mt
-source-git-commit: d674d8a0cabb72a8a344019de688ad7027cb3e8d
+source-git-commit: 234fffd42829a37a705a9472fe23053c8b8ab03d
 
 ---
 
@@ -72,11 +72,12 @@ source-git-commit: d674d8a0cabb72a8a344019de688ad7027cb3e8d
 
 ## Ressources supplémentaires
 
-<table>
-<tr>
-  <td valign="top"><strong>Pages</strong>utiles * [Notes de mise à jour](/help/rn/using/latest-release.md) * [Vidéos pratiques](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) * [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) * [Prise en main de Campaign Classic](../../platform/using/about-adobe-campaign-classic.md) * [Mise à niveau vers Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html) * [Fonctions obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) * [Documentation du Panneau de configuration](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-  </td>
-  <td valign="top"><strong>Ressources pour les développeurs</strong>* [des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) * [modèle de données Campaign Classic](../../configuration/using/about-data-model.md) * [documentation JSAPI](../../configuration/using/about-web-services.md) * [Guide de mise en oeuvre](https://helpx.adobe.com/campaign/kb/acc-implementation.html) * [Guide de suivi](https://helpx.adobe.com/campaign/kb/acc-tracking.html) * [Liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html) * [Notes techniques](https://helpx.adobe.com/campaign/kb/article-list.html)
-  </td>
-</tr>
-</table>
+| Pages utiles | Ressources destinées aux développeurs |
+|---|---|
+| [Notes de mise à jour](/help/rn/using/latest-release.md) | [de messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Vidéos pratiques](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign Classic modèle de données](configuration/using/about-data-model.md) |
+| [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [Documentation JSAPI](configuration/using/about-web-services.md) |
+| [Prise en main de Campaign Classic](platform/using/about-adobe-campaign-classic.md) | [Guide de mise en oeuvre](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
+| [Documentation de la ](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Guide de suivi](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
+| [Fonctions obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [Sécurité et confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html) |
+| [Documentation du Panneau de configuration](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Notes techniques](https://helpx.adobe.com/campaign/kb/article-list.html) |
