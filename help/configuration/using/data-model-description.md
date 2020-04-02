@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 828c95aaa4b1d0d9507129edb164ddf978c363c1
+source-git-commit: 707e16e9e493e175c70af606bf4568a9127cedb2
 
 ---
 
@@ -22,17 +22,17 @@ source-git-commit: 828c95aaa4b1d0d9507129edb164ddf978c363c1
 
 Un modèle de données d&#39;usine est fourni avec Adobe Campaign. Cette section donne quelques détails sur les tableaux intégrés du modèle de données Adobe Campaign  et sur leur interaction.
 
-Pour accéder à la description de chaque tableau, accédez à **[!UICONTROL Admin > Configuration > Data schemas]**, sélectionnez une ressource dans le et cliquez sur l’ **[!UICONTROL Documentation]** onglet.
+To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
 
 ![](assets/data-model_documentation-tab.png)
 
 >[!NOTE]
 >
->La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur  Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
+>La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
 ## Description des tableaux principaux {#description-main-tables}
 
- Adobe Campaign s&#39;appuie sur une base de données relationnelle contenant des tables qui sont reliées entre elles.
+Adobe Campaign repose sur une base de données relationnelle contenant des tables liées entre elles.
 
 Le diagramme suivant montre les jointures entre les principaux tableaux d&#39;activité du modèle de données Adobe Campaign  et les champs principaux de chacun.
 
@@ -40,7 +40,7 @@ Le diagramme suivant montre les jointures entre les principaux tableaux d&#39;ac
 
 ![](assets/data-model_simplified-diagram.png)
 
-Le modèle de données  prédéfini Adobe Campaign comprend les tableaux principaux suivants.
+Le modèle de données  prédéfini Adobe Campaign comprend les principaux tableaux répertoriés ci-dessous.
 
 ### NmsRecipient {#NmsRecipient}
 
@@ -54,17 +54,17 @@ Il s’agit du tableau par défaut utilisé pour les **de**. Par conséquent, il
 * sPhone, sMobilePhone, sFax contiennent respectivement les numéros de téléphone, de téléphone mobile et de fax.
 * iBlackList est l’indicateur d’exclusion par défaut utilisé pour le  du (1 signifie &quot;désabonnement&quot;, 0 dans le cas contraire).
 
-Le champ iFolderId est la clé étrangère qui lie le à son dossier d’exécution. For more on this, see [XtkFolder](#XtkFolder).
+Le champ iFolderId est la clé étrangère qui lie le à son dossier d’exécution. Pour plus d’informations, voir [XtkFolder](#XtkFolder).
 
 Le champ sCountryCode correspond au code ISO 3166-1 Alpha 2 (2 caractères) du pays associé au. Ce champ est en fait une clé étrangère sur la table de référence du pays (NmsCountry), qui contient les étiquettes du pays et d&#39;autres données de code du pays. Si le pays n’est pas renseigné, la valeur XX est stockée (et utilisée à la place d’un enregistrement d’ID nul).
 
-Pour plus d’informations sur le tableau du, reportez-vous à cette [section](../../configuration/using/about-data-model.md#default-recipient-table).
+Pour plus d’informations sur la table des destinataires, voir cette [section](../../configuration/using/about-data-model.md#default-recipient-table).
 
 ### NmsGroup {#NmsGroup}
 
 Ce tableau correspond au  **nms:group** .
 
-Il vous permet de créer des groupes **statistiques de**. Il existe une relation de type &quot;plusieurs à plusieurs&quot; entre et groupes. Par exemple, un peut appartenir à plusieurs groupes et un groupe peut contenir plusieurs. Les groupes peuvent être créés manuellement, par le biais d’une importation ou d’un ciblage de . Les groupes sont souvent utilisés comme  . Il existe un index unique sur le champ représentant le nom interne du groupe sName. Le groupe est lié à un dossier (la clé est iFolderId. For more on this, see [XtkFolder](#XtkFolder)).
+Il vous permet de créer des groupes **statistiques de**. Il existe une relation de type &quot;plusieurs à plusieurs&quot; entre et groupes. Par exemple, un peut appartenir à plusieurs groupes et un groupe peut contenir plusieurs. Les groupes peuvent être créés manuellement, par le biais d’une importation ou d’un ciblage de . Les groupes sont souvent utilisés comme  . Il existe un index unique sur le champ représentant le nom interne du groupe sName. Le groupe est lié à un dossier (la clé est iFolderId. Pour plus d’informations, voir [XtkFolder](#XtkFolder)).
 
 ### NmsRcpGrpRel {#NmsRcpGrpRel}
 
@@ -76,7 +76,7 @@ Ce tableau correspond au  **nms:service** .
 
 Les services sont des entités qui sont similaires aux groupes (groupes de statiques), sauf qu&#39;ils diffusent plus d&#39;informations et permettent une gestion facile des  de  et de de l&#39;par le biais de formulaires.
 
-Il existe un index unique sur le champ représentant le nom interne du service sName. Le service est lié à un dossier (la clé est iFolderId. For more on this, see [XtkFolder](#XtkFolder)). Enfin, le champ iType spécifie le  de ce service (0 pour le courrier électronique, 1 pour le SMS, 2 pour le téléphone, 3 pour le courrier direct et 4 pour le fax).
+Il existe un index unique sur le champ représentant le nom interne du service sName. Le service est lié à un dossier (la clé est iFolderId. Pour plus d’informations, voir [XtkFolder](#XtkFolder)). Enfin, le champ iType spécifie le  de ce service (0 pour le courrier électronique, 1 pour le SMS, 2 pour le téléphone, 3 pour le courrier direct et 4 pour le fax).
 
 ### NmsSubscription {#NmsSubscription}
 
@@ -94,9 +94,9 @@ Si les  de  sont gérées à l’aide de formulaires Web ou de l’interface de 
 
 Ce tableau correspond au **** nms:.
 
-Chaque enregistrement de ce tableau représente une action **** ou un ****. Il contient tous les paramètres nécessaires à l’exécution des  de (le , le contenu, etc.). Les journaux de  (diffusion) (NmsBroadLog) et les URL de suivi associées (NmsTrackingUrl) sont créés au cours de la phase  de l&#39; de l&#39;(voir ci-dessous pour plus de détails sur ces deux tableaux).
+Each record in this table represents a **delivery action** or a **delivery template**. Il contient tous les paramètres nécessaires à l’exécution des  de (le , le contenu, etc.). Les journaux de  (diffusion) (NmsBroadLog) et les URL de suivi associées (NmsTrackingUrl) sont créés au cours de la phase  de l&#39; de l&#39;(voir ci-dessous pour plus de détails sur ces deux tableaux).
 
-Il existe un index unique sur le champ représentant le nom interne du ou du scénario sInternalName. Le est lié à un dossier d’exécution (la clé étrangère est iFolderProcessId. For more on this, see [XtkFolder](#XtkFolder)).
+Il existe un index unique sur le champ représentant le nom interne du ou du scénario sInternalName. Le est lié à un dossier d’exécution (la clé étrangère est iFolderProcessId. Pour plus d’informations, voir [XtkFolder](#XtkFolder)).
 
 ### XtkFolder {#XtkFolder}
 
@@ -108,11 +108,15 @@ L’arborescence est gérée par les champs iParentId et iChildCount. Le champ s
 
 ##  et suivi des {#delivery-and-tracking}
 
+Cet ensemble de tableaux est lié au module **** , qui permet de surveiller les  de et les éventuels problèmes rencontrés lors de l&#39;envoi des messages. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md). Pour plus d’informations sur le suivi, voir [Suivi des messages](../../delivery/using/about-message-tracking.md).
+
 ![](assets/data-model_delivery.png)
 
 **NmsBroadLogMsg**: Ce tableau correspond au  **nms:broadLogMsg** . Il s’agit d’une extension de la table du journal des  du.
 
 ## Gestion de campagne {#campaign-management}
+
+Cet ensemble de tableaux est lié au module Campagnes **** marketing, qui permet de définir, d’optimiser, d’exécuter et d’analyser les campagnes de communication et de marketing. For more on this, see [About marketing campaigns](../../campaign/using/designing-marketing-campaigns.md).
 
 ![](assets/data-model_campaign.png)
 
@@ -128,6 +132,8 @@ L’arborescence est gérée par les champs iParentId et iChildCount. Le champ s
 
 ## Cohérence des communications {#communication-consistency}
 
+Cet ensemble de tableaux est lié au module **Campaign Optimization** , qui permet de contrôler, filtrer et surveiller l&#39;envoi des  de. For more on this, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
+
 ![](assets/data-model_typology.png)
 
 * **NmsTypologyRule**: Ce tableau correspond au  **nms:typologyRule** . Il contient les règles qui s&#39;appliquent aux selon les typologies.
@@ -137,6 +143,8 @@ L’arborescence est gérée par les champs iParentId et iChildCount. Le champ s
 * **NmsVolumeConsumed**: Ce tableau correspond au  **nms:volumeConsumed** . Il contient toutes les lignes de consommation des règles de capacité.
 
 ## Gestion des réponses {#response-management}
+
+Cet ensemble de tableaux est lié au module **** , ce qui permet de mesurer le succès et la rentabilité des campagnes marketing ou des  de pour tous les de communication. For more on this, see [About response manager](../../campaign/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 
@@ -196,6 +204,8 @@ Il contient un enregistrement qui représente la réaction d&#39;un individu à 
 
 ##  et {#simulation-and-delivery}
 
+Cet ensemble de tableaux est lié au module **** , qui permet de tester la distribution de  appartenant à un ou à un d&#39;un avant d&#39;envoyer votre proposition aux. For more on this, see [About offers simulation](../../interaction/using/about-offers-simulation.md).
+
 ![](assets/data-model_simulation.png)
 
 * **NmsSimulation**: Ce tableau correspond au **** nms:. Il représente un  pour un ensemble de  ou desur une population donnée.
@@ -203,6 +213,8 @@ Il contient un enregistrement qui représente la réaction d&#39;un individu à 
 * **NmsOfferSimulationRel**: Ce tableau correspond au  **nms:offerSimulationRel** . Il vous permet de lier un  à un  de.
 
 ## Module Interaction {#interaction-module}
+
+Cet ensemble de tableaux est lié au module **Interaction** , qui permet de répondre en temps réel lors d&#39;une interaction avec un contact donné en les faisant un seul ou plusieurs   adaptés. Pour plus d’informations sur ce sujet, voir [Interaction et  gestion des](../../interaction/using/interaction-and-offer-management.md) de.
 
 * **NmsOffer**: Ce tableau correspond au **** nms: . Il contient la définition de chaque  de  marketing.
 * **NmsPropositionRcp**: Ce tableau correspond au  **nms:propositionRcp** . Il contient le journal  croisé des propositions marketing envoyées à chaque individu. Le dossier est créé lorsqu&#39;une proposition est préparée ou présentée efficacement à une personne.
@@ -213,6 +225,8 @@ Il contient un enregistrement qui représente la réaction d&#39;un individu à 
 * **NmsOfferEnv**: Ce tableau correspond à **nms:offerEnv**. Il contient le    .
 
 ## Module Centre de messages {#message-center-module}
+
+L&#39;ensemble de tableaux suivant est lié au module de messagerie **** transactionnelle (Centre de messages), qui permet de gérer les communications individuelles et uniques envoyées à un utilisateur et générées à partir de  de déclenchées à partir de systèmes d&#39;information. For more on this, see [About transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
 ### NmsRtEvent {#NmsRtEvent}
 
@@ -226,15 +240,19 @@ Ce tableau correspond au  **nms:rtEvent** . Il contient une définition de .
 
 Ce tableau correspond au  **nms:batchEvent** . Il contient la définition de la  par lot.
 
-## Module Microsites {#microsites-module}
+<!--## Microsites Module {#microsites-module}
+
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
 
 ![](assets/data-model_microsites.png)
 
-* **NmsTrackingUrl**: Ce tableau correspond au  **nms:trackingUrl** .
+* **NmsTrackingUrl**: This table matches the **nms:trackingUrl** schema.
 
-* **NmsPurl**: Ce tableau correspond au  **nms:purl** .
+* **NmsPurl**: This table matches the **nms:purl** schema.-->
 
 ## Module NMAC {#nmac-module}
+
+Cet ensemble de tableaux est lié au **d’applications** mobiles, qui permet d’envoyer des notifications personnalisées aux terminaux iOS et Android par le biais d’applications. Pour plus d’informations, reportez-vous à la page [A propos des](../../delivery/using/about-mobile-app-channel.md)d’applications mobiles.
 
 * **NmsMobileApp**: Ce tableau correspond au  **nms:mobileApp** . Il contient les applications mobiles définies dans  Adobe Campaign.
 * **NmsAppSubscription**: Ce tableau correspond au  **nms:appSubscription** . Il contient les informations sur les abonnés concernant une ou plusieurs applications.
@@ -244,6 +262,8 @@ Ce tableau correspond au  **nms:batchEvent** . Il contient la définition de la 
 * **NmsLargeLogAppSubRcp**: Ce tableau correspond au  **nms:broadLogAppSubRcp** .
 
 ## Module Marketing social {#social-marketing-module}
+
+Cet ensemble de tableaux est lié au module **Gestion des réseaux** sociaux, qui permet d’interagir avec les clients et les via Facebook et Twitter. For more on this, see [About social marketing](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
