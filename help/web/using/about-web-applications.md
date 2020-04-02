@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+source-git-commit: 61c7681535dc08e1d705d7d239e96c603bbad339
 
 ---
 
@@ -34,27 +34,27 @@ Ce chapitre présente la gestion des applications web.
 >
 >Pour des raisons de confidentialité, nous vous recommandons d&#39;utiliser HTTPS pour toutes les ressources externes.
 
-## Champ d&#39;application Web {#web-application-scope}
+## Portée des applications web {#web-application-scope}
 
-Les applications Web d’Adobe Campaign donnent accès aux fonctionnalités suivantes :
+Sous Adobe Campaign, les applications web permettent d&#39;accéder aux fonctionnalités suivantes :
 
-* Création de formulaires multi-pages,
-* Gestion de formulaires multilingues, avec un outil de traduction intégré,
-* Interface graphique de gestion des pages, mise en page en multi-colonnes,
-* Personnalisation du rendu et du positionnement des champs,
-* Affichage conditionnel des champs du formulaire en fonction des réponses,
-* Affichage aléatoire de questions,
-* Conditionnement de l&#39;affichage des pages,
-* Vérification des informations avant validation, en fonction du type de données attendu (nombre, adresse email, date, etc.) et des champs obligatoires,
-* Invitations/Notification par email,
-* Personnalisation des messages d&#39;erreur et de fin,
-* Ajout d&#39;images, vidéos, liens hypertextes, captcha, etc.
-* Suivi des réponses en temps réel.
+* Création de formulaires multi-pages. Voir à ce propos [cette page](../../web/using/about-web-forms.md).
+* Gestion de formulaires multilingues, avec un outil de traduction intégré. Voir à ce propos [cette page](../../web/using/translating-a-web-application.md).
+* Interface graphique de gestion des pages, mise en page en multi-colonnes. Voir à ce propos [cette page](../../web/using/designing-a-web-application.md).
+* Personnalisation du rendu et du positionnement des champs. Voir à ce propos [cette page](../../web/using/editing-content.md#adding-personalization-content).
+* Affichage conditionnel des champs du formulaire en fonction des réponses. Voir à ce propos [cette page](../../web/using/form-rendering.md#defining-fields-conditional-display).
+* Affichage aléatoire de questions. Voir à ce propos [cette page](../../web/using/building-a-survey.md#adding-questions).
+* Conditionnement de l&#39;affichage des pages. Voir à ce propos [cette page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+* Vérification des informations avant validation, en fonction du type de données attendu (nombre, adresse email, date, etc.) et des champs obligatoires. Voir à ce propos [cette page](../../web/using/form-rendering.md#defining-control-settings).
+* Invitations/Notification par email. Voir à ce propos [cette page](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
+* Personnalisation des messages d&#39;erreur et de fin. Voir à ce propos [cette page](../../web/using/defining-web-forms-properties.md#setting-up-an-error-page).
+* Ajout d&#39;images, vidéos, liens hypertextes, captcha, etc. Voir à ce propos [cette page](../../web/using/editing-content.md).
+* Suivi des réponses en temps réel. Voir à ce propos [cette page](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
 
-The optional **Survey** creation module offers the following additional functionalities:
+Le module de création **Questionnaire** optionnel offre les fonctionnalités additionnelles suivantes :
 
-* Extension dynamique de la base de données : création de réponses ne faisant pas partie du modèle de données initial,
-* Génération de rapports dédiés.
+* Extension dynamique de la base de données : création de réponses ne faisant pas partie du modèle de données initial. Voir à ce propos [cette page](../../web/using/managing-answers.md#storing-collected-answers).
+* Génération de rapports dédiés. Voir à ce propos [cette page](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 Par rapport aux applications Web, les questionnaires proposent une interface graphique allégée : le nombre de contrôles d&#39;édition est réduit.
 
@@ -64,7 +64,7 @@ Par rapport aux applications Web, les questionnaires proposent une interface gra
 >
 >Les fonctionnalités générales des formulaires web sous Adobe Campaign sont présentées dans [cette section](../../web/using/about-web-forms.md).
 
-## Implémentation d’applications Web {#web-application-implementation}
+## Implémentation d’applications web {#web-application-implementation}
 
 Pour créer et rendre disponible une application web, vous devez :
 
@@ -75,14 +75,14 @@ Pour créer et rendre disponible une application web, vous devez :
 1. Ajouter, au besoin, des étapes de préchargement, de test, d&#39;enregistrement et paramétrer le contrôle d&#39;accès (principalement dans le cadre d&#39;une publication sur un extranet).
 1. Publier l&#39;application web pour la rendre disponible sur un extranet ou dans Adobe Campaign.
 
-## Configuration initiale de l&#39;application Web {#web-application-initial-configuration}
+## Configuration initiale des applications web {#web-application-initial-configuration}
 
-Web application are created via the **[!UICONTROL Web Applications]** link in the **[!UICONTROL Campaigns]** and **[!UICONTROL Profiles and targets]** tabs.
+  sont créées via le **[!UICONTROL Web Applications]** lien dans les onglets **[!UICONTROL Campaigns]** et **[!UICONTROL Profiles and targets]** .
 
-Les applications web sont stockées dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence Adobe Campaign. Les paramétrages sont répartis dans les dossiers suivants :
+  sont stockées dans le **[!UICONTROL Resources > Online > Web Applications]** noeud de l&#39;arborescence du . Les configurations sont ventilées dans les dossiers suivants :
 
-* **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires web (applications et questionnaires). Le modèle permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille peut être surchargée au niveau du modèle. Voir à ce sujet [cette page](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
-* **[!UICONTROL Ressources > Modèles > Modèles d&#39;application web]** : contient des modèles de formulaires. Pour créer un formulaire ou une application web, vous devez utiliser un modèle.
+* **[!UICONTROL Administration > Configuration > Form renderings]**: contient les modèles de rendu pour la présentation du formulaire Web (applications et). Le modèle vous permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille de style peut être surchargée au niveau du modèle. Voir à ce propos [cette page](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Resources > Templates > Web application templates]**: contient des modèles de formulaire. Pour créer un formulaire ou un  , vous devez vous à partir d’un modèle.
 
 ## Modèles d&#39;applications web {#web-application-templates}
 
@@ -90,9 +90,9 @@ Par défaut, Adobe Campaign fournit un modèle par type d&#39;application web di
 
 >[!NOTE]
 >
->Vous pouvez transformer une application Web existante en modèle. Pour cela, sélectionnez le formulaire concerné et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
+>You can convert an existing Web application into a template. To do this, select the form and right-click. Select **[!UICONTROL Actions > Save as template...]**.
 
-Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications web]** de l&#39;arborescence Adobe Campaign.
+Vous pouvez créer de nouveaux modèles via le **[!UICONTROL Resources > Templates > Web Application templates]** noeud de l’arborescence  Adobe Campaign.
 
 L&#39;assistant de création vous permet de sélectionner les options à activer, comme dans l&#39;exemple ci-dessous.
 
