@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f5217fb45d2ffcb73ad4ec7d32ba6bd7ddbc15
+source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
 
 ---
 
@@ -74,13 +74,7 @@ _13 août 2019_
 
 ## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 3 **avril 2020**: nouvelle version (9032-...e8b36257e) qui comprend le correctif suivant :
-
-* Nous introduisons un mécanisme de signature pour le suivi des liens dans les courriels afin d’éviter toute utilisation malveillante potentielle (hameçonnage). Cela permet d’éviter la réécriture des paramètres de suivi qui peuvent inclure une URL utilisée pour rediriger l’utilisateur. Ce mécanisme est actuellement désactivé par défaut. Contactez le service à la clientèle si vous devez l’activer.
-
-* Une protection de sécurité complémentaire a été ajoutée pour empêcher la redirection des URL mal formées générées à partir des versions précédentes ou lorsque le mécanisme de signature est désactivé. Contactez le service à la clientèle si vous devez l’utiliser.
-
-![](assets/orange_2.png) 5 **mars 2020**: nouvelle version (9032-...205c981c3) qui comprend les correctifs suivants :
+![](assets/green_2.png) 5 **mars 2020**: nouvelle version (9032-...205c981c3) qui comprend les correctifs suivants :
 
 * Correction d’un problème lié à l’utilisation de  FTP sur SSL. (NEO-20498)
 
