@@ -15,27 +15,27 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: c1f5217fb45d2ffcb73ad4ec7d32ba6bd7ddbc15
 
 ---
 
 
 # Version 19.1{#release-19-1}
 
-[Créer une mise à niveau](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | Versions [du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration| Mises à jour [de la documentation](../../rn/using/documentation-updates.md) | Versions [précédentes](../../rn/using/release--19-1.md) | Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Upgrade de build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-1.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
    <td><img src="assets/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Candidat à la libération</strong></td> 
+   <td><img src="assets/blue3.png"/><strong>Version diffusable</strong></td> 
    <td><img src="assets/orange3.png"/><strong>Plus disponible</strong></td> 
    <td><img src="assets/red3.png"/><strong>Obsolète</strong></td> 
   </tr> 
    <tr> 
-   <td>Dernière version stable disponible. Création validée en production.<br> </td>
-   <td>Génération validée par Adobe. En attente de vérification de la production.<br> </td>
-   <td>Version plus récente disponible avec correctifs de bogues. La mise à jour est requise.<br> </td>
+   <td>Dernier build stable disponible. Build validé en production.<br> </td>
+   <td>Build validé par Adobe. En attente de vérification de la production.<br> </td>
+   <td>Build le plus récent disponible avec correctifs. Mise à jour requise.<br> </td>
    <td>Contient des régressions connues. La mise à jour est obligatoire.<br> </td>
   </tr> 
  </tbody> 
@@ -43,44 +43,50 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 La **dernière version** stable est 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) Version 19.1.6 - Version 9035 {#release-19-1-6-build-9035}
+## ![](assets/orange_2.png) Version 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
->Cette version est destinée aux installations sur site uniquement. Pour les déploiements hybrides, les instances hébergées continueront à exécuter la version 9032. Ne mettez pas à niveau votre instance marketing vers la version 9035, car elle n’est pas compatible avec la version 9032.
+>Ce build est destiné aux installations on-premise uniquement. Pour les déploiements hybrides, les instances hébergées continueront à exécuter le build 9032. Ne mettez pas à niveau votre instance marketing vers le build 9035, car il n’est pas compatible avec la version 9032.
 
-_3 octobre 2019_
+_3 octobre 2019_
 
 **Améliorations**
 
-* Correction d’un problème lors de l’utilisation de CRM Connector for Salesforce. (NEO-17712)
+* Correction d’un problème lors de l’utilisation du connecteur CRM pour Salesforce. (NEO-17712)
 * Correction d’un problème d’index qui pouvait entraîner des problèmes de performances lors de l’envoi de messages transactionnels.
 * Correction d’un problème de performances lors de l’envoi de messages. (NEO-17558)
-* Correction d’un problème en raison duquel certains messages ne pouvaient pas être traités par le serveur d’approvisionnement intermédiaire. (NEO-12395)
-* Correction d’un problème qui empêchait l’utilisation complète de l’activité de gestion des données SQL (la &quot;gestion des données SQL&quot; nommée right était absente).
+* Correction d’un problème en raison duquel certains messages ne pouvaient pas être traités par le serveur de mid-sourcing. (NEO-12395)
+* Correction d’un problème qui empêchait l’utilisation complète de l’activité de gestion des données SQL (le droit nommé « SQL Data Mangement » était absent).
 
-## ![](assets/orange_2.png) Version 19.1.5 - Version 9033{#release-19-1-5-build-9033}
+## ![](assets/orange_2.png) Version 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
-_13 août 2019_
+_13 août 2019_
 
 **Améliorations**
 
-* Correction d’un problème avec l’instruction SQL &quot;SELECT COUNT&quot; qui était exécutée sur la base de données par défaut plutôt que sur la base de données FDA lors de l’extraction des données dans l’activité de gestion des données.
-* Pour améliorer les fonctionnalités de l’infrastructure client, une déclaration proxy SFTP est désormais disponible dans le fichier de configuration du serveur.
+* Correction d&#39;un problème lié à l&#39;instruction SQL &#39;SELECT COUNT&#39; qui était exécutée sur la base de données par défaut plutôt que sur la base de données FDA lors de l&#39;extraction de données dans l&#39;activité Data Management.
+* Pour améliorer les capacités de l&#39;infrastructure client, une déclaration de proxy SFTP est maintenant disponible dans le fichier de configuration du serveur.
 * Correction d&#39;un blocage de la console cliente lors de &quot;l&#39;ajout d&#39;une table liée&quot; dans l&#39;activité de workflow Chargement (SGBD) sans nom de table. (NEO-12213)
 * Correction d&#39;un problème lié à l&#39;installation du package midEmetter via la ligne de commande.
 * Une option d&#39;authentification a été ajoutée pour prendre en charge les identifiants OAuth dans le connecteur AC avec Microsoft Dynamics. (NEO-11982)
-* Correction d’un problème avec UUID (Unique Universal Identifier) qui entraînait l’échec de l’activité d’enrichissement avec Hive FDA.
+* Correction d&#39;un problème lié à l&#39;UUID (Unique Universal Identifier) qui entraînait l&#39;échec de l&#39;activité d&#39;enrichissement avec Hive FDA.
 
-## Version 19.1.4 - Version 9032{#release-19-1-4-build-9032}
+## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 5 **mars 2020**: nouvelle version (9032-...205c981c3) qui comprend les correctifs suivants :
+![](assets/green_2.png) 3 **avril 2020**: nouvelle version (9032-...e8b36257e) qui comprend le correctif suivant :
 
-* Correction d’un problème lié aux comptes externes utilisant FTP sur SSL. (NÉO-20498)
+* Nous introduisons un mécanisme de signature pour le suivi des liens dans les courriels afin d’éviter toute utilisation malveillante potentielle (hameçonnage). Cela permet d’éviter la réécriture des paramètres de suivi qui peuvent inclure une URL utilisée pour rediriger l’utilisateur. Ce mécanisme est actuellement désactivé par défaut. Contactez le service à la clientèle si vous devez l’activer.
+
+* Une protection de sécurité complémentaire a été ajoutée pour empêcher la redirection des URL mal formées générées à partir des versions précédentes ou lorsque le mécanisme de signature est désactivé. Contactez le service à la clientèle si vous devez l’utiliser.
+
+![](assets/orange_2.png) 5 **mars 2020**: nouvelle version (9032-...205c981c3) qui comprend les correctifs suivants :
+
+* Correction d’un problème lié à l’utilisation de  FTP sur SSL. (NEO-20498)
 
 ![](assets/orange_2.png) 17 **décembre 2019**: nouvelle version (9032-...9d34fb17e) qui comprend les correctifs suivants :
 
-* Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter).
+* Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter).
 (NEO-19595)
 
 ![](assets/orange_2.png) 11 **décembre 2019**: nouvelle version (9032-...e28b428b7) qui comprend les correctifs suivants :
@@ -90,15 +96,15 @@ _13 août 2019_
 ![](assets/orange_2.png) 20 **novembre 2019**: nouvelle version (9032-...3468c7bb5) qui comprend les correctifs suivants :
 
 * Correction d’un problème de connexion via l’authentification IMS. (NEO-17312)
-* Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs remises. (NEO-18165)
-* Correction d’un problème susceptible de bloquer ou de provoquer le blocage du serveur Web.
+* Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs diffusions. (NEO-18165)
+* Correction d’un problème susceptible de bloquer ou de provoquer le blocage du serveur web.
 
 ![](assets/orange_2.png) 19 **septembre 2019**: nouvelle version (9032-...cee805c93) qui comprend les correctifs suivants :
 
-* Correction d’un problème lors de l’utilisation de CRM Connector for Salesforce. (NEO-17712)
+* Correction d’un problème lors de l’utilisation du connecteur CRM pour Salesforce. (NEO-17712)
 * Correction d’un problème d’index qui pouvait entraîner des problèmes de performances lors de l’envoi de messages transactionnels.
 
-![](assets/orange_2.png) 13 **août 2019**: version 19.1.4 initiale qui comprend les correctifs suivants :
+![](assets/orange_2.png)**13 août 2019** : version 19.1.4 initiale qui comprend les correctifs suivants :
 
 * Correction d&#39;un problème lié à l&#39;activité du planificateur qui générait des messages d&#39;erreur indésirables lors de la configuration de l&#39;assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
 * Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
@@ -106,9 +112,9 @@ _13 août 2019_
 * Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, ce qui entraînait des problèmes de délivrabilité. (NEO-16804)
 * Correction de divers problèmes liés à la planification des workflows. Les workflows devaient être exécutés une fois par jour sans tenir compte de la configuration du planificateur. (NEO-16619, NEO-16426)
 
-## ![](assets/orange_2.png) Version 19.1.2 - Version 9029{#release-19-1-2-build-9029}
+## ![](assets/orange_2.png) Version 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
-_21 juin 2019_
+_21 juin 2019_
 
 **Améliorations de la sécurité**
 
@@ -118,13 +124,13 @@ _21 juin 2019_
 
 * Correction d&#39;une régression liée à la gestion des colonnes sdomain qui empêchait l&#39;envoi d&#39;emails sur certaines configurations.
 * Pour améliorer les performances, un attribut _operation=&quot;none&quot; a été ajouté aux appels SOAP de rtEvent afin d&#39;éviter les requêtes &quot;SELECT FOR UPDATE&quot;.
-* Correction d’un problème d’affichage du flux de travail avec les transitions sortantes après l’activité de test. (NEO-12727)
+* Correction d&#39;un problème d&#39;affichage de workflow lié aux transitions sortantes après l’activité Test. (NEO-12727)
 * Nous autorisons maintenant la suppression des enregistrements factices créés dans Microsoft Dynamics lors du workflow d&#39;import.
 * Améliorations des permissions pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
 
-## ![](assets/orange_2.png) Version 19.1 - Version 9026{#release-19-1-build-9026}
+## ![](assets/orange_2.png) Version 19.1 - Build 9026{#release-19-1-build-9026}
 
-_30 mai 2019_
+_30 mai 2019_
 
 **Nouveautés**
 
@@ -138,7 +144,7 @@ _30 mai 2019_
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l'efficacité de votre tâche d'administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, en whitelistant des adresses IP et en installant des clés SSH pour chaque instance. Veuillez noter, qu'à l'heure actuelle, le panneau de configuration est uniquement disponible pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">connectez-vous dès aujourd'hui via Experience Cloud</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : la mise à niveau vers la dernière version de Campaign n’est pas requise pour accéder au Panneau de configuration.</p> </td> 
+   <td> <p>Pour accroître l'efficacité de votre tâche d'administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, en whitelistant des adresses IP et en installant des clés SSH pour chaque instance. Veuillez noter, qu'à l'heure actuelle, le panneau de configuration est uniquement disponible pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">connectez-vous dès aujourd'hui via Experience Cloud</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
@@ -164,7 +170,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité**
 
-* Pour des raisons de sécurité, vous ne pouvez plus insérer de commandes arbitraires lors de l’utilisation de l’ **[!UICONTROL Pre-process the file]** option dans une activité de **[!UICONTROL Data loading (file)]** flux de travail. Une liste déroulante est désormais disponible, vous permettant de sélectionner l’une des 3 options suivantes : **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) ou **[!UICONTROL Decrypt]** (gpg). L&#39;indicateur de sécurité XtkSecurity_Disable_Preproc a été ajouté. Pour les nouveaux clients, cette option sera définie sur 0. Pour les clients existants, cette option sera définie sur 1 par la mise à niveau postérieure afin de conserver le comportement précédent. Consultez cette [section](../../workflow/using/data-loading--file-.md).
+* Pour des raisons de sécurité, vous ne pouvez plus insérer de commandes arbitraires lors de l’utilisation de l’ **[!UICONTROL Pre-process the file]** **[!UICONTROL Data loading (file)]** option dans un flux de travail  de . Un  déroulant est désormais disponible, vous permettant de sélectionner l’une des 3 options suivantes : **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) ou **[!UICONTROL Decrypt]** (gpg). L&#39;indicateur de sécurité XtkSecurity_Disable_Preproc a été ajouté. Pour les nouveaux clients, cette option sera définie sur 0. Pour les clients existants, cette option sera définie sur 1 par la mise à niveau postérieure afin de conserver le comportement précédent. Consultez cette [section](../../workflow/using/data-loading--file-.md).
 * Correction d&#39;un problème de visibilité du mot de passe qui se produisait lors du test de la connexion d&#39;un compte externe FDA sans fuseau horaire défini.
 * La bibliothèque PDFBox a été supprimée.
 * Tomcat a été mis à jour vers la version 7.0.93.
@@ -176,13 +182,13 @@ _30 mai 2019_
 * La même erreur générique s&#39;affiche désormais pour les échecs de connexion avec un nom d&#39;utilisateur valide ou non.
 * Le nommage des fichiers téléchargés a été amélioré.
 * Une nouvelle option XtkSecurity_Disable_GetSetEnv a été ajoutée afin de bloquer l&#39;utilisation des fonctions setEnv et getEnv.
-* Les informations sensibles sont désormais masquées dans le suivi de la pile d’applications.
+* Les informations sensibles sont désormais masquées dans la trace de la pile d’applications.
 
 **Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
 
 * Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.
-* Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le processus de suivi détecte désormais les problèmes du journal de suivi qui peuvent entraîner des erreurs et arrêter le flux de travail. Ces problèmes sont maintenant ignorés et ne sont pas traités.
+* Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le workflow de tracking détecte désormais les problèmes du log de tracking qui peuvent entraîner des erreurs et arrêter le workflow. Ces problèmes sont maintenant écartés et ne sont pas traités.
 * Workflow de nettoyage : le workflow de nettoyage a été amélioré de manière à éviter les erreurs et arrêts potentiels. Cela optimise la taille et la performance des bases de données.
 * Images incorporées dans les messages transactionnels : nous avons ajouté la prise en charge complète des images incorporées dans les messages transactionnels dans le but d&#39;éviter les possibles blocages ou images manquantes.
 * Taille de la base de données - XtkJobLog : un mécanisme de purge a été ajouté à cette table. Cela a un impact positif sur la taille de la base de données.
