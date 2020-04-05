@@ -69,7 +69,7 @@ Dans la liste qui suit, ne sont mentionnées que les tables les plus sujettes à
    <td> NmsAddress<br /> </td> 
    <td> Volume moyen<br /> </td> 
    <td> Mises à jour, Insertions<br /> </td> 
-   <td> This table contains information on email addresses. It is frequently updated as part of the quarantine process (records are created at the first delivery error, updated when the counters change and deleted once delivery is successful). <br /> </td> 
+   <td> Cette table contient les informations propres aux adresses email. Elle est fréquemment mise à jour lors du processus de mise en quarantaine : les enregistrements sont créés lors de la première erreur de diffusion, mis à jour lorsque les compteurs sont modifiés puis supprimés lorsque la diffusion parvient à l'adresse spécifiée. <br /> </td> 
   </tr> 
   <tr> 
    <td> XtkWorkflow<br /> </td> 
