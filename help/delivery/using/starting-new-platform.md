@@ -1,5 +1,5 @@
 ---
-title: Démarrage d’une nouvelle plateforme avec Adobe Campaign Classic
+title: Démarrage d’une nouvelle plate-forme avec Adobe Campaign Classic
 description: En savoir plus sur la gestion de la délivrabilité lors du démarrage d’une nouvelle plateforme avec Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
@@ -26,7 +26,7 @@ Démarrer l&#39;envoi d&#39;emails sur une nouvelle plate-forme est une étape d
 
 On ne peut donc pas espérer atteindre le régime de croisière en termes de débit dès le début de la mise en production. De surcroît on ne doit pas essayer d&#39;envoyer les premiers messages avec un tel débit, car cela conduirait les FAI à bloquer d&#39;autant plus sévèrement les adresses IP d&#39;envoi et à compromettre gravement la poursuite du démarrage.
 
-Le démarrage d&#39;une plate-forme peut aller de pair avec le premier usage d&#39;une liste d&#39;adresses, c&#39;est-à-dire une liste potentiellement mal qualifiée. Or l&#39;envoi à des adresses invalides ou à des adresses pièges contribue à abaisser la réputation de la plate-forme. If you have a list of invalid addresses, it is in your best interests to import it into the quarantine table (**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**) before sending for the first times. Si on souhaite malgré tout requalifier les adresses invalides, il est nettement préférable de le faire une fois la réputation de la plate-forme établie et par petites parties afin de &quot;diluer&quot; dans le temps l&#39;usage des mauvaises adresses.
+Le démarrage d&#39;une plate-forme peut aller de pair avec le premier usage d&#39;une liste d&#39;adresses, c&#39;est-à-dire une liste potentiellement mal qualifiée. Or l&#39;envoi à des adresses invalides ou à des adresses pièges contribue à abaisser la réputation de la plate-forme. Si on dispose de la liste des adresses invalides, on a tout intérêt à l&#39;importer dans la table des quarantaines (**[!UICONTROL Administration > Gestion de campagne > Gestion des échecs > Echecs et adresses]**) avant de réaliser les premiers envois. Si on souhaite malgré tout requalifier les adresses invalides, il est nettement préférable de le faire une fois la réputation de la plate-forme établie et par petites parties afin de &quot;diluer&quot; dans le temps l&#39;usage des mauvaises adresses.
 
 Pour résumer les principes à respecter lors d&#39;un démarrage :
 
