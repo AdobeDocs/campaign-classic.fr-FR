@@ -1,6 +1,6 @@
 ---
-title: A propos de la référence de schéma dans Adobe Campaign Classic
-description: Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign Classic.
+title: À propos de la référence de schéma dans Adobe Campaign Classic
+description: Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -18,11 +18,11 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 ---
 
 
-# A propos de la référence de schéma{#about-schema-reference}
+# À propos de la référence des schémas{#about-schema-reference}
 
 Ce chapitre décrit le mécanisme et le langage des schémas du modèle conceptuel de données de la base de données Adobe Campaign. Il est destiné à tous les développeurs ou intégrateurs voulant créer et éditer un schéma ou étendre un schéma d&#39;usine dans Adobe Campaign.
 
-Pour une meilleure compréhension des tableaux intégrés aux campagnes et de leur interaction, consultez le modèle [de données de](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)Campaign Classic.
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
 La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée **schéma**.
 
@@ -49,9 +49,9 @@ L&#39;illustration suivante montre la place des schémas dans le système de don
 
 ## Syntaxe des schémas {#syntax-of-schemas}
 
-L’élément racine du schéma est **`<srcschema>`**. Il contient les sous-éléments ** **`<element>`** et **`<attribute>`** .
+L’élément racine du schéma est **`<srcschema>`**. Il contient les sous-éléments ** **`<element>`** et **`<attribute>`**.
 
-The first **`<element>`** sub-element coincides with the root of the entity.
+Le premier sous-élément **`<element>`** correspond à la racine de l’entité.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -71,7 +71,7 @@ The first **`<element>`** sub-element coincides with the root of the entity.
 
 ![](assets/s_ncs_configuration_schema_and_entity.png)
 
-Les **`<element>`** balises définissent les noms des éléments d’entité. **`<attribute>`** les balises du schéma définissent les noms des attributs dans les **`<element>`** balises auxquelles elles ont été liées.
+Les balises **`<element>`** définissent les noms des éléments d’entité. Les balises **`<attribute>`** du schéma définissent les noms des attributs dans les balises **`<element>`** auxquelles elles ont été liées.
 
 ## Identification d&#39;un schéma {#identification-of-a-schema}
 
@@ -87,7 +87,7 @@ Un espace de nommage permet de regrouper un ensemble de schémas par centres d&#
 
 Certains espaces de nommage sont réservés pour la description des entités systèmes nécessaires au bon fonctionnement de l&#39;application Adobe Campaign :
 
-* **xtk** : relatif aux données système de la plateforme,
+* **xtk** : relatif aux données système de la plateforme,
 * **nl** : relatif à l&#39;utilisation globale de l&#39;application,
 * **nms** : relatif à la diffusion (destinataire, diffusion, tracking, etc.),
 * **ncm** : relatif à la gestion de contenu,
