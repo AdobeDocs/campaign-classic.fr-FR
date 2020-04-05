@@ -1,6 +1,6 @@
 ---
 title: Requête avec une relation N-N
-description: Découvrez comment exécuter des requêtes à l’aide d’une relation de type "plusieurs à plusieurs"
+description: Découvrez comment exécuter des requêtes à l’aide d’une relation plusieurs-à-plusieurs
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
