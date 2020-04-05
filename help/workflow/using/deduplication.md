@@ -97,7 +97,7 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 
 1. Placez et reliez les différentes activités nécessaires au déroulement du workflow comme indiqué dans l&#39;illustration ci-dessus.
 
-   L’activité syndicale est utilisée ici pour &quot;unifier&quot; les trois requêtes en une seule transition. Ainsi, la déduplication ne fonctionne pas pour chaque requête individuellement mais pour l&#39;ensemble de la requête. Pour en savoir plus sur ce sujet, consultez la section [Meilleures pratiques](#best-practices).
+   L&#39;activité d&#39;union est ici utilisée pour « unifier » les trois requêtes en une seule transition. Ainsi, la déduplication ne s&#39;opérera pas individuellement sur chaque requête mais sur l&#39;ensemble. Pour plus d’informations, consultez la section [Meilleures pratiques](#best-practices).
 
 1. Ouvrez l&#39;activité de déduplication puis cliquez sur le lien **[!UICONTROL Editer la configuration...]** afin de pouvoir définir le mode de déduplication.
 1. Dans la fenêtre qui s&#39;ouvre, sélectionnez **[!UICONTROL Schéma de la base]**.
