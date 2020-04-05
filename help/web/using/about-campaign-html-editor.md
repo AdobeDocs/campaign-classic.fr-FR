@@ -44,25 +44,25 @@ Le fonctionnement général est le suivant :
 
 ![](assets/dce_schema.png)
 
-Pour créer une application Web simple, procédez comme suit :
+Dans le contexte d&#39;une application Web simple, les étapes de création sont les suivantes :
 
-* Pour plus d&#39;informations, reportez-vous à la section [Création d&#39;une page](../../web/using/creating-a-landing-page.md)d&#39;entrée,
-* Select existing content or creating content from a standard template, for more on this, refer to [Template management](../../web/using/template-management.md),
-* Pour plus d’informations sur ce sujet, reportez-vous à la section [Modification du contenu](../../web/using/editing-content.md),
-* Publish the Web application, for more on this, refer to [Publishing content](../../web/using/creating-a-landing-page.md#step-3---publishing-content) and [this page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
+* Création d’une application web, lire à ce sujet la section [Créer une landing page](../../web/using/creating-a-landing-page.md),
+* Sélection d&#39;un contenu existant ou création d&#39;un contenu à partir d&#39;un modèle standard, lire à ce sujet la section [Gestion des modèles](../../web/using/template-management.md),
+* Édition et configuration du contenu, lire à ce sujet la section [Editer le contenu](../../web/using/editing-content.md),
+* Publication de l’application web, lire à ce sujet la section [Publier le contenu](../../web/using/creating-a-landing-page.md#step-3---publishing-content) et [cette page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of a Web application, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md).
+>Pour un exemple complet de mise en œuvre du DCE dans le cadre d&#39;une application Web, consultez la section [Créer une landing page](../../web/using/creating-a-landing-page.md).
 
 Dans le contexte d&#39;une diffusion par email, les étapes de création sont les suivantes :
 
-* Créez une diffusion à partir d’un modèle de type de courrier électronique dans lequel le DCE est actif,
-* Sélectionnez un contenu existant ou créez du contenu à partir d’un modèle standard,
-* Modifier et configurer le contenu en ligne,
-* Envoyez la livraison, pour plus d&#39;informations, reportez-vous à [cette section](../../delivery/using/communication-channels.md).
+* Création d&#39;une diffusion à partir d&#39;un modèle de type email dans lequel le DCE est activé,
+* Sélection d&#39;un contenu existant ou création d&#39;un contenu à partir d&#39;un modèle standard,
+* Modification et configuration du contenu en ligne,
+* Envoi de la diffusion, lire à ce sujet [cette section](../../delivery/using/communication-channels.md).
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [this use case](../../web/using/use-case--creating-an-email-delivery.md).
+>Pour un exemple complet de mise en œuvre du DCE dans le cadre d&#39;une diffusion par emai, consultez [ce cas d’utilisation](../../web/using/use-case--creating-an-email-delivery.md).
 
