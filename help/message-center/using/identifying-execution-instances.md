@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Identifier les instances d&#39;exécution{#identifying-execution-instances}
 
-Un identifiant unique doit être affecté à chaque instance pour différencier l’historique de chaque instance d’exécution lorsque vous les affichez dans l’instance de contrôle. Cette étape est obligatoire même si vos instances de contrôle et d’exécution sont installées sur le même ordinateur. Cet identifiant peut être attribué manuellement sur chaque instance d’exécution, via l’assistant de déploiement, ou automatiquement en cliquant sur le bouton **Initialiser la connexion** à partir de l’instance de contrôle (voir instance [de](../../message-center/using/creating-a-shared-connection.md#control-instance)contrôle).
+Un identifiant unique doit être affecté à chaque instance pour différencier l’historique de chaque instance d’exécution lorsque vous les affichez dans l’instance de pilotage. Cette étape est obligatoire même si les instances de pilotage et d’exécution sont installées sur le même ordinateur. Cet identifiant peut être attribué manuellement sur chaque instance d’exécution, via l’assistant de déploiement, ou automatiquement en cliquant sur le bouton **Initialiser la connexion** à partir de l’instance de pilotage (voir [Instance de pilotage](../../message-center/using/creating-a-shared-connection.md#control-instance)).
 
 Pour attribuer un identifiant manuellement, lancez l&#39;assistant de déploiement sur chacune de vos instances d&#39;exécution et dans la fenêtre **[!UICONTROL Message Center]**, attribuez l&#39;identifiant de votre choix à l&#39;instance.
 
