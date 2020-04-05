@@ -1,8 +1,8 @@
 ---
-title: Livraisons de campagne marketing
-seo-title: Livraisons de campagne marketing
-description: Livraisons de campagne marketing
-seo-description: En savoir plus sur les livraisons de campagnes marketing
+title: Diffusions d'opérations marketing
+seo-title: Diffusions d'opérations marketing
+description: Diffusions d'opérations marketing
+seo-description: En savoir plus sur les diffusions d'opérations marketing
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
 contentOwner: sauviat
@@ -20,7 +20,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 ---
 
 
-# Livraisons de campagne marketing {#marketing-campaign-deliveries}
+# Diffusions d&#39;opérations marketing {#marketing-campaign-deliveries}
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
 
@@ -40,15 +40,15 @@ Les paramétrages proposés sont adaptés au type de diffusion (courrier, email,
 
 Pour chaque diffusion, le chargé d&#39;opération va définir :
 
-* La cible principale. Pour plus d’informations, reportez-vous à [Création de la cible principale dans un flux de travail](#building-the-main-target-in-a-workflow) et [Sélection de la population](#selecting-the-target-population)cible.
-* Groupe de contrôle. Pour plus d&#39;informations, reportez-vous à la section [Définition d&#39;un groupe](#defining-a-control-group)de contrôle.
-* Les adresses de départ. Voir à ce propos [cette section](../../delivery/using/about-seed-addresses.md).
+* La cible principale. Voir à ce propos les sections [Construire la cible principale dans un workflow](#building-the-main-target-in-a-workflow) et [Choisir la population cible](#selecting-the-target-population).
+* La population témoin. Voir à ce propos la section [Définir une population témoin](#defining-a-control-group).
+* Les adresses de contrôle. Voir à ce propos [cette section](../../delivery/using/about-seed-addresses.md).
 
 Certaines de ces informations sont héritées du modèle.
 
 >[!NOTE]
 >
->Les modèles de campagne sont présentés dans les modèles [de](../../campaign/using/marketing-campaign-templates.md#campaign-templates)campagne.
+>Les modèles d&#39;opération sont présentés dans la section [Modèles d&#39;opération](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 Vous pouvez définir des critères de filtrage des destinataires présents dans la base de données afin de construire la cible de la diffusion. Ce mode de sélection des destinataires est présenté dans la section [Envoyer les messages](../../delivery/using/steps-defining-the-target-population.md).
 
@@ -94,7 +94,7 @@ Dans le diagramme, reliez ainsi entre elles les requêtes de ciblage et d&#39;or
 
 >[!NOTE]
 >
->Examples and procedure for defining queries are presented in [this section](../../workflow/using/query.md).
+>La procédure pour définir des requêtes est présentée avec des exemples dans [cette section](../../workflow/using/query.md).
 
 La section gauche de l&#39;éditeur contient une bibliothèque d&#39;objets graphiques qui représentent des activités. Le premier onglet regroupe les activités de ciblage et le deuxième onglet regroupe les activités d&#39;ordonnancement, qui sont utilisées plus occasionnellement afin de coordonner les activités de ciblage.
 
@@ -202,25 +202,25 @@ La population témoin est une population qui ne recevra pas la diffusion : elle 
 
 La population témoin peut être extraite de la cible principale et/ou issue d&#39;un groupe ou d&#39;une requête spécifique.
 
-#### Activation du groupe de contrôle pour une campagne {#activating-the-control-group-for-a-campaign}
+#### Activation de la population témoin pour une opération {#activating-the-control-group-for-a-campaign}
 
-Vous pouvez définir un groupe de contrôle au niveau de la campagne, auquel cas le groupe de contrôle sera appliqué à chaque diffusion de la campagne concernée.
+Vous pouvez définir une population témoin au niveau de l&#39;opération : elle sera alors appliquée à chaque diffusion de l&#39;opération concernée.
 
-1. Modifiez la campagne concernée et cliquez sur l’onglet **[!UICONTROL Modifier]** .
-1. Cliquez sur Paramètres **[!UICONTROL de campagne]** avancés.
+1. Éditez l&#39;opération concernée et cliquez sur l&#39;onglet **[!UICONTROL Edition]**.
+1. Cliquez sur **[!UICONTROL Paramètres avancés de l&#39;opération...]**.
 
    ![](assets/s_ncs_user_edit_op_target.png)
 
-1. Sélectionnez l’option **[!UICONTROL Activer et modifier la configuration]** du groupe de contrôle.
-1. **[!UICONTROL Cliquez sur]** Modifier... pour configurer le groupe de contrôle.
+1. Sélectionnez l&#39;option **[!UICONTROL Activer et éditer le paramétrage de la population témoin]**.
+1. Cliquez sur **[!UICONTROL Editer...]** pour paramétrer la population témoin.
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-La procédure de configuration est présentée dans [Extraction du groupe de contrôle de la cible](#extracting-the-control-group-from-the-main-target) principale et [Ajout d&#39;une population](#adding-a-population).
+La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population supplémentaire](#adding-a-population).
 
-#### Activation du groupe de contrôle pour une remise {#activating-the-control-group-for-a-delivery}
+#### Activation de la population témoin pour une diffusion {#activating-the-control-group-for-a-delivery}
 
-Vous pouvez définir un groupe de contrôle au niveau de la diffusion, auquel cas le groupe de contrôle sera appliqué à chaque diffusion de la campagne concernée.
+Vous pouvez définir une population témoin au niveau de la diffusion : elle sera alors appliquée à chaque diffusion de l&#39;opération concernée.
 
 Par défaut, le paramétrage de la population témoin défini au niveau de l&#39;opération s&#39;applique pour chaque diffusion de cette opération. Vous pouvez toutefois adapter la population témoin unitairement pour une diffusion.
 
@@ -228,14 +228,14 @@ Par défaut, le paramétrage de la population témoin défini au niveau de l&#39
 >
 >Si vous avez défini une population témoin au niveau d&#39;une opération et que vous la configurez également pour une diffusion liée à cette opération, seule la population témoin définie pour la diffusion sera appliquée.
 
-1. Edit the delivery concerned and then click the **[!UICONTROL To]** link in the **[!UICONTROL Email parameters]** section.
+1. Éditez la diffusion concernée et cliquez sur le lien **[!UICONTROL Pour]** de la section **[!UICONTROL Paramètres de l&#39;e-mail]**.
 
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
-1. Cliquez sur l’onglet Groupe **[!UICONTROL de]** contrôle, puis sélectionnez **[!UICONTROL Activer et modifiez la configuration]** du groupe de contrôle.
-1. **[!UICONTROL Cliquez sur]** Modifier... pour configurer le groupe de contrôle.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Population témoin]**, puis sélectionnez **[!UICONTROL Activer et éditer le paramétrage de la population témoin]**.
+1. Cliquez sur **[!UICONTROL Editer...]** pour paramétrer la population témoin.
 
-La procédure de configuration est présentée dans [Extraction du groupe de contrôle de la cible](#extracting-the-control-group-from-the-main-target) principale et [Ajout d&#39;une population](#adding-a-population).
+La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population supplémentaire](#adding-a-population).
 
 #### Extraire la population témoin de la cible principale {#extracting-the-control-group-from-the-main-target}
 
@@ -266,7 +266,7 @@ Vous pouvez définir une nouvelle population qui sera utilisée comme population
 
 ## Démarrer la diffusion {#starting-a-delivery}
 
-Une fois que toutes les approbations ont été accordées, la livraison est prête à démarrer. La procédure de livraison dépend alors du type de livraison. Pour les diffusions par courrier électronique ou sur les canaux mobiles, voir [Démarrage d’une remise](#starting-an-online-delivery)en ligne et pour les remises par courrier direct, voir [Démarrage d’une remise](#starting-an-offline-delivery)hors ligne.
+Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. Pour les diffusions par email ou sur les canaux mobiles, voir la section [Démarrer une diffusion online](#starting-an-online-delivery) et pour les diffusions courrier, voir la section [Démarrer une diffusion offline](#starting-an-offline-delivery).
 
 ### Démarrer une diffusion online {#starting-an-online-delivery}
 
@@ -292,13 +292,13 @@ Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39
 
 >[!NOTE]
 >
->Les processus techniques relatifs aux processus de campagne sont présentés dans [Liste des processus](../../workflow/using/campaign.md)de campagne.
+>Les workflows techniques relatifs aux processus d&#39;opérations sont présentés dans la section [Liste des workflows de processus d&#39;opérations](../../workflow/using/campaign.md).
 
 **Etape 1 - Valider le fichier**
 
 Une fois le workflow d&#39;extraction exécuté correctement, le fichier d&#39;extraction doit être validé (sous réserve que la validation du fichier d&#39;extraction ait été sélectionnée dans le paramétrage de la diffusion).
 
-Pour plus d’informations, reportez-vous à la section [Approbation d’un fichier](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file)d’extraction.
+Pour plus d&#39;informations, reportez-vous à la section [Valider un fichier d&#39;extraction](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **Etape 2 - Valider le message au prestataire**
 
@@ -347,21 +347,21 @@ L&#39;extraction du fichier lance deux opérations : le calcul des budgets et le
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur le calcul des coûts et la gestion des stocks, voir [Fournisseurs, stocks et budgets](../../campaign/using/providers--stocks-and-budgets.md).
+>Pour plus d&#39;informations sur le calcul des coûts et la gestion des stocks, voir la section [Prestataires, stocks et budgets](../../campaign/using/providers--stocks-and-budgets.md).
 
 ## Gérer les documents associés {#managing-associated-documents}
 
-Vous pouvez associer divers documents à une campagne : rapport, photo, page Web, diagramme, etc. Ces documents peuvent être dans n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). Pour lier des documents à une campagne, voir [Ajout de documents](#adding-documents).
+Vous pouvez associer différents documents à une opération : rapport, photo, page web, schéma, etc. Ces documents peuvent être dans n&#39;importe quel format (Microsoft Word, Powerpoint, PNG, JPG, Acrobat PDF, etc.). Pour attacher des documents à une opération, reportez-vous à la section [Ajouter des documents](#adding-documents).
 
 >[!IMPORTANT]
 >
 >Ce mode d&#39;échange est réservé à des documents de faible volume (quelques Mo maximum).
 
-Dans une campagne, vous pouvez également faire référence à d&#39;autres éléments, tels que des bons promotionnels, des offres spéciales relatives à une branche ou à un magasin spécifique, etc. Lorsque ces éléments sont inclus dans un plan, ils peuvent être associés à une livraison directe par courrier électronique. See [Associating and structuring resources linked via a delivery outline](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+Vous pouvez également référencer dans les opérations des éléments externes, créés dans l&#39;entreprise, tels que des coupons promotionnels, des offres spécifiques à une agence ou à un magasin, etc. Regroupés dans une composition, ces éléments peuvent être associés à une diffusion courrier. Voir à ce sujet la section [Associer et structurer les ressources liées via une composition](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
->Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing disponibles pour plusieurs participants pour un travail collaboratif. Voir [Gestion des ressources](../../campaign/using/managing-marketing-resources.md)marketing.
+>Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. Voir à ce sujet la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md).
 
 ### Ajouter des documents {#adding-documents}
 
@@ -394,7 +394,7 @@ Ils peuvent également être édités et modifiés depuis cette vue.
 
 >[!NOTE]
 >
->Les contours de livraison sont utilisés exclusivement dans le cadre de campagnes par courrier direct.
+>Les compositions sont exclusivement utilisées dans le cadre d&#39;opérations courrier.
 
 Une composition désigne un ensemble structuré d&#39;éléments (documents, agences/magasins, coupons promotionnels, etc.) créés dans l&#39;entreprise et pour une opération particulière.
 
@@ -410,7 +410,7 @@ Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositio
 >
 >Si cet onglet n&#39;est pas présent, alors cette fonctionnalité n&#39;est pas prise en compte pour cette opération. Reportez-vous à la configuration du modèle d&#39;opération.
 >   
->For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>Voir à ce sujet la section [modèles d&#39;opération](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
@@ -438,7 +438,7 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur les ressources marketing, voir [Gestion des ressources](../../campaign/using/managing-marketing-resources.md)marketing.
+   >Pour plus d&#39;informations sur les ressources marketing, voir la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md).
 
 #### Sélectionner une composition {#selecting-an-outline}
 
@@ -462,7 +462,7 @@ Dans l&#39;exemple suivant, le libellé, le coût prévisionnel estimé et la de
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-Le modèle d&#39;exportation doit être associé au prestataire de services choisi pour la livraison concernée. See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+Le modèle d&#39;export doit être associé au prestataire sélectionné pour la diffusion concernée. Voir à ce sujet la section [Créer les prestataires et leurs structures de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures). 
 
 >[!NOTE]
 >
