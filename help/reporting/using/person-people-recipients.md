@@ -24,24 +24,24 @@ source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 Cet exemple va vous permettre de comprendre la différence entre une personne et un destinataire dans Adobe Campaign. Nous allons envoyer une diffusion à plusieurs personnes afin de mettre en évidence, au travers d&#39;un cas concret, la distinction entre les personnes et les destinataires. Cela va également nous permettre de voir plus en détails la méthode de calcul des indicateurs suivants :
 
-* **[!UICONTROL Clicks]**
-* **[!UICONTROL Distinct clicks for the population reached]**
-* **[!UICONTROL Distinct opens for the population reached]**
-* **[!UICONTROL Estimation of forwards]**
-* **[!UICONTROL Raw reactivity]**
+* **[!UICONTROL Clics]**
+* **[!UICONTROL Clics distincts sur la population atteinte]**
+* **[!UICONTROL Ouvertures distinctes sur la population atteinte]**
+* **[!UICONTROL Estimation des transferts]**
+* **[!UICONTROL Réactivité brute]**
 
 >[!NOTE]
 >
->Ces indicateurs sont utilisés dans le **[!UICONTROL Tracking indicators]** rapport. For more on this, refer to [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators).
+>Ces indicateurs sont utilisés dans le rapport relatif aux **[!UICONTROL Indicateurs de tracking]**. Voir à ce propos la section [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 Trois liens sont ajoutés dans une diffusion. Celle-ci est envoyée à 4 destinataires :
 
 ![](assets/s_ncs_user_indicators_example_1.png)
 
 * **[!UICONTROL John Davis]** : ce destinataire n&#39;ouvre pas l&#39;email (il ne clique donc sur aucun lien).
-* **[!UICONTROL Marie Stuart]** : ouvre l&#39;email mais ne clique sur aucun lien.
-* **[!UICONTROL Florian David]** : ouvre le courrier électronique et clique 9 fois sur les liens. Il transfère également le courrier électronique à une personne qui l’ouvre et clique deux fois.
-* **[!UICONTROL Henry Macdonald]** : ce destinataire a configuré son navigateur Internet pour rejeter les cookies. Il ouvre le courriel et clique 4 fois sur les liens.
+* **[!UICONTROL Marie Stuart]** : elle ouvre l&#39;email mais ne clique sur aucun lien.
+* **[!UICONTROL Florian David]** : il ouvre l&#39;email et clique à 9 reprises sur les liens. Il transfert également l&#39;email à une personne qui l&#39;ouvre et clique 2 fois.
+* **[!UICONTROL Henry Macdonald]** : ce destinataire a configuré son navigateur internet pour qu&#39;il n&#39;accepte aucun cookie. Il ouvre l&#39;email et clique à 4 reprises sur les liens.
 
 Les logs de tracking suivants sont remontés :
 
@@ -86,7 +86,7 @@ L&#39;ouverture est attribuée à un destinataire, Marie. Adobe Campaign comptab
 
 ## Etape 3 : Florian {#step-3--florian}
 
-**[!UICONTROL Florian David]** ouvre le courrier électronique et clique 9 fois sur les liens. Il transfère également le courrier électronique à une personne qui l’ouvre et clique deux fois.
+**[!UICONTROL Florian David]** ouvre l&#39;email et clique à 9 reprises sur les liens. Il transfert également l&#39;email à une personne qui l&#39;ouvre et clique 2 fois.
 
 ![](assets/s_ncs_user_indicators_example_9.png)
 
@@ -96,7 +96,7 @@ Les actions effectuées par Florian (une ouverture et 9 clics) apparaissent dans
 
 **Destinataires :** L&#39;ouverture et les clics sont attribués au même destinataire (Florian). Comme ce destinataire est différent du précédent (Marie), Adobe Campaign comptabilise un nouveau destinataire.
 
-People: Since this recipient&#39;s browser accepts cookies, we can see that the same identifier (UUID) is assigned to all click logs: **`fe37a503 [...]`**. Adobe Campaign correctly identifies these clicks as belonging to the same person. Une nouvelle personne est ajoutée au décompte.
+Personnes : comme le navigateur de ce destinataire accepte les cookies, nous observons que le même identifiant (UUID) est affecté à tous les logs de clics : **`fe37a503 [...]`**. Adobe Campaign interprète donc bien ces clics comme étant effectués par la même personne. Une nouvelle personne est donc comptabilisée. Une nouvelle personne est ajoutée au décompte.
 
 **Calcul intermédiaire :**
 
@@ -115,7 +115,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 
 ![](assets/s_ncs_user_indicators_example_12.png)
 
-**Personnes**: en ce qui concerne les clics, nous constatons que le même identifiant (UUID) est affecté à tous les journaux : **`9ab648f9 [...]`**. Cet identifiant n&#39;a pas encore été comptabilisé. Une nouvelle personne est donc ajoutée au décompte.
+**Personnes** : en ce qui concerne les clics, nous constatons que le même identifiant (UUID) est affecté à tous les journaux : **`9ab648f9 [...]`**. Cet identifiant n&#39;a pas encore été comptabilisé. Une nouvelle personne est donc ajoutée au décompte.
 
 ![](assets/s_ncs_user_indicators_example_13.png)
 
@@ -131,7 +131,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 
 ## Etape 4 : Henry {#step-4--henry}
 
-**[!UICONTROL Henry Macdonald]** a configuré son navigateur Internet pour rejeter les cookies. Il ouvre le courriel et clique 4 fois sur les liens.
+**[!UICONTROL Henry Macdonald]** a configuré son navigateur internet pour qu&#39;il n&#39;accepte aucun cookie. Il ouvre l&#39;email et clique à 4 reprises sur les liens.
 
 ![](assets/s_ncs_user_indicators_example_10.png)
 
@@ -160,21 +160,21 @@ Au niveau de la diffusion, les résultats sont donc les suivants :
 
 ![](assets/s_ncs_user_indicators_example.png)
 
-* **[!UICONTROL Clicks]** (destinataires ayant cliqué) : 2
-* **[!UICONTROL Distinct clicks for the population reached]** (personnes ayant cliqué) : 6
-* **[!UICONTROL Distinct opens for the population reached]** (destinataires qui ont ouvert) : 3
+* **[!UICONTROL Clics]** (destinataires ayant cliqué) : 2
+* **[!UICONTROL Clics distincts sur la population atteinte]** (personnes ayant cliqué) : 6
+* **[!UICONTROL Ouvertures distinctes sur la population atteinte]** (destinataires ayant ouvert) : 3
 
 La réactivité brute et l&#39;estimation des transferts sont calculées de la manière suivante :
 
 ![](assets/s_ncs_user_indicators_example11.png)
 
-* **[!UICONTROL Estimation of forwards]** = **B - A** (donc 6 - 2 = 4)
-* **[!UICONTROL Raw reactivity]** = **A / C** (2 / 3 = 66,67 %)
+* **[!UICONTROL Estimation des transferts]** = **B - A** (donc 6 - 2 = 4)
+* **[!UICONTROL Réactivité brute]** = **A / C** (donc 2 / 3 = 66,67 %)
 
 >[!NOTE]
 >
 >Dans les formules ci-dessus :
 >
->* A represents the **[!UICONTROL Clicks]** indicator (recipients who clicked).
->* B représente l’ **[!UICONTROL Distinct clicks for the population reached]** indicateur (personnes ayant cliqué).
->* C représente l’ **[!UICONTROL Distinct opens for the population reached]** indicateur (les destinataires qui ont ouvert).
+>* A représente l&#39;indicateur **[!UICONTROL Clics]** (destinataires ayant cliqués).
+>* B représente l&#39;indicateur **[!UICONTROL Clics distincts sur la population atteinte]** (personnes ayant cliqué).
+>* C représente l&#39;indicateur **[!UICONTROL Ouvertures distinctes sur la population atteinte]** (destinataires ayant ouvert).
