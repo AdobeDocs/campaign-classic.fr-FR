@@ -42,7 +42,7 @@ Exemple de retour d&#39;une requête sur le schéma des destinataires (**nms:rec
 </book>
 ```
 
-L’ **`<collection-recipient>`** élément représente l’élément d’entrée du document résultant d’une requête. Les données récupérées sont renvoyées sous cet élément ; dans notre exemple, une liste de destinataires.
+L’élément **`<collection-recipient>`** représente l’élément d’entrée du document obtenu à partir d’une requête. Les données récupérées sont renvoyées sous cet élément ; dans notre exemple, une liste de destinataires.
 
 ### Ajouter une requête {#adding-a-query}
 
@@ -85,9 +85,9 @@ Un lien de contenu est déclaré dans le schéma de données de la façon suivan
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
 ```
 
-The definition of the link is populated on a **string**-type **`<element>`**, and the **expandSchemaTarget** attribute references the target schema (&quot;cus:chapter&quot; in our example). Le schéma référencé doit être un schéma de contenu.
+La définition du lien est renseignée sur un **`<element>`** de type **string**. L’attribut **expandSchemaTarget** référence le schéma cible (&quot;cus:chapter&quot; dans notre exemple). Le schéma référencé doit être un schéma de contenu.
 
-The content of the targeted element enriches the link element, i.e. the **`<chapter>`** element in our example schema:
+Le contenu de l’élément ciblé vient enrichir l’élément lien, soit l’élément **`<chapter>`** dans notre exemple de schéma :
 
 ```
 <mainChapter computeString="Introduction" id="7011" title="Introduction" xtkschema="cus:chapter">    
@@ -143,11 +143,11 @@ Un lien sur une table externe est déclaré dans le schéma de données de la fa
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
 ```
 
-The definition of the link is populated on a **link**-type **`<element>`**, and the **target** attribute references the target schema (&quot;nms:recipient&quot; in our example).
+La définition du lien est renseignée sur un **`<element>`** de type **link**. L’attribut **target** référence le schéma cible (&quot;nms:recipient&quot; dans notre exemple).
 
 Par convention, les liens doivent être déclarés à partir de l&#39;élément principal du schéma de données.
 
-The **Compute string** and the key of the targeted element enrich the **`<name>-id`** and **`<name>-cs`** attributes on the main element.
+La **Compute string** et la clé de l’élément ciblé vont enrichir les attributs **`<name>-id`** et **`<name>-cs`** de l’élément principal.
 
 Dans notre exemple, le lien est renseigné dans le schéma &quot;cus:livre&quot;, le contenu des données du lien est présent dans les attributs &quot;mainContact-id&quot; et &quot;mainContact-cs&quot; :
 
@@ -163,7 +163,7 @@ Le contrôle d&#39;édition du lien est déclaré de la façon suivante :
 
 ![](assets/d_ncs_content_link3.png)
 
-You can restrict the choice of target elements by adding the **`<sysfilter>`** element via the link definition in the input form:
+Il est possible de restreindre le choix des éléments de la cible en ajoutant l’élément **`<sysfilter>`** à partir de la définition du lien dans le formulaire de saisie :
 
 ```
 <input xpath="mainContact">
