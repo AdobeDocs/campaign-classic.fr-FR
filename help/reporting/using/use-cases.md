@@ -38,7 +38,7 @@ Pour cela, sélectionnez les diffusions concernées, puis cliquez avec le bouton
 
 ### Choisir le type d&#39;analyse à réaliser {#selecting-a-type-of-analysis}
 
-Dans la première étape de l’assistant, vous pouvez sélectionner le modèle d’analyse descriptive à utiliser. Par défaut, Adobe Campaign propose deux modèles : Distribution **** qualitative et distribution **** quantitative. For more on this refer to the [Configuring the qualitative distribution template](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template) section. Les différents rendus sont présentés dans la section [A propos de l’analyse](../../reporting/using/about-descriptive-analysis.md) descriptive.
+Dans la première étape de l’assistant, vous pouvez sélectionner le modèle d’analyse descriptive à utiliser. Par défaut, Adobe Campaign propose deux modèles : **[!UICONTROL Distribution qualitative]** et **[!UICONTROL Distribution quantitative]**. Voir à ce propos la section [Paramétrer le modèle de distribution qualitative](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-qualitative-distribution-template). Les différents rendus sont présentés dans la section [A propos de l’analyse descriptive](../../reporting/using/about-descriptive-analysis.md).
 
 Pour cet exemple, choisissez le modèle **[!UICONTROL Distribution qualitative]** et sélectionnez un affichage avec graphe et tableau. Nommez le rapport &quot;Mon analyse descriptive&quot; et cliquez sur le bouton **[!UICONTROL Suivant]**.
 
@@ -72,7 +72,7 @@ Dans cet exemple, choisissez l&#39;histogramme.
 
 ![](assets/reporting_descriptive_quickstart_step_3.png)
 
-Les configurations possibles des différents graphiques sont détaillées dans la section Options [du graphique du rapport](../../reporting/using/processing-a-report.md#analysis-report-chart-options) d’analyse.
+Les configurations possibles des différents graphiques sont détaillées dans la section [Options des graphiques des rapports d’analyse](../../reporting/using/processing-a-report.md#analysis-report-chart-options).
 
 ### Paramétrer les statistiques à calculer {#configuring-the-statistic-to-calculate}
 
@@ -82,13 +82,13 @@ Vous pouvez définir dans cette fenêtre la liste des statistiques à calculer.
 
 ![](assets/reporting_descriptive_quickstart_step_4.png)
 
-Pour créer une statistique, cliquez sur le bouton **[!UICONTROL Ajouter]** . For more on this, refer to [Statistics calculation](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).
+Pour créer une nouvelle statistique, cliquez sur le bouton **[!UICONTROL Ajouter]**. Voir à ce sujet la section [Calcul des statistiques](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).
 
 ### Visualiser et exploiter le rapport {#viewing-and-using-the-report}
 
 La dernière étape de l&#39;assistant affiche le tableau et le graphique.
 
-Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d’outils située au-dessus du tableau. For more on this, refer to [Processing a report](../../reporting/using/processing-a-report.md).
+Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d’outils située au-dessus de la table. Voir à ce sujet la section [Traitement du rapport](../../reporting/using/processing-a-report.md).
 
 ![](assets/reporting_descriptive_quickstart_step_5.png)
 
@@ -189,7 +189,7 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
    ![](assets/s_ncs_user_report_wizard_from_transision.png)
 
-1. A ce stade, vous pouvez soit sélectionner l’option Analyses et rapports **** existants et utiliser les rapports créés précédemment (reportez-vous à la section [Réutilisation des rapports et analyses](../../reporting/using/processing-a-report.md#re-using-existing-reports-and-analyses)existants), soit créer une nouvelle analyse descriptive. Pour ce faire, laissez l’option **[!UICONTROL Nouvelle analyse descriptive d’un modèle]** sélectionnée par défaut.
+1. A ce stade, vous pouvez soit sélectionner l’option **[!UICONTROL Analyses et rapports existants]** et utiliser les rapports créés précédemment (voir [Ré-utiliser des analyses et rapports existants](../../reporting/using/processing-a-report.md#re-using-existing-reports-and-analyses)), soit créer une nouvelle analyse descriptive. Pour ce faire, laissez l’option **[!UICONTROL Nouvelle analyse descriptive depuis un modèle]** sélectionnée par défaut.
 
    Le paramétrage est ensuite le même que pour toute analyse descriptive.
 
