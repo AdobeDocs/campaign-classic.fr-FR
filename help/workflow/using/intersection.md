@@ -28,7 +28,7 @@ Une intersection permet de n&#39;extraire que la population commune à tous les 
 
 ![](assets/s_user_segmentation_inter.png)
 
-Pour plus d’informations sur la configuration et l’utilisation de l’activité d’intersection, voir [Extraction des données d’articulation (intersection)](../../workflow/using/targeting-data.md#extracting-joint-data--intersection-).
+Pour plus d&#39;informations sur la configuration et l&#39;utilisation de l&#39;activité Intersection, voir la section [Extraire les données communes (Intersection)](../../workflow/using/targeting-data.md#extracting-joint-data--intersection-).
 
 Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra l&#39;union des résultats de toutes les activités entrantes, moins l&#39;intersection. Une seconde transition sortante sera alors ajoutée à l&#39;activité, comme suit :
 
