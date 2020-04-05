@@ -24,11 +24,11 @@ source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 Une activité de type **Agir sur une diffusion** permet de démarrer, mettre en pause ou arrêter une diffusion.
 
-Il peut s’agir de la remise spécifiée dans la transition, d’une remise sélectionnée explicitement ou d’une remise calculée par un script. For more on this, refer to [Delivery](../../workflow/using/delivery.md).
+Il peut s&#39;agir de la diffusion spécifiée par la transition, d&#39;une diffusion explicitement sélectionnée ou bien calculée par un script. Voir à ce propos la section [Diffusion](../../workflow/using/delivery.md).
 
 ![](assets/edit_diffusion_act.png)
 
-Si vous sélectionnez **[!UICONTROL Démarrer]**, l’activité effectue toutes les étapes requises pour démarrer la diffusion (calcul de la cible, préparation du contenu, diffusion). Si certaines de ces étapes ont déjà été effectuées par une activité de flux de travail précédente, elles ne seront plus exécutées. Par exemple, si l’estimation de la cible a déjà été effectuée par une activité de type **[!UICONTROL Livraison]** (voir [Livraison](../../workflow/using/delivery.md)), la **[!UICONTROL loi sur l’activité de livraison]** lancera les étapes restantes (préparation et diffusion du contenu).
+Si vous sélectionnez **[!UICONTROL Démarrer]**, l’activité effectue toutes les étapes requises pour démarrer la diffusion (calcul de la cible, préparation du contenu, diffusion). Si certaines de ces étapes ont déjà été effectuées par une activité de workflow précédente, elles ne seront plus exécutées. Par exemple, si l’estimation de la cible a déjà été effectuée par une activité de type **[!UICONTROL Diffusion]** (voir [Diffusion](../../workflow/using/delivery.md)), l’activité **[!UICONTROL Agir sur la diffusion]** lancera les étapes restantes (préparation et diffusion du contenu).
 
 Les options disponibles sont les suivantes :
 
@@ -38,7 +38,7 @@ Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Traiter les erreurs]**
 
-   Reportez-vous à la section Erreurs [de](../../workflow/using/monitoring-workflow-execution.md#processing-errors)traitement.
+   Voir la section [Erreurs de traitement](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
