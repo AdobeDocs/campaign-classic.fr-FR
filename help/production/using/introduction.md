@@ -27,7 +27,7 @@ Ce chapitre présente la procédure à suivre pour mettre à jour Adobe Campaign
 >[!NOTE]
 >
 >Pour les instances hébergées, vous devez collaborer avec votre administrateur Adobe.\
->Pour les instances sur site, vous pouvez obtenir de l’aide d’Adobe Consultants.
+>Pour les instances on-premise, vous pouvez obtenir de l&#39;aide auprès des consultants Adobe.
 
 L&#39;opération de mise à jour doit être effectuée sur l&#39;ensemble des serveurs où Adobe Campaign est installé.
 
