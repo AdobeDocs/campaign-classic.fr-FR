@@ -72,7 +72,7 @@ Quatre types d&#39;interface Web sont disponibles :
 
    ![](assets/mkt_distr_8.png)
 
-   **[!UICONTROL Le formulaire proposé est spécifié dans une application Web qui doit être sélectionnée dans une liste déroulante du champ Interface]****[!UICONTROL Web dans les paramètres de campagne]** avancée du modèle... link. Reportez-vous à [Création d’une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+   Le formulaire proposé est défini dans une application web qui doit être sélectionnée dans la liste déroulante du champ **[!UICONTROL Interface web]** dans le lien **[!UICONTROL Paramètres avancés de l’opération...]** du modèle. Voir la section [Créer une opération locale par formulaire](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
    >[!NOTE]
    >
@@ -162,7 +162,7 @@ Enregistrez votre modèle d&#39;opération. Vous pouvez désormais l&#39;utilise
 
 >[!NOTE]
 >
->Campaign templates and their general configuration are detailed in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>Les modèles d’opération et leur paramétrage général sont présentés dans la section [Modèles d’opération](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ## Créer le kit d&#39;opération {#creating-the-campaign-package}
 
@@ -181,7 +181,7 @@ Les étapes sont les suivantes :
 
 1. Définissez le libellé du kit d&#39;opération, son dossier d&#39;enregistrement et indiquez son planning de réalisation.
 
-### Dates  {#dates}
+### Dates   {#dates}
 
 Les dates de début et de fin correspondent à la période de visibilité de l&#39;opération dans la liste des kits.
 
@@ -223,7 +223,7 @@ Depuis l&#39;onglet **[!UICONTROL Général]**, l&#39;entité centrale peut :
 
 ### Notifications {#notifications}
 
-Lorsqu’une campagne devient disponible ou lorsque la date limite d’enregistrement est atteinte, un message est envoyé aux opérateurs du groupe de notification local. For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+Lorsqu’une opération est disponible ou lorsque la date limite d’inscription est atteinte, un message est adressé aux opérateurs du groupe de notification indiqué au niveau de l’entité locale. Voir à ce propos la section [Entités organisationnelles](../../campaign/using/about-distributed-marketing.md#organizational-entities).
 
 ## Commander une opération {#ordering-a-campaign}
 
@@ -273,9 +273,9 @@ Pour commander une opération :
 
    ![](assets/mkg_dist_local_op_catalog_detail_3.png)
 
-   For more on this, refer to the [Approval process](#approval-process) section.
+   Voir à ce propos la section [Processus de validation](#approval-process).
 
-1. The local operator is then notified that the campaign is available: campaign availability can be found in the list of campaign packages within the **Campaigns** universe. The campaign can then be used. For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+1. L’opérateur local est alors notifié de la disponibilité de l’opération : elle est accessible à partir de la liste des kits d’opérations de l’univers **Campagnes**. Il peut alors l’utiliser. Voir à ce propos la section [Accéder aux opérations](../../campaign/using/accessing-campaigns.md).
 
    L&#39;option **[!UICONTROL Démarrer le ciblage à la validation de la commande]** permet à l&#39;entité locale d&#39;exécuter l&#39;opération dès que sa commande a été validée.
 
@@ -301,7 +301,7 @@ Lorsqu&#39;une commande d&#39;opération est effectuée par une entité locale, 
 
 >[!NOTE]
 >
->La sélection des réviseurs est présentée dans la section [Réviseurs](#reviewers) . Ils peuvent accepter ou rejeter l&#39;ordre.
+>La sélection des opérateurs validants est présentée dans la section [Validants](#reviewers). Ils peuvent accepter ou refuser la commande.
 
 ![](assets/mkg_dist_command_valid_web.png)
 
@@ -315,13 +315,13 @@ La commande peut également être validée à partir de la console, depuis la vu
 >
 >L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
-#### Créer une campagne  {#creating-a-campaign}
+#### Créer une campagne   {#creating-a-campaign}
 
 Lorsque la commande d&#39;une opération est validée, celle-ci peut être paramétrée et exécutée par l&#39;entité locale.
 
 ![](assets/mkg_dist_mutual_op_created.png)
 
-For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+Voir à ce propos la section [Accéder aux opérations](../../campaign/using/accessing-campaigns.md).
 
 ### Refuser une validation {#rejecting-an-approval}
 
@@ -343,7 +343,7 @@ Elles peuvent visualiser le commentaire saisi dans l&#39;onglet **[!UICONTROL Ed
 
 Les opérateurs validants sont notifiés par email lorsqu&#39;une validation est requise.
 
-Pour chaque entité locale, les réviseurs sont sélectionnés pour l’approbation des commandes de campagne et de la campagne. Pour plus d’informations sur la sélection des réviseurs locaux, voir Entités [](../../campaign/using/about-distributed-marketing.md#organizational-entities)organisationnelles.
+Pour chaque entité locale, les opérateurs validants sont sélectionnés pour l’approbation des commandes d’opération et la validation de la campagne. Pour plus d’informations sur la sélection des opérateurs validants, voir la section [Entités organisationnelles](../../campaign/using/about-distributed-marketing.md#organizational-entities).
 
 >[!NOTE]
 >
