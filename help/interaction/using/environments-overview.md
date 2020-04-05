@@ -30,4 +30,4 @@ Plusieurs profils d&#39;utilisation différents interviennent dans la gestion et
 >
 >Les paramétrages suivants doivent être effectués par un **administrateur technique**.
 
-Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) pour en savoir plus sur l’architecture de l’interaction Campagne et voir comment fonctionne le moteur d’offre.
+Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) pour en savoir plus sur l’architecture de l’interaction Campaign et voir comment fonctionne le moteur d’offres.
