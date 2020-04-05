@@ -365,7 +365,7 @@ Ce rapport se base sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[
    <td> Nouveaux contacts<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Comptage du nombre de visiteurs liés à un destinataire.<br /> </td> 
-   <td> Formule : count(@id)<br /> Filtre : @Recipient-id != 0<br /> </td> 
+   <td> Formule : count(@id)<br /> Filtre : @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> Ouvertures (Opens)<br /> </td> 
@@ -376,7 +376,7 @@ Ce rapport se base sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[
   <tr> 
    <td> Partages<br /> </td> 
    <td> @shared<br /> </td> 
-   <td> Catégorie d'URL incluse dans 'email', 'facebook', 'twitter', 'delicious', 'digg', 'google', 'linkedin'<br /> Count de tous @totalClicks avec une catégorie d'URL qui est égale à "email", "facebook", "twitter", "delicious", "digg", "google" ou "linkedin".<br /> </td> 
+   <td> Catégorie d'URL incluse dans 'email', 'facebook', 'twitter', 'delicious', 'digg', 'google', 'linkedin'<br /> Comptage de tous les @totalClicks avec une catégorie d'URL égale à "email", "facebook", "twitter", "delicious", "digg", "google" ou "linkedin".<br /> </td> 
    <td> count (Iif([url/@category] IN ('email' , 'facebook' , 'twitter' , 'delicious' , 'digg' , 'google' , 'linkedin'), @totalClicks, 0))<br /> </td> 
   </tr> 
  </tbody> 
@@ -914,7 +914,7 @@ Ce rapport se base sur les tables **Diffusions** (nms:delivery) et **Logs de tra
    <td> Ouvertures (Opens)<br /> </td> 
    <td> @totalRecipientOpen<br /> </td> 
    <td> Somme de tous les @id dont la clé primaire de l'url est égale à 1 (ouverture). <br /> </td> 
-   <td> count(Iif([@url-id]   = 1, @id, 0))<br /> </td> 
+   <td> count(Iif([@url-id] = 1, @id, 0))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
