@@ -26,7 +26,7 @@ Pour créer un environnement de test (bac à sable), procédez comme suit :
 
 >[!CAUTION]
 >
->Utilisez uniquement cette méthode de création d’environnement pour les environnements de test. Dans tous les autres cas, utilisez l’assistant de mappage de cible. Pour plus d’informations, reportez-vous à la section [Création d’un environnement](../../interaction/using/live-design-environments.md#creating-an-offer-environment)d’offre.
+>Utilisez exclusivement cette méthode de création d&#39;environnement pour les environnements de test. Dans tous les autres cas, utilisez l&#39;assistant de mapping de ciblage. Voir à ce sujet la section [Créer un environnement d&#39;offres](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 1. Lancez l&#39;explorateur Adobe Campaign et positionnez-vous au niveau du noeud racine de l&#39;instance.
 1. Cliquez avec le bouton droit et ajoutez un **[!UICONTROL Dossier libre]** à l&#39;aide des menus contextuels.
