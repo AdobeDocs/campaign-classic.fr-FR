@@ -42,7 +42,7 @@ Pour créer une opération collaborative par formulaire, le modèle **[!UICONTRO
 
 Dans l&#39;onglet **[!UICONTROL Edition]**, cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** pour accéder à l&#39;onglet **Marketing Distribué**.
 
-Select the **By form** Web interface. This type of interface lets you create personalization fields that will be used by local entities when ordering a campaign. Reportez-vous à [Création d’une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+Sélectionnez le type d&#39;interface Web **Par formulaire**. Ce type d&#39;interface permet la création de champs de personnalisation qui seront utilisés par les entités locales lors de la commande de l&#39;opération. Voir [Créer une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
 Enregistrez votre opération. Vous pouvez désormais l&#39;utiliser depuis la vue **Kits d&#39;opération** de l&#39;univers **Campagne**, en cliquant sur le bouton **[!UICONTROL Créer]**.
 
@@ -122,7 +122,7 @@ Les étapes sont les suivantes :
 1. Sélectionnez l&#39;opération de référence.
 1. Définissez le libellé du kit d&#39;opération, son dossier d&#39;enregistrement et indiquez son planning de réalisation.
 
-### Dates  {#dates}
+### Dates   {#dates}
 
 Les dates de début et de fin correspondent à la période de visibilité de l&#39;opération dans la liste des kits.
 
@@ -176,7 +176,7 @@ Lorsqu&#39;une entité locale enregistre sa participation, une notification est 
 
 ![](assets/mkg_dist_mutual_op_valid_command.png)
 
-For more on this, refer to the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+Voir à ce propos la section [Processus de validation](../../campaign/using/creating-a-local-campaign.md#approval-process).
 
 ## Valider une commande {#approving-an-order}
 
