@@ -49,7 +49,7 @@ Le Suivi comprend trois composants :
    * Arrêt inconditionnel
    Pour plus d’informations sur les workflows, consultez [cette page](../../workflow/using/about-workflows.md).
 
-   For more on how to monitor workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflow-execution.md).
+   Pour plus d’informations sur la surveillance des workflows, consultez la [section dédiée](../../workflow/using/monitoring-workflow-execution.md).
 
 * **Suivi Option** : consultez les activités et les dernières modifications apportées à vos options.
 
