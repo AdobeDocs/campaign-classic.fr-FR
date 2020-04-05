@@ -1,7 +1,7 @@
 ---
 title: Questions courantes
 seo-title: Questions courantes
-description: FAQ sur Campaign Classic
+description: FAQ sur Campaign Classic
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -19,19 +19,19 @@ source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
 ---
 
 
-# FAQ destinée aux développeurs {#dev-faq}
+# FAQ destiné aux développeurs {#dev-faq}
 
 En tant que solution ouverte, Adobe Campaign est prêt pour la personnalisation et le développement d&#39;applications avancées.
 
-## Quel est le modèle de données de campagne ? {#what-is-the-campaign-data-model}
+## Quel est le modèle de données de Campaign ? {#what-is-the-campaign-data-model}
 
-Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour plus d’informations sur les schémas Adobe Campaign, [reportez-vous à cette section](../../configuration/using/about-schema-edition.md).
+Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour plus d’informations sur les schémas Adobe Campaign, [consultez cette section](../../configuration/using/about-schema-edition.md).
 
-[Cliquez ici pour en savoir plus sur le modèle](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)de données de campagne.
+[Cliquez ici pour en savoir plus sur le modèle de données de Campaign](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
 Les bonnes pratiques sont répertoriées [dans cet article](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).
 
-## How to work with Campaign schemas? {#how-to-work-with-campaign-schemas-}
+## Comment utiliser des schémas de Campaign ?{#how-to-work-with-campaign-schemas-}
 
 Dans Adobe Campaign, les schémas de données permettent de :
 
@@ -41,13 +41,13 @@ Dans Adobe Campaign, les schémas de données permettent de :
 
 Consultez la section sur [la prise en main des tables et schémas](../../configuration/using/about-schema-edition.md) pour comprendre comment utiliser les schémas de données, étendre et personnaliser Campaign afin de répondre à vos besoins.
 
-## How to use a custom recipient table? {#how-to-use-a-custom-recipient-table-}
+## Comment utiliser une table de destinataires personnalisée ?{#how-to-use-a-custom-recipient-table-}
 
 Vous pouvez créer et implémenter une table de destinataires non standard dans Campaign pour envoyer vos messages.
 
 [Pour en savoir plus, cliquez ici](../../configuration/using/about-custom-recipient-table.md)
 
-## What are the best practices to define queries in Campaign? {#what-are-the-best-practices-to-define-queries-in-campaign-}
+## Quelles sont les bonnes pratiques pour définir des requêtes dans Campaign ? {#what-are-the-best-practices-to-define-queries-in-campaign-}
 
 Le requêteur Adobe Campaign est un outil puissant permettant d&#39;explorer les données et de créer des segments.
 
@@ -57,9 +57,9 @@ Vous pouvez interroger la base de données Campaign grâce au requêteur génér
 
 Les requêtes sont créées soit avec les champs disponibles de la table sélectionnée, soit à l&#39;aide d&#39;une formule. Les principes de base pour créer une requête sur la base de données Campaign sont présentés [dans cette page](../../platform/using/about-queries-in-campaign.md).
 
-[Cliquez ici](../../workflow/using/query.md) pour découvrir l&#39;éditeur de requêtes Campaign.
+[Cliquez ici](../../workflow/using/query.md) pour découvrir le requêteur de Campaign.
 
-## How can I import a data package? {#how-can-i-import-a-data-package-}
+## Comment importer un package de données ? {#how-can-i-import-a-data-package-}
 
 Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et les données de la plate-forme grâce à un système de packages. Les packages de données permettent l&#39;affichage des entités de la base de données Adobe Campaign à l&#39;aide de fichiers au format XML. Chaque entité contenue dans un package est représentée avec l&#39;ensemble de ses données.
 
@@ -67,6 +67,6 @@ Le principe des packages de données consiste à exporter un paramétrage de don
 
 [Cliquez ici](../../platform/using/working-with-data-packages.md) pour découvrir comment utiliser les packages de données pour importer et exporter des configurations Campaign.
 
-## Où puis-je trouver la liste des API Campaign Classic ? {#where-can-i-find-the-list-of-campaign-classic-apis}
+## Où puis-je trouver la liste des API Campaign Classic ? {#where-can-i-find-the-list-of-campaign-classic-apis}
 
-Toutes les API de campagne, y compris leur description complète, sont disponibles dans cette documentation [](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)dédiée.
+Toutes les API de Campaign, y compris leur description complète, sont disponibles dans cette [documentation dédiée](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
