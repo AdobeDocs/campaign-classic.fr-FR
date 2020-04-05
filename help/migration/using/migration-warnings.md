@@ -31,5 +31,5 @@ source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
 
 >[!NOTE]
 >
->Vous devez également consulter la section [Avant de commencer la migration](../../migration/using/before-starting-migration.md) .
+>Vous devez également consulter la section [Avant de commencer la migration](../../migration/using/before-starting-migration.md).
 
