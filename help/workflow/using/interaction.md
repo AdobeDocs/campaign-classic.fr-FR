@@ -37,8 +37,8 @@ Le workflow présenté ci-dessous est installé par défaut avec le module **Mot
    <td> Ce workflow met à jour l'agrégat <strong>Complet (full)</strong> du cube <strong>Proposition d'offre</strong>. Par défaut, il se déclenche tous les jours à 6H00. Cet agrégat capture les dimensions suivantes : Canal, Diffusion, Offre marketing et Date.<br /> Le cube <strong>Proposition d'offre</strong> est ensuite utilisé pour générer des rapports basés sur les offres. Pour plus d'informations sur les cubes, consultez <a href="../../reporting/using/about-cubes.md">cette section</a>.<br /> </td> 
   </tr> 
    <tr> 
-   <td> <span class="uicontrol">Calcul</span> d'agrégat complet de MessageCenter <br /> </td> 
-   <td> <span class="uicontrol">agg_messageCenter_full</span><br /> </td> 
+   <td> <span class="uicontrol">Calcul de l'agrégat full (cube propositionrcp) du MessageCenter</span> <br /> </td> 
+   <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
