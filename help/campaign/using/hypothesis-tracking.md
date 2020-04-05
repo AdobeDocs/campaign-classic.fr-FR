@@ -72,7 +72,7 @@ Vous pouvez visualiser les réactions des destinataires aux hypothèses depuis l
 
 ## Rapports {#reports}
 
-Le rapport **** d’hypothèse vous permet d’afficher les résultats des hypothèses appliquées aux campagnes et aux livraisons. Le présent rapport contient les indicateurs calculés par l&#39;hypothèse (pour plus de détails, voir [Indicateurs](#indicators)).
+Le **[!UICONTROL Rapport des hypothèses]** permet de consulter les résultats des hypothèses appliquées aux opérations et diffusions. Il contient les indicateurs calculés par l’hypothèse (voir à ce propos la section [Indicateurs](#indicators)).
 
 * **Au niveau d&#39;une opération** : cliquez sur le lien **[!UICONTROL Rapports]** de l&#39;opération concernée et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Ce rapport contiendra la liste des diffusions de l&#39;opération et les hypothèses calculées pour chacune des diffusions.
 
