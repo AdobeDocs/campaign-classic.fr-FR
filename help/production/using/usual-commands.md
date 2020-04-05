@@ -26,14 +26,14 @@ Cette section propose la liste des commandes usuelles sous Adobe Campaign.
 
 La commande **nlserver** est la commande d&#39;entrée de l&#39;ensemble de l&#39;applicatif Adobe Campaign.
 
-This command has the following syntax: **nlserver **`<command>`****`<arguments>`****
+La syntaxe de cette commande est la suivante : **nlserver **`<command>`****`<arguments>`****
 
-The parameter **`<command>`** corresponds to the module.
+Le paramètre **`<command>`** correspond au module.
 
 >[!NOTE]
 >
->* In any case, you can add the **-noconsole** argument to delete comments displayed once the modules are started.
->* Conversely, you can add the argument **-verbose** to display more information.
+>* Vous pouvez dans tous les cas adjoindre l&#39;argument **-noconsole** afin de supprimer les commentaires affichés après le lancement des modules.
+>* A contrario, vous pouvez ajouter l&#39;argument **-verbose** pour afficher plus d&#39;informations.
 >
 
 
@@ -42,9 +42,9 @@ The parameter **`<command>`** corresponds to the module.
 
 >[!NOTE]
 >
->To list all modules, you need to use the **nlserver pdump** command.
+>Pour lister l&#39;ensemble des modules, vous devez utiliser la commande **nlserver pdump**.
 
-You can add the parameter **-who** to list the connections in progress (database and application).
+Vous pouvez lui adjoindre le paramètre **-who** permettant de lister les connexions en cours (base de données et applicatif).
 
 ```
 nlserver pdump -who
@@ -130,21 +130,21 @@ De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des commande
 
 * Si vous avez un accès root ou administrateur :
 
-   * Sous Linux :/etc/init.d de démarrage de nlserver6
+   * Sous Linux : /etc/init.d/nlserver6 start
 
       >[!NOTE]
       >
-      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : nlserver de démarrage **systemctl**
+      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl  nlserver**
 
-   * Sous Windows :net start nlserver6
+   * Sous Windows : net start nlserver6
 
-* Otherwise, in the Adobe Campaign account: **nlserver watchdog -svc -noconsole**
+* Sinon, dans le compte Adobe Campaign : **nlserver watchdog -svc -noconsole**
 
 ## La commande config {#the-config-command}
 
-The **config** command lets you manage server configuration, including the reconfiguration of the database connection.
+La commande **config** permet de gérer la configuration du serveur, notamment de re-paramétrer la connexion à la base de données.
 
-Use the **config** command of the **nlserver** executable file with the **-setdblogin** parameter.
+Utilisez la commande **config** du fichier exécutable **nlserver** avec le paramètre **-setdblogin**.
 
 ```
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
@@ -156,7 +156,7 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 
 Vous devez saisir le mot de passe.
 
-To change the **internal** password: **nlserver config -internalpassword**
+Pour changer le mode de passe **internal** : **nlserver config -internalpassword**
 
 >[!CAUTION]
 >
@@ -164,8 +164,8 @@ To change the **internal** password: **nlserver config -internalpassword**
 
 >[!NOTE]
 >
->* In general, instead of modifying the configuration files by hand, you can use the **config** command
->* To get the list of parameters, use the **-?** parameter : config **nlserver -?**
+>* D&#39;une manière générale, au lieu de modifier les fichiers de configuration à la main, vous pouvez utiliser la commande **config**.
+>* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** : **nlserver config -?**
 >* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
 >
 >  
