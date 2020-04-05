@@ -28,7 +28,7 @@ Les formulaires sont présentés dans [cette section](../../configuration/using/
 
 ## Structure d&#39;un formulaire {#form-structure}
 
-The XML document of an input form must contain the **`<form>`** root element with the **name** and **namespace** attributes to populate the form name and its namespace, respectively.
+Le document XML d’un formulaire de saisie doit contenir l’élément racine **`<form>`** avec les attributs **name** et **namespace** pour renseigner le nom du formulaire et son espace de nommage, respectivement.
 
 ```
 <form name="form_name" namespace="name_space">
@@ -36,7 +36,7 @@ The XML document of an input form must contain the **`<form>`** root element wit
 </form>
 ```
 
-Par défaut, un formulaire est associé au schéma de données qui porte le même nom et le même espace de noms. Pour associer un formulaire avec un nom différent, saisissez la clé de schéma dans l’attribut **entity-schema** de l’ **`<form>`** élément.
+Par défaut, un formulaire est associé au schéma de données qui porte le même nom et le même espace de nommage. Pour associer un formulaire avec un nom différent, saisissez la clé de schéma dans l’attribut **entity-schema** de l’élément **`<form>`**.
 
 Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir de notre schéma d&#39;exemple &quot;cus:livre&quot; :
 
@@ -52,9 +52,9 @@ Le formulaire de saisie correspondant :
 </form>
 ```
 
-The description of the edit elements begins with the **`<form>`** root element.
+La description des éléments d’édition commence à partir de l’élément racine **`<form>`**.
 
-An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
+Un contrôle d’édition est renseigné sur un élément **`<input>`** avec l’attribut **xpath** qui contient le chemin du champ dans son schéma.
 
 **Rappel sur la syntaxe des XPaths :**
 
@@ -67,7 +67,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 Exemples:
 
 * **@date** : sélectionne l&#39;attribut de nom &quot;date&quot;
-* **chapter/@title**: sélectionne l’attribut &quot;title&quot; sous l’ `<chapter>` élément
+* **Chapter/@title** : sélectionne l’attribut &quot;titre&quot; sous l’élément `<chapter>`.
 * **../@date** : sélectionne la date sur l&#39;élément parent de l&#39;élément courant
 
 Le contrôle d&#39;édition s&#39;adapte automatiquement au type de données correspondant et utilise le libellé défini dans le schéma.
@@ -76,7 +76,7 @@ Par défaut, chaque champ est affiché sur une seule ligne et occupe tout l&#39;
 
 >[!CAUTION]
 >
->The input form must reference a **type=&quot;contentForm&quot;** attribute on the **`<form>`** element to automatically add the frame required for content to be input.
+>Le formulaire de saisie doit référencer un attribut **type=&quot;contentForm&quot;** sur l’élément **`<form>`** pour ajouter automatiquement l’encadrement nécessaire à la saisie du contenu.
 
 ## Mise en forme {#formatting}
 
@@ -103,7 +103,7 @@ Ce contrôle affiche une liste à colonnes éditable avec une barre d&#39;outils
 
 Le contrôle liste doit être renseigné avec l&#39;attribut **type=&quot;list&quot;**, le chemin de la liste doit porter sur l&#39;élément de collection.
 
-The columns are declared by the child **`<input>`** elements of the list.
+Les colonnes sont déclarées par les éléments **`<input>`** enfants de la liste.
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Les formes d&#39;édition dans les listes sont utilisées dans les cas suivants 
 </input>
 ```
 
-La définition du formulaire de modification est spécifiée via l’ **`<form>`** élément situé sous l’élément de liste. Sa structure est identique à celle d’un formulaire d’entrée.
+La définition du formulaire d’édition est spécifiée via l’élément **`<form>`** situé sous l’élément de liste. Sa structure est identique à celle d’un formulaire de saisie.
 
 Un bouton **[!UICONTROL Détail]** est automatiquement ajouté lorsque l&#39;attribut **zoom=&quot;true&quot;** est renseigné dans la définition de la liste, celui-ci permet de lancer le formulaire d&#39;édition sur la ligne sélectionnée.
 
@@ -179,7 +179,7 @@ Le contrôle liste doit être renseigné avec l&#39;attribut **type=&quot;notebo
 
 Le titre de l&#39;onglet contient la valeur de la donnée renseignée à partir de l&#39;attribut **xpath-label**.
 
-The edit controls must be declared under a **`<container>`** element that is a child of the list control.
+Les contrôles d’édition doivent être déclarés sous un élément **`<container>`** enfant du contrôle liste.
 
 Utilisez les boutons de la barre d&#39;outils pour ajouter ou supprimer des éléments de la liste.
 
@@ -189,7 +189,7 @@ Utilisez les boutons de la barre d&#39;outils pour ajouter ou supprimer des él�
 
 ## Les conteneurs {#containers}
 
-Les conteneurs vous permettent de grouper un ensemble de contrôles. Ils existent via l&#39; **`<container>`** élément. Ils ont déjà été utilisés pour mettre en forme les contrôles dans plusieurs colonnes et pour contrôler la liste d’onglets.
+Les conteneurs vous permettent de regrouper un ensemble de contrôles. Ils existent via l’élément **`<container>`**. Ils ont déjà été utilisés pour mettre en forme les contrôles dans plusieurs colonnes et pour contrôler la liste d’onglets.
 
 Les containers et leur utilisation dans les formulaires de saisie sont présentés dans [cette section](../../configuration/using/form-structure.md#containers).
 
