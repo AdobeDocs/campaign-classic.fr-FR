@@ -26,7 +26,7 @@ Les paramètres avancés du tracking des messages sont accessibles à partir de 
 
 >[!NOTE]
 >
->La gestion des images dans les courriels est également configurée dans cette fenêtre. Voir [Ajout d’images](../../delivery/using/defining-the-email-content.md#adding-images).
+>La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Voir la section [Ajout d’images](../../delivery/using/defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
