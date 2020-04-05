@@ -54,7 +54,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
 1. L&#39;onglet **[!UICONTROL Résultat]** permet d&#39;ajouter des informations complémentaires.
 
-   For example, you can recover the county based on the zip code by using a **Substring** type function. Pour cela :
+   Vous pouvez par exemple récupérer le numéro du département à partir du code postal en utilisant une fonction de type **Substring**. Pour cela :
 
    * Cliquez sur le lien **[!UICONTROL Ajouter des données...]** et sélectionnez **[!UICONTROL Données liées à la dimension de filtrage]**.
 
@@ -62,7 +62,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
       >[!NOTE]
       >
-      >For information on creating and managing additional columns, refer to [Adding data](../../workflow/using/query.md#adding-data).
+      >La création et la gestion des colonnes additionnelles sont présentées dans la section [Ajouter des données](../../workflow/using/query.md#adding-data).
 
    * Choisissez la dimension de ciblage précédente (avant le basculement d&#39;axe) et sélectionnez le **[!UICONTROL Code Postal]** dans la sous-arborescence **[!UICONTROL Localisation]** du destinataire, puis cliquez sur **[!UICONTROL Editer l&#39;expression]**.
 
