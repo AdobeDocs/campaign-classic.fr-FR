@@ -28,9 +28,9 @@ Ce cas pratique présente comment générer, chaque mois, le rapport d&#39;usine
 
 Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes :
 
-* Création d’une liste de destinataires qui recevront la remise (voir : [Étape 1 : Création de la liste](#step-1--creating-the-recipient-list)des destinataires).
-* Creating a delivery template that will let you generate a new delivery each time the workflow is executed (refer to: [Step 2: Creating the delivery template](#step-2--creating-the-delivery-template)).
-* Creating a workflow that will let you generate the report in PDF format and send it to the list of recipients (refer to: [Step 3: Creating the workflow](#step-3--creating-the-workflow)).
+* Création d’une liste de destinataires qui recevront la diffusion (voir : [Etape 1 : création de la liste de destinataires](#step-1--creating-the-recipient-list)).
+* Création d&#39;un modèle de diffusion qui permettra de générer une nouvelle diffusion à chaque exécution du workflow (voir : [Etape 2 : création du modèle de diffusion](#step-2--creating-the-delivery-template)).
+* Création d&#39;un workflow qui permettra de générer le rapport au format PDF et de l&#39;envoyer à la liste de destinataires (voir : ](#step-3--creating-the-workflow)Etape 3 : création du workflow[).
 
 ## Etape 1 : création de la liste de destinataires {#step-1--creating-the-recipient-list}
 
@@ -52,7 +52,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
    ![](assets/use_case_report_3.png)
 
-1. Chaque fois que le flux de travail est exécuté, le rapport Indicateurs **[!UICONTROL de]** suivi est mis à jour (voir [Étape 3 : Création du processus](#step-3--creating-the-workflow)). Pour inclure la dernière version du rapport dans la remise, vous devez ajouter une pièce jointe **** calculée :
+1. Chaque fois que le workflow est exécuté, le rapport des **[!UICONTROL Indicateurs de tracking]** est mis à jour (voir [Etape 3 : création du workflow](#step-3--creating-the-workflow)). Pour inclure la dernière version du rapport dans la diffusion, vous devez ajouter un **[!UICONTROL Attachement calculé]** :
 
    Pour plus d&#39;informations sur la création d&#39;un attachement calculé, reportez-vous à cette [section](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
@@ -72,7 +72,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
       >[!CAUTION]
       >
-      >Le fichier doit être présent sur le serveur. Son chemin d’accès et son nom doivent être identiques à ceux entrés dans l’activité de type de code **** JavaScript du flux de travaux (voir : [Étape 3 : Création du processus](#step-3--creating-the-workflow)).
+      >Le fichier doit être présent sur le serveur. Son chemin d’accès et son nom doivent être identiques à ceux saisis dans l’activité de type **[!UICONTROL Code JavaScript]** du workflow (voir : [Etape 3 : création du workflow](#step-3--creating-the-workflow)).
 
    * Sélectionnez l&#39;onglet **[!UICONTROL Avancé]** et cochez la case **[!UICONTROL Scripter le nom du fichier qui sera affiché dans la messagerie du destinataire]**. Dans la zone d&#39;édition, saisissez le nom que vous souhaitez donner à la pièce jointe, dans la diffusion finale.
 
@@ -96,7 +96,7 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
 
    ![](assets/use_case_report_9.png)
 
-   For more on configuring the scheduler, refer to [Scheduler](../../workflow/using/scheduler.md).
+   Pour plus d&#39;informations sur la configuration du planificateur, consultez la section [Planificateur](../../workflow/using/scheduler.md).
 
 1. Ajoutez ensuite une activité de type **[!UICONTROL Code JavaScript]**.
 
@@ -122,7 +122,7 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
 
       >[!CAUTION]
       >
-      >Le fichier doit être enregistré sur le serveur. Vous devez saisir le même chemin et le même nom dans l’onglet **[!UICONTROL Général]** de la fenêtre de modification de la pièce jointe calculée (voir : [Étape 2 : Création du modèle](#step-2--creating-the-delivery-template)de diffusion).
+      >Le fichier doit être enregistré sur le serveur. Vous devez saisir le même chemin et le même nom dans l’onglet **[!UICONTROL Général]** de la fenêtre d’édition de l’attachement calculé (voir : [Etape 2 : Création du modèle de diffusion](#step-2--creating-the-delivery-template)).
 
    * **var exportFormat** : saisissez le format d&#39;export du fichier (&quot;PDF&quot;).
    * **var _ctx** (contexte) : dans notre exemple, nous utilisons le rapport **[!UICONTROL Indicateurs de tracking]** dans son contexte global.
