@@ -1,6 +1,6 @@
 ---
-title: Advanced parameters
-seo-title: Advanced parameters
+title: Paramètres avancés
+seo-title: Paramètres avancés
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
