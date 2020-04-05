@@ -28,9 +28,9 @@ Ce chapitre présente les différents paramétrages avancés possibles dans Inte
 >
 >Le chapitre suivant s&#39;adresse aux **administrateurs techniques**.
 
-* Vous pouvez utiliser des données contextuelles supplémentaires. Refer to the [Additional data](../../interaction/using/additional-data.md) section.
-* You can enrich the application contexts of the suggested offers via an incoming channel. To do this, the **nms:interaction** interaction schema must be extended. Reportez-vous à l&#39;exemple [d&#39;](../../interaction/using/extension-example.md) extension pour obtenir la procédure complète.
-* La création d’un environnement de test est détaillée dans la section [Création d’un environnement](../../interaction/using/creating-a-test-environment.md) de test.
-* Vous pouvez modifier le comportement standard du moteur à l&#39;aide de crochets. For more on this, refer to the [Hooks](../../interaction/using/hooks.md) section
-* Finally, using Interaction with a distributed architecture is detailed in the [Distributed architectures](../../interaction/using/distributed-architectures.md) section.
+* Vous pouvez utiliser des données contextuelles additionnelles. Reportez-vous à la section [Données additionnelles](../../interaction/using/additional-data.md).
+* Vous avez la possibilité d’enrichir les contextes d’application des offres proposées via un canal entrant. Pour cela, le schéma d’interaction **nms:interaction** doit être étendu. Reportez-vous à l’[exemple d’extension](../../interaction/using/extension-example.md) pour connaître la procédure à suivre.
+* La création d’un environnement de test est présentée dans la section [Créer un environnement de test](../../interaction/using/creating-a-test-environment.md).
+* Vous pouvez modifier le comportement standard du moteur à l’aide de points d’extension. Voir à ce propos la section [Points d’extension](../../interaction/using/hooks.md).
+* Enfin, l’utilisation d’Interaction avec une architecture répartie est présentée dans la section [Architectures réparties](../../interaction/using/distributed-architectures.md).
 
