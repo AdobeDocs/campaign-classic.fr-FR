@@ -1,7 +1,7 @@
 ---
-title: A propos des activités d’événement
-seo-title: A propos des activités d’événement
-description: A propos des activités d’événement
+title: À propos des activités d’événement
+seo-title: À propos des activités d’événement
+description: À propos des activités d’événement
 seo-description: null
 page-status-flag: never-activated
 uuid: 68a7c3b1-5f6b-482d-97d1-b7b398284ab5
@@ -20,12 +20,12 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 ---
 
 
-# A propos des activités d’événement{#about-event-activities}
+# À propos des activités d’événement{#about-event-activities}
 
 La tâche principale de ces activités consiste à attendre un événement. Il peut s&#39;agir par exemple de la réception d&#39;un fichier, d&#39;un mail ou d&#39;un signal envoyé programmatiquement.
 
-* Collecteur de fichiers : surveille l’arrivée d’un ou de plusieurs fichiers dans un répertoire et active la transition pour chaque fichier reçu. Reportez-vous au collecteur de [fichiers](../../workflow/using/file-collector.md).
-* Transfert de fichier : transfère un fichier sur un serveur. Reportez-vous à Transfert [de](../../workflow/using/file-transfer.md)fichier.
-* Téléchargement Web : télécharge un fichier à partir du Web. Reportez-vous au téléchargement [](../../workflow/using/web-download.md)Web.
-* Réception par SMS et e-mail : récupère et traite les courriers électroniques ou les SMS. Reportez-vous aux [messages SMS](../../workflow/using/inbound-sms.md) entrants et aux courriels [](../../workflow/using/inbound-emails.md)entrants.
+* Collecteur de fichiers : effectue un suivi de l’arrivée d’un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus. Voir à ce sujet la section [Collecteur de fichiers](../../workflow/using/file-collector.md).
+* Transfert de fichier : transfère un fichier sur un serveur. Voir à ce sujet la section [Transfert de fichier](../../workflow/using/file-transfer.md).
+* Téléchargement Web : télécharge un fichier depuis le web. Voir à ce sujet la section [Téléchargement Web](../../workflow/using/web-download.md).
+* Réception de SMS et Réception d’emails : récupère et traite des emails ou des SMS. Voir à ce sujet les sections [Réception de SMS](../../workflow/using/inbound-sms.md) et [Réception d’emails](../../workflow/using/inbound-emails.md).
 
