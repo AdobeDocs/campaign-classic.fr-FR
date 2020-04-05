@@ -30,7 +30,7 @@ Pour chaque dimension de ciblage utilisée dans le cadre de la gestion des offre
 
    Les catégories peuvent également être publiées manuellement dans l&#39;environnement en ligne.
 
-   Le processus d’approbation des offres est détaillé dans la section [Approbation et activation d’une offre](../../interaction/using/approving-and-activating-an-offer.md) .
+   Le processus de validation des offres est détaillé dans la section [Valider et activer une offre](../../interaction/using/approving-and-activating-an-offer.md).
 
 * Un environnement en ligne, dans lequel se trouvent les offres validées de l&#39;environnement en édition, ainsi que les différents emplacements, filtres, catégories et règles paramétrées dans l&#39;environnement en édition. Lors d&#39;un appel au moteur d&#39;offres, ce dernier utilisera toujours les offres de l&#39;environnement en ligne.
 
