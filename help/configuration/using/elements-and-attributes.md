@@ -46,13 +46,13 @@ _operation (string), advanced (boolean), applicableIf (string), autoIncrement (b
 
 ### Description {#description}
 
-`<attribute>` permet de définir un champ dans la base de données.
+Les éléments `<attribute>` vous permettent de définir un champ dans la base de données.
 
 ### Usage et contexte d&#39;utilisation {#use-and-context-of-use}
 
-`<attribute>` doit être déclarée dans un `<element>` élément.
+Les éléments `<attribute>` doivent être déclarés dans un élément `<element>`.
 
-La séquence dans laquelle `<attribute>` les éléments sont définis dans une `<srcschema>` n’affecte pas la séquence de création de champ dans la base de données. La séquence de création sera alphabétique.
+La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<srcschema>` n’affecte pas la séquence de création de champ dans la base de données. La séquence de création sera alphabétique.
 
 ### Description des attributs {#attribute-description}
 
@@ -69,7 +69,7 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
    * &quot;delete&quot; : Suppression. Signifie qu&#39;Adobe Campaign va retrouver et supprimer l&#39;élément.
 
 * **advanced (boolean)**: quand cette option est activée (@advanced=&quot;true&quot;), elle permet de masquer l&#39;élément dans la liste des champs disponibles et accessibles pour la configuration d&#39;une liste dans un formulaire.
-* **applicableIf (chaîne)**: cet attribut vous permet de rendre les champs facultatifs. L’ `<attribute>` élément sera pris en compte lors de la mise à jour de la base de données lorsque la contrainte sera respectée. &quot;applicableIf&quot; reçoit une expression XTK.
+* **applicableIf (string)** : cet attribut vous permet de rendre les champs facultatifs. L’élément `<attribute>` sera pris en compte lors de la mise à jour de la base de données lorsque la contrainte sera respectée. &quot;applicableIf&quot; reçoit une expression XTK.
 * **autoIncrement (boolean)**: si cette option est activée, le champ devient un compteur. Cela permet d&#39;incrémenter une valeur (le plus souvent un ID).(usage interne)
 * **belongsTo (string)**: prend le nom et le namespace de la table qui partage le champ - renseigne le schéma oà¹ est déclaré l&#39;attribut. (utilisé uniquement dans un `<schema>`).
 * **dataPolicy (string)**: permet de préciser des contraintes de validation sur les valeurs permises dans le champ de type SQL ou XML, les valeurs pour cet attribut sont :
@@ -124,12 +124,12 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
    * &quot;never&quot; : jamais présente
    * &quot;default (ou rien)&quot; : la valeur est exportée sauf si c&#39;est la valeur par défaut ou bien si ce n&#39;est pas un champ interne qui ne serait pas compatible entre plusieurs instances.
 
-* **ref (string)**: cet attribut définit une référence à un `<attribute>` élément partagé par plusieurs schémas (factorisation des définitions). La définition n’est pas copiée dans le schéma actuel.
+* **ref (string)** : cet attribut définit une référence à un élément `<attribute>` partagé par plusieurs schémas (factorisation des définitions). La définition n’est pas copiée dans le schéma actuel.
 * **required (boolean)**: si cet attribut est activé (@required=&quot;true&quot;), le champ est mis en avant dans l&#39;interface. Le label du champ est affiché en rouge dans un formulaire.
 * **sql (boolean)**: si cet attribut est activé (@sql=&quot;true&quot;), il force le stockage de l&#39;attribut en SQL même lorsque l&#39;élément contenant l&#39;attribut a la propriété xml=&quot;true&quot;.
-* **sqlDefault (string)**: cet attribut permet de définir la valeur par défaut qui sera prise en compte pour la mise à jour de la base de données uniquement si l&#39;attribut &quot;@notNull&quot; est activé. Si cet attribut est ajouté après la création de l’attribut, le comportement du schéma ne changera même pas pour les nouveaux enregistrements. Pour modifier le schéma et mettre à jour la valeur des nouveaux enregistrements, vous devez supprimer et créer à nouveau l’attribut.
+* **sqlDefault (string)**: cet attribut permet de définir la valeur par défaut qui sera prise en compte pour la mise à jour de la base de données uniquement si l&#39;attribut &quot;@notNull&quot; est activé. Si cet attribut est ajouté après la création de l’attribut, le comportement du schéma ne changera pas, même pour les nouveaux enregistrements. Pour modifier le schéma et mettre à jour la valeur des nouveaux enregistrements, vous devez supprimer et créer à nouveau l’attribut.
 * **sqlname (string)**: nom du champ lors de la création de la table. Si &quot;@sqlname&quot; n&#39;est pas précisé la valeur de l&#39;attribut &quot;@name&quot; est pris par défaut. Lors de l&#39;écriture du schéma en base, des préfixes sont automatiquement rajoutés en fonction du type du champ.
-* **template (chaîne)**: cet attribut définit une référence à un `<attribute>` élément partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
+* **template (string)** : cet attribut définit une référence à un élément `<attribute>` partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
 * **translatedDefault (string)**: si un attribut &quot;@default&quot; est présent, l&#39;attribut &quot;@translatedDefault&quot; permet de redéfinir une expression, correspondante de l&#39;expression définie dans &quot;@default&quot;, qui sera collectée par l&#39;outil de traduction (usage interne).
 * **translatedExpr (string)**: si un attribut &quot;@expr&quot; est présent, l&#39;attribut &quot;@translatedExpr&quot; permet de redéfinir une expression, correspondante de l&#39;expression définie dans &quot;@expr&quot;, qui sera collectée par l&#39;outil de traduction (usage interne).
 * **type (MNTOKEN)**: type du champ.
@@ -141,7 +141,7 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
    * ANY
    * bin
    * blob
-   * booléen
+   * boolean
    * byte
    * CDATA
    * datetime
@@ -160,8 +160,8 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
    * percent
    * primarykey
    * short
-   * chaîne
-   * le temps ;
+   * string
+   * time
    * timespan
    * uuid
    Si l&#39;attribut &quot;@type&quot; est laissé vide, Adobe Campaign associe par défaut un type chaîne de caractères (STRING) de longueur 100 au champ.
@@ -177,7 +177,7 @@ La séquence dans laquelle `<attribute>` les éléments sont définis dans une `
 
 * **xml (boolean)**: si cette option est activée, les valeurs du champ n&#39;ont pas de champ SQL associé. Adobe Campaign crée un champ &quot;mData&quot; de type Text pour stocker les enregistrements. En conséquence, il n&#39;y a pas de filtrage ni de tri sur ces champs.
 
-### Exemples {#examples}
+### Exemples  {#examples}
 
 Exemple d&#39;énumération dont les valeurs sont stockées en base:
 
@@ -239,17 +239,17 @@ Aucun
 
 ### Description {#description-1}
 
-The `<compute-string>` element enables you to generate a string based on an XTK expression to display a &quot;built&quot; label in the interface based on several values.
+L’élément `<compute-string>` sert à générer une chaine basée sur une expression XTK afin d&#39;afficher dans l&#39;interface un libellé « construit » à partir de plusieurs valeurs.
 
 ### Usage et contexte d&#39;utilisation {#use-and-context-of-use-1}
 
-When no `<compute-string>` is defined, a `<compute-string>` element is entered by default with the values of the primary key in the schema.
+Lorsqu’aucun `<compute-string>` n’est défini, un élément `<compute-string>` est renseigné par défaut avec les valeurs de la clé primaire du schéma.
 
 ### Description des attributs {#attribute-description-1}
 
 * **expr (string)**: expression XTK et/ou Xpath.
 
-### Exemples {#examples-1}
+### Exemples  {#examples-1}
 
 ```
 <compute-string expr="@label + Iif(@code='','', ' (' + [folder/@label] + ')')"/>  
@@ -292,15 +292,15 @@ Cet élément permet de définir une condition de filtrage.
 
 ### Usage et contexte d&#39;utilisation {#use-and-context-of-use-2}
 
-One `<sysfiler>`  element can contain several filtering conditions.
+Plusieurs conditions de filtrage peuvent être définies dans un même élément `<sysfiler>`.
 
 ### Description des attributs {#attribute-description-2}
 
-* **boolOperator (chaîne)**: si plusieurs `<conditions>` sont définis dans le même `<sysfilter>` élément, cet attribut vous permet de les combiner. Par défaut, le lien logique entre `<condition>` les éléments est &quot;AND&quot;. L’attribut &quot;@boolOperator&quot; permet de combiner des liens de type &quot;OR&quot; et &quot;AND&quot;.
+* **boolOperator (string)** : si plusieurs `<conditions>` sont définis dans le même élément `<sysfilter>`, cet attribut vous permet de les combiner. Par défaut, le lien logique entre les éléments `<condition>` est « AND ». L’attribut « @boolOperator » permet de combiner des liens de type « OR » et « AND ».
 * **enabledIf (string)**: test d&#39;activation de la condition.
 * **expr (string)**: une expression XTK.
 
-### Exemples {#examples-2}
+### Exemples  {#examples-2}
 
 ```
 <sysfilter>
@@ -338,7 +338,7 @@ Cet élément permet de définir un index associé à une table.
 
 Il est possible de définir plusieurs index. Un index peut référencer un ou plusieurs champs de la table. Généralement, la déclaration des index suit la définition de l&#39;élément principal du schéma.
 
-L&#39;ordre des `<keyfield>` éléments définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
+L&#39;ordre des éléments `<keyfield>` définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
 
 Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Exemple : Nom de la table : &quot;Sample&quot;, Namespace : &quot;Cus&quot;, nom de l&#39;index : &quot;MyIndex&quot; - nom du champ de l&#39;index lors de la requête de création de l&#39;index en table : &quot;CusSample_myIndex&quot;.
 
@@ -361,9 +361,9 @@ Le nom de l&#39;index en base est calculé par concaténation du nom de la table
 * **name (MNTOKEN)**: nom unique de l&#39;index.
 * **unique (boolean)**: si cette option est activée (@unique=&quot;true&quot;), alors cet attribut garantie l&#39;unicité de l&#39;index sur l&#39;ensemble des champs qui le composent.
 
-### Exemples {#examples-3}
+### Exemples  {#examples-3}
 
-Création d’un index sur le champ &quot;id&quot;. (l’attribut &quot;@unique&quot; sur l’ `<dbindex>` élément déclenche l’ajout du mot clé SQL &quot;UNIQUE&quot; lorsque l’index est créé dans la base de données (requête)).
+Création d’un index sur le champ « id ». (L’attribut « @unique » sur l’élément `<dbindex>` déclenche l’ajout du mot clé SQL « UNIQUE » lorsque l’index est créé dans la base de données (requête)).
 
 ```
 <element label="Sample" name="Sample">
@@ -431,12 +431,12 @@ _operation (string), advanced (boolean), aggregate (string), applicableIf (strin
 
 ### Description {#description-4}
 
-There are four types of `<element>`  elements in Adobe Campaign:
+Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 
-* Root `<element>`  : defines the name of the SQL table that matches the schema.
-* Structure `<element>`  : defines a group of  `<element>`   or   `<attribute>`    elements.
-* Lien `<element>` : définit un lien. Ces éléments doivent inclure l’attribut &quot;@type=link&quot;.
-* XML `<element>` : définit un champ de type Texte &quot;mData&quot;. Cet élément doit inclure l’attribut &quot;@type=xml&quot;.
+* Racine `<element>` : définit le nom SQL de la table qui correspond au schéma.
+* Structure`<element>` : définit un groupe d’éléments `<element>` ou `<attribute>`.
+* Lien `<element>` : définit un lien. Ces éléments doivent inclure l’attribut « @type=link ».
+* XML `<element>` : définit un champ de type Texte « mData ». Cet élément doit inclure l’attribut « @type=xml ».
 
 ### Description des attributs {#attribute-description-4}
 
@@ -453,7 +453,7 @@ There are four types of `<element>`  elements in Adobe Campaign:
    * &quot;delete&quot; : Suppression. Signifie qu&#39;Adobe Campaign va retrouver et supprimer l&#39;élément.
 
 * **advanced (boolean)**: quand cette option est activée (@advanced=&quot;true&quot;), elle permet de masquer l&#39;élément dans la liste des champs disponibles et accessibles pour la configuration d&#39;une liste dans un formulaire.
-* **agrégat (chaîne)**: vous permet de copier la définition d’un schéma `<element>` via un autre schéma. Cet attribut reçoit une déclaration de schéma sous la forme d’un &quot;namespace:name&quot;.
+* **aggregate (string)** : vous permet de copier la définition d’un `<element>` via un autre schéma. Cet attribut reçoit une déclaration de schéma sous la forme d’un « namespace:name ».
 * **applicableIf (string)**: condition d&#39;applicabilité de l&#39;élément. Cet attribut reçoit une expression XTK.
 * **autopk (boolean)**: si cette option est activée (autopk=&quot;true&quot;), alors une clé unique est automatiquement définie. Cette option ne peut être utilisée que sur l&#39;élément principal du schéma. Attention, Adobe Campaign donne seulement la garantie que la clef générée est unique. Le fait que les valeurs des clefs soient consécutives et incrémentales n&#39;est pas assuré.
 * **dataPolicy (string)**: permet de préciser des contraintes de validation sur les valeurs permises dans le champ SQL, les valeurs pour cet attribut sont :
@@ -471,7 +471,7 @@ There are four types of `<element>`  elements in Adobe Campaign:
 * **defOnDuplicate (boolean)**: si cet attribut est activé, lors de la duplication d&#39;un enregistrement, la valeur par défaut (définie dans &quot;@default&quot;) est réappliquée automatiquement à l&#39;enregistrement.
 * **default (string)**: permet de définir le comportement de l&#39;élément (appel à une fonction, valeur par défaut). Cet attribut reçoit une expression XTK.
 * **desc (string)**: permet d&#39;insérer une description de l&#39;élément. Cette description s&#39;affiche dans la barre de statut de l&#39;interface.
-* **displayAsField (booléen)**: si cet attribut est activé, un type de &quot;lien&quot; `<element>` s’affiche sous forme de champ dans l’arborescence des schémas (onglet &quot;Structure&quot;). De cette façon, il est possible d&#39;afficher un lien en tant que champ local et de modifier son comportement pendant une requête. Lorsque l&#39;élément est trouvé dans le SELECT d&#39;une requête, la valeur de la cible du lien est utilisée. Lorsque l’élément est trouvé dans l’OÙ d’une requête, la clé sous-jacente du lien est utilisée.
+* **displayAsField (boolean)** : si cet attribut est activé, un `<element>` de type « link » s’affiche sous forme de champ dans l’arborescence des schémas (onglet « Structure »). De cette façon, il est possible d&#39;afficher un lien en tant que champ local et de modifier son comportement pendant une requête. Lorsque l&#39;élément est trouvé dans le SELECT d&#39;une requête, la valeur de la cible du lien est utilisée. Lorsque l’élément est trouvé dans le WHERE d’une requête, la clé sous-jacente du lien est utilisée.
 * **edit (string)**: cet attribut précise le type d&#39;input qui sera utilisé dans le formulaire associé à l&#39;élément du schéma en cours de définition.
 * **enum (string)**: reçoit le nom de l&#39;énumération associé au champ. L&#39;énumération peut être insérée dans le même schéma ou bien dans un schéma distant. L&#39;énumération définie une liste fermée de valeurs.
 * **expr (string)**: cet attribut définit un champ calculé dont la définition n&#39;est pas stockée dans la table. Il reçoit un Xpath ou une expression XTK.
@@ -528,10 +528,10 @@ There are four types of `<element>`  elements in Adobe Campaign:
    * &quot;never&quot; : l&#39;élément ne sera jamais présent
    * &quot;default (ou rien)&quot; : l&#39;élement est exporté sauf si c&#39;est l&#39;élément par défaut ou bien si ce n&#39;est pas un champ interne qui ne serait pas compatible entre instances
 
-* **ref (string)**: cet attribut définit une référence vers un élément &lt;element> partagé par plusieurs schémas (factorisation des définitions). La définition n&#39;est pas recopiée dans le schéma courant.
+* **ref (string)** : cet attribut définit une référence vers un élément &lt;element> partagé par plusieurs schémas (factorisation des définitions). La définition n&#39;est pas recopiée dans le schéma courant.
 * **required (boolean)**: si cet attribut est activé (@required=&quot;true&quot;), le champ est mis en avant dans l&#39;interface. Le label du champ est affiché en rouge dans un formulaire.
 * **revAdvanced (boolean)**: s&#39;il est activé, cet attribut précise que le lien inverse est de type &quot;advanced&quot;.
-* **revCardinality (chaîne)**: cet attribut définit la cardinalité d’un lien entre deux tables. Il est utilisé dans un type de &quot;lien&quot; `<element>`.
+* **evCardinality (string)** : cet attribut définit la cardinalité d&#39;un lien entre deux tables. Il est utilisé dans un `<element>` de type &quot;link&quot;.
 
    Les valeurs possibles sont les suivantes :
 
@@ -543,15 +543,15 @@ There are four types of `<element>`  elements in Adobe Campaign:
 * **revExternalJoin (boolean)**: s&#39;il est activé, cet attribut permet de forcer la jointure externe sur le lien inverse.
 * **revIntegrity (string)**: cet attribut définit l&#39;intégrité sur le schéma cible. Les mêmes valeurs que l&#39;attribut &quot;@integrity&quot; sont autorisés. Par défaut, Adobe Campaign donne la valeur &quot;normal&quot; à cet attribut.
 * **revLabel (string)**: libellé du lien inverse.
-* **revLink (chaîne)**: nom du lien opposé. Si la valeur est &quot;_NONE_&quot;, aucun lien opposé n’est créé dans le schéma de destination.
+* **revLink (string)** : nom du lien inverse. Si la valeur est &quot;_NONE_&quot;, aucun lien inverse ne sera créé dans le schéma destination.
 * **revTarget (string)**: cible du lien inverse.
 * **sql (boolean)**: si cet attribut est activé (@sql=&quot;true&quot;), il force le stockage de l&#39;élément en SQL même lorsque l&#39;élément a la propriété xml=&quot;true&quot;.
 * **sqlname (string)**: nom du champ lors de la création de la table. Si &quot;@sqlname&quot; n&#39;est pas précisé la valeur de l&#39;attribut &quot;@name&quot; est pris par défaut. Lors de l&#39;écriture du schéma en table des préfixes seront automatiquement rajoutés en fonction du type du champ.
 * **sqltable (string)**: pour l&#39;élément principal du schéma, cet attribut surcharge le nom de la table SQL généré par défaut. Si &quot;@sqltable&quot; n&#39;est pas précisé le nom par défaut est de la forme: namespace (avec la première lettre en majuscule) et la valeur du &quot;@name&quot; du SrcSchema.
-* **tableSpace (chaîne)**: cet attribut vous permet de spécifier une nouvelle donnée stockant un espace disque logique pour une table (valide à la racine `<element>`).
-* **tableSpaceIndex (chaîne)**: cet attribut vous permet de spécifier un nouvel espace disque logique de stockage d&#39;index pour une table (valide à la racine `<element>`).
+* **tableSpace (string)** : cet attribut permet de spécifier un nouveau tablespace de stockage de données pour une table (valable sur l’élément `<element>` racine).
+* **tableSpaceIndex (string)** : cet attribut permet de spécifier un nouveau tablespace de stockage des index pour une table (valable sur l&#39;élément `<element>` racine).
 * **target (MNTOKEN)**: reçoit le nom du schéma cible lors de la création d&#39;un lien entre tables. Cet attribut n&#39;est actif que si l&#39;élément est de type &quot;link&quot;.
-* **template (chaîne)**: cet attribut définit une référence à un `<element>` élément partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
+* **template (string)** : cet attribut définit une référence à un élément `<element>` partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
 * **translatedDefault (string)**: si un attribut &quot;@default&quot; est présent, l&#39;attribut &quot;@translatedDefault&quot; permet de redéfinir une expression, correspondante de l&#39;expression définie dans &quot;@default&quot;, qui sera collectée par l&#39;outil de traduction (usage interne).
 * **translatedExpr (string)**: si un attribut &quot;@expr&quot; est présent, l&#39;attribut &quot;@translatedExpr&quot; permet de redéfinir une expression, correspondante de l&#39;expression définie dans &quot;@expr&quot;, qui sera collectée par l&#39;outil de traduction (usage interne).
 * **type (MNTOKEN)**: définit le type des données stockées dans l&#39;élément.
@@ -561,7 +561,7 @@ There are four types of `<element>`  elements in Adobe Campaign:
    * ANY
    * bin
    * blob
-   * booléen
+   * boolean
    * byte
    * CDATA
    * datetime
@@ -580,15 +580,15 @@ There are four types of `<element>`  elements in Adobe Campaign:
    * percent
    * primarykey
    * short
-   * chaîne
-   * le temps ;
+   * string
+   * time
    * timespan
    * uuid
 
 * **unbound (boolean)**: si l&#39;attribut est activé (unbound=&quot;true&quot;), le lien est déclaré comme élément de collection pour une cardinalité 1-N.
 * **userEnum (string)**: reçoit le nom interne d&#39;une énumération &quot;ouverte&quot;. Les valeurs de l&#39;énumération peuvent être définies par l&#39;utilisateur dans l&#39;interface.
 * **xml (boolean)**: si cette option est activée, l&#39;ensemble des valeurs définies dans l&#39;élément seront stockées en XML dans un champ &quot;mData&quot; de type TEXT. En conséquence, il n&#39;y a pas de filtrage ni de tri sur ces champs.
-* **xmlChildren (booléen)**: force le stockage pour chaque enfant ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
+* **xmlChildren (booléen)** : force le stockage pour chaque enfant ( `<element>  or  <attribute>   ) of the   <element>    element in an XML document.   </element>  </attribute> </element>`
 
 ## `<enumeration>` element {#enumeration--element}
 
@@ -631,7 +631,7 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
    * ANY
    * bin
    * blob
-   * booléen
+   * boolean
    * byte
    * CDATA
    * datetime
@@ -652,8 +652,8 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
    * percent
    * primarykey
    * short
-   * chaîne
-   * le temps ;
+   * string
+   * time
    * timespan
    * uuid
 
@@ -661,7 +661,7 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
 * **desc (string)**: description de l&#39;énumération.
 * **label (string)**: libellé de l&#39;énumération.
 * **name (string)**: nom interne de l&#39;énumération.
-* **template (chaîne)**: cet attribut définit une référence à un `<enumeration>` élément partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
+* **template (string)** : cet attribut définit une référence à un élément `<enumeration>` partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
 
 ### Exemples {#examples-4}
 
@@ -708,13 +708,13 @@ Aucun
 
 ### Description {#description-6}
 
-Cet élément vous permet de décrire un `<element>` élément ou `<attribute>` un élément. Il ne peut contenir que du texte et est stocké dans XML dans la base de données.
+Cet élément vous permet de décrire un élément `<element>`  ou `<attribute>`. Il ne peut contenir que du texte et est stocké en XML dans la base de données.
 
 ### Description des attributs {#attribute-description-6}
 
 Cet élément n&#39;a aucun attribut.
 
-### Exemples {#examples-5}
+### Exemples  {#examples-5}
 
 ```
 <method name="CheckOperation" static="true"
@@ -749,13 +749,13 @@ Cet élément permet de définir les champs créant une jointure entre des table
 
 ### Usage et contexte d&#39;utilisation {#use-and-context-of-use-5}
 
-Un `<join>` élément ne peut être utilisé que si l’ `<element>` élément parent est de type &quot;link&quot;. Cela signifie que l’attribut &quot;@type=link&quot; doit être déclaré pour l’élément parent.
+Un  élément `<join>` ne peut être utilisé que si l’élément `<element>` parent est de type &quot;link&quot;. Cela signifie que l’attribut « @type=link » doit être déclaré pour l’élément parent.
 
-Il n’est pas nécessaire de spécifier le nom et l’espace de noms de la table distante dans l’ `<join>` élément. Ils doivent être spécifiés dans le parent `<element>`.
+Il n’est pas nécessaire de spécifier le nom et l’espace de nommage de la table distante dans l’élément `<join>`. Ils doivent être spécifiés dans le `<element>` parent.
 
 Par convention, les liens sont définis à la fin du schéma.
 
-If the `<join>` element isn&#39;t specified when the link type element is defined, the link will automatically be placed on the primary keys of both tables.
+Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;un élément de type &quot;link&quot;, alors le lien sera automatiquement posé sur les clefs primaires des deux tables.
 
 ### Description des attributs {#attribute-description-7}
 
@@ -763,7 +763,7 @@ If the `<join>` element isn&#39;t specified when the link type element is define
 * **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; de la table distante).
 * **xpath-src (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; dans le schéma courant).
 
-### Exemples {#examples-6}
+### Exemples  {#examples-6}
 
 Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@compagny-id&quot; de la table distante:
 
@@ -827,7 +827,7 @@ Les 1000 premiers identifiants sont réservés donc si une plage de valeurs doit
 * **name (MNTOKEN)**: nom interne de la clef.
 * **noDbIndex (boolean)**: s&#39;il est activé (noDbIndex=&quot;true&quot;), le champ correspondant à la clef ne sera pas indexé.
 
-### Exemples {#examples-------}
+### Exemples  {#examples-------}
 
 Déclaration d&#39;une clef composite autorisant un des deux champs la composant &quot;@expr&quot; ou &quot;@alias&quot; à être vide:
 
@@ -838,7 +838,7 @@ Déclaration d&#39;une clef composite autorisant un des deux champs la composant
  </key>
 ```
 
-Declaration of a primary key on the &quot;Name&quot; field of STRING type in an `<srcschema>`  and the matching SQL query:
+Déclaration d&#39;une clef primaire sur le champ « Name » de type STRING dans `<srcschema>` et la requête SQL correspondante :
 
 ```
  
@@ -875,9 +875,9 @@ Cet élément définit les champs à intégrer à un index ou bien à une cle
 ### Description des attributs {#attribute-description-9}
 
 * **xlink (MNTOKEN)**: permet de référencer automatiquement les clefs étrangères définies dans la jointure pour une table de relation (lien N-N).
-* **xpath (MNTOKEN)**: définition d’un index ou d’une clé sur un `<attribute>` élément. Cet attribut reçoit un Xpath qui définit le chemin d’accès à l’attribut schema qui définit la clé ou l’index.
+* **xpath (MNTOKEN)** : définition d’un index ou d’une clé sur un élément `<attribute>`. Cet attribut reçoit un Xpath qui définit le chemin d’accès à l’attribut du schéma qui définit la clé ou l’index.
 
-### Exemples {#examples-}
+### Exemples  {#examples-}
 
 Sélection du champ &quot;sName&quot; dans un index avec un Xpath sur &quot;@name&quot;:
 
@@ -931,7 +931,7 @@ L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour d�
 * **name (MNTOKEN)**: nom unique de la méthode.
 * **static (boolean)**: si cet attribut est activé, la méthode est considérée comme autonome, tous les paramètres doivent être indiqués à la méthode lors de son appel.
 
-### Exemples {#examples-7}
+### Exemples  {#examples-7}
 
 Définition de la méthode d&#39;usine &quot;Subscribe&quot; :
 
@@ -969,13 +969,13 @@ method
 
 ### Description {#description-11}
 
-This element lets you define a `<method>`  element. Il est obligatoire pour déclarer une méthode.
+Cet élément permet de définir un élément `<method>`. Il est obligatoire pour déclarer une méthode.
 
 ### Description des attributs {#attribute-description-11}
 
 Cet élément n&#39;a aucun attribut.
 
-### Exemples {#examples-8}
+### Exemples  {#examples-8}
 
 ```
 <methods async="true"
@@ -1015,19 +1015,19 @@ Cet élémént permet de définir un paramètre d&#39;un appel à une méthode 
 
 ### Description des attributs {#attribute-description-12}
 
-* **desc (chaîne)**: description qui concerne l&#39; `<param>` élément.
+* **desc (string)** : description qui concerne l’élément `<param>`.
 * **inout (string)**: cet attribut définit si le paramètre est en entrée de l&#39;appel SOAP (in) ou bien en sortie (out). Si cet attribut n&#39;est pas précisé, le paramètre est par défaut en entrée (&quot;@inout=in&quot;).
-* **label (chaîne)**: `<param>` libellé
+* **label (string)** : libellé `<param>`
 * **localizable (string)**: s&#39;il est activé, cet attribut indique à l&#39;outil de collecte de récupérer la valeur de l&#39;attribut &quot;@label&quot; pour traduction (usage interne).
 * **name (MNTOKEN)**: nom interne du `<param>`
-* **type (chaîne)**: cet attribut définit le type d’ `<param>` élément
+* **type (string)** : cet attribut définit le type d’élément `<param>`
 
    Liste des types disponibles :
 
    * ANY
    * bin
    * blob
-   * booléen
+   * boolean
    * byte
    * CDATA
    * datetime
@@ -1048,8 +1048,8 @@ Cet élémént permet de définir un paramètre d&#39;un appel à une méthode 
    * percent
    * primarykey
    * short
-   * chaîne
-   * le temps ;
+   * string
+   * time
    * timespan
    * uuid
 
@@ -1082,17 +1082,17 @@ Aucun
 
 ### Description {#description-13}
 
-This element defines a group of `<parameter>`  elements.
+Cet élément définit un groupe d’éléments `<parameter>`.
 
 ### Usage et contexte d&#39;utilisation {#use-and-context-of-use-8}
 
-This element is mandatory, even for a single `<param>` child element of the `<method>`  element.
+Cet élément est obligatoire même pour un seul élément `<param>` enfant de l’élément `<method>`.
 
 ### Description des attributs {#attribute-description-13}
 
 Aucun
 
-### Exemples {#examples-10}
+### Exemples  {#examples-10}
 
 ```
 <parameters
@@ -1128,11 +1128,11 @@ Aucun
 
 ### Description {#description-14}
 
-Il `<srcschema>` s’agit de l’élément racine d’un schéma. Il s’agit du point d’entrée pour la définition du schéma.
+Le `<srcschema>` est l’élément racine d’un schéma. Il s’agit du point d’entrée pour la définition du schéma.
 
 ### Usage et contexte d&#39;utilisation {#use-and-context-of-use-9}
 
-La présentation du schéma est disponible dans [A propos de la référence](../../configuration/using/about-schema-reference.md) du schéma et de la structure [du](../../configuration/using/schema-structure.md)schéma.
+La présentation du schéma est disponible dans [A propos de la référence du schéma](../../configuration/using/about-schema-reference.md) et [Structure du schéma](../../configuration/using/schema-structure.md).
 
 ### Description des attributs {#attribute-description-14}
 
@@ -1160,9 +1160,9 @@ La présentation du schéma est disponible dans [A propos de la référence](../
 * **view (boolean)**: s&#39;il est activé (@view=&quot;true&quot;), le schéma sera utilisé comme une vue. L&#39;assistant de mise à jour de la structure de la base ne tiendra pas compte du schéma. Cette option permet le plus souvent de référencer des tables externes.
 * **xtkschema (string)**: nom du schéma définissant la grammaire des schémas (par défaut xtk:srcSchema).
 
-### Exemples {#examples-11}
+### Exemples  {#examples-11}
 
-`<srcschema>` élément du schéma &quot;nms:delivery&quot; hors zone
+Élément `<srcschema>` du schéma d’usine « nms:delivery »
 
 ```
 <srcSchema desc="Defines all the settings of a delivery (or delivery template)."  
@@ -1197,7 +1197,7 @@ Cet élément permet de définir un filtre.
 
 Cet élément n&#39;a aucun attribut.
 
-### Exemples {#examples-12}
+### Exemples  {#examples-12}
 
 Définition d&#39;un filtre avec une condition sur l&#39;attribut @name:
 
@@ -1245,7 +1245,7 @@ Cet élément permet de définir les valeurs stockées dans une énumération.
 * **name (string)**: nom interne de la valeur de l&#39;énumération.
 * **value (string)**: valeur de la valeur de l&#39;énumération. Le type de la valeur est défini en fonction du type de l&#39;énumération. Si l&#39;énumération est de type chaine de caractère, elle ne peut contenir que des valeurs de type chaine de caractères.
 
-### Exemples {#examples-13}
+### Exemples  {#examples-13}
 
 ```
 <enumeration name="myEnum">
