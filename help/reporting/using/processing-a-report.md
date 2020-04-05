@@ -20,7 +20,7 @@ source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 ---
 
 
-# Utilisation d’un rapport d’analyse{#processing-a-report}
+# Utiliser un rapport d’analyse{#processing-a-report}
 
 ## Sauvegarder un rapport d&#39;analyse {#saving-an-analysis-report}
 
@@ -28,7 +28,7 @@ Si vous bénéficiez des droits adéquats, vous pouvez sauvegarder un rapport d&
 
 Pour sauvegarder votre rapport, cliquez sur **[!UICONTROL Enregistrer]** et appliquez un libellé à votre rapport.
 
-Select **[!UICONTROL Also save data]** if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to [Archiving analysis reports](#archiving-analysis-reports).
+Sélectionnez **[!UICONTROL Enregistrer aussi les données]** si vous souhaitez créer un historique de votre rapport et retrouver les valeurs du rapport au moment où vous le sauvegardez. Voir à ce propos la section [Archiver les rapports d&#39;analyse](#archiving-analysis-reports).
 
 L&#39;option **[!UICONTROL Partager ce rapport]** rend le rapport accessible à d&#39;autres opérateurs.
 
@@ -38,7 +38,7 @@ Une fois enregistré, ce rapport peut être réutilisé pour générer d&#39;aut
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-To make changes to this report, edit the **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** node of the Adobe Campaign tree (or the first &#39;Reports&#39; type folder for which the operator has editing rights). Pour plus d’informations, reportez-vous à la section [Configuration de la mise en page d’un rapport](#configuring-the-layout-of-a-descriptive-analysis-report)d’analyse descriptive.
+Pour modifier ce rapport, éditez le nœud **[!UICONTROL Administration > Paramétrage > Rapports]** de l’arborescence d’Adobe Campaign (ou le premier dossier de type « Rapports » sur lequel l’opérateur a des droits en écriture). Voir à ce sujet la section [Mettre en page un rapport d&#39;analyse descriptive](#configuring-the-layout-of-a-descriptive-analysis-report).
 
 ## Paramétrages additionnels d&#39;un rapport d&#39;analyse {#analysis-report-additional-settings}
 
@@ -134,7 +134,7 @@ Voir à ce propos [cette page](../../reporting/using/actions-on-reports.md).
 
 Vous pouvez créer des rapports d&#39;analyse descriptive sur les données à partir de rapports existants, déjà enregistrés dans Adobe Campaign. Ce mode d&#39;utilisation est possible lorsque des analyses ont été enregistrées ou lorsque des rapports ont été créés et paramétrés pour être accessibles depuis l&#39;assistant d&#39;analyse descriptive.
 
-Pour savoir comment enregistrer des analyses descriptives, consultez [Enregistrement d’un rapport](#saving-an-analysis-report)d’analyse.
+Pour découvrir comment enregistrer des analyses descriptives, consultez [Sauvegarder un rapport d’analyse](#saving-an-analysis-report).
 
 Pour créer des rapports d&#39;analyse descriptive, l&#39;assistant d&#39;analyse descriptive doit être exécuté à partir d&#39;une transition de workflow ou depuis le menu **[!UICONTROL Outils > Analyse descriptive]**.
 
