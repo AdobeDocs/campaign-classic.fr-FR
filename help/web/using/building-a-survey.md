@@ -32,7 +32,7 @@ Choisissez le modèle de questionnaire (par défaut **[!UICONTROL newSurvey]**).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Les pages du formulaire sont créées à l’aide d’un éditeur spécial qui vous permet de définir et de configurer des champs de saisie (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenu HTML, etc.). Ils peuvent être collectés dans des &quot;conteneurs&quot; et disposés selon les exigences (voir [Ajout de questions](#adding-questions)).
+Les pages du formulaire sont créées à l’aide d’un éditeur spécial qui permet de définir et de configurer des champs d’entrée (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenu HTML, etc.). Ces éléments peuvent être regroupés dans des « conteneurs » et disposés selon les besoins (voir la section [Ajouter des questions](#adding-questions)).
 
 >[!NOTE]
 >
@@ -52,14 +52,14 @@ Dans un formulaire, les champs permettent aux utilisateurs de saisir des informa
 
 Lorsque vous ajouter un champ dans un questionnaire, vous devez sélectionner le type de champ à ajouter. Les options suivantes sont disponibles :
 
-1. **[!UICONTROL Répondez à une question]**: cette option vous permet de déclarer un nouveau champ (appelé &quot;champ archivé&quot;) pour stocker les réponses.Dans ce cas, toutes les valeurs collectées sont enregistrées, même lorsqu’un participant remplit le formulaire plusieurs fois.Ce mode de stockage est disponible uniquement dans **les enquêtes**. Reportez-vous à [Stockage des réponses](../../web/using/managing-answers.md#storing-collected-answers)collectées.
+1. **[!UICONTROL Répondre à une question]** : cette option permet de déclarer un nouveau champ (dit « champ archivé ») afin de stocker les réponses. Dans ce cas, toutes les valeurs collectées sont enregistrées, et pas seulement la dernière. Ce mode de stockage n’est disponible que dans les **Questionnaires**. Voir la section [Stocker les réponses collectées](../../web/using/managing-answers.md#storing-collected-answers).
 1. **[!UICONTROL Éditer un destinataire]** : cette option permet de sélectionner un champ de la base de données. Dans ce cas, les réponses des utilisateurs seront stockées dans ce champ. Pour chaque participant, seule la dernière valeur saisie est conservée. Elle est ajoutée aux données de son profil.
 1. **[!UICONTROL Ajouter une variable]** : cette option permet de ne pas conserver les informations dans la base de données. Les variables locales peuvent être déclarées en amont. Vous pouvez également en ajouter directement lors de la création du champ.
 1. **[!UICONTROL Importer une question existante]** : cette option permet d’importer des questions existantes, créées dans d’autres questionnaires.
 
    >[!NOTE]
    >
-   >Les modes de stockage et les importations de champ sont détaillés dans [Stockage des réponses](../../web/using/managing-answers.md#storing-collected-answers)collectées.
+   >Les modes de stockage et les imports de champs sont détaillés dans la section [Stocker les réponses collectées](../../web/using/managing-answers.md#storing-collected-answers).
 
 La nature du champ à ajouter (liste déroulante, champ texte, cases à cocher, etc.) s&#39;adapte automatiquement au mode de stockage sélectionné. Vous pouvez toutefois la modifier à partir du champ **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**, en veillant à rester cohérent par rapport au type de données.
 
@@ -96,7 +96,7 @@ De plus, l&#39;espace de stockage pour ce champ de saisie doit être un **champ 
 >[!CAUTION]
 >
 >* Cette fonctionnalité n&#39;est disponible que dans les formulaires de type **Questionnaires**.
->* Cette option n’est pas compatible avec l’affichage de questions aléatoires. For more on this, refer to [Adding questions](#adding-questions).
+>* Cette option n’est pas compatible avec l’affichage de questions aléatoires. Voir à ce propos la section [Ajouter des questions](#adding-questions).
 
 
 ### Ajouter des questions {#adding-questions}
