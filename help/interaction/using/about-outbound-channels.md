@@ -28,8 +28,8 @@ Les offres peuvent être présentées à divers emplacements utilisant un canal 
 >
 >Vous pouvez également regarder cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) qui explique en détail comment diffuser une offre sur un canal sortant.
 
-Pour qu’une offre soit sélectionnée par le moteur d’offre, elle doit avoir été approuvée et être disponible dans un environnement de production. Pour plus d’informations, reportez-vous à la section [Approbation et activation d’une offre](../../interaction/using/approving-and-activating-an-offer.md).
+Pour qu&#39;une offre puisse être sélectionnée par le moteur d&#39;offres, elle doit avoir été validée et être disponible dans un environnement en ligne. Voir à ce sujet la section [Valider et activer une offre](../../interaction/using/approving-and-activating-an-offer.md).
 
-La présentation des offres via un canal de communication sortant est effectuée par courrier direct, par courriel ou par des campagnes SMS, etc., généralement en mode batch (voir [Glossaire](../../interaction/using/glossary.md)). Vous pouvez également utiliser le mode unitaire, en particulier avec le Centre de messages (pour plus d’informations à ce sujet, reportez-vous au guide du Centre [de](../../message-center/using/about-transactional-messaging.md) messages).
+La présentation des offres via un canal de communication sortant est effectuée par courrier, email ou campagnes SMS, etc., en général en mode batch (voir le [Glossaire](../../interaction/using/glossary.md)). Vous pouvez également utiliser le mode unitaire, en particulier avec le Message Center (pour plus d&#39;informations à ce sujet, voir le guide [Message Center](../../message-center/using/about-transactional-messaging.md)).
 
 Plusieurs options existent afin de vous permettre de présenter une offre. Par exemple via une diffusion, une campagne, des compositions de diffusion ou encore via des activités de workflow.
