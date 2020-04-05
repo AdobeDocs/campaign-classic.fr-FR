@@ -1,6 +1,6 @@
 ---
 title: Requête avec gestion des regroupements
-description: Découvrez comment exécuter des requêtes à l’aide de la gestion des groupes
+description: Découvrez comment exécuter des requêtes avec gestion des regroupements
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
