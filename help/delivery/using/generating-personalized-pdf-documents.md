@@ -30,7 +30,7 @@ Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot;
 
 Pour personnaliser vos documents, vous disposez des mêmes fonctionnalités JavaScript que celles disponibles pour la personnalisation des e-mails.
 
-You need to activate the **[!UICONTROL &quot;The content of the file is personalized and converted to PDF during the delivery of each message&quot;]** option. This option is accessible when you attach the file to the delivery email. Pour plus d’informations sur l’association d’un fichier calculé, reportez-vous à la section [Joindre des fichiers](../../delivery/using/attaching-files.md) .
+Vous devez activer l&#39;option **[!UICONTROL « Le contenu du fichier est personnalisé et converti en PDF au moment de l’envoi pour chaque message »]**. Cette option est accessible lors de l’ajout de la pièce jointe dans l’email de la diffusion. Pour plus d’informations sur l’ajout d’un fichier calculé en pièce jointe, consultez la section [Joindre des fichiers](../../delivery/using/attaching-files.md).
 
 Exemple de personnalisation de l&#39;en-tête d&#39;une facture :
 
@@ -77,7 +77,7 @@ Pour cela, il est nécessaire de paramétrer un bloc de personnalisation puis d&
 
    Il est nécessaire de distinguer deux types de déclaration à l&#39;intérieur du bloc de personnalisation :
 
-   * The Adobe Campaign code of the personalization fields for which the &quot;open&quot; and &quot;closed&quot; chevrons must be replaced with escape characters (respectively `&lt;` and `&gt;`).
+   * Le code Adobe Campaign des champs de personnalisation pour lequel les chevrons « ouvert » et « fermé » doivent être remplacés par des caractères échappés (respectivement `&lt;` et `&gt;`).
    * Le code XML OpenOffice qui sera intégralement recopié dans le document OpenOffice.
 
 Dans l&#39;exemple, le bloc de personnalisation est de cette forme :
