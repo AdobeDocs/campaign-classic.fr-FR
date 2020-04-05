@@ -81,7 +81,7 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition en sortie de l&#39;activité de **[!UICONTROL Gestion de contenu]** afin d&#39;enchaîner l&#39;exécution du workflow sur une nouvelle activité. Lorsque cette option est cochée, vous devez saisir le libellé de la transition.
 
-## Exemples {#examples}
+## Exemples  {#examples}
 
 ### Automatiser la création et la diffusion d&#39;un contenu {#automating-content-creation-and-delivery}
 
@@ -108,7 +108,7 @@ Le contenu est complété automatiquement par un flux XML provenant de l&#39;URL
 </book>
 ```
 
-Le format de données ne correspond pas au schéma de données entré dans le modèle de publication (**cus:book** dans notre exemple); l’ **`<section>`** élément doit être remplacé par l’ **`<chapter>`** élément. Nous devons appliquer la feuille de style &quot;cus:book-workflow.xsl&quot; pour apporter les modifications nécessaires.
+Le format de données ne correspond pas au schéma de données entré dans le modèle de publication (**cus:book** dans notre exemple) ; l’élément **`<section>`** doit être remplacé par l’élément **`<chapter>`**. Il est nécessaire d’appliquer la feuille de style « cus:book-workflow.xsl » pour apporter les modifications nécessaires.
 
 Code source de la feuille de style XSLT utilisée :
 
@@ -237,7 +237,7 @@ L’objectif est de déclarer un champ de type **editBtn** **`<input>`** dans le
 
 La zone d&#39;édition permet de renseigner une donnée variable utilisée pour construire l&#39;URL du flux XML de données à récupérer.
 
-The button executes the **GetAndTransform** SOAP method populated under the **`<input>`** tag.
+Le bouton exécute la méthode SOAP **GetAndTransform** renseignée sous la balise **`<input>`**.
 
 La déclaration du contrôle dans le formulaire est la suivante :
 
@@ -253,7 +253,7 @@ La déclaration du contrôle dans le formulaire est la suivante :
 </input>
 ```
 
-La méthode **GetAndTransform** doit être déclarée sous l’ **`<enter>`** élément de la **`<input>`** balise . Cette balise prend comme paramètres l’URL de récupération des données XML d’une expression construite dynamiquement. Le deuxième paramètre de la fonction est facultatif et fait référence à une feuille de style utilisée pour une transformation intermédiaire lorsque les données XML entrantes ne sont pas au même format que le contenu.
+La méthode **GetAndTransform** doit être déclarée sous l’élément **`<enter>`** de la balise **`<input>`**. Cette balise prend comme paramètres l’URL de récupération des données XML d’une expression construite dynamiquement. Le deuxième paramètre de la fonction est facultatif et fait référence à une feuille de style utilisée pour une transformation intermédiaire lorsque les données XML entrantes ne sont pas au même format que le contenu.
 
 La sortie met à jour le contenu à partir du chemin renseigné dans le dernier paramètre.
 
