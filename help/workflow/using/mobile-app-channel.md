@@ -34,7 +34,7 @@ Le workflow présenté ci-dessous est installé par défaut avec le module **Can
   <tr> 
    <td> <span class="uicontrol">Gestion des opt-out NMAC</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. For more details, refer to this <a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">section</a>.<br /> </td> 
+   <td> Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. Voir à ce sujet cette <a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">section</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
