@@ -22,7 +22,7 @@ source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
 # Tracking d’une application web{#tracking-a-web-application}
 
-Adobe Campaign vous permet de suivre et de mesurer les visites sur les pages des applications Web en insérant des balises de suivi. Cette fonctionnalité peut être utilisée pour tous les types d&#39;applications Web (formulaires, enquêtes en ligne, pages Web créées à l&#39;aide de DCE, etc.).
+Adobe Campaign permet de suivre et de mesurer les visites sur les pages des applications Web en insérant des balises de tracking. Il est possible d&#39;utiliser cette fonctionnalité pour tous les types d&#39;applications Web (formulaires, enquêtes en ligne, pages Web créées à l&#39;aide de DCE, etc.).
 
 Vous pouvez ainsi définir plusieurs chemins de navigation et en évaluer le succès. Les mesures ainsi effectuées sont répertoriées dans les rapports disponibles au niveau de chaque application.
 
@@ -39,17 +39,17 @@ Les principales fonctionnalités proposées dans cette version sont les suivante
 
    Les principaux indicateurs sont les suivants :
 
-   * **Taux** de conversion : nombre de personnes qui ont affiché toutes les étapes d’un chemin de navigation.
-   * **Taux** de rebonds : nombre de personnes qui ont affiché la première étape uniquement
-   * **tunnel** de conversion : taux de perte entre chaque étape.
-   In addition, a **Sector** type chart shows the population according to its source.
+   * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d&#39;un chemin de navigation.
+   * **Taux de rebond** : nombre de personnes qui n&#39;ont affiché que la première étape.
+   * **Tunnel de conversion** : taux de perte entre chacune des étapes.
+   En complément, un graphique de type **Secteur** représente la population en fonction de son origine.
 
 ## Identification de la source du trafic {#identifying-the-traffic-source}
 
-Deux modes différents permettent d&#39;identifier d&#39;où vient le visiteur lors de l&#39;accès à une application Web :
+Deux modes différents permettent d&#39;identifier l&#39;origine du visiteur lors de l&#39;accès à une application Web :
 
-1. Envoi d’une remise spécifique pour accorder l’accès aux pages de l’application Web : dans ce cas, la source de trafic est cette remise,
-1. Association de l&#39;application Web à une source de trafic dédiée : dans ce cas, il doit s’agir d’une livraison externe de type &quot;source de trafic&quot;. Il peut être sélectionné à partir des propriétés de l&#39;application Web ou du mappage cible.
+1. Envoyer une diffusion spécifique pour donner accès aux pages de l&#39;application Web : dans ce cas, la source de trafic est cette diffusion,
+1. Associer l&#39;application Web à une source de trafic dédiée : dans ce cas, il doit s&#39;agir d&#39;une diffusion externe de type &#39;traffic source&#39;. Le choix est effectué dans les propriétés de l&#39;application Web ou du mapping de ciblage.
 
    ![](assets/trackers_6.png)
 
