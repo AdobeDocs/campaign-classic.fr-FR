@@ -73,7 +73,7 @@ Sélectionnez le format de sortie du fichier exporté. Les formats possibles son
 * Pour le format **[!UICONTROL Texte]**, choisissez les délimiteurs à utiliser pour séparer les colonnes (tabulations, virgules, points-virgules, ou personnalisé) et les chaînes (guillemets simples ou doubles, ou aucun).
 * Pour les format **[!UICONTROL Texte]** et **[!UICONTROL CSV]**, vous pouvez cocher l&#39;option **[!UICONTROL Utiliser la première ligne comme titre des colonnes]**.
 * Indiquez les formats des dates et des nombres. Pour cela, cliquez sur le bouton **[!UICONTROL Editer...]** relatif au champ à paramétrer et renseignez l&#39;éditeur.
-* Pour les champs contenant des valeurs énumérées, vous pouvez sélectionner **[!UICONTROL Exporter des libellés au lieu des valeurs internes des énumérations]**. Par exemple, le titre peut être enregistré sous la forme **1=M.**, **2=Miss**,** 3=Mme.**. Si cette option est sélectionnée, **Mr.**, **Miss** et **Mme.** seront exportés.
+* Pour les champs contenant des valeurs énumérées, vous pouvez sélectionner **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]**. Par exemple, le titre peut être enregistré sous la forme **1=M.**, **2=Melle**,** 3=Mme.**. Si cette option est sélectionnée, **M.**, **Melle** et **Mme** seront exportés.
 
 ### Etape 4 - Sélection des données {#step-4---data-selection}
 
@@ -84,7 +84,7 @@ Sélectionnez les champs à exporter. Pour cela :
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour activer des fonctions. Pour plus d&#39;informations, reportez-vous à la [liste des fonctions](../../platform/using/defining-filter-conditions.md#list-of-functions).
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour faire appel à des fonctions. Voir à ce propos la section [Liste des fonctions](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ### Etape 5 - Tri des colonnes {#step-5---sorting-columns}
 
@@ -111,7 +111,7 @@ Vous pouvez modifier l&#39;ordre et le libellé des champs pour le fichier de so
    * Première lettre en majuscule
    ![](assets/s_ncs_user_export_wizard06.png)
 
-* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](../../platform/using/importing-data.md#calculated-fields).
+* Cliquez sur l’icône **[!UICONTROL Ajouter un champ calculé]** si vous voulez créer un champ calculé (par exemple, une colonne contenant le nom+le prénom). Voir à ce sujet la section [Champs calculés](../../platform/using/importing-data.md#calculated-fields).
 
 Si vous exportez une collection d&#39;éléments (par exemple les abonnements des destinataires, les listes auxquelles ils appartiennent, etc.), vous devez indiquer le nombre d&#39;éléments de la collection que vous voulez exporter.
 
