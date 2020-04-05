@@ -62,10 +62,10 @@ Vous devez maintenant définir les différentes activités et les relier entre e
 
 Les activités sont regroupées par catégories dans les onglets de la palette. Les onglets et activités disponibles peuvent varier en fonction du type de workflow (technique, de ciblage ou workflow de campagne).
 
-* Le premier onglet contient des activités de ciblage et de manipulation de données. Ces activités sont détaillées dans la section [Ciblage des activités](../../workflow/using/about-targeting-activities.md).
-* Le second onglet contient les activités de planification, qui sont principalement utilisées pour coordonner d’autres activités. Ces activités sont détaillées dans les activités [de contrôle des](../../workflow/using/about-flow-control-activities.md)flux.
-* Le troisième onglet contient des outils et des actions qui peuvent être utilisés dans le processus. Ces activités sont décrites en détail dans les activités [d&#39;](../../workflow/using/about-action-activities.md)action.
-* Le quatrième onglet contient des activités qui dépendent d’un événement donné, comme la réception d’un courrier électronique ou l’arrivée d’un fichier sur un serveur. Ces activités sont détaillées dans les activités [](../../workflow/using/about-event-activities.md)d’événement.
+* Le premier onglet contient les activités de ciblage et de manipulation de données. Ces activités sont détaillées dans la section [Activités de ciblage](../../workflow/using/about-targeting-activities.md).
+* Le deuxième Onglet contient les activités de planification qui servent principalement à coordonner les autres. Elles sont détaillées dans la section [Activités d&#39;ordonnancement](../../workflow/using/about-flow-control-activities.md).
+* Le troisième onglet contient les outils et les actions utilisables dans le workflow. Ces activités sont décrites en détail dans la section [Activités d&#39;action](../../workflow/using/about-action-activities.md).
+* Le quatrième onglet regroupe les activités qui dépendent d&#39;un événement particulier, par exemple la réception d&#39;un email ou l&#39;arrivée d&#39;un fichier sur un serveur. Ces activités sont décrites en détail dans la section [Activités événementielles](../../workflow/using/about-event-activities.md).
 
 Pour construire le diagramme
 
@@ -87,7 +87,7 @@ Pour construire le diagramme
 
 >[!CAUTION]
 >
->Vous pouvez copier et coller des activités dans un même flux de travail. Toutefois, nous vous déconseillons de copier des activités de collage dans différents processus. Certains paramètres associés à des activités telles que Livraisons et Planificateur peuvent entraîner des conflits et des erreurs lors de l’exécution du processus de destination. Nous vous recommandons plutôt de **dupliquer** les processus. Pour plus d’informations, voir [Duplication de processus](#duplicating-workflows).
+>Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d&#39;informations, voir la section [Duplication des workflows](#duplicating-workflows).
 
 ### Options de disposition supplémentaires {#additional-layout-options}
 
@@ -113,7 +113,7 @@ L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39
 
 * **Gestion des images**
 
-   Vous pouvez personnaliser l’image d’arrière-plan du diagramme ainsi que celles liées aux différentes activités. Reportez-vous à [Gestion des images](../../workflow/using/managing-activity-images.md)d’activité.
+   Vous pouvez personnaliser l&#39;image de fond du diagramme et les images associées aux différentes activités. Reportez-vous à la section [Gestion des images d&#39;activité](../../workflow/using/managing-activity-images.md).
 
 ## Configurer les activités {#configuring-activities}
 
@@ -133,7 +133,7 @@ Afin de faciliter la compréhension des activités et améliorer la lisibilité 
 
 Un workflow de ciblage permet de construire une ou plusieurs cibles de diffusion. Vous pouvez créer des requêtes, définir des unions ou des exclusions sur des critères précis, ajouter une planification, à l&#39;aide des activités de workflows. Le résultat de ce ciblage peut être automatiquement transféré dans une liste qui pourra ensuite constituer la cible d&#39;actions de diffusion.
 
-Outre ces activités, les options de gestion des données vous permettent de manipuler les données et d’accéder à des fonctions avancées pour répondre à des problèmes de ciblage complexes. For more on this, refer to [Data Management](../../workflow/using/targeting-data.md#data-management).
+En complément de ces activités, les options de Data Management permettent de manipuler les données et d&#39;accéder à des fonctionnalités avancées pour répondre à des problématiques de ciblage complexes. Voir à ce sujet la section [Data Management](../../workflow/using/targeting-data.md#data-management).
 
 Toutes ces activités sont regroupées dans le premier onglet du workflow.
 
@@ -151,11 +151,11 @@ Les workflows de ciblage qui s&#39;inscrivent dans le contexte d&#39;une opérat
 
 Les phases de construction des données du ciblage sont les suivantes :
 
-1. For identifying data in the database, refer to [Creating queries](../../workflow/using/targeting-data.md#creating-queries).
-1. Pour préparer les données en fonction des besoins de diffusion, reportez-vous à la section [Enrichissement et modification des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
-1. For using data to perform updates or within a delivery, refer to [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
+1. Identifier les données dans la base. Voir à ce sujet la section [Créer des requêtes](../../workflow/using/targeting-data.md#creating-queries).
+1. Pour préparer les données en fonction des besoins de diffusion, reportez-vous à la section [Enrichir/Modifier des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
+1. Utiliser les données pour procéder à des mises à jour ou dans une diffusion. Voir à ce sujet la section [Mettre à jour la base de données](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
 
-Les résultats de tous les enrichissement et de toutes les manipulations effectuées pendant le ciblage sont stockés et accessibles dans les champs de personnalisation, en particulier pour être utilisés lors de la création de messages personnalisés. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data)
+Les résultats de tous les enrichissements et manipulations effectués lors du ciblage sont stockés pour être accessibles dans les champs de personnalisation, notamment pour les utiliser dans la création de messages personnalisés. Voir à ce sujet la section [Données de la cible](../../workflow/using/executing-a-workflow.md#target-data)
 
 ### Dimension de ciblage et dimension de filtrage {#targeting-and-filtering-dimensions}
 
@@ -181,7 +181,7 @@ Pour chaque opération, vous pouvez créer des workflows à exécuter depuis l&#
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-Cet onglet contient les mêmes activités que pour tous les processus. Elles sont présentées dans la section Etapes [de](#implementation-steps-) mise en oeuvre.
+Cet onglet contient les mêmes activités que pour tous les workflows. Elles sont présentées dans la section [Etapes de mise en œuvre](#implementation-steps-).
 
 En plus des opérations de ciblage, les workflows des opérations permettent de créer et paramétrer intégralement des diffusions sur tous les canaux disponibles. Une fois créées dans un workflow, ces diffusions sont accessibles depuis le tableau de bord de l&#39;opération.
 
@@ -207,7 +207,7 @@ Le sous-dossier **[!UICONTROL Processus de campagne]** centralise les workflows 
 
 Vous pouvez créer d&#39;autres workflows techniques dans le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l&#39;arborescence. Cette manipulation est toutefois réservée à des utilisateurs experts.
 
-Les activités proposées sont les mêmes que pour les processus de ciblage. For more on this, refer to [Implementation steps](#implementation-steps-).
+Les activités proposées sont les mêmes que pour les workflows de ciblage. Voir à ce sujet la section [Etapes de mise en œuvre](#implementation-steps-).
 
 ## Les modèles de workflows {#workflow-templates}
 
@@ -225,46 +225,46 @@ En plus des propriétés habituelles des workflows, les propriétés du modèle 
 
 ## Duplication des workflows {#duplicating-workflows}
 
-Vous pouvez dupliquer différents types de processus. Une fois le workflow dupliqué, ses modifications ne sont pas appliquées à la copie de celui-ci.
+Vous pouvez dupliquer différents types de workflows. Une fois le workflow dupliqué, ses modifications ne sont pas appliquées à la copie de celui-ci.
 
 >[!CAUTION]
 >
->Copier-coller est disponible dans les processus, mais nous vous recommandons d’utiliser **Dupliquer**. Une fois une activité copiée, toute sa configuration est conservée. Pour les activités de diffusion (Courrier électronique, SMS, Notification Push...), l’objet de diffusion associé à l’activité est également copié, ce qui peut entraîner un blocage.
+>La fonction copier-coller est disponible dans les workflows, mais nous vous recommandons d&#39;utiliser **Dupliquer**. Une fois une activité copiée, l&#39;ensemble de sa configuration est conservée. Pour les activités de diffusion (email, SMS, notification Push...), l&#39;objet de la diffusion associé à l&#39;activité est également copié, ce qui peut entraîner un blocage.
 
-1. Cliquez avec le bouton droit de la souris sur un processus.
+1. Cliquez avec le bouton droit de la souris sur un workflow.
 1. Cliquez sur **Dupliquer**.
 
    ![](assets/duplicate-workflows.png)
 
-1. Dans la fenêtre de processus, modifiez le libellé du processus.
+1. Dans la fenêtre du workflow, modifiez le libellé du workflow.
 1. Cliquez sur **Enregistrer**.
 
-La fonction en double n’est pas directement disponible dans l’affichage d’une campagne.
+La fonction Dupliquer n&#39;est pas directement disponible dans l&#39;affichage d&#39;une campagne.
 
-Vous pouvez toutefois créer une vue pour afficher tous les processus de votre instance. Dans cette vue, vous pouvez dupliquer des processus à l’aide de **Dupliquer vers**.
+Vous pouvez toutefois créer une vue pour afficher tous les workflows de votre instance. Dans cette vue, vous pouvez dupliquer des workflows à l&#39;aide de la fonction **Dupliquer vers**.
 
-**Commençons par créer une vue :**
+**Commençons par créer une vue :**
 
-1. Dans **Explorer**, accédez au dossier dans lequel vous devez créer votre vue.
-1. Cliquez avec le bouton droit de la souris et accédez à **Ajouter un nouveau dossier** > **Processus**, sélectionnez **Processus**.
+1. Dans **Explorateur**, accédez au dossier dans lequel vous devez créer votre vue.
+1. Cliquez avec le bouton droit de la souris, accédez à **Ajouter un nouveau dossier** > **Processus**, puis sélectionnez **Workflows**.
 
    ![](assets/add-new-folder-workflows.png)
 
-Le nouveau dossier **Processus** est créé.
+Le nouveau dossier **Workflows** est créé.
 
-1. Right-click and select **Properties**.
-1. Dans **Restriction**, cochez **Dossier comme une vue** et cliquez sur **Enregistrer**.
+1. Cliquez avec le bouton droit et sélectionnez **Propriétés**.
+1. Dans **Restriction**, cochez **Le dossier est une vue**, puis cliquez sur **Enregistrer**.
 
    ![](assets/folder-is-a-view.png)
 
-Le dossier est désormais renseigné avec tous les processus de votre instance.
+Le dossier est désormais renseigné avec tous les workflows de votre instance.
 
-**Duplication d’un processus de campagne**
+**Duplication d&#39;un workflow de campagne**
 
-1. Sélectionnez un processus de campagne dans la vue de processus.
+1. Sélectionnez un workflow de campagne dans la vue de workflow.
 1. Cliquez avec le bouton droit de la souris sur **Dupliquer vers**.
    ![](assets/duplicate-to-right-click.png)
-1. Modifiez son libellé.
+1. Modifiez le libellé du workflow.
 1. Cliquez sur **Enregistrer**.
 
-Vous pouvez voir votre processus dupliqué dans la vue de processus.
+Le workflow dupliqué est affiché dans la vue de workflow.
