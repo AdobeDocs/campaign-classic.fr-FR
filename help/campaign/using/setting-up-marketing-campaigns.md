@@ -22,39 +22,39 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 # Créer des campagnes marketing{#setting-up-marketing-campaigns}
 
-Les campagnes comprennent des actions (remises) et des processus (importation ou extraction de fichiers), ainsi que des ressources (documents marketing, contours de diffusion). Elles sont utilisées dans les campagnes marketing. Les campagnes font partie d’un programme et les programmes sont inclus dans un plan de campagne.
+Les campagnes comprennent des actions (diffusions) et des processus (import ou extraction de fichiers), ainsi que des ressources (documents marketing, compositions de diffusion). Elles sont utilisées dans les campagnes marketing. Les campagnes font partie d’un programme et les programmes sont inclus dans un plan de campagne.
 
-Pour créer une campagne marketing :
+Pour créer une campagne marketing, il faut suivre les étapes suivantes :
 
-1. Créez une campagne : découvrez les campagnes et leurs caractéristiques : libellé, type, dates de début et de fin, budget, ressources associées, gestionnaire(s) et participants.
+1. Création d’une campagne : découvrez les campagnes et leurs caractéristiques : libellé, type, dates de début et de fin, budget, ressources associées, responsable(s) et participants.
 
-   See [Creating a campaign](#creating-a-campaign).
+   Voir [Créer une campagne](#creating-a-campaign).
 
-1. Définir la ou les populations cibles : créez un processus avec des requêtes de ciblage.
+1. Définition de la ou des population(s) cible(s) : créez un workflow avec requêtes de ciblage.
 
-   See [Selecting the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
+   Voir [Choisir la population cible](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
-1. Créer des remises : sélectionnez les canaux et définissez le contenu à envoyer.
+1. Création de diffusions : sélectionnez les canaux et définissez le contenu à envoyer.
 
-   Voir [Création de distributions](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
+   Voir [Créez des diffusions](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
-1. Approuvez les livraisons.
+1. Approbation de diffusions.
 
-   Reportez-vous au processus [d’](../../campaign/using/marketing-campaign-approval.md#approval-process)approbation.
+   Consulter [Processus de validation](../../campaign/using/marketing-campaign-approval.md#approval-process).
 
-1. Surveillez les remises.
+1. Surveillance des diffusions.
 
-   Reportez-vous à [Surveillance](../../campaign/using/marketing-campaign-monitoring.md).
+   Voir [Surveillance](../../campaign/using/marketing-campaign-monitoring.md).
 
-1. Planifiez les campagnes et les coûts associés.
+1. Planification de la campagne et des coûts associés.
 
-   See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+   Voir [Créer les prestataires et leurs structures de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-Une fois ces étapes terminées, vous pouvez lancer les livraisons (voir [Lancement d’une livraison](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), vérifier les données, les processus et les informations relatifs aux livraisons et, si nécessaire, gérer les documents associés (voir [Gestion des documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)associés). Vous pouvez également suivre l’exécution des phases de traitement des campagnes et des livraisons (voir [Suivi](../../campaign/using/marketing-campaign-monitoring.md)).
+Une fois ces étapes terminées, vous pouvez lancer les diffusions (voir [Démarrer une diffusions](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), vérifier les données, les processus et les informations relatifs aux diffusions et, si nécessaire, gérer les documents associés (voir [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). Vous pouvez également suivre l’exécution des phases de traitement des campagnes et des diffusions (voir [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
 
 ## Créer une hiérarchie de plans et de programmes {#creating-plan-and-program-hierarchy}
 
-Pour configurer la hiérarchie des dossiers pour les plans et programmes marketing :
+Pour configurer l&#39;arborescence des dossiers des plans marketing et des programmes, procédez comme suit :
 
 1. Cliquez sur l&#39;icône **Explorateur** dans la page d&#39;accueil.
 1. Cliquez avec le bouton droit de la souris sur le dossier dans lequel vous souhaitez créer le plan.
@@ -72,7 +72,7 @@ Pour configurer la hiérarchie des dossiers pour les plans et programmes marketi
 1. Cliquez avec le bouton droit de la souris sur le plan nouvellement créé et sélectionnez **Ajouter un dossier &#39;Programme&#39;**.
 1. Répétez les étapes décrites ci-dessus pour renommer le nouveau dossier de programmes et modifier le nom interne.
 
-## Créer une campagne  {#creating-a-campaign}
+## Créer une campagne   {#creating-a-campaign}
 
 ### Ajouter une opération {#adding-a-campaign}
 
