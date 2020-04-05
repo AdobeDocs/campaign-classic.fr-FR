@@ -38,4 +38,4 @@ Le premier onglet de l&#39;activité **Réception de SMS** permet de renseigner 
 
 1. **[!UICONTROL Expiration]**
 
-The **[!UICONTROL Script]**, **[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs are detailed in [Inbound Emails](../../workflow/using/inbound-emails.md).
+Les onglets **[!UICONTROL Script]**, **[!UICONTROL Planning]** et **[!UICONTROL Expiration]** sont décrits dans la section [Réception d’emails](../../workflow/using/inbound-emails.md).
