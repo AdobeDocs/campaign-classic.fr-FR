@@ -36,21 +36,21 @@ Les données de la base Adobe Campaign et les listes existantes peuvent être mi
 
    ![](assets/s_user_create_list.png)
 
-   Reportez-vous à la mise à jour [de la](../../workflow/using/list-update.md)liste.
+   Consultez la section [Mise à jour de liste](../../workflow/using/list-update.md).
 
 * L&#39;activité **[!UICONTROL Mise à jour de données]** permet de mettre à jour en masse les champs de la base de données.
 
-   For more on this, refer to [Update data](../../workflow/using/update-data.md).
+   Pour plus d’informations, consultez la section [Mise à jour de données](../../workflow/using/update-data.md).
 
 ### Gérer les abonnements/désabonnements {#subscription-unsubscription-management}
 
-To find out about subscribing and unsubscribing recipients to an information service via a workflow, refer to [Subscription Services](../../workflow/using/subscription-services.md).
+Pour comprendre comment inscrire et désinscrire des destinataires à un service d&#39;information via un workflow, consultez la section [Services d’inscription](../../workflow/using/subscription-services.md).
 
 ## Envoyer via un workflow {#sending-via-a-workflow}
 
 ### Activité Diffusion {#delivery-activity}
 
-The delivery activity is detailed in [Delivery](../../workflow/using/delivery.md).
+L’activité de diffusion est présentée dans la section [Diffusion](../../workflow/using/delivery.md).
 
 ### Enrichir et cibler les diffusions {#enriching-and-targeting-deliveries}
 
@@ -64,7 +64,7 @@ En complément des champs de personnalisation habituels, vous pouvez ajouter dan
 
 ![](assets/s_advuser_using_additional_data.png)
 
-The data contained in the workflow table is identified by its name: it is always made up of the **targetData** link. For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data).
+Les données contenues dans la table du workflow sont identifiables par leur nom : il est toujours composé du lien **targetData**. Pour plus d’informations, consultez la section [Données de la cible](../../workflow/using/executing-a-workflow.md#target-data).
 
 Dans le cadre d&#39;une diffusion par email, les champs de personnalisation peuvent également utiliser les données issues de l&#39;extension de la cible réalisée dans les étapes du workflow de ciblage, comme dans l&#39;exemple ci-dessous :
 
@@ -94,4 +94,4 @@ function encryptFile(file) {
 }
 ```
 
-Lors de l’importation d’un fichier, vous pouvez également le décompresser ou le déchiffrer. See [Unzipping or decrypting a file before processing](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+Lors de l&#39;import d&#39;un fichier, vous pouvez également le décompresser ou le déchiffrer. Voir [Décompresser ou déchiffrer un fichier avant traitement](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
