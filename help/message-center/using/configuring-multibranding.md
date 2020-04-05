@@ -38,7 +38,7 @@ Pour paramétrer le multibranding, vous devez configurer les instances d&#39;ex�
 
    >[!NOTE]
    >
-   >Creating an execution instance type external account is presented in the [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance) section.
+   >La création d’un compte externe de type Instance d’exécution est présentée dans la section [Instance de pilotage](../../message-center/using/creating-a-shared-connection.md#control-instance).
 
 1. Etendez le schéma nms:extAccount pour ajouter l&#39;URL de tracking :
 
