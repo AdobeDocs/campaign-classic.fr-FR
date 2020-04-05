@@ -29,4 +29,4 @@ Adobe Campaign vous permet de produire des fichiers afin de diffuser des lettre
 >Les adresses postales sont des champs calculés. Par défaut, une adresse peut contenir jusqu&#39;à six lignes : la première contient le prénom et le nom, les suivantes contiennent les coordonnées postales (rue et compléments), et la dernière contient le code postal et la ville.\
 >Une adresse est considérée comme complète si les champs relatifs au nom, au code postal et à la ville ne sont pas vides.
 
-Les sections ci-dessous fournissent des informations spécifiques au canal de courrier direct. Pour des informations générales sur la création et l’envoi d’une diffusion, consultez[cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Les sections ci-dessous fournissent des informations spécifiques au canal courrier. Pour des informations générales sur la création et l’envoi d’une diffusion, consultez [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
