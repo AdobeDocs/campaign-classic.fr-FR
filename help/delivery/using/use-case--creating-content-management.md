@@ -65,7 +65,7 @@ Un schéma de données est un document XML associé à un contenu, il décrit la
 >
 >La création et le paramétrage des schémas de données dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/about-schema-edition.md).
 >
->Configuration elements specific to content management are detailed in [Data schemas](../../delivery/using/data-schemas.md).
+>Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Schémas de données](../../delivery/using/data-schemas.md).
 
 Pour créer un schéma de données, les étapes sont les suivantes :
 
@@ -89,7 +89,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   For more on this, refer to [Editing schemas](../../delivery/using/data-schemas.md#editing-schemas).
+   Voir à ce sujet la section [Edition des schémas](../../delivery/using/data-schemas.md#editing-schemas).
 
    Pour chaque élément référencé dans le contenu, vous devez sélectionner le type correspondant.
 
@@ -98,9 +98,9 @@ Pour créer un schéma de données, les étapes sont les suivantes :
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Contenu</strong><br /> </th> 
-   <th> <strong>Format</strong><br /> </th> 
-   <th> <strong>Type</strong><br /> </th> 
+   <th> <strong>Contenu</strong> <br /> </th> 
+   <th> <strong>Format</strong> <br /> </th> 
+   <th> <strong>Type</strong> <br /> </th> 
    <th> <strong>Libellé</strong> <br /> </th> 
   </tr> 
  </thead> 
@@ -108,13 +108,13 @@ Pour créer un schéma de données, les étapes sont les suivantes :
   <tr> 
    <td> Title<br /> </td> 
    <td> Attribut<br /> </td> 
-   <td> Chaîne<br /> </td> 
+   <td> Chaîne <br /> </td> 
    <td> Title<br /> </td> 
   </tr> 
   <tr> 
    <td> Sous-titre<br /> </td> 
    <td> Attribut<br /> </td> 
-   <td> Chaîne<br /> </td> 
+   <td> Chaîne <br /> </td> 
    <td> Nom<br /> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
   <tr> 
    <td> Photo de l'auteur<br /> </td> 
    <td> Attribut<br /> </td> 
-   <td> Chaîne<br /> </td> 
+   <td> Chaîne <br /> </td> 
    <td> URL<br /> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ La description d&#39;un formulaire est un document XML structuré respectant la 
 >
 >La création et le paramétrage des formulaires dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/identifying-a-form.md).
 >
->Configuration elements specific to content management are detailed in [Input forms](../../delivery/using/input-forms.md).
+>Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Formlaires de saisie](../../delivery/using/input-forms.md).
 
 Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont les suivantes :
 
@@ -227,7 +227,7 @@ Dans notre exemple, nous allons utiliser un template Javascript pour définir le
 
 >[!NOTE]
 >
->Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](../../delivery/using/formatting.md).
+>Les contraintes liées à la construction des documents (template JavaScript ou XSL) sont présentées dans la section [Formatage](../../delivery/using/formatting.md).
 
 Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les suivantes :
 
@@ -238,7 +238,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
 1. Indiquez le nom du template et sélectionnez le schéma que vous avez créé pour la gestion de contenu.
 1. Importez le contenu fixe que vous souhaitez afficher dans le message.
 
-   Add the variable elements while respecting the syntax detailed in [JavaScript templates](../../delivery/using/formatting.md#javascript-templates).
+   Ajoutez les éléments variables en respectant la syntaxe présentée dans la section [Templates JavaScript](../../delivery/using/formatting.md#javascript-templates).
 
    Pour afficher le contenu proposé dans notre exemple, le template JavaScript contient les éléments suivants :
 
@@ -331,7 +331,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
    </html>
    ```
 
-   L’appel d’une fonction au début d’un modèle permet de configurer un appel à des données de personnalisation provenant de la base de données Adobe Campaign (dans ce cas : Destinataire.firstName et Destinataire.lastName), de sorte qu’il puisse être interprété lorsqu’il est utilisé dans une remise. Pour plus d’informations, reportez-vous à la section [Inclusion d’un modèle](../../delivery/using/formatting.md#including-a-javascript-template)JavaScript.
+   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d’un template JavaScript](../../delivery/using/formatting.md#including-a-javascript-template).
 
    Dans notre exemple, la fonction contiendra le code suivant :
 
@@ -360,7 +360,7 @@ Vous devez ensuite créer un modèle de publication de contenu qui permettra de 
 
 >[!NOTE]
 >
->For more on content publication templates, refer to [Publication templates](../../delivery/using/publication-templates.md).
+>Pour plus d’informations sur les modèles de publication de contenu, consultez la section [Modèles de publication](../../delivery/using/publication-templates.md).
 
 Pour notre exemple, les étapes sont les suivantes :
 
@@ -386,7 +386,7 @@ Vous pouvez enfin créer des contenus à partir de ce modèle de publication.
 
 >[!NOTE]
 >
->Pour plus d’informations sur la création de contenu, voir [Utilisation d’un modèle](../../delivery/using/using-a-content-template.md)de contenu.
+>Pour plus d’informations sur la création de contenu, voir [Utiliser un modèle de contenu](../../delivery/using/using-a-content-template.md).
 
 ### Créer un contenu dans l&#39;assistant de diffusion {#creating-content-in-the-delivery-wizard}
 
