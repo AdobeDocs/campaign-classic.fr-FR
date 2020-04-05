@@ -46,17 +46,17 @@ La structure du document XML est la suivante :
 </navtree>
 ```
 
-Le document XML contient l’élément **`<navtree>`** racine avec les attributs **name** et **namespace** pour spécifier le nom et l’espace de noms du document. Le nom et l’espace de noms constituent la clé d’identification du document.
+Le document XML contient l’élément racine **`<navtree>`** avec les attributs **name** et **namespace** pour spécifier le nom du document et l’espace de nommage. Le nom et l’espace de nommage constituent la clé d’identification du document.
 
-The global commands of the application are declared in the document from the **`<commands>`** element.
+Les commandes globales de l&#39;application sont déclarées dans le document à partir de l’élément **`<commands>`**.
 
-The declaration of file types is structured in the document with the following elements: **`<model>`** and **`<nodemodel>`**.
+La déclaration des types de dossiers est structurée dans le document avec les éléments suivants : **`<model>`** et **`<nodemodel>`**.
 
 ## Commandes globales {#global-commands}
 
 Une commande globale permet de lancer une action, cette action peut être une forme de saisie ou un appel SOAP.
 
-Global commands are accessible from the main **[!UICONTROL Tools]** menu.
+Les commandes globales sont accessibles à partir du menu principal **[!UICONTROL Outils]**.
 
 La struture du paramétrage des commandes est la suivante :
 
@@ -81,24 +81,24 @@ La struture du paramétrage des commandes est la suivante :
 </commands>
 ```
 
-The description of a global command is entered in the **`<command>`** element with the following properties:
+La description d&#39;une commande globale est renseignée sur l&#39;élément **`<command>`** avec les propriétés suivantes :
 
 * **name** : nom interne de la commande : le nom doit obligatoirement être renseigné et unique.
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
 * **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple &quot;cus:recipient&quot;).
-* **droits**: liste de droits nommés (séparés par une virgule) permettant d’accéder à cette commande. La liste des droits disponibles est accessible à partir du **[!UICONTROL Administration > Access management > Named rights]** dossier.
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 
-Un **`<command>`** élément peut contenir **`<command>`** des sous-éléments. Dans ce cas, l’élément parent vous permet d’afficher un sous-menu composé de ces éléments enfants.
+Un élément **`<command>`** peut contenir des sous-éléments **`<command>`**. Dans ce cas, l’élément parent vous permet d’afficher un sous-menu composé de ces éléments enfants.
 
 L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le document XML.
 
 Un séparateur de commande permet d&#39;afficher une barre de séparation entre les commandes, il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
-La présence facultative de la **`<soapcall>`** balise avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la documentation [JSAPI de](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)Campaign.
+La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-Le contexte du formulaire peut être mis à jour lors de l’initialisation à partir de la **`<enter>`** balise . Pour plus d’informations sur cette balise, consultez la documentation sur les formulaires d’entrée.
+Le contexte du formulaire peut être mis à jour lors de l’initialisation à partir de la balise **`<enter>`**. Pour plus d’informations sur cette balise, consultez la documentation sur les formulaires de saisie.
 
 **Exemple**:
 
@@ -108,7 +108,7 @@ Le contexte du formulaire peut être mis à jour lors de l’initialisation à p
    <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
    ```
 
-   A keyboard shortcut is declared on the &#39;I&#39; character by the presence of **&amp;** in the command label.
+   Un raccourci clavier est déclaré sur le caractère « l » par la présence du **&amp;** dans le libellé de la commande.
 
 * Exemple de sous-menu avec séparateur :
 
@@ -158,22 +158,22 @@ La structure du paramétrage des types de dossier est la suivante :
 </model>
 ```
 
-La déclaration de type de dossier doit être saisie sous un **`<model>`** élément. Cet élément vous permet de définir une organisation hiérarchique visible à partir du **[!UICONTROL Add new folder]** menu. Un **`<model>`** élément doit contenir **`<nodemodel>`** des éléments et d’autres **`<model>`** éléments.
+La déclaration de type de dossier doit être saisie sous un élément **`<model>`**. Cet élément vous permet de définir une organisation hiérarchique visible à partir du menu **[!UICONTROL Ajouter un dossier]** . Un élément **`<model>`** doit contenir des éléments **`<nodemodel>`** et d’autres éléments **`<model>`**.
 
-The **name** and **label** attributes populate the internal name of the element and the label displayed in the **[!UICONTROL Add new folder]** menu.
+Les attributs **name** et **label** renseignent le nom interne de l&#39;élément et le libellé affiché dans le menu **[!UICONTROL Ajouter un dossier]**.
 
-The **`<nodemodel>`** element contains the description of the folder type with the following properties:
+L’élément **`<nodemodel>`**  contient la description du type de dossier avec les propriétés suivantes :
 
 * **name** : nom interne.
-* **libellé**: est utilisée dans le **[!UICONTROL Add new folder]** menu et comme étiquette par défaut lors de l’insertion d’un dossier.
+* **label** : libellé utilisé dans le menu **[!UICONTROL Ajouter un dossier]** et comme libellé par défaut lors de l&#39;insertion d&#39;un dossier.
 * **img** : image par défaut à l&#39;insertion du dossier.
 * **hiddenCommands** : liste des commandes (séparées par une virgule) à masquer, les valeurs possibles sont : &quot;insert&quot;, &quot;delete&quot;, &quot;update&quot; et &quot;duplicate&quot;.
-* **newFolderShortCuts**: liste de raccourcis sur les modèles (**`<nodemodel>`** séparés par une virgule) dans la création de dossiers.
+* **newFolderShortCuts** : liste des raccourcis sur les modèles (**`<nodemodel>`** séparés par une virgule) en création de dossier.
 * **insertRight**, **editRight**, **deleteRight** : droits pour l&#39;insertion, l&#39;édition et la suppression des dossiers.
 
-L’ **`<view>`** élément situé sous l’ **`<nodemodel>`** élément contient la configuration de la liste associée à la vue. Le schéma de la liste est entré dans l’attribut de **schéma** de l’ **`<view>`** élément.
+L’élément **`<view>`** situé sous l’élément **`<nodemodel>`** contient la configuration de la liste associée à l’affichage. Le schéma de la liste est saisi dans l’attribut de **schéma** de l’élément **`<view>`**.
 
-Pour modifier les enregistrements de la liste, le formulaire d’entrée portant le même nom que le schéma de liste est implicitement utilisé. L’attribut **type** sur l’ **`<view>`** élément affecte l’affichage du formulaire. Les valeurs possibles sont les suivantes :
+Pour modifier les enregistrements de la liste, le formulaire de saisie portant le même nom que le schéma de liste est implicitement utilisé. L’attribut **type** sur l’élément **`<view>`** affecte l’affichage du formulaire. Les valeurs possibles sont les suivantes :
 
 * **listdet** : affiche le formulaire en base de la liste.
 * **list** : affiche la liste seule, le formulaire est lancé par un double clic ou par le menu &quot;Ouvrir&quot; sur la sélection de la liste.
@@ -182,9 +182,9 @@ Pour modifier les enregistrements de la liste, le formulaire d’entrée portant
 
 >[!NOTE]
 >
->The name of the input form can be overloaded by entering the **form** attribute in the **`<view>`** element.
+>Le nom du formulaire de saisie peut être surchargé en renseignant l&#39;attribut **form** dans l’élément **`<view>`**.
 
-La configuration par défaut des colonnes de la liste est saisie via l’ **`<columns>`** élément. Une colonne est déclarée sur un **`<node>`** élément contenant l’attribut **xpath** avec le champ à référencer dans son schéma comme valeur.
+La configuration par défaut des colonnes de la liste est saisie via l’élément **`<columns>`**. Une colonne est déclarée sur un élément **`<node>`** contenant l’attribut **xpath** avec le champ à référencer dans son schéma comme sa valeur.
 
 **Exemple** : déclaration d&#39;un type de dossier sur le schéma &quot;nms:recipient&quot;.
 
@@ -250,28 +250,28 @@ La struture du paramétrage des commandes est la suivante :
 </nodeModel>
 ```
 
-The description of a command is entered on the **`<command>`** element with the following properties:
+La description de la commande est renseignée sur l’élément **`<command>`** avec les propriétés suivantes :
 
 * **name** : nom interne de la commande, le nom doit obligatoirement être renseigné et unique.
 * **label** : libellé de la commande.
 * **desc** : description visible à partir de la barre de statut de l&#39;écran principal.
 * **form** : formulaire à lancer : la valeur à renseigner est la clé d&#39;identification du formulaire de saisie (par exemple : &quot;cus:recipient&quot;).
-* **droits**: liste de droits nommés (séparés par une virgule) permettant d’accéder à cette commande. La liste des droits disponibles est accessible à partir du **[!UICONTROL Administration > Access management > Named rights]** dossier.
+* **rights** : liste des droits nommés (séparés par une virgule) permettant l&#39;accès à cette commande. La liste des droits disponibles est accessible à partir du dossier **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 * **promptLabel** : affiche une boîte de confirmation avant l&#39;exécution de la commande.
 * **monoSelection** : force la mono sélection (sélection multiple par défaut).
 * **refreshView** : force le rechargement de la liste après l&#39;exécution de la commande.
 * **enabledIf** : active la commande en fonction de l&#39;expression renseignée.
 * **img** : renseigne une image permettant l&#39;accès de la commande à partir de la barre d&#39;outils de la liste.
 
-Un **`<command>`** élément peut contenir **`<command>`** des sous-éléments. Dans ce cas, l’élément parent vous permet d’afficher un sous-menu composé de ces éléments enfants.
+Un élément **`<command>`** peut contenir des sous-éléments **`<command>`**. Dans ce cas, l’élément parent vous permet d’afficher un sous-menu composé de ces éléments enfants.
 
 L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le document XML.
 
 Un séparateur de commande permet d&#39;afficher une barre de séparation entre les commandes, il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
-La présence facultative de la **`<soapcall>`** balise avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la documentation [JSAPI de](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)Campaign.
+La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la [documentation JSAPI Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-Le contexte du formulaire peut être mis à jour lors de l’initialisation via la **`<enter>`** balise . Pour plus d’informations sur cette balise, consultez la documentation du formulaire d’entrée.
+Le contexte du formulaire peut être mis à jour lors de l’initialisation via la balise **`<enter>`**. Pour plus d’informations sur cette balise, consultez la documentation du formulaire de saisie.
 
 **Exemple**:
 
@@ -297,7 +297,7 @@ Il existe deux types de fonctionnement dans la gestion des dossiers :
 1. Le dossier est une vue : la liste affiche tous les enregistrements associés au schéma avec possibilité de filtrage système renseigné dans les propriétés du dossier.
 1. Le dossier est lié : les enregistrements de la liste sont implicitement filtrés sur le lien du dossier.
 
-Pour un dossier lié, l’attribut **folderLink** de l’ **`<nodemodel>`** élément doit être renseigné. Cet attribut contient le nom du lien sur le dossier configuré dans le schéma de données.
+Pour un dossier lié, l’attribut **folderLink** de l’élément **`<nodemodel>`** doit être renseigné. Cet attribut contient le nom du lien sur le dossier configuré dans le schéma de données.
 
 Exemple de déclaration d&#39;un dossier lié dans le schéma de données :
 
@@ -305,7 +305,7 @@ Exemple de déclaration d&#39;un dossier lié dans le schéma de données :
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
-The configuration of the **`<nodemodel>`** on the link of the folder named &quot;folder&quot; is as follows:
+La configuration du **`<nodemodel>`** sur le lien du dossier nommé « Dossier » est la suivante :
 
 ```
 <nodeModel deleteRight="folderDelete" editRight="folderEdit" folderLink="folder"
