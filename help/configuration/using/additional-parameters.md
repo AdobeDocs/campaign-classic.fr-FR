@@ -57,11 +57,11 @@ Dans la configuration du serveur, vous pouvez définir le nombre maximum de cara
 >
 >Augmenter le nombre de caractères à prendre en compte peut avoir une influence sur les performances de tracking web de votre plateforme.
 
-Pour ce faire, modifiez l’attribut **webTrackingParamSize** de l’ **`<trackinglogd>`** élément dans le fichier **serverConf.xml** . Ce fichier est enregistré dans le sous-répertoire **conf** du répertoire d’installation d’Adobe Campaign.
+Pour ce faire, modifiez l’attribut **webTrackingParamSize** de l’élément **`<trackinglogd>`** dans le fichier **serverConf.xml**. Ce fichier est enregistré dans le sous-répertoire **conf** du répertoire d’installation d’Adobe Campaign.
 
 **Exemple**:
 
-La valeur par défaut est de 64 caractères. This value lets you take into account the **amount** and **article** (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;) standard parameters.
+La valeur par défaut est de 64 caractères. Cette valeur permet de prendre en compte les paramètres standards **amount** et **article** (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;).
 
 En prenant en compte les deux paramètres (taille du nom + taille de la valeur) indiqués dans le schéma d&#39;extension d&#39;exemple ci-dessus, vous pouvez modifier la configuration pour prendre en compte 100 caractères (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx&quot;).
 
@@ -86,7 +86,7 @@ Une fois la configuration modifiée, vous devez :
 
    >[!NOTE]
    >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : nlserver de démarrage **systemctl**
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl  nlserver**
 
 * Redémarrer le serveur Web.
 
