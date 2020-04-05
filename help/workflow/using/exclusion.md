@@ -30,7 +30,7 @@ Pour paramétrer cette activité, vous devez saisir son libellé et sélectionne
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration et l’utilisation de l’activité d’exclusion, voir [Exclusion d’une population (Exclusion)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
+>Pour plus d’informations sur la configuration et l’utilisation de l’activité d’exclusion, voir [Exclure une population (Exclusion)](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-).
 
 Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire contiendra la population principale en entrée moins la population en sortie. Une seconde transition sera alors ajoutée à l&#39;activité, comme suit :
 
@@ -48,7 +48,7 @@ L&#39;exemple suivant cherche à constituer une liste des destinataires dont l&#
 
    ![](assets/exclusion_example.png)
 
-The blacklist importation example uses an **Exclusion**-type activity which can be found in [Read list](../../workflow/using/read-list.md).
+L&#39;exemple d&#39;importation d&#39;une blackliste utilise une activité de type **Exclusion** décrite dans la section [Lecture de liste](../../workflow/using/read-list.md).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
