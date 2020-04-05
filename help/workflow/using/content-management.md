@@ -106,6 +106,6 @@ Identifiant du contenu à utiliser, si l&#39;option **[!UICONTROL Spécifié par
 
    Nom complet du fichier généré, si l&#39;action sélectionnée est **[!UICONTROL Générer]**.
 
-## Exemples {#examples}
+## Exemples  {#examples}
 
 Des exemples sont proposés dans cette [section](../../delivery/using/automating-via-workflows.md#examples).
