@@ -45,7 +45,7 @@ Le mapping SQL de notre schéma d&#39;exemple donne le document XML suivant :
 
 ## Description {#description}
 
-The root element of the schema is no longer **`<srcschema>`**, but **`<schema>`**.
+L&#39;élément racine du schéma n&#39;est plus **`<srcschema>`**, mais **`<schema>`**.
 
 Nous sommes sur un autre type de document qui est généré automatiquement à partir du schéma source, on parle alors simplement de schéma. C&#39;est ce schéma qui sera utilisé par l&#39;application Adobe Campaign.
 
@@ -63,7 +63,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 
 * champ : nom de l&#39;élément précédé d&#39;un préfixe défini en fonction de son type (&#39;i&#39; pour entier, &#39;d&#39; pour double, &#39;s&#39; pour chaîne, &#39;ts&#39; pour les dates, etc.)
 
-   The field name is entered via the **sqlname** attribute for each typed **`<attribute>`** and **`<element>`**:
+   Le nom du champ est renseigné à partir de l&#39;attribut **sqlname** pour chaque **`<attribute>`** et **`<element>`** typé :
 
    ```
    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -91,7 +91,7 @@ Les contraintes des champs SQL sont les suivantes :
 
 ## Champs XML {#xml-fields}
 
-Par défaut, tout élément saisi **`<attribute>`** et **`<element>`** élément est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML au lieu de SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui observe la structure du schéma.
+Par défaut, tout élément **`<attribute>`** et **`<element>`** typé est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML plutôt que SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui respecte la structure du schéma.
 
 Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la valeur &quot;true&quot; sur l&#39;élément concerné.
 
@@ -301,7 +301,7 @@ La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 b
 
 L&#39;avantage d&#39;une clé incrémentale est d&#39;obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n&#39;est pas consommatrice car elle utilise un entier sur deux octets.
 
-Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l’attribut **pkSequence** . Si cet attribut n’est pas donné dans le schéma source, la séquence **par défaut XtkNewId** est utilisée. L’application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsLargeLogId** et **NmsTrackingLogId respectivement), car il s’agit des tables qui contiennent le plus d’enregistrements.**
+Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l&#39;attribut **pkSequence**. Si cet attribut n&#39;est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L&#39;application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsLargeLogId** et **NmsTrackingLogId** respectivement), car il s&#39;agit des tables qui contiennent le plus d&#39;enregistrements.
 
 À compter d’ACC 18.10, **XtkNewId** n’est plus la valeur par défaut de la séquence dans les schémas d’usine. Vous pouvez désormais créer ou étendre un schéma avec une séquence dédiée.
 
@@ -311,7 +311,7 @@ Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser
 
 >[!NOTE]
 >
->Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** , par exemple) doit être associée à une fonction SQL qui renvoie le nombre d’ID dans les paramètres, séparés par des virgules. Cette fonction doit être appelée ******GetNewXXXIds**, où **XXX** est le nom de la séquence (**GetNewNmsTrackingLogIds** , par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l’application dans le répertoire **datakit/nms/eng/sql/ pour récupérer l’exemple de création de séquence &#39;NmsTrackingLogId&#39; pour chaque moteur de base de données.**
+>Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** par exemple) doit être associée à une fonction SQL qui renvoie le nombre d&#39;identifiants dans les paramètres, séparés par des virgules. Cette fonction doit être appelée **GetNew** XXX **Ids**, où **XXX** est le nom de la séquence (**GetNewNmsTrackingLogIds** par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l&#39;application dans le répertoire **datakit/nms/eng/sql/** pour récupérer l&#39;exemple de création de séquence &#39;NmsTrackingLogId&#39; pour chaque moteur de base de données.
 
 Pour déclarer une clé unique, il faut renseigner l&#39;attribut **autopk** (avec la valeur &quot;true&quot;) sur l&#39;élément principal du schéma de données.
 
@@ -363,18 +363,18 @@ Les différents types d&#39;associations (dites &quot;cardinalités&quot;) sont 
 
 Dans l&#39;interface, vous pouvez distinguer facilement les différents types de relations grâce à leurs icônes.
 
-Pour les relations de jointure avec une table/base de données de campagne :
+Pour les relations de jointure avec une table/base de données de campagne :
 
-* ![](assets/join_with_campaign11.png) : Cardinalité 1-1. Par exemple, entre un destinataire et une commande en cours. Un destinataire ne peut être associé qu’à une seule occurrence du tableau de commande actuel à la fois.
-* ![](assets/externaljoin11.png) : Cardinalité 1-1, jointure externe. Par exemple, entre un destinataire et son pays. Un destinataire ne peut être associé qu’à une seule occurrence du pays de la table. Le contenu du tableau de pays ne sera pas enregistré.
-* ![](assets/join_with_campaign1n.png) : Cardinalité 1-N. Par exemple, entre un destinataire et le tableau des abonnements. Un destinataire peut être associé à plusieurs occurrences du tableau des abonnements.
+* ![](assets/join_with_campaign11.png) : Cardinalité 1-1. Par exemple, entre un destinataire et une commande en cours. Un destinataire ne peut être associé qu&#39;à une seule occurrence à la fois de la table des commandes actuelle.
+* ![](assets/externaljoin11.png) : Cardinalité 1-1, jointure externe. Par exemple, entre un destinataire et son pays. Un destinataire ne peut être associé qu&#39;à une seule occurrence dans la table des pays. Le contenu de la table des pays ne sera pas enregistré.
+* ![](assets/join_with_campaign1n.png) : Cardinalité 1-N. Par exemple, entre un destinataire et la table des abonnements. Un destinataire peut être associé à plusieurs occurrences dans la table des abonnements.
 
-Pour les relations de jointure à l’aide de l’accès aux bases de données fédérées :
+Pour les relations de jointure à l&#39;aide de Federated Database Access :
 
-* ![](assets/join_fda_11.png) : Cardinalité 1-1
-* ![](assets/join_fda_1m.png) : Cardinalité 1-N
+* ![](assets/join_fda_11.png) : Cardinalité 1-1
+* ![](assets/join_fda_1m.png) : Cardinalité 1-N
 
-For more information on FDA tables, refer to [Accessing an external database](../../platform/using/about-fda.md).
+Pour plus d&#39;informations sur les tables FDA, voir la section [Accès à une base de données externe](../../platform/using/about-fda.md).
 
 Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l&#39;élément principal :
 
@@ -388,7 +388,7 @@ Un lien doit être déclaré dans le schéma possédant la clé étrangère de l
 
 Les liens suivent les règles suivantes :
 
-* The definition of a link is entered on a **link**-type **`<element>`** with the following attributes:
+* La définition d&#39;un lien est renseignée sur un **`<element>`** de type **link** avec les attributs suivants :
 
    * **name** : nom du lien à partir de la table source,
    * **target** : nom du schéma cible,
@@ -407,7 +407,7 @@ Les liens suivent les règles suivantes :
    * **revExternalJoin** (optionnel) : force la jointure externe sur le lien reverse
 
 
-* Un lien fait référence à un ou plusieurs champs du tableau source vers le tableau de destination. Il n’est pas nécessaire de renseigner les champs constituant l’ `<join>` élément join, car ils sont automatiquement déduits par défaut à l’aide de la clé interne du schéma cible.
+* Un lien fait référence à un ou plusieurs champs de la table source vers la table de destination. Il n&#39;est pas nécessaire de renseigner les champs constituant l&#39;élément `<join>`, car ils sont automatiquement déduits par défaut à l&#39;aide de la clé interne du schéma cible.
 * Un index sur la clé étrangère du lien est automatiquement ajouté dans le schéma étendu.
 * Un lien est composé de deux demi-liens, le premier est déclaré à partir du schéma source et le second est créé automatiquement dans le schéma étendu du schéma cible.
 * La jointure d&#39;un lien peut être externe (&quot;external join&quot;) en ajoutant l&#39;attribut **externalJoin** avec la valeur &quot;true&quot; (supporté sous PostgreSQL).
@@ -479,7 +479,7 @@ Un lien réverse vers la table &quot;cus:recipient&quot; a été ajouté avec le
 * **unbound** : le lien est déclaré comme élément de collection pour une cardinalité 1-N (par défaut)
 * **integrity** : par défaut &quot;define&quot; (peut être forcée avec l&#39;attribut &quot;revIntegrity&quot; dans la définition du lien sur le schéma source)
 
-### Example 2 {#example-2}
+### Exemple 2 {#example-2}
 
 Dans cet exemple, nous déclarons un lien vers la table de schéma &quot;nms:address&quot;. La jointure est externe et est renseignée explicitement avec l&#39;email du destinataire et le champ &quot;@address&quot; de la table liée (&quot;nms:address&quot;).
 
@@ -494,7 +494,7 @@ Dans cet exemple, nous déclarons un lien vers la table de schéma &quot;nms:add
 </srcSchema>
 ```
 
-### Example 3 {#example-3}
+### Exemple 3 {#example-3}
 
 Relation 1-1 vers la table de schéma &quot;cus:extension&quot; :
 
@@ -502,7 +502,7 @@ Relation 1-1 vers la table de schéma &quot;cus:extension&quot; :
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Example 4 {#example-4}
+### Exemple 4 {#example-4}
 
 Lien sur un dossier (schéma &quot;xtk:folder&quot;) :
 
@@ -512,7 +512,7 @@ Lien sur un dossier (schéma &quot;xtk:folder&quot;) :
 
 La valeur par défaut retourne l&#39;identifiant du premier dossier éligible de type du paramètre renseigné dans la fonction &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
 
-### Example 5 {#example-5}
+### Exemple 5 {#example-5}
 
 Dans cet exemple, on souhaite créer une clé sur un lien (&quot;company&quot; vers le schéma &quot;cus:company&quot;) avec l&#39;attribut **xlink** et un champ de la table (&quot;email&quot;) :
 
