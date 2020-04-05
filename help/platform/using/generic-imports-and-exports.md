@@ -33,8 +33,8 @@ Adobe Campaign propose également un module d&#39;import qui permet d&#39;alimen
 Vous pouvez ainsi :
 
 * Créer un modèle de d&#39;import ou d&#39;export et le paramétrer, voir ci-dessous.
-* Créez une importation ou une exportation : voir [Exportation de données](../../platform/using/exporting-data.md) ou [Importation de données](../../platform/using/importing-data.md).
-* Lancez l’importation ou l’exportation et surveillez son exécution. voir Suivi des [exécutions](#execution-tracking).
+* Créer un import ou un export : voir les sections [Export des données](../../platform/using/exporting-data.md) ou [Importer des données](../../platform/using/importing-data.md).
+* Lancer l&#39;import ou l&#39;export et suivre son exécution. Voir la section [Tracking de l&#39;exécution](#execution-tracking).
 
 >[!CAUTION]
 >
@@ -50,7 +50,7 @@ Par défaut, trois modèles d&#39;import et un modèle d&#39;export sont présen
 
 ![](assets/s_ncs_user_export_wizard_template_create.png)
 
-La procédure de création d’un modèle de processus est présentée dans [l’assistant](../../platform/using/exporting-data.md#export-wizard) d’exportation et l’assistant [](../../platform/using/importing-data.md#import-wizard)d’importation.
+La procédure de création d&#39;un modèle de processus est présentée dans les sections [Assistant d&#39;export](../../platform/using/exporting-data.md#export-wizard) et [Assistant d&#39;import](../../platform/using/importing-data.md#import-wizard).
 
 >[!NOTE]
 >
@@ -87,9 +87,9 @@ Le tracking de l&#39;exécution est visualisable dans la section supérieure de 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * L&#39;onglet **[!UICONTROL Journal]** permet de consulter les messages de logs relatifs à l&#39;exécution.
-* The **[!UICONTROL Rejects]** tab contains the rejected records. See [Behavior in the event of an error](../../platform/using/importing-data.md#behavior-in-the-event-of-an-error).
+* L&#39;onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Voir la section [Comportement en cas d&#39;erreur](../../platform/using/importing-data.md#behavior-in-the-event-of-an-error).
 
 >[!NOTE]
 >
->Import/export job statuses are presented in [Job statuses](../../platform/using/importing-data.md#job-statuses).
+>Les statuts des traitements d&#39;import/export sont présentés dans la section [Les états des traitements](../../platform/using/importing-data.md#job-statuses).
 
