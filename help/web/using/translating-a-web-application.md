@@ -22,7 +22,7 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 # Traduire une application Web{#translating-a-web-application}
 
-Vous pouvez traduire des pages d&#39;applications Web créées avec l&#39;éditeur de contenu numérique Adobe Campaign (DCE).
+Vous pouvez traduire les pages d’applications Web créées avec l’éditeur Digital Content Editor (DCE) d’Adobe Campaign.
 
 Lorsque vous sélectionnez une ou plusieurs langues supplémentaires via l&#39;onglet **[!UICONTROL Localisation]** des **[!UICONTROL Propriétés]** d&#39;une application Web, une option supplémentaire apparaît lorsque vous vous placez au niveau d&#39;un bloc de contenu HTML d&#39;une page éditée avec le DCE.
 
@@ -45,7 +45,7 @@ Pour marquer les chaînes à traduire :
    >
    >Les chaînes doivent contenir au maximum 1023 caractères.
 
-   Il existe trois cas spécifiques :
+   Trois cas spécifiques sont à noter :
 
    * Lorsqu&#39;un bloc sélectionné contient plusieurs chaînes/blocs, ce dernier est ajouté sous forme d&#39;une seule chaîne à traduire. La chaîne contient alors le code HTML des éléments que le bloc contient.
    * Lorsque vous souhaitez traduire un bloc contenant plusieurs chaînes dont au moins l&#39;une d&#39;entre-elles est déjà marquée comme à traduire, un message vous en avertit. Vous pouvez alors choisir de retirer la chaîne isolée et d&#39;ajouter le bloc entier.
