@@ -1,7 +1,7 @@
 ---
-title: A propos des types de déploiement
-seo-title: A propos des types de déploiement
-description: A propos des types de déploiement
+title: À propos des types de déploiement
+seo-title: À propos des types de déploiement
+description: À propos des types de déploiement
 seo-description: null
 page-status-flag: never-activated
 uuid: 9349944d-099f-4e96-9ae6-2ff150095c10
@@ -20,7 +20,7 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 ---
 
 
-# A propos des types de déploiement{#about-deployment-types}
+# À propos des types de déploiement{#about-deployment-types}
 
 La conception modulaire d&#39;Adobe Campaign permet de nombreuses configurations de déploiement, d&#39;une installation en &quot;stand-alone&quot; (tous les composants sur une unique machine) à des configurations d&#39;entreprise impliquant une architecture entièrement distribuée et redondante via de multiples serveurs. Tout dépend des niveaux de performance, de redondance et de sécurité souhaités.
 
@@ -30,7 +30,7 @@ Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas né
 >
 >Les étapes de configuration de l’installation principale ne peuvent être exécutées que par
 >Adobe pour les déploiements hébergés par Adobe. Par exemple, pour
->configurez les fichiers de configuration du serveur et de l’instance.
+>configurer les fichiers de configuration du serveur et de l’instance.
 >
->Pour en savoir plus sur les principales différences entre les déploiements, reportez-vous à la section Modèles [d’](../../installation/using/hosting-models.md) hébergement ou à l’article Différences de [fonctionnalités pour les déploiements](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html) hébergés et sur site.
+>Pour en savoir plus sur les principales différences entre les déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou l’article [Différences de fonctionnalités pour les déploiements hébergés et on-premise](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
