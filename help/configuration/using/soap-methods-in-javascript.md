@@ -55,7 +55,7 @@ for each (var w in res.workflow)
   logInfo(w.@internalName)
 ```
 
-## Exemples {#examples}
+## Exemples  {#examples}
 
 * Requête sur la table des destinataires avec une opération &quot;get&quot; :
 
