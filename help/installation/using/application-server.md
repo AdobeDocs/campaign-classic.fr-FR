@@ -42,9 +42,9 @@ Les versions prises en charge sont répertoriées dans la [matrice de compatibil
 >
 >Sur une machine exécutant uniquement les agents de diffusion (processus **nlserver mta**) ou le serveur de workflow (processus **nlserver wfserver**), l&#39;installation du JDK n&#39;est pas nécessaire.
 
-Pour télécharger le JDK Java, connectez-vous à : [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+Pour télécharger le JDK Java, accédez à l’adresse : [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-**Avertissement : vous devez télécharger un JDK, pas un JRE.**
+**Avertissement : vous devez télécharger un JDK (Java Development Kit) et non un JRE (Java Runtime Environment).**
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Adobe Campaign permet d&#39;exporter les rapports de la plate-forme aux formats 
 
 >[!NOTE]
 >
->Pour Linux, vous devez ajouter des polices. Pour plus d’informations, reportez-vous à la section [Polices pour les statistiques](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics)MTA.
+>Pour Linux, vous devez ajouter des polices. Voir à ce sujet la section [Polices de caractères pour les statistiques MTA](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics).
 
 ## SpamAssassin {#spamassassin}
 
@@ -82,8 +82,8 @@ SpamAssassin permet d&#39;attribuer un score aux emails afin de déterminer si u
 
 La qualification des emails par SpamAssassin comme indésirables repose intégralement sur l&#39;utilisation d&#39;un ensemble de règles de filtrage et de scores. La mise à jour de ces règles, au moins une fois par jour, est donc indispensable pour que votre installation de SpamAssassin et son intégration dans Adobe Campaign soient pleinement opérationnelles et garantissent la pertinence des scores attribués à vos diffusions avant leur envoi. Cette mise à jour est de la responsabilité de l&#39;administrateur du serveur qui héberge SpamAssassin.
 
-Version minimale prise en charge : **3.4**
+La version minimale prise en charge est : **3.4**
 
 SpamAssassin nécessite un accès internet HTTP (tcp/80).
 
-Installation and configuration stages for SpamAssassin are presented in [Configuring SpamAssassin](../../installation/using/configuring-spamassassin.md).
+Les étapes d’installation et de configuration de SpamAssassin sont présentées dans la section [Paramétrage de SpamAssassin](../../installation/using/configuring-spamassassin.md).
