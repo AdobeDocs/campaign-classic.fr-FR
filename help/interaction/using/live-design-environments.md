@@ -37,11 +37,11 @@ Par défaut, Interaction est livré avec un environnement **[!UICONTROL En édit
 
 >[!NOTE]
 >
->Pour cibler une autre table (table des visiteurs pour les offres anonymes ou table des destinataires spécifique), vous devez utiliser l’assistant de mappage de cible pour créer les environnements. Pour plus d’informations, reportez-vous à la section [Création d’un environnement](#creating-an-offer-environment)d’offre.
+>Pour cibler une autre table (table des visiteurs pour les offres anonymes ou table de destinataires spécifique), vous devez utiliser l&#39;assistant de paramétrage des mappings de ciblage pour créer les environnements. Voir à ce sujet la section [Créer un environnement d’offre](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 
-Offer managers and the delivery managers have access to different views of the environment. Delivery managers can only view the **[!UICONTROL Live]** offer environment and use offers to deliver them. Offer managers can view and alter the **[!UICONTROL Design]** environment and view the **[!UICONTROL Live]** environment. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
+Le chargé d&#39;offres et le chargé de diffusion accèdent différemment aux environnements. Le chargé de diffusion ne peut visualiser que l&#39;environnement d&#39;offres **[!UICONTROL En ligne]** et utiliser les offres pour les diffuser. Le chargé d&#39;offres peut visualiser et modifier l&#39;environnement **[!UICONTROL En édition]** et consulter l’environnement **[!UICONTROL En ligne]**. Voir à ce sujet la section [Profils d’opérateurs](../../interaction/using/operator-profiles.md).
 
 ## Créer un environnement d&#39;offres {#creating-an-offer-environment}
 
@@ -65,11 +65,11 @@ Par défaut, Interaction est livré avec un environnement pré-paramétré pour 
 
    Cette option permet d&#39;activer les fonctions spécifiques aux interactions anonymes, notamment dans le paramétrage des emplacements de l&#39;environnement. Vous pourrez ainsi paramétrer des options permettant de basculer d&#39;un environnement &quot;identifié&quot; à un environnement &quot;anonyme&quot;.
 
-   Par exemple, vous pouvez lier un espace d’offre d’environnement de destinataire (contact identifié) à un espace d’offre qui correspond à un environnement de visiteur (contact non identifié). De cette façon, différentes offres seront mises à la disposition du contact selon qu’il est identifié ou non. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   Vous pourrez par exemple associer un emplacement de l&#39;environnement des destinataires (contact identifié) à un emplacement correspondant de l&#39;environnement des visiteurs (contact non identifié). Ainsi, le contact disposera d&#39;offres différentes selon qu&#39;il soit identifié ou non. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >
->For more information on anonymous interactions on an inbound channel, refer to [Anonymous interactions](../../interaction/using/anonymous-interactions.md).
+>Pour plus d&#39;informations sur les interactions anonymes sur canal entrant, consultez la section [Interactions anonymes](../../interaction/using/anonymous-interactions.md).
 
