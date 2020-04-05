@@ -36,7 +36,7 @@ Pour ajouter une condition de visibilité, sélectionnez un bloc et saisissez la
 
 ![](assets/dce_popup_visibilitycondition.png)
 
-Ces conditions adoptent la syntaxe de l’expression XTK (par exemple **ctx.Recipient.@email != &quot;&quot;** ou **ctx.Recipient.@status==&quot;0&quot;**). Par défaut, tous les champs sont visibles.
+Ces conditions adoptent la syntaxe d’expression XTK (par exemple **ctx.recipient.@email != &quot;&quot;** or **ctx.recipient.@status==&quot;0&quot;**). Par défaut, tous les champs sont visibles.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 
 >[!NOTE]
 >
->Pour chaque type de lien, vous pouvez configurer le mode d’ouverture : sélectionnez la fenêtre cible dans la liste déroulante **Target** . Cette valeur correspond à la balise **`<target>`** HTML.
+>Pour chaque type de lien, vous pouvez configurer le mode d’ouverture : sélectionnez la fenêtre cible dans la liste déroulante **Cible**. Cette valeur correspond à la balise HTML **`<target>`**.
 >
 >La liste des **cibles** disponibles est la suivante :
 >
@@ -172,7 +172,7 @@ L&#39;option **Lien définissant une action** permet de paramétrer une action l
 
 >[!NOTE]
 >
->Les actions disponibles sont détaillées dans la section [Ajout d’une action à un bouton](#adding-an-action-to-a-button) .
+>Les actions disponibles sont détaillées dans la section [Ajouter une action sur un bouton](#adding-an-action-to-a-button).
 
 ### Supprimer un lien {#delete-a-link}
 
@@ -193,11 +193,11 @@ Lorsque vous sélectionnez un élément de texte, vous pouvez modifier les attri
 
 Les options disponibles sont les suivantes :
 
-* **Icône d’agrandissement de police** : augmente la taille du texte sélectionné (ajouter `<span style="font size:">`)
-* **Icône Réduire la police** : réduit la taille du texte sélectionné (ajouter `<span style="font size:">`)
-* **Icône Gras** : met le texte sélectionné en gras (entoure le texte de la `<strong> </strong>` balise )
-* **Icône en italique** : affiche le texte sélectionné en italique (le texte est encapsulé avec la `<em> </em>` balise ).
-* **Icône de soulignement** : met le texte sélectionné en surbrillance (entoure le texte de la `<span style="text-decoration: underline;">` balise )
+* Icône **Agrandir la police** : augmente la taille du texte sélectionné (ajouter `<span style="font size:">`)
+* Icône **Réduire la police** : réduit la taille du texte sélectionné (ajouter `<span style="font size:">`)
+* Icône **Gras** : ajoute le style gras au texte sélectionné (entoure le texte de la balise `<strong> </strong>`)
+* Icône **Italique** : ajoute le style italique au texte sélectionné (entoure le texte de la balise `<em> </em>`)
+* Icône **Souligner** : ajoute le style souligné au texte sélectionné (entoure le texte de la balise`<span style="text-decoration: underline;">`)
 * Icône **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style=&quot;text-align: left;&quot;)
 * Icône **Centrer** : centre le texte du bloc sélectionné (ajoute style=&quot;text-align: center;&quot;)
 * Icône **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style=&quot;text-align: right;&quot;)
@@ -229,7 +229,7 @@ Pour être compatible avec le DCE, les **animations de type &quot;Flash&quot;** 
 
 >[!CAUTION]
 >
->You must not call up external files in a **script** tag of the HTML page. These files will not be imported onto the Adobe Campaign server.
+>Vous ne devez pas appeler de fichiers externes dans une balise **script** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
 
 ### Ajouter / Supprimer / Dupliquer une image {#adding---deleting---duplicating-an-image}
 
@@ -241,9 +241,9 @@ Sélectionnez un fichier image enregistré en local.
 
 ![](assets/dce_popup_imgupload.png)
 
-The **Delete** icon deletes the ![]() tag containing the image.
+L’icône **Supprimer** supprime la balise ![]() contenant l’image.
 
-The **Duplicate** icon duplicates the ![]() tag and its content.
+L’icône **Dupliquer** duplique la balise ![]() et son contenu.
 
 >[!CAUTION]
 >
@@ -270,7 +270,7 @@ Par défaut, les champs proposés sont ceux de la table **[!UICONTROL Destinatai
 
 Le nom du champ apparaît dans l&#39;éditeur, surligné en jaune. Il sera remplacé, lors de la génération de la personnalisation (par exemple, lors de la prévisualisation d&#39;une landing page), par la valeur correspondant au profil du destinataire ciblé.
 
-Un exemple est présenté dans la section [Insertion d’un champ](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) de personnalisation.
+Un exemple est présenté dans la section [Insertion d’un champ de personnalisation](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field).
 
 ### Insérer un bloc de personnalisation {#inserting-a-personalization-block}
 
@@ -280,4 +280,4 @@ L&#39;option **Bloc de personnalisation** permet d&#39;insérer des blocs dynami
 
 Après l&#39;insertion, le nom du bloc de personnalisation apparaît dans l&#39;éditeur, surligné en jaune. Il sera automatiquement adapté au profil du destinataire lors de la génération de la personnalisation.
 
-For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
+Pour plus d&#39;informations sur les blocs de personnalisation d&#39;usine et sur la définition des blocs de personnalisation personnalisés, consultez [cette page](../../delivery/using/personalization-blocks.md).
