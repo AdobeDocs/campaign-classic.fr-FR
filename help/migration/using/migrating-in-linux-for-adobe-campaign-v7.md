@@ -1,7 +1,7 @@
 ---
-title: Migration sous Linux pour Adobe Campaign v7
-seo-title: Migration sous Linux pour Adobe Campaign v7
-description: Migration sous Linux pour Adobe Campaign v7
+title: Migration sous Linux pour Adobe Campaign v7
+seo-title: Migration sous Linux pour Adobe Campaign v7
+description: Migration sous Linux pour Adobe Campaign v7
 seo-description: null
 page-status-flag: never-activated
 uuid: 47870ea4-b07b-4db7-8094-7a8b6f4b6936
@@ -20,17 +20,17 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 ---
 
 
-# Migration sous Linux pour Adobe Campaign v7{#migrating-in-linux-for-adobe-campaign-v}
+# Migration sous Linux pour Adobe Campaign v7{#migrating-in-linux-for-adobe-campaign-v}
 
 ## Procédure générale {#general-procedure}
 
 Les étapes de migration sous Linux sont les suivantes :
 
-1. Arrêter les services : voir Arrêt [du service](#service-stop).
-1. Enregistrez la base de données : voir [Sauvegarde de la base de données et installation](#back-up-the-database-and-the-existing-installation)existante.
-1. Désinstallez les anciens packs de version d’Adobe Campaign : voir [Désinstallation des packs](#uninstalling-adobe-campaign-previous-version-packages)de version précédente d’Adobe Campaign.
-1. Migrer la plateforme : voir [Déploiement d’Adobe Campaign v7](#deploying-adobe-campaign-v7).
-1. Redémarrage du service : voir [Redémarrage des services](#re-starting-services).
+1. Arrêter les services : voir la section [Arrêt des services](#service-stop).
+1. Enregistrer la base de données : voir [Sauvegarde de la base et de l&#39;installation existante](#back-up-the-database-and-the-existing-installation).
+1. Désinstaller les packages de version précédente d&#39;Adobe Campaign : voir [Désinstallation des packages de version précédente d&#39;Adobe Campaign](#uninstalling-adobe-campaign-previous-version-packages).
+1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7).
+1. Redémarrer le service : voir la section [Redémarrage des services](#re-starting-services).
 
 ## Arrêt des services {#service-stop}
 
@@ -94,7 +94,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    >
    >Par mesure de précaution, nous vous recommandons vivement de zipper le dossier **nl5.back**, et de le conserver à un autre emplacement que le serveur, sur un support sécurisé.
 
-1. Modifiez le **fichier`<instance name>`config-** .xml **(dans le dossier** nl5.back **) afin d’éviter les** mta, wfserver, statetc. ******** à partir du démarrage automatique. Par exemple, remplacez **autoStart** par **_autoStart** (toujours comme **néolane**).
+1. Éditez le fichier **config-`<instance name>`.xml** (dans le dossier **nl5.back**), pour éviter le démarrage automatique des services **mta**, **wfserver**, **stat**, etc. Par exemple, remplacez **autoStart** par **_autoStart** (comme pour **neolane**).
 
    ```
    <?xml version='1.0'?>
@@ -129,7 +129,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    >
    >Par mesure de précaution, nous vous recommandons vivement de zipper le dossier **nl6.back**, et de le conserver à un autre emplacement que le serveur, sur un support sécurisé.
 
-1. Modifiez le **fichier`<instance name>`config-** .xml **(dans le dossier** nl6.back **) afin d’empêcher les** variables mta, wfserver, stat, etc. ******** à partir du démarrage automatique. Par exemple, remplacez **autoStart** par **_autoStart** (toujours sous **Adobe Campaign**).
+1. Éditez le fichier **config-`<instance name>`.xml** (dans le dossier **nl6.back**), pour éviter le démarrage automatique des services **mta**, **wfserver**, **stat**, etc. Par exemple, remplacez **autoStart** par **_autoStart** (comme pour **Adobe Campaign**).
 
    ```
    <?xml version='1.0'?>
@@ -337,7 +337,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    cp -r nl5.back/var/* nl6/var/
    ```
 
-1. Dans les fichiers Adobe Campaign v7 **serverConf.xml** et **config-default.xml** , appliquez les configurations spécifiques dont vous disposiez pour Adobe Campaign v5. Pour le fichier **serverConf.xml** , utilisez le fichier **nl5/conf/serverConf.xml.diff** .
+1. Dans les fichiers **serverConf.xml** et **config-default.xml** d&#39;Adobe Campaign v7, appliquez les configurations spécifiques dont vous disposiez pour Adobe Campaign v5. Pour le fichier **serverConf.xml**, utilisez le fichier **nl5/conf/serverConf.xml.diff**.
 
    >[!NOTE]
    >
@@ -372,7 +372,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Nous vous recommandons vivement de mettre à niveau votre base en &quot;multi-fuseau horaire&quot;. Pour plus d&#39;informations sur les options de fuseau horaire, consultez la section Fuseaux [](../../migration/using/general-configurations.md#time-zones) horaires.
+   >Nous vous recommandons vivement de mettre à niveau votre base en mode « multi timezone ». Pour plus d&#39;informations à propos des options de fuseaux horaires, consultez la section [Fuseaux horaires](../../migration/using/general-configurations.md#time-zones).
 
 >[!IMPORTANT]
 >
@@ -428,7 +428,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    >
    >Si le service **trackinglogd** n&#39;est pas démarré sur le serveur de tracking, aucune information de tracking ne sera remontée.
 
-1. Accédez au dossier de sauvegarde **nl6.back** et copiez (écrasez) les fichiers de configuration et les sous-dossiers de chaque instance. Connectez-vous en tant que **néolane** et exécutez la commande suivante :
+1. Accédez au dossier de sauvegarde **nl6.back** et copiez (écrasez) les fichiers de configuration et les sous-dossiers de chaque instance. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 
    ```
    su - neolane
@@ -454,7 +454,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Le mode &quot;multi-fuseau&quot; n&#39;était disponible que dans la version 6.02 pour les moteurs de base de données PostgreSQL. Il est maintenant disponible quelle que soit la version du moteur de base de données utilisée.Nous vous recommandons vivement de mettre à niveau votre base en &quot;multi-fuseau horaire&quot;. Pour plus d&#39;informations sur les options de fuseau horaire, consultez la section Fuseaux [](../../migration/using/general-configurations.md#time-zones) horaires.
+   >Le mode « multi timezone » n&#39;était disponible, en v6.02, que pour les moteurs de base de données PostgreSQL. Il est à présent proposé quelle que soit la version de votre moteur de base. Nous vous recommandons fortement de transformer votre base en base « multi timezone ». Pour plus d&#39;informations à propos des options de fuseaux horaires, consultez la section [Fuseaux horaires](../../migration/using/general-configurations.md#time-zones).
 
 ### Migration à partir d&#39;Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-1}
 
@@ -496,7 +496,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    >
    >Pour plus d&#39;informations sur l&#39;installation d&#39;Adobe Campaign sous Linux, consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
 
-1. Accédez au dossier de sauvegarde **nl6.back** et copiez (écrasez) les fichiers de configuration et les sous-dossiers de chaque instance. Connectez-vous en tant que **néolane** et exécutez la commande suivante :
+1. Accédez au dossier de sauvegarde **nl6.back** et copiez (écrasez) les fichiers de configuration et les sous-dossiers de chaque instance. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 
    ```
    su - neolane
@@ -526,7 +526,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 >
 >Cette section s&#39;applique uniquement lors de la migration à partir d&#39;Adobe Campaign v5.11.
 
-A ce stade, Apache doit être arrêté. Reportez-vous à : Arrêt [du service](#service-stop).
+À ce stade, Apache doit être arrêté. Voir la section [Arrêt des services](#service-stop).
 
 1. Connectez-vous en tant que **root**.
 1. Modifiez les variables d&#39;environnement d&#39;Apache afin de les faire pointer vers le répertoire **nl6**.
@@ -580,7 +580,7 @@ A ce stade, Apache doit être arrêté. Reportez-vous à : Arrêt [du service](#
 
 ## Zones de sécurité {#security-zones}
 
-Si vous effectuez une migration depuis la version 6.02 ou une version antérieure, vous devez configurer vos zones de sécurité avant de démarrer les services. For more information, refer to [Security](../../migration/using/general-configurations.md#security).
+Si vous migrez depuis une v6.02 ou antérieure, vous devez paramétrer vos zones de sécurité avant de redémarrer les services. Voir à ce sujet la section [Sécurité](../../migration/using/general-configurations.md#security).
 
 ## Redémarrage des services {#re-starting-services}
 
@@ -588,7 +588,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
 
 ### Migration à partir d&#39;Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5_11-2}
 
-In the **config-`<instance name>`.xml** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
+Dans les fichiers **config-`<instance name>`.xml**, réactivez le démarrage automatique des services **mta**, **wfserver**, **stat**, etc. 
 
 ```
 <?xml version='1.0'?>
@@ -615,11 +615,11 @@ Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Camp
 1. Serveur de mid-sourcing.
 1. Serveur marketing.
 
-Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+Avant de passer à l&#39;étape suivante, testez complètement la nouvelle installation, validez la non-régression et assurez-vous que tout est fonctionnel, en suivant toutes les recommandations données dans la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
 ### Migration à partir d&#39;Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6_02-2}
 
-In the **config-`<instance name>`.xml** files, reactivate the automatic startup of the **mta**, **wfserver**, **stat**, etc. services.
+Dans les fichiers **config-`<instance name>`.xml**, réactivez le démarrage automatique des services **mta**, **wfserver**, **stat**, etc. 
 
 ```
 <?xml version='1.0'?>
@@ -646,7 +646,7 @@ Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Camp
 1. Serveur de mid-sourcing.
 1. Serveur marketing.
 
-Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+Testez complètement la nouvelle installation, validez la non-régression et assurez-vous que tout est fonctionnel, en suivant toutes les recommandations de la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
 ### Migration à partir d&#39;Adobe Campaign v6.1 {#migrating-from-adobe-campaign-v6_1-2}
 
@@ -656,7 +656,7 @@ Sur chacun des serveurs suivants, démarrez Apache puis les services Adobe Camp
 1. Serveur de mid-sourcing.
 1. Serveur marketing.
 
-Fully test the new installation, check that it does not regress and make sure that everything is working correctly by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+Testez complètement la nouvelle installation, validez la non-régression et assurez-vous que tout est fonctionnel, en suivant toutes les recommandations de la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
 ## Suppression et nettoyage d&#39;Adobe Campaign v5 {#deleting-and-cleansing-adobe-campaign-v5}
 
