@@ -36,7 +36,7 @@ Chaque mode possède des caractéristiques propres. Cependant le mode de trackin
 >
 >Il est possible de modifier le mode par défaut à tout moment dans l&#39;assistant de déploiement de l&#39;instance.
 
-Note that if you are using the **permanent web** or **anonymous** tracking mode, you must add an index to the &quot;sourceID&quot; column (uuid230) in the tracking tables (trackingLogXXX):
+Notez que si vous utilisez le mode de tracking **Web permanent** ou **anonyme**, vous devez impérativement ajouter un index sur la colonne « sourceID » (uuid230) dans les tables de tracking (trackingLogXXX) :
 
 1. Identifiez la ou les tables de tracking concernées par le tracking permanent.
 1. Etendez les schémas correspondant à ces tables en ajoutant les lignes :
