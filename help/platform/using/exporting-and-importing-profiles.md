@@ -30,5 +30,5 @@ Pour paramétrer et exécuter des imports et des exports de données, positionne
 
 >[!NOTE]
 >
->L’importation et l’exportation des données sont présentées dans les importations et exportations [génériques](../../platform/using/generic-imports-and-exports.md) et dans [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html).
+>L’import et l’export de données sont présentées dans les sections [Imports et exports génériques](../../platform/using/generic-imports-and-exports.md) et dans [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html).
 
