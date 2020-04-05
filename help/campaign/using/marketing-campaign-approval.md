@@ -1,7 +1,7 @@
 ---
-title: Approbation des campagnes marketing
-seo-title: Approbation des campagnes marketing
-description: Approbation des campagnes marketing
+title: Validation des campagnes marketing
+seo-title: Validation des campagnes marketing
+description: Validation des campagnes marketing
 seo-description: null
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
@@ -19,7 +19,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
 
-# Approbation des campagnes marketing {#approving-marketing-campaigns}
+# Validation des campagnes marketing {#approving-marketing-campaigns}
 
 ## Processus de validation {#approval-process}
 
@@ -27,16 +27,16 @@ Chaque étape d&#39;une diffusion peut faire l&#39;objet d&#39;une validation af
 
 >[!NOTE]
 >
->Vous devez vérifier que les réviseurs disposent des droits appropriés pour l’approbation. Vérifiez également que leur zone de sécurité est correctement définie.
+>Vous devez vérifier que les validants disposent des droits appropriés pour la validation. Vérifiez également que leur zone de sécurité est correctement définie.
 
 Des emails de notification sont envoyés aux opérateurs Adobe Campaign désignés comme validants afin de les avertir d&#39;une demande de validation.
 
-La procédure d&#39;approbation est présentée dans [Vérification et approbation des livraisons](#checking-and-approving-deliveries).
+La procédure de validation est présentée dans la section [Contrôler et valider les diffusions](#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
 >Seul le propriétaire d&#39;une diffusion peut démarrer cette dernière. Pour qu&#39;un autre opérateur (ou un groupe d&#39;opérateurs) puisse démarrer une diffusion, vous devez l&#39;ajouter comme validant au niveau du champ **[!UICONTROL Démarrage de la diffusion]**.\
->Voir aussi [Sélection de réviseurs](#selecting-reviewers).
+>Voir aussi [Sélection des opérateurs validants](#selecting-reviewers).
 
 ### Principe de fonctionnement {#operating-principle-}
 
@@ -60,7 +60,7 @@ Ces messages de notification sont envoyés aux opérateurs spécifiés pour chaq
 
 Les validations peuvent être activées au niveau du modèle de l&#39;opération, au niveau de chaque opération ou au niveau de la diffusion.
 
-**[!UICONTROL Toutes les tâches nécessitant une approbation sont sélectionnées dans le modèle de campagne (]** Propriétés **[!UICONTROL > Paramètres de campagne]** avancés... > **[!UICONTROL onglet Approbations]** ), tout comme les opérateurs chargés de l’approbation (ils recevront des notifications, sauf si cette option n’est pas activée). For more on this, refer to [Approving processes](#approving-processes).
+Les traitements qui doivent faire l&#39;objet d&#39;une validation sont sélectionnés dans le modèle de l&#39;opération (onglet **[!UICONTROL Propriétés]** > **[!UICONTROL Paramètres avancés de l’opération...]** > **[!UICONTROL Validations]**), ainsi que le(s) responsable(s) des validations (ils recevront les messages de notification, sauf si cette option n&#39;est pas activée). Voir à ce sujet la section [Valider les traitements](#approving-processes).
 
 Ce paramétrage peut être surchargé au niveau de chaque opération créée depuis ce modèle et également unitairement au niveau de chacune des diffusions de l&#39;opération, en cliquant sur le bouton **[!UICONTROL Propriétés]** puis sur l&#39;onglet **[!UICONTROL Validations]**.
 
@@ -99,7 +99,7 @@ Vérifiez les informations, puis acceptez ou refusez la validation. Saisissez é
 
 #### Validation via les messages de notification {#approval-via-notification-messages}
 
-Cliquez sur le lien disponible dans le message de notification (voir [Notifications](#notifications)). Vous serez invité à vous identifier, comme illustré ci-dessous :
+Cliquez sur le lien disponible dans le message de notification (voir [Notifications](#notifications)). Vous serez invité à vous identifier, comme illustré ci-dessous :
 
 ![](assets/s_user_validation__log_in.png)
 
@@ -151,7 +151,7 @@ Pour sélectionner le mode de validation (manuelle ou automatique), cliquez sur 
 
 La validation manuelle permet, lors de la construction du workflow de ciblage, de ne pas créer les liens de validation et envoyer les notifications automatiquement. Le tableau de bord de l&#39;opération propose alors un lien **[!UICONTROL Soumettre le ciblage à validation]** afin de lancer le processus de validation manuellement.
 
-Un message de confirmation vous permet d’autoriser les approbations pour les tâches sélectionnées pour cette remise.
+Un message de confirmation permet d&#39;autoriser les validations sur les traitements sélectionnés pour cette diffusion.
 
 Les boutons de validation sont alors affichés dans le tableau de bord de l&#39;opération (au niveau de cette diffusion), dans le tableau de bord de la diffusion et dans le tracking des diffusions. Si les notifications sont activées, elles seront parallèlement envoyées.
 
@@ -161,7 +161,7 @@ Ce mode d&#39;activation des validations permet de travailler sur des recherches
 
 Les notifications sont des emails spécifiques envoyés aux opérateurs validants afin de les avertir qu&#39;un traitement est en attente de validation. Lorsque l&#39;opérateur clique sur le lien contenu dans le message, il accède à une page d&#39;authentification. Après connexion, il peut consulter les éléments concernés puis valider ou non le traitement. Il peut également saisir un commentaire dans la fenêtre de validation.
 
-Le contenu des courriers électroniques de notification peut être personnalisé. Voir Contenu [des](#notification-content)notifications.
+Le contenu des emails de notification peut être personnalisé. Voir [Contenu des notifications](#notification-content).
 
 #### Activation/Désactivation de la notification {#enabling-disabling-notification}
 
@@ -177,30 +177,30 @@ Le contenu des notifications est défini dans un modèle spécifique : **[!UICON
 
 ## Contrôler et valider les diffusions {#checking-and-approving-deliveries}
 
-Adobe Campaign vous permet de configurer des processus d’approbation pour les principales étapes de la campagne marketing en mode collaboratif.
+Grâce à Campaign, vous pouvez mettre en place des processus de validation des principales étapes d&#39;une campagne marketing, dans un mode collaboratif.
 
-Pour les livraisons par courrier direct, les opérateurs Adobe Campaign peuvent afficher le fichier d&#39;extraction avant qu&#39;il ne soit envoyé au routeur et, si nécessaire, modifier le format et relancer l&#39;extraction. See [Approving an extraction file](#approving-an-extraction-file).
+Pour les diffusions courrier, les opérateurs Adobe Campaign peuvent visualiser le fichier d&#39;extraction avant l&#39;envoi au routeur et, au besoin, modifier le format et relancer l&#39;extraction. Voir [Valider un fichier d’extraction](#approving-an-extraction-file).
 
-Pour chaque campagne, vous pouvez approuver la cible de diffusion, le contenu (voir [Approbation de contenu](#approving-content)) et les coûts. Les opérateurs Adobe Campaign en charge de l’approbation peuvent être avertis par courrier électronique et peuvent accepter ou refuser l’approbation de la console ou par une connexion Web. Voir [Approbation de processus](#approving-processes).
+Pour chaque campagne, vous pouvez approuver la cible de diffusion, le contenu (voir [Valider le contenu](#approving-content)) et les coûts. Les opérateurs Adobe Campaign en charge de la validation peuvent être avertis par email et accepter ou refuser la validation depuis la console ou via une connexion Web. Voir [Valider les traitements](#approving-processes).
 
-Une fois ces phases de validation terminées, la remise peut être lancée. Voir [Démarrage d’une remise](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
+Une fois ces phases de validation achevées, la diffusion peut être lancée. Voir [Démarrer une diffusion](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
 >[!NOTE]
 >
->For further information about approval modes and tracking, see [Approval process](#approval-process).
+>Pour plus d&#39;information sur les modes de validation et le tracking des validations, voir [Processus de validation](#approval-process).
 
 ### Valider les traitements {#approving-processes}
 
-Les étapes qui doivent être approuvées apparaissent dans le tableau de bord de la campagne (via la console de l’interface Web). Elles apparaissent également dans le tableau de suivi des remises et dans le tableau de bord des remises.
+Les étapes qui doivent être validées apparaissent dans le tableau de bord de la campagne (via la console de l’interface web). Elles apparaissent également dans la table de tracking des diffusions et dans le tableau de bord des diffusions.
 
 Le statut de l&#39;opération est alors **[!UICONTROL A valider]**.
 
 >[!NOTE]
 >
->* Pour sélectionner les processus qui seront soumis à approbation, modifiez le modèle de campagne. For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>* Pour sélectionner les processus qui seront soumis à une validation, modifiez le modèle de campagne. Voir à ce sujet la section [Modèles de campagne](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
    >
    >
-* Also refer to the section on the [Approval process](#approval-process).
+* Voir aussi la section sur le [Processus de validation](#approval-process).
 
 
 
@@ -248,9 +248,9 @@ Pour chaque diffusion de l&#39;opération, il est possible de valider les traite
 
    ![](assets/s_ncs_user_task_valid_associate.png)
 
-#### Sélection des processus à approuver {#choosing-the-processes-to-be-approved}
+#### Sélectionner les processus à valider {#choosing-the-processes-to-be-approved}
 
-Les phases d’approbation sont définies avec le modèle associé à la campagne. Vous devez sélectionner les éléments à approuver à partir du modèle et spécifier les opérateurs Adobe Campaign qui seront responsables de ces approbations. For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+Les phases de validation sont définies avec le modèle associé à la campagne. Vous devez sélectionner les éléments à valider à partir du modèle et spécifier les opérateurs Adobe Campaign qui seront responsables de ces validations. Voir à ce sujet la section [Modèle de campagne](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 >[!NOTE]
 >
@@ -293,7 +293,7 @@ Au niveau de chaque diffusion, cliquez sur le bouton **[!UICONTROL Suivi]** puis
 >
 >Les fonctionnalités de validation du contenu présentées ci-après doivent venir en complément de l&#39;envoi des BAT.
 
-Il est possible de configurer un cycle d’approbation du contenu. Pour ce faire, sélectionnez l’option **[!UICONTROL Activer l’approbation]** du contenu dans la fenêtre des paramètres d’approbation. Les étapes principales du cycle d’approbation du contenu sont les suivantes :
+Il est possible de configurer un cycle de validation du contenu. Pour ce faire, sélectionnez l’option **[!UICONTROL Activer la validation du contenu]** dans la fenêtre des paramètres de validation. Les étapes principales du processus de validation de contenu sont les suivantes :
 
 1. Après la création d&#39;une nouvelle diffusion, le responsable de l&#39;opération clique sur le lien **[!UICONTROL Soumettre le contenu]**, dans le tableau de bord de l&#39;opération, pour lancer le cycle de validation du contenu.
 
@@ -323,7 +323,7 @@ Il est possible de configurer un cycle d’approbation du contenu. Pour ce faire
 
       ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
-1. Un courrier électronique de notification est envoyé à la personne responsable de la campagne pour l’informer de l’approbation ou non du contenu.
+1. Un email de notification est envoyé au responsable de l&#39;opération pour l&#39;informer de la validation ou de la non-validation du contenu.
 
    >[!NOTE]
    >
@@ -398,4 +398,4 @@ A la date de la demande d&#39;extraction, le fichier d&#39;extraction est créé
 
 Vous pouvez visualiser le contenu du fichier extrait (en cliquant sur son nom), le valider, ou, au besoin, modifier le format et relancer l&#39;extraction, via les liens proposés dans le tableau de bord.
 
-Une fois le fichier approuvé, vous pouvez envoyer l&#39;e-mail de notification au routeur. Pour plus d’informations, reportez-vous à [Démarrage d’une diffusion](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)hors ligne.
+Une fois le fichier validé, vous pouvez envoyer l&#39;email de notification au routeur. Voir à ce sujet la section [Démarrer une diffusion hors ligne](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
