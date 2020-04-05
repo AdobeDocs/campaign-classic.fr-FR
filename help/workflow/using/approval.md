@@ -70,7 +70,7 @@ Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour sélectionner 
 
 Ce modèle peut être modifié pour personnaliser la présentation du message, mais il est préférable d&#39;en faire une copie. Le mécanisme de ciblage (fichier externe, mapping de ciblage) ne doit pas être modifié car il est nécessaire au bon fonctionnement de la notification.
 
-An approval example is shown in [Defining approvals](../../workflow/using/executing-a-workflow.md#defining-approvals).
+Un exemple de validation est proposé dans la section [Définir les validations](../../workflow/using/executing-a-workflow.md#defining-approvals).
 
 ## Paramètres de sortie {#output-parameters}
 
