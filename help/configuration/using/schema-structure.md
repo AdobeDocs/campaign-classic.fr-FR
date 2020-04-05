@@ -22,7 +22,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 # Structure d&#39;un schéma{#schema-structure}
 
-The basic structure of an `<srcschema>` is as follows:
+La structure de base d’un `<srcschema>` est la suivante :
 
 ```
 <srcSchema>
@@ -65,7 +65,7 @@ The basic structure of an `<srcschema>` is as follows:
 </srcSchema>
 ```
 
-The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
+Le document XML d&#39;un schéma de données doit contenir l&#39;élément racine **`<srcschema>`** avec les attributs **name** et **namespace** pour renseigner respectivement le nom du schéma et son espace de nommage.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -106,7 +106,7 @@ Dans notre exemple, l&#39;élément principal est représenté par la ligne :
 <element name="recipient">
 ```
 
-The elements **`<attribute>`** and **`<element>`** that follow the main element enable you to define the locations and names of the data items in the XML structure.
+Les éléments **`<attribute>`** et **`<element>`** qui suivent l’élément principal permettent de définir l&#39;emplacement et le nom des données dans la structure XML.
 
 Soit dans notre schéma d&#39;exemple :
 
@@ -121,23 +121,23 @@ Soit dans notre schéma d&#39;exemple :
 
 Les règles à respecter sont les suivantes :
 
-* Each **`<element>`** and **`<attribute>`** must be identified by name via the **name** attribute.
+* Chaque **`<element>`** et **`<attribute>`** doit être identifié par son nom à partir de l&#39;attribut **name**.
 
    >[!IMPORTANT]
    >
    >Le nom de l&#39;élément doit être concis, de préférence en anglais, et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
 
-* Only **`<element>`** elements can contain **`<attribute>`** elements and **`<element>`** elements in the XML structure.
-* An **`<attribute>`** element must have a unique name within an **`<element>`**.
-* The use of**`<elements>`** in multi-line data strings is recommended.
+* Seuls les éléments **`<element>`** peuvent contenir des éléments **`<attribute>`** et des éléments **`<element>`** dans la structure XML.
+* Un élément **`<attribute>`** doit être unique par son nom dans un **`<element>`**.
+* L’utilisation des **`<elements>`** sur les données de type chaîne multi-lignes est préconisée.
 
-## Types de données {#data-types}
+## Types des données {#data-types}
 
-The data type is entered via the **type** attribute in the **`<attribute>`** and **`<element>`** elements.
+Le type de données est renseigné à partir de l&#39;attribut **type** sur les éléments **`<attribute>`** et **`<element>`**.
 
-A detailed list is available in the description of the [`<attribute>` element](../../configuration/using/elements-and-attributes.md#attribute--element) and the [`<element>` element](../../configuration/using/elements-and-attributes.md#element--element).
+Une liste complète est disponible dans la description de l&#39;[`<attribute>`élément](../../configuration/using/elements-and-attributes.md#attribute--element) et de l’[`<element>`élément](../../configuration/using/elements-and-attributes.md#element--element).
 
-Lorsque cet attribut n’est pas renseigné, **string** est le type de données par défaut, sauf si l’élément contient des éléments enfants. Si tel est le cas, il est utilisé uniquement pour structurer les éléments de manière hiérarchique (**`<location>`** élément dans notre exemple).
+Lorsque cet attribut n’est pas renseigné, **string** est le type de données par défaut, sauf si l’élément contient des éléments enfants. Si tel est le cas, il est utilisé uniquement pour structurer les éléments de manière hiérarchique (élément **`<location>`** dans notre exemple).
 
 Les types de données supportés dans un schéma sont les suivants :
 
@@ -188,7 +188,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
    <td> <strong>MS SQL</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> Chaîne<br /> </td> 
+   <td> Chaîne <br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 (NVARCHAR2 si unicode)<br /> </td> 
    <td> VARCHAR (VARCHAR CHARACTER SET UNICODE si Unicode)<br /> </td> 
@@ -304,7 +304,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
 
 ## Propriétés {#properties}
 
-Les éléments **`<elements>`** et **`<attributes>`** les éléments du schéma de données peuvent être enrichis de diverses propriétés. Vous pouvez remplir un libellé afin de décrire l’élément actif.
+Les éléments **`<elements>`** et **`<attributes>`** du schéma de données peuvent être enrichis de diverses propriétés. Vous pouvez remplir un libellé afin de décrire l’élément actif.
 
 ### Les libellés et les descriptions {#labels-and-descriptions}
 
@@ -342,7 +342,7 @@ Les éléments **`<elements>`** et **`<attributes>`** les éléments du schéma 
 
 La propriété **default** permet de définir une expression retournant une valeur par défaut à la création du contenu.
 
-La valeur doit être une expression conforme au langage XPath. Pour plus d’informations, reportez-vous à [Référence avec XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
+La valeur doit être une expression conforme au langage XPath. Voir à ce propos la section [Référencer avec XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
 **Exemple**:
 
@@ -355,11 +355,11 @@ La valeur doit être une expression conforme au langage XPath. Pour plus d’inf
    >
    >Dans la console cliente Adobe Campaign, le noeud **[!UICONTROL Administration>Compteurs]** permet de gérer les compteurs.
 
-Pour lier une valeur par défaut à un champ, vous pouvez utiliser la variable `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
+Pour lier une valeur par défaut à un champ, vous pouvez utiliser le `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
 `<default>` : vous permet de préremplir le champ avec une valeur par défaut lors de la création d’entités. La valeur ne sera pas une valeur SQL par défaut.
 
-`<sqldefault>` : vous permet d’avoir une valeur ajoutée lors de la création d’un champ. Cette valeur s’affiche sous forme de résultat SQL. Lors de la mise à jour d’un schéma, seuls les nouveaux enregistrements seront affectés par cette valeur.
+`<sqldefault>` : vous permet d’avoir une valeur ajoutée lors de la création d’un champ. Cette valeur s’affiche sous forme de résultat SQL. Lors de la mise à jour d’un schéma, seuls les nouveaux enregistrements seront affectés par cette valeur.
 
 ### Enumérations {#enumerations}
 
@@ -399,7 +399,7 @@ Exemple de déclaration d&#39;énumération dans le schéma de données :
 </enumeration>
 ```
 
-An enumeration is declared outside the main element via the **`<enumeration>`** element.
+Une énumération est déclarée en dehors de l&#39;élément principal à partir de l&#39;élément **`<enumeration>`**.
 
 Les propriétés de l&#39;énumération sont :
 
@@ -408,7 +408,7 @@ Les propriétés de l&#39;énumération sont :
 * **name** : nom de l&#39;énumération,
 * **default** : valeur par défaut de l&#39;énumération.
 
-The enumeration values are declared in the **`<value>`** element with the following attributes:
+Les valeurs de l’énumération sont déclarées dans l&#39;élément **`<value>`** avec les attributs suivants :
 
 * **name** : nom de la valeur stockée en interne,
 * **label** : libellé affiché à partir de l&#39;interface graphique.
@@ -454,7 +454,7 @@ Une collection est une liste d&#39;éléments de même nom et de même niveau hi
 
 L&#39;attribut **unbound** avec la valeur &quot;true&quot; permet de renseigner un élément de collection.
 
-**Exemple**: définition de l’élément **`<group>`** Collection dans le schéma.
+**Exemple** : définition de l’élément de collection **`<group>`** dans le schéma.
 
 ```
 <element name="group" unbound="true" label="List of groups">
@@ -480,16 +480,16 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 **Exemple**:
 
 * **@email** : sélectionne l&#39;email,
-* **location/@city**: sélectionne l’attribut &quot;city&quot; sous l’ **`<location>`** élément
+* **Location/@city** : sélectionne l’attribut « city » sous l’élément **`<location>`**.
 * **../@email** : sélectionne l&#39;email sur l&#39;élément parent de l&#39;élément courant
-* **groupe`[1]/@label`**: sélectionne l’attribut &quot;label&quot; qui est l’enfant du premier élément de **`<group>`**collection.
-* **groupe`[@label='test1']`**: sélectionne l’attribut &quot;label&quot; qui est l’enfant de l’**`<group>`**élément et contient la valeur &quot;test1&quot;.
+* **group`[1]/@label`** : sélectionne l’attribut « label » fils du premier élément de collection **`<group>`**
+* **group`[@label='test1']`** : sélectionne l’attribut « label », enfant de l’élément **`<group>`**et contenant la valeur « test1 »
 
 >[!NOTE]
 >
 >Une contrainte supplémentaire a été ajoutée lorsque le chemin traverse un sous-élément. Dans ce cas, il faut mettre l&#39;expression entre crochets :
 >
->* **location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
+>* **Location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
 >
 
@@ -516,7 +516,7 @@ La liste des fonctions disponibles est accessible à partir de n&#39;importe que
 
 Une **Compute string** est une expression XPath utilisée pour construire une chaîne représentant un enregistrement de la table associée au schéma. La **Compute string** est surtout utilisée dans l&#39;interface graphique pour afficher le libellé d&#39;un enregistrement sélectionné.
 
-La chaîne **Calculer** est définie via l’ **`<compute-string>`** élément sous l’élément principal du schéma de données. Un attribut **expr** contient une expression XPath pour calculer l’affichage.
+La chaîne **Compute string** est définie via l’élément **`<compute-string>`** sous l’élément principal du schéma de données. Un attribut **expr** contient une expression XPath pour calculer l’affichage.
 
 **Exemple** : compute string de la table des destinataires.
 
