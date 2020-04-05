@@ -38,7 +38,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Export d’audiences vers Adobe Experience Cloud</span> <br /> </td> 
-   <td> <span class="uicontrol">exportSharedAudience</span><br /> </td> 
+   <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
    <td> Ce workflow permet d’exporter des audiences en tant qu’audiences/segments partagés. Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez.<br /> </td> 
   </tr> 
  </tbody> 
