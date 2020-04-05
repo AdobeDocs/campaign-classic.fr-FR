@@ -26,7 +26,7 @@ Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé
 
 * Avant d&#39;**importer un modèle de page HTML** dans Adobe Campaign, assurez-vous que le modèle s&#39;ouvre et s&#39;affiche correctement dans les différents navigateurs.
 * Si la page HTML contient des **scripts en langage JavaScript**, ils doivent s&#39;exécuter **sans erreur** hors de l&#39;éditeur.
-* Lors de la construction d&#39;un modèle, il est conseillé d&#39;ajouter un attribut **&#39;type&#39;** aux balises. `<input>` Ces informations seront traitées par l&#39;éditeur et aideront l&#39;utilisateur à lier un champ de la base de données au champ du formulaire lors de la configuration de l&#39;application Web.
+* Lors de la construction d&#39;un modèle, il est conseillé d&#39;ajouter un attribut **&#39;type&#39;** aux balises. `<input>` Cette information sera interprétée par l&#39;éditeur et aidera l&#39;utilisateur à associer un champ de la base de données au champ du formulaire lors du paramétrage de l&#39;application web.
 
    Exemple de code HTML dans le modèle :
 
@@ -38,13 +38,13 @@ Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé
 
    ![](assets/dce_sidebar_inputtypechanges.png)
 
-   La liste officielle des attributs de type est disponible [sur ce site](https://www.w3schools.com/tags/att_input_type.asp).
+   La liste officielle des attributs « types » est disponible [sur ce site](https://www.w3schools.com/tags/att_input_type.asp).
 
 * Enchaînement des étapes pour simuler une page de fin avec le DCE :
 
    ![](assets/dce_enchainement.png)
 
-* Make sure that there is only one `<body> </body>` in the page.
+* Assurez-vous qu’il n’y a bien qu&#39;un seul `<body> </body>` dans la page.
 * Lorsqu&#39;un fichier CSS ou JS est téléchargé, les images contenues dans le fichier .zip ne le sont pas. Les références de ces images présentes dans le CSS ne sont donc pas mises à jour.
 
 ## Formats pris en charge par l&#39;éditeur de contenus {#content-editor-supported-formats}
@@ -56,7 +56,7 @@ La fonction d&#39;import du Digital Content Editor fonctionne comme suit avec le
 * CSS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans le CSS ne sont pas mises à jour.
 * JS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans le JS ne sont pas mises à jour.
 * Iframe : les pages liées ne sont pas importées.
-* Pages d&#39;entrée et applications Web : si une balise **de formulaire** est absente, un avertissement s’affiche. Un `<form> </form>` doit toujours être présent dans le corps du message.
+* Landing pages et applications web : si une balise **de formulaire** est absente, un avertissement s’affiche. Un `<form> </form>` doit toujours être présent dans le corps du message.
 
 Le Digital Content Editor fonctionne également avec les code-pages suivants pris en charge :
 
