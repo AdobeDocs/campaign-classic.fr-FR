@@ -26,7 +26,7 @@ La création des emplacements ne peut être effectuée que par un **administrate
 
 Le contenu des offres du catalogue est paramétré dans les emplacements. Par défaut, le contenu peut être composé des champs suivants : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL de l&#39;image]**, **[!UICONTROL Contenu HTML]** et **[!UICONTROL Contenu Texte]**. L&#39;ordre des champs est paramétré au niveau de l&#39;emplacement.
 
-Les paramètres avancés vous permettent de spécifier une clé d’identification des contacts (qui peut être composée de différents éléments, le nom et le champ de courrier électronique en même temps, par exemple). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
+Des paramètres avancés vous permettent de définir une clé d&#39;identification du contact (qui peut être composée de plusieurs éléments, comme par exemple le champ nom et le champ email à la fois). Voir à ce sujet la section [Présenter une offre identifiée](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer).
 
 Le rendu HTML ou XML est créé via une fonction de rendu. L&#39;ordre des champs définis dans la fonction de rendu doit être identique à celui paramétré dans le contenu.
 
@@ -74,7 +74,7 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    ![](assets/offer_space_create_007.png)
 
-Si nécessaire, vous pouvez surcharger les fonctions de rendu XML pour les interactions entrantes. Vous pouvez également surcharger les fonctions de rendu HTML et texte pour les interactions sortantes. For more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md).
+Pour les interactions entrantes, vous pouvez surcharger les fonctions de rendu XML, si besoin. Pour les interactions sortantes, vous pouvez surcharger les fonctions de rendu HTML et texte. Voir à ce sujet la section [A propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
 
 ## Etats d&#39;une proposition d&#39;offre {#offer-proposition-statuses}
 
@@ -165,4 +165,4 @@ Dans le cas où le destinataire n&#39;est éligible à aucune offre, la prévisu
 
 ![](assets/offer_space_overview_001.png)
 
-L’aperçu peut ignorer les contextes lorsqu’ils sont limités à un espace. C’est le cas lorsque le schéma d’interaction a été étendu pour ajouter des champs référencés dans un espace à l’aide d’un canal entrant (pour plus d’informations, reportez-vous à l’exemple [d’](../../interaction/using/extension-example.md)extension).
+L’aperçu peut ignorer les contextes lorsqu’ils sont limités à un espace. C’est le cas lorsque le schéma d’interaction a été étendu pour ajouter des champs référencés dans un espace à l’aide d’un canal entrant (voir à ce sujet la section [Exemple d’extension](../../interaction/using/extension-example.md)).
