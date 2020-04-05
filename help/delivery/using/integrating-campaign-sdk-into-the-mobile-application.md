@@ -68,7 +68,7 @@ Afin d’intégrer le SDK Campaign dans l’application mobile, l’administrate
 
    >[!NOTE]
    >
-   >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Reportez-vous à [Configuration d’une application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+   >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Reportez-vous à [Configuration d’une application mobile dans  Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 * **Une URL de tracking** correspondant à l&#39;adresse du serveur de tracking Adobe Campaign.
 * **Une URL marketing** permettant de collecter les abonnements.
@@ -152,7 +152,7 @@ La fonction d&#39;enregistrement permet :
 
    Les fonctions de tracking permettent de tracker l&#39;affichage de la notification (impression sur écran) et l&#39;activation des notifications (ouvertures).
 
-   To track the notification display (done by calling the **notifyReceive** function of the SDK), follow the implementation below. Note that if you use FCM (Firebase Cloud Messaging), we advise you to use the **notifyReceive** function when the **onMessageReceived** function is called by the Android system.
+   Pour tracker l&#39;affichage d&#39;une notification (réalisé via l&#39;appel de la fonction **notifyReceive** du SDK),suivez l&#39;implémentation ci-après. Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **notifyReceive** lors de l’appel de la fonction **onMessageReceived** par le système Android.
 
    ```
    package com.android.YourApplication;
@@ -527,7 +527,7 @@ Pour implémenter le délégué **registerDeviceStatus**, procédez comme suit 
 
 ## Variables {#variables}
 
-Les variables vous permettent de définir le comportement des applications mobiles après réception d’une notification. Ces variables doivent être définies dans le code de l’application mobile et dans la console Adobe Campaign, dans l’onglet **[!UICONTROL Variables]** du service d’applications mobiles dédié (voir [Configuration d’une application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
+Les variables vous permettent de définir le comportement de l’application mobile après réception d’une notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
 
 * **Sous Android** :
 
