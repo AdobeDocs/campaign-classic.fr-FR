@@ -36,11 +36,11 @@ Vous devez au préalable disposer des éléments suivants :
 * Une instance Adobe Experience Manager de publication (dite de **publishing**).
 * Une instance Adobe Campaign.
 
-Adobe Campaign est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 et 6.5. Les sections suivantes présentent un aperçu de l’intégration.
+ Adobe Campaign est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 et 6.5. Les sections suivantes présentent un aperçu de l’intégration.
 
 >[!NOTE]
 >
->Les modèles Adobe Campaign Classic ne sont plus disponibles avec Adobe Experience Manager 6.5.
+> modèles Adobe Campaign Classic ne sont plus disponibles avec Adobe Experience Manager 6.5.
 
 Pour plus de détails, consultez la documentation en fonction de votre version d&#39;Adobe Experience Manager :
 
