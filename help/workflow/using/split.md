@@ -26,11 +26,11 @@ Une activité de type **Partage** permet de partitionner une cible en plusieurs 
 
 Cette activité ne fait pas l&#39;union des populations entrantes. Si plusieurs transitions arrivent sur une activité de partage, il est recommandé d&#39;insérer une activité d&#39;**[!UICONTROL Union]** avant.
 
-Pour un exemple de l’activité de division utilisée, reportez-vous à la section [Création de sous-ensembles à l’aide de l’activité](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity)de division.
+Pour obtenir un exemple de l&#39;activité de Partage utilisée, voir la section [Création de sous-ensembles à l&#39;aide de l&#39;activité Partage](../../workflow/using/targeting-data.md#creating-subsets-using-the-split-activity).
 
 Un exemple d&#39;utilisation de l&#39;activité de Partage pour segmenter la cible en différentes populations à l&#39;aide des conditions de filtrage est présenté dans [cette section](../../workflow/using/cross-channel-delivery-workflow.md).
 
-An example showing how to use an instance variable in a Split activity is available in [this section](../../workflow/using/javascript-scripts-and-templates.md).
+Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans une activité de Partage est présenté dans [cette section](../../workflow/using/javascript-scripts-and-templates.md).
 
 Pour paramétrer cette activité, vous devez définir le contenu et le libellé des sous-ensembles souhaités dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, puis choisir la dimension de ciblage dans l&#39;onglet **[!UICONTROL Général]**.
 
@@ -51,7 +51,7 @@ Pour créer un sous-ensemble :
 
 1. Définissez éventuellement un nombre maximum d&#39;enregistrements à extraire de la cible pour créer le sous-ensemble. Pour cela, cochez l&#39;option **[!UICONTROL Limiter les enregistrements sélectionnés]** et cliquez sur le lien **[!UICONTROL Editer...]**.
 
-   Un assistant vous permet de choisir le mode de sélection des enregistrements de ce sous-ensemble. Vous trouverez les étapes à la section [Limitation du nombre d’enregistrements](#limiting-the-number-of-subset-records)de sous-ensembles.
+   Un assistant vous permet de choisir le mode de sélection des enregistrements de ce sous-ensemble. La procédure est décrite dans la section [Limiter le nombre d&#39;enregistrements des sous-ensembles](#limiting-the-number-of-subset-records).
 
    ![](assets/s_user_segmentation_partage4.png)
 
@@ -101,9 +101,9 @@ Si vous ne souhaitez pas utiliser l&#39;ensemble de la population d&#39;un sous-
 
    * **[!UICONTROL Taille (en % du segment)]** : un pourcentage d&#39;enregistrements portant uniquement sur le sous-ensemble et non sur la population initiale.
    * **[!UICONTROL Taille maximale]** : un nombre maximum d&#39;enregistrements.
-   * **[!UICONTROL Par regroupement]** de données : vous pouvez définir une limite au nombre d’enregistrements en fonction des valeurs d’un champ spécifique de la population entrante. Pour plus d’informations sur ce sujet, voir [Limitation du nombre d’enregistrements de sous-ensembles par regroupement](#limiting-the-number-of-subset-records-by-data-grouping)de données.
-   * **[!UICONTROL Par regroupement de données (en %)]**: vous pouvez définir une limite sur le nombre d’enregistrements en fonction des valeurs d’un champ spécifique de la population entrante à l’aide d’un pourcentage. Pour plus d’informations sur ce sujet, voir [Limitation du nombre d’enregistrements de sous-ensembles par regroupement](#limiting-the-number-of-subset-records-by-data-grouping)de données.
-   * **[!UICONTROL Par distribution]** des données : Si vos champs de regroupement comportent trop de valeurs ou si vous souhaitez éviter de les saisir à nouveau pour chaque nouvelle activité de division, Adobe Campaign vous permet de configurer une limite de distribution **[!UICONTROL des données]** Par (module marketing distribué facultatif). Pour plus d’informations, voir [Limitation du nombre d’enregistrements de sous-ensembles par distribution](#limiting-the-number-of-subset-records-per-data-distribution)de données.
+   * **[!UICONTROL Par groupement de données]** : vous pouvez effectuer une limitation du nombre d&#39;enregistrements en fonction des valeurs d&#39;un champ précis de la population entrante. Voir à ce sujet la section [Limiter le nombre d&#39;enregistrements des sous-ensembles par groupement de données](#limiting-the-number-of-subset-records-by-data-grouping).
+   * **[!UICONTROL Par groupement de données (%)]** : vous pouvez effectuer une limitation du nombre d&#39;enregistrements en fonction des valeurs d&#39;un champ précis de la population entrante, sous la forme d&#39;un pourcentage. Voir à ce sujet la section [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-by-data-grouping).
+   * **[!UICONTROL Par répartition de données]** : si vos champs de groupement comportent un trop grand nombre de valeurs ou que vous souhaitez éviter de ressaisir les valeurs à chaque nouvelle activité de partage, Adobe Campaign vous offre la possibilité d&#39;effectuer une limitation **[!UICONTROL Par répartition de données]** (module optionnel Distributed Marketing). Voir à ce sujet la section [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-per-data-distribution).
 
 1. Cliquez sur **[!UICONTROL Terminer]** pour valider les critères de sélection des enregistrements. Le paramétrage défini est alors affiché dans la fenêtre centrale de l&#39;éditeur.
 
@@ -129,9 +129,9 @@ Par exemple, si vous choisissez le champ **[!UICONTROL Langue]** comme champ de 
 
 ## Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données {#limiting-the-number-of-subset-records-per-data-distribution}
 
-Si vos champs de regroupement contiennent un nombre de valeurs trop important ou si vous souhaitez éviter de réinitialiser les valeurs pour chaque nouvelle activité de division, Adobe Campaign vous permet de créer une limite par distribution de données. Lors de la sélection des valeurs de limitation des données (pour plus d’informations sur ce sujet, voir la section [Création de sous-ensembles](#creating-subsets) ), sélectionnez l’option de distribution **[!UICONTROL des données]** Par et sélectionnez un modèle dans le menu déroulant. La création d’un modèle de distribution de données est illustrée ci-dessous.
+Si vos champs de groupement contiennent un trop grand nombre de valeurs ou si vous souhaitez éviter de réinitialiser les valeurs pour chaque nouvelle activité de partage, Adobe Campaign vous permet de créer une limite par répartition de données. Lors de la sélection des valeurs de limitation des données (voir à ce sujet la section [Créer des sous-ensembles](#creating-subsets)), sélectionnez l&#39;option **[!UICONTROL Par répartition de données]** et sélectionnez un modèle dans le menu déroulant. La création d&#39;un modèle de répartition de données est illustrée ci-dessous.
 
-Pour un exemple de l’activité d’approbation **** locale avec un modèle de distribution, reportez-vous à [Utilisation de l’activité](../../workflow/using/using-the-local-approval-activity.md)d’approbation locale.
+Un exemple de l&#39;activité **[!UICONTROL Validation en local]** avec un modèle de répartition est présenté dans la section [Utiliser l&#39;activité Validation en local](../../workflow/using/using-the-local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
@@ -156,11 +156,11 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
    * **[!UICONTROL Champ de répartition]** : choisissez un champ depuis la dimension de ciblage. Par exemple, si vous sélectionnez le champ **[!UICONTROL Domaine de l&#39;email]**, la liste de destinataires sera répartie par domaine.
    * **[!UICONTROL Type de répartition]** : sélectionnez la manière dont sera exprimée la valeur de limitation de la cible dans l&#39;onglet **[!UICONTROL Distribution]** : **[!UICONTROL Pourcentage]** ou **[!UICONTROL Fixe]**.
    * **[!UICONTROL Type d’affectation]** : sélectionnez le type d’affectation de la répartition de données. Vous avez le choix entre une affectation par groupe ou opérateur ou une affectation par entité locale. L’affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d’informations, consultez cette [section](../../campaign/using/about-distributed-marketing.md).
-   * **[!UICONTROL Stockage]** d&#39;approbation : si vous utilisez une activité d’approbation **** locale dans votre processus de ciblage (reportez-vous à la section Approbation [](../../workflow/using/local-approval.md)locale), saisissez le schéma dans lequel les résultats d’approbation seront stockés. Vous devez spécifier un schéma de stockage par schéma de ciblage. Si vous utilisez le schéma de ciblage **[!UICONTROL Destinataires]** , saisissez l’approbation **[!UICONTROL locale par défaut du schéma de stockage des destinataires]** .
+   * **[!UICONTROL Stockage des validations]** : si vous utilisez une activité **[!UICONTROL Validation en local]** dans votre workflow de ciblage (voir la section [Validation en local](../../workflow/using/local-approval.md)), indiquez le schéma dans lequel seront stockés les résultats de validation. Vous devez spécifier un schéma de stockage pour chaque schéma de ciblage. Si vous utilisez le schéma de ciblage **[!UICONTROL Destinataires]**, saisissez le schéma de stockage par défaut **[!UICONTROL Validation en local d&#39;un destinataire]**.
 
       Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Stockage des validations]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
 
-1. If you are using a **[!UICONTROL Local approval]** activity (refer to [Local approval](../../workflow/using/local-approval.md)), enter the **[!UICONTROL Advanced settings]** for the distribution template:
+1. Si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](../../workflow/using/local-approval.md)), renseignez ensuite les **[!UICONTROL Paramètres avancés]** du modèle de répartition :
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -196,7 +196,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
       Cette colonne est définie par le champ **[!UICONTROL Type de répartition]** de l&#39;onglet **[!UICONTROL Général]**.
 
    * **[!UICONTROL Libellé]** : saisissez le libellé associé à chaque valeur.
-   * **[!UICONTROL Groupe ou opérateur]**: si vous utilisez une activité d’approbation **** locale (voir Approbation [](../../workflow/using/local-approval.md)locale), sélectionnez l’opérateur ou le groupe d’opérateurs affectés à chaque valeur de distribution.
+   * **[!UICONTROL Groupe ou opérateur]** : si vous utilisez une activité **[!UICONTROL Validation en local]** (voir la section [Validation en local](../../workflow/using/local-approval.md)), sélectionnez l&#39;opérateur ou le groupe d&#39;opérateurs affecté à chaque valeur de répartition.
 
       Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Groupe ou opérateur]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
 
