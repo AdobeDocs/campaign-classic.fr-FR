@@ -32,7 +32,7 @@ La création d&#39;une instance peut être exécutée en ligne de commande avec 
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
-(where **eng** and **fra** are possible values for the `[lang]` parameter)
+(où **eng** et **fra** correspondent aux valeurs possibles du paramètre `[lang]`)
 
 La commande **nlserver config -addinstance:instance1/demo*/fra** permet de créer une instance de nom **instance1** de langue française avec le masque DNS demo*.
 
@@ -44,7 +44,7 @@ Vous pouvez associer une base de données existante à une instance. Pour cela, 
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
-The following values are possible for the **`[rdbms]`** parameter:
+Les valeurs possibles pour le paramètre **`[rdbms]`** sont les suivantes :
 
 * **postgresql** : pour le moteur PostgreSQL,
 * **oracle** : pour le moteur Oracle,
