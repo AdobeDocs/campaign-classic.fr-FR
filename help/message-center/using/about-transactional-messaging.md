@@ -26,7 +26,7 @@ Les messages transactionnels (Message Center) sont un module de gestion des mess
 
 >[!CAUTION]
 >
->La messagerie transactionnelle nécessite une licence spécifique. Veuillez vérifier votre contrat de licence.
+>Les messages transactionnels nécessitent une licence spécifique. Veuillez vérifier votre accord de licence.
 
 Le module Message Center d&#39;Adobe Campaign s&#39;intègre à un système d&#39;information qui lui envoie des événements destinés à être transformés en messages transactionnels personnalisés. Ces messages peuvent être envoyés à l&#39;unité ou en lot via email, SMS ou notifications push.
 
