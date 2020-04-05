@@ -37,5 +37,5 @@ Comme pour le rapport **[!UICONTROL Qualité de service Message Center]**, vous 
 
 >[!NOTE]
 >
->Les seuils d’avertissement (orange) et d’alerte (rouge) peuvent être configurés dans l’assistant de déploiement d’Adobe Campaign. Reportez-vous à [Surveillance des seuils](../../message-center/using/monitoring-thresholds.md).
+>Les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs sont paramétrables dans l&#39;assistant de déploiement d&#39;Adobe Campaign. Voir la section [Seuils de suivi](../../message-center/using/monitoring-thresholds.md).
 
