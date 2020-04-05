@@ -1,6 +1,6 @@
 ---
-title: Installation d’un serveur de moyenne source dans Adobe Campaign Classic
-description: Cette section décrit l’installation et la configuration d’un serveur de mi-génération dans Adobe Campaign Classic.
+title: Installation d'un serveur de mid-sourcing dans Adobe Campaign Classic
+description: Cette section décrit l'installation et la configuration d'un serveur de mid-sourcing dans Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
 contentOwner: sauviat
@@ -22,13 +22,13 @@ source-git-commit: 25ae29490f8b4c58dad499669f5bccff43de8b7a
 
 Cette section présente les étapes d&#39;installation et de configuration d&#39;un serveur de mid-sourcing ainsi que les étapes de déploiement d&#39;une instance permettant à des tiers de soumettre des messages en mode **mid-sourcing**.
 
-The &quot;mid-sourcing&quot; architecture is presented in [Mid-sourcing deployment](../../installation/using/mid-sourcing-deployment.md).
+L&#39;architecture « mid-sourcing » est présentée dans la section [Déploiement Mid-sourcing](../../installation/using/mid-sourcing-deployment.md).
 
 L&#39;installation d&#39;un serveur de mid-sourcing est identique à celle d&#39;une instance classique (se référer à la configuration standard). Il s&#39;agit d&#39;une instance autonome avec sa propre base de données, sur laquelle il est possible de lancer des diffusions. Elle contient simplement une configuration supplémentaire permettant à des instances distantes de lui déléguer des envois à effectuer en mode mid-sourcing.
 
 ## Etapes d&#39;installation et de configuration d&#39;une instance {#steps-for-installing-and-configuring-an-instance}
 
-### Prerequisites for installing and configuring an instance {#prerequisites-for-installing-and-configuring-an-instance}
+### Prérequis relatifs à l&#39;installation et à la configuration d&#39;une instance {#prerequisites-for-installing-and-configuring-an-instance}
 
 * JDK sur le serveur applicatif.
 * Accès à un serveur de base de données sur le serveur applicatif.
@@ -38,7 +38,7 @@ La procédure ci-dessous présente une configuration utilisant un seul serveur d
 
 ### Installer et configurer le serveur applicatif pour un déploiement en mid-sourcing {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
 
-La procédure d’installation est identique à celle de l’instance autonome. Reportez-vous à [Installation et configuration (machine unique)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+La procédure d&#39;installation reprend les étapes d&#39;une installation pour une instance mono-machine. Voir la section [Installer et configurer (mono-machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 Toutefois, vous devez appliquer les spécificités suivantes :
 
@@ -60,7 +60,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
    </serverconf>
    ```
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   Voir à ce propos la section [Activation des processus](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
 * Les étapes **6**,**9** et **10** ne sont pas nécessaires.
 * Lors des étapes **12** et **13**, vous devez indiquer le port 8080 dans l&#39;URL de connexion (car la console communique directement avec Tomcat sans passer par le serveur Web). L&#39;URL devient [http://console.campaign.net:8080](http://console.campaign.net). A l&#39;étape **13**, sélectionnez le package **[!UICONTROL Emission vers Mid-Sourcing]**, en complément des packages à installer.
@@ -73,7 +73,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 
 ### Installer et configurer le serveur de mid-sourcing {#installing-and-configuring-the-mid-sourcing-server}
 
-A partir de la console client, recherchez le routage des **courriels à l’aide du compte de milieu de gamme d’approvisionnement** intermédiaire (dans le dossier **/Administration/Comptes externes/** ). Renseignez les paramètres **URL du serveur**, du **compte**, du **mot de passe** **et de l’URL de la page de mise en miroir avec les informations fournies par le fournisseur du serveur hébergeant le serveur de sources intermédiaires.** Tester la connexion.
+À partir de la console client, recherchez le compte **Routage e-mail en mid-sourcing** (dans le dossier **/Administration/Comptes externes/**). Renseignez les paramètres **URL du serveur**, **compte**, **mot de passe** et **URL de page miroir** avec les informations fournies par le fournisseur hébergeant le serveur de mid-sourcing. Tester la connexion.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ A partir de la console client, recherchez le routage des **courriels à l’aide
 
 1. Configuration de la réception du mid-sourcing :
 
-   Définissez le mot de passe du compte d’envoi : Dans le dossier **/Mid-sourcing/Access Management/Operators/** , l’opérateur **mid** est utilisé par l’instance distante pour les envois en mode mid-sourcing. Vous devez définir un mot de passe pour cet opérateur et le donner à l’administrateur de l’instance d’envoi.
+   Définissez le mot de passe du compte d&#39;envoi : dans le dossier **/Mid-sourcing/Gestion des accès/Opérateurs/**, l&#39;opérateur **mid** est utilisé par l&#39;instance distante pour les envois en mode mid-sourcing. Vous devez définir un mot de passe pour cet opérateur et le donner à l&#39;administrateur de l&#39;instance d&#39;envoi.
 
    L&#39;option **Plate-forme de Mid-sourcing** crée les dossiers par défaut dans lesquels seront stockées les diffusions soumises et l&#39;opérateur par défaut pour effectuer les soumissions.
 
@@ -101,7 +101,7 @@ A partir de la console client, recherchez le routage des **courriels à l’aide
 
 >[!CAUTION]
 >
->Le multiplexage est uniquement pris en charge pour les environnements sur site.
+>Le multiplexage n&#39;est pris en charge que pour les environnements on-premise.
 
 Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instances de soumission. Chaque instance pouvant effectuer des soumissions sera associée à un opérateur dans la base de mid-sourcing. Pour créer un second compte sur le serveur de mid-sourcing :
 
@@ -132,11 +132,11 @@ Vous devez modifier le paramétrage du serveur de mid-sourcing à partir du fich
 
 L&#39;attribut &#39;@name&#39; doit respecter les règles suivantes :
 
-**&#39;marketing_account_operation_name&#39;.&#39;affinité_name&#39;.&#39;affinité_group&#39;**
+**&#39;nom_de_l&#39;opérateur_du_compte_marketing&#39;.&#39;nom_de_l&#39;affinité&#39;.&#39;groupe_d&#39;affinité&#39;**
 
 &#39;nom_du_compte_de_l&#39;opérateur_marketing&#39; correspond au nom interne du compte de l&#39;opérateur mid-sourcing déclaré dans l&#39;instance mid-sourcing.
 
-&#39;affinity_name&#39; relates to the arbitrary name given to the affinity. This name must be unique. Authorized characters are `[a-z]``[A-Z]``[0-9]`. The aim is to declare a group of public IP addresses.
+&#39;nom de l&#39;affinité&#39; correspond au nom donné de manière arbitraire à l&#39;affinité. Ce nom doit être unique. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`. Le but est de déclarer un groupe d&#39;adresses IP publiques.
 
 &#39;groupe_d&#39;affinité&#39; est lié à la sous-affinité déclarée dans le mapping de ciblage utilisé dans chacune des diffusions. La dernière partie incluant le &#39;.&#39; est ignorée en l&#39;absence de sous-affinité. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`.
 
