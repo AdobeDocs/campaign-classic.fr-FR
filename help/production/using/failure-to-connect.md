@@ -46,11 +46,11 @@ Vérifiez les informations suivantes :
 
    * Le serveur Web répond-t-il ?
 
-      Connectez-vous à l’URL d’accès au serveur Adobe Campaign à l’aide d’un navigateur Web : **http(s)://`<urlserver>`**. S’il ne répond pas, le serveur Web est arrêté sur l’ordinateur. Contactez l’administrateur système de votre société hôte pour redémarrer le service.
+      Connectez-vous à l’URL d’accès au serveur Adobe Campaign à l’aide d’un navigateur web : **http(s)://`<urlserver>`**. S’il ne répond pas, le serveur web est arrêté sur l’ordinateur. Contactez l’administrateur système de votre hébergeur pour redémarrer le service.
 
    * L&#39;intégration Adobe Campaign est-elle bien effectuée ?
 
-      Connectez-vous à : URL **http(s)://`<urlserver>`/r/test** . Le serveur doit renvoyer le type de message suivant :
+      Connectez-vous à l’URL **http(s)://`<urlserver>`/r/test**. Le serveur doit renvoyer le type de message suivant :
 
       ```
       <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
@@ -62,7 +62,7 @@ Vérifiez les informations suivantes :
 
    * Le module Web Adobe Campaign est-il bien lancé ?
 
-      Connect to the following URL: **http(s)://`<URLSERVER>`/nl/jsp/logon.jsp**
+      Connectez-vous à l’URL :**http(s)://`<URLSERVER>`/nl/jsp/logon.jsp**
 
       * Si vous obtenez une erreur Tomcat Java :
 
@@ -89,5 +89,5 @@ Vérifiez les informations suivantes :
          ```
 >[!NOTE]
 >
->If you obtain a response of the following type when you list the Adobe Campaign modules: **nlserver pdump**
+>Lorsque vous affichez la liste des modules Adobe Campaign et que vous obtenez une réponse du type : **nlserverpdump**
 >HH:MM:SS > Serveur d’applications pour Adobe Campaign Classic (version 7.X YY.R XXX@SHA1) de DD/MM/YYYY Aucune tâche Vous devez redémarrer l’ensemble de l’application Adobe Campaign. Pour ce faire, utilisez la commande suivante : **nlserver watchdog -svc -noconsole **
