@@ -78,7 +78,7 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   **[!UICONTROL Si nécessaire, vous pouvez utiliser une condition dynamique via la]** commande Modifier la condition dynamique... link.
+   Au besoin, vous pouvez utiliser une condition dynamique à partir du lien **[!UICONTROL Editer la condition dynamique...]**.
 
    Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour valider ce paramétrage.
 
@@ -132,7 +132,7 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
 1. Le sous-onglet **[!UICONTROL Alertes]** regroupe tous les messages d&#39;alerte générés lors de la simulation. Ainsi, les messages d&#39;alerte peuvent avertir l&#39;utilisateur d&#39;un dépassement de capacité (par exemple : trop de destinataires ciblés par rapport à la capacité fixée).
 1. Le sous-onglet **[!UICONTROL Exploration des exclusions]** permet de créer un tableau d&#39;analyse des résultats. L&#39;utilisateur doit indiquer des variables dans les axes des abscisses/ordonnées.
 
-   For an example of analysis table creation, refer to the end of [Exploring results](#exploring-results).
+   Pour un exemple de création de tableau d&#39;analyse, reportez-vous à la fin de la section [Explorer les résultats](#exploring-results).
 
 ### Consulter les résultats {#viewing-results}
 
@@ -150,7 +150,7 @@ L&#39;analyse descriptive est présentée dans cette [section](../../reporting/u
 
 ## Résultats d&#39;une simulation {#results-of-a-simulation}
 
-Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. La vue **[!UICONTROL Rapports]** accessible depuis le tableau de bord de la simulation permet d&#39;avoir une vue plus fiable des informations.****
+Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. La vue **[!UICONTROL Rapports]**, accessible depuis le tableau de bord de la simulation, permet d&#39;avoir une vue plus fiable des informations.****
 
 ### Rapports {#reports}
 
@@ -178,7 +178,7 @@ A nouvelle exécution d&#39;une simulation, le résultat calculé remplace le r�
 
 Pour comparer les résultats, vous devez utiliser les rapports. En effet, Adobe Campaign permet d&#39;enregistrer un historique de rapport afin de le ré-afficher ultérieurement : cet historique est conservé tout au long du cycle de vie de la simulation.
 
-**Exemple :**
+**Exemple:**
 
 1. Créez une simulation sur une diffusion à laquelle la typologie **A** est appliquée.
 1. Dans l&#39;onglet **[!UICONTROL Rapports]**, éditez un des rapports disponibles, par exemple **[!UICONTROL Détail des exclusions de la simulation]**.
@@ -195,14 +195,14 @@ Pour comparer les résultats, vous devez utiliser les rapports. En effet, Adobe 
 
 ### Axes de reporting {#reporting-axes}
 
-L’onglet **[!UICONTROL Calculs]** vous permet de définir des axes de création de rapports sur la cible. Ces axes seront utilisés lors de l’analyse des résultats (voir [Exploration des résultats](#exploring-results)).
+L’onglet **[!UICONTROL Calculs]** vous permet de définir des axes de reporting sur la cible. Ces axes seront utilisés lors de l’analyse des résultats (voir [Explorer les résultats](#exploring-results)).
 
 >[!NOTE]
 >
 >Il est recommandé de définir des axes de calculs dans un modèle de simulation plutôt que dans chaque simulation.\
 >Les modèles de simulation sont enregistrés dans le noeud **[!UICONTROL Ressources > Modèles > Modèles de simulation]** de l&#39;arborescence Adobe Campaign.
 
-**Exemple :**
+**Exemple:**
 
 Dans l&#39;exemple suivant, nous allons créer un axe de reporting supplémentaire portant sur le statut du destinataire (&quot;Client&quot;, &quot;Prospect&quot; ou aucun).
 
@@ -235,4 +235,4 @@ Les recouvrements des cibles de diffusions indiquent les destinataires ciblés d
 >
 >Ce sous-onglet n&#39;est affiché que si l&#39;option **[!UICONTROL Générer les statistiques de recouvrement des cibles]** a été activée.
 
-The information on reporting axes can be processed in exclusion analysis reports created in the **[!UICONTROL Exploring exclusions]** sub-tab. For more on this, refer to [Exploring results](#exploring-results).
+Les informations relatives aux axes de reporting peuvent être exploitées dans les rapports d&#39;analyse des exclusions, créés sous le sous-onglet **[!UICONTROL Exploration des exclusions]**. Voir à ce sujet la section [Explorer les résultats](#exploring-results).
