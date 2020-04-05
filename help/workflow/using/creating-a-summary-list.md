@@ -66,7 +66,7 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
    L&#39;activité **Chargement(fichier)** permet d&#39;alimenter la table de travail du workflow avec les données collectées.
 
-   Pour plus d’informations sur cette activité, voir [Chargement de données à partir d’un fichier](../../workflow/using/importing-data.md#loading-data-from-a-file).
+   Pour plus d&#39;informations sur cette activité, voir la section [Charger des données depuis un fichier](../../workflow/using/importing-data.md#loading-data-from-a-file).
 
 1. Configurez l&#39;activité **Collecteur de fichiers** pour collecter des fichiers de type texte (*.txt) dans le répertoire sélectionné.
 
@@ -99,7 +99,7 @@ Positionnez l&#39;activité d&#39;enrichissement puis configurez-la comme suit :
 
    ![](assets/uc2_enrich_enrich3.png)
 
-Pour plus d’informations sur les différents types de liens, voir [Enrichissement et modification des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
+Pour plus d&#39;informations sur les différents types de liens, voir la section [Enrichir/Modifier des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
 
 Dans la fenêtre suivante, vous devez créer une condition de jointure en sélectionnant le champ source (dans l&#39;ensemble principal) et le champ cible (appartenant au schéma &quot;Magasins&quot;) afin de créer une réconciliation entre les données.
 
