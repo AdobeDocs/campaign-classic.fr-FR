@@ -62,7 +62,7 @@ Les champs **[!UICONTROL Position]** permettent de définir la position des él�
 >[!NOTE]
 >
 >Les modèles de rendus sont stockés dans le nœud **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]**.\
->Pour plus d’informations, reportez-vous à la section [Personnalisation du rendu de formulaire.](#customizing-form-rendering)
+>Pour plus d&#39;informations, voir la section [Personnaliser le rendu du formulaire](#customizing-form-rendering).
 
 ## Personnaliser le rendu du formulaire {#customizing-form-rendering}
 
@@ -76,9 +76,9 @@ Pour cela, utilisez l&#39;onglet **[!UICONTROL Avancé]**.
 
 Il permet de définir les propriétés suivantes :
 
-* **[!UICONTROL Position]** du libellé : voir [Définition de la position des étiquettes](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
+* **[!UICONTROL Position du libellé]** : voir [Définir la position des libellés](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
 * **[!UICONTROL Format du libellé]** : Retour à la ligne ou Pas de retour à la ligne,
-* **[!UICONTROL Nombre de cellules]** : voir [Positionnement des champs de la page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
+* **[!UICONTROL Nombre de cellules]** : voir la section [Placer les champs de la page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Alignement horizontal]** (Gauche, Droite, Centré) et **[!UICONTROL vertical]** (Haut, Bas, Milieu),
 * **[!UICONTROL Largeur]** de la zone : elle peut être exprimée en pourcentage, en em, en points ou en pixels (valeur par défaut),
 * **[!UICONTROL Longueur]** maximale : nombre de caractères maximum autorisé (pour un contrôle de type Texte, Nombre, Mot de passe),
@@ -105,7 +105,7 @@ Ainsi, par exemple, vous pouvez y référencer une icône qui sera affichée dan
 
 ## Définir les paramètres de contrôle {#defining-control-settings}
 
-Lorsque l’utilisateur remplit le formulaire, une vérification est automatiquement effectuée sur certains champs selon leur format ou leur configuration. Cela vous permet de rendre certains champs obligatoires (voir [Définition des champs](#defining-mandatory-fields)obligatoires) ou de vérifier le format des données saisies (voir [Vérification du format](#checking-data-format)des données). Les vérifications sont effectuées lors de l’approbation de la page (en cliquant sur un lien ou un bouton qui active une transition de sortie).
+Lorsque l&#39;utilisateur renseigne le formulaire, une vérification de certains champs est automatiquement effectuée selon leur format ou leur configuration. Vous pouvez ainsi rendre certains champs obligatoires (voir la section [Définir les champs obligatoires](#defining-mandatory-fields)) ou vérifier le format des données saisies (voir la section [Contrôler le format des données](#checking-data-format)). Les vérifications sont effectuées lors de la validation de la page (en cliquant sur un lien ou un bouton qui active une transition de sortie).
 
 ### Définir les champs obligatoires {#defining-mandatory-fields}
 
@@ -153,15 +153,15 @@ Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi l
 
 * L&#39;arborescence principale contient les paramètres du contexte du formulaire. Les paramètres par défaut sont l&#39;Identifiant (qui correspond à l&#39;identifiant crypté du destinataire), la Langue et l&#39;Origine.
 
-   Pour plus d’informations à ce propos, consultez [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+   Voir à ce propos [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
 * La sous-arborescence **[!UICONTROL Destinataires]** contient les champs de saisie insérés dans le formulaire et stockés dans la base de données.
 
-   Pour plus d’informations, reportez-vous à la section [Stockage de données dans la base de données](../../web/using/web-forms-answers.md#storing-data-in-the-database).
+   Pour plus d&#39;informations, voir la section [Stockage des données dans la base de données](../../web/using/web-forms-answers.md#storing-data-in-the-database).
 
-* La sous-arborescence **[!UICONTROL Variables]** contient les variables disponibles pour ce formulaire. Pour plus d’informations, reportez-vous à la section [Stockage de données dans une variable](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable)locale.
+* La sous-arborescence **[!UICONTROL Variables]** contient les variables disponibles pour ce formulaire. Pour plus d&#39;informations, voir la section [Stocker les données dans une variable locale](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
 
-Pour plus d’informations, reportez-vous au cas d’utilisation disponible ici : [Affichage de différentes options selon les valeurs](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values)sélectionnées.
+Pour plus d&#39;informations, reportez-vous au cas d&#39;utilisation disponible ici : [Afficher différentes options en fonction de la valeur sélectionnée](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
 Vous pouvez aussi conditionner l&#39;affichage des pages du formulaire via l&#39;objet **[!UICONTROL Test]**. Voir à ce sujet cette[page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 
