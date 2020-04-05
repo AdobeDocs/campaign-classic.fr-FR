@@ -40,7 +40,7 @@ Pour suivre le statut d&#39;un ensemble de workflows, vous devez procéder comme
 >
 >Outre le workflow, la **carte thermique des workflows Campaign** vous permet d’analyser dans le détail les workflows en cours d’exécution. Voir à ce sujet la [section dédiée](../../workflow/using/heatmap.md).
 >
->Pour plus d’informations sur la manière de **surveiller l’exécution** de vos processus, reportez-vous à [cette section](../../workflow/using/monitoring-workflow-execution.md).
+>Pour plus d’informations sur la **surveillance de l’exécution des workflows**, consultez [cette section](../../workflow/using/monitoring-workflow-execution.md).
 
 ## Etape 1: Création du workflow de suivi {#step-1--creating-the-monitoring-workflow}
 
