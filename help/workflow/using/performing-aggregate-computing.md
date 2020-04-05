@@ -1,6 +1,6 @@
 ---
 title: Réaliser un calcul d'agrégats
-description: Découvrez comment effectuer des calculs agrégés dans des requêtes
+description: Découvrez comment effectuer des calculs d'agrégats dans des requêtes
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
