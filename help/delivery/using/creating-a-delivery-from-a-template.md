@@ -50,4 +50,4 @@ Cette action crée une diffusion dans le dossier attaché au modèle. Le nom de 
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration d’une diffusion, voir [Définition du contenu](../../delivery/using/defining-the-email-content.md)du courrier électronique.
+>Pour plus d’informations sur la configuration d’une diffusion, voir [Définir le contenu de l’email](../../delivery/using/defining-the-email-content.md).
