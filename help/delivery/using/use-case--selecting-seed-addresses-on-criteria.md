@@ -37,7 +37,7 @@ Pour utiliser la condition dynamique vous devez disposer :
 
 ## Etape 1 - Créer une diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création d’une remise sont détaillées dans la section [Création d’une remise](../../delivery/using/creating-an-email-delivery.md) par courrier électronique.
+Les étapes de création d’une diffusion sont détaillées dans la section [Créer une diffusion email](../../delivery/using/creating-an-email-delivery.md).
 
 Dans cet exemple, le chargé de diffusion a créé sa newsletter et sélectionné les destinataires.
 
@@ -100,7 +100,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
    Lorsque la mise à jour est terminée, vous pouvez fermer l&#39;assitant.
 
-1. Disconnect then reconnect to Adobe Campaign. The changes made in the seed address data schema are now effective. In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. Reportez-vous à la section [Mise à jour du formulaire](#updating-the-input-form) d’entrée.
+1. Déconnectez-vous d&#39;Adobe Campaign puis reconnectez-vous. Les modifications apportées dans le schéma de données des adresses de contrôle sont effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Consultez la section [Mettre à jour le formulaire de saisie](#updating-the-input-form).
 
 #### Etendre le schéma de données à partir d&#39;une table liée {#extending-the-data-schema-from-a-linked-table}
 
@@ -110,7 +110,7 @@ Par exemple, l&#39;utilisateur souhaite intégrer l&#39;**[!UICONTROL Extension 
 
 ![](assets/dlv_seeds_usecase_06.png)
 
-Il doit donc étendre le schéma de données des adresses de contrôle comme présenté dans la section  mais les lignes de code à intégrer lors de **l&#39;étape 4** sont les suivantes :
+Il doit donc étendre le schéma de données des adresses de contrôle comme présenté dans la section mais les lignes de code à intégrer lors de **l&#39;étape 4** sont les suivantes :
 
 ```
 <element name="country">
@@ -134,9 +134,9 @@ Elles indiquent :
 
 ![](assets/dlv_seeds_usecase_07.png)
 
-L&#39;utilisateur peut ensuite reprendre la section  à partir de l&#39;**étape 5** et mettre à jour le **[!UICONTROL Formulaire de saisie]** des adresses de contrôle.
+L&#39;utilisateur peut ensuite reprendre la section à partir de l&#39;**étape 5** et mettre à jour le **[!UICONTROL Formulaire de saisie]** des adresses de contrôle.
 
-Reportez-vous à la section [Mise à jour du formulaire](#updating-the-input-form) d’entrée.
+Consultez la section [Mettre à jour le formulaire de saisie](#updating-the-input-form).
 
 #### Mettre à jour le formulaire de saisie {#updating-the-input-form}
 
@@ -144,7 +144,7 @@ Reportez-vous à la section [Mise à jour du formulaire](#updating-the-input-for
 
    ![](assets/dlv_seeds_usecase_19.png)
 
-1. Edit the form and insert the following line in the **[!UICONTROL Recipient]** container.
+1. Éditez le formulaire et insérez la ligne suivante dans le conteneur **[!UICONTROL Destinataire]**.
 
    ```
    <input xpath="@workField"/>
