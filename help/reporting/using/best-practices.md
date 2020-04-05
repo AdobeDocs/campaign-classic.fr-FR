@@ -1,7 +1,7 @@
 ---
-title: Meilleures pratiques pour la création de rapports
-seo-title: Meilleures pratiques pour la création de rapports
-description: Meilleures pratiques pour la création de rapports
+title: Meilleures pratiques de reporting
+seo-title: Meilleures pratiques de reporting
+description: Meilleures pratiques de reporting
 seo-description: null
 page-status-flag: never-activated
 uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
@@ -20,7 +20,7 @@ source-git-commit: 0c41cf2f35495a1514642e47f0b7146d8dd50946
 ---
 
 
-# Meilleures pratiques pour la création de rapports{#best-practices-reporting}
+# Meilleures pratiques de reporting{#best-practices-reporting}
 
 ## Analyse des besoins{#analyzing-needs}
 
