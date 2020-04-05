@@ -44,7 +44,7 @@ Cette approche axée sur le client est présentée dans le graphique ci-dessous.
 
 ![](assets/customer-centric-data-model.png)
 
-To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
+Pour accéder à la description de chaque table, accédez à **[!UICONTROL Admin > Configuration > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
 
 The Adobe Campaign default data model is presented in this [document](../../configuration/using/data-model-description.md).
 
@@ -176,18 +176,18 @@ Gardez toutefois à l’esprit les points suivants :
 
 La gestion des index peut devenir très complexe, il est donc important de comprendre comment ils fonctionnent. Pour illustrer cette complexité, prenons un exemple de base comme la recherche de en filtrant le prénom et le nom de famille. Pour cela :
 1. Accédez au dossier qui  tous les de la base de données. Voir à ce sujet la section [Gérer les profils de ](../../platform/using/managing-profiles.md).
-1. Cliquez avec le bouton droit sur le **[!UICONTROL First name]** champ.
-1. Sélectionner **[!UICONTROL Filter on this field]**.
+1. Cliquez avec le bouton droit sur le champ **[!UICONTROL Prénom]** .
+1. Sélectionnez **[!UICONTROL Filtrer sur ce champ]**.
 
    ![](assets/data-model-index-example.png)
 
-1. Répétez cette opération pour le **[!UICONTROL Last name]** champ.
+1. Répétez cette opération pour le champ **[!UICONTROL Nom]** .
 
 Les deux  correspondantes sont ajoutées au-dessus de l’écran.
 
 ![](assets/data-model-index-search.png)
 
-Vous pouvez désormais effectuer un filtrage de recherche sur les champs **[!UICONTROL First name]** et **[!UICONTROL Last name]** les champs en fonction des différentes conditions de filtre.
+Vous pouvez désormais effectuer un filtrage de recherche sur les champs **[!UICONTROL Prénom]** et **[!UICONTROL Nom]** selon les différentes conditions de filtre.
 
 Maintenant, pour accélérer la recherche sur ces  de, vous pouvez ajouter des index. Mais quels indices doivent être utilisés ?
 
