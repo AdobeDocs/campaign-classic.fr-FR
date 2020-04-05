@@ -28,9 +28,9 @@ Adobe Campaign vous permet d&#39;effectuer des diffusions personnalisées en ma
 >
 >Adobe Campaign permet également d&#39;adresser des notifications sur les terminaux mobiles, via son option **Mobile App Channel (NMAC)**.
 > 
->For more on this, refer to the [About mobile app channel](../../delivery/using/about-mobile-app-channel.md) section.
+>Voir à ce sujet la section [À propos de Mobile App Channel](../../delivery/using/about-mobile-app-channel.md).
 
-Les sections ci-dessous fournissent des informations spécifiques au canal SMS. Pour plus d’informations sur la création d’une diffusion, voir[cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Les sections ci-dessous apportent des informations spécifiques au canal SMS. Pour plus d&#39;informations sur la création d&#39;une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Configuration du canal SMS {#setting-up-sms-channel}
 
@@ -52,7 +52,7 @@ La liste des comptes externes est accessible depuis le nœud **[!UICONTROL Plate
    ![](assets/s_user_external_account_01.png)
 
 * Vérifiez que l&#39;option **[!UICONTROL Mobile]** est bien sélectionnée pour le champ **[!UICONTROL Canal]**.
-* Dans l’onglet **[!UICONTROL Mobile]** , sélectionnez un connecteur dans la liste déroulante : NetSize, Generic SMPP, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 ou Extended generic SMPP. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez la section [Création d&#39;un compte](#creating-an-smpp-external-account) externe SMPP.
+* Dans l&#39;onglet **[!UICONTROL Mobile]**, sélectionnez un connecteur dans la liste déroulante : NetSize, SMPP Générique, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et SMPP Générique étendu. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez la section [Création d&#39;un compte externe SMPP](#creating-an-smpp-external-account).
 
    ![](assets/s_user_external_account_connect_01.png)
 
@@ -64,7 +64,7 @@ La liste des comptes externes est accessible depuis le nœud **[!UICONTROL Plate
 
    ![](assets/s_user_external_account_param_02.png)
 
-* Si l’onglet **[!UICONTROL Connector]** s’affiche, spécifiez l’URL d’accès du connecteur. L’adresse doit se terminer par **netsize.jsp** si votre fournisseur est NetSize. Pour tous les autres connecteurs, l’adresse URL se termine par **smpp34.jsp**.
+* Si l&#39;onglet **[!UICONTROL Connecteur]** s&#39;affiche, spécifiez l&#39;URL d&#39;accès du connecteur. L&#39;adresse doit se terminer par **netsize.jsp** si votre fournisseur est NetSize. Pour tous les autres connecteurs, l&#39;adresse URL se termine par **smpp34.jsp**.
 
 ### Création d&#39;un compte externe SMPP {#creating-an-smpp-external-account}
 
@@ -373,18 +373,18 @@ Les destinataires sont répertoriés dans la table **[!UICONTROL NP@I et Adresse
 * Pour envoyer la même réponse quel que soit le mot-clé, laissez la colonne &quot;**[!UICONTROL Mot-clé]**&quot; vide.
 * Pour effectuer une action sans envoyer de réponse, laissez la colonne **[!UICONTROL Réponse]** vide. Cela permet notamment de retirer de la quarantaine un utilisateur qui envoie un message autre que « STOP ».
 
-Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un code court, il peut être reçu sur n&#39;importe quelle connexion de votre compte externe. Par conséquent, la réponse automatique envoyée ne pouvait pas être le message attendu.
-Pour éviter cela, appliquez l’une des solutions suivantes, selon le fournisseur utilisé :
+Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un code court, il peut être reçu sur n&#39;importe quelle connexion de votre compte externe. La réponse automatique envoyée pourrait donc ne pas être le message attendu.
+Pour éviter cela, appliquez l&#39;une des solutions suivantes, selon le fournisseur utilisé :
 * Créez un compte fournisseur pour chaque compte externe.
-* Utilisez le champ Type **** système de l’onglet Paramètres **** Mobile **[!UICONTROL >]** Connexion pour distinguer chaque code court. Demandez à votre fournisseur une valeur différente pour chaque compte.
+* Utilisez le champ **[!UICONTROL Type de système]** dans l&#39;onglet **[!UICONTROL Mobile]** > **[!UICONTROL Paramètres de connexion]** pour distinguer chaque code court. Demandez à votre fournisseur une valeur différente pour chaque compte.
 
    ![](assets/extended_smpp_system-type.png)
 
-La procédure de configuration d’un compte externe à l’aide du connecteur SMPP générique étendu est détaillée dans la section [Création d’un compte](../../delivery/using/sms-channel.md#creating-an-smpp-external-account) externe SMPP.
+La procédure de configuration d&#39;un compte externe à l&#39;aide du connecteur SMPP générique étendu est détaillée dans la section [Création d&#39;un compte externe SMPP](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
 
 ### Modifier le modèle de diffusion {#changing-the-delivery-template}
 
-Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. Voir à ce propos la section [Modèles](../../delivery/using/about-templates.md).
+Adobe Campaign met à votre disposition un modèle de diffusion vers mobiles. Ce modèle est disponible dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion.]** Voir à ce propos la section [Modèles](../../delivery/using/about-templates.md).
 
 Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le connecteur du canal est référencé.
 
@@ -423,7 +423,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 >Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
-1. Sélectionnez le modèle de remise **[!UICONTROL Envoyer vers les mobiles (NetSize)]** que vous avez créé précédemment. For more on this, refer to the [Changing the delivery template](#changing-the-delivery-template) section.
+1. Sélectionnez le modèle de diffusion **[!UICONTROL Diffuser vers mobiles (NetSize)]** que vous avez créé précédemment. Voir à ce propos la section [Modifier le modèle de diffusion](#changing-the-delivery-template). 
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -438,7 +438,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
-   The use of personalization fields is presented in the [About personalization](../../delivery/using/about-personalization.md) section.
+   L&#39;utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** en bas de page afin de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, vous devez choisir un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Sélectionnez un individu parmi la ou les cibles définies ou choisissez une autre personne.
 
@@ -454,21 +454,21 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les messages SMS sont limités à 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est écrit en Unicode, il ne doit pas dépasser 70 caractères. Certains caractères spéciaux peuvent affecter la longueur du message. Pour plus d’informations sur la longueur du message, reportez-vous à la section [A propos de la translittération](#about-character-transliteration) des caractères.
+   >La longueur des messages SMS est limitée à 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est rédigé en unicode, il ne peut dépasser 70 caractères. Certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour plus d&#39;informations sur la longueur des messages, voir la section [À propos de la translittération des caractères](#about-character-transliteration).
    >
    >Lors de la présence de champs de personnalisation ou de contenu conditionnel, la taille du message varie d&#39;un destinataire à l&#39;autre. La longueur du message doit être évaluée une fois la personnalisation effectuée.
    >
    >Lorsque vous lancez l&#39;analyse, la longueur des messages est contrôlée et un message d&#39;avertissement est affiché en cas de dépassement.
 
-1. Si vous utilisez le connecteur NetSize ou un connecteur SMPP, vous pouvez personnaliser le nom de l’expéditeur de la remise. For more on this, refer to the [Advanced parameters](#advanced-parameters) section.
+1. Si vous utilisez le connecteur NetSize ou un connecteur SMPP, il est possible de personnaliser le nom de l&#39;émetteur de la diffusion. Voir à ce propos la section [Paramètres avancés](#advanced-parameters).
 
 ## Choisir la population cible {#selecting-the-target-population}
 
 Le processus détaillé lors de la sélection de la population cible d&#39;une diffusion est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
 
-For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).
+Pour plus d’informations sur l’utilisation des champs de personnalisation, consultez la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
 
-For more on the inclusion of a seed list, refer to [About seed addresses](../../delivery/using/about-seed-addresses.md).
+Pour plus d&#39;informations sur l&#39;inclusion d&#39;une liste de contrôle, consultez la section [A propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md).
 
 ## Envoyer les SMS {#sending-sms-messages}
 
@@ -573,7 +573,7 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!CAUTION]
 >
->La procédure détaillée suivante n&#39;est valide que pour les connecteurs SMPP, à l&#39;exception du connecteur SMPP générique étendu. Pour plus d’informations, reportez-vous à la section [Création d’un compte](#creating-an-smpp-external-account) externe SMPP.
+>La procédure détaillée suivante n&#39;est valide que pour les connecteurs SMPP, à l&#39;exception du connecteur SMPP générique étendu. Voir à ce sujet la section [Création d&#39;un compte externe SMPP](#creating-an-smpp-external-account).
 >
 >Elle entre dans le cadre du processus de certification effectué par les opérateurs américains pour les campagnes marketing aux Etats-Unis. Ces SMS doivent notamment parvenir immédiatement à l&#39;abonné qui a envoyé le mot-clé.
 
@@ -595,9 +595,9 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
    </autoreply>
    ```
 
-1. For the **name** attribute of the **`<shortcode>`** tag, specify the short code that will be displayed in the place of the message sender name.
+1. Pour l&#39;attribut **name** de la balise **`<shortcode>`**, indiquez le code court qui s&#39;affichera à la place du nom de l&#39;expéditeur du message.
 
-   In each **`<reply>`** tag, enter the **keyword** attribute with a keyword and the **text** attribute with the message that you would like to send for this keyword.
+   Dans chaque balise **`<reply>`**, renseignez l&#39;attribut **keyword** avec un mot-clé et l&#39;attribut **text** avec le message que vous souhaitez envoyer pour ce mot-clé.
 
    >[!NOTE]
    >
