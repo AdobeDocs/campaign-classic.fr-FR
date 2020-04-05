@@ -30,7 +30,7 @@ Dans un workflow de ciblage (canal sortant), vous pouvez utiliser les données d
 
 ## Configuration des données additionnelles {#additional-data-configuration}
 
-Vous devez étendre le schéma **nms:interaction** lié à l’environnement et déclarer la liste des champs supplémentaires qui seront utilisés lors d’un appel au moteur d’interaction. Lors de la création de la règle d’éligibilité ou de la personnalisation d’une offre, ces champs deviennent accessibles à partir du noeud **Interaction** (voir [Utilisation de données](#using-additional-data)supplémentaires).
+Vous devez étendre le schéma **nms:interaction** lié à l&#39;environnement et déclarer la liste des champs supplémentaires qui seront utilisés lors d&#39;un appel au moteur d&#39;Interaction. Lors de la création de la règle d&#39;éligibilité ou de la personnalisation d&#39;une offre, ces champs deviennent accessibles depuis le nœud **Interaction** (voir la section [Utilisation des données additionnelles](#using-additional-data)).
 
 Pour l&#39;entrant, vous devez ajouter les champs de données d&#39;appel dans le noeud **Interaction**.
 
@@ -71,7 +71,7 @@ Si vous souhaitez stocker ces données dans la table des propositions, vous deve
 
 ### Canal entrant (page Web) {#input-channel--web-page-}
 
-To transfer additional data when calling the engine, you have to add the **interactionGlobalCtx** variable into the web page&#39;s JavaScript code. Insert the **Interaction** node containing the call data into this variable. You must respect the same xml structure that is in the **nms:interaction** schema. Reportez-vous à : Configuration [de données](#additional-data-configuration)supplémentaire.
+Pour passer des données additionnelles lors de l&#39;appel au moteur, vous devez ajouter la variable **interactionGlobalCtx** dans le code Javascript de la page web. Insérez, dans cette variable, le nœud **Interaction** contenant les données d&#39;appel. Vous devez respecter la même structure xml que dans l&#39;extension du schéma **nms:interaction**. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -79,7 +79,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### Canal sortant {#output-channel}
 
-You must create a targeting workflow loading additional data in the work table by respecting the same xml structure and same internal names as in the **nms:interaction** schema. Reportez-vous à : Configuration [de données](#additional-data-configuration)supplémentaire.
+Vous devez créer un workflow de ciblage chargeant des données additionnelles dans la table de travail en respectant la même structure xml et les mêmes noms internes que dans le schéma **nms:interaction**. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
 
 ## Utilisation des données additionnelles {#using-additional-data}
 
@@ -95,7 +95,7 @@ Par exemple, vous pouvez choisir de ne présenter l&#39;offre qu&#39;aux personn
 >
 >Vous devez limiter la règle aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant (champ **[!UICONTROL Pris en compte si]**).
 
-### Personnalisation  {#personalization}
+### Personnalisation   {#personalization}
 
 Il est également possible d&#39;utiliser ces données additionnelles lors de la personnalisation d&#39;une offre. Vous pouvez, par exemple, ajouter une condition sur la langue de navigation.
 
@@ -105,7 +105,7 @@ Il est également possible d&#39;utiliser ces données additionnelles lors de la
 >
 >Vous devez limiter la personnalisation aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant.
 
-If you have personalized an offer using additional data, this data will not appear in the preview by default because it is not available in the database. In the environment&#39;s **[!UICONTROL Example of call data]** tab, you must add value samples to use in the preview. Please respect the same xml structure that is in the **nms:interaction** schema extension. For more on this, refer to [Additional data configuration](#additional-data-configuration).
+Si vous avez personnalisé une offre sur des données additionnelles, celles-ci ne s&#39;afficheront pas par défaut dans la prévisualisation car elles ne sont pas disponibles en base. Sur l&#39;onglet **[!UICONTROL Exemple de données d&#39;appel]** de l&#39;environnement, vous devez ajouter les échantillons de valeurs à utiliser dans la prévisualisation. Veillez à respecter la même structure xml que dans l&#39;extension du schéma **nms:interaction**. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
 
 ![](assets/ita_calldata_preview.png)
 
@@ -119,7 +119,7 @@ Au moment de l&#39;appel au moteur, il est possible de stocker les données addi
 
 >[!NOTE]
 >
->You must have extended the **nms:propositionRcp** schema and declared the fields that will contain the data to be stored. Pour en savoir plus : Configuration [de données](#additional-data-configuration)supplémentaire.
+>Vous devez avoir étendu le schéma **nms:propositionRcp** et déclaré les champs qui contiendront les données à stocker. Voir à ce sujet la section [Configuration des données additionnelles](#additional-data-configuration).
 
 Au niveau de l&#39;emplacement, positionnez-vous sur l&#39;onglet **[!UICONTROL Stockage]** et cliquez sur le bouton **[!UICONTROL Ajouter]**.
 
