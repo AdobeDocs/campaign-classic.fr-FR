@@ -1,7 +1,7 @@
 ---
-title: Migration dans Windows pour Adobe Campaign 7
-seo-title: Migration dans Windows pour Adobe Campaign 7
-description: Migration dans Windows pour Adobe Campaign 7
+title: Migration sous Windows pour Adobe Campaign 7
+seo-title: Migration sous Windows pour Adobe Campaign 7
+description: Migration sous Windows pour Adobe Campaign 7
 seo-description: null
 page-status-flag: never-activated
 uuid: 74464400-bdd4-42f8-bcbe-ace7095ae4e4
@@ -20,18 +20,18 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 ---
 
 
-# Migration dans Windows pour Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
+# Migration sous Windows pour Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
 
 ## Procédure générale {#general-procedure}
 
 Les étapes de migration sous Windows sont les suivantes :
 
-1. Arrêter les services : reportez-vous à [Service stop](#service-stop).
-1. Sauvegardez la base de données : reportez-vous à la section [Sauvegarde de la base de données et installation](#back-up-the-database-and-the-current-installation)actuelle.
-1. Migrer la plateforme : voir [Déploiement d’Adobe Campaign v7](#deploying-adobe-campaign-v7).
-1. Migrer le serveur de redirection (IIS) : reportez-vous à [Migration du serveur de redirection (IIS)](#migrating-the-redirection-server--iis-).
-1. Redémarrage du service : voir [Redémarrage des services](#re-starting-the-services).
-1. Supprimer et nettoyer la version précédente d’Adobe Campaign : reportez-vous à la page [Suppression et nettoyage de la version](#deleting-and-cleansing-adobe-campaign-previous-version)précédente d’Adobe Campaign.
+1. Arrêter les services : voir la section [Arrêt des services](#service-stop).
+1. Sauvegarder la base de données : voir la section [Sauvegarde de la base et de l&#39;installation existante](#back-up-the-database-and-the-current-installation).
+1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7).
+1. Effectuer la migration du serveur de redirection (IIS) : voir la section [Migration du serveur de redirection (IIS)](#migrating-the-redirection-server--iis-).
+1. Redémarrer les services : voir la section [Redémarrage des services](#re-starting-the-services).
+1. Supprimer et nettoyer la version précédente d&#39;Adobe Campaign : voir la section [Suppression et nettoyage de la version précédente d&#39;Adobe Campaign](#deleting-and-cleansing-adobe-campaign-previous-version).
 
 ## Arrêt des services {#service-stop}
 
@@ -111,7 +111,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    sc config nlserver5 start= disabled
    ```
 
-1. Modifiez le **fichier config-`<instance name>`.xml** (dans **Neolane v5. back** folder) pour empêcher le **mta**, **wfserver**, **stat**, etc. à partir du démarrage automatique. Par exemple, remplacez **autoStart** par **_autoStart**.
+1. Éditez le fichier **config-`<instance name>`.xml** (dans le dossier **Neolane v5. back**) pour empêcher les services **mta**, **wfserver**, **stat**, etc. de démarrer automatiquement. Par exemple, remplacez **autoStart** par **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -151,7 +151,7 @@ La procédure dépend de votre version précédente d&#39;Adobe Campaign :
    sc config nlserver6 start= disabled
    ```
 
-1. Modifiez le **fichier config-`<instance name>`.xml** (dans **Neolane v6. back** folder) pour empêcher le **mta**, **wfserver**, **stat**, etc. à partir du démarrage automatique. Par exemple, remplacez **autoStart** par **_autoStart**.
+1. Éditez le fichier **config-`<instance name>`.xml** (dans le dossier **Neolane v6. back**) pour empêcher les services **mta**, **wfserver**, **stat**, etc. de démarrer automatiquement. Par exemple, remplacez **autoStart** par **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -200,7 +200,7 @@ Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
 Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
-1. Installez la version la plus récente d’Adobe Campaign v7 en exécutant le fichier d’installation **setup.exe** . For more on installing the Adobe Campaign server in Windows, refer to [this section](../../installation/using/installing-the-server.md).
+1. Installez le build le plus récent d&#39;Adobe Campaign v7 en exécutant le fichier d&#39;installation **setup.exe**. Pour plus d&#39;informations sur l&#39;installation du serveur Adobe Campaign sous Windows, voir [cette section](../../installation/using/installing-the-server.md).
 
    ![](assets/migration_wizard_1_7.png)
 
@@ -275,7 +275,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
 ## Migration du serveur de redirection (IIS) {#migrating-the-redirection-server--iis-}
 
-A ce stade, le serveur IIS doit être arrêté. Reportez-vous à [Service stop](#service-stop).
+À ce stade, le serveur IIS doit être arrêté. Voir la section [Arrêt des services](#service-stop).
 
 1. Ouvrez la console **Internet Information Services (IIS) Manager**.
 1. Modifiez les liaisons (ports d&#39;écoute) du site utilisé pour la version précédente d&#39;Adobe Campaign :
@@ -306,7 +306,7 @@ A ce stade, le serveur IIS doit être arrêté. Reportez-vous à [Service stop](
 
 1. Exécutez le script **iis_neolane_setup.vbs** permettant de configurer automatiquement le paramétrage des ressources utilisées par le serveur Adobe Campaign sur le répertoire virtuel créé précédemment.
 
-   * Ce fichier se trouve dans le répertoire **`[Adobe Campaign v7]`\tomcat-7\conf file **, où&#x200B;**`[Adobe Campaign v7]`**est le chemin d’accès au répertoire d’installation d’Adobe Campaign. La commande d’exécution du script est la suivante (pour les administrateurs) :
+   * Ce fichier se trouve dans le répertoire **`[Adobe Campaign v7]`\tomcat-7\conf file **, où&#x200B;**`[Adobe Campaign v7]`**est le chemin d&#39;accès au répertoire d&#39;installation d&#39;Adobe Campaign. La commande d&#39;exécution du script est la suivante (pour les administrateurs) :
 
       ```
       cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\tomcat-7\conf
@@ -337,7 +337,7 @@ A ce stade, le serveur IIS doit être arrêté. Reportez-vous à [Service stop](
 
 ## Zones de sécurité {#security-zones}
 
-Si vous effectuez une migration depuis la version 6.02 ou une version antérieure, vous devez configurer vos zones de sécurité avant de démarrer les services. For more information, refer to [Security](../../migration/using/general-configurations.md#security).
+Si vous migrez depuis une v6.02 ou antérieure, vous devez paramétrer vos zones de sécurité avant de redémarrer les services. Voir à ce sujet la section [Sécurité](../../migration/using/general-configurations.md#security).
 
 ## Redémarrage des services {#re-starting-the-services}
 
@@ -347,7 +347,7 @@ Sur chacun des serveurs suivants, démarrez IIS puis les services Adobe Campaign
 1. Serveur de mid-sourcing.
 1. Serveur marketing.
 
-Before going on to the next step, run a full test of the new installation, make sure there are no regressions and that everything works by following all the recommendations in the [General configurations](../../migration/using/general-configurations.md) section.
+Avant de passer à l&#39;étape suivante, testez complètement la nouvelle installation, validez la non-régression et assurez-vous que tout est fonctionnel, en suivant toutes les recommandations données dans la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
 ## Suppression et nettoyage de la version précédente d&#39;Adobe Campaign {#deleting-and-cleansing-adobe-campaign-previous-version}
 
