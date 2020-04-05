@@ -49,7 +49,7 @@ La plupart du temps, les problèmes de performance sont liés à la maintenance 
 
 >[!NOTE]
 >
->For more information, refer to this section: [Database performances](../../production/using/database-performances.md).
+>Voir à ce sujet la section : [Performances de la base](../../production/using/database-performances.md).
 
 ## Configuration des applications {#application-configuration}
 
@@ -72,5 +72,5 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 
 >[!NOTE]
 >
->Don&#39;t forget to consult the [Deliverability getting started](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) guide.
+>Pensez à consulter le guide [Prise en main de la délivrabilité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html).
 
