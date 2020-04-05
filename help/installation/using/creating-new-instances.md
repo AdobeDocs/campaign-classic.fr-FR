@@ -32,5 +32,5 @@ Pour cela, connectez-vous à une base de données existante puis respectez les �
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
-   Spécifiez les paramètres de la nouvelle instance. Pour plus d’informations, reportez-vous à la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
+   Spécifiez les paramètres de la nouvelle instance. Voir à ce propos la section [Création et connexion à une instance](../../installation/using/creating-an-instance-and-logging-on.md).
 
