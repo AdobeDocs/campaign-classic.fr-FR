@@ -1,7 +1,7 @@
 ---
-title: À propos des modèles hybrides et hébergés
-seo-title: À propos des modèles hybrides et hébergés
-description: À propos des modèles hybrides et hébergés
+title: A propos des modèles hybrides et hébergés
+seo-title: A propos des modèles hybrides et hébergés
+description: A propos des modèles hybrides et hébergés
 seo-description: null
 page-status-flag: never-activated
 uuid: 2f943678-65c5-46cd-84ed-f101082ad78d
@@ -20,7 +20,7 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 ---
 
 
-# About hybrid and hosted models{#about-hybrid-and-hosted-models}
+# A propos des modèles hybrides et hébergés{#about-hybrid-and-hosted-models}
 
 Si vous disposez d’un modèle d’hébergement hybride ou hébergé, vous n’avez pas besoin de lire l’intégralité de ce document. Les principales étapes d’installation et de configuration sont réalisées par Adobe. Dans cette section, nous avons rassemblé les informations à connaître si vous possédez un modèle d’hébergement hybride ou hébergé.
 
