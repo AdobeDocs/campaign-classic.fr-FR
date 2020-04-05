@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 L&#39;activité **Signal externe** permet de déclencher l&#39;exécution d&#39;un ensemble de tâches dans un workflow par programmation.
 
-Lorsqu’une tâche &quot;Signal externe&quot; est activée, elle est suspendue indéfiniment ou jusqu’à la fin de la période spécifiée. Sa transition est activée par l’appel SOAP **PostEvent(sessionToken, workflowId, activité, transition, paramètres, complete).** Le paramètre **[!UICONTROL complete]** permet à la tâche d’être terminée. Il ne réagira donc pas aux appels suivants.
+Lorsqu’une tâche « Signal externe » est activée, elle est suspendue indéfiniment ou jusqu’à la fin de la période spécifiée. Sa transition est activée par l’appel SOAP **PostEvent(sessionToken, workflowId, activité, transition, paramètres, terminer).** Le paramètre **[!UICONTROL complet]** permet à la tâche d’être terminée. Il ne réagira donc pas aux appels suivants.
 
 Reportez-vous à la documentation en ligne sur les appels SOAP pour plus d&#39;information sur la fonction PostEvent.
 
@@ -32,9 +32,9 @@ Vous pouvez paramétrer cette activité afin de définir des événements en cas
 
 ![](assets/edit_signal.png)
 
-The configuration of expirations is detailed in [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
+Le paramétrage des expirations est présenté dans la section [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
 
-The **Delay** field lets you specify an expiration delay in the units of your choice. Voir [Attendre](../../workflow/using/wait.md).
+Le champ **Délai** permet de spécifier un délai d&#39;expiration exprimé dans l&#39;unité de votre choix. Voir [Attente](../../workflow/using/wait.md).
 
 Chaque ligne représente un type d&#39;expiration et correspond à une transition.
 
