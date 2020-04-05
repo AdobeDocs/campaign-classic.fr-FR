@@ -97,7 +97,7 @@ Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   For more on how to configure the export wizard, refer to [Export wizard](../../platform/using/exporting-data.md#export-wizard).
+   Pour en savoir plus sur le paramétrage de l’assistant d&#39;export, consultez la section [Assistant d’export](../../platform/using/exporting-data.md#export-wizard).
 
 ## Abonner à un service {#subscribing-to-a-service}
 
