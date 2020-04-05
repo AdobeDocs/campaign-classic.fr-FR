@@ -57,11 +57,11 @@ Les étapes successives pour insérer des propositions d&#39;offres dans vos dif
 
    ![](assets/offer_delivery_005.png)
 
-1. Sélectionnez l’option **[!UICONTROL Exclure les destinataires]** non éligibles si nécessaire. Pour plus d’informations, reportez-vous à la section [Paramètres d’appel du moteur](#parameters-for-calling-offer-engine)d’offres.
+1. Sélectionnez l&#39;option **[!UICONTROL Exclure les destinataires non éligibles]**, si nécessaire. Pour plus d&#39;informations, voir la section [Paramètres d&#39;appel au moteur d&#39;offres](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_006.png)
 
-1. Si nécessaire, sélectionnez l’option **[!UICONTROL Ne rien afficher si aucune offre n’est sélectionnée]** . Pour plus d’informations, reportez-vous à la section [Paramètres d’appel du moteur](#parameters-for-calling-offer-engine)d’offres.
+1. Si nécessaire, sélectionnez l&#39;option **[!UICONTROL Ne rien afficher si aucune offre n&#39;est sélectionnée]**. Pour plus d&#39;informations, voir la section [Paramètres d&#39;appel au moteur d&#39;offres](#parameters-for-calling-offer-engine).
 
    ![](assets/offer_delivery_007.png)
 
@@ -115,7 +115,7 @@ Pour plus d&#39;informations sur les compositions de diffusion, consultez le gui
 
    ![](assets/int_compo_offre3.png)
 
-1. Add the propositions into the delivery body using the personalization fields (for more on this, refer to the [Inserting an offer proposition into a delivery](#inserting-an-offer-proposition-into-a-delivery) section), or in the case of a direct mail delivery, by editing the extraction file format.
+1. Ajoutez les propositions dans le corps de la diffusion, via les champs de personnalisation (voir à ce sujet la section [Insérer une proposition d&#39;offres dans une diffusion](#inserting-an-offer-proposition-into-a-delivery)), ou en éditant le format du fichier d&#39;extraction dans le cas d&#39;une diffusion par courrier.
 
    Les propositions seront sélectionnées parmi les offres référencées dans la composition de diffusion.
 
