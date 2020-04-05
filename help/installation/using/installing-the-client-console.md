@@ -45,6 +45,6 @@ Pour installer la console Adobe Campaign, les étapes sont les suivantes :
 
 >[!NOTE]
 >
->On Windows, you can launch the **nlclient.exe** file directly from the `[INSTALL]/bin` directory on a Windows server, where `[INSTALL]` is the access path for the Adobe Campaign installation folder.\
->Pour créer une connexion, reportez-vous à la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
+>Sous Windows, vous pouvez lancer directement le fichier **nlclient.exe** présent dans le répertoire `[INSTALL]/bin` à partir du serveur Windows, où `[INSTALL]` est le chemin d’accès au répertoire d’installation Adobe Campaign.\
+>Pour créer une connexion, consultez la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 
