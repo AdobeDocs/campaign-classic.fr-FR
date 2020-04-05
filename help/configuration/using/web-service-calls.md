@@ -36,7 +36,7 @@ Les services Web permettent de créer, depuis un système tiers, de multiples ap
 
 La définition des services Web implémentés sur le serveur applicatif Adobe Campaign est disponible à partir des schémas de données.
 
-A Web service is described in the grammar of the data schemas and is available from the **`<methods>`** element.
+Un service Web est décrit dans la grammaire des schémas de données et est disponible à partir de l&#39;élément **`<methods>`**.
 
 ```
 <methods>
@@ -53,13 +53,13 @@ A Web service is described in the grammar of the data schemas and is available f
 
 Nous avons ici un exemple de définition de la méthode de nom **GenerateForm**.
 
-La description du service commence par l’ `<method>` élément. La liste des paramètres de la méthode est complétée à partir de l’ `<parameters>` élément. Chaque paramètre est spécifié par un nom, un type (Boolean, string, DOMElement, etc.) et une description. L’attribut &quot;inout&quot; avec la valeur &quot;out&quot; vous permet de spécifier que le paramètre &quot;result&quot; se trouve à la sortie de l’appel SOAP.
+La description du service commence par l&#39;élément `<method>`. La liste des paramètres de la méthode est complétée à partir de l&#39;élément `<parameters>`. Chaque paramètre est spécifié par un nom, un type (booléen, chaîne, DOMElement, etc.) et une description. L&#39;attribut &quot;inout&quot; avec la valeur &quot;out&quot; permet de spécifier que le paramètre &quot;result&quot; est obtenu en sortie de l&#39;appel SOAP.
 
 La présence de l&#39;attribut &quot;static&quot; (avec la valeur &quot;true&quot;) décrit cette méthode comme statique, ce qui signifie que tous les paramètres de la méthode doivent être déclarés.
 
 Une méthode de type &quot;const&quot; possède implicitement en entrée un document XML au format de son schéma associé.
 
-A full description of the `<method>` element of an Adobe Campaign schema is available in the &quot;Schema references&quot; chapter under  <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank">  `<method>`    element.
+Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section <a href="../../configuration/using/elements-and-attributes.md#method--element" target="_blank"> du chapitre « Référence des schémas ».  `<method>`    element.
 
 Exemple de la méthode &quot;ExecuteQuery&quot; de type &quot;const&quot; à partir du schéma &quot;xtk:queryDef&quot; :
 
@@ -86,8 +86,8 @@ Pour générer un fichier WSDL vous devez, à partir d&#39;un navigateur Web, sa
 
 Avec :
 
-* **`<server>`**: le serveur d’applications Adobe Campaign (Web nlserver) ;
-* **`<schema>`**: clé d&#39;identification du schéma (espace de noms:nom_schéma)
+* **`<server>`** : le serveur applicatif Adobe Campaign (nlserver web)
+* **`<schema>`** : la clé d&#39;identification du schéma (namespace:nom_du_schéma)
 
 ### Exemple sur la méthode &#39;ExecuteQuery&#39; du schéma &#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -99,7 +99,7 @@ Une description WSDL définit d&#39;abord les types utilisés pour former des me
 
 #### Types {#types}
 
-Les définitions de type reposent sur des schémas XML. Dans notre exemple, la méthode &quot;ExecuteQuery&quot; utilise une chaîne &quot;s:string&quot; et un document XML (`<s:complextype>`) comme paramètres. La valeur renvoyée par la méthode (&quot;ExecuteQueryResponse&quot;) est un document XML ( `<s:complextype>`).
+Les définitions de type reposent sur des schémas XML. Dans notre exemple, la méthode &quot;ExecuteQuery&quot; utilise comme paramètres une chaîne &quot;s:string&quot; et un document XML (`<s:complextype>`). La valeur renvoyée par la méthode (&quot;ExecuteQueryResponse&quot;) est un document XML (  `<s:complextype>`).
 
 ```
 <types>
@@ -135,7 +135,7 @@ Les définitions de type reposent sur des schémas XML. Dans notre exemple, la m
 
 #### Messages {#messages}
 
-Le `<message>` décrit les noms et les types d’un ensemble de champs à envoyer. La méthode utilise deux messages à transmettre en tant que paramètre (&quot;ExecuteQueryIn&quot;) et la valeur renvoyée (&quot;ExecuteQueryOut&quot;).
+Le `<message>` décrit les noms et les types d&#39;un ensemble de champs à envoyer. La méthode utilise deux messages à transmettre en tant que paramètre (&quot;ExecuteQueryIn&quot;) et la valeur renvoyée (&quot;ExecuteQueryOut&quot;).
 
 ```
 <message name="ExecuteQueryIn">
@@ -149,7 +149,7 @@ Le `<message>` décrit les noms et les types d’un ensemble de champs à envoye
 
 #### PortType {#porttype}
 
-The `<porttype>` associates the messages on the &quot;ExecuteQuery&quot; operation triggered by the query (&quot;input&quot;) generating a response (&quot;output&quot;).
+La partie `<porttype>` associe les messages sur l&#39;opération &quot;ExecuteQuery&quot; déclenchée par la requête (&quot;input&quot;) générant une réponse (&quot;output&quot;).
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -162,7 +162,7 @@ The `<porttype>` associates the messages on the &quot;ExecuteQuery&quot; operati
 
 #### Binding {#binding}
 
-La `<binding>` partie spécifie le protocole de communication SOAP ( `<soap:binding>` ), le transport de données en HTTP (valeur de l’attribut &quot;transport&quot;) et le format de données pour l’opération &quot;ExecuteQuery&quot;. Le corps de l’enveloppe SOAP contient les segments de message directement sans transformation.
+La partie `<binding>` spécifie le protocole de communication SOAP ( `<soap:binding>` ), le transport de données en HTTP (valeur de l&#39;attribut &quot;transport&quot;) et le format de données pour l&#39;opération &quot;ExecuteQuery&quot;. Le corps de l&#39;enveloppe SOAP contient les segments de message, directement, sans transformation.
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -181,7 +181,7 @@ La `<binding>` partie spécifie le protocole de communication SOAP ( `<soap:bind
 
 #### Service {#service}
 
-The `<service>` part describes the &quot;XtkQueryDef&quot; service with its URI on the URL of the Adobe Campaign application server.
+La partie `<service>` décrit le service &quot;XtkQueryDef&quot; avec son URI sur l&#39;URL du serveur applicatif Adobe Campaign.
 
 ```
 <service name="XtkQueryDef">
@@ -199,7 +199,7 @@ Deux modes d&#39;authentification sont disponibles :
 
 * **via un appel à la méthode logon()**. Ce mode génère un jeton de session et un jeton de sécurité. C&#39;est le mode le plus sécurisé et donc celui qui est conseillé.
 
-or
+ou
 
 * **via login et mot de passe** Adobe Campaign qui crée un jeton de session. Le jeton de session expire automatiquement après un délai. Ce mode est déconseillé et il demande de réduire les paramètres de sécurité de l&#39;application dans la configuration des zones (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
 
@@ -281,7 +281,7 @@ Lors d&#39;un appel SOAP :
 
 >[!NOTE]
 >
->Les URL utilisées dans les appels **HttpServletRequest** suivants doivent être mises en liste blanche dans la section des autorisations d’URL du fichier **serverConf.xml** . Cela est également vrai pour l’URL du serveur lui-même.
+>Les URL utilisées dans les appels **HttpServletRequest** suivants doivent être mises en whiteliste dans la section des autorisations d&#39;URL du fichier **serverConf.xml**. C&#39;est également vrai pour l&#39;URL du serveur lui-même.
 
 Exécution du logon() :
 
