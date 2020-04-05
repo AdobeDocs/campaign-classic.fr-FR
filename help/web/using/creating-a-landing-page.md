@@ -34,21 +34,21 @@ L&#39;objectif principal de ce cas d&#39;utilisation est de faire correspondre l
 
 Pour créer une nouvelle Application Web de type Landing Page, respectez les étapes suivantes :
 
-1. Go to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Web application]** link, then click the **[!UICONTROL Create]** button.
+1. Dans l’onglet **[!UICONTROL Campagnes]**, cliquez sur le lien **[!UICONTROL Application Web]**, puis sur le bouton **[!UICONTROL Créer]**.
 1. Sélectionnez le modèle **[!UICONTROL Nouvelle landing page]**, saisissez un libellé, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/dce_uc1_newlandingpage.png)
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Edition]**.
 1. Supprimez l&#39;activité **Fin**.
-1. Add a **[!UICONTROL Page]** activity after the **[!UICONTROL Storage]** activity.
+1. Ajoutez une activité **[!UICONTROL Page]** à la suite de l’activité **[!UICONTROL Enregistrement]**.
 1. Editez l&#39;activité **Page 2**, puis décochez l&#39;option **[!UICONTROL Activer les transitions sortantes]** dans l&#39;onglet **[!UICONTROL Propriétés]**.
 
    ![](assets/dce_uc1_transition.png)
 
 1. Enregistrez les modifications.
 
-Vous obtiendrez ensuite le séquencement suivant :
+Vous obtenez alors le séquencement suivant :
 
 ![](assets/dce_uc1_edition_activity.png)
 
@@ -84,10 +84,10 @@ Pour charger le modèle dans la première page, respectez les étapes suivantes 
 
    >[!CAUTION]
    >
-   >Vous devez attendre d’avoir reçu le message suivant avant de fermer : **[!UICONTROL Les ressources externes ont été publiées]** avec succès.
+   >Vous devez attendre d’avoir reçu le message suivant avant de procéder à la fermeture : **[!UICONTROL La mise en ligne des ressources externes est terminée]**.
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Propriétés]**.
-1. Enter a **label** for each page (for example: Page 1= Collect, Page 2=Thank you).
+1. Saisissez un **libellé** pour chaque page (par exemple : Page 1 = Collecte, Page 2 = Remerciements).
 
    ![](assets/dce_uc1_pagelabel.png)
 
@@ -137,7 +137,7 @@ Il est possible de rendre un champ obligatoire : par exemple, cliquez sur le cha
 
 ### Création d&#39;un lien vers la page suivante {#creating-a-link-to-the-next-page}
 
-This step is mandatory because it will allow the Web application to determine the sequence of the next steps: Saving the collected data in the database then displaying the next page (**Thank you** page).
+Cette étape est obligatoire car elle va permettre à l’application Web de déterminer le déroulement des étapes : enregistrer les données collectées dans la base puis afficher la page suivante (page **Remerciements**).
 
 1. Sélectionnez le bouton **[!UICONTROL Send It!]** de la page **[!UICONTROL Collecte]**.
 1. Cliquez dans le menu déroulant **[!UICONTROL Action]**.
@@ -162,7 +162,7 @@ Le champ de personnalisation s&#39;affiche sur fond jaune dans l&#39;éditeur.
 
 ## Etape 3 - Publication du contenu {#step-3---publishing-content}
 
-Le contenu est publié à partir du tableau de bord de l&#39;application Web. Cliquez sur le bouton **[!UICONTROL Publier]** pour l’exécuter.
+Le contenu est publié à partir du tableau de bord de l’application web. Cliquez sur le bouton **[!UICONTROL Publier]** pour effectuer la publication.
 
 ![](assets/dce_uc1_pub_dashboard.png)
 
