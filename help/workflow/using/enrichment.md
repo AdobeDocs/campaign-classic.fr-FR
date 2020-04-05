@@ -55,13 +55,13 @@ Il existe quatre types de liens :
 
    Cette option est configurée dans l&#39;onglet **[!UICONTROL Réconciliation &amp; déduplication]**, accessible par le lien **[!UICONTROL Editer les données additionnelles]** de l&#39;activité **[!UICONTROL Enrichissement]**.
 
-Les exemples d’utilisation [Enrichir les données](../../workflow/using/enriching-data.md) et [Créer une liste](../../workflow/using/creating-a-summary-list.md) récapitulative détaillent le fonctionnement des activités d’enrichissement dans leur contexte.
+Les exemples d’utilisation [Enrichir les données](../../workflow/using/enriching-data.md) et [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md) détaillent le fonctionnement des activités d’enrichissement dans leur contexte.
 
 ## Ajouter des informations {#adding-information}
 
 Utilisez l&#39;activité **[!UICONTROL Enrichissement]** pour ajouter des données additionnelles à la table de travail du workflow : cette activité peut être utilisée en complément d&#39;une activité de requête.
 
-The configuration of additional columns is detailed in [Adding data](../../workflow/using/query.md#adding-data).
+Le paramétrage des colonnes additionnelles est présenté dans la section [Ajouter des données](../../workflow/using/query.md#adding-data).
 
 Le champ **[!UICONTROL Ensemble principal]** permet de sélectionner la transition entrante : ce sont les données de la table de travail de cette activité qui seront enrichies.
 
@@ -179,11 +179,11 @@ Après avoir paramétré votre requête (voir cette [section](../../workflow/usi
 
       ![](assets/int_enrichment_offer4.png)
 
-1. Configurez ensuite une activité de diffusion correspondant au canal choisi. Reportez-vous à la section Livraisons [](../../workflow/using/cross-channel-deliveries.md)cross-canal.
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Voir [Diffusions cross-canal](../../workflow/using/cross-channel-deliveries.md).
 
    Le nombre de propositions disponibles pour la prévisualisation dépend du paramétrage réalisé dans l&#39;activité d&#39;enrichissement et non d&#39;un éventuel paramétrage directement dans la diffusion.
 
-Pour spécifier des propositions d’offre, vous pouvez également choisir de référencer un lien vers une offre. Pour plus d’informations, reportez-vous à la section suivante [Référence à un lien vers une offre](#referencing-a-link-to-an-offer).
+Pour spécifier des propositions d’offres, vous pouvez également choisir de référencer un lien vers une offre. Voir à ce sujet la section [Référencer un lien vers une offre](#referencing-a-link-to-an-offer).
 
 ## Référencer un lien vers une offre {#referencing-a-link-to-an-offer}
 
@@ -201,7 +201,7 @@ Pour cela :
 
    ![](assets/int_enrichment_link2.png)
 
-1. Configurez ensuite une activité de diffusion correspondant au canal choisi. Reportez-vous à la section Livraisons [](../../workflow/using/cross-channel-deliveries.md)cross-canal.
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Reportez-vous à la section [Diffusions cross-canal](../../workflow/using/cross-channel-deliveries.md).
 
    >[!NOTE]
    >
@@ -215,7 +215,7 @@ L&#39;activité **[!UICONTROL Moteur d&#39;offres]** stocke bien ces information
 
 Cependant, il est possible de stocker ces informations de la manière suivante :
 
-1. Créez un appel au moteur d&#39;offre dans une activité d&#39;enrichissement placée après une requête et avant une activité de diffusion. Consultez cette [section](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Créez un appel au moteur d’offre dans une activité d’enrichissement placée après une requête et avant une activité de diffusion. Consultez cette [section](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. Dans la fenêtre principale de l&#39;activité, sélectionnez **[!UICONTROL Editer les données additionnelles]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
