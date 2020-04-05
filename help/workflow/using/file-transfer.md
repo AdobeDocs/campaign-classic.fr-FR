@@ -1,6 +1,6 @@
 ---
 title: Envoi de fichier
-description: En savoir plus sur l’activité de transfert de fichiers.
+description: En savoir plus sur l’activité Transfert de fichier.
 page-status-flag: never-activated
 uuid: 6431d908-a110-4a9a-8848-9abf78ef8157
 contentOwner: sauviat
@@ -21,7 +21,7 @@ source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
 # Envoi de fichier{#file-transfer}
 
 L&#39;activité de type **Transfert de fichier** permet de recevoir ou envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé est soit Amazon Simple Storage Service (S3) le FTP ou le SFTP.
-Avec la connexion S3 ou SFTP, vous pouvez également importer des données de segments dans Adobe Campaign avec la plate-forme de données clientes en temps réel d’Adobe. For more on this, refer to this [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+Avec une connexion S3 ou SFTP, vous pouvez également importer des données de segment dans Adobe Campaign avec la plateforme Adobe Real-time Customer Data. Voir à ce propos cette [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
 
 ## Propriétés {#properties}
 
@@ -67,12 +67,12 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    Pour lister les fichiers, sélectionnez l&#39;option **[!UICONTROL Listage de fichiers]** dans le champ **[!UICONTROL Action]**. Le paramétrage du serveur distant est le même que pour la réception de fichiers. Pour plus d&#39;informations, reportez-vous à cette [section](#properties).
 
-   The **[!UICONTROL List all files]** option, available when selecting the **[!UICONTROL File listing]** action, allows you to store all files present on the server in the event variable **vars.filenames** wherein the file names are separated by `\n` characters.
+   L’option **[!UICONTROL Lister tous les fichiers]**, disponible lors de la sélection de l’action **[!UICONTROL Listage de fichiers]** permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères `\n`.
 
 Pour toutes les actions de transfert de fichiers, deux options peuvent être sélectionnées :
 
-* The **[!UICONTROL Process missing file]** option adds a transition which is activated if no file is found in the specified directory.
-* The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+* L’option **[!UICONTROL Traiter l’absence de fichier]** ajoute une transition qui sera activée en cas d’absence de fichier dans le répertoire spécifié.
+* L’option **[!UICONTROL Traiter les erreurs]** est présentée dans la section [Traiter les erreurs](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux options suivantes :
 
@@ -94,7 +94,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
    Permet d&#39;indiquer le port de connexion à utiliser pour le transfert des données.
 
-**[!UICONTROL Les paramètres d&#39;historique des]** fichiers... donne accès aux options détaillées dans la section Téléchargement [](../../workflow/using/web-download.md) Web (**[!UICONTROL étape d’historique]** des fichiers).
+Le lien **[!UICONTROL Paramètres d’historisation des fichiers...]** permet d’accéder aux options présentées dans la section [Téléchargement Web](../../workflow/using/web-download.md) (étape **[!UICONTROL Historisation des fichiers]**).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
