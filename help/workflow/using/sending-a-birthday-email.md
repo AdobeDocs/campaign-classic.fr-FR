@@ -34,13 +34,13 @@ Ce workflow, exécuté quotidiennement, sélectionne tous les destinataires dont
 
 Ce cas pratique est également proposé sous la forme d&#39;une vidéo. Voir à ce propos la vidéo sur la [création d&#39;un workflow](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
 
-Pour ce faire, créez une campagne et cliquez sur l’onglet **[!UICONTROL Ciblage et processus]** . For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
+Pour ce faire, créez une campagne et cliquez sur l’onglet **[!UICONTROL Ciblage et workflows]**. Voir à ce propos la section [Construire la cible principale dans un workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 Respectez ensuite les étapes suivantes :
 
 ## Planification de l’envoi {#configuring-the-scheduler}
 
-1. Tout d’abord, ajoutez un **planificateur** pour déclencher l’envoi de la livraison tous les jours. Dans l’exemple ci-dessous, la diffusion est créée tous les jours à 6h00.
+1. Tout d’abord, ajoutez un **Planificateur** pour déclencher l’envoi de la diffusion tous les jours. Dans l’exemple ci-dessous, la diffusion est créée tous les jours à 6 h.
 
    ![](assets/recur_delivery2.png)
 
@@ -129,7 +129,7 @@ Après avoir paramétré l&#39;activité **[!UICONTROL Planificateur]** pour que
 
 ![](assets/birthday-workflow_usecase_2.png)
 
-La sélection des destinataires dont l’anniversaire correspond à la date actuelle est présentée dans la section [Identification des destinataires dont il s’agit](#identifying-recipients-whose-birthday-it-is) .
+La sélection des destinataires dont l’anniversaire correspond à la date actuelle est présentée dans la section [Identification des destinataires dont c’est l’anniversaire](#identifying-recipients-whose-birthday-it-is).
 
 ### Etape 2 : sélection en cas d&#39;année non bissextile {#step-2--select-whether-or-not-it-is-a-leap-year}
 
@@ -203,14 +203,14 @@ Combinez les résultats par une activité **[!UICONTROL Union]**.
 
 Reliez les résultats des deux branches de l&#39;activité **[!UICONTROL Test]** à une activité **[!UICONTROL Diffusion e-mail]** pour envoyer un email à la liste de tous vos destinataires le jour de leur anniversaire, même ceux qui sont nés un 29 février en cas d&#39;année non bissextile.
 
-## Creating a recurring delivery {#creating-a-recurring-delivery-in-a-targeting-workflow}
+## Créer une diffusion récurrente {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
 Ajoutez une activité de type **Diffusion récurrente** basée sur le modèle de mail d&#39;anniversaire que vous souhaitez envoyer.
 
 >[!CAUTION]
 >
->Pour que les processus s’exécutent, les processus techniques liés au processus de campagne doivent être démarrés. For more on this, refer to the [List of campaign process workflows](../../workflow/using/campaign.md) section.
+>Pour que les workflows s’exécutent, les workflows techniques liés au processus de campagne doivent être démarrés. Voir à ce sujet la section [Liste des workflows de processus de campagne](../../workflow/using/campaign.md).
 >
->Si les étapes d’approbation sont activées pour la campagne, les livraisons ne sont envoyées qu’une fois ces étapes confirmées. Pour plus d’informations, reportez-vous à la section [Choix des processus à approuver](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) .
+>Si les étapes d’approbation sont activées pour la campagne, les diffusions ne sont envoyées qu’une fois ces étapes confirmées. Voir à ce sujet la section [Choix des processus à approuver](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved).
 
 ![](assets/birthday-workflow_usecase_1.png)
