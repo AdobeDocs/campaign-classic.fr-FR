@@ -1,7 +1,7 @@
 ---
-title: Configuration du serveur de campagne
-seo-title: Configuration du serveur de campagne
-description: Configuration du serveur de campagne
+title: Paramétrage du serveur Campaign
+seo-title: Paramétrage du serveur Campaign
+description: Paramétrage du serveur Campaign
 seo-description: null
 page-status-flag: never-activated
 uuid: a1fadad2-e888-4dd8-bc1f-04df16ba7d46
@@ -20,11 +20,11 @@ source-git-commit: 4869eb41f942a89c48bc213913c44b70ae777bfc
 ---
 
 
-# Campaign server configuration{#campaign-server-configuration}
+# Paramétrage du serveur Campaign{#campaign-server-configuration}
 
 La section suivante présente les paramétrages obligatoires du serveur pour garantir le bon fonctionnement d&#39;Adobe Campaign dans la plupart des configurations.
 
-D’autres configurations sont disponibles dans [Configuration du serveur](../../installation/using/configuring-campaign-server.md)Campaign.
+D’autres configurations sont disponibles dans [Paramétrage du serveur Campaign](../../installation/using/configuring-campaign-server.md).
 
 >[!NOTE]
 >
@@ -59,23 +59,23 @@ Confirmation: XXXX
 Les fichiers de configuration sont enregistrés dans le dossier **conf** du dossier d’installation Adobe Campaign. La configuration est répartie sur deux fichiers :
 
 * **`config-<instance>.xml`** (où **instance** est le nom de l&#39;instance) : configuration spécifique d&#39;une instance. Si vous mutualisez votre serveur entre plusieurs instances, vous devez enregistrer les paramètres spécifiques à chaque instance dans son fichier associé.
-* **serverConf.xml**: configuration générale pour toutes les instances. Ce fichier combine les paramètres techniques du serveur Adobe Campaign : elles sont partagées par toutes les instances. La description de certains de ces paramètres est détaillée ci-dessous. Reportez-vous au fichier lui-même pour afficher tous les paramètres disponibles. Les différents noeuds et paramètres et répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+* **serverConf.xml** : configuration générale pour toutes les instances. Ce fichier regroupe les paramètres techniques du serveur Adobe Campaign : ces paramètres sont communs à toutes les instances. Vous trouverez ci-après la description de certains de ces paramètres. Consultez le fichier lui-même pour afficher tous les paramètres disponibles. Les différents nœuds et paramètres sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
 Vous pouvez configurer le répertoire de stockage (répertoire **var**) des données Adobe Campaign (logs, téléchargements, redirections, etc.). Pour cela, utilisez la variable système **XTK_VAR_DIR** :
 
-* In Windows, indicate the following value value in the **XTK_VAR_DIR** system variable
+* Sous Windows, indiquez la valeur suivante dans la variable système **XTK_VAR_DIR**.
 
    ```
    D:\log\AdobeCampaign
    ```
 
-* In Linux, go to the **customer.sh** file and indicate: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
+* Sous Linux, rendez-vous dans le fichier **customer.sh** et indiquez : **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   For more on this, refer to [Personalizing parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+   Voir à ce sujet la section [Personnaliser les paramètres](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 ## Activation des processus {#enabling-processes}
 
-Adobe Campaign processes on the server are enabled (and disabled) via the **config-default.xml** and **`config-<instance>.xml`** files.
+L’activation (ou la désactivation) des processus Adobe Campaign se fait sur le serveur à partir des fichiers **config-default.xml** et **`config-<instance>.xml`**.
 
 Pour appliquer les modifications dans ces fichiers, si le service Adobe Campaign est démarré, vous devez exécuter la commande **nlserver config -reload**.
 
@@ -83,7 +83,7 @@ On distingue deux types de processus : multi-instance et mono-instance.
 
 * **multi-instance** : un seul processus est démarré pour toutes les instances, il s&#39;agit des processus **web**, **syslogd** et **trackinglogd**.
 
-   Enablement can be configured from the **config-default.xml** file.
+   L’activation peut être configurée à partir du fichier **config-default.xm**.
 
    Déclaration d&#39;un serveur Adobe Campaign pour l&#39;accès aux consoles clientes et pour la redirection (tracking) :
 
@@ -94,11 +94,11 @@ On distingue deux types de processus : multi-instance et mono-instance.
    <trackinglogd autoStart="true"/>
    ```
 
-   Dans cet exemple, le fichier est modifié à l’aide d’une commande **vi** sous Linux. Il peut être modifié à l’aide de n’importe quel éditeur **.txt** ou **.xml** .
+   Dans cet exemple, le fichier est modifié à l’aide d’une commande **vi** sous Linux. Il peut être modifié à l’aide de n’importe quel éditeur **.txt** ou **.xml**.
 
 * **mono-instance** : un processus est démarré par instance (modules : **mta**, **wfserver**, **inMail**, **sms** et **stat**).
 
-   L’activation peut être configurée à l’aide du fichier de configuration de l’instance :
+   L&#39;activation est paramétrable à partir du fichier de configuration de l&#39;instance :
 
    ```
    config-<instance>.xml
@@ -115,9 +115,9 @@ On distingue deux types de processus : multi-instance et mono-instance.
 
 ## Paramètres de diffusion {#delivery-settings}
 
-The delivery parameters must be configured in the **serverConf.xml** folder.
+Les paramètres de diffusion doivent être configurés dans le dossier **serverConf.xml**.
 
-* **Configuration** DNS : spécifiez le domaine de remise et les adresses IP (ou l’hôte) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX effectuées par le module MTA à partir de **`<dnsconfig>`** maintenant.
+* **Configuration DNS** : renseignez le domaine de diffusion ainsi que les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA à partir de **`<dnsconfig>`**.
 
    >[!NOTE]
    >
@@ -127,6 +127,6 @@ The delivery parameters must be configured in the **serverConf.xml** folder.
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-The other delivery parameters available in this file are presented in [Personalizing delivery parameters](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+Les autres paramètres de diffusion disponibles dans ce fichier sont présentés dans la section [Personnalisation des paramètres de diffusion](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-Reportez-vous également à la section Livraison [par](../../installation/using/email-deliverability.md)courrier électronique.
+Consultez également la section [Délivrabilité des emails](../../installation/using/email-deliverability.md).
