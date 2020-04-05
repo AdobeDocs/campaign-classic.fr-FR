@@ -28,7 +28,7 @@ Pour cela, la date de création des destinataires dans la base est comparée à 
 
 Pour parvenir à effectuer un filtre du type **Date de création = max (Date de création)** sur les destinataires, il est nécessaire de passer par un workflow afin de réaliser les étapes suivantes :
 
-1. Récupérez les destinataires de la base de données à l’aide d’une requête de base. Pour plus d&#39;informations sur cette étape, consultez [Création d&#39;une requête](../../workflow/using/query.md#creating-a-query).
+1. Récupérez les destinataires de la base de données à l&#39;aide d&#39;une requête de base. Pour plus d&#39;informations sur cette étape, consultez [Créer une requête](../../workflow/using/query.md#creating-a-query).
 1. Calculer la dernière date connue de création d&#39;un destinataire via le résultat de la fonction d&#39;agrégation **max (Date de création)**.
 1. Lier chaque destinataire au résultat de la fonction d&#39;agrégation dans un même schéma.
 1. Filtrer les destinataires à l&#39;aide de l&#39;agrégat via le schéma édité.
@@ -64,7 +64,7 @@ Afin de lier la requête portant sur les destinataires à la requête servant au
 
 Le résultat de la fonction d&#39;agrégation est ainsi lié à chaque destinataire.
 
-## Step 3: Filtering recipients using the aggregate. {#step-3--filtering-recipients-using-the-aggregate-}
+## Etape 3 : filtrer les destinataires à l&#39;aide de l&#39;agrégat {#step-3--filtering-recipients-using-the-aggregate-}
 
 Une fois le lien établi, le résultat de l&#39;agrégat et les destinataires font partie du même schéma temporaire. Il est alors possible de réaliser un filtrage sur ce schéma afin d&#39;effectuer la comparaison entre la date de création des destinataires et la dernière date de création connue, représentée par la fonction d&#39;agrégation. Ce filtrage est réalisé grâce à une activité de partage.
 
@@ -79,7 +79,7 @@ Une fois le lien établi, le résultat de l&#39;agrégat et les destinataires fo
    Les expressions à utiliser pour le critère sont donc :
 
    * **[!UICONTROL Expression]**: `toDate([target/@created])`.
-   * **[!UICONTROL Valeur]**: `toDate([datemax/expr####])`, où expr#### correspond à l&#39;agrégat spécifié dans la requête de fonction d&#39;agrégation.
+   * **[!UICONTROL Valeur]** : `toDate([datemax/expr####])`, où expr#### correspond à l&#39;alias de l&#39;agrégat défini dans la requête de la fonction d&#39;agrégation.
    ![](assets/datamanagement_usecase_4.png)
 
 Le résultat de l&#39;activité de partage correspond ainsi aux destinataires créés le même jour que la dernière date de création connue.
