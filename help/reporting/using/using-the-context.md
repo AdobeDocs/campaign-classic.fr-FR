@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Utiliser le contexte{#using-the-context}
 
-When you want to represent data in the form of **[!UICONTROL tables]** or **[!UICONTROL charts]**, it can be taken from two sources: a new query (refer to [Defining a direct filter on data](#defining-a-direct-filter-on-data)) or the report context (refer to [Using context data](#using-context-data)).
+Lorsque vous souhaitez représenter les données sous forme de **[!UICONTROL tableau]** ou de **[!UICONTROL graphique]**, elles peuvent provenir de deux sources : d&#39;une nouvelle requête (voir la section [Définir un filtre direct sur les données](#defining-a-direct-filter-on-data)) ou du contexte du rapport (voir la section [Utiliser les données du contexte](#using-context-data)).
 
 ## Définir un filtre direct sur les données {#defining-a-direct-filter-on-data}
 
@@ -77,7 +77,7 @@ Dans la page contenant le tableau ou le graphique, l&#39;onglet **[!UICONTROL Do
 
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
-* L’option **[!UICONTROL Nouvelle requête]** vous permet de créer une requête pour collecter des données. Pour plus d’informations, reportez-vous à la section [Définition d’un filtre direct sur les données](#defining-a-direct-filter-on-data).
+* L&#39;option **[!UICONTROL Nouvelle requête]** permet de créer une requête pour collecter des données. Voir à ce propos la section [Définir un filtre direct sur les données](#defining-a-direct-filter-on-data).
 * L&#39;option **[!UICONTROL Données du contexte]** permet d&#39;utiliser les données d&#39;entrée : le contexte du rapport correspond aux informations qui sont véhiculées dans la transition entrante de la page contenant le graphique ou le tableau. Ce contexte peut, par exemple, contenir les données collectées via une activité **[!UICONTROL Requête]** placée avant l&#39;activité **[!UICONTROL Page]**, et dans laquelle vous spécifiez la table et les champs sur lesquels doit porter le rapport.
 
 Par exemple, dans une boîte de requête, construisez la requête suivante sur les destinataires :
