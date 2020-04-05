@@ -1,7 +1,7 @@
 ---
-title: A propos du tableau des destinataires personnalisés
-seo-title: A propos du tableau des destinataires personnalisés
-description: A propos du tableau des destinataires personnalisés
+title: À propos de la table des destinataires par défaut
+seo-title: À propos de la table des destinataires par défaut
+description: À propos de la table des destinataires par défaut
 seo-description: null
 page-status-flag: never-activated
 uuid: 4b162da4-90d2-44ff-9f89-ff0275540359
@@ -20,7 +20,7 @@ source-git-commit: 668a0093616e1a2b49623b010ae5055f4d43d9b9
 ---
 
 
-# A propos du tableau des destinataires personnalisés{#about-custom-recipient-table}
+# À propos de la table des destinataires par défaut{#about-custom-recipient-table}
 
 Cette section présente les principes d&#39;utilisation d&#39;une table de destinataires non standard.
 
@@ -41,19 +41,19 @@ Cette fonctionnalité permet notamment à Adobe Campaign d&#39;exploiter des don
 
 Cette section décrit les points essentiels permettant de réaliser le mapping de tables existantes dans Adobe Campaign puis le paramétrage à réaliser pour permettre l&#39;exécution de diffusions en se basant sur n&#39;importe quelle table. Enfin, elle présente le mode de mise à disposition pour les utilisateurs d&#39;interfaces de requêtage aussi pratiques que celles disponibles avec la table standard des destinataires. La connaissance des principes de conception de schémas et d&#39;écrans est requise pour aborder les éléments présentés dans cette section.
 
-## Recommandations et limitations  {#recommendations-and-limitations}
+## Recommandations et limitations   {#recommendations-and-limitations}
 
 L&#39;utilisation d&#39;une table de destinataires externe implique les limitations suivantes :
 
-* Adobe Campaign ne prend pas en charge plusieurs schémas de destinataires, appelés schémas de ciblage, liés aux mêmes schémas de journal de diffusion et/ou de journal de suivi. Cela peut par ailleurs entraîner des anomalies dans la réconciliation des données par la suite.
+* Adobe Campaign ne prend pas en charge les schémas de destinataires multiples, appelés schémas de ciblage, liés aux mêmes schémas de broadlog et/ou de trackinglog. Leur prise en charge entraînerait des anomalies dans la réconciliation ultérieure des données.
 
-   Le graphique ci-dessous décrit la structure relationnelle requise pour chaque schéma de destinataire personnalisé :
+   Le graphique ci-dessous décrit la structure relationnelle nécessaire pour chaque schéma de destinataire personnalisé :
    ![](assets/custom_recipient_limitation.png)
 
-   Nous vous recommandons :
+   Nous vous recommandons de procéder comme suit :
 
-   * Dédiant les schémas **[!UICONTROL nms:BroadLogRcp]** et **[!UICONTROL nms:TrackingLogRcp]** aux **[!UICONTROL nms:Recipientschema]** prêts à l&#39;emploi. Ces deux tables de journal ne doivent pas être liées à une autre table de destinataires personnalisée.
-   * Définition de schémas de journal large et de journal de suivi personnalisés dédiés pour chaque nouveau schéma de destinataire personnalisé. Cela peut être fait automatiquement lors de la configuration du mappage de la cible, voir Mappage [de](../../configuration/using/target-mapping.md)Target.
+   * Dédier les schémas **[!UICONTROL nms:BroadLogRcp]** et **[!UICONTROL nms:TrackingLogRcp]** aux schémas **[!UICONTROL nms:Recipientschema]** prêts à l&#39;emploi. Ces deux tables de log ne doivent pas être liées à une autre table de destinataires par défaut.
+   * Définir des schémas broadlog et trackinglog personnalisés dédiés à chaque nouveau schéma de destinataires personnalisé. Il est possible de le faire automatiquement lors de la configuration du mapping de ciblage, voir la section [Mapping de ciblage](../../configuration/using/target-mapping.md).
 
 * Il n&#39;est pas possible d&#39;utiliser les **[!UICONTROL Services et Abonnements]** standards proposés dans le produit.
 
@@ -61,7 +61,7 @@ L&#39;utilisation d&#39;une table de destinataires externe implique les limitati
 
 * Le lien avec la table des **[!UICONTROL visiteurs]** n&#39;est pas opérationnel.
 
-   Thus, to use the **[!UICONTROLSocial Marketing]** module you must configure the storage step to reference the correct table.
+   Ainsi, l&#39;utilisation du module **[!UICONTROLSSocial Marketing]** nécessite de paramétrer l&#39;étape d&#39;enregistrement afin de référencer la bonne table.
 
    De même, dans le cadre de l&#39;utilisation des fonctionnalités de parainage, le modèle standard de transfert du message initial doit être adapté.
 
@@ -71,14 +71,14 @@ L&#39;utilisation d&#39;une table de destinataires externe implique les limitati
 
    >[!NOTE]
    >
-   >Vous pouvez toujours créer des listes de destinataires à l’aide de processus. Pour plus d’informations, reportez-vous à [Création d’une liste de profils avec un flux de travail](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+   >Vous pouvez toujours créer des listes de destinataires à l&#39;aide de workflows. Pour plus d&#39;informations à ce propos, consultez la section [Création d&#39;une liste de profils avec un workflow](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
 
 Il est également recommandé de vérifier les valeurs par défaut utilisées dans les différents paramétrages d&#39;usine : plusieurs adaptations doivent être apportées, selon les fonctionnalités utilisées.
 
 Par exemple :
 
-* Certain standard reports, particularly those offered by **Interaction** and the **Mobile Applications** must be redeveloped. Reportez-vous à la section [Gestion des rapports](../../configuration/using/managing-reports.md) .
-* The default configurations for certain workflow activities reference the standard recipients table (**[!UICONTROL nms:recipient]**): these configurations must be changed when used for an external recipients table. Reportez-vous à la section [Gestion des processus](../../configuration/using/managing-workflows.md) .
+* Certains rapports standards, notamment ceux proposés pour **Interaction** et les **Applications mobiles**, doivent être redéveloppés. Voir la section [Gestion des rapports](../../configuration/using/managing-reports.md).
+* Les paramètres par défaut de certaines activités de workflow référencent la table des destinataires standards (**[!UICONTROL nms:recipient]**) : ces paramètres doivent être modifiés dans le cadre de l&#39;utilisation d&#39;une table de destinataires externe. Voir la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
 * Le bloc de personnalisation du **[!UICONTROL Lien de désinscription]** standard doit être adapté.
 * Le mapping de ciblage des modèles de diffusion standard doit être modifié.
 * Les formulaires v4 ne sont pas compatibles avec l&#39;utilisation d&#39;une table de destinataires externe : vous devez utiliser les applications Web.
