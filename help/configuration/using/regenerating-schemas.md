@@ -28,7 +28,7 @@ Lors de la modification d&#39;un schéma et de l&#39;enregistrement des modifica
 1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** .
 1. Cliquez sur **[!UICONTROL OK]** pour valider et lancer le processus.
 
-Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Précédent et Documentation. For more on this, refer to the [Principles](../../configuration/using/data-schemas.md#principles) section.
+Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Aperçu et Documentation. Voir à ce sujet la section [Principes](../../configuration/using/data-schemas.md#principles).
 
 >[!NOTE]
 >
