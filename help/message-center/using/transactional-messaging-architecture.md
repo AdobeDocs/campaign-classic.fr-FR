@@ -1,6 +1,6 @@
 ---
-title: Architecture de messagerie transactionnelle Adobe Campaign Classic
-description: Cette section décrit l’architecture de la messagerie transactionnelle Adobe Campaign Classic.
+title: Architecture des messages transactionnels Adobe Campaign Classic
+description: Cette section décrit l’architecture des messages transactionnels Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: a8fe7a37-6df7-49f4-838f-97a72e4a38f3
 contentOwner: sauviat
@@ -37,7 +37,7 @@ Les instances d&#39;exécution reçoivent les événements, les associent aux mo
 
 >[!CAUTION]
 >
->Le partage d’une grappe d’exécution avec plusieurs instances de contrôle est uniquement pris en charge pour les environnements sur site.
+>Le partage d’un cluster d’exécution avec plusieurs instances de pilotage est uniquement pris en charge pour les environnements on-premise.
 
 Il est possible de mutualiser un cluster d&#39;exécution entre différentes instances de pilotage. Par exemple, si vous gérez plusieurs enseignes spécialisées, vous pouvez configurer une instance de pilotage par marque et toutes les relier au même cluster d&#39;exécution.
 
@@ -45,7 +45,7 @@ Il est possible de mutualiser un cluster d&#39;exécution entre différentes ins
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration requise, voir [Utilisation de plusieurs instances](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances)de contrôle.
+>Pour plus d’informations sur la configuration requise, voir [Utilisation de plusieurs instances de pilotage](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
 
 ## Installation des instances {#installing-instances}
 
@@ -55,7 +55,7 @@ L&#39;installation des packages des messages transactionnels requiert de nombreu
 >
 >L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
 
-Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant d’installer les packages de messages transactionnels. Reportez-vous à [Ajout d’un canal](#adding-a-delivery-channel)de distribution.
+Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Voir [Ajout d’un canal de diffusion](#adding-a-delivery-channel).
 
 * Pour installer l&#39;instance de pilotage sur votre machine, sélectionnez le module **[!UICONTROL Pilotage des messages transactionnels]**.
 
@@ -70,7 +70,7 @@ Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les 
 L&#39;ajout d&#39;un canal de diffusion (Canal mobile, Mobile App Channel, etc.) doit être impérativement effectué avant l&#39;installation du package des messages transactionnels. Si vous avez démarré un projet des messages transactionnels sur le canal email, puis que vous décidez, au cours du projet, d&#39;ajouter un nouveau canal, vous devez suivre ces étapes :
 
 1. Installez le canal dont vous avez besoin, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package... > Package Adobe Campaign]** ).
-1. Effectuez une importation de fichier ( **[!UICONTROL Outils > Avancé > Importer un package... > Fichier]** ), puis sélectionnez le fichier ****`[Your language]`**datakitnmspackagemessageCenter.xml** .
+1. Effectuez une importation de fichier ( **[!UICONTROL Outils > Avancé > Importer un package... > Fichier]** ), puis sélectionnez le fichier **datakitnms **`[Your language]`**packagemessageCenter.xml**.
 1. Dans la partie **[!UICONTROL Contenu XML des données à importer]**, conservez uniquement le modèle de diffusion correspondant au canal ajouté. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **entities** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le canal **Mobile App Channel**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
