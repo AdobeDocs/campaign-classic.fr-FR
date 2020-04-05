@@ -1,6 +1,6 @@
 ---
-title: A propos du canal d’application mobile dans Adobe Campaign Classic
-description: Cette section fournit des informations générales spécifiques au canal d’application mobile dans Adobe Campaign Classic.
+title: À propos de Mobile App Channel dans Adobe Campaign Classic
+description: Cette section contient des informations générales spécifiques à Mobile App Channel dans Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: e8d26b33-dc7c-4abd-956a-92f419a117e1
 contentOwner: sauviat
@@ -22,11 +22,11 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 >[!CAUTION]
 >
->Ce document décrit le processus d’intégration de votre application mobile à la plateforme Adobe Campaign. Il ne fournit aucune information sur la création de l’application mobile ni sur la manière de la configurer pour la gestion des notifications. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
+>Ce décrit  processus d&#39;intégration de votre application mobile à la  plate-forme Adobe Campaign. Il ne fournit aucune information sur la création de l’application mobile ni sur la manière de la configurer pour la gestion des notifications. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
 
-Les sections ci-dessous fournissent des informations spécifiques au canal de l’application mobile.
+Les sections ci-dessous apportent des informations spécifiques à Mobile App Channel.
 
- Pour plus d’informations sur la création d’une diffusion, voir[cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Pour plus d&#39;informations sur la création d&#39;une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 Le canal des applications mobiles (**Mobile App Channel**) permet d&#39;envoyer des notifications personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications (apps). Deux canaux de diffusion sont disponibles :
 
@@ -59,7 +59,7 @@ Vous pouvez définir le comportement de l’application lorsque l’utilisateur 
 
 Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez le [Guide Workflows](../../workflow/using/mobile-app-channel.md).
 
-Adobe Campaign est compatible avec les API binaires et HTTP/2. Pour plus d’informations sur les étapes de configuration, voir [Configuration d’une application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) .
+Adobe Campaign est compatible avec l&#39;APNS binaire et HTTP/2. Pour plus d’informations sur les étapes de configuration, reportez-vous à la section [Configuration d’une application mobile dans  Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
 
 ## Parcours des données {#data-path}
 
