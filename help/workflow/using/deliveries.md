@@ -43,12 +43,12 @@ Les workflows présentés ci-dessous sont installés par défaut.
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nombre de profils de facturation actifs</span> <br /> </td> 
-   <td> <span class="uicontrol">billingActiveContactCount</span><br /> </td> 
+   <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
    <td> <p>Ce workflow compte le nombre de profils actifs. Par défaut, il se déclenche toutes les nuits à 1h00 du matin.</p> <p>Un “<strong>profil</strong>” désigne un enregistrement d'informations (par exemple : un enregistrement dans la table nmsRecipient ou une table externe contenant un identifiant de cookie, un identifiant client, un identifiant mobile ou d'autres informations relatives à un canal particulier) représentant un client final ou un prospect. La facturation ne concerne que les profils “actifs”. Un profil est considéré comme actif s'il a été ciblé ou s'il a reçu des communications au cours des 12 derniers mois via n'importe quel canal.</p> <p>Les canaux Facebook et Twitter ne sont pas prises en compte.</p> <p>Vous pouvez obtenir un aperçu du <span class="uicontrol">Nombre de profils actifs</span> depuis le menu <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Gestion de campagne</span> &gt; <span class="uicontrol">Mesures des clients</span>.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Gestion des alias</span> <br /> </td> 
-   <td> <span class="uicontrol">aliasCleansing</span><br /> </td> 
+   <td> <span class="uicontrol">aliasCleansing</span> <br /> </td> 
    <td> Ce workflow réalise l’uniformisation des valeurs des énumérations. Par défaut, il se déclenche tous les jours à 3h00.<br /> </td> 
   </tr> 
   <tr> 
@@ -63,12 +63,12 @@ Les workflows présentés ci-dessous sont installés par défaut.
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage des workflows en pause</span> <br /> </td> 
-   <td> <span class="uicontrol">cleanupPausedWorkflows</span><br /> </td> 
-   <td> <p>Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu'ils sont en pause depuis trop longtemps. Après un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, ce workflow est déclenché tous les lundis à 5h00.</p> <p>Pour plus d’informations, voir <a href="../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">Gestion des processus</a>en pause.</p></td> 
+   <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
+   <td> <p>Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu'ils sont en pause depuis trop longtemps. Après un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, ce workflow est déclenché tous les lundis à 5h00.</p> <p>Pour plus d’informations, voir <a href="../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">Gérer les workflows en pause</a>.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Notification des offres</span> <br /> </td> 
-   <td> <span class="uicontrol">offerMgt</span><br /> </td> 
+   <td> <span class="uicontrol">offerMgt</span> <br /> </td> 
    <td> Toutes les heures, ce workflow déploie les offres validées sur l'environnement en ligne, ainsi que toutes les catégories contenues dans le catalogue d'offres.<br /> </td> 
   </tr> 
   <tr> 
@@ -77,8 +77,8 @@ Les workflows présentés ci-dessous sont installés par défaut.
    <td> Ce workflow effectue l’analyse des diffusions enregistrées dans le calendrier prévisionnel (création des logs prévisionnels). Par défaut, il se déclenche tous les jours à 1h00.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Suivi</span><br /> </td> 
-   <td> <span class="uicontrol">suivi</span><br /> </td> 
+   <td> <span class="uicontrol">Tracking</span> <br /> </td> 
+   <td> <span class="uicontrol">tracking</span> <br /> </td> 
    <td> Ce workflow réalise la récupération et la consolidation des informations de tracking. Il assure également le re-calcul des statistiques de tracking et de diffusions, notamment celles utilisées par les workflows d'archivage de Message Center. Par défaut, il se déclenche toutes les heures. <br /> </td> 
   </tr> 
  </tbody> 
