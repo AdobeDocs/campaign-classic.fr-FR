@@ -36,7 +36,7 @@ Adobe Campaign contient un exemple de bannière que vous devez adapter à vos be
 >
 >Pour créer votre propre bannière, vous devez personnaliser la bannière d&#39;usine.
 
-Pour activer la bannière, vous devez configurer les propriétés de l&#39;application Web. Reportez-vous à la section [Conception d’une application](../../web/using/designing-a-web-application.md) Web.
+Pour activer la bannière, vous devez configurer les propriétés de l&#39;application web. Voir la section [Concevoir une application web](../../web/using/designing-a-web-application.md).
 
 Si le tracking web est activé, vous pouvez sélectionner l&#39;une des options suivantes :
 
