@@ -29,14 +29,14 @@ Le site Neobank souhaite afficher une offre sur son site web à l&#39;attention 
 Pour mettre en place cette interaction, vous allez :
 
 1. [Création d’un environnement anonyme](#creating-an-anonymous-environment)
-1. [Création d’espaces d’offre anonymes](#creating-anonymous-offer-spaces)
-1. [Création d’une catégorie d’offres et d’un thème](#creating-an-offer-category-and-a-theme)
-1. [Créez des offres anonymes.](#creating-anonymous-offers)
-1. [Configuration des espaces d’offre Web sur le site Web](#configure-the-web-offer-space-on-the-website)
+1. [Créer un  anonyme](#creating-anonymous-offer-spaces)
+1. [Création d’un    de et d’un thème](#creating-an-offer-category-and-a-theme)
+1. [Créez un  anonyme .](#creating-anonymous-offers)
+1. [Configuration du Web   sur le site Web](#configure-the-web-offer-space-on-the-website)
 
 ### Créer un environnement anonyme {#creating-an-anonymous-environment}
 
-Follow the procedure detailed in [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment) to create your anonymous environment based on the **Visitors**&#39; dimensions.
+Suivez la procédure de la section [Créer un environnement d&#39;offre](../../interaction/using/live-design-environments.md#creating-an-offer-environment) afin de créer votre environnement anonyme basé sur la dimension des **Visiteurs**.
 
 Vous obtenez une arborescence contenant votre nouvel environnement :
 
@@ -135,9 +135,9 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
 
 ### Paramétrer l&#39;emplacement de l&#39;offre dans le site web {#configure-the-web-offer-space-on-the-website}
 
-To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md)).
+Afin que les offres que vous venez de paramétrer apparaissent dans le site web, vous allez insérer un code Javascript dans la page HTML de votre site destiné à appeler le moteur d&#39;Interaction (voir à ce sujet la section [A propos des canaux entrants](../../interaction/using/about-inbound-channels.md)).
 
-1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
+1. Accédez à votre page HTML et insérez un attribut @id dont la valeur correspond au nom interne de l&#39;emplacement anonyme créé précédemment (voir [Créer des emplacements anonymes ](#creating-anonymous-offer-spaces)), précédé de **i_**.
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
@@ -145,7 +145,7 @@ To make the offers you have just configured visible on the website, insert a Jav
 
    ![](assets/offer_inbound_anonymous_example_020.png)
 
-   Les zones URL bleues ci-dessus correspondent au nom de l’instance, au nom interne de l’environnement (voir [Création d’un environnement](#creating-an-anonymous-environment)anonyme) et au thème lié à la catégorie ([Création d’une catégorie d’offre et d’un thème](#creating-an-offer-category-and-a-theme)). Cette dernière option est facultative.
+   Les zones URL bleues ci-dessus correspondent au nom de l’instance, au nom interne de l’environnement (voir [Création d’un environnement anonyme](#creating-an-anonymous-environment)) et au thème lié à la catégorie ([Créer une catégorie d’offres et un thème](#creating-an-offer-category-and-a-theme)). Cette dernière option est facultative.
 
 Lorsqu&#39;un visiteur accède à la page d&#39;accueil du site web, les offres dont le thème est **financement** s&#39;affichent à l&#39;emplacement prévu de la page HTML.
 
@@ -199,7 +199,7 @@ Les étapes sont les suivantes :
 
 ### Créer un environnement destiné aux contacts anonymes {#creating-an-environment-for-anonymous-contacts}
 
-1. Créez un environnement d’offre pour les interactions d’entrée anonymes via l’assistant de mappage de remise (mappage des **visiteurs** ). Pour plus d’informations, reportez-vous à la section [Création d’un environnement](../../interaction/using/live-design-environments.md#creating-an-offer-environment)d’offre.
+1. Créez un environnement d’offres pour les interactions entrantes anonymes via l’assistant de mappage de diffusion (mappage des **Visiteurs**). Voir à ce sujet la section [Créer un environnement d’offre](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
    ![](assets/offer_env_anonymous_003.png)
 
@@ -286,10 +286,10 @@ Vous allez à présent créer deux offres dans chacune des catégories crées pr
 
 Les offres que vous allez présenter sur le site web sont issues de deux catégories différentes : **Premium** et **Partenaires**. Dans notre exemple, nous choisissons de créer un emplacement propre à chaque catégorie.
 
-Pour créer les deux espaces d’offre, appliquez la même procédure que pour les espaces d’offre anonymes. Refer to [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment).
+Pour créer les deux emplacements, procédez de la même manière que pour les emplacements anonymes. Consultez la section [Paramétrer des emplacements pour l’environnement anonyme](#configuring-offer-spaces-for-the-anonymous-environment).
 
 1. Dans l&#39;arborescence Adobe Campaign, positionnez-vous sur l&#39;environnement identifié et ajoutez les emplacements **Premium** et **Partenaires**.
-1. Appliquez le processus détaillé dans [Configuration des espaces d’offre pour l’environnement](#configuring-offer-spaces-for-the-anonymous-environment)anonyme.
+1. Appliquez le processus détaillé dans [Paramétrer des emplacements pour l&#39;environnement anonyme](#configuring-offer-spaces-for-the-anonymous-environment).
 
    ![](assets/offer_inbound_fallback_example_005.png)
 
@@ -297,7 +297,7 @@ Pour créer les deux espaces d’offre, appliquez la même procédure que pour l
 
    ![](assets/offer_inbound_fallback_example_006.png)
 
-1. Dans la liste déroulante, sélectionnez l’espace d’offre Web anonyme créé précédemment (voir [Configuration des espaces d’offre pour l’environnement](#configuring-offer-spaces-for-the-anonymous-environment)anonyme).
+1. Dans la liste déroulante, sélectionnez l’espace d’offre Web anonyme créé précédemment (voir [Paramétrer des emplacements pour l&#39;environnement anonyme](#configuring-offer-spaces-for-the-anonymous-environment)).
 
    ![](assets/offer_inbound_fallback_example_007.png)
 
@@ -397,7 +397,7 @@ Pour paramétrer les emplacements des offres dans la page HTML du site web, proc
 
    ![](assets/offer_inbound_fallback_example_043.png)
 
-   L’identification de la personne peut être basée sur un cookie de navigateur, un paramètre de lecture dans l’URL, le courrier électronique ou l’identifiant de la personne. Si un champ de la table des destinataires autre que la clé primaire est utilisé, il doit être défini dans les paramètres avancés de l’espace (voir [Spécification des paramètres avancés des espaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces)d’offre identifiés).
+   L’identification de la personne peut être basée sur un cookie de navigateur, un paramètre de lecture dans l’URL, l’email ou l’identifiant de la personne. Si un champ de la table des destinataires autre que la clé primaire est utilisé, il doit être défini dans les paramètres avancés de l’espace (voir [Spécifier les paramètres avancés des espaces d’offre identifiés](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
 
 1. Insérez l&#39;URL d&#39;appel.
 
