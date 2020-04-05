@@ -24,9 +24,9 @@ source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
 
 Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations sur une base externe via FDA, ce dernier doit disposer d&#39;un droit nommé spécifique dans Adobe Campaign.
 
-1. Sélectionnez le **[!UICONTROL Administration > Access Management > Named Rights]** noeud dans l’explorateur de Adobe Campaign .
+1. Sélectionnez le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;explorateur Adobe Campaign.
 1. Créez un nouveau droit en indiquant le libellé de votre choix.
-1. The **[!UICONTROL Name]** field must take the following format **user:base@server**, where :
+1. Le champ **[!UICONTROL Nom]** doit être de la forme suivante : **user:base@server**, où :
 
    * **user** correspond au nom de l&#39;utilisateur sur la base de données externe.
    * **base** correspond au nom de la base de données externe.
@@ -36,7 +36,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
       >
       >La partie **:base** est optionnelle sur Oracle.
 
-1. Save the named right then link it to your chosen user from the **[!UICONTROL Administration > Access Management > Operators]** node of the Adobe Campaign explorer.
+1. Enregistrez le droit nommé puis associez-le à l&#39;utilisateur de votre choix à partir du noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur Adobe Campaign.
 
 Ensuite, pour exploiter les données contenues dans une base externe, l&#39;utilisateur Adobe Campaign doit au minimum avoir les droits en &#39;Ecriture&#39; sur cette base, afin de permettre la création des tables de travail. Ces tables sont automatiquement supprimées par Adobe Campaign.
 
