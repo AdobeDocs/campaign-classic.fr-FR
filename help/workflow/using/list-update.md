@@ -46,7 +46,7 @@ Dans l&#39;exemple suivant, l&#39;activité de mise à jour de liste suit une re
 
 1. Placez une activité de type **[!UICONTROL Mise à jour de liste]** directement à la suite d&#39;une requête puis ouvrez-la pour pouvoir l&#39;éditer.
 
-   For more on creating a query in a workflow, refer to [Query](../../workflow/using/query.md).
+   Pour plus d&#39;informations sur la création d&#39;une requête dans un workflow, consultez la section [Requête](../../workflow/using/query.md).
 
 1. Choisissez éventuellement un libellé pour l&#39;activité.
 1. Sélectionnez l&#39;option **[!UICONTROL Créer la liste si besoin (Nom calculé)]** afin d&#39;indiquer que la liste sera créée lors de la première exécution du workflow, puis mise à jour lors des exécutions suivantes.
