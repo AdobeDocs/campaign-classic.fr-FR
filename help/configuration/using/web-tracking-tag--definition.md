@@ -26,7 +26,7 @@ Une balise de tracking Web n&#39;est autre qu&#39;une URL construite avec les pa
 
 ## Format des données à transmettre {#format-of-the-data-to-be-sent}
 
-The format of a web-tracking URL is as follows: **https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
+Le format d&#39;une URL de tracking Web est le suivant : **https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
 
 >[!NOTE]
 >
@@ -133,6 +133,6 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 Les méthodes possibles sont les suivantes :
 
-* Inserting the URL in the **&quot;src&quot;** attribute of an HTML **`<img>`** tag incorporated in the web page you wish to track.
+* Insertion de l&#39;URL dans l&#39;attribut **&quot;src&quot;** d&#39;une balise HTML **`<img>`** intégrée à la page Web que l&#39;on souhaite tracker.
 * Appel direct au serveur de redirection au moment de la génération de la page Web que l&#39;on souhaite tracker.
 
