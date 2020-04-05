@@ -29,7 +29,7 @@ Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et 
 1. [Étape 3 : Configuration du serveur de tracking Campaign ](#step-3--configure-campaign-tracking-server)
 1. [Étape 4 : Configuration du service d&#39;identification des visiteurs](#step-4--configure-the-visitor-id-service)
 
-## Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign   {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+## Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign    {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;Adobe Campaign en procédant comme suit :
 
@@ -46,9 +46,9 @@ Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;
 
    >[!NOTE]
    >
-   >Si vous utilisez S3, saisissez votre serveur **[!UICONTROL de compte]** AWS S3 en respectant la syntaxe suivante :\
+   >Si vous utilisez S3, indiquez votre **[!UICONTROL Serveur du compte AWS S3]** en respectant la syntaxe suivante :\
    `<S3bucket name>.s3.amazonaws.com/<s3object path>`\
-   For more information on how to configure your S3 account, refer to this [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
+   Pour plus d&#39;informations sur la configuration de votre compte S3, consultez cette [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
 
    ![](assets/aam_config_2.png)
 
@@ -68,7 +68,7 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
    ![](assets/aam_config_3.png)
 
-## Étape 3 : Configuration du serveur de tracking Campaign   {#step-3--configure-campaign-tracking-server}
+## Étape 3 : Configuration du serveur de tracking Campaign    {#step-3--configure-campaign-tracking-server}
 
 Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
