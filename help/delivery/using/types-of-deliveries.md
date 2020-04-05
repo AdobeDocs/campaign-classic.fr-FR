@@ -30,7 +30,7 @@ Une **diffusion** est un objet de diffusion autonome exécuté une seule fois. E
 
 Les diffusions peuvent être créées à partir de la liste de diffusions ou au sein d&#39;un workflow via une activité [Diffusion](../../workflow/using/delivery.md).
 
-Les processus fournissent également des activités de diffusion spécifiques en fonction du type de canal que vous souhaitez utiliser. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+ fournit également des spécifiques    del&#39;selon le type de que vous souhaitez utiliser. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
 ## Diffusion récurrente {#recurring-delivery}
 
@@ -48,4 +48,4 @@ Si des informations liées à diffusion changent (contenu, nom, etc.), un nouvel
 
 Par exemple, si vous exécutez ce type d&#39;activité une fois par mois, vous obtiendrez une seule diffusion au bout d&#39;un an (à condition que vous n&#39;ayez apporté aucune modification à la diffusion).
 
-Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).
+Les diffusions au fil de l&#39;eau sont créées dans des workflows via l&#39;activité [Diffusion au fil de l&#39;eau](../../workflow/using/continuous-delivery.md).
