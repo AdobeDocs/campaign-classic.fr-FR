@@ -29,8 +29,8 @@ Vous pouvez tester le tracking sur les pages miroir, les logs d&#39;email et les
 1. Ajoutez un bloc de personnalisation de page miroir (MirrorPage) au contenu de l&#39;email.
 1. Envoyez l&#39;email contenant un lien vers la page miroir.
 1. Une fois l&#39;email reçu, ouvrez-le et cliquez sur le lien de la page miroir.
-1. After you are correctly redirected to the mirror page, access the **Administration > Technical workflows** folder and open the **Tracking** workflow.
-1. Start the workflow, right click the **Scheduler** activity and select **Execute pending task now**.
+1. Après avoir été redirigé vers la page miroir, accédez au dossier **Administration > Workflows techniques** et ouvrez le workflow **Tracking**.
+1. Démarrez le workflow, cliquez avec le bouton droit sur l’activité **Planificateur** et sélectionnez **Traitement anticipé des tâches en attente**.
 1. Patientez environ 30 secondes. Sélectionnez ensuite l&#39;onglet **Audit**. Vérifiez que l&#39;onglet contient au moins un enregistrement de log de tracking.
 
    Cliquez sur **Rafraîchir** si vous ne voyez aucun nouveau log.
@@ -39,7 +39,7 @@ Vous pouvez tester le tracking sur les pages miroir, les logs d&#39;email et les
 
    >[!NOTE]
    >
-   >The recipient&#39;s profile page is located in the **Profiles and Targets > Recipients** folder by default.
+   >La page du profil du destinataire figure par défaut dans le dossier **Profils et Cibles > Destinataires**.
 
    Pour vérifier le tracking des logs d&#39;email, recherchez les valeurs **Ouverture** et **[!UICONTROL Clic email]** dans la colonne **Type**.
 
