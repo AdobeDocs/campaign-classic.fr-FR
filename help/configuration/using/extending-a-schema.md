@@ -26,7 +26,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 >
 >Certains schémas intégrés ne doivent pas être étendus. Il s’agit principalement de ceux pour lesquels les paramètres suivants sont définis :\
 >**dataSource=&quot;file&quot;** et **mappingType=&quot;xmlFile&quot;**.\
->Les schémas suivants ne doivent pas être étendus : **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form, xtk:srcSchema,ncm:publishing,nl:monitoring,nms:calendarnms:remoteTracking,nms:userAgentRules,xtk:builder,xtk:connections, xtk:dbInit,xtk:funcList, xtk:fusion, xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, xtk:schema, xtk:scriptContext,xtk:session,xtk:sqlSchema, xtk:strings.********************************************************************
+>Les schémas suivants ne doivent pas être étendus : **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, **nl:monitoring**, **nms:calendar**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:connections**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:schema**, **xtk:scriptContext**, **xtk:session**, **xtk:sqlSchema**, **xtk:strings**.
 >Cette liste n&#39;est pas exhaustive.
 
 Il existe deux solutions pour étendre un schéma déjà existant :
@@ -68,6 +68,6 @@ Il existe deux solutions pour étendre un schéma déjà existant :
 
 >[!IMPORTANT]
 >
->Pour que les modifications soient prises en compte, vous devez régénérer les schémas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.\
+>Pour que les modifications soient prises en compte, vous devez régénérer les schémas. Voir à ce sujet la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).\
 >Si les modifications affectent la structure de la base de données, vous devez exécuter une mise à jour. Voir à ce sujet la section [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md).
 
