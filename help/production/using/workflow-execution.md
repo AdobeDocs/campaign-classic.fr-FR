@@ -22,31 +22,31 @@ source-git-commit: 69b562979f3b32a4d30dfed0695cf3cf6c0fd26a
 
 # Exécution des workflows{#workflow-execution}
 
-La section ci-dessous présente des informations sur les problèmes courants liés à l’exécution des processus et sur la manière de les résoudre.
+La section ci-dessous présente des informations sur les problèmes courants liés à l’exécution des workflows et sur la manière de les résoudre.
 
-Pour plus d’informations sur les flux de travail, voir les sections suivantes :
+Pour plus d&#39;informations sur les workflows, consultez les sections suivantes :
 
 * [A propos des workflows](../../workflow/using/about-workflows.md)
 * [Exécuter un workflow](../../workflow/using/executing-a-workflow.md)
-* [Recommandations relatives à l’utilisation des processus](../../workflow/using/workflow-best-practices.md)
+* [Bonnes pratiques relatives à l’utilisation des workflows](../../workflow/using/workflow-best-practices.md)
 
-## Commencer dès que possible dans les campagnes {#start-as-soon-as-possible-in-campaigns}
+## Démarrage dès que possible dans les campagnes {#start-as-soon-as-possible-in-campaigns}
 
-Dans certains cas, les processus exécutés à partir d’une campagne ne commencent pas lorsque vous cliquez sur le bouton **[!UICONTROL Démarrer]** . Au lieu de commencer, il passe à l’état &quot;Démarrer dès que possible&quot;.
+Dans certains cas, les workflows exécutés à partir d’une campagne ne commencent pas lorsque vous cliquez sur le bouton **[!UICONTROL Démarrer]**. Au lieu de commencer, il passe à l’état « Démarrage dès que possible ».
 
-Il peut y avoir plusieurs causes à ce problème, procédez comme suit pour le résoudre :
+Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le résoudre :
 
-1. Vérifiez l’état du flux de travail technique [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md) . Ce processus gère les tâches ou les processus au sein d’une campagne. En cas d’échec, les processus ne démarrent/ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des processus de campagne.
+1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md). Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
 
-   Pour en savoir plus sur la surveillance des processus techniques, consultez [cette page](../../workflow/using/monitoring-technical-workflows.md).
+   Pour en savoir plus sur la surveillance des workflows techniques, consultez [cette page](../../workflow/using/monitoring-technical-workflows.md).
 
    >[REMARQUE]
    >
-   >Une fois le processus redémarré, assurez-vous d’exécuter les tâches en attente (cliquez avec le bouton droit de la souris sur l’activité du **[!UICONTROL planificateur]** / **[!UICONTROL Exécuter les tâches en attente maintenant]**) afin de vérifier si l’une des activités échoue à nouveau.
+   >Une fois le processus redémarré, assurez-vous d’exécuter les tâches en attente (cliquez avec le bouton droit de la souris sur l’activité **[!UICONTROL Planificateur]** / **[!UICONTROL Traitement anticipé de la (des) tâche(s)]**) afin de vérifier si l’une des activités échoue à nouveau.
 
-   Si le processus échoue toujours, recherchez une erreur spécifique dans le journal d’audit, dépanner en conséquence, puis redémarrez le processus.
+   Si le workflow échoue toujours, recherchez une erreur spécifique dans le log d’audit, dépannez en conséquence, puis redémarrez le workflow.
 
-1. Vérifiez l’état du module **[!UICONTROL wfserver]** dans l’onglet **[!UICONTROL Surveillance]** , accessible à partir de la page d’accueil de Campaign Classic (voir [Surveillance des processus](../../production/using/monitoring-processes.md)). Ce processus est responsable de l’exécution de tous les processus.
+1. Vérifiez l’état du module **[!UICONTROL wfserver]** dans l’onglet **[!UICONTROL Surveillance]**, accessible à partir de la page d’accueil de Campaign Classic (voir [Surveillance des processus](../../production/using/monitoring-processes.md)). Ce processus est responsable de l’exécution de tous les workflows.
 
    Un utilisateur administrateur peut également vérifier que le module **wfserver@`<instance>`**est lancé sur votre serveur d’applications principal à l’aide de la commande ci-dessous.
 
@@ -58,7 +58,7 @@ Il peut y avoir plusieurs causes à ce problème, procédez comme suit pour le r
    [...]
    ```
 
-   Si le module n’est pas en cours d’exécution, contactez le service à la clientèle Adobe. Si vous disposez d’une installation sur site, un utilisateur administrateur doit redémarrer le service à l’aide de la commande ci-dessous.
+   Si le module n’est pas en cours d’exécution, contactez l’assistance clientèle d’Adobe. Si vous disposez d’une installation on-premise, un utilisateur administrateur doit redémarrer le service à l’aide de la commande ci-dessous.
 
    ```
    nlserver start wfserver@<INSTANCENAME>
@@ -66,22 +66,22 @@ Il peut y avoir plusieurs causes à ce problème, procédez comme suit pour le r
 
    >[!NOTE]
    >
-   >Remplacez **`<instancename>`** par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration :
+   >Remplacez **`<instancename>`** par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration :
    >`[path of application]nl6/conf/config-<instancename>.xml`
 
-   Pour plus d&#39;informations sur le redémarrage des modules, reportez-vous à [cette section](../../production/using/usual-commands.md#module-launch-commands).
+   Pour plus d&#39;informations sur le redémarrage des modules, consultez [cette section](../../production/using/usual-commands.md#module-launch-commands).
 
-1. Vérifiez si le **nombre de processus de campagne exécutés** sur l’instance est supérieur au seuil. Une limite est définie par l&#39;option [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) sur le nombre de processus de campagne pouvant être exécutés sur l&#39;instance en parallèle. Lorsque cette limite est atteinte, le processus reste à l’état &quot;Démarrer le plus tôt possible&quot; tant que le nombre de processus en cours d’exécution est supérieur à la limite.
+1. Vérifiez si le **nombre de processus de campagne en cours d’excution** sur l’instance est supérieur au seuil. Une limite est définie par l&#39;option [**[!UICONTROL NmsOperation_LimitConcurrency]**](../../installation/using/configuring-campaign-options.md#campaign-e-workflow-management) concernant le nombre de workflows de campagne pouvant être exécutés sur l&#39;instance en parallèle. Lorsque cette limite est atteinte, le workflow reste à l’état « Démarrage dès que possible » tant que le nombre de workflows en cours d’exécution est supérieur à la limite.
 
-   Pour résoudre ce problème, arrêtez les processus indésirables et supprimez les livraisons en échec. Si le seuil a été atteint, cela permettra l’exécution de nouveaux processus.
+   Pour résoudre ce problème, arrêtez les workflows indésirables et supprimez les diffusions en échec. Si le seuil a été atteint, cela permettra l’exécution de nouveaux processus.
 
-   Pour vérifier le nombre de processus en cours d’exécution de votre instance, nous vous recommandons d’utiliser les vues prédéfinies, accessibles par défaut dans le dossier **[!UICONTROL Administration]** / **[!UICONTROL Audit]** . For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
+   Pour vérifier le nombre de workflows en cours d’exécution de votre instance, nous vous recommandons d’utiliser les vues prédéfinies, accessibles par défaut dans le dossier **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Pour plus d’informations, consultez [cette page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
    >[ATTENTION]
    >
-   >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et contactez votre contact Adobe Campaign.
+   >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et communiquez avec votre contact Adobe Campaign.
 
-Pour plus d’informations sur la manière de surveiller vos processus, reportez-vous à [cette section](../../workflow/using/monitoring-workflow-execution.md).
+Pour plus d’informations sur la manière de surveiller vos workflows, consultez [cette section](../../workflow/using/monitoring-workflow-execution.md).
 
 ## Démarrage en cours {#start-in-progress}
 
@@ -101,9 +101,9 @@ Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
    [...]
    ```
 
-   Pour plus d&#39;informations sur la manière de surveiller les modules, reportez-vous à [cette section](../../production/using/usual-commands.md#monitoring-commands-).
+   Pour plus d&#39;informations sur la manière de surveiller les modules, consultez [cette section](../../production/using/usual-commands.md#monitoring-commands-).
 
-1. Si le module n’est pas en cours d’exécution, contactez le service à la clientèle Adobe. Si vous disposez d’une installation sur site, un administrateur doit la redémarrer à l’aide de la commande ci-dessous.
+1. Si le module n’est pas en cours d’exécution, contactez l’assistance clientèle d’Adobe. Si vous disposez d’une installation on-premise, un administrateur doit la redémarrer à l’aide de la commande ci-dessous.
 
    ```
    nlserver start wfserver@<INSTANCENAME>
@@ -111,7 +111,7 @@ Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Remplacez **`<instancename>`** par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration :
+   >Remplacez **`<instancename>`** par le nom de votre instance (production, développement, etc.). Le nom de l’instance est identifié via les fichiers de configuration :
    >`[path of application]nl6/conf/config-<instancename>.xml`
 
    Pour plus d&#39;informations sur le redémarrage des modules, reportez-vous à [cette section](../../production/using/usual-commands.md#module-launch-commands).
