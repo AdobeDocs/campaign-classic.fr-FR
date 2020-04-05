@@ -102,7 +102,7 @@ Vous allez faire une première proposition d&#39;offre appartenant, entre autre,
 
    ![](assets/offer_typology_example_016.png)
 
-1. Insérez vos offres dans le corps du message et envoyez-les. For more on this, refer to [About outbound channels](../../interaction/using/about-outbound-channels.md).
+1. Insérez vos offres dans le corps du message et envoyez la diffusion. Voir à ce sujet la section [A propos des canaux sortants](../../interaction/using/about-outbound-channels.md).
 
    Votre destinataire a bien reçu l&#39;offre pour laquelle il est éligible.
 
@@ -118,4 +118,4 @@ Vous allez faire une première proposition d&#39;offre appartenant, entre autre,
 
 **Rubrique connexe**
 
-* [Gérer les offres et contrôler la redondance sur les canaux](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)
+* [Gestion des offres et contrôle de la redondance sur les canaux](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)
