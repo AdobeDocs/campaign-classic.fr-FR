@@ -36,7 +36,7 @@ Dans le cas d&#39;une architecture répartie, vous devez indiquer dans l&#39;ins
 
 >[!NOTE]
 >
->Lorsque des instances d’exécution sont utilisées par plusieurs instances de contrôle, les données peuvent être divisées par dossier et par opérateur. Pour plus d’informations, reportez-vous à [Utilisation de plusieurs instances](#using-several-control-instances)de contrôle.
+>Lorsque des instances d’exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Pour plus d’informations, reportez-vous à la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
 
 Procédez comme suit pour créer un compte externe de type instance d&#39;exécution :
 
@@ -65,7 +65,7 @@ Procédez comme suit pour créer un compte externe de type instance d&#39;exécu
 
    >[!NOTE]
    >
-   >Pour éviter de saisir un mot de passe chaque fois que vous vous connectez à l’instance, vous pouvez spécifier l’adresse IP de l’instance de contrôle dans l’instance d’exécution. For more on this, refer to [Execution instance](#execution-instance).
+   >Pour ne pas avoir à saisir de mot de passe lors de la connexion à l’instance, vous pouvez spécifier l’adresse IP de l’instance de pilotage dans l’instance d’exécution. Voir à ce propos la section [Instance d’exécution](#execution-instance).
 
 1. Indiquez la méthode de rapatriement qui doit être utilisée par l&#39;instance d&#39;exécution.
 
@@ -77,7 +77,7 @@ Procédez comme suit pour créer un compte externe de type instance d&#39;exécu
 
    >[!NOTE]
    >
-   >Veuillez noter que lorsque vous utilisez FDA sur HTTP, seules les instances d’exécution utilisant une base de données Postgres sont prises en charge. Les bases de données MSSQL ou Oracle ne sont pas prises en charge.
+   >Veuillez noter que lors de l’utilisation de  sur HTTP, seules les instances d’exécution utilisant une base de données Postgres sont prises en charge. Les bases de données MSSQL ou Oracle ne sont pas prises en charge.
 
    La deuxième méthode est recommandée si l&#39;instance de pilotage peut avoir un accès direct aux bases de données des instances d&#39;exécution. Dans le cas contraire, choisissez l&#39;accès par service Web. Le compte FDA à spécifier correspond à la connexion vers les bases des différentes instances d&#39;exécution créée sur l&#39;instance de pilotage.
 
@@ -89,19 +89,19 @@ Procédez comme suit pour créer un compte externe de type instance d&#39;exécu
 
    ![](assets/messagecenter_create_extaccount_006.png)
 
-1. Chaque instance d’exécution doit être associée à un identifiant. Cet identifiant peut être attribué sur chaque instance d’exécution soit manuellement, à l’aide de l’assistant de déploiement (voir [Identification des instances](../../message-center/using/identifying-execution-instances.md)d’exécution), soit automatiquement, en cliquant sur le bouton **Initialiser la connexion** de l’instance de contrôle.
+1. Chaque instance d’exécution doit être associée à un identifiant. Cet identifiant peut être attribué pour chaque instance d’exécution soit manuellement, à l’aide de l’assistant de déploiement (voir la section [Identifier les instances d’exécution](../../message-center/using/identifying-execution-instances.md)), soit automatiquement, en cliquant sur le bouton **Initialiser la connexion** de l’instance de pilotage.
 
    ![](assets/messagecenter_create_extaccount_006bis.png)
 
 ## Instance d&#39;exécution {#execution-instance}
 
-Pour que l&#39;instance de contrôle puisse se connecter à l&#39;instance d&#39;exécution sans avoir à fournir de mot de passe, il suffit de saisir l&#39;adresse IP de l&#39;instance de contrôle dans la section des droits d&#39;accès du Centre **des** messages. Toutefois, les mots de passe vides sont interdits par défaut.
+Pour que l’instance de pilotage puisse se connecter à l’instance d’exécution sans avoir à fournir de mot de passe, il suffit de saisir l’adresse IP de l’instance de pilotage dans la section relative aux droits d’accès de **Message Center**. Toutefois, les mots de passe vides sont interdits par défaut.
 
-Pour utiliser un mot de passe vide, accédez aux instances d’exécution et définissez une zone de sécurité limitée à l’adresse IP du système d’informations qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions `<identifier> / <password>` de type. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+Pour utiliser un mot de passe vide, accédez aux instances d’exécution et définissez une zone de sécurité limitée à l’adresse IP du système d’information qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions de type `<identifier> / <password>`. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
 >[!NOTE]
 >
->Lorsque des instances d’exécution sont utilisées par plusieurs instances de contrôle, les données peuvent être divisées par dossier et par opérateur. Pour plus d’informations, reportez-vous à [Utilisation de plusieurs instances](#using-several-control-instances)de contrôle.
+>Lorsque des instances d’exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Pour plus d’informations, reportez-vous à la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
 
 1. Positionnez-vous au niveau du dossier des opérateurs dans l&#39;arborescence de l&#39;instance d&#39;exécution (**[!UICONTROL Administration > Gestion des accès > Opérateurs]** ).
 1. Sélectionnez l&#39;agent **Message Center**.
@@ -120,23 +120,23 @@ Pour utiliser un mot de passe vide, accédez aux instances d’exécution et dé
 
 Vous pouvez mutualiser un cluster d&#39;exécution entre différentes instances de pilotage. Ce type d&#39;architecture requiert le paramétrage suivant.
 
-Par exemple, si votre entreprise gère deux marques, chacune avec sa propre instance de contrôle : **Contrôle 1** et **Contrôle 2**. Deux instances d’exécution sont également utilisées. Vous devez entrer un opérateur de Centre de messages différent pour chaque instance de contrôle : un opérateur **mc1** pour l’instance **Control 1** et un opérateur **mc2** pour l’instance **Control 2.**
+Par exemple, si votre entreprise gère deux marques, chacune possède sa propre instance de pilotage : **Pilotage 1** et **Pilotage 2**. Deux instances d’exécution sont également utilisées. Vous devez indiquer un opérateur Message Center différent pour chaque instance de pilotage : un opérateur **mc1** pour l’instance **Pilotage 1** et un opérateur **mc2** pour l’instance **Pilotage 2**.
 
-Dans l’arborescence de toutes les instances d’exécution, créez un dossier par opérateur (**Dossier 1** et **Dossier 2**) et limitez l’accès aux données de chaque opérateur à leur dossier.
+Dans l’arborescence de toutes les instances d’exécution, créez un dossier par opérateur (**Dossier 1** et **Dossier 2**) et limitez à leur dossier l’accès aux données de chaque opérateur.
 
 ### Paramétrage des instances de pilotage {#configuring-control-instances}
 
-1. Dans l’instance de contrôle **Control 1** , créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc1** dans chaque compte externe. L’opérateur **mc1** sera ensuite créé sur toutes les instances d’exécution (voir [Configuration des instances](#configuring-execution-instances)d’exécution).
+1. Dans l’instance de pilotage **Pilotage 1**, créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc1** dans chaque compte externe. L’opérateur **mc1** sera ensuite créé pour toutes les instances d’exécution (voir la section [Paramétrage des instances d’exécution](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_1.png)
 
-1. Dans l’instance de contrôle **Control 2** , créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc2** dans chaque compte externe. L’opérateur **mc2** sera ensuite créé sur toutes les instances d’exécution (voir [Configuration des instances](#configuring-execution-instances)d’exécution).
+1. Dans l’instance de pilotage **Pilotage 2**, créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc2** dans chaque compte externe. L’opérateur **mc2** sera ensuite créé pour toutes les instances d’exécution (voir la section [Paramétrage des instances d’exécution](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_2.png)
 
    >[!NOTE]
    >
-   >For more on configuring a control instance, refer to [Control instance](#control-instance).
+   >Pour plus d’informations sur le paramétrage d’une instance de pilotage, consultez la section.[Instance de pilotage](#control-instance)
 
 ### Paramétrage des instances d&#39;exécution {#configuring-execution-instances}
 
