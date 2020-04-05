@@ -192,7 +192,7 @@ De plus, certains composants doivent être accessibles depuis l&#39;Internet pub
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
-   <td> N'importe où. Each click on a tracked link generates a HTTP request on the server.<br /> </td> 
+   <td> N'importe où. Chaque clic sur un lien tracké génère une requête HTTP sur ce serveur.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,7 +209,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
-   <td> N'importe où. Necessary when Web forms are managed directly from the Adobe Campaign platform or when mirror pages are used.<br /> </td> 
+   <td> N'importe où. Nécessaire quand les formulaires Web sont directement gérés par la plateforme Adobe Campaign, ou lorsque les pages miroir sont utilisées.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
