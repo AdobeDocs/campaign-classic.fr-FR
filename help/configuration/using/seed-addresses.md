@@ -49,7 +49,7 @@ Définition du schéma étendu de la table des destinataires :
 
 Les étapes sont les suivantes :
 
-1. Créez une extension du schéma **nms:seedMember** . Pour plus d’informations, reportez-vous à la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
+1. Créez une extension du schéma **nms:seedMember**. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
 1. Dans cette extension, ajoutez un nouvel élément à la racine de l&#39;élément **[!UICONTROL seedMember]**, avec les paramètres suivants :
 
    ```
@@ -84,10 +84,10 @@ Les étapes sont les suivantes :
    >    
    >    * Lors de l&#39;extension, vous devez obligatoirement préciser **un nom SQL (@sqlname)** pour le champ &#39;email&#39;. Le nom SQL doit être différent de &#39;sEmail&#39; qui est réservé pour le schéma des destinataires.
    >    * Vous devez impérativement mettre à jour la structure de la base avec le schéma créé lors de l&#39;extension de **nms:seedMember**.
-   >    * In the **nms:seedMember** extension, the field containing the email address must have **name=&quot;email&quot;** as an attribute. The SQL name must be different from &#39;sEmail&#39; which is already used for the recipient schema. This attribute must be immediately declared under the **`<element name="custom_cus_person" />`** element.
+   >    * Dans l’extension **nms:seedMember**, le champ contenant l&#39;adresse email doit avoir comme attribut **name=&quot;email&quot;**. Le nom SQL doit être différent de &#39;sEmail&#39; qui est déjà utilisé pour le schéma des destinataires. Cet attribut doit être immédiatement déclaré sous l’élément **`<element name="custom_cus_person" />`**.
 
 
-1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet &quot;Destinataire interne&quot; dans la fenêtre des adresses **[!UICONTROL de]** démarrage. For more on this, refer to [Form structure](../../configuration/using/form-structure.md).
+1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Voir à ce sujet la section [Structure d’un formulaire](../../configuration/using/form-structure.md).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"
