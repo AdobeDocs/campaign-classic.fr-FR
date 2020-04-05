@@ -74,7 +74,7 @@ L&#39;export d&#39;une audience depuis Adobe Campaign vers People core service 
 
    Terminez l&#39;opération en cliquant sur la coche de validation située en haut à droite de la fenêtre, puis sur le bouton **[!UICONTROL Ok]**.
 
-1. Sélectionnez la source de données AMC **[!UICONTROL AMC Datasource]** afin de définir le type de données attendu. Le schéma est automatiquement déduit.
+1. Sélectionnez la source de données **[!UICONTROL AMC Datasource]** afin de définir le type de données attendu. Le schéma est automatiquement déduit.
 
    ![](assets/aam_export_audience_activity.png)
 
