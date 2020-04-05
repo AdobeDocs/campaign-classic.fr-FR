@@ -36,5 +36,5 @@ Dans le cas d&#39;un contact entrant (centre d&#39;appel ou site web), les offre
 
    ![](assets/s_ncs_configuration_offer_context.png)
 
-* When configuring SOAP calls, insert the **context** XML element to reference context information added in the interaction schema. Pour plus d’informations, voir [Intégration via SOAP (côté serveur)](../../interaction/using/integration-via-soap--server-side-.md).
+* Lors du paramétrage des appels SOAP, insérez l&#39;élément XML **context** pour référencer les informations contextuelles ajoutées dans le schéma d&#39;interaction. Pour plus d&#39;informations, voir la section [Intégration via SOAP (côté serveur)](../../interaction/using/integration-via-soap--server-side-.md).
 
