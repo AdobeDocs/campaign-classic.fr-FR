@@ -53,7 +53,7 @@ Les données collectées doivent être insérées dans le nœud des données d&#
 >
 >Le paramètre **xmlInteraction** contient à la fois les données d&#39;appel et le profil du contact qui a été chargé par la requête d&#39;usine.
 
-**Exemple :**
+**Exemple:**
 
 ```
 // Call an external system to get additional data for the target
@@ -98,7 +98,7 @@ Le post-traitement est exécuté après l&#39;application des règles de typolog
 * liste des propositions modifiée (premier paramètre du point d&#39;extension)
 * noeud Interaction modifié
 
-**Exemple :**
+**Exemple:**
 
 ```
 var aReturnedProps = [];
@@ -147,7 +147,7 @@ Un tableau des propositions à générer est retourné. Chaque élément de ce 
 >
 >Le système vérifie que l&#39;identifiant de l&#39;offre est le même en entrée et en sortie.
 
-**Exemple :**
+**Exemple:**
 
 ```
 var product = getUrl("https://EXTERNAL_SYSTEM?offerCode=" + encodeURIComponent(xmlOffer.@code));
