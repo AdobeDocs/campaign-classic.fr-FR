@@ -147,7 +147,7 @@ Vous allez à présent créer deux modèles de diffusions. Chaque modèle sera r
 
 ## Etape 4 : paramétrer les diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
-L’étape suivante consiste à configurer les remises. Ils sont destinés aux trois populations créées au cours de l&#39;étape précédente : [Étape 2 : Configuration des échantillons](#step-2--configuring-population-samples)de population. Les deux premières livraisons vous permettent d&#39;envoyer des contenus différents à la population A et B. La troisième livraison est destinée à la population qui n&#39;a reçu ni A ni B. Son contenu sera calculé par un script et sera identique à A ou B, selon lequel l’un des résultats a obtenu le taux d’ouverture le plus élevé. Nous devons configurer une période d&#39;attente pour la troisième livraison, pour connaître le résultat des livraisons A et B. C’est pourquoi la troisième diffusion comprend une activité **[!UICONTROL d’attente]** .
+L’étape suivante consiste à configurer les diffusions. Elles sont destinées aux trois populations créées au cours de l&#39;étape précédente : [Etape 2 : paramétrer les échantillons de population](#step-2--configuring-population-samples). Les deux premières diffusions vous permettent d&#39;envoyer des contenus différents à la population A et B. La troisième diffusion est destinée à la population qui n&#39;a reçu ni A ni B. Son contenu sera calculé par un script et sera identique à A ou B, selon celle qui a obtenu le taux d’ouverture le plus élevé. Il est nécessaire de configurer une période d&#39;attente pour la troisième diffusion, afin de connaître le résultat des diffusions A et B. C’est pourquoi la troisième diffusion comprend une activité **[!UICONTROL Attente]**.
 
 1. Depuis l&#39;activité **[!UICONTROL Partage]**, rattachez la transition destinée à la population A à l&#39;une des diffusions e-mail déjà présentes dans le workflow.
 
@@ -188,7 +188,7 @@ Le choix du contenu de la diffusion destinée à la population restante est calc
 
 ### Exemple de script {#example-of-a-script}
 
-Le script suivant peut être utilisé tel quel dans le flux de travaux de ciblage. For more on this, refer to [Implementation](#implementation).
+Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Voir à ce sujet la section [Mise en œuvre](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -234,12 +234,12 @@ Le script suivant peut être utilisé tel quel dans le flux de travaux de ciblag
    vars.deliveryId = delivery.id
 ```
 
-Pour une explication détaillée du script, reportez-vous aux [détails du script](#details-of-the-script).
+Pour une explication détaillée du script, voir [Détails du script](#details-of-the-script).
 
 ### Mise en oeuvre {#implementation}
 
 1. Ouvrez votre activité **[!UICONTROL Code JavaScript]**,
-1. Copiez le script proposé dans [Exemple de script](#example-of-a-script) dans la fenêtre de code **** JavaScript.
+1. Copiez le script proposé dans [Exemple de script](#example-of-a-script) dans la fenêtre **[!UICONTROL Code JavaScript]**.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
@@ -258,7 +258,7 @@ Pour une explication détaillée du script, reportez-vous aux [détails du scrip
 
 Cette section détaille les différentes parties du script et leur fonctionnement.
 
-* La première partie du script est une requête. The **queryDef** command lets you recover from the **NmsDelivery** table the deliveries created by executing the targeting workflow and to sort them based on their estimated rate of opens, then the information from the delivery with the highest rate of opens is recovered.
+* La première partie du script est une requête. La commande **queryDef** vous permet de récupérer à partir de la table **NmsDelivery** les diffusions créées par l&#39;exécution du workflow de ciblage et de les classer selon l&#39;estimation du taux d&#39;ouverture, puis les informations de la diffusion qui a eu le meilleur taux d&#39;ouverture sont également récupérées.
 
    ```
    // query the database to find the winner (best open rate)
@@ -329,13 +329,13 @@ Cette section détaille les différentes parties du script et leur fonctionnemen
 
 L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une diffusion en fonction du taux d&#39;ouverture des emails. Vous pouvez l&#39;adapter pour vous baser sur d&#39;autres indicateurs propres aux diffusions :
 
-* Best click throughput: `[indicators/@recipientClickRatio]`,
-* Highest reactivity rate (email open and clicks in the message): `[indicators/@reactivity]`,
-* Lowest complaint rate: `[indicators/@refusedRatio]` (use the false value for the sortDesc attribute),
-* Highest conversion rate: `[indicators/@transactionRatio]`,
-* Number of pages visited following the reception of a message: `[indicators/@totalWebPage]`,
-* Lowest unsubscription rate: `[indicators/@optOutRatio]`,
-* Transaction amount: `[indicators/@amount]`.
+* Meilleur taux de clic publicitaire :`[indicators/@recipientClickRatio]`,
+* Meilleure réactivité (email ouvert et clics dans le message) : `[indicators/@reactivity]`,
+* Taux de plainte le plus bas : `[indicators/@refusedRatio]` (mettre la valeur « false » pour l’attribut sortDesc),
+* Meilleur taux de conversion : `[indicators/@transactionRatio]`;
+* Nombre de pages web visitées suite à la réception d&#39;un message : `[indicators/@totalWebPage]`,
+* Taux de désinscription le plus bas : `[indicators/@optOutRatio]`,
+* Montant des transactions : `[indicators/@amount]`.
 
 ## Etape 6 : définir la diffusion finale {#step-6--defining-the-final-delivery}
 
