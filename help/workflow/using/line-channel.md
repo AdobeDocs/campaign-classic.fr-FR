@@ -43,7 +43,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Migration du MID vers l’identifiant utilisateur Line</span> <br /> </td> 
-   <td> <span class="uicontrol">MIDToUserIDMigration</span><br /> </td> 
+   <td> <span class="uicontrol">MIDToUserIDMigration</span> <br /> </td> 
    <td> Ce workflow génère les ID des utilisateurs LINE V2 pour la migration de LINE V1 vers LINE V2.<br /> </td> 
   </tr> 
  </tbody> 
