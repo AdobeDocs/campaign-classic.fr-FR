@@ -61,7 +61,7 @@ Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à ê
 * Les rapports ne doivent pas utiliser de formatage spécifique défini au niveau des cellules. Il est préférable d&#39;utiliser le **[!UICONTROL Rendu des formulaires]** pour définir le format des cellules du tableau. Le **[!UICONTROL Rendu des formulaires]** est accessible depuis **[!UICONTROL Administration > Paramétrage > Rendu des formulaires]**.
 * Il est recommandé de ne pas insérer de contenu HTML.
 * Lorsqu&#39;un rapport contient plusieurs éléments de type tableaux, graphiques, etc., ils seront exportés les uns en-dessous des autres.
-* Vous pouvez forcer le retour chariot dans les cellules : cette configuration sera conservée dans Excel. Pour plus d’informations, reportez-vous à ce document [Définition du format](../../reporting/using/creating-a-table.md#defining-cell-format)de cellule.
+* Vous pouvez forcer le retour à la ligne dans les cellules : cette configuration sera conservée dans Excel. Voir à ce sujet la section [Définir le format des cellules](../../reporting/using/creating-a-table.md#defining-cell-format).
 
 ### Retarder l&#39;export {#postpone-the-export}
 
