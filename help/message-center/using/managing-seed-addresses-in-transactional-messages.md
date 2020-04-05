@@ -42,7 +42,7 @@ Une adresse de contrôle est utilisée pour afficher l&#39;aperçu de votre mess
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
-1. Insérez des données de test (voir Données [de](../../message-center/using/personalization-data.md)personnalisation).
+1. Insérez des données de test (voir [Données de personnalisation](../../message-center/using/personalization-data.md)).
 
    ![](assets/messagecenter_create_custo_001.png)
 
@@ -52,9 +52,9 @@ Une adresse de contrôle est utilisée pour afficher l&#39;aperçu de votre mess
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.
+1. Suivez les étapes de paramétrage d’une adresse de contrôle décrites dans la section [Créer une adresse de contrôle](#creating-a-seed-address).
 1. Répétez l&#39;opération pour créer le nombre d&#39;adresses voulu.
 
    ![](assets/messagecenter_create_seedaddr_008.png)
 
-Une fois les adresses créées, vous pouvez afficher leur aperçu et leur personnalisation. Reportez-vous à la section Aperçu [des messages](../../message-center/using/transactional-message-preview.md)transactionnels.
+Lorsque les adresses sont créées, vous pouvez dès lors afficher l&#39;aperçu de votre message et sa personnalisation. Voir [Aperçu du message transactionnel](../../message-center/using/transactional-message-preview.md).
