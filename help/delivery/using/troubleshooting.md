@@ -37,4 +37,4 @@ Connecteur HTTP/2 : vous devez autoriser les communications à destination et e
 
 >[!NOTE]
 >
->Pour plus d’informations sur les deux connecteurs, voir [Configuration de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+>For more information on the two connectors, refer to [Configuring the mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
