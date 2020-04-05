@@ -28,7 +28,7 @@ La création et le paramétrage des schémas de données dans Adobe Campaign son
 
 ## Structure d&#39;un schéma {#schema-structure}
 
-The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
+Le document XML d&#39;un schéma de données doit contenir l&#39;élément racine **`<srcschema>`** avec les attributs **name** et **namespace** pour renseigner respectivement le nom du schéma et son espace de nommage.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -56,7 +56,7 @@ Ces propriétés sont décrites dans le schéma **ncm:content**.
 >
 >Lors de la création ou de l’extension d’un schéma, vous devez conserver la valeur de la séquence de la clé primaire (@pkSequence) pour l’ensemble du schéma.
 
-## Types de données {#data-types}
+## Types des données {#data-types}
 
 Exemple de schéma de gestion de contenu complété avec les types :
 
@@ -78,7 +78,7 @@ Exemple de schéma de gestion de contenu complété avec les types :
 
 ## Propriétés {#properties}
 
-Various properties can be used to enrich the **`<element>`** and **`<attribute>`** elements of the data schema.
+Différentes propriétés permettent d&#39;enrichir les éléments **`<element>`** et **`<attribute>`** du schéma de données.
 
 Les principales propriétés utilisées dans la gestion de contenu sont les suivantes :
 
@@ -115,7 +115,7 @@ Notre schéma d&#39;exemple complété avec les propriétés :
 
 Une collection est une liste d&#39;éléments de même nom et de même niveau hiérarchique.
 
-Dans notre exemple, les éléments **`<chapter>`** et **`<page>`** sont des éléments de collection. L&#39;attribut **unbound** doit donc être ajouté à la définition de ces éléments:
+Dans notre exemple, les éléments **`<chapter>`** et **`<page>`** sont des éléments de collection. L&#39;attribut **unbound** doit donc être ajouté à la définition de ces éléments :
 
 ```
 <element name="chapter" label="Chapter" unbound="true" ordered="true">
@@ -131,11 +131,11 @@ Dans notre exemple, les éléments **`<chapter>`** et **`<page>`** sont des él�
 
 ## Référencement d&#39;éléments {#element-referencing}
 
-Le référencement des éléments est largement utilisé dans les schémas de contenu. Il vous permet de personnaliser la définition d’un **`<element>`** élément afin qu’il puisse être référencé sur d’autres éléments de la même structure.
+Le référencement d’éléments est largement utilisé dans les schémas de contenu. Il vous permet de personnaliser la définition d’un **`<element>`** élément afin qu’il puisse être référencé sur d’autres éléments de la même structure.
 
 L&#39;attribut **ref** sur l&#39;élément à référencer doit être renseigné avec le chemin (XPath) de l&#39;élément de référence.
 
-**Exemple**: ajout d&#39;une section **Annexe** avec la même structure que l&#39; **`<chapter>`** élément de notre schéma d&#39;exemple.
+**Exemple** : ajout d’une section **Annexe** ayant la même structure que l&#39;élément **`<chapter>`** de notre schéma d’exemple.
 
 ```
 <srcSchema name="book" namespace="cus">
