@@ -39,7 +39,7 @@ Pour utiliser la substitution aléatoire des champs vous devez disposer :
 
 ## Création d&#39;une diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création d’une remise sont détaillées dans la section [Création d’une remise](../../delivery/using/creating-an-email-delivery.md) par courrier électronique.
+Les étapes de création d’une diffusion sont présentées dans la section [Créer une diffusion email](../../delivery/using/creating-an-email-delivery.md).
 
 Dans cet exemple, l&#39;utilisateur en charge des diffusions a créé sa newsletter :
 
@@ -58,7 +58,7 @@ Dans cet exemple, le schéma de données des adresses de contrôle reprend une v
 
 Cette énumération permet à l&#39;utilisateur de spécifier le genre littéraire préféré de ses clients.
 
-For this data schema modification to be viewable in the seed addresses **Input form**, you must update it. Reportez-vous à la section [Mise à jour du formulaire](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) d’entrée.
+Pour que cette modification du schéma de données soit visible dans le **Formulaire de saisie** des adresses de contrôle, il faut mettre à jour ce dernier. Voir la section [Mettre à jour le formulaire de saisie](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
 
 ## Configurer la personnalisation {#configuring-personalization}
 
@@ -68,7 +68,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configurez votre liste de distribution et vos adresses de départ. Reportez-vous à [Identification des populations](../../delivery/using/steps-defining-the-target-population.md)cibles.
+1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Voir la section [Identification des populations cibles](../../delivery/using/steps-defining-the-target-population.md).
 
    Dans cet exemple, l&#39;utilisateur choisit comme cible principale les clients dont le **genre littéraire préféré** est la Science-Fiction.
 
@@ -80,7 +80,7 @@ For this data schema modification to be viewable in the seed addresses **Input f
 
    >[!NOTE]
    >
-   >**[!UICONTROL Pour plus d&#39;informations sur la]** modification de la condition dynamique... , reportez-vous à la [page Cas d’utilisation : sélection des adresses de départ sur des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
+   >Pour plus d’informations sur le lien **[!UICONTROL Editer la condition dynamique...]**, voir la section [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** puis sélectionnez une adresse de contrôle pour tester la personnalisation.
 
