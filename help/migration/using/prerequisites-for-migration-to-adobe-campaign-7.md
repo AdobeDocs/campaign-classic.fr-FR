@@ -1,7 +1,7 @@
 ---
-title: Conditions préalables à la migration vers Adobe Campaign 7
-seo-title: Conditions préalables à la migration vers Adobe Campaign 7
-description: Conditions préalables à la migration vers Adobe Campaign 7
+title: Prérequis relatifs à la migration vers Adobe Campaign 7
+seo-title: Prérequis relatifs à la migration vers Adobe Campaign 7
+description: Prérequis relatifs à la migration vers Adobe Campaign 7
 seo-description: null
 page-status-flag: never-activated
 uuid: 9f4e4cdf-5338-4597-9d9d-5a3bd13033c7
@@ -20,9 +20,9 @@ source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
 ---
 
 
-# Conditions préalables à la migration vers Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
+# Prérequis relatifs à la migration vers Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 
-Avant d’exécuter une migration, consultez les sections [Avant de commencer la migration](../../migration/using/before-starting-migration.md) et [Configuration de votre plateforme](../../migration/using/configuring-your-platform.md) .
+Avant d&#39;effectuer une migration, consultez les sections [Avant de commencer la migration](../../migration/using/before-starting-migration.md) et [Configurer votre plateforme](../../migration/using/configuring-your-platform.md).
 
 Lors de la migration de la v6.02 vers Adobe Campaign v7, certains fichiers auparavant diffusés ne le sont plus.
 
