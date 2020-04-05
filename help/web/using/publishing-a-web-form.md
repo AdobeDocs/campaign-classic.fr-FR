@@ -32,7 +32,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
    Cette méthode de cryptage utilise l&#39;identifiant (ID) crypté par Adobe Campaign. Cette méthode n&#39;est applicable que sur un objet Adobe Campaign et l&#39;identifiant crypté ne peut être généré que par la plateforme Adobe Campaign.
 
-   When using this method, you need to adapt the URL of the form to deliver to the email address by adding the **`<%=escapeUrl(recipient.cryptedId) %>`** parameter. Pour plus d’informations, reportez-vous à la section [Diffusion d’un formulaire par courrier électronique](#delivering-a-form-via-email).
+   Lorsque vous utilisez cette méthode, vous devez adapter l&#39;URL du formulaire lorsque vous diffusez l&#39;adresse par email en y ajoutant le paramètre **`<%=escapeUrl(recipient.cryptedId) %>`**. Voir à ce sujet la section [Diffuser un formulaire par email](#delivering-a-form-via-email).
 
 * **[!UICONTROL Cryptage DES]**
 
@@ -46,7 +46,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
    ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   Les champs peuvent être ajoutés aux propriétés du formulaire via l’onglet **[!UICONTROL Paramètres]** (voir [Ajout de paramètres](../../web/using/defining-web-forms-properties.md#adding-parameters)). Ils sont placés dans l’URL du formulaire ou dans les zones d’entrée.
+   Les champs peuvent être ajoutés aux propriétés du formulaire via l’onglet **[!UICONTROL Paramètres]** (voir [Ajouter des paramètres](../../web/using/defining-web-forms-properties.md#adding-parameters)). Ils sont placés dans l’URL du formulaire ou dans les zones d’entrée.
 
    >[!CAUTION]
    >
@@ -88,7 +88,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **Formulaire en édition**
 
-   This is the initial design phase. When a new form is created, it is in the editing phase. Access to the form, for testing purposes only, then requires the parameter **[!UICONTROL __uuid]** to be used in its URL. This URL is accessible in the **[!UICONTROL Preview]** sub-tab. Voir Paramètres [d’URL de](../../web/using/defining-web-forms-properties.md#form-url-parameters)formulaire.
+   C&#39;est la phase de conception initiale : lorsqu&#39;un nouveau formulaire est créé, il est en état d&#39;édition. L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
    >[!CAUTION]
    >
@@ -96,7 +96,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **Formulaire en ligne**
 
-   Une fois la phase de conception terminée, le formulaire peut être remis. Tout d&#39;abord, il doit être publié. Pour plus d’informations, reportez-vous à la section [Publication d’un formulaire](#publishing-a-form).
+   Une fois la phase de conception terminée, le formulaire peut être remis. Tout d&#39;abord, il doit être publié. Voir à ce sujet la section [Publier un formulaire](#publishing-a-form).
 
    Le formulaire est alors **[!UICONTROL En ligne]**, jusqu&#39;à ce que sa date de clôture soit atteinte.
 
@@ -108,7 +108,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
    Une fois la date de clôture du formulaire atteinte, la phase de diffusion est terminée et le formulaire est indisponible : il n&#39;est plus accessible aux utilisateurs.
 
-   La date d’expiration peut être définie dans la fenêtre des propriétés du formulaire. Pour plus d’informations à ce sujet, voir [Mise à disposition d’un formulaire en ligne](#making-a-form-available-online)
+   La date d’expiration peut être définie dans la fenêtre des propriétés du formulaire. Voir à ce sujet la section [Mettre un formulaire à disposition](#making-a-form-available-online).
 
 L&#39;état de publication d&#39;un formulaire est affiché dans la liste des formulaires.
 
@@ -130,7 +130,7 @@ Pour être accessible par les utilisateurs, le formulaire doit être en producti
 
 * Cliquez sur le lien **[!UICONTROL Personnaliser le message affiché si le formulaire est fermé]** pour définir le message d&#39;erreur à afficher si l&#39;utilisateur tente d&#39;accéder au formulaire en dehors de sa période de validité.
 
-   See [Accessibility of the form](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form).
+   Voir [Accessibilité du fomulaire](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form).
 
 ### Diffuser un formulaire par email {#delivering-a-form-via-email}
 
@@ -140,9 +140,9 @@ Lorsque vous diffusez une invitation par email, vous pouvez utiliser l&#39;optio
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
-Dans ce cas, la clé de rapprochement pour le stockage des données doit être l’identifiant chiffré du destinataire. Pour plus d’informations, reportez-vous à la section [Préchargement des données](#pre-loading-the-form-data)de formulaire.
+Dans ce cas, la clé de réconciliation pour le stockage des données doit être l’identifiant chiffré du destinataire. Voir à ce sujet la section [Précharger les données du formulaire](#pre-loading-the-form-data).
 
-Dans ce cas, vous devez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement]** préchargé dans la zone d’enregistrement. Pour plus d&#39;informations, reportez-vous à la section [Enregistrement des réponses](../../web/using/web-forms-answers.md#saving-web-forms-answers)aux formulaires Web.
+Dans ce cas, vous devez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement préchargé]** dans la zone d’enregistrement. Voir à ce sujet la section [Enregistrer les réponses aux formulaires web](../../web/using/web-forms-answers.md#saving-web-forms-answers).
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
