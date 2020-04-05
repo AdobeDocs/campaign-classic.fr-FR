@@ -200,7 +200,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
   </tr> 
   <tr> 
    <td> Acquisitions des fans (socialAcquisitionsByWebapp)<br /> </td> 
-   <td> Quelles sont les applications web à l'origine des acquisitions de prospects ? Dépend du module complémentaire de marketing social.<br /> </td> 
+   <td> Quelles sont les applications web à l'origine des acquisitions de prospects ? Dépend du composant additionnel Social Marketing.<br /> </td> 
   </tr> 
   <tr> 
    <td> Répartition des abonnements (mobileAppDistribution)<br /> </td> 
@@ -212,7 +212,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez les guide
   </tr> 
   <tr> 
    <td> Taux de réactivité (socialReactionRate)<br /> </td> 
-   <td> Quels sont les taux de réactivité obtenus par les dernières diffusions ? Dépend du module complémentaire de marketing social.<br /> </td> 
+   <td> Quels sont les taux de réactivité obtenus par les dernières diffusions ? Dépend du composant additionnel Social Marketing.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de réactivité (mobileAppReactivityRate)<br /> </td> 
@@ -246,7 +246,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   </tr> 
   <tr> 
    <td> Evolution cumulée du budget (budgetCumulativeEvolution)<br /> </td> 
-   <td> Evolution of the cumulated budget costs broken down by commi<br /> tment level. </td> 
+   <td> Evolution des coûts cumulés du budget, répartis par niveau d'engagement<br />. </td> 
    <td> nms:budget<br /> </td> 
   </tr> 
   <tr> 
