@@ -36,21 +36,21 @@ Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivan
 
 1. Définition du budget
 
-   For more on this, refer to [Creating a budget](#creating-a-budget).
+   Voir à ce sujet la section [Créer un budget](#creating-a-budget).
 
 1. Définition du mode de calcul des coûts
 
-   Les structures de coûts sont définies pour les fournisseurs de services. See [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   Les structures de coûts sont définies au niveau des prestataires. Voir la section [Création d&#39;un prestataire et de ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories). 
 
 1. Définition des coûts des opérations (diffusions/tâches)
 
-   Les coûts engagés par les livraisons et les tâches sont entrés individuellement ou globalement pour le modèle de campagne. See [Calculation of costs and stocks](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks).
+   Les coûts engendrés par les diffusions et les tâches sont renseignés unitairement ou globalement au niveau du modèle de l&#39;opération. Voir la section [Calcul des coûts et des stocks](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks). 
 
 1. Consolidation
 
    En fonction du statut de réalisation des tâches, diffusions et opérations, les coûts seront calculés et répercutés au niveau du budget correspondant.
 
-   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]**. The calculated cost of the program is then entered automatically with the costs calculated on the campaign. See [Cost commitment, calculation and charging](#cost-commitment--calculation-and-charging).
+   Lorsque la création de l&#39;opération est suffisamment avancée, le statut de réalisation du budget de l&#39;opération peut être modifié en **[!UICONTROL Renseigné]**. Le coût calculé du programme est alors automatiquement renseigné avec les coûts calculés sur les opérations. Voir la section [Engagement, calcul et imputation des coûts](#cost-commitment--calculation-and-charging). 
 
 ## Créer un budget {#creating-a-budget}
 
@@ -62,7 +62,7 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 
 * Saisir le montant initial
 
-   Indiquez le montant alloué dans le champ correspondant. Les autres montants sont entrés automatiquement. Voir [Calcul des montants](#calculating-amounts).
+   Indiquez le montant alloué dans le champ correspondant. Les autres montants sont renseignés automatiquement. Voir la section [Calcul des montants](#calculating-amounts).
 
 * Définir la période de validité
 
@@ -70,7 +70,7 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 
 * Dépenses
 
-   Créez les catégories de dépenses auxquelles les coûts affectés à ce budget pour les campagnes, les tâches, etc. peuvent être liés. Voir Catégories [de](#expense-categories)dépenses.
+   Créez les catégories de dépenses auxquelles pourront être rattachés les coûts affectés à ce budget au niveau des opérations, diffusions, tâches, etc. Voir la section [Catégories de dépenses](#expense-categories).
 
    ![](assets/s_ncs_user_budget_create_and_save.png)
 
@@ -78,7 +78,7 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 >
 >Vous pouvez sélectionner un budget de rattachement.
 >
->Pour plus d&#39;informations sur ce sujet, consultez la section [Liaison d&#39;un budget à un autre](#linking-a-budget-to-another).
+>Voir à ce sujet la section [Rattacher un budget à un autre](#linking-a-budget-to-another).
 
 ### Calcul des montants {#calculating-amounts}
 
@@ -175,7 +175,7 @@ En fonction des postes de coûts sélectionnés, les structures de coûts corres
 
 >[!NOTE]
 >
->Les catégories et structures de coûts sont présentées dans [Création d&#39;un fournisseur de services et dans ses catégories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)de coûts.
+>Les postes et les structures de coûts sont présentés dans la section [Création d&#39;un prestataire et de ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 ## Engagement, calcul et imputation des coûts {#cost-commitment--calculation-and-charging}
 
@@ -217,7 +217,7 @@ Les coûts sont répartis en 3 catégories :
 
 Les coûts sont calculés via les structures de coûts et imputés aux budgets sélectionnés au niveau des opérations, des diffusions ou des tâches concernées.
 
-Une vérification peut être effectuée sur les montants engagés dans les campagnes via l&#39;approbation du budget. D’autres tâches de type point de contrôle peuvent être créées dans une campagne afin de configurer d’autres approbations. Voir [Types de tâche](../../campaign/using/creating-and-managing-tasks.md#types-of-task).
+Un contrôle peut être effectué sur les sommes engagées dans les opérations via la validation du budget. Des tâches supplémentaires de type Point de contrôle peuvent être créées dans une opération afin de mettre en place d&#39;autres validations. Voir la section [Types de tâches](../../campaign/using/creating-and-managing-tasks.md#types-of-task).
 
 ### Exemple {#example}
 
@@ -239,7 +239,7 @@ Définissez une enveloppe budgétaire de 20 000 euros dans le champ **[!UICONTRO
 
 Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du noeud **[!UICONTROL Administration > Campagnes]**.
 
-Pour plus d’informations, reportez-vous à la section [Création d’un fournisseur de services et de ses catégories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)de coûts.
+Pour plus d&#39;informations, reportez-vous à la section [Création d&#39;un prestataire et de ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 * Pour les diffusions courrier, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Puis créez les structures de coûts suivantes :
 
@@ -309,7 +309,7 @@ Lorsque vous éditez le coût calculé, vous pouvez vérifier la ventilation des
 
 #### Etape 5 - Créer les tâches {#step-5---creating-tasks}
 
-Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les structures de coûts ont été créées précédemment (voir [Étape 2 - Configuration du fournisseur de services et définition des structures](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)de coûts). Pour ce faire, dans le tableau de bord de la campagne, cliquez sur le bouton **[!UICONTROL Ajouter une tâche]** . Nommez la tâche et cliquez sur **[!UICONTROL Enregistrer]**.
+Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les structures de coûts ont été créées précédemment (voir [Etape 2 - Configurer le prestataire et définir les structures de coûts](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Pour ce faire, dans le tableau de bord de la campagne, cliquez sur le bouton **[!UICONTROL Ajouter une tâche]**. Nommez la tâche et cliquez sur **[!UICONTROL Enregistrer]**.
 
 La tâche est alors ajoutée dans la liste des tâches. Vous devez l&#39;éditer pour la configurer.
 
