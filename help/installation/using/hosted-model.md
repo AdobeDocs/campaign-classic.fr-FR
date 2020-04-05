@@ -24,10 +24,10 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 
 Voici les étapes d’installation et de configuration qui s’appliquent aux modèles hébergés :
 
-* Configuring tracking and mirror page URLs per brand. For transactional messages, refer to this [section](../../message-center/using/configuring-multibranding.md).
+* Configuration des URL de tracking et page miroir par marque. Pour les messages transactionnels, voir [cette section](../../message-center/using/configuring-multibranding.md).
 * Installation de la console cliente : consultez cette [section](../../installation/using/installing-the-client-console.md).
 * Installation des packages : consultez cette [section](../../installation/using/installing-campaign-standard-packages.md).
-* Pour en savoir plus sur les outils de délivrabilité et les meilleures pratiques, consultez le guide [de](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) prise en main et la documentation [](../../delivery/using/about-deliverability.md)détaillée.
+* Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez cette [section](../../installation/using/configuring-campaign-options.md).
-* Configuration des connecteurs CRM : reportez-vous à cette [section](../../platform/using/crm-connectors.md).
+* Configuration des connecteurs CRM : consultez cette [section](../../platform/using/crm-connectors.md).
 
