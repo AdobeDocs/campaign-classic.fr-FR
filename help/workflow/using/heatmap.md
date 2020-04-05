@@ -24,7 +24,7 @@ source-git-commit: d6a4d56c595f16f454684b1d6afc7d7323c5914c
 
 La Carte thermique des workflows d&#39;Adobe Campaign est une représentation graphique avec code-couleur de tous les workflows en cours d&#39;exécution. Elle est disponible uniquement pour les administrateurs de l’instance.
 
-D’autres méthodes de surveillance des différents processus de campagne sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
 
 ## A propos de la carte thermique des workflows {#about-the-workflow-heatmap}
 
@@ -70,7 +70,7 @@ Ce choix n’est pas définitif, vous pouvez toujours le modifier en cliquant su
 >
 >Seuls les utilisateurs disposant de droits d&#39;administration peuvent accéder à la Carte thermique des workflows Campaign.
 
-1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
+1. Accédez à **[!UICONTROL Suivi]**, puis cliquez sur le lien **[!UICONTROL Carte thermique des workflows]** pour afficher la page **[!UICONTROL Carte thermique des workflows Campaign]**.
 
    ![](assets/wkf_monitoring_path.png)
 
@@ -101,7 +101,7 @@ Ce choix n’est pas définitif, vous pouvez toujours le modifier en cliquant su
 
 1. Vous pouvez également appliquer un filtre selon le **[!UICONTROL Type de workflow]** :
 
-   * **[!UICONTROL Technique]** : seuls les [workflows techniques d&#39;usine](../../workflow/using/building-a-workflow.md#technical-workflows) et les [workflows de Data Management ](../../workflow/using/targeting-data.md#data-management) s&#39;affichent.
+   * **[!UICONTROL Technique]** : seuls les [workflows techniques d&#39;usine](../../workflow/using/building-a-workflow.md#technical-workflows) et les [workflows de Data Management](../../workflow/using/targeting-data.md#data-management) s&#39;affichent.
    * **[!UICONTROL Marketing]** : seuls les workflows associés à une campagne marketing, appelés [workflows de campagne](../../workflow/using/building-a-workflow.md#campaign-workflows), s&#39;affichent.
 
 1. Pour rechercher un workflow spécifique par nom, vous pouvez également utiliser le champ **[!UICONTROL Filtre de nom de workflow]**.
