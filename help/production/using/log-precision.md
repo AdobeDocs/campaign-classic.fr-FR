@@ -86,7 +86,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
-Le mode **Suivi des fichiers** vous permet d’enregistrer les journaux. Dans les exemples ci-dessus, les journaux sont enregistrés dans les fichiers **var/`<instance-name>`/mta_debug.log** et **var/default/web_debug.log** .
+Le mode **Tracefile** permet d’enregistrer les logs. Dans les exemples ci-dessus, les logs sont enregistrés dans les fichiers **var/`<instance-name>`/mta_debug.log** et **var/default/web_debug.log**.
 
 >[!CAUTION]
 Sous Windows, vous ne devez pas ajouter l&#39;option LD_PRELOAD. La commande suivante suffit :\
@@ -98,4 +98,4 @@ Vérifiez que le problème se reproduit, puis relancez le module :
 nlserver restart web -tomcat -noconsole
 ```
 
-All information is available in the file **/usr/local/neolane/nl6/var/default/log/web.log**.
+Toutes les informations sont disponibles dans le fichier **/usr/local/neolane/nl6/var/default/log/web.log**.
