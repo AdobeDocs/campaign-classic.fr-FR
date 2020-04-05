@@ -1,5 +1,5 @@
 ---
-title: À propos de la délivrabilité dans Adobe Campaign Classic
+title: A propos de la délivrabilité dans Adobe Campaign Classic
 description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
@@ -18,13 +18,13 @@ source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 ---
 
 
-# Contrôle du contenu de votre message{#control-message-content}
+# Contrôler le contenu de votre message{#control-message-content}
 
-Pour améliorer le taux de remise des courriers électroniques et veiller à ce que vos courriers électroniques parviennent à vos destinataires, vous devez respecter un certain nombre de règles détaillées ci-dessous.
+Pour augmenter le taux de délivrabilité de vos emails et qu&#39;ils parviennent à vos destinataires, l&#39;email doit suivre un certain nombre de règles.
 
 ## Adresse d&#39;expéditeur {#sender-address}
 
-Certains FAI vérifient la validité de l&#39;adresse d&#39;expéditeur (From) avant d&#39;accepter les messages. Une adresse erronée peut causer un refus de la part du serveur receveur. You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > Deployment wizard...]**) or in the most frequently-used scenarios.
+Certains FAI vérifient la validité de l&#39;adresse d&#39;expéditeur (From) avant d&#39;accepter les messages. Une adresse erronée peut causer un refus de la part du serveur receveur. Il faut s&#39;assurer qu&#39;une adresse correcte est bien renseignée au niveau de l&#39;instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
 
 ## Lien et formulaire de désinscription {#opt-out}
 
