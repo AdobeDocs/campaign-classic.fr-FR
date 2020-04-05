@@ -36,31 +36,31 @@ Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox ren
 >
 >L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. Celles-ci peuvent être vérifiées à l&#39;aide des outils d&#39;Adobe Campaign tels que l&#39;**[!UICONTROL aperçu]** et les [bons à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-## Activation du rendu de la boîte de réception{#activating-inbox-rendering}
+## Activation de l&#39;Inbox rendering{#activating-inbox-rendering}
 
-Pour les clients hébergés et hybrides, le rendu de la boîte de réception est configuré sur votre instance par l’assistance technique et les consultants d’Adobe. Pour plus d’informations, contactez votre gestionnaire de compte Adobe.
+Pour les clients hébergés et hybrides, l&#39;Inbox rendering est configuré pour votre instance par l&#39;assistance technique et les consultants d&#39;Adobe. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
 
-Pour les installations sur site, suivez les étapes ci-dessous pour configurer le rendu de la boîte de réception.
+Pour les installations sur site, suivez la procédure ci-dessous pour configurer l&#39;Inbox rendering.
 
-1. Installez le package de rendu de la **[!UICONTROL boîte de]** réception (IR) **[!UICONTROL via le menu]** Outils **[!UICONTROL >]** Avancé **[!UICONTROL >Importer le package.]** Pour plus d’informations, voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard Campaign Classic.
-1. Configurez un compte externe de type HTTP via le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > Comptes **** externes. For more on this, see [Creating an external account](../../platform/using/external-accounts.md#creating-an-external-account).
-1. Définissez les paramètres du compte externe comme suit :
-   * **[!UICONTROL Étiquette]**: Informations sur le serveur de délivrabilité
-   * **[!UICONTROL Nom]** interne : délivrabilityInstance
-   * **[!UICONTROL Type]**: HTTP
-   * **[!UICONTROL Serveur]**: https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Chiffrement]**: Aucun
+1. Installez le package **[!UICONTROL Inbox rendering (IR)]** via le menu **[!UICONTROL Outils]** >**[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus d&#39;informations, voir la section [Installer des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+1. Configurez un compte externe de type HTTP via le nœud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Voir à ce propos la section [Créer un compte externe](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Définissez les paramètres du compte externe comme suit :
+   * **[!UICONTROL Libellé]** : informations relatives au serveur de délivrabilité
+   * **[!UICONTROL Nom interne]** : deliverabilityInstance
+   * **[!UICONTROL Type]** : HTTP
+   * **[!UICONTROL Serveur]** : https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL Cryptage]** : Aucun
    * Cochez l&#39;option **[!UICONTROL Activé]**.
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. Accédez au noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]** . Recherchez l’option **[!UICONTROL DmRendering_cuid]** et contactez l’assistance technique pour obtenir l’identifiant des rapports de livraison qui doit être copié dans le champ **[!UICONTROL Valeur (texte)]** .
-1. Modifiez le fichier **serverConf.xml** pour autoriser un appel au serveur Litmus. Ajoutez la ligne suivante à la `<urlPermission>` section :
+1. Accédez au nœud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Recherchez l&#39;option **[!UICONTROL DmRendering_cuid]** et contactez l&#39;assistance technique pour obtenir l&#39;identifiant des rapports de diffusion qui doit être copié dans le champ **[!UICONTROL Valeur (texte)]**.
+1. Modifiez le fichier **serverConf.xml** pour autoriser un appel au serveur Litmus. Ajoutez la ligne suivante à la section `<urlPermission>` :
 
    ```
    <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
    ```
 
-1. Rechargez la configuration à l’aide de la commande suivante :
+1. Chargez de nouveau la configuration à l&#39;aide de la commande suivante :
 
    ```
    nlserver config -reload
@@ -68,7 +68,7 @@ Pour les installations sur site, suivez les étapes ci-dessous pour configurer l
 
 >[!NOTE]
 >
->Vous devrez peut-être vous déconnecter de la console et vous reconnecter pour pouvoir utiliser le rendu de la boîte de réception.
+>Vous devrez peut-être vous déconnecter de la console et vous reconnecter pour pouvoir utiliser l&#39;Inbox rendering.
 
 ## A propos des jetons Litmus {#about-litmus-tokens}
 
@@ -92,7 +92,7 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 
 
 
-The number of remaining available tokens is displayed in the **[!UICONTROL General summary]** of the [Inbox rendering report](#inbox-rendering-report).
+Le nombre de jetons disponibles restants est indiqué dans la **[!UICONTROL synthèse générale]** du [Rapport d&#39;inbox rendering](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
