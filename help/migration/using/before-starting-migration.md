@@ -71,7 +71,7 @@ La procédure de migration doit être effectuée sur **tous** les serveurs, dans
 
 ## Mots de passe des opérateurs {#user-passwords}
 
-Dans v7, la connexion de l’opérateur **interne** et **administrateur** doit être sécurisée par un mot de passe. Nous vous recommandons vivement d’affecter des mots de passe à ces comptes et à tous les comptes d’opérateurs **avant la migration**. Si vous n&#39;avez pas spécifié de mot de passe pour **interne**, vous ne pourrez pas vous connecter. Pour attribuer un mot de passe à **interne**, saisissez la commande suivante :
+Dans v7, la connexion de l’opérateur **interne** et **administrateur** doit être sécurisée par un mot de passe. Nous vous recommandons vivement d’affecter des mots de passe à ces comptes et à tous les comptes d’opérateurs **avant la migration**. Si vous n&#39;avez pas spécifié de mot de passe pour la connexion **interne**, vous ne pourrez pas vous connecter. Pour attribuer un mot de passe à la connexion **interne**, saisissez la commande suivante :
 
 ```
 nlserver config -internalpassword
