@@ -20,13 +20,13 @@ source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 ---
 
 
-# Liste des options de Campaign Classic{#configuring-campaign-options}
+# Liste des options de Campaign Classic{#configuring-campaign-options}
 
 Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign.
 
 >[!NOTE]
 >
->La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
+>La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
 
 Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
@@ -134,7 +134,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br /> "Vous recevez ce message parce que vous avez été en contact avec ***** ou une société affiliée. Pour ne plus recevoir de messages de *****".<br /> </td> 
+   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br />« Vous recevez ce message, car vous avez été en contact avec ***** ou une entreprise affiliée. Pour ne plus recevoir de messages de *****. »<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -181,28 +181,28 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> URL du serveur de page miroir (par défaut, elle devrait être identique à NmsTracking_ServerUrl).<br /> Il s'agit de la valeur par défaut des diffusions par email lorsque l'URL n'est pas spécifiée dans la définition de routage.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsPaper_SenderLine1</span><br /> </td> 
+   <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
    <td> Ligne 1 de l'adresse de l'expéditeur.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsPaper_SenderLine3</span><br /> </td> 
+   <td> <span class="uicontrol">NmsPaper_SenderLine3</span> <br /> </td> 
    <td> Ligne 3 de l'adresse de l'expéditeur.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsPaper_SenderLine4</span><br /> </td> 
+   <td> <span class="uicontrol">NmsPaper_SenderLine4</span> <br /> </td> 
    <td> Ligne 4 de l'adresse de l'expéditeur.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsPaper_SenderLine6</span><br /> </td> 
+   <td> <span class="uicontrol">NmsPaper_SenderLine6</span> <br /> </td> 
    <td> Ligne 6 de l'adresse de l'expéditeur.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsPaper_SenderLine7</span><br /> </td> 
+   <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
    <td> Ligne 7 de l'adresse de l'expéditeur.<br /> </td> 
   </tr>
     <tr> 
-   <td> <span class="uicontrol">NmsOperation_DeliveryPreparingWindow</span><br /> </td> 
-   <td><p>Cette option est utilisée par le flux technique <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> lors du comptage du nombre de livraisons en cours.</p>Il vous permet de définir le nombre de jours au-dessus desquels les livraisons avec un statut incohérent seront exclues du nombre de livraisons en cours.</p><p>Par défaut, la valeur est définie sur "7", ce qui signifie que les livraisons incohérentes de plus de 7 jours seront exclues.</p></td> 
+   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
+   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
@@ -274,11 +274,11 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">NcmRessourcesDir</span><br /> </td> 
+   <td> <span class="uicontrol">NcmRessourcesDir</span> <br /> </td> 
    <td> Emplacement des ressources pour la publication dans la console cliente d'Adobe Campaign. Voir <a href="../../delivery/using/formatting.md#image-referencing">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NcmRessourcesDirPreview</span><br /> </td> 
+   <td> <span class="uicontrol">NcmRessourcesDirPreview</span> <br /> </td> 
    <td> Emplacement des ressources pour la prévisualisation dans la console cliente d'Adobe Campaign. Voir <a href="../../delivery/using/formatting.md#image-referencing">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -298,11 +298,11 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Emplacement pour l'affichage des logos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NcmPublishingDir</span><br /> </td> 
+   <td> <span class="uicontrol">ncmPublishingDir</span> <br /> </td> 
    <td> Répertoire utilisé comme racine pour les publications.<br /> Pour plus d’informations sur la génération du contenu HTML et Texte, consultez <a href="../../delivery/using/using-a-content-template.md">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkImageUrl</span><br /> </td> 
+   <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
    <td> Permet de définir le serveur sur lequel les images utilisées dans les diffusions sont stockées pour permettre au navigateur de les obtenir.<br /> Pour les versions de build &lt;= 5098, nous utilisons l’URL des images téléchargées sur l’instance.<br /> Pour les versions de build &gt; 5098, nous utilisons à la place l’URL publique de la diffusion ou l’URL de l’option <span class="uicontrol">XtkFileRes_Public_URL</span>.<br /> </td> 
   </tr> 
   <tr> 
@@ -339,7 +339,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">CrmMarketingActivityWindow</span><br /> </td> 
+   <td> <span class="uicontrol">crmMarketingActivityWindow</span> <br /> </td> 
    <td> Durée en mois au-delà de laquelle l'historique de marketing ignore les informations.<br /> </td> 
   </tr> 
   <tr> 
@@ -348,7 +348,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_LimitConcurrency</span> <br /> </td> 
-   <td> Maximum number of delivery/workflow/hypothesis/simulation jobs that can be processed at a time, started by operationMgt workflow.<br /> </td> 
+   <td> Nombre maximum de traitements de diffusions/workflows/hypothèses/simulations pouvant être exécutés en même temps, démarrés par le workflow operationMgt.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
@@ -392,11 +392,11 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">XtkAcceptOldPasswords</span><br /> </td> 
+   <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
    <td> (Installer le mode de compatibilité :build&gt;6000) Si "1" est entré, cette option active le mode de compatibilité pour les mots de passe stockés. La modification de cette option empêche l'utilisation des anciens mots de passe stockés dans la base de données.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkKey</span><br /> </td> 
+   <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
    <td> Cette clé est utilisée pour chiffrer la plupart des mots de passe dans la base de données (comptes externes, mot de passe LDAP...).<br /> </td> 
   </tr> 
   <tr> 
@@ -420,7 +420,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Si 1 est sélectionné, cette option permet d'utiliser decryptString pour déchiffrer certains mots de passe.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkTraceDeleteLogin</span><br /> </td> 
+   <td> <span class="uicontrol">XtkTraceDeleteLogin</span> <br /> </td> 
    <td> Entrez la valeur "1" pour tracer la suppression des éléments avec les informations de piste de suivi dans le mData, via la modification de son champ "modifié par" avant la suppression de l'enregistrement.<br /> </td> 
   </tr> 
  </tbody> 
@@ -611,11 +611,11 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Options du connecteur Azure SQL Datawarehouse.<br /> </td> 
   </tr>
    <tr> 
-   <td> <span class="uicontrol">WdbcKillSessionPolicy</span><br /> </td> 
-   <td>Vous permet d’affecter le comportement Arrêt inconditionnel sur tous les processus et requêtes de base de données PostgreSQL selon les valeurs potentielles suivantes :<ul>
-    <li><p>0 - valeur par défaut : arrête le processus de flux de travaux, sans impact sur la base de données<p></li>
-    <li><p>1 - pg_cancel_backend: arrête le processus et annule la requête dans la base de données<p></li>
-    <li><p>2 - pg_termination_backend: arrête le processus de flux de travaux et interrompt la requête dans la base de données<p></li></ul></td> 
+   <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
+   <td>Permet d’affecter le comportement Arrêt inconditionnel à tous les workflows et requêtes de base de données PostgreSQL avec les valeurs potentielles suivantes :<ul>
+    <li><p>0 – default : arrête le processus du workflow, sans impact sur la base de données<p></li>
+    <li><p>1 -  pg_cancel_backend : arrête le processus du workflow et annule la requête dans la base de données<p></li>
+    <li><p>2 – pg_terminate_backend : arrête le processus du workflow et interrompt la requête dans la base de données<p></li></ul></td> 
   </tr>  
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
@@ -634,27 +634,27 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Nom du tablespace destiné à contenir les index des tables de travail d'Adobe Campaign.<br /> </td> 
   </tr> 
     <tr> 
-   <td> <span class="uicontrol">WdbcOptions_TempDbName</span><br /> </td> 
-   <td> Permet de configurer une base de données distincte pour les tables de travail sur Microsoft SQL Server. Cela optimise les sauvegardes et la réplication. <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)">En savoir plus</a> <br /> </td> 
+   <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
+   <td> Permet de configurer une base de données distincte pour les tables de travail de Microsoft SQL Server. Cette configuration permet d’optimiser les sauvegardes et la réplication. <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)">En savoir plus</a> <br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">WdbcTimeZone</span><br /> </td> 
-   <td> Fuseau horaire de l’instance d’Adobe Campaign. Voir <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">Configuration</a>.<br /> </td> 
+   <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
+   <td> Fuseau horaire de l’instance Adobe Campaign. Voir la section <a href="../../installation/using/time-zone-management.md#configuration" target="_blank">Configuration</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">WdbcUseNChar</span><br /> </td> 
+   <td> <span class="uicontrol">WdbcUseNChar</span> <br /> </td> 
    <td> Les champs de chaîne de la base de données sont-ils définis avec NChar ?<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">WdbcUseTimeStampWithTZ</span><br /> </td> 
+   <td> <span class="uicontrol">WdbcUseTimeStampWithTZ</span> <br /> </td> 
    <td> Les champs 'datetime" de la base de données stockent-ils les informations de fuseau horaire ?<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkDatabaseId</span><br /> </td> 
+   <td> <span class="uicontrol">XtkDatabaseId</span> <br /> </td> 
    <td> ID de la base de données. Commence par 'u' pour la Base Unicode.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkInstancePrefix</span><br /> </td> 
+   <td> <span class="uicontrol">XtkInstancePrefix</span> <br /> </td> 
    <td> Préfixe ajouté devant les noms internes générés automatiquement.<br /> </td> 
   </tr> 
   <tr> 
@@ -663,7 +663,10 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
-   <td> Tous les schémas personnalisés, créés après cette date, avec autopk="true" et sans l’attribut "pkSequence" obtiendront une séquence auto-générée "auto_ &lt;schemanamespace&gt; &lt;nom_schéma&gt; _seq. 
+   <td> Tous les schémas personnalisés, créés après cette période, avec autopk="true" et sans l’attribut "pkSequence" obtiendront une séquence générée automatiquement "auto_ 
+    &lt;schemanamespace&gt; 
+     &lt;schemaname&gt;
+       _seq. 
    </td> 
   </tr> 
   <tr> 
@@ -675,12 +678,12 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
     </ul> Cette option devrait uniquement être utilisée si l'arbre de navigation d'usine a subi un trop grand nombre de modifications.<br /> Voir à ce propos <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span><br /> </td> 
+   <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 
    <td> Date du dernier traitement de nettoyage de la table <span class="uicontrol">NmsEmailErrorStat</span>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">PostUpgradeLastError</span><br /> </td> 
-   <td> <br /> Informations relatives à l’erreur survenue dans Postupgrade, selon la syntaxe ci-dessous : <strong>{Numéro de version}:{mode: pre/post/...}:{The 'lessThan'/'moreOrEquelThan' où l'erreur s'est produite + sub-step}</strong> </td> 
+   <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
+   <td> Informations relatives à l’erreur survenue dans le postupgrade, selon la syntaxe ci-dessous :<br /> <strong>{numéro de build}:{mode: pre/post/...}:{La valeur 'lessThan'/'greaterOrEquelThan' où l’erreur s’est produite + sous-étape}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
@@ -700,7 +703,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">AEMResourceTypeFilter</span><br /> </td> 
+   <td> <span class="uicontrol">AEMResourceTypeFilter</span> <br /> </td> 
    <td> Types de ressources AEM qui peuvent être utilisés dans Adobe Campaign. Les valeurs doivent être séparées par des virgules.<br /> </td> 
   </tr> 
   <tr> 
@@ -758,11 +761,11 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchControl_</span> <br /> </td> 
-   <td> '+ [schéma de la proposition] + "_" + extAccountSource.@exécutionInstanceId + [schéma de la proposition] + "_" + vars.exécutionInstanceIdFilter<br /> </td> 
+   <td> '+ [schéma de la proposition] + "_" + extAccountSource.@executionInstanceId + [schéma de la proposition] + "_" + vars.executionInstanceIdFilter<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchExec_</span> <br /> </td> 
-   <td> '+ [ schéma de proposition] + "_" + extAccountSource.@exécutionInstanceId + "_" + extAccountTarget.@exécutionInstanceId<br /> </td> 
+   <td> '+ [schéma de la proposition] + "_" + extAccountSource.@executionInstanceId + "_" + extAccountTarget.@executionInstanceId<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_SynchWorkflowIds</span> <br /> </td> 
@@ -790,7 +793,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">NmsExecutionInstanceId</span><br /> </td> 
+   <td> <span class="uicontrol">NmsExecutionInstanceId</span> <br /> </td> 
    <td> Identifiant de l'instance d'exécution.<br /> </td> 
   </tr> 
   <tr> 
@@ -810,7 +813,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> URL de base du serveur d'application web public.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkPassUnknownSQLFunctionsToRDBMS</span><br /> </td> 
+   <td> <span class="uicontrol">XtkPassUnknownSQLFunctionsToRDBMS</span> <br /> </td> 
    <td> Permet de continuer à utiliser les anciennes fonctions SQL non déclarées après la migration. Nous vous recommandons fortement de ne pas utiliser cette option en raison des risques de sécurité qu'elle présente.<br /> </td> 
   </tr> 
  </tbody> 
@@ -1010,7 +1013,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">XtkUseScrollBar</span><br /> </td> 
+   <td> <span class="uicontrol">XtkUseScrollBar</span> <br /> </td> 
    <td> La définition de la valeur sur 1 permet l'ajout de la barre de défilement aux formulaires de détail.<br /> </td> 
   </tr> 
   <tr> 
