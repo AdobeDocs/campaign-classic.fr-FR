@@ -66,7 +66,7 @@ Pour cela, cliquez sur le lien **[!UICONTROL Edition de la requête]** et sélec
 
 ![](assets/offer_eligibility_create_003.png)
 
-Si des filtres prédéfinis ont déjà été créés, vous pouvez les sélectionner dans la liste des filtres utilisateur. For more on this, refer to [Creating predefined filters](../../interaction/using/creating-predefined-filters.md).
+Si des filtres prédéfinis ont déjà été créés, vous pouvez les sélectionner dans la liste des filtres utilisateur. Voir à ce sujet la section [Créer des filtres prédéfinis](../../interaction/using/creating-predefined-filters.md).
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -80,7 +80,7 @@ Par exemple, une offre peut avoir un poids A pour les contacts âgés de 18 à 2
 
 >[!NOTE]
 >
->Le poids affecté peut être temporairement modifié en fonction des paramètres de la catégorie à laquelle appartient l’offre. For more on this, refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md).
+>Le poids affecté peut être temporairement modifié en fonction des paramètres de la catégorie de l&#39;offre. Voir à ce sujet la section [Créer des catégories d&#39;offres](../../interaction/using/creating-offer-categories.md).
 
 Pour créer un poids dans une offre, procédez comme suit :
 
@@ -135,7 +135,7 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
    * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s&#39;agit pas du libellé de l&#39;offre défini dans l&#39;onglet **[!UICONTROL Général]**.
    * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traitée correctement, elle doit impérativement débuter par &quot;http://&quot; ou &quot;https://&quot;.
    * **[!UICONTROL URL de l&#39;image]** : indiquez une URL ou un chemin d&#39;accès vers l&#39;image de votre offre.
-   * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le suivi, le contenu **** HTML doit être composé d’éléments HTML qui peuvent être placés dans un élément de `<div>` type. Par exemple, le résultat d’un `<table>` élément dans la page HTML sera le suivant :
+   * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le tracking, le **[!UICONTROL contenu HTML]** doit être constitué d&#39;éléments HTML intégrables dans un élément de type `<div>`. Par exemple, le résultat d&#39;un élément `<table>` dans la page HTML sera le suivant :
 
    ```
       <div> 
@@ -152,11 +152,11 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
       </div>
    ```
 
-   La définition de l’URL d’acceptation est présentée dans la section [Configuration de l’état lorsque la proposition est acceptée](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted) .
+   La définition de l&#39;URL d&#39;acceptation est présentée dans la section [Paramétrer l&#39;état à l&#39;acceptation de la proposition d&#39;offre](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
    ![](assets/offer_content_create_002.png)
 
-   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   Pour retrouver les champs requis tels qu&#39;ils ont été définis lors du paramétrage des emplacements, cliquez sur le lien **[!UICONTROL Définitions du contenu]** pour afficher la liste. Voir à ce sujet la section [Créer des emplacements d&#39;offres](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_content_create_003.png)
 
