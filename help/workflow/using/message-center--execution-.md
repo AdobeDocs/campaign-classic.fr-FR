@@ -48,12 +48,12 @@ Pour en savoir plus sur la configuration des workflows techniques associés au m
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Traitement des événements batch</span> <br /> </td> 
-   <td> <span class="uicontrol">batchEventsProcessing</span><br /> </td> 
+   <td> <span class="uicontrol">batchEventsProcessing</span> <br /> </td> 
    <td> Ce workflow permet de répartir les événements batch dans une file d'attente avant qu'ils ne soient associés à un modèle de message. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Traitement des événements en temps réel</span> <br /> </td> 
-   <td> <span class="uicontrol">rtEventsProcessing</span><br /> </td> 
+   <td> <span class="uicontrol">rtEventsProcessing</span> <br /> </td> 
    <td> Ce workflow permet de répartir les événements temps réel dans une file d'attente avant qu'ils ne soient associés à un modèle de message. <br /> </td> 
   </tr> 
  </tbody> 
