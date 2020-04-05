@@ -37,11 +37,11 @@ Les scripts sont omniprésents dans un diagramme de workflow :
 
 Tout script JavaScript exécuté dans le contexte du workflow accède à une série d&#39;objets globaux supplémentaires.
 
-* **instance**: Représente le processus en cours d’exécution. Le schéma de cet objet est **xtk:workflow**.
-* **tâche**: Représente les tâches en cours d’exécution. Le schéma de cet objet est **xtk:workflowTask**.
-* **event**: Représente les événements qui ont activé la tâche en cours d’exécution. Le schéma de cet objet est **xtk:workflowEvent**. Cet objet n’est pas initialisé pour les activités de type joint **** ET qui ont été activées à partir de plusieurs transitions.
-* **events**: Représente la liste des événements qui ont activé la tâche active. Le schéma de cet objet est **xtk:workflowEvent**. Ce tableau contient généralement un élément, mais il peut en contenir plusieurs pour les activités de type jointure **** ET qui ont été activées en fonction de plusieurs transitions.
-* **activité**: Représente le modèle de la tâche en cours d’exécution. Le schéma de cet objet dépend du type d’activité. Cet objet peut être modifié par le script d’initialisation, dans d’autres scripts, les modifications avec des effets indéterminés.
+* **instance** : représente le workflow en cours d’exécution. Le schéma de cet objet est **xtk:workflow**.
+* **task** : représente les tâches en cours d’exécution. Le schéma de cet objet est **xtk:workflowTask**.
+* **event** : représente les événements qui ont activé la tâche en cours d’exécution. Le schéma de cet objet est **xtk:workflowEvent**. Cet objet n’est pas initialisé pour les activités de type **AND-join** qui ont été activées à partir de plusieurs transitions.
+* **events** : représente la liste des événements qui ont activé la tâche active. Le schéma de cet objet est **xtk:workflowEvent**. Ce tableau contient généralement un élément, mais il peut en contenir plusieurs pour les activités de type **AND-join** qui ont été activées en fonction de plusieurs transitions.
+* **activity** : représente le modèle de la tâche en cours d’exécution. Le schéma de cet objet dépend du type d’activité. Cet objet peut être modifié par le script d’initialisation ; dans d’autres scripts, les modifications auront des effets indéterminés.
 
 Les propriétés disponibles pour ces objets sont accessibles depuis le menu déroulant du bouton situé à droite de la barre d&#39;outils du script.
 
@@ -64,39 +64,39 @@ logInfo("Label: " + instance.label)
 logInfo("Start date: " + task.creationDate)
 ```
 
-The **[!UICONTROL logInfo(message)]** function inserts a message into the log.
+La fonction **[!UICONTROL logInfo(message)]** ajoute un message dans le journal.
 
-Cliquez sur **[!UICONTROL OK]** pour fermer l’assistant de création, puis lancez le processus à l’aide des boutons d’action situés en haut à droite de la liste des processus. A la fin de l’exécution, consultez le journal. Vous devriez voir deux messages correspondant au script : l’une affiche le libellé du flux de travail, l’autre la date d’activation du script.
+Cliquez sur **[!UICONTROL OK]** pour fermer l&#39;assistant de création, puis démarrez le workflow en utilisant les boutons d&#39;action en haut à droite de la liste des workflows. A la fin de l&#39;exécution, consultez le journal. Vous devez voir deux messages correspondant au script : l&#39;un affiche le libellé du workflow, l&#39;autre affiche la date d&#39;activation du script.
 
 ## Variables {#variables}
 
-Les variables sont les propriétés libres des objets **[!UICONTROL instance]**, **[!UICONTROL task]** et **[!UICONTROL event]** . Les types JavaScript autorisés pour ces variables sont **[!UICONTROL string]**, **[!UICONTROL number]** et **[!UICONTROL Date]**.
+Les variables sont des propriétés libres des objets **[!UICONTROL instance]**, **[!UICONTROL task]** et **[!UICONTROL event]**. Les types JavaScript autorisés pour ces variables sont **[!UICONTROL string]**,**[!UICONTROL number]** et **[!UICONTROL Date]**.
 
 ### Les variables d&#39;instances {#instance-variables}
 
-Les variables d’instance (**[!UICONTROL instance.vars.xxx]**) sont comparables aux variables globales. Elles sont partagées par toutes les activités.
+The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables. They are shared by all activities.
 
 ### Les variables de tâches {#task-variables}
 
-Les variables de tâche (**[!UICONTROL task.vars.xxx]**) sont comparables aux variables locales.  Ils ne sont utilisés que par la tâche en cours. Ces variables sont utilisées par les activités persistantes pour conserver les données et sont parfois utilisées pour échanger des données entre les différents scripts d’une même activité.
+The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local variables. They are only used by the current task. These variables are used by persistent activities to keep data and are sometimes used to exchange data between the different scripts of a same activity.
 
 ### Les variables d&#39;événements {#event-variables}
 
-Les variables d’événement (**[!UICONTROL vars.xxx]**) permettent l’échange de données entre les tâches élémentaires d’un processus de flux de travail. Ces variables sont transmises par la tâche qui a activé la tâche en cours. Il est possible de les modifier et d&#39;en définir de nouvelles. Ils sont ensuite transmis aux activités suivantes.
+Les variables d&#39;événements (**[!UICONTROL vars.xxx]**) permettent l&#39;échange de données entre les tâches élémentaires d&#39;un processus de workflow. Ces variables sont passées par la tâche qui a activé la tâche en cours. Il est possible de les modifier ou d&#39;en définir de nouvelles, elles sont ensuite transmises aux activités suivantes.
 
 Dans le cas d&#39;activités de type **AND-join**, les variables sont fusionnées mais si une même variable est définie deux fois, il y a conflit et la valeur est indéterminée.
 
 Ces variables sont les plus communément utilisées et doivent être préférées aux variables d&#39;instances.
 
-Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit de variables de type chaîne. Par exemple, une exportation définit la **[!UICONTROL vars.filename]** variable avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [A propos des activités](../../workflow/using/about-activities.md), dans les sections Paramètres **d’** entrée et Paramètres **de** sortie des activités.
+Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit de variables de type chaîne. Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [A propos des activités](../../workflow/using/about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
 
-### Exemples {#example}
+### Exemples  {#example}
 
 **Exemple 1**
 
-Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiquement le pourcentage de division à appliquer à une population.
+Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiquement le pourcentage de partage à appliquer à une population.
 
-1. Créez un processus et ajoutez une activité Démarrer.
+1. Créez un workflow et ajoutez une activité Début.
 
 1. Ajoutez et configurez une activité de code JavaScript pour définir une variable d’instance.
 
@@ -104,15 +104,15 @@ Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiqu
 
    ![](assets/js_ex1.png)
 
-1. Ajoutez une activité de requête et ciblez les destinataires en fonction de vos besoins.
+1. Ajoutez une activité Requête et ciblez les destinataires en fonction de vos besoins.
 
-1. Ajoutez une activité Fractionnée et configurez-la pour effectuer un échantillonnage aléatoire de la population entrante. Le pourcentage d’échantillonnage peut être de votre choix. Il est défini sur 50 % dans cet exemple.
+1. Ajoutez une activité Partage et configurez-la pour effectuer un échantillonnage aléatoire de la population entrante. Le pourcentage d’échantillonnage ne dépend que de votre choix. Il est défini sur 50 % dans cet exemple.
 
    C’est ce pourcentage qui est mis à jour dynamiquement grâce à la variable d’instance définie précédemment.
 
    ![](assets/js_ex2.png)
 
-1. Dans la section Script d’initialisation de l’onglet Avancé de l’activité Scinder, définissez une condition JS. La condition JS sélectionne le pourcentage d’échantillonnage aléatoire de la première transition sortant de l’activité Scinder et la met à jour vers une valeur définie par la variable d’instance créée précédemment.
+1. Dans la section Script d’initialisation de l’onglet Avancé de l’activité Partage, définissez une condition JS. La condition JS sélectionne le pourcentage d’échantillonnage aléatoire de la première transition sortant de l’activité Partage et la met à jour vers une valeur définie par la variable d’instance créée précédemment.
 
    ```
    activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
@@ -120,13 +120,13 @@ Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiqu
 
    ![](assets/js_ex3.png)
 
-1. Assurez-vous que le complément est généré dans une transition distincte de l’activité de division et ajoutez les activités de fin après chacune des transitions sortantes.
+1. Assurez-vous que le complément est généré dans une transition distincte de l’activité Partage et ajoutez les activités Fin après chacune des transitions sortantes.
 
 1. Enregistrez et exécutez le workflow. L’échantillonnage dynamique est appliqué en fonction de la variable d’instance.
 
    ![](assets/js_ex4.png)
 
-**Exemple 2**
+**Exemple 2**
 
 1. Reprenez le workflow de l&#39;exemple précédent et modifiez le script de l&#39;activité **Code JavaScript** avec le script suivant :
 
@@ -164,7 +164,7 @@ Ainsi, pour appeler la variable **instance.vars.xxx = &quot;yyy&quot;** dans un 
 
 Par exemple :
 
-1. Create an instance variable that defines a delivery&#39;s internal name via the **[!UICONTROL JavaScript code]**: **instance.vars.deliveryIN = &quot;DM42&quot;**.
+1. Créez une variable d&#39;instance qui définit le nom interne d&#39;une diffusion via l&#39;activité **[!UICONTROL Code JavaScript]** : **instance.vars.deliveryIN = &quot;DM42&quot;**.
 
    ![](assets/wkf_js_activity_1.png)
 
@@ -172,7 +172,7 @@ Par exemple :
 
    Pour rappel, ces informations sont stockées dans les logs de diffusion.
 
-   To reference the instance variable in the **[!UICONTROL Value]** column, enter **$(instance/vars/@deliveryIN)**.
+   Pour faire référence à la variable d&#39;instance dans la colonne **[!UICONTROL Valeur]**, saisissez **$(instance/vars/@deliveryIN)**.
 
    Le worfklow retournera les destinataires à qui la diffusion DM42 a été envoyée.
 
@@ -194,4 +194,4 @@ Vous pouvez modifier une propriété d&#39;une activité au moment de l&#39;exé
 
 La plupart des propriétés des activités peuvent être calculées dynamiquement, soit en utilisant un template JavaScript, soit parce que les propriétés du workflow permettent explicitement de calculer la valeur par un script.
 
-Pour d’autres propriétés, toutefois, vous devez utiliser le script d’initialisation. Ce script est évalué avant l’exécution de la tâche. La **[!UICONTROL activity]** variable fait référence à l’activité correspondant à la tâche. Les propriétés de cette activité peuvent être modifiées et affecteront uniquement cette tâche.
+Néanmoins, pour d&#39;autres propriétés, vous devez utiliser le script d&#39;initialisation. Ce script est évalué avant d&#39;exécuter la tâche. La variable **[!UICONTROL activity]** référence l&#39;activité correspondant à la tâche. Les propriétés de cette activité peuvent être modifiées et n&#39;affecteront que cette tâche.
