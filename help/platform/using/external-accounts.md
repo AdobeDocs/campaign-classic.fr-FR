@@ -167,9 +167,9 @@ Les types de connexions suivants peuvent être configurés :
 * ODBC (Sybase ASE, Sybase IQ)
 * Relais HTTP vers base distante
 
-### Compte externe Snowflake {#snowflake-external-account}
+### à flocon de neige {#snowflake-external-account}
 
-Le compte externe **Snowflake** vous permet de connecter votre instance Campaign à votre base de données externe Snowflake. Pour plus d&#39;informations sur la configuration de Campaign Classic avec Snowflake, consultez cette [page](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
 
 Pour configurer ce compte externe afin de l’utiliser avec Adobe Campaign, vous devez fournir les détails suivants :
 
@@ -221,7 +221,7 @@ Pour configurer ce compte externe afin de l’utiliser avec Adobe Campaign, vous
 
 * **[!UICONTROL Options]**
 
-   Options à transmettre via Teradata.
+   Options à transmettre via Teradata..
 
 * **[!UICONTROL Fuseau horaire]**
 
@@ -267,7 +267,7 @@ Pour chaque application Facebook, vous devez créer un compte externe de type **
 
 * **[!UICONTROL Clé secrète]**
 
-   Secret d’application de votre application Facebook.
+   Secret de l’application de votre application Facebook..
 
 Si vous choisissez le mode Hébergée sur cette instance, vous devez coller l’URL sécurisée du canevas dans le champ **Jeux Web Facebook (https)** sur Facebook.
 
@@ -313,11 +313,11 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, v
 
 * **[!UICONTROL Secret client IMS]**
 
-   Informations d’identification de votre secret client IMS.
+   Informations de connexion de votre secret client IMS..
 
 * **[!UICONTROL Serveur de rappel]**
 
-   Accédez à l’URL de votre instance Adobe Campaign.
+   URL d’accès à votre instance Adobe Campaign..
 
 * **[!UICONTROL Identifiant de l’organisation IMS]**
 
@@ -337,7 +337,7 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, v
 
 Pour plus d’informations sur cette configuration, consultez [cette page](../../integrations/using/configuring-ims.md).
 
-## Compte externe SFTP   {#sftp-external-account}
+## Compte externe SFTP    {#sftp-external-account}
 
 Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
 
@@ -431,7 +431,7 @@ Le compte externe **[!UICONTROL Azure]** permet de se connecter à une base de d
 
 ## Compte externe Hadoop {#hadoop-external-account}
 
-Le compte externe **[!UICONTROL Hadoop]** permet de se connecter à une base de données externe partagée. Tant que cette connexion est active, la base de données est accessible via Adobe Campaign. For more information on how to configure access to Hadoop, refer to this [section](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop).
+Le compte externe **[!UICONTROL Hadoop]** permet de se connecter à une base de données externe partagée. Tant que cette connexion est active, la base de données est accessible via Adobe Campaign. Pour plus d&#39;informations sur la façon de configurer l’accès à Hadoop, consultez cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop).
 
 ![](assets/ext_account_16.png)
 
@@ -448,7 +448,7 @@ Le compte externe **[!UICONTROL Hadoop]** permet de se connecter à une base de 
 Le compte externe **[!UICONTROL Microsoft Dynamics CRM]** vous permet d’importer et d’exporter des données Microsoft Dynamics vers Adobe Campaign.
 
 La configuration du connecteur Microsoft Dynamics pour qu’il fonctionne avec Adobe Campaign dépend de votre type de déploiement.
-Avec les types de déploiement **[!UICONTROL OnPremise]** et **[!UICONTROL Office 365]** , vous devez fournir les détails suivants :
+Avec les types de déploiement **[!UICONTROL On-Premise]** et **[!UICONTROL Office 365]**, vous devez fournir les détails suivants :
 
 ![](assets/ext_account_21.png)
 
@@ -466,18 +466,18 @@ Avec les types de déploiement **[!UICONTROL OnPremise]** et **[!UICONTROL Offic
 
 * **[!UICONTROL Nom de la société]** pour le déploiement on-premise et Office 365
 
-   Nom de votre société.
+   Nom de votre organisation.
 
 * **[!UICONTROL Nom de l’organisation]** pour le déploiement on-premise
 
    Nom de votre organisation.
-Nom de l&#39;organisation qui se trouve dans le tableau de bord Ressources des développeurs dans le champ Nom **** unique de Microsoft Dynamics.
+Nom de l&#39;organisation qui se trouve dans le tableau de bord Ressources des développeurs dans le champ **[!UICONTROL Nom unique]** de Microsoft Dynamics.
 
-* **[!UICONTROL Version]** CRM pour On-Premise
+* **[!UICONTROL Version CRM]** pour On-Premise
 
    Version du CRM parmi **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** et **[!UICONTROL Dynamics CRM 2016]**.
 
-Avec le type de déploiement de l’API **** Web et l’authentification des informations d’identification **[!UICONTROL de]** mot de passe, vous devez fournir les détails suivants :
+Avec le type de déploiement **[!UICONTROL API web]** et l’authentification **[!UICONTROL Informations de connexion et mot de passe]**, vous devez fournir les détails suivants :
 
 ![](assets/ext_account_14.png)
 
@@ -497,7 +497,7 @@ Avec le type de déploiement de l’API **** Web et l’authentification des inf
 
    Version du CRM parmi **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** et **[!UICONTROL Dynamics CRM 2016]**.
 
-Avec le type de déploiement API **** Web et l’authentification de **[!UICONTROL certificat]** , vous devez fournir les détails suivants :
+Avec le type de déploiement **[!UICONTROL API web]** et l’authentification **[!UICONTROL Certificat]**, vous devez fournir les détails suivants :
 
 ![](assets/ext_account_22.png)
 
@@ -507,7 +507,7 @@ Avec le type de déploiement API **** Web et l’authentification de **[!UICONTR
 
 * **[!UICONTROL Clé privée (encodée en Base64)]**
 
-   Clé privée codée en Base64
+   Clé privée encodée en Base64
 
 * **[!UICONTROL Identifiant de clé personnalisé]**
 
