@@ -39,7 +39,7 @@ Vous devez vérifier que la configuration initiale de la plateforme Adobe Campai
 
 ## Configuration de la plateforme {#platform-configuration}
 
-Une configuration inappropriée peut affecter les performances de la plateforme. Nous vous recommandons de vérifier la configuration du réseau, les options de délivrabilité de la plateforme ainsi que la configuration MTA dans le fichier **serverConf.xml** .
+Une configuration inappropriée peut avoir une incidence sur les performances de la plateforme. Nous vous recommandons de vérifier la configuration du réseau, les options de délivrabilité de la plateforme ainsi que la configuration du MTA dans le fichier **serverConf.xml**.
 
 ## Maintenance de la base de données {#database-maintenance}
 
@@ -77,8 +77,8 @@ Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;el
 
 Selon les paramètres d&#39;installation d&#39;Adobe Campaign, vous avez deux outils à votre disposition pour effectuer le suivi de votre plateforme :
 
-* la page de production de l’instance. For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring).
-* script netreport. Pour plus d’informations, reportez-vous à la section Surveillance [automatique via les scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)Adobe Campaign.
+* la page de production de l&#39;instance. Voir à ce propos la section [Surveillance manuelle](../../production/using/monitoring-processes.md#manual-monitoring).
+* le script netreport. Voir à ce propos la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## Cas particuliers {#specifics}
 
