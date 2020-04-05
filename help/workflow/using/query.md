@@ -25,15 +25,15 @@ source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
 ## Créer une requête {#creating-a-query}
 
 Une requête permet de sélectionner une cible selon des critères. Vous pouvez associer un code segment au résultat de la requête et y insérer des données additionnelles.
-Pour plus d&#39;informations sur les exemples de requêtes, consultez cette [section](../../workflow/using/querying-recipient-table.md).
+Pour plus d&#39;informations sur les exemples de , reportez-vous à cette [section](../../workflow/using/querying-recipient-table.md).
 
 >[!NOTE]
 >
->Les activités de requête ne sont pas compatibles avec les champs CLOB lors de l’utilisation d’Oracle.
+>   ne sont pas compatibles avec les champs CLOB lors de l’utilisation d’Oracle.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
-For more on using and managing additional data, refer to [Adding data](#adding-data).
+L’utilisation et la gestion des données additionnelles sont présentées dans la section [Ajouter des données](#adding-data).
 
 Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de ciblage, les restrictions et les critères de sélection de la population de la manière suivante :
 
@@ -43,7 +43,7 @@ Le lien **[!UICONTROL Editer la requête...]** permet de définir le type de cib
 
    La dimension de filtrage permet d&#39;aller chercher ces éléments, par exemple les informations liées à la personne ciblée (les contrats, les soldes de comptes, etc.).
 
-   For more on this, refer to [Targeting and filtering dimensions](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+   Voir à ce sujet la section [Dimension de ciblage et dimension de filtrage](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
 
    ![](assets/s_user_segmentation_query_edit.png)
 
@@ -80,7 +80,7 @@ Sélectionnez d&#39;abord le type de données à ajouter :
 ![](assets/wf_add_data_1st_option.png)
 
 * Sélectionnez **[!UICONTROL Données liées à la dimension de ciblage]** pour sélectionner des données de la base Adobe Campaign.
-* Select **[!UICONTROL External data]** to add data from an external database. This option is only available if you have purchased the **Federated Data Access** option. For more on this, refer to [Accessing an external database (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
+* Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Voir à ce sujet la section [Accéder à une base externe (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
 * Sélectionnez l&#39;option **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n&#39;est disponible que si vous avez acquis le module **Interaction**.
 
 Si aucun module optionnel n&#39;est installé sur la plate-forme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
@@ -97,10 +97,10 @@ Pour ajouter des données de la base Adobe Campaign :
 
    Vous pouvez ajouter :
 
-   * Champ calculé sur la base de données provenant de la population ciblée ou d’un total (nombre d’achats en attente au cours du dernier mois, montant moyen d’un reçu, etc.). Par exemple, accédez à [Sélection de données](../../workflow/using/targeting-data.md#selecting-data).
+   * Un champ calculé à partir de données issues de la population ciblée ou un agrégat (nombre d’achats en attente au cours du dernier mois, montant moyen d’un ticket de caisse, etc.). Un exemple est proposé dans la section [Sélectionner les données](../../workflow/using/targeting-data.md#selecting-data).
    * Un nouveau champ, créé à partir du bouton **[!UICONTROL Ajouter]** situé à droite de la liste des colonnes de sortie.
 
-      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières livraisons, etc. Les collections coïncident avec des champs pouvant avoir plusieurs valeurs pour le même profil (relation 1-N). Pour plus d’informations, reportez-vous à la section [Modification de données](../../workflow/using/targeting-data.md#editing-additional-data)supplémentaires.
+      Vous pouvez également ajouter une collection d’informations, par exemple une liste de contrats, les 5 dernières diffusions, etc. Les collections correspondent à des champs dont les valeurs peuvent être multiples pour un même profil (relation 1-N). Voir à ce sujet la section [Editer les données additionnelles](../../workflow/using/targeting-data.md#editing-additional-data).
 
 Pour ajouter une collection d&#39;informations liées à une population ciblée :
 
@@ -170,9 +170,9 @@ Ce triplet de valeurs identifie la population ciblée par la requête. **[!UICON
 
 Cette valeur est le schéma de la table de travail. Ce paramètre est valable pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
 
-## Optimisation de vos requêtes {#optimizing-queries}
+## Optimisation des requêtes {#optimizing-queries}
 
-La section ci-dessous présente les meilleures pratiques pour optimiser les requêtes exécutées sur Adobe Campaign afin de limiter la charge de travail sur la base de données et d’améliorer l’expérience utilisateur.
+La section ci-dessous présente les bonnes pratiques pour optimiser les requêtes exécutées dans Adobe Campaign, ce qui permet de limiter la charge de travail sur la base de données et d’améliorer l’expérience utilisateur.
 
 ### Jointures et index {#joins-and-indexes}
 
@@ -180,48 +180,48 @@ La section ci-dessous présente les meilleures pratiques pour optimiser les requ
 * Utilisez un index pour toutes les jointures.
 * La définition de liens sur le schéma détermine les conditions de jointure. La table liée doit avoir un index unique sur la clé primaire et la jointure doit se trouver sur ce champ.
 * Effectuez des jointures en définissant des clés sur des champs numériques au lieu de champs de chaîne.
-* Evitez d’exécuter des jointures externes. Dans la mesure du possible, utilisez l’enregistrement d’ID zéro pour obtenir la fonctionnalité de jointure externe.
+* Évitez d’effectuer des jointures externes. Dans la mesure du possible, utilisez l’enregistrement Zero ID pour obtenir la fonctionnalité de jointure externe.
 * Utilisez le type de données approprié pour les jointures.
 
-   Assurez-vous que la `where` clause est du même type que le champ.
+   Assurez-vous que la clause `where` est du même type que le champ.
 
-   Une erreur courante est : `iBlacklist='3'` où `iBlacklist` est un champ numérique et `3` signifie une valeur de texte.
+   Il existe une erreur courante : `iBlacklist='3'` où `iBlacklist` est un champ numérique et `3` correspond à une valeur de texte.
 
-   Assurez-vous de connaître le plan d&#39;exécution de votre requête. Evitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi en temps réel qui s’exécutent toutes les minutes.
+   Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
 
-Pour plus d’informations, reportez-vous aux[bonnes pratiques](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html) du modèle de données et aux sections de mappage [de](../../configuration/using/database-mapping.md) base de données.
+Pour plus d’informations, reportez-vous aux sections [Bonnes pratiques relatives au modèle de données](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html) et [Mapping de la base de données](../../configuration/using/database-mapping.md).
 
 ### Fonctions {#functions}
 
-* Attention aux fonctions comme `Lower(...)`. Lorsque la fonction Lower est utilisée, l’index n’est pas utilisé.
-* Vérifiez soigneusement les requêtes à l’aide de l’instruction &quot;J’aime&quot; ou des instructions &quot;supérieur&quot; ou &quot;inférieur&quot;. Appliquez &quot;Upper&quot; sur la saisie de l’utilisateur et non sur le champ de base de données.
+* Attention aux fonctions comme `Lower(...)`. Si vous avez recours à la fonction Lower, l’index n’est pas utilisé.
+* Vérifiez soigneusement les requêtes contenant les instructions « like », « upper » ou « lower ». Appliquez « upper » à la saisie utilisateur et non au champ de base de données.
 
-   For more on functions, refer to [this section](../../platform/using/defining-filter-conditions.md#list-of-functions).
+   Pour plus d’informations sur les fonctions, consultez [cette section](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
-### Filtrage des dimensions {#filtering-dimensions}
+### Dimensions de filtrage {#filtering-dimensions}
 
-Utilisez la dimension de filtrage de la requête au lieu d’utiliser l’opérateur &quot;existe tel que&quot;.
+Utilisez la dimension de filtrage de la requête au lieu de l’opérateur « exists such as ».
 
 ![](assets/optimize-queries-filtering.png)
 
-Dans les requêtes, les conditions &quot;existe tel que&quot; dans les filtres ne sont pas efficaces. Ils sont l’équivalent d’une sous-requête dans SQL :
+Dans les requêtes, les conditions « exists such as » des filtres ne sont pas efficaces. Elles constituent l’équivalent d’une sous-requête dans SQL :
 
 `select iRecipientId from nmsRecipient where iRecipientId IN (select iRecipientId from nmsBroadLog where (...))`
 
-Il est recommandé d’utiliser plutôt la dimension de filtrage de la requête :
+Il est recommandé d’utiliser plutôt la dimension de filtrage de la requête :
 
 ![](assets/optimize-queries-filtering2.png)
 
-L’équivalent de la dimension de filtrage dans SQL est la jointure interne :
+L’équivalent de la dimension de filtrage dans SQL est la jointure interne :
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-For more on filtering dimensions, refer to [this section](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+Pour plus d’informations sur les dimensions de filtrage, consultez [cette section](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
 
 ### Architecture {#architecture}
 
-* Créez une plateforme de développement avec des volumes, des paramètres et une architecture similaires à ceux de la plate-forme de production.
-* Utilisez les mêmes valeurs pour les environnements de développement et de production. Dans la mesure du possible, utilisez la même méthode :
+* Créez une plateforme de développement avec des volumes, des paramètres et une architecture similaires à ceux de la plateforme de production.
+* Utilisez les mêmes valeurs pour les environnements de développement et de production. Dans la mesure du possible, les éléments suivants doivent être identiques :
 
    * Système d&#39;exploitation,
    * Version,
@@ -230,8 +230,8 @@ For more on filtering dimensions, refer to [this section](../../workflow/using/b
    * Volumes.
    >[!NOTE]
    >
-   >Une fonctionnalité qui fonctionne dans un environnement de développement peut ne pas fonctionner dans un environnement de production où les données peuvent être différentes. Essayer d&#39;identifier les principales différences afin d&#39;anticiper les risques et de préparer des solutions.
+   >Une fonctionnalité opérationnelle dans un environnement de développement peut ne pas l’être dans un environnement de production. Les données peuvent en effet être différentes de l’un à l’autre. Essayez d’identifier les principales différences pour anticiper les risques et préparer des solutions.
 
-* Effectuez des configurations qui correspondent aux volumes cible. Les gros volumes nécessitent des configurations spécifiques. Une configuration qui fonctionnait pour 100 000 destinataires peut ne pas fonctionner pour 10 000 000 destinataires.
+* Effectuez des configurations qui correspondent aux volumes cible. Les gros volumes nécessitent des configurations spécifiques. Une configuration adaptée pour 100 000 destinataires peut ne pas fonctionner pour 10 000 000.
 
-   Pensez à la façon dont le système va évoluer lorsqu&#39;il sera en service. Le simple fait que quelque chose fonctionne à petite échelle ne signifie pas qu&#39;il sera adapté à de plus grands volumes. Les essais doivent être effectués avec des volumes similaires au volume en production. Vous devez également évaluer l’effet des modifications des volumes (nombre d’appels, taille de la base de données) aux heures de pointe, aux jours de pointe et pendant toute la durée du projet.
+   Pensez à la façon dont le système va évoluer une fois mis en service. Si un élément fonctionne à petite échelle, il ne sera pas nécessairement adapté à de plus grands volumes. Les tests doivent être effectués avec des volumes similaires à ceux de la production. Vous devez également évaluer l’incidence des évolutions de volumes (nombre d’appels, taille de la base de données) aux heures et aux jours de pointe, et pendant toute la durée du projet.
