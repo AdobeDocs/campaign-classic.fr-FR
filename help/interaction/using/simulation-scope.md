@@ -53,7 +53,7 @@ Vous pouvez également choisir d&#39;effectuer la simulation sur toutes les offr
 
 Vous pouvez enrichir l&#39;analyse de la simulation en ajoutant des axes de reporting sur la cible ou les offres elles-mêmes depuis l&#39;onglet **[!UICONTROL Calculs]**.
 
-To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. Axes will be used for calculating the simulation and are displayed in the analysis report. For more on this, refer to [Simulation tracking](../../interaction/using/simulation-tracking.md).
+Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les champs voulus. Les axes seront utilisés pour le calcul de la simulation et apparaîtront dans le rapport d&#39;analyse. Voir à ce sujet [Enregistrement du tracking](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)
 
