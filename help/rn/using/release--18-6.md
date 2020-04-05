@@ -22,9 +22,9 @@ source-git-commit: d046304657f04312d78176c49a650690b05e4c94
 
 # Version 18.6{#release-18-6}
 
-## Version 18.6.2 - Version 8949{#release-18-6-3-build-8949}
+## Version 18.6.2 - Build 8949{#release-18-6-3-build-8949}
 
-22 août 2018
+22 août 2018
 
 >[!CAUTION]
 >
@@ -56,7 +56,7 @@ source-git-commit: d046304657f04312d78176c49a650690b05e4c94
 * Correction d&#39;une erreur lors de l&#39;utilisation de champs calculés dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-11382)
 * Mise à jour de Tomcat pour éviter l&#39;exploitation de vulnérabilités. (NEO-11503)
 * Correction d&#39;une erreur liée au codage LATIN1 lors de l&#39;utilisation d&#39;une connexion FDA à une base de données PostgreSQL.(NEO-11299)
-* Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation de l&#39;option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow]**. (NEO-11047)
+* Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation de l&#39;option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow.]** (NEO-11047)
 * Correction d&#39;une erreur de postupgrade qui empêchait l&#39;envoi de SMS lors de l&#39;utilisation d&#39;un connecteur étendu.
 * Amélioration de l&#39;import/export de package (ajout de log et de région dans l&#39;interface).
 * Correction d&#39;un problème qui affichait des erreurs inutiles dans le log de postupgrade lorsqu&#39;une activité de workflow **[!UICONTROL Réponses au questionnaire]** n&#39;était pas entièrement configurée.
@@ -75,12 +75,12 @@ Un nouvel onglet a été ajouté dans les comptes externes de Teradata. L’ongl
 
 Pour plus d’informations sur query banding, référez-vous à ces articles :
 
-* [https://docs.teradata.com/reader/cY5~BoeEUFWjgN2kBnH3Vw/a5G1~izve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
+* [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
-## Version 18.6 - Version 8947{#release-18-6-build-8947}
+## Version 18.6 - Build 8947{#release-18-6-build-8947}
 
-25 juin 2018
+25 juin 2018
 
 >[!CAUTION]
 >
