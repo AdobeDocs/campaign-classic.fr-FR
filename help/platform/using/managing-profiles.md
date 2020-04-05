@@ -32,7 +32,7 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 
 >[!NOTE]
 >
->Pour afficher la liste de tous les destinataires dans la base de données, vous devez créer une vue. Reportez-vous à [Dossiers et vues](../../platform/using/access-management.md#folders-and-views).
+>Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. Voir à ce sujet la section [Les dossiers et les vues](../../platform/using/access-management.md#folders-and-views).
 
 ## Déplacer un destinataire {#moving-recipients}
 
