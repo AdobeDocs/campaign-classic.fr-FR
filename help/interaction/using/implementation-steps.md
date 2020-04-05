@@ -28,10 +28,10 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 >
 >Les étapes suivantes sont destinées à être réalisée par un profil de type **Administrateur** et uniquement dans les environnements en édition.
 
-1. Création de profils utilisateur. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
-1. Création d’un environnement d’offre en ciblant la dimension. Pour plus d’informations, reportez-vous à la section [Création d’un environnement](../../interaction/using/live-design-environments.md#creating-an-offer-environment)d’offre.
-1. Création de règles de typologie pour chaque environnement. Pour plus d’informations, reportez-vous à la section [Création et référence d’une règle](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule)de présentation d’offre.
-1. Création d’espaces d’offre pour chaque environnement et configuration des fonctions de rendu. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+1. Création de profils utilisateur. Pour plus d’informations, consultez la section [Profils d’opérateurs](../../interaction/using/operator-profiles.md).
+1. Créer un environnement d’offres en ciblant la dimension. Voir à ce sujet la section [Créer un environnement d’offre](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+1. Créer des règles de typologie pour chaque environnement. Voir à ce sujet la section [Créer et référencer une règle de présentation d’offre](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
+1. Créer des emplacements d’offre pour chaque environnement et configuration des fonctions de rendu. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 1. Paramétrage du moteur d&#39;offres dans le cas d&#39;interactions entrantes, afin de proposer et mettre à jour une ou plusieurs offres.
 
-   Les différents modes d’intégration sont détaillés dans [A propos des canaux](../../interaction/using/about-inbound-channels.md)entrants.
+   Les différents modes d’intégration sont détaillés dans [A propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 >
 >Les étapes suivantes sont destinées à être réalisées par un profil de type **Chargé d&#39;offres**.
 
-1. Création de catégories d’offres dans des environnements de conception. For more on this, refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md).
-1. Création d’offres dans des environnements de conception. For more on this, refer to [Creating an offer](../../interaction/using/creating-an-offer.md).
-1. Approbation et publication d’offres sur un ou plusieurs espaces afin de les rendre disponibles dans des environnements dynamiques pour le gestionnaire de diffusion. Pour plus d’informations, reportez-vous à la section [Approbation et activation d’une offre](../../interaction/using/approving-and-activating-an-offer.md).
+1. Créer des catégories d’offres dans des environnements d’édition. Voir à ce sujet la section [Créer des catégories d&#39;offres](../../interaction/using/creating-offer-categories.md).
+1. Créer des d’offres dans des environnements d’édition. Voir à ce sujet la section [Créer une offre](../../interaction/using/creating-an-offer.md).
+1. Validation et mise en ligne des offres sur un ou plusieurs emplacements afin de les rendre disponibles dans les environnements en ligne pour le chargé de diffusion. Voir à ce sujet la section [Valider et activer une offre](../../interaction/using/approving-and-activating-an-offer.md).
 
 ## Utilisation du catalogue d&#39;offres {#using-the-offer-catalog-}
 
@@ -62,5 +62,5 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 >Les étapes suivantes sont destinées à être réalisées par un profil de type **Chargé de diffusions**. Ce dernier intervient uniquement sur les offres présentes dans les environnements en ligne.
 
 1. Créer une campagne.
-1. Référence à une offre dans une campagne ou une diffusion de campagne. For more on this, refer to [About outbound channels](../../interaction/using/about-outbound-channels.md).
+1. Référencer une offre dans une campagne ou l’envoi d’une campagne. Voir à ce sujet la section [A propos des canaux sortants](../../interaction/using/about-outbound-channels.md).
 
