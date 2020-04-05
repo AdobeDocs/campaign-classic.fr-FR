@@ -64,7 +64,7 @@ Le schéma suivant représente les jointures entre les différentes tables une f
 
 Dans cet exemple, vous allez intégrer une table d&#39;actes d&#39;achats dans votre module de gestion de la réaction en utilisant la table des destinataires d&#39;Adobe Campaign (**[!UICONTROL nms:recipient]** ).
 
-La table des journaux de réponses sur un destinataire **[!UICONTROL nms:remaMatchRcp]** est étendue pour ajouter un lien au schéma de la table d&#39;achat. Dans l’exemple suivant, le tableau d’achat s’appelle **demo:purchase**.
+La table des logs de réaction d&#39;un destinataire **[!UICONTROL nms:remaMatchRcp]** est étendue pour ajouter un lien au schéma de la table d&#39;achats. Dans l&#39;exemple suivant, la table d&#39;achats s&#39;appelle **demo:purchase**.
 
 1. Via l&#39;explorateur Adobe Campaign, sélectionnez le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**.
 1. Cliquez-droit sur **Destinataires** puis sélectionnez **[!UICONTROL Actions]** et **[!UICONTROL Modifier les options de la dimension de ciblage]**.
@@ -113,7 +113,7 @@ Dans cet exemple, vous allez intégrer une table d&#39;actes d&#39;achat dans vo
 
    La table des individus étant différente de la table des destinataires par défaut d&#39;Adobe Campaign, il est nécessaire de créer un nouveau schéma des logs de réaction basé sur le schéma **[!UICONTROL nms:remaMatch]**. Il faut ensuite le compléter avec les liens vers les logs de diffusion et la table des actes d&#39;achats.
 
-   In the following example, we will use the **demo:broadLogPers** schema and the **demo:purchase** transaction table:
+   Dans l&#39;exemple ci-dessous, nous utilisons le schéma **demo:broadLogPers** et la table des transactions est **demo:purchase** :
 
    ```
    <srcSchema desc="Linking of a recipient transaction to a hypothesis"    
