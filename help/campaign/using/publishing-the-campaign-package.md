@@ -42,7 +42,7 @@ Un message de notification est alors envoyé à l&#39;opérateur validant afin d
 
 >[!NOTE]
 >
->Au niveau de l&#39;entité organisationnelle, vous pouvez également spécifier des réviseurs pour approuver les commandes. For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+>Au niveau de l&#39;entité organisationnelle, vous pouvez également spécifier des opérateurs validants pour approuver les commandes. Voir à ce propos la section [Entités organisationnelles](../../campaign/using/about-distributed-marketing.md#organizational-entities).
 
 ## Ajouter d&#39;autres opérateurs validants {#adding-other-reviewers}
 
@@ -68,4 +68,4 @@ Si aucun validant n&#39;a été défini ou si aucun des opérateurs notifiés n&
 
 ![](assets/s_advuser_mkg_dist_valid_button.png)
 
-Après approbation, la campagne est publiée, ajoutée à la liste et, dès que la date de disponibilité est atteinte, les entités locales peuvent l’utiliser. Si les entités locales ont été spécifiées lors de la création de la campagne, un message est envoyé aux opérateurs du groupe de notification pour les informer que la campagne est disponible. Si aucune entité n’a été spécifiée au préalable, la campagne est disponible par défaut pour toutes les entités locales. For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+Une fois validée, l&#39;opération est alors publiée, ajoutée à la liste et les entités locales pourront l&#39;utiliser dès que sa date de disponibilité sera atteinte. Si des entités locales ont été définies lors de la création de l&#39;opération, un message est envoyé aux opérateurs appartenant au groupe de notification des kits d&#39;opération pour les informer de la disponibilité de l&#39;opération. Si aucune entité n&#39;a été définie en amont, l&#39;opération est accessible par défaut pour toutes les entités locales. Voir à ce propos la section [Entités organisationnelles](../../campaign/using/about-distributed-marketing.md#organizational-entities).
