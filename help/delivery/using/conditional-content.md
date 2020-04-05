@@ -48,7 +48,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
    Pour cela :
 
-   * Select the first element of the expression, **`<field>`**, (by default, this element is highlighted during insertion of the **if** expression) and click the personalization icon to replace it with the test field.
+   * Sélectionnez le premier élément de l’expression **`<field>`** (par défaut, cet élément est en surbrillance lors de l’insertion de l’expression **if**) et cliquez sur l’icône de personnalisation pour le remplacer par le champ sur lequel porte le test.
 
       ![](assets/s_ncs_user_conditional_content03.png)
 
@@ -81,7 +81,7 @@ Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinatai
 
 ## Créer un email multilingue {#creating-multilingual-email}
 
-Dans l’exemple ci-dessous, vous apprendrez à créer un courrier électronique multilingue. Le contenu s’affiche dans une langue ou dans une autre selon la langue préférée du destinataire.
+Dans l’exemple ci-dessous, vous apprendrez à créer un courrier électronique multilingue. Le contenu s’affiche dans une langue ou dans une autre selon la langue préférée du .
 
 1. Créez un email et sélectionnez la population cible. Dans cet exemple, la condition d&#39;affichage d&#39;une version ou d&#39;une autre sera basée sur la valeur **Langue** du profil du destinataire. Dans cet exemple, ces valeurs sont définies sur **EN**, **FR**, **ES**.
 1. Dans le contenu HTML de l&#39;email, cliquez sur l&#39;onglet **[!UICONTROL Source]** et collez le code suivant :
