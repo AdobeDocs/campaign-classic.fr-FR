@@ -61,7 +61,7 @@ gdb nlserver <coreFile>
 
 Le support technique d&#39;Adobe Campaign peut vous demander de lancer cette commande à l&#39;aide d&#39;un exécutable spécifique (que nous vous fournirons).
 
-Dans ce cas, exécutez simplement la commande suivante en remplaçant **nlserver** par le fichier exécutable fourni par Adobe Campaign :
+Dans ce cas, exécutez simplement la commande suivante en remplaçant **nlserver** par le fichier exécutable fourni par Adobe Campaign :
 
 ```
 gdb nlserver <coreFile>
