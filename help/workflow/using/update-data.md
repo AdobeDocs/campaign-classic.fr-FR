@@ -123,7 +123,7 @@ Les données des enregistrements secondaires sont associées à l&#39;enregistre
 
 ## Exemple : mise à jour de données suite à un enrichissement {#example--update-data-following-an-enrichment}
 
-L&#39; [étape 2 : L&#39;écriture de données enrichies dans la section de tableau](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) Achats du cas d&#39;utilisation qui détaille la création d&#39;une liste de récapitulation offre un exemple de mise à jour de données après une activité d&#39;enrichissement.
+La section [Etape 2 : Ecriture des données enrichies dans la table « Achats »](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) du cas d&#39;utilisation qui détaille la création d&#39;une liste de récapitulation offre un exemple de mise à jour de données après une activité d&#39;enrichissement.
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
