@@ -22,7 +22,7 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 # Paramétrages spécifiques v6.02{#specific-configurations-in-v6-02}
 
-The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
+La section suivante décrit le paramétrage supplémentaire à effectuer lorsque vous migrez depuis une v6.02. Vous devez également effectuer le paramétrage décrit dans la section [Paramétrages généraux](../../migration/using/general-configurations.md).
 
 ## Des applications web {#web-applications}
 
@@ -42,13 +42,13 @@ Si vous n&#39;utilisiez pas ces applications web, exécutez le script de nettoya
 Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/xtk/fra/js/removeOldWebApp.js
 ```
 
-If you have modified these web applications and would like to continue using them in v7, you must activate the **allowSQLInjection** option in your different security zones and re-start the postupgrade. Consultez la section [SQLData](../../migration/using/general-configurations.md#sqldata) pour en savoir plus.
+Si vous aviez modifié ces applications web et souhaitez continuer à les utiliser en v7, vous devez activer l&#39;option **allowSQLInjection** dans vos différentes zones de sécurité et relancer le postupgrade. Consultez la section [SQLData](../../migration/using/general-configurations.md#sqldata) pour en savoir plus.
 
-## Convivialité : Page d’accueil et navigation {#user-friendliness--home-page-and-navigation}
+## Convivialité :  et navigation {#user-friendliness--home-page-and-navigation}
 
 >[!IMPORTANT]
 >
->If you would like to continue using v6.02 overview-type web applications, you must activate the **allowSQLInjection** option in your different security zones before the postupgrade. Reportez-vous aux applications [](#web-applications)Web.
+>Si vous souhaitez continuer à utiliser des applications web v6.02 de type Vues d&#39;ensemble, vous devez activer l&#39;option **allowSQLInjection** dans vos différentes zones de sécurité avant le postupgrade. Voir à ce sujet la section [Applications Web](#web-applications).
 
 Après une migration depuis la version v6.02, la page d&#39;accueil d&#39;Adobe Campaign v6.02 n&#39;est plus affichée, mais reste accessible et compatible avec Adobe Campaign v7.
 
@@ -56,7 +56,7 @@ Pour continuer à utiliser la page d&#39;accueil v6.02, vous devez installer un 
 
 Pour cela, importez le package de compatibilité :
 
-Click **[!UICONTROL Tools > Advanced > Import package]** and choose the **campaignMigration.xml** package in the **`\nl\datakit\nms\[Your language]\package\optional`**.
+Cliquez sur le menu **[!UICONTROL Outils > Avancé > Import de package]** et choisissez le package **campaignMigration.xml** dans le dossier **`\nl\datakit\nms\[Your language]\package\optional`**.
 
 Pour permettre l&#39;accès aux interfaces de type Applications web v6.02, l&#39;option **sessionTokenOnly** des paramètres du serveur doit être activée, dans le fichier **serverConf.xml** :
 
@@ -70,7 +70,7 @@ Une fois le package installé, la page d&#39;accueil d&#39;Adobe Campaign v7 est
 
 ![](assets/dashboards.png)
 
-Tous les liens de cette page d’accueil pointent vers les écrans v7, à l’exception des listes (liste **[!UICONTROL des]** opérations, suivi des **[!UICONTROL remises dans les opérations]**, etc.). lien vers la présentation v6.02 (applications Web).
+Tous les liens de cette page d&#39;accueil pointent vers les écrans v7, à l&#39;exception des listes (**[!UICONTROL liste des opérations]**, **[!UICONTROL tracking des diffusions dans les opérations]**, etc.) qui renvoient à la présentation v6.02 (applications Web).
 
 ![](assets/dashboards2.png)
 
@@ -84,4 +84,4 @@ Si vous souhaitez ajouter une autre vue d&#39;ensemble paramétrée en v6.02, vo
 
 Après une migration d&#39;une instance de pilotage Message Center, vous devez republier les modèles de messages transactionnels pour que ceux-ci fonctionnent.
 
-Dans v7, les noms des modèles de message transactionnel sur les instances d’exécution ont changé. Ils sont actuellement précédés du nom de l’opérateur qui correspond à l’instance de contrôle sur laquelle ils sont créés, par exemple **control1_template1_rt** (où **control1** est le nom de l’opérateur). Si vous disposez d’un volume important de modèles, nous vous recommandons de supprimer les anciens modèles sur les instances de contrôle.
+Dans la v7, les noms des modèles de messages transactionnels sur les instances d&#39;exécution ont changé. Ils sont précédés du nom de l&#39;opérateur qui correspond à l&#39;instance de pilotage sur laquelle ils sont créés, par exemple **control1_template1_rt** (où **control1** est le nom de l&#39;opérateur). Si vous disposez d&#39;un volume important de modèles, nous vous recommandons de supprimer les anciens sur les instances de pilotage.
