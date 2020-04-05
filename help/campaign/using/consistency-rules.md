@@ -26,7 +26,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 Adobe Campaign permet d&#39;assurer la cohérence des communications au travers d&#39;un ensemble de règles regroupées dans des typologies de campagne. Ces règles ont pour objectif d&#39;assurer un contrôle sur les diffusions envoyées aux destinataires, leur volume, leur nature, leur pertinence, etc.
 
-**Les règles de capacité** , par exemple, peuvent éviter de surcharger la plateforme concernée par la diffusion de messages. Par exemple, les offres spéciales qui contiennent un lien de téléchargement ne doivent pas être envoyées simultanément à un trop grand nombre de personnes pour éviter de saturer le serveur ; les campagnes par téléphone ne doivent pas dépasser la capacité de traitement des centres d&#39;appel, etc. For more on this, refer to [Controlling capacity](#controlling-capacity).
+Des règles de **capacité** peuvent par exemple éviter de surcharger la plateforme concernée par la diffusion. Par exemple, une offre spéciale contenant un lien de téléchargement ne doit pas s’adresser au même moment à une population trop nombreuse afin de ne pas saturer le serveur, une campagne téléphonique ne doit pas excéder la capacité de traitement du centre d’appels, etc. Voir à ce propos la section [Contrôler la capacité](#controlling-capacity).
 
 ## Contrôler la capacité {#controlling-capacity}
 
@@ -62,7 +62,7 @@ Pour créer une règle de capacité, procédez comme suit :
 
 ## Définir la charge maximale {#defining-the-maximum-load}
 
-Pour définir la charge maximale, vous devez définir les lignes de disponibilité. Pour ce faire, deux options sont disponibles : vous pouvez créer manuellement une ou plusieurs lignes de disponibilité (voir [Ajout de lignes de disponibilité une par une](#adding-availability-lines-one-by-one)) ou créer des plages de disponibilité. La fréquence de ces périodes peut être automatisée (voir [Ajouter un ensemble de lignes](#add-a-set-of-availability-lines)de disponibilité).
+Pour définir la charge maximale, vous devez définir les lignes de disponibilité. Pour ce faire, deux options sont disponibles : vous pouvez créer manuellement une ou plusieurs lignes de disponibilité (voir la section [Ajouter unitairement les lignes de disponibilité](#adding-availability-lines-one-by-one)) ou créer des plages de disponibilité. Il est possible d’automatiser la fréquence de ces périodes (voir la section [Ajouter un ensemble de lignes de disponibilité](#add-a-set-of-availability-lines)).
 
 ### Ajouter unitairement les lignes de disponibilité {#adding-availability-lines-one-by-one}
 
@@ -114,7 +114,7 @@ Le nombre de messages à traiter est réparti proportionnellement sur la totalit
 
 >[!NOTE]
 >
->En cas de surcharge, les messages enregistrés sont sélectionnés selon la formule définie dans les propriétés de remise.
+>En cas de surcharge, les messages conservés sont sélectionnés selon la formule définie au niveau des propriétés de la diffusion.
 
 ![](assets/campaign_opt_create_capacity_06.png)
 
