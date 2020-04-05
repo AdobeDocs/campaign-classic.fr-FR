@@ -1,6 +1,6 @@
 ---
-title: Envoi d’un courrier électronique avec Adobe Campaign Classic
-description: Découvrez les paramètres spécifiques à la diffusion des courriers électroniques dans Adobe Campaign Classic.
+title: Envoyer un email avec Adobe Campaign Classic
+description: Découvrez les paramètres spécifiques à la diffusion des emails dans Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -18,16 +18,16 @@ source-git-commit: 7c800c20fff89b97f6fa38b3c659ca765765e157
 ---
 
 
-# Sending an email{#sending-an-email}
+# Envoyer un email{#sending-an-email}
 
-To approve your email and send it to the recipients of the delivery being created, click **[!UICONTROL Send]**.
+Pour valider votre email et l’envoyer aux destinataires de la diffusion en cours de création, cliquez sur **[!UICONTROL Envoyer]**.
 
 Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion est présenté dans les sections ci-dessous :
 
 * [Valider la diffusion](../../delivery/using/steps-validating-the-delivery.md)
 * [Envoyer la diffusion](../../delivery/using/steps-sending-the-delivery.md)
 
-Les sections ci-dessous détaillent les paramètres spécifiques à la diffusion des courriers électroniques.
+Les sections ci-dessous détaillent les paramètres spécifiques à la diffusion des emails.
 
 ## Archiver des emails {#archiving-emails}
 
@@ -59,7 +59,7 @@ Pour ce faire, procédez comme suit :
 
 La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l&#39;email.
 
-Par défaut, la page miroir est générée si le lien est inséré dans le contenu du courrier. Pour plus d’informations sur l’insertion de blocs de personnalisation, reportez-vous à la section Blocs de [personnalisation](../../delivery/using/personalization-blocks.md).
+Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. Pour plus d’informations sur l’insertion de blocs de personnalisation, consultez la section [Blocs de personnalisation](../../delivery/using/personalization-blocks.md).
 
 Dans les propriétés de diffusion, le champ **[!UICONTROL Mode]** de l&#39;onglet **[!UICONTROL Validité]** vous permet de modifier le mode de génération de la page.
 
@@ -89,13 +89,13 @@ Vous pouvez également définir une adresse spécifique depuis cet écran afin d
 
 ## Encodage des caractères {#character-encoding}
 
-Dans l’onglet **[!UICONTROL SMTP]** des paramètres de remise, la section Codage **[!UICONTROL des]** caractères vous permet de définir un codage spécifique.
+Dans l’onglet **[!UICONTROL SMTP]** des paramètres de diffusion, la section **[!UICONTROL Encodage des caractères]** vous permet de définir un encodage spécifique.
 
-Le codage par défaut est UTF-8. Si certains fournisseurs de messagerie de vos destinataires ne prennent pas en charge le codage UTF-8 standard, vous pouvez définir un codage spécifique pour afficher correctement les caractères spéciaux sur les destinataires de vos courriels.
+L’encodage par défaut est UTF-8. Si certains fournisseurs de messagerie de vos destinataires ne prennent pas en charge l’encodage UTF-8 standard, vous pouvez définir un encodage spécifique pour afficher correctement les caractères spéciaux sur les emails de vos destinataires.
 
-Par exemple, vous souhaitez envoyer un courrier électronique contenant des caractères japonais. Pour vous assurer que tous les caractères s’afficheront correctement à vos destinataires au Japon, vous pouvez utiliser un encodage prenant en charge les caractères japonais plutôt que le format UTF-8 standard.
+Par exemple, vous souhaitez envoyer un email contenant des caractères japonais. Pour vous assurer que tous les caractères s’afficheront correctement à vos destinataires au Japon, vous pouvez utiliser un encodage prenant en charge les caractères japonais plutôt que le format UTF-8 standard.
 
-Pour ce faire, sélectionnez l’option **[!UICONTROL Forcer le codage utilisé pour les messages]** dans la section Codage **** Caractère, puis choisissez un codage dans la liste déroulante qui s’affiche.
+Pour ce faire, sélectionnez l’option **[!UICONTROL Forcer l’encodage utilisé pour les messages]** dans la section **[!UICONTROL Encodage des caractères]**, puis choisissez un encodage dans la liste déroulante qui s’affiche.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
