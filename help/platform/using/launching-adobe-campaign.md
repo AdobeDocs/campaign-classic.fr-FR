@@ -42,7 +42,7 @@ Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
 1. Saisissez votre mot de passe dans le champ **[!UICONTROL Mot de passe]**.
 
-   **[!UICONTROL La première fois que vous accédez à la base de données, votre mot de passe est celui que vous donne l’administrateur. Une fois connecté, vous pouvez modifier votre mot de passe via]** Outils > Modifier le mot de passe... . Des détails sur les opérateurs et les connexions sont disponibles dans la gestion des [](../../platform/using/access-management.md)accès.
+   La première fois que vous accédez à la base de données, votre mot de passe est celui que vous aura attribué l&#39;administrateur. Une fois que vous serez connecté, vous pourrez personnaliser votre mot de passe via le menu **[!UICONTROL Outils > Changer le mot de passe...]** Des détails sur les opérateurs et les connexions sont disponibles dans [Gestion des accès](../../platform/using/access-management.md).
 
 1. Cliquez sur **[!UICONTROL Se connecter]** pour valider.
 
@@ -73,7 +73,7 @@ Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
 Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ainsi que leurs permissions respectives, sont définis par l&#39;administrateur du système Adobe Campaign dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;arborescence d&#39;Adobe Campaign.
 
-This functionality is detailed in the [Access management](../../platform/using/access-management.md) section.
+Cette fonctionnalité est décrite dans la section [Gestion des accès](../../platform/using/access-management.md).
 
 ## Déconnexion d&#39;Adobe Campaign {#disconnecting-from-adobe-campaign}
 
