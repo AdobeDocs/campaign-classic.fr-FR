@@ -59,20 +59,20 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
    * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
    * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers serveur applicatif.
 
-* Pare-feu configuré pour ouvrir les ports STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.). Pour plus d&#39;informations, reportez-vous à la section Accès [aux](../../installation/using/network-configuration.md#database-access)bases de données.
+* Configuration du firewall pour l&#39;ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.). Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
 
 ### Installation du serveur applicatif {#installing-the-application-server}
 
-Suivez les étapes pour installer une instance autonome depuis le serveur d’applications Adobe Campaign jusqu’à la création de la base de données (étape 12). Reportez-vous à [Installation et configuration (machine unique)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+Respectez les étapes d&#39;installation d&#39;une instance mono-machine à partir du serveur applicatif Adobe Campaign jusqu&#39;à la création de la base de données (étape 12). Voir [Installer et configurer (mono-machine)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 La machine n&#39;étant pas un serveur de tracking, ne pas tenir compte de l&#39;intégration du serveur Web.
 
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
 * Nom de l&#39;instance : **demo**
-* DNS mask: **console.campaign.net*** (only for client console connections and for reports)
+* Masque DNS : **console.campaign.net*** (uniquement pour la connexion des consoles clientes et pour les rapports)
 * Langue : française
-* Database: **campaign:demo@dbsrv**
+* Base de données : **campaign:demo@dbsrv**
 
 ### Installation des deux serveurs frontaux {#installing-the-two-frontal-servers}
 
@@ -86,8 +86,8 @@ Les étapes sont les suivantes :
 
 1. Suivez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
 
-   * Pour Linux : [Intégration à un serveur Web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * Pour Windows : [Intégration à un serveur Web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * Pour Linux : [Intégration à un serveur Web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * Pour Windows : [Intégration à un serveur Web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
 1. Créez l&#39;instance nommée **demo**. Pour cela, deux méthodes sont possibles :
 
@@ -95,9 +95,9 @@ Les étapes sont les suivantes :
 
       ![](assets/install_create_new_connexion.png)
 
-      Pour plus d’informations, reportez-vous à la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
+      Voir à ce sujet la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      or
+      ou
 
    * Créer l&#39;instance en ligne de commande :
 
@@ -105,14 +105,14 @@ Les étapes sont les suivantes :
       nlserver config -addinstance:demo/tracking.campaign.net*
       ```
 
-      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
+      Voir à ce sujet la section [Création d&#39;une instance](../../installation/using/command-lines.md#creating-an-instance).
    Le nom de l&#39;instance est le même que le celui du serveur applicatif.
 
    La connexion au serveur avec le module **nlserver web** (pages miroir, désinscription) s&#39;effectuera à partir de l&#39;URL du répartiteur de charge (tracking.campaign.net).
 
 1. Remplacez le mot de passe **internal** par celui du serveur applicatif.
 
-   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   Voir à ce sujet la section [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 1. Rattachez la base de données sur l&#39;instance :
 
@@ -120,11 +120,11 @@ Les étapes sont les suivantes :
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. In the **config-default.xml** and **config-demo.xml** files, enable the **web**, **trackinglogd** and **mta** modules.
+1. A partir des fichiers **config-default.xml** et **config-demo.xml**, activez les modules **web**, **trackinglogd** et **mta**.
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   Voir à ce sujet la section [Activation des processus](../../installation/using/campaign-server-configuration.md#enabling-processes).
 
-1. Edit the **serverConf.xml** file and populate:
+1. Editez le fichier **serverConf.xml** et renseignez :
 
    * la configuration DNS du module MTA :
 
@@ -136,7 +136,7 @@ Les étapes sont les suivantes :
       >
       >Le paramètre **nameServers** n&#39;est utile que sous Windows.
 
-      For more on this, refer to [Delivery settings](../../installation/using/campaign-server-configuration.md#delivery-settings).
+      Voir à ce sujet la section [Paramètres de diffusion](../../installation/using/campaign-server-configuration.md#delivery-settings).
 
    * les serveurs de tracking redondants dans les paramètres de la redirection :
 
@@ -145,7 +145,7 @@ Les étapes sont les suivantes :
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```
 
-      For more on this, refer to [Redundant tracking](../../installation/using/configuring-campaign-server.md#redundant-tracking).
+      Voir à ce sujet la section [Tracking redondant](../../installation/using/configuring-campaign-server.md#redundant-tracking).
 
 1. Démarrez le site web et testez la redirection à partir de l&#39;URL : [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
 
@@ -155,7 +155,7 @@ Les étapes sont les suivantes :
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
    ```
 
-   or
+   ou
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
@@ -163,19 +163,19 @@ Les étapes sont les suivantes :
 
    Voir à ce propos les sections suivantes :
 
-   * For Linux: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * For Windows: [Launching the Web server and testing the configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+   * Pour Windows : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Démarrer le serveur Adobe Campaign.
 1. Connectez-vous avec une console cliente Adobe Campaign avec l&#39;identifiant (login) **admin** sans mot de passe et lancez l&#39;assistant de déploiement.
 
-   Pour plus d’informations, voir [Déploiement d’une instance](../../installation/using/deploying-an-instance.md).
+   Voir à ce sujet la section [Déploiement d’une instance](../../installation/using/deploying-an-instance.md).
 
    Le paramétrage est identique à celui d&#39;une instance mono-machine à l&#39;exception de la configuration du module de tracking.
 
 1. Renseignez l&#39;URL externe (celle du répartiteur de charge) utilisée pour la redirection et les URL internes des deux serveurs frontaux.
 
-   For more on this, refer to [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
+   Pour en savoir plus, consultez [Paramétrage du tracking](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
    ![](assets/d_ncs_install_tracking2.png)
 
