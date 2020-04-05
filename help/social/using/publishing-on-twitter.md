@@ -61,7 +61,7 @@ Vous devez sélectionner le ou les comptes sur lesquels vous souhaitez envoyer v
 
 ### Choisir la cible du BAT {#selecting-the-target-of-the-proof}
 
-L’onglet **[!UICONTROL Cible des épreuves]** permet de définir le compte Twitter à utiliser pour les remises de test avant la remise finale. Nous vous recommandons donc de créer un compte Twitter privé dédié à l&#39;envoi de preuves. Pour plus d’informations sur la création d’un compte Twitter privé, voir [Création d’un compte de test sur Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de sélection de la cible d’épreuve sont identiques à celles de sélection de la cible principale. Reportez-vous à [Création d’un compte test sur Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
+L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir le compte Twitter utilisé pour les diffusions de test avant la diffusion finale. Nous vous recommandons donc de créer un compte Twitter privé dédié à l&#39;envoi de BAT. Pour plus d&#39;informations sur la création d&#39;un compte Twitter privé, voir [Créer un compte Twitter de test](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de choix de la cible du BAT sont identiques à celles du choix de la cible principale. Voir à ce sujet la section [Créer un compte Twitter de test](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter).
 
 ![](assets/social_twitter_delivery_004.png)
 
@@ -88,7 +88,7 @@ L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu du tweet.
 
 >[!NOTE]
 >
->L’aperçu peut différer légèrement du tweet final. Nous vous recommandons vivement d’envoyer une preuve avant la remise finale afin d’afficher le rendu exact du tweet. Reportez-vous à [Envoi de la preuve](#sending-the-proof).
+>L&#39;aperçu peut différer légèrement du tweet final sur Twitter. Il est vivement recommandé d&#39;envoyer un BAT avant l&#39;envoi final afin de visualiser un rendu exact du tweet. Voir à ce sujet la section [Envoyer le BAT](#sending-the-proof).
 
 ### Configurer le tracking {#configuring-tracking}
 
@@ -106,7 +106,7 @@ La configuration du tracking s’effectue de la même manière que pour une diff
 
 ### Envoyer le BAT {#sending-the-proof}
 
-Nous vous recommandons vivement d’envoyer une preuve de votre publication avant la livraison finale afin d’obtenir un rendu exact de la publication sur une page de test Twitter privée. Pour plus d’informations sur la création d’un compte Twitter privé, voir [Création d’un compte de test sur Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de sélection de la cible de l&#39;épreuve sont détaillées dans [Sélection de la cible de l&#39;épreuve](#selecting-the-target-of-the-proof).
+Nous vous recommandons vivement d&#39;envoyer un BAT de votre publication avant la diffusion finale pour en voir le rendu exact sur une page Twitter de test privée. Pour plus d&#39;informations sur la création d&#39;un compte Twitter privé, voir la section [Créer un compte Twitter de test](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). Les étapes de choix de la cible du BAT sont détaillées dans la section [Choisir la cible du BAT](#selecting-the-target-of-the-proof).
 
 L’envoi du BAT s’effectue de la même manière que pour une diffusion email. Reportez-vous à [cette section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
@@ -130,20 +130,20 @@ L’envoi du BAT s’effectue de la même manière que pour une diffusion email.
 
 ### Principe de fonctionnement {#operating-principle}
 
-Le processus **[!UICONTROL Synchroniser les comptes]** Twitter (voir [Synchronisation des comptes](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)Twitter) récupère la liste des abonnés Twitter afin que vous puissiez leur envoyer des messages directs. Les abonnés récupérés sont stockés dans un tableau spécifique : le tableau des visiteurs. Pour afficher la liste des abonnés Twitter, accédez au noeud **[!UICONTROL Profils et cibles > Visiteurs]** .
+Le workflow **[!UICONTROL Synchroniser les comptes Twitter]** (voir la section [Synchroniser les comptes Twitter](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) récupère la liste des abonnés Twitter pour vous permettre de leur envoyer des messages directs. Les abonnés récupérés sont stockés dans un tableau spécifique : la table des visiteurs. Pour afficher la liste des abonnés Twitter, accédez au nœud **[!UICONTROL Profils et cibles > Visiteurs]**.
 
 ![](assets/social_twitter_visitors_001.png)
 
 >[!IMPORTANT]
 >
->In order for the workflow to recover the list of Twitter followers, the **[!UICONTROL Synchronize Twitter accounts]** box must be checked in the Edit screen of the service linked to the account. Pour plus d’informations à ce sujet, voir : La [délégation de l’accès en écriture à Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
+>Pour que le workflow récupère la liste des abonnés d&#39;un compte Twitter, la case **[!UICONTROL Synchroniser les comptes Twitter]** doit être cochée dans l&#39;écran d&#39;édition du service correspondant au compte. Pour plus d&#39;informations à ce sujet, voir la section [Déléguer les droits d&#39;écriture à Adobe Campaign](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign).
 
 Pour chaque abonné, Adobe Campaign récupère les informations suivantes :
 
 * **[!UICONTROL Origine]** : nom du réseau social (**Twitter**, dans ce cas)
 * **[!UICONTROL Id externe]** : identifiant de l&#39;utilisateur
 * **[!UICONTROL Pseudo]** : nom de compte de l&#39;utilisateur
-* **[!UICONTROL Nom]** complet : nom de l’utilisateur
+* **[!UICONTROL Nom complet]** : nom de l&#39;utilisateur
 * **[!UICONTROL Langue]** : langue de l&#39;utilisateur
 * **[!UICONTROL Nombre d&#39;amis]** : nombre d&#39;abonnés au compte de l&#39;utilisateur
 * **[!UICONTROL Fuseau horaire]** : fuseau horaire de l&#39;utilisateur
@@ -191,7 +191,7 @@ Vous devez sélectionner les abonnés à qui vous souhaitez envoyer votre messag
 
 ### Choisir la cible du BAT {#selecting-the-target-of-the-proof-1}
 
-The **[!UICONTROL Target of the proofs]** tab lets you select the follower who will receive the proof of your direct message. The selection process is the same as for the main target. Reportez-vous à [Sélection de la cible](#selecting-the-main-target)principale.
+L&#39;onglet **[!UICONTROL Cible des BAT]** permet de définir l&#39;abonné qui recevra le BAT de votre message direct. Les étapes de sélection de la cible du BAT sont les mêmes que pour la sélection de la cible principale. Voir la section [Choisir la cible principale](#selecting-the-main-target).
 
 ![](assets/social_twitter_delivery_020.png)
 
@@ -209,4 +209,4 @@ Comme pour une diffusion email, il est possible d’utiliser les champs de perso
 
 ![](assets/social_twitter_delivery_021.png)
 
-Les étapes suivantes sont identiques à celles de l’envoi d’un tweet à un compte Twitter. Reportez-vous à [Publication sur vos comptes](#publishing-on-your-twitter-accounts)Twitter.
+Les étapes suivantes sont les mêmes que pour l&#39;envoi d&#39;un tweet sur un compte Twitter. Voir la section [Publier sur vos comptes Twitter](#publishing-on-your-twitter-accounts).
