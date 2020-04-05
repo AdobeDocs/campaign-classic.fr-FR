@@ -24,7 +24,7 @@ source-git-commit: 33bf5c5a08613cf88eaace91b85a76157cac7ba1
 
 ## A propos de la confidentialité et du consentement {#about-privacy-and-consent}
 
-Adobe Campaign est un puissant outil de collecte et de traitement de très grandes quantités de données, y compris des informations personnelles. Nous encourageons tous les utilisateurs d’Adobe Campaign à travailler dans le cadre de la législation (DPA, CAN-SPAM, Directive européenne sur la confidentialité et les communications électroniques, European GDPR, CCPA, etc.), à faire une utilisation responsable et éthique des informations personnelles et à s’abstenir d’envoyer des courriels non sollicités, des notifications Push et des messages SMS (&quot;spam&quot;). Nous croyons fermement aux principes du marketing d’autorisation pour favoriser la valeur et la fidélité des clients tout au long de leur vie. Nous interdisons donc strictement l’utilisation d’Adobe Campaign pour envoyer des messages non sollicités.
+ Adobe Campaign est un puissant outil de collecte et de traitement de très grandes quantités de données, y compris des informations personnelles. Nous encourageons tous les utilisateurs de  Adobe Campaign à travailler dans le cadre de la législation (DPA, CAN-SPAM, Directive européenne sur la protection de la vie privée et les communications électroniques, RDPC européen, CCPA, etc.), à faire une utilisation responsable et éthique des informations personnelles et à s&#39;abstenir d&#39;envoyer des courriels non sollicités, des notifications Push et des messages SMS (&quot;spam&quot;). Nous croyons fermement aux principes de l&#39;pour promouvoir la valeur et la fidélité de la clientèle tout au long de sa vie, et nous interdisons donc strictement l&#39;utilisation de   pour envoyer des messages non sollicités.
 
 Voir à ce sujet la [politique de confidentialité d’Adobe Experience Cloud](https://www.adobe.com/privacy/marketing-cloud.html).
 
@@ -32,13 +32,13 @@ Prenez le temps de consulter la [liste de contrôle de sécurité et de confiden
 
 ## Gestion de la confidentialité {#privacy-management}
 
-Le GDPR (General Data Protection Regulation) est la loi de l’Union européenne sur la protection de la vie privée qui harmonise et modernise les exigences en matière de protection des données. Le règlement s&#39;applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans l&#39;UE.
+Le RGPD (Règlement général sur la protection des données) est la loi de l&#39;Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Le règlement s&#39;applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans l&#39;UE.
 
-L’ACCP (California Consumer Privacy Act) accorde aux résidents de Californie de nouveaux droits en ce qui concerne leurs renseignements personnels et impose des responsabilités en matière de protection des données à certaines entités qui exercent des activités en Californie.
+Le CCPA (California Consumer Privacy Act) fournit aux résidents de la Californie de nouveaux droits relatifs aux informations personnelles et impose des responsabilités en matière de protection des données à certaines entités qui exercent des activités en Californie.
 
 En plus de la gestion du consentement, des paramètres de rétention des données et de la gestion des droits, nous fournissons, en tant que processeur de données, des fonctionnalités supplémentaires pour vous aider à vous préparer en tant que contrôleur de données pour certaines demandes de confidentialité.
 
-Cet [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html)explique comment Adobe Campaign vous aide à gérer les différentes fonctionnalités clés de confidentialité : Droit d&#39;accès, Droit d&#39;être oublié, consentement, conservation des données et rôles utilisateur. Vous trouverez également les meilleures pratiques, afin de vous aider à respecter votre vie privée lorsque vous utilisez notre service.
+Dans cet [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html), vous apprendrez comment  Adobe Campaign vous aide à gérer les différentes fonctionnalités clés de confidentialité : Droit d&#39;accès, Droit d&#39;être oublié, consentement, conservation des données et rôles utilisateur. Vous trouverez également les meilleures pratiques, afin de vous aider à respecter votre vie privée lors de l’utilisation de notre service.
 
 ## Cookies et fonctionnalités de tracking {#cookies-and-tracking-capabilities}
 
