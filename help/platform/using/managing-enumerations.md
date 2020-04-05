@@ -95,7 +95,7 @@ Vérifiez les paramètres avant de valider cette opération.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Thus, when a user enters the value **NEILSEN** in a &quot;company&quot; field (in the Adobe Campaign console or in a form), it will automatically be replaced by the value **NIELSEN Ltd**. Value replacement is performed by the **Alias cleansing** workflow. Reportez-vous à [Exécution du nettoyage](#running-data-cleansing)des données.
+Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Voir [Exécution du cleansing des données](#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -121,13 +121,13 @@ Une fois l&#39;exécution terminée, l&#39;alias est ajouté dans la liste des a
 
 Les valeurs saisies par les utilisateurs peuvent être transformées en alias. En effet, lorsque l&#39;utilisateur saisit une valeur qui n&#39;est pas présente dans la liste des valeurs d&#39;énumération, cette valeur est stockée dans l&#39;onglet **[!UICONTROL Alias]**.
 
-The **Alias cleansing** technical workflow recovers these values every night to update itemized list. Reportez-vous à la section [Exécution du nettoyage des données](#running-data-cleansing)
+Le workflow technique **Cleansing des alias** récupère ces valeurs chaque nuit afin de mettre à jour la liste détaillée. Voir [Exécution du cleansing des données](#running-data-cleansing)
 
-If necessary, the **[!UICONTROL Hits]** column can display the number of times this value was entered. Calculating this value can be both time and memory consuming. Pour plus d’informations, reportez-vous à la section [Calcul des occurrences](#calculating-entry-occurrences)d’entrée.
+Au besoin, la colonne **[!UICONTROL Hits]** peut afficher le nombre de fois où cette valeur a été saisie. Le calcul de cette valeur peut être long et coûteux en mémoire. Voir à ce sujet la section [Calcul des occurrences de saisie](#calculating-entry-occurrences).
 
 ### Exécution de la normalisation des données {#running-data-cleansing}
 
-Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. The configurations defined for enumerations are applied during execution. Reportez-vous à la section Processus [de nettoyage des](#alias-cleansing-workflow)alias.
+Le cleansing des données est réalisé par le workflow technique **[!UICONTROL Cleansing des alias]**. Les paramétrages définis pour les énumérations sont appliqués lors de son exécution. Voir [Workflow de cleansing des alias](#alias-cleansing-workflow).
 
 Vous pouvez déclencher la normalisation via le lien **[!UICONTROL Uniformiser les valeurs...]**.
 
@@ -158,7 +158,7 @@ Vous pouvez également créer un workflow dédié afin que ce calcul s&#39;exéc
 
 Pour cela, créez une copie du workflow **[!UICONTROL Gestion des alias]**, modifiez le planificateur et utilisez les paramètres suivants dans l&#39;activité **[!UICONTROL Uniformisation des valeurs des énumérations]** :
 
-* **-updateHits** pour mettre à jour le nombre d&#39;accès d&#39;alias,
+* **updateHits** pour actualiser le nombre d’apparitions des alias,
 * **-updateHits:full** pour recalculer toutes les apparitions des alias.
 
 #### Workflow de gestion des alias {#alias-cleansing-workflow}
