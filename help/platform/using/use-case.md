@@ -49,7 +49,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   Vous pouvez accéder à ces champs pour définir les conditions de filtre dans le corps de l’éditeur de filtres. Un filtre d’application est défini exactement de la même manière qu’un filtre avancé. See [Creating an advanced filter](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   Ces champs seront accessibles pour la définition des conditions de filtrage dans le corps de l&#39;éditeur de filtres. Le mode de définition d&#39;un filtre applicatif est identique à celui d&#39;un filtre avancé. Voir [Créer un filtre avancé](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
 1. Créez un nouveau filtre sur les abonnements afin de n&#39;afficher que les abonnements pour lequel aucun format des email n&#39;a été défini :
 
