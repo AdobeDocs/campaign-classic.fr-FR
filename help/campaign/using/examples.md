@@ -22,7 +22,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 # Exemples{#examples}
 
-## Creating a local campaign (by form) {#creating-a-local-campaign--by-form-}
+## Créer une campagne locale (par formulaire) {#creating-a-local-campaign--by-form-}
 
 Le type d&#39;interface Web **par formulaire** implique l&#39;utilisation d&#39;une **application Web**. Cette application Web peut contenir toute sorte d&#39;éléments définis personnalisés, selon le paramétrage. Par exemple, vous pouvez proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des APIs dédiées.
 
@@ -78,7 +78,7 @@ Dans cet exemple, les APIs suivantes sont utilisées :
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## Creating a collaborative campaign (by target approval) {#creating-a-collaborative-campaign--by-target-approval-}
+## Créer une opération collaborative (par validation de la cible) {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### Introduction {#introduction}
 
@@ -157,7 +157,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
    * le contenu du message qui sera envoyé aux entités locales lors de la notification,
    * le rappel pour la validation,
-   * traitement attendu pour la campagne.
+   * le traitement anticipé de l&#39;opération..
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
 1. Sauvegardez votre enregistrement.
@@ -180,7 +180,7 @@ Vous pouvez désormais créer un **kit d&#39;opération** à partir de l&#39;uni
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## Creating a collaborative campaign (by form) {#creating-a-collaborative-campaign--by-form-}
+## Créer une campagne collaborative (par formulaire) {#creating-a-collaborative-campaign--by-form-}
 
 ### Introduction {#introduction-1}
 
@@ -234,11 +234,11 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. **[!UICONTROL Dans l’onglet]** Modifier **[!UICONTROL de la campagne, cliquez sur les paramètres de campagne]** avancés... pour le configurer en tant que campagne locale. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
+1. Dans l’ongle **[!UICONTROL Editer]** de la campagne, cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** Pour la configurer comme une campagne locale. Voir la section [Créer une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 
-1. Configurez le processus de campagne et le formulaire Web. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
+1. Configurez le workflow de l&#39;opération et le formulaire web. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
 1. Créez votre kit d&#39;opération en spécifiant le planning de réalisation et les entités locales impliquées.
 
    ![](assets/mkg_dist_use_case_form_3.png)
