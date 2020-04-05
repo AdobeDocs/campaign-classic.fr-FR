@@ -37,5 +37,5 @@ Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou
 
 >[!NOTE]
 >
->Les seuils d’avertissement (orange) et d’alerte (rouge) peuvent être configurés dans l’assistant de déploiement. Reportez-vous à [Surveillance des seuils](../../message-center/using/monitoring-thresholds.md).
+>Les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs sont paramétrables dans l&#39;assistant de déploiement. Voir [Seuils de suivi](../../message-center/using/monitoring-thresholds.md).
 
