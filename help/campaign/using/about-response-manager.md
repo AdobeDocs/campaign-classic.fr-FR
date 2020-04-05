@@ -48,19 +48,19 @@ Chaque hypothèse est associée à une seule table des transactions. Une diffusi
 
 ## Méthodologie {#method}
 
-Before you start using Response Manager, refer to [Configuration](../../campaign/using/configuration.md) and carry out the necessary configurations.
+Avant d&#39;utiliser le Response Manager, consultez la section [Configuration](../../campaign/using/configuration.md) et procédez aux paramétrages qui vous sont nécessaires.
 
 Pour pouvoir lancer une hypothèse sur une diffusion ou une offre, vous devez préalablement définir son contexte dans un modèle auquel vous ferez référence pour chaque hypothèse créée.
 
 Pour définir et créer des hypothèses de mesure, procédez comme suit :
 
-1. Définissez un modèle d’hypothèse. Reportez-vous à [Création d&#39;un modèle](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)d&#39;hypothèse.
-1. Créez une ou plusieurs hypothèses sur une diffusion existante. Refer to [Referencing a hypothesis in a campaign delivery](../../campaign/using/creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery).
+1. Définissez un modèle d’hypothèse. Consulter [Créer un modèle d&#39;hypothèse](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
+1. Créez une ou plusieurs hypothèses sur une diffusion existante. Consulter [Référencer une hypothèse dans une diffusion d&#39;une campagne](../../campaign/using/creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery).
 
-   or
+   ou
 
-   Créez une ou plusieurs hypothèses sur les offres. Reportez-vous à [Création d’une hypothèse sur une offre](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-an-offer).
+   Créez une ou plusieurs hypothèses sur des offres. Consulter [Créer une hypothèse sur une offre](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-an-offer).
 
-1. Vérifier les résultats de l&#39;hypothèse. Reportez-vous à la section Suivi des [hypothèses](../../campaign/using/hypothesis-tracking.md).
-1. Relancez les hypothèses si nécessaire. Refer to [Creating a hypothesis on the fly on a delivery](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery).
+1. Vérifiez les résultats des hypothèses. Consulter la section [Suivi des hypothèses](../../campaign/using/hypothesis-tracking.md).
+1. Relancez les hypothèses si nécessaire. Consulter [Créer une hypothèse à la volée sur une diffusion](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery).
 
