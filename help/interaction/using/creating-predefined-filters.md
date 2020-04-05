@@ -52,4 +52,4 @@ Pour créer un filtre, procédez comme suit :
 
 **Rubrique connexe**
 
-* [Enregistrer les requêtes fréquemment utilisées comme filtres prédéfinis modifiables](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)
+* [Enregistrer les requêtes fréquemment utilisées comme filtres prédéfinis éditables](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)
