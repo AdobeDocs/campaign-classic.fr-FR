@@ -41,7 +41,7 @@ Avec le module Marketing Analytics, Campaign permet d&#39;effectuer les opérati
    * agréger des données et les stocker dans une table de travail afin de pré-calculer des indicateurs, selon les besoins de l&#39;utilisateur,
    * réduire ainsi le volume des données impliquées dans les différents calculs utilisés dans les rapports et dans les requêtes, optimiser fortement les temps de calcul des indicateurs,
    * simplifier l&#39;accès aux données, permettre aux utilisateurs de manipuler des données pré-agrégées ou non, selon différentes dimensions.
-   For more on this, refer to [Creating indicators](../../reporting/using/creating-indicators.md).
+   Voir à ce sujet la section [Créer les indicateurs](../../reporting/using/creating-indicators.md).
 
 1. Créer des tableaux croisés dynamiques pour :
 
@@ -49,7 +49,7 @@ Avec le module Marketing Analytics, Campaign permet d&#39;effectuer les opérati
    * sélectionner les données à afficher et leur mode d&#39;affichage,
    * personnaliser les mesures et les indicateurs utilisés,
    * proposer des outils d&#39;analyse interactive à des utilisateurs non techniques.
-   Pour plus d’informations, reportez-vous à la section [Utilisation de cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
+   Voir à ce sujet la section [Utiliser des cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
 
 1. Construire des requêtes à partir des données calculées et agrégées dans un cube.
 1. Identifier des populations et les référencer dans des listes.
@@ -112,5 +112,5 @@ Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
    ![](assets/s_advuser_cube_in_report.png)
 
-   Pour plus d’informations, reportez-vous à la section [Exploration des données dans un rapport](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
+   Consultez à ce sujet la section [Explorer les données dans un rapport](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report).
 
