@@ -48,7 +48,7 @@ L&#39;aperçu génère automatiquement le schéma étendu :
 >
 >La sauvegarde du schéma source va automatiquement lancer la génération du schéma étendu.
 
-Si vous devez vérifier la structure complète d&#39;un schéma, vous pouvez utiliser l&#39;onglet Aperçu. Si le schéma a été étendu, vous serez alors en mesure de visualiser toutes ses extensions. En complément, l&#39;onglet Documentation affiche tous les attributs et les éléments du schéma, ainsi que leurs propriétés (champ SQL, type/longueur, libellé, description). L’onglet Documentation s’applique uniquement aux schémas générés. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+Si vous devez vérifier la structure complète d&#39;un schéma, vous pouvez utiliser l&#39;onglet Aperçu. Si le schéma a été étendu, vous serez alors en mesure de visualiser toutes ses extensions. En complément, l&#39;onglet Documentation affiche tous les attributs et les éléments du schéma, ainsi que leurs propriétés (champ SQL, type/longueur, libellé, description). L&#39;onglet Documentation ne s&#39;applique qu&#39;aux schémas générés. Voir à ce propos la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
 
 ## Exemple : créer une table des contrats {#example--creating-a-contract-table}
 
@@ -67,7 +67,7 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
 
    >[!NOTE]
    >
-   >Par défaut, les schémas créés par les utilisateurs sont stockés dans l’espace de noms &quot;cus&quot;. Pour plus d&#39;informations, reportez-vous à [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+   >Par défaut, les schémas créés par les utilisateurs sont stockés dans le namespace « cus ». Voir à ce propos la section [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
 1. Créez le contenu de la table. Il est recommandé d&#39;utiliser l&#39;assistant de saisie afin de n&#39;omettre aucun paramètre. Pour cela, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
 
@@ -125,5 +125,5 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. Mettez à jour la structure de la base de données pour créer la table à laquelle le schéma sera lié. For more on this, refer to [Updating the database structure](../../configuration/using/updating-the-database-structure.md).
+1. Mettez à jour la structure de la base de données pour créer la table à laquelle le schéma sera lié. Voir à ce propos la section [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md).
 
