@@ -61,7 +61,7 @@ Voici une liste des modules concernés par des problèmes courants :
   <tr> 
    <td> syslogd </td> 
    <td> Ecriture des logs<br /> </td> 
-   <td> Si certains journaux sont manquants dans les fichiers journaux, vérifiez que le module utilise le port 6666. Reportez-vous à <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">Liste des ports</a>ouverts.<br /> </td> 
+   <td> En cas d’absence de logs dans les fichiers de log : vérifier si le module utilise bien le port 6666. Voir <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">Liste des ports ouverts</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> tracking </td> 
@@ -71,7 +71,7 @@ Voici une liste des modules concernés par des problèmes courants :
   <tr> 
    <td> trackinglogd </td> 
    <td> Serveur d'écriture et de purge des logs de tracking<br /> </td> 
-   <td> Vérifiez ce module si les journaux de suivi ne sont plus transférés et qu’il n’y a aucune trace de journaux dans les fichiers du serveur. Reportez-vous à la section <a href="../../production/using/tracking-logs-issues.md" target="_blank">Suivi des problèmes</a>de journaux.<br /> </td> 
+   <td> Vérifier ce module lorsque les logs de tracking ne remontent plus et qu’il n’y a aucune trace de logs dans les fichiers sur le serveur. Voir <a href="../../production/using/tracking-logs-issues.md" target="_blank">Problèmes relatifs aux logs de tracking</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> watchdog </td> 
@@ -81,12 +81,12 @@ Voici une liste des modules concernés par des problèmes courants :
   <tr> 
    <td> web </td> 
    <td> Serveur applicatif (HTTP et SOAP)<br /> </td> 
-   <td> Vérifier ce module si les connexions console et web ne marchent pas et provoquent une erreur de type <strong> xtk:session.</strong><br /> </td> 
+   <td> Vérifier ce module si les connexions console et web ne fonctionnent pas et provoquent une erreur de type <strong>xtk:session.</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> wfserver </td> 
    <td> Contrôle l'exécution des instances de workflows<br /> </td> 
-   <td> Si vous rencontrez des problèmes, redémarrez ce module. Si nécessaire, appliquez la procédure pour accroître la précision des journaux décrits dans la section <a href="../../production/using/log-precision.md" target="_blank">Précision</a> du journal.<br /> </td> 
+   <td> Si vous rencontrez des problèmes, redémarrez ce module. Si nécessaire, appliquez la procédure pour accroître la précision des logs décrite dans la section <a href="../../production/using/log-precision.md" target="_blank">Précision des logs</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
