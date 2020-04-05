@@ -1,7 +1,7 @@
 ---
-title: Version 18.4
-seo-title: Version 18.4
-description: Version 18.4
+title: Version 18.4
+seo-title: Version 18.4
+description: Version 18.4
 seo-description: null
 page-status-flag: never-activated
 uuid: d132570e-20e6-4550-95bd-176701f43b19
@@ -20,11 +20,11 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 ---
 
 
-# Version 18.4{#release-18-4}
+# Version 18.4{#release-18-4}
 
-## Version 18.4.5 - Version 8937{#release-18-4-5-build-8937}
+## Version 18.4.5 - Build 8937{#release-18-4-5-build-8937}
 
-21 novembre 2018
+21 novembre 2018
 
 **Améliorations**
 
@@ -49,9 +49,9 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * Amélioration du temps disponible de la mémoire partagée lors du traitement des enfants morts (MTA).
 * Correction d’un blocage potentiel dans Apache (tracking).
 
-## Version 18.4.4 - Version 8936{#release-18-4-4-build-8936}
+## Version 18.4.4 - Build 8936{#release-18-4-4-build-8936}
 
-1er août 2018
+1er août 2018
 
 **Améliorations**
 
@@ -61,14 +61,14 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation de l&#39;option de diffusion **[!UICONTROL Préparer les données de personnalisation avec un workflow.]** (NEO-11047, NEO-11301)
 * Correction d&#39;une erreur aléatoire qui entraînait le remplacement incorrect des propriétés d&#39;une diffusion. (NEO-11015)
 * Correction d&#39;une erreur lors de l&#39;utilisation de champs calculés dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-11382)
-* Correction d’un problème lors de l’utilisation de données stockées dans XML dans une activité de flux de travail des réponses **** Survey. (NEO-10816)
-* Correction d’un problème lors de la mise à niveau du serveur avec la version 8935.
+* Correction d’un problème lors de l’utilisation de données stockées en XML dans une activité de workflow **[!UICONTROL Réponses au questionnaire]**. (NEO-10816)
+* Correction d’un problème lors de l’upgrade du serveur avec le build 8935.
 * Correction d&#39;un problème qui affichait des erreurs inutiles dans le log de postupgrade lorsqu&#39;une activité de workflow **[!UICONTROL Réponses au questionnaire]** n&#39;était pas entièrement configurée.
-* Teradata de la FDA : correction d’un problème lié aux champs et index auto-incrémentés dans les tables SQL.
+* FDA Teradata : correction d’un problème lié aux champs et aux index auto-incrémentés dans les tables SQL.
 
-## Version 18.4.3 - Version 8935{#release-18-4-3-build-8935}
+## Version 18.4.3 - Build 8935{#release-18-4-3-build-8935}
 
-22 juin 2018
+22 juin 2018
 
 **Améliorations**
 
@@ -80,9 +80,9 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * Correction d’une erreur lors de la synchronisation des emplacements de l’instance marketing vers l’instance d’interaction. (NEO-11162)
 * Amélioration de la gestion des index aux noms longs lors du postupgrade.
 
-## Version 18.4.2 - Version 8932{#release-18-4-2-build-8932}
+## Version 18.4.2 - Build 8932{#release-18-4-2-build-8932}
 
-22 mai 2018
+22 mai 2018
 
 **Améliorations**
 
@@ -91,9 +91,9 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * Correction d’un problème de performance qui pouvait se produire avec le processus inMail lors de l’utilisation d’un serveur de mails rebonds. (NEO-10641)
 * Correction d’un problème de mise à niveau de la base de données qui pouvait survenir lors de la mise à niveau de plus de 1 000 schémas.
 
-## Version 18.4 - Version 8931{#release-18-4-build-8931}
+## Version 18.4 - Build 8931{#release-18-4-build-8931}
 
-24 Avril 2018
+24 avril 2018
 
 **Nouveautés**
 
