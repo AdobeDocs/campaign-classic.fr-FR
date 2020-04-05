@@ -20,7 +20,7 @@ source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 ---
 
 
-# Meilleures pratiques pour les cubes{#concepts-and-methodology}
+# Bonnes pratiques relatives aux cubes{#concepts-and-methodology}
 
 ## Mise en classe des données {#data-binning}
 
@@ -28,9 +28,9 @@ La mise en classe permet de simplifier l&#39;affichage des données en regroupan
 
 Globalement, trois types de mise en classe sont possibles :
 
-1. Utilisation de plages de valeurs définies manuellement. Par exemple, âge, panier d&#39;achat moyen, nombre de livraisons ouvertes, etc.). For more on this, refer to [Defining each bin](#defining-each-bin).
-1. Dynamiquement, selon les valeurs d’une énumération : affiche uniquement les valeurs contenues dans l’énumération, toutes les autres valeurs sont regroupées dans &quot;Autres&quot;. Pour plus d’informations, reportez-vous à la section Gestion [dynamique des bacs](#dynamically-managing-bins).
-1. En utilisant des plages de valeurs, toutes les autres sont regroupées. Par exemple, les 18 à 25 ans, les 26 à 59 ans, et les autres. For more on this, refer to [Creating value ranges](#creating-value-ranges).
+1. Utilisation de plages de valeurs définies manuellement. Par exemple, âge, panier d’achat moyen, nombre de diffusions ouvertes, etc.). Voir à ce sujet la section [Définir chaque classe](#defining-each-bin).
+1. Dynamiquement, selon les valeurs d&#39;une énumération : on n&#39;affiche que les valeurs contenues dans l’énumération et toutes les valeurs différentes sont regroupées dans « Autres ». Voir à ce propos la section [Gérer dynamiquement les classes](#dynamically-managing-bins).
+1. En utilisant des plages de valeurs, toutes les autres étant regroupées. Par exemple, les 18 à 25 ans, les 26 à 59 ans, et les autres. Voir à ce propos la section [Créer des plages de valeurs](#creating-value-ranges).
 
 Pour activer la mise en classe, cochez l&#39;option correspondante lors de la création de la dimension.
 
@@ -167,7 +167,7 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
 Les types de mesures à réaliser sont définis dans l&#39;onglet **[!UICONTROL Mesures]** du cube. Vous pouvez calculer des sommes, des moyennes, des écarts, etc.
 
-Vous pouvez créer autant de mesures que nécessaire : sélectionnez ensuite la mesure à afficher ou masquer dans le tableau. Voir à ce propos [Affichage des mesures](#displaying-measures).
+Il est possible de créer autant de mesures que nécessaire : vous choisirez ensuite celle que vous souhaitez afficher ou masquer dans le tableau. Voir à ce propos [Affichage des mesures](#displaying-measures).
 
 Pour définir une nouvelle mesure, les étapes sont les suivantes :
 
@@ -191,9 +191,9 @@ Pour définir une nouvelle mesure, les étapes sont les suivantes :
 
 Vous pouvez paramétrer l&#39;affichage des mesures dans le tableau selon vos besoins. Vous pouvez ainsi choisir :
 
-* the display sequence of measures (refer to [Display sequence](#display-sequence)),
-* the information to show/hide in the report (refer to [Configuring the display](#configuring-the-display))
-* quelles mesures afficher: pourcentage, total, nombre de décimales, etc. (voir [Modification du type de mesure affiché](#changing-the-type-of-measure-displayed)).
+* l’ordre d’affichage des mesures (voir la section [Ordre d’affichage](#display-sequence)),
+* les informations à afficher/masquer dans le rapport (voir la section [Configuration de l’affichage](#configuring-the-display)),
+* les mesures à afficher : pourcentage, total, nombre de décimales, etc. (voir la section [Changement du type de mesure affichée](#changing-the-type-of-measure-displayed)).
 
 ### Ordre d&#39;affichage {#display-sequence}
 
