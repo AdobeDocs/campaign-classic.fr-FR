@@ -24,13 +24,13 @@ source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 Voici les étapes d’installation et de configuration qui s’appliquent aux modèles d’hébergement hybrides :
 
-* Configuring transactional messages: refer to this [section](../../message-center/using/transactional-messaging-architecture.md).
-* Configuring tracking and mirror page URLs per brand. For transactional messages, refer to this [section](../../message-center/using/configuring-multibranding.md).
+* Configuration des messages transactionnels : consultez cette [section](../../message-center/using/transactional-messaging-architecture.md).
+* Configuration des URL de tracking et page miroir par marque. Pour les messages transactionnels, consultez cette [section](../../message-center/using/configuring-multibranding.md).
 * Installation de la console cliente : consultez cette [section](../../installation/using/installing-the-client-console.md).
 * Installation des packages : consultez cette [section](../../installation/using/installing-campaign-standard-packages.md).
-* Livrabilité : configuration des règles [](../../installation/using/email-deliverability.md#mx-configuration) MX et des formats [de](../../installation/using/email-deliverability.md#managing-email-formats)courrier électronique. Pour en savoir plus sur les outils de délivrabilité et les meilleures pratiques, consultez le guide [de](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) prise en main et la documentation [](../../delivery/using/about-deliverability.md)détaillée.
+* Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez cette [section](../../installation/using/configuring-campaign-options.md).
-* Configuration d’une base de données externe (FDA) : reportez-vous à cette [section](../../platform/using/about-fda.md).
-* Configuration des connecteurs CRM : reportez-vous à cette [section](../../platform/using/crm-connectors.md).
-* Pour en savoir plus sur les principes de déploiement de mi-approvisionnement, consultez cette [section](../../installation/using/mid-sourcing-deployment.md).
+* Configuration d’une base de données externe (FDA) : voir cette [section](../../platform/using/about-fda.md).
+* Configuration des connecteurs CRM : voir cette [section](../../platform/using/crm-connectors.md).
+* Pour en savoir plus sur les principes de déploiement Mid-sourcing, voir cette [section](../../installation/using/mid-sourcing-deployment.md).
 
