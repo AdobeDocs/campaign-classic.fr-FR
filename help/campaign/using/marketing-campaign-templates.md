@@ -54,13 +54,13 @@ Pour créer un modèle, procédez comme suit :
 
 Vous pouvez également dupliquer le modèle par défaut afin de le réutiliser et adapter sa configuration à vos besoins.
 
-The various tabs and sub-tabs of the campaign template allow you to access its settings, described in [General configuration](#general-configuration).
+Les divers onglets et sous-onglets du modèle d&#39;opération vous permettent d&#39;accéder à ses paramètres, qui sont décrits dans la section [Configuration générale](#general-configuration).
 
 ![](assets/s_ncs_user_new_op_template_duplicate.png)
 
 ## Configurer un modèle d&#39;opération {#configuring-a-campaign-template}
 
-Les campagnes reposent sur des modèles qui partagent un ensemble de paramètres prédéfinis.
+Les campagnes s&#39;appuient sur des modèles qui regroupent un ensemble de paramétrages prédéfinis.
 
 Dans une configuration par défaut, les modèles d&#39;opération sont centralisés dans le noeud **[!UICONTROL Ressources > Modèles > Modèles d&#39;opération]** de l&#39;arborescence Adobe Campaign.
 
@@ -70,9 +70,9 @@ Dans une configuration par défaut, les modèles d&#39;opération sont centralis
 >
 >L&#39;arborescence est affichée à l&#39;aide de l&#39;icône **[!UICONTROL Explorateur]** de la page d&#39;accueil.
 
-Un modèle prêt à l’emploi est fourni pour créer une campagne pour laquelle aucune configuration spécifique n’a été définie. Vous pouvez créer et configurer des modèles de campagne, puis créer des campagnes à partir de ces modèles.
+Un modèle d’usine est fourni pour créer une campagne pour laquelle aucune configuration spécifique n’a été définie. Vous pouvez créer et configurer des modèles de campagne, puis créer des campagnes à partir de ces modèles.
 
-The creation and configuration of campaign templates are presented in [Campaign templates](#campaign-templates).
+La création et le paramétrage des modèles d&#39;opération sont présentés dans la section [Modèles de campagne](#campaign-templates).
 
 Pour plus d&#39;informations sur la création d&#39;une opération, voir la vidéo sur la [création d&#39;une opération et d&#39;un email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
 
@@ -96,7 +96,7 @@ Les liens suivants sont affichés dans le tableau de bord de l&#39;opération (l
 
 ![](assets/s_ncs_user_op_template_tab1.3ex.png)
 
-Seuls les onglets suivants s’affichent :
+Et seuls les onglets suivants seront affichés :
 
 ![](assets/s_ncs_user_op_template_tab1.4ex.png)
 
@@ -177,7 +177,7 @@ Lorsque vous créez un modèle d&#39;opération, vous devez indiquer les informa
    >
    >Pour plus d&#39;informations sur les énumérations, reportez-vous à la section [Prise en main](../../platform/using/managing-enumerations.md).
 
-* Sélectionnez le **type de campagne**: unique, périodique ou périodique. Par défaut, les modèles de campagne s’appliquent aux campagnes uniques. Les campagnes périodiques et périodiques sont détaillées ici : Campagnes [périodiques et périodiques](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
+* Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s’appliquent aux campagnes uniques. Les campagnes récurrentes et périodiques sont détaillées ici : [Campagnes récurrentes et périodiques](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Indiquez la durée de l&#39;opération, c&#39;est-à-dire la période sur laquelle s&#39;étalera l&#39;opération. Lors de la création d&#39;une opération basée sur ce modèle, les dates de début et de fin de l&#39;opération seront alors automatiquement renseignées.
 
    S&#39;il s&#39;agit d&#39;une opération récurrente, vous devez indiquer les dates de début et de fin de l&#39;opération directement dans le modèle.
