@@ -30,7 +30,7 @@ Si vous disposez d&#39;un grand nombre de services et d&#39;applications web dan
 
 Pour ce faire, les éléments suivants sont nécessaires :
 
-* Destinataires stockés dans la base de données Campaign v7 et synchronisés avec Campaign Standard. Reportez-vous à la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md) .
+* Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
 * Un service et une application web créés et publiés dans Campaign v7.
 * L&#39;application web doit contenir une activité **[!UICONTROL Pré-chargement]** utilisant la méthode d&#39;identification **[!UICONTROL Cryptage Adobe Campaign]**.
 
@@ -65,7 +65,7 @@ Dans Campaign v7, les objets suivants ont été créés :
 
 ## Réplication des données {#replicating-the-data}
 
-Afin de répliquer les données nécessaires entre Campaign v7 et Campaign Standard, plusieurs modèles de processus de réplication sont disponibles. Le processus de réplication **[!UICONTROL des]** profils reproduit automatiquement tous les destinataires de Campaign v7 vers Campaign Standard. See [Technical and replication workflows](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). Le processus de réplication **[!UICONTROL des pages d’]** entrée permet la réplication des applications Web que nous voulons utiliser dans Campaign Standard.
+Afin de répliquer les données nécessaires entre Campaign v7 et Campaign Standard, plusieurs modèles de workflows de réplication sont disponibles. Le workflow de **[!UICONTROL Réplication des profils]** reproduit automatiquement tous les destinataires de Campaign v7 vers Campaign Standard. Voir [Workflows techniques et de réplication](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). Le workflow de **[!UICONTROL Réplication des landing pages]** permet la réplication des applications Web que nous voulons utiliser dans Campaign Standard.
 
 ![](assets/acs_connect_lp_1.png)
 
