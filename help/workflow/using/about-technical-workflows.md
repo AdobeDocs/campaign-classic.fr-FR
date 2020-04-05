@@ -28,7 +28,7 @@ Les workflows présentés dans cette section sont installés avec les packages i
 >
 >Les workflows techniques associés au module Message Center module sont disponibles par défaut dans le nœud **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Message Center]** > **[!UICONTROL Workflows techniques]**.
 
-For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-technical-workflows.md).
+Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniques, voir la [section dédiée](../../workflow/using/monitoring-technical-workflows.md).
 
 Cette section contient des informations sur les workflows techniques qui sont liés aux packages suivants :
 
@@ -36,8 +36,8 @@ Cette section contient des informations sur les workflows techniques qui sont li
 * [Campagne](../../workflow/using/campaign.md)
 * [Web Analytics](../../workflow/using/web-analytics.md)
 * [Distributed Marketing](../../workflow/using/distributed-marketing.md)
-* [Surveillance de la délivrabilité (délivrabilité du courrier électronique)](../../workflow/using/email-deliverability.md)
-* [Rendu de la boîte de réception (IR)](../../workflow/using/inbox-rendering.md)
+* [Email Deliverability (Supervision de la délivrabilité)](../../workflow/using/email-deliverability.md)
+* [Inbox Rendering (IR)](../../workflow/using/inbox-rendering.md)
 * [Interaction](../../workflow/using/interaction.md)
 * [Contrôle du moteur d’offres](../../workflow/using/control-of-offer-engine.md)
 * [Message Center (Pilotage)](../../workflow/using/message-center--control-.md)
