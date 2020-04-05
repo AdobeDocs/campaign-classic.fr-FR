@@ -26,7 +26,7 @@ Une requête incrémentale permet de sélectionner périodiquement une cible sel
 
 La population déjà ciblée est mémorisée par instance de workflow et par activité, c&#39;est-à-dire que deux workflows démarrés à partir du même modèle ne partagent pas le même historique. En revanche, deux tâches basées sur la même requête incrémentale pour la même instance de workflow utiliseront le même historique.
 
-The query is defined in the same way as for standard queries (refer to [Creating a query](../../workflow/using/query.md#creating-a-query)), but its execution is scheduled.
+La requête est définie selon le même mode que pour les requêtes standard (voir [Créer une requête](../../workflow/using/query.md#creating-a-query)), mais son exécution est planifiée.
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ Ces campagnes étant lancées à chaque début de saison afin de proposer des ac
 ![](assets/incremental_query_example.png)
 
 1. Placez une activité de requête incrémentale ainsi qu&#39;une activité de mise à jour de liste dans un nouveau workflow.
-1. Configure the **[!UICONTROL Incremental query]** tab of the activity as specified in [Creating a query](../../workflow/using/query.md#creating-a-query).
+1. Paramétrez l’onglet **[!UICONTROL Requête incrémentale]** de l’activité comme indiqué à la section [Créer une requête](../../workflow/using/query.md#creating-a-query).
 1. Sélectionnez l&#39;onglet **[!UICONTROL Planification &amp; Historique]** et indiquez un historique de 270 jours. Un destinataire déjà ciblé ne sera plus ciblé pour une période de 270 jours, soit environ 9 mois.
 
    Cliquez ensuite sur le bouton **[!UICONTROL Changer...]**.
@@ -81,7 +81,7 @@ Ces campagnes étant lancées à chaque début de saison afin de proposer des ac
 
    ![](assets/incremental_query_example_2.png)
 
-1. After approving the incremental query, configure the list update activity as explained in [List update](../../workflow/using/list-update.md).
+1. Après avoir validé le paramétrage de la requête incrémentale, paramétrez l&#39;activité de mise à jour de liste comme décrit à la section [Mise à jour de liste](../../workflow/using/list-update.md).
 
 Le workflow sera ainsi lancé automatiquement juste avant chaque début de saison. La liste sera mise à jour avec les nouveaux destinataires éligibles pour recevoir les offres.
 
