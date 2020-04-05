@@ -69,9 +69,9 @@ Exemple de package de données :
 </package>
 ```
 
-Le document XML doit commencer et se terminer par l’ **`<package>`** élément. Les **`<entities>`** éléments suivants répartissent les données par type de document.
+Le document XML doit commencer et se terminer par l&#39;élément **`<package>`**. Les éléments **`<entities>`** suivants répartissent les données par type de document.
 
-An **`<entities>`** element contains the data of the package in the format of the data schema entered in the **schema** attribute.
+Un élément **`<entities>`** contient les données du package au format du schéma de données renseigné dans l&#39;attribut **schema**.
 
 Les données d&#39;un package ne doivent pas contenir de clés internes non compatibles entre les bases, comme les clés auto-générées (option **autopk**).
 
@@ -84,7 +84,7 @@ Dans notre exemple, les jointures sur les liens &quot;folder&quot; et &quot;comp
 </recipient>
 ```
 
-The **`operation`** attribute with the value &quot;none&quot; defines a reconciliation link.
+L&#39;attribut **`operation`** avec la valeur &quot;none&quot; définit un lien de réconciliation.
 
 Un package de données peut être construit à la main à partir de n&#39;importe quel éditeur texte. Il suffit que la structure du document XML soit conforme au schéma de données &quot;xtk:navtree&quot;. La console Adobe Campaign est pourvue d&#39;un module d&#39;export et d&#39;import de package de données.
 
@@ -94,9 +94,9 @@ Un package de données peut être construit à la main à partir de n&#39;import
 
 Les packages peuvent être exportés de trois manières différentes :
 
-* L’Assistant **[!UICONTROL d’exportation de]** package vous permet d’exporter un ensemble d’objets dans un seul package. Pour plus d’informations, voir [Exportation d’un ensemble d’objets dans un package.](#exporting-a-set-of-objects-in-a-package)
+* L&#39;**[!UICONTROL assistant d&#39;export de package]** permet d&#39;exporter un ensemble d&#39;objets dans un package unique. Voir à ce propos la section [Exporter un ensemble d&#39;objets dans un package](#exporting-a-set-of-objects-in-a-package)
 * Un **objet unique** peut être directement exporté dans un package en cliquant dessus avec le bouton droit de la souris et en sélectionnant **[!UICONTROL Actions > Exporter dans un package]**.
-* **Les définitions** de package vous permettent de créer une structure de package dans laquelle vous ajoutez des objets qui seront exportés ultérieurement dans un package. Pour plus d’informations, reportez-vous à la section [Gestion des définitions de package.](#managing-package-definitions)
+* Les **définitions de packages** vous permettent de créer une structure de package dans laquelle vous ajoutez des objets qui seront exportés ultérieurement dans un package. Voir à ce sujet la section [Gérer les définitions de packages](#managing-package-definitions).
 
 Une fois un package exporté, vous pourrez l&#39;importer ainsi que toutes les entités ajoutées dans une autre instance Campaign.
 
@@ -122,7 +122,7 @@ Pour les trois types de package, l&#39;assistant propose les étapes suivantes :
 
    >[!NOTE]
    >
-   >Le mécanisme de dépendance contrôle la séquence d’exportation d’entité. For more on this, refer to [Managing dependencies](#managing-dependencies).
+   >Le mécanisme de dépendance contrôle la séquence d&#39;exportation des entités. Voir à ce propos la section [Gestion des dépendances](#managing-dependencies).
 
 1. L&#39;écran de configuration des entités définit la requête de filtrage sur le type de document à extraire.
 
@@ -258,7 +258,7 @@ Vous pouvez ensuite ajouter des entités à la définition de package et l&#39;e
 
 ### Ajouter des entités à une définition de package {#adding-entities-to-a-package-definition}
 
-Dans l’onglet **[!UICONTROL Contenu]** , cliquez sur le bouton **[!UICONTROL Ajouter]** pour sélectionner les entités à exporter avec le package. Les bonnes pratiques lors de la sélection d’entités sont présentées dans la section [Exportation d’un ensemble d’objets dans un package](#exporting-a-set-of-objects-in-a-package) .
+Dans l&#39;onglet **[!UICONTROL Contenu]**, cliquez sur le bouton **[!UICONTROL Ajouter]** pour sélectionner les entités à exporter avec le package. Les bonnes pratiques de sélection d&#39;entités sont présentées dans la section [Exporter un ensemble d&#39;objets dans un package](#exporting-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -272,7 +272,7 @@ Les entités peuvent être ajoutées directement à une définition de package �
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. L&#39;entité est ajoutée à la définition de package, elle sera exportée avec le package (voir [Exportation de packages à partir d&#39;une définition](#exporting-packages-from-a-package-definition)de package).
+1. L&#39;entité est ajoutée à la définition de package et est exportée avec le package (voir la section [Exporter des packages à partir d&#39;une définition de package](#exporting-packages-from-a-package-definition)).
 
    ![](assets/packagedefinition_entityadded.png)
 
