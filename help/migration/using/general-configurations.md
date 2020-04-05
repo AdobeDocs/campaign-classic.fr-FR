@@ -26,8 +26,8 @@ Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 si 
 
 En complément :
 
-* If you migrate from v5.11, you must also complete the configuration detailed in the [Specific configurations in v5.11](../../migration/using/specific-configurations-in-v5-11.md) section.
-* If you migrate from v6.02, you must also complete the configuration detailed in the [Specific configurations in v6.02](../../migration/using/specific-configurations-in-v6-02.md) section.
+* Si vous migrez depuis une v5.11, vous devez également effectuer le paramétrage décrit dans la section [Paramétrages spécifiques v5.11](../../migration/using/specific-configurations-in-v5-11.md).
+* Si vous migrez depuis une v6.02, vous devez également effectuer le paramétrage décrit dans la section [Paramétrages spécifiques v6.02](../../migration/using/specific-configurations-in-v6-02.md).
 
 ## Fuseaux horaires {#time-zones}
 
@@ -39,11 +39,11 @@ Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#
 
 >[!IMPORTANT]
 >
->If the **-usetimestamptz:1** parameter is used with an incompatible database engine, your database will be corrupted and you will have to restore a backup of your database and re-execute the command above.
+>En cas d’utilisation du paramètre **-usetimestamptz:1** avec un moteur de base non compatible, votre base de données sera corrompue et il vous sera alors nécessaire de restaurer une sauvegarde de votre base de données et de ré-exécuter la commande ci-dessous.
 
 >[!NOTE]
 >
->It is possible to alter the timezone after migration via the console (**[!UICONTROL Administration > Platform > Options > WdbcTimeZone]** node).
+>Il est possible de modifier le fuseau horaire après la migration via la console (noeud **[!UICONTROL Administration > Plate-forme > Options > WdbcTimeZone]**).
 >
 >Pour plus d&#39;informations sur la gestion des fuseaux horaires, consultez [cette section](../../installation/using/time-zone-management.md).
 
@@ -91,7 +91,7 @@ Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 >
 >Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des utilisateurs.
 
-Adobe Campaign v7 involves the concept of **security zones**. Each user must be associated with a zone in order to log on to an instance and the user&#39;s IP address must be included in the addresses or address ranges defined in the security zone. Configuring the security zones can be done in the Adobe Campaign server configuration file. The security zone to which a user is associated must be defined in the console (**[!UICONTROL Administration > Access management > Operators]**).
+Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utilisateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;utilisateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage des zones de sécurité est effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 **Avant la migration**, vous devez définir, avec l&#39;aide de votre administrateur réseau, les zones de sécurité qu&#39;il faudra activer après la migration.
 
@@ -101,7 +101,7 @@ La configuration des zones de sécurité est présentée dans [cette section](..
 
 ### Mots de passe des opérateurs {#user-passwords}
 
-Dans v7, la connexion de l’opérateur **interne** et **administrateur** doit être sécurisée par un mot de passe. Nous vous recommandons vivement d’affecter des mots de passe à ces comptes et à tous les comptes d’opérateurs **avant la migration**. Si vous n&#39;avez pas spécifié de mot de passe pour **interne**, vous ne pourrez pas vous connecter. Pour attribuer un mot de passe à **interne**, saisissez la commande suivante :
+Dans v7, la connexion de l’opérateur **interne** et **administrateur** doit être sécurisée par un mot de passe. Nous vous recommandons vivement d’affecter des mots de passe à ces comptes et à tous les comptes d’opérateurs **avant la migration**. Si vous n&#39;avez pas spécifié de mot de passe pour la connexion **interne**, vous ne pourrez pas vous connecter. Pour attribuer un mot de passe à la connexion **interne**, saisissez la commande suivante :
 
 ```
 nlserver config -internalpassword
@@ -156,7 +156,7 @@ Certains schémas d&#39;usine ont été modifiés et ne sont désormais accessib
 
 ### Paramètre sessiontoken {#sessiontoken-parameter}
 
-Dans la version 5, le paramètre **sessiontoken** fonctionnait à la fois côté client (liste des écrans de type d’aperçu, éditeur de liens, etc.) et côté serveur (applications Web, rapports, jsp, jssp, etc.). Dans v7, il ne fonctionne que côté serveur. Si vous souhaitez revenir à la version 5, vous devez modifier les liens à l’aide de ce paramètre et les transmettre via la page de connexion :
+Dans la version 5, le paramètre **sessiontoken** fonctionnait à la fois côté client (liste des écrans de type d’aperçu, éditeur de lien, etc.) et côté serveur (applications web, rapports, jsp, jssp, etc.). Dans v7, il ne fonctionne que côté serveur. Si vous souhaitez revenir aux fonctionnalités complète telles que dans la version 5, vous devez modifier les liens à l’aide de ce paramètre et les transmettre via la page de connexion :
 
 Exemple de lien :
 
@@ -176,7 +176,7 @@ Nouveau lien utilisant la page de connexion :
 
 ### Fonctions SQL {#sql-functions}
 
-Les appels de fonction SQL inconnus ne sont plus automatiquement envoyés au serveur. Actuellement, toutes les fonctions SQL doivent être ajoutées au schéma **xtk:funcList** (pour plus d&#39;informations, reportez-vous à [cette section](../../configuration/using/adding-additional-sql-functions.md)). Lors de la migration, une option est ajoutée lors de la post-mise à niveau afin de conserver la compatibilité avec les anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l’option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du **[!UICONTROL Administration > Platform > Options]** noeud.
+Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Toutes les fonctions SQL doivent à présent être ajoutées dans le schéma **xtk:funcList** (voir à ce sujet [cette section](../../configuration/using/adding-additional-sql-functions.md)). Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plate-forme > Options]**.
 
 >[!IMPORTANT]
 >
@@ -201,9 +201,9 @@ Par exemple :
 
 Adobe Campaign v7 intègre un interpréteur JavaScript plus récent. Toutefois, cette mise à jour peut entraîner le mauvais fonctionnement de certains scripts. Comme le moteur précédent était plus permissif, certaines syntaxes fonctionneraient, ce qui n&#39;est plus le cas avec la nouvelle version du moteur.
 
-La **[!UICONTROL myObject.@attribute]** syntaxe n’est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les remises et la gestion du contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
+Le **[!UICONTROL myObject.La syntaxe @attribute]** n’est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
 
-Pour tous les autres types d’objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribut&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante :**[!UICONTROL employee.@sn]**, doit désormais utiliser la syntaxe suivante :**[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
+Pour tous les autres types d’objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante :**[!UICONTROL  employee.@sn ]**, doit maintenant utiliser la syntaxe suivante :**[!UICONTROL  employee`[`&quot;sn&quot;`]`]**.
 
 * Ancienne syntaxe :
 
@@ -251,21 +251,21 @@ Il n&#39;est plus possible d&#39;utiliser un attribut XML comme clé d&#39;un ta
 
 ### SQLData {#sqldata}
 
-Afin de renforcer la sécurité des instances, une nouvelle syntaxe a été introduite dans Adobe Campaign v7 pour remplacer la syntaxe basée sur SQLData. Si vous utilisez ces éléments de code avec cette syntaxe, vous devez les modifier. Les principaux éléments concernés sont les suivants :
+Afin de renforcer la sécurité des instances, une nouvelle syntaxe a été introduite dans Adobe Campaign v7 pour remplacer la syntaxe basée sur SQLData. Si vous utilisez ces éléments de code avec cette syntaxe, vous devez les modifier. Les principaux éléments concernés sont les suivants :
 
-* Filtering by sub-query: the new syntax is based on the `<subQuery>`  element to define a sub-query
+* Le filtrage par sous-requêtes : la nouvelle syntaxe est basée sur l&#39;élément `<subQuery>` pour définir une sous-requête
 * Les agrégats : la nouvelle syntaxe est &quot;fonction agrégat(collection)&quot;
-* Filtering by join: the new syntax is `[schemaName:alias:xPath]`
+* Le filtrage par jointure : la nouvelle syntaxe est `[schemaName:alias:xPath]`
 
 Le schéma queryDef (xtk:queryDef) a été modifié :
 
-* a new `<subQuery>`  element is available to replace the SELECT included in SQLData
+* un nouvel élément `<subQuery>` est disponible pour remplacer le SELECT inclus dans du SQLData
 * deux nouvelles valeurs &quot;IN&quot; et &quot;NOT IN&quot; sont introduites pour l&#39;attribut @setOperator
-* a new `<where>`  element, which is a child of the `<node>` element: this enables you to make &quot;sub-selections&quot; in SELECT
+* un nouvel élément `<where>`, enfant de l’élément `<node>` : ceci permet de faire des « sous-sélections » dans un SELECT
 
 Lorsqu&#39;un attribut de type &quot;@expr&quot; est utilisé, le SQLData peut être présent. Une recherche peut être effectuée sur les termes suivants : &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
 
-Les instances d’Adobe Campaign v7 sont sécurisées par défaut. La sécurité se résume à la définition des zones de sécurité dans le **[!UICONTROL serverConf.xml]** dossier : l&#39;attribut **allowSQLInjection** gère la sécurité de la syntaxe SQL.
+Les instances d’Adobe Campaign v7 sont sécurisées par défaut. La sécurisation intervient au niveau des définitions de zones de sécurité dans le fichier **[!UICONTROL serverConf.xml]** : l’attribut **allowSQLInjection** gère la sécurisation de la syntaxe SQL.
 
 En cas d&#39;erreur SQLData lors de l&#39;exécution du postupgrade, vous devez modifier cet attribut afin d&#39;autoriser temporairement l&#39;utilisation des syntaxes basées sur le SQLData, le temps de réécrire le code. Pour cela, l&#39;option suivante doit être modifiée dans le fichier **serverConf.xml** :
 
@@ -279,7 +279,7 @@ Relancez alors le postupgrade avec la commande suivante :
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-You must configure the security zones (refer to [Security](#security)), then reactivate the security by changing the option:
+Vous devrez ensuite configurer les zones de sécurité (voir [Sécurité](#security)) puis réactiver la sécurisation en modifiant l’option :
 
 ```
 allowSQLInjection="false"
@@ -395,9 +395,9 @@ L&#39;alias est facultatif
 
 **Astuces**
 
-In a `<subQuery>` element, to reference a &quot;field&quot; field of the main `<queryDef>`   element, use the following syntax: `[../@field]`
+Dans un élément `<subQuery>`, pour référencer un champ ‘field’ de l’élément `<queryDef>` principal, la syntaxe suivante doit être employée : `[../@field]`
 
-Exemple :
+Exemple:
 
 ```
 <queryDef operation="select" schema="xtk:jobLog" startPath="/" xtkschema="xtk:queryDef">
@@ -443,7 +443,7 @@ Le résultat de la synchronisation peut être consulté de deux manières :
 
    Si l&#39;avertissement concerne un conflit de ressources, il requiert l&#39;intervention de l&#39;utilisateur pour être résolu.
 
-* Le **post-upgrade_`<server version number>`_time du fichier postupgrade`>`.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : Répertoire **d’installation/var/`<instance>`post-mise à niveau**. Les erreurs et les avertissements sont indiqués par les attributs **error** et **warning** .
+* Le **post-upgrade_`<server version number>`_time du fichier postupgrade`>`.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : Répertoire **installation directory/var/`<instance>`postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs **error** et **warning**.
 
 ### Résoudre un conflit {#resolve-a-conflict}
 
@@ -451,21 +451,21 @@ La résolution des conflits est réservé à des utilisateurs avancés et béné
 
 Pour résoudre un conflit, procédez de la manière suivante :
 
-1. Dans l’arborescence d’Adobe Campaign, placez le curseur sur **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]**.
+1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]**.
 1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
 
 Il existe trois possibilités de résoudre un conflit :
 
-* **[!UICONTROL Declared as resolved]**: nécessite une intervention préalable de l’opérateur.
-* **[!UICONTROL Accept the new version]**: recommandé si les ressources fournies avec Adobe Campaign n’ont pas été modifiées par l’utilisateur.
-* **[!UICONTROL Keep the current version]**: signifie que la mise à jour est rejetée.
+* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention de l&#39;utilisateur au préalable.
+* **[!UICONTROL Accepter la nouvelle version]** : recommandé si les ressources livrées avec Adobe Campaign n&#39;ont pas été modifiées par l&#39;utilisateur.
+* **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
 
    >[!IMPORTANT]
    Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
-1. Dans la section inférieure de la fenêtre, recherchez **`_conflict_ string`** pour localiser les entités avec des conflits. L&#39;entité installée avec la nouvelle version contient le **nouvel** argument, l&#39;entité qui correspond à la version précédente contient l&#39;argument **cus** .
+1. Dans la section inférieure de la fenêtre, recherchez **`_conflict_ string`** pour localiser les entités avec des conflits. L&#39;entité installée avec la nouvelle version contient le **nouvel** argument. L&#39;entité qui correspond à la version précédente contient l&#39;argument **cus**.
 
    ![](assets/s_ncs_production_conflict002.png)
 
@@ -473,12 +473,12 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. Allez au conflit que vous auriez résolu. Cliquez sur l’ **[!UICONTROL Actions]** icône et sélectionnez **[!UICONTROL Declare as resolved]**.
+1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Déclarer comme résolu]**.
 1. Enregistrez vos modifications : le conflit est désormais résolu.
 
 ## Tomcat {#tomcat}
 
-Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version (Tomcat 7). Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d’accès sont bien liés au dossier mis à jour (dans le **[!UICONTROL serverConf.xml]** fichier) :
+Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version (Tomcat 7). Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d’accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar 
@@ -509,7 +509,7 @@ Dans v7, le contenu de l’offre a été déplacé. Dans la version 6.02, le con
 >[!IMPORTANT]
 Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
 
-Un exemple de script de mouvement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du dossier Adobe Campaign v7. Ce fichier montre un exemple de script pour un client utilisant une représentation par e-mail unique par offre (les **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]** champs). Le contenu de la table **NmsEmailOfferView** a été déplacé vers la table d’offres.
+Un exemple de script de déplacement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du répertoire d&#39;installation d&#39;Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une seule représentation email par offre (les champs **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]**). Le contenu qui était dans la table **NmsEmailOfferView** est déplacé vers la table des offres.
 
 >[!NOTE]
 L&#39;utilisation de ce script ne permet pas de bénéficier des fonctionnalités &quot;gestion de contenu&quot; et &quot;fonctions de rendu&quot;. Pour bénéficier de ces fonctionnalités, vous devez repenser le catalogue d&#39;offres, en particulier le contenu des offres et la configuration des emplacements.
@@ -586,11 +586,11 @@ logInfo("Done");
 
 Voici la procédure à suivre après avoir déplacé le contenu des offres si vous disposez d&#39;un seul environnement. Prenons comme exemple un environnement &quot;ENV&quot;.
 
-1. Dans tous les environnements d’offre &quot;ENV&quot;, mettez à jour la liste des champs utilisés. Par exemple, pour un espace d’offre qui utilise uniquement le **[!UICONTROL htmlSource]**, vous devez ajouter le **[!UICONTROL view/htmlSource]**.
+1. Dans tous les emplacements de l&#39;environnement &quot;ENV&quot;, mettez à jour la liste des champs utilisés. Par exemple, pour un emplacement qui utilise uniquement le champ **[!UICONTROL htmlSource]**, vous devez ajouter le champ **[!UICONTROL view/htmlSource]**.
 
    ![](assets/migration_interaction_2.png)
 
-1. Dans le **[!UICONTROL Type of Environment]** champ de l’ **[!UICONTROL General]** onglet, sélectionnez **[!UICONTROL Live]**.
+1. Dans le champ **[!UICONTROL Type d&#39;environnement]** de l&#39;onglet **[!UICONTROL Général]** de l&#39;environnement, sélectionnez **[!UICONTROL En ligne]**.
 
    ![](assets/migration_interaction_3.png)
 
@@ -598,13 +598,13 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 
    ![](assets/migration_interaction_4.png)
 
-1. Deploy all &quot;ENV&quot; environment offer spaces (right click > **[!UICONTROL Actions > Deploy]**) and select the &quot;ENV_DESIGN&quot; environment.
+1. Déployez tous les emplacements de l&#39;environnement &quot;ENV&quot; (clic droit > **[!UICONTROL Actions > Déployer]**), et sélectionnez l&#39;environnement &quot;ENV_DESIGN&quot;.
 
    ![](assets/migration_interaction_5.png)
 
 1. Faites de même pour toutes les offres de l&#39;environnement &quot;ENV&quot;.
 1. Activez toutes les offres de l&#39;environnement &quot;ENV_DESIGN&quot; sur les canaux correspondants.
-1. Testez la mise en service d’une offre. Si vous ne rencontrez aucun problème, exécutez les tâches en attente sur la dernière tâche de flux de travail **[!UICONTROL Offer notification]** (offerMgt) pour rendre toutes les offres actives.
+1. Testez la mise en ligne sur une offre. Si vous ne rencontrez pas d&#39;erreurs, effectuez un traitement anticipé de la dernière tâche du workflow **[!UICONTROL Notification des offres]** (offerMgt) pour mettre en ligne toutes les offres.
 
    ![](assets/migration_interaction_6.png)
 
@@ -621,7 +621,7 @@ Tous les rapports standards utilisent à présent le moteur de rendu v6.x. Si vo
 
 ### Rapports personnalisés {#personalized-reports}
 
-Si vous souhaitez que la bannière bleue de la version 7 (vous permette d’accéder à l’univers), vous devez republier les rapports. Si vous rencontrez des problèmes, vous pouvez forcer le moteur de rendu v6.0. Pour ce faire, accédez à **[!UICONTROL Properties]** l’intérieur du rapport, cliquez **[!UICONTROL Rendering]** et choisissez le moteur de **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendu.
+Si vous souhaitez que la bannière bleue de la version 7 (qui vous permet d’accéder aux univers), vous devez republier les rapports. Si vous rencontrez des problèmes, vous pouvez forcer le moteur de rendu v6.0. Pour ce faire, accédez à **[!UICONTROL Propriétés]** à l’intérieur rapport, cliquez sur **[!UICONTROL Rendu]** et sélectionnez le moteur de rendu **[!UICONTROL Version 6.0 (Flash et OpenOffice)]**.
 
 ![](assets/migration_reports_1.png)
 
@@ -636,12 +636,12 @@ Il existe deux familles d&#39;applications web :
 
 ### Applications web identifiées {#identified-web-applications}
 
-Tout comme pour les rapports (voir [Rapports](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (contenant les univers), vous devez republier l’application Web. Si votre code JavaScript fonctionne, vous pouvez sélectionner le moteur de rendu v6.x. Si ce n’est pas le cas, vous pouvez utiliser le moteur de rendu v6.0 tout en adaptant votre code, puis utiliser le moteur de rendu v6.x.
+Tout comme pour les rapports (voir [Rapports](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (qui contient les univers), vous devez republier l’application Web. Si votre code JavaScript fonctionne, vous pouvez sélectionner le moteur de rendu v6.x. Si ce n’est pas le cas, vous pouvez utiliser le moteur de rendu v6.0 tout en adaptant votre code, puis utiliser le moteur de rendu v6.x.
 
 >[!NOTE]
-Les étapes de sélection du moteur de rendu sont identiques à celles de la sélection des rapports. Voir Rapports [personnalisés](#personalized-reports).
+Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
 
-Les méthodes de connexion aux applications Web ont changé dans v7. Si vous rencontrez des problèmes de connexion dans les applications Web identifiées, vous devez activer temporairement les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml** . Après la mise à niveau, modifiez les valeurs des options suivantes :
+Les méthodes de connexion aux applications Web ont changé dans v7. Si vous rencontrez des problèmes de connexion dans les applications Web identifiées, vous devez activer temporairement les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. Après la mise à niveau, modifiez les valeurs des options suivantes :
 
 ```
 allowUserPassword="true"
@@ -672,7 +672,7 @@ sessionTokenOnly="false"
 Si vous rencontrez des problèmes, republiez l&#39;application web. Si les problèmes persistent, vous pouvez sélectionner le moteur de rendu v6.0. Si vous n&#39;aviez pas ajouté de javascript, vous pouvez sélectionner le moteur de rendu v6.x afin de bénéficier des nouveautés.
 
 >[!NOTE]
-Les étapes de sélection du moteur de rendu sont identiques à celles de la sélection des rapports. Voir Rapports [personnalisés](#personalized-reports).
+Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
 
 ## Red Hat {#red-hat}
 
