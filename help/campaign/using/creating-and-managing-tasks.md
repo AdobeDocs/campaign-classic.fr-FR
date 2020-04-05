@@ -30,7 +30,7 @@ Les tâches peuvent être créées, visualisées et suivies au niveau de liste d
 
 Les tâches sont attachées à des opérations, et peuvent avoir des dépendances, c&#39;est-à-dire des tâches associées. Chaque tâche a un statut, une priorité, une charge estimée et des coûts associés.
 
-Toutes les tâches sont regroupées dans une liste accessible via l’univers **Campagnes** . For more on this, refer to [Accessing tasks](#accessing-tasks).
+Toutes les tâches sont regroupées dans une liste accessible par le biais de l&#39;univers **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
 
 Elles peuvent être affichées dans le planning du programme auquel elles appartiennent.
 
@@ -46,7 +46,7 @@ Les tâches sont affichées dans la liste des tâches accessible à partir de l&
 
 Vous pouvez y visualiser toutes les tâches de l&#39;opérateur connecté.
 
-Pour plus d’informations, reportez-vous à l’état [d’exécution d’une tâche](#execution-status-of-a-task) et à l’état de [progression d’une tâche](#progress-status-of-a-task).
+Pour plus d&#39;informations, voir les sections [Etat d&#39;exécution d&#39;une tâche](#execution-status-of-a-task) et [Etat d&#39;avancement d&#39;une tâche](#progress-status-of-a-task).
 
 ### Filtrer les tâches {#filtering-tasks}
 
@@ -82,13 +82,13 @@ Une fois créée, la tâche est ajoutée dans le calendrier des campagnes et dan
 
 Pour la paramétrer, vous devez indiquer :
 
-* Le directeur et les participants : reportez-vous au [gestionnaire et aux participants](#manager-and-participants).
-* Calendrier de création : reportez-vous au calendrier [d’](#execution-schedule)exécution.
-* Les coûts engagés : consultez [Dépenses et recettes](#expenses-and-revenues).
+* Le responsable et les intervenants : voir la section [Responsable et intervenants](#manager-and-participants).
+* Le planning de création : voir la section [Planning d&#39;exécution](#execution-schedule).
+* Les coûts engagés : voir la section [Dépenses et revenus](#expenses-and-revenues).
 
-It is also possible to ad reviewers (refer to [Reviewers](#reviewers)) and referenced documents (refer to [Documents referenced](#documents-referenced)).
+Il est également possible d&#39;ajouter des validants (voir la section [Validants](#reviewers)) et des documents référencés (voir la section [Documents référencés](#documents-referenced)).
 
-Task life cycle is presented in [Life cycle](#life-cycle).
+Le cycle de vie d&#39;une tâche est présenté dans la section [Cycle de vie](#life-cycle).
 
 ### Responsable et intervenants {#manager-and-participants}
 
@@ -142,7 +142,7 @@ Le responsable de la tâche peut se charger de la validation et ce, même si des
 
 ### Documents référencés {#documents-referenced}
 
-Il est possible d’ajouter des documents et des ressources marketing à une tâche (pour plus d’informations, voir [Gestion des ressources](../../campaign/using/managing-marketing-resources.md)marketing). Pour ce faire, ouvrez la tâche et cliquez sur l’icône **[!UICONTROL Documents]** dans la barre d’outils de la tâche.
+Il est possible d&#39;ajouter des documents et des ressources marketing à une tâche (pour plus d&#39;informations, voir la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md)). Pour ce faire, ouvrez la tâche et cliquez sur l&#39;icône **[!UICONTROL Documents]** dans la barre d&#39;outils de la tâche.
 
 Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez le document que vous souhaitez attacher à votre tâche. Faites de même pour les ressources marketing.
 
@@ -158,7 +158,7 @@ La période de validité de la tâche est indiquée dans les champs **[!UICONTRO
 
 >[!NOTE]
 >
->The life cycle of a task is presented in [Life cycle](#life-cycle).
+>Le cycle de vie d&#39;une tâche est présenté dans la section [Cycle de vie](#life-cycle).
 
 De plus, le champ **[!UICONTROL Charge réalisée]**, exprimé également en jours ou en heures, permet de mettre à jour manuellement l&#39;état d&#39;avancement de la charge de travail par rapport à la charge planifiée.
 
@@ -176,7 +176,7 @@ Elle est également affichée dans celui de l&#39;opération.
 
 Si la date de fin du planning de réalisation de la tâche est atteinte et que la tâche n&#39;est pas terminée, la tâche sera **[!UICONTROL En retard]**. Un message d&#39;avertissement sera également affiché pour alerter les opérateurs.
 
-Pour plus d’informations, reportez-vous à l’état [de progression d’une tâche](#progress-status-of-a-task).
+Pour plus d&#39;informations, voir la section [Etat d&#39;avancement d&#39;une tâche](#progress-status-of-a-task).
 
 ### Dépenses et revenus {#expenses-and-revenues}
 
@@ -190,7 +190,7 @@ Par défaut, le budget imputé est celui de l&#39;opération à laquelle est rat
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les dépenses et les budgets, consultez la section Engagement [des coûts, calcul et imputation](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
+>Pour plus d&#39;informations sur les dépenses et les budgets, voir la section [Engagement, calcul et imputation des coûts](../../campaign/using/controlling-costs.md#cost-commitment--calculation-and-charging).
 
 Vous pouvez également définir à partir de cette fenêtre les objectifs à réaliser. Les objectifs correspondent aux revenus prévisionnels de la tâche.
 
@@ -200,7 +200,7 @@ Un prestataire externe peut être impliqué dans la gestion de la tâche.
 
 Pour cela, éditez les propriétés de la tâche et sélectionnez le prestataire concerné. Les postes de coûts associés au prestataire sont automatiquement listés dans la section centrale de la fenêtre.
 
-Pour plus d’informations, reportez-vous à la section [Création d’un fournisseur de services et de ses catégories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)de coûts.
+Pour plus d&#39;informations, reportez-vous à la section [Création d&#39;un prestataire et de ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Sélectionnez les postes de coûts afférents à la réalisation de la tâche. Pour cela, choisissez le type de coût et ajoutez éventuellement un montant à surcharger.
 
@@ -208,7 +208,7 @@ Sélectionnez les postes de coûts afférents à la réalisation de la tâche. P
 
 >[!NOTE]
 >
->The method for managing budgets and costs is presented in [Controlling costs](../../campaign/using/controlling-costs.md).
+>La méthode de gestion des budgets et des coûts est présentée dans la section [Maîtriser les coûts](../../campaign/using/controlling-costs.md).
 
 Lorsqu&#39;un prestataire est sélectionné, il est affiché dans le tableau de bord de la tâche :
 
@@ -274,15 +274,15 @@ Lorsque vous créez des tâches depuis une opération, vous pouvez créer des t�
 
 Les tâches suivantes peuvent être planifiées :
 
-* **[!UICONTROL Tâche]** de contrôle, reportez-vous aux tâches [de](#control-tasks)contrôle,
-* **[!UICONTROL Tâche]** de création de ressources marketing, voir Tâche [de](#grouping-task)regroupement,
-* **[!UICONTROL Tâche]** de regroupement, reportez-vous à [Tâche](#grouping-task)de regroupement,
-* **[!UICONTROL Tâche]** de notification, reportez-vous à la tâche [de](#notification-task)notification.
+* **[!UICONTROL Tâche de contrôle]**, voir la section [Tâche de contrôle](#control-tasks),
+* **[!UICONTROL Tâche de création d&#39;une ressource marketing]**, voir la section [Tâche de groupement](#grouping-task),
+* **[!UICONTROL Tâche de groupement]**, voir la section [Tâche de groupement](#grouping-task),
+* **[!UICONTROL Tâche de notification]**, voir la section [Tâche de notification](#notification-task).
 
 >[!NOTE]
 >
 >Les tâches de type **[!UICONTROL Tâche de contrôle]** et **[!UICONTROL Tâche de groupement]** ne peuvent être créées **que** depuis le tableau de bord de l&#39;opération.\
->Ils sont affichés dans la carte des tâches de l’opérateur auquel ils sont affectés. Voir [Accès aux tâches](#accessing-tasks).
+>Elles sont affichées dans la vue d&#39;ensemble des tâches de l&#39;opérateur auquel elles sont assignées. Voir la section [Accéder aux tâches](#accessing-tasks).
 
 ### Tâche de contrôle {#control-tasks}
 
@@ -389,11 +389,11 @@ Vous pouvez attacher une pièce jointe à la tâche, et à l&#39;email de notifi
 
 ### Liens entre les tâches {#links-between-tasks}
 
-Le bouton **[!UICONTROL Propriétés]** de chaque tâche permet de définir les liens entre les tâches d’une campagne. Vous pouvez fractionner des tâches en sous-tâches à l’aide d’une tâche de regroupement (voir Tâches [liées) ou définir des dépendances entre les tâches (voir](#linked-tasks)Regroupement de tâches [](#grouping-tasks)).
+Le bouton **[!UICONTROL Propriétés]** de chaque tâche permet de définir les liens entre les tâches d&#39;une campagne. Il est possible de fractionner ces tâches en sous-tâches à l&#39;aide d&#39;un regroupement (voir la section [Tâches liées](#linked-tasks)) ou de définir des dépendances entre les tâches (voir la section[Tâches de groupement](#grouping-tasks)).
 
 #### Tâches liées {#linked-tasks}
 
-Use the **[!UICONTROL Linked task]** field to associate tasks with a grouping task. Voir [Types de tâche](#types-of-task).
+Utilisez le champ **[!UICONTROL Tâche liée]** pour associer des tâches à une tâche de groupement. Voir la section [Types de tâches](#types-of-task).
 
 Dans l&#39;exemple suivant, la validation des ciblages est découpée en quatre sous-tâches.
 
@@ -413,7 +413,7 @@ La dépendance entre les tâches est matérialisée par des flèches dans le tab
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-Dans le cas de tâches groupées, Adobe Campaign attribue automatiquement la date de fin de la tâche parent à la tâche enfant comme date de début. Par exemple, si une tâche **Créer une invitation** se termine le 15 octobre à 15h30, la tâche enfant Envoyer un courrier électronique **** d’invitation démarre le 15 octobre à 15h30.
+Dans le cas de tâches groupées, Adobe Campaign attribue automatiquement la date de fin de la tâche parent comme date de début de la tâche enfant. Par exemple, si une tâche **Créer une invitation** se termine le 15 octobre à 15h30, la tâche enfant **Envoyer un email d&#39;invitation** démarre le 15 octobre à 15h30.
 
 De plus, si vous retardez la fin d&#39;une tâche mère, certaines de ses tâches filles peuvent être décalées : il s&#39;agit des tâches filles dont le statut est **[!UICONTROL Planifié]** et dont la date de début est antérieure à la nouvelle date de fin de la tâche mère. La durée de la tâche fille reste la même. Si la date de début d&#39;une tâche fille est postérieure à la nouvelle date de fin de la tâche mère, alors la tâche fille n&#39;est pas décalée.
 
@@ -435,7 +435,7 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 * Une fois débutée, la tâche est **[!UICONTROL En cours]**. Lorsque le responsable de la tâche la clôt, elle passe en **[!UICONTROL Terminée]**.
 * Si un validant a été défini, la tâche est **[!UICONTROL En attente de validation]** entre le moment où le responsable la clôt et le moment où le validant la valide. Si le validant la refuse, la tâche est **[!UICONTROL Refusée]**.
 * Une tâche peut être annulée par son responsable depuis le tableau de bord ou à partir de la **[!UICONTROL Vue d&#39;ensemble des tâches]** en cliquant sur le bouton **[!UICONTROL Annuler]**.
-* Pour planifier une tâche, entrez une date de début dans le futur. Vous pouvez ensuite envoyer une première notification aux opérateurs Adobe Campaign impliqués dans l’exécution de la tâche. See [Complete task life cycle](#complete-task-life-cycle).
+* Pour planifier une tâche, saisissez une date de démarrage dans le futur. Vous pouvez alors envoyer une notification initiale aux opérateurs Adobe Campaign impliqués dans la réalisation de cette tâche. Voir à ce sujet la section [Cycle de vie complet d&#39;une tâche](#complete-task-life-cycle).
 
 >[!NOTE]
 >
@@ -451,13 +451,13 @@ En plus de son statut d&#39;exécution, une tâche peut être associée à un é
 
 Vous pouvez filtrer la liste des tâches par Statut de réalisation de la tâche ou Etat d&#39;avancement de la tâche.
 
-For more on this, refer to [Accessing tasks](#accessing-tasks).
+Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
 
 ### Cycle de vie complet d&#39;une tâche {#complete-task-life-cycle}
 
 Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laquelle le responsable a défini des intervenants et des validants.
 
-1. Le responsable crée la tâche et entre les différents champs. For more on this, refer to [Creating a new task](#creating-a-new-task).
+1. Le responsable crée la tâche et renseigne les différents champs. Voir à ce propos la section [Créer une nouvelle tâche](#creating-a-new-task).
 
    Lors de la création, et à chaque modification d&#39;une tâche **planifiée dans le futur** (tant que la date de début de la tâche n&#39;a pas été atteinte), vous avez la possibilité d&#39;envoyer un email de notification aux intervenants ainsi qu&#39;au responsable, les informant qu&#39;une nouvelle tâche a été planifiée.
 
