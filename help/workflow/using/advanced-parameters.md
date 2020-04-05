@@ -1,7 +1,7 @@
 ---
-title: Advanced parameters
-seo-title: Advanced parameters
-description: Advanced parameters
+title: Paramètres avancés
+seo-title: Paramètres avancés
+description: Paramètres avancés
 seo-description: null
 page-status-flag: never-activated
 uuid: 9453d291-921b-4a03-80d1-2c8295f9a986
@@ -40,7 +40,7 @@ Ce champ contient le nom interne de l&#39;activité.
 
 ## Image {#image}
 
-Ce champ vous permet de modifier l’image liée à une activité. Pour plus d’informations à ce sujet, voir : [Gestion des images](../../workflow/using/managing-activity-images.md)d’activité.
+Ce champ vous permet de modifier l’image liée à une activité. Pour plus d’informations à ce sujet, voir : [Gestion des images d’activité](../../workflow/using/managing-activity-images.md).
 
 ## Exécution {#execution}
 
@@ -54,9 +54,9 @@ Ces options sont généralement sélectionnées au niveau du diagramme en cliqua
 
 ## Affinité {#affinity}
 
-Ce champ vous permet de forcer l’exécution d’une activité sur un ordinateur spécifique. For more on this, refer to: [Managing propensity](../../workflow/using/managing-propensity.md).
+Ce champ vous permet de forcer l’exécution d’une activité sur un ordinateur spécifique. Voir à ce sujet la section : [Gestion des affinités](../../workflow/using/managing-propensity.md).
 
-## Max. execution period {#max--execution-period}
+## Durée max. d’exécution {#max--execution-period}
 
 Ce champ vous permet de définir une alerte vous avertissant lorsque la tâche est trop longue. Cela n&#39;a aucun impact sur le fonctionnement du workflow. Si la tâche n&#39;est pas terminée au bout du temps défini dans le champ **[!UICONTROL Durée max. d&#39;exécution]**, la page **[!UICONTROL Supervision de l&#39;instance]** affichera une alerte concernant ce workflow. Cette page est accessible à partir de l&#39;onglet **[!UICONTROL Supervision]** de la page d&#39;accueil.
 
@@ -69,7 +69,7 @@ Ce champ vous permet de définir le comportement à effectuer dans le cas de l&#
 
 ## Time zone {#time-zone}
 
-Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Pour en savoir plus : [Gestion des fuseaux](../../workflow/using/managing-time-zones.md)horaires.
+Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Voir à ce sujet la section : [Gestion des fuseaux horaires](../../workflow/using/managing-time-zones.md).
 
 ## En cas d&#39;erreur {#in-case-of-errors}
 
@@ -80,7 +80,7 @@ Ce champ vous permet de définir l&#39;action à effectuer lorsque l&#39;activit
 
 ## Script d&#39;initialisation {#initialization-script}
 
-Ce champ vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Pour plus d’informations à ce sujet, voir : Scripts [JavaScript et modèles](../../workflow/using/javascript-scripts-and-templates.md).
+Ce champ vous permet d’initialiser des variables ou de modifier des propriétés d’activité. Voir à ce sujet la section : [Scripts et templates JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
 
 ## Commentaire {#comment}
 
