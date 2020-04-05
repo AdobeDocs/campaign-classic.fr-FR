@@ -72,7 +72,7 @@ Cet écran permet d&#39;afficher le ou les groupes auxquels appartient le profil
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-Pour plus d’informations, reportez-vous à la section [Création et gestion des listes](../../platform/using/creating-and-managing-lists.md).
+Voir à ce sujet la section [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md).
 
 ## Onglet Abonnements {#subscriptions-tab}
 
