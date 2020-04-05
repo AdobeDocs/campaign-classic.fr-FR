@@ -1,6 +1,6 @@
 ---
-title: Extraction de données (fichier)
-description: En savoir plus sur l’activité du processus d’extraction de données (fichier).
+title: Extraction (fichier)
+description: En savoir plus sur l’activité du workflow d’extraction (fichier).
 page-status-flag: never-activated
 uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
 contentOwner: sauviat
@@ -18,9 +18,9 @@ source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
 ---
 
 
-# Extraction de données (fichier){#extraction-file}
+# Extraction (fichier){#extraction-file}
 
-You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
+Vous pouvez extraire les données d&#39;une table de workflow dans un fichier externe en utilisant l&#39;activité **[!UICONTROL Extraction (fichier)]**.
 
 >[!CAUTION]
 >
