@@ -20,7 +20,7 @@ source-git-commit: 1719d6ac9643f0b3e9339037cf4d0f209d16340e
 ---
 
 
-# Commencer à créer des rapports {#about-adobe-campaign-reporting-tools}
+# Prise en main de la création de rapports {#about-adobe-campaign-reporting-tools}
 
 En complément des [rapports natifs](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign permet de générer des rapports dans différents contextes et de répondre à des besoins variés. Les principes d&#39;utilisation et leur mode de mise en œuvre sont présentés dans ce document.
 
@@ -30,7 +30,7 @@ Si vous souhaitez exporter des données de la base Adobe Campaign, vous devez cr
 
 Adobe Campaign propose plusieurs outils de reporting :
 
-1. **Rapports** intégrés : Adobe Campaign propose un ensemble de rapports sur les remises, les campagnes, les activités de plateforme, les fonctionnalités facultatives, etc. Ces rapports sont disponibles via les différentes fonctionnalités auxquelles ils se rapportent. Ils peuvent être adaptés à vos besoins spécifiques.
+1. **Rapports natifs** : Adobe Campaign propose un ensemble de rapports sur les diffusions, les opérations, les activités de la plateforme, les fonctionnalités optionnelles, etc. Ces rapports sont disponibles à partir des différentes fonctionnalités auxquelles ils se rapportent. Ils peuvent être adaptés pour mieux répondre à vos besoins.
 
    Voir à ce propos [cette section](../../reporting/using/about-campaign-built-in-reports.md).
 
