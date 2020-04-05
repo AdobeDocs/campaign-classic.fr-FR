@@ -114,7 +114,7 @@ Pour créer un nouveau paramètre :
 Les en-têtes **[!UICONTROL HTTP de]** réponse vous permettent d’empêcher les clics sur la page lorsque vous incluez votre rapport dans une page HTML à l’aide d’iframe. Pour éviter de cliquer sur le lien, vous pouvez choisir le comportement de l’en-tête **** X-Frame-options :
 
 * **[!UICONTROL Aucun]**: Le rapport ne comporte aucun en-tête **** X-Frame-options.
-* **[!UICONTROL Identique à l’origine]**: Défini par défaut pour les nouveaux rapports et les rapports republiés. Le nom d’hôte sera identique à l’URL du rapport.
+* **[!UICONTROL Identique à]**: Défini par défaut pour les nouveaux rapports et les rapports republiés. Le nom d’hôte sera identique à l’URL du rapport.
 * **[!UICONTROL Refuser]**: Le rapport ne peut pas être inclus dans une page HTML utilisant iframe.
 
 ![](assets/s_ncs_advuser_report_properties_09c.png)
@@ -139,7 +139,7 @@ Les scripts référencés doivent être rédigés en Javascript et compatibles a
 
 Dans l&#39;onglet **[!UICONTROL Page d&#39;erreur]**, vous pouvez paramétrer le message qui doit apparaître en cas d&#39;erreur lors de l&#39;affichage du rapport.
 
-Vous pouvez définir des textes et les associer à des identifiants afin de gérer la localisation du rapport. Pour plus d’informations, voir [Ajout d’un en-tête et d’un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+Vous pouvez définir des textes et les associer à des identifiants afin de gérer la localisation du rapport. Pour plus d’informations, voir la section [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
 
