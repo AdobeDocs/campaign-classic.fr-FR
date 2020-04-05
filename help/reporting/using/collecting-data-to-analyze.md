@@ -22,7 +22,7 @@ source-git-commit: 0c41cf2f35495a1514642e47f0b7146d8dd50946
 
 # Collecter les données à analyser{#collecting-data-to-analyze}
 
-The data to be used for building the report can be selected directly in the report page (for more on this, refer to [Using the context](../../reporting/using/using-the-context.md)) or collected via one or more queries.
+Les données qui vont être utilisées pour construire le rapport peuvent être sélectionnées directement au niveau de la page du rapport (voir à ce propos la section [Utiliser le contexte](../../reporting/using/using-the-context.md)) ou collectées via une ou plusieurs requêtes.
 
 Dans cette activité, trois méthodes distinctes sont proposées :
 
@@ -36,7 +36,7 @@ Dans tous les cas, les données sont collectées au travers d&#39;une activité 
 
 ![](assets/reporting_query_edit.png)
 
-Ce mode de sélection des données est pertinent lorsque les données du rapport doivent être collectées ou créées à l’aide des données de la base de données. Dans certains cas, vous pouvez également sélectionner les données directement à partir des éléments utilisés dans le rapport. Par exemple, lorsque vous insérez un graphique, vous pouvez sélectionner directement les données source. Pour plus d’informations, voir [Utilisation du contexte](../../reporting/using/using-the-context.md).
+Ce mode de sélection des données est pertinent lorsque les données du rapport doivent être collectées, ou construites, à partir des données de la base. Dans certains cas, il est également possible de sélectionner directement les données au niveau des éléments utilisés dans le rapport, par exemple lorsque vous insérez un graphique, vous pouvez sélectionner directement les données source. Voir à ce sujet la section [Utiliser le contexte](../../reporting/using/using-the-context.md).
 
 ## Utiliser un schéma de la base {#using-the-data-from-a-schema}
 
