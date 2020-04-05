@@ -30,6 +30,6 @@ Cet outil regroupe toutes les possibilités de requêtage d&#39;Adobe Campaign. 
 
 Les requêtes sont réalisées soit avec les champs disponibles de la table sélectionnée, soit à l&#39;aide d&#39;une formule.
 
-[Cliquez ici](../../workflow/using/query.md) pour découvrir l&#39;éditeur de requêtes Campaign.
+[Cliquez ici](../../workflow/using/query.md) pour découvrir le requêteur de Campaign.
 
 ![](assets/query_recipients_4.png)
