@@ -34,10 +34,10 @@ L&#39;envoi d&#39;une diffusion peut être automatisé en préparant la diffusio
 
 Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 
-1. **Canal** de courriel : les remises de courrier électronique vous permettent d’envoyer des courriers électroniques personnalisés à la population cible. Reportez-vous à [A propos du canal](../../delivery/using/about-email-channel.md)de messagerie.
-1. **Canal** de messagerie directe : les livraisons directes par courrier vous permettent de générer un fichier d&#39;extraction contenant des données sur la population cible. Reportez-vous à [A propos du canal](../../delivery/using/about-direct-mail-channel.md)de messagerie directe.
-1. **Canal** mobile : les diffusions sur les canaux mobiles vous permettent d’envoyer des SMS personnalisés ou des messages LINE à la population cible. Reportez-vous au canal [](../../delivery/using/sms-channel.md)SMS.
-1. **Canal** d&#39;application mobile : les remises d’applications mobiles vous permettent d’envoyer des notifications aux systèmes iOS et Android. Reportez-vous au chapitre sur le canal [des applications](../../delivery/using/about-mobile-app-channel.md) mobiles.
+1. **Canal email** : les diffusions email permettent d&#39;adresser des messages électroniques personnalisés à la population cible. Voir [A propos du canal email](../../delivery/using/about-email-channel.md).
+1. **Canal courrier** : les diffusions courrier permettent de générer un fichier d&#39;extraction contenant les données relatives à la population cible. Voir [A propos du canal courrier](../../delivery/using/about-direct-mail-channel.md).
+1. **Canal mobile** : les diffusions sur canaux mobiles permettent d&#39;adresser des SMS ou des messages LINE personnalisés à la population cible. Voir [Canal SMS](../../delivery/using/sms-channel.md).
+1. **** d’applications mobiles : le d’applications mobiles  vous permet d’envoyer des notifications aux systèmes iOS et Android. Reportez-vous au chapitre [sur les applications](../../delivery/using/about-mobile-app-channel.md) mobiles.
 
    Les autres canaux sont présentés dans [cette page](../../delivery/using/other-channels.md).
 
@@ -52,7 +52,7 @@ Selon le canal, les modes de diffusion peuvent être les suivants :
 * Envoi en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
 * Envoi en externe, via un opérateur spécialisé, auquel est fourni le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal Courrier).
 
-Les comptes externes sont configurés via le **[!UICONTROL Administration > Platform > External accounts]** noeud. Cette configuration ne doit être effectuée que par des utilisateurs experts.
+Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plate-forme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
 
 ## Diffusions Email {#email-deliveries}
 
@@ -78,7 +78,7 @@ Pour les messages LINE, vous pouvez envoyer du texte ou des images et des liens.
 
 Pour diffuser des SMS ou des messages LINE vers un téléphone mobile, il vous faut :
 
-* An external account configured on the **[!UICONTROL Mobile (SMS)]** channel or on the **[!UICONTROL LINE]** channel.
+* un compte externe paramétré sur le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL LINE]**,
 * un modèle de diffusion SMS ou LINE correctement lié à ce compte externe.
 
 ## Notifications push {#push-notifications}
