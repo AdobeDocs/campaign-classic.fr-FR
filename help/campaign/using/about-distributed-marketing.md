@@ -69,7 +69,7 @@ Une opération locale est une instance d&#39;opération créée à partir d&#39;
 
 Le degré d&#39;autonomie de l&#39;entité locale dépend de la mise en oeuvre utilisée.
 
-Reportez-vous à [Création d&#39;une campagne](../../campaign/using/creating-a-local-campaign.md)locale.
+Voir [Création d&#39;une campagne locale](../../campaign/using/creating-a-local-campaign.md).
 
 ### Opération collaborative {#collaborative-campaign}
 
@@ -80,13 +80,13 @@ Une opération collaborative est une opération dont le **planning d&#39;exécut
 * **[!UICONTROL Opération collaborative par validation de la cible]** : conseillée pour des opérations visant jusqu&#39;à plusieurs milliers d&#39;entités locales. L&#39;entité locale reçoit une liste de contacts sélectionnés par l&#39;entité centrale. L&#39;entité locale choisit de garder ou non certains contacts en fonction du contenu de l&#39;opération, grâce à un formulaire Web. Les entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à l&#39;opération, l&#39;entité locale a seulement besoin d&#39;un accès Web.
 * **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
 
-Reportez-vous à [Création d’une campagne](../../campaign/using/creating-a-collaborative-campaign.md)collaborative.
+Voir [Création d’une campagne collaborative](../../campaign/using/creating-a-collaborative-campaign.md).
 
 ### Commande de kits d&#39;opération {#ordering-campaign-packages}
 
 L&#39;inscription d&#39;une entité locale à une opération se traduit par la création d&#39;une commande qui regroupe toutes les informations relatives à la localisation de la campagne.
 
-## Espace de travail {#workspace}
+## Espace de travail  {#workspace}
 
 La liste des kits d&#39;opération est accessible à partir de l&#39;univers **Campagnes** : cliquez sur le lien **[!UICONTROL Kits d&#39;opération]**.
 
@@ -102,7 +102,7 @@ Vous devez d&#39;abord définir les acteurs des entités centrales et locales à
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 
-### Opérateurs {#operators}
+### Les opérateurs {#operators}
 
 Vous devez créer des opérateurs centraux et des opérateurs locaux.
 
@@ -126,7 +126,7 @@ Chaque entité organisationnelle contient les informations d&#39;identification 
 
 >[!NOTE]
 >
->The approval process is presented in the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+>Le processus de validation est présenté dans la section [Processus de validation](../../campaign/using/creating-a-local-campaign.md#approval-process).
 
 ## Mise en oeuvre {#implementation}
 
