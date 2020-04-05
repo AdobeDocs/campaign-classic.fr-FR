@@ -58,7 +58,7 @@ Pour cela, les étapes sont les suivantes :
    </srcSchema>
    ```
 
-1. Déclarez votre schéma comme une vue externe à l’aide de l’attribut =&quot;true&quot;. Reportez-vous à [L’attribut](../../configuration/using/schema-characteristics.md#the-view-attribute)de vue.
+1. Déclarez votre schéma comme vue externe à l&#39;aide de l&#39;attribut view=&quot;true&quot;. Voir la section [Attribut view](../../configuration/using/schema-characteristics.md#the-view-attribute).
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>
@@ -107,7 +107,7 @@ Pour cela, les étapes sont les suivantes :
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign ne prend pas en charge plusieurs schémas de destinataires, appelés schémas de ciblage, liés aux mêmes schémas de journal de diffusion et/ou de journal de suivi. Cela peut par ailleurs entraîner des anomalies dans la réconciliation des données par la suite. Pour plus d&#39;informations sur ce sujet, consultez la page [Recommandation et limites](../../configuration/using/about-custom-recipient-table.md) .
+   >Adobe Campaign ne prend pas en charge les schémas de destinataires multiples, appelés schémas de ciblage, liés aux mêmes schémas de broadlog et/ou de trackinglog. Leur prise en charge entraînerait des anomalies dans la réconciliation ultérieure des données. Pour plus d&#39;informations sur ce sujet, voir la page [Recommandations et limitations](../../configuration/using/about-custom-recipient-table.md).
 
 1. Dans la fenêtre suivante **Extensions**, sélectionnez les schémas optionnels que vous souhaitez générer (la liste des schémas disponibles dépend des modules installés dans Adobe Campaign).
 
@@ -130,4 +130,4 @@ Pour utiliser le nouveau schéma comme cible d&#39;une diffusion, il existe deux
 
 **Rubrique connexe**
 
-* [Répondez rapidement aux demandes des clients pour accéder à leurs données](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
+* [Répondre rapidement aux demandes des clients pour accéder à leurs données](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
