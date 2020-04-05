@@ -28,7 +28,7 @@ Un catalogue d&#39;offres fait partie d&#39;un seul environnement, à définir a
 
 La gestion des offres se fait depuis une arborescence de dossiers dans l&#39;explorateur de la console Adobe Campaign.
 
-Avant de créer vos offres, vous devez d’abord spécifier un environnement (voir Présentation [des](../../interaction/using/environments-overview.md)environnements). Il contiendra toutes les caractéristiques (éligibilité, contraintes sur la cible, règles de présentation) d’un ensemble d’offres, triées en catégories, ainsi que la liste de leurs espaces.
+Avant de créer vos offres, vous devez d’abord spécifier un environnement (voir [Présentation des environnements](../../interaction/using/environments-overview.md)). Il contiendra toutes les caractéristiques (éligibilité, contraintes sur la cible, règles de présentation) d’un ensemble d’offres, triées en catégories, ainsi que la liste de leurs espaces.
 
 >[!CAUTION]
 >
