@@ -58,7 +58,7 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
    1. Lorsque vous sélectionnez le type Individuel, un nouvel onglet, Coupons, apparaît en bas à gauche. Allez dans l&#39;onglet **[!UICONTROL Coupons]** et cliquez sur **[!UICONTROL Ajouter]**.
    1. Lorsque la fenêtre contextuelle vous y invite, saisissez un code unique pour le coupon individuel.
    1. Cliquez sur **[!UICONTROL Enregistrer]** pour générer le coupon.
-   Pour plus d’informations sur l’onglet Bons, voir [Configuration de bons](#configuring-individual-coupons)individuels.
+   Pour plus d&#39;informations sur l&#39;onglet Coupons, voir la section [Configuration de coupons individuels](#configuring-individual-coupons).
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
 >[!NOTE]
 >
->For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](#managing-insufficient-coupons)
+>Pour des consignes sur la gestion du manque de coupons pour une diffusion, voir la section [Gestion des coupons insuffisants](#managing-insufficient-coupons).
 
 Pour confirmer que la diffusion a abouti :
 
