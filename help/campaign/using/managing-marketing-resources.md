@@ -103,7 +103,7 @@ Vous pouvez également, au besoin, la déverrouiller manuellement depuis le tabl
 
 Pour chaque ressource, l&#39;onglet **[!UICONTROL Forum]** permet aux intervenants d&#39;échanger des informations.
 
-[Les forums](../../campaign/using/discussion-forums.md) de discussion expliquent le fonctionnement des forums de discussion dans Adobe Campaign.
+La section [Forums de discussion](../../campaign/using/discussion-forums.md) explique la façon dont les forums de discussion fonctionnent dans Adobe Campaign.
 
 ## Cycle de vie d&#39;une ressource marketing {#life-cycle-of-a-marketing-resource}
 
@@ -154,7 +154,7 @@ Pour qu&#39;Adobe Campaign effectue la publication, vous devez créer un workflo
 Le workflow sera exécuté :
 
 * Lorsque le validant de publication cliquera sur **[!UICONTROL Publier la ressource]** (ou, si aucun validant de publication n&#39;a été défini, le responsable de la ressource).
-* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]**, as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task))
+* Si la ressource est gérée via une tâche de création de ressource marketing, lorsque la tâche sera marquée comme **[!UICONTROL Terminée]**, à condition que la case **[!UICONTROL Publier la ressource marketing]** ait été cochée dans la tâche (voir [Tâche de création de ressource marketing](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task)).
 
 Si le workflow n&#39;est pas lancé immédiatement (par exemple si le moteur de workflow est arrêté), l&#39;état de la ressource passe à **[!UICONTROL En attente de publication]**. Une fois le workflow lancé, l&#39;état de la ressource passe à **[!UICONTROL Publié]**. Ce statut ne tient pas compte d&#39;éventuelles erreurs dans le processus de publication. Vérifiez l&#39;état de votre workflow pour vous assurer que celui-ci s&#39;est correctement exécuté.
 
@@ -166,7 +166,7 @@ Les ressources marketing peuvent être associées aux opérations, sous réserve
 
 >[!NOTE]
 >
->For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>La création et le paramétrage des modèles d’opération sont détaillés dans la section [Modèles de campagne](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Documents > Ressources]** dans le tableau de bord de l&#39;opération, puis cliquez sur **[!UICONTROL Ajouter]** pour sélectionner la ressource visée.
 
@@ -190,7 +190,7 @@ Les ressources marketing peuvent être associées à des diffusions via les comp
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les contours de la prestation, consultez [Association et structuration des ressources liées par le biais d&#39;un plan](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)de prestation.
+>Pour plus d&#39;informations sur les compositions de diffusion, consultez [Associer et structurer les ressources liées via une composition de diffusion](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Gestion des stocks {#stock-management}
 
@@ -198,7 +198,7 @@ Vous pouvez associer une ressource marketing à un ou plusieurs stocks afin de g
 
 >[!NOTE]
 >
->For more information on stock management in Adobe Campaign, refer to [Stock management](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
+>Pour plus d&#39;information sur le mode de gestion des stocks dans Adobe Campaign, consultez la section [Gestion des stocks](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
 
 Pour associer une ressource marketing à un stock, éditez la vue d&#39;ensemble des stocks et éditez ou créez un stock. Ajoutez une ligne de stock et sélectionnez la ressource marketing correspondante.
 
