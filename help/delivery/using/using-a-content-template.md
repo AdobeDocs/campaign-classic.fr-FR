@@ -24,9 +24,9 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## A propos des modèles de contenu {#about-content-templates}
 
-Les modèles de contenu peuvent être référencés et utilisés directement dans les remises. Reportez-vous à [Création d’une diffusion via la gestion du contenu.](#creating-a-delivery-via-content-management)
+Les modèles de contenu peuvent être référencés et utilisés directement dans les diffusions. Voir [Créer une diffusion via la gestion du contenu.](#creating-a-delivery-via-content-management)
 
-Ils peuvent également être utilisés pour créer des instances de contenu. Une fois qu’elles ont été créées, ces instances sont prêtes à être livrées (voir [Diffusion d’une instance](#delivering-a-content-instance)de contenu) ou exportées (voir [Création d’une instance](#creating-a-content-instance)de contenu).
+Ils peuvent également être utilisés pour créer des instances de contenu. Une fois qu’elles ont été créées, ces instances sont prêtes à être diffusées (voir [Diffuser une instance de contenu](#delivering-a-content-instance)) ou exportées (voir [Créer une instance de contenu](#creating-a-content-instance)).
 
 ## Créer une diffusion via la gestion de contenu {#creating-a-delivery-via-content-management}
 
@@ -38,7 +38,7 @@ La mise en forme sera appliquée automatiquement, selon les paramètres sélecti
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-Pour plus d’informations, reportez-vous à l’exemple d’implémentation complet : [Création de contenu dans l’assistant](../../delivery/using/use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)de diffusion.
+Voir à ce sujet l’exemple d’implémentation complet : [Créer un contenu dans l’assistant de diffusion](../../delivery/using/use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
 
 ## Créer une instance de contenu {#creating-a-content-instance}
 
@@ -76,13 +76,13 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Vous pouvez autoriser la génération de contenus non approuvés. Pour ce faire, modifiez l’option appropriée dans le modèle de publication. Pour plus d’informations, reportez-vous à la section [Création et configuration du modèle](../../delivery/using/publication-templates.md#creating-and-configuring-the-template).
+   >Vous pouvez autoriser la génération de contenus non validés. Pour cela, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](../../delivery/using/publication-templates.md#creating-and-configuring-the-template).
 
    Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
 
 ## Diffuser une instance de contenu {#delivering-a-content-instance}
 
-Pour créer une instance de contenu et la diffuser, un modèle de diffusion doit être lié au modèle de publication utilisé pour générer ce contenu. For more on this, refer to [Delivery](../../delivery/using/publication-templates.md#delivery).
+Pour créer une instance de contenu et la diffuser, un modèle de diffusion doit être associé au modèle de publication utilisé pour générer ce contenu. Voir à ce sujet la section [Diffusion](../../delivery/using/publication-templates.md#delivery).
 
 De plus, le dossier de stockage du contenu doit être dédié aux contenus issus de ce modèle de publication (lorsqu&#39;un dossier de contenu permet la génération de plusieurs types de contenus différents, il n&#39;est pas possible de créer automatiquement la diffusion).
 
