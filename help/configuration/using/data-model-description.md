@@ -22,7 +22,7 @@ source-git-commit: 707e16e9e493e175c70af606bf4568a9127cedb2
 
 Un modèle de données d&#39;usine est fourni avec Adobe Campaign. Cette section donne quelques détails sur les tableaux intégrés du modèle de données Adobe Campaign  et sur leur interaction.
 
-To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
+Pour accéder à la description de chaque table, accédez à **[!UICONTROL Admin > Configuration > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
 
 ![](assets/data-model_documentation-tab.png)
 
