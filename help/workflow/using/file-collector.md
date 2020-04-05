@@ -30,7 +30,7 @@ Les fichiers doivent se trouver sur le serveur sur lequel s&#39;exécute le modu
 
 ## Propriétés {#properties}
 
-Le premier onglet de l’activité du collecteur **[!UICONTROL de]** fichiers vous permet de sélectionner le répertoire source et, si nécessaire, de filtrer les fichiers collectés. Les autres onglets sont détaillés dans la section Courriers électroniques [](../../workflow/using/inbound-emails.md) entrants (onglets **[!UICONTROL Planification]** et **[!UICONTROL Expiration]** ).
+Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vous permet de sélectionner le répertoire source et, si nécessaire, de filtrer les fichiers collectés. Les autres onglets sont présentés dans la section [Réception d’emails](../../workflow/using/inbound-emails.md) (onglets **[!UICONTROL Planning]** et **[!UICONTROL Expiration]**).
 
 ![](assets/file_collect_edit.png)
 
@@ -42,7 +42,7 @@ Le premier onglet de l’activité du collecteur **[!UICONTROL de]** fichiers vo
 
    * **[!UICONTROL Filtre]**
 
-      Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire sont ignorés. Si le filtre est vide, tous les fichiers du répertoire sont pris en compte. Exemples de filtrage : ***.zip**, **import-*.txt**.
+      Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire seront ignorés. Si le filtre est vide, tous les fichiers du répertoire seront pris en compte. Exemples de filtre : ***.zip**, **import-*.txt**.
 
    * **[!UICONTROL Terminer dès qu&#39;un fichier est traité]**
 
@@ -74,7 +74,7 @@ Le premier onglet de l’activité du collecteur **[!UICONTROL de]** fichiers vo
 
 1. **Historisation**
 
-   Refer to the **[!UICONTROL File historization]** step here: [Web download](../../workflow/using/web-download.md).
+   Voir l’étape **[!UICONTROL Historisation des fichiers]** de la section [Téléchargement Web](../../workflow/using/web-download.md).
 
 L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter séquentiellement un ensemble de fichier, il faut utiliser l&#39;option **[!UICONTROL Terminer dès qu&#39;un fichier est traité]** et faire une boucle. Dans ce cas, les fichiers seront traités par ordre alphabétique. L&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]** permet de terminer l&#39;itération.
 
