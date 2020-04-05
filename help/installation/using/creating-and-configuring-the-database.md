@@ -24,8 +24,8 @@ source-git-commit: 4869eb41f942a89c48bc213913c44b70ae777bfc
 
 Lors de la création de la base de données, Adobe Campaign propose deux options distinctes :
 
-1. Création ou recyclage d’une base de données : choisissez cette option si vous souhaitez créer une nouvelle base de données ou réutiliser une base existante. Reportez-vous au [cas 1 : Création/recyclage d’une base de données](#case-1--creating-recycling-a-database).
-1. Utilisation d’une base de données existante : choisissez cette option si une base de données vide a déjà été créée par votre administrateur et que vous souhaitez l&#39;utiliser ; ou pour étendre la structure d&#39;une base de données existante. Reportez-vous au [deuxième cas : Utilisation d’une base de données](#case-2--using-an-existing-database)existante.
+1. Créer ou recycler une base de données : choisissez cette option lorsque vous souhaitez créer une base de données ou réutiliser une base existante. Voir [1er cas : créer/recycler une base](#case-1--creating-recycling-a-database).
+1. Utiliser une base existante : choisissez cette option lorsque une base vide a déjà été créée par votre administrateur et que vous souhaitez l’utiliser, ou pour étendre la structure d’une base de données existante. Voir [2e cas : utiliser une base existante](#case-2--using-an-existing-database).
 
 Les étapes de paramétrage sont présentés ci-après.
 
@@ -33,7 +33,7 @@ Les étapes de paramétrage sont présentés ci-après.
 >
 >Les noms de la base de données, des utilisateurs ou des schémas ne doivent pas commencer par un chiffre, ni utiliser de caractères spéciaux.
 >
->Seul l’identifiant **interne** peut effectuer ces opérations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Seul l’identifiant **interne** peut effectuer ces opérations. Voir à ce sujet la section [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 ## 1er cas : créer/recycler une base {#case-1--creating-recycling-a-database}
 
@@ -66,7 +66,7 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
-   1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS\ `<instance>`**(instance mode),
+   1. le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS\`<instance>`**(mode instance),
    1. le mécanisme d’identification pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
@@ -111,7 +111,7 @@ Vous devez définir les paramètres suivants :
 
 * Choisissez le fuseau horaire de la base de données et indiquez éventuellement si la base doit être en UTC, lorsque cette option est disponible.
 
-   Pour plus d’informations, reportez-vous à la section Gestion des [fuseaux](../../installation/using/time-zone-management.md)horaires.
+   Voir à ce sujet la section [Gestion des fuseaux horaires](../../installation/using/time-zone-management.md).
 
 ### Etape 4 - Packages à installer {#step-4---packages-to-install}
 
@@ -149,9 +149,9 @@ La dernière étape de l&#39;assistant permet de lancer la création de la base 
 
 Une fois la création de la base de données terminée, vous pourrez vous reconnecter afin de finaliser le paramétrage de l&#39;instance.
 
-Vous devez maintenant démarrer l’assistant de déploiement pour terminer la configuration de l’instance. Reportez-vous à [l’assistant](../../installation/using/deploying-an-instance.md#deployment-wizard)de déploiement.
+Vous devez à présent lancer l’assistant de déploiement pour terminer la configuration de l’instance. Voir [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
+Les paramètres de connexion à la base de données associés à l’instance sont regroupés dans le fichier **`/conf/config-<instance>.xml`** enregistré dans le répertoire d’installation d’Adobe Campaign.
 
 Exemple de configuration Microsoft SQL Server sur la base base61 associée au compte « campaign » avec son mot de passe crypté :
 
@@ -239,9 +239,9 @@ La dernière étape de l&#39;assistant permet de lancer la création de la base 
 
 Une fois la création de la base de données terminée, vous pourrez vous reconnecter afin de finaliser le paramétrage de l&#39;instance.
 
-Vous devez maintenant démarrer l’assistant de déploiement pour terminer la configuration de l’instance. Reportez-vous à [l’assistant](../../installation/using/deploying-an-instance.md#deployment-wizard)de déploiement.
+Vous devez à présent lancer l’assistant de déploiement pour terminer la configuration de l’instance. Voir [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-The connection settings for the database linked to the instance are stored in the file **`/conf/config-<instance>.xml`** found in the Adobe Campaign installation directory.
+Les paramètres de connexion à la base de données associés à l’instance sont regroupés dans le fichier **`/conf/config-<instance>.xml`** enregistré dans le répertoire d’installation d’Adobe Campaign.
 
 Exemple de configuration Microsoft SQL Server sur la base base61 associée au compte « campaign » avec son mot de passe crypté :
 
