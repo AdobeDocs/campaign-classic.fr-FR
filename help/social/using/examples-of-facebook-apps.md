@@ -26,13 +26,13 @@ Lorsqu&#39;un utilisateur clique sur l&#39;onglet d&#39;une application Facebook
 
 >[!NOTE]
 >
->Il est également possible d’intégrer Adobe Campaign à une application Facebook développée par un partenaire. Dans ce cas, il n’est pas nécessaire d’utiliser l’application Web Adobe Campaign pour acquérir des profils Facebook. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+>Il est également possible d&#39;intégrer Adobe Campaign avec une application Facebook développée par un partenaire. Dans ce cas, il n&#39;est pas nécessaire d&#39;utiliser les applications web Adobe Campaign pour acquérir des profils Facebook. Voir à ce sujet la section [Paramétrer les comptes externes](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
 ![](assets/social_webapp_fb_000.png)
 
 >[!IMPORTANT]
 >
->Suivez les étapes de configuration décrites dans [Création d&#39;une application](../../social/using/creating-a-facebook-application.md)Facebook.
+>Suivez les étapes de configuration décrites dans [Créer une application Facebook](../../social/using/creating-a-facebook-application.md).
 
 >[!NOTE]
 >
@@ -40,15 +40,15 @@ Lorsqu&#39;un utilisateur clique sur l&#39;onglet d&#39;une application Facebook
 
 Les exemples d&#39;applications web de type Facebook présentés dans cette section sont les suivants :
 
-* Comment créer une application Facebook en 7 étapes. Refer to [Quick start: creating a Facebook application in 7 steps](#quick-start--creating-a-facebook-application-in-7-steps).
-* Comment transférer des paramètres à une application Facebook. Refer to [How to forward settings to a Facebook application?](#how-to-forward-settings-to-a-facebook-application-).
-* Comment acquérir des données de fan. Reportez-vous à [Comment acquérir des données de fan?](#how-to-acquire-fan-data-).
+* Comment créer une application Facebook en 7 étapes. Voir [Quick Start : comment créer une application Facebook en 7 étapes](#quick-start--creating-a-facebook-application-in-7-steps).
+* Comment transmettre des paramètres à une application Facebook. Voir [Comment transmettre des paramètres à une application Facebook ?](#how-to-forward-settings-to-a-facebook-application-).
+* Comment acquérir les données des fans. Voir [Comment acquérir les données des fans ?](#how-to-acquire-fan-data-).
 
 >[!IMPORTANT]
 >
 >Ces cas d&#39;utilisation simples ne sont donnés qu&#39;à titre d&#39;exemple afin d&#39;illustrer les fonctionnalités des applications web de type Facebook.
 
-## Recommandations {#recommendations}
+## Recommandations  {#recommendations}
 
 Les limitations suivantes sont des contraintes inhérentes à Facebook :
 
@@ -61,19 +61,19 @@ Cet exemple décrit pas à pas toutes les étapes permettant d&#39;afficher, dan
 
 Pour créer cette application, suivez les étapes ci-dessous :
 
-1. Créez une application sur Facebook ( [https://developers.facebook.com/apps](https://developers.facebook.com/apps)). Pour plus d’informations à ce sujet, voir : [Création d’une application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)Facebook.
+1. Créez une application sur Facebook ([https://developers.facebook.com/apps](https://developers.facebook.com/apps)). Voir à ce sujet la section : [Créer une application Facebook](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
 
    ![](assets/social_create_facebook_app_002.png)
 
-1. Créez un compte externe de type connexion **** Facebook et saisissez les paramètres de l’application Facebook. For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+1. Créez un compte externe de type **[!UICONTROL Facebook Connect]** et saisissez les paramètres de l’application Facebook. Voir à ce sujet la section : [Paramétrer les comptes externes](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
    ![](assets/social_quick_start_2.png)
 
-1. Enter the **[!UICONTROL Terms of service]** and **[!UICONTROL Privacy policy]** links to be displayed on the Facebook permission request screen. Pour plus d’informations à ce sujet, voir : [Saisir les liens](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links)des conditions de service et de la politique de confidentialité.
+1. Ajoutez les liens **[!UICONTROL Conditions d’utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande de permission Facebook. Voir à ce sujet la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links).
 
    ![](assets/social_quick_start_1.png)
 
-1. Créez une application Web de type Facebook dans Adobe Campaign. Pour plus d’informations à ce sujet, voir : [Création d’une application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)Web de type Facebook.
+1. Créez une application web de type Facebook dans Adobe Campaign. Voir à ce sujet la section : [Créer une application web de type Facebook](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application).
 
    ![](assets/social_webapp_005.png)
 
@@ -85,7 +85,7 @@ Pour créer cette application, suivez les étapes ci-dessous :
 
    ![](assets/social_webapp_004.png)
 
-1. Configurez votre application Facebook de sorte qu’elle s’affiche sous forme d’onglet sur votre page Facebook. For more on this, refer to: [Configuring Facebook tabs](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs).
+1. Configurez votre application Facebook de sorte qu’elle s’affiche sous forme d’onglet sur votre page Facebook. Voir à ce sujet la section : [Paramétrer les onglets Facebook](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs).
 
    ![](assets/social_quick_start_5.png)
 
@@ -95,11 +95,11 @@ Vérifiez que l&#39;onglet de l&#39;application **App01** apparaît bien sur vot
 
 ![](assets/social_webapp_042.png)
 
-## How to forward settings to a Facebook application? {#how-to-forward-settings-to-a-facebook-application-}
+## Comment transmettre des paramètres à une application Facebook ?{#how-to-forward-settings-to-a-facebook-application-}
 
 >[!IMPORTANT]
 >
->Suivez les étapes de configuration décrites dans [Création d’une application](../../social/using/creating-a-facebook-application.md)Facebook.
+>Suivez les étapes de configuration décrites dans [Créer une application Facebook](../../social/using/creating-a-facebook-application.md).
 
 Dans l&#39;exemple 1, nous avions personnalisé l&#39;affichage de la page Facebook en fonction de la valeur du champ **[!UICONTROL Fan de la page]**. Il est également possible d&#39;exploiter le champ **[!UICONTROL Paramètres de l&#39;application]**. Ce champ permet de récupérer depuis Facebook des données contenues dans un lien généré par Adobe Campaign.
 
@@ -127,7 +127,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web c
 
 ![](assets/social_webapp_018.png)
 
-## How to acquire fan data? {#how-to-acquire-fan-data-}
+## Comment acquérir les données des fans ?{#how-to-acquire-fan-data-}
 
 >[!CAUTION]
 >
@@ -153,8 +153,8 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web c
 * trois pages
 * une activité **[!UICONTROL Contrôle d&#39;accès]**
 * une activité **[!UICONTROL Pré-chargement]**
-* a **[!UICONTROL Save]** activity
-* Une activité **[!UICONTROL Fin]**.
+* une activité **[!UICONTROL Enregistrement]**
+* une activité **[!UICONTROL Fin]**
 
 ![](assets/social_webapp_019.png)
 
@@ -167,7 +167,7 @@ L&#39;activité **[!UICONTROL Test]** est basée sur les champs **[!UICONTROL Id
 Celle-ci comporte trois branches :
 
 * **[!UICONTROL identifiant (UID) est vide]** : L&#39;identifiant n&#39;est transmis par Facebook que si l&#39;utilisateur a déjà accepté de partager ses informations. La première branche de l&#39;activité **[!UICONTROL Test]** permet de proposer le jeu uniquement si l&#39;utilisateur n&#39;a jamais joué, donc si l&#39;identifiant est vide.
-* **[!UICONTROL le paramètre d&#39;application est égal à &#39;Merci&#39;]** : pour éviter une erreur d’affichage liée à Facebook, la page de fin de l’application Web pointe vers l’URL de l’application Facebook à laquelle le paramètre **[!UICONTROL app_data]** est ajouté lors de l’utilisation de la valeur de **[!UICONTROL remerciements]** (pour plus d’informations, reportez-vous à la section : Activité [de fin](#end-activity)). La seconde branche vous permet de savoir si l’utilisateur provient de l’activité **[!UICONTROL Fin]** de la première branche (et vient d’entrer dans le concours) pour afficher un message de remerciement. Pour plus d’informations sur l’utilisation de paramètres d’URL supplémentaires, voir : [Comment transférer des paramètres vers une application Facebook?](#how-to-forward-settings-to-a-facebook-application-).
+* **[!UICONTROL le paramètre d&#39;application est égal à « Merci »]** : pour éviter une erreur d’affichage liée à Facebook, la page de fin de l’application Web pointe vers l’URL de l’application Facebook à laquelle le paramètre **[!UICONTROL app_data]** est ajouté là l’aide de la valeur **[!UICONTROL thanks]** (voir à ce sujet la section : [Activité de fin](#end-activity)). La seconde branche vous permet de savoir si l’utilisateur provient de l’activité **[!UICONTROL Fin]** de la première branche (et vient d’entrer dans le concours) pour afficher un message de remerciement. Pour plus d’informations sur l’utilisation de paramètres d’URL supplémentaires, voir : [Comment transférer des paramètres à une application Facebook ?](#how-to-forward-settings-to-a-facebook-application-).
 * **[!UICONTROL Branchement par défaut]** : si l&#39;utilisateur a déjà joué (identifiant renseigné) et qu&#39;il ne vient pas de participer au jeu (paramètre d&#39;application différent de **[!UICONTROL thanks]**), nous lui affichons une page lui indiquant qu&#39;il a déjà participé.
 
 ### Page du jeu {#competition-page}
@@ -178,9 +178,9 @@ Pour contourner l&#39;erreur d&#39;affichage liée à Facebook, vous devez égal
 
 ### Activité Contrôle d&#39;accès {#access-control-activity}
 
-The **[!UICONTROL Access control]** activity lets you display the Facebook permission request page when the user enters the competition. If they agree to share their information, it is recovered during pre-loading. For more on this, refer to: [Pre-loading activity](#pre-loading-activity).
+L’activité **[!UICONTROL Contrôle d’accès]** permet d&#39;afficher l&#39;écran de demande de permission Facebook lorsque l&#39;utilisateur choisit de participer au jeu. S&#39;il décide de partager ses informations, celles-ci seront récupérées lors du pré-chargement. Voir à ce sujet la section : [Activité Pré-chargement](#pre-loading-activity).
 
-Si vous avez précédemment saisi le compte externe lors de la création de l’application Web (voir [Création d’une application](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)Web de type Facebook), vous n’avez pas besoin de modifier l’activité. Dans le cas contraire, accédez au champ **[!UICONTROL Application]** et sélectionnez le compte externe lié à l’application Facebook.
+Si vous avez précédemment saisi le compte externe lors de la création de l’application web (voir [Créer une application web de type Facebook](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)), vous n’avez pas besoin de modifier l’activité. Dans le cas contraire, accédez au champ **[!UICONTROL Application]** et sélectionnez le compte externe lié à l’application Facebook.
 
 ![](assets/social_webapp_024.png)
 
@@ -256,9 +256,9 @@ Si le profil n&#39;existe pas en base et que l&#39;adresse email de l&#39;utilis
 
 1. Vous pouvez sélectionner un dossier de recherche pour la réconciliation et un dossier de création pour les nouveaux profils. Si ces champs sont vides, les profils sont recherchés et créés dans le dossier par défaut correspondant au schéma du mapping.
 
-### Activité de fin {#end-activity}
+### Activité Fin {#end-activity}
 
-To sidestep the display error linked to Facebook, you need to check the **[!UICONTROL Use an external URL]** box and enter the URL of the Facebook application, followed by the **[!UICONTROL app_data]** parameter and a value. This value will be used in the **[!UICONTROL Test]** activity to detect whether or not the user has just entered the competition, and to display a thank you message if applicable. For more on this, refer to: [Test activity](#test-activity).
+Pour contourner l&#39;erreur d&#39;affichage liée à Facebook, vous devez cocher la case **[!UICONTROL Utiliser une URL externe]** et saisir l&#39;URL de l&#39;application Facebook, suivie du paramètre **[!UICONTROL app_data]** et d&#39;une valeur. Cette valeur sera utilisée dans la l&#39;activité **[!UICONTROL Test]** pour permettre de détecter si l&#39;utilisateur vient de terminer le jeu et lui afficher une page de remerciements. Voir à ce sujet la section : [Activité Test](#test-activity).
 
 Dans notre exemple, la valeur utilisée est **thanks**.
 
@@ -266,9 +266,9 @@ Dans notre exemple, la valeur utilisée est **thanks**.
 
 ### Ecran de détails d&#39;un visiteur {#details-screen-of-a-visitor}
 
-Comme pour les abonnés de Twitter (voir : Principe [d’exploitation](../../social/using/publishing-on-twitter.md#operating-principle)), les profils Facebook récupérés sont stockés dans le tableau des visiteurs. Pour afficher la liste des visiteurs, accédez au noeud **[!UICONTROL Profils et cibles > Visiteurs]** .
+Comme pour les abonnés Twitter (voir : [Principe de fonctionnement](../../social/using/publishing-on-twitter.md#operating-principle)), les profils Facebook récupérés sont stockés dans la table des visiteurs. Pour afficher la liste des visiteurs, accédez au nœud **[!UICONTROL Profils et cibles > Visiteurs]**.
 
-Chaque prospect Facebook qui accepte de partager ses informations de profil est ajouté à la liste des visiteurs. Si la case **[!UICONTROL Amis]** est cochée dans l’activité de **[!UICONTROL préchargement]** (voir : activité [de préchargement](#pre-loading-activity)), des amis sont également ajoutés.
+Chaque prospect Facebook qui accepte de partager ses informations de profil est ajouté à la liste des visiteurs. Si la case **[!UICONTROL Amis]** est cochée dans l’activité **[!UICONTROL Pré-chargement]** (voir : [Activité Pré-chargement](#pre-loading-activity)), des amis sont également ajoutés.
 
 ![](assets/social_webapp_037.png)
 
@@ -302,7 +302,7 @@ L&#39;onglet **[!UICONTROL Activités]** de l&#39;écran de détails d&#39;un vi
 
    >[!NOTE]
    >
-   >In order for Adobe Campaign to collect a fan&#39;s check-ins, you need to click the **[!UICONTROL Subscribe]** button on the service configuration screen. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+   >Pour qu&#39;Adobe Campaign récupère les check-ins effectués par le fan, vous devez cliquer sur le bouton **[!UICONTROL S’abonner]** dans l&#39;écran de configuration du service. Voir à ce sujet la section [Paramétrer les comptes externes](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
 ## Comment pré-remplir les champs d&#39;un formulaire avec les données de profil Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
@@ -312,5 +312,5 @@ L’application **[!UICONTROL Social Marketing]** vous donne également la possi
 
 >[!NOTE]
 >
->Before you start using this function, you need to create a Facebook application and a **[!UICONTROL Facebook Connect]** type external account. For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+>Avant d&#39;utiliser cette fonction, vous devez créer une application Facebook, ainsi qu&#39;un compte externe de type **[!UICONTROL Facebook Connect]**. Voir à ce sujet la section [Paramétrer les comptes externes](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
