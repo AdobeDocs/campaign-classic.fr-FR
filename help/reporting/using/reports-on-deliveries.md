@@ -20,15 +20,15 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 ---
 
 
-# A propos des rapports sur les livraisons{#reports-on-deliveries}
+# À propos des rapports sur les diffusions{#reports-on-deliveries}
 
 Adobe Campaign propose plusieurs types de rapports, accessibles depuis la console cliente ou depuis un navigateur internet.
 
 Les types de rapports disponibles sont les suivants :
 
-* Reports on the entire platform, see [Global reports](../../reporting/using/global-reports.md).
-* Rapports de remise, voir Rapports [de remise](../../reporting/using/delivery-reports.md).
-* Rapports cumulés, voir Rapports [](../../reporting/using/cumulative-reports.md)cumulés.
+* Rapports concernant l&#39;ensemble de la plateforme, voir la section [Rapports globaux](../../reporting/using/global-reports.md).
+* Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
+* Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
 Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d&#39;affichage d&#39;un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md) pour plus d&#39;informations.
 
