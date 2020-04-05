@@ -50,7 +50,7 @@ Pour ce faire, spécifiez l&#39;URL de l&#39;image par défaut, le nom de l&#39;
 
 Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un email de deux manières différentes :
 
-* Si vous utilisez l’éditeur de contenu numérique, choisissez une image existante et sélectionnez **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** dans la barre d’outils.
+* If you are using the digital content editor, choose an existing image and select **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** from the toolbar.
 
    ![](assets/target_5.png)
 
@@ -61,8 +61,8 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un 
 ### Définir les paramètres de l&#39;image {#defining-image-parameters}
 
 * The **[!UICONTROL Default image]**&#39;s URL: The image that will be displayed when none of the conditions are fulfilled. Vous pouvez également sélectionner une image dans votre bibliothèque Assets.
-* The **[!UICONTROL Target location]**: Enter a name for your dynamic offer&#39;s location. Vous devrez sélectionner cet emplacement dans votre activité Target.
-* Le **[!UICONTROL Landing Page]**: Si vous souhaitez que l’image par défaut redirige vers un  par défaut. Cette URL s’applique uniquement aux cas où l’image par défaut est affichée dans le courrier électronique final et est facultative.
+* The **[!UICONTROL Target location]**: Enter a name for your dynamic offer&#39;s location. You will have to select this location in your Target activity.
+* Le ****: Si vous souhaitez que l’image par défaut redirige vers un  par défaut. Cette URL s’applique uniquement aux cas où l’image par défaut est affichée dans le courrier électronique final et est facultative.
 * The **[!UICONTROL Additional decision parameters]**: Specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. Les champs d&#39;Adobe Campaign utilisés doivent avoir été spécifiés au niveau du &quot;rawbox&quot;. Dans notre exemple, nous avons ajouté le champ Pays.
 
 Si vous utilisez les autorisations d’entreprise dans vos paramètres dans  Adobe, ajoutez la propriété correspondante dans ce champ. Pour en savoir plus sur les autorisations d’ d’entreprise dans [cette page](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html).
@@ -75,9 +75,9 @@ Dans le , vous pouvez créer différentes versions de votre  de. Selon chaque ex
 
 Dans notre cas, nous avons besoin de deux offres de redirection, la troisième (celle par défaut) étant définie dans Adobe Campaign.
 
-1. Pour créer une nouvelle  de redirection  dans  Standard, cliquez sur **[!UICONTROL Content]** dans l’ **[!UICONTROL Code offers]** onglet.
+1. Pour créer une nouvelle  de redirection   dans  Standard, dans l’onglet **[!UICONTROL Contenu]** , cliquez sur **** de code.
 
-1. Cliquez **[!UICONTROL Create]** alors **[!UICONTROL Redirect Offer]**.
+1. Cliquez sur **[!UICONTROL Créer]** , puis **[!UICONTROL Rediriger]**.
 
    ![](assets/target_9.png)
 
@@ -85,13 +85,13 @@ Dans notre cas, nous avons besoin de deux offres de redirection, la troisième (
 
    ![](assets/target_6.png)
 
-1. Suivez la même procédure pour l&#39;offre de redirection restante. Pour plus d’informations à ce propos, consultez [cette page](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
+1. Suivez la même procédure pour l&#39;offre de redirection restante. Voir à ce propos [cette page](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html).
 
 ## Création d&#39;une audience {#audiences-target}
 
 Dans le , vous devez créer les deux  de dans lesquels les personnes qui visitent votreseront classées pour les différents contenus à diffuser. Pour chaque audience, ajoutez une règle pour définir qui pourra visualiser l&#39;offre.
 
-1. Pour créer un nouveau   en, cliquez sur **[!UICONTROL Audiences]** dans l’ **[!UICONTROL Create Audience]** onglet.
+1. Pour créer un nouveau   en, dans l’onglet ******[!UICONTROL , cliquez sur]** Créer unde.
 
    ![](assets/audiences_1.png)
 
@@ -99,7 +99,7 @@ Dans le , vous devez créer les deux  de dans lesquels les personnes qui visiten
 
    ![](assets/audiences_2.png)
 
-1. Cliquez sur **[!UICONTROL Add a rule]** puis sélectionnez un . La règle utilise des critères spécifiques pour cibler les visiteurs. Vous pouvez affiner les règles en ajoutant des conditions ou en créant des règles dans d&#39;autres catégories.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** et sélectionnez une catégorie. La règle utilise des critères spécifiques pour cibler les visiteurs. Vous pouvez affiner les règles en ajoutant des conditions ou en créant des règles dans d&#39;autres catégories.
 
 1. Suivez la même procédure pour les audiences restantes.
 
@@ -109,13 +109,13 @@ Dans , nous devons créer un  ciblage d’expérience, définir les différentes
 
 ### Définir l&#39;audience {#defining-the-audience}
 
-1. Pour créer un  de ciblage d’expérience, cliquez sur **[!UICONTROL Activities]** puis **[!UICONTROL Create Activity]** dans l’ **[!UICONTROL Experience Targeting]** onglet.
+1. Pour créer un  de ciblage d’expérience, cliquez sur **[!UICONTROL Créer un]****[!UICONTROL de]** , puis sur Ciblage d’ **[!UICONTROL expérience]** dans l’onglet.
 
    ![](assets/target_10.png)
 
-1. Sélectionnez **[!UICONTROL Form]** comme **[!UICONTROL Experience Composer]**.
+1. Sélectionnez **[!UICONTROL Formulaire]** comme compositeur d’ **[!UICONTROL expérience]**.
 
-1. Choisissez un   en cliquant sur le **[!UICONTROL Change audience]** bouton.
+1. Choisissez un   en cliquant sur le bouton **[!UICONTROL Modifier le]** .
 
    ![](assets/target_10_2.png)
 
@@ -123,7 +123,7 @@ Dans , nous devons créer un  ciblage d’expérience, définir les différentes
 
    ![](assets/target_10_3.png)
 
-1. Créez une autre expérience en cliquant sur **[!UICONTROL Add Experience Targeting]**.
+1. Créez une autre expérience en cliquant sur **[!UICONTROL Ajouter le ciblage d&#39;expérience]**.
 
 ### Définir l&#39;emplacement et le contenu {#defining-location-content}
 
@@ -133,7 +133,7 @@ Ajoutez un contenu pour chaque audience :
 
    ![](assets/target_15.png)
 
-1. Cliquez sur le bouton déroulant et sélectionnez **[!UICONTROL Change Redirect Offer]**.
+1. Cliquez sur le bouton de liste déroulante et sélectionnez **[!UICONTROL Modifier l&#39;offre de redirection]**.
 
    ![](assets/target_content.png)
 
@@ -145,13 +145,13 @@ Ajoutez un contenu pour chaque audience :
 
 ### Définir l&#39;activité {#defining-activity}
 
-The **[!UICONTROL Target]** window summarizes your activity. Au besoin, vous pouvez ajouter d&#39;autres expériences.
+La fenêtre **[!UICONTROL Target]** résume votre activité. Au besoin, vous pouvez ajouter d&#39;autres expériences.
 
 ![](assets/target_experience.png)
 
-The **[!UICONTROL Goal & Settings]** window allows you to personalize your activity by setting a priority, an objective, or a duration.
+La fenêtre **[!UICONTROL Objectif et paramètres]** permet de personnaliser votre activité en définissant une priorité, un objectif ou une durée.
 
-The **[!UICONTROL Reporting Settings]** section lets you select an action and edit the parameters that will determine when your goal is achieved.
+La section **[!UICONTROL Paramètres de création de rapports]** permet de sélectionner une action et d&#39;éditer les paramètres qui déterminent à quel moment votre objectif est atteint.
 
 ![](assets/target_experience_2.png)
 
