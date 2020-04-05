@@ -50,7 +50,7 @@ Exemple de template JavaScript de mise en forme HTML se basant sur le schéma &q
 
 Les différentes directives JavaScript se présentent sous la forme suivante :
 
-* Merge fields: displays the content of the data with the **`<%= <source> %>`** syntax where `<source>`is the source field of the data to be displayed.
+* Champs de fusion : affiche le contenu des données avec la syntaxe **`<%= <source> %>`**, où `<source>` correspond au champ source des données à afficher.
 * blocs d&#39;instructions : exécute une série d&#39;instructions JavaScript incluses entre les balises &lt;% et %>.
 
 L&#39;objet **content** représente l&#39;élément principal du document XML en entrée.
@@ -61,7 +61,7 @@ Dans notre exemple, la ligne suivante affiche le contenu du nom du livre :
 <h1><%= content.@name %></h1>
 ```
 
-The following code iterates on the `<chapter>` collection element:
+Le code suivant itère sur l’élément de collection `<chapter>` :
 
 ```
 <% for each(var chapter in content.chapter) { %>
@@ -73,16 +73,16 @@ Les attributs et éléments du contenu sont représentés comme des objets JavaS
 
 **Exemple**:
 
-* **content.@name**: retrieves the value of the &quot;name&quot; attribute of the main element
-* **content.@`['name']`**: identique au** contenu.@name **syntaxe
-* **content.chapter.length**: renvoie le nombre d&#39;éléments sur l&#39;élément `<chapter` Collection
-* **content.chapter`[0]`.@name**: retrieves the name of the first `<chapter>` element
-* **chapter.name()**: renvoie le nom de l’ `<chapter>` élément
-* **chapter.parent().name()**: renvoie le nom de l’élément parent de `<chapter>`
+* **content.@name** : récupère la valeur de l’attribut « name » de l’élément principal
+* **content.@`['name']`** : identique au contenu**.syntaxe @name **
+* **content.chapter.length**`<chapter` : retourne le nombre d’éléments sur l’élément de collection
+* **content.chapter`[0]`.@name** : récupère le nom du premier élément `<chapter>`
+* **chapter.name()** : retourne le nom de l’élément `<chapter>`
+* **chapter.parent().name()** : retourne le nom de l’élément parent de `<chapter>`
 
 >[!CAUTION]
 >
->Because the &#39;-&#39; character is reserved in the JavaScript language, the recovery of the value of any attribute or element containing this character must be carried out via the `['<field>']` syntax.
+>Le caractère « - » étant réservé dans le langage JavaScript, la récupération de la valeur de tout attribut ou élément contenant ce caractère devra passer par la syntaxe `['<field>']`.
 >
 >Par exemple: `content.@['offer-id']`.
 
@@ -371,7 +371,7 @@ Les étapes de réalisation de cet exemple sont les suivantes :
 
 1. Vous pouvez enfin utiliser ce modèle de contenu dans vos diffusions.
 
-   Pour plus d’informations, reportez-vous à la section [Utilisation d’un modèle](../../delivery/using/using-a-content-template.md)de contenu.
+   Pour plus d’informations à ce sujet, reportez-vous à la section [Utiliser un modèle de contenu](../../delivery/using/using-a-content-template.md).
 
 ## Feuilles de style XSL {#xsl-stylesheets}
 
@@ -415,16 +415,16 @@ Une feuille de style est un document XML respectant les règles suivantes :
 
 * les valeurs d&#39;attributs sont entre guillemets,
 * un élément doit avoir un marqueur d&#39;ouverture et un marqueur de fermeture,
-* replace the &#39;&lt;&#39; or &#39;&amp;&#39; characters with the **&#39;&lt;&#39;** or **&#39;&amp;&#39;** entities,
+* les caractères « &lt; » ou « &amp; » doivent être remplacés par les entités **&#39;&lt;&#39;** ou **&#39;&amp;&#39;**,
 * chaque élément XSL doit utiliser l&#39;espace de nom **xsl**.
 
-Une feuille de style doit commencer par le marqueur d’élément racine XSL **`<xsl:stylesheet>`** et se terminer par le **`</xsl:stylesheet>`** marqueur. L’espace de noms XSL doit être défini dans le marqueur d’ouverture comme suit :
+Une feuille de style doit commencer par le marqueur d’élément racine XSL **`<xsl:stylesheet>`** et se terminer par le marqueur **`</xsl:stylesheet>`**. L’espace de nommage XSL doit être défini dans le marqueur d’ouverture comme suit :
 
 ```
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 ```
 
-L’ **`<xsl:output>`** élément spécifie le format du document généré. Spécifiez le jeu de caractères souhaité et le format de sortie.
+L’élément **`<xsl:output>`** spécifie le format du document généré. Spécifiez le jeu de caractères souhaité et le format de sortie.
 
 ```
 <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -459,9 +459,9 @@ Dans notre exemple, on génère une page HTML à partir du schéma &quot;cus:liv
 
 ### Afficher du HTML/XML {#displaying-html-xml}
 
-Pour afficher un champ **html** , utilisez l&#39;option **disable-output-escape=&quot;yes&quot;** de la **`<xsl:value-of>`** directive. Vous évitez ainsi de remplacer les caractères par leur entité XML (par exemple &lt; par &lt;).
+Pour afficher un champ **html**, utilisez l’option **disable-output-escaping=&quot;yes&quot;** de la directive **`<xsl:value-of>`**. Vous évitez ainsi de remplacer les caractères par leur entité XML (par exemple &lt; par &lt;).
 
-The **`<xsl:text>`** directive with the **disable-output-escaping=&quot;yes&quot;** option lets you insert JavaScript tags for personalization fields or conditional tests.
+La directive **`<xsl:text>`** avec l’option **disable-output-escaping=&quot;yes&quot;** permet d’insérer des balises JavaScript de champs de personnalisation ou de test conditionnels.
 
 Exemples:
 
@@ -487,7 +487,7 @@ Exemples:
 
 Il est possible de se constituer une bibliothèque de templates ou de variables à partager avec plusieurs feuilles de style. Le **template** &quot;longMonth&quot;, présenté ci-dessus, est un exemple-type de l&#39;intérêt de déporter un template dans une feuille de style afin d&#39;être ré-utilisé ultérieurement.
 
-The **`<xsl:include>`** directive indicates the name of the stylesheet to be included in the document.
+La directive **`<xsl:include>`** indique le nom de la feuille de style à inclure dans le document.
 
 **Exemple** : inclusion de la feuille de style &quot;common.xsl&quot;.
 
