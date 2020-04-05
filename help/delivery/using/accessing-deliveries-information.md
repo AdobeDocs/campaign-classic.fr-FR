@@ -88,6 +88,6 @@ Vous avez la possibilité de choisir la plage sur laquelle est calculé le débi
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, la page de débit de **[!UICONTROL diffusion]** n’affichera plus le débit vers vos destinataires de courrier électronique. Il indiquera la vitesse de débit du relais de vos messages de Campaign vers la MTA améliorée.
+>Pour les installations hébergées ou hybrides, si vous avez effectué l&#39;upgrade vers le MTA amélioré, la page **[!UICONTROL Débit de diffusion]** n&#39;affichera plus le débit vers les destinataires de vos emails. Elle indiquera le débit du relais de vos messages entre Campaign et le MTA amélioré.
 >
->Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Pour plus d&#39;informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
