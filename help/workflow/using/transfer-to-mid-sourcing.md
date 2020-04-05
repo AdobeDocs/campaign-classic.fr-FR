@@ -33,12 +33,12 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (compteurs des diffusions)</span> <br /> </td> 
-   <td> <span class="uicontrol">defaultMidSourcingDlv</span><br /> </td> 
+   <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
    <td> <p>Ce workflow collecte les informations de comptage des diffusions sur le serveur de mid-sourcing. Les informations de comptage comprennent les indicateurs généraux de diffusion tels que le nombre de diffusions envoyées, etc.</p> <p>Les informations de tracking comme les ouvertures ne sont pas incluses.</p> <p>Par défaut, il se déclenche toutes les dix minutes.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (logs de diffusion)</span> <br /> </td> 
-   <td> <span class="uicontrol">defaultMidSourcingLog</span><br /> </td> 
+   <td> <span class="uicontrol">defaultMidSourcingLog</span> <br /> </td> 
    <td> Ce workflow collecte les logs des diffusions sur le serveur de mid-sourcing. Par défaut, il se déclenche toutes les heures.<br /> </td> 
   </tr> 
  </tbody> 
