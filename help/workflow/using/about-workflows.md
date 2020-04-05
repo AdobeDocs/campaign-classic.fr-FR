@@ -32,9 +32,9 @@ Les workflows interviennent dans différents contextes et à différentes étape
 
 Ainsi, Adobe Campaign utilise des workflows pour :
 
-* Exécutez des campagnes de ciblage. For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
-* Créez des campagnes : pour chaque campagne, l’onglet **[!UICONTROL Processus]** vous permet de créer la cible et les livraisons. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
-* Exécuter des processus techniques : nettoyage, collecte des informations de suivi ou calculs provisoires. For more on this, refer to [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows).
+* Exécuter des campagnes de ciblage. Voir à ce sujet la section [Etapes de mise en œuvre](../../workflow/using/building-a-workflow.md#implementation-steps-).
+* Créer des campagnes : pour chaque campagne, l’onglet **[!UICONTROL Workflow]** vous permet de créer la cible et les diffusions. Voir à ce sujet la section [Workflows de campagne](../../workflow/using/building-a-workflow.md#campaign-workflows).
+* Exécuter des processus techniques : nettoyage, collecte des informations de suivi ou calculs provisoires. Voir à ce sujet la section [Workflows techniques](../../workflow/using/building-a-workflow.md#technical-workflows).
 
 Un workflow peut désigner à la fois une définition de procédure (le modèle de workflow : une représentation de ce qui est censé se produire) et une instance de cette procédure (une instance de workflow : une représentation de ce qui est en train de se produire).
 
@@ -44,7 +44,7 @@ Le modèle de workflow décrit les différentes tâches à effectuer et la faço
 
 Chaque workflow comprend :
 
-* **[!UICONTROL Activités]**
+* **[!UICONTROL Activities]**
 
    Une activité décrit un modèle de tâche. Il existe différents types d&#39;activités, représentés sur le diagramme par des icônes. Chaque type possède des propriétés communes et des propriétés spécifiques. Par exemple, si toutes les activités ont un nom et un libellé, seule l&#39;activité **[!UICONTROL Validation]** a une assignation.
 
