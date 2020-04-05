@@ -28,7 +28,7 @@ Lors de la gestion de fichiers et de données à des fins d&#39;ETL, les fichier
 
 Lorsqu&#39;il n&#39;est pas correctement utilisé ou surveillé, cet espace peut rapidement remplir l&#39;espace physique disponible sur le serveur et entraîner la troncature des fichiers lors des téléchargements suivants. Lorsque l&#39;espace est saturé, une purge automatique peut être déclenchée et effacer les fichiers plus anciens de l&#39;espace de stockage SFTP.
 
-Pour éviter de tels problèmes, Adobe recommande de suivre les bonnes pratiques ci-dessous.
+Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-après.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ La section ci-après indique les informations à vérifier et à fournir à l’
    Si le port n’est pas ouvert, veillez à ouvrir les connexions sortantes de votre côté, puis réessayez. Si vous rencontrez toujours des problèmes de connexion, indiquez la sortie de la commande à l’équipe de support Adobe.
 
 1. Vérifiez que l’adresse IP publique à partir de laquelle vous essayez d’établir la connexion SFTP est celle que vous avez fournie au support Adobe pour le whitelistage.
-1. Si vous utilisez une authentification par mot de passe, votre mot de passe peut avoir expiré (les mots de passe ont une période de validité de 90 jours). Nous vous recommandons donc vivement d’utiliser une authentification par clé (voir les bonnes pratiques [du serveur](#sftp-server-best-practices)SFTP).
+1. Si vous utilisez une authentification par mot de passe, votre mot de passe peut avoir expiré (les mots de passe ont une période de validité de 90 jours). Nous vous recommandons donc vivement d’utiliser une authentification par clé (voir [Bonnes pratiques d&#39;utilisation du serveur SFTP](#sftp-server-best-practices)).
 1. Si vous utilisez une authentification par clé, vérifiez que la clé que vous utilisez est la même que celle fournie pour la prise en charge de la configuration de l’instance.
 1. Si vous utilisez FileZilla ou un outil FTP équivalent, fournissez les détails des logs de connexion dans le ticket de support.
 
