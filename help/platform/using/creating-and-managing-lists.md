@@ -74,7 +74,7 @@ Vous pouvez créer de nouveaux profils directement depuis la fenêtre d&#39;ajou
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-La liste des profils peut être configurée comme les autres listes. Voir [Configuration des listes](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+La liste des profils est configurable, au même titre que les autres listes. Voir [Configurer les listes](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ## Associer les données à une liste {#linking-data-to-a-list}
 
