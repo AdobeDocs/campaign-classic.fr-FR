@@ -40,7 +40,7 @@ Le chemin WSDL d&#39;accès aux deux méthodes est :
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** pour accéder au schéma de type temps réel.
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** pour accéder au schéma de type batch.
 
-Les deux méthodes contiennent un **`<urn:sessiontoken>`** élément permettant de se connecter au module de messagerie transactionnelle. Nous vous recommandons d&#39;utiliser une méthode d&#39;identification par le biais d&#39;adresses IP approuvées. Pour récupérer le jeton de session, effectuez un appel SOAP de connexion, puis un jeton get suivi d’une fermeture de session. Utilisez le même jeton pour plusieurs appels RT. Les exemples fournis dans cette section utilisent la méthode du jeton de session qui est recommandée.
+Les deux méthodes contiennent un élément **`<urn:sessiontoken>`** permettant de se connecter au module de message transactionnel. Nous vous recommandons d&#39;utiliser une méthode d&#39;identification via des adresses IP approuvées. Pour récupérer le jeton de session, effectuez un appel SOAP de connexion, puis un jeton get suivi d’une fermeture de session. Utilisez le même jeton pour plusieurs appels RT. Les exemples inclus dans cette section utilisent la méthode du jeton de session qui est recommandée.
 
 Si votre serveur présente une répartition de la charge, vous pouvez utiliser l’authentification par utilisateur/mot de passe (au niveau du message RT). Par exemple :
 
@@ -56,9 +56,9 @@ Si votre serveur présente une répartition de la charge, vous pouvez utiliser l
 </PushEvent>
 ```
 
-The **PushEvent** method is made up of a **`<urn:domevent>`** parameter which contains the event.
+La méthode **PushEvent** est constituée d’un paramètre **`<urn:domevent>`** qui contient l’événement.
 
-The **PushEvents** method is made up of a **`<urn:domeventcollection>`** parameter which contains events.
+La méthode **PushEvent** est constituée d’un paramètre **`<urn:domeventcollection>`** qui contient des événements.
 
 Exemple avec PushEvent :
 
@@ -82,7 +82,7 @@ Exemple avec PushEvent :
 
 >[!NOTE]
 >
->En cas d’appel à la méthode **PushEvents** , nous devons ajouter un élément XML parent pour nous conformer au code XML standard. Cet élément XML encadrera les différents **`<rtevent>`** éléments contenus dans le  de.
+>En cas d’appel à la méthode **PushEvents**, nous devons ajouter un élément XML parent pour nous conformer au XML standard. Cet élément XML encadrera les différents éléments **`<rtevent>`** contenus dans l’événement.
 
 Exemple avec PushEvents :
 
@@ -108,13 +108,13 @@ Exemple avec PushEvents :
 </urn:PushEvents>
 ```
 
-The **`<rtevent>`** and **`<batchevent>`** elements have a set of attributes as well as a mandatory child element: **`<ctx>`** for integrating message data.
+Les éléments **`<rtevent>`** et **`<batchevent>`** possèdent un jeu d&#39;attributs ainsi qu&#39;un élément fils indispensable : **`<ctx>`** permettant d’intégrer les données du message.
 
 >[!NOTE]
 >
->L’ **`<batchevent>`** élément vous permet d’ajouter le à la file d’attente &quot;batch&quot;. Le **`<rtevent>`** programme ajoute le  à la file d’attente &quot;en temps réel&quot;.
+>L’élément **`<batchevent>`** vous permet d’ajouter l’événement à la file d’attente &quot;batch&quot;. Le **`<rtevent>`** ajoute l’événement à la file d’attente &quot;temps réel&quot;.
 
-Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** sont @type et @email. La valeur de @type doit être identique à la valeur de  de détaillée définie lors de la configuration de l’ de. Cette valeur vous permet de définir le modèle à lier au contenu du  de pendant la  du.
+Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** sont @type et @email. La valeur de @type doit être identique à la valeur de liste détaillée définie lors de la configuration de l’instance d’exécution. Cette valeur vous permet de définir le modèle à lier au contenu de l’événement pendant la diffusion.
 
 `<rtevent> configuration example:`
 
@@ -124,7 +124,7 @@ Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** 
 
 Dans cet exemple, deux canaux sont renseignés : l&#39;adresse email et le numéro de téléphone portable. Le champ **wishedChannel** permet de définir le canal qui sera utilisé lors de la transformation de l&#39;évènement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
 
-Si vous souhaitez reporter un  de , ajoutez le **[!UICONTROL scheduled]** champ suivi de la date préférée. Le  sera transformé en message à cette date.
+Si vous souhaitez différer le traitement d&#39;un évènement, ajoutez le champ **[!UICONTROL scheduled]** suivi de la date désirée. L&#39;évènement sera transformé en message à cette date.
 
 Nous vous conseillons de remplir les attributs @wishedChannel et @emailFormat avec des valeurs numériques. La table de correspondance entre les valeurs numériques et les labels associés se trouve dans la description des schémas de données.
 
@@ -132,7 +132,7 @@ Nous vous conseillons de remplir les attributs @wishedChannel et @emailFormat av
 >
 >La description détaillée de tous les attributs autorisés et de leurs valeurs se trouve dans la description du schéma de données de **nms:rtEvent** et **nms:BatchEvent**.
 
-L’ **`<ctx>`** élément contient les données du message. Son contenu XML est ouvert, ce qui signifie qu’il peut être configuré en fonction du contenu à diffuser.
+L’élément **`<ctx>`** contient les données du message. Son contenu XML est ouvert, ce qui signifie qu’il peut être configuré selon le contenu à diffuser.
 
 >[!NOTE]
 >
