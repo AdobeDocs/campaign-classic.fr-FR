@@ -28,7 +28,7 @@ Lors de la création d&#39;une application Web de type Landing Page, l&#39;utili
 
 ![](assets/dce_popup_templatechoice.png)
 
-To add a template, refer to [Global options](../../web/using/content-editor-interface.md#global-options).
+Pour ajouter un modèle, consultez la section [Options globales](../../web/using/content-editor-interface.md#global-options).
 
 ## Enregistrer une diffusion comme modèle {#saving-a-delivery-as-a-template}
 
