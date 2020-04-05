@@ -28,7 +28,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 >
 >La configuration LDAP est uniquement possible pour les installations de type on-premise ou hybride.
 
-The LDAP configuration is carried out in the deployment wizard. The **[!UICONTROL LDAP integration]** option must be selected during the first configuration step. Reportez-vous à [l’assistant](../../installation/using/deploying-an-instance.md#deployment-wizard)de déploiement.
+La configuration LDAP est réalisée dans l&#39;assistant de déploiement. L&#39;option **[!UICONTROL Intégration LDAP]** doit être sélectionnée dans la première étape de configuration. Voir la section [Assistant de déploiement](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
 La fenêtre correspondante permet de configurer l&#39;identification des utilisateurs Adobe Campaign via l&#39;annuaire LDAP spécifié.
 
@@ -61,7 +61,7 @@ La fenêtre correspondante permet de configurer l&#39;identification des utilisa
 
       Aucun cryptage (utiliser en test uniquement).
 
-* Select the user authentication mode: **[!UICONTROL Automatically compute the unique user identifier]** (see step [Distinguished Name calculation](#distinguished-name-calculation)) or **[!UICONTROL Search the unique user identifier in the directory]** (see step [Searching for identifiers](#searching-for-identifiers)).
+* Choisissez le mode d&#39;identification des utilisateurs : **[!UICONTROL Composer automatiquement l&#39;identifiant unique de l&#39;utilisateur]** (voir l&#39;étape [Calcul de l&#39;identifiant unique](#distinguished-name-calculation)) ou **[!UICONTROL Rechercher l&#39;identifiant unique de l&#39;utilisateur dans l&#39;annuaire]** (voir l&#39;étape [Recherche des identifiants](#searching-for-identifiers)).
 
 ## Compatibilité {#compatibility}
 
@@ -146,7 +146,7 @@ Si vous choisissez de faire une recherche sur l&#39;identifiant, l&#39;assistant
 
 ## Configuration des autorisations LDAP {#configuring-ldap-authorizations}
 
-This window is displayed when you select the **[!UICONTROL Enable synchronization of user rights from authorizations and groups in the directory]** option.
+Cette fenêtre est proposée lorsque vous sélectionnez l&#39;option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]**.
 
 ![](assets/s_ncs_install_deployment_wiz_ldap_04.png)
 
