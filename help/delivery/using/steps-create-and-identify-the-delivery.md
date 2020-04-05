@@ -1,7 +1,7 @@
 ---
-title: Création et identification de la diffusion
-seo-title: Création et identification de la diffusion
-description: Création et identification de la diffusion
+title: Créer et identifier la diffusion
+seo-title: Créer et identifier la diffusion
+description: Créer et identifier la diffusion
 seo-description: null
 page-status-flag: never-activated
 uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
@@ -20,7 +20,7 @@ source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
 ---
 
 
-# Création et identification de la diffusion {#create-and-identify-the-delivery}
+# Créer et identifier la diffusion {#create-and-identify-the-delivery}
 
 ## Créer la diffusion {#creating-the-delivery}
 
@@ -37,7 +37,7 @@ Par défaut, un modèle est fourni pour chaque canal installé : courrier, email
 >
 >Les canaux proposés dans cette liste dépendent de votre contrat de licence.
 
-Vous pouvez créer des modèles de remise afin de préconfigurer des paramètres spécifiques en fonction de vos besoins. For further information about templates, refer to [this section](../../delivery/using/about-templates.md).
+Vous pouvez créer de nouveaux modèles de diffusion afin de préconfigurer des paramètres spécifiques en fonction de vos besoins. Pour plus d’informations sur les modèles, consultez [cette section](../../delivery/using/about-templates.md).
 
 ## Identification de la diffusion {#identifying-the-delivery}
 
@@ -54,7 +54,7 @@ Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour valider ces informations et afficher la fenêtre de configuration du message.
 
-Le contenu de diffusion est prêt à être configuré. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
+Le contenu de la diffusion est prêt à être configuré. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
 
 * [Définir le contenu de l&#39;email](../../delivery/using/defining-the-email-content.md)
 * [Définir le contenu du SMS](../../delivery/using/sms-channel.md#defining-the-sms-content)
