@@ -1,6 +1,6 @@
 ---
-title: Amélioration de votre réputation lors de l’utilisation d’Adobe Campaign Classic
-description: En savoir plus sur l’amélioration de votre réputation lors de l’utilisation d’Adobe Campaign Classic.
+title: Amélioration de votre réputation lors de l'utilisation d'Adobe Campaign Classic
+description: En savoir plus sur l'amélioration de votre réputation lors de l'utilisation d'Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -29,7 +29,7 @@ Pour éviter le plus possible l’existence de doublons, les éléments suivants
 * Attention aux imports automatiques
 * Le rangement des profils dans des dossiers différents
 
-Quarantine management is presented in [this section](../../delivery/using/understanding-quarantine-management.md).
+La gestion des quarantaines est présentée dans [cette section](../../delivery/using/understanding-quarantine-management.md).
 
 Vous trouverez ci-dessous des informations sur la gestion des doublons et des quarantaines.
 
@@ -57,4 +57,4 @@ Il existe tout de même des cas où la présence de doublons entre différentes 
 
 Adobe Campaign gère une liste d’adresses en quarantaine. Les destinataires dont l’adresse est en quarantaine sont par défaut exclus lors de l’analyse d’une diffusion : ils ne seront pas ciblés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l’adresse n’existe pas. Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites ci-après.
 
-Quarantine management is presented in [this section](../../delivery/using/understanding-quarantine-management.md).
+La gestion des quarantaines est présentée dans [cette section](../../delivery/using/understanding-quarantine-management.md).
