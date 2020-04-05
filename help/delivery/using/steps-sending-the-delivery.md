@@ -28,23 +28,23 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 >
 >Pour plus d&#39;informations, voir [cette section](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
-## Livraison de paramètres supplémentaires {#delivery-additiona-parameters}
+## Paramètres supplémentaires de diffusion {#delivery-additiona-parameters}
 
 Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;envoi dans les propriétés de la diffusion, via l&#39;onglet **[!UICONTROL Diffusion]**.
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Priorité]** de remise : Cette option vous permet d&#39;influencer l&#39;ordre d&#39;envoi de vos livraisons en indiquant leur niveau de priorité (normal, élevé ou faible). Vous pouvez ainsi classer par priorité la commande de certaines livraisons plus urgentes que d’autres.
+* **[!UICONTROL Priorité de diffusion]** : cette option vous permet d’influencer l’ordre d’envoi des diffusions en indiquant leur niveau de priorité (normal, élevé ou faible). Vous pouvez ainsi privilégier l’envoi de certaines diffusions plus urgentes que d’autres.
 
-* **[!UICONTROL Quantité]** du lot de messages : Cette option vous permet de définir le nombre de messages regroupés dans le même package de remise XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 et un maximum de 256 messages par paquet.
+* **[!UICONTROL Regrouper les messages par]** : cette option permet de définir le nombre de messages regroupés au sein d’un même package d’envoi XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 messages et un maximum de 256 messages par package.
 
    >[!CAUTION]
    >
    >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
 
-* **[!UICONTROL Envoyer à l’aide de plusieurs ondes]**: Pour plus d’informations, reportez-vous à la section [Envoi à l’aide de plusieurs ondes](#sending-using-multiple-waves).
+* **[!UICONTROL Envoyer à l’aide de plusieurs]**: Pour plus d’informations, reportez-vous à la section [Envoi à l’aide de plusieurs](#sending-using-multiple-waves).
 
-* **[!UICONTROL Test de la diffusion]** SMTP : Cette option vous permet de tester l’envoi d’une remise via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée.
+* **[!UICONTROL Tester l’envoi par SMTP]** : cette option vous permet de tester l’envoi d’une diffusion via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée.
 
    >[!NOTE]
    >
@@ -52,9 +52,9 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, voir [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Archiver les courriels]**: Cette option vous permet de stocker des courriers électroniques sur un système externe via BCC en ajoutant simplement une adresse de courriel BCC à votre cible de message. For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Archiver les emails]** : permet de stocker les emails sur un système externe à l’aide de l’option BCC en ajoutant une adresse email en « copie cachée » (Cci, ou Bcc en anglais) à la cible des messages. Voir à ce propos la section [Archiver les emails](../../delivery/using/sending-messages.md#archiving-emails).
 
-Une fois la remise configurée et prête à être envoyée, vérifiez que vous avez exécuté l’analyse [de la](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)remise. Une fois terminé, cliquez sur **[!UICONTROL Confirmer la remise]** pour lancer la remise des messages.
+Une fois la diffusion configurée et prête à être envoyée, vérifiez que vous avez exécuté l’[analyse de la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Une fois que vous avez terminé, cliquez sur **[!UICONTROL Confirmer l’envoi]** pour lancer la diffusion des messages.
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -70,13 +70,13 @@ Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking de
 
 Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou pour gérer la pression commerciale afin de ne pas sur-solliciter une population.
 
-1. Click the **[!UICONTROL Send]** button and select the **[!UICONTROL Postpone delivery]** option.
+1. Cliquez sur le bouton **[!UICONTROL Envoyer]** et sélectionnez l’option **[!UICONTROL Différer la diffusion]**.
 
 1. Indiquez une date de démarrage dans le champ **[!UICONTROL Date de contact]**.
 
 ![](assets/dlv_email_del_plan.png)
 
-1. Vous pouvez ensuite lancer l’analyse de remise, puis confirmer l’envoi de remise. Toutefois, l’envoi de la livraison ne démarrera pas avant la date indiquée dans le champ Date **[!UICONTROL du]** contact.
+1. Vous pouvez ensuite lancer l’analyse de la diffusion, puis confirmer son envoi. Toutefois, cet envoi ne démarrera pas avant la date indiquée dans le champ **[!UICONTROL Date de contact]**.
 
 >[!CAUTION]
 >
@@ -84,11 +84,11 @@ Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou po
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
-Dans la liste de diffusion, la remise s’affiche avec l’état **[!UICONTROL En attente]** .
+Dans la liste des diffusions, la diffusion apparaît avec le statut **[!UICONTROL En attente]**.
 
 ![](assets/s_ncs_user_email_del_waiting.png)
 
-Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
+La planification peut aussi être paramétrée en amont via le bouton **[!UICONTROL Planification]** de la diffusion.
 
 ![](assets/s_ncs_user_email_del_save_in_calendar_ico.png)
 
@@ -136,13 +136,13 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
       Dans l&#39;exemple ci-dessous, la première vague représente 25 % du nombre total des messages inclus dans l&#39;envoi et démarre immédiatement. Les deux vagues suivantes terminent l&#39;envoi et sont définies pour démarrer à six heures d&#39;intervalle.
 
       ![](assets/s_ncs_user_wizard_waves_create.png)
-   Une règle de typologie spécifique, la vérification **[!UICONTROL de la planification des]** vagues, garantit que la dernière vague est planifiée avant la limite de validité de la remise. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+   Une règle de typologie spécifique, la **[!UICONTROL Vérification de la planification des vagues]**, garantit que la dernière vague est planifiée avant la limite de validité de la diffusion. Les typologies de campagne et leurs règles, paramétrées dans l’onglet **[!UICONTROL Typologie]** des propriétés d’une diffusion, sont présentées dans la section [Processus de validation avec des typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
    >[!CAUTION]
    >
    >Veillez à ce que les dernières vagues ne dépassent pas la date limite d&#39;envoi qui est définie dans l&#39;onglet **[!UICONTROL Validité]**. Sinon, certains messages peuvent ne pas être envoyés.
    >
-   >Vous devez également prévoir suffisamment de temps pour les tentatives lors de la configuration des dernières vagues. Reportez-vous à [cette section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+   >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Reportez-vous à [cette section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
 1. Pour suivre vos envois, accédez aux logs de diffusion. Voir à ce sujet [cette page](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
 
@@ -178,13 +178,13 @@ La section centrale de l&#39;onglet **[!UICONTROL Envoi]** des paramètres de la
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-Par défaut, cinq nouvelles tentatives sont planifiées pour le premier jour de la livraison avec un intervalle minimum d’une heure réparti sur les 24 heures du jour. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
+Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24h de la journée. Après cela, une reprise est programmée chaque jour jusqu’à la date limite de diffusion, qui est définie dans l’onglet **[!UICONTROL Validité]** (voir la section [Définir la période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les paramètres de nouvelle tentative dans la diffusion ne sont plus utilisés par Campaign. Les tentatives de rebonds discrets et la durée entre elles sont déterminées par la MTA améliorée en fonction du type et de la gravité des réponses de rebonds provenant du domaine de courriel du message.
+>Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, les paramètres de reprise de la diffusion ne sont plus utilisés par Campaign. Les reprises des erreurs soft et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des retours provenant du domaine d&#39;email du message.
 >
->Tous les impacts sont détaillés dans le document MTA [amélioré d’](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+>Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 
 ## Définir la période de validité {#defining-validity-period}
@@ -197,12 +197,12 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
    Vous pouvez également choisir de spécifier des dates. Pour cela, cochez l&#39;option **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent de préciser également l&#39;heure. Cette heure correspond par défaut à l&#39;heure courante mais peut être modifiée directement dans le champ de saisie.
 
-* **Limite de validité des ressources**: Le champ Limite **[!UICONTROL de]** validité est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
+* **Limite de validité des ressources** : le champ **[!UICONTROL Limite de validité]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 
    Dans ce champ, les valeurs peuvent être exprimées dans les unités listées dans [cette section](../../platform/using/adobe-campaign-workspace.md#default-units).
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, le paramètre de durée **[!UICONTROL de]** remise dans vos livraisons de campagne ne sera utilisé que si défini sur **3,5** jours ou moins. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+>Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, le paramètre **[!UICONTROL Durée de diffusion]** des diffusions Campaign ne sera utilisé que s’il est défini sur **3,5** jours ou moins. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 >
->Tous les impacts sont détaillés dans le document MTA [amélioré d’](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+>Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
