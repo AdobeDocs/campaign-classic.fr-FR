@@ -26,10 +26,10 @@ Pour qu&#39;un cube puisse être exploité, vous devez identifier les dimensions
 
 Les étapes de création d&#39;un cube sont les suivantes :
 
-1. Sélectionnez le tableau de travail. Reportez-vous à [Sélection du tableau](#selecting-the-work-table)de travail.
-1. Définissez des dimensions. Reportez-vous à [Définition des dimensions](#defining-dimensions).
-1. Définissez des mesures. Reportez-vous à [Création d&#39;indicateurs](#building-indicators).
-1. Créer des agrégats (facultatif). Reportez-vous à [Calcul et utilisation d’agrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. Sélectionner la table de travail. Voir la section [Sélectionner la table de travail](#selecting-the-work-table).
+1. Définir des dimensions. Voir la section [Définir des dimensions](#defining-dimensions).
+1. Définir des mesures. Voir la section [Construire les indicateurs](#building-indicators).
+1. Créer des agrégats (facultatif). Voir la section [Calcul et utilisation d&#39;agrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 L&#39;exemple ci-après permet de créer rapidement un cube simple et de l&#39;utiliser dans un rapport afin d&#39;en explorer les mesures.
 
@@ -63,7 +63,7 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
 * Choisissez d&#39;abord l&#39;**Age** des destinataires. Pour ce champ, vous pouvez définir une mise en classe afin de regrouper les âges pour faciliter la lisibilité des informations. Il est recommandé de définir une mise en classe lorsque les valeurs distinctes peuvent être nombreuses.
 
-   Pour cela, cochez l&#39;option **[!UICONTROL Activer la mise en classe.]** Les modes d’épinglage sont détaillés dans [Data Binning](../../reporting/using/concepts-and-methodology.md#data-binning).
+   Pour cela, cochez l&#39;option **[!UICONTROL Activer la mise en classe.]** Les modes de mise en classe sont détaillés dans la section [Mise en classe des données](../../reporting/using/concepts-and-methodology.md#data-binning).
 
    ![](assets/s_advuser_cube_wz_05.png)
 
@@ -95,7 +95,7 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
    Seules les valeurs présentes dans l&#39;énumération seront affichées. Toutes les autres seront regroupées sous le libellé défini dans le champ **[!UICONTROL Libellé des autres valeurs]**.
 
-   Pour plus d’informations, reportez-vous à la section Gestion [dynamique des bacs](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
+   Voir à ce propos la section [Gérer dynamiquement les classes](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## Construire les indicateurs {#building-indicators}
 
@@ -110,7 +110,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de ne sélectionner que les femmes. For more on defining measures and the available options, refer to [Defining measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   Le lien **[!UICONTROL Filtrer les données de la mesure...]** permet de ne sélectionner que les femmes. La procédure de définition des mesures et les options disponibles sont présentées dans la section [Définition des mesures](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -136,7 +136,7 @@ Pour cela :
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. Vous pouvez déplacer les dimensions d&#39;un axe à l&#39;autre, les supprimer, ajouter de nouvelles mesures, etc. Les opérations possibles sont décrites ici : [Utilisation de cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
+1. Vous pouvez déplacer les dimensions d&#39;un axe à l&#39;autre, les supprimer, ajouter de nouvelles mesures, etc. Les opérations possibles sont décrites ici : [Utiliser des cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
 
    Pour cela, utilisez les icônes correspondantes.
 
