@@ -44,7 +44,7 @@ Les principales méthodes pour créer des profils de destinataires sont les suiv
 
 >[!NOTE]
 >
->To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/generic-imports-and-exports.md).
+>L’import de fichiers et de formulaires web est présenté dans la section [Imports et exports génériques](../../platform/using/generic-imports-and-exports.md).
 
 ## Profils et cibles {#profiles-and-targets}
 
@@ -54,10 +54,10 @@ Le lien **[!UICONTROL Profils et cibles]** permet d&#39;afficher les destinatair
 
 Il permet également d&#39;accéder :
 
-* listes; voir [Création et gestion des listes](../../platform/using/creating-and-managing-lists.md),
+* aux listes ; voir à ce sujet [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md),
 * aux services d&#39;abonnements, voir à ce sujet [cette page](../../delivery/using/managing-subscriptions.md),
 * aux applications web, voir à ce sujet [cette page](../../web/using/about-web-applications.md),
-* importations et exportations (emplois); se référer aux importations et exportations [génériques](../../platform/using/generic-imports-and-exports.md),
+* aux imports et exports (traitements) ; voir à ce propos [Imports et exports génériques](../../platform/using/generic-imports-and-exports.md),
 * aux workflows de ciblage, voir à ce sujet [cette page](../../workflow/using/building-a-workflow.md#implementation-steps-).
 
 La page des destinataires permet d&#39;effectuer les opérations courantes sur les profils : édition, mise à jour, ajout, suppression, tri.
@@ -66,23 +66,23 @@ Pour des manipulations de profils plus avancées, il est nécessaire d&#39;édit
 
 Par défaut, les destinataires sont stockés dans le nœud **[!UICONTROL Profils et Cibles > Destinataires]** de l&#39;arborescence. Vous pouvez créer des destinataires depuis cette vue, mais aussi :
 
-* sort and filter the profiles of the database; see [Filtering options](../../platform/using/filtering-options.md),
-* move, copy or delete profiles from the database; see [Managing profiles](../../platform/using/managing-profiles.md),
-* mettre à jour les profils; voir [Mise à jour des données](../../platform/using/updating-data.md),
-* destinataires de l&#39;exportation; voir [Exportation et importation de profils](../../platform/using/exporting-and-importing-profiles.md),
-* créer des groupes de destinataires ; voir [Création et gestion des listes](../../platform/using/creating-and-managing-lists.md).
+* trier et filtrer les profils de la base ; voir [Options de filtrage](../../platform/using/filtering-options.md),
+* déplacer, copier ou enlever des profils de la base ; voir [Gestion de profils](../../platform/using/managing-profiles.md),
+* mettre à jour les profils ; voir [Mise à jour de données](../../platform/using/updating-data.md),
+* exporter des destinataires ; voir [Exporter et importer des profils](../../platform/using/exporting-and-importing-profiles.md),
+* créer des groupes de destinataires ; voir [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md).
 
 Pour accéder aux fonctionnalités avancées et aux paramétrages, vous devez cliquer sur l&#39;icône **[!UICONTROL Explorateur]**.
 
 ![](assets/d_ncs_user_interface01.png)
 
-La présentation générale de l’explorateur Adobe Campaign est présentée dans [Utilisation d’Adobe Campaign Explorer](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+La disposition générale de l’explorateur Adobe Campaign est présentée dans [Utiliser l’explorateur Adobe Campaign](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. La configuration de l’affichage de liste est décrite dans [Utilisation de l’explorateur](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)Adobe Campaign.
+>Vous pouvez également afficher une vue avancée de cette liste à partir de l’arborescence Adobe Campaign, en cliquant sur le lien **[!UICONTROL Profils et cibles > Destinataires]**. L’affichage de cette liste peut être paramétré selon vos besoins. Vous pouvez ajouter ou supprimer des colonnes, définir leur ordre, trier les données, etc. Le paramétrage de l’affichage des listes est présentée dans [Utiliser l’explorateur Adobe Campaign](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 >
->Vous pouvez également définir les vues des destinataires. Pour plus d’informations sur cette fonctionnalité, voir [Dossiers et vues](../../platform/using/access-management.md#folders-and-views).
+>Vous pouvez également définir des vues de destinataires. Pour plus d’informations sur cette fonctionnalité, voir [Les dossiers et les vues](../../platform/using/access-management.md#folders-and-views).
 
 ## Profils actifs {#active-profiles}
 
