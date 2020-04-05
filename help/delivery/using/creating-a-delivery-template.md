@@ -34,7 +34,7 @@ Cette action crée un modèle de diffusion à partir de la diffusion sélectionn
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-Pour plus d’informations sur le mode de configuration, voir [Liaison du modèle à une diffusion](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
+Pour plus d’informations sur le mode de configuration, voir [Associer le modèle à une diffusion](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
 
 ## Créer un modèle {#creating-a-new-template}
 
