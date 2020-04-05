@@ -145,8 +145,8 @@ Vous pouvez également vérifier qu&#39;aucun processus système ne subsiste.
 
 Pour cela :
 
-* In Windows: open the **Task manager** and check that there are no **nlserver.exe** processes.
-* In Linux: run the **ps aux | grep nlserver** command and check that there are no **nlserver** processes.
+* Sous Windows : ouvrez le **Gestionnaire des tâches** et vérifiez l’absence de tout processus **nlserver.exe**.
+* Sous Linux : exécutez la commande **ps aux | grep nlserver** et vérifiez l’absence de tout processus **nlserver**.
 
 ### Etape 4 - Restaurer les bases de données dans l&#39;environnement-cible (recette) {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -195,7 +195,7 @@ Sur l&#39;environnement-cible, redémarrez les processus Adobe Campaign sur tous
 >
 >Avant de redémarrer Adobe Campaign sur l&#39;environnement **recette**, il est possible d&#39;appliquer une procédure de sécurité supplémentaire : ne démarrer que le module **web**.
 >  
->To do this, edit your instance&#39;s configuration file (**config-dev.xml**), then add the &quot;_&quot; character before the autoStart=&quot;true&quot; options for each module (mta, stat, etc.).
+>Pour cela, éditez le fichier configuration de votre instance (**config-dev.xml**), puis ajoutez le caractère « _ » devant les options autoStart=&quot;true&quot; pour chaque module (mta, stat, etc.).
 
 Exécuter la commande suivant afin de démarrer le processus web :
 
@@ -215,7 +215,7 @@ Vérifer visuellement que l&#39;accès à la console client fonctionne.
 
 >[!CAUTION]
 >
->Seul le processus Web doit être lancé à cette étape. Dans le cas contraire, arrêtez les autres processus en cours d’exécution avant de continuer.
+>Seul le processus web doit être lancé à cette étape. Dans le cas contraire, arrêtez les autres processus en cours d’exécution avant de continuer.
 
 Vérifier avant toutes choses les valeurs de plusieurs lignes des fichiers avant l&#39;import (par exemple : &#39;NmsTracking_Pointer&#39; pour la table des options et les comptes d&#39;envoi ou de mid-sourcing pour la table des comptes externes).
 
