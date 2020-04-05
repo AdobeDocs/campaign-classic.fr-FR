@@ -1,6 +1,6 @@
 ---
 title: Connecteur CRM
-description: En savoir plus sur CRM Connector et configurez la synchronisation des données avec Adobe Campaign.
+description: En savoir plus sur le Connecteur CRM et configurer la synchronisation des données avec Adobe Campaign.
 page-status-flag: never-activated
 uuid: b3856a82-b1dc-4e36-a2d0-14edc5b66b3b
 contentOwner: sauviat
@@ -26,10 +26,10 @@ Pour plus d’informations sur les connecteurs CRM dans Adobe Campaign, consult
 
 Vous pouvez ainsi :
 
-* Importation à partir de la gestion de la relation client (voir [Importation à partir de la gestion de la relation client](#importing-from-the-crm)),
-* Exportation vers CRM (voir [Exportation vers CRM](#exporting-to-the-crm)),
-* Importer des objets supprimés dans la gestion de la relation client (voir [Importation d&#39;objets supprimés dans la gestion de la relation client](#importing-objects-deleted-in-the-crm)),
-* Supprimez des objets dans la gestion de la relation client (voir [Suppression d’objets dans la gestion de la relation client](#deleting-objects-in-the-crm)).
+* Importer depuis le CRM (voir [Import depuis le CRM](#importing-from-the-crm)),
+* Exporter vers le CRM (voir [Export vers le CRM](#exporting-to-the-crm)),
+* Importer des objets supprimés dans le CRM (voir [Import des objets supprimés dans le CRM](#importing-objects-deleted-in-the-crm)),
+* Supprimer des objets dans le CRM (voir [Suppression d’objets dans le CRM](#deleting-objects-in-the-crm)).
 
 ![](assets/crm_task_select_op.png)
 
@@ -69,11 +69,11 @@ Pour un import, les étapes de paramétrage de l&#39;activité **Connecteur CRM*
 
    ![](assets/crm_task_import_filter.png)
 
-   The limitations linked to data filtering modes are detailed in [Filter on data](#filter-on-data) section.
+   Les limitations relatives au mode de filtrage des données sont décrites dans la section [Filtre sur les données](#filter-on-data).
 
 1. L&#39;option **[!UICONTROL Utiliser l&#39;index automatique...]** permet de gérer automatiquement la synchronisation incrémentale des objets entre le CRM et Adobe Campaign, selon la date de leur dernière modification.
 
-   For more on this, refer to [Variable management](#variable-management).
+   Voir à ce sujet la section [Gestion des variables](#variable-management).
 
 ## Gestion des variables {#variable-management}
 
@@ -229,7 +229,7 @@ Pour supprimer des objets côté CRM, vous devez indiquer la clé primaire des �
 
 ![](assets/crm_delete_in_crm.png)
 
-L&#39;onglet **[!UICONTROL Comportement]** permet d&#39;activer le traitement des rejets. Cette option génère une seconde transition en sortie de l&#39;activité **[!UICONTROL Connecteur CRM]**. Voir à ce propos cette [section](../../platform/using/crm-connectors.md#error-processing).
+L’onglet **[!UICONTROL Comportement]** vous permet d’activer le traitement des rejets. Cette option génère une seconde transition en sortie de l’activité **[!UICONTROL Connecteur CRM]**. Voir à ce propos cette [section](../../platform/using/crm-connectors.md#error-processing).
 
 Même lorsque l&#39;option **[!UICONTROL Traiter les rejets]** n&#39;est pas activée, un avertissement est généré pour chaque colonne rejetée.
 
