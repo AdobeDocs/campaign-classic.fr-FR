@@ -116,8 +116,8 @@ Voici la liste des options de maintenance disponibles sur l&#39;instance de pilo
 >
 >Ces options ne doivent être utilisées que dans des cas de maintenance spécifiques.
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: date de dernière synchronisation d’un environnement sur une instance donnée.
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: date de dernière synchronisation des propositions d’un schéma donné d’une instance à une autre.
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`** : date de dernière synchronisation d’un environnement sur une instance donnée.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`** : date de dernière synchronisation des propositions d’un schéma donné d’une instance vers une autre.
 * **`NmsInteraction_MapWorkflowId`** : option contenant la liste de tous les workflows de synchronisation générés.
 
 L&#39;option suivante est disponible sur les instances d&#39;exécution :
