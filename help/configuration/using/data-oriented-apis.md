@@ -38,9 +38,9 @@ Les documents XML sont stockés dans des champs de type MEMO de la base.
 
 Vous devez impérativement connaître le modèle de données Adobe Campaign afin d&#39;adresser correctement les champs de la base de données dans vos scripts.
 
-Pour une présentation du modèle de données, reportez-vous à la description [du modèle de données](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html)Adobe Campaign.
+Pour obtenir une présentation du modèle de données, consultez la section [Description du modèle de données d’Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
 
-Pour générer sa structure, reportez-vous à cet article : [Comment générer un modèle de données ou un dictionnaire](https://helpx.adobe.com/campaign/kb/generate-data-model.html)de données.
+Pour générer sa structure, reportez-vous l’article suivant : [Comment générer un modèle de données ou un dictionnaire de données](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
 ## Query et Writer {#query-and-writer}
 
@@ -54,7 +54,7 @@ Pour les colonnes et les conditions, vous pouvez utiliser des Query.
 
 Vous pouvez ainsi isoler le SQL sous-jacent. Le langage des requêtes est indépendant du moteur sous-jacent : certaines fonctions vont être re-mappées, ce qui peut générer de nombreux ordres SELECT SQL.
 
-Pour plus d&#39;informations, reportez-vous à l&#39; [exemple de la méthode &quot;ExecuteQuery&quot; du schéma &quot;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
+Voir à ce sujet la section [Exemple sur la méthode &#39;ExecuteQuery&#39; du schéma &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
 La méthode **ExecuteQuery** est présentée dans [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
@@ -120,9 +120,9 @@ La structure du document XML de la requête est décrite dans le schéma &quot;x
 </queryDef>
 ```
 
-Une sous-requête ( `<subquery>` ) peut être définie dans un `<condition> ` élément. La syntaxe d’un `<subquery> ` élément est basée sur la syntaxe d’un `<querydef>`.
+Une sous-requête ( `<subquery>` ) peut être définie dans un élément `<condition> `. La syntaxe d’un élément `<subquery> ` repose sur la syntaxe d’un `<querydef>`.
 
-Example of a `<subquery>  : </subquery>`
+Exemple d’un `<subquery>  : </subquery>`
 
 ```
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
@@ -147,7 +147,7 @@ Le type d&#39;opération souhaité est renseigné dans l&#39;attribut **operatio
 * **select** : crée un curseur pour retourner plusieurs enregistrements, et retourne un document vide si aucune données,
 * **count** : retourne un comptage des données.
 
-La syntaxe **XPath** permet de localiser les données en fonction du schéma d’entrée. Pour plus d&#39;informations sur XPath, reportez-vous aux schémas [de données](../../configuration/using/data-schemas.md).
+La syntaxe **XPath** sert à localiser les données en fonction du schéma de départ. Pour plus d’informations sur XPath, voir [Schémas de données](../../configuration/using/data-schemas.md).
 
 #### Exemple avec l&#39;opération &#39;get&#39;{#example-with-the--get--operation}
 
@@ -195,7 +195,7 @@ Retourne la liste des destinataires filtrés sur un dossier et le domaine de l&#
 
 Les expressions peuvent être des champs simples ou des expressions complexes telles que les opérations arithmétiques ou la concaténation de chaînes.
 
-To limit the number of records to be returned, add the **lineCount** attribute to the `<querydef>` element.
+Pour limiter le nombre d’enregistrements à retourner, il faut ajouter l’attribut **lineCount** à l’élément `<querydef>`.
 
 Pour limiter à 100 le nombre d&#39;enregistrements retournés par la requête :
 
@@ -226,7 +226,7 @@ Pour compter le nombre d&#39;enregistrements sur une requête :
 
 >[!NOTE]
 >
->Encore une fois, nous utilisons la condition de l&#39;exemple précédent. Les clauses `<select>` et ne sont pas utilisées. </select>`
+>Encore une fois, nous utilisons la condition de l’exemple précédent. Les `<select>` et clauses ne sont pas utilisés. </select>`
 
 #### Groupement de données {#data-grouping}
 
@@ -262,7 +262,7 @@ On peut simplifier la requête en renseignant l&#39;attribut **groupBy** directe
 
 >[!NOTE]
 >
->It is no longer necessary to populate the `<groupby>` element.
+>Il n’est plus nécessaire de renseigner l’élément `<groupby>`.
 
 #### Parenthésage dans les conditions {#bracketing-in-conditions}
 
@@ -276,7 +276,7 @@ Voici deux exemples de parenthésages sur une même condition.
    </where>
    ```
 
-* The structured version with `<condition>` elements:
+* La version structurée avec des éléments `<condition>` :
 
    ```
    <where>
@@ -339,7 +339,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
    </where>
    ```
 
-   La récupération directe des champs d’un lien de collection à partir de la `<select>` clause n’est pas recommandée car la requête renvoie un produit cardinal. Elle est utilisée uniquement lorsque la table liée contient un seul enregistrement (exemple `<node expr="">`).
+   La récupération directe des champs d’un lien de collection à partir de la clause `<select>` n’est pas recommandée, car la requête renvoie un produit cardinal. Elle est utilisée uniquement lorsque la table liée contient un seul enregistrement (exemple `<node expr="">`).
 
    Exemple sur le lien de collection &quot;subscription&quot; :
 
@@ -349,9 +349,9 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
    </select>
    ```
 
-   Il est possible de récupérer une sous-liste contenant les éléments d’un lien de collection dans la `<select>` clause. Les XPath des champs référencés sont contextuels à partir de l’élément Collection.
+   Il est possible de récupérer une sous-liste contenant les éléments d’un lien de collection dans la clause `<select>`. Les XPath des champs référencés sont contextuels à partir de l’élément de collection.
 
-   The filtering ( `<orderby>`  ) and restriction (  `<where>`  ) elements can be added to the collection element.
+   Les éléments de filtrage ( `<orderby>` ) et de restriction ( `<where>` ) peuvent être ajoutés à l’élément de collection.
 
    Dans cet exemple, la requête retourne pour chaque destinataire, son email et la liste des services d&#39;information auxquels il est abonné :
 
@@ -379,7 +379,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
 Le binding des paramètres laisse le moteur fixer les valeurs des paramètres utilisés dans la requête. Ceci est très utile car l&#39;échappement des valeurs est à la charge du moteur et on bénéficie en plus d&#39;un cache sur les paramètres à récupérer.
 
-Lorsqu’une requête est créée, les valeurs &quot;liées&quot; sont remplacées par un caractère (? dans ODBC, `#[index]#` dans postgres...) dans le corps de la requête SQL.
+Lorsqu’une requête est créée, les valeurs « liées » sont remplacées par un caractère (? dans ODBC, `#[index]#` dans postgres...) dans le corps de la requête SQL.
 
 ```
 <select>
@@ -396,7 +396,7 @@ Pour ne pas binder un paramètre, il faut renseigner l&#39;attribut &quot;noSqlB
 >
 >Dans le cas où la requête comprend des instructions du type &quot;order-by&quot; ou &quot;group-by&quot;, les moteurs de base de données ne peuvent pas &quot;binder&quot; les valeurs. Il est donc indispensable de placer dans la même requête l&#39;attribut @noSqlBind=&quot;true&quot; sur les instructions &quot;select&quot; et/ou &quot;where&quot;.
 
-#### Query-building tip: {#query-building-tip-}
+#### Astuce pour construire une requête : {#query-building-tip-}
 
 Pour vous aider à trouver la syntaxe d&#39;une requête, vous pouvez mettre au point la requête à partir du requêteur générique dans la console cliente Adobe Campaign (menu **[!UICONTROL Outils/Requêteur générique...]**). Pour cela :
 
@@ -453,7 +453,7 @@ Un alias permet de modifier l&#39;emplacement des données dans le document en s
 </queryDef>
 ```
 
-Renvoie:
+Retourne :
 
 ```
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
@@ -600,13 +600,13 @@ Associer le dossier sur un destinataire à partir de son nom interne (@name).
 
 Les attributs &quot;_key&quot; et &quot;_operation&quot; peuvent être renseignés sur un élément lié, le comportement sur cet élément est le même que sur l&#39;élément principal du schéma de départ.
 
-The definition of the key of the main entity (&quot;nms:recipient&quot;) consists of a field from a linked table (element `<folder>`  schema &quot;xtk:folder&quot;) and the e-mail.
+La définition de la clé de l’entité principale (&quot;nms:recipient&quot;) est composée d’un champ provenant d’une table liée (élément `<folder>` du schéma &quot;xtk:folder&quot;) et de l’email.
 
 >[!NOTE]
 >
 >L&#39;opération &quot;none&quot; renseignée sur l&#39;élément dossier définit une réconciliation sur le dossier sans mise à jour ni insertion.
 
-#### Example 2 {#example-2}
+#### Exemple 2 {#example-2}
 
 Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à partir d&#39;un destinataire :
 
@@ -616,7 +616,7 @@ Mettre à jour la société (table liée de schéma &quot;cus:company&quot;) à 
 </recipient>
 ```
 
-#### Example 3 {#example-3}
+#### Exemple 3 {#example-3}
 
 Ajouter un destinataire dans un groupe avec la table de relation des groupes (&quot;nms:rcpGrpRel&quot;) :
 
@@ -630,7 +630,7 @@ Ajouter un destinataire dans un groupe avec la table de relation des groupes (&q
 
 >[!NOTE]
 >
->The definition of the key is not entered in the `<rcpgroup>` element because an implicit key based on the group name is defined in the &quot;nms:group&quot; schema.
+>La définition de la clé n’est pas renseignée sur l’élément `<rcpgroup>` car une clé implicite sur le nom du groupe est définie dans la schéma &quot;nms:group&quot;.
 
 ### Eléments de collections XML {#xml-collection-elements}
 
