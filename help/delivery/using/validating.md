@@ -22,13 +22,13 @@ source-git-commit: 70f51ba3937d0f20d9a488c61b52b7ec4396fa5e
 
 # Valider{#validating}
 
-Les concepts globaux de validation d’une diffusion sont présentés dans [cette section](../../delivery/using/steps-validating-the-delivery.md).
+Les concepts généraux de validation d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-validating-the-delivery.md).
 
-Le fichier de sortie d’une remise de courrier direct est généré pendant l’analyse de la remise. Le contenu du fichier dépend des colonnes de sortie sélectionnées (voir Fichier [d’](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)extraction).
+Le fichier de sortie d&#39;une diffusion par courrier est généré pendant l&#39;analyse de la diffusion. Le contenu du fichier dépend des colonnes de sortie sélectionnées (voir la section [Fichier d&#39;extraction](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)).
 
 >[!NOTE]
 >
->La phase d’analyse est détaillée dans [Analyse de la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+>La phase d&#39;analyse est détaillée dans la section [Analyser la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Pendant la phase d&#39;analyse, le fichier est généré mais aucune information concernant les destinataires (à savoir les logs de diffusion) n&#39;est mise à jour. Vous pouvez donc annuler cette opération sans aucun risque.
 
