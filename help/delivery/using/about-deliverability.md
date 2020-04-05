@@ -1,6 +1,6 @@
 ---
-title: À propos de la délivrabilité dans Adobe Campaign Classic
-description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
+title: A propos de la délivrabilité dans Adobe Campaign Classic
+description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -20,16 +20,16 @@ source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 
 # A propos de la délivrabilité{#about-deliverability}
 
-Adobe Campaign propose un certain nombre d’outils pour suivre les performances de délivrabilité de votre plateforme. Cette section met également en évidence les principes principaux que vous devez garder à l&#39;esprit lors de la gestion et de l&#39;optimisation de la délivrabilité.
+Adobe Campaign propose un certain nombre d&#39;outils pour suivre les performances de délivrabilité de votre plateforme. Cette section met également en évidence les principes essentiels que vous devez garder à l&#39;esprit pour la gestion et de l&#39;optimisation de la délivrabilité.
 
 ## Configuration {#configuration}
 
-Cette fonctionnalité est disponible via un pack dédié dans Adobe Campaign. Pour l&#39;utiliser, ce package doit être installé. Une fois terminé, redémarrez le serveur pour que le package soit pris en compte.
-* Pour les clients hébergés et hybrides, la surveillance **de la** délivrabilité est configurée sur votre instance par l’assistance technique et les consultants d’Adobe. Pour plus d’informations, contactez votre gestionnaire de compte Adobe.
+Cette fonctionnalité est disponible via un package dédié d&#39;Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois l&#39;installation terminée, redémarrez le serveur pour que le package soit pris en compte.
+* Pour les clients hébergés et hybrides, la **supervision de la délivrabilité** est configurée sur votre instance par l&#39;assistance technique et les consultants d&#39;Adobe. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
 
-* Pour les installations sur site, vous devez installer le package de surveillance de la **[!UICONTROL délivrabilité (délivrabilité du courrier électronique)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Importer le package.]** Pour plus d’informations, voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard Campaign Classic.
+* Pour les installations on-premise, vous devez installer le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus d&#39;informations, voir la section [Installer des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
 
-Dans Adobe Campaign Classic, la surveillance **de la** délivrabilité est gérée par le processus **[!UICONTROL Actualiser pour la délivrabilité]** . Il est installé par défaut sur toutes les instances et vous permet d’initialiser la liste des règles de qualification du courrier de retour, la liste des domaines et la liste des MX. Une fois le package de surveillance de la **[!UICONTROL délivrabilité (délivrabilité des e-mails)]** installé, ce flux de travail s’exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permet de gérer activement la délivrabilité des plateformes.
+Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gérée par le workflow **[!UICONTROL Mise à jour pour la délivrabilité]**. Il est installé par défaut sur toutes les instances et permet d&#39;initialiser la liste des règles de qualification des emails bounce, la liste des domaines et la liste des MX. Une fois le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** installé, ce workflow s&#39;exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes.
 
 ## Informations générales {#background}
 
