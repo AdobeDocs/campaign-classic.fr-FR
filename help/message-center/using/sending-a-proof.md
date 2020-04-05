@@ -26,8 +26,8 @@ Vous pouvez tester l&#39;envoi du message en envoyant un BAT vers une adresse de
 
 L&#39;envoi d&#39;un BAT se fait selon le même principe que pour une diffusion classique (voir à ce sujet [cette section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)). Cependant, l&#39;envoi d&#39;un BAT dans le cadre de Message Center suppose d&#39;avoir préalablement effectué les opérations suivantes :
 
-* créer une ou plusieurs adresses de base (voir [Gestion des adresses de base dans les messages](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)transactionnels) avec des données de test (voir Données [de](../../message-center/using/personalization-data.md)personnalisation),
-* créez le contenu du message (voir [Création de contenu](../../message-center/using/creating-message-content.md)du message).
+* créer une ou plusieurs adresses de base (voir [Gestion des adresses de contrôle dans les messages transactionnels](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)) avec des données de test (voir [Données de personnalisation](../../message-center/using/personalization-data.md)),
+* créer le contenu du message (voir [Création du contenu du message](../../message-center/using/creating-message-content.md)).
 
 Pour effectuer l&#39;envoi :
 
