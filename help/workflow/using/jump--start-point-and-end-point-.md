@@ -34,4 +34,4 @@ Vous pouvez insérer plusieurs sauts de départ et d&#39;arrivée dans un même 
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-Pour améliorer la lisibilité du diagramme, vous pouvez modifier l’image associée aux sauts afin d’afficher le numéro associé. Voir [Gestion des images](../../workflow/using/managing-activity-images.md)d’activité.
+Afin d&#39;améliorer la lisibilité du diagramme, vous pouvez changer l&#39;image associée aux sauts afin d&#39;afficher le chiffre correspondant. Voir la section [Gestion des images d&#39;activité](../../workflow/using/managing-activity-images.md).
