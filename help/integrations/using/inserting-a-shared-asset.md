@@ -46,7 +46,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées
 
 1. Dans la fenêtre de sélection qui s&#39;ouvre, sélectionnez une image, puis validez.
 
-   Les images disponibles proviennent de votre bibliothèque Adobe Experience Cloud ou de votre bibliothèque AEM Assets, selon la configuration de votre instance Adobe Campaign. Reportez-vous à la section [Configuration de l’accès aux ressources](../../integrations/using/configuring-access-to-assets.md) .
+   Les images disponibles proviennent soit de votre bibliothèque Adobe Experience Cloud, soit de votre bibliothèque AEM Assets, en fonction de la configuration de votre instance Adobe Campaign. Voir la section [Configurer l’accès à Assets](../../integrations/using/configuring-access-to-assets.md).
 
    ![](assets/dam_shared_image_selection.png)
 
