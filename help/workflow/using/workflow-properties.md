@@ -64,7 +64,7 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
    Cette option ne doit être utilisée qu&#39;à des fins de débuggage et jamais en production. Lorsque cette option est activée, le workflow devient prioritaire, et tous les autres workflows sont stoppés par le moteur de workflow tant qu&#39;il n&#39;est pas terminé.
 
-### Gestion des erreurs  {#error-management}
+### Gestion des erreurs   {#error-management}
 
 * **[!UICONTROL Résolution des problèmes]**
 
