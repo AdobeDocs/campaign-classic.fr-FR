@@ -32,13 +32,13 @@ Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivant
 
 * **[!UICONTROL Editer un destinataire]**
 
-   Vous pouvez sélectionner un champ de la base de données : les réponses des utilisateurs seront stockées dans ce champ. Pour chaque utilisateur, seule la dernière valeur saisie est enregistrée : il est ajouté à leur profil : Reportez-vous à [Stockage des données dans la base de données](#storing-data-in-the-database).
+   Vous pouvez sélectionner un champ de la base de données : les réponses des utilisateurs seront stockées dans ce champ. Pour chaque utilisateur, seule la dernière valeur saisie est enregistrée et ajoutée à leur profil : voir à ce sujet la section [Stockage des données dans la base de données](#storing-data-in-the-database).
 
 * **[!UICONTROL Variable]**
 
-   Si vous ne souhaitez pas stocker d’informations dans la base de données, vous pouvez utiliser une variable. Les variables locales peuvent être déclarées en amont. Reportez-vous à [Stockage de données dans une variable](#storing-data-in-a-local-variable)locale.
+   Vous pouvez utiliser une variable si vous ne souhaitez pas stocker les informations dans la base de données. Les variables locales peuvent être déclarées en amont. Voir à ce sujet la section [Stocker les données dans une variable locale](#storing-data-in-a-local-variable).
 
-### Storing data in the database {#storing-data-in-the-database}
+### Stockage des données dans la base de données {#storing-data-in-the-database}
 
 Pour enregistrer les données dans un champ existant de la base de données, cliquez sur l&#39;icône **[!UICONTROL Editer l&#39;expression]** et sélectionnez-le dans la liste des champs disponibles.
 
@@ -112,7 +112,7 @@ Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans 
 
    >[!NOTE]
    >
-   >Unlike the other fields for which `<%=` characters are replaced with escape characters, the HTML content is saved as is by using the `<%==` syntax.
+   >Contrairement aux autres champs pour lesquels les caractères `<%=` sont remplacés par des caractères d’échappement, le contenu HTML est conservé tel quel grâce à l’utilisation de la syntaxe`<%==`.
 
 ## Enregistrer les réponses aux formulaires web {#saving-web-forms-answers}
 
@@ -122,9 +122,9 @@ Pour enregistrer les informations collectées dans les pages d&#39;un formulaire
 
 Deux modes d&#39;utilisation de cette boîte sont possibles :
 
-* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. Pour plus d’informations, reportez-vous à la section [Diffusion d’un formulaire par courrier électronique](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
+* Si l’accès au formulaire web se fait via un lien envoyé dans un email, et donc si l’utilisateur qui a accès à l’application web est déjà en base, vous pouvez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]**. Voir à ce sujet la section [Diffuser un formulaire par email](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
 
-   Dans ce cas, Adobe Campaign utilise la clé primaire chiffrée du profil utilisateur, identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez configurer les informations à précharger via la zone de préchargement. Pour plus d’informations, reportez-vous à la section [Préchargement des données](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)de formulaire.
+   Adobe Campaign utilise alors par défaut la clé primaire cryptée du profil de l’utilisateur, qui est un identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez paramétrer les informations à précharger à partir de la boîte de préchargement. Pour plus d’informations, consultez la section [Précharger les données du formulaire](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
    >[!CAUTION]
    >
