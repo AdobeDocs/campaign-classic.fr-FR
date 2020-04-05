@@ -1,7 +1,7 @@
 ---
-title: Test et envoi de FAQ
-seo-title: Validation, envoi et suivi des messages
-description: FAQ sur Campaign Classic
+title: FAQ sur les tests et les envois
+seo-title: Validation, envoi et tracking des messages
+description: FAQ sur Campaign Classic
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -19,25 +19,25 @@ source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 ---
 
 
-# Validation, envoi et suivi des messages {#validate-send-track}
+# Validation, envoi et tracking des messages {#validate-send-track}
 
 ## Tests et validation {#test-and-validate-before-sending}
 
 Apprenez à effectuer les étapes de test et de validation avant d&#39;envoyer des messages dans Adobe Campaign.
 
-### What is the delivery analysis? {#what-is-the-delivery-analysis-}
+### Qu&#39;est-ce que l&#39;analyse de la diffusion ?{#what-is-the-delivery-analysis-}
 
 L&#39;analyse correspond à l&#39;étape de calcul de la population cible et de préparation du contenu de la diffusion. Une fois l&#39;analyse terminée, la diffusion sera prête à être envoyée. Consultez les logs pour vérifier que tout est correct.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md).
 
-### Why should I create proofs? {#why-should-i-create-proofs-}
+### Pourquoi créer des bons à tirer ?{#why-should-i-create-proofs-}
 
 Adobe recommande vivement de créer des BAT pour tester votre diffusion auprès d’un groupe de validation avant l’envoi à la cible principale. Vous pouvez ensuite valider le contenu des messages, la personnalisation et les paramètres de la diffusion.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html).
 
-### How to use seed addresses in Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
+### Comment utiliser les adresses de contrôle dans Adobe Campaign ?{#how-to-use-seed-addresses-in-adobe-campaign-}
 
 Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Elles sont ajoutées à la cible : elles peuvent être importées ou créées directement au niveau de la diffusion ou de l&#39;opération. Pour les diffusions courrier, elles sont ajoutées au moment de l&#39;extraction et mixées dans le document de sortie.
 
@@ -48,13 +48,13 @@ Les avantages sont notamment les suivants :
 
 [Cliquez ici pour en savoir plus sur les adresses de contrôle](../../delivery/using/about-seed-addresses.md).
 
-### How can I set up an approval process before sending messages? {#how-can-i-set-up-an-approval-process-before-sending-messages-}
+### Comment configurer un processus de validation avant l&#39;envoi des messages ?{#how-can-i-set-up-an-approval-process-before-sending-messages-}
 
 Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adobe recommande vivement de mettre en place un cycle de validation de vos diffusions. Pour cela, faites-en valider le contenu autant de fois que nécessaire en envoyant des bons à tirer auprès de destinataires test. Un BAT doit être envoyé afin de valider le contenu après chaque modification.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### What is a typology rule? {#what-is-a-typology-rule-}
+### Qu&#39;est-ce qu&#39;une règle de typologie ?{#what-is-a-typology-rule-}
 
 Afin d&#39;éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contraintes spécifiques. Vous pourrez ainsi vous assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect de la cohérence de la communication de l&#39;entreprise.
 
@@ -64,23 +64,23 @@ Afin d&#39;éviter les conflits entre les campagnes, Adobe Campaign peut tester 
 
 Apprenez à envoyer des messages sur différents canaux avec Adobe Campaign.
 
-### How can I send emails in waves? {#how-can-i-send-emails-in-waves-}
+### Comment envoyer des emails par vagues ?{#how-can-i-send-emails-in-waves-}
 
-Avant d&#39;envoyer une diffusion à une population importante, vous pouvez [configurer des vagues ](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) pour répartir les envois en plusieurs lots et équilibrer la charge.
+Avant d&#39;envoyer une diffusion à une population importante, vous pouvez [configurer des vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves) pour répartir les envois en plusieurs lots et équilibrer la charge.
 
-### Which are the key steps to create an email in Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
+### Quelles sont les principales étapes pour créer un email dans Campaign ?{#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 Une fois la diffusion de l’email créée et validée, vous pouvez l’envoyer. Vous pouvez choisir d’envoyer immédiatement l’email à la cible principale ou de planifier une diffusion à une date ultérieure. Au besoin, vous pouvez au préalable également estimer la population cible.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
-### How to schedule a delivery? {#how-to-schedule-a-delivery-}
+### Comment planifier une diffusion ?{#how-to-schedule-a-delivery-}
 
 Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou pour gérer la pression commerciale afin de ne pas sur-solliciter une population.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
-### Can I add an attachment to emails? {#can-i-add-an-attachment-to-emails-}
+### Est-il possible d&#39;ajouter une pièce jointe aux emails ?{#can-i-add-an-attachment-to-emails-}
 
 Avec Campaign Classic, vous pouvez ajouter des pièces jointes personnalisées à vos emails.
 
@@ -90,7 +90,7 @@ Avec Campaign Classic, vous pouvez ajouter des pièces jointes personnalisées �
 
 Une fois vos messages envoyés, apprenez à suivre et mesurer leur impact avec Adobe Campaign.
 
-### How can I configure tracked links in an email delivery? {#how-can-i-configure-tracked-links-in-an-email-delivery-}
+### Comment configurer des liens trackés dans une diffusion d&#39;email ?{#how-can-i-configure-tracked-links-in-an-email-delivery-}
 
 La réception des messages ainsi que l&#39;activation des liens insérés dans le contenu des messages peuvent être suivis pour chaque diffusion. Vous pouvez ainsi assurer un tracking du comportement des destinataires suite aux actions de diffusion dont ils ont été la cible.
 
@@ -98,17 +98,17 @@ Pour chaque URL du message, vous pouvez choisir d&#39;activer ou non le tracking
 
 [Cliquez ici pour en savoir plus](../../delivery/using/about-message-tracking.md) sur la façon de suivre vos messages dans Campaign Classic.
 
-### Where can I access delivery and tracking logs? {#where-can-i-access-delivery-and-tracking-logs-}
+### Où se trouvent les logs de diffusion et de tracking ?{#where-can-i-access-delivery-and-tracking-logs-}
 
 Découvrez comment effectuer un tracking de vos diffusions et comprendre le comportement des destinataires dans [cette page](../../delivery/using/monitoring-a-delivery.md).
 
-### Where can I get delivery reports? {#where-can-i-get-delivery-reports-}
+### Où obtenir des rapports de diffusion ?{#where-can-i-get-delivery-reports-}
 
 Adobe Campaign contient un ensemble de rapports qui permettent de contrôler les diffusions et de tracker vos messages.
 
 [Cliquez ici pour en savoir plus sur les rapports intégrés](../../reporting/using/delivery-reports.md).
 
-### How does Adobe Campaign qualify and manage quarantine addresses? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
+### Comment Adobe Campaign qualifie-t-il et gère-t-il les adresses en quarantaine ?{#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
 Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires dont l&#39;adresse est en quarantaine sont par défaut exclus lors de l&#39;analyse d&#39;une diffusion : ils ne seront pas ciblés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l&#39;adresse n&#39;existe pas.
 
