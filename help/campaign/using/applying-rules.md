@@ -59,7 +59,7 @@ Utilisez alors l&#39;éditeur de requêtes pour définir les conditions de filtr
 
 >[!NOTE]
 >
->Pour les règles de filtrage, vous pouvez sélectionner la condition d’application des critères de filtrage : elles peuvent dépendre de la prestation ou de l&#39; aperçu de la prestation. Pour plus d’informations, reportez-vous à la section [Conditionnement d’une règle](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule)de filtrage.
+>Pour les règles de filtrage, vous pouvez sélectionner le contexte d&#39;application des critères de filtrage : ils peuvent dépendre de la diffusion ou de la composition de diffusion. Voir à ce sujet la section [Traiter une règle de filtrage](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule).
 
 ## Ajuster la fréquence des calculs {#adjusting-calculation-frequency}
 
@@ -150,5 +150,5 @@ L&#39;onglet **[!UICONTROL Marketing Distribué]** permet de définir le paramé
 >[!NOTE]
 >
 >Dans les typologies et règles de typologie, l&#39;onglet **[!UICONTROL Marketing Distribué]** est proposé si votre licence inclut cette option : vérifiez votre contrat de licence.\
->Pour plus d’informations sur le marketing distribué, voir [A propos du marketing](../../campaign/using/about-distributed-marketing.md)distribué.
+>Pour plus d&#39;informations sur le marketing distribué, voir la section [À propos du marketing distribué](../../campaign/using/about-distributed-marketing.md).
 
