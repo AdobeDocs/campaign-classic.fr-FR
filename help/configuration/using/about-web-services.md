@@ -26,12 +26,12 @@ source-git-commit: a047e4af6e31c54fa2444943a18da5913e115c09
 
 Le serveur applicatif Adobe Campaign a été conçu dans un souci d&#39;ouverture afin de faciliter son implémentation applicative et son intégration dans des environnements d&#39;entreprise de plus en plus hétérogènes et complexes.
 
-Les API Adobe Campaign sont utilisées dans JavaScript au sein de l’application et dans SOAP en dehors de celle-ci. Ils constituent une bibliothèque de fonctions génériques qui peuvent être enrichies. Pour plus d’informations, voir [Mise en oeuvre des méthodes](../../configuration/using/implementing-soap-methods.md)SOAP.
+Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et en externe avec SOAP. Elles constituent une bibliothèque de fonctions génériques qui peuvent être enrichies. Pour plus d’informations, voir la section [Implémenter des méthodes SOAP](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
 >Le nombre d&#39;appels de moteur autorisé par jour varie selon votre contrat de licence. Voir à ce sujet [cette page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
->Une liste de toutes les API incluant leur description complète est disponible dans [cette documentation](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)dédiée.
+>Une liste de toutes les API avec leur description complète est disponible dans [cette documentation dédiée](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
 
 ## Prérequis {#prerequisites}
 
@@ -45,10 +45,10 @@ Afin d&#39;utiliser les API Adobe Campaign, il est conseillé de posséder des n
 
 Adobe Campaign utilise deux types d&#39;API :
 
-* Les API d’accès aux données génériques permettent d’interroger les données du modèle de données. Reportez-vous aux API [orientées](../../configuration/using/data-oriented-apis.md)données.
-* API propres à l’entreprise qui vous permettent d’agir sur chaque objet : livraisons, processus, abonnements, etc. Reportez-vous aux API [orientées](../../configuration/using/business-oriented-apis.md)métier.
+* Les API génériques d’accès aux données qui permettent d’interroger les données du modèle de données. Voir à ce propos la section [API orientées données](../../configuration/using/data-oriented-apis.md).
+* Les API spécifiques métier qui permettent d&#39;agir sur chaque type d’objet : diffusions, workflows, abonnements, etc. Voir à ce propos la section [API orientées métier](../../configuration/using/business-oriented-apis.md).
 
-Pour développer des API et interagir avec Adobe Campaign, vous devez connaître votre modèle de données. Adobe Campaign vous permet de générer une description complète de la base. Reportez-vous à la [description du modèle](../../configuration/using/data-oriented-apis.md#description-of-the-model).
+Pour développer des API et interagir avec Adobe Campaign, vous devez connaître votre modèle de données. Adobe Campaign permet de générer une description complète de la base. Voir à ce propos la section [Description du modèle](../../configuration/using/data-oriented-apis.md#description-of-the-model).
 
 ## Appels SOAP {#soap-calls}
 
@@ -73,11 +73,11 @@ Le schéma suivant montre les différentes ressources interagissant dans l&#39;u
 
 Dans cet exemple, une requête SOAP invoque la méthode &quot;ExecuteQuery&quot; qui prend en paramètre une chaîne de caractères pour l&#39;authentification (token de session) et un contenu XML pour la description de la requête à exécuter.
 
-Pour plus d’informations, voir [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
+Pour plus d’informations, voir la section [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
 
 >[!NOTE]
 >
->The WSDL description of this service is completed in the example shown here: [Web service description: WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+>La description WSDL de ce service est renseignée dans l’exemple de la section [Description des services Web : WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 ### Requête SOAP {#soap-query}
 
@@ -97,13 +97,13 @@ Pour plus d’informations, voir [ExecuteQuery (xtk:queryDef)](../../configurati
 </SOAP-ENV:Envelope>
 ```
 
-The `<soap-env:envelope>` element is the first element of the message representing the SOAP envelope.
+L’élément `<soap-env:envelope>` est le premier élément du message représentant l’enveloppe SOAP.
 
-L’ `<soap-env:body>` élément est le premier élément enfant de l’enveloppe. Il contient la description du message, c&#39;est-à-dire le contenu de la requête ou de la réponse.
+L’élément `<soap-env:body>` est le premier élément enfant de l’enveloppe. Il contient la description du message, c’est-à-dire le contenu de la requête ou de la réponse.
 
-The method to be invoked is entered in the `<executequery>` element from the body of the SOAP message.
+La méthode à invoquer est renseignée dans l’élément `<executequery>` à partir du corps du message SOAP.
 
-Dans SOAP, les paramètres sont reconnus par ordre d’apparition. Le premier paramètre, `<__sessiontoken>`, prend la chaîne d’authentification, le second paramètre est la description XML de la requête de l’ `<querydef>` élément.
+Dans SOAP, les paramètres sont reconnus par ordre d’apparition. Le premier paramètre, `<__sessiontoken>`, contient la chaîne d’authentification, le second est la description XML de la requête de l’élément `<querydef>`.
 
 ### Réponse SOAP {#soap-response}
 
@@ -120,7 +120,7 @@ Dans SOAP, les paramètres sont reconnus par ordre d’apparition. Le premier pa
 </SOAP-ENV:Envelope>
 ```
 
-The result of the query is entered from the `<pdomoutput>` element.
+Le résultat de la requête est renseigné à partir de l’élément `<pdomoutput>`.
 
 ## Gestion des erreurs   {#error-management}
 
@@ -140,19 +140,19 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-L&#39; `<soap-env:fault>` élément du corps du message SOAP sert à transmettre les signaux d&#39;erreur qui se produisent pendant le traitement du service Web. Il se compose des sous-éléments suivants :
+L’élément `<soap-env:fault>` du corps du message SOAP sert à transmettre les signaux d’erreur qui se produisent pendant le traitement du service web. Il se compose des sous-éléments suivants :
 
-* `<faultcode>` : indique le type d’erreur. Les types d’erreur sont les suivants :
+* `<faultcode>` : indique le type d’erreur. Les types d’erreurs sont les suivants :
 
    * &quot;VersionMismatch&quot; en cas d&#39;incompatibilité avec la version de SOAP utilisée,
    * &quot;MustUnderstand&quot; en cas de problème dans l&#39;en-tête du message,
    * &quot;Client&quot; en cas de manque d&#39;informations de la part du client,
    * &quot;Server&quot; en cas de problème d&#39;exécution des traitements par le serveur.
 
-* `<faultstring>` : message décrivant l’erreur
-* `<detail>` : long message d’erreur
+* `<faultstring>` : message décrivant l’erreur
+* `<detail>` : message long de l’erreur
 
-The success or failure of the service invocation is identified when the `<faultcode>` element is verified.
+Le succès ou l’échec de l’invocation du service est identifié par la vérification de l’élément `<faultcode>`
 
 >[!IMPORTANT]
 >
@@ -182,4 +182,4 @@ L&#39;URL du serveur est la suivante :
 
 https://serverName/nl/jsp/soaprouter.jsp
 
-With **`<server>`** the Adobe Campaign application server (**nlserver web**).
+Avec **`<server>`** le serveur applicatif Adobe Campaign (**nlserver web**).
