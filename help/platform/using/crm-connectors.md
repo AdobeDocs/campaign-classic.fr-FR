@@ -243,10 +243,10 @@ La synchronisation entre Adobe Campaign et le CRM est réalisée à travers une 
 
 Cette activité permet de :
 
-* Importation à partir de la gestion de la relation client (voir [Importation à partir de la gestion de la relation client](#importing-from-the-crm)),
-* Exportation vers CRM (voir [Exportation vers CRM](#exporting-to-the-crm)),
-* Importer des objets supprimés dans la gestion de la relation client (voir [Importation d&#39;objets supprimés dans la gestion de la relation client](#importing-objects-deleted-in-the-crm)),
-* Supprimez des objets dans la gestion de la relation client (voir [Suppression d’objets dans la gestion de la relation client](#deleting-objects-in-the-crm)).
+* Importer depuis le CRM (voir [Import depuis le CRM](#importing-from-the-crm)),
+* Exporter vers le CRM (voir [Export vers le CRM](#exporting-to-the-crm)),
+* Importer des objets supprimés dans le CRM (voir [Import des objets supprimés dans le CRM](#importing-objects-deleted-in-the-crm)),
+* Supprimer des objets dans le CRM (voir [Suppression d’objets dans le CRM](#deleting-objects-in-the-crm)).
 
 ![](assets/crm_task_select_op.png)
 
@@ -272,7 +272,7 @@ Pour un import, les étapes de paramétrage de l&#39;activité **Connecteur CRM*
 
    ![](assets/crm_task_import_add_field.png)
 
-   Si nécessaire, modifiez le format des données dans la liste déroulante des colonnes **[!UICONTROL Conversion]** . Les types de conversion possibles sont détaillés dans le format [Data](#data-format).
+   Si nécessaire, modifiez le format des données dans la liste déroulante des colonnes **[!UICONTROL Conversion]**. Les types de conversion possibles sont détaillés dans la section [Format des données](#data-format).
 
    >[!CAUTION]
    >
@@ -288,11 +288,11 @@ Pour un import, les étapes de paramétrage de l&#39;activité **Connecteur CRM*
 
    >[!CAUTION]
    >
-   >The limitations linked to data filtering modes are detailed in [Filtering data](#filtering-data).
+   >Les limitations relatives au mode de filtrage des données sont décrites dans la section [Filtrer les données](#filtering-data).
 
 1. L&#39;option **[!UICONTROL Utiliser l&#39;index automatique...]** permet de gérer automatiquement la synchronisation incrémentale des objets entre le CRM et Adobe Campaign, selon la date de leur dernière modification.
 
-   For more on this, refer to [Variable management](#variable-management).
+   Voir à ce sujet la section [Gestion des variables](#variable-management).
 
 #### Gestion des variables {#variable-management}
 
@@ -393,7 +393,7 @@ Pour un export, les étapes de paramétrage de l&#39;activité **Connecteur CRM*
    >
    >Pour un champ, si aucune correspondance n&#39;est définie côté CRM, alors les valeurs ne peuvent pas être mises à jour : elle seront directement insérées dans le CRM.
 
-   Si nécessaire, modifiez le format des données dans la liste déroulante des colonnes **[!UICONTROL Conversion]** . Les types de conversion possibles sont détaillés dans le format [Data](#data-format).
+   Si nécessaire, modifiez le format des données dans la liste déroulante des colonnes **[!UICONTROL Conversion]** . Les types de conversion possibles sont détaillés dans la section [Format des données](#data-format).
 
    >[!NOTE]
    >
@@ -464,7 +464,7 @@ Pour supprimer des objets côté CRM, vous devez indiquer la clé primaire des �
 
 ![](assets/crm_delete_in_crm.png)
 
-The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. This option generates a second output transition for the **[!UICONTROL CRM connector]** activity. For more on this, refer to [Error processing](#error-processing).
+L’onglet **[!UICONTROL Comportement]** vous permet d’activer le traitement des rejets. Cette option génère une seconde transition en sortie de l’activité **[!UICONTROL Connecteur CRM]**. Voir à ce sujet la section [Traitement des erreurs](#error-processing).
 
 >[!NOTE]
 >
