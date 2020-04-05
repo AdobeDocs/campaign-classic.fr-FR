@@ -24,7 +24,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 Adobe Campaign permet de définir, optimiser, exécuter et analyser des communications et des campagnes marketing. Adobe Campaign agit comme un véritable centre de commande et d&#39;exécution unifié de la stratégie marketing. Voir à ce propos les sections [Accéder aux opérations](../../campaign/using/accessing-campaigns.md) et [Créer des campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
-In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns, as well as third party relations (agencies, printers, etc.). For more on this, refer to [this section](../../campaign/using/about-marketing-resource-management.md).
+De plus, le module **Marketing Resource Management (MRM)** complète cette application grâce à des fonctionnalités permettant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées. Le Marketing Resource Management permet l&#39;optimisation et la régulation du management des processus internes et externes, des ressources et campagnes marketing, ainsi que des relations avec les tierces parties (agences, imprimeurs, etc.). Voir à ce sujet [cette section](../../campaign/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Une opération centralise tous les éléments relatifs à une campagne marketing : diffusions, règles de ciblage, coûts, fichiers d&#39;exports, documents associés, etc. Chaque opération est rattachée à un programme.
 
-   Pour plus d’informations, voir [Ajout d’une campagne](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
+   Voir à ce sujet la section [Ajouter une opération](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
 
 * **Programme**
 
@@ -49,7 +49,7 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Le plan marketing est composé d&#39;un ensemble de programmes unitaires. Il s&#39;inscrit dans une période calendaire, avec un budget alloué, et peut se voir rattacher des documents et objectifs à remplir.
 
-   For more on this, refer to [Campaign calendar](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
+   Voir à ce sujet la section [Calendrier des campagnes](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
 
 * **Workflow**
 
@@ -65,4 +65,5 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Une composition est une description structurée d&#39;une diffusion. Chaque diffusion peut référencer une composition qui contient, par exemple, les offres associées, des documents à joindre ou un lien vers des magasins. En fonction de la composition sélectionnée, telle ou telle offre sera référencée dans la diffusion.
 
-   Pour plus d&#39;informations, reportez-vous à la section [Association et structuration des ressources liées par le biais d&#39;un plan](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)de prestation.
+   Voir à ce sujet la section [Associer et structurer les ressources liées via une composition
+de diffusion](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
