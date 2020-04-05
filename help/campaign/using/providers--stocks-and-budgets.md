@@ -34,19 +34,19 @@ Les traitements réalisés dans les diffusions sont assurés par des prestataire
 
 1. Création du prestataire dans Adobe Campaign.
 
-   See [Adding a service provider](#adding-a-service-provider).
+   Voir [Ajouter un prestataire](#adding-a-service-provider).
 
 1. Définition des postes et structures de coûts des modèles de prestation qui lui sont associés
 
-   Voir [Définition des catégories](#defining-cost-categories) de coûts et [Définition de la structure](#defining-the-cost-structure)de coûts.
+   Voir [Définir les postes de coût](#defining-cost-categories) et [Définir la structure de coûts](#defining-the-cost-structure).
 
 1. Configuration des traitements
 
-   See [Configuring processes associated with a service](#configuring-processes-associated-with-a-service).
+   Voir [Paramétrer les traitements associés à la prestation](#configuring-processes-associated-with-a-service).
 
 1. Référencement du prestataire au niveau des opérations
 
-   See [Associating a service with a campaign](#associating-a-service-with-a-campaign).
+   Voir [Associer une prestation à une campagne](#associating-a-service-with-a-campaign).
 
 ### Création d&#39;un prestataire et de ses postes de coûts {#creating-a-service-provider-and-its-cost-categories}
 
@@ -67,7 +67,7 @@ A chaque prestataire, vous devez associer des modèles de prestations. Dans ces 
 
 >[!NOTE]
 >
->For more on this, refer to [Defining the cost structure](#defining-the-cost-structure).
+>Voir à ce sujet la section [Définir la structure de coûts](#defining-the-cost-structure).
 
 Un poste de coût est une entité qui regroupe un ensemble de coûts éligible pour un type de diffusion (email, courrier, etc.) ou pour une tâche. Les postes de coûts sont regroupés dans des modèles de prestations qui sont associés aux prestataires. Chaque prestataire peut référencer un ou plusieurs modèles de prestations.
 
@@ -88,7 +88,7 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
       >[!NOTE]
       >
       >Les lignes de stock sont définies dans le noeud **[!UICONTROL Gestion des stocks]**.\
-      >Pour plus d&#39;informations sur ce sujet, reportez-vous à la page Gestion [des](#stock-and-order-management)stocks et des commandes.
+      >Voir à ce sujet la section [Gestion des stocks et des commandes](#stock-and-order-management).
 
 1. Vous pouvez pré-sélectionner une valeur pour ce poste de coût : elle sera proposée par défaut au niveau des postes de coûts du prestataire (plutôt qu&#39;une valeur vide). Pour cela, cochez l&#39;option dans la colonne **[!UICONTROL Sélectionné]** pour le type de poste concerné :
 
@@ -195,19 +195,19 @@ Pour mettre en place la gestion des stocks et des commandes dans Adobe Campaign,
 
 1. Création des stocks et référencement des prestataires associés.
 
-   See [Creating a stock](#creating-a-stock).
+   Voir [Créer un stock](#creating-a-stock).
 
 1. Ajouter les lignes de stocks
 
-   Voir [Ajout de lignes](#adding-stock-lines)boursières.
+   Voir [Ajouter les lignes de stock](#adding-stock-lines).
 
 1. Notification des opérateurs en cas d&#39;alerte
 
-   Voir Opérateurs [d’](#alerting-operators)alerte.
+   Voir [Alerter les opérateurs](#alerting-operators).
 
 1. Commandes et approvisionnement
 
-   Consultez [Commandes](#orders).
+   Voir [Commandes](#orders).
 
 ### Gestion des stocks {#stock-management}
 
@@ -226,7 +226,7 @@ Pour créer un nouveau stock, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations, reportez-vous à [Création de fournisseurs de services et à leurs structures](#creating-service-providers-and-their-cost-structures)de coûts.
+   >Voir à ce sujet la section [Créer les prestataires et leurs structures de coûts](#creating-service-providers-and-their-cost-structures).
 
 #### Ajouter les lignes de stocks {#adding-stock-lines}
 
@@ -292,9 +292,9 @@ Les coûts de diffusion d&#39;une opération sont consolidés au niveau de l&#39
 
 ### Mise en oeuvre {#implementation}
 
-Dans une campagne, lorsque vous sélectionnez le budget, vous devez saisir le montant initial. Les coûts calculés seront automatiquement mis à jour en fonction du niveau d&#39;engagement des montants inscrits (dépenses effectuées, attendues, réservées, engagées). Voir [Calcul des montants](../../campaign/using/controlling-costs.md#calculating-amounts).
+Dans une opération, lorsque vous sélectionnez le budget, vous devez renseigner le montant initial. Les coûts calculés seront mis à jour automatiquement en fonction du degré d&#39;engagement des montants renseignés (dépenses réalisées, prévues, réservées, engagées). Voir [Calcul des montants](../../campaign/using/controlling-costs.md#calculating-amounts).
 
 >[!NOTE]
 >
->La procédure de création de budgets est présentée dans [Création d&#39;un budget](../../campaign/using/controlling-costs.md#creating-a-budget).
+>La procédure de création de budgets est présentée dans [Créer un budget](../../campaign/using/controlling-costs.md#creating-a-budget).
 
