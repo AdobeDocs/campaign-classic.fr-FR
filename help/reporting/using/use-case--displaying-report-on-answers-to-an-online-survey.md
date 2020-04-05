@@ -68,11 +68,11 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
 1. Ajoutez un planificateur afin d&#39;automatiser une collecte quotidienne des réponses et la mise à jour de la liste.
 
-   The **[!UICONTROL List update]** and **[!UICONTROL Scheduler]** activities are detailed in .
+   Les activités **[!UICONTROL Mise à jour de liste]** et **[!UICONTROL Planificateur]** sont présentées dans la section.
 
 ## Etape 2 - Créer le cube, ses mesures et ses indicateurs {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Vous pouvez ensuite créer le cube et paramétrer ses mesures : elles seront utilisées lors de la création des indicateurs. Ces indicateurs seront affichés dans le rapport. For more on creating and configuring cubes, refer to [About cubes](../../reporting/using/about-cubes.md).
+Vous pouvez ensuite créer le cube et paramétrer ses mesures : elles seront utilisées lors de la création des indicateurs. Ces indicateurs seront affichés dans le rapport. La création et le paramétrage des cubes sont présentés dans la section [À propos des cubes](../../reporting/using/about-cubes.md).
 
 Dans cet exemple, le cube est basé sur les données de la liste alimentée par le workflow créé à l&#39;étape précédente.
 
