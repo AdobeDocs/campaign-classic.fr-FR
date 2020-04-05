@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Les événements générés par le système d&#39;information peuvent être collectés selon deux modes :
 
-* les appels aux méthodes SOAP vous permettent de transmettre des événements dans Adobe Campaign : la méthode PushEvent vous permet d’envoyer un événement à la fois, tandis que la méthode PushEvents vous permet d’en envoyer plusieurs à la fois. Reportez-vous à la description [de l’](../../message-center/using/event-description.md)événement.
+* l’appel à des méthodes SOAP permet de pousser les événements dans Adobe Campaign (la méthode PushEvent permet d’envoyer un événement à la fois, la méthode PushEvents d’en envoyer plusieurs). Voir la section [Description des événements](../../message-center/using/event-description.md).
 * la réalisation d&#39;un workflow permet de récupérer les événements par import de fichier ou via une passerelle SQL (avec l&#39;option **Federated Data Access**).
 
 Une fois collectés, les événements sont ensuite répartis par les workflows techniques entre les files d&#39;attente temps réel ou batch des instances d&#39;exécution en attendant d&#39;être associés à un modèle de message.
