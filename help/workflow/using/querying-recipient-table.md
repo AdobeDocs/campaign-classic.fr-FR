@@ -1,6 +1,6 @@
 ---
 title: Requête sur la table des destinataires
-description: Découvrez comment interroger la table du destinataire
+description: Découvrez comment effectuer une requête sur la table des destinataires
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
