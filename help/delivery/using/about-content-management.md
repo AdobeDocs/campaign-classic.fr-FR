@@ -22,13 +22,13 @@ source-git-commit: e0ab9a3545b5c688975c32075c41e3987da5cf37
 
 # A propos de la gestion de contenu{#about-content-management}
 
-Le module Adobe Campaign Content Manager est un package [](../../installation/using/installing-campaign-standard-packages.md) standard spécifique de Campaign Classic que vous pouvez installer pour créer des bulletins d’information récurrents ou des sites Web. Il permet de vous assister dans la création, la validation et la publication de vos messages.
+Le module Adobe Campaign Content Manager est un [package standard](../../installation/using/installing-campaign-standard-packages.md) spécifique à Campaign Classic. Vous pouvez l’installer pour créer des newsletters récurrentes ou des sites web. Il permet de vous assister dans la création, la validation et la publication de vos messages.
 
 >[!NOTE]
 >
->Cette section fait référence au module Gestion du contenu. Pour plus d’informations sur la conception du contenu des diffusions par courrier électronique, consultez [cette section](../../delivery/using/defining-the-email-content.md).
+>Cette section fait référence au module de gestion de contenu. Pour plus d’informations sur la conception du contenu des diffusions email, voir [cette section](../../delivery/using/defining-the-email-content.md).
 
-Le module de gestion de contenu intègre des fonctionnalités de groupe de travail, de flux de travail et d’agrégation de contenu. Cela permet de formater automatiquement un message : e-mail, mail, SMS, web, etc.
+Le module de gestion de contenu intègre des fonctionnalités de groupe de travail, de workflow et d’agrégation de contenu. Il permet de mettre automatiquement en forme un message : email, courrier, SMS, web, etc.
 
 L&#39;utilisation de la gestion de contenu dans une diffusion permet de proposer des champs de saisie ou de sélection aux opérateurs chargés de la création des contenus. La mise en page et la mise en forme de ces contenus ainsi que leur transformation sont gérées automatiquement au travers de la feuille de style.
 
