@@ -24,7 +24,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ## Méthode simple {#simple-method}
 
-This method consists of sending an HTTP call to the redirection server by inserting an **`<img>`** HTML tag in the HTML source code of the web page you wish to track.
+Cette méthode consiste à effectuer l&#39;appel HTTP au serveur de redirection via l&#39;insertion d&#39;une balise HTML **`<img>`** dans le code source HTML de la page web que vous souhaitez tracker.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Pour procéder à une insertion statique des balises, il suffit de copier/coller
 </html>
 ```
 
-Insertion d’une balise de suivi Web de type TRANSACTION dans la page de confirmation (&quot;amount.md&quot;).
+Insertion d&#39;une balise de tracking Web de type TRANSACTION sur la page de confirmation (&quot;amount.md&quot;).
 
 ```
 <html>
@@ -133,7 +133,7 @@ Lorsque vos pages web sont générées dynamiquement, vous avez la possibilité 
 
 Si vous souhaitez contrôler les informations envoyées au serveur de redirection, la solution la plus fiable est d&#39;effectuer vous-même, avec un langage de génération de page, la requête HTTP de façon synchrone.
 
-L’URL que vous créez doit respecter les règles de syntaxe définies dans la balise de suivi [Web : définition](../../configuration/using/web-tracking-tag--definition.md).
+L’URL que vous créez doit respecter les règles de syntaxe définies dans la section [Balise de tracking web : définition](../../configuration/using/web-tracking-tag--definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
