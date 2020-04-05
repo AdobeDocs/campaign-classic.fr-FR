@@ -71,7 +71,7 @@ Deux méthodes permettent de définir des propositions d&#39;offre.
 
 ### Définir une offre ou un appel au moteur {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
+Après avoir paramétré votre requête (voir le [Guide des Workflows](../../workflow/using/query.md)) :
 
 1. Placez et ouvrez une activité d&#39;enrichissement.
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]**.
@@ -90,7 +90,7 @@ After configuring your query (refer to the [Workflows guide](../../workflow/usin
 
       ![](assets/int_enrichment_offer4.png)
 
-1. Configurez ensuite une activité de diffusion correspondant au canal choisi. Pour plus d’informations, reportez-vous à la section [Insertion d’une proposition d’offre dans une section de remise](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) .
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Pour plus d’informations, voir la section [Insérer une proposition d’offres dans une diffusion](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ Pour cela :
 
    ![](assets/int_enrichment_link2.png)
 
-1. Configurez ensuite une activité de diffusion correspondant au canal choisi. Pour plus d’informations, reportez-vous à la section [Insertion d’une proposition d’offre dans une section de remise](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) .
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Pour plus d’informations, voir la section [Insérer une proposition d’offres dans une diffusion](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
    >[!NOTE]
    >
@@ -128,7 +128,7 @@ Par défaut, lorsque l&#39;activité d&#39;**enrichissement** est utilisée pour
 
 Cependant, il est possible de stocker ces informations de la manière suivante :
 
-1. Créez un appel au moteur d’offre dans une activité d’enrichissement placée après une requête et avant une activité de remise. Reportez-vous à la section [Spécification d’une offre ou d’un appel au moteur](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine) d’offre.
+1. Créez un appel au moteur d’offre dans une activité d’enrichissement placée après une requête et avant une activité de diffusion. Voir la section [Définir une offre ou un appel au moteur](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. Dans la fenêtre principale de l&#39;activité, sélectionnez **[!UICONTROL Editer les données additionnelles]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -149,7 +149,7 @@ Cette activité fonctionne sur le même principe que l&#39;activité d&#39;enric
 
 ![](assets/int_offerengine_activity2.png)
 
-After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
+Après avoir paramétré votre requête (voir le [Guide des Workflows](../../workflow/using/query.md)) :
 
 1. Placez et ouvrez une activité **[!UICONTROL Moteur d&#39;offres]**.
 1. Renseignez les différents champs disponibles afin de définir les paramètres d&#39;appel au moteur (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres.
@@ -160,7 +160,7 @@ After configuring your query (refer to the [Workflows guide](../../workflow/usin
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Configurez ensuite une activité de diffusion correspondant au canal choisi. Pour plus d’informations, reportez-vous à la section [Insertion d’une proposition d’offre dans une section de remise](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) .
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Pour plus d’informations, voir la section [Insérer une proposition d’offres dans une diffusion](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
 ## Offres par cellule {#offers-by-cell}
 
@@ -177,5 +177,5 @@ Pour cela :
 
       ![](assets/int_offer_per_cell1.png)
 
-1. Configurez ensuite une activité de diffusion correspondant au canal choisi. Pour plus d’informations, reportez-vous à la section [Insertion d’une proposition d’offre dans une section de remise](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) .
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Pour plus d’informations, voir la section [Insérer une proposition d’offres dans une diffusion](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
