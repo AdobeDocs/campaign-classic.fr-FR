@@ -36,7 +36,7 @@ La gestion des applications web est présentée dans [cette section](../../web/u
 >
 >Pour des raisons de confidentialité, nous vous recommandons d&#39;utiliser HTTPS pour toutes les ressources externes.
 
-## Étendue des enquêtes de campagne {#campaign-surveys-scope}
+## Portée des questionnaires Campaign {#campaign-surveys-scope}
 
 Sous Adobe Campaign, les applications Web en général permettent d&#39;accéder aux fonctionnalités suivantes :
 
@@ -57,11 +57,11 @@ Sous Adobe Campaign, les applications Web en général permettent d&#39;accéder
 
 Le module optionnel de création de questionnaires (**Survey**) propose les fonctionnalités supplémentaires suivantes :
 
-* Extension dynamique de la base de données : création de réponses qui ne font pas partie du modèle de données initial. Pour plus d’informations, reportez-vous à la section [Stockage des réponses](../../web/using/managing-answers.md#storing-collected-answers)collectées.
-* Gestion des scores. For more on this, refer to [Score management](../../web/using/managing-answers.md#score-management).
-* Affichage aléatoire des questions. For more on this, refer to [Adding questions](../../web/using/building-a-survey.md#adding-questions).
-* Suivi en temps réel des réponses. For more on this, refer to [Response tracking](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
-* Génération de rapports dédiés. Pour en savoir plus, consultez [Rapports sur les enquêtes](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Extension dynamique de la base de données : création de réponses qui ne font pas partie du modèle de données initial. Voir à ce sujet la section [Stocker les réponses collectées](../../web/using/managing-answers.md#storing-collected-answers).
+* Gestion des scores. Voir à ce sujet la section [Gestion des scores](../../web/using/managing-answers.md#score-management).
+* Affichage aléatoire des questions. Voir à ce sujet la section [Ajouter des questions](../../web/using/building-a-survey.md#adding-questions).
+* Tracking en temps réel des réponses. Voir à ce sujet la section [Suivre les réponses](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
+* Génération de rapports dédiés. Voir à ce sujet la section [Rapports sur les questionnaires](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 Par rapport aux applications Web, les questionnaires proposent une interface graphique allégée : le nombre de contrôles d&#39;édition est réduit.
 
@@ -74,10 +74,10 @@ Pour créer, diffuser et exploiter les résultats d&#39;un questionnaire, les é
 
    Il est possible d&#39;insérer une étape de préchargement des données afin de préremplir le formulaire avec les données déjà en base. Vous pouvez également ajouter une boîte de test.
 
-1. Publiez, puis diffusez l&#39;enquête aux destinataires (par exemple, incluez un lien dans une diffusion ou dans un site Web).
+1. Publiez puis diffusez le questionnaire aux destinataires (par exemple, incluez un lien dans une diffusion ou dans un site Web).
 1. Suivre les réponses et consulter les rapports.
 
-Pour plus d’informations sur la configuration et le séquencement de ces étapes, voir [cette section](../../web/using/about-web-forms.md). Seules les configurations spécifiques aux enquêtes sont détaillées dans ce chapitre.
+Pour plus d’informations sur la configuration et le séquencement de ces étapes, voir [cette section](../../web/using/about-web-forms.md). Seules les configurations spécifiques aux questionnaires sont détaillées dans ce chapitre.
 
 ## Paramétrage des enquêtes {#surveys-configuration}
 
