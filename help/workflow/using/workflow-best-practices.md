@@ -24,9 +24,9 @@ source-git-commit: 4b4ec97e52a494dd88b2516650ae514294f00934
 
 ## Exécution et performance {#execution-and-performance}
 
-Vous trouverez ci-dessous des instructions générales sur l’optimisation des performances des campagnes, y compris les meilleures pratiques à appliquer à vos processus.
+Vous trouverez ci-dessous des instructions générales pour l’optimisation des performances de Campaign, notamment des bonnes pratiques à appliquer à vos workflows.
 
-Des instructions de dépannage relatives à l’exécution des processus sont également disponibles dans [cette section](../../production/using/workflow-execution.md).
+Vous trouverez également dans [cette section](../../production/using/workflow-execution.md) des instructions pour résoudre les problèmes liés à l’exécution des workflows.
 
 ### Logs {#logs}
 
@@ -42,14 +42,14 @@ Deux autres solutions sont proposées :
 
    >[!CAUTION]
    >
-   >Cette option ne doit jamais être cochée dans un workflow de production. Cette option est utilisée pour analyser les résultats et est conçue uniquement à des fins de test. Elle doit donc être utilisée uniquement dans les environnements de développement ou d’évaluation.
+   >Cette option ne doit jamais être cochée dans un workflow de production. Elle sert à analyser les résultats et est conçue uniquement à des fins de test. Elle ne doit donc être utilisée que dans les environnements de développement ou d’évaluation.
 
 * **Enregistrer les requêtes SQL dans le journal**
 
    Cette option, disponible dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés d&#39;un workflow, permet d&#39;enregistrer toutes les requêtes SQL générées par l&#39;outil à partir des différentes activités. Elle permet ainsi de savoir ce qui est actuellement exécuté par la plateforme. Cette option ne doit toutefois être utilisée que temporairement pendant le développement et ne pas être activée en production.
 
-Purgez les journaux lorsqu’ils ne sont plus nécessaires. Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the Actions button located in the toolbar above the list. Select Purge history.
-Pour savoir comment purger vos journaux, consultez cette [documentation](../../workflow/using/executing-a-workflow.md#actions-toolbar).
+Purgez les logs lorsqu’ils ne sont plus nécessaires. L’historique d’un workflow n’est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l’historique depuis le menu **[!UICONTROL Fichier > Actions]** ou en cliquant sur le bouton Actions situé dans la barre d’outils au-dessus de la liste. Choisissez Purge de l’historique.
+Pour savoir comment purger les logs, consultez cette [documentation](../../workflow/using/executing-a-workflow.md#actions-toolbar).
 
 ### Planification des workflows {#workflow-planning}
 
@@ -57,23 +57,23 @@ Pour savoir comment purger vos journaux, consultez cette [documentation](../../w
 * Planifiez le chargement des données au cours de la nuit de façon à réduire les conflits entre les données.
 * Les workflows longs peuvent avoir une incidence sur les ressources du serveur et de la base de données. Fractionnez les workflows les plus longs pour réduire le temps de traitement.
 * Pour réduire les temps d’exécution globaux, remplacez les activités exigeant beaucoup de temps par des activités simplifiées et plus rapides.
-* Evitez d’exécuter plus de 20 processus simultanément. Si trop de workflows sont exécutés en même temps, le système risque de manquer de ressources et peut devenir instable. Pour plus d&#39;informations sur les raisons pour lesquelles votre flux de travail ne commence peut-être pas, reportez-vous à cet [article](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
+* Évitez d’exécuter plus de 20 workflows simultanément. Si trop de workflows sont exécutés en même temps, le système risque de manquer de ressources et peut devenir instable. Pour plus d’informations sur les raisons éventuelles empêchant votre workflow de démarrer, reportez-vous à cet [article](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
 
 ### Exécution des workflows {#workflow-execution}
 
 Il est recommandé de ne pas planifier l&#39;exécution d&#39;un workflow à une fréquence supérieure à toutes les 15 minutes, afin de ne pas nuire aux performances générales du système et d&#39;éviter la création de blocs dans la base de données.
 
-Evitez de laisser les workflows en pause. Si vous créez un workflow temporaire, vérifiez qu&#39;il pourra se terminer correctement et qu&#39;il ne restera pas dans un état **[!UICONTROL en pause]**, car il vous obligerait de conserver les tables temporaires, ce qui augmenterait la taille de la base de données. Affectez des superviseurs de processus sous Propriétés du processus pour envoyer une alerte en cas d’échec ou de suspension d’un processus par le système.
+Evitez de laisser les workflows en pause. Si vous créez un workflow temporaire, vérifiez qu&#39;il pourra se terminer correctement et qu&#39;il ne restera pas dans un état **[!UICONTROL en pause]**, car il vous obligerait de conserver les tables temporaires, ce qui augmenterait la taille de la base de données. Affectez des superviseurs dans les propriétés du workflow pour envoyer une alerte en cas d’échec ou de suspension d’un workflow par le système.
 
 Pour éviter que les workflows soient dans un état en pause :
 
 * Vérifiez vos workflows régulièrement pour vous assurer qu&#39;il n&#39;y a pas d&#39;erreurs inattendues.
 * Faites en sorte que vos workflows soient aussi simples que possible, en fractionnant par exemple les workflows volumineux en plusieurs workflows différents. Vous pouvez utiliser des activités **[!UICONTROL Signal externe]** pour déclencher leur exécution selon celle d&#39;autres workflows.
-* Evitez d’avoir désactivé les activités avec des flux dans vos flux de travaux, en laissant les threads ouverts et en conduisant à de nombreuses tables temporaires pouvant consommer beaucoup d’espace. Ne conservez pas les activités dans **[!UICONTROL Ne pas activer]** ou **[!UICONTROL Activer, mais n’exécutez]** pas les états dans vos processus.
+* Évitez de conserver dans vos workflows des activités désactivées contenant des flux. Cette situation conduit à maintenir des threads ouverts et de nombreuses tables temporaires qui consomment beaucoup d’espace. Ne conservez pas, dans vos workflows, des activités se trouvant dans les états **[!UICONTROL Ne pas activer]** ou **[!UICONTROL Activer, mais ne pas exécuter]**.
 
-Arrêtez également les processus inutilisés. Les processus qui continuent à fonctionner conservent les connexions à la base de données.
+De même, arrêtez les workflows inutilisés. En continuant à s’exécuter, ils maintiennent les connexions avec la base de données.
 
-N&#39;utilisez qu&#39;un arrêt inconditionnel dans les cas les plus rares. N’utilisez pas cette action régulièrement. L’inexécution d’une fermeture nette sur les connexions générées par les processus à la base de données a un impact sur les performances.
+N’utilisez l’arrêt inconditionnel que très rarement. Cette action ne doit pas être appliquée régulièrement. Une fermeture incorrecte des connexions générées par les workflows vers la base de données nuit aux performances.
 
 ### Option exécuter dans le moteur {#execute-in-the-engine-option}
 
@@ -81,7 +81,7 @@ Dans la fenêtre des **[!UICONTROL Propriétés du workflow]**, ne cochez jamais
 
 ![](assets/wf-execute-in-engine.png)
 
-## Propriétés d&#39;exécution  {#workflow-properties}
+## Propriétés d&#39;exécution   {#workflow-properties}
 
 ### Dossiers des workflows {#workflow-folders}
 
@@ -97,11 +97,11 @@ Si le workflow fait partie d&#39;un processus impliquant d&#39;autres workflows,
 
 Par exemple :
 
-* 001 - Importer - Destinataires de l&#39;importation
-* 002 - Importation - Ventes à l&#39;importation
-* 003 - Importation - Détails des ventes à l&#39;importation
-* 010 - Exportation - Journaux de livraison d’exportation
-* 011 - Exportation - Journaux de suivi des exportations
+* 001 - Import - Import des destinataires
+* 002 - Import - Import des ventes
+* 003 - Import - Import des détails sur les ventes
+* 010 - Export - Export des logs de diffusion
+* 011 - Export - Export des logs de tracking
 
 ### Niveau de criticité d’un workflow {#workflow-severity}
 
@@ -123,9 +123,9 @@ Vous devez surveiller tous les workflows planifiés s&#39;exécutant dans des en
 
 Dans les propriétés d&#39;un workflow, sélectionnez un groupe de responsables : le groupe **[!UICONTROL Superviseurs de workflow]** par défaut ou un groupe personnalisé. Vérifiez qu&#39;un opérateur au moins appartient à ce groupe et qu&#39;il dispose d&#39;une adresse email.
 
-Avant de commencer à créer un flux de travail, n’oubliez pas de définir les superviseurs du flux de travail. Ils seront avertis par email en cas d&#39;erreurs. For more on this, refer to [Managing errors](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
+Avant de commencer la construction d’un workflow, pensez à définir les superviseurs. Ceux-ci seront avertis par email lorsqu’un workflow sera en erreur. Voir à ce propos la section [Gérer les erreurs](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
 
-Vérifiez régulièrement l’univers de **[!UICONTROL surveillance]** pour connaître l’état global des processus actifs. For more on this, refer to [Instance supervision](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
+Vérifiez régulièrement l’univers de **[!UICONTROL Surveillance]** pour connaître le statut des workflows actifs. Voir à ce propos la section [Supervision de l’instance](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
 
 La carte thermique des workflows permet aux administrateurs de la plate-forme Adobe Campaign de surveiller la charge sur l’instance et de planifier les workflows en conséquence. Voir à ce sujet [Surveillance des workflows](../../workflow/using/heatmap.md).
 
@@ -133,7 +133,7 @@ La carte thermique des workflows permet aux administrateurs de la plate-forme Ad
 
 >[!CAUTION]
 >
->Vous pouvez copier et coller des activités dans un même flux de travail. Toutefois, nous vous déconseillons de copier des activités de collage dans différents processus. Certains paramètres associés à des activités telles que Livraisons et Planificateur peuvent entraîner des conflits et des erreurs lors de l’exécution du processus de destination. Nous vous recommandons plutôt de **dupliquer** les processus. Pour plus d’informations, voir [Duplication de processus](../../workflow/using/building-a-workflow.md#duplicating-workflows).
+>Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d’informations, voir la section [Duplication des workflows](../../workflow/using/building-a-workflow.md#duplicating-workflows).
 
 ### Attribution d&#39;un nom à une activité {#name-of-the-activity}
 
@@ -144,11 +144,11 @@ Le nom d&#39;une activité figure dans l&#39;onglet **[!UICONTROL Avancé]**. Ne
 ### Premières et dernières activités {#first-and-last-activities}
 
 * Commencez toujours votre workflow par une activité **[!UICONTROL Début]** ou une activité **[!UICONTROL Planificateur]**. Lorsque cela est pertinent, vous pouvez également utiliser une activité **[!UICONTROL Signal externe]**.
-* Lors de la construction de votre workflow, n&#39;utilisez qu&#39;une seule **** activité Planificateur par branche. Si une même branche d&#39;un workflow comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surchargerait considérablement la base. Cette règle s’applique également à toutes les activités avec un onglet **[!UICONTROL Planification et historique]** . En savoir plus sur la [planification](../../workflow/using/scheduler.md).
+* Lors de la construction de votre workflow, n&#39;utilisez qu&#39;une seule **** activité Planificateur par branche. Si une même branche d&#39;un workflow comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surchargerait considérablement la base. Cette règle s’applique également à toutes les activités comportant un onglet **[!UICONTROL Planification &amp; historique]**. En savoir plus sur la [planification](../../workflow/using/scheduler.md).
 
    ![](assets/wf-scheduler.png)
 
-* Use **[!UICONTROL End]** activities for every workflow. This lets Adobe Campaign free up temporary space used for calculations within workflows. Pour plus d’informations à ce sujet, voir : [Début et Fin](../../workflow/using/start-and-end.md).
+* Utilisez des activités **[!UICONTROL Fin]** dans tous vos workflows. Cela permet à Adobe Campaign de libérer l’espace temporaire utilisé pour réaliser les calculs dans les workflows. Voir à ce sujet la section [Début et Fin](../../workflow/using/start-and-end.md).
 
 ### Code JavaScript dans une activité {#javascript-within-an-activity}
 
@@ -166,6 +166,6 @@ La plupart du temps, vous ne saurez pas d&#39;où vient l&#39;appel d&#39;un sig
 
 Un workflow de production ne doit pas être directement mis à jour. À moins que le processus consiste à créer une opération avec des modèles de workflow, les processus doivent être d&#39;abord testés dans un environnement de développement. Après validation, le workflow peut être déployé et démarré en production.
 
-Effectuez tous les tests dans les environnements de développement ou d’évaluation, et non dans les environnements de production. Les performances ne peuvent être garanties dans un tel cas.
+Effectuez tous les tests dans les environnements de développement ou d’évaluation, et non dans les environnements de production, où les performances ne peuvent pas être garanties.
 
 Les workflows archivés peuvent être conservés sur des plateformes de développement ou de test, dans un dossier Archivé. Un environnement de production doit en revanche rester aussi propre que possible. Les anciens workflows doivent être supprimés de l&#39;environnement de production s&#39;ils sont inactifs.
