@@ -30,7 +30,7 @@ Pour créer une nouvelle instance ainsi que la base de données Adobe Campaign, 
 
 >[!NOTE]
 >
->Seul l’identifiant **interne** peut effectuer ces opérations. For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Seul l&#39;identifiant **interne** peut effectuer ces opérations. Voir à ce propos la section [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 Lorsque la console Adobe Campaign est démarrée, vous accédez à une page de connexion.
 
@@ -46,15 +46,15 @@ Pour créer une instance, procédez comme suit :
 
 1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
-   Par exemple, vous pouvez utiliser le [`https://<machine>.<domain>.com`](https://machine) type URL.
+   Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://machine).
 
    >[!CAUTION]
    >
-   >For the connection URL, only use the following characters: `[a-z]`, `[A-Z]`, `[0-9]` and dashes (-) or full stops.
+   >Seuls les caractères `[a-z]`, `[A-Z]`, `[0-9]`, le tiret (-) et le point sont autorisés dans l&#39;URL de connexion. 
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider ce paramétrage : vous pouvez alors démarrer le processus de création de l&#39;instance.
-1. In the **[!UICONTROL Connection settings]** window, enter the **internal** login and its password to connect to the Adobe Campaign application server. Once connected, you access the instance creation wizard to declare a new instance
-1. Dans le champ **[!UICONTROL Nom]** , saisissez le nom **de l’** instance. Ce nom étant utilisé pour générer un fichier de configuration **config-`<instance>`.xml** et dans les paramètres de ligne de commande pour identifier l’instance, veillez à choisir un nom court sans caractères spéciaux. Par exemple : **eMarketing**.
+1. Dans la fenêtre **[!UICONTROL Paramètres de connexion]**, saisissez l&#39;identifiant (login) **interne** et son mot de passe associé afin de vous connecter au serveur applicatif Adobe Campaign. Une fois connecté, vous accédez à l&#39;assistant de création d&#39;instance pour déclarer une nouvelle instance.
+1. Dans le champ **[!UICONTROL Nom]**, saisissez le **nom de l&#39;instance**. Ce nom étant utilisé pour générer un fichier de configuration **config-`<instance>`.xml** et dans les paramètres de ligne de commande pour identifier l&#39;instance, veillez à choisir un nom court sans caractères spéciaux. Par exemple : **eMarketing**.
 
    ![](assets/s_ncs_install_create_instance.png)
 
@@ -62,13 +62,13 @@ Pour créer une instance, procédez comme suit :
 
 1. Dans les champs **[!UICONTROL Masques DNS]**, saisissez la **liste des masques DNS** auxquels l&#39;instance doit être attachée. Le serveur Adobe Campaign utilise le nom d&#39;hôte (hostname) qui apparaît dans les requêtes HTTP pour déterminer quelle instance atteindre.
 
-   Le nom d’hôte est contenu entre la chaîne **https://** et la première barre oblique **/** de l’adresse du serveur.
+   Le nom d&#39;hôte (hostname) est contenu entre la chaîne **https://** et la première barre oblique **/** de l&#39;adresse du serveur.
 
    Vous pouvez définir ici une liste de valeurs séparées par des virgules.
 
    Les caractères ? et * peuvent être utilisés comme jokers pour remplacer un ou plusieurs caractères (DNS, port, etc.). Ainsi, la valeur **demo*** fonctionnera ainsi aussi bien avec &quot;https://demo&quot; que &quot;https://demo:8080&quot; ou encore &quot;https://demo2&quot;.
 
-   Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également informer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Vous devez donc modifier les paramètres de connexion pour utiliser ce nom DNS afin de vous connecter à votre instance choisie.
+   Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 
    Le serveur doit être identifié par ce nom, notamment pour la mise en ligne des images dans les emails.
 
@@ -86,5 +86,5 @@ Pour créer une instance, procédez comme suit :
 
    >[!NOTE]
    >
-   >L’instance peut être créée à partir de la ligne de commande. For more on this, refer to [Command lines](../../installation/using/command-lines.md).
+   >Il est possible de créer l&#39;instance à partir de la ligne de commande. Voir à ce propos la section [Lignes de commande](../../installation/using/command-lines.md).
 
