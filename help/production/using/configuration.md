@@ -30,7 +30,7 @@ Une fois paramétrée, cette variable est prise en compte par tous les modules A
 
 ### Sous Linux {#in-linux}
 
-Edit the **customer.sh** file and add the following line:
+Vous devez éditer le fichier **customer.sh** et ajouter la ligne suivante :
 
 ```
 export TRACE_ADDR=localhost:<listening port>
@@ -38,7 +38,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 ### Sous Windows {#in-windows}
 
-You need to create the **TRACE_ADDR** environment variable with the **localhost** value: **`<listening port="" />`**.
+Vous devez créer la variable d&#39;environnement **TRACE_ADDR** avec la valeur **localhost** : **`<listening port="" />`**.
 
 >[!CAUTION]
 >
