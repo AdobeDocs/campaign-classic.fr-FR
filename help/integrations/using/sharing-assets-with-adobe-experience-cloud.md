@@ -33,7 +33,7 @@ Lors de l&#39;édition d&#39;une diffusion email ou d&#39;une landing page dans 
 
 Les différentes bibliothèques disponibles sont présentées dans [ce document](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html).
 
-Consult the [Configuring access to Assets](../../integrations/using/configuring-access-to-assets.md) section to find out more about the specifics linked to each library.
+Consultez la section [Configurer l&#39;accès à Assets](../../integrations/using/configuring-access-to-assets.md) pour en savoir plus sur les spécificités liées à chaque bibliothèque.
 
 >[!NOTE]
 >
