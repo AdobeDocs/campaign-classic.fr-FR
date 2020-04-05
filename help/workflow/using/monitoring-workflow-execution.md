@@ -22,13 +22,13 @@ source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 # Surveiller l&#39;exécution des workflows {#monitoring-workflow-execution}
 
-Cette section présente des informations sur la manière de surveiller l’exécution de vos processus.
+Cette section présente des informations sur la manière de surveiller l’exécution de vos workflows.
 
-Vous trouverez également dans [cette section](../../workflow/using/supervising-workflows.md#supervising-workflows)un exemple d’utilisation de la création d’un flux de travail qui vous permet de surveiller l’état d’un ensemble de flux de travail en pause, arrêté ou avec des erreurs.
+Vous trouverez également dans [cette section](../../workflow/using/supervising-workflows.md#supervising-workflows) un exemple de création d’un workflow qui permet de surveiller l’état d’un ensemble de workflows en pause, arrêtés ou en erreur.
 
-En outre, les administrateurs de l’instance peuvent utiliser le journal **** d’audit pour vérifier les activités et les dernières modifications apportées aux processus, l’état de vos processus. Pour plus de détails, reportez-vous à la [section dédiée](../../production/using/audit-trail.md).
+En outre, les administrateurs de l’instance peuvent utiliser le **journal d’audit** pour vérifier les activités et les dernières modifications apportées aux workflows, c’est-à-dire l’état de vos workflows. Pour plus de détails, reportez-vous à la [section dédiée](../../production/using/audit-trail.md).
 
-D’autres méthodes de surveillance des différents processus de campagne sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
 
 ## Afficher la progression {#displaying-progress}
 
@@ -102,7 +102,7 @@ Le journal affiche la liste chronologique des messages d&#39;exécution des acti
 
 ## Purger l&#39;historique {#purging-the-logs}
 
-Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. Les options disponibles dans le menu **[!UICONTROL Actions]** sont détaillées dans la section de la barre d’outils [](../../workflow/using/executing-a-workflow.md#actions-toolbar) Actions.
+L&#39;historique d&#39;un workflow n&#39;est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l&#39;historique depuis le menu **[!UICONTROL Fichier > Action]** ou en cliquant sur le bouton **[!UICONTROL Actions]** situé dans la barre d’outils au-dessus de la liste. Choisissez **[!UICONTROL Purge de l’historique]**. es options disponibles dans le menu **[!UICONTROL Actions]** sont détaillées dans la section [Barre d’outils des actions](../../workflow/using/executing-a-workflow.md#actions-toolbar).
 
 ![](assets/purge_historique.png)
 
@@ -112,7 +112,7 @@ Le workflow véhicule des tables de travail qui peuvent être manipulées via ce
 
 Il est également possible de créer des liens entre des dimensions de travail différentes, et de définir des changements de dimension, par exemple pour chaque contrat enregistré dans la base, s&#39;adresser au titulaire principal et utiliser les données relatives au(x) co-titulaire(s) dans les informations additionnelles.
 
-Les tables de travail du flux de travail sont automatiquement supprimées lorsque le flux de travail est passif. Si vous souhaitez conserver une table de travail, enregistrez-la dans une liste via l’activité de mise à jour **[!UICONTROL de la]** liste (voir Mise à jour [de la](../../workflow/using/list-update.md)liste).
+Les tables de travail du workflow sont automatiquement supprimées lorsque le workflow est passif. Si vous souhaitez conserver une table de travail, enregistrez-la dans une liste via l’activité **[!UICONTROL Mise à jour de liste]** (voir [Mise à jour de liste](../../workflow/using/list-update.md)).
 
 ## Gérer les erreurs {#managing-errors}
 
@@ -148,7 +148,7 @@ Dans ce cas, la tâche en erreur est abandonnée. Ce mode est particulièrement 
 >
 >Vous pouvez appliquer ce paramétrage unitairement au niveau des activités. Pour cela, éditer les propriétés de l&#39;activité et sélectionnez le mode de gestion des erreurs dans l&#39;onglet **[!UICONTROL Avancé]**.
 
-Pour plus d’informations sur le dépannage de l’exécution des processus, reportez-vous à la section [](../../production/using/workflow-execution.md)dédiée.
+Pour plus d’informations sur la résolution des problèmes de l’exécution des workflows, consultez la [section dédiée](../../production/using/workflow-execution.md).
 
 ## Traiter les erreurs {#processing-errors}
 
@@ -235,7 +235,7 @@ Notez que :
    logInfo("Workflow already running, parallel execution not allowed.");
    ```
 
-Cette section présente un cas d’utilisation : [Coordination des mises à jour](../../workflow/using/coordinating-data-updates.md)des données.
+Cette section présente un cas d’utilisation : [Coordonner les mises à jour des données](../../workflow/using/coordinating-data-updates.md).
 
 ## Maintenance de la base de données {#database-maintenance}
 
@@ -257,36 +257,36 @@ Ces périodes peuvent être configurées à l&#39;aide de l&#39;option NmsServer
 
 Les superviseurs de workflow sont avertis. Le créateur et le dernier utilisateur ayant modifié le workflow sont également informés. Les administrateurs ne reçoivent pas les notifications.
 
-## Filtrage des processus en fonction de leur état{#filtering-workflows-status}
+## Filtrer des workflows en fonction de leur état{#filtering-workflows-status}
 
-L’interface de Campaign Classic vous permet de surveiller l’état d’exécution de tous les processus de votre instance à l’aide de **vues** prédéfinies. Pour accéder à ces vues, ouvrez le noeud **[!UICONTROL Administration]**/**[!UICONTROL Audit]**/ État **** des flux de travail.
+L’interface de Campaign Classic vous permet de surveiller l’état d’exécution de tous les workflows de votre instance à l’aide de **vues** prédéfinies. Pour accéder à ces vues, ouvrez le nœud **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Statut des workflows]**.
 
-Les vues suivantes sont disponibles :
+Les vues disponibles sont les suivantes :
 
-* **[!UICONTROL En cours d’exécution]**: répertorie tous les processus en cours d’exécution.
-* **[!UICONTROL En pause]**: répertorie tous les processus en pause.
-* **[!UICONTROL Échec]**: répertorie tous les processus ayant échoué.
-* **[!UICONTROL Démarrer en attente]**: répertorie tous les processus qui attendent d’être démarrés par le processus operationMgt. Cette vue est disponible uniquement avec le package des campagnes **** marketing (voir [Installation des packs](../../installation/using/installing-campaign-standard-packages.md)standard de campagne).
+* **[!UICONTROL En cours d’exécution]** : répertorie tous les workflows en cours d’exécution.
+* **[!UICONTROL En pause]** : répertorie tous les workflows en pause.
+* **[!UICONTROL Échec]** : répertorie tous les workflows en échec.
+* **[!UICONTROL en attente]**:  tous les  qui attendent d’être démarrés par le processus operationMgt. Ce est disponible uniquement avec le package de campagnes **** marketing (voir [Installation de packages](../../installation/using/installing-campaign-standard-packages.md)standard Campaign).
 
 ![](assets/workflow-monitoring-views.png)
 
 Par défaut, ces vues sont accessibles dans le dossier **[!UICONTROL Audit]**. Vous pouvez toutefois les recréer à l’emplacement de votre choix dans l’arborescence des dossiers. De cette manière, ils seront accessibles aux utilisateurs standard sans droit d’administration.
 
-Pour ce faire :
+Pour cela :
 
 1. Cliquez avec le bouton droit sur le dossier dans lequel vous souhaitez ajouter la vue.
-1. Dans **[!UICONTROL Ajouter un nouveau dossier]**/**[!UICONTROL Administration]**, sélectionnez la vue à ajouter.
-1. Une fois le dossier ajouté à l&#39;arborescence, assurez-vous de le configurer en tant qu&#39;affichage afin qu&#39;il affiche tous les processus, quel que soit leur dossier d&#39;origine.Pour plus d&#39;informations sur la configuration des vues, reportez-vous à [cette section](../../platform/using/access-management.md#adding-folders-and-creating-views).
+1. Dans **[!UICONTROL Ajouter un dossier]** / **[!UICONTROL Administration]**, sélectionnez la vue à ajouter.
+1. Une fois le dossier ajouté à l&#39;arborescence, assurez-vous de le configurer en tant que vue afin qu&#39;il affiche tous les workflows, quel que soit leur dossier d&#39;origine. Pour plus d&#39;informations sur la configuration des vues, consultez [cette section](../../platform/using/access-management.md#adding-folders-and-creating-views).
 
-En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de filtrer la liste des processus en fonction de leur état d’exécution. Pour cela :
+En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de filtrer la liste des workflows en fonction de leur état d’exécution. Pour cela :
 
-1. Accédez à un dossier de type processus, puis sélectionnez le menu Filtres **** avancés / Filtres **** avancés.
-1. Configurez le filtre de sorte que le champ **[!UICONTROL @status]** du flux de travail soit égal à l’état de votre choix.
-1. Enregistrez le filtre et nommez-le. Il sera alors directement disponible dans la liste des filtres.
+1. Accédez à un dossier de type workflow, puis sélectionnez le menu **[!UICONTROL Filtres]**/**[!UICONTROL Filtres avancés]**.
+1. Configurez le filtre de sorte que le champ **[!UICONTROL @status]** du workflow soit égal à l’état de votre choix.
+1. Enregistrez le filtre et attribuez-lui un nom. Il sera alors directement disponible dans la liste des filtres.
 
 ![](assets/workflow-monitoring-filter.png)
 
-Pour plus d’informations, reportez-vous aux sections suivantes :
+Pour plus d’informations, consultez les sections suivantes :
 
-* [Création de filtres avancés](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [Enregistrement des filtres](../../platform/using/creating-filters.md#saving-a-filter)
+* [Créer des filtres avancés](../../platform/using/creating-filters.md#creating-an-advanced-filter)
+* [Enregistrer des filtres](../../platform/using/creating-filters.md#saving-a-filter)
