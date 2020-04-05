@@ -28,13 +28,13 @@ Dans Adobe Campaign, les schémas de données permettent de :
 * définir des liens entre les différents objets de l&#39;application ;
 * définir et décrire les champs individuels inclus dans chaque objet.
 
-Pour une meilleure compréhension des tableaux intégrés aux campagnes et de leur interaction, consultez le modèle [de données de](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)Campaign Classic.
+Pour une meilleure compréhension des tables Campaign intégrées et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
 ## Extension ou création de schémas {#extending-or-creating-schemas}
 
-Pour ajouter un champ ou un index ou un autre élément à l’un des schémas de données principaux de Campaign, comme la table des destinataires (nms:Recipient), vous devez étendre ce schéma. Pour plus d’informations, reportez-vous à la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md) .
+Pour ajouter un champ, un index ou tout autre élément à l&#39;un des schémas d&#39;usine d&#39;Adobe Campaign, comme la table des destinataires (nms:recipient), vous devez étendre ce schéma. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
 
-Pour ajouter un nouveau type de données qui n’existe pas prêt à l’emploi dans Adobe Campaign (une table de contrats, par exemple), vous pouvez créer directement un schéma personnalisé. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
+Pour ajouter un nouveau type de données qui n&#39;existe pas par défaut dans Adobe Campaign (une table des contrats par exemple), vous pouvez directement créer un schéma personnalisé. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
 
 ![](assets/schemaextension_getting_started_1.png)
 
@@ -44,7 +44,7 @@ Une fois que vous avez créé une extension ou un nouveau schéma, il est recomm
 
 Les énumérations sont définies avant l&#39;élément principal du schéma. Elles permettent d&#39;afficher des valeurs dans une liste afin de restreindre les choix de l&#39;utilisateur pour un champ donné.
 
-Exemple :
+Exemple:
 
 ```
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
@@ -65,7 +65,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >Vous pouvez également ajouter des énumérations gérées par l&#39;utilisateur (accessibles depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Platform]**) pour spécifier les valeurs d&#39;un champ donné. Cela peut être judicieux si vous envisagez d&#39;utiliser votre énumération en dehors du schéma sur lequel vous travaillez.
 
-To find out more about enumerations, refer to the [Enumerations](../../configuration/using/schema-structure.md#enumerations) and [`<enumeration>` element](../../configuration/using/elements-and-attributes.md#enumeration--element) sections.
+Pour en savoir plus sur les énumérations, consultez les sections [Enumérations](../../configuration/using/schema-structure.md#enumerations) et [`<enumeration>`Elément](../../configuration/using/elements-and-attributes.md#enumeration--element).
 
 ## Index {#index}
 
@@ -94,7 +94,7 @@ L&#39;attribut **xpath** pointe vers le champ de votre schéma que vous souhaite
 >
 >Les index permettent d&#39;optimiser les performances des requêtes SQL en termes de lecture mais aussi d&#39;écriture. Ils doivent donc être utilisés avec précaution.
 
-For more on indexes, refer to the [Indexed fields](../../configuration/using/database-mapping.md#indexed-fields) section.
+Pour en savoir plus sur les index, consultez la section [Champs indexés](../../configuration/using/database-mapping.md#indexed-fields).
 
 ## Clés {#keys}
 
@@ -102,7 +102,7 @@ Chaque table doit posséder au moins une clé. Celle-ci est souvent définie aut
 
 La clé primaire peut également être définie au moyen de l&#39;attribut **internal**.
 
-Exemple :
+Exemple:
 
 ```
 <key name="householdId" internal="true">
@@ -116,15 +116,15 @@ Dans cet exemple, au lieu de laisser l&#39;attribut **@autopk** créer une clé 
 >
 >Lors de la création ou de l’extension d’un schéma, vous devez conserver la valeur de la séquence de la clé primaire (@pkSequence) pour l’ensemble du schéma.
 
-To find out more about keys, refer to the [Management of keys](../../configuration/using/database-mapping.md#management-of-keys) section.
+Pour en savoir plus sur les clés, consultez la section [Gestion des clés](../../configuration/using/database-mapping.md#management-of-keys).
 
 ## Attributs (champs) {#attributes--fields-}
 
-Attributes allow you to define the fields which make up your data object. You can use the **[!UICONTROL Insert]** button in the schema edition toolbar to drop empty attribute templates into your XML where your cursor is. For more on this, refer to the [Data schemas](../../configuration/using/data-schemas.md) section.
+Les attributs permettent de définir les champs composant votre objet de données. Utilisez le bouton **[!UICONTROL Insérer]** de la barre d&#39;outils d’édition du schéma pour ajouter les modèles d’attribut vides dans votre XML, à l’endroit où se trouve votre curseur. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
 
 ![](assets/schemaextension_getting_started_2.png)
 
-La liste complète des attributs est disponible dans la section [`<attribute>` Elément](../../configuration/using/elements-and-attributes.md#attribute--element) . Voici quelques-uns des attributs les plus utilisés :
+La liste complète des attributs est disponible dans la section [`<attribute>`Elément](../../configuration/using/elements-and-attributes.md#attribute--element). Voici quelques-uns des attributs les plus utilisés :
 
 * **@advanced**
 * **@dataPolicy**
@@ -141,11 +141,11 @@ La liste complète des attributs est disponible dans la section [`<attribute>` E
 * **@xml**
 * **@type**
 
-   To view a table listing the mappings for the data types generated by Adobe Campaign for the different database management systems, refer to the [Mapping the types of Adobe Campaign/DBMS data](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) section.
+   Pour obtenir le tableau répertoriant les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Correspondance des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
-For more information on each attribute, refer to the [Attribute description](../../configuration/using/elements-and-attributes.md#attribute-description) section.
+Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/elements-and-attributes.md#attribute-description).
 
-### Exemples {#examples}
+### Exemples  {#examples}
 
 Exemple de définition d&#39;une valeur par défaut :
 
@@ -185,7 +185,7 @@ Les liens sont déclarés dans le schéma qui contient la **clé étrangère** d
 
 Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
-### Exemples {#examples-1}
+### Exemples  {#examples-1}
 
 Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 
@@ -229,5 +229,5 @@ Voir à ce sujet la section [Mettre à jour la structure de la base de données]
 
 >[!NOTE]
 >
->**[!UICONTROL Lorsque les modifications n&#39;affectent pas la structure de la base de données, vous devez simplement régénérer les schémas. Pour ce faire, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit de la souris et choisissez]** Actions > Régénérer les schémas sélectionnés.... For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+>Lorsque les modifications n&#39;ont aucun impact sur la structure de la base de données, vous devez uniquement régénérer les schémas. Pour ce faire, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]**. Voir à ce sujet la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
 
