@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # Gestion des workflows{#managing-workflows}
 
-Par défaut, vos nouveaux processus reposent sur un modèle de flux de travail préconfiguré et basé sur une table de destinataires (nms:destinataire). Pour qu’ils soient automatiquement basés sur la table personnalisée des destinataires référencés dans l’option **Nms_DefaultRcpSchema** (voir [Configuration de l’interface](../../configuration/using/configuring-the-interface.md) ), vous devez créer un nouveau modèle de flux de travail.
+Par défaut, les nouveaux workflows reposent sur un modèle préconfiguré, basé sur une table de destinataires (nms:recipient). Pour qu’ils soient automatiquement basés sur la table personnalisée des destinataires référencée dans l’option **Nms_DefaultRcpSchema** (voir la section [Configuration de l’interface](../../configuration/using/configuring-the-interface.md)), vous devez créer un modèle de workflow.
 
 Créez un modèle à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles de workflow]**. Dans les propriétés du modèle, les dimensions renseignées correspondent alors à votre table de destinataires externe.
 
