@@ -22,7 +22,7 @@ source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
 
 # A propos des typologies de campagne{#about-campaign-typologies}
 
-Optimisation de campagne est le module Adobe Campaign qui vous permet de contrôler, de filtrer et de surveiller l’envoi des livraisons. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester diverses combinaisons en appliquant des règles de contrainte spécifiques. Cela garantit que les messages envoyés répondent aux besoins et aux attentes des clients et aux politiques de communication de l&#39;entreprise.
+Campaign Optimization est le module  qui vous permet de contrôler, filtrer et surveiller l&#39;envoi devos données. Pour éviter les conflits entre les campagnes,  Adobe Campaign peut tester diverses combinaisons en appliquant des règles de contrainte spécifiques. Cela garantit que les messages envoyés répondent aux besoins et aux attentes des clients et aux politiques de communication  des.
 
 >[!NOTE]
 >
@@ -32,10 +32,10 @@ Optimisation de campagne est le module Adobe Campaign qui vous permet de contrô
 
 Avec Adobe Campaign, vous pouvez concevoir et appliquer quatre types de règles de typologie :
 
-1. **Règles de filtrage** qui vous permettent d’exclure une partie de la cible en fonction de critères. For more on this, refer to [Filtering rules](../../campaign/using/filtering-rules.md).
-1. **Règles de pression** qui vous permettent de contrôler la fatigue du marketing. For more on this, refer to [Pressure rules](../../campaign/using/pressure-rules.md).
-1. **Règles de capacité** qui vous permettent de limiter les charges pour garantir des conditions de traitement optimales. For more on this, refer to [Controlling capacity](../../campaign/using/consistency-rules.md#controlling-capacity).
-1. **Règles de contrôle** qui vous permettent de vérifier la validité des messages avant leur envoi. For more on this, refer to [Control rules](../../campaign/using/control-rules.md).
+1. Les règles de **filtrage** qui vous permettent d’exclure une partie de la cible en fonction de critères. Voir à ce sujet la section [Règles de filtrage](../../campaign/using/filtering-rules.md).
+1. Les règles de **pression** qui vous permettent de contrôler la lassitude marketing. Voir à ce sujet la section [Règles de pression](../../campaign/using/pressure-rules.md).
+1. Les règles de **capacité** qui vous permettent de limiter les charges pour garantir des conditions de traitement optimales. Voir à ce sujet la section [Contrôler la capacité](../../campaign/using/consistency-rules.md#controlling-capacity).
+1. Les règles de **contrôle** qui vous permettent de vérifier la validité des messages avant leur envoi. Voir à ce sujet la section [Règles de contrôle](../../campaign/using/control-rules.md).
 
 Une fois créées, les règles de typologie sont regroupées dans des typologies de campagne, qui sont référencées dans les diffusions. Reportez-vous à la section [Appliquer les typologies](#applying-typologies).
 
@@ -43,7 +43,7 @@ Une fois créées, les règles de typologie sont regroupées dans des typologies
 
 Une typologie de campagne peut contenir plusieurs [règles de typologie](#typology-rules), mais une diffusion ne peut référencer qu&#39;une seule typologie.
 
-The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules to apply.
+L&#39;onglet **[!UICONTROL Règles]** permet d&#39;ajouter, supprimer ou visualiser les règles de typologie à appliquer.
 
 ![](assets/campaign_opt_rules_tab.png)
 
@@ -53,13 +53,13 @@ Vous trouverez ci-dessous les étapes nécessaires pour créer et appliquer une 
 
 1. Créez des règles de typologie.
 
-   Les règles de typologie se trouvent dans le **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** noeud.
+   Les règles de typologies sont regroupées sous le noeud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies > Règles de typologie]**.
 
    Les différents types de règles disponibles dans Campaign sont présentés dans les sections suivantes : [règles de pression commerciale](../../campaign/using/pressure-rules.md), [règles de capacité](../../campaign/using/consistency-rules.md#controlling-capacity), [règles de contrôle](../../campaign/using/control-rules.md) et [règles de filtrage](../../campaign/using/filtering-rules.md).
 
 1. Créez une typologie et référencez les règles que vous avez créées dans celle-ci.
 
-   Les typologies sont accessibles via le noeud **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** .
+   Les typologies sont accessibles sous le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des typologies]** > **[!UICONTROL Typologies]**.
 
 1. Configurez votre diffusion pour utiliser la typologie que vous avez créée. Pour plus d&#39;informations, consultez [cette section](../../campaign/using/applying-rules.md#applying-a-typology-to-a-delivery).
 1. Testez et contrôlez le comportement par le biais de simulations de campagnes. Pour plus d&#39;informations sur les simulations de campagnes, consultez [cette section](../../campaign/using/campaign-simulations.md).
@@ -68,4 +68,4 @@ Pendant la préparation de la diffusion, les destinataires sont exclus lorsque l
 
 **Rubrique connexe**
 
-* [Appliquer des règles de fonctionnement automatiques aux livraisons sur n’importe quel canal](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
+* [Appliquer des règles d’entreprises automatiques aux diffusions sur n’importe quel canal](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
