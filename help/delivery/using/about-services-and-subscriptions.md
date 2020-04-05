@@ -22,9 +22,9 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # A propos des services et des abonnements{#about-services-and-subscriptions}
 
-Adobe Campaign vous permet de créer et d’administrer des services d’informations tels que les bulletins d’information et de gérer les abonnements à ces services. Plusieurs services peuvent être définis en parallèle, par exemple : des bulletins d&#39;information spécialisés pour certaines catégories de produits, thèmes ou zones d&#39;un site Web, des abonnements à divers types de messages d&#39;alerte et des notifications en temps réel. Refer to [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
+Adobe Campaign permet de créer et administrer des services d&#39;information (par exemple des newsletters) et de gérer les abonnements à ces services. Il est possible de définir plusieurs services en parallèle, par exemple des newsletters spécialisées pour certaines catégories de produits, certaines thématiques ou sections d&#39;un site web, des abonnements à différents types d&#39;alertes ou de notifications temps réel. Voir à ce propos la section [Gestion des abonnements](../../delivery/using/managing-subscriptions.md).
 
-Vous pouvez également permettre à vos destinataires de les partager avec les membres de leur réseau social ou professionnel. Pour ce faire, insérez les liens appropriés dans votre diffusion. Vous pouvez ensuite suivre ce processus de partage ainsi que le nombre de visites sur les pages concernées. Pour plus d’informations sur ce sujet, reportez-vous à la page [du marketing](../../delivery/using/viral-and-social-marketing.md)viral et social.
+Vous pouvez également permettre aux destinataires de vos diffusions de les partager avec les membres de leur réseau social ou professionnel. Pour cela, insérez les liens correspondants dans vos diffusions. Vous pouvez ensuite suivre ce partage et les accès aux pages concernées. Voir à ce sujet [Marketing social et viral](../../delivery/using/viral-and-social-marketing.md).
 
 >[!NOTE]
 >
