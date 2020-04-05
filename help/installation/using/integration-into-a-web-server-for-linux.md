@@ -28,8 +28,8 @@ Vous pouvez utiliser ce Tomcat intégré pour servir des requêtes HTTP.
 
 Dans ce cas :
 
-* le port d’écoute par défaut est 8080. Pour le modifier, reportez-vous à [Configuration de Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
-* Le client console puis se connecte à l’aide d’une URL telle que :
+* le port d’écoute par défaut est 8080. Pour le modifier, voir [Configurer Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* Vos consoles clientes se connectent alors en utilisant une URL de type :
 
    ```
    http://<computer>:8080
@@ -43,7 +43,7 @@ De même, vous devez utiliser un serveur Web lorsque vous souhaitez utiliser les
 
 >[!NOTE]
 >
->Si vous n’utilisez pas la fonctionnalité de suivi, vous pouvez effectuer une installation standard d’Apache ou IIS avec une redirection vers Campaign. Le module d&#39;extension du serveur Web de suivi n&#39;est pas requis.
+>Si vous n’utilisez pas la fonctionnalité de tracking, vous pouvez effectuer une installation standard d’Apache ou IIS avec une redirection vers Campaign. Le module d’extension du serveur Web de tracking n’est pas requis.
 
 ## Configuration du serveur Web Apache sous Debian {#configuring-the-apache-web-server-with-debian}
 
@@ -63,7 +63,7 @@ Les étapes sont les suivantes :
    a2enmod  alias authz_host mime
    ```
 
-1. Create the file **nlsrv.load** in **/etc/apache2/mods-available** and insert the following content:
+1. Créez le fichier **nlsrv.load** dans **/etc/apache2/mods-available** et insérez le contenu suivant :
 
    Sous Debian 8 :
 
@@ -71,7 +71,7 @@ Les étapes sont les suivantes :
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
    ```
 
-1. Create the file **nlsrv.conf** in **/etc/apache2/mods-available** using the following command:
+1. Créez le fichier **nlsrv.conf** dans **/etc/apache2/mods-available** à l’aide de la commande suivante :
 
    ```
    ln -s /usr/local/[INSTALL]/nl6/tomcat-7/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
@@ -83,13 +83,13 @@ Les étapes sont les suivantes :
     a2enmod nlsrv
    ```
 
-   Si vous utilisez le module **mod_rewrite** pour les pages Adobe Campaign, vous devez renommer les fichiers **nlsrv.load** et **nlsrv.conf** en **zz-nlsrv.load et zz-nlsrv.conf.****** Pour activer le module, exécutez la commande suivante :
+   Si vous utilisez le module **mod_rewrite** pour les pages Adobe Campaign, vous devez renommer les fichiers **nlsrv.load** et **nlsrv.conf** en **zz-nlsrv.load** et **zz-nlsrv.conf**. Pour activer ce module, exécutez la commande suivante :
 
    ```
    a2enmod zz-nlsrv
    ```
 
-1. Edit the **/etc/apache2/envvars** file, add the following lines:
+1. Modifiez le fichier **/etc/apache2/envvars**, ajoutez les lignes suivantes :
 
    ```
    # Added Neolane
@@ -118,7 +118,7 @@ Cette procédure s&#39;applique si vous avez installé et sécurisé Apache sous
 
 Les étapes sont les suivantes :
 
-1. In the `httpd.conf` file, activate the following Apache modules:
+1. Dans le fichier `httpd.conf`, activez les modules Apache suivants :
 
    ```
    alias
@@ -157,18 +157,18 @@ Les étapes sont les suivantes :
    ForceLanguagePriority
    ```
 
-1. Créez un fichier de configuration spécifique à Adobe Campaign dans le `/etc/httpd/conf.d/` dossier. Par exemple `CampaignApache.conf`
+1. Créez un fichier de configuration spécifique à Adobe Campaign dans le dossier `/etc/httpd/conf.d/`. Par exemple `CampaignApache.conf`
 
-1. For **RHEL7**, add the following instructions in the file:
+1. Pour **RHEL7**, ajoutez les instructions suivantes dans le fichier :
 
    ```
    LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
    Include /usr/local/neolane/nl6/tomcat-7/conf/apache_neolane.conf
    ```
 
-1. For **RHEL7**:
+1. Pour **RHEL7** :
 
-   Add the `/etc/systemd/system/httpd.service` file with the following content:
+   Ajoutez le fichier `/etc/systemd/system/httpd.service` avec le contenu suivant :
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -249,4 +249,4 @@ Les informations affichées sont alors les suivantes :
 Connection closed by foreign host.
 ````
 
-You can also request the URL [`https://<computer>`](https://machine/r/test) from a Web browser.
+Vous pouvez également appeler l’URL [`https://<computer>`](https://machine/r/test) depuis un navigateur web.
