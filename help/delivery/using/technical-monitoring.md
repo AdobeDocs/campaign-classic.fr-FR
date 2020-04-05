@@ -22,11 +22,11 @@ source-git-commit: 38700b79aeb19c75d10d2f5eb60c1efdb12e62e3
 
 # Monitoring technique{#technical-monitoring}
 
-## Rapport de surveillance de la délivrabilité technique {#technical-deliverability-monitoring}
+## Rapport de supervision de la délivrabilité technique {#technical-deliverability-monitoring}
 
-Le rapport de surveillance de la délivrabilité technique est mis à jour quotidiennement et disponible en accédant à **[!UICONTROL Surveillance]** > **[!UICONTROL Aperçu]** et en cliquant sur le lien de surveillance **** technique dans l’onglet **[!UICONTROL Accueil d’Adobe Campaign.]** Il comprend plusieurs indicateurs de qualité de la délivrabilité pour votre plateforme.
+Le rapport de supervision de la délivrabilité technique est mis à jour quotidiennement et disponible en accédant à **[!UICONTROL Surveillance]** > **[!UICONTROL Aperçu]** et en cliquant sur le lien **[!UICONTROL Monitoring technique]** dans l’onglet **[!UICONTROL Accueil]** d’Adobe Campaign. Il comprend plusieurs indicateurs de qualité de la délivrabilité pour votre plateforme.
 
-Ces indicateurs sont mis à jour tous les jours à 9 heures.
+Ces indicateurs sont mis à jour tous les jours à 9 h.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Les indicateurs utilisés dans ce rapport sont les suivants :
 
 * **[!UICONTROL Reverse DNS]** : Adobe Campaign vérifie qu&#39;un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l&#39;IP.
 
-* **[!UICONTROL SPF]** (Cadre de politique de l&#39;expéditeur) : Mécanisme d’authentification qui permet aux fournisseurs de services Internet et de boîtes aux lettres de vérifier si l’expéditeur du courrier électronique est autorisé sur le domaine d’envoi.
+* **[!UICONTROL SPF]** (Sender Policy Framework) : mécanisme d’authentification qui permet aux fournisseurs d’accès à Internet et de messagerie de vérifier si l’expéditeur de l’email autorisé sur le domaine d’envoi.
 
    <!--
     >[!NOTE]
@@ -48,9 +48,9 @@ Les indicateurs utilisés dans ce rapport sont les suivants :
 
 * **[!UICONTROL DomainKeys]** : Service développé par Yahoo visant à certifier l&#39;identité de l&#39;émetteur d&#39;un email.
 
-* **[!UICONTROL Domaine]** IP et RBL (Liste des trous noirs en temps réel) : Liste des adresses et domaines IP qui ont été marqués par les organisations de liste de blocage pour mauvaise réputation d’envoi. Ces listes sont conservées par des organisations dédiées telles que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux URL qui ont un impact significatif sur la délivrabilité. Ces RBL reflètent la réputation d&#39;envoi et peuvent être référencées par les FAI avant d&#39;accepter de recevoir vos courriels.
+* **[!UICONTROL IP et domaine RBL]** (Real-time Blackhole List) : liste des adresses IP et domaines qui ont été marqués par les organisations de liste de blocage pour mauvaise réputation d’envoi. Ces listes sont enrichies par des organismes dédiés tels que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux RBL qui ont un impact significatif sur la délivrabilité. Ces RBL sont les témoins de votre réputation d’envoi et peuvent être interrogés par les ISP avant acceptation de vos emails.
 
-* **[!UICONTROL SNDS]** (Smart Network Data Services) : Un service [anti-spam](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx)Windows Live Hotmail. Hotmail est le seul FAI qui fournit ce type d&#39;informations. Les scores de référence sont un résultat de filtre vert, un taux de plainte inférieur à 0,1 % et un taux zéro de pourriel.
+* **[!UICONTROL SNDS]** (Smart Network Data Services) : un [service Windows Live Hotmail de lutte contre le spam](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail est le seul FAI qui fournit ce type d&#39;informations. Les scores de référence sont un résultat de filtre vert, un taux de plainte inférieur à 0,1 % et un taux zéro de pourriel.
 
 <!--
 * **[!UICONTROL Reputation Authority]**: This WatchGuard’s score is calculated in real time according to the feedback received from their network worldwide, and also from the different users who use their software.
