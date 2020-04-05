@@ -20,20 +20,20 @@ source-git-commit: 8d6e3118dc498096283d54713725071e0906aba3
 
 # Dernière version{#latest-release}
 
-[Créer une mise à niveau](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | Versions [du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration| Mises à jour [de la documentation](../../rn/using/documentation-updates.md) | Versions [précédentes](../../rn/using/release--19-2.md) | Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Upgrade de build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-2.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
    <td><img src="assets/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Candidat à la libération</strong></td> 
+   <td><img src="assets/blue3.png"/><strong>Version diffusable</strong></td> 
    <td><img src="assets/orange3.png"/><strong>Plus disponible</strong></td> 
    <td><img src="assets/red3.png"/><strong>Obsolète</strong></td> 
   </tr> 
    <tr> 
-   <td>Dernière version stable disponible. Création validée en production.<br> </td>
-   <td>Génération validée par Adobe. En attente de vérification de la production.<br> </td>
-   <td>Version plus récente disponible avec correctifs de bogues. La mise à jour est requise.<br> </td>
+   <td>Dernier build stable disponible. Build validé en production.<br> </td>
+   <td>Build validé par Adobe. En attente de vérification de la production.<br> </td>
+   <td>Build le plus récent disponible avec correctifs. Mise à jour requise.<br> </td>
    <td>Contient des régressions connues. La mise à jour est obligatoire.<br> </td>
   </tr> 
  </tbody> 
@@ -41,13 +41,13 @@ source-git-commit: 8d6e3118dc498096283d54713725071e0906aba3
 
 La **dernière version** stable est 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue_2.png) Version 20.1.2 - Version 9123 {#release-20-1-2-build-9123}
+## ![](assets/blue_2.png) Version 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
 
 _13 mars 2020_
 
 * Correction d’un problème qui empêchait le déploiement de la version sur les serveurs Red Hat 7. (NEO-23332)
 
-## ![](assets/orange_2.png) Version 20.1 - Version 9122 {#release-20-1-build-9122}
+## ![](assets/orange_2.png) Version 20.1 - Build 9122 {#release-20-1-build-9122}
 
 _17 février 2020_
 
@@ -87,7 +87,7 @@ _17 février 2020_
 
 * Amélioration de la sécurité dans la configuration des rapports afin de protéger les utilisateurs contre le cliquage. Cela s’applique aux nouveaux rapports. Pour les anciens rapports, vous devez les republier pour appliquer les modifications. (NEO-13282)
 
-* Correction d’un petit problème de mémoire dans cryptString. (NÉO-20071)
+* Correction d’un petit problème de mémoire dans cryptString. (NEO-20071)
 
 * Amélioration du JSP du moniteur afin de corriger une divulgation d’IP interne. (NEO-16821)
 
@@ -137,7 +137,7 @@ _17 février 2020_
 
 * Correction d’un problème de chiffrement des clés de compte lors de l’utilisation du connecteur Hadoop.
 
-* Correction d’un problème de régression en raison de l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur le serveur Windows. (NÉO-20629)
+* Correction d’un problème de régression en raison de l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur le serveur Windows. (NEO-20629)
 
 * Correction d’un problème avec l’ incrémentiel  en cas d’ID de flux de travail négatifs. (NEO-19779)
 
@@ -191,7 +191,7 @@ _17 février 2020_
 
 * Correction d’un problème qui empêchait l’envoi des  de lors de l’utilisation de modèles importés d’Experience Manager. (NEO-17540)
 
-* Correction d’un problème qui survenait après la mise à niveau vers la version 9032 et qui empêchait l’instance de se connecter au serveur FTP via le protocole SSL. (NÉO-20498)
+* Correction d’un problème qui survenait après la mise à niveau vers la version 9032 et qui empêchait l’instance de se connecter au serveur FTP via le protocole SSL. (NEO-20498)
 
 * Correction d’un problème qui se produisait lors de la suppression, de l’insertion ou de la mise à jour d’une grande quantité de données avec le **Mettre à jour les données**  dans un flux de travail à l’aide d’un de de en tant que. (NEO-13280)
 
@@ -205,7 +205,7 @@ _17 février 2020_
 
 * Correction d’un problème qui empêchait l’utilisation de certains boutons dans l’écran de création de distribution **des** données.
 
-* Correction d’un problème qui se produisait lors de la planification d’un   de dans une instance avec Asie/Calcutta comme fuseau horaire. (NÉO-2001)
+* Correction d’un problème qui se produisait lors de la planification d’un   de dans une instance avec Asie/Calcutta comme fuseau horaire. (NEO-20001)
 
 * Une erreur s’affiche maintenant lorsqu’un  de présente un problème  de configuration de l’.
 
