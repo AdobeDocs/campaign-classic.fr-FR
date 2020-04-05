@@ -27,30 +27,30 @@ source-git-commit: 06f2106c7c37fd5f115d15f3530997571f1f8e70
 Vous pouvez attacher un ou plusieurs fichiers à une diffusion par email. Deux cas sont possibles :
 
 * Sélectionner un fichier et le joindre tel quel à la diffusion.
-* Personalize the content of the attachment for each recipient. In this case, you need to create a **calculated attachment**: the name of the attachment is computed at the time of delivery for each message depending on the recipient. The content can also be personalized and converted into PDF format at the time of delivery, if you have the **Variable Digital Printing** option.
+* Personnaliser le contenu de la pièce jointe pour chaque destinataire. Dans ce cas, vous devez créer un **attachement calculé** : le nom de la pièce jointe est calculé au moment de l&#39;envoi pour chaque message et peut ainsi dépendre du destinataire. Le contenu peut également être personnalisé et converti en PDF au moment de l&#39;envoi, si vous avez souscrit à l&#39;option **Variable Digital Printing**.
 
 >[!NOTE]
 >
->Ce type de configuration est généralement effectué dans les modèles de remise. For more on this, refer to [About templates](../../delivery/using/about-templates.md).
+>Ce type de configuration est généralement réalisé dans les modèles de diffusion. Voir à ce sujet la section [A propos des modèles](../../delivery/using/about-templates.md).
 
 ## Joindre un fichier local {#attaching-a-local-file}
 
-Pour joindre un fichier local à une remise, procédez comme suit.
+Pour joindre un fichier local à une diffusion, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez joindre plusieurs fichiers à une remise. Les pièces jointes peuvent être dans n’importe quel format, format compressé inclus.
+>Vous pouvez joindre plusieurs fichiers à une diffusion. Les pièces jointes peuvent être dans n’importe quel format, format compressé inclus.
 
-1. Click the **[!UICONTROL Attachments]** link.
-1. **[!UICONTROL Cliquez sur le bouton]** Ajouter **[!UICONTROL , puis sur]** Fichier... pour sélectionner le fichier à joindre à la diffusion.
+1. Cliquez sur le lien **[!UICONTROL Pièces jointes]**.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis sur **[!UICONTROL Fichier...]** pour sélectionner le fichier à joindre à la diffusion.
 
 ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-Vous pouvez également faire glisser et déposer directement le fichier dans le champ **[!UICONTROL Pièces jointes]** de remise ou utiliser l’icône **[!UICONTROL Joindre]** de la barre d’outils de l’assistant de remise,
+Vous pouvez également faire glisser et déposer directement le fichier dans le champ de diffusion **[!UICONTROL Pièces jointes]** ou utiliser l’icône **[!UICONTROL Joindre]** de la barre d’outils de l’assistant de diffusion,
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-1. Une fois le fichier sélectionné, il est immédiatement téléchargé sur le serveur pour être disponible au moment de la remise. Il est répertorié dans le champ **[!UICONTROL Pièces jointes]** .
+1. Une fois le fichier sélectionné, il est immédiatement téléchargé sur le serveur afin d&#39;être disponible au moment de la diffusion. Il est répertorié dans le champ **[!UICONTROL Pièces jointes]**.
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
@@ -60,10 +60,10 @@ Lorsque vous créez un attachement calculé, le nom de la pièce jointe peut êt
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
-Pour créer une pièce jointe personnalisée, procédez comme suit :
+Pour créer une pièce jointe personnalisée, procédez comme suit :
 
-1. Click the **[!UICONTROL Attachments]** link.
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** , puis sélectionnez Pièce jointe **** calculée.
+1. Cliquez sur le lien **[!UICONTROL Pièces jointes]**.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Attachement calculé]**.
 1. Sélectionnez le type de calcul dans la liste déroulante **[!UICONTROL Type]** :
 
 ![](assets/s_ncs_user_wizard_email01_136.png)
@@ -77,7 +77,7 @@ Les options disponibles sont les suivantes :
 
 ### Joindre un fichier local {#attach-a-local-file}
 
-Si la pièce jointe est un fichier local, sélectionnez l’option : Le nom du **[!UICONTROL fichier est spécifié lors de la création du modèle]** de remise. Le fichier est sélectionné localement et téléchargé sur le serveur. Suivez les étapes ci-dessous :
+Si la pièce jointe est un fichier local, sélectionnez l’option : **[!UICONTROL Le nom de fichier est renseigné lors de la création du modèle de diffusion]**. Le fichier est sélectionné en local et téléchargé sur le serveur. Suivez les étapes ci-dessous :
 
 1. Sélectionnez le fichier à télécharger dans le champ **[!UICONTROL Fichier local]**.
 1. Précisez le libellé si nécessaire. Le libellé remplace le nom du fichier lorsqu&#39;il est visualisé dans les systèmes de messagerie. Si rien n&#39;est spécifié, le nom du fichier est utilisé par défaut.
