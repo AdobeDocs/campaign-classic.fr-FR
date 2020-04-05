@@ -1,6 +1,6 @@
 ---
-title: Définition du contenu du courrier électronique dans Adobe Campaign Classic
-description: Découvrez comment définir le contenu du courrier électronique lors de l’utilisation d’Adobe Campaign Classic.
+title: Définition du contenu d’email dans Adobe Campaign Classic
+description: Découvrez comment définir le contenu d’email avec Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: ddcc2e3b-e251-4a7a-a22a-28701522839f
 contentOwner: sauviat
@@ -28,7 +28,7 @@ Pour définir le nom et l&#39;adresse de l&#39;expéditeur qui apparaîtront en 
 
 Cette fenêtre permet de saisir toutes les informations nécessaires à l&#39;élaboration des en-têtes de messages email. Ces informations peuvent être personnalisées. Pour cela, vous devez utiliser des champs de personnalisation, insérés via des boutons situés à droite des champs de saisie.
 
-To find out how to insert and use personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md) section.
+L’insertion et l’utilisation de champs de personnalisation sont présentées dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Par exemple, dans le message ci-dessus, le sujet du message est personnalisé po
 
 >[!NOTE]
 >
->The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
+>L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
 
 ## Contenu du message {#message-content}
 
@@ -68,7 +68,7 @@ Par exemple, dans le message ci-dessus, le sujet du message est personnalisé po
 
 Le contenu du message est défini dans la section inférieure de la fenêtre de configuration de la diffusion.
 
-Les messages sont envoyés au format HTML ou texte par défaut, selon les préférences du destinataire. Nous vous recommandons de créer du contenu dans les deux formats afin de vous assurer que les messages peuvent s&#39;afficher correctement dans n&#39;importe quel système de messagerie. Pour plus d’informations, reportez-vous à [Sélection de formats](#selecting-message-formats)de message.
+Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préférences des destinataires. Il est recommandé de créer un contenu dans les deux formats afin de permettre un affichage correct dans toutes les messageries. Voir à ce sujet la section [Sélection des formats du message](#selecting-message-formats).
 
 * Pour importer un contenu HTML, utilisez le bouton **[!UICONTROL Ouvrir]**. Vous pouvez également coller le code source directement dans le sous-onglet **[!UICONTROL Source]**.
 
@@ -88,13 +88,13 @@ Les messages sont envoyés au format HTML ou texte par défaut, selon les préf�
 
    ![](assets/s_ncs_user_wizard_email01_18.png)
 
-   Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Voir aussi [Ajout d’images](#adding-images).
+   Les images de la bibliothèque sont accessibles depuis le dossier **[!UICONTROL Ressources>On-line>Ressources publiques]** de l’arborescence. Voir aussi la section [Ajout d’images](#adding-images).
 
    Le dernier bouton de la barre d&#39;outils permet d&#39;insérer des champs de personnalisation.
 
    >[!NOTE]
    >
-   >The use of personalization fields is presented in [About personalization](../../delivery/using/about-personalization.md).
+   >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
 
    Les onglets en bas de page permettent d&#39;afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
 
@@ -136,9 +136,9 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
    Le message est envoyé au format texte. Le format HTML ne sera pas envoyé mais uniquement utilisé pour la page miroir, lorsque le destinataire clique sur le lien dans le message.
 
-## Définition de contenu interactif {#amp-for-email-format}
+## Définition d’un contenu interactif {#amp-for-email-format}
 
-Adobe Campaign vous permet de tester le nouveau format interactif [AMP pour les courriers électroniques](https://amp.dev/about/email/) , qui permet d’envoyer des courriers électroniques dynamiques, sous certaines conditions.
+Adobe Campaign permet de tester le nouveau format interactif [AMP pour email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
 Voir à ce propos [cette section](../../delivery/using/defining-interactive-content.md).
 
@@ -154,7 +154,7 @@ Ainsi, un onglet supplémentaire permet de saisir un contenu qui sera automatiqu
 
 >[!NOTE]
 >
->For further information about content management in Adobe Campaign, refer to [this section](../../delivery/using/about-content-management.md).
+>Pour plus d’informations sur la gestion de contenu dans Adobe Campaign, voir [cette section](../../delivery/using/about-content-management.md).
 
 ## Ajout d&#39;images {#adding-images}
 
