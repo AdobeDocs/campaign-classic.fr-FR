@@ -1,7 +1,7 @@
 ---
-title: Delivery
-seo-title: Delivery
-description: Delivery
+title: Diffusion
+seo-title: Diffusion
+description: Diffusion
 seo-description: null
 page-status-flag: never-activated
 uuid: 3a74fd0b-8598-46a0-bf13-cf35db0987d7
@@ -32,7 +32,7 @@ Pour la paramétrer, éditez l&#39;activité et renseignez les options de la dif
 
    Vous pouvez ainsi :
 
-   * Agissez sur le  spécifié dans le entrant . Pour ce faire, sélectionnez la première option de la **[!UICONTROL Delivery]** section de la fenêtre.
+   * Agir sur la diffusion spécifiée dans la transition entrante. Pour cela, sélectionnez la première option de la section **[!UICONTROL Diffusion]** de la fenêtre.
 
       Cette option peut être utilisée lorsqu&#39;une activité précédente du workflow a déjà créé ou spécifié la diffusion. Cela peut avoir été effectué, comme dans l&#39;exemple ci-dessous, par une activité du même type ayant généré une transition sortante.
 
@@ -40,27 +40,27 @@ Pour la paramétrer, éditez l&#39;activité et renseignez les options de la dif
 
       ![](assets/specified_transition_option_exemple.png)
 
-   * Sélectionnez directement le  concerné. Pour ce faire, sélectionnez l’ **[!UICONTROL Explicit]** option et sélectionnez le  dans le déroulant du **[!UICONTROL Delivery]** champ.
+   * Sélectionner directement la diffusion concernée. Pour cela, sélectionnez l&#39;option **[!UICONTROL Explicite]** et choisissez la diffusion dans la liste déroulante du champ **[!UICONTROL Diffusion]**.
 
-      Le  affiche par défaut le inachevé  contenu dans le dossier **** . Pour accéder à d&#39;autres campagnes, cliquez sur l&#39; **[!UICONTROL Select link]** icône .
+      La liste propose les diffusions non terminées présentes dans le dossier de **Diffusions** par défaut. Pour accéder aux autres diffusions, cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]**.
 
       ![](assets/diffusion_edit_1.png)
 
-      Select the campaign from the drop-down list of the **[!UICONTROL Folder]** field, or click **[!UICONTROL Display sub-levels]** to display all of the deliveries contained in sub-folders:
+      Sélectionnez le dossier visé dans la liste déroulante du champ **[!UICONTROL Dossier]** ou cliquez sur **[!UICONTROL Afficher les fils]** pour afficher toutes les diffusions contenues dans les sous-dossiers :
 
       ![](assets/diffusion_edit_2.png)
 
-      After selecting the delivery action, you can display the content by clicking the **[!UICONTROL Edit link]** icon.
+      Une fois l&#39;action de diffusion sélectionnée, vous pouvez en visualiser le contenu en cliquant sur l&#39;icône **[!UICONTROL Editer le lien]**.
 
-   * Créez un script pour calculer le  du. Pour ce faire, sélectionnez l’ **[!UICONTROL Computed by a script]** option et saisissez le script. Vous pouvez ouvrir une fenêtre d’entrée en cliquant sur l’ **[!UICONTROL Edit...]** option. L’exemple suivant récupère l’identifiant de l’ :
+   * Créez un script pour calculer le  du. Pour ce faire, sélectionnez l’option **[!UICONTROL Calculé par un script]** et saisissez le script. Vous pouvez ouvrir une fenêtre de saisie en cliquant sur **[!UICONTROL Modifier...]** . L’exemple suivant récupère l’identifiant de l’ :
 
       ![](assets/diffusion_edit_3.png)
 
-   * Créez un nouveau  de. Pour ce faire, sélectionnez l’ **[!UICONTROL New, created from a template]** option et sélectionnez le  sur lequel le  sera basé.
+   * Créer une nouvelle diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Nouvelle, créée depuis un modèle]** et sélectionnez le modèle de diffusion à partir duquel sera créée la diffusion.
 
       ![](assets/diffusion_edit_4.png)
 
-      Click the **[!UICONTROL Select link]** icon to browse the folders, and click the **[!UICONTROL Edit link]** icon if you wish to view the content of the selected template.
+      Cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** pour parcourir les dossiers et sur l&#39;icône **[!UICONTROL Editer le lien]** si vous souhaitez visualiser le contenu du modèle sélectionné.
 
 1. **Destinataires**
 
@@ -82,26 +82,26 @@ Pour la paramétrer, éditez l&#39;activité et renseignez les options de la dif
 
    Sélectionnez le type d&#39;action à effectuer parmi les options disponibles :
 
-   * **[!UICONTROL Save]**: cette option vous permet de créer le  et de l’enregistrer. Il ne l&#39;analysera ni ne le livrera.
-   * **[!UICONTROL Estimate the target]**: cette option vous permet de calculer le   afin d’évaluer son potentiel (première phase dela première phase de l’). Cette action équivaut à sélectionner l’ **[!UICONTROL Estimate the population to be targeted]** option et à cliquer **[!UICONTROL Analyze]** lors de l’envoi d’un au principal par l’intermédiaire de l’ **** du.
-   * **[!UICONTROL Prepare]**: cette option vous permet d’exécuter le processus  de  complet (calcul de l’et préparation de contenu). Le  n&#39;est pas envoyé. Cette action équivaut à sélectionner l’ **[!UICONTROL Deliver as soon as possible]** option et à cliquer **[!UICONTROL Analyze]** lors de l’envoi d’un au principal avec des **** de.
-   * **[!UICONTROL Send a proof]**: cette option vous permet d’envoyer un du  de. Cette action équivaut à cliquer sur le **[!UICONTROL Send a proof]** bouton dans la barre d’outils d’un avec un ****
-   * **[!UICONTROL Prepare and start]**: cette option lance le processus de  de complet (calcul de l’et préparation du contenu) et envoie le. Cette action équivaut à cliquer sur **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** et **[!UICONTROL Confirm delivery]** sur l’option lors de l’envoi d’un au principal avec **des** de.
-   Le  de  **[!UICONTROL Act on a delivery]** utilisé plus loin dans le flux de travail vous permet de lancer toutes les étapes restantes requises pour démarrer le (calcul du, préparation du contenu,). For more on this, refer to [Delivery control](../../workflow/using/delivery-control.md).
+   * **[!UICONTROL Enregistrer]** : cette option permet de créer la diffusion et de l&#39;enregistrer. Aucune analyse ni envoi n&#39;est effectué.
+   * **[!UICONTROL Estimer la cible]** : cette option permet de calculer la cible de la diffusion afin d&#39;en évaluer son potentiel (première phase d&#39;analyse). Cette action équivaut à sélectionner l&#39;option **[!UICONTROL Estimer la population à cibler]** puis **[!UICONTROL Analyser]** lors de l&#39;envoi d&#39;une diffusion à la cible principale avec **Delivery**.
+   * **[!UICONTROL Préparer]** : cette option permet de lancer le processus d&#39;analyse complet (calcul de la cible et préparation du contenu). La diffusion n&#39;est pas envoyée. Cette action équivaut à sélectionner les options **[!UICONTROL Diffuser dès que possible]** puis **[!UICONTROL Analyser]** lors de l&#39;envoi d&#39;une diffusion à la cible principale avec **Delivery**.
+   * **[!UICONTROL Envoyer un bon à tirer (BAT)]** : cette option permet d&#39;envoyer un BAT de la diffusion. Cette action équivaut à sélectionner le bouton **[!UICONTROL Envoyer un BAT]** dans la barre d&#39;outils d&#39;une diffusion avec **Delivery**.
+   * **[!UICONTROL Préparer et démarrer]** : cette option lance le processus d&#39;analyse complet (calcul de la cible et préparation du contenu) et envoie la diffusion. Cette action équivaut à sélectionner les options **[!UICONTROL Diffuser dès que possible]**, **[!UICONTROL Analyser]**, puis **[!UICONTROL Confirmer l&#39;envoi]** lors de l&#39;envoi d&#39;une diffusion à la cible principale avec **Delivery**.
+   L’activité **[!UICONTROL Agir sur une diffusion]**, placée ultérieurement dans le workflow, vous permettra de lancer toutes les étapes restantes nécessaires au démarrage de la diffusion (calcul de la cible, préparation du contenu, diffusion). Voir à ce propos la section [Agir sur une diffusion](../../workflow/using/delivery-control.md).
 
    Les options suivantes sont également disponibles :
 
-   * **[!UICONTROL Generate an outbound transition]**
+   * **[!UICONTROL Générer une transition sortante]**
 
       Crée une transition sortante qui sera activée à la fin de l&#39;exécution. Vous pouvez choisir de récupérer la cible de l&#39;action de diffusion en sortie, ou non.
 
-   * **[!UICONTROL Do not recover target]**
+   * **[!UICONTROL Ne pas récupérer la cible]**
 
       Ne récupère pas la cible de l&#39;action de diffusion en sortie.
 
-   * **[!UICONTROL Processing errors]**
+   * **[!UICONTROL Traiter les erreurs]**
 
-      Reportez-vous au contrôle [](../../workflow/using/delivery-control.md).
+      Voir la section [Agir sur une diffusion](../../workflow/using/delivery-control.md).
    L&#39;onglet **Script** permet de modifier les paramètres de la diffusion.
 
    ![](assets/edit_diffusion_fil_script.png)
@@ -114,32 +114,32 @@ Créez un nouveau workflow et ajoutez des activités comme dans l&#39;exemple ci
 
 Ouvrez l&#39;activité **Diffusion** et définissez ses propriétés comme suit :
 
-* Dans la **[!UICONTROL Delivery]** section, sélectionnez **[!UICONTROL New, created from a template]** et sélectionnez un  de.
-* Dans la **[!UICONTROL Recipients]** section, sélectionnez **[!UICONTROL Specified in the delivery]**.
-* Dans la **[!UICONTROL Action to execute]** section, conservez l’ **[!UICONTROL Prepare]** option.
+* Dans la section **[!UICONTROL Diffusion]**, choisissez **[!UICONTROL Nouvelle, créée depuis un modèle]** et sélectionnez un modèle de diffusion.
+* Dans la section **[!UICONTROL Destinataires]**, choisissez **[!UICONTROL Spécifiés dans la diffusion]**.
+* Dans la section **[!UICONTROL Action à effectuer]**, conservez l&#39;option **[!UICONTROL Préparer]**.
 
 ![](assets/new-workflow-param-delivery.png)
 
-Cliquez sur **[!UICONTROL OK]** pour fermer la fenêtre de propriétés. Vous venez de configurer un   qui consiste à créer et à préparer un nouveau à partir d&#39;undont le sera spécifié.
+Cliquez sur **[!UICONTROL OK]** pour fermer la fenêtre de propriétés. Vous venez de configurer une activité consistant à créer et préparer une nouvelle diffusion depuis un modèle de diffusion dont la cible sera celle spécifiée dans le modèle.
 
 Ouvrez l&#39;activité **Validation** et définissez ses propriétés comme suit :
 
-1. Dans le **[!UICONTROL Assignment type]** champ, sélectionnez un groupe dans lequel vous êtes enregistré. Si vous êtes connecté à l’aide du compte &quot;admin&quot;, sélectionnez le groupe Administration.
+1. Dans le champ **[!UICONTROL Assignation]**, sélectionnez un groupe dans lequel vous êtes inscrit. Si vous êtes connecté avec le compte &#39;admin&#39;, choisissez le groupe Administration.
 1. Saisissez ensuite un titre et insérez le texte suivant dans le corps du message :
 
    ```
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   Il s’agit d’un message qui comprend un   écrit en JavaScript : **[!UICONTROL vars.recCount]** représente le nombre de ciblés par le de la  précédente. Pour plus d’informations sur le  JavaScript, reportez-vous à la section Scripts [JavaScript et modèles](../../workflow/using/javascript-scripts-and-templates.md).
+   Il s’agit d’un message incluant une expression JavaScript : l’expression **[!UICONTROL vars.recCount]** représente le nombre de destinataires ciblés par la diffusion de la tâche qui précède. Pour plus d’informations sur les expressions JavaScript, voir la section [Scripts/Templates JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
 
    ![](assets/new-workflow-param-validation.png)
 
-   The Approval task is detailed in [Approval](../../workflow/using/approval.md).
+   La tâche de validation est présentée dans la section [Validation](../../workflow/using/approval.md).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
-Identifiant , si l’ **[!UICONTROL Specified in the transition]** option est sélectionnée dans la **[!UICONTROL Delivery]** section.
+Identifiant de la diffusion, si l&#39;option **[!UICONTROL Spécifiée par la transition]** est sélectionnée dans la partie **[!UICONTROL Diffusion]**.
 
 * deliveryId
 * tableName
@@ -149,15 +149,15 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 
 >[!NOTE]
 >
->Ce paramètre s’affiche uniquement si l’ **[!UICONTROL Specified by inbound event(s)]** option est sélectionnée dans la **[!UICONTROL Recipients]** section.
+>Ce paramètre n&#39;apparaît que si l&#39;option **[!UICONTROL Spécifiés par le ou les événements entrants]** est sélectionnée dans la partie **[!UICONTROL Destinataires]**.
 
 * filename
 
-   Nom complet du fichier généré si l’ **[!UICONTROL File(s) specified by inbound event(s)]** option est sélectionnée dans la **[!UICONTROL Recipients]** section.
+   Nom complet du fichier généré, si l&#39;option **[!UICONTROL Fichier(s) spécifié(s) par le ou les événements entrants]** est sélectionnée dans la partie **[!UICONTROL Destinataires]**.
 
 * contentId
 
-   Identifiant du contenu si l’ **[!UICONTROL Specified by inbound events]** option est sélectionnée dans la **[!UICONTROL Content]** section.
+   Identifiant du contenu, lorsque l&#39;option **[!UICONTROL Spécifié par l&#39;événement entrant]** est sélectionnée dans la partie **[!UICONTROL Contenu]**.
 
 ## Paramètres de sortie {#output-parameters}
 
@@ -165,11 +165,11 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 * schema
 * recCount
 
-Cet ensemble de trois valeurs identifie le  résultant de la  de. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants du , **[!UICONTROL schema]** est le de la population (généralement nms: **[!UICONTROL recCount]** ) etest le nombre d&#39;éléments dans le tableau.
+Ce triplet de valeurs identifie la cible résultant de la diffusion. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
 La transition associée au complémentaire possède les mêmes paramètres.
 
 >[!NOTE]
 >
->Il n’existe aucun paramètre de sortie lorsque l’ **[!UICONTROL Do not recover target]** option est sélectionnée.
+>Il n&#39;y a aucun paramètre de sortie lorsque l&#39;option **[!UICONTROL Ne pas récupérer la cible]** est sélectionnée.
 
