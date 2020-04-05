@@ -26,7 +26,7 @@ Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Ad
 
 >[!CAUTION]
 >
->Nous vous recommandons vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. For more information, refer to [Backup](../../production/using/backup.md).\
+>Nous vous recommandons vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. Voir à ce sujet [Sauvegarde](../../production/using/backup.md).\
 >Pour effectuer une mise à jour, vérifiez que vous avez la possibilité et les permissions d&#39;accéder aux instances et aux logs.
 
 >[!NOTE]
@@ -38,7 +38,7 @@ Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Ad
 Pour mettre à jour Adobe Campaign dans une nouvelle version lors de la livraison d&#39;un nouveau build, la procédure sous Windows est la suivante :
 
 * [Arrêter les services](#shut-down-services),
-* [Mettez à niveau l’application](#upgrade-the-adobe-campaign-server-application)serveur Adobe Campaign,
+* [Mettre à jour l’application de serveur Adobe Campaign](#upgrade-the-adobe-campaign-server-application).
 * [synchroniser les ressources](#synchronize-resources),
 * [Redémarrer les services](#restart-services).
 
@@ -57,9 +57,9 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
    * service Adobe Campaign : **net stop nlserver6**
    >[!CAUTION]
    >
-   >You also need to make sure the redirection server (webmdl) is stopped, so that the **nlsrvmod.dll** file used by IIS can be replaced with the new version.
+   >Vous devez également vous assurer que le serveur de redirection (webmdl) est arrêté afin que le fichier **nlsrvmod.dll**, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
 
-1. Vérifiez qu’aucune tâche n’est active en exécutant la commande **nlserver pdump** . Voici ce qui devrait apparaître :
+1. Vérifiez qu’aucune tâche n’est active en exécutant la commande **nlserver pdump**. Voici ce qui devrait apparaître :
 
    ```
    C:<installation path>Adobe Campaign v7bin>nlserver pdump
@@ -91,7 +91,7 @@ Utilisez la commande:
 
 **nlserver config -postupgrade -allinstances**
 
-Vous pourrez ainsi effectuer les opérations suivantes :
+Vous pourrez ainsi effectuer les opérations suivantes :
 
 * synchroniser les ressources,
 * mettre à jour les schémas,
@@ -101,7 +101,7 @@ Vous pourrez ainsi effectuer les opérations suivantes :
 >
 >Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif (**nlserver web**).
 
-Vérifiez ensuite si la synchronisation a généré des erreurs ou des avertissements. Pour plus d’informations, reportez-vous à la section [Résolution des conflits](#resolving-upgrade-conflicts)de mise à niveau.
+Vérifiez ensuite si la synchronisation a généré des erreurs ou des avertissements. Voir à ce sujet la section [Résoudre les conflits de mise à jour](#resolving-upgrade-conflicts).
 
 ### Redémarrer les services {#restart-services}
 
@@ -161,7 +161,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. Pour plus d’informations, reportez-vous à la section [Résolution des conflits](#resolving-upgrade-conflicts)de mise à niveau.
+>Les procédures complètes d’installation sont décrites dans [cette section](../../installation/using/installing-campaign-standard-packages.md). La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur. Voir à ce sujet la section [Résoudre les conflits de mise à jour](#resolving-upgrade-conflicts).
 
 ### Redémarrer le serveur web {#reboot-the-web-server}
 
@@ -190,7 +190,7 @@ Puis redémarrez Apache :
 
 ## Résoudre les conflits de mise à jour {#resolving-upgrade-conflicts}
 
-During resource synchronization, the **postupgrade** command enables you to detect whether synchronization has generated errors or warnings.
+Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
 ### Consulter le résultat de la synchronisation {#view-the-synchronization-result}
 
@@ -209,7 +209,7 @@ Le résultat de la synchronisation peut être consulté de deux manières :
 
    Si l&#39;avertissement concerne un conflit de ressources, il requiert l&#39;intervention de l&#39;utilisateur pour être résolu.
 
-* Le fichier journal **post-upgrade_`<server version number>_<time of postupgrade>`.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **`<installation directory>/var/<instance/postupgrade`**. Les erreurs et les avertissements sont indiqués par les attributs d’erreur et d’avertissement.
+* Le fichier de log **post-upgrade_`<server version number>_<time of postupgrade>`.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **`<installation directory>/var/<instance/postupgrade`**. Les erreurs et les avertissements sont indiqués par les attributs d’erreur et d’avertissement.
 
 ### Résoudre un conflit {#resolving-conflicts}
 
@@ -230,11 +230,11 @@ Il existe trois possibilités de résoudre un conflit :
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
-1. In the lower section of the window, search for the **_conflict_** string to locate the entities with conflicts. The entity installed with the new version contains the **new** argument, the entity that matches the previous version contains the **cus** argument.
+1. Dans la partie inférieure de la fenêtre, effectuez une recherche sur la chaîne **_conflit_** pour localiser les entités en conflit. L’entité installée avec la nouvelle version contient l’argument **new**, l’entité correspondant à la version précédente contient l’argument **cus**.
 
    ![](assets/s_ncs_production_conflict002.png)
 
-1. Delete the version you don&#39;t want to keep. Delete the **_conflict_argument_** string of the entity you are keeping.
+1. Supprimez la version que vous ne souhaitez pas conserver. Effacez la chaîne **_conflict_argument_** de l’entité que vous gardez.
 
    ![](assets/s_ncs_production_conflict003.png)
 
@@ -251,7 +251,7 @@ Par exemple, une base de données unicode ne doit pas autoriser uniquement le st
 
 ### Sous Windows {#in-windows-1}
 
-On the machine where the (**nlserver web**) Adobe Campaign application server is installed, download and copy the file
+Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (**nlserver web**), téléchargez puis copiez le fichier.
 
 **setup-client-6.** XXXX **.exe**
 
@@ -265,7 +265,7 @@ Ainsi, à la prochaine connexion des postes clients, une fenêtre indiquera aux 
 
 ### Sous Linux {#in-linux-1}
 
-On the machine where the Adobe Campaign application server (**nlserver web**) is installed, retrieve the following package:
+Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (**nlserver web)**, récupérez le package suivant :
 
 **setup-client-6.** XXXX **.exe**
 
