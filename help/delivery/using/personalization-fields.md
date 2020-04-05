@@ -28,7 +28,7 @@ Par exemple, le champ de personnalisation de syntaxe **&lt;%= recipient.LastName
 
 >[!NOTE]
 >
->Le contenu des champs de personnalisation ne peut pas dépasser 1 024 caractères.
+>Le contenu des champs de personnalisation ne peut pas dépasser 1 024 caractères.
 
 ## Sources de données {#data-sources}
 
@@ -111,12 +111,12 @@ Une fois l&#39;analyse terminée, accédez aux **[!UICONTROL Propriétés]** du 
 
 Pour améliorer la protection de la diffusion, vous pouvez définir un délai d’expiration pour la phase de personnalisation.
 
-Dans l’onglet **[!UICONTROL Livraison]** des propriétés **[!UICONTROL de]** diffusion, sélectionnez une valeur maximale en secondes pour l’option Temps **[!UICONTROL d’exécution de la personnalisation]** maximum.
+Dans l’onglet **[!UICONTROL Livraison]** des **[!UICONTROL Propriétés de diffusion]**, sélectionnez une valeur maximale en secondes pour l’option **[!UICONTROL Durée maximale d’exécution de la personnalisation]**.
 
 Lors de l’aperçu ou de l’envoi, si la phase de personnalisation dépasse la durée maximale définie dans ce champ, le processus est abandonné avec un message d’erreur et la diffusion échoue.
 
 ![](assets/perso_time-out.png)
 
-La valeur par défaut est de 5 secondes.
+La valeur par défaut est de 5 secondes.
 
 Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pour la phase de personnalisation.
