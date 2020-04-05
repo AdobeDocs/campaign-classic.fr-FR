@@ -1,7 +1,7 @@
 ---
-title: A propos de la hiérarchie de navigation
-seo-title: A propos de la hiérarchie de navigation
-description: A propos de la hiérarchie de navigation
+title: A propos de l’arborescence de navigation
+seo-title: A propos de l’arborescence de navigation
+description: A propos de l’arborescence de navigation
 seo-description: null
 page-status-flag: never-activated
 uuid: 3fc31f78-2de7-4fb2-b951-71c87d4f0cfe
@@ -20,7 +20,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 ---
 
 
-# A propos de la hiérarchie de navigation{#about-navigation-hierarchy}
+# A propos de l’aborescence de navigation{#about-navigation-hierarchy}
 
 L&#39;arborescence de navigation utilise le principe d&#39;un explorateur de fichiers (par exemple l&#39;Explorateur Windows®). Un dossier peut contenir un ensemble de sous-dossiers. La sélection d&#39;un noeud fait apparaître la vue correspondante au noeud.
 
