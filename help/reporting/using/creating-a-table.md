@@ -32,7 +32,7 @@ Un tableau de type **[!UICONTROL Liste avec groupement]** vous permet de regroup
 
 >[!CAUTION]
 >
->The **[!UICONTROL Page]** activity containing the table must be preceded by a **[!UICONTROL Query]** or **[!UICONTROL Script]** activity to collect the data to be analyzed in the report. Pour plus d’informations sur ces activités, reportez-vous à la section [Collecte de données pour analyser](../../reporting/using/collecting-data-to-analyze.md) l’activité [de](../../reporting/using/advanced-functionalities.md#script-activity)script.
+>L&#39;activité **[!UICONTROL Page]** qui contient le tableau doit être précédée d&#39;une activité **[!UICONTROL Requête]** ou **[!UICONTROL Script]** afin de collecter les données qui seront analysées dans le rapport. Voir à ce sujet les sections [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md) et [Activité Script](../../reporting/using/advanced-functionalities.md#script-activity).
 
 ### Principe de fonctionnement {#operating-principle}
 
@@ -46,20 +46,20 @@ Il permet de répertorier la liste des opérations (**[!UICONTROL Libellé (Opé
 
 ### Etapes de mise en oeuvre {#implementation-steps}
 
-Un exemple complet de mise en oeuvre est fourni ici : Cas [d’utilisation : Créez un rapport avec une liste](#use-case--create-a-report-with-a-group-list)de groupes.
+Un exemple complet de mise en œuvre est proposé ici : [Cas pratique : créer un rapport avec une liste avec groupement](#use-case--create-a-report-with-a-group-list).
 
 Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;Liste avec groupement&#39; sont les suivantes :
 
-1. Go to the report chart and place a **[!UICONTROL Query]** activity. Reportez-vous à la section [Collecte de données à analyser](../../reporting/using/collecting-data-to-analyze.md).
+1. Dans le diagramme d&#39;un rapport, positionnez une activité **[!UICONTROL Requête]**. Voir à ce sujet la section [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 1. Renseigner la table source et sélectionner les champs de la table sur lesquels porteront les statistiques.
-1. Placez une activité **[!UICONTROL Page]** dans le graphique. Voir à ce sujet la section [Eléments statiques](../../reporting/using/creating-a-new-report.md#static-elements).
+1. Positionnez une activité **[!UICONTROL Page]** dans le diagramme. Voir à ce sujet la section [Eléments statiques](../../reporting/using/creating-a-new-report.md#static-elements).
 1. Insérer un tableau de type **[!UICONTROL Liste avec groupement]** dans la page.
 1. Indiquer le chemin des données, soit la table choisie comme source de données dans la requête.
 
    Cette étape est indispensable pour retrouver les champs de la table source et les insérer par la suite dans les cellules du tableau.
 
 1. Créer le tableau et son contenu.
-1. Display the finalized report in the **[!UICONTROL Preview]** tab. You can then publish the report and export it into a different format if necessary. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+1. Affichez le rapport finalisé dans l&#39;onglet **[!UICONTROL Prévisualisation]**. Vous pouvez ensuite publier le rapport et l&#39;exporter vers un autre format. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 ### Ajouter des lignes et des colonnes {#adding-lines-and-columns}
 
@@ -131,7 +131,7 @@ Pour définir le format de cellule, le menu **[!UICONTROL Format de la cellule..
 
 Ces options permettent de personnaliser le rendu final du rapport et en optimiser la lisibilité des informations.
 
-Use the **[!UICONTROL Carriage return]** field when exporting data to Excel: select the **[!UICONTROL Yes]** value to force the carriage return. This value will be kept when exporting. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+Utilisez le champ **[!UICONTROL Retour à la ligne]** dans le cadre d&#39;un export des données vers Excel : choisissez la valeur **[!UICONTROL Oui]** pour forcer le retour à la ligne. Cette valeur sera conservée lors de l&#39;export. Voir à ce sujet la section [Exporter un rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 La fenêtre **[!UICONTROL Format de la cellule]**, vous permet d&#39;accéder aux onglets suivants :
 
@@ -198,7 +198,7 @@ Dans l&#39;exemple ci-dessous, cliquer sur la valeur dans la cellule vous permet
 
 ![](assets/s_advuser_ergo_listgroup_015.png)
 
-The **Extra** tab lets you link a visual to your data, such as a colored mark or a value bar. The colored mark is used when the table is shown as a legend in a chart. Pour plus d’informations, reportez-vous à l’exemple d’implémentation : [Étape 5 - Création de la deuxième page](#step-5---create-the-second-page)
+L&#39;onglet **Plus** permet d&#39;associer un visuel sur vos données une pastille de couleur ou une barre de valeur. La pastille de couleur est utilisée lorsque le tableau est affiché comme légende d&#39;un graphique. Voir à ce propos l&#39;exemple de mise en œuvre : [Etape 5- Créez la seconde page](#step-5---create-the-second-page)
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
@@ -275,7 +275,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_004.png)
 
-1. **[!UICONTROL Cliquez sur les données]** Table XPath... et sélectionnez le lien de diffusion, c.-à-d. `[query/delivery]`.
+1. Cliquez sur le lien **[!UICONTROL Chemin des données du tableau]** et sélectionnez le lien des diffusions, soit `[query/delivery]`
 
    ![](assets/s_advuser_report_listgroup_005.png)
 
@@ -309,7 +309,7 @@ Dans cette étape, nous allons paramétrer la première page du rapport. Pour la
 
    ![](assets/s_advuser_report_listgroup_0112.png)
 
-1. In the lower section of the window, click **[!UICONTROL Add]** and specify the **`/vars/selectedDelivery`** path and the **[!UICONTROL @deliveryId]** expression that matches the alias of the primary key of the delivery, as defined in the query created previously. Cette formule vous permet d’accéder à la remise sélectionnée.
+1. Dans la section inférieure de la fenêtre, cliquez sur **[!UICONTROL Ajouter]** et indiquez le chemin **`/vars/selectedDelivery`** et l&#39;expression **[!UICONTROL @deliveryId]**, qui correspond à l&#39;alias de la clé primaire de la diffusion, tel que défini dans la requête créée précédemment. Cette formule permet d&#39;accéder à la diffusion sélectionnée.
 
    ![](assets/s_advuser_report_listgroup_010.png)
 
@@ -392,7 +392,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    Ajoutez une condition de filtrage afin de ne collecter que les informations liées à la diffusion sélectionnée.
 
-   The syntax is as follows: Foreign key of the &#39;Delivery&#39; link equals the value of the setting `$([vars/selectedDelivery])`
+   La syntaxe est la suivante : Clé étrangère du lien &#39;Diffusion&#39; égale à la valeur du paramètre `$([vars/selectedDelivery])`
 
    ![](assets/s_advuser_report_listgroup_017.png)
 
@@ -423,7 +423,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
    * Dans la 3e cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL count(clé primaire)]**.
    ![](assets/s_advuser_report_listgroup_019.png)
 
-1. Add a pie chart to the page using the right-click menu and assign the **Email domains** label to it. Pour plus d’informations, voir Types de [graphiques et variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
+1. Ajoutez un graphique en secteurs dans la page à l&#39;aide du menu contextuel et attribuez-lui le libellé **Domaines d&#39;email**. Voir à ce sujet la section [Types de graphiques et leurs variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
 1. Cliquez sur le lien **[!UICONTROL Variantes]** et déselectionnez les options **[!UICONTROL Afficher les libellés]** et **[!UICONTROL Afficher la légende]**.
 1. Vérifiez qu&#39;aucun tri de valeurs n&#39;est paramétré. Reportez-vous à [cette section](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report) pour plus d&#39;informations sur ce sujet.
 
