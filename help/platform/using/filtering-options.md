@@ -32,10 +32,10 @@ Ces données peuvent être filtrées à partir des options situées dans la sect
 
 Plusieurs modes de filtrage des informations affichées sont possibles. Au besoin, ils peuvent être cumulés :
 
-* Filtrage sur les dossiers, reportez-vous à la section [Filtrage par dossier](#filter-by-folder),
-* Filtrer par état, reportez-vous à la section [Filtrer par état](#filter-by-status),
-* Tri des données, reportez-vous à la section [Ordre par](#order-by),
-* Recherchez, reportez-vous à la section [Recherche](#quick-search)rapide.
+* Filtrage par dossier, voir la section [Filtrer par dossier](#filter-by-folder),
+* Filtrage par statut, voir la section [Filtrer par statut](#filter-by-status),
+* Tri des données, voir la section [Ordre de tri](#order-by),
+* Recherche, voir la section [Recherche rapide](#quick-search).
 
 ## Filtrer par dossier {#filter-by-folder}
 
