@@ -74,7 +74,7 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    Pour définir un planning pour l&#39;activité, cliquez sur l&#39;onglet **[!UICONTROL Planning]** et cochez l&#39;option **[!UICONTROL Planifier l&#39;exécution]**. Cliquez ensuite sur le bouton **[!UICONTROL Changer]** pour configurer le planning.
 
-   La configuration de planification est la même que pour l’activité de planification. Reportez-vous au [Planificateur](../../workflow/using/scheduler.md).
+   Le paramétrage du planning est le même que celui de l&#39;activité de planification. Voir à ce propos la section [Planificateur](../../workflow/using/scheduler.md).
 
 1. **[!UICONTROL Expiration]**
 
@@ -82,5 +82,5 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    ![](assets/email_rec_edit_3.png)
 
-   La configuration est la même que pour l’activité de planification. Reportez-vous à [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
+   Le paramétrage est le même que celui de l&#39;activité de planification. Voir la section [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
 
