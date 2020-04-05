@@ -83,7 +83,7 @@ Consultez l&#39;article [Configurer les connecteurs CRM](../../platform/using/cr
 
 Si vous rencontrez des problèmes tels que le reflet correct des nouveaux logos, afin de pouvoir exporter avec succès les données spécifiques à l’ordinateur ou à l’utilisateur, vous devrez peut-être effectuer une suppression du cache logiciel avec Windows (Windows 7, Windows XP, Windows 10).
 
-Une fois connecté, accédez à **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**. Ensuite, déconnectez-vous et reconnectez-vous.
+Une fois connecté, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Effacer le cache]** local. Ensuite, déconnectez-vous et reconnectez-vous.
 
 ![](assets/faq_soft_cache.png)
 
@@ -93,7 +93,7 @@ Si cela ne vous aide toujours pas, essayez d&#39;effacer le cache dur en suivant
 
 Si vous rencontrez des problèmes tels que le reflet correct des nouveaux logos, afin de pouvoir exporter avec succès les données spécifiques à l’ordinateur / à l’utilisateur, vous devrez peut-être effectuer une suppression du cache disque avec Windows (Windows 7, Windows XP, Windows 10).
 
-1. Dans la console client, choisissez **[!UICONTROL File]** > **[!UICONTROL Clear the local cache]**.
+1. Dans la console client, choisissez **[!UICONTROL Fichier]** > **[!UICONTROL Effacer le cache]** local.
 
 1. Déconnectez-vous et fermez la console client (client riche).
 
