@@ -22,13 +22,13 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 # Concevoir une application web{#designing-a-web-application}
 
-Web applications are created and managed according to the same principle as [online surveys](../../web/using/about-surveys.md).
+Les applications Web sont créées et gérées suivant le même principe que les [questionnaires en ligne](../../web/using/about-surveys.md).
 
 Toutefois, les différences fonctionnelles sont les suivantes :
 
 * Les applications Web n&#39;utilisent pas de champs archivés. Le stockage des informations ne peut donc se faire que dans des champs de la base ou dans des variables locales.
-* Il n&#39;existe aucun rapport intégré sur les applications Web.
-* Des champs supplémentaires sont offerts, principalement pour la création de tableaux et de graphiques.
+* Il n&#39;existe pas de rapports natifs sur les applications Web.
+* Des champs supplémentaires sont proposés, principalement pour la création de tableaux et de graphiques.
 
 >[!CAUTION]
 >
@@ -64,7 +64,7 @@ Elles se présentent dans l&#39;interface sous la forme de tableaux de bord et e
 
 Les applications web d&#39;usine sont stockées sous le nœud **[!UICONTROL Administration > Paramétrage > Applications web]**.
 
-## Modification d&#39;applications Web de type formulaire {#edit-forms-type-web-applications}
+## Applications web de type formulaires d&#39;édition{#edit-forms-type-web-applications}
 
 Les applications web de type formulaires d&#39;édition pour un extranet sont caractérisées par :
 
