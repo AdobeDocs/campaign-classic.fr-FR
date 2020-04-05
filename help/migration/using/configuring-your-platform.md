@@ -32,7 +32,7 @@ Exemples d&#39;éléments à vérifier :
 * L&#39;attribut **tablespace** reprend ses valeurs par défaut, c&#39;est-à-dire celles définies dans l&#39;assistant de déploiement.
 * Si vous avez ajouté une vue qui référence la table NmsRecipient, vous devez la supprimer avant la migration.
 
-This warning also concerns Oracle users: if you have added the **usetimestamptz:1** option during a postupgrade (see [Time zones](../../migration/using/general-configurations.md#time-zones)), all tables containing at least one **date+time** field are rebuilt.
+Cet avertissement concerne également les utilisateurs d&#39;Oracle : si vous ajoutez l&#39;option **-usetimestamptz:1** lors du postupgrade (voir la section [Fuseaux horaires](../../migration/using/general-configurations.md#time-zones)), toutes les tables contenant au moins un champ **date+time** sont reconstruites.
 
 ## Avant la migration {#before-the-migration}
 
@@ -42,33 +42,33 @@ Dans le cadre d&#39;une migration vers Adobe Campaign v7, les éléments suiva
 
    Dans le cadre d&#39;une migration depuis une plateforme v5.11, vous devez indiquer le fuseau horaire à utiliser lors du postupgrade.
 
-   If you wish to use the &quot;multi timezone&quot; mode, refer to the [Time zones](../../migration/using/general-configurations.md#time-zones) section.
+   Si vous souhaitez utiliser le mode « multi timezone », consultez la section [Fuseaux horaires](../../migration/using/general-configurations.md#time-zones).
 
-   Si vous utilisez Oracle comme base de données, vérifiez que les fichiers de fuseau horaire Oracle ont été correctement synchronisés entre le serveur d’applications et le serveur de base de données. For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
+   Si vous utilisez Oracle comme moteur de base de données, vérifiez que les fichiers de fuseaux horaires Oracle sont bien synchronisés entre le serveur applicatif et le serveur de base. Voir à ce propos la section [Oracle](../../migration/using/general-configurations.md#oracle).
 
 * Zones de sécurité
 
    Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter, avant la migration, les adresses IP des utilisateurs.
 
-   For more information, refer to the [Security](../../migration/using/general-configurations.md#security) section.
+   Voir à ce sujet la section [Sécurité](../../migration/using/general-configurations.md#security).
 
 * Syntaxe
 
-   Certaines syntaxes dans JavaScript peuvent être acceptées dans les versions 5.11 et 6.02 et ne sont plus acceptées dans la version v7, en raison de l’utilisation d’un nouvel interprète. For more information, refer to the [JavaScript](../../migration/using/general-configurations.md#javascript) section.
+   Certaines syntaxes en JavaScript pouvaient être tolérées dans les versions 5.11 et 6.02 et ne le seront plus dans la v7 du fait de l&#39;utilisation d&#39;un nouvel interpréteur. Voir à ce sujet la section [JavaScript](../../migration/using/general-configurations.md#javascript).
 
-   De même, une nouvelle syntaxe est introduite dans Adobe Campaign v7 pour remplacer la syntaxe basée sur SQLData. Si vous utilisez des éléments de code avec cette syntaxe, vous devez les adapter. For more information, refer to the [SQLData](../../migration/using/general-configurations.md#sqldata) section.
+   Parallèlement, une nouvelle syntaxe est introduite dans Adobe Campaign v7 pour remplacer celle basée sur SQLData. Si vous utilisez des éléments de code avec cette syntaxe, vous devez les adapter. Voir à ce sujet la section [SQLData](../../migration/using/general-configurations.md#sqldata).
 
 * Mots de passe
 
-   Vous devez configurer les mots de passe **Admin** et **Interne** . For more information, refer to the [User passwords](../../migration/using/before-starting-migration.md#user-passwords) section.
+   Vous devez configurer les mots de passe **Admin** et **Interne**. Pour plus d&#39;informations, consultez la section [Mots de passe des opérateurs](../../migration/using/before-starting-migration.md#user-passwords).
 
 * Arborescence
 
-   Si vous effectuez une migration à partir d’une plateforme v5.11, vous devez réorganiser les dossiers de structure en arborescence conformément aux normes Adobe Campaign v6. Pour plus d’informations, reportez-vous à la section Structure [de l’arborescence d’](../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure) Adobe Campaign v7.
+   Si vous effectuez une migration à partir d&#39;une plateforme v5.11, vous devez réorganiser les dossiers de l&#39;arborescence conformément aux normes Adobe Campaign v6. Pour plus d&#39;informations, voir la section [Arborescence Adobe Campaign v7](../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure).
 
 * Interaction
 
-   Si vous utilisez **Interaction**, vous devez supprimer toutes les références de schéma 6.02 qui n’existent plus dans v7. For more information, refer to the [Interaction](../../migration/using/general-configurations.md#interaction) section.
+   Si vous utilisez **Interaction**, vous devez supprimer toutes les références au schéma 6.02 qui n&#39;existent plus dans v7. Voir à ce sujet la section [Interaction](../../migration/using/general-configurations.md#interaction).
 
 ## Après la migration {#after-the-migration}
 
@@ -84,55 +84,55 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 
 * Syntaxe
 
-   If you encounter any errors related to the syntax, during the postupgrade, you must temporarily activate the **allowSQLInjection** option in the **serverConf.xml** file, as this gives you time to rewrite the code. Once the code is adapted, be sure to reactivate the security. For more on this, refer to the [SQLData](../../migration/using/general-configurations.md#sqldata) section.
+   Si vous rencontrez des erreurs, lors du postupgrade, liées à la syntaxe SQLData, vous devez temporairement activer l&#39;option **allowSQLInjection** dans le fichier **serverConf.xml**, le temps de réécrire le code. Une fois le code adapté, n&#39;oubliez pas de réactiver la sécurité. Voir à ce propos la section [SQLData](../../migration/using/general-configurations.md#sqldata).
 
 * Conflits
 
    La migration étant effectuée au travers d&#39;un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web. Ces conflits peuvent être résolus manuellement depuis la console.
 
-   See the [Conflicts](../../migration/using/general-configurations.md#conflicts) section.
+   Consultez la section [Conflits](../../migration/using/general-configurations.md#conflicts).
 
 * Tomcat
 
-   Si vous avez personnalisé le dossier d’installation, vérifiez qu’il est correctement mis à jour après la migration. Pour plus de détails, reportez-vous à la section [Tomcat](../../migration/using/general-configurations.md#tomcat) .
+   Si vous avez personnalisé le dossier d&#39;installation, vérifiez qu&#39;il est correctement mis à jour après la migration. Pour plus de détails, voir la section [Tomcat](../../migration/using/general-configurations.md#tomcat).
 
 * Rapports 
 
    Tous les rapports d&#39;usine utilisent à présent le moteur de rendu v6.x. Si vous aviez ajouté du code javascript dans ces rapports, certains éléments peuvent être altérés.
 
-   Consult the [Reports](../../migration/using/general-configurations.md#reports) section.
+   Consultez la section [Rapports](../../migration/using/general-configurations.md#reports).
 
 * Applications Web
 
-   After the postupgrade, if you have any problems connecting to your identified Web applications, you must activate the **allowUserPassword** and **sessionTokenOnly** options in the **serverConf.xml** file. Remember to then deactivate these two options. Pour plus d&#39;informations, consultez la section Applications [Web](../../migration/using/general-configurations.md#identified-web-applications) identifiées.
+   Après le postupgrade, si vous rencontrez des problèmes de connexion à vos applications Web identifiées, vous devez activer les options **allowUserPassword** et **sessionTokenOnly** dans le fichier **serverConf.xml**. N&#39;oubliez pas de désactiver ensuite ces deux options. Pour plus d&#39;informations, consultez la section [Applications Web identifiées](../../migration/using/general-configurations.md#identified-web-applications).
 
    Selon le type d&#39;applications Web et leur configuration, vous devez effectuer des manipulations complémentaires pour en assurer le bon fonctionnement.
 
-   Voir la section Applications [](../../migration/using/general-configurations.md#web-applications) Web.
+   Voir la section [Applications Web](../../migration/using/general-configurations.md#web-applications).
 
-   If migrating from a v5.11 platform, additional configurations must be carried out: for more information, refer to the [Web applications](../../migration/using/specific-configurations-in-v5-11.md#web-applications) section.
+   Dans le cadre d&#39;une migration depuis une plateforme v5.11, des paramétrages additionnels doivent être réalisés. Voir à ce propos la section [Applications Web](../../migration/using/specific-configurations-in-v5-11.md#web-applications).
 
 * Zones de sécurité
 
-   Avant de démarrer le serveur, vous devez configurer les zones de sécurité. Pour plus d&#39;informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones) et la section [Sécurité](../../migration/using/general-configurations.md#security) .
+   Avant de démarrer le serveur, vous devez configurer les zones de sécurité. Pour plus d&#39;informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones) et la section [Sécurité](../../migration/using/general-configurations.md#security).
 
 * Schémas
 
-   Dans Red Hat, vous pouvez rencontrer des erreurs lors de la modification de certains schémas. For more on this, refer to the [Red-Hat](../../migration/using/general-configurations.md#red-hat) section.
+   Dans Red Hat, vous pouvez rencontrer des erreurs lors de l&#39;édition de certains schémas. Voir à ce propos la section [Red Hat](../../migration/using/general-configurations.md#red-hat).
 
 * Workflows
 
-   Si vous effectuez une migration à partir d’une plateforme v5.11, vous devez contrôler le répertoire d’exécution des processus. For more on this, refer to the [Workflows](../../migration/using/specific-configurations-in-v5-11.md#workflows) section.
+   Si vous effectuez une migration à partir d&#39;une plateforme v5.11, vous devez contrôler le répertoire d&#39;exécution des workflows. Voir à ce propos la section [Workflows](../../migration/using/specific-configurations-in-v5-11.md#workflows).
 
 * Effectuer un tracking
 
-   Si vous effectuez une migration depuis une plateforme v5.11, vous devez configurer le mode de suivi. Voir à ce sujet la section [Suivre les ](../../migration/using/specific-configurations-in-v5-11.md#tracking).
+   Si vous effectuez une migration à partir d&#39;une plateforme v5.11, vous devez configurer le mode de tracking. Voir à ce sujet la section [Suivre les ](../../migration/using/specific-configurations-in-v5-11.md#tracking).
 
 * Page d&#39;accueil 
 
-   If migrating from a v6.02 platform, you may define additional parameters to keep your old home page from v6.02. For more on this, refer to the [User friendliness: Home page and navigation](../../migration/using/specific-configurations-in-v6-02.md#user-friendliness--home-page-and-navigation) section.
+   Dans le cadre d&#39;une migration depuis une plateforme v6.02, vous pouvez définir des paramètres additionnels afin de conserver votre ancienne page d&#39;accueil v6.02. Voir à ce propos la section [Ergonomie : page d&#39;accueil et navigation](../../migration/using/specific-configurations-in-v6-02.md#user-friendliness--home-page-and-navigation).
 
 * Interaction
 
-   Si vous utilisez **Interaction**, vous devez ajuster les paramètres après la migration. For more on this, refer to the [Interaction](../../migration/using/general-configurations.md#interaction) section.
+   Si vous utilisez **Interaction**, vous devez ajuster les paramètres après la migration. Voir à ce propos la section [Interaction](../../migration/using/general-configurations.md#interaction).
 
