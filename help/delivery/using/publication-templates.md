@@ -52,7 +52,7 @@ Pour paramétrer le modèle de publication, indiquez le nom du modèle (c&#39;es
 >
 >Le libellé apparaîtra lors de la création d&#39;un contenu à partir de ce modèle de publication.
 
-The **Check status to validate content generation** option forces a check on the &quot;Validated&quot; status of the content instances to authorize file generation. For more on this, refer to [Publication](#publication).
+L’option **Vérifier le statut pour valider la génération du contenu** force la vérification du statut « Validé » des instances de contenu pour autoriser la génération du fichier. Pour plus d’informations, consultez la section [Publication](#publication).
 
 Un modèle de transformation doit être ajouté pour chaque document de sortie. Vous pouvez créer autant de modèles de transformation que nécessaire.
 
@@ -75,10 +75,10 @@ La publication consiste à générer le document de sortie sous la forme d&#39;u
 Les options de publication disponibles sont les suivantes :
 
 * Il est possible de forcer le jeu de caractères d&#39;encodage du fichier en sortie à partir du champ **[!UICONTROL Codage]**. Le jeu de caractères Latin 1 (1252) est le mode par défaut.
-* The **[!UICONTROL Multi-file generation]** option activates a special document publication mode. This option consists of populating a partitioning tag at the beginning of each page of the output document. Generating the content will produce a file for each populated partitioning tag. This mode is used to generate mini-sites from a content block. for more on this, refer to [Multi-file generation](#multi-file-generation).
+* L&#39;option **[!UICONTROL génération multi-fichiers]** active un mode particulier de publication de documents : cette option consiste à renseigner une balise de découpe en début de chaque page du document en sortie. La génération du contenu produira autant de fichiers que de balises de découpe renseignées. Ce mode est utilisé pour la génération de mini-sites à partir d&#39;un contenu. Voir à ce propos [Génération multi-fichiers](#multi-file-generation)
 * Le champ d&#39;édition **[!UICONTROL Localisation]** contient le nom du fichier en sortie. Le nom peut être construit à partir de variables afin de générer un nom de fichier automatique.
 
-   A variable is populated with the following format: **`$(<xpath>)`, where `<xpath>` is the path of a field of the publication template data schema.
+   Une variable est renseignée avec le format suivant : **`$(<xpath>)`, où `<xpath>` est le chemin d’un champ du schéma de données du modèle de publication.
 
    Le nom du fichier peut être composé d&#39;un champ de type date. Pour formater correctement ce champ, vous devez utiliser la fonction **$date-format**, avec comme paramètres le chemin du champ et le format de sortie.
 
@@ -92,7 +92,7 @@ Les options de publication disponibles sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la génération de contenu, voir [Création d’une instance](../../delivery/using/using-a-content-template.md#creating-a-content-instance)de contenu.
+   >Pour plus d’informations sur la génération du contenu, voir [Création d’une instance de contenu](../../delivery/using/using-a-content-template.md#creating-a-content-instance).
 
 ### Diffusion {#delivery}
 
@@ -102,7 +102,7 @@ Cet onglet permet de sélectionner un modèle de diffusion afin de lancer une di
 
 >[!NOTE]
 >
->For an example of delivery creation based on a content, refer to [Delivering a content instance](../../delivery/using/using-a-content-template.md#delivering-a-content-instance).
+>Pour un exemple de création d&#39;une diffusion à partir d&#39;un contenu, consultez [Diffuser une instance de contenu](../../delivery/using/using-a-content-template.md#delivering-a-content-instance).
 
 ### Agrégateur {#aggregator}
 
@@ -116,7 +116,7 @@ La balise de découpe à intégrer dans la feuille de style est la suivante :
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** où **`<name_of_file>`** correspond au nom de fichier de la page à générer.
 
-**Exemple :**Génération de fichiers multiples à l’aide du schéma &quot;cus:book&quot;.
+** Exemple : **Génération multi-fichiers en reprenant le schéma &quot;cus:livre&quot;.
 
 Le principe consiste à générer une page principale énumérant la liste des chapitres, avec possibilité d&#39;afficher le détail du chapitre dans une page externe.
 
@@ -178,7 +178,7 @@ La balise de découpe est renseignée en début de page à inclure dans le fichi
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 
-The filename is constructed with the **$(path)** variable containing the publication path and **`<xsl:value-of select="@id" />`**, which matches the identifier of the chapter in the input document.
+Le nom du fichier est construit avec la variable **$(path)** contenant le chemin de publication et **`<xsl:value-of select="@id" />`**, qui correspond à l&#39;identifiant du chapitre dans le document en entrée.
 
 Le modèle de publication doit être renseigné avec les deux feuilles de style &quot;cus:livre.xsl&quot; et &quot;cus:chapitre.xsl&quot;.
 
