@@ -24,28 +24,28 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur :
 
-* Deliveries:
+* Diffusions :
 
-   * Création d’une action de remise, reportez-vous à [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
+   * créer une action de diffusion, voir la section [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
    * envoyer une campagne (démarrer, mettre en pause, arrêter, envoyer un BAT),
    * récupérer les logs de diffusion.
 
-* Workflows:
+* Workflows :
 
    * démarrer un workflow,
    * contrôler les process, etc.
 
-      Reportez-vous aux méthodes [SOAP dans JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+      Voir la section [Méthodes SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestion de contenu
-* Gestion des abonnements, reportez-vous aux sections [Abonnement (nms:subscription)](#subscribe--nms-subscription-) et [Désabonnement (nms:subscription)](#unsubscribe--nms-subscription-).
+* Gestion des abonnements, voir les sections [Subscribe (nms:subscription)](#subscribe--nms-subscription-) et [Unsubscribe (nms:subscription)](#unsubscribe--nms-subscription-).
 * Les traitements sur les données : imports, exports.
 
 Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;Unsubscribe&quot; et &quot;SubmitDelivery&quot;.
 
 >[!IMPORTANT]
 >
->[La documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) JSAPI de campagne contient des informations supplémentaires sur les appels SOAP et l’utilisation de JavaScript dans Adobe Campaign, ainsi qu’une référence complète à toutes les méthodes et fonctions utilisées dans l’application.
+>La ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)documentation JSAPI Campaign[ contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.
 
 ## Subscribe (nms:subscription) {#subscribe--nms-subscription-}
 
@@ -70,11 +70,11 @@ Description de la méthode &quot;subscribe&quot; dans le schéma &quot;nms:subsc
 </method>
 ```
 
-La définition de la clé de réconciliation doit être saisie via l’attribut _**key** sur l’ `<recipient>` élément du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
+La définition de la clé de réconciliation doit être renseignée via l’attribut _**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 
-### Exemples {#examples}
+### Exemples  {#examples}
 
 Abonnement avec clé de réconciliation du destinataire sur l&#39;email : le document XML en entrée doit référencer l&#39;email et la définition de la clé sur ce champ.
 
@@ -141,7 +141,7 @@ Description de la méthode &quot;Unsubscribe&quot; dans le schéma &quot;nms:sub
 </method>
 ```
 
-La définition de la clé de réconciliation doit être saisie via l’attribut _key sur l’ `<recipient>` élément du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
+La définition de la clé de réconciliation doit être renseignée via l’attribut _key sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
 
 Si le destinataire n&#39;est pas présent dans la base de données, ou bien s&#39;il n&#39;est pas inscrit au service d&#39;information concerné, le service n&#39;effectue aucune action et ne génère pas d&#39;erreur.
 
@@ -212,7 +212,7 @@ Cet appel ne retourne pas de données, hormis les erreurs.
 
 ### Exemple de document XML {#xml-document-example}
 
-Cet exemple est basé sur un modèle de remise personnalisé provenant d’une source de données externe (un fichier dans ce cas). La configuration est entièrement décrite dans le modèle de remise. Il ne reste donc plus qu’à envoyer lorsque l’appel se produit que le contenu du fichier à partir de l’ `<externalsource>` élément.
+Cet exemple est basé sur un modèle de diffusion personnalisée à partir d’une source de données externe (un fichier dans ce cas). La configuration est entièrement décrite dans le modèle de diffusion. Lorsque l’appel est effectué, il ne reste donc plus qu’à envoyer le contenu du fichier à partir de l’élément `<externalsource>`.
 
 ```
 <delivery>
