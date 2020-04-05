@@ -1,6 +1,6 @@
 ---
 title: A propos des intégrations de Campaign
-description: Découvrez les intégrations fonctionnelles disponibles entre la version actuelle d’Adobe Campaign et les [solutions Adobe Experience Cloud]
+description: Découvrez les intégrations fonctionnelles disponibles entre la version actuelle d'Adobe Campaign et les solutions Adobe Experience Cloud.
 page-status-flag: never-activated
 uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
 contentOwner: sauviat
@@ -75,7 +75,7 @@ Le tableau suivant donne accès à la documentation disponible sur les intégrat
    <td> Permet d’insérer des images calculées dynamiquement par <strong>Adobe Target</strong> au moment de l'ouverture d'un email créé et envoyé via Adobe Campaign.<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">En savoir plus</a> sur l'intégration Adobe Campaign - Adobe Target.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Service</strong><br /> principal des personnes <strong>Adobe Audience Manager</strong><br /> </td> 
+   <td> <strong>People core service</strong><br /> <strong>Adobe Audience Manager</strong><br /> </td> 
    <td> Permet de partager des audiences avec les solutions Adobe Experience Cloud et les core services que vous utilisez.<br /> <p><a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">En savoir plus</a> sur les intégrations Adobe Campaign - People core service et Adobe Audience Manager.</p><br /> </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ Le tableau suivant donne accès à la documentation disponible sur les intégrat
   </tr> 
   <tr> 
    <td> <strong>Plateforme de données clientes Adobe en temps réel</strong><br /> </td> 
-   <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">En savoir plus</a> sur l’intégration de Campaign - Plate-forme de données clientes Adobe en temps réel.</p><br /> </td> 
+   <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">En savoir plus</a> sur l’intégration de Campaign et de la plateforme de données clientes Adobe en temps réel.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>
