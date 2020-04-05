@@ -101,7 +101,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->Le **[!UICONTROL &lt;%= item.target.Recipient.@fieldName %>]** command lets you add one of the fields that have been saved to the instance variable through the **[!UICONTROL JavaScript code]** activity.\
+>La commande **[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** vous permet d&#39;ajouter l&#39;un des champs qui ont été enregistrés dans la variable d&#39;instance via l&#39;activité **[!UICONTROL Code JavaScript]**.\
 >Vous pouvez ajouter autant de champs que vous le souhaitez, dès lors qu&#39;ils ont été insérés dans le code JavaScript.
 
 ![](assets/uc_operator_8.png)
