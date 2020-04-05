@@ -33,7 +33,7 @@ Le workflow présenté ci-dessous est installé par défaut avec le module **Pil
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Synchronisation des propositions</span> <br /> </td> 
-   <td> <span class="uicontrol">propositionSynch</span><br /> </td> 
+   <td> <span class="uicontrol">propositionSynch</span> <br /> </td> 
    <td> Ce workflow synchronise les propositions entre les instances marketing et d’exécution utilisées pour les interactions.<br /> </td> 
   </tr> 
  </tbody> 
