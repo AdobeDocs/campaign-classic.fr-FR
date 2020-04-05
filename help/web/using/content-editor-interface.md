@@ -29,9 +29,9 @@ La fenêtre d&#39;édition du DCE est organisée en trois sections distinctes. E
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. The **top** section is a display area for messages to the user. These messages indicate the status of the Web application status or the delivery being created as well as warnings and error messages related to the content. Pour plus d’informations, reportez-vous aux états [du contenu](../../web/using/content-editing-best-practices.md#html-content-statuses)HTML.
-1. The section to the **left** of the window is the area for editing content. From this area, the user can directly interact with the content using the pop-up toolbar: insert a link into an image, change the font, delete a field, etc. For more on this refer to [Editing forms](../../web/using/editing-content.md#editing-forms).
-1. The section to the **right** of the window is the control panel area. This area groups the different options for the editor, particularly those related to configuring the page heading and general options for a block: add a border, link a database field with an input zone, access Web page properties, etc. Pour plus d’informations, reportez-vous aux sections Options [](#global-options) globales et [Modification du contenu](../../web/using/editing-content.md) .
+1. La section **supérieure** est une zone d&#39;affichage pour des messages destinés à l&#39;utilisateur. Ces messages indiquent le statut de l&#39;application Web ou de la diffusion en cours de création ainsi que les avertissements et messages d&#39;erreurs liés au contenu. Voir à ce propos la section [États du contenu HTML](../../web/using/content-editing-best-practices.md#html-content-statuses).
+1. La section **gauche** de la fenêtre est la zone d&#39;édition du contenu. Depuis cette zone, l&#39;utilisateur peut interagir directement avec le contenu, grâce à la barre d&#39;outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc. Voir à ce propos la section [Editer les formulaires](../../web/using/editing-content.md#editing-forms).
+1. La section **droite** de la fenêtre est la zone de contrôle du rendu. Elle regroupe les différentes options de l&#39;éditeur, notamment celles liées aux paramètres de l&#39;entête de la page et aux options générales associées à un bloc : ajouter une bordure, associer un champ de la base à une zone de saisie, accéder aux propriétés de la page Web, etc. Voir à ce propos les sections [Options globales](#global-options) et [Editer le contenu](../../web/using/editing-content.md).
 
 ## Options globales {#global-options}
 
@@ -43,7 +43,7 @@ Elle contient quatre icônes :
 
 ![](assets/dce_icons_sidebar.png)
 
-* The **Display/Hide blocks** icon lets you display blue frames around the content blocks (corresponding to the `<div>` HTML tag).
+* L&#39;icône **Afficher / Masquer les blocs** permet d&#39;afficher des cadres bleus autour des blocs de contenu (correspond à la balise HTML `<div>`).
 
 * L&#39;icône **Choisir un autre contenu** permet à l&#39;utilisateur de charger un nouveau contenu à partir d&#39;un modèle (existant ou modèle livré d&#39;usine).
 
@@ -53,7 +53,7 @@ Elle contient quatre icônes :
    >
    >Le contenu sélectionné remplace le contenu actuel.
 
-* L’icône **Enregistrer en tant que modèle** vous permet d’enregistrer le contenu actuel en tant que modèle. Vous devez entrer le libellé et le nom interne du modèle. Les modèles sont stockés dans le **[!UICONTROL Resources > Templates > Content templates]** noeud.
+* L’icône **Enregistrer comme modèle** permet d’enregistrer le contenu actuel en tant que modèle. Vous devez saisir le libellé et le nom interne du modèle. Les modèles sont stockés dans le nœud : **[!UICONTROL Ressources > Modèles > Modèles de contenu]**.
 
    ![](assets/dce_popup_savetemplate.png)
 
@@ -67,7 +67,7 @@ Elle contient quatre icônes :
 
    >[!NOTE]
    >
-   >This information corresponds to the **`<title>`** and **`<meta>`** HTML tags on the page.
+   >Ces informations correspondent aux balises HTML **`<title>`** et **`<meta>`** de la page.
    >
    >Les mots-clés doivent être séparés par des virgules.
 
@@ -79,12 +79,12 @@ La section droite de l&#39;éditeur regroupe les principales options qui permett
 
 Vous pouvez ainsi :
 
-* Déterminez l&#39;affichage d&#39;un ou de plusieurs blocs, reportez-vous à la section [Définition d&#39;une condition](../../web/using/editing-content.md#defining-a-visibility-condition)de visibilité,
-* Définissez les bordures et les cadres, reportez-vous à la section [Ajout d&#39;une bordure et d&#39;un arrière-plan](../../web/using/editing-content.md#adding-a-border-and-background),
-* Définissez des attributs d’image (taille, légende), reportez-vous à la section [Modification des propriétés](../../web/using/editing-content.md#editing-image-properties)d’image,
-* Liez la base de données à un élément de formulaire (zone d’entrée, case à cocher), reportez-vous à la section [Modification des propriétés de données d’un formulaire](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
-* Rendre une partie d’un formulaire obligatoire, voir [Modification des propriétés de données d’un formulaire](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
-* Définissez une action pour un bouton, voir [Ajout d’une action à un bouton](../../web/using/editing-content.md#adding-an-action-to-a-button).
+* Déterminer l&#39;affichage d&#39;un ou de plusieurs blocs, voir à ce propos la section [Définir une condition de visibilité](../../web/using/editing-content.md#defining-a-visibility-condition),
+* Définir les bordures et les cadres, voir à ce propos la section [Ajouter une bordure et une trame](../../web/using/editing-content.md#adding-a-border-and-background),
+* Définir les attributs d&#39;image (taille, légende), voir à ce propos la section [Modifier les propriétés d&#39;une image](../../web/using/editing-content.md#editing-image-properties),
+* Lier la base de données à un élément de formulaire (zone d&#39;entrée, case à cocher), voir à ce propos la section [Modifier les propriétés des données d&#39;un formulaire](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
+* Rendre une partie d&#39;un formulaire obligatoire, voir à ce propos la section [Modifier les propriétés des données d&#39;un formulaire](../../web/using/editing-content.md#changing-the-data-properties-for-a-form),
+* Définir une action pour un bouton, voir à ce propos la section [Ajouter une action sur un bouton](../../web/using/editing-content.md#adding-an-action-to-a-button).
 
 ## Barre d&#39;outils de contenu {#content-toolbar}
 
