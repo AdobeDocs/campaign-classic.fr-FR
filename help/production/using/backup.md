@@ -39,11 +39,11 @@ Ces fichiers sont répartis en plusieurs catégories :
 
    Ils permettent de reparamétrer Adobe Campaign très rapidement.
 
-* Redirection files ** nl6/var/`<instancename>`/redir**
+* Les fichiers de redirection ** nl6/var/`<instancename>`/redir**
 
    Ils se trouvent sur les serveurs de tracking (communément appelés &quot;frontaux&quot;) et contiennent l&#39;ensemble des redirections des campagnes effectuées. Ils sont toujours utilisés par les anciennes campagnes.
 
-* Log files: **nl6/var/`<instancename>`/log**
+* Les fichiers de logs : **nl6/var/`<instancename>`/log**
 
    Ils peuvent être utilisés afin de tracer des problèmes.
 
@@ -51,7 +51,7 @@ Les répertoires à sauvegarder sont donc :
 
 * nl6/conf
 
-* nl6/var/`<instanceName>`/DI (pour chaque instance)
+* nl6/var/`<instanceName>`/redir (pour chaque instance)
 
 * nl6/var/`<instanceName>`/log (facultatif)
 
