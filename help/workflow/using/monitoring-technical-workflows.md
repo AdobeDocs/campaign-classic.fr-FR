@@ -24,7 +24,7 @@ source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 Les workflows techniques ont besoin d&#39;être surveillés, et des mesures doivent être prises en cas d&#39;échec.
 
-D’autres méthodes de surveillance des différents processus de campagne sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
 
 ## Tableau de bord de supervision de l&#39;instance {#instance-monitoring-dashboard}
 
@@ -63,7 +63,7 @@ Pour la **[!UICONTROL Mise à jour délivrabilité (&#39;deliverabilityUpdate&#3
 
 Pour le **[!UICONTROL Processus de campagne (&#39;operationMgt&#39;, &#39;deliveryMgt&#39;, ...)]** :
 
-1. Examinez tous les workflows situés sous le dossier **[!UICONTROL Processus de campagne.]** Pour plus d’informations à ce propos, consultez [cette page](../../workflow/using/campaign.md).
+1. Examinez tous les workflows situés sous le dossier **[!UICONTROL Processus de campagne.]** Voir à ce propos [cette page](../../workflow/using/campaign.md).
 1. Vérifiez que les workflow s&#39;exécutent comme prévu et que le journal des logs n&#39;indique pas d&#39;erreurs récurrentes.
 
 ## Supervision de workflow {#workflow-supervision}
@@ -83,7 +83,7 @@ Tous les workflows devant être en état d&#39;exécution pour que la plate-form
 Tous les workflows techniques personnalisés doivent être documentés dans une feuille de travail contenant :
 
 * Le nom et l&#39;emplacement du workflow.
-* Objectif.
+* L&#39;objectif.
 * La planification et les dépendances.
 * L&#39;opérateur en charge de la surveillance.
 * Des consignes sur les mesures à adopter en cas d&#39;erreur.
