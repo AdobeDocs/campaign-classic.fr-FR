@@ -34,11 +34,11 @@ Le déploiement et l&#39;intégration de SpamAssassin décrits dans ce chapitre 
 
 >[!CAUTION]
 >
->La qualification des e-mails comme indésirables par SpamAssassin repose entièrement sur les règles de filtrage et de notation.
+>La qualification des emails comme indésirables par SpamAssassin repose entièrement sur les règles de filtrage et de scoring.
 >
->Ces règles doivent donc être mises à jour au moins une fois par jour pour que votre installation de SpamAssassin et son intégration dans Adobe Campaign soient entièrement fonctionnelles et pour garantir la pertinence des scores attribués à vos livraisons avant envoi.
+>Ces règles doivent donc être mises à jour au moins une fois par jour pour que votre installation de SpamAssassin et son intégration dans Adobe Campaign soient entièrement fonctionnelles et pour garantir la pertinence des scores attribués à vos diffusions avant envoi.
 >
->Cette mise à jour est de la responsabilité de l&#39;administrateur serveur hébergeant SpamAssassin.
+>Cette mise à jour est de la responsabilité de l&#39;administrateur serveur qui héberge SpamAssassin.
 
 L&#39;utilisation de SpamAssassin dans Adobe Campaign permet de donner une indication sur le comportement éventuel des serveurs de messagerie, utilisant eux-mêmes SpamAssassin, à la réception des emails envoyés par Adobe Campaign. Il se peut toutefois que les serveurs de messagerie des fournisseurs d&#39;accès Internet ou les messageries Web considèrent malgré tout les messages envoyés par Adobe Campaign comme indésirables.
 
@@ -60,7 +60,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
    >[!NOTE]
    >
-   >You can choose to unzip the file wherever you want provided that the path is made up of any of the following regular expression characters: **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. The installation path must not include any whitespace characters.
+   >Vous pouvez décompresser le fichier à l&#39;emplacement de votre choix. Cependant, assurez-vous que le chemin d&#39;accès à ce dernier comporte uniquement des caractères de l&#39;expression régulière suivante : **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. Le chemin d&#39;installation ne doit pas comporter d&#39;espace.
 
 1. Accédez au dossier dans lequel vous avez décompressé le fichier puis double-cliquez sur le fichier **run_me.bat** afin de lancer le script d&#39;installation.
 
@@ -78,7 +78,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
 1. Vérifiez que l&#39;installation de SpamAssassin s&#39;est bien déroulée en effectuant le test GTUBE (Generic Test for Unsolicited Bulk Email) selon la procédure décrite ci-après :
 
-   1. Create a text file and save it under **C:\TestSpamMail.txt**.
+   1. Créez un fichier texte et enregistrez-le sous **C:\TestSpamMail.txt**.
    1. Insérez le contenu suivant dans ce fichier :
 
       ```
@@ -95,7 +95,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
       XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
       ```
 
-   1. Double-click on the **portableShell.bat** file to display a Windows Shell then launch the following command (or &quot;`<root>`&quot; designates the created folder when unzipping the  **spamassassin.zip** file):
+   1. Double-cliquez sur le fichier **portableShell.bat** afin d&#39;afficher un Shell Windows puis lancez la commande suivante (où « `<root>` » désigne le dossier créé lors de la décompression du fichier **spamassassin.zip**) :
 
       ```
        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
@@ -105,7 +105,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
 ### Intégration de SpamAssassin dans Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
 
-1. Edit the **`[INSTALL]/conf/serverConf.xml`** file. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+1. Editez le fichier **`[INSTALL]/conf/serverConf.xml`**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 1. Modifiez la valeur de l&#39;attribut **spamCheck** de l&#39;élément **command** du nœud **Web**. Pour cela, exécutez la commande suivante :
 
    ```
@@ -152,7 +152,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
    apt-get install spamassassin libxml-writer-perl
    ```
 
-* In the **serverConf.xml** file (available in `/usr/local/[INSTALL]/nl6/conf/`), change the **spamCheck** line as follows:
+* Dans le fichier **serverConf.xml** (disponible sous `/usr/local/[INSTALL]/nl6/conf/`), modifiez la ligne **spamCheck** comme suit :
 
    ```
    <spamCheck command="perl
@@ -195,7 +195,7 @@ crontab-e
 
 ### Optimisation des performances {#performance-optimization}
 
-To improve performances in Linux, edit the **/etc/spamassassin/local.cf** file and add the following line at the end of the file:
+Pour améliorer les performances sous Linux, éditez le fichier **/etc/spamassassin/local.cf** et ajoutez la ligne suivante à la fin du fichier :
 
 ```
 dns_available no
