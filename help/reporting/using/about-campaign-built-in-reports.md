@@ -26,7 +26,7 @@ Ce chapitre propose la liste des rapports intégrés d&#39;Adobe Campaign, leur
 
 >[!NOTE]
 >
->Vous pouvez également apprendre à ajouter vos propres rapports à l’onglet **[!UICONTROL Rapports]** . Pour plus d&#39;informations, consultez cette [page](../../reporting/using/configuring-access-to-the-report.md#defining-the-filtering-options).
+>Vous pouvez également apprendre à ajouter vos propres rapports à l&#39;onglet **[!UICONTROL Rapports]**. Pour plus d&#39;informations, consultez cette [page](../../reporting/using/configuring-access-to-the-report.md#defining-the-filtering-options).
 
 Ces rapports et leur contenu sont décrits dans les documents relatifs aux fonctionnalités auxquelles ils se rapportent.
 
@@ -34,15 +34,15 @@ Adobe Campaign propose plusieurs types de rapports, accessibles depuis la consol
 
 Les types de rapports disponibles sont les suivants :
 
-* Reports on the entire platform, see [Global reports](../../reporting/using/global-reports.md).
-* Rapports de remise, voir Rapports [de remise](../../reporting/using/delivery-reports.md).
-* Rapports cumulés, voir Rapports [](../../reporting/using/cumulative-reports.md)cumulés.
+* Rapports concernant l&#39;ensemble de la plateforme, voir la section [Rapports globaux](../../reporting/using/global-reports.md).
+* Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
+* Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
 Vous pouvez accéder aux rapports depuis la page d&#39;accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d&#39;affichage d&#39;un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Voir [cette section](../../reporting/using/about-reports-creation-in-campaign.md) pour plus d&#39;informations.
 
-Pour accéder aux rapports intégrés de Campaign :
+Pour accéder aux rapports natifs de Campaign :
 
-1. Sélectionnez l’onglet **[!UICONTROL Rapports]** de l’interface Adobe Campaign.
+1. Sélectionnez l&#39;onglet **[!UICONTROL Rapports]** de l&#39;interface Adobe Campaign.
 
    ![](assets/reporting_access_from_home.png)
 
@@ -52,7 +52,7 @@ Pour accéder aux rapports intégrés de Campaign :
 
    ![](assets/reporting_edit_a_report.png)
 
-1. Click the **[!UICONTROL Back]** link at the top of the screen takes you back to the list of reports.
+1. Cliquez sur le lien **[!UICONTROL Retour]** situé en haut de l&#39;écran pour revenir à la liste des rapports.
 
    ![](assets/reporting_back_button.png)
 
