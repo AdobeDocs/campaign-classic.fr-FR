@@ -38,7 +38,7 @@ Une fois ces fonctions ajoutées, elles apparaissent dans l&#39;éditeur d&#39;e
 
 La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &quot;package&quot; au format XML**, dont la structure est décrite au paragraphe suivant.
 
-To install it from the console, select the **Tools/Advanced/Import package** options from the menu, then the **[!UICONTROL Install from file]** , and follow the instructions in the import wizard.
+Pour l&#39;installer, depuis la console, sélectionner les options de menu **Tools/Advanced/Import package**, puis le bouton **[!UICONTROL Installer depuis un fichier]**, et suivre les instructions de l’assistant d’import.
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
    Cela signifie que si l&#39;on importe plus tard une autre liste de fonctions avec le même couple namespace/name (ici &quot;cus::maListe&quot;), les fonctions précédemment importées seront effacées. Inversement, si l&#39;on change ce couple namespace/name, la nouvelle série de fonctions importées s&#39;ajoutera à la précédente.
 
 * L&#39;élément **group** permet de définir visuellement dans quel groupe de fonctions la ou les fonctions importées apparaîtront dans l&#39;éditeur de fonction. L&#39;attribut @name peut, soit être un nom déjà existant (auquel cas les fonctions s&#39;ajouteront au groupe considéré), soit un nouveau nom, qui apparaîtra sous forme d&#39;un nouveau groupe.
-* Reminder: possible values for the @name attribute in the `<group>` element are:
+* Pour mémoire, les valeurs possibles pour l’attribut @name dans l’élément `<group>` sont :
 
    ```
      name="aggregate"      ( label="Aggregates"         )
@@ -96,11 +96,11 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 >
 >Attention à bien remplir l&#39;attribut @label : c&#39;est le nom qui sera affiché dans la liste des fonctions disponibles. Si vous ne mettez rien, le groupe n&#39;aura pas de nom, par contre si vous mettez un autre nom que le nom existant, c&#39;est le tout le groupe qui changera de nom.
 
-If you wish to add functions to several different groups, you can make several `<group>`  elements become tracked in the same list.
+Si vous souhaitez ajouter des fonctions dans plusieurs groupes différents, il est possible de faire se suivre plusieurs éléments `<group>` dans la même liste.
 
-Enfin, un `<group>` élément peut contenir la définition d’une ou de plusieurs fonctions, c’est-à-dire l’objectif du fichier de package. L’ `<function>` élément est détaillé dans le paragraphe suivant.
+Enfin, un élément `<group>` peut contenir la définition d’une ou de plusieurs fonctions, c’est-à-dire l’objectif du fichier de package. L’élément `<function>` est présenté dans le paragraphe ci-après.
 
-## descripteur de fonction &lt;function>&lt;/function> {#function-descriptor--function-}
+## Descripteur de fonction &lt;function>&lt;/function> {#function-descriptor--function-}
 
 Le cas présenté ici est le cas général, où l&#39;on souhaite fournir **l&#39;implémentation de la fonction**.
 
@@ -114,7 +114,7 @@ Ci-dessous l&#39;exemple d&#39;une fonction de &quot;pseudo-maturité&quot;, qui
     </function>
 ```
 
-Le champ **@name** fait référence au nom de la fonction et &quot;args&quot; est la liste des paramètres qui s’affichera dans la description. Dans ce cas, la fonction apparaît sous la forme &quot;relativeMaturity ( `<age>` )&quot; dans la fenêtre de sélection de fonction.
+Le champ **@name** fait référence au nom de la fonction et « args » correspond à la liste des paramètres qui s’affichera dans la description. Dans ce cas, la fonction apparaît sous la forme « relativeMaturity ( `<age>` ) » dans la fenêtre de sélection de fonction.
 
 * **@help** est le champ qui est affiché en bas de la fenêtre d&#39;édition d&#39;expressions.
 * **@display** est informatif.
@@ -139,7 +139,7 @@ Le champ **@name** fait référence au nom de la fonction et &quot;args&quot; es
 
 ## Le descripteur de fonction &#39;pass-through&#39;{#pass-through--function-descriptor}
 
-Un descripteur de fonction spéciale est le **&quot;pass-through&quot;** (le bloc de transmission), avec un système de base de données &quot;provider&quot; non spécifié. Dans ce cas, l’implémentation &quot;body&quot; ne peut contenir qu’un seul appel de fonction avec une syntaxe qui ne dépend pas de la base de données utilisée. Pendant ce temps, le bloc &quot;ProviderPart&quot; est unique.
+Un descripteur de fonction spéciale est le bloc **« pass-through »** avec un système de base de données « provider » non spécifié. Dans ce cas, l’implémentation « body » ne peut contenir qu’un seul appel de fonction avec une syntaxe qui ne dépend pas de la base de données utilisée. Pendant ce temps, le bloc « ProviderPart » est unique.
 
 ```
     <function name="CountAll" args="()" help="Counts the values returned (all fields together)"
@@ -150,6 +150,6 @@ Un descripteur de fonction spéciale est le **&quot;pass-through&quot;** (le blo
 
 Dans ce cas, l&#39;ajout d&#39;une fonction sert uniquement à rendre visible pour le client une fonction de la base de données qui n&#39;aurait pas été rendue disponible par défaut.
 
-## Exemples {#examples}
+## Exemples  {#examples}
 
-D’autres exemples de fonction sont disponibles dans le package prédéfini &quot;xtkdatakitfuncList.xml&quot;.
+D’autres exemples de fonctions sont disponibles dans le package prédéfini « xtkdatakitfuncList.xml ».
