@@ -1,7 +1,7 @@
 ---
-title: Conditions préalables à l'installation de Campaign sous Linux
-seo-title: Conditions préalables à l'installation de Campaign sous Linux
-description: Conditions préalables à l'installation de Campaign sous Linux
+title: Prérequis relatifs à l'installation de Campaign sous Linux
+seo-title: Prérequis relatifs à l'installation de Campaign sous Linux
+description: Prérequis relatifs à l'installation de Campaign sous Linux
 seo-description: null
 page-status-flag: never-activated
 uuid: 65c7af3f-ca1d-4255-b54a-6a3c83af40ae
@@ -20,7 +20,7 @@ source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 ---
 
 
-# Conditions préalables à l&#39;installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
+# Prérequis relatifs à l&#39;installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
 
 ## Logiciels prérequis {#software-prerequisites}
 
@@ -31,11 +31,11 @@ La configuration technique et logicielle requise pour l&#39;installation d&#39;A
 Pour rappel, les composants suivants doivent être installés et correctement paramétrés :
 
 * Apache, voir [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html),
-* JDK Java et OpenJDK, reportez-vous au kit de développement [Java - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
-* Libraries, refer to [Libraries](#libraries),
-* calques d&#39;accès à la base de données, reportez-vous aux calques [d&#39;accès à la](#database-access-layers)base de données,
-* LibreOffice, voir [Installation de LibreOffice pour Debian](#installing-libreoffice-for-debian) et [Installation de LibreOffice pour CentOS](#installing-libreoffice-for-centos),
-* Polices, reportez-vous aux sections [Polices pour les statistiques](#fonts-for-mta-statistics) MTA et [Polices pour les instances](#fonts-for-japanese-instances)japonaises.
+* JDK Java et OpenJDK, voir la section [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
+* Librairies, voir la section [Librairies](#libraries),
+* Couches d&#39;accès base de données, voir la section [Couches d&#39;accès base de données](#database-access-layers),
+* LibreOffice, voir les sections [Installation de LibreOffice sous Debian](#installing-libreoffice-for-debian) et [Installation de LibreOffice sous CentOS](#installing-libreoffice-for-centos),
+* Polices, voir les sections [Polices de caractères pour les statistiques MTA](#fonts-for-mta-statistics) et [Polices de caractères pour les instances japonaises](#fonts-for-japanese-instances).
 
 >[!NOTE]
 >
@@ -59,16 +59,16 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librai
 
    Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
 
-   * RHEL 7, CentOS 7 : libicu50
-   * Debian 8 : libicu52
-   * Debian 9 : libicu57
-   Pour utiliser Adobe Campaign, vous devez avoir installé la bibliothèque libc-ares. Sous RHEL/CentOS, exécutez la commande suivante :
+   * RHEL 7, CentOS 7 : libicu50
+   * Debian 8 : libicu52
+   * Debian 9 : libicu57
+   Pour utiliser Adobe Campaign, la librairie libc-ares doit être installée. Sous RHEL/CentOS, exécutez la commande suivante :
 
    ```
    yum install c-ares
    ```
 
-   Sur Debian :
+   Sous Debian :
 
    ```
    aptitude install libc-ares2
@@ -84,7 +84,7 @@ Pour cela, connectez-vous en tant que root et saisissez la commande suivante :
 echo 0 >/selinux/enforce
 ```
 
-In addition to this, in the **/etc/sysconfig/httpd** file, the following line was added to reference the Adobe Campaign environment configuration script:
+En complément, dans le fichier **/etc/sysconfig/httpd**, la ligne suivante a été ajoutée afin de référencer le script de configuration de l&#39;environnement Adobe Campaign :
 
 ```
 . ~neolane/nl6/env.sh
@@ -94,7 +94,7 @@ Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes 
 
 **Procédez de la manière suivante :**
 
-* Edit the file **/etc/selinux/config**
+* Éditez le fichier **/etc/selinux/config**
 
 * Modifiez la ligne SELINUX comme suit :
 
@@ -172,23 +172,23 @@ Les couches d&#39;accès pour le moteur de base de données que vous utilisez do
 
 Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
 
-Also check the general [Database](../../installation/using/database.md) section.
+Consultez également section générale [Base de données](../../installation/using/database.md).
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign supports all versions of the PostgreSQL client libraries from version 7.2: (**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** and **libpq.so.3.1**).
+Adobe Campaign prend en charge toutes les versions de librairies du client PostgreSQL à partir de la version 7.2 :(**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** et **libpq.so.3.1**).
 
 L&#39;utilisation de PostgreSQL avec Adobe Campaign requiert également l&#39;installation des bibliothèques **pgcrypto** correspondantes.
 
 ### Oracle {#oracle}
 
-Retrieve the library version for 64-bit Debian, i.e.: **libclntsh.so**, **libclntsh.so.11.1** and **libclntsh.so.10.1**.
+Récupérez la version des librairies pour Debian 64 bits, soit : **libclntsh.so**, **libclntsh.so.11.1** et **libclntsh.so.10.1**.
 
 Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
 >[!NOTE]
 >
->If you have already installed the Oracle client but the global environment (for instance: /etc/profile) isn&#39;t properly configured, you can add missing information to the **nl6/customer.sh** script For more on this, refer to [Environment variables](../../installation/using/installing-packages-with-linux.md#environment-variables).
+>Si vous avez déjà installé le client Oracle mais que l&#39;environnement global (par exemple : /etc/profile) n&#39;est pas correctement configuré, vous pouvez ajouter les informations manquantes dans le script **nl6/customer.sh**. Voir à ce propos la section [Variables d&#39;environnement](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 **Résolution de problèmes et bonnes pratiques**
 
@@ -210,7 +210,7 @@ Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires i
 
 ### DB2 {#db2}
 
-The library version supported is **libdb2.so**.
+La version des librairies supportées est **libdb2.so**.
 
 ## Etapes de mise en oeuvre {#implementation-steps}
 
@@ -218,7 +218,7 @@ L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&
 
 Le processus d&#39;installation est décrit dans ce chapitre. Les étapes de l&#39;installation sont les suivantes :
 
-* Étape 1 : Pour installer le serveur d’applications, reportez-vous à [Installation de packages avec Linux](../../installation/using/installing-packages-with-linux.md).
+* Etape 1 : Installation du serveur applicatif, voir la section [Installation de packages avec Linux](../../installation/using/installing-packages-with-linux.md).
 * Etape 2 : Intégration à un serveur Web (optionnel, en fonction des composants déployés).
 
-Une fois les étapes d’installation terminées, vous devez configurer les instances, la base de données et le serveur. For more on this, refer to [About initial configuration](../../installation/using/about-initial-configuration.md).
+Une fois les étapes d&#39;installation terminées, vous devez configurer les instances, la base de données et le serveur. Voir à ce sujet la section [À propos de la configuration initiale](../../installation/using/about-initial-configuration.md).
