@@ -22,7 +22,7 @@ source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
 # Cas pratique : création d&#39;une diffusion email{#use-case-creating-an-email-delivery}
 
-Dans ce cas d’utilisation, vous apprendrez à concevoir une diffusion par courrier électronique à l’aide d’Adobe Campaign Digital Content Editor (DCE).
+Dans ce cas d’utilisation, vous apprendrez à concevoir une diffusion par email à l’aide du Digital Content Editor (DCE) d’Adobe Campaign.
 
 Notre objectif final est d&#39;obtenir une diffusion partant d&#39;un modèle personnalisé contenant :
 
@@ -35,17 +35,17 @@ Notre objectif final est d&#39;obtenir une diffusion partant d&#39;un modèle pe
 >
 >Avant de commencer, vous devez avoir en votre possession au moins un **modèle HTML** prêt à accueillir le contenu de vos futures diffusions.
 >
->Dans les **[!UICONTROL Propriétés]** de diffusion, vérifiez que le mode **[!UICONTROL d’édition de]** contenu (dans l’onglet **[!UICONTROL Avancé]** ) est défini sur **[!UICONTROL DCE.]** Pour garantir le fonctionnement optimal de l’éditeur, reportez-vous aux bonnes pratiques [en matière de modification du](../../web/using/content-editing-best-practices.md)contenu.
+>Dans les **[!UICONTROL Propriétés]** de diffusion, vérifiez que le **[!UICONTROL Mode d’édition du contenu]** (dans l’onglet **[!UICONTROL Avancé]**) est défini sur **[!UICONTROL DCE]**. Pour garantir le fonctionnement optimal de l’éditeur, consultez les [Bonnes pratiques relatives à l’édition de contenu](../../web/using/content-editing-best-practices.md).
 
 ## Etape 1 - Créer une diffusion {#step-1---creating-a-delivery}
 
-Pour créer une remise, placez le curseur dans l’onglet **Campagnes** et cliquez sur **Livraisons**. Cliquez ensuite sur le bouton **Créer** au-dessus de la liste des livraisons existantes. For more on creating deliveries, refer to [this page](../../delivery/using/about-email-channel.md).
+Pour créer une diffusion, placez le curseur dans l’onglet **Campagnes** et cliquez sur **Diffusions**. Cliquez ensuite sur le bouton **Créer** au-dessus de la liste des diffusions existantes. Pour plus d’informations sur la création de diffusions, consultez [cette page](../../delivery/using/about-email-channel.md).
 
 ![](assets/delivery_step_1.png)
 
 ## Etape 2 - Sélectionner un modèle {#step-2---selecting-a-template}
 
-Sélectionnez un modèle de remise, puis nommez votre remise. Ce nom ne sera visible que par les utilisateurs de la console Adobe Campaign et non par vos destinataires. Toutefois, cet en-tête s’affichera dans votre liste de remises. Cliquez sur **[!UICONTROL Continuer]**.
+Sélectionnez un modèle de diffusion, puis nommez votre diffusion. Ce nom sera visible uniquement par les utilisateurs de la console Adobe Campaign et non par vos destinataires mais cet intitulé s&#39;affichera dans la liste de vos diffusions. Cliquez sur **[!UICONTROL Continuer]**.
 
 ![](assets/dce_delivery_model.png)
 
@@ -61,7 +61,7 @@ Vous pouvez également importer du contenu HTML créé en dehors d&#39;Adobe Cam
 
 ![](assets/dce_select_from_file_template.png)
 
-Vous pouvez enregistrer ce contenu en tant que modèle pour une utilisation ultérieure. Une fois un modèle de contenu personnalisé créé, vous pouvez le prévisualiser dans la liste des modèles. For more on this, refer to [Template management](../../web/using/template-management.md).
+Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutiliser ultérieurement. Lorsqu&#39;un modèle de contenu personnalisé est créé, son aperçu figure dans la liste des modèles. Voir à ce sujet la section [Gestion des modèles](../../web/using/template-management.md).
 
 >[!CAUTION]
 >
@@ -71,13 +71,13 @@ Vous pouvez enregistrer ce contenu en tant que modèle pour une utilisation ult�
 
 * Afficher les nom et prénom de vos destinataires
 
-   To insert the first and second names of your recipients into a text field in your delivery, click your chosen text field, then place your cursor where you want to display them. Click the first icon in the pop-up toolbar, then click **[!UICONTROL Personalization block]**. Select **[!UICONTROL Greetings]**, then click **[!UICONTROL OK]**.
+   Pour qu&#39;un champ texte de votre diffusion contienne les noms et prénoms de vos destinataires, cliquez sur le champ texte de votre choix, puis positionnez le curseur à l&#39;endroit exact où vous souhaitez les afficher. Cliquez sur la première icône de la barre d&#39;outils contextuelle, puis sur **[!UICONTROL Bloc de personnalisation]**. Sélectionnez **[!UICONTROL Salutations]**, puis cliquez sur **[!UICONTROL OK]**.
 
    ![](assets/dce_personalizationblock_greetings.png)
 
 * Insérer un lien sur une image
 
-   To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]**. Pour plus d’informations, voir [Ajout d’un lien](../../web/using/editing-content.md#adding-a-link).
+   Afin de permettre aux destinataires de vos diffusions de se rendre sur une adresse externe depuis une image, cliquez sur l&#39;image concernée afin d&#39;afficher la barre d&#39;outils contextuelle, positionnez le curseur sur la première icône, puis cliquez sur **[!UICONTROL Lien vers une URL externe]**. Voir à ce sujet la section [Ajouter un lien](../../web/using/editing-content.md#adding-a-link).
 
    ![](assets/dce_externalpage.png)
 
@@ -87,7 +87,7 @@ Vous pouvez enregistrer ce contenu en tant que modèle pour une utilisation ult�
 
 * Insérer un lien sur du texte
 
-   To integrate an external link into the text in your delivery, select some text or a block of text then click on the first icon in the pop-up toolbar. Click **[!UICONTROL Link to an external URL]**, enter the link address into the **[!UICONTROL URL]** field. Pour plus d’informations, voir [Ajout d’un lien](../../web/using/editing-content.md#adding-a-link).
+   Afin d&#39;intégrer au texte de votre diffusion un lien vers une URL externe, sélectionnez du texte ou un bloc de texte, puis cliquez sur la première icône de la barre d&#39;outils contextuelle. Cliquez sur **[!UICONTROL Lien vers une URL externe]**, saisissez l’adresse de destination du lien dans le champs **[!UICONTROL URL]**. Pour plus d’informations, voir [Ajout d’un lien](../../web/using/editing-content.md#adding-a-link).
 
    L&#39;adresse du lien est modifiable à tout moment dans la partie droite de la fenêtre.
 
@@ -109,7 +109,7 @@ Vous pouvez enregistrer ce contenu en tant que modèle pour une utilisation ult�
 
 * Intégrer un lien vers une application Web
 
-   Digital Content Editor vous permet d’intégrer des liens vers des applications Web à partir de votre console Adobe Campaign, comme une page d’entrée ou une page de formulaire. Pour plus d&#39;informations, reportez-vous à la section [Lien vers une application](../../web/using/editing-content.md#link-to-a-web-application)Web.
+   Le Digital Content Editor vous permet d&#39;intégrer des liens vers les applications Web de votre console Adobe Campaign, telles qu&#39;une landing page ou une page de formulaire. Voir à ce sujet la section [Lien vers une application web](../../web/using/editing-content.md#link-to-a-web-application).
 
    Sélectionnez un champ texte dans lequel figurera votre lien vers l&#39;application Web, puis cliquez sur la première icône. Choisissez **[!UICONTROL Lien vers une application Web]**, puis sélectionnez l&#39;application souhaitée en cliquant sur l&#39;icône située à la fin du champ **Application Web**.
 
@@ -119,8 +119,8 @@ Vous pouvez enregistrer ce contenu en tant que modèle pour une utilisation ult�
 
    >[!NOTE]
    >
-   >Cette étape nécessite l&#39;enregistrement préalable d&#39;au moins une application Web. Vous trouverez ces informations dans l’onglet **[!UICONTROL Campagnes > Applications]** Web de votre console.
+   >Cette étape nécessite l&#39;enregistrement préalable d&#39;au moins une application web. Vous trouverez ces informations dans l’onglet **[!UICONTROL Campagnes > Applications web]** de votre console.
 
 ## Etape 5 - Enregistrer la diffusion {#step-5---saving-the-delivery}
 
-Une fois le contenu intégré, enregistrez la diffusion en cliquant sur **Enregistrer**. Elle s’affichera désormais dans votre liste de livraisons, sous l’onglet **[!UICONTROL Campagnes > Livraisons]** .
+Une fois le contenu intégré, enregistrez la diffusion en cliquant sur **Enregistrer**. Elle s’affichera désormais dans votre liste de diffusions, sous l’onglet **[!UICONTROL Campagnes > Diffusions]**.
