@@ -27,16 +27,16 @@ La définition du contenu du message transactionnel fonctionne selon les mêmes 
 >[!CAUTION]
 >
 >Les images incluses dans le message doivent être accessibles publiquement. Adobe Campaign ne fournit pas de mécanisme de mise en ligne des images pour les messages transactionnels.\
->Contrairement à JSSP ou webApp, `<%=` il n’y a pas d’échappement par défaut.
+>Contrairement à JSSP ou webApp, `<%=` n’a pas de séquence d’échappement par défaut.
 >
->Dans ce cas, vous devez enregistrer toutes les données provenant de l’événement correctement. Cette séquence d’échappement dépend de l’utilisation de ce champ. Par exemple, dans une URL, utilisez encodeURIComponent. Pour être affiché dans le code HTML, vous pouvez utiliser escapeXMLString.
+>Dans ce cas, vous devez appliquer une séquence d’échappement correcte à toutes les données provenant de l’événement. Cette séquence d’échappement dépend de l’utilisation de ce champ. Par exemple, dans une URL, utilisez encodeURIComponent. Pour un affichage dans le code HTML, vous pouvez utiliser escapeXMLString.
 
 Lorsque vous avez défini le contenu de votre message, vous pouvez intégrer les informations de l&#39;événement dans le corps du message et ainsi le personnaliser. Les informations de l&#39;événement sont insérées dans le corps du texte à l&#39;aide des balises de personnalisation.
 
 ![](assets/messagecenter_create_content_001.png)
 
-* Tous les champs de personnalisation proviennent de la charge utile.
-* Il est possible de référencer un ou plusieurs blocs de personnalisation dans un message transactionnel. Le contenu du bloc sera ajouté au contenu de diffusion pendant la publication dans l’instance d’exécution.
+* Tous les champs de personnalisation proviennent de la payload.
+* Il est possible de référencer un ou plusieurs blocs de personnalisation dans un message transactionnel. Le contenu du bloc est ajouté au contenu de la diffusion au cours de la publication dans l’instance d’exécution.
 
 Pour insérer des balises de personnalisation dans le corps d&#39;un message email, procédez comme suit :
 
