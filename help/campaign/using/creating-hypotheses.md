@@ -28,7 +28,7 @@ Il existe différentes possibilités pour créer/associer des hypothèses à une
 * Depuis l&#39;onglet **[!UICONTROL Edition]** > **[!UICONTROL Mesure]** d&#39;une opération.
 * Depuis l&#39;option **[!UICONTROL Mesure]** d&#39;une diffusion créée à partir d&#39;une opération.
 
-Hypotheses can only be calculated once the marketing campaign has been launched and recipients have received the delivery. If the hypothesis is based on an offer proposition, the latter needs to at least be presented and still be active. Offer and delivery hypotheses are created via the **[!UICONTROL Measurement hypotheses]** folder and are based on a hypothesis template. However, it is possible to reference a hypothesis directly in the delivery or the campaign before the campaign starts. Dans ce cas, les hypothèses sont calculées automatiquement une fois la campagne marketing lancée, en fonction des paramètres d’exécution (pour plus d’informations, reportez-vous aux paramètres [d’exécution des modèles d’](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)hypothèse).
+Les hypothèses ne peuvent être calculées que lorsque la campagne marketing a été lancée et que les destinataires ont reçu la diffusion. Si l’hypothèse se fait sur une proposition d’offre, cette dernière doit avoir au moins été présentée et être toujours active. Les hypothèses sur offre et diffusion sont créées depuis le dossier **[!UICONTROL Hypothèses de mesure]** à partir de d’un modèle d’hypothèse. Vous avez toutefois la possibilité de référencer une hypothèse directement dans la diffusion ou l’opération avant que la campagne ne démarre. Dans ce cas, les hypothèses sont calculées automatiquement une fois la campagne marketing lancée, en fonction des paramètres d’exécution (pour plus d’informations, consultez la section [Paramètres d’exécution d’un modèle d’hypothèse](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)).
 
 ## Créer une hypothèse à la volée sur une diffusion {#creating-a-hypothesis-on-the-fly-on-a-delivery}
 
@@ -43,7 +43,7 @@ Pour créer une hypothèse sur une diffusion existante, procédez comme suit :
 
    ![](assets/response_hypothesis_instance_creation_002.png)
 
-1. In the hypothesis window, select a previously created template (refer to [Hypothesis templates](../../campaign/using/hypothesis-templates.md)).
+1. Dans la fenêtre d’hypothèse, sélectionnez un modèle créé précédemment (voir [Modèles d’hypothèse](../../campaign/using/hypothesis-templates.md)).
 
    ![](assets/response_hypothesis_instance_creation_003.png)
 
@@ -59,7 +59,7 @@ Pour créer une hypothèse sur une diffusion existante, procédez comme suit :
 
    ![](assets/response_hypothesis_instance_creation_005.png)
 
-1. Vous pouvez personnaliser votre hypothèse en modifiant les onglets **[!UICONTROL Général]**, **[!UICONTROL Transactions]** et **[!UICONTROL Portée]** . Pour plus d&#39;informations, reportez-vous à [Création d&#39;un modèle](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)d&#39;hypothèse.
+1. Vous pouvez personnaliser votre hypothèse en modifiant les onglets **[!UICONTROL Général]**, **[!UICONTROL Transactions]** et **[!UICONTROL Périmètre]**. Voir à ce sujet la section [Créer un modèle d’hypothèse](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
 1. Lancez votre hypothèse en cliquant sur **[!UICONTROL Démarrer]**.
 
    Un workflow est alors automatiquement créé afin de procéder au calcul. Son nom est défini automatiquement en fonction du paramétrage de l&#39;hypothèse.
@@ -85,12 +85,12 @@ Pour créer une hypothèse sur une diffusion existante, procédez comme suit :
 
 Vous pouvez référencer une hypothèse dans une campagne marketing avant qu&#39;elle ne soit démarrée. Dans ce cas, l&#39;hypothèse sera lancée automatiquement après l&#39;envoi de la diffusion, selon les paramètres d&#39;exécution définis dans le modèle d&#39;hypothèse. Procédez comme suit pour créer une hypothèse dans une diffusion :
 
-1. Depending on your needs, you can create one or more **[!UICONTROL Delivery]** type templates, as described in [Creating a hypothesis model](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)
+1. Selon vos besoins, créez un ou plusieurs modèles de type **[!UICONTROL Diffusion]** comme décrit dans la section [Créer un modèle d’hypothèse](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
 1. Créez votre opération marketing et vos workflows de ciblage.
 1. Dans la fenêtre de diffusion, cliquez sur l&#39;icône **[!UICONTROL Mesure de la diffusion]**.
 1. Sélectionnez le modèle d&#39;hypothèse (la requête paramétrée dans le modèle apparaît dans la fenêtre de l&#39;hypothèse).
 
-   The hypothesis will be calculated automatically once the campaign is finished, based on the dates configured in the model (refer to [Hypothesis template execution settings](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)).
+   L’hypothèse sera calculée automatiquement lorsque la campagne sera terminée, en fonction des dates configurées dans le modèle (voir [Paramètres d’exécution d’un modèle d’hypothèse](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)).
 
    ![](assets/response_hypothesis_instance_creation_008.png)
 
@@ -111,15 +111,15 @@ Vous pouvez directement référencer une hypothèse au niveau d&#39;une opérati
 
    ![](assets/response_hypothesis_instance_creation_012.png)
 
-The hypothesis results can be viewed in the **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs of the hypothesis (refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md))
+Vous pourrez consulter les résultats de l’hypothèse dans les onglets **[!UICONTROL Général]** et **[!UICONTROL Réactions]** de l’hypothèse (voir [Suivi des hypothèses](../../campaign/using/hypothesis-tracking.md)).
 
-Pour plus d’informations, reportez-vous également à [Exemple : création d’une hypothèse liée à une livraison](#example--creating-a-hypothesis-linked-to-a-delivery).
+Pour plus d’informations, consultez également [Exemple de création d’une hypothèse rattachée à une diffusion](#example--creating-a-hypothesis-linked-to-a-delivery).
 
 ## Créer une hypothèse sur une offre {#creating-a-hypothesis-on-an-offer}
 
-La création d’une hypothèse sur une proposition d’offre est similaire à la création d’une hypothèse de livraison à la volée. L’hypothèse peut être exécutée tant que l’offre est active. La période de calcul est basée sur la date de proposition d’offre. Lorsque l’hypothèse vous permet de lier un destinataire à un achat, le statut de la proposition d’offre susceptible d’être acceptée peut être modifié automatiquement (pour plus d’informations, reportez-vous à [Transactions](../../campaign/using/hypothesis-templates.md#transactions)).
+La création d’une hypothèse sur une proposition d’offre est similaire à la création d’une hypothèse sur diffusion à la volée. L’hypothèse peut être exécutée tant que l’offre est active. La période de calcul est basée sur la date de proposition d’offre. Lorsque l’hypothèse vous permet de lier un destinataire à un achat, le statut de la proposition d’offre susceptible d’être acceptée peut être modifié automatiquement (voir à ce sujet la section [Transactions](../../campaign/using/hypothesis-templates.md#transactions)).
 
-1. Créez un ou plusieurs modèles de type **[!UICONTROL Offre]** , comme décrit dans [Création d’un modèle](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)d’hypothèse.
+1. Créez un ou plusieurs modèles de type **[!UICONTROL Offre]**, comme décrit dans [Créer un modèle d’hypothèse](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model).
 1. Positionnez-vous au niveau du noeud **[!UICONTROL Gestion de campagne > Hypothèses de mesure]**.
 1. Créez une hypothèse de type **[!UICONTROL Offres]** en sélectionnant le modèle créé précédemment.
 
@@ -135,19 +135,19 @@ La création d’une hypothèse sur une proposition d’offre est similaire à l
 
 1. Affinez la requête si besoin est.
 1. Lancez l&#39;hypothèse en cliquant sur **[!UICONTROL Démarrer]**.
-1. The hypothesis results can be viewed in its **[!UICONTROL General]** and **[!UICONTROL Reactions]** tabs (refer to [Hypothesis tracking](../../campaign/using/hypothesis-tracking.md)).
+1. Consultez les résultats de l’hypothèse dans les onglets **[!UICONTROL Général]** et **[!UICONTROL Réactions]** (voir [Suivi des hypothèses](../../campaign/using/hypothesis-tracking.md)).
 
    Les hypothèses faites sur une offre sont référencées dans l&#39;onglet **[!UICONTROL Mesure]** de l&#39;offre.
 
    ![](assets/response_hypothesis_instance_offer_007.png)
 
-   If the **[!UICONTROL Update offer proposition status]** option was enabled in the hypothesis template, the status of the offer proposition is changed automatically, thereby providing feedback on the impact of the campaign (for more on this, refer to [Transactions](../../campaign/using/hypothesis-templates.md#transactions)).
+   Si l’option **[!UICONTROL Mettre à jour l’état de la proposition d’offre]** a été activée dans le modèle d’hypothèse, l’état de la proposition d’offre est automatiquement modifié et permet d’avoir un retour sur l’impact de la campagne (voir à ce sujet la section [Transactions](../../campaign/using/hypothesis-templates.md#transactions)).
 
 ## Exemple de création d&#39;une hypothèse rattachée à une diffusion {#example--creating-a-hypothesis-linked-to-a-delivery}
 
-Dans cet exemple, nous voulons créer une hypothèse liée à une livraison. Cette hypothèse sera basée sur le modèle créé précédemment (voir [Exemple : création d’un modèle d’hypothèse sur une diffusion](../../campaign/using/hypothesis-templates.md#example--creating-a-hypothesis-template-on-a-delivery)). Nous affinerons ensuite la requête héritée du modèle pour émettre une hypothèse sur un article spécifique de la table d&#39;achat.
+Dans cet exemple, nous voulons créer une hypothèse liée à une diffusion. Cette hypothèse reposera sur le modèle créé précédemment (voir [Exemple de création d’un modèle d’hypothèse sur une diffusion](../../campaign/using/hypothesis-templates.md#example--creating-a-hypothesis-template-on-a-delivery)). Nous affinerons ensuite la requête héritée du modèle pour émettre une hypothèse sur un article spécifique de la table d&#39;achat.
 
-1. Create a campaign and a delivery (For more on this, refer to [Creating a campaign](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
+1. Créez une opération et une diffusion (voir à ce sujet la section [Créer une campagne](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
 
    Dans notre exemple, la diffusion est de type courrier.
 
@@ -157,7 +157,7 @@ Dans cet exemple, nous voulons créer une hypothèse liée à une livraison. Cet
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations, consultez [Définition d&#39;un groupe](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)de contrôle.
+   >Voir à ce sujet la section [Définir une population témoin](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 1. Ouvrez la **[!UICONTROL Diffusion courrier]** et cliquez sur l&#39;icône **[!UICONTROL Mesure de la diffusion]**, puis sur **[!UICONTROL Ajouter]**.
 
@@ -179,7 +179,7 @@ Dans cet exemple, nous voulons créer une hypothèse liée à une livraison. Cet
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Launch your targeting workflow and run the necessary checks until the campaign is finished (for more on this, refer to [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)).
+1. Lancez votre workflow de ciblage et effectuez les validations nécessaires jusqu&#39;à ce que la campagne soit terminée (voir à ce sujet la section [Démarrer une diffusion](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)).
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 
