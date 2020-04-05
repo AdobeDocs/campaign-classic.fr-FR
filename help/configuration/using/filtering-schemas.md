@@ -116,6 +116,6 @@ Il est tout de même possible de modifier les filtres système des schémas d’
 >Adobe recommande toutefois de ne pas modifier les paramètres par défaut afin de garantir une sécurité optimale.
 
 1. Créez une extension du schéma concerné ou ouvrez une extension existante.
-1. Add a child element **`<sysfilter name="<filter name>" _operation="delete"/>`** in the main element to delete application of the filter under the same in the origin schema.
-1. If you like, you can add a new filter, as detailed in [System filters](#system-filters).
+1. Dans l’élément principal, ajoutez un élément enfant **`<sysfilter name="<filter name>" _operation="delete"/>`** afin de supprimer l’application du filtre du même nom dans le schéma d’origine.
+1. Ajoutez un nouveau filtre si vous le souhaitez, comme décrit dans la section [Filtres système](#system-filters).
 
