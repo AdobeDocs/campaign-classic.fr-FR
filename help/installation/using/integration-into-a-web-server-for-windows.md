@@ -28,8 +28,8 @@ Vous pouvez utiliser ce Tomcat intégré pour servir des requêtes HTTP.
 
 Dans ce cas :
 
-* le port d’écoute par défaut est 8080. Pour le modifier, reportez-vous à [Configuration de Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
-* The client consoles then connect using a URL such as [https:// `<computer>`:8080](https://machine:8080).
+* le port d’écoute par défaut est 8080. Pour le modifier, voir [Configurer Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* Vos consoles clientes se connectent alors en utilisant une URL de type [https:// `<computer>`:8080](https://machine:8080).
 
 Cependant, pour des raisons de sécurité et d&#39;administration, il est conseillé d&#39;utiliser un véritable serveur Web comme point d&#39;entrée principal pour le trafic HTTP lorsque la machine qui fait tourner Adobe Campaign est exposée sur Internet et que vous voulez donner un accès à la console depuis l&#39;extérieur de votre réseau.
 
@@ -39,7 +39,7 @@ De même, vous devez utiliser un serveur Web lorsque vous souhaitez utiliser les
 
 >[!NOTE]
 >
->Si vous n’utilisez pas la fonctionnalité de suivi, vous pouvez effectuer une installation standard d’Apache ou IIS avec une redirection vers Campaign. Le module d&#39;extension du serveur Web de suivi n&#39;est pas requis.
+>Si vous n’utilisez pas la fonctionnalité de suivi, vous pouvez effectuer une installation standard d’Apache ou IIS avec une redirection vers Campaign. Le module d&#39;extension du serveur web de suivi n&#39;est pas requis.
 
 ## Configuration du serveur Web IIS {#configuring-the-iis-web-server}
 
@@ -62,7 +62,7 @@ Les étapes de paramétrage sont les suivantes :
 
    ![](assets/s_ncs_install_iis7_add_site.png)
 
-   Vous devez au moins spécifier le nom du site et le chemin d&#39;accès au répertoire virtuel. Le chemin d’accès au répertoire du site Web n’étant pas utilisé, vous pouvez utiliser le répertoire suivant.
+   Vous devez au moins spécifier le nom du site et le chemin d&#39;accès au répertoire virtuel. Le chemin d’accès au répertoire du site web n’étant pas utilisé, vous pouvez utiliser le répertoire suivant.
 
    ```
    C:\inetpub\wwwroot
@@ -70,7 +70,7 @@ Les étapes de paramétrage sont les suivantes :
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. Un script **VBS** vous permet de configurer automatiquement les ressources utilisées par le serveur Adobe Campaign sur le répertoire virtuel que nous venons de créer. Pour le lancer, double-cliquez sur le fichier **is_neolane_setup.vbs** situé dans le `[INSTALL]\tomcat-7\conf` dossier, où `[INSTALL]` est le chemin d’accès au dossier d’installation d’Adobe Campaign.
+1. Un script **VBS** vous permet de configurer automatiquement les ressources utilisées par le serveur Adobe Campaign sur le répertoire virtuel que nous venons de créer. Pour le lancer, double-cliquez sur le fichier **is_neolane_setup.vbs** situé dans le dossier`[INSTALL]\tomcat-7\conf`, où `[INSTALL]` est le chemin d’accès au dossier d’installation d’Adobe Campaign.
 
    ![](assets/s_ncs_install_iis7_parameters_step2.png)
 
