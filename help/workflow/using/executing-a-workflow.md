@@ -22,11 +22,11 @@ source-git-commit: 4b4ec97e52a494dd88b2516650ae514294f00934
 
 # Exécuter un workflow{#executing-a-workflow}
 
-Des instructions de dépannage relatives à l’exécution des processus sont disponibles dans [cette section](../../production/using/workflow-execution.md).
+Vous trouverez dans [cette section](../../production/using/workflow-execution.md) des instructions pour résoudre des problèmes relatifs à l&#39;exécution des workflows.
 
 ## Démarrer un workflow {#starting-a-workflow}
 
-Un workflow est toujours démarré manuellement. Au démarrage, il peut toutefois rester inactif en fonction des informations spécifiées par le biais d’un planificateur (voir [Planificateur](../../workflow/using/scheduler.md)) ou d’une planification d’activité.
+Un workflow est toujours démarré manuellement. Au démarrage, il peut toutefois rester inactif en fonction des informations spécifiées par le biais d&#39;un planificateur (voir [Planificateur](../../workflow/using/scheduler.md)) ou d&#39;une planification d&#39;activité.
 
 Les actions relatives à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l&#39;appliquer.
 
@@ -64,7 +64,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Purge de l&#39;historique]**
 
-   Cette action vous permet de purger l’historique du processus. Pour plus d’informations, reportez-vous à la section [Purge des journaux](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+   Cette action vous permet de purger l&#39;historique du workflow. Voir à ce propos la section [Purger l&#39;historique](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 
 * **[!UICONTROL Démarrer en mode simulation]**
 
@@ -98,7 +98,7 @@ Les options disponibles dans le menu contextuel sont les suivantes :
 
 **[!UICONTROL Ouvrir :]** cette option permet d&#39;accéder aux propriétés de l&#39;activité.
 
-**** Afficher les journaux : cette option vous permet d’afficher le journal d’exécution de la tâche pour l’activité sélectionnée. Reportez-vous à [Affichage des journaux](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
+**[!UICONTROL Afficher le journal :]** cette option permet de visualiser le journal d&#39;exécution des tâches de l&#39;activité sélectionnée. Voir la section [Afficher le journal](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
 
 **[!UICONTROL Traitement anticipé de la (des) tâche(s) :]** cette action permet de lancer dès que possible la ou les tâches en attente de l&#39;activité.
 
@@ -108,7 +108,7 @@ Les options disponibles dans le menu contextuel sont les suivantes :
 
 **[!UICONTROL Copier en tant qu&#39;image :]** cette option permet d&#39;effectuer une capture d&#39;écran de l&#39;ensemble des activités.
 
-**** Exécution normale / Activer mais pas exécuter / Ne pas activer : ces options sont également disponibles dans l’onglet **[!UICONTROL Avancé]** des propriétés de l’activité. Ils sont détaillés dans [Exécution](../../workflow/using/advanced-parameters.md#execution).
+**[!UICONTROL Exécution normale / Activer mais ne pas exécuter / Ne pas activer :]** ces options sont également disponibles dans l&#39;onglet **[!UICONTROL Avancé]** des propriétés de l&#39;activité. Elles sont présentées dans la section [Exécution](../../workflow/using/advanced-parameters.md#execution).
 
 **[!UICONTROL Enregistrer/Annuler :]** permet d&#39;enregistrer ou d&#39;annuler les modifications effectuées sur le workflow.
 
@@ -146,7 +146,7 @@ Le workflow est donc démarré et attend la décision d&#39;un opérateur du gro
 
 La gestion des opérateurs est présentée dans cette [section](../../platform/using/access-management.md).
 
-Pour plus d’informations sur la manière de surveiller vos processus, reportez-vous à [cette section](../../workflow/using/monitoring-workflow-execution.md).
+Pour plus d&#39;informations sur la manière de surveiller vos workflows, voir [cette section](../../workflow/using/monitoring-workflow-execution.md).
 
 ## Cycle de vie des données {#data-life-cycle}
 
@@ -166,7 +166,7 @@ Sélectionnez pour cela le menu correspondant :
 
    ![](assets/wf-right-click-display.png)
 
-   Pour plus d’informations, reportez-vous à la section [Tables de travail et schéma](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema)de flux de travail.
+   Voir à ce sujet la section [Tables de travail et schémas des workflows](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema).
 
 * Analyser la cible
 
@@ -295,7 +295,7 @@ Pour les workflows techniques, les tâches que l&#39;utilisateur peut valider so
 Une validation est assignée à un groupe d&#39;opérateurs, un opérateur unique ou un ensemble d&#39;opérateurs sélectionnés au travers d&#39;une condition de filtrage.
 
 1. Pour une validation simple, la tâche est terminée dès qu&#39;un opérateur a répondu. Tout autre opérateur qui essayera de répondre recevra alors un message lui signalant que quelqu&#39;un d&#39;autre a déjà répondu.
-1. Pour obtenir plusieurs approbations, reportez-vous à la section [Approbation](#multiple-approval)multiple.
+1. Pour les validations multiples, voir la section [Validation multiple](#multiple-approval).
 
 Les groupes d&#39;opérateurs destinés aux validations doivent être conçus comme des rôles ou des fonctions plutôt que des personnes nommées. Par exemple, un groupe &quot;Responsable budget campagne&quot; est plus pertinent que &quot;Equipe Martine&quot;. Il est conseillé d&#39;avoir toujours au moins deux personnes dans un groupe pour valider une tâche, afin qu&#39;en cas d&#39;absence, une personne puisse toujours répondre.
 
