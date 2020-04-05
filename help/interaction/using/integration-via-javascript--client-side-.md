@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Intégration via JavaScript (côté client){#integration-via-javascript-client-side}
 
-Pour appeler le moteur d’interaction dans une page Web, insérez un appel à un code JavaScript directement dans la page. Cet appel renvoie le contenu de l’offre dans une
+L&#39;appel du moteur d&#39;Interaction dans une page web est effectué par l&#39;insertion d&#39;un appel à un code JavaScript directement dans la page. Cet appel renvoie le contenu de l&#39;offre dans un élément ciblé
 
 element.
 
@@ -54,9 +54,9 @@ Les cas d&#39;utilisations suivants présentent les différentes options possibl
 
 1. **Contenu de la page HTML**
 
-   La page HTML doit inclure une
+   La page HTML doit inclure un
 
-   avec un attribut @id avec la valeur du nom interne de l’espace d’offre créé (&quot;i_internal name space&quot;). L’offre sera insérée dans cet élément par Interaction.
+   élément avec un attribut @id avec la valeur du nom interne de l’espace d’offre créé (&quot;i_internal name space&quot;). L’offre sera insérée dans cet élément par Interaction.
 
    Dans l&#39;exemple, l&#39;attribut @id reçoit la valeur &quot;i_SPC12&quot; où &quot;SPC12&quot; est le nom interne de l&#39;emplacement précédemment créé :
 
@@ -72,7 +72,7 @@ Les cas d&#39;utilisations suivants présentent les différentes options possibl
 
    >[!CAUTION]
    >
-   >The `<script>` tag must not be self-closing.
+   >La balise `<script>` ne doit pas être auto-fermante.
 
    Cet appel statique va automatiquement générer un appel dynamique contenant tous les paramètres nécessaires au moteur d&#39;Interaction.
 
@@ -106,7 +106,7 @@ Les cas d&#39;utilisations suivants présentent les différentes options possibl
 
 ### Présenter une offre identifiée {#presenting-an-identified-offer}
 
-Pour présenter une offre à un contact identifié, le processus est similaire à celui détaillé ici : [Présentation d’une offre](#presenting-an-anonymous-offer)anonyme. Dans le contenu de la page Web, vous devez ajouter le script suivant qui identifie le contact lors de l’appel au moteur :
+Pour présenter une offre à un contact identifié, le processus est similaire à celui détaillé ici : [Présenter une offre anonyme](#presenting-an-anonymous-offer). Dans le contenu de la page web, vous devez ajouter le script suivant qui identifie le contact lors de l’appel au moteur :
 
 ```
 <script type="text/javascript">
@@ -181,9 +181,9 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
 1. **Créer un environnement et un emplacement**
 
-   Pour plus d’informations sur la création d’un environnement, reportez-vous à la section Environnements [Live/Design](../../interaction/using/live-design-environments.md).
+   Pour plus d’informations sur la création d’un environnement, consultez la section [Environnements en ligne/édition](../../interaction/using/live-design-environments.md).
 
-   For more on creating an offer space, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   Pour plus d’informations sur la création d&#39;un emplacement, consultez la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
 
 1. **Etendre le schéma des offres pour ajouter des nouveaux champs**
 
@@ -266,7 +266,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    >[!CAUTION]
    >
-   >The fields of the ( `<input>`) form must point to the CDATA type elements defined in the created schema.
+   >Les champs du formulaire (`<input>`) doivent pointer vers les éléments de type CDATA définis dans le schéma créé.
 
    Le rendu dans le formulaire des représentations des offres est le suivant :
 
@@ -276,7 +276,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
 1. **Créer une offre**
 
-   Pour plus d’informations sur la création d’offres, voir [Création d’une offre](../../interaction/using/creating-an-offer.md).
+   Pour plus d’informations sur la création d’offres, voir [Créer une offre](../../interaction/using/creating-an-offer.md).
 
    Dans le cas d&#39;utilisation suivant, l&#39;offre est remplie de cette manière :
 
