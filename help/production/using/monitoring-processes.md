@@ -36,7 +36,7 @@ La page qui s&#39;affiche permet de visualiser l&#39;état de l&#39;instance con
 * la liste des processus manquants et les informations d&#39;exécution (date de démarrage, PID, etc.),
 * une vue des workflows et des diffusions.
 
-D’autres méthodes de surveillance des différents processus de campagne sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
 
 ### Journal des logs {#log-journal}
 
@@ -228,7 +228,7 @@ Adobe Campaign vous permet de personnaliser les indicateurs. Pour ce faire :
    </indicator>"
    ```
 
-   or
+   ou
 
    ```
    #!/bin/bash 
@@ -354,7 +354,7 @@ Une fois le workflow démarré tous les 25 du mois, votre opérateur billing re�
 Les mesures suivantes sont disponibles pour effectuer le suivi de vos diffusions :
 
 * **[!UICONTROL Date de démarrage]** : date de démarrage de la diffusion. Notez qu’elle ne peut pas être antérieure à la date indiquée dans le champ « à partir du » du rapport.
-* **[!UICONTROL Étiquette]** : Étiquette de la diffusion.Les livraisons qui comportent moins de 100 messages à envoyer sont considérées comme trop petites et donc agrégées par date de début, auquel cas l&#39;étiquette indique le nombre d&#39;agrégats, par exemple [Agrégation de 3 petites livraisons].
+* **[!UICONTROL Libellé]** : libellé de la diffusion. Les diffusions comportant moins de 100 messages à envoyer sont considérées trop petites et sont donc agrégées par date de démarrage, auquel cas le libellé indique le nombre d’agrégats, par exemple, [Agrégation de 3 petites diffusions].
 * **[!UICONTROL Volume total]** : volume total d’octets transférés pour la diffusion.
 * **[!UICONTROL Volume moyen]** : volume moyen d’octets transférés. Il s’agit du résultat de la formule suivante **(volume total/messages)**, qui est la base de calcul de la mesure **[!UICONTROL Multiplicateur]**.
 * **[!UICONTROL Messages]** : nombre de messages envoyés, incluant à la fois les messages envoyés avec succès et les reprises (suite à la réception d’un message rebond de la part du serveur contacté).
@@ -401,9 +401,9 @@ Elle affiche une ligne au format XML du type :
 
 #### Le /nl/jsp/ping.jsp{#nl-jsp-ping-jsp}
 
-Cette page **http(s)://`<Application server url>`/nl/jsp/ping.jsp** fonctionne de la même manière que sa contrepartie réseau : il teste une requête complète qui passe par apache/tomcat/module Web/base de données et qui est téléchargée sur le client. Si tout fonctionne correctement, il renvoie &quot;OK&quot;. Nous vous recommandons d&#39;exécuter ce test sur les machines ayant accès aux bases de données (mtas et enquêtes, par exemple).
+Cette page **http(s)://`<Application server url>`/nl/jsp/ping.jsp** fonctionne de la même manière que sa contrepartie réseau : elle teste une requête complète qui passe par apache/tomcat/module web/base de données et qui est téléchargée vers le client. Si tout fonctionne correctement, elle renvoie « OK ». Nous vous recommandons d&#39;exécuter ce test sur les machines ayant accès aux bases de données (mtas et questionnaires, par exemple).
 
-**Utilisation**: un jeton de session associé à une connexion d’opérateur doit être transmis en tant qu’argument pour se connecter à distance (voir l’astuce de la section Surveillance [automatique via les scripts](#automatic-monitoring-via-adobe-campaign-scripts)Adobe Campaign).
+**Utilisation** : il faut mettre en argument un token de session associé au login d&#39;un opérateur qui permet de se connecter à l&#39;instance (voir l&#39;astuce dans la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](#automatic-monitoring-via-adobe-campaign-scripts)).
 
 Par exemple :
 
@@ -417,11 +417,11 @@ L&#39;opérateur et son login doivent avoir été préalablement configurés dan
 
 #### Le /nl/jsp/monitor.jsp{#nl-jsp-monitor-jsp}
 
-Il s’agit d’un test permettant de vérifier qu’un opérateur peut accéder au serveur Adobe Campaign via une page Web ; la même page Web que celle accessible via les menus de la console client. Vous pouvez appeler cette page à partir de vos outils de surveillance (Tivoli, Nagios, etc.).
+Il s’agit d’un test permettant de vérifier qu’un opérateur peut accéder au serveur Adobe Campaign  via une page Web ; la même page Web que celle accessible via les menus de la console client. Vous pouvez appeler cette page à partir de vos outils de surveillance (Tivoli, Nagios, etc.).
 
 ![](assets/ncs_monitoring_web.png)
 
-**Utilisation**: un jeton de session associé à une connexion d’opérateur qui vous permet de vous connecter à l’instance doit être utilisé comme argument (voir l’astuce de la section Surveillance [automatique via les scripts](#automatic-monitoring-via-adobe-campaign-scripts)Adobe Campaign).
+**Utilisation** : il faut mettre en argument un token de session associé au login d&#39;un opérateur qui permet de se connecter à l&#39;instance (voir l&#39;astuce dans la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](#automatic-monitoring-via-adobe-campaign-scripts)).
 
 L&#39;opérateur et son login doivent avoir été préalablement configurés dans la console cliente Adobe Campaign avec les droits et les restrictions sur les données de la base.
 
@@ -490,7 +490,7 @@ Adobe Campaign peut vous fournir un outil de surveillance des instances (netrepo
 
 Pour une surveillance automatique, les précautions suivantes sont requises avant installation :
 
-* You must have the **netreport.tgz **(Linux installation) or **netreport.zip** (Windows installation) files,
+* Vous devez avoir les fichiers **netreport.tgz ** (installation sous Linux) ou **netreport.zip** (installation sous Windows),
 * il est fortement conseillé de ne pas installer le monitoring sur la machine à surveiller,
 * il est indispensable que la machine sur laquelle il sera installé possède un JRE ou un JDK,
 * sous Linux, la machine à surveiller doit posséder le package **bc**. Voir à ce sujet [cette section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
@@ -501,8 +501,8 @@ La procédure d&#39;installation est la suivante :
 
 1. Dans la console, créez, si besoin, un nouvel opérateur (l&#39;utilisateur &#39;monitoring&#39; existe déjà), sans lui attribuer de droits.
 1. Lancez l&#39;extraction de l&#39;archive.
-1. Read the **readme** file.
-1. Update the **netconf.xml** configuration file.
+1. Consultez le fichier **readme**.
+1. Mettez à jour le fichier de configuration **netconf.xml**.
 1. Mettez à jour le fichier **netreport.bat** (Windows) ou **netreport.sh **(Linux).
 
 ### Configuration du fichier netconf.xml {#configuring-the-netconf-xml-file}
@@ -544,7 +544,7 @@ Voici un exemple de configuration :
 
 >[!NOTE]
 >
->Vous pouvez spécifier différentes configurations en ajoutant un suffixe au fichier **netconf.xml** , par exemple **netconf-dev.xml**, **netconf-prod.xml**, etc. Spécifiez ensuite la configuration à utiliser pour exécuter le netreport dans les fichiers **netreport.bat** ou **netreport.sh** en ajoutant **$JAVA_HOME/bin/java netreport dev** ou **@%JAVA_HOME%binjava netreport prod par exemple.**
+>Vous pouvez spécifier différentes configurations en ajoutant un suffixe au fichier **netconf.xml**, par exemple **netconf-dev.xml**, **netconf-prod.xml**, etc. Spécifiez ensuite la configuration à utiliser pour exécuter le netreport dans les fichiers **netreport.bat** ou **netreport.sh** en ajoutant **$JAVA_HOME/bin/java netreport dev** ou **@%JAVA_HOME%binjava netreport prod** par exemple.
 
 >[!CAUTION]
 >
@@ -554,21 +554,21 @@ Voici un exemple de configuration :
 
 Cet élément permet de renseigner le paramétrage des mails, soit :
 
-* **mailServer**: Serveur SMTP utilisé pour envoyer des courriers électroniques (p. ex. : smtp.domain.net).
-* **mailFrom**: adresse électronique de l’expéditeur du rapport (p. ex. : monitoring@domain.net).
-* **RecipientList**: liste des adresses électroniques des destinataires du contrôle. Les adresses doivent être séparées par des virgules (sans espaces).
-* Le mode &quot;**nuit**&quot; (facultatif) permet d’éviter d’envoyer des courriers électroniques entre les heures spécifiées. Les données sont alors consolidées et un courrier électronique concernant l’activité nocturne est envoyé après l’heure de fin (7:00 par défaut).
-* Le sous-élément **buildRange** (facultatif) vous permet de spécifier un nombre de versions minimal et maximal. Une erreur sera générée pour toutes les machines dont le numéro de version ne tombe pas dans cette plage
+* **mailServer** : serveur MTP utilisé pour envoyer les emails (ex : smtp.domain.net).
+* **mailFrom** : adresse email de l&#39;expéditeur du rapport (ex : monitoring@domain.net).
+* **recipientList** : liste des adresses email des destinataires du contrôle. Les adresses doivent être séparées par des virgules (sans espaces).
+* Le mode « **nuit** » (facultatif) permet d’éviter d’envoyer des emails entre les heures spécifiées. Les données sont alors consolidées et un email concernant l’activité nocturne est envoyé après l’heure de fin (7 h par défaut).
+* Le sous-élément **buildRange** (facultatif) vous permet de spécifier un nombre de build minimal et maximal. Une erreur sera générée pour toutes les machines dont le numéro de build ne tombe pas dans cette plage.
 
    ```
    <buildRange minimum="0000" maximum="9999"/>
    ```
 
-* Vous pouvez ajouter un sous-élément **`<sla>`** (facultatif) dans l’élément **Propriétés** . Un fichier journal est généré chaque fois que le rapport réseau est exécuté. Le nom du fichier contient le nom de configuration et la date et l’heure, par exemple **dev_06_12_13_16_47_05.tmp**. Le fichier contient les informations suivantes : nom d’instance, nom de l’ordinateur, niveau de gravité, (0 à 3, du moins critique au plus critique), date (format d’horodatage), délai écoulé (en millisecondes) entre la requête et la réponse, service utilisé (http, ncs, ncsex, redirecteur). Ces informations sont séparées par des marques de tabulation et des sauts de ligne à la fin de chaque service.
+* Vous pouvez ajouter un sous-élément **`<sla>`** (facultatif) dans l’élément **Propriétés**. Un fichier journal est généré chaque fois que le netreport est exécuté. Le nom du fichier contient le nom de configuration et la date et l’heure, par exemple **dev_06_12_13_16_47_05.tmp**. Le fichier contient les informations suivantes : nom d’instance, nom de la machine, niveau de gravité, (0 à 3, du moins critique au plus critique), date (format d’horodatage), délai écoulé (en millisecondes) entre la requête et la réponse, service utilisé (http, ncs, ncsex, redir). Ces informations sont séparées par des marques de tabulation et des sauts de ligne à la fin de chaque service.
 
 >[!NOTE]
 >
->L’attribut **persistHtmlFile** avec la valeur &quot;true&quot; sur l’ **`<property>`** élément sert à enregistrer le dernier état de surveillance dans le fichier **netreport.md**. Ce fichier est enregistré dans le répertoire d’installation.
+>L’attribut **persistHtmlFile** avec la valeur &quot;true&quot; sur l’élément **`<property>`** sert à enregistrer le dernier état de surveillance dans le fichier **netreport.md**. Ce fichier est enregistré dans le répertoire d’installation.
 
 #### Elément &#39;instance&#39;{#instance--element}
 
@@ -585,40 +585,40 @@ instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
 </instance
 ```
 
-* **name**: nom d’instance qui apparaîtra dans la première partie du courrier électronique.
-* **RecipientList** (facultatif) : vous permet d’envoyer par courrier électronique un rapport de surveillance concernant une instance particulière.
+* **name** : nom de l&#39;instance qui apparaitra dans la première partie de l&#39;e-mail.
+* **recipientList** (optionnel) : vous permet d&#39;envoyer par email un rapport de monitoring concernant une instance en particulier.
 
 #### Elément &#39;host&#39;{#host--element}
 
 Cet élément paramètre la surveillance sur l&#39;host d&#39;un serveur donné, soit :
 
-* **name**: nom de l&#39;ordinateur à surveiller.
-* **alias** (facultatif) : nom de l&#39;ordinateur surveillé tel qu&#39;il apparaîtra dans le rapport.
-* **sessionToken**: fournit une authentification de connexion via un jeton de session autorisé.
+* **name** : nom de la machine à surveiller.
+* **alias** (optionnel) : nom sous lequel apparaîtra la machine surveillée dans le rapport.
+* **sesionToken** : permet de s&#39;authentifier sous la forme d&#39;un jeton de session autorisé.
 
    Pour paramétrer le token de session, sélectionnez l&#39;opérateur **monitoring** dans la console Adobe Campaign. Dans l&#39;onglet **Droit d&#39;accès**, indiquez les adresses IP des machines autorisées à surveiller cette instance. Depuis ces machines, vous pourrez alors vous connecter à la page de monitoring avec l&#39;identifiant **monitoring** sans avoir besoin de spécifier de mot de passe.
 
    ![](assets/ncs_operators_rights_02.png)
 
-* **CriticalLevel** (facultatif) : permet de trier les erreurs à afficher par niveau de gravité. Les valeurs possibles sont &quot;0&quot; (tous les niveaux affichés), &quot;1&quot; (seules les erreurs graves et élevées sont affichées) et &quot;2&quot; (seules les erreurs critiques sont affichées). Si cet attribut n’est pas fourni, tous les niveaux d’erreur s’affichent.
-* **filter** (facultatif) : vous permet d’exclure certaines erreurs de flux de travaux, par exemple **filter=&quot;wkf;wkf1&quot;**. Les libellés de processus doivent être séparés par des points-virgules.
+* **criticalLevel** (optionnel) : permet de trier les erreurs à afficher par niveau de gravité. Les valeurs possibles sont &quot;0&quot; (tous les niveaux affichés), &quot;1&quot; (seules les erreurs graves et élevées sont affichées) et &quot;2&quot; (seules les erreurs critiques sont affichées). Si cet attribut n’est pas fourni, tous les niveaux d’erreur s’affichent.
+* **filter** (optionnel) : vous permet d’exclure certaines erreurs de workflow, par exemple **filter=&quot;wkf;wkf1&quot;**. Les libellés de workflow doivent être séparés par des points-virgules.
 
 #### Les sous-éléments {#sub-elements}
 
-* **tcp**: vérifie si le serveur est en marche ou en panne. Vous devez saisir un numéro de port.
-* **http**: vérifie que le serveur Web existe (le serveur d’applications est opérationnel).
-* **ncs**: vérifie les processus sur l’instance saisie dans l’attribut &quot;instance&quot; (erreurs de flux de travail, utilisation de la mémoire, etc.). L’attribut **includered** (obligatoire) vous donne la possibilité d’afficher les processus inactifs (valeurs &quot;true&quot; ou &quot;false&quot;).
-* **redirecteur**: vérifie le suivi.
+* **tcp** : vérifie si le serveur est en marche ou en panne. Vous devez saisir un numéro de port.
+* **http** : vérifie l&#39;existence du serveur web (bon fonctionnement du serveur applicatif).
+* **ncs**: vérifie les processus sur l’instance saisie dans l’attribut &quot;instance&quot; (erreurs de workflow, utilisation de la mémoire, etc.). L’attribut **includead** (obligatoire) vous donne la possibilité d’afficher les processus morts (valeurs &quot;true&quot; ou &quot;false&quot;).
+* **redir** : vérifie le suivi.
 
-In most cases, only the **ncs** and **redir** sub-elements can be kept.
+Dans la plupart des cas, on peut ne conserver que les sous-éléments **ncs** et **redir**.
 
-In any case, certain nodes can be overloaded in the sub-elements (e.g., the node **port=75** to overload the port used for the http, ncs or redir connection):
+Dans tous les cas, on peut surcharger certains nœuds dans les sous-éléments (par exemple le nœud **port=75** pour surcharger le port utilisé pour la connexion http, ncs ou redir) :
 
 ```
 <ncs instance="clap40" url="/nl/jsp/soaprouter.jsp" includeDead="false" port="80"/>
 ```
 
-Dans les sous-éléments **ncs**, **redirecteur** et **http** , vous pouvez ajouter l’attribut **isSecure (facultatif) pour choisir d’utiliser ou non le protocole https (valeurs &quot;true&quot; ou &quot;false&quot;).** Si cet attribut n’est pas fourni, le protocole http est utilisé.
+Dans les sous-éléments **ncs**, **redir** et **http**, vous pouvez ajouter l’attribut **isSecure** (optionnel) pour choisir d’utiliser ou non le protocole https (valeurs &quot;true&quot; ou &quot;false&quot;). Si cet attribut n’est pas fourni, le protocole http est utilisé.
 
 ### Configuration du fichier netreport.bat ou netreport.sh {#configuring-the-netreport-bat-or-netreport-sh--file}
 
@@ -626,10 +626,10 @@ Pour le configurer, éditez ce fichier et indiquez le répertoire dans lequel a 
 
 ### Lancement du monitoring {#launching-monitoring}
 
-Pour lancer la surveillance, exécutez le fichier **netreport.bat** ou **netreport.sh** à intervalles réguliers via un script. Un rapport est envoyé après la première exécution, puis uniquement en cas de changement d’état.
+Pour lancer la surveillance, exécutez le fichier **netreport.bat** ou **netreport.sh** à intervalles réguliers via un script. Un rapport est envoyé après la première exécution, puis uniquement en cas de changement de statut.
 
 ### Test du monitoring {#testing-monitoring}
 
-To test the monitoring, execute the **netreport.bat** or **netreport.sh** file.
+Pour tester la surveillance, exécutez le fichier **netreport.bat** ou **netreport.sh**.
 
-An email is sent to the recipients specified in the **recipientList** of the **netconf.xml** file.
+Un email est envoyé aux destinataires spécifiés dans le **recipientList** du fichier **netconf.xml**.
