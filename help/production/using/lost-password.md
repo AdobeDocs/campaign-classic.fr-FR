@@ -36,7 +36,7 @@ Deux cas sont possibles :
 
    En cas de perte du mot de passe **internal**, vous devez le réinitialiser. Pour cela, la procédure est la suivante :
 
-   1. Edit the **/usr/local/neolane/nl6/conf/serverConf.xml** file.
+   1. Modifiez le fichier **/usr/local/neolane/nl6/conf/serverConf.xml**.
    1. Positionnez-vous sur la ligne **internalPassword**.
 
       ```
