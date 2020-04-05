@@ -51,7 +51,7 @@ Cette section contient une série de recommandations et de bonnes pratiques dest
 
 ### Maintenance simple {#simple-maintenance}
 
-Under PostgreSQL, the typical commands you can use are **vacuum full** and **reindex**.
+Sous PostgreSQL, les commandes habituellement utilisées sont **vacuum full** et **reindex**.
 
 Voici un exemple classique de plan de maintenance SQL qui doit être exécuté régulièrement à l&#39;aide de ces deux commandes :
 
@@ -97,8 +97,8 @@ vacuum full nmsdelivery;
 >
 >* Adobe conseille de commencer par les tables de petite taille. Si l&#39;opération de maintenance devait échouer sur les tables volumineuses (ce qui est davantage le cas que sur les petites tables), une partie de la maintenance serait déjà assurée.
 >* Adobe recommande d&#39;ajouter tables spécifiques à votre modèle de données, notamment celles qui subissent des mises à jour massives. Par exemple, cela peut être le cas pour **NmsRecipient** si vous procédez chaque jour à d&#39;importantes réplications de données.
->* The **vacuum** and **re-index** commands will lock the table, which pauses some processes while maintenance is carried out.
->* Pour les très grandes tables (généralement au-dessus de 5 Go), le **vide complet** peut devenir assez inefficace et prendre beaucoup de temps. Adobe déconseille de l’utiliser pour la table **YyyNmsBroadLogXxx** .
+>* Les commandes **vacuum** et **re-index** verrouillent la table ce qui met certains processus en attente pendant toute la durée de la maintenance.
+>* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande **vacuum full** peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
 >* Cette opération de maintenance peut être effectuée par un workflow d’Adobe Campaign via une activité de type **[!UICONTROL SQL]** (voir à ce sujet [cette section](../../workflow/using/executing-a-workflow.md#architecture)). Assurez-vous de lancer la maintenance pendant une période de faible activité et en dehors des périodes de sauvegarde.
 >
 
@@ -106,14 +106,14 @@ vacuum full nmsdelivery;
 
 ### Reconstruire une base {#rebuilding-a-database}
 
-PostgreSQL n&#39;offre pas un moyen facile d&#39;effectuer une reconstruction de table en ligne, car **vide complet** verrouille la table, empêchant ainsi une production régulière. Cela signifie que la maintenance doit être effectuée lorsque le tableau n’est pas utilisé. Vous pouvez, au choix :
+PostgreSQL ne propose pas de moyen efficace pour effectuer une reconstruction de table en ligne, car la commande **vacuum full** verrouille la table, empêchant ainsi une production régulière. La maintenance doit donc être effectuée lorsque la table n&#39;est pas utilisée. Vous pouvez, au choix :
 
 * effectuer la maintenance lorsque la plateforme Adobe Campaign est arrêtée,
-* stop the various Adobe Campaign sub-services likely to write in the table being rebuilt (**nlserver stop wfserver instance_name** to stop the workflow process).
+* arrêter les processus Adobe Campaign susceptibles d&#39;écrire dans la table qui est en cours de reconstruction (par exemple **nlserver stop wfserver@nom_de_l&#39;instance** pour arrêter le processus de workflow).
 
 Voici un exemple de défragmentation de table à l&#39;aide de fonctions qui permettent de générer le langage de définition de données (LDD) voulu. La requête SQL suivante permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2** qui peuvent être utilisées pour générer le LDD destiné à recréer une table.
 
-* La première fonction vous permet de créer un tableau de travail (** _tmp** ici) qui est une copie du tableau d’origine.
+* La première fonction permet de créer une table de travail (** _tmp** dans notre exemple) qui est une copie de la table d&#39;origine.
 * La deuxième fonction supprime la table d&#39;origine et renomme la table de travail et ses index comme celle d&#39;origine.
 * L&#39;utilisation de deux fonctions au lieu d&#39;une permet d&#39;éviter de supprimer définitivement la table d&#39;origine au cas où la première fonction échouerait.
 
@@ -331,7 +331,7 @@ Voici un exemple de défragmentation de table à l&#39;aide de fonctions qui per
  $$ LANGUAGE plpgsql;
 ```
 
-The following example can be used in a workflow to rebuild the required tables rather than using the **vacuum/rebuild** command:
+L&#39;exemple qui suit peut être utilisé dans un workflow pour reconstruire les tables requises plutôt que d&#39;utiliser la commande **vacuum/rebuild** :
 
 ```
 function sqlGetMemo(strSql)
@@ -424,16 +424,16 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
    >
    >Pour que cet objet puisse s’exécuter, l’agent Microsoft SQL Server doit être activé.
 
-**Configuration d’une base de données distincte pour les tables de travail**
+**Configuration d&#39;une base de données distincte pour les tables de travail**
 
 >[!NOTE]
 >
 >Ce paramétrage est facultatif.
 
-L&#39;option **WdbcOptions_TempDbName** vous permet de configurer une base de données distincte pour les tables de travail sur Microsoft SQL Server. Cela optimise les sauvegardes et la réplication.
+L&#39;option **WdbcOptions_TempDbName** permet de configurer une base de données distincte pour les tables de travail de Microsoft SQL Server. Cette configuration permet d&#39;optimiser les sauvegardes et la réplication.
 
-Cette option peut être utilisée si vous souhaitez que les tables de travail (par exemple, les tables créées pendant l’exécution d’un flux de travail) soient créées dans une autre base de données.
+Cette option peut être utilisée si vous souhaitez que les tables de travail (par exemple, les tables créées pendant l&#39;exécution d&#39;un workflow) soient créées dans une autre base de données.
 
-Lorsque vous définissez l’option sur &quot;tempdb.dbo.&quot;, les tables de travail sont créées dans la base de données temporaire par défaut de Microsoft SQL Server. L’administrateur de la base de données doit autoriser l’accès en écriture à la base de données tempdb.
+Lorsque vous définissez l&#39;option sur &quot;tempdb.dbo.&quot;, les tables de travail sont créées dans la base de données temporaire par défaut de Microsoft SQL Server. L&#39;administrateur de la base de données doit autoriser l&#39;accès en écriture à la base de données tempdb.
 
-Si cette option est définie, elle sera utilisée sur toutes les bases de données Microsoft SQL Server configurées dans Adobe Campaign (base de données principale et comptes externes). Notez que si deux comptes externes partagent le même serveur, des conflits peuvent survenir (car tempdb sera unique). De la même manière, si deux instances Campaign utilisent le même serveur MSSQL, il peut y avoir des conflits si elles utilisent le même tempdb.
+Si cette option est définie, elle sera utilisée sur toutes les bases de données Microsoft SQL Server configurées dans Adobe Campaign (base de données principale et comptes externes). Notez que si deux comptes externes partagent le même serveur, des conflits peuvent survenir (car tempdb est unique). De même, si deux instances Campaign utilisent le même serveur MSSQL, il peut y avoir des conflits si elles utilisent la même tempdb.
