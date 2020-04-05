@@ -28,7 +28,7 @@ Pour une plateforme Windows 32 bits, procédez à une installation d&#39;Adobe C
 
 Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
 
-1. Execute the file **setup.exe**.
+1. Exécutez le fichier **setup.exe**.
 
    ![](assets/s_ncs_install_installer_01.png)
 
@@ -66,7 +66,7 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
    >
    >Une fois l&#39;installation du serveur terminée, un redémarrage du serveur est requis pour éviter tout problème de réseau.
 
-   Une fois l’installation terminée, démarrez Adobe Campaign pour créer les fichiers de configuration. Reportez-vous à la section [Premier démarrage du serveur](#first-start-up-of-the-server).
+   Une fois l&#39;installation terminée, démarrez Adobe Campaign pour créer les fichiers de configuration. Voir la section [Premier démarrage du serveur](#first-start-up-of-the-server).
 
 ## Test sommaire de l&#39;installation {#summary-installation-testing}
 
@@ -143,7 +143,7 @@ Les informations affichées sont alors les suivantes :
 
 Le serveur Adobe Campaign définit un identifiant (ou &#39;login&#39;) technique nommé **internal** qui possède tous les droits, sur toutes les instances. Après une installation récente, cet identifiant n&#39;a pas de mot de passe. Il est obligatoire d&#39;en définir un.
 
-Voir la section Identifiant [interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
+Voir la section [Identifiant &#39;internal&#39;](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
 ## Démarrage des services Adobe Campaign {#starting-adobe-campaign-services}
 
