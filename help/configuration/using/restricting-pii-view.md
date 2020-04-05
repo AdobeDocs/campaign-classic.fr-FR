@@ -61,7 +61,7 @@ Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont 
 * Lors du stockage de la population ciblée dans un groupe (liste), les caractéristiques des champs stockés sont identiques à celles de la source de données.
 * Par défaut, les données ne sont pas accessibles par les codes JavaScript.
 
-## Recommandations {#recommendations}
+## Recommandations  {#recommendations}
 
 Dans chaque diffusion, les adresses email sont copiées dans les tables de **[!UICONTROL broadLog]** et **[!UICONTROL forecastLog]** : ces champs doivent donc être aussi protégés.
 
