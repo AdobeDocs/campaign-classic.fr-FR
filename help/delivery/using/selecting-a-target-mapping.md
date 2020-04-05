@@ -35,7 +35,7 @@ Ces mappings sont les suivants :
 | Abonnements  | Diffuser aux destinataires abonnés à un service d&#39;information, par exemple une newsletter | nms:subscription |
 | Abonnements des visiteurs | Diffuser à des visiteurs abonnés à un service d&#39;information | nms:visitorSub |
 | Service | Publier sur un compte Twitter ou une page Facebook | nms:service |
-| Opérateurs | Diffuser aux opérateurs Adobe Campaign | nms:operator |
+| Les opérateurs | Diffuser aux opérateurs Adobe Campaign | nms:operator |
 | Fichier externe | Diffuser depuis un fichier contenant les toutes informations nécessaires à la diffusion | Aucun schéma associé, aucune cible renseignée |
 
 >[!NOTE]
