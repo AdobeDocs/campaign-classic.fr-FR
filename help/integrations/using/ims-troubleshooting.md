@@ -50,7 +50,7 @@ Dans le compte externe **Adobe Marketing Cloud** Campaign, vérifiez que l&#39
 * Vérifiez que l&#39;utilisateur tentant de se connecter fait partie d&#39;un groupe d&#39;opérateurs dans Enterprise Dashboard.
 * Vérifiez que le **[!UICONTROL masque de correspondance]** est un préfixe du nom de groupe d&#39;opérateurs de l&#39;utilisateur dans Enterprise Dashboard.
 * Assurez-vous qu&#39;il n&#39;y a aucun espace blanc ni faute d&#39;orthographe.
-* Vérifiez que les noms des groupes d’opérateurs dans Campaign n’ont pas été modifiés et respectez la syntaxe suivante :
+* Vérifiez que les noms des groupes d&#39;opérateurs dans Campaign n&#39;ont pas été modifiés et qu&#39;ils respectent la syntaxe suivante :
 
 ```
 <Association Mask> + <Operator Group Name in Campaign> = Complete name of the operator group in Enterprise Dashboard
