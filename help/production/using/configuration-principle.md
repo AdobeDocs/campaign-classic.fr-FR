@@ -34,17 +34,17 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 
 * De nombreux paramétrages techniques du serveur : ces paramétrages peuvent tous être surchargés dans la configuration spécifique d&#39;une instance.
 
-Les fichiers de configuration sont enregistrés dans le répertoire **conf** du répertoire d’installation. La configuration est divisée en trois fichiers :
+Les fichiers de configuration sont enregistrés dans le répertoire **conf** du répertoire d’installation. La configuration est divisée en trois fichiers :
 
 * **serverConf.xml** : configuration générale pour toutes les instances.
-* **config-**`<instance>`**.xml** (où **`<instance>`** est le nom de l’instance) : configuration spécifique d’une instance.
+* **Config-.xml **`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
 * **serverConf.xml.diff** : delta entre la configuration initiale et la configuration actuelle. Ce fichier est géré automatiquement par l&#39;application et ne doit pas être modifié manuellement. Il permet de propager automatiquement les modifications utilisateur lors d&#39;une mise à jour de build.
 
 Le chargement de la configuration d&#39;une instance est réalisé de la manière suivante :
 
-* The module loads the **serverConf.xml** file to obtain the parameters shared by all instances.
-* Il charge ensuite le fichier **config-**`<instance>`**.xml** . Les valeurs trouvées dans ce fichier ont priorité sur les valeurs contenues dans **serverConf.xml**.
+* Le module charge le fichier **serverConf.xml** pour obtenir les paramètres communs à toutes les instances.
+* Il charge ensuite le fichier **config-**`<instance>`**.xml**. Les valeurs trouvées dans ce fichier ont priorité sur les valeurs contenues dans **serverConf.xml**.
 
-   Ces deux fichiers ont le même format. Toute valeur du fichier **serverConf.xml** peut être surchargée pour une instance donnée dans le fichier **config-`<instance>`.xml** .
+   Ces deux fichiers ont le même format. Toute valeur du fichier **serverConf.xml** peut être surchargée pour une instance donnée dans le fichier **config-`<instance>`.xml**.
 
 Ce principe de fonctionnement permet une très grande souplesse dans les paramétrages.
