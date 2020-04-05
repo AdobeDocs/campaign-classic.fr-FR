@@ -122,7 +122,7 @@ Pour afficher l&#39;aperçu du rapport, sélectionnez l&#39;option **[!UICONTROL
 
 Vous devrez choisir entre ses deux options en fonction des paramètres d&#39;affichage du rapport. Si le paramètre d&#39;affichage choisi est **[!UICONTROL Global]**, vous devrez sélectionner l&#39;option d&#39;aperçu **[!UICONTROL Global]**. Si les paramètres d&#39;affichage sont **[!UICONTROL Mono-sélection]** ou **[!UICONTROL Multi-sélection]**, l&#39;option d&#39;aperçu **[!UICONTROL Sélection]** doit être sélectionné.
 
-Pour plus d&#39;informations sur ce sujet, reportez-vous au contexte [d&#39;affichage des](#report-display-context)rapports.
+Voir à ce sujet la section [Contexte d&#39;affichage des rapports](#report-display-context).
 
 Vous disposez également de paramètres qui vous permettent de contrôler les erreurs. Le paramètre **_uuid** est présent dans l&#39;URL du rapport. Vous pouvez lui adjoindre les paramètres **&amp;_preview** ou **&amp;_debug**.
 
@@ -130,7 +130,7 @@ Pour plus d&#39;informations sur ces paramètres, consultez la section **Défini
 
 ## Publication du rapport {#publishing-the-report}
 
-La publication du rapport est obligatoire pour le partager avec d’autres opérateurs et l’afficher dans la liste des rapports disponibles (reportez-vous également au contexte [d’affichage des](#report-display-context)rapports). Cette opération doit être exécutée à nouveau chaque fois que le rapport est modifié.
+La publication du rapport est obligatoire pour le partager avec d’autres opérateurs et l’afficher dans la liste des rapports disponibles (consultez également la section [Contexte d&#39;affichage des rapports](#report-display-context)). Cette opération doit être exécutée à nouveau chaque fois que le rapport est modifié.
 
 1. Ouvrez l&#39;assistant de publication en cliquant sur **[!UICONTROL Publier]** dans la barre d&#39;outils.
 
