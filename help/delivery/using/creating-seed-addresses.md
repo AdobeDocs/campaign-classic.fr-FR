@@ -24,9 +24,9 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Les adresses de contrôle ne sont pas gérées via les profils et cibles standards, mais dans un nœud dédié de l&#39;arborescence Adobe Campaign, sous **[!UICONTROL Ressources > Gestion de campagne > Adresses de contrôle]**.
 
-You can create sub-folders in order to organize the seed addresses. To do this, right-click the **[!UICONTROL Seed addresses]** node and select **[!UICONTROL Create a new &#39;Seed addresses&#39; folder]**. Name the sub-folder and then press **[!UICONTROL Enter]** to validate. You can now create or copy seed addresses to this sub-folder. For more on this, refer to [Defining addresses](#defining-addresses).
+Vous pouvez créer des sous-dossiers afin d&#39;organiser les adresses de contrôle. Pour cela, cliquez avec le bouton droit sur le nœud **[!UICONTROL Adresses de contrôle]** et sélectionnez **[!UICONTROL Ajouter un dossier « Adresses de contrôle »]**. Nommez le sous-dossier et validez par la touche **[!UICONTROL Entrée]** du clavier. Vous pouvez ensuite créer ou copier des adresses de contrôle dans ce sous-dossier. Voir à ce sujet la section [Définir des adresses](#defining-addresses).
 
-Adobe Campaign vous permet également de créer des modèles d’adresse de départ importés dans des remises ou des campagnes et adaptés en fonction des besoins spécifiques des livraisons et campagnes concernées. Reportez-vous à [Création de modèles](#creating-seed-address-templates)d’adresse de départ.
+Adobe Campaign permet également de créer des modèles d&#39;adresses de contrôle qui sont importées au niveau des diffusions ou des campagnes et sont ensuite adaptées selon les besoins spécifiques aux diffusions et campagnes concernées. Voir [Créer des modèles d&#39;adresses de contrôle](#creating-seed-address-templates).
 
 ## Définir des adresses {#defining-addresses}
 
@@ -56,8 +56,8 @@ Pour définir un dossier de modèle, la procédure est la suivante :
 
    ![](assets/s_ncs_user_seedlist_template_folder.png)
 
-1. Click the **[!UICONTROL Restriction]** tab and add the following filtering condition: **@isModel = true**.
+1. Cliquez sur l’onglet **[!UICONTROL Restriction]** et ajoutez la condition de filtrage suivante : **@isModel = true**.
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   Les adresses stockées dans ce dossier pourront ainsi être utilisées comme des modèles d&#39;adresses. Vous pouvez les importer dans des remises ou des campagnes et les adapter en fonction des besoins spécifiques des livraisons et campagnes concernées (voir [Ajout d’adresses](../../delivery/using/adding-seed-addresses.md)de base).
+   Les adresses stockées dans ce dossier pourront ainsi être utilisées comme des modèles d&#39;adresses. Vous pouvez les importer dans des diffusions ou des campagnes et les adapter en fonction des besoins spécifiques des livraisons et campagnes concernées (voir [Ajouter des adresses de contrôle](../../delivery/using/adding-seed-addresses.md)).
