@@ -1,6 +1,6 @@
 ---
 title: Chargement (fichier)
-description: En savoir plus sur l’activité de chargement de données (fichier).
+description: En savoir plus sur l’activité Chargement (fichier).
 page-status-flag: never-activated
 uuid: c064aa23-412e-49b4-a51d-b0e8ca572f2e
 contentOwner: sauviat
@@ -89,7 +89,7 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 
    L&#39;onglet **[!UICONTROL Répertoire]** contient les informations relatives au(x) fichier(s) à récupérer. Dans notre exemple, tous les fichiers au format texte, dont le nom contient le mot &#39;clients&#39; et stockés dans le répertoire tmp/Adobe/Data/files du serveur seront récupérés.
 
-   Using the **[!UICONTROL File collector]** is detailed in the [File collector](../../workflow/using/file-collector.md) section.
+   L’utilisation du **[!UICONTROL Collecteur de fichiers]** est détaillée dans la section [Collecteur de fichiers](../../workflow/using/file-collector.md).
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -101,7 +101,7 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 
    Pour cela, cliquez sur le bouton **[!UICONTROL Changer...]** situé dans la section inférieure droite de l&#39;éditeur et paramétrez le planning.
 
-   For more on this, refer to [Scheduler](../../workflow/using/scheduler.md).
+   Voir à ce propos la section [Planificateur](../../workflow/using/scheduler.md).
 
 1. Paramétrez ensuite l&#39;activité de chargement de fichier afin d&#39;indiquer comment le ou les fichiers collectés doivent être lus. Sélectionnez pour cela un fichier exemple dont la structure est la même que les fichiers à charger.
 
@@ -129,5 +129,5 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 
 1. Indiquez ensuite les traitements à effectuer pour chaque type de population. Dans notre exemple, nous allons mettre à jour les données de la base. Pour cela, positionnez une activité **[!UICONTROL Mise à jour de données]** à l&#39;extrémité de chaque transition sortante de l&#39;activité de **[!UICONTROL Partage]**.
 
-   The **[!UICONTROL Update data]** activity is detailed in the [Update data](../../workflow/using/update-data.md) section.
+   L&#39;activité de **[!UICONTROL Mise à jour de données]** est présentée dans la section [Mise à jour de données](../../workflow/using/update-data.md).
 
