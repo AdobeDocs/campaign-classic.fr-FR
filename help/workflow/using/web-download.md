@@ -67,7 +67,7 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
 
    ![](assets/download_web_edit_advanced.png)
 
-   The **[!UICONTROL Process errors]** option is detailed in [Processing errors](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
+   L&#39;option **[!UICONTROL Traiter les erreurs]** est présentée dans la section [Traiter les erreurs](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 ## Paramètres de sortie {#output-parameters}
 
