@@ -38,9 +38,9 @@ Vous pouvez facilement étendre le modèle de données en ajoutant de nouveaux e
 
 Saisissez le libellé et le nom du champ, puis sélectionnez le type de champ : Texte, Booléen, Nombre entier ou à virgule, Date, etc.
 
-Le type de champ sélectionné implique un contrôle des données lors de la saisie des réponses par les utilisateurs. Pour les champs de **texte** , vous pouvez ajouter une contrainte (casse, format) ou un lien à une énumération existante pour forcer la sélection.
+Le type de champ sélectionné implique un contrôle des données lors de la saisie des réponses par les utilisateurs. Pour les champs de **texte**, vous pouvez ajouter une contrainte (casse, format) ou un lien vers une énumération existante pour forcer la sélection.
 
-Pour ajouter une contrainte, sélectionnez-la dans la liste déroulante. Il existe deux types de contraintes :
+Pour ajouter une contrainte, sélectionnez-la dans la liste déroulante. Deux types de contraintes existent :
 
 1. Sur la casse des caractères
 
@@ -48,7 +48,7 @@ Pour ajouter une contrainte, sélectionnez-la dans la liste déroulante. Il exis
 
 1. Sur le format des données saisies
 
-If this field is used in a list, the values of the enumeration can be retrieved automatically in the table of values using the **[!UICONTROL Initialize the list of values from the database]** link above the list of values.
+Si ce champ est utilisé dans une liste, les valeurs de l’énumération pourront être récupérées automatiquement dans le tableau des valeurs à partir du lien **[!UICONTROL Initialiser la liste des valeurs depuis la base de données]** situé au-dessus de la liste des valeurs.
 
 Par exemple, vous pouvez créer une liste déroulante afin que l&#39;utilisateur sélectionne sa langue maternelle. Le champ archivé correspondant peut être associé à l&#39;énumération **language** qui contient une liste de langues :
 
@@ -106,7 +106,7 @@ Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans 
 
 ### Paramètres de stockage {#storage-settings}
 
-Il est possible d&#39;archiver les réponses aux enquêtes au format XML. Vous pouvez ainsi enregistrer une copie brute des réponses collectées, ce qui peut s’avérer utile en cas de normalisation excessive des données dans une liste détaillée (pour plus d’informations, reportez-vous à la section [Normalisation des données](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)).
+Il est possible d&#39;archiver les réponses aux questionnaires au format XML. Vous pouvez ainsi conserver une copie brute des réponses collectées, ce qui peut s’avérer utile en cas de normalisation excessive des données dans une liste détaillée (pour plus d’informations, consultez la section [Normalisation des données](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)).
 
 >[!CAUTION]
 >
