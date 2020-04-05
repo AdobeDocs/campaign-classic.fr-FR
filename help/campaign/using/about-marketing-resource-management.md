@@ -24,7 +24,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ## Introduction {#introduction}
 
-The **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved.
+Le module **Marketing Resource Management (MRM)** permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées.
 
 Les opérateurs Adobe Campaign peuvent coordonner leurs actions et en valider le bon déroulement durant toutes les étapes de réalisation grâce à des processus de validation complets et des outils de tracking adaptés : reporting, tracking des validations, notifications, forums de discussions, etc. Ils sont alertés en cas d&#39;erreur ou de retard, et à chaque nouvelle étape du cycle de validation.
 
@@ -42,13 +42,13 @@ Dans le contexte d&#39;Adobe Campaign, les notions suivantes doivent être défi
 
    Une tâche correspond à une action à mener dans le cadre d&#39;une opération. Une tâche est assignée à un groupe ou à une personne. Une tâche fille peut être dépendante d&#39;une tâche mère, ainsi la tâche mère ne sera accomplie que lorsque toutes les tâches filles seront terminées. Une tâche peut être par exemple : un référencement de site internet, une revue de budget, un brief, etc.
 
-   Pour plus d’informations, reportez-vous à la section [Création et gestion des tâches](../../campaign/using/creating-and-managing-tasks.md).
+   Voir à ce sujet la section [Créer et gérer les tâches](../../campaign/using/creating-and-managing-tasks.md).
 
 * **Ressource marketing**
 
    Adobe Campaign permet le tracking de la réalisation de projets marketing collaboratifs tels que des supports de communication, des plans d&#39;action, des newsletters, etc. Le cycle de réalisation et de validation de ces ressources marketing peut être suivi depuis le tableau de bord des ressources jusqu&#39;à leur publication.
 
-   Pour plus d’informations, reportez-vous à la section [Gestion des ressources](../../campaign/using/managing-marketing-resources.md)marketing.
+   Voir à ce sujet la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md).
 
 ## Ergonomie {#user-friendliness}
 
@@ -58,11 +58,11 @@ Dans le contexte d&#39;Adobe Campaign, les notions suivantes doivent être défi
 >  
 >Les fonctionnalités relatives aux diffusions sont présentées dans [cette section](../../delivery/using/communication-channels.md), ainsi que celles associées à la gestion des profils.
 >
->Toutes les fonctionnalités liées aux campagnes sont détaillées dans [Accès aux campagnes](../../campaign/using/accessing-marketing-campaigns.md)marketing.
+>Toutes les fonctionnalités liées aux campagnes sont détaillées dans [Accéder aux campagnes marketing](../../campaign/using/accessing-marketing-campaigns.md).
 
 En complément, les plans et programmes d&#39;Adobe Campaign proposent des fonctionnalités supplémentaires :
 
-* Gestion budgétaire. For more on this, refer to [Controlling costs](../../campaign/using/controlling-costs.md),
-* Gestion des tâches. Pour plus d&#39;informations à ce sujet, reportez-vous à [Création et gestion de tâches](../../campaign/using/creating-and-managing-tasks.md),
-* Gestion des ressources marketing. Pour plus d’informations, reportez-vous à la section [Gestion des ressources](../../campaign/using/managing-marketing-resources.md)marketing.
+* Gestion budgétaire. Voir à ce sujet la section [Maîtriser les coûts](../../campaign/using/controlling-costs.md).
+* Gestion des tâches. Voir à ce sujet la section [Créer et gérer les tâches](../../campaign/using/creating-and-managing-tasks.md),
+* Gestion des ressources marketing. Pour plus d’informations, reportez-vous à la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md).
 
