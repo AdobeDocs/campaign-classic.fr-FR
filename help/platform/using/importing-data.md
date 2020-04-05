@@ -70,7 +70,7 @@ Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélect
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Chaque fois qu’un fichier est ajouté, l’écran de l’assistant **[!UICONTROL Fichier à importer]** s’affiche. Voir la section [Étape 2 - Sélection](#step-2---source-file-selection) du fichier source et suivez les étapes de l’assistant pour définir les options d’importation comme pour une importation simple.
+   Chaque fois qu’un fichier est ajouté, l’écran de l’assistant **[!UICONTROL Fichier à importer]** s’affiche. Consultez la section [Etape 2 - Choix du fichier source](#step-2---source-file-selection) et suivez les étapes de l’assistant pour définir les options d’import comme pour un import simple.
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
    * **[!UICONTROL Ne pas mettre à jour les énumérations]**
 
-      Sélectionnez cette option pour éviter d’enrichir la liste des valeurs énumérées dans la base de données. Voir [Gestion des énumérations](../../platform/using/managing-enumerations.md).
+      Cochez cette option pour ne pas enrichir la liste des valeurs énumérées en base. Voir [Gestion des énumérations](../../platform/using/managing-enumerations.md).
 
 * Onglet **[!UICONTROL Variables]**
 
@@ -228,9 +228,9 @@ Il convient aussi de ne pas choisir un champ qui risque d&#39;être modifié lor
 
 >[!NOTE]
 >
->Pour une importation de destinataire, l’identifiant du dossier sélectionné est implicitement ajouté à la clé.
+>Pour un import de destinataires, l’identifiant du dossier sélectionné est implicitement ajouté à la clé.
 >
->Le rapprochement est donc effectué uniquement sur ce dossier (sauf si aucun dossier n’est sélectionné).
+>La réconciliation n’est donc effectuée que sur ce dossier (sauf si aucun dossier n’est sélectionné).
 
 #### Déduplication {#deduplication}
 
@@ -302,7 +302,7 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
       >[!NOTE]
       >
-      >Le dossier par défaut d’un opérateur est le premier dossier pour lequel l’opérateur dispose d’un accès en écriture. Voir Gestion des [accès aux](../../platform/using/access-management.md#folder-access-management)dossiers.
+      >Le dossier par défaut de l’opérateur correspond au premier dossier dans lequel l’opérateur a le droit d’écrire. Voir [Gestion de l’accès aux dossiers](../../platform/using/access-management.md#folder-access-management).
 
       Pour choisir le dossier d&#39;import, cliquez sur la flèche située à droite du champ **[!UICONTROL Dossier]** et sélectionnez le dossier visé. Vous pouvez également utiliser l&#39;icône **[!UICONTROL Choisir le lien]** pour afficher l&#39;arborescence dans une nouvelle fenêtre ou créer un nouveau dossier.
 
@@ -322,7 +322,7 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      Vous pouvez créer une nouvelle liste pour ces destinataires en cliquant sur **[!UICONTROL Sélectionner un lien]**, puis **[!UICONTROL Créer]**. La création et la gestion des listes sont présentées dans [Création et gestion des listes](../../platform/using/creating-and-managing-lists.md).
+      Vous pouvez créer une liste pour ces destinataires en cliquant sur **[!UICONTROL Choisir le lien]**, puis sur **[!UICONTROL Créer]**. La création et la gestion des listes sont présentées dans [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md).
 
       ![](assets/s_ncs_user_import_wizard05_6.png)
 
