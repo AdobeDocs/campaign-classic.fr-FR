@@ -45,7 +45,7 @@ Vous devez disposer d&#39;un environnement de test/développement afin de réali
 1. Assurez-vous que vos sauvegardes sont intègres en tentant de les restaurer. Vérifiez que vous avez bien accès à votre base de données, vos tables, vos données, etc.
 1. Testez la procédure de migration sur l&#39;environnement de développement.
 
-   Les procédures complètes sont détaillées dans la section [Conditions préalables à la migration vers Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) .
+   Les procédures complètes sont présentées dans la section [Prérequis pour la migration vers Adobe Campaign 7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md).
 
 1. Si la migration de l&#39;environnement de développement s&#39;est effectuée sans erreur, migrez l&#39;environnement de production.
 
@@ -75,7 +75,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 
 >[!NOTE]
 >
->**Vous devez utiliser l’`<instanceame>`**instance : . Il est déconseillé d’utiliser l’option**-allinstances **.
+>Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option**-allinstances **.
 
 ### Options -showCustomEntities et -showDeletedEntities{#showcustomentities-and--showdeletedentities-options}
 
@@ -115,7 +115,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 
 >[!NOTE]
 >
->Veuillez ignorer tous les avertissements et erreurs qui comportent le code JST-310040.
+>Ne tenez pas compte des avertissements et des erreurs contenant le code JST-310040.
 
 Les expressions suivantes sont recherchées (sensibilité à la casse) :
 
@@ -133,7 +133,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> Avertissement<br /> </td> 
-   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. Reportez-vous à <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Sinon, vérifiez que le type de valeur est correct.<br /> </td> 
+   <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. Voir la section <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. Sinon, vérifiez que le type de valeur est correct.<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -145,7 +145,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> Avertissement<br /> </td> 
-   <td> Cette méthode de connexion ne doit plus être utilisée. Reportez-vous à la section Applications <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Web</a>identifiées.<br /> </td> 
+   <td> Cette méthode de connexion ne doit plus être utilisée. Voir la section <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">Applications web identifiées</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
@@ -156,14 +156,14 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
   <tr> 
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
-   <td> Erreurs<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de migration. Reportez-vous à <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> Erreur<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration. Voir la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
-   <td> Erreurs<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de migration. Reportez-vous à <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type présentation (migration depuis v6.02), reportez-vous aux applications <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank"></a>Web.<br /> </td> 
+   <td> Erreur<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration. Voir la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type vues d’ensemble (migration depuis la version v6.02), voir la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Applications Web</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
