@@ -26,7 +26,7 @@ Le serveur de base de données peut fonctionner sur n&#39;importe quel système 
 
 Quel que soit le système d&#39;exploitation sur lequel le moteur de base de données est installé, la connectivité doit être disponible sur les machines qui exécutent des composants d&#39;Adobe Campaign.
 
-Vérifiez également la section des couches [d&#39;accès à la](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) base de données.
+Voir également la section [Couches d’accès à la base de données](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
@@ -36,7 +36,7 @@ You can check for the native client on the server via the ODBC driver configurat
 
 Les DLL d&#39;accès suivantes doivent donc être présentes :
 
-* **sqlncli10.dll** pour les clients Microsoft SQL Server 2008 et 2008 R2,
+* **sqlncli10.dll** pour les clients Microsoft SQL Server 2008 et 2008 R2,
 * **sqlncli11.dll** pour les clients Microsoft SQL Server 2012, 2014, 2016 et 2017.
 
    Les DLL d&#39;accès sont disponibles sur le site de Microsoft.
@@ -82,7 +82,7 @@ sqlplus
 [login] [password]
 ```
 
-Vous pouvez également vous référer au client [Oracle sous Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
+Voir également la section [Client Oracle sous Linux](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
 
 ## PostgresSQL {#postgressql}
 
@@ -90,4 +90,4 @@ Nous vous recommandons d&#39;installer le support UTF-8 lors de l&#39;installati
 
 **Rubrique connexe**
 
-* [Option non enregistrée dans les tableaux Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
+* [Option non enregistrée dans les tables Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
