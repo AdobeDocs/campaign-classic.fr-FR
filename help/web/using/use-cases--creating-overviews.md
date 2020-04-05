@@ -24,11 +24,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue d&#39;ensemble permettant d&#39;afficher l&#39;ensemble des applications web contenues dans votre base. Vous allez paramétrer les éléments suivants :
 
-* un filtre sur le dossier (voir [Ajout d&#39;un filtre sur un dossier](#adding-a-filter-on-a-folder)),
-* un bouton permettant de créer une application Web (voir [Ajout d&#39;un bouton pour configurer une nouvelle application](#adding-a-button-to-configure-a-new-web-application)Web),
-* affichage détaillé de chaque entrée de la liste (voir [Ajout de détails à une liste](#adding-detail-to-a-list)),
-* un filtre par outil de modification des liens (voir [Création d’un filtre à l’aide d’un éditeur](#creating-a-filter-using-a-link-editor)de liens),
-* un lien d’actualisation (voir [Création d’un lien](#creating-a-refresh-link)d’actualisation).
+* un filtre sur le dossier (voir la section [Ajouter un filtre sur dossier](#adding-a-filter-on-a-folder)),
+* un bouton permettant de créer une application web (voir la section [Ajouter un bouton pour paramétrer une nouvelle application web](#adding-a-button-to-configure-a-new-web-application)),
+* l’affichage détaillé de chaque entrée de la liste (voir la section [Ajouter un détail à une liste](#adding-detail-to-a-list)),
+* un filtre par outil d’édition de lien (voir la section [Créer un filtre à l’aide d’un éditeur de lien](#creating-a-filter-using-a-link-editor)),
+* un lien d’actualisation (voir la section [Créer un lien d’actualisation](#creating-a-refresh-link)).
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 
@@ -69,7 +69,7 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 
    >[!NOTE]
    >
-   >Le nom de la variable doit correspondre au nom de l’élément lié au dossier (défini dans le schéma), c’est-à-dire **dossier** dans ce cas. Vous devez réutiliser ce nom lorsque vous référencez le tableau.
+   >Le nom de la variable doit correspondre au nom de l’élément lié au dossier (défini dans le schéma), c’est-à-dire le **dossier** dans ce cas. Vous devez réutiliser ce nom pour faire référence à la table.
 
 1. Appliquez le type **[!UICONTROL XML]** à la variable.
 
@@ -79,7 +79,7 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 
    ![](assets/s_ncs_configuration_webapp_variable.png)
 
-1. Placez votre curseur sur votre liste et, dans l’onglet **[!UICONTROL Avancé]** , référencez la variable précédemment créée dans l’onglet XPath **[!UICONTROL du filtre]** Dossier de la liste. Vous devez utiliser le nom de l’élément concerné par le lien du dossier, c’est-à-dire le **dossier**.
+1. Placez le curseur sur votre liste et, dans l’onglet **[!UICONTROL Avancé]**, faites référence à la variable précédemment créée dans l’onglet **[!UICONTROL XPath de filtrage par dossier]** de la liste. Vous devez utiliser le nom de l’élément concerné par le lien du dossier, c’est-à-dire le **dossier**.
 
    ![](assets/s_ncs_configuration_webapp_variable002.png)
 
@@ -94,16 +94,16 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 
    Dans notre exemple, le libellé est **Nouveau**.
 
-1. Insert the following URL in the URL field: **xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**.
+1. Dans le champ URL, insérez l’URL suivante : **xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**.
 
    >[!NOTE]
    >
-   >**nms:webApp** coïncide avec le schéma d&#39;application Web.
+   >**nms:webApp** correspond au schéma des applications web.
    >
-   >**nms:newWebApp** coïncide avec le nouvel assistant de création d&#39;applications Web.
+   >**nms:newWebApp** correspond à l’assistant de création de la nouvelle application web.
 
 1. Choisissez d&#39;afficher l&#39;URL dans la même fenêtre.
-1. Add the Web application icon in the image field: **/nms/img/webApp.png**.
+1. Ajoutez l’icône des applications web dans le champ image : **/nms/img/webApp.png**.
 
    Cette icône apparaîtra sur le bouton **[!UICONTROL Nouveau]**.
 
@@ -220,7 +220,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png **.
+1. Ajoutez l’icône d’actualisation dans le champ **[!UICONTROL Image]** : **/xtk/img/refresh.png **.
 1. Positionnez les différents éléments de votre application web dans l&#39;ordre comme illustré ci-dessous à l&#39;aide des flèches de déplacement.
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)
