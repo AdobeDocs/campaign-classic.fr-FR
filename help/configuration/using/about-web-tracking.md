@@ -1,7 +1,7 @@
 ---
-title: A propos du suivi Web
-seo-title: A propos du suivi Web
-description: A propos du suivi Web
+title: À propos du tracking web
+seo-title: À propos du tracking web
+description: À propos du tracking web
 seo-description: null
 page-status-flag: never-activated
 uuid: 59d18ffb-c26e-4571-8364-5e85ec587349
@@ -20,7 +20,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 ---
 
 
-# A propos du suivi Web{#about-web-tracking}
+# À propos du tracking web{#about-web-tracking}
 
 En complément du tracking standard, assurant le suivi du comportement d&#39;un internaute lorsqu&#39;il clique sur un lien dans un email, la plateforme Adobe Campaign offre la possibilité de collecter des informations sur la navigation des internautes sur votre site web. Cette collecte est assurée par le module de webtracking.
 
