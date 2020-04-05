@@ -22,7 +22,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 # Mettre en page les éléments{#element-layout}
 
-In addition to the various charts detailed here: [Chart types and variants](../../reporting/using/creating-a-chart.md#chart-types-and-variants), you can adapt the display and add elements to the report page(s).
+En complément des variantes du graphique disponibles, présentées dans la section [Types de graphiques et leurs variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter l&#39;affichage et ajouter des éléments dans la ou les pages du rapport.
 
 Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
 
@@ -36,7 +36,7 @@ L&#39;onglet **[!UICONTROL Général]**, vous permet de modifier le titre de la 
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. Pour plus d’informations, voir [Ajout d’un en-tête et d’un pied de page](#adding-a-header-and-a-footer).
+Le champ **[!UICONTROL Titre]** permet de personnaliser le libellé qui apparaît en tête de la page du rapport. Le titre de la fenêtre est quant à lui paramétrable depuis la fenêtre **[!UICONTROL Propriétés]** du rapport. Voir à ce sujet la section [Ajouter un en-tête et un pied de page](#adding-a-header-and-a-footer).
 
 Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de choisir la position de la légende des contrôles dans la page d&#39;un rapport et de définir le nombre de colonnes de la page. Pour plus d&#39;informations sur la mise en page, reportez-vous à la section **Mettre en page les éléments** de [cette section](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page).
 
