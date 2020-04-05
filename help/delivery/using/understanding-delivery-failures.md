@@ -24,7 +24,7 @@ source-git-commit: 5e34e49d66f5d943951cd5d9a11d45df9af544ba
 
 ## A propos des diffusions en échec {#about-delivery-failures}
 
-Lorsqu’un message (courrier électronique, SMS, notification Push) ne peut pas être envoyé à un, le serveur distant envoie automatiquement un message d’erreur, qui est sélectionné par la plateforme  et qualifié pour déterminer si l’adresse électronique ou le numéro de téléphone doit être mis en quarantaine ou non. See [Bounce mail management](#bounce-mail-management).
+Lorsqu&#39;un message (email, SMS, notification push) ne peut pas être envoyé à un profil, le serveur distant envoie automatiquement un message d&#39;erreur, qui est relevé par la plateforme Adobe Campaign et qualifié afin de déterminer si l&#39;adresse email ou le numéro de téléphone doit être mis ou non en quarantaine. Voir la section [Qualification des emails bounce](#bounce-mail-management).
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 * [Logs et historique de la diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)
 * [Statut En échec](../../delivery/using/monitoring-a-delivery.md#failed-status)
-* [Types de diffusion en échec et raisons ](#delivery-failure-types-and-reasons)
+* [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)
 
 ## Types de diffusion en échec et raisons  {#delivery-failure-types-and-reasons}
 
-Il existe trois types d’erreur lorsqu’un message échoue. Chaque type d’erreur détermine si une adresse est envoyée au  du. Pour plus d&#39;informations, reportez-vous aux [Conditions d&#39;envoi d&#39;une adresse au](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
+Trois types d&#39;erreurs sont liés à un message en échec. Chaque type d&#39;erreur détermine si une adresse est mise en quarantaine. Voir à ce propos la section [Conditions de mise en quarantaine d&#39;une adresse](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
 * **Hard** : une erreur de type &quot;hard&quot; indique une adresse invalide. Il s&#39;agit d&#39;un message d&#39;erreur indiquant explicitement que l&#39;adresse est invalide, par exemple : &quot;Utilisateur inconnu&quot;.
 * **Soft** : il s&#39;agit d&#39;une erreur qui peut être temporaire, ou qui n&#39;a pas pu être qualifiée, par exemple : &quot;Domaine invalide&quot; ou &quot;Boîte pleine&quot;.
@@ -187,7 +187,7 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 
 >[!NOTE]
 >
->Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](#delivery-failure-types-and-reasons)).
+>Les messages temporairement non diffusés peuvent uniquement être associés à une erreur **Soft** ou **Ignoré**, mais pas à une erreur **Hard** (voir la section [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)).
 
 Pour modifier la durée d&#39;une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et indiquez la durée souhaitée dans le champ correspondant. Les propriétés avancées des diffusions sont présentées dans [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
@@ -197,7 +197,7 @@ La configuration par défaut permet cinq reprises à des intervalles d&#39;une h
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
-* Erreur synchrone : le serveur de messagerie distant contacté par le serveur  Adobe Campaign a immédiatement renvoyé un message d&#39;erreur, leserveur de messagerie n&#39;est pas autorisé à être envoyé au serveur de l&#39;.  Adobe Campaign qualifie chaque erreur afin de déterminer si les adresses électroniques concernées doivent être mises en quarantaine ou non. Voir [Qualification des emails bounce](#bounce-mail-qualification).
+* Erreur synchrone : le serveur de mail distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d&#39;erreur ; la diffusion ne peut être envoyée au serveur du profil. Adobe Campaign qualifie chaque échec afin de déterminer si les adresses email concernées doivent être mises en quarantaine ou non. Voir [Qualification des emails bounce](#bounce-mail-qualification).
 * Erreur asynchrone : un mail rebond ou un SR a été renvoyé plus tard par le serveur de réception. Ce mail est récupéré dans une boîte email technique relevée par l&#39;application pour marquer les messages en erreur. Les erreurs asynchrones peuvent se produire jusqu&#39;à une semaine après l&#39;envoi d&#39;une diffusion.
 
    >[!NOTE]
@@ -218,43 +218,43 @@ La plateforme Adobe Campaign permet de gérer les échecs d&#39;envoi d&#39;ema
 
 Lorsque l&#39;envoi d&#39;un email échoue, le serveur de diffusion Adobe Campaign reçoit un message d&#39;erreur de la part du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est constituée à partir des chaînes contenues dans le message renvoyé par le serveur distant. A chaque message d&#39;erreur sont attribués un type et une raison d&#39;échec.
 
-Ce  est disponible via le **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** noeud. Il contient toutes les règles utilisées par  Adobe Campaign pour qualifier les échecs de l&#39;. Il n&#39;est pas exhaustif et est régulièrement mis à jour par  Adobe Campaign et peut également être géré par l&#39;utilisateur.
+Cette liste est disponible depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Qualification des logs de diffusion]**. Il contient toutes les règles utilisées par Adobe Campaign pour qualifier les erreurs de diffusion. Cette liste est non exhaustive et est régulièrement mise à jour par Adobe Campaign. Elle peut également être gérée par l&#39;utilisateur.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-* Le message renvoyé par le serveur distant lors de la première occurrence de ce type d’erreur s’affiche dans la **[!UICONTROL First text]** colonne du **[!UICONTROL Delivery log qualification]** tableau. Si cette colonne n’est pas affichée, cliquez sur le **[!UICONTROL Configure list]** bouton situé dans la partie inférieure droite du pour la sélectionner.
+* Le message renvoyé par le serveur distant à la première occurrence de ce type d&#39;erreur est affiché dans la colonne **[!UICONTROL Premier texte]** de la table **[!UICONTROL Qualification des logs de diffusion]**. Si cette colonne n&#39;est pas visible, cliquez sur le bouton **[!UICONTROL Configurer la liste]** en bas à droite de la liste pour la sélectionner.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
- Adobe Campaign ce message pour supprimer le contenu de la variable (ID, dates, adresses électroniques, numéros de téléphone, etc.) et affiche le résultat filtré dans la **[!UICONTROL Text]** colonne. Les variables sont remplacées par **`#xxx#`**, à l’exception des adresses remplacées par **`*`**.
+Adobe Campaign filtre ce message pour supprimer le contenu de la variable (identifiants, dates, adresses email, numéros de téléphone, etc.) et affiche le résultat filtré dans la colonne **[!UICONTROL Texte]**. Les variables sont remplacées par **`#xxx#`**, à l&#39;exception des adresses remplacées par **`*`**.
 
 Ce processus permet de regrouper tous les échecs d&#39;un même type et d&#39;éviter plusieurs entrées pour des erreurs similaires dans la table Qualification des logs de diffusion.
 
 >[!NOTE]
 >
->Le **[!UICONTROL Number of occurrences]** champ affiche le nombre d’occurrences du message dans le  du. Elle est limitée à 100 000 occurrences. Vous pouvez modifier le champ, si vous souhaitez, par exemple, le réinitialiser.
+>Le champ **[!UICONTROL Nombre d&#39;occurrences]** affiche le nombre d&#39;occurrences du message dans la liste. Ce nombre est limité à 100 000 occurrences. Vous pouvez modifier le champ si vous le souhaitez, par exemple pour le réinitialiser.
 
 Les statuts de qualification des mails rebonds sont les suivants :
 
-* **[!UICONTROL To qualify]** : le courrier rebond n&#39;a pas pu être qualifié. La qualification doit être attribuée à l&#39;équipe de délivrabilité pour garantir une livraison efficace de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le courrier de rebonds n&#39;est pas utilisé pour enrichir le des règles de gestion du courrier électronique.
-* **[!UICONTROL Keep]** : le courrier de rebonds a été qualifié et sera utilisé par le processus **Actualiser pour la délivrabilité** afin d’être comparé aux règles de gestion des courriers électroniques existantes et d’enrichir le.
-* **[!UICONTROL Ignore]** : le courrier de rebonds a été qualifié, mais ne sera pas utilisé par le processus **Actualiser pour la délivrabilité** . Elle ne sera pas envoyée aux instances client.
+* **[!UICONTROL A qualifier]** : le mail rebond n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe Délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail rebond n&#39;est pas utilisé pour compléter la liste des règles de gestion des emails.
+* **[!UICONTROL Conserver]** : le mail rebond a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des emails existantes et en enrichir la liste.
+* **[!UICONTROL Ignorer]** : le mail rebond a été qualifié mais ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité**. Il ne sera donc pas envoyé vers les instances clientes.
 
 ![](assets/deliverability_qualif_status.png)
 
 Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée :
 
-* Les qualifications de rebond dans le **[!UICONTROL Delivery log qualification]** tableau ne sont plus utilisées pour les messages d’erreur de  synchrones. La MTA améliorée détermine le type de rebond et la qualification et renvoie ces informations à Campaign.
+* Les qualifications de rebond dans le tableau de qualification **[!UICONTROL du journal des]** ne sont plus utilisées pour les messages d’erreur de  synchrones. La MTA améliorée détermine le type de rebond et la qualification et renvoie ces informations à Campaign.
 
-* Les rebonds asynchrones sont toujours qualifiés par le processus inMail via les **[!UICONTROL Inbound email]** règles. For more on this, see [Email management rules](#email-management-rules).
+* Les rebonds asynchrones sont toujours qualifiés par le processus inMail via les règles de courrier électronique **** entrant. For more on this, see [Email management rules](#email-management-rules).
 
-* Pour les instances qui utilisent la MTA améliorée sans **WebHooks/EFS**, les **[!UICONTROL Inbound email]** règles sont également utilisées pour traiter les courriers électroniques de rebonds synchrones provenant de la MTA améliorée, en utilisant la même adresse électronique que pour les courriers électroniques de rebonds asynchrones.
+* Pour les instances qui utilisent la MTA améliorée sans **WebHooks/EFS**, les règles de courrier électronique **** entrant sont également utilisées pour traiter les courriers électroniques de rebonds synchrones provenant de la MTA améliorée, en utilisant la même adresse électronique que pour les courriers électroniques de rebonds asynchrones.
 
-Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### Règles de gestion des emails {#email-management-rules}
 
-Les règles de courrier sont accessibles via le **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** noeud. Les règles de gestion des courriers électroniques sont affichées dans la partie inférieure de la fenêtre.
+Les règles mail sont accessibles depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Jeux de règles mail]**. Vous pouvez consulter les règles de gestion des emails dans la section inférieure de la fenêtre.
 
 Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
 
@@ -282,9 +282,9 @@ Les règles par défaut sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les **[!UICONTROL Inbound email]** règles ne sont plus utilisées pour les messages d’erreur d’échec  synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
+   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les règles de courrier électronique **** entrant ne sont plus utilisées pour les messages d’erreur de  synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
    >
-   >Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+   >Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 * **Gestion des domaines**
 
@@ -292,7 +292,7 @@ Les règles par défaut sont les suivantes :
 
    Des règles pour les domaines hotmail et msn sont disponibles par défaut dans Adobe Campaign.
 
-   Click the **[!UICONTROL Detail]** icon to access rule configuration.
+   Cliquez sur l&#39;icône **[!UICONTROL Détail]** pour accéder au paramétrage des règles.
 
    ![](assets/tech_quarant_domain_rules_02.png)
 
@@ -300,13 +300,13 @@ Les règles par défaut sont les suivantes :
 
    * Vous pouvez choisir d&#39;activer ou non certaines normes d&#39;identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
    * **Relais SMTP** : permet de configurer l&#39;adresse IP et le port d&#39;un serveur relais pour un domaine particulier. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#smtp-relay).
-   Si vos messages sont affichés dans Outlook avec **[!UICONTROL on behalf of]** l&#39;adresse de l&#39;expéditeur, veillez à ne pas signer vos courriels avec l&#39;ID **de l&#39;** expéditeur, qui est la norme d&#39;authentification de messagerie propriétaire obsolète de Microsoft. Si l’ **[!UICONTROL Sender ID]** option est activée, décochez la case correspondante et contactez l’assistance Adobe Campaign . Votre délivrabilité ne sera pas affectée.
+   Si vos messages sont affichés dans Outlook **[!UICONTROL au nom]** de dans l&#39;adresse de l&#39;expéditeur, veillez à ne pas signer vos courriels avec l&#39;ID **de l&#39;** expéditeur, qui est la norme d&#39;authentification de messagerie propriétaire obsolète de Microsoft. Si l’option Identifiant **** expéditeur est activée, décochez la case correspondante et contactez l’assistance Adobe Campaign . Votre délivrabilité ne sera pas affectée.
 
    >[!NOTE]
    >
-   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les **[!UICONTROL Domain management]** règles ne sont plus utilisées. **La signature de l’authentification par messagerie électronique DKIM (DomainKeys Identified Mail)** est effectuée par la MTA améliorée pour tous les messages contenant tous les domaines. Il ne se signe pas avec l’ID **** d’expéditeur, **DomainKeys** ou **S/MIME** , sauf indication contraire au niveau MTA amélioré.
+   >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **La signature de l’authentification par messagerie électronique DKIM (DomainKeys Identified Mail)** est effectuée par la MTA améliorée pour tous les messages contenant tous les domaines. Il ne se signe pas avec l’ID **** d’expéditeur, **DomainKeys** ou **S/MIME** , sauf indication contraire au niveau MTA amélioré.
    >
-   >Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+   >Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 * **Gestion des MX**
 
@@ -319,9 +319,9 @@ Les règles par défaut sont les suivantes :
 
    >[!NOTE]
    >
-   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée, les règles de débit de  du **[!UICONTROL MX management]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de vos historiques de réputation de diffusion d’emails et des retours en temps réel issus de domaines auxquels vous envoyez des emails.
+   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré, les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
    >
-   >Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+   >Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 >[!IMPORTANT]
 >
