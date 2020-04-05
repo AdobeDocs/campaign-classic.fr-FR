@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # Publier, suivre et utiliser les données collectées{#publish-track-and-use-collected-data}
 
-Une fois le formulaire créé, configuré et publié, vous pouvez partager le lien avec votre public et suivre les réponses.
+Une fois que le formulaire a été créé, paramétré et publié, vous pouvez partager le lien avec votre audience et suivre les réponses.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Une fois le formulaire créé, configuré et publié, vous pouvez partager le li
 
 ## Tableau de bord du questionnaire {#survey-dashboard}
 
-Chaque enquête possède son propre tableau de bord qui vous permet d&#39;afficher son état, sa description, son URL publique et son calendrier de disponibilité. Il vous permet également d’afficher les rapports disponibles. Pour en savoir plus, consultez [Rapports sur les enquêtes](#reports-on-surveys).
+Pour chaque questionnaire, le tableau de bord permet de visualiser rapidement l’état, la description, l’URL publique et le planning de disponibilité. Il permet également d’afficher les rapports disponibles. Voir à ce sujet la section [Rapports sur les questionnaires](#reports-on-surveys).
 
 L&#39;URL publique du questionnaire est affichée dans le tableau de bord :
 
@@ -46,7 +46,7 @@ Pour chaque questionnaire diffusé, vous pouvez suivre les réponses dans l&#39;
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-Cliquez deux fois sur une ligne pour afficher le formulaire de l&#39;enquête tel qu&#39;il est rempli par le participant. Vous pouvez parcourir l&#39;enquête dans son intégralité et accéder aux réponses dans leur intégralité. Ils peuvent être exportés dans un fichier externe. For more on this, refer to [Exporting answers](#exporting-answers).
+Double-cliquez sur une ligne pour afficher le questionnaire tel qu’il a été rempli par le destinataire. Vous pouvez consulter toutes les pages du questionnaire et ainsi accéder à l’intégralité des réponses. Il est possible d’exporter ensuite ces réponses dans un fichier externe. Voir à ce sujet la section [Exporter les réponses](#exporting-answers).
 
 L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y ajoutant les caractères suivants :
 
