@@ -26,7 +26,7 @@ Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les cam
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
-### Page d&#39;accueil  {#home-page}
+### Page d&#39;accueil   {#home-page}
 
 Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
@@ -34,11 +34,11 @@ Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
 Cliquez sur les liens de la barre de navigation pour accéder aux différents univers.
 
-Les éléments de campagne se trouvent dans l’univers **[!UICONTROL Campagnes]** : vous trouverez ici un aperçu des programmes et campagnes marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, composées de livraisons, de tâches, de ressources liées, etc. Dans le cadre de la gestion des campagnes marketing à l’aide de Campaign, les informations concernant les livraisons, les budgets, les réviseurs et les documents liés sont disponibles dans les campagnes.
+Les éléments d&#39;une campagne se trouvent dans l&#39;univers **[!UICONTROL Campagnes]** : vous y trouverez une vue d&#39;ensemble des programmes et des campagnes marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, elles-mêmes formées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de la gestion des campagnes marketing à l&#39;aide de Campaign, les informations concernant les diffusions, les budgets, les validants et les documents liés sont disponibles dans chaque campagne.
 
 Le bloc de navigation de l&#39;univers **[!UICONTROL Campagnes]** offre plusieurs entrées, selon les modules installés sur l&#39;instance. Par exemple, vous pouvez accéder aux éléments suivants :
 
-* **Calendrier** de campagne : calendrier des plans, des programmes marketing, des livraisons et des campagnes. Reportez-vous au calendrier [](#campaign-calendar)des campagnes.
+* **Calendrier des campagnes** : calendrier des plans, des programmes marketing, des diffusions et des opérations. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
 * **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
 * **Diffusions** : accès aux diffusions contenues dans les opérations.
 * **Applications Web** : accès aux applications Web (formulaires, enquêtes, etc.).
@@ -120,7 +120,7 @@ Avec Adobe Campaign, vous pouvez mettre en place des processus collaboratifs pou
 
 >[!NOTE]
 >
->The configuration of campaign templates is presented in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>Le paramétrage des modèles d&#39;opération est présenté dans la section [Modèles d&#39;opération](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 #### Planning {#schedule}
 
@@ -132,7 +132,7 @@ Une opération centralise un ensemble de diffusions. Pour chaque opération, le 
 
 Pour chaque opération, les intervenants peuvent échanger des messages via un forum dédié.
 
-For more on this, refer to [Discussion forums](../../campaign/using/discussion-forums.md).
+Voir à ce propos la section [Forums de discussions](../../campaign/using/discussion-forums.md).
 
 #### Rapports {#reports}
 
@@ -148,21 +148,21 @@ Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;op
 
 Les opérations sont créées à partir de modèles d&#39;opérations : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétrages seront déjà enregistrés. Pour chaque opération, les fonctionnalités suivantes sont proposées :
 
-* Référence aux documents et aux ressources : vous pouvez associer des documents à la campagne (brève, rapport, images, etc.). Tous les formats de document sont pris en charge. Voir [Gestion des documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)associés.
-* Définition des coûts : pour chaque campagne, Adobe Campaign vous permet de définir les entrées de coût et les structures de calcul des coûts qui peuvent être utilisées lors de la création de la campagne marketing.Par exemple : frais d&#39;impression, utilisation d&#39;une agence externe, location de chambres, etc. Voir [Définition des catégories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories)de coûts.
+* Référencement des documents et ressources : vous pouvez associer des documents à l&#39;opération (brief, compte-rendus, images, etc.). Tous les formats de documents sont pris en charge. Voir la section [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+* Définition des coûts : Adobe Campaign permet de définir, pour chaque opération, des postes de coûts et des structures de calcul des coûts qui peuvent être engagés dans le cadre de la réalisation de la campagne marketing. Par exemple : coûts d&#39;impression, intervention d&#39;une agence externe, location d&#39;une salle, etc. Voir la section [Définir les postes de coût](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
 * Définition d&#39;objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d&#39;une opération. Ces objectifs sont quantifiables, par exemple : nombre d&#39;inscrits à atteindre, chiffre d&#39;affaire à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les opérations.
-* Managing seed addresses (for more on this, refer to [this section](../../delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
-* Gestion des approbations : vous pouvez sélectionner les traitements à approuver et, si nécessaire, sélectionner les opérateurs ou groupes d’opérateurs de révision. See [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Gestion des adresses de contrôle (voir à ce sujet [cette section](../../delivery/using/about-seed-addresses.md)) et populations témoin (voir la section[Définir une population témoin](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
+* Gestion des validations : vous pouvez sélectionner les traitements qui feront l&#39;objet d&#39;une validation et éventuellement sélectionner les opérateurs ou groupes d&#39;opérateurs validants. Voir à ce sujet la section [Contrôler et valider les diffusions](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
->Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]** Pour plus d’informations sur la définition de paramètres au niveau de la campagne afin que les remises héritent automatiquement des valeurs, voir [notre note technique](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]** Pour plus d&#39;informations sur la définition de paramètres de campagne pour que les diffusions héritent automatiquement des valeurs, voir [notre note technique](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
 Vous pouvez accéder aux écrans de la console Adobe Campaign par l&#39;intermédiaire d&#39;un navigateur Internet pour visualiser l&#39;ensemble des opérations et leurs diffusions, les rapports et les informations relatives aux profils de votre base. Cet accès ne vous permet pas de créer des enregistrements. Vous pouvez cependant consulter et, selon les permissions associées à votre profil d&#39;opérateur, agir sur les données de la base. Ainsi, vous pouvez par exemple valider les contenus et ciblages de vos opérations, relancer ou interrompre une diffusion, etc.
 
-1. Connectez-vous comme vous le faites habituellement via https://`<your instance>:<port>/view/home`.
+1. Connectez-vous comme vous le faites habituellement à l&#39;aide de l&#39;adresse https://`<your instance>:<port>/view/home`.
 1. Utilisez les menus pour accéder aux vues d&#39;ensemble.
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
@@ -171,4 +171,4 @@ Les validations (de la cible ou du contenu d&#39;une diffusion par exemple) peuv
 
 ![](assets/campaign_web_interface_validation.png)
 
-Vous pouvez également utiliser le lien contenu dans les messages de notification. Pour plus d&#39;informations, reportez-vous à la section [Vérification et approbation des livraisons](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+Vous pouvez également utiliser le lien contenu dans les messages de notification. Pour plus d&#39;informations, reportez-vous à la section [Contrôler et valider les diffusions](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
