@@ -28,7 +28,7 @@ Une union permet de regrouper le résultat de plusieurs activités entrantes dan
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration et l’utilisation de l’activité syndicale, voir [Combinaison de plusieurs cibles (Union)](../../workflow/using/targeting-data.md#combining-several-targets--union-).
+>Pour plus d’informations sur la configuration et l’utilisation de l’activité d’union, voir la section [Réunir plusieurs cibles (Union)](../../workflow/using/targeting-data.md#combining-several-targets--union-).
 
 ## Exemple d&#39;union {#union-example}
 
@@ -42,7 +42,7 @@ Dans l&#39;exemple suivant, les résultats de deux requêtes sont réunis afin d
 
    Définissez cette dernière en indiquant le nombre de destinataires maximal et en choisissant la requête dont la population sera prioritaire.
 
-1. Approve the union activity then configure the list update activity (see [List update](../../workflow/using/list-update.md)).
+1. Validez l’activité d’union puis paramétrez l’activité de mise à jour de liste (voir la section [Mise à jour de liste](../../workflow/using/list-update.md)).
 1. Lancez le workflow. Le nombre de résultats s&#39;affiche et la liste définie au niveau de l&#39;activité de mise à jour de liste est créée ou mise à jour. Cette dernière contient l&#39;ensemble des destinataires des deux requêtes ou le nombre défini à l&#39;étape précédente, le cas échéant.
 
    ![](assets/union_example.png)
