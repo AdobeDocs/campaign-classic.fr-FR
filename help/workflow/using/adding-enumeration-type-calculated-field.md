@@ -1,6 +1,6 @@
 ---
 title: Ajout d'un champ calculé de type Enumérations
-description: Découvrez comment ajouter un champ calculé de type Énumération
+description: Découvrez comment ajouter un champ calculé de type Énumérations
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
