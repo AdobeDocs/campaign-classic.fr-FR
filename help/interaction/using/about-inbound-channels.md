@@ -28,7 +28,7 @@ Les offres peuvent être présentées à divers emplacements utilisant un canal 
 >
 >Vous pouvez également regarder cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) qui explique en détail comment diffuser une offre sur un canal entrant.
 
-In order for an offer to be selected by the offer engine, it has to be approved and be available in a live environment For more on this, refer to [Approving and activating an offer](../../interaction/using/approving-and-activating-an-offer.md).
+Pour qu&#39;une offre puisse être sélectionnée par le moteur d&#39;offre, elle doit avoir été validée et être disponible dans un environnement en ligne. Voir à ce sujet [Valider et activer une offre](../../interaction/using/approving-and-activating-an-offer.md).
 
 Lors d&#39;un contact entrant, deux cas de figure peuvent se présenter. Un premier où l&#39;utilisateur n&#39;est pas identifié sur le site sur lequel il navigue, et un second où l&#39;utilisateur s&#39;est identifié. Le moteur d&#39;offres permet de présenter des offres différentes selon qu&#39;un utilisateur soit identifié ou non.
 
@@ -38,4 +38,4 @@ Avant de pouvoir proposer des offres sur un canal entrant, vous devez paramétre
 >
 >Dans le cas d&#39;interactions entrantes, il est nécessaire de paramétrer spécifiquement le moteur d&#39;offres pour proposer et mettre à jour une ou plusieurs offres.
 >
->Vous devez également activer le mode unitaire sur vos espaces d’offre. For more on this, refer to the [Creating offer spaces](../../interaction/using/creating-offer-spaces.md) section.
+>Vous devez également autoriser le mode unitaire sur vos emplacements. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
