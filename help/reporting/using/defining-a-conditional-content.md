@@ -24,9 +24,9 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 Vous pouvez conditionner l&#39;affichage de certains éléments d&#39;un rapport ou d&#39;une ou plusieurs pages du rapport.
 
-Pour rendre des éléments spécifiques conditionnels, adaptez leurs paramètres de visibilité. For more on this, refer to [Conditioning item display](#conditioning-item-display).
+Pour rendre des éléments spécifiques conditionnels, adaptez leurs paramètres de visibilité. Voir à ce sujet la section [Conditionner l’affichage d’un élément](#conditioning-item-display).
 
-Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de type **[!UICONTROL Test]** . Voir à ce sujet la section [Conditionner l&#39;affichage d&#39;une page](#conditioning-page-display).
+Pour rendre l’affichage d’une ou de plusieurs pages conditionnel, utilisez une activité de type **[!UICONTROL Test]**. Voir à ce sujet la section [Conditionner l&#39;affichage d&#39;une page](#conditioning-page-display).
 
 ## Conditionner l&#39;affichage d&#39;un élément {#conditioning-item-display}
 
