@@ -28,7 +28,7 @@ Voici un diagramme avec les différentes étapes impliquées dans ce scénario.
 
 Commencez par concevoir votre pièce jointe. Consultez cet [article](../../delivery/using/attaching-files.md#attach-a-personalized-file). Vous pouvez ainsi joindre les fichiers à un email, même s&#39;ils ne sont pas hébergés sur l&#39;instance d&#39;exécution.
 
-Vous pouvez envoyer des courriers électroniques via un déclencheur de message SOAP. Pour plus d’informations sur les requêtes SOAP, voir Description [de l’](../../message-center/using/event-description.md)événement. Dans l’appel SOAP, il existe un paramètre d’URL (URL de la pièce jointe).
+Vous pouvez envoyer des emails via un déclencheur de message SOAP. Pour plus d&#39;informations sur les requêtes SOAP, voir la section [Description des événements](../../message-center/using/event-description.md). Un appel SOAP contient un paramètre d&#39;URL (attachmentURL).
 
 Lors de la conception de votre email, cliquez sur **[!UICONTROL Pièce jointe]**. Dans l&#39;écran **[!UICONTROL Définition d&#39;un fichier attaché]**, saisissez le paramètre de pièce jointe SOAP :
 
