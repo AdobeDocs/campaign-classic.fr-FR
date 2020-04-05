@@ -66,10 +66,10 @@ La section inférieure de la fenêtre permet de sélectionner les options à act
 
 Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Canal]** de courriel : pour activer la remise des e-mails. Reportez-vous aux paramètres [de canal de](#email-channel-parameters)courriel.
-* **[!UICONTROL Suivi]** : Pour activer le suivi de la population cible (ouvre et clique). Reportez-vous à la configuration [du](#tracking-configuration)suivi.
-* **[!UICONTROL Gestion des courriels]** rebondés : Pour définir le compte POP utilisé pour récupérer le courrier électronique entrant. Reportez-vous à [Gestion des courriers électroniques](#managing-bounced-emails)rebondis.
-* **[!UICONTROL Intégration]** LDAP : Pour configurer l’authentification des utilisateurs via un annuaire LDAP. Reportez-vous à [Connexion via LDAP](../../installation/using/connecting-through-ldap.md).
+* **[!UICONTROL Canal email]** : pour activer la diffusion par email. Voir [Paramètres du canal email](#email-channel-parameters).
+* **[!UICONTROL Tracking]** : pour activer le tracking de la population cible (ouvertures et clics). Voir [Paramétrage du tracking](#tracking-configuration).
+* **[!UICONTROL Gestion des emails rebonds]** : pour définir le compte POP utilisé pour relever les emails entrants. Voir [Gestion des emails rebonds](#managing-bounced-emails).
+* **[!UICONTROL Intégration LDAP]** : pour configurer l&#39;identification d&#39;un utilisateur via un annuaire LDAP. Voir [Connexion par LDAP](../../installation/using/connecting-through-ldap.md).
 
 ## Paramètres du canal email {#email-channel-parameters}
 
@@ -131,7 +131,7 @@ Les options de configuration pour les mises en quarantaines sont les suivantes :
 
 Les mails rebonds sont essentiels pour qualifier les erreurs suite à une diffusion. Ces erreurs seront réparties dans les NP@I une fois que les règles auront déterminé la cause de non aboutissement du message.
 
-This step is only available if the **Email channel** and **Bounce mail** management options are selected in the first stage of the deployment wizard. Reportez-vous aux paramètres [](#general-parameters)généraux.
+Cette étape n&#39;est proposée que lorsque les options **Canal email** et **Gestion des emails rebonds** sont sélectionnées à la première étape de l’assistant de déploiement. Voir la section [Paramètres généraux](#general-parameters).
 
 Dans cette étape, vous pouvez définir les paramètres de gestion des mails rebonds.
 
@@ -168,7 +168,7 @@ Les mails rebonds non traités ne sont pas affichés dans l’interface Adobe Ca
 
 Dans l&#39;étape suivante, procédez à la configuration du tracking pour l&#39;instance. L&#39;instance doit être déclarée et enregistrée auprès du ou des serveurs de tracking.
 
-This step is only offered when the **Email channel** and **Tracking** options are selected in the first page of the deployment wizard. Reportez-vous aux paramètres [](#general-parameters)généraux.
+Cette étape n&#39;est proposée que lorsque les options **Canal email** et **Tracking** sont sélectionnées à la première étape de l&#39;assistant de déploiement. Voir [Paramètres généraux](#general-parameters).
 
 La configuration du tracking web (mode de tracking, création et insertion des balises...) est détaillée dans [ce document](../../configuration/using/about-web-tracking.md).
 
@@ -182,11 +182,11 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
    Les informations concernant les URL internes ne sont utilisées que par le serveur applicatif Adobe Campaign afin de contacter le ou les serveurs de tracking.
 
-   For more on this, refer to [Tracking server](#tracking-server).
+   Voir à ce sujet la section [Serveur de tracking](#tracking-server).
 
 * Une fois les URL configurées, il est nécessaire d&#39;activer le tracking. Pour cela, l&#39;instance doit être enregistrée auprès du ou des serveurs de tracking.
 
-   For more on this, refer to [Saving tracking](#saving-tracking).
+   Voir à ce sujet [Enregistrement du tracking](#saving-tracking).
 
 ### Serveur de tracking {#tracking-server}
 
@@ -205,7 +205,7 @@ Dans le cadre d&#39;une architecture en Mid-Sourcing, vous pouvez externaliser l
 1. Sélectionnez l&#39;option **[!UICONTROL Externaliser la gestion du tracking]** : vous pourrez ainsi utiliser un serveur de mid-sourcing comme serveur de tracking.
 1. Renseignez les champs **[!UICONTROL Compte externe]** et **[!UICONTROL Nom de l&#39;instance]** pour pouvoir vous connecter au serveur de mid-sourcing.
 
-   Pour plus d’informations, reportez-vous à la section Serveur [de sources](../../installation/using/mid-sourcing-server.md)intermédiaires.
+   Pour plus d’informations, consultez la section [Serveur de mid-sourcing](../../installation/using/mid-sourcing-server.md).
 
 1. Cliquez sur le bouton **[!UICONTROL Activer l&#39;instance de tracking]** pour valider la connexion au serveur.
 
@@ -344,9 +344,9 @@ Pour être visibles depuis l&#39;extérieur, les images utilisées dans les emai
 
 Dans cette étape, vous devez renseigner :
 
-1. Nouvelle URL de ressource publique. Pour plus d’informations, consultez la section URL [des ressources](#public-resources-url) publiques.
-1. Mode de détection des images dans une diffusion. Pour plus d’informations, reportez-vous à la section Détection [des images de](#delivery-image-detection) diffusion.
-1. Options de publication. For more information, refer to the [Publication modes](#publication-modes) section.
+1. Nouvelle URL des ressources publiques. Pour plus d’informations, consultez la section [URL des ressources publiques](#public-resources-url).
+1. Mode de détection des images dans une diffusion. Pour plus d’informations, consultez la section [Détection des images d’une diffusion](#delivery-image-detection).
+1. Options de publication. Pour plus d’informations, consultez la section [Modes de publication](#publication-modes).
 
 Les ressources publiques sont accessibles à partir du noeud **Administration > Ressources > On-line > Ressources publiques** de l&#39;arborescence Adobe Campaign. Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les emails mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
 
@@ -385,7 +385,7 @@ Les modes de publication suivants sont disponibles :
 
 * Serveur(s) de tracking
 
-   Les ressources seront automatiquement copiées sur les différents serveurs de suivi. Ils sont configurés dans l’étape Configuration [du](#tracking-configuration)suivi.
+   Les ressources seront automatiquement copiées vers les différents serveurs de tracking. Ils sont configurés à l’étape [Paramétrage du tracking](#tracking-configuration).
 
 * Autre(s) serveur(s) Adobe Campaign
 
@@ -416,19 +416,19 @@ Les modes de publication suivants sont disponibles :
       [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
       ```
 
-      where `[INSTALL]` is the access path to the Adobe Campaign installation folder.
+      où `[INSTALL]` est le chemin d’accès au dossier d’installation d’Adobe Campaign.
 
    * Sous Unix, assurez-vous que ce script soit exécutable.
 
 Pour les images, il doit les copier depuis le dossier &quot;images&quot; renseigné via l&#39;option **NmsDelivery_ImageSubDirectory** vers un ou plusieurs serveurs frontaux. Ces serveurs vont stocker les images afin de les rendre accessibles via la nouvelle URL configurée.
 
-In the event of publication on an Adobe Campaign server without a manual publication script, by default, the images of a delivery are stored in the `$(XTK_INSTALL_DIR)/var/res/img/ directory`. The corresponding URL is the following: **`https://server/res/img`**.
+En cas de publication sur un serveur Adobe Campaign, et non via un script de publication manuelle, les images d&#39;une diffusion sont stockées dans le `$(XTK_INSTALL_DIR)/var/res/img/ directory`. L&#39;URL correspondante est la suivante : **`https://server/res/img`**.
 
-`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. The corresponding URL is as follows: **`https://server/res/instance`** where instance is the name of the tracking instance.
+`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. L&#39;URL correspondante est la suivante : **`https://server/res/instance`** où instance est le nom de l&#39;instance de tracking.
 
 >[!NOTE]
 >
->Il est possible de modifier le répertoire de stockage des ressources publiques. Pour plus d’informations à ce sujet, reportez-vous à [Gestion des ressources](#managing-public-resources)publiques.
+>Il est possible de modifier le répertoire de stockage des ressources publiques. Pour plus d’informations, reportez-vous à la section [Gestion des ressources publiques](#managing-public-resources).
 
 ### Synchronisation des ressources publiques {#synchronizing-public-resources}
 
@@ -448,7 +448,7 @@ Vous devez déclarer et configurer les spare-serveurs dans le fichier **serverCo
 
 **Configuration**
 
-For each public resource that has to be synchronized, you have to add a status attribute to the `<url>` element in the `<relay>` part:
+Pour chaque ressource publique qui doit être synchronisée, il faut ajouter un attribut statut à l’élément `<url>` dans la partie `<relay>`.
 
 L&#39;attribut status peut prendre trois valeurs :
 
@@ -498,4 +498,4 @@ La dernière étape de l&#39;assistant de déploiement permet de paramétrer la 
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 
-Data is deleted automatically via the Database cleanup workflow. For more on how to configure and operate this workflow and details on the deleted items, refer to this [document](../../production/using/database-cleanup-workflow.md).
+Les données sont supprimées automatiquement par le workflow Nettoyage de la base (cleanup). Le fonctionnement et le paramétrage de ce workflow, ainsi que le détail des éléments supprimés, sont présentés dans ce [document](../../production/using/database-cleanup-workflow.md).
