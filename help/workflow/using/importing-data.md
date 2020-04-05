@@ -28,13 +28,13 @@ Les données traitées dans un workflow peuvent provenir de listes dont les donn
 
 Ces listes peuvent avoir été constituées directement dans Adobe Campaign ou importées via l&#39;option **[!UICONTROL Importer une liste]**. Pour plus d&#39;informations sur cette option, consultez cette [page](../../platform/using/generic-imports-and-exports.md).
 
-For more on using the read list activity in a workflow, refer to [Read list](../../workflow/using/read-list.md).
+Pour plus d’informations sur l&#39;utilisation de l&#39;activité de lecture de liste dans un workflow, consultez la section [Lecture de liste](../../workflow/using/read-list.md).
 
 ### Charger des données depuis un fichier {#loading-data-from-a-file}
 
 Les données traitées dans un workflow peuvent êtes extraites d&#39;un fichier structuré pour qu&#39;il puisse être importé dans Adobe Campaign.
 
-A description of the loading data activity can be found in the [Data loading (file)](../../workflow/using/data-loading--file-.md) section.
+Une description de l&#39;activité de chargement de fichier est disponible dans la section [Chargement (fichier)](../../workflow/using/data-loading--file-.md).
 
 Voici un exemple de fichier structuré à importer :
 
@@ -67,25 +67,25 @@ Pour ce faire :
 1. Ajoutez d&#39;autres activités pour gérer les données provenant du fichier.
 1. Enregistrez et exécutez le workflow.
 
-Lors de l’exportation d’un fichier, vous pouvez également le compresser ou le chiffrer. See [Zipping or encrypting a file](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Lors de l&#39;export d&#39;un fichier, vous pouvez également le compresser ou le chiffrer. Voir [Compresser ou chiffrer un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ## Bonnes pratiques relatives à l’import de données {#best-practices-when-importing-data}
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l&#39;export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
-### Utiliser les modèles d&#39;import  {#using-import-templates}
+### Utiliser les modèles d&#39;import   {#using-import-templates}
 
 La plupart des workflows d&#39;import doivent contenir les activités suivantes : **[!UICONTROL Chargement (fichier)]**, **[!UICONTROL Enrichissement]**, **[!UICONTROL Partage]**, **[!UICONTROL Déduplication]**, **[!UICONTROL Mise à jour de données]**.
 
-L&#39;utilisation de modèles d&#39;import facilite la préparation d&#39;imports similaires et garantit la cohérence des données au sein de la base de données. Découvrez comment créer des modèles de processus dans la section Modèles [de](../../workflow/using/building-a-workflow.md#workflow-templates) processus.
+L&#39;utilisation de modèles d&#39;import facilite la préparation d&#39;imports similaires et garantit la cohérence des données au sein de la base de données. Découvrez comment créer des modèles de workflows dans la section [Modèles de workflows](../../workflow/using/building-a-workflow.md#workflow-templates).
 
 Pour de nombreux projets, les imports sont construits sans activité de **[!UICONTROL Déduplication]** car les fichiers utilisés n&#39;ont pas de doublon. Des doublons apparaissent parfois suite à l&#39;import d&#39;autres fichiers. La déduplication est alors difficile. C&#39;est pourquoi l&#39;ajout d&#39;une étape de déduplication est une précaution utile pour tous les workflows d&#39;import.
 
 Ne partez pas de l&#39;hypothèse selon laquelle les données entrantes sont cohérentes et justes ou que le département informatique ou le responsable Adobe Campaign s&#39;en occupera. Gardez la normalisation des données à l&#39;esprit tout au long du projet. Veillez à dédupliquer, à réconcilier et à maintenir la cohérence des données lors des imports.
 
-Un exemple de modèle d’importation est disponible dans la section [Configuration d’une importation](#setting-up-a-recurring-import) périodique.
+Un exemple de modèle d’import est disponible dans la section [Configurer un import récurrent](#setting-up-a-recurring-import).
 
-### Utiliser des formats de fichiers plats  {#using-flat-file-formats}
+### Utiliser des formats de fichiers plats   {#using-flat-file-formats}
 
 Le format le plus efficace pour les imports est le fichier plat. Les fichiers plats peuvent être importés en masse au niveau de la base de données.
 
@@ -134,7 +134,7 @@ Les imports complets sont réservés au chargement initial.
 
 Les données doivent être importées à l&#39;aide de la gestion des données et non de JavaScript.
 
-### Maintenir la cohérence  {#maintaining-consistency}
+### Maintenir la cohérence   {#maintaining-consistency}
 
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
@@ -175,7 +175,7 @@ Par exemple :
 
    * Dans la section **[!UICONTROL Nom du fichier à charger]**, sélectionnez **[!UICONTROL Télécharger un fichier présent sur le poste local]** et laissez le champ vide. A chaque fois qu&#39;un nouveau workflow sera créé à partir de ce modèle, vous pourrez préciser ici le fichier souhaité (tant qu&#39;il correspond à la structure définie).
 
-      Toutes les options sont utilisables, mais il faut modifier le modèle en conséquence. Par exemple, en sélectionnant **[!UICONTROL Spécifié par la transition]**, vous pouvez ajouter une activité **[!UICONTROL Transfert de fichier]** devant pour récupérer le fichier à importer à partir d&#39;un serveur FTP/SFTP. Avec la connexion S3 ou SFTP, vous pouvez également importer des données de segments dans Adobe Campaign avec la plate-forme de données clientes en temps réel d’Adobe. For more on this, refer to this [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+      Toutes les options sont utilisables, mais il faut modifier le modèle en conséquence. Par exemple, en sélectionnant **[!UICONTROL Spécifié par la transition]**, vous pouvez ajouter une activité **[!UICONTROL Transfert de fichier]** devant pour récupérer le fichier à importer à partir d&#39;un serveur FTP/SFTP. Avec la connexion S3 ou SFTP, vous pouvez également importer des données de segments vers Adobe Campaign avec la plate-forme de données clientes en temps réel d’Adobe. Consultez à ce sujet cette [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
 
       ![](assets/import_template_example1.png)
 
