@@ -34,7 +34,7 @@ La zone d&#39;édition renseigne le contenu du document XML :
 
 >[!NOTE]
 >
->Le contrôle d’édition &quot;Name&quot; vous permet de saisir la clé du document, composée du nom et de l’espace de noms. Les attributs &quot;name&quot; et &quot;namespace&quot; de l’ **`<navtree>`** élément sont automatiquement mis à jour dans le champ de modification XML du schéma.
+>Le contrôle d’édition « Name » vous permet de saisir la clé du document, composée du nom et de l’espace de nommage. Les attributs « name » et « namespace » de l’élément **`<navtree>`** sont automatiquement mis à jour dans le champ de modification XML du schéma.
 
 L&#39;aperçu génère automatiquement le document fusionné contenant le paramétrage complet :
 
