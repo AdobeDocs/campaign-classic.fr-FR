@@ -30,7 +30,7 @@ LINE peut aussi être combinée au module de message transactionnel pour envoyer
 
 ![](assets/line_message.png)
 
-Les sections ci-dessous fournissent des informations spécifiques au canal LINE. Pour plus d’informations sur la création d’une diffusion, voir[cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Les sections ci-dessous contiennent des informations spécifiques au canal LINE. Pour plus d&#39;informations sur la création d&#39;une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 Pour utiliser le canal LINE, les étapes de réalisation sont les suivantes :
 
@@ -52,7 +52,7 @@ Dans un premier temps, vous devez créer un compte LINE pour ensuite le lier à 
 
 Pour créer et paramétrer un compte LINE, voir [https://developers.line.me/](https://developers.line.me/).
 
-To create and configure a LINE service, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
+Pour créer et paramétrer un service LINE, voir la section [Gestion des inscriptions](../../delivery/using/managing-subscriptions.md).
 
 ![](assets/line_service.png)
 
@@ -136,11 +136,11 @@ Vous pouvez utiliser :
 
    Les images peuvent être définies en fonction de la taille de l&#39;écran :
 
-   * 1040px
-   * 700px
-   * 460px
-   * 300px
-   * 240px
+   * 1040 px
+   * 700 px
+   * 460 px
+   * 300 px
+   * 240 px
    >[!NOTE]
    >
    >La taille 1 040 x 1 040 px est obligatoire pour toutes les images LINE avec un lien.
@@ -157,13 +157,13 @@ Vous pouvez utiliser :
 >
 >La syntaxe &lt;%@ include option=&#39;NmsServer_URL&#39; %>/webApp/APP3?id=&lt;%=escapeUrl(cryptString(visitor.id))%> permet d&#39;inclure un lien vers une web app dans un message LINE.
 
-### Recommandations {#recommendations}
+### Recommandations  {#recommendations}
 
 * Lorsque vous envoyez une diffusion LINE pour la première fois à un nouveau destinataire, vous devez y ajouter le message officiel de LINE à propos des règles d&#39;utilisation et de consentement. Ce message officiel est disponible à l&#39;adresse suivante : [https://terms.line.me/OA_privacy/sp?lang=fr](https://terms.line.me/OA_privacy/sp?lang=fr).
 
 ## Choisir la population cible {#selecting-the-target-population}
 
-La sélection des destinataires d’une remise LINE est similaire à la définition des destinataires de la remise par courrier électronique. Pour plus d’informations, voir [Identification des populations](../../delivery/using/steps-defining-the-target-population.md)cibles.
+La sélection des destinataires d&#39;une diffusion LINE est similaire à la définition des destinataires pour une diffusion par email. Pour plus d&#39;informations, voir la section [Identification des populations ciblées](../../delivery/using/steps-defining-the-target-population.md).
 
 Le ciblage est réalisé sur les **visiteurs**.
 
@@ -171,7 +171,7 @@ Le ciblage est réalisé sur les **visiteurs**.
 
 Lorsque votre diffusion est correctement créée et paramétrée, vous pouvez l&#39;envoyer à la cible définie précédemment.
 
-L’envoi de remises LINE est similaire à l’envoi d’une remise par courrier électronique. Pour plus d’informations sur l’envoi d’une remise, voir [Envoi de messages](../../delivery/using/sending-messages.md).
+L&#39;envoi de diffusions LINE est similaire à l&#39;envoi d&#39;une diffusion par email. Pour plus d&#39;informations sur l&#39;envoi d&#39;une diffusion, voir la section [Envoyer les messages](../../delivery/using/sending-messages.md).
 
 ## Accéder aux rapports {#accessing-reports}
 
