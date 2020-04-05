@@ -38,7 +38,7 @@ Le chapitre suivant présente les étapes de conception d&#39;un formulaire de t
 >
 >Lors de la configuration d&#39;applications web et de formulaires web, vous devez disposer d&#39;une résolution verticale minimale de 900 pixels (ex : 1 600x900).
 
-Les formulaires Web sont accessibles via le menu Applications Web de l’onglet **Campagnes** . Dans l’arborescence d’Adobe Campaign, ils sont regroupés sous le noeud **[!UICONTROL Ressources > En ligne > Applications]** Web.
+Les formulaires web sont accessibles via le menu Applications Web de l’onglet **Campagnes**. Dans l’arborescence d’Adobe Campaign, ils sont regroupés sous le nœud **[!UICONTROL Ressources > En ligne > Applications Web]**.
 
 Pour créer un formulaire Web, cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des applications Web.
 
@@ -64,15 +64,15 @@ Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont 
 
 * Définir de l&#39;enchaînement des pages et conditionner l&#39;affichage.
 
-   Cette étape est détaillée dans [Définition du séquencement](../../web/using/defining-web-forms-page-sequencing.md)des pages de formulaires Web.
+   Cette étape est présentée dans la section [Définir l’enchaînement des pages des formulaires web](../../web/using/defining-web-forms-page-sequencing.md).
 
 * Au besoin, traduire le contenu.
 
-   Cette étape est détaillée dans [Traduction d’un formulaire](../../web/using/translating-a-web-form.md)Web.
+   Cette étape est présentée dans la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
 
 ## A propos de la conception des formulaires web {#about-web-forms-designing}
 
-Les pages du formulaire sont créées via un éditeur spécifique qui vous permet de définir et de configurer des zones d’entrée (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenus HTML, etc.). Ils peuvent être regroupés en conteneurs et leur disposition modifiée en fonction de vos besoins (pour plus d’informations, reportez-vous à la section [Création de conteneurs](../../web/using/defining-web-forms-layout.md#creating-containers)).
+Les pages du formulaire sont créées dans un éditeur spécifique qui permet de définir et de configurer des zones d’entrée (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenus HTML, etc.). Ces éléments peuvent être regroupés en conteneurs et leur disposition modifiée en fonction de vos besoins (voir à ce sujet la section [Créer des conteneurs](../../web/using/defining-web-forms-layout.md#creating-containers)).
 
 La définition du contenu et de la mise en page des écrans du formulaire sont présentés dans les sections suivantes :
 
