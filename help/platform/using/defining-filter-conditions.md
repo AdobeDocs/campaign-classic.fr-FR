@@ -34,7 +34,7 @@ Voici une liste descriptive des opérateurs disponibles :
  <thead> 
   <tr> 
    <th> Opérateur<br /> </th> 
-   <th> Objectif<br /> </th> 
+   <th> Intérêt<br /> </th> 
    <th> Exemple<br /> </th> 
   </tr> 
  </thead> 
@@ -91,12 +91,12 @@ Voici une liste descriptive des opérateurs disponibles :
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Comme</span> <br /> </td> 
-   <td> <span class="uicontrol">Comme</span> est quasiment identique à l'opérateur <span class="uicontrol">Contient. </span> Il vous permet d’insérer un caractère générique <span class="uicontrol">%</span> dans la valeur.<br /> </td> 
+   <td> <span class="uicontrol">Comme</span> est quasiment identique à l'opérateur <span class="uicontrol">Contient. </span> Il vous permet d’insérer un caractère joker <span class="uicontrol">%</span> dans la valeur.<br /> </td> 
    <td> <strong>Nom (@lastName) comme 'Mart%n</strong>'. Ici, le caractère de substitution sert de "joker" afin de retrouver le nom "Martin" dans le cas très hypothétique où l'opérateur aurait oublié quelle est la lettre située entre les lettre 't' et 'n' (un 'i' en l'occurrence...).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
-   <td> Is similar to <span class="uicontrol">Like</span> . Lets you not recover the entered value. Here too, the entered value must contain the <span class="uicontrol">%</span> wild card character.<br /> </td> 
+   <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le <span class="uicontrol">caractère joker</span> %.<br /> </td> 
    <td> <strong>Nom (@lastName) pas comme 'Smi%h'</strong>. Ici, les destinataires répondant au nom de 'Smi%h' ne seront pas retournés en résultat.<br /> </td> 
   </tr> 
   <tr> 
@@ -212,17 +212,17 @@ Les différentes catégories de champs :
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_48.png" /> </td> 
-   <td> Clé primaire. This SQL field is a way of identifying a record in a table.<br /> </td> 
+   <td> Clé primaire. Ce champ SQL sert à identifier de manière unique un enregistrement dans une table.<br /> </td> 
    <td> L'identifiant d'un destinataire est une clé primaire et un identifiant est unique par définition.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_02.png" /> </td> 
-   <td> Clé étrangère. Used as a link to another table.<br /> </td> 
+   <td> Clé étrangère. Sert de lien vers une autre table.<br /> </td> 
    <td> Clé étrangère du destinataire, clé étrangère du service, etc.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_46.png" /> </td> 
-   <td> Champ calculé. This type of field is calculated on request using the values in the database.<br /> </td> 
+   <td> Champ calculé. Ce type de champ est calculé à la demande, à partir de valeurs stockées en base.<br /> </td> 
    <td> Âge, domaine d'email, etc.<br /> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Liens vers une table et éléments de collection :
 
 >[!NOTE]
 >
->* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [Création d’expressions](#building-expressions).
+>* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [Construction d’expressions](#building-expressions).
 >* Supprimez une colonne de sortie en cliquant sur la croix rouge **Supprimer**.
 >* Modifiez l&#39;ordre des colonnes de sortie grâce aux flèches.
 >* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
@@ -350,7 +350,7 @@ Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
 
    ![](assets/query_editor_nveau_71.png)
 
-   For a list of all available functions, refer to [List of functions](#list-of-functions).
+   Pour une liste complète des fonctions disponibles, voir la section [Liste des fonctions](#list-of-functions).
 
 ## Liste des fonctions {#list-of-functions}
 
@@ -476,7 +476,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Renvoie la chaîne complétée à gauche<br /> </td> 
-   <td> LPad(&lt;chaîne&gt;, &lt;numéro&gt;, &lt;caractère&gt;)<br /></td> 
+   <td> LPad(&lt;chaîne&gt;, &lt;nombre&gt;, &lt;caractère&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -945,7 +945,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Renvoie la valeur 1 (ne peut être utilisée qu'en paramètre de la fonction Case)<br /> </td> 
-   <td> Else(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+   <td> Else(&lt;valeur 1&gt;, &lt;valeur 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
