@@ -1,6 +1,6 @@
 ---
 title: Requête sur les informations de diffusion
-description: Découvrez comment interroger les informations de remise
+description: Découvrez comment interroger les informations diffusion
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
