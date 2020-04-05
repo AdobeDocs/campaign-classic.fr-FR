@@ -77,11 +77,11 @@ Vous devez maintenant paramétrer votre activité **[!UICONTROL Enrichissement]*
 
    ![](assets/uc_enrichment_10.png)
 
-1. First, we need to target the week before the birthdate as the **Validity start date** with the following **[!UICONTROL Expression]**: `SubDays([target/@birthDate], 7)`.
+1. Tout d’abord, nous devons cibler la semaine précédant la date d’anniversaire comme **Date de début de validité** à l’aide de l’**[!UICONTROL Expression]** suivante : `SubDays([target/@birthDate], 7)`.
 
    ![](assets/uc_enrichment_11.png)
 
-1. Then, to create the custom date field **Validity end date** which will target the week after the birthdate, you need to add the **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
+1. Ensuite, pour créer le champ de date personnalisé **Date de fin de validité** qui ciblera la semaine après la date de naissance, vous devez ajouter l’**[!UICONTROL Expression]** : `AddDays([target/@birthDate], 7)`.
 
    Vous pouvez ajouter un libellé à votre expression.
 
@@ -126,4 +126,4 @@ Vous pouvez maintenant commencer à concevoir votre diffusion par email avec les
 
    ![](assets/uc_enrichment_20.png)
 
-Votre courriel est maintenant prêt. Vous pouvez commencer à envoyer vos preuves et confirmer votre livraison pour envoyer vos courriels d&#39;anniversaire.
+Votre courriel est maintenant prêt. Vous pouvez  envoyer vos et confirmer votre  pour envoyer vos e-mails d&#39;anniversaire.
