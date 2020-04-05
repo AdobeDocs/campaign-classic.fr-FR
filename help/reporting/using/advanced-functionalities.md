@@ -30,7 +30,7 @@ Cette activité vous permet de traiter vos données et créer facilement des req
 
 Il vous suffit de taper votre requête dans la fenêtre de script.
 
-L’onglet **[!UICONTROL Textes]** permet de définir des chaînes de texte. Ils peuvent ensuite être utilisés avec la syntaxe suivante : **$(Identifiant)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajout d’un en-tête et d’un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+L’onglet **[!UICONTROL Textes]** vous permet de définir des chaînes de texte. Elles peuvent ensuite être utilisées avec la syntaxe suivante : **$(Identifiant)**. Pour plus d’informations sur l’utilisation de textes, voir [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 >[!CAUTION]
 >
