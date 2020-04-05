@@ -49,7 +49,7 @@ Pour créer le schéma correspondant, les étapes sont les suivantes :
 
    ![](assets/s_ncs_configuration_view_create_schema.png)
 
-   The schema must be populated with the view=&quot;true&quot; attribute on the `<srcSchema>` root element in order not to generate a table creation SQL script.
+   Le schéma doit être renseigné avec l&#39;attribut view=&quot;true&quot; sur l&#39;élément racine `<srcSchema>` afin de ne pas générer de script SQL de création de la table.
 
 **Exemple** :
 
