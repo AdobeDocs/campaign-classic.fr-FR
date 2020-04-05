@@ -30,13 +30,13 @@ Pour chaque page du formulaire, les conteneurs sont créés à partir du bouton 
 
 ![](assets/s_ncs_admin_survey_containers_add.png)
 
-Utilisez un conteneur pour regrouper des éléments de la page sans ajouter d’étiquette au rendu final. Les éléments sont regroupés dans la sous-arborescence du conteneur. Les conteneurs standard vous permettent de gérer la mise en page.
+Utilisez un conteneur pour grouper des éléments de la page sans ajouter de libellé dans le rendu final. Les éléments sont regroupés en sous-arborescence du conteneur. Les conteneurs standards permettent de gérer la mise en page.
 
 Par exemple :
 
 ![](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
-La position des libellés est appliquée aux éléments placés sous le conteneur dans la hiérarchie. Il peut être surchargé pour chaque élément si nécessaire. Ajoutez ou supprimez des colonnes pour modifier la disposition. See [Positioning the fields on the page](#positioning-the-fields-on-the-page).
+La position des libellés est appliquée aux éléments placés en sous-arborescence du conteneur. Elle peut éventuellement être surchargée au niveau de chaque élément si nécessaire. Le nombre de colonnes permet de modifier la mise en page. Voir [Placer les champs de la page](#positioning-the-fields-on-the-page).
 
 Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
