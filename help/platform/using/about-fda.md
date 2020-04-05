@@ -26,11 +26,11 @@ Adobe Campaign propose l&#39;option **Federated Data Access** (FDA) afin d&#39;e
 
 >[!CAUTION]
 >
->L&#39;accès à une base de données externe par l&#39;intermédiaire de la FDA n&#39;est possible que pour les installations sur site ou hybrides, sauf avec les connecteurs Snowflake. Pour plus d’informations à ce propos, consultez [cette page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>L&#39;accès à une base de données externe par l&#39;intermédiaire d&#39;un n&#39;est possible que pour les installations sur site ou hybrides, sauf avec les connecteurs Snowflake. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Principe de fonctionnement {#operating-principle}
 
-L&#39;option FDA vous permet d&#39;étendre votre modèle de données dans une base de données tierce. Il détecte automatiquement la structure des tables ciblées et utilise les données provenant des sources SQL.
+L’option  vous permet d’étendre votre modèle de données dans une base de données tierce. Il détecte automatiquement la structure des tables ciblées et utilise les données provenant des sources SQL.
 
 
 Afin de pouvoir utiliser cette fonctionnalité, vous devez :
@@ -38,10 +38,10 @@ Afin de pouvoir utiliser cette fonctionnalité, vous devez :
 1. posséder une base de données externe compatible avec le module FDA d&#39;Adobe Campaign. La liste des systèmes de base de données et des versions compatibles est détaillée dans la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). Les utilisateurs doivent également posséder les [permissions nécessaires](../../platform/using/remote-database-access-rights.md) dans Adobe Campaign et sur la base de données externe.
 1. [installer les pilotes](../../platform/using/specific-configuration-database.md) qui correspondent à votre base de données sur le serveur marketing Adobe Campaign.
 1. [créer et paramétrer un compte externe](../../platform/using/connecting-to-database.md) permettant d&#39;établir la connexion entre Adobe Campaign et la base externe. Pour plus d&#39;informations sur les comptes externes disponibles, consultez cette [page](../../platform/using/external-accounts.md).
-1. [Créez le schéma](../../platform/using/creating-data-schema.md) de la base de données externe dans Adobe Campaign. Vous pouvez ainsi reconnaître la structure des données de la base de données externe.
+1. [Créez le](../../platform/using/creating-data-schema.md) de la base de données externe dans  Adobe Campaign. Cela vous permet de reconnaître la structure des données de la base de données externe.
 1. éventuellement, [créer un mapping de ciblage](../../platform/using/defining-data-mapping.md) à partir du schéma créé précédemment, dans le cas où les destinataires de vos diffusions sont issus de la base externe. Ce cas présente certaines limitations, notamment au niveau de la personnalisation des diffusions.
 
-Une fois le schéma de données créé, les données peuvent être traitées dans les processus Adobe Campaign. Voir à ce propos [cette section](../../workflow/using/executing-a-workflow.md#architecture).
+Une fois le de données créé, les données peuvent être traitées dans   Adobe Campaign de. Voir à ce propos [cette section](../../workflow/using/executing-a-workflow.md#architecture).
 
 ## Bonnes pratiques et recommendations {#best-practices-and-recommendations}
 
