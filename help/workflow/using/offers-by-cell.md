@@ -37,5 +37,5 @@ Pour cela :
 
       ![](assets/int_offer_per_cell1.png)
 
-1. Configurez ensuite une activité de diffusion correspondant au canal choisi. Reportez-vous à la section Livraisons [](../../workflow/using/cross-channel-deliveries.md)cross-canal.
+1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Voir à ce sujet la section [Diffusions cross-canal](../../workflow/using/cross-channel-deliveries.md).
 
