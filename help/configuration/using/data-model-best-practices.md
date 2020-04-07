@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 239272386b709f81d1e6898a68b9b3552ddeb9b7
+source-git-commit: 8c71f54b68558178171fa30601aebf5e638db37f
 
 ---
 
@@ -44,7 +44,7 @@ Cette approche axée sur le client est présentée dans le graphique ci-dessous.
 
 ![](assets/customer-centric-data-model.png)
 
-Pour accéder à la description de chaque table, accédez à **[!UICONTROL Admin > Configuration > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
+To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
 
 The Adobe Campaign default data model is presented in this [document](../../configuration/using/data-model-description.md).
 
@@ -141,7 +141,11 @@ Il existe deux types de séquences :
 * **Partagé**: plusieurs tables choisiraient leur id dans la même séquence. Cela signifie que si un id &#39;X&#39; est utilisé par une table, aucune autre table partageant la même séquence n&#39;aurait d&#39;enregistrement avec cet id &#39;X&#39;. **XtkNewId** est la séquence partagée par défaut disponible dans  Adobe Campaign.
 * **Dédié**: une seule table sélectionne ses identifiants dans la séquence. Le nom de la séquence contient généralement le nom de la table.
 
-La séquence est un nombre entier de valeurs 32 bits, avec un nombre maximal fini de valeurs disponibles : 2,14 milliards. Après avoir atteint la valeur maximale, la séquence revient à 0 afin de recycler les identifiants. Si les anciennes données n’ont pas été purgées, le résultat sera une violation de clé unique, qui deviendra un bloqueur pour l’intégrité et l’utilisation de la plateforme.  Adobe Campaign ne serait pas en mesure d&#39;envoyer des communications (lorsqu&#39;il a une incidence sur la table de bûches des) et les performances seraient fortement touchées.
+>[!IMPORTANT]
+>
+>La séquence est un nombre entier de valeurs 32 bits, avec un nombre maximal fini de valeurs disponibles : 2,14 milliards. Après avoir atteint la valeur maximale, la séquence revient à 0 afin de recycler les identifiants.
+>
+>Si les anciennes données n’ont pas été purgées, le résultat sera une violation de clé unique, qui deviendra un bloqueur pour l’intégrité et l’utilisation de la plateforme.  Adobe Campaign ne serait pas en mesure d&#39;envoyer des communications (lorsqu&#39;il a une incidence sur la table de bûches des) et les performances seraient fortement touchées.
 
 Par conséquent, un client envoyant 6 milliards de courriels par an avec une période de rétention de 180 jours pour ses journaux serait à court d&#39;identifiants en 4 mois. Pour éviter un tel problème, veillez à définir les paramètres de purge en fonction de vos volumes. Voir à ce propos [cette section](#data-retention).
 
@@ -150,7 +154,7 @@ Lorsqu’une table personnalisée est créée dans  Adobe Campaign avec une clé
 Par défaut, une séquence personnalisée aura des valeurs allant de +1 000 à +2,1 BB. Techniquement, il est possible d&#39;obtenir une gamme complète de 4BB en activant des identifiants négatifs. Cette valeur doit être utilisée avec soin et un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l&#39;enregistrement 0 est généralement ignoré par  Adobe Campaign Classic dans les SQL générés.
 
 **Rubriques connexes :**
-* Pour plus d’informations sur la fonction de génération **automatique de** séquence, reportez-vous à ce [](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
+* Pour plus d’informations sur la fonction de génération **automatique de** séquence, reportez-vous à ce [](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
 * Pour en savoir plus sur l&#39;épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Index {#indexes}
@@ -176,18 +180,18 @@ Gardez toutefois à l’esprit les points suivants :
 
 La gestion des index peut devenir très complexe, il est donc important de comprendre comment ils fonctionnent. Pour illustrer cette complexité, prenons un exemple de base comme la recherche de en filtrant le prénom et le nom de famille. Pour cela :
 1. Accédez au dossier qui  tous les de la base de données. Voir à ce sujet la section [Gérer les profils de ](../../platform/using/managing-profiles.md).
-1. Cliquez avec le bouton droit sur le champ **[!UICONTROL Prénom]** .
-1. Sélectionnez **[!UICONTROL Filtrer sur ce champ]**.
+1. Cliquez avec le bouton droit sur le **[!UICONTROL First name]** champ.
+1. Sélectionner **[!UICONTROL Filter on this field]**.
 
    ![](assets/data-model-index-example.png)
 
-1. Répétez cette opération pour le champ **[!UICONTROL Nom]** .
+1. Répétez cette opération pour le **[!UICONTROL Last name]** champ.
 
 Les deux  correspondantes sont ajoutées au-dessus de l’écran.
 
 ![](assets/data-model-index-search.png)
 
-Vous pouvez désormais effectuer un filtrage de recherche sur les champs **[!UICONTROL Prénom]** et **[!UICONTROL Nom]** selon les différentes conditions de filtre.
+Vous pouvez désormais effectuer un filtrage de recherche sur les champs **[!UICONTROL First name]** et **[!UICONTROL Last name]** les champs en fonction des différentes conditions de filtre.
 
 Maintenant, pour accélérer la recherche sur ces  de, vous pouvez ajouter des index. Mais quels indices doivent être utilisés ?
 
