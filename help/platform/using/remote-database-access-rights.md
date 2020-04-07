@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
+source-git-commit: 6143f23e05f4528a9d76aece3a6e41165e2f95d4
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
 
 Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations sur une base externe via FDA, ce dernier doit disposer d&#39;un droit nommé spécifique dans Adobe Campaign.
 
-1. Sélectionnez le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;explorateur Adobe Campaign.
+1. Sélectionnez le **[!UICONTROL Administration > Access Management > Named Rights]** noeud dans l’explorateur de Adobe Campaign .
 1. Créez un nouveau droit en indiquant le libellé de votre choix.
-1. Le champ **[!UICONTROL Nom]** doit être de la forme suivante : **user:base@server**, où :
+1. The **[!UICONTROL Name]** field must take the following format **user:base@server**, where :
 
    * **user** correspond au nom de l&#39;utilisateur sur la base de données externe.
    * **base** correspond au nom de la base de données externe.
@@ -36,7 +36,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
       >
       >La partie **:base** est optionnelle sur Oracle.
 
-1. Enregistrez le droit nommé puis associez-le à l&#39;utilisateur de votre choix à partir du noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur Adobe Campaign.
+1. Save the named right then link it to your chosen user from the **[!UICONTROL Administration > Access Management > Operators]** node of the Adobe Campaign explorer.
 
 Ensuite, pour exploiter les données contenues dans une base externe, l&#39;utilisateur Adobe Campaign doit au minimum avoir les droits en &#39;Ecriture&#39; sur cette base, afin de permettre la création des tables de travail. Ces tables sont automatiquement supprimées par Adobe Campaign.
 
@@ -46,7 +46,7 @@ En règle générale, les droits d&#39;accès suivants sont nécessaires :
 * **READ Data** : accès en lecture aux tables contenant les données du client,
 * **READ &#39;MetaData&#39;** : accès aux catalogues de données du serveur afin d&#39;obtenir la structure des tables,
 * **LOAD** : chargement en masse dans des tables de travail (opération nécessaire lorsque l&#39;on travaille sur des collections et des jointures),
-* **CREATE/DROP** pour **TABLE/INDEX/PROCEDURE/FUNCTION**,
+* **CREATE/DROP** for **TABLE/INDEX/PROCEDURE/FONCTION** (uniquement pour les tables de travail générées par  Adobe Campaign),
 * **EXPLAIN** (recommandé) : pour le suivi des performances en cas de problème,
 * **WRITE Data** (selon le scénario d&#39;intégration).
 
@@ -56,11 +56,11 @@ L’administrateur de la base de données doit faire correspondre ces droits aux
 
 |   | Snowflake | Redshift | Oracle | SQLServer | PostgreSQL | MySQL |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **Connexion à une base de données distante** | UTILISATION DE L’ENTREPÔT D’ENTREPÔT ET UTILISATION DES privilèges DE LA BASE DE DONNÉES | Création d’un utilisateur lié au compte AWS | Privilège CREATE SESSION | Autorisation CONNECT | Privilège CONNECT | Création d’un utilisateur lié à un hôte distant avec TOUS LES PRIVILÈGES |
+| **Connexion à une base de données distante** | UTILISATION SUR L’ENTREPÔT, UTILISATION SUR LA BASE DE DONNÉES ET UTILISATION SUR LES privilèges  | Création d’un utilisateur lié au compte AWS | Privilège CREATE SESSION | Autorisation CONNECT | Privilège CONNECT | Création d’un utilisateur lié à un hôte distant avec TOUS LES PRIVILÈGES |
 | **Création de tableaux** | Privilège CREATE TABLE ON  | Privilège CREATE | Privilège CREATE TABLE | autorisation CREATE TABLE | Privilège CREATE | Privilège CREATE |
 | **Création d&#39;index** | N/A | Privilège CREATE | privilège INDEX ou CREATE ANY INDEX | ALTER l’autorisation | Privilège CREATE | Privilège INDEX |
 | **Création de fonctions** | Privilège CRÉER UNE FONCTION SUR  | UTILISATION SUR le jeu de langage privilège de pouvoir appeler des scripts python externes | CRÉER UNE PROCÉDURE ou CRÉER UN DROIT DE PROCÉDURE | autorisation CREATE FONCTION | Privilège USAGE | Privilège CREATE ROUTINE |
-| **Création de procédures** | Privilège CREATE PROCEDURE ON  | UTILISATION SUR le jeu de langage privilège de pouvoir appeler des scripts python externes | CRÉER UNE PROCÉDURE ou CRÉER UN DROIT DE PROCÉDURE | Autorisation CREATE PROCEDURE | Privilège USAGE (les procédures sont des fonctions) | Privilège CREATE ROUTINE |
+| **Création de procédures** | N/A | UTILISATION SUR le jeu de langage privilège de pouvoir appeler des scripts python externes | CRÉER UNE PROCÉDURE ou CRÉER UN DROIT DE PROCÉDURE | Autorisation CREATE PROCEDURE | Privilège USAGE (les procédures sont des fonctions) | Privilège CREATE ROUTINE |
 | **Suppression d’objets (tables, index, fonctions, procédures)** | Propriété de l’objet | Posséder l’objet ou être un super-utilisateur | DROP ANY &lt; object > privilège | ALTER l’autorisation | Tableau : propriétaire du tableau Index : propriété de la fonction d’index : propriété de la fonction | Privilège DROP |
 | **Surveillance des exécutions** | Privilège MONITOR sur l&#39;objet requis | Aucun privilège requis pour utiliser la commande EXPLAIN | INSÉRER et SÉLECTIONNER le privilège et le privilège nécessaire pour exécuter l&#39;instruction sur laquelle repose le PLAN EXPLICATIF | Autorisation SHOWPLAN | Aucun privilège requis pour l&#39;utilisation de l&#39;instruction EXPLAIN | Privilège SELECT |
 | **Ecriture de données** | Privilèges INSERT et/ou UPDATE (selon l’opération d’écriture) | Privilèges INSERT et UPDATE | INSERTION, MISE À JOUR, INSERTION ET MISE À JOUR DES DROITS DE TOUT TABLEAU | Autorisations INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE |
