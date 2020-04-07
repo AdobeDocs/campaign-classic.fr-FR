@@ -1,11 +1,11 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
+user-guide-title: Aide d'Adobe Campaign Standard
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
+source-git-commit: ce5513c2af9b522919c038e25557634b11e8e3cb
 
 ---
 
@@ -385,17 +385,22 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [Réception d&#39;emails](workflow/using/inbound-emails.md)
       + [Réception de SMS](workflow/using/inbound-sms.md)
    + Cas pratiques {#use-cases}
-      + [Utiliser l&#39;activité Validation en local](workflow/using/using-the-local-approval-activity.md)
-      + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
-      + [Workflow de supervision](workflow/using/supervising-workflows.md)
-      + [Coordonner les mises à jour des données](workflow/using/coordinating-data-updates.md)
-      + [Créer une liste récapitulative](workflow/using/creating-a-summary-list.md)
-      + [Enrichir des données](workflow/using/enriching-data.md)
-      + [A/B testing](workflow/using/a-b-testing.md)
-      + [Utilisation d&#39;agrégats](workflow/using/using-aggregates.md)
-      + [Envoyer un email d&#39;anniversaire](workflow/using/sending-a-birthday-email.md)
-      + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
-      + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
+      + Deliveries {#deliveries}
+         + [Utiliser l&#39;activité Validation en local](workflow/using/using-the-local-approval-activity.md)
+         + [A/B testing](workflow/using/a-b-testing.md)
+         + [Envoyer un email d&#39;anniversaire](workflow/using/sending-a-birthday-email.md)
+         + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
+         + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
+         + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
+      + Contrôle   {#monitoring}
+         + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
+         + [Workflow de supervision](workflow/using/supervising-workflows.md)
+         + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
+      + Data management {#data-management}
+         + [Coordonner les mises à jour des données](workflow/using/coordinating-data-updates.md)
+         + [Créer une liste récapitulative](workflow/using/creating-a-summary-list.md)
+         + [Enrichir des données](workflow/using/enriching-data.md)
+         + [Utilisation d&#39;agrégats](workflow/using/using-aggregates.md)
       + Créer des requêtes {#designing-queries}
          + [Requête sur la table des destinataires](workflow/using/querying-recipient-table.md)
          + [Requête sur les informations de diffusion](workflow/using/querying-delivery-information.md)
@@ -405,8 +410,6 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
          + [Ajout d’une champ calculé de type Enumérations](workflow/using/adding-enumeration-type-calculated-field.md)
          + [Création d&#39;un filtre](workflow/using/creating-a-filter.md)
          + [Filtrer les destinataires en double](workflow/using/filtering-duplicated-recipients.md)
-      + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
-      + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
    + Surveillance des workflows {#monitoring-workflows}
       + [Surveiller l&#39;exécution des workflows](workflow/using/monitoring-workflow-execution.md)
       + [Surveiller les workflows techniques](workflow/using/monitoring-technical-workflows.md)
