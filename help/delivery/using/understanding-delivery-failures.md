@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e5a2ef47108c6779a744197638e2de9d1072cfe3
+source-git-commit: 0932d0836c53b8dea715f471f9319603140c9950
 
 ---
 
@@ -242,7 +242,7 @@ Les statuts de qualification des mails rebonds sont les suivants :
 
 ![](assets/deliverability_qualif_status.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée :
 >
