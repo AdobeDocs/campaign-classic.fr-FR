@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
 
 ---
 
@@ -29,9 +29,17 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 * politique de gestion de mot de passe plus sécurisée
 * utilisation de comptes de type Federated ID (fournisseur d&#39;identité externe)
 
-Pour plus d&#39;informations sur les différents types d&#39;identifiants Adobe, consultez cette page : [https://helpx.adobe.com/fr/enterprise/help/identity.html](https://helpx.adobe.com/en/enterprise/help/identity.html)
+Le système de gestion des identités d’Adobe aide les administrateurs à créer et à gérer l’accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’ID Adobe, reportez-vous à [cette page](https://helpx.adobe.com/enterprise/using/identity.html).
 
 >[!CAUTION]
 >
->L&#39;implémentation d&#39;IMS est strictement réservée aux administrateurs techniques Adobe. Il s&#39;agit d&#39;un processus complexe qui peut prendre du temps.
+>L’implémentation IMS est strictement réservée aux administrateurs techniques d’Adobe. La mise en oeuvre du SGI est un processus complexe qui peut être long à mettre en oeuvre.
+
+## Rubriques connexes :
+
+| Pages utiles | Autres ressources |
+|---|---|
+| [Paramétrer IMS](../../integrations/using/configuring-ims.md) | [FAQ sur Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) |
+| [Implémenter l&#39;IMS](../../integrations/using/implementing-ims.md) | [Gestion des accès](../../platform/using/access-management.md) |
+| [Résolution des problèmes IMS](../../integrations/using/ims-troubleshooting.md) | [Installation de Campaign packages](../../installation/using/installing-campaign-standard-packages.md) |
 
