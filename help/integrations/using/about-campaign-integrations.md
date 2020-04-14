@@ -13,38 +13,41 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
+source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
 
 ---
 
 
-# A propos des intégrations de Campaign{#about-campaign-integrations}
-
-Découvrez les intégrations fonctionnelles disponibles entre la version actuelle d&#39;Adobe Campaign et les [solutions Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/marketing-cloud-integrations.html) et les [core services](https://marketing.adobe.com/resources/help/en_US/mcloud/core-services-landing.html).
+# A propos des intégrations de Campaign {#about-campaign-integrations}
 
 Adobe Experience Cloud constitue un ensemble exhaustif de solutions intégrées haut de gamme accessibles sur une plate-forme de données commune, avec un ensemble commun de puissants core services.
 
-Découvrez la liste complète des solutions et core services Adobe pouvant être intégrés avec Adobe Campaign, ainsi que la documentation associée, dans [cette page](#experience-cloud-integrations).
+Learn about functional integrations available between Adobe Campaign and [Adobe Experience Cloud solutions](https://docs.adobe.com/content/help/en/core-services/interface/marketing-cloud-integrations.html) and [core services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html). Vous pouvez ensuite moderniser vos implémentations de solution et mettre en oeuvre Experience Cloud afin d’utiliser des fonctionnalités telles que les attributs du client et les  de .
+
+The full list of Adobe solutions and core services which can be integrated with Adobe Campaign, as well as associated documentation, is available in [this section](#experience-cloud-integrations).
+
+![](assets/ExCloud-solutions.png)
+
 
 >[!CAUTION]
 >
 >La plupart de ces intégrations requiert une connexion via un Adobe ID (IMS). Pour plus d&#39;informations sur cette implémentation, consultez [cette page](../../integrations/using/about-adobe-id.md).
 >
->L&#39;implémentation d&#39;IMS est un processus complexe qui peut prendre du temps et doit donc être planifiée à l&#39;avance. Elle est strictement réservée aux administrateurs techniques Adobe.
+>Notez que la mise en oeuvre du SGI est un processus complexe, qui peut être long. Il est strictement réservé aux administrateurs techniques d’Adobe.
 
-## Utilisation des solutions Experience Cloud {#working-with-experience-cloud-solutions}
+## Liaison de vos solutions {#working-with-experience-cloud-solutions}
 
 En fonction de votre environnement, plusieurs solutions peuvent être liées à Adobe Experience Cloud. Elles sont liées sous la forme d&#39;organisations. Une **organisation** est l&#39;entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l&#39;authentification unique dans Experience Cloud. L&#39;organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. L&#39;organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations.
 
-La gestion des organisations et la liaison de comptes à Adobe Experience Cloud sont détaillées sur le [portail d&#39;aide Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+La gestion des organisations et la liaison de comptes à Adobe Experience Cloud sont détaillées sur le [portail d&#39;aide Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/organizations.html).
 
 >[!CAUTION]
 >
->Lors d&#39;une nouvelle installation d&#39;Adobe Campaign ou de l&#39;intégration d&#39;une installation existante avec Adobe Experience Cloud, le [Service Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/) est activé. Ce service remplace le cookie permanent utilisé en premier lieu par Adobe Campaign pour ses fonctionnalités de tracking.
+>Lors d&#39;une nouvelle installation d&#39;Adobe Campaign ou de l&#39;intégration d&#39;une installation existante avec Adobe Experience Cloud, le [Service Experience Cloud ID](https://marketing.adobe.com/resources/help/fr_FR/mcvid/) est activé. Ce service remplace le cookie permanent utilisé en premier lieu par Adobe Campaign pour ses fonctionnalités de tracking.
 >
->Un identifiant visiteur unique sera alors attribué aux destinataires générant des logs de tracking. Cet identifiant sera enregistré dans le champ **[!UICONTROL UUID du demandeur (@sourceID)]** de la table **[!UICONTROL nms:trackingLogRcp]**. Les données de tracking des destinataires qui existaient avant l&#39;implémentation du service d&#39;identification des visiteurs ne seront donc plus utilisables.
+>Un ID de unique sera alors attribué aux générant des . Cet ID sera enregistré dans le **[!UICONTROL Requester UUID (@sourceID)]** champ de la **[!UICONTROL nms:trackingLogRcp]** table. Les données de suivi des qui existaient avant la mise en oeuvre du service d’ID de ne seront donc plus utilisables.
 >
->L&#39;identifiant sera ensuite reconnu par les autre solutions Adobe Experience Cloud partageant le même [CNAME](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cname.html).
+>L&#39;identifiant sera ensuite reconnu par les autre solutions Adobe Experience Cloud partageant le même [CNAME](https://marketing.adobe.com/resources/help/fr_FR/mcvid/mcvid_cname.html).
 
 ## Intégrations Experience Cloud {#experience-cloud-integrations}
 
@@ -59,8 +62,8 @@ Le tableau suivant donne accès à la documentation disponible sur les intégrat
  </thead> 
  <tbody> 
   <tr> 
-   <td> <strong>Adobe Campaign Standard</strong> (offre Prime)<br /> </td> 
-   <td> Permet de répliquer les données vers <strong>Campaign Standard</strong>, rassemblant ainsi les meilleures fonctionnalités des deux applications. Campaign Classic v7 contient des outils avancés pour gérer la base marketing principale. La réplication des données depuis Campaign Classic v7 permet à Campaign Standard d'exploiter les données complètes dans un environnement convivial.<br /><p> <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">En savoir plus</a> sur l'intégration Adobe Campaign Classic - Adobe Campaign Standard.</p><br /></td> 
+   <td> <strong>Plateforme de données clientes Adobe en temps réel</strong><br /> </td> 
+   <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">En savoir plus</a> sur l’intégration de Campaign et de la plateforme de données clientes Adobe en temps réel.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IMS - Adobe ID</strong><br /> </td> 
@@ -88,15 +91,15 @@ Le tableau suivant donne accès à la documentation disponible sur les intégrat
   </tr> 
   <tr> 
    <td> <strong>Triggers Experience Cloud</strong><br /> </td> 
-   <td> L'intégration entre <strong>Triggers core service</strong> et Adobe Campaign permet d'envoyer des emails personnalisés à vos clients en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics. Pour plus d'informations, consultez cet <a href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html">article</a>.<br /> <p><a href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html">En savoir plus</a> sur l'intégration Adobe Campaign - Triggers Experience Cloud.</p><br /> </td> 
+   <td> Integration between <strong>Triggers core service</strong> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics.<br /> <p><a href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html">En savoir plus</a> sur l'intégration Adobe Campaign - Triggers Experience Cloud.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Analytics - Connecteurs de données</strong><br /> </td> 
    <td> Les <strong>connecteurs de données</strong> (anciennement appelés Adobe Genesis) permettent de faire interagir Adobe Campaign et Adobe Analytics par le biais de segments de segments portant sur le comportement des utilisateurs, suite à une campagne email. Inversement, ils envoient les indicateurs et les attributs des campagnes email lancées par Adobe Campaign vers Adobe Analytics - connecteur de données.<br /> <p><a href="../../platform/using/adobe-analytics-data-connector.md">En savoir plus</a> sur l'intégration Adobe Campaign - Connecteurs de données.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Plateforme de données clientes Adobe en temps réel</strong><br /> </td> 
-   <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.<br /> <p><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">En savoir plus</a> sur l’intégration de Campaign et de la plateforme de données clientes Adobe en temps réel.</p><br /> </td> 
+   <td> <strong>Adobe Campaign Standard</strong> (offre Prime)<br /> </td> 
+   <td> Permet de répliquer les données vers <strong>Campaign Standard</strong>, rassemblant ainsi les meilleures fonctionnalités des deux applications. Campaign Classic v7 contient des outils avancés pour gérer la base marketing principale. La réplication des données depuis Campaign Classic v7 permet à Campaign Standard d'exploiter les données complètes dans un environnement convivial.<br /><p> <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">En savoir plus</a> sur l'intégration Adobe Campaign Classic - Adobe Campaign Standard.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
