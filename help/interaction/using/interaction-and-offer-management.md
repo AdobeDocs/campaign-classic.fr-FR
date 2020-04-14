@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1afd6ad61db2062ee804c8a2add56a21578ef19
+source-git-commit: ad4a40053b25bbf8de81e074e135ef4944f0b427
 
 ---
 
@@ -30,4 +30,14 @@ Vous pouvez créer un catalogue d&#39;offres qui va s&#39;interfacer avec les ca
 
 Interaction vous permet de créer et gérer un catalogue d’offres, et de paramétrer les règles d’éligibilité et les thèmes d’application qui leur sont associés. Vous pouvez personnaliser le contenu de votre offre selon le canal choisi à l’aide de différentes représentations. Enfin, pour déterminer l’impact d’une présentation d’offres, vous pouvez utiliser le module de simulation mis à votre disposition.
 
-Pour vous familiariser avec la fonctionnalité d’interaction et les terminologies utilisées dans l’interaction de Campaign, regardez cette vidéo : [Aperçu de l’interaction Adobe Campaign](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
+![](assets/Offermgt2.png)
+
+Pour vous familiariser avec la fonctionnalité d’interaction et les terminologies utilisées dans l’interaction de Campaign, regardez cette vidéo : [Aperçu de l’interaction Adobe Campaign](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+
+## Rubriques connexes :
+
+| Pages utiles | Autres ressources |
+|---|---|
+| [Etapes de mise en oeuvre de l’interaction](../../interaction/using/implementation-steps.md) | [Test  de la distribution  des](../../interaction/using/about-offers-simulation.md) |
+| [Environnements en ligne/édition](../../interaction/using/live-design-environments.md) | [Ajout d’un   dans un courrier électronique](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [Créer des emplacements d&#39;offres](../../interaction/using/creating-offer-spaces.md) | [Cas d’utilisation : ajout d’un   dans un site Web](../../interaction/using/offers-on-an-inbound-channel.md) |
