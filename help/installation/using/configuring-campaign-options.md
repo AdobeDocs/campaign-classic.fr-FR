@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
+source-git-commit: 05831dbcf2450600a9f2f91f87c4440d7e599c9d
 
 ---
 
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
-Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign.
+Le **[!UICONTROL Administration / Platform / Options]** noeud vous permet de configurer  options Adobe Campaign.
 
 >[!NOTE]
 >
@@ -635,7 +635,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permet de configurer une base de données distincte pour les tables de travail de Microsoft SQL Server. Cette configuration permet d’optimiser les sauvegardes et la réplication. <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)">En savoir plus</a> <br /> </td> 
+   <td> Permet de configurer une base de données distincte pour les tables de travail sur Microsoft SQL Server, afin d’optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : Les tables de travail seront écrites dans cette base de données, le cas échéant. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -708,7 +708,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Permet de paramétrer des déclencheurs Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des déclencheurs Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permet de paramétrer des déclencheurs Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des déclencheurs Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
