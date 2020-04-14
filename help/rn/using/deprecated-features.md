@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10419ee0fb466bddd05ab67087ccdbfdda1e48c8
+source-git-commit: 79f8cc179fcbf9d537a1cc889b268a43202d7369
 
 ---
 
@@ -52,8 +52,8 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <tr> 
    <td>Sécurité SDK JavaScript<br> </td>
    <td>decryptString<br> </td>
-   <td><p>Pour des raisons de sécurité, l’API decryptString n’est plus disponible par défaut pour les nouvelles installations.</p> 
-   <p>Dans le contexte d’une mise à niveau vers la version 18.6 (et ultérieure), cette API n’est plus activée et a été remplacée par la fonction decryptPassword.</p><br> </td>
+   <td><p>Pour des raisons de sécurité, l’API <em>decryptString</em> n’est plus disponible par défaut pour les nouvelles installations.</p> 
+   <p>In the context of a postupgrade to 18.6 (and later), this API is no longer activated, and has been replaced by the <em>decryptPassword</em> function.</p><br> </td>
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +125,7 @@ Cette section les fonctionnalités et fonctionnalités qui ont été supprimées
    <tr> 
    <td>Documentation des API Campaign - fichier<br>jsapi.chm</td>
    <td>Campaign Classic APIs are now available in a dedicated page. If you were using the jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
-   <td>&lt;19.1</td>
+   <td>19.1</td>
   </tr> 
   <tr> 
    <td>Orchestration Campaign - Marketing prédictif</td>
