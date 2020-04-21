@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09fa3751d94fd71a68470174dd0b4a48d94d3f44
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -26,7 +26,7 @@ La configuration globale d’Adobe Campaign est définie dans le fichier **serve
 
 >[!NOTE]
 >
->Les paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe. Pour plus d’informations sur les différents déploiements, reportez-vous à la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). Les étapes d’installation et de configuration pour les modèles hébergé et hybride sont présentées dans cette [section](../../installation/using/hosted-model.md).
+>Les paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe. Pour plus d’informations sur les différents déploiements, reportez-vous à la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html). Les étapes d’installation et de configuration pour les modèles hébergé et hybride sont présentées dans cette [section](../../installation/using/hosted-model.md).
 
 Les premiers paramètres se trouvent dans le nœud **shared**. Ils sont liés à l’instance et peuvent être utilisés par toutes les commandes nlserver (nlserver web, nlserver wfserver, etc.). Les autres sections se rapportent à une sous-commande spécifique de nlserver.
 
@@ -414,7 +414,7 @@ Dans le nœud **dataStore > dataSource > pool**, configurez les paramètres du
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> Nombre maximum de connexions autorisées avant de refuser de se connecter. Voir cette <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">note technique</a>.<br /> </td> 
+   <td> Nombre maximum de connexions autorisées avant de refuser de se connecter. Voir cette <a href="https://helpx.adobe.com/fr/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">note technique</a>.<br /> </td> 
    <td> Court<br /> </td> 
   </tr> 
   <tr> 
@@ -647,7 +647,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 Voici les différents paramètres du nœud **javaScript**. Il s’agit de la configuration de l’interpréteur JavaScript.
 
-Voir à ce sujet la [documentation sur le reporting](../../reporting/using/actions-on-reports.md#memory-allocation) et cette [note technique](https://helpx.adobe.com/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
+Voir à ce sujet la [documentation sur le reporting](../../reporting/using/actions-on-reports.md#memory-allocation) et cette [note technique](https://helpx.adobe.com/fr/campaign/kb/out-of-memory-error-in-js-code-activity-in-workflows.html).
 
 <table> 
  <thead> 
@@ -1560,7 +1560,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> Si la valeur est "true", votre instance utilise la <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">MTA</a>améliorée.<br /> </td> 
+   <td> Si la valeur est "true", votre instance utilise la <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">MTA</a>améliorée.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> <br /> </td>b 
   </tr>
