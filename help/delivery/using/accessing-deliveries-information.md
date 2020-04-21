@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 
 ## Accès à la liste des diffusions {#accessing-the-list-of-deliveries}
 
-Pour accéder à la liste des diffusions, positionnez-vous sur l&#39;univers **[!UICONTROL Campagnes]** et cliquez sur le lien **[!UICONTROL Diffusions]**.
+To access the list of deliveries, go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Deliveries]** link.
 
-Si vous utilisez la [vue Explorateur](../../platform/using/adobe-campaign-workspace.md#about-adobe-campaign-explorer), vous pouvez accéder à l&#39;ensemble des diffusions à partir du nœud **[!UICONTROL Gestion de campagne > Diffusions]** de l&#39;arborescence.
+If you use [the Explorer view](../../platform/using/adobe-campaign-workspace.md#about-adobe-campaign-explorer), you can access all deliveries via the **[!UICONTROL Campaign management > Deliveries]** node in the tree.
 
 >[!NOTE]
 >
@@ -64,30 +64,30 @@ A chaque état correspond une couleur et un libellé spécifique.
 
 ![](assets/s_ncs_user_status_campaigns_120.png)
 
-La liste déroulante placée à côté du bouton **[!UICONTROL Créer]** vous permet de filtrer les diffusions selon leur état.
+The drop-down list next to the **[!UICONTROL Create]** button enables you to filter deliveries based on their status.
 
 ![](assets/delivery_filter_status.png)
 
 ## Accès au calendrier des diffusions {#accessing-the-delivery-calendar}
 
-Pour accéder au calendrier des campagnes, positionnez-vous sur l&#39;univers **[!UICONTROL Campagne]** et cliquez sur le lien **[!UICONTROL Calendrier des campagnes]**. Ce calendrier affiche la répartition des campagnes dans le temps. Vous pouvez personnaliser l&#39;affichage par mois, semaine ou jour.
+Pour accéder au calendrier , accédez à l&#39; **[!UICONTROL Campaign]** univers et cliquez sur le **[!UICONTROL Campaign calendar]** lien. Ce calendrier affiche la ventilation des campagnes au fil du temps. Vous pouvez personnaliser l’affichage par mois, semaine ou jour.
 
 ![](assets/s_ncs_user_interface_delivery04.png)
 
-Pour chaque campagne, cliquez sur son libellé afin d&#39;afficher les informations principales la concernant. Vous pouvez également ouvrir la campagne, si besoin est, en cliquant sur le lien **[!UICONTROL Ouvrir]**.
+Click the name of a delivery to display the main information about it. You can also open the campaign if necessary by clicking **[!UICONTROL Open]**.
 
 ![](assets/s_ncs_user_interface_delivery05.png)
 
 ## Accès aux informations sur le débit des diffusions {#accessing-deliveries-throughput-information}
 
-Les informations contenues dans la page du **[!UICONTROL Débit des diffusions]** concernent toutes les diffusions de la plateforme. Pour mesurer la vitesse de diffusion des messages, les critères sont le nombre de messages diffusés par heure et la taille des messages, en bits par seconde. Dans l&#39;exemple ci-dessous, le premier graphique indique, en bleu, les diffusions envoyées avec succès et, en orange, le nombre de messages en erreur.
+Les informations de la **[!UICONTROL Delivery throughput]** page concernent tous les  de la plateforme. Pour mesurer la vitesse à laquelle les messages sont diffusés, les critères sont le nombre de messages envoyés par heure et la taille des messages (en bits par seconde). Dans l’exemple ci-dessous, le premier graphique présente le  réussi en bleu et le nombre de erronés en orange.
 
-Vous avez la possibilité de choisir la plage sur laquelle est calculé le débit. Pour cela, sélectionnez la valeur dans la liste déroulante, puis cliquez sur le lien **[!UICONTROL Actualiser]**.
+You can choose the time slot for which the throughput is calculated. To do this, select the value from the drop-down list, and then click **[!UICONTROL Refresh]**.
 
 ![](assets/s_ncs_user_interface_delivery06.png)
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué l&#39;upgrade vers le MTA amélioré, la page **[!UICONTROL Débit de diffusion]** n&#39;affichera plus le débit vers les destinataires de vos emails. Elle indiquera le débit du relais de vos messages entre Campaign et le MTA amélioré.
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery throughput]** page will no longer display the throughput to your email recipients. Elle indiquera le débit du relais de vos messages entre Campaign et le MTA amélioré.
 >
->Pour plus d&#39;informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Pour plus d&#39;informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
