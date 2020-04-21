@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0932d0836c53b8dea715f471f9319603140c9950
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -44,11 +44,11 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 Trois types d&#39;erreurs sont liés à un message en échec. Chaque type d&#39;erreur détermine si une adresse est mise en quarantaine. Voir à ce propos la section [Conditions de mise en quarantaine d&#39;une adresse](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
-* **Hard** : une erreur de type &quot;hard&quot; indique une adresse invalide. Il s&#39;agit d&#39;un message d&#39;erreur indiquant explicitement que l&#39;adresse est invalide, par exemple : &quot;Utilisateur inconnu&quot;.
-* **Soft** : il s&#39;agit d&#39;une erreur qui peut être temporaire, ou qui n&#39;a pas pu être qualifiée, par exemple : &quot;Domaine invalide&quot; ou &quot;Boîte pleine&quot;.
-* **Ignoré** : il s&#39;agit d&#39;une erreur que l&#39;on sait temporaire, par exemple &quot;Out of office&quot;, ou d&#39;une erreur technique, par exemple si l&#39;expéditeur est de type &quot;postmaster&quot;.
+* **Hard** : une erreur de type &quot;hard&quot; indique une adresse invalide. Il s’agit d’un message d’erreur indiquant explicitement que l’adresse est invalide, par exemple : &quot;Utilisateur inconnu&quot;.
+* **Soft** : il s’agit d’une erreur qui peut être temporaire, ou qui n’a pas pu être qualifiée, par exemple : &quot;Domaine invalide&quot; ou &quot;Boîte pleine&quot;.
+* **Ignoré** : il s’agit d’une erreur que l’on sait temporaire, par exemple &quot;Out of office&quot;, ou d’une erreur technique, par exemple si l’expéditeur est de type &quot;postmaster&quot;.
 
-Les motifs possibles d&#39;une diffusion en échec sont les suivants :
+Les motifs possibles d’une diffusion en échec sont les suivants :
 
 <table> 
  <tbody> 
@@ -189,11 +189,11 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 >
 >Les messages temporairement non diffusés peuvent uniquement être associés à une erreur **Soft** ou **Ignoré**, mais pas à une erreur **Hard** (voir la section [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)).
 
-Pour modifier la durée d&#39;une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et indiquez la durée souhaitée dans le champ correspondant. Les propriétés avancées des diffusions sont présentées dans [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et indiquez la durée souhaitée dans le champ correspondant. Les propriétés avancées des diffusions sont présentées dans [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
-La configuration par défaut permet cinq reprises à des intervalles d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [cette section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
+La configuration par défaut permet cinq reprises à des intervalles d’une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [cette section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
-## Erreurs synchrones et asynchrones  {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones   {#synchronous-and-asynchronous-errors}
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
@@ -249,13 +249,13 @@ Les statuts de qualification des mails rebonds sont les suivants :
 >* Les qualifications de rebond dans le **[!UICONTROL Delivery log qualification]** tableau ne sont plus utilisées pour les messages d’erreur de  synchrones. La MTA améliorée détermine le type de rebond et la qualification et renvoie ces informations à Campaign.
    >
    >
-* Les rebonds asynchrones sont toujours qualifiés par le processus inMail via les **[!UICONTROL Inbound email]** règles. For more on this, see [Email management rules](#email-management-rules).
+* Asynchronous bounces are still qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, see [Email management rules](#email-management-rules).
    >
    >
 * Pour les instances qui utilisent la MTA améliorée sans **WebHooks/EFS**, les **[!UICONTROL Inbound email]** règles sont également utilisées pour traiter les courriers électroniques de rebonds synchrones provenant de la MTA améliorée, en utilisant la même adresse électronique que pour les courriers électroniques de rebonds asynchrones.
 >
 >
-Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 ### Règles de gestion des emails {#email-management-rules}
 
@@ -277,7 +277,7 @@ Les règles par défaut sont les suivantes.
 
 #### Mail entrant {#inbound-email}
 
-Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
+Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l’erreur en **Hard**, **Soft** ou **Ignoré**.
 
 When an email fails, the remote server returns a bounce message to the address specified in the platform parameters. Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three [error types](#delivery-failure-types-and-reasons).
 
@@ -285,13 +285,13 @@ When an email fails, the remote server returns a bounce message to the address s
 >
 >L&#39;utilisateur peut créer ses propres règles. Lors d&#39;un import de package et lors de la mise à jour des données par le workflow **Mise à jour pour la délivrabilité**, les règles mail créées par l&#39;utilisateur sont écrasées.
 
-Pour plus d&#39;informations sur la qualification du courrier de rebonds, consultez [cette section](#bounce-mail-qualification).
+For more on bounce mail qualification, see [this section](#bounce-mail-qualification).
 
 >[!IMPORTANT]
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA améliorée et si votre instance dispose de la fonctionnalité **Webhooks/EFS** , les **[!UICONTROL Inbound email]** règles ne sont plus utilisées pour les messages d’erreur d’échec  synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
 >
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### Gestion des domaines {#domain-management}
 
@@ -306,9 +306,9 @@ Si vos messages sont affichés dans Outlook avec **[!UICONTROL on behalf of]** l
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **La signature de l’authentification par messagerie électronique DKIM (DomainKeys Identified Mail)** est effectuée par la MTA améliorée pour tous les messages contenant tous les domaines. Il ne se signe pas avec l’ID **** d’expéditeur, **DomainKeys** ou **S/MIME** , sauf indication contraire au niveau MTA amélioré.
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. La signature de l’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages avec tous les domaines. La signature ne s’effectue pas avec **Sender ID**, **DomainKeys** ou **S/MIME**, sauf indication contraire au niveau du MTA amélioré.
 >
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 #### Gestion des MX {#mx-management}
 
@@ -324,4 +324,4 @@ Pour plus d&#39;informations sur la gestion des MX, consultez [cette section](..
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 >
->Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html).
+>Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
