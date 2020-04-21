@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -28,7 +28,7 @@ La section suivante présente une vue d’ensemble de la configuration requise p
 
 >[!NOTE]
 >
->Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
 
 Pour en savoir plus sur les concepts et les meilleures pratiques en matière de délivrabilité, consultez cette [section](../../delivery/using/about-deliverability.md).
 
@@ -142,9 +142,9 @@ Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communic
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 >
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
 
 Ces règles sont rechargées automatiquement tous les matins à 6h00 (heure du serveur) afin de fournir régulièrement l’instance du client.
 
@@ -215,16 +215,16 @@ Ces messages seront délivrés aussi vite que possible.
 
 ### Configurer la gestion des MX {#configuring-mx-management}
 
-Les règles à respecter pour les MX sont définies dans le document **[!UICONTROL Gestion des MX]** du nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Jeux de règles mail]** de l’arborescence.
+Les règles à respecter pour MX sont définies dans le **[!UICONTROL MX management]** du noeud **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** de l’arborescence.
 
-Si le document **[!UICONTROL Gestion des MX]** n’existe pas dans le nœud, vous pouvez le créer manuellement. Pour cela :
+If the **[!UICONTROL MX management]** document does not exist in the node, you can create it manually. Pour cela :
 
 1. Créez un nouveau jeu de règles mail.
-1. Sélectionnez le mode **[!UICONTROL Gestion des MX]**.
+1. Sélectionnez le **[!UICONTROL MX management]** mode.
 
    ![](assets/s_ncs_install_mx_mgt_rule.png)
 
-1. Saisissez la valeur **defaultMXRules** dans le champ **[!UICONTROL Nom interne]**.
+1. Entrez **defaultMXRules** dans le **[!UICONTROL Internal name]** champ.
 
 Le serveur de statistiques doit être redémarré pour que les modifications soient prises en compte.
 
@@ -236,13 +236,13 @@ Pour recharger la configuration sans redémarrer le serveur de statistiques, uti
 
 ### Configuration des règles MX {#configuring-mx-rules}
 
-Le document **[!UICONTROL Gestion des MX]** répertorie tous les domaines liés à une règle MX.
+The **[!UICONTROL MX management]** document lists all domains that are linked to an MX rule.
 
 Ces règles sont appliquées dans l&#39;ordre : la première règle dont le masque de MX est compatible avec le MX ciblé est appliquée.
 
 Les paramètres disponibles pour chacune des règles sont les suivants :
 
-* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir les caractères génériques &quot;*&quot; et &quot;?&quot;.
+* **[!UICONTROL MX mask]**: domaine sur lequel la règle est appliquée. Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir les caractères génériques &quot;*&quot; et &quot;?&quot;.
 
    Par exemple, les adresses :
 
@@ -265,7 +265,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
    Dans ce cas, la règle MX `*.google.com` sera utilisée. Comme vous pouvez le constater, le masque de règle MX ne correspond pas nécessairement au domaine de l’email. Les règles MX appliquées aux adresses email gmail.com seront celles qui comportent le masque `*.google.com`.
 
-* **[!UICONTROL Plage des identifiants]** : cette option permet d&#39;indiquer les plages d&#39;identifiants (publicId) pour lesquelles la règle s&#39;applique. Vous pouvez indiquer :
+* **[!UICONTROL Range of identifiers]**: cette option vous permet d’indiquer les plages d’identifiants (publicID) pour lesquelles la règle s’applique. Vous pouvez indiquer :
 
    * Un nombre : la règle ne s&#39;appliquera qu&#39;à ce publicId,
    * Une plage de nombres (**nombre1-nombre2**) la règle s&#39;appliquera à tous les publicId compris entre ces deux nombres.
@@ -277,11 +277,11 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
    ![](assets/s_ncs_install_mta_ips.png)
 
-* **[!UICONTROL Partagé]** : définit le paramétrage des propriétés pour la règle MX. Si Oui, les paramètres sont tous partagés sur toutes les IP disponibles de l’instance. Si Non, les règles MX sont définies pour chaque IP. Le nombre maximum de messages est multiplié par le nombre d’IP disponibles.
-* **[!UICONTROL Nombre maximum de connexions]** : nombre maximum de connexions simultanées au domaine de l’expéditeur.
-* **[!UICONTROL Nombre maximum de messages]** : nombre maximum de messages qui peuvent être envoyés sur une connexion. Au-delà, la connexion est fermée puis une nouvelle est rouverte.
-* **[!UICONTROL Messages par heure]** : nombre maximum de messages pouvant être envoyés en une heure au domaine de l’expéditeur.
-* **[!UICONTROL Timeout de connexion]** : délai maximum pour tenter de se connecter à un domaine.
+* **[!UICONTROL Shared]**: définit la portée des propriétés de cette règle MX. Si cette option est cochée, tous les paramètres sont partagés sur toutes les adresses IP disponibles sur l’instance. Lorsque cette option est désactivée, les règles MX sont définies pour chaque adresse IP. Le nombre maximal de messages est multiplié par le nombre d’adresses IP disponibles.
+* **[!UICONTROL Maximum number of connections]**: nombre maximal de connexions simultanées au domaine de l’expéditeur.
+* **[!UICONTROL Maximum number of messages]**: nombre maximal de messages pouvant être envoyés sur une connexion. Lorsque les messages dépassent ce nombre, la connexion est fermée et une nouvelle connexion est ouverte.
+* **[!UICONTROL Messages per hour]**: nombre maximal de messages pouvant être envoyés en une heure au domaine de l’expéditeur.
+* **[!UICONTROL Connection time out]**: délai de connexion à un domaine.
 
    >[!NOTE]
    >
@@ -289,16 +289,16 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
 * **[!UICONTROL Timeout Data]** : durée maximale d&#39;attente d&#39;une réponse du serveur après l&#39;envoi du contenu du message (section DATA du protocole SMTP).
 * **[!UICONTROL Timeout]** : durée maximale d&#39;attente de réponse pour les autres échanges avec le serveur SMTP.
-* **[!UICONTROL TLS]** : le protocole TLS, qui permet de crypter l&#39;émission des emails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
+* **[!UICONTROL TLS]**: Le protocole TLS, qui vous permet de chiffrer les  de courriel, peut être activé de manière sélective. Pour chaque masque MX, les options suivantes sont disponibles :
 
-   * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
+   * **[!UICONTROL Default configuration]**: Il s’agit de la configuration générale spécifiée dans le fichier de configuration serverConf.xml appliqué.
 
       >[!CAUTION]
       >
       >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
 
-   * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans cryptage.
-   * **[!UICONTROL Opportuniste]** : l&#39;envoi des messages est crypté si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
+   * **[!UICONTROL Disabled]** : Les messages sont systématiquement envoyés sans chiffrement.
+   * **[!UICONTROL Opportunistic]** : Le de messages est chiffré si le serveur de réception (SMTP) peut générer le protocole TLS.
 
 Exemple de paramétrage :
 
@@ -308,7 +308,7 @@ Exemple de paramétrage :
 
 Il est possible de définir le format des messages envoyés, de sorte que l&#39;affichage du contenu s&#39;adapte automatiquement en fonction du domaine de l&#39;adresse de chaque destinataire.
 
-Pour cela, accédez au document **[!UICONTROL Gestion des formats des emails]** du dossier **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion de NP@I]** > **[!UICONTROL Jeux de règles mail]** de l&#39;arborescence.
+Pour ce faire, accédez au **[!UICONTROL Management of email formats]** situé dans **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
 Ce document contient notamment une liste de domaines prédéfinis correspondant aux formats japonais gérés par Adobe Campaign. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
@@ -318,12 +318,12 @@ Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet 
 
 * **multipart** : envoi du message au format texte et HTML. Si le format HTML n&#39;est pas accepté, le message pourra tout de même s&#39;afficher au format texte.
 
-   Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
+   Par défaut, la structure en plusieurs parties est **multipartie/alternative**, mais elle devient automatiquement **multipartie/associée** lorsqu’une image est ajoutée au message. Certains fournisseurs s’attendent à ce que le format **multipartie/associé** soit appliqué par défaut, l’ **[!UICONTROL Force multipart/related]** option impose ce format même si aucune image n’est jointe.
 
 * **html** : envoi du message au format HTML uniquement. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
 * **text** : envoi du message au format texte uniquement. L&#39;avantage des messages au format texte est leur taille très réduite.
 
-Si l&#39;option **[!UICONTROL Inclusion des images]** est activée, celles-ci s&#39;affichent directement dans le corps de l&#39;email. Les images sont alors téléchargées et les liens URL remplacés par leur contenu.
+Si l’ **[!UICONTROL Image inclusion]** option est activée, elles s’affichent directement dans le corps du courrier électronique. Les images seront ensuite téléchargées et les liens URL seront remplacés par leur contenu.
 
 Cette option est notamment utilisée par le marché japonais pour les emails au format **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d&#39;informations, consultez [ce document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
