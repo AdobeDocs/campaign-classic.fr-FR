@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: c8910fdfd07bd835d456baca29710ea927ad20e5
 
 ---
 
@@ -40,7 +40,7 @@ Les cas d&#39;utilisation du guide &quot;Automatisation avec &quot; ont été r�
 
 Les sections de qualification [du courrier](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) Rebond et des règles [de gestion des](../../delivery/using/understanding-delivery-failures.md#email-management-rules) courriels ont été améliorées grâce à des informations mises à jour.
 
-L’article  Adobe Campaign MTA amélioré a été mis à jour. Elle ne s&#39;applique désormais qu&#39;aux Campaign Classic. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-acc-campaign-enhanced-mta.html)
+L’article  Adobe Campaign MTA amélioré a été mis à jour. Elle ne s&#39;applique désormais qu&#39;aux Campaign Classic. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## Mars 2020 {#march-2020}
 
