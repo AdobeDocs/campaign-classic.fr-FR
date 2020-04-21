@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 75f195a11170b4213f930deed886f8bf5b0817bc
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -26,7 +26,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 
 Vous pouvez également consulter les [notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md).
 
-## April 2020 {#april-2020}
+## Avril 2020 {#april-2020}
 
 La table des droits  du a été déplacée vers la documentation Accès à une base de données externe (). [En savoir plus](../../platform/using/remote-database-access-rights.md)
 
@@ -39,6 +39,8 @@ La section décrivant le modèle de données  Adobe Campaign prédéfini a été
 Les cas d&#39;utilisation du guide &quot;Automatisation avec &quot; ont été réorganisés en sections thématiques. [En savoir plus](../../workflow/using/using-the-local-approval-activity.md)
 
 Les sections de qualification [du courrier](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) Rebond et des règles [de gestion des](../../delivery/using/understanding-delivery-failures.md#email-management-rules) courriels ont été améliorées grâce à des informations mises à jour.
+
+L’article  Adobe Campaign MTA amélioré a été mis à jour. Elle ne s&#39;applique désormais qu&#39;aux Campaign Classic. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-acc-campaign-enhanced-mta.html)
 
 ## Mars 2020 {#march-2020}
 
@@ -114,7 +116,7 @@ La section Délivrabilité a été déplacée, réorganisée et améliorée, et 
 
 Une nouvelle section concernant les notions de base des modèles de données d&#39;Adobe Campaign Classic et l&#39;accès à la description de chaque table est désormais disponible. [En savoir plus](../../configuration/using/about-data-model.md)
 
-L&#39;article relatif à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign a été mis à jour. Il contient des informations plus détaillées sur l&#39;installation d&#39;un package de typologie spécifique sur les instances qui n&#39;ajoutent pas les en-têtes MTA amélioré nécessaires à chaque message. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html#impacts)
+L&#39;article relatif à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign a été mis à jour. Il contient des informations plus détaillées sur l&#39;installation d&#39;un package de typologie spécifique sur les instances qui n&#39;ajoutent pas les en-têtes MTA amélioré nécessaires à chaque message. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html#impacts)
 
 Les cas d&#39;utilisation liés à la conception de requêtes ont été réorganisés en sections distinctes. [En savoir plus](../../workflow/using/querying-recipient-table.md)
 
@@ -152,7 +154,7 @@ Messagerie SMS sécurisée (TLS) - [En savoir plus](https://helpx.adobe.com/fr/c
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)
+La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Une nouvelle section a été ajoutée pour expliquer comment résoudre les problèmes liés à un workflow qui reste dans l&#39;état &quot;Démarrer dès que possible&quot; au cours d&#39;une campagne. [En savoir plus](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -184,9 +186,9 @@ Mise à jour du guide de prise en main des bonnes pratiques de diffusion –  
 
 ## Octobre 2019 {#october-2019}
 
-Mise à jour de la liste des messages d&#39;erreur de Campaign Standard et Campaign Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Mise à jour de la liste des messages d’erreur de Campaign Standard et Campaign Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Amélioration et enrichissement du guide de prise en main du RGPD. Il s&#39;agit maintenant d&#39;une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA –  [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
+Amélioration et enrichissement du guide de prise en main du RGPD. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA –  [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
 Une nouvelle page de résolution des problèmes a été ajoutée concernant le suivi dans Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/classic-tracking-troubleshooting.html).
 
