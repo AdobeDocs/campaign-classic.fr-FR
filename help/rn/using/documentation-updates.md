@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8910fdfd07bd835d456baca29710ea927ad20e5
+source-git-commit: 0b3622bb0ac95eff61e2d96332e67623dffa68be
 
 ---
 
@@ -134,7 +134,7 @@ Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans un workflow 
 
 L&#39;option &quot;WdbcOptions_TempDbName&quot; a été ajoutée à la liste des options de Campaign. [En savoir plus](../../installation/using/configuring-campaign-options.md)
 
-La page relative à la matrice FDA a été déplacée [ici](/help/rn/using/assets/fda_rdbms_rights.pdf).
+La page relative à la matrice FDA a été déplacée [ici](../../platform/using/remote-database-access-rights.md).
 
 La page Matrice des droits d&#39;accès a été déplacée [ici](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
 
