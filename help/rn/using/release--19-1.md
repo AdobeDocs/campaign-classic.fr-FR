@@ -15,22 +15,22 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
 
 # Version 19.1{#release-19-1}
 
-[Upgrade de build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-1.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-1.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Version diffusable</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Obsolète</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilité générale</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>Version diffusable</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>Plus disponible</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsolète</strong></td> 
   </tr> 
    <tr> 
    <td>Dernier build stable disponible. Build validé en production.<br> </td>
@@ -41,9 +41,9 @@ source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
  </tbody> 
 </table>
 
-La **dernière version** stable est 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **dernière version** stable est 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) Version 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/orange_2.png) Version 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -59,7 +59,7 @@ _3 octobre 2019_
 * Correction d’un problème en raison duquel certains messages ne pouvaient pas être traités par le serveur de mid-sourcing. (NEO-12395)
 * Correction d’un problème qui empêchait l’utilisation complète de l’activité de gestion des données SQL (le droit nommé « SQL Data Mangement » était absent).
 
-## ![](assets/orange_2.png) Version 19.1.5 - Build 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/orange_2.png) Version 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 _13 août 2019_
 
@@ -74,31 +74,35 @@ _13 août 2019_
 
 ## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 5 **mars 2020**: nouvelle version (9032-...205c981c3) qui comprend les correctifs suivants :
+![](assets/do-not-localize/green_2.png) 29 **avril 2020**: nouvelle version (9032@3a9dc9c) qui comprend le correctif suivant :
+
+* Amélioration de la sécurité des liens de suivi dans les courriers électroniques. Cette option est activée par défaut pour tous les clients. Une autre fonction de sécurité améliorée est disponible, qui peut être activée en contactant le service à la clientèle. Pour plus d’informations sur la fonctionnalité et les étapes pour les clients non hébergés afin de l’activer, consultez la liste de contrôle [](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)Sécurité et confidentialité.
+* Correction d’un problème qui empêchait l’affichage des images sur les  de ligne. (NEO-23207)
+
+![](assets/do-not-localize/orange_2.png) 5 **mars 2020**: nouvelle version (9032@19f73c5) qui comprend le correctif suivant :
 
 * Correction d’un problème lié à l’utilisation de  FTP sur SSL. (NEO-20498)
 
-![](assets/orange_2.png) 17 **décembre 2019**: nouvelle version (9032-...9d34fb17e) qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png) 17 **décembre 2019**: nouvelle version (9032@d6b8062) qui comprend le correctif suivant :
 
-* Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter).
-(NEO-19595)
+* Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter). (NEO-19595)
 
-![](assets/orange_2.png) 11 **décembre 2019**: nouvelle version (9032-...e28b428b7) qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png) 11 **décembre 2019**: nouvelle version (9032@bc4a935) qui comprend le correctif suivant :
 
 * Correction d’un problème de performances lors de l’envoi de messages avec une base de données MSSQL. (NEO-17558)
 
-![](assets/orange_2.png) 20 **novembre 2019**: nouvelle version (9032-...3468c7bb5) qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png) 20 **novembre 2019**: nouvelle version (9032@3468c7b) qui comprend les correctifs suivants :
 
 * Correction d’un problème de connexion via l’authentification IMS. (NEO-17312)
 * Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs diffusions. (NEO-18165)
 * Correction d’un problème susceptible de bloquer ou de provoquer le blocage du serveur web.
 
-![](assets/orange_2.png) 19 **septembre 2019**: nouvelle version (9032-...cee805c93) qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png) 19 **septembre 2019**: nouvelle version (9032@cee805c) qui comprend les correctifs suivants :
 
 * Correction d’un problème lors de l’utilisation du connecteur CRM pour Salesforce. (NEO-17712)
 * Correction d’un problème d’index qui pouvait entraîner des problèmes de performances lors de l’envoi de messages transactionnels.
 
-![](assets/orange_2.png)**13 août 2019** : version 19.1.4 initiale qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png)**13 août 2019** : version 19.1.4 initiale qui comprend les correctifs suivants :
 
 * Correction d&#39;un problème lié à l&#39;activité du planificateur qui générait des messages d&#39;erreur indésirables lors de la configuration de l&#39;assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
 * Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
@@ -106,7 +110,7 @@ _13 août 2019_
 * Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, ce qui entraînait des problèmes de délivrabilité. (NEO-16804)
 * Correction de divers problèmes liés à la planification des workflows. Les workflows devaient être exécutés une fois par jour sans tenir compte de la configuration du planificateur. (NEO-16619, NEO-16426)
 
-## ![](assets/orange_2.png) Version 19.1.2 - Build 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/orange_2.png) Version 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
 _21 juin 2019_
 
@@ -122,7 +126,7 @@ _21 juin 2019_
 * Nous autorisons maintenant la suppression des enregistrements factices créés dans Microsoft Dynamics lors du workflow d&#39;import.
 * Améliorations des permissions pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
 
-## ![](assets/orange_2.png) Version 19.1 - Build 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/orange_2.png) Version 19.1 - Build 9026{#release-19-1-build-9026}
 
 _30 mai 2019_
 
@@ -138,7 +142,7 @@ _30 mai 2019_
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l'efficacité de votre tâche d'administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, en whitelistant des adresses IP et en installant des clés SSH pour chaque instance. Veuillez noter, qu'à l'heure actuelle, le panneau de configuration est uniquement disponible pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">connectez-vous dès aujourd'hui via Experience Cloud</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
+   <td> <p>Pour accroître l'efficacité de votre tâche d'administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, en whitelistant des adresses IP et en installant des clés SSH pour chaque instance. Veuillez noter, qu'à l'heure actuelle, le panneau de configuration est uniquement disponible pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous dès aujourd'hui via Experience Cloud</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
@@ -150,7 +154,7 @@ _30 mai 2019_
   </tr> 
   <tr> 
    <td> Mise à jour de la matrice de compatibilité<br /> </td> 
-   <td> Avec cette nouvelle version, Adobe Campaign prend maintenant en charge les systèmes de bases de données suivants. Consultez la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Matrice de compatibilité</a>.<br /> 
+   <td> Avec cette nouvelle version, Adobe Campaign prend maintenant en charge les systèmes de bases de données suivants. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">Matrice de compatibilité</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -164,7 +168,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité**
 
-* Pour des motifs de sécurité, vous ne pouvez plus insérer de commandes arbitraires lorsque vous utilisez l&#39;option **[!UICONTROL Inclure un pré-traitement du fichier]** dans une activité de workflow **[!UICONTROL Chargement (fichier)]**. Une liste déroulante vous permet dorénavant de sélectionner parmi 3 options : **[!UICONTROL Aucun]**, **[!UICONTROL Décompression]** (zcat) ou **[!UICONTROL Déchiffrer]** (gpg). Le flag de sécurité XtkSecurity_Disable_Preproc a été ajouté. Pour les nouveaux clients, cette option sera définie sur 0, tandis que pour les clients existants, elle sera définie sur 1 par le postupgrade de façon à conserver le comportement précédent. Consultez [cette section](../../workflow/using/data-loading--file-.md).
+* Pour des raisons de sécurité, vous ne pouvez plus insérer de commandes arbitraires lors de l’utilisation de l’ **[!UICONTROL Pre-process the file]** **[!UICONTROL Data loading (file)]** option dans un flux de travail  de . Un  déroulant est désormais disponible, vous permettant de sélectionner l’une des 3 options suivantes : **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) ou **[!UICONTROL Decrypt]** (gpg). L&#39;indicateur de sécurité XtkSecurity_Disable_Preproc a été ajouté. Pour les nouveaux clients, cette option sera définie sur 0. Pour les clients existants, cette option sera définie sur 1 par la mise à niveau postérieure afin de conserver le comportement précédent. Consultez cette [section](../../workflow/using/data-loading--file-.md).
 * Correction d&#39;un problème de visibilité du mot de passe qui se produisait lors du test de la connexion d&#39;un compte externe FDA sans fuseau horaire défini.
 * La bibliothèque PDFBox a été supprimée.
 * Tomcat a été mis à jour vers la version 7.0.93.
@@ -180,7 +184,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
 
-* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.
 * Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le workflow de tracking détecte désormais les problèmes du log de tracking qui peuvent entraîner des erreurs et arrêter le workflow. Ces problèmes sont maintenant écartés et ne sont pas traités.
 * Workflow de nettoyage : le workflow de nettoyage a été amélioré de manière à éviter les erreurs et arrêts potentiels. Cela optimise la taille et la performance des bases de données.
@@ -195,7 +199,7 @@ _30 mai 2019_
 
 * Notifications push : nous prenons maintenant en charge l&#39;option Thread Id pour iOS push.
 * Amélioration de la gestion des index aux noms longs qui pouvait créer des problèmes lors du postupgrade.
-* Désormais, lors de l&#39;analyse d&#39;une diffusion Deco-mail, si le mode de publication est défini sur **[!UICONTROL Aucun]** dans l&#39;assistant de déploiement, une erreur est consignée et l&#39;analyse s&#39;arrête : « Le mode de publication est défini sur Aucun : impossible d&#39;incorporer d&#39;image. Les images ne s&#39;afficheront pas sur le téléphone polyvalent. » (NEO-12208)
+* Now, during the analysis of a decomail delivery, if the publication mode is set to **[!UICONTROL None]** in the deployment wizard, an error is logged and the analysis is stopped: &quot;Publication mode is set to &#39;none&#39;: Cannot embed image. Les images ne s’afficheront pas sur le téléphone portable.&quot; (NEO-12208)
 * La gestion des broadlogs a fait l&#39;objet d&#39;améliorations en ce qui concerne les messages transactionnels. Lorsque les broadlogs sont synchronisés à partir de l&#39;instance d&#39;exécution vers l&#39;instance de contrôle, le champ @lastModified est mis à jour selon la date courante du système. L&#39;option MC_Update_BlLastModified a été ajoutée pour les instances de contrôle. Vrai signifie que la date courante sera utilisée pour l&#39;instance de contrôle (comportement par défaut). Faux signifie que nous utilisons la date @lastModified du broadlog de l&#39;instance d&#39;exécution. (NEO-12579)
 * Des index ont été ajoutés aux tables temporaires de coupons pour optimiser l&#39;envoi des diffusions. (NEO-12437)
 * Dans l&#39;intégration Analytics, la récupération des données de segments AAM avec le caractère % est maintenant autorisée. (NEO-12025)
@@ -226,7 +230,7 @@ _30 mai 2019_
 * Correction d&#39;un problème lors de l&#39;installation du package **Gestion des réseaux sociaux**(Social Marketing). (NEO-12081)
 * Correction d&#39;un problème qui vous empêchait de supprimer une application web, même si vous disposiez des droits d&#39;accès adaptés. (NEO-12072)
 * Correction d&#39;un problème qui pouvait entraîner le remplacement de certaines valeurs lors de l&#39;export d&#39;un objet via XML et de son import ultérieur. L&#39;option XtkExport_IncludeDefaultValues a été ajoutée. Si elle est définie sur Vrai (comportement par défaut), toutes les valeurs sont exportées, alors que si elle est définie sur Faux, les modifications sont remplacées par la valeur par défaut. (NEO-11979)
-* Correction d&#39;un problème qui causait l&#39;échec de l&#39;activité de workflow **[!UICONTROL Alerte]** lors de l&#39;ajout d&#39;une activité d&#39;enrichissement après une requête. (NEO-12132)
+* Fixed an issue which caused the **[!UICONTROL Alert]** workflow activity to fail when an enrichment activity was added after a query. (NEO-12132)
 * Correction d&#39;un problème sur les installations Oracle dans lesquelles les décalages de pipeline (déclencheurs) n&#39;étaient pas récupérés correctement à partir de la base de données, entraînant des doublons. (NEO-12121)
 * Correction d&#39;un problème qui pouvait entraîner des problèmes d&#39;affichage dans les tableaux croisés dynamiques lors de l&#39;utilisation de l&#39;intégration Analytics (NEO-12103)
 * Correction d&#39;un problème lié au rapport Analyse descriptive. (NEO-11414)
