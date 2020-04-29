@@ -15,22 +15,22 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
 
 # Version 19.2{#release-19-2}
 
-[Upgrade de build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-1.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-1.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Version diffusable</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Obsolète</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilité générale</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>Version diffusable</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>Plus disponible</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsolète</strong></td> 
   </tr> 
    <tr> 
    <td>Dernier build stable disponible. Build validé en production.<br> </td>
@@ -41,9 +41,9 @@ source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
  </tbody> 
 </table>
 
-La **dernière version** stable est 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **dernière version** stable est 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) Version 19.2.3 - Build 9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/orange_2.png) Version 19.2.3 - Build 9081 {#release-19-2-3-build-9081}
 
 _7 février 2020_
 
@@ -52,7 +52,7 @@ _7 février 2020_
 * Correction d’un problème de régression en raison de l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur le serveur Windows. (NEO-20629)
 * Correction d’un problème qui affichait un numéro de balise de version incorrect dans le menu **À propos** .
 
-## ![](assets/orange_2.png) Version 19.2 - Build 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/orange_2.png) Version 19.2 - Build 9080 {#release-19-2-build-9080}
 
 _2 décembre 2019_
 
@@ -69,8 +69,8 @@ _2 décembre 2019_
    <td> <p>La CCPA est la nouvelle loi sur la protection des renseignements personnels de l'État de Californie. Elle a pour objectif d'harmoniser et de moderniser les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Cette loi s'applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant en Californie.</p>
     <p> Outre les fonctionnalités de protection des données déjà disponibles (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), Adobe Campaign vous aide à mieux vous préparer à l'application de la réglementation CCPA :</p>
     <ul>
-      <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">En savoir plus</a></li>
-      <li>Vous pouvez vérifier si un consommateur a choisi de ne pas vendre de renseignements personnels. Pour ce faire, vous devez étendre la table des profils et ajouter un champ <strong>Opt-Out pour CCPA</strong>. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">En savoir plus</a></li></td> 
+      <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#righttoaccess">En savoir plus</a></li>
+      <li>Vous pouvez vérifier si un consommateur a choisi de ne pas vendre de renseignements personnels. Pour ce faire, vous devez étendre la table des profils et ajouter un champ <strong>Opt-Out pour CCPA</strong>. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#ccpa">En savoir plus</a></li></td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +114,7 @@ _2 décembre 2019_
  </thead> 
  <tbody> 
   <tr> 
-<td> <p>Les SMS sécurisés sont maintenant pris en charge via le connecteur SMPP Générique étendu, ce qui permet une connexion chiffrée au fournisseur.</p> <p><strong>Avertissement</strong> Cette fonctionnalité nécessite un certificat à jour sur tous les serveurs. Les certificats non valides, révoqués ou parvenus à expiration génèrent des erreurs qui affectent les capacités globales d'envoi de SMS.</p><p>Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">documentation détaillée</a>. </p> </td> 
+<td> <p>Les SMS sécurisés sont maintenant pris en charge via le connecteur SMPP Générique étendu, ce qui permet une connexion chiffrée au fournisseur.</p> <p><strong>Avertissement</strong> Cette fonctionnalité nécessite un certificat à jour sur tous les serveurs. Les certificats non valides, révoqués ou parvenus à expiration génèrent des erreurs qui affectent les capacités globales d'envoi de SMS.</p><p>Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html">documentation détaillée</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,11 +144,11 @@ _2 décembre 2019_
 
 _Systèmes obsolètes_
 
-Les systèmes suivants sont désormais [obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) pour les implémentations de Campaign Classic :
+Les systèmes suivants sont désormais [obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html) pour les implémentations de Campaign Classic :
 * Apache 2.2
 * Centos 6
 
-Vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la dernière matrice de compatibilité Campaign. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+Vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la dernière matrice de compatibilité Campaign. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 _SDK Campaign Mobile_
 
