@@ -13,22 +13,22 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d6e3118dc498096283d54713725071e0906aba3
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
 
 # Dernière version{#latest-release}
 
-[Upgrade de build](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-2.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-2.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/blue3.png"/><strong>Version diffusable</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/red3.png"/><strong>Obsolète</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilité générale</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>Version diffusable</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>Plus disponible</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsolète</strong></td> 
   </tr> 
    <tr> 
    <td>Dernier build stable disponible. Build validé en production.<br> </td>
@@ -39,15 +39,15 @@ source-git-commit: 8d6e3118dc498096283d54713725071e0906aba3
  </tbody> 
 </table>
 
-La **dernière version** stable est 9032 (205c981c3). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **dernière version** stable est 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue_2.png) Version 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/blue_2.png) Version 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
 
 _13 mars 2020_
 
 * Correction d’un problème qui empêchait le déploiement de la version sur les serveurs Red Hat 7. (NEO-23332)
 
-## ![](assets/orange_2.png) Version 20.1 - Build 9122 {#release-20-1-build-9122}
+## ![](assets/do-not-localize/orange_2.png) Version 20.1 - Build 9122 {#release-20-1-build-9122}
 
 _17 février 2020_
 
@@ -115,7 +115,7 @@ _17 février 2020_
 
 * Sous Linux, le démarrage du service nlserver utilise désormais une unité système au lieu du script /etc/init.d/nlserver6. La migration vers le nouveau modèle de démarrage est effectuée automatiquement lorsque vous installez le package 20.1. Le serveur /etc/init.d/nlserver6 est toujours fourni, mais pour interagir avec le service nlserver (, redémarrage, arrêt, etc.), nous vous recommandons d’utiliser directement la commande systemctl.
 
-* Les tables personnalisées les plus consommatrices ont été déplacées de la séquence **xtkNewId** vers des séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Les tables personnalisées les plus consommatrices ont été déplacées de la séquence **xtkNewId** vers des séquences dédiées. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 
 * Amélioration des performances  du, qui pourraient être affectées par des connexions inutiles à la base de données.
 
