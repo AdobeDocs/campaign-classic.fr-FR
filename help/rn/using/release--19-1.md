@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
+source-git-commit: ab6ce2fbe1ea9e2b2498c87471ad7813a082ebe6
 
 ---
 
@@ -74,7 +74,7 @@ _13 août 2019_
 
 ## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) 29 **avril 2020**: nouvelle version (9032@3a9dc9c) qui comprend le correctif suivant :
+![](assets/do-not-localize/green_2.png) 29 **avril 2020**: nouvelle version (9032@3a9dc9c) qui comprend les correctifs suivants :
 
 * Amélioration de la sécurité des liens de suivi dans les courriers électroniques. Cette option est activée par défaut pour tous les clients. Une autre fonction de sécurité améliorée est disponible, qui peut être activée en contactant le service à la clientèle. Pour plus d’informations sur la fonctionnalité et les étapes pour les clients non hébergés afin de l’activer, consultez la liste de contrôle [](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)Sécurité et confidentialité.
 * Correction d’un problème qui empêchait l’affichage des images sur les  de ligne. (NEO-23207)
