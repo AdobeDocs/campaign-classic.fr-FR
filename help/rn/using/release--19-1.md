@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab6ce2fbe1ea9e2b2498c87471ad7813a082ebe6
+source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
 
 ---
 
@@ -78,6 +78,17 @@ _13 août 2019_
 
 * Amélioration de la sécurité des liens de suivi dans les courriers électroniques. Cette option est activée par défaut pour tous les clients. Une autre fonction de sécurité améliorée est disponible, qui peut être activée en contactant le service à la clientèle. Pour plus d’informations sur la fonctionnalité et les étapes pour les clients non hébergés afin de l’activer, consultez la liste de contrôle [](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)Sécurité et confidentialité.
 * Correction d’un problème qui empêchait l’affichage des images sur les  de ligne. (NEO-23207)
+* Correction d&#39;un problème avec le **de transfert** de  qui empêchait l&#39;authentification par clé SFTP de fonctionner avec Debian 9. (NEO-23183)
+* Correction d’un problème qui pouvait affecter la notification Push lorsqu’elle était envoyée à une fréquence élevée. (NEO-20516)
+* Correction d’un problème dans  gestion des réponses  susceptible d’entraîner des blocages du serveur Web. (NEO-19482)
+* Correction d’une erreur dans la gestion de LibreOffice qui empêchait l’exportation des rapports. (NEO-20982)
+* Correction d’un problème qui provoquait une erreur lors de la mise à niveau de nombreux  à l’aide d’un  de  de.
+* Amélioration de la gestion de LibreOffice pour éviter les échecs sur les de messagerie avec des fichiers .odt.
+* Amélioration de la gestion de la connexion Apache pour éviter la latence sur le service Web.
+* Amélioration de l&#39;affichage de la balise de version (7 chiffres) dans le menu **À propos** .
+* Correction d’une régression dans la gestion des  qui empêchait  d’être publié.
+* Correction d’une régression provoquant le blocage du processus de nettoyage.
+* Correction d’une régression mineure dans les journaux du processus de nettoyage.
 
 ![](assets/do-not-localize/orange_2.png) 5 **mars 2020**: nouvelle version (9032@19f73c5) qui comprend le correctif suivant :
 
