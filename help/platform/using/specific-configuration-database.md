@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f081df28691acf45dcc62757466d15d39753fa85
+source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 
 ---
 
@@ -28,7 +28,7 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
 
 >[!NOTE]
 >
->Les versions compatibles sont répertoriées dans la [Matrice de compatibilité Campaign](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
+>Les versions compatibles sont répertoriées dans la [Matrice de compatibilité Campaign](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
 
 <!--
 ## Configure access to Azure Synapse {#configure-access-to-azure-synapse}
@@ -148,14 +148,13 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
 
 >[!NOTE]
 >
->Le connecteur Snowflake est disponible pour les déploiements hébergés et sur site. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>[!DNL Snowflake] connecteur est disponible pour les déploiements hébergés et sur site. For more on this, refer to [this article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ![](assets/snowflake_3.png)
 
 ### Flocon de neige sur CentOS {#snowflake-centos}
 
-1. Téléchargez les pilotes ODBC pour Snowflake. Vous trouverez [ici](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm)les chauffeurs de Snowflake.
-
+1. Téléchargez les pilotes ODBC pour [!DNL Snowflake]. [Cliquez ici](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) pour  téléchargement.
 1. Vous devez ensuite installer les pilotes ODBC sur CentOs avec la commande suivante :
 
    ```
@@ -170,48 +169,38 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
    /etc/init.d/nlserver6 start
    ```
 
-1. Dans Campaign Classic, configurez votre Snowflake  dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre [!DNL Snowflake] . Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Sélectionnez le **[!UICONTROL Snowflake]** intégré.
 
-1. Sélectionnez le  **[!UICONTROL Snowflake]** prêt à l’emploi.
+1. Configurez le **[!UICONTROL Snowflake]** de, vous devez spécifier :
 
-1. Pour configurer le  **[!UICONTROL Snowflake]** :
+   * **[!UICONTROL Server]**: URL du [!DNL Snowflake] serveur
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
 
-      URL du serveur Snowflake.
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
 
-   * **[!UICONTROL Compte]**
-
-      Nom de l&#39;utilisateur.
-
-   * **[!UICONTROL Mot de passe]**
-
-      Mot de passe du compte de l&#39;utilisateur.
-
-   * **[!UICONTROL Base de données]**
-
-      Nom de votre base de données.
+   * **[!UICONTROL Database]**: Nom de la base de données
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
+1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy functions]** bouton pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
 Le connecteur prend en charge les options suivantes :
 
-| Option | Valeur | Description |
-|---|---|---|
-| workschema |  | de base de données à utiliser pour les tables de travail |
-| entrepôt |  | Nom de l’entrepôt par défaut à utiliser. Elle remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName |  | Par défaut, vide, ce qui signifie que le fuseau horaire système du serveur d’applications Campaign Classic est utilisé. Cette option peut être utilisée pour forcer le paramètre de session TIMEZONE. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | 0, 1-7 | Par défaut, cette valeur est définie sur 0. (Paramètre de session WEEK_) <br>Pour plus d’informations à ce sujet, reportez-vous à cette [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-| UseCachedResult | TRUE/FALSE | Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats en mémoire cache de Snowflake (paramètre de session USE_CACHED_RESULTS) <br>Pour plus d&#39;informations sur ce point, reportez-vous à cette [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| Option | Description |
+|---|---|
+| workschema | de base de données à utiliser pour les tables de travail |
+| entrepôt | Nom de l’entrepôt par défaut à utiliser. Elle remplace la valeur par défaut de l’utilisateur. |
+| TimeZoneName | Par défaut, vide, ce qui signifie que le fuseau horaire système du serveur d’applications Campaign Classic est utilisé. Cette option peut être utilisée pour forcer le paramètre de session TIMEZONE. <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| WeekStart | Paramètre de session WEEK_. Par défaut, cette valeur est définie sur 0. <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
+| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats en cache de Snowflake. <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ### Flocon de neige sur Debian {#snowflake-debian}
 
-1. Téléchargez les pilotes ODBC pour Snowflake. Vous trouverez [ici](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)les chauffeurs de Snowflake.
+1. Téléchargez les pilotes ODBC pour [!DNL Snowflake]. [Cliquez ici](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)  téléchargement.
 
 1. Vous devez ensuite installer les pilotes ODBC sur Debian avec la commande suivante :
 
@@ -227,44 +216,34 @@ Le connecteur prend en charge les options suivantes :
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, configurez votre Snowflake  dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre [!DNL Snowflake] . Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Sélectionnez le **[!UICONTROL Snowflake]** intégré.
 
-1. Sélectionnez le  **[!UICONTROL Snowflake]** prêt à l’emploi.
+1. Pour configurer le **[!UICONTROL Snowflake]** de, vous devez spécifier les éléments suivants :
 
-1. Pour configurer le  **[!UICONTROL Snowflake]** :
+   * **[!UICONTROL Server]**: URL du [!DNL Snowflake] serveur
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
 
-      URL du serveur Snowflake.
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
 
-   * **[!UICONTROL Compte]**
-
-      Nom de l&#39;utilisateur.
-
-   * **[!UICONTROL Mot de passe]**
-
-      Mot de passe du compte de l&#39;utilisateur.
-
-   * **[!UICONTROL Base de données]**
-
-      Nom de votre base de données
+   * **[!UICONTROL Database]**: Nom de la base de données
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
+1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy functions]** bouton pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
 Le connecteur prend en charge les options suivantes :
 
-| Option | Valeur | Description |
-|---|---|---|
-| workschema |   | de base de données à utiliser pour les tables de travail |
-| entrepôt |   | Nom de l’entrepôt par défaut à utiliser. Elle remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName |   | Par défaut, vide, ce qui signifie que le fuseau horaire système du serveur d’applications Campaign Classic est utilisé. Cette option peut être utilisée pour forcer le paramètre de session TIMEZONE. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | 0, 1-7 | Par défaut, cette valeur est définie sur 0. (Paramètre de session WEEK_) <br>Pour plus d’informations à ce sujet, reportez-vous à cette [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-| UseCachedResult | TRUE/FALSE | Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats en mémoire cache de Snowflake (paramètre de session USE_CACHED_RESULTS) <br>Pour plus d&#39;informations sur ce point, reportez-vous à cette [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| Option | Description |
+|---|---|
+| workschema | de base de données à utiliser pour les tables de travail |
+| entrepôt | Nom de l’entrepôt par défaut à utiliser. Elle remplace la valeur par défaut de l’utilisateur. |
+| TimeZoneName | Par défaut, vide, ce qui signifie que le fuseau horaire système du serveur d’applications Campaign Classic est utilisé. Cette option peut être utilisée pour forcer le paramètre de session TIMEZONE. <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| WeekStart | Paramètre de session WEEK_. Par défaut, cette valeur est définie sur 0.  <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats en cache de Snowflake. <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ### Flocon de neige sous Windows {#snowflake-windows}
 
@@ -272,52 +251,42 @@ Le connecteur prend en charge les options suivantes :
 
 1. Configurez le pilote ODBC. Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. Une fois le pilote ODBC installé et configuré, vous devez configurer votre  Snowflake dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre [!DNL Snowflake] . Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Sélectionnez le **[!UICONTROL Snowflake]** intégré.
 
-1. Sélectionnez le  **[!UICONTROL Snowflake]** prêt à l’emploi.
+1. Pour configurer le **[!UICONTROL Snowflake]** de, vous devez spécifier les éléments suivants :
 
-1. Pour configurer le  **[!UICONTROL Snowflake]** :
+   * **[!UICONTROL Server]**: URL du [!DNL Snowflake] serveur
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
 
-      URL du serveur Snowflake.
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
 
-   * **[!UICONTROL Compte]**
-
-      Nom de l&#39;utilisateur.
-
-   * **[!UICONTROL Mot de passe]**
-
-      Mot de passe du compte de l&#39;utilisateur.
-
-   * **[!UICONTROL Base de données]**
-
-      Nom de votre base de données
+   * **[!UICONTROL Database]**: Nom de la base de données
    ![](assets/snowflake.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]** , puis sur le bouton **[!UICONTROL Déployer la fonction]** pour créer des fonctions.
+1. Cliquez sur l’ **[!UICONTROL Parameters]** onglet, puis sur le **[!UICONTROL Deploy functions]** bouton pour créer des fonctions.
 
    ![](assets/snowflake_2.png)
 
 Le connecteur prend en charge les options suivantes :
 
-| Option | Valeur | Description |
+| Option | Description |
 |---|---|---|
-| workschema |   | de base de données à utiliser pour les tables de travail |
-| entrepôt |   | Nom de l’entrepôt par défaut à utiliser. Elle remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName |   | Par défaut, vide, ce qui signifie que le fuseau horaire système du serveur d’applications Campaign Classic est utilisé. Cette option peut être utilisée pour forcer le paramètre de session TIMEZONE. <br>Voir à ce propos [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | 0, 1-7 | Par défaut, cette valeur est définie sur 0. (Paramètre de session WEEK_) <br>Pour plus d’informations à ce sujet, reportez-vous à cette [page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-| UseCachedResult | TRUE/FALSE | Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats en mémoire cache de Snowflake (paramètre de session USE_CACHED_RESULTS) <br>Pour plus d&#39;informations sur ce point, reportez-vous à cette [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| workschema | de base de données à utiliser pour les tables de travail |
+| entrepôt | Nom de l’entrepôt par défaut à utiliser. Elle remplace la valeur par défaut de l’utilisateur. |
+| TimeZoneName | Par défaut, vide, ce qui signifie que le fuseau horaire système du serveur d’applications Campaign Classic est utilisé. Cette option peut être utilisée pour forcer le paramètre de session TIMEZONE. <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| WeekStart | Paramètre de session WEEK_. Par défaut, cette valeur est définie sur 0. <br>[Pour plus d’informations à ce propos, consultez cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
+| UseCachedResult | Par défaut, cette valeur est définie sur TRUE. Cette option peut être utilisée pour désactiver les résultats en mémoire cache de Snowflake (paramètre de session USE_CACHED_RESULTS) <br>Pour plus d&#39;informations sur ce sujet, reportez-vous à [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
 
 La connexion à une base de données externe Hadoop dans  nécessite les configurations suivantes sur le serveur . Notez que cette configuration est disponible pour Windows et Linux.
 
-1. Téléchargez les pilotes ODBC pour Hadoop en fonction de votre version du système d’exploitation. Les pilotes se trouvent sur cette [page](https://www.cloudera.com/downloads.html).
+1. Téléchargez les pilotes ODBC pour Hadoop en fonction de votre version du système d’exploitation. Les pilotes se trouvent sur [cette page](https://www.cloudera.com/downloads.html).
 
-1. Vous devez ensuite installer les pilotes ODBC et créer un DSN pour votre connexion Hive. L&#39;instruction se trouve [ici](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
+1. Vous devez ensuite installer les pilotes ODBC et créer un DSN pour votre connexion Hive. Les instructions se trouvent dans [cette page](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
 
 1. Après avoir téléchargé et installé les pilotes ODBC, vous devez redémarrer Campaign Classic. Pour ce faire, exécutez la commande suivante :
 
@@ -326,37 +295,23 @@ La connexion à une base de données externe Hadoop dans  nécessite les configu
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, configurez votre Hadoop  dans Campaign Classic. Dans l’**[!UICONTROL Explorateur]**, développez le menu **[!UICONTROL Administration]**.
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre Snowflake. Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Développez le menu **[!UICONTROL Plate-forme]** et cliquez sur **[!UICONTROL Comptes externes]**.
+1. Cliquez sur **[!UICONTROL Create]** et sélectionnez **[!UICONTROL External database]** le type de compte.
 
-1. Cliquez sur **[!UICONTROL Créer]** , puis sélectionnez Base de données **** externe comme type de compte.
+1. Pour configurer le **[!UICONTROL  Hadoop]** de, vous devez spécifier les éléments suivants :
 
-1. Pour configurer le **[!UICONTROL Hadoop]** , procédez comme suit :
+   * **[!UICONTROL Type]**: ODBC (Sybase ASE, Sybase IQ)
 
-   * **[!UICONTROL Type]**
+   * **[!UICONTROL Server]**: Nom du DNS
 
-      ODBC (Sybase ASE, Sybase IQ)
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
 
-   * **[!UICONTROL Serveur]**
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
 
-      Nom du DNS.
+   * **[!UICONTROL Database]**: Nom de votre base de données s’il n’est pas spécifié dans DSN. Il peut rester vide s’il est spécifié dans le DSN.
 
-   * **[!UICONTROL Compte]**
-
-      Nom de l&#39;utilisateur.
-
-   * **[!UICONTROL Mot de passe]**
-
-      Mot de passe du compte de l&#39;utilisateur.
-
-   * **[!UICONTROL Base de données]**
-
-      Nom de votre base de données s’il n’est pas spécifié dans DSN. Il peut rester vide s’il est spécifié dans le DSN.
-
-   * **[!UICONTROL Time zone]**
-
-      Fuseau horaire du serveur
+   * **[!UICONTROL Time zone]**: Fuseau horaire du serveur
    ![](assets/hadoop3.png)
 
 Le connecteur prend en charge les options ODBC suivantes :
@@ -377,8 +332,6 @@ Le connecteur prend également en charge les options Hive suivantes :
 
 ## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
 
-For more information on how to configure your Hadoop external database in FDA, refer to this [article](https://helpx.adobe.com/campaign/kb/access-hadoop-2.html).
-
 ### Pour Windows {#for-windows}
 
 1. Installez les pilotes ODBC et [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) pour Windows.
@@ -393,7 +346,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    User/Password: admin/<your password here>
    ```
 
-1. Créez le compte externe Hadoop, comme indiqué dans la section [Créer une connexion partagée](../../message-center/using/creating-a-shared-connection.md).
+1. Create the Hadoop external account, as detailed in [this page](../../platform/using/external-accounts.md#hadoop-external-account) section.
 
 ### Pour Linux {#for-linux}
 
@@ -480,7 +433,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    isql vorac -v
    ```
 
-1. Créez le compte externe Hadoop, comme indiqué dans la section [Création d’une connexion](../../message-center/using/creating-a-shared-connection.md) partagée.
+1. Create the Hadoop external account, as detailed in [this page](../../platform/using/external-accounts.md#hadoop-external-account) section.
 
 ## Configurer l’accès à Netezza {#configure-access-to-netezza}
 
@@ -529,7 +482,21 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
    * **NZ_ODBC_INI_PATH** : emplacement du fichier odbc.ini. Netezza requiert également cette seconde variable pour l&#39;utilisation du fichier odbc.ini.
 
-1. Créez le compte externe Netezza, comme indiqué dans la section [Créer une connexion partagée](../../message-center/using/creating-a-shared-connection.md).
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre Netezza. Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Cliquez sur **[!UICONTROL New]** et sélectionnez **[!UICONTROL External database]** comme **[!UICONTROL Type]**.
+
+1. Pour configurer le **[!UICONTROL Netezza]** de, vous devez spécifier les éléments suivants :
+
+   * **[!UICONTROL Type]**: Netezza
+
+   * **[!UICONTROL Server]**: URL du serveur Netezza
+
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
+
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
+
+   * **[!UICONTROL Database]**: Nom de la base de données
 
 >[!NOTE]
 >
@@ -625,7 +592,21 @@ La connexion à une base de données externe Sybase IQ en FDA requiert les param
    * Si vous utilisez un fichier customer.sh pour déclarer le chemin d&#39;accès : ajoutez le chemin d&#39;accès /opt/sybase/IQ-16_0/lib64 pour la variable LD_LIBRARY_PATH.
    * Sinon, utilisez une commande Unix.
 
-1. Créez un compte externe FDA, comme décrit dans la section [Créer une connexion partagée](../../message-center/using/creating-a-shared-connection.md). Pour Sybase IQ, le nom du serveur correspond à la connexion ODBC (`<server_alias>`) définie à l’étape 5. Il ne s’agit pas nécessairement du nom du serveur lui-même.
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre Sybase IQ. Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Cliquez sur **[!UICONTROL New]** et sélectionnez **[!UICONTROL External database]** comme **[!UICONTROL Type]**.
+
+1. Pour configurer le **[!UICONTROL Sybase IQ]** de, vous devez spécifier les éléments suivants :
+
+   * **[!UICONTROL Type]**: ODBC (Sybase ASE, Sybase IQ)
+
+   * **[!UICONTROL Server]**: Correspond à la connexion ODBC (`<server_alias>`) définie à l’étape 5. Pas nécessairement le nom du serveur lui-même.
+
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
+
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
+
+   * **[!UICONTROL Database]**: Nom de la base de données
 
 >[!NOTE]
 >
@@ -633,7 +614,7 @@ La connexion à une base de données externe Sybase IQ en FDA requiert les param
 
 ## Configurer l’accès à Teradata {#configure-access-to-teradata}
 
-La connexion à une base de données externe Teradata en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign. Pour plus d’informations sur le paramétrage de votre base de données Teradata, consultez cet [article](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html).
+La connexion à une base de données externe Teradata en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign. Pour plus d’informations sur le paramétrage de votre base de données Teradata, consultez cet [article](https://helpx.adobe.com/fr/campaign/kb/campaign_fda_teradata.html).
 
 1. Installez le [pilote ODBC pour Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
@@ -674,6 +655,22 @@ La connexion à une base de données externe Teradata en FDA requiert certains p
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
    * **NLSPATH** : emplacement du fichier opermsgs.cat (/opt/teradata/client/15.10/msg/opermsgs.cat)
 
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre Teradata . Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Cliquez sur **[!UICONTROL New]** et sélectionnez **[!UICONTROL External database]** comme **[!UICONTROL Type]**.
+
+1. Pour configurer le **[!UICONTROL Teradata]** de, vous devez spécifier les éléments suivants :
+
+   * **[!UICONTROL Type]**: Teradata
+
+   * **[!UICONTROL Server]**: URL du serveur Teradata
+
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
+
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
+
+   * **[!UICONTROL Database]**: Nom de la base de données
+
 ## Configurer l’accès à SAP HANA {#configure-access-to-sap-hana}
 
 La connexion à une base de données externe SAP HANA en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign :
@@ -712,4 +709,16 @@ La connexion à une base de données externe SAP HANA en FDA requiert certains p
    * **LD_LIBRARY_PATH**: Il doit inclure le lien vers votre client SAP Hana (/usr/sap/hdbclient/libodbcHDB.so) par défaut.
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
 
-1. Créez le compte externe SAP Hana, comme indiqué dans la section [Créer une connexion partagée](../../message-center/using/creating-a-shared-connection.md).
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre SAP Hana. Dans la **[!UICONTROL Explorer]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+
+1. Cliquez sur **[!UICONTROL New]** et sélectionnez **[!UICONTROL External database]** comme **[!UICONTROL Type]**.
+
+1. Pour configurer le **[!UICONTROL SAP Hana]** de, vous devez spécifier les éléments suivants :
+
+   * **[!UICONTROL Type]**: SAP Hana
+
+   * **[!UICONTROL Server]**: URL du serveur SAP Hana
+
+   * **[!UICONTROL Account]**: Nom de l&#39;utilisateur
+
+   * **[!UICONTROL Password]**: Mot de passe du compte de l&#39;utilisateur
