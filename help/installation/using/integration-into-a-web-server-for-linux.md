@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
+source-git-commit: 4fbc576ba65c44d91ac87ea2967fac3b0a88a040
 
 ---
 
@@ -234,19 +234,19 @@ En retour, vous devez obtenir :
 Trying 127.0.0.1...
 Connected to localhost.localdomain.
 Escape character is '^]'.
-````
+```
 
 Puis saisissez :
 
 ```
 GET /r/test
-````
+```
 
 Les informations affichées sont alors les suivantes :
 
 ```
 <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='' localHost='XXXX'/>
 Connection closed by foreign host.
-````
+```
 
 Vous pouvez également appeler l’URL [`https://<computer>`](https://machine/r/test) depuis un navigateur web.
