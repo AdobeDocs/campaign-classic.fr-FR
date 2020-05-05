@@ -14,7 +14,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 ---
@@ -63,7 +63,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
 
 **Améliorations**
 
@@ -87,7 +87,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
 
 **Améliorations**
 
@@ -109,7 +109,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
 
 **Nouveautés**
 
@@ -128,7 +128,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
      <li> <p>Tracking des notifications silencieuses dans iOS </p> </li> 
      <li> <p>Implémentation du retour sur les appels d'enregistrement dans iOS</p> </li> 
      <li> <p>Amélioration de la vitesse de préparation des diffusions iOS</p> </li> 
-    </ul> <p>En raison de l'abandon de GCM par Google, le connecteur Android V2 ne permet plus que les connexions au serveur FCM.</p><p>Voir à ce sujet la <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">documentation détaillée</a>. La mise à niveau manuelle vers FCM est présentée dans <a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">cet article</a>. </p> </td> 
+    </ul> <p>En raison de l'abandon de GCM par Google, le connecteur Android V2 ne permet plus que les connexions au serveur FCM.</p><p>Voir à ce sujet la <a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">documentation détaillée</a>. La mise à niveau manuelle vers FCM est présentée dans <a href="https://helpx.adobe.com/fr/campaign/kb/migrate-to-fcm.html">cet article</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> Activité Gestion des données SQL<br /> </td> 
@@ -136,7 +136,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
   </tr> 
   <tr> 
    <td> Surveillance des workflows<br /> </td> 
-   <td> <p>Avec la nouvelle Carte thermique des workflows Campaign d'Adobe, les administrateurs de la plate-forme disposent d'une représentation graphique de tous les workflows simultanés, ce qui leur permet de surveiller la charge de l'instance et de planifier les workflows en conséquence.</p> <p>Pour plus d'informations, consultez la <a href="../../workflow/using/heatmap.md">documentation détaillée</a>.</p> <p>Le package Carte thermique des workflows est également disponible sur demande pour les builds antérieurs à 8977 (à compter du build 8700). Pour plus d'informations sur la façon de le demander et de l'installer, consultez <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">cette page</a>.</p> </td> 
+   <td> <p>Avec la nouvelle Carte thermique des workflows Campaign d'Adobe, les administrateurs de la plate-forme disposent d'une représentation graphique de tous les workflows simultanés, ce qui leur permet de surveiller la charge de l'instance et de planifier les workflows en conséquence.</p> <p>Pour plus d'informations, consultez la <a href="../../workflow/using/heatmap.md">documentation détaillée</a>.</p> <p>Le package Carte thermique des workflows est également disponible sur demande pour les builds antérieurs à 8977 (à compter du build 8700). Pour plus d'informations sur la façon de le demander et de l'installer, consultez <a href="https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html">cette page</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,7 +152,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 **Améliorations**
 
 * Les API de Campaign Classic sont maintenant disponibles dans une [page dédiée](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html). Si vous utilisiez le fichier jsapi.chm, vous devez à présent vous référer à la nouvelle version en ligne.
-* PostgreSQL 10, Debian 9 et Teradata 16.20 sont maintenant pris en charge. Consultez la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+* PostgreSQL 10, Debian 9 et Teradata 16.20 sont maintenant pris en charge. Consultez la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 * Lors de la création d&#39;une connexion SFTP, vous pouvez maintenant utiliser l&#39;authentification par proxy. Pour plus d&#39;informations, consultez la [documentation détaillée](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868)
 * L&#39;option **Formule de calcul de date** est maintenant disponible dans les propriétés d&#39;une diffusion lors de la création d&#39;une diffusion unique à l&#39;aide du modèle de diffusion courrier. (NEO-9792)
 * La gestion des noms de domaine a été améliorée pour le tracking des cookies et les applications web. Pour plus d&#39;informations, consultez la section &#39;Evolutions techniques&#39;.
