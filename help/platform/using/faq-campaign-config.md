@@ -13,7 +13,7 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5a9823b2feb6e2f721a2ad15dc08c1abe672054
 
 ---
@@ -45,7 +45,7 @@ En tant qu&#39;utilisateur expert, vous pouvez configurer les fonctionnalités d
 
 ## Comment configurer la délivrabilité des emails ? {#how-to-configure-email-deliverability-}
 
-En plus du [guide de prise en main sur la délivrabilité](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), consultez la section sur la configuration de la délivrabilité des emails pour configurer votre instance afin d&#39;optimiser les fonctionnalités d&#39;envoi de Campaign.
+En plus du [guide de prise en main sur la délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), consultez la section sur la configuration de la délivrabilité des emails pour configurer votre instance afin d&#39;optimiser les fonctionnalités d&#39;envoi de Campaign.
 
 [Pour en savoir plus, cliquez ici](../../installation/using/email-deliverability.md).
 
@@ -63,7 +63,7 @@ Adobe Campaign propose l&#39;option Federated Data (FDA) Access afin d&#39;explo
 
 ## À quelles bases de données externes est-il possible de connecter Campaign ? {#which-external-databases-can-i-connect-campaign-to-}
 
-Les bases de données externes compatibles avec Campaign via FDA (Federated Data Access) sont répertoriées dans la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Les bases de données externes compatibles avec Campaign via FDA (Federated Data Access) sont répertoriées dans la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 ## Adobe Campaign peut-il s&#39;intégrer avec LDAP ? {#can-adobe-campaign-integrate-with-ldap-}
 
@@ -79,34 +79,34 @@ Ces connecteurs permettent d&#39;intégrer rapidement et simplement les données
 
 Consultez l&#39;article [Configurer les connecteurs CRM](../../platform/using/crm-connectors.md) pour apprendre à synchroniser votre outil CRM avec Adobe Campaign. Regardez cette vidéo de cas pratique concernant l&#39;[intégration d&#39;Adobe Campaign avec Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
 
-## Comment effectuer un effacement de la mémoire cache douce lorsque les problèmes sont spécifiques à la machine ou à l’utilisateur ? {#perform-soft-cache-clear}
+## Comment effectuer un effacement de la mémoire cache locale (soft) lorsque les problèmes sont spécifiques à la machine ou à l’utilisateur ? {#perform-soft-cache-clear}
 
-Si vous rencontrez des problèmes tels que le reflet correct des nouveaux logos, afin de pouvoir exporter avec succès les données spécifiques à l’ordinateur ou à l’utilisateur, vous devrez peut-être effectuer une suppression du cache logiciel avec Windows (Windows 7, Windows XP, Windows 10).
+Si vous rencontrez des problèmes concernant, par exemple, la prise en compte correcte des nouveaux logos et la capacité d’exporter avec succès les données spécifiques à l’ordinateur ou à l’utilisateur, vous devrez peut-être effectuer un effacement de la mémoire cache locale (soft) avec Windows (Windows 7, Windows XP, Windows 10).
 
-Une fois connecté, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Effacer le cache]** local. Ensuite, déconnectez-vous et reconnectez-vous.
+Une fois connecté, accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Vider le cache local]**. Ensuite, déconnectez-vous et reconnectez-vous.
 
 ![](assets/faq_soft_cache.png)
 
-Si cela ne vous aide toujours pas, essayez d&#39;effacer le cache dur en suivant les étapes ci-dessous.
+Si le problème n’est pas résolu, essayez d’effacer la mémoire cache locale (hard) en procédant comme suit.
 
-## Comment effectuer l&#39;effacement du cache dur lorsque les problèmes sont spécifiques à la machine ou à l&#39;utilisateur ? {#perform-hard-cache-clear}
+## Comment effectuer un effacement de la mémoire cache locale (hard) lorsque les problèmes sont spécifiques à la machine ou à l’utilisateur ? {#perform-hard-cache-clear}
 
-Si vous rencontrez des problèmes tels que le reflet correct des nouveaux logos, afin de pouvoir exporter avec succès les données spécifiques à l’ordinateur / à l’utilisateur, vous devrez peut-être effectuer une suppression du cache disque avec Windows (Windows 7, Windows XP, Windows 10).
+Si vous rencontrez des problèmes concernant, par exemple, la prise en compte correcte des nouveaux logos et la capacité d’exporter avec succès les données spécifiques à l’ordinateur ou à l’utilisateur, vous devrez peut-être effectuer un effacement de la mémoire cache locale (hard) avec Windows (Windows 7, Windows XP, Windows 10).
 
-1. Dans la console client, choisissez **[!UICONTROL Fichier]** > **[!UICONTROL Effacer le cache]** local.
+1. Dans la console cliente, choisissez **[!UICONTROL Fichier]** > **[!UICONTROL Vider le cache local]**.
 
-1. Déconnectez-vous et fermez la console client (client riche).
+1. Déconnectez-vous et fermez la console cliente (client enrichi).
 
-1. Accédez aux emplacements suivants, en fonction de la version de votre système d’exploitation :
+1. Accédez aux emplacements suivants, selon la version de votre système d’exploitation :
 
-   * Windows 7 : C:\Users\&lt; Nom d’utilisateur > \AppData\Roaming\Neolane\NL_5\
-   * Windows XP : C:\Documents and Settings\&lt; Nom d’utilisateur >\Application Data\Neolane\NL_5
-   Vous verrez ici de nombreux fichiers xml nommés nlclient-config-&lt; valeur alphanumérique >.xml.
+   * Windows 7 : C:\Users\&lt; nom_utilisateur >\AppData\Roaming\Neolane\NL_5\
+   * Windows XP : C:\Documents et Settings\&lt; nom_utilisateur >\Application Data\Neolane\NL_5
+   Ces dossiers contiennent de nombreux fichiers xml nommés nlclient-config-&lt; valeur alphanumérique >.xml.
 
-1. Supprimez ces fichiers XML et les dossiers associés.
+1. Supprimez ces fichiers XML et leurs dossiers associés.
 
    >[!CAUTION]
    >
    >Ne supprimez pas le fichier nlclient_cnx.xml.
 
-1. Connectez-vous à la console client.
+1. Connectez-vous à la console cliente.
