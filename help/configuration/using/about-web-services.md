@@ -14,7 +14,7 @@ discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a047e4af6e31c54fa2444943a18da5913e115c09
 
 ---
@@ -122,7 +122,7 @@ Dans SOAP, les paramètres sont reconnus par ordre d’apparition. Le premier pa
 
 Le résultat de la requête est renseigné à partir de l’élément `<pdomoutput>`.
 
-## Gestion des erreurs   {#error-management}
+## Gestion des erreurs    {#error-management}
 
 Exemple de réponse d&#39;erreur SOAP :
 
