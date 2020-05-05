@@ -14,7 +14,7 @@ discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
@@ -28,7 +28,7 @@ Les étapes de migration sous Windows sont les suivantes :
 
 1. Arrêter les services : voir la section [Arrêt des services](#service-stop).
 1. Sauvegarder la base de données : voir la section [Sauvegarde de la base et de l&#39;installation existante](#back-up-the-database-and-the-current-installation).
-1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7).
+1. Effectuer la migration de la plateforme : voir la section [Déploiement d&#39;Adobe Campaign v7](#deploying-adobe-campaign-v7).
 1. Effectuer la migration du serveur de redirection (IIS) : voir la section [Migration du serveur de redirection (IIS)](#migrating-the-redirection-server--iis-).
 1. Redémarrer les services : voir la section [Redémarrage des services](#re-starting-the-services).
 1. Supprimer et nettoyer la version précédente d&#39;Adobe Campaign : voir la section [Suppression et nettoyage de la version précédente d&#39;Adobe Campaign](#deleting-and-cleansing-adobe-campaign-previous-version).
