@@ -14,7 +14,7 @@ discoiquuid: 8e575da0-c51a-4106-a826-3e1771e63649
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
 
 ---
@@ -267,7 +267,7 @@ Liens vers une table et éléments de collection :
 >* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [Construction d’expressions](#building-expressions).
 >* Supprimez une colonne de sortie en cliquant sur la croix rouge **Supprimer**.
 >* Modifiez l&#39;ordre des colonnes de sortie grâce aux flèches.
->* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
+>* L’icône **[!UICONTROL Répartition des valeurs]** sert à visualiser la répartition des valeurs du champ sélectionné (par exemple, les répartitions liées aux villes des destinataires, à la langue des destinataires, etc.).
 
 
 ## Création de champs calculés {#creating-calculated-fields}
