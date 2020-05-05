@@ -13,7 +13,7 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a1db0fbced3550621c5520656a34344128ee13f
 
 ---
@@ -27,9 +27,9 @@ Besoin d’aide lorsque vous utilisez Campaign Classic ? Lisez les 10 premiè
 
 Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies nécessite de mettre régulièrement vos instances Campaign Classic à niveau afin de s’assurer que les versions les plus récentes sont utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
-Si vous utilisez Adobe Managed Services, vous pouvez bénéficier de la mise à niveau vers Campaign Gold Standard. Voir à ce propos [cet article](https://helpx.adobe.com/campaign/kb/gold-standard.html).
+Si vous utilisez Adobe Managed Services, vous pouvez bénéficier de la mise à niveau vers Campaign Gold Standard. Voir à ce propos [cet article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
-[Lisez cet article](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) pour savoir comment mettre à jour votre environnement et consultez les [Questions courantes](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html) sur ce sujet spécifique.
+[Lisez cet article](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) pour savoir comment mettre à jour votre environnement et consultez les [Questions courantes](https://helpx.adobe.com/fr/campaign/kb/build-upgrade-faq.html) sur ce sujet spécifique.
 
 ## 2. Qu&#39;est-ce que le workflow Nettoyage de la base ?{#what-is-the-database-cleanup-workflow-}
 
@@ -41,7 +41,7 @@ Le workflow Nettoyage de la base de données permet de supprimer les données ob
 
 L’interface Security Zones Self Service peut être utilisée pour gérer les entrées de la configuration Zone de sécurité VPN d’un déploiement Adobe Campaign Classic. Pour plus d’informations sur les zones de sécurité dans Campaign, consultez [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-[Cliquez ici pour en savoir plus](https://helpx.adobe.com/campaign/kb/configuring-security-zones-self-service.html) sur l’interface utilisateur Security Zone Self Service.
+[Cliquez ici pour en savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-security-zones-self-service.html) sur l’interface utilisateur Security Zone Self Service.
 
 ## 4. Comment s&#39;assurer que ma diffusion est envoyée sans erreur ?{#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
 
@@ -61,16 +61,16 @@ Pour vous connecter à Adobe Campaign Classic, vous devez lancer la console clie
 
 ## 7. Avec quels systèmes et composants Campaign Classic est-il compatible ?{#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-Vous trouverez la liste de tous les systèmes et composants pris en charge dans le dernier build de Campaign dans la [matrice de compatibilité Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Vous trouverez la liste de tous les systèmes et composants pris en charge dans le dernier build de Campaign dans la [matrice de compatibilité Adobe Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 ## 8. Où se trouvent les notes de mise à jour de Campaign Classic ?{#where-are-campaign-classic-release-notes-}
 
-Vous pouvez accéder aux dernières notes de mise à jour de Campaign Classic [sur cette page](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html).
+Vous pouvez accéder aux dernières notes de mise à jour de Campaign Classic [sur cette page](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html).
 
 ## 9. Quelle est la procédure pour la délégation de domaine ?{#what-is-the-procedure-for-domain-delegation-}
 
 Un sous-domaine est une division de votre domaine qui peut être utilisée pour isoler vos marques ou divers types de trafic (messages transactionnels, informations marketing, etc.).
 Adobe prend en compte le système DNS (Domain Name System) pour la diffusion email, ce qui permet au client de conserver son image de marque en utilisant un alias DNS avec ses noms de domaine. Adobe peut ainsi mettre en place de manière autonome toutes les bonnes pratiques techniques qui lui permettent d&#39;optimiser la délivrabilité lors de l&#39;envoi des emails.
 
-[Pour en savoir plus, cliquez ici](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+[Pour en savoir plus, cliquez ici](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
