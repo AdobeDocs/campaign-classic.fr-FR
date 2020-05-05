@@ -14,7 +14,7 @@ discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -159,7 +159,7 @@ Renseignez les différents champs proposés :
 
 1. Dans le champ **[!UICONTROL Statut]**, saisissez le texte qui sera affiché sous le nom de la page.
 1. Dans le champ **[!UICONTROL Nom]**, saisissez le titre de la publication.
-1. Dans le champ Code **** vidéo, saisissez le code de la vidéo YouTube. Par exemple, pour le lien &quot;https://www.youtube.com/watch?v=abc123456&#39;&quot;, le code vidéo sera &quot;abc123456&quot;.
+1. Dans le champ **[!UICONTROL Code vidéo]**, saisissez le code de la vidéo YouTube. Par exemple, pour le lien « https://www.youtube.com/watch?v=abc123456 », le code vidéo sera « abc123456 ».
 1. Dans le champ **[!UICONTROL Légende]**, saisissez le texte qui apparaîtra à la fin de la publication.
 1. Dans le champ **[!UICONTROL Description]**, saisissez le texte qui apparaîtra sous le titre.
 
