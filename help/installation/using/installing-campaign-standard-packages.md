@@ -14,7 +14,7 @@ discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
 
 ---
@@ -130,7 +130,7 @@ Le tableau suivant répertorie tous les packages standard avec leur description,
   </tr> 
   <tr> 
    <td> Canal courrier<br /> </td> 
-   <td> Envoie les livraisons à l’aide du canal courrier avec Adobe Campaign.<br /> </td> 
+   <td> Envoie les diffusions à l’aide du canal courrier avec Adobe Campaign.<br /> </td> 
    <td> Tous<br /> </td> 
    <td> Facultatif, <a href="../../delivery/using/about-direct-mail-channel.md">En savoir plus</a> </td> 
   </tr> 
@@ -198,7 +198,7 @@ Le tableau suivant répertorie tous les packages standard avec leur description,
    <td> Supervision de la délivrabilité (délivrabilité des emails)<br /> </td> 
    <td> Mesure le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam.<br /> </td> 
    <td> Tous </td> 
-   <td> Facultatif, <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">En savoir plus</a> </td> 
+   <td> Facultatif, <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html">En savoir plus</a> </td> 
   </tr> 
   <tr> 
    <td> Gestion des bons<br /> </td> 
@@ -250,9 +250,9 @@ Le tableau suivant répertorie tous les packages standard avec leur description,
   </tr> 
   <tr> 
    <td> Règlement sur la protection des informations personnelles<br /> </td> 
-   <td> Contient des fonctionnalités supplémentaires pour vous aider à respecter vos règles de confidentialité dans Campaign Classic.<br /> </td> 
+   <td> Contient des fonctionnalités supplémentaires pour vous aider à respecter la conformité en matière de données personnelles dans Campaign Classic.<br /> </td> 
    <td> Tous</td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">En savoir plus</a> </td> 
+   <td> <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">En savoir plus</a> </td> 
   </tr> 
   <tr> 
    <td> Emission vers Mid-sourcing <br /> </td> 
