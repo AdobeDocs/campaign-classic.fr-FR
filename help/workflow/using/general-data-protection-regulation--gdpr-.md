@@ -14,7 +14,7 @@ discoiquuid: 050c804e-87b7-4d68-b787-c396fec329d2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 # Règlement sur la protection des informations personnelles{#general-data-protection-regulation-gdpr}
 
-Les  détaillées ci-dessous sont installées par défaut avec le module **Confidentialité et Protection des Données** . For more on this module, refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+Les workflows présentés ci-dessous sont installés par défaut avec le module **Règlement sur la protection des informations personnelles**. Voir à ce propos cet [article](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html).
 
 <table> 
  <tbody> 
