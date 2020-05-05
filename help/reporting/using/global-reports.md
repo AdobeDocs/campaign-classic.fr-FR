@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 ---
@@ -104,7 +104,7 @@ Les indicateurs utilisés sont les suivants :
    >
    >Cet indicateur ne concerne que les diffusions sur les canaux mobiles. Voir à ce sujet [cette section](../../delivery/using/sms-channel.md).
 
-   You can open up each line of the value table by clicking the `[+]` symbol. For each error type, you can show the breakdown of error messages by domain.
+   Vous pouvez déplier chaque ligne du tableau de valeurs en cliquant sur le symbole `[+]` correspondant. Cela permet d’afficher, pour chaque type d’erreur, la répartition des messages d’erreur, par domaine.
 
    ![](assets/s_ncs_user_errors_report_detail.png)
 
