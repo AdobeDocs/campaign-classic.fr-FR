@@ -14,7 +14,7 @@ discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ---
@@ -32,12 +32,12 @@ Voir également la section [Couches d’accès à la base de données](../../ins
 
 Le client natif doit être installé sur les serveurs applicatifs Adobe Campaign.
 
-You can check for the native client on the server via the ODBC driver configuration panel, under **SQL Server Native Client 10.0** (for Microsoft SQL Server 2008 and 2008 R2 clients), or **SQL Server Native Client 11.0** (for Microsoft SQL Server 2012, 2014, 2016 and 2017  clients).
+Vous pouvez vérifier la présence du client natif sur le serveur via le panneau de configuration des pilotes ODBC, sous les libellés **SQL Server Native Client 10.0** (pour les clients Microsoft SQL Server 2008 et 2008 R2), ou **SQL Server Native Client 11.0** (pour les clients Microsoft SQL Server 2012, 2014, 2016 et 2017).
 
-Les DLL d&#39;accès suivantes doivent donc être présentes :
+Les DLL d&#39;accès suivantes doivent donc être présentes :
 
 * **sqlncli10.dll** pour les clients Microsoft SQL Server 2008 et 2008 R2,
-* **sqlncli11.dll** pour les clients Microsoft SQL Server 2012, 2014, 2016 et 2017.
+* **sqlncli11.dll** pour les clients Microsoft SQL Server 2012, 2014, 2016 et 2017.
 
    Les DLL d&#39;accès sont disponibles sur le site de Microsoft.
 
@@ -90,4 +90,4 @@ Nous vous recommandons d&#39;installer le support UTF-8 lors de l&#39;installati
 
 **Rubrique connexe**
 
-* [Option non enregistrée dans les tables Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
+* [Option non enregistrée dans les tables Adobe Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/unlogged-tables-classic.html)
