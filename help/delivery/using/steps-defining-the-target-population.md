@@ -14,7 +14,7 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -29,7 +29,7 @@ Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible
 * **Les principaux destinataires de la diffusion**. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
 * **Les destinataires des messages de BAT** pour configurer un cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-Additionally, you can also define [seed addresses](../../delivery/using/about-seed-addresses.md), and [control groups](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). si la diffusion fait partie d’une opération marketing.
+De plus, vous pouvez définir des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [populations témoin](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). si la diffusion fait partie d’une opération marketing.
 
 ## Sélection des principaux destinataires de la diffusion {#selecting-the-main-target}
 
