@@ -14,7 +14,7 @@ discoiquuid: ff7e6f72-7605-41ee-b25a-1e4618e674d7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
@@ -130,4 +130,4 @@ Pour utiliser le nouveau schéma comme cible d&#39;une diffusion, il existe deux
 
 **Rubrique connexe**
 
-* [Répondre rapidement aux demandes des clients pour accéder à leurs données](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
+* [Répondre rapidement aux demandes des clients pour accéder à leurs données](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
