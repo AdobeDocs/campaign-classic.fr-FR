@@ -14,7 +14,7 @@ discoiquuid: 4dc87ff3-eb6a-40ac-97ee-00b64cd7718d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
@@ -111,7 +111,7 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
     <ul> 
      <li> <p>Droit d'accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
      <li> <p>Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
-    </ul> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profils actifs<br /> </td> 
@@ -134,14 +134,14 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 **Améliorations**
 
 * **Canal LINE - amélioration de l&#39;architecture** : à l&#39;instar de tous les autres canaux d&#39;Adobe Campaign, le canal LINE est désormais pris en charge dans tous les types de déploiement : hébergé, hybride et on-premise.
-* **Génération automatique de séquence** : le mécanisme de génération d&#39;identifiants a été amélioré pour augmenter la durée de vie des instances Campaign avec des volumes d&#39;objets importants. Pour plus d&#39;informations, reportez-vous à cette [technote](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html).
+* **Génération automatique de séquence** : le mécanisme de génération d&#39;identifiants a été amélioré pour augmenter la durée de vie des instances Campaign avec des volumes d&#39;objets importants. Pour plus d&#39;informations, reportez-vous à cette [technote](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
 
 **Autres changements**
 
 * Un nouveau mode est disponible pour l&#39;import de packages à l&#39;aide d&#39;une ligne de commande. Il permet les dépendances circulaires (non recommandé pour les packages volumineux). Pour plus d&#39;informations, consultez la section Evolutions techniques. (NEO-8979)
 * Amélioration des performances pour le chargement de grandes quantités de données dans Teradata et correction d&#39;une erreur qui empêchait l&#39;affichage de la valeur correcte des données traitées dans le log. (NEO-10429)
 * L&#39;import d&#39;audiences depuis Audience Manager est désormais possible avec des fichiers partagés. Auparavant, seul le dernier fichier du segment était importé par le workflow technique importSharedAudience. (NEO-10156)
-* On Windows, the Campaign server default installation path has changed. When launching the 64-bit version setup, the default installation path is now: **C:\Program Files\Adobe\Adobe Campaign Classic v7** instead of **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
+* Sous Windows, le chemin d’installation par défaut du serveur Campaign a changé. Lors du lancement du programme d’installation de la version 64 bits, le chemin d’installation par défaut est désormais **C:\Program Files\Adobe\Adobe Campaign Classic v7\** au lieu de **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**
 * Les règles MX par défaut ont été améliorées pour inclure davantage de domaines et optimiser le débit.
 * Application des restrictions d&#39;accès sur l&#39;appel SOAP de l&#39;assistant de déploiement (xtk:serverOptions#SaveOptions).
 * La bibliothèque obsolète weka.jar a été supprimée et la bibliothèque OpenSSL a été mise à jour pour optimiser la sécurité.
