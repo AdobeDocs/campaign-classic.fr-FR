@@ -14,7 +14,7 @@ discoiquuid: 9fd7122e-22c7-4f9a-a2a4-5de3daaa3c2e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 ---
@@ -52,11 +52,11 @@ Pour la paramétrer, éditez l&#39;activité et renseignez les options de la dif
 
       Une fois l&#39;action de diffusion sélectionnée, vous pouvez en visualiser le contenu en cliquant sur l&#39;icône **[!UICONTROL Editer le lien]**.
 
-   * Créez un script pour calculer le  du. Pour ce faire, sélectionnez l’option **[!UICONTROL Calculé par un script]** et saisissez le script. Vous pouvez ouvrir une fenêtre de saisie en cliquant sur **[!UICONTROL Modifier...]** . L’exemple suivant récupère l’identifiant de l’ :
+   * Créez un script pour calculer la diffusion. Pour cela, sélectionnez l’option **[!UICONTROL Calculée par un script]** et saisissez le script. Vous pouvez ouvrir une fenêtre de saisie en cliquant sur **[!UICONTROL Éditer...]**. L’exemple suivant permet de récupérer l’identifiant de la diffusion :
 
       ![](assets/diffusion_edit_3.png)
 
-   * Créer une nouvelle diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Nouvelle, créée depuis un modèle]** et sélectionnez le modèle de diffusion à partir duquel sera créée la diffusion.
+   * Créez une nouvelle diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Nouvelle, créée depuis un modèle]** et sélectionnez le modèle de diffusion à partir duquel sera créée la diffusion.
 
       ![](assets/diffusion_edit_4.png)
 
