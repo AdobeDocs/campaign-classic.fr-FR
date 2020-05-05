@@ -14,7 +14,7 @@ discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
@@ -48,7 +48,7 @@ Les exemples d&#39;applications web de type Facebook présentés dans cette sect
 >
 >Ces cas d&#39;utilisation simples ne sont donnés qu&#39;à titre d&#39;exemple afin d&#39;illustrer les fonctionnalités des applications web de type Facebook.
 
-## Recommandations  {#recommendations}
+## Recommandations   {#recommendations}
 
 Les limitations suivantes sont des contraintes inhérentes à Facebook :
 
@@ -69,7 +69,7 @@ Pour créer cette application, suivez les étapes ci-dessous :
 
    ![](assets/social_quick_start_2.png)
 
-1. Ajoutez les liens **[!UICONTROL Conditions d’utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande de permission Facebook. Voir à ce sujet la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links).
+1. Renseignez les liens **[!UICONTROL Conditions d’utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande de permission Facebook. Voir à ce sujet la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links).
 
    ![](assets/social_quick_start_1.png)
 
