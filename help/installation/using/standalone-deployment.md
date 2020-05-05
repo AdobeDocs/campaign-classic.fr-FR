@@ -14,7 +14,7 @@ discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
@@ -198,7 +198,7 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl  nlserver**
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -211,7 +211,7 @@ Les étapes sont les suivantes :
    web@default (28671) - 40.5 MB
    ```
 
-   Cette commande permet aussi de connaître la version et le numéro de build du serveur Adobe Campaign installé sur la machine.
+   Cette commande permet aussi de connaître la version et le numéro de build du serveur Adobe Campaign installé sur la machine.
 
 1. Testez le module **nlserver web** à partir de l&#39;URL : https://console.campaign.net/nl/jsp/logon.jsp.
 
@@ -249,7 +249,7 @@ Les étapes sont les suivantes :
    * Envoi d&#39;email : les adresses expéditeur, de réponse et la boîte d&#39;erreur pour les mails rebonds.
    * Tracking : renseignez l&#39;URL externe utilisée pour la redirection et l&#39;URL interne puis cliquez sur **Enregistrement auprès du ou des serveurs de tracking** et validez sur l&#39;instance **demo** du serveur de tracking.
 
-      Pour plus d&#39;informations, consultez la section [Configuration du tracking](../../installation/using/deploying-an-instance.md#tracking-configuration).
+      Pour en savoir plus, consultez [Paramétrage du tracking](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
       ![](assets/s_ncs_install_deployment_wiz_09.png)
 
