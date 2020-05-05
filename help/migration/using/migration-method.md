@@ -14,7 +14,7 @@ discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
@@ -34,7 +34,7 @@ Le mode &quot;multi timezone&quot; n&#39;était disponible, en v6.02, que pour l
 >
 >Certaines versions de logiciels prises en charge dans les versions 5.11 et 6.02 ne sont plus prises en charge par Adobe Campaign v7.
 >
->Pour plus d&#39;informations sur les versions prises en charge par Adobe Campaign, consultez la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+>Pour plus d&#39;informations sur les versions prises en charge par Adobe Campaign, consultez la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 ## Grandes étapes de migration {#key-migration-steps}
 
