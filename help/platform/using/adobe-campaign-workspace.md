@@ -14,7 +14,7 @@ discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14e67ca7f57d39e6939d6ff3479aa897674b18dc
 
 ---
@@ -54,11 +54,11 @@ Tandis que, dans le contexte d&#39;un accès Web, les options seront principalem
 
 ### Langues {#languages}
 
-La langue est sélectionnée lors de l’installation de votre instance  Adobe Campaign Classic et ne peut plus être modifiée par la suite. For more information on how to create an instance, refer to this [page](../../installation/using/creating-an-instance-and-logging-on.md).
+La langue est sélectionnée lors de l’installation de votre instance Adobe Campaign Classic et ne peut plus être modifiée par la suite. Pour plus d’informations sur la création d’une instance, consultez cette [page](../../installation/using/creating-an-instance-and-logging-on.md).
 
 ![](assets/language.png)
 
-Vous pouvez choisir entre cinq langues différentes :
+Vous pouvez choisir entre cinq langues différentes :
 
 * Anglais (Royaume-Uni)
 * Anglais (US)
@@ -66,7 +66,7 @@ Vous pouvez choisir entre cinq langues différentes :
 * Allemand
 * Japonais
 
-La langue choisie pour votre instance  Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Voir à ce propos cette [section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Voir à ce propos cette [section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
 ## Principes de navigation {#navigation-basics}
 
