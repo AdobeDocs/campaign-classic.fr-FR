@@ -14,7 +14,7 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cda7ae757a6de0e8cd6227faa2b731e9f392791b
 
 ---
@@ -69,13 +69,13 @@ Les étapes suivantes décrivent le paramétrage du connecteur de données via u
 
 1. Dans l&#39;onglet **[!UICONTROL Admin]**, sélectionnez **[!UICONTROL Data Connectors]**.
 
-   Pour accéder au menu Connecteurs **[!UICONTROL de]** données, vous devez disposer des autorisations suivantes pour les outils Analytics. Voir à ce propos [cette page](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
-   * Intégrations (Créer)
-   * Intégrations (mise à jour)
-   * Intégrations (Supprimer)
+   Pour accéder au menu **[!UICONTROL Data Connectors]**, vous devez disposer des autorisations ci-après pour les outils Analytics. Voir à ce propos [cette page](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
+   * Intégrations (créer)
+   * Intégrations (mettre à jour)
+   * Intégrations (supprimer)
    ![](assets/adobe_genesis_install_002.png)
 
-1. Dans le  des partenaires, sélectionnez **[!UICONTROL Adobe Campaign Classic]**.
+1. Dans la liste des partenaires, sélectionnez **[!UICONTROL Adobe Campaign Classic]**.
 
    ![](assets/adobe_genesis_install_014.png)
 
@@ -90,8 +90,8 @@ Les étapes suivantes décrivent le paramétrage du connecteur de données via u
 
    ![](assets/adobe_genesis_install_005.png)
 
-1. Indiquez ensuite les identifiants qui vont permettre de mesurer l&#39;impact de la campagne email, soit le nom interne de la campagne (cid) et l&#39;identifiant de la table NmsBroadlog (bid). Indiquez également les indicateurs des événements à collecter.
-Assurez-vous que vos **** sont de type numérique, sinon ils n’apparaîtront pas dans le menu déroulant.
+1. Indiquez ensuite les identifiants qui vont permettre de mesurer l&#39;impact de la campagne email, soit le nom interne de la campagne (cid) et l’identifiant de la table NmsBroadlog (bid). Indiquez également les indicateurs des événements à collecter.
+Assurez-vous que les **[!UICONTROL Événements]** sont de type numérique, faute de quoi ils n’apparaîtront pas dans le menu déroulant.
 
    ![](assets/adobe_genesis_install_006.png)
 
