@@ -14,7 +14,7 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92f4047628eca0fc1d71aded0329720c094463bd
 
 ---
@@ -41,7 +41,7 @@ Vous pouvez accorder deux types de permissions à un utilisateur :
 
 >[!NOTE]
 >
->Avant de commencer à définir les permissions, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>Avant de commencer à définir les permissions, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/security.html).
 
 ## Les opérateurs {#operators}
 
@@ -208,7 +208,7 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/security.html).
 
 ## Les groupes d&#39;opérateurs {#operator-groups}
 
@@ -244,8 +244,8 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    Ce groupe contient les droits nommés suivants :
 
-   * PREPARER DES DIFFUSIONS : droit pour créer, éditer et lancer l&#39;analyse des diffusions,
-   * DEMARRER DES DIFFUSIONS : droit pour valider les diffusions préalablement analysées.
+   * PRÉPARER DES DIFFUSIONS : droit pour créer, éditer et lancer l&#39;analyse des diffusions,
+   * DÉMARRER DES DIFFUSIONS : droit pour valider les diffusions préalablement analysées.
 
 1. Chargés d&#39;opération
 
@@ -287,45 +287,45 @@ Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent
 
 Ces droits sont les suivants :
 
-* **[!UICONTROL ADMINISTRATION]**: Les opérateurs disposant du droit **[!UICONTROL ADMINISTRATION]** ont un accès complet à l’instance. Les administrateurs peuvent exécuter/créer/modifier/supprimer tout objet tel que le flux de travaux, les , les scripts, etc.
+* **[!UICONTROL ADMINISTRATION]** : les opérateurs disposant du droit **[!UICONTROL ADMINISTRATION]** ont un accès total à l’instance. Les administrateurs peuvent exécuter/créer/éditer/supprimer tout objet tel que workflow, diffusion, script, etc.
 
-* **[!UICONTROL ADMINISTRATION]** D&#39;APPROBATION : Vous pouvez définir plusieurs étapes d’approbation dans les  et les  de pour vous assurer que l’état actuel a été approuvé par un opérateur ou un groupe affecté. Les utilisateurs disposant du droit **[!UICONTROL APPROBATION ADMINISTRATION]** peuvent définir les étapes d’approbation et affecter un opérateur ou un groupe d’opérateurs qui doit approuver ces étapes.
+* **[!UICONTROL ADMINISTRATION DES VALIDATIONS]** : vous pouvez définir plusieurs étapes de validation dans les workflows et les diffusions pour vous assurer que l’état actuel a été validé par un opérateur ou un groupe affecté. Les utilisateurs disposant du droit **[!UICONTROL ADMINISTRATION DES VALIDATIONS]** peuvent définir les étapes de validation et affecter un opérateur ou un groupe d’opérateurs chargé de valider ces étapes.
 
-* **[!UICONTROL CENTRAL]**: Droit à une gestion centralisée ().
+* **[!UICONTROL CENTRAL]** : droit de gestion en central (Marketing distribué).
 
-* **[!UICONTROL SUPPRIMER LE DOSSIER]**: Droit de supprimer des dossiers. Avec ce droit, les utilisateurs sont autorisés à supprimer des dossiers du de l’explorateur.
+* **[!UICONTROL SUPPRESSION DES DOSSIERS]** : droit de supprimer des dossiers. Avec ce droit, les utilisateurs sont autorisés à supprimer des dossiers dans la vue de l’explorateur.
 
-* **[!UICONTROL MODIFIER LES DOSSIERS]**: Droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
+* **[!UICONTROL ÉDITION DES DOSSIERS]** : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
 
-* **[!UICONTROL EXPORTER]**: Les utilisateurs peuvent exporter des données de leurs instances Adobe Campaign  dans un fichier sur le serveur ou l’ordinateur local à l’aide du flux de travail **[!UICONTROL EXPORTER]**  le de .
+* **[!UICONTROL EXPORT]** : les utilisateurs peuvent exporter des données depuis leurs instances Adobe Campaign vers un fichier du serveur ou de l’ordinateur local à l’aide de l’activité de workflow **[!UICONTROL EXPORT]**.
 
-* **[!UICONTROL ACCÈS AUX]** FICHIERS : Droit d’accès en lecture et écriture pour les fichiers via un script pouvant être écrit dans le flux de travail **[!UICONTROL JavaScript]**  le à lire/écrire des fichiers sur un serveur.
+* **[!UICONTROL ACCÈS AUX FICHIERS]** : droit d’accès aux fichiers en lecture et écriture via un script pouvant être écrit dans l’activité de workflow **[!UICONTROL JavaScript]** pour lire/écrire des fichiers sur un serveur.
 
-* **[!UICONTROL IMPORTER]**: Droit pour l’importation de données génériques. **[!UICONTROL IMPORT]** vous permet d&#39;importer des données dans n&#39;importe quel autre tableau, tandis que le droit **[!UICONTROL IMPORT]** vous permet d&#39;importer uniquement dans le tableau.
+* **[!UICONTROL IMPORT GÉNÉRIQUE]** : droit d’import générique de données. **[!UICONTROL IMPORT]** permet d’importer des données dans n’importe quelle autre table, tandis que le droit **[!UICONTROL IMPORT DE DESTINATAIRES]** ne permet d’effectuer un import que dans la table des destinataires.
 
-* **[!UICONTROL INSÉRER DES DOSSIERS]**: Droit d’insérer des dossiers. Les utilisateurs disposant du droit **[!UICONTROL INSERT FOLDERS]** peuvent créer de nouveaux dossiers dans l’arborescence de dossiers dans les  de l’explorateur.
+* **[!UICONTROL INSERTION DES DOSSIERS]** : droit d’insérer des dossiers. Les utilisateurs disposant du droit **[!UICONTROL INSERTION DES DOSSIERS]** peuvent créer des dossiers dans l’arborescence de dossiers à l’aide de la vue de l’explorateur.
 
-* **[!UICONTROL LOCAL]**: Droit à la gestion locale ().
+* **[!UICONTROL LOCAL]** : droit de gestion en local (Marketing distribué).
 
-* **[!UICONTROL FUSION]**: Droit de fusionner les enregistrements sélectionnés en un seul. Si des existent comme , le droit **[!UICONTROL MERGE]** permet à l’utilisateur de sélectionner le  et de le fusionner dans un principal.
+* **[!UICONTROL FUSION]** : droit de fusionner les enregistrements sélectionnés en un seul. S’il existe des doublons de destinataires, le droit **[!UICONTROL FUSION]** permet à l’utilisateur de les sélectionner et de les fusionner dans un destinataire principal.
 
-* **[!UICONTROL PRÉPARER]** DU : Droit de créer, modifier et enregistrer un  de. Les utilisateurs disposant du **[!UICONTROL droit de]** PREPARE peuvent également  le processus dede l’ de l’.
+* **[!UICONTROL PRÉPARER DES DIFFUSIONS]** : droit de créer, éditer et enregistrer une diffusion. Les utilisateurs disposant du droit **[!UICONTROL PRÉPARER DES DIFFUSIONS]** peuvent également lancer le processus d’analyse de diffusion.
 
-* **[!UICONTROL DONNÉES DE CONFIDENTIALITÉ DROITE]**: Droit de collecter et de supprimer des données de confidentialité. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+* **[!UICONTROL DROIT RELATIF AUX DONNÉES PERSONNELLES]** : droit de collecter et de supprimer des informations personnelles. Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html).
 
-* **[!UICONTROL EXÉCUTION]**: Droit d&#39;exécuter des commandes dans divers langages de programmation.
+* **[!UICONTROL EXÉCUTION DE PROGRAMMES]** : droit d’exécuter des commandes dans divers langages de programmation.
 
-* **[!UICONTROL IMPORTATION]**: Droit d&#39;importer des. Les utilisateurs disposant du droit **[!UICONTROL IMPORT]** peuvent importer un fichier local dans la table du.
+* **[!UICONTROL IMPORT DE DESTINATAIRES]** : droit d’importer des destinataires. Les utilisateurs disposant du droit **[!UICONTROL IMPORT DE DESTINATAIRES]** peuvent importer un fichier local dans la table des destinataires.
 
-* **[!UICONTROL SQL SCRIPT EXECUTION]** Droit d&#39;exécuter toute commande SQL directement sur la base de données.
+* **[!UICONTROL EXÉCUTION DE SCRIPTS SQL]** : droit d’exécuter des commandes SQL sur la base de données.
 
-* ****: Droit d’approuver les  précédemment analysées. Une fois la   de la terminée, le s’interrompt à diverses étapes d’approbation et doit être approuvé pour reprendre. Les utilisateurs disposant du **[!UICONTROL droit de]**  sont autorisés à approuver les.
+* **[!UICONTROL DÉMARRER DES DIFFUSIONS]** : droit de valider les diffusions préalablement analysées. Une fois l’analyse de diffusion terminée, la diffusion s’interrompt pour différentes étapes de validation et doit être approuvée pour reprendre. Les utilisateurs disposant du droit **[!UICONTROL DÉMARRER DES DIFFUSIONS]** sont autorisés à valider des diffusions.
 
-* **** USE SQL DATA MANAGEMENT ACTIVITY : Droit pour l&#39;écriture de vos propres scripts SQL à l&#39;aide de l&#39;activité Gestion des données SQL, afin de créer et de remplir des tables de travail (voir [cette section](../../workflow/using/sql-data-management.md)).
+* **[!UICONTROL UTILISER L’ACTIVITÉ DE GESTION DES DONNÉES SQL]** : droit d’écriture de vos propres scripts SQL, à l’aide de l’activité Gestion des données SQL, pour créer et remplir des tables de travail (voir [cette section](../../workflow/using/sql-data-management.md)).
 
-* **[!UICONTROL PROCESSUS]**: Droit d&#39;exécuter . Sans ce droit, les utilisateurs ne peuvent pas , arrêter ou redémarrer le .
+* **[!UICONTROL WORKFLOW]** : droit d’exécuter des workflows. Sans ce droit, les utilisateurs ne peuvent pas démarrer, arrêter ou redémarrer des workflows.
 
-* **[!UICONTROL WEBAPP]**: Droit d&#39;utiliser des applications Web.
+* **[!UICONTROL WEBAPP]** : droit d’utilisation des applications web.
 
 >[!NOTE]
 >
