@@ -14,7 +14,7 @@ discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
 
 ---
@@ -30,7 +30,7 @@ Vous pouvez entièrement personnaliser et paramétrer votre rapport en fonction 
 
 ## Propriétés générales {#overall-properties}
 
-L&#39;onglet **[!UICONTROL Général]** vous permet de consulter ou modifier le libellé et le schéma sur lesquel porte le rapport. Ces éléments sont renseignés lors de la création du rapport.
+L&#39;onglet **[!UICONTROL Général]** vous permet de consulter ou modifier le libellé et le schéma sur lesquels porte le rapport. Ces éléments sont renseignés lors de la création du rapport.
 
 Il est en revanche fortement déconseillé de modifier le **[!UICONTROL Nom interne]** : celui-ci est utilisé dans l&#39;URL d&#39;accès au rapport.
 
@@ -86,7 +86,7 @@ Les propriétés d&#39;un formulaire web sont présentés dans [cette page](../.
 
 ## Définir des paramètres supplémentaires {#defining-additional-settings}
 
-The **[!UICONTROL Parameters]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
+L’onglet **[!UICONTROL Paramètres]** permet de créer des paramètres supplémentaires pour le rapport : ils seront passés sur l’URL lors de l’appel.
 
 Les propriétés d&#39;un formulaire web sont présentés dans [cette page](../../web/using/about-web-forms.md).
 
@@ -111,11 +111,11 @@ Pour créer un nouveau paramètre :
 
    L&#39;option **[!UICONTROL Variable]** permet de créer ou sélectionner une variable qui sera passée en paramètre de l&#39;URL et pourra être utilisée au niveau des filtres.
 
-Les en-têtes **[!UICONTROL HTTP de]** réponse vous permettent d’empêcher les clics sur la page lorsque vous incluez votre rapport dans une page HTML à l’aide d’iframe. Pour éviter de cliquer sur le lien, vous pouvez choisir le comportement de l’en-tête **** X-Frame-options :
+Les **[!UICONTROL En-têtes HTTP de réponse]** permettent d’empêcher le détournement de clics (clickjacking) si la page du rapport est incorporée dans une page HTML à l’aide d’iframe. Pour éviter le détournement de clics, vous pouvez choisir le comportement de l’**[!UICONTROL En-tête X-Frame-Options]** :
 
-* **[!UICONTROL Aucun]**: Le rapport ne comporte aucun en-tête **** X-Frame-options.
-* **[!UICONTROL Identique à]**: Défini par défaut pour les nouveaux rapports et les rapports republiés. Le nom d’hôte sera identique à l’URL du rapport.
-* **[!UICONTROL Refuser]**: Le rapport ne peut pas être inclus dans une page HTML utilisant iframe.
+* **[!UICONTROL Aucun]** : le rapport ne comporte pas d’**[!UICONTROL En-tête X-Frame-Options]**.
+* **[!UICONTROL Même origine]** : défini par défaut pour les nouveaux rapports et les rapports republiés. Le nom d’hôte sera identique à l’URL du rapport.
+* **[!UICONTROL Refuser]** : le rapport ne peut pas être incorporé dans une page HTML à l’aide d’iframe.
 
 ![](assets/s_ncs_advuser_report_properties_09c.png)
 
