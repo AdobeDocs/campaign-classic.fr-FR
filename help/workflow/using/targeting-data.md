@@ -14,7 +14,7 @@ discoiquuid: 79f1e85a-b5e6-4875-ac57-ab979fc57079
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 # Cibler les données{#targeting-data}
 
-## Créer une requête  {#creating-queries}
+## Créer une requête   {#creating-queries}
 
 ### Sélectionner les données {#selecting-data}
 
