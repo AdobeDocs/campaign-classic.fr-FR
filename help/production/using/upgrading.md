@@ -14,7 +14,7 @@ discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 # Mise à jour de version{#upgrading}
 
-Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Adobe Campaign vers laquelle s&#39;effectue la mise à jour et consultez les [notes de mises à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html).
+Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Adobe Campaign vers laquelle s&#39;effectue la mise à jour et consultez les [notes de mises à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html).
 
 >[!CAUTION]
 >
@@ -31,11 +31,11 @@ Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Ad
 
 >[!NOTE]
 >
->Reportez-vous également au [guide d&#39;installation](../../installation/using/general-architecture.md) et au guide de prise en main sur l&#39;[upgrade de build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
+>Reportez-vous également au [guide d&#39;installation](../../installation/using/general-architecture.md) et au guide de prise en main sur l&#39;[upgrade de build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html).
 
 ## Sous Windows {#in-windows}
 
-Pour mettre à jour Adobe Campaign dans une nouvelle version lors de la livraison d&#39;un nouveau build, la procédure sous Windows est la suivante :
+Pour mettre à jour Adobe Campaign dans une nouvelle version lors de la diffusion d&#39;un nouveau build, la procédure sous Windows est la suivante :
 
 * [Arrêter les services](#shut-down-services),
 * [Mettre à jour l’application de serveur Adobe Campaign](#upgrade-the-adobe-campaign-server-application).
@@ -115,7 +115,7 @@ Les services à redémarrer sont :
 
 ## Sous Linux {#in-linux}
 
-Pour mettre à jour Adobe Campaign dans une nouvelle version lors de la livraison d&#39;un nouveau build, la procédure sous Linux est la suivante :
+Pour mettre à jour Adobe Campaign dans une nouvelle version lors de la diffusion d&#39;un nouveau build, la procédure sous Linux est la suivante :
 
 * [Obtenir les packages à jour](#obtain-updated-packages),
 * [Effectuer la mise à jour](#perform-an-update),
