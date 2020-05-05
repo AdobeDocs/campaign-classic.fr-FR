@@ -14,7 +14,7 @@ discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -61,7 +61,7 @@ Si vous obtenez l&#39;erreur **ORA 01805** lors du postupgrade, cela signifie qu
 
 1. Assurez-vous que les fichiers de fuseau horaire sont bien les mêmes sur les deux serveurs.
 
-For more information, visit: [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
+Pour plus d’informations, consultez le site : [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004)
 
 Une différence de fuseau horaire entre le client et le serveur peut également entraîner des retards. C&#39;est pourquoi nous recommandons d&#39;utiliser la même version de la bibliothèque Oracle du côté client et du côté serveur. Les deux fuseaux horaires doivent être identiques.
 
