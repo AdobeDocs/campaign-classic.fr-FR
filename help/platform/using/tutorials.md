@@ -14,7 +14,7 @@ discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -26,13 +26,13 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intuitifs.
 
-* [Edition du contenu des emails avec Adobe Experience Manager](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html) : découvrez les notions de base pour vous familiariser avec l&#39;intégration entre Adobe Campaign et Experience Manager.
-* [Gestion](https://helpx.adobe.com/campaign/kb/acc-privacy.html)de la confidentialité : découvrez ce que  Adobe Campaign Classic vous offre pour vous aider à respecter votre vie privée lors de l’utilisation de notre service.
-* [Intégrer le contenu dynamique dans un email](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html) : découvrez les notions de base sur l&#39;intégration entre Campaign Classic et Target Standard.
-* [Gérer la délivrabilité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) : découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Classic pour optimiser l&#39;envoi de vos diffusions.
-* [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) : découvrez les bonnes pratiques relatives à la conception des diffusions et aux envois dans Adobe Campaign Classic.
-* [Réaliser une mise à niveau de build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) : ce guide vous présente les principales étapes et bonnes pratiques pour réaliser une mise à niveau de build avec Campaign Classic.
-* [Liste de contrôle relative à la configuration de la sécurité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html) : découvrez les éléments essentiels à vérifier concernant la configuration et le renforcement de la sécurité pour le déploiement on-premise.
+* [Edition du contenu des emails avec Adobe Experience Manager](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/aem.html) : découvrez les notions de base pour vous familiariser avec l&#39;intégration entre Adobe Campaign et Experience Manager.
+* [Gestion des données personnelles](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html) : découvrez ce que propose Adobe Campaign Classic pour vous aider à respecter la conformité en matière de données personnelles.
+* [Intégrer le contenu dynamique dans un email](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/target.html) : découvrez les notions de base sur l&#39;intégration entre Campaign Classic et Target Standard.
+* [Gérer la délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) : découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Classic pour optimiser l&#39;envoi de vos diffusions.
+* [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) : découvrez les bonnes pratiques relatives à la conception des diffusions et aux envois dans Adobe Campaign Classic.
+* [Réaliser une mise à niveau de build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) : ce guide vous présente les principales étapes et bonnes pratiques pour réaliser une mise à niveau de build avec Campaign Classic.
+* [Liste de contrôle relative à la configuration de la sécurité](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/security.html) : découvrez les éléments essentiels à vérifier concernant la configuration et le renforcement de la sécurité pour le déploiement on-premise.
 
 Obtenez des informations supplémentaires sur Adobe Campaign en consultant les cas pratiques et exemples suivants :
 
