@@ -14,7 +14,7 @@ discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b9c57b3cba0e8c24300396c2abac613f6e1193a
 
 ---
@@ -28,11 +28,11 @@ Toutefois, Adobe Campaign ne gère pas lui-même les fichiers archivés : il v
 
 Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transférés vers un serveur distant, comme un serveur de messagerie SMTP. La destination de l&#39;archivage est une adresse email en Cci (invisible aux destinataires de la diffusion) que vous devez spécifier.
 
-## Recommandations et limitations   {#recommendations-and-limitations}
+## Recommandations et limitations    {#recommendations-and-limitations}
 
 * Cette fonctionnalité d&#39;archivage des emails est en option. Vérifiez votre contrat de licence.
-* For **hosted and hybrid architectures**, contact your account executive to activate it. L’adresse BCC de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
-* For **on-premise installations**, follow the guidelines below to activate it - see the [Activating email archiving (on premise)](#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
+* Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l’activer. L’adresse BCC de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
+* Pour les **installations on-premise**, suivez les instructions d’activation ci-dessous : voir les sections [Activer l’archivage des emails (on-premise)](#activating-email-archiving--on-premise-) et [Configuration de l’adresse email en Cci (on-premise)](#configuring-the-bcc-email-address--on-premise-).
 * Vous ne pouvez utiliser qu&#39;une seule adresse email en Cci.
 * Une fois la fonctionnalité email en Cci paramétrée, vérifiez qu’elle est activée dans le modèle de diffusion ou la diffusion par le biais de l’option **[!UICONTROL Archiver les emails]**. Voir à ce sujet [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 * Seuls les emails envoyés sont pris en compte, les retours ne le sont pas.
