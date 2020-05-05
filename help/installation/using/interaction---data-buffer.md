@@ -14,7 +14,7 @@ discoiquuid: cbfdeb2f-4f20-45b8-8cc0-89362f9ea9c1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 >[!NOTE]
 >
->Certains paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration de l&#39;instance et du serveur. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Certains paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration de l&#39;instance et du serveur. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
 
 Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
 
