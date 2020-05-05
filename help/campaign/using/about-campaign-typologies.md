@@ -14,7 +14,7 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
 
 # A propos des typologies de campagne{#about-campaign-typologies}
 
-Campaign Optimization est le module  qui vous permet de contrôler, filtrer et surveiller l&#39;envoi devos données. Pour éviter les conflits entre les campagnes,  Adobe Campaign peut tester diverses combinaisons en appliquant des règles de contrainte spécifiques. Cela garantit que les messages envoyés répondent aux besoins et aux attentes des clients et aux politiques de communication  des.
+Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clients et des stratégies de communication de l’entreprise.
 
 >[!NOTE]
 >
@@ -68,4 +68,4 @@ Pendant la préparation de la diffusion, les destinataires sont exclus lorsque l
 
 **Rubrique connexe**
 
-* [Appliquer des règles d’entreprises automatiques aux diffusions sur n’importe quel canal](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
+* [Appliquer des règles d’entreprises automatiques aux diffusions sur n’importe quel canal](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
