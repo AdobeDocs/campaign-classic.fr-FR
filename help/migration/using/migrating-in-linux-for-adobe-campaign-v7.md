@@ -14,7 +14,7 @@ discoiquuid: 8f6519e8-5c8d-4974-b193-a9f1cf78b3a3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
@@ -29,7 +29,7 @@ Les étapes de migration sous Linux sont les suivantes :
 1. Arrêter les services : voir la section [Arrêt des services](#service-stop).
 1. Enregistrer la base de données : voir [Sauvegarde de la base et de l&#39;installation existante](#back-up-the-database-and-the-existing-installation).
 1. Désinstaller les packages de version précédente d&#39;Adobe Campaign : voir [Désinstallation des packages de version précédente d&#39;Adobe Campaign](#uninstalling-adobe-campaign-previous-version-packages).
-1. Migrate the platform: refer to [Deploying Adobe Campaign v7](#deploying-adobe-campaign-v7).
+1. Effectuer la migration de la plateforme : voir la section [Déploiement d’Adobe Campaign v7](#deploying-adobe-campaign-v7).
 1. Redémarrer le service : voir la section [Redémarrage des services](#re-starting-services).
 
 ## Arrêt des services {#service-stop}
