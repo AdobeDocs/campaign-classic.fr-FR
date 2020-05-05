@@ -14,7 +14,7 @@ discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 954018e1016fc924064bd795066f80704499f6a7
 
 ---
@@ -36,7 +36,7 @@ La page qui s&#39;affiche permet de visualiser l&#39;état de l&#39;instance con
 * la liste des processus manquants et les informations d&#39;exécution (date de démarrage, PID, etc.),
 * une vue des workflows et des diffusions.
 
-D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-maintenance.html).
 
 ### Journal des logs {#log-journal}
 
@@ -417,7 +417,7 @@ L&#39;opérateur et son login doivent avoir été préalablement configurés dan
 
 #### Le /nl/jsp/monitor.jsp{#nl-jsp-monitor-jsp}
 
-Il s’agit d’un test permettant de vérifier qu’un opérateur peut accéder au serveur Adobe Campaign  via une page Web ; la même page Web que celle accessible via les menus de la console client. Vous pouvez appeler cette page à partir de vos outils de surveillance (Tivoli, Nagios, etc.).
+Ce test permet de vérifier qu’un opérateur peut accéder au serveur Adobe Campaign via une page web. Il s’agit de la même page que celle accessible via les menus de la console cliente. Vous pouvez l’appeler à partir de vos outils de surveillance (Tivoli, Nagios, etc.).
 
 ![](assets/ncs_monitoring_web.png)
 
