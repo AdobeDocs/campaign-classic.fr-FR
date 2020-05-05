@@ -14,7 +14,7 @@ discoiquuid: b9846eda-eeca-433e-b961-6dfc2aa2708b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -42,7 +42,7 @@ Chaque opérateur Adobe Campaign est associé à un fuseau horaire : cette info
 
 Lorsque la plateforme Adobe Campaign ne nécessite pas la gestion des fuseaux horaires, il est possible de conserver un mode de stockage au format local, avec un fuseau horaire spécifique associé.
 
-## Recommandations  {#recommendations}
+## Recommandations   {#recommendations}
 
 Les fuseaux horaires recouvrent plusieurs réalités : le terme peut désigner un décalage constant par rapport à la date UTC, ou les horaires d&#39;une région qui peut changer d&#39;heure deux fois dans l&#39;année (heure d&#39;hiver/heure d&#39;été).
 
@@ -103,5 +103,5 @@ Exemple de valeurs possibles :
 * Europe/London,
 * America/New_York, etc.
 
-   Ces valeurs sont extraites de la base de données tz (Olson). Pour plus d’informations, voir [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+   Ces valeurs sont extraites de la base de données tz (Olson). Pour plus d’informations, voir la page [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
