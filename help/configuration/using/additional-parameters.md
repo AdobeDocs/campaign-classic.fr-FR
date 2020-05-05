@@ -14,7 +14,7 @@ discoiquuid: 1b2ae224-8406-4506-b589-6e5f6631e87f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
@@ -79,14 +79,14 @@ Une fois la configuration modifiée, vous devez :
 
    >[!NOTE]
    >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : nlserver d&#39;arrêt **systemctl**
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
 * Sous Linux, supprimer les segments de mémoire partagée via la commande **ipcrm**,
 * Redémarrer le serveur Adobe Campaign : **net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux,
 
    >[!NOTE]
    >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl  nlserver**
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
 * Redémarrer le serveur Web.
 
