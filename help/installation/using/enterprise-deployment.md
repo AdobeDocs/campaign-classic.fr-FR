@@ -14,7 +14,7 @@ discoiquuid: 066d0ac1-033c-467b-aa6c-43a97ecd8632
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
@@ -181,7 +181,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
    >[!NOTE]
    >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl  nlserver**
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
 
    ```
@@ -277,7 +277,7 @@ Les étapes sont les suivantes :
    * Pour Linux : [Intégration à un serveur Web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
    * Pour Windows : [Intégration à un serveur Web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
 
-1. Copiez les fichiers **config-demo.xml** et **serverConf.xml** créés lors de l&#39;installation, puis, dans le fichier  **config-demo.xml**, activez le processus **trackinglogd** et désactivez les processus **mta**, **inmail**, **wfserver** et **stat**.
+1. Copiez les fichiers **config-demo.xml** et **serverConf.xml** créés lors de l&#39;installation, puis, dans le fichier **config-demo.xml**, activez le processus **trackinglogd** et désactivez les processus **mta**, **inmail**, **wfserver** et **stat**.
 1. Editez le fichier **serverConf.xml** et renseignez les serveurs de tracking redondants dans les paramètres de la redirection :
 
    ```
