@@ -12,7 +12,7 @@ discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 >[!CAUTION]
 >
->Ce décrit  processus d&#39;intégration de votre application mobile à la  plate-forme Adobe Campaign. Il ne fournit aucune information sur la création de l’application mobile ni sur la manière de la configurer pour la gestion des notifications. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
+>Ce document décrit le processus d’intégration de votre application mobile avec la plateforme Adobe Campaign. Il ne donne aucune information ni sur la création de l’application mobile ni sur son paramétrage pour la gestion des notifications. Si vous souhaitez obtenir des informations à ce sujet, reportez-vous aux documentations officielles [Apple](https://developer.apple.com/) et [Android](https://developer.android.com/index.html).
 
 Les sections ci-dessous apportent des informations spécifiques à Mobile App Channel.
 
@@ -48,18 +48,18 @@ A ces deux canaux correspondent deux activités de diffusion dans les workflows 
 
 Vous pouvez définir le comportement de l’application lorsque l’utilisateur active la notification afin d’afficher l’écran correspondant au contexte de l’application. Par exemple :
 
-* Une notification est envoyée au client pour l&#39;informer que son colis est sorti de l&#39;entrepôt. L&#39;activation de la notification affiche une page contenant les informations relatives à la livraison.
+* Une notification est envoyée au client pour l&#39;informer que son colis est sorti de l&#39;entrepôt. L&#39;activation de la notification affiche une page contenant les informations relatives à la diffusion.
 * L&#39;utilisateur a ajouté des éléments à son panier, mais il a quitté l&#39;application sans concrétiser l&#39;achat. Une notification est envoyée, l&#39;informant que son panier a été abandonné. Lorsque l&#39;utilisateur active la notification, l&#39;écran du produit abandonné est affiché.
 
 >[!CAUTION]
 >
->* Vous devez vous assurer que les notifications envoyées à une application mobile sont conformes aux conditions et conditions préalables spécifiées par Apple (Apple Push Notification Service) et Google (Firebase Cloud Messaging).
+>* Vous devez vous assurer que les notifications envoyées vers une application mobile sont conformes aux prérequis et conditions définis par Apple (Apple Push Notification Service) et Google (Firebase Cloud Messaging).
 >* Attention : dans certains pays, la loi exige que vous informiez les utilisateurs de vos applications mobiles du type de données collectées et de la finalité de leur traitement. Vous devez vérifier la législation.
 
 
 Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez le [Guide Workflows](../../workflow/using/mobile-app-channel.md).
 
-Adobe Campaign est compatible avec l&#39;APNS binaire et HTTP/2. Pour plus d’informations sur les étapes de configuration, reportez-vous à la section [Configuration d’une application mobile dans  Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) section.
+Adobe Campaign est compatible avec l&#39;APNS binaire et HTTP/2. Pour plus d’informations sur la procédure de configuration, voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 ## Parcours des données {#data-path}
 
