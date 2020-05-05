@@ -14,7 +14,7 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 527d2dd2296d18c8ca26745b9f87d65c6fdf480a
 
 ---
@@ -30,13 +30,13 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires 
 >
 >Cette section s&#39;applique aux canaux on-line : email, SMS et notification push.
 
-### Optimiser votre diffusion par le biais des mises en quarantaine  {#optimizing-your-delivery-through-quarantines}
+### Optimiser votre diffusion par le biais des mises en quarantaine   {#optimizing-your-delivery-through-quarantines}
 
 Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
 Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. Les mises en quarantaine permettent donc d&#39;éviter des blacklistages de la part de ces fournisseurs.
 
-De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d&#39;informations sur les bonnes pratiques en matière de sécurisation et d&#39;optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html).
+De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d&#39;informations sur les bonnes pratiques en matière de sécurisation et d&#39;optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html).
 
 ### Mise en quarantaine et blacklistage {#quarantine-vs-blacklisting}
 
@@ -50,15 +50,15 @@ En revanche, en cas de **blacklistage**, c&#39;est le profil qui ne sera plus ci
 >
 >Lorsqu&#39;un utilisateur répond à un SMS avec un mot-clé tel que &quot;STOP&quot; pour se désinscrire des diffusions SMS, son profil n&#39;est pas blacklisté comme c&#39;est le cas pour la désinscription des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
-## Identifier les adresses en quarantaine  {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine   {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion  {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion   {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme  {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme   {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -110,13 +110,13 @@ Les adresses en blackliste ne sont pas soumises au système des quarantaines et 
 
 Vous pouvez également modifier le nombre d&#39;erreurs prévues au compteur et la durée entre deux erreurs. Pour cela, modifiez les paramètres de l&#39;assistant de déploiement (Canal emails/Paramètres avancés). Reportez-vous à [cette section](../../installation/using/deploying-an-instance.md) pour la présentation de l&#39;assistant de déploiement.
 
-## Conditions de mise en quarantaine d&#39;une adresse  {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d&#39;une adresse   {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de la diffusion et de la raison attribuée lors de la qualification des messages d&#39;erreur (voir les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
 * **Erreur de type Ignoré** : les erreurs de type Ignoré ne mettent pas une adresse en quarantaine.
 * **Erreur de type Hard** : l&#39;adresse email correspondante est mise immédiatement en quarantaine.
-* **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. For more on this, see [Soft error management](#soft-error-management).
+* **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. Pour plus d’informations, voir la section [Comprendre la gestion des erreurs de type Soft](#soft-error-management).
 
 Si un utilisateur qualifie un email comme du spam (**système de gestion des plaintes (feedback loop)**), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L&#39;adresse email de l&#39;utilisateur est alors automatiquement mise en quarantaine.
 
@@ -124,15 +124,15 @@ Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#3
 
 ![](assets/tech_quarant_error_reasons.png)
 
-### Gestion des erreurs douces {#soft-error-management}
+### Gestion des erreurs de type Soft {#soft-error-management}
 
-Contrairement aux erreurs matérielles, les erreurs douces n’envoient pas immédiatement une adresse au, mais incrémentent plutôt un compteur d’erreurs.
+Contrairement aux erreurs de type Hard, les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d’erreurs.
 
-* Lorsque le compteur d’erreurs atteint le seuil limite, l’adresse est placée dans le  du.
-* Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d&#39;au moins 24h. L&#39;adresse est placée en  à la cinquième erreur.
+* Quand le compteur d’erreurs atteint le seuil limite, l’adresse passe en quarantaine.
+* Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d&#39;au moins 24h. L’adresse est mise en quarantaine à la cinquième erreur.
 * Le seuil du compteur d&#39;erreurs peut être modifié. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Le compteur d’erreurs est réinitialisé si la dernière erreur significative s’est produite il y a plus de 10 jours. The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
+Le compteur d’erreurs est réinitialisé si la dernière erreur significative s’est produite plus de 10 jours avant. Le statut de l’adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow **Nettoyage de la base**.
 
 ## Quarantaines des notifications push {#push-notification-quarantines}
 
