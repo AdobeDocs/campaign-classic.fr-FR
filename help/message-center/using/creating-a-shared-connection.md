@@ -14,7 +14,7 @@ discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
@@ -77,7 +77,7 @@ Procédez comme suit pour créer un compte externe de type instance d&#39;exécu
 
    >[!NOTE]
    >
-   >Veuillez noter que lors de l’utilisation de  sur HTTP, seules les instances d’exécution utilisant une base de données Postgres sont prises en charge. Les bases de données MSSQL ou Oracle ne sont pas prises en charge.
+   >Veuillez noter que lors de l’utilisation de FDA sur HTTP, seules les instances d’exécution utilisant une base de données Postgres sont prises en charge. Les bases de données MSSQL ou Oracle ne sont pas prises en charge.
 
    La deuxième méthode est recommandée si l&#39;instance de pilotage peut avoir un accès direct aux bases de données des instances d&#39;exécution. Dans le cas contraire, choisissez l&#39;accès par service Web. Le compte FDA à spécifier correspond à la connexion vers les bases des différentes instances d&#39;exécution créée sur l&#39;instance de pilotage.
 
