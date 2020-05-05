@@ -14,7 +14,7 @@ discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
@@ -37,4 +37,4 @@ Connecteur HTTP/2 : vous devez autoriser les communications à destination et e
 
 >[!NOTE]
 >
->For more information on the two connectors, refer to [Configuring the mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+>Pour plus d’informations sur les deux connecteurs, voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
