@@ -14,7 +14,7 @@ discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7db84fc951234cb6257d8e41615ba7fc5b2c6f77
 
 ---
@@ -32,9 +32,9 @@ La section ci-dessous décrit les configurations côté serveur qui peuvent êtr
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+* [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
 * [Modèles d&#39;hébergement](../../installation/using/hosting-models.md)
-* [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)
+* [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html)
 * [Etapes de configuration des modèles hybrides et hébergés](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
 
 Les fichiers de configuration de Campaign Classic sont stockés dans le dossier **conf** du dossier d’installation d’Adobe Campaign. La configuration est répartie sur deux fichiers :
@@ -349,7 +349,7 @@ Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de co
 Vous pouvez gérer les autorisations d’URL en fonction de votre modèle d’hébergement :
 
 * **Hybride** ou **On-premise** : ajoutez les URL à autoriser dans le fichier **serverConf.xml**. Des informations détaillées sont disponibles dans la section ci-dessous.
-* **Hébergé** : ajoutez les URL à autoriser via le **Panneau de contrôle**. Pour plus d’informations, consultez la [documentation dédiée](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/url-permissions.html).
+* **Hébergé** : ajoutez les URL à autoriser via le **Panneau de contrôle**. Pour plus d’informations, consultez la [documentation dédiée](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/url-permissions.html).
 
 Avec les modèles d’hébergement **Hybride** et **On-premise** , l’administrateur doit référencer une nouvelle **urlPermission** dans le fichier **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
