@@ -14,7 +14,7 @@ discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
@@ -26,11 +26,11 @@ source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 Cette section présente les étapes préliminaires de paramétrage indispensables avant de procéder à l&#39;installation d&#39;Adobe Campaign.
 
-La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 Pour rappel, les composants suivants doivent être installés et correctement paramétrés :
 
-* Apache, voir [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html),
+* Apache, voir [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html),
 * JDK Java et OpenJDK, voir la section [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Librairies, voir la section [Librairies](#libraries),
 * Couches d&#39;accès base de données, voir la section [Couches d&#39;accès base de données](#database-access-layers),
@@ -53,7 +53,7 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librai
 
 * Vous devez impérativement disposer de la version **0.9.8** ou **1.0** d&#39;OpenSSL.
 
-   Pour les distributions RHEL 7, la version 1.0 d&#39;OpenSSL est requise.
+   Pour les distributions RHEL 7, la version 1.0 d’OpenSSL est requise.
 
 * Pour utiliser Adobe Campaign, la librairie suivante doit être installée : **libicu**.
 
@@ -170,7 +170,7 @@ Les paramétrages suivants sont nécessaires sous CentOS :
 
 Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign. Selon le moteur de base de données utilisé, les versions et modes d&#39;installation peuvent différer.
 
-Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 Consultez également section générale [Base de données](../../installation/using/database.md).
 
