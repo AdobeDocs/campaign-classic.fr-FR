@@ -14,7 +14,7 @@ discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
 
 ---
@@ -25,11 +25,11 @@ source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
 ## Créer une requête {#creating-a-query}
 
 Une requête permet de sélectionner une cible selon des critères. Vous pouvez associer un code segment au résultat de la requête et y insérer des données additionnelles.
-Pour plus d&#39;informations sur les exemples de , reportez-vous à cette [section](../../workflow/using/querying-recipient-table.md).
+Pour plus d’informations sur des exemples de requêtes, voir [cette section](../../workflow/using/querying-recipient-table.md).
 
 >[!NOTE]
 >
->   ne sont pas compatibles avec les champs CLOB lors de l’utilisation d’Oracle.
+>   Les activités de requêtes ne sont pas compatibles avec les champs CLOB si vous utilisez Oracle.
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -189,7 +189,7 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 
    Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
 
-Pour plus d’informations, reportez-vous aux sections [Bonnes pratiques relatives au modèle de données](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html) et [Mapping de la base de données](../../configuration/using/database-mapping.md).
+Pour plus d’informations, reportez-vous aux sections [Bonnes pratiques relatives au modèle de données](https://helpx.adobe.com/fr/campaign/kb/acc-data-model-best-practices.html) et [Mapping de la base de données](../../configuration/using/database-mapping.md).
 
 ### Fonctions {#functions}
 
