@@ -14,7 +14,7 @@ discoiquuid: 04faa9f3-d160-4060-b26e-44333f2faf71
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
@@ -30,7 +30,7 @@ Les commandes d&#39;installation permettent de :
 
 * Copier les fichiers sous **/usr/local/neolane**
 * Créer un compte Linux Adobe Campaign (et le groupe associé), avec pour répertoire racine (home directory) : **/usr/local/neolane**,
-* Créer un script de démarrage automatique au démarrage **/etc/init.d/nlserver6**, ou créer une unité système (à partir de 20.1).
+* Créer un script de démarrage automatique au démarrage **/etc/init.d/nlserver6**, ou créer une unité systemd (à partir de la version 20.1).
 
 >[!NOTE]
 >
@@ -104,10 +104,10 @@ Pour installer Adobe Campaign 64 bits sur un système d&#39;exploitation Debian 
 
 **Particularités de Debian 8/9**
 
-Lorsque vous installez  Adobe Campaign sur un système d&#39;exploitation Debian 8/9, tenez compte des points suivants :
+Pour installer Adobe Campaign sur un système d’exploitation Debian 8/9, tenez compte des points suivants :
 
 * OpenSSL doit être installé préalablement.
-* Installer les librairies ), libicu52 (Debian 8) ou libicu57 (Debian 9), libprotobuf9 (Debian8) et libc-ares2 avec les commandes suivantes :
+* Installer les librairies libicu52 (Debian 8) ou libicu57 (Debian 9), libprotobuf9 (Debian8) et libc-ares2 avec les commandes suivantes :
 
    ```
    aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
@@ -248,7 +248,7 @@ Les commandes sont les suivantes :
 /etc/init.d/nlserver6 start
 ```
 
-À compter de la version 20.1, nous vous recommandons d’utiliser les commandes suivantes :
+À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante :
 
 ```
 systemctl stop nlserver
