@@ -14,7 +14,7 @@ discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
@@ -110,7 +110,7 @@ Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des commande
 
       >[!NOTE]
       >
-      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : nlserver d&#39;arrêt **systemctl**
+      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
    * Sous Windows :
 
@@ -134,7 +134,7 @@ De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des commande
 
       >[!NOTE]
       >
-      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl  nlserver**
+      >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
    * Sous Windows : net start nlserver6
 
