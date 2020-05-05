@@ -14,7 +14,7 @@ discoiquuid: 7b0aef75-345d-45be-b7d0-a9f6944ee678
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
@@ -238,7 +238,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_form_2.png)
 
-1. Configurez le workflow de l&#39;opération et le formulaire web. Reportez-vous à [Création d’une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
+1. Configurez le workflow de l&#39;opération et le formulaire web. Voir la section [Créer une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
 1. Créez votre kit d&#39;opération en spécifiant le planning de réalisation et les entités locales impliquées.
 
    ![](assets/mkg_dist_use_case_form_3.png)
