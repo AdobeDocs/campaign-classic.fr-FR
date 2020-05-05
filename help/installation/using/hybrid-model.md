@@ -14,7 +14,7 @@ discoiquuid: f5244ab8-2421-4d76-bcf6-3574e68ea4e9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
@@ -28,7 +28,7 @@ Voici les étapes d’installation et de configuration qui s’appliquent aux mo
 * Configuration des URL de tracking et page miroir par marque. Pour les messages transactionnels, consultez cette [section](../../message-center/using/configuring-multibranding.md).
 * Installation de la console cliente : consultez cette [section](../../installation/using/installing-the-client-console.md).
 * Installation des packages : consultez cette [section](../../installation/using/installing-campaign-standard-packages.md).
-* Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
+* Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez cette [section](../../installation/using/configuring-campaign-options.md).
 * Configuration d’une base de données externe (FDA) : voir cette [section](../../platform/using/about-fda.md).
 * Configuration des connecteurs CRM : voir cette [section](../../platform/using/crm-connectors.md).
