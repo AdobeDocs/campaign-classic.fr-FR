@@ -14,7 +14,7 @@ discoiquuid: 87a6cbda-54a6-4dae-8224-e06dc217f4fc
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
@@ -44,7 +44,7 @@ Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/
 
 Si vous aviez modifié ces applications web et souhaitez continuer à les utiliser en v7, vous devez activer l&#39;option **allowSQLInjection** dans vos différentes zones de sécurité et relancer le postupgrade. Consultez la section [SQLData](../../migration/using/general-configurations.md#sqldata) pour en savoir plus.
 
-## Convivialité :  et navigation {#user-friendliness--home-page-and-navigation}
+## Ergonomie : page d’accueil et navigation{#user-friendliness--home-page-and-navigation}
 
 >[!IMPORTANT]
 >
