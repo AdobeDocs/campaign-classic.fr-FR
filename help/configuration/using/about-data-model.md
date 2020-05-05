@@ -12,7 +12,7 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87966db35779f0e6a4b09a1a3ba1c30d4d002518
 
 ---
@@ -24,11 +24,11 @@ Cette section décrit les notions de base du modèle de données Adobe Campaign 
 
 Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction.
 
-Pour accéder à la description de chaque table, accédez à **[!UICONTROL Admin > Configuration > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
+Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > Paramétrage > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
 
 ![](assets/data-model_documentation-tab.png)
 
-For more on the default Campaign Classic data model description, refer to this [section](../../configuration/using/data-model-description.md).
+Pour plus d’informations sur la description du modèle de données par défaut de Campaign Classic, consultez cette [section](../../configuration/using/data-model-description.md).
 
 La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
