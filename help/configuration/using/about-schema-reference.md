@@ -12,7 +12,7 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 Ce chapitre décrit le mécanisme et le langage des schémas du modèle conceptuel de données de la base de données Adobe Campaign. Il est destiné à tous les développeurs ou intégrateurs voulant créer et éditer un schéma ou étendre un schéma d&#39;usine dans Adobe Campaign.
 
-Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
 La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée **schéma**.
 
