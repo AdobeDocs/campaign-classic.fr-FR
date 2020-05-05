@@ -14,7 +14,7 @@ discoiquuid: 860be8be-f28c-4836-b4fb-e91c6a4616c6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
@@ -40,7 +40,7 @@ Les commandes suivantes permettent de démarrer/arrêter manuellement le service
 
 >[!NOTE]
 >
->À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl  nlserver** / **systemctl stop nlserver**
+>À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver** / **systemctl stop nlserver**
 
 Voici une liste des commandes usuelles d&#39;administration accessibles sous Linux (en tant qu&#39;**Adobe Campaign**) :
 
