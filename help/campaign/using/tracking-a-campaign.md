@@ -14,7 +14,7 @@ discoiquuid: e1f8958d-f036-4635-be6e-ebdbea6ac116
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
@@ -51,7 +51,7 @@ Cette information est proposée aussi dans la vue **[!UICONTROL Commandes d&#39;
 
 L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux modes :
 
-1. L’opérateur peut cliquer sur le nom de la commande pour la modifier : affiche les détails de la commande.
+1. L’opérateur peut cliquer sur le nom de la commande pour l’éditer : il accède alors aux détails de celle-ci.
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 
