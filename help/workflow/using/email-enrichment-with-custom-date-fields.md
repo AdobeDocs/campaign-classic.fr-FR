@@ -14,7 +14,7 @@ discoiquuid: 9cb3be65-6652-47fa-b8a4-e088530aab4a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c4b5b7c44bbc74f56d3c70b93b131bba4d78c6f
 
 ---
@@ -126,4 +126,4 @@ Vous pouvez maintenant commencer à concevoir votre diffusion par email avec les
 
    ![](assets/uc_enrichment_20.png)
 
-Votre courriel est maintenant prêt. Vous pouvez  envoyer vos et confirmer votre  pour envoyer vos e-mails d&#39;anniversaire.
+Votre email est maintenant prêt. Vous pouvez commencer à envoyer vos BAT et confirmer la diffusion concernant vos emails d’anniversaire.
