@@ -14,7 +14,7 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 ---
@@ -28,7 +28,7 @@ Vous trouverez également dans [cette section](../../workflow/using/supervising-
 
 En outre, les administrateurs de l’instance peuvent utiliser le **journal d’audit** pour vérifier les activités et les dernières modifications apportées aux workflows, c’est-à-dire l’état de vos workflows. Pour plus de détails, reportez-vous à la [section dédiée](../../production/using/audit-trail.md).
 
-D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-maintenance.html).
 
 ## Afficher la progression {#displaying-progress}
 
@@ -266,7 +266,7 @@ Les vues disponibles sont les suivantes :
 * **[!UICONTROL En cours d’exécution]** : répertorie tous les workflows en cours d’exécution.
 * **[!UICONTROL En pause]** : répertorie tous les workflows en pause.
 * **[!UICONTROL Échec]** : répertorie tous les workflows en échec.
-* **[!UICONTROL en attente]**:  tous les  qui attendent d’être démarrés par le processus operationMgt. Ce est disponible uniquement avec le package de campagnes **** marketing (voir [Installation de packages](../../installation/using/installing-campaign-standard-packages.md)standard Campaign).
+* **[!UICONTROL Démarrage en attente]** : répertorie tous les workflows en attente de démarrage par le processus operationMgt. Cette vue n’est disponible que dans le package des **campagnes marketing** (voir la section [Installation des packages standard de Campaign](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
