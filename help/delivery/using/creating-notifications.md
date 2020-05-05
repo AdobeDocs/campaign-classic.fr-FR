@@ -14,7 +14,7 @@ discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
@@ -59,7 +59,7 @@ Créez tout d&#39;abord une nouvelle diffusion.
    >Le mode **Silent push** est disponible à partir de la version 7 d&#39;iOS. Il permet d&#39;envoyer une notification &quot;silencieuse&quot; à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transmise à l&#39;application.
 
 1. Dans le champ **[!UICONTROL Titre]**, renseignez le libellé du titre que vous souhaitez voir apparaître sur la notification. Il apparaîtra uniquement au niveau de la liste de notifications disponible depuis le centre de notifications. Ce champ permet de définir la valeur du paramètre **title** de la payload des notifications iOS.
-1. Si vous utilisez le connecteur HTTP/2, vous pouvez ajouter un sous-titre (valeur du paramètre **subtitle** de la payload des notifications iOS). Reportez-vous à la section [Configuration de l’application mobile dans  Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md) .
+1. Si vous utilisez le connecteur HTTP/2, vous pouvez ajouter un sous-titre (valeur du paramètre **subtitle** de la payload des notifications iOS). Voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 1. Saisissez ensuite le **[!UICONTROL Message]** et la **[!UICONTROL Valeur de la pastille]**, en fonction du type de notification choisi.
 
    ![](assets/nmac_delivery_ios_5.png)
@@ -77,13 +77,13 @@ Créez tout d&#39;abord une nouvelle diffusion.
 
    >[!NOTE]
    >
-   >Les sons doivent être inclus dans l’application et définis lors de la création du service. Refer to [Configuring iOS external account](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
+   >Les sons doivent être inclus dans l’application et définis lors de la création du service. Voir la section [Configuration du compte externe iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios).
 
 1. Dans le champ **[!UICONTROL Variables de l&#39;application]**, renseignez la valeur de chaque variable. Les variables de l&#39;application permettent de définir le comportement des notifications : par exemple, lorsque l&#39;utilisateur active la notification, il est possible d&#39;afficher un écran particulier de l&#39;application.
 
    >[!NOTE]
    >
-   >Les variables d’application doivent être définies dans le code de l’application mobile et saisies lors de la création du service. For more on this, refer to: [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+   >Les variables d’application doivent être définies dans le code de l’application mobile et saisies lors de la création du service. Voir à ce sujet la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Une fois la notification renseignée, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour afficher la prévisualisation de la notification.
 
@@ -129,7 +129,7 @@ Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking de
 
    >[!NOTE]
    >
-   >Les variables d’application doivent être définies dans le code de l’application mobile et saisies lors de la création du service. For more on this, refer to: [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+   >Les variables d’application doivent être définies dans le code de l’application mobile et saisies lors de la création du service. Voir à ce sujet la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 1. Une fois la notification renseignée, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour afficher la prévisualisation de la notification.
 
