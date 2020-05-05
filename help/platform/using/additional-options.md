@@ -14,7 +14,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 
 ---
