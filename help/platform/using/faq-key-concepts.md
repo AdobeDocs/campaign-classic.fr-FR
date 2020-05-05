@@ -13,7 +13,7 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
@@ -42,7 +42,7 @@ Vérifiez les [numéros de version et de build](../../platform/using/launching-a
 
 Adobe Campaign Classic est proposé avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur configuration peuvent dépendre du [type de déploiement](../../installation/using/hosting-models.md) de votre installation : hébergé (services gérés) ou on-premise.
 
-[Pour en savoir plus, cliquez ici](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+[Pour en savoir plus, cliquez ici](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ## Comment configurer les permissions utilisateur ?{#how-can-i-set-up-user-permissions-}
 
@@ -60,7 +60,7 @@ Il s&#39;agit d&#39;un ensemble de droits et de restrictions qui autorisent ou r
 
 Adobe Campaign propose un ensemble d’outils pour vous aider à respecter la vie privée dans le cadre du RGPD et de la CCPA.
 
-Consultez [ce document](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html) afin de connaître les outils et les fonctionnalités proposés par Adobe Campaign, ainsi que les bonnes pratiques, pour respecter le RGPD lors de l&#39;utilisation de notre service. Les étapes de mise en œuvre de Campaign Classic sont décrites dans [cet article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
+Consultez [ce document](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html) afin de connaître les outils et les fonctionnalités proposés par Adobe Campaign, ainsi que les bonnes pratiques, pour respecter le RGPD lors de l&#39;utilisation de notre service. Les étapes de mise en œuvre de Campaign Classic sont décrites dans [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html).
 
 ## Quelles notions concernant l&#39;interface utilisateur de Campaign faut-il connaître ? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
@@ -108,11 +108,11 @@ Vous pouvez le Digital Content Editor Adobe Campaign pour concevoir une landing 
 
 Vous pouvez effectuer un tracking des diffusions envoyées avec Campaign Classic via des [rapports de diffusion](../../reporting/using/delivery-reports.md) dédiés et les suivre ensuite.
 
-En savoir plus sur la gestion du suivi dans Campaign dans [cette page](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
+En savoir plus sur la gestion du suivi dans Campaign dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html).
 
 ## Quelles sont les bonnes pratiques en matière de sécurité (on-premise) ? {#what-are-security-best-practices--on-premise--}
 
-Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/campaign/kb/acc-security.html) pour découvrir les éléments essentiels à contrôler en ce qui concerne le renforcement et la configuration de la sécurité pour les déploiements on-premise.
+Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) pour découvrir les éléments essentiels à contrôler en ce qui concerne le renforcement et la configuration de la sécurité pour les déploiements on-premise.
 
 ## Comment traduire un message d’erreur ? {#how-to-translate-an-error-message-}
 
@@ -126,10 +126,10 @@ Découvrez comment [créer un formulaire web](../../web/using/about-web-forms.md
 
 Adobe évalue constamment les fonctionnalités du produit et prévoit au fil du temps de remplacer certaines d’entre elles par des versions plus puissantes, ou décide de mettre à nouveau en œuvre certaines parties pour mieux se préparer aux attentes ou aux extensions futures. Comme Campaign fonctionne avec des outils tiers, la compatibilité est mise à jour régulièrement, afin de mettre en œuvre les versions prises en charge uniquement.
 
-[Pour en savoir plus, cliquez ici](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+[Pour en savoir plus, cliquez ici](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
 
 ## De nouvelles mises à jour de la documentation et des documents d&#39;aide sont-ils publiés ?{#are-there-new-documentation-updates-and-help-materials-released-}
 
-Les dernières mises à jour apportées à la documentation de Campaign Classic sont répertoriées sur [cette page](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html).
+Les dernières mises à jour apportées à la documentation de Campaign Classic sont répertoriées sur [cette page](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/documentation-updates.html).
 
-Vous pouvez également vous reporter aux dernières notes techniques répertoriées sur [cette page](https://helpx.adobe.com/campaign/kb/article-list.html).
+Vous pouvez également vous reporter aux dernières notes techniques répertoriées sur [cette page](https://helpx.adobe.com/fr/campaign/kb/article-list.html).
