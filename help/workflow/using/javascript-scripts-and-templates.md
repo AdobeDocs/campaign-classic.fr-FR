@@ -14,7 +14,7 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d36192a768fd0162f2301a5fe0437074d0fda58
 
 ---
@@ -74,11 +74,11 @@ Les variables sont des propriétés libres des objets **[!UICONTROL instance]**,
 
 ### Les variables d&#39;instances {#instance-variables}
 
-The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables. They are shared by all activities.
+Les variables d’instances (**[!UICONTROL instance.vars.xxx]**) sont comparables à des variables globales. Elles sont partagées par toutes les activités.
 
 ### Les variables de tâches {#task-variables}
 
-The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local variables. They are only used by the current task. These variables are used by persistent activities to keep data and are sometimes used to exchange data between the different scripts of a same activity.
+Les variables de tâches (**[!UICONTROL task.vars.xxx]**) sont comparables à des variables locales. Elles ne sont accessibles que par la tâche en cours. Ces variables sont utilisées par des activités persistantes pour conserver des données et sont parfois utilisées pour échanger des valeurs entre différents scripts d’une même activité.
 
 ### Les variables d&#39;événements {#event-variables}
 
@@ -90,7 +90,7 @@ Ces variables sont les plus communément utilisées et doivent être préférée
 
 Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit de variables de type chaîne. Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [A propos des activités](../../workflow/using/about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
 
-### Exemples  {#example}
+### Exemples   {#example}
 
 **Exemple 1**
 
