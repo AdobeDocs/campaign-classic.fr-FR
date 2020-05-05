@@ -14,7 +14,7 @@ discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
@@ -152,13 +152,13 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
       où **$(l)** est l’identifiant de la diffusion.
 
-   * Dans les tables de logs de diffusion (**NmsBroadlogXxx**), des suppressions en masse sont exécutées, par groupes de 20,000 enregistrements.
-   * Dans les tables de propositions d&#39;offres (**NmsPropositionXxx**), des suppressions en masse sont exécutées, par groupes de 20,000 enregistrements.
-   * Dans les tables de logs de tracking (**NmsTrackinglogXxx**), des suppressions en masse sont exécutées, par groupes de 20,000 enregistrements.
-   * In the delivery fragment table (**NmsDeliveryPart**), mass-deletions are executed in batches of 500,000 records. Ce tableau contient des informations de personnalisation sur les messages restants à diffuser.
-   * Dans la table de fragments de données  (**NmsMirrorPageInfo**), les suppressions de masse sont exécutées par lots de 20 000 enregistrements pour les pièces de expirées et pour les pièces de terminées ou annulées. Ce tableau contient des informations de personnalisation sur tous les messages utilisés pour générer des  de.
-   * Dans le tableau de recherche  (**NmsMirrorPageSearch**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements. Ce tableau est un index de recherche qui donne accès aux informations de personnalisation stockées dans la table **NmsMirrorPageInfo** .
-   * Dans la table du journal de traitement par lot (**XtkJobLog**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements. Ce tableau contient le journal des  à supprimer.
+   * Dans les tables de logs de diffusion (**NmsBroadlogXxx**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements.
+   * Dans les tables de propositions d’offres (**NmsPropositionXxx**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements.
+   * Dans les tables de logs de tracking (**NmsTrackinglogXxx**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements.
+   * Dans la table de fragments de diffusion (**NmsDeliveryPart**), les suppressions en masse sont exécutées par groupes de 500 000 enregistrements. Cette table contient des informations de personnalisation relatives aux messages restants à diffuser.
+   * Dans la table des fragments de données des pages miroir (**NmsMirrorPageInfo**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements pour les fragments de diffusion arrivés à expiration, mais aussi terminés ou annulés. Cette table contient des informations de personnalisation relatives à tous les messages utilisés pour générer les pages miroir.
+   * Dans la table de recherche des pages miroir (**NmsMirrorPageSearch**), les suppressions en masse sont exécutées par groupes de 20 000 enregistrements. Cette table est un index de recherche qui donne accès aux informations de personnalisation stockées dans la table **NmsMirrorPageInfo**.
+   * Dans la table de log de traitement par lot (**XtkJobLog**), les suppressions en masse sont exécutées par lots de 20 000 enregistrements. Cette table contient le log des diffusions à supprimer.
    * Dans la table de tracking des URL d&#39;une diffusion (**NmsTrackingUrl**), la requête suivante est utilisée :
 
       ```
@@ -586,7 +586,7 @@ DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 
 où **$(tsDate)** est la date courante du serveur à laquelle est soustraite la période définie pour l’option **XtkCleanup_AuditTrailPurgeDelay**.
 
-### Nettoyage de Nmsaddress {#cleanup-of-nmsaddress}
+### Nettoyer Nmsaddress {#cleanup-of-nmsaddress}
 
 La requête suivante est utilisée :
 
@@ -594,7 +594,7 @@ La requête suivante est utilisée :
 DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
 ```
 
-Ce supprime toutes les entrées liées à iOS et Android.
+Cette requête supprime toutes les entrées relatives à iOS et Android.
 
 ### Mise à jour des statistiques et optimisation du stockage {#statistics-update}
 
@@ -618,7 +618,7 @@ SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema I
 
 La tâche récupère ensuite les noms des tables associées au lien **appSubscription** et supprime ces tables.
 
-Ce processus de nettoyage supprime également toutes les entrées où idisabled = 1 n’a pas été mis à jour depuis l’heure définie dans l’option **NmsCleanup_AppSubscriptionRcpPurgeDelay** .
+Ce processus de nettoyage supprime également toutes les entrées pour lesquelles idisabled = 1 n’a pas été mis à jour depuis l’heure définie dans l’option **NmsCleanup_AppSubscriptionRcpPurgeDelay**.
 
 ### Nettoyage des informations de session {#cleansing-session-information}
 
