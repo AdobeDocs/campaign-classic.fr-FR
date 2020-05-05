@@ -14,7 +14,7 @@ discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
@@ -38,5 +38,5 @@ Vous pouvez également intégrer Campaign à plusieurs autres systèmes, tels qu
 
 >[!NOTE]
 >
->La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Consultez la [matrice des fonctionnalités de Campaign on-premise/hébergé](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Consultez la [matrice des fonctionnalités de Campaign on-premise/hébergé](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
 
