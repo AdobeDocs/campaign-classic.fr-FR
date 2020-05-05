@@ -14,7 +14,7 @@ discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
@@ -30,7 +30,7 @@ Ces bases sont appelées RBL (Real-time Blackhole List) et leur consultation rep
 * Par domaine d&#39;envoi : recense les domaines d&#39;envoi (domaine complet de l&#39;adresse de mails rebonds) émetteurs de spam ou présentant un défaut de configuration.
 * Par domaine web : recense les domaines (domaines de haut niveau tels qu&#39;enregistrés auprès des registrars) trouvés dans les URL des liens et des images des spams. Dans Adobe Campaign, le domaine à considérer est généralement le domaine utilisé pour le tracking.
 
-Voici un  des RBL les plus utilisés. Pour obtenir un  plus complet, reportez-vous au formulaire [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) (&quot;Recherche de liste noire de messages indésirables&quot;).
+La liste qui suit répertorie les listes RBL les plus utilisées. Pour obtenir une liste plus complète, voir le formulaire [https://www.dnsstuff.com/](https://tools.dnsstuff.com/) (formulaire « Recherche de blackliste de spam »).
 
 * **Spamhaus**
 
