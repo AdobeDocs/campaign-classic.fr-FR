@@ -14,7 +14,7 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61c7681535dc08e1d705d7d239e96c603bbad339
 
 ---
@@ -44,16 +44,16 @@ Sous Adobe Campaign, les applications web permettent d&#39;accéder aux fonction
 * Personnalisation du rendu et du positionnement des champs. Voir à ce propos [cette page](../../web/using/editing-content.md#adding-personalization-content).
 * Affichage conditionnel des champs du formulaire en fonction des réponses. Voir à ce propos [cette page](../../web/using/form-rendering.md#defining-fields-conditional-display).
 * Affichage aléatoire de questions. Voir à ce propos [cette page](../../web/using/building-a-survey.md#adding-questions).
-* Conditionnement de l&#39;affichage des pages. Voir à ce propos [cette page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+* Affichage conditionnel des pages. Voir à ce propos [cette page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
 * Vérification des informations avant validation, en fonction du type de données attendu (nombre, adresse email, date, etc.) et des champs obligatoires. Voir à ce propos [cette page](../../web/using/form-rendering.md#defining-control-settings).
 * Invitations/Notification par email. Voir à ce propos [cette page](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
 * Personnalisation des messages d&#39;erreur et de fin. Voir à ce propos [cette page](../../web/using/defining-web-forms-properties.md#setting-up-an-error-page).
-* Ajout d&#39;images, vidéos, liens hypertextes, captcha, etc. Voir à ce propos [cette page](../../web/using/editing-content.md).
+* Ajout d&#39;images, vidéos, liens hypertexte, captcha, etc. Voir à ce propos [cette page](../../web/using/editing-content.md).
 * Suivi des réponses en temps réel. Voir à ce propos [cette page](../../web/using/publish--track-and-use-collected-data.md#response-tracking).
 
 Le module de création **Questionnaire** optionnel offre les fonctionnalités additionnelles suivantes :
 
-* Extension dynamique de la base de données : création de réponses ne faisant pas partie du modèle de données initial. Voir à ce propos [cette page](../../web/using/managing-answers.md#storing-collected-answers).
+* Extension dynamique de la base de données : création de réponses ne faisant pas partie du modèle de données initial. Voir à ce propos [cette page](../../web/using/managing-answers.md#storing-collected-answers).
 * Génération de rapports dédiés. Voir à ce propos [cette page](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys).
 
 Par rapport aux applications Web, les questionnaires proposent une interface graphique allégée : le nombre de contrôles d&#39;édition est réduit.
