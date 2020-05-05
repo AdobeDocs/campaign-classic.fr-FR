@@ -1,6 +1,6 @@
 ---
-title: ' Adobe Campaign Description du modèle de données Classic'
-description: Ce  décrit le modèle de données  Classic.
+title: ' Description du modèle de données d’Adobe Campaign Classic'
+description: Ce document décrit le modèle de données d’Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -12,17 +12,17 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4406e11e33e14136ea43fc3cc5a92e0d1c466100
 
 ---
 
 
-# Description du modèle de données Campaign{#data-model-description}
+# Description du modèle de données de Campaign{#data-model-description}
 
-Un modèle de données d&#39;usine est fourni avec Adobe Campaign. Cette section donne quelques détails sur les tableaux intégrés du modèle de données Adobe Campaign  et sur leur interaction.
+Un modèle de données d’usine est fourni avec Adobe Campaign. Cette section donne un certain nombre de détails sur les tables intégrées du modèle de données d’Adobe Campaign et leurs interactions.
 
-To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
+Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > Paramétrage > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
 
 ![](assets/data-model_documentation-tab.png)
 
@@ -30,217 +30,217 @@ To access the description of each table, go to **[!UICONTROL Admin > Configurati
 >
 >La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
-## Description des tableaux principaux {#description-main-tables}
+## Description des tables principales {#description-main-tables}
 
-Adobe Campaign repose sur une base de données relationnelle contenant des tables liées entre elles.
+Adobe Campaign repose sur une base de données relationnelle contenant des tables liées entre elles.
 
-Le diagramme suivant montre les jointures entre les principaux tableaux d&#39;activité du modèle de données Adobe Campaign  et les champs principaux de chacun.
+Le diagramme ci-après illustre les jointures entre les principales tables métier du modèle de données d’Adobe Campaign et leurs champs principaux.
 
 <!--![](assets/data-model_diagram.png)-->
 
 ![](assets/data-model_simplified-diagram.png)
 
-Le modèle de données  prédéfini Adobe Campaign comprend les principaux tableaux répertoriés ci-dessous.
+Le modèle de données prédéfini d’Adobe Campaign est constitué des principales tables répertoriées ci-dessous.
 
 ### NmsRecipient {#NmsRecipient}
 
-Ce tableau correspond au  **nms:** .
+Cette table correspond au schéma **nms:recipient**.
 
-Il s’agit du tableau par défaut utilisé pour les **de**. Par conséquent, il contient les informations requises pour les  par l&#39;intermédiaire des divers  de :
+Il s’agit de la table par défaut utilisée pour les **destinataires des diffusions**. Elle contient les informations nécessaires aux diffusions effectuées par l’intermédiaire des différents canaux :
 
-* sEmail : adresse électronique.
-* iEmailFormat : format préféré pour les courriers électroniques (1 pour le texte, 2 pour le code HTML et 0 si non défini).
-* sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity sont utilisés pour construire l’adresse postale (conformément à la norme XPZ 10-011 AFNOR de mai 1997).
-* sPhone, sMobilePhone, sFax contiennent respectivement les numéros de téléphone, de téléphone mobile et de fax.
-* iBlackList est l’indicateur d’exclusion par défaut utilisé pour le  du (1 signifie &quot;désabonnement&quot;, 0 dans le cas contraire).
+* sEmail : adresse email.
+* iEmailFormat : format à privilégier pour les emails (1 pour le texte, 2 pour le code HTML et 0 si indéfini).
+* Les champs sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity sont utilisés pour construire l’adresse postale (conformément à la norme AFNOR XPZ 10-011 de mai 1997).
+* Les champs sPhone, sMobilePhone, sFax contiennent respectivement les numéros de téléphone, de téléphone mobile et de fax.
+* iBlackList est l’indicateur d’opt-out par défaut utilisé pour les profils (1 signifie « désabonné », 0 dans le cas contraire).
 
-Le champ iFolderId est la clé étrangère qui lie le à son dossier d’exécution. Pour plus d’informations, voir [XtkFolder](#XtkFolder).
+Le champ iFolderId est la clé étrangère servant à relier le destinataire à son dossier d’exécution. Voir à ce propos la section [XtkFolder](#XtkFolder).
 
-Le champ sCountryCode correspond au code ISO 3166-1 Alpha 2 (2 caractères) du pays associé au. Ce champ est en fait une clé étrangère sur la table de référence du pays (NmsCountry), qui contient les étiquettes du pays et d&#39;autres données de code du pays. Si le pays n’est pas renseigné, la valeur XX est stockée (et utilisée à la place d’un enregistrement d’ID nul).
+Le champ sCountryCode contient le code ISO 3166-1 Alpha 2 (2 caractères) du pays associé au destinataire. Ce champ est en fait une clé étrangère liée à la table de référence des pays (NmsCountry), qui contient les libellés des pays et d’autres données relatives aux codes des pays. Si le pays n’est pas renseigné, la valeur « XX » est indiquée (et est utilisée à la place d’un enregistrement d’ID nul).
 
 Pour plus d’informations sur la table des destinataires, voir cette [section](../../configuration/using/about-data-model.md#default-recipient-table).
 
 ### NmsGroup {#NmsGroup}
 
-Ce tableau correspond au  **nms:group** .
+Cette table correspond au schéma **nms:group**.
 
-Il vous permet de créer des groupes **statistiques de**. Il existe une relation de type &quot;plusieurs à plusieurs&quot; entre et groupes. Par exemple, un peut appartenir à plusieurs groupes et un groupe peut contenir plusieurs. Les groupes peuvent être créés manuellement, par le biais d’une importation ou d’un ciblage de . Les groupes sont souvent utilisés comme  . Il existe un index unique sur le champ représentant le nom interne du groupe sName. Le groupe est lié à un dossier (la clé est iFolderId. Pour plus d’informations, voir [XtkFolder](#XtkFolder)).
+Elle permet de créer des **groupes statistiques destinataires**. Il existe une relation de type « plusieurs à plusieurs » entre destinataires et groupes. Par exemple, un destinataire peut appartenir à plusieurs groupes et un groupe peut contenir plusieurs destinataires. Il est possible de créer manuellement des groupes par le biais d’un import ou d’un ciblage de diffusion. Les groupes sont souvent utilisés comme cibles de diffusion. Il existe un index unique relatif au champ qui représente le nom interne du groupe sName. Le groupe est lié à un dossier (la clé est iFolderId. Voir à ce propos la section [XtkFolder](#XtkFolder)).
 
 ### NmsRcpGrpRel {#NmsRcpGrpRel}
 
-La table de relations NmsRcpGrpRel contient uniquement les deux champs correspondant aux identificateurs des tables liées iRecipientId et iGroupId.
+La table de relations NmsRcpGrpRel ne contient que les deux champs correspondant aux identifiants des tables liées iRecipientId et iGroupId.
 
 ### NmsService {#NmsService}
 
-Ce tableau correspond au  **nms:service** .
+Cette table correspond au schéma **nms:service**.
 
-Dans  Adobe Campaign, vous pouvez créer et gérer  à(rubriques). Le tableau NmsService stocke la définition du  (sujets) à laquelle vous  vosà s’abonner (newsletter, par exemple).
+Adobe Campaign permet de créer et de gérer des abonnements à des services d’information (rubriques). La table NmsService contient la définition des services d’information (rubriques) proposés à vos destinataires pour qu’ils s’abonnent (par exemple à une newsletter).
 
-Les services sont des entités qui sont similaires aux groupes (groupes de statiques), sauf qu&#39;ils diffusent plus d&#39;informations et permettent une gestion facile des  de  et de de l&#39;par le biais de formulaires.
+Les services sont des entités similaires aux groupes (regroupements statiques de destinataires), sauf qu’ils diffusent davantage d’informations et facilitent la gestion des abonnements et des désabonnements grâce à des formulaires.
 
-Il existe un index unique sur le champ représentant le nom interne du service sName. Le service est lié à un dossier (la clé est iFolderId. Pour plus d’informations, voir [XtkFolder](#XtkFolder)). Enfin, le champ iType spécifie le  de ce service (0 pour le courrier électronique, 1 pour le SMS, 2 pour le téléphone, 3 pour le courrier direct et 4 pour le fax).
+Il existe un index unique relatif au champ qui représente le nom interne du service sName. Le service est lié à un dossier (la clé est iFolderId. Voir à ce propos la section [XtkFolder](#XtkFolder)). Enfin, le champ iType spécifie le canal de diffusion de ce service (0 pour les emails, 1 pour les SMS, 2 pour le téléphone, 3 pour le courrier et 4 pour le fax).
 
 ### NmsSubscription {#NmsSubscription}
 
-Ce tableau correspond au **** nms: .
+Cette table correspond au schéma **nms:subscription**.
 
-Il vous permet de gérer   à l&#39; de l&#39;.
+Elle permet de gérer les abonnements des destinataires à des services d’information.
 
 ### NmsSubHisto {#NmsSubHisto}
 
-Ce tableau correspond au  **nms:subHisto** .
+Cette table correspond au schéma **nms:subHisto**.
 
-Si les  de  sont gérées à l’aide de formulaires Web ou de l’interface de l’application, tous les sous-titres et les  de sont répertoriés dans le tableau NmsSubHisto. Le champ iAction spécifie l’action (0 pour  et 1 pour ) effectuée à la date stockée dans le champ tsDate.
+Si les abonnements sont gérés à l’aide de formulaires web ou de l’interface de l’application, tous les abonnements et désabonnements sont répertoriés dans la table NmsSubHisto. Le champ iAction spécifie l’action (0 pour les abonnements et 1 pour les désabonnements) effectuée à la date indiquée dans le champ tsDate.
 
 ### NmsDelivery {#NmsDelivery}
 
-Ce tableau correspond au **** nms:.
+Cette table correspond au schéma **nms:delivery**.
 
-Each record in this table represents a **delivery action** or a **delivery template**. Il contient tous les paramètres nécessaires à l’exécution des  de (le , le contenu, etc.). Les journaux de  (diffusion) (NmsBroadLog) et les URL de suivi associées (NmsTrackingUrl) sont créés au cours de la phase  de l&#39; de l&#39;(voir ci-dessous pour plus de détails sur ces deux tableaux).
+Chaque enregistrement de cette table représente une **action de diffusion** ou un **modèle de diffusion**. Elle contient tous les paramètres nécessaires pour effectuer des diffusions (cible, contenu, etc.). Les logs de diffusion (NmsBroadLog) et leurs URL de tracking associées (NmsTrackingUrl) sont créés au cours de la phase d’analyse (voir ci-dessous pour plus de détails sur ces deux tables).
 
-Il existe un index unique sur le champ représentant le nom interne du ou du scénario sInternalName. Le est lié à un dossier d’exécution (la clé étrangère est iFolderProcessId. Pour plus d’informations, voir [XtkFolder](#XtkFolder)).
+Il existe un index unique relatif au champ qui représente le nom interne de la diffusion ou du scénario sInternalName. La diffusion est liée à un dossier d’exécution (la clé étrangère est iFolderProcessId. Voir à ce propos la section [XtkFolder](#XtkFolder)).
 
 ### XtkFolder {#XtkFolder}
 
 Il contient **tous les dossiers de l’arborescence** visibles dans l’onglet **Navigation** de la console.
 
-Les dossiers sont saisis : la valeur du champ sModel spécifie le type de données pouvant être contenues dans le dossier. Ce champ permet également à la console client d’afficher correctement les données avec les formulaires correspondants. Les valeurs possibles de ce champ sont définies dans navTree.
+Les dossiers sont associés à des types : la valeur du champ sModel indique le type des données éventuellement contenues dans le dossier. Ce champ permet également à la console cliente d’afficher correctement les données à l’aide des formulaires correspondants. Les valeurs possibles de ce champ sont définies dans navTree.
 
-L’arborescence est gérée par les champs iParentId et iChildCount. Le champ sFullName indique le chemin d’accès complet du dossier dans l’arborescence. Enfin, il existe un index unique sur le champ représentant le nom interne du dossier sName.
+L’arborescence est gérée à l’aide des champs iParentId et iChildCount. Le champ sFullName indique le chemin d’accès complet du dossier dans l’arborescence. Enfin, il existe un index unique relatif au champ qui représente le nom interne du dossier sName.
 
-##  et suivi des {#delivery-and-tracking}
+##  Diffusion et tracking {#delivery-and-tracking}
 
-Cet ensemble de tableaux est lié au module **** , qui permet de surveiller les  de et les éventuels problèmes rencontrés lors de l&#39;envoi des messages. For more on this, see [Monitoring deliveries](../../delivery/using/monitoring-a-delivery.md). Pour plus d’informations sur le suivi, voir [Suivi des messages](../../delivery/using/about-message-tracking.md).
+Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce propos la section [Suivre les diffusions](../../delivery/using/monitoring-a-delivery.md). Voir à ce propos la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
-**NmsBroadLogMsg**: Ce tableau correspond au  **nms:broadLogMsg** . Il s’agit d’une extension de la table du journal des  du.
+**NmsBroadLogMsg** : cette table correspond au schéma **nms:broadLogMsg**. Il s’agit d’une extension de la table des logs de diffusion.
 
 ## Gestion de campagne {#campaign-management}
 
-Cet ensemble de tableaux est lié au module Campagnes **** marketing, qui permet de définir, d’optimiser, d’exécuter et d’analyser les campagnes de communication et de marketing. For more on this, see [About marketing campaigns](../../campaign/using/designing-marketing-campaigns.md).
+Cet ensemble de tables, lié au module **Campagnes marketing**, permet de définir, d’optimiser, d’exécuter et d’analyser les campagnes de communication et de marketing Voir à ce propos la section [À propos des campagnes marketing](../../campaign/using/designing-marketing-campaigns.md).
 
 ![](assets/data-model_campaign.png)
 
-* **NmsOperation**: Ce tableau correspond au  **nms:operation** . Il contient les données des campagnes marketing.
-* **NmsDeliveryOutline**: Ce tableau correspond au  **nms:deliveryOutline** . Il contient les propriétés étendues du  ().
-* **NmsDlvOutlineItem**: Ce tableau correspond au  **nms:dlvOutlineItem** . Il contient les articles d’un .
-* **NmsDeliveryCustomization**: Ce tableau correspond au  **nms:deliveryCustomization** . Il contient le  d’un  de.
-* **NmsBudget**: Ce tableau correspond au  **nms:budget** . Il contient les données d’un budget sur une campagne, un plan, un , un, un  et/ou un .
-* **NmsDocument**: Ce tableau correspond au **** nms:. Il contient le marketing de la campagne sous la forme de fichiers (images, fichiers Excel ou Word, etc.)
-* **XtkWorkflow**: Ce tableau correspond au  **xtk:workflow** . Il contient le ciblage de campagne.
-* **NmsTask**: Ce tableau correspond au **** nms:. Il contient la définition d’un  marketing.
-* **NmsAsset**: Ce tableau correspond au  **nms:asset** . Il contient la définition d’un .
+* **NmsOperation** : cette table correspond au schéma **nms:operation**. Elle contient les données relatives aux campagnes marketing.
+* **NmsDeliveryOutline** : cette table correspond au schéma **nms:deliveryOutline**. Elle contient les propriétés étendues de la diffusion (composition de la diffusion).
+* **NmsDlvOutlineItem** : cette table correspond au schéma **nms:dlvOutlineItem**. Elle contient les articles d’une composition de diffusion.
+* **NmsDeliveryCustomization** : cette table correspond au schéma **nms:deliveryCustomization**. Elle contient les champs de personnalisation d’une diffusion.
+* **NmsBudget** : cette table correspond au schéma **nms:budget**. Elle contient les données de budget d’une campagne, d’un plan, d’un programme, d’une tâche et/ou de diffusions.
+* **NmsDocument** : cette table correspond au schéma **nms:document**. Elle contient les documents marketing de la campagne sous forme de fichiers (images, fichiers Excel ou Word, etc.)
+* **XtkWorkflow** : cette table correspond au schéma **xtk:workflow**. Elle contient le ciblage de la campagne.
+* **NmsTask** : cette table correspond au schéma **nms:task**. Elle contient la définition d’une tâche marketing.
+* **NmsAsset** : cette table correspond au schéma **nms:asset**. Elle contient la définition d’une ressource marketing.
 
 ## Cohérence des communications {#communication-consistency}
 
-Cet ensemble de tableaux est lié au module **Campaign Optimization** , qui permet de contrôler, filtrer et surveiller l&#39;envoi des  de. For more on this, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
+Cet ensemble de tables, lié au module **Optimisation des campagnes**, permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Voir à ce propos la section [À propos des typologies de campagne](../../campaign/using/about-campaign-typologies.md).
 
 ![](assets/data-model_typology.png)
 
-* **NmsTypologyRule**: Ce tableau correspond au  **nms:typologyRule** . Il contient les règles qui s&#39;appliquent aux selon les typologies.
-* **NmsTypology**: Ce tableau correspond au  **nms:typology** . Il contient l’ensemble de règles à appliquer aux  qui correspondent à la typologie.
-* **NmsTypologyRuleRel**: Ce tableau correspond au  **nms:typologyRuleRel** . Il contient les relations entre les typologies et leurs règles.
-* **NmsVolumeLine**: Ce tableau correspond au  **nms:volumeLine** . Il contient l&#39;ensemble des lignes de disponibilité des règles de capacité.
-* **NmsVolumeConsumed**: Ce tableau correspond au  **nms:volumeConsumed** . Il contient toutes les lignes de consommation des règles de capacité.
+* **NmsTypologyRule** : cette table correspond au schéma **nms:typologyRule**. Elle contient les règles applicables aux diffusions, selon leurs typologies.
+* **NmsTypology** : cette table correspond au schéma **nms:typology**. Elle contient l’ensemble des règles applicables aux diffusions en correspondance avec leur typologie.
+* **NmsTypologyRuleRel** : cette table correspond au schéma **nms:typologyRuleRel**. Elle contient les relations entre les typologies et leurs règles.
+* **NmsVolumeLine** : cette table correspond au schéma **nms:volumeLine**. Elle contient l’ensemble des lignes de disponibilité des règles de capacité.
+* **NmsVolumeConsumed** : cette table correspond au schéma **nms:volumeConsumed**. Elle contient toutes les lignes de consommation des règles de capacité.
 
-## Gestion des réponses {#response-management}
+## Gestion de la réaction {#response-management}
 
-Cet ensemble de tableaux est lié au module **** , ce qui permet de mesurer le succès et la rentabilité des campagnes marketing ou des  de pour tous les de communication. For more on this, see [About response manager](../../campaign/using/about-response-manager.md).
+Cet ensemble de tables, lié au module **Gestion de la réaction**, permet de mesurer le succès et la rentabilité des campagnes marketing ou des propositions d’offres pour tous les canaux de communication. Voir à ce propos la section [À propos de la gestion de la réaction](../../campaign/using/about-response-manager.md).
 
 ![](assets/data-model_response.png)
 
-### NmsRemaHypothèse {#NmsRemaHypothesis}
+### NmsRemaHypothesis {#NmsRemaHypothesis}
 
-Ce tableau coïncide avec le  **nms:remaHypothèse** . Il contient la définition de la mesure  .
+Cette table coïncide avec le schéma **nms:remaHypothesis**. Elle contient la définition de l’hypothèse de mesure.
 
-Ce tableau contient des informations importantes stockées dans XML, notamment :
+Ce tableau contient des informations importantes stockées au format XML, notamment :
 
-**Contexte d’exécution (informations stockées dans XML)**
+**Contexte d’exécution (informations stockées au format XML)**
 
-Le contexte d’exécution renseigne les tableaux et les champs à prendre en compte pour le calcul des mesures, à savoir :
-* Le journal de réaction nms:remaMatchRcp  le  .
-*  de la table de transaction (achats, par exemple).
-* Le d’interrogation, qui vous permet de définir la table  des conditions dede .
-* Liens vers des individus, qui vous permettent d’identifier l’individu en fonction du d’interrogation.
-* Date de transaction. Ce champ n’est pas obligatoire, mais nous vous recommandons de l’utiliser pour limiter le périmètre de calcul.
-* Montant de la transaction : il s’agit d’un champ facultatif permettant de calculer automatiquement les indicateurs de recettes.
+Le contexte d’exécution renseigne les tables et les champs à prendre en compte pour le calcul des mesures, à savoir :
+* Le schéma de stockage des logs de réaction nms:remaMatchRcp
+*  Le schéma de la table de transaction (achats, par exemple)
+* Le schéma de requêtage, destiné à définir la table de départ des conditions des hypothèses
+* Les liens vers les personnes, pour les identifier spécifiquement en fonction du schéma de requêtage
+* La date de transaction Ce champ n’est pas obligatoire, mais nous vous recommandons de l’utiliser pour limiter le périmètre de calcul.
+* Le montant de la transaction : il s’agit d’un champ facultatif pour calculer automatiquement les indicateurs de chiffre d’affaires.
 
-**de périmètre du (informations stockées dans XML)**
+**Périmètre de l’hypothèse (informations stockées au format XML)**
 
-Le périmètre   consiste à filtrer le de la  en fonction de la table du d’interrogation.
+Le périmètre de l’hypothèse consiste à filtrer l’hypothèse en fonction de la table du schéma de requêtage.
 
-**script de  surcharge du (informations stockées dans XML)**
+**Script de surcharge d’hypothèse (informations stockées au format XML)**
 
-Le script de  de surcharge du est un code JavaScript qui vous permet de surcharger le contenu du  pendant l’exécution.
+Le script de surcharge de l’hypothèse, écrit en code JavaScript, permet de surcharger le contenu de l’hypothèse en cours d’exécution.
 
 **Indicateurs de mesure**
 
-Les indicateurs suivants sont mis à jour automatiquement lors de l’ d’exécution du  :
+Les indicateurs suivants sont automatiquement mis à jour lors de l’exécution de l’hypothèse :
 
-* Nombre de réactions : **iTransaction**. Nombre de lignes dans le tableau des journaux de réaction.
-* Nombre de personnes contactées : **iContactReact**. Nombre unique de contacts ciblés dans le  .
-* Nombre de  : **iProofReact**. Nombre unique de contacts  ciblés dans la  de l’.
-* Taux de réponse contacté : **dContactReactRate**. Taux de réponse des contacts ciblés dans le  .
-* Taux de réponse du  : **dProofReactRate**. Taux de réponse de la   .
-* Recettes totales de la population contactée : **dContactReactTotalAmount**. Recettes totales des contacts ciblés dans le  .
-* Recettes moyennes des  : **dContactReactAvgAmount**. Recettes moyennes des contacts  du ciblé dans la  de l’.
-* Recettes totales du  : **dProofReactTotalAmount**. Recettes totales de la   .
-* Recettes moyennes des  : **dProofReactAvgAmount**. Recettes moyennes de l&#39;  .
-* Marge totale par contact : **dContactReactTotalMargin**. Marge totale par contact ciblé dans le  .
-* Marge moyenne par contact : **dContactReactAvgMargin**. Marge moyenne par contact ciblé dans le  .
-* Marge totale des  de : **dProofReactTotalMargin**. Marge totale du  ciblé dans le .
-* Marge moyenne des  : **dProofReactAvgMargin**. Marge moyenne du  ciblé dans le .
-* Recettes supplémentaires : **dAdditionnalAmount**. (Recettes moyennes des personnes contactées - Recettes moyennes des) * Nombre de personnes contactées.
-* Marge supplémentaire : **dAdditionalMargin**. (Marge moyenne des personnes contactées - Marge moyenne des  du) / Nombre de personnes contactées.
-* Coût moyen par contact (SQL  ). Coût calculé du  / Nombre de personnes contactées.
-* RSI (SQL  ). Coût calculé du  du / Marge totale de contact.
-* RSI effectif (SQL  ). Coût calculé de la  du / Marge supplémentaire.
-* Signification : **iSignificativy** (SQL  ). Contient des valeurs comprises entre 0 et 3 selon la signification de la campagne.
+* Nombre de réactions : **iTransaction**. Nombre de lignes dans la table des logs de réaction.
+* Nombre de contactés : **iContactReacted**. Nombre distinct de contacts ciblés dans l’hypothèse.
+* Nombre de contacts de la population témoin : **iProofReacted**. Nombre distinct de contacts ciblés de la population témoin pour l’hypothèse.
+* Taux de réponse des contactés : **dContactReactedRate**. Taux de réponse des contacts ciblés pour l’hypothèse.
+* Taux de réponse des témoins : **dProofReactedRate**. Taux de réponse de la population témoin pour l’hypothèse.
+* Chiffre d’affaires total des contactés : **dContactReactedTotalAmount**. Chiffre d’affaires total des contacts ciblés dans l’hypothèse.
+* Chiffre d’affaires moyen des témoins : **dContactReactedAvgAmount**. Chiffre d’affaires moyen des contacts ciblés de la population témoin dans l’hypothèse.
+* Chiffre d’affaires total des témoins : **dProofReactedTotalAmount**. Chiffre d’affaires total des témoins de l’hypothèse.
+* Chiffre d’affaires moyen des témoins : **dProofReactedAvgAmount**. Chiffre d’affaires moyen des témoins de l’hypothèse.
+* Marge totale des contactés : **dContactReactedTotalMargin**. Marge totale des contacts ciblés dans l’hypothèse.
+* Marge moyenne des contactés : **dContactReactedAvgMargin**. Marge moyenne des contacts ciblés dans l’hypothèse.
+* Marge totale des témoins : **dProofReactedTotalMargin**. Marge totale des témoins ciblés dans l’hypothèse.
+* Marge moyenne des témoins : **dProofReactedAvgMargin**. Marge moyenne de la population témoin ciblée dans l’hypothèse
+* Chiffre d’affaires additionnel : **dAdditionnalAmount**. (Chiffre d’affaires moyen des contactés - chiffre d’affaires moyen des témoins) * nombre des contactés.
+* Marge additionnelle : **dAdditionalMargin**. (Marge moyenne des contactés - marge moyenne des témoins) / nombre des contactés.
+* Coût moyen des contactés (expression SQL). Coût calculé de la diffusion / nombre des contactés.
+* ROI (expression SQL). Coût calculé de la diffusion / marge totale des contactés.
+* ROI effectif (expression SQL). Coût calculé de la diffusion / marge additionnelle.
+* Significativité : **iSignificativy** (expression SQL). Contient des valeurs comprises entre 0 et 3 selon la significativité de la campagne.
 
 ### NmsRemaMatchRcp {#NmsRemaMatchRcp}
 
-Ce tableau correspond au  **nms:remaMatchRcp** .
+Cette table correspond au schéma **nms:remaMatchRcp**.
 
-Il contient un enregistrement qui représente la réaction d&#39;un individu à un   donné. Ces enregistrements ont été créés pendant   exécution de.
+Elle contient un enregistrement qui représente la réaction d’une personne à une hypothèse donnée. Ces enregistrements ont été créés lors de l’exécution de l’hypothèse.
 
-##  et {#simulation-and-delivery}
+##  Simulation et diffusion {#simulation-and-delivery}
 
-Cet ensemble de tableaux est lié au module **** , qui permet de tester la distribution de  appartenant à un ou à un d&#39;un avant d&#39;envoyer votre proposition aux. For more on this, see [About offers simulation](../../interaction/using/about-offers-simulation.md).
+Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la distribution d’offres appartenant à une catégorie ou à un environnement avant d’envoyer votre proposition aux destinataires. Voir à ce sujet la section [À propos de la simulation des offres](../../interaction/using/about-offers-simulation.md).
 
 ![](assets/data-model_simulation.png)
 
-* **NmsSimulation**: Ce tableau correspond au **** nms:. Il représente un  pour un ensemble de  ou desur une population donnée.
-* **NmsDlvSimulationRel**: Ce tableau correspond au  **nms:dlvSimulationRel** . Il contient les  de l&#39; pris en compte dans la . La portée du  de est stockée dans XML.
-* **NmsOfferSimulationRel**: Ce tableau correspond au  **nms:offerSimulationRel** . Il vous permet de lier un  à un  de.
+* **NmsSimulation** : cette table correspond au schéma **nms:simulation**. Elle représente une simulation pour un ensemble de diffusions ou d’offres pour une population donnée.
+* **NmsDlvSimulationRel** : cette table correspond au schéma **nms:dlvSimulationRel**. Elle contient la liste des diffusions prises en compte dans la simulation. La portée de la simulation est stockée au format XML.
+* **NmsOfferSimulationRel** : cette table correspond au schéma **nms:offerSimulationRel**. Elle permet de lier une simulation à une offre.
 
 ## Module Interaction {#interaction-module}
 
-Cet ensemble de tableaux est lié au module **Interaction** , qui permet de répondre en temps réel lors d&#39;une interaction avec un contact donné en les faisant un seul ou plusieurs   adaptés. Pour plus d’informations sur ce sujet, voir [Interaction et  gestion des](../../interaction/using/interaction-and-offer-management.md) de.
+Cet ensemble de tables est lié au module **Interaction**. Il permet de répondre en temps réel lors d’une interaction avec un contact donné en proposant une ou plusieurs offres adaptées. Voir à ce propos la section [Interaction et gestion des offres](../../interaction/using/interaction-and-offer-management.md) de.
 
-* **NmsOffer**: Ce tableau correspond au **** nms: . Il contient la définition de chaque  de  marketing.
-* **NmsPropositionRcp**: Ce tableau correspond au  **nms:propositionRcp** . Il contient le journal  croisé des propositions marketing envoyées à chaque individu. Le dossier est créé lorsqu&#39;une proposition est préparée ou présentée efficacement à une personne.
-* **NmsOfferSpace**: Ce tableau correspond au  **nms:offerSpace** . Il contient la définition des emplacements sur lesquels des propositions sont faites.
-* **NmsOfferContext**: Ce tableau correspond au  **nms:offerContext** . Il contient des critères supplémentaires sur l&#39;applicabilité de la proposition ainsi que la définition de la formule de calcul de la .
-* **NmsOfferView**: Ce tableau correspond à **nms:offerView**. Il contient le .
-* **NmsOfferCategory**: Ce tableau correspond à **nms:offerCategory**. Il contient le   .
-* **NmsOfferEnv**: Ce tableau correspond à **nms:offerEnv**. Il contient le    .
+* **NmsOffer** : cette table correspond au schéma **nms:offer**. Elle contient la définition des offres marketing.
+* **NmsPropositionRcp** : cette table correspond au schéma **nms:propositionRcp**. Elle contient le log cross-canal des propositions marketing envoyées à chaque personne. L’enregistrement est créé suite à la préparation ou à la présentation effective d’une proposition à une personne.
+* **NmsOfferSpace** : cette table correspond au schéma **nms:offerSpace**. Elle contient la définition des emplacements pour lesquels des propositions sont faites.
+* **NmsOfferContext** : cette table correspond au schéma **nms:offerContext**. Elle contient des critères supplémentaires relatifs à l’applicabilité de la proposition ainsi que la définition de la formule de calcul du poids.
+* **NmsOfferView** : cette table correspond au champ **nms:offerView**. Elle contient les représentations des offres.
+* **NmsOfferCategory** : cette table correspond au champ **nms:offerCategory**. Elle contient les catégories des offres.
+* **NmsOfferEnv** : cette table correspond au champ **nms:offerEnv**. Elle contient les environnements des offres.
 
-## Module Centre de messages {#message-center-module}
+## Module Message Center {#message-center-module}
 
-L&#39;ensemble de tableaux suivant est lié au module de messagerie **** transactionnelle (Centre de messages), qui permet de gérer les communications individuelles et uniques envoyées à un utilisateur et générées à partir de  de déclenchées à partir de systèmes d&#39;information. For more on this, see [About transactional messaging](../../message-center/using/about-transactional-messaging.md).
+L’ensemble de tables ci-après est lié au module **Messages transactionnels** (Message Center). Il permet de gérer les communications individuelles et uniques envoyées à un utilisateur et générées suite à des événements déclenchés à partir de systèmes d’information. Voir à ce propos la section [À propos des messages transactionnels](../../message-center/using/about-transactional-messaging.md).
 
 ### NmsRtEvent {#NmsRtEvent}
 
 ![](assets/data-model_message-center_rt.png)
 
-Ce tableau correspond au  **nms:rtEvent** . Il contient une définition de .
+Cette table correspond au schéma **nms:rtEvent**. Elle contient une définition des événements temps réel.
 
 ### NmsBatchEvent {#NmsBatchEvent}
 
 ![](assets/data-model_message-center_batch.png)
 
-Ce tableau correspond au  **nms:batchEvent** . Il contient la définition de la  par lot.
+Cette table correspond au schéma **nms:batchEvent**. Elle contient la définition des événements par lots.
 
 <!--## Microsites Module {#microsites-module}
 
@@ -254,23 +254,23 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## Module NMAC {#nmac-module}
 
-Cet ensemble de tableaux est lié au **d’applications** mobiles, qui permet d’envoyer des notifications personnalisées aux terminaux iOS et Android par le biais d’applications. Pour plus d’informations, reportez-vous à la page [A propos des](../../delivery/using/about-mobile-app-channel.md)d’applications mobiles.
+Cet ensemble de tables est lié au module **Mobile App Channel**. Il permet d’envoyer des notifications personnalisées aux terminaux iOS et Android par le biais d’applications. Voir à ce propos la section [À propos de Mobile App Channel](../../delivery/using/about-mobile-app-channel.md).
 
-* **NmsMobileApp**: Ce tableau correspond au  **nms:mobileApp** . Il contient les applications mobiles définies dans  Adobe Campaign.
-* **NmsAppSubscription**: Ce tableau correspond au  **nms:appSubscription** . Il contient les informations sur les abonnés concernant une ou plusieurs applications.
-* **NmsAppSubscriptionRcp**: Ce tableau correspond au  **nms:appSubscriptionRcp** . Il vous permet de lier les qui se sont abonnés à une application à la table.
-* **NmsExcludeLogAppSubRcp**: Ce tableau correspond au  **nms:excludeLogAppSubRcp** .
-* **NmsTrackingLogAppSubRcp**: Ce tableau correspond au  **nms:trackingLogAppSubRcp** .
-* **NmsLargeLogAppSubRcp**: Ce tableau correspond au  **nms:broadLogAppSubRcp** .
+* **NmsMobileApp** : cette table correspond au schéma **nms:mobileApp**. Elle contient les applications mobiles définies dans Adobe Campaign.
+* **NmsAppSubscription** cette table correspond au schéma **nms:appSubscription**. Elle contient les informations relatives aux abonnés concernant une ou plusieurs applications.
+* **NmsAppSubscriptionRcp** : cette table correspond au schéma **nms:appSubscriptionRcp**. Elle permet de relier les visiteurs abonnés à une application avec la table des destinataires.
+* **NmsExcludeLogAppSubRcp** : cette table correspond au schéma **nms:excludeLogAppSubRcp**.
+* **NmsTrackingLogAppSubRcp** : cette table correspond au schéma **nms:trackingLogAppSubRcp**.
+* **NmsLargeLogAppSubRcp** : cette table correspond au schéma **nms:broadLogAppSubRcp**.
 
-## Module Marketing social {#social-marketing-module}
+## Module Social Marketing {#social-marketing-module}
 
-Cet ensemble de tableaux est lié au module **Gestion des réseaux** sociaux, qui permet d’interagir avec les clients et les via Facebook et Twitter. For more on this, see [About social marketing](../../social/using/about-social-marketing.md).
+Cet ensemble de tables est lié au module **Gestion des réseaux sociaux** qui permet d’interagir avec les clients et les prospects via Facebook et Twitter. Voir à ce propos la section [À propos du marketing sur les réseaux sociaux](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
-* **NmsVisitor**: Ce tableau correspond au  **nms:** . Il contient des informations sur les.
-* **NmsVisitorSub**: Ce tableau correspond au **** nms:visitorSub. Il vous permet de lier un aux services auxquels il s’est abonné (Twitter ou Facebook).
-* **NmsFriendShipRel**: Ce tableau correspond au  **nms:FrishipRel** . Il vous permet de lier des à leurs amis dans le cadre du service Facebook.
-* **NmsVisitorInterestRel**: Ce tableau correspond au  **nms:visitorInterestRel** . Il vous permet de lier les et leurs intérêts.
-* **NmsInterest**: Ce tableau correspond au  **nms:interest** . Il contient les  d&#39;intérêts de chaque.
+* **NmsVisitor** : cette table correspond au schéma **nms:visitor**. Elle contient des informations sur les visiteurs.
+* **NmsVisitorSub** : cette table correspond au schéma **nms:visitorSub**. Elle permet de lier un visiteur avec les services auxquels il s’est abonné (Twitter ou Facebook).
+* **NmsFriendShipRel** : cette table correspond au schéma **nms:friendshipRel**. Elle permet de lier des visiteurs à leurs amis dans le cadre du service Facebook.
+* **NmsVisitorInterestRel** : cette table correspond au schéma **nms:visitorInterestRel**. Elle permet de lier des visiteurs et leurs centres d’intérêt.
+* **NmsInterest** : cette table correspond au schéma **nms:interest**. Elle contient la liste des centres d’intérêt de chaque visiteur.
