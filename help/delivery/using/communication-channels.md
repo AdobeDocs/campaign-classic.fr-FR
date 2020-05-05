@@ -14,7 +14,7 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
@@ -28,7 +28,7 @@ Les principales fonctionnalités vont du ciblage, définition et personnalisatio
 
 >[!NOTE]
 >
->Adobe Campaign propose un ensemble d&#39;outils pour suivre la délivrabilité et optimiser l&#39;envoi des emails. Pour plus d&#39;informations, consultez [Prise en main de la délivrabilité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) et [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md).
+>Adobe Campaign propose un ensemble d&#39;outils pour suivre la délivrabilité et optimiser l&#39;envoi des emails. Pour plus d&#39;informations, consultez [Prise en main de la délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) et [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md).
 
 L&#39;envoi d&#39;une diffusion peut être automatisé en préparant la diffusion ou en l&#39;envoyant par le biais d&#39;un workflow. Pour plus d&#39;informations sur les activités de type diffusion dans les workflows, consultez [cette section](../../workflow/using/about-action-activities.md).
 
@@ -37,7 +37,7 @@ Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 1. **Canal email** : les diffusions email permettent d&#39;adresser des messages électroniques personnalisés à la population cible. Voir [A propos du canal email](../../delivery/using/about-email-channel.md).
 1. **Canal courrier** : les diffusions courrier permettent de générer un fichier d&#39;extraction contenant les données relatives à la population cible. Voir [A propos du canal courrier](../../delivery/using/about-direct-mail-channel.md).
 1. **Canal mobile** : les diffusions sur canaux mobiles permettent d&#39;adresser des SMS ou des messages LINE personnalisés à la population cible. Voir [Canal SMS](../../delivery/using/sms-channel.md).
-1. **** d’applications mobiles : le d’applications mobiles  vous permet d’envoyer des notifications aux systèmes iOS et Android. Reportez-vous au chapitre [sur les applications](../../delivery/using/about-mobile-app-channel.md) mobiles.
+1. **Canal des applications mobiles** : les diffusions Applications mobiles permettent d’envoyer des notifications sur des systèmes iOS et Android. Voir [Canal des applications mobiles](../../delivery/using/about-mobile-app-channel.md).
 
    Les autres canaux sont présentés dans [cette page](../../delivery/using/other-channels.md).
 
@@ -64,7 +64,7 @@ Vous pouvez envoyer différents types d&#39;emails :
 * Emails récurrents : dans une campagne, envoyez un même email régulièrement et agrégez chaque envoi et ses rapports de façon périodique. Un même email est envoyé, mais généralement à une cible différente, selon la cible éligible pour le jour de l&#39;envoi. Un exemple courant est un email d&#39;anniversaire. Voir à ce propos la section [Diffusions récurrentes](../../workflow/using/recurring-delivery.md).
 * Emails transactionnels : emails unitaires qui sont déclenchés en fonction du comportement de vos clients. Voir à ce propos la section [Messages transactionnels](../../message-center/using/about-transactional-messaging.md).
 
-Pour plus d&#39;informations sur l&#39;utilisation des diffusions et les recommandations relatives à celles-ci, consultez [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) de Campaign.
+Pour plus d&#39;informations sur l&#39;utilisation des diffusions et les recommandations relatives à celles-ci, consultez [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) de Campaign.
 
 Pour plus d&#39;informations sur les différents types de diffusion, consultez [cette section](../../delivery/using/types-of-deliveries.md).
 
