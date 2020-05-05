@@ -14,7 +14,7 @@ discoiquuid: ca3377c6-a120-4cd0-aaf4-80248f4f5918
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -64,7 +64,7 @@ Pour ajouter un lien hypertexte, choisissez le menu **[!UICONTROL Eléments stat
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu&#39;il sera affiché dans la page du formulaire.
-* The **[!UICONTROL URL]** is the desired address, e.g.: [https://www.adobe.com](https://www.adobe.com) for a website, or [info@adobe.com](mailto:info@adobe.com) to send a message.
+* L’**[!UICONTROL URL]** correspond à l’adresse visée, par exemple : [https://www.adobe.com](https://www.adobe.com) pour un site web ou [info@adobe.com](mailto:info@adobe.com) pour envoyer un message.
 * Le champ **[!UICONTROL Fenêtre]** permet de sélectionner le mode d&#39;affichage du lien, lorsqu&#39;il s&#39;agit d&#39;un site. Vous pouvez choisir d&#39;ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre courante ou dans une autre fenêtre.
 * Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
 
