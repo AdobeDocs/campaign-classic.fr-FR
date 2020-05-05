@@ -14,7 +14,7 @@ discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -74,7 +74,7 @@ La définition de la clé de réconciliation doit être renseignée via l’attr
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 
-### Exemples  {#examples}
+### Exemples   {#examples}
 
 Abonnement avec clé de réconciliation du destinataire sur l&#39;email : le document XML en entrée doit référencer l&#39;email et la définition de la clé sur ce champ.
 
