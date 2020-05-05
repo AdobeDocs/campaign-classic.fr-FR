@@ -14,7 +14,7 @@ discoiquuid: c1d880bb-256e-451c-8c52-198711907f8e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
@@ -33,7 +33,7 @@ Grâce aux applications web, les fonctionnalités de Social Marketing vous perme
 Les étapes de paramétrage sont les suivantes :
 
 1. Créez une ou plusieurs applications Facebook. Voir à ce propos la section : [Créer une application Facebook](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
-1. Renseignez les liens **[!UICONTROL Conditions d&#39;utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaitront sur l&#39;écran de demande de permission Facebook. Pour plus d&#39;informations à ce sujet, voir la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](#entering-the-terms-of-service-and-privacy-policy-links).
+1. Renseignez les liens **[!UICONTROL Conditions d&#39;utilisation]** et **[!UICONTROL Politique de confidentialité]** qui apparaîtront sur l’écran de demande de permission Facebook. Pour plus d&#39;informations à ce sujet, voir la section : [Renseigner les liens Conditions d&#39;utilisation et Politique de confidentialité](#entering-the-terms-of-service-and-privacy-policy-links).
 1. Pour chaque application Facebook, vous devez créer un compte externe de type **[!UICONTROL Facebook Connect]**. Voir à ce propos la section : [Paramétrer les comptes externes](#configuring-external-accounts).
 1. Pour chaque application Facebook, créez une application web de type Facebook dans Adobe Campaign. Voir à ce propos la section : [Créer une application web de type Facebook](#creating-a-facebook-type-web-application).
 1. Configurez vos applications Facebook afin qu&#39;elles s&#39;affichent sous forme d&#39;onglets sur votre page Facebook. Voir à ce propos la section : [Paramétrer les onglets Facebook](#configuring-facebook-tabs).
