@@ -12,7 +12,7 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ## Expéditeur {#sender}
 
-Pour définir le nom et l&#39;adresse de l&#39;expéditeur qui apparaîtront en en-tête des messages envoyés, cliquez sur le lien **[!UICONTROL De]**.
+Pour définir le nom et l’adresse de l’expéditeur qui apparaîtront dans ll’en-tête des messages envoyés, cliquez sur le lien **[!UICONTROL De]**.
 
 ![](assets/s_ncs_user_wizard_email02.png)
 
@@ -138,7 +138,7 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 ## Définition d’un contenu interactif {#amp-for-email-format}
 
-Adobe Campaign permet de tester le nouveau format interactif [AMP pour email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
+Adobe Campaign permet de tester le nouveau format interactif [AMP for email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
 Voir à ce propos [cette section](../../delivery/using/defining-interactive-content.md).
 
