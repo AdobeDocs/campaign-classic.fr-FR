@@ -14,7 +14,7 @@ discoiquuid: 0b9b53bf-4dd2-416c-894e-393aded489f8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -38,7 +38,7 @@ Trois modes d&#39;insertion sont possibles :
 
    Pour cela, cliquez sur le lien **[!UICONTROL Importer des adresses de contrôle...]** et sélectionnez le dossier contenant les modèles d&#39;adresses. Voir à ce sujet la section [Créer des modèles d’adresses de contrôle](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
 
-   If necessary, once they are added, you can double-click them or click the **[!UICONTROL Detail...]** button to adapt the content of each address.
+   Au besoin, une fois ajoutées, vous pouvez double-cliquer dessus ou cliquer sur le bouton **[!UICONTROL Détail...]** pour adapter le contenu des champs de chaque adresse.
 
 1. Vous pouvez créer une condition pour sélectionner dynamiquement les adresses de contrôle à insérer.
 
