@@ -14,7 +14,7 @@ discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 >[!NOTE]
 >
->Tout d’abord, vous devez vérifier que le dernier build est installé. Vous êtes ainsi assuré d’avoir les derniers correctifs et fonctionnalités. Reportez-vous aux [Notes de mise à jour](https://docs.campaign.adobe.com/doc/AC/en/RN.html) pour plus d’informations sur le contenu de chaque version.
+>Tout d’abord, vous devez vérifier que le dernier build est installé. Vous êtes ainsi assuré d’avoir les derniers correctifs et fonctionnalités. Reportez-vous aux [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) pour plus d’informations sur le contenu de chaque version.
 
 ## Matériel et infrastructure {#hardware-and-infrastructure}
 
-Les instructions générales concernant les exigences matérielles pour Campaign Classic On-premise sont présentées dans cet [article](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html).
+Les instructions générales concernant les exigences matérielles pour Campaign Classic On-premise sont présentées dans cet [article](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
 L’équipe de conseillers peut fournir aux clients de la version hébergée un outil leur permettant de voir facilement combien d’espace est utilisé par différents types de tables dans la base de données ainsi que l’espace utilisé sur le site SFTP. Elle propose en outre des outils de suppression des données inutiles. Contactez les équipes de conseillers ou de support si vous avez besoin d’implémenter cet outil. Voici quelques points importants à vérifier à l’aide de cet outil :
 
@@ -57,7 +57,7 @@ Voici une liste d’articles relatifs aux bonnes pratiques en matière de config
 
 * Processus et mémoire MTA et MTAChild : le module **mta** distribue les messages à ses modules fils **mtachild**. Chaque **mtachild** prépare les messages, puis demande l’autorisation au serveur de statistiques avant de les envoyer. Consultez cette [page](../../installation/using/email-deliverability.md) pour plus d’informations.
 * Configuration de TLS : l’activation globale de TLS n’est pas recommandée, car elle peut réduire le débit. Les paramètres TLS par domaine, gérés par l’équipe de délivrabilité, doivent plutôt être réglés en fonction des besoins. Consultez cette [page](../../installation/using/email-deliverability.md#mx-configuration) pour plus d’informations.
-* DKIM : pour assurer le niveau de sécurité du DKIM, la taille minimum de cryptage recommandée est 1024b. Les clés de DKIM ayant une taille inférieure ne seront pas considérées comme valides par la plupart des fournisseurs d’accès. Reportez-vous à cette [page](../../delivery/using/technical-recommendations.md#dkim) et à cette [technote](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+* DKIM : pour assurer le niveau de sécurité du DKIM, la taille minimum de cryptage recommandée est 1024b. Les clés de DKIM ayant une taille inférieure ne seront pas considérées comme valides par la plupart des fournisseurs d’accès. Reportez-vous à cette [page](../../delivery/using/technical-recommendations.md#dkim) et à cette [technote](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
 ## Problèmes de délivrabilité {#deliverability-issues}
 
@@ -72,5 +72,5 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 
 >[!NOTE]
 >
->Pensez à consulter le guide [Prise en main de la délivrabilité](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html).
+>Pensez à consulter le guide [Prise en main de la délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html).
 
