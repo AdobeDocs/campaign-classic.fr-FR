@@ -14,7 +14,7 @@ discoiquuid: d5b08e4e-060c-4185-9dac-af270918e2b9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
@@ -28,7 +28,7 @@ Dans Adobe Campaign, les schémas de données permettent de :
 * définir des liens entre les différents objets de l&#39;application ;
 * définir et décrire les champs individuels inclus dans chaque objet.
 
-Pour une meilleure compréhension des tables Campaign intégrées et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
 ## Extension ou création de schémas {#extending-or-creating-schemas}
 
@@ -145,7 +145,7 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 
 Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/elements-and-attributes.md#attribute-description).
 
-### Exemples  {#examples}
+### Exemples   {#examples}
 
 Exemple de définition d&#39;une valeur par défaut :
 
@@ -185,7 +185,7 @@ Les liens sont déclarés dans le schéma qui contient la **clé étrangère** d
 
 Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
-### Exemples  {#examples-1}
+### Exemples   {#examples-1}
 
 Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 
