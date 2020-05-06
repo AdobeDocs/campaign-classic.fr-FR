@@ -13,25 +13,37 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
+source-git-commit: a1192bc804e752d13af869da66ba0505c077ed19
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 31%
 
 ---
 
 
 # Démarrer une nouvelle plate-forme {#starting-new-platform}
 
-Le maintien de la réputation de votre domaine et de votre adresse IP est essentiel. Vous trouverez ci-dessous quelques conseils pour la configuration d&#39;une nouvelle plateforme.
+Il est essentiel de préserver la réputation de votre domaine et de votre adresse IP lors de la configuration d’une nouvelle plateforme.
 
-Démarrer l&#39;envoi d&#39;emails sur une nouvelle plate-forme est une étape délicate car la plate-forme ne possède aucun historique d&#39;envoi, aucune réputation (dans le cas où les IP d&#39;envoi n&#39;ont jamais été utilisées à des fins d&#39;envoi d&#39;emails). Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP &quot;inconnues&quot; (c&#39;est-à-dire qui n&#39;ont jamais fait l&#39;objet de blacklistage) pour envoyer un maximum de messages pendant le laps de temps où ils n&#39;ont pas encore été détectés.
+* Commencer à envoyer des courriers électroniques est une étape délicate car la plateforme n&#39;a aucun historique d&#39;utilisation et, lorsque les adresses IP d&#39;envoi n&#39;ont jamais été utilisées à cette fin, aucune réputation.
 
-On ne peut donc pas espérer atteindre le régime de croisière en termes de débit dès le début de la mise en production. De surcroît on ne doit pas essayer d&#39;envoyer les premiers messages avec un tel débit, car cela conduirait les FAI à bloquer d&#39;autant plus sévèrement les adresses IP d&#39;envoi et à compromettre gravement la poursuite du démarrage.
+* Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP &quot;inconnues&quot; (adresses qui n&#39;ont jamais été blacklistées) pour envoyer le plus grand nombre possible de messages avant leur détection.
 
-Le démarrage d&#39;une plate-forme peut aller de pair avec le premier usage d&#39;une liste d&#39;adresses, c&#39;est-à-dire une liste potentiellement mal qualifiée. Or l&#39;envoi à des adresses invalides ou à des adresses pièges contribue à abaisser la réputation de la plate-forme. Si on dispose de la liste des adresses invalides, on a tout intérêt à l&#39;importer dans la table des quarantaines (**[!UICONTROL Administration > Gestion de campagne > Gestion des échecs > Echecs et adresses]**) avant de réaliser les premiers envois. Si on souhaite malgré tout requalifier les adresses invalides, il est nettement préférable de le faire une fois la réputation de la plate-forme établie et par petites parties afin de &quot;diluer&quot; dans le temps l&#39;usage des mauvaises adresses.
+* On ne peut donc pas espérer atteindre le régime de croisière en termes de débit dès le début de la mise en production. De surcroît on ne doit pas essayer d&#39;envoyer les premiers messages avec un tel débit, car cela conduirait les FAI à bloquer d&#39;autant plus sévèrement les adresses IP d&#39;envoi et à compromettre gravement la poursuite du démarrage.
 
-Pour résumer les principes à respecter lors d&#39;un démarrage :
+Vous trouverez ci-dessous la liste des principaux principes à suivre lors de la création d&#39;une nouvelle plateforme :
 
-* Si on dispose de l&#39;information, import des adresses invalides dans la table des quarantaines
-* Limitation du débit d&#39;envoi (réglage technique : limitation du nombre de mtachilds)
-* Augmentation progressive des volumes d&#39;envoi : ne pas cibler toute la base dès le début, mais à chaque envoi ajouter une fraction de plus par rapport à l&#39;envoi précédent ; cela permet d&#39;augmenter le volume à chaque étape tout en diminuant le taux d&#39;adresses invalides globalement
-* Diffuser régulièrement : dans une certaine mesure il est préférable de réaliser de petits envois fréquents que des envois volumineux et sporadiques
-* Surveiller de près les rapports de diffusion : un indicateur d&#39;erreur élevé peut signifier qu&#39;un paramétrage technique est mal configuré.
+* Si vous disposez de ces informations, **importez des adresses non valides dans la table**de quarantaine.
+Le démarrage d&#39;une plateforme se produit souvent lors de l&#39;utilisation d&#39;une liste d&#39;adresses pour la première fois et qui peut ne pas être entièrement qualifiée. Si vous envoyez des messages à des adresses non valides ou à des adresses huppées, cela diminuera la réputation de la plateforme.
+
+   * If you have a list of invalid addresses, it is in your best interests to import it into the quarantine table (available through the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** menu) before sending for the first times.
+   * Si on souhaite malgré tout requalifier les adresses invalides, il est nettement préférable de le faire une fois la réputation de la plate-forme établie et par petites parties afin de &quot;diluer&quot; dans le temps l&#39;usage des mauvaises adresses.
+   Pour plus d’informations à ce sujet, voir [Optimisation de votre diffusion par le biais de quarantaines](../../delivery/using/understanding-quarantine-management.md#optimizing-your-delivery-through-quarantines).
+* **Limitez le débit** en limitant le nombre de mini-familles. Pour plus d’informations sur la modification de ce paramètre technique, contactez votre administrateur Adobe Campaign.
+* **Augmentez progressivement les volumes envoyés** pour éviter d&#39;être marqués comme spam. Ne cible pas toute la base de données du début même, mais ajoutez plutôt une fraction supplémentaire de la liste à chaque envoi. Cela devrait vous permettre d&#39;augmenter le volume à chaque étape tout en réduisant le taux global d&#39;adresses non valides. Pour assurer un développement sans heurt de la phase de début vers le haut, vous pouvez utiliser le vagues. Pour plus d’informations à ce sujet, voir [Envoi de plusieurs vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
+* **Envoyez-les régulièrement**. Dans une certaine mesure, il est préférable d&#39;envoyer régulièrement des petits plans plutôt que des campagnes de grande envergure de manière sporadique.
+* **Sois attentif aux rapports de diffusion**. Des indicateurs d&#39;erreur élevés peuvent signifier qu&#39;un paramètre technique est mal configuré. Voir à ce propos la section [Suivre une diffusion](../../delivery/using/monitoring-a-delivery.md).
+
+**Rubriques connexes** :
+* [Augmenter votre réputation de courriel grâce au réchauffement de l&#39;adresse IP](https://helpx.adobe.com/campaign/kb/increase-email-rep-ip-warming.html)
+* [Tout sur les pièges de spam](https://helpx.adobe.com/campaign/kb/spam-traps.html)
