@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
+source-git-commit: c687c8ad19560d4181c2db52a91e096cceea705e
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 100%
 
 ---
 
@@ -47,4 +50,4 @@ Qu&#39;est-ce exactement la délivrabilité des emails ? Comment les marketeurs
 
 La délivrabilité des emails désigne l&#39;ensemble des caractéristiques qui déterminent la capacité d&#39;un message à atteindre sa destination, via une adresse email personnelle, en peu de temps, et avec la qualité attendue en termes de contenu et de format. Ces caractéristiques se divisent en quatre catégories principales : qualité des données, message et contenu, infrastructure d&#39;envoi et réputation. Ensemble, elles forment la base d&#39;un programme performant de délivrabilité des emails. Cette vue d&#39;ensemble présente les quatre principes fondamentaux d&#39;une délivrabilité des emails performante et décrit les bonnes pratiques pour que les messages atteignent la boîte de réception et que le chiffre d&#39;affaires généré à partir des programmes de marketing email soit plus élevé.
 
-![](assets/deliverability_overview_2.png)
+<!--![](assets/deliverability_overview_2.png)-->
