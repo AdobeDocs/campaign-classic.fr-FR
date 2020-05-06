@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: 5f73f6bc4cbc00c1b4e2f2a75e27a3056b517006
+workflow-type: tm+mt
+source-wordcount: '2464'
+ht-degree: 97%
 
 ---
 
@@ -79,12 +82,6 @@ DKIM est né de l&#39;union des principes d&#39;authentification DomainKeys, de 
 
 DKIM a remplacé l&#39;authentification **DomainKeys**.
 
->[!IMPORTANT]
->
->Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, la signature de l’authentification des emails DKIM est effectuée par celui-ci. DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
->
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
-
 L&#39;utilisation de DKIM nécessite quelques prérequis :
 
 * **Sécurité** : le cryptage est un élément clé de DKIM. La taille minimum de cryptage recommandée est 1024b. Des tailles inférieures ne seront pas considérées comme valides pour la plupart des fournisseurs d&#39;accès.
@@ -93,10 +90,14 @@ L&#39;utilisation de DKIM nécessite quelques prérequis :
 
 >[!NOTE]
 >
->* Si vous avez déjà paramétré DomainKeys pour votre instance Adobe Campaign, vous avez simplement besoin de cocher **dkim** dans les règles de gestion des domaines. Dans le cas contraire, vous devrez suivre les même étapes de configuration (clé privée/publique) que pour DomainKeys.
+>* Si vous avez configuré des DomainKeys pour votre instance Adobe Campaign, vous devez simplement sélectionner **dkim** dans les règles [de gestion des](../../delivery/using/understanding-delivery-failures.md#domain-management)domaines. Dans le cas contraire, suivez les mêmes étapes de configuration (clé privée/clé publique) que pour DomainKeys.
 >* Il est inutile d&#39;activer DomainKeys et DKIM pour un même domaine, DKIM étant une version améliorée de DomainKeys.
 >* Les domaines validant actuellement DKIM sont les suivants : AOL, Gmail.
 
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
 
 ### DMARC {#dmarc}
 
@@ -149,8 +150,8 @@ La mise en place d&#39;une feedback loop pour une instance suppose d&#39;avoir :
 
 La mise en œuvre d’une feedback loop simple dans Adobe Campaign fait appel à la fonctionnalité de messages rebonds. La boîte email de feedback loop est utilisée comme boîte de rebond et une règle est définie pour détecter ces messages. Les adresses email des destinataires qui ont signalé le message comme indésirable seront ajoutées à la liste des adresses en quarantaine.
 
-* Créez ou modifiez une règle de courrier de retour, **feedback_loop**, **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** avec la raison **Refused** et le type **Hard**.
-* If a mailbox has been defined specially for the feedback loop, define the parameters to access it by creating a new external Bounce Mails account in **[!UICONTROL Administration > Platform > External accounts]**.
+* Créez ou adaptez une règle de mails rebonds **Feedback_loop** dans **[!UICONTROL Administration>Gestion de campagne>Gestion des NP@I>Jeux de règles mail]** avec la raison **Refusé** et le type **Hard**.
+* Si une boîte a été définie spécialement pour la feedback loop, définissez les paramètres pour relever son contenu en créant un nouveau compte externe de type Mails rebonds dans **[!UICONTROL Administration>Plate-forme>Comptes externes]**.
 
 Le mécanisme est immédiatement opérationnel pour traiter les notifications de plaintes. Pour vérifier le bon fonctionnement de la règle, vous pouvez temporairement désactiver les comptes afin qu&#39;ils ne relèvent pas ces messages, puis vérifier le contenu de la boîte de feedback loop manuellement. Sur le serveur, exécutez les commandes suivantes :
 
@@ -246,7 +247,7 @@ La règle de typologie doit contenir le script qui génère la ligne de commande
 
 SMTP (Simple mail transfer protocol) est une norme Internet pour la transmission des emails.
 
-Les erreurs SMTP qui ne sont pas vérifiées par une règle sont répertoriées dans le dossier **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** . Ces messages d’erreur sont par défaut interprétés comme des erreurs paramétrées . Les erreurs les plus courantes doivent être identifiées et une règle correspondante doit être ajoutée dans **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** si vous souhaitez correctement évaluer les commentaires des serveurs SMTP. Sans cela, la plate-forme effectuera des  inutiles (cas de ) ou placera à tort certainsdans les  après un certain nombre de tests.
+Les erreurs SMTP qui ne sont vérifiées par aucune règle sont recensées dans le dossier **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion des NP@I]** > **[!UICONTROL Qualification des logs de diffusion]**. Ces messages d’erreurs sont interprétés par défaut comme des erreurs soft inatteignables. Les erreurs les plus nombreuses doivent être identifiées et une règle leur correspondant doit être ajoutée dans **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Gestion des NP@I]** > **[!UICONTROL Jeux de règles mail]** si on souhaite qualifier correctement les retours de serveurs SMTP. Sans cela, la plateforme serait amenée à faire des essais d’envoi inutiles (cas d’utilisateurs inconnus) ou de mettre abusivement en quarantaine certains destinataires après le nombre d’essais prévus.
 
 ### Adresses IP dédiées {#dedicated-ips}
 
