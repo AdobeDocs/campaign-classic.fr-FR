@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c5a9823b2feb6e2f721a2ad15dc08c1abe672054
+translation-type: tm+mt
+source-git-commit: 928c2d944bb9709b54a41b07e8828646f2601cb9
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 96%
 
 ---
 
@@ -45,9 +48,9 @@ En tant qu&#39;utilisateur expert, vous pouvez configurer les fonctionnalités d
 
 ## Comment configurer la délivrabilité des emails ? {#how-to-configure-email-deliverability-}
 
-En plus du [guide de prise en main sur la délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html), consultez la section sur la configuration de la délivrabilité des emails pour configurer votre instance afin d&#39;optimiser les fonctionnalités d&#39;envoi de Campaign.
+Outre la section Configuration [de la](../../delivery/using/about-deliverability.md#configuration) délivrabilité, lisez les recommandations techniques sur la délivrabilité pour comprendre comment configurer votre instance afin d&#39;optimiser les capacités de livraison de Campaign.
 
-[Pour en savoir plus, cliquez ici](../../installation/using/email-deliverability.md).
+[Pour en savoir plus, cliquez ici](../../delivery/using/technical-recommendations.md).
 
 ## Comment mettre en place la validation du contenu ? {#how-can-i-implement-content-approval-}
 
@@ -105,7 +108,7 @@ Si vous rencontrez des problèmes concernant, par exemple, la prise en compte co
 
 1. Supprimez ces fichiers XML et leurs dossiers associés.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Ne supprimez pas le fichier nlclient_cnx.xml.
 
