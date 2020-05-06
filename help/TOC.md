@@ -5,7 +5,10 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
+source-git-commit: 2ba9efa49f26559786641ff5e1caa9c481f770b2
+workflow-type: tm+mt
+source-wordcount: '2038'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +60,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Utilisation :](platform/using/use-case.md)
-   + Créer une requête  {#creating-queries}
+   + Créer une requête   {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -67,7 +70,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Gestion des énumérations](platform/using/managing-enumerations.md)
       + [Comptes externes](platform/using/external-accounts.md)
    + Accéder à une base externe (FDA){#accessing-external-database}
-      + [A propos des](platform/using/about-fda.md)
+      + [À propos de FDA](platform/using/about-fda.md)
       + [Configurations spécifiques par type de base de données](platform/using/specific-configuration-database.md)
       + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
       + [Connexion à la base de données](platform/using/connecting-to-database.md)
@@ -102,8 +105,8 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Canal LINE](delivery/using/line-channel.md)
    + Envoi de notifications push {#sending-push-notifications}
       + [A propos de Mobile App Channel](delivery/using/about-mobile-app-channel.md)
-      + [Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + [Paramétrage de l&#39;application mobile dans Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
+      + [Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [Paramétrage de l&#39;application mobile dans Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
       + [Créer des notifications](delivery/using/creating-notifications.md)
       + [Résolution des problèmes](delivery/using/troubleshooting.md)
    + Envoi de courrier {#sending-direct-mail}
@@ -151,12 +154,13 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Démarrer une nouvelle plate-forme](delivery/using/starting-new-platform.md)
       + [Contrôler le contenu du message](delivery/using/control-message-content.md)
       + [Améliorez votre réputation](delivery/using/improve-reputation.md)
-      + [Meilleures pratiques de réengagement](delivery/using/re-engagement-best-practices.md)
       + [Recommandations techniques](delivery/using/technical-recommendations.md)
-      + [Monitoring technique](delivery/using/technical-monitoring.md)
+      + [Contrôle de la délivrabilité](delivery/using/monitoring-deliverability.md)
       + [Inbox rendering](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
+      + [Meilleures pratiques de réengagement](delivery/using/re-engagement-best-practices.md)
       + [Bases de blacklistage](delivery/using/blacklisting-databases.md)
+      + [Résolution des problèmes](delivery/using/deliverability-faq.md)
    + Module de gestion de contenu {#content-management}
       + [A propos de la gestion de contenu](delivery/using/about-content-management.md)
       + [Ressources et principes de la gestion de contenu](delivery/using/content-manager-resources-and-principles.md)
@@ -175,7 +179,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
    + Orchestration des campagnes {#orchestrate-campaigns}
       + [Créer des campagnes marketing](campaign/using/setting-up-marketing-campaigns.md)
       + [Modèles de campagne marketing](campaign/using/marketing-campaign-templates.md)
-      + [Livraisons de campagne marketing](campaign/using/marketing-campaign-deliveries.md)
+      + [Diffusions de campagne marketing](campaign/using/marketing-campaign-deliveries.md)
       + [Validation de campagne marketing](campaign/using/marketing-campaign-approval.md)
       + [Surveillance de campagne marketing](campaign/using/marketing-campaign-monitoring.md)
       + [Prestataires, stocks et budgets](campaign/using/providers--stocks-and-budgets.md)
@@ -286,34 +290,34 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
-      + [Partage de   avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [Partage des audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Envoi d&#39;une demande à Adobe  ](integrations/using/submitting-request-to-adobe.md)
-      + [Configuration de l&#39; d&#39;intégration de  partagée dans [!DNL ]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [Configuration de l’intégration des audiences partagées dans [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [Résolution des problèmes](integrations/using/troubleshooting.md)
       + [Import et export d&#39;audiences](integrations/using/importing-and-exporting-audiences.md)
    + Partage de ressources {#asset-sharing}
       + [Partage de ressources avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [Configuration de l&#39;accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
+      + [Configuration de l’accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Insérer une ressource partagée](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [À propos de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [A propos [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuration de l&#39;intégration](integrations/using/configuring-the-integration.md)
-      + [Création d’un bulletin d’information [!DNL Experience Manager]](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Création d’ [!DNL Experience Manager] une newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Intégration avec [!DNL Adobe ]](integrations/using/integrating-with-adobe-target.md)
-      + [Configuration de l’intégration avec [!DNL Adobe]](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [Intégration à [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insérer une image dynamique](integrations/using/inserting-a-dynamic-image.md)
    + Connexion via un Adobe ID {#connecting-via-an-adobe-id}
-      + [À propos de [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
-      + [Configuration de [!DNL IMS]](integrations/using/configuring-ims.md)
-      + [Implémentation de [!DNL IMS]](integrations/using/implementing-ims.md)
+      + [A propos [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+      + [Configuration [!DNL IMS]](integrations/using/configuring-ims.md)
+      + [Implémentation [!DNL IMS]](integrations/using/implementing-ims.md)
       + [Dépanner IMS](integrations/using/ims-troubleshooting.md)
    + ACS Connector {#acs-connector}
-      + [Principes de [!DNL ACS Connector] et cycle de données](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACS Connector] principes et cycle de données](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Synchronisation des profils](integrations/using/synchronizing-profiles.md)
       + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
-      + [Dépannage du [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+      + [Dépannage de la variable [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
 + Automatisation et workflows{#automating-with-workflows}
    + Introduction {#introduction}
       + [A propos des workflows](workflow/using/about-workflows.md)
@@ -386,7 +390,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Réception d&#39;emails](workflow/using/inbound-emails.md)
       + [Réception de SMS](workflow/using/inbound-sms.md)
    + Cas pratiques {#use-cases}
-      + Deliveries {#deliveries}
+      + Diffusions {#deliveries}
          + [Utiliser l&#39;activité Validation en local](workflow/using/using-the-local-approval-activity.md)
          + [A/B testing](workflow/using/a-b-testing.md)
          + [Envoyer un email d&#39;anniversaire](workflow/using/sending-a-birthday-email.md)
@@ -426,10 +430,10 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Gestion des fuseaux horaires](workflow/using/managing-time-zones.md)
    + Workflows techniques {#technical-workflows}
       + [A propos des workflows techniques](workflow/using/about-technical-workflows.md)
-      + [Deliveries](workflow/using/deliveries.md)
+      + [Diffusions](workflow/using/deliveries.md)
       + [Campagne](workflow/using/campaign.md)
       + [Web Analytics](workflow/using/web-analytics.md)
-      + [Distributed Marketing](workflow/using/distributed-marketing.md)
+      + [Marketing distribué](workflow/using/distributed-marketing.md)
       + [Supervision de la délivrabilité](workflow/using/email-deliverability.md)
       + [Inbox rendering](workflow/using/inbox-rendering.md)
       + [Interaction](workflow/using/interaction.md)
@@ -588,7 +592,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
    + Paramétrages additionnels {#additional-configurations}
       + [Configuration du serveur Campaign](installation/using/configuring-campaign-server.md)
       + [Connexion par LDAP](installation/using/connecting-through-ldap.md)
-      + [Configurations techniques des courriers électroniques](installation/using/email-deliverability.md)
+      + [Paramétrage technique des emails](installation/using/email-deliverability.md)
       + [Archivage des emails](installation/using/email-archiving.md)
       + [Gestion des fuseaux horaires](installation/using/time-zone-management.md)
       + [Paramétrage de SpamAssassin](installation/using/configuring-spamassassin.md)
@@ -652,7 +656,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [Description du modèle de données](configuration/using/data-model-description.md)
       + [Bonnes pratiques](configuration/using/data-model-best-practices.md)
    + Référence des schémas (xtk:srcSchema){#schema-reference}
-      + [A propos de la référence des schémas](configuration/using/about-schema-reference.md)
+      + [À propos de la référence des schémas](configuration/using/about-schema-reference.md)
       + [Structure d&#39;un schéma](configuration/using/schema-structure.md)
       + [Mapping de la base de données](configuration/using/database-mapping.md)
       + [Eléments et attributs](configuration/using/elements-and-attributes.md)
