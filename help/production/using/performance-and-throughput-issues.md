@@ -14,8 +14,11 @@ discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
+translation-type: tm+mt
+source-git-commit: d80e3d47b06b7a03974d9cfdd465861b3c5bcf81
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 97%
 
 ---
 
@@ -63,12 +66,12 @@ Voici une liste d’articles relatifs aux bonnes pratiques en matière de config
 
 Voici une liste des bonnes pratiques et des articles liés à la délivrabilité :
 
-* Réputation IP : si la réputation IP n’est pas assez bonne, il y aura un impact sur la performance. Le module de **Suivi de la délivrabilité** propose divers outils pour suivre les performances de délivrabilité de votre plateforme. Reportez-vous à cette [page](../../delivery/using/technical-monitoring.md).
+* Réputation IP : si la réputation IP n’est pas assez bonne, il y aura un impact sur la performance. Le module de **Suivi de la délivrabilité** propose divers outils pour suivre les performances de délivrabilité de votre plateforme. Reportez-vous à cette [page](../../delivery/using/monitoring-deliverability.md).
 * Préchauffage d’une adresse IP : ce processus est réalisé par l’équipe de délivrabilité. Il s’agit d’augmenter progressivement le nombre d’emails par le biais de nouvelles adresses IP sur une période de quelques semaines.
 * Configuration de l’affinité IP : une configuration incorrecte de l’affinité IP peut stopper complètement les emails (nom d’opérateur/affinité incorrect dans la configuration) ou réduire le débit (petit nombre d’IP dans l’affinité). Reportez-vous à cette [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 * Taille de l’email : la taille de l’email joue un rôle important au niveau du débit. La taille d’e-mail maximale recommandée est de 60 ko. Reportez-vous à cette [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](../../reporting/using/delivery-reports.md#delivery-throughput), vérifiez le nombre d’octets transférés par heure.
 * Grand nombre de destinataires non valides : lorsque de nombreux destinataires ne sont pas valides, cela peut avoir un impact sur le débit étant donné que le MTA tente de renvoyer les emails aux destinataires non valides. Veuillez vous assurer que votre base de données est bien tenue à jour.
-* Niveau de personnalisation : si le statut d’une diffusion reste en « Personnalisation en cours », vérifiez le JavaScript utilisé dans les blocs de personnalisation.
+* Quantité de personnalisation : si une diffusion reste dans &quot;Personnalisation en cours&quot;, vérifiez le code JavaScript utilisé dans les blocs de personnalisation.
 
 >[!NOTE]
 >
