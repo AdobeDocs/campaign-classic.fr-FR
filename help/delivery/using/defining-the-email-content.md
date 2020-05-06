@@ -12,8 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+translation-type: tm+mt
+source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+workflow-type: tm+mt
+source-wordcount: '2929'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ L’insertion et l’utilisation de champs de personnalisation sont présentées
 >* Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Dans le cadre des contrôles mis en place par les Fournisseurs d&#39;Accès Internet (FAI) afin de lutter contre les emails non-sollicités (spam), Adobe recommande de créer des comptes emails correspondants aux adresses spécifiées pour l&#39;expédition et la réponse. Vérifiez auprès de l&#39;administrateur de votre messagerie.
 
@@ -46,7 +49,7 @@ L’insertion et l’utilisation de champs de personnalisation sont présentées
 
 L&#39;objet du message est paramétré dans le champ correspondant. Vous pouvez le saisir directement dans le champ ou cliquer sur le lien **[!UICONTROL Objet]** pour saisir un script. Le lien de personnalisation permet d&#39;insérer des champs de la base dans l&#39;objet.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;objet du message est obligatoire.
 
@@ -62,7 +65,7 @@ Par exemple, dans le message ci-dessus, le sujet du message est personnalisé po
 
 ## Contenu du message {#message-content}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour des raisons de confidentialité, nous vous recommandons d’utiliser HTTPS pour toutes les ressources externes.
 
@@ -74,7 +77,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
    Si vous utilisez [Digital Content Editor](../../web/using/about-campaign-html-editor.md) (DCE), consultez [Sélection d&#39;un modèle de contenu](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Le contenu HTML doit être préalablement créé puis importé dans Adobe Campaign. L&#39;éditeur HTML n&#39;est pas conçu pour la création de contenu.
 
@@ -128,7 +131,7 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
    Le message contient les deux formats : texte et HTML. Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie du destinataire (multipart-alternative).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Cette option inclut les deux versions du document et, par conséquent, impacte le débit de diffusion des messages, car le poids du message est plus élevé.
 
@@ -169,7 +172,7 @@ Ces images peuvent être :
 
 * partagées via Adobe Experience Cloud. Consultez [cette section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour inclure des images dans les emails via l&#39;assistant de diffusion, l&#39;instance Adobe Campaign doit être paramétrée afin de permettre la gestion des ressources publiques. Cette opération est réalisée dans l&#39;assistant de déploiement. Reportez-vous à [cette section](../../installation/using/deploying-an-instance.md) pour consulter les informations de paramétrage.
 
@@ -194,7 +197,7 @@ Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des 
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les chemins d&#39;accès aux images sont modifiés lors d&#39;une mise en ligne manuelle ou lors de l&#39;envoi des messages.
 
@@ -360,7 +363,7 @@ Dans l&#39;onglet **[!UICONTROL Aperçu]** de la fenêtre d&#39;édition du cont
 
 En plus du diagnostic de prévisualisation, une deuxième vérification est effectuée lors de l&#39;envoi d&#39;un BAT ou d&#39;une diffusion : une règle de typologie spécifique, **[!UICONTROL Vérification du Deco-mail]**, est lancée au cours de l&#39;analyse.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Cette règle de typologie s&#39;exécute seulement si au moins l&#39;un des destinataires est paramétré pour recevoir des emails au format **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** ou **[!UICONTROL Decoration Mail (KDDI AU)]**.
 
@@ -397,6 +400,6 @@ Lorsqu&#39;Adobe Campaign gère dynamiquement les formats en fonction du domaine
 
 Le contenu du message s&#39;affichera correctement d&#39;une part pour les utilisateurs de mobiles japonais, d&#39;autre part pour les destinataires standard.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Veillez toutefois à respecter les spécificités liées à chaque format d&#39;email japonais (Deco-mail, Decoration Mail et Decore Mail). Pour plus d&#39;informations sur les limites, consultez [cette section](#limitations-and-recommendations).
