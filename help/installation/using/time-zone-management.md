@@ -14,8 +14,11 @@ discoiquuid: b9846eda-eeca-433e-b961-6dfc2aa2708b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+translation-type: tm+mt
+source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,7 @@ Les principales fonctionnalités de la plateforme concernées par la gestion des
 
 Les **opérateurs** peuvent agir sur les fuseaux horaires lors du **paramétrage d&#39;une diffusion** et en particulier définir le fuseau horaire dans lequel la diffusion va être exécutée.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si la base de données ne gère pas le multi-fuseaux horaires, alors pour toutes les manipulations de filtrage de données, les requêtes SQL doivent être exécutées dans le fuseau horaire du serveur de base de données.
 
@@ -59,7 +62,7 @@ D&#39;un point de vue technique, les informations de type **Date+heure** peuvent
 1. Format TIMESTAMP WITH TIMEZONE : le moteur de base de données stocke les dates en UTC. Chaque session ouverte aura un fuseau horaire associé et les dates seront converties en fonction de ce fuseau horaire.
 1. Format local + fuseau horaire local : toutes les dates sont stockées au format local (pas de gestion des décalages horaires) et un fuseau horaire unique leur est associé. Le fuseau horaire est stocké dans l&#39;option **WdbcTimeZone** de l&#39;instance Adobe Campaign et peut être modifié à partir du menu **[!UICONTROL Administration > Plateforme > Options]** de l&#39;arborescence.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Notez que cette modification peut entraîner des problèmes de cohérence des données et de synchronisation.
 
@@ -71,7 +74,7 @@ Cochez l&#39;option **[!UICONTROL Base UTC (champs dates avec fuseau horaire)]**
 
 ![](assets/install_wz_select_utc_option.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Dans le cas d&#39;**Oracle**, il faut que les fichiers de fuseaux horaires (.dat) des couches clientes Oracle soient compatibles avec les fichiers de fuseaux horaires installés sur le serveur.
 
@@ -93,7 +96,7 @@ Les champs XML qui contiennent des dates sont désormais stockés en UTC. Lors d
 
 Pour utiliser une instance existante, ajoutez l&#39;option **WdbcTimeZone** et saisissez le fuseau horaire de l&#39;instance.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Vous devez veiller à paramétrer la bonne valeur pour l&#39;option WdbcTimeZone : toute modification ultérieure pourrait provoquer des incohérences.
 
