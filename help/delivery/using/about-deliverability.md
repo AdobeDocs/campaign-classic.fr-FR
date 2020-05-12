@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c687c8ad19560d4181c2db52a91e096cceea705e
+source-git-commit: e6617614ae22b73c6783f9775f441e5e25ae19e3
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
 
 
 # A propos de la délivrabilité{#about-deliverability}
+
+**La délivrabilité consiste à mesurer le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam.**
 
 Adobe Campaign propose un certain nombre d&#39;outils pour suivre les performances de délivrabilité de votre plateforme. Cette section met également en évidence les principes essentiels que vous devez garder à l&#39;esprit pour la gestion et de l&#39;optimisation de la délivrabilité.
 
