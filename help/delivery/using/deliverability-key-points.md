@@ -12,19 +12,20 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+translation-type: tm+mt
+source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 89%
 
 ---
 
 
 # Points clés de la délivrabilité{#deliverability-key-points}
 
-La délivrabilité consiste à mesurer le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam.
-
 Afin d’optimiser la délivrabilité de vos emails Adobe Campaign, nous vous recommandons de suivre les bonnes pratiques répertoriées ci-dessous. Les problèmes de délivrabilité sont généralement liés à des mesures de protection contre les spams mises en place par les fournisseurs d’accès à internet et les administrateurs de serveurs de messagerie.
 
-La délivrabilité des emails désigne l’ensemble des caractéristiques qui déterminent la capacité d’un message à atteindre sa destination, par l’intermédiaire d’une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.
+**La délivrabilité des emails désigne l’ensemble des caractéristiques qui déterminent la capacité d’un message à atteindre sa destination, par l’intermédiaire d’une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.**
 
 Ces caractéristiques appartiennent à quatre catégories principales :
 * Qualité des données
@@ -34,7 +35,7 @@ Ces caractéristiques appartiennent à quatre catégories principales :
 
 Ensemble, ils forment la base d’un programme de délivrabilité des emails réussi.
 
-Le taux de délivrabilité est le nombre d&#39;emails envoyés qui ont été délivrés avec succès aux destinataires.
+The **deliverability rate** is the number of sent emails that were successfully delivered to its recipients.
 
 Le taux de délivrabilité dépend de nombreux facteurs et notamment :
 * le bon paramétrage de vos instances
@@ -45,7 +46,7 @@ Le taux de délivrabilité dépend de nombreux facteurs et notamment :
 * l&#39;authentification des messages (SPF, DKIM, DMARC)
 * la réputation de l&#39;expéditeur
 
-Voici une liste de points clés à vérifier pour assurer une bonne délivrabilité.
+Vous trouverez ci-dessous une liste des points clés à vérifier pour assurer une bonne livraison.
 
 ## Vérification de la configuration réseau {#network-configuration}
 
@@ -61,7 +62,7 @@ Les FAI ont systématisé la mise à disposition d&#39;une fonction &quot;Ceci e
 
 ## Envoi à des adresses pièges {#honeypot-addresses}
 
-Les FAI et d&#39;autres organisations (voir le site https://www.projecthoneypot.org/) créent des boîtes mails ne correspondant à aucune personne physique dans le but de piéger les spammeurs. Ces adresses piège ou &quot;honey pots&quot; sont publiées sur le web dans le but qu&#39;elles soient trouvées par les robots collecteurs d&#39;adresses des spammeurs et pour ainsi en déduire les expéditeurs illégitimes. Un mécanisme de double opt-in empêche totalement l&#39;ajout de ce genre d&#39;adresses. Quand on utilise une liste fournie par un tiers, il faut être sûr des méthodes employées par ce dernier.
+ISPs and other organizations (see the [Project Honey Pot](https://www.projecthoneypot.org/) website) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. Ces adresses piège ou &quot;honey pots&quot; sont publiées sur le web dans le but qu&#39;elles soient trouvées par les robots collecteurs d&#39;adresses des spammeurs et pour ainsi en déduire les expéditeurs illégitimes. Un mécanisme de double opt-in empêche totalement l&#39;ajout de ce genre d&#39;adresses. Quand on utilise une liste fournie par un tiers, il faut être sûr des méthodes employées par ce dernier.
 
 ## Adaptation du contenu du message {#message-content}
 
