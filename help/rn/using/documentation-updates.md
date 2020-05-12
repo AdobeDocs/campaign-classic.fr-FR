@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9091059b1d8431a84eb93f104dbd8e8833cb94a7
+source-git-commit: 2e82605eda5bccd2e5604614acd4cb7d646822fc
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 99%
+source-wordcount: '6516'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,7 @@ La section Dépannage de la délivrabilité a été déplacée et mise à jour. 
 
 La section Démarrage d’une nouvelle plateforme a été améliorée. [En savoir plus](../../delivery/using/starting-new-platform.md)
 
+La section Envoi de courriers électroniques transactionnels avec pièces jointes a été déplacée et mise à jour. [En savoir plus](../../message-center/using/transactional-email-with-attachments.md)
 
 ## Avril 2020 {#april-2020}
 
