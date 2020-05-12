@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a30c4a2d31c3f674ac4a7bb4827a6951b36014ab
+source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 50%
+source-wordcount: '811'
+ht-degree: 42%
 
 ---
 
@@ -39,9 +39,14 @@ Vous pouvez également utiliser les outils suivants :
 
 * The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform&#39;s throughput for a given period. Voir à ce propos [cette section](../../reporting/using/global-reports.md#delivery-throughput).
 * Le rapport de surveillance **[!UICONTROL de la délivrabilité]** technique comprend plusieurs indicateurs de qualité de la délivrabilité pour votre plateforme. Voir à ce propos [cette section](#technical-deliverability-monitoring).
-* Le tableau de bord [de](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) diffusion vous donne accès au résumé [de la](../../delivery/using/monitoring-a-delivery.md#delivery-summary)Diffusion, aux [Logs de diffusion et à l&#39;historique](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) et aux [Logs de tracking. ](../../delivery/using/monitoring-a-delivery.md#tracking-logs) Ils indiquent le détail de l&#39;envoi, la cible exclue et les raisons de l&#39;exclusion et fournissent des informations de tracking telles que les ouvertures et les clics. <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
-* Vous pouvez également vérifier le nombre de messages à envoyer, à traiter et à envoyer avec succès. Voir à ce propos [cette section](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)
-   <!--[SpamAssassin](../../installation/using/configuring-spamassassin.md)?-->
+* Chaque diffusion génère un rapport de statistiques de diffusion pour les différents prestataires Internet (FAI). Il présente certaines mesures de qualité et de réputation des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
+   * **[!UICONTROL Les rebonds]** nets indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
+   * **[!UICONTROL Les rebonds]** doux indiquent la réputation. Ce nombre ne doit pas être supérieur à 10 % pour un fournisseur de services Internet donné.
+   For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
+* Plus généralement, le tableau de bord [de](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) diffusion vous donne accès à :
+   * le résumé [de la](../../delivery/using/monitoring-a-delivery.md#delivery-summary)diffusion, qui indique le détail de l&#39;envoi et le [nombre de messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) à envoyer, à traiter et à envoyer avec succès ;
+   * les [logs de diffusion et l&#39;historique](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), qui montrent quelle cible a été exclue et pourquoi ;
+   * les [logs de tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs), qui affichent des informations de suivi telles que les ouvertures et les clics.
 
 ## Directives de surveillance {#monitoring-guidelines}
 
