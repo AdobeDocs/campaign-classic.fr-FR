@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +45,7 @@ Le tracking des messages est activé par défaut. Pour personnaliser le tracking
 
 1. Pour chaque URL du message, choisissez d&#39;activer ou non le tracking.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Lorsque l&#39;URL du lien est utilisée comme libellé, il est recommandé de désactiver le tracking afin de prévenir tout risque de rejet pour cause de phishing.
    >
