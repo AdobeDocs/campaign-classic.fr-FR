@@ -12,8 +12,11 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4406e11e33e14136ea43fc3cc5a92e0d1c466100
+translation-type: tm+mt
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+workflow-type: tm+mt
+source-wordcount: '2380'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +31,7 @@ Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > 
 
 >[!NOTE]
 >
->La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
+>La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
 
 ## Description des tables principales {#description-main-tables}
 
@@ -58,7 +61,7 @@ Le champ iFolderId est la clé étrangère servant à relier le destinataire à 
 
 Le champ sCountryCode contient le code ISO 3166-1 Alpha 2 (2 caractères) du pays associé au destinataire. Ce champ est en fait une clé étrangère liée à la table de référence des pays (NmsCountry), qui contient les libellés des pays et d’autres données relatives aux codes des pays. Si le pays n’est pas renseigné, la valeur « XX » est indiquée (et est utilisée à la place d’un enregistrement d’ID nul).
 
-Pour plus d’informations sur la table des destinataires, voir cette [section](../../configuration/using/about-data-model.md#default-recipient-table).
+For more on the Recipient table, see [this section](../../configuration/using/about-data-model.md#default-recipient-table).
 
 ### NmsGroup {#NmsGroup}
 
@@ -108,7 +111,7 @@ Les dossiers sont associés à des types : la valeur du champ sModel indique le
 
 L’arborescence est gérée à l’aide des champs iParentId et iChildCount. Le champ sFullName indique le chemin d’accès complet du dossier dans l’arborescence. Enfin, il existe un index unique relatif au champ qui représente le nom interne du dossier sName.
 
-## Diffusion et tracking {#delivery-and-tracking}
+##  Diffusion et tracking {#delivery-and-tracking}
 
 Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce propos la section [Suivre les diffusions](../../delivery/using/monitoring-a-delivery.md). Voir à ce propos la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
 
@@ -204,7 +207,7 @@ Cette table correspond au schéma **nms:remaMatchRcp**.
 
 Elle contient un enregistrement qui représente la réaction d’une personne à une hypothèse donnée. Ces enregistrements ont été créés lors de l’exécution de l’hypothèse.
 
-## Simulation et diffusion {#simulation-and-delivery}
+##  Simulation et diffusion {#simulation-and-delivery}
 
 Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la distribution d’offres appartenant à une catégorie ou à un environnement avant d’envoyer votre proposition aux destinataires. Voir à ce sujet la section [À propos de la simulation des offres](../../interaction/using/about-offers-simulation.md).
 
