@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25ae29490f8b4c58dad499669f5bccff43de8b7a
+source-git-commit: e8a9d8d63c01cc19380267fced45e180b4d7ccb4
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 100%
 
 ---
 
@@ -75,40 +78,40 @@ L&#39;ajout d&#39;un canal de diffusion (Canal mobile, Mobile App Channel, etc.)
 
    ![](assets/messagecenter_install_channel.png)
 
-## Messages transactionnels et Inbound Interaction {#transactional-messages-and-inbound-interaction}
+<!--## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
 
-Couplés au module Inbound Interaction, les messages transactionnels permettent d&#39;insérer dans le message une offre marketing dédiée au destinataire.
+When combined with the Inbound Interaction module, transactional messaging enables you to insert a marketing offer dedicated to the recipient into the message.
 
 >[!NOTE]
 >
->Le module Interaction est présenté dans le guide [Interaction](../../interaction/using/interaction-and-offer-management.md).
+>The Interaction module is detailed in [Interaction](../../interaction/using/interaction-and-offer-management.md).
 
-Pour utiliser les messages transactionnels avec Interaction, vous devez effectuer les paramétrages suivants :
+To use transactional messaging with Interaction, you need to apply the following configurations:
 
-* Installez le package **Interaction** sur l&#39;instance de pilotage et configurez votre catalogue d&#39;offres.
+* Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-   >[!CAUTION]
-   >
-   >Ne répliquez pas les offres sur les instances d&#39;exécution.
+  >[!CAUTION]
+  >
+  >Do not replicate the offers onto the execution instances.
 
-* L&#39;évènement doit contenir un identifiant lié au destinataire afin de pouvoir personnaliser les offres. C&#39;est l&#39;attribut **@externalId** qui doit contenir la valeur de cet identifiant. **Interaction** est configuré par défaut pour identifier le destinataire sur la clé primaire :
+* The event must include an identifier linked to the recipients, for personalizing offers. The **@externalId** attribute must contain the value of this identifier. **Interaction** is configured by default to identify the recipient of the primary key:
 
-   ```
-   <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="1242"> 
-   ```
+  ```
+  <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="1242"> 
+  ```
 
-   Vous pouvez configurer **Interaction** pour que l&#39;identification s&#39;effectue sur le champ de votre choix, par exemple l&#39;adresse email :
+  You can configure **Interaction** so that identification takes place in the field of your choice, for example on the email address:
 
-   ```
-   <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="john.doe@yahoo.com"> 
-   ```
+  ```
+  <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="john.doe@yahoo.com"> 
+  ```
 
-Concevez vos modèles de diffusion de la même façon que pour une campagne email :
+Create your delivery templates the way you would for an email campaign:
 
-* Ajoutez l&#39;offre dans votre modèle de message transactionnel.
-* Visualisez l&#39;aperçu, envoyez un BAT et publiez le modèle.
+* Add the offer to your transactional message template.
+* Check the preview, send a proof and publish the template.
 
-Vous devez également activer le mode unitaire sur vos emplacements d&#39;offres. Voir à ce sujet [cette section](../../interaction/using/creating-offer-spaces.md).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
 
 ## Messages transactionnels et notifications push {#transactional-messaging-and-push-notifications}
 
