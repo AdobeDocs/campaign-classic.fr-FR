@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e587747be546860c0a485b44aee79d396f25cec
+source-git-commit: 9773e8ae39133968e4e167d11715c123e00d22c2
+workflow-type: tm+mt
+source-wordcount: '3368'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ La liste des comptes externes est accessible depuis le nœud **[!UICONTROL Plate
 
 Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe.
 
-Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 Pour ce faire, procédez comme suit :
 
@@ -120,7 +123,7 @@ Pour ce faire, procédez comme suit :
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 
-   La case à cocher **[!UICONTROL Activer le TLS sur SMPP]** vous permet de chiffrer le trafic SMPP. Voir à ce sujet cette [note technique](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+   La case à cocher **[!UICONTROL Activer le TLS sur SMPP]** vous permet de chiffrer le trafic SMPP. Voir à ce sujet cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. Si vous paramétrez un connecteur **[!UICONTROL SMPP Générique étendu]**, vous pouvez configurer des réponses automatiques.
 
@@ -135,7 +138,7 @@ La translittération consiste à remplacer un caractère d&#39;un SMS par un aut
 * Lorsque la translittération est **[!UICONTROL autorisée]**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l&#39;envoi du message. Par exemple, la lettre &quot;ë&quot; est remplacée par &quot;e&quot;. Le message est alors légèrement altéré, mais la limite du nombre de caractères demeure identique.
 * Lorsque la translittération **[!UICONTROL n&#39;est pas autorisée]**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l&#39;encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l&#39;encodage GSM.
 
@@ -343,7 +346,7 @@ Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : 
 
 * Lorsque vous définissez les encodages que vous souhaitez utiliser ainsi que les valeurs du champ **[!UICONTROL data_coding]** associées, Adobe Campaign tentera d&#39;utiliser le premier encodage de la liste, puis le suivant, si l&#39;encodage se révèle impossible.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 >
@@ -491,7 +494,7 @@ Les options disponibles sont les suivantes :
    <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Vérifiez la loi en vigueur dans votre pays concernant la modification du nom de l&#39;expéditeur. Vérifiez également auprès de votre opérateur s&#39;il propose cette fonctionnalité.
 
@@ -541,13 +544,13 @@ Le module **nlserver sms** interroge à intervalle régulier le routeur des mess
 
 Le schéma InSMS contient les informations relatives aux SMS entrants. Une description de ces champs est disponible via l&#39;attribut desc de ces derniers.
 
-* **message** : contenu du message SMS reçu.
+* **message** : contenu du SMS reçu.
 * **origin** : numéro du mobile de l&#39;expéditeur du message.
 * **providerId** : identifiant du message retourné par le SMSC (centre de messagerie).
 * **created** : date d&#39;insertion du message entrant dans Adobe Campaign.
 * **extAccount** : compte externe Adobe Campaign.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Les champs suivants sont spécifiques à Netsize.
    >
@@ -571,7 +574,7 @@ Par exemple, si un destinataire envoie le mot-clé STOP, il reçoit automatiquem
 
 Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code) habituellement utilisé pour envoyer les diffusions.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La procédure détaillée suivante n&#39;est valide que pour les connecteurs SMPP, à l&#39;exception du connecteur SMPP générique étendu. Voir à ce sujet la section [Création d&#39;un compte externe SMPP](#creating-an-smpp-external-account).
 >
@@ -618,7 +621,7 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 1. Copiez ce fichier dans le répertoire **conf** d&#39;Adobe Campaign, à l&#39;endroit où se trouve le serveur Web.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Il n&#39;existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le [tableau de bord des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
 >
