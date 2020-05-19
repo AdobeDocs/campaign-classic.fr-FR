@@ -15,14 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05831dbcf2450600a9f2f91f87c4440d7e599c9d
+source-git-commit: a976144d70b113d1358b0514a3e805d79e11484a
+workflow-type: tm+mt
+source-wordcount: '3743'
+ht-degree: 97%
 
 ---
 
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
-Le **[!UICONTROL Administration / Platform / Options]** noeud vous permet de configurer  options Adobe Campaign.
+Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign.
 
 >[!NOTE]
 >
@@ -222,7 +225,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
-   <td> Permet de spécifier une période maximale (exprimée en heures) pour limiter le nombre de journaux de diffusion récupérés chaque fois que le processus de synchronisation est exécuté.</a>.<br /> </td> 
+   <td> Permet de spécifier une période maximum (exprimée en heures) afin de limiter le nombre de broadlogs récupérés à chaque exécution du workflow de synchronisation.</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
@@ -393,7 +396,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Installer le mode de compatibilité :build&gt;6000) Si "1" est entré, cette option active le mode de compatibilité pour les mots de passe stockés. La modification de cette option empêche l'utilisation des anciens mots de passe stockés dans la base de données.<br /> </td> 
+   <td> (Mode de compatibilité d'installation : build&gt;6000) Lorsqu'elle est activée (valeur "1"), cette option permet l'utilisation d'anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l'instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -635,7 +638,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permet de configurer une base de données distincte pour les tables de travail sur Microsoft SQL Server, afin d’optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : Les tables de travail seront écrites dans cette base de données, le cas échéant. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
+   <td> Permet de configurer une base de données distincte pour les tables de travail sur Microsoft SQL Server, afin d'optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : Les tables de travail seront écrites dans cette base de données si elles sont spécifiées. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
