@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 1aca6758bc787f91ae28d7d5add875edf04541e8
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +28,8 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 ## A propos de l&#39;enrichissement des données {#about-enriching-data}
 
 Ce cas d’utilisation décrit les utilisations possibles de l’activité **[!UICONTROL Enrichissement]** dans un workflow de ciblage. Pour plus d’informations sur l’utilisation de l’activité **[!UICONTROL Enrichissement]**, voir la section : [Enrichissement](../../workflow/using/enrichment.md).
+
+Vous trouverez également dans [cette section](../../workflow/using/email-enrichment-with-custom-date-fields.md)un exemple d’utilisation de l’enrichissement d’une diffusion de courriel avec des dates personnalisées.
 
 Un jeu concours est proposé, par le biais d&#39;une application web, aux contacts de la base marketing. Les résultats du jeu concours sont récupérés dans la table **[!UICONTROL Résultats jeux]**. Cette table est liée à la table des contacts (**[!UICONTROL Destinataires]**). La table **[!UICONTROL Résultats jeux]** comporte les champs suivants :
 
