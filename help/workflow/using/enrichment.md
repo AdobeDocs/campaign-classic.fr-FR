@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 1aca6758bc787f91ae28d7d5add875edf04541e8
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +58,11 @@ Il existe quatre types de liens :
 
    Cette option est configurée dans l&#39;onglet **[!UICONTROL Réconciliation &amp; déduplication]**, accessible par le lien **[!UICONTROL Editer les données additionnelles]** de l&#39;activité **[!UICONTROL Enrichissement]**.
 
-Les exemples d’utilisation [Enrichir les données](../../workflow/using/enriching-data.md) et [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md) détaillent le fonctionnement des activités d’enrichissement dans leur contexte.
+Les cas d&#39;utilisation détaillant le fonctionnement des activités d&#39;Enrichissement dans leur contexte sont également disponibles dans les sections suivantes :
+
+* [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md).
+* [Enrichir des données](../../workflow/using/enriching-data.md)
+* [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md)
 
 ## Ajouter des informations {#adding-information}
 
