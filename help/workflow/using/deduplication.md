@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 0d2270c9d980d963437f9bb5cf37795474d261d6
+workflow-type: tm+mt
+source-wordcount: '764'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +52,10 @@ Cliquez sur le lien **[!UICONTROL Editer la configuration...]** pour définir le
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
-   L&#39;option **[!UICONTROL Autre]** permet, à l&#39;étape suivante, de sélectionner le ou les critères à utiliser :
+   >[!NOTE]
+   >
+   >Si vous utilisez des données externes comme entrée, par exemple à partir d’un fichier externe, veillez à sélectionner l’option schéma **** temporaire.
+L&#39;option **[!UICONTROL Autre]** permet, à l&#39;étape suivante, de sélectionner le ou les critères à utiliser :
 
    ![](assets/s_user_segmentation_dedup_param3.png)
 
