@@ -14,8 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '3087'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ Vous pouvez par exemple importer une population dans une liste puis cibler cette
 
 La cible principale d&#39;une diffusion peut également être définie au travers d&#39;un workflow de ciblage : cet environnement graphique permet de construire une cible via des requêtes, des tests et des unions, déduplications, partages, etc.
 
-Le mode de fonctionnement du module de workflow est détaillé dans le guide [Automatiser avec des workflows](../../workflow/using/executing-a-workflow.md#architecture).
+Le mode de fonctionnement du module de workflow est détaillé dans le guide [Automatiser avec des workflows](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
 >
@@ -104,7 +107,7 @@ La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux f
 
 >[!NOTE]
 >
->Les activités disponibles pour la construction du diagramme, ainsi que toutes les problématiques d&#39;affichage et de mise en page, sont présentées dans le guide [Automatiser avec des workflows](../../workflow/using/executing-a-workflow.md#architecture).
+>Les activités disponibles pour la construction du diagramme, ainsi que toutes les problématiques d&#39;affichage et de mise en page, sont présentées dans le guide [Automatiser avec des workflows](../../workflow/using/architecture.md).
 
 Vous pouvez créer plusieurs workflows de ciblage pour une même opération. Pour ajouter un workflow :
 
@@ -252,7 +255,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Ce paramétrage correspond à celui d&#39;une activité de partage dans le workflow, qui permet d&#39;éclater une cible en plusieurs sous-ensembles. La population témoin correspond à l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/executing-a-workflow.md#architecture).
+Ce paramétrage correspond à celui d&#39;une activité de partage dans le workflow, qui permet d&#39;éclater une cible en plusieurs sous-ensembles. La population témoin correspond à l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/architecture.md).
 
 ### Ajouter une population supplémentaire {#adding-a-population}
 
