@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 69b562979f3b32a4d30dfed0695cf3cf6c0fd26a
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,8 @@ La section ci-dessous présente des informations sur les problèmes courants li�
 Pour plus d&#39;informations sur les workflows, consultez les sections suivantes :
 
 * [A propos des workflows](../../workflow/using/about-workflows.md)
-* [Exécuter un workflow](../../workflow/using/executing-a-workflow.md)
+* [Démarrer un workflow](../../workflow/using/starting-a-workflow.md)
+* [Cycle de vie d&#39;un workflow](../../workflow/using/workflow-life-cycle.md)
 * [Bonnes pratiques relatives à l’utilisation des workflows](../../workflow/using/workflow-best-practices.md)
 
 ## Démarrage dès que possible dans les campagnes {#start-as-soon-as-possible-in-campaigns}
