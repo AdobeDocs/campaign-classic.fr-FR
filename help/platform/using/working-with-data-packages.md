@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 4ea5504bcfe306c5c5dc4b5fd685d898766d1685
+workflow-type: tm+mt
+source-wordcount: '2551'
+ht-degree: 66%
 
 ---
 
@@ -335,3 +338,128 @@ Les packages standard sont installés lors de la configuration d’Adobe Campaig
 Reportez-vous à votre contrat de licence pour savoir quels packages peuvent être installés.
 
 Pour plus d&#39;informations sur les packages standard, consultez [cette page](../../installation/using/installing-campaign-standard-packages.md).
+
+## Data package best practices {#data-package-best-practices}
+
+Cette section décrit comment organiser les packages de données de façon cohérente tout au long de la vie du projet.
+
+<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
+
+Les packages peuvent contenir différents types de configurations et d’éléments, filtrés ou non. Si certains éléments vous manquent ou si vous n’importez pas d’éléments/de packages dans l’ordre approprié, la configuration de la plate-forme peut être interrompue.
+
+De plus, avec plusieurs personnes travaillant sur la même plate-forme avec beaucoup de fonctionnalités différentes, le dossier de spécifications de paquets peut rapidement devenir complexe.
+
+Bien qu&#39;il ne soit pas obligatoire de le faire, cette section offre une solution pour aider à organiser et utiliser des paquets à Adobe Campaign pour des projets de grande envergure.
+
+<!--This solution has been used with a project involving more than 10 consultants.-->
+
+Les principales contraintes sont les suivantes :
+* Organiser les packages et suivre les modifications et les dates
+* Si une configuration est mise à jour, réduisez le risque de rupture d’un élément qui n’est pas directement lié à la mise à jour.
+
+>[!NOTE]
+>
+>Pour plus d’informations sur la configuration d’un processus d’exportation automatique de packs, voir [cette page](https://helpx.adobe.com/campaign/kb/export-packages-automatically.html).
+
+### Recommandations {#data-package-recommendations}
+
+Importez toujours dans la même version de la plate-forme. Vous devez vérifier que vous déployez vos packs entre deux instances ayant la même build. Ne forcez jamais l’importation et mettez toujours à jour la plateforme en premier (si la compilation est différente).
+
+>[!IMPORTANT]
+>
+>L’importation entre différentes versions n’est pas prise en charge par Adobe.
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+
+Prêtez attention à la structure du schéma et de la base de données. L&#39;importation de colis avec schéma doit être suivie de la génération de schémas.
+
+### Solution {#data-package-solution}
+
+#### Types de package {#package-types}
+
+Début en définissant différents types de paquets. Seuls quatre types seront utilisés :
+
+**Entités**
+* Tous les éléments spécifiques &quot;xtk&quot; et &quot;nms&quot; en Adobe Campaign tels que les schémas, les formulaires, les dossiers, les modèles de diffusion, etc.
+* Vous pouvez considérer une entité à la fois comme un élément &quot;admin&quot; et comme un élément &quot;plateforme&quot;.
+* Vous ne devez pas inclure plus d’une entité dans un package lorsque vous le téléchargez sur une instance Campaign.
+
+<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+
+Si vous devez déployer votre configuration sur une nouvelle instance, vous pouvez importer tous vos packages d’entités.
+
+**Fonctionnalités** Ce type de package :
+* Répond à une exigence/spécification du client.
+* Contient une ou plusieurs fonctionnalités.
+* Doit contenir toutes les dépendances pour pouvoir exécuter la fonctionnalité sans autre paquet.
+
+**Campagnes** Ce package n’est pas obligatoire. Il est parfois utile de créer un type spécifique pour toutes les campagnes, même si une campagne peut être considérée comme une fonctionnalité.
+
+**Mises à jour** Une fois configurée, une fonction peut être exportée dans un autre environnement. Par exemple, le package peut être exporté d’un environnement de développement vers un environnement de test. Dans ce test, un défaut est révélé. Tout d&#39;abord, il doit être corrigé sur l&#39;environnement de développement. Ensuite, le correctif doit être appliqué à la plate-forme de test.
+
+La première solution consisterait à réexporter l’ensemble de la fonction. Mais pour éviter tout risque (mettre à jour les éléments indésirables), il est plus sûr d&#39;avoir un paquet contenant uniquement la correction.
+
+C’est pourquoi nous vous recommandons de créer un package de &quot;mise à jour&quot; contenant un seul type d’entité de la fonctionnalité.
+
+Une mise à jour peut non seulement être un correctif, mais également un nouvel élément de votre package d&#39;entité/fonctionnalité/campagne. Pour éviter de déployer l’ensemble du pack, vous pouvez exporter un pack de mise à jour.
+
+### Conventions de dénomination {#data-package-naming}
+
+Maintenant que les types sont définis, nous devons spécifier une convention d&#39;affectation de nom. Adobe Campaign ne permet pas de créer des sous-dossiers pour les spécifications des paquets, ce qui signifie que les nombres sont la meilleure solution pour rester organisés. Nommer les préfixes de package. Vous pouvez utiliser la convention suivante :
+
+* Entité : de 1 à 99
+* Fonction : de 100 à 1999
+* Campaign : de 200 à 299
+* Mise à jour : de 5000 à 5999
+
+### Packages {#data-packages}
+
+>[!NOTE]
+>
+>Il est préférable de définir des règles pour définir le nombre correct de paquets.
+
+#### Ordre des packages d&#39;entités {#entity-packages-order}
+
+Pour faciliter l&#39;importation, les packages d&#39;entités doivent être commandés au fur et à mesure de leur importation. Par exemple :
+* 001 - Schéma
+* 002 - Formulaire
+* 003 - Images
+* etc.
+
+>[!NOTE]
+>
+>Les formulaires ne doivent être importés qu’après les mises à jour du schéma.
+
+#### Package 200 {#package-200}
+
+Le numéro de package &quot;200&quot; ne doit pas être utilisé pour une campagne spécifique : ce numéro sera utilisé pour mettre à jour quelque chose qui concerne toutes les campagnes.
+
+#### Mettre à jour le package {#update-package}
+
+Le dernier point concerne la numérotation des paquets de mise à jour. Il s’agit du numéro de votre pack (entité, fonction ou campagne) avec un préfixe &quot;5&quot;. Par exemple :
+* 5001 pour mettre à jour un schéma
+* 5 200 pour mettre à jour toutes les campagnes
+* 5101 pour mettre à jour la fonctionnalité 101
+
+Le package de mise à jour ne doit contenir qu&#39;une seule entité spécifique, afin d&#39;être facilement réutilisable. Pour les fractionner, ajoutez un nouveau nombre (début à partir de 1). Il n&#39;existe pas de règles de commande spécifiques pour ces paquets. Pour mieux comprendre, imaginez que nous avons une fonctionnalité 101, une application sociale :
+* Il contient une application WebApp et un compte externe.
+   * Le libellé du package est : 101 - Application sociale (socialApplication).
+* Il y a un défaut sur le webApp.
+   * Le fichier wepApp est corrigé.
+   * Un pack de correctifs doit être créé avec le nom suivant : 5101 - 1 - Application Social webApp (socialApplication_webApp).
+* Un nouveau compte externe doit être ajouté pour la fonction sociale.
+   * Le Compte externe est créé.
+   * Le nouveau package est : 5101 - 2 - compte externe de l’application Social (socialApplication_extAccount).
+   * En parallèle, le package 101 est mis à jour pour être ajouté au compte externe, mais il n’est pas déployé.
+      ![](assets/ncs_datapackage_best-practices-1.png)
+
+#### Documentation du package {#package-documentation}
+
+Lorsque vous mettez à jour un package, vous devez toujours placer un commentaire dans le champ de description pour détailler les modifications et les raisons (par exemple, &quot;ajouter un nouveau schéma&quot; ou &quot;corriger un défaut&quot;).
+
+![](assets/ncs_datapackage_best-practices-2.png)
+
+Vous devez également dater le commentaire. Toujours signaler votre commentaire sur un paquet de mise à jour au &quot;parent&quot; (paquet sans préfixe 5).
+
+>[!IMPORTANT]
+>
+>Le champ de description ne peut contenir que 2 000 caractères au maximum.
