@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '855'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le
 
    >[!NOTE]
    >
-   >Lorsqu&#39;une diffusion s&#39;inscrit dans un workflow, vous pouvez utiliser les données issues de la table de travail temporaire du workflow. Elles sont regroupées sous le menu **[!UICONTROL Extension de la cible]**. Voir à ce sujet [cette section](../../workflow/using/executing-a-workflow.md#target-data).
+   >Lorsqu&#39;une diffusion s&#39;inscrit dans un workflow, vous pouvez utiliser les données issues de la table de travail temporaire du workflow. Elles sont regroupées sous le menu **[!UICONTROL Extension de la cible]**. Voir à ce sujet [cette section](../../workflow/using/data-life-cycle.md#target-data).
 
 ## Optimiser la personnalisation {#optimizing-personalization}
 
