@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,7 @@ Vous pouvez paramétrer cette activité afin de définir des événements en cas
 
 ![](assets/edit_signal.png)
 
-Le paramétrage des expirations est présenté dans la section [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
+Le paramétrage des expirations est présenté dans la section [Expirations](../../workflow/using/defining-approvals.md).
 
 Le champ **Délai** permet de spécifier un délai d&#39;expiration exprimé dans l&#39;unité de votre choix. Voir [Attente](../../workflow/using/wait.md).
 
