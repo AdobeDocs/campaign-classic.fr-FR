@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 9e5a499d723d3e4126f533b6c7dd63073aff3d09
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 100%
 
 ---
 
@@ -82,5 +85,5 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    ![](assets/email_rec_edit_3.png)
 
-   Le paramétrage est le même que celui de l&#39;activité de planification. Voir la section [Expirations](../../workflow/using/executing-a-workflow.md#expirations).
+   Le paramétrage est le même que celui de l&#39;activité de planification. Voir la section [Expirations](../../workflow/using/defining-approvals.md).
 
