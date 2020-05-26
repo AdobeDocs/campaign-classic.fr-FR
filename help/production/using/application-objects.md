@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1937c1ddcbde092a22f4fe8c50d3d72b02cfeed
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +61,7 @@ Si un workflow importe des fichiers et n&#39;utilise pas les fonctionnalités st
 
 ## Données transactionnelles et logs {#transactional-data-and-logs}
 
-Chaque [workflow](../../workflow/using/executing-a-workflow.md#work-table) qui importe des données dans Adobe Campaign entraîne une augmentation de la taille de la base de données.
+Chaque [workflow](../../workflow/using/data-life-cycle.md#work-table) qui importe des données dans Adobe Campaign entraîne une augmentation de la taille de la base de données.
 
 Vérifiez que les workflows de nettoyage ou de purge sont en cours d&#39;exécution et qu&#39;ils purgent effectivement les enregistrements. L&#39;ensemble des données transactionnelles et des logs doivent être purgés. La tâche de nettoyage purge les tables standards uniquement : logs de tracking et broadlogs. Les tables spécifiques doivent être purgées par des workflows en particulier. Voir à ce propos [cette section](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 
