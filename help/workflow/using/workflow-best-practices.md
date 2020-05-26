@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b4ec97e52a494dd88b2516650ae514294f00934
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1656'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +52,7 @@ Deux autres solutions sont proposées :
    Cette option, disponible dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés d&#39;un workflow, permet d&#39;enregistrer toutes les requêtes SQL générées par l&#39;outil à partir des différentes activités. Elle permet ainsi de savoir ce qui est actuellement exécuté par la plateforme. Cette option ne doit toutefois être utilisée que temporairement pendant le développement et ne pas être activée en production.
 
 Purgez les logs lorsqu’ils ne sont plus nécessaires. L’historique d’un workflow n’est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l’historique depuis le menu **[!UICONTROL Fichier > Actions]** ou en cliquant sur le bouton Actions situé dans la barre d’outils au-dessus de la liste. Choisissez Purge de l’historique.
-Pour savoir comment purger les logs, consultez cette [documentation](../../workflow/using/executing-a-workflow.md#actions-toolbar).
+Pour savoir comment purger les logs, consultez cette [documentation](../../workflow/using/starting-a-workflow.md).
 
 ### Planification des workflows {#workflow-planning}
 
