@@ -14,8 +14,11 @@ discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1128'
+ht-degree: 100%
 
 ---
 
@@ -99,7 +102,7 @@ vacuum full nmsdelivery;
 >* Adobe recommande d&#39;ajouter tables spécifiques à votre modèle de données, notamment celles qui subissent des mises à jour massives. Par exemple, cela peut être le cas pour **NmsRecipient** si vous procédez chaque jour à d&#39;importantes réplications de données.
 >* Les commandes **vacuum** et **re-index** verrouillent la table ce qui met certains processus en attente pendant toute la durée de la maintenance.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande **vacuum full** peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
->* Cette opération de maintenance peut être effectuée par un workflow d’Adobe Campaign via une activité de type **[!UICONTROL SQL]** (voir à ce sujet [cette section](../../workflow/using/executing-a-workflow.md#architecture)). Assurez-vous de lancer la maintenance pendant une période de faible activité et en dehors des périodes de sauvegarde.
+>* Cette opération de maintenance peut être effectuée par un workflow d’Adobe Campaign via une activité de type **[!UICONTROL SQL]** (voir à ce sujet [cette section](../../workflow/using/architecture.md)). Assurez-vous de lancer la maintenance pendant une période de faible activité et en dehors des périodes de sauvegarde.
 >
 
 
