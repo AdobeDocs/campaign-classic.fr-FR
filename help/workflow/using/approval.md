@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ Cliquez sur le lien **[!UICONTROL Paramètres avancés...]** pour sélectionner 
 
 Ce modèle peut être modifié pour personnaliser la présentation du message, mais il est préférable d&#39;en faire une copie. Le mécanisme de ciblage (fichier externe, mapping de ciblage) ne doit pas être modifié car il est nécessaire au bon fonctionnement de la notification.
 
-Un exemple de validation est proposé dans la section [Définir les validations](../../workflow/using/executing-a-workflow.md#defining-approvals).
+Un exemple de validation est proposé dans la section [Définir les validations](../../workflow/using/defining-approvals.md).
 
 ## Paramètres de sortie {#output-parameters}
 
