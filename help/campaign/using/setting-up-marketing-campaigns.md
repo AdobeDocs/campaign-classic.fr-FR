@@ -14,8 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 100%
 
 ---
 
@@ -146,7 +149,7 @@ Vous pouvez utiliser l&#39;assistant de création de planning pour afin de rense
 
 ![](assets/s_ncs_user_op_template_recur_planning_wz.png)
 
-Le mode de paramétrage du planning d&#39;exécution correspond à celui de l&#39;objet **[!UICONTROL Planificateur]** du Workflow. Voir à ce sujet [cette section](../../workflow/using/executing-a-workflow.md#architecture).
+Le mode de paramétrage du planning d&#39;exécution correspond à celui de l&#39;objet **[!UICONTROL Planificateur]** du Workflow. Voir à ce sujet [cette section](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
 >
