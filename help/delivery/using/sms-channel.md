@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9773e8ae39133968e4e167d11715c123e00d22c2
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
 source-wordcount: '3368'
 ht-degree: 100%
@@ -538,7 +538,7 @@ Le module **nlserver sms** interroge à intervalle régulier le routeur des mess
 
 * **Désinscription** : les destinataires qui ne souhaitent plus recevoir de diffusions par SMS peuvent renvoyer un message contenant le mot STOP. Si votre fournisseur vous le permet contractuellement, vous avez la possibilité de récupérer ses messages via l&#39;activité de workflow **Réception de SMS** puis de créer une requête afin que l&#39;option **Ne plus contacter cette personne** soit activée pour les destinataires concernés.
 
-   Reportez-vous au guide [Workflows](../../workflow/using/executing-a-workflow.md#architecture).
+   Reportez-vous au guide [Workflows](../../workflow/using/architecture.md).
 
 ## Schéma InSMS {#insms-schema}
 
