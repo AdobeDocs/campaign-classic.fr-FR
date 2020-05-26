@@ -14,7 +14,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Apprenez les bonnes pratiques d&#39;import de données via un workflow Campaign 
 
 ## Est-il possible de suivre l&#39;exécution des workflows ?{#can-i-monitor-workflow-execution-}
 
-Découvrez comment suivre l&#39;exécution des workflows Campaign dans [cette page](../../workflow/using/executing-a-workflow.md).
+Découvrez comment suivre l&#39;exécution des workflows Campaign dans [cette page](../../workflow/using/starting-a-workflow.md).
 
 ## Comment mettre à jour les données de Campaign avec un workflow ?{#how-can-i-update-campaign-data-with-a-workflow-}
 
