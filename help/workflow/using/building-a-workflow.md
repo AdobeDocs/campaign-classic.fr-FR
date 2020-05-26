@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 100%
 
 ---
 
@@ -155,7 +158,7 @@ Les phases de construction des données du ciblage sont les suivantes :
 1. Pour préparer les données en fonction des besoins de diffusion, reportez-vous à la section [Enrichir/Modifier des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
 1. Utiliser les données pour procéder à des mises à jour ou dans une diffusion. Voir à ce sujet la section [Mettre à jour la base de données](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
 
-Les résultats de tous les enrichissements et manipulations effectués lors du ciblage sont stockés pour être accessibles dans les champs de personnalisation, notamment pour les utiliser dans la création de messages personnalisés. Voir à ce sujet la section [Données de la cible](../../workflow/using/executing-a-workflow.md#target-data)
+Les résultats de tous les enrichissements et manipulations effectués lors du ciblage sont stockés pour être accessibles dans les champs de personnalisation, notamment pour les utiliser dans la création de messages personnalisés. Voir à ce sujet la section [Données de la cible](../../workflow/using/data-life-cycle.md#target-data)
 
 ### Dimension de ciblage et dimension de filtrage {#targeting-and-filtering-dimensions}
 
