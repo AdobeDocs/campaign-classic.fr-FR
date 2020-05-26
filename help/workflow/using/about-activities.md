@@ -14,8 +14,11 @@ discoiquuid: 96c0ffae-b7b8-4346-bf20-963aa233438f
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 100%
 
 ---
 
@@ -34,5 +37,5 @@ En savoir plus:
 
 * [A propos des activités de ciblage](../../workflow/using/about-targeting-activities.md)
 * [Importer des données](../../workflow/using/importing-data.md)
-* [Exécuter un workflow](../../workflow/using/executing-a-workflow.md)
+* [Exécuter un workflow](../../workflow/using/starting-a-workflow.md)
 * [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md)
