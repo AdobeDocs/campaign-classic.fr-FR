@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9a1db0fbced3550621c5520656a34344128ee13f
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '540'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,7 @@ Adobe Campaign contient un ensemble de tableaux de bord et d&#39;outils qui perm
 
 ## 5. Est-il possible de suivre l&#39;exécution des workflows ?{#can-i-monitor-workflow-execution}
 
-Découvrez comment suivre l&#39;exécution des workflows Campaign dans [cette page](../../workflow/using/executing-a-workflow.md).
+Découvrez comment suivre l&#39;exécution des workflows Campaign dans [cette page](../../workflow/using/starting-a-workflow.md).
 
 ## 6. Comment se connecter à Campaign Classic ?{#how-can-i-connect-to-campaign-classic-}
 
