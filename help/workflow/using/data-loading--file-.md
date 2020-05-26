@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
+source-git-commit: e3de6f7b21d912efa4f6faca5e57cb480e8f1805
+workflow-type: tm+mt
+source-wordcount: '1145'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
 
 ## Utilisation {#use}
 
-L&#39;activité **[!UICONTROL Chargement (Fichier)]** permet d&#39;accéder directement à une source de données externe pour les utiliser dans Adobe Campaign. En effet, toutes les données nécessaires aux opérations de ciblage ne sont pas nécessairement présentes dans la base Adobe Campaign : elles peuvent être mises à disposition dans des fichiers externes.
+L’activité de chargement de **[!UICONTROL données (Fichier)]** vous permet d’accéder directement à une source de données externes et de l’utiliser dans Adobe Campaign. En effet, toutes les données requises pour les opérations de ciblage ne se trouvent pas toujours dans la base de données Adobe Campaign : il peut être disponible dans des fichiers externes.
 
 Le fichier à charger peut être spécifié par la transition ou calculé lors de l&#39;exécution de cette activité. Il peut s&#39;agir par exemple de la liste des 10 produits favoris d&#39;un client dont les actes d&#39;achats sont gérés dans une base externe.
 
