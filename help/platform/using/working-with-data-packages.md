@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ea5504bcfe306c5c5dc4b5fd685d898766d1685
+source-git-commit: 8089eb39e7326408f94b5fd6acacd8950c0e6021
 workflow-type: tm+mt
 source-wordcount: '2551'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -387,14 +387,20 @@ Début en définissant différents types de paquets. Seuls quatre types seront u
 
 Si vous devez déployer votre configuration sur une nouvelle instance, vous pouvez importer tous vos packages d’entités.
 
-**Fonctionnalités** Ce type de package :
+**Caractéristiques**
+
+Ce type de package :
 * Répond à une exigence/spécification du client.
 * Contient une ou plusieurs fonctionnalités.
 * Doit contenir toutes les dépendances pour pouvoir exécuter la fonctionnalité sans autre paquet.
 
-**Campagnes** Ce package n’est pas obligatoire. Il est parfois utile de créer un type spécifique pour toutes les campagnes, même si une campagne peut être considérée comme une fonctionnalité.
+**Opérations**
 
-**Mises à jour** Une fois configurée, une fonction peut être exportée dans un autre environnement. Par exemple, le package peut être exporté d’un environnement de développement vers un environnement de test. Dans ce test, un défaut est révélé. Tout d&#39;abord, il doit être corrigé sur l&#39;environnement de développement. Ensuite, le correctif doit être appliqué à la plate-forme de test.
+Ce paquet n&#39;est pas obligatoire. Il est parfois utile de créer un type spécifique pour toutes les campagnes, même si une campagne peut être considérée comme une fonctionnalité.
+
+**Mises à jour**
+
+Une fois configurée, une fonction peut être exportée dans un autre environnement. Par exemple, le package peut être exporté d’un environnement de développement vers un environnement de test. Dans ce test, un défaut est révélé. Tout d&#39;abord, il doit être corrigé sur l&#39;environnement de développement. Ensuite, le correctif doit être appliqué à la plate-forme de test.
 
 La première solution consisterait à réexporter l’ensemble de la fonction. Mais pour éviter tout risque (mettre à jour les éléments indésirables), il est plus sûr d&#39;avoir un paquet contenant uniquement la correction.
 
