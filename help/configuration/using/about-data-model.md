@@ -12,11 +12,11 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 580be39d09bd59770d490945c3ba2b29e12fb3c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > P
 
 ![](assets/data-model_documentation-tab.png)
 
-For more on the default Campaign Classic data model description, refer to [this section](../../configuration/using/data-model-description.md).
+Pour plus d’informations sur la description du modèle de données par défaut de Campaign Classic, consultez cette [section](../../configuration/using/data-model-description.md).
 
-La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
+La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
 ## Présentation {#data-model-overview}
 
@@ -41,13 +41,13 @@ Adobe Campaign repose sur une base de données relationnelle contenant des table
 
 >[!NOTE]
 >
->For more on the Campaign data model architecture and related best practices, refer to [this section](../../configuration/using/data-model-best-practices.md#data-model-architecture).
+>Pour plus d’informations sur l’architecture du modèle de données Campaign et les bonnes pratiques connexes, reportez-vous à cette [section](../../configuration/using/data-model-best-practices.md#data-model-architecture).
 
 ### Table des destinataires {#recipient-table}
 
 Le modèle de données repose sur une table principale qui est par défaut la table des destinataires (**NmsRecipient**). Cette table permet de stocker tous les profils marketing.
 
-For more on the Recipient table, see [this section](#default-recipient-table).
+Pour plus d’informations sur la table des destinataires, voir cette [section](#default-recipient-table).
 
 ### Table de diffusion {#delivery-table}
 
@@ -88,7 +88,7 @@ En outre, la table des destinataires, qui fait partie du produit, et son formula
 
 Lorsque vous commencez à utiliser Adobe Campaign, vous devez évaluer le modèle de données par défaut pour déterminer quelle table est adaptée au stockage de vos données marketing.
 
-If relevant, you can use the default Recipient table with the out-of-the-box fields, such as described in [this section](#default-recipient-table).
+Le cas échéant, vous pouvez utiliser la table des destinataires par défaut avec les champs d’usine, comme décrit dans cette [section](#default-recipient-table).
 
 En cas de besoin, vous pouvez l’étendre avec deux mécanismes :
 
@@ -111,7 +111,7 @@ En effet, si votre modèle de données ne correspond pas à une structure centr�
 >
 >Dans ce cas, vous devrez créer un nouveau [mapping de ciblage](../../configuration/using/target-mapping.md).
 
-All the principles and steps needed when using a custom recipient table are detailed in [this section](../../configuration/using/about-custom-recipient-table.md).
+Les principes et les procédures applicables pour utiliser une table de destinataires par défaut sont détaillés dans cette [section](../../configuration/using/about-custom-recipient-table.md).
 
 Les avantages d&#39;une table de destinataires par défaut sont les suivants :
 
