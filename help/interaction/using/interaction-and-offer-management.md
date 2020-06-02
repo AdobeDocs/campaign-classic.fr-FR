@@ -14,8 +14,11 @@ discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad4a40053b25bbf8de81e074e135ef4944f0b427
+workflow-type: ht
+source-wordcount: '287'
+ht-degree: 100%
 
 ---
 
@@ -38,6 +41,6 @@ Pour vous familiariser avec la fonctionnalité d’interaction et les terminolog
 
 | Pages utiles | Autres ressources |
 |---|---|
-| [Etapes de mise en oeuvre de l’interaction](../../interaction/using/implementation-steps.md) | [Test  de la distribution  des](../../interaction/using/about-offers-simulation.md) |
-| [Environnements en ligne/édition](../../interaction/using/live-design-environments.md) | [Ajout d’un   dans un courrier électronique](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [Créer des emplacements d&#39;offres](../../interaction/using/creating-offer-spaces.md) | [Cas d’utilisation : ajout d’un   dans un site Web](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [Étapes de mise en œuvre d’Interaction](../../interaction/using/implementation-steps.md) | [Test de la distribution des offres](../../interaction/using/about-offers-simulation.md) |
+| [Environnements en ligne/édition](../../interaction/using/live-design-environments.md) | [Ajout d’une offre dans un email](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [Créer des emplacements d&#39;offres](../../interaction/using/creating-offer-spaces.md) | [Cas pratique : ajouter une offre dans un site web](../../interaction/using/offers-on-an-inbound-channel.md) |
