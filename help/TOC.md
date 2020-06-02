@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Aide d'Adobe Campaign Standard
+user-guide-title: Aide d'Adobe Campaign Classic
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
 source-wordcount: '2051'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Aide d&#39;Adobe Campaign Standard {#using}
+# Aide d&#39;Adobe Campaign Classic {#using}
 
 + [Documentation du produit](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
@@ -25,7 +25,7 @@ ht-degree: 98%
       + [Version 18.10](rn/using/release--18-10.md)
       + [Version 18.6](rn/using/release--18-6.md)
       + [Version 18.4](rn/using/release--18-4.md)
-   + [Fonctions obsolètes](rn/using/deprecated-features.md)
+   + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
 + Prise en main {#getting-started}
    + Prise en main d&#39;Adobe Campaign {#starting-with-adobe-campaign}
       + [A propos d&#39;Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -53,14 +53,14 @@ ht-degree: 98%
       + [Créer et gérer des listes](platform/using/creating-and-managing-lists.md)
    + Import et export de données {#importing-and-exporting-data}
       + [Imports et exports génériques](platform/using/generic-imports-and-exports.md)
-      + [export des données](platform/using/exporting-data.md)
+      + [Export des données](platform/using/exporting-data.md)
       + [Importer des données](platform/using/importing-data.md)
       + [Utilisation du serveur SFTP](platform/using/sftp-server-usage.md)
    + Filtrer les données {#filtering-data}
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Utilisation :](platform/using/use-case.md)
-   + Créer une requête   {#creating-queries}
+   + Créer une requête  {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -290,35 +290,35 @@ ht-degree: 98%
 + Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
-      + [Partage des audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
-      + [Envoi d&#39;une demande à Adobe  ](integrations/using/submitting-request-to-adobe.md)
-      + [Configuration de l’intégration des audiences partagées dans [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [Partage d&#39;audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [Envoi d&#39;une demande à Adobe](integrations/using/submitting-request-to-adobe.md)
+      + [Configuration de l&#39;intégration des audiences partagées dans [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [Résolution des problèmes](integrations/using/troubleshooting.md)
       + [Import et export d&#39;audiences](integrations/using/importing-and-exporting-audiences.md)
    + Partage de ressources {#asset-sharing}
       + [Partage de ressources avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [Configuration de l’accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
+      + [Configurer l&#39;accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Insérer une ressource partagée](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [A propos [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [À propos de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuration de l&#39;intégration](integrations/using/configuring-the-integration.md)
-      + [Création d’ [!DNL Experience Manager] une newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Création d’une [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Intégration à [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
-      + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [Intégration avec [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [Configurer l&#39;intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Insérer une image dynamique](integrations/using/inserting-a-dynamic-image.md)
    + Connexion via un Adobe ID {#connecting-via-an-adobe-id}
-      + [A propos [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+      + [À propos de [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
       + [Configuration [!DNL IMS]](integrations/using/configuring-ims.md)
-      + [Implémentation [!DNL IMS]](integrations/using/implementing-ims.md)
+      + [Mise en œuvre [!DNL IMS]](integrations/using/implementing-ims.md)
       + [Dépanner IMS](integrations/using/ims-troubleshooting.md)
    + ACS Connector {#acs-connector}
-      + [[!DNL ACS Connector] principes et cycle de données](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACS Connector] principes et cycle des données](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Synchronisation des profils](integrations/using/synchronizing-profiles.md)
       + [Synchronisation des audiences](integrations/using/synchronizing-audiences.md)
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
-      + [Dépannage de la variable [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
-+ Automatisation et workflows{#automating-with-workflows}
+      + [Résolution des problèmes de [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
++ Automatisation et workflows {#automating-with-workflows}
    + Introduction {#introduction}
       + [A propos des workflows](workflow/using/about-workflows.md)
       + [A propos des activités](workflow/using/about-activities.md)
@@ -402,7 +402,7 @@ ht-degree: 98%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle    {#monitoring}
+      + Contrôle  {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -425,7 +425,7 @@ ht-degree: 98%
       + [Surveiller les workflows techniques](workflow/using/monitoring-technical-workflows.md)
       + [Carte thermique des workflows](workflow/using/heatmap.md)
    + Gestion avancée {#advanced-management}
-      + [Propriétés d&#39;exécution ](workflow/using/workflow-properties.md)
+      + [Propriétés d&#39;exécution](workflow/using/workflow-properties.md)
       + [Paramètres avancés](workflow/using/advanced-parameters.md)
       + [Scripts/Templates JavaScript](workflow/using/javascript-scripts-and-templates.md)
       + [Accéder à une base externe (FDA)](workflow/using/accessing-an-external-database--fda-.md)
@@ -504,7 +504,7 @@ ht-degree: 98%
       + [Règles de présentation](interaction/using/presentation-rules.md)
       + [Offres sur canal entrant](interaction/using/offers-on-an-inbound-channel.md)
       + [Offres sur canal sortant](interaction/using/offers-on-an-outbound-channel.md)
-+ Transactional Messaging {#transactional-messaging}
++ Messages transactionnels {#transactional-messaging}
    + Introduction {#introduction}
       + [A propos des messages transactionnels](message-center/using/about-transactional-messaging.md)
       + [Architecture des messages transactionnels](message-center/using/transactional-messaging-architecture.md)
@@ -536,8 +536,8 @@ ht-degree: 98%
       + [Historique des événements](message-center/using/history-of-message-center-events.md)
       + [Qualité de service Message Center](message-center/using/message-center-service-level.md)
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
-   + Utilisation :{#use-case}
-      + [Envoi de courriers électroniques transactionnels avec des pièces jointes](message-center/using/transactional-email-with-attachments.md)
+   + Utilisation {#use-case}
+      + [Envoi d’emails transactionnels avec des pièces jointes](message-center/using/transactional-email-with-attachments.md)
 + Intégration aux réseaux sociaux {#integrating-with-social-media}
    + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
    + Configuration {#configuration}
@@ -561,7 +561,7 @@ ht-degree: 98%
       + [A propos des modèles hybrides et hébergés](installation/using/about-hybrid-and-hosted-models.md)
       + [Modèle hybride](installation/using/hybrid-model.md)
       + [Modèle hébergé](installation/using/hosted-model.md)
-   + Prérequis et recommandations  {#prerequisites-and-recommendations-}
+   + Prérequis et recommandations {#prerequisites-and-recommendations-}
       + [Avant de commencer](installation/using/before-starting.md)
       + [Base de données](installation/using/database.md)
       + [Serveur applicatif n°](installation/using/application-server.md)
