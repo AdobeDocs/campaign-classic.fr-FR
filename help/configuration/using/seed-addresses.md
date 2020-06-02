@@ -14,15 +14,18 @@ discoiquuid: 41338d32-b95c-45ae-bee6-17b2af5bd837
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5c1732858fd5d079bbd9a755997c04adf5c9d47
+workflow-type: ht
+source-wordcount: '335'
+ht-degree: 100%
 
 ---
 
 
 # Adresses de contrôle{#seed-addresses}
 
-Si le tableau du est un tableau personnalisé, des configurations supplémentaires sont requises. Le  **[!UICONTROL nms:seedMember]** de doit être étendu. Un onglet supplémentaire est ajouté au   pour définir les champs appropriés, comme illustré ci-dessous :
+Si la table des destinataires est une table personnalisée, vous devez effectuer des paramétrages complémentaires. Le schéma **[!UICONTROL nms:seedMember]** doit être étendu. Un onglet supplémentaire est alors ajouté au niveau des adresses de contrôle afin de définir les champs adéquats, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
@@ -56,7 +59,7 @@ Les étapes sont les suivantes :
    name="custom_customNamespace_customSchema"
    ```
 
-   Cet élément doit contenir les champs requis pour exporter les campagnes. Ces champs doivent porter le même nom que les champs correspondants du externe. Si, par exemple, le  de est **[!UICONTROL cus:person]** **[!UICONTROL nms:seedMember]** , le  de doit être étendu comme suit :
+   Cet élément doit contenir les champs nécessaires à l&#39;export de campagnes. Ces champs doivent porter le même nom que le champ correspondant dans le schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l&#39;exemple suivant :
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -87,7 +90,7 @@ Les étapes sont les suivantes :
    >    * Dans l’extension **nms:seedMember**, le champ contenant l&#39;adresse email doit avoir comme attribut **name=&quot;email&quot;**. Le nom SQL doit être différent de &#39;sEmail&#39; qui est déjà utilisé pour le schéma des destinataires. Cet attribut doit être immédiatement déclaré sous l’élément **`<element name="custom_cus_person" />`**.
 
 
-1. Modify the **[!UICONTROL seedMember]** form accordingly to define a new &quot;Internal recipient&quot; tab in the **[!UICONTROL Seed addresses]** window. Voir à ce sujet la section [Structure d’un formulaire](../../configuration/using/form-structure.md).
+1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Voir à ce sujet la section [Structure d’un formulaire](../../configuration/using/form-structure.md).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"
