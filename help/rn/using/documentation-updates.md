@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 5d8959dc790c0cf0e6ea62122310bfbee5bcc0dd
 workflow-type: tm+mt
 source-wordcount: '6491'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ La section Dépannage de la délivrabilité a été déplacée et améliorée. [
 
 Les directives de délivrabilité lors du démarrage d&#39;une nouvelle section de plateforme ont été améliorées. [En savoir plus](../../delivery/using/starting-new-platform.md)
 
-La section Envoi de courriers électroniques transactionnels avec pièces jointes a été déplacée et mise à jour. [En savoir plus](../../message-center/using/transactional-email-with-attachments.md)
+La section Envoi d’emails transactionnels avec des pièces jointes a été déplacée et mise à jour. [En savoir plus](../../message-center/using/transactional-email-with-attachments.md)
 
 La section Meilleures pratiques du Package de données a été déplacée et mise à jour. [En savoir plus](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
@@ -54,7 +54,7 @@ Les cas d&#39;utilisation des processus ont été actualisés et réorganisés e
 
 Les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Règles de gestion des emails](../../delivery/using/understanding-delivery-failures.md#email-management-rules) ont été mises à jour pour les améliorer.
 
-L’article Adobe Campaign Enhanced MTA a été mis à jour. Elle ne s&#39;applique désormais qu&#39;à Campaign Classic. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+L’article sur le MTA amélioré d’Adobe Campaign a été mis à jour. Il ne s’applique désormais qu’à Campaign Classic. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## Mars 2020 {#march-2020}
 
@@ -355,7 +355,7 @@ Surveillance des workflows - [En savoir plus](https://docs.campaign.adobe.com/do
 
 Les API de Campaign Classic sont maintenant disponibles dans une [page dédiée](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html). Si vous utilisiez le fichier jsapi.chm, vous devez à présent vous référer à la nouvelle version en ligne.
 
-Mise à jour de la matrice de comptabilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+Mise à jour de la matrice de compatibilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 La page « Fonctionnalités obsolètes et supprimées de Campaign Classic » a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
@@ -431,7 +431,7 @@ La section « Optimiser la personnalisation » a été mise à jour en y incor
 
 **Nouvelles fonctionnalités de cette version**
 
-Mise à jour de la matrice de comptabilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+Mise à jour de la matrice de compatibilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 La documentation JSAPI a été mise à jour. [En savoir plus](https://support.neolane.net/webApp/extranetLogin)
 
@@ -509,7 +509,7 @@ Une note technique relative au nouveau mécanisme de génération automatique de
 
 La documentation JSAPI a été mise à jour. [En savoir plus](https://support.neolane.net/webApp/extranetLogin)
 
-Mise à jour de la matrice de comptabilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+Mise à jour de la matrice de compatibilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 Une nouvelle page répertoriant les fonctionnalités et versions obsolètes est désormais disponible. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
@@ -644,7 +644,7 @@ Disponibilité d&#39;un exemple de création de [workflow d&#39;import](https://
 ](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html#Import_best_practices)
 Mise à jour du guide d&#39;installation pour cette nouvelle version. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/INS_Architecture_and_hosting_models_General_architecture.html)
 
-Mise à jour de la matrice de comptabilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+Mise à jour de la matrice de compatibilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 L&#39;inclusion de coupons à vos envois d&#39;emails offrent une valeur ajoutée aux destinataires. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalized_coupons.html)
 
