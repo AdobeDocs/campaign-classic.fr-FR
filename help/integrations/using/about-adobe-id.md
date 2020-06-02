@@ -14,8 +14,11 @@ discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
+workflow-type: ht
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
@@ -29,17 +32,17 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 * politique de gestion de mot de passe plus sécurisée
 * utilisation de comptes de type Federated ID (fournisseur d&#39;identité externe)
 
-Le système de gestion des identités d’Adobe aide les administrateurs à créer et à gérer l’accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’ID Adobe, reportez-vous à [cette page](https://helpx.adobe.com/enterprise/using/identity.html).
+Le système de gestion des identités d’Adobe permet aux administrateurs de créer et de gérer l’accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
 >[!CAUTION]
 >
->L’implémentation IMS est strictement réservée aux administrateurs techniques d’Adobe. La mise en oeuvre du SGI est un processus complexe qui peut être long à mettre en oeuvre.
+>L’implémentation d’IMS est strictement réservée aux administrateurs techniques d’Adobe. Il s’agit d’un processus complexe, potentiellement fastidieux.
 
 ## Rubriques connexes :
 
 | Pages utiles | Autres ressources |
 |---|---|
-| [Paramétrer IMS](../../integrations/using/configuring-ims.md) | [FAQ sur Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) |
-| [Implémenter l&#39;IMS](../../integrations/using/implementing-ims.md) | [Gestion des accès](../../platform/using/access-management.md) |
-| [Résolution des problèmes IMS](../../integrations/using/ims-troubleshooting.md) | [Installation de Campaign packages](../../installation/using/installing-campaign-standard-packages.md) |
+| [Paramétrer IMS](../../integrations/using/configuring-ims.md) | [FAQ sur Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/faq.html) |
+| [Implémenter IMS](../../integrations/using/implementing-ims.md) | [Gestion des accès](../../platform/using/access-management.md) |
+| [Dépanner IMS](../../integrations/using/ims-troubleshooting.md) | [Installation des packages Campaign](../../installation/using/installing-campaign-standard-packages.md) |
 
