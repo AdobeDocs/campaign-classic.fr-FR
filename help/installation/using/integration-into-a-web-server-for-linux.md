@@ -14,8 +14,11 @@ discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4fbc576ba65c44d91ac87ea2967fac3b0a88a040
+workflow-type: ht
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -177,7 +180,7 @@ Les étapes sont les suivantes :
    Environment=USERPATH=/usr/local/neolane LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib
    ```
 
-   Mettez à jour le module utilisé par systemd :
+   Mettez à jour le module utilisé par systemd :
 
    ```
    systemctl daemon-reload
@@ -194,7 +197,7 @@ Les étapes sont les suivantes :
 
 1. Démarrez Apache et le serveur Adobe Campaign:
 
-   Pour RHEL7 :
+   Pour RHEL7 :
 
    ```
    systemctl start httpd
