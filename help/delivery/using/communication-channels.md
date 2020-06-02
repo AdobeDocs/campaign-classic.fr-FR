@@ -14,11 +14,11 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 1. **Canal mobile** : les diffusions sur canaux mobiles permettent d&#39;adresser des SMS ou des messages LINE personnalisés à la population cible. Voir [Canal SMS](../../delivery/using/sms-channel.md).
 1. **Canal des applications mobiles** : les diffusions Applications mobiles permettent d’envoyer des notifications sur des systèmes iOS et Android. Voir [Canal des applications mobiles](../../delivery/using/about-mobile-app-channel.md).
 
-   Other channels are described on [this page](../../delivery/using/other-channels.md).
+   Les autres canaux sont présentés dans [cette page](../../delivery/using/other-channels.md).
 
    >[!NOTE]
    >
