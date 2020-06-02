@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Ces caractéristiques appartiennent à quatre catégories principales :
 
 Ensemble, ils forment la base d’un programme de délivrabilité des emails réussi.
 
-The **deliverability rate** is the number of sent emails that were successfully delivered to its recipients.
+Le **taux de délivrabilité** est le nombre d’emails envoyés qui ont été délivrés avec succès aux destinataires.
 
 Le taux de délivrabilité dépend de nombreux facteurs et notamment :
 * le bon paramétrage de vos instances
@@ -46,7 +46,7 @@ Le taux de délivrabilité dépend de nombreux facteurs et notamment :
 * l&#39;authentification des messages (SPF, DKIM, DMARC)
 * la réputation de l&#39;expéditeur
 
-Vous trouverez ci-dessous une liste des points clés à vérifier pour assurer une bonne livraison.
+La liste de points clés à vérifier ci-dessous permet d’assurer une bonne délivrabilité.
 
 ## Vérification de la configuration réseau {#network-configuration}
 
@@ -62,7 +62,7 @@ Les FAI ont systématisé la mise à disposition d&#39;une fonction &quot;Ceci e
 
 ## Envoi à des adresses pièges {#honeypot-addresses}
 
-ISPs and other organizations (see the [Project Honey Pot](https://www.projecthoneypot.org/) website) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. Ces adresses piège ou &quot;honey pots&quot; sont publiées sur le web dans le but qu&#39;elles soient trouvées par les robots collecteurs d&#39;adresses des spammeurs et pour ainsi en déduire les expéditeurs illégitimes. Un mécanisme de double opt-in empêche totalement l&#39;ajout de ce genre d&#39;adresses. Quand on utilise une liste fournie par un tiers, il faut être sûr des méthodes employées par ce dernier.
+Les FAI et d’autres organisations (voir le site web [Project Honey Pot](https://www.projecthoneypot.org/)) créent des boîtes mails ne correspondant à aucune personne physique dans le but de piéger les spammeurs. Ces adresses piège ou &quot;honey pots&quot; sont publiées sur le web dans le but qu&#39;elles soient trouvées par les robots collecteurs d&#39;adresses des spammeurs et pour ainsi en déduire les expéditeurs illégitimes. Un mécanisme de double opt-in empêche totalement l&#39;ajout de ce genre d&#39;adresses. Quand on utilise une liste fournie par un tiers, il faut être sûr des méthodes employées par ce dernier.
 
 ## Adaptation du contenu du message {#message-content}
 
