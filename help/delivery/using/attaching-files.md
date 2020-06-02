@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 06f2106c7c37fd5f115d15f3530997571f1f8e70
+source-git-commit: adb25307146847a1c49d9c548d00557e95562541
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 94%
 
 ---
 
@@ -42,15 +45,16 @@ Pour joindre un fichier local à une diffusion, procédez comme suit.
 >Vous pouvez joindre plusieurs fichiers à une diffusion. Les pièces jointes peuvent être dans n’importe quel format, format compressé inclus.
 
 1. Cliquez sur le lien **[!UICONTROL Pièces jointes]**.
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis sur **[!UICONTROL Fichier...]** pour sélectionner le fichier à joindre à la diffusion.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
+1. Cliquez sur **[!UICONTROL Fichier...]** pour sélectionner le fichier à joindre à la diffusion.
 
-![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![](assets/s_ncs_user_wizard_email_attachement.png)
 
 Vous pouvez également faire glisser et déposer directement le fichier dans le champ de diffusion **[!UICONTROL Pièces jointes]** ou utiliser l’icône **[!UICONTROL Joindre]** de la barre d’outils de l’assistant de diffusion,
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-1. Une fois le fichier sélectionné, il est immédiatement téléchargé sur le serveur afin d&#39;être disponible au moment de la diffusion. Il est répertorié dans le champ **[!UICONTROL Pièces jointes]**.
+Une fois le fichier sélectionné, il est immédiatement téléchargé sur le serveur afin d&#39;être disponible au moment de la diffusion. Il est répertorié dans le champ **[!UICONTROL Pièces jointes]**.
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
@@ -92,7 +96,7 @@ Si la pièce jointe est un fichier local, sélectionnez l’option : **[!UICONT
 
 ### Ajout d’un message personnalisé {#attach-a-personalized-message}
 
-L&#39;option **[!UICONTROL Le contenu du fichier est personnalisé et converti en PDF au moment de l&#39;envoi pour chaque message]** permet de sélectionner des champs de personnalisation tels que le nom et le prénom du destinataire visé.
+The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a file with personalization fields, such as the last name and first name of the intended recipient.
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
