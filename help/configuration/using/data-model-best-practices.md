@@ -12,11 +12,11 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4014'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Ce document présente les principales recommandations lors de la conception de v
 
 Pour une meilleure compréhension des tables Campaign intégrées et de leurs interactions, voir la section [Modèle de données Campaign Classic](../../configuration/using/about-data-model.md).
 
-Read out [this documentation](../../configuration/using/about-schema-reference.md) to get started with Campaign schemas. Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this document](../../configuration/using/about-schema-edition.md).
+Pour commencer à utiliser les schémas de Campaign, lisez cette [documentation](../../configuration/using/about-schema-reference.md). Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign en consultant [ce document](../../configuration/using/about-schema-edition.md).
 
 ## Présentation {#overview}
 
@@ -49,7 +49,7 @@ Cette approche axée sur le client est présentée dans le graphique ci-dessous.
 
 Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > Paramétrage > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
 
-The Adobe Campaign default data model is presented in [this document](../../configuration/using/data-model-description.md).
+Le modèle de données par défaut d’Adobe Campaign est présenté dans ce [document](../../configuration/using/data-model-description.md).
 
 >[!NOTE]
 >
@@ -157,8 +157,8 @@ Lorsqu’une table personnalisée est créée dans Adobe Campaign avec une clé
 Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign Classic dans les requêtes SQL générées.
 
 **Rubriques connexes :**
-* For more on the **Sequence auto-generation** feature, see [this document](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
-* For more on sequences exhaustion, watch [this video](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+* Pour plus d’informations sur la fonctionnalité de **génération automatique de séquence**, voir [ce document](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
+* Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Index {#indexes}
 
