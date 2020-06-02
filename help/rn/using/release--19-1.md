@@ -14,8 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
+workflow-type: ht
+source-wordcount: '2701'
+ht-degree: 100%
 
 ---
 
@@ -41,15 +44,15 @@ source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
  </tbody> 
 </table>
 
-La **dernière version** stable est 9032 (3a9dc9c). Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+Le **dernier build stable** est le build 9032 (3a9dc9c). Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/orange_2.png) Version 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/orange_2.png) Version 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
 >Ce build est destiné aux installations on-premise uniquement. Pour les déploiements hybrides, les instances hébergées continueront à exécuter le build 9032. Ne mettez pas à niveau votre instance marketing vers le build 9035, car il n’est pas compatible avec la version 9032.
 
-_3 octobre 2019_
+_3 octobre 2019_
 
 **Améliorations**
 
@@ -59,7 +62,7 @@ _3 octobre 2019_
 * Correction d’un problème en raison duquel certains messages ne pouvaient pas être traités par le serveur de mid-sourcing. (NEO-12395)
 * Correction d’un problème qui empêchait l’utilisation complète de l’activité de gestion des données SQL (le droit nommé « SQL Data Mangement » était absent).
 
-## ![](assets/do-not-localize/orange_2.png) Version 19.1.5 - Build 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/orange_2.png) Version 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
 _13 août 2019_
 
@@ -74,46 +77,46 @@ _13 août 2019_
 
 ## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) 29 **avril 2020**: nouvelle version (9032@3a9dc9c) qui comprend les correctifs suivants :
+![](assets/do-not-localize/green_2.png) **29 avril 2020** : nouveau build (9032@3a9dc9c) qui comprend les correctifs suivants :
 
-* Amélioration de la sécurité des liens de suivi dans les courriers électroniques. Cette option est activée par défaut pour tous les clients. Une autre fonction de sécurité améliorée est disponible, qui peut être activée en contactant le service à la clientèle. Pour plus d’informations sur la fonctionnalité et les étapes pour les clients non hébergés afin de l’activer, consultez la liste de contrôle [](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)Sécurité et confidentialité.
-* Correction d’un problème qui empêchait l’affichage des images sur les  de ligne. (NEO-23207)
-* Correction d&#39;un problème avec le **de transfert** de  qui empêchait l&#39;authentification par clé SFTP de fonctionner avec Debian 9. (NEO-23183)
-* Correction d’un problème qui pouvait affecter la notification Push lorsqu’elle était envoyée à une fréquence élevée. (NEO-20516)
-* Correction d’un problème dans  gestion des réponses  susceptible d’entraîner des blocages du serveur Web. (NEO-19482)
-* Correction d’une erreur dans la gestion de LibreOffice qui empêchait l’exportation des rapports. (NEO-20982)
-* Correction d’un problème qui provoquait une erreur lors de la mise à niveau de nombreux  à l’aide d’un  de  de.
-* Amélioration de la gestion de LibreOffice pour éviter les échecs sur les de messagerie avec des fichiers .odt.
-* Amélioration de la gestion de la connexion Apache pour éviter la latence sur le service Web.
-* Amélioration de l&#39;affichage de la balise de version (7 chiffres) dans le menu **À propos** .
-* Correction d’une régression dans la gestion des  qui empêchait  d’être publié.
-* Correction d’une régression provoquant le blocage du processus de nettoyage.
-* Correction d’une régression mineure dans les journaux du processus de nettoyage.
+* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant le service Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
+* Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
+* Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
+* Correction d’un problème qui pouvait avoir un impact sur une notification push lorsqu’elle était envoyée à une fréquence élevée. (NEO-20516)
+* Correction d’un problème de gestion des réponses aux offres qui pouvait entraîner des blocages du serveur web. (NEO-19482)
+* Correction d’une erreur de la gestion de LibreOffice qui empêchait l’export de rapports. (NEO-20982)
+* Correction d’un problème qui entraînait une erreur lors de la mise à niveau de nombreux workflows à l’aide d’une activité de questionnaire.
+* Amélioration de la gestion de LibreOffice pour éviter tout échec lors de la prévisualisation des emails avec des fichiers .odt.
+* Amélioration de la gestion de la connexion Apache pour éviter toute latence sur le service web.
+* Amélioration de l’affichage de la balise de version (7 chiffres) dans le menu **À propos**.
+* Correction d’une régression de la gestion des listes qui empêchait la publication des offres.
+* Correction d’une régression qui entraînait le blocage du workflow de nettoyage.
+* Correction d’une régression mineure dans les logs du workflow de nettoyage.
 
-![](assets/do-not-localize/orange_2.png) 5 **mars 2020**: nouvelle version (9032@19f73c5) qui comprend le correctif suivant :
+![](assets/do-not-localize/orange_2.png) **5 mars 2020** : nouveau build (9032@19f73c5) qui comprend les correctifs suivants :
 
-* Correction d’un problème lié à l’utilisation de  FTP sur SSL. (NEO-20498)
+* Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
 
-![](assets/do-not-localize/orange_2.png) 17 **décembre 2019**: nouvelle version (9032@d6b8062) qui comprend le correctif suivant :
+![](assets/do-not-localize/orange_2.png)**17 décembre 2019** : nouveau build (9032@d6b8062) qui comprend les correctifs suivants :
 
 * Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter). (NEO-19595)
 
-![](assets/do-not-localize/orange_2.png) 11 **décembre 2019**: nouvelle version (9032@bc4a935) qui comprend le correctif suivant :
+![](assets/do-not-localize/orange_2.png)**11 décembre 2019** : nouveau build (9032@bc4a935) qui comprend les correctifs suivants :
 
 * Correction d’un problème de performances lors de l’envoi de messages avec une base de données MSSQL. (NEO-17558)
 
-![](assets/do-not-localize/orange_2.png) 20 **novembre 2019**: nouvelle version (9032@3468c7b) qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png)**20 novembre 2019** : nouveau build (9032@3468c7b) qui comprend les correctifs suivants :
 
 * Correction d’un problème de connexion via l’authentification IMS. (NEO-17312)
 * Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs diffusions. (NEO-18165)
 * Correction d’un problème susceptible de bloquer ou de provoquer le blocage du serveur web.
 
-![](assets/do-not-localize/orange_2.png) 19 **septembre 2019**: nouvelle version (9032@cee805c) qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png)**19 septembre 2019** : nouveau build (9032@cee805c) qui comprend les correctifs suivants :
 
 * Correction d’un problème lors de l’utilisation du connecteur CRM pour Salesforce. (NEO-17712)
 * Correction d’un problème d’index qui pouvait entraîner des problèmes de performances lors de l’envoi de messages transactionnels.
 
-![](assets/do-not-localize/orange_2.png)**13 août 2019** : version 19.1.4 initiale qui comprend les correctifs suivants :
+![](assets/do-not-localize/orange_2.png)**13 août 2019** : version 19.1.4 initiale qui comprend les correctifs suivants :
 
 * Correction d&#39;un problème lié à l&#39;activité du planificateur qui générait des messages d&#39;erreur indésirables lors de la configuration de l&#39;assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
 * Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
@@ -137,9 +140,9 @@ _21 juin 2019_
 * Nous autorisons maintenant la suppression des enregistrements factices créés dans Microsoft Dynamics lors du workflow d&#39;import.
 * Améliorations des permissions pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
 
-## ![](assets/do-not-localize/orange_2.png) Version 19.1 - Build 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/orange_2.png) Version 19.1 - Build 9026{#release-19-1-build-9026}
 
-_30 mai 2019_
+_30 mai 2019_
 
 **Nouveautés**
 
@@ -179,7 +182,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité**
 
-* Pour des raisons de sécurité, vous ne pouvez plus insérer de commandes arbitraires lors de l’utilisation de l’ **[!UICONTROL Pre-process the file]** **[!UICONTROL Data loading (file)]** option dans un flux de travail  de . Un  déroulant est désormais disponible, vous permettant de sélectionner l’une des 3 options suivantes : **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) ou **[!UICONTROL Decrypt]** (gpg). L&#39;indicateur de sécurité XtkSecurity_Disable_Preproc a été ajouté. Pour les nouveaux clients, cette option sera définie sur 0. Pour les clients existants, cette option sera définie sur 1 par la mise à niveau postérieure afin de conserver le comportement précédent. Consultez cette [section](../../workflow/using/data-loading--file-.md).
+* Pour des motifs de sécurité, vous ne pouvez plus insérer de commandes arbitraires lorsque vous utilisez l&#39;option **[!UICONTROL Inclure un pré-traitement du fichier]** dans une activité de workflow **[!UICONTROL Chargement (fichier)]**. Une liste déroulante vous permet dorénavant de sélectionner parmi 3 options : **[!UICONTROL Aucun]**, **[!UICONTROL Décompression]** (zcat) ou **[!UICONTROL Déchiffrer]** (gpg). Le flag de sécurité XtkSecurity_Disable_Preproc a été ajouté. Pour les nouveaux clients, cette option sera définie sur 0, tandis que pour les clients existants, elle sera définie sur 1 par le postupgrade de façon à conserver le comportement précédent. Consultez [cette section](../../workflow/using/data-loading--file-.md).
 * Correction d&#39;un problème de visibilité du mot de passe qui se produisait lors du test de la connexion d&#39;un compte externe FDA sans fuseau horaire défini.
 * La bibliothèque PDFBox a été supprimée.
 * Tomcat a été mis à jour vers la version 7.0.93.
@@ -210,7 +213,7 @@ _30 mai 2019_
 
 * Notifications push : nous prenons maintenant en charge l&#39;option Thread Id pour iOS push.
 * Amélioration de la gestion des index aux noms longs qui pouvait créer des problèmes lors du postupgrade.
-* Now, during the analysis of a decomail delivery, if the publication mode is set to **[!UICONTROL None]** in the deployment wizard, an error is logged and the analysis is stopped: &quot;Publication mode is set to &#39;none&#39;: Cannot embed image. Les images ne s’afficheront pas sur le téléphone portable.&quot; (NEO-12208)
+* Désormais, lors de l&#39;analyse d&#39;une diffusion Deco-mail, si le mode de publication est défini sur **[!UICONTROL Aucun]** dans l&#39;assistant de déploiement, une erreur est consignée et l&#39;analyse s&#39;arrête : « Le mode de publication est défini sur Aucun : impossible d&#39;incorporer d&#39;image. Les images ne s&#39;afficheront pas sur le téléphone polyvalent. » (NEO-12208)
 * La gestion des broadlogs a fait l&#39;objet d&#39;améliorations en ce qui concerne les messages transactionnels. Lorsque les broadlogs sont synchronisés à partir de l&#39;instance d&#39;exécution vers l&#39;instance de contrôle, le champ @lastModified est mis à jour selon la date courante du système. L&#39;option MC_Update_BlLastModified a été ajoutée pour les instances de contrôle. Vrai signifie que la date courante sera utilisée pour l&#39;instance de contrôle (comportement par défaut). Faux signifie que nous utilisons la date @lastModified du broadlog de l&#39;instance d&#39;exécution. (NEO-12579)
 * Des index ont été ajoutés aux tables temporaires de coupons pour optimiser l&#39;envoi des diffusions. (NEO-12437)
 * Dans l&#39;intégration Analytics, la récupération des données de segments AAM avec le caractère % est maintenant autorisée. (NEO-12025)
@@ -241,7 +244,7 @@ _30 mai 2019_
 * Correction d&#39;un problème lors de l&#39;installation du package **Gestion des réseaux sociaux**(Social Marketing). (NEO-12081)
 * Correction d&#39;un problème qui vous empêchait de supprimer une application web, même si vous disposiez des droits d&#39;accès adaptés. (NEO-12072)
 * Correction d&#39;un problème qui pouvait entraîner le remplacement de certaines valeurs lors de l&#39;export d&#39;un objet via XML et de son import ultérieur. L&#39;option XtkExport_IncludeDefaultValues a été ajoutée. Si elle est définie sur Vrai (comportement par défaut), toutes les valeurs sont exportées, alors que si elle est définie sur Faux, les modifications sont remplacées par la valeur par défaut. (NEO-11979)
-* Fixed an issue which caused the **[!UICONTROL Alert]** workflow activity to fail when an enrichment activity was added after a query. (NEO-12132)
+* Correction d&#39;un problème qui causait l&#39;échec de l&#39;activité de workflow **[!UICONTROL Alerte]** lors de l&#39;ajout d&#39;une activité d&#39;enrichissement après une requête. (NEO-12132)
 * Correction d&#39;un problème sur les installations Oracle dans lesquelles les décalages de pipeline (déclencheurs) n&#39;étaient pas récupérés correctement à partir de la base de données, entraînant des doublons. (NEO-12121)
 * Correction d&#39;un problème qui pouvait entraîner des problèmes d&#39;affichage dans les tableaux croisés dynamiques lors de l&#39;utilisation de l&#39;intégration Analytics (NEO-12103)
 * Correction d&#39;un problème lié au rapport Analyse descriptive. (NEO-11414)
