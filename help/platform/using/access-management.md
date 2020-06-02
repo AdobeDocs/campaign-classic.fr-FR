@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4148efa9c7a8b002672d72fc526753bf7304673c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3050'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -282,12 +282,12 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    Ces groupes permettent l&#39;utilisation du **Marketing distribué** (module optionnel d&#39;Adobe Campaign).
 
-1. Responsables Offres
+1. Chargés d’offres
 
-   Les opérateurs de ce groupe peuvent créer et gérer des offres. For more information on this, refer to this [page](../../interaction/using/operator-profiles.md).
-Ce groupe contient les droits nommés suivants :
+   Les opérateurs de ce groupe peuvent créer et gérer des offres. Pour plus d’informations à ce sujet, consultez [cette page](../../interaction/using/operator-profiles.md).
+Ce groupe contient les droits nommés suivants :
 
-   * INSÉRER DES DOSSIERS : Droit d&#39;insérer des dossiers dans l&#39;arborescence Adobe Campaign (à condition que vous ayez des droits d&#39;édition pour les branches concernées),
+   * INSERTION DES DOSSIERS : droit pour insérer des dossiers dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
    * ÉDITION DES DOSSIERS : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
 
 ## Droits nommés {#named-rights}
