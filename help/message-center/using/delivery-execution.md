@@ -14,8 +14,11 @@ discoiquuid: afb375de-2de3-47ad-8b37-664cc04864e8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+workflow-type: ht
+source-wordcount: '138'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 >
 >Le MTA donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
-Sur le  , une fois l&#39;étape du  terminée et qu&#39;un a été lié à l&#39;, leest envoyé. Tous les  de sont regroupés dans le **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** dossier.
+Concernant l’instance d’exécution, une fois que l’étape d’enrichissement a été effectuée et qu’un modèle de diffusion a été lié à l’événement, la diffusion est envoyée. Toutes les diffusions sont regroupées dans le dossier **[!UICONTROL Administration > Exploitation > Message Center > Défaut > Diffusions]**.
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
