@@ -14,11 +14,11 @@ discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Les différents statuts sont répertoriés sur [cette page](#delivery-statuses).
 >
 >Le lien **[!UICONTROL Afficher la page miroir de ce message...]** permet de visualiser, dans une nouvelle fenêtre, la page miroir du contenu de la diffusion sélectionnée dans la liste. La page miroir n&#39;est disponible que pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la section [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
-### Tracking   {#tracking-logs}
+### Tracking    {#tracking-logs}
 
 L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking sont mises à jour toutes les heures.
 
@@ -277,8 +277,8 @@ Vous pouvez accéder aux diffusions à partir de la liste des diffusions accessi
 Par défaut, la liste des diffusions affiche les noms et états des diffusions créées dans le nœud sélectionné. Elle affiche également le nombre de messages à envoyer, traités et envoyés avec succès.
 
 * Le nombre de **[!UICONTROL messages à envoyer]** correspond au nombre de destinataires ciblés après analyse de la diffusion et avant envoi.
-* The number of messages in the **[!UICONTROL Success]** column corresponds to the number of messages sent by the server and received by the recipients.
-* The number of **[!UICONTROL Processed]** messages corresponds to the number of messages received plus the number of messages with errors.
+* Le nombre de messages de la colonne **[!UICONTROL succès]** correspond au nombre de messages émis par le serveur et bien reçus par le destinataire.
+* Le nombre de messages **[!UICONTROL traités]** correspond au nombre de messages reçus avec succès auquel s’ajoute le nombre de messages en erreur.
 
 Le tableau de bord de la diffusion permet de suivre le nombre de messages envoyés.
 
