@@ -12,16 +12,16 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1338'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
 
-# Dépannage de la délivrabilité{#deliverability-faq}
+# Résolution des problèmes de délivrabilité{#deliverability-faq}
 
 Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
 
@@ -35,11 +35,11 @@ Dans Adobe Campaign, il existe une configuration à propos du nombre d&#39;email
 
 Une connexion peut donc utiliser une règle MX sans réussir l&#39;envoi d&#39;un email. Dans ce cas, une configuration avec une IP ou un nom de domaine à faible réputation devra tenter plusieurs connexions avant de réussir l&#39;envoi d&#39;un email. Pour chaque tentative un crédit Messages par heure sera utilisé. La performance de la campagne marketing sera fortement réduite.
 
-Par conséquent, les &quot;quotas satisfaits&quot; ne sont pas seulement une question de configuration, mais peuvent aussi être liés à la réputation. It is important to analyze error messages in the [SMTP log](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
+Le message &quot;quotas atteints&quot; n’indique donc pas seulement un problème de configuration, mais peut aussi être lié à la réputation. Il est important d’analyser les messages d’erreur dans le [log SMTP](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
 
-For more on MX configuration, see [this section](../../installation/using/email-deliverability.md#mx-configuration).
+Pour en savoir plus à propos de la configuration des MX, voir [cette section](../../installation/using/email-deliverability.md#mx-configuration).
 
-## Même message d&#39;erreur pour un fournisseur de services Internet {#same-error-for-an-isp}
+## Même message d’erreur pour un FAI {#same-error-for-an-isp}
 
 **Pourquoi ai-je toujours le même message d&#39;erreur pour un FAI particulier ?**
 
@@ -48,9 +48,9 @@ Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut q
 * Mettez à jour vos formulaires d&#39;abonnement pour détecter d&#39;éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
 * Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d&#39;exclure de la cible les destinataires qui n&#39;ont pas ouvert ou cliqué dans l&#39;un de vos messages dans les 12 mois précédents.
 
-Si le problème persiste, contactez les services commerciaux ou de délivrabilité, le service à la clientèle Adobe Campaign ou le service d’assistance Adobe Campaign.
+Si le problème persiste, contactez les services commerciaux, délivrabilité, assistance d’Adobe Campaign ou support technique d’Adobe Campaign.
 
-## Liste noire ou quarantaine {#blacklisting-versus-quarantine}
+## Blacklistage et mise en quarantaine {#blacklisting-versus-quarantine}
 
 * **Quelle est la différence entre une adresse email blacklistée et en quarantaine ?**
 
@@ -65,7 +65,7 @@ Si le problème persiste, contactez les services commerciaux ou de délivrabilit
 
    Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
 
-## Annulation de la liste noire {#unblacklisting}
+## Retrait de la quarantaine {#unblacklisting}
 
 * **Un de mes destinataires est passé par erreur en statut &quot;En blackliste&quot;. Que puis-je faire lui envoyer à nouveau des emails ?**
 
@@ -81,7 +81,7 @@ Si le problème persiste, contactez les services commerciaux ou de délivrabilit
    * [https://www.blacklistalert.org/](https://www.blacklistalert.org/)
    En général, la vérification d&#39;adresse IP renvoie une liste contenant les détails du blacklistage et le nom du site web qui a blacklisté l&#39;adresse IP.
 
-   En cliquant sur le lien correspondant, vous pouvez accéder aux détails du site Web. Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l&#39;a blacklistée.
+   En cliquant sur le lien correspondant, vous pouvez accéder aux détails du site web. Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l&#39;a blacklistée.
 
    >[!NOTE]
    >
@@ -89,63 +89,63 @@ Si le problème persiste, contactez les services commerciaux ou de délivrabilit
 
 ## Bonnes pratiques {#best-practices}
 
-Vous trouverez ci-dessous quelques bonnes pratiques qui peuvent aider à cerner et à résoudre les problèmes de délivrabilité.
+Vous trouverez ci-dessous quelques bonnes pratiques pour mieux identifier et résoudre les problèmes de délivrabilité.
 
 ### Identifier un problème de délivrabilité {#identify-deliverability-issue}
 
-Les éléments suivants peuvent attirer votre attention :
+Il est possible que les éléments suivants attirent votre attention :
 
-* Mesures de publipostage ou de campagne : les taux de désabonnement, de plaintes pour abus et/ou de rebonds sont plus élevés que d&#39;habitude.
-* activité d&#39;abonné : s’ouvre, les clics et/ou les transactions sont inférieurs à la normale.
-* Les comptes de démarrage indiquent des envois filtrés ou non livrés.
+* Mesures de publipostage ou de campagne : les taux de désabonnement, de plaintes pour abus et/ou de rebonds sont plus élevés que d’habitude.
+* Activité d’abonné : les ouvertures, les clics et/ou les transactions sont inférieurs à la normale.
+* Les comptes d’adresse de contrôle indiquent des envois filtrés ou non diffusés.
 
-### Hypothèses des causes potentielles {#potential-causes}
+### Formuler des hypothèses sur les causes potentielles {#potential-causes}
 
-Posez-vous les questions suivantes pour identifier les causes possibles de votre problème de délivrabilité :
+Posez-vous les questions suivantes pour identifier les causes possibles de votre problème de délivrabilité :
 
-* Y a-t-il eu récemment un changement dans la segmentation des listes ?
-* Ai-je acquis de nouvelles sources de données ?
-* Ai-je envoyé par inadvertance un fichier de quarantaine ?
-* Le problème pourrait-il être dû au contenu de mon message ?
-* Est-ce que je envoie un courrier assez souvent pour conserver les adresses IP chaudes ?
-* Suis-je en train de segmenter mes envois par activité/engagement, ou d&#39;envoyer des fichiers complets ?
-* Quel est le segment &quot;sûr&quot; de mon dossier en termes de récence ?
-* Des stratégies de réactivation et de reconfirmation sont-elles en place pour les segments qui ne sont pas définis comme sûrs ?
+* Y a-t-il eu récemment un changement dans la segmentation des listes ?
+* Ai-je acquis de nouvelles sources de données ?
+* Ai-je envoyé par inadvertance un fichier de quarantaine ?
+* Le problème peut-il être dû au contenu de mon message ?
+* Est-ce que j’envoie des emails assez souvent pour maintenir le rodage des adresses IP ?
+* Ai-je segmenté mes envois par activité/engagement ou ai-je envoyé des fichiers complets ?
+* Quel est le segment « sûr » de mon dossier en termes de récence ?
+* Des stratégies de réactivation et de reconfirmation sont-elles en place pour les segments qui ne sont pas définis comme sûrs ?
 
 ### Résoudre le problème {#address-issue}
 
 **Plaintes (Complaints)**
 
-Les plaintes sont définies par les abonnés qui **signalent un courriel comme indésirable** en appuyant sur le bouton correspondant de leur boîte de réception.
+Les plaintes sont définies par les abonnés qui **signalent un email comme indésirable** en appuyant sur le bouton correspondant de leur boîte de réception.
 
-Si votre problème de diffusion est dû à des plaintes :
+Si votre problème de diffusion est dû à des plaintes :
 * Vous devez essayer de déterminer pourquoi les destinataires se plaignent.
-* Vous pouvez également envisager de déplacer votre lien de désabonnement en haut de votre courriel. Cela encouragera les abonnés à se désabonner au lieu de se plaindre avec le bouton spam.
+* Vous pouvez également envisager de déplacer votre lien de désabonnement en haut de votre email. Ainsi, les abonnés pourront se désabonner au lieu de se plaindre en utilisant le bouton spam.
 
-Les expéditeurs peuvent recueillir une mine d&#39;informations à partir de leurs plaintes en boucle [de](../../delivery/using/technical-recommendations.md#feedback-loop) rétroaction :
-* Il est important de regrouper les données et de rechercher des schémas dans des choses comme la source d&#39;inclusion, la durée d&#39;inscription de l&#39;adresse, ou même certains comportements démographiques.
-* Les plaintes peuvent souvent identifier une source ou un segment de données à risque dans le dossier. Le risque est défini comme le plus susceptible de se plaindre, ce qui peut nuire à la réputation, et en retour, les taux de boîte de réception.
+Les expéditeurs peuvent recueillir une mine d’informations à partir des plaintes issues d’une [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) :
+* Il est important de regrouper les données et de rechercher des schémas dans des éléments comme la source d’opt-in, la durée d’abonnement à l’adresse, ou même certains comportements liés aux données démographiques.
+* Les plaintes permettent souvent d’identifier une source ou un segment de données à risque dans le fichier. Le risque se définit comme une probabilité maximale de plainte, ce qui peut nuire à la réputation, et en retour, aux taux de placement en boîte de réception.
 
-Les plaintes proviennent aussi des abonnés qui ne veulent tout simplement plus recevoir de courrier électronique :
-* Cela peut souvent être dû à des messages excessifs, à la perception qu&#39;ont vos abonnés du message, au fait qu&#39;ils n&#39;attendaient pas le message ou qu&#39;ils ne se souviennent pas avoir choisi.
-* Il est également important d’exécuter une vérification pour s’assurer que tous les points de collecte sont clairs et qu’il n’y a pas de cases pré-cochées dans vos points d’acquisition.
-* Vous devez également envoyer un courriel de bienvenue aux abonnés qui s&#39;abonnent pour donner le ton et expliquer à quelle fréquence ils peuvent s&#39;attendre à recevoir des courriels de votre part.
+Les plaintes proviennent aussi des abonnés qui ne veulent tout simplement plus recevoir d’emails :
+* Souvent, cette situation découle d’un nombre excessif de messages, de leur perception par les abonnés, du caractère inattendu des messages ou de l’oubli par les abonnés de leur accord préalable.
+* Par ailleurs, il est important de vérifier que tous les points de collecte sont clairs et qu’il n’y a pas de cases précochées dans vos points d’acquisition.
+* Vous devez également envoyer un email de bienvenue aux abonnés qui donnent leur accord préalable pour leur expliquer à quelle fréquence ils peuvent s’attendre à recevoir des emails de votre part.
 
 **Validité des données**
 
-**Des rebonds** durs se produisent lorsque vous envoyez à une adresse **** non livrable à un fournisseur de services Internet. Une adresse peut être non livrable pour de nombreuses raisons, telles que :
-* Adresse mal orthographiée. Il est possible de résoudre ce problème avec un service de validation des données en temps réel ou en exigeant une inclusion confirmée avant d’envoyer des courriers électroniques marketing à cette adresse.
-* liste ou source de données incorrecte. S&#39;il provient d&#39;une nouvelle source, vérifiez comment les adresses ont été collectées et assurez-vous qu&#39;il y a eu autorisation.
-* Envoi par courrier à une adresse qui était à un moment active, mais qui a été fermée ou arrêtée après une période d&#39;inactivité.
+**Les erreurs hard** se produisent lorsque vous effectuez un envoi à une **adresse en échec** d’un FAI. Une adresse peut être en échec pour de nombreuses raisons, notamment :
+* Adresse mal orthographiée. Il est possible de résoudre ce problème grâce à un service de validation des données en temps réel ou à l’obligation de confirmer l’accord préalable avant d’envoyer des emails marketing à cette adresse.
+* Liste ou source de données incorrecte. Si les adresses proviennent d’une nouvelle source, vérifiez comment elles ont été collectées et assurez-vous que leur utilisation a été autorisée.
+* Envoi à une adresse active à un moment donné, mais fermée ou supprimée suite à une période d’inactivité.
 
 **Engagement**
 
-Outre les plaintes et la validité des données, les FSI se concentrent plus que jamais sur un engagement **** positif pour prendre des décisions diffusions. Ils cherchent à savoir si vos abonnés ouvrent vos courriels ou les effacent sans les lire. Etant donné qu’ils ne partagent pas ces données avec les expéditeurs, nous devons utiliser les informations disponibles et traduire les ouvertures/clics/transactions en tant qu’engagement.
+Outre les plaintes et la validité des données, les FAI privilégient plus que jamais l’**engagement positif** pour prendre des décisions de diffusion. Ils cherchent à savoir si vos abonnés ouvrent vos emails ou les effacent sans les lire. Comme ils ne partagent pas ces données avec les expéditeurs, nous devons utiliser les informations disponibles et traduire les ouvertures/clics/transactions en engagements.
 
-Dans le cadre du maintien permanent de la réputation, il est important de comprendre comment les abonnés engagés se trouvent sur votre liste et d&#39;établir une hiérarchie **des risques de** récence pour les abonnés de chaque dossier. La récence est définie comme la dernière date d&#39;ouverture/de clic/de transaction ou d&#39;inscription. Cette période peut différer selon la verticale. Pour cela :
+Dans le cadre de la gestion permanente de la réputation, il est important de comprendre le niveau d’engagement des abonnés de votre liste et d’établir une **hiérarchie des risques liés à la récence** pour les abonnés de chaque fichier. La récence est définie comme la date d’ouverture/de clic/de transaction ou d’abonnement la plus récente. Cette période peut différer selon la verticale. Pour cela :
 
-1. Déterminez les segments actifs (&quot;sûrs&quot;) pour chaque verticale. Il s’agit généralement des abonnés qui ont été actifs au cours des 3 à 6 derniers mois.
-1. Réduisez la fréquence en inactifs.
-1. Créez une série de [réengagements](../../delivery/using/re-engagement-best-practices.md) pour les actifs à risque modéré. Il s&#39;agit généralement de 6 à 9 mois sans engagement.
-1. Développer une campagne de reconfirmation pour les actifs à risque élevé. Il s’agit généralement d’abonnés qui n’ont pas utilisé de courriel depuis 9 à 12 mois.
-1. Enfin, définissez une règle d’abandon et supprimez les abonnés qui n’ont pas ouvert vos courriels depuis les mois x. Nous recommandons généralement plus de 12 mois, mais cela peut varier en fonction des ventes et du cycle d&#39;achat.
+1. Déterminez les segments actifs (« sûrs ») pour chaque verticale. Il s’agit généralement d’abonnés qui ont été actifs au cours des 3 à 6 derniers mois.
+1. Réduisez la fréquence au niveau des inactifs.
+1. Créez une série de [réengagements](../../delivery/using/re-engagement-best-practices.md) pour les inactifs à risque modéré. Il s’agit généralement d’abonnés qui ne se sont pas engagés depuis 6 à 9 mois.
+1. Développez une campagne de reconfirmation pour les inactifs à risque élevé. Il s’agit généralement d’abonnés qui ne se sont pas engagés par email depuis 9 à 12 mois.
+1. Enfin, définissez une règle d’abandon et supprimez les abonnés qui n’ont pas ouvert vos emails depuis « x » mois. Nous recommandons généralement une durée de 12 mois, mais cela peut varier en fonction des ventes et du cycle d’achat.
