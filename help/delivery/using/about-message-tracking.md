@@ -14,11 +14,11 @@ discoiquuid: 5d8bbfe0-e202-4062-aa47-9ad87b975bb7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Dans le cadre d&#39;une diffusion par email, le tracking permet le suivi des mes
 
 Les mesures de tracking peuvent être consultées dans les rapports **[!UICONTROL URL et flux de clics]**, **[!UICONTROL Statistiques de tracking]** et **[!UICONTROL Position des clics]** et dans l&#39;onglet **[!UICONTROL Tracking]** de la diffusion.
 
-The delivery dashboard is also key to monitor your deliveries and eventual issues encountered during the sending of messages. For more on this refer to [this section](../../delivery/using/monitoring-a-delivery.md).
+Le tableau de bord des diffusions est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Voir à ce sujet [cette section](../../delivery/using/monitoring-a-delivery.md).
 
 **Rubriques connexes** :
 
