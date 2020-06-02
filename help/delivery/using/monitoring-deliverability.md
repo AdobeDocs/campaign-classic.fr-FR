@@ -1,6 +1,6 @@
 ---
-title: Surveillance de la délivrabilité dans Adobe Campaign Classic
-description: Découvrez les outils et les directives sur la surveillance de la délivrabilité dans Adobe Campaign Classic.
+title: Supervision de la délivrabilité dans Adobe Campaign Classic
+description: Découvrez les outils et les directives concernant la supervision de la délivrabilité dans Adobe Campaign Classic.
 page-status-flag: never-activated
 uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
 contentOwner: sauviat
@@ -12,53 +12,53 @@ discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
 
 # Contrôle de la délivrabilité{#monitoring-deliverability}
 
-Vous trouverez ci-dessous des informations détaillées sur les différents outils de surveillance fournis par Adobe Campaign ainsi que quelques directives supplémentaires sur la surveillance de la délivrabilité.
+Vous trouverez ci-dessous des informations détaillées sur les différents outils de monitoring d’Adobe Campaign ainsi qu’un certain nombre de directives supplémentaires concernant la supervision de la délivrabilité.
 
-## Outils de surveillance {#monitoring-tools}
+## Outils de monitoring {#monitoring-tools}
 
-Utilisez les fonctionnalités offertes par Adobe Campaign pour surveiller la délivrabilité de votre plate-forme.
+Utilisez les outils proposés par Adobe Campaign pour superviser la délivrabilité de votre plateforme.
 
-Le module Délivrabilité vous donne accès aux informations suivantes :
+Le package Délivrabilité vous donne accès aux informations suivantes :
 
-* Rapport de suivi technique pour les performances quotidiennes de la délivrabilité (contrôle technique). Ce rapport, disponible sur demande, vous permet de recevoir un rapport quotidien par courriel à une adresse spécifiée. Pour en savoir plus sur ce sujet, contactez l’équipe d’assistance clientèle d’Adobe.
-* Rapport [de rendu de la](../../delivery/using/inbox-rendering.md) boîte de réception qui vous permet de prévisualisation de vos messages sur les principaux clients de messagerie afin d&#39;analyser le contenu et la réputation.
-* Présentation de la qualité des messages (boîte de réception, message indésirable).
+* Rapport de suivi technique, au jour le jour, des performances de délivrabilité (monitoring technique). Disponible sur demande, ce rapport permet de recevoir un rapport quotidien envoyé par email à une adresse spécifiée. Pour en savoir plus à ce sujet, contactez l’équipe Assistance clientèle d’Adobe.
+* [Rapport Inbox rendering](../../delivery/using/inbox-rendering.md), qui permet la prévisualisation de vos messages sur les principaux clients de messagerie afin d’analyser le contenu et la réputation.
+* Vue d’ensemble de la qualité des messages (boîte de réception, spam).
 
-Vous pouvez également utiliser les outils suivants :
+Vous pouvez également utiliser les outils suivants :
 
-* The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform&#39;s throughput for a given period. Voir à ce propos [cette section](../../reporting/using/global-reports.md#delivery-throughput).
-* Le rapport de surveillance **[!UICONTROL de la délivrabilité]** technique comprend plusieurs indicateurs de qualité de la délivrabilité pour votre plateforme. Voir à ce propos [cette section](#technical-deliverability-monitoring).
-* Chaque diffusion génère un rapport de statistiques de diffusion pour les différents prestataires Internet (FAI). Il présente certaines mesures de qualité et de réputation des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
-   * **[!UICONTROL Les rebonds]** nets indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
-   * **[!UICONTROL Les rebonds]** doux indiquent la réputation. Ce nombre ne doit pas être supérieur à 10 % pour un fournisseur de services Internet donné.
-   For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
-* Plus généralement, le tableau de bord [de](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) diffusion vous donne accès à :
-   * le résumé [de la](../../delivery/using/monitoring-a-delivery.md#delivery-summary)diffusion, qui indique le détail de l&#39;envoi et le [nombre de messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) à envoyer, à traiter et à envoyer avec succès ;
-   * les [logs de diffusion et l&#39;historique](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), qui montrent quelle cible a été exclue et pourquoi ;
-   * les [logs de tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs), qui affichent des informations de suivi telles que les ouvertures et les clics.
+* Rapport **[!UICONTROL Débit de diffusion]**, qui donne une vue d’ensemble du débit global de la plateforme pour une période donnée. Voir à ce propos [cette section](../../reporting/using/global-reports.md#delivery-throughput).
+* Rapport de **[!UICONTROL supervision de la délivrabilité technique]**, qui comprend un certain nombre d’indicateurs de qualité de la délivrabilité pour votre plateforme. Voir à ce propos [cette section](#technical-deliverability-monitoring).
+* Chaque diffusion génère un rapport de statistiques de diffusion pour les différents fournisseurs d’accès à internet (FAI). Il présente certaines mesures de réputation et de qualité des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
+   * **[!UICONTROL Erreurs hard]**, qui indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
+   * **[!UICONTROL Erreurs soft]** qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
+   Voir à ce propos la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
+* Plus généralement, le [tableau de bord des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) donne accès aux éléments suivants :
+   * [Synthèse des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-summary), qui indique le détail de l’envoi et le [nombre de messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) à envoyer, traités et envoyés avec succès.
+   * [Logs et historique de la diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), qui montrent les cibles exclues et le motif d’exclusion.
+   * [Logs de tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs), qui affichent les informations de tracking, telles que les ouvertures et les clics.
 
-## Directives de surveillance {#monitoring-guidelines}
+## Directives de supervision {#monitoring-guidelines}
 
-Voici quelques lignes directrices supplémentaires sur la surveillance de la délivrabilité :
+Voici quelques directives supplémentaires concernant la supervision de la délivrabilité :
 
-* Regularly check the [delivery throughput](../../reporting/using/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
-* Check that [retries](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
-* Regularly verify that the [bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
+* Vérifiez régulièrement le [débit des diffusions](../../reporting/using/global-reports.md#delivery-throughput) pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
+* Vérifiez que les [reprises](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
+* Vérifiez régulièrement que la boîte des [emails rebonds](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
 * Vérifiez chaque débit de diffusion pour vous assurer qu&#39;il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
-* When using [waves](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
-* Check that the number of errors and new [quarantines](../../delivery/using/understanding-quarantine-management.md) are consistent with other deliveries.
-* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc…).
+* Lors de l’utilisation des [vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
+* Vérifiez que le nombre d’erreurs et les [mises en quarantaine](../../delivery/using/understanding-quarantine-management.md) correspondent aux autres diffusions.
+* Consultez attentivement les [logs de diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (blacklistage ou greylistage, problèmes liés aux DNS, règles anti-spam, etc.). 
 
 ## Signal Spam {#signal-spam}
 
@@ -70,9 +70,9 @@ Signal Spam est un service français qui propose un reporting de rétroaction an
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) est une solution de surveillance complémentaire des outils internes de délivrabilité d’Adobe qui fournit des indicateurs d’IP, de liste noire des domaines et de réputation.
+[250ok](https://250ok.com/) est une solution de monitoring complémentaire des outils internes de délivrabilité d’Adobe. Elle produit des indicateurs d’IP, de blacklistage de domaines et de réputation.
 
-Les informations fournies sont en temps réel, ce qui permet une assistance proactive.
+Les informations fournies sont disponibles en temps réel, ce qui permet une assistance proactive.
 
 ## Rapport de supervision de la délivrabilité technique {#technical-deliverability-monitoring}
 
@@ -82,7 +82,7 @@ Ces indicateurs sont mis à jour tous les jours à 9 h.
 
 >[!NOTE]
 >
->En outre, vous pouvez recevoir un rapport quotidien par courriel à une adresse spécifiée. Faites-nous connaître l&#39;adresse de courriel demandée par courriel ou via l&#39;Extranet Adobe Campaign.
+>En complément, vous avez la possibilité de recevoir un rapport quotidien par email à l’adresse souhaitée. Nous vous invitons à nous communiquer cette adresse par email ou via l’Extranet Adobe Campaign.
 
 ![](assets/s_tn_del_monitoring.png)
 
