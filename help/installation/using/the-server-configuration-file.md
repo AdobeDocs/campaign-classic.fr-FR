@@ -14,8 +14,11 @@ discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+workflow-type: ht
+source-wordcount: '7788'
+ht-degree: 100%
 
 ---
 
@@ -1560,7 +1563,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> Si la valeur est "true", votre instance utilise la <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">MTA</a>améliorée.<br /> </td> 
+   <td> Si la valeur est "true", votre instance utilise le <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">MTA amélioré</a>.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> <br /> </td>b 
   </tr>
