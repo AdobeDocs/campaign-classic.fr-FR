@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a976144d70b113d1358b0514a3e805d79e11484a
+source-git-commit: 5b6b4fd2b21f90a88744736b499eab1b0764774e
 workflow-type: tm+mt
 source-wordcount: '3743'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -60,6 +60,13 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Liste des schémas pour lesquels vous souhaitez utiliser des adresses de test pour l'Inbox Rendering (les noms des éléments sont séparés par des virgules). Par exemple : custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
+   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Voir <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">cette section</a>.</p> </td> 
+   <tr> 
+   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
+   <td> Adobe Campaign utilise une variable globale "Nms_DefaultRcpSchema" pour dialoguer avec la base de destinataires par défaut (nms:recipient).<br /> La valeur de l'option doit correspondre au nom du schéma qui correspond à la table de destinataires externe.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
    <td> Nombre minimum de destinataires pour qu'une diffusion soit considérée comme principale dans le rapport de facturation.<br /> </td> 
   </tr> 
@@ -94,10 +101,6 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RemoveDuplicatesRecipients</span> <br /> </td> 
    <td> Entrer la valeur "1" permet de supprimer automatiquement les doublons.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaign utilise une variable globale "Nms_DefaultRcpSchema" pour dialoguer avec la base de destinataires par défaut (nms:recipient).<br /> La valeur de l'option doit correspondre au nom du schéma qui correspond à la table de destinataires externe.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ErrorAddressMasks</span> <br /> </td> 
@@ -164,6 +167,10 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Liste des adresses email de transfert autorisées (à partir du module de traitement du courrier entrant). Les adresses doivent être séparées par des virgules (ou * pour les autoriser toutes). Par exemple, xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
+   <td> Clé AES utilisée dans la servlet 'lineImage' pour encoder les URL (canal LINE).<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
    <td> Sur le canal "email" (utiliser par défaut) : nombre maximum d'erreurs accepté, pour les erreurs SOFT lors de l'envoi avant de mettre le destinataire en quarantaine.<br /> </td> 
   </tr> 
@@ -180,9 +187,21 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Sur le canal "mobile" : période minimum à respecter à partir de la précédente erreur SOFT référencée, avant de prendre en compte une nouvelle erreur SOFT.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> URL du serveur de page miroir (par défaut, elle devrait être identique à NmsTracking_ServerUrl).<br /> Il s'agit de la valeur par défaut des diffusions par email lorsque l'URL n'est pas spécifiée dans la définition de routage.<br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
+   <td> Permet de spécifier une période maximum (exprimée en heures) afin de limiter le nombre de broadlogs récupérés à chaque exécution du workflow de synchronisation.</a>.<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
+   <td> Nombre maximum d'appels dans une session MidSourcing, qui peuvent être exécutés en parallèle (3 par défaut).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
+   <td> Délai personnalisé (en minutes) après lequel une diffusion est considérée 'retardée'. La valeur par défaut est de 30 minutes.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
+   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
    <td> Ligne 1 de l'adresse de l'expéditeur.<br /> </td> 
@@ -203,10 +222,10 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
    <td> Ligne 7 de l'adresse de l'expéditeur.<br /> </td> 
   </tr>
-    <tr> 
-   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
-  </tr>
+  <tr> 
+   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
+   <td> URL du serveur de page miroir (par défaut, elle devrait être identique à NmsTracking_ServerUrl).<br /> Il s'agit de la valeur par défaut des diffusions par email lorsque l'URL n'est pas spécifiée dans la définition de routage.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
    <td> Paramètres des SMS envoyés : information transmise à la passerelle SMS pour indiquer la priorité du message.<br /> </td> 
@@ -220,51 +239,33 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Période pendant laquelle les reprises de messages SMS seront réalisées.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> Caractères valides pour une adresse email.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
-   <td> Permet de spécifier une période maximum (exprimée en heures) afin de limiter le nombre de broadlogs récupérés à chaque exécution du workflow de synchronisation.</a>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
-   <td> Nombre maximum d'appels dans une session MidSourcing, qui peuvent être exécutés en parallèle (3 par défaut).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Voir <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">cette section</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
-   <td> Délai personnalisé (en minutes) après lequel une diffusion est considérée 'retardée'. La valeur par défaut est de 30 minutes.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
-   <td> Activer/Désactiver le support pour des caractères spéciaux pour Code128.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
-   <td> Clé AES utilisée dans la servlet 'lineImage' pour encoder les URL (canal LINE).<br /> </td> 
+   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
+   <td> Date de la dernière consolidation pour les statistiques <span class="uicontrol">NmsUserAgent</span>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsWebSegments_LastStates</span> <br /> </td> 
    <td> Nom de l'option qui contient les segments web et leurs états.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
-   <td> Date de la dernière consolidation pour les statistiques <span class="uicontrol">NmsUserAgent</span>.<br /> </td> 
+   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
+   <td> Enable/disable support for special characters for Code128.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
+   <td> Caractères valides pour une adresse email.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
    <td> Ajoutez cette option avec la valeur "0" pour désactiver l’édition du code XML des diffusions (cliquez avec le bouton droit sur <span class="uicontrol">Éditer le XML source</span> ou utilisez le raccourci <span class="uicontrol">CTRL + F4</span>).<br /> </td> 
-  </tr> 
-  <!--<tr> 
+  </tr>  
+ </tbody> 
+</table>
+
+<!--<tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
    <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
-  </tr> 
- </tbody> 
-</table>-->
+  </tr>
+-->
 
 ## Ressources {#resources}
 
@@ -638,7 +639,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permet de configurer une base de données distincte pour les tables de travail sur Microsoft SQL Server, afin d'optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : Les tables de travail seront écrites dans cette base de données si elles sont spécifiées. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
+   <td> Permet de configurer une base de données distincte pour les tables de travail sous Microsoft SQL Server, afin d’optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : les tables de travail seront écrites dans cette base de données en cas de spécification. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
