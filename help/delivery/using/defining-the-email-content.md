@@ -12,11 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cedcd9150c374116f187da7fd9e76bf81e978e2a
+workflow-type: tm+mt
+source-wordcount: '2928'
+ht-degree: 97%
 
 ---
 
@@ -180,17 +180,21 @@ L&#39;assistant de diffusion vous permet d&#39;ajouter dans le contenu des messa
 
 ![](assets/s_ncs_user_image_from_library.png)
 
-Pour être visibles par les destinataires, ces images dans les messages doivent être présentes sur un serveur accessible depuis l&#39;extérieur.
+>[!IMPORTANT]
+>
+>Pour être visibles par les destinataires, ces images dans les messages doivent être présentes sur un serveur accessible depuis l&#39;extérieur.
 
-Pour gérer les images via l&#39;assistant de diffusion, vous devez cliquer sur l&#39;icône **[!UICONTROL Tracking &amp; Images]** située dans la barre d&#39;outils.
+Pour gérer les images via l’assistant de diffusion :
 
-![](assets/s_ncs_user_email_del_img_param.png)
+1. Cliquez sur l’icône **[!UICONTROL Suivi et images]** dans la barre d’outils.
+   ![](assets/s_ncs_user_email_del_img_param.png)
 
-Cocher l&#39;option **[!UICONTROL Mise en ligne des images]** proposée dans l&#39;onglet **[!UICONTROL Images]**. Vous pouvez alors choisir d&#39;inclure ou non les images dans l&#39;email.
+1. Sélectionnez **[!UICONTROL Télécharger des images]** dans l’onglet **[!UICONTROL Images]** .
+1. Vous pouvez ensuite choisir d’inclure les images dans le message électronique.
 
 ![](assets/s_ncs_user_email_del_img_upload.png)
 
-* Pour mettre en ligne manuellement les images, sans attendre la phase d&#39;analyse de la diffusion, cliquez sur le lien **[!UICONTROL Mettre en ligne les images tout de suite...]**.
+* Vous pouvez télécharger des images manuellement sans attendre la phase d’analyse de la diffusion. Pour ce faire, cliquez sur le **[!UICONTROL lien Télécharger les images directement...]** .
 * Vous pouvez indiquer un autre chemin d&#39;accès aux images sur le serveur de tracking, pour cela saisissez-le dans le champ **[!UICONTROL URL des images]**. Cette valeur surcharge celle définie dans les paramètres de l&#39;assistant de déploiement.
 
 Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des images incluses en relatif, un message vous propose alors de mettre en ligne immédiatement les images, selon les paramètres de la diffusion.
@@ -201,7 +205,7 @@ Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des 
 >
 >Les chemins d&#39;accès aux images sont modifiés lors d&#39;une mise en ligne manuelle ou lors de l&#39;envoi des messages.
 
-**Exemple : envoi d&#39;un message avec des images{#example--sending-a-message-with-images}**
+### Exemple : envoi d&#39;un message avec des images {#example--sending-a-message-with-images}
 
 Voici un exemple de diffusion avec quatre images :
 
