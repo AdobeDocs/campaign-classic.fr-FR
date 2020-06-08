@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1268'
 ht-degree: 100%
 
 ---
@@ -145,10 +145,6 @@ Dans cet onglet, définissez les dates prévues d&#39;exécution des opérations
 
 ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-Vous pouvez utiliser l&#39;assistant de création de planning pour afin de renseigner automatiquement toutes les dates d&#39;exécution. Pour cela, cliquez sur le lien **[!UICONTROL Compléter le planning d&#39;exécution...]** situé au-dessus du tableau.
-
-![](assets/s_ncs_user_op_template_recur_planning_wz.png)
-
 Le mode de paramétrage du planning d&#39;exécution correspond à celui de l&#39;objet **[!UICONTROL Planificateur]** du Workflow. Voir à ce sujet [cette section](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
@@ -179,6 +175,7 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
 
    * **[!UICONTROL A valider]** : permet de forcer les demandes de validation des diffusions dans le workflow.
    * **[!UICONTROL A démarrer]** : permet de démarrer le workflow une fois la date de début atteinte.
+
    Le champ **[!UICONTROL Créer d&#39;avance pour]** permet de créer l&#39;ensemble des workflows couvrant la période renseignée.
 
    A l&#39;exécution du workflow **[!UICONTROL Traitements sur les opérations]**, les workflows dédiés sont créés selon les occurrences définies dans le planning de l&#39;opération. Ainsi, un workflow est créé pour chaque date d&#39;exécution.
