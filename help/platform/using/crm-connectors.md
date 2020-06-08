@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+workflow-type: tm+mt
+source-wordcount: '2659'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ La connexion aux CRM s&#39;effectue via des activités de workflow dédiées. Ce
 
 Les CRM répertoriés ci-après peuvent être intégrés à Adobe Campaign.
 
-Les versions prises en charge sont présentées dans la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Les versions prises en charge sont présentées dans la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 * **Salesforce.com**
 
@@ -191,7 +194,7 @@ Les étapes de paramétrage pour configurer le connecteur Microsoft Dynamics son
 
    Adobe Campaign Classic prend en charge l’interface Dynamics 365 REST avec le protocole OAuth pour l’authentification.
 
-   Si vous choisissez un type de déploiement **[!UICONTROL WebAPI]**, vous devez inscrire une application dans le répertoire Azure et obtenir le **clientId** du répertoire Azure. Cette inscription est documentée dans [cette page](https://msdn.microsoft.com/en-us/library/mt622431.aspx).
+   Si vous choisissez un type de déploiement **[!UICONTROL WebAPI]**, vous devez inscrire une application dans le répertoire Azure et obtenir le **clientId** du répertoire Azure. Cette inscription est documentée dans [cette page](https://msdn.microsoft.com/fr-fr/library/mt622431.aspx).
 
    >[!NOTE]
    >
@@ -201,13 +204,13 @@ Les étapes de paramétrage pour configurer le connecteur Microsoft Dynamics son
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 
-   Pour plus d&#39;informations sur la compatibilité des versions CRM, consultez la [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+   Pour plus d&#39;informations sur la compatibilité des versions CRM, consultez la [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 1. Ouvrez l&#39;assistant de configuration : Adobe Campaign découvre automatiquement les tables du modèle de données Microsoft Dynamics.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
-   Sélectionnez les tables à collecter.
+1. Sélectionnez les tables à collecter.
 
    ![](assets/crm_connectors_msdynamics_03.png)
 
