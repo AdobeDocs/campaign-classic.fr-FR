@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +28,10 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 Adobe Campaign vous permet d&#39;interrompre le tracking des comportements web des utilisateurs finaux qui se sont désinscrits (opt-out) du tracking comportemental via des cookies ou des balises web. Elle offre la possibilité d&#39;afficher une bannière afin de proposer cette option à l&#39;utilisateur final. Ces bannières peuvent être ajoutées à des applications web ou des landing pages.
 
 Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via des cookies ou des balises web, cette information est transmise au serveur de tracking Adobe Campaign à l&#39;aide d&#39;API JavaScript. Certaines juridictions peuvent demander aux clients de proposer aux utilisateurs finaux une option d&#39;opt-in avant l&#39;option d&#39;opt-out (ou ont d&#39;autres exigences légales). Il est de la responsabilité des clients de respecter les lois applicables.
+
+>[!NOTE]
+>
+>Lorsque vous créez des scripts, suivez toujours les consignes décrites dans la liste de contrôle [](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)Sécurité et confidentialité.
 
 ## Paramétrer la bannière {#configuring-the-banner-}
 
