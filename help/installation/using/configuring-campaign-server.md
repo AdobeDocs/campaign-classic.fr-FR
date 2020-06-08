@@ -14,8 +14,11 @@ discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7db84fc951234cb6257d8e41615ba7fc5b2c6f77
+translation-type: tm+mt
+source-git-commit: 1909cc8640a32eb709187dab084778f03ef39118
+workflow-type: tm+mt
+source-wordcount: '3622'
+ht-degree: 99%
 
 ---
 
@@ -610,6 +613,8 @@ Par exemple : **uploadWhiteList=&quot;.*.png,.*.jpg&quot;** vous permet de tél
 Si vous devez connecter le serveur Campaign à l&#39;extérieur par le biais d&#39;un proxy (à l&#39;aide d&#39;une activité de workflow de transfert de fichier, par exemple), vous devez configurer la section proxyConfig de serverConf à l&#39;aide d&#39;une commande. Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
+>
+>A partir de la version 20.2, les paramètres de protocole HTTP et HTTPS ne sont plus disponibles. Les informations suivantes continuent à mentionner ces paramètres car ils restent disponibles pour les versions précédentes, y compris 9032.
 >
 >Les proxys SOCKS ne sont pas pris en charge.
 
