@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adb25307146847a1c49d9c548d00557e95562541
+source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 94%
+source-wordcount: '1056'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,13 @@ ht-degree: 94%
 
 ## A propos des pièces jointes à un email {#about-email-attachments}
 
-Vous pouvez attacher un ou plusieurs fichiers à une diffusion par email. Deux cas sont possibles :
+Vous pouvez joindre un ou plusieurs fichiers à une diffusion de messagerie.
+
+>[!NOTE]
+>
+>Pour éviter tout problème de performances, il est recommandé de ne pas inclure plus d’une pièce jointe par courrier électronique. Le seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+
+Deux cas se présentent :
 
 * Sélectionner un fichier et le joindre tel quel à la diffusion.
 * Personnaliser le contenu de la pièce jointe pour chaque destinataire. Dans ce cas, vous devez créer un **attachement calculé** : le nom de la pièce jointe est calculé au moment de l&#39;envoi pour chaque message et peut ainsi dépendre du destinataire. Le contenu peut également être personnalisé et converti en PDF au moment de l&#39;envoi, si vous avez souscrit à l&#39;option **Variable Digital Printing**.
@@ -92,7 +98,7 @@ Si la pièce jointe est un fichier local, sélectionnez l’option : **[!UICONT
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
-   Le fichier est alors disponible sur le serveur pour être joint aux diffusions créées à partir de ce modèle.
+Le fichier est alors disponible sur le serveur pour être joint aux diffusions créées à partir de ce modèle.
 
 ### Ajout d’un message personnalisé {#attach-a-personalized-message}
 
@@ -120,6 +126,10 @@ Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes 
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
+>[!NOTE]
+>
+>Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée depuis une URL personnalisée en tant que pièce jointe, chaque taille d’image ne doit pas dépasser 100 000 octets par défaut. Ce seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+
 ### Ajout d’un fichier calculé {#attach-a-calculated-file}
 
 Vous pouvez calculer le nom d&#39;un attachement pendant la préparation de la diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Le nom de fichier est calculé lors de l&#39;analyse de la diffusion (il ne peut pas dépendre du destinataire)]**.
@@ -131,7 +141,7 @@ Vous pouvez calculer le nom d&#39;un attachement pendant la préparation de la d
 1. Précisez le libellé que vous souhaitez appliquer à la pièce jointe.
 1. Indiquez le chemin d&#39;accès au fichier et son nom exact dans la fenêtre de définition.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Le fichier doit être présent sur le serveur.
 
@@ -156,7 +166,7 @@ Lorsque vous sélectionnez un fichier attaché, vous pouvez choisir l&#39;option
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Le fichier doit être présent sur le serveur.
 
