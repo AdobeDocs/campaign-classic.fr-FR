@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 3bf835b3f686d1293fda7e6254660c477ba26452
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 100%
+source-wordcount: '3273'
+ht-degree: 93%
 
 ---
 
@@ -41,38 +41,13 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 
 1. un compte externe spécifiant un connecteur et un type de message,
 
-   Les connecteurs disponibles sont NetSize, SMPP Générique (SMPP version 3.4 avec support du mode binaire), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et SMPP Générique étendu.
+   Notez que les connecteurs suivants seront abandonnés à compter de la version 20.2 : NetSize, Generic SMPP (SMPP version 3.4 prenant en charge le mode binaire), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et iOS. Des capacités obsolètes sont toujours disponibles, mais elles ne seront pas encore améliorées et ne seront pas prises en charge. Pour plus d’informations à ce propos, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
 
 1. un modèle de diffusion dans lequel est référencé ce compte externe.
 
-### Activation d&#39;un compte externe {#activating-an-external-account}
-
-La liste des comptes externes est accessible depuis le nœud **[!UICONTROL Plate-forme]** > **[!UICONTROL Comptes externes]** de l&#39;arborescence de l&#39;explorateur Adobe Campaign.
-
-* Par exemple, positionnez-vous sur le compte **[!UICONTROL Routage vers mobiles par NetSize]**.
-* Dans l&#39;onglet **[!UICONTROL Général]**, cochez la case **[!UICONTROL Activé]**.
-
-   ![](assets/s_user_external_account_01.png)
-
-* Vérifiez que l&#39;option **[!UICONTROL Mobile]** est bien sélectionnée pour le champ **[!UICONTROL Canal]**.
-* Dans l&#39;onglet **[!UICONTROL Mobile]**, sélectionnez un connecteur dans la liste déroulante : NetSize, SMPP Générique, Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et SMPP Générique étendu. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez la section [Création d&#39;un compte externe SMPP](#creating-an-smpp-external-account).
-
-   ![](assets/s_user_external_account_connect_01.png)
-
-* Configurez le connecteur en fonction des informations données par votre fournisseur. Dans l&#39;exemple ci-dessous, l&#39;opérateur est NetSize.
-
-   ![](assets/s_user_external_account_param.png)
-
-* Dans l&#39;onglet **[!UICONTROL Connecteur]**, laissez le mode d&#39;activation **[!UICONTROL Appel d&#39;un web service]** sélectionné par défaut.
-
-   ![](assets/s_user_external_account_param_02.png)
-
-* Si l&#39;onglet **[!UICONTROL Connecteur]** s&#39;affiche, spécifiez l&#39;URL d&#39;accès du connecteur. L&#39;adresse doit se terminer par **netsize.jsp** si votre fournisseur est NetSize. Pour tous les autres connecteurs, l&#39;adresse URL se termine par **smpp34.jsp**.
-
 ### Création d&#39;un compte externe SMPP {#creating-an-smpp-external-account}
 
-Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe.
-
+Pour envoyer un SMS à un téléphone portable, vous devez d&#39;abord créer votre compte externe SMPP.
 Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 Pour ce faire, procédez comme suit :
@@ -87,7 +62,11 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/extended_smpp_connector.png)
 
-   L&#39;option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** vous permet de sauvegarder tout le trafic SMPP dans les fichiers journaux. Cette option doit être activée pour résoudre les problèmes liés au connecteur et pour effectuer une comparaison avec le trafic observé par le fournisseur.
+   >[!CAUTION]
+   >
+   > A compter de la version 20.2, les connecteurs hérités seront abandonnés et non pris en charge. Nous vous recommandons d&#39;utiliser le connecteur SMPP **[!UICONTROL générique]** étendu. Pour plus d&#39;informations sur la migration vers le connecteur recommandé, consultez cette [page](https://helpx.adobe.com/campaign/kb/sms-connector.html).
+
+1. L&#39;option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** vous permet de sauvegarder tout le trafic SMPP dans les fichiers journaux. Cette option doit être activée pour résoudre les problèmes liés au connecteur et pour effectuer une comparaison avec le trafic observé par le fournisseur.
 
 1. Adressez-vous à votre fournisseur de service SMS pour qu&#39;il vous explique comment renseigner dans l&#39;onglet **[!UICONTROL Paramètres de connexion]** les différents champs du compte externe.
 
@@ -378,6 +357,7 @@ Les destinataires sont répertoriés dans la table **[!UICONTROL NP@I et Adresse
 
 Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un code court, il peut être reçu sur n&#39;importe quelle connexion de votre compte externe. La réponse automatique envoyée pourrait donc ne pas être le message attendu.
 Pour éviter cela, appliquez l&#39;une des solutions suivantes, selon le fournisseur utilisé :
+
 * Créez un compte fournisseur pour chaque compte externe.
 * Utilisez le champ **[!UICONTROL Type de système]** dans l&#39;onglet **[!UICONTROL Mobile]** > **[!UICONTROL Paramètres de connexion]** pour distinguer chaque code court. Demandez à votre fournisseur une valeur différente pour chaque compte.
 
@@ -393,19 +373,19 @@ Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le conn
 
 Afin de conserver le modèle de diffusion natif, nous vous conseillons de le dupliquer puis de le paramétrer.
 
-Dans l&#39;exemple ci-dessous, nous créons un modèle pour diffuser des messages par l&#39;intermédiaire du compte NetSize que nous avons activé précédemment. Pour cela :
+Dans l&#39;exemple ci-dessous, nous créons un modèle pour diffuser des messages via le compte SMPP activé précédemment. Pour cela :
 
 1. Positionnez-vous au niveau du nœud **[!UICONTROL Modèles de diffusion]**.
 1. Cliquez avec le bouton droit sur le modèle **[!UICONTROL Diffuser vers mobiles]** et sélectionnez **[!UICONTROL Dupliquer]**.
 
    ![](assets/s_user_mobile_template_change_01.png)
 
-1. Modifiez le libellé du modèle.
+1. Modifiez l’étiquette du modèle, par exemple **Envoyé aux mobiles (SMPP)**.
 
    ![](assets/s_user_mobile_template_change_02.png)
 
 1. Cliquez sur **[!UICONTROL Propriétés]**.
-1. Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez un mode de routage qui correspond à un compte externe que vous avez configuré, par exemple **[!UICONTROL Routage vers mobiles par NetSize]**.
+1. Dans l’onglet **[!UICONTROL Général]** , sélectionnez un mode de routage correspondant au compte externe que vous avez créé lors des étapes précédentes.
 
    ![](assets/s_user_mobile_template_change_03.png)
 
@@ -426,7 +406,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 >Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
-1. Sélectionnez le modèle de diffusion **[!UICONTROL Diffuser vers mobiles (NetSize)]** que vous avez créé précédemment. Voir à ce propos la section [Modifier le modèle de diffusion](#changing-the-delivery-template). 
+1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. Voir à ce propos la section [Modifier le modèle de diffusion](#changing-the-delivery-template). 
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -488,7 +468,7 @@ Le bouton **[!UICONTROL Propriétés]** permet d&#39;accéder aux paramètres av
 
 Les options disponibles sont les suivantes :
 
-* **Adresse de l&#39;expéditeur** (uniquement pour le connecteur Netsize et les connecteurs SMPP) : permet de personnaliser le nom de l&#39;émetteur de la diffusion à l&#39;aide d&#39;une chaîne de caractères alphanumérique limitée à onze caractères. Le champ ne doit pas être composé exclusivement de chiffres. Il est possible de définir une condition pour afficher, par exemple, des noms différents en fonction de l&#39;indicatif du numéro du destinataire :
+* **Adresse** de l&#39;expéditeur : permet de personnaliser le nom de l’expéditeur de la diffusion en utilisant une chaîne de caractères alphanumériques limités à onze caractères. Le champ ne doit pas être exclusivement composé de chiffres. Vous pouvez définir une condition pour afficher, par exemple, différents noms selon l’indicatif régional du destinataire :
 
    ```
    <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
