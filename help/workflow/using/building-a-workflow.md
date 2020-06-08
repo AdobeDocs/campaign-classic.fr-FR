@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1686'
 ht-degree: 100%
 
 ---
@@ -91,8 +91,6 @@ Pour construire le diagramme
 >[!CAUTION]
 >
 >Vous pouvez copier et coller des activités dans un même workflow. Toutefois, nous vous déconseillons de copier et coller des activités dans différents workflows. Certains paramètres associés à des activités telles que Diffusions et Planificateur peuvent entraîner des conflits et des erreurs lors de l&#39;exécution du workflow de destination. Nous vous recommandons plutôt de **dupliquer** les workflows. Pour plus d&#39;informations, voir la section [Duplication des workflows](#duplicating-workflows).
-
-### Options de disposition supplémentaires {#additional-layout-options}
 
 L&#39;affichage et la mise en page du diagramme peuvent être modifiés à l&#39;aide des éléments suivants :
 
