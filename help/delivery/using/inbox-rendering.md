@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 30f313cecf1c3d7c65f6524a3f86a1c28b35f679
+source-git-commit: aef56860d6e4558a7f4833066ab3d83733591522
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 100%
 
 ---
 
@@ -51,6 +54,7 @@ Pour les installations sur site, suivez la procédure ci-dessous pour configurer
    * **[!UICONTROL Serveur]** : https://deliverability-app.neolane.net/deliverability
    * **[!UICONTROL Cryptage]** : Aucun
    * Cochez l&#39;option **[!UICONTROL Activé]**.
+
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
 1. Accédez au nœud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Recherchez l&#39;option **[!UICONTROL DmRendering_cuid]** et contactez l&#39;assistance technique pour obtenir l&#39;identifiant des rapports de diffusion qui doit être copié dans le champ **[!UICONTROL Valeur (texte)]**.
@@ -88,6 +92,7 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 >
 >* Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook 2010, un pour le rendu Apple Mail 9, etc.
 >* Pour une même diffusion, si vous régénérez le rapport d&#39;inbox rendering, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
+
 >
 
 
@@ -97,12 +102,6 @@ Le nombre de jetons disponibles restants est indiqué dans la **[!UICONTROL synt
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
 En règle générale, la fonctionnalité Inbox rendering est utilisée pour tester la structure HTML d&#39;un nouvel email. Chaque rendu nécessite environ 70 jetons (en fonction du nombre d&#39;environnements dans lequel il est généralement testé). Toutefois, dans certains cas, vous devrez peut-être générer plusieurs rapports d&#39;inbox rendering pour tester entièrement votre diffusion. Plusieurs vérifications peuvent donc nécessiter des jetons supplémentaires.
-
->[!NOTE]
->
->Si vous êtes un client Litmus, vous pouvez utiliser votre compte Litmus pour activer et utiliser l&#39;option Inbox rendering dans Adobe Campaign. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
->
->La modification de vos identifiants Litmus peut entraîner des problèmes d&#39;authentification au sein d&#39;Adobe Campaign.
 
 ## Accéder au rapport d&#39;inbox rendering {#accessing-the-inbox-rendering-report}
 
