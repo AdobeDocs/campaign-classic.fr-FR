@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '3905'
+ht-degree: 100%
 
 ---
 
@@ -274,10 +277,10 @@ Lorsque vous créez des tâches depuis une opération, vous pouvez créer des t�
 
 Les tâches suivantes peuvent être planifiées :
 
-* **[!UICONTROL Tâche de contrôle]**, voir la section [Tâche de contrôle](#control-tasks),
-* **[!UICONTROL Tâche de création d&#39;une ressource marketing]**, voir la section [Tâche de groupement](#grouping-task),
-* **[!UICONTROL Tâche de groupement]**, voir la section [Tâche de groupement](#grouping-task),
-* **[!UICONTROL Tâche de notification]**, voir la section [Tâche de notification](#notification-task).
+* [Tâche de contrôle](#control-tasks),
+* [Tâche de groupement](#grouping-task),
+* [Tâche de groupement](#grouping-task),
+* [Tâche de notification](#notification-task).
 
 >[!NOTE]
 >
@@ -441,6 +444,7 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 >
 >* Le statut de la tâche est mis à jour automatiquement.
 >* Même si la période de validité est terminée, une tâche qui n&#39;a pas été close par son responsable apparaît toujours dans les tâches en cours. Un message d&#39;avertissement est affiché pour alerter les opérateurs que la tâche est en retard.
+
 >
 
 
