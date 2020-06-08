@@ -14,8 +14,11 @@ discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
+translation-type: tm+mt
+source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +55,7 @@ La liste qui suit répertorie les listes RBL les plus utilisées. Pour obtenir u
 
 * **SURBL**
 
-   Consultez la page [https://www.surbl.org/](https://www.surbl.org/)
+   Consulter la page [http://www.surbl.org/](http://www.surbl.org/)
 
    SURBL recence les sites web qui sont apparus dans des messages non sollicités. Si votre domaine apparaît dans cette liste, cela peut affecter considérablement votre délivrabilité. Avertissez immédiatement les services délivrabilité et support d&#39;Adobe Campaign.
 
