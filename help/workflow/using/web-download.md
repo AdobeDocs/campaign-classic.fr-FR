@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 100%
 
 ---
 
@@ -55,6 +58,7 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
    * **[!UICONTROL Utiliser un répertoire de stockage par défaut]** : le fichier est toujours déplacé avant d&#39;être traité. Lorsque cette option est cochée, le fichier est déplacé dans le répertoire de stockage par défaut (le répertoire **vars** du dossier d&#39;installation d&#39;Adobe Campaign). Si vous souhaitez spécifier un répertoire de stockage particulier, décochez la case, et saisissez le chemin du répertoire dans le champ **[!UICONTROL Répertoire de stockage]**.
    * **[!UICONTROL Nombre de fichiers]** : saisissez le nombre maximal de fichiers à conserver dans le répertoire de stockage.
    * **[!UICONTROL Taille maximale (en Mo)]** : saisissez la capacité maximale du répertoire de stockage (en méga octets).
+
    Chaque fichier est toujours conservé 24 heures avant d&#39;être soumis aux règles de purge définies. La purge a lieu juste avant le début du traitement de l&#39;activité et ne prend donc pas en compte les fichiers du workflow en cours.
 
    Les fichiers sont toujours supprimés du plus ancien au plus récent. Les fichiers les plus anciens sont supprimés jusqu&#39;à ce que les deux règles de purge soient vérifiées. Ainsi, si une limite de 100 fichiers est définie, cela signifie que le répertoire de stockage contiendra toujours les 100 fichiers les plus récents avant le début du workflow, en plus des fichiers traités dans le workflow en cours.
@@ -71,7 +75,4 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
 
 ## Paramètres de sortie {#output-parameters}
 
-* filename
-
-   Nom complet du fichier téléchargé.
-
+* filename: Nom complet du fichier téléchargé.
