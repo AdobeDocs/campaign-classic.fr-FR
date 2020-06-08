@@ -15,14 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28a32c9a5300c28784ae7a2837075b4dc3aad1fa
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 77%
 
 ---
 
 
 # Interaction{#interaction}
 
-Le workflow présenté ci-dessous est installé par défaut avec le module **Moteur d’offres (Interaction)**. Pour plus d’informations sur ce module, consultez cette [section](../../interaction/using/interaction-and-offer-management.md).
+The workflows detailed below are installed with the **Offer engine (Interaction)** module by default. For more on this module, refer to this [section](../../interaction/using/interaction-and-offer-management.md).
 
 <table> 
  <tbody> 
