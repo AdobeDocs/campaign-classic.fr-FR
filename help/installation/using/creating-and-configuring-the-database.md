@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4869eb41f942a89c48bc213913c44b70ae777bfc
+source-git-commit: 653f630079277ffb75915206c445e9414cfcdd7c
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +57,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Les bases de données prises en charge sont présentées dans la section [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+Les bases de données prises en charge sont présentées dans la section [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Créer ou recycler une base de données]**.
 
@@ -66,7 +69,7 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
-   1. le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS\ `<instance>`**(mode instance),
+   1. le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS\`<instance>`**(mode instance),
    1. le mécanisme d’identification pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
@@ -207,6 +210,7 @@ Vous devez définir les paramètres suivants :
 
    >[!NOTE]
    >
+   >Assurez-vous que le nom du schéma et le nom d’utilisateur correspondent. La méthode recommandée pour créer une base de données est le client de console de campagne.
    >Pour une base Oracle, il n&#39;est pas nécessaire de saisir le nom du compte.
 
 * Indiquez si la base doit être Unicode ou non.
