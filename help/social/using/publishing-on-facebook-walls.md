@@ -14,8 +14,11 @@ discoiquuid: 8577db0b-f1fc-41af-aa0f-ec4d02dac376
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
+translation-type: tm+mt
+source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
+workflow-type: tm+mt
+source-wordcount: '1067'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +37,7 @@ Pour qu&#39;Adobe Campaign puisse envoyer des publications sur les murs de vos p
 Vous devez tout d&#39;abord créer un compte Facebook ainsi qu&#39;une ou plusieurs pages, sur lesquelles vous enverrez vos publications.
 
 * Pour créer un compte Facebook, suivez le lien : [https://www.facebook.com](https://www.facebook.com)
-* Pour créer une page Facebook, suivez le lien : [https://www.facebook.com/pages/create.php](https://www.facebook.com/pages/create.php)
+* To create a Facebook page, use the [https://www.facebook.com/pages/create](https://www.facebook.com/pages/create) link.
 
    Il est conseillé d&#39;utiliser le même compte Facebook pour administrer toutes vos pages. Cela permettra de ne créer qu&#39;une seule application Facebook et de ne configurer qu&#39;un seul compte externe pour écrire sur n&#39;importe laquelle des pages du compte Facebook.
 
