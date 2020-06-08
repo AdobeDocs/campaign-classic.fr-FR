@@ -14,11 +14,11 @@ discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
-workflow-type: ht
-source-wordcount: '7788'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d9b0f943fa09b3d0ad8547eb708e888724f1ae7e
+workflow-type: tm+mt
+source-wordcount: '7852'
+ht-degree: 99%
 
 ---
 
@@ -1537,6 +1537,12 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
+   <td> signEmailLinks<br /> </td> 
+   <td> Activez le mécanisme de signature. Ceci améliore la sécurité du suivi des liens dans les courriers électroniques.<br /> </td> 
+   <td> Booléen<br /> </td> 
+   <td> vrai<br /> </td> 
+  </tr>
+  <tr> 
    <td> statServerAddress<br /> </td> 
    <td> Adresse du serveur des statistiques d'envois, sous la forme 
     &lt;dns ou ip&gt; 
@@ -2551,6 +2557,12 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
    <td> false<br /> </td> 
   </tr> 
   <tr> 
+   <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
+   <td> Désactivez les URL mal formées générées à partir des versions précédentes.<br /> </td> 
+   <td> Booléen<br /> </td> 
+   <td> false<br /> </td> 
+  </tr> 
+  <tr> 
    <td> consolidationPeriodSec<br /> </td> 
    <td> Période de consolidation<br /> </td> 
    <td> Long<br /> </td> 
@@ -2603,6 +2615,18 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1600<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> phishbowlServiceAPIKey<br /> </td> 
+   <td> Clé d'API pour l'intégration du point de terminaison du service Phishbowl. Ceci protège la redirection des URL mal formées générées à partir des anciennes versions. <br /> </td> 
+   <td> Long<br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> phishbowlServiceEndpoint<br /> </td> 
+   <td> Point de terminaison de l’intégration du point de terminaison du service Phishbowl. Ceci protège la redirection des URL mal formées générées à partir des anciennes versions.<br /> </td> 
+   <td> Long<br /> </td> 
+   <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
