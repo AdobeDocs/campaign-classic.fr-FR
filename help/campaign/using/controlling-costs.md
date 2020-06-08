@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '2541'
+ht-degree: 100%
 
 ---
 
@@ -229,73 +232,69 @@ Nous allons créer une opération avec :
 
 #### Etape 1 - Créer le budget {#step-1---creating-the-budget}
 
-Créez un nouveau budget à partir du noeud **[!UICONTROL Gestion de campagnes > Budgets]**.
+1. Créez un nouveau budget à partir du noeud **[!UICONTROL Gestion de campagnes > Budgets]**.
 
-Définissez une enveloppe budgétaire de 20 000 euros dans le champ **[!UICONTROL Alloué]** de la section **[!UICONTROL Montants]**. Ajoutez deux catégories de dépense dans la section inférieure de la fenêtre :
+1. Définissez une enveloppe budgétaire de 20 000 euros dans le champ **[!UICONTROL Alloué]** de la section **[!UICONTROL Montants]**. Ajoutez deux catégories de dépense dans la section inférieure de la fenêtre :
 
 ![](assets/s_user_cost_mgmt_sample_1.png)
 
 #### Etape 2 - Configurer le prestataire et définir les structures de coûts {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du noeud **[!UICONTROL Administration > Campagnes]**.
+1. Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du noeud **[!UICONTROL Administration > Campagnes.]** Pour plus d&#39;informations, reportez-vous à la section [Création d&#39;un prestataire et de ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
-Pour plus d&#39;informations, reportez-vous à la section [Création d&#39;un prestataire et de ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
-
-* Pour les diffusions courrier, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Puis créez les structures de coûts suivantes :
+   Pour les diffusions courrier, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Puis créez les structures de coûts suivantes :
 
    ![](assets/s_user_cost_mgmt_sample_2.png)
 
-   Ajoutez un coût fixe (dans les postes de coûts), dont le calcul est fixe et le montant est vide (dans la structure de coût correspondante), et qui sera renseigné unitairement pour chaque diffusion.
+1. Ajoutez un coût fixe (dans les postes de coûts), dont le calcul est fixe et le montant est vide (dans la structure de coût correspondante), et qui sera renseigné unitairement pour chaque diffusion.
 
    ![](assets/s_user_cost_mgmt_sample_5.png)
 
-* Pour les tâches, créez les deux postes de coût suivants :
+   Pour les tâches, créez les deux postes de coût suivants :
 
-   1. **[!UICONTROL Réservation Salle]** (types Petite Salle et Grande Salle), avec une structure de coût **fixe** d&#39;un montant de 300 et 500 euros :
+   * **[!UICONTROL Réservation Salle]** (types Petite Salle et Grande Salle), avec une structure de coût **fixe** d&#39;un montant de 300 et 500 euros :
+   ![](assets/s_user_cost_mgmt_sample_6.png)
 
-      ![](assets/s_user_cost_mgmt_sample_6.png)
-
-   1. **[!UICONTROL Création]** (type **Modèle de contenu**), avec une structure de coûts **journalière** d&#39;un montant de 300 euros :
-
-      ![](assets/s_user_cost_mgmt_sample_7.png)
+   * **[!UICONTROL Création]** (type **Modèle de contenu**), avec une structure de coûts **journalière** d&#39;un montant de 300 euros :
+   ![](assets/s_user_cost_mgmt_sample_7.png)
 
 #### Etape 3 - Imputer le budget dans l&#39;opération {#step-3---charging-the-budget-in-the-campaign}
 
-Créez une opération et sélectionnez le budget créé lors de l&#39;étape 1.
+1. Créez une opération et sélectionnez le budget créé lors de l&#39;étape 1.
 
->[!NOTE]
->
->Par défaut, le budget qui a été sélectionné au niveau du programme est appliqué à toutes les opérations du programme.
+   >[!NOTE]
+   >
+   >Par défaut, le budget qui a été sélectionné au niveau du programme est appliqué à toutes les opérations du programme.
 
-![](assets/s_user_cost_mgmt_sample_4.png)
+   ![](assets/s_user_cost_mgmt_sample_4.png)
 
-Indiquez le coût prévisionnel estimé, avec ventilation :
+1. Indiquez le coût prévisionnel estimé, avec ventilation :
 
-![](assets/s_user_cost_mgmt_sample_9.png)
+   ![](assets/s_user_cost_mgmt_sample_9.png)
 
-Cliquez sur **[!UICONTROL Ok]** puis sur **[!UICONTROL Enregistrer]** pour valider ces données. Le coût calculé de l&#39;opération est alors mis à jour avec le coût prévisionnel estimé.
+1. Cliquez sur **[!UICONTROL Ok]** puis sur **[!UICONTROL Enregistrer]** pour valider ces données. Le coût calculé de l&#39;opération est alors mis à jour avec le coût prévisionnel estimé.
 
 #### Etape 4 - Créer la diffusion courrier {#step-4---creating-the-direct-mail-delivery}
 
-Créez un workflow au niveau de l&#39;opération et positionnez les activités de requête afin de sélectionner la cible (attention, l&#39;adresse postale des destinataires doit être renseignée).
+1. Créez un workflow au niveau de l&#39;opération et positionnez les activités de requête afin de sélectionner la cible (attention, l&#39;adresse postale des destinataires doit être renseignée).
 
-Créez une diffusion Courrier et sélectionnez le prestataire créé à l&#39;étape 2 : les postes de coûts s&#39;affichent automatiquement.
+1. Créez une diffusion Courrier et sélectionnez le prestataire créé à l&#39;étape 2 : les postes de coûts s&#39;affichent automatiquement.
 
-Surchargez le coût des enveloppes et ajoutez un coût fixe. Sélectionnez également les catégories concernées par ces coûts.
+1. Surchargez le coût des enveloppes et ajoutez un coût fixe. Sélectionnez également les catégories concernées par ces coûts.
 
-![](assets/s_user_cost_mgmt_sample_3.png)
+   ![](assets/s_user_cost_mgmt_sample_3.png)
 
->[!NOTE]
->
->Si l&#39;un des postes de coûts n&#39;est pas utilisé, il n&#39;engendrera aucune dépense.
+   >[!NOTE]
+   >
+   >Si l&#39;un des postes de coûts n&#39;est pas utilisé, il n&#39;engendrera aucune dépense.
 
-Démarrez le workflow que vous venez de créer pour lancer l&#39;analyse et calculer les coûts.
+1. Démarrez le workflow que vous venez de créer pour lancer l&#39;analyse et calculer les coûts.
 
-![](assets/s_user_cost_mgmt_sample_10.png)
+   ![](assets/s_user_cost_mgmt_sample_10.png)
 
-Si la validation du budget est activée pour cette opération, validez le budget depuis le tableau de bord. Vous pouvez vérifier la validation des postes de coût.
+1. Si la validation du budget est activée pour cette opération, validez le budget depuis le tableau de bord. Vous pouvez vérifier la validation des postes de coût.
 
-![](assets/s_user_cost_mgmt_sample_10b.png)
+   ![](assets/s_user_cost_mgmt_sample_10b.png)
 
 La ligne de dépense relative à la diffusion est ajoutée dans l&#39;onglet **[!UICONTROL Edition > Budget]** de l&#39;opération. Editez-la pour visualiser le détail du calcul.
 
@@ -311,27 +310,27 @@ Lorsque vous éditez le coût calculé, vous pouvez vérifier la ventilation des
 
 Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les structures de coûts ont été créées précédemment (voir [Etape 2 - Configurer le prestataire et définir les structures de coûts](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Pour ce faire, dans le tableau de bord de la campagne, cliquez sur le bouton **[!UICONTROL Ajouter une tâche]**. Nommez la tâche et cliquez sur **[!UICONTROL Enregistrer]**.
 
-La tâche est alors ajoutée dans la liste des tâches. Vous devez l&#39;éditer pour la configurer.
+1. La tâche est alors ajoutée dans la liste des tâches. Vous devez l&#39;éditer pour la configurer.
 
-Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez la prestation et le poste de coût correspondant :
+1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez la prestation et le poste de coût correspondant :
 
-![](assets/s_user_cost_mgmt_sample_14.png)
+   ![](assets/s_user_cost_mgmt_sample_14.png)
 
-Cliquez ensuite sur l&#39;icône **[!UICONTROL Dépenses et revenus]** de la tâche et indiquez le coût prévisionnel estimé.
+1. Cliquez ensuite sur l&#39;icône **[!UICONTROL Dépenses et revenus]** de la tâche et indiquez le coût prévisionnel estimé.
 
-![](assets/s_user_cost_mgmt_sample_15.png)
+   ![](assets/s_user_cost_mgmt_sample_15.png)
 
-Une fois la tâche enregistrée, le coût calculé est renseigné avec la valeur saisie pour le coût prévisionnel estimé.
+   Une fois la tâche enregistrée, le coût calculé est renseigné avec la valeur saisie pour le coût prévisionnel estimé.
 
-Lorsque la tâche est terminée (statut **[!UICONTROL Terminé]**), le coût calculé est automatiquement mis à jour avec le coût de la Grande Salle tel que renseigné dans sa structure de coût. Ce coût est également ventilé sur la catégorie.
+   Lorsque la tâche est terminée (statut **[!UICONTROL Terminé]**), le coût calculé est automatiquement mis à jour avec le coût de la Grande Salle tel que renseigné dans sa structure de coût. Ce coût est également ventilé sur la catégorie.
 
-Selon le même mode opératoire, créez ensuite une seconde tâche, planifiée sur 5 jours et associée à la structure de coûts créée précédemment.
+1. Selon le même mode opératoire, créez ensuite une seconde tâche, planifiée sur 5 jours et associée à la structure de coûts créée précédemment.
 
-![](assets/s_user_cost_mgmt_sample_16.png)
+   ![](assets/s_user_cost_mgmt_sample_16.png)
 
-Une fois la tâche terminée, le coût calculé est renseigné avec la valeur issue de la structure de coût associée, soit 1500 euros dans notre exemple (5 jours x 300 euros) :
+   Une fois la tâche terminée, le coût calculé est renseigné avec la valeur issue de la structure de coût associée, soit 1500 euros dans notre exemple (5 jours x 300 euros) :
 
-![](assets/s_user_cost_mgmt_sample_17.png)
+   ![](assets/s_user_cost_mgmt_sample_17.png)
 
 #### Etape 6 - Mettre à jour le statut du budget de l&#39;opération {#step-6---update-the-campaign-budget-status}
 
