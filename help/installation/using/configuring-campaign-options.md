@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b6b4fd2b21f90a88744736b499eab1b0764774e
+source-git-commit: de1173786c94c2a526153e7e6948f71c9523fa7b
 workflow-type: tm+mt
-source-wordcount: '3743'
-ht-degree: 99%
+source-wordcount: '3906'
+ht-degree: 95%
 
 ---
 
@@ -109,6 +109,18 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_FromAddressMasks</span> <br /> </td> 
    <td> Permet de définir la syntaxe de l'adresse d'expéditeur utilisée lors de la réponse à un message.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
+   <td> Permet de définir un délai d’expiration (en secondes) pour obtenir une réponse du serveur lors de la récupération d’une image téléchargée à partir d’une URL personnalisée et jointe à un courrier électronique. Si cette valeur est dépassée, le message ne peut pas être envoyé. La valeur par défaut est de 60 secondes.<br /> </td> 
+  </tr> 
+ <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
+   <td> Permet de définir la taille maximale (en octets) autorisée pour une image téléchargée à partir d’une URL personnalisée et jointe à un courrier électronique. La valeur par défaut est de 100 000 octets. Lors de l’envoi d’un BAT et du téléchargement des images pour traiter le courrier électronique, si la taille d’une image dépasse cette valeur ou si un problème de téléchargement se produit, une erreur s’affiche dans les Logs de diffusion et la diffusion du BAT échoue.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxRecommandendedAttachments</span> <br /> </td> 
+   <td> Permet de définir un nombre maximal de pièces jointes dans un courriel ou un modèle de courrier électronique transactionnel. Si cette valeur est dépassée, un avertissement s’affiche dans les journaux d’analyse des diffusions ou lors de la publication du modèle de courrier électronique transactionnel. The default value is 1 attachment.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRetry</span> <br /> </td> 
