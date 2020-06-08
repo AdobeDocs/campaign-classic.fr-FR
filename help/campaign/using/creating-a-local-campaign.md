@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '1702'
+ht-degree: 100%
 
 ---
 
@@ -251,9 +254,9 @@ Pour commander une opération :
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
-   Renseignez les paramètres disponibles et validez la commande.
+1. Renseignez les paramètres disponibles et validez la commande.
 
-   Une notification est adressée au responsable de l&#39;entité organisationnelle à laquelle appartient l&#39;agence locale, pour valider cette commande.
+1. Une notification est adressée au responsable de l&#39;entité organisationnelle à laquelle appartient l&#39;agence locale, pour valider cette commande.
 
    ![](assets/mkg_dist_subscribe_step3.png)
 
