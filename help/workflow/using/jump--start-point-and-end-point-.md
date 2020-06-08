@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 4994aff9f2db36a519a9c7af2864393713eb65e3
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Les objets graphiques de type **[!UICONTROL Saut]** sont utilisés pour améliorer la lisibilité d&#39;un diagramme complexe, notamment dans le cas où des transitions se croisent.
 
-Les sauts sont des transitions sans flèches : ils permettent de passer d&#39;une activité à une autre, comme dans l&#39;exemple ci-dessous.
+Les coups sont des transitions sans flèches.
+
+Ils vont d&#39;une activité à l&#39;autre, comme dans l&#39;exemple suivant :
 
 ![](assets/s_user_segmentation_jump_sample.png)
 
