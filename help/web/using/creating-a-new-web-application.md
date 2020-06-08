@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +30,10 @@ Le type d&#39;une application web est sélectionné au moment de sa création.
 Accédez à l’onglet **Campagnes** et sélectionnez le menu **[!UICONTROL Applications Web]**. Cliquez sur le bouton **[!UICONTROL Créer.]** Sélectionnez le modèle d’application Web à utiliser :
 
 ![](assets/webapp_create_from_campaign.png)
+
+>[!NOTE]
+>
+>ALways protège les pages qui peuvent contenir des informations personnelles. Consultez la liste de contrôle [](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)Sécurité et confidentialité.
 
 Ce modèle détermine le type d&#39;application web. Vous pouvez ainsi créer :
 
