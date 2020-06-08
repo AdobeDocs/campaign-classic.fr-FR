@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 100%
 
 ---
 
@@ -72,6 +75,4 @@ Identifie la population à sauvegarder dans le groupe.
 
 ## Paramètres de sortie {#output-parameters}
 
-* groupId
-
-Identifiant du groupe.
+* groupId: Identifiant du groupe.
