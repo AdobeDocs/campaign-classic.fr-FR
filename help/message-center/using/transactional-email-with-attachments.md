@@ -12,11 +12,11 @@ discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,10 @@ Dans ce scénario, les pièces jointes ne sont pas créées à l’avance, mais 
 * Si elle est associée à une transaction (comme dans l’exemple de scénario ci-dessus), elle peut contenir des données dynamiques générées pendant le processus client.
 * L’ajout de fichiers PDF optimise la sécurité lorsque vous pouvez les crypter et les envoyer via HTTPS.
 
+>[!NOTE]
+>
+>Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée depuis une URL personnalisée en tant que pièce jointe, chaque taille d’image ne doit pas dépasser 100 000 octets par défaut. Ce seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+
 ## Recommandations {#important-notes}
 
 Avant de mettre en œuvre ce scénario, lisez attentivement les directives suivantes :
@@ -53,6 +57,10 @@ Avant de mettre en œuvre ce scénario, lisez attentivement les directives suiva
 * Comme il n&#39;existe aucun accès direct aux instances de messagerie transactionnelle ou aux serveurs à l&#39;extérieur d&#39;Adobe, il n&#39;y a aucun moyen standard de transférer ces fichiers sur ces serveurs (pas d&#39;accès FTP).
 * D’un point de vue contractuel, il n’est pas correct d’utiliser l’espace disque sur l’instance de messagerie transactionnelle pour stocker des fichiers, quels qu’ils soient, même pour les pièces jointes.
 * Pour héberger ces fichiers, vous devez utiliser un autre système de disque en ligne. Vous avez besoin d’un accès FTP à ce système et vous devez pouvoir écrire et supprimer des fichiers.
+
+>[!NOTE]
+>
+>Pour éviter tout problème de performances, il est recommandé de ne pas inclure plus d’une pièce jointe par courrier électronique. Le seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
 
 ## Mise en œuvre {#implementation}
 
