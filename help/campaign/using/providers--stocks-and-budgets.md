@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+source-git-commit: e059fc9e2bfade30454601f31990c3ec14b8a847
+workflow-type: tm+mt
+source-wordcount: '1998'
+ht-degree: 98%
 
 ---
 
@@ -81,7 +84,7 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-   * Saisissez un libellé pour ce poste de coût et sélectionnez le type de traitement concerné : Diffusion **[!UICONTROL Courrier]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, **[!UICONTROL Téléphone]**, **[!UICONTROL Fax]** ou **[!UICONTROL Tâche]**.
+   * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** or **[!UICONTROL Task]**.
    * Cliquez sur le bouton **[!UICONTROL Ajouter]** pour définir les types de coûts associés à ce poste.
    * Au besoin, associez une ligne de stock à chaque type de coût afin de reporter automatiquement les quantités utilisées sur les stocks existant.
 
@@ -176,7 +179,7 @@ Lorsqu&#39;une prestation est sélectionnée, les postes de coûts correspondant
 
    ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
-* Pour une diffusion sur canaux mobiles, par fax ou téléphone, le mode de sélection est le même.
+* Pour la diffusion sur les canaux mobiles ou le téléphone, le même mode de sélection s’applique.
 * Pour une diffusion par email, la prestation est sélectionnée à partir de l&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/s_ncs_user_supplier_email_delivery_select.png)
