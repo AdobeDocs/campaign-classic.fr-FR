@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
+source-git-commit: cb44d439c6866d94f8e1201575ab3d3094d6ad79
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 95%
 
 ---
 
@@ -74,6 +77,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pro
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
+
 >
 
 
@@ -110,6 +114,10 @@ Vérifiez dans chaque fichier que le nombre d&#39;options/de comptes exportés e
 >Le nombre de lignes à exporter dans un export de package est de 1000 lignes. Si le nombre d&#39;options ou de comptes externes est supérieur à 1000, il faut procéder à plusieurs exports.
 > 
 >Voir à ce sujet [cette section](../../platform/using/working-with-data-packages.md#exporting-packages).
+
+>[!NOTE]
+>
+>Lors de l&#39;exportation de la table nmsextaccount, les mots de passe associés aux comptes externes (par exemple les mots de passe pour le Midsourcing, l&#39;exécution de Message Center, SMPP, IMS et d&#39;autres comptes externes) ne sont pas exportés. Assurez-vous d&#39;avoir à l&#39;avance accès aux mots de passe corrects, car ils devront peut-être être entrés de nouveau une fois les comptes externes réimportés dans l&#39;environnement.
 
 ### Etape 3 - Arrêter l&#39;environnement cible (recette) {#step-3---stop-the-target-environment--dev-}
 
