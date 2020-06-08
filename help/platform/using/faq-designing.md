@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ca8fb051dce9abfcb8987c4d4527d997b480f96
+translation-type: tm+mt
+source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Avant de commencer à concevoir des emails, découvrez les concepts et bonnes pr
 
 Les paramètres et la configuration d&#39;une diffusion peuvent être sauvegardés dans un modèle de diffusion afin d&#39;être réutilisés.
 
-Pour en savoir plus, cliquez ici.
+[Pour en savoir plus, cliquez ici](../../delivery/using/about-templates.md).
 
 ## Est-il possible d&#39;importer facilement du contenu HTML existant pour créer un email dans Campaign ? {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 
