@@ -14,11 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
-workflow-type: ht
-source-wordcount: '2615'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cc9ea59a9925930d4a4b260ce73a6bd4b615db5a
+workflow-type: tm+mt
+source-wordcount: '2959'
+ht-degree: 79%
 
 ---
 
@@ -33,119 +33,198 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
 >
 >Les versions compatibles sont répertoriées dans la [Matrice de compatibilité Campaign](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA).
 
-<!--
-## Configure access to Azure Synapse {#configure-access-to-azure-synapse}
+## Configurer l&#39;accès à Azure Synapse {#configure-access-to-azure-synapse}
 
-### Azure Synapse on CentOS {#azure-centos}
+### Azure synapse external account {#azure-external}
 
-1. Download mysql57-community-release.noarch.rpm. You can find it in this [page](https://dev.mysql.com/downloads/repo/yum).
+The [!DNL Azure] external account allows you to connect your Campaign instance to your Azure Synapse external database.
+Pour créer votre compte externe de [!DNL Azure Synapse] compte externe :
 
-1. Install the client library:
+1. Dans Campaign Classic, configurez votre [!DNL Azure Synapse] compte externe. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
 
-    ```
-    $ yum install mysql57-community-release-el7-9.noarch.rpm
-    $ yum install mysql-community-libs
-    ```
+1. Cliquez sur **[!UICONTROL Créer]**.
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+1. Configurez le compte externe [!DNL Azure Synapse]. Vous devez indiquer les informations suivantes :
 
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+   * **[!UICONTROL Type]**: Azure Synapse Analytics
 
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
+   * **[!UICONTROL Serveur]**: URL du serveur Azure Synapse
 
-    * **[!UICONTROL Server]**
-  
-      URL of the Azure Synapse server.
+   * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-    * **[!UICONTROL Account]**
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
-      Name of the user.
+   * **[!UICONTROL Base de données]** : nom de la base de données
 
-    * **[!UICONTROL Password]**
+   ![](assets/azure_1.png)
 
-      User account password.
+### Azure Synapse sur CentOS {#azure-centos}
 
-    * **[!UICONTROL Database]**
+**Prérequis:**
 
-      Name of your database
+* Vous aurez besoin des privilèges racine pour installer un pilote ODBC.
+* Les pilotes ODBC Red Hat Enterprise fournis par Microsoft peuvent également être utilisés avec CentOS pour se connecter à SQL Server.
+* La version 13.0 fonctionnera avec Red Hat 6 et 7.
 
-    >[!NOTE]
-    >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+Pour configurer Azure Synapse sur CentOS :
 
-### Azure Synapse on Debian {#azure-debian}
+1. Installez tout d&#39;abord le pilote ODBC. Vous pouvez le trouver sur cette [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
-1. Download mysql-apt-config.deb. You can find it in this [page](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en).
+   >[!NOTE]
+   >
+   >Il s&#39;agit uniquement de la version 13 du pilote ODBC.
 
-1. Install the client library:
+   ```
+   sudo su
+   curl https://packages.microsoft.com/config/rhel/6/prod.repo > /etc/yum.repos.d/mssql-release.repo
+   exit
+   # Uninstall if already installed Unix ODBC driver
+   sudo yum remove unixODBC-utf16 unixODBC-utf16-devel #to avoid conflicts
+   
+   sudo ACCEPT_EULA=Y yum install msodbcsql
+   
+   sudo ACCEPT_EULA=Y yum install mssql-tools
+   echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+   echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+   source ~/.bashrc
+   
+   # the Microsoft driver expects unixODBC to be here /usr/lib64/libodbc.so.1, so add soft links to the '.so.2' files
+   cd /usr/lib64
+   sudo ln -s libodbccr.so.2   libodbccr.so.1
+   sudo ln -s libodbcinst.so.2 libodbcinst.so.1
+   sudo ln -s libodbc.so.2     libodbc.so.1
+   
+   # Set the path for unixODBC
+   export ODBCINI=/usr/local/etc/odbc.ini
+   export ODBCSYSINI=/usr/local/etc
+   source ~/.bashrc
+   
+   #Add a DSN information to /etc/odbc.ini
+   sudo vi /etc/odbc.ini
+   
+   #Add the following:
+   [Azure Synapse Analytics]
+   Driver      = ODBC Driver 13 for SQL Server
+   Description = Azure Synapse Analytics DSN
+   Trace       = No
+   Server      = [insert your server here]
+   ```
 
-    ```
-    $ dpkg -i mysql-apt-config_*_all.deb # choose mysql-5.7 in the configuration menu
-    $ apt update
-    $ apt install libmysqlclient20
-    ```
+1. Si nécessaire, vous pouvez installer des en-têtes de développement unixODBC en exécutant la commande suivante :
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+   ```
+   sudo yum install unixODBC-devel
+   ```
 
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+1. Après avoir installé les pilotes, vous pouvez tester et vérifier votre pilote ODBC et requête votre base de données si nécessaire. Exécutez la commande suivante :
 
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
+   ```
+   /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
+   ```
 
-    * **[!UICONTROL Server]**
-  
-      URL of the Azure Synapse server.
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Azure Synapse]. Pour plus d&#39;informations sur la configuration de votre compte externe, reportez-vous à cette [section](../../platform/using/specific-configuration-database.md#azure-external).
 
-    * **[!UICONTROL Account]**
+1. Comme Azure Synapse Analytics communique via le port TCP 1433, vous devez ouvrir ce port sur votre pare-feu. Utilisez la commande suivante :
 
-      Name of the user.
+   ```
+   firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
+   # you can ping your hostname and the ping command will translate the hostname to IP address which you can use here
+   ```
 
-    * **[!UICONTROL Password]**
+   >[!NOTE]
+   >
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être mettre en liste blanche votre adresse IP publique. Pour ce faire, reportez-vous à la documentation [](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
 
-      User account password.
+1. Dans le cas d&#39;iptables, exécutez la commande suivante :
 
-    * **[!UICONTROL Database]**
+   ```
+   iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
+   ```
 
-      Name of your database
+### Azure Synapse sous Windows {#azure-windows}
 
-    >[!NOTE]
-    >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+>[!NOTE]
+>
+>Il s&#39;agit de la version 13 du pilote ODBC, mais Adobe Campaign Classic peut également utiliser les pilotes SQL Server Native Client 11.0 et 10.0.
 
-### Azure Synapse on Windows {#azure-windows}
+Pour configurer Azure Synapse sous Windows :
 
-1. Download the C connector. You can find it in this [page](https://dev.mysql.com/downloads/connector/c).
+1. Installez tout d&#39;abord le pilote ODBC Microsoft. Vous pouvez le trouver sur cette [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
-1. Make sure the directory that contains libmysqlclient.dll is added to the PATH environment variable that nlserver will use.
+1. Choisissez les fichiers suivants à installer :
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+   ```
+   your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)
+   ```
 
-1. You now need to configure the external account. In Campaign Classic, unfold the **[!UICONTROL Platform]** menu and click **[!UICONTROL External accounts]**.
+1. Une fois votre pilote ODBC installé, vous pouvez le tester si nécessaire. Pour plus d’informations à ce propos, consultez cette [page](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server).
 
-1. Select the out-of-the box **[!UICONTROL Azure Synapse]** external account.
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Azure Synapse]. Pour plus d&#39;informations sur la configuration de votre compte externe, reportez-vous à cette [section](../../platform/using/specific-configuration-database.md#azure-external).
 
-1. To configure the **[!UICONTROL Azure Synapse]** external account:
+1. Comme Azure Synapse Analytics communique via le port TCP 1433, vous devez ouvrir ce port sur le pare-feu Windows Defender. For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
 
-    * **[!UICONTROL Server]**
-  
-      URL of the Azure Synapse server.
+### Azure Synapse sur Debian {#azure-debian}
 
-    * **[!UICONTROL Account]**
+**Prérequis:**
 
-      Name of the user.
+* Vous aurez besoin des privilèges racine pour installer un pilote ODBC.
+* Curl est nécessaire pour installer le package msodbcsql. Si vous ne l’avez pas installé, exécutez la commande suivante :
 
-    * **[!UICONTROL Password]**
+   ```
+   sudo apt-get install curl
+   ```
 
-      User account password.
+Pour configurer Azure Synapse sur Debian :
 
-    * **[!UICONTROL Database]**
+1. Installez tout d&#39;abord le pilote ODBC Microsoft pour SQL Server. Utilisez les commandes suivantes pour installer ODBC Driver 13.1 for SQL Server :
 
-      Name of your database
+   ```
+   sudo su
+   curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+   curl https://packages.microsoft.com/config/debian/8/prod.list > /etc/apt/sources.list.d/mssql-release.list
+   exit
+   sudo apt-get update
+   sudo ACCEPT_EULA=Y apt-get install msodbcsql
+   ```
 
-    >[!NOTE]
-    >
-    >Make sure the **[!UICONTROL Time zone]** and **[!UICONTROL Unicode data]** are set according to your database.
+1. Si vous obtenez l&#39;erreur suivante **&quot;Impossible de trouver le pilote de méthode /usr/lib/apt/methods/https&quot;** lors de l&#39;appel de la mise à jour **** sudo apt-get, exécutez la commande :
 
--->
+   ```
+   sudo apt-get install apt-transport-https ca-certificates
+   ```
+
+1. Vous devez maintenant installer mssql-tools avec les commandes suivantes. Les outils Mssq sont nécessaires pour utiliser l&#39;utilitaire de programme de copie en vrac (ou BCP) et pour exécuter des requêtes.
+
+   ```
+   sudo ACCEPT_EULA=Y apt-get install mssql-tools
+   echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+   echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+   source ~/.bashrc
+   ```
+
+1. Si nécessaire, vous pouvez installer des en-têtes de développement unixODBC en exécutant la commande suivante :
+
+   ```
+   sudo yum install unixODBC-devel
+   ```
+
+1. Après avoir installé les pilotes, vous pouvez tester et vérifier votre pilote ODBC et requête votre base de données si nécessaire. Exécutez la commande suivante :
+
+   ```
+   /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
+   ```
+
+1. In Campaign Classic, you can now configure your [!DNL Azure Synapse] external account. Pour plus d&#39;informations sur la configuration de votre compte externe, reportez-vous à cette [section](../../platform/using/specific-configuration-database.md#azure-external).
+
+1. Pour configurer iptables sur Debian afin d&#39;assurer la connexion avec Azure Synapse Analytics, activez le port TCP 1433 sortant pour votre nom d&#39;hôte avec la commande suivante :
+
+   ```
+   iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
+   ```
+
+   >[!NOTE]
+   >
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être mettre en liste blanche votre adresse IP publique. Pour ce faire, reportez-vous à la documentation [](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
 
 ## Configurer l’accès à Snowflake {#configure-access-to-snowflake}
 
@@ -154,6 +233,40 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
 >Le connecteur [!DNL Snowflake] est disponible pour les déploiements hébergés et on-premise. Voir à ce propos [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
 
 ![](assets/snowflake_3.png)
+
+### Compte externe Snowflake {#snowflake-external}
+
+Le compte externe [!DNL Snowflake] vous permet de connecter l’instance Campaign à la base de données externe Snowflake.
+
+1. Dans Campaign Classic, configurez votre [!DNL Snowflake] compte externe. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
+
+1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** intégré.
+
+1. Configurez le compte externe **[!UICONTROL Snowflake]**. Vous devez indiquer les informations suivantes :
+
+   * **[!UICONTROL Serveur]** : URL du serveur [!DNL Snowflake]
+
+   * **[!UICONTROL Compte]** : nom de l’utilisateur
+
+   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
+
+   * **[!UICONTROL Base de données]** : nom de la base de données
+
+   ![](assets/snowflake.png)
+
+1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
+
+   ![](assets/snowflake_2.png)
+
+Le connecteur prend en charge les options suivantes :
+
+| Option | Description |
+|---|---|
+| workschema | Schéma de base de données à utiliser pour les tables de travail. |
+| warehouse | Nom de l’entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l’utilisateur. |
+| TimeZoneName | Vide par défaut. C’est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>[Voir à ce propos cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>[Voir à ce propos cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
+| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d’utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d’informations à ce sujet, voir [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ### Snowflake sous CentOS {#snowflake-centos}
 
@@ -172,34 +285,7 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
    /etc/init.d/nlserver6 start
    ```
 
-1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Snowflake]. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
-
-1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** intégré.
-
-1. Configurez le compte externe **[!UICONTROL Snowflake]**. Vous devez indiquer les informations suivantes :
-
-   * **[!UICONTROL Serveur]** : URL du serveur [!DNL Snowflake]
-
-   * **[!UICONTROL Compte]** : nom de l’utilisateur
-
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
-
-   * **[!UICONTROL Base de données]** : nom de la base de données
-   ![](assets/snowflake.png)
-
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
-
-   ![](assets/snowflake_2.png)
-
-Le connecteur prend en charge les options suivantes :
-
-| Option | Description |
-|---|---|
-| workschema | Schéma de base de données à utiliser pour les tables de travail. |
-| warehouse | Nom de l’entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName | Vide par défaut. C’est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>[Voir à ce propos cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>[Voir à ce propos cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d’utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d’informations à ce sujet, voir [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Snowflake]. Pour plus d&#39;informations sur la configuration de votre compte externe, reportez-vous à cette [section](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ### Snowflake sous Debian {#snowflake-debian}
 
@@ -219,34 +305,7 @@ Le connecteur prend en charge les options suivantes :
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Snowflake]. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
-
-1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** intégré.
-
-1. Pour configurer le compte externe **[!UICONTROL Snowflake]**, vous devez indiquer les informations suivantes :
-
-   * **[!UICONTROL Serveur]** : URL du serveur [!DNL Snowflake]
-
-   * **[!UICONTROL Compte]** : nom de l’utilisateur
-
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
-
-   * **[!UICONTROL Base de données]** : nom de la base de données
-   ![](assets/snowflake.png)
-
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
-
-   ![](assets/snowflake_2.png)
-
-Le connecteur prend en charge les options suivantes :
-
-| Option | Description |
-|---|---|
-| workschema | Schéma de base de données à utiliser pour les tables de travail. |
-| warehouse | Nom de l’entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName | Vide par défaut. C’est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>[Voir à ce propos cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0.  <br>[Voir à ce propos cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d’utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d’informations à ce sujet, voir cette [page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Snowflake]. Pour plus d&#39;informations sur la configuration de votre compte externe, reportez-vous à cette [section](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ### Snowflake sous Windows {#snowflake-windows}
 
@@ -254,34 +313,7 @@ Le connecteur prend en charge les options suivantes :
 
 1. Configurez le pilote ODBC. Voir à ce propos [cette page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
 
-1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Snowflake]. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
-
-1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** intégré.
-
-1. Pour configurer le compte externe **[!UICONTROL Snowflake]**, vous devez indiquer les informations suivantes :
-
-   * **[!UICONTROL Serveur]** : URL du serveur [!DNL Snowflake]
-
-   * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
-
-   * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
-
-   * **[!UICONTROL Base de données]** : nom de la base de données
-   ![](assets/snowflake.png)
-
-1. Cliquez sur l’onglet **[!UICONTROL Paramètres]**, puis sur le bouton **[!UICONTROL Déployer les fonctions]** pour créer des fonctions.
-
-   ![](assets/snowflake_2.png)
-
-Le connecteur prend en charge les options suivantes :
-
-| Option | Description |
-|---|---|---|
-| workschema | Schéma de base de données à utiliser pour les tables de travail. |
-| warehouse | Nom de l’entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName | Vide par défaut. C’est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>[Voir à ce propos cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>[Voir à ce propos cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Par défaut, cette valeur est définie sur TRUE. Il est possible d’utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache (paramètre de session USE_CACHED_RESULTS) <br>Pour plus d’informations à ce sujet, voir [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Snowflake]. Pour plus d&#39;informations sur la configuration de votre compte externe, reportez-vous à cette [section](../../platform/using/specific-configuration-database.md#snowflake-external).
 
 ## Configurer l’accès à Hadoop 3.0 {#configure-access-to-hadoop-3}
 
@@ -315,6 +347,7 @@ La connexion à une base de données externe Hadoop dans FDA requiert les param�
    * **[!UICONTROL Base de données]** : nom de la base de données s’il n’est pas spécifié dans le DSN. Il peut rester vide s’il est spécifié dans le DSN
 
    * **[!UICONTROL Fuseau horaire]** : fuseau horaire du serveur
+
    ![](assets/hadoop3.png)
 
 Le connecteur prend en charge les options ODBC suivantes :
