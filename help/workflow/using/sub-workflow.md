@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 59%
 
 ---
 
@@ -26,20 +29,19 @@ L’activité **[!UICONTROL Sous-workflow]** permet de déclencher l’exécutio
 
 Vous pouvez appeler plusieurs sous-workflows au sein d’un même workflow. Les sous-workflows sont exécutés de manière synchrone.
 
->[!NOTE]
->
->Pour que le sous-workflow s’exécute correctement, vous devez disposer d’un seul saut de type « arrivée » avec le numéro le plus petit, et d’un seul saut de type « départ » avec le numéro le plus élevé. Par exemple, si vous avez des sauts de type « départ » avec une priorité de 1, 2 et 3, vous ne devriez avoir qu’un seul saut de type « départ » avec une priorité de 3.
+Dans l’exemple ci-dessous, un processus &quot;maître&quot; appelle un sous-processus à l’aide de sauts. Pour plus d’informations sur les objets graphiques de type saut, voir [cette section](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. Créez un workflow que vous allez utiliser en tant que sous-workflow dans un autre workflow.
-1. Insérez une activité **[!UICONTROL Saut (arrivée)]** avec une priorité de 1 au début du workflow. Si vous avez plusieurs sauts de type « arrivée », Adobe Campaign utilisera le saut « arrivée » dont le numéro est le plus petit.
-
-   Insérez une activité **[!UICONTROL Saut (départ)]** avec une priorité de 2 à la fin du workflow. Si vous avez plusieurs sauts de type « départ », Adobe Campaign utilisera le saut « départ » dont le numéro est le plus élevé.
+1. Insérez une activité **[!UICONTROL de saut (point de terminaison)]** avec une priorité de 1 au début du flux de travaux. Si vous avez plusieurs sauts de type &quot;point de terminaison&quot;, Adobe Campaign utilisera le saut &quot;point de terminaison&quot; avec le nombre le plus faible.
+1. Insérez une activité **[!UICONTROL de saut (point de début)]** avec une priorité de 2 à la fin du processus. Si vous avez plusieurs sauts de type &quot;point de début&quot;, Adobe Campaign utilisera le saut &quot;point de début&quot; avec le plus grand nombre.
 
    ![](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
-   >Si l&#39;activité de sous-workflow référence un workflow comportant plusieurs activités **[!UICONTROL Saut]**, l&#39;exécution du sous-workflow s&#39;effectue entre le saut de type &quot;arrivée&quot; dont le numéro est le plus petit et le saut de type &quot;départ&quot; dont le numéro est le plus élevé.
+   >If the sub-workflow activity references a workflow with several **[!UICONTROL Jump]** activities, the sub-workflow is executed between the &quot;end point&quot; type jump with the lowest number and the &quot;start point&quot; type jump with the highest number.
+   >
+   >Pour que le sous-processus soit exécuté correctement, vous devez avoir un seul saut de type &quot;point de terminaison&quot; avec le nombre le plus faible et un seul saut de type &quot;point de début&quot; avec le nombre le plus élevé.
 
 1. Finalisez et enregistrez ce « sous-workflow ».
 1. Créez un workflow « maître ».
@@ -78,6 +80,4 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 
 Ce triplet de valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
-* targetSchema
-
-Cette valeur est le schéma de la table de travail. Ce paramètre est valable pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
+* targetSchema : Cette valeur correspond au schéma de la table de travail. Ce paramètre est valide pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schéma]**.
