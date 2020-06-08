@@ -14,8 +14,11 @@ discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
+translation-type: tm+mt
+source-git-commit: 5847107a459bf47f34e4994c3521266bb174d8cb
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
@@ -59,18 +62,18 @@ Créez tout d&#39;abord une nouvelle diffusion.
    >Le mode **Silent push** est disponible à partir de la version 7 d&#39;iOS. Il permet d&#39;envoyer une notification &quot;silencieuse&quot; à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transmise à l&#39;application.
 
 1. Dans le champ **[!UICONTROL Titre]**, renseignez le libellé du titre que vous souhaitez voir apparaître sur la notification. Il apparaîtra uniquement au niveau de la liste de notifications disponible depuis le centre de notifications. Ce champ permet de définir la valeur du paramètre **title** de la payload des notifications iOS.
+
 1. Si vous utilisez le connecteur HTTP/2, vous pouvez ajouter un sous-titre (valeur du paramètre **subtitle** de la payload des notifications iOS). Voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+
 1. Saisissez ensuite le **[!UICONTROL Message]** et la **[!UICONTROL Valeur de la pastille]**, en fonction du type de notification choisi.
 
    ![](assets/nmac_delivery_ios_5.png)
 
    >[!NOTE]
    >
-   >Vous pouvez ajouter des emojis au contenu de votre notification. Pour ce faire, accédez à un site web d&#39;emojis ([exemple](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)), copiez-en un et collez-le directement dans l&#39;éditeur de contenu. Sous Windows 7, certains emojis peuvent ne pas s&#39;afficher correctement dans l&#39;éditeur (carré). Ils sont toutefois envoyés correctement dans la notification finale. La possibilité ou non d&#39;afficher des emojis dépend du système d&#39;exploitation utilisé sur l&#39;appareil. Il est recommandé d&#39;envoyer des BAT pour vérifier l&#39;affichage de la notification avant son envoi.
-
-   >[!NOTE]
-   >
    >Les notifications de type **[!UICONTROL Pastille]** et **[!UICONTROL Alerte et pastille]** permettent de modifier la valeur de la pastille (le chiffre affiché au-dessus du logo de l&#39;application mobile). Pour réinitialiser la pastille, il suffit de mettre 0 comme valeur. Si le champ est vide, la valeur de la pastille ne sera pas changée.
+
+1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]** pour insérer des émoticônes à votre notification Push. Pour personnaliser la liste émotionnelle, reportez-vous à la section [personnalisation de la liste émotionnelle.](../../delivery/using/defining-interactive-content.md)
 
 1. Le champ **[!UICONTROL Bouton d&#39;action]** vous permet de définir un libellé pour le bouton d&#39;action apparaissant sur les notifications de type alerte (champ **action_loc_key** de la payload). Si votre application iOS gère les chaînes localisables (**Localizable.strings**), renseignez dans ce champ, la clé correspondante. Si votre application ne gère pas le texte localisé, renseignez le libellé que vous souhaitez voir apparaître sur le bouton d&#39;action. Pour plus d&#39;informations sur les chaînes localisables, consultez [la documentation Apple](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. Dans le champ **[!UICONTROL Jouer un son]**, sélectionnez le son que doit émettre le terminal mobile à la réception de la notification.
@@ -121,9 +124,7 @@ Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking de
 
    ![](assets/nmac_delivery_android_4.png)
 
-   >[!NOTE]
-   >
-   >Vous pouvez ajouter des emojis au contenu de votre notification. Pour ce faire, accédez à un site web d&#39;emojis ([exemple](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)), copiez-en un et collez-le directement dans l&#39;éditeur de contenu. Sous Windows 7, certains emojis peuvent ne pas s&#39;afficher correctement dans l&#39;éditeur (carré). Ils sont toutefois envoyés correctement dans la notification finale. La possibilité ou non d&#39;afficher des emojis dépend du système d&#39;exploitation utilisé sur l&#39;appareil. Il est recommandé d&#39;envoyer des BAT pour vérifier l&#39;affichage de la notification avant son envoi.
+1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]** pour insérer des émoticônes à votre notification Push. Pour personnaliser la liste émotionnelle, reportez-vous à la section [personnalisation de la liste émotionnelle.](../../delivery/using/defining-interactive-content.md)
 
 1. Dans le champ **[!UICONTROL Variables de l&#39;application]**, renseignez la valeur de chaque variable. Les variables de l&#39;application permettent de définir le comportement des notifications : par exemple, lorsque l&#39;utilisateur active la notification, il est possible d&#39;afficher un écran particulier de l&#39;application.
 
