@@ -14,8 +14,11 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
+translation-type: tm+mt
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 100%
 
 ---
 
@@ -32,10 +35,10 @@ Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôle
 
 Avec Adobe Campaign, vous pouvez concevoir et appliquer quatre types de règles de typologie :
 
-1. Les règles de **filtrage** qui vous permettent d’exclure une partie de la cible en fonction de critères. Voir à ce sujet la section [Règles de filtrage](../../campaign/using/filtering-rules.md).
-1. Les règles de **pression** qui vous permettent de contrôler la lassitude marketing. Voir à ce sujet la section [Règles de pression](../../campaign/using/pressure-rules.md).
-1. Les règles de **capacité** qui vous permettent de limiter les charges pour garantir des conditions de traitement optimales. Voir à ce sujet la section [Contrôler la capacité](../../campaign/using/consistency-rules.md#controlling-capacity).
-1. Les règles de **contrôle** qui vous permettent de vérifier la validité des messages avant leur envoi. Voir à ce sujet la section [Règles de contrôle](../../campaign/using/control-rules.md).
+* Les règles de **filtrage** qui vous permettent d’exclure une partie de la cible en fonction de critères. Voir à ce sujet la section [Règles de filtrage](../../campaign/using/filtering-rules.md).
+* Les règles de **pression** qui vous permettent de contrôler la lassitude marketing. Voir à ce sujet la section [Règles de pression](../../campaign/using/pressure-rules.md).
+* Les règles de **capacité** qui vous permettent de limiter les charges pour garantir des conditions de traitement optimales. Voir à ce sujet la section [Contrôler la capacité](../../campaign/using/consistency-rules.md#controlling-capacity).
+* Les règles de **contrôle** qui vous permettent de vérifier la validité des messages avant leur envoi. Voir à ce sujet la section [Règles de contrôle](../../campaign/using/control-rules.md).
 
 Une fois créées, les règles de typologie sont regroupées dans des typologies de campagne, qui sont référencées dans les diffusions. Reportez-vous à la section [Appliquer les typologies](#applying-typologies).
 
