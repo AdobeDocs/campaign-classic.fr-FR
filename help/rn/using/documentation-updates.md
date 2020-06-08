@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e2ba309643a10a2bfdb031b3ee0acd90c3d02fc0
+source-git-commit: 39b8f4af256c23744a2b6e5978964e4b3207aafb
 workflow-type: tm+mt
-source-wordcount: '6491'
-ht-degree: 96%
+source-wordcount: '6680'
+ht-degree: 94%
 
 ---
 
@@ -26,6 +26,38 @@ ht-degree: 96%
 Cette page liste toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et la version de Campaign.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+
+## 20.2 - 08/06/2020{#release-20-2}
+
+**Nouvelles fonctionnalités de cette version**
+
+Prise en charge des émoticônes - [Lire la suite](../../delivery/using/customizing-emoticon-list.md)
+
+Azure Synapse FDA Connector - [Lire la suite](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+
+Thaïlande et Brésil - [Lire la suite](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+**Autres mises à jour de la documentation accompagnant cette version**
+
+La nouvelle option permettant d’annuler la publication d’un modèle de message transactionnel est présentée dans[cette section](../../message-center/using/template-unpublication.md).
+
+Les nouvelles options permettant de définir des limites lors de l’envoi de courriers électroniques qui incluent des images téléchargées à partir d’une URL personnalisée et des pièces jointes ont été ajoutées aux options de liste de Campaign Classic. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
+
+La nouvelle option **Préparer les parties de diffusion dans la base de données** est documentée dans [cette section](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis).
+
+La section Validation de la diffusion a été clarifiée et mise à jour. [En savoir plus](../../delivery/using/steps-validating-the-delivery.md)
+
+Les paramètres liés au nouveau mécanisme de signature du lien de suivi ont été ajoutés à la section Fichier [de configuration du](../../installation/using/the-server-configuration-file.md) serveur.
+
+Mise à jour de la matrice de compatibilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+
+La section Processus de nettoyage a été mise à jour. [En savoir plus](../../production/using/database-cleanup-workflow.md)
+
+Les points de terminaison réseau Campaign ont été déplacés vers cette [section](../../installation/using/campaign-network-endpoints.md).
+
+La section d&#39;installation de Spam Assassin a été mise à jour avec le nouveau nom de fichier d&#39;installation. [En savoir plus](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
+
+La section relative à la duplication des environnements a été mise à jour. [En savoir plus](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
 
 
 ## Mai 2020 {#may-2020}
