@@ -14,21 +14,30 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 61c7681535dc08e1d705d7d239e96c603bbad339
+translation-type: tm+mt
+source-git-commit: 1667dd0c8a38db0e554c59062cbcc5b6c6d992bb
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 87%
 
 ---
 
 
 # A propos des applications web{#about-web-applications}
 
-Adobe Campaign permet de créer et publier des applications web interactives et dynamiques avec des données de la base et du contenu adapté aux droits de l&#39;utilisateur connecté. Vous pouvez créer des pages, par exemple pour formulaire d&#39;édition sur un extranet ou des formulaires de notification, incluant des données de la base avec des tableaux, graphiques, champs de saisie, etc. Cette fonctionnalité vous permet de concevoir et mettre en ligne des pages web auxquelles les utilisateurs pourront accéder pour consulter ou renseigner des informations.
+Adobe Campaign vous permet de créer et de publier des Applications web dynamiques et interactives avec des données issues de la base de données et du contenu adapté aux droits de l’utilisateur connecté.
+
+Vous pouvez créer des pages, par exemple un formulaire de modification sur un extranet, ou des formulaires de notification incluant des données de la base de données avec des tables, des graphiques, des formulaires d’entrée, etc. Cette fonctionnalité vous permet de concevoir et de publier des pages Web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
 
 Il peut par exemple s&#39;agir d&#39;un formulaire d&#39;inscription dont les données ont été pré-remplies avec les informations contenues dans la base Adobe Campaign, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/webapp_form_sample.png)
 
 Ce chapitre présente la gestion des applications web.
+
+>[!NOTE]
+>
+>Consultez la liste de contrôle [](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) Sécurité et confidentialité pour savoir comment optimiser la sécurité pour les applications Web.
 
 >[!CAUTION]
 >
