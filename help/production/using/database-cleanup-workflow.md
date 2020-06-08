@@ -14,8 +14,11 @@ discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
+translation-type: tm+mt
+source-git-commit: c8cfdb67a4be2bc27baa363032c74a4aa8665e2a
+workflow-type: tm+mt
+source-wordcount: '2995'
+ht-degree: 99%
 
 ---
 
@@ -324,7 +327,7 @@ Cette étape permet de supprimer les enregistrements dont les données n&#39;ont
 
 ### Nettoyage des instances de workflow {#cleanup-of-workflow-instances}
 
-Cette tâche purge chaque instance de workflow à l’aide de son identifiant (**lWorkflowId**) et de son historique (**lHistory**). Elle supprime les tables inactives en exécutant à nouveau la tâche de nettoyage de la table de travail.
+Cette tâche purge chaque instance de workflow à l’aide de son identifiant (**lWorkflowId**) et de son historique (**lHistory**). Elle supprime les tables inactives en exécutant à nouveau la tâche de nettoyage de la table de travail. Le nettoyage supprime également toutes les tables de travail orphelines (wkf% et wkfhisto%) des workflows supprimés.
 
 >[!NOTE]
 >
@@ -404,7 +407,7 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 Cette tâche supprime les enregistrements obsolètes de la table des visiteurs à l’aide de la suppression en masse. Les enregistrements obsolètes sont ceux pour lesquels la dernière modification est antérieure à la période de conservation définie dans l’assistant de déploiement (voir [Assistant de déploiement](#deployment-wizard)). La requête suivante est utilisée :
 
 ```
-DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < $(tsDate) LIMIT 5000)
+DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
 ```
 
 où **$(tsDate)** est la date courante du serveur à laquelle est soustraite la période définie pour l&#39;option **NmsCleanup_VisitorPurgeDelay**.
