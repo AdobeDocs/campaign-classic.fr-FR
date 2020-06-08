@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
 
@@ -84,10 +87,9 @@ Vous pouvez également associer directement des règles de filtrage depuis cet o
 
 >[!NOTE]
 >
->* Seules les typologies et règles de filtrage sont proposées dans la fenêtre de sélection.
->* Ces paramétrages peuvent être définis au niveau du modèle de diffusion afin de les appliquer automatiquement à toute nouvelle diffusion créée à partir de ce modèle.
+>Seules les typologies et règles de filtrage sont proposées dans la fenêtre de sélection.
 >
-
+>Ces paramétrages peuvent être définis au niveau du modèle de diffusion afin de les appliquer automatiquement à toute nouvelle diffusion créée à partir de ce modèle.
 
 
 ## Règles d&#39;exclusion de délivrabilité par défaut  {#default-deliverability-exclusion-rules}
