@@ -5,10 +5,10 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 56ddf3dc1505c0507c67f8b08c9f33b4007f8857
 workflow-type: tm+mt
-source-wordcount: '2051'
-ht-degree: 100%
+source-wordcount: '2061'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
+      + [Version 20.1](rn/using/release--20-1.md)
       + [Version 19.2](rn/using/release--19-2.md)
       + [Version 19.1](rn/using/release--19-1.md)
       + [Version 18.10](rn/using/release--18-10.md)
@@ -127,6 +128,7 @@ ht-degree: 100%
       + [Contenu conditionnel](delivery/using/conditional-content.md)
       + [Coupons personnalisés](delivery/using/personalized-coupons.md)
       + [Générer des documents PDF personnalisés](delivery/using/generating-personalized-pdf-documents.md)
+      + [Personnalisation de la liste émotionnelle](delivery/using/customizing-emoticon-list.md)
    + Utiliser des adresses de contrôle {#using-seed-addresses}
       + [A propos des adresses de contrôle](delivery/using/about-seed-addresses.md)
       + [Créer des adresses de contrôle](delivery/using/creating-seed-addresses.md)
@@ -526,6 +528,7 @@ ht-degree: 100%
       + [Aperçu du message transactionnel](message-center/using/transactional-message-preview.md)
       + [Envoyer un bon à tirer](message-center/using/sending-a-proof.md)
       + [Publication des modèles](message-center/using/template-publication.md)
+      + [Annulation de la publication du modèle](message-center/using/template-unpublication.md)
    + Traitement des événements {#event-processing}
       + [A propos du traitement des événements](message-center/using/about-event-processing.md)
       + [Collecte des événements](message-center/using/event-collection.md)
@@ -603,6 +606,7 @@ ht-degree: 100%
       + [Interaction - Mémoire tampon](installation/using/interaction---data-buffer.md)
    + Annexes {#appendices}
       + [Le fichier de configuration du serveur](installation/using/the-server-configuration-file.md)
+      + [Points de terminaison réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création de nouvelles instances](installation/using/creating-new-instances.md)
       + [Liste des options de Campaign Classic](installation/using/configuring-campaign-options.md)
