@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4148efa9c7a8b002672d72fc526753bf7304673c
-workflow-type: ht
-source-wordcount: '3050'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
+workflow-type: tm+mt
+source-wordcount: '3068'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Vous trouverez la procédure complète de création d&#39;un opérateur sur [cet
 
 Pour plus d&#39;informations sur l&#39;intégration d&#39;Adobe Campaign avec LDAP, consultez [cette page](../../installation/using/connecting-through-ldap.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Un opérateur doit être associé à une zone de sécurité pour se connecter à une instance. Pour plus d&#39;informations sur les zones de sécurité dans Adobe Campaign, consultez [cette page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
@@ -149,7 +149,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
 
    ![](assets/s_ncs_user_restrictions_operators.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Cette restriction est uniquement visuelle et doit être utilisée avec précaution. L&#39;opérateur connecté avec ce type de droits ne voit QUE le contenu du dossier spécifié et ne peut accéder à aucun autre noeud de l&#39;arborescence via l&#39;explorateur. Toutefois, en fonction des fonctionnalités auxquelles il a accès (par exemple : les workflows), il peut afficher les données normalement contenues dans des noeuds qu&#39;il ne peut pas visualiser.
 
@@ -179,7 +179,7 @@ Vous pouvez accéder à :
 
 Adobe Campaign utilise des opérateurs techniques dont les profils sont paramétrés par défaut : Administrateur (&#39;admin&#39;), Facturation (&#39;billing&#39;), Monitoring, Agent des applications web (&#39;webapp&#39;), etc. Certains dépendent des applications et options installées sur la plateforme : par exemple, les opérateurs &#39;central&#39; et &#39;local&#39; ne sont présents que lorsque l&#39;option Marketing Distribué est installée.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ces opérateurs techniques sont par défaut notifiés lorsque des alertes ou des messages d&#39;information sont envoyés par la plateforme. Il est vivement recommandé de leur associer un email de contact.
 >
@@ -396,7 +396,7 @@ Dans l&#39;onglet **[!UICONTROL Sécurité]**, si l&#39;option **[!UICONTROL Dos
 
 ## Les dossiers et les vues {#folders-and-views}
 
-### A propos des dossiers et des vues {#about-folders-and-views}
+### A propos des dossiers {#about-folders}
 
 Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l&#39;arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Vous pouvez ensuite sélectionner le type de dossier à créer. Par défaut, le premier menu propose d&#39;ajouter le dossier correspondant au contexte courant.
 
@@ -404,17 +404,23 @@ Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds 
 
 Vous pouvez accorder des permissions sur ces dossiers comme sur tous les autres dossiers de l&#39;arborescence. Voir la section [Gestion de l&#39;accès aux dossiers](#folder-access-management).
 
+### A propos des vues {#about-views}
+
 En outre, vous pouvez créer des vues afin de restreindre l&#39;accès aux données et d&#39;organiser le contenu de l&#39;arborescence pour l&#39;adapter à vos besoins. Vous pourrez ensuite attribuer des droits sur les vues.
 
 Une vue est un dossier affichant des enregistrements stockés physiquement dans un ou plusieurs autres dossiers du même type. Par exemple, si vous créez un dossier Campagne qui est une vue, il affichera par défaut toutes les campagnes présentes dans la base, quelle que soit leur origine. Ces données peuvent ensuite être filtrées.
 
 Lorsque vous transformez un dossier en vue, l&#39;ensemble des données correspondant au type de dossier présentes dans la base sont affichées dans la vue, quel que soit leur dossier d&#39;enregistrement. Vous pouvez ensuite les filtrer pour restreindre la liste des données affichées.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les vues regroupent des données et permettent d&#39;y accéder. Toutefois, elles ne sont pas physiquement stockées dans le dossier de la vue. L&#39;opérateur doit avoir les droits correspondants à l&#39;action visée dans le ou les dossiers d&#39;origine des données (lecture au minimum).
 >
 >Pour donner accès à une vue sans donner accès à son dossier d&#39;origine, il suffit de ne pas donner de droit en lecture sur le noeud parent du dossier source.
+
+Pour distinguer les vues des dossiers, le nom de chaque vue s’affiche dans une couleur différente (cyan foncé).
+
+![](assets/s_ncs_user_view_name_color.png)
 
 ### Ajouter des dossiers et créer des vues {#adding-folders-and-creating-views}
 
@@ -442,4 +448,3 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 Les diffusions suivantes seront affichées dans la vue :
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
-
