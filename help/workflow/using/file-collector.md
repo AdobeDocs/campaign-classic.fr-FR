@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 92%
 
 ---
 
@@ -82,6 +85,4 @@ L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter s
 
 ## Paramètres de sortie {#output-parameters}
 
-* filename
-
-Nom complet du fichier. C&#39;est le nom du fichier après son déplacement dans le répertoire d&#39;historique. Le chemin est donc différent, mais le nom est également différent s&#39;il existe déjà un autre fichier ayant le même nom dans le répertoire. L&#39;extension est conservée.
+* filename: Nom de fichier complet. Il s’agit du nom de fichier après son déplacement dans le répertoire d’historique. Le chemin d’accès est donc différent, mais le nom est également différent si un autre fichier portant le même nom existe déjà dans le répertoire. L&#39;extension est conservée.
