@@ -14,8 +14,11 @@ discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
+translation-type: tm+mt
+source-git-commit: e059fc9e2bfade30454601f31990c3ec14b8a847
+workflow-type: tm+mt
+source-wordcount: '1247'
+ht-degree: 100%
 
 ---
 
@@ -145,13 +148,7 @@ Le tableau suivant répertorie tous les packages standard avec leur description,
    <td> Envoie les diffusions à l’aide du canal téléphonique avec Adobe Campaign.<br /> </td> 
    <td> Tous<br /> </td> 
    <td> Facultatif</td> 
-  </tr> 
-  <tr> 
-   <td> Canal fax<br /> </td> 
-   <td> Envoie les diffusions via le canal fax avec Adobe Campaign.<br /> </td> 
-   <td> Tous<br /> </td> 
-   <td> Facultatif</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Mobile App Channel<br /> </td> 
    <td> Utilise la plateforme Adobe Campaign pour envoyer des notifications personnalisées aux terminaux iOS et Android via des applications. <br /> </td> 
