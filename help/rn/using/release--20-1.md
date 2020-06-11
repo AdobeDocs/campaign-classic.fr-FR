@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e20d44fe02771e8723ae396ff8cb5845c68de471
+source-git-commit: 6ce00d34ecbdfa6a13593772ffa1850768ad6e45
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 Le **dernier build stable** est le build 9032 (3a9dc9c). Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/do-not-localize/blue_2.png) Version 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/orange_2.png) Version 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
 
 _mercredi 6 mai 2020_
 
