@@ -14,8 +14,11 @@ discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
+translation-type: tm+mt
+source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+workflow-type: tm+mt
+source-wordcount: '1680'
+ht-degree: 100%
 
 ---
 
@@ -121,6 +124,7 @@ Pour ajouter une collection d&#39;informations liées à une population ciblée�
 
    * Si vous choisissez de récupérer plusieurs lignes (**[!UICONTROL Limiter le nombre de lignes]**), vous pouvez indiquer le nombre de lignes à collecter.
    * Si les colonnes collectées contiennent des agrégats, par exemple le nombre de sinistres déclarés, la moyenne des dépenses sur un site, etc., vous pouvez utiliser la valeur **[!UICONTROL Agrégats]**.
+
    ![](assets/query_add_collection_param.png)
 
 1. Définissez la sous-sélection des éléments de la collection. Par exemple : les achats des 15 derniers jours seulement.
@@ -145,6 +149,7 @@ Dans l&#39;exemple suivant, la requête cherchera à identifier les hommes de 18
    * Les destinataires ayant moins de 30 ans.
    * Les destinataires ayant plus de 18 ans.
    * Les destinataires dont le pays de résidence est la France.
+
    ![](assets/query_example.png)
 
    Vous pouvez visualiser le code SQL correspondant à votre combinaison de critères :
@@ -185,7 +190,7 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 
    Assurez-vous que la clause `where` est du même type que le champ.
 
-   Il existe une erreur courante : `iBlacklist='3'` où `iBlacklist` est un champ numérique et `3` correspond à une valeur de texte.
+   Il existe une erreur courante : `iBlocklist='3'` où `iBlocklist` est un champ numérique et `3` correspond à une valeur de texte.
 
    Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
 
@@ -228,6 +233,7 @@ Pour plus d’informations sur les dimensions de filtrage, consultez [cette sec
    * Données,
    * Application,
    * Volumes.
+
    >[!NOTE]
    >
    >Une fonctionnalité opérationnelle dans un environnement de développement peut ne pas l’être dans un environnement de production. Les données peuvent en effet être différentes de l’un à l’autre. Essayez d’identifier les principales différences pour anticiper les risques et préparer des solutions.
