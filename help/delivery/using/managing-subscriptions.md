@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 97%
 
 ---
 
@@ -153,7 +156,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
 Les diffusions par email doivent légalement contenir un lien de désinscription. Les destinataires peuvent cliquer sur ce lien pour mettre à jour leur profil et ainsi être exclu des cibles des prochaines diffusions.
 
-Le lien de désinscription par défaut est inséré via le dernier bouton de la barre d’outils de l’éditeur de contenu fourni dans l’assistant de diffusion (voir [A propos de la personnalisation](../../delivery/using/about-personalization.md)). Lorsque le destinataire clique sur ce lien, le profil est blacklisté (opt-out), ce qui signifie que ce destinataire ne sera plus ciblé par aucune action de diffusion.
+Le lien de désinscription par défaut est inséré via le dernier bouton de la barre d’outils de l’éditeur de contenu fourni dans l’assistant de diffusion (voir [A propos de la personnalisation](../../delivery/using/about-personalization.md)). Lorsque le destinataire clique sur ce lien, le profil est ajouté à la liste bloquée (exclusion), ce qui signifie que ce destinataire ne sera plus ciblé par une action de diffusion.
 
 Les destinataires peuvent toutefois choisir de se désinscrire d’un service sans se désinscrire de tous les services. Pour ce faire, vous pouvez utiliser un formulaire web (voir [cette section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) ou insérer un lien de désinscription personnalisé (voir [Blocs de personnalisation](../../delivery/using/personalization-blocks.md)).
 
