@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+source-git-commit: 9188a68ca2ffcd9cf9e82b475aa2a0dd5807561b
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 87%
 
 ---
 
@@ -51,13 +54,13 @@ Les messages de confirmation sont adressés via un modèle de diffusion dédié,
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Les destinataires de cette diffusion n&#39;ayant pas encore confirmé leur approbation, ils sont encore blacklistés dans la base. Pour qu&#39;ils puissent toutefois recevoir cette communication, vous devez autoriser les diffusions basées sur ce modèle à cibler les destinataires blacklistés.
+1. Comme les destinataires de cette diffusion n&#39;ont pas confirmé leur approbation, ils sont toujours sur la liste bloquée de la base de données. Pour qu’ils puissent recevoir cette communication, vous devez autoriser les diffusions basées sur ce modèle aux destinataires de cible qui se trouvent sur la liste bloquée.
 
    Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Exclusions]**.
 
-1. Cliquez sur le lien **[!UICONTROL Editer...]** et désélectionnez l&#39;option **[!UICONTROL Exclure les destinataires ne souhaitant plus être contactés (blackliste)]**.
+1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted (blocklist)]** option.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)
+   <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
    >[!CAUTION]
    >
@@ -109,10 +112,10 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   La première activité **[!UICONTROL Script]** blackliste les destinataires jusqu&#39;à ce qu&#39;ils valident leur inscription à la newsletter. Son contenu doit être le suivant :
+   La première activité de **[!UICONTROL script]** ajoutera des destinataires à la liste bloquée jusqu&#39;à ce qu&#39;ils confirment leur abonnement à la newsletter. Son contenu doit être le suivant :
 
    ```
-   ctx.recipient.@blackList=1
+   ctx.recipient.@blockList=1
    ```
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
@@ -120,7 +123,7 @@ Pour ce faire, procédez comme suit :
    La seconde activité **[!UICONTROL Script]** autorise l&#39;envoi des diffusions aux utilisateurs et les inscrit à la newsletter. Les deux dernières lignes du script permet de transférer les destinataires du dossier Temp vers un autre dossier et de les réconcilier avec les profils existants dès validation de l&#39;inscription.
 
    ```
-   ctx.recipient.@blackList=0
+   ctx.recipient.@blockList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>
    nms.subscription.Unsubscribe("TEMP", ctx.recipient)
@@ -172,7 +175,7 @@ Ainsi, l&#39;inscription à la newsletter est réalisée selon les étapes suiva
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   A cette étape, l&#39;utilisateur est ajouté dans la base Adobe Campaign, dans le dossier **[!UICONTROL Temp]**, et son profil est blacklisté jusqu&#39;à ce qu&#39;il valide son inscription à l&#39;aide de l&#39;email.
+   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is added to the block list until they confirm their subscription with the email.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -186,7 +189,7 @@ Ainsi, l&#39;inscription à la newsletter est réalisée selon les étapes suiva
 
    Dans Adobe Campaign, le profil de l&#39;utilisateur est mis à jour :
 
-   * il n&#39;est plus blacklisté,
+   * ils ne sont plus en liste bloquée,
    * il est abonné au service d&#39;information.
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
