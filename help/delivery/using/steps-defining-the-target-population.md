@@ -14,8 +14,11 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+translation-type: tm+mt
+source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+workflow-type: tm+mt
+source-wordcount: '1675'
+ht-degree: 97%
 
 ---
 
@@ -154,7 +157,7 @@ Les options disponibles sont les suivantes :
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclure les destinataires ne souhaitant plus être contactés]**, c&#39;est-à-dire ceux dont les adresses emails sont en blackliste (opt-out). Cette option doit rester cochée afin de respecter les règles déontologiques de l&#39;e-marketing et de la loi LCEN.
+* **[!UICONTROL Exclure les destinataires qui ne veulent plus être contactés]** , c&#39;est-à-dire les destinataires dont les adresses électroniques se trouvent sur une liste bloquée (&quot;opt-out&quot;). Cette option doit rester sélectionnée afin de respecter l&#39;éthique professionnelle du e-marketing et les lois régissant le e-commerce.
 * **[!UICONTROL Exclure les destinataires en quarantaine]**. Cette option permet d&#39;exclure de la cible les profils dont les adresses ne répondent pas. Il est vivement recommandé de NE PAS décocher cette option.
 
    >[!NOTE]
