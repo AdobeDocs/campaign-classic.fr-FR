@@ -14,8 +14,11 @@ discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5b9c57b3cba0e8c24300396c2abac613f6e1193a
+translation-type: tm+mt
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 96%
 
 ---
 
@@ -151,5 +154,5 @@ Une fois la fonctionnalité email en Cci paramétrée, veillez à sélectionner 
    * Si vous utilisez le même MTA entre plusieurs instances (développement, test, production) d&#39;un même client, les messages envoyés depuis ces trois instances combinées seront dupliqués par l&#39;option dataLogPath.
 
 * **Emails par connexion **: l’archivage des emails en Cci fonctionne en ouvrant une connexion et en essayant d’envoyer tous les emails via cette connexion. Adobe recommande de vérifier avec votre contact technique le nombre d’emails acceptés sur une connexion donnée. L’augmentation de ce nombre peut avoir un grand impact sur le débit Cci.
-* **IP envoyant en Cci** : actuellement, les emails en Cci ne sont pas envoyés par les proxys MTA normaux. Au lieu de cela, une connexion directe est ouverte à partir du serveur MTA vers le serveur d’email de destination. Cela signifie que vous devrez peut-être mettre en whiteliste d’autres IP sur votre réseau, en fonction du paramétrage de votre serveur d’emails.
+* **IPs** d&#39;envoi par CC : actuellement, les courriers électroniques en copie carbone invisible ne sont pas envoyés par les proxies MTA normales. En revanche, une connexion directe est ouverte du serveur MTA au serveur de messagerie de destination. Cela signifie que vous devrez peut-être ajouter des adresses IP supplémentaires à la liste autorisée de votre réseau, en fonction de la configuration de votre serveur de messagerie.
 
