@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
-workflow-type: ht
-source-wordcount: '2701'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2c555f29f0e0029b468927dbdb4bc79f9a35990d
+workflow-type: tm+mt
+source-wordcount: '2704'
+ht-degree: 98%
 
 ---
 
@@ -156,7 +156,7 @@ _30 mai 2019_
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l'efficacité de votre tâche d'administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, en whitelistant des adresses IP et en installant des clés SSH pour chaque instance. Veuillez noter, qu'à l'heure actuelle, le panneau de configuration est uniquement disponible pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous dès aujourd'hui via Experience Cloud</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
+   <td> <p>Pour accroître l’efficacité de votre travail en tant qu’utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant l’enregistrement, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter que le Panneau de configuration n'est disponible que pour les clients hébergés sur AWS à partir d'aujourd'hui (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l'intermédiaire de l'Experience Cloud aujourd'hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
