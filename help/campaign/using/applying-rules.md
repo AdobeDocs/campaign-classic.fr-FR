@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +87,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 1. Règles de contrôle, si elles s&#39;appliquent au début du ciblage.
 1. Règles de filtrage :
 
-   * Règles natives de l&#39;application pour la qualification des adresses : adresse définie / adresse non vérifiée / adresse en blackliste / adresse en quarantaine / qualité de l&#39;adresse.
+   * Règles d&#39;application natives pour la qualification d&#39;adresse : adresse définie / adresse non vérifiée / adresse sur la liste bloquée / adresse mise en quarantaine / qualité de l&#39;adresse.
    * Règles de filtrage définies par l&#39;utilisateur.
    * Règle de déduplication sur l&#39;adresse ou sur l&#39;identifiant (appliquée si nécessaire).
 
