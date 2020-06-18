@@ -14,11 +14,11 @@ discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+workflow-type: tm+mt
 source-wordcount: '2679'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -117,12 +117,12 @@ La maintenance de la plateforme et de la base de données peut également impact
 
 Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion semble prendre plus de temps que d&#39;habitude. Cela peut être dû à différents éléments :
 
-* Certains fournisseurs de service de messagerie peuvent avoir blacklisté vos adresses IP. Vérifiez les broadlogs et consultez ce guide de [prise en main](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html).
+* Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos journaux et consultez [cette section](../../delivery/using/about-deliverability.md).
 * Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) d&#39;Adobe Campaign.
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
    * Messages mis en attente (message **[!UICONTROL Quotas atteints]**) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d&#39;informations sur ce message, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-deliverability-faq.html#FAQ). Pour en savoir plus sur les règles MX, reportez-vous à [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
-   * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et un blacklistage éventuel.
+   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
 
 * Un problème lié au système peut empêcher les serveurs d&#39;interagir ensemble : l&#39;ensemble du processus d&#39;envoi peut être ainsi ralenti. Vérifiez que les serveurs ne présentent aucun problème de mémoire ou de ressource qui peut impacter Campaign dans le processus de récupération des données de personnalisation par exemple.
 
@@ -166,7 +166,7 @@ Lors de l&#39;envoi d&#39;une diffusion, les statuts suivants peuvent s&#39;affi
   </tr> 
   <tr> 
    <td> Ignoré<br /> </td> 
-   <td> La diffusion n'a pas été envoyée parce que l'adresse du destinataire est en blackliste, en quarantaine, n'est pas renseignée ou qu'il s'agit d'un doublon. <br /> </td> 
+   <td> La diffusion n'a pas été envoyée au destinataire en raison d'une erreur avec son adresse. Il a été ajouté à une liste bloquée, mis en quarantaine, non fourni ou à un duplicata. <br /> </td> 
   </tr> 
   <tr> 
    <td> Envoyés<br /> </td> 
