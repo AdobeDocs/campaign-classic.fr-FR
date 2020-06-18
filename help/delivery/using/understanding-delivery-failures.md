@@ -14,11 +14,11 @@ discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '2485'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c26ef0b520c6486d86e73cb93612cc7ab9556d0
+workflow-type: tm+mt
+source-wordcount: '2501'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Lorsqu&#39;un message (email, SMS, notification push) ne peut pas être envoyé 
 
 Une fois un message envoyé, les logs de diffusion permettent de consulter le statut de la diffusion pour chaque profil ainsi que le type d&#39;échec et la raison associés.
 
-Les messages peuvent être également exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou un profil blacklisté. Les messages exclus sont listés dans le tableau de bord de la diffusion.
+Les messages peuvent également être exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est sur la liste bloquée. Les messages exclus sont répertoriés dans le tableau de bord de diffusion.
 
 **Rubriques connexes :**
 
@@ -86,10 +86,10 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
    <td> L'indice de qualité de l'adresse postale est trop faible.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adresse en blackliste </td> 
+   <td> Adresse à la liste bloquée </td> 
    <td> Hard </td> 
    <td> 8 </td> 
-   <td> L'adresse était en blackliste au moment de l'envoi. Ce statut est utilisé pour importer des données depuis des listes externes et des systèmes externes lors de l'import de données dans la liste de quarantaine Adobe Campaign.<br /> </td> 
+   <td> L'adresse a été ajoutée à la liste bloquée au moment de l'envoi. Cet état est utilisé pour importer des données à partir de listes externes et de systèmes externes dans la liste Quarantaine Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adresse témoin </td> 
@@ -107,7 +107,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
    <td> Erreur ignorée </td> 
    <td> Ignoré </td> 
    <td> 25 </td> 
-   <td> L'adresse est en whiteliste et un email lui sera envoyé dans tous les cas.<br /> </td> 
+   <td> L'adresse est sur la liste autorisée. L'erreur est donc ignorée et un courrier électronique sera envoyé.<br /> </td> 
   </tr> 
   <tr> 
    <td> Exclu par un arbitrage </td> 
@@ -207,7 +207,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
    >
    >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   Le système de gestion des plaintes (feedback loop) fonctionne selon le même principe que les mails rebonds. Lorsqu&#39;un utilisateur déclare un email comme indésirable, il est possible de configurer des règles mails dans Adobe Campaign afin de bloquer tout nouvel envoi à ces utilisateurs. Les messages envoyés aux utilisateurs qui ont déclaré un indésirable sont redirigés automatiquement vers une boîte email créée spécialement pour cela. Les adresses de ces utilisateurs sont blacklistées, bien qu&#39;ils n&#39;aient pas cliqué sur le lien de désinscription. Les adresses sont donc blacklistées dans la table des quarantaines (**NmsAddress**) et non dans la table des destinataires (**NmsRecipient**).
+   La boucle [de](../../delivery/using/technical-recommendations.md#feedback-loop) rétroaction fonctionne comme des courriers électroniques de rebonds. Lorsqu’un utilisateur qualifie un courrier électronique de indésirable, vous pouvez configurer des règles d&#39;émail dans l’Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un courrier électronique comme indésirable sont automatiquement redirigés vers une boîte électronique spécialement créée à cet effet. Les adresses de ces utilisateurs se trouvent sur la liste bloquée même s’ils n’ont pas cliqué sur le lien de la désinscription. Les adresses se trouvent sur la liste bloquée de la table de quarantaine (**NmsAddress**) et non dans la table de destinataire (**NmsRecipient**).
 
    >[!NOTE]
    >
