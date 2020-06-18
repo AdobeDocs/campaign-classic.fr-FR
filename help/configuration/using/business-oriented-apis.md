@@ -14,8 +14,11 @@ discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+translation-type: tm+mt
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 97%
 
 ---
 
@@ -147,7 +150,7 @@ Si le destinataire n&#39;est pas présent dans la base de données, ou bien s&#3
 
 >[!NOTE]
 >
->Si le nom du service n&#39;est pas précisé en paramètre, alors le destinataire est automatiquement blacklisté (@blackList=&quot;1&quot;).
+>Si le nom du service n’est pas spécifié en tant que paramètre, le destinataire est alors automatiquement sur la liste bloquée (@liste bloquée=&quot;1&quot;).
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 
