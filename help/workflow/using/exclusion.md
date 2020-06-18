@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
 
@@ -47,8 +50,6 @@ L&#39;exemple suivant cherche à constituer une liste des destinataires dont l&#
 1. Exécutez le workflow. Dans cet exemple, le résultat comporte tous les destinataires âgés de 18 à 30 ans, mais ceux habitant à Paris sont exclus et sont envoyés vers le complémentaire.
 
    ![](assets/exclusion_example.png)
-
-L&#39;exemple d&#39;importation d&#39;une blackliste utilise une activité de type **Exclusion** décrite dans la section [Lecture de liste](../../workflow/using/read-list.md).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
