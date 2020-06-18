@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b0bcdfca1767aab5c54f06a5af5fb9097d2ec6f
+source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 65%
+source-wordcount: '1817'
+ht-degree: 64%
 
 ---
 
@@ -103,7 +103,7 @@ Cet onglet permet d&#39;accéder aux options suivantes :
 * **[!UICONTROL Mode]** d&#39;approbation : ce champ vous permet de définir une diffusion manuelle ou automatique une fois l’analyse terminée. Les modes de validation sont présentés dans la section [Modification du mode](#changing-the-approval-mode) d’approbation.
 * **[!UICONTROL Préparez les parties de diffusion dans la base de données]** : cette option vous permet d&#39;améliorer les performances de l&#39;analyse des diffusions. Voir à ce propos [cette section](#improving-delivery-analysis).
 * **[!UICONTROL Préparez les données de personnalisation à l’aide d’un processus]** : cette option permet de préparer les données de personnalisation contenues dans votre diffusion dans un flux de travail automatique, ce qui peut vous permettre d’augmenter considérablement les performances d’exécution de la personnalisation. For more on this, see [Optimizing personalization](../../delivery/using/personalization-fields.md#optimizing-personalization).
-* **[!UICONTROL Tâche de Début dans un processus détaché]** : cette option vous permet de début de l’analyse de diffusion dans un processus distinct. Par défaut, la fonction d’analyse utilise le processus serveur d’applications Adobe Campaign (web nlserver). En sélectionnant cette option, vous vous assurez que l’analyse sera terminée même en cas de défaillance du serveur d’applications.
+* **[!UICONTROL Tâche de Début dans un processus détaché]** : cette option vous permet de début de l’analyse de diffusion dans un processus distinct. Par défaut, la fonction analyse utilise le processus Adobe Campaign Application Server (web nlserver). En sélectionnant cette option, vous vous assurez que l’analyse sera terminée même en cas de défaillance du serveur d’applications.
 * **[!UICONTROL Enregistrer les requêtes de ciblage et de personnalisation dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d&#39;analyse.
 * **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans les contenus HTML. Elles seront affichées telles quelles dans les contenus envoyés. Ces directives sont introduites par la balise **&lt;%=**.
 
@@ -183,7 +183,7 @@ L&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion permet de
 Les options disponibles sont les suivantes :
 
 * La première option permet de conserver les doublons du BAT.
-* Les deux options ci-dessous vous permettent de conserver en blackliste les adresses et les destinataires mis en quarantaine. Voir la description de ces options pour la cible principale dans la section [Personnalisation des paramètres d’exclusion](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
+* Les deux options suivantes vous permettent de conserver les destinataires qui se trouvent sur la liste bloquée et les adresses en quarantaine. Voir la description de ces options pour la cible principale dans la section [Personnalisation des paramètres d’exclusion](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
 * L&#39;option **[!UICONTROL Conserver le code diffusion pour le BAT]** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il correspond : ce code est spécifié dans la première étape de l&#39;assistant de diffusion.
 * Par défaut, l&#39;objet du BAT est préfixé par &quot;BAT N°&quot;, où N° correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe du libellé]**.
 
