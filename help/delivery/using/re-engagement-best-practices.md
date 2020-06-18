@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 30f313cecf1c3d7c65f6524a3f86a1c28b35f679
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +55,7 @@ Selon une étude Return Path, les campagnes de réengagement ont un taux d&#39;o
 ### Phase 1 {#phase-1}
 
 * La première étape consiste à identifier les abonnés qui ont une activité très faible d&#39;ouverture ou de clic ou qui n&#39;ont pas d&#39;activité du tout et à segmenter en conséquence ce groupe en fonction d&#39;un délai défini. Une règle de base consiste à examiner les abonnés qui n&#39;ont pas ouvert un email ou cliqué dessus au cours des 90 derniers jours. Ce délai peut toutefois varier en fonction de la nature de l&#39;entreprise (envoi saisonnier, par exemple).
-* Un autre point à garder à l&#39;esprit lors de la définition des délais est que les FAI et les sociétés de blacklistage considèrent l&#39;engagement dans un délai entre 1,5 et 1,8 ans et les activités comportementales telles que les achats et l&#39;activité du site web, ou d&#39;autres points de contact, comme les préférences pendant la phase d&#39;inscription ou le premier point de contact.
+* Un autre point à garder à l&#39;esprit lors de la définition des délais est que les FSI et les sociétés de liste bloquée considèrent que l&#39;engagement se situe entre 1,5 et 1,8 ans. En outre, les activités comportementales telles que les achats et l’activité du site Web, ou d’autres points de contact, tels que les préférences pendant la phase d’inscription ou le premier point de contact.
 
 ### Phase 2 {#phase-2}
 
