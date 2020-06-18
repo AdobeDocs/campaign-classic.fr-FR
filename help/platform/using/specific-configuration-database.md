@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc9ea59a9925930d4a4b260ce73a6bd4b615db5a
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
 workflow-type: tm+mt
-source-wordcount: '2959'
-ht-degree: 79%
+source-wordcount: '2967'
+ht-degree: 78%
 
 ---
 
@@ -40,13 +40,13 @@ En règle générale, il est nécessaire d&#39;installer la couche cliente corre
 The [!DNL Azure] external account allows you to connect your Campaign instance to your Azure Synapse external database.
 Pour créer votre compte externe de [!DNL Azure Synapse] compte externe :
 
-1. Dans Campaign Classic, configurez votre [!DNL Azure Synapse] compte externe. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
+1. Dans le Campaign Classic, configurez votre [!DNL Azure Synapse] compte externe. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 1. Configurez le compte externe [!DNL Azure Synapse]. Vous devez indiquer les informations suivantes :
 
-   * **[!UICONTROL Type]**: Azure Synapse Analytics
+   * **[!UICONTROL Type]**: Analytics Azure Synapse
 
    * **[!UICONTROL Serveur]**: URL du serveur Azure Synapse
 
@@ -133,7 +133,7 @@ Pour configurer Azure Synapse sur CentOS :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être mettre en liste blanche votre adresse IP publique. Pour ce faire, reportez-vous à la documentation [](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, reportez-vous à la documentation [](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
 
 1. Dans le cas d&#39;iptables, exécutez la commande suivante :
 
@@ -216,7 +216,7 @@ Pour configurer Azure Synapse sur Debian :
 
 1. In Campaign Classic, you can now configure your [!DNL Azure Synapse] external account. Pour plus d&#39;informations sur la configuration de votre compte externe, reportez-vous à cette [section](../../platform/using/specific-configuration-database.md#azure-external).
 
-1. Pour configurer iptables sur Debian afin d&#39;assurer la connexion avec Azure Synapse Analytics, activez le port TCP 1433 sortant pour votre nom d&#39;hôte avec la commande suivante :
+1. Pour configurer iptables sur Debian pour assurer la connexion avec Azure Synapse Analytics, activez le port TCP 1433 sortant pour votre nom d&#39;hôte avec la commande suivante :
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
@@ -224,7 +224,7 @@ Pour configurer Azure Synapse sur Debian :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être mettre en liste blanche votre adresse IP publique. Pour ce faire, reportez-vous à la documentation [](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, reportez-vous à la documentation [](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)Azure.
 
 ## Configurer l’accès à Snowflake {#configure-access-to-snowflake}
 
@@ -238,7 +238,7 @@ Pour configurer Azure Synapse sur Debian :
 
 Le compte externe [!DNL Snowflake] vous permet de connecter l’instance Campaign à la base de données externe Snowflake.
 
-1. Dans Campaign Classic, configurez votre [!DNL Snowflake] compte externe. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
+1. Dans le Campaign Classic, configurez votre [!DNL Snowflake] compte externe. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
 
 1. Sélectionnez le compte externe **[!UICONTROL Snowflake]** intégré.
 
