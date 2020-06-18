@@ -14,15 +14,18 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 527d2dd2296d18c8ca26745b9f87d65c6fdf480a
+translation-type: tm+mt
+source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+workflow-type: tm+mt
+source-wordcount: '2537'
+ht-degree: 94%
 
 ---
 
 
 # Comprendre la gestion des quarantaines{#understanding-quarantine-management}
 
-## A propos des quarantaines {#about-quarantines}
+## À propos des quarantaines {#about-quarantines}
 
 Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires dont l&#39;adresse est en quarantaine sont par défaut exclus lors de l&#39;analyse d&#39;une diffusion : ils ne seront pas ciblés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l&#39;adresse n&#39;existe pas. Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites ci-après.
 
@@ -32,27 +35,27 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires 
 
 ### Optimiser votre diffusion par le biais des mises en quarantaine   {#optimizing-your-delivery-through-quarantines}
 
-Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
+Les profils dont l’adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
-Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. Les mises en quarantaine permettent donc d&#39;éviter des blacklistages de la part de ces fournisseurs.
+Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La Quarantaine permet donc d&#39;éviter d&#39;être ajoutée à une liste bloquée par ces fournisseurs.
 
-De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d&#39;informations sur les bonnes pratiques en matière de sécurisation et d&#39;optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html).
+De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html).
 
-### Mise en quarantaine et blacklistage {#quarantine-vs-blacklisting}
+### Quarantaine / liste bloquée {#quarantine-vs-block-list}
 
-La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l&#39;adresse, les deux profils seront impactés.
+La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l’adresse, les deux profils seront impactés.
 
-De même, un profil, dont l&#39;adresse email est en quarantaine qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
+De même, un profil, dont l’adresse email est en quarantaine qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
 
-En revanche, en cas de **blacklistage**, c&#39;est le profil qui ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out).
+Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
 
 >[!NOTE]
 >
->Lorsqu&#39;un utilisateur répond à un SMS avec un mot-clé tel que &quot;STOP&quot; pour se désinscrire des diffusions SMS, son profil n&#39;est pas blacklisté comme c&#39;est le cas pour la désinscription des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
+>Lorsqu&#39;un utilisateur répond à un message SMS avec un mot-clé tel que &quot;STOP&quot; afin de s&#39;exclure des diffusions SMS, son profil n&#39;est pas ajouté à la liste bloquée comme dans le processus d&#39;exclusion par courriel. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
 ## Identifier les adresses en quarantaine   {#identifying-quarantined-addresses}
 
-Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
+Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l’ensemble de la plateforme.
 
 ### Identifier les adresses en quarantaine pour une diffusion   {#identifying-quarantined-addresses-for-a-delivery}
 
@@ -103,10 +106,10 @@ Si vous avez besoin de sortir une adresse de quarantaine, modifiez manuellement 
 
 ![](assets/tech_quarant_error_status.png)
 
-Si vous choisissez le statut **[!UICONTROL En whiteliste]**, l&#39;adresse sera ciblée systématiquement à chaque diffusion même en cas d&#39;erreur.
+If you change the status to **[!UICONTROL On allow list]**, the address will be targeted systematically each time even if an error is encountered.
 
 >[!CAUTION]
-Les adresses en blackliste ne sont pas soumises au système des quarantaines et ne sont pas ciblées, même si vous modifiez le statut de l&#39;adresse.
+Les adresses de la liste bloquée ne sont pas concernées par le système de quarantaine et ne sont pas ciblées, même si vous modifiez l&#39;état de l&#39;adresse.
 
 Vous pouvez également modifier le nombre d&#39;erreurs prévues au compteur et la durée entre deux erreurs. Pour cela, modifiez les paramètres de l&#39;assistant de déploiement (Canal emails/Paramètres avancés). Reportez-vous à [cette section](../../installation/using/deploying-an-instance.md) pour la présentation de l&#39;assistant de déploiement.
 
@@ -120,7 +123,7 @@ Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de
 
 Si un utilisateur qualifie un email comme du spam (**système de gestion des plaintes (feedback loop)**), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L&#39;adresse email de l&#39;utilisateur est alors automatiquement mise en quarantaine.
 
-Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#39;erreur]** indique pourquoi l&#39;adresse sélectionnée a été mise en quarantaine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
+Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#39;erreur]** indique pourquoi l&#39;adresse sélectionnée a été mise en quarantaine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
 
 ![](assets/tech_quarant_error_reasons.png)
 
