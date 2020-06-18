@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 91%
 
 ---
 
@@ -62,7 +65,7 @@ Les périmètres définis dans le compte externe Campaign doivent être un sous-
 
 **URL de callback**
 
-L&#39;**URL de callback** doit figurer en whiteliste et commencer par &quot;https://&quot;. Vérifiez que l&#39;**URL de callback** est liée à l&#39;instance correspondante. Par exemple, l&#39;instance de production doit rediriger vers l&#39;URL de production.
+L’URL **de** rappel doit être ajoutée à la liste autorisée et au début avec &quot;https://&quot;. Vérifiez que l’URL **de** rappel est liée à l’instance correspondante. Par exemple, l’instance de production doit rediriger vers l’URL de production.
 
 **Identifiant du client et secret**
 
