@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9b0f943fa09b3d0ad8547eb708e888724f1ae7e
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
-source-wordcount: '7852'
-ht-degree: 99%
+source-wordcount: '7859'
+ht-degree: 98%
 
 ---
 
@@ -207,7 +207,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/upload/' <br /> </td> 
   </tr> 
   <tr> 
-   <td> uploadWhitelist<br /> </td> 
+   <td> uploadAllowlist<br /> </td> 
    <td> Fichiers autorisés à être téléchargés séparés par des ','. La chaîne doit être une expression régulière Java valide. Voir la section<a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limitation des fichiers téléchargeables</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '.+' <br /> </td> 
@@ -575,8 +575,8 @@ Pour plus d&#39;informations, voir la section [Restreindre les commandes externe
  </thead> 
  <tbody> 
   <tr> 
-   <td> blacklistFile<br /> </td> 
-   <td> Chemin du fichier contenant la liste des commandes à interdire. <br /> </td> 
+   <td> blocklistFile<br /> </td> 
+   <td> Chemin d’accès au fichier contenant les commandes à ajouter à la liste autorisée. <br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
@@ -3083,7 +3083,7 @@ Pour plus d&#39;informations, voir la section [Sécurité et relais des pages dy
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Statut de synchronisation d’une ressource publique (énumération). Les valeurs possibles sont 'normal' (exécution normale), 'blacklist' (blacklist de l’URL si erreur 404) et 'spare' (téléchargement du fichier sur les spare server si existant).<br /> </td> 
+   <td> Etat de synchronisation d'une ressource publique (énumération). Les valeurs possibles sont "normal" (exécution normale), "liste bloquée" (url ajouté à la liste bloquée en cas d’erreur 404) et "spare" (téléchargement de fichiers sur le serveur de secours s’il existe).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
@@ -3141,19 +3141,19 @@ Voici la configuration par défaut :
      timeout="" status="normal" httpAllowed="true" urlPath="/nl/jsp/s.jsp"/>
 
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/nms/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/xtk/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/nl/jsp/*.jsp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="*.jssp"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="*.jssp"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="true" urlPath="/webApp/*"/>
+     timeout="" status="blocklist" httpAllowed="true" urlPath="/webApp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/report/*"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/report/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
-     timeout="" status="blacklist" httpAllowed="false" urlPath="/jssp/*"/>
+     timeout="" status="blocklist" httpAllowed="false" urlPath="/jssp/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
      timeout="" status="normal" httpAllowed="false" urlPath="/strings/*"/>
 <url IPMask="" deny="" hostMask="" relayHost="true" relayPath="true" targetUrl="http://localhost:8080"
