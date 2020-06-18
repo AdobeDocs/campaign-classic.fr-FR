@@ -12,8 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1815f9fc6063ec86d6c12ef492396e5afb82b3e1
+translation-type: tm+mt
+source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+workflow-type: tm+mt
+source-wordcount: '1668'
+ht-degree: 93%
 
 ---
 
@@ -160,7 +163,7 @@ Vous pouvez également consulter les [Conseils et limites connues de Gmail](http
 AMP for Email étant disponible en tant que fonctionnalité bêta, vous pouvez actuellement tester l’envoi d’un email AMP en deux étapes :
 
 1. Adobe Campaign vous permet de tester la diffusion d’un email dynamique piloté par AMP vers des adresses email sélectionnées correctement configurées, afin de vérifier son contenu et son comportement. Voir [Tester la diffusion d’un email AMP pour des adresses sélectionnées](#testing-amp-delivery-for-selected-addresses).
-1. Une fois testé, vous pouvez envoyer une diffusion ou une campagne dans le cadre du programme bêta AMP for Email en vous enregistrant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d’expéditeur soit mis en whiteliste. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
+1. Une fois testé, vous pouvez envoyer une diffusion ou une campagne dans le cadre du programme bêta AMP pour courriel en vous inscrivant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d’expéditeur soit ajouté à la liste autorisée. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
 
 ### Tester la diffusion d’un email AMP pour des adresses sélectionnées {#testing-amp-delivery-for-selected-addresses}
 
@@ -170,7 +173,7 @@ Vous pouvez tester l’envoi de messages dynamiques d’Adobe Campaign vers des 
 >
 >Actuellement, seuls Gmail, Outlook et Mail.ru prennent en charge le test du format AMP.
 
-En ce qui concerne Gmail et Outlook, vous devez d’abord mettre en whiteliste la ou les adresses d’expéditeur que vous utilisez pour procéder à la diffusion depuis Adobe Campaign pour les comptes Gmail et Outlook ciblés.
+Pour Gmail et Outlook, vous devez d&#39;abord ajouter les adresses d&#39;expéditeur que vous utilisez à la liste autorisée pour diffuser à partir de l&#39;Adobe Campaign les comptes Gmail et Outlook que vous ciblez.
 
 Pour cela :
 1. Vérifiez que l’option d’activation de l’e-mail est cochée par le ou les fournisseurs de messagerie appropriés.
@@ -184,7 +187,7 @@ Pour tester l’envoi d’un email AMP à une adresse Mail.ru, procédez comme i
 
 ### Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie{#delivering-amp-emails-by-registering}
 
-Vous pouvez expérimenter la diffusion d’emails dynamiques en vous enregistrant auprès des fournisseurs de messagerie qui participent au programme bêta AMP afin d’obtenir la liste blanche de votre domaine d’expéditeur.
+Vous pouvez expérimenter la diffusion de courriels dynamiques en vous enregistrant auprès des fournisseurs de messagerie qui participent au programme bêta AMP afin que votre domaine d’expéditeur soit ajouté à la liste autorisée.
 
 >[!NOTE]
 >
