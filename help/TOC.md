@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 56ddf3dc1505c0507c67f8b08c9f33b4007f8857
+source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2062'
 ht-degree: 99%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 99%
       + [Inbox rendering](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Meilleures pratiques de réengagement](delivery/using/re-engagement-best-practices.md)
-      + [Bases de blacklistage](delivery/using/blacklisting-databases.md)
+      + [Base de données de Liste bloquée](delivery/using/block-list-databases.md)
       + [Résolution des problèmes](delivery/using/deliverability-faq.md)
    + Module de gestion de contenu {#content-management}
       + [A propos de la gestion de contenu](delivery/using/about-content-management.md)
