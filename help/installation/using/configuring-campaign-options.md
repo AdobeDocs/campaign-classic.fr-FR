@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de1173786c94c2a526153e7e6948f71c9523fa7b
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
 source-wordcount: '3906'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Expressions régulières de normalisation des messages de diffusion.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
    <td> Entrer la valeur "1" permet d’exclure les destinataires qui ne souhaitent plus être contactés.<br /> </td> 
   </tr> 
   <tr> 
@@ -175,7 +175,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Formule de calcul du poids d'un message d'une diffusion prévisionnelle.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsInmail_WhitelistEmails</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
    <td> Liste des adresses email de transfert autorisées (à partir du module de traitement du courrier entrant). Les adresses doivent être séparées par des virgules (ou * pour les autoriser toutes). Par exemple, xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
