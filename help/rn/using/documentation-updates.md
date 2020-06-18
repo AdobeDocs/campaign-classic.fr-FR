@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39b8f4af256c23744a2b6e5978964e4b3207aafb
+source-git-commit: c1b0980d540992538f7961afd7c218888dee4a39
 workflow-type: tm+mt
-source-wordcount: '6680'
-ht-degree: 94%
+source-wordcount: '6722'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 Cette page liste toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et la version de Campaign.
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+
+## Juin 2020 {#june-2020}
+
+Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. Certaines occurrences de ces termes peuvent toujours exister dans l’interface utilisateur du produit, les noms d’option et le code interne, mais seront remplacées dans les prochaines versions de Campaign par &quot;liste bloquée&quot; et &quot;liste autorisée&quot;.
 
 ## 20.2 - 08/06/2020{#release-20-2}
 
@@ -41,7 +45,7 @@ Thaïlande et Brésil - [Lire la suite](https://helpx.adobe.com/campaign/kb/acc-
 
 La nouvelle option permettant d’annuler la publication d’un modèle de message transactionnel est présentée dans[cette section](../../message-center/using/template-unpublication.md).
 
-Les nouvelles options permettant de définir des limites lors de l’envoi de courriers électroniques qui incluent des images téléchargées à partir d’une URL personnalisée et des pièces jointes ont été ajoutées aux options de liste de Campaign Classic. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
+Les nouvelles options permettant de définir des limites lors de l’envoi de courriels qui incluent des images téléchargées à partir d’une URL personnalisée et des pièces jointes ont été ajoutées à la liste des options du Campaign Classic. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
 
 La nouvelle option **Préparer les parties de diffusion dans la base de données** est documentée dans [cette section](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis).
 
@@ -92,7 +96,7 @@ L’article sur le MTA amélioré d’Adobe Campaign a été mis à jour. Il ne
 
 Data model best practices have been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [En savoir plus](../../configuration/using/data-model-best-practices.md)
 
-Une nouvelle section décrivant le modèle de données intégré Adobe Campaign et l’interaction entre les tableaux est désormais disponible. [En savoir plus](../../configuration/using/data-model-description.md)
+Une nouvelle section décrivant le modèle de données intégré à l’Adobe Campaign et l’interaction entre les tableaux est désormais disponible. [En savoir plus](../../configuration/using/data-model-description.md)
 
 D’autres liens clés ont été ajoutés à la page d&#39;accueil de documentation. [En savoir plus](../../campaign-classic-home.md)
 
