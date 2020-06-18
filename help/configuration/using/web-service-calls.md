@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a527f246c4b0bf84c2a83e8df74b7a92542fda7a
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 97%
 
 ---
 
@@ -281,7 +284,7 @@ Lors d&#39;un appel SOAP :
 
 >[!NOTE]
 >
->Les URL utilisées dans les appels **HttpServletRequest** suivants doivent être mises en whiteliste dans la section des autorisations d&#39;URL du fichier **serverConf.xml**. C&#39;est également vrai pour l&#39;URL du serveur lui-même.
+>The URLs used in the following **HttpServletRequest** calls need to be on allowed list in the url permissions section of the **serverConf.xml** file. C&#39;est également vrai pour l&#39;URL du serveur lui-même.
 
 Exécution du logon() :
 
