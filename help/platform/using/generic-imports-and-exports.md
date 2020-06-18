@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +57,7 @@ La procédure de création d&#39;un modèle de processus est présentée dans le
 
 >[!NOTE]
 >
->Le modèle natif **[!UICONTROL Import d&#39;un fichier repoussoir]** est déjà paramétré afin d&#39;importer une liste d&#39;emails en blackliste.
+>La liste bloquée **[!UICONTROL d’]** importationdu modèle natif est déjà configurée pour importer une liste d’adresses électroniques ajoutées à la liste bloquée.
 > 
 >Les modèles **[!UICONTROL Nouvel import texte]** et **[!UICONTROL Nouvel export texte]** permettent de paramétrer un import ou un export en partant de zéro.
 
