@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +49,7 @@ Cet écran contient toutes les informations générales relatives au profil sél
 
 >[!NOTE]
 >
->L&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]** lorsqu&#39;elle est cochée, indique que ce profil est en blackliste, donc qu&#39;il a émis le souhait de ne plus être contacté (par exemple, en cliquant sur un lien de désabonnement dans une newsletter). Il ne sera ciblé par aucune diffusion, quel que soit le canal (email, courrier, etc.). Voir à ce sujet [cette page](../../delivery/using/understanding-quarantine-management.md).
+>Lorsque l&#39;option **[!UICONTROL Ne plus contacter (par un canal)]** est sélectionnée, cela signifie que le profil est sur la liste bloquée, c&#39;est-à-dire que le profil a exprimé le souhait de ne pas être contacté (par exemple, en cliquant sur un lien de désinscription dans un bulletin d&#39;information). Ils ne seront plus ciblés par des diffusions sur un canal quelconque (courriel, publipostage, etc.). Voir à ce propos [cette page](../../delivery/using/understanding-quarantine-management.md).
 
 ## Onglet Coordonnées {#contact-information-tab}
 
