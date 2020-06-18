@@ -12,11 +12,11 @@ discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '2463'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+workflow-type: tm+mt
+source-wordcount: '2467'
+ht-degree: 91%
 
 ---
 
@@ -139,7 +139,7 @@ Recommendations for defining an SPF record:
 
 ## Feedback loop {#feedback-loop}
 
-Le principe d&#39;une feedback loop est de déclarer chez le FAI une adresse email particulière pour une plage d&#39;adresses IP utilisées pour l&#39;envoi de messages. Le FAI retournera sur cette boîte, de façon similaire à ce qui est fait pour les mails rebonds, les messages envoyés aux utilisateurs qui ont cliqué sur &quot;Ceci est un spam&quot;. La plate-forme devra être configurée pour bloquer tous les envois ultérieurs vers les utilisateurs qui se sont plaints. Il est important de ne définitivement plus contacter ces personnes même si elles n&#39;ont pas fait usage du lien de désinscription qui était prévu pour cela. C&#39;est sur la base de ces plaintes que le FAI va décider de blacklister ou non une adresse IP. Suivant le FAI, le taux de plainte qui déclenche le blacklistage d&#39;une adresse IP se situe aux environs de 1%.
+Une boucle de rétroaction fonctionne en déclarant au niveau du fournisseur de services Internet une adresse électronique donnée pour une plage d’adresses IP utilisées pour l’envoi de messages. Le FAI enverra à cette boîte aux lettres, de la même manière que pour les messages de rebond, ces messages qui sont signalés par les destinataires comme étant du spam. La plateforme doit être configurée pour bloquer les futures diffusions aux utilisateurs qui se sont plaints. Il est important de ne plus les contacter même s’ils n’ont pas utilisé le lien d’exclusion approprié. C&#39;est sur la base de ces plaintes qu&#39;un FAI ajoutera une adresse IP à sa liste bloquée. Selon le fournisseur de services Internet, un taux de plainte d&#39;environ 1 % entraînera le blocage d&#39;une adresse IP.
 
 Un standard est en cours d’établissement pour définir le format des messages de feedback loop : l’[ARF (Abuse Feedback Reporting Format)](https://tools.ietf.org/html/rfc6650).
 
@@ -255,11 +255,11 @@ Adobe fournit une stratégie IP dédiée pour chaque client avec une adresse IP 
 
 ## Certification IP {#ip-certification}
 
-La certification IP est un programme de pratiques d’envoi et de mise en liste blanche destiné à s’assurer que les emails sont reçus sans être bloqués par des filtres anti-spam ou d’autres systèmes de blocage d’emails.
+La certification IP est un programme de bonnes pratiques d&#39;envoi qui permet de s&#39;assurer que les courriels sont reçus sans être bloqués par des filtres antispam ou d&#39;autres systèmes de blocage des courriels.
 
 Actuellement, deux fournisseurs proposent une certification IP : Return Path et Certified Senders Alliance.
 
-Les expéditeurs certifiés sont ajoutés à des listes blanches d’emails utilisées par les fournisseurs messagerie et les entreprises de sécurité de messagerie à travers le monde. Ces listes blanches commerciales sont basées sur un système qui permet à l’expéditeur de contourner complètement les filtres anti-spam ou de se voir attribuer des points incrémentiels lorsqu’il entre dans le système.
+Les expéditeurs certifiés sont ajoutés aux listes autorisées de messagerie électronique utilisées par les fournisseurs de boîtes aux lettres globaux et les sociétés de sécurité des courriels. Ces listes autorisées commerciales sont basées sur un système qui permet à l&#39;expéditeur de contourner complètement les filtres antispam ou de se voir attribuer des points incrémentiels lorsqu&#39;ils entrent dans le système.
 
 Le programme [Return Path Certification](https://www.validity.com/products/returnpath/certification/) offre un certain nombre d’avantages, notamment :
 
@@ -276,6 +276,6 @@ La certification [Certified Senders Alliance](https://certified-senders.org/ce
 * une protection contre les risques juridiques et financiers en respectant entièrement les normes juridiques ;
 * la protection de la réputation grâce à des avertissements précoces émis par le Bureau des réclamations de la Certified Senders Alliance et des rapports quotidiens relatifs aux pièges anti-spam.
 
-Les FAI sont libres d’utiliser ces services et le nombre de FAI est variable selon la liste blanche.
+Les FAI sont libres d&#39;utiliser ces services et le nombre de FAI peut varier selon la liste autorisée.
 
 Toutefois, étant donné que les FAI sont de plus en plus nombreux à créer leurs filtres anti-spam en fonction du comportement de chaque titulaire de boîte de réception plutôt que du contenu des messages, l’utilisation de la certification IP ne garantit pas nécessairement le placement en boîte de réception, ni même la diffusion.
