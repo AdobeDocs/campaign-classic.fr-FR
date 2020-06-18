@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+workflow-type: tm+mt
+source-wordcount: '2052'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +93,7 @@ La réplication des logs des emails et des identifiants des diffusions permet d&
 
 ACS Connector synchronise les quarantaines entre Campaign v7 et Campaign Standard.
 
-Imaginons par exemple qu&#39;un profil qui a été répliqué depuis Campaign v7 vers Campaign Standard comprend une adresse email. Si l&#39;adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d&#39;informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+Imaginons par exemple qu&#39;un profil qui a été répliqué depuis Campaign v7 vers Campaign Standard comprend une adresse email. Si l&#39;adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d&#39;informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
 ### Utilisation de profils répliqués {#using-replicated-profiles}
 
@@ -216,15 +219,15 @@ Vous trouverez ci-dessous la liste des champs de destinataire répliqués dans l
   </tr> 
   <tr> 
    <td> No longer contact (by any channel)<br /> </td> 
-   <td> @blackList<br /> </td> 
+   <td> @liste bloquée<br /> </td> 
   </tr> 
   <tr> 
    <td> No longer contact by email<br /> </td> 
-   <td> @blackListEmail<br /> </td> 
+   <td> @blockListEmail<br /> </td> 
   </tr> 
   <tr> 
    <td> No longer contact by SMS<br /> </td> 
-   <td> @blackListMobile<br /> </td> 
+   <td> @blockListMobile<br /> </td> 
   </tr> 
   <tr> 
    <td> Phone<br /> </td> 
