@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ SpamAssassin utilise diverses techniques de détection des emails indésirables,
 * la détection des emails indésirables basée sur une somme de contrôle approximative et DNS,
 * le filtrage bayésien,
 * les programmes externes,
-* les blacklistes,
+* Listes bloquées
 * les bases de données en ligne.
 
 >[!NOTE]
