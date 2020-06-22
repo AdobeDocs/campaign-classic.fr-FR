@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2c555f29f0e0029b468927dbdb4bc79f9a35990d
+source-git-commit: 655544352070b0e2fab72b1991d2e4d80e03e349
 workflow-type: tm+mt
-source-wordcount: '2704'
-ht-degree: 98%
+source-wordcount: '2819'
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,19 @@ _13 août 2019_
 
 ## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **29 avril 2020** : nouveau build (9032@3a9dc9c) qui comprend les correctifs suivants :
+![](assets/do-not-localize/green_2.png) **22 juin 2020**: nouvelle version (9032@800be2e) qui comprend les correctifs suivants :
+
+* Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NÉO-25904, NÉO-25903, NÉO-25799)
+
+Les correctifs suivants sont liés au mécanisme de sécurité des liens de suivi :
+
+* Correction d’un problème qui empêchait le suivi des &quot;clics de notification&quot; de fonctionner (notifications Push iOS et Android). (NEO-25965)
+* Correction d&#39;un problème qui pouvait vous empêcher d&#39;ouvrir/de cliquer sur les URL de suivi lors de l&#39;utilisation de certaines versions héritées d&#39;Outlook.  (NEO-25688)
+* Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec un signe dièse) de fonctionner. (NEO-25774)
+* Correction d’un problème lié au service antiphishing. (NEO-25283)
+* Correction d’un problème de suivi lors de l’utilisation de formules de suivi personnalisées spécifiques. (NEO-25277)
+
+![](assets/do-not-localize/orange_2.png) **29 avril 2020** : nouveau build (9032@3a9dc9c) qui comprend les correctifs suivants :
 
 * Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant le service Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
