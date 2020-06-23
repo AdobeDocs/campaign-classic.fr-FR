@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
+source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+workflow-type: tm+mt
+source-wordcount: '2574'
+ht-degree: 79%
 
 ---
 
@@ -46,42 +49,102 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-### Décompresser ou déchiffrer un fichier avant traitement {#unzipping-or-decrypting-a-file-before-processing}
+## Décompresser ou déchiffrer un fichier avant traitement {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign permet d&#39;importer des fichiers compressés ou chiffrés. Avant qu&#39;un fichier ne puisse être lu dans une activité **[!UICONTROL Chargement (fichier)]**, vous pouvez définir une étape de prétraitement pour le décompresser ou le déchiffrer.
+### A propos des étapes de prétraitement {#about-pre-processing-stages}
+
+Adobe Campaign permet d&#39;importer des fichiers compressés ou chiffrés. Avant qu&#39;un fichier ne puisse être lu dans une activité [Chargement (fichier)](../../workflow/using/data-loading--file-.md), vous pouvez définir une étape de prétraitement pour le décompresser ou le déchiffrer.
 
 Pour ce faire :
 
-* Si votre installation d&#39;Adobe Campaign est hébergée par Adobe : envoyez une demande à l&#39;[assistance technique](https://support.neolane.net) afin que les utilitaires nécessaires soient installés sur le serveur.
-* S&#39;il s&#39;agit d&#39;une installation on-premise : installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de chiffrement) nécessaires sur le serveur applicatif.
+1. Utilisez le panneau [de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) configuration pour générer une paire de clés publique/privée.
+
+   >[!NOTE]
+   >
+   >Le Panneau de configuration est disponible pour tous les clients hébergés sur AWS (à l’exception des clients qui hébergent leurs instances marketing sur site).
+
+1. Si votre installation d’Adobe Campaign est hébergée par Adobe, contactez le service à la clientèle de Adobe pour installer les utilitaires nécessaires sur le serveur.
+1. Si votre installation d’Adobe Campaign est sur site, installez l’utilitaire que vous souhaitez utiliser (par exemple : GPG, GZIP) ainsi que les clés nécessaires (clé de chiffrement) sur le serveur d’applications.
+
+Vous pouvez ensuite utiliser les commandes de prétraitement de votre choix dans vos workflows :
 
 1. Ajoutez et configurez une activité **[!UICONTROL Transfert de fichier]** dans le workflow.
 1. Ajoutez une activité **[!UICONTROL Chargement (fichier)]** et définissez le format de fichier.
 1. Cochez l&#39;option **[!UICONTROL Inclure un pré-traitement du fichier]**.
-1. Spécifiez la commande de prétraitement que vous souhaitez appliquer. Par exemple, pour déchiffrer un fichier à l&#39;aide de PGP :
-
-   ```
-   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
-   ```
-
+1. Spécifiez la commande de prétraitement à appliquer.
 1. Ajoutez d&#39;autres activités pour gérer les données provenant du fichier.
 1. Enregistrez et exécutez le workflow.
 
-Lors de l&#39;export d&#39;un fichier, vous pouvez également le compresser ou le chiffrer. Voir [Compresser ou chiffrer un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Un exemple est présenté dans le cas d’utilisation ci-dessous.
+
+**Rubriques connexes :**
+
+* [activité](../../workflow/using/data-loading--file-.md)de chargement de données (fichier).
+* [Compresser ou crypter un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+
+### Cas d’utilisation : Importation de données chiffrées à l’aide d’une clé générée par le Panneau de configuration {#use-case-gpg-decrypt}
+
+Dans ce cas d’utilisation, nous allons créer un flux de travail afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de configuration.
+
+Les étapes pour effectuer cette utilisation sont les suivantes :
+
+1. Utilisez le Panneau de configuration pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la documentation [du Panneau de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)configuration.
+
+   * La clé publique sera partagée avec le système externe. Ce dernier l’utilisera pour crypter les données à envoyer à Campaign.
+   * La clé privée sera utilisée par le Campaign Classic pour déchiffrer les données chiffrées entrantes.
+
+   ![](assets/gpg_generate.png)
+
+1. Dans le système externe, utilisez la clé publique téléchargée à partir du Panneau de configuration pour chiffrer les données à importer dans le Campaign Classic.
+
+   ![](assets/gpg_external.png)
+
+1. Dans le Campaign Classic, créez un processus pour importer les données chiffrées et les déchiffrer à l’aide de la clé privée qui a été installée via le Panneau de configuration. Pour ce faire, nous allons créer un processus comme suit :
+
+   ![](assets/gpg_workflow.png)
+
+   * **[!UICONTROL activité de transfert]** de fichier : Transfère le fichier d’une source externe au Campaign Classic. Dans cet exemple, nous voulons transférer le fichier d’un serveur SFTP.
+   * **[!UICONTROL activité de chargement de données (fichier)]** : Charge les données du fichier dans la base de données et les déchiffre à l’aide de la clé privée générée dans le Panneau de configuration.
+
+1. Ouvrez l’activité de transfert **[!UICONTROL de]** fichier, puis spécifiez le compte externe à partir duquel vous souhaitez importer le fichier .gpg chiffré.
+
+   ![](assets/gpg_transfer.png)
+
+   Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../workflow/using/file-transfer.md).
+
+1. Ouvrez l’activité de chargement de **[!UICONTROL données (fichier)]** , puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../workflow/using/data-loading--file-.md).
+
+   Ajoutez une étape de prétraitement à l’activité afin de déchiffrer les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Prétraiter le fichier]** , puis copiez-collez cette commande de déchiffrement dans le champ **[!UICONTROL Commande]** :
+
+   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+
+   ![](assets/gpg_load.png)
+
+   >[!CAUTION]
+   >
+   >Dans cet exemple, nous utilisons la phrase secrète utilisée par défaut par le Panneau de configuration, qui est &quot;phrase secrète&quot;.
+   >
+   >Si des clés GPG ont déjà été installées sur votre instance par le biais d’une demande du service d’assistance à la clientèle, la phrase secrète peut avoir été modifiée et être différente de celle par défaut.
+
+1. Click **[!UICONTROL OK]** to confirm the activity configuration.
+
+1. Vous pouvez désormais exécuter le processus. Une fois exécuté, vous pouvez vérifier dans les journaux de flux de travail que le déchiffrement a été exécuté et que les données du fichier ont été importées.
+
+   ![](assets/gpg_run.png)
 
 ## Bonnes pratiques relatives à l’import de données {#best-practices-when-importing-data}
 
-Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l&#39;export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
+Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
-### Utiliser les modèles d&#39;import   {#using-import-templates}
+### Utiliser les modèles d’import    {#using-import-templates}
 
 La plupart des workflows d&#39;import doivent contenir les activités suivantes : **[!UICONTROL Chargement (fichier)]**, **[!UICONTROL Enrichissement]**, **[!UICONTROL Partage]**, **[!UICONTROL Déduplication]**, **[!UICONTROL Mise à jour de données]**.
 
 L&#39;utilisation de modèles d&#39;import facilite la préparation d&#39;imports similaires et garantit la cohérence des données au sein de la base de données. Découvrez comment créer des modèles de workflows dans la section [Modèles de workflows](../../workflow/using/building-a-workflow.md#workflow-templates).
 
-Pour de nombreux projets, les imports sont construits sans activité de **[!UICONTROL Déduplication]** car les fichiers utilisés n&#39;ont pas de doublon. Des doublons apparaissent parfois suite à l&#39;import d&#39;autres fichiers. La déduplication est alors difficile. C&#39;est pourquoi l&#39;ajout d&#39;une étape de déduplication est une précaution utile pour tous les workflows d&#39;import.
+Pour de nombreux projets, les imports sont construits sans activité de **[!UICONTROL Déduplication]** car les fichiers utilisés n’ont pas de doublon. Des doublons apparaissent parfois suite à l’import d’autres fichiers. La déduplication est alors difficile. C’est pourquoi l’ajout d’une étape de déduplication est une précaution utile pour tous les workflows d’import.
 
-Ne partez pas de l&#39;hypothèse selon laquelle les données entrantes sont cohérentes et justes ou que le département informatique ou le responsable Adobe Campaign s&#39;en occupera. Gardez la normalisation des données à l&#39;esprit tout au long du projet. Veillez à dédupliquer, à réconcilier et à maintenir la cohérence des données lors des imports.
+Ne partez pas de l’hypothèse selon laquelle les données entrantes sont cohérentes et justes ou que le département informatique ou le responsable Adobe Campaign s’en occupera. Gardez la normalisation des données à l’esprit tout au long du projet. Veillez à dédupliquer, à réconcilier et à maintenir la cohérence des données lors des imports.
 
 Un exemple de modèle d’import est disponible dans la section [Configurer un import récurrent](#setting-up-a-recurring-import).
 
@@ -139,11 +202,11 @@ Les données doivent être importées à l&#39;aide de la gestion des données e
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
 * Si les données importées correspondent à une table de référence dans Adobe Campaign, elles doivent être réconciliées avec ce tableau dans le workflow. Les enregistrements sans correspondance doivent être rejetés.
-* Assurez-vous que les données importées soient toujours **« normalisées »** (email, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n&#39;est pas le cas, des doublons risquent d&#39;apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d&#39;outils de « correspondance approximative », leur suppression sera très difficile.
-* Les données transactionnelles doivent être dotées d&#39;une clé de réconciliation et être réconciliées avec les données existantes afin d&#39;éviter la création de doublons.
+* Assurez-vous que les données importées soient toujours **« normalisées »** (email, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n’est pas le cas, des doublons risquent d’apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d’outils de « correspondance approximative », leur suppression sera très difficile.
+* Les données transactionnelles doivent être dotées d’une clé de réconciliation et être réconciliées avec les données existantes afin d’éviter la création de doublons.
 * **Les fichiers liés doivent être importés dans l&#39;ordre**.
 
-   Si l&#39;import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l&#39;ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
+   Si l’import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l’ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
 
 * **Dédupliquez**, réconciliez et maintenez la cohérence lorsque vous importez des données.
 
@@ -161,6 +224,7 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
    * **[!UICONTROL Partage]** : créez des filtres pour traiter les enregistrements différemment selon qu&#39;ils aient pu ou non être réconciliés.
    * **[!UICONTROL Déduplication]** : dédupliquez les données du fichier entrant avant son import dans la base de données.
    * **[!UICONTROL Mise à jour de données]** : mettez la base de données à jour avec les profils importés.
+
    ![](assets/import_template_example0.png)
 
 1. Configurez l&#39;activité **[!UICONTROL Chargement (fichier)]** :
@@ -183,11 +247,12 @@ Par exemple :
 
    * Dans l&#39;onglet **[!UICONTROL Enrichissement]**, sélectionnez **[!UICONTROL Ajouter des données]** et définissez un lien entre les données importées et la dimension de ciblage des destinataires. Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** permet de créer la condition de jointure. Utilisez le champ ou la combinaison de champs nécessaire tant que l&#39;identification des enregistrements uniques reste possible.
    * Dans l&#39;onglet **[!UICONTROL Réconciliation]**, laissez l&#39;option **[!UICONTROL Identifier le document de ciblage à partir des données de travail]** décochée.
+
    ![](assets/import_template_example2.png)
 
 1. Configurez l&#39;activité de **[!UICONTROL Partage]** pour récupérer les destinataires réconciliés dans une transition, et les destinataires qui n&#39;ont pas pu être réconciliés mais qui disposent de suffisamment de données dans une autre transition.
 
-   La transition des destinataires réconciliés peut alors être utilisée pour mettre à jour la base de données. La transition des destinataires inconnus peut servir à créer de nouvelles entrées de destinataires dans la base de données si un ensemble d&#39;informations minimum est disponible dans le fichier.
+   La transition des destinataires réconciliés peut alors être utilisée pour mettre à jour la base de données. La transition des destinataires inconnus peut servir à créer de nouvelles entrées de destinataires dans la base de données si un ensemble d’informations minimum est disponible dans le fichier.
 
    Les destinataires ne pouvant pas être réconciliés et ne disposant pas de suffisamment de données sont sélectionnés dans une transition sortante complémentaire et peuvent être exportés dans un fichier séparé ou tout simplement ignorés.
 
@@ -223,6 +288,7 @@ Par exemple :
 
    * Dans cet exemple, le champ email est utilisé pour trouver les profils uniques. Vous pouvez utiliser n&#39;importe quel champ dont vous êtes sûr qu&#39;il est rempli et qu&#39;il fait partie d&#39;une combinaison unique.
    * Dans l&#39;écran **[!UICONTROL Méthode de déduplication]**, sélectionnez **[!UICONTROL Paramètres avancés]** et cochez l&#39;option **[!UICONTROL Désactiver le filtrage automatique des enregistrements d&#39;identifiant 0]** pour veiller à ce que les enregistrements dont la clé primaire est égale à 0 (normalement, tous les enregistrements de cette transition) sont exclus.
+
    ![](assets/import_template_example7.png)
 
 1. Configurez l&#39;activité **[!UICONTROL Mise à jour de données]** située après l&#39;activité **[!UICONTROL Déduplication]** paramétrée précédemment.
