@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3de6f7b21d912efa4f6faca5e57cb480e8f1805
+source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 96%
+source-wordcount: '1160'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 ## Utilisation {#use}
 
-L’activité de chargement de **[!UICONTROL données (Fichier)]** vous permet d’accéder directement à une source de données externes et de l’utiliser dans Adobe Campaign. En effet, toutes les données requises pour les opérations de ciblage ne se trouvent pas toujours dans la base de données Adobe Campaign : il peut être disponible dans des fichiers externes.
+L’activité de chargement de **[!UICONTROL données (Fichier)]** vous permet d’accéder directement à une source de données externes et de l’utiliser dans un Adobe Campaign. En effet, toutes les données requises pour les opérations de ciblage ne se trouvent pas toujours dans la base de données des Adobes Campaign : il peut être disponible dans des fichiers externes.
 
 Le fichier à charger peut être spécifié par la transition ou calculé lors de l&#39;exécution de cette activité. Il peut s&#39;agir par exemple de la liste des 10 produits favoris d&#39;un client dont les actes d&#39;achats sont gérés dans une base externe.
 
@@ -38,6 +38,10 @@ La section supérieure de la fenêtre de configuration de cette activité permet
 ![](assets/s_advuser_wf_etl_file.png)
 
 Vous pouvez définir un pré-traitement à exécuter lors de l’import du fichier, par exemple pour ne pas avoir à décompresser le fichier sur le serveur (et donc réserver de la place pour le fichier décompressé), mais que la décompression soit incluse dans le traitement du fichier. Sélectionnez l’option **[!UICONTROL Inclure un pré-traitement du fichier]** et choisissez l’une des 3 options : **[!UICONTROL Aucun]**, **[!UICONTROL Décompression]** (zcat) ou **[!UICONTROL Déchiffrer]** (gpg).
+
+![](assets/preprocessing-dataloading.png)
+
+Pour plus d&#39;informations à ce sujet, consultez cette section : [Décompressez ou décompressez un fichier avant de le traiter](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
 
 ## Définir le format du fichier {#defining-the-file-format}
 
@@ -114,6 +118,7 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 
    * la première colonne contient un code correspondant à l&#39;événement : achat (d&#39;un montant supérieur ou inférieur à 3000 euros), sans achat ou retour d&#39;un ou plusieurs articles.
    * les quatre colonnes suivantes contiennent le prénom, le nom, l&#39;email et le numéro de compte du client.
+
    Le paramétrage du format du fichier à charger correspond à celui défini lors d&#39;un import de données dans Adobe Campaign. Voir à ce sujet cette [section](../../platform/using/importing-data.md#step-2---source-file-selection).
 
 1. Dans l&#39;activité de partage, indiquez les sous-ensembles à créer, en fonction de la valeur de la colonne **Evénement**.
