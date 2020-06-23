@@ -12,9 +12,9 @@ discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e8a9d8d63c01cc19380267fced45e180b4d7ccb4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6f8eb6f4ffc3ffe9dbc643cf0edeef439c0f969
+workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Les instances d&#39;exécution reçoivent les événements, les associent aux mo
 
 ## Support de plusieurs instances de pilotage {#supporting-several-control-instances}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le partage d’un cluster d’exécution avec plusieurs instances de pilotage est uniquement pris en charge pour les environnements on-premise.
 
@@ -54,7 +54,7 @@ Il est possible de mutualiser un cluster d&#39;exécution entre différentes ins
 
 L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe recommande de travailler sur un environnement de test avant une mise en production. Il faut aussi posséder une licence Adobe Campaign compatible. Contactez votre chargé de compte Adobe pour plus d&#39;informations.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
 
@@ -90,7 +90,7 @@ To use transactional messaging with Interaction, you need to apply the following
 
 * Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Do not replicate the offers onto the execution instances.
 
@@ -179,6 +179,7 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * **[!UICONTROL Libellé]** et **[!UICONTROL Nom interne]** : attribuez un nom à votre compte externe.
    * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Base externe]** .
    * La case **[!UICONTROL Activé]** doit être cochée.
+
    Dans la catégorie **[!UICONTROL Connexion]** :
 
    * **[!UICONTROL Type]** : sélectionnez votre serveur de base de données, par exemple PostgresSQL.
@@ -201,6 +202,7 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * **[!UICONTROL Libellé]** et **[!UICONTROL Nom interne]** : attribuez un nom à votre compte externe.
    * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Base externe]** .
    * La case Activé doit être cochée.
+
    Dans la catégorie **[!UICONTROL Connexion]** :
 
    * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Relais HTTP vers base distante]** .
@@ -217,11 +219,13 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * **[!UICONTROL Libellé]** et **[!UICONTROL Nom interne]** : attribuez un nom à votre compte externe.
    * **[!UICONTROL Type]** : sélectionnez **[!UICONTROL Instance d&#39;exécution]** .
    * La case Activé doit être cochée.
+
    Dans la catégorie **[!UICONTROL Connexion]** :
 
    * **[!UICONTROL URL]** : saisissez l&#39;URL de l&#39;instance d&#39;exécution.
    * **[!UICONTROL Compte]** : saisissez le compte utilisé pour accéder à l&#39;instance d&#39;exécution.
    * **[!UICONTROL Mot de passe]** : saisissez le mot de passe du compte utilisé pour accéder à l&#39;instance d&#39;exécution.
+
    Dans la catégorie **[!UICONTROL Méthode de connexion au compte]** :
 
    * **[!UICONTROL Méthode]** : sélectionnez **[!UICONTROL Federated Data Access (FDA)]** .
