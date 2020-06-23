@@ -5,10 +5,10 @@ solution: Campaign Classic
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+source-git-commit: b247a3702249183e1e0851160fb3ac3809437ff1
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 90%
+source-wordcount: '275'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 90%
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## Nouveautés
+
+* Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. [En savoir plus](/help/rn/using/documentation-updates.md)
 
 * **[Obtenez les questions fréquentes sur l&#39;](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/> accès au support technique, les bonnes pratiques, les ressources d&#39;aide et demandez de l&#39;aide.
 
