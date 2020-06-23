@@ -14,8 +14,11 @@ discoiquuid: f6e4d22b-4ad3-4a1e-8a6f-3bdfc1da0535
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4d5d8474099776f770e88fcaf3bf15256da1be2
+translation-type: tm+mt
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +68,7 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 * La **[!UICONTROL Landing Page]** : si vous souhaitez que l’image par défaut soit redirigée vers une landing page par défaut. Cette adresse URL ne s’applique qu’aux cas où l’image par défaut est affichée dans l’email final et est facultative.
 * Les **[!UICONTROL Paramètres de décision additionnels]** : associez les champs définis dans les segments d’Adobe Target et les champs d’Adobe Campaign. Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans notre exemple, nous avons ajouté le champ Pays.
 
-Si vous utilisez les permissions d’Enterprise pour les paramètres d’Adobe Target, ajoutez la propriété correspondante dans ce champ. Pour en savoir plus sur les permissions de Target Enterprise, voir [cette page](https://marketing.adobe.com/resources/help/fr_FR/target/target/properties-overview.html).
+Si vous utilisez les permissions d’Enterprise pour les paramètres d’Adobe Target, ajoutez la propriété correspondante dans ce champ. Pour en savoir plus sur les permissions de Target Enterprise, voir [cette page](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html).
 
 ![](assets/target_13.png)
 
