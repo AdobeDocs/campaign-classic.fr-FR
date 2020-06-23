@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
+source-git-commit: a215109db2d511180c91723059cd8ca10a34a612
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 78%
 
 ---
 
@@ -35,7 +38,7 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
 
    L&#39;option **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]** ajoute une étape supplémentaire afin de filtrer sur le résultat final de l&#39;agrégat, par exemple sur tel type de commande, sur les clients ayant passé plus de 10 commandes, etc.
 
-1. Au besoin, vous pouvez ajouter de nouvelles colonnes dans le fichier de sortie, résultat de calculs ou de traitements sur les données par exemple. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Ajouter]**.
+1. If necessary, you can add new columns to the output file, such as computing or processing results for example. To do this, click the **[!UICONTROL Add]** icon.
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
@@ -50,6 +53,12 @@ Pour paramétrer l&#39;extraction des données, les étapes sont les suivantes :
    Sélectionnez la formule souhaitée parmi celles proposées.
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
+
+Vous pouvez définir un post-processus à exécuter pendant l’extraction des données, ce qui vous permet de compresser ou de chiffrer les fichiers. Pour ce faire, la commande souhaitée doit être ajoutée dans l’onglet **[!UICONTROL Script]** de l’activité.
+
+Pour plus d&#39;informations à ce sujet, consultez cette section : [Zip ou chiffrement d’un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+
+![](assets/postprocessing_dataextraction.png)
 
 ## Liste des fonctions d&#39;agrégats {#list-of-aggregate-functions}
 
