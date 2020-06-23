@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+source-git-commit: b080bdc4d719994c74ec5c094c917e2c40839a49
 workflow-type: tm+mt
-source-wordcount: '2537'
-ht-degree: 94%
+source-wordcount: '2681'
+ht-degree: 87%
 
 ---
 
@@ -92,7 +92,7 @@ Les rapports suivants fournissent des informations relatives aux adresses en qua
 
 * Le rapport **[!UICONTROL Echecs et retours]** affiche des informations relatives aux adresses en quarantaine, aux types d&#39;erreurs rencontrées, etc., et une répartition des échecs par domaines.
 
-Vous pouvez consulter ces informations pour l&#39;ensemble des diffusions de la plateforme (**Page d&#39;accueil > Rapports**) ou pour une diffusion particulière. Vous pouvez également créer des rapports personnalisés et sélectionner les informations à afficher.
+Vous pouvez consulter ces informations pour l&#39;ensemble des diffusions de la plateforme (**[!UICONTROL Page d&#39;accueil > Rapports]**) ou pour une diffusion particulière. Vous pouvez également créer des rapports personnalisés et sélectionner les informations à afficher.
 
 ### Identifier les adresses en quarantaine pour un destinataire {#identifying-quarantined-addresses-for-a-recipient}
 
@@ -102,16 +102,30 @@ Pour chaque destinataire, vous pouvez consulter l&#39;état de son adresse email
 
 ### Sortir une adresse de quarantaine {#removing-a-quarantined-address}
 
-Si vous avez besoin de sortir une adresse de quarantaine, modifiez manuellement son statut et choisissez **[!UICONTROL Valide]**.
+Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaines par le processus de nettoyage **[!UICONTROL de la]** base de données.
 
-![](assets/tech_quarant_error_status.png)
+Pour supprimer manuellement une adresse de la liste de quarantaine :
 
-If you change the status to **[!UICONTROL On allow list]**, the address will be targeted systematically each time even if an error is encountered.
+* Vous pouvez changer son état en **[!UICONTROL Valide]** depuis le noeud **[!UICONTROL Administration > Gestion de campagne > Non livrables Management > Non livrables et adresses]** .
 
->[!CAUTION]
-Les adresses de la liste bloquée ne sont pas concernées par le système de quarantaine et ne sont pas ciblées, même si vous modifiez l&#39;état de l&#39;adresse.
+   ![](assets/tech_quarant_error_status.png)
 
-Vous pouvez également modifier le nombre d&#39;erreurs prévues au compteur et la durée entre deux erreurs. Pour cela, modifiez les paramètres de l&#39;assistant de déploiement (Canal emails/Paramètres avancés). Reportez-vous à [cette section](../../installation/using/deploying-an-instance.md) pour la présentation de l&#39;assistant de déploiement.
+* Vous pouvez également modifier son état **[!UICONTROL En liste autorisée]**. Dans ce cas, l&#39;adresse reste sur la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
+
+<!--Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.-->
+
+Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
+
+* Les adresses dans un état **[!UICONTROL Avec erreurs]** seront supprimées de la liste de quarantaine après une diffusion réussie.
+* Les adresses d’un état **[!UICONTROL Avec erreurs]** seront supprimées de la liste de quarantaine si le dernier rebond modéré a eu lieu il y a plus de 10 jours. Pour plus d’informations sur la gestion des erreurs logicielles, voir [cette section](#soft-error-management).
+* Les adresses dont l&#39;état **[!UICONTROL Avec erreurs]** a rebondi avec l&#39;erreur complète **** de la boîte aux lettres sont supprimées de la liste de quarantaine après 30 jours.
+
+Leur état devient ensuite **[!UICONTROL Valide]**.
+
+>[!IMPORTANT]
+Les Destinataires dont l’adresse figure dans une **[!UICONTROL Quarantaine]** ou l’état **[!UICONTROL En liste bloquée]** ne seront jamais supprimés, même s’ils reçoivent un courrier électronique.
+
+Vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’assistant de déploiement (canal **[!UICONTROL de]** courriel > Paramètres **** avancés). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
 
 ## Conditions de mise en quarantaine d&#39;une adresse   {#conditions-for-sending-an-address-to-quarantine}
 
@@ -121,7 +135,7 @@ Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de
 * **Erreur de type Hard** : l&#39;adresse email correspondante est mise immédiatement en quarantaine.
 * **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. Pour plus d’informations, voir la section [Comprendre la gestion des erreurs de type Soft](#soft-error-management).
 
-Si un utilisateur qualifie un email comme du spam (**système de gestion des plaintes (feedback loop)**), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L&#39;adresse email de l&#39;utilisateur est alors automatiquement mise en quarantaine.
+Si un utilisateur qualifie un email comme du spam ([système de gestion des plaintes (feedback loop)](../../delivery/using/technical-recommendations.md#feedback-loop)), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L&#39;adresse email de l&#39;utilisateur est alors automatiquement mise en quarantaine.
 
 Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#39;erreur]** indique pourquoi l&#39;adresse sélectionnée a été mise en quarantaine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
 
