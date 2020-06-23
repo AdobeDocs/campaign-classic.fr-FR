@@ -14,9 +14,9 @@ discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 567cae1b91efbcd04a041630eeeb446450e002f7
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 
 Le système de gestion des identités d’Adobe permet aux administrateurs de créer et de gérer l’accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L’implémentation d’IMS est strictement réservée aux administrateurs techniques d’Adobe. Il s’agit d’un processus complexe, potentiellement fastidieux.
 
