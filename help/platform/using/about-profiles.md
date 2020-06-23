@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+source-git-commit: 972dce4b8429bb5b56fdf32b237384155bcc417a
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 90%
 
 ---
 
@@ -92,12 +95,12 @@ Un “**Profil**” désigne un enregistrement d&#39;informations (par exemple 
 
 La facturation ne concerne que les profils **actifs**. Un profil est considéré comme actif s&#39;il a été ciblé ou s&#39;il a reçu des communications au cours des 12 derniers mois via n&#39;importe quel canal.
 
+Les profils exclus lors de la préparation de la diffusion (règles de typologie, quarantaines) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions ne sera comptabilisé qu&#39;une seule fois.
+
 >[!NOTE]
 >
->Les canaux Facebook et Twitter ne sont pas prises en compte.
+>Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Vous pouvez obtenir un aperçu du **[!UICONTROL Nombre de profils actifs]** depuis le menu **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]**.
+You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. La comptabilisation est réalisée par le [workflow technique](../../workflow/using/deliveries.md) **[!UICONTROL Nombre de profils de facturation actifs]** (**[!UICONTROL billingActiveContactCount]**), qui s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le menu **[!UICONTROL Mesures des clients]**. Chaque période dure 12 mois.
 
-La comptabilisation est réalisée par le [workflow technique](../../workflow/using/delivery.md) **[!UICONTROL Nombre de profils de facturation actifs]** (**[!UICONTROL billingActiveContactCount]**), qui s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le menu **[!UICONTROL Mesures des clients]**. Chaque période dure 12 mois.
-
-Les profils exclus lors de la préparation de la diffusion (règles de typologie, quarantaines) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions ne sera comptabilisé qu&#39;une seule fois.
+Si vous êtes hébergé sur AWS et que vous utilisez Campaign Classic à partir de la version 8931, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du Panneau de configuration. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
