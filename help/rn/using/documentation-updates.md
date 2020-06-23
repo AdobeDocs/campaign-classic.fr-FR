@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b0980d540992538f7961afd7c218888dee4a39
+source-git-commit: 57263746675152b472aa5df4ce94f97b77a84a6b
 workflow-type: tm+mt
-source-wordcount: '6722'
+source-wordcount: '6740'
 ht-degree: 93%
 
 ---
@@ -28,6 +28,8 @@ Cette page liste toutes les nouvelles fonctionnalités et mises à jour de la do
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
 ## Juin 2020 {#june-2020}
+
+Des cas d’utilisation ont été ajoutés pour [chiffrer](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) et [déchiffrer](../../workflow/using/importing-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de configuration et des Workflows de campagne.
 
 Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. Certaines occurrences de ces termes peuvent toujours exister dans l’interface utilisateur du produit, les noms d’option et le code interne, mais seront remplacées dans les prochaines versions de Campaign par &quot;liste bloquée&quot; et &quot;liste autorisée&quot;.
 
