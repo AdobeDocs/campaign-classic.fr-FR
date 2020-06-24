@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3e8802aae0d10befcf9eef1ccf720f82c460038
+source-git-commit: b2cc71f8f9b7df80b1601a9fa55bfd77f9a82433
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 15%
+source-wordcount: '1765'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,8 @@ ht-degree: 15%
 </table>
 
 Le **dernier build stable** est le build 9032 (3a9dc9c). Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+![](assets/do-not-localize/cp-icon.png) **Nouveau Panneau de configuration Version** de juin avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
@@ -90,7 +92,7 @@ _8 juin 2020_
   <tr> 
    <td> <p>La loi thaïlandaise sur la protection des données personnelles (PDPA) est la nouvelle loi sur la protection des données personnelles qui harmonise et modernise les exigences de protection des données en Thaïlande. </p>
    <p>La loi brésilienne Lei Geral de Proteção de Dados (LGPD) entrera en vigueur le 16 août pour toutes les sociétés qui collectent ou traitent des données personnelles au Brésil.</p>
-   <p>Ces réglementations s’appliquent aux clients Adobe Campaign qui détiennent des données pour les objets de données résidant dans ces pays. En plus des fonctionnalités de confidentialité déjà disponibles à Campaign (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), nous saisissons cette opportunité pour inclure des fonctionnalités supplémentaires, afin de faciliter votre préparation à PDPA et LGPD :</p>
+   <p>Ces réglementations s'appliquent aux clients Adobes Campaign qui détiennent des données pour les objets de données résidant dans ces pays. En plus des fonctionnalités de confidentialité déjà disponibles à Campaign (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), nous saisissons cette opportunité pour inclure des fonctionnalités supplémentaires, afin de faciliter votre préparation à PDPA et LGPD :</p>
    <ul> 
      <li><p>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">En savoir plus</a></p></li> 
      <li> <p>Lors de la création d’une requête de confidentialité à l’aide de l’interface Campaign ou de l’API, vous sélectionnez maintenant le type de <strong>règlement</strong> : PDPA, LGPD, GDPR, CCPA. <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests">En savoir plus</a>.</p></li>
@@ -117,7 +119,7 @@ _8 juin 2020_
 Les systèmes suivants sont désormais pris en charge avec Campaign :
 * Systèmes d’exploitation : Debian 10
 * RDBMS : Oracle 18c et Oracle 19c
-* FDA : Azure Synapse Analytics
+* FDA : Analytics Azure Synapse
 
 En savoir plus sur la matrice [de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)Campaign.
 
@@ -147,11 +149,11 @@ En savoir plus sur la matrice [de compatibilité](https://helpx.adobe.com/fr/cam
 
 * Les connecteurs SMS hérités sont désormais obsolètes. Reportez-vous à la page [Fonctions](../../rn/using/deprecated-features.md)obsolètes.
 
-* Vous ne pouvez plus utiliser votre propre compte Litmus pour configurer et utiliser le rendu de boîte de réception en Adobe Campaign. [En savoir plus](../../delivery/using/inbox-rendering.md).
+* Vous ne pouvez plus utiliser votre propre compte Litmus pour configurer et utiliser le rendu de boîte de réception dans l’Adobe Campaign. [En savoir plus](../../delivery/using/inbox-rendering.md).
 
 * Pour mieux distinguer les vues des dossiers, la couleur des noms de vue est passée du bleu foncé au cyan foncé. [En savoir plus](../../platform/using/access-management.md#about-views)
 
-* Campaign Classic peut désormais être connecté à des comptes Microsoft Dynamics CRM hébergés dans les régions du Royaume-Uni, de l&#39;Inde et du Canada. Ceci s&#39;applique aux types de déploiement Office 365 et On premise (Dynamics 2015).
+* Le Campaign Classic peut désormais être connecté à des comptes Microsoft Dynamics CRM hébergés dans les régions du Royaume-Uni, de l&#39;Inde et du Canada. Ceci s&#39;applique aux types de déploiement Office 365 et On premise (Dynamics 2015).
 
 * Campaign effectue désormais une vérification TLS pour vérifier que le nom d’hôte du serveur correspond au nom d’hôte dans le certificat fourni.
 
@@ -240,7 +242,7 @@ Un exemple pour Linux est disponible sur cette [page](../../configuration/using/
 * Correction d’une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d’un problème qui pouvait se produire lors de la publication d’un modèle sur une instance d&#39;exécution.
 * Correction d’un problème qui pouvait empêcher l’exécution du flux technique de collectePrivacyRequests. (NEO-20513, NEO-25169)
-* Correction de problèmes qui pouvaient survenir lors de la tentative de connexion à Audience Manager après la mise à niveau vers la version 9080. (NEO-20511, NEO-25167)
+* Correction de problèmes qui pouvaient survenir lors de la tentative de connexion à l’Audience Manager après la mise à niveau vers la version 9080. (NEO-20511, NEO-25167)
 * Correction de problèmes qui pouvaient survenir lors de l’exportation de rapports au format PDF ou XLS. (NÉO-20982, NÉO-23493, NÉO-23348)
 * Correction d’un problème en raison duquel une diffusion pouvait s’afficher deux fois dans la liste de diffusion après son envoi.
 * Correction d’un problème de préparation de diffusion qui pouvait se produire lorsque la configuration de routage était définie pour envoyer la diffusion par midsourcing.
