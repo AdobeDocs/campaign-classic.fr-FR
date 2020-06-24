@@ -5,9 +5,9 @@ solution: Campaign Classic
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b247a3702249183e1e0851160fb3ac3809437ff1
+source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '266'
 ht-degree: 86%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 ## Nouveautés
 
-* Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. [En savoir plus](/help/rn/using/documentation-updates.md)
+* **[Émoticônes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d&#39;objet
 
 * **[Obtenez les questions fréquentes sur l&#39;](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/> accès au support technique, les bonnes pratiques, les ressources d&#39;aide et demandez de l&#39;aide.
 
@@ -50,11 +50,11 @@ Découvrez comment Adobe Campaign peut vous aider à assurer la conformité en 
     <p>
   </td>
    <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html">
+    <a href="https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html">
       <img alt="Upgrade de build" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html">
+      <a href="https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html">
     <strong>Upgrade à la version de build la plus récente</strong>
     </a>
     </div>
