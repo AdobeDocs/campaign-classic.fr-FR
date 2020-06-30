@@ -1,6 +1,6 @@
 ---
 title: Démarrer un workflow
-description: Découvrez comment début d'un processus et découvrir la barre d'outils des actions workflows et le menu contextuel.
+description: Découvrez comment démarrer un workflow ainsi que la barre d’outils des actions de workflows et le menu contextuel.
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
