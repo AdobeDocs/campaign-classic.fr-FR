@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3084'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Pour créer une diffusion associée à une opération, cliquez sur le lien **[!U
 
 ![](assets/campaign_op_add_delivery.png)
 
-Les configurations suggérées conviennent aux différents types de diffusion : publipostage, courriel, canaux mobiles.
+Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles.
 
 >[!NOTE]
 >
