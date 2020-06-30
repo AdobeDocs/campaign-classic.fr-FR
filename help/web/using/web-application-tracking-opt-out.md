@@ -14,11 +14,11 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Si un utilisateur final se désinscrit (opt-out) du tracking comportemental via 
 
 >[!NOTE]
 >
->Lorsque vous créez des scripts, suivez toujours les consignes décrites dans la liste de contrôle [](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)Sécurité et confidentialité.
+>Lorsque vous créez des scripts, suivez toujours les consignes décrites dans la [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#dev).
 
 ## Paramétrer la bannière {#configuring-the-banner-}
 
