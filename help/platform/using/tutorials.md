@@ -14,8 +14,11 @@ discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+translation-type: tm+mt
+source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Obtenez des informations supplémentaires sur Adobe Campaign en consultant les 
 * [Créer un formulaire d&#39;inscription avec double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in) : apprenez à envoyer une demande de confirmation d&#39;inscription pour créer un double opt-in de façon à vérifier que le destinataire s&#39;est inscrit de façon intentionnelle.
 * [Créer une diffusion e-mail](../../web/using/use-case--creating-an-email-delivery.md) : apprenez à créer une diffusion e-mail à l&#39;aide du Digital Content Editor.
 * [Créer des vues d&#39;ensemble](../../web/using/use-cases--creating-overviews.md) : créez des applications Web de type &quot;vue d&#39;ensemble&quot; afin d&#39;afficher toutes les applications Web dans votre base de données.
-* [Cas pratiques de workflows](../../workflow/using/using-the-local-approval-activity.md) : découvrez comment utiliser les workflows à travers ces cas pratiques.
+* [Cas pratiques de workflows](../../workflow/using/about-workflow-use-cases.md) : découvrez comment utiliser les workflows à travers ces cas pratiques.
 
 ## Vidéos pratiques {#how-to-videos}
 
