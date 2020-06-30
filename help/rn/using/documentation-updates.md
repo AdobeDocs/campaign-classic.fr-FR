@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57263746675152b472aa5df4ce94f97b77a84a6b
+source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
 workflow-type: tm+mt
-source-wordcount: '6740'
+source-wordcount: '6781'
 ht-degree: 99%
 
 ---
@@ -29,9 +29,13 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Juin 2020 {#june-2020}
 
+La section Suppression d&#39;une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+
 Des cas d’utilisation ont été ajoutés pour [chiffrer](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) et [déchiffrer](../../workflow/using/importing-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de configuration et des Workflows de campagne.
 
 Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
+
+La page Déclencheurs Experience Cloud et intégration d’Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 06/08/2020{#release-20-2}
 
@@ -89,7 +93,7 @@ Les bonnes pratiques relatives au modèle de données ont été améliorées ave
 
 La section décrivant le modèle de données intégré d’Adobe Campaign a été mise à jour en détaillant davantage chaque tableau. [En savoir plus](../../configuration/using/data-model-description.md)
 
-Les cas d’utilisation des workflows ont été actualisés et réorganisés en sections thématiques. [En savoir plus](../../workflow/using/using-the-local-approval-activity.md)
+Les cas d’utilisation des workflows ont été actualisés et réorganisés en sections thématiques. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
 
 Les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Règles de gestion des emails](../../delivery/using/understanding-delivery-failures.md#email-management-rules) ont été mises à jour pour les améliorer.
 
