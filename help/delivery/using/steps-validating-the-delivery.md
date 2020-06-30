@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 64%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Pour cela :
 
 1. **Analyser la diffusion** : cette étape permet de procéder à la préparation des messages à envoyer. Reportez-vous à la section [Analyser la diffusion](#analyzing-the-delivery).
 
-   Les règles appliquées pendant l’analyse sont présentées dans la section [Validation avec typologies](#validation-process-with-typologies) . The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
+   Les règles appliquées pendant l’analyse sont présentées dans la section [Processus de validation avec des typologies](#validation-process-with-typologies). Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
 
 1. **Envoyer des BAT** : cette étape permet de valider le contenu, les URL, les champs de personnalisation, etc. Reportez-vous aux sections [Envoyer un bon à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
@@ -46,7 +46,7 @@ L’analyse est l’étape servant au calcul de la population cible et à la pr�
 ### Lancement de l’analyse {#launching-the-analysis}
 
 1. Pour lancer l’analyse de diffusion, cliquez sur **[!UICONTROL Envoyer]**.
-1. Sélectionnez **[!UICONTROL Livrer dès que possible]**.
+1. Sélectionnez **[!UICONTROL Diffuser dès que possible]**.
 
    ![](assets/s_ncs_user_email_del_send.png)
 
@@ -58,21 +58,21 @@ L’analyse est l’étape servant au calcul de la population cible et à la pr�
 
    >[!NOTE]
    >
-   >Les règles de validation utilisées pendant l’analyse sont décrites dans la section Processus de [validation avec typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) .
+   >Les règles de validation appliquées pendant l’analyse sont décrites dans la section [Processus de validation avec des typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
-1. You can stop the analysis at any time by clicking **[!UICONTROL Stop]**.
+1. Vous pouvez arrêter à tout moment l’analyse par le biais du bouton **[!UICONTROL Arrêter]**.
 
    ![](assets/s_ncs_user_wizard_email01_16.png)
 
-   Aucun message n&#39;est envoyé pendant la phase de préparation. Vous pouvez donc début ou annuler l&#39;analyse sans risque.
+   Aucun message n’est envoyé pendant la phase de préparation. Vous pouvez donc démarrer ou annuler l’analyse sans risque.
 
    >[!IMPORTANT]
    >
-   >Lors de l’exécution, l’analyse gèle la diffusion (ou le BAT). Toute modification apportée à la diffusion (ou au BAT) doit être suivie d&#39;une autre analyse avant de devenir applicable.
+   >Lors de l’exécution, l’analyse gèle la diffusion (ou le BAT). Toute modification apportée à la diffusion (ou au BAT) doit être suivie d’une autre analyse pour devenir applicable.
 
-1. Attendez que l&#39;analyse soit terminée.
+1. Attendez que l’analyse soit terminée.
 
-   Une fois l&#39;analyse terminée, la section supérieure de la fenêtre indique si la préparation de la diffusion est terminée ou si des erreurs se sont produites. Toutes les étapes de validation, les avertissements et les erreurs sont répertoriés. Les icônes colorées indiquent le type de message :
+   Une fois l’analyse terminée, la section supérieure de la fenêtre indique si la préparation de la diffusion est terminée ou si des erreurs se sont produites. Toutes les étapes de validation, les avertissements et les erreurs sont répertoriés. Les icônes colorées indiquent le type de message :
    * L’icône bleue indique un message informatif.
    * L’icône jaune indique une erreur de traitement non critique.
    * L’icône rouge indique une erreur critique qui empêche l’envoi de la diffusion.
@@ -81,9 +81,9 @@ L’analyse est l’étape servant au calcul de la population cible et à la pr�
 
 1. Cliquez sur **[!UICONTROL Fermer]** pour corriger les erreurs, le cas échéant.
 
-1. Après avoir apporté les modifications, redémarrez l’analyse en cliquant sur **[!UICONTROL Analyser]**.
+1. Après avoir effectué les modifications, redémarrez l’analyse en cliquant sur **[!UICONTROL Analyser]**.
 
-Après avoir vérifié le résultat de l&#39;analyse, vous pourrez cliquer sur **[!UICONTROL Confirmer la diffusion]** pour envoyer le message à la cible spécifiée. Un message de confirmation vous permet de lancer la diffusion.
+Une fois le résultat de l’analyse vérifié, vous pourrez cliquer sur **[!UICONTROL Confirmer l’envoi]** pour envoyer le message à la cible spécifiée. Un message de confirmation permet de lancer la diffusion.
 
 ![](assets/s_ncs_user_email_del_analyze_ok.png)
 
@@ -91,32 +91,33 @@ Après avoir vérifié le résultat de l&#39;analyse, vous pourrez cliquer sur *
 >
 >Cliquez sur le lien **[!UICONTROL Modifier la cible principale de la diffusion]** si le nombre de messages à envoyer ne correspond pas à votre paramétrage. Vous pourrez alors modifier la définition de la population ciblée et relancer l&#39;analyse.
 
-### Paramètres d’Analyse {#analysis-parameters}
+### Paramètres d’analyse {#analysis-parameters}
 
-The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a set of information concerning the preparation of messages during the analysis phase.
+L’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion permet de définir un ensemble d’informations relatives à la préparation des messages lors de la phase d’analyse.
 
 ![](assets/s_ncs_user_email_del_analyze_adv_param.png)
 
-Cet onglet permet d&#39;accéder aux options suivantes :
+Cet onglet permet d&#39;accéder aux options suivantes :
 
-* **[!UICONTROL Étiquette et code de la diffusion]** : les options de cette section sont utilisées pour calculer les valeurs de ces champs pendant la phase d&#39;analyse de diffusion. Le **[!UICONTROL champ Calculer le dossier d&#39;exécution pendant le champ analyse]** de diffusion calcule le nom du dossier qui contiendra cette action de diffusion pendant la phase d&#39;analyse.
-* **[!UICONTROL Mode]** d&#39;approbation : ce champ vous permet de définir une diffusion manuelle ou automatique une fois l’analyse terminée. Les modes de validation sont présentés dans la section [Modification du mode](#changing-the-approval-mode) d’approbation.
-* **[!UICONTROL Préparez les parties de diffusion dans la base de données]** : cette option vous permet d&#39;améliorer les performances de l&#39;analyse des diffusions. Voir à ce propos [cette section](#improving-delivery-analysis).
-* **[!UICONTROL Préparez les données de personnalisation à l’aide d’un processus]** : cette option permet de préparer les données de personnalisation contenues dans votre diffusion dans un flux de travail automatique, ce qui peut vous permettre d’augmenter considérablement les performances d’exécution de la personnalisation. For more on this, see [Optimizing personalization](../../delivery/using/personalization-fields.md#optimizing-personalization).
-* **[!UICONTROL Tâche de Début dans un processus détaché]** : cette option vous permet de début de l’analyse de diffusion dans un processus distinct. Par défaut, la fonction analyse utilise le processus Adobe Campaign Application Server (web nlserver). En sélectionnant cette option, vous vous assurez que l’analyse sera terminée même en cas de défaillance du serveur d’applications.
+* **[!UICONTROL Libellé et code diffusion]** : les options de cette section sont utilisées pour calculer les valeurs de ces champs pendant la phase d’analyse de diffusion. Le champ **[!UICONTROL Calculer le dossier d’exécution lors de l’analyse de la diffusion]** calcule le nom du dossier qui contiendra cette action de diffusion pendant la phase d’analyse.
+* **[!UICONTROL Mode de validation]** : ce champ permet de définir une diffusion manuelle ou automatique, une fois l’analyse terminée. Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
+* **[!UICONTROL Préparer les fragments de diffusion dans la base de données]** : cette option vous permet d’améliorer les performances de l’analyse des diffusions. Voir à ce propos [cette section](#improving-delivery-analysis).
+* **[!UICONTROL Préparer les données de personnalisation avec un workflow]** : cette
+option permet de préparer, dans un workflow automatique, les données de personnalisation contenues dans la diffusion, ce qui permet d’augmenter considérablement les performances d’exécution de la personnalisation. Pour plus d’informations à ce sujet, voir la section [Optimiser la personnalisation](../../delivery/using/personalization-fields.md#optimizing-personalization).
+* **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l’analyse de la diffusion dans un processus à part. Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d’Adobe Campaign (nlserver web). En cochant cette option, vous êtes assuré que l’analyse sera menée à son terme, même en cas de défaillance du serveur applicatif.
 * **[!UICONTROL Enregistrer les requêtes de ciblage et de personnalisation dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d&#39;analyse.
 * **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans les contenus HTML. Elles seront affichées telles quelles dans les contenus envoyés. Ces directives sont introduites par la balise **&lt;%=**.
 
-### Amélioration des performances des analyses diffusions {#improving-delivery-analysis}
+### Amélioration des performances des analyses de diffusions {#improving-delivery-analysis}
 
-Pour accélérer la préparation de la diffusion, vous pouvez vérifier l&#39;option **[!UICONTROL Préparer les parties de la diffusion dans la base de données]** avant de lancer l&#39;analyse.
+Pour accélérer la préparation de la diffusion, vous pouvez cocher l’option **[!UICONTROL Préparer les fragments de diffusion dans la base de données]** avant de lancer l’analyse.
 
 Lorsque cette option est activée, la préparation de la diffusion est effectuée directement dans la base de données, ce qui peut accélérer considérablement l’analyse.
 
-Actuellement, cette option n’est disponible que si les conditions suivantes sont remplies :
-* La diffusion doit être un courriel. Les autres canaux ne sont pas pris en charge pour l&#39;instant.
-* Vous ne devez pas utiliser de routage de midsourcing ou externe, mais uniquement le type de routage de diffusion en masse. Vous pouvez vérifier le routage utilisé dans l’onglet **[!UICONTROL Général]** des propriétés **[!UICONTROL de la]** Diffusion.
-* Vous ne pouvez pas cible une population provenant d&#39;un fichier externe. Pour une diffusion unique, cliquez sur le lien **[!UICONTROL À]** à partir des paramètres **[!UICONTROL de]** courriel et vérifiez que l’option **[!UICONTROL Défini dans la base de données]** est sélectionnée. Pour une diffusion utilisée dans un processus, vérifiez que les destinataires sont **[!UICONTROL spécifiés par le ou les événements entrants]** dans l&#39;onglet **[!UICONTROL Diffusion]** .
+Actuellement, cette option n’est disponible que si les conditions suivantes sont remplies :
+* La diffusion doit être un email. Les autres canaux ne sont pas pris en charge pour l’instant.
+* Vous ne devez pas utiliser de routage de mid-sourcing ou externe. Seul le type de routage de diffusion en masse est possible. Vous pouvez vérifier le routage utilisé dans l’onglet **[!UICONTROL Général]** des **[!UICONTROL Propriétés de la diffusion]**.
+* Vous ne pouvez pas cibler une population provenant d’un fichier externe. Pour une diffusion unique, cliquez sur le lien **[!UICONTROL À]** dans les **[!UICONTROL Paramètres de l’e-mail]** et vérifiez que l’option **[!UICONTROL Définie depuis la base de données]** est sélectionnée. Pour une diffusion utilisée dans un workflow, vérifiez que les destinataires sont **[!UICONTROL Spécifiés par le ou les événements entrants]** dans l’onglet **[!UICONTROL Diffusion]**.
 * Vous devez utiliser une base de données PostgreSQL.
 
 ### Configuration de la priorité d’analyse {#analysis-priority-}
@@ -205,7 +206,7 @@ Vous pouvez visualiser et éditer les règles de validation, leur contenu, leur 
 
 Vous pouvez créer de nouvelles règles et définir de nouvelles typologies depuis ce noeud. Ces opérations sont toutefois réservées à des utilisateurs experts, maîtrisant le langage JavaScript.
 
-For more on typology rules, see [About campaign typologies](../../campaign/using/about-campaign-typologies.md).
+À ce propos, voir la section [À propos des typologies de campagne](../../campaign/using/about-campaign-typologies.md).
 
 Vous pouvez également éditer la typologie courante en cliquant sur l&#39;icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
 
