@@ -42,6 +42,7 @@ Vous pouvez également utiliser les outils suivants :
 * Chaque diffusion génère un rapport de statistiques de diffusion pour les différents fournisseurs d’accès à internet (FAI). Il présente certaines mesures de réputation et de qualité des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
    * **[!UICONTROL Erreurs hard]**, qui indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
    * **[!UICONTROL Erreurs soft]** qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
+
    Voir à ce propos la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
 * Plus généralement, le [tableau de bord des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) donne accès aux éléments suivants :
    * [Synthèse des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-summary), qui indique le détail de l’envoi et le [nombre de messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) à envoyer, traités et envoyés avec succès.
