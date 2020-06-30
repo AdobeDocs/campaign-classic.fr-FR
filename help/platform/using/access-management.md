@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3068'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -258,6 +258,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    * INSERTION DES DOSSIERS : droit pour insérer des dossiers dans l&#39;arborescence d&#39;Adobe Campaign (sous réserve d&#39;un accès en écriture sur les branches concernées),
    * WORKFLOW : droit pour utiliser les workflows.
+
    >[!NOTE]
    >
    >Ce groupe ne permet pas aux opérateurs de démarrer les diffusions.
@@ -396,7 +397,7 @@ Dans l&#39;onglet **[!UICONTROL Sécurité]**, si l&#39;option **[!UICONTROL Dos
 
 ## Les dossiers et les vues {#folders-and-views}
 
-### A propos des dossiers {#about-folders}
+### À propos des dossiers {#about-folders}
 
 Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l&#39;arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Vous pouvez ensuite sélectionner le type de dossier à créer. Par défaut, le premier menu propose d&#39;ajouter le dossier correspondant au contexte courant.
 
@@ -404,7 +405,7 @@ Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds 
 
 Vous pouvez accorder des permissions sur ces dossiers comme sur tous les autres dossiers de l&#39;arborescence. Voir la section [Gestion de l&#39;accès aux dossiers](#folder-access-management).
 
-### A propos des vues {#about-views}
+### À propos des vues {#about-views}
 
 En outre, vous pouvez créer des vues afin de restreindre l&#39;accès aux données et d&#39;organiser le contenu de l&#39;arborescence pour l&#39;adapter à vos besoins. Vous pourrez ensuite attribuer des droits sur les vues.
 
@@ -418,7 +419,7 @@ Lorsque vous transformez un dossier en vue, l&#39;ensemble des données correspo
 >
 >Pour donner accès à une vue sans donner accès à son dossier d&#39;origine, il suffit de ne pas donner de droit en lecture sur le noeud parent du dossier source.
 
-Pour distinguer les vues des dossiers, le nom de chaque vue s’affiche dans une couleur différente (cyan foncé).
+Pour distinguer les vues et les dossiers, le nom de chaque vue s’affiche dans une couleur différente (cyan foncé).
 
 ![](assets/s_ncs_user_view_name_color.png)
 
