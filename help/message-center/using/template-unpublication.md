@@ -14,27 +14,27 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 71aeeda3edafc64dbe696ce6f344b8b0ccdc43d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 
-# Annulation de la publication du modèle{#template-unpublication}
+# Annulation de la publication des modèles{#template-unpublication}
 
-Une fois qu’un modèle de message est publié sur les instances d&#39;exécution, il peut être annulé.
+Lorsqu’un modèle de message a été publié sur les instances d’exécution, il est possible d’en annuler la publication.
 
-En effet, un modèle publié peut encore être appelé. Par conséquent, si vous n’utilisez plus de modèle de message, il est recommandé de l’annuler. Ceci est pour éviter d&#39;envoyer un message transactionnel indésirable par erreur. Par exemple, vous avez publié un modèle de message que vous utilisez uniquement pour les campagnes de Noël. Vous pouvez annuler sa publication une fois la période de Noël terminée et la publier de nouveau l’année prochaine.
+En effet, il est encore possible d’appeler un modèle publié. Dans ce cas, si vous n’utilisez plus de modèle de message, il est recommandé d’annuler sa publication. Vous éviterez ainsi d’envoyer par erreur un message transactionnel indésirable. Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez annuler sa publication une fois la période de Noël terminée et le publier de nouveau l’année suivante.
 
-En outre, vous ne pouvez pas supprimer un modèle de message transactionnel dont l’état est **[!UICONTROL Publié]** . Vous devez d’abord annuler sa publication.
+En outre, vous ne pouvez pas supprimer un modèle de message transactionnel dont le statut est **[!UICONTROL Publié]**. Vous devez d’abord annuler sa publication.
 
 Pour annuler la publication d’un modèle de message transactionnel, procédez comme décrit ci-dessous.
 
-1. Dans l&#39;instance de pilotage, positionnez-vous au niveau du dossier **[!UICONTROL Message Center > Modèle de messages transactionnels]** dans l&#39;arborescence.
-1. Sélectionnez le modèle que vous souhaitez annuler la publication.
+1. Dans l’instance de pilotage, positionnez-vous au niveau du dossier **[!UICONTROL Message Center > Modèle de messages transactionnels]** dans l’arborescence.
+1. Sélectionnez le modèle dont vous souhaitez annuler la publication.
 1. Cliquez sur **[!UICONTROL Annuler la publication]**.
 
    <!--1. Fill in the **[!UICONTROL Log of the process]** field.-->
@@ -43,10 +43,10 @@ Pour annuler la publication d’un modèle de message transactionnel, procédez 
 
 ![](assets/message-center-unpublish.png)
 
-L’état du modèle de message transactionnel passe de **[!UICONTROL Publié]** à **[!UICONTROL Eté modifié]**.
+Le statut du modèle de message transactionnel passe de **[!UICONTROL Publié]** à **[!UICONTROL En édition]**.
 
-Une fois la publication annulée :
+Une fois la publication annulée :
 
-* Les deux modèles de message (appliqués aux événements de type par lot et en temps réel) sont supprimés de chaque instance d&#39;exécution. Ils n’apparaissent plus dans le dossier **[!UICONTROL Administration > Production > Message Center Execution > Default > Modèles de message transactionnel]** .
+* Les deux modèles de message (appliqués aux types d’événements par lot et temps réel) sont supprimés de chaque instance d’exécution. Ils n’apparaissent plus dans le dossier **[!UICONTROL Administration > Production > Message Center (Exécution) > Défaut > Modèles de messages transactionnels]**.
 
-* Une fois qu’un modèle n’est plus publié, vous pouvez le supprimer de l’instance de pilotage, si nécessaire. Pour ce faire, sélectionnez-la dans la liste et cliquez sur le bouton **[!UICONTROL Supprimer]** en haut à droite de l’écran.
+* Une fois la publication d’un modèle annulée, vous pouvez le supprimer de l’instance de pilotage, si nécessaire. Pour ce faire, sélectionnez-le dans la liste et cliquez sur le bouton **[!UICONTROL Supprimer]** en haut à droite de l’écran.
