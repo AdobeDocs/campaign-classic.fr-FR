@@ -14,11 +14,11 @@ discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3bf835b3f686d1293fda7e6254660c477ba26452
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3273'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 
 1. un compte externe spécifiant un connecteur et un type de message,
 
-   Notez que les connecteurs suivants seront abandonnés à compter de la version 20.2 : NetSize, Generic SMPP (SMPP version 3.4 prenant en charge le mode binaire), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et iOS. Des capacités obsolètes sont toujours disponibles, mais elles ne seront pas encore améliorées et ne seront pas prises en charge. Pour plus d’informations à ce propos, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
+   Notez que les connecteurs suivants seront abandonnés à compter de la version 20.2 : NetSize, SMPP générique (SMPP version 3.4 avec prise en charge du mode binaire), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et iOS. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. Pour plus d’informations à ce propos, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
 
 1. un modèle de diffusion dans lequel est référencé ce compte externe.
 
 ### Création d&#39;un compte externe SMPP {#creating-an-smpp-external-account}
 
-Pour envoyer un SMS à un téléphone portable, vous devez d&#39;abord créer votre compte externe SMPP.
+Pour envoyer un SMS à un téléphone mobile, vous devez d’abord créer votre compte externe SMPP.
 Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 Pour ce faire, procédez comme suit :
@@ -64,7 +64,7 @@ Pour ce faire, procédez comme suit :
 
    >[!CAUTION]
    >
-   > A compter de la version 20.2, les connecteurs hérités seront abandonnés et non pris en charge. Nous vous recommandons d&#39;utiliser le connecteur SMPP **[!UICONTROL générique]** étendu. Pour plus d&#39;informations sur la migration vers le connecteur recommandé, consultez cette [page](https://helpx.adobe.com/campaign/kb/sms-connector.html).
+   > À compter de la version 20.2, les anciens connecteurs hérités seront abandonnés et ne seront plus pris en charge. Nous vous recommandons d’utiliser le connecteur **[!UICONTROL SMPP générique étendu]**. Pour plus d’informations sur la migration vers le connecteur recommandé, voir cette [page](https://helpx.adobe.com/fr/campaign/kb/sms-connector.html).
 
 1. L&#39;option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** vous permet de sauvegarder tout le trafic SMPP dans les fichiers journaux. Cette option doit être activée pour résoudre les problèmes liés au connecteur et pour effectuer une comparaison avec le trafic observé par le fournisseur.
 
@@ -373,19 +373,19 @@ Pour diffuser par le canal SMS, vous devez créer un modèle dans lequel le conn
 
 Afin de conserver le modèle de diffusion natif, nous vous conseillons de le dupliquer puis de le paramétrer.
 
-Dans l&#39;exemple ci-dessous, nous créons un modèle pour diffuser des messages via le compte SMPP activé précédemment. Pour cela :
+Dans l’exemple ci-dessous, nous créons un modèle pour diffuser des messages par l’intermédiaire du compte SMPP activé précédemment. Pour cela :
 
 1. Positionnez-vous au niveau du nœud **[!UICONTROL Modèles de diffusion]**.
 1. Cliquez avec le bouton droit sur le modèle **[!UICONTROL Diffuser vers mobiles]** et sélectionnez **[!UICONTROL Dupliquer]**.
 
    ![](assets/s_user_mobile_template_change_01.png)
 
-1. Modifiez l’étiquette du modèle, par exemple **Envoyé aux mobiles (SMPP)**.
+1. Modifiez le libellé du modèle, par exemple **Envoyé vers mobiles (SMPP)**.
 
    ![](assets/s_user_mobile_template_change_02.png)
 
 1. Cliquez sur **[!UICONTROL Propriétés]**.
-1. Dans l’onglet **[!UICONTROL Général]** , sélectionnez un mode de routage correspondant au compte externe que vous avez créé lors des étapes précédentes.
+1. Dans l’onglet **[!UICONTROL Général]**, sélectionnez un mode de routage correspondant au compte externe créé lors des étapes précédentes.
 
    ![](assets/s_user_mobile_template_change_03.png)
 
@@ -406,7 +406,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 >Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
-1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. Voir à ce propos la section [Modifier le modèle de diffusion](#changing-the-delivery-template). 
+1. Sélectionnez le modèle de diffusion **Envoyé vers mobiles (SMPP)** que vous avez créé précédemment. Voir à ce propos la section [Modifier le modèle de diffusion](#changing-the-delivery-template). 
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -468,7 +468,7 @@ Le bouton **[!UICONTROL Propriétés]** permet d&#39;accéder aux paramètres av
 
 Les options disponibles sont les suivantes :
 
-* **Adresse** de l&#39;expéditeur : permet de personnaliser le nom de l’expéditeur de la diffusion en utilisant une chaîne de caractères alphanumériques limités à onze caractères. Le champ ne doit pas être exclusivement composé de chiffres. Vous pouvez définir une condition pour afficher, par exemple, différents noms selon l’indicatif régional du destinataire :
+* **Adresse expéditeur** : permet de personnaliser le nom de l’expéditeur de la diffusion en utilisant une chaîne de caractères alphanumériques limités à onze caractères. Le champ ne doit pas être exclusivement composé de chiffres. Vous pouvez définir une condition pour afficher, par exemple, différents noms selon l’indicatif régional du destinataire :
 
    ```
    <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
