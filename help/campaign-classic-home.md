@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 86%
+ht-degree: 95%
 
 ---
 
@@ -21,14 +21,16 @@ ht-degree: 86%
 
 * **[Émoticônes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d&#39;objet
 
-* **[Obtenez les questions fréquentes sur l&#39;](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/> accès au support technique, les bonnes pratiques, les ressources d&#39;aide et demandez de l&#39;aide.
+* **[Accès à l’assistance technique](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/>
+FAQ, bonnes pratiques, ressources d’aide, demandes d’assistance.
 
 * **[Conformité en matière de confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
 Découvrez comment Adobe Campaign peut vous aider à assurer la conformité en matière de confidentialité.
 
-* **[Fonctionnalités](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html)**<br/> de suivi Comprendre les fonctionnalités et les processus de suivi dans Campaign
+* **[Fonctionnalités de tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html)**<br/>
+Découvrez les fonctionnalités et les processus de tracking dans Campaign.
 
-* **[Contenu interactif avec AMP](delivery/using/defining-interactive-content.md)**<br/>Découvrez comment envoyer des emails dynamiques avec le nouveau format AMP .
+* **[Contenu interactif avec AMP](delivery/using/defining-interactive-content.md)**<br/>Découvrez comment envoyer des emails dynamiques avec le nouveau format AMP.
 
 [Cliquez ici pour plus de mises à jour](/help/rn/using/documentation-updates.md)
 
@@ -87,5 +89,5 @@ Découvrez comment Adobe Campaign peut vous aider à assurer la conformité en 
 | [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) | [JSAPI Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Prise en main de Campaign ](platform/using/about-adobe-campaign-classic.md) | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/acc-implementation.html) |
 | [Upgrade vers la version Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
-| [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html) | [Liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) |
+| [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html) | [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) |
 | [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [Bonnes pratiques en matière de monitoring](https://helpx.adobe.com/fr/campaign/kb/acc-maintenance.html) |
