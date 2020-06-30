@@ -14,20 +14,20 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1667dd0c8a38db0e554c59062cbcc5b6c6d992bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '709'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # A propos des applications web{#about-web-applications}
 
-Adobe Campaign vous permet de créer et de publier des Applications web dynamiques et interactives avec des données issues de la base de données et du contenu adapté aux droits de l’utilisateur connecté.
+Adobe Campaign permet la création d’applications web dynamiques et interactives, composées de données issues de la base et dont le contenu est adapté en fonction des droits de l’utilisateur connecté.
 
-Vous pouvez créer des pages, par exemple un formulaire de modification sur un extranet, ou des formulaires de notification incluant des données de la base de données avec des tables, des graphiques, des formulaires d’entrée, etc. Cette fonctionnalité vous permet de concevoir et de publier des pages Web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
+Vous pouvez créer des pages, par exemple un formulaire d’édition sur un extranet, ou des formulaires de notification incluant des données issues de la base de données avec des tables, des graphiques, des formulaires de saisie, etc. Cette fonctionnalité permet de concevoir et de publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
 
 Il peut par exemple s&#39;agir d&#39;un formulaire d&#39;inscription dont les données ont été pré-remplies avec les informations contenues dans la base Adobe Campaign, comme dans l&#39;exemple ci-dessous :
 
@@ -37,7 +37,7 @@ Ce chapitre présente la gestion des applications web.
 
 >[!NOTE]
 >
->Consultez la liste de contrôle [](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) Sécurité et confidentialité pour savoir comment optimiser la sécurité pour les applications Web.
+>Consultez la [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) pour savoir comment optimiser la sécurité pour les applications web.
 
 >[!CAUTION]
 >
