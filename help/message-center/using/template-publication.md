@@ -14,18 +14,18 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1486e897a125520c51661db3030c62ab380fb173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 
 # Publication des modèles{#template-publication}
 
-Une fois le modèle de message créé sur l’instance de pilotage terminé, vous pouvez le publier sur toutes les instances d&#39;exécution. La publication vous permet de créer automatiquement deux modèles de messages sur l’instance d&#39;exécution, ce qui vous permet d’envoyer des messages liés à des messages en temps réel et à des événements batch.
+Une fois le modèle de message créé sur l’instance de pilotage, vous pouvez le publier sur toutes les instances d’exécution. La publication vous permet de créer automatiquement deux modèles de messages sur l’instance d’exécution. Vous pouvez ainsi envoyer des messages liés à des événements temps réel et par lots.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Une fois le modèle de message créé sur l’instance de pilotage terminé, vou
 
    ![](assets/messagecenter_publish_model_008.png)
 
-Once publication is complete, both message templates to be applied to batch and real-time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** folder.
+Lorsque la publication est terminée, les deux modèles de messages destinés à être appliqués aux types d’événements temps réel et par lots sont créés dans l’arborescence de l’instance d’exploitation dans le dossier **[!UICONTROL Administration > Production > Message Center (Exécution) > Défaut > Modèles de messages transactionnels]**.
 
 ![](assets/messagecenter_deployed_model_001.png)
 
