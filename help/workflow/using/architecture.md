@@ -1,6 +1,6 @@
 ---
 title: Architecture
-description: Les Workflows sont gérés par un module spécifique, qui peut être démarré sur plusieurs serveurs afin de partager la charge de traitement.
+description: Les workflows sont pris en charge par un module spécifique. Ce module peut être démarré sur plusieurs serveurs afin de répartir la charge d’exécution.
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
