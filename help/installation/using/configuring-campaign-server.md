@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
 source-wordcount: '3641'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -487,6 +487,7 @@ Par défaut, tous les en-têtes HTTP ne sont pas relayés. Vous pouvez ajouter d
 
    * **name** : nom de l&#39;en-tête
    * **value** : valeur de l&#39;en-tête.
+
    Par exemple :
 
    ```
@@ -614,7 +615,7 @@ Si vous devez connecter le serveur Campaign à l&#39;extérieur par le biais d&#
 
 >[!NOTE]
 >
->A partir de la version 20.2, les paramètres de protocole HTTP et HTTPS ne sont plus disponibles. Les informations suivantes continuent à mentionner ces paramètres car ils restent disponibles pour les versions précédentes, y compris 9032.
+>À compter de la version 20.2, les paramètres de protocole HTTP et HTTPS ne sont plus disponibles. Les informations ci-après continuent de mentionner ces paramètres car ils restent disponibles pour les builds précédents, y compris 9032.
 >
 >Les proxys SOCKS ne sont pas pris en charge.
 
