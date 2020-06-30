@@ -14,9 +14,9 @@ discoiquuid: 24d4875b-81fa-4bf3-8cf0-e6998bec4949
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Le nombre de dossiers sur chaque instance doit être inférieur à 1 000. Un no
 
 Cette méthode permet également de mettre en lumière les utilisateurs qui créent trop d&#39;objets.
 
-## Deliveries {#deliveries}
+## Diffusions {#deliveries}
 
 Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des besoins de l&#39;entreprise. Envisagez d&#39;utiliser des diffusions au fil de l&#39;eau pour créer un nombre inférieur de diffusions. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/continuous-delivery.md).
 
