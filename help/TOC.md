@@ -60,8 +60,8 @@ ht-degree: 99%
    + Filtrer les données {#filtering-data}
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
-      + [Utilisation :](platform/using/use-case.md)
-   + Créer une requête  {#creating-queries}
+      + [Cas pratique](platform/using/use-case.md)
+   + Créer une requête   {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -98,7 +98,7 @@ ht-degree: 99%
       + [A propos du canal Email](delivery/using/about-email-channel.md)
       + [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
       + [Définir le contenu de l&#39;email](delivery/using/defining-the-email-content.md)
-      + [Définir le contenu interactif](delivery/using/defining-interactive-content.md)
+      + [Définition d’un contenu interactif](delivery/using/defining-interactive-content.md)
       + [Envoyer les messages](delivery/using/sending-messages.md)
       + [Joindre des fichiers](delivery/using/attaching-files.md)
    + Envoi de messages sur les mobiles {#sending-messages-on-mobiles}
@@ -128,7 +128,7 @@ ht-degree: 99%
       + [Contenu conditionnel](delivery/using/conditional-content.md)
       + [Coupons personnalisés](delivery/using/personalized-coupons.md)
       + [Générer des documents PDF personnalisés](delivery/using/generating-personalized-pdf-documents.md)
-      + [Personnalisation de la liste émotionnelle](delivery/using/customizing-emoticon-list.md)
+      + [Personnalisation de la liste des émoticônes](delivery/using/customizing-emoticon-list.md)
    + Utiliser des adresses de contrôle {#using-seed-addresses}
       + [A propos des adresses de contrôle](delivery/using/about-seed-addresses.md)
       + [Créer des adresses de contrôle](delivery/using/creating-seed-addresses.md)
@@ -181,7 +181,7 @@ ht-degree: 99%
    + Orchestration des campagnes {#orchestrate-campaigns}
       + [Créer des campagnes marketing](campaign/using/setting-up-marketing-campaigns.md)
       + [Modèles de campagne marketing](campaign/using/marketing-campaign-templates.md)
-      + [Diffusions de campagne marketing](campaign/using/marketing-campaign-deliveries.md)
+      + [Diffusions d’opérations marketing](campaign/using/marketing-campaign-deliveries.md)
       + [Validation de campagne marketing](campaign/using/marketing-campaign-approval.md)
       + [Surveillance de campagne marketing](campaign/using/marketing-campaign-monitoring.md)
       + [Prestataires, stocks et budgets](campaign/using/providers--stocks-and-budgets.md)
@@ -199,7 +199,7 @@ ht-degree: 99%
       + [Règles de filtrage](campaign/using/filtering-rules.md)
       + [Appliquer les règles](campaign/using/applying-rules.md)
       + [Simulation de campagnes](campaign/using/campaign-simulations.md)
-   + Distributed Marketing {#distributed-marketing}
+   + Marketing distribué {#distributed-marketing}
       + [A propos du marketing distribué](campaign/using/about-distributed-marketing.md)
       + [Créer une opération locale](campaign/using/creating-a-local-campaign.md)
       + [Créer une opération collaborative](campaign/using/creating-a-collaborative-campaign.md)
@@ -404,7 +404,7 @@ ht-degree: 99%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle  {#monitoring}
+      + Contrôle   {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -528,7 +528,7 @@ ht-degree: 99%
       + [Aperçu du message transactionnel](message-center/using/transactional-message-preview.md)
       + [Envoyer un bon à tirer](message-center/using/sending-a-proof.md)
       + [Publication des modèles](message-center/using/template-publication.md)
-      + [Annulation de la publication du modèle](message-center/using/template-unpublication.md)
+      + [Annulation de la publication des modèles](message-center/using/template-unpublication.md)
    + Traitement des événements {#event-processing}
       + [A propos du traitement des événements](message-center/using/about-event-processing.md)
       + [Collecte des événements](message-center/using/event-collection.md)
@@ -539,13 +539,13 @@ ht-degree: 99%
       + [Historique des événements](message-center/using/history-of-message-center-events.md)
       + [Qualité de service Message Center](message-center/using/message-center-service-level.md)
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
-   + Utilisation {#use-case}
+   + Cas pratique {#use-case}
       + [Envoi d’emails transactionnels avec des pièces jointes](message-center/using/transactional-email-with-attachments.md)
 + Intégration aux réseaux sociaux {#integrating-with-social-media}
    + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
    + Configuration {#configuration}
       + [Démarrer les workflows](social/using/starting-workflows.md)
-      + [Publier sur les murs Facebook](social/using/publishing-on-facebook-walls.md)
+      + [Publication sur les murs Facebook](social/using/publishing-on-facebook-walls.md)
       + [Créer une application Facebook](social/using/creating-a-facebook-application.md)
       + [Configurer la publication Twitter](social/using/configuring-publishing-on-twitter.md)
    + Publier sur Facebook/Twitter {#publishing-on-facebook-twitter}
@@ -606,7 +606,7 @@ ht-degree: 99%
       + [Interaction - Mémoire tampon](installation/using/interaction---data-buffer.md)
    + Annexes {#appendices}
       + [Le fichier de configuration du serveur](installation/using/the-server-configuration-file.md)
-      + [Points de terminaison réseau Campaign](installation/using/campaign-network-endpoints.md)
+      + [Points d’entrée réseau Campaign ](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création de nouvelles instances](installation/using/creating-new-instances.md)
       + [Liste des options de Campaign Classic](installation/using/configuring-campaign-options.md)
