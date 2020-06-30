@@ -14,9 +14,9 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Pour configurer l&#39;arborescence des dossiers des plans marketing et des progr
 1. Cliquez avec le bouton droit de la souris sur le plan nouvellement créé et sélectionnez **Ajouter un dossier &#39;Programme&#39;**.
 1. Répétez les étapes décrites ci-dessus pour renommer le nouveau dossier de programmes et modifier le nom interne.
 
-## Créer une campagne    {#creating-a-campaign}
+## Créer une campagne     {#creating-a-campaign}
 
 ### Ajouter une opération {#adding-a-campaign}
 
