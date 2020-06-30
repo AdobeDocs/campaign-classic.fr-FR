@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 655544352070b0e2fab72b1991d2e4d80e03e349
+source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
 workflow-type: tm+mt
-source-wordcount: '2819'
-ht-degree: 94%
+source-wordcount: '2859'
+ht-degree: 93%
 
 ---
 
@@ -79,7 +79,7 @@ _13 août 2019_
 
 ![](assets/do-not-localize/green_2.png) **22 juin 2020**: nouvelle version (9032@800be2e) qui comprend les correctifs suivants :
 
-* Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NÉO-25904, NÉO-25903, NÉO-25799)
+* Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903, NEO-25799)
 
 Les correctifs suivants sont liés au mécanisme de sécurité des liens de suivi :
 
@@ -92,6 +92,11 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de suiv
 ![](assets/do-not-localize/orange_2.png) **29 avril 2020** : nouveau build (9032@3a9dc9c) qui comprend les correctifs suivants :
 
 * Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant le service Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
+
+>[!CAUTION]
+>
+>Si vous rencontrez des problèmes avec les notifications Push à l’aide de liens de suivi ou de diffusions à l’aide de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour le suivi des liens. La procédure est détaillée dans cette [page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
 * Correction d’un problème qui pouvait avoir un impact sur une notification push lorsqu’elle était envoyée à une fréquence élevée. (NEO-20516)
