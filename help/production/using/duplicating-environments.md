@@ -14,11 +14,11 @@ discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb44d439c6866d94f8e1201575ab3d3094d6ad79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Pour cela, les étapes sont les suivantes :
 
 Afin de mettre en oeuvre la procédure décrite ci-dessous, l&#39;environnement-source et l&#39;environnement-cible doivent disposer du même nombre d&#39;instances. Elles doivent avoir la même finalité (instance marketing, de diffusions) et une configuration similaire. La configuration technique doit correspondre aux pré-requis logiciels. Les mêmes composants doivent être installés dans les deux environnements.
 
-## Mise en oeuvre {#implementation}
+## Mise en œuvre {#implementation}
 
 ### Procédure de transfert {#transfer-procedure}
 
@@ -77,7 +77,6 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pro
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
-
 >
 
 
@@ -117,7 +116,7 @@ Vérifiez dans chaque fichier que le nombre d&#39;options/de comptes exportés e
 
 >[!NOTE]
 >
->Lors de l&#39;exportation de la table nmsextaccount, les mots de passe associés aux comptes externes (par exemple les mots de passe pour le Midsourcing, l&#39;exécution de Message Center, SMPP, IMS et d&#39;autres comptes externes) ne sont pas exportés. Assurez-vous d&#39;avoir à l&#39;avance accès aux mots de passe corrects, car ils devront peut-être être entrés de nouveau une fois les comptes externes réimportés dans l&#39;environnement.
+>Lors de l’export de la table nmsextaccount, les mots de passe associés aux comptes externes (par exemple les mots de passe pour Mid-sourcing, Message Center, SMPP, IMS et d’autres comptes externes) ne sont pas exportés. Assurez-vous d’avoir préalablement accès aux mots de passe corrects, car ils devront peut-être être entrés de nouveau une fois les comptes externes réimportés dans l’environnement.
 
 ### Etape 3 - Arrêter l&#39;environnement cible (recette) {#step-3---stop-the-target-environment--dev-}
 
