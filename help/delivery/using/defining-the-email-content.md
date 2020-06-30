@@ -12,11 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3022'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Par exemple, dans le message ci-dessus, le sujet du message est personnalisé po
 >
 >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
 
-Vous pouvez également insérer des émoticônes sur votre sujet à l’aide de la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]** .
+Vous pouvez également insérer des émoticônes dans votre ligne Objet à l’aide de la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**.
 
 ## Contenu du message {#message-content}
 
@@ -117,18 +117,18 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
    ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### Inserting emoticons in an email {#inserting-emoticons}
+### Insérer des émoticônes dans un email {#inserting-emoticons}
 
-Vous pouvez insérer des émoticônes dans votre contenu de courriel.
+Vous pouvez insérer des émoticônes dans le contenu d’un email.
 
-1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]** .
+1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]**.
 1. Sélectionnez une émoticône dans la fenêtre contextuelle.
 
    ![](assets/emoticon_4.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Fermer]** lorsque vous avez terminé.
 
-Pour personnaliser la liste émotionnelle, reportez-vous à cette [page](../../delivery/using/customizing-emoticon-list.md).
+Pour personnaliser la liste des émoticônes, voir cette [page](../../delivery/using/customizing-emoticon-list.md).
 
 ## Sélection des formats du message {#selecting-message-formats}
 
@@ -199,17 +199,17 @@ L&#39;assistant de diffusion vous permet d&#39;ajouter dans le contenu des messa
 >
 >Pour être visibles par les destinataires, ces images dans les messages doivent être présentes sur un serveur accessible depuis l&#39;extérieur.
 
-Pour gérer les images via l’assistant de diffusion :
+Pour gérer les images via l’assistant de diffusion :
 
-1. Cliquez sur l’icône **[!UICONTROL Suivi et images]** dans la barre d’outils.
+1. Cliquez sur l’icône **[!UICONTROL Tracking &amp; Images]** dans la barre d’outils.
    ![](assets/s_ncs_user_email_del_img_param.png)
 
-1. Sélectionnez **[!UICONTROL Télécharger des images]** dans l’onglet **[!UICONTROL Images]** .
-1. Vous pouvez ensuite choisir d’inclure les images dans le message électronique.
+1. Sélectionnez **[!UICONTROL Mise en ligne des images]** dans l’onglet **[!UICONTROL Images]**.
+1. Vous pouvez ensuite choisir d’inclure les images dans le message email.
    ![](assets/s_ncs_user_email_del_img_upload.png)
 
-* Vous pouvez télécharger des images manuellement sans attendre la phase d’analyse de la diffusion. Pour ce faire, cliquez sur le **[!UICONTROL lien Télécharger les images directement...]** .
-* Vous pouvez spécifier un autre chemin d’accès aux images sur le serveur de suivi. Pour ce faire, entrez-la dans le champ URL **** Images. Cette valeur remplace la valeur définie dans les paramètres de l’assistant d’installation.
+* Vous pouvez mettre en ligne les images manuellement sans attendre la phase d’analyse de la diffusion. Pour ce faire, cliquez sur le lien **[!UICONTROL Mettre en ligne les images tout de suite...]**.
+* Vous pouvez spécifier un autre chemin d’accès aux images sur le serveur de tracking. Pour ce faire, renseignez-le dans le champ **[!UICONTROL URL des images]**. Cette valeur remplace la valeur définie dans les paramètres de l’assistant d’installation.
 
 Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des images incluses en relatif, un message vous propose alors de mettre en ligne immédiatement les images, selon les paramètres de la diffusion.
 
@@ -219,11 +219,11 @@ Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des 
 >
 >Les chemins d&#39;accès aux images sont modifiés lors d&#39;une mise en ligne manuelle ou lors de l&#39;envoi des messages.
 
-### Sending a message with images {#sending-a-message-with-images}
+### Envoi d’un message avec des images {#sending-a-message-with-images}
 
 >[!NOTE]
 >
->Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que [pièce jointe](../../delivery/using/attaching-files.md), chaque taille d’image ne doit pas dépasser 100 000 octets par défaut. Ce seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+>Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que [pièce jointe](../../delivery/using/attaching-files.md), la taille d’une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 Voici un exemple de diffusion avec quatre images :
 
