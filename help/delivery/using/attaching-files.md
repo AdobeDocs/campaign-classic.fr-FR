@@ -14,11 +14,11 @@ discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 87%
 
 ## A propos des pièces jointes à un email {#about-email-attachments}
 
-Vous pouvez joindre un ou plusieurs fichiers à une diffusion de messagerie.
+Vous pouvez joindre un ou plusieurs fichiers à une diffusion d’email.
 
 >[!NOTE]
 >
->Pour éviter tout problème de performances, il est recommandé de ne pas inclure plus d’une pièce jointe par courrier électronique. Le seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+>Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
-Deux cas se présentent :
+Deux cas se présentent :
 
 * Sélectionner un fichier et le joindre tel quel à la diffusion.
 * Personnaliser le contenu de la pièce jointe pour chaque destinataire. Dans ce cas, vous devez créer un **attachement calculé** : le nom de la pièce jointe est calculé au moment de l&#39;envoi pour chaque message et peut ainsi dépendre du destinataire. Le contenu peut également être personnalisé et converti en PDF au moment de l&#39;envoi, si vous avez souscrit à l&#39;option **Variable Digital Printing**.
@@ -102,7 +102,7 @@ Le fichier est alors disponible sur le serveur pour être joint aux diffusions c
 
 ### Ajout d’un message personnalisé {#attach-a-personalized-message}
 
-The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a file with personalization fields, such as the last name and first name of the intended recipient.
+L’option **[!UICONTROL Le contenu du fichier est personnalisé et converti en PDF au moment de l’envoi pour chaque message]** permet de sélectionner un fichier avec des champs de personnalisation tels que le nom et le prénom du destinataire visé.
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
@@ -128,7 +128,7 @@ Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes 
 
 >[!NOTE]
 >
->Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée depuis une URL personnalisée en tant que pièce jointe, chaque taille d’image ne doit pas dépasser 100 000 octets par défaut. Ce seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+>Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que pièce jointe, la taille d’une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ### Ajout d’un fichier calculé {#attach-a-calculated-file}
 
