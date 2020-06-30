@@ -29,7 +29,7 @@ Les règles de filtrage permettent de définir les messages à exclure en foncti
 
 Les règles de filtrage peuvent être associées à d&#39;autres types de règles (contrôle, pression, etc.) dans des typologies, ou regroupées dans une typologie dédiée de type **Filtrage**. Pour plus d&#39;informations, voir la section [Créer et utiliser une typologie de filtrage](#creating-and-using-a-filtering-typology).
 
-## Créer une règle de filtrage  {#creating-a-filtering-rule}
+## Créer une règle de filtrage   {#creating-a-filtering-rule}
 
 Vous pouvez par exemple filtrer les abonnés à vos newsletters afin de ne jamais adresser de communications aux inscrits mineurs.
 
@@ -92,7 +92,7 @@ Vous pouvez également associer directement des règles de filtrage depuis cet o
 >Ces paramétrages peuvent être définis au niveau du modèle de diffusion afin de les appliquer automatiquement à toute nouvelle diffusion créée à partir de ce modèle.
 
 
-## Règles d&#39;exclusion de délivrabilité par défaut  {#default-deliverability-exclusion-rules}
+## Règles d&#39;exclusion de délivrabilité par défaut   {#default-deliverability-exclusion-rules}
 
 Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclusion des adresses]** (**[!UICONTROL addressExclusions]**) et **[!UICONTROL Exclusion des domaines]** (**[!UICONTROL domainExclusions]**). Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
