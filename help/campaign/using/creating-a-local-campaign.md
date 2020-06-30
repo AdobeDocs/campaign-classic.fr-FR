@@ -14,9 +14,9 @@ discoiquuid: bd057441-8524-49e6-b5d5-fbd0ec5bca85
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1702'
 ht-degree: 100%
 
@@ -184,7 +184,7 @@ Les étapes sont les suivantes :
 
 1. Définissez le libellé du kit d&#39;opération, son dossier d&#39;enregistrement et indiquez son planning de réalisation.
 
-### Dates   {#dates}
+### Dates    {#dates}
 
 Les dates de début et de fin correspondent à la période de visibilité de l&#39;opération dans la liste des kits.
 
@@ -318,7 +318,7 @@ La commande peut également être validée à partir de la console, depuis la vu
 >
 >L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
-#### Créer une campagne   {#creating-a-campaign}
+#### Créer une campagne    {#creating-a-campaign}
 
 Lorsque la commande d&#39;une opération est validée, celle-ci peut être paramétrée et exécutée par l&#39;entité locale.
 
