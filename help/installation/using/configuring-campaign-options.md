@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
 source-wordcount: '3906'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -112,15 +112,15 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
-   <td> Permet de définir un délai d’expiration (en secondes) pour obtenir une réponse du serveur lors de la récupération d’une image téléchargée à partir d’une URL personnalisée et jointe à un courrier électronique. Si cette valeur est dépassée, le message ne peut pas être envoyé. La valeur par défaut est de 60 secondes.<br /> </td> 
+   <td> Permet de définir un délai d’expiration (en secondes) pour obtenir une réponse du serveur lors de la récupération d’une image téléchargée à partir d’une URL personnalisée et jointe à un email. Si cette valeur de délai d’expiration est dépassée, le message ne peut pas être envoyé. La valeur par défaut est de 60 secondes.<br /> </td> 
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> Permet de définir la taille maximale (en octets) autorisée pour une image téléchargée à partir d’une URL personnalisée et jointe à un courrier électronique. La valeur par défaut est de 100 000 octets. Lors de l’envoi d’un BAT et du téléchargement des images pour traiter le courrier électronique, si la taille d’une image dépasse cette valeur ou si un problème de téléchargement se produit, une erreur s’affiche dans les Logs de diffusion et la diffusion du BAT échoue.<br /> </td> 
+   <td> Permet de définir la taille maximale (en octets) autorisée pour une image téléchargée à partir d’une URL personnalisée et jointe à un email. La valeur par défaut est de 100 000 octets. Lors de l’envoi d’un BAT et du téléchargement des images pour traiter l’email, si la taille d’une image dépasse cette valeur ou si un problème de téléchargement se produit, une erreur s’affiche dans les logs de diffusion et la diffusion du BAT échoue.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsDelivery_MaxRecommandendedAttachments</span> <br /> </td> 
-   <td> Permet de définir un nombre maximal de pièces jointes dans un courriel ou un modèle de courrier électronique transactionnel. Si cette valeur est dépassée, un avertissement s’affiche dans les journaux d’analyse des diffusions ou lors de la publication du modèle de courrier électronique transactionnel. The default value is 1 attachment.<br /> </td> 
+   <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
+   <td> Permet de définir un nombre maximal de pièces jointes à un email ou dans un modèle d’email transactionnel. Si cette valeur est dépassée, un avertissement s’affiche dans les logs d’analyse des diffusions ou lors de la publication du modèle d’email transactionnel. La valeur par défaut est de 1 pièce jointe.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRetry</span> <br /> </td> 
@@ -260,7 +260,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
-   <td> Enable/disable support for special characters for Code128.<br /> </td> 
+   <td> Activer/désactiver la prise en charge des caractères spéciaux pour Code128.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
@@ -409,7 +409,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (Mode de compatibilité d'installation : build&gt;6000) Lorsqu'elle est activée (valeur "1"), cette option permet l'utilisation d'anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l'instance.<br /> </td> 
+   <td> (Mode de compatibilité d’installation : build &gt; 6000) Lorsqu’elle est activée (valeur « 1 »), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
