@@ -12,11 +12,11 @@ discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Dans ce scénario, les pièces jointes ne sont pas créées à l’avance, mais 
 
 >[!NOTE]
 >
->Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée depuis une URL personnalisée en tant que pièce jointe, chaque taille d’image ne doit pas dépasser 100 000 octets par défaut. Ce seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+>Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que pièce jointe, la taille d’une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Recommandations {#important-notes}
 
@@ -60,7 +60,7 @@ Avant de mettre en œuvre ce scénario, lisez attentivement les directives suiva
 
 >[!NOTE]
 >
->Pour éviter tout problème de performances, il est recommandé de ne pas inclure plus d’une pièce jointe par courrier électronique. Le seuil recommandé peut être configuré à partir [de la liste des options](../../installation/using/configuring-campaign-options.md#delivery)Campaign Classic.
+>Pour éviter tout problème de performances, il est recommandé de ne pas inclure plusieurs pièces jointes par email. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Mise en œuvre {#implementation}
 
