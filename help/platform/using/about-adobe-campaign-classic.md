@@ -14,11 +14,11 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b04cf988f144b8bfb846aff83e97c9b3a82e6e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 
 >[!NOTE]
 >
->Adobe Campaign Classic est disponible dans les versions 6.11 et v7. Sauf mention contraire, les supports d’aide s’appliquent aux deux versions, dans la dernière version. Les captures d’écran reflètent l’interface utilisateur de Campaign Classic v7.
+>Adobe Campaign Classic est disponible dans les versions v6.11 et v7. Sauf mention contraire, les ressources d’aide s’appliquent aux deux versions (dans leur build le plus récent). Les captures d’écran se rapportent à l’interface utilisateur de Campaign Classic v7.
 
 ## Fonctionnalités principales {#key-capabilities}
 
