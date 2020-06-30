@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
 source-wordcount: '7859'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -1538,7 +1538,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> signEmailLinks<br /> </td> 
-   <td> Activez le mécanisme de signature. Ceci améliore la sécurité du suivi des liens dans les courriers électroniques.<br /> </td> 
+   <td> Activez le mécanisme de signature. La sécurité du tracking des liens dans les emails sera ainsi améliorée.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> vrai<br /> </td> 
   </tr>
@@ -1569,7 +1569,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> Si la valeur est "true", votre instance utilise le <a href="https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">MTA amélioré</a>.<br /> </td> 
+   <td> Si la valeur est "true", votre instance utilise le <a href="https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">MTA amélioré</a>.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> <br /> </td>b 
   </tr>
@@ -2558,7 +2558,7 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   </tr> 
   <tr> 
    <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
-   <td> Désactivez les URL mal formées générées à partir des versions précédentes.<br /> </td> 
+   <td> Désactivez les URL incorrectement renseignées, générées à partir des builds précédents.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2618,13 +2618,13 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   </tr> 
   <tr> 
    <td> phishbowlServiceAPIKey<br /> </td> 
-   <td> Clé d'API pour l'intégration du point de terminaison du service Phishbowl. Ceci protège la redirection des URL mal formées générées à partir des anciennes versions. <br /> </td> 
+   <td> Clé d’API pour l’intégration du point d’entrée du service Phishbowl. Elle permet de protéger la redirection des URL incorrectement renseignées, générées à partir des anciens builds. <br /> </td> 
    <td> Long<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> phishbowlServiceEndpoint<br /> </td> 
-   <td> Point de terminaison de l’intégration du point de terminaison du service Phishbowl. Ceci protège la redirection des URL mal formées générées à partir des anciennes versions.<br /> </td> 
+   <td> Point d’entrée pour l’intégration du point d’entrée du service Phishbowl. Il permet de protéger la redirection des URL incorrectement renseignées, générées à partir des anciens builds. <br /> </td> 
    <td> Long<br /> </td> 
    <td> <br /> </td> 
   </tr> 
