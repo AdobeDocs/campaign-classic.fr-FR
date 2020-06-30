@@ -10,22 +10,22 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e46325ab8f68a0b71198aee9cf04f2b1eb97fdd3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1468'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
 # Fonctionnalités obsolètes et supprimées {#deprecated-and-removed-features}
 
-Adobe évalue constamment les fonctionnalités des produits pour identifier celles qui devraient être remplacées par des solutions plus modernes afin d’offrir une plus grande valeur ajoutée, et ce en prenant toujours en compte la rétrocompatibilité Comme Adobe Campaign Classic fonctionne avec des outils tiers, la compatibilité est régulièrement mise à jour pour ne mettre en œuvre que des versions prises en charge. Les versions qui ne sont plus compatibles avec Adobe Campaign Classic sont répertoriées ci-dessous et dans la matrice [de](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)compatibilité.
+Adobe évalue constamment les fonctionnalités des produits pour identifier celles qui devraient être remplacées par des solutions plus modernes afin d’offrir une plus grande valeur ajoutée, et ce en prenant toujours en compte la rétrocompatibilité Comme Adobe Campaign Classic fonctionne avec des outils tiers, la compatibilité est régulièrement mise à jour pour ne mettre en œuvre que des versions prises en charge. Les versions devenues incompatibles avec Adobe Campaign Classic sont répertoriées ci-dessous et dans la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 
 Lors de l’annonce de la suppression ou du remplacement imminent de fonctionnalités de Campaign Classic, les règles suivantes s’appliquent :
 
-* L’annonce de l’obsolescence vient en premier. Bien que des fonctionnalités obsolètes puissent encore être disponibles et prises en charge pour les utilisateurs existants, elles ne seront pas encore améliorées, ni documentées.
+* L’annonce de l’obsolescence vient en premier. Les fonctionnalités obsolètes sont encore disponibles et prises en charge pour les utilisateurs existants, mais elles ne seront plus améliorées ni documentées.
 * La suppression de fonctionnalités obsolètes aura lieu au plus tôt dans la version suivante. La date de suppression prévue est annoncée sur cette page.
 
 Cette procédure laisse aux clients au moins un cycle de publication pour s’adapter à une nouvelle version ou au successeur d’une fonctionnalité supprimée avant la suppression définitive.
@@ -37,9 +37,9 @@ Cette procédure laisse aux clients au moins un cycle de publication pour s’ad
 
 Cette section répertorie les fonctions et fonctionnalités qui ont été désignées comme étant obsolètes dans les dernières versions de Campaign Classic.
 
-En règle générale, les fonctionnalités qui doivent être supprimées dans une prochaine version sont d’abord désapprouvées. Ces fonctionnalités ne sont plus disponibles pour les nouveaux clients Campaign Classic ou ne doivent pas être utilisées pour une nouvelle mise en oeuvre. Elles sont également supprimées de la documentation du produit.
+En règle générale, les fonctionnalités qui doivent être supprimées dans une version ultérieure sont définies comme étant obsolètes dans un premier temps. Ces fonctions et fonctionnalités ne sont plus disponibles pour les nouveaux clients de Campaign Classic ou ne doivent pas être utilisées dans le cadre d’une nouvelle implémentation. Elles sont également supprimées de la documentation du produit.
 
-Il est conseillé aux clients de vérifier s’ils utilisent la fonctionnalité ou les fonctionnalités de leur déploiement actuel et de planifier une modification de leur mise en oeuvre. Référez-vous aux dates de suppression prévues pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
+Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d’envisager de modifier leur implémentation. Référez-vous aux dates de suppression prévues pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
 
 <table> 
  <tbody> 
@@ -49,33 +49,33 @@ Il est conseillé aux clients de vérifier s’ils utilisent la fonctionnalité 
   </tr>
    <tr>
   <td>Connecteurs SMS<br></td>
-  <td><p> A compter de la version 20.2, les connecteurs SMS suivants sont obsolètes.<p>
+  <td><p> À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes.<p>
    <ul>
    <li>NetSize</li>
-   <li>SMPP générique (SMPP version 3.4 prenant en charge le mode binaire)</li>
+   <li>SMPP générique (SMPP version 3.4 avec prise en charge du mode binaire)</li>
    <li>Sybase365 (SAP SMS 365)</li>
    <li>CLX Communications</li>
    <li>Tele2</li>
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>Si vous utilisez l’un de ces connecteurs, vous devez adapter votre mise en oeuvre en conséquence. <a href="../../delivery/using/sms-channel.md">En savoir plus</a></p> 
-  <p>Découvrez comment migrer les connecteurs hérités dans <a href="https://helpx.adobe.com/campaign/kb/sms-connector.html">cette note technique</a>.</p>
-  <p><em>Date de suppression de la Cible : 2021</em></p>
+  <p>Si vous utilisez l’un de ces connecteurs, vous devez adapter votre implémentation en conséquence. <a href="../../delivery/using/sms-channel.md">En savoir plus</a></p> 
+  <p>Découvrez comment effectuer la migration des anciens connecteurs dans <a href="https://helpx.adobe.com/fr/campaign/kb/sms-connector.html">cette note technique</a>.</p>
+  <p><em>Date de suppression prévue : 2021</em></p>
   </td> 
  </tr>
   <tr>  
    <td>Canal fax<br></td>
-   <td><p>A compter de la version 20.2, le canal de télécopie est obsolète.</p> 
-   <p>Si vous utilisez ce canal, vous devez adapter votre mise en oeuvre en conséquence. <a href="../../delivery/using/communication-channels.md">En savoir plus</a> sur les canaux Campaign.</p>
-   <p><em>Date de suppression de la Cible : 2021</em></p></td>
+   <td><p>À compter de la version 20.2, le canal fax est obsolète.</p> 
+   <p>Si vous utilisez ce canal, vous devez adapter votre implémentation en conséquence. <a href="../../delivery/using/communication-channels.md">En savoir plus</a> sur les canaux de Campaign.</p>
+   <p><em>Date de suppression prévue : 2021</em></p></td>
   </tr>
  </tbody> 
 </table>
 
 ## Fonctionnalités supprimées {#removed-features}
 
-Cette section liste les fonctionnalités qui ont été supprimées de Campaign Classic.
+Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
 
 <table> 
  <tbody> 
@@ -84,61 +84,61 @@ Cette section liste les fonctionnalités qui ont été supprimées de Campaign C
    <td><strong>Remplacement</strong></td> 
   </tr> 
    <tr> 
-   <td>Archivage des e-mails basé sur des fichiers<br></td>
-   <td><p>Depuis la version Campaign 20.2, l’archivage des e-mails basé sur les fichiers n’est plus disponible. L’archivage des emails est désormais disponible par le biais d’une adresse de messagerie Cci dédiée. <a href="../../installation/using/email-archiving.md">En savoir plus</a></p></td>
+   <td>Archivage des emails basé sur les fichiers<br></td>
+   <td><p>Depuis la version 20.2 de Campaign, l’archivage des emails basé sur les fichiers n’est plus disponible. L’archivage des emails est désormais disponible par le biais d’une adresse de messagerie Cci dédiée. <a href="../../installation/using/email-archiving.md">En savoir plus</a></p></td>
   </tr> 
    <tr> 
    <td>Gestion des leads</td>
-   <td><p>A compter de la version Campaign 20.2, le module Gestion des pistes n’est plus disponible. Il est possible de mettre en œuvre des fonctionnalités similaires à l’aide d’autres activités de workflow natives et des modifications de modèles de données.</p></td>
+   <td><p>À compter de la version 20.2 de Campaign, le module Gestion des leads n’est plus disponible. Il est possible de mettre en œuvre des fonctionnalités similaires à l’aide d’autres activités de workflow natives et des modifications de modèles de données.</p></td>
    </tr>
    <tr>
    <td>Documentation des API de Campaign - fichier jsapi.chm</td>
-   <td>Depuis la version 19.1 de Campaign, les API Campaign Classic sont disponibles dans une page dédiée. Si vous utilisiez le fichier jsapi.chm hérité, vous devez maintenant vous référer à <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">la nouvelle version</a>en ligne.</td>
+   <td>Depuis la version 19.1 de Campaign, les API de Campaign Classic sont disponibles dans une page dédiée. Si vous utilisiez l’ancien fichier jsapi.chm, vous devez maintenant vous référer à <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">la nouvelle version en ligne</a>.</td>
   </tr> 
   <tr> 
    <td>Orchestration de campagnes - Marketing prédictif</td>
-   <td>A compter de la version 18.10 de Campaign, les fonctionnalités de marketing prédictif ne sont plus disponibles.</td>
+   <td>À compter de la version 18.10 de Campaign, les fonctionnalités de marketing prédictif ne sont plus disponibles.</td>
   </tr> 
   <tr> 
    <td>Applications web - Microsites</td>
-   <td>Depuis la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant l'accès aux seuls domaines dédiés sur les fichiers de configuration Adobe Campaign et utiliser des URL personnalisées dans Campaign en utilisant des alias DNS. <a href="https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html">En savoir plus</a></td>
+   <td>À compter de la version 18.10 de Campaign, les microsites ne sont plus disponibles. Vous pouvez améliorer la sécurité en limitant l’accès aux seuls domaines dédiés des fichiers de configuration d’Adobe Campaign et utiliser des URL personnalisées dans Campaign à l’aide d’alias DNS. <a href="https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html">En savoir plus</a></td>
   </tr> 
   <tr> 
    <td>Notifications push - Connecteur binaire iOS</td>
-   <td>Selon la recommandation d’Apple, Adobe a supprimé le connecteur binaire iOS hérité à partir de la version Campaign 18.10. Le connecteur HTTP/2, plus performant et plus efficace, est déjà disponible.</td>
+   <td>Selon la recommandation d’Apple, Adobe a supprimé l’ancien connecteur binaire iOS à compter de la version 18.10 de Campaign. Le connecteur HTTP/2, plus performant et plus efficace, est déjà disponible.</td>
   </tr> 
   <tr> 
    <td>API decryptString</td>
-   <td><p>Starting Campaign 18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
+   <td><p>À compter de la version 18.6 de Campaign, pour des raisons de sécurité, l’API <em>decryptString</em> n’est plus disponible par défaut pour les nouvelles installations.</p> 
    <p>Dans le contexte d’un postupgrade vers la version 18.6 (et versions ultérieures), cette API n’est plus activée et a été remplacée par la fonction <em>decryptPassword. </em> <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">En savoir plus</a></p></td>
   </tr> 
    <tr> 
    <td>Canal mobile - Messages MMS et WAP Push</td>
-   <td>A compter de la version Campaign 18.4, les canaux MMS et Wap Push ne sont plus disponibles. À titre de remplacement, vous pouvez tirer parti des diffusions <a href="../../delivery/using/sms-channel.md">SMS</a> et <a href="../../delivery/using/about-mobile-app-channel.md">Push</a>.</td>
+   <td>À compter de la version 18.4 de Campaign, les canaux MMS et Wap Push ne sont plus disponibles. À titre de remplacement, vous pouvez tirer parti des diffusions <a href="../../delivery/using/sms-channel.md">SMS</a> et <a href="../../delivery/using/about-mobile-app-channel.md">Push</a>.</td>
   </tr> 
    <tr> 
    <td>Canal mobile - LINE v1</td>
-   <td>A compter de la version Campaign 18.4, le package LINE Connect n’est plus disponible. Adobe recommande d'utiliser le nouveau Canal LINE comme remplacement. <a href="../../delivery/using/line-channel.md">En savoir plus</a></td>
+   <td>À compter de la version 18.4 de Campaign, le package LINE Connect n’est plus disponible. Adobe recommande d’utiliser le nouveau package Canal LINE pour le remplacer. <a href="../../delivery/using/line-channel.md">En savoir plus</a></td>
   </tr> 
  </tbody> 
 </table>
 
 ## Compatibilité obsolète {#deprecated-compatibility}
 
-Les systèmes suivants sont obsolètes pour Campaign Classic. Please refer to the [Compatibility matrix](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system before the compatibility ends.
+Les systèmes suivants sont désormais obsolètes pour Campaign Classic : Reportez-vous à la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) pour effectuer une mise à jour vers une nouvelle version ou passer à un nouveau système avant la fin de la compatibilité.
 
 ### Adobe Campaign version 20.2 {#compat-20-2-release}
 
-A compter de la version 20.2, le système suivant est obsolète pour Campaign Classic. La compatibilité prendra fin dans la version 20.3 - septembre 2020.
+À compter de la version 20.2, le système suivant est obsolète pour Campaign Classic. La compatibilité prendra fin avec la version 20.3 - Septembre 2020.
 
-* Console client : Windows 7
-* Connecteurs SMS hérités (voir la section Fonctions obsolètes ci-dessous)
+* Console cliente : Windows 7
+* Anciens connecteurs SMS (voir la section Fonctions obsolètes ci-dessous)
 
 ### Adobe Campaign version 19.2 {#compat-19-2-release}
 
-A compter de la version 19.2, les systèmes d’exploitation suivants sont obsolètes pour Campaign Classic. La compatibilité ne sera plus assurée à partir de la fin de l’année 2020.
+À compter de la version 19.2, les systèmes d’exploitation suivants sont obsolètes pour Campaign Classic. La compatibilité ne sera plus assurée à partir de la fin de l’année 2020.
 
-* Web Server : Apache 2.2.
+* Serveur Web : Apache 2.2.
 * Système d’exploitation : CentOS 6.
 
 Reportez-vous à la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) pour effectuer une mise à jour vers une nouvelle version ou passer à un nouveau système.
@@ -157,7 +157,7 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 * Windows XP, Vista
 
 >[!NOTE]
->A compter de la version Campaign 20.1, Campaign Classic Client Console 32 bits n&#39;est plus compatible avec les dernières versions de Campaign. Vous devez utiliser la console client 64 bits.
+>À compter de la version 20.1 de Campaign, la console cliente 32 bits de Campaign Classic n’est plus compatible avec les dernières versions de Campaign. Vous devez utiliser la console cliente 64 bits.
 
 
 ### Systèmes d’exploitation {#o-s-eol}
