@@ -12,10 +12,10 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: ht
-source-wordcount: '154'
+translation-type: tm+mt
+source-git-commit: 3a932bc440853151704f1ba1e188fa0af9d4c5cb
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
@@ -30,4 +30,3 @@ Les workflows sont pris en charge par un module spécifique. Ce module peut êtr
 * Le processus &#39;Workflow Instance Runner&#39; (runwf) exécute toutes les tâches d&#39;une instance de workflow donnée. Lorsqu&#39;il n&#39;y a plus de tâche à exécuter dans l&#39;immédiat, ce processus devient passif, c&#39;est-à-dire qu&#39;il sauvegarde son état dans la base de données puis s&#39;arrête.
 * Le module &#39;Workflow Server&#39; (wfserver) surveille les instances de workflow en cours. Lorsqu&#39;il y a une tâche à effectuer, ce module crée un processus pour activer (ou réactiver) l&#39;instance correspondante.
 
-Lorsque un opérateur commande une action sur un workflow (démarrer, arrêter, mettre en pause, etc.), l&#39;action n&#39;est pas exécutée immédiatement par le module &#39;nlserver&#39;, mais placée dans une file d&#39;attente pour être traitée par un module de workflow.
