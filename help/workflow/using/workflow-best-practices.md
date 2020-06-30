@@ -14,9 +14,9 @@ discoiquuid: 3da951ef-5775-4593-8301-f143c71edc19
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1656'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Dans la fenêtre des **[!UICONTROL Propriétés du workflow]**, ne cochez jamais
 
 ![](assets/wf-execute-in-engine.png)
 
-## Propriétés d&#39;exécution   {#workflow-properties}
+## Propriétés d&#39;exécution    {#workflow-properties}
 
 ### Dossiers des workflows {#workflow-folders}
 
