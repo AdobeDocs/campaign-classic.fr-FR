@@ -14,11 +14,11 @@ discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -85,4 +85,4 @@ L&#39;ordre de traitement des fichiers ne peut être déterminé. Pour traiter s
 
 ## Paramètres de sortie {#output-parameters}
 
-* filename: Nom de fichier complet. Il s’agit du nom de fichier après son déplacement dans le répertoire d’historique. Le chemin d’accès est donc différent, mais le nom est également différent si un autre fichier portant le même nom existe déjà dans le répertoire. L&#39;extension est conservée.
+* filename: nom de fichier complet. Il s’agit du nom de fichier après son déplacement dans le répertoire d’historisation. Le chemin d’accès est donc différent, mais le nom est également différent si un autre fichier portant le même nom existe déjà dans le répertoire. L’extension est conservée.
