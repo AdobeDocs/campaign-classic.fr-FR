@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2859'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -77,17 +77,17 @@ _13 août 2019_
 
 ## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **22 juin 2020**: nouvelle version (9032@800be2e) qui comprend les correctifs suivants :
+![](assets/do-not-localize/green_2.png) **22 juin 2020** : nouveau build (9032@800be2e) qui comprend les correctifs suivants :
 
 * Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903, NEO-25799)
 
-Les correctifs suivants sont liés au mécanisme de sécurité des liens de suivi :
+Les correctifs suivants sont liés au mécanisme de sécurité des liens de tracking :
 
-* Correction d’un problème qui empêchait le suivi des &quot;clics de notification&quot; de fonctionner (notifications Push iOS et Android). (NEO-25965)
-* Correction d&#39;un problème qui pouvait vous empêcher d&#39;ouvrir/de cliquer sur les URL de suivi lors de l&#39;utilisation de certaines versions héritées d&#39;Outlook.  (NEO-25688)
-* Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec un signe dièse) de fonctionner. (NEO-25774)
-* Correction d’un problème lié au service antiphishing. (NEO-25283)
-* Correction d’un problème de suivi lors de l’utilisation de formules de suivi personnalisées spécifiques. (NEO-25277)
+* Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications Push iOS et Android). (NEO-25965)
+* Correction d’un problème qui pouvait empêcher d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook.  (NEO-25688)
+* Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
+* Correction d’un problème lié au service anti-hameçonnage. (NEO-25283)
+* Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
 
 ![](assets/do-not-localize/orange_2.png) **29 avril 2020** : nouveau build (9032@3a9dc9c) qui comprend les correctifs suivants :
 
@@ -95,7 +95,7 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de suiv
 
 >[!CAUTION]
 >
->Si vous rencontrez des problèmes avec les notifications Push à l’aide de liens de suivi ou de diffusions à l’aide de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour le suivi des liens. La procédure est détaillée dans cette [page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+>Si vous rencontrez des problèmes avec les notifications Push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. La procédure est détaillée dans cette [page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
@@ -173,7 +173,7 @@ _30 mai 2019_
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l’efficacité de votre travail en tant qu’utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant l’enregistrement, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter que le Panneau de configuration n'est disponible que pour les clients hébergés sur AWS à partir d'aujourd'hui (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l'intermédiaire de l'Experience Cloud aujourd'hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
+   <td> <p>Pour travailler plus efficacement en tant qu’utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter qu’à compter d’aujourd’hui le Panneau de contrôle n’est disponible que pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l’intermédiaire d’Experience Cloud dès aujourd’hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
