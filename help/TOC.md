@@ -4,11 +4,11 @@ user-guide-title: Aide d'Adobe Campaign Classic
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 99%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête   {#creating-queries}
+   + Créer une requête    {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -161,7 +161,7 @@ ht-degree: 99%
       + [Inbox rendering](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Meilleures pratiques de réengagement](delivery/using/re-engagement-best-practices.md)
-      + [Base de données de Liste bloquée](delivery/using/block-list-databases.md)
+      + [Base de données de liste bloquée](delivery/using/block-list-databases.md)
       + [Résolution des problèmes](delivery/using/deliverability-faq.md)
    + Module de gestion de contenu {#content-management}
       + [A propos de la gestion de contenu](delivery/using/about-content-management.md)
@@ -289,7 +289,7 @@ ht-degree: 99%
       + [Publier, suivre et utiliser les données collectées](web/using/publish--track-and-use-collected-data.md)
       + [Configurer un questionnaire](web/using/configuring-surveys.md)
       + [Cas pratique : création d’un formulaire de parrainage d’un ami](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ {#integrating-with-adobe-experience-cloud}
    + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage d&#39;audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
@@ -323,8 +323,8 @@ ht-degree: 99%
    + Triggers Experience Cloud {#experience-triggers}
       + [À propos de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
-      + [Pipeline, option NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-      + [Triggers événements](integrations/using/events.md)
+      + [Option de pipeline NmsPipeline_Config](integrations/using/nmspipeline-config.md)
+      + [Événements Triggers](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
 + Automatisation et workflows {#automating-with-workflows}
@@ -404,7 +404,7 @@ ht-degree: 99%
       + [Réception d&#39;emails](workflow/using/inbound-emails.md)
       + [Réception de SMS](workflow/using/inbound-sms.md)
    + Cas pratiques {#use-cases}
-      + [A propos des cas d’utilisation des processus](workflow/using/about-workflow-use-cases.md)
+      + [À propos des cas d’utilisation de workflow](workflow/using/about-workflow-use-cases.md)
       + Diffusions {#deliveries}
          + [Utiliser l&#39;activité Validation en local](workflow/using/using-the-local-approval-activity.md)
          + [A/B testing](workflow/using/a-b-testing.md)
@@ -412,7 +412,7 @@ ht-degree: 99%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle   {#monitoring}
+      + Contrôle    {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
