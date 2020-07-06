@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6781'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Juin 2020 {#june-2020}
 
-La section Suppression d&#39;une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+La section Suppression d’une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-Des cas d’utilisation ont été ajoutés pour [chiffrer](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) et [déchiffrer](../../workflow/using/importing-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de configuration et des Workflows de campagne.
+Des cas d’utilisation ont été ajoutés pour [crypter](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) et [décrypter](../../workflow/using/importing-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de contrôle et des workflows Campaign.
 
 Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
-La page Déclencheurs Experience Cloud et intégration d’Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
+La page Triggers Experience Cloud et intégration d’Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 06/08/2020{#release-20-2}
 
