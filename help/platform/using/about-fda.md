@@ -14,11 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9d22af2a2e25cb0dd83759096139996372f60c33
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c86af066045c1c35b51624de8565af21746354c1
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,19 @@ Afin de pouvoir utiliser cette fonctionnalité, vous devez :
 1. éventuellement, [créer un mapping de ciblage](../../platform/using/defining-data-mapping.md) à partir du schéma créé précédemment, dans le cas où les destinataires de vos diffusions sont issus de la base externe. Ce cas présente certaines limitations, notamment au niveau de la personnalisation des diffusions.
 
 Une fois le schéma de données créé, les données peuvent être traitées dans Adobe Campaign. Voir à ce propos [cette section](../../workflow/using/accessing-an-external-database--fda-.md).
+
+## Bases de données externes disponibles {#external-database}
+
+Vous trouverez ci-dessous la liste de chaque base de données externe compatible avec le module Adobe Campaign FDA :
+
+* Microsoft Azure Synapse Analytics. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md#azure-external).
+* Snowflake. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+* Hadoop. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3).
+* Oracle. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-oracle).
+* Netezza. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-netezza).
+* Sybase IQ. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-sybase-iq).
+* Teradata. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
+* SAP HANA. Voir à ce propos cette [section](../../platform/using/specific-configuration-database.md).
 
 ## Bonnes pratiques et recommandations {#best-practices-and-recommendations}
 
