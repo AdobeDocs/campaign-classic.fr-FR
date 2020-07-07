@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9188a68ca2ffcd9cf9e82b475aa2a0dd5807561b
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 87%
@@ -62,7 +62,7 @@ Les messages de confirmation sont adressés via un modèle de diffusion dédié,
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Cette option ne doit être désactivée que dans des contextes spécifiques, comme ici.
 
