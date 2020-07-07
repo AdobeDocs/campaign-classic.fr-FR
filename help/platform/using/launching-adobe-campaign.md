@@ -15,12 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
+source-git-commit: 84f06afb36aa6a9fa13db1fda7034389b762eb99
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 92%
 
 ---
 
 
 # Lancement d&#39;Adobe Campaign{#launching-adobe-campaign}
+
+La console Client Campaign est un client riche qui vous permet de vous connecter à vos serveurs d’applications Campaign. Découvrez comment télécharger et configurer la console client dans [cette page](../../installation/using/installing-the-client-console.md).
 
 ## Démarrage d&#39;Adobe Campaign {#starting-adobe-campaign}
 
@@ -60,14 +65,13 @@ Dans la fenêtre **[!UICONTROL Connexions]**, cliquez sur **[!UICONTROL Ajouter�
 
 Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
-* Saisissez un **[!UICONTROL libellé]** qui correspond au nom que vous souhaitez attribuer à votre connexion vers la base de données.
-* Ajoutez l&#39;adresse du serveur applicatif dans le champ **[!UICONTROL URL]**. Si vous ne connaissez pas l&#39;URL de connexion, contactez votre administrateur.
-* Cochez la case **[!UICONTROL Se connecter avec un Adobe ID]** pour que les opérateurs puissent se connecter à la console via leur Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
-* Cliquez sur **[!UICONTROL OK]** pour valider.
+1. Saisissez un **[!UICONTROL libellé]** qui correspond au nom que vous souhaitez attribuer à votre connexion vers la base de données.
 
->[!NOTE]
->
->Le bouton **[!UICONTROL Ajouter]** permet de créer des **[!UICONTROL dossiers]** dans lesquels vous pourrez classer vos différentes connexions par des opérations de glisser-déplacer.
+1. Ajoutez l&#39;adresse du serveur applicatif dans le champ **[!UICONTROL URL]**. Si vous ne connaissez pas l&#39;URL de connexion, contactez votre administrateur.
+
+1. Cochez la case **[!UICONTROL Se connecter avec un Adobe ID]** pour que les opérateurs puissent se connecter à la console via leur Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
+
+1. Cliquez sur **[!UICONTROL OK]** pour valider.
 
 ## Opérateurs et permissions {#operators-and-permissions}
 
