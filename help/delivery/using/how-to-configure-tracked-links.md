@@ -14,11 +14,11 @@ discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed44ccd8053d79024e8fb2d05ee27e1e663b8cb2
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 94%
 
 ---
 
@@ -29,9 +29,9 @@ La réception des messages ainsi que l&#39;activation des liens insérés dans l
 
 >[!NOTE]
 >
->Le tracking s&#39;applique aux messages, tandis que le tracking Web permet de suivre la navigation des destinataires sur un site internet (pages visitées, achats).
+>Le suivi s’applique aux messages, mais le suivi Web vous permet de contrôler la manière dont les destinataires naviguent sur un site Web (pages visitées, achats).
 >
->Le paramétrage du tracking Web est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
+>The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
 Le tracking des messages est activé par défaut. Pour personnaliser le tracking des URL, procédez comme suit :
 
