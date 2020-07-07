@@ -14,8 +14,11 @@ discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 954018e1016fc924064bd795066f80704499f6a7
+translation-type: tm+mt
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '3775'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ La page qui s&#39;affiche permet de visualiser l&#39;état de l&#39;instance con
 * la liste des processus manquants et les informations d&#39;exécution (date de démarrage, PID, etc.),
 * une vue des workflows et des diffusions.
 
-D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](../../production/using/monitoring-guidelines.md).
 
 ### Journal des logs {#log-journal}
 
@@ -260,6 +263,7 @@ Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 >
 >* Les informations liées au Monitoring SMTP ne sont disponibles que si le canal email a été activé.
 >* Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** n&#39;est proposé que si le serveur de statistiques est démarré sur l&#39;instance.
+
 >
 
 
@@ -279,6 +283,7 @@ La liste des indicateurs de ce rapport est proposée sous le graphique.
    * Ligne verte : messages envoyés avec succès (correspond à ce qui sort).
 
    * Ligne rouge : messages abandonnés par le Shaper, rendus au **mta** (correspond à ce qui est rejeté sur cette reprise).
+
    Ces valeurs sont exprimées en nombre de messages par heure.
 
 1. Représente symboliquement deux files du Shaper :
