@@ -14,9 +14,9 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
 source-wordcount: '1813'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## A propos de l&#39;intégration de Data Connector {#about-data-connector-integration}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le connecteur de données Adobe Analytics n’est pas compatible avec les messages transactionnels (Message Center).
 
@@ -76,6 +76,7 @@ Les étapes suivantes décrivent le paramétrage du connecteur de données via u
    * Intégrations (créer)
    * Intégrations (mettre à jour)
    * Intégrations (supprimer)
+
    ![](assets/adobe_genesis_install_002.png)
 
 1. Dans la liste des partenaires, sélectionnez **[!UICONTROL Adobe Campaign Classic]**.
@@ -145,7 +146,7 @@ L’intégration d’Adobe Campaign aux plates-formes d’Analytics se fait par 
 
    ![](assets/webanalytics_tracking_003.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Ce type de paramétrage s&#39;adresse à des utilisateurs experts : toute erreur dans cette formule risque de bloquer l&#39;envoi des emails.
 
@@ -220,6 +221,7 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    * **[!UICONTROL Nombre de clics distincts]** (@recipientClick)
    * **[!UICONTROL Désinscription (opt-out)]** (@optOut)
    * **[!UICONTROL Erreurs]** (@error)
+
    >[!NOTE]
    >
    >Les données envoyées correspondent au delta basé sur la dernière prise de photo, ce qui peut générer une valeur négative dans les données de mesure.
