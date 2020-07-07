@@ -14,8 +14,11 @@ discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,7 @@ Les adresses de contrôle sont ajoutées à la cible de diffusions en étant imp
 
 Dans le cadre des diffusions courrier, les adresses de contrôle sont ajoutées pendant l&#39;extraction et mélangées dans le document de sortie.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour les diffusions courrier, le format du fichier d&#39;extraction doit respecter les limitations suivantes :
 >
