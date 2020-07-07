@@ -14,8 +14,11 @@ discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+translation-type: tm+mt
+source-git-commit: 656b867686dd90f3e921c2adb5e5676fec184803
+workflow-type: tm+mt
+source-wordcount: '1976'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +366,7 @@ Les différents types d&#39;associations (dites &quot;cardinalités&quot;) sont 
 
 Dans l&#39;interface, vous pouvez distinguer facilement les différents types de relations grâce à leurs icônes.
 
-Pour les relations de jointure avec une table/base de données de campagne :
+Pour les relations de jointure avec une table de campagne/une base de données :
 
 * ![](assets/join_with_campaign11.png) : Cardinalité 1-1. Par exemple, entre un destinataire et une commande en cours. Un destinataire ne peut être associé qu&#39;à une seule occurrence à la fois de la table des commandes actuelle.
 * ![](assets/externaljoin11.png) : Cardinalité 1-1, jointure externe. Par exemple, entre un destinataire et son pays. Un destinataire ne peut être associé qu&#39;à une seule occurrence dans la table des pays. Le contenu de la table des pays ne sera pas enregistré.
