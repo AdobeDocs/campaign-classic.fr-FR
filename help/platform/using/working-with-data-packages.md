@@ -14,11 +14,11 @@ discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8089eb39e7326408f94b5fd6acacd8950c0e6021
-workflow-type: ht
-source-wordcount: '2551'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+workflow-type: tm+mt
+source-wordcount: '2530'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign vous permet d&#39;exporter ou d&#39;importer la configuration et 
 
 Les packages de données permettent l&#39;échange des entités de la base Adobe Campaign au travers de fichiers au format XML. Chaque entité contenue dans un package est représentée avec toutes ses données.
 
-Le principe des **packages de données** consiste à exporter un paramétrage de données puis l&#39;intégrer dans un autre système Adobe Campaign. Pour plus d&#39;informations sur la gestion d&#39;un ensemble cohérent de packages de données, reportez-vous à cette [technote](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_How_to_maintain_a_consistent_set_of_data_packages.pdf).
+Le principe des packages de données ou **data package** consiste à exporter un paramétrage de données puis l&#39;intégrer dans un autre système Adobe Campaign. Découvrez comment conserver un ensemble cohérent de packages de données dans cette [section](#data-package-best-practices).
 
 ### Types de packages {#types-of-packages}
 
@@ -343,15 +343,11 @@ Pour plus d&#39;informations sur les packages standard, consultez [cette page](.
 
 Cette section décrit comment organiser les packages de données de façon cohérente tout au long de la vie du projet.
 
-<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
-
 Les packages peuvent contenir différents types de configurations et d’éléments, filtrés ou non. S’il manque certains éléments ou si vous n’importez pas les éléments/les packages dans l’ordre approprié, il est possible que la configuration de la plate-forme soit interrompue.
 
 De plus, si plusieurs personnes travaillent sur la même plate-forme avec de nombreuses fonctionnalités différentes, le dossier contenant les spécifications des packages peut rapidement devenir complexe.
 
 Bien que son utilisation ne soit pas obligatoire, cette section propose une solution afin de mieux organiser et utiliser des packages dans Adobe Campaign pour des projets de grande envergure.
-
-<!--This solution has been used with a project involving more than 10 consultants.-->
 
 Les principales contraintes sont les suivantes :
 * Organiser les packages et suivre les modifications et les dates
