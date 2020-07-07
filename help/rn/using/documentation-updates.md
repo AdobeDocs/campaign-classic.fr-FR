@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
-workflow-type: ht
-source-wordcount: '6781'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
+workflow-type: tm+mt
+source-wordcount: '6809'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
+
+## Juillet 2020 {#july-2020}
+
+Une nouvelle section a été ajoutée avec des directives relatives à la surveillance des Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
+
+La section Confidentialité et consentement a été améliorée avec des informations plus détaillées et des liens utiles. [En savoir plus](../../platform/using/privacy-and-recommendations.md).
 
 ## Juin 2020 {#june-2020}
 
@@ -69,7 +75,6 @@ Les points d’entrée réseau de Campaign ont été déplacés vers cette [sect
 La section d’installation de Spam Assassin a été mise à jour avec le nouveau nom du fichier d’installation. [En savoir plus](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
 
 La section relative à la duplication des environnements a été mise à jour. [En savoir plus](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
-
 
 ## Mai 2020 {#may-2020}
 
@@ -261,7 +266,7 @@ Les étapes de configuration du rendu du message (Inbox Rendering) pour les ins
 
 ## Septembre 2019 {#september-2019}
 
-Une nouvelle page a été ajoutée au sujet d&#39;instructions générales concernant la maintenance de Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-maintenance.html)
+Une nouvelle page a été ajoutée au sujet d&#39;instructions générales concernant la maintenance de Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
 
 Les informations relatives à la surveillance des workflows ont été centralisées dans une nouvelle section dédiée. [En savoir plus](../../workflow/using/monitoring-workflow-execution.md).
 
