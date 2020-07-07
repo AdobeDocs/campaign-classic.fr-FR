@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6a4d56c595f16f454684b1d6afc7d7323c5914c
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '1397'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: d6a4d56c595f16f454684b1d6afc7d7323c5914c
 
 La Carte thermique des workflows d&#39;Adobe Campaign est une représentation graphique avec code-couleur de tous les workflows en cours d&#39;exécution. Elle est disponible uniquement pour les administrateurs de l’instance.
 
-D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](../../production/using/monitoring-guidelines.md).
 
 ## A propos de la carte thermique des workflows {#about-the-workflow-heatmap}
 
@@ -45,7 +48,7 @@ Elle permet plus précisément aux administrateurs de la plate-forme d’effectu
 
 L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](../../workflow/using/about-workflows.md), [Activités](../../workflow/using/about-activities.md) et [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md).
 
-La carte thermique des workflows est disponible par défaut dans Adobe Campaign à compter de la version 18.10. Si vous disposez d’un build entre 8700 et 8977 (18.10), vous pouvez également bénéficier de cette fonctionnalité. Pour demander le package correspondant, contactez l’[Assistance clientèle Adobe](https://support.neolane.net/) et suivez les instructions sur [cette page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) pour savoir comment l’installer.
+La carte thermique des workflows est disponible par défaut dans Adobe Campaign à compter de la version 18.10. Si vous disposez d’un build entre 8700 et 8977 (18.10), vous pouvez également bénéficier de cette fonctionnalité. Pour demander le package correspondant, contactez l’[Assistance clientèle Adobe](https://support.neolane.net/) et suivez les instructions sur [cette page](https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html) pour savoir comment l’installer.
 
 Lors de votre premier accès à la carte thermique des workflows, la fenêtre contextuelle suivante apparaît. Cet accord autorise le transfert et le stockage aux États-Unis pour permettre à Adobe Campaign de :
 
