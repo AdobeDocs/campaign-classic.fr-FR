@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 99%
@@ -33,7 +33,7 @@ ACS Connector relie Adobe Campaign v7 à Adobe Campaign Standard. Il s&#39;agit 
 
 Grâce à ACS Connector, les spécialistes du marketing digital continuent à utiliser Campaign Standard pour concevoir, cibler et exécuter des campagnes, tandis que Campaign v7 s&#39;adresse aux utilisateurs orientés données tels que les spécialistes du marketing de base de données.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ACS Connector est disponible uniquement dans le cadre de l&#39;offre Adobe Campaign Prime. Pour plus d&#39;informations sur l&#39;obtention d&#39;une licence Adobe Campaign Prime, contactez votre gestionnaire de compte.
 >
@@ -83,7 +83,7 @@ ACS Connector réplique les éléments suivants de façon périodique de Campaig
 
 La réplication des logs des emails et des identifiants des diffusions permet d&#39;accéder à l&#39;historique des diffusions et aux données de tracking des destinataires v7 depuis Campaign v7.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Seuls les logs de tracking et les broadLogs des emails sont répliqués de Campaign Standard vers Campaign v7.
 
@@ -120,7 +120,7 @@ L&#39;application choisie (Campaign v7 ou Campaign Standard) pour envoyer les d
 
 Il existe deux types de mises en œuvre d&#39;ACS Connector, qui sont toujours effectuées par l&#39;équipe Consulting d&#39;Adobe Campaign.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Cette section est destinée aux utilisateurs experts uniquement. Elle a pour but de leur donner une vue générale de la mise en œuvre et de ses principales étapes.
 >
@@ -140,7 +140,7 @@ Tous les éléments techniques liés à ACS Connector sont disponibles dans le n
 
 Après l&#39;installation du package, deux workflows techniques sont disponibles dans **[!UICONTROL Administration > ACS Connector > Traitement]**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ne tentez jamais de modifier ces workflows. Ils ne doivent jamais être en erreur ou en pause. Si ce type de situation se produit, veuillez contacter votre consultant Adobe Campaign.
 
@@ -290,7 +290,7 @@ Les droits sont gérés différemment dans Campaign v7 et dans Campaign Standar
 
 Cette section décrit certaines des possibilités offertes par la mise en œuvre avancée.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ces informations ne sont que des indications générales. Contactez votre consultant Adobe Campaign pour la mise en œuvre.
 
