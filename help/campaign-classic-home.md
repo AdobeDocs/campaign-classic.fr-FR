@@ -5,9 +5,9 @@ solution: Campaign Classic
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
+source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 95%
 
 ---
@@ -90,4 +90,4 @@ Découvrez les fonctionnalités et les processus de tracking dans Campaign.
 | [Prise en main de Campaign ](platform/using/about-adobe-campaign-classic.md) | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/acc-implementation.html) |
 | [Upgrade vers la version Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
 | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html) | [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) |
-| [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [Bonnes pratiques en matière de monitoring](https://helpx.adobe.com/fr/campaign/kb/acc-maintenance.html) |
+| [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [Directives de supervision](production/using/monitoring-guidelines.md) |
