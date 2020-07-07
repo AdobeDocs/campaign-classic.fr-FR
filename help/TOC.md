@@ -4,11 +4,11 @@ user-guide-title: Aide d'Adobe Campaign Classic
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
-translation-type: ht
-source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
-workflow-type: ht
-source-wordcount: '2082'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
+workflow-type: tm+mt
+source-wordcount: '2078'
+ht-degree: 99%
 
 ---
 
@@ -73,12 +73,13 @@ ht-degree: 100%
    + Accéder à une base externe (FDA){#accessing-external-database}
       + [À propos de FDA](platform/using/about-fda.md)
       + [Configurations spécifiques par type de base de données](platform/using/specific-configuration-database.md)
+      + [Connecteurs hérités](platform/using/legacy-connectors.md)
       + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
       + [Connexion à la base de données](platform/using/connecting-to-database.md)
       + [Créer le schéma des données](platform/using/creating-data-schema.md)
       + [Définir le mapping des données](platform/using/defining-data-mapping.md)
       + [Options additionnelles](platform/using/additional-options.md)
-      + [Utiliser les données d&#39;une base externe dans un workflow](platform/using/data-external-database-workflow.md)
+      + [Annexes](platform/using/appendices-fda.md)
    + Connecteurs {#connectors}
       + [A propos des connecteurs](platform/using/about-connectors.md)
       + [Connecteurs CRM](platform/using/crm-connectors.md)
@@ -289,7 +290,7 @@ ht-degree: 100%
       + [Publier, suivre et utiliser les données collectées](web/using/publish--track-and-use-collected-data.md)
       + [Configurer un questionnaire](web/using/configuring-surveys.md)
       + [Cas pratique : création d’un formulaire de parrainage d’un ami](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ {#integrating-with-adobe-experience-cloud}
++ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage d&#39;audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
@@ -623,6 +624,7 @@ ht-degree: 100%
    + Introduction {#introduction}
       + [Avant-propos](production/using/foreword.md)
       + [Architecture générale](production/using/general-architecture.md)
+      + [Directives de supervision](production/using/monitoring-guidelines.md)
    + Procédures d&#39;exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
