@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 Les workflows techniques ont besoin d&#39;être surveillés, et des mesures doivent être prises en cas d&#39;échec.
 
-D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](https://helpx.adobe.com/campaign/kb/acc-maintenance.html).
+D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](../../production/using/monitoring-guidelines.md).
 
 ## Tableau de bord de supervision de l&#39;instance {#instance-monitoring-dashboard}
 
