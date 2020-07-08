@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 93%
@@ -83,7 +83,7 @@ _7 juillet 2020_
 
 Cette nouvelle version (9032@efd8a94) comprend les correctifs suivants :
 
-* Correction d’un problème qui empêchait le suivi de fonctionner lorsque le serveur de milieu de gamme était sur la version 9032 (Gold Standard 7) et le serveur de marketing sur une version antérieure (antérieure à 9032). (NEO-26411)
+* Correction d’un problème qui empêchait le suivi de fonctionner lorsque le serveur de midsourcing était sur la version 9032 (Gold Standard) et le serveur de marketing sur une version antérieure (antérieure à la version 9032). (NEO-26411)
 
 >[!CAUTION]
 >
