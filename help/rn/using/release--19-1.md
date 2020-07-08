@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c352c850777852d14ccf3002c20f651b46f9047
+source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 94%
+source-wordcount: '2945'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-Le **dernier build stable** est le build 9032 (3a9dc9c). Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+La **dernière version** stable est Gold Standard 10. Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) Version 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
 
@@ -83,7 +83,7 @@ _7 juillet 2020_
 
 Cette nouvelle version (9032@efd8a94) comprend les correctifs suivants :
 
-* Correction d’un problème qui empêchait le suivi des liens de fonctionner. (NEO-26411)
+* Correction d’un problème qui empêchait le suivi de fonctionner lorsque le serveur de milieu de gamme était sur la version 9032 (Gold Standard 7) et le serveur de marketing sur une version antérieure (antérieure à 9032). (NEO-26411)
 
 >[!CAUTION]
 >
