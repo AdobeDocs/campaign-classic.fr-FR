@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+source-git-commit: a6b15dd1be6bb53b7a757d7fe1333314df9693a4
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 99%
+source-wordcount: '2532'
+ht-degree: 95%
 
 ---
 
@@ -38,11 +38,11 @@ Le principe des packages de données ou **data package** consiste à exporter un
 Il existe trois types de packages exportables : les packages utilisateur, les packages plate-forme et les packages admin.
 
 * **Package utilisateur** : il permet de choisir la liste des entités à exporter. Ce type de package gère les dépendances et vérifie les erreurs.
-* **Package plate-forme** : il regroupe toutes les ressources techniques ajoutées (non livrées d&#39;usine) : schémas, code JavaScript...
+* **Package** Platform : il comprend toutes les ressources techniques supplémentaires (non standard) : schémas, code JavaScript, etc.
 
    ![](assets/ncs_datapackage_package_platform.png)
 
-* **Package admin** : il regroupe tous les modèles et objets métiers ajoutés (non livrés d&#39;usine) : modèles, librairies...
+* **Package** d’administration : il comprend tous les modèles et objets commerciaux ajoutés (non standard) : modèles, bibliothèques, etc.
 
    ![](assets/ncs_datapackage_package_admin.png)
 
@@ -315,7 +315,7 @@ Pour exporter un package à partir d&#39;une définition de package, suivez les 
 
 L&#39;assistant d&#39;import de package est accessible à partir du menu principal **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
-Vous pouvez importer le package d&#39;un export réalisé antérieurement, par exemple à partir d&#39;une autre instance Adobe Campaign, ou un package standard, selon les conditions de votre licence.
+You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -331,13 +331,13 @@ Cliquez sur **[!UICONTROL Suivant]** puis sur **[!UICONTROL Démarrer]** pour la
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### Installer un package standard {#installing-a-standard-package}
+### Installing a built-in package {#installing-a-standard-package}
 
-Les packages standard sont installés lors de la configuration d’Adobe Campaign. Selon vos permissions et votre modèle de déploiement, vous pouvez importer de nouveaux packages standard si vous achetez de nouvelles options ou de nouveaux modules complémentaires, ou si vous passez à une offre supérieure.
+Les packs standard sont des packs intégrés, installés lorsque l’Adobe Campaign est configuré. Selon vos autorisations et votre modèle de déploiement, vous pouvez importer de nouveaux packs standard si vous acquérez de nouvelles options ou de nouveaux modules complémentaires ou si vous effectuez une mise à niveau vers une nouvelle offre.
 
 Reportez-vous à votre contrat de licence pour savoir quels packages peuvent être installés.
 
-Pour plus d&#39;informations sur les packages standard, consultez [cette page](../../installation/using/installing-campaign-standard-packages.md).
+For more information on built-in packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
 
 ## Bonnes pratiques relatives aux packages de données {#data-package-best-practices}
 
