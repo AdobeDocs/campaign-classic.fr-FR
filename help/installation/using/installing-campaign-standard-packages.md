@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+source-git-commit: d60389eb735fb50188ddc2f2e3df3788a3213446
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1163'
 ht-degree: 76%
 
 ---
@@ -132,12 +132,6 @@ Le tableau suivant répertorie tous les packages standard avec leur description,
    <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="../../delivery/using/sms-channel.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
-  <tr> 
-   <td> Canal téléphonique<br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal téléphonique avec Adobe Campaign.<br /> </td> 
-   <td> Tous<br /> </td> 
-   <td> Facultatif</td> 
-  </tr>
   <tr> 
    <td> Mobile App Channel<br /> </td> 
    <td> Utilise la plateforme Adobe Campaign pour envoyer des notifications personnalisées aux terminaux iOS et Android via des applications. Facultatif. <a href="../../delivery/using/about-mobile-app-channel.md">En savoir plus</a> <br /> </td> 
