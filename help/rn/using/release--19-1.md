@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
 workflow-type: tm+mt
 source-wordcount: '2945'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -77,27 +77,27 @@ _13 août 2019_
 
 ## Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **Version Gold Standard 10**
+![](assets/do-not-localize/green_2.png) **Version Gold Standard 10**
 
-_7 juillet 2020_
+_7 juillet 2020_
 
-Cette nouvelle version (9032@efd8a94) comprend les correctifs suivants :
+Ce nouveau build (9032@efd8a94) comprend les correctifs suivants :
 
 * Correction d’un problème qui empêchait le suivi de fonctionner lorsque le serveur de midsourcing était sur la version 9032 (Gold Standard) et le serveur de marketing sur une version antérieure (antérieure à la version 9032). (NEO-26411)
 
 >[!CAUTION]
 >
->Nous vous recommandons de mettre à niveau la console client avec celle disponible dans cette version. Consultez à ce sujet cette [page](../../installation/using/installing-the-client-console.md)
+>Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez à ce sujet cette [page](../../installation/using/installing-the-client-console.md)
 
-![](assets/do-not-localize/orange_2.png) **Version Gold Standard 9**
+![](assets/do-not-localize/orange_2.png) **Version Gold Standard 9**
 
-_22 juin 2020_
+_22 juin 2020_
 
-Cette nouvelle version (9032@800be2e) comprend les correctifs suivants :
+Ce nouveau build (9032@800be2e) comprend les correctifs suivants :
 
 * Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903, NEO-25799)
 
-Les correctifs suivants sont liés au mécanisme de sécurité des liens de suivi (voir la liste de contrôle [](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)Sécurité et confidentialité) :
+Les correctifs suivants sont liés au mécanisme de sécurité des liens de tracking (voir la [liste de contrôle Sécurité et confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)) :
 
 * Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications Push iOS et Android). (NEO-25965)
 * Correction d’un problème qui pouvait empêcher d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook.  (NEO-25688)
@@ -105,11 +105,11 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de suiv
 * Correction d’un problème lié au service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
 
-![](assets/do-not-localize/orange_2.png) **Version Gold Standard 8**
+![](assets/do-not-localize/orange_2.png) **Version Gold Standard 8**
 
-_29 avril 2020_
+_29 avril 2020_
 
-Cette nouvelle version (9032@3a9dc9c) comprend les correctifs suivants :
+Ce nouveau build (9032@3a9dc9c) comprend les correctifs suivants :
 
 * Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant le service Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
 
@@ -130,45 +130,45 @@ Cette nouvelle version (9032@3a9dc9c) comprend les correctifs suivants :
 * Correction d’une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d’une régression mineure dans les logs du workflow de nettoyage.
 
-![](assets/do-not-localize/orange_2.png) **Version Gold Standard 6**
+![](assets/do-not-localize/orange_2.png) **Version Gold Standard 6**
 
-_9 mars 2019_
+_9 mars 2019_
 
-Cette nouvelle version (9032@19f73c5) comprend les correctifs suivants :
+Ce nouveau build (9032@19f73c5) comprend les correctifs suivants :
 
 * Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
 
-![](assets/do-not-localize/orange_2.png) **Version Gold Standard 5**
+![](assets/do-not-localize/orange_2.png) **Version Gold Standard 5**
 
-_17 décembre 2019_
+_17 décembre 2019_
 
-Cette nouvelle version (9032@d6b8062) comprend les correctifs suivants :
+Ce nouveau build (9032@d6b8062) comprend les correctifs suivants :
 
 * Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter). (NEO-19595)
 
-![](assets/do-not-localize/orange_2.png) **Version Gold Standard 4**
+![](assets/do-not-localize/orange_2.png) **Version Gold Standard 4**
 
-_11 décembre 2019_
+_11 décembre 2019_
 
-Cette nouvelle version (9032@bc4a935) comprend les correctifs suivants :
+Ce nouveau build (9032@bc4a935) comprend les correctifs suivants :
 
 * Correction d’un problème de performances lors de l’envoi de messages avec une base de données MSSQL. (NEO-17558)
 
-![](assets/do-not-localize/orange_2.png) **Version Gold Standard 3**
+![](assets/do-not-localize/orange_2.png) **Version Gold Standard 3**
 
-_20 novembre 2019_
+_20 novembre 2019_
 
-Cette nouvelle version (9032@3468c7b) comprend les correctifs suivants :
+Ce nouveau build (9032@3468c7b) comprend les correctifs suivants :
 
 * Correction d’un problème de connexion via l’authentification IMS. (NEO-17312)
 * Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs diffusions. (NEO-18165)
 * Correction d’un problème susceptible de bloquer ou de provoquer le blocage du serveur web.
 
-![](assets/do-not-localize/orange_2.png) **Version Gold Standard 2**
+![](assets/do-not-localize/orange_2.png) **Version Gold Standard 2**
 
-_19 septembre 2019_
+_19 septembre 2019_
 
-Cette nouvelle version (9032@cee805c) comprend les correctifs suivants :
+Ce nouveau build (9032@cee805c) comprend les correctifs suivants :
 
 * Correction d’un problème lors de l’utilisation du connecteur CRM pour Salesforce. (NEO-17712)
 * Correction d’un problème d’index qui pouvait entraîner des problèmes de performances lors de l’envoi de messages transactionnels.
@@ -177,7 +177,7 @@ Cette nouvelle version (9032@cee805c) comprend les correctifs suivants :
 
 _13 août 2019_
 
-Version initiale 19.1.4 qui comprend les correctifs suivants :
+Version 19.1.4 initiale qui comprend les correctifs suivants :
 
 * Correction d&#39;un problème lié à l&#39;activité du planificateur qui générait des messages d&#39;erreur indésirables lors de la configuration de l&#39;assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
 * Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
