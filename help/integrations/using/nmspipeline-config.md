@@ -23,9 +23,9 @@ ht-degree: 2%
 ---
 
 
-# Pipeline, option NmsPipeline_Config {#nmspipeline_config}
+# Option pipeline NmsPipeline_Config {#nmspipeline_config}
 
-Une fois l&#39;authentification effectuée, l&#39;oléoduc peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans l’Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
+Une fois l&#39;authentification effectuée, pipelined peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans l’Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
 L’option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
 La configuration des déclencheurs est effectuée dans une option, sous **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Le nom de l&#39;option est **[!UICONTROL NmsPipeline_Config]**. Le type de données est &quot;texte long&quot; au format JSON.
@@ -90,6 +90,6 @@ Assurez-vous que le fichier JSON est valide avec l’aide de ce [site Web](http:
 
 * &quot;name&quot; est l’identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
 * &quot;Consumer&quot; est toute chaîne unique qui identifie de manière unique l’instance nlserver. Il peut généralement s’agir du nom d’instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu’il soit unique pour chacun d’eux afin que chaque instance reçoive une copie du message.
-* Pipelin prend également en charge la rubrique &quot;alias&quot;.
+* Pipelined prend également en charge la rubrique &quot;alias&quot;.
 
-Redémarrez l’oléoduc après avoir apporté des modifications.
+Redémarrez pipelined après avoir apporté des modifications.
