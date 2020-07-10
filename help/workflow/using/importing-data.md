@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2604'
 ht-degree: 79%
 
 ---
@@ -82,9 +82,11 @@ Un exemple est présenté dans le cas d’utilisation ci-dessous.
 * [activité](../../workflow/using/data-loading--file-.md)de chargement de données (fichier).
 * [Compresser ou crypter un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
-### Cas d’utilisation : Importation de données chiffrées à l’aide d’une clé générée par le Panneau de configuration {#use-case-gpg-decrypt}
+### Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle {#use-case-gpg-decrypt}
 
 Dans ce cas d’utilisation, nous allons créer un flux de travail afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de configuration.
+
+Une vidéo didacticiel montrant comment utiliser une clé GPG pour déchiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
 
 Les étapes pour effectuer cette utilisation sont les suivantes :
 
