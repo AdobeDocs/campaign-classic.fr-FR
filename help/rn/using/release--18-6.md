@@ -14,8 +14,11 @@ discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d046304657f04312d78176c49a650690b05e4c94
+workflow-type: ht
+source-wordcount: '829'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: d046304657f04312d78176c49a650690b05e4c94
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
 
 **Nouveautés**
 
@@ -84,7 +87,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
 
 **Nouveautés**
 
@@ -102,7 +105,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
   </tr> 
   <tr> 
    <td> Prise en charge de Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
+   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +114,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 
 decryptString
 
-La fonction **decryptString** est obsolète. Reportez-vous à l’article [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html).
+La fonction **decryptString** est obsolète. Reportez-vous à l’article [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
 
 Pour les nouveaux clients, cette fonction n’est plus utilisée que pour déchiffrer l’ID crypté du destinataire dans les landing pages. Pour déchiffrer les mots de passe stockés dans un compte externe, utilisez la nouvelle fonction **decryptPassword**.
 
@@ -119,7 +122,7 @@ Pour les clients existants, le comportement de cette fonction reste inchangée m
 
 decryptPassword
 
-La fonction **decryptPassword** a été ajoutée. Elle vous permet de déchiffrer un mot de passe stocké dans un compte externe. Reportez-vous à la documentation [JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) pour plus d’informations.
+La fonction **decryptPassword** a été ajoutée. Elle vous permet de déchiffrer un mot de passe stocké dans un compte externe. Reportez-vous à la documentation [JSAPI](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) pour plus d’informations.
 
 API de fichier
 
