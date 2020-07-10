@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 52%
+source-wordcount: '949'
+ht-degree: 51%
 
 ---
 
@@ -101,9 +101,11 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l’onglet **[!UICONT
 * [Décompresser ou décrypter un fichier avant traitement](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
 * [activité](../../workflow/using/extraction--file-.md)d’extraction de données (fichier).
 
-### Cas d’utilisation : Chiffrement et exportation de données à l’aide d’une clé installée sur le Panneau de configuration {#use-case-gpg-encrypt}
+### Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
 
 Dans ce cas d’utilisation, nous allons créer un processus afin de chiffrer et d’exporter des données à l’aide d’une clé installée sur le Panneau de configuration.
+
+Une vidéo didacticiel montrant comment utiliser une clé GPG pour chiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
 Les étapes pour effectuer cette utilisation sont les suivantes :
 
