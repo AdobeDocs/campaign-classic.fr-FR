@@ -4,11 +4,11 @@ user-guide-title: Aide d'Adobe Campaign Classic
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 99%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête    {#creating-queries}
+   + Créer une requête     {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -73,7 +73,7 @@ ht-degree: 99%
    + Accéder à une base externe (FDA){#accessing-external-database}
       + [À propos de FDA](platform/using/about-fda.md)
       + [Configurations spécifiques par type de base de données](platform/using/specific-configuration-database.md)
-      + [Connecteurs hérités](platform/using/legacy-connectors.md)
+      + [Anciens connecteurs](platform/using/legacy-connectors.md)
       + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
       + [Connexion à la base de données](platform/using/connecting-to-database.md)
       + [Créer le schéma des données](platform/using/creating-data-schema.md)
@@ -290,7 +290,7 @@ ht-degree: 99%
       + [Publier, suivre et utiliser les données collectées](web/using/publish--track-and-use-collected-data.md)
       + [Configurer un questionnaire](web/using/configuring-surveys.md)
       + [Cas pratique : création d’un formulaire de parrainage d’un ami](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ {#integrating-with-adobe-experience-cloud}
    + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage d&#39;audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
@@ -413,7 +413,7 @@ ht-degree: 99%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle    {#monitoring}
+      + Contrôle     {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
