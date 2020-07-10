@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Juillet 2020 {#july-2020}
 
-Une nouvelle section a été ajoutée avec des directives relatives à la surveillance des Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
+Une nouvelle section a été ajoutée avec des directives relatives à la surveillance Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
 
 La section Confidentialité et consentement a été améliorée avec des informations plus détaillées et des liens utiles. [En savoir plus](../../platform/using/privacy-and-recommendations.md).
 
