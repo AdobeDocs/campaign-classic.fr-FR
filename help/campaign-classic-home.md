@@ -4,11 +4,11 @@ seo-title: Documentation du produit Adobe Campaign Classic
 solution: Campaign Classic
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## Nouveautés
 
-* **[Émoticônes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d&#39;objet
+* **[Émoticônes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d’objet.
 
 * **[Accès à l’assistance technique](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/>
 FAQ, bonnes pratiques, ressources d’aide, demandes d’assistance.
