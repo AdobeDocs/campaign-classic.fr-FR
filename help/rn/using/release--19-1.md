@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
+source-git-commit: 77bb2ee42919a1bbf9a1a9e4594505f5cf99ca68
 workflow-type: tm+mt
-source-wordcount: '2945'
-ht-degree: 98%
+source-wordcount: '2932'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ _7 juillet 2020_
 
 Ce nouveau build (9032@efd8a94) comprend les correctifs suivants :
 
-* Correction d’un problème qui empêchait le suivi de fonctionner lorsque le serveur de midsourcing était sur la version 9032 (Gold Standard) et le serveur de marketing sur une version antérieure (antérieure à la version 9032). (NEO-26411)
+* Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
 
 >[!CAUTION]
 >
