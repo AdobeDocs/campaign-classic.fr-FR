@@ -41,7 +41,7 @@ Des cas d’utilisation ont été ajoutés pour [crypter](../../workflow/using/h
 
 Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
-La page Triggers Experience Cloud et intégration d’Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
+La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 06/08/2020{#release-20-2}
 
