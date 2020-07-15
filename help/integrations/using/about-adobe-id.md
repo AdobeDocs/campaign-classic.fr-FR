@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 567cae1b91efbcd04a041630eeeb446450e002f7
+source-git-commit: 2140468e52d78a91fc4128e9187d927f08e2f0ee
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 75%
 
 ---
 
@@ -32,11 +32,11 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 * politique de gestion de mot de passe plus sécurisée
 * utilisation de comptes de type Federated ID (fournisseur d&#39;identité externe)
 
-Le système de gestion des identités d’Adobe permet aux administrateurs de créer et de gérer l’accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
+Adobe IMS (Identity Management System) aide les administrateurs à créer et à gérer l’accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
 >[!IMPORTANT]
 >
->L’implémentation d’IMS est strictement réservée aux administrateurs techniques d’Adobe. Il s’agit d’un processus complexe, potentiellement fastidieux.
+>La mise en oeuvre de Adobe IMS est strictement réservée aux administrateurs techniques de Adobe. Contactez votre responsable Adobe pour début le processus de mise en oeuvre.
 
 ## Rubriques connexes :
 
@@ -45,4 +45,3 @@ Le système de gestion des identités d’Adobe permet aux administrateurs de cr
 | [Paramétrer IMS](../../integrations/using/configuring-ims.md) | [FAQ sur Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/faq.html) |
 | [Implémenter IMS](../../integrations/using/implementing-ims.md) | [Gestion des accès](../../platform/using/access-management.md) |
 | [Dépanner IMS](../../integrations/using/ims-troubleshooting.md) | [Installation des packages Campaign](../../installation/using/installing-campaign-standard-packages.md) |
-
