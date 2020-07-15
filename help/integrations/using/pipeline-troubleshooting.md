@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 
-1. Vérifiez si l’élément en pipeline est présent dans le fichier de configuration. Si ce n&#39;est pas le cas, cela signifie qu&#39;il n&#39;est pas pris en charge.
+1. Vérifiez si l’ [!DNL pipelined] élément est présent dans le fichier de configuration. Si ce n&#39;est pas le cas, cela signifie qu&#39;il n&#39;est pas pris en charge.
 1. Effectuez la mise à niveau vers la version 6.11 de la version 8705 ou ultérieure.
 
 **Pipelin échoue avec &quot; par &quot;[&#39; ou &#39;{&quot; (iRc=16384)&quot;**
@@ -53,7 +53,7 @@ Le paramètre @authPrivateKey du fichier de configuration de l&#39;instance est 
 1. Vérifiez que authPrivateKey : débuts avec @, se termine par = et comporte environ 4 000 caractères.
 1. Recherchez la clé d’origine et vérifiez qu’elle est : au format RSA, 4096 bits de long, et débuts avec —BEGIN RSA PRIVATE KEY—.
    <br> Si nécessaire, recréez la clé et enregistrez-la sur Adobe Analytics. Consultez cette [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation).
-1. Vérifiez que la clé a été codée au sein de la même instance que la clé en pipeline. <br>Si nécessaire, recommencez le codage à l’aide de l’exemple de code JavaScript ou de flux de travaux.
+1. Vérifiez que la clé a été codée dans la même instance que [!DNL pipelined]. <br>Si nécessaire, recommencez le codage à l’aide de l’exemple de code JavaScript ou de flux de travaux.
 
 **Pipelin ne parvient pas à &quot;lire le jeton pendant l&#39;authentification&quot;.**
 
@@ -65,12 +65,12 @@ Le format de la clé privée n&#39;est pas valide.
 
 **Aucun déclencheur n&#39;est récupéré**
 
-Lorsque le processus en pipeline est en cours d’exécution et qu’aucun déclencheur n’est récupéré :
+Lorsque le [!DNL pipelined] processus est en cours d’exécution et qu’aucun déclencheur n’est récupéré :
 
 1. Assurez-vous que le déclencheur est actif en Analytics et qu’il génère des événements.
-1. Assurez-vous que le processus en pipeline est en cours d’exécution.
-1. Recherchez des erreurs dans le journal en pipeline.
-1. Recherchez des erreurs dans la page d’état de l’oléoduc. trigger-discarted, trigger-failure doit être nul.
+1. Assurez-vous que le [!DNL pipelined] processus est en cours d’exécution.
+1. Recherchez les erreurs dans le [!DNL pipelined] journal.
+1. Recherchez des erreurs dans la page d’ [!DNL pipelined] état. trigger-discarted, trigger-failure doit être nul.
 1. Vérifiez que le nom du déclencheur est configuré dans l&#39;option **[!UICONTROL NmsPipeline_Config]** . En cas de doute, utilisez l’option générique.
 1. Vérifiez que Analytics possède un déclencheur actif et génère des événements. Il peut y avoir un délai de quelques heures après que la configuration a été effectuée en Analytics avant d&#39;être active.
 
@@ -89,9 +89,9 @@ Lorsque l’horodatage Analytics est beaucoup plus ancien que la date de créati
 
 En règle générale, un déclencheur peut prendre de 15 à 90 minutes pour lancer une campagne marketing. Cela varie en fonction de l’implémentation de la collecte de données, de la charge sur le pipeline, de la configuration personnalisée du déclencheur défini et du processus dans l’Adobe Campaign.
 
-1. Vérifiez si le processus en pipeline est en cours d’exécution.
+1. Vérifiez si le [!DNL pipelined] processus est en cours d’exécution.
 1. Recherchez des erreurs dans pipeline.log susceptibles de provoquer des Reprises. Corrigez les erreurs, le cas échéant.
-1. Vérifiez la taille de la file d&#39;attente dans la page d&#39;état en pipeline. Si la taille de la file d’attente est importante, améliorez les performances de JS.
+1. Vérifiez la taille de la file d&#39;attente dans la page [!DNL pipelined] d&#39;état. Si la taille de la file d’attente est importante, améliorez les performances de JS.
 1. Comme un délai semble augmenter avec le volume, configurez les déclencheurs sur Analytics en utilisant moins de messages.
 Annexes
 
