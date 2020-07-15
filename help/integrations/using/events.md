@@ -15,15 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1152'
 ht-degree: 2%
 
 ---
 
 
-# Triggers événements {#events}
+# Événements Triggers {#events}
 
 ## événements de traitement dans JavaScript {#events-javascript}
 
@@ -31,13 +31,13 @@ ht-degree: 2%
 
 Pipeline utilise une fonction JavaScript pour traiter chaque message. Cette fonction est définie par l’utilisateur.
 
-Il est configuré dans l&#39;option **[!UICONTROL NmsPipeline_Config]** sous l&#39;attribut &quot;JSConnector&quot;. Ce javascript est appelé chaque fois qu&#39;un événement est reçu. Il est géré par le processus pipeliné.
+Il est configuré dans l&#39;option **[!UICONTROL NmsPipeline_Config]** sous l&#39;attribut &quot;JSConnector&quot;. Ce javascript est appelé chaque fois qu&#39;un événement est reçu. Il est géré par le [!DNL pipelined] processus.
 
 L&#39;exemple de fichier JS est cus:triggers.js.
 
 ### JavaScript, fonction {#function-js}
 
-Le script Javascript du pipeline doit être début avec une fonction spécifique.
+Le [!DNL pipelined] code JavaScript doit être début avec une fonction spécifique.
 
 Cette fonction est appelée une fois pour chaque événement :
 
@@ -51,7 +51,7 @@ Il doit retourner comme
 <undefined/>
 ```
 
-Redémarrez l’oléoduc après avoir modifié la JS.
+Redémarrez [!DNL pipelined] après avoir modifié le fichier JS.
 
 ### Format de données de déclenchement {#trigger-format}
 
@@ -110,7 +110,7 @@ Exemple :
 
 ### Ordre de traitement des événements {#order-events}
 
-Les événements sont traités un par un, par ordre de décalage. Chaque thread du pipeline traite une partition différente.
+Les événements sont traités un par un, par ordre de décalage. Chaque thread du [!DNL pipelined] processus traite une partition différente.
 
 Le &quot;décalage&quot; du dernier événement récupéré est stocké dans la base de données. Par conséquent, si le processus est arrêté, il redémarre à partir du dernier message. Ces données sont stockées dans le schéma intégré xtk:pipelineOffset.
 
@@ -122,8 +122,8 @@ Actuellement, il n&#39;existe aucun moyen d&#39;avoir des files d&#39;attente di
 
 ### Journalisation et gestion des erreurs {#logging-error-handling}
 
-Les journaux tels que logInfo() sont dirigés vers le journal en pipeline. Des erreurs telles que logError() sont consignées dans le journal en file d&#39;attente et entraînent le placement du événement dans une file d&#39;attente de nouvelle tentative. Vérifier le journal en pipeline.
-Les messages en erreur sont répétés plusieurs fois dans la durée définie dans les options en pipeline.
+Les journaux tels que logInfo() sont dirigés vers le [!DNL pipelined] journal. Des erreurs telles que logError() sont consignées dans le [!DNL pipelined] journal et entraînent le placement du événement dans une file d&#39;attente de nouvelle tentative. Vérifier le journal en pipeline.
+Les messages en erreur sont répétés plusieurs fois dans la durée définie dans les [!DNL pipelined] options.
 
 À des fins de débogage et de surveillance, les données de déclenchement complètes sont écrites dans la table de déclenchement. Il se trouve dans le champ &quot;données&quot; au format XML. Une autre solution consiste à utiliser un logInfo() contenant les données de déclenchement dans le même but.
 
