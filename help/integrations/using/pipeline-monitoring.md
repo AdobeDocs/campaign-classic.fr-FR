@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 # Surveillance du pipeline {#pipeline-monitoring}
 
-Le service Web d’état avec pipeline fournit des informations sur l’état du processus avec pipeline.
+Le service Web d’ [!DNL pipelined] état fournit des informations sur l’état du [!DNL pipelined] processus.
 
 Il est accessible manuellement à l’aide d’un navigateur ou automatiquement à l’aide d’une application de surveillance.
 
@@ -50,7 +50,7 @@ Les indicateurs recommandés pour le suivi sont mis en évidence.
    * next-offsets-flush : délai d’attente jusqu’au lot suivant, une fois terminé.
    * traité-depuis-le-dernier vidage : nombre de déclencheurs traités dans le dernier lot.
 * routage
-   * triggers : liste des déclencheurs récupérés. Configuré dans l’option d’oléoduc.
+   * triggers : liste des déclencheurs récupérés. Configuré dans l’ [!DNL pipelined] option.
 * stats
    * average-pointer-flush-time-ms : temps de traitement moyen pour un lot de déclencheurs.
    * average-trigger-processing-time-ms : durée moyenne passée à analyser les données des déclencheurs.
