@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 Cette intégration peut être utilisée, par exemple, pour créer une newsletter dans Adobe Experience Manager, qui sera ensuite utilisée dans le cadre d&#39;une campagne email dans Adobe Campaign.
 
-Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégration, consultez ce [guide pas à pas](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html).
+Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégration, consultez ce [guide pas à pas](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/aem.html).
 
 **Depuis Adobe Experience Manager :**
 
@@ -32,7 +35,7 @@ Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégrati
 
    ![](assets/aem_uc_1.png)
 
-1. Sélectionnez **[!UICONTROL Campagnes > Nom de votre marque (We.Retail, dans le cas présent) > Zone maître > Campagnes par courriel]**.
+1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**.
 1. Cliquez sur le bouton **[!UICONTROL Créer]** en haut à droite de la page, puis sélectionnez **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)
