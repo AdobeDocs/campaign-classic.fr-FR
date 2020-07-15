@@ -15,17 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9957dabca4c63d504a3d06cf527a97b79fee46d5
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 
-# Option pipeline NmsPipeline_Config {#nmspipeline_config}
+# Option de pipeline NmsPipeline_Config {#nmspipeline_config}
 
-Une fois l&#39;authentification effectuée, pipelined peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans l’Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
+Une fois l’authentification effectuée, [!DNL pipelined] vous pouvez récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans l’Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
 L’option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
 La configuration des déclencheurs est effectuée dans une option, sous **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Le nom de l&#39;option est **[!UICONTROL NmsPipeline_Config]**. Le type de données est &quot;texte long&quot; au format JSON.
@@ -90,6 +90,6 @@ Assurez-vous que le fichier JSON est valide avec l’aide de ce [site Web](http:
 
 * &quot;name&quot; est l’identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
 * &quot;Consumer&quot; est toute chaîne unique qui identifie de manière unique l’instance nlserver. Il peut généralement s’agir du nom d’instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu’il soit unique pour chacun d’eux afin que chaque instance reçoive une copie du message.
-* Pipelined prend également en charge la rubrique &quot;alias&quot;.
+* [!DNL Pipelined] prend également en charge la rubrique &quot;alias&quot;.
 
-Redémarrez pipelined après avoir apporté des modifications.
+Redémarrez [!DNL pipelined] après avoir apporté des modifications.
