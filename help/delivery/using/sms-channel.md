@@ -14,11 +14,11 @@ discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3bf835b3f686d1293fda7e6254660c477ba26452
-workflow-type: ht
-source-wordcount: '3273'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f0bb31f7234289f39a561fa58a23cac0390b465
+workflow-type: tm+mt
+source-wordcount: '3272'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +64,7 @@ Pour ce faire, procédez comme suit :
 
    >[!CAUTION]
    >
-   > À compter de la version 20.2, les anciens connecteurs hérités seront abandonnés et ne seront plus pris en charge. Nous vous recommandons d’utiliser le connecteur **[!UICONTROL SMPP générique étendu]**. Pour plus d’informations sur la migration vers le connecteur recommandé, voir cette [page](https://helpx.adobe.com/fr/campaign/kb/sms-connector.html).
+   > A compter de la version 20.2, les connecteurs hérités sont obsolètes et ne sont pas pris en charge. Nous vous recommandons d’utiliser le connecteur **[!UICONTROL SMPP générique étendu]**. Pour plus d’informations sur la migration vers le connecteur recommandé, voir cette [page](https://helpx.adobe.com/fr/campaign/kb/sms-connector.html).
 
 1. L&#39;option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** vous permet de sauvegarder tout le trafic SMPP dans les fichiers journaux. Cette option doit être activée pour résoudre les problèmes liés au connecteur et pour effectuer une comparaison avec le trafic observé par le fournisseur.
 
