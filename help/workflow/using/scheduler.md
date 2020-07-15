@@ -14,21 +14,34 @@ discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
+translation-type: tm+mt
+source-git-commit: 23629289ac5da3f9bef01f50c452f7c761a6fa44
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 58%
 
 ---
 
 
-# Planificateur{#scheduler}
+# Planificateur {#scheduler}
 
 Le **Planificateur** est une tâche persistante qui active sa transition aux moments spécifiés par son planning.
 
 L&#39;activité **[!UICONTROL Planificateur]** est à considérer comme un départ planifié. Les règles de positionnement de l&#39;activité dans le diagramme sont les mêmes que pour l&#39;activité **[!UICONTROL Début]**. L&#39;activité ne doit jamais comporter de transition entrante.
 
-Il est recommandé de ne pas planifier l&#39;exécution d&#39;un workflow à une fréquence supérieure à toutes les 15 minutes, afin de ne pas nuire aux performances générales du système et d&#39;éviter la création de blocs dans la base de données.
+## Bonnes pratiques {#best-practices}
 
-Lors de la construction de votre workflow, n&#39;utilisez jamais plus d’une activité **[!UICONTROL Planificateur]** par branche. Voir à ce sujet la section [Utiliser des activités](../../workflow/using/workflow-best-practices.md#using-activities).
+* Ne planifiez pas l&#39;exécution d&#39;un flux de travail plus de toutes les 15 minutes, car cela peut nuire aux performances globales du système et créer des blocs dans la base de données.
+
+* N’utilisez jamais plus d’une activité de **[!UICONTROL Planificateur]** par branche dans un processus. Voir [Utilisation d’activités](../../workflow/using/workflow-best-practices.md#using-activities).
+
+* L’utilisation d’une activité de planificateur peut entraîner plusieurs exécutions simultanées d’un workflow. Par exemple, un Planificateur peut déclencher l’exécution du processus toutes les heures, mais parfois l’exécution de l’ensemble du processus prend plus d’une heure.
+
+   Vous pouvez ignorer l’exécution si le processus est déjà en cours d’exécution. Pour plus d’informations sur la manière d’empêcher les exécutions simultanées d’un workflow, consultez [cette page](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
+
+* Notez que la transition peut être activée plusieurs heures plus tard si le flux de travail exécutait une tâche à long terme, telle qu’une importation, ou si le module wfserver a été arrêté pendant un certain temps. Dans ce cas, il peut être nécessaire de limiter l&#39;exécution de la tâche activée par le Planificateur à une certaine période.
+
+## Configuring the Scheduler activity {#configuring-scheduler-activity}
 
 Le planificateur définit le planning d&#39;activation de sa transition. Pour le paramétrer, double-cliquez sur l&#39;objet graphique et cliquez sur le bouton **[!UICONTROL Changer...]**.
 
@@ -51,7 +64,3 @@ Un assistant permet de définir la fréquence et la période de validité de l&#
 1. Vérifiez le paramétrage et cliquez sur le bouton **[!UICONTROL Terminer]** pour l&#39;enregistrer.
 
    ![](assets/s_user_segmentation_scheduler5.png)
-
-L’utilisation d’une activité de planificateur peut entraîner plusieurs exécutions simultanées d’un workflow. Par exemple, il se peut qu&#39;un planificateur déclenche l&#39;exécution du workflow une fois par heure, mais parfois, l&#39;exécution du workflow dans son ensemble dure plus d&#39;une heure. Il peut être préférable de passer l&#39;exécution si le workflow est déjà en cours d&#39;exécution. Pour plus d’informations sur la manière d’empêcher les exécutions simultanées d’un workflow, consultez [cette page](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
-
-Il faut également considérer que la transition peut être activée avec plusieurs heures de retard si le workflow effectuait une tâche de longue durée, comme un import, ou si le module wfserver a été arrêté pendant un certain temps. Dans ce cas, il peut être utile de restreindre l&#39;exécution de la tâche activée par le planificateur à une certaine plage horaire.
