@@ -1,7 +1,7 @@
 ---
-title: Connecteurs hérités
-seo-title: Connecteurs hérités
-description: Connecteurs hérités
+title: Anciens connecteurs
+seo-title: Anciens connecteurs
+description: Anciens connecteurs
 seo-description: null
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
@@ -15,15 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fddd0b61c71c90849a1f64776eea43c57d9debe2
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 96%
+source-wordcount: '1294'
+ht-degree: 95%
 
 ---
 
 
-# Connecteurs hérités {#legacy-connectors}
+# Anciens connecteurs {#legacy-connectors}
+
+Les connecteurs de FDA hérités sont toujours pris en charge par Adobe. Cependant, nous vous recommandons de les remplacer par des alternatives plus récentes répertoriées dans cette [page](../../platform/using/specific-configuration-database.md).
 
 ## Configurer l’accès à Hadoop 2.1 {#configure-access-to-hadoop}
 
