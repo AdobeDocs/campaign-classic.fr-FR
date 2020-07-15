@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '479'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,11 @@ Pipeline est un système de messagerie hébergé dans l&#39;Experience Cloud qui
 
 ### Comment fonctionne Pipeline ? {#how-pipeline-work}
 
-Le processus &quot;en pipeline&quot; s’exécute toujours sur le serveur de marketing d’Adobe Campaign. Il se connecte au pipeline, récupère les événements et les traite immédiatement.
+Le [!DNL pipelined] processus est toujours en cours d’exécution sur le serveur de marketing d’Adobe Campaign. Il se connecte au pipeline, récupère les événements et les traite immédiatement.
 
 ![](assets/triggers_2.png)
 
-Le processus connecté se connecte à l’Experience Cloud à l’aide d’un service d’authentification et envoie une clé privée. Le service d’authentification renvoie un jeton. Le jeton est utilisé pour l’authentification lors de la récupération des événements. [!DNL Triggers] sont récupérées à partir d’un service Web REST à l’aide d’une requête GET simple. La réponse est au format JSON. Les paramètres de la requête incluent le nom du déclencheur et un pointeur qui indique le dernier message récupéré. Le processus en pipeline le gère automatiquement.
+Le [!DNL pipelined] processus se connecte à l’Experience Cloud à l’aide d’un service d’authentification et envoie une clé privée. Le service d’authentification renvoie un jeton. Le jeton est utilisé pour l’authentification lors de la récupération des événements. [!DNL Triggers] sont récupérées à partir d’un service Web REST à l’aide d’une requête GET simple. La réponse est au format JSON. Les paramètres de la requête incluent le nom du déclencheur et un pointeur qui indique le dernier message récupéré. Le [!DNL pipelined] processus le gère automatiquement.
 
 ## Utilisation de l’intégration d’Adobe Experience Cloud Triggers avec Adobe Campaign Classic
 
