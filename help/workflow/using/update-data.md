@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+workflow-type: tm+mt
+source-wordcount: '942'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +34,7 @@ Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement 
 * **[!UICONTROL Ajouter ou mettre à jour]** : ajouter des données ou les mettre à jour si elles ont déjà été ajoutées auparavant.
 * **[!UICONTROL Ajouter]** : ajouter des données uniquement.
 * **[!UICONTROL Mettre à jour]** : mettre à jour des données uniquement.
-* **[!UICONTROL Mettre à jour et fusionner les collections]** : mettre à jour les données et choisir un enregistrement &quot;maître&quot;, puis rattacher les éléments liés aux doublons à cet enregistrement maître. Les doublons peuvent ensuite être supprimés sans créer d&#39;éléments attachés orphelins.
+* **[!UICONTROL Mettre à jour et fusionner des collections]**: mettez à jour les données et choisissez un enregistrement principal, puis liez les éléments liés aux duplicata de cet enregistrement principal. Les Duplicata peuvent ensuite être supprimés sans créer d’éléments orphelins attachés.
 * **[!UICONTROL Supprimer]** : supprimer des données.
 
 ![](assets/s_advuser_update_data_1.png)
