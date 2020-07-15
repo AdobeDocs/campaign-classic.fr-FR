@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
-workflow-type: ht
-source-wordcount: '6809'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
+workflow-type: tm+mt
+source-wordcount: '6913'
+ht-degree: 98%
 
 ---
 
@@ -33,6 +33,14 @@ Une nouvelle section a été ajoutée avec des directives relatives à la survei
 
 La section Confidentialité et consentement a été améliorée avec des informations plus détaillées et des liens utiles. [En savoir plus](../../platform/using/privacy-and-recommendations.md).
 
+La page Gestion de la confidentialité dans le Campaign Classic a été mise à jour avec des informations sur le champ &quot;réglementation&quot; qui est maintenant disponible lors de l&#39;utilisation de l&#39;API permettant de configurer le processus de demande automatique de confidentialité. [En savoir plus](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+La page Aperçu de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne Lei Geral de Proteção de Dados (LGPD). [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+Des informations ont été ajoutées sur les journaux des sous-workflows et sur le comportement en cas d&#39;erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
+
+Les bonnes pratiques ont été ajoutées dans la section **[!UICONTROL Planificateur]** activité. [En savoir plus](../../workflow/using/scheduler.md)
+
 ## Juin 2020 {#june-2020}
 
 La section Suppression d’une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
@@ -41,7 +49,7 @@ Des cas d’utilisation ont été ajoutés pour [crypter](../../workflow/using/h
 
 Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
-La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
+The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 06/08/2020{#release-20-2}
 
