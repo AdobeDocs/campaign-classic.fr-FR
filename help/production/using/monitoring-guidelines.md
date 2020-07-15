@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d944973e10c4df166325049b947e359853a2353
+source-git-commit: fdc305ff5bf27aa5cc0a4a9e89ac8ed9d5bead57
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 14%
+source-wordcount: '722'
+ht-degree: 13%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 14%
 
 L&#39;onglet **[!UICONTROL Surveillance]** , accessible à partir de la page d&#39;accueil du Campaign Classic, est le principal point d&#39;entrée pour vous aider à surveiller votre instance.
 
-Il fournit un tableau de bord de ce qui se produit sur votre instance :  son état (version de build, packages installés, etc.), les indicateurs système, les journaux, les workflows en cours d&#39;exécution, l&#39;état des dernières diffusions envoyées, etc.
+Il fournit un tableau de bord de ce qui se produit sur votre instance : son état (version de build, packages installés, etc.), les indicateurs système, les journaux, les workflows en cours d&#39;exécution, l&#39;état des dernières diffusions envoyées, etc.
 
 Des informations détaillées sont disponibles [ici](../../production/using/monitoring-processes.md).
 
@@ -35,16 +35,18 @@ Des informations détaillées sont disponibles [ici](../../production/using/moni
 
 ## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
 
-D’autres moyens de surveillance des différents processus Campaign sont disponibles. Pour plus d&#39;informations, reportez-vous aux sections ci-dessous.
-
 <table>
-<tr><td><img src="assets/do-not-localize/instance_icon.svg" width="60px"><p><a href="#monitoring-instance">Surveillez votre instance</a></p></td>
-<td><img src="assets/do-not-localize/workflow_icon.svg" width="60px"><p><a href="#moniroting-workflows">workflows d’analyse</a></p></td>
-<td><img src="assets/do-not-localize/database_icon.svg" width="60px"><p><a href="#monitoring-database">Surveillance de la base de données</a></p></td>
-<td><img src="assets/do-not-localize/delivery_icon.svg" width="60px"><p><a href="#monitoring-deliveries">Surveillance des diffusions</a></p></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Surveillez votre instance</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">workflows d’analyse</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Surveillance de la base de données</a></p></td>
+<td><img src="assets/do-not-localize/icon_Send.svg" width="60px"><p><a href="#monitoring-deliveries">Surveillance des diffusions</a></p></td></tr>
 </table>
 
+D’autres moyens de surveillance des différents processus Campaign sont disponibles. Ils offrent plusieurs méthodes de surveillance de vos instances pour s’assurer que votre système est sain et, en fin de compte, résoudre les problèmes qui peuvent se produire lors de la configuration de workflows, de l’envoi de diffusions, etc.
+
 ### Surveillance de votre instance {#monitoring-instance}
+
+<img src="assets/do-not-localize/icon_system.svg" width="60px">
 
 **Outils de surveillance automatique**
 
@@ -56,13 +58,15 @@ La piste d’audit vous permet de visualiser l’historique complet des modifica
 
 **Panneau de contrôle**
 
-Le Panneau de configuration vous permet de gérer plusieurs paramètres de votre instance : gérez les autorisations d’URL, vérifiez les détails de votre instance tels que les versions de création de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) pour en savoir plus.
+Le Panneau de Contrôle vous permet de gérer plusieurs paramètres de votre instance : gérez les autorisations d’URL, vérifiez les détails de votre instance tels que les versions de création de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) pour en savoir plus.
 
 >[!NOTE]
 >
->Veuillez noter que le Panneau de configuration est accessible uniquement aux administrateurs et disponible pour tous les clients utilisant des Adobes Managed Services.
+>Notez que le Panneau de Contrôle est accessible uniquement aux administrateurs et disponible pour tous les clients utilisant des Adobes Managed Services.
 
 ### Surveillance des workflows {#monitoring-workflows}
+
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 **Carte thermique des workflows**
 
@@ -88,6 +92,8 @@ Suivez les directives et les bonnes pratiques en cas d’utilisation de workflow
 
 ### Suivre les diffusions {#monitoring-deliveries}
 
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
+
 **Rapports SMTP**
 
 Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP par domaine. [Cliquez ici](../../production/using/monitoring-processes.md) pour en savoir plus.
@@ -103,6 +109,8 @@ Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP pa
 * [Problèmes](../../production/using/temporary-files.md) de fichiers temporaires - *sur les modèles d’hébergement locaux uniquement*
 
 ### Surveillance de la base de données {#monitoring-database}
+
+<img src="assets/do-not-localize/icon_database.svg" width="60px">
 
 **Workflow de Nettoyage de la base**
 
