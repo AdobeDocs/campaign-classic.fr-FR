@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +49,7 @@ Adobe Campaign repose sur une architecture orientée service (SOA) composée de 
 
 >[!CAUTION]
 >
->En dehors d&#39;une prestation Adobe explicite en la matière, l&#39;installation, la mise à jour et la maintenance de tous les composants d&#39;une plate-forme Adobe Campaign sont de la responsabilité du ou des administrateurs des machines qui les hébergent. Il conviendra notamment de mettre en œuvre les prérequis nécessaires au fonctionnement des applications Adobe Campaign, ainsi que de respecter la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) entre les composants.
+>En dehors d&#39;une prestation Adobe explicite en la matière, l&#39;installation, la mise à jour et la maintenance de tous les composants d&#39;une plate-forme Adobe Campaign sont de la responsabilité du ou des administrateurs des machines qui les hébergent. Il conviendra notamment de mettre en œuvre les prérequis nécessaires au fonctionnement des applications Adobe Campaign, ainsi que de respecter la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) entre les composants.
 
 ## Couche de présentation {#presentation-layer}
 
@@ -116,7 +119,7 @@ Ce processus assure l&#39;enregistrement sur disque des événements entrants, d
 
 **Surveillance des modules** (nlserver watchdog)
 
-Ce processus technique agit en tant que processus maître qui lance tous les autres. De plus, il les surveille et les relance automatiquement en cas d&#39;incident, ce qui assure une disponibilité maximale du système.
+Ce processus technique est un processus primaire qui engendre les autres. Il les surveille également et les relâche automatiquement en cas d&#39;incident, ce qui permet de maintenir un temps de fonctionnement maximum du système.
 
 **Serveur de statistiques** (nlserver stat)
 
