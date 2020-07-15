@@ -4,11 +4,11 @@ user-guide-title: Aide d'Adobe Campaign Classic
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
-translation-type: ht
-source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
-workflow-type: ht
-source-wordcount: '2078'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
+workflow-type: tm+mt
+source-wordcount: '2076'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 + Prise en main {#getting-started}
    + Prise en main d&#39;Adobe Campaign {#starting-with-adobe-campaign}
       + [A propos d&#39;Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-      + [Confidentialité et recommandations](platform/using/privacy-and-recommendations.md)
+      + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
       + [Lancement d&#39;Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Espace de travail Adobe Campaign](platform/using/adobe-campaign-workspace.md)
       + FAQ {#faq}
@@ -72,7 +72,7 @@ ht-degree: 100%
       + [Comptes externes](platform/using/external-accounts.md)
    + Accéder à une base externe (FDA){#accessing-external-database}
       + [À propos de FDA](platform/using/about-fda.md)
-      + [Configurations spécifiques par type de base de données](platform/using/specific-configuration-database.md)
+      + [Configuration des connecteurs de FDA](platform/using/specific-configuration-database.md)
       + [Anciens connecteurs](platform/using/legacy-connectors.md)
       + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
       + [Connexion à la base de données](platform/using/connecting-to-database.md)
@@ -290,7 +290,7 @@ ht-degree: 100%
       + [Publier, suivre et utiliser les données collectées](web/using/publish--track-and-use-collected-data.md)
       + [Configurer un questionnaire](web/using/configuring-surveys.md)
       + [Cas pratique : création d’un formulaire de parrainage d’un ami](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ {#integrating-with-adobe-experience-cloud}
++ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage d&#39;audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
