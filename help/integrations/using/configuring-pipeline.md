@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '937'
 ht-degree: 4%
 
 ---
@@ -129,7 +129,7 @@ Procédez comme suit :
 
 ### Enregistrement du nom de l’application dans Adobe Campaign Classic {#application-name-registration}
 
-Le ID de l&#39;application du client Auth créé doit être configuré dans Adobe Campaign. Pour ce faire, modifiez le fichier de configuration d’instance dans l’élément en pipeline, en particulier l’attribut appName.
+Le ID de l&#39;application du client Auth créé doit être configuré dans Adobe Campaign. Pour ce faire, modifiez le fichier de configuration d’instance dans l’ [!DNL pipelined] élément, en particulier l’attribut appName.
 
 Exemple :
 
@@ -139,11 +139,11 @@ Exemple :
 
 ### Chiffrement de clé {#key-encription}
 
-Pour être utilisée par pipelin, la clé privée doit être chiffrée. Le chiffrement est effectué à l’aide de la fonction JavaScript cryptString et doit être exécuté sur la même instance que pipelin.
+Pour être utilisée par [!DNL pipelined], la clé privée doit être chiffrée. Le chiffrement est effectué à l’aide de la fonction JavaScript cryptString et doit être exécuté sur la même instance que [!DNL pipelined].
 
 Un exemple de chiffrement de clé privée avec JavaScript est disponible dans cette [page](../../integrations/using/pipeline-troubleshooting.md).
 
-La clé privée chiffrée doit être enregistrée dans l&#39;Adobe Campaign. Pour ce faire, modifiez le fichier de configuration d’instance dans l’élément en pipeline, en particulier l’attribut authPrivateKey.
+La clé privée chiffrée doit être enregistrée dans l&#39;Adobe Campaign. Vous pouvez le faire en modifiant le fichier de configuration de l’instance dans l’ [!DNL pipelined] élément, en particulier l’attribut authPrivateKey.
 
 Exemple :
 
@@ -153,7 +153,7 @@ Exemple :
 
 ### début automatique du processus en pipelines {#pipelined-auto-start}
 
-Le processus en pipeline doit être démarré automatiquement.
+Le [!DNL pipelined] processus doit être démarré automatiquement.
 Pour ce faire, définissez l’élément du fichier de configuration sur autostart=&quot;true&quot; :
 
 ```
@@ -174,7 +174,7 @@ Un redémarrage est nécessaire pour que les modifications prennent effet :
 nlserver restart pipelined@instance
 ```
 
-En cas d’erreur, recherchez des erreurs sur la sortie standard (si vous avez démarré manuellement) ou dans le fichier journal en pipeline. Consultez la section Résolution des problèmes de ce document pour plus d&#39;informations sur la résolution des problèmes.
+En cas d’erreur, recherchez des erreurs sur la sortie standard (si vous avez démarré manuellement) ou dans le fichier [!DNL pipelined] journal. Consultez la section Résolution des problèmes de ce document pour plus d&#39;informations sur la résolution des problèmes.
 
 ### Options de configuration des pipelines {#pipelined-configuration-options}
 
@@ -187,7 +187,7 @@ En cas d’erreur, recherchez des erreurs sur la sortie standard (si vous avez d
 | discoverPipelineEndpoint | URL permettant de découvrir le point de terminaison Pipeline Services à utiliser pour ce client. Par défaut : https://producer-pipeline-pnw.adobe.net |
 | dumpStatePeriodSec | Période comprise entre 2 vidages de l’état interne du processus dans var/INSTANCE/pipelined.json L’état interne est également accessible à la demande à l’adresse http://INSTANCE/pipelined/status (port 7781). |
 | forcedPipelineEndpoint | Désactiver la découverte du point de terminaison PipelineServices et la forcer |
-| monitorServerPort | Le processus en pipeline écoute sur ce port pour fournir l’état interne du processus à l’adresse http://INSTANCE/pipelined/status (port 7781). |
+| monitorServerPort | Le [!DNL pipelined] processus écoute sur ce port pour fournir l’état interne du processus à l’adresse http://INSTANCE/pipelined/status (port 7781). |
 | pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages sont enregistrés dans la base de données. La valeur par défaut est 1 000 |
 | pointerFlushPeriodSec | Après cette période, les décalages seront enregistrés dans la base de données. La valeur par défaut est 5 (secondes) |
 | processingJSThreads | Nombre de messages de traitement de threads dédiés avec des connecteurs JS personnalisés. Par défaut : 4 |
