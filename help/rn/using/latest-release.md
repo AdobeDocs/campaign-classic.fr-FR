@@ -13,38 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: 5b7c0dc12b41b8482dce9d42bbf88878bb03bf38
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 99%
+source-wordcount: '1692'
+ht-degree: 100%
 
 ---
 
 
 # Dernière version{#latest-release}
 
-[Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--20-1.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Version diffusable</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsolète</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Dernier build stable disponible. Build validé en production.<br> </td>
-   <td>Build validé par Adobe. En attente de vérification de la production.<br> </td>
-   <td>Build le plus récent disponible avec correctifs. Mise à jour requise.<br> </td>
-   <td>Contient des régressions connues. La mise à jour est obligatoire.<br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-La **dernière version** stable est Gold Standard 10. Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
-
-![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau Panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
