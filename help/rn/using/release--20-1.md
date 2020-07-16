@@ -13,50 +13,29 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 100%
 
 ---
 
 
 # Version 20.1{#release-20-1}
 
-[Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-2.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Version diffusable</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsolète</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Dernier build stable disponible. Build validé en production.<br> </td>
-   <td>Build validé par Adobe. En attente de vérification de la production.<br> </td>
-   <td>Build le plus récent disponible avec correctifs. Mise à jour requise.<br> </td>
-   <td>Contient des régressions connues. La mise à jour est obligatoire.<br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-La **dernière version** stable est Gold Standard 10. Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
-
-## ![](assets/do-not-localize/orange_2.png) Version 20.1.3 - Build 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/orange_2.png) Version 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _mercredi 6 mai 2020_
 
 * Correction d’un problème avec l’activité de **transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
 
-## ![](assets/do-not-localize/orange_2.png) Version 20.1.2 - Build 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/orange_2.png) Version 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
 _13 mars 2020_
 
 * Correction d’une erreur qui empêchait le déploiement de la version sur les serveurs Red Hat 7. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) Version 20.1 - Build 9122 {#release-20-1-build-9122}
+## ![](assets/do-not-localize/orange_2.png) Version 20.1 - Build 9122{#release-20-1-build-9122}
 
 _17 février 2020_
 
