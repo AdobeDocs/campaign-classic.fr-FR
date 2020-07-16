@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
+source-git-commit: 64b31b8d4f88023f4285bf161d236973a7d63107
 workflow-type: tm+mt
-source-wordcount: '6913'
-ht-degree: 98%
+source-wordcount: '6954'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,8 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
 
 ## Juillet 2020 {#july-2020}
+
+Les Notes [de](../../rn/using/latest-release.md) mise à jour ont été réorganisées : une page [](../../rn/using/latest-release.md) d’aperçu a été ajoutée avec des informations sur les états de build, le processus de mise à niveau, les recommandations et les liens importants. Une page dédiée aux versions [de](../../rn/using/gold-standard.md) Gold Standard a également été ajoutée et la matrice [de](../../rn/using/compatibility-matrix.md) compatibilité a été intégrée.
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
 
