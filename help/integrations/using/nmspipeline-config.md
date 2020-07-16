@@ -18,21 +18,21 @@ translation-type: tm+mt
 source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 3%
+ht-degree: 94%
 
 ---
 
 
 # Option de pipeline NmsPipeline_Config {#nmspipeline_config}
 
-Une fois l’authentification effectuée, [!DNL pipelined] vous pouvez récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans l’Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
-L’option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
+Once the authentication works, [!DNL pipelined] can retrieve the events and process them. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
+L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
-La configuration des déclencheurs est effectuée dans une option, sous **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Le nom de l&#39;option est **[!UICONTROL NmsPipeline_Config]**. Le type de données est &quot;texte long&quot; au format JSON.
+La configuration des déclencheurs s&#39;effectue dans une option, sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Le nom de l&#39;option est **[!UICONTROL NmsPipeline_Config]**. Le type de données est &quot;texte long&quot; au format JSON.
 
 Cet exemple montre comment spécifier deux déclencheurs.
 
-Collez le code JSON de ce modèle dans la valeur de l’option. Veillez à supprimer les commentaires.
+Collez le code JSON de ce modèle dans la valeur de l&#39;option. Veillez à supprimer les commentaires.
 
 ```
 {
@@ -75,21 +75,21 @@ Ce deuxième exemple capture tous les déclencheurs.
 
 >[!NOTE]
 >
->La valeur [!DNL Trigger] UID d’un nom de déclencheur spécifique dans l’interface Analytics fait partie des paramètres de chaîne de requête d’URL de l’interface Triggers. L&#39;UID de type de trigger est transmis dans le flux de données du pipeline et le code peut être écrit dans le pipeline.JS pour mapper l&#39;UID du déclencheur à une étiquette conviviale qui peut être stockée dans une colonne Nom du déclencheur dans le schéma pipelineEvents.
+>La valeur UID [!DNL Trigger] d&#39;un nom de déclencheur spécifique dans l&#39;interface Analytics fait partie des paramètres de chaîne de requête d&#39;URL de l&#39;interface Triggers. L&#39;UID triggerType est transmis dans le flux de données du pipeline et le code peut être écrit dans le pipeline .JS pour mapper l&#39;UID du déclencheur avec un libellé convivial qui peut être stocké dans une colonne Nom du déclencheur du schéma pipelineEvents.
 
 ## Le paramètre consommateur {#consumer-parameter}
 
-Le pipeline fonctionne avec un modèle &quot;fournisseur et consommateur&quot;. Il peut y avoir beaucoup de consommateurs sur la même file d&#39;attente. Les messages sont &quot;consommés&quot; uniquement pour un consommateur individuel. Chaque consommateur reçoit sa propre &quot;copie&quot; des messages.
+Le pipeline fonctionne avec un modèle &quot;fournisseur et consommateur&quot;. Il peut y avoir de nombreux consommateurs sur la même file d&#39;attente. Les messages sont &quot;consommés&quot; uniquement pour un consommateur individuel. Chaque consommateur reçoit sa propre &quot;copie&quot; des messages.
 
-Le paramètre &quot;consommateur&quot; identifie l’instance comme l’un de ces consommateurs. Il s&#39;agit de l&#39;identité de l&#39;instance qui appelle le pipeline. Vous pouvez le remplir avec le nom de l’instance. Le service de pipeline effectue le suivi des messages récupérés par chaque client. L’utilisation de différents consommateurs pour différentes instances garantit que chaque message est envoyé à chaque instance.
+Le paramètre &quot;consommateur&quot; identifie l&#39;instance comme l&#39;un de ces consommateurs. Il s&#39;agit de l&#39;identité de l&#39;instance qui appelle le pipeline. Vous pouvez le remplir avec le nom de l&#39;instance. Le service de pipeline effectue le suivi des messages récupérés par chaque consommateur. L&#39;utilisation de différents consommateurs pour différentes instances garantit que chaque message est envoyé à chaque instance.
 
-## Configuration de l’option Pipeline {#configure-pipeline-option}
+## Configuration de l&#39;option Pipeline {#configure-pipeline-option}
 
-Ajouter ou modifier les déclencheurs Experience Cloud sous le tableau &quot;triggers&quot;; ne modifiez pas le reste.
-Assurez-vous que le fichier JSON est valide avec l’aide de ce [site Web](http://jsonlint.com/).
+Ajoutez ou modifiez les déclencheurs Experience Cloud sous le tableau &quot;déclencheurs&quot; ; ne modifiez pas le reste.
+Assurez-vous que le fichier JSON est valide à l&#39;aide de ce [site web](http://jsonlint.com/).
 
-* &quot;name&quot; est l’identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
-* &quot;Consumer&quot; est toute chaîne unique qui identifie de manière unique l’instance nlserver. Il peut généralement s’agir du nom d’instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu’il soit unique pour chacun d’eux afin que chaque instance reçoive une copie du message.
+* &quot;name&quot; est l&#39;identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
+* &quot;Consumer&quot; est formé de toute chaîne unique qui identifie de manière unique l&#39;instance nlserver. Il peut s&#39;agir généralement du nom de l&#39;instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu&#39;il soit unique pour chacun d&#39;eux afin que chaque instance reçoive une copie du message.
 * [!DNL Pipelined] prend également en charge la rubrique &quot;alias&quot;.
 
-Redémarrez [!DNL pipelined] après avoir apporté des modifications.
+Restart [!DNL pipelined] after making changes.
