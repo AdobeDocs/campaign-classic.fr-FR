@@ -15,36 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: c7b00960ffde49df65cd5c8fcfb8fab6aee485d7
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 99%
+source-wordcount: '1295'
+ht-degree: 100%
 
 ---
 
 
 # Version 19.2{#release-19-2}
-
-[Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) | [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Versions précédentes](../../rn/using/release--19-1.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>Disponibilité générale</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>Version diffusable</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>Plus disponible</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>Obsolète</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Dernier build stable disponible. Build validé en production.<br> </td>
-   <td>Build validé par Adobe. En attente de vérification de la production.<br> </td>
-   <td>Build le plus récent disponible avec correctifs. Mise à jour requise.<br> </td>
-   <td>Contient des régressions connues. La mise à jour est obligatoire.<br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-La **dernière version** stable est Gold Standard 10. Cliquez [ici](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
 ## ![](assets/do-not-localize/orange_2.png) Version 19.2.3 - Build 9081 {#release-19-2-3-build-9081}
 
