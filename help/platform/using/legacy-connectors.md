@@ -1,7 +1,7 @@
 ---
-title: Anciens connecteurs
-seo-title: Anciens connecteurs
-description: Anciens connecteurs
+title: Connecteurs hérités
+seo-title: Connecteurs hérités
+description: Connecteurs hérités
 seo-description: null
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
@@ -18,12 +18,12 @@ translation-type: tm+mt
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
 source-wordcount: '1294'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
 
-# Anciens connecteurs {#legacy-connectors}
+# Connecteurs hérités {#legacy-connectors}
 
 Les connecteurs de FDA hérités sont toujours pris en charge par Adobe. Cependant, nous vous recommandons de les remplacer par des alternatives plus récentes répertoriées dans cette [page](../../platform/using/specific-configuration-database.md).
 
@@ -32,7 +32,7 @@ Les connecteurs de FDA hérités sont toujours pris en charge par Adobe. Cependa
 ### Pour Windows {#for-windows}
 
 1. Installez les pilotes ODBC et [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) pour Windows.
-1. Créez le nom de la source de données en exécutant l&#39;outil ODBC DataSource Administrator. Il vous est fourni un exemple de nom de source de données système pour Hive que vous pouvez modifier.
+1. Créez le nom de la source de données en exécutant l’outil ODBC DataSource Administrator. Il vous est fourni un exemple de nom de source de données système pour Hive que vous pouvez modifier.
 
    ```
    Description: vorac (or any name you like)
@@ -96,9 +96,9 @@ Les connecteurs de FDA hérités sont toujours pris en charge par Adobe. Cependa
 
    >[!NOTE]
    >
-   >Le paramètre **UseNativeQuery** est ici très important. Campaign est basé sur Hive et ne fonctionnera pas correctement si le paramètre UseNativeQuery n&#39;est pas défini. En règle générale, le pilote ou Hive SQL Connector réécrit les requêtes et modifie l&#39;ordre des colonnes.
+   >Le paramètre **UseNativeQuery** est ici très important. Campaign est basé sur Hive et ne fonctionnera pas correctement si le paramètre UseNativeQuery n’est pas défini. En règle générale, le pilote ou Hive SQL Connector réécrit les requêtes et modifie l’ordre des colonnes.
 
-   La configuration de l&#39;authentification dépend de la configuration de Hive/Hadoop. Par exemple, pour HDInsight, utilisez AuthMech=6 pour l&#39;authentification par utilisateur/mot de passe, comme décrit [ici](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
+   La configuration de l’authentification dépend de la configuration de Hive/Hadoop. Par exemple, pour HDInsight, utilisez AuthMech=6 pour l’authentification par utilisateur/mot de passe, comme décrit [ici](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
 
 1. Exportez les variables.
 
@@ -136,10 +136,10 @@ Les connecteurs de FDA hérités sont toujours pris en charge par Adobe. Cependa
 
 La connexion à une base de données externe Netezza en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign :
 
-1. Installez les pilotes ODBC pour Netezza, en fonction du système d&#39;exploitation que vous utilisez :
+1. Installez les pilotes ODBC pour Netezza, en fonction du système d’exploitation que vous utilisez :
 
-   * **nz-linuxclient-v7.2.0.0.tar.gz pour Linux. Sélectionnez le dossier correspondant à votre système d&#39;exploitation (linux ou linux64) et lancez la commande unpack. Vous pouvez laisser l&#39;installation s&#39;effectuer dans le répertoire par défaut proposé : &quot;/usr/local/nz&quot;.**
-   * **nz-winclient-v7.2.0.0.zip pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d&#39;exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les indications de l&#39;assistant pour finaliser l&#39;installation des pilotes.**
+   * **nz-linuxclient-v7.2.0.0.tar.gz pour Linux. Sélectionnez le dossier correspondant à votre système d’exploitation (linux ou linux64) et lancez la commande unpack. Vous pouvez laisser l’installation s’effectuer dans le répertoire par défaut proposé : &quot;/usr/local/nz&quot;.**
+   * **nz-winclient-v7.2.0.0.zip pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d’exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les indications de l’assistant pour finaliser l’installation des pilotes.**
 
 1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : **/etc/odbc.ini** pour les paramètres généraux et **/etc/odbcinst.ini** pour la déclaration des pilotes.
 
@@ -175,9 +175,9 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
 
 1. Définissez les variables d’environnement du serveur Adobe Campaign :
 
-   * **LD_LIBRARY_PATH** : /usr/local/nz/lib et /usr/local/nz/lib64. &quot;/usr/local/nz&quot; correspond au répertoire d&#39;installation proposé par défaut lors de l&#39;installation des pilotes. Indiquez ici le répertoire que vous avez sélectionné pour l&#39;installation.
+   * **LD_LIBRARY_PATH** : /usr/local/nz/lib et /usr/local/nz/lib64. &quot;/usr/local/nz&quot; correspond au répertoire d’installation proposé par défaut lors de l’installation des pilotes. Indiquez ici le répertoire que vous avez sélectionné pour l’installation.
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
-   * **NZ_ODBC_INI_PATH** : emplacement du fichier odbc.ini. Netezza requiert également cette seconde variable pour l&#39;utilisation du fichier odbc.ini.
+   * **NZ_ODBC_INI_PATH** : emplacement du fichier odbc.ini. Netezza requiert également cette seconde variable pour l’utilisation du fichier odbc.ini.
 
 1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe Netezza. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
 
@@ -189,7 +189,7 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
 
    * **[!UICONTROL Serveur]** : URL du serveur Netezza
 
-   * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
+   * **[!UICONTROL Compte]** : nom de l’utilisateur
 
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
@@ -206,8 +206,8 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
 La connexion à une base de données externe Sybase IQ en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign :
 
 1. Vérifiez que le package unixodbc se trouve sur le serveur.
-1. Installez **iq_odbc**. Une erreur peut se produire à la fin de l&#39;installation. Celle-ci peut être ignorée.
-1. Installez **iq_client_common**. Une erreur Java peut se produire à la fin de l&#39;installation. Celle-ci peut être ignorée.
+1. Installez **iq_odbc**. Une erreur peut se produire à la fin de l’installation. Celle-ci peut être ignorée.
+1. Installez **iq_client_common**. Une erreur Java peut se produire à la fin de l’installation. Celle-ci peut être ignorée.
 1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : /etc/odbc.ini pour les paramètres généraux et /etc/odbcinst.ini pour la déclaration des pilotes :
 
    * **/etc/odbc.ini**(remplacez les valeurs telles que `<server_alias>` par les vôtres) :
@@ -235,9 +235,9 @@ La connexion à une base de données externe Sybase IQ en FDA requiert les param
       Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
       ```
 
-1. Ajoutez le chemin d&#39;accès de la nouvelle bibliothèque libodbc16.so dans la variable LD_LIBRARY_PATH. Pour ce faire :
+1. Ajoutez le chemin d’accès de la nouvelle bibliothèque libodbc16.so dans la variable LD_LIBRARY_PATH. Pour ce faire :
 
-   * Si vous utilisez un fichier customer.sh pour déclarer le chemin d&#39;accès : ajoutez le chemin d&#39;accès /opt/sybase/IQ-16_0/lib64 pour la variable LD_LIBRARY_PATH.
+   * Si vous utilisez un fichier customer.sh pour déclarer le chemin d’accès : ajoutez le chemin d’accès /opt/sybase/IQ-16_0/lib64 pour la variable LD_LIBRARY_PATH.
    * Sinon, utilisez une commande Unix.
 
 1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe Sybase IQ. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
@@ -250,7 +250,7 @@ La connexion à une base de données externe Sybase IQ en FDA requiert les param
 
    * **[!UICONTROL Serveur]** : correspond à la connexion ODBC (`<server_alias>`) définie à l’étape 5. Il ne s’agit pas nécessairement du nom du serveur lui-même.
 
-   * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
+   * **[!UICONTROL Compte]** : nom de l’utilisateur
 
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
@@ -262,11 +262,11 @@ La connexion à une base de données externe Sybase IQ en FDA requiert les param
 
 ## Configurer l’accès à Teradata {#configure-access-to-teradata}
 
-La connexion à une base de données externe Teradata dans FDA nécessite certaines configurations supplémentaires sur le serveur d’Adobe Campaign. For more information on how to configure your Teradata database, refer to this [page](../../platform/using/appendices-fda.md#teradata-configuration).
+La connexion à une base de données externe Teradata en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign. Pour plus d’informations sur le paramétrage de votre base de données Teradata, consultez cette [page](../../platform/using/appendices-fda.md#teradata-configuration).
 
 1. Installez le [pilote ODBC pour Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
-   Il est constitué de trois packages pouvant être installés sur Red Hat (ou CentOS)/Suse dans l&#39;ordre suivant :
+   Il est constitué de trois packages pouvant être installés sur Red Hat (ou CentOS)/Suse dans l’ordre suivant :
 
    * TeraGSS
    * tdicu1510 (installez-le via setup_wrapper.sh)
@@ -323,10 +323,10 @@ La connexion à une base de données externe Teradata dans FDA nécessite certai
 
 La connexion à une base de données externe SAP HANA en FDA requiert certains paramétrages additionnels sur le serveur Adobe Campaign :
 
-1. Installez les pilotes ODBC pour SAP HANA, en fonction du système d&#39;exploitation que vous utilisez :
+1. Installez les pilotes ODBC pour SAP HANA, en fonction du système d’exploitation que vous utilisez :
 
-   * **hdb_client_linux.tgz pour Linux. Une fois le fichier décompressé, lancez la commande hdbinst et suivez les instructions pour terminer l&#39;installation des pilotes.**
-   * **Hdb_client_windows.zip** pour Windows. Décompressez le fichier et lancez l&#39;exécutable : **hdbinst.exe**. Suivez les instructions de l&#39;assistant pour terminer l&#39;installation des pilotes.
+   * **hdb_client_linux.tgz pour Linux. Une fois le fichier décompressé, lancez la commande hdbinst et suivez les instructions pour terminer l’installation des pilotes.**
+   * **Hdb_client_windows.zip** pour Windows. Décompressez le fichier et lancez l’exécutable : **hdbinst.exe**. Suivez les instructions de l’assistant pour terminer l’installation des pilotes.
 
 1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : /etc/odbc.ini pour les paramètres généraux et /etc/odbcinst.ini pour la déclaration des pilotes.
 
