@@ -18,18 +18,18 @@ translation-type: tm+mt
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
 source-wordcount: '1898'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 
 # Configuration des connecteurs de FDA {#specific-configurations-by-database-type}
 
-En fonction des bases de données externes auxquelles vous souhaitez pouvoir accéder depuis Adobe Campaign, certains paramétrages spécifiques sont nécessaires. Ces paramétrages concernent essentiellement l&#39;installation de pilotes et la déclarations de variables d&#39;environnement propres à chaque SGBDR sur le serveur Adobe Campaign.
+En fonction des bases de données externes auxquelles vous souhaitez pouvoir accéder depuis Adobe Campaign, certains paramétrages spécifiques sont nécessaires. Ces paramétrages concernent essentiellement l’installation de pilotes et la déclarations de variables d’environnement propres à chaque SGBDR sur le serveur Adobe Campaign.
 
-Pour plus d’informations sur les connecteurs hérités tels que Teradata, Hadoop 2.1 ou Netezza, reportez-vous à cette [page](../../platform/using/legacy-connectors.md).
+Pour plus d’informations sur les connecteurs hérités tels que Teradata, Hadoop 2.1 ou Netezza, consultez cette [page](../../platform/using/legacy-connectors.md).
 
-En règle générale, il est nécessaire d&#39;installer la couche cliente correspondant à la base externe utilisée sur le serveur Adobe Campaign.
+En règle générale, il est nécessaire d’installer la couche cliente correspondant à la base de données externe utilisée sur le serveur Adobe Campaign.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Pour créer votre compte externe [!DNL Azure Synapse] :
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
-1. Sélectionnez Base de données **** externe comme **[!UICONTROL Type]** de compte externe.
+1. Sélectionnez **[!UICONTROL Base de données externe]** en tant que **[!UICONTROL Type]** de compte externe.
 
 1. Configurez le compte externe [!DNL Azure Synapse]. Vous devez indiquer les informations suivantes :
 
@@ -137,7 +137,7 @@ Pour configurer Azure Synapse sous CentOS :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Pour autoriser la communication du côté d’Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. Dans le cas des iptables, exécutez la commande suivante :
 
@@ -228,7 +228,7 @@ Pour configurer Azure Synapse sous Debian :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Pour autoriser la communication du côté d’Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Configurer l’accès à Snowflake {#configure-access-to-snowflake}
 
@@ -246,9 +246,9 @@ Le compte externe [!DNL Snowflake] vous permet de connecter l’instance Campaig
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
-1. Sélectionnez Base de données **** externe comme **[!UICONTROL Type]** de compte externe.
+1. Sélectionnez **[!UICONTROL Base de données externe]** en tant que **[!UICONTROL Type]** de compte externe.
 
-1. Configurez le compte externe **[!UICONTROL Snowflake]**. Vous devez indiquer les informations suivantes :
+1. Pour configurer le compte externe **[!UICONTROL Snowflake]**, vous devez indiquer les informations suivantes :
 
    * **[!UICONTROL Type]**: [!DNL Snowflake]
 
@@ -272,8 +272,8 @@ Le connecteur prend en charge les options suivantes :
 |---|---|
 | workschema | Schéma de base de données à utiliser pour les tables de travail. |
 | warehouse | Nom de l’entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l’utilisateur. |
-| TimeZoneName | Vide par défaut. C’est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>[Voir à ce propos cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>[Voir à ce propos cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
+| TimeZoneName | Vide par défaut. C’est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d’utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d’informations à ce sujet, voir [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 
 ### Snowflake sous CentOS {#snowflake-centos}
@@ -327,15 +327,15 @@ Le connecteur prend en charge les options suivantes :
 
 ### Compte externe Hadoop {#hadoop-external}
 
-The [!DNL Hadoop] external account allows you to connect your Campaign instance to your Hadoop external database.
+Le compte externe [!DNL Hadoop] vous permet de connecter votre instance Campaign à votre base de données externe Hadoop.
 
 1. Dans Campaign Classic, configurez votre compte externe [!DNL Hadoop]. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
-1. Sélectionnez Base de données **** externe comme **[!UICONTROL Type]** de compte externe.
+1. Sélectionnez **[!UICONTROL Base de données externe]** en tant que **[!UICONTROL Type]** de compte externe.
 
-1. Configure the **[!UICONTROL Hadoop]** external account, you must specify:
+1. Pour configuer le compte externe **[!UICONTROL Hadoop]**, vous devez indiquer les informations suivantes :
 
    * **[!UICONTROL Type]** : ODBC (Sybase ASE, Sybase IQ)
 
@@ -386,19 +386,19 @@ La connexion à une base de données externe Hadoop dans FDA requiert les param�
 
 ## Configurer l’accès à Oracle {#configure-access-to-oracle}
 
-### Oracle external account {#oracle-external}
+### Compte externe Oracle {#oracle-external}
 
-The [!DNL Oracle] external account allows you to connect your Campaign instance to your Hadoop external database.
+Le compte externe [!DNL Oracle] vous permet de connecter votre instance Campaign à votre base de données externe Hadoop.
 
 1. Dans Campaign Classic, configurez votre compte externe [!DNL oracle]. Dans l’**[!UICONTROL Explorateur]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
-1. Sélectionnez Base de données **** externe comme **[!UICONTROL Type]** de compte externe.
+1. Sélectionnez **[!UICONTROL Base de données externe]** en tant que **[!UICONTROL Type]** de compte externe.
 
-1. Configure the **[!UICONTROL Oracle]** external account, you must specify:
+1. Pour configurer le compte externe **[!UICONTROL Oracle]**, vous devez indiquer les informations suivantes :
 
-   * **[!UICONTROL Type]**: Oracle
+   * **[!UICONTROL Type]** : Oracle
 
    * **[!UICONTROL Serveur]** : nom du DNS
 
@@ -414,10 +414,10 @@ The [!DNL Oracle] external account allows you to connect your Campaign instance 
 
 La connexion à une base de données externe Oracle en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign.
 
-1. Installez le client complet Oracle correspondant à votre version d&#39;Oracle.
+1. Installez le client complet Oracle correspondant à votre version d’Oracle.
 1. Ajoutez vos définitions TNS à votre installation. Pour cela, indiquez-les dans un fichier **tnsnames.ora** dans le répertoire /etc/oracle. Si ce répertoire n’existe pas, créez-le.
 
-   Créez alors une nouvelle variable d&#39;environnement TNS_ADMIN : export TNS_ADMIN=/etc/oracle et redémarrez la machine.
+   Créez alors une nouvelle variable d’environnement TNS_ADMIN : export TNS_ADMIN=/etc/oracle et redémarrez la machine.
 
 1. Intégrez Oracle à votre serveur Adobe Campaign (nlserver). Pour cela, vérifiez que le fichier **customer.sh** est bien présent dans le dossier &quot;nl6&quot; de l’arborescence du serveur Adobe Campaign et que ce dernier comprend bien les liens vers les bibliothèques Oracle.
 
@@ -431,7 +431,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
    >[!NOTE]
    >
-   >Ces valeurs (notamment ORACLE_HOME), dépendent de vos répertoires d&#39;installation. Vérifiez bien votre arborescence avant de référencer ces valeurs.
+   >Ces valeurs (notamment ORACLE_HOME), dépendent de vos répertoires d’installation. Vérifiez bien votre arborescence avant de référencer ces valeurs.
 
 1. Installez les librairies nécessaires à Oracle :
 
@@ -460,6 +460,6 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
 1. Dans le dossier C:Oracle, créez un fichier **tnsnames.ora** contenant vos définitions TNS.
 
-1. Ajoutez une variable d&#39;environnement TNS_ADMIN avec pour valeur C:Oracle et redémarrez la machine.
+1. Ajoutez une variable d’environnement TNS_ADMIN avec pour valeur C:Oracle et redémarrez la machine.
 
 1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Oracle]. Pour plus d’informations sur la configuration de votre compte externe, voir cette [section](../../platform/using/specific-configuration-database.md#oracle-external).
