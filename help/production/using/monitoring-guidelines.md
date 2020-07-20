@@ -1,6 +1,6 @@
 ---
 title: Directives de supervision
-description: Cette section présente des directives générales pour la surveillance des Campaign Classic.
+description: Cette section présente des directives générales pour la surveillance de Campaign Classic.
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -16,33 +16,33 @@ translation-type: tm+mt
 source-git-commit: e2b97e10936a492c761f42eb062ede1cba7621ed
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 13%
+ht-degree: 95%
 
 ---
 
 
 # Directives de supervision {#monitoring-guidelines}
 
-## Tableau de bord de supervision de l&#39;instance {#instance-monitoring-dashboard}
+## Tableau de bord de supervision de l’instance {#instance-monitoring-dashboard}
 
-L&#39;onglet **[!UICONTROL Surveillance]** , accessible à partir de la page d&#39;accueil du Campaign Classic, est le principal point d&#39;entrée pour vous aider à surveiller votre instance.
+L’onglet **[!UICONTROL Surveillance]**, accessible à partir de la page d’accueil de Campaign Classic, est le principal point d’entrée pour vous aider à surveiller votre instance.
 
-Il fournit un tableau de bord de ce qui se produit sur votre instance : son état (version de build, packages installés, etc.), les indicateurs système, les journaux, les workflows en cours d&#39;exécution, l&#39;état des dernières diffusions envoyées, etc.
+Il fournit un tableau de bord de ce qui se produit sur votre instance : son état (version de build, packages installés, etc.), les indicateurs système, les logs, les workflows en cours d’exécution, l’état des dernières diffusions envoyées, etc.
 
 Des informations détaillées sont disponibles [ici](../../production/using/monitoring-processes.md).
 
 ![](assets/monitoring_tab.png)
 
-## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
+## Surveillance des processus Campaign Classic {#monitoring-campaign-classic-processes}
 
 <table>
-<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Surveillez votre instance</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">workflows d’analyse</a></p></td>
-<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Surveillance de la base de données</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Surveillance des diffusions</a></p></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Surveiller votre instance</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Surveiller les workflows</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Surveiller la base de données</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Surveiller les diffusions</a></p></td></tr>
 </table>
 
-D’autres moyens de surveillance des différents processus Campaign sont disponibles. Ils offrent plusieurs méthodes de surveillance de vos instances pour s’assurer que votre système est sain et, en fin de compte, résoudre les problèmes qui peuvent se produire lors de la configuration de workflows, de l’envoi de diffusions, etc.
+D’autres méthodes de surveillance des différents processus de Campaign sont disponibles. Ils offrent plusieurs méthodes de surveillance de vos instances pour s’assurer que votre système est sain et, en fin de compte, résoudre les problèmes qui peuvent se produire lors de la configuration de workflows, de l’envoi de diffusions, etc.
 
 ### Surveillance de votre instance {#monitoring-instance}
 
@@ -50,19 +50,19 @@ D’autres moyens de surveillance des différents processus Campaign sont dispon
 
 **Outils de surveillance automatique**
 
-Plusieurs méthodes automatiques sont disponibles. pour vous aider à surveiller votre instance. Vous pouvez, par exemple, configurer des rapports par courriel avec des anomalies détectées, récupérer une liste d’indicateurs au format XML, etc. [Cliquez ici](../../production/using/monitoring-processes.md#automatic-monitoring) pour en savoir plus.
+Plusieurs méthodes automatiques sont disponibles. pour vous aider à surveiller votre instance. Vous pouvez, par exemple, configurer des rapports par email avec les anomalies détectées, récupérer une liste d’indicateurs au format XML, etc. [Cliquez ici](../../production/using/monitoring-processes.md#automatic-monitoring) pour plus d’informations.
 
-**Suivi**
+**Journal d’audit**
 
-La piste d’audit vous permet de visualiser l’historique complet des modifications liées aux options, workflows et schémas de votre instance. [Cliquez ici](../../production/using/audit-trail.md) pour en savoir plus.
+Le journal d’audit vous permet de visualiser l’historique complet des modifications liées aux options, workflows et schémas de votre instance. [Cliquez ici](../../production/using/audit-trail.md) pour plus d’informations.
 
 **Panneau de contrôle**
 
-Le Panneau de Contrôle vous permet de gérer plusieurs paramètres de votre instance : gérez les autorisations d’URL, vérifiez les détails de votre instance tels que les versions de création de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) pour en savoir plus.
+Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) pour plus d’informations.
 
 >[!NOTE]
 >
->Notez que le Panneau de Contrôle est accessible uniquement aux administrateurs et disponible pour tous les clients utilisant des Adobes Managed Services.
+>Veuillez noter que le panneau de contrôle est accessible uniquement aux administrateurs et est disponible pour tous les clients qui utilisent les Managed Services d’Adobe.
 
 ### Surveillance des workflows {#monitoring-workflows}
 
@@ -70,83 +70,84 @@ Le Panneau de Contrôle vous permet de gérer plusieurs paramètres de votre ins
 
 **Carte thermique des workflows**
 
-La carte de chaleur de flux de travaux fournit une représentation visuelle de tous les workflows qui s’exécutent sur votre instance. Il vous permet de surveiller facilement la charge sur l&#39;instance et de planifier les workflows en conséquence. [Cliquez ici](../../workflow/using/heatmap.md) pour en savoir plus.
+La carte thermique des workflows fournit une représentation visuelle de tous les workflows exécutés sur votre instance. Elle vous permet de surveiller facilement la charge sur l’instance et de planifier les workflows en conséquence. [Cliquez ici](../../workflow/using/heatmap.md) pour plus d’informations.
 
-**Suivi**
+**Journal d’audit**
 
-La piste d’audit vous permet de visualiser toutes les modifications apportées aux workflows, ainsi que leur état actuel. [Cliquez ici](../../production/using/audit-trail.md).
+Le journal d’audit vous permet de visualiser toutes les modifications apportées aux workflows, ainsi que leur état actuel. [Cliquez ici](../../production/using/audit-trail.md).
 
-**Dépannage des Workflows**
+**Résolution des problèmes liés aux workflows**
 
-Des actions spécifiques peuvent être exécutées en cas de problème lié à l’exécution d’un processus. [Cliquez ici](../../production/using/workflow-execution.md) pour en savoir plus
+Des actions spécifiques peuvent être exécutées en cas de problème lié à l’exécution d’un workflow. [Cliquez ici](../../production/using/workflow-execution.md) pour plus d’informations.
 
-**Surveillance de l&#39;état du workflow**
+**Surveillance de l’état d’un workflow**
 
-De plus, vous pouvez créer un processus qui vous permettra de surveiller l&#39;état d&#39;un ensemble de workflows et d&#39;envoyer des messages récurrents aux superviseurs. [Cliquez ici](../../workflow/using/supervising-workflows.md) pour en savoir plus.
+De plus, vous pouvez créer un processus qui vous permettra de surveiller l’état d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. [Cliquez ici](../../workflow/using/supervising-workflows.md) pour plus d’informations.
 
 **Directives générales**
 
-Suivez les directives et les bonnes pratiques en cas d’utilisation de workflows pour améliorer les performances. Pour plus d’informations, consultez les sections suivantes :
+Suivez les directives et les bonnes pratiques relatives à l’utilisation de workflows pour améliorer les performances. Pour plus d’informations, consultez les sections suivantes :
 * [Bonnes pratiques relatives à l’utilisation des workflows](../../workflow/using/workflow-best-practices.md)
-* [Surveiller l&#39;exécution des workflows](../../workflow/using/monitoring-workflow-execution.md)
+* [Surveiller l’exécution des workflows](../../workflow/using/monitoring-workflow-execution.md)
 
-### Suivre les diffusions {#monitoring-deliveries}
+### Surveillance des diffusions {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **Rapports SMTP**
 
-Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP par domaine. [Cliquez ici](../../production/using/monitoring-processes.md) pour en savoir plus.
+Les rapports SMTP affichent les statistiques d’envoi et les erreurs SMTP par domaine. [Cliquez ici](../../production/using/monitoring-processes.md) pour plus d’informations.
 
 **Bonnes pratiques**
 
-[Les meilleures pratiques d’envoi et de conception](http://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) de diffusions peuvent vous aider à améliorer leurs performances.
+[Les bonnes pratiques d’envoi et de conception de diffusions](http://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) peuvent vous aider à améliorer leurs performances.
 
-**Dépannage** des Diffusions Des actions spécifiques peuvent être effectuées en cas de problème avec des diffusions :
+**Résolution des problèmes liés aux diffusions**
+Des actions spécifiques peuvent être effectuées en cas de problème avec des diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
-* [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
-* [Problèmes de performances des Diffusions](../../delivery/using/monitoring-a-delivery.md#performance_issues)
-* [Problèmes](../../production/using/temporary-files.md) de fichiers temporaires - *sur les modèles d’hébergement locaux uniquement*
+* [Problèmes liés à l’affichage des images](../../production/using/image-display-issues.md)
+* [Problèmes de performances des diffusions](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *sur les modèles d’hébergement on-Premise uniquement*
 
 ### Surveillance de la base de données {#monitoring-database}
 
 <img src="assets/do-not-localize/icon_database.svg" width="60px">
 
-**Workflow de Nettoyage de la base**
+**Workflow de nettoyage de la base de données**
 
-Le processus de nettoyage de la base de données vous permet de supprimer des données obsolètes de votre base de données. Il est recommandé d’éviter une croissance exponentielle de la base de données. [Cliquez ici](../../production/using/database-cleanup-workflow.md) pour en savoir plus.
+Le workflow de nettoyage de la base de données vous permet de supprimer les données obsolètes de votre base de données. Il est recommandé d’éviter une croissance exponentielle de la base de données. [Cliquez ici](../../production/using/database-cleanup-workflow.md) pour plus d’informations.
 
-**Dépannage des performances de la base de données**
+**Résolution des problèmes de performances de la base de données**
 
-Des actions spécifiques peuvent être effectuées en cas de problème lié aux performances des bases de données. [Cliquez ici](../../production/using/database-performances.md) pour en savoir plus.
+Des actions spécifiques peuvent être effectuées en cas de problème lié aux performances de la base de données. [Cliquez ici](../../production/using/database-performances.md) pour plus d’informations.
 
 **Maintenance de la base de données**
 
-*modèles d’hébergement sur site et hybrides uniquement*
+*modèles d’hébergement on-premise et hybrides uniquement*
 
-Nous vous recommandons d&#39;effectuer régulièrement la maintenance des bases de données afin d&#39;éviter une surconsommation d&#39;espace disque, affectant ainsi l&#39;accès aux bases de données. [Cliquez ici](../../production/using/recommendations.md) pour en savoir plus.
+Nous vous recommandons d’effectuer régulièrement la maintenance des bases de données afin d’éviter une surconsommation d’espace disque affectant l’accès à la base de données. [Cliquez ici](../../production/using/recommendations.md) pour plus d’informations.
 
 **Sauvegarde et restauration**
 
-*modèles d’hébergement sur site et hybrides uniquement*
+*modèles d’hébergement on-premise et hybrides uniquement*
 
-La sauvegarde est une opération primordiale afin de ne pas perdre de données en cas de problème (physique ou système) sur une machine. [Cliquez ici](../../production/using/backup.md) pour en savoir plus. La procédure de restauration est décrite dans [cette section](../../production/using/restoration.md).
+La sauvegarde est une opération primordiale permettant d’éviter la perte de données en cas de problème (physique ou système) sur une machine. [Cliquez ici](../../production/using/backup.md) pour plus d’informations. La procédure de restauration est décrite dans [cette section](../../production/using/restoration.md).
 
 ## Principes techniques Campaign Classic {#campaign-classic-technical-principles}
 
 Des ressources techniques sont disponibles dans la documentation Campaign Classic. Nous vous recommandons de vous familiariser avec ces sujets avant d’effectuer toute opération technique sur votre instance.
 
-**Hébergement de modèles et de fonctionnalités**
+**Modèles d’hébergement et fonctionnalités**
 
 * [Modèles d’hébergement Campaign Classic](../../installation/using/hosting-models.md)
-* [Hébergement des capacités du modèle](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html)
+* [Fonctionnalités des modèles d’hébergement](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html)
 
-**Paramétrage du serveur**
+**Configuration du serveur**
 
-*Modèles d’hébergement sur site et hybrides uniquement*
+*Modèles d’hébergement on-premise et hybrides uniquement*
 
 * [Configurations de serveur obligatoires](../../installation/using/campaign-server-configuration.md)
-* [Configuration du fichier Serverconf.xml](../../installation/using/the-server-configuration-file.md)
+* [Configuration du fichier serverconf.xml](../../installation/using/the-server-configuration-file.md)
 * [Configuration du serveur pour la délivrabilité](../../installation/using/email-deliverability.md)
 * [Lignes de commande pour créer une instance et déclarer une base de données](../../installation/using/command-lines.md)
 
@@ -154,7 +155,7 @@ Des ressources techniques sont disponibles dans la documentation Campaign Classi
 
 * [Architecture Campaign Classic](../../production/using/general-architecture.md)
 * [Modules Campaign Classic](../../production/using/operating-principle.md)
-* [Options des Campaign Classic](../../installation/using/configuring-campaign-options.md)
+* [Options Campaign Classic](../../installation/using/configuring-campaign-options.md)
 * [Configuration du démarrage automatique des modules](../../production/using/administration.md)
 * [Principe de configuration de Campaign](../../production/using/configuration-principle.md)
 * [Procédures de dépannage](../../production/using/performance-and-throughput-issues.md)
