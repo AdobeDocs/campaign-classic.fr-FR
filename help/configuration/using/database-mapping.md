@@ -14,18 +14,18 @@ discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 656b867686dd90f3e921c2adb5e5676fec184803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1976'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Mapping de la base de données{#database-mapping}
 
-Le mapping SQL de notre schéma d&#39;exemple donne le document XML suivant :
+Le mapping SQL de notre schéma d’exemple donne le document XML suivant :
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
@@ -48,25 +48,25 @@ Le mapping SQL de notre schéma d&#39;exemple donne le document XML suivant :
 
 ## Description {#description}
 
-L&#39;élément racine du schéma n&#39;est plus **`<srcschema>`**, mais **`<schema>`**.
+L’élément racine du schéma n’est plus **`<srcschema>`**, mais **`<schema>`**.
 
-Nous sommes sur un autre type de document qui est généré automatiquement à partir du schéma source, on parle alors simplement de schéma. C&#39;est ce schéma qui sera utilisé par l&#39;application Adobe Campaign.
+Nous sommes sur un autre type de document qui est généré automatiquement à partir du schéma source, on parle alors simplement de schéma. C’est ce schéma qui sera utilisé par l’application Adobe Campaign.
 
-Les noms SQL sont déduits automatiquement en fonction du nom et du type de l&#39;élément.
+Les noms SQL sont déduits automatiquement en fonction du nom et du type de l’élément.
 
 Les règles de nommage des noms SQL sont les suivantes :
 
-* table : concaténation de l&#39;espace de nommage et du nom du schéma
+* table : concaténation de l’espace de nommage et du nom du schéma
 
-   Dans notre exemple le nom de la table est renseigné à partir de l&#39;élément principal du schéma dans l&#39;attribut **sqltable** :
+   Dans notre exemple le nom de la table est renseigné à partir de l’élément principal du schéma dans l’attribut **sqltable** :
 
    ```
    <element name="recipient" sqltable="CusRecipient">
    ```
 
-* champ : nom de l&#39;élément précédé d&#39;un préfixe défini en fonction de son type (&#39;i&#39; pour entier, &#39;d&#39; pour double, &#39;s&#39; pour chaîne, &#39;ts&#39; pour les dates, etc.)
+* champ : nom de l’élément précédé d’un préfixe défini en fonction de son type (’i’ pour entier, ’d’ pour double, ’s’ pour chaîne, ’ts’ pour les dates, etc.)
 
-   Le nom du champ est renseigné à partir de l&#39;attribut **sqlname** pour chaque **`<attribute>`** et **`<element>`** typé :
+   Le nom du champ est renseigné à partir de l’attribut **sqlname** pour chaque **`<attribute>`** et **`<element>`** typé :
 
    ```
    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -75,7 +75,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 >[!NOTE]
 >
 >Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner
-les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l&#39;élément concerné.
+les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 
@@ -96,9 +96,9 @@ Les contraintes des champs SQL sont les suivantes :
 
 Par défaut, tout élément **`<attribute>`** et **`<element>`** typé est mappé sur un champ SQL de la table du schéma de données. Vous pouvez toutefois référencer ce champ au format XML plutôt que SQL, ce qui signifie que les données sont stockées dans un champ mémo (&quot;mData&quot;) de la table contenant les valeurs de tous les champs XML. Le stockage de ces données est un document XML qui respecte la structure du schéma.
 
-Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la valeur &quot;true&quot; sur l&#39;élément concerné.
+Pour renseigner un champ en XML, il faut ajouter l’attribut **xml** avec la valeur &quot;true&quot; sur l’élément concerné.
 
-**Exemple** : voici deux exemples d&#39;utilisation des champs de type XML.
+**Exemple** : voici deux exemples d’utilisation des champs de type XML.
 
 * Champ commentaire multi-lignes :
 
@@ -112,17 +112,17 @@ Pour renseigner un champ en XML, il faut ajouter l&#39;attribut **xml** avec la 
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   Le type &quot;html&quot; permet de stocker le contenu HTML dans une balise CDATA et d&#39;afficher un contrôle spécifique d&#39;édition HTML dans l&#39;interface cliente Adobe Campaign.
+   Le type &quot;html&quot; permet de stocker le contenu HTML dans une balise CDATA et d’afficher un contrôle spécifique d’édition HTML dans l’interface cliente Adobe Campaign.
 
-L&#39;utilisation de champs XML permet d&#39;ajouter des champs sans avoir à modifier la structure physique de la base. Un autre avantage est d&#39;utiliser moins de ressources (taille alouée des champs SQL, limite sur le nombre de champs par table, etc.).
+L’utilisation de champs XML permet d’ajouter des champs sans avoir à modifier la structure physique de la base. Un autre avantage est d’utiliser moins de ressources (taille alouée des champs SQL, limite sur le nombre de champs par table, etc.).
 
-L&#39;inconvénient principal est l&#39;impossibilité d&#39;indexer ou de filtrer un champ XML.
+L’inconvénient principal est l’impossibilité d’indexer ou de filtrer un champ XML.
 
 ## Champs indexés {#indexed-fields}
 
-Les index permettent d&#39;optimiser les performances des requêtes SQL utilisées dans l&#39;application.
+Les index permettent d’optimiser les performances des requêtes SQL utilisées dans l’application.
 
-Un index est déclaré à partir de l&#39;élément principal du schéma de données.
+Un index est déclaré à partir de l’élément principal du schéma de données.
 
 ```
 <dbindex name="name_of_index" unique="true/false">
@@ -135,20 +135,20 @@ Un index est déclaré à partir de l&#39;élément principal du schéma de donn
 Les index suivent les règles suivantes :
 
 * Un index peut référencer un ou plusieurs champs de la table.
-* Un index peut être unique (afin d&#39;éviter les doublons) sur l&#39;ensemble des champs qui le compose si l&#39;attribut **unique** est renseigné avec la valeur &quot;true&quot;.
-* Le nom SQL de l&#39;index est déduit à partir du nom SQL de la table et du nom de l&#39;index.
+* Un index peut être unique (afin d’éviter les doublons) sur l’ensemble des champs qui le compose si l’attribut **unique** est renseigné avec la valeur &quot;true&quot;.
+* Le nom SQL de l’index est déduit à partir du nom SQL de la table et du nom de l’index.
 
 >[!NOTE]
 >
->Par convention, les index sont les éléments déclarés en premier à partir de l&#39;élément principal du schéma.
+>Par convention, les index sont les éléments déclarés en premier à partir de l’élément principal du schéma.
 
 >[!NOTE]
 >
->Les index sont crées automatiquement lors d&#39;un mapping de table (mapping standard ou FDA).
+>Les index sont crées automatiquement lors d’un mapping de table (mapping standard ou FDA).
 
 **Exemple**:
 
-* Ajout d&#39;un index sur l&#39;email et la ville :
+* Ajout d’un index sur l’email et la ville :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -166,7 +166,7 @@ Les index suivent les règles suivantes :
    </srcSchema>
    ```
 
-* Ajout d&#39;un index unique sur le champ du nom &quot;id&quot; :
+* Ajout d’un index unique sur le champ du nom &quot;id&quot; :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -187,9 +187,9 @@ Les index suivent les règles suivantes :
 
 ## Gestion des clés {#management-of-keys}
 
-Une table doit posséder au moins une clé permettant d&#39;identifier un enregistrement de la table.
+Une table doit posséder au moins une clé permettant d’identifier un enregistrement de la table.
 
-Une clé est déclarée à partir de l&#39;élément principal du schéma de données.
+Une clé est déclarée à partir de l’élément principal du schéma de données.
 
 ```
 <key name="name_of_key">
@@ -202,12 +202,12 @@ Une clé est déclarée à partir de l&#39;élément principal du schéma de don
 Les clés suivent les règles suivantes :
 
 * Une clé peut référencer un ou plusieurs champs de la table.
-* Une clé est dite primaire (ou prioritaire) lorsqu&#39;elle est renseignée en premier dans le schéma ou si elle contient l&#39;attribut **internal** avec la valeur &quot;true&quot;.
-* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d&#39;empêcher la création de l&#39;index sur la clé en ajoutant l&#39;attribut **noDbIndex** avec la valeur &quot;true&quot;.
+* Une clé est dite primaire (ou prioritaire) lorsqu’elle est renseignée en premier dans le schéma ou si elle contient l’attribut **internal** avec la valeur &quot;true&quot;.
+* Un index unique est implicitement déclaré pour chaque définition de clé. Il est possible d’empêcher la création de l’index sur la clé en ajoutant l’attribut **noDbIndex** avec la valeur &quot;true&quot;.
 
 >[!NOTE]
 >
->Par convention, les clés sont les éléments déclarés à partir de l&#39;élément principal du schéma après la définition des index.
+>Par convention, les clés sont les éléments déclarés à partir de l’élément principal du schéma après la définition des index.
 
 >[!NOTE]
 >
@@ -215,7 +215,7 @@ Les clés suivent les règles suivantes :
 
 **Exemple**:
 
-* Ajout d&#39;une clé sur l&#39;email et la ville :
+* Ajout d’une clé sur l’email et la ville :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -256,7 +256,7 @@ Les clés suivent les règles suivantes :
    </schema>
    ```
 
-* Ajout d&#39;une clé primaire ou interne sur le champ de nom &quot;id&quot; :
+* Ajout d’une clé primaire ou interne sur le champ de nom &quot;id&quot; :
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -300,11 +300,11 @@ Les clés suivent les règles suivantes :
 
 ### Clé auto-incrémentale {#auto-incremental-key}
 
-La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base. Le contenu de la clé est automatiquement renseigné à l&#39;insertion de l&#39;enregistrement.
+La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base. Le contenu de la clé est automatiquement renseigné à l’insertion de l’enregistrement.
 
-L&#39;avantage d&#39;une clé incrémentale est d&#39;obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n&#39;est pas consommatrice car elle utilise un entier sur deux octets.
+L’avantage d’une clé incrémentale est d’obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n’est pas consommatrice car elle utilise un entier sur deux octets.
 
-Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l&#39;attribut **pkSequence**. Si cet attribut n&#39;est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L&#39;application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsLargeLogId** et **NmsTrackingLogId** respectivement), car il s&#39;agit des tables qui contiennent le plus d&#39;enregistrements.
+Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l’attribut **pkSequence**. Si cet attribut n’est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L’application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsLargeLogId** et **NmsTrackingLogId** respectivement), car il s’agit des tables qui contiennent le plus d’enregistrements.
 
 À compter d’ACC 18.10, **XtkNewId** n’est plus la valeur par défaut de la séquence dans les schémas d’usine. Vous pouvez désormais créer ou étendre un schéma avec une séquence dédiée.
 
@@ -314,13 +314,13 @@ Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser
 
 >[!NOTE]
 >
->Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** par exemple) doit être associée à une fonction SQL qui renvoie le nombre d&#39;identifiants dans les paramètres, séparés par des virgules. Cette fonction doit être appelée **GetNew** XXX **Ids**, où **XXX** est le nom de la séquence (**GetNewNmsTrackingLogIds** par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l&#39;application dans le répertoire **datakit/nms/eng/sql/** pour récupérer l&#39;exemple de création de séquence &#39;NmsTrackingLogId&#39; pour chaque moteur de base de données.
+>Une séquence référencée dans un schéma Adobe Campaign (**NmsTrackingLogId** par exemple) doit être associée à une fonction SQL qui renvoie le nombre d’identifiants dans les paramètres, séparés par des virgules. Cette fonction doit être appelée **GetNew** XXX **Ids**, où **XXX** est le nom de la séquence (**GetNewNmsTrackingLogIds** par exemple). Affichez les fichiers **postgres-nms.sql**, **mssql-nms.sql** ou **oracle-nms.sql** fournis avec l’application dans le répertoire **datakit/nms/eng/sql/** pour récupérer l’exemple de création de séquence ’NmsTrackingLogId’ pour chaque moteur de base de données.
 
-Pour déclarer une clé unique, il faut renseigner l&#39;attribut **autopk** (avec la valeur &quot;true&quot;) sur l&#39;élément principal du schéma de données.
+Pour déclarer une clé unique, il faut renseigner l’attribut **autopk** (avec la valeur &quot;true&quot;) sur l’élément principal du schéma de données.
 
 **Exemple**:
 
-Déclaration d&#39;une clé incrémentale dans le schéma source :
+Déclaration d’une clé incrémentale dans le schéma source :
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -352,34 +352,34 @@ En plus de la définition de la clé et de son index, un champ numérique de nom
 
 >[!IMPORTANT]
 >
->Un enregistrement avec une clé primaire à 0 est automatiquement inséré à la création de la table. Cet enregistrement est utilisé pour éviter les jointures externes, non efficaces sur les tables à volumes. Par défaut, toutes les clés étrangères sont initialisées avec la valeur 0, ce qui permet de toujours retourner un résultat sur la jointure lorsque la donnée n&#39;est pas renseignée.
+>Un enregistrement avec une clé primaire à 0 est automatiquement inséré à la création de la table. Cet enregistrement est utilisé pour éviter les jointures externes, non efficaces sur les tables à volumes. Par défaut, toutes les clés étrangères sont initialisées avec la valeur 0, ce qui permet de toujours retourner un résultat sur la jointure lorsque la donnée n’est pas renseignée.
 
 ## Liens : relation entre les tables {#links--relation-between-tables}
 
-Un lien décrit l&#39;association d&#39;une table vers une autre table.
+Un lien décrit l’association d’une table vers une autre table.
 
-Les différents types d&#39;associations (dites &quot;cardinalités&quot;) sont les suivants :
+Les différents types d’associations (dites &quot;cardinalités&quot;) sont les suivants :
 
 * cardinalité 1-1 : à une occurrence de la table source peut correspondre au plus une occurrence de la table cible,
 * cardinalité 1-N : à une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible, mais à une occurrence de la table cible peut correspondre au plus une occurrence de la table source,
 * cardinalité N-N : à une occurrence de la table source peuvent correspondre plusieurs occurrences de la table cible et vice versa.
 
-Dans l&#39;interface, vous pouvez distinguer facilement les différents types de relations grâce à leurs icônes.
+Dans l’interface, vous pouvez distinguer facilement les différents types de relations grâce à leurs icônes.
 
-Pour les relations de jointure avec une table de campagne/une base de données :
+Pour les relations de jointure avec une table/base de données de campagne :
 
-* ![](assets/join_with_campaign11.png) : Cardinalité 1-1. Par exemple, entre un destinataire et une commande en cours. Un destinataire ne peut être associé qu&#39;à une seule occurrence à la fois de la table des commandes actuelle.
-* ![](assets/externaljoin11.png) : Cardinalité 1-1, jointure externe. Par exemple, entre un destinataire et son pays. Un destinataire ne peut être associé qu&#39;à une seule occurrence dans la table des pays. Le contenu de la table des pays ne sera pas enregistré.
+* ![](assets/join_with_campaign11.png) : Cardinalité 1-1. Par exemple, entre un destinataire et une commande en cours. Un destinataire ne peut être associé qu’à une seule occurrence à la fois de la table des commandes actuelle.
+* ![](assets/externaljoin11.png) : Cardinalité 1-1, jointure externe. Par exemple, entre un destinataire et son pays. Un destinataire ne peut être associé qu’à une seule occurrence dans la table des pays. Le contenu de la table des pays ne sera pas enregistré.
 * ![](assets/join_with_campaign1n.png) : Cardinalité 1-N. Par exemple, entre un destinataire et la table des abonnements. Un destinataire peut être associé à plusieurs occurrences dans la table des abonnements.
 
-Pour les relations de jointure à l&#39;aide de Federated Database Access :
+Pour les relations de jointure à l’aide de Federated Database Access :
 
 * ![](assets/join_fda_11.png) : Cardinalité 1-1
 * ![](assets/join_fda_1m.png) : Cardinalité 1-N
 
-Pour plus d&#39;informations sur les tables FDA, voir la section [Accès à une base de données externe](../../platform/using/about-fda.md).
+Pour plus d’informations sur les tables FDA, voir la section [Accès à une base de données externe](../../platform/using/about-fda.md).
 
-Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l&#39;élément principal :
+Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l’élément principal :
 
 ```
 <element name="name_of_link" type="link" target="key_of_destination_schema">
@@ -391,17 +391,17 @@ Un lien doit être déclaré dans le schéma possédant la clé étrangère de l
 
 Les liens suivent les règles suivantes :
 
-* La définition d&#39;un lien est renseignée sur un **`<element>`** de type **link** avec les attributs suivants :
+* La définition d’un lien est renseignée sur un **`<element>`** de type **link** avec les attributs suivants :
 
    * **name** : nom du lien à partir de la table source,
    * **target** : nom du schéma cible,
    * **label** : libellé du lien,
    * **revLink** (optionnel) : nom du lien reverse à partir du schéma cible (déduit automatiquement par défaut),
-   * **integrity** (optionnel) : intégrité référentielle de l&#39;occurrence de la table source envers l&#39;occurrence de la table cible. Les valeurs possibles sont les suivantes :
+   * **integrity** (optionnel) : intégrité référentielle de l’occurrence de la table source envers l’occurrence de la table cible. Les valeurs possibles sont les suivantes :
 
-      * **define**: la suppression de l&#39;occurrence source est possible si elle n&#39;est plus référencée par une occurrence cible,
-      * **normal** : la suppression de l&#39;occurrence source initialise les clés du lien sur l&#39;occurrence cible (mode par défaut), ce type d&#39;intégrité initiliase toutes les clés étrangères,
-      * **own** : la suppression de l&#39;occurrence source entraîne la suppression de l&#39;occurrence cible,
+      * **define**: la suppression de l’occurrence source est possible si elle n’est plus référencée par une occurrence cible,
+      * **normal** : la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initiliase toutes les clés étrangères,
+      * **own** : la suppression de l’occurrence source entraîne la suppression de l’occurrence cible,
       * **owncopy** : idem **own** (en cas de suppression) ou duplique les occurrences (en cas de duplication),
       * **neutral** : ne fait rien.
    * **revIntegrity** (optionnel) : intégrité sur le schéma cible (optionnel, &quot;normal&quot; par défaut),
@@ -410,10 +410,10 @@ Les liens suivent les règles suivantes :
    * **revExternalJoin** (optionnel) : force la jointure externe sur le lien reverse
 
 
-* Un lien fait référence à un ou plusieurs champs de la table source vers la table de destination. Il n&#39;est pas nécessaire de renseigner les champs constituant l&#39;élément `<join>`, car ils sont automatiquement déduits par défaut à l&#39;aide de la clé interne du schéma cible.
+* Un lien fait référence à un ou plusieurs champs de la table source vers la table de destination. Il n’est pas nécessaire de renseigner les champs constituant l’élément `<join>`, car ils sont automatiquement déduits par défaut à l’aide de la clé interne du schéma cible.
 * Un index sur la clé étrangère du lien est automatiquement ajouté dans le schéma étendu.
 * Un lien est composé de deux demi-liens, le premier est déclaré à partir du schéma source et le second est créé automatiquement dans le schéma étendu du schéma cible.
-* La jointure d&#39;un lien peut être externe (&quot;external join&quot;) en ajoutant l&#39;attribut **externalJoin** avec la valeur &quot;true&quot; (supporté sous PostgreSQL).
+* La jointure d’un lien peut être externe (&quot;external join&quot;) en ajoutant l’attribut **externalJoin** avec la valeur &quot;true&quot; (supporté sous PostgreSQL).
 
 >[!NOTE]
 >
@@ -449,7 +449,7 @@ Le schéma généré :
 </schema>
 ```
 
-La définition du lien est complétée avec les champs composant la jointure, c&#39;est-à -dire la clé primaire avec son XPath (&quot;@id&quot;) dans le schéma destination et la clé étrangère avec son XPath (&quot;@company-id&quot;) dans le schéma.
+La définition du lien est complétée avec les champs composant la jointure, c’est-à -dire la clé primaire avec son XPath (&quot;@id&quot;) dans le schéma destination et la clé étrangère avec son XPath (&quot;@company-id&quot;) dans le schéma.
 
 La clé étrangère est ajoutée automatiquement dans un élément reprenant les même caractéristiques que le champ associé dans la table destination avec comme convention de nommage le nom du schéma cible suivi du nom du champ associé (&quot;company-id&quot; dans notre exemple).
 
@@ -476,15 +476,15 @@ Le schéma étendu de la cible (&quot;cus:company&quot;) :
 
 Un lien réverse vers la table &quot;cus:recipient&quot; a été ajouté avec les paramètres suivant :
 
-* **name** : déduit automatiquement avec le nom du schéma source (peut être forcé avec l&#39;attribut &quot;revLink&quot; dans la définition du lien sur le schéma source)
+* **name** : déduit automatiquement avec le nom du schéma source (peut être forcé avec l’attribut &quot;revLink&quot; dans la définition du lien sur le schéma source)
 * **revLink** : nom du lien réverse
 * **target** : clé du schéma lié (schéma &quot;cus:recipient&quot;)
 * **unbound** : le lien est déclaré comme élément de collection pour une cardinalité 1-N (par défaut)
-* **integrity** : par défaut &quot;define&quot; (peut être forcée avec l&#39;attribut &quot;revIntegrity&quot; dans la définition du lien sur le schéma source)
+* **integrity** : par défaut &quot;define&quot; (peut être forcée avec l’attribut &quot;revIntegrity&quot; dans la définition du lien sur le schéma source)
 
 ### Exemple 2 {#example-2}
 
-Dans cet exemple, nous déclarons un lien vers la table de schéma &quot;nms:address&quot;. La jointure est externe et est renseignée explicitement avec l&#39;email du destinataire et le champ &quot;@address&quot; de la table liée (&quot;nms:address&quot;).
+Dans cet exemple, nous déclarons un lien vers la table de schéma &quot;nms:address&quot;. La jointure est externe et est renseignée explicitement avec l’email du destinataire et le champ &quot;@address&quot; de la table liée (&quot;nms:address&quot;).
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -513,11 +513,11 @@ Lien sur un dossier (schéma &quot;xtk:folder&quot;) :
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
-La valeur par défaut retourne l&#39;identifiant du premier dossier éligible de type du paramètre renseigné dans la fonction &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
+La valeur par défaut retourne l’identifiant du premier dossier éligible de type du paramètre renseigné dans la fonction &quot;DefaultFolder(’nmsFolder’)&quot;.
 
 ### Exemple 5 {#example-5}
 
-Dans cet exemple, on souhaite créer une clé sur un lien (&quot;company&quot; vers le schéma &quot;cus:company&quot;) avec l&#39;attribut **xlink** et un champ de la table (&quot;email&quot;) :
+Dans cet exemple, on souhaite créer une clé sur un lien (&quot;company&quot; vers le schéma &quot;cus:company&quot;) avec l’attribut **xlink** et un champ de la table (&quot;email&quot;) :
 
 ```
 <srcSchema name="recipient" namespace="cus">
