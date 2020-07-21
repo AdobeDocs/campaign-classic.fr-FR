@@ -14,10 +14,10 @@ discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 353f5df040087175c9f211308704f1af1844ef2c
-workflow-type: ht
-source-wordcount: '1418'
+translation-type: tm+mt
+source-git-commit: 789799f79608c26126d70e896bd1b7a6df33e4fa
+workflow-type: tm+mt
+source-wordcount: '1417'
 ht-degree: 100%
 
 ---
@@ -247,7 +247,7 @@ $ apt update
 $ apt install libmysqlclient20
 ```
 
-#### Windows [#windows-mysql}
+#### Windows {#windows-mysql}
 
 Téléchargez le connecteur C à partir de cette [page](https://dev.mysql.com/downloads/connector/c). Nous vous recommandons de télécharger la version 5.7.
 
