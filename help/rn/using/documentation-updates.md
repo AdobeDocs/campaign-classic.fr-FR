@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64b31b8d4f88023f4285bf161d236973a7d63107
+source-git-commit: 13fefe429862e856bc7ec1d376d80c176398da0b
 workflow-type: tm+mt
-source-wordcount: '6954'
+source-wordcount: '6978'
 ht-degree: 97%
 
 ---
@@ -29,6 +29,8 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Juillet 2020 {#july-2020}
 
+Un cas d’utilisation de la mise à jour automatique d’une liste à l’aide d’une requête incrémentielle a été ajouté aux cas d’utilisation du processus. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
+
 Les Notes [de](../../rn/using/latest-release.md) mise à jour ont été réorganisées : une page [](../../rn/using/latest-release.md) d’aperçu a été ajoutée avec des informations sur les états de build, le processus de mise à niveau, les recommandations et les liens importants. Une page dédiée aux versions [de](../../rn/using/gold-standard.md) Gold Standard a également été ajoutée et la matrice [de](../../rn/using/compatibility-matrix.md) compatibilité a été intégrée.
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
@@ -37,7 +39,7 @@ La section Confidentialité et consentement a été améliorée avec des informa
 
 La page Gestion de la confidentialité dans le Campaign Classic a été mise à jour avec des informations sur le champ &quot;réglementation&quot; qui est maintenant disponible lors de l&#39;utilisation de l&#39;API permettant de configurer le processus de demande automatique de confidentialité. [En savoir plus](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-La page Aperçu de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne Lei Geral de Proteção de Dados (LGPD). [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La page Aperçu de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne Lei Geral de Proteção de Dados (LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Des informations ont été ajoutées sur les journaux des sous-workflows et sur le comportement en cas d&#39;erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
