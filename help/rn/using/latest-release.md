@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b7c0dc12b41b8482dce9d42bbf88878bb03bf38
+source-git-commit: d9b6ae9f7e2f3b15698f1a420b5416162cbcc758
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 100%
+source-wordcount: '1987'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,30 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/blue_2.png) Version 20.2.1 - Build 9180 {#release-20-2-2-build-9180}
+
+_22 juillet 2020_
+
+* Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
+* Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués lorsqu’ils devaient être autorisés. (NEO-25210)
+* Correction d’un problème qui pouvait empêcher d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook. (NEO-25688)
+* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions électroniques. (NEO-26084)
+* Correction d’un problème lié au codage de la gestion des URL dans le service anti-phishing. (NEO-25283)
+* Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
+* Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
+Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications Push iOS et Android). (NEO-25965)
+* Correction d’une régression qui impactait les champs calculés dans un processus. (NEO-25194)
+* Correction d’une régression qui empêchait la création instantanée d’URL de suivi Web de fonctionner. (NEO-20999)
+* Correction d’un problème lié aux rapports de diffusion prêts à l’emploi qui s’affichaient tronqués lors de l’exportation au format PDF. (NEO-25757)
+* Correction d’un problème de blocage dans l’assistant de déploiement.
+* Correction d’un problème en raison duquel le processus de notification d’Offre ne fonctionnait pas correctement après une mise à niveau.
+* Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903)
+* La liste jarsToSkip de catalina.properties a été mise à jour afin de supprimer la référence à un fichier jar qui n’était plus utilisé (notifications iOS).
+* Correction d’un problème qui bloquait la préparation des diffusions après la mise à niveau.
+* Après le passage au [nouveau mécanisme](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)d’ID de séquence, toutes les applications Web qui mettent à jour le tableau du destinataire sont republiées après la mise à niveau.
+* Correction d’une vulnérabilité XSS potentielle dans le contenu de la diffusion. (NEO-17987, NEO-26073)
+
+## ![](assets/do-not-localize/orange_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
 _lundi 8 juin 2020_
 
