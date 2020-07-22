@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e2b97e10936a492c761f42eb062ede1cba7621ed
+source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 95%
@@ -38,8 +38,8 @@ Des informations détaillées sont disponibles [ici](../../production/using/moni
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Surveiller votre instance</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Surveiller les workflows</a></p></td>
-<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Surveiller la base de données</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Surveiller les diffusions</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Surveiller les diffusions</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Surveiller la base de données</a></p></td></tr>
 </table>
 
 D’autres méthodes de surveillance des différents processus de Campaign sont disponibles. Ils offrent plusieurs méthodes de surveillance de vos instances pour s’assurer que votre système est sain et, en fin de compte, résoudre les problèmes qui peuvent se produire lors de la configuration de workflows, de l’envoi de diffusions, etc.
