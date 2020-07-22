@@ -14,10 +14,10 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
-workflow-type: ht
-source-wordcount: '3068'
+translation-type: tm+mt
+source-git-commit: 65399d7b3917e2df37c32735e7015d742f5f022c
+workflow-type: tm+mt
+source-wordcount: '3091'
 ht-degree: 100%
 
 ---
@@ -347,7 +347,9 @@ Ces droits sont les suivants :
 
 Les groupes par défaut et les droits nommés permettent aux opérateurs d&#39;accéder à certains dossiers de l&#39;arborescence, et accordent des permissions en lecture, écriture et suppression.
 
-La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](/help/platform/using/assets/accessrights.pdf).
+La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf).
+
+[![image](assets/user_management.png)](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)
 
 ## Gestion de l&#39;accès aux dossiers {#folder-access-management}
 
