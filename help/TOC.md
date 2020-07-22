@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
+source-git-commit: 14e275203e3436183d5a5c743375ba42f6153c6d
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2094'
 ht-degree: 99%
 
 ---
@@ -120,7 +120,6 @@ ht-degree: 99%
       + [Créer une diffusion courrier](delivery/using/creating-a-direct-mail-delivery.md)
       + [Définir le contenu du courrier](delivery/using/defining-the-direct-mail-content.md)
       + [Valider](delivery/using/validating.md)
-      + [Canaux Autre](delivery/using/other-channels.md)
    + Utilisation des modèles de diffusion {#using-delivery-templates}
       + [Modèles](delivery/using/about-templates.md)
       + [Créer un modèle de diffusion](delivery/using/creating-a-delivery-template.md)
@@ -426,6 +425,7 @@ ht-degree: 99%
          + [Créer une liste récapitulative](workflow/using/creating-a-summary-list.md)
          + [Enrichir des données](workflow/using/enriching-data.md)
          + [Utilisation d&#39;agrégats](workflow/using/using-aggregates.md)
+         + [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](workflow/using/quarterly-list-update.md)
       + Créer des requêtes {#designing-queries}
          + [Requête sur la table des destinataires](workflow/using/querying-recipient-table.md)
          + [Requête sur les informations de diffusion](workflow/using/querying-delivery-information.md)
