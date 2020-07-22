@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+source-git-commit: f097fcc4363181cda21386840f19e2523c3af3f9
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 80%
+source-wordcount: '826'
+ht-degree: 79%
 
 ---
 
@@ -41,7 +41,7 @@ _7 juillet 2020_
 
 La version 9032@efd8a94 inclut les correctifs suivants :
 
-* Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
+Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
 
 >[!CAUTION]
 >
