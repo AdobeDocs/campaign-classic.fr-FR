@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 752318fa4e5b330965bef0906aa0991673e8bd68
+source-git-commit: 4d04c261441d4d66441c3665a7beb785383c9f14
 workflow-type: tm+mt
-source-wordcount: '3091'
+source-wordcount: '3080'
 ht-degree: 99%
 
 ---
@@ -347,7 +347,7 @@ Ces droits sont les suivants :
 
 Les groupes par défaut et les droits nommés permettent aux opérateurs d&#39;accéder à certains dossiers de l&#39;arborescence, et accordent des permissions en lecture, écriture et suppression.
 
-La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf).
+La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](/help/platform/using/assets/access-rights-matrix.pdf).
 
 [![image](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
