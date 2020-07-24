@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f097fcc4363181cda21386840f19e2523c3af3f9
+source-git-commit: 890153a5b30594a1cb90606db4be8fd1ec19267b
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 79%
@@ -35,7 +35,7 @@ Cette page liste les versions Gold Standard.
 
 Pour plus d&#39;informations sur la mise à niveau vers Gold Standard, reportez-vous à cet [article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/blue_2.png) Version Gold Standard 10{#gs-10}
+## ![](assets/do-not-localize/limited.png) Version Gold Standard 10{#gs-10}
 
 _7 juillet 2020_
 
