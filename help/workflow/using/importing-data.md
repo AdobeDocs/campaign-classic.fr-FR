@@ -13,15 +13,19 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
+source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
 workflow-type: tm+mt
-source-wordcount: '2604'
-ht-degree: 79%
+source-wordcount: '2627'
+ht-degree: 85%
 
 ---
 
 
 # Importer des données{#importing-data}
+
+>[!CAUTION]
+>
+>Gardez à l’esprit les limites de l’enregistrement SFTP, de l’Enregistrement de données et du profil actif, conformément à votre contrat AdobeCampaign, lors de l’utilisation de cette fonctionnalité.
 
 ## Comment collecter des données {#how-to-collect-data}
 
@@ -51,19 +55,19 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## Décompresser ou déchiffrer un fichier avant traitement {#unzipping-or-decrypting-a-file-before-processing}
 
-### A propos des étapes de prétraitement {#about-pre-processing-stages}
+### À propos des étapes de prétraitement {#about-pre-processing-stages}
 
 Adobe Campaign permet d&#39;importer des fichiers compressés ou chiffrés. Avant qu&#39;un fichier ne puisse être lu dans une activité [Chargement (fichier)](../../workflow/using/data-loading--file-.md), vous pouvez définir une étape de prétraitement pour le décompresser ou le déchiffrer.
 
 Pour ce faire :
 
-1. Utilisez le panneau [de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) configuration pour générer une paire de clés publique/privée.
+1. Utilisez le [Panneau de Contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) pour générer une paire de clés publique/privée.
 
    >[!NOTE]
    >
-   >Le Panneau de configuration est disponible pour tous les clients hébergés sur AWS (à l’exception des clients qui hébergent leurs instances marketing sur site).
+   >Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l’exception de ceux qui hébergent leurs instances marketing on-premise).
 
-1. Si votre installation d’Adobe Campaign est hébergée par Adobe, contactez le service à la clientèle de Adobe pour installer les utilitaires nécessaires sur le serveur.
+1. Si votre installation d’Adobe Campaign est hébergée par Adobe, contactez le service à la clientèle Adobe pour installer les utilitaires nécessaires sur le serveur.
 1. Si votre installation d’Adobe Campaign est sur site, installez l’utilitaire que vous souhaitez utiliser (par exemple : GPG, GZIP) ainsi que les clés nécessaires (clé de chiffrement) sur le serveur d’applications.
 
 Vous pouvez ensuite utiliser les commandes de prétraitement de votre choix dans vos workflows :
@@ -84,39 +88,39 @@ Un exemple est présenté dans le cas d’utilisation ci-dessous.
 
 ### Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle {#use-case-gpg-decrypt}
 
-Dans ce cas d’utilisation, nous allons créer un flux de travail afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de configuration.
+Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
 Une vidéo didacticiel montrant comment utiliser une clé GPG pour déchiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
 
-Les étapes pour effectuer cette utilisation sont les suivantes :
+Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Utilisez le Panneau de configuration pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la documentation [du Panneau de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)configuration.
+1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La clé publique sera partagée avec le système externe. Ce dernier l’utilisera pour crypter les données à envoyer à Campaign.
    * La clé privée sera utilisée par le Campaign Classic pour déchiffrer les données chiffrées entrantes.
 
    ![](assets/gpg_generate.png)
 
-1. Dans le système externe, utilisez la clé publique téléchargée à partir du Panneau de configuration pour chiffrer les données à importer dans le Campaign Classic.
+1. Dans le système externe, utilisez la clé publique téléchargée à partir du Panneau de Contrôle pour chiffrer les données à importer dans le Campaign Classic.
 
    ![](assets/gpg_external.png)
 
-1. Dans le Campaign Classic, créez un processus pour importer les données chiffrées et les déchiffrer à l’aide de la clé privée qui a été installée via le Panneau de configuration. Pour ce faire, nous allons créer un processus comme suit :
+1. Dans le Campaign Classic, créez un processus pour importer les données chiffrées et les déchiffrer à l’aide de la clé privée qui a été installée via le Panneau de Contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg_workflow.png)
 
    * **[!UICONTROL activité de transfert]** de fichier : Transfère le fichier d’une source externe au Campaign Classic. Dans cet exemple, nous voulons transférer le fichier d’un serveur SFTP.
-   * **[!UICONTROL activité de chargement de données (fichier)]** : Charge les données du fichier dans la base de données et les déchiffre à l’aide de la clé privée générée dans le Panneau de configuration.
+   * **[!UICONTROL activité de chargement de données (fichier)]** : Charge les données du fichier dans la base de données et les déchiffre à l’aide de la clé privée générée dans le Panneau de Contrôle.
 
 1. Ouvrez l’activité de transfert **[!UICONTROL de]** fichier, puis spécifiez le compte externe à partir duquel vous souhaitez importer le fichier .gpg chiffré.
 
    ![](assets/gpg_transfer.png)
 
-   Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../workflow/using/file-transfer.md).
+   Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../workflow/using/file-transfer.md).
 
-1. Ouvrez l’activité de chargement de **[!UICONTROL données (fichier)]** , puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../workflow/using/data-loading--file-.md).
+1. Open the **[!UICONTROL Data loading (file)]** activity, then configure it according to your needs. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../workflow/using/data-loading--file-.md).
 
-   Ajoutez une étape de prétraitement à l’activité afin de déchiffrer les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Prétraiter le fichier]** , puis copiez-collez cette commande de déchiffrement dans le champ **[!UICONTROL Commande]** :
+   Ajoutez une étape de prétraitement à l’activité pour décrypter les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Prétraiter le fichier]** , puis copiez-collez cette commande de déchiffrement dans le champ **[!UICONTROL Commande]** :
 
    `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
 
@@ -124,13 +128,13 @@ Les étapes pour effectuer cette utilisation sont les suivantes :
 
    >[!CAUTION]
    >
-   >Dans cet exemple, nous utilisons la phrase secrète utilisée par défaut par le Panneau de configuration, qui est &quot;phrase secrète&quot;.
+   >Dans cet exemple, nous utilisons la phrase secrète utilisée par défaut par Panneau de Contrôle, qui est &quot;passe-passe&quot;.
    >
    >Si des clés GPG ont déjà été installées sur votre instance par le biais d’une demande du service d’assistance à la clientèle, la phrase secrète peut avoir été modifiée et être différente de celle par défaut.
 
-1. Click **[!UICONTROL OK]** to confirm the activity configuration.
+1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l’activité.
 
-1. Vous pouvez désormais exécuter le processus. Une fois exécuté, vous pouvez vérifier dans les journaux de flux de travail que le déchiffrement a été exécuté et que les données du fichier ont été importées.
+1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, vous pouvez vérifier dans les journaux de flux de travail que le déchiffrement a été exécuté et que les données du fichier ont été importées.
 
    ![](assets/gpg_run.png)
 
@@ -138,7 +142,7 @@ Les étapes pour effectuer cette utilisation sont les suivantes :
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
-### Utiliser les modèles d’import    {#using-import-templates}
+### Utiliser les modèles d’import     {#using-import-templates}
 
 La plupart des workflows d&#39;import doivent contenir les activités suivantes : **[!UICONTROL Chargement (fichier)]**, **[!UICONTROL Enrichissement]**, **[!UICONTROL Partage]**, **[!UICONTROL Déduplication]**, **[!UICONTROL Mise à jour de données]**.
 
