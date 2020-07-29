@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d04c261441d4d66441c3665a7beb785383c9f14
+source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
 workflow-type: tm+mt
-source-wordcount: '3080'
-ht-degree: 99%
+source-wordcount: '3151'
+ht-degree: 95%
 
 ---
 
@@ -241,55 +241,63 @@ Pour créer un nouveau groupe d&#39;opérateurs, les étapes sont les suivantes 
 
 Les groupes d&#39;opérateurs par défaut sont les suivants :
 
-1. Chargés de diffusion
+1. **[!UICONTROL Administrateur]**
+
+   Les opérateurs de ce groupe ont un accès complet à l&#39;instance. Les administrateurs sont des utilisateurs qui peuvent accéder aux parties les plus techniques de l’interface. Ils ont le rôle **[!UICONTROL Administration]** et s’assurent que la plateforme est entièrement configurée.
+
+   Ce groupe contient les droits nommés suivants :
+
+   * **[!UICONTROL ADMINISTRATION]**: droit d&#39;exécuter/créer/modifier/supprimer tout objet tel que le workflow, la diffusion, les scripts, etc.
+
+1. **[!UICONTROL Chargés de diffusion]**
 
    Les opérateurs de ce groupe sont chargés de la gestion des diffusions : il permet l&#39;accès aux ressources principales nécessaires à la création et la préparation des diffusions (typologies de campagnes, mappings de diffusions, modèles par défaut, blocs de personnalisation, etc.).
 
    Ce groupe contient les droits nommés suivants :
 
-   * PRÉPARER DES DIFFUSIONS : droit pour créer, éditer et lancer l&#39;analyse des diffusions,
-   * DÉMARRER DES DIFFUSIONS : droit pour valider les diffusions préalablement analysées.
+   * **[!UICONTROL PRÉPARER LES DIFFUSIONS]**: droit de créer, de modifier et de début l&#39;analyse diffusion,
+   * **[!UICONTROL DIFFUSIONS]** du DÉBUT : droit d&#39;approuver les diffusions analysées précédemment.
 
-1. Chargés d&#39;opération
+1. **[!UICONTROL Chargés d&#39;opération]**
 
-   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.).
+   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module d&#39;Adobe Campaign facultatif).
 
-   Ce groupe contient les droits nommés suivants :
+   Ce groupe contient les droits nommés suivants :
 
-   * INSERTION DES DOSSIERS : droit pour insérer des dossiers dans l&#39;arborescence d&#39;Adobe Campaign (sous réserve d&#39;un accès en écriture sur les branches concernées),
-   * WORKFLOW : droit pour utiliser les workflows.
+   * **[!UICONTROL INSÉRER DES DOSSIERS]**: droit d&#39;insérer des dossiers dans l&#39;arborescence de l&#39;Adobe Campaign (à condition que vous disposiez de droits d&#39;édition pour les branches concernées),
+   * **[!UICONTROL PROCESSUS]**: droit d&#39;utiliser des workflows.
 
    >[!NOTE]
    >
    >Ce groupe ne permet pas aux opérateurs de démarrer les diffusions.
 
-1. Rédacteurs de contenu
+1. **[!UICONTROL Rédacteurs de contenu]**
 
-   Les opérateurs de ce groupe peuvent accéder aux dossiers Contenus, dans le cadre de la **Gestion de Contenu** (module optionnel d&#39;Adobe Campaign). Ce groupe n&#39;accorde pas de droit supplémentaire.
+   Les opérateurs de ce groupe peuvent accéder aux dossiers Contenus, dans le cadre de la **[!UICONTROL Gestion de Contenu]** (module optionnel d&#39;Adobe Campaign). Ce groupe n&#39;accorde pas de droit supplémentaire.
 
-1. Consultation des rapports
+1. **[!UICONTROL Consultation des rapports]**
 
    Ce groupe est réservé aux opérateurs externes afin d&#39;accéder aux rapports de diffusions depuis un accès Web.
 
-1. Exécution des workflows
+1. **[!UICONTROL Exécution des workflows]**
 
    Ce groupe permet d&#39;attribuer aux opérateurs le droit de gérer les workflows indépendants des opérations.
 
-1. Superviseurs de workflow
+1. **[!UICONTROL Superviseurs de workflow]**
 
    Les opérateurs de ce groupe sont notifiés par emails des alertes relatives aux workflows des opérations.
 
 1. Gestion en local / Gestion en central
 
-   Ces groupes permettent l&#39;utilisation du **Marketing distribué** (module optionnel d&#39;Adobe Campaign).
+   Ces groupes permettent l&#39;utilisation du **[!UICONTROL Marketing distribué]** (module optionnel d&#39;Adobe Campaign).
 
-1. Chargés d’offres
+1. **[!UICONTROL Chargés d’offres]**
 
    Les opérateurs de ce groupe peuvent créer et gérer des offres. Pour plus d’informations à ce sujet, consultez [cette page](../../interaction/using/operator-profiles.md).
 Ce groupe contient les droits nommés suivants :
 
-   * INSERTION DES DOSSIERS : droit pour insérer des dossiers dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
-   * ÉDITION DES DOSSIERS : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
+   * **[!UICONTROL INSÉRER DES DOSSIERS]**: Droit d&#39;insérer des dossiers dans l&#39;arborescence de l&#39;Adobe Campaign (à condition que vous disposiez de droits d&#39;édition pour les branches concernées),
+   * **[!UICONTROL ÉDITION DES DOSSIERS]** : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
 
 ## Droits nommés {#named-rights}
 
