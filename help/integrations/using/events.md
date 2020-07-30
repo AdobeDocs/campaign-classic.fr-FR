@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
+source-git-commit: 9f70468e3dd7003a18812d07669f10c561e8bef7
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Exemple :
 Le contenu est défini dans Analytics pour chaque déclencheur. Il est au format JSON.
 Par exemple, dans un déclencheur LogoUpload_uploading_Visits :
 
-* **[!UICONTROL eVar01]** peut contenir l’identifiant Shopper utilisé pour la conciliation avec les destinataires Campaign. Il est au format Chaîne. <br>Il doit être rapproché pour trouver l&#39;identifiant Shopper, qui est la clé principale.
+* **[!UICONTROL eVar01]** peut contenir l&#39;identifiant Shopper utilisé pour la conciliation avec les destinataires Campaign. Il est au format Chaîne. <br>Il doit être rapproché pour trouver l&#39;identifiant Shopper, qui est la clé principale.
 
 * **[!UICONTROL timeGMT]** peut contenir l’heure du déclencheur côté Analytics. Il est au format Epoque UTC (secondes depuis le 01/01/1970 UTC).
 
@@ -161,7 +161,7 @@ Cet exemple de code JS enregistre le déclencheur dans la base de données.
 
 ```
 function processPipelineMessage(xmlTrigger)
- {```
+ {
  (…)
  var event = 
  <pipelineEvent
