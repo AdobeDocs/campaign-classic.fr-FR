@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13fefe429862e856bc7ec1d376d80c176398da0b
+source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
-source-wordcount: '6978'
-ht-degree: 97%
+source-wordcount: '6968'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ La section Confidentialité et consentement a été améliorée avec des informa
 
 La page Gestion de la confidentialité dans le Campaign Classic a été mise à jour avec des informations sur le champ &quot;réglementation&quot; qui est maintenant disponible lors de l&#39;utilisation de l&#39;API permettant de configurer le processus de demande automatique de confidentialité. [En savoir plus](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-La page Aperçu de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne Lei Geral de Proteção de Dados (LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La page Présentation de la gestion de la protection des données a été mise à jour pour inclure des informations relatives au PDPA (Personal Data Protection Act) thaïlandais et au LGPD (Lei Geral de Proteção de Dados) brésilien. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Des informations ont été ajoutées sur les journaux des sous-workflows et sur le comportement en cas d&#39;erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
@@ -256,7 +256,7 @@ Des informations ont été ajoutées pour indiquer que le contenu des champs de 
 
 La documentation du panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
 
-Mise à jour du guide de prise en main des bonnes pratiques de diffusion –  [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
+Mise à jour du guide de prise en main des bonnes pratiques de diffusion –  [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
 ## Octobre 2019 {#october-2019}
 
@@ -268,7 +268,7 @@ Une nouvelle page de résolution des problèmes a été ajoutée concernant le s
 
 Une nouvelle page de bonnes pratiques relatives au connecteur de données d&#39;Adobe Analytics a été ajoutée. [En savoir plus sur le connecteur de données d&#39;Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md)
 
-Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
+Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour. [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
 Une recommandation a été ajoutée à la documentation du canal SMS. Elle permet d&#39;éviter des problèmes lors de l&#39;utilisation de plusieurs comptes externes en ayant recours au connecteur SMPP générique étendu avec le même compte fournisseur. [En savoir plus](../../delivery/using/sms-channel.md#automatic-reply)
 
