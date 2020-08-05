@@ -5,10 +5,10 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 14e275203e3436183d5a5c743375ba42f6153c6d
+source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 99%
+source-wordcount: '2097'
+ht-degree: 98%
 
 ---
 
@@ -89,8 +89,9 @@ ht-degree: 99%
       + [Connecteurs CRM](platform/using/crm-connectors.md)
       + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Envoyer les messages {#sending-messages}
-   + A propos des diffusions et des canaux {#about-deliveries-and-channels}
+   + Get started with messages {#about-deliveries-and-channels}
       + [Canaux de communication](delivery/using/communication-channels.md)
+      + [Bonnes pratiques de diffusion](delivery/using/delivery-best-practices.md)
       + [Accès aux informations sur les diffusions](delivery/using/accessing-deliveries-information.md)
       + [Types de diffusions](delivery/using/types-of-deliveries.md)
    + Etapes clés lors de la création d&#39;une diffusion {#key-steps-when-creating-a-delivery}
