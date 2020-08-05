@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f599bc5483779ae62dd4d5eb1936cbc2760639b5
+source-git-commit: 4548eda6f87566398ddf19131b777012cbf8917b
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4408'
 ht-degree: 56%
 
 ---
 
 
 # Bonnes pratiques de diffusion {#delivery-best-practices}
+
+Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi de diffusions avec Adobe Campaign.
 
 ## Optimisez votre diffusion {#optimize-delivery}
 
@@ -102,7 +104,7 @@ Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de dispos
 
 **Conseil**:  Pour éviter les erreurs de configuration dans le Campaign Standard, nous vous recommandons de duplicata d’un modèle natif et de modifier ses propriétés plutôt que de créer un nouveau modèle.
 
-**Configurer les adresses**
+### Configurer les adresses
 
 * L&#39;adresse de l&#39;expéditeur est obligatoire pour permettre l&#39;envoi d&#39;un email.
 
@@ -126,7 +128,7 @@ Pour configurer les adresses dans l’interface Campaign, procédez comme suit :
 
 1. Dans les champs de texte **[!UICONTROL d&#39;adresse de]** réponse, l&#39;adresse de l&#39;expéditeur est utilisée par défaut pour les réponses. Toutefois, l’Adobe recommande d’utiliser une adresse réelle existante, telle que l’assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
 
-**Configurer une population témoin**
+### Configurer une population témoin
 
 Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des destinataires exclus à celui des destinataires qui ont reçu la diffusion. Vous pouvez ensuite mesurer l&#39;efficacité de vos campagnes. En savoir plus sur les Populations témoins [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
@@ -134,7 +136,7 @@ Pour configurer une Population témoin, cliquez sur le lien **[!UICONTROL À]** 
 
 ![](assets/d_best_practices_control_group.png)
 
-**Utiliser des typologies pour appliquer des filtres ou des règles de contrôle**
+### Utiliser des typologies pour appliquer des filtres ou des règles de contrôle
 
 Une typologie contient les règles de vérification qui sont appliquées lors de la phase d&#39;analyse, avant tout envoi.
 
@@ -342,7 +344,7 @@ Une fois que votre message est prêt, vérifiez que le contenu s&#39;affiche cor
 
 Avant d’envoyer votre message, vérifiez également que les paramètres et la configuration sont cohérents par rapport à la diffusion.
 
-### La validation est essentielle {#validation-is-key}
+### Pourquoi la validation est-elle essentielle ? {#validation-is-key}
 
 Avant d&#39;envoyer une diffusion, vous devez vous assurer que vos destinataires recevront le message que vous souhaitez réellement leur envoyer. Pour cela, vous devez valider le contenu du message et les paramètres de diffusion.
 
@@ -461,7 +463,7 @@ Pour mesurer la vitesse à laquelle les messages sont diffusés, vous pouvez con
 
 * N&#39;essayez pas de planifier des diffusions volumineuses ensemble. 5 à 10 minutes sont nécessaires pour répartir la charge uniformément sur le système.
 
-## Dépannage de la Diffusion {#delivery-troubleshooting}
+### Dépannage de la Diffusion {#delivery-troubleshooting}
 
 Des actions spécifiques peuvent être exécutées en cas de problème avec des diffusions :
 
