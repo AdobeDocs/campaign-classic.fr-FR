@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 97%
+source-wordcount: '1674'
+ht-degree: 91%
 
 ---
 
@@ -29,25 +29,23 @@ ht-degree: 97%
 
 Pour chaque diffusion, vous pouvez définir plusieurs types de populations cibles. La section ci-dessous fournit des informations supplémentaires sur la façon de sélectionner :
 
-* **Les principaux destinataires de la diffusion**. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
-* **Les destinataires des messages de BAT** pour configurer un cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+* Les principaux destinataires de la diffusion. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* Les destinataires des messages de BAT pour configurer un cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-De plus, vous pouvez définir des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [populations témoin](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group). si la diffusion fait partie d’une opération marketing.
+De plus, si la diffusion est incluse dans une campagne marketing, vous pouvez également définir des [adresses de contrôle](../../delivery/using/about-seed-addresses.md)et des [Populations témoins](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 ## Sélection des principaux destinataires de la diffusion {#selecting-the-main-target}
 
-Dans la plupart des cas, la cible principale est extraite de la base de données Campaign (mode par défaut).
+Dans la plupart des cas, la cible principale est extraite de la base de données Adobe Campaign (mode par défaut). Cependant, les destinataires peuvent également être stockés dans un fichier externe. En savoir plus dans [cette section](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
-Il est également possible de stocker les destinataires dans un fichier externe. Le paramétrage de ce type de diffusion est présenté dans la section [Sélectionner les destinataires externes](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
-Pour sélectionner les destinataires de la diffusion en cours de création, procédez comme suit :
-
-1. Cliquez sur le lien **[!UICONTROL Pour]**.
-1. Si les destinataires sont stockés en base, sélectionnez la première option.
+1. Dans l’éditeur de diffusions, sélectionnez **[!UICONTROL À]**.
+1. Si les destinataires sont stockés dans la base de données, choisissez la première option.
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]**. Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataires]**.
+1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon **nms:destinataire** schéma.
 
    D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique. Pour plus d’informations sur les mappings de ciblage, voir la section [Choisir un mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md).
 
