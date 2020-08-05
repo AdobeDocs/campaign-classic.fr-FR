@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1814'
 ht-degree: 98%
 
 ---
@@ -31,7 +31,7 @@ Pour cela :
 
 1. **Analyser la diffusion** : cette étape permet de procéder à la préparation des messages à envoyer. Reportez-vous à la section [Analyser la diffusion](#analyzing-the-delivery).
 
-   Les règles appliquées pendant l’analyse sont présentées dans la section [Processus de validation avec des typologies](#validation-process-with-typologies). Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
+   Les règles appliquées pendant l&#39;analyse sont présentées dans [cette section](#validation-process-with-typologies) . Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
 
 1. **Envoyer des BAT** : cette étape permet de valider le contenu, les URL, les champs de personnalisation, etc. Reportez-vous aux sections [Envoyer un bon à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
