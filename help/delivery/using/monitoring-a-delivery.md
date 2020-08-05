@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2674'
 ht-degree: 96%
 
 ---
@@ -31,7 +31,7 @@ Le **tableau de bord des diffusions** est la clé pour suivre les diffusions et 
 
 * [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md)
-* [Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
+* [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md)
 * [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md)
 
 ## Tableau de bord de la diffusion {#delivery-dashboard}
