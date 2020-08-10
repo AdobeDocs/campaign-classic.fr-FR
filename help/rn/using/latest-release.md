@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d9b6ae9f7e2f3b15698f1a420b5416162cbcc758
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1987'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,26 +27,27 @@ ht-degree: 90%
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.2.1 - Build 9180 {#release-20-2-2-build-9180}
 
-_22 juillet 2020_
+_7 juillet 2020_
 
-* Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
-* Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués lorsqu’ils devaient être autorisés. (NEO-25210)
-* Correction d’un problème qui pouvait empêcher d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook. (NEO-25688)
-* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions électroniques. (NEO-26084)
-* Correction d’un problème lié au codage de la gestion des URL dans le service anti-phishing. (NEO-25283)
+* Correction d’un problème qui empêchait le fonctionnement du tracking lorsque la fonctionnalité de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
+* Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d’être autorisés. (NEO-25210)
+* Correction d’un problème qui empêchait d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook. (NEO-25688)
+* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions email. (NEO-26084)
+* Correction d’un problème lié à gestion des URL de codage dans le service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
-Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications Push iOS et Android). (NEO-25965)
-* Correction d’une régression qui impactait les champs calculés dans un processus. (NEO-25194)
-* Correction d’une régression qui empêchait la création instantanée d’URL de suivi Web de fonctionner. (NEO-20999)
-* Correction d’un problème lié aux rapports de diffusion prêts à l’emploi qui s’affichaient tronqués lors de l’exportation au format PDF. (NEO-25757)
+
+Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
+* Correction d’une régression qui avait un impact sur les champs calculés dans un workflow. (NEO-25194)
+* Correction d’une régression qui empêchait le fonctionnement de la création à la volée d’URL de tracking web. (NEO-20999)
+* Correction d’un problème lié aux rapports de diffusion d’usine qui s’affichaient tronqués lors de l’export au format PDF. (NEO-25757)
 * Correction d’un problème de blocage dans l’assistant de déploiement.
-* Correction d’un problème en raison duquel le processus de notification d’Offre ne fonctionnait pas correctement après une mise à niveau.
+* Correction d’un problème qui empêchait le fonctionnement correct du workflow Notification des offres après un postupgrade.
 * Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903)
 * La liste jarsToSkip de catalina.properties a été mise à jour afin de supprimer la référence à un fichier jar qui n’était plus utilisé (notifications iOS).
-* Correction d’un problème qui bloquait la préparation des diffusions après la mise à niveau.
-* Après le passage au [nouveau mécanisme](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)d’ID de séquence, toutes les applications Web qui mettent à jour le tableau du destinataire sont republiées après la mise à niveau.
-* Correction d’une vulnérabilité XSS potentielle dans le contenu de la diffusion. (NEO-17987, NEO-26073)
+* Correction d’un problème qui bloquait la préparation des diffusions après un postupgrade.
+* Après le passage au [nouveau mécanisme d’identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
+* Correction d’une vulnérabilité XSS potentielle dans le contenu d’une diffusion. (NEO-17987, NEO-26073)
 
 ## ![](assets/do-not-localize/orange_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
