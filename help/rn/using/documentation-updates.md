@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
 source-wordcount: '6968'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,21 +29,21 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Juillet 2020 {#july-2020}
 
-Un cas d’utilisation de la mise à jour automatique d’une liste à l’aide d’une requête incrémentielle a été ajouté aux cas d’utilisation du processus. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
+Un cas pratique sur la mise à jour automatique d’une liste à l’aide d’une requête incrémentale a été ajouté aux cas pratiques de workflow. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
 
-Les Notes [de](../../rn/using/latest-release.md) mise à jour ont été réorganisées : une page [](../../rn/using/latest-release.md) d’aperçu a été ajoutée avec des informations sur les états de build, le processus de mise à niveau, les recommandations et les liens importants. Une page dédiée aux versions [de](../../rn/using/gold-standard.md) Gold Standard a également été ajoutée et la matrice [de](../../rn/using/compatibility-matrix.md) compatibilité a été intégrée.
+Les [Notes de mise à jour](../../rn/using/latest-release.md) ont été réorganisées : une [page d’aperçu](../../rn/using/latest-release.md) a été ajoutée avec des informations sur les statuts de build, le processus de mise à niveau, les recommandations et des liens importants. Une page dédiée aux [versions Gold Standard](../../rn/using/gold-standard.md) a également été ajoutée et la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) a été intégrée.
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
 
 La section Confidentialité et consentement a été améliorée avec des informations plus détaillées et des liens utiles. [En savoir plus](../../platform/using/privacy-and-recommendations.md).
 
-La page Gestion de la confidentialité dans le Campaign Classic a été mise à jour avec des informations sur le champ &quot;réglementation&quot; qui est maintenant disponible lors de l&#39;utilisation de l&#39;API permettant de configurer le processus de demande automatique de confidentialité. [En savoir plus](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+La page Gestion de la confidentialité dans Campaign Classic a été mise à jour avec des informations sur le champ « réglementation » qui est maintenant disponible lors de l&#39;utilisation de l’API permettant de configurer le processus de demande automatique d’accès à des informations personnelles. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-La page Présentation de la gestion de la protection des données a été mise à jour pour inclure des informations relatives au PDPA (Personal Data Protection Act) thaïlandais et au LGPD (Lei Geral de Proteção de Dados) brésilien. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-Des informations ont été ajoutées sur les journaux des sous-workflows et sur le comportement en cas d&#39;erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
+Des informations ont été ajoutées sur les logs de sous-workflows et sur le comportement en cas d’erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
-Les bonnes pratiques ont été ajoutées dans la section **[!UICONTROL Planificateur]** activité. [En savoir plus](../../workflow/using/scheduler.md)
+Des bonnes pratiques ont été ajoutées dans la section sur l’activité **[!UICONTROL Planificateur]**. [En savoir plus](../../workflow/using/scheduler.md)
 
 ## Juin 2020 {#june-2020}
 
@@ -53,7 +53,7 @@ Des cas d’utilisation ont été ajoutés pour [crypter](../../workflow/using/h
 
 Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
-The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
+La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 06/08/2020{#release-20-2}
 
@@ -624,7 +624,7 @@ Ajout d&#39;instructions décrivant comment installer un package standard. [En s
 
 Ajout d&#39;informations sur la configuration de l&#39;intégration avec Audience Manager ou People core service. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Configuring_shared_audiences_integration_in_Adobe_Campaign.html)
 
-Mise à jour de la documentation d&#39;installation pour indiquer que pgcrypto est désormais nécessaire pour l&#39;installation de Campaign en cas d&#39;utilisation de PostSQL. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Linux__Prerequisites.html#Database_access_layers)
+Mise à jour de la documentation d&#39;installation pour indiquer que pgcrypto est désormais nécessaire pour l&#39;installation de Campaign en cas d&#39;utilisation de PostgreSQL. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Linux__Prerequisites.html#Database_access_layers)
 
 ## 17.9 - 25/09/2017{#release-17-9}
 
