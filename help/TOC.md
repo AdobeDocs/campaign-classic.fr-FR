@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
 workflow-type: tm+mt
 source-wordcount: '2097'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 98%
 + [Documentation du produit](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
 + Notes de mise à jour {#release-notes}
-   + [Commencer avec les mises à niveau](rn/using/rn-overview.md)
+   + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
-   + [ Version Gold Standard ](rn/using/gold-standard.md)
+   + [Version Gold Standard ](rn/using/gold-standard.md)
    + Versions précédentes {#previous-releases}
       + [Version 20.1](rn/using/release--20-1.md)
       + [Version 19.2](rn/using/release--19-2.md)
@@ -28,7 +28,7 @@ ht-degree: 98%
       + [Version 18.10](rn/using/release--18-10.md)
       + [Version 18.6](rn/using/release--18-6.md)
       + [Version 18.4](rn/using/release--18-4.md)
-   + Fonctionnalités et compatibilité obsolètes {#deprecated-compatibility}
+   + Fonctionnalités obsolètes et compatibilité{#deprecated-compatibility}
       + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
       + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
 + Prise en main {#getting-started}
@@ -65,7 +65,7 @@ ht-degree: 98%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête     {#creating-queries}
+   + Créer une requête      {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -76,7 +76,7 @@ ht-degree: 98%
       + [Comptes externes](platform/using/external-accounts.md)
    + Accéder à une base externe (FDA){#accessing-external-database}
       + [À propos de FDA](platform/using/about-fda.md)
-      + [Configuration des connecteurs de FDA](platform/using/specific-configuration-database.md)
+      + [Configuration des connecteurs FDA](platform/using/specific-configuration-database.md)
       + [Anciens connecteurs](platform/using/legacy-connectors.md)
       + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
       + [Connexion à la base de données](platform/using/connecting-to-database.md)
@@ -417,7 +417,7 @@ ht-degree: 98%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle     {#monitoring}
+      + Contrôle      {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -426,7 +426,7 @@ ht-degree: 98%
          + [Créer une liste récapitulative](workflow/using/creating-a-summary-list.md)
          + [Enrichir des données](workflow/using/enriching-data.md)
          + [Utilisation d&#39;agrégats](workflow/using/using-aggregates.md)
-         + [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](workflow/using/quarterly-list-update.md)
+         + [Mise à jour de liste trimestrielle à l’aide d’une requête incrémentale](workflow/using/quarterly-list-update.md)
       + Créer des requêtes {#designing-queries}
          + [Requête sur la table des destinataires](workflow/using/querying-recipient-table.md)
          + [Requête sur les informations de diffusion](workflow/using/querying-delivery-information.md)
