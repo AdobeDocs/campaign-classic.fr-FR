@@ -1,7 +1,7 @@
 ---
-title: ' Version Gold Standard '
-seo-title: ' Version Gold Standard '
-description: ' Version Gold Standard '
+title: Version Gold Standard
+seo-title: Version Gold Standard
+description: Version Gold Standard
 seo-description: null
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -18,30 +18,30 @@ translation-type: tm+mt
 source-git-commit: 890153a5b30594a1cb90606db4be8fd1ec19267b
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-#  Version Gold Standard {#gold-standard}
+# Version Gold Standard{#gold-standard}
 
-En tant qu&#39;utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à jour Gold Standard avec la dernière version stable sans aucune action.
+En tant qu’utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à niveau Gold Standard avec la dernière version stable sans que vous n’ayez aucune action à effectuer.
 
-Les clients sur site et les clients hybrides peuvent également bénéficier des versions de Gold Standard.
+Les clients On-premise et hybrides peuvent également bénéficier des versions Gold Standard.
 
-Il s’agit de notre version de support à long terme. Si vous migrez à partir d’une ancienne version, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version.
+Il s’agit de notre version de support à long terme. Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version.
 
-Cette page liste les versions Gold Standard.
+Cette page répertorie les versions Gold Standard.
 
-Pour plus d&#39;informations sur la mise à niveau vers Gold Standard, reportez-vous à cet [article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
+Pour plus d’informations sur la mise à niveau Gold Standard, consultez cet [article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
 ## ![](assets/do-not-localize/limited.png) Version Gold Standard 10{#gs-10}
 
 _7 juillet 2020_
 
-La version 9032@efd8a94 inclut les correctifs suivants :
+Le build 9032@efd8a94 comprend le correctif suivant :
 
-Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
+Correction d’un problème qui empêchait le fonctionnement du tracking lorsque la fonctionnalité de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
 
 >[!CAUTION]
 >
@@ -51,29 +51,30 @@ Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fo
 
 _22 juin 2020_
 
-La version 9032@800be2e comprend les correctifs suivants :
+Le build 9032@800be2e comprend les correctifs suivants :
 
 * Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903, NEO-25799)
 
 Les correctifs suivants sont liés au mécanisme de sécurité des liens de tracking (voir la [liste de contrôle Sécurité et confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)) :
 
-* Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications Push iOS et Android). (NEO-25965)
+* Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
 * Correction d’un problème qui pouvait empêcher d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook.  (NEO-25688)
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème lié au service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
 
+
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 8{#gs-8}
 
 _29 avril 2020_
 
-La version 9032@3a9dc9c comprend les correctifs suivants :
+Le build 9032@3a9dc9c comprend les correctifs suivants :
 
 * Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant le service Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
 
 >[!CAUTION]
 >
->Si vous rencontrez des problèmes avec les notifications Push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. La procédure est détaillée dans cette [page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
+>Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. La procédure est détaillée dans cette [page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
@@ -92,7 +93,7 @@ La version 9032@3a9dc9c comprend les correctifs suivants :
 
 _9 mars 2020_
 
-La version 9032@19f73c5 inclut les correctifs suivants :
+Le build 9032@19f73c5 comprend le correctif suivant :
 
 * Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
 
@@ -100,7 +101,7 @@ La version 9032@19f73c5 inclut les correctifs suivants :
 
 _17 décembre 2019_
 
-La version 9032@d6b8062 inclut les correctifs suivants :
+Le build 9032@d6b8062 comprend le correctif suivant :
 
 * Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter). (NEO-19595)
 
@@ -108,7 +109,7 @@ La version 9032@d6b8062 inclut les correctifs suivants :
 
 _11 décembre 2019_
 
-La version 9032@bc4a935 inclut les correctifs suivants :
+Le build 9032@bc4a935 comprend le correctif suivant :
 
 * Correction d’un problème de performances lors de l’envoi de messages avec une base de données MSSQL. (NEO-17558)
 
@@ -116,7 +117,7 @@ La version 9032@bc4a935 inclut les correctifs suivants :
 
 _20 novembre 2019_
 
-La version 9032@3468c7b comprend les correctifs suivants :
+Le build 9032@3468c7b comprend les correctifs suivants :
 
 * Correction d’un problème de connexion via l’authentification IMS. (NEO-17312)
 * Correction d’un problème lors de l’affichage de rapports cumulatifs sur plusieurs diffusions. (NEO-18165)
@@ -126,7 +127,7 @@ La version 9032@3468c7b comprend les correctifs suivants :
 
 _19 septembre 2019_
 
-La version 9032@cee805c comprend les correctifs suivants :
+Le build 9032@cee805c comprend les correctifs suivants :
 
 * Correction d’un problème lors de l’utilisation du connecteur CRM pour Salesforce. (NEO-17712)
 * Correction d’un problème d’index qui pouvait entraîner des problèmes de performances lors de l’envoi de messages transactionnels.
@@ -135,7 +136,7 @@ La version 9032@cee805c comprend les correctifs suivants :
 
 _13 août 2019_
 
-La version 19.1.4 initiale comprend les correctifs suivants :
+Le build 19.1.4 initial comprend les correctifs suivants :
 
 * Correction d&#39;un problème lié à l&#39;activité du planificateur qui générait des messages d&#39;erreur indésirables lors de la configuration de l&#39;assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
 * Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
