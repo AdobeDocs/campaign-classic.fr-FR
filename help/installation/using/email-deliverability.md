@@ -147,7 +147,7 @@ Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communic
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 >
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
 
 Ces règles sont rechargées automatiquement tous les matins à 6h00 (heure du serveur) afin de fournir régulièrement l’instance du client.
 
@@ -252,10 +252,12 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
    * a.mx.yahoo.com
    * b.mx.yahoo.com
    * c.mx.yahoo.com
+
    sont compatibles avec les masques :
 
    * *.yahoo.com
    * ?.mx.yahoo.com
+
    Par exemple, pour l&#39;adresse email foobar@gmail.com, le domaine est gmail.com et l&#39;enregistrement MX est :
 
    ```
@@ -272,6 +274,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
    * Un nombre : la règle ne s&#39;appliquera qu&#39;à ce publicId,
    * Une plage de nombres (**nombre1-nombre2**) la règle s&#39;appliquera à tous les publicId compris entre ces deux nombres.
+
    >[!NOTE]
    >
    >Lorsque ce champ est vide, la règle s&#39;applique à tous les identifiants.
