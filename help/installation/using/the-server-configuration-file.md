@@ -14,11 +14,11 @@ discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7859'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -3083,7 +3083,7 @@ Pour plus d&#39;informations, voir la section [Sécurité et relais des pages dy
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Etat de synchronisation d'une ressource publique (énumération). Les valeurs possibles sont "normal" (exécution normale), "liste bloquée" (url ajouté à la liste bloquée en cas d’erreur 404) et "spare" (téléchargement de fichiers sur le serveur de secours s’il existe).<br /> </td> 
+   <td> Statut de la synchronisation d’une ressource publique (énumération). Les valeurs possibles sont 'normal' (exécution normale), 'blocklist' (URL ajoutée à la liste bloquée en cas d’erreur 404) et 'spare' (téléchargement du fichier sur le server spare, le cas échéant).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
