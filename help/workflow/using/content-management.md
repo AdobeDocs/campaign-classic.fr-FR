@@ -14,8 +14,11 @@ discoiquuid: 13b72aa1-de40-4548-835b-97e765e04e95
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+workflow-type: ht
+source-wordcount: '465'
+ht-degree: 100%
 
 ---
 
@@ -106,6 +109,6 @@ Identifiant du contenu à utiliser, si l&#39;option **[!UICONTROL Spécifié par
 
    Nom complet du fichier généré, si l&#39;action sélectionnée est **[!UICONTROL Générer]**.
 
-## Exemples  {#examples}
+## Exemples   {#examples}
 
 Des exemples sont proposés dans cette [section](../../delivery/using/automating-via-workflows.md#examples).
