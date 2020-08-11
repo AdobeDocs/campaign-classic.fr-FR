@@ -14,11 +14,11 @@ discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ La définition de la clé de réconciliation doit être renseignée via l’attr
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 
-### Exemples   {#examples}
+### Exemples    {#examples}
 
 Abonnement avec clé de réconciliation du destinataire sur l&#39;email : le document XML en entrée doit référencer l&#39;email et la définition de la clé sur ce champ.
 
@@ -150,7 +150,7 @@ Si le destinataire n&#39;est pas présent dans la base de données, ou bien s&#3
 
 >[!NOTE]
 >
->Si le nom du service n’est pas spécifié en tant que paramètre, le destinataire est alors automatiquement sur la liste bloquée (@liste bloquée=&quot;1&quot;).
+>Si le nom du service n’est pas spécifié en tant que paramètre, alors le destinataire est automatiquement ajouté à la liste bloquée (@blockList=&quot;1&quot;).
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 
