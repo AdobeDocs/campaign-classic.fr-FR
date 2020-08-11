@@ -14,11 +14,11 @@ discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 1. Règles de contrôle, si elles s&#39;appliquent au début du ciblage.
 1. Règles de filtrage :
 
-   * Règles d&#39;application natives pour la qualification d&#39;adresse : adresse définie / adresse non vérifiée / adresse sur la liste bloquée / adresse mise en quarantaine / qualité de l&#39;adresse.
+   * Règles d’application natives pour la qualification des adresses : adresse définie / adresse non vérifiée / adresse sur liste bloquée / adresse mise en quarantaine / qualité de l’adresse.
    * Règles de filtrage définies par l&#39;utilisateur.
    * Règle de déduplication sur l&#39;adresse ou sur l&#39;identifiant (appliquée si nécessaire).
 
