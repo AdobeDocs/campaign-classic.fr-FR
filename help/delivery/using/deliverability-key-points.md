@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
+source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 95%
@@ -80,7 +80,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
 <tr>
   <td>
     <a href="starting-new-platform.md">
-      <img alt="Démarrer" src="assets/do-not-localize/start.svg"/>
+      <img alt="Démarrer" src="assets/do-not-localize/start.svg" width="60px"/>
     </a>
     <div>
       <a href="starting-new-platform.md">
@@ -93,7 +93,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
   </td>
    <td>
     <a href="control-message-content.md">
-      <img alt="Conception" src="assets/do-not-localize/design.svg"/>
+      <img alt="Conception" src="assets/do-not-localize/design.svg" width="60px"/>
     </a>
     <div>
       <a href="control-message-content.md">
@@ -106,7 +106,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
   </td>
   <td>
     <a href="improve-reputation.md">
-      <img alt="Conception" src="assets/do-not-localize/check.svg"/>
+      <img alt="Conception" src="assets/do-not-localize/check.svg" width="60px"/>
     </a>
     <div>
       <a href="improve-reputation.md">
@@ -121,7 +121,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
 <tr>
   <td>
     <a href="technical-recommendations.md">
-      <img alt="Optimiser" src="assets/do-not-localize/optimize.svg"/>
+      <img alt="Optimiser" src="assets/do-not-localize/optimize.svg" width="60px"/>
     </a>
     <div>
       <a href="technical-recommendations.md">
@@ -134,7 +134,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
   </td>
    <td>
     <a href="monitoring-deliverability.md">
-      <img alt="Vérifier" src="assets/do-not-localize/monitor.svg"/>
+      <img alt="Vérifier" src="assets/do-not-localize/monitor.svg" width="60px"/>
     </a>
     <div>
       <a href="monitoring-deliverability.md">
@@ -147,7 +147,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
   </td>
   <td>
     <a href="deliverability-faq.md">
-      <img alt="Optimiser" src="assets/do-not-localize/troubleshoot.svg"/>
+      <img alt="Optimiser" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
     </a>
     <div>
       <a href="deliverability-faq.md">
