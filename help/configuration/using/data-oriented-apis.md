@@ -14,10 +14,10 @@ discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
-workflow-type: ht
-source-wordcount: '1900'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1888'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Les documents XML sont stockés dans des champs de type MEMO de la base.
 
 Vous devez impérativement connaître le modèle de données Adobe Campaign afin d&#39;adresser correctement les champs de la base de données dans vos scripts.
 
-Pour obtenir une présentation du modèle de données, consultez la section [Description du modèle de données d’Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html).
+Pour obtenir une présentation du modèle de données, consultez la section [Description du modèle de données d’Adobe Campaign](../../configuration/using/data-model-description.md).
 
 Pour générer sa structure, reportez-vous l’article suivant : [Comment générer un modèle de données ou un dictionnaire de données](https://helpx.adobe.com/fr/campaign/kb/generate-data-model.html).
 
