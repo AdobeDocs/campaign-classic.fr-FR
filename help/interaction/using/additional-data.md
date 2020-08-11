@@ -14,8 +14,11 @@ discoiquuid: 29339aad-fd8e-4dae-8f6e-2db87221ad04
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+workflow-type: ht
+source-wordcount: '741'
+ht-degree: 100%
 
 ---
 
@@ -95,7 +98,7 @@ Par exemple, vous pouvez choisir de ne présenter l&#39;offre qu&#39;aux personn
 >
 >Vous devez limiter la règle aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant (champ **[!UICONTROL Pris en compte si]**).
 
-### Personnalisation   {#personalization}
+### Personnalisation    {#personalization}
 
 Il est également possible d&#39;utiliser ces données additionnelles lors de la personnalisation d&#39;une offre. Vous pouvez, par exemple, ajouter une condition sur la langue de navigation.
 
