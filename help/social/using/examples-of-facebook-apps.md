@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+workflow-type: ht
+source-wordcount: '2129'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +51,7 @@ Les exemples d&#39;applications web de type Facebook présentés dans cette sect
 >
 >Ces cas d&#39;utilisation simples ne sont donnés qu&#39;à titre d&#39;exemple afin d&#39;illustrer les fonctionnalités des applications web de type Facebook.
 
-## Recommandations   {#recommendations}
+## Recommandations    {#recommendations}
 
 Les limitations suivantes sont des contraintes inhérentes à Facebook :
 
