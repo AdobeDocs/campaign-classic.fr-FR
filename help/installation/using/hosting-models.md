@@ -14,8 +14,11 @@ discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Adobe Campaign propose trois modèles d’hébergement, ce qui offre la liberté
 
 >[!NOTE]
 >
->Les principales étapes d’installation et de configuration ne peuvent être réalisées que par Adobe pour les déploiements hébergés par Adobe, par exemple pour configurer les fichiers de configuration de l’instance et du serveur. Pour plus d’informations sur les principales différences entre les modes de déploiement, reportez-vous à [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html). Si vous disposez d’un modèle hébergé ou hybride, consultez cette [section](../../installation/using/about-hybrid-and-hosted-models.md).
+>Les principales étapes d’installation et de configuration ne peuvent être réalisées que par Adobe pour les déploiements hébergés par Adobe, par exemple pour configurer les fichiers de configuration de l’instance et du serveur. Pour plus d’informations sur les principales différences entre les modes de déploiement, reportez-vous à [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html). Si vous disposez d’un modèle hébergé ou hybride, consultez cette [section](../../installation/using/about-hybrid-and-hosted-models.md).
 
 * **Services gérés (hébergé)**
 
