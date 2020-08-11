@@ -14,11 +14,11 @@ discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégrati
 
    ![](assets/aem_uc_1.png)
 
-1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**.
+1. Sélectionnez **[!UICONTROL Campagnes > Nom de votre marque (We.Retail, dans le cas présent) > Zone principale > Campagnes par e-mail]**.
 1. Cliquez sur le bouton **[!UICONTROL Créer]** en haut à droite de la page, puis sélectionnez **[!UICONTROL Page]**.
 
    ![](assets/aem_uc_2.png)
