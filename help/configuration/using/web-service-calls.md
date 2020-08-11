@@ -14,11 +14,11 @@ discoiquuid: 6934c165-6d27-4ce5-8607-170f299b4702
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -284,7 +284,7 @@ Lors d&#39;un appel SOAP :
 
 >[!NOTE]
 >
->The URLs used in the following **HttpServletRequest** calls need to be on allowed list in the url permissions section of the **serverConf.xml** file. C&#39;est également vrai pour l&#39;URL du serveur lui-même.
+>Les URL utilisées dans les appels **HttpServletRequest** suivants doivent être placées dans la liste autorisée dans la section des autorisations d’URL du fichier **serverConf.xml**. C&#39;est également vrai pour l&#39;URL du serveur lui-même.
 
 Exécution du logon() :
 
