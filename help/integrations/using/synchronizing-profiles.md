@@ -14,11 +14,11 @@ discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
 ## Edition d&#39;un destinataire {#editing-a-recipient}
 
-Les étapes ci-dessous pour modifier un point unique d’offre de données constituent un exemple simple de la façon dont Campaign v7 devient la base de données principale du Campaign Standard lors de l’utilisation de la réplication de données. La modification ou la suppression de données répliquées dans Campaign v7 a le même effet sur les données correspondantes dans le Campaign Standard.
+Les étapes ci-dessous qui permettent de modifier un point unique de données constituent un exemple simple de la façon dont Campaign v7 devient la base de données principale de Campaign Standard lors de l’utilisation de la réplication de données. La modification ou la suppression de données répliquées dans Campaign v7 a le même effet sur les données correspondantes dans Campaign Standard.
 
 1. Sélectionnez le destinataire nouvellement créé à partir de [Création d’un nouveau destinataire](#creating-a-new-recipient) et modifiez son nom. Par exemple, choisissez une **[!UICONTROL Civilité]** pour le destinataire (par ex. M. ou Mme). Voir à ce sujet la section [Editer un profil](../../platform/using/editing-a-profile.md).
 
@@ -75,7 +75,7 @@ Les étapes ci-dessous pour modifier un point unique d’offre de données const
 
    Par défaut, la réplication périodique d&#39;ACS Connector a lieu toutes les 15 minutes. Pour plus d’informations, voir [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
-## Créer un workflow    {#creating-a-workflow}
+## Créer un workflow     {#creating-a-workflow}
 
 Les profils et services répliqués depuis Campaign v7 permettent aux spécialistes du marketing digital d&#39;exploiter les données complètes dans Campaign Standard. Les instructions ci-dessous montrent comment ajouter une requête à un workflow de Campaign Standard et comment l&#39;utiliser ensuite avec la base de données répliquée.
 
