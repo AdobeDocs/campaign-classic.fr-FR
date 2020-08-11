@@ -14,8 +14,11 @@ discoiquuid: 21777423-0c8a-4bb1-b210-972f660648bd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+workflow-type: ht
+source-wordcount: '166'
+ht-degree: 100%
 
 ---
 
@@ -35,6 +38,6 @@ Les rapports concernés sont les suivants :
 * **[!UICONTROL Statistiques des activités de partage]** (forwardActivities) : analyse des partages, ouvertures et abonnements par périodes de temps.
 * **[!UICONTROL Indicateurs de tracking]** (mobileAppDeliveryFeedback) : indicateurs de tracking d&#39;une diffusion sur une application mobile.
 * **[!UICONTROL Analyse des offres]** (offerAnalysis) : analyse des offres par date et canal.
-* **[!UICONTROL Taux de réactivité]** (mobileAppReactivityRate) : taux de réactivité des dernières diffusions.
+* **[!UICONTROL Taux de réactivité]** (mobileAppDistribution) : taux de réactivité des dernières diffusions.
 * **[!UICONTROL Répartition des abonnements]** (mobileAppDistribution) répartition des abonnements actifs par application mobile.
 
