@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+workflow-type: ht
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -27,9 +30,9 @@ En tant que solution ouverte, Adobe Campaign est prêt pour la personnalisation 
 
 Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour plus d’informations sur les schémas Adobe Campaign, [consultez cette section](../../configuration/using/about-schema-edition.md).
 
-[Cliquez ici pour en savoir plus sur le modèle de données de Campaign](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
+[Cliquez ici pour en savoir plus sur le modèle de données de Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
-Les bonnes pratiques sont répertoriées [dans cet article](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).
+Les bonnes pratiques sont répertoriées [dans cet article](https://helpx.adobe.com/fr/campaign/kb/acc-data-model-best-practices.html).
 
 ## Comment utiliser des schémas de Campaign ?{#how-to-work-with-campaign-schemas-}
 
