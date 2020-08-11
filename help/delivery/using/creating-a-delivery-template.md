@@ -14,11 +14,11 @@ discoiquuid: 0e67d9dd-3ee8-4c06-98a4-3a2c644b6c0a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
-workflow-type: ht
-source-wordcount: '295'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 79%
 
 ---
 
@@ -73,3 +73,21 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 >[!NOTE]
 >
 >Afin d&#39;éviter toute erreur de paramétrage, il est recommandé de dupliquer un modèle natif et d&#39;en modifier les propriétés plutôt que de créer un nouveau modèle.
+
+## Configuration d’un modèle de diffusion
+
+La vidéo suivante montre comment configurer un modèle pour une diffusion ad hoc.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
+
+## Configuration des propriétés des modèles de diffusion
+
+La vidéo suivante montre comment définir les propriétés du modèle de diffusion et explique en détail chaque propriété.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
+
+## Comment déployer un modèle de diffusion ad hoc
+
+Cette vidéo explique comment déployer un modèle de diffusion de messagerie ad hoc et explique la différence entre une diffusion de messagerie et un processus de diffusion.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
