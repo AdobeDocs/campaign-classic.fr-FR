@@ -14,11 +14,11 @@ discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Dans l&#39;exemple suivant, l&#39;activité de mise à jour de liste suit une re
 
    La liste de destinataires correspondante est alors créée ou mise à jour.
 
-Voir à ce propos la vidéo sur la [création d&#39;une liste de destinataires](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
+Voir à ce propos la vidéo sur la [création d&#39;une liste de destinataires](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html).
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
