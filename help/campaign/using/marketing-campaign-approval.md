@@ -14,8 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+workflow-type: ht
+source-wordcount: '2648'
+ht-degree: 100%
 
 ---
 
@@ -271,6 +274,7 @@ Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Ed
 >* Lorsqu&#39;une liste de validants est définie, le traitement est validé dès que l&#39;un des opérateurs de la liste a donné son accord. Le lien de validation correspondant n&#39;est alors plus proposé dans le tableau de bord. Lorsque l&#39;envoi de notifications est activé et qu&#39;un autre validant clique sur le lien de validation du mail de notification, il est alors averti qu&#39;un autre opérateur a déjà validé le traitement.
 >* Vous pouvez définir un planning de validation pour l&#39;opération, dans la section inférieure de la fenêtre d&#39;édition des validants. Par défaut, les validants ont trois jours à partir de la date de soumission pour valider les traitements. Il est possible de définir un rappel qui sera automatiquement envoyé aux opérateurs concernés avant l&#39;expiration du délai de validation.
 >* Vous pouvez ajouter des rappels depuis cette section.
+
 >
 
 
