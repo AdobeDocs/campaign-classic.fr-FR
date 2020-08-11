@@ -14,8 +14,11 @@ discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+workflow-type: ht
+source-wordcount: '1066'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les cam
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
-### Page d&#39;accueil   {#home-page}
+### Page d&#39;accueil    {#home-page}
 
 Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
@@ -156,7 +159,7 @@ Les opérations sont créées à partir de modèles d&#39;opérations : vous pou
 
 >[!NOTE]
 >
->Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]** Pour plus d&#39;informations sur la définition de paramètres de campagne pour que les diffusions héritent automatiquement des valeurs, voir [notre note technique](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
+>Vous pouvez accéder aux paramétrages de l&#39;opération, et, au besoin, les modifier, à partir du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** disponible dans l&#39;onglet **[!UICONTROL Edition.]** Pour plus d&#39;informations sur la définition de paramètres de campagne pour que les diffusions héritent automatiquement des valeurs, voir [notre note technique](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically).
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
