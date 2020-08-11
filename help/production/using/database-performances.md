@@ -14,8 +14,11 @@ discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+workflow-type: ht
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,7 @@ Vous devez vérifier que la configuration initiale de la plateforme Adobe Campai
 
 >[!NOTE]
 >
->Pour obtenir plus d&#39;informations, consultez le [guide sur le dimensionnement matériel Adobe Campaign](https://helpx.adobe.com/campaign/kb/hardware-sizing-guide.html).
+>Pour obtenir plus d&#39;informations, consultez le [guide sur le dimensionnement matériel Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
 ## Configuration de la plateforme {#platform-configuration}
 
