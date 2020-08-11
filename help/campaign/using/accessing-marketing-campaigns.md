@@ -14,9 +14,9 @@ discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Le bloc de navigation de l&#39;univers **[!UICONTROL Campagnes]** offre plusieur
 >
 >L&#39;ergonomie générale de la console Adobe Campaign, ainsi que les permissions et les fonctionnalités de gestion des profils, sont présentées dans [cette section](../../platform/using/adobe-campaign-workspace.md).
 >
->Les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans [cette section](../../delivery/using/communication-channels.md).
+>Les fonctionnalités relatives aux canaux et aux diffusions sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ### Calendrier des campagnes {#campaign-calendar}
 
