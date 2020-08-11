@@ -68,6 +68,7 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
    * Contenus HTML ;
    * URL de l&#39;image ;
    * URL de destination
+
    ![](assets/offer_inbound_anonymous_example_030.png)
 
 1. Éditez la fonction de rendu HTML, par exemple de la manière suivante :
