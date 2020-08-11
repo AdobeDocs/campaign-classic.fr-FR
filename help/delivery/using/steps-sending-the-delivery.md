@@ -187,7 +187,7 @@ Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec u
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, les paramètres de reprise de la diffusion ne sont plus utilisés par Campaign. Les reprises des erreurs soft et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des retours provenant du domaine d&#39;email du message.
 >
->Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
 
 
 ## Définir la période de validité {#defining-validity-period}
@@ -208,4 +208,4 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, le paramètre **[!UICONTROL Durée de diffusion]** des diffusions Campaign ne sera utilisé que s’il est défini sur **3,5** jours ou moins. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 >
->Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
