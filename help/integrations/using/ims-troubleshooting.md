@@ -14,11 +14,11 @@ discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les conseils de dépannage suivants aideront les clients **on-premise** à réso
 Il ne doit y avoir qu&#39;**un** compte externe avec les paramètres suivants :
 
 * **Nom interne** : Adobe_Marketing_Cloud
-* **Type **: Adobe Marketing Cloud
+* **Type** : Adobe Marketing Cloud
 
 Supprimez tout compte externe en double avec les mêmes paramètres.
 
@@ -65,7 +65,7 @@ Les périmètres définis dans le compte externe Campaign doivent être un sous-
 
 **URL de callback**
 
-L’URL **de** rappel doit être ajoutée à la liste autorisée et au début avec &quot;https://&quot;. Vérifiez que l’URL **de** rappel est liée à l’instance correspondante. Par exemple, l’instance de production doit rediriger vers l’URL de production.
+L’**URL de callback** doit être ajoutée à la liste autorisée et commencer par &quot;https://&quot;. Vérifiez que l’**URL de callback** est liée à l’instance correspondante. Par exemple, l’instance de production doit rediriger vers l’URL de production.
 
 **Identifiant du client et secret**
 
