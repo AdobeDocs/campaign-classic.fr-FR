@@ -14,11 +14,11 @@ discoiquuid: 44c7acdd-6b7a-4e88-b2a7-3e9bf8a6eab5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ Plusieurs types de données peuvent être exploités par Adobe Target :
 
 >[!NOTE]
 >
->Vous pouvez également trouver des informations relatives à l&#39;intégration entre Adobe Campaign et Adobe Target sur les [pages d&#39;aide d&#39;Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html).
+>Vous pouvez également trouver des informations relatives à l&#39;intégration entre Adobe Campaign et Adobe Target sur les [pages d&#39;aide d&#39;Adobe Target](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/campaign-and-target.html).
