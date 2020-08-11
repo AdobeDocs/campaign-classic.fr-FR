@@ -14,18 +14,18 @@ discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Option de pipeline NmsPipeline_Config {#nmspipeline_config}
 
-Once the authentication works, [!DNL pipelined] can retrieve the events and process them. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
+Une fois l’authentification effectuée, [!DNL pipelined] peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
 L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
 La configuration des déclencheurs s&#39;effectue dans une option, sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Le nom de l&#39;option est **[!UICONTROL NmsPipeline_Config]**. Le type de données est &quot;texte long&quot; au format JSON.
@@ -90,6 +90,6 @@ Assurez-vous que le fichier JSON est valide à l&#39;aide de ce [site web](http:
 
 * &quot;name&quot; est l&#39;identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
 * &quot;Consumer&quot; est formé de toute chaîne unique qui identifie de manière unique l&#39;instance nlserver. Il peut s&#39;agir généralement du nom de l&#39;instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu&#39;il soit unique pour chacun d&#39;eux afin que chaque instance reçoive une copie du message.
-* [!DNL Pipelined] prend également en charge la rubrique &quot;alias&quot;.
+* [!DNL Pipelined] prend également en charge le topic « alias ».
 
-Restart [!DNL pipelined] after making changes.
+Redémarrez [!DNL pipelined] après avoir apporté des modifications. 
