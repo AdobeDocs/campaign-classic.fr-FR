@@ -14,8 +14,11 @@ discoiquuid: 1fa1fe0f-c392-413a-9fa0-d1b4e10e2e5e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+workflow-type: ht
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
 # Avertissements relatifs à la migration{#migration-warnings}
 
 * La procédure de migration est réservée à un utilisateur expert. Vous devez être assisté, au minimum, d&#39;un expert en base de données, d&#39;un administrateur système et d&#39;un développeur applicatif Adobe Campaign.
-* Avant de démarrer la migration, vérifiez que les systèmes et composants que vous utilisez sont bien compatibles avec la v7. Consultez la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+* Avant de démarrer la migration, vérifiez que les systèmes et composants que vous utilisez sont bien compatibles avec la v7. Consultez la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
 * Si vous utilisez le Cloud Messaging (anciennement mid-sourcing), contactez-nous avant d’initier toute procédure de migration.
 * Avant toute migration, vous devez **impérativement** effectuer une sauvegarde de vos données.
 * La réalisation de l&#39;intégralité du processus de migration peut nécessiter plusieurs jours.
