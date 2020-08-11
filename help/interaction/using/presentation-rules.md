@@ -14,8 +14,11 @@ discoiquuid: 8ef303b4-d9ce-40ee-a6c6-ed5012ab8eb8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
+workflow-type: ht
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -118,4 +121,4 @@ Vous allez faire une première proposition d&#39;offre appartenant, entre autre,
 
 **Rubrique connexe**
 
-* [Gestion des offres et contrôle de la redondance sur les canaux](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)
+* [Gestion des offres et contrôle de la redondance sur les canaux](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)
