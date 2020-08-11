@@ -14,11 +14,11 @@ discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Cet écran contient toutes les informations générales relatives au profil sél
 
 >[!NOTE]
 >
->Lorsque l&#39;option **[!UICONTROL Ne plus contacter (par un canal)]** est sélectionnée, cela signifie que le profil est sur la liste bloquée, c&#39;est-à-dire que le profil a exprimé le souhait de ne pas être contacté (par exemple, en cliquant sur un lien de désinscription dans un bulletin d&#39;information). Ils ne seront plus ciblés par des diffusions sur un canal quelconque (courriel, publipostage, etc.). Voir à ce propos [cette page](../../delivery/using/understanding-quarantine-management.md).
+>Lorsque l’option **[!UICONTROL Ne plus contacter (tous canaux)]** est sélectionnée, le profil est dans la liste bloquée, c’est-à-dire qu’il a exprimé le souhait de ne pas être contacté (par exemple, en cliquant sur un lien de désabonnement dans une newsletter). Il ne sera plus ciblé par des diffusions sur un canal quelconque (email, courrier, etc.). Voir à ce propos [cette page](../../delivery/using/understanding-quarantine-management.md).
 
 ## Onglet Coordonnées {#contact-information-tab}
 
