@@ -14,8 +14,11 @@ discoiquuid: c7b4103d-99b2-4e64-a457-ee0e3326b172
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
+workflow-type: ht
+source-wordcount: '97'
+ht-degree: 100%
 
 ---
 
@@ -30,4 +33,4 @@ Plusieurs profils d&#39;utilisation différents interviennent dans la gestion et
 >
 >Les paramétrages suivants doivent être effectués par un **administrateur technique**.
 
-Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) pour en savoir plus sur l’architecture de l’interaction Campaign et voir comment fonctionne le moteur d’offres.
+Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) pour en savoir plus sur l’architecture de l’interaction Campaign et voir comment fonctionne le moteur d’offres.
