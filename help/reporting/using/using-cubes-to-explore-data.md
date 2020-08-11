@@ -14,8 +14,11 @@ discoiquuid: e1ab1e82-8194-40a8-8df3-e7cfbaa3e777
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+workflow-type: ht
+source-wordcount: '996'
+ht-degree: 100%
 
 ---
 
@@ -116,6 +119,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
    * Proportion : ce type de mesure permet de calculer le nombre d&#39;enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
    * Variation : cette mesure permet de calculer la variation des valeurs d&#39;un niveau.
    * Ecart à la moyenne : ce type de mesure permet de calculer les écarts dans chaque groupe de cellules correspondantes, par rapport à la moyenne des valeurs. Vous pouvez par exemple comparer le volume des ventes pour chaque segment existant.
+
    La mesure créée est alors ajoutée dans le rapport.
 
    ![](assets/s_advuser_cube_in_report_config_02b.png)
