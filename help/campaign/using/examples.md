@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+workflow-type: ht
+source-wordcount: '1375'
+ht-degree: 100%
 
 ---
 
@@ -142,6 +145,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
    * la **[!UICONTROL Valeur du champ de répartition]**, qui correspond aux entités locales impliquées dans l&#39;opération à venir.
    * le **[!UICONTROL libellé]** de l&#39;entité locale.
    * la **[!UICONTROL taille]** (fixe ou en pourcentage) choisie. La **valeur par défaut 0** implique la sélection de tous les destinataires liés à l&#39;entité locale.
+
    ![](assets/mkg_dist_use_case_target_valid4.png)
 
 1. Enregistrez votre nouvelle boîte de répartition.
@@ -158,6 +162,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
    * le contenu du message qui sera envoyé aux entités locales lors de la notification,
    * le rappel pour la validation,
    * le traitement anticipé de l&#39;opération..
+
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
 1. Sauvegardez votre enregistrement.
@@ -170,6 +175,7 @@ Vous pouvez désormais créer un **kit d&#39;opération** à partir de l&#39;uni
 
    * avec le mode **Manuel**, les entités locales participent à l&#39;opération si elles acceptent l&#39;invitation de l&#39;entité centrale. Elles peuvent supprimer des contacts pré-sélectionnés si elles le souhaitent et une validation d&#39;un manager est obligatoire pour confirmer la participation.
    * avec le mode **Automatique**, les entités locales participent obligatoirement à l&#39;opération, à moins qu&#39;elles ne s&#39;en désinscrivent. Elles peuvent supprimer des contacts sans qu&#39;aucune validation ne soit demandée.
+
    ![](assets/mkg_dist_use_case_target_valid.png)
 
 1. Dans l&#39;onglet **[!UICONTROL Description]**, vous pouvez ajouter une description pour votre opération, ainsi que des documents qui seront transmis aux entités locales.
