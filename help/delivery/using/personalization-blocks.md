@@ -14,11 +14,11 @@ discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
-workflow-type: ht
-source-wordcount: '966'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 97%
 
 ---
 
@@ -158,4 +158,10 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
       ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]** .
+   * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]**.
+
+## Personnalisation des courriers électroniques à l’aide de blocs de contenu dynamiques
+
+Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion de messagerie.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
