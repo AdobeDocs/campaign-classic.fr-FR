@@ -14,8 +14,11 @@ discoiquuid: 01d8be92-7312-4386-b5f5-651af31308f7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
+workflow-type: ht
+source-wordcount: '991'
+ht-degree: 100%
 
 ---
 
@@ -122,7 +125,7 @@ Les étapes sont les suivantes :
 1. Sélectionnez l&#39;opération de référence.
 1. Définissez le libellé du kit d&#39;opération, son dossier d&#39;enregistrement et indiquez son planning de réalisation.
 
-### Dates   {#dates}
+### Dates     {#dates}
 
 Les dates de début et de fin correspondent à la période de visibilité de l&#39;opération dans la liste des kits.
 
