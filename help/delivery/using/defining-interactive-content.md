@@ -12,18 +12,18 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
-workflow-type: ht
-source-wordcount: '1668'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 99%
 
 ---
 
 
 # Définir le contenu interactif{#defining-interactive-content}
 
-Adobe Campaign permet de tester le nouveau format interactif [AMP for Email](https://amp.dev/fr/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
+Adobe Campaign permet de tester le nouveau format interactif [AMP for Email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,9 @@ Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign
 
 Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contactez votre chargé de compte.
 
-Regardez cette [vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html) pour découvrir comment activer AMP dans Adobe Campaign et l’utiliser.
+La vidéo ci-dessous explique comment activer AMP à Adobe Campaign Classic et présente son utilisation.
+
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 ## À propos d’AMP for Email{#about-amp-for-email}
 
