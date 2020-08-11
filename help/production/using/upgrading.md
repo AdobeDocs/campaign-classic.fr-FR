@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
+workflow-type: ht
+source-wordcount: '1158'
+ht-degree: 100%
 
 ---
 
@@ -178,6 +181,7 @@ Pour cela exécutez la commande :
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
    >Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle librairie.
+
 >
 
 
