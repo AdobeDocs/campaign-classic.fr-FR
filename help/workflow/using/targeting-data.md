@@ -16,13 +16,16 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
+workflow-type: ht
+source-wordcount: '2007'
+ht-degree: 100%
 
 ---
 
 
 # Cibler les données{#targeting-data}
 
-## Créer une requête   {#creating-queries}
+## Créer une requête    {#creating-queries}
 
 ### Sélectionner les données {#selecting-data}
 
