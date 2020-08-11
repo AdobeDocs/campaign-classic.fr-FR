@@ -14,8 +14,11 @@ discoiquuid: 378d5ff9-88c0-43f1-beb8-454701e9f1d1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+workflow-type: ht
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 
@@ -39,5 +42,6 @@ Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
 
    * **[!UICONTROL TNT_EdgeServer]** : serveur Adobe Target utilisé pour l&#39;intégration. Cette option est déjà renseignée par défaut. Cette valeur correspond au **[!UICONTROL Server Domain]** Adobe Target, suivie de la valeur **/m2**. Par exemple : **tt.omtrdc.net/m2**.
    * **[!UICONTROL TNT_TenantName]** : nom de l&#39;organisation Adobe Target. Cette valeur correspond au nom du **[!UICONTROL Client]** Adobe Target.
+
    ![](assets/tar_options.png)
 
