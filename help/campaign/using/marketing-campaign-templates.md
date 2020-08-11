@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
-workflow-type: ht
-source-wordcount: '1187'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1190'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Un modèle d’usine est fourni pour créer une campagne pour laquelle aucune co
 
 La création et le paramétrage des modèles d&#39;opération sont présentés dans la section [Modèles de campagne](#campaign-templates).
 
-Pour plus d&#39;informations sur la création d&#39;une opération, voir la vidéo sur la [création d&#39;une opération et d&#39;un email](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html).
+Pour plus d&#39;informations sur la création d&#39;une opération, voir la vidéo sur la [création d&#39;une opération et d&#39;un email](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/creating-a-campaign-and-an-email.html).
 
 ## Configuration des modules proposés {#configuration-of-the-available-modules}
 
