@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
 source-wordcount: '2674'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Les différents statuts sont répertoriés sur [cette page](#delivery-statuses).
 >
 >Le lien **[!UICONTROL Afficher la page miroir de ce message...]** permet de visualiser, dans une nouvelle fenêtre, la page miroir du contenu de la diffusion sélectionnée dans la liste. La page miroir n&#39;est disponible que pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la section [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
-### Tracking    {#tracking-logs}
+### Tracking     {#tracking-logs}
 
 L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking sont mises à jour toutes les heures.
 
@@ -117,12 +117,12 @@ La maintenance de la plateforme et de la base de données peut également impact
 
 Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion semble prendre plus de temps que d&#39;habitude. Cela peut être dû à différents éléments :
 
-* Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos journaux et consultez [cette section](../../delivery/using/about-deliverability.md).
+* Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos broadlogs et consultez [cette section](../../delivery/using/about-deliverability.md).
 * Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) d&#39;Adobe Campaign.
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
    * Messages mis en attente (message **[!UICONTROL Quotas atteints]**) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d&#39;informations sur ce message, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-deliverability-faq.html#FAQ). Pour en savoir plus sur les règles MX, reportez-vous à [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
-   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
+   * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et un ajout potentiel à une liste bloquée.
 
 * Un problème lié au système peut empêcher les serveurs d&#39;interagir ensemble : l&#39;ensemble du processus d&#39;envoi peut être ainsi ralenti. Vérifiez que les serveurs ne présentent aucun problème de mémoire ou de ressource qui peut impacter Campaign dans le processus de récupération des données de personnalisation par exemple.
 
@@ -166,7 +166,7 @@ Lors de l&#39;envoi d&#39;une diffusion, les statuts suivants peuvent s&#39;affi
   </tr> 
   <tr> 
    <td> Ignoré<br /> </td> 
-   <td> La diffusion n'a pas été envoyée au destinataire en raison d'une erreur avec son adresse. Il a été ajouté à une liste bloquée, mis en quarantaine, non fourni ou à un duplicata. <br /> </td> 
+   <td> La diffusion n’a pas été envoyée au destinataire en raison d’une erreur liée à son adresse. Elle a été ajoutée à une liste bloquée, a été mise en quarantaine, n’a pas été fournie ou est un duplicata. <br /> </td> 
   </tr> 
   <tr> 
    <td> Envoyés<br /> </td> 
