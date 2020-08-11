@@ -14,11 +14,11 @@ discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Ce processus assure l&#39;enregistrement sur disque des événements entrants, d
 
 **Surveillance des modules** (nlserver watchdog)
 
-Ce processus technique est un processus primaire qui engendre les autres. Il les surveille également et les relâche automatiquement en cas d&#39;incident, ce qui permet de maintenir un temps de fonctionnement maximum du système.
+Ce processus technique joue le rôle d’un processus principal qui entraîne les autres. Il les surveille également et les relance automatiquement en cas d’incident, ce qui permet de maintenir un temps d’activité du système.
 
 **Serveur de statistiques** (nlserver stat)
 
