@@ -14,8 +14,11 @@ discoiquuid: 550439c1-978c-414e-be5b-a9e1a202c4cd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,7 @@ Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont 
 * Lors du stockage de la population ciblée dans un groupe (liste), les caractéristiques des champs stockés sont identiques à celles de la source de données.
 * Par défaut, les données ne sont pas accessibles par les codes JavaScript.
 
-## Recommandations  {#recommendations}
+## Recommandations   {#recommendations}
 
 Dans chaque diffusion, les adresses email sont copiées dans les tables de **[!UICONTROL broadLog]** et **[!UICONTROL forecastLog]** : ces champs doivent donc être aussi protégés.
 
