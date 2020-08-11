@@ -12,8 +12,11 @@ discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+workflow-type: ht
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
 
@@ -63,6 +66,7 @@ Les étapes sont les suivantes :
 
    * Dans la colonne **[!UICONTROL Source]**, entrez chaque valeur source correspondant au genre (0, 1 et 2) dans de nouvelles lignes.
    * Dans la colonne **[!UICONTROL Destination]**, entrez les valeurs de destination : &quot;Non renseigné&quot; dans la ligne de &quot;0&quot;, &quot;Homme&quot; dans la ligne &quot;1&quot; et &quot;Femme&quot; dans la ligne &quot;2&quot;.
+
    Sélectionnez la fonction **[!UICONTROL Conserver la valeur source]**.
 
    Cliquez sur **[!UICONTROL Ok]** pour valider le champ calculé.
@@ -77,6 +81,7 @@ Les étapes sont les suivantes :
    * 0 pour &quot;Non renseigné&quot;
    * 1 pour &quot;Homme&quot;
    * 2 pour &quot;Femme&quot;
+
    ![](assets/query_editor_nveau_78.png)
 
    Par exemple, si vous ne renseignez pas le genre &quot;2&quot; dans la **[!UICONTROL Liste des valeurs d&#39;énumérations]** et que la fonction **[!UICONTROL Générer un avertissement et continuer]** du champ **[!UICONTROL Dans les autres cas]** est sélectionnée, un log d&#39;avertissement est généré. Ce log signale que le genre &quot;2&quot; (féminin) n&#39;a pas été renseigné. Il est affiché dans le champ **[!UICONTROL Logs générés lors de l&#39;export]**, dans la fenêtre de prévisualisation des données.
