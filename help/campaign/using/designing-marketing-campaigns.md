@@ -14,11 +14,11 @@ discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ De plus, le module **Marketing Resource Management (MRM)** complète cette appli
 >[!NOTE]
 >
 >Pour connaître les principales fonctionnalités relatives à la plate-forme Adobe Campaign, consultez la section [Prise en main](../../platform/using/about-adobe-campaign-classic.md).\
->Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages personnalisés sur les différents canaux sont présentées dans [cette section](../../delivery/using/communication-channels.md).
+>Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages personnalisés sur les différents canaux sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Concepts de base {#core-concepts}
 
@@ -70,3 +70,11 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Voir à ce sujet la section [Associer et structurer les ressources liées via une composition
 de diffusion](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+
+## Création d’un courrier électronique dans une campagne
+
+Cette vidéo explique comment créer une campagne et un courriel à Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)
