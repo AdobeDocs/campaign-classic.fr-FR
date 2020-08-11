@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
+workflow-type: ht
+source-wordcount: '1214'
+ht-degree: 100%
 
 ---
 
@@ -50,6 +53,7 @@ Pour installer Adobe Campaign sur un système d&#39;exploitation RPM (RHEL, Cen
 
    * **nlserver6-v7-XXXX-0.x86_64.rpm** for v7.
    * **nlserver6-XXXX-0.x86_64.rpm** for v6.1.
+
    >[!CAUTION]
    >
    >Vérifiez que vous utilisez bien le nom de fichier correct pour votre version d&#39;Adobe Campaign dans les exemples de commande de cette section.
@@ -84,6 +88,7 @@ Pour installer Adobe Campaign 64 bits sur un système d&#39;exploitation Debian 
 
    * **nlserver6-v7-XXXX-linux-2.6-amd64.deb** for v7.
    * **nlserver6-XXXX-linux-2.6-amd64.deb** for v6.1.
+
    **XXXX** est le numéro de build d&#39;Adobe Campaign.
 
    >[!CAUTION]
