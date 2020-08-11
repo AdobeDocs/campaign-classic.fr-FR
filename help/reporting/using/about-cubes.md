@@ -14,8 +14,11 @@ discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+workflow-type: ht
+source-wordcount: '740'
+ht-degree: 100%
 
 ---
 
@@ -41,6 +44,7 @@ Avec le module Marketing Analytics, Campaign permet d&#39;effectuer les opérati
    * agréger des données et les stocker dans une table de travail afin de pré-calculer des indicateurs, selon les besoins de l&#39;utilisateur,
    * réduire ainsi le volume des données impliquées dans les différents calculs utilisés dans les rapports et dans les requêtes, optimiser fortement les temps de calcul des indicateurs,
    * simplifier l&#39;accès aux données, permettre aux utilisateurs de manipuler des données pré-agrégées ou non, selon différentes dimensions.
+
    Voir à ce sujet la section [Créer les indicateurs](../../reporting/using/creating-indicators.md).
 
 1. Créer des tableaux croisés dynamiques pour :
@@ -49,6 +53,7 @@ Avec le module Marketing Analytics, Campaign permet d&#39;effectuer les opérati
    * sélectionner les données à afficher et leur mode d&#39;affichage,
    * personnaliser les mesures et les indicateurs utilisés,
    * proposer des outils d&#39;analyse interactive à des utilisateurs non techniques.
+
    Voir à ce sujet la section [Utiliser des cubes pour explorer les données](../../reporting/using/using-cubes-to-explore-data.md).
 
 1. Construire des requêtes à partir des données calculées et agrégées dans un cube.
