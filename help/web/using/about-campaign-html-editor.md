@@ -14,9 +14,9 @@ discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Dans le contexte d&#39;une diffusion par email, les étapes de création sont le
 * Création d&#39;une diffusion à partir d&#39;un modèle de type email dans lequel le DCE est activé,
 * Sélection d&#39;un contenu existant ou création d&#39;un contenu à partir d&#39;un modèle standard,
 * Modification et configuration du contenu en ligne,
-* Envoi de la diffusion, lire à ce sujet [cette section](../../delivery/using/communication-channels.md).
+* Envoi de la diffusion, lire à ce sujet [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 >[!NOTE]
 >
