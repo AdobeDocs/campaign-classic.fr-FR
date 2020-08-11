@@ -14,11 +14,11 @@ discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La section ci-dessous décrit les configurations côté serveur qui peuvent êtr
 >
 >Ces configurations doivent être exécutées par les administrateurs et uniquement pour les modèles d’hébergement **On-premise.**
 >
->Pour les déploiements **hébergés**, les paramètres côté serveur peuvent uniquement être configurés par Adobe. Cependant, certains paramètres peuvent être configurés dans le Panneau de configuration (par exemple, la gestion des listes autorisées IP ou les autorisations d’URL).
+>Pour les déploiements **hébergés**, les paramètres côté serveur peuvent uniquement être configurés par Adobe. Cependant, certains paramètres peuvent être configurés dans le panneau de contrôle (par exemple, la gestion des listes autorisées d’adresses IP ou les autorisations d’URL).
 
 Pour plus d’informations, consultez les sections suivantes :
 
@@ -358,9 +358,9 @@ Avec les modèles d’hébergement **Hybride** et **On-premise** , l’administr
 
 Il existe trois modes de protection des connexions :
 
-* **Blocage**: toutes les URL qui n’appartiennent pas à la liste autorisée sont bloquées, avec un message d’erreur. Il s’agit du mode par défaut après un postupgrade.
-* **Permissive**: toutes les URL qui n’appartiennent pas à la liste autorisée sont autorisées.
-* **Avertissement**: toutes les URL qui n’appartiennent pas à la liste autorisée sont autorisées, mais l’interprète JS émet un avertissement afin que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
+* **Blocking** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d’erreur s’affiche. Il s’agit du mode par défaut après un postupgrade.
+* **Permissive** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées.
+* **Warning** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l’interpréteur JS émet un avertissement pour que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -372,9 +372,9 @@ Il existe trois modes de protection des connexions :
 
 >[!IMPORTANT]
 >
->Par défaut, le client des nouveaux clients utilise le mode **de** blocage. S’ils doivent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
+>Par défaut, le client des nouveaux clients utilise le **mode de blocage**. S’ils ont besoin d’autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
 >
->Existing customers coming from a migration can use the **warning mode** for a while. Meanwhile they need to analyze the outbound traffic before authorizing the URLs. Une fois la liste des URL autorisées définie, ils doivent contacter leur administrateur pour ajouter les URL à la liste autorisée et activer le mode **de** blocage.
+>Les clients existants provenant d’une migration peuvent utiliser pendant un certain temps le **mode d’avertissement**. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL. Une fois la liste des URL autorisées définie, ils doivent contacter leur administrateur pour ajouter les URL à la liste autorisée et activer le **mode de blocage**.
 
 ## Sécurité et relais des pages dynamiques {#dynamic-page-security-and-relays}
 
@@ -455,7 +455,7 @@ sh
 >
 >Cette liste n&#39;est pas exhaustive.
 
-In the **exec** node of the server configuration file, you need to reference the previously created file in the **blocklistFile** attribute.
+Dans le nœud **exec** du fichier de configuration du serveur, vous devez référencer le fichier précédemment créé dans l’attribut **blocklistFile**.
 
 **Pour Linux uniquement** : dans le fichier de configuration du serveur, nous vous recommandons de spécifier un utilisateur dédié à l&#39;exécution de commandes externes afin d&#39;améliorer votre configuration de sécurité. Cet utilisateur est défini dans le nœud **exec** du fichier de configuration. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
@@ -595,7 +595,7 @@ Chaque processus paramétré dans ce fichier dispose d&#39;un attribut **process
 
 ## Limitation des fichiers téléchargeables {#limiting-uploadable-files}
 
-A new attribute **uploadAllowList** lets you restrict the file types available for upload on the Adobe Campaign server.
+Un nouvel attribut **uploadAllowList** permet de restreindre les types de fichiers qu&#39;il est possible de télécharger sur le serveur Adobe Campaign.
 
 Cet attribut est disponible au niveau de l&#39;élément **dataStore** du fichier **serverConf.xml.** Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
@@ -603,7 +603,7 @@ La valeur par défaut de cet attribut est **.+** et permet de télécharger n&#3
 
 Pour limiter les possibilités à certains formats, vous devez remplacer la valeur de l&#39;attribut par une expression régulière java valide. Vous pouvez entrer plusieurs valeurs en les séparant par une virgule.
 
-Par exemple : **uploadAllowList=&quot;.*.png,.*.jpg&quot;** vous permet de télécharger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
+Par exemple : **uploadAllowList=&quot;.*.png,.*.jpg&quot;** vous permet de télécharger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
 
 >[!IMPORTANT]
 >
