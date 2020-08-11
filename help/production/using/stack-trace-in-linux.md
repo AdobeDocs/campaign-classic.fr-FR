@@ -14,8 +14,11 @@ discoiquuid: 60f306ea-4593-4e56-896e-8933277ee26a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
+workflow-type: ht
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
 
@@ -28,6 +31,7 @@ La **stack trace** représente une trace contenue dans un fichier de type **core
 >
 >* Un fichier **core** se présente sous le nom **core.`<num>`**.
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
+
 >
 
 
