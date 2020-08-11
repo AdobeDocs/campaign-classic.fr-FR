@@ -13,11 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Vous pouvez [utiliser des workflows pour créer une population cible](../../camp
 
 Une liste est un ensemble statique de destinataires qui peut être ciblé dans les actions de diffusion ou mis à jour lors d&#39;opérations d&#39;import ou lors de l&#39;exécution d&#39;un workflow. Par exemple, une population extraite de la base via une requête peut alimenter une liste.
 
-[Pour en savoir plus, cliquez ici](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) sur la façon de créer manuellement une liste. [Cette autre vidéo](https://docs.campaign.adobe.com/doc/AC/en/Videos/creating_list_recipients_611.mp4) montre comment créer et mettre automatiquement à jour une liste de destinataires dans un workflow.
+[Pour en savoir plus, cliquez ici](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) sur la façon de créer manuellement une liste. [Cette autre vidéo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) montre comment créer et mettre automatiquement à jour une liste de destinataires dans un workflow.
 
 ## Comment dédupliquer une population avant d’envoyer un message ?{#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
