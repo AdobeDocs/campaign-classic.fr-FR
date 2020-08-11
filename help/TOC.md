@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
+source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: '2110'
 ht-degree: 99%
 
 ---
@@ -89,13 +89,17 @@ ht-degree: 99%
       + [Connecteurs CRM](platform/using/crm-connectors.md)
       + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Envoyer les messages {#sending-messages}
-   + Get started with messages {#about-deliveries-and-channels}
-      + [Canaux de communication](delivery/using/communication-channels.md)
-      + [Bonnes pratiques de diffusion](delivery/using/delivery-best-practices.md)
-      + [Accès aux informations sur les diffusions](delivery/using/accessing-deliveries-information.md)
-      + [Types de diffusions](delivery/using/types-of-deliveries.md)
+   + [Prise en main du des messages](delivery/using/communication-channels.md)
+   + Bonnes pratiques de diffusion {#delivery-bestpractices}
+      + [Découvrez les bonnes pratiques](delivery/using/delivery-best-practices.md)
+      + [Optimisez votre diffusion](delivery/using/optimize-delivery.md)
+      + [Utilisez les modèles](delivery/using/use-templates.md)
+      + [Créer du contenu personnalisé](delivery/using/design-and-personalize.md)
+      + [Définir l’audience appropriée](delivery/using/define-the-right-audience.md)
+      + [Vérifier avant envoi](delivery/using/check-before-sending.md)
+      + [Trackez et suivez vos diffusions](delivery/using/track-and-monitor.md)
    + Etapes clés lors de la création d&#39;une diffusion {#key-steps-when-creating-a-delivery}
-      + [A propos de la création de diffusion ](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Commencer avec les diffusions](delivery/using/steps-about-delivery-creation-steps.md)
       + [Créer et identifier la diffusion](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Définir la population cible](delivery/using/steps-defining-the-target-population.md)
       + [Valider la diffusion](delivery/using/steps-validating-the-delivery.md)
