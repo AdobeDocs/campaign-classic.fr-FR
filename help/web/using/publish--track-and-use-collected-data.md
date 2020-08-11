@@ -14,8 +14,11 @@ discoiquuid: 434a4bda-0907-42a7-8a75-2db658bba046
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+workflow-type: ht
+source-wordcount: '890'
+ht-degree: 100%
 
 ---
 
@@ -107,6 +110,7 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
    * ajouter des colonnes supplémentaires dans le fichier de sortie et ainsi récupérer les informations stockées en base relatives au destinataire,
    * appliquer un formatage sur les données exportées,
    * sélectionner le format d&#39;encodage des informations dans le fichier.
+
    Si le questionnaire dont vous souhaitez exporter les réponses contient un ou plusieurs champs de type **[!UICONTROL Texte multi-lignes]** ou **[!UICONTROL Texte HTML]**, vous devez l&#39;exporter au format **[!UICONTROL XML]**. Pour cela, sélectionnez ce format dans la liste déroulante du champ **[!UICONTROL Format de sortie]**, comme ci-dessous :
 
    ![](assets/s_ncs_admin_survey_logs_export_xml.png)
