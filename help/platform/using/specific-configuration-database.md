@@ -14,16 +14,16 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Configuration des connecteurs de FDA {#specific-configurations-by-database-type}
+# Configuration des connecteurs FDA {#specific-configurations-by-database-type}
 
 En fonction des bases de données externes auxquelles vous souhaitez pouvoir accéder depuis Adobe Campaign, certains paramétrages spécifiques sont nécessaires. Ces paramétrages concernent essentiellement l’installation de pilotes et la déclarations de variables d’environnement propres à chaque SGBDR sur le serveur Adobe Campaign.
 
