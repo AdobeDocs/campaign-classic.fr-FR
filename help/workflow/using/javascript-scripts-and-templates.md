@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 9d36192a768fd0162f2301a5fe0437074d0fda58
+workflow-type: ht
+source-wordcount: '1249'
+ht-degree: 100%
 
 ---
 
@@ -90,7 +93,7 @@ Ces variables sont les plus communément utilisées et doivent être préférée
 
 Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit de variables de type chaîne. Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [A propos des activités](../../workflow/using/about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
 
-### Exemples   {#example}
+### Exemples    {#example}
 
 **Exemple 1**
 
