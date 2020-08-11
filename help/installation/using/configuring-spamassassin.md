@@ -178,7 +178,7 @@ cpan Mail::SpamAssassin
 
 ### Mise à jour des règles de filtrage {#updating-filter-rules}
 
-Les règles de filtrage peuvent être mises à jour automatiquement à l&#39;aide de l&#39;outil **sa-update**. Reportez-vous au site officiel de SpamAssasin [http://spamassassin.apache.org/](http://spamassassin.apache.org/) pour plus d&#39;informations.
+Les règles de filtrage peuvent être mises à jour automatiquement à l&#39;aide de l&#39;outil **sa-update**. Reportez-vous au site officiel de SpamAssassin [http://spamassassin.apache.org/](http://spamassassin.apache.org/) pour plus d&#39;informations.
 
 Sous Debian, la mise à jour est automatique et quotidienne.
 
