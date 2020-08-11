@@ -256,11 +256,11 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
    Ce groupe contient les droits nommés suivants :
 
    * **[!UICONTROL PRÉPARER LES DIFFUSIONS]**: droit de créer, de modifier et de début l&#39;analyse diffusion,
-   * **[!UICONTROL DIFFUSIONS]** du DÉBUT : droit d&#39;approuver les diffusions analysées précédemment.
+   * **[!UICONTROL DIFFUSIONS]** du début : droit d&#39;approuver les diffusions analysées précédemment.
 
 1. **[!UICONTROL Chargés d&#39;opération]**
 
-   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module d&#39;Adobe Campaign facultatif).
+   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module facultatif Adobe Campaign).
 
    Ce groupe contient les droits nommés suivants :
 
@@ -296,7 +296,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
    Les opérateurs de ce groupe peuvent créer et gérer des offres. Pour plus d’informations à ce sujet, consultez [cette page](../../interaction/using/operator-profiles.md).
 Ce groupe contient les droits nommés suivants :
 
-   * **[!UICONTROL INSÉRER DES DOSSIERS]**: Droit d&#39;insérer des dossiers dans l&#39;arborescence de l&#39;Adobe Campaign (à condition que vous disposiez de droits d&#39;édition pour les branches concernées),
+   * **[!UICONTROL INSÉRER DES DOSSIERS]**: Droit d&#39;insérer des dossiers dans l&#39;arborescence Adobe Campaign (à condition que vous ayez des droits d&#39;édition pour les branches concernées),
    * **[!UICONTROL ÉDITION DES DOSSIERS]** : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
 
 ## Droits nommés {#named-rights}
@@ -357,7 +357,7 @@ Les groupes par défaut et les droits nommés permettent aux opérateurs d&#39;a
 
 La matrice des droits d&#39;accès Adobe Campaign est disponible [ici](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![image](assets/user_management.png)](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![image](assets/user_management.png)](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
 ## Gestion de l&#39;accès aux dossiers {#folder-access-management}
 
