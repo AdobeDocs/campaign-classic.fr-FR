@@ -97,10 +97,12 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 
    * &quot;shared&quot; : le contenu est stocké dans une table partagée par type de données
    * &quot;dedicated&quot; : le contenu est stocké dans une table dédiée
+
    Les tables SQL de caractéristiques sont construites automatiquement en fonction du type de la caractéristique :
 
    * dédié : `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+
    Deux types de champs de caractéristiques sont disponibles : les champs simples oà¹ une seule valeur est autorisée sur la caractéristique et les champs à choix multiples oà¹ la caractéristique est associée à un élément de collection qui peut donc contenir plusieurs valeurs.
 
    Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
@@ -118,6 +120,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * &quot;d&quot; : préfixe pour le type &#39;double&#39;.
    * &quot;s&quot; : préfixe pour le type chaine de caractère.
    * &quot;ts&quot; : préfixe pour le type &#39;date&#39;.
+
    Pour définir intégralement le nom du champ dans la table, il faut utiliser l&#39;option &quot;@sqlname&quot; dans la définition d&#39;un attribut.
 
 * **notNull (boolean)**: permet de redéfinir le comportement de Adobe Campaign concernant la gestion des enregistrements NULL en base de données. Par défaut, les champs numériques sont non-nuls et les champs de type chaîne et date peuvent être nuls.
@@ -167,6 +170,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    * time
    * timespan
    * uuid
+
    Si l&#39;attribut &quot;@type&quot; est laissé vide, Adobe Campaign associe par défaut un type chaîne de caractères (STRING) de longueur 100 au champ.
 
    Si le champ est de type STRING et que le nom du champ n&#39;est pas précisé par la présence de l&#39;attribut &quot;@sqlname&quot;, alors le nom du champ dans la base de données sera automatiquement précédé du caractère &#39;s&#39;. Ce fonctionnement sera similaire avec les champs de type INTEGER (i), DOUBLE (d) et DATE(ts).
@@ -252,7 +256,7 @@ Lorsqu’aucun `<compute-string>` n’est défini, un élément `<compute-string
 
 * **expr (string)**: expression XTK et/ou Xpath.
 
-### Exemples    {#examples-1}
+### Exemples     {#examples-1}
 
 ```
 <compute-string expr="@label + Iif(@code='','', ' (' + [folder/@label] + ')')"/>  
@@ -303,7 +307,7 @@ Plusieurs conditions de filtrage peuvent être définies dans un même élément
 * **enabledIf (string)**: test d&#39;activation de la condition.
 * **expr (string)**: une expression XTK.
 
-### Exemples    {#examples-2}
+### Exemples     {#examples-2}
 
 ```
 <sysfilter>
@@ -364,7 +368,7 @@ Le nom de l&#39;index en base est calculé par concaténation du nom de la table
 * **name (MNTOKEN)**: nom unique de l&#39;index.
 * **unique (boolean)**: si cette option est activée (@unique=&quot;true&quot;), alors cet attribut garantie l&#39;unicité de l&#39;index sur l&#39;ensemble des champs qui le composent.
 
-### Exemples    {#examples-3}
+### Exemples     {#examples-3}
 
 Création d’un index sur le champ « id ». (L’attribut « @unique » sur l’élément `<dbindex>` déclenche l’ajout du mot clé SQL « UNIQUE » lorsque l’index est créé dans la base de données (requête)).
 
@@ -483,10 +487,12 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 
    * &quot;shared&quot; : le contenu est stocké dans une table partagée par type de données
    * &quot;dedicated&quot; : le contenu est stocké dans une table dédiée
+
    Les tables SQL de caractéristiques sont construites automatiquement en fonction du type de la caractéristique :
 
    * dédié : `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+
    Deux types de champs de caractéristiques sont disponibles : les champs simples où une seule valeur est autorisée sur la caractéristique et les champs à choix multiples où la caractéristique est associée à un élément de collection qui peut donc contenir plusieurs valeurs.
 
    Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
@@ -520,6 +526,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
    * &quot;d&quot; : préfixe pour le type &#39;double&#39;.
    * &quot;s&quot; : préfixe pour le type chaine de caractère.
    * &quot;ts&quot; : préfixe pour le type &#39;date&#39;.
+
    Pour définir de manière autonome le nom de la table, il faut utiliser l&#39;attribut &quot;@sqltable&quot; dans la définition de l&#39;élément principal du schéma.
 
 * **noDbIndex (boolean)**: permet de préciser que l&#39;élément ne sera pas indexé.
@@ -540,6 +547,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 
    * &quot;single&quot; : Lien simple de type 1-1
    * &quot;unbound&quot; : Lien de collection de type 1-N
+
    Par défaut, si l&#39;attribut n&#39;est pas précisé lors de la création du lien, la cardinalité est de type 1-N.
 
 * **revDesc (string)**: cet attribut reçoit une description associée au lien inverse.
@@ -717,7 +725,7 @@ Cet élément vous permet de décrire un élément `<element>`  ou `<attribute>`
 
 Cet élément n&#39;a aucun attribut.
 
-### Exemples    {#examples-5}
+### Exemples     {#examples-5}
 
 ```
 <method name="CheckOperation" static="true"
@@ -766,7 +774,7 @@ Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;u
 * **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; de la table distante).
 * **xpath-src (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; dans le schéma courant).
 
-### Exemples    {#examples-6}
+### Exemples     {#examples-6}
 
 Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@compagny-id&quot; de la table distante:
 
@@ -830,7 +838,7 @@ Les 1000 premiers identifiants sont réservés donc si une plage de valeurs doit
 * **name (MNTOKEN)**: nom interne de la clef.
 * **noDbIndex (boolean)**: s&#39;il est activé (noDbIndex=&quot;true&quot;), le champ correspondant à la clef ne sera pas indexé.
 
-### Exemples    {#examples-------}
+### Exemples     {#examples-------}
 
 Déclaration d&#39;une clef composite autorisant un des deux champs la composant &quot;@expr&quot; ou &quot;@alias&quot; à être vide:
 
@@ -880,7 +888,7 @@ Cet élément définit les champs à intégrer à un index ou bien à une cle
 * **xlink (MNTOKEN)**: permet de référencer automatiquement les clefs étrangères définies dans la jointure pour une table de relation (lien N-N).
 * **xpath (MNTOKEN)** : définition d’un index ou d’une clé sur un élément `<attribute>`. Cet attribut reçoit un Xpath qui définit le chemin d’accès à l’attribut du schéma qui définit la clé ou l’index.
 
-### Exemples    {#examples-}
+### Exemples     {#examples-}
 
 Sélection du champ &quot;sName&quot; dans un index avec un Xpath sur &quot;@name&quot;:
 
@@ -934,7 +942,7 @@ L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour d�
 * **name (MNTOKEN)**: nom unique de la méthode.
 * **static (boolean)**: si cet attribut est activé, la méthode est considérée comme autonome, tous les paramètres doivent être indiqués à la méthode lors de son appel.
 
-### Exemples    {#examples-7}
+### Exemples     {#examples-7}
 
 Définition de la méthode d&#39;usine &quot;Subscribe&quot; :
 
@@ -978,7 +986,7 @@ Cet élément permet de définir un élément `<method>`. Il est obligatoire pou
 
 Cet élément n&#39;a aucun attribut.
 
-### Exemples    {#examples-8}
+### Exemples     {#examples-8}
 
 ```
 <methods async="true"
@@ -1095,7 +1103,7 @@ Cet élément est obligatoire même pour un seul élément `<param>` enfant de l
 
 Aucun
 
-### Exemples    {#examples-10}
+### Exemples     {#examples-10}
 
 ```
 <parameters
@@ -1163,7 +1171,7 @@ La présentation du schéma est disponible dans [A propos de la référence du s
 * **view (boolean)**: s&#39;il est activé (@view=&quot;true&quot;), le schéma sera utilisé comme une vue. L&#39;assistant de mise à jour de la structure de la base ne tiendra pas compte du schéma. Cette option permet le plus souvent de référencer des tables externes.
 * **xtkschema (string)**: nom du schéma définissant la grammaire des schémas (par défaut xtk:srcSchema).
 
-### Exemples    {#examples-11}
+### Exemples     {#examples-11}
 
 Élément `<srcschema>` du schéma d’usine « nms:delivery »
 
@@ -1200,7 +1208,7 @@ Cet élément permet de définir un filtre.
 
 Cet élément n&#39;a aucun attribut.
 
-### Exemples    {#examples-12}
+### Exemples     {#examples-12}
 
 Définition d&#39;un filtre avec une condition sur l&#39;attribut @name:
 
@@ -1248,7 +1256,7 @@ Cet élément permet de définir les valeurs stockées dans une énumération.
 * **name (string)**: nom interne de la valeur de l&#39;énumération.
 * **value (string)**: valeur de la valeur de l&#39;énumération. Le type de la valeur est défini en fonction du type de l&#39;énumération. Si l&#39;énumération est de type chaine de caractère, elle ne peut contenir que des valeurs de type chaine de caractères.
 
-### Exemples    {#examples-13}
+### Exemples     {#examples-13}
 
 ```
 <enumeration name="myEnum">
