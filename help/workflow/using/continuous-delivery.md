@@ -14,11 +14,11 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 69%
 
 ---
 
@@ -53,3 +53,17 @@ Uniquement lorsque l&#39;action **[!UICONTROL Spécifiés par l&#39;événement 
 Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
 La transition associée au complémentaire possède les mêmes paramètres.
+
+## Comment configurer une diffusion continue
+
+Cette section explique comment configurer une diffusion continue.
+
+The **continuous delivery** lets you add new recipients to an existing delivery and avoids you having to create a new delivery each time a new recipient is added. Vous pouvez mettre à jour la création directement dans le processus de campagne et le modèle sera mis à jour dans le dossier modèle de diffusion Resource.
+
+Une diffusion continue crée une diffusion et des logs de diffusion UNIQUES (largeLog) et des logs de tracking qui font référence à l&#39;ajout d&#39;une diffusion chaque fois qu&#39;elle s&#39;exécute.
+
+![Diffusion continue](assets/delivery_continuous.jpg)
+
+Cette vidéo montre comment configurer une diffusion continue avec une requête incrémentielle.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
