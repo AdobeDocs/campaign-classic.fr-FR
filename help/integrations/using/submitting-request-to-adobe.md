@@ -14,11 +14,11 @@ discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a33132f64f160b20c98afd08cb9d0fe4cdf62b1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ Une fois qu&#39;IMS est activé, vous pouvez demander la configuration de l&#39;
    <td> Nom de votre organisation </td> 
   </tr> 
   <tr> 
-   <td> <strong>Identifiant IMS de l'organisation</strong><br /> </td> 
-   <td> Votre ID d’organisation IMS. <br> Vous pouvez trouver votre ID d’organisation IMS dans l’Experience Cloud, dans le menu Administration. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
+   <td> <strong>Identifiant de l'organisation IMS</strong><br /> </td> 
+   <td> Votre identifiant de l'organisation IMS. <br> Votre identifiant de l'organisation IMS est accessible dans Experience Cloud, dans le menu Administration. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environnement :</strong><br /> </td> 
