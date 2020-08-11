@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
+workflow-type: ht
+source-wordcount: '412'
+ht-degree: 100%
 
 ---
 
@@ -85,6 +88,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    >    * Utilisez l&#39;option **-immediate** en cas d&#39;urgence pour forcer l&#39;arrêt immédiat du processus (équivalent à la commande **kill -9** Unix).
    >    * Utilisez l’option **-noconsole** pour assurer que le module lancé n’affiche rien sur la console. Ses logs seront écrits sur le disque via le module **syslogd**.
    >    * Utilisez l’option **-verbose** pour afficher davantage d&#39;informations sur les actions du processus.
+
       >    
       >      
       Exemple:
