@@ -14,10 +14,10 @@ discoiquuid: 0ff9a8a9-2cb7-4b0b-a45e-2431151e59f1
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
-workflow-type: ht
-source-wordcount: '152'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
@@ -37,4 +37,4 @@ La migration doit préalablement être testée sur l&#39;environnement de dével
 
 >[!NOTE]
 >
->Les nouveautés et évolutions d&#39;Adobe Campaign v7 sont présentées en détail sur [cette page](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html).
+>Les nouveautés et évolutions d&#39;Adobe Campaign v7 sont présentées en détail sur [cette page](../../rn/using/latest-release.md).
