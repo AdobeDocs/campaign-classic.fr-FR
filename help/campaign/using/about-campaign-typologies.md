@@ -14,11 +14,11 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 79%
 
 ---
 
@@ -69,6 +69,22 @@ Vous trouverez ci-dessous les étapes nécessaires pour créer et appliquer une 
 
 Pendant la préparation de la diffusion, les destinataires sont exclus lorsque le critère est satisfait. Vous pouvez consultez les logs pour suivre les exclusions. Des exemples d&#39;utilisation des règles de typologie de pression sont disponibles sur [cette page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
+## Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie
+
+Cette vidéo explique comment mettre en oeuvre la gestion de la fatigue à Adobe Campaign Classic en exploitant les règles de typologie.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+
+## Comment configurer la gestion de la fatigue à l&#39;aide de filtres prédéfinis
+
+La gestion de la fatigue contrôle la fréquence et la quantité des messages afin d&#39;éviter la sollicitation excessive de destinataires. Si votre instance de campagne ne contient pas le module d&#39;optimisation de campagne, vous pouvez configurer un filtre prédéfini qui filtrera la population de cibles selon le nombre de messages reçus. Cette vidéo explique comment implémenter la gestion de la fatigue dans Adobe Campaign Classic à l&#39;aide de filtres.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+
 **Rubrique connexe**
 
 * [Appliquer des règles d’entreprises automatiques aux diffusions sur n’importe quel canal](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
+
+* [A propos des typologies de campagne](../../campaign/using/pressure-rules.md)
+
+* [Gestion de la fatigue marketing avec les règles de pression](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
