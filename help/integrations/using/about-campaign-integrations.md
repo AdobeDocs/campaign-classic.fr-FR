@@ -12,11 +12,11 @@ discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Découvrez la liste complète des solutions et core services Adobe pouvant être
 
 En fonction de votre environnement, plusieurs solutions peuvent être liées à Adobe Experience Cloud. Elles sont liées sous la forme d&#39;organisations. Une **organisation** est l&#39;entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l&#39;authentification unique dans Experience Cloud. L&#39;organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. L&#39;organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations.
 
-La gestion des organisations et la liaison de comptes à Adobe Experience Cloud sont détaillées sur le [portail d&#39;aide Adobe Marketing Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+La gestion des organisations et la liaison de comptes à Adobe Experience Cloud sont détaillées sur le [portail d&#39;aide Adobe Marketing Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/organizations.html).
 
 >[!CAUTION]
 >
@@ -50,7 +50,7 @@ La gestion des organisations et la liaison de comptes à Adobe Experience Cloud 
 >
 >Un identifiant visiteur unique sera alors attribué aux destinataires générant des logs de tracking. Cet identifiant sera enregistré dans le champ **[!UICONTROL UUID du demandeur (@sourceID)]** de la table **[!UICONTROL nms:trackingLogRcp]**. Les données de tracking des destinataires qui existaient avant l&#39;implémentation du service d&#39;identification des visiteurs ne seront donc plus utilisables.
 >
->L&#39;identifiant sera ensuite reconnu par les autre solutions Adobe Experience Cloud partageant le même [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
+>L&#39;identifiant sera ensuite reconnu par les autre solutions Adobe Experience Cloud partageant le même [CNAME](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/analytics-reference/cname.html).
 
 ## Intégrations Experience Cloud {#experience-cloud-integrations}
 
