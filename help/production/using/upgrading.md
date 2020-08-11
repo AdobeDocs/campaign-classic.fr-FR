@@ -14,10 +14,10 @@ discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
-workflow-type: ht
-source-wordcount: '1158'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1149'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 # Mise à jour de version{#upgrading}
 
-Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Adobe Campaign vers laquelle s&#39;effectue la mise à jour et consultez les [notes de mises à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html).
+Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Adobe Campaign vers laquelle s&#39;effectue la mise à jour et consultez les [notes de mises à jour](../../rn/using/latest-release.md) .
 
 >[!CAUTION]
 >
@@ -34,7 +34,7 @@ Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Ad
 
 >[!NOTE]
 >
->Reportez-vous également au [guide d&#39;installation](../../installation/using/general-architecture.md) et au guide de prise en main sur l&#39;[upgrade de build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html).
+>Reportez-vous également au [guide d&#39;installation](../../installation/using/general-architecture.md) et au guide de prise en main sur l&#39;[upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
 
 ## Sous Windows {#in-windows}
 
