@@ -12,11 +12,11 @@ discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez définir un pré-traitement à exécuter lors de l’import du fichi
 
 ![](assets/preprocessing-dataloading.png)
 
-Pour plus d&#39;informations à ce sujet, consultez cette section : [Décompressez ou décompressez un fichier avant de le traiter](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou crypter un fichier avant traitement](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
 
 ## Définir le format du fichier {#defining-the-file-format}
 
