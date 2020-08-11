@@ -12,8 +12,11 @@ discoiquuid: d8b49f68-c783-43fc-9907-e8480ecd28c2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
+workflow-type: ht
+source-wordcount: '608'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
 # Envoi de fichier{#file-transfer}
 
 L&#39;activité de type **Transfert de fichier** permet de recevoir ou envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé est soit Amazon Simple Storage Service (S3) le FTP ou le SFTP.
-Avec une connexion S3 ou SFTP, vous pouvez également importer des données de segment dans Adobe Campaign avec la plateforme Adobe Real-time Customer Data. Voir à ce propos cette [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+Avec une connexion S3 ou SFTP, vous pouvez également importer des données de segment dans Adobe Campaign avec la plateforme Adobe Real-time Customer Data. Voir à ce propos cette [documentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
 
 ## Propriétés {#properties}
 
