@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+workflow-type: ht
+source-wordcount: '1015'
+ht-degree: 100%
 
 ---
 
@@ -145,7 +148,7 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 
 Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/elements-and-attributes.md#attribute-description).
 
-### Exemples   {#examples}
+### Exemples    {#examples}
 
 Exemple de définition d&#39;une valeur par défaut :
 
@@ -185,7 +188,7 @@ Les liens sont déclarés dans le schéma qui contient la **clé étrangère** d
 
 Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
-### Exemples   {#examples-1}
+### Exemples    {#examples-1}
 
 Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 
