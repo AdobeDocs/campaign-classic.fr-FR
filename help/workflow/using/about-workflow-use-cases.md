@@ -1,6 +1,6 @@
 ---
 title: À propos des cas pratiques de workflows
-description: En savoir plus sur les cas d’utilisation que vous pouvez exécuter à l’aide de workflows Campaign Classic.
+description: En savoir plus sur les cas pratiques de workflows dans Campaign Classic.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d9e2b54da9de37ed8f4f873a1049b35493112d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Workflow de diffusion cross-canal](../../workflow/using/cross-channel-delivery-workflow.md)
 * [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
-## Contrôle     {#monitoring}
+## Contrôle      {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
@@ -53,8 +53,8 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md)
 * [Enrichir des données](../../workflow/using/enriching-data.md)
 * [Utilisation d&#39;agrégats](../../workflow/using/using-aggregates.md)
-* [Importation de données chiffrées à l’aide d’une clé générée par Panneau de Contrôle](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
-* [Chiffrement et exportation de données à l’aide d’une clé installée sur le Panneau de Contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
+* [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
+* [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
 
 ## Créer des requêtes {#designing-queries}
