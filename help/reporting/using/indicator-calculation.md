@@ -14,11 +14,11 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3029'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -567,7 +567,7 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
   <tr> 
    <td> Plaintes (Complaints)<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> Nombre de messages dont le statut est égal à "Échec" et un motif égal à "adresse ajoutée à la liste bloquée".<br /> </td> 
+   <td> Nombre de messages dont le statut est égal à « Échec » et une raison égale à « adresse ajoutée à la liste bloquée ».<br /> </td> 
    <td> Count(@status=2 et msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
@@ -769,7 +769,7 @@ Ce rapport se base sur la table **[!UICONTROL Diffusion]** (nms:delivery).
   <tr> 
    <td> Messages rejetés par règle<br /> </td> 
    <td> @reject<br /> </td> 
-   <td> Number of addresses ignored during the analysis in keeping with typology rules: address not specified, quarantined, added to the block list, etc.<br /> </td> 
+   <td> Nombre d'adresses ignorées lors de l'analyse en application des règles de typologie : adresse non renseignée, en quarantaine, en liste bloquée, etc.<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 
