@@ -14,8 +14,11 @@ discoiquuid: 2c5e0004-2a5d-4e89-ae6c-6bad186bd958
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2bf661d88ac61af5c25153aadf20f06236a752e
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: f2bf661d88ac61af5c25153aadf20f06236a752e
 
 Avant de commencer toute installation ou configuration pour Adobe Campaign, lisez les prérequis et les recommandations ci-après.
 
-* Consultez la [matrice de compatibilité d&#39;Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) qui répertorie toutes les versions des différents systèmes et composants prises en charge par Adobe Campaign.
+* Consultez la [matrice de compatibilité d&#39;Adobe Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) qui répertorie toutes les versions des différents systèmes et composants prises en charge par Adobe Campaign.
 
    >[!NOTE]
    >
