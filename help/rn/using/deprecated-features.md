@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e46325ab8f68a0b71198aee9cf04f2b1eb97fdd3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <tr>  
    <td>Canal fax<br></td>
    <td><p>À compter de la version 20.2, le canal fax est obsolète.</p> 
-   <p>Si vous utilisez ce canal, vous devez adapter votre implémentation en conséquence. <a href="../../delivery/using/communication-channels.md">En savoir plus</a> sur les canaux de Campaign.</p>
+   <p>Si vous utilisez ce canal, vous devez adapter votre implémentation en conséquence. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">En savoir plus</a> sur les canaux de Campaign.</p>
    <p><em>Date de suppression prévue : 2021</em></p></td>
   </tr>
  </tbody> 
