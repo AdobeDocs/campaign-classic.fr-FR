@@ -14,8 +14,11 @@ discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+workflow-type: ht
+source-wordcount: '1035'
+ht-degree: 100%
 
 ---
 
@@ -205,6 +208,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
    * **Opérateur :** égal à
    * **Valeur :** variables (variables)
    * **Pris en compte si :** &#39;$(var2/@id)&#39;!=&#39;&#39;
+
    ![](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
