@@ -14,8 +14,11 @@ discoiquuid: 41b8a8a8-efac-4e8e-8aea-d4fd06c46e74
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+workflow-type: ht
+source-wordcount: '719'
+ht-degree: 100%
 
 ---
 
@@ -133,5 +136,6 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
    * Pour les champs **[!UICONTROL Destinataires]** et **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Spécifiés dans la diffusion]**.
    * **[!UICONTROL Action à effectuer]** : sélectionnez **[!UICONTROL Préparer et démarrer]**.
    * Décochez les options **[!UICONTROL Générer une transition sortante]** et **[!UICONTROL Traiter les erreurs]**.
+
    ![](assets/use_case_report_11.png)
 
