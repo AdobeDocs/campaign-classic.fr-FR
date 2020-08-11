@@ -14,9 +14,9 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3b04cf988f144b8bfb846aff83e97c9b3a82e6e0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d’im
 
 Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certaines de ces fonctions peuvent ne pas être disponibles dans votre instance.
 
-* [Canaux](../../delivery/using/communication-channels.md) : concevez et envoyez des diffusions sur divers canaux (email, SMS, Line, Mobile app, courrier).
+* [Canaux](../../delivery/using/steps-about-delivery-creation-steps.md) : concevez et envoyez des diffusions sur divers canaux (email, SMS, Line, Mobile app, courrier).
 * [Campaign](../../campaign/using/designing-marketing-campaigns.md) : orchestrez des campagnes cross-canal.
 * [MRM](../../campaign/using/about-marketing-resource-management.md) : gérez les ressources marketing et les budgets.
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) : gérez les offres avec Campaign.
