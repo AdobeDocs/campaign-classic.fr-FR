@@ -14,8 +14,11 @@ discoiquuid: 1d3cc650-3c79-4a1d-b2bc-e7eb6d59d2f1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+workflow-type: ht
+source-wordcount: '1164'
+ht-degree: 100%
 
 ---
 
@@ -141,6 +144,7 @@ Vous pouvez utiliser :
    * 460 px
    * 300 px
    * 240 px
+
    >[!NOTE]
    >
    >La taille 1 040 x 1 040 px est obligatoire pour toutes les images LINE avec un lien.
@@ -157,7 +161,7 @@ Vous pouvez utiliser :
 >
 >La syntaxe &lt;%@ include option=&#39;NmsServer_URL&#39; %>/webApp/APP3?id=&lt;%=escapeUrl(cryptString(visitor.id))%> permet d&#39;inclure un lien vers une web app dans un message LINE.
 
-### Recommandations  {#recommendations}
+### Recommandations   {#recommendations}
 
 * Lorsque vous envoyez une diffusion LINE pour la première fois à un nouveau destinataire, vous devez y ajouter le message officiel de LINE à propos des règles d&#39;utilisation et de consentement. Ce message officiel est disponible à l&#39;adresse suivante : [https://terms.line.me/OA_privacy/sp?lang=fr](https://terms.line.me/OA_privacy/sp?lang=fr).
 
