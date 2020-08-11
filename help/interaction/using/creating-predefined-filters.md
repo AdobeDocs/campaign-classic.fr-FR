@@ -14,8 +14,11 @@ discoiquuid: d47017a3-a342-4758-a700-b8e88aa724f2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
+workflow-type: ht
+source-wordcount: '121'
+ht-degree: 100%
 
 ---
 
@@ -52,4 +55,4 @@ Pour créer un filtre, procédez comme suit :
 
 **Rubrique connexe**
 
-* [Enregistrer les requêtes fréquemment utilisées comme filtres prédéfinis éditables](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)
+* [Enregistrer les requêtes fréquemment utilisées comme filtres prédéfinis éditables](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)
