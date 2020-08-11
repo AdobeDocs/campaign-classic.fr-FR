@@ -14,8 +14,11 @@ discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+workflow-type: ht
+source-wordcount: '145'
+ht-degree: 100%
 
 ---
 
@@ -32,5 +35,5 @@ Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas né
 >Adobe pour les déploiements hébergés par Adobe. Par exemple, pour
 >configurer les fichiers de configuration du serveur et de l’instance.
 >
->Pour en savoir plus sur les principales différences entre les déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou l’article [Différences de fonctionnalités pour les déploiements hébergés et on-premise](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+>Pour en savoir plus sur les principales différences entre les déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou l’article [Différences de fonctionnalités pour les déploiements hébergés et on-premise](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
 
