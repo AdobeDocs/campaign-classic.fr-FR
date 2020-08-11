@@ -12,18 +12,18 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Amélioration de votre réputation{#improve-reputation}
 
-Pour éviter d&#39;épuiser vos destinataires, supprimez les adresses électroniques de duplicata de votre cible. Cette étape protège votre réputation d&#39;envoi et assure une bonne gestion des quarantaines. L&#39;Adobe Campaign offre les outils nécessaires pour mettre en oeuvre ces recommandations et éviter le risque d&#39;être ajouté à une liste bloquée par le FAI.
+Pour éviter d’excéder vos destinataires, supprimez les adresses email dupliquées de votre cible. Cette étape protège votre réputation d’expéditeur et assure une bonne gestion des quarantaines. Adobe Campaign dispose des outils nécessaires pour mettre en œuvre ces recommandations et éviter le risque d’être ajouté à une liste bloquée par les FAI.
 
 Pour éviter le plus possible l’existence de doublons, les éléments suivants doivent être impérativement vérifiés :
 
@@ -45,7 +45,7 @@ L’existence de doublons pour une adresse email peut avoir plusieurs conséquen
 * Envois multiples du même message. Même si Adobe Campaign applique par défaut une déduplication sur l’adresse email avant chaque envoi, rien n’empêche d’envoyer plusieurs fois le même message par des actions différentes qui ont un même contenu lorsqu’on effectue un partage de cible.
 * Non-respect de la désinscription. Si une personne se désinscrit suite à la réception d’un message, son profil en doublon sera quant à lui toujours éligible aux envois.
 
-En plus de cette étape secondaire des procédures d&#39;inclusion, cette situation conduira probablement les utilisateurs à considérer les messages comme du spam et à déclencher une procédure de liste bloquée auprès du fournisseur de services Internet.
+Outre le non-respect de l’opt-in, cette situation amènera probablement les utilisateurs à considérer les messages comme du spam et déclencher une action de liste bloquée de la part du FAI.
 
 Il faut être particulièrement prudent lors d&#39;opérations sur la base :
 
