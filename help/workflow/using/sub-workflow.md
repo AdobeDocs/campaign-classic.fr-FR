@@ -14,11 +14,11 @@ discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ L’activité **[!UICONTROL Sous-workflow]** permet de déclencher l’exécutio
 
 Vous pouvez appeler plusieurs sous-workflows au sein d’un même workflow. Les sous-workflows sont exécutés de manière synchrone.
 
-Dans l’exemple ci-dessous, un processus principal appelle un sous-processus à l’aide de sauts. Pour plus d’informations sur les objets graphiques de type saut, voir [cette section](../../workflow/using/jump--start-point-and-end-point-.md).
+Dans l’exemple ci-dessous, un workflow principal appelle un sous-workflow à l’aide de sauts. Pour plus d’informations sur les objets graphiques de type saut, voir [cette section](../../workflow/using/jump--start-point-and-end-point-.md).
 
 1. Créez un workflow que vous allez utiliser en tant que sous-workflow dans un autre workflow.
 1. Insérez une activité **[!UICONTROL Saut (arrivée)]** avec une priorité de 1 au début du workflow. Si vous avez plusieurs sauts de type « arrivée », Adobe Campaign utilisera celui associé au plus petit nombre.
@@ -44,7 +44,7 @@ Dans l’exemple ci-dessous, un processus principal appelle un sous-processus à
    >Pour que le sous-workflow soit exécuté correctement, vous devez avoir un seul saut de type « arrivée » avec le nombre le plus petit et un seul saut de type « départ » avec le nombre le plus grand.
 
 1. Finalisez et enregistrez ce « sous-workflow ».
-1. Créez un processus principal.
+1. Créez un workflow principal.
 1. Insérez une activité **[!UICONTROL Sous-workflow]** et ouvrez-la.
 1. Sélectionnez le workflow que vous souhaitez utiliser dans la liste déroulante **[!UICONTROL Modèle de workflow]**.
 
@@ -57,17 +57,17 @@ Dans l’exemple ci-dessous, un processus principal appelle un sous-processus à
 
 1. Exécutez le workflow.
 
-Once run, the workflow that was called as a sub-workflow remains in **[!UICONTROL Being edited]** status, which means the following:
+Une fois exécuté, le workflow qui a été appelé en tant que sous-workflow reste à l’état **[!UICONTROL En édition]**, ce qui a les implications suivantes :
 
 * Vous ne pouvez pas cliquer avec le bouton droit sur les transitions pour afficher la cible.
 * Le nombre de populations intermédiaires ne peut pas être affiché.
-* Les journaux de sous-processus s’affichent dans le processus principal.
+* Les logs de sous-workflow s’affichent dans le workflow principal.
 
    ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >
->Si une erreur se produit dans le sous-processus, le processus principal est interrompu et une copie du sous-processus est créée.
+>Si une erreur se produit dans le sous-workflow, le workflow principal est interrompu et une copie du sous-workflow est créée.
 
 ## Paramètres d&#39;entrée (optionnel) {#input-parameters--optional-}
 
