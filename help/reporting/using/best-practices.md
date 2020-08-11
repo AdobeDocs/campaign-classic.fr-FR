@@ -14,8 +14,11 @@ discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c41cf2f35495a1514642e47f0b7146d8dd50946
+workflow-type: ht
+source-wordcount: '817'
+ht-degree: 100%
 
 ---
 
@@ -56,6 +59,7 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
    * Seulement les opérateurs ayant des droits sur une opération marketing,
    * Un seul opérateur, pour une consultation ponctuelle,
    * Tous les opérateurs en accès Web, etc.
+
    Ces considérations doivent également prendre en compte les problématiques liées aux droits d&#39;accès et à la sécurité.
 
 1. Définir le contenu
