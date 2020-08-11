@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Il est essentiel de préserver la réputation de votre domaine et de votre adres
 
 * Commencer l’envoi d’emails est une étape délicate, car la plate-forme ne possède ni historique d’envoi, ni réputation, lorsque les adresses IP d’envoi n’ont jamais été utilisées pour des emails.
 
-* Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP &quot;inconnues&quot; (adresses qui n&#39;ont jamais été ajoutées à une liste bloquée) pour envoyer le plus grand nombre possible de messages avant leur détection.
+* Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP « inconnues » (celles qui n’ont jamais été placées en liste bloquée) pour envoyer un maximum de messages pendant le laps de temps où ils n’ont pas encore été détectés.
 
 * On ne peut donc pas espérer atteindre le régime de croisière en termes de débit dès le début de la mise en production. De surcroît on ne doit pas essayer d&#39;envoyer les premiers messages avec un tel débit, car cela conduirait les FAI à bloquer d&#39;autant plus sévèrement les adresses IP d&#39;envoi et à compromettre gravement la poursuite du démarrage.
 
@@ -46,5 +46,5 @@ Le démarrage d’une plate-forme s’accompagne souvent de l’utilisation d’
 * **Accordez de l’attention aux rapports de diffusion**. La présence d’indicateurs d’erreur élevés peut révéler un paramètre technique mal configuré. Voir à ce propos la section [Suivre une diffusion](../../delivery/using/monitoring-a-delivery.md).
 
 **Rubriques connexes** :
-* [Augmentez la réputation de vos emails grâce au rodage des adresses IP](https://helpx.adobe.com/campaign/kb/increase-email-rep-ip-warming.html)
-* [En savoir plus sur les pièges anti-spam](https://helpx.adobe.com/campaign/kb/spam-traps.html)
+* [Augmentez la réputation de vos emails grâce au rodage des adresses IP](https://helpx.adobe.com/fr/campaign/kb/increase-email-rep-ip-warming.html)
+* [En savoir plus sur les pièges anti-spam](https://helpx.adobe.com/fr/campaign/kb/spam-traps.html)
