@@ -14,8 +14,11 @@ discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+workflow-type: ht
+source-wordcount: '1010'
+ht-degree: 100%
 
 ---
 
@@ -109,6 +112,7 @@ Vous pouvez modifier l&#39;ordre et le libellé des champs pour le fichier de so
    * Passer en majuscules
    * Passer en minuscules
    * Première lettre en majuscule
+
    ![](assets/s_ncs_user_export_wizard06.png)
 
 * Cliquez sur l’icône **[!UICONTROL Ajouter un champ calculé]** si vous voulez créer un champ calculé (par exemple, une colonne contenant le nom+le prénom). Voir à ce sujet la section [Champs calculés](../../platform/using/importing-data.md#calculated-fields).
