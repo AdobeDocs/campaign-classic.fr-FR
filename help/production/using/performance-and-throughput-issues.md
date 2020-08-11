@@ -14,11 +14,11 @@ discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Tout d’abord, vous devez vérifier que le dernier build est installé. Vous êtes ainsi assuré d’avoir les derniers correctifs et fonctionnalités. Reportez-vous aux [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html) pour plus d’informations sur le contenu de chaque version.
+>Tout d’abord, vous devez vérifier que le dernier build est installé. Vous êtes ainsi assuré d’avoir les derniers correctifs et fonctionnalités. Reportez-vous aux [Notes de mise à jour](../../rn/using/latest-release.md) pour plus d’informations sur le contenu de chaque version.
 
 ## Matériel et infrastructure {#hardware-and-infrastructure}
 
@@ -75,5 +75,5 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 
 >[!NOTE]
 >
->Pensez à consulter le guide [Prise en main de la délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html).
+>Voir aussi [la section Points](../../delivery/using/deliverability-key-points.md) clés de la délivrabilité.
 
