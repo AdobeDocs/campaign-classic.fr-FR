@@ -14,11 +14,11 @@ discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa192d975a08246ba684940fff3d33853d7d9345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Une requête incrémentale permet de sélectionner périodiquement une cible sel
 
 La population déjà ciblée est mémorisée par instance de workflow et par activité, c&#39;est-à-dire que deux workflows démarrés à partir du même modèle ne partagent pas le même historique. En revanche, deux tâches basées sur la même requête incrémentale pour la même instance de workflow utiliseront le même historique.
 
-La requête est définie de la même manière que pour les requêtes standard, mais son exécution est planifiée.
+La requête est définie selon le même mode que pour les requêtes standard, mais son exécution est planifiée.
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
+* [Cas pratique : mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
 * [Créer une requête](../../workflow/using/query.md#creating-a-query)
 
 >[!CAUTION]
