@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2644'
 ht-degree: 100%
 
 ---
@@ -109,7 +109,7 @@ En cas de mauvaises performances des diffusions, vous pouvez vérifier les point
 
 * **Taille de la diffusion** : l&#39;envoi de diffusions volumineuses peut prendre plus de temps. Les fils du MTA sont configurés pour gérer une taille de batch par défaut, qui convient à la plupart des instances, mais qui doit être vérifiée lorsque les diffusions sont constamment lentes.
 * **Cible de la diffusion** : les performances d&#39;une diffusion peuvent être impactées par les soft bounces, qui sont traités en fonction de la configuration des reprises. Plus le nombre des erreurs est élevé, plus les reprises sont nécessaires.
-* **Charge globale de la plateforme** : lorsque plusieurs diffusions volumineuses sont envoyées, la plateforme globale peut être impactée. Vous pouvez également vérifier la réputation IP et les problèmes de délivrabilité. Voir à ce sujet le [guide de bonnes pratiques de délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) d&#39;Adobe Campaign et [cette page](../../delivery/using/about-deliverability.md).
+* **Charge globale de la plateforme** : lorsque plusieurs diffusions volumineuses sont envoyées, la plateforme globale peut être impactée. Vous pouvez également vérifier la réputation IP et les problèmes de délivrabilité. Voir à ce sujet le [guide de bonnes pratiques de délivrabilité](../../delivery/using/deliverability-key-points.md) d&#39;Adobe Campaign et [cette page](../../delivery/using/about-deliverability.md).
 
 La maintenance de la plateforme et de la base de données peut également impacter les performances d&#39;envoi des diffusions. Voir à ce sujet [cette page](../../production/using/database-performances.md).
 
@@ -118,10 +118,10 @@ La maintenance de la plateforme et de la base de données peut également impact
 Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion semble prendre plus de temps que d&#39;habitude. Cela peut être dû à différents éléments :
 
 * Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos broadlogs et consultez [cette section](../../delivery/using/about-deliverability.md).
-* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) d&#39;Adobe Campaign.
+* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md) d&#39;Adobe Campaign.
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
-   * Messages mis en attente (message **[!UICONTROL Quotas atteints]**) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d&#39;informations sur ce message, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/acc-deliverability-faq.html#FAQ). Pour en savoir plus sur les règles MX, reportez-vous à [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
+   * Messages mis en attente (message **[!UICONTROL Quotas atteints]**) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d&#39;informations sur ce message, consultez [cette page](../../delivery/using/deliverability-faq.md). Pour en savoir plus sur les règles MX, reportez-vous à [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
    * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et un ajout potentiel à une liste bloquée.
 
 * Un problème lié au système peut empêcher les serveurs d&#39;interagir ensemble : l&#39;ensemble du processus d&#39;envoi peut être ainsi ralenti. Vérifiez que les serveurs ne présentent aucun problème de mémoire ou de ressource qui peut impacter Campaign dans le processus de récupération des données de personnalisation par exemple.
@@ -203,7 +203,7 @@ Lors de l&#39;envoi d&#39;une diffusion, les statuts suivants peuvent s&#39;affi
  </tbody> 
 </table>
 
-Pour apprendre à optimiser la délivrabilité de vos emails Adobe Campaign, consultez le [guide de bonnes pratiques de délivrabilité](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) d&#39;Adobe Campaign ainsi que [cette page](../../delivery/using/about-deliverability.md).
+Pour apprendre à optimiser la délivrabilité de vos emails Adobe Campaign, consultez le [guide de bonnes pratiques de délivrabilité](../../delivery/using/deliverability-key-points.md) d&#39;Adobe Campaign ainsi que [cette page](../../delivery/using/about-deliverability.md).
 
 ### Statut En attente {#pending-status}
 
