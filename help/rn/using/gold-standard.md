@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 890153a5b30594a1cb90606db4be8fd1ec19267b
+source-git-commit: 2604df2e6b6a7520e2f2a82f04c75ceb749fde79
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '815'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ _7 juillet 2020_
 
 Le build 9032@efd8a94 comprend le correctif suivant :
 
-Correction d’un problème qui empêchait le fonctionnement du tracking lorsque la fonctionnalité de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
+Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
 
 >[!CAUTION]
 >
