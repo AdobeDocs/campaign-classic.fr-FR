@@ -14,8 +14,11 @@ discoiquuid: 3667da3d-4940-4128-8878-f1ee67216f56
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+workflow-type: ht
+source-wordcount: '348'
+ht-degree: 100%
 
 ---
 
@@ -37,6 +40,7 @@ Pour cela :
 
    * le compte externe à utiliser pour la connexion au serveur S3, FTP ou SFTP ;
    * le chemin d&#39;accès au fichier sur le serveur S3, FTP ou SFTP.
+
    ![](assets/delivery_loadcontent_filetransfertexample.png)
 
 1. Ajoutez une activité **[!UICONTROL Diffusion]** et reliez-la à la transition sortante de l&#39;activité **[!UICONTROL Transfert de fichier]**. Configurez-la de la manière suivante :
@@ -45,6 +49,7 @@ Pour cela :
    * Destinataires : dans cet exemple, la cible est spécifiée dans la diffusion elle-même.
    * Contenu : même si le contenu est importé dans l&#39;activité précédente, sélectionnez **[!UICONTROL Spécifié dans la diffusion]**. Comme le contenu est directement importé d&#39;un fichier se trouvant sur un serveur distant, il n&#39;a pas d&#39;identifiant lors du traitement par le workflow et ne peut pas être identifié comme provenant de l&#39;événement entrant.
    * Action à effectuer : sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer la diffusion et y accéder depuis **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** une fois le workflow exécuté.
+
    ![](assets/delivery_loadcontent_activityexample.png)
 
 1. Dans l&#39;onglet **[!UICONTROL Script]** de l&#39;activité **[!UICONTROL Diffusion]**, ajoutez la commande suivante pour charger le contenu du fichier importé dans la diffusion :
