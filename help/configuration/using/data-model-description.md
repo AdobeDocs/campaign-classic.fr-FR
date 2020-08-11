@@ -12,11 +12,11 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2380'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Il s’agit de la table par défaut utilisée pour les **destinataires des diffu
 * iEmailFormat : format à privilégier pour les emails (1 pour le texte, 2 pour le code HTML et 0 si indéfini).
 * Les champs sAddress1, sAddress2, sAddress3, sAddress4, sZipCode, sCity sont utilisés pour construire l’adresse postale (conformément à la norme AFNOR XPZ 10-011 de mai 1997).
 * Les champs sPhone, sMobilePhone, sFax contiennent respectivement les numéros de téléphone, de téléphone mobile et de fax.
-* iBlockList est l’indicateur d’exclusion par défaut utilisé pour les profils (1 signifie &quot;désabonnement&quot;, 0 sinon).
+* iBlockList est l’indicateur d’opt-out par défaut utilisé pour les profils (1 signifie « désabonné », 0 dans le cas contraire).
 
 Le champ iFolderId est la clé étrangère servant à relier le destinataire à son dossier d’exécution. Voir à ce propos la section [XtkFolder](#XtkFolder).
 
@@ -111,7 +111,7 @@ Les dossiers sont associés à des types : la valeur du champ sModel indique le
 
 L’arborescence est gérée à l’aide des champs iParentId et iChildCount. Le champ sFullName indique le chemin d’accès complet du dossier dans l’arborescence. Enfin, il existe un index unique relatif au champ qui représente le nom interne du dossier sName.
 
-##  Diffusion et tracking {#delivery-and-tracking}
+## Diffusion et tracking {#delivery-and-tracking}
 
 Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce propos la section [Suivre les diffusions](../../delivery/using/monitoring-a-delivery.md). Voir à ce propos la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
 
@@ -207,7 +207,7 @@ Cette table correspond au schéma **nms:remaMatchRcp**.
 
 Elle contient un enregistrement qui représente la réaction d’une personne à une hypothèse donnée. Ces enregistrements ont été créés lors de l’exécution de l’hypothèse.
 
-##  Simulation et diffusion {#simulation-and-delivery}
+## Simulation et diffusion {#simulation-and-delivery}
 
 Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la distribution d’offres appartenant à une catégorie ou à un environnement avant d’envoyer votre proposition aux destinataires. Voir à ce sujet la section [À propos de la simulation des offres](../../interaction/using/about-offers-simulation.md).
 
