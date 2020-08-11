@@ -14,11 +14,11 @@ discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ La procédure de création d&#39;un modèle de processus est présentée dans le
 
 >[!NOTE]
 >
->La liste bloquée **[!UICONTROL d’]** importationdu modèle natif est déjà configurée pour importer une liste d’adresses électroniques ajoutées à la liste bloquée.
+>Le modèle natif **[!UICONTROL Import de la liste bloquée]** est déjà configuré pour importer la liste des adresses email ajoutées à la liste bloquée.
 > 
 >Les modèles **[!UICONTROL Nouvel import texte]** et **[!UICONTROL Nouvel export texte]** permettent de paramétrer un import ou un export en partant de zéro.
 
