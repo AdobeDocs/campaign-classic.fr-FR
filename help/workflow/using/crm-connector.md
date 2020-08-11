@@ -12,8 +12,11 @@ discoiquuid: af7c0d1d-10ac-427b-8d12-b97eb91b30a1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c01a16a19516da6598b2d32a9408460c48aabf7b
+workflow-type: ht
+source-wordcount: '1599'
+ht-degree: 100%
 
 ---
 
@@ -229,7 +232,7 @@ Pour supprimer des objets côté CRM, vous devez indiquer la clé primaire des �
 
 ![](assets/crm_delete_in_crm.png)
 
-L’onglet **[!UICONTROL Comportement]** vous permet d’activer le traitement des rejets. Cette option génère une seconde transition en sortie de l’activité **[!UICONTROL Connecteur CRM]**. Voir à ce propos cette [section](../../platform/using/crm-connectors.md#error-processing).
+L’onglet **[!UICONTROL Comportement]** vous permet d’activer le traitement des rejets. Cette option génère une seconde transition en sortie de l’activité **[!UICONTROL Connecteur CRM]**. Pour plus d’informations à ce sujet, consultez cette [section](../../platform/using/crm-connectors.md#error-processing).
 
 Même lorsque l&#39;option **[!UICONTROL Traiter les rejets]** n&#39;est pas activée, un avertissement est généré pour chaque colonne rejetée.
 
