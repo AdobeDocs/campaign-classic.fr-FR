@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+workflow-type: ht
+source-wordcount: '1028'
+ht-degree: 100%
 
 ---
 
@@ -133,6 +136,7 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
 
    * L&#39;attribut **@provider** est obligatoire, il indique pour quels systèmes de bases de données l&#39;implémentation est fournie. Comme le montre l&#39;exemple, on peut fournir des implémentations différentes selon la base de données, quand les syntaxes des expressions ou fonctions sous-jacentes diffèrent.
    * Et l&#39;attribut **@body** contient l&#39;implémentation de la fonction. Noter que cette implémentation doit être une expression, au sens du langage de la base de données (pas de bloc de code). Selon les bases, les expressions peuvent être des sous-requêtes (&quot;(select column from table where...)&quot;) ne retournant qu&#39;une seule valeur. C&#39;est par exemple le cas sous Oracle (la requête doit être parenthésée).
+
    >[!NOTE]
    >
    >Si seules une ou deux bases de données sont susceptibles d&#39;être interrogées par la fonction que l&#39;on définit, on peut bien sûr ne fournir que les définitions correspondant à ces bases.
@@ -150,6 +154,6 @@ Un descripteur de fonction spéciale est le bloc **« pass-through »** avec u
 
 Dans ce cas, l&#39;ajout d&#39;une fonction sert uniquement à rendre visible pour le client une fonction de la base de données qui n&#39;aurait pas été rendue disponible par défaut.
 
-## Exemples   {#examples}
+## Exemples    {#examples}
 
 D’autres exemples de fonctions sont disponibles dans le package prédéfini « xtkdatakitfuncList.xml ».
