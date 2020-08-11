@@ -14,8 +14,11 @@ discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f018df9a2f7516b92f1f25a757065ef268136a5
+workflow-type: ht
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,7 @@ L&#39;enregistrement des logs sur le disque est assuré par le module **nlserver
 
 Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campaign, mais il est possible d’utiliser un autre **daemon syslog**. Ce module crée les fichiers journaux dans le répertoire des **logs**.
 
-Les journaux des modules multi-instances sont stockés dans le répertoire suivant : **`<installation directory>`/var/default/log/**.  Le même fichier journal est partagé par toutes les instances (**web.log **, par exemple).
+Les journaux des modules multi-instances sont stockés dans le répertoire suivant : **`<installation directory>`/var/default/log/**. Le même fichier journal est partagé par toutes les instances (**web.log **, par exemple).
 
 Les logs des autres modules sont stockés dans un sous-dossier du nom de l&#39;instance. Chaque instance possède ses propres fichiers de log.
 
