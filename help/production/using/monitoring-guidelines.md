@@ -12,11 +12,11 @@ discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Des informations détaillées sont disponibles [ici](../../production/using/moni
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Surveiller la base de données</a></p></td></tr>
 </table>
 
-D’autres méthodes de surveillance des différents processus de Campaign sont disponibles. Ils offrent plusieurs méthodes de surveillance de vos instances pour s’assurer que votre système est sain et, en fin de compte, résoudre les problèmes qui peuvent se produire lors de la configuration de workflows, de l’envoi de diffusions, etc.
+D’autres méthodes de surveillance des différents processus de Campaign sont disponibles. Elles offrent plusieurs moyens de surveiller vos instances pour s’assurer que votre système est intègre et de résoudre les problèmes éventuels qui peuvent se produire lors de la configuration des workflows, de l’envoi des diffusions, etc.
 
 ### Surveillance de votre instance {#monitoring-instance}
 
