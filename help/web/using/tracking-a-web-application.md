@@ -14,8 +14,11 @@ discoiquuid: 8e52f927-dadd-44c8-a51d-f717bc083eef
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
+workflow-type: ht
+source-wordcount: '416'
+ht-degree: 100%
 
 ---
 
@@ -42,6 +45,7 @@ Les principales fonctionnalités proposées dans cette version sont les suivante
    * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d&#39;un chemin de navigation.
    * **Taux de rebond** : nombre de personnes qui n&#39;ont affiché que la première étape.
    * **Tunnel de conversion** : taux de perte entre chacune des étapes.
+
    En complément, un graphique de type **Secteur** représente la population en fonction de son origine.
 
 ## Identification de la source du trafic {#identifying-the-traffic-source}
