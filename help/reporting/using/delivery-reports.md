@@ -14,11 +14,11 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1641'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ Ce rapport présente l&#39;ensemble des informations principales relatives à la
 Cette section comporte deux indicateurs :
 
 * **[!UICONTROL Population initiale]** : Nombre total de destinataires auxquels la diffusion est destinée.
-* **[!UICONTROL Messages rejetés par la règle]** : Nombre d&#39;adresses ignorées pendant l&#39;analyse lors de l&#39;application des règles de typologie : adresse manquante, mise en quarantaine, ajoutée à la liste bloquée, etc. For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejetés par règle]** : nombre d’adresses ignorées pendant l’analyse lors de l’application des règles de typologie : adresse manquante, mise en quarantaine, ajoutée à la liste bloquée, etc. Pour plus d’informations sur les règles de typologie, consultez cette [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes d&#39;exclusion]**
 
