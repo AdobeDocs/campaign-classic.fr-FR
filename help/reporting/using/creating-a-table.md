@@ -14,8 +14,11 @@ discoiquuid: 74084618-2b35-42c5-8a86-87ce137abb71
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+workflow-type: ht
+source-wordcount: '2646'
+ht-degree: 100%
 
 ---
 
@@ -239,6 +242,7 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
    * l&#39;indicateur des diffusions traitées,
    * la clé étrangère du lien Opération,
    * l&#39;indicateur du taux d&#39;erreur.
+
    ![](assets/s_advuser_report_listgroup_002.png)
 
    Associez un alias à chaque champ : cette opération est recommandée afin de faciliter la sélection des données du tableau qui sera ajouté dans la première page du rapport.
@@ -378,6 +382,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
       ![](assets/reporting_quick_start_query-2_count.png)
 
    * collecter les domaines des emails des destinataires et regrouper les informations sur ce champ : pour cela, sélectionnez l&#39;option **[!UICONTROL Grouper]** sur la colonne du nom de domaine.
+
    ![](assets/reporting_quick_start_query-2_filter.png)
 
    Associez les alias suivants aux champs :
@@ -421,6 +426,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    * Dans la 2e cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL Domaine de l&#39;email(Destinataire)]**.
    * Dans la 3e cellule de la ligne de détail, ajoutez l&#39;expression **[!UICONTROL count(clé primaire)]**.
+
    ![](assets/s_advuser_report_listgroup_019.png)
 
 1. Ajoutez un graphique en secteurs dans la page à l&#39;aide du menu contextuel et attribuez-lui le libellé **Domaines d&#39;email**. Voir à ce sujet la section [Types de graphiques et leurs variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
