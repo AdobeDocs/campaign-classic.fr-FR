@@ -1,6 +1,6 @@
 ---
 title: Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle
-description: Dans ce cas d’utilisation, une requête incrémentielle est utilisée pour mettre automatiquement à jour une liste destinataire.
+description: Dans ce cas pratique, une requête incrémentielle est utilisée pour mettre automatiquement à jour une liste de destinataires.
 page-status-flag: never-activated
 uuid: 24d322e8-172c-4faa-8a1f-59085b390a76
 contentOwner: sauviat
@@ -12,18 +12,18 @@ discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa192d975a08246ba684940fff3d33853d7d9345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle {#quarterly-list-update}
 
-In the following example, an [incremental query](../../workflow/using/incremental-query.md) is used to automatically update a recipient list. These recipients are targeted as part of seasonal marketing campaigns.
+Dans l’exemple ci-après, une [requête incrémentale](../../workflow/using/incremental-query.md) est utilisée afin de mettre à jour automatiquement une liste de destinataires. Ces derniers sont ciblés dans le cadre de campagnes marketing saisonnières.
 
 Ces campagnes étant lancées à chaque début de saison afin de proposer des activités sportives pertinentes, les listes sont mises à jour une fois par trimestre. Cependant, un destinataire ne doit ici être ciblé qu&#39;une fois tous les 9 mois par cette campagne. Cela permet d&#39;espacer la fréquence d&#39;éligibilité d&#39;un destinataire et de lui proposer des activités pour différentes saisons au fil des ans.
 
