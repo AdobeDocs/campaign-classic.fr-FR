@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d9b6ae9f7e2f3b15698f1a420b5416162cbcc758
-workflow-type: ht
-source-wordcount: '1987'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 251244225076dd11a319d1c4b2124c0d05168eaa
+workflow-type: tm+mt
+source-wordcount: '1976'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Version 20.2.1 - Build 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
 _7 juillet 2020_
 
-* Correction d’un problème qui empêchait le fonctionnement du tracking lorsque la fonctionnalité de signature était désactivée ou lors de l’utilisation d’une ancienne instance de marketing avec un Mid récent. (NEO-26411)
+* Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
 * Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d’être autorisés. (NEO-25210)
 * Correction d’un problème qui empêchait d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook. (NEO-25688)
 * Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions email. (NEO-26084)
