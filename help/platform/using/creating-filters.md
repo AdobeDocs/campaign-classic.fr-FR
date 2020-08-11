@@ -14,11 +14,11 @@ discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d63a43bdcf1c63b2ada240e7e15db8a5dfcfe11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -279,8 +279,8 @@ Les filtres prédéfinis sont les suivants :
    <td> Sélection des destinataires qui ont cliqué dans une diffusion au moins X fois dans les Y derniers mois.<br /> </td> 
   </tr> 
   <tr> 
- <td> Adresse électronique sur la liste bloquée<br /> </td> 
-    <td> Sélectionne les destinataires dont l’adresse électronique se trouve sur la liste bloquée.<br/> </td>
+ <td> Adresse email sur la liste bloquée<br /> </td> 
+    <td> Sélectionne les destinataires dont l’adresse email se trouve sur la liste bloquée.<br/> </td>
   </tr> 
   <tr> 
    <td> Email en quarantaine<br /> </td> 
