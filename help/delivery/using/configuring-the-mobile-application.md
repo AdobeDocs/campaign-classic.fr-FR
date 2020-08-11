@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: a358da7c499b5ee780563b4aef0eb2f4463186cf
+workflow-type: ht
+source-wordcount: '1740'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,7 @@ Vous trouverez ci-dessous un exemple de configuration pour une entreprise qui ve
 
 ### Étape 1 : installation du package {#installing-package-ios}
 
-1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
+1. Accédez à l’assistant d’import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
    ![](assets/package_ios.png)
 
@@ -54,13 +57,13 @@ Vous trouverez ci-dessous un exemple de configuration pour une entreprise qui ve
 
    ![](assets/package_ios_2.png)
 
-1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
+1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l’installation du package.
 
-   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d’installation contiennent le message suivant : **[!UICONTROL L’installation des packages s’est terminée avec succès]**.
 
    ![](assets/package_ios_3.png)
 
-1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
+1. **[!UICONTROL Fermez]** la fenêtre d’installation.
 
 ### Étape 2 : configuration du compte externe iOS {#configuring-external-account-ios}
 
@@ -188,7 +191,7 @@ L’image et la page web doivent s’afficher dans la notification push lors de 
 
 ### Étape 1 : installation du package {#installing-package-android}
 
-1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
+1. Accédez à l’assistant d’import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
    ![](assets/package_ios.png)
 
@@ -198,13 +201,13 @@ L’image et la page web doivent s’afficher dans la notification push lors de 
 
    ![](assets/package_ios_2.png)
 
-1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
+1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l’installation du package.
 
-   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d’installation contiennent le message suivant : **[!UICONTROL L’installation des packages s’est terminée avec succès]**.
 
    ![](assets/package_ios_3.png)
 
-1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
+1. **[!UICONTROL Fermez]** la fenêtre d’installation.
 
 ### Étape 2 : configuration du compte externe Android {#configuring-external-account-android}
 
