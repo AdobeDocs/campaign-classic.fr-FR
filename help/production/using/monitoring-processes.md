@@ -599,7 +599,7 @@ Cet élément paramètre la surveillance sur l&#39;host d&#39;un serveur donné,
 
 * **name** : nom de la machine à surveiller.
 * **alias** (optionnel) : nom sous lequel apparaîtra la machine surveillée dans le rapport.
-* **sesionToken** : permet de s&#39;authentifier sous la forme d&#39;un jeton de session autorisé.
+* **sessionToken** : permet de s&#39;authentifier sous la forme d&#39;un jeton de session autorisé.
 
    Pour paramétrer le token de session, sélectionnez l&#39;opérateur **monitoring** dans la console Adobe Campaign. Dans l&#39;onglet **Droit d&#39;accès**, indiquez les adresses IP des machines autorisées à surveiller cette instance. Depuis ces machines, vous pourrez alors vous connecter à la page de monitoring avec l&#39;identifiant **monitoring** sans avoir besoin de spécifier de mot de passe.
 
