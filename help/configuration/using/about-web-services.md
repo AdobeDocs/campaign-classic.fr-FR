@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: a047e4af6e31c54fa2444943a18da5913e115c09
+workflow-type: ht
+source-wordcount: '659'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et 
 
 >[!IMPORTANT]
 >
->Le nombre d&#39;appels de moteur autorisé par jour varie selon votre contrat de licence. Voir à ce sujet [cette page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
+>Le nombre d&#39;appels de moteur autorisé par jour varie selon votre contrat de licence. Voir à ce sujet [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
 >Une liste de toutes les API avec leur description complète est disponible dans [cette documentation dédiée](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html).
 
 ## Prérequis {#prerequisites}
@@ -122,7 +125,7 @@ Dans SOAP, les paramètres sont reconnus par ordre d’apparition. Le premier pa
 
 Le résultat de la requête est renseigné à partir de l’élément `<pdomoutput>`.
 
-## Gestion des erreurs    {#error-management}
+## Gestion des erreurs     {#error-management}
 
 Exemple de réponse d&#39;erreur SOAP :
 
