@@ -14,10 +14,10 @@ discoiquuid: ada27825-42bd-48c7-bc03-a619f1fa9463
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
-workflow-type: ht
-source-wordcount: '89'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '81'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Voici les étapes d’installation et de configuration qui s’appliquent aux mo
 * Configuration des URL de tracking et page miroir par marque. Pour les messages transactionnels, voir [cette section](../../message-center/using/configuring-multibranding.md).
 * Installation de la console cliente : consultez cette [section](../../installation/using/installing-the-client-console.md).
 * Installation des packages : consultez cette [section](../../installation/using/installing-campaign-standard-packages.md).
-* Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
+* Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](../../delivery/using/deliverability-key-points.md) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez cette [section](../../installation/using/configuring-campaign-options.md).
 * Configuration des connecteurs CRM : consultez cette [section](../../platform/using/crm-connectors.md).
 
