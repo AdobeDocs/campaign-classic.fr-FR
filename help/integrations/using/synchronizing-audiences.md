@@ -14,8 +14,11 @@ discoiquuid: 749a084e-69ee-46b4-b09b-cb91bb1da3cd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+workflow-type: ht
+source-wordcount: '1230'
+ht-degree: 100%
 
 ---
 
@@ -92,6 +95,7 @@ Pour obtenir l&#39;audience finale et ses données additionnelles :
    * Dans la liste des champs, sélectionnez le champ utilisé pour la fonction de **Comptage**. Choisissez un champ qui sera toujours renseigné, par exemple le champ **[!UICONTROL Clé primaire]**, puis cliquez sur **[!UICONTROL Terminer]**.
    * Changez l&#39;expression dans la colonne **[!UICONTROL Alias]**. Cet alias, par exemple **NBdeliveries**, permettra de récupérer facilement la colonne ajoutée à la diffusion finale.
    * Cliquez sur **[!UICONTROL Terminer]** et enregistrez la configuration de l&#39;activité **[!UICONTROL Requête]**.
+
    ![](assets/acs_connect_query7.png)
 
 1. Enregistrez le workflow. La section suivante montre comment partager la population avec ACS.
@@ -127,7 +131,7 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite
 
    Cette activité sert à récupérer les données de l&#39;audience sélectionnée. Si besoin, vous pouvez également appliquer un autre **[!UICONTROL Filtrage de la source]** à l&#39;aide de l&#39;onglet adéquat de cette activité.
 
-1. Ajoutez une activité **[!UICONTROL Diffusion Email]** et configurez-la comme n&#39;importe quelle autre [activité de diffusion email](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
+1. Ajoutez une activité **[!UICONTROL Diffusion Email]** et configurez-la comme n&#39;importe quelle autre [activité de diffusion email](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html).
 1. Ouvrez le contenu de la diffusion.
 1. Ajoutez un champ de personnalisation. Dans la fenêtre contextuelle, recherchez le nœud **[!UICONTROL Données additionnelles (targetData)]**. Ce nœud contient les données additionnelles de l&#39;audience qui ont été calculées dans le workflow de ciblage initial. Vous pouvez les utiliser comme tout autre champ de personnalisation.
 
@@ -143,16 +147,16 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite
 
 ## Envoyer et suivre votre diffusion {#send-and-monitor-your-delivery}
 
-Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme décrit en détail dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme décrit en détail dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
 
 1. Exécutez le workflow de diffusion. Cette étape prépare l&#39;envoi de l&#39;email.
 1. Dans le tableau de bord de la diffusion, validez manuellement l&#39;envoi de la diffusion.
 1. Examinez les rapports et les logs de la diffusion :
 
-   * **Dans Campaign Standard** : accédez aux [rapports](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) et [logs](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relatifs à la diffusion comme pour toute autre diffusion.
+   * **Dans Campaign Standard** : accédez aux [rapports](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) et [logs](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relatifs à la diffusion comme pour toute autre diffusion.
    * **Dans Campaign v7 et Campaign Standard** : les identifiants des diffusions, les broadLogs et les logs de tracking des emails sont synchronisés dans Campaign v7. Vous obtenez alors une vue à 360° de vos campagnes marketing depuis Campaign v7.
 
       Les quarantaines sont automatiquement synchronisées avec Campaign v7. Ainsi, les informations de non-délivrabilité peuvent être prises en compte pour le prochain ciblage effectué dans Campaign v7.
 
-      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
