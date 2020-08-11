@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 95%
 
 ---
 
@@ -71,3 +71,92 @@ Dans une moindre mesure, le contenu des messages peut amener certains filtres à
 ## Travail sur la réputation {#reputation}
 
 Les spammeurs font des envois ponctuels pour maintenir leur réputation dans le temps. Il est parfois nécessaire d&#39;adapter son plan marketing pour répondre aux exigences des bonnes pratiques imposées par les FAI et donc, après la phase de montée en réputation (ram-up), paramétrer des envois réguliers.
+
+## Bonnes pratiques {#best-practices}
+
+Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Campaign. Utilisez les liens ci-dessous pour parcourir les rubriques et trouver des conseils.
+
+<table>
+<tr>
+  <td>
+    <a href="starting-new-platform.md">
+      <img alt="Démarrer" src="assets/do-not-localize/start.svg"/>
+    </a>
+    <div>
+      <a href="starting-new-platform.md">
+    <strong>Début</strong>
+    </a>
+    </div>
+    <p>
+    <em>Démarrer une nouvelle plate-forme</em>
+    <p>
+  </td>
+   <td>
+    <a href="control-message-content.md">
+      <img alt="Conception" src="assets/do-not-localize/design.svg"/>
+    </a>
+    <div>
+      <a href="control-message-content.md">
+    <strong>Conception</strong>
+    </a>
+    </div>
+    <p>
+    <em>Contrôler le contenu du message</em>
+    <p>
+  </td>
+  <td>
+    <a href="improve-reputation.md">
+      <img alt="Conception" src="assets/do-not-localize/check.svg"/>
+    </a>
+    <div>
+      <a href="improve-reputation.md">
+    <strong>Envoyer</strong>
+    </a>
+    </div>
+    <p>
+    <em>Améliorez votre réputation</em>
+    <p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="technical-recommendations.md">
+      <img alt="Optimiser" src="assets/do-not-localize/optimize.svg"/>
+    </a>
+    <div>
+      <a href="technical-recommendations.md">
+    <strong>Optimiser</strong>
+    </a>
+    </div>
+    <p>
+    <em>Recommandations techniques</em>
+    <p>
+  </td>
+   <td>
+    <a href="monitoring-deliverability.md">
+      <img alt="Vérifier" src="assets/do-not-localize/monitor.svg"/>
+    </a>
+    <div>
+      <a href="monitoring-deliverability.md">
+    <strong>Moniteur</strong>
+    </a>
+    </div>
+    <p>
+    <em>Outils de monitoring</em>
+    <p>
+  </td>
+  <td>
+    <a href="deliverability-faq.md">
+      <img alt="Optimiser" src="assets/do-not-localize/troubleshoot.svg"/>
+    </a>
+    <div>
+      <a href="deliverability-faq.md">
+    <strong>Résolution des problèmes</strong>
+    </a>
+    </div>
+    <p>
+    <em>Résoudre les problèmes</em>
+    <p>
+  </td>
+</tr>
+</table>
