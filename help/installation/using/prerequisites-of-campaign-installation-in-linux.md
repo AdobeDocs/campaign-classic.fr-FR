@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
+workflow-type: ht
+source-wordcount: '917'
+ht-degree: 100%
 
 ---
 
@@ -62,6 +65,7 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librai
    * RHEL 7, CentOS 7 : libicu50
    * Debian 8 : libicu52
    * Debian 9 : libicu57
+
    Pour utiliser Adobe Campaign, la librairie libc-ares doit être installée. Sous RHEL/CentOS, exécutez la commande suivante :
 
    ```
