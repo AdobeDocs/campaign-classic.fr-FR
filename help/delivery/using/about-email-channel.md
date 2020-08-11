@@ -12,8 +12,11 @@ discoiquuid: 88575757-ef1b-4247-88ff-6f355c1ecd3e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7470011bbb08cc1a7041b53e8405c971f33e51c
+workflow-type: ht
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
@@ -25,8 +28,8 @@ Adobe Campaign vous permet de diffuser en masse des emails personnalisé à une 
 Avant d&#39;envoyer des emails :
 
 * Assurez-vous que les profils des destinataires contiennent au moins une adresse email.
-* En savoir plus sur les [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html) d’Adobe Campaign.
-* Lire au sujet de la [Délivrabilité](../../delivery/using/about-deliverability.md) et de la [Gestion de la délivrabilité](https://helpx.adobe.com/campaign/kb/acc-deliverability.html).
+* En savoir plus sur les [Bonnes pratiques de diffusion](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) d’Adobe Campaign.
+* Lire au sujet de la [Délivrabilité](../../delivery/using/about-deliverability.md) et de la [Gestion de la délivrabilité](https://helpx.adobe.com/fr/campaign/kb/acc-deliverability.html).
 
 Les étapes clés pour envoyer un email sont les suivantes :
 
