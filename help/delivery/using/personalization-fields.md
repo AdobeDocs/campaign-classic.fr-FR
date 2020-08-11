@@ -14,11 +14,11 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9e9b1352706e15a0d0c6ff8921e430524a44b13
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 97%
 
 ---
 
@@ -123,3 +123,9 @@ Lors de l’aperçu ou de l’envoi, si la phase de personnalisation dépasse la
 La valeur par défaut est de 5 secondes.
 
 Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pour la phase de personnalisation.
+
+## Personnalisation des courriers électroniques à l’aide de champs de personnalisation
+
+Découvrez comment ajouter un champ de personnalisation à l’objet et au contenu d’une diffusion de courriel.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
