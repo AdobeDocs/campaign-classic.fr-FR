@@ -14,8 +14,11 @@ discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+workflow-type: ht
+source-wordcount: '960'
+ht-degree: 100%
 
 ---
 
@@ -35,6 +38,7 @@ Pour créer un rapport, les étapes sont les suivantes :
    * Le modèle **[!UICONTROL Rapport étendu]** permet de créer un rapport paramétré à l&#39;aide d&#39;un diagramme.
    * Le rapport **[!UICONTROL Distribution qualitative]** permet de faire des statistiques sur tous types de données (ex. nom d&#39;une société, domaine d&#39;email, etc.).
    * Le rapport **[!UICONTROL Distribution quantitative]** permet de faire des statistiques sur des données qui peuvent être mesurées ou comptées (ex. montant d&#39;une facture, âge d&#39;un destinataire).
+
    Pour plus d&#39;informations sur ces modèles de rapport, consultez [cette section](../../reporting/using/about-descriptive-analysis.md).
 
 1. Saisissez le nom du rapport et sa description dans les champs correspondants. Indiquez le **[!UICONTROL schéma]** sur lequel s&#39;appliquera le rapport.
