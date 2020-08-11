@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
+workflow-type: ht
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
