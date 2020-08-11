@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
+workflow-type: ht
+source-wordcount: '1265'
+ht-degree: 100%
 
 ---
 
@@ -181,7 +184,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
    >[!NOTE]
    >
-   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
+   >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
 
    ```
@@ -195,7 +198,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
    web@default (28671) - 40.5 MB
    ```
 
-   Cette commande permet aussi de connaître la version et le numéro de build du serveur Adobe Campaign installé sur la machine.
+   Cette commande permet aussi de connaître la version et le numéro de build du serveur Adobe Campaign installé sur la machine.
 
 1. Testez le module **nlserver web** à partir de l&#39;URL : [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
