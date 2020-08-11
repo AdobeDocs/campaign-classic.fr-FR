@@ -45,7 +45,7 @@ Chaque opérateur Adobe Campaign est associé à un fuseau horaire : cette info
 
 Lorsque la plateforme Adobe Campaign ne nécessite pas la gestion des fuseaux horaires, il est possible de conserver un mode de stockage au format local, avec un fuseau horaire spécifique associé.
 
-## Recommandations    {#recommendations}
+## Recommandations     {#recommendations}
 
 Les fuseaux horaires recouvrent plusieurs réalités : le terme peut désigner un décalage constant par rapport à la date UTC, ou les horaires d&#39;une région qui peut changer d&#39;heure deux fois dans l&#39;année (heure d&#39;hiver/heure d&#39;été).
 
