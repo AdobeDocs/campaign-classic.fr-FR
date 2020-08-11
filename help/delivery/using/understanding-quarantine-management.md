@@ -14,11 +14,11 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b080bdc4d719994c74ec5c094c917e2c40839a49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2681'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,35 +33,35 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires 
 >
 >Cette section s&#39;applique aux canaux on-line : email, SMS et notification push.
 
-### Optimiser votre diffusion par le biais des mises en quarantaine   {#optimizing-your-delivery-through-quarantines}
+### Optimiser votre diffusion par le biais des mises en quarantaine    {#optimizing-your-delivery-through-quarantines}
 
 Les profils dont l’adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
-Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La Quarantaine permet donc d&#39;éviter d&#39;être ajoutée à une liste bloquée par ces fournisseurs.
+Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
 
 De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html).
 
-### Quarantaine / liste bloquée {#quarantine-vs-block-list}
+### Différence entre quarantaine et liste bloquée {#quarantine-vs-block-list}
 
 La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l’adresse, les deux profils seront impactés.
 
 De même, un profil, dont l’adresse email est en quarantaine qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
 
-Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+En revanche, en cas d’insertion **en liste bloquée**, le profil ne sera plus ciblé par aucune diffusion, par exemple après un désabonnement (opt-out).
 
 >[!NOTE]
 >
->Lorsqu&#39;un utilisateur répond à un message SMS avec un mot-clé tel que &quot;STOP&quot; afin de s&#39;exclure des diffusions SMS, son profil n&#39;est pas ajouté à la liste bloquée comme dans le processus d&#39;exclusion par courriel. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
+>Lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour le désabonnement des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
-## Identifier les adresses en quarantaine   {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine    {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l’ensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion   {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion    {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme   {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme    {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -102,32 +102,32 @@ Pour chaque destinataire, vous pouvez consulter l&#39;état de son adresse email
 
 ### Sortir une adresse de quarantaine {#removing-a-quarantined-address}
 
-Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaines par le processus de nettoyage **[!UICONTROL de la]** base de données.
+Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base]**.
 
-Pour supprimer manuellement une adresse de la liste de quarantaine :
+Pour supprimer manuellement une adresse de la liste de quarantaine :
 
-* Vous pouvez changer son état en **[!UICONTROL Valide]** depuis le noeud **[!UICONTROL Administration > Gestion de campagne > Non livrables Management > Non livrables et adresses]** .
+* Vous pouvez changer son état en **[!UICONTROL Valide]** depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
    ![](assets/tech_quarant_error_status.png)
 
-* Vous pouvez également modifier son état **[!UICONTROL En liste autorisée]**. Dans ce cas, l&#39;adresse reste sur la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
+* Vous pouvez également modifier son état en **[!UICONTROL Sur liste autorisée]**. Dans ce cas, l’adresse reste dans la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
 
 <!--Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.-->
 
-Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
+Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
 
-* Les adresses dans un état **[!UICONTROL Avec erreurs]** seront supprimées de la liste de quarantaine après une diffusion réussie.
-* Les adresses d’un état **[!UICONTROL Avec erreurs]** seront supprimées de la liste de quarantaine si le dernier rebond modéré a eu lieu il y a plus de 10 jours. Pour plus d’informations sur la gestion des erreurs logicielles, voir [cette section](#soft-error-management).
-* Les adresses dont l&#39;état **[!UICONTROL Avec erreurs]** a rebondi avec l&#39;erreur complète **** de la boîte aux lettres sont supprimées de la liste de quarantaine après 30 jours.
+* Les adresses dont l’état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine après une diffusion réussie.
+* Les adresses dont l’état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine si la dernière erreur de type Soft a eu lieu il y a plus de 10 jours. Pour plus d’informations sur la gestion des erreurs de type Soft, consultez [cette section](#soft-error-management).
+* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** et qui ont rebondi avec l&#39;erreur **[!UICONTROL Boîte pleine]** sont supprimées de la liste de quarantaine après 30 jours.
 
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
-Les Destinataires dont l’adresse figure dans une **[!UICONTROL Quarantaine]** ou l’état **[!UICONTROL En liste bloquée]** ne seront jamais supprimés, même s’ils reçoivent un courrier électronique.
+Les destinataires avec une adresse dont l’état est **[!UICONTROL En quarantaine]** ou **[!UICONTROL En liste bloquée]** ne seront jamais supprimés, même s’ils reçoivent un email.
 
-Vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’assistant de déploiement (canal **[!UICONTROL de]** courriel > Paramètres **** avancés). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
+Vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d’informations sur l’assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
-## Conditions de mise en quarantaine d&#39;une adresse   {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d’une adresse    {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de la diffusion et de la raison attribuée lors de la qualification des messages d&#39;erreur (voir les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
