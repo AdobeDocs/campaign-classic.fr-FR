@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
-workflow-type: ht
-source-wordcount: '3084'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Les paramétrages proposés sont adaptés au type de diffusion : courrier, emai
 
 >[!NOTE]
 >
->Le mode de création et de paramétrage des diffusions est présenté dans la section [Envoyer les messages](../../delivery/using/communication-channels.md).
+>Le mode de création et de paramétrage des diffusions est présenté dans la section [Envoyer les messages](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Choisir la population cible {#selecting-the-target-population}
 
@@ -219,7 +219,7 @@ Vous pouvez définir une population témoin au niveau de l&#39;opération : ell
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population supplémentaire](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Activation de la population témoin pour une diffusion {#activating-the-control-group-for-a-delivery}
 
@@ -238,7 +238,7 @@ Par défaut, le paramétrage de la population témoin défini au niveau de l&#39
 1. Cliquez sur l&#39;onglet **[!UICONTROL Population témoin]**, puis sélectionnez **[!UICONTROL Activer et éditer le paramétrage de la population témoin]**.
 1. Cliquez sur **[!UICONTROL Editer...]** pour paramétrer la population témoin.
 
-La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population supplémentaire](#adding-a-population).
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### Extraire la population témoin de la cible principale {#extracting-the-control-group-from-the-main-target}
 
@@ -257,7 +257,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin
 
 Ce paramétrage correspond à celui d&#39;une activité de partage dans le workflow, qui permet d&#39;éclater une cible en plusieurs sous-ensembles. La population témoin correspond à l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/architecture.md).
 
-### Ajouter une population supplémentaire {#adding-a-population}
+### Adding a control group {#adding-a-population}
 
 Vous pouvez définir une nouvelle population qui sera utilisée comme population témoin. Cette population peut être issue d&#39;un groupe de destinataires ou construite via une requête spécifique.
 
