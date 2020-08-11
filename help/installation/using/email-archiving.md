@@ -14,11 +14,11 @@ discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Toutefois, Adobe Campaign ne gère pas lui-même les fichiers archivés : il v
 
 Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transférés vers un serveur distant, comme un serveur de messagerie SMTP. La destination de l&#39;archivage est une adresse email en Cci (invisible aux destinataires de la diffusion) que vous devez spécifier.
 
-## Recommandations et limitations    {#recommendations-and-limitations}
+## Recommandations et limitations     {#recommendations-and-limitations}
 
 * Cette fonctionnalité d&#39;archivage des emails est en option. Vérifiez votre contrat de licence.
 * Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l’activer. L’adresse BCC de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
@@ -89,7 +89,7 @@ Une fois le chemin d’accès au dossier local défini, ajoutez et modifiez les 
 
 * **compressionFormat** : format utilisé lors de la compression des fichiers .eml. Les valeurs possibles sont les suivantes :
 
-   **0 **: pas de compression (valeur par défaut)
+   **0** : pas de compression (valeur par défaut)
 
    **1 : compression (au format .zip)**
 
@@ -103,7 +103,7 @@ Une fois le chemin d’accès au dossier local défini, ajoutez et modifiez les 
 * **expirationDelay** : nombre de jours pendant lesquels les fichiers .eml sont conservés pour archivage. Après ce délai, ils sont automatiquement déplacés vers le dossier **dataLogPath/archives** pour compression. Par défaut, les fichiers .eml expirent au bout de deux jours.
 * **purgeArchivesDelay** : nombre de jours pendant lesquels les archives sont conservées dans le dossier **dataLogPath/`<archives>`**. Après cette période, ils sont définitivement supprimés. La purge commence lorsque le MTA est lancé. Par défaut, elle est exécutée tous les sept jours.
 * **pollDelay** : fréquence de vérification (en secondes) des nouveaux emails envoyés entrant dans le dossier **dataLogPath**. Par exemple, si ce paramètre est défini sur 60, cela signifie que chaque minute, le processus d’archivage passe par les fichiers .eml dans les dossiers **dataLogPath/`<date and time>`**, applique une purge si nécessaire et envoie des copies d’emails à l’adresse Cci et/ou compresse les fichiers archivés au besoin.
-* **acquireLimit **: nombre de fichiers .eml traités à la fois avant que le processus d&#39;archivage ne soit réappliqué selon le paramètre **pollDelay**. Par exemple, si vous définissez le paramètre **acquireLimit** sur 100 alors que le paramètre **pollDelay** est défini sur 60, 100 fichiers .eml seront traités par minute.
+* **acquireLimit** : nombre de fichiers .eml traités à la fois avant que le processus d&#39;archivage ne soit réappliqué selon le paramètre **pollDelay**. Par exemple, si vous définissez le paramètre **acquireLimit** sur 100 alors que le paramètre **pollDelay** est défini sur 60, 100 fichiers .eml seront traités par minute.
 * **smtpNbConnection** : nombre de connexions SMTP à l&#39;adresse email en Cci.
 
 Veillez à ajuster ces paramètres en fonction du débit d&#39;envoi des emails. Par exemple, dans une configuration où le MTA envoie 30 000 emails par heure, vous pouvez définir le paramètre **pollDelay** sur 600, le paramètre **acquireLimit** sur 5 000 et le paramètre **smtpNbConnection** sur 2. Cela signifie qu&#39;en utilisant 2 connexions SMTP, 5 000 emails seront envoyés à l&#39;adresse en Cci toutes les 10 minutes.
@@ -148,11 +148,11 @@ Une fois la fonctionnalité email en Cci paramétrée, veillez à sélectionner 
 ## Bonnes pratiques {#best-practices}
 
 * **Boîte aux lettres d&#39;adresses en Cci** : vérifiez qu&#39;elle dispose de suffisamment de capacité pour archiver tous les emails envoyés par le MTA.
-* **Mutualisation de MTA **: la fonctionnalité d&#39;archivage Cci fonctionne au niveau MTA. Elle vous permet de dupliquer tous les emails envoyés par le MTA. Etant donné que le MTA peut être mutualisé dans plusieurs instances (dev, test ou prod, par exemple) voire même sur plusieurs clients (dans un environnement de mid-sourcing), le paramétrage de cette fonctionnalité influe sur la sécurité :
+* **Mutualisation de MTA** : la fonctionnalité d&#39;archivage Cci fonctionne au niveau MTA. Elle vous permet de dupliquer tous les emails envoyés par le MTA. Etant donné que le MTA peut être mutualisé dans plusieurs instances (dev, test ou prod, par exemple) voire même sur plusieurs clients (dans un environnement de mid-sourcing), le paramétrage de cette fonctionnalité influe sur la sécurité :
 
    * Si vous partagez un MTA avec plusieurs clients et que l&#39;un d&#39;eux active cette option, il aura accès à la totalité des emails provenant des autres clients utilisant le même MTA. Afin d&#39;éviter une telle situation, utilisez un MTA différent pour chaque client.
    * Si vous utilisez le même MTA entre plusieurs instances (développement, test, production) d&#39;un même client, les messages envoyés depuis ces trois instances combinées seront dupliqués par l&#39;option dataLogPath.
 
-* **Emails par connexion **: l’archivage des emails en Cci fonctionne en ouvrant une connexion et en essayant d’envoyer tous les emails via cette connexion. Adobe recommande de vérifier avec votre contact technique le nombre d’emails acceptés sur une connexion donnée. L’augmentation de ce nombre peut avoir un grand impact sur le débit Cci.
-* **IPs** d&#39;envoi par CC : actuellement, les courriers électroniques en copie carbone invisible ne sont pas envoyés par les proxies MTA normales. En revanche, une connexion directe est ouverte du serveur MTA au serveur de messagerie de destination. Cela signifie que vous devrez peut-être ajouter des adresses IP supplémentaires à la liste autorisée de votre réseau, en fonction de la configuration de votre serveur de messagerie.
+* **Emails par connexion** : l’archivage des emails en Cci fonctionne en ouvrant une connexion et en essayant d’envoyer tous les emails via cette connexion. Adobe recommande de vérifier avec votre contact technique le nombre d’emails acceptés sur une connexion donnée. L’augmentation de ce nombre peut avoir un grand impact sur le débit Cci.
+* **IP d’envoi en Cci** : actuellement, les emails en Cci ne sont pas envoyés par les proxys MTA normaux. En revanche, une connexion directe est ouverte du serveur MTA au serveur de messagerie de destination. Cela signifie que vous devrez peut-être ajouter des adresses IP supplémentaires à la liste autorisée de votre réseau, en fonction de la configuration de votre serveur de messagerie.
 
