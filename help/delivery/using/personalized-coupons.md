@@ -14,8 +14,11 @@ discoiquuid: f324afa5-304c-470e-a592-290f76a11ccb
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+workflow-type: ht
+source-wordcount: '960'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,7 @@ Le fait d&#39;ajouter des coupons à vos diffusions peut donner une valeur ajout
 Le module coupon offre le choix entre deux options lors de la création de coupons :
 
 * **Anonyme** : un coupon générique pour des destinataires précis ou une liste de destinataires.
-* **Individuel **: un coupon personnalisé pour des destinataires précis.
+* **Individuel** : un coupon personnalisé pour des destinataires précis.
 
 Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type de coupon vous souhaitez créer.
 
@@ -58,6 +61,7 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
    1. Lorsque vous sélectionnez le type Individuel, un nouvel onglet, Coupons, apparaît en bas à gauche. Allez dans l&#39;onglet **[!UICONTROL Coupons]** et cliquez sur **[!UICONTROL Ajouter]**.
    1. Lorsque la fenêtre contextuelle vous y invite, saisissez un code unique pour le coupon individuel.
    1. Cliquez sur **[!UICONTROL Enregistrer]** pour générer le coupon.
+
    Pour plus d&#39;informations sur l&#39;onglet Coupons, voir la section [Configuration de coupons individuels](#configuring-individual-coupons).
 
    >[!NOTE]
