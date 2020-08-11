@@ -1,7 +1,7 @@
 ---
-title: Base de données de Liste bloquée
-seo-title: Base de données de Liste bloquée
-description: Base de données de Liste bloquée
+title: Bases de données de listes bloquées
+seo-title: Bases de données de listes bloquées
+description: Bases de données de listes bloquées
 seo-description: null
 page-status-flag: never-activated
 uuid: 8a4a69f9-87d5-4044-bc55-76cdcb2e7800
@@ -14,16 +14,16 @@ discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f99e3a4f69cb2b0122f2f6957d419d6b95ad54b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Base de données de Liste bloquée{#blocklisting-databases}
+# Bases de données de listes bloquées{#blocklisting-databases}
 
 Plusieurs organisations recensent les adresses IP et les domaines réputés pour être des spammeurs. La consultation de ces sites peut aider à comprendre la raison de certains rejets de messages comme spam. Il est généralement possible de demander le retrait d&#39;une adresse injustement recensée dans ces listes.
 
@@ -33,7 +33,7 @@ Ces bases sont appelées RBL (Real-time Blackhole List) et leur consultation rep
 * Par domaine d&#39;envoi : recense les domaines d&#39;envoi (domaine complet de l&#39;adresse de mails rebonds) émetteurs de spam ou présentant un défaut de configuration.
 * Par domaine web : recense les domaines (domaines de haut niveau tels qu&#39;enregistrés auprès des registrars) trouvés dans les URL des liens et des images des spams. Dans Adobe Campaign, le domaine à considérer est généralement le domaine utilisé pour le tracking.
 
-La liste qui suit répertorie les listes RBL les plus utilisées. Pour obtenir une liste plus complète, reportez-vous à la page [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
+La liste qui suit répertorie les listes RBL les plus utilisées. Pour obtenir une liste plus complète, consultez la page [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
 * **Spamhaus**
 
