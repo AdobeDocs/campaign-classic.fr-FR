@@ -14,15 +14,18 @@ discoiquuid: 3fd7a1ef-b0e2-4a7e-9e36-044d997db785
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e37be4f764feadb49c70a9d598f8f3b8f864380
+workflow-type: ht
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
 
 # Interactions anonymes{#anonymous-interactions}
 
-Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) pour une vue d&#39;ensemble de la diffusion des offres vers des cibles identifiées et anonymes.
+Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) pour une vue d&#39;ensemble de la diffusion des offres vers des cibles identifiées et anonymes.
 
 ## Ciblage et stockage d&#39;un environnement pour interactions anonymes {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
