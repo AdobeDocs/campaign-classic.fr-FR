@@ -14,11 +14,11 @@ discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972dce4b8429bb5b56fdf32b237384155bcc417a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -101,6 +101,6 @@ Les profils exclus lors de la préparation de la diffusion (règles de typologie
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. La comptabilisation est réalisée par le [workflow technique](../../workflow/using/deliveries.md) **[!UICONTROL Nombre de profils de facturation actifs]** (**[!UICONTROL billingActiveContactCount]**), qui s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le menu **[!UICONTROL Mesures des clients]**. Chaque période dure 12 mois.
+Vous pouvez obtenir un aperçu du **[!UICONTROL Nombre de profils actifs]** depuis le menu Campaign Standard **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]**. La comptabilisation est réalisée par le [workflow technique](../../workflow/using/deliveries.md) **[!UICONTROL Nombre de profils de facturation actifs]** (**[!UICONTROL billingActiveContactCount]**), qui s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le menu **[!UICONTROL Mesures des clients]**. Chaque période dure 12 mois.
 
-Si vous êtes hébergé sur AWS et que vous utilisez Campaign Classic à partir de la version 8931, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du Panneau de configuration. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+Si vous êtes hébergé sur AWS et que vous utilisez Campaign Classic à partir du build 8931, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
