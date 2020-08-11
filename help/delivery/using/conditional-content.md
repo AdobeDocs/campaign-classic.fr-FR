@@ -14,11 +14,11 @@ discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 94%
 
 ---
 
@@ -113,3 +113,9 @@ Dans l’exemple ci-dessous, vous allez découvrir comment créer un email multi
    >[!NOTE]
    >
    >Comme aucune autre version n&#39;a été définie dans le contenu de l&#39;email, veillez à filtrer la population cible avant d&#39;envoyer l&#39;email.
+
+## Comment créer un bulletin d&#39;information multilingue avec du contenu conditionnel
+
+Découvrez comment ajouter du contenu conditionnel à une diffusion sur l’exemple d’une newsletter multilingue.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
