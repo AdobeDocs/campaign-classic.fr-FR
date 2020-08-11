@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 4a71d93e7e3284eaeb36b3536204474947d695f5
+workflow-type: ht
+source-wordcount: '234'
+ht-degree: 100%
 
 ---
 
@@ -46,6 +49,6 @@ Pour plus de détails, consultez la documentation en fonction de votre version d
 
 * [Cliquez ici pour Adobe Experience Manager 6.1](https://docs.adobe.com/docs/en/aem/6-1/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
 * [Cliquez ici pour Adobe Experience Manager 6.2](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
-* [Cliquez ici pour Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
+* [Cliquez ici pour Adobe Experience Manager 6.3](https://helpx.adobe.com/fr/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
 * [Cliquez ici pour Adobe Experience Manager 6.4](https://helpx.adobe.com/fr/experience-manager/6-4/sites/administering/using/campaignonpremise.html)
 * [Cliquez ici pour Adobe Experience Manager 6.5](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/campaignonpremise.html)
