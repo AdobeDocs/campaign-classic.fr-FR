@@ -75,7 +75,7 @@ Pour configurer l&#39;arborescence des dossiers des plans marketing et des progr
 1. Cliquez avec le bouton droit de la souris sur le plan nouvellement créé et sélectionnez **Ajouter un dossier &#39;Programme&#39;**.
 1. Répétez les étapes décrites ci-dessus pour renommer le nouveau dossier de programmes et modifier le nom interne.
 
-## Créer une campagne     {#creating-a-campaign}
+## Créer une campagne      {#creating-a-campaign}
 
 ### Ajouter une opération {#adding-a-campaign}
 
