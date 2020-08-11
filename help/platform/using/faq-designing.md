@@ -13,10 +13,10 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
-source-wordcount: '354'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Découvrez les étapes essentielles de la conception de messages omni-canal avec
 
 Avant de commencer à concevoir des emails, découvrez les concepts et bonnes pratiques relatifs à la conception et à l&#39;envoi de diffusions à l&#39;aide d&#39;Adobe Campaign.
 
-[Pour en savoir plus, cliquez ici](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html).
+[Pour en savoir plus, cliquez ici](../../delivery/using/delivery-best-practices.md).
 
 ## Qu’est-ce qu&#39;un modèle de diffusion ? {#what-is-a-delivery-template-}
 
