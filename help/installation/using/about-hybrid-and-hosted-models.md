@@ -14,8 +14,11 @@ discoiquuid: cf6dd02f-f493-4a83-ba77-b4544f63cab0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+workflow-type: ht
+source-wordcount: '96'
+ht-degree: 100%
 
 ---
 
@@ -26,4 +29,4 @@ Si vous disposez d’un modèle d’hébergement hybride ou hébergé, vous n’
 
 Les différents modèles d’hébergement sont présentés dans cette [section](../../installation/using/hosting-models.md).
 
-Pour en savoir plus sur les principales différences entre les modes de déploiement, consultez [cet article](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html).
+Pour en savoir plus sur les principales différences entre les modes de déploiement, consultez [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
