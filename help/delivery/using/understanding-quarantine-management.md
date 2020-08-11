@@ -14,10 +14,10 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b080bdc4d719994c74ec5c094c917e2c40839a49
-workflow-type: ht
-source-wordcount: '2681'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '2673'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Les profils dont l’adresse email ou le numéro de téléphone est en quarantai
 
 Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
 
-De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html).
+De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](../../delivery/using/delivery-best-practices.md) .
 
 ### Différence entre quarantaine et liste bloquée {#quarantine-vs-block-list}
 
