@@ -12,11 +12,11 @@ discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Voici quelques directives supplémentaires concernant la supervision de la déli
 * Vérifiez chaque débit de diffusion pour vous assurer qu&#39;il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
 * Lors de l’utilisation des [vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
 * Vérifiez que le nombre d’erreurs et les [mises en quarantaine](../../delivery/using/understanding-quarantine-management.md) correspondent aux autres diffusions.
-* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (block lists, DNS issues, anti-spam rules, etc.).
+* Consultez attentivement les [logs de diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
 
 ## Signal Spam {#signal-spam}
 
@@ -71,7 +71,7 @@ Signal Spam est un service français qui propose un reporting de rétroaction an
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) est une solution complémentaire de surveillance des outils internes de délivrabilité de l&#39;Adobe qui fournit des listes bloquées IP et domaine, et des indicateurs de réputation.
+[250ok](https://250ok.com/) est une solution de monitoring complémentaire des outils internes de délivrabilité d’Adobe. Elle produit des listes bloquées de domaines et d’adresses IP et des indicateurs de réputation.
 
 Les informations fournies sont disponibles en temps réel, ce qui permet une assistance proactive.
 
@@ -95,7 +95,7 @@ Les indicateurs utilisés dans ce rapport sont les suivants :
 
 * **[!UICONTROL DomainKeys]** : Service développé par Yahoo visant à certifier l&#39;identité de l&#39;émetteur d&#39;un email.
 
-* **[!UICONTROL Domaine]** IP et RBL (Liste Blackhole en temps réel) : liste d’adresses et de domaines IP qui ont été marqués par les organisations de liste bloquée pour mauvaise réputation d’envoi. Ces listes sont enrichies par des organismes dédiés tels que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux RBL qui ont un impact significatif sur la délivrabilité. Ces RBL sont les témoins de votre réputation d’envoi et peuvent être interrogés par les ISP avant acceptation de vos emails.
+* **[!UICONTROL IP et domaine RBL]** (Real-time Blackhole List) : liste des adresses IP et domaines qui ont été marqués par les organisations de liste bloquée pour mauvaise réputation d’envoi. Ces listes sont enrichies par des organismes dédiés tels que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux RBL qui ont un impact significatif sur la délivrabilité. Ces RBL sont les témoins de votre réputation d’envoi et peuvent être interrogés par les ISP avant acceptation de vos emails.
 
 * **[!UICONTROL SNDS]** (Smart Network Data Services) : un [service Windows Live Hotmail de lutte contre le spam](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail est le seul FAI qui fournit ce type d&#39;informations. Les scores de référence sont un résultat de filtre vert, un taux de plainte inférieur à 0,1 % et un taux zéro de pourriel.
 
