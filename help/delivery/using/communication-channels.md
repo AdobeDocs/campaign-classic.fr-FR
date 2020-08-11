@@ -14,11 +14,11 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -102,4 +102,4 @@ De plus, les diffusions de type Autre utilisent un modèle technique spécifique
 
 Ce canal n&#39;a aucun mécanisme spécifique. Il s&#39;agit d&#39;un canal générique qui possède une option de routage de compte externe, un type de modèle de diffusion et une activité de workflow d&#39;opération, tout comme n&#39;importe quel autre canal de communication disponible dans Adobe Campaign.
 
-Ce canal est conçu à des fins descriptives uniquement, par exemple pour définir les diffusions pour lesquelles vous souhaitez conserver une trace de la cible d&#39;une campagne exécutée dans un outil autre que l&#39;Adobe Campaign.
+Ce canal a été conçu à des fins de description uniquement, pour définir par exemple les diffusions pour lesquelles vous souhaitez conserver une trace de la cible d&#39;une campagne effectuée dans un outil autre qu&#39;Adobe Campaign.
