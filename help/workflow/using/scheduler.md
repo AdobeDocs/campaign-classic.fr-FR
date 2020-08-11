@@ -14,11 +14,11 @@ discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23629289ac5da3f9bef01f50c452f7c761a6fa44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -31,17 +31,17 @@ L&#39;activité **[!UICONTROL Planificateur]** est à considérer comme un dépa
 
 ## Bonnes pratiques {#best-practices}
 
-* Ne planifiez pas l&#39;exécution d&#39;un flux de travail plus de toutes les 15 minutes, car cela peut nuire aux performances globales du système et créer des blocs dans la base de données.
+* Ne planifiez pas l’exécution d’un workflow à une fréquence supérieure à toutes les 15 minutes, car cela peut nuire aux performances générales du système et créer des blocs dans la base de données.
 
-* N’utilisez jamais plus d’une activité de **[!UICONTROL Planificateur]** par branche dans un processus. Voir [Utilisation d’activités](../../workflow/using/workflow-best-practices.md#using-activities).
+* N’utilisez jamais plusieurs activités de **[!UICONTROL Planificateur]** par branche dans un workflow. Voir [Utilisation des activités](../../workflow/using/workflow-best-practices.md#using-activities).
 
-* L’utilisation d’une activité de planificateur peut entraîner plusieurs exécutions simultanées d’un workflow. Par exemple, un Planificateur peut déclencher l’exécution du processus toutes les heures, mais parfois l’exécution de l’ensemble du processus prend plus d’une heure.
+* L’utilisation d’une activité de planificateur peut entraîner plusieurs exécutions simultanées d’un workflow. Par exemple, il se peut qu’un planificateur déclenche l’exécution du workflow une fois par heure, mais parfois, l’exécution du workflow dans son ensemble dure plus d’une heure.
 
-   Vous pouvez ignorer l’exécution si le processus est déjà en cours d’exécution. Pour plus d’informations sur la manière d’empêcher les exécutions simultanées d’un workflow, consultez [cette page](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
+   Vous pouvez ignorer l’exécution si le workflow est déjà en cours d’exécution. Pour plus d’informations sur la manière d’empêcher les exécutions simultanées d’un workflow, consultez [cette page](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
-* Notez que la transition peut être activée plusieurs heures plus tard si le flux de travail exécutait une tâche à long terme, telle qu’une importation, ou si le module wfserver a été arrêté pendant un certain temps. Dans ce cas, il peut être nécessaire de limiter l&#39;exécution de la tâche activée par le Planificateur à une certaine période.
+* Notez que la transition peut être activée plusieurs heures plus tard si le workflow exécutait une tâche à long terme, telle qu’un import, ou si le module wfserver a été arrêté pendant un certain temps. Dans ce cas, il peut être nécessaire de limiter l’exécution de la tâche activée par le planificateur à une certaine période.
 
-## Configuring the Scheduler activity {#configuring-scheduler-activity}
+## Paramétrage de l’activité Planificateur {#configuring-scheduler-activity}
 
 Le planificateur définit le planning d&#39;activation de sa transition. Pour le paramétrer, double-cliquez sur l&#39;objet graphique et cliquez sur le bouton **[!UICONTROL Changer...]**.
 
