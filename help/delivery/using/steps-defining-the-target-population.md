@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 94%
+source-wordcount: '1720'
+ht-degree: 92%
 
 ---
 
@@ -229,3 +229,14 @@ Vous pouvez utiliser des **[!UICONTROL Adresses de contrôle]** en tant que cibl
 >Les adresses de contrôle sont présentées dans la section [À propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md).
 
 A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de contrôle]**, vous pouvez cumuler la définition d&#39;une cible spécifique au BAT et l&#39;utilisation des adresses de contrôle. Les paramétrages correspondants sont alors définis dans deux sous-onglets distincts.
+
+## Comment gérer les semences et les BAT dans un courrier électronique
+
+Dans cette vidéo vous apprendrez comment ajouter des graines et des BAT à un email existant et comment l&#39;envoyer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)Voir aussi :
+* [Choisir la cible du BAT](#selecting-the-proof-target)
+
+* [A propos des adresses de départ](../../delivery/using/about-seed-addresses.md)
+
+* [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
