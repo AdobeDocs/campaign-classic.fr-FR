@@ -14,8 +14,11 @@ discoiquuid: df68ab11-7a8b-4e89-8cc4-8764e8a859b2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+workflow-type: ht
+source-wordcount: '856'
+ht-degree: 100%
 
 ---
 
@@ -91,7 +94,7 @@ Pour vérifier que les données ont été correctement répliquées, suivez la p
 
 Dans cette partie, nous allons voir comment inclure un lien vers la landing page répliquée depuis une application web de Campaign v7 dans un email Campaign Standard.
 
-Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Pour plus d&#39;informations, consultez la document [Adobe Campaign Standard](https://helpx.adobe.com/support/campaign/standard.html).
+Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les mêmes que pour un email classique. Pour plus d&#39;informations, consultez la document [Adobe Campaign Standard](https://helpx.adobe.com/fr/support/campaign/standard.html).
 
 1. Créez un nouvel email et sélectionnez un ou plusieurs profils répliqués en tant qu&#39;audience.
 1. Editez le contenu et insérez un **[!UICONTROL Lien vers une landing page]**.
