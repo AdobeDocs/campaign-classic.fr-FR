@@ -14,8 +14,11 @@ discoiquuid: 9ca649b4-2226-4cfe-bae1-4632c421975b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+workflow-type: ht
+source-wordcount: '668'
+ht-degree: 100%
 
 ---
 
@@ -60,6 +63,7 @@ Afin de lier la requête portant sur les destinataires à la requête servant au
    * Sélectionnez le schéma temporaire correspondant à l&#39;agrégat. Les données de ce schéma seront ajoutées aux membres de l&#39;ensemble principal.
    * Sélectionnez **[!UICONTROL Utiliser une jointure simple]** afin d&#39;associer le résultat de l&#39;agrégat à chaque destinataire de l&#39;ensemble principal.
    * Indiquez enfin que le lien est un **[!UICONTROL Lien simple de type 11]**.
+
    ![](assets/datamanagement_usecase_3.png)
 
 Le résultat de la fonction d&#39;agrégation est ainsi lié à chaque destinataire.
@@ -80,6 +84,7 @@ Une fois le lien établi, le résultat de l&#39;agrégat et les destinataires fo
 
    * **[!UICONTROL Expression]**: `toDate([target/@created])`.
    * **[!UICONTROL Valeur]** : `toDate([datemax/expr####])`, où expr#### correspond à l&#39;alias de l&#39;agrégat défini dans la requête de la fonction d&#39;agrégation.
+
    ![](assets/datamanagement_usecase_4.png)
 
 Le résultat de l&#39;activité de partage correspond ainsi aux destinataires créés le même jour que la dernière date de création connue.
