@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 31f30db6eaf1fee43f9f757124e3fa8ed1d0075f
+workflow-type: ht
+source-wordcount: '597'
+ht-degree: 100%
 
 ---
 
@@ -84,6 +87,7 @@ Pour configurer le compte externe AEM, procédez comme suit :
    * **[!UICONTROL Serveur]**
    * **[!UICONTROL Compte]**
    * **[!UICONTROL Mot de passe]**
+
    >[!NOTE]
    >
    >Vérifiez que l&#39;adresse du **[!UICONTROL Serveur]** ne se termine pas par une barre oblique.
