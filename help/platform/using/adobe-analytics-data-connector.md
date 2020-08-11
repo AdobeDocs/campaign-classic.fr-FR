@@ -35,7 +35,7 @@ Le connecteur de données (anciennement appelé Adobe Genesis) permet de faire 
 
 Adobe Campaign dispose d&#39;une fonctionnalité de mesure d&#39;audience sur Internet (Web Analytics) via le connecteur de données. Grâce à ces intégrations, Adobe Campaign est en mesure de récupérer les données concernant le comportement des visiteurs sur un ou plusieurs sites suite à une campagne marketing et, après analyse, de lancer une campagne dite de remarketing pour les convertir en acheteurs. Inversement, les outils de Web analytics permettent à Adobe Campaign de transmettre les indicateurs et les attributs des campagnes vers leur plate-forme.
 
-Pour plus d’informations sur la mise en œuvre de l’intégration d’Adobe Analytics avec Adobe Campaign, consultez [cette documentation](https://helpx.adobe.com/marketing-cloud/how-to/analytics-ac.html).
+Pour plus d’informations sur la mise en œuvre de l’intégration d’Adobe Analytics avec Adobe Campaign, consultez [cette documentation](https://helpx.adobe.com/fr/marketing-cloud/how-to/analytics-ac.html).
 
 Les champs d&#39;action de chaque outil sont les suivants :
 
