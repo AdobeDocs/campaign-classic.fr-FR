@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
 workflow-type: tm+mt
 source-wordcount: '2627'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->Gardez à l’esprit les limites de l’enregistrement SFTP, de l’Enregistrement de données et du profil actif, conformément à votre contrat AdobeCampaign, lors de l’utilisation de cette fonctionnalité.
+>Gardez à l’esprit les limites de l’enregistrement SFTP, de l’Enregistrement de base de données et des profils principaux, conformément à votre contrat AdobeCampaign, lors de l’utilisation de cette fonctionnalité.
 
 ## Comment collecter des données {#how-to-collect-data}
 
@@ -61,66 +61,66 @@ Adobe Campaign permet d&#39;importer des fichiers compressés ou chiffrés. Avan
 
 Pour ce faire :
 
-1. Utilisez le [Panneau de Contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) pour générer une paire de clés publique/privée.
+1. Utilisez le [panneau de Contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) pour générer une paire de clés publique/privée.
 
    >[!NOTE]
    >
    >Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l’exception de ceux qui hébergent leurs instances marketing on-premise).
 
-1. Si votre installation d’Adobe Campaign est hébergée par Adobe, contactez le service à la clientèle Adobe pour installer les utilitaires nécessaires sur le serveur.
-1. Si votre installation d’Adobe Campaign est sur site, installez l’utilitaire que vous souhaitez utiliser (par exemple : GPG, GZIP) ainsi que les clés nécessaires (clé de chiffrement) sur le serveur d’applications.
+1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l’Assistance clientèle d’Adobe afin que les utilitaires nécessaires soient installés sur le serveur.
+1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de cryptage) nécessaires sur le serveur applicatif.
 
-Vous pouvez ensuite utiliser les commandes de prétraitement de votre choix dans vos workflows :
+Vous pouvez ensuite utiliser les commandes de pré-traitement de votre choix dans les workflows :
 
 1. Ajoutez et configurez une activité **[!UICONTROL Transfert de fichier]** dans le workflow.
 1. Ajoutez une activité **[!UICONTROL Chargement (fichier)]** et définissez le format de fichier.
 1. Cochez l&#39;option **[!UICONTROL Inclure un pré-traitement du fichier]**.
-1. Spécifiez la commande de prétraitement à appliquer.
+1. Spécifiez la commande de pré-traitement à appliquer.
 1. Ajoutez d&#39;autres activités pour gérer les données provenant du fichier.
 1. Enregistrez et exécutez le workflow.
 
-Un exemple est présenté dans le cas d’utilisation ci-dessous.
+Le cas pratique ci-dessous présente un exemple.
 
 **Rubriques connexes :**
 
-* [activité](../../workflow/using/data-loading--file-.md)de chargement de données (fichier).
+* [Activité Chargement (fichier)](../../workflow/using/data-loading--file-.md).
 * [Compresser ou crypter un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ### Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle {#use-case-gpg-decrypt}
 
 Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
-Une vidéo didacticiel montrant comment utiliser une clé GPG pour déchiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La clé publique sera partagée avec le système externe. Ce dernier l’utilisera pour crypter les données à envoyer à Campaign.
-   * La clé privée sera utilisée par le Campaign Classic pour déchiffrer les données chiffrées entrantes.
+   * Campaign Classic utilisera la clé privée pour décrypter les données cryptées entrantes.
 
    ![](assets/gpg_generate.png)
 
-1. Dans le système externe, utilisez la clé publique téléchargée à partir du Panneau de Contrôle pour chiffrer les données à importer dans le Campaign Classic.
+1. Dans le système externe, utilisez la clé publique téléchargée à l’aide du panneau de contrôle pour crypter les données à importer dans Campaign Classic.
 
    ![](assets/gpg_external.png)
 
-1. Dans le Campaign Classic, créez un processus pour importer les données chiffrées et les déchiffrer à l’aide de la clé privée qui a été installée via le Panneau de Contrôle. Pour ce faire, nous allons créer un workflow comme suit :
+1. Dans Campaign Classic, créez un workflow pour importer les données cryptées et les décrypter à l’aide de la clé privée installée via le panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL activité de transfert]** de fichier : Transfère le fichier d’une source externe au Campaign Classic. Dans cet exemple, nous voulons transférer le fichier d’un serveur SFTP.
-   * **[!UICONTROL activité de chargement de données (fichier)]** : Charge les données du fichier dans la base de données et les déchiffre à l’aide de la clé privée générée dans le Panneau de Contrôle.
+   * Activité **[!UICONTROL Transfert de fichier]** : transfère le fichier d’une source externe vers Campaign Classic. Dans cet exemple, nous voulons transférer le fichier depuis un serveur SFTP.
+   * Activité **[!UICONTROL Chargement (fichier)]** : charge les données du fichier dans la base de données et le décrypte à l’aide de la clé privée générée dans le panneau de contrôle.
 
-1. Ouvrez l’activité de transfert **[!UICONTROL de]** fichier, puis spécifiez le compte externe à partir duquel vous souhaitez importer le fichier .gpg chiffré.
+1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis spécifiez le compte externe à partir duquel vous souhaitez importer le fichier .gpg crypté.
 
    ![](assets/gpg_transfer.png)
 
    Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../workflow/using/file-transfer.md).
 
-1. Open the **[!UICONTROL Data loading (file)]** activity, then configure it according to your needs. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../workflow/using/data-loading--file-.md).
+1. Ouvrez l’activité **[!UICONTROL Chargement (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../workflow/using/data-loading--file-.md).
 
-   Ajoutez une étape de prétraitement à l’activité pour décrypter les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Prétraiter le fichier]** , puis copiez-collez cette commande de déchiffrement dans le champ **[!UICONTROL Commande]** :
+   Ajoutez une étape de prétraitement à l’activité pour décrypter les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Inclure un pré-traitement du fichier]**, puis copiez-collez cette commande de décryptage dans le champ **[!UICONTROL Commande]** :
 
    `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
 
@@ -128,13 +128,13 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    >[!CAUTION]
    >
-   >Dans cet exemple, nous utilisons la phrase secrète utilisée par défaut par Panneau de Contrôle, qui est &quot;passe-passe&quot;.
+   >Dans cet exemple, nous employons la phrase secrète utilisée par défaut par le panneau de contrôle, qui est « passphrase ».
    >
-   >Si des clés GPG ont déjà été installées sur votre instance par le biais d’une demande du service d’assistance à la clientèle, la phrase secrète peut avoir été modifiée et être différente de celle par défaut.
+   >Si des clés GPG ont déjà été installées sur votre instance par le biais d’une demande du service d’Assistance clientèle, la phrase secrète peut avoir été modifiée et être différente de celle par défaut.
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l’activité.
 
-1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, vous pouvez vérifier dans les journaux de flux de travail que le déchiffrement a été exécuté et que les données du fichier ont été importées.
+1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, vous pouvez vérifier dans les logs de workflow que le décryptage a été effectué et que les données du fichier ont été importées.
 
    ![](assets/gpg_run.png)
 
@@ -142,7 +142,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
-### Utiliser les modèles d’import     {#using-import-templates}
+### Utiliser les modèles d’import      {#using-import-templates}
 
 La plupart des workflows d&#39;import doivent contenir les activités suivantes : **[!UICONTROL Chargement (fichier)]**, **[!UICONTROL Enrichissement]**, **[!UICONTROL Partage]**, **[!UICONTROL Déduplication]**, **[!UICONTROL Mise à jour de données]**.
 
@@ -154,7 +154,7 @@ Ne partez pas de l’hypothèse selon laquelle les données entrantes sont cohé
 
 Un exemple de modèle d’import est disponible dans la section [Configurer un import récurrent](#setting-up-a-recurring-import).
 
-### Utiliser des formats de fichiers plats   {#using-flat-file-formats}
+### Utiliser des formats de fichiers plats    {#using-flat-file-formats}
 
 Le format le plus efficace pour les imports est le fichier plat. Les fichiers plats peuvent être importés en masse au niveau de la base de données.
 
@@ -203,7 +203,7 @@ Les imports complets sont réservés au chargement initial.
 
 Les données doivent être importées à l&#39;aide de la gestion des données et non de JavaScript.
 
-### Maintenir la cohérence   {#maintaining-consistency}
+### Maintenir la cohérence    {#maintaining-consistency}
 
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
@@ -245,7 +245,7 @@ Par exemple :
 
    * Dans la section **[!UICONTROL Nom du fichier à charger]**, sélectionnez **[!UICONTROL Télécharger un fichier présent sur le poste local]** et laissez le champ vide. A chaque fois qu&#39;un nouveau workflow sera créé à partir de ce modèle, vous pourrez préciser ici le fichier souhaité (tant qu&#39;il correspond à la structure définie).
 
-      Toutes les options sont utilisables, mais il faut modifier le modèle en conséquence. Par exemple, en sélectionnant **[!UICONTROL Spécifié par la transition]**, vous pouvez ajouter une activité **[!UICONTROL Transfert de fichier]** devant pour récupérer le fichier à importer à partir d&#39;un serveur FTP/SFTP. Avec la connexion S3 ou SFTP, vous pouvez également importer des données de segments vers Adobe Campaign avec la plate-forme de données clientes en temps réel d’Adobe. Consultez à ce sujet cette [documentation](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+      Toutes les options sont utilisables, mais il faut modifier le modèle en conséquence. Par exemple, en sélectionnant **[!UICONTROL Spécifié par la transition]**, vous pouvez ajouter une activité **[!UICONTROL Transfert de fichier]** devant pour récupérer le fichier à importer à partir d&#39;un serveur FTP/SFTP. Avec la connexion S3 ou SFTP, vous pouvez également importer des données de segments vers Adobe Campaign avec la plate-forme de données clientes en temps réel d’Adobe. Consultez à ce sujet cette [documentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
 
       ![](assets/import_template_example1.png)
 
