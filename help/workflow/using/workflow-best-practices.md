@@ -84,7 +84,7 @@ Dans la fenêtre des **[!UICONTROL Propriétés du workflow]**, ne cochez jamais
 
 ![](assets/wf-execute-in-engine.png)
 
-## Propriétés d&#39;exécution    {#workflow-properties}
+## Propriétés d&#39;exécution     {#workflow-properties}
 
 ### Dossiers des workflows {#workflow-folders}
 
