@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
 workflow-type: tm+mt
-source-wordcount: '6958'
-ht-degree: 100%
+source-wordcount: '7084'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,37 @@ ht-degree: 100%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
+
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
+
+## Août 2020 {#aug-2020}
+
+Découvrez les meilleures pratiques en matière de conception de diffusion et d&#39;envoi avec Campaign dans une section dédiée. [En savoir plus](../../delivery/using/delivery-best-practices.md)
+
+Le landing page des pratiques exemplaires en matière de livrabilité a été amélioré pour faciliter l&#39;accès aux sous-sections. [En savoir plus](../../delivery/using/deliverability-key-points.md)
+
+Des vidéos pratiques sont désormais disponibles sur les rubriques suivantes :
+
+* [Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie et de filtres prédéfinis](../../campaign/using/about-campaign-typologies.md)
+
+* [Création d’un courrier électronique dans une campagne](../../campaign/using/designing-marketing-campaigns.md)
+
+* [Comment créer un bulletin d&#39;information multilingue avec du contenu conditionnel](../../delivery/using/conditional-content.md)
+
+* [Configuration et déploiement d’un modèle de diffusion](../../delivery/using/creating-a-delivery-template.md)
+
+* [Comment activer et utiliser AMP pour les courriers électroniques](../../delivery/using/defining-interactive-content.md)
+
+* [Personnalisation des courriers électroniques à l’aide de blocs de contenu dynamiques](../../delivery/using/personalization-blocks.md)
+
+* [Personnalisation des courriers électroniques à l’aide de champs de personnalisation](../../delivery/using/personalization-fields.md)
+
+* [Comment gérer les semences et les BAT dans un courrier électronique](../../delivery/using/steps-defining-the-target-population.md)
+
+* [Configuration d’une diffusion récurrente](../../workflow/using/recurring-delivery.md)
+
+* [Comment configurer une diffusion continue](../../workflow/using/continuous-delivery.md)
+
 
 ## Juillet 2020 {#july-2020}
 
