@@ -29,6 +29,7 @@ ht-degree: 100%
 >
 >* Les extensions de schéma effectuées sur les schémas utilisés par les [workflows techniques de Message Center](../../message-center/using/technical-workflows.md) sur les instances de pilotage ou d&#39;exécution doivent être dupliquées sur les autres instances utilisées par le module des messages transactionnels Adobe Campaign.
 >* L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
+
 >
 
 
