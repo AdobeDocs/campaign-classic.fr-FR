@@ -12,10 +12,10 @@ discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
-workflow-type: ht
-source-wordcount: '722'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '711'
 ht-degree: 100%
 
 ---
@@ -96,11 +96,11 @@ Suivez les directives et les bonnes pratiques relatives à l’utilisation de wo
 
 **Rapports SMTP**
 
-Les rapports SMTP affichent les statistiques d’envoi et les erreurs SMTP par domaine. [Cliquez ici](../../production/using/monitoring-processes.md) pour plus d’informations.
+Les rapports SMTP affichent les statistiques d’envoi et les erreurs SMTP par domaine. [En savoir plus](../../production/using/monitoring-processes.md)
 
 **Bonnes pratiques**
 
-[Les bonnes pratiques d’envoi et de conception de diffusions](http://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliveryBestPractices.html) peuvent vous aider à améliorer leurs performances.
+[Les bonnes pratiques d’envoi et de conception de diffusions](../../delivery/using/delivery-best-practices.md) peuvent vous aider à améliorer leurs performances.
 
 **Résolution des problèmes liés aux diffusions**
 Des actions spécifiques peuvent être effectuées en cas de problème avec des diffusions :
