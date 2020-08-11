@@ -14,11 +14,11 @@ discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ SpamAssassin utilise diverses techniques de détection des emails indésirables,
 * la détection des emails indésirables basée sur une somme de contrôle approximative et DNS,
 * le filtrage bayésien,
 * les programmes externes,
-* Listes bloquées
+* les listes bloquées,
 * les bases de données en ligne.
 
 >[!NOTE]
