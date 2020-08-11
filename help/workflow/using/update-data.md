@@ -14,11 +14,11 @@ discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Le champ **[!UICONTROL Type d&#39;opération]** permet de choisir le traitement 
 * **[!UICONTROL Ajouter ou mettre à jour]** : ajouter des données ou les mettre à jour si elles ont déjà été ajoutées auparavant.
 * **[!UICONTROL Ajouter]** : ajouter des données uniquement.
 * **[!UICONTROL Mettre à jour]** : mettre à jour des données uniquement.
-* **[!UICONTROL Mettre à jour et fusionner des collections]**: mettez à jour les données et choisissez un enregistrement principal, puis liez les éléments liés aux duplicata de cet enregistrement principal. Les Duplicata peuvent ensuite être supprimés sans créer d’éléments orphelins attachés.
+* **[!UICONTROL Mettre à jour et fusionner les collections]** : mettre à jour les données et choisir un enregistrement principal, puis lier les éléments liés aux duplicatas de cet enregistrement principal. Les duplicatas peuvent ensuite être supprimés sans créer d’éléments orphelins attachés.
 * **[!UICONTROL Supprimer]** : supprimer des données.
 
 ![](assets/s_advuser_update_data_1.png)
