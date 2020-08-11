@@ -14,9 +14,9 @@ discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '2454'
 ht-degree: 100%
 
@@ -111,9 +111,9 @@ Les canaux suivants peuvent être configurés :
 
 * [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
 * [Mobile (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
-* [Phone](../../delivery/using/communication-channels.md#other-channels)
+* [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Canal Courrier](../../delivery/using/about-direct-mail-channel.md)
-* [Agence](../../delivery/using/communication-channels.md#other-channels)
+* [Agence](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
 * [Canal iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)
