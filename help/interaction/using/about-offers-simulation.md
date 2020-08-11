@@ -14,8 +14,11 @@ discoiquuid: 0af021af-2686-4a37-97d9-6d13a851b5dd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
+workflow-type: ht
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Le module **Simulation** vous permet de tester la répartition des offres d&#39;
 
 La simulation prend en compte les contextes et les règles d&#39;éligibilité précédemment appliqués aux offres (voir la section [Présentation du catalogue d&#39;offres](../../interaction/using/offer-catalog-overview.md)), ainsi que leurs règles de présentation (voir la section [Gérer la présentation des offres](../../interaction/using/managing-offer-presentation.md)). Il est ainsi possible de tester et d&#39;affiner différentes versions de votre proposition sans utiliser effectivement une offre ou solliciter excessivement ou insuffisamment une cible. La simulation n&#39;a en effet aucun impact sur les destinataires ciblés.
 
-Pour savoir comment simuler une offre, procédez comme suit. Vous pouvez également regarder cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
+Pour savoir comment simuler une offre, procédez comme suit. Vous pouvez également regarder cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com).
 
 ## Etapes principales pour créer une simulation {#main-steps-for-creating-a-simulation}
 
