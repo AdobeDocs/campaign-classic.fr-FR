@@ -14,8 +14,11 @@ discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+workflow-type: ht
+source-wordcount: '140'
+ht-degree: 100%
 
 ---
 
@@ -55,7 +58,7 @@ for each (var w in res.workflow)
   logInfo(w.@internalName)
 ```
 
-## Exemples  {#examples}
+## Exemples   {#examples}
 
 * Requête sur la table des destinataires avec une opération &quot;get&quot; :
 
