@@ -14,8 +14,11 @@ discoiquuid: aa147a8c-9d93-45c8-bb4a-db714739f4c0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1937c1ddcbde092a22f4fe8c50d3d72b02cfeed
+workflow-type: ht
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -47,6 +50,7 @@ Le Suivi comprend trois composants :
    * Simuler qui correspond à l’action Démarrer en mode simulation
    * Réveiller qui correspond à l’action Traitement anticipé des tâches en attente
    * Arrêt inconditionnel
+
    Pour plus d’informations sur les workflows, consultez [cette page](../../workflow/using/about-workflows.md).
 
    Pour plus d’informations sur la surveillance des workflows, consultez la [section dédiée](../../workflow/using/monitoring-workflow-execution.md).
@@ -77,6 +81,7 @@ Pour accéder au **[!UICONTROL Suivi]** de votre instance :
    * **[!UICONTROL Modifié par]** : nom d’utilisateur de la dernière personne à avoir modifié cette entité.
    * **[!UICONTROL Action]** : dernière action réalisée sur cette entité (création, édition ou suppression).
    * **[!UICONTROL Date de modification]** : date de la dernière action effectuée sur cette entité.
+
    Ce bloc de code vous donne davantage d’informations sur ce qui a été modifié dans votre entité.
 
    ![](assets/audit_trail_3.png)
@@ -102,6 +107,7 @@ Pour ce faire :
    * Pour un schéma : **[!UICONTROL XtkAudit_DataSchema]**
    * Pour une option : **[!UICONTROL XtkAudit_Option]**
    * Pour chaque entité : **[!UICONTROL XtkAudit_Enable_All]**
+
    ![](assets/audit_trail_5.png)
 
 1. Définissez la **[!UICONTROL Valeur]** sur 1 si vous voulez activer l’entité, ou sur 0 si vous voulez la désactiver.
