@@ -14,11 +14,11 @@ discoiquuid: 0d50826e-2211-4c3b-8413-ca1453bba6c4
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9784e0db6f1bef5abdf93d3517da04fe1ba69e7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les règles de filtrage permettent de définir les messages à exclure en foncti
 
 Les règles de filtrage peuvent être associées à d&#39;autres types de règles (contrôle, pression, etc.) dans des typologies, ou regroupées dans une typologie dédiée de type **Filtrage**. Pour plus d&#39;informations, voir la section [Créer et utiliser une typologie de filtrage](#creating-and-using-a-filtering-typology).
 
-## Créer une règle de filtrage   {#creating-a-filtering-rule}
+## Créer une règle de filtrage    {#creating-a-filtering-rule}
 
 Vous pouvez par exemple filtrer les abonnés à vos newsletters afin de ne jamais adresser de communications aux inscrits mineurs.
 
@@ -92,11 +92,11 @@ Vous pouvez également associer directement des règles de filtrage depuis cet o
 >Ces paramétrages peuvent être définis au niveau du modèle de diffusion afin de les appliquer automatiquement à toute nouvelle diffusion créée à partir de ce modèle.
 
 
-## Règles d&#39;exclusion de délivrabilité par défaut   {#default-deliverability-exclusion-rules}
+## Règles d&#39;exclusion de délivrabilité par défaut    {#default-deliverability-exclusion-rules}
 
 Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclusion des adresses]** (**[!UICONTROL addressExclusions]**) et **[!UICONTROL Exclusion des domaines]** (**[!UICONTROL domainExclusions]**). Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
-Cela permet d&#39;éviter d&#39;être ajouté à la liste bloquée en raison d&#39;une activité malveillante, en particulier l&#39;utilisation d&#39;un Spamtrap. Par exemple, si un Spamtrap est utilisé pour s’abonner via l’un de vos formulaires Web, un courrier électronique de confirmation est automatiquement envoyé à ce Spamtrap, ce qui entraîne l’ajout automatique de votre adresse à la liste bloquée.
+Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée liée à une activité malveillante, notamment l’utilisation d’un spam trap (piège à spam). Si un spam trap est par exemple utilisé pour s’abonner par le biais de l’un de vos formulaires web, un email de confirmation lui est automatiquement envoyé. Votre adresse est alors automatiquement mise en liste bloquée.
 
 >[!NOTE]
 >
