@@ -12,11 +12,11 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68a95962dfecc4b10f48ba16d4f8ab29cae02ee8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ La liste des options disponibles dans le menu **[!UICONTROL Actions]** et le men
 
 >[!IMPORTANT]
 >
->Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](../../workflow/using/architecture.md).
+>Gardez à l’esprit que, lorsque un opérateur exécute une action sur un workflow (démarrer, arrêter, mettre en pause, etc.), l&#39;action n&#39;est pas exécutée immédiatement, mais placée dans une file d’attente pour être traitée par le [module de workflow](../../workflow/using/architecture.md).
 
 ## Barre d&#39;outils des actions {#actions-toolbar}
 
