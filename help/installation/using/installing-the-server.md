@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
+workflow-type: ht
+source-wordcount: '423'
+ht-degree: 100%
 
 ---
 
@@ -42,6 +45,7 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
    * **[!UICONTROL Installation minimale (Réseau)]** : installation d&#39;un poste client depuis le réseau. Seules quelques DLL seront installées sur la machine, si besoin, et tous les autres composants nécessaires seront directement utilisés sur le disque réseau.
    * **[!UICONTROL Installation d&#39;un poste client]** : installation des composants nécessaires pour l&#39;utilisation de la console cliente Adobe Campaign.
    * **[!UICONTROL Installation personnalisée]** : l&#39;utilisateur choisit les éléments à installer.
+
    Sélectionnez une installation de type **Installation d&#39;un serveur applicatif**, et validez les différentes étapes, comme ci-dessous :
 
    ![](assets/s_ncs_install_installer_02.png)
