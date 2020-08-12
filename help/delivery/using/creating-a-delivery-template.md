@@ -15,15 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 79%
+source-wordcount: '375'
+ht-degree: 78%
 
 ---
 
 
 # Créer un modèle de diffusion{#creating-a-delivery-template}
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#delivery-template-video)
 
 ## Transformer une diffusion existante en modèle {#converting-an-existing-delivery-to-a-template}
 
@@ -74,7 +76,7 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 >
 >Afin d&#39;éviter toute erreur de paramétrage, il est recommandé de dupliquer un modèle natif et d&#39;en modifier les propriétés plutôt que de créer un nouveau modèle.
 
-## Configuration d’un modèle de diffusion
+## Configuration d’un modèle de diffusion {#delivery-template-video}
 
 La vidéo suivante montre comment configurer un modèle pour une diffusion ad hoc.
 
