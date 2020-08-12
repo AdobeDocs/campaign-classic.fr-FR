@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 79%
+source-wordcount: '498'
+ht-degree: 78%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 79%
 # A propos des typologies de campagne{#about-campaign-typologies}
 
 Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clients et des stratégies de communication de l’entreprise.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#typologies-video)
 
 >[!NOTE]
 >
@@ -69,7 +71,7 @@ Vous trouverez ci-dessous les étapes nécessaires pour créer et appliquer une 
 
 Pendant la préparation de la diffusion, les destinataires sont exclus lorsque le critère est satisfait. Vous pouvez consultez les logs pour suivre les exclusions. Des exemples d&#39;utilisation des règles de typologie de pression sont disponibles sur [cette page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
-## Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie
+## Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie {#typologies-video}
 
 Cette vidéo explique comment mettre en oeuvre la gestion de la fatigue à Adobe Campaign Classic en exploitant les règles de typologie.
 
