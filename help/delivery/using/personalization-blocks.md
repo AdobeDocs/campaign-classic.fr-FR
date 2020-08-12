@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 97%
+source-wordcount: '997'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,15 @@ ht-degree: 97%
 
 Ces blocs de personnalisation sont dynamiques, personnalisés et possèdent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Voir [Insérer des blocs de personnalisation](#inserting-personalization-blocks).
 
->[!NOTE]
->
->Les blocs de personnalisation sont aussi disponibles depuis le **[!UICONTROL Digital Content Editor (DCE)]**. Pour plus d&#39;informations, reportez-vous à [cette page](../../web/using/editing-content.md#inserting-a-personalization-block).
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#personalization-blocks-video)
 
 Les blocs de personnalisation sont accessibles notamment à partir du nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir [Blocs de personnalisation d’usine](#out-of-the-box-personalization-blocks)).
 
 Vous pouvez définir de nouveaux blocs qui vous permettront d’optimiser la personnalisation de vos diffusions. Voir à ce sujet la section [Définir des blocs de personnalisation personnalisés](#defining-custom-personalization-blocks).
+
+>[!NOTE]
+>
+>Les blocs de personnalisation sont aussi disponibles depuis le **[!UICONTROL Digital Content Editor (DCE)]**. Pour plus d&#39;informations, reportez-vous à [cette page](../../web/using/editing-content.md#inserting-a-personalization-block).
 
 ## Insérer des blocs de personnalisation {#inserting-personalization-blocks}
 
@@ -160,7 +162,7 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
    * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 
-## Personnalisation des courriers électroniques à l’aide de blocs de contenu dynamiques
+## Personnalisation des courriers électroniques à l’aide de blocs de contenu dynamiques {#personalization-blocks-video}
 
 Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion de messagerie.
 
