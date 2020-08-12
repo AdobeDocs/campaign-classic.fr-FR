@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
 source-wordcount: '7084'
 ht-degree: 98%
@@ -38,7 +38,7 @@ Des vidéos pratiques sont désormais disponibles sur les rubriques suivantes :
 
 * [Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie et de filtres prédéfinis](../../campaign/using/about-campaign-typologies.md)
 
-* [Création d’un courrier électronique dans une campagne](../../campaign/using/designing-marketing-campaigns.md)
+* [Création d’un courrier électronique dans une campagne](../../campaign/using/marketing-campaign-deliveries.md)
 
 * [Comment créer un bulletin d&#39;information multilingue avec du contenu conditionnel](../../delivery/using/conditional-content.md)
 
