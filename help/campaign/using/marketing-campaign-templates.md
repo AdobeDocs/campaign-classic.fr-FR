@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1174'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,7 @@ Un modèle d’usine est fourni pour créer une campagne pour laquelle aucune co
 
 La création et le paramétrage des modèles d&#39;opération sont présentés dans la section [Modèles de campagne](#campaign-templates).
 
-Pour plus d&#39;informations sur la création d&#39;une opération, voir la vidéo sur la [création d&#39;une opération et d&#39;un email](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/creating-a-campaign-and-an-email.html).
+Pour en savoir plus sur la création de campagne, reportez-vous à [cette vidéo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## Configuration des modules proposés {#configuration-of-the-available-modules}
 
