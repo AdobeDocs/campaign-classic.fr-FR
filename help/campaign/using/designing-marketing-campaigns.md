@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 100%
 
 ---
 
@@ -71,10 +71,3 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
    Voir à ce sujet la section [Associer et structurer les ressources liées via une composition
 de diffusion](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-## Création d’un courrier électronique dans une campagne
-
-Cette vidéo explique comment créer une campagne et un courriel à Adobe Campaign Classic.
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)
