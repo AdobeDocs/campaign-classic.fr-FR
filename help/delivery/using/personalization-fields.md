@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 97%
+source-wordcount: '919'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,9 @@ Les champs de personnalisation sont utilisés pour un premier niveau de personna
 
 Par exemple, le champ de personnalisation de syntaxe **&lt;%= recipient.LastName %>** spécifie à Adobe Campaign d&#39;insérer le nom du destinataire se trouvant dans la base de données (table des destinataires).
 
->[!NOTE]
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#personalization-fields-video)
+
+>[!CAUTION]
 >
 >Le contenu des champs de personnalisation ne peut pas dépasser 1 024 caractères.
 
@@ -124,7 +126,7 @@ La valeur par défaut est de 5 secondes.
 
 Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pour la phase de personnalisation.
 
-## Personnalisation des courriers électroniques à l’aide de champs de personnalisation
+## Personnalisation des courriers électroniques à l’aide de champs de personnalisation {#personalization-field-video}
 
 Découvrez comment ajouter un champ de personnalisation à l’objet et au contenu d’une diffusion de courriel.
 
