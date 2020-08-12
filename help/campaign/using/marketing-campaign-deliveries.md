@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 98%
+source-wordcount: '3115'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 98%
 # Diffusions d&#39;opérations marketing {#marketing-campaign-deliveries}
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#create-email-video)
 
 ## Créer des diffusions {#creating-deliveries}
 
@@ -78,6 +80,13 @@ Le mode de fonctionnement du module de workflow est détaillé dans le guide [Au
 >[!IMPORTANT]
 >
 >Dans une même campagne, vous ne pouvez pas configurer plus de 28 workflows. Au-delà de cette limite, les workflows supplémentaires ne sont pas visibles dans l&#39;interface et peuvent générer des erreurs.
+
+### Création d’un courrier électronique dans une campagne {#create-email-video}
+
+Cette vidéo explique comment créer une campagne et un courriel à Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
 
 #### Créer un workflow de ciblage {#creating-a-targeting-workflow}
 
