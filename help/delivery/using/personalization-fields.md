@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 96%
@@ -126,7 +126,7 @@ La valeur par défaut est de 5 secondes.
 
 Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pour la phase de personnalisation.
 
-## Personnalisation des courriers électroniques à l’aide de champs de personnalisation {#personalization-field-video}
+## Personnalisation des courriers électroniques à l’aide de champs de personnalisation {#personalization-fields-video}
 
 Découvrez comment ajouter un champ de personnalisation à l’objet et au contenu d’une diffusion de courriel.
 
