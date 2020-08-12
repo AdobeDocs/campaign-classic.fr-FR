@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 32076ea0a817d8649d1db9e39628221e15ede37e
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 92%
@@ -234,7 +234,9 @@ A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de cont
 
 Dans cette vidéo vous apprendrez comment ajouter des graines et des BAT à un email existant et comment l&#39;envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)Voir aussi :
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+
+Voir aussi :
 * [Choisir la cible du BAT](#selecting-the-proof-target)
 
 * [A propos des adresses de départ](../../delivery/using/about-seed-addresses.md)
