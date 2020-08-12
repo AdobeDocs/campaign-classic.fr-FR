@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32076ea0a817d8649d1db9e39628221e15ede37e
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1725'
 ht-degree: 92%
 
 ---
@@ -174,6 +174,9 @@ Vous pouvez réduire la taille de la population cible. Pour ce faire, indiquez l
 
 Le Bon à Tirer (BAT) est un message spécifique qui permet de tester une diffusion avant l&#39;envoi à la cible principale. Les destinataires du BAT sont chargés de la validation du message, tant sur son contenu que sur sa forme.
 
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#seeds-and-proofs-video)
+
+
 Pour sélectionner la cible des BAT, procédez comme suit :
 
 1. Cliquez sur le lien **[!UICONTROL Pour]**.
@@ -230,7 +233,7 @@ Vous pouvez utiliser des **[!UICONTROL Adresses de contrôle]** en tant que cibl
 
 A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de contrôle]**, vous pouvez cumuler la définition d&#39;une cible spécifique au BAT et l&#39;utilisation des adresses de contrôle. Les paramétrages correspondants sont alors définis dans deux sous-onglets distincts.
 
-## Comment gérer les semences et les BAT dans un courrier électronique
+## Comment gérer les semences et les BAT dans un courrier électronique {#seeds-and-proofs-video}
 
 Dans cette vidéo vous apprendrez comment ajouter des graines et des BAT à un email existant et comment l&#39;envoyer.
 
