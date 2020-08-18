@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: ea248639e9730c6bdd1090098866a094b80daebb
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intuit
 * [Intégrer le contenu dynamique dans un email](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html) : découvrez les notions de base sur l&#39;intégration entre Campaign Classic et Target Standard.
 * [Gérer la délivrabilité](../../delivery/using/deliverability-key-points.md) : découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Classic pour optimiser l&#39;envoi de vos diffusions.
 * [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md) : découvrez les bonnes pratiques relatives à la conception des diffusions et aux envois dans Adobe Campaign Classic.
-* [Exécution d’une création]upgradehttps://helpx.adobe.com/campaign/kb/acc-build-upgrade.html : ce guide présente les étapes clés et les bonnes pratiques pour effectuer une mise à niveau de build avec Campaign Classic.
+* [Réaliser une mise à niveau de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) : ce guide vous présente les principales étapes et bonnes pratiques pour réaliser une mise à niveau de build avec Campaign Classic.
 * [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) : découvrez les éléments essentiels à vérifier concernant la configuration et le renforcement de la sécurité pour le déploiement on-premise.
 
 Obtenez des informations supplémentaires sur Adobe Campaign en consultant les cas pratiques et exemples suivants :
