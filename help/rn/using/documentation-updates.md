@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
 workflow-type: tm+mt
-source-wordcount: '7084'
-ht-degree: 98%
+source-wordcount: '7110'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 98%
 # Mises à jour de la documentation{#documentation-updates}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
-
 
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
 
@@ -56,6 +55,7 @@ Des vidéos pratiques sont désormais disponibles sur les rubriques suivantes :
 
 * [Comment configurer une diffusion continue](../../workflow/using/continuous-delivery.md)
 
+Des informations ont été ajoutées sur les vérifications et l&#39;action à effectuer lors de l&#39;obtention de l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot; après la connexion au serveur FTP. [En savoir plus](../../platform/using/sftp-server-usage.md)
 
 ## Juillet 2020 {#july-2020}
 
@@ -69,7 +69,7 @@ La section Confidentialité et consentement a été améliorée avec des informa
 
 La page Gestion de la confidentialité dans Campaign Classic a été mise à jour avec des informations sur le champ « réglementation » qui est maintenant disponible lors de l&#39;utilisation de l’API permettant de configurer le processus de demande automatique d’accès à des informations personnelles. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD) – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Des informations ont été ajoutées sur les logs de sous-workflows et sur le comportement en cas d’erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
@@ -284,21 +284,21 @@ La section Gestion des accès a été mise à jour avec le droit de **protection
 
 Des informations ont été ajoutées pour indiquer que le contenu des champs de personnalisation ne peut pas dépasser 1 024 caractères. [En savoir plus](../../delivery/using/personalization-fields.md)
 
-La documentation du panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
+La documentation du panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
 
-Mise à jour du guide de prise en main des bonnes pratiques de diffusion –  [En savoir plus](../../delivery/using/delivery-best-practices.md)
+Mise à jour du guide de prise en main des bonnes pratiques de diffusion – [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
 ## Octobre 2019 {#october-2019}
 
-Mise à jour de la liste des messages d’erreur de Campaign Standard et Campaign Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Mise à jour de la liste des messages d’erreur de Campaign Standard et Campaign Classic – [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Amélioration et enrichissement du guide de prise en main du RGPD. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA –  [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
+Amélioration et enrichissement du guide de prise en main du RGPD. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA – [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
 Une nouvelle page de résolution des problèmes a été ajoutée concernant le suivi dans Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/classic-tracking-troubleshooting.html).
 
 Une nouvelle page de bonnes pratiques relatives au connecteur de données d&#39;Adobe Analytics a été ajoutée. [En savoir plus sur le connecteur de données d&#39;Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md)
 
-Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour. [En savoir plus](../../delivery/using/delivery-best-practices.md)
+Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour – [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
 Une recommandation a été ajoutée à la documentation du canal SMS. Elle permet d&#39;éviter des problèmes lors de l&#39;utilisation de plusieurs comptes externes en ayant recours au connecteur SMPP générique étendu avec le même compte fournisseur. [En savoir plus](../../delivery/using/sms-channel.md#automatic-reply)
 
