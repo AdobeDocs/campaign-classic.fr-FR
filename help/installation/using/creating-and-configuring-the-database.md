@@ -14,11 +14,11 @@ discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 653f630079277ffb75915206c445e9414cfcdd7c
-workflow-type: ht
-source-wordcount: '1344'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 890950463146fe0863d2809759eb142cb4bb1fff
+workflow-type: tm+mt
+source-wordcount: '1345'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
-   1. le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS\ `<instance>`**(mode instance),
+   1. le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS\`<instance>`** (mode instance),
    1. le mécanisme d’identification pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
@@ -132,7 +132,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 * Pour une base Oracle, Microsoft SQL Server ou PostgreSQL, l&#39;administrateur de bases de données peut par ailleurs déterminer ici des **paramètres de stockage** à utiliser lors de la création des objets base de données.
 
-   Ces paramètres recoivent les noms exacts (attention à la casse) des tablespaces. Ils sont stockés dans le noeud **[!UICONTROL Administration > Platform > Options]** respectivement dans les options suivantes :
+   Ces paramètres reçoivent les noms exacts des espaces disque logiques (avertissement : sensible à la casse). Ils sont respectivement stockés dans le noeud **[!UICONTROL Administration > Plateforme > Options]** dans les options suivantes (voir [](../../installation/using/configuring-campaign-options.md#database)) :
 
    * **WdbcOptions_TableSpaceUser**: tables utilisateur basées sur un schéma
    * **WdbcOptions_TableSpaceIndex**: index des tables utilisateur basées sur un schéma
