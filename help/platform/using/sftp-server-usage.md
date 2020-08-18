@@ -1,5 +1,5 @@
 ---
-title: Meilleures pratiques et dépannage du serveur SFTP
+title: Utilisation du serveur SFTP
 description: En savoir plus sur les meilleures pratiques et le dépannage du serveur SFTP.
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 71%
 
 ---
@@ -118,9 +118,9 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
    1. Vérifiez si le nom du serveur a été ajouté au serveur DNS local.
    1. Si oui, exécutez la commande suivante sur le serveur Adobe Campaign pour obtenir l’adresse IP :
 
-   `nslookup <server domain name>`
+      `nslookup <server domain name>`
 
-   Ceci confirme que le serveur FTP fonctionne et est accessible à partir du serveur d’applications Adobe Campaign.
+      Ceci confirme que le serveur FTP fonctionne et est accessible à partir du serveur d’applications Adobe Campaign.
 
 1. Dépannage des journaux **de** session :
 
@@ -128,11 +128,11 @@ Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être r
    1. Accédez à l’onglet Transfert **[!UICONTROL de]** fichier, puis cliquez sur Paramètres **** avancés.
    1. Cochez l’option **[!UICONTROL Afficher les journaux]** de session.
 
-   ![](assets/sftp-error-display-logs.png)
+      ![](assets/sftp-error-display-logs.png)
 
    1. Accédez à l&#39;audit du processus et vérifiez si les journaux affichent l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot;.
 
-   Si le serveur SFTP est hébergé par Adobe, vérifiez si l’adresse IP est ajoutée à la liste autorisée en contactant le service d’assistance clientèle.
+1. Si le serveur SFTP est hébergé par Adobe, vérifiez si l’adresse IP est ajoutée à la liste autorisée en contactant le service d’assistance clientèle.
 
    Sinon, valider :
 
