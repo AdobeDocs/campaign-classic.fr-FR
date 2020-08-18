@@ -12,11 +12,11 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d4ebaaf90d88cbec9a4d24d79eaf7c46890d933a
+workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ L&#39;illustration suivante montre la place des schémas dans le système de don
 
 ## Syntaxe des schémas {#syntax-of-schemas}
 
-L’élément racine du schéma est **`<srcschema>`**. Il contient les sous-éléments ** **`<element>`** et **`<attribute>`**.
+L’élément racine du schéma est **`<srcschema>`**. It contains the **`<element>`** and **`<attribute>`** sub-elements.
 
 Le premier sous-élément **`<element>`** correspond à la racine de l’entité.
 
