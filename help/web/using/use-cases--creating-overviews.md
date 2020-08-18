@@ -14,11 +14,11 @@ discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b01252d57ec4ca5c5c87e69566079c48d7363e38
+workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -224,7 +224,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. Ajoutez l’icône d’actualisation dans le champ **[!UICONTROL Image]** : **/xtk/img/refresh.png **.
+1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png**.
 1. Positionnez les différents éléments de votre application web dans l&#39;ordre comme illustré ci-dessous à l&#39;aide des flèches de déplacement.
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)
