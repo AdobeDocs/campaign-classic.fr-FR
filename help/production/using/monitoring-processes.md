@@ -14,11 +14,11 @@ discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 68d532a9597877f2f265dfc2d16ea31d1ce80858
+workflow-type: tm+mt
 source-wordcount: '3775'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -495,7 +495,7 @@ Adobe Campaign peut vous fournir un outil de surveillance des instances (netrepo
 
 Pour une surveillance automatique, les précautions suivantes sont requises avant installation :
 
-* Vous devez avoir les fichiers **netreport.tgz ** (installation sous Linux) ou **netreport.zip** (installation sous Windows),
+* You must have the **netreport.tgz** (Linux installation) or **netreport.zip** (Windows installation) files,
 * il est fortement conseillé de ne pas installer le monitoring sur la machine à surveiller,
 * il est indispensable que la machine sur laquelle il sera installé possède un JRE ou un JDK,
 * sous Linux, la machine à surveiller doit posséder le package **bc**. Voir à ce sujet [cette section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
@@ -508,7 +508,7 @@ La procédure d&#39;installation est la suivante :
 1. Lancez l&#39;extraction de l&#39;archive.
 1. Consultez le fichier **readme**.
 1. Mettez à jour le fichier de configuration **netconf.xml**.
-1. Mettez à jour le fichier **netreport.bat** (Windows) ou **netreport.sh **(Linux).
+1. Update the **netreport.bat** (Windows) or **netreport.sh** (Linux) file.
 
 ### Configuration du fichier netconf.xml {#configuring-the-netconf-xml-file}
 
