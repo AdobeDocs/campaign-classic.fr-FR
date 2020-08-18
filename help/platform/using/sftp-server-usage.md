@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1010'
 ht-degree: 71%
 
 ---
@@ -95,9 +95,9 @@ La section ci-après indique les informations à vérifier et à fournir à l’
 1. Si vous utilisez une authentification par clé, vérifiez que la clé que vous utilisez est la même que celle fournie pour la prise en charge de la configuration de l’instance.
 1. Si vous utilisez FileZilla ou un outil FTP équivalent, fournissez les détails des logs de connexion dans le ticket de support.
 
-## Erreur &quot;Impossible de résoudre le nom d’hôte&quot;, erreur de transfert dans cURL
+## Erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot;
 
-Cette section fournit des informations sur les vérifications et les actions à effectuer lors de l’obtention du message &quot;Impossible de résoudre le nom d’hôte&quot;. après la connexion au serveur FTP à partir du Campaign Classic.
+Cette section fournit des informations sur les vérifications et les actions à effectuer lors de l&#39;obtention de l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot; après la connexion du Campaign Classic au serveur FTP.
 
 Le journal de processus affiche les journaux suivants :
 
