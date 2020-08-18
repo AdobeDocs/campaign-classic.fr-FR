@@ -14,11 +14,11 @@ discoiquuid: b5c8faf7-d0ae-4d95-b7fe-6ef9674a33d2
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8e4fc977daf9039ee8587bf505d7406fd863e68b
+workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -132,7 +132,7 @@ Les règles à respecter sont les suivantes :
 
 * Seuls les éléments **`<element>`** peuvent contenir des éléments **`<attribute>`** et des éléments **`<element>`** dans la structure XML.
 * Un élément **`<attribute>`** doit être unique par son nom dans un **`<element>`**.
-* L’utilisation des **`<elements>`** sur les données de type chaîne multi-lignes est préconisée.
+* The use of **`<elements>`** in multi-line data strings is recommended.
 
 ## Types des données {#data-types}
 
@@ -486,7 +486,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 * **Location/@city** : sélectionne l’attribut « city » sous l’élément **`<location>`**.
 * **../@email** : sélectionne l&#39;email sur l&#39;élément parent de l&#39;élément courant
 * **group`[1]/@label`** : sélectionne l’attribut « label » fils du premier élément de collection **`<group>`**
-* **group`[@label='test1']`** : sélectionne l’attribut « label », enfant de l’élément **`<group>`**et contenant la valeur « test1 »
+* **group`[@label='test1']`** : sélectionne l’attribut « label », enfant de l’élément **`<group>`** et contenant la valeur « test1 »
 
 >[!NOTE]
 >
