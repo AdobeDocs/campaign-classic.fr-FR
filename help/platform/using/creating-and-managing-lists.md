@@ -14,10 +14,10 @@ discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
-workflow-type: ht
-source-wordcount: '785'
+translation-type: tm+mt
+source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
+workflow-type: tm+mt
+source-wordcount: '760'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 Une liste est un ensemble statique de profils qui peut être ciblé dans les actions de diffusion ou mis à jour lors d&#39;opérations d&#39;import ou lors de l&#39;exécution d&#39;un workflow. Par exemple, une population extraite de la base via une requête peut alimenter une liste.
 
-Des diffusions (par email, SMS ou autre) peuvent alors être mises en place à destination de ces différentes listes, dans le respect des règles déontologiques de la gestion du consentement (permission marketing).
+
 
 Les listes sont créées et gérées à partir du lien **[!UICONTROL Listes]** dans l&#39;onglet **[!UICONTROL Profils et cibles]**.
 
