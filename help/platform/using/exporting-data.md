@@ -14,11 +14,11 @@ discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b690e6c7141ba88c8ce72f631ec24fc068ade8f5
+workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ Sélectionnez le format de sortie du fichier exporté. Les formats possibles son
 * Pour le format **[!UICONTROL Texte]**, choisissez les délimiteurs à utiliser pour séparer les colonnes (tabulations, virgules, points-virgules, ou personnalisé) et les chaînes (guillemets simples ou doubles, ou aucun).
 * Pour les format **[!UICONTROL Texte]** et **[!UICONTROL CSV]**, vous pouvez cocher l&#39;option **[!UICONTROL Utiliser la première ligne comme titre des colonnes]**.
 * Indiquez les formats des dates et des nombres. Pour cela, cliquez sur le bouton **[!UICONTROL Editer...]** relatif au champ à paramétrer et renseignez l&#39;éditeur.
-* Pour les champs contenant des valeurs énumérées, vous pouvez sélectionner **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]**. Par exemple, le titre peut être enregistré sous la forme **1=M.**, **2=Melle**,** 3=Mme.**. Si cette option est sélectionnée, **M.**, **Melle** et **Mme** seront exportés.
+* For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]**. For example, the title can be stored in the form **1=Mr.**, **2=Miss**, **3=Mrs.**. Si cette option est sélectionnée, **M.**, **Melle** et **Mme** seront exportés.
 
 ### Etape 4 - Sélection des données {#step-4---data-selection}
 
