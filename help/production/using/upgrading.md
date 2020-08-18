@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 5598682078a8fd3c8d9ecdca083f3a310c48f5f0
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 100%
+source-wordcount: '1147'
+ht-degree: 99%
 
 ---
 
@@ -257,7 +257,7 @@ Par exemple, une base de données unicode ne doit pas autoriser uniquement le st
 
 Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (**nlserver web**), téléchargez puis copiez le fichier.
 
-**setup-client-6.** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 dans **[chemin de l’application]**datakitnlengjsp
 
@@ -271,7 +271,7 @@ Ainsi, à la prochaine connexion des postes clients, une fenêtre indiquera aux 
 
 Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (**nlserver web)**, récupérez le package suivant :
 
-**setup-client-6.** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 et copiez-le sous **/usr/local/neolane/nl6/datakit/nl/eng/jsp** :
 
