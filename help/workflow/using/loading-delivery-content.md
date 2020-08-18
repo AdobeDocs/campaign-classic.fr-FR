@@ -14,9 +14,9 @@ discoiquuid: 3667da3d-4940-4128-8878-f1ee67216f56
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -65,4 +65,3 @@ Pour cela :
 >[!NOTE]
 >
 >Les bonnes pratiques et la résolution des problèmes liées à l&#39;utilisation du serveur SFTP sont présentées [dans cette page](../../platform/using/sftp-server-usage.md).
-
