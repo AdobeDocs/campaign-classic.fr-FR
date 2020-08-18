@@ -12,10 +12,10 @@ discoiquuid: d8b49f68-c783-43fc-9907-e8480ecd28c2
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
-workflow-type: ht
-source-wordcount: '608'
+translation-type: tm+mt
+source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+workflow-type: tm+mt
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 100%
 
 L&#39;activité de type **Transfert de fichier** permet de recevoir ou envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé est soit Amazon Simple Storage Service (S3) le FTP ou le SFTP.
 Avec une connexion S3 ou SFTP, vous pouvez également importer des données de segment dans Adobe Campaign avec la plateforme Adobe Real-time Customer Data. Voir à ce propos cette [documentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html).
+
+>[!NOTE]
+>
+>Les bonnes pratiques et la résolution des problèmes liées à l&#39;utilisation du serveur SFTP sont présentées [dans cette page](../../platform/using/sftp-server-usage.md).
 
 ## Propriétés {#properties}
 
@@ -110,4 +114,3 @@ Le lien **[!UICONTROL Paramètres d’historisation des fichiers...]** permet d�
 * filename
 
    Nom complet du fichier reçu lorsque l&#39;option **[!UICONTROL Utiliser le fichier généré par l&#39;activité précédente]** est sélectionnée.
-
