@@ -14,11 +14,11 @@ discoiquuid: 279b0ae6-2578-4f1f-af59-13a1a9c80b32
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ced6c73961e949c421e9dfb638b40a06dcad4614
+workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ Les options de publication disponibles sont les suivantes :
 * L&#39;option **[!UICONTROL génération multi-fichiers]** active un mode particulier de publication de documents : cette option consiste à renseigner une balise de découpe en début de chaque page du document en sortie. La génération du contenu produira autant de fichiers que de balises de découpe renseignées. Ce mode est utilisé pour la génération de mini-sites à partir d&#39;un contenu. Voir à ce propos [Génération multi-fichiers](#multi-file-generation)
 * Le champ d&#39;édition **[!UICONTROL Localisation]** contient le nom du fichier en sortie. Le nom peut être construit à partir de variables afin de générer un nom de fichier automatique.
 
-   Une variable est renseignée avec le format suivant : **`$(<xpath>)`, où `<xpath>` est le chemin d’un champ du schéma de données du modèle de publication.
+   A variable is populated with the following format: **`$(<xpath>)`**, where **`<xpath>`** is the path of a field of the publication template data schema.
 
    Le nom du fichier peut être composé d&#39;un champ de type date. Pour formater correctement ce champ, vous devez utiliser la fonction **$date-format**, avec comme paramètres le chemin du champ et le format de sortie.
 
@@ -119,7 +119,7 @@ La balise de découpe à intégrer dans la feuille de style est la suivante :
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** où **`<name_of_file>`** correspond au nom de fichier de la page à générer.
 
-** Exemple : **Génération multi-fichiers en reprenant le schéma &quot;cus:livre&quot;.
+**Exemple :** Génération multi-fichiers en reprenant le schéma &quot;cus:livre&quot;.
 
 Le principe consiste à générer une page principale énumérant la liste des chapitres, avec possibilité d&#39;afficher le détail du chapitre dans une page externe.
 
