@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '7110'
+source-wordcount: '7111'
 ht-degree: 97%
 
 ---
@@ -55,7 +55,7 @@ Des vidéos pratiques sont désormais disponibles sur les rubriques suivantes :
 
 * [Comment configurer une diffusion continue](../../workflow/using/continuous-delivery.md)
 
-Des informations ont été ajoutées sur les vérifications et l&#39;action à effectuer lors de l&#39;obtention de l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot; après la connexion au serveur FTP. [En savoir plus](../../platform/using/sftp-server-usage.md)
+Des informations ont été ajoutées sur les vérifications et actions à effectuer lors de l&#39;obtention de l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot; après la connexion à un serveur FTP. [En savoir plus](../../platform/using/sftp-server-usage.md)
 
 ## Juillet 2020 {#july-2020}
 
