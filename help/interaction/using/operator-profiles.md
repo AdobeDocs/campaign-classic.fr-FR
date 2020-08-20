@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 93%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 Deux types d&#39;opérateurs sont amenés à utiliser Interaction : un chargé d&#39;offres et un chargé de diffusion. Chacun dispose de droits spécifiques qui ne leur donnent accès qu&#39;à certaines parties de l&#39;arborescence de la plateforme.
 
-* **[!UICONTROL Chargé d&#39;offres]** : crée et maintient les offres. Notez que si des offres sont utilisées dans le flux de travail, l&#39;opérateur doit se trouver dans le groupe d&#39;opérateurs **[!UICONTROL Administrateur]** ou **[!UICONTROL Offre Managers)** pour exécuter le flux de travail.
+* **[!UICONTROL Chargé d&#39;offres]** : crée et maintient les offres. Notez que si des offres sont utilisées dans le processus, l’opérateur doit se trouver dans le groupe d’opérateurs des gestionnaires **[!UICONTROL d’]** administration **[!UICONTROL ou d’]** Offres pour exécuter le processus.
 * **[!UICONTROL Chargé de diffusion]** : valide et utilise les offres
 
 Les étapes de création des opérateurs propres à Interaction sont identiques à celles utilisées pour créer n&#39;importe quel opérateur dans la plate-forme. Reportez-vous à [cette section](../../platform/using/access-management.md#creating-an-operator) pour plus d&#39;informations. Les droits sont configurés lors de la création de l&#39;opérateur.
