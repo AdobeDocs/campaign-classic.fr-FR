@@ -14,9 +14,9 @@ discoiquuid: 6934c165-6d27-4ce5-8607-170f299b4702
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Un fichier WSDL (Web Service Description Library) est disponible pour chaque ser
 
 Pour générer un fichier WSDL vous devez, à partir d&#39;un navigateur Web, saisir l&#39;URL suivante :
 
-[https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
+https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
 Avec :
 
@@ -250,35 +250,36 @@ Lors d&#39;un appel SOAP :
 
 * En utilisant **HttpSoapConnection/SoapService** :
 
-   ```
-     var cnx = new HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");
-   var session = new SoapService(cnx, 'urn:xtk:session');
-   session.addMethod("Logon", "xtk:session#Logon",
-                       ["sessiontoken", "string", "Login", "string", "Password", "string", "Parameters", "NLElement"],
-                       ["sessionToken", "string", "sessionInfo", "NLElement", "securityToken", "string"]);
-   
-   var res = session.Logon("", "admin", "pwd", <param/>);
-   var sessionToken = res[0];
-   var securityToken = res[2];
-   
-   cnx.addTokens(sessionToken, securityToken);
-   var query = new SoapService(cnx, 'urn:xtk:queryDef');
-   query.addMethod("ExecuteQuery", "xtk:queryDef#ExecuteQuery",
-                       ["sessiontoken", "string", "entity", "NLElement"],
-                       ["res", "NLElement"]);
-   
-   var queryRes = query.ExecuteQuery("", <queryDef operation="select" schema="nms:recipient">
-             <select>
-               <node expr="@email"/>
-               <node expr="@lastName"/>
-               <node expr="@firstName"/>
-             </select>
-             <where>
-               <condition expr="@email = 'joe.doe@aol.com'"/>
-             </where>
-           </queryDef>);
-   logInfo(queryRes[0].toXMLString())
-   ```
+```
+  
+    var cnx = new HttpSoapConnection("https://serverURL/nl/jsp/soaprouter.jsp");
+  var session = new SoapService(cnx, 'urn:xtk:session');
+  session.addMethod("Logon", "xtk:session#Logon",
+                      ["sessiontoken", "string", "Login", "string", "Password", "string", "Parameters", "NLElement"],
+                      ["sessionToken", "string", "sessionInfo", "NLElement", "securityToken", "string"]);
+  
+  var res = session.Logon("", "admin", "pwd", <param/>);
+  var sessionToken = res[0];
+  var securityToken = res[2];
+  
+  cnx.addTokens(sessionToken, securityToken);
+  var query = new SoapService(cnx, 'urn:xtk:queryDef');
+  query.addMethod("ExecuteQuery", "xtk:queryDef#ExecuteQuery",
+                      ["sessiontoken", "string", "entity", "NLElement"],
+                      ["res", "NLElement"]);
+  
+  var queryRes = query.ExecuteQuery("", <queryDef operation="select" schema="nms:recipient">
+            <select>
+              <node expr="@email"/>
+              <node expr="@lastName"/>
+              <node expr="@firstName"/>
+            </select>
+            <where>
+              <condition expr="@email = 'joe.doe@aol.com'"/>
+            </where>
+          </queryDef>);
+  logInfo(queryRes[0].toXMLString())
+```
 
 * En utilisant **HttpServletRequest** :
 
@@ -294,18 +295,18 @@ req.header["Content-Type"] = "text/xml; charset=utf-8";
 req.header["SOAPAction"] =   "xtk:session#Logon";
 req.method = "POST";
 req.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">' +
-  '<soapenv:Header/>' +
-  '<soapenv:Body>' +
-      '<urn:Logon>' +
-          '<urn:sessiontoken></urn:sessiontoken>' +
-          '<urn:strLogin>LOGIN_HERE</urn:strLogin>' +
-          '<urn:strPassword>PASSWORD_HERE</urn:strPassword>' +
-          '<urn:elemParameters></urn:elemParameters>' +
-      '</urn:Logon>' +
-  '</soapenv:Body>' +
+    '<soapenv:Header/>' +
+    '<soapenv:Body>' +
+        '<urn:Logon>' +
+            '<urn:sessiontoken></urn:sessiontoken>' +
+            '<urn:strLogin>LOGIN_HERE</urn:strLogin>' +
+            '<urn:strPassword>PASSWORD_HERE</urn:strPassword>' +
+            '<urn:elemParameters></urn:elemParameters>' +
+        '</urn:Logon>' +
+    '</soapenv:Body>' +
 '</soapenv:Envelope>';
 req.execute();
-         
+           
 var resp = req.response;
 var xmlRes = new XML(String(resp.body).replace("<?xml version='1.0'?>",""));
 var sessionToken = String(xmlRes..*::pstrSessionToken);;
@@ -321,14 +322,13 @@ req2.header["SOAPAction"] =   "xtk:queryDef#ExecuteQuery";req2.header["X-Securit
 req2.header["cookie"]           = "__sessiontoken="+sessionToken;
 req2.method = "POST";
 req2.body = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:queryDef">' +
-           '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
-              '<queryDef operation="select" schema="nms:recipient">' +
-                '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
-                '<where><condition expr="@email = \'john.doe@aol.com\'"/></where>' +
-              '</queryDef>' +
-         '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
+             '<soapenv:Header/><soapenv:Body><urn:ExecuteQuery><urn:sessiontoken/><urn:entity>' +
+                '<queryDef operation="select" schema="nms:recipient">' +
+                  '<select><node expr="@email"/><node expr="@lastName"/><node expr="@firstName"/></select>' +
+                  '<where><condition expr="@email = \'john.doe@aol.com\'"/></where>' +
+                '</queryDef>' +
+           '</urn:entity></urn:ExecuteQuery></soapenv:Body></soapenv:Envelope>';
 req2.execute();
 var resp2 = req2.response;
 logInfo(resp2.body)
 ```
-
