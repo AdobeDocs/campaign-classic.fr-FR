@@ -14,11 +14,11 @@ discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
 source-wordcount: '7859'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -1544,11 +1544,11 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
-   <td> Adresse du serveur des statistiques d'envois, sous la forme 
-    &lt;dns ou ip&gt; 
-      [: 
+   <td> Address of the delivery statistics server, given as 
+    &lt;dns or ip&gt; 
+      <code>[</code>: 
      &lt;port&gt; 
-       ]. Voir la section 
+       <code>]</code>. Voir la section 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordonnées du serveur de statistiques</a>. 
       <br /> 
      </td> 
