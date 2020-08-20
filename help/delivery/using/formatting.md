@@ -14,11 +14,11 @@ discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Les attributs et éléments du contenu sont représentés comme des objets JavaS
 **Exemple**:
 
 * **content.@name** : récupère la valeur de l’attribut « name » de l’élément principal
-* **content.@`['name']`** : identique au contenu**.syntaxe @name **
+* **content.@`['name']`** : identique au contenu **.syntaxe @name**
 * **content.chapter.length**`<chapter` : retourne le nombre d’éléments sur l’élément de collection
 * **content.chapter`[0]`.@name** : récupère le nom du premier élément `<chapter>`
 * **chapter.name()** : retourne le nom de l’élément `<chapter>`
@@ -480,7 +480,7 @@ Exemples:
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* Ajouter le test conditionnel **&lt;% if (recipient.language == &#39;fr&#39;) { %>** :
+* Adding the conditional test **&lt;% if (recipient.language == &#39;en&#39;)`{`%>**:
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
