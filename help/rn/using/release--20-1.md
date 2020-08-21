@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
-workflow-type: ht
-source-wordcount: '1330'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ _17 février 2020_
  <tbody> 
   <tr> 
    <td> <p>Le connecteur Hadoop FDA a été amélioré pour prendre en charge Hadoop 3.0 ainsi que Cloudera.</p>
-    <p>Pour plus d'informations, consultez la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">documentation détaillée</a>.</p>
+    <p>Pour plus d’informations, consultez la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">documentation détaillée</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -183,7 +183,7 @@ _17 février 2020_
 
 * Correction d’un problème qui se produisait lors de la suppression, de l’insertion ou de la mise à jour d’une grande quantité de données avec l’activité de **mise à jour des données** dans un workflow à l’aide d’un schéma FDA servant de dimension de ciblage. (NEO-13280)
 
-* Correction d’un problème qui empêchait l’envoi des emails lors de l’utilisation de l’instruction « if » à l’extérieur de la balise `body`.
+* Correction d’un problème qui empêchait l’envoi des emails lors de l’utilisation de l’instruction « if » à l’extérieur de la balise `body`. (NEO-18628)
 
 * Correction d’un problème qui se produisait lors de l’affichage de la page miroir depuis les logs de diffusion d’un message envoyé. (NEO-17976)
 
