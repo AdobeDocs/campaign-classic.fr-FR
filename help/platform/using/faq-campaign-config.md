@@ -102,8 +102,8 @@ Si vous rencontrez des problèmes concernant, par exemple, la prise en compte co
 
 1. Accédez aux emplacements suivants, selon la version de votre système d’exploitation :
 
-   * Windows 7 : C:\Users\&lt; nom_utilisateur >\AppData\Roaming\Neolane\NL_5\
-   * Windows XP : C:\Documents et Settings\&lt; nom_utilisateur >\Application Data\Neolane\NL_5
+   * Windows 7 : C:\Users\ &lt; nom_utilisateur > \AppData\Roaming\Neolane\NL_5\
+   * Windows XP : C:\Documents et Settings\ &lt; nom_utilisateur > \Application Data\Neolane\NL_5
 
    Ces dossiers contiennent de nombreux fichiers xml nommés nlclient-config-&lt; valeur alphanumérique >.xml.
 
