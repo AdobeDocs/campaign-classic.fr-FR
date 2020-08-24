@@ -31,7 +31,7 @@ Toutefois, Adobe Campaign ne gère pas lui-même les fichiers archivés : il v
 
 Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transférés vers un serveur distant, comme un serveur de messagerie SMTP. La destination de l&#39;archivage est une adresse email en Cci (invisible aux destinataires de la diffusion) que vous devez spécifier.
 
-## Recommandations et limitations     {#recommendations-and-limitations}
+## Recommandations et limitations      {#recommendations-and-limitations}
 
 * Cette fonctionnalité d&#39;archivage des emails est en option. Vérifiez votre contrat de licence.
 * Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l’activer. L’adresse BCC de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
@@ -102,7 +102,7 @@ Une fois le chemin d’accès au dossier local défini, ajoutez et modifiez les 
 
 * **expirationDelay** : nombre de jours pendant lesquels les fichiers .eml sont conservés pour archivage. Après ce délai, ils sont automatiquement déplacés vers le dossier **dataLogPath/archives** pour compression. Par défaut, les fichiers .eml expirent au bout de deux jours.
 * **purgeArchivesDelay** : nombre de jours pendant lesquels les archives sont conservées dans le dossier **dataLogPath/`<archives>`**. Après cette période, ils sont définitivement supprimés. La purge commence lorsque le MTA est lancé. Par défaut, elle est exécutée tous les sept jours.
-* **pollDelay** : fréquence de vérification (en secondes) des nouveaux emails envoyés entrant dans le dossier **dataLogPath**. Par exemple, si ce paramètre est défini sur 60, cela signifie que chaque minute, le processus d’archivage passe par les fichiers .eml dans les dossiers **dataLogPath/`<date and time>`**, applique une purge si nécessaire et envoie des copies d’emails à l’adresse Cci et/ou compresse les fichiers archivés au besoin.
+* **pollDelay** : fréquence de vérification (en secondes) des nouveaux emails envoyés entrant dans le dossier **dataLogPath**. Par exemple, si ce paramètre est défini sur 60, cela signifie que chaque minute, le processus d’archivage passe par les fichiers .eml dans les dossiers **dataLogPath/`<date and time>`** , applique une purge si nécessaire et envoie des copies d’emails à l’adresse Cci et/ou compresse les fichiers archivés au besoin.
 * **acquireLimit** : nombre de fichiers .eml traités à la fois avant que le processus d&#39;archivage ne soit réappliqué selon le paramètre **pollDelay**. Par exemple, si vous définissez le paramètre **acquireLimit** sur 100 alors que le paramètre **pollDelay** est défini sur 60, 100 fichiers .eml seront traités par minute.
 * **smtpNbConnection** : nombre de connexions SMTP à l&#39;adresse email en Cci.
 
