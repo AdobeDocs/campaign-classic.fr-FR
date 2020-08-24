@@ -309,7 +309,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
 1. Exécutez le script **iis_neolane_setup.vbs** permettant de configurer automatiquement le paramétrage des ressources utilisées par le serveur Adobe Campaign sur le répertoire virtuel créé précédemment.
 
-   * Ce fichier se trouve dans le répertoire **`[Adobe Campaign v7]`\tomcat-7\conf file **, où&#x200B;**`[Adobe Campaign v7]`**est le chemin d&#39;accès au répertoire d&#39;installation d&#39;Adobe Campaign. La commande d&#39;exécution du script est la suivante (pour les administrateurs) :
+   * Ce fichier se trouve dans le répertoire  **`[Adobe Campaign v7]`\tomcat-7\conf file**, où **`[Adobe Campaign v7]`** est le chemin d&#39;accès au répertoire d&#39;installation d&#39;Adobe Campaign. La commande d&#39;exécution du script est la suivante (pour les administrateurs) :
 
       ```
       cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\tomcat-7\conf
