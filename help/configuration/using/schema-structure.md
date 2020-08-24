@@ -14,11 +14,11 @@ discoiquuid: b5c8faf7-d0ae-4d95-b7fe-6ef9674a33d2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e4fc977daf9039ee8587bf505d7406fd863e68b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1572'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ Les règles à respecter sont les suivantes :
 
 * Seuls les éléments **`<element>`** peuvent contenir des éléments **`<attribute>`** et des éléments **`<element>`** dans la structure XML.
 * Un élément **`<attribute>`** doit être unique par son nom dans un **`<element>`**.
-* The use of **`<elements>`** in multi-line data strings is recommended.
+* L’utilisation des **`<elements>`** sur les données de type chaîne multi-lignes est préconisée.
 
 ## Types des données {#data-types}
 
