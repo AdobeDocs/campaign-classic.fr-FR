@@ -45,7 +45,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    * **[!UICONTROL Filtre]**
 
-      Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire seront ignorés. Si le filtre est vide, tous les fichiers du répertoire seront pris en compte. Exemples de filtre : ***.zip**, **import-*.txt**.
+      Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire seront ignorés. Si le filtre est vide, tous les fichiers du répertoire seront pris en compte. Exemples de filtre : **&quot;*.zip&quot;**, **&quot;import-*.txt&quot;**.
 
    * **[!UICONTROL Terminer dès qu&#39;un fichier est traité]**
 
