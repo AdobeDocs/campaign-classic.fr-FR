@@ -66,7 +66,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
    **nlserver stop`<module>[@<instance>][-immediate][-noconsole]`**
 
-   Vous pouvez également utiliser la commande **nlserver restart`<module>[@<instance>]`**pour redémarrer un module.
+   Vous pouvez également utiliser la commande **nlserver restart`<module>[@<instance>]`** pour redémarrer un module.
 
    Exemple:
 
@@ -111,7 +111,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
    **nlserver shutdown**
 
-* Charger à nouveau la configuration du module **nlserver web** (et le cas échéant le module d’extension du serveur web) lorsque les fichiers **serverConf.xml** et **config-`<instance>  .xml </instance>`**ont été édités.
+* Charger à nouveau la configuration du module **nlserver web** (et le cas échéant le module d’extension du serveur web) lorsque les fichiers **serverConf.xml** et **config-`<instance>  .xml </instance>`** ont été édités.
 
    **nlserver config -reload** 
 
