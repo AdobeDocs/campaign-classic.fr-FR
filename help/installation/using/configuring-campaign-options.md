@@ -14,11 +14,11 @@ discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 890950463146fe0863d2809759eb142cb4bb1fff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -635,19 +635,19 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Nom de l’espace disque logique destiné à contenir les données des tables standard Adobe Campaign.<br />Voir <a href="../../installation/using/creating-and-configuring-the-database.md">Création et configuration de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les données des tables standard d'Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Nom du tablespace destiné à contenir les index des tables standard d'Adobe Campaign.<br />Voir <a href="../../installation/using/creating-and-configuring-the-database.md">Création et configuration de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les index des tables standard d'Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Nom du tablespace destiné à contenir les données des tables de travail d'Adobe Campaign.<br />Voir <a href="../../installation/using/creating-and-configuring-the-database.md">Création et configuration de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les données des tables de travail d'Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Nom du tablespace destiné à contenir les index des tables de travail d'Adobe Campaign.<br />Voir <a href="../../installation/using/creating-and-configuring-the-database.md">Création et configuration de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les index des tables de travail d'Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
