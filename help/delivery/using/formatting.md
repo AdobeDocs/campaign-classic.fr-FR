@@ -14,11 +14,11 @@ discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1460'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -480,7 +480,7 @@ Exemples:
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* Adding the conditional test **&lt;% if (recipient.language == &#39;en&#39;)`{`%>**:
+* Ajouter le test conditionnel **&lt;% if (recipient.language == &#39;fr&#39;)`{`%>** :
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
