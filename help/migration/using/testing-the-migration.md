@@ -78,7 +78,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 
 >[!NOTE]
 >
->Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option**-allinstances **.
+>Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option  **-allinstances**.
 
 ### Options -showCustomEntities et -showDeletedEntities{#showcustomentities-and--showdeletedentities-options}
 
