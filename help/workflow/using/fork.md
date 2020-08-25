@@ -1,8 +1,6 @@
 ---
 title: Branchement
-seo-title: Branchement
 description: Branchement
-seo-description: null
 page-status-flag: never-activated
 uuid: 90db1991-cff9-4dbd-a478-7aae1d845836
 contentOwner: sauviat
@@ -14,20 +12,21 @@ discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
-workflow-type: ht
-source-wordcount: '36'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 4%
 
 ---
 
 
 # Branchement{#fork}
 
-Un branchement permet de lancer plusieurs activités en parallèle.
+Une fourchette vous permet d’activer toutes ses activités sortantes en parallèle.
 
-Double-cliquez sur l&#39;objet graphique pour définir le nombre de transitions sortantes, créer une nouvelle transition ou modifier le libellé de la transition sélectionnée.
+Par exemple, vous pouvez utiliser l’activité dans le contexte de la création de contenu et de l’automatisation de l’envoi de diffusions, afin de lancer simultanément le calcul de la cible et la création de contenu. A dedicated use case is available in [this section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
+
+Pour configurer l’activité, ouvrez-la, puis définissez le numéro et l’étiquette des transitions sortantes de votre choix.
 
 ![](assets/s_user_segmentation_fork.png)
-
