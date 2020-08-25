@@ -14,11 +14,11 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9d36192a768fd0162f2301a5fe0437074d0fda58
-workflow-type: ht
-source-wordcount: '1249'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c959c0e8ace1eaaa768ea04c194eaccac0b35344
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 97%
 
 ---
 
@@ -87,13 +87,19 @@ Les variables de tâches (**[!UICONTROL task.vars.xxx]**) sont comparables à de
 
 Les variables d&#39;événements (**[!UICONTROL vars.xxx]**) permettent l&#39;échange de données entre les tâches élémentaires d&#39;un processus de workflow. Ces variables sont passées par la tâche qui a activé la tâche en cours. Il est possible de les modifier ou d&#39;en définir de nouvelles, elles sont ensuite transmises aux activités suivantes.
 
-Dans le cas d&#39;activités de type **AND-join**, les variables sont fusionnées mais si une même variable est définie deux fois, il y a conflit et la valeur est indéterminée.
+>[!CAUTION]
+>
+>Dans le cas d&#39;activités de type [AND-join](../../workflow/using/and-join.md), les variables sont fusionnées mais si une même variable est définie deux fois, il y a conflit et la valeur est indéterminée.
 
-Ces variables sont les plus communément utilisées et doivent être préférées aux variables d&#39;instances.
+Les événements sont les variables les plus utilisées et doivent être utilisées de préférence aux variables d’instance.
 
 Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit de variables de type chaîne. Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [A propos des activités](../../workflow/using/about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
 
-### Exemples    {#example}
+### Cas pratiques {#example}
+
+>[!NOTE]
+>
+>D’autres cas d’utilisation de la main-d’oeuvre sont disponibles dans [cette section](../../workflow/using/about-workflow-use-cases.md).
 
 **Exemple 1**
 
