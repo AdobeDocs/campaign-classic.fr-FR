@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
+source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
 workflow-type: tm+mt
-source-wordcount: '7111'
+source-wordcount: '7180'
 ht-degree: 97%
 
 ---
@@ -45,7 +45,7 @@ Des vidéos pratiques sont désormais disponibles sur les rubriques suivantes :
 
 * [Comment activer et utiliser AMP pour les courriers électroniques](../../delivery/using/defining-interactive-content.md)
 
-* [Personnalisation des courriers électroniques à l’aide de blocs de contenu dynamiques](../../delivery/using/personalization-blocks.md)
+* [Personnalisation des emails à l’aide de blocs de contenu dynamique](../../delivery/using/personalization-blocks.md)
 
 * [Personnalisation des courriers électroniques à l’aide de champs de personnalisation](../../delivery/using/personalization-fields.md)
 
@@ -56,6 +56,15 @@ Des vidéos pratiques sont désormais disponibles sur les rubriques suivantes :
 * [Comment configurer une diffusion continue](../../workflow/using/continuous-delivery.md)
 
 Des informations ont été ajoutées sur les vérifications et actions à effectuer lors de l&#39;obtention de l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot; après la connexion à un serveur FTP. [En savoir plus](../../platform/using/sftp-server-usage.md)
+
+De nouveaux cas d’utilisation ont été référencés dans la liste des cas [d’utilisation du](../../workflow/using/about-workflow-use-cases.md)processus :
+
+* Automatisation de la création, de l’édition et de la publication de contenu
+* Configuration d’un processus d’approbation de destinataire avant l’envoi d’une diffusion
+* Appeler une variable d&#39;instance dans une requête
+* Application d’un pourcentage partagé à une population
+
+La section **[!UICONTROL activité de jointure]** ET a été enrichie d&#39;informations supplémentaires sur son utilisation, ainsi que d&#39;une note concernant l&#39;utilisation des variables. [En savoir plus](../../workflow/using/and-join.md)
 
 ## Juillet 2020 {#july-2020}
 
@@ -730,7 +739,8 @@ Marketing Cloud Triggers : ajout d&#39;une technote sur la configuration et l&#
 
 Réorganisation et enrichissement du guide Workflow. Trouvez facilement des informations sur la [création](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html) et l&#39;[exécution](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html) d&#39;un workflow. Découvrez comment [cibler](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html) et [gérer](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html#Data_Management) vos données, [importer](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html)[](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Updating_the_database)[ des données et utiliser des données de workflow pour mettre à jour la base de données ou envoyer des diffusions](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow).
 
-Disponibilité d&#39;un exemple de création de [workflow d&#39;import](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow) suite aux [bonnes pratiques d&#39;import.](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html#Import_best_practices)
+Disponibilité d&#39;un exemple de création de [workflow d&#39;import](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow) suite aux [bonnes pratiques d&#39;import.
+](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html#Import_best_practices)
 Mise à jour du guide d&#39;installation pour cette nouvelle version. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/INS_Architecture_and_hosting_models_General_architecture.html)
 
 Mise à jour de la matrice de compatibilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
