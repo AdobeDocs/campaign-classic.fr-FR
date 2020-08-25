@@ -14,11 +14,11 @@ discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Une condition est une expression JavaScript qui doit être évaluée à &#39;tru
 
 Pour plus d’informations sur toutes les autres fonctions JavaScript et méthodes SOAP du serveur applicatif accessibles via workflow, consultez la [documentation JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-Vous pouvez insérer directement des variables également depuis cet éditeur.
+Vous pouvez insérer directement des variables également depuis cet éditeur. For more  information on how to work with variables, refer to [this section](../../workflow/using/javascript-scripts-and-templates.md#variables).
 
 Les conditions peuvent être ajoutées, supprimées, ordonnées depuis la fenêtre d&#39;édition des propriétés de l&#39;activité, mais aussi modifiées depuis la transition.
 
