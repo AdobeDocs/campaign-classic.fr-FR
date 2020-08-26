@@ -14,9 +14,9 @@ discoiquuid: c3ff8462-e47e-4637-8213-769fdeb86a57
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 668a0093616e1a2b49623b010ae5055f4d43d9b9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6c76ce3e6da41a80d1df2adfcb17fd7c0f85b894
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ L&#39;utilisation d&#39;une table de destinataires externe implique les limitati
 
 * Le lien avec la table des **[!UICONTROL visiteurs]** n&#39;est pas opérationnel.
 
-   Ainsi, l&#39;utilisation du module **[!UICONTROLSSocial Marketing]** nécessite de paramétrer l&#39;étape d&#39;enregistrement afin de référencer la bonne table.
+   Ainsi, l&#39;utilisation du module **[!UICONTROL Social Marketing]** nécessite de paramétrer l&#39;étape d&#39;enregistrement afin de référencer la bonne table.
 
    De même, dans le cadre de l&#39;utilisation des fonctionnalités de parainage, le modèle standard de transfert du message initial doit être adapté.
 
