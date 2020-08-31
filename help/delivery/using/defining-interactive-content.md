@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
+source-git-commit: f52e00ade7c97662eb4061e19fd38b863b2c2bd3
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1639'
 ht-degree: 97%
 
 ---
@@ -33,8 +33,9 @@ Pour plus d’informations sur le test et l’envoi d’emails AMP, voir la sect
 
 Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois l’installation terminée, redémarrez le serveur pour que le package soit pris en compte.
 
->[!NOTE]
-> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contactez votre chargé de compte.
+    >[!NOTE]
+    >
+    > Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de midsourcing](../../installation/using/mid-sourcing-server.md) et l&#39;[instance d&#39;exécution](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contactez votre chargé de compte.
 
 
 ## À propos d’AMP for Email{#about-amp-for-email}
@@ -215,6 +216,6 @@ Si, par exemple, vous avez inclus une liste de produits dans votre email, lors d
 
 ## Comment activer et utiliser AMP pour les courriers électroniques {#amp-email-video}
 
-La vidéo ci-dessous explique comment activer AMP à Adobe Campaign Classic et présente son utilisation.
+La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign Classic et présente son utilisation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
