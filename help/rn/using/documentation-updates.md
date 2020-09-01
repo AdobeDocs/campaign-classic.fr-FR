@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7180'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,42 +29,42 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Août 2020 {#aug-2020}
 
-Découvrez les meilleures pratiques en matière de conception de diffusion et d&#39;envoi avec Campaign dans une section dédiée. [En savoir plus](../../delivery/using/delivery-best-practices.md)
+Découvrez les bonnes pratiques en matière de conception de diffusion et d’envoi avec Campaign dans une section dédiée. [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
-Le landing page des pratiques exemplaires en matière de livrabilité a été amélioré pour faciliter l&#39;accès aux sous-sections. [En savoir plus](../../delivery/using/deliverability-key-points.md)
+La landing page des bonnes pratiques en matière de délivrabilité a été améliorée pour faciliter l’accès aux sous-sections. [En savoir plus](../../delivery/using/deliverability-key-points.md)
 
-Des vidéos pratiques sont désormais disponibles sur les rubriques suivantes :
+Des vidéos pratiques sont désormais disponibles concernant les rubriques suivantes :
 
-* [Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie et de filtres prédéfinis](../../campaign/using/about-campaign-typologies.md)
+* [Configuration de la gestion de la fatigue à l’aide de règles de typologie et de filtres prédéfinis](../../campaign/using/about-campaign-typologies.md)
 
-* [Création d’un courrier électronique dans une campagne](../../campaign/using/marketing-campaign-deliveries.md)
+* [Création d’un email dans une campagne](../../campaign/using/marketing-campaign-deliveries.md)
 
-* [Comment créer un bulletin d&#39;information multilingue avec du contenu conditionnel](../../delivery/using/conditional-content.md)
+* [Création d’une newsletter multilingue avec du contenu conditionnel](../../delivery/using/conditional-content.md)
 
 * [Configuration et déploiement d’un modèle de diffusion](../../delivery/using/creating-a-delivery-template.md)
 
-* [Comment activer et utiliser AMP pour les courriers électroniques](../../delivery/using/defining-interactive-content.md)
+* [Activation et utilisation d’AMP pour les emails](../../delivery/using/defining-interactive-content.md)
 
 * [Personnalisation des emails à l’aide de blocs de contenu dynamique](../../delivery/using/personalization-blocks.md)
 
-* [Personnalisation des courriers électroniques à l’aide de champs de personnalisation](../../delivery/using/personalization-fields.md)
+* [Personnalisation des emails à l’aide de champs de personnalisation](../../delivery/using/personalization-fields.md)
 
-* [Comment gérer les semences et les BAT dans un courrier électronique](../../delivery/using/steps-defining-the-target-population.md)
+* [Gestion de l’adresse de contrôle et des BAT dans un email](../../delivery/using/steps-defining-the-target-population.md)
 
 * [Configuration d’une diffusion récurrente](../../workflow/using/recurring-delivery.md)
 
-* [Comment configurer une diffusion continue](../../workflow/using/continuous-delivery.md)
+* [Configuration d’une diffusion au fil de l’eau](../../workflow/using/continuous-delivery.md)
 
-Des informations ont été ajoutées sur les vérifications et actions à effectuer lors de l&#39;obtention de l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot; après la connexion à un serveur FTP. [En savoir plus](../../platform/using/sftp-server-usage.md)
+Des informations ont été ajoutées concernant les vérifications et actions à effectuer lors de l’obtention de l&#39;erreur « Impossible de résoudre le nom d’hôte » après la connexion à un serveur FTP. [En savoir plus](../../platform/using/sftp-server-usage.md)
 
-De nouveaux cas d’utilisation ont été référencés dans la liste des cas [d’utilisation du](../../workflow/using/about-workflow-use-cases.md)processus :
+De nouveaux cas pratiques ont été référencés dans la liste des [cas pratiques de workflows](../../workflow/using/about-workflow-use-cases.md) :
 
 * Automatisation de la création, de l’édition et de la publication de contenu
-* Configuration d’un processus d’approbation de destinataire avant l’envoi d’une diffusion
+* Configuration d’un processus de validation de destinataire avant l’envoi d’une diffusion
 * Appeler une variable d&#39;instance dans une requête
-* Application d’un pourcentage partagé à une population
+* Application d’un pourcentage fractionné à une population
 
-La section **[!UICONTROL activité de jointure]** ET a été enrichie d&#39;informations supplémentaires sur son utilisation, ainsi que d&#39;une note concernant l&#39;utilisation des variables. [En savoir plus](../../workflow/using/and-join.md)
+La section **[!UICONTROL Rendez-vous]** a été enrichie d’informations supplémentaires sur son utilisation, ainsi que d’une note concernant l’utilisation des variables. [En savoir plus](../../workflow/using/and-join.md)
 
 ## Juillet 2020 {#july-2020}
 
@@ -436,7 +436,7 @@ La section « Surveillance des workflows » a été mise à jour avec une note
 
 Ajout d&#39;un cas d&#39;utilisation pour expliquer comment envoyer un email avec des champs de données personnalisés à l&#39;aide de l&#39;activité Enrichissement dans un workflow. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
 
-Les vidéos relatives aux fonctionnalités ont été déplacées [ici](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html).
+Les vidéos relatives aux fonctionnalités ont été déplacées [ici](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/overview.html).
 
 Deux notes techniques ont été ajoutées sur [Teradata](https://helpx.adobe.com/fr/campaign/kb/campaign_fda_teradata.html) et [MySQL 5.7](https://helpx.adobe.com/fr/campaign/kb/campaign_fda_mysql.html).
 
@@ -755,7 +755,7 @@ ACS Connector
 
 API Web pour Microsoft Dynamics - [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_CRM_Connectors.html#Example_for_Microsoft_Dynamics)
 
-Méthode BCC d&#39;archivage des emails - [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
+Méthode Cci d&#39;archivage des emails - [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
 
 Connecteur Amazon Simple Storage Service (S3) – [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Event_activities.html#File_transfer)
 
