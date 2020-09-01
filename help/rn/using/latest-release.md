@@ -29,13 +29,14 @@ ht-degree: 98%
 
 _7 juillet 2020_
 
-* Correction d’un problème qui empêchait le suivi de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
+* Correction d’un problème qui empêchait le tracking de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
 * Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d’être autorisés. (NEO-25210)
 * Correction d’un problème qui empêchait d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook. (NEO-25688)
 * Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions email. (NEO-26084)
 * Correction d’un problème lié à gestion des URL de codage dans le service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
+
 
 Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
 * Correction d’une régression qui avait un impact sur les champs calculés dans un workflow. (NEO-25194)
