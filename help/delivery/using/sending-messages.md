@@ -42,7 +42,7 @@ Pour plus d&#39;informations sur le paramétrage d&#39;une adresse en Cci d&#39;
 >
 >Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
 
-Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, l&#39;option Email BCC n&#39;est pas activée par défaut, même si elle a été achetée. Vous devez l&#39;activer manuellement dans chaque diffusion ou modèle où vous souhaitez l&#39;utiliser.
+Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, l&#39;option Email Cci n&#39;est pas activée par défaut, même si elle a été achetée. Vous devez l&#39;activer manuellement dans chaque diffusion ou modèle où vous souhaitez l&#39;utiliser.
 
 Pour ce faire, procédez comme suit :
 
@@ -56,7 +56,7 @@ Pour ce faire, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si les emails envoyés à l&#39;adresse en bcc sont ouverts et font l&#39;objet de clics, cela sera pris en compte dans les **[!UICONTROL Ouvertures totales]** et les **[!UICONTROL Clics]** provenant de l&#39;analyse d&#39;envoi, ce qui pourrait entraîner des erreurs de calcul.
+   >Si les emails envoyés à l&#39;adresse en Cci sont ouverts et font l&#39;objet de clics, cela sera pris en compte dans les **[!UICONTROL Ouvertures totales]** et les **[!UICONTROL Clics]** provenant de l&#39;analyse d&#39;envoi, ce qui pourrait entraîner des erreurs de calcul.
 
 ## Générer la page miroir {#generating-the-mirror-page}
 
