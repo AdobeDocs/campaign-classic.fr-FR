@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f52e00ade7c97662eb4061e19fd38b863b2c2bd3
+source-git-commit: 80de051cde62038c11246f8da08a7e00505a3313
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 97%
+source-wordcount: '1631'
+ht-degree: 98%
 
 ---
 
@@ -33,10 +33,9 @@ Pour plus d’informations sur le test et l’envoi d’emails AMP, voir la sect
 
 Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois l’installation terminée, redémarrez le serveur pour que le package soit pris en compte.
 
-    >[!NOTE]
-    >
-    > Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de midsourcing](../../installation/using/mid-sourcing-server.md) et l&#39;[instance d&#39;exécution](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contactez votre chargé de compte.
-
+>[!NOTE]
+>
+> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contactez votre chargé de compte.
 
 ## À propos d’AMP for Email{#about-amp-for-email}
 
