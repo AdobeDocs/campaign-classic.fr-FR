@@ -62,7 +62,7 @@ Voici quelques bonnes pratiques [!DNL Triggers] :
 
 >[!CAUTION]
 >
->L’exemple ci-dessous n’est pas fourni d’usine. Il s’agit d’un exemple spécifique de différentes implémentations possibles.
+>L’exemple ci-dessous n’est pas fourni d’usine. Il s&#39;agit d&#39;un exemple spécifique parmi plusieurs implémentations possibles.
 
 Les événements de pipeline sont téléchargés automatiquement. Ils peuvent être surveillés à l’aide d’un formulaire.
 
