@@ -13,17 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 251244225076dd11a319d1c4b2124c0d05168eaa
+source-git-commit: c96c94fe0b98e298968c329466ee4e2e04b11a35
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 99%
+source-wordcount: '1975'
+ht-degree: 98%
 
 ---
 
 
 # Dernière version{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
@@ -94,7 +94,7 @@ _lundi 8 juin 2020_
  <tbody> 
   <tr> 
    <td> <p>La loi thaïlandaise sur la protection des données personnelles (PDPA) est la nouvelle loi sur la protection de la vie privée destinée à harmoniser et moderniser les exigences en matière de protection des données en Thaïlande. </p>
-   <p>Au Brésil, la loi générale sur la protection des données (Lei Geral de Proteção de Dados - LGPD) entrera en vigueur le 16 août pour toutes les entreprises qui collectent ou traitent des données personnelles.</p>
+   <p>La loi brésilienne Lei Geral de Proteção de Dados (LGPD) entrera en vigueur début 2021 pour toutes les sociétés qui collectent ou traitent des données personnelles au Brésil.</p>
    <p>Ces réglementations s’appliquent aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans ces pays. Outre les fonctionnalités de confidentialité déjà disponibles dans Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous profitons de l’occasion pour inclure d’autres fonctionnalités afin de faciliter votre préparation à la réglementation PDPA et LGPD :</p>
    <ul> 
      <li><p>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">En savoir plus</a></p></li> 
