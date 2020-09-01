@@ -34,9 +34,9 @@ Les sections ci-dessous détaillent les paramètres spécifiques à la diffusion
 
 ## Archiver des emails {#archiving-emails}
 
-Adobe Campaign vous permet de stocker des emails sur un système externe via Cci en ajoutant simplement une adresse email en Cci à votre cible de message. Une fois l&#39;option activée, une copie exacte de tous les messages envoyés sera conservée pour cette diffusion.
+Adobe Campaign vous permet de stocker des emails sur un système externe - via Cci - en ajoutant simplement une adresse email en Cci à la cible de vos messages. Une fois l&#39;option activée, une copie exacte de tous les messages envoyés sera conservée pour cette diffusion.
 
-Pour plus d&#39;informations sur le paramétrage d&#39;un Cci d&#39;email, consultez [cette section](../../installation/using/email-archiving.md).
+Pour plus d&#39;informations sur le paramétrage d&#39;une adresse en Cci d&#39;un email, consultez [cette section](../../installation/using/email-archiving.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ L’encodage par défaut est UTF-8. Si certains fournisseurs de messagerie de vo
 
 Par exemple, vous souhaitez envoyer un email contenant des caractères japonais. Pour vous assurer que tous les caractères s’afficheront correctement à vos destinataires au Japon, vous pouvez utiliser un encodage prenant en charge les caractères japonais plutôt que le format UTF-8 standard.
 
-Pour ce faire, sélectionnez l’option **[!UICONTROL Forcer l’encodage utilisé pour les messages]** dans la section **[!UICONTROL Encodage des caractères]**, puis choisissez un encodage dans la liste déroulante qui s’affiche.
+Pour ce faire, sélectionnez l’option **[!UICONTROL Forcer l&#39;encodage des messages (codepage)]** dans la section **[!UICONTROL Encodage des caractères]**, puis choisissez un encodage dans la liste déroulante qui s’affiche.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
