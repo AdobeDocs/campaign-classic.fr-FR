@@ -5,11 +5,11 @@ user-guide-description: Adobe Campaign lets you coordinate the creation of conve
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0810608c67e6da4d9afa3a366df664594b0b6840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -92,15 +92,15 @@ ht-degree: 99%
 + Envoyer les messages {#sending-messages}
    + [Prise en main du des messages](delivery/using/communication-channels.md)
    + Bonnes pratiques de diffusion {#delivery-bestpractices}
-      + [Découvrez les bonnes pratiques](delivery/using/delivery-best-practices.md)
+      + [Découvrir les bonnes pratiques](delivery/using/delivery-best-practices.md)
       + [Optimisez votre diffusion](delivery/using/optimize-delivery.md)
       + [Utilisez les modèles](delivery/using/use-templates.md)
       + [Créer du contenu personnalisé](delivery/using/design-and-personalize.md)
-      + [Définir l’audience appropriée](delivery/using/define-the-right-audience.md)
+      + [Définir la bonne audience](delivery/using/define-the-right-audience.md)
       + [Vérifier avant envoi](delivery/using/check-before-sending.md)
       + [Trackez et suivez vos diffusions](delivery/using/track-and-monitor.md)
    + Etapes clés lors de la création d&#39;une diffusion {#key-steps-when-creating-a-delivery}
-      + [Commencer avec les diffusions](delivery/using/steps-about-delivery-creation-steps.md)
+      + [Prise en main des diffusions](delivery/using/steps-about-delivery-creation-steps.md)
       + [Créer et identifier la diffusion](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Définir la population cible](delivery/using/steps-defining-the-target-population.md)
       + [Valider la diffusion](delivery/using/steps-validating-the-delivery.md)
@@ -299,7 +299,7 @@ ht-degree: 99%
       + [Publier, suivre et utiliser les données collectées](web/using/publish--track-and-use-collected-data.md)
       + [Configurer un questionnaire](web/using/configuring-surveys.md)
       + [Cas pratique : création d’un formulaire de parrainage d’un ami](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ {#integrating-with-adobe-experience-cloud}
    + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage d&#39;audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
