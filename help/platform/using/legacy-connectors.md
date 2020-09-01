@@ -1,7 +1,7 @@
 ---
-title: Connecteurs hérités
-seo-title: Connecteurs hérités
-description: Connecteurs hérités
+title: Anciens connecteurs
+seo-title: Anciens connecteurs
+description: Anciens connecteurs
 seo-description: null
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Connecteurs hérités {#legacy-connectors}
+# Anciens connecteurs {#legacy-connectors}
 
 Les anciens connecteurs FDA sont toujours pris en charge par Adobe. Il est toutefois recommandé de les remplacer par d’autres solutions plus récentes répertoriées dans cette [page](../../platform/using/specific-configuration-database.md).
 
