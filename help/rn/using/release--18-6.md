@@ -52,7 +52,7 @@ ht-degree: 100%
 
 **Améliorations**
 
-* Les logs d&#39;archivage des emails ont été améliorés, ce qui permet de vérifier plus facilement et plus clairement quels emails ont été diffusés avec succès ou non via l&#39;archivage BCC. (NEO-10675)
+* Les logs d&#39;archivage des emails ont été améliorés, ce qui permet de vérifier plus facilement et plus clairement quels emails ont été diffusés avec succès ou non via l&#39;archivage Cci. (NEO-10675)
 * Correction d&#39;une erreur qui entraînait l&#39;affichage des adresses IP des équilibreurs de charge au lieu de celles des clients dans les broadlogs de tracking. (NEO-11295)
 * Correction d&#39;une erreur aléatoire qui entraînait le remplacement incorrect des propriétés d&#39;une diffusion. (NEO-11015)
 * Correction d&#39;une erreur de syntaxe lors du tri des résultats d&#39;une activité d&#39;enrichissement. (NEO-11394)
