@@ -14,11 +14,11 @@ discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -75,5 +75,5 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 
 >[!NOTE]
 >
->Voir aussi [la section Points](../../delivery/using/deliverability-key-points.md) clés de la délivrabilité.
+>Voir aussi la section [Points clés de la délivrabilité](../../delivery/using/deliverability-key-points.md).
 
