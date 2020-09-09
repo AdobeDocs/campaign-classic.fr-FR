@@ -12,11 +12,11 @@ discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ ht-degree: 44%
 
 Les modèles de diffusion accroissent l&#39;efficacité en offrant des configurations prêtes à l&#39;emploi pour les types d&#39;activité les plus courants. Grâce aux modèles, les marketeurs peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
 
-Learn more about delivery templates in [this section](../../delivery/using/creating-a-delivery-template.md).
+En savoir plus sur les modèles de diffusion dans [cette section](../../delivery/using/creating-a-delivery-template.md).
 
-## Commencer avec les modèles de diffusion {#gs-templates}
+## Prise en main des modèles de diffusion {#gs-templates}
 
-A [delivery template](../../delivery/using/creating-a-delivery-template.md) enables you to define once a set of technical and functional properties that suit your needs and that can be reused for future deliveries. Vous pouvez ensuite gagner du temps et normaliser les diffusions si nécessaire.
+Un [modèle de diffusion](../../delivery/using/creating-a-delivery-template.md) vous permet de définir une fois un ensemble de propriétés techniques et fonctionnelles qui répond à vos besoins et qui peut être réutilisé pour de prochaines diffusions. Vous pouvez ensuite gagner du temps et normaliser les diffusions si nécessaire.
 
-Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de disposer d’un sous-domaine par marque. Une banque peut, par exemple, avoir plusieurs sous-domaines qui correspondent à chacune de ses agences régionales. Si une banque possède le domaine bluebank.com, ses sous-domaines peuvent être @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Disposer d’un modèle de diffusion par sous-domaine vous permet de toujours utiliser les paramètres préconfigurés adéquats pour chaque marque et d’éviter ainsi des erreurs tout en gagnant du temps.
+Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de disposer d’un sous-domaine par marque. Une banque peut, par exemple, avoir plusieurs sous-domaines qui correspondent à chacune de ses agences régionales. Si une banque détient le domaine bluebank.com, ses sous-domaines peuvent être @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Disposer d’un modèle de diffusion par sous-domaine vous permet de toujours utiliser les paramètres préconfigurés adéquats pour chaque marque et d’éviter ainsi des erreurs tout en gagnant du temps.
 
-**Conseil**:  Pour éviter les erreurs de configuration dans le Campaign Standard, nous vous recommandons de duplicata d’un modèle natif et de modifier ses propriétés plutôt que de créer un nouveau modèle.
+**Conseil** : afin d’éviter toute erreur de paramétrage dans Campaign Standard, il est recommandé de dupliquer un modèle natif et d’en modifier les propriétés plutôt que d’en créer un nouveau.
 
 ## Configurer les adresses
 
@@ -47,23 +47,23 @@ Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de dispos
 
 * Adobe recommande de créer des comptes email qui correspondent aux adresses indiquées pour les envois et les réponses. Parlez-en avec votre administrateur du système de messagerie.
 
-Pour configurer les adresses dans l’interface Campaign, procédez comme suit :
+Pour configurer les adresses dans l’interface de Campaign, procédez comme suit :
 
-1. In the [delivery template](../../delivery/using/creating-a-delivery-template.md), click the **[!UICONTROL From]** link. Dans la fenêtre **[!UICONTROL Paramètres d&#39;en-tête email]**, renseignez les champs suivants :
+1. Dans le [modèle de diffusion](../../delivery/using/creating-a-delivery-template.md), cliquez sur le lien **[!UICONTROL De]**. Dans la fenêtre **[!UICONTROL Paramètres d&#39;en-tête email]**, renseignez les champs suivants :
 
    ![](assets/d_best_practices_email_header.png)
 
-1. Dans le champ Adresse **[!UICONTROL de l’]** expéditeur, assurez-vous que le domaine d’adresse est identique au sous-domaine que vous avez délégué à l’Adobe. Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.
+1. Dans le champ **[!UICONTROL Adresse de l’expéditeur]**, assurez-vous que le domaine d’adresse est identique au sous-domaine que vous avez délégué à Adobe. Vous pouvez modifier la partie qui précède le signe « @ », mais pas l’adresse du domaine.
 
-1. Dans le champ **[!UICONTROL De]** , utilisez un nom facilement identifiable par les destinataires, tel que le nom de votre marque, pour augmenter le taux d’ouverture de vos diffusions. Pour améliorer davantage l&#39;expérience du destinataire, vous pouvez ajouter le nom d&#39;une personne, par exemple &quot;Emma from Megastore&quot;.
+1. Dans le champ **[!UICONTROL De]**, utilisez un nom facilement identifiable par les destinataires, tel que le nom de votre marque, pour augmenter le taux d’ouverture de vos diffusions. Pour améliorer davantage l’expérience des destinataires, vous pouvez ajouter le nom d’une personne, par exemple « Emma de Megastore ».
 
-1. Dans les champs de texte **[!UICONTROL d&#39;adresse de]** réponse, l&#39;adresse de l&#39;expéditeur est utilisée par défaut pour les réponses. Toutefois, l’Adobe recommande d’utiliser une adresse réelle existante, telle que l’assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
+1. Dans le champ **[!UICONTROL Nom de l’adresse de réponse]**, l’adresse de l’expéditeur est utilisée par défaut pour les réponses. Adobe recommande toutefois d’utiliser une adresse réelle existante, comme l’assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
 
 ### Configurer une population témoin
 
-Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des destinataires exclus à celui des destinataires qui ont reçu la diffusion. Vous pouvez ensuite mesurer l&#39;efficacité de vos campagnes. En savoir plus sur les Populations témoins [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des destinataires exclus à celui des destinataires qui ont reçu la diffusion. Vous pouvez ensuite mesurer l’efficacité de vos campagnes. En savoir plus sur les populations témoins dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-Pour configurer une Population témoin, cliquez sur le lien **[!UICONTROL À]** . In the **[!UICONTROL Select target]** window, select the **[!UICONTROL Control group]** tab. Vous pouvez extraire une partie de la cible, par exemple un échantillon aléatoire de 5 %.
+Pour configurer une population témoin, cliquez sur le lien **[!UICONTROL Pour]**. Dans la fenêtre **[!UICONTROL Choix de la cible]**, sélectionnez l’onglet **[!UICONTROL Population témoin]**. Vous pouvez extraire une partie de la cible, par exemple un échantillon aléatoire de 5 %.
 
 ![](assets/d_best_practices_control_group.png)
 
@@ -71,8 +71,8 @@ Pour configurer une Population témoin, cliquez sur le lien **[!UICONTROL À]** 
 
 Une typologie contient les règles de vérification qui sont appliquées lors de la phase d&#39;analyse, avant tout envoi.
 
-In the **[!UICONTROL Typology]** tab of the template&#39;s properties, change the default typology according to your needs.
+Dans l’onglet **[!UICONTROL Typologie]** des propriétés du modèle, changez la typologie par défaut en fonction de vos besoins.
 
-Par exemple, pour mieux contrôler le trafic sortant, vous pouvez définir les adresses IP à utiliser en définissant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies dans le fichier de configuration de l’instance. Contactez votre administrateur Adobe Campaign.
+Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
 
-For more on typologies, refer to [this section](../../campaign/using/about-campaign-typologies.md).
+Pour plus d’informations sur les typologies, consultez [cette section](../../campaign/using/about-campaign-typologies.md).
