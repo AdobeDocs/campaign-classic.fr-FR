@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c66718fbbf13486d52b0cc98eae6c854b34030d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3145'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -243,11 +243,11 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Administrateur]**
 
-   Les opérateurs de ce groupe ont un accès complet à l&#39;instance. Les administrateurs sont des utilisateurs qui peuvent accéder aux parties les plus techniques de l’interface. Ils ont le rôle **[!UICONTROL Administration]** et s’assurent que la plateforme est entièrement configurée.
+   Les opérateurs de ce groupe ont un accès complet à l&#39;instance. Les administrateurs sont les utilisateurs pouvant accéder aux parties les plus techniques de l&#39;interface. Ils ont le rôle **[!UICONTROL Administration]** et s’assurent que la plateforme est entièrement configurée.
 
-   Ce groupe contient les droits nommés suivants :
+   Ce groupe contient les droits nommés suivants :
 
-   * **[!UICONTROL ADMINISTRATION]**: droit d&#39;exécuter/créer/modifier/supprimer tout objet tel que le workflow, la diffusion, les scripts, etc.
+   * **[!UICONTROL ADMINISTRATION]** : droit pour exécuter, créer, éditer et supprimer tout objet tel que workflow, diffusion, script, etc.
 
 1. **[!UICONTROL Chargés de diffusion]**
 
@@ -255,8 +255,8 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    Ce groupe contient les droits nommés suivants :
 
-   * **[!UICONTROL PRÉPARER LES DIFFUSIONS]**: droit de créer, de modifier et de début l&#39;analyse diffusion,
-   * **[!UICONTROL DIFFUSIONS]** du début : droit d&#39;approuver les diffusions analysées précédemment.
+   * **[!UICONTROL PRÉPARER DES DIFFUSIONS]** : droit pour créer, éditer et lancer l&#39;analyse des diffusions,
+   * **[!UICONTROL DÉMARRER DES DIFFUSIONS]** : droit pour valider les diffusions préalablement analysées.
 
 1. **[!UICONTROL Chargés d&#39;opération]**
 
@@ -264,8 +264,8 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    Ce groupe contient les droits nommés suivants :
 
-   * **[!UICONTROL INSÉRER DES DOSSIERS]**: droit d&#39;insérer des dossiers dans l&#39;arborescence de l&#39;Adobe Campaign (à condition que vous disposiez de droits d&#39;édition pour les branches concernées),
-   * **[!UICONTROL PROCESSUS]**: droit d&#39;utiliser des workflows.
+   * **[!UICONTROL INSERTION DES DOSSIERS DOSSIERS]** : dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
+   * **[!UICONTROL WORKFLOW]** : droit pour utiliser les workflows.
 
    >[!NOTE]
    >
@@ -296,7 +296,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
    Les opérateurs de ce groupe peuvent créer et gérer des offres. Pour plus d’informations à ce sujet, consultez [cette page](../../interaction/using/operator-profiles.md).
 Ce groupe contient les droits nommés suivants :
 
-   * **[!UICONTROL INSÉRER DES DOSSIERS]**: Droit d&#39;insérer des dossiers dans l&#39;arborescence Adobe Campaign (à condition que vous ayez des droits d&#39;édition pour les branches concernées),
+   * **[!UICONTROL INSERTION DES DOSSIERS]** : dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
    * **[!UICONTROL ÉDITION DES DOSSIERS]** : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
 
 ## Droits nommés {#named-rights}
