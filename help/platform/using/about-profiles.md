@@ -14,22 +14,22 @@ discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '945'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # A propos des profils{#about-profiles}
 
-Les profils (clients, prospects, abonnés au bulletin d&#39;information, etc.) sont centralisés dans la base de données Adobe Campaign. Il existe de nombreux mécanismes possibles pour acquérir des profils et créer cette base de données : collecte en ligne via des formulaires web, importation manuelle ou automatique de fichiers texte, réplication avec des bases de données de société ou d&#39;autres systèmes d&#39;information. Adobe Campaign vous permet d’intégrer des données d’historique marketing, d’informations d’achat, de préférences, de gestion de la relation client et toute donnée d’API pertinente dans une vue consolidée afin d’analyser et d’agir.
+Les profils (clients, prospects, abonnés aux newsletters, etc.) sont centralisés dans la base de données d&#39;Adobe Campaign. De multiples mécanismes d&#39;acquisition de profils et de constitution de cette base sont possibles : collecte en ligne via des formulaires web, imports manuels ou automatisés de fichiers texte, réplication avec bases de données ou autre système d&#39;information de l&#39;entreprise. Adobe Campaign vous permet d’intégrer des données d’historique marketing, des informations d’achat, des préférences, des données CRM et des données d’informations personnelles pertinentes dans une vue consolidée afin d’effectuer une analyse et de prendre des mesures.
 
 Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l&#39;envoi des diffusions (emails, SMS, etc.). Grâce aux données de destinataires stockées dans la base de données, vous pourrez filtrer la cible qui recevra toute diffusion donnée et ajouter les données de personnalisation à votre contenu de diffusion. Il existe d&#39;autres types de profils dans la base de données qui sont conçus pour d&#39;autres utilisations. Par exemple, les profils d&#39;adresses de contrôle sont destinés à tester votre diffusions avant leur envoi à la cible finale.
 
-![](assets/do-not-localize/how-to-video.png) [Comprendre le concept des profils dans la vidéo](#create-profiles-video)
+![](assets/do-not-localize/how-to-video.png) [Comprendre le concept des profils en vidéo](#create-profiles-video)
 
 ## Types de profils {#profile-types}
 
@@ -111,17 +111,17 @@ Vous pouvez obtenir un aperçu du **[!UICONTROL Nombre de profils actifs]** depu
 
 Si vous êtes hébergé sur AWS et que vous utilisez Campaign Classic à partir du build 8931, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
-## Création et gestion de profils {#create-profiles-video}
+## Comment créer et gérer des profils {#create-profiles-video}
 
 Découvrez comment accéder aux données de profil, trier et filtrer les profils et créer et gérer manuellement des profils.
 
-Cette vidéo explique également la conformité de Adobe Campaign Classic avec les réglementations générales de protection des données.
+Cette vidéo explique également la conformité d’Adobe Campaign Classic au RGPD.
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12&captions=fre_fr)
 
 **Voir aussi**
 
-* [Respect de la vie privée à Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
+* [Gestion de la confidentialité dans Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
 
 * [Définir la population cible](../../delivery/using/define-the-right-audience.md)
 
@@ -129,4 +129,4 @@ Cette vidéo explique également la conformité de Adobe Campaign Classic avec l
 
 * [Sélectionner un mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md)
 
-* [Définir l&#39;audience - bonnes pratiques](../../delivery/using/define-the-right-audience.md)
+* [Définir l&#39;audience : bonnes pratiques](../../delivery/using/define-the-right-audience.md)
