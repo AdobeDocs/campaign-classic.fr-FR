@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Les spammeurs font des envois ponctuels pour maintenir leur réputation dans le 
 
 ## Bonnes pratiques {#best-practices}
 
-Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Campaign. Utilisez les liens ci-dessous pour parcourir les rubriques et trouver des conseils.
+Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Campaign. Utilisez les liens ci-dessous pour parcourir les rubriques et trouver des conseils.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
 <tr>
   <td>
     <a href="technical-recommendations.md">
-      <img alt="Optimiser" src="assets/do-not-localize/optimize.svg" width="60px"/>
+      <img alt="Optimisation" src="assets/do-not-localize/optimize.svg" width="60px"/>
     </a>
     <div>
       <a href="technical-recommendations.md">
@@ -138,7 +138,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
     </a>
     <div>
       <a href="monitoring-deliverability.md">
-    <strong>Moniteur</strong>
+    <strong>Surveiller</strong>
     </a>
     </div>
     <p>
@@ -147,7 +147,7 @@ Découvrez les meilleures pratiques en matière de délivrabilité avec Adobe Ca
   </td>
   <td>
     <a href="deliverability-faq.md">
-      <img alt="Optimiser" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
+      <img alt="Optimisation" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
     </a>
     <div>
       <a href="deliverability-faq.md">
