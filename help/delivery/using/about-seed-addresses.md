@@ -14,11 +14,11 @@ discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Les adresses de contrôle permettent de cibler des destinataires qui ne correspo
 
 L&#39;une des principales raisons est la **protection de votre liste de messagerie**. L&#39;insertion d&#39;adresses de contrôle dans votre liste de diffusion vous permet de savoir si elle est utilisée par une tierce partie, car les adresses de contrôle qu&#39;elle contient recevront les diffusions envoyées à la liste de diffusion.
 
-De plus, les adresses de contrôlevous permettent de **prévisualiser et de tester la personnalisation et le rendu des diffusions** avant leur envoi, en leur envoyant des BAT (voir [Utiliser des adresses de contrôle en tant que BAT](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof).
+De plus, les adresses de contrôle vous permettent de **prévisualiser et de tester la personnalisation et le rendu des diffusions** avant leur envoi, en leur envoyant des BAT (voir [Utiliser des adresses de contrôle en tant que BAT](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
 
 Les avantages des adresses de contrôle sont les suivants :
 
