@@ -13,11 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ Vous pouvez importer des destinataires ou les créer manuellement à l’aide de
 
 ## Comment importer des profils ?{#how-to-import-profiles-}
 
-A travers des cas pratiques faciles, découvrez comment [importer des profils](../../platform/using/importing-data.md#generic-import-samples) dans votre base de données. Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html).
+A travers des cas pratiques faciles, découvrez comment [importer des profils](../../platform/using/importing-data.md#generic-import-samples) dans votre base de données. Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/importing-profiles.html).
 
 ## Comment définir la population cible d’une campagne marketing ?{#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-Vous pouvez [utiliser des workflows pour créer une population cible](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) d&#39;une campagne marketing. Découvrez comment créer un workflow de ciblage dans une campagne dans [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-workflow.html).
+Vous pouvez [utiliser des workflows pour créer une population cible](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) d&#39;une campagne marketing. Découvrez comment créer un workflow de ciblage dans une campagne dans [cette vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/creating-a-workflow.html).
 
 ## Comment créer une liste de profils ?{#how-can-i-create-a-list-of-profiles-}
 
 Une liste est un ensemble statique de destinataires qui peut être ciblé dans les actions de diffusion ou mis à jour lors d&#39;opérations d&#39;import ou lors de l&#39;exécution d&#39;un workflow. Par exemple, une population extraite de la base via une requête peut alimenter une liste.
 
-[Pour en savoir plus, cliquez ici](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) sur la façon de créer manuellement une liste. [Cette autre vidéo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) montre comment créer et mettre automatiquement à jour une liste de destinataires dans un workflow.
+[Pour en savoir plus, cliquez ici](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html) sur la façon de créer manuellement une liste. [Cette autre vidéo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html) montre comment créer et mettre automatiquement à jour une liste de destinataires dans un workflow.
 
 ## Comment dédupliquer une population avant d’envoyer un message ?{#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
