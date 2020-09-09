@@ -14,11 +14,11 @@ discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -43,13 +43,13 @@ Un exemple d&#39;utilisation de cette activité est proposé dans cette [section
 
 ## Configuration d’une diffusion récurrente
 
-Une diffusion **** récurrente crée une nouvelle instance de diffusion chaque fois qu’elle s’exécute. Par exemple, si le flux de travail est planifié pour s’exécuter une fois par semaine, cela créera 52 Diffusions après une année. Cela signifie également que le grand journal et les logs de tracking seront séparés par chaque instance de diffusion.
+Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fois qu’elle s’exécute. Par exemple, si le workflow est planifié pour s’exécuter une fois par semaine, 52 diffusions seront créées en une année. Cela signifie également que le broadlog et les logs de tracking seront séparés par chaque instance de diffusion.
 
 ![Diffusion récurrente](assets/delivery_recurring.jpg)
 
-Cette vidéo explique comment configurer une diffusion récurrente et une activité Planificatrice.
+Cette vidéo explique comment configurer une diffusion récurrente et une activité Planificateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12&captions=fre_fr)
 
 >[!NOTE]
 >
