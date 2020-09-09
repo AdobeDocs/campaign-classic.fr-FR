@@ -14,11 +14,11 @@ discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8d36b9fca9624500c5273eb73a1702f077dd60c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
    * un premier alias exposé au grand public pour le tracking et pointant vers la machine sur son IP publique ;
    * un deuxième alias exposé aux utilisateurs métier pour l&#39;accès console et pointant vers la même machine.
 
-* Pare-feu configuré pour ouvrir SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) ports. Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
+* Configuration du pare-feu pour l&#39;ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) . Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
 
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
