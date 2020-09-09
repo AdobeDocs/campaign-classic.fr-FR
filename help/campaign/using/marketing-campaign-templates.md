@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Un modèle d’usine est fourni pour créer une campagne pour laquelle aucune co
 
 La création et le paramétrage des modèles d&#39;opération sont présentés dans la section [Modèles de campagne](#campaign-templates).
 
-Pour en savoir plus sur la création de campagne, reportez-vous à [cette vidéo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+Pour en savoir plus sur la création de campagnes, reportez-vous à [cette vidéo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## Configuration des modules proposés {#configuration-of-the-available-modules}
 
