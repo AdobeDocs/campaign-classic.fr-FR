@@ -14,9 +14,9 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2673'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires 
 >
 >Cette section s&#39;applique aux canaux on-line : email, SMS et notification push.
 
-### Optimiser votre diffusion par le biais des mises en quarantaine    {#optimizing-your-delivery-through-quarantines}
+### Optimiser votre diffusion par le biais des mises en quarantaine     {#optimizing-your-delivery-through-quarantines}
 
 Les profils dont l’adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
@@ -53,15 +53,15 @@ En revanche, en cas d’insertion **en liste bloquée**, le profil ne sera plus 
 >
 >Lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour le désabonnement des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
-## Identifier les adresses en quarantaine    {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine     {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l’ensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion    {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion     {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme    {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme     {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -127,7 +127,7 @@ Les destinataires avec une adresse dont l’état est **[!UICONTROL En quarantai
 
 Vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d’informations sur l’assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
-## Conditions de mise en quarantaine d’une adresse    {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d’une adresse     {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de la diffusion et de la raison attribuée lors de la qualification des messages d&#39;erreur (voir les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
