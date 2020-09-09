@@ -14,9 +14,9 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 100%
 
@@ -66,4 +66,4 @@ Une diffusion (au fil de l’eau) crée une diffusion et des logs de diffusion U
 
 Cette vidéo montre comment configurer une diffusion (au fil de l’eau) avec une requête incrémentale.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
