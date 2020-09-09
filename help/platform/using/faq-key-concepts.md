@@ -13,9 +13,9 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Un workflow peut également faire intervenir des opérateurs afin de notifier ou
 
 ## Comment créer et envoyer un premier email ? {#how-to-create-and-send-a-first-email-}
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/about-email-channel.md) ou [regardez cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html) pour créer un email dans une campagne.
+[Pour en savoir plus, cliquez ici](../../delivery/using/about-email-channel.md) ou [regardez cette vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html) pour créer un email dans une campagne.
 
 ## Comment envoyer des SMS ? {#how-to-send-sms-messages-}
 
