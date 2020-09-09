@@ -1,6 +1,6 @@
 ---
 title: Utilisation du serveur SFTP
-description: En savoir plus sur les meilleures pratiques et le dépannage du serveur SFTP.
+description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
-# Meilleures pratiques et dépannage du serveur SFTP {#sftp-server-usage}
+# Bonnes pratiques et résolution des problèmes liés au serveur SFTP {#sftp-server-usage}
 
 ## Bonnes pratiques d&#39;utilisation du serveur SFTP {#sftp-server-best-practices}
 
@@ -54,7 +54,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 >
 >Si vous utilisez votre propre serveur SFTP, suivez autant que possible les recommandations mentionnées ci-dessus.
 
-## Problèmes de connexion avec le serveur SFTP hébergé par Adobe {#sftp-server-troubleshooting}
+## Problèmes de connexion liés au serveur SFTP hébergé par Adobe {#sftp-server-troubleshooting}
 
 La section ci-après indique les informations à vérifier et à fournir à l’équipe de support Adobe via un [ticket de support](https://support.neolane.net) lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés Adobe.
 
@@ -95,11 +95,11 @@ La section ci-après indique les informations à vérifier et à fournir à l’
 1. Si vous utilisez une authentification par clé, vérifiez que la clé que vous utilisez est la même que celle fournie pour la prise en charge de la configuration de l’instance.
 1. Si vous utilisez FileZilla ou un outil FTP équivalent, fournissez les détails des logs de connexion dans le ticket de support.
 
-## Erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot;
+## Erreur « Impossible de résoudre le nom d’hôte »
 
-Cette section fournit des informations sur les vérifications et les actions à effectuer lors de l&#39;obtention de l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot; après la connexion du Campaign Classic au serveur FTP.
+Cette section fournit des informations sur les vérifications et les actions à effectuer lors de l’affichage de l’erreur « Impossible de résoudre le nom d’hôte » après la connexion de Campaign Classic au serveur FTP.
 
-Le journal de processus affiche les journaux suivants :
+Le journal des workflows affiche les logs suivants :
 
 ```
 16/05/2016 12:49:03    fileTransfer    Upload error in cURL
@@ -109,35 +109,35 @@ Le journal de processus affiche les journaux suivants :
 16/05/2016 12:49:03    fileTransfer    1 file(s) to transfer
 ```
 
-Cette erreur se produit lorsque vous tentez de connecter le serveur FTP à partir d’un flux de travail et de télécharger les fichiers à partir du serveur, alors que vous pouvez toujours vous connecter via FTP à l’aide de FileZilla ou WinSCP.
+Cette erreur se produit lorsque vous tentez de connecter le serveur FTP à partir d’un workflow et de télécharger les fichiers à partir du serveur, alors que vous pouvez toujours vous connecter via FTP à l’aide de FileZilla ou WinSCP.
 
-Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être résolu correctement. Pour résoudre les problèmes, procédez comme suit :
+Cette erreur indique que le nom de domaine du serveur FTP n&#39;a pas pu être résolu correctement. Pour résoudre le problème, procédez comme suit :
 
-1. Résolution des problèmes de configuration **du serveur** DNS :
+1. Résolution des problèmes de **configuration du serveur DNS** :
 
    1. Vérifiez si le nom du serveur a été ajouté au serveur DNS local.
-   1. Si oui, exécutez la commande suivante sur le serveur Adobe Campaign pour obtenir l’adresse IP :
+   1. Si oui, exécutez la commande suivante sur le serveur Adobe Campaign pour obtenir l’adresse IP :
 
       `nslookup <server domain name>`
 
-      Ceci confirme que le serveur FTP fonctionne et est accessible à partir du serveur d’applications Adobe Campaign.
+      Cela confirme que le serveur FTP fonctionne et est accessible à partir du serveur applicatif Adobe Campaign.
 
-1. Dépannage des journaux **de** session :
+1. Résolution des problèmes liés aux **logs de session** :
 
-   1. Dans le flux de travail, cliquez sur l&#39;activité de transfert [de](../../workflow/using/file-transfer.md) fichiers en appuyant sur la touche doublon.
-   1. Accédez à l’onglet Transfert **[!UICONTROL de]** fichier, puis cliquez sur Paramètres **** avancés.
-   1. Cochez l’option **[!UICONTROL Afficher les journaux]** de session.
+   1. Dans le workflow, double-cliquez sur l&#39;activité [Transfert de fichier](../../workflow/using/file-transfer.md).
+   1. Accédez à l’onglet **[!UICONTROL Transfert de fichier]**, puis cliquez sur **[!UICONTROL Paramètres avancés]**.
+   1. Cochez l’option **[!UICONTROL Afficher les logs de la session]**.
 
       ![](assets/sftp-error-display-logs.png)
 
-   1. Accédez à l&#39;audit du processus et vérifiez si les journaux affichent l&#39;erreur &quot;Impossible de résoudre le nom d&#39;hôte&quot;.
+   1. Accédez au workflow Audit et vérifiez si les logs affichent l’erreur « Impossible de résoudre le nom d’hôte ».
 
-1. Si le serveur SFTP est hébergé par Adobe, vérifiez si l’adresse IP est ajoutée à la liste autorisée en contactant le service d’assistance clientèle.
+1. Si le serveur SFTP est hébergé par Adobe, vérifiez si l’adresse IP est ajoutée à la liste autorisée en contactant l’Assistance clientèle.
 
-   Sinon, valider :
+   Sinon, validez :
 
-   * Le mot de passe ne contient pas &quot;@&quot;. La connexion a échoué si le mot de passe contient &quot;@&quot;.
-   * Aucun problème de pare-feu ne peut gêner la communication entre le serveur d’applications Adobe Campaign et le serveur SFTP.
-   * Exécutez les commandes tracert et telnet du serveur de campagne vers le sftp pour vérifier s’il y a des problèmes de connexion.
+   * Le mot de passe ne contient pas le caractère « @ ». La connexion a échoué si le mot de passe contient le caractère « @ ».
+   * Il n’existe aucun problème de pare-feu qui peut gêner la communication entre le serveur applicatif Adobe Campaign et le serveur SFTP.
+   * Exécutez les commandes tracert et telnet du serveur de campagne vers le serveur sftp pour vérifier s’il y a des problèmes de connexion.
    * Il n&#39;y a pas de problème de protocole de communication.
    * Le port est ouvert.
