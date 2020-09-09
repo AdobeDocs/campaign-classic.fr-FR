@@ -12,21 +12,21 @@ discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # Branchement{#fork}
 
-Une fourchette vous permet d’activer toutes ses activités sortantes en parallèle.
+Un branchement permet d’activer toutes ses activités sortantes en parallèle.
 
-Par exemple, vous pouvez utiliser l’activité dans le contexte de la création de contenu et de l’automatisation de l’envoi de diffusions, afin de lancer simultanément le calcul de la cible et la création de contenu. A dedicated use case is available in [this section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
+Par exemple, vous pouvez utiliser l’activité dans le cadre de la création de contenu et de l’automatisation de l’envoi des diffusions, afin de lancer simultanément le calcul de la cible et la création de contenu. Un cas pratique dédié est disponible dans [cette section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
-Pour configurer l’activité, ouvrez-la, puis définissez le numéro et l’étiquette des transitions sortantes de votre choix.
+Pour configurer l’activité, ouvrez-la, puis définissez le nombre et le libellé des transitions sortantes de votre choix.
 
 ![](assets/s_user_segmentation_fork.png)
