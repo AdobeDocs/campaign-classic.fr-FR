@@ -14,9 +14,9 @@ discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2454'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Vous pouvez configurer les types de comptes externes suivants :
 * [Compte externe Facebook Connect](#facebook-connect-external-account)
 * [Compte externe d’instance d’exécution](#execution-instance-external-account)
 * [Compte externe Adobe Experience Cloud](#adobe-experience-cloud-external-account)
-* [Compte externe SFTP  ](#sftp-external-account)
+* [Compte externe SFTP](#sftp-external-account)
 * [Compte externe Adobe Experience Manager](#adobe-experience-manager-external-account)
 * [Compte externe Amazon Simple Storage Service (S3)](#amazon-simple-storage-service--s3--external-account)
 * [Compte externe Azure](#azure-external-account)
@@ -341,7 +341,7 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, v
 
 Pour plus d’informations sur cette configuration, consultez [cette page](../../integrations/using/configuring-ims.md).
 
-## Compte externe SFTP        {#sftp-external-account}
+## Compte externe SFTP         {#sftp-external-account}
 
 Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
 
