@@ -14,11 +14,11 @@ discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 Cette intégration peut être utilisée, par exemple, pour créer une newsletter dans Adobe Experience Manager, qui sera ensuite utilisée dans le cadre d&#39;une campagne email dans Adobe Campaign.
 
-Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégration, consultez ce [guide pas à pas](https://helpx.adobe.com/campaign/kb/acc-aem.html).
+Pour obtenir un exemple plus détaillé de l&#39;utilisation de cette intégration, consultez ce [guide pas à pas](https://helpx.adobe.com/fr/campaign/kb/acc-aem.html).
 
 **Depuis Adobe Experience Manager :**
 
