@@ -14,11 +14,11 @@ discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 En configurant des champs de contenu conditionnel, vous pouvez créer une personnalisation dynamique basée sur le profil du destinataire, par exemple. Les blocs de texte et/ou les images sont remplacés lorsqu&#39;une condition particulière est remplie.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#conditionnal-content-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#conditionnal-content-video)
 
 
 ## Utiliser des conditions dans un email {#using-conditions-in-an-email}
@@ -117,8 +117,8 @@ Dans l’exemple ci-dessous, vous allez découvrir comment créer un email multi
    >
    >Comme aucune autre version n&#39;a été définie dans le contenu de l&#39;email, veillez à filtrer la population cible avant d&#39;envoyer l&#39;email.
 
-## Comment créer un bulletin d&#39;information multilingue avec du contenu conditionnel {#conditionnal-content-video}
+## Comment créer une newsletter multilingue avec du contenu conditionnel {#conditionnal-content-video}
 
-Découvrez comment ajouter du contenu conditionnel à une diffusion sur l’exemple d’une newsletter multilingue.
+Découvrez comment ajouter du contenu conditionnel à une diffusion en prenant pour exemple une newsletter multilingue.
 
->[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12&captions=fre_fr)
