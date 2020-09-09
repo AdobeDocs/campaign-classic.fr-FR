@@ -14,18 +14,18 @@ discoiquuid: 0e67d9dd-3ee8-4c06-98a4-3a2c644b6c0a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # Créer un modèle de diffusion{#creating-a-delivery-template}
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#delivery-template-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#delivery-template-video)
 
 ## Transformer une diffusion existante en modèle {#converting-an-existing-delivery-to-a-template}
 
@@ -76,20 +76,20 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 >
 >Afin d&#39;éviter toute erreur de paramétrage, il est recommandé de dupliquer un modèle natif et d&#39;en modifier les propriétés plutôt que de créer un nouveau modèle.
 
-## Configuration d’un modèle de diffusion {#delivery-template-video}
+## Comment configurer un modèle de diffusion {#delivery-template-video}
 
 La vidéo suivante montre comment configurer un modèle pour une diffusion ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12&captions=fre_fr)
 
-## Configuration des propriétés des modèles de diffusion
+## Comment configurer les propriétés des modèles de diffusion
 
-La vidéo suivante montre comment définir les propriétés du modèle de diffusion et explique en détail chaque propriété.
+La vidéo suivante montre comment définir les propriétés des modèles de diffusion et explique en détail chaque propriété.
 
->[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12&captions=fre_fr)
 
 ## Comment déployer un modèle de diffusion ad hoc
 
-Cette vidéo explique comment déployer un modèle de diffusion de messagerie ad hoc et explique la différence entre une diffusion de messagerie et un processus de diffusion.
+Cette vidéo montre comment déployer un modèle de diffusion email ad hoc. Elle explique aussi la différence entre une diffusion email et un workflow de diffusion.
 
->[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12&captions=fre_fr)
