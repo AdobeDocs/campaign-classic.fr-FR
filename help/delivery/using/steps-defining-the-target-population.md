@@ -14,11 +14,11 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1725'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,20 +32,20 @@ Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible
 * Les principaux destinataires de la diffusion. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
 * Les destinataires des messages de BAT pour configurer un cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-De plus, si la diffusion est incluse dans une campagne marketing, vous pouvez également définir des [adresses de contrôle](../../delivery/using/about-seed-addresses.md)et des [Populations témoins](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+De plus, si la diffusion est incluse dans une campagne marketing, vous pouvez également définir des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [populations témoins](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 ## Sélection des principaux destinataires de la diffusion {#selecting-the-main-target}
 
-Dans la plupart des cas, la cible principale est extraite de la base de données Adobe Campaign (mode par défaut). Cependant, les destinataires peuvent également être stockés dans un fichier externe. En savoir plus dans [cette section](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+Dans la plupart des cas, la cible principale est extraite de la base de données Adobe Campaign (mode par défaut). Cependant, il est également possible de stocker les destinataires dans un fichier externe. En savoir plus dans [cette section](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
-Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
+Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
-1. Dans l’éditeur de diffusions, sélectionnez **[!UICONTROL À]**.
-1. Si les destinataires sont stockés dans la base de données, choisissez la première option.
+1. Dans l’éditeur de diffusion, sélectionnez **[!UICONTROL Pour]**.
+1. Si les destinataires sont stockés dans la base de données, sélectionnez la première option.
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon **nms:destinataire** schéma.
+1. Sélectionnez le mapping de ciblage dans la liste déroulante **[!UICONTROL Mapping de ciblage]** . Le mapping de ciblage par défaut d&#39;Adobe Campaign est **[!UICONTROL Destinataire]**, selon le schéma **nms:destinataire**.
 
    D’autres mappings de ciblage sont disponibles et certains d’entre eux peuvent être liés à votre configuration spécifique. Pour plus d’informations sur les mappings de ciblage, voir la section [Choisir un mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md).
 
@@ -174,7 +174,7 @@ Vous pouvez réduire la taille de la population cible. Pour ce faire, indiquez l
 
 Le Bon à Tirer (BAT) est un message spécifique qui permet de tester une diffusion avant l&#39;envoi à la cible principale. Les destinataires du BAT sont chargés de la validation du message, tant sur son contenu que sur sa forme.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#seeds-and-proofs-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#seeds-and-proofs-video)
 
 
 Pour sélectionner la cible des BAT, procédez comme suit :
@@ -233,15 +233,15 @@ Vous pouvez utiliser des **[!UICONTROL Adresses de contrôle]** en tant que cibl
 
 A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de contrôle]**, vous pouvez cumuler la définition d&#39;une cible spécifique au BAT et l&#39;utilisation des adresses de contrôle. Les paramétrages correspondants sont alors définis dans deux sous-onglets distincts.
 
-## Comment gérer les semences et les BAT dans un courrier électronique {#seeds-and-proofs-video}
+## Comment gérer l’adresse de contrôle et les BAT dans un email {#seeds-and-proofs-video}
 
-Dans cette vidéo vous apprendrez comment ajouter des graines et des BAT à un email existant et comment l&#39;envoyer.
+Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l&#39;envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=fre_fr)
 
 Voir aussi :
 * [Choisir la cible du BAT](#selecting-the-proof-target)
 
-* [A propos des adresses de départ](../../delivery/using/about-seed-addresses.md)
+* [À propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md)
 
 * [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
