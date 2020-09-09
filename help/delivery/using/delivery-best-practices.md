@@ -1,5 +1,5 @@
 ---
-title: Recommandations relatives à la diffusion Campaign
+title: Bonnes pratiques de diffusion Campaign
 seo-title: Bonnes pratiques de diffusion
 page-status-flag: never-activated
 uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
@@ -12,18 +12,18 @@ discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e7dfc5cebf6b59d1b7e718fcab289691d8b76de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 
 # Bonnes pratiques de diffusion {#delivery-best-practices}
 
-Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi de diffusions avec Adobe Campaign. Utilisez les liens ci-dessous pour parcourir les rubriques et trouver des conseils.
+Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diffusions avec Adobe Campaign. Cliquez sur les liens ci-dessous pour parcourir les rubriques et trouver des conseils.
 
 <table>
 <tr>
@@ -33,11 +33,11 @@ Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi
     </a>
     <div>
       <a href="optimize-delivery.md">
-    <strong>Optimisez votre diffusion</strong>
+    <strong>Optimiser une diffusion</strong>
     </a>
     </div>
     <p>
-    <em>Sécuriser et optimiser le processus d'envoi</em>
+    <em>Sécurisez et optimisez le processus d'envoi</em>
     <p>
   </td>
    <td>
@@ -46,11 +46,11 @@ Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi
     </a>
     <div>
       <a href="use-templates.md">
-    <strong>Utilisez les modèles</strong>
+    <strong>Utiliser des modèles</strong>
     </a>
     </div>
     <p>
-    <em>Faciliter et affiner les nouvelles diffusions</em>
+    <em>Facilitez et accélérez les nouvelles diffusions</em>
     <p>
   </td>
   <td>
@@ -63,7 +63,7 @@ Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi
     </a>
     </div>
     <p>
-    <em>Appliquer les paramètres corrects</em>
+    <em>Appliquez les paramètres corrects</em>
     <p>
   </td>
 </tr>
@@ -74,7 +74,7 @@ Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi
     </a>
     <div>
       <a href="define-the-right-audience.md">
-    <strong>Définir l’audience appropriée</strong>
+    <strong>Définir la bonne audience</strong>
     </a>
     </div>
     <p>
@@ -91,7 +91,7 @@ Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi
     </a>
     </div>
     <p>
-    <em>Éviter les erreurs courantes</em>
+    <em>Évitez les erreurs courantes</em>
     <p>
   </td>
   <td>
@@ -100,11 +100,11 @@ Découvrez les meilleures pratiques relatives à la conception et à l&#39;envoi
     </a>
     <div>
       <a href="track-and-monitor.md">
-    <strong>Trackez et suivez vos diffusions</strong>
+    <strong>Tracker et surveiller</strong>
     </a>
     </div>
     <p>
-    <em>Contrôler l'envoi et résoudre les problèmes</em>
+    <em>Contrôlez l'envoi et résolvez les problèmes</em>
     <p>
   </td>
 </tr>
@@ -114,6 +114,6 @@ Voir aussi :
 
 * [Prise en main de la délivrabilité](../../delivery/using/about-deliverability.md)
 
-* [Etapes de création de diffusion](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [Étapes de création de diffusion](../../delivery/using/steps-about-delivery-creation-steps.md)
 
-* [Liste de contrôle Sécurité et confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html)
+* [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html)
