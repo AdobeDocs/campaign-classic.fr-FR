@@ -14,11 +14,11 @@ discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 Ces blocs de personnalisation sont dynamiques, personnalisés et possèdent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Voir [Insérer des blocs de personnalisation](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#personalization-blocks-video)
 
 Les blocs de personnalisation sont accessibles notamment à partir du nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir [Blocs de personnalisation d’usine](#out-of-the-box-personalization-blocks)).
 
@@ -162,8 +162,8 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
    * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]**.
 
-## Personnalisation des courriers électroniques à l’aide de blocs de contenu dynamiques {#personalization-blocks-video}
+## Personnalisation des emails à l’aide de blocs de contenu dynamique {#personalization-blocks-video}
 
-Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion de messagerie.
+Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=fre_fr)
