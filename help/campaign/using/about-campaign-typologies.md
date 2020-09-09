@@ -14,11 +14,11 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 78%
 
 Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clients et des stratégies de communication de l’entreprise.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#typologies-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#typologies-video)
 
 >[!NOTE]
 >
@@ -73,15 +73,15 @@ Pendant la préparation de la diffusion, les destinataires sont exclus lorsque l
 
 ## Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie {#typologies-video}
 
-Cette vidéo explique comment mettre en oeuvre la gestion de la fatigue à Adobe Campaign Classic en exploitant les règles de typologie.
+Cette vidéo explique comment mettre en œuvre la gestion de la fatigue dans Adobe Campaign Classic en utilisant les règles de typologie.
 
->[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12&captions=fre_fr)
 
 ## Comment configurer la gestion de la fatigue à l&#39;aide de filtres prédéfinis
 
-La gestion de la fatigue contrôle la fréquence et la quantité des messages afin d&#39;éviter la sollicitation excessive de destinataires. Si votre instance de campagne ne contient pas le module d&#39;optimisation de campagne, vous pouvez configurer un filtre prédéfini qui filtrera la population de cibles selon le nombre de messages reçus. Cette vidéo explique comment implémenter la gestion de la fatigue dans Adobe Campaign Classic à l&#39;aide de filtres.
+La gestion de la fatigue contrôle la fréquence et le nombre des messages afin d&#39;éviter une sollicitation excessive des destinataires. Si votre instance ne contient pas le module d&#39;optimisation de campagne, vous pouvez configurer un filtre prédéfini qui filtrera la population cible en fonction du nombre de messages reçus. Cette vidéo explique comment implémenter la gestion de la fatigue dans Adobe Campaign Classic à l&#39;aide de filtres.
 
->[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12&captions=fre_fr)
 
 **Rubrique connexe**
 
@@ -89,4 +89,4 @@ La gestion de la fatigue contrôle la fréquence et la quantité des messages af
 
 * [A propos des typologies de campagne](../../campaign/using/pressure-rules.md)
 
-* [Gestion de la fatigue marketing avec les règles de pression](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+* [Gestion de la fatigue marketing avec les règles de pression](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
