@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 80de051cde62038c11246f8da08a7e00505a3313
 workflow-type: tm+mt
 source-wordcount: '1631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 Adobe Campaign permet de tester le nouveau format interactif [AMP for Email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
-Dans cette version, vous pouvez :
+Dans cette version, vous pouvez :
 * tester la diffusion des emails AMP à des adresses spécifiques correctement configurées ;
 * diffuser des emails AMP à des adresses Gmail, Outlook ou Mail.ru après enregistrement auprès des fournisseurs correspondants.
 
@@ -50,7 +50,7 @@ AMP for Email est compatible avec les emails existants. La version AMP du messag
 
 Pour plus d’informations sur le format d’email AMP, les spécifications et les exigences, consultez la documentation [destinée aux développeurs AMP](https://amp.dev/fr/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#amp-email-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#amp-email-video)
 
 ## Étapes clés d’utilisation d’AMP for Email avec Adobe Campaign {#key-steps-to-use-amp}
 
@@ -213,7 +213,7 @@ Si, par exemple, vous avez inclus une liste de produits dans votre email, lors d
 >
 >Par défaut, l’option **[!UICONTROL Inclusion AMP]** est définie sur **[!UICONTROL Non]**.
 
-## Comment activer et utiliser AMP pour les courriers électroniques {#amp-email-video}
+## Comment activer et utiliser AMP pour les emails {#amp-email-video}
 
 La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign Classic et présente son utilisation.
 
