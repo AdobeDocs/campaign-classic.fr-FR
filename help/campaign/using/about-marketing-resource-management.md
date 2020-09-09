@@ -14,11 +14,11 @@ discoiquuid: 6101e083-3754-41e1-8a93-021b1a771dc0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ Dans le contexte d&#39;Adobe Campaign, les notions suivantes doivent être défi
 >
 >L&#39;espace de travail général d&#39;Adobe Campaign est présenté dans [cette section](../../platform/using/adobe-campaign-workspace.md).
 >  
->All functionalities linked to deliveries and communication channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Toutes les fonctionnalités relatives aux diffusions et aux canaux de communication sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 >
 >Toutes les fonctionnalités liées aux campagnes sont détaillées dans [Accéder aux campagnes marketing](../../campaign/using/accessing-marketing-campaigns.md).
 
 En complément, les plans et programmes d&#39;Adobe Campaign proposent des fonctionnalités supplémentaires :
 
-* Gestion budgétaire. For more on this, refer to [Controlling costs](../../campaign/using/controlling-costs.md)
+* Gestion budgétaire. Voir à ce sujet la section [Maîtriser les coûts](../../campaign/using/controlling-costs.md).
 
 * Gestion des tâches. Voir à ce sujet la section [Créer et gérer les tâches](../../campaign/using/creating-and-managing-tasks.md)
 
