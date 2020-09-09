@@ -11,11 +11,11 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00a9b7def9d0ad0190c389c6bcde431f8e2f2b44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,14 +38,14 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 * [Automatisation de la création, de l’édition et de la publication de contenu](../../delivery/using/automating-via-workflows.md#examples)
 
-## Contrôle  {#monitoring}
+## Contrôle   {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
 * [Envoyer un rapport à une liste](../../workflow/using/sending-a-report-to-a-list.md)
 * [Workflow de supervision](../../workflow/using/supervising-workflows.md)
 * [Envoyer des alertes personnalisées aux opérateurs](../../workflow/using/sending-personalized-alerts-to-operators.md)
-* [Configuration d’un processus d’approbation de destinataire avant l’envoi d’une diffusion](../../workflow/using/using-the-local-approval-activity.md)
+* [Configuration d’un processus de validation de destinataire avant l’envoi d’une diffusion](../../workflow/using/using-the-local-approval-activity.md)
 
 ## Data management {#management}
 
@@ -72,4 +72,4 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Création d&#39;un filtre](../../workflow/using/creating-a-filter.md)
 * [Filtrer les destinataires en double](../../workflow/using/filtering-duplicated-recipients.md)
 * [Appeler une variable d&#39;instance dans une requête](../../workflow/using/javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
-* [Application d’un pourcentage partagé à une population](../../workflow/using/javascript-scripts-and-templates.md#example)
+* [Application d’un pourcentage de partage à une population](../../workflow/using/javascript-scripts-and-templates.md#example)
