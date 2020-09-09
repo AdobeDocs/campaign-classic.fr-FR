@@ -14,11 +14,11 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -54,16 +54,16 @@ Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée
 
 La transition associée au complémentaire possède les mêmes paramètres.
 
-## Comment configurer une diffusion continue
+## Comment configurer une diffusion (au fil de l’eau)
 
-Cette section explique comment configurer une diffusion continue.
+Cette section explique comment configurer une diffusion (au fil de l’eau).
 
-The **continuous delivery** lets you add new recipients to an existing delivery and avoids you having to create a new delivery each time a new recipient is added. Vous pouvez mettre à jour la création directement dans le processus de campagne et le modèle sera mis à jour dans le dossier modèle de diffusion Resource.
+Une **diffusion (au fil de l’eau)** permet d&#39;ajouter de nouveaux destinataires à une diffusion existante, ce qui évite d&#39;avoir à créer une diffusion chaque fois qu’un nouveau destinataire est ajouté. Vous pouvez mettre à jour le contenu créatif directement dans le workflow de campagne et le modèle sera mis à jour dans le dossier Ressource du modèle de diffusion.
 
-Une diffusion continue crée une diffusion et des logs de diffusion UNIQUES (largeLog) et des logs de tracking qui font référence à l&#39;ajout d&#39;une diffusion chaque fois qu&#39;elle s&#39;exécute.
+Une diffusion (au fil de l’eau) crée une diffusion et des logs de diffusion UNIQUES (broadLog) et des logs de tracking qui font référence à l&#39;ajout d&#39;une diffusion chaque fois qu&#39;elle s&#39;exécute.
 
-![Diffusion continue](assets/delivery_continuous.jpg)
+![Diffusion (au fil de l’eau)](assets/delivery_continuous.jpg)
 
-Cette vidéo montre comment configurer une diffusion continue avec une requête incrémentielle.
+Cette vidéo montre comment configurer une diffusion (au fil de l’eau) avec une requête incrémentale.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=fre_fr)
