@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité dans la vidéo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Créer des diffusions {#creating-deliveries}
 
@@ -81,11 +81,11 @@ Le mode de fonctionnement du module de workflow est détaillé dans le guide [Au
 >
 >Dans une même campagne, vous ne pouvez pas configurer plus de 28 workflows. Au-delà de cette limite, les workflows supplémentaires ne sont pas visibles dans l&#39;interface et peuvent générer des erreurs.
 
-### Création d’un courrier électronique dans une campagne {#create-email-video}
+### Comment créer un email dans une campagne {#create-email-video}
 
-Cette vidéo explique comment créer une campagne et un courriel à Adobe Campaign Classic.
+Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=fre_fr)
 
 
 #### Créer un workflow de ciblage {#creating-a-targeting-workflow}
@@ -228,7 +228,7 @@ Vous pouvez définir une population témoin au niveau de l&#39;opération : ell
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population témoin](#adding-a-population).
 
 #### Activation de la population témoin pour une diffusion {#activating-the-control-group-for-a-delivery}
 
@@ -247,7 +247,7 @@ Par défaut, le paramétrage de la population témoin défini au niveau de l&#39
 1. Cliquez sur l&#39;onglet **[!UICONTROL Population témoin]**, puis sélectionnez **[!UICONTROL Activer et éditer le paramétrage de la population témoin]**.
 1. Cliquez sur **[!UICONTROL Editer...]** pour paramétrer la population témoin.
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population témoin](#adding-a-population).
 
 #### Extraire la population témoin de la cible principale {#extracting-the-control-group-from-the-main-target}
 
@@ -266,7 +266,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin
 
 Ce paramétrage correspond à celui d&#39;une activité de partage dans le workflow, qui permet d&#39;éclater une cible en plusieurs sous-ensembles. La population témoin correspond à l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/architecture.md).
 
-### Adding a control group {#adding-a-population}
+### Ajouter une population témoin {#adding-a-population}
 
 Vous pouvez définir une nouvelle population qui sera utilisée comme population témoin. Cette population peut être issue d&#39;un groupe de destinataires ou construite via une requête spécifique.
 
