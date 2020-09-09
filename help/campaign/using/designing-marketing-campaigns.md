@@ -14,9 +14,9 @@ discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
 ht-degree: 100%
 
@@ -68,5 +68,6 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Une composition est une description structurée d&#39;une diffusion. Chaque diffusion peut référencer une composition qui contient, par exemple, les offres associées, des documents à joindre ou un lien vers des magasins. En fonction de la composition sélectionnée, telle ou telle offre sera référencée dans la diffusion.
 
-   Voir à ce sujet la section [Associer et structurer les ressources liées via une composition de diffusion](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   Voir à ce sujet la section [Associer et structurer les ressources liées via une composition
+de diffusion](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
