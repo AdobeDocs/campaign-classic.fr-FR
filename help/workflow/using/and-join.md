@@ -14,11 +14,11 @@ discoiquuid: 075206aa-ff7b-4fa8-a05d-14a29fb119ba
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 56%
 
 Un rendez-vous ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, donc quand toutes les activités précédentes sont terminées. Cela permet de s&#39;assurer que certaines activités sont bien terminées avant de continuer l&#39;exécution du workflow.
 
-Par exemple, vous pouvez utiliser une activité de jointure ET dans le contexte de l’automatisation de la création de contenu et de l’envoi de diffusions, afin de vous assurer qu’une diffusion n’est lancée qu’une fois les étapes d’interrogation de cible et de mise à jour du contenu terminées. A dedicated use case is available in [this section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
+Par exemple, vous pouvez utiliser une activité Rendez-vous dans le cadre de la création de contenu et de l’automatisation de l’envoi de diffusions, afin de vous assurer qu’une diffusion n’est lancée qu’une fois les étapes d’interrogation de cible et de mise à jour du contenu terminées. Un cas pratique dédié est disponible dans [cette section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
 
 ![](assets/and-join-usage.png)
 
@@ -37,4 +37,4 @@ La transition sortante ne peut contenir que l&#39;une des populations des transi
 
 >[!CAUTION]
 >
->In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. Voir à ce sujet la section [](../../workflow/using/javascript-scripts-and-templates.md#event-variables).
+>Dans le cas des activités de type **Rendez-vous**, les variables sont fusionnées. Toutefois, si une même variable est définie deux fois, il y a conflit et la valeur reste indéterminée. Voir à ce sujet la section [](../../workflow/using/javascript-scripts-and-templates.md#event-variables).
