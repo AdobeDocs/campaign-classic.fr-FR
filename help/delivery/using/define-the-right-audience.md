@@ -1,6 +1,6 @@
 ---
-title: Définir la bonne audience
-seo-title: Définir la bonne audience
+title: Définir l’audience appropriée
+seo-title: Définir l’audience appropriée
 page-status-flag: never-activated
 uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
 contentOwner: sauviat
@@ -21,7 +21,7 @@ ht-degree: 100%
 ---
 
 
-# Définir la bonne audience {#define-the-right-audience}
+# Définir l’audience appropriée {#define-the-right-audience}
 
 La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
 
