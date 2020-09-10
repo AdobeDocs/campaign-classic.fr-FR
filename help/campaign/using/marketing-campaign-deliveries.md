@@ -1,7 +1,7 @@
 ---
-title: Diffusions d'opérations marketing
-seo-title: Diffusions d'opérations marketing
-description: Diffusions d'opérations marketing
+title: Diffusions de campagnes marketing
+seo-title: Diffusions de campagnes marketing
+description: Diffusions de campagnes marketing
 seo-description: En savoir plus sur les diffusions d'opérations marketing
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Diffusions d&#39;opérations marketing {#marketing-campaign-deliveries}
+# Diffusions de campagnes marketing {#marketing-campaign-deliveries}
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
 
