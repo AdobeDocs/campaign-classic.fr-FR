@@ -1,7 +1,7 @@
 ---
-title: À propos de la table des destinataires par défaut
-seo-title: À propos de la table des destinataires par défaut
-description: À propos de la table des destinataires par défaut
+title: À propos de la table des destinataires personnalisée
+seo-title: À propos de la table des destinataires personnalisée
+description: À propos de la table des destinataires personnalisée
 seo-description: null
 page-status-flag: never-activated
 uuid: 4b162da4-90d2-44ff-9f89-ff0275540359
@@ -14,16 +14,16 @@ discoiquuid: c3ff8462-e47e-4637-8213-769fdeb86a57
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c76ce3e6da41a80d1df2adfcb17fd7c0f85b894
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
 ht-degree: 100%
 
 ---
 
 
-# À propos de la table des destinataires par défaut{#about-custom-recipient-table}
+# À propos de la table des destinataires personnalisée{#about-custom-recipient-table}
 
 Cette section présente les principes d&#39;utilisation d&#39;une table de destinataires non standard.
 
