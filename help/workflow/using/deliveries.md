@@ -1,7 +1,7 @@
 ---
-title: Deliveries
-seo-title: Deliveries
-description: Deliveries
+title: Diffusions
+seo-title: Diffusions
+description: Diffusions
 seo-description: null
 page-status-flag: never-activated
 uuid: d323eb4d-937b-4b37-8400-942336f0a1b4
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Deliveries{#deliveries}
+# Diffusions{#deliveries}
 
 Les workflows présentés ci-dessous sont installés par défaut.
 
