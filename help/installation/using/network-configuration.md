@@ -89,7 +89,7 @@ Pour le processus de récupération des mails entrants (**nlserver inMail**), le
  </tbody> 
 </table>
 
-### Serveur applicatif n°{#application-server}
+### Serveur applicatif {#application-server}
 
 Pour le serveur applicatif (**nlserver web**), les ports suivants doivent être ouverts :
 
@@ -142,7 +142,7 @@ Pour le client riche Adobe Campaign (**nlclient**), les ports suivants doivent �
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p>443/tcp (https)</p><br /> </td> 
-   <td> Serveur applicatif n°<br /> </td> 
+   <td> Serveur applicatif<br /> </td> 
    <td> Trafic (HTTP) SOAP.<br /> </td> 
   </tr> 
  </tbody> 
