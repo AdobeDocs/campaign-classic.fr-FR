@@ -1,7 +1,7 @@
 ---
-title: 'Utilisation : '
-seo-title: 'Utilisation : '
-description: 'Utilisation : '
+title: Cas pratique
+seo-title: Cas pratique
+description: Cas pratique
 seo-description: null
 page-status-flag: never-activated
 uuid: d4c76fdf-d562-4151-93ec-08b4f6563440
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Utilisation :{#use-case}
+# Cas pratique{#use-case}
 
 ## Créer un filtre sur le format des emails des abonnés {#creating-a-filter-on-the-email-format-of-subscribers}
 
