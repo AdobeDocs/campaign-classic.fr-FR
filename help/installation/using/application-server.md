@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Serveur applicatif n°{#application-server}
+# Serveur applicatif{#application-server}
 
 Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign.
 
