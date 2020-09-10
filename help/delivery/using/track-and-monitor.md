@@ -21,7 +21,7 @@ ht-degree: 100%
 ---
 
 
-# Trackez et suivez vos diffusions {#track-and-monitor}
+# Tracker et suivre vos diffusions {#track-and-monitor}
 
 Vous avez cliqué sur le bouton Envoyer ? Voyons maintenant ce qui se passe. Une fois la diffusion envoyée, Adobe Campaign vous permet de conserver une trace des messages envoyés et de découvrir la réaction des destinataires face à votre diffusion. Vous pourrez ainsi améliorer les prochains envois et optimiser vos campagnes suivantes.
 
