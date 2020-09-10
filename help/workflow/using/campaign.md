@@ -1,7 +1,7 @@
 ---
-title: Campaign
-seo-title: Campaign
-description: Campaign
+title: Campagne
+seo-title: Campagne
+description: Campagne
 seo-description: null
 page-status-flag: never-activated
 uuid: 9e5cf203-e5e9-4383-b628-aa6f131491e0
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Campaign{#campaign}
+# Campagne{#campaign}
 
 Les workflows présentés ci-dessous sont installés par défaut avec le module **Campaign**. Pour plus d’informations sur ce module, consultez cette [section](../../campaign/using/designing-marketing-campaigns.md).
 
