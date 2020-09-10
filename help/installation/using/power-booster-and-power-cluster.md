@@ -43,7 +43,7 @@ Adobe Campaign fournit deux séries d&#39;options architecturales pré-packagée
 
 Les options Power Booster et Power Cluster peuvent être exploitées par les applications suivantes :
 
-* Campaign
+* Campagne
 * Delivery
 * Message Center
 
