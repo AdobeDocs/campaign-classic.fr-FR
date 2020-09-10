@@ -1,7 +1,7 @@
 ---
-title: Distributed Marketing
-seo-title: Distributed Marketing
-description: Distributed Marketing
+title: Marketing distribué
+seo-title: Marketing distribué
+description: Marketing distribué
 seo-description: null
 page-status-flag: never-activated
 uuid: 071edddc-b9d2-4193-a667-71f738132684
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Distributed Marketing{#distributed-marketing}
+# Marketing distribué{#distributed-marketing}
 
 Le workflow présenté ci-dessous est installé par défaut avec le module **Marketing distribué**. Pour plus d’informations sur ce module, consultez cette [section](../../campaign/using/about-distributed-marketing.md).
 
