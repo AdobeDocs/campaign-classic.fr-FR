@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# A propos de l’aborescence de navigation{#about-navigation-hierarchy}
+# A propos de l’arborescence de navigation{#about-navigation-hierarchy}
 
 L&#39;arborescence de navigation utilise le principe d&#39;un explorateur de fichiers (par exemple l&#39;Explorateur Windows®). Un dossier peut contenir un ensemble de sous-dossiers. La sélection d&#39;un noeud fait apparaître la vue correspondante au noeud.
 
