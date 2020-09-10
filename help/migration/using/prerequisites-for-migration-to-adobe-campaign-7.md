@@ -1,7 +1,7 @@
 ---
-title: Prérequis relatifs à la migration vers Adobe Campaign 7
-seo-title: Prérequis relatifs à la migration vers Adobe Campaign 7
-description: Prérequis relatifs à la migration vers Adobe Campaign 7
+title: Prérequis pour la migration vers Adobe Campaign 7
+seo-title: Prérequis pour la migration vers Adobe Campaign 7
+description: Prérequis pour la migration vers Adobe Campaign 7
 seo-description: null
 page-status-flag: never-activated
 uuid: 9f4e4cdf-5338-4597-9d9d-5a3bd13033c7
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Prérequis relatifs à la migration vers Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
+# Prérequis pour la migration vers Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 
 Avant d&#39;effectuer une migration, consultez les sections [Avant de commencer la migration](../../migration/using/before-starting-migration.md) et [Configurer votre plateforme](../../migration/using/configuring-your-platform.md).
 
