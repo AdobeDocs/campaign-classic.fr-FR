@@ -68,7 +68,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Réaliser un calcul d&#39;agrégats](../../workflow/using/performing-aggregate-computing.md)
 * [Requête avec gestion des regroupements](../../workflow/using/querying-using-grouping-management.md)
 * [Requête avec une relation multiple-à-multiple](../../workflow/using/querying-using-many-to-many-relationship.md)
-* [Ajout d’une champ calculé de type Enumérations](../../workflow/using/adding-enumeration-type-calculated-field.md)
+* [Ajout d&#39;un champ calculé de type Enumérations](../../workflow/using/adding-enumeration-type-calculated-field.md)
 * [Création d&#39;un filtre](../../workflow/using/creating-a-filter.md)
 * [Filtrer les destinataires en double](../../workflow/using/filtering-duplicated-recipients.md)
 * [Appeler une variable d&#39;instance dans une requête](../../workflow/using/javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
