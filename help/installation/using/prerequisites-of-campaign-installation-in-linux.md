@@ -1,7 +1,7 @@
 ---
-title: Prérequis relatifs à l'installation de Campaign sous Linux
-seo-title: Prérequis relatifs à l'installation de Campaign sous Linux
-description: Prérequis relatifs à l'installation de Campaign sous Linux
+title: Prérequis pour l'installation de Campaign sous Linux
+seo-title: Prérequis pour l'installation de Campaign sous Linux
+description: Prérequis pour l'installation de Campaign sous Linux
 seo-description: null
 page-status-flag: never-activated
 uuid: 65c7af3f-ca1d-4255-b54a-6a3c83af40ae
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Prérequis relatifs à l&#39;installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
+# Prérequis pour l&#39;installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
 
 ## Logiciels prérequis {#software-prerequisites}
 
