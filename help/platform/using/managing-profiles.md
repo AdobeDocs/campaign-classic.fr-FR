@@ -1,7 +1,7 @@
 ---
-title: Gestion de profils
-seo-title: Gestion de profils
-description: Gestion de profils
+title: Gestion des profils
+seo-title: Gestion des profils
+description: Gestion des profils
 seo-description: null
 page-status-flag: never-activated
 uuid: f045dd5e-e069-4293-8c44-49d71071b041
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Gestion de profils{#managing-profiles}
+# Gestion des profils{#managing-profiles}
 
 ## Arborescence des destinataires {#recipient-tree}
 
