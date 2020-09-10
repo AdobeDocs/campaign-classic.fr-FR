@@ -38,7 +38,7 @@ Cette section contient des informations sur les workflows techniques qui sont li
 * [Deliveries](../../workflow/using/deliveries.md)
 * [Campagne](../../workflow/using/campaign.md)
 * [Web Analytics](../../workflow/using/web-analytics.md)
-* [Distributed Marketing](../../workflow/using/distributed-marketing.md)
+* [Distributed Marketing (Marketing distribué)](../../workflow/using/distributed-marketing.md)
 * [Email Deliverability (Supervision de la délivrabilité)](../../workflow/using/email-deliverability.md)
 * [Inbox Rendering (IR)](../../workflow/using/inbox-rendering.md)
 * [Interaction](../../workflow/using/interaction.md)
