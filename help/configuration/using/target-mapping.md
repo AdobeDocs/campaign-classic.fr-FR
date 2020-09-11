@@ -1,7 +1,7 @@
 ---
-title: Target mapping
-seo-title: Target mapping
-description: Target mapping
+title: Mapping de ciblage
+seo-title: Mapping de ciblage
+description: Mapping de ciblage
 seo-description: null
 page-status-flag: never-activated
 uuid: a7dad8eb-c191-4f10-b7d8-63e0699603b7
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Target mapping{#target-mapping}
+# Mapping de ciblage{#target-mapping}
 
 La création d&#39;un mapping de ciblage est nécessaire dans deux cas de figure :
 
