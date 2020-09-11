@@ -1,7 +1,7 @@
 ---
-title: Mode de tracking Web
-seo-title: Mode de tracking Web
-description: Mode de tracking Web
+title: Mode de tracking web
+seo-title: Mode de tracking web
+description: Mode de tracking web
 seo-description: null
 page-status-flag: never-activated
 uuid: 51b889d3-28f8-480a-a614-10c8eb3128ac
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Mode de tracking Web{#web-tracking-mode}
+# Mode de tracking web{#web-tracking-mode}
 
 Adobe Campaign permet de sélectionner depuis l&#39;assistant de déploiement, un mode de tracking Web qui définit la façon dont les logs de tracking sont remontés dans l&#39;application.
 
