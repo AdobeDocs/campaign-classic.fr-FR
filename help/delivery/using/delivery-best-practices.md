@@ -100,7 +100,7 @@ Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diff
     </a>
     <div>
       <a href="track-and-monitor.md">
-    <strong>Tracker et surveiller</strong>
+    <strong>Tracker et suivre vos diffusions</strong>
     </a>
     </div>
     <p>
