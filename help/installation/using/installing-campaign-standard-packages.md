@@ -23,11 +23,11 @@ ht-degree: 100%
 ---
 
 
-# Installation des packages natifs de Campaign Classic{#installing-campaign-standard-packages}
+# Installation des packages standard de Campaign Classic{#installing-campaign-standard-packages}
 
-## A propos des packages natifs {#campaign-standard-packages}
+## A propos des packages standard {#campaign-standard-packages}
 
-Les packages natifs contiennent un ensemble de fonctionnalités qui peuvent être installées selon vos besoins et selon votre contrat. La liste complète des packages natifs de Campaign est disponible ci-dessous.
+Les packages standard contiennent un ensemble de fonctionnalités qui peuvent être installées selon vos besoins et selon votre contrat. La liste complète des packages standard de Campaign est disponible ci-dessous.
 
 >[!CAUTION]
 >
