@@ -1,7 +1,7 @@
 ---
-title: export des données
-seo-title: export des données
-description: export des données
+title: Exporter des données
+seo-title: Exporter des données
+description: Exporter des données
 seo-description: null
 page-status-flag: never-activated
 uuid: 818de79a-587f-4735-b333-4bc702c3b450
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# export des données{#exporting-data}
+# Exporter des données{#exporting-data}
 
 ## Assistant d&#39;export {#export-wizard}
 
