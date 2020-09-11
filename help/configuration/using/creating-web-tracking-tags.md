@@ -1,7 +1,7 @@
 ---
-title: Créer les balises de tracking Web
-seo-title: Créer les balises de tracking Web
-description: Créer les balises de tracking Web
+title: Créer les balises de tracking web
+seo-title: Créer les balises de tracking web
+description: Créer les balises de tracking web
 seo-description: null
 page-status-flag: never-activated
 uuid: c5599bdd-e6b8-4db4-b0ca-aaee2adc1919
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Créer les balises de tracking Web{#creating-web-tracking-tags}
+# Créer les balises de tracking web{#creating-web-tracking-tags}
 
 Chaque page du site que vous souhaitez tracker doit être référencée dans votre plateforme Adobe Campaign. Ce référencement peut se faire de deux façons :
 
