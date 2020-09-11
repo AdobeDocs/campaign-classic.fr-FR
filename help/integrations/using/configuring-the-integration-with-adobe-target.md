@@ -1,7 +1,7 @@
 ---
-title: Configurer l'intégration avec Adobe Target
-seo-title: Configurer l'intégration avec Adobe Target
-description: Configurer l'intégration avec Adobe Target
+title: Configuration de l’intégration avec Adobe Target
+seo-title: Configuration de l’intégration avec Adobe Target
+description: Configuration de l’intégration avec Adobe Target
 seo-description: null
 page-status-flag: never-activated
 uuid: b9337e92-e4e5-4cba-a559-75db7460d5c5
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Configurer l&#39;intégration avec Adobe Target{#configuring-the-integration-with-adobe-target}
+# Configuration de l’intégration avec Adobe Target{#configuring-the-integration-with-adobe-target}
 
 ## Prérequis {#prerequisites}
 
