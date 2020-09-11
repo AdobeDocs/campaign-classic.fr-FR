@@ -1,5 +1,5 @@
 ---
-title: Utilisation du serveur SFTP
+title: Utiliser le serveur SFTP
 description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
