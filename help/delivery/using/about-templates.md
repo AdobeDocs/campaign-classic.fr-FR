@@ -1,7 +1,7 @@
 ---
-title: Modèles
-seo-title: Modèles
-description: Modèles
+title: A propos des modèles
+seo-title: A propos des modèles
+description: A propos des modèles
 seo-description: null
 page-status-flag: never-activated
 uuid: 13b5ad3a-aded-43b8-ae4d-c23aa7bc17bd
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Modèles{#about-templates}
+# A propos des modèles{#about-templates}
 
 Le paramétrage d&#39;une diffusion peut être sauvegardé dans un modèle de diffusion afin d&#39;être réutilisé. Le modèle peut contenir un paramétrage complet ou partiel de la diffusion.
 
