@@ -1,7 +1,7 @@
 ---
-title: Traduire une application Web
-seo-title: Traduire une application Web
-description: Traduire une application Web
+title: Traduire une application web
+seo-title: Traduire une application web
+description: Traduire une application web
 seo-description: null
 page-status-flag: never-activated
 uuid: 7b24a872-d3d1-4473-a6f9-96ba2a0eee8b
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Traduire une application Web{#translating-a-web-application}
+# Traduire une application web{#translating-a-web-application}
 
 Vous pouvez traduire les pages d’applications Web créées avec l’éditeur Digital Content Editor (DCE) d’Adobe Campaign.
 
