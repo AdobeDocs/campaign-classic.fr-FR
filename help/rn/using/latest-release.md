@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c96c94fe0b98e298968c329466ee4e2e04b11a35
+source-git-commit: f92180f93850d5bc33e74210d17cdd36c0c15e5f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 98%
+source-wordcount: '2119'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,28 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/blue_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+
+_11 septembre 2020_
+
+* Correction d’une régression en raison de laquelle la préparation de la diffusion était bloquée en raison d’une seule fonction erronée sur la partie de la diffusion conduisant à une surcharge de mémoire. (NEO-27346)
+
+
+* Correction d’un problème après la mise à niveau qui désactivait Apache et le serveur Web avant la republication de l’application Web. (NEO-27155)
+
+
+* Correction d’une régression sur la gestion des modèles HTML en raison de laquelle les URL de suivi devenaient visibles en raison d’une mauvaise interprétation des onglets. (NEO-25909)
+
+
+* Correction d’un problème lié au processus de nettoyage de la base de données qui pouvait échouer en raison d’une source de données non gérée. (NEO-23160, NEO-23364)
+* Le processus de nettoyage purge désormais les listes expirées par lots de 100 au lieu de 1 par un.
+* Correction d’une régression qui empêchait de modifier le nom interne d’un compte externe. (NEO-27323)
+
+
+* Correction d’une régression au cours de la mise à niveau provoquant un début incorrect de nlserver (journaux d’erreurs).
+* La gestion des mises à jour pour la mémoire partagée a été améliorée. Les étapes supplémentaires requises dans la version 20.2 ne sont plus nécessaires.
+
+## ![](assets/do-not-localize/orange_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
 _7 juillet 2020_
 
