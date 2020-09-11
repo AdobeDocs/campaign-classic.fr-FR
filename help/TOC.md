@@ -1,13 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Classic
+breadcrumb-title: Campaign Classic Guide
 user-guide-description: Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
-translation-type: ht
-source-git-commit: 0810608c67e6da4d9afa3a366df664594b0b6840
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3b437886e58836097ff2099bba709c8e26e1039d
+workflow-type: tm+mt
 source-wordcount: '2109'
 ht-degree: 100%
 
@@ -438,7 +439,7 @@ ht-degree: 100%
          + [Réaliser un calcul d&#39;agrégats](workflow/using/performing-aggregate-computing.md)
          + [Requête avec gestion des regroupements](workflow/using/querying-using-grouping-management.md)
          + [Requête avec une relation multiple-à-multiple](workflow/using/querying-using-many-to-many-relationship.md)
-         + [Ajout d’un champ calculé de type Enumérations](workflow/using/adding-enumeration-type-calculated-field.md)
+         + [Ajout d&#39;un champ calculé de type Enumérations](workflow/using/adding-enumeration-type-calculated-field.md)
          + [Création d&#39;un filtre](workflow/using/creating-a-filter.md)
          + [Filtrer les destinataires en double](workflow/using/filtering-duplicated-recipients.md)
    + Surveillance des workflows {#monitoring-workflows}
