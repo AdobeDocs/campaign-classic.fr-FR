@@ -1,6 +1,6 @@
 ---
-title: Utilisation d'une table de destinataires par défaut
-seo-title: Utilisation d'une table de destinataires par défaut
+title: Utiliser une table de destinataires personnalisée
+seo-title: Utiliser une table de destinataires personnalisée
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -20,5 +20,5 @@ ht-degree: 100%
 ---
 
 
-# Utilisation d&#39;une table de destinataires par défaut{#use-a-custom-recipient-table}
+# Utiliser une table de destinataires personnalisée{#use-a-custom-recipient-table}
 
