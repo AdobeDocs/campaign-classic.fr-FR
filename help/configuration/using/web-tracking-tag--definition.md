@@ -1,7 +1,7 @@
 ---
-title: '"Balise de tracking Web : définition"'
-seo-title: '"Balise de tracking Web : définition"'
-description: '"Balise de tracking Web : définition"'
+title: '"Balise de tracking web : définition"'
+seo-title: '"Balise de tracking web : définition"'
+description: '"Balise de tracking web : définition"'
 seo-description: null
 page-status-flag: never-activated
 uuid: 915ddfd8-ad1b-41ac-96ed-f7fae687c09f
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Balise de tracking Web : définition{#web-tracking-tag-definition}
+# Balise de tracking web : définition{#web-tracking-tag-definition}
 
 Une balise de tracking Web n&#39;est autre qu&#39;une URL construite avec les paramètres adéquats, transmise au serveur de redirection via une requête HTTP.
 
