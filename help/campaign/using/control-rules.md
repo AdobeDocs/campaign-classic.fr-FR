@@ -1,7 +1,7 @@
 ---
-title: Cas des règles de contrôle
-seo-title: Cas des règles de contrôle
-description: Cas des règles de contrôle
+title: Règles de contrôle
+seo-title: Règles de contrôle
+description: Règles de contrôle
 seo-description: null
 page-status-flag: never-activated
 uuid: a83e56d0-573a-4592-b2b1-0d3b3e52b03f
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Cas des règles de contrôle{#control-rules}
+# Règles de contrôle{#control-rules}
 
 ## Analyse et règles de contrôle d’arbitrage {#analysis-and-arbitration-control-rules}
 
