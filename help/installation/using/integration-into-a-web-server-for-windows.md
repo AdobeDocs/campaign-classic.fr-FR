@@ -1,7 +1,7 @@
 ---
-title: Intégration à un serveur Web pour Windows
-seo-title: Intégration à un serveur Web pour Windows
-description: Intégration à un serveur Web pour Windows
+title: Intégration à un serveur web pour Windows
+seo-title: Intégration à un serveur web pour Windows
+description: Intégration à un serveur web pour Windows
 seo-description: null
 page-status-flag: never-activated
 uuid: a5042221-44fe-46a6-9322-288b108396e2
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Intégration à un serveur Web pour Windows{#integration-into-a-web-server-for-windows}
+# Intégration à un serveur web pour Windows{#integration-into-a-web-server-for-windows}
 
 Adobe Campaign inclut Apache Tomcat pour agir comme point d&#39;entrée dans le code du serveur applicatif via HTTP (et SOAP).
 
