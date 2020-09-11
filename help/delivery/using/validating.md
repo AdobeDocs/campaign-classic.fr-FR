@@ -1,7 +1,7 @@
 ---
-title: Valider
-seo-title: Valider
-description: Valider
+title: Validation
+seo-title: Validation
+description: Validation
 seo-description: null
 page-status-flag: never-activated
 uuid: e3cd96ef-4f5d-4e17-9fec-5eaa4d835cb1
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Valider{#validating}
+# Validation{#validating}
 
 Les concepts généraux de validation d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-validating-the-delivery.md).
 
