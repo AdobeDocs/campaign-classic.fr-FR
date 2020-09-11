@@ -277,8 +277,8 @@ Les étapes sont les suivantes :
 1. Installez le serveur Adobe Campaign,
 1. Respectez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
 
-   * Pour Linux : [Intégration à un serveur Web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
-   * Pour Windows : [Intégration à un serveur Web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
+   * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
+   * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
 
 1. Copiez les fichiers **config-demo.xml** et **serverConf.xml** créés lors de l&#39;installation, puis, dans le fichier **config-demo.xml**, activez le processus **trackinglogd** et désactivez les processus **mta**, **inmail**, **wfserver** et **stat**.
 1. Editez le fichier **serverConf.xml** et renseignez les serveurs de tracking redondants dans les paramètres de la redirection :
