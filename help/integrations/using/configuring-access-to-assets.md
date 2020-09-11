@@ -1,7 +1,7 @@
 ---
-title: Configurer l'accès à Assets
-seo-title: Configurer l'accès à Assets
-description: Configurer l'accès à Assets
+title: Configuration de l’accès à Assets
+seo-title: Configuration de l’accès à Assets
+description: Configuration de l’accès à Assets
 seo-description: null
 page-status-flag: never-activated
 uuid: dc8c0016-92c8-41ab-98c6-d0fe0bfd6c41
@@ -23,7 +23,7 @@ ht-degree: 100%
 ---
 
 
-# Configurer l&#39;accès à Assets{#configuring-access-to-assets}
+# Configuration de l’accès à Assets{#configuring-access-to-assets}
 
 Cette section décrit les étapes de configuration nécessaires dans Adobe Campaign permettant d&#39;utiliser les fonctionnalités de l&#39;intégration avec Assets core service ou la bibliothèque de ressources Adobe Experience Manager.
 
