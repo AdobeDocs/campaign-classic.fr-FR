@@ -21,7 +21,7 @@ ht-degree: 100%
 ---
 
 
-# A propos du canal Email{#about-email-channel}
+# A propos du canal email{#about-email-channel}
 
 Adobe Campaign vous permet de diffuser en masse des emails personnalisé à une population cible.
 
