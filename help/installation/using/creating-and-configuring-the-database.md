@@ -14,11 +14,11 @@ discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aeedcfb489e0dc0cd62e4472dc86102fa40cf6b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1345'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
-   1. the DNS name (or IP address) defined on the application server to access the database server: **DNS** or **DNS`\<instance>`** (instance mode),
+   1. le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
    1. le mécanisme d’identification pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
