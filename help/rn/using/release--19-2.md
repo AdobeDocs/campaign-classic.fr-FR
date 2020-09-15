@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c7b00960ffde49df65cd5c8fcfb8fab6aee485d7
-workflow-type: ht
-source-wordcount: '1295'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
+workflow-type: tm+mt
+source-wordcount: '1318'
+ht-degree: 95%
 
 ---
 
@@ -138,7 +138,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 
 **Correctifs**
 
-* Correction d&#39;un blocage de la console qui pouvait se produire lors de l&#39;ajout d&#39;une table liée vide dans l&#39;activité de workflow **Chargement (SGBD)**. (NEO-12213)
+* Correction d’un problème de blocage en raison duquel le champ de table **liée** Ajouté était vide dans l’activité de flux de travail Chargement de **données (RDBMS)** . (NEO-12213)
 * Correction d&#39;un problème en raison duquel certains messages ne pouvaient pas être traités par le serveur de Mid-sourcing. (NEO-12395)
 * Correction d&#39;un problème dans le workflow de nettoyage de la base de données lors de l&#39;utilisation de l&#39;option query banding avec Teradata. (NEO-12399)
 * Correction d&#39;un problème affectant l&#39;analyse des diffusions avec une règle de typologie incluant le domaine ne.jp. (NEO-12609)
@@ -152,7 +152,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 * Correction d&#39;un problème dans les workflows survenant lors de l&#39;utilisation de l&#39;activité **Transfert de fichier** pour télécharger des fichiers dont le nom contient un espace, à l&#39;aide de l&#39;option **Effacer les fichiers source après leur transfert**. (NEO-13411)
 * Correction d&#39;un problème de nettoyage du cache de Tomcat qui pouvait entraîner des problèmes de mémoire. (NEO-13456)
 * Correction d&#39;un problème lors de l&#39;installation du package intégré **Pilotage du moteur d&#39;offre avec instance d&#39;exécution** sur une instance de contrôle existante s&#39;exécutant dans Microsoft SQL 2017. (NEO-13539)
-* Correction d&#39;un blocage de la console pouvant survenir lors de la désélection des URL trackées dans un email dans l&#39;onglet **Contenu texte**. (NEO-13545)
+* Correction d’un problème de blocage de la console qui pouvait se produire lors de la dévérification des URL suivies dans un courrier électronique, à partir de l’onglet Contenu **** texte en raison d’une variable non initialisée. (NEO-13545)
 * Correction d&#39;un problème de codage du nom d&#39;un expéditeur chinois. (NEO-13837)
 * Correction d&#39;une erreur pouvant survenir lors de l&#39;affichage des données relatives aux réponses à un questionnaire dans l&#39;Explorateur. (NEO-14590)
 * Correction d&#39;un problème susceptible d&#39;entraîner une incohérence entre la classification du log de diffusion et la table de quarantaine. (NEO-16547)
@@ -166,4 +166,9 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 * Correction d&#39;un problème de timeout lors de l&#39;importation de données à partir d&#39;un SFTP externe. (NEO-19723)
 * Correction d&#39;un problème lors de l&#39;accès aux modèles prédictifs. (NEO-19713)
 * Correction d&#39;un problème affectant l&#39;échantillonnage aléatoire dans l&#39;activité de workflow **Partage** avec la base de données Hadoop FDA. (NEO-16636)
+* Correction d’une régression sur Oracle en raison de laquelle certaines fonctions étaient considérées comme non valides après la mise à niveau. (NEO-12759)
+
+
+
+
 
