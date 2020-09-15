@@ -65,7 +65,7 @@ Si vous disposez de plusieurs contenus pour une diffusion email, vous pouvez uti
 
 En savoir plus à ce sujet dans [cette section](../../workflow/using/a-b-testing.md).
 
-## Vérifiez que votre message est bien délivré {#make-sure-your-message-is-delivered}.
+## Vérifiez que votre message est bien délivré. {#make-sure-your-message-is-delivered}
 
 En dernier lieu, tirez parti des fonctionnalités d’Adobe Campaign Classic et augmentez les chances que votre message soit délivré aux bons destinataires.
 
