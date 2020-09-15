@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
-workflow-type: ht
-source-wordcount: '1331'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 97%
 
 ---
 
@@ -107,7 +107,7 @@ _17 février 2020_
 
 * Amélioration des performances des requêtes, qui pourraient être affectées par des connexions inutiles à la base de données.
 
-* Amélioration des performances de l’assistant de mise à jour de la base de données.
+* Amélioration des performances de l&#39;Assistant Mise à jour de la base de données afin de réduire le nombre d&#39;instructions SQL afin d&#39;optimiser le temps de réponse.
 
 * La gestion des enregistrements de la base de données a été améliorée.
 
@@ -183,7 +183,7 @@ _17 février 2020_
 
 * Correction d’un problème qui se produisait lors de la suppression, de l’insertion ou de la mise à jour d’une grande quantité de données avec l’activité de **mise à jour des données** dans un workflow à l’aide d’un schéma FDA servant de dimension de ciblage. (NEO-13280)
 
-* Correction d’un problème qui empêchait l’envoi des emails lors de l’utilisation de l’instruction « if » à l’extérieur de la balise `body`. (NEO-18628)
+* Correction d’un problème qui empêchait l’envoi de courriers électroniques lorsque du code JavaScript se trouvait en dehors de la balise de contenu HTML. (NEO-18628)
 
 * Correction d’un problème qui se produisait lors de l’affichage de la page miroir depuis les logs de diffusion d’un message envoyé. (NEO-17976)
 
