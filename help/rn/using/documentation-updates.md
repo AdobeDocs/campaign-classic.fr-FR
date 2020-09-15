@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
-workflow-type: ht
-source-wordcount: '7180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 562f9f5411284cdf763821b0179ae795fa4bc48a
+workflow-type: tm+mt
+source-wordcount: '7200'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
+
+## Septembre 2020 {#september-2020}
+
+* Une note a été ajoutée pour indiquer que le nombre de profils Principaux est disponible uniquement pour les instances Marketing. [En savoir plus](../../platform/using/about-profiles.md#active-profiles)
 
 ## Août 2020 {#aug-2020}
 
@@ -739,7 +743,7 @@ Marketing Cloud Triggers : ajout d&#39;une technote sur la configuration et l&#
 
 Réorganisation et enrichissement du guide Workflow. Trouvez facilement des informations sur la [création](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html) et l&#39;[exécution](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html) d&#39;un workflow. Découvrez comment [cibler](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html) et [gérer](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html#Data_Management) vos données, [importer](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html)[](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Updating_the_database)[ des données et utiliser des données de workflow pour mettre à jour la base de données ou envoyer des diffusions](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow).
 
-Disponibilité d&#39;un exemple de création de [workflow d&#39;import](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow) suite aux [bonnes pratiques d&#39;import](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html#Import_best_practices).
+Disponibilité d&#39;un exemple de création de [workflow d&#39;import](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow) suite aux [bonnes pratiques d&#39;import.](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html#Import_best_practices)
 Mise à jour du guide d&#39;installation pour cette nouvelle version. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/INS_Architecture_and_hosting_models_General_architecture.html)
 
 Mise à jour de la matrice de compatibilité. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
