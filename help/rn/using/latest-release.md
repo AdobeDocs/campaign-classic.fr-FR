@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f92180f93850d5bc33e74210d17cdd36c0c15e5f
 workflow-type: tm+mt
 source-wordcount: '2119'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -32,15 +32,19 @@ _11 septembre 2020_
 * Correction d’une régression en raison de laquelle la préparation de la diffusion était bloquée en raison d’une seule fonction erronée sur la partie de la diffusion conduisant à une surcharge de mémoire. (NEO-27346)
 
 
+
 * Correction d’un problème après la mise à niveau qui désactivait Apache et le serveur Web avant la republication de l’application Web. (NEO-27155)
+
 
 
 * Correction d’une régression sur la gestion des modèles HTML en raison de laquelle les URL de suivi devenaient visibles en raison d’une mauvaise interprétation des onglets. (NEO-25909)
 
 
+
 * Correction d’un problème lié au processus de nettoyage de la base de données qui pouvait échouer en raison d’une source de données non gérée. (NEO-23160, NEO-23364)
 * Le processus de nettoyage purge désormais les listes expirées par lots de 100 au lieu de 1 par un.
 * Correction d’une régression qui empêchait de modifier le nom interne d’un compte externe. (NEO-27323)
+
 
 
 * Correction d’une régression au cours de la mise à niveau provoquant un début incorrect de nlserver (journaux d’erreurs).
@@ -57,6 +61,7 @@ _7 juillet 2020_
 * Correction d’un problème lié à gestion des URL de codage dans le service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
+
 
 
 Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
@@ -116,7 +121,7 @@ _lundi 8 juin 2020_
  <tbody> 
   <tr> 
    <td> <p>La loi thaïlandaise sur la protection des données personnelles (PDPA) est la nouvelle loi sur la protection de la vie privée destinée à harmoniser et moderniser les exigences en matière de protection des données en Thaïlande. </p>
-   <p>La loi brésilienne Lei Geral de Proteção de Dados (LGPD) entrera en vigueur début 2021 pour toutes les sociétés qui collectent ou traitent des données personnelles au Brésil.</p>
+   <p>Au Brésil, la loi générale sur la protection des données (Lei Geral de Proteção de Dados - LGPD) entrera en vigueur début 2021 pour toutes les entreprises qui collectent ou traitent des données personnelles.</p>
    <p>Ces réglementations s’appliquent aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans ces pays. Outre les fonctionnalités de confidentialité déjà disponibles dans Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous profitons de l’occasion pour inclure d’autres fonctionnalités afin de faciliter votre préparation à la réglementation PDPA et LGPD :</p>
    <ul> 
      <li><p>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">En savoir plus</a></p></li> 
