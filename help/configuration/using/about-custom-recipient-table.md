@@ -44,7 +44,7 @@ Cette fonctionnalité permet notamment à Adobe Campaign d&#39;exploiter des don
 
 Cette section décrit les points essentiels permettant de réaliser le mapping de tables existantes dans Adobe Campaign puis le paramétrage à réaliser pour permettre l&#39;exécution de diffusions en se basant sur n&#39;importe quelle table. Enfin, elle présente le mode de mise à disposition pour les utilisateurs d&#39;interfaces de requêtage aussi pratiques que celles disponibles avec la table standard des destinataires. La connaissance des principes de conception de schémas et d&#39;écrans est requise pour aborder les éléments présentés dans cette section.
 
-## Recommandations et limitations    {#recommendations-and-limitations}
+## Recommandations et limitations     {#recommendations-and-limitations}
 
 L&#39;utilisation d&#39;une table de destinataires externe implique les limitations suivantes :
 
