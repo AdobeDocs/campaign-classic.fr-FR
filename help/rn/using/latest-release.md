@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f92180f93850d5bc33e74210d17cdd36c0c15e5f
+source-git-commit: 2bd946fc0e5b206280a7946e0cbc6fa6d1be90f2
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 93%
+source-wordcount: '2161'
+ht-degree: 88%
 
 ---
 
@@ -57,7 +57,7 @@ _7 juillet 2020_
 * Correction d’un problème qui empêchait le tracking de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
 * Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d’être autorisés. (NEO-25210)
 * Correction d’un problème qui empêchait d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook. (NEO-25688)
-* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions email. (NEO-26084)
+* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions de courriel (en raison d’un contrôle incorrect des caractères ASCII). (NEO-26084)
 * Correction d’un problème lié à gestion des URL de codage dans le service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
@@ -65,9 +65,9 @@ _7 juillet 2020_
 
 
 Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
-* Correction d’une régression qui avait un impact sur les champs calculés dans un workflow. (NEO-25194)
+* Correction d’une régression affectant les champs calculés d’un processus qui provoquait l’échec du processus. (NEO-25194)
 * Correction d’une régression qui empêchait le fonctionnement de la création à la volée d’URL de tracking web. (NEO-20999)
-* Correction d’un problème lié aux rapports de diffusion d’usine qui s’affichaient tronqués lors de l’export au format PDF. (NEO-25757)
+* Correction d’un problème de régression avec des rapports de diffusion prêts à l’emploi qui s’affichaient tronqués lors de l’exportation au format PDF. (NEO-25757)
 * Correction d’un problème de blocage dans l’assistant de déploiement.
 * Correction d’un problème qui empêchait le fonctionnement correct du workflow Notification des offres après un postupgrade.
 * Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903)
@@ -255,7 +255,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d’un problème qui pouvait avoir un impact sur les notifications push lorsqu’elles étaient envoyées à une fréquence élevée. (NEO-20516)
 * Correction d’un problème en raison duquel les données de tracking incluaient des doublons même si les logs de tracking n’en contenaient pas. (NEO-20040)
 * Correction d’un problème en raison duquel des doublons d’emails transactionnels étaient envoyés après correction d’un échec de communication du serveur de tracking. (NEO-23640)
-* Correction d’un problème en raison duquel la valeur du paramètre de codage était supprimée lors de la redirection à partir d’une URL de tracking. (NEO-25637)
+* Correction d’un problème en raison duquel la valeur du paramètre de codage était supprimée lors de la redirection à partir d’une URL de suivi (impact sur les caractères japonais). (NEO-25637)
 * Correction d’un problème en raison duquel une requête ne fonctionnait pas lors de la comparaison de nombres flottants. (NEO-23243)
 * Correction d’un problème en raison duquel le contenu de la colonne **Modifié par** ne s’affichait pas après le redémarrage d’un workflow. (NEO-23035)
 * Correction d’un problème en raison duquel le workflow technique de tracking échouait lors du téléchargement des logs à partir d’un deuxième conteneur. (NEO-23159)
@@ -265,7 +265,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d’un problème lié à d’autres champs d’enregistrement lors de la création de diffusions par le biais de l’option **Calculée par un script** dans l’activité de workflow **Script**. (NEO-20609)
 * Correction d’un problème qui empêchait la suppression des workflows fantômes dans les tâches de nettoyage de base de données.
 * Correction d’un problème en raison duquel le workflow technique de **Facturation (profils actifs)** échouait. (NEO-19777)
-* Correction d’un problème lors du test de la connexion du compte externe acsDefaultAccount. (NEO-23433)
+* Correction d’un problème de régression lors de l’utilisation de la fonction ACS Connector qui empêchait la connexion à une instance de Campaign Standard (gestion incorrecte de la connexion FOH/FOH2). (NEO-23433)
 * Correction d’un problème qui empêchait la création d’une extension de schéma sur une clé primaire avec plusieurs colonnes et une table Hadoop. (NEO-17390)
 * Correction d’un problème dans l’activité **Chargement (SOAP)** qui empêchait le chargement de fichiers WSDL à partir d’une URL. (NEO-16924)
 * Correction d’un problème qui empêchait l’exécution d’un **Arrêt inconditionnel** à l’aide de la console lors de l’équilibrage de la charge de plusieurs serveurs de workflows actifs. (NEO-19556)
@@ -277,6 +277,9 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d’un problème en raison duquel une diffusion pouvait s’afficher deux fois dans la liste de diffusion après son envoi.
 * Correction d’un problème de préparation de diffusion qui pouvait se produire lorsque la configuration de routage était définie pour envoyer la diffusion par mid-sourcing.
 * Correction d’un problème en raison duquel un message d’erreur pouvait s’afficher en cas de clic sur un lien d’application web dans un message LINE.
-* Correction d’un problème qui empêchait Microsoft Dynamics CRM de récupérer toutes les entités. (NEO-24528)
 * Correction d’un problème en raison duquel l’historique de l’activité **Requête incrémentale** était supprimé suite à l’exécution du workflow de nettoyage.
-* Correction d’un problème lors de la création d’un compte externe de mid-sourcing en raison de l’absence de l’option NmsMidSourcing_LastBroadLog_&lt;InternalName>
+* Correction d’un problème lors de la création d’un compte externe de mid-sourcing en raison de l’absence de l’option NmsMidSourcing_LastBroadLog_&lt;InternalName>.
+* Correction d’un problème de régression sur la connexion à la base de données en raison duquel le serveur Web redémarrait constamment en raison d’un problème de codage de base de données. Cela pourrait conduire à une surconsommation. (NEO-23264)
+
+
+
