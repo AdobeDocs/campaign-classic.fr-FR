@@ -12,9 +12,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 27a72257904ff356b1a341c29f9a1ab3ccb20dd2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Depuis Campaign Classic 19.2, un statut est associé à chaque build. Vous trou
 
 Le **dernier build stable** est Gold Standard 6. Cliquez [ici](../../rn/using/gold-standard.md)
 
-![](assets/do-not-localize/limited.png) **Disponibilité limitée** - Build en cours de validation de production. Déploiement à la demande uniquement.
+![](assets/do-not-localize/limited3.png) **Disponibilité limitée** - Build en cours de validation de production. Déploiement à la demande uniquement.
 
 ![](assets/do-not-localize/blue3.png) **Version finale (RC)** - Build validé par Adobe. En attente de contrôle en production.
 
