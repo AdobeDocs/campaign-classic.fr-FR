@@ -68,7 +68,7 @@ ht-degree: 99%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête       {#creating-queries}
+   + Créer une requête        {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -424,7 +424,7 @@ ht-degree: 99%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle  {#monitoring}
+      + Contrôle   {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
