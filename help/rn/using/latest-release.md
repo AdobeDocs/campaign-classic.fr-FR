@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: ab9d2c2e80ba09b5a2cceadb49c06ff13989da0f
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,47 +27,33 @@ ht-degree: 88%
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
-_11 septembre 2020_
+_11 septembre 2020_
 
-* Correction d’une régression en raison de laquelle la préparation de la diffusion était bloquée en raison d’une seule fonction erronée sur la partie de la diffusion conduisant à une surcharge de mémoire. (NEO-27346)
-
-
-
-* Correction d’un problème après la mise à niveau qui désactivait Apache et le serveur Web avant la republication de l’application Web. (NEO-27155)
-
-
-
-* Correction d’une régression sur la gestion des modèles HTML en raison de laquelle les URL de suivi devenaient visibles en raison d’une mauvaise interprétation des onglets. (NEO-25909)
-
-
-
-* Correction d’un problème lié au processus de nettoyage de la base de données qui pouvait échouer en raison d’une source de données non gérée. (NEO-23160, NEO-23364)
-* Le processus de nettoyage purge désormais les listes expirées par lots de 100 au lieu de 1 par un.
+* Correction d’une régression qui entraînait le blocage de la préparation des diffusions en raison d’une seule fonction erronée sur le fragment de diffusion, et conduisait à une surcharge de la mémoire. (NEO-27346)
+* Correction d’un problème de postupgrade qui désactivait Apache et le serveur Web avant la republication de l’application web. (NEO-27155)
+* Correction d’une régression relative à la gestion des modèles HTML, en raison duquel les URL de tracking devenaient visibles du fait d&#39;une mauvaise interprétation des onglets. (NEO-25909)
+* Correction d’un problème lié au workflow de nettoyage de la base de données qui pouvait échouer en raison d’une source de données non gérée. (NEO-23160, NEO-23364)
+* Le workflow de nettoyage purge désormais les listes expirées par lots de 100 plutôt qu&#39;une par une.
 * Correction d’une régression qui empêchait de modifier le nom interne d’un compte externe. (NEO-27323)
-
-
-
-* Correction d’une régression au cours de la mise à niveau provoquant un début incorrect de nlserver (journaux d’erreurs).
+* Correction d’une régression au cours d’un postupgrade qui provoquait un démarrage incorrect de nlserver (logs d’erreur).
 * La gestion des mises à jour pour la mémoire partagée a été améliorée. Les étapes supplémentaires requises dans la version 20.2 ne sont plus nécessaires.
 
 ## ![](assets/do-not-localize/orange_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
-_7 juillet 2020_
+_22 juillet 2020_
 
 * Correction d’un problème qui empêchait le tracking de fonctionner lorsque la fonction de signature était désactivée. (NEO-26411)
 * Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d’être autorisés. (NEO-25210)
 * Correction d’un problème qui empêchait d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook. (NEO-25688)
-* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions de courriel (en raison d’un contrôle incorrect des caractères ASCII). (NEO-26084)
+* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions par email (en raison d’un contrôle incorrect des caractères ASCII). (NEO-26084)
 * Correction d’un problème lié à gestion des URL de codage dans le service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
 
-
-
 * Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
-* Correction d’une régression affectant les champs calculés d’un processus qui provoquait l’échec du processus. (NEO-25194)
+* Correction d’une régression qui affectait les champs calculés d’un workflow et provoquait l’échec de ce workflow. (NEO-25194)
 * Correction d’une régression qui empêchait le fonctionnement de la création à la volée d’URL de tracking web. (NEO-20999)
-* Correction d’un problème de régression avec des rapports de diffusion prêts à l’emploi qui s’affichaient tronqués lors de l’exportation au format PDF. (NEO-25757)
+* Correction d’un problème de régression lié aux rapports de diffusion d’usine qui s’affichaient tronqués lors de l’export au format PDF. (NEO-25757)
 * Correction d’un problème de blocage dans l’assistant de déploiement.
 * Correction d’un problème qui empêchait le fonctionnement correct du workflow Notification des offres après un postupgrade.
 * Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903)
@@ -255,7 +241,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d’un problème qui pouvait avoir un impact sur les notifications push lorsqu’elles étaient envoyées à une fréquence élevée. (NEO-20516)
 * Correction d’un problème en raison duquel les données de tracking incluaient des doublons même si les logs de tracking n’en contenaient pas. (NEO-20040)
 * Correction d’un problème en raison duquel des doublons d’emails transactionnels étaient envoyés après correction d’un échec de communication du serveur de tracking. (NEO-23640)
-* Correction d’un problème en raison duquel la valeur du paramètre de codage était supprimée lors de la redirection à partir d’une URL de suivi (impact sur les caractères japonais). (NEO-25637)
+* Correction d’un problème en raison duquel la valeur du paramètre de codage était supprimée lors de la redirection à partir d’une URL de tracking (impact sur les caractères japonais). (NEO-25637)
 * Correction d’un problème en raison duquel une requête ne fonctionnait pas lors de la comparaison de nombres flottants. (NEO-23243)
 * Correction d’un problème en raison duquel le contenu de la colonne **Modifié par** ne s’affichait pas après le redémarrage d’un workflow. (NEO-23035)
 * Correction d’un problème en raison duquel le workflow technique de tracking échouait lors du téléchargement des logs à partir d’un deuxième conteneur. (NEO-23159)
@@ -279,7 +265,4 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d’un problème en raison duquel un message d’erreur pouvait s’afficher en cas de clic sur un lien d’application web dans un message LINE.
 * Correction d’un problème en raison duquel l’historique de l’activité **Requête incrémentale** était supprimé suite à l’exécution du workflow de nettoyage.
 * Correction d’un problème lors de la création d’un compte externe de mid-sourcing en raison de l’absence de l’option NmsMidSourcing_LastBroadLog_&lt;InternalName>.
-* Correction d’un problème de régression sur la connexion à la base de données en raison duquel le serveur Web redémarrait constamment en raison d’un problème de codage de base de données. Cela pourrait conduire à une surconsommation. (NEO-23264)
-
-
-
+* Correction d’un problème de régression concernant la connexion à la base de données qui provoquait le redémarrage constant du serveur web en raison d’un problème de codage de base de données. Ce problème pouvait conduire à une surconsommation. (NEO-23264)
