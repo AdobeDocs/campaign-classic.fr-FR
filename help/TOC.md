@@ -7,8 +7,9 @@ user-guide-description: Design, plan, execute, manage, and optimize cross-channe
 index: y
 product: adobe campaign
 sub-product: adobe campaign classic
+type: Documentation
 translation-type: tm+mt
-source-git-commit: 6bf659a19cd165e7798b90da2145829eb5e0b30d
+source-git-commit: 5e765777d79df28ae306d02512851b1b3f49018d
 workflow-type: tm+mt
 source-wordcount: '2109'
 ht-degree: 99%
