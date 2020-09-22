@@ -1,13 +1,11 @@
 ---
 keywords: Campaign Classic;home;popular topics
-seo-title: Documentation du produit Adobe Campaign Classic
-solution: Campaign Classic
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
-translation-type: ht
-source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
-workflow-type: ht
-source-wordcount: '260'
+translation-type: tm+mt
+source-git-commit: 5e765777d79df28ae306d02512851b1b3f49018d
+workflow-type: tm+mt
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
