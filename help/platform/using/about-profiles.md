@@ -14,11 +14,11 @@ discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 762a6ba3fdad9c30407bf807f2cd8076796f98c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Les profils actifs sont les profils qui sont comptabilisés à des fins de factu
 >
 >Si vous êtes hébergé sur AWS et que vous utilisez Campaign Classic à partir du build 8931, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
->Notez que le nombre de profils Principaux est disponible pour les instances **** Marketing uniquement. Il n’est pas disponible pour les Instances d&#39;exécution, c’est-à-dire les instances MID (milieu de l’approvisionnement) et RT (centre de messages / messagerie en temps réel).
+>Notez que le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
 
 Un “**Profil**” désigne un enregistrement d&#39;informations (par exemple : un enregistrement dans la table nmsRecipient ou une table externe contenant un identifiant de cookie, un identifiant client, un identifiant mobile ou d&#39;autres informations relatives à un canal particulier) représentant un client final ou un prospect.
 
@@ -121,7 +121,7 @@ Découvrez comment accéder aux données de profil, trier et filtrer les profils
 
 Cette vidéo explique également la conformité d’Adobe Campaign Classic au RGPD.
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12&captions=fre_fr)
 
 **Voir aussi**
 
