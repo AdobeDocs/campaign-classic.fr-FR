@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Cette page répertorie les versions Gold Standard.
 
 Pour plus d’informations sur la mise à niveau Gold Standard, consultez cet [article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/limited_2.png) Version Gold Standard 10{#gs-10}
+## ![](assets/do-not-localize/green_2.png) Version Gold Standard 10{#gs-10}
 
 _7 juillet 2020_
 
@@ -64,8 +64,6 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de trac
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
 
 
-
-
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 8{#gs-8}
 
 _29 avril 2020_
@@ -91,7 +89,7 @@ Le build 9032@3a9dc9c comprend les correctifs suivants :
 * Correction d’une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d’une régression mineure dans les logs du workflow de nettoyage.
 
-## ![](assets/do-not-localize/green_2.png) Version Gold Standard 6{#gs-6}
+## ![](assets/do-not-localize/orange_2.png) Version Gold Standard 6{#gs-6}
 
 _9 mars 2020_
 
