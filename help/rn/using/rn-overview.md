@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Depuis Campaign Classic 19.2, un statut est associé à chaque build. Vous trou
 
 ![](assets/do-not-localize/green3.png) **Disponibilité générale** - Dernier build stable disponible Build validé en production.
 
-Le **dernier build stable** est Gold Standard 6. Cliquez [ici](../../rn/using/gold-standard.md)
+Le **dernier build stable** est Gold Standard 10. Cliquez [ici](../../rn/using/gold-standard.md#gs-10)
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** - Build en cours de validation de production. Déploiement à la demande uniquement.
 
@@ -49,7 +49,7 @@ Le **dernier build stable** est Gold Standard 6. Cliquez [ici](../../rn/using/g
 
 En tant que client hébergé (service géré ou hybride), vous devez contacter l’équipe d’Assistance clientèle pour que votre environnement soit mis à niveau.
 
-En tant qu’utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à niveau Gold Standard avec la dernière version stable sans que vous n’ayez aucune action à effectuer. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html#gs-6)
+En tant qu’utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à niveau Gold Standard avec la dernière version stable sans que vous n’ayez aucune action à effectuer. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html#gs-10)
 
 En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html), consultez le [FAQ sur la mise à niveau des builds](https://helpx.adobe.com/fr/campaign/kb/build-upgrade-faq.html).
 
