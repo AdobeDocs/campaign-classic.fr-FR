@@ -12,11 +12,11 @@ discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 25ae29490f8b4c58dad499669f5bccff43de8b7a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
+workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -173,7 +173,7 @@ Vous devez arrêter et redémarrer le serveur pour que cette modification soit p
 1. Validez votre paramétrage en cliquant sur **[!UICONTROL Tester la connexion]**.
 1. Déclarez l&#39;instance de tracking référencée sur le serveur de mid-sourcing :
 
-   Cliquez sur le lien **[!UICONTROL Utiliser cette plate-forme comme proxy pour accéder aux serveurs de tracking]**,
+   Click the link **[!UICONTROL Use this platform as a proxy to access the tracking servers]**,
 
    Indiquez le nom de l&#39;instance de tracking, puis validez la connexion avec le serveur de tracking.
 
