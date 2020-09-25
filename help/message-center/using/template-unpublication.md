@@ -14,11 +14,11 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 71aeeda3edafc64dbe696ce6f344b8b0ccdc43d1
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 # Annulation de la publication des modèles{#template-unpublication}
 
 Lorsqu’un modèle de message a été publié sur les instances d’exécution, il est possible d’en annuler la publication.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est disponible à partir de la version Campaign 20.2.
 
 En effet, il est encore possible d’appeler un modèle publié. Dans ce cas, si vous n’utilisez plus de modèle de message, il est recommandé d’annuler sa publication. Vous éviterez ainsi d’envoyer par erreur un message transactionnel indésirable. Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez annuler sa publication une fois la période de Noël terminée et le publier de nouveau l’année suivante.
 
