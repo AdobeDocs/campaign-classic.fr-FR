@@ -1,6 +1,6 @@
 ---
 title: Dernière version
-description: Dernière version
+description: Dernière version du Campaign Classic
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab9d2c2e80ba09b5a2cceadb49c06ff13989da0f
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 100%
+source-wordcount: '2163'
+ht-degree: 99%
 
 ---
 
