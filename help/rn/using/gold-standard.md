@@ -1,8 +1,6 @@
 ---
 title: Version Gold Standard
-seo-title: Version Gold Standard
 description: Version Gold Standard
-seo-description: null
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -15,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '812'
 ht-degree: 100%
 
 ---
