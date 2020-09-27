@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 84%
@@ -82,5 +82,5 @@ Reportez-vous à ces sections pour trouver des conseils et les meilleures pratiq
 * Découvrez comment utiliser des workflows pour importer des données dans Campaign dans [cette section](../../workflow/using/importing-data.md).
 * Les meilleures pratiques de flux de travail sont détaillées dans [cette page](../../workflow/using/workflow-best-practices.md).
 * Consultez [cette section](../../workflow/using/starting-a-workflow.md)pour en savoir plus sur l’exécution du processus.
-* Découvrez comment surveiller les workflows de [cette page](../../workflow/using/monitoring-workflow-execution).
+* Découvrez comment surveiller les workflows de [cette page](../../workflow/using/monitoring-workflow-execution.md).
 * Découvrez comment accorder l&#39;accès aux utilisateurs pour utiliser des workflows dans [cette page](../../workflow/using/managing-rights.md).
