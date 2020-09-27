@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
+source-git-commit: 546c8f14006e333bb81aa52a008e9f1dfa79f03b
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 84%
@@ -21,9 +21,9 @@ ht-degree: 84%
 ---
 
 
-# Get started with workflows{#about-workflows}
+# Get started with workflows{#gs-workflows}
 
-## A propos des workflows
+## A propos des workflows{#about-workflows}
 
 Adobe Campaign intègre un module de workflow qui propose une interface de contrôle centralisée de l&#39;ensemble des opérations et processus. Le module de workflow permet d&#39;automatiser et de modéliser les différentes tâches des modules du serveur applicatif. Cet environnement graphique complet permet de construire des processus englobant segmentation, exécution de campagnes, manipulations de fichiers, validations, etc. Le moteur de workflow exécute et assure le suivi des processus.
 
@@ -73,7 +73,7 @@ Chaque workflow comprend :
 
    Pour plus d&#39;informations sur les données de workflow et les tables, consultez [cette section](../../workflow/using/how-to-use-workflow-data.md).
 
-## Principes fondamentaux et bonnes pratiques
+## Principes fondamentaux et bonnes pratiques{#principles-workflows}
 
 Reportez-vous à ces sections pour trouver des conseils et les meilleures pratiques pour automatiser les processus avec des workflows :
 
