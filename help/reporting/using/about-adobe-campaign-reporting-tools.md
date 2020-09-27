@@ -1,8 +1,6 @@
 ---
 title: A propos des outils de reporting d'Adobe Campaign
-seo-title: A propos des outils de reporting d'Adobe Campaign
-description: A propos des outils de reporting d'Adobe Campaign
-seo-description: null
+description: Analysez la réussite de vos campagnes dans des rapports intégrés ou personnalisés.
 page-status-flag: never-activated
 uuid: a8122c9e-60ba-4ef7-bc63-05d6cf16fad0
 contentOwner: sauviat
@@ -14,11 +12,11 @@ discoiquuid: c5dad561-0708-4b7a-84a0-eb00beff58c6
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1719d6ac9643f0b3e9339037cf4d0f209d16340e
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 96%
 
 ---
 
