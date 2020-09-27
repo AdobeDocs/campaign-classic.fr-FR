@@ -1,6 +1,6 @@
 ---
 title: Directives de supervision
-description: Cette section présente des directives générales pour la surveillance de Campaign Classic.
+description: Découvrez les conseils et les meilleures pratiques pour surveiller les instances et les processus Campaign.
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: ht
-source-wordcount: '711'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '713'
+ht-degree: 98%
 
 ---
 
