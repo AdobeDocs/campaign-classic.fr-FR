@@ -1,8 +1,6 @@
 ---
 title: Architecture générale
-seo-title: Architecture générale
-description: Architecture générale
-seo-description: null
+description: Découvrez comment installer et configurer le Campaign Classic.
 page-status-flag: never-activated
 uuid: 686bc660-2403-4bab-a4ea-9b872adf8fa0
 contentOwner: sauviat
@@ -14,11 +12,11 @@ discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
-workflow-type: ht
-source-wordcount: '1337'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 99%
 
 ---
 
