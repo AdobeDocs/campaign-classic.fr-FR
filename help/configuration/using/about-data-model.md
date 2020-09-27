@@ -1,6 +1,6 @@
 ---
-title: À propos du modèle de données d'Adobe Campaign Classic
-description: Ce document décrit les notions de base du modèle de données Adobe Campaign Classic.
+title: À propos du modèle de données Adobe Campaign Classic
+description: Découvrez comment étendre le modèle de données Campaign, modifier des schémas, utiliser des API, etc.
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 580be39d09bd59770d490945c3ba2b29e12fb3c4
-workflow-type: ht
-source-wordcount: '975'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 98%
 
 ---
 
