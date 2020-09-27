@@ -1,6 +1,6 @@
 ---
 title: A propos des intégrations de Campaign
-description: Découvrez les intégrations fonctionnelles disponibles entre la version actuelle d'Adobe Campaign et les solutions Adobe Experience Cloud.
+description: Utilisez d'autres solutions d'Adobe et combinez leurs différentes fonctionnalités avec Campaign.
 page-status-flag: never-activated
 uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 98%
 
 ---
 
