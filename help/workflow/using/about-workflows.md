@@ -1,8 +1,6 @@
 ---
 title: A propos des workflows
-seo-title: A propos des workflows
-description: A propos des workflows
-seo-description: null
+description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, etc.
 page-status-flag: never-activated
 uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
 contentOwner: sauviat
@@ -14,16 +12,18 @@ discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 84%
 
 ---
 
 
-# A propos des workflows{#about-workflows}
+# Get started with workflows{#about-workflows}
+
+## A propos des workflows
 
 Adobe Campaign intègre un module de workflow qui propose une interface de contrôle centralisée de l&#39;ensemble des opérations et processus. Le module de workflow permet d&#39;automatiser et de modéliser les différentes tâches des modules du serveur applicatif. Cet environnement graphique complet permet de construire des processus englobant segmentation, exécution de campagnes, manipulations de fichiers, validations, etc. Le moteur de workflow exécute et assure le suivi des processus.
 
@@ -73,3 +73,14 @@ Chaque workflow comprend :
 
    Pour plus d&#39;informations sur les données de workflow et les tables, consultez [cette section](../../workflow/using/how-to-use-workflow-data.md).
 
+## Principes fondamentaux et bonnes pratiques
+
+Reportez-vous à ces sections pour trouver des conseils et les meilleures pratiques pour automatiser les processus avec des workflows :
+
+* Learn more about workflow activities in [this page](../../workflow/using/how-to-use-workflow-data.md).
+* Découvrez comment créer un processus dans [cette section](../../workflow/using/building-a-workflow.md).
+* Découvrez comment utiliser des workflows pour importer des données dans Campaign dans [cette section](../../workflow/using/importing-data.md).
+* Les meilleures pratiques de flux de travail sont détaillées dans [cette page](../../workflow/using/workflow-best-practices.md).
+* Consultez [cette section](../../workflow/using/starting-a-workflow.md)pour en savoir plus sur l’exécution du processus.
+* Découvrez comment surveiller les workflows de [cette page](../../workflow/using/monitoring-workflow-execution).
+* Découvrez comment accorder l&#39;accès aux utilisateurs pour utiliser des workflows dans [cette page](../../workflow/using/managing-rights.md).
