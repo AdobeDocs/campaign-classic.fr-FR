@@ -1,8 +1,6 @@
 ---
 title: A propos du marketing sur les réseaux sociaux
-seo-title: A propos du marketing sur les réseaux sociaux
-description: A propos du marketing sur les réseaux sociaux
-seo-description: null
+description: Découvrez comment utiliser Campaign pour interagir avec les clients via Facebook et Twitter.
 page-status-flag: never-activated
 uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
 contentOwner: sauviat
@@ -14,11 +12,11 @@ discoiquuid: 743b891a-5857-4734-8035-ea9f23860680
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 92%
 
 ---
 
