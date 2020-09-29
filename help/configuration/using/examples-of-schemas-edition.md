@@ -14,11 +14,11 @@ discoiquuid: 82057cdf-d421-4580-aa38-8c27ca6e20fb
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 042349ae62012984a040b578d97706bae1c9917d
+workflow-type: tm+mt
+source-wordcount: '668'
+ht-degree: 72%
 
 ---
 
@@ -307,3 +307,46 @@ CREATE UNIQUE INDEX CusRcpGrpRel_id ON CusRcpGrpRel(iRcpGroupId, iRecipientId);
 CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 ```
 
+## Cas d’utilisation : lier un champ à une table de référence existante {#uc-link}
+
+Ce cas d’utilisation illustre comment vous pouvez utiliser un tableau de référence existant comme alternative aux mécanismes de énumération Adobe Campaign intégrés (enum, userEnum ou dbEnum).
+
+Vous pouvez également utiliser un tableau de référence existant comme énumération dans vos schémas. Pour ce faire, vous pouvez créer un lien entre un tableau et le tableau de référence et ajouter l’attribut **displayAsField=&quot;true&quot;**.
+
+Dans cet exemple, la table de référence contient une liste de noms de banque et d&#39;identifiants :
+
+```
+<srcSchema entitySchema="xtk:srcSchema" img="cus:bank16x16.png" label="Bank" mappingType="sql" name="bank" namespace="cus"
+xtkschema="xtk:srcSchema">
+    <element img="cus:bank16x16.png" label="Banks" name="bank">
+        <compute-string expr="@name"/>
+        <key name="id">
+            <keyfield xpath="@id"/>
+        </key>
+        <attribute label="Bank Id" name="id" type="short"/>
+        <attribute label="Name" length="64" name="name" type="string"/>
+     </element> 
+</srcSchema>
+```
+
+Dans tout tableau utilisant ce tableau de référence, définissez un lien et ajoutez l’attribut **displayAsField=&quot;true&quot;** .
+
+```
+<element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
+```
+
+L’interface utilisateur n’affiche pas de lien mais un champ. Lorsque l’utilisateur sélectionne ce champ, il peut sélectionner une valeur dans le tableau de référence ou utiliser la fonction de saisie semi-automatique.
+
+![](assets/schema-edition-ex.png)
+
+* Pour qu’il soit complété automatiquement, vous devez définir une chaîne de calcul dans le tableau de référence.
+
+* ajoutez l’attribut **noDbIndex=&quot;true&quot;** dans la définition de lien pour empêcher Adobe Campaign de créer un index sur les valeurs stockées dans la table source du lien.
+
+## Rubriques connexes :
+
+* [Utilisation de énumérations](../../platform/using/managing-enumerations.md)
+
+* [Commencer avec les schémas Campaign](../../configuration/using/about-schema-edition.md)
+
+* [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md)
