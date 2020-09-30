@@ -14,11 +14,11 @@ discoiquuid: 6dad49af-4818-471b-9df1-057cc6b9a68a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6483c3e2e9fd3a2951b2bc8bf6d8a3350361e86f
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,12 @@ Pour créer des adresses de contrôle, procédez comme suit :
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
 1. Indiquez dans l&#39;onglet **[!UICONTROL Champs de l&#39;adresse]** les valeurs qui seront insérées dans les logs de la diffusion lors de la phase d&#39;analyse (dans la table **[!UICONTROL nms:broadLog]**).
-1. Indiquez dans l&#39;onglet **[!UICONTROL Données additionnelles]** les données de personnalisation utilisées dans les diffusions créées dans les workflows avec Datamanagement et que vous souhaitez voir renseignées par une valeur spécifique.
+
+1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to.
+
+   >[!NOTE]
+   >
+   >Assurez-vous que d&#39;autres données de cible ont été définies avec un alias commençant par &quot;@&quot; dans l&#39;activité **[!UICONTROL Enrichissement]** . Sinon, vous ne pourrez pas les utiliser correctement avec vos adresses de contrôle dans votre activité de diffusion.
 
 ## Créer des modèles d&#39;adresses de contrôle {#creating-seed-address-templates}
 
