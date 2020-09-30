@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b76fb1694545f4be02a63e4c670b81db632c5ee
+source-git-commit: 6483c3e2e9fd3a2951b2bc8bf6d8a3350361e86f
 workflow-type: tm+mt
-source-wordcount: '3702'
+source-wordcount: '3720'
 ht-degree: 98%
 
 ---
@@ -32,6 +32,8 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 Une note a été ajoutée pour indiquer que le nombre de profils Principaux est disponible uniquement pour les instances Marketing. [En savoir plus](../../platform/using/about-profiles.md#active-profiles)
 
 Un nouvel exemple d’édition de schéma a été ajouté pour lier un champ à un tableau de référence existant. [En savoir plus](../../configuration/using/examples-of-schemas-edition.md#uc-link)
+
+Une note a été ajoutée concernant l&#39;utilisation de données supplémentaires avec des adresses de contrôle dans les diffusions. [En savoir plus](../../delivery/using/creating-seed-addresses.md#defining-addresses)
 
 ## Août 2020 {#aug-2020}
 
