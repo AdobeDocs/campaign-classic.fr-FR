@@ -14,11 +14,11 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3b6cfe05b851843f5d886fcccbe114ff7f0b6611
+workflow-type: tm+mt
 source-wordcount: '2388'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -311,4 +311,4 @@ Le nombre d&#39;ouvertures correspond au nombre total de messages ouverts. Les e
 
 >[!NOTE]
 >
->Les noms des navigateurs et des systèmes d&#39;exploitation font partie des informations renvoyées par le user agent du navigateur sur lequel le mail a été ouvert. Le type d&#39;appareil est déduit par Adobe Campaign à partir de ces informations.
+>Les noms des navigateurs et des systèmes d’exploitation font partie des informations envoyées par l’agent utilisateur du navigateur auquel le message a été ouvert. Adobe Campaign détermine le type de périphérique en utilisant ses informations sur le périphérique.
