@@ -11,12 +11,9 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: df68ab11-7a8b-4e89-8cc4-8764e8a859b2
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
