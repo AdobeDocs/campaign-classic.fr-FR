@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 41b8a8a8-efac-4e8e-8aea-d4fd06c46e74
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -33,7 +30,7 @@ Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes 
 
 * Création d’une liste de destinataires qui recevront la diffusion (voir : [Etape 1 : création de la liste de destinataires](#step-1--creating-the-recipient-list)).
 * Création d&#39;un modèle de diffusion qui permettra de générer une nouvelle diffusion à chaque exécution du workflow (voir : [Etape 2 : création du modèle de diffusion](#step-2--creating-the-delivery-template)).
-* Création d&#39;un workflow qui permettra de générer le rapport au format PDF et de l&#39;envoyer à la liste de destinataires (voir : ](#step-3--creating-the-workflow)Etape 3 : création du workflow[).
+* Création d&#39;un workflow qui permettra de générer le rapport au format PDF et de l&#39;envoyer à la liste de destinataires (voir : [Etape 3 : création du workflow](#step-3--creating-the-workflow)).
 
 ## Etape 1 : création de la liste de destinataires {#step-1--creating-the-recipient-list}
 
