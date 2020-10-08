@@ -11,12 +11,9 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 4dc87ff3-eb6a-40ac-97ee-00b64cd7718d
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 100%
 
@@ -109,10 +106,10 @@ ht-degree: 100%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Règlement général sur la protection des données (RGPD) de l'UE<br /> </td> 
-   <td> <p>Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l'Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s'applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l'UE.</p> <p>Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d'autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:</p> 
+   <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
+   <td> <p>Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.</p> <p>Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d'autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:</p> 
     <ul> 
-     <li> <p>Droit d'accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
+     <li> <p>Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
      <li> <p>Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign.</p> </li> 
     </ul> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
