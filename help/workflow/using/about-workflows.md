@@ -9,11 +9,8 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 546c8f14006e333bb81aa52a008e9f1dfa79f03b
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 84%
