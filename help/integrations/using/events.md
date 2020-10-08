@@ -11,12 +11,9 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 9f70468e3dd7003a18812d07669f10c561e8bef7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 100%
 
@@ -75,7 +72,7 @@ Exemple :
 
 >[!NOTE]
 >
->Il s’agit d’un exemple spécifique de différentes implémentations possibles.
+>Il s&#39;agit d&#39;un exemple spécifique parmi plusieurs implémentations possibles.
 
 Le contenu est défini dans Analytics pour chaque déclencheur. Il est au format JSON.
 Par exemple, dans un déclencheur LogoUpload_uploading_Visits :
@@ -155,7 +152,7 @@ Puisque ce code est utilisé pour tous les déclencheurs, la plupart des donnée
 
 >[!NOTE]
 >
->Il s&#39;agit d’un exemple spécifique de différentes implémentations possibles.
+>Il s&#39;agit d&#39;un exemple spécifique parmi plusieurs implémentations possibles.
 
 Cet exemple de code JS enregistre le déclencheur dans la base de données.
 
@@ -191,7 +188,7 @@ Pour accélérer le traitement, plusieurs threads de ce script sont exécutés e
 
 >[!NOTE]
 >
->Il s’agit d’un exemple spécifique de différentes implémentations possibles.
+>Il s&#39;agit d&#39;un exemple spécifique parmi plusieurs implémentations possibles.
 
 ### Schéma d’événement de pipeline {#pipeline-event-schema}
 
