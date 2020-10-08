@@ -9,11 +9,8 @@ audience: social
 content-type: reference
 topic-tags: introduction
 discoiquuid: 743b891a-5857-4734-8035-ea9f23860680
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 92%
