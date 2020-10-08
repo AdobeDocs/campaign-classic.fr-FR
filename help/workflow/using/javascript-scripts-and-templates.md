@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c959c0e8ace1eaaa768ea04c194eaccac0b35344
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 100%
 
