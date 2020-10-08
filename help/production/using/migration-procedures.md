@@ -11,12 +11,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: cd03c475-fe57-4c6e-b1c0-533938e6f74e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
