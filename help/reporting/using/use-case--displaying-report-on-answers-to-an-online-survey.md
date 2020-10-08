@@ -11,12 +11,9 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: 5404a227-6cfb-463b-9a56-af46a022eb38
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
