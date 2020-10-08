@@ -11,12 +11,9 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: 8577db0b-f1fc-41af-aa0f-ec4d02dac376
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 100%
 
