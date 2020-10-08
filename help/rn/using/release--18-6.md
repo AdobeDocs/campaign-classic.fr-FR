@@ -11,12 +11,9 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: d046304657f04312d78176c49a650690b05e4c94
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
