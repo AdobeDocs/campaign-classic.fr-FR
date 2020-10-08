@@ -11,12 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
 
