@@ -11,12 +11,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: a31c5c9f-503f-4b55-8409-34d4addbd581
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
