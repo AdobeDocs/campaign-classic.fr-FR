@@ -11,12 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
