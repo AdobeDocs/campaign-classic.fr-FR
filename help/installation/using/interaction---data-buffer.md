@@ -11,12 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: cbfdeb2f-4f20-45b8-8cc0-89362f9ea9c1
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
