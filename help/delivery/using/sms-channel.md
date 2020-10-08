@@ -11,12 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 2f0bb31f7234289f39a561fa58a23cac0390b465
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 100%
 
