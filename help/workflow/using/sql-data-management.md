@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
 
