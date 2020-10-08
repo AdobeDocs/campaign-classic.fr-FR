@@ -11,12 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 6d694f5c-1d1f-4686-b3bf-8697d919a0c8
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 100%
 
