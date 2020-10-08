@@ -11,12 +11,9 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 100%
 
