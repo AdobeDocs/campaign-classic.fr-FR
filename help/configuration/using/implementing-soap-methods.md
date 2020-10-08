@@ -11,12 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 76984d9d-7759-4e0f-a275-09cca27589fa
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
