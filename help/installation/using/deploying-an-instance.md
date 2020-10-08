@@ -11,12 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 100%
 
