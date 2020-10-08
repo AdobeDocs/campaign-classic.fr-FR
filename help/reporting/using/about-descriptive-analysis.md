@@ -11,12 +11,9 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 discoiquuid: ae57ef5f-e5db-4a91-a65a-d1f5f5b905ef
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
 
