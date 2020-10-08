@@ -11,12 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 7a9e028c-255d-4aad-9827-d19f9a7897b2
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
