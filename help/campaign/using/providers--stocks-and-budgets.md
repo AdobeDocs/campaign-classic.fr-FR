@@ -11,12 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: d4627141-cef1-4ddb-ad6a-5dc217b9fa96
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e059fc9e2bfade30454601f31990c3ec14b8a847
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 100%
 
