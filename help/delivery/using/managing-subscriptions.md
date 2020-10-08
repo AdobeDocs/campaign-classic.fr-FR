@@ -11,12 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 100%
 
