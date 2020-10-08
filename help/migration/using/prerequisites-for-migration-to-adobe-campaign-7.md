@@ -11,12 +11,9 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: a3bbd8cc-97c6-4b08-adbf-76ab77b97262
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
