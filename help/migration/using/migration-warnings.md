@@ -11,12 +11,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 discoiquuid: 1fa1fe0f-c392-413a-9fa0-d1b4e10e2e5e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
