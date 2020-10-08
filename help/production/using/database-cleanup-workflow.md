@@ -11,12 +11,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c8cfdb67a4be2bc27baa363032c74a4aa8665e2a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '2995'
 ht-degree: 100%
 
