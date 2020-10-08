@@ -11,12 +11,9 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 9330d4f2-b36d-440d-b56e-b2d4448199b2
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
