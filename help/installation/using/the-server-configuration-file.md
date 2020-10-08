@@ -11,12 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '7859'
 ht-degree: 100%
 
