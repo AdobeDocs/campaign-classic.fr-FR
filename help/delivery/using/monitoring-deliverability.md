@@ -9,12 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -65,7 +62,7 @@ Voici quelques directives supplémentaires concernant la supervision de la déli
 
 Signal Spam est un service français qui propose un reporting de rétroaction anonyme pour les FAI français (Orange, SFR).
 
-* Ce service permet de suivre la réputation des FAI français et l&#39;évolution de l&#39;activité des clients.
+* Ce service permet de suivre la réputation des FAI français et l’évolution de l’activité des clients.
 
 * Signal Spam fournit permet également aux utilisateurs finaux de déposer des plaintes directes via une interface dédiée. Ces plaintes sont ensuite mises en quarantaine dans la base de données des adresses email.
 
