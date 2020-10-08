@@ -11,12 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
