@@ -11,12 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
