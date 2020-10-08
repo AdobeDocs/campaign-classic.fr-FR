@@ -11,12 +11,9 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: df1b6ead-3471-404a-b43f-a68fb86cb14c
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
