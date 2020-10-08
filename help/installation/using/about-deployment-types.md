@@ -11,12 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 
