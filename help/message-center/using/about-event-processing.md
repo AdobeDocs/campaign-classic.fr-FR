@@ -11,12 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 discoiquuid: a78c9986-7c49-47db-99a0-9f0949c4dee7
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: ceb5b2fdcd0dfca28412534ed3417367026f71d0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
