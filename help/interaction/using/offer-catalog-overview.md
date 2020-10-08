@@ -11,12 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
