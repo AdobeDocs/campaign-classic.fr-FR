@@ -11,12 +11,9 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 1755ab4f-b655-48da-bf9a-426807bd85fd
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 100%
 
