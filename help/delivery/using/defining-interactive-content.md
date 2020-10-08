@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a636d56652e1045e7c48bd2e1a2420b58212739a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 93%
