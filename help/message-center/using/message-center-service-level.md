@@ -11,12 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 discoiquuid: e46a4e87-6c02-4b9c-bf6d-bb4e785e78fa
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 
