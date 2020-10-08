@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 978cbe62-f06a-46a6-b8a1-e30a65b8470a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 
