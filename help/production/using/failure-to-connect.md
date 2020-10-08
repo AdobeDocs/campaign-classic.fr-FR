@@ -11,12 +11,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 493067fb-68f1-48b9-afaa-3127a847db83
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 90813bc2913d56136067b9f64c0e934df3f17473
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -71,7 +68,7 @@ Vérifiez les informations suivantes :
 
          L&#39;intégration JAVA est-elle correctement effectuée ? Adobe Campaign requiert un JDK SUN pour fonctionner.
 
-         Il est intégré dans le fichier **`[path of application]`/nl6/customer.sh **
+         Il est intégré dans le fichier **`[path of application]`/nl6/customer.sh**
 
       * Si vous obtenez une page blanche :
 
