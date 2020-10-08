@@ -11,12 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b690e6c7141ba88c8ce72f631ec24fc068ade8f5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
 
