@@ -9,12 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 56fed9fff445892366d3e0f1367029882077ae20
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -41,12 +38,12 @@ Pour en savoir plus à propos de la configuration des MX, voir [cette section](.
 
 ## Même message d’erreur pour un FAI {#same-error-for-an-isp}
 
-**Pourquoi ai-je toujours le même message d&#39;erreur pour un FAI particulier ?**
+**Pourquoi ai-je toujours le même message d’erreur pour un FAI particulier ?**
 
-Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d&#39;expéditeur. Appliquez les recommandations suivantes :
-* Vérifiez si vous recevez un fort pourcentage d&#39;échecs liés à des adresses email inexistantes (échecs de type **Utilisateur inconnu**)
-* Mettez à jour vos formulaires d&#39;abonnement pour détecter d&#39;éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
-* Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d&#39;exclure de la cible les destinataires qui n&#39;ont pas ouvert ou cliqué dans l&#39;un de vos messages dans les 12 mois précédents.
+Si vous recevez toujours le même message d’erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d’expéditeur. Appliquez les recommandations suivantes :
+* Vérifiez si vous recevez un fort pourcentage d’échecs liés à des adresses email inexistantes (échecs de type **Utilisateur inconnu**)
+* Mettez à jour vos formulaires d’abonnement pour détecter d’éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
+* Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d’exclure de la cible les destinataires qui n’ont pas ouvert ou cliqué dans l’un de vos messages dans les 12 mois précédents.
 
 Si le problème persiste, contactez les services commerciaux, délivrabilité, assistance d’Adobe Campaign ou support technique d’Adobe Campaign.
 
@@ -70,8 +67,8 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité, a
 * **Un de mes destinataires a été ajouté par erreur à la liste bloquée. Comment puis-je le retirer de la liste bloquée pour pouvoir lui envoyer à nouveau des messages ?**
 
    * Sélectionnez **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et Adresses]**.
-   * Dans l&#39;écran de détails de l&#39;enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
-   * Sauvegardez l&#39;enregistrement.
+   * Dans l’écran de détails de l’enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
+   * Sauvegardez l’enregistrement.
 
 * **Comment savoir si une de mes adresses IP est en liste bloquée ? Comment supprimer mes adresses IP d’une liste bloquée ?**
 
@@ -85,7 +82,7 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité, a
 
    >[!NOTE]
    >
-   >Le processus peut varier selon le site web. Certains sites requièrent la création d&#39;un compte alors que d&#39;autres demandent uniquement que vous fournissiez l&#39;adresse IP.
+   >Le processus peut varier selon le site web. Certains sites requièrent la création d’un compte alors que d’autres demandent uniquement que vous fournissiez l’adresse IP.
 
 ## Bonnes pratiques {#best-practices}
 
