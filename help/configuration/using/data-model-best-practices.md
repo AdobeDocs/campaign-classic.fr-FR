@@ -9,12 +9,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '4014'
 ht-degree: 100%
 
