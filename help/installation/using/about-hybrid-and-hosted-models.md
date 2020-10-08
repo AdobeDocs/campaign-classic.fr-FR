@@ -11,12 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: cf6dd02f-f493-4a83-ba77-b4544f63cab0
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%
 
