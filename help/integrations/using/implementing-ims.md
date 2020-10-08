@@ -11,12 +11,9 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: 3999577b-0460-4898-a4ec-a7b0e5002065
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
