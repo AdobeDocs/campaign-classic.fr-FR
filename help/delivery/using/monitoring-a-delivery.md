@@ -11,12 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 100%
 
