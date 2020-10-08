@@ -11,12 +11,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 discoiquuid: 4d2e765b-750b-457f-ad55-8bd6faaa86af
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 40391fbea53757decb48fd937f5e74e8ba6fb207
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
 
