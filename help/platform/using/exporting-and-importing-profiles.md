@@ -11,12 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 0325ab0f-394e-404b-9f4a-db3cc18d2493
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
@@ -46,4 +43,4 @@ Pour paramétrer et exécuter des imports et des exports de données, accédez �
 
 Cette vidéo explique comment importer des profils dans Adobe Campaign pour un import occasionnel.
 
->[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
