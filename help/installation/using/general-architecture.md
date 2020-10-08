@@ -9,11 +9,8 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 99%
