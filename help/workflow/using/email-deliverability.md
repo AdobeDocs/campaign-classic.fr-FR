@@ -11,12 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: da0779dc-b734-483b-81e9-ff4706a2b6de
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
