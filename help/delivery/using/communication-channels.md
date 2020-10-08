@@ -11,11 +11,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 99%
