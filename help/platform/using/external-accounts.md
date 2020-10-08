@@ -11,12 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '2454'
 ht-degree: 100%
 
