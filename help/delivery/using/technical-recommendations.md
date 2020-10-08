@@ -9,12 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '2467'
 ht-degree: 100%
 
