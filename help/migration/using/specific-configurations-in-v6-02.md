@@ -11,12 +11,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: 87a6cbda-54a6-4dae-8224-e06dc217f4fc
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
