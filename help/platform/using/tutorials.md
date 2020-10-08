@@ -11,12 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: ea248639e9730c6bdd1090098866a094b80daebb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 
