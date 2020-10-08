@@ -11,11 +11,8 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 95%
@@ -167,8 +164,5 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 * Correction d&#39;un problème lors de l&#39;accès aux modèles prédictifs. (NEO-19713)
 * Correction d&#39;un problème affectant l&#39;échantillonnage aléatoire dans l&#39;activité de workflow **Partage** avec la base de données Hadoop FDA. (NEO-16636)
 * Correction d’une régression sur Oracle en raison de laquelle certaines fonctions étaient considérées comme non valides après la mise à niveau. (NEO-12759)
-
-
-
 
 
