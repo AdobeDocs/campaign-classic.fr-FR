@@ -11,12 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: ed44ccd8053d79024e8fb2d05ee27e1e663b8cb2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
