@@ -11,12 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 3bd113c3-da67-4f4f-aa40-f4c7860a8569
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
