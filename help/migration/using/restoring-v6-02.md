@@ -11,12 +11,9 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 discoiquuid: 4f65ba19-e9f0-4425-b640-f27c61394859
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
