@@ -11,12 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: d47017a3-a342-4758-a700-b8e88aa724f2
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
