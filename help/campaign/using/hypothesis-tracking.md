@@ -11,12 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 discoiquuid: 4452bfc6-9ac4-4d81-a63c-879a163c13ee
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 
