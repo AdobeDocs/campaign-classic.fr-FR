@@ -11,12 +11,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 860be8be-f28c-4836-b4fb-e91c6a4616c6
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
