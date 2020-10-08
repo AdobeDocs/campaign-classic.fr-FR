@@ -9,11 +9,8 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 96%
