@@ -11,12 +11,9 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -50,9 +47,11 @@ Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;
 
    >[!NOTE]
    >
-   >Si vous utilisez S3, indiquez votre **[!UICONTROL Serveur du compte AWS S3]** en respectant la syntaxe suivante :\
-   `<S3bucket name>.s3.amazonaws.com/<s3object path>`\
-   Pour plus d&#39;informations sur la configuration de votre compte S3, consultez cette [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
+   >Si vous utilisez S3, indiquez votre **[!UICONTROL Serveur du compte AWS S3]** en respectant la syntaxe suivante :
+   >
+   >`<S3bucket name>.s3.amazonaws.com/<s3object path>`
+   >
+   >Pour plus d&#39;informations sur la configuration de votre compte S3, consultez cette [page](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account).
 
    ![](assets/aam_config_2.png)
 
