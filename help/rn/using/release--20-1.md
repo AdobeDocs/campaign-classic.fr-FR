@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ _17 février 2020_
 
 * Amélioration des performances des requêtes, qui pourraient être affectées par des connexions inutiles à la base de données.
 
-* Amélioration des performances de l&#39;Assistant Mise à jour de la base de données afin de réduire le nombre d&#39;instructions SQL afin d&#39;optimiser le temps de réponse.
+* Amélioration des performances de l&#39;assistant de mise à jour de la base de données afin de réduire le nombre d&#39;instructions SQL dans le but d&#39;optimiser le temps de réponse.
 
 * La gestion des enregistrements de la base de données a été améliorée.
 
@@ -180,7 +180,7 @@ _17 février 2020_
 
 * Correction d’un problème qui se produisait lors de la suppression, de l’insertion ou de la mise à jour d’une grande quantité de données avec l’activité de **mise à jour des données** dans un workflow à l’aide d’un schéma FDA servant de dimension de ciblage. (NEO-13280)
 
-* Correction d’un problème qui empêchait l’envoi de courriers électroniques lorsque du code JavaScript se trouvait en dehors de la balise de contenu HTML. (NEO-18628)
+* Correction d&#39;un problème qui empêchait l&#39;envoi d&#39;emails lorsque du code JavaScript se trouvait en dehors de la balise de contenu HTML. (NEO-18628)
 
 * Correction d’un problème qui se produisait lors de l’affichage de la page miroir depuis les logs de diffusion d’un message envoyé. (NEO-17976)
 
