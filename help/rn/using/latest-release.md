@@ -117,7 +117,7 @@ _lundi 8 juin 2020_
 
 **Améliorations de la sécurité**
 
-* La sécurité améliorée du tracking des liens dans les emails est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant le service Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html). (NEO-24232)
+* La sécurité améliorée du tracking des liens dans les emails est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html). (NEO-24232)
 
 * Pour optimiser la sécurité, l’algorithme de hachage MD5 utilisé pour générer des noms de fichier a été renforcé grâce aux fonctions sha256 pour l’envoi de fichiers publics. (NEO-17044)
 
