@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Guide Adobe Campaign Classic
-breadcrumb-title: Campaign Classic Guide
+user-guide-title: Guide d'Adobe Campaign Classic
+breadcrumb-title: Guide du Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
+user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing inter-canaux qui génèrent un rendement élevé sur l’investissement marketing.
 product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 98%
+source-wordcount: '2139'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic Guide {#using}
+# Guide d&#39;Adobe Campaign Classic {#using}
 
 + [Documentation du produit](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
@@ -36,7 +36,7 @@ ht-degree: 98%
       + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
 + Prise en main {#getting-started}
    + Prise en main d&#39;Adobe Campaign {#starting-with-adobe-campaign}
-      + [Commencer avec Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+      + [Prise en main d&#39;Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
       + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
       + [Lancement d&#39;Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Espace de travail Adobe Campaign](platform/using/adobe-campaign-workspace.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête        {#creating-queries}
+   + Créer une requête         {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -265,7 +265,7 @@ ht-degree: 98%
       + [Cas pratique : affichage d&#39;un rapport sur les réponses à un questionnaire en ligne](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Conception de contenu web {#designing-content}
    + Applications web {#web-applications}
-      + [Prise en main des applications Web](web/using/about-web-applications.md)
+      + [Prise en main des applications web](web/using/about-web-applications.md)
       + [Créer une application web](web/using/creating-a-new-web-application.md)
       + [Concevoir une application web](web/using/designing-a-web-application.md)
       + [Cas pratiques : création de vues d&#39;ensemble](web/using/use-cases--creating-overviews.md)
@@ -341,7 +341,7 @@ ht-degree: 98%
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
 + Automatisation et workflows {#automating-with-workflows}
    + Introduction {#introduction}
-      + [Commencer avec les workflows](workflow/using/about-workflows.md)
+      + [Prise en main des workflows](workflow/using/about-workflows.md)
       + [A propos des activités](workflow/using/about-activities.md)
    + Fonctionnement général {#general-operation}
       + [Construire un workflow](workflow/using/building-a-workflow.md)
@@ -424,7 +424,7 @@ ht-degree: 98%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle   {#monitoring}
+      + Contrôle    {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
       + [Emission vers Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
       + [Plate-forme de Mid-sourcing](workflow/using/mid-sourcing-platform.md)
 + Gestion des offres {#managing-offers}
-   + Get started with Interaction {#interaction-overview}
+   + Prise en main d&#39;Interaction {#interaction-overview}
       + [Interaction et la gestion des offres](interaction/using/interaction-and-offer-management.md)
       + [Glossaire](interaction/using/glossary.md)
       + [Bonnes pratiques relatives aux interactions](interaction/using/interaction-best-practices.md)
@@ -529,7 +529,7 @@ ht-degree: 98%
       + [Offres sur canal sortant](interaction/using/offers-on-an-outbound-channel.md)
 + Messages transactionnels {#transactional-messaging}
    + Introduction {#introduction}
-      + [Commencer avec la messagerie transactionnelle](message-center/using/about-transactional-messaging.md)
+      + [Prise en main de la messagerie transactionnelle](message-center/using/about-transactional-messaging.md)
       + [Architecture des messages transactionnels](message-center/using/transactional-messaging-architecture.md)
       + [Description des événements](message-center/using/event-description.md)
    + Paramétrage des instances {#instance-configuration}
