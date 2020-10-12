@@ -75,7 +75,7 @@ ht-degree: 100%
 * Correction d’une erreur d’encodage du suivi avec Microsoft Edge et Internet Explorer. (NEO-11257)
 * Correction d’une erreur avec la personnalisation du lien de l’image dans les diffusions LINE. (NEO-11077)
 * Correction d’une erreur qui empêchait le bon fonctionnement du mécanisme de génération de séquence d’identifiants. (NEO-11115)
-* Correction d’une erreur qui empêchait les demandes d’accès à des informations personnelles (RGPD) de fonctionner lors de l’utilisation d’un espace de nommage personnalisé avec une clé de réconciliation de type entier. (NEO-11123)
+* Correction d’une erreur qui empêchait les demandes d’accès à des informations personnelles (RGPD) de fonctionner lors de l’utilisation d’un espace de noms personnalisé avec une clé de réconciliation de type entier. (NEO-11123)
 * Correction d’une erreur qui pouvait survenir lors de l’utilisation de l’option **[!UICONTROL Répartition des valeurs]** dans les activités de workflow **[!UICONTROL Requête]**. (NEO-10958)
 * Correction d’une erreur lors de la synchronisation des emplacements de l’instance marketing vers l’instance d’interaction. (NEO-11162)
 * Amélioration de la gestion des index aux noms longs lors du postupgrade.
