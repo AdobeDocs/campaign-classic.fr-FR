@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3720'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Septembre 2020 {#september-2020}
 
-Une note a été ajoutée pour indiquer que le nombre de profils Principaux est disponible uniquement pour les instances Marketing. [En savoir plus](../../platform/using/about-profiles.md#active-profiles)
+Une note a été ajoutée pour indiquer que le nombre de profils actifs est disponible uniquement pour les instances Marketing. [En savoir plus](../../platform/using/about-profiles.md#active-profiles)
 
-Un nouvel exemple d’édition de schéma a été ajouté pour lier un champ à un tableau de référence existant. [En savoir plus](../../configuration/using/examples-of-schemas-edition.md#uc-link)
+Un nouvel exemple relatif à l&#39;édition de schéma a été ajouté pour lier un champ à une table de référence existante. [En savoir plus](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 
 Une note a été ajoutée concernant l&#39;utilisation de données supplémentaires avec des adresses de contrôle dans les diffusions. [En savoir plus](../../delivery/using/creating-seed-addresses.md#defining-addresses)
 
@@ -99,7 +99,7 @@ Les termes « whiteliste » et « blackliste » ont été supprimés de la d
 
 La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
-## july 2020 {#release-20-2}
+## Juillet 2020 {#release-20-2}
 
 **Nouvelles fonctionnalités incluses dans la version 20.2**
 
@@ -272,7 +272,7 @@ La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélio
 
 Une nouvelle section a été ajoutée pour expliquer comment résoudre les problèmes liés à un workflow qui reste dans l&#39;état &quot;Démarrer dès que possible&quot; au cours d&#39;une campagne. [En savoir plus](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
-Les nouvelles options &quot;NmsOperation_DeliveryPreparingWindow&quot; et &quot;WdbcKillSessionPolicy&quot; ont été ajoutées à la liste des options de Campaign. [En savoir plus](../../installation/using/configuring-campaign-options.md)
+Les nouvelles options &quot;NmsOperation_DeliveryPreparationWindow&quot; et &quot;WdbcKillSessionPolicy&quot; ont été ajoutées à la liste des options de Campaign. [En savoir plus](../../installation/using/configuring-campaign-options.md)
 
 Un nouveau document décrivant les notions de base des modèles de données d&#39;Adobe Campaign Classic est désormais disponible. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html)
 
