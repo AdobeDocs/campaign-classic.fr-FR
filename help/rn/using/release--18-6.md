@@ -42,7 +42,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> Query banding<br /> </td> 
-   <td> <p>Lorsque plusieurs utilisateurs de Campaign se connectent à un même compte externe Teradata FDA, vous pouvez désormais transmettre une bande de requêtes (paires clé/valeur) spécifique à chaque utilisateur. Chaque fois qu'un utilisateur de Campaign effectue une requête sur la base de données Teradata, Adobe Campaign peut désormais envoyer des métadonnées associées à l'utilisateur. Ces données, qui consistent en une liste de clés et de valeurs, peuvent ensuite être utilisées par les administrateurs de Teradata à des fins d'audit ou pour gérer les droits d'accès, par exemple.</p><p>Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">documentation détaillée</a>.</p> </td>
+   <td> <p>Lorsque plusieurs utilisateurs de Campaign se connectent à un même compte externe Teradata FDA, vous pouvez désormais transmettre une Query band (paires clé/valeur) spécifique à chaque utilisateur. Chaque fois qu'un utilisateur de Campaign effectue une requête sur la base de données Teradata, Adobe Campaign peut désormais envoyer des métadonnées associées à l'utilisateur. Ces données, qui consistent en une liste de clés et de valeurs, peuvent ensuite être utilisées par les administrateurs de Teradata à des fins d'audit ou pour gérer les droits d'accès, par exemple.</p><p>Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">documentation détaillée</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
