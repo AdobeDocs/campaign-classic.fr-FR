@@ -136,7 +136,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Surveillance des workflows<br /> </td> 
-   <td> <p>Avec la nouvelle Carte thermique des workflows Campaign d'Adobe, les administrateurs de la plate-forme disposent d'une représentation graphique de tous les workflows simultanés, ce qui leur permet de surveiller la charge de l'instance et de planifier les workflows en conséquence.</p> <p>Pour plus d'informations, consultez la <a href="../../workflow/using/heatmap.md">documentation détaillée</a>.</p> <p>Le package Carte thermique des workflows est également disponible sur demande pour les builds antérieurs à 8977 (à compter du build 8700). Pour plus d'informations sur la façon de le demander et de l'installer, consultez <a href="https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html">cette page</a>.</p> </td> 
+   <td> <p>Avec la nouvelle Carte thermique des workflows Campaign d'Adobe, les administrateurs de la plateforme disposent d'une représentation graphique de tous les workflows simultanés, ce qui leur permet de surveiller la charge de l'instance et de planifier les workflows en conséquence.</p> <p>Pour plus d'informations, consultez la <a href="../../workflow/using/heatmap.md">documentation détaillée</a>.</p> <p>Le package Carte thermique des workflows est également disponible sur demande pour les builds antérieurs à 8977 (à compter du build 8700). Pour plus d'informations sur la façon de le demander et de l'installer, consultez <a href="https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html">cette page</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
