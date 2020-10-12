@@ -138,7 +138,7 @@ La section Supervision de la délivrabilité a été déplacée et améliorée. 
 
 La section Résolution des problèmes de délivrabilité a été déplacée et améliorée. [En savoir plus](../../delivery/using/deliverability-faq.md)
 
-Les directives relatives à la délivrabilité lors du démarrage d’une nouvelle section de plate-forme ont été améliorées. [En savoir plus](../../delivery/using/starting-new-platform.md)
+Les directives relatives à la délivrabilité lors du démarrage d’une nouvelle section de plateforme ont été améliorées. [En savoir plus](../../delivery/using/starting-new-platform.md)
 
 La section Envoi d’emails transactionnels avec des pièces jointes a été déplacée et mise à jour. [En savoir plus](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -403,7 +403,7 @@ La procédure de migration des applications Android entre Google Cloud Messagi
 
 Le Guide de dimensionnement du matériel pour Campaign a été mis à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html)
 
-Des informations ont été ajoutées concernant le Query Banding pour le compte externe Teradata. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
+Des informations ont été ajoutées concernant le Query banding pour le compte externe Teradata. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
 
 ## Janvier 2019{#release-doc-16-01-2019}
 
