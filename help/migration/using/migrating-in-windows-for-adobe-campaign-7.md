@@ -223,8 +223,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Ces commandes permettent de créer le système de fichiers interne d&#39;Adobe Campaign v7 : répertoire **conf** (avec les fichiers **config-default.xml** et
-**serverConf.xml**), répertoire **var**, etc.
+   >Ces commandes permettent de créer le système de fichiers interne d&#39;Adobe Campaign v7 : répertoire **conf** (avec les fichiers **config-default.xml** et **serverConf.xml**), répertoire **var**, etc.
 
 1. Copiez et collez (écrasez) les fichiers de paramétrage et sous-dossiers de chaque instance via le fichier de sauvegarde **Neolane v5.back**, **Neolane v6.back** ou **Adobe Campaign v6.back** (selon la version à partir de laquelle vous migrez, voir [cette section](#back-up-the-database-and-the-current-installation)).
 1. En fonction de la version à partir de laquelle vous migrez, exécutez les commandes suivantes :
