@@ -131,7 +131,7 @@ Vérifiez que vous disposez des versions prises en charge des systèmes réperto
 
 _SDK Campaign Mobile_
 
-Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, nous avons ajouté la prise en charge d&#39;iOS 13. Cette nouvelle version prend désormais en charge la priorité des notifications et le nouveau processus de gestion des jetons d&#39;enregistrement pour les notifications Push iOS 13. Si vous exécutez des applications correspondant à une version précédente du SDK, vous devez recompiler vos applications avec le nouveau. Pour obtenir le SDK, contactez l&#39;Assistance clientèle Adobe.
+Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, nous avons ajouté la prise en charge d&#39;iOS 13. Cette nouvelle version prend désormais en charge la priorité des notifications et le nouveau processus de gestion des jetons d&#39;enregistrement pour les notifications Push iOS 13. Si vous exécutez des applications correspondant à une version précédente du SDK, vous devez recompiler vos applications avec le nouveau. Pour obtenir le SDK, contactez l&#39;Assistance clientèle d&#39;Adobe.
 
 **Correctifs**
 
