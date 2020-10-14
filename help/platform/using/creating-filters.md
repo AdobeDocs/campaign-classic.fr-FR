@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: filtering-data
 discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 100%
+source-wordcount: '2100'
+ht-degree: 99%
 
 ---
 
@@ -276,8 +276,8 @@ Les filtres prédéfinis sont les suivants :
    <td> Sélection des destinataires qui ont cliqué dans une diffusion au moins X fois dans les Y derniers mois.<br /> </td> 
   </tr> 
   <tr> 
- <td> Adresse email sur la liste bloquée<br /> </td> 
-    <td> Sélectionne les destinataires dont l’adresse email se trouve sur la liste bloquée.<br/> </td>
+ <td> Adresse email sur liste bloquée<br /> </td> 
+    <td> Selects recipients whose email address is on the denylist.<br/> </td>
   </tr> 
   <tr> 
    <td> Email en quarantaine<br /> </td> 
