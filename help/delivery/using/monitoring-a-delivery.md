@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2644'
-ht-degree: 100%
+source-wordcount: '2639'
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion sem
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
    * Messages mis en attente (message **[!UICONTROL Quotas atteints]**) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d&#39;informations sur ce message, consultez [cette page](../../delivery/using/deliverability-faq.md). Pour en savoir plus sur les règles MX, reportez-vous à [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
-   * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et un ajout potentiel à une liste bloquée.
+   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential denylist.
 
 * Un problème lié au système peut empêcher les serveurs d&#39;interagir ensemble : l&#39;ensemble du processus d&#39;envoi peut être ainsi ralenti. Vérifiez que les serveurs ne présentent aucun problème de mémoire ou de ressource qui peut impacter Campaign dans le processus de récupération des données de personnalisation par exemple.
 
@@ -163,7 +163,7 @@ Lors de l&#39;envoi d&#39;une diffusion, les statuts suivants peuvent s&#39;affi
   </tr> 
   <tr> 
    <td> Ignoré<br /> </td> 
-   <td> La diffusion n’a pas été envoyée au destinataire en raison d’une erreur liée à son adresse. Elle a été ajoutée à une liste bloquée, a été mise en quarantaine, n’a pas été fournie ou est un duplicata. <br /> </td> 
+   <td> La diffusion n’a pas été envoyée au destinataire en raison d’une erreur liée à son adresse. Il était soit sur liste bloquée, soit mis en quarantaine, non fourni, soit sur duplicata. <br /> </td> 
   </tr> 
   <tr> 
    <td> Envoyés<br /> </td> 
@@ -241,7 +241,7 @@ Si l&#39;état d&#39;une diffusion par email est **[!UICONTROL En échec]**, la 
 
 Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a échoué. Voici les erreurs possibles que vous pouvez détecter dans les logs de diffusion :
 
-* Si les messages des destinataires échouent avec une erreur &quot;Inaccessible&quot; et le message : **Erreur lors de la compilation du script &#39;content htmlContent&#39; ligne X :`[table]`n&#39;est pas définie. JavaScript : erreur lors de l&#39;évaluation du script &#39;content htmlContent**, le problème est presque toujours dû à une personnalisation du code HTML qui tente d&#39;appeler une table ou un champ non défini ou mappé dans le ciblage amont ou dans le mapping cible de la diffusion.
+* Si les messages des destinataires échouent avec une erreur &quot;Inaccessible&quot; et le message : **Erreur lors de la compilation du script &#39;content htmlContent&#39; ligne X : `[table]` n&#39;est pas définie. JavaScript : erreur lors de l&#39;évaluation du script &#39;content htmlContent**, le problème est presque toujours dû à une personnalisation du code HTML qui tente d&#39;appeler une table ou un champ non défini ou mappé dans le ciblage amont ou dans le mapping cible de la diffusion.
 
    Pour corriger ce problème, le workflow et le contenu de la diffusion doivent être examinés afin de déterminer précisément quelle personnalisation tente d&#39;appeler la table en question et si la table peut être mappée ou non. À partir de là, supprimer l&#39;appel à cette table dans le code HTML ou résoudre le mapping sur la diffusion peut permettre de résoudre le problème.
 
