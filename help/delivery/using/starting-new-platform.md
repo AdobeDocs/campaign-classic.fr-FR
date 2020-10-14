@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Il est essentiel de préserver la réputation de votre domaine et de votre adres
 
 * Commencer l’envoi d’emails est une étape délicate, car la plate-forme ne possède ni historique d’envoi, ni réputation, lorsque les adresses IP d’envoi n’ont jamais été utilisées pour des emails.
 
-* Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP « inconnues » (celles qui n’ont jamais été placées en liste bloquée) pour envoyer un maximum de messages pendant le laps de temps où ils n’ont pas encore été détectés.
+* Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP &quot;inconnues&quot; (adresses qui n&#39;ont jamais été en liste bloquée) pour envoyer le plus grand nombre possible de messages avant leur détection.
 
 * On ne peut donc pas espérer atteindre le régime de croisière en termes de débit dès le début de la mise en production. De surcroît on ne doit pas essayer d&#39;envoyer les premiers messages avec un tel débit, car cela conduirait les FAI à bloquer d&#39;autant plus sévèrement les adresses IP d&#39;envoi et à compromettre gravement la poursuite du démarrage.
 
