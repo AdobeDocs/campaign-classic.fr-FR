@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Ces blocs de personnalisation sont dynamiques, personnalisés et possèdent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Voir [Insérer des blocs de personnalisation](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png)Découvrez cette fonctionnalité [en vidéo](#personalization-blocks-video)
 
 Les blocs de personnalisation sont accessibles notamment à partir du nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir [Blocs de personnalisation d’usine](#out-of-the-box-personalization-blocks)).
 
@@ -110,7 +110,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
    >Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici. ».
-* **[!UICONTROL Lien de désabonnement]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
+* **[!UICONTROL Lien]** de désinscription : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
 * **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule. Ce bloc doit être inséré dans le code source de la diffusion, dans les balises **`<script>...</script>`**.
 
    Dans l’exemple ci-dessous, la fonction est utilisée pour remplacer l’élément « My header » par « My new header » avec des lettres majuscules à chaque mot :
