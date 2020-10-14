@@ -1,7 +1,7 @@
 ---
-title: Bases de données de listes bloquées
-seo-title: Bases de données de listes bloquées
-description: Bases de données de listes bloquées
+title: Base de données de Liste bloquée
+seo-title: Base de données de Liste bloquée
+description: Base de données de Liste bloquée
 seo-description: null
 page-status-flag: never-activated
 uuid: 8a4a69f9-87d5-4044-bc55-76cdcb2e7800
@@ -12,15 +12,15 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 97%
 
 ---
 
 
-# Bases de données de listes bloquées{#blocklisting-databases}
+# Base de données de Liste bloquée{#denylist-databases}
 
 Plusieurs organisations recensent les adresses IP et les domaines réputés pour être des spammeurs. La consultation de ces sites peut aider à comprendre la raison de certains rejets de messages comme spam. Il est généralement possible de demander le retrait d&#39;une adresse injustement recensée dans ces listes.
 
