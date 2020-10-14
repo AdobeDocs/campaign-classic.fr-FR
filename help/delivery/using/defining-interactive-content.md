@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 93%
+source-wordcount: '1587'
+ht-degree: 91%
 
 ---
 
@@ -151,6 +151,7 @@ Vous pouvez également consulter les [Conseils et limites connues de Gmail](http
 Actuellement, vous pouvez tester l’envoi d’un courrier électronique AMP en deux étapes :
 
 1. Adobe Campaign vous permet de tester la diffusion d’un email dynamique piloté par AMP vers des adresses email sélectionnées correctement configurées, afin de vérifier son contenu et son comportement. Voir [Tester la diffusion d’un email AMP pour des adresses sélectionnées](#testing-amp-delivery-for-selected-addresses).
+
 1. Une fois testé, vous pouvez envoyer une diffusion ou une campagne dans le cadre de l’AMP pour le programme électronique en vous inscrivant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d’expéditeur soit ajouté à la liste autorisée. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
 
 ### Tester la diffusion d’un email AMP pour des adresses sélectionnées {#testing-amp-delivery-for-selected-addresses}
@@ -161,7 +162,7 @@ Vous pouvez tester l’envoi de messages dynamiques d’Adobe Campaign vers des 
 >
 >Actuellement, seuls Gmail, Outlook et Mail.ru prennent en charge le test du format AMP.
 
-En ce qui concerne Gmail et Outlook, vous devez d’abord ajouter à la liste autorisée la ou les adresses d’expéditeur que vous utilisez pour procéder à la diffusion depuis Adobe Campaign pour les comptes Gmail et Outlook ciblés.
+Pour Gmail et Outlook, vous devez d&#39;abord ajouter la ou les adresses d&#39;expéditeur que vous utilisez à la liste autorisée pour diffuser à partir d&#39;Adobe Campaign les comptes Gmail et Outlook que vous ciblez.
 
 Pour cela :
 1. Vérifiez que l’option d’activation de l’e-mail est cochée par le ou les fournisseurs de messagerie appropriés.
