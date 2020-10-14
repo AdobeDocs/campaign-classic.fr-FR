@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '1043'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 1. Règles de contrôle, si elles s&#39;appliquent au début du ciblage.
 1. Règles de filtrage :
 
-   * Règles d’application natives pour la qualification des adresses : adresse définie / adresse non vérifiée / adresse sur liste bloquée / adresse mise en quarantaine / qualité de l’adresse.
+   * Règles d&#39;application natives pour la qualification d&#39;adresse : adresse définie / adresse non vérifiée / adresse sur la liste bloquée / adresse mise en quarantaine / qualité de l&#39;adresse.
    * Règles de filtrage définies par l&#39;utilisateur.
    * Règle de déduplication sur l&#39;adresse ou sur l&#39;identifiant (appliquée si nécessaire).
 
