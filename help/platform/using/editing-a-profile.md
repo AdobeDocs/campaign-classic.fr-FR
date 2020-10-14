@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '490'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Cet écran contient toutes les informations générales relatives au profil sél
 
 >[!NOTE]
 >
->Lorsque l’option **[!UICONTROL Ne plus contacter (tous canaux)]** est sélectionnée, le profil est dans la liste bloquée, c’est-à-dire qu’il a exprimé le souhait de ne pas être contacté (par exemple, en cliquant sur un lien de désabonnement dans une newsletter). Il ne sera plus ciblé par des diffusions sur un canal quelconque (email, courrier, etc.). Voir à ce propos [cette page](../../delivery/using/understanding-quarantine-management.md).
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). Il ne sera plus ciblé par des diffusions sur un canal quelconque (email, courrier, etc.). Voir à ce propos [cette page](../../delivery/using/understanding-quarantine-management.md).
 
 ## Onglet Coordonnées {#contact-information-tab}
 
