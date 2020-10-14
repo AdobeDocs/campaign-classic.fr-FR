@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: 0d50826e-2211-4c3b-8413-ca1453bba6c4
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
