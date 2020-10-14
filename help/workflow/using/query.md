@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 100%
@@ -187,7 +187,7 @@ La section ci-dessous présente les bonnes pratiques pour optimiser les requête
 
    Assurez-vous que la clause `where` est du même type que le champ.
 
-   Il existe une erreur courante : `iBlocklist='3'` où `iBlocklist` est un champ numérique et `3` correspond à une valeur de texte.
+   Il existe une erreur courante : `iBlacklist='3'` où `iBlacklist` est un champ numérique et `3` correspond à une valeur de texte.
 
    Assurez-vous de connaître le plan d’exécution de votre requête. Évitez les analyses de table complètes, en particulier pour les requêtes en temps réel ou quasi temps réel qui s’exécutent toutes les minutes.
 
