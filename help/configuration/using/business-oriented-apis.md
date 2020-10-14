@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 
@@ -147,7 +147,7 @@ Si le destinataire n&#39;est pas présent dans la base de données, ou bien s&#3
 
 >[!NOTE]
 >
->Si le nom du service n’est pas spécifié en tant que paramètre, alors le destinataire est automatiquement ajouté à la liste bloquée (@blockList=&quot;1&quot;).
+>Si le nom du service n&#39;est pas spécifié en tant que paramètre, le destinataire est alors automatiquement sur liste bloquée(@liste bloquée=&quot;1&quot;).
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 
