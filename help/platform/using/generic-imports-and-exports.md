@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '534'
+ht-degree: 96%
 
 ---
 
@@ -40,11 +40,11 @@ Vous pouvez ainsi :
 >
 >L&#39;import de données dans Campaign doit être effectué par le biais des workflows afin de garantir la cohérence des données et d&#39;améliorer l&#39;efficacité. Voir à ce propos les sections [Importer des données](../../workflow/using/importing-data.md), [Bonnes pratiques d&#39;import](../../workflow/using/importing-data.md#best-practices-when-importing-data) et [Exemple de modèle d&#39;import](../../workflow/using/importing-data.md#setting-up-a-recurring-import).
 
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
+
 ## Créer un modèle de traitement {#creating-a-job-template}
 
 Les modèles d&#39;import et d&#39;export sont stockés dans le répertoire **[!UICONTROL Ressources > Modèles > Modèles de traitement]** de l&#39;arborescence d&#39;Adobe Campaign.
-
-![](assets/s_ncs_user_export_wizard_template.png)
 
 Par défaut, trois modèles d&#39;import et un modèle d&#39;export sont présents dans ce répertoire. Ils ne doivent pas être modifiés. Vous pouvez les dupliquer pour créer vos propres modèles, ou créer un nouveau modèle à partir du menu **[!UICONTROL Nouveau > Modèle d&#39;import]**/**[!UICONTROL Modèle d&#39;export]**.
 
@@ -54,7 +54,7 @@ La procédure de création d&#39;un modèle de processus est présentée dans le
 
 >[!NOTE]
 >
->Le modèle natif **[!UICONTROL Import de la liste bloquée]** est déjà configuré pour importer la liste des adresses email ajoutées à la liste bloquée.
+>The native template **[!UICONTROL Import denylist]** is already configured to import a list of email addresses which were added to the denylist.
 > 
 >Les modèles **[!UICONTROL Nouvel import texte]** et **[!UICONTROL Nouvel export texte]** permettent de paramétrer un import ou un export en partant de zéro.
 
