@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ Les périmètres définis dans le compte externe Campaign doivent être un sous-
 
 **URL de callback**
 
-L’**URL de callback** doit être ajoutée à la liste autorisée et commencer par &quot;https://&quot;. Vérifiez que l’**URL de callback** est liée à l’instance correspondante. Par exemple, l’instance de production doit rediriger vers l’URL de production.
+The **Callback URL** should be added to the allowlist and start with &quot;https://&quot;. Vérifiez que l’**URL de callback** est liée à l’instance correspondante. Par exemple, l’instance de production doit rediriger vers l’URL de production.
 
 **Identifiant du client et secret**
 
