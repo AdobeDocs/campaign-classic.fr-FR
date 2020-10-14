@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2501'
-ht-degree: 100%
+source-wordcount: '2491'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Lorsqu&#39;un message (email, SMS, notification push) ne peut pas être envoyé 
 
 Une fois un message envoyé, les logs de diffusion permettent de consulter le statut de la diffusion pour chaque profil ainsi que le type d&#39;échec et la raison associés.
 
-Les messages peuvent être également exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est placé dans une liste bloquée. Les messages exclus sont répertoriés dans le tableau de bord de la diffusion.
+Les messages peuvent également être exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est en liste bloquée. Les messages exclus sont répertoriés dans le tableau de bord de la diffusion.
 
 **Rubriques connexes :**
 
@@ -83,7 +83,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
    <td> L'indice de qualité de l'adresse postale est trop faible.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adresse en liste bloquée </td> 
+   <td> Adresse placée sur la liste bloquée </td> 
    <td> Hard </td> 
    <td> 8 </td> 
    <td> L’adresse a été ajoutée à la liste bloquée au moment de l’envoi. Cet état est utilisé pour importer des données à partir de listes externes et de systèmes externes dans la liste Quarantaine d’Adobe Campaign.<br /> </td> 
@@ -104,7 +104,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
    <td> Erreur ignorée </td> 
    <td> Ignoré </td> 
    <td> 25 </td> 
-   <td> L’adresse figure dans la liste autorisée. L’erreur est donc ignorée et un email sera envoyé.<br /> </td> 
+   <td> L'adresse est sur la liste autorisée. L’erreur est donc ignorée et un email sera envoyé.<br /> </td> 
   </tr> 
   <tr> 
    <td> Exclu par un arbitrage </td> 
@@ -204,7 +204,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
    >
    >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   La [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent dans la liste bloquée même s’ils n’ont pas cliqué sur le lien de désabonnement. Les adresses figurent dans la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
+   La [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs sont en liste bloquée même s’ils n’ont pas cliqué sur le lien de la désinscription. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
    >[!NOTE]
    >
@@ -247,13 +247,15 @@ Les statuts de qualification des mails rebonds sont les suivants :
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré :
 >
 >* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
+   >
+   >
+* Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
+   >
+   >
+* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
 >
->* Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
 >
->* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
->
->
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
 
 ### Règles de gestion des emails {#email-management-rules}
 
