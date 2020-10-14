@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 93%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 100%
 ## A propos des listes dans Adobe Campaign {#about-lists-in-adobe-campaign}
 
 Une liste est un ensemble statique de profils qui peut être ciblé dans les actions de diffusion ou mis à jour lors d&#39;opérations d&#39;import ou lors de l&#39;exécution d&#39;un workflow. Par exemple, une population extraite de la base via une requête peut alimenter une liste.
-
-
 
 Les listes sont créées et gérées à partir du lien **[!UICONTROL Listes]** dans l&#39;onglet **[!UICONTROL Profils et cibles]**.
 
@@ -41,6 +39,8 @@ Dans Adobe Campaign, deux types de listes sont disponibles :
 * Type **[!UICONTROL Liste]** : les listes de type **[!UICONTROL Liste]** permettent d&#39;utiliser des workflows afin de créer et gérer des listes. Il s&#39;agit alors de listes spécifiques, issues d&#39;un import de données, et qui peuvent faire l&#39;objet d&#39;une mise à jour automatique via l&#39;activité de workflow dédiée **[!UICONTROL Mise à jour de liste]**.
 
    Contrairement à la liste de type **[!UICONTROL Groupe]**, ce type de liste peut être automatiquement mis à jour avec une activité **[!UICONTROL Planificateur]**. Pour obtenir un exemple de création de listes de type **[!UICONTROL Liste]**, consultez [cette page](../../workflow/using/list-update.md).
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-list-video)
 
 ## Création d&#39;une liste de profils à partir d&#39;un groupe {#creating-a-profile-list-from-a-group}
 
@@ -131,3 +131,22 @@ Vous pouvez supprimer une ou plusieurs listes à partir de la liste des groupes 
 >
 >Lorsque vous supprimez une liste, les profils qui appartenaient à cette liste ne sont pas affectés. Les données de leur profil seront toutefois mises à jour.
 
+## Comment créer une liste de destinataire {#create-list-video}
+
+Une liste est un ensemble statique de destinataires qui peut être ciblé dans des actions de diffusion ou mis à jour pendant des opérations d’import ou lors de l’exécution d’un workflow. Une liste de destinataires est également appelée audience.
+
+Découvrez comment créer une audience en configurant une liste de destinataires à partir de l&#39;Explorateur.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+## Création d’une liste de destinataires avec un processus
+
+Découvrez comment créer un processus afin de cible des destinataires et comment le rendre récurrent avant d’utiliser la liste dans une cible électronique.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
+
+**Voir aussi**
+
+* 
+
+* 
