@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '3626'
-ht-degree: 100%
+source-wordcount: '3620'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ La section ci-dessous décrit les configurations côté serveur qui peuvent êtr
 >
 >Ces configurations doivent être exécutées par les administrateurs et uniquement pour les modèles d’hébergement **On-premise.**
 >
->Pour les déploiements **hébergés**, les paramètres côté serveur peuvent uniquement être configurés par Adobe. Cependant, certains paramètres peuvent être configurés dans le panneau de contrôle (par exemple, la gestion des listes autorisées d’adresses IP ou les autorisations d’URL).
+>Pour les déploiements **hébergés**, les paramètres côté serveur peuvent uniquement être configurés par Adobe. Cependant, certains paramètres peuvent être configurés dans le Panneau de Contrôle (par exemple, la gestion des listes autorisées IP ou les autorisations d’URL).
 
 Pour plus d’informations, consultez les sections suivantes :
 
@@ -355,9 +355,9 @@ Avec les modèles d’hébergement **Hybride** et **On-premise** , l’administr
 
 Il existe trois modes de protection des connexions :
 
-* **Blocking** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d’erreur s’affiche. Il s’agit du mode par défaut après un postupgrade.
-* **Permissive** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées.
-* **Warning** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l’interpréteur JS émet un avertissement pour que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
+* **Blocage**: toutes les URL qui n’appartiennent pas à la liste autorisée sont bloquées, avec un message d’erreur. Il s’agit du mode par défaut après un postupgrade.
+* **Permissive**: toutes les URL qui n’appartiennent pas à la liste autorisée sont autorisées.
+* **Avertissement**: toutes les URL qui n’appartiennent pas à la liste autorisée sont autorisées, mais l’interprète JS émet un avertissement afin que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -369,9 +369,9 @@ Il existe trois modes de protection des connexions :
 
 >[!IMPORTANT]
 >
->Par défaut, le client des nouveaux clients utilise le **mode de blocage**. S’ils ont besoin d’autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
+>Par défaut, le client des nouveaux clients utilise le **mode de blocage**. S’ils doivent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
 >
->Les clients existants provenant d’une migration peuvent utiliser pendant un certain temps le **mode d’avertissement**. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL. Une fois la liste des URL autorisées définie, ils doivent contacter leur administrateur pour ajouter les URL à la liste autorisée et activer le **mode de blocage**.
+>Les clients existants provenant d’une migration peuvent utiliser pendant un certain temps le **mode d’avertissement**. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL. Once the list of authorized URLs defined, they should contact their administrator to add the URLs to the allowlist and activate the **blocking mode**.
 
 ## Sécurité et relais des pages dynamiques {#dynamic-page-security-and-relays}
 
@@ -452,7 +452,7 @@ sh
 >
 >Cette liste n&#39;est pas exhaustive.
 
-Dans le nœud **exec** du fichier de configuration du serveur, vous devez référencer le fichier précédemment créé dans l’attribut **blocklistFile**.
+Dans le nœud **exec** du fichier de configuration du serveur, vous devez référencer le fichier précédemment créé dans l&#39;attribut **blacklistFile**.
 
 **Pour Linux uniquement** : dans le fichier de configuration du serveur, nous vous recommandons de spécifier un utilisateur dédié à l&#39;exécution de commandes externes afin d&#39;améliorer votre configuration de sécurité. Cet utilisateur est défini dans le nœud **exec** du fichier de configuration. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
@@ -464,7 +464,7 @@ Par exemple :
 
 ```
 <serverConf>
- <exec user="theUnixUser" blocklistFile="/pathtothefile/blocklist"/>
+ <exec user="theUnixUser" blacklistFile="/pathtothefile/blacklist"/>
 </serverConf>
 ```
 
