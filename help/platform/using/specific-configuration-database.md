@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 100%
+source-wordcount: '1896'
+ht-degree: 97%
 
 ---
 
@@ -134,7 +134,7 @@ Pour configurer Azure Synapse sous CentOS :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d’Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 1. Dans le cas des iptables, exécutez la commande suivante :
 
@@ -225,7 +225,7 @@ Pour configurer Azure Synapse sous Debian :
 
    >[!NOTE]
    >
-   >Pour autoriser la communication du côté d’Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
+   >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 ## Configurer l’accès à Snowflake {#configure-access-to-snowflake}
 
