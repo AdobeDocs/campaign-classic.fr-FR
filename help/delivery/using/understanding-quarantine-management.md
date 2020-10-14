@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2673'
-ht-degree: 100%
+source-wordcount: '2665'
+ht-degree: 96%
 
 ---
 
@@ -38,17 +38,17 @@ Certains fournisseurs d’accès Internet considèrent automatiquement les email
 
 De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](../../delivery/using/delivery-best-practices.md) .
 
-### Différence entre quarantaine et liste bloquée {#quarantine-vs-block-list}
+### Quarantaine et liste bloquée {#quarantine-vs-denylist}
 
 La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l’adresse, les deux profils seront impactés.
 
 De même, un profil, dont l’adresse email est en quarantaine qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
 
-En revanche, en cas d’insertion **en liste bloquée**, le profil ne sera plus ciblé par aucune diffusion, par exemple après un désabonnement (opt-out).
+Being on the **denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
 
 >[!NOTE]
 >
->Lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour le désabonnement des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
+>Lorsqu&#39;un utilisateur répond à un message SMS avec un mot-clé tel que &quot;STOP&quot; afin de s&#39;exclure des diffusions SMS, son profil n&#39;est pas ajouté à la liste bloquée comme dans le processus d&#39;exclusion par courriel. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
 ## Identifier les adresses en quarantaine     {#identifying-quarantined-addresses}
 
@@ -75,7 +75,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse email est de trois ans et que la table des destinataires augmente de 50% tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
 >
 >Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
->Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
 ### Identifier les adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -107,9 +107,7 @@ Pour supprimer manuellement une adresse de la liste de quarantaine :
 
    ![](assets/tech_quarant_error_status.png)
 
-* Vous pouvez également modifier son état en **[!UICONTROL Sur liste autorisée]**. Dans ce cas, l’adresse reste dans la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
-
-<!--Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.-->
+* Vous pouvez également modifier son état en **[!UICONTROL Placé sur la liste autorisée]**. Dans ce cas, l’adresse reste dans la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
 
 Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
 
@@ -120,8 +118,7 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
->
->Les destinataires avec une adresse dont l’état est **[!UICONTROL En quarantaine]** ou **[!UICONTROL En liste bloquée]** ne seront jamais supprimés, même s’ils reçoivent un email.
+Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On denylist]** status will never be removed, even if they receive an email.
 
 Vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d’informations sur l’assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
@@ -274,11 +271,10 @@ Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heu
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
 >[!NOTE]
->
->Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
->* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
->* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
->* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
+* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
+* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
 
 Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
 
@@ -370,8 +366,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
 Le mécanisme de quarantaine des messages SMS est globalement identique au processus général. Voir [A propos des quarantaines](#about-quarantines). Les spécificités des SMS sont énumérées ci-dessous.
 
 >[!NOTE]
->
->Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
+Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
  <tbody> 
@@ -429,9 +424,8 @@ Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état
 Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
 
 >[!NOTE]
->
->Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
+Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
 
