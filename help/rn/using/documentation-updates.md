@@ -7,13 +7,13 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: latest-release-notes
+topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '3720'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d06cc9c090e2ad8b72ce3192a26108ec213ba549
+workflow-type: tm+mt
+source-wordcount: '3711'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
+
+## Octobre 2020 {#oct-2020}
+
+Une nouvelle note technique a été créée avec des détails sur la migration du protocole binaire hérité vers l’API du fournisseur APN basé sur HTTP/2. [En savoir plus](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ## Septembre 2020 {#september-2020}
 
@@ -94,8 +98,6 @@ Des bonnes pratiques ont été ajoutées dans la section sur l’activité **[!U
 La section Suppression d’une adresse mise en quarantaine a été mise à jour. Cela inclut la clarification des cas dans lesquels les adresses sont automatiquement supprimées de la liste de quarantaine. [En savoir plus](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 Des cas d’utilisation ont été ajoutés pour [crypter](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) et [décrypter](../../workflow/using/importing-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de contrôle et des workflows Campaign.
-
-Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
 La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
