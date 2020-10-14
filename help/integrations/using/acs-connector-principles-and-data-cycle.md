@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: acs-connector
 discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 100%
@@ -215,16 +215,16 @@ Vous trouverez ci-dessous la liste des champs de destinataire répliqués dans l
    <td> @salutation<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ne plus contacter (tous canaux)<br /> </td> 
-   <td> @blockList<br /> </td> 
+   <td> No longer contact (by any channel)<br /> </td> 
+   <td> @blackList<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ne plus contacter par email<br /> </td> 
-   <td> @blockListEmail<br /> </td> 
+   <td> No longer contact by email<br /> </td> 
+   <td> @blackListEmail<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ne plus contacter par SMS<br /> </td> 
-   <td> @blockListMobile<br /> </td> 
+   <td> No longer contact by SMS<br /> </td> 
+   <td> @blackListMobile<br /> </td> 
   </tr> 
   <tr> 
    <td> Phone<br /> </td> 
