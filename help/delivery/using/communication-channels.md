@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,10 +49,10 @@ Les diffusions peuvent être **on-line** (via email, un des canaux mobiles et le
 
 Selon le canal, les modes de diffusion peuvent être les suivants :
 
-* Envoi en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
+* Diffusion en masse directement via Adobe Campaign (mode par défaut pour le canal Email).
 * Envoi en externe, via un opérateur spécialisé, auquel est fourni le fichier de sortie généré par l&#39;assistant de diffusion (mode par défaut pour le canal Courrier).
 
-Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plate-forme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
+Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]**. Ce paramétrage est réservé à des utilisateurs experts.
 
 ## Diffusions Email {#email-deliveries}
 
