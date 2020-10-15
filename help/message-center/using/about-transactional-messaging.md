@@ -1,6 +1,6 @@
 ---
 title: A propos des messages transactionnels
-description: 'Envoyer des messages de déclenchement en fonction des événements générés à partir de systèmes d’informations. '
+description: 'Envoyer des messages de déclenchement en fonction des événements générés à partir de systèmes d''information. '
 page-status-flag: never-activated
 uuid: c854daac-8756-44f3-a4e2-be31177ab9d1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Dans cette architecture spécifique, l&#39;instance d&#39;exécution est sépar�
 
 >[!NOTE]
 >
->Pour créer des utilisateurs pour les instances d&#39;exécution Message Center hébergées sur Adobe Cloud, vous devez contacter l&#39;assistance client Adobe. Les utilisateurs de Message Center sont des opérateurs spécifiques qui nécessitent des permissions dédiées pour accéder aux dossiers &#39;Evénements temps réel&#39; (nmsRtEvent).
+>Pour créer des utilisateurs pour les instances d&#39;exécution Message Center hébergées sur Adobe Cloud, vous devez contacter l&#39;Assistance clientèle d&#39;Adobe. Les utilisateurs de Message Center sont des opérateurs spécifiques qui nécessitent des permissions dédiées pour accéder aux dossiers &#39;Evénements temps réel&#39; (nmsRtEvent).
