@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: api
 discoiquuid: fba46d42-0253-425b-bbc2-6702d4140e05
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
 workflow-type: tm+mt
 source-wordcount: '1888'
 ht-degree: 100%
@@ -226,7 +226,7 @@ Pour compter le nombre d&#39;enregistrements sur une requête :
 
 >[!NOTE]
 >
->Encore une fois, nous utilisons la condition de l’exemple précédent. Les `<select>` et clauses ne sont pas utilisés. </select>`
+>Encore une fois, nous utilisons la condition de l’exemple précédent. Les `<select>` et clauses ne sont pas utilisés. `</select>`
 
 #### Groupement de données {#data-grouping}
 
