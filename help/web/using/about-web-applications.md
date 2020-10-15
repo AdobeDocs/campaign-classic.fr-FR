@@ -1,6 +1,6 @@
 ---
 title: A propos des applications web
-description: Créer et partager des Applications web, landings page et questionnaires dynamiques.
+description: Créer et partager des applications web, des landing pages et des questionnaires.
 page-status-flag: never-activated
 uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
 contentOwner: sauviat
@@ -13,12 +13,12 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main des applications Web{#about-web-applications}
+# Prise en main des applications web{#about-web-applications}
 
 Adobe Campaign permet la création d’applications web dynamiques et interactives, composées de données issues de la base et dont le contenu est adapté en fonction des droits de l’utilisateur connecté.
 
