@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 
 >[!NOTE]
 >
->L&#39;option **Emission vers Mid-sourcing** crée deux workflows **Mid-sourcing**. Il s&#39;agit d&#39;un traitement, planifié par défaut toutes les heures et 20 minutes, qui effectue la collecte des informations d&#39;envoi sur le serveur de mid-sourcing.
+>L&#39;option **Emission vers Mid-sourcing** crée deux workflows **Mid-sourcing**. Il s&#39;agit d&#39;un traitement, planifié par défaut toutes les heures et 20 minutes, qui effectue la collecte des informations de diffusion sur le serveur de mid-sourcing.
 
 ## Déploiement d&#39;un serveur de mid-sourcing {#deploying-a-mid-sourcing-server}
 
@@ -87,7 +87,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
    >
    >Si vous installez un serveur de mid-sourcing et que vous souhaitez installer des modules Adobe Campaign supplémentaires, il est déconseillé de choisir le module Campaign. Préférez le module Delivery.
 
-   Suivez la même procédure que pour un déploiement standard en sélectionnant uniquement l&#39;option **[!UICONTROL Plate-forme de Mid-sourcing]**.
+   Suivez la même procédure que pour un déploiement standard en sélectionnant uniquement l&#39;option **[!UICONTROL Plateforme de Mid-sourcing]**.
 
    ![](assets/s_ncs_install_midsourcing01.png)
 
@@ -95,7 +95,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 
    Définissez le mot de passe du compte d&#39;envoi : dans le dossier **/Mid-sourcing/Gestion des accès/Opérateurs/**, l&#39;opérateur **mid** est utilisé par l&#39;instance distante pour les envois en mode mid-sourcing. Vous devez définir un mot de passe pour cet opérateur et le donner à l&#39;administrateur de l&#39;instance d&#39;envoi.
 
-   L&#39;option **Plate-forme de Mid-sourcing** crée les dossiers par défaut dans lesquels seront stockées les diffusions soumises et l&#39;opérateur par défaut pour effectuer les soumissions.
+   L&#39;option **Plateforme de Mid-sourcing** crée les dossiers par défaut dans lesquels seront stockées les diffusions soumises et l&#39;opérateur par défaut pour effectuer les soumissions.
 
 ## Multiplexage du serveur de mid-sourcing {#multiplexing-the-mid-sourcing-server}
 
@@ -170,13 +170,13 @@ Vous devez arrêter et redémarrer le serveur pour que cette modification soit p
 1. Validez votre paramétrage en cliquant sur **[!UICONTROL Tester la connexion]**.
 1. Déclarez l&#39;instance de tracking référencée sur le serveur de mid-sourcing :
 
-   Click the link **[!UICONTROL Use this platform as a proxy to access the tracking servers]**,
+   Cliquez sur le lien **[!UICONTROL Utiliser cette plateforme comme proxy pour accéder aux serveurs de tracking]**,
 
    Indiquez le nom de l&#39;instance de tracking, puis validez la connexion avec le serveur de tracking.
 
    ![](assets/s_ncs_install_midsourcing_tracking05.png)
 
-Si l&#39;envoi de messages doit être géré par plusieurs serveurs de mid-sourcing, sélectionnez l&#39;option **[!UICONTROL Routage avec alternance des comptes mid-sourcing utilisés]** et indiquez les différents serveurs.
+Si la diffusion de messages doit être gérée par plusieurs serveurs de mid-sourcing, sélectionnez l&#39;option **[!UICONTROL Routage avec alternance des comptes mid-sourcing utilisés]** et indiquez les différents serveurs.
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)
 
