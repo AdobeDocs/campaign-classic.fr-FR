@@ -1,6 +1,6 @@
 ---
 title: Architecture générale
-description: Découvrez comment installer et configurer le Campaign Classic.
+description: Découvrez comment installer et configurer Campaign Classic.
 page-status-flag: never-activated
 uuid: 686bc660-2403-4bab-a4ea-9b872adf8fa0
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign repose sur une architecture orientée service (SOA) composée de 
 
 >[!CAUTION]
 >
->En dehors d&#39;une prestation Adobe explicite en la matière, l&#39;installation, la mise à jour et la maintenance de tous les composants d&#39;une plate-forme Adobe Campaign sont de la responsabilité du ou des administrateurs des machines qui les hébergent. Il conviendra notamment de mettre en œuvre les prérequis nécessaires au fonctionnement des applications Adobe Campaign, ainsi que de respecter la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) entre les composants.
+>En dehors d&#39;une prestation Adobe explicite en la matière, l&#39;installation, la mise à jour et la maintenance de tous les composants d&#39;une plateforme Adobe Campaign sont de la responsabilité du ou des administrateurs des machines qui les hébergent. Il conviendra notamment de mettre en œuvre les prérequis nécessaires au fonctionnement des applications Adobe Campaign, ainsi que de respecter la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) entre les composants.
 
 ## Couche de présentation {#presentation-layer}
 
@@ -74,11 +74,11 @@ Il prend également en charge les workflows techniques qui s&#39;exécutent pér
 
 * Tracking : récupération et consolidation des logs de tracking. Il permet d&#39;obtenir les logs du serveur de redirection et créer les indicateurs agrégés utilisés par le module de reporting.
 * Cleanup : nettoyage de la base de données. Il permet de purger les anciens enregistrements et éviter une croissance exponentielle de la base.
-* Billing : envoi automatique d&#39;un rapport d&#39;activité de la plate-forme (taille de base, nombre d&#39;actions marketing, etc.).
+* Billing : envoi automatique d&#39;un rapport d&#39;activité de la plateforme (taille de base, nombre d&#39;actions marketing, etc.).
 
 **Serveur de diffusion** (nlserver mta)
 
-Adobe Campaign permet d&#39;exécuter nativement les diffusions de type email. Ce processus agit alors comme un agent de transfert de mails (MTA) natif pour la diffusion par le protocole SMTP. Il prend en charge la personnalisation &quot;one-to-one&quot; des messages et leur diffusion physique. Il repose sur la notion de jobs de diffusions et gère les reprises automatiques. De plus, lorsque le tracking est activé, il remplace automatiquement toutes les URL présentes dans un message afin de les faire pointer vers le serveur de redirection.
+Adobe Campaign permet d&#39;exécuter nativement les diffusions de type email. Ce processus agit alors comme un agent de transfert de mails (MTA) natif pour la diffusion par le protocole SMTP. Il prend en charge la personnalisation &quot;one-to-one&quot; des messages et leur diffusion physique. Il repose sur la notion de traitements de diffusions et gère les reprises automatiques. De plus, lorsque le tracking est activé, il remplace automatiquement toutes les URL présentes dans un message afin de les faire pointer vers le serveur de redirection.
 
 Ce processus peut assurer la personnalisation et l&#39;envoi automatique vers un prestataire externe pour les diffusions de type SMS, Fax ou Courrier papier.
 
@@ -126,7 +126,7 @@ Ce processus maintient les statistiques du nombre de connexions, de messages env
 
 ## Couche de persistance {#persistence-layer}
 
-La base de données est utilisée en tant que couche persistante et contient quasiment toute l&#39;information gérée par Adobe Campaign, à la fois les données fonctionnelles (gestion des profils, abonnements, contenus, etc.), les données techniques (jobs et logs de diffusion, logs de tracking, etc.) et les données métier (actes d&#39;achat, leads).
+La base de données est utilisée en tant que couche persistante et contient quasiment toute l&#39;information gérée par Adobe Campaign, à la fois les données fonctionnelles (gestion des profils, abonnements, contenus, etc.), les données techniques (traitements et logs de diffusion, logs de tracking, etc.) et les données métier (actes d&#39;achat, leads).
 
 La fiabilité de la base de données est primordiale puisque la plupart des composants d&#39;Adobe Campaign doivent avoir accès à la base afin d&#39;accomplir leurs tâches (hormis le module de redirection).
 
