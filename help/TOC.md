@@ -1,9 +1,9 @@
 ---
 audience: end-user
 user-guide-title: Guide d'Adobe Campaign Classic
-breadcrumb-title: Guide du Campaign Classic
+breadcrumb-title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing inter-canaux qui génèrent un rendement élevé sur l’investissement marketing.
+user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing intercanaux offrant un important retour sur investissement marketing.
 product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2139'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
