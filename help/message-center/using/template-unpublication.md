@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Lorsqu’un modèle de message a été publié sur les instances d’exécution,
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible à partir de la version Campaign 20.2.
+>Cette fonctionnalité est disponible à partir de la version Campaign 20.2.
 
 En effet, il est encore possible d’appeler un modèle publié. Dans ce cas, si vous n’utilisez plus de modèle de message, il est recommandé d’annuler sa publication. Vous éviterez ainsi d’envoyer par erreur un message transactionnel indésirable. Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez annuler sa publication une fois la période de Noël terminée et le publier de nouveau l’année suivante.
 
