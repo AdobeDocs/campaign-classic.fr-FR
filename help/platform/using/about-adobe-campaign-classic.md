@@ -1,7 +1,7 @@
 ---
 title: A propos d'Adobe Campaign Classic
 seo-title: A propos d'Adobe Campaign Classic
-description: Découvrez les principales fonctionnalités, l'interface utilisateur et les directives globales.
+description: Découvrez les fonctionnalités principales, l'interface utilisateur et les directives globales.
 seo-description: null
 page-status-flag: never-activated
 uuid: 2d0160fa-8328-4ff9-ab91-56e4058f8a99
@@ -15,12 +15,12 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Get Started with Campaign Classic{#about-adobe-campaign-classic}
+# Prise en main de Campaign Classic{#about-adobe-campaign-classic}
 
 Pour favoriser l&#39;engagement des clients et offrir des expériences attrayantes, les marques doivent créer des parcours client cohérents à tous les points de contact. Les marketeurs peuvent désormais concevoir, planifier, exécuter, gérer et optimiser des campagnes marketing cross-canal qui offrent un retour sur investissement élevé et fidélisent les clients.
 
@@ -32,7 +32,7 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 
 ## Fonctionnalités principales {#key-capabilities}
 
-Adobe Campaign offre une plate-forme pour concevoir des expériences client cross-canal et propose un environnement pour l&#39;orchestration visuelle de campagnes, la gestion d&#39;interactions en temps réel et l&#39;exécution cross-canal.
+Adobe Campaign offre une plateforme pour concevoir des expériences client cross-canal et propose un environnement pour l&#39;orchestration visuelle de campagnes, la gestion d&#39;interactions en temps réel et l&#39;exécution cross-canal.
 
 Le cycle d&#39;une campagne marketing avec Adobe Campaign illustre les principales fonctionnalités du produit :
 
