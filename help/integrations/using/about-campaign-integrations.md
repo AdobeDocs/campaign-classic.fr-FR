@@ -13,14 +13,14 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # A propos des intégrations de Campaign {#about-campaign-integrations}
 
-Adobe Experience Cloud constitue un ensemble exhaustif de solutions intégrées haut de gamme accessibles sur une plate-forme de données commune, avec un ensemble commun de puissants core services.
+Adobe Experience Cloud constitue un ensemble exhaustif de solutions intégrées haut de gamme accessibles sur une plateforme de données commune, avec un ensemble commun de puissants core services.
 
 Découvrez les intégrations fonctionnelles disponibles entre Adobe Campaign et les [solutions Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/marketing-cloud-integrations.html) et les [core services](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/core-services.html). Vous pouvez ensuite moderniser vos implémentations de solution et mettre en œuvre Experience Cloud pour utiliser des fonctionnalités comme les audiences et les attributs client.
 
