@@ -1,6 +1,6 @@
 ---
 title: Directives de supervision
-description: Découvrez les conseils et les meilleures pratiques pour surveiller les instances et les processus Campaign.
+description: Découvrez les conseils et les bonnes pratiques pour surveiller les instances et les processus Campaign.
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Suivez les directives et les bonnes pratiques relatives à l’utilisation de wo
 
 **Rapports SMTP**
 
-Les rapports SMTP affichent les statistiques d’envoi et les erreurs SMTP par domaine. [En savoir plus](../../production/using/monitoring-processes.md)
+Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP par domaine. [En savoir plus](../../production/using/monitoring-processes.md)
 
 **Bonnes pratiques**
 
