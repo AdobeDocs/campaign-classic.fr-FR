@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
 workflow-type: tm+mt
 source-wordcount: '3930'
 ht-degree: 100%
@@ -648,7 +648,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permet de configurer une base de données distincte pour les tables de travail sous Microsoft SQL Server, afin d’optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : les tables de travail seront écrites dans cette base de données en cas de spécification. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point).</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
+   <td> Permet de configurer une base de données distincte pour les tables de travail sous Microsoft SQL Server, afin d’optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : les tables de travail seront écrites dans cette base de données en cas de spécification. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
