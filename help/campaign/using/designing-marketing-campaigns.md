@@ -28,7 +28,7 @@ De plus, le module **Marketing Resource Management (MRM)** complète cette appli
 
 >[!NOTE]
 >
->Pour connaître les principales fonctionnalités relatives à la plate-forme Adobe Campaign, consultez la section [Prise en main](../../platform/using/about-adobe-campaign-classic.md).\
+>Pour connaître les principales fonctionnalités relatives à la plateforme Adobe Campaign, consultez la section [Prise en main](../../platform/using/about-adobe-campaign-classic.md).\
 >Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages personnalisés sur les différents canaux sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Concepts de base {#core-concepts}
