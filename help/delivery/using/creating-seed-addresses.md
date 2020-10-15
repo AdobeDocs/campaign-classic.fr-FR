@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -39,17 +39,17 @@ Pour créer des adresses de contrôle, procédez comme suit :
    >
    >Le libellé de l&#39;adresse reprend automatiquement le nom et le prénom saisis.
    >
-   >Pour chaque adresse de contrôle, il n&#39;est pas nécessaire de renseigner tous les champs des différents onglets. Les éléments de personnalisation manquants sont renseignés aléatoirement lors de l&#39;envoi.
+   >Pour chaque adresse de contrôle, il n&#39;est pas nécessaire de renseigner tous les champs des différents onglets. Les éléments de personnalisation manquants sont renseignés aléatoirement lors de la diffusion.
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
 1. Indiquez dans l&#39;onglet **[!UICONTROL Champs de l&#39;adresse]** les valeurs qui seront insérées dans les logs de la diffusion lors de la phase d&#39;analyse (dans la table **[!UICONTROL nms:broadLog]**).
 
-1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to.
+1. Dans l&#39;onglet **[!UICONTROL Données additionnelles]**, renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Data management et auxquelles vous souhaitez affecter une valeur spécifique.
 
    >[!NOTE]
    >
-   >Assurez-vous que d&#39;autres données de cible ont été définies avec un alias commençant par &quot;@&quot; dans l&#39;activité **[!UICONTROL Enrichissement]** . Sinon, vous ne pourrez pas les utiliser correctement avec vos adresses de contrôle dans votre activité de diffusion.
+   >Assurez-vous que les données additionnelles de la cible ont été définies avec un alias commençant par &#39;@&#39; dans l&#39;activité **[!UICONTROL Enrichissement]**. Sinon, vous ne pourrez pas les utiliser correctement avec vos adresses de contrôle dans votre activité de diffusion.
 
 ## Créer des modèles d&#39;adresses de contrôle {#creating-seed-address-templates}
 
