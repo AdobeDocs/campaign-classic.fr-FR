@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '2653'
+source-wordcount: '2636'
 ht-degree: 98%
 
 ---
@@ -30,7 +30,6 @@ _15 septembre 2020_
 
 * Amélioration de nlsrvmod pour l&#39;utilisation du thread Apache 2.4 afin de corriger les blocages nlsrvmod.
 * Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité de transfert de fichiers avec un compte externe Azure et un chiffrement SSL. La connexion a été effectuée via HTTP au lieu de HTTPS. (NEO-26720)
-* Dans les propriétés de la diffusion, l&#39;option **[!UICONTROL Archiver les emails]** a été renommée **[!UICONTROL Email Cci]** pour une meilleure expérience utilisateur.
 * Correction d&#39;un problème lié au mécanisme de cache d&#39;URL qui ne récupérait pas le libellé ou la catégorie.
 * Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions par email (en raison d’un contrôle incorrect des caractères ASCII). (NEO-26084)
 * La liste jarsToSkip de catalina.properties a été mise à jour afin de supprimer la référence à un fichier jar qui n’était plus utilisé (notifications iOS).
