@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '1620'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -50,9 +50,9 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >L&#39;utilisation de cette option est déconseillée dans le cas d&#39;une installation en mid-sourcing afin de ne pas faire appel au mta.
    >
-   >Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, voir [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >For more information on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL Archiver les emails]** : permet de stocker les emails sur un système externe à l’aide de l’option BCC en ajoutant une adresse email en « copie cachée » (Cci, ou Bcc en anglais) à la cible des messages. Voir à ce propos la section [Archiver les emails](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Adresse de messagerie BCC]**: Cette option vous permet de stocker des courriers électroniques sur un système externe via un Cci en ajoutant simplement une adresse de messagerie en Cci à votre cible de messages. For more on this, refer [to this section](../../delivery/using/sending-messages.md#archiving-emails).
 
 Une fois la diffusion configurée et prête à être envoyée, vérifiez que vous avez exécuté l’[analyse de la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery). Une fois que vous avez terminé, cliquez sur **[!UICONTROL Confirmer l’envoi]** pour lancer la diffusion des messages.
 
