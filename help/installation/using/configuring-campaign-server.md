@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 7d0a00f4ef49a48014735de36786a48c31b76804
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 96%
@@ -592,7 +592,7 @@ Chaque processus paramétré dans ce fichier dispose d&#39;un attribut **process
 
 ## Limitation des fichiers téléchargeables {#limiting-uploadable-files}
 
-Un nouvel attribut **uploadAllowList** permet de restreindre les types de fichiers qu&#39;il est possible de télécharger sur le serveur Adobe Campaign.
+Un nouvel attribut **uploadWhiteList** permet de restreindre les types de fichiers qu&#39;il est possible de télécharger sur le serveur Adobe Campaign.
 
 Cet attribut est disponible au niveau de l&#39;élément **dataStore** du fichier **serverConf.xml.** Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
@@ -600,7 +600,7 @@ La valeur par défaut de cet attribut est **.+** et permet de télécharger n&#3
 
 Pour limiter les possibilités à certains formats, vous devez remplacer la valeur de l&#39;attribut par une expression régulière java valide. Vous pouvez entrer plusieurs valeurs en les séparant par une virgule.
 
-Par exemple : **uploadAllowList=&quot;.*.png,.*.jpg&quot;** vous permet de télécharger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
+Par exemple : **uploadWhiteList=&quot;.*.png,.*.jpg&quot;** vous permet de télécharger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
 
 >[!IMPORTANT]
 >
