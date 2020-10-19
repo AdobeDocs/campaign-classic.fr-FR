@@ -12,15 +12,15 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 98%
+source-wordcount: '1314'
+ht-degree: 85%
 
 ---
 
 
-# Archivage des emails{#email-archiving}
+# Email BCC {#email-archiving}
 
 Vous pouvez paramétrer Adobe Campaign pour conserver une copie des emails envoyés depuis votre plateforme.
 
@@ -30,15 +30,15 @@ Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transfé
 
 ## Recommandations et limitations {#recommendations-and-limitations}
 
-* Cette fonctionnalité d&#39;archivage des emails est en option. Vérifiez votre contrat de licence.
-* Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l’activer. L’adresse Cci de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
-* Pour les **installations on-premise**, suivez les instructions d’activation ci-dessous : voir les sections [Activer l’archivage des emails (on-premise)](#activating-email-archiving--on-premise-) et [Configuration de l’adresse email en Cci (on-premise)](#configuring-the-bcc-email-address--on-premise-).
+* La fonctionnalité de Cci par courrier électronique est facultative. Veuillez vérifier votre accord de licence.
+* Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l’activer. L&#39;adresse électronique du Cci de votre choix doit être fournie à l&#39;équipe d&#39;Adobes qui la configurera pour vous.
+* For **on-premise installations**, follow the guidelines below to activate it - see the [Activating email BCC (on premise)](#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
 * Vous ne pouvez utiliser qu&#39;une seule adresse email en Cci.
-* Une fois la fonctionnalité email en Cci paramétrée, vérifiez qu’elle est activée dans le modèle de diffusion ou la diffusion par le biais de l’option **[!UICONTROL Archiver les emails]**. Voir à ce sujet [cette section](../../delivery/using/sending-messages.md#archiving-emails).
+* Une fois que le Cci de courrier électronique est configuré, assurez-vous que la fonction est activée dans le modèle de diffusion ou dans la diffusion via l’option Cci **[!UICONTROL de]** courrier électronique. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 * Seuls les emails envoyés sont pris en compte, les retours ne le sont pas.
-* Le système d&#39;archivage des emails a été modifié avec Adobe Campaign 17.2 (build 8795). Si vous utilisiez déjà l&#39;archivage des emails, vous devez effectuer une mise à niveau manuelle vers le nouveau système d&#39;archivage des emails (Cci). Voir à ce sujet la section [Système d’archivage des emails mis à jour (Cci)](#updated-email-archiving-system--bcc-).
+* Le système d’archivage des e-mails a été modifié avec Adobe Campaign 17.2 (build 8795). Si vous utilisiez déjà l’archivage des e-mails, vous devez effectuer une mise à niveau manuelle vers le nouveau système de Cci de messagerie. Pour plus d&#39;informations sur ce sujet, consultez la section [Déplacement vers la nouvelle carte de crédit client](#updated-email-archiving-system--bcc-) de courrier électronique.
 
-## Activer l&#39;archivage des emails (on-premise) {#activating-email-archiving--on-premise-}
+## Activating Email BCC (on premise) {#activating-email-archiving--on-premise-}
 
 Pour activer l’archivage des emails en Cci lorsqu’Adobe Campaign est installé on-premise, suivez les étapes ci-dessous.
 
@@ -70,7 +70,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 >[!NOTE]
 >
->Dans une instance mid-sourcing, le dossier des emails archivés se trouve sur le serveur de mid-sourcing.
+>Dans une instance de midsourcing, le répertoire des messages électroniques en copie carbone invisible se trouve sur le serveur de midsourcing.
 >
 >Les deliveryID et broadlogID sont ceux du serveur de mid-sourcing lorsque le statut des emails n&#39;est pas envoyé. Une fois le statut changé en **[!UICONTROL Envoyé]**, ces ID sont ceux du serveur marketing.
 
@@ -128,7 +128,7 @@ Dans le fichier **config-`<instance name>.xml`**, utilisez les paramètres suiva
 >
 >En outre, le relais affecte le statut **[!UICONTROL Envoyé]** à tous les emails, y compris ceux qui ne sont pas envoyés. Tous les messages sont donc archivés.
 
-## Système d&#39;archivage des emails mis à jour (Cci) {#updated-email-archiving-system--bcc-}
+## Passage au nouveau Cci de courriel {#updated-email-archiving-system--bcc-}
 
 >[!CAUTION]
 >
@@ -140,9 +140,9 @@ Pour ce faire, apportez les modifications suivantes au fichier **`config-<instan
 1. Définissez le paramètre **compressionFormat** sur **1** si nécessaire.
 1. Définissez le paramètre **archivingType** sur **1**.
 
-Une fois la fonctionnalité email en Cci paramétrée, veillez à sélectionner l&#39;option **[!UICONTROL Archiver les emails]** dans le modèle de diffusion ou la diffusion. Voir à ce sujet [cette section](../../delivery/using/sending-messages.md#archiving-emails).
+Une fois que la carte de crédit à l&#39;importation par courriel est configurée, veillez à sélectionner l&#39;option **[!UICONTROL Courriel à l&#39;aide de la carte de crédit à l&#39;importation]** par courriel dans le modèle de diffusion ou la diffusion. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 
-## Bonnes pratiques {#best-practices}
+## Meilleures pratiques en matière de communication par courrier électronique {#best-practices}
 
 * **Boîte aux lettres d&#39;adresses en Cci** : vérifiez qu&#39;elle dispose de suffisamment de capacité pour archiver tous les emails envoyés par le MTA.
 * **Mutualisation de MTA** : la fonctionnalité d&#39;archivage Cci fonctionne au niveau MTA. Elle vous permet de dupliquer tous les emails envoyés par le MTA. Etant donné que le MTA peut être mutualisé dans plusieurs instances (dev, test ou prod, par exemple) voire même sur plusieurs clients (dans un environnement de mid-sourcing), le paramétrage de cette fonctionnalité influe sur la sécurité :
