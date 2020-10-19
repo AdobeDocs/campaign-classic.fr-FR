@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3e1896ac4ccd1099bd50e279762c2fbff5cd8eba
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 91%
+source-wordcount: '995'
+ht-degree: 89%
 
 ---
 
@@ -53,9 +53,9 @@ Les messages de confirmation sont adressés via un modèle de diffusion dédié,
 
 1. Comme les destinataires de cette diffusion n&#39;ont pas confirmé leur approbation, ils sont toujours sur la liste bloquée de la base de données. Pour qu’ils puissent recevoir cette communication, vous devez autoriser les diffusions basées sur ce modèle à envoyer aux destinataires de cible en liste bloquée.
 
-   Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Exclusions]**.
+   Pour cela, cliquez sur l’onglet **[!UICONTROL Exclusions]**.
 
-1. Cliquez sur le lien **[!UICONTROL Editer...]** et désélectionnez l&#39;option **[!UICONTROL Exclure les destinataires ne souhaitant plus être contactés (blackliste)]**.
+1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted]** option.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
