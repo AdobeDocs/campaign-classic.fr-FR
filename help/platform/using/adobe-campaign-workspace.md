@@ -12,17 +12,17 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
 workflow-type: tm+mt
-source-wordcount: '2240'
-ht-degree: 100%
+source-wordcount: '2222'
+ht-degree: 98%
 
 ---
 
 
 # Espace de travail Adobe Campaign{#adobe-campaign-workspace}
 
-## A propos de l&#39;interface Adobe Campaign {#about-adobe-campaign-interface}
+## Exploring Adobe Campaign interface {#about-adobe-campaign-interface}
 
 Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plate-forme.
 
@@ -30,7 +30,7 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 ![](assets/d_ncs_user_interface_home.png)
 
-La capture d&#39;écran ci-dessus est un exemple de page d&#39;accueil pour un utilisateur Adobe Campaign. Regardez à ce propos [la vidéo de présentation de l&#39;interface](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html).
+![](assets/do-not-localize/how-to-video.png) [Discover Campaign workspace in video](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Tandis que, dans le contexte d&#39;un accès Web, les options seront principalem
 
 ### Langues {#languages}
 
-La langue est sélectionnée lors de l’installation de votre instance Adobe Campaign Classic et ne peut plus être modifiée par la suite. Pour plus d’informations sur la création d’une instance, consultez cette [page](../../installation/using/creating-an-instance-and-logging-on.md).
+La langue est sélectionnée lors de l’installation de votre instance Adobe Campaign Classic.
 
 ![](assets/language.png)
 
@@ -67,6 +67,12 @@ Vous pouvez choisir entre cinq langues différentes :
 * Japonais
 
 La langue choisie pour votre instance Adobe Campaign Classic peut avoir une incidence sur les formats de date et d’heure. Voir à ce propos cette [section](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+
+Pour plus d’informations sur la création d’une instance, consultez cette [page](../../installation/using/creating-an-instance-and-logging-on.md).
+
+>[!CAUTION]
+>
+>La langue ne peut pas être modifiée après la création de l’instance.
 
 ## Principes de navigation {#navigation-basics}
 
@@ -174,9 +180,9 @@ Dans la fenêtre de configuration de la liste, cliquez sur le lien &quot;Paramè
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-### Configurer les listes {#configuring-lists}
+## Configurer les listes {#configuring-lists}
 
-#### Ajouter des colonnes {#add-columns}
+### Ajouter des colonnes {#add-columns}
 
 Deux méthodes permettent d&#39;ajouter une colonne à une liste.
 
@@ -222,14 +228,14 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
 
-#### Créer une nouvelle colonne {#create-a-new-column}
+### Créer une nouvelle colonne {#create-a-new-column}
 
 Vous pouvez créer de nouvelles colonnes pour afficher des champs supplémentaires dans la liste. Pour cela :
 
 1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
 1. Cliquez sur **[!UICONTROL Ajouter]** pour afficher un nouveau champ dans la liste.
 
-#### Retirer une colonne {#remove-a-column}
+### Retirer une colonne {#remove-a-column}
 
 Vous pouvez masquer une ou plusieurs colonnes dans une liste d&#39;enregistrements via le bouton **[!UICONTROL Configurer la liste]** situé en bas à droite de la liste.
 
@@ -241,11 +247,11 @@ Dans la fenêtre de configuration de la liste, sélectionnez la colonne à masqu
 
 Répétez l&#39;opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
 
-#### Ajuster la largeur des colonnes {#adjust-column-width}
+### Ajuster la largeur des colonnes {#adjust-column-width}
 
 Lorsque la liste est active, c’est-à-dire lorsqu’au moins une ligne est sélectionnée, la touche F9 permet d’ajuster la largeur des colonnes afin d’afficher toutes les colonnes à l’écran.
 
-#### Afficher les enregistrements des sous-dossiers {#display-sub-folders-records}
+### Afficher les enregistrements des sous-dossiers {#display-sub-folders-records}
 
 Les listes peuvent afficher :
 
@@ -286,7 +292,7 @@ Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du do
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-### Exporter une liste {#exporting-a-list}
+## Exporter une liste {#exporting-a-list}
 
 Pour exporter les données d&#39;une liste, vous devez utiliser l&#39;assistant d&#39;export. Pour y accèder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
 
@@ -296,7 +302,7 @@ L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expli
 >
 >Les éléments d&#39;une liste ne doivent pas être exportés via la fonction Copier/Coller.
 
-### Trier une liste {#sorting-a-list}
+## Trier une liste {#sorting-a-list}
 
 Les listes peuvent contenir un grand nombre de données. Vous pouvez trier ces données ou appliquer des filtres simples ou avancés. Le tri permet d&#39;afficher les données dans un ordre ascendant ou descendant, tandis que les filtres permettent de définir et de combiner des critères afin de n&#39;afficher qu&#39;une sélection de données.
 
@@ -321,7 +327,7 @@ Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour
 
 1. Cliquez sur **[!UICONTROL Ok]** pour valider ce paramétrage et visualiser le résultat dans la liste.
 
-### Lancer une recherche {#running-a-search}
+### Recherche d’éléments {#running-a-search}
 
 Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à partir du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre recherche apparaissent en gras.
 
@@ -388,4 +394,3 @@ Dans les champs qui expriment une durée (par exemple : période de validité d
 * **[!UICONTROL j]** pour les jours.
 
 ![](assets/enter_unit_sample.png)
-
