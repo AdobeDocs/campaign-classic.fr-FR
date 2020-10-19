@@ -12,22 +12,21 @@ content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: ada27825-42bd-48c7-bc03-a619f1fa9463
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 29%
 
 ---
 
 
 # Modèle hébergé{#hosted-model}
 
-Voici les étapes d’installation et de configuration qui s’appliquent aux modèles hébergés :
+En tant que client hébergé, la plupart des étapes d’installation et de configuration sont effectuées par Adobe. Vous pouvez accéder aux sections suivantes pour personnaliser votre mise en oeuvre :
 
-* Configuration des URL de tracking et page miroir par marque. Pour les messages transactionnels, voir [cette section](../../message-center/using/configuring-multibranding.md).
-* Installation de la console cliente : consultez cette [section](../../installation/using/installing-the-client-console.md).
-* Installation des packages : consultez cette [section](../../installation/using/installing-campaign-standard-packages.md).
+* Configurez les URL de suivi et de page miroir par marque. For transactional messages, refer [to this section](../../message-center/using/configuring-multibranding.md).
+* Install the client console: refer [to this section](../../installation/using/installing-the-client-console.md).
 * Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](../../delivery/using/deliverability-key-points.md) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
-* Configuration des options de Campaign : consultez cette [section](../../installation/using/configuring-campaign-options.md).
-* Configuration des connecteurs CRM : consultez cette [section](../../platform/using/crm-connectors.md).
+* Configure Campaign options: refer [to this section](../../installation/using/configuring-campaign-options.md).
+* Configure CRM connectors: refer [to this section](../../platform/using/crm-connectors.md).
 
