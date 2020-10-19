@@ -1,8 +1,6 @@
 ---
-title: A propos des Adobe ID
-seo-title: A propos des Adobe ID
-description: A propos des Adobe ID
-seo-description: null
+title: Utiliser votre Adobe ID dans Campaign
+description: En savoir plus sur l'intégration IMS Adobe
 page-status-flag: never-activated
 uuid: d88f70f7-637a-4609-8747-784700b6ca1a
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 92%
 
 ---
 
