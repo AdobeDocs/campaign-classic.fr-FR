@@ -1,8 +1,6 @@
 ---
 title: Workflow de Nettoyage de la base
-seo-title: Workflow de Nettoyage de la base
-description: Workflow de Nettoyage de la base
-seo-description: null
+description: Découvrez comment les données obsolètes sont automatiquement nettoyées
 page-status-flag: never-activated
 uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 100%
+source-wordcount: '2997'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +30,7 @@ Le workflow **[!UICONTROL Nettoyage de la base]** (cleanup), accessible à parti
 
 Le paramétrage du nettoyage de la base s&#39;effectue à deux niveaux : dans le planificateur du workflow et dans l&#39;assistant de déploiement.
 
-### Le planificateur {#the-scheduler}
+### Planificateur de processus {#the-scheduler}
 
 >[!NOTE]
 >
