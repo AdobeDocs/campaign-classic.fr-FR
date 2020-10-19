@@ -1,8 +1,6 @@
 ---
 title: Propriétés du rapport
-seo-title: Propriétés du rapport
-description: Propriétés du rapport
-seo-description: null
+description: En savoir plus sur les paramètres des propriétés du rapport
 page-status-flag: never-activated
 uuid: 56163f53-d115-45b8-94a5-c173ac4c6533
 contentOwner: sauviat
@@ -12,50 +10,50 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b0b9a0714075474bf52c3eed78d45bcef25b44fc
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 41%
 
 ---
 
 
 # Propriétés du rapport{#properties-of-the-report}
 
-## Présentation {#overview}
-
-Vous pouvez entièrement personnaliser et paramétrer votre rapport en fonction de vos besoins. Pour cela, éditez ses propriétés. Les propriétés des rapports sont accessibles à partir du bouton Propriété situé au-dessus du diagramme d&#39;enchaînement des activités.
+Vous pouvez entièrement personnaliser et configurer votre rapport en fonction de vos besoins. Pour ce faire, modifiez ses propriétés. Les propriétés du rapport sont accessibles via le bouton **[!UICONTROL Propriétés]** situé au-dessus du graphique de séquence d’activités.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
+Les propriétés générales sont décrites ci-dessous. Les fonctionnalités avancées configurées dans les onglets **[!UICONTROL Paramètres]**, **[!UICONTROL Variables]** et **[!UICONTROL Scripts]** sont décrites [dans cette section.](../../reporting/using/advanced-functionalities.md)
+
 ## Propriétés générales {#overall-properties}
 
-L&#39;onglet **[!UICONTROL Général]** vous permet de consulter ou modifier le libellé et le schéma sur lesquels porte le rapport. Ces éléments sont renseignés lors de la création du rapport.
+Dans l&#39;onglet **[!UICONTROL Général]** des propriétés du rapport, vous pouvez modifier les paramètres répertoriés ci-dessous :
 
-Il est en revanche fortement déconseillé de modifier le **[!UICONTROL Nom interne]** : celui-ci est utilisé dans l&#39;URL d&#39;accès au rapport.
+* Libellé et nom interne du rapport. Le nom **** interne est utilisé dans l’URL finale du rapport. Il ne doit pas être modifié après la création du rapport.
 
-Le modèle de rapport est choisi lors de la création du rapport et ne peut pas être modifié par la suite.
+* Le **dossier** des rapports est sélectionné lors de la création du rapport. Il est recommandé de créer un dossier dédié aux rapports personnalisés afin qu’ils ne soient pas mélangés aux rapports [](../../reporting/using/about-campaign-built-in-reports.md)intégrés.
 
-Pour changer la table sur laquelle porte le rapport, cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** située à droite du champ **[!UICONTROL Type de document]**. Pour consulter les champs disponibles dans la table sélectionnée, cliquez sur l&#39;icône **[!UICONTROL Loupe]**.
+* L&#39; **Enregistrement** est sélectionné lors de la création du rapport. Pour modifier le tableau de données du rapport, cliquez sur l&#39;icône **[!UICONTROL Sélectionner le lien]** située à droite du champ Type **[!UICONTROL de]** Document.
 
-![](assets/s_ncs_advuser_report_properties_02.png)
+   ![](assets/s_ncs_advuser_report_properties_02.png)
 
-## Accessibilité du rapport {#report-accessibility}
+* Paramètres du **Contrôle d&#39;accès** . Ces paramètres sont décrits ci-dessous.
 
-Un rapport peut être accessible en dehors de la console Adobe Campaign, par exemple depuis un navigateur Web. Dans ces cas, il peut être nécessaire de paramétrer le contrôle d&#39;accès au rapport comme illustré ci-dessous.
+## Controlling access to the report {#report-accessibility}
+
+Un rapport est accessible dans la console Adobe Campaign ou à l’aide d’un navigateur Web. Dans ce cas, il peut être nécessaire de configurer le contrôle d&#39;accès de rapports comme illustré ci-dessous.
 
 ![](assets/s_ncs_advuser_report_properties_02b.png)
 
-Le principe général est le suivant :
+Les options possibles sont les suivantes :
 
-* L&#39;option **[!UICONTROL Accès anonyme]** permet à tout le monde d&#39;accéder au rapport. Toutefois, aucune manipulation n&#39;est possible.
+* **[!UICONTROL Accès]** anonyme : cette option permet un accès illimité au rapport. Cependant, aucune manipulation n&#39;est possible.
 
-   Ce sont les droits de l&#39;opérateur des rapports par défaut (&#39;webapp&#39;) qui sont utilisés pour afficher les éléments du rapport.
+   Les droits de l&#39;opérateur technique &quot;webapp&quot; sont utilisés pour afficher les éléments de rapport. En savoir plus dans [cette section](../../platform/using/access-management.md#default-operators).
 
-* L&#39;option **[!UICONTROL Contrôle d&#39;accès]** permet à un opérateur Adobe Campaign d&#39;y accéder, après connexion.
-* L&#39;option **[!UICONTROL Compte spécifique]** permet d&#39;exécuter le rapport avec les droits de l&#39;opérateur sélectionné dans le champ **[!UICONTROL Opérateur]**.
-
-Les propriétés d&#39;un formulaire web sont présentés dans [cette page](../../web/using/about-web-forms.md).
+* **[!UICONTROL Contrôle d&#39;accès]**: cette option permet aux opérateurs Adobe Campaign d’y accéder une fois qu’ils sont connectés.
+* **[!UICONTROL Compte]** spécifique : cette option vous permet d&#39;exécuter le rapport avec les droits de l&#39;opérateur sélectionné dans le champ **[!UICONTROL Opérateur]** .
 
 ## Gérer la localisation du rapport {#managing-report-localization}
 
@@ -69,7 +67,7 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 
 >[!NOTE]
 >
->Reportez-vous à la section correspondante de [cette section](../../web/using/translating-a-web-form.md) pour plus d&#39;informations.
+>Pour en savoir plus sur la localisation des pages Web à Campaign, consultez [cette section](../../web/using/translating-a-web-form.md).
 
 ## Personnaliser le rendu HTML {#personalizing-html-rendering}
 
@@ -80,60 +78,7 @@ Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#3
 * La position par défaut des libellés des éléments du rapport. Cette position peut être surchargée au niveau de chaque élément.
 * Le modèle, ou thème, utilisé pour la génération des pages du rapport.
 
-Les propriétés d&#39;un formulaire web sont présentés dans [cette page](../../web/using/about-web-forms.md).
-
 ![](assets/s_ncs_advuser_report_properties_08.png)
-
-## Définir des paramètres supplémentaires {#defining-additional-settings}
-
-L’onglet **[!UICONTROL Paramètres]** permet de créer des paramètres supplémentaires pour le rapport : ils seront passés sur l’URL lors de l’appel.
-
-Les propriétés d&#39;un formulaire web sont présentés dans [cette page](../../web/using/about-web-forms.md).
-
->[!CAUTION]
->
->Pour des questions de sécurité, ces paramètres doivent être utilisés avec précaution.
-
-Pour créer un nouveau paramètre :
-
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** et saisissez le nom du paramètre.
-
-   ![](assets/s_ncs_advuser_report_properties_09a.png)
-
-1. Au besoin, indiquez si ce paramètre doit être obligatoire.
-1. Choisissez le type de paramètre à créer : **[!UICONTROL Filtre]** ou **[!UICONTROL Variable]**.
-
-   L&#39;option **[!UICONTROL Filtrer les entités]** permet d&#39;utiliser un champ de la base comme paramètre.
-
-   ![](assets/s_ncs_advuser_report_properties_09b.png)
-
-   Les données sont directement récupérées au niveau de l&#39;entité : **ctx/recipient/@account**.
-
-   L&#39;option **[!UICONTROL Variable]** permet de créer ou sélectionner une variable qui sera passée en paramètre de l&#39;URL et pourra être utilisée au niveau des filtres.
-
-Les **[!UICONTROL En-têtes HTTP de réponse]** permettent d’empêcher le détournement de clics (clickjacking) si la page du rapport est incorporée dans une page HTML à l’aide d’iframe. Pour éviter le détournement de clics, vous pouvez choisir le comportement de l’**[!UICONTROL En-tête X-Frame-Options]** :
-
-* **[!UICONTROL Aucun]** : le rapport ne comporte pas d’**[!UICONTROL En-tête X-Frame-Options]**.
-* **[!UICONTROL Même origine]** : défini par défaut pour les nouveaux rapports et les rapports republiés. Le nom d’hôte sera identique à l’URL du rapport.
-* **[!UICONTROL Refuser]** : le rapport ne peut pas être incorporé dans une page HTML à l’aide d’iframe.
-
-![](assets/s_ncs_advuser_report_properties_09c.png)
-
-## Ajouter des variables {#adding-variables}
-
-L&#39;onglet **[!UICONTROL Variables]** contient la liste des variables paramétrées dans le rapport. Ces variables sont exposées dans le contexte du rapport et utilisables dans les calculs.
-
-Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle variable.
-
-Pour consulter la définition d&#39;une variable, sélectionnez-la et cliquez sur le bouton **[!UICONTROL Détail...]**.
-
-![](assets/s_ncs_advuser_report_properties_10.png)
-
-## Référencer des scripts {#referencing-scripts}
-
-L&#39;onglet **[!UICONTROL Scripts]** permet de référencer des codes JavaScript qui seront exécutés côté client et/ou côté serveur lors de l&#39;appel de la page du rapport.
-
-Les scripts référencés doivent être rédigés en Javascript et compatibles avec la plupart des navigateurs afin d&#39;assurer leur bonne exécution côté client. Voir à ce propos [cette section](../../web/using/web-forms-answers.md).
 
 ## Personnaliser la page d&#39;erreur {#personalizing-the-error-page}
 
@@ -142,4 +87,3 @@ Dans l&#39;onglet **[!UICONTROL Page d&#39;erreur]**, vous pouvez paramétrer le
 Vous pouvez définir des textes et les associer à des identifiants afin de gérer la localisation du rapport. Pour plus d’informations, voir la section [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
-
