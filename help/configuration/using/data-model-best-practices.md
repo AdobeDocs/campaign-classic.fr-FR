@@ -1,6 +1,6 @@
 ---
-title: Utilisation de la table des destinataires d’Adobe Campaign Classic
-description: Découvrez comment utiliser la table des destinataires d’usine dans Adobe Campaign Classic lors de la conception de votre modèle de données.
+title: Bonnes pratiques relatives au modèle de données
+description: Découvrez comment utiliser le modèle de données Campaign Classic
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '4014'
-ht-degree: 100%
+source-wordcount: '4031'
+ht-degree: 99%
 
 ---
 
@@ -245,7 +245,7 @@ Si le lien inverse ne doit pas être visible pour l’utilisateur, vous pouvez l
 
 Les liens d’une jointure externe (1-0..1) doivent être utilisés avec soin, car ils ont une incidence sur les performances du système.
 
-## Conservation des données - Nettoyage et purge {#data-retention}
+## Data retention - cleanup and purge {#data-retention}
 
  Adobe Campaign n’est ni un entrepôt de données, ni un outil de reporting. Pour garantir de bonnes performances, la croissance des bases de données doit rester sous contrôle. Pour cela, il peut être utile de suivre certaines des bonnes pratiques ci-dessous.
 
@@ -253,6 +253,10 @@ Par défaut, les logs de diffusion et de tracking d’Adobe Campaign sont conse
 
 * Si vous souhaitez les conserver plus longtemps, cette décision doit être prise avec soin en fonction de la taille de la base de données et du volume des messages envoyés. Pour rappel, une séquence Adobe Campaign est définie par un entier sur 32 bits.
 * Il est recommandé de ne pas avoir plus d’un milliard de documents à la fois dans ces tables (soit près de 50 % des 2,14 milliards d’id disponibles) pour limiter tout risque d’utiliser l’ensemble de ces id. Pour ce faire, certains clients devront réduire la durée de conservation à moins de 180 jours.
+
+En savoir plus sur la rétention des données dans les directives [relatives à la confidentialité et à la sécurité de](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#consent)Campaign.
+
+Pour en savoir plus sur le processus de nettoyage de la base de données Campaign, [consultez cette section](../../production/using/database-cleanup-workflow.md).
 
 >[!IMPORTANT]
 >
