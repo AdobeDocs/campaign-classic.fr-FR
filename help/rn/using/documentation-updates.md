@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '3747'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -202,9 +202,9 @@ Améliorations apportées au connecteur FDA Hadoop - [En savoir plus](../../plat
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Les guides [d’installation](../../installation/using/before-reading.md), de [production](../../production/using/foreword.md) et de [configuration](../../configuration/using/additional-parameters.md) ont été mis à jour avec la nouvelle unité systemd utilisée par le démarrage du service nlserver. Vous pouvez encore utiliser /etc/init.d/nlserver6, mais Adobe recommande maintenant d’appliquer la commande systemctl pour interagir avec le service nlserver.
+Les guides [d’installation](../../installation/using/general-architecture.md), de [production](../../production/using/foreword.md) et de [configuration](../../configuration/using/additional-parameters.md) ont été mis à jour avec la nouvelle unité systemd utilisée par le démarrage du service nlserver. Vous pouvez encore utiliser /etc/init.d/nlserver6, mais Adobe recommande maintenant d’appliquer la commande systemctl pour interagir avec le service nlserver.
 
-Le guide d’installation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. Les nouveaux systèmes pris en charge ont été ajoutés. Les systèmes obsolètes et non pris en charge ont été supprimés. [En savoir plus](../../installation/using/before-reading.md)
+Le guide d’installation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. Les nouveaux systèmes pris en charge ont été ajoutés. Les systèmes obsolètes et non pris en charge ont été supprimés. [En savoir plus](../../installation/using/general-architecture.md)
 
 La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
@@ -376,7 +376,7 @@ Un nouvel article relatif à l&#39;utilisation du catalogue d&#39;offres d&#39;A
 
 La section activité Sous-workflow a été enrichie en y incorporant un exemple d&#39;utilisation. [En savoir plus](../../workflow/using/sub-workflow.md)
 
-L&#39;article [Matrice des fonctionnalités de Campaign Classic on-premise/hébergé](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html) de la base de connaissances a été mis à jour avec des informations relatives à l&#39;archivage des emails.
+The [Campaign Classic On-premise &amp; Hosted capability matrix](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
 
 La documentation sur les messages transactionnels a été mise à jour avec une note concernant la publication de modèles. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
