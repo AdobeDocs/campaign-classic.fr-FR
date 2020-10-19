@@ -1,8 +1,6 @@
 ---
 title: SpamAssassin
-seo-title: SpamAssassin
-description: SpamAssassin
-seo-description: null
+description: Découvrez comment configurer la détection des messages indésirables avec SpamAssassin
 page-status-flag: never-activated
 uuid: 4f439432-4215-42ed-8f92-b4ca8dd92726
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 99%
+source-wordcount: '264'
+ht-degree: 95%
 
 ---
 
