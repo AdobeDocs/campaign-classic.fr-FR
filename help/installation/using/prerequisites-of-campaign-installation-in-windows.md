@@ -1,8 +1,6 @@
 ---
 title: Prérequis pour l’installation de Campaign sous Windows
-seo-title: Prérequis pour l’installation de Campaign sous Windows
 description: Prérequis pour l’installation de Campaign sous Windows
-seo-description: null
 page-status-flag: never-activated
 uuid: 3c030186-d2ab-4845-b5c6-2ed49da00756
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
