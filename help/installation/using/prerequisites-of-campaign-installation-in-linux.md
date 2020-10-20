@@ -1,8 +1,6 @@
 ---
 title: Prérequis pour l'installation de Campaign sous Linux
-seo-title: Prérequis pour l'installation de Campaign sous Linux
 description: Prérequis pour l'installation de Campaign sous Linux
-seo-description: null
 page-status-flag: never-activated
 uuid: 65c7af3f-ca1d-4255-b54a-6a3c83af40ae
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '911'
 ht-degree: 100%
 
 ---
