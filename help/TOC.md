@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 99%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -590,21 +590,21 @@ ht-degree: 99%
       + [Serveur applicatif](installation/using/application-server.md)
       + [Serveur de messagerie](installation/using/messaging-server.md)
       + [Configuration réseau](installation/using/network-configuration.md)
-   + Types de déploiements  {#deployment-types-}
+   + Types de déploiements {#deployment-types-}
       + [À propos des types de déploiement](installation/using/about-deployment-types.md)
       + [Déploiement Stand-alone](installation/using/standalone-deployment.md)
       + [Déploiement Standard](installation/using/standard-deployment.md)
       + [Déploiement Entreprise](installation/using/enterprise-deployment.md)
       + [Déploiement Mid-sourcing](installation/using/mid-sourcing-deployment.md)
       + [Power Booster et Power Cluster](installation/using/power-booster-and-power-cluster.md)
-   + Installation de Campaign sous Windows  {#installing-campaign-in-windows-}
-      + [Prérequis pour l’installation de Campaign sous Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+   + Campaign sous Windows {#installing-campaign-in-windows-}
+      + [Avant d’installer Campaign sous Windows](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [Installation du serveur](installation/using/installing-the-server.md)
       + [Intégration à un serveur web pour Windows](installation/using/integration-into-a-web-server-for-windows.md)
       + [Disponibilité de la console cliente pour Windows](installation/using/client-console-availability-for-windows.md)
       + [Installation de la console](installation/using/installing-the-client-console.md)
-   + Installer Campaign dans Linux  {#installing-campaign-in-linux-}
-      + [Prérequis pour l&#39;installation de Campaign sous Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+   + Campaign sous Linux  {#installing-campaign-in-linux-}
+      + [Avant d’installer Campaign sous Linux](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Installation de packages avec Linux](installation/using/installing-packages-with-linux.md)
       + [Intégration à un serveur web pour Linux](installation/using/integration-into-a-web-server-for-linux.md)
       + [Disponibilité de la console cliente pour Linux](installation/using/client-console-availability-for-linux.md)
@@ -625,11 +625,11 @@ ht-degree: 99%
       + [Serveur de mid-sourcing](installation/using/mid-sourcing-server.md)
       + [Interaction - Mémoire tampon](installation/using/interaction---data-buffer.md)
    + Annexes {#appendices}
-      + [Le fichier de configuration du serveur](installation/using/the-server-configuration-file.md)
+      + [Fichier de configuration du serveur](installation/using/the-server-configuration-file.md)
       + [Points d’entrée réseau Campaign ](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création de nouvelles instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign Classic](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstaller Campaign](installation/using/uninstalling-campaign.md)
 + Surveillance de Campaign Classic{#monitoring-campaign-classic}
    + Introduction {#introduction}
