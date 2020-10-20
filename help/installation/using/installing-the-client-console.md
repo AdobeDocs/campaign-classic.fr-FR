@@ -1,8 +1,6 @@
 ---
 title: Installation de la console
-seo-title: Installation de la console
-description: Installation de la console
-seo-description: null
+description: Découvrez comment installer la console client
 page-status-flag: never-activated
 uuid: 1279c0d8-bf27-4a58-ae94-796d6147231a
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: bdc09e1b6e037e1b21573b8624a947e30f8ad1fc
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -81,7 +79,7 @@ Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, pa
 >Le bouton **[!UICONTROL Ajouter]** permet de créer des **[!UICONTROL dossiers]** dans lesquels vous pourrez classer vos différentes connexions par des opérations de glisser-déposer.
 
 
-## Connexion à Campaign
+## Connexion à Adobe Campaign
 
 Pour vous connecter à une instance existante, procédez comme suit :
 
