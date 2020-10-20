@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3780'
 ht-degree: 97%
 
 ---
@@ -26,9 +26,13 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 ## Octobre 2020 {#oct-2020}
 
+Les modèles d’hébergement Campaign sur site, hébergés et hybrides sont maintenant décrits dans une section dédiée. [En savoir plus](../../installation/using/hosting-models.md)
+
+La matrice des capacités Campaign par modèle d&#39;hébergement a été mise à jour et déplacée dans le guide d&#39;installation. [En savoir plus](../../installation/using/capability-matrix.md)
+
 La section Fonctionnalités avancées de Campaign Rapports a été améliorée afin d’expliquer en détail comment utiliser les paramètres d’URL et les variables dans les rapports personnalisés. [En savoir plus](../../reporting/using/advanced-functionalities.md)
 
-La page des propriétés des rapports a été réorganisée et enrichie afin de faciliter la configuration. [En savoir plus](../../reporting/using/properties-of-the-report.md)
+La page des propriétés des rapports a été réorganisée et enrichie pour faciliter la configuration. [En savoir plus](../../reporting/using/properties-of-the-report.md)
 
 Une nouvelle note technique a été créée avec des détails sur la migration du protocole binaire hérité vers l’API du fournisseur APN basé sur HTTP/2. [En savoir plus](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
