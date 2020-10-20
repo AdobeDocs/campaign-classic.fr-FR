@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 82%
+source-wordcount: '536'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez démarrer Adobe Campaign à partir du menu **[!UICONTROL Démarrer 
 
 La page de connexion de la console cliente permet de configurer ou de sélectionner une base de données existante, et de s’y connecter en utilisant un identifiant et un mot de passe :
 
-![](assets/acc-logon-screen.png)
+![](assets/s_ncs_user_login.png)
 
 ## Connexion à Adobe Campaign {#connecting-to-adobe-campaign}
 
@@ -86,18 +86,18 @@ Pour vous déconnecter d’Adobe Campaign, utilisez la première icône de la ba
 >
 >Vous pouvez également quitter directement l’application, sans vous déconnecter au préalable.
 
-## Obtention de la version de Campaign {#getting-your-campaign-version}
+## Getting your Adobe Campaign version {#getting-your-campaign-version}
 
 Le menu **[!UICONTROL Aide > À propos...]** vous permet d’accéder aux informations suivantes :
 
-* **numéro de version**
-* **numéro de build**
+* **numéro de version** de la console client Campaign et du serveur d’applications
+* **numéro de build** pour la console client Campaign et le serveur d’applications
 * un lien pour contacter le service à la clientèle Adobe
 * liens vers la Politique de confidentialité des Adobes, les Conditions d&#39;utilisation et la Politique sur les cookies
 
 ![](assets/about-acc.png)
 
-Lorsque vous contactez l’équipe de l’assistance client Adobe, vous devez indiquer les numéros de version et de build du serveur applicatif et de la console cliente Campaign.
+Chaque fois que vous contactez l’équipe d’assistance clientèle d’Adobe, vous devez fournir le numéro de version et le numéro de version de la console client et du serveur d’applications Campaign.
 
 Si vous utilisez la version [](../../rn/using/gold-standard.md)Campaign Gold Standard, vous devez également partager les caractères SHA/1 qui s’affichent dans la zone **[!UICONTROL A propos]** . Par exemple, pour la version **Gold** Standard 10, le numéro de version indique la **version 9032@efd8a94**, comme illustré ci-dessous :
 
