@@ -1,8 +1,6 @@
 ---
-title: Mise à jour de version
-seo-title: Mise à jour de version
-description: Mise à jour de version
-seo-description: null
+title: Mise à jour de version à une nouvelle version
+description: Découvrez les étapes techniques de la mise à niveau vers une nouvelle version
 page-status-flag: never-activated
 uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
 contentOwner: sauviat
@@ -12,15 +10,15 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 100%
+source-wordcount: '1163'
+ht-degree: 98%
 
 ---
 
 
-# Mise à jour de version{#upgrading}
+# Mise à niveau vers une nouvelle version (sur site){#upgrading}
 
 Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Adobe Campaign vers laquelle s&#39;effectue la mise à jour et consultez les [notes de mises à jour](../../rn/using/latest-release.md) .
 
@@ -177,7 +175,8 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
->Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle librairie.
+   >Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle librairie.
+
 >
 
 
