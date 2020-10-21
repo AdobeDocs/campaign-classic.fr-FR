@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: f296676e-3bf1-47da-8239-f5ae54e52fc0
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ D’autres configurations sont disponibles dans [Paramétrage du serveur Campaig
 
 >[!NOTE]
 >
->Les paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
+>Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section Modèles [d&#39;](../../installation/using/hosting-models.md) hébergement ou [la matrice](../../installation/using/capability-matrix.md)des capacités.
 
 ## Identifiant &#39;internal&#39;{#internal-identifier}
 
