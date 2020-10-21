@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 87%
 
 ---
 
@@ -38,5 +38,5 @@ Vous pouvez également intégrer Campaign à plusieurs autres systèmes, tels qu
 
 >[!NOTE]
 >
->La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Consultez la [matrice des fonctionnalités de Campaign on-premise/hébergé](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
+>La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Reportez-vous à la matrice [des capacités hébergées de](../../installation/using/capability-matrix.md)Campaign sur site.
 
