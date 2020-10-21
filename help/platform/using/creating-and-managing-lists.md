@@ -1,8 +1,6 @@
 ---
 title: Créer et gérer des listes
-seo-title: Créer et gérer des listes
-description: Créer et gérer des listes
-seo-description: null
+description: Découvrez comment créer et gérer des listes
 page-status-flag: never-activated
 uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 93%
+source-wordcount: '856'
+ht-degree: 92%
 
 ---
 
@@ -139,7 +137,7 @@ Découvrez comment créer une audience en configurant une liste de destinataires
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## Création d’une liste de destinataires avec un processus
+## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
 
 Découvrez comment créer un processus afin de cible des destinataires et comment le rendre récurrent avant d’utiliser la liste dans une cible électronique.
 
