@@ -1,8 +1,6 @@
 ---
 title: Création d'une liste de profils avec un workflow
-seo-title: Création d'une liste de profils avec un workflow
-description: Création d'une liste de profils avec un workflow
-seo-description: null
+description: Découvrez comment créer une liste de profil dans un processus
 page-status-flag: never-activated
 uuid: a30f7217-fe82-4290-b1e6-e7a126a316c1
 contentOwner: sauviat
@@ -12,17 +10,23 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 81%
 
 ---
 
 
 # Création d&#39;une liste de profils avec un workflow{#creating-a-profile-list-with-a-workflow}
 
-Pour créer une liste de type **[!UICONTROL Liste]** basée sur la nouvelle table des destinataires, vous devez créer un workflow de ciblage qui va générer la liste. Pour plus d&#39;informations sur les listes dans Campaign, consultez [cette section](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+Pour créer une liste de type **[!UICONTROL Liste]** basée sur la nouvelle table des destinataires, vous devez créer un workflow de ciblage qui va générer la liste.
+
+Pour plus d&#39;informations sur les listes dans Campaign, consultez [cette section](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
+
+Pour créer un processus de ciblage et mettre à jour des destinataires dans un tableau de destinataires personnalisé, procédez comme suit :
 
 1. Ouvrez le nœud **[!UICONTROL Profils et cibles > Traitements > Workflows de ciblage]** dans l&#39;explorateur.
 1. Créez un nouveau workflow de ciblage.
@@ -46,7 +50,4 @@ Pour créer une liste de type **[!UICONTROL Liste]** basée sur la nouvelle tabl
 
    ![](assets/mapping_list_view.png)
 
->[!NOTE]
->
->Vous pouvez également consulter la vidéo sur la [création d&#39;une liste de destinataires](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html).
 
