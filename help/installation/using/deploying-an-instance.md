@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3208'
-ht-degree: 98%
+source-wordcount: '3203'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Les paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe. Pour plus d&#39;informations sur les différents déploiements, reportez-vous à la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou à [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
+>Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section Modèles [d’](../../installation/using/hosting-models.md) hébergement ou [cette page](../../installation/using/capability-matrix.md).
 
 ## L&#39;assistant de déploiement {#deployment-wizard}
 
