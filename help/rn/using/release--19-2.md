@@ -11,11 +11,11 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ _2 décembre 2019_
   <tr> 
 <td> <p>Adobe Campaign offre la possibilité de tester le nouveau format interactif <a href="https://amp.dev/about/email/">AMP pour email</a>. Ce format permet aux spécialistes du marketing d'incorporer des composants AMP dans les messages pour améliorer l'expérience d'utilisation des emails grâce à un contenu riche, dynamique et interactif, directement exploitable dans le message lui-même.</p>
    <p> Cette fonctionnalité est diffusée en version bêta publique.</p>
-   <p>Pour plus d'informations, consultez la <a href="../../delivery/using/defining-interactive-content.md">documentation détaillée</a> et regardez le <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutoriel vidéo</a>.</p><br /></td> 
+   <p>Pour plus d'informations, consultez la <a href="../../delivery/using/defining-interactive-content.md">documentation détaillée</a> et regardez le <a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutoriel vidéo</a>.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
