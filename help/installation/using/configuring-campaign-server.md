@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 7d0a00f4ef49a48014735de36786a48c31b76804
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3615'
 ht-degree: 96%
 
 ---
@@ -34,8 +34,8 @@ Pour plus d’informations, consultez les sections suivantes :
 
 * [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
 * [Modèles d&#39;hébergement](../../installation/using/hosting-models.md)
-* [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html)
-* [Etapes de configuration des modèles hybrides et hébergés](../../installation/using/about-hybrid-and-hosted-models.md)  )
+* [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](../../installation/using/capability-matrix.md)
+* [Etapes de configuration des modèles hybrides et hébergés](../../installation/using/hosting-models.md)
 
 Les fichiers de configuration de Campaign Classic sont stockés dans le dossier **conf** du dossier d’installation d’Adobe Campaign. La configuration est répartie sur deux fichiers :
 
