@@ -11,9 +11,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '740'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ L&#39;analyse correspond à l&#39;étape de calcul de la population cible et de 
 
 Adobe recommande vivement de créer des BAT pour tester votre diffusion auprès d’un groupe de validation avant l’envoi à la cible principale. Vous pouvez ensuite valider le contenu des messages, la personnalisation et les paramètres de la diffusion.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). Vous pouvez également regarder [cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html).
+[Pour en savoir plus, cliquez ici](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ### Comment utiliser les adresses de contrôle dans Adobe Campaign ?{#how-to-use-seed-addresses-in-adobe-campaign-}
 
