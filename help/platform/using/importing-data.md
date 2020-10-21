@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: c886bd02-c484-443c-93ca-ca244adbf893
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '4500'
-ht-degree: 100%
+source-wordcount: '4496'
+ht-degree: 99%
 
 ---
 
@@ -29,8 +29,8 @@ Adobe Campaign vous permet d&#39;importer des données dans la base à partir d&
 >Vous pouvez importer des données sans les associer aux données de la base en utilisant la fonction **[!UICONTROL Importer une liste]**.
 >
 >Les données seront alors utilisables exclusivement dans les workflows via l&#39;objet **[!UICONTROL Lecture de liste]**. Voir à ce sujet [cette page](../../workflow/using/read-list.md).
->
->Pour plus d&#39;informations, regardez la vidéo [Importer des profils](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html).
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
 
 ## Structure des données à importer {#structure-of-the-data-to-import}
 
