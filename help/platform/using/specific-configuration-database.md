@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1891'
 ht-degree: 97%
 
 ---
@@ -231,7 +231,7 @@ Pour configurer Azure Synapse sous Debian :
 
 >[!NOTE]
 >
->Le connecteur [!DNL Snowflake] est disponible pour les déploiements hébergés et on-premise. Voir à ce propos [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
+>Le connecteur [!DNL Snowflake] est disponible pour les déploiements hébergés et on-premise. Voir à ce propos [cette page](../../installation/using/capability-matrix.md).
 
 ![](assets/snowflake_3.png)
 
