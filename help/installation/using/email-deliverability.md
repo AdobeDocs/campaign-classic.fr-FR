@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3047'
-ht-degree: 100%
+source-wordcount: '3042'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ La section ci-après présente les paramétrages nécessaires pour contrôler le
 
 >[!NOTE]
 >
->Certains paramétrages côté serveur ne peuvent être réalisés que par Adobe pour les déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration de l’instance et du serveur. Pour plus d’informations sur les différents déploiements, voir la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cet article](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html).
+>Certaines configurations ne peuvent être effectuées que par Adobe pour des déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration du serveur et des instances. Pour en savoir plus sur les différents déploiements, consultez la section Modèles [d’](../../installation/using/hosting-models.md) hébergement ou [cette page](../../installation/using/capability-matrix.md).
 
 Pour en savoir plus sur les concepts et les bonnes pratiques relatifs à la délivrabilité, voir cette [section](../../delivery/using/about-deliverability.md).
 
