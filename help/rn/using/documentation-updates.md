@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3780'
+source-wordcount: '3768'
 ht-degree: 97%
 
 ---
@@ -32,7 +32,7 @@ La matrice des capacités Campaign par modèle d&#39;hébergement a été mise �
 
 La section Fonctionnalités avancées de Campaign Rapports a été améliorée afin d’expliquer en détail comment utiliser les paramètres d’URL et les variables dans les rapports personnalisés. [En savoir plus](../../reporting/using/advanced-functionalities.md)
 
-La page des propriétés des rapports a été réorganisée et enrichie pour faciliter la configuration. [En savoir plus](../../reporting/using/properties-of-the-report.md)
+La page des propriétés des rapports a été réorganisée et enrichie afin de faciliter la configuration. [En savoir plus](../../reporting/using/properties-of-the-report.md)
 
 Une nouvelle note technique a été créée avec des détails sur la migration du protocole binaire hérité vers l’API du fournisseur APN basé sur HTTP/2. [En savoir plus](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
@@ -226,7 +226,7 @@ Le guide [Envoi de notifications push](../../delivery/using/about-mobile-app-cha
 
 Le nouveau paramètre de configuration du rapport des URL a été documenté [ici](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
 
-La page **Matrice des fonctionnalités On-premise et hébergées de Campaign Classic** a été mise à jour en indiquant les nouveaux connecteurs FDA. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html)
+La page **Matrice des fonctionnalités On-premise et hébergées de Campaign Classic** a été mise à jour en indiquant les nouveaux connecteurs FDA. [En savoir plus](../../installation/using/capability-matrix.md).
 
 La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
@@ -380,7 +380,7 @@ Un nouvel article relatif à l&#39;utilisation du catalogue d&#39;offres d&#39;A
 
 La section activité Sous-workflow a été enrichie en y incorporant un exemple d&#39;utilisation. [En savoir plus](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise &amp; Hosted capability matrix](https://helpx.adobe.com/fr/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
+La page de la matrice des [capacités hébergées et sur site du](../../installation/using/capability-matrix.md) Campaign Classic a été mise à jour avec des informations relatives au Cci électronique.
 
 La documentation sur les messages transactionnels a été mise à jour avec une note concernant la publication de modèles. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
