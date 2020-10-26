@@ -11,9 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les cam
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
-### Page d&#39;accueil     {#home-page}
+### Page d&#39;accueil      {#home-page}
 
 Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
