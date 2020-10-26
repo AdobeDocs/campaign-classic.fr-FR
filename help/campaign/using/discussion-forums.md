@@ -11,9 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 discoiquuid: 88eb17b6-5206-4064-9cd9-b4645a85c609
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
 ht-degree: 100%
 
