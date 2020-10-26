@@ -11,9 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 2d2c6ae9-4dba-4b82-a25e-eda65a49572d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
 ht-degree: 100%
 
