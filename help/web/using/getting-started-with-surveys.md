@@ -11,9 +11,9 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 discoiquuid: 2df82006-dcc3-4b07-bc36-b646b1c27aaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
 ht-degree: 100%
 
