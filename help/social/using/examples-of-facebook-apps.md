@@ -11,9 +11,9 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2129'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Les exemples d&#39;applications web de type Facebook présentés dans cette sect
 >
 >Ces cas d&#39;utilisation simples ne sont donnés qu&#39;à titre d&#39;exemple afin d&#39;illustrer les fonctionnalités des applications web de type Facebook.
 
-## Recommandations    {#recommendations}
+## Recommandations     {#recommendations}
 
 Les limitations suivantes sont des contraintes inhérentes à Facebook :
 
