@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition en sortie de l&#39;activité de **[!UICONTROL Gestion de contenu]** afin d&#39;enchaîner l&#39;exécution du workflow sur une nouvelle activité. Lorsque cette option est cochée, vous devez saisir le libellé de la transition.
 
-## Exemples   {#examples}
+## Exemples    {#examples}
 
 ### Automatiser la création et la diffusion d&#39;un contenu {#automating-content-creation-and-delivery}
 
