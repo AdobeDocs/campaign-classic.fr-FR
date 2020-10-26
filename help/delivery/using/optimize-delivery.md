@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '746'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
 Vous avez tout intérêt à mettre en place et à conserver de bons processus de gestion des quarantaines.
 
-Lorsque vous commencez à envoyer des emails sur une nouvelle plate-forme, vous pouvez utiliser une liste d’adresses qui ne sont pas entièrement qualifiées. Or l’envoi à des adresses non valides ou à des adresses pièges (boîtes mails créées dans le but de piéger les spammeurs) contribue à abaisser la réputation de la plate-forme. De bons processus de gestion des quarantaines aident à : maintenez la qualité de l&#39;adresse, évitez la liste bloquée des fournisseurs d&#39;accès internet et réduisez votre taux d&#39;erreur, accélérant les diffusions et le débit.
+Lorsque vous commencez à envoyer des emails sur une nouvelle plate-forme, vous pouvez utiliser une liste d’adresses qui ne sont pas entièrement qualifiées. Or l’envoi à des adresses non valides ou à des adresses pièges (boîtes mails créées dans le but de piéger les spammeurs) contribue à abaisser la réputation de la plate-forme. De bons processus de gestion des quarantaines permettent de conserver la qualité des adresses, d&#39;éviter la mise sur liste bloquée de la part des FAI et de réduire le taux d&#39;erreur, tout en augmentant la vitesse des diffusions et le débit.
 
 **Conseils**
 
