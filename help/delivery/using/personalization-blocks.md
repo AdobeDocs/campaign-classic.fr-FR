@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
    >Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici. ».
-* **[!UICONTROL Lien]** de désinscription : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
+* **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
 * **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule. Ce bloc doit être inséré dans le code source de la diffusion, dans les balises **`<script>...</script>`**.
 
    Dans l’exemple ci-dessous, la fonction est utilisée pour remplacer l’élément « My header » par « My new header » avec des lettres majuscules à chaque mot :
@@ -163,4 +163,4 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
 Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=fre_fr)
