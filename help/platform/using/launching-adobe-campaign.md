@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 74%
+ht-degree: 90%
 
 ---
 
@@ -92,21 +92,21 @@ Le menu **[!UICONTROL Aide > À propos...]** vous permet d’accéder aux infor
 
 * **numéro de version** de la console client Campaign et du serveur d’applications
 * **numéro de build** pour la console client Campaign et le serveur d’applications
-* un lien pour contacter le service à la clientèle Adobe
-* liens vers la Politique de confidentialité des Adobes, les Conditions d&#39;utilisation et la Politique sur les cookies
+* lien pour contacter l&#39;Assistance clientèle d&#39;Adobe
+* liens vers la Politique de confidentialité, les Conditions d&#39;utilisation et la Politique relative aux cookies d&#39;Adobe
 
 ![](assets/about-acc.png)
 
 Chaque fois que vous contactez l’équipe d’assistance clientèle d’Adobe, vous devez fournir le numéro de version et le numéro de version de la console client et du serveur d’applications Campaign.
 
-Si vous utilisez la version [](../../rn/using/gold-standard.md)Campaign Gold Standard, vous devez également partager les caractères SHA/1 qui s’affichent dans la zone **[!UICONTROL A propos]** . Par exemple, pour la version **Gold** Standard 10, le numéro de version indique la **version 9032@efd8a94**, comme illustré ci-dessous :
+Si vous utilisez la [version Campaign Gold Standard](../../rn/using/gold-standard.md), vous devez également partager les caractères SHA/1 qui s&#39;affichent dans la boîte de dialogue **[!UICONTROL À propos]**. Par exemple, pour la version Gold **Standard 10**, le numéro de build indique **build 9032@efd8a94**, comme illustré ci-dessous :
 
 ![](assets/about-acc-gs.png)
 
-Learn more about Gold Standard [in this article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
+Pour en savoir plus sur Gold Standard, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
 **Rubriques connexes** :
 
-* [Options de prise en charge de Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
-* [Distribution de logiciels](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html)
-* [Assistance aux Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Options de support Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
+* [Distribution logicielle](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html)
+* [Assistance Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
