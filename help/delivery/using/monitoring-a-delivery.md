@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2639'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Les différents statuts sont répertoriés sur [cette page](#delivery-statuses).
 >
 >Le lien **[!UICONTROL Afficher la page miroir de ce message...]** permet de visualiser, dans une nouvelle fenêtre, la page miroir du contenu de la diffusion sélectionnée dans la liste. La page miroir n&#39;est disponible que pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la section [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
 
-### Tracking      {#tracking-logs}
+### Tracking       {#tracking-logs}
 
 L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking sont mises à jour toutes les heures.
 
@@ -119,7 +119,7 @@ Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion sem
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
    * Messages mis en attente (message **[!UICONTROL Quotas atteints]**) : les quotas déclarés par les règles MX déclaratives définies dans Campaign ont été atteints. Pour plus d&#39;informations sur ce message, consultez [cette page](../../delivery/using/deliverability-faq.md). Pour en savoir plus sur les règles MX, reportez-vous à [cette page](../../delivery/using/technical-recommendations.md#mx-rules).
-   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential denylist.
+   * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et une mise sur liste bloquée éventuelle.
 
 * Un problème lié au système peut empêcher les serveurs d&#39;interagir ensemble : l&#39;ensemble du processus d&#39;envoi peut être ainsi ralenti. Vérifiez que les serveurs ne présentent aucun problème de mémoire ou de ressource qui peut impacter Campaign dans le processus de récupération des données de personnalisation par exemple.
 
@@ -163,7 +163,7 @@ Lors de l&#39;envoi d&#39;une diffusion, les statuts suivants peuvent s&#39;affi
   </tr> 
   <tr> 
    <td> Ignoré<br /> </td> 
-   <td> La diffusion n’a pas été envoyée au destinataire en raison d’une erreur liée à son adresse. Il était soit sur liste bloquée, soit mis en quarantaine, non fourni, soit sur duplicata. <br /> </td> 
+   <td> La diffusion n’a pas été envoyée au destinataire en raison d’une erreur liée à son adresse. Elle était soit sur liste bloquée, soit mise en quarantaine, soit non fournie, ou il s'agissait d'un doublon. <br /> </td> 
   </tr> 
   <tr> 
    <td> Envoyés<br /> </td> 
