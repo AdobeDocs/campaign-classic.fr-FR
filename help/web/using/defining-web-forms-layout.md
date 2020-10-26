@@ -11,9 +11,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
