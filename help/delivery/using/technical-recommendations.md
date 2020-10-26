@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2463'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Recommendations for defining an SPF record:
 
 ## Feedback loop {#feedback-loop}
 
-Une feedback loop fonctionne en déclarant au niveau du FAI une adresse email donnée pour une plage d’adresses IP utilisées pour l’envoi de messages. Le FAI enverra à cette boîte de réception, de la même manière que pour les messages bounce, ces messages qui sont signalés par les destinataires comme spam. La plateforme doit être configurée pour bloquer les futures diffusions aux utilisateurs qui se sont plaints. Il est important de ne plus les contacter même s’ils n’ont pas utilisé le lien d’opt-out approprié. C&#39;est sur la base de ces plaintes qu&#39;un FAI ajoutera une adresse IP à sa liste bloquée. Selon le FAI, un taux de plainte d’environ 1 % entraînera lle blocage d’une adresse IP.
+Une feedback loop fonctionne en déclarant au niveau du FAI une adresse email donnée pour une plage d’adresses IP utilisées pour l’envoi de messages. Le FAI enverra à cette boîte de réception, de la même manière que pour les messages bounce, ces messages qui sont signalés par les destinataires comme spam. La plateforme doit être configurée pour bloquer les futures diffusions aux utilisateurs qui se sont plaints. Il est important de ne plus les contacter même s’ils n’ont pas utilisé le lien d’opt-out approprié. C&#39;est en fonction de ces plaintes qu&#39;un FAI ajoutera une adresse IP à sa liste bloquée. Selon le FAI, un taux de plainte d’environ 1 % entraînera lle blocage d’une adresse IP.
 
 Un standard est en cours d’établissement pour définir le format des messages de feedback loop : l’[ARF (Abuse Feedback Reporting Format)](https://tools.ietf.org/html/rfc6650).
 
@@ -256,7 +256,7 @@ La certification IP est un programme de bonnes pratiques d’envoi destiné à s
 
 Actuellement, deux fournisseurs proposent une certification IP : Return Path et Certified Senders Alliance.
 
-Les expéditeurs certifiés sont ajoutés aux listes autorisées de courriel utilisées par les fournisseurs de boîtes aux lettres globaux et les sociétés de sécurité des courriels. Ces listes autorisées commerciales sont basées sur un système qui permet à l&#39;expéditeur de contourner complètement les filtres antispam ou de se voir attribuer des points incrémentiels lorsqu&#39;ils entrent dans le système.
+Les expéditeurs certifiés sont ajoutés à des listes autorisées d&#39;emails utilisées par les fournisseurs de messagerie et les entreprises de sécurité de messagerie à travers le monde. Ces listes autorisées commerciales sont basées sur un système qui permet à l&#39;expéditeur de contourner complètement les filtres anti-spam ou de se voir attribuer des points incrémentiels lorsqu&#39;il entre dans le système.
 
 Le programme [Return Path Certification](https://www.validity.com/products/returnpath/certification/) offre un certain nombre d’avantages, notamment :
 
