@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -129,7 +129,7 @@ Vous pouvez supprimer une ou plusieurs listes à partir de la liste des groupes 
 >
 >Lorsque vous supprimez une liste, les profils qui appartenaient à cette liste ne sont pas affectés. Les données de leur profil seront toutefois mises à jour.
 
-## Comment créer une liste de destinataire {#create-list-video}
+## Comment créer une liste de destinataires {#create-list-video}
 
 Une liste est un ensemble statique de destinataires qui peut être ciblé dans des actions de diffusion ou mis à jour pendant des opérations d’import ou lors de l’exécution d’un workflow. Une liste de destinataires est également appelée audience.
 
@@ -137,9 +137,9 @@ Découvrez comment créer une audience en configurant une liste de destinataires
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
+## Comment créer une liste de destinataires avec un workflow {#create-list-in-a-wf-video}
 
-Découvrez comment créer un processus afin de cible des destinataires et comment le rendre récurrent avant d’utiliser la liste dans une cible électronique.
+Découvrez comment créer un workflow pour cibler des destinataires, et comment le rendre récurrent avant d&#39;utiliser la liste dans une cible d&#39;email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
