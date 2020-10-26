@@ -11,9 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 728a95f8-46fe-49a8-a645-a0dd6eeb6615
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -151,6 +151,6 @@ Un descripteur de fonction spéciale est le bloc **« pass-through »** avec u
 
 Dans ce cas, l&#39;ajout d&#39;une fonction sert uniquement à rendre visible pour le client une fonction de la base de données qui n&#39;aurait pas été rendue disponible par défaut.
 
-## Exemples    {#examples}
+## Exemples     {#examples}
 
 D’autres exemples de fonctions sont disponibles dans le package prédéfini « xtkdatakitfuncList.xml ».
