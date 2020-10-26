@@ -11,9 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
 ht-degree: 100%
 
