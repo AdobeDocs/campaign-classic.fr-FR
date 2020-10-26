@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1460'
 ht-degree: 100%
 
@@ -477,7 +477,7 @@ Exemples:
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* Ajouter le test conditionnel **&lt;% if (recipient.language == &#39;fr&#39;)`{`%>** :
+* Ajouter le test conditionnel **&lt;% if (recipient.language == &#39;fr&#39;) `{` %>** :
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
