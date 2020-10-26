@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
 source-wordcount: '3203'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -113,7 +113,7 @@ Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Durée de diffusion des messages]** : durée maximum au-delà de laquelle la diffusion des messages est arrêtée (par défaut, 5 jours),
 * **[!UICONTROL Durée de validité des ressources en ligne]** : durée pendant laquelle seront conservées toutes les informations relatives au profil du destinataire afin de générer les pages miroir,
-* **[!UICONTROL Exclure les destinataires qui ne souhaitent plus être contactés]** : Lorsque cette option est sélectionnée, les destinataires de liste bloquée ne sont pas contactés.
+* **[!UICONTROL Exclure les destinataires qui ne souhaitent plus être contactés]** : lorsque cette option est sélectionnée, la diffusion ne sera pas effectuée sur les destinataires sur liste bloquée.
 * **[!UICONTROL Supprimer automatiquement les doublons]** : lorsque cette option est sélectionnée, la diffusion ne sera pas effectuée sur les adresses emails en doublon.
 
 ### Paramètres de reprise {#retry-parameters}
@@ -456,7 +456,7 @@ L&#39;attribut status peut prendre trois valeurs :
 
 * normal : comportement existant (sans synchronisation)
 
-* liste bloquée : L’URL est ajoutée à la liste bloquée si elle renvoie une erreur 404. The duration (in seconds) of the URL being in the denylist is defined by a **timeout** attribute whose default value is 60s.
+* liste bloquée : l&#39;URL est ajoutée à la liste bloquée si elle renvoie une erreur 404. La durée (en secondes) de l&#39;URL se trouvant dans la liste bloquée est définie par un attribut **timeout** dont la valeur par défaut est de 60 s.
 
 La configuration d&#39;usine de la synchronisation est :
 
