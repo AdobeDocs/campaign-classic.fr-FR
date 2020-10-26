@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
 source-wordcount: '7852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -573,7 +573,7 @@ Pour plus d&#39;informations, voir la section [Restreindre les commandes externe
  <tbody> 
   <tr> 
    <td> blacklistFile<br /> </td> 
-   <td> Path to the file containing the commands to add to the allowlist. <br /> </td> 
+   <td> Chemin d'accès au fichier contenant les commandes à ajouter à la liste autorisée. <br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
@@ -3080,7 +3080,7 @@ Pour plus d&#39;informations, voir la section [Sécurité et relais des pages dy
   </tr> 
   <tr> 
    <td> status<br /> </td> 
-   <td> Statut de la synchronisation d’une ressource publique (énumération). Possible values are 'normal' (normal execution), 'blacklist' (url added to denylist in case of error 404) and 'spare' (file upload on spare server if existing).<br /> </td> 
+   <td> Statut de la synchronisation d’une ressource publique (énumération). Les valeurs possibles sont 'normal' (exécution normale), 'liste bloquée' (URL ajoutée à la liste bloquée en cas d'erreur 404) et 'spare' (téléchargement du fichier sur les spare server si existant).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> normal<br /> </td> 
   </tr> 
