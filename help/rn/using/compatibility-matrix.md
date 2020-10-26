@@ -1,6 +1,6 @@
 ---
 title: Matrice de compatibilité
-description: Matrice de compatibilité des Campaign Classic
+description: Matrice de compatibilité Campaign Classic
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
