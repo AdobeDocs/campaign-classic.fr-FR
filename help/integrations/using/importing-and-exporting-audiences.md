@@ -11,9 +11,9 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: f26cc65a-76be-4b7a-bde3-d0cbe3eedaaf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
 ht-degree: 100%
 
