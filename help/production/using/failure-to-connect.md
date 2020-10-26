@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 493067fb-68f1-48b9-afaa-3127a847db83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Vérifiez les informations suivantes :
 
    * L&#39;intégration Adobe Campaign est-elle bien effectuée ?
 
-      Connectez-vous à l’URL **http(s)://`<urlserver>`/r/test**. Le serveur doit renvoyer le type de message suivant :
+      Connectez-vous à l’URL **http(s):// `<urlserver>`/r/test**. Le serveur doit renvoyer le type de message suivant :
 
       ```
       <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
