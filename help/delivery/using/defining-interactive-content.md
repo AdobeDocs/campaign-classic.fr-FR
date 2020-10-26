@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1587'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 Adobe Campaign permet de tester le nouveau format interactif [AMP for Email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
-Actuellement, avec AMP for Email, vous pouvez :
+Actuellement, avec AMP for Email, vous pouvez :
 * tester la diffusion des emails AMP à des adresses spécifiques correctement configurées ;
 * diffuser des emails AMP à des adresses Gmail, Outlook ou Mail.ru après enregistrement auprès des fournisseurs correspondants.
 
@@ -52,14 +52,14 @@ Pour plus d’informations sur le format d’email AMP, les spécifications et l
 ## Étapes clés d’utilisation d’AMP for Email avec Adobe Campaign {#key-steps-to-use-amp}
 
 Pour tester et envoyer un email AMP avec Adobe Campaign, procédez comme suit :
-1. Install the **[!UICONTROL AMP support]** package. Voir [Installation des packages standard de Campaign](../../installation/using/installing-campaign-standard-packages.md).
+1. Installez le package de **[!UICONTROL support AMP]**. Voir [Installation des packages standard de Campaign](../../installation/using/installing-campaign-standard-packages.md).
 1. Créez un email et concevez le contenu AMP dans Adobe Campaign. Voir [Créer du contenu d’email AMP avec Adobe Campaign](#build-amp-email-content).
 1. Veillez à respecter toutes les exigences en matière de diffusion des fournisseurs de messagerie qui prennent en charge le format AMP. Voir [Prérequis de diffusion AMP for Email](#amp-for-email-delivery-requirements).
 1. Lorsque vous définissez votre cible, assurez-vous de sélectionner les destinataires qui pourront afficher le format AMP. Voir [Cibler un email AMP](#targeting-amp-email).
 
    >[!NOTE]
    >
-   >Actuellement, vous ne pouvez diffuser des courriers électroniques AMP qu’à des adresses [de courriel](#testing-amp-delivery-for-selected-addresses) spécifiques (à des fins de test) ou après [enregistrement](#delivering-amp-emails-by-registering) auprès des clients de messagerie pris en charge.
+   >Actuellement, vous pouvez uniquement diffuser des emails AMP vers des [adresses électroniques spécifiques](#testing-amp-delivery-for-selected-addresses) (à des fins de test) ou après [enregistrement](#delivering-amp-emails-by-registering) auprès des clients de messagerie pris en charge.
 
 1. Envoyez votre email comme vous le feriez habituellement. Voir [Envoyer un email AMP](#sending-amp-email).
 
@@ -148,11 +148,11 @@ Vous pouvez également consulter les [Conseils et limites connues de Gmail](http
 
 ## Ciblage d’un email AMP {#targeting-amp-email}
 
-Actuellement, vous pouvez tester l’envoi d’un courrier électronique AMP en deux étapes :
+Actuellement, vous pouvez tester l&#39;envoi d&#39;un email AMP en deux étapes :
 
 1. Adobe Campaign vous permet de tester la diffusion d’un email dynamique piloté par AMP vers des adresses email sélectionnées correctement configurées, afin de vérifier son contenu et son comportement. Voir [Tester la diffusion d’un email AMP pour des adresses sélectionnées](#testing-amp-delivery-for-selected-addresses).
 
-1. Une fois testé, vous pouvez envoyer une diffusion ou une campagne dans le cadre de l’AMP pour le programme électronique en vous inscrivant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d’expéditeur soit ajouté à la liste autorisée. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
+1. Une fois testée, vous pouvez envoyer une diffusion ou une campagne dans le cadre du programme AMP for Email en vous enregistrant auprès du ou des fournisseurs de messagerie concernés pour que votre domaine d&#39;expéditeur soit ajouté à la liste autorisée. Voir [Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie](#delivering-amp-emails-by-registering).
 
 ### Tester la diffusion d’un email AMP pour des adresses sélectionnées {#testing-amp-delivery-for-selected-addresses}
 
@@ -162,7 +162,7 @@ Vous pouvez tester l’envoi de messages dynamiques d’Adobe Campaign vers des 
 >
 >Actuellement, seuls Gmail, Outlook et Mail.ru prennent en charge le test du format AMP.
 
-Pour Gmail et Outlook, vous devez d&#39;abord ajouter la ou les adresses d&#39;expéditeur que vous utilisez à la liste autorisée pour diffuser à partir d&#39;Adobe Campaign les comptes Gmail et Outlook que vous ciblez.
+En ce qui concerne Gmail et Outlook, vous devez d&#39;abord ajouter à la liste autorisée la ou les adresses d&#39;expéditeur que vous utilisez pour procéder à la diffusion depuis Adobe Campaign pour les comptes Gmail et Outlook ciblés.
 
 Pour cela :
 1. Vérifiez que l’option d’activation de l’e-mail est cochée par le ou les fournisseurs de messagerie appropriés.
@@ -176,7 +176,7 @@ Pour tester l’envoi d’un email AMP à une adresse Mail.ru, procédez comme i
 
 ### Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie{#delivering-amp-emails-by-registering}
 
-Vous pouvez tester la diffusion de courriers électroniques dynamiques en vous enregistrant auprès des fournisseurs de messagerie pris en charge afin que votre domaine d’expéditeur soit ajouté à la liste autorisée.
+Vous pouvez tester la diffusion d&#39;emails dynamiques en vous enregistrant auprès des fournisseurs de messagerie pris en charge afin que votre domaine d&#39;expéditeur soit ajouté à la liste autorisée.
 
 >[!NOTE]
 >
@@ -210,4 +210,4 @@ Si, par exemple, vous avez inclus une liste de produits dans votre email, lors d
 
 La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign Classic et présente son utilisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on&captions=fre_fr)
