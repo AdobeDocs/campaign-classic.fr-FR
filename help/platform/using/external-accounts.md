@@ -11,9 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2454'
 ht-degree: 100%
 
@@ -338,7 +338,7 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, v
 
 Pour plus d’informations sur cette configuration, consultez [cette page](../../integrations/using/configuring-ims.md).
 
-## Compte externe SFTP         {#sftp-external-account}
+## Compte externe SFTP          {#sftp-external-account}
 
 Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
 
