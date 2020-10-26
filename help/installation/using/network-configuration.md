@@ -1,6 +1,6 @@
 ---
 title: Configuration réseau
-description: Formation sur les directives de communication du système
+description: Découvrez les directives sur la communication du système
 page-status-flag: never-activated
 uuid: 17357170-7440-4603-bea6-2e4b9086ae72
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 639d2f42-e397-4694-942c-b2b8ad94ce9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
