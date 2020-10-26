@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Guide d'Adobe Campaign Classic
+user-guide-title: Guide d'Adobe Campaign Classic
 breadcrumb-title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing intercanaux offrant un important retour sur investissement marketing.
@@ -69,7 +69,7 @@ ht-degree: 98%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête         {#creating-queries}
+   + Créer une requête          {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -229,7 +229,7 @@ ht-degree: 98%
 + Reporting {#reporting}
    + Reporting dans Adobe Campaign {#reporting-in-adobe-campaign}
       + [Prise en main du reporting](reporting/using/about-adobe-campaign-reporting-tools.md)
-      + [Meilleures pratiques de reporting](reporting/using/best-practices.md)
+      + [Bonnes pratiques en matière de reporting](reporting/using/best-practices.md)
    + Accès aux rapports natifs {#accessing-built-in-reports}
       + [A propos des rapports natifs de Campaign](reporting/using/about-campaign-built-in-reports.md)
       + [Liste des rapports](reporting/using/list-of-reports.md)
@@ -425,7 +425,7 @@ ht-degree: 98%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle    {#monitoring}
+      + Contrôle  {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -581,10 +581,10 @@ ht-degree: 98%
    + Principes d&#39;architecture {#architecture-and-hosting-models}
       + [Architecture générale](installation/using/general-architecture.md)
       + Modèles d&#39;hébergement{#hosting-models-lp}
-         + [A propos des modèles d’hébergement](installation/using/hosting-models.md)
+         + [À propos des modèles d&#39;hébergement](installation/using/hosting-models.md)
          + [Modèle hybride](installation/using/hybrid-model.md)
          + [Modèle hébergé](installation/using/hosted-model.md)
-         + [Matrice des capacités](installation/using/capability-matrix.md)
+         + [Matrice des fonctionnalités](installation/using/capability-matrix.md)
    + Instructions de déploiement {#deployment-guidelines}
       + [Prérequis](installation/using/before-starting.md)
       + [Serveur de base de données](installation/using/database.md)
@@ -650,7 +650,7 @@ ht-degree: 98%
       + [Sauvegarde](production/using/backup.md)
       + [Restauration](production/using/restoration.md)
       + [Duplication d&#39;environnements](production/using/duplicating-environments.md)
-      + [Workflow de Nettoyage de la base](production/using/database-cleanup-workflow.md)
+      + [Workflow de nettoyage de la base de données](production/using/database-cleanup-workflow.md)
    + Mise à jour d’Adobe Campaign {#updating-adobe-campaign}
       + [Introduction](production/using/introduction.md)
       + [Réalisation d’un upgrade de build](production/using/build-upgrade.md)
