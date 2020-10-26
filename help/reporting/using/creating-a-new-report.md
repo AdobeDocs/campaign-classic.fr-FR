@@ -1,6 +1,6 @@
 ---
 title: Créer un nouveau rapport
-description: Découvrez les étapes clés pour créer un nouveau rapport
+description: Découvrez les étapes principales pour créer un nouveau rapport
 page-status-flag: never-activated
 uuid: dcea5c28-da09-4a31-a13c-c8995c6faa63
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -58,29 +58,29 @@ Les activités sont reliées les unes aux autres par des transitions, représent
 
 Pour construire votre rapport, selon sa nature et son contexte d&#39;utilisation, vous devez identifier les éléments utiles et modéliser leur enchaînement logique.
 
-1. Use the **[!UICONTROL Start]** activity to materialize the first process to be carried out to build the report. You can only use one of these activities per report.
+1. Utilisez l&#39;activité **[!UICONTROL Début]** pour matérialiser le premier traitement à effectuer pour construire le rapport. Vous ne pouvez positionner qu&#39;une seule activité de ce type dans un même rapport.
 
    Elle est obligatoire lorsque le diagramme contient une boucle.
 
-1. Add one or more **[!UICONTROL Query]** activities to collect data that is useful for building the report. Data can be collected either directly via a query on a schema of the database, or via an imported list or an existing Cube.
+1. Ajoutez un ou plusieurs activités **[!UICONTROL Requête]** pour collecter les données utiles à la construction du rapport. Les données peuvent être collectées directement via une requête sur un schéma de la base de données, ou au travers d&#39;une liste importée, ou via un Cube existant.
 
    Voir à ce sujet la section [Collecter les données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 
    Ces données seront affichées ou non dans le rapport, selon le paramétrage des pages.
 
-1. Place one or more **[!UICONTROL Page]** activities to define the graphical representation of the collected data. You can insert tables, charts, input fields, and condition the display of one or more pages, or elements of the page. The displayed content is fully configurable.
+1. Positionnez une ou plusieurs activités **[!UICONTROL Page]** pour définir la présentation graphique des données collectées. Vous pouvez y insérer des tableaux, graphiques, champs de saisie, et conditionner l&#39;affichage d&#39;une ou plusieurs pages, ou de certains éléments de la page. Le contenu affiché est entièrement paramétrable.
 
-   Voir à ce sujet la section [Eléments statiques](#static-elements).
+   Voir à ce sujet la section [Éléments statiques](#static-elements).
 
-1. Use a **[!UICONTROL Test]** activity to define the conditions for displaying or accessing data.
+1. Utilisez une activité **[!UICONTROL Test]** pour définir des conditions d&#39;affichage ou d&#39;accès à certaines données.
 
    Voir à ce sujet la section [Conditionner l&#39;affichage d&#39;une page](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display).
 
-1. If necessary, add personalized scripts via the **[!UICONTROL Script]** activity, for instance to calculate the name of a report, to filter the display of the result within a specific context, etc.
+1. Au besoin, ajoutez des scripts personnalisés via l&#39;activité **[!UICONTROL Script]**, par exemple pour calculer le nom d&#39;un rapport, filtrer l&#39;affichage du résultat dans un contexte précis, etc.
 
    Voir à ce sujet la section [Activité Script](../../reporting/using/advanced-functionalities.md#script-activity).
 
-1. Finally, you for easier reading of complex reports, you can insert one or more **[!UICONTROL Jump]** type activities. This lets you go from one activity to another without materializing the transition on the report. L&#39;activité **[!UICONTROL de redirection]** peut également être utilisée pour afficher un autre rapport.
+1. Enfin, vous pouvez simplifier la lisibilité des rapports complexes en y insérant une ou plusieurs activités de type **[!UICONTROL Saut]** : elles permettent de passer d&#39;une activité à l&#39;autre sans matérialiser la transition sur le rapport. L&#39;activité **[!UICONTROL Saut]** peut également être utilisée pour afficher un autre rapport.
 
    Voir à ce sujet la section [Activité Saut](../../reporting/using/advanced-functionalities.md#jump-activity).
 
