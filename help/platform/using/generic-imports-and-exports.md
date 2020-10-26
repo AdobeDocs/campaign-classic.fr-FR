@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ La procédure de création d&#39;un modèle de processus est présentée dans le
 
 >[!NOTE]
 >
->The native template **[!UICONTROL Import denylist]** is already configured to import a list of email addresses which were added to the denylist.
+>Le modèle natif **[!UICONTROL Importer la liste bloquée]** est déjà configuré pour importer une liste des adresses email ajoutées à la liste bloquée.
 > 
 >Les modèles **[!UICONTROL Nouvel import texte]** et **[!UICONTROL Nouvel export texte]** permettent de paramétrer un import ou un export en partant de zéro.
 
