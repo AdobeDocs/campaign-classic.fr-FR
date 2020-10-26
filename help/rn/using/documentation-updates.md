@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
 source-wordcount: '3768'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,11 +30,11 @@ Les modèles d’hébergement Campaign sur site, hébergés et hybrides sont mai
 
 La matrice des capacités Campaign par modèle d&#39;hébergement a été mise à jour et déplacée dans le guide d&#39;installation. [En savoir plus](../../installation/using/capability-matrix.md)
 
-La section Fonctionnalités avancées de Campaign Rapports a été améliorée afin d’expliquer en détail comment utiliser les paramètres d’URL et les variables dans les rapports personnalisés. [En savoir plus](../../reporting/using/advanced-functionalities.md)
+La section Fonctionnalités avancées du reporting de Campaign a été améliorée afin d&#39;expliquer en détail comment utiliser les paramètres d&#39;URL et les variables dans les rapports personnalisés. [En savoir plus](../../reporting/using/advanced-functionalities.md)
 
-La page des propriétés des rapports a été réorganisée et enrichie afin de faciliter la configuration. [En savoir plus](../../reporting/using/properties-of-the-report.md)
+La page des propriétés des rapports a été réorganisée et enrichie pour faciliter la configuration. [En savoir plus](../../reporting/using/properties-of-the-report.md)
 
-Une nouvelle note technique a été créée avec des détails sur la migration du protocole binaire hérité vers l’API du fournisseur APN basé sur HTTP/2. [En savoir plus](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+Une nouvelle note technique a été créée avec des détails sur la migration de l&#39;ancien protocole binaire vers l&#39;API du fournisseur de service APN basé sur HTTP/2. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
 
 ## Septembre 2020 {#september-2020}
 
@@ -95,7 +95,7 @@ La section Confidentialité et consentement a été améliorée avec des informa
 
 La page Gestion de la confidentialité dans Campaign Classic a été mise à jour avec des informations sur le champ « réglementation » qui est maintenant disponible lors de l&#39;utilisation de l’API permettant de configurer le processus de demande automatique d’accès à des informations personnelles. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD) – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Des informations ont été ajoutées sur les logs de sous-workflows et sur le comportement en cas d’erreur. [En savoir plus](../../workflow/using/sub-workflow.md)
 
@@ -380,7 +380,7 @@ Un nouvel article relatif à l&#39;utilisation du catalogue d&#39;offres d&#39;A
 
 La section activité Sous-workflow a été enrichie en y incorporant un exemple d&#39;utilisation. [En savoir plus](../../workflow/using/sub-workflow.md)
 
-La page de la matrice des [capacités hébergées et sur site du](../../installation/using/capability-matrix.md) Campaign Classic a été mise à jour avec des informations relatives au Cci électronique.
+The [Campaign Classic On-premise &amp; Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
 
 La documentation sur les messages transactionnels a été mise à jour avec une note concernant la publication de modèles. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
