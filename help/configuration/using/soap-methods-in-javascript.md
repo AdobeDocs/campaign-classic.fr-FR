@@ -11,9 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ for each (var w in res.workflow)
   logInfo(w.@internalName)
 ```
 
-## Exemples   {#examples}
+## Exemples    {#examples}
 
 * Requête sur la table des destinataires avec une opération &quot;get&quot; :
 
