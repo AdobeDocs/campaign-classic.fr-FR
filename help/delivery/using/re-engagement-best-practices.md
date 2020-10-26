@@ -1,7 +1,7 @@
 ---
-title: Mise en oeuvre
-seo-title: Mise en oeuvre
-description: Mise en oeuvre
+title: Mise en œuvre
+seo-title: Mise en œuvre
+description: Mise en œuvre
 seo-description: null
 page-status-flag: never-activated
 uuid: 883bad1c-c35b-4c48-9dca-c0cb947facb6
@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 853f26ad-d373-49a5-952e-4197ffc3d904
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Selon une étude Return Path, les campagnes de réengagement ont un taux d&#39;o
 ### Phase 1 {#phase-1}
 
 * La première étape consiste à identifier les abonnés qui ont une activité très faible d&#39;ouverture ou de clic ou qui n&#39;ont pas d&#39;activité du tout et à segmenter en conséquence ce groupe en fonction d&#39;un délai défini. Une règle de base consiste à examiner les abonnés qui n&#39;ont pas ouvert un email ou cliqué dessus au cours des 90 derniers jours. Ce délai peut toutefois varier en fonction de la nature de l&#39;entreprise (envoi saisonnier, par exemple).
-* Un autre point à garder à l&#39;esprit lors de la définition des délais est que les FSI et les sociétés de liste bloquée considèrent que l&#39;engagement se situe entre 1,5 et 1,8 ans. Il convient également de prendre en compte les activités comportementales telles que les achats et l’activité du site web, ou d’autres points de contact, comme les préférences pendant la phase d’inscription ou le premier point de contact.
+* Un autre point dont vous devez tenir compte lors de la définition des délais est que les FAI et les sociétés de liste bloquée considèrent que l&#39;engagement se situe entre 1,5 et 1,8 an. Il convient également de prendre en compte les activités comportementales telles que les achats et l’activité du site web, ou d’autres points de contact, comme les préférences pendant la phase d’inscription ou le premier point de contact.
 
 ### Phase 2 {#phase-2}
 
