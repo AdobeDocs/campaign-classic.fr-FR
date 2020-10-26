@@ -11,9 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 discoiquuid: d538f489-f1ae-4682-9c21-d0300bd42b26
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
