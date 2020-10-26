@@ -9,18 +9,18 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0b9a0714075474bf52c3eed78d45bcef25b44fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 
 # Propriétés du rapport{#properties-of-the-report}
 
-Vous pouvez entièrement personnaliser et configurer votre rapport en fonction de vos besoins. Pour ce faire, modifiez ses propriétés. Les propriétés du rapport sont accessibles via le bouton **[!UICONTROL Propriétés]** situé au-dessus du graphique de séquence d’activités.
+Vous pouvez entièrement personnaliser et configurer votre rapport en fonction de vos besoins. Pour ce faire, modifiez ses propriétés. Les propriétés du rapport sont accessibles via le bouton **[!UICONTROL Propriétés]** situé au-dessus du graphique de séquence d&#39;activités.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
@@ -28,32 +28,32 @@ Les propriétés générales sont décrites ci-dessous. Les fonctionnalités ava
 
 ## Propriétés générales {#overall-properties}
 
-Dans l&#39;onglet **[!UICONTROL Général]** des propriétés du rapport, vous pouvez modifier les paramètres répertoriés ci-dessous :
+Dans l&#39;onglet **[!UICONTROL Général]** des propriétés du rapport, vous pouvez modifier les paramètres répertoriés ci-dessous :
 
-* Libellé et nom interne du rapport. Le nom **** interne est utilisé dans l’URL finale du rapport. Il ne doit pas être modifié après la création du rapport.
+* Le libellé et le nom interne du rapport. Le **[!UICONTROL nom interne]** est utilisé dans l&#39;URL finale du rapport. Il ne doit pas être modifié après la création du rapport.
 
-* Le **dossier** des rapports est sélectionné lors de la création du rapport. Il est recommandé de créer un dossier dédié aux rapports personnalisés afin qu’ils ne soient pas mélangés aux rapports [](../../reporting/using/about-campaign-built-in-reports.md)intégrés.
+* Le **dossier** du rapport est sélectionné lors de la création du rapport. Il est recommandé de créer un dossier dédié aux rapports personnalisés afin qu&#39;ils ne soient pas mélangés aux [rapports natifs](../../reporting/using/about-campaign-built-in-reports.md).
 
-* L&#39; **Enregistrement** est sélectionné lors de la création du rapport. Pour modifier le tableau de données du rapport, cliquez sur l&#39;icône **[!UICONTROL Sélectionner le lien]** située à droite du champ Type **[!UICONTROL de]** Document.
+* L&#39;espace de **stockage** est sélectionné lors de la création du rapport. Pour modifier le tableau des données du rapport, cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** située à droite du champ **[!UICONTROL Type de document]**.
 
    ![](assets/s_ncs_advuser_report_properties_02.png)
 
-* Paramètres du **Contrôle d&#39;accès** . Ces paramètres sont décrits ci-dessous.
+* Paramètres du **contrôle d&#39;accès**. Ces paramètres sont décrits ci-dessous.
 
-## Controlling access to the report {#report-accessibility}
+## Contrôler l&#39;accès au rapport {#report-accessibility}
 
-Un rapport est accessible dans la console Adobe Campaign ou à l’aide d’un navigateur Web. Dans ce cas, il peut être nécessaire de configurer le contrôle d&#39;accès de rapports comme illustré ci-dessous.
+Il est possible d&#39;accéder à un rapport dans la console Adobe Campaign ou avec un navigateur web. Dans ce cas, il peut être nécessaire de configurer le contrôle d&#39;accès aux rapports comme illustré ci-dessous.
 
 ![](assets/s_ncs_advuser_report_properties_02b.png)
 
 Les options possibles sont les suivantes :
 
-* **[!UICONTROL Accès]** anonyme : cette option permet un accès illimité au rapport. Cependant, aucune manipulation n&#39;est possible.
+* **[!UICONTROL Accès anonyme]** : cette option permet un accès illimité au rapport. Cependant, aucune manipulation n&#39;est possible.
 
-   Les droits de l&#39;opérateur technique &quot;webapp&quot; sont utilisés pour afficher les éléments de rapport. En savoir plus dans [cette section](../../platform/using/access-management.md#default-operators).
+   Ce sont les droits de l&#39;opérateur technique &#39;webapp&#39; qui sont utilisés pour afficher les éléments du rapport. En savoir plus [dans cette section](../../platform/using/access-management.md#default-operators).
 
-* **[!UICONTROL Contrôle d&#39;accès]**: cette option permet aux opérateurs Adobe Campaign d’y accéder une fois qu’ils sont connectés.
-* **[!UICONTROL Compte]** spécifique : cette option vous permet d&#39;exécuter le rapport avec les droits de l&#39;opérateur sélectionné dans le champ **[!UICONTROL Opérateur]** .
+* **[!UICONTROL Contrôle d&#39;accès]** : cette option permet à un opérateur Adobe Campaign d&#39;y accéder, après connexion.
+* **[!UICONTROL Compte spécifique]** : permet d&#39;exécuter le rapport avec les droits de l&#39;opérateur sélectionné dans le champ **[!UICONTROL Opérateur]**.
 
 ## Gérer la localisation du rapport {#managing-report-localization}
 
@@ -67,7 +67,7 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 
 >[!NOTE]
 >
->Pour en savoir plus sur la localisation des pages Web à Campaign, consultez [cette section](../../web/using/translating-a-web-form.md).
+>Pour en savoir plus sur la localisation des pages web dans Campaign, consultez [cette section](../../web/using/translating-a-web-form.md).
 
 ## Personnaliser le rendu HTML {#personalizing-html-rendering}
 
