@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 discoiquuid: 181fcb70-9394-4091-93df-92c39273ec3d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
 ht-degree: 100%
 
