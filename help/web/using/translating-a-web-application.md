@@ -11,9 +11,9 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 328e5b2f-8596-4eda-8ac5-57cb29bfb691
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
 ht-degree: 100%
 
