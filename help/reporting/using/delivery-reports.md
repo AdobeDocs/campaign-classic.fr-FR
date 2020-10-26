@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1638'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Ce rapport présente l&#39;ensemble des informations principales relatives à la
 Cette section comporte deux indicateurs :
 
 * **[!UICONTROL Population initiale]** : Nombre total de destinataires auxquels la diffusion est destinée.
-* **[!UICONTROL Messages rejetés par la règle]** : Nombre d&#39;adresses ignorées pendant l&#39;analyse lors de l&#39;application des règles de typologie : adresse manquante, mise en quarantaine, sur liste bloquée, etc. Pour plus d’informations sur les règles de typologie, consultez cette [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejetés par règle]** : nombre d&#39;adresses ignorées pendant l&#39;analyse lors de l&#39;application des règles de typologie : adresse manquante, mise en quarantaine, ajoutée à la liste bloquée, etc. Pour plus d’informations sur les règles de typologie, consultez cette [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes d&#39;exclusion]**
 
