@@ -11,9 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1976'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 >[!NOTE]
 >
 >Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner
->les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
+les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 
