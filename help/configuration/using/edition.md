@@ -11,9 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 discoiquuid: 820be231-af76-44ce-8f4d-cd5eae1eb169
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
