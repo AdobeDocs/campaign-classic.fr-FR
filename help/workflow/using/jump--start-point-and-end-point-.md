@@ -11,9 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 
