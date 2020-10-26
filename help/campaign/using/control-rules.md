@@ -11,9 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: be037a80-3f94-465c-ba7d-ae7d50f70e36
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
 ht-degree: 100%
 
