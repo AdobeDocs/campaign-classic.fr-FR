@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
 source-wordcount: '3615'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La section ci-dessous décrit les configurations côté serveur qui peuvent êtr
 >
 >Ces configurations doivent être exécutées par les administrateurs et uniquement pour les modèles d’hébergement **On-premise.**
 >
->Pour les déploiements **hébergés**, les paramètres côté serveur peuvent uniquement être configurés par Adobe. Cependant, certains paramètres peuvent être configurés dans le Panneau de Contrôle (par exemple, la gestion des listes autorisées IP ou les autorisations d’URL).
+>Pour les déploiements **hébergés**, les paramètres côté serveur peuvent uniquement être configurés par Adobe. Cependant, certains paramètres peuvent être configurés dans le panneau de contrôle (par exemple, la gestion des listes autorisées d&#39;adresses IP ou les autorisations d&#39;URL).
 
 Pour plus d’informations, consultez les sections suivantes :
 
@@ -355,9 +355,9 @@ Avec les modèles d’hébergement **Hybride** et **On-premise** , l’administr
 
 Il existe trois modes de protection des connexions :
 
-* **Blocage**: toutes les URL qui n’appartiennent pas à la liste autorisée sont bloquées, avec un message d’erreur. Il s’agit du mode par défaut après un postupgrade.
-* **Permissive**: toutes les URL qui n’appartiennent pas à la liste autorisée sont autorisées.
-* **Avertissement**: toutes les URL qui n’appartiennent pas à la liste autorisée sont autorisées, mais l’interprète JS émet un avertissement afin que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
+* **Blocage** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d&#39;erreur s&#39;affiche. Il s&#39;agit du mode par défaut après un postupgrade.
+* **Permissif** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées.
+* **Avertissement** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l&#39;interpréteur JS émet un avertissement pour que l&#39;administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -369,9 +369,9 @@ Il existe trois modes de protection des connexions :
 
 >[!IMPORTANT]
 >
->Par défaut, le client des nouveaux clients utilise le **mode de blocage**. S’ils doivent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
+>Par défaut, le client des nouveaux clients utilise le **mode de blocage**. S&#39;ils ont besoin d&#39;autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l&#39;ajouter à la liste autorisée.
 >
->Les clients existants provenant d’une migration peuvent utiliser pendant un certain temps le **mode d’avertissement**. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL. Once the list of authorized URLs defined, they should contact their administrator to add the URLs to the allowlist and activate the **blocking mode**.
+>Les clients existants provenant d&#39;une migration peuvent utiliser pendant un certain temps le **mode d&#39;avertissement**. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL. Une fois la liste des URL autorisées définie, ils doivent contacter leur administrateur pour ajouter les URL à la liste autorisée et activer le **mode de blocage**.
 
 ## Sécurité et relais des pages dynamiques {#dynamic-page-security-and-relays}
 
