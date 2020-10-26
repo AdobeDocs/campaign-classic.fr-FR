@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2491'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Lorsqu&#39;un message (email, SMS, notification push) ne peut pas être envoyé 
 
 Une fois un message envoyé, les logs de diffusion permettent de consulter le statut de la diffusion pour chaque profil ainsi que le type d&#39;échec et la raison associés.
 
-Les messages peuvent également être exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est en liste bloquée. Les messages exclus sont répertoriés dans le tableau de bord de la diffusion.
+Les messages peuvent être également exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est placé sur liste bloquée. Les messages exclus sont répertoriés dans le tableau de bord de la diffusion.
 
 **Rubriques connexes :**
 
@@ -40,7 +40,7 @@ Les messages peuvent également être exclus pendant la préparation de la diffu
 * [Statut En échec](../../delivery/using/monitoring-a-delivery.md#failed-status)
 * [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)
 
-## Types de diffusion en échec et raisons     {#delivery-failure-types-and-reasons}
+## Types de diffusion en échec et raisons      {#delivery-failure-types-and-reasons}
 
 Trois types d&#39;erreurs sont liés à un message en échec. Chaque type d&#39;erreur détermine si une adresse est mise en quarantaine. Voir à ce propos la section [Conditions de mise en quarantaine d&#39;une adresse](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
@@ -86,7 +86,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
    <td> Adresse placée sur la liste bloquée </td> 
    <td> Hard </td> 
    <td> 8 </td> 
-   <td> L’adresse a été ajoutée à la liste bloquée au moment de l’envoi. Cet état est utilisé pour importer des données à partir de listes externes et de systèmes externes dans la liste Quarantaine d’Adobe Campaign.<br /> </td> 
+   <td> L'adresse a été ajoutée à la liste bloquée au moment de l'envoi. Cet état est utilisé pour importer des données à partir de listes externes et de systèmes externes dans la liste Quarantaine d’Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adresse témoin </td> 
@@ -181,7 +181,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
  </tbody> 
 </table>
 
-## Reprises après une diffusion temporairement en échec     {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec      {#retries-after-a-delivery-temporary-failure}
 
 Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
 
@@ -193,7 +193,7 @@ Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de 
 
 La configuration par défaut permet cinq reprises à des intervalles d’une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [cette section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
-## Erreurs synchrones et asynchrones     {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones      {#synchronous-and-asynchronous-errors}
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
@@ -204,7 +204,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
    >
    >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   La [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs sont en liste bloquée même s’ils n’ont pas cliqué sur le lien de la désinscription. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
+   La [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
 
    >[!NOTE]
    >
@@ -214,7 +214,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
 
 La plateforme Adobe Campaign permet de gérer les échecs d&#39;envoi d&#39;email via la fonctionnalité des mails rebonds. Lorsqu&#39;un email ne peut pas être délivré à son destinataire, le serveur de messagerie distant renvoie automatiquement un message d&#39;erreur (mail rebond) vers une boîte email technique réservée à cet usage. Les messages d&#39;erreur sont relevés par la plateforme Adobe Campaign et qualifiés par le processus inMail afin d&#39;enrichir la liste des règles de gestion des emails.
 
-### Qualification des emails bounce     {#bounce-mail-qualification}
+### Qualification des emails bounce      {#bounce-mail-qualification}
 
 Lorsque l&#39;envoi d&#39;un email échoue, le serveur de diffusion Adobe Campaign reçoit un message d&#39;erreur de la part du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est constituée à partir des chaînes contenues dans le message renvoyé par le serveur distant. A chaque message d&#39;erreur sont attribués un type et une raison d&#39;échec.
 
