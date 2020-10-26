@@ -11,9 +11,9 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: 12b2d22b-ac6d-4ddd-a8cb-57bc56df4281
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
 ht-degree: 100%
 
