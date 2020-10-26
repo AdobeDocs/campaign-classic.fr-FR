@@ -11,9 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
@@ -63,4 +63,4 @@ Une diffusion (au fil de l’eau) crée une diffusion et des logs de diffusion U
 
 Cette vidéo montre comment configurer une diffusion (au fil de l’eau) avec une requête incrémentale.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=fre_fr)
