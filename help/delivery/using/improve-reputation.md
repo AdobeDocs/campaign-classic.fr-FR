@@ -9,18 +9,18 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Amélioration de votre réputation{#improve-reputation}
 
-Pour éviter d’excéder vos destinataires, supprimez les adresses email dupliquées de votre cible. Cette étape protège votre réputation d’expéditeur et assure une bonne gestion des quarantaines. Adobe Campaign offre les outils nécessaires pour mettre en oeuvre ces recommandations et éviter le risque d&#39;être ajouté à la liste bloquée par le FAI.
+Pour éviter d’excéder vos destinataires, supprimez les adresses email dupliquées de votre cible. Cette étape protège votre réputation d’expéditeur et assure une bonne gestion des quarantaines. Adobe Campaign dispose des outils nécessaires pour mettre en œuvre ces recommandations et éviter le risque d&#39;être ajouté à une liste bloquée par les FAI.
 
 Pour éviter le plus possible l’existence de doublons, les éléments suivants doivent être impérativement vérifiés :
 
