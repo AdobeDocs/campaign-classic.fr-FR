@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 8dfc5e7c-c762-46ba-bbda-a7251354cb47
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
