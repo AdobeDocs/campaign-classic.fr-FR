@@ -9,18 +9,18 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d65e6f48bd84a2342895beca4a4ac184b57bf7c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Dernière version{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version** du Panneau de Contrôle d’octobre avec configuration de domaine utilisant des CNAME et de nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
