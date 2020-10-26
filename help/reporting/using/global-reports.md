@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2388'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -308,4 +308,4 @@ Le nombre d&#39;ouvertures correspond au nombre total de messages ouverts. Les e
 
 >[!NOTE]
 >
->Les noms des navigateurs et des systèmes d’exploitation font partie des informations envoyées par l’agent utilisateur du navigateur auquel le message a été ouvert. Adobe Campaign détermine le type de périphérique en utilisant ses informations sur le périphérique.
+>Les noms des navigateurs et des systèmes d&#39;exploitation font partie des informations envoyées par l&#39;agent utilisateur du navigateur vers lequel le message a été ouvert. Adobe Campaign détermine le type d&#39;appareil en utilisant ses informations sur l&#39;appareil.
