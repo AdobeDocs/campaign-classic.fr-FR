@@ -11,9 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 13b72aa1-de40-4548-835b-97e765e04e95
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -106,6 +106,6 @@ Identifiant du contenu à utiliser, si l&#39;option **[!UICONTROL Spécifié par
 
    Nom complet du fichier généré, si l&#39;action sélectionnée est **[!UICONTROL Générer]**.
 
-## Exemples   {#examples}
+## Exemples    {#examples}
 
 Des exemples sont proposés dans cette [section](../../delivery/using/automating-via-workflows.md#examples).
