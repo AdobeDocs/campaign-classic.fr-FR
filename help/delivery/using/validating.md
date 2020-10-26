@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 discoiquuid: c363a7cf-81a5-4c02-a021-b822eeeadd03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 
