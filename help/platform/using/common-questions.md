@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Vous trouverez la liste de tous les systèmes et composants pris en charge dans 
 
 Vous pouvez accéder aux dernières notes de mise à jour de Campaign Classic [sur cette page](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html).
 
-## 9. What is the procedure for domain configuration? {#what-is-the-procedure-for-domain-delegation-}
+## 9. Quelle est la procédure pour la configuration de domaine ?{#what-is-the-procedure-for-domain-delegation-}
 
 Un sous-domaine est une division de votre domaine qui peut être utilisée pour isoler vos marques ou divers types de trafic (messages transactionnels, informations marketing, etc.).
 Adobe prend en compte le système DNS (Domain Name System) pour la diffusion email, ce qui permet au client de conserver son image de marque en utilisant un alias DNS avec ses noms de domaine. Adobe peut ainsi mettre en place de manière autonome toutes les bonnes pratiques techniques qui lui permettent d&#39;optimiser la délivrabilité lors de l&#39;envoi des emails.
