@@ -9,9 +9,9 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b04d802ce1041aecbb60aeeabbd35b1d78c2451d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2628'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
-### Utiliser les modèles d’import       {#using-import-templates}
+### Utiliser les modèles d’import        {#using-import-templates}
 
 La plupart des workflows d&#39;import doivent contenir les activités suivantes : **[!UICONTROL Chargement (fichier)]**, **[!UICONTROL Enrichissement]**, **[!UICONTROL Partage]**, **[!UICONTROL Déduplication]**, **[!UICONTROL Mise à jour de données]**.
 
@@ -66,7 +66,7 @@ Ne partez pas de l’hypothèse selon laquelle les données entrantes sont cohé
 
 Un exemple de modèle d’import est disponible dans la section [Configurer un import récurrent](#setting-up-a-recurring-import).
 
-### Utiliser des formats de fichiers plats     {#using-flat-file-formats}
+### Utiliser des formats de fichiers plats      {#using-flat-file-formats}
 
 Le format le plus efficace pour les imports est le fichier plat. Les fichiers plats peuvent être importés en masse au niveau de la base de données.
 
@@ -115,7 +115,7 @@ Les imports complets sont réservés au chargement initial.
 
 Les données doivent être importées à l&#39;aide de la gestion des données et non de JavaScript.
 
-### Maintenir la cohérence     {#maintaining-consistency}
+### Maintenir la cohérence      {#maintaining-consistency}
 
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
