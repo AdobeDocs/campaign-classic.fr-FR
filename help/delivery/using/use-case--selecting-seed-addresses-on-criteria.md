@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: fa8aab62-e182-4388-aa23-c255b0dbd42e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
 ht-degree: 100%
 
