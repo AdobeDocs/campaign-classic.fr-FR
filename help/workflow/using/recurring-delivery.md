@@ -11,9 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fo
 
 Cette vidéo explique comment configurer une diffusion récurrente et une activité Planificateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12&captions=fre_fr)
 
 >[!NOTE]
 >
