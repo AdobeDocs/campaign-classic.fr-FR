@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e1896ac4ccd1099bd50e279762c2fbff5cd8eba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Les messages de confirmation sont adressés via un modèle de diffusion dédié,
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Comme les destinataires de cette diffusion n&#39;ont pas confirmé leur approbation, ils sont toujours sur la liste bloquée de la base de données. Pour qu’ils puissent recevoir cette communication, vous devez autoriser les diffusions basées sur ce modèle à envoyer aux destinataires de cible en liste bloquée.
+1. Comme les destinataires de cette diffusion n&#39;ont pas confirmé leur approbation, ils sont toujours sur la liste bloquée de la base de données. Pour qu&#39;ils puissent recevoir cette communication, vous devez autoriser les diffusions basées sur ce modèle pour les destinataires cibles qui se trouvent sur la liste bloquée.
 
-   Pour cela, cliquez sur l’onglet **[!UICONTROL Exclusions]**.
+   Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Exclusions]**.
 
-1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted]** option.
+1. Cliquez sur le lien **[!UICONTROL Editer...]** et désélectionnez l&#39;option **[!UICONTROL Exclut les destinataires qui ne souhaitent plus être contactés]**.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -109,7 +109,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. Son contenu doit être le suivant :
+   La première activité **[!UICONTROL Script]** ajoutera des destinataires à la liste bloquée jusqu&#39;à ce qu&#39;ils confirment leur abonnement à la newsletter. Son contenu doit être le suivant :
 
    ```
    ctx.recipient.@blackList=1
@@ -172,7 +172,7 @@ Ainsi, l’inscription à la newsletter est réalisée selon les étapes suivant
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
+   À cette étape, l&#39;utilisateur est ajouté dans la base de données Adobe Campaign, dans le dossier **[!UICONTROL Temp]**, et son profil est placé sur la liste bloquée jusqu&#39;à ce qu&#39;il valide son inscription à l&#39;aide de l&#39;email.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -186,7 +186,7 @@ Ainsi, l’inscription à la newsletter est réalisée selon les étapes suivant
 
    Dans Adobe Campaign, le profil de l’utilisateur est mis à jour :
 
-   * ils ne sont plus en liste bloquée,
+   * il n&#39;est plus sur la liste bloquée,
    * il est abonné au service d’information.
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
