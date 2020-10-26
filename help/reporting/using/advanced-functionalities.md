@@ -9,38 +9,38 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 
 # Fonctionnalités avancées{#advanced-functionalities}
 
-En tant qu’utilisateur technique, en plus des propriétés [](../../reporting/using/properties-of-the-report.md)générales, vous pouvez tirer parti de fonctionnalités avancées pour configurer vos rapports, telles que :
+En tant qu&#39;utilisateur technique, en plus des [propriétés générales](../../reporting/using/properties-of-the-report.md), vous pouvez tirer parti de fonctionnalités avancées pour configurer vos rapports, telles que :
 
-* Créez des requêtes complexes pour traiter les données dans une activité de **script** . [En savoir plus](#script-activity)
+* Créer des requêtes complexes pour traiter les données dans une activité **Script**. [En savoir plus](#script-activity)
 
-* Ajoutez un script externe à exécuter côté serveur ou client. [En savoir plus](#external-script)
+* Ajouter un script externe à exécuter côté serveur ou côté client. [En savoir plus](#external-script)
 
-* Appelez un rapport avec une **activité de vidage** . [En savoir plus](#calling-up-another-report)
+* Appeler un rapport avec une activité **Saut**. [En savoir plus](#calling-up-another-report)
 
-* Ajoutez un paramètre d’URL à un rapport pour le rendre plus accessible. [En savoir plus](#calling-up-another-report)
+* Ajouter un paramètre d&#39;URL à un rapport pour le rendre plus accessible. [En savoir plus](#calling-up-another-report)
 
-* Ajoutez les variables à utiliser dans le contexte du rapport. [En savoir plus](#adding-variables)
+* Ajouter les variables à utiliser dans le contexte du rapport. [En savoir plus](#adding-variables)
 
 ## Utilisation de scripts {#adding-a-script}
 
 ### Scripts externes de référence {#external-script}
 
-Vous pouvez référencer des codes JavaScript qui seront exécutés côté client et/ou serveur lorsque la page du rapport sera appelée.
+Vous pouvez référencer des codes JavaScript qui seront exécutés côté client et/ou côté serveur lors de l&#39;appel de la page du rapport.
 
 Pour cela :
 
-1. Edit the [report properties](../../reporting/using/properties-of-the-report.md) and click the **[!UICONTROL Scripts]**.
+1. Éditez les [propriétés du rapport](../../reporting/using/properties-of-the-report.md) et cliquez sur l&#39;onglet **[!UICONTROL Scripts]**.
 1. Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez le script à référencer.
 1. Choisissez ensuite le mode d&#39;exécution.
 
@@ -48,9 +48,9 @@ Pour cela :
 
    ![](assets/reporting_custom_js.png)
 
-Pour une exécution normale côté client, les scripts référencés doivent être écrits en JavaScript et doivent être compatibles avec les navigateurs courants. Voir à ce propos [cette section](../../web/using/web-forms-answers.md).
+Les scripts référencés doivent être rédigés en Javascript et être compatibles avec les navigateurs courants afin d&#39;assurer leur bonne exécution côté client. Voir à ce propos [cette section](../../web/using/web-forms-answers.md).
 
-### Adding a Script activity {#script-activity}
+### Ajout d&#39;une activité Script {#script-activity}
 
 Lors de la [conception de votre rapport](../../reporting/using/creating-a-new-report.md#modelizing-the-chart), utilisez l&#39;activité **[!UICONTROL Script]** pour traiter les données et créer facilement des requêtes complexes qui n&#39;activent pas le langage SQL. Vous pouvez saisir directement votre requête dans la fenêtre de script.
 
@@ -66,11 +66,11 @@ Si vous souhaitez créer un historique de votre rapport, vous devez rajouter la 
 if( ctx.@_historyId.toString().length == 0 )
 ```
 
-Sinon, seules les données actives s’afficheront.
+Dans le cas contraire, seules les données en cours seront affichées.
 
-## Ajouter un paramètre d’URL {#defining-additional-settings}
+## Ajout d&#39;un paramètre d&#39;URL {#defining-additional-settings}
 
-The **[!UICONTROL Parameters]** tab of the [report properties](../../reporting/using/properties-of-the-report.md) lets you define additional settings for the report: these settings will be passed into the URL during the call up.
+L&#39;onglet **[!UICONTROL Paramètres]** des [propriétés du rapport](../../reporting/using/properties-of-the-report.md) permet de définir des paramètres supplémentaires pour le rapport : ils seront passés sur l&#39;URL lors de l&#39;appel.
 
 >[!CAUTION]
 >
@@ -112,13 +112,13 @@ Pour consulter la définition d&#39;une variable, sélectionnez-la et cliquez su
 
 ![](assets/s_ncs_advuser_report_properties_10.png)
 
-## Cas d’utilisation : utilisation de variables et de paramètres dans un rapport
+## Cas pratique : utilisation de variables et de paramètres dans un rapport
 
 Dans l&#39;exemple vidéo ci-dessous, vous apprendrez comment ajouter un paramètre &quot;_type&quot; pour créer différentes vues d&#39;un rapport, en fonction de la valeur de cet attribut.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&amp;ref=helpx.adobe.com)
 
 
-## Appeler un autre rapport {#calling-up-another-report}
+## Appel d&#39;un autre rapport {#calling-up-another-report}
 
-A **Jump** activity is like a transition without an arrow: it lets you go from one activity to another or access another report.
+Une activité **Saut** est comme une transition sans flèche : elle permet de passer d&#39;une activité à une autre ou d&#39;accéder à un autre rapport.
