@@ -11,9 +11,9 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1261'
 ht-degree: 100%
 
@@ -142,6 +142,7 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >* Nouvelle fenêtre (_blank)
 >* Fenêtre courante (_self)
 >* Comportement par défaut du navigateur
+
 >
 
 
@@ -207,8 +208,9 @@ Les options disponibles sont les suivantes :
 >[!NOTE]
 >
 >* Icône **Supprimer** : supprime le bloc et tout son contenu.
->
->* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
+   >
+   >
+* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
 
 
 ## Gestion des images et animations {#managing-images-and-animations}
