@@ -1,6 +1,6 @@
 ---
-title: Envoyer un email avec Adobe Campaign Classic
-description: En savoir plus sur les paramètres de diffusion de messagerie
+title: Envoyer un email avec Adobe Campaign Classic
+description: En savoir plus sur les paramètres de diffusion Email
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,25 +29,25 @@ Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion
 
 Les sections ci-dessous détaillent les paramètres spécifiques à la diffusion des emails.
 
-## Email BCC {#archiving-emails}
+## Email Cci {#archiving-emails}
 
-Adobe Campaign vous permet de stocker des emails sur un système externe - via Cci - en ajoutant simplement une adresse email en Cci à la cible de vos messages. Une fois l&#39;option activée, une copie exacte de tous les messages envoyés sera conservée pour cette diffusion.
+Adobe Campaign permet de stocker des emails sur un système externe - via Cci - en ajoutant simplement une adresse email en Cci à la cible de vos messages. Une fois l&#39;option activée, une copie exacte de tous les messages envoyés sera conservée pour cette diffusion.
 
-Pour plus d&#39;informations sur la configuration du Cci électronique et les meilleures pratiques, consultez [cette section](../../installation/using/email-archiving.md).
+Pour plus d&#39;informations sur les bonnes pratiques et la configuration de la fonctionnalité Email Cci, consultez [cette section](../../installation/using/email-archiving.md).
 
 >[!NOTE]
 >
->La carte de crédit à l&#39;exportation par courrier électronique est une fonctionnalité facultative. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l’activer.
+>Email Cci est une fonctionnalité facultative. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
 
-Lors de la création d’une diffusion ou d’un modèle de diffusion, la fonction de contrôle de compte d’accès par courriel n’est pas activée par défaut. Vous devez l’activer manuellement au niveau de la diffusion de courriel ou du modèle de diffusion.
+Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, la fonctionnalité Email Cci n&#39;est pas activée par défaut. Vous devez l&#39;activer manuellement au niveau de la diffusion email ou du modèle de diffusion.
 
-Pour activer le Cci électronique pour un modèle de diffusion de courrier électronique, procédez comme suit :
+Pour activer la fonctionnalité Email Cci pour un modèle de diffusion email, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** ou **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Sélectionnez la diffusion de votre choix ou dupliquez le modèle d&#39;usine **Diffusion email**, puis sélectionnez le modèle dupliqué.
 1. Cliquez sur le bouton **Propriétés**.
 1. Sélectionnez l&#39;onglet **[!UICONTROL Diffusion]**.
-1. Cochez l’option **Courrier électronique Cci** . Une copie de tous les messages envoyés pour chaque diffusion basée sur ce modèle sera envoyée à l&#39;adresse de courrier électronique du Cci qui a été configurée.
+1. Cochez l&#39;option **Email Cci**. Une copie de tous les messages envoyés pour chaque diffusion basée sur ce modèle sera envoyée à l&#39;adresse électronique en Cci qui a été configurée.
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 
