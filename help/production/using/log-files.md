@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -68,4 +68,4 @@ Vous pouvez toutefois conserver des fichiers plus volumineux. Pour activer cette
 
 Si vous souhaitez un niveau de logs plus élevé, vous pouvez lancer les modules Adobe Campaign avec le paramètre **-verbose** :
 
-**nlserver start`<MODULE>`@`<INSTANCE>`-verbose**
+**nlserver start `<MODULE>`@`<INSTANCE>` -verbose**
