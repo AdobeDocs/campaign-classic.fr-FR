@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
 ht-degree: 100%
 
