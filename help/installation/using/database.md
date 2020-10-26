@@ -1,6 +1,6 @@
 ---
-title: Recommandations de la base de données Campaign Classic
-description: Recommandations de base de données
+title: Recommandations à propos de la base de données Campaign Classic
+description: Recommandations à propos de la base de données
 page-status-flag: never-activated
 uuid: b318365c-8846-4c1d-b5f7-ece55fb8c4af
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Voir également la section [Couches d’accès à la base de données](../../ins
 
 Le client natif doit être installé sur les serveurs applicatifs Adobe Campaign.
 
-Vous pouvez rechercher le client natif sur le serveur via le panneau de configuration du pilote ODBC, sous **SQL Server Native Client 11.0**.
+Vous pouvez rechercher le client natif sur le serveur via le panneau de configuration du pilote ODBC, sous **SQL Server Native Client 11.0**.
 
-La DLL d&#39;accès suivante doit être présente : **sqlncli11.dll**.
+La DLL d&#39;accès suivante doit être présente : **sqlncli11.dll**.
 
 Les DLL d&#39;accès sont disponibles sur le site de Microsoft.
 
