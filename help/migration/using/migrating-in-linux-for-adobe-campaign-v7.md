@@ -11,9 +11,9 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: 8f6519e8-5c8d-4974-b193-a9f1cf78b3a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
 ht-degree: 100%
 
@@ -272,7 +272,6 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       ```
       rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
-
    >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
@@ -320,9 +319,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    >[!NOTE]
    >
-   >Ces commandes permettent de créer le système de fichiers interne d&#39;Adobe Campaign v6 : répertoire **conf** (avec les fichiers **config-default.xml** et
-
-**serverConf.xml**), répertoire **var**.
+   >Ces commandes permettent de créer le système de fichiers interne d&#39;Adobe Campaign v6 : répertoire **conf** (avec les fichiers **config-default.xml** et **serverConf.xml**), répertoire **var**.
 
 1. Effectuez une copie (par écrasement), depuis le dossier de sauvegarde **nl5.back**, des fichiers de configuration et des sous-dossiers de chaque instance. Connectez-vous en tant que **neolane** et exécutez la commande suivante :
 
@@ -402,7 +399,6 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-
    >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
@@ -481,7 +477,6 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-
    >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
