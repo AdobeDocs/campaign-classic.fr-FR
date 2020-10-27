@@ -9,9 +9,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
-translation-type: ht
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Par défaut, le workflow **[!UICONTROL Nettoyage de la base]** est paramétré p
 
 ![](assets/ncs_cleanup_scheduler.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour que le workflow **[!UICONTROL Nettoyage de la base]** puisse se lancer à la date et heure définies dans le planificateur, le moteur de workflow (wfserver) doit être démarré. Si ce n&#39;est pas le cas, le nettoyage de la base se déclenchera au prochain démarrage du moteur de workflow.
 
@@ -84,7 +84,7 @@ L&#39;ensemble des tâches exécutées par le workflow **[!UICONTROL Nettoyage d
 
 À la date et à l’heure définies dans le planificateur de workflow (voir [Le planificateur](#the-scheduler)), le moteur de workflow lance le processus de nettoyage de la base. Le Nettoyage de la base se connecte à la base de données et exécute les tâches dans l’ordre indiqué ci-dessous.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si l&#39;une de ces tâches échoue, les tâches suivantes ne seront pas exécutées.\
 >Les requêtes SQL comportant un attribut **LIMIT** sont exécutées de façon répétée jusqu&#39;à ce que toutes les informations aient été traitées.
