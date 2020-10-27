@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Vous devez vous assurer que la maintenance de la base de données est correcteme
 
 Voir à ce propos [cette section](../../production/using/recommendations.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si vous utilisez une configuration en mid-sourcing, il est important que les bases de données soient correctement maintenue. Lors de l&#39;analyse d&#39;une diffusion sur la plateforme marketing, l&#39;instance marketing envoie des informations vers l&#39;instance mid-sourcing. Si le processus ralentit, l&#39;activité de l&#39;instance marketing ralentira également afin que l&#39;instance de mid-sourcing puisse effectuer ses opérations correctement.
 
@@ -69,7 +69,7 @@ Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;el
 * arrêter ou supprimer les workflows qui sont en pause à cause d&#39;une erreur,
 * arrêter les workflows utilisés pour faire des tests, qui ne contiennent pas d&#39;activité **[!UICONTROL Fin]** et dont le statut est, de ce fait, **[!UICONTROL En pause]** .
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si cette opération prend beaucoup de temps et qu&#39;une fois effectuée, beaucoup d&#39;espace disque est libéré, il est indispensable d&#39;effectuer une maintenance en profondeur (reconstruction des index, etc.). Voir à ce sujet [cette section](../../production/using/recommendations.md).
 
