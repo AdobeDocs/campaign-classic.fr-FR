@@ -11,10 +11,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '221'
+translation-type: tm+mt
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Une adresse de contrôle est utilisée pour afficher l&#39;aperçu de votre message, envoyer un BAT et tester la personnalisation de votre message avant qu&#39;il ne soit envoyé par email ou SMS. Les adresses de contrôle sont liées à la diffusion et ne peuvent être utilisées d&#39;une diffusion à l&#39;autre.
 
-## Créer une adresse de contrôle {#creating-a-seed-address}
+## Créer des adresses de contrôle {#creating-a-seed-address}
 
 1. Dans le modèle de message transactionnel, cliquez sur l&#39;onglet **[!UICONTROL Adresses de contrôle]**.
 
@@ -46,13 +46,12 @@ Une adresse de contrôle est utilisée pour afficher l&#39;aperçu de votre mess
 
    ![](assets/messagecenter_create_custo_001.png)
 
-## Créer plusieurs adresses de contrôle {#creating-several-seed-addresses}
-
+   <!--## Creating several seed addresses {#creating-several-seed-addresses}-->
 1. Cliquez sur le lien **[!UICONTROL Ajouter d&#39;autres adresses de contrôle]**, puis sur le bouton **[!UICONTROL Ajouter]**.
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. Suivez les étapes de paramétrage d’une adresse de contrôle décrites dans la section [Créer une adresse de contrôle](#creating-a-seed-address).
+   <!--1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.-->
 1. Répétez l&#39;opération pour créer le nombre d&#39;adresses voulu.
 
    ![](assets/messagecenter_create_seedaddr_008.png)
