@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 5e9c17ad-14d2-4173-9fc9-0e48a21426c8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 | web | Serveur applicatif (HTTP et SOAP) |
 | wfserver | Serveur de workflows |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s&#39;intègre sous la forme d&#39;une librairie dynamique via des mécanismes natifs à un serveur Web IIS ou Apache. Il n&#39;existe pas de commande Adobe Campaign permettant de démarrer ou d&#39;administrer ce module, vous devez donc utiliser les commandes d&#39;administration du serveur Web.
 
