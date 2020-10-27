@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 
 * Le mot de passe **internal** : il s&#39;agit du mot de passe administrateur général. Il est commun à toutes les instances d&#39;un même serveur applicatif.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
