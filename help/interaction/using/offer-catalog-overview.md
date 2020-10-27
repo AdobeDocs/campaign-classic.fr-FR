@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -30,7 +30,6 @@ La gestion des offres se fait depuis une arborescence de dossiers dans l&#39;exp
 
 Avant de créer vos offres, vous devez d’abord spécifier un environnement (voir [Présentation des environnements](../../interaction/using/environments-overview.md)). Il contiendra toutes les caractéristiques (éligibilité, contraintes sur la cible, règles de présentation) d’un ensemble d’offres, triées en catégories, ainsi que la liste de leurs espaces.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La création du catalogue d&#39;offres, soit les catégories et les offres, est de la responsabilité du **[!UICONTROL Chargé d&#39;offres]**.
-
