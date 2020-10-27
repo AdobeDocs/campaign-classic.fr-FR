@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Le contenu d&#39;une offre a une représentation par emplacement. Chaque emplace
 
 Vous pouvez ainsi choisir de valider le contenu d&#39;une offre sur certains emplacements disponibles et ne pas le valider sur d&#39;autres.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lorsque le contenu et l&#39;éligibilité d&#39;une offre sont validés, le workflow de publication (Notification des offres) se lance automatiquement et l&#39;offre est ainsi mise en ligne et rendue disponible sur les emplacements activés.
 
@@ -62,7 +62,7 @@ Pour valider le contenu d&#39;une offre, procédez comme suit :
 
 Valider l&#39;éligibilité d&#39;une offre consiste à accepter ou non les poids de l&#39;offre et les règles d&#39;éligibilité également paramétrés dans l&#39;offre ou hérités des règles créées au niveau de sa catégorie mère.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lorsque le contenu et l&#39;éligibilité d&#39;une offre sont validés, le workflow de publication (Notification des offres) se lance automatiquement et l&#39;offre est ainsi mise en ligne et rendue disponible sur les emplacements activés.
 
