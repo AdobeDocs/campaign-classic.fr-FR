@@ -11,9 +11,9 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
+workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web c
 
 ## Comment acquérir les données des fans ?{#how-to-acquire-fan-data-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Suivez les étapes de configuration décrites dans [Création d’une application](../../social/using/creating-a-facebook-application.md)Facebook.
 
@@ -250,7 +250,7 @@ Si le profil n&#39;existe pas en base et que l&#39;adresse email de l&#39;utilis
 
 1. Dans le champ **[!UICONTROL Mapping]**, sélectionnez le schéma sur lequel vous souhaitez effectuer la réconciliation.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Assurez-vous que les champs de l&#39;onglet **[!UICONTROL Réseaux sociaux]** du mapping de diffusion sont correctement renseignés. Les mappings de diffusions sont accessibles à partir du noeud **[!UICONTROL Administration > Gestion de campagne > Mappings de ciblage]**.
 
