@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '1812'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
+workflow-type: tm+mt
+source-wordcount: '1811'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Pour cela :
 
 1. **Analyser la diffusion** : cette étape permet de procéder à la préparation des messages à envoyer. Reportez-vous à la section [Analyser la diffusion](#analyzing-the-delivery).
 
-   Les règles appliquées pendant l&#39;analyse sont présentées dans [cette section](#validation-process-with-typologies). Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
+   The rules applied during analysis are presented in [this section](#validation-process-with-typologies). Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
 
 1. **Envoyer des BAT** : cette étape permet de valider le contenu, les URL, les champs de personnalisation, etc. Reportez-vous aux sections [Envoyer un bon à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
