@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
+source-git-commit: 285cf8c6521696a0a94f6ffd8fc1eb148977836d
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 90%
+source-wordcount: '542'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez démarrer Adobe Campaign à partir du menu **[!UICONTROL Démarrer 
 
 La page de connexion de la console cliente permet de configurer ou de sélectionner une base de données existante, et de s’y connecter en utilisant un identifiant et un mot de passe :
 
-![](assets/s_ncs_user_login.png)
+![](assets/acc-logon.png)
 
 ## Connexion à Adobe Campaign {#connecting-to-adobe-campaign}
 
@@ -46,7 +46,7 @@ Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
    La première fois que vous accédez à la base de données, votre mot de passe est celui que vous aura attribué l’administrateur. Une fois que vous serez connecté, vous pourrez personnaliser votre mot de passe via le menu **[!UICONTROL Outils > Changer le mot de passe...]** Des détails sur les opérateurs et les connexions sont disponibles dans [Gestion des accès](../../platform/using/access-management.md).
 
-1. Cliquez sur **[!UICONTROL Se connecter]** pour valider.
+1. Click **[!UICONTROL LOG IN]** to confirm.
 
 Vous pouvez maintenant accéder à l’[espace de travail Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
 
@@ -57,8 +57,6 @@ Vous pouvez accéder aux paramètres de connexion au serveur via le lien situé 
 ![](assets/s_ncs_user_connections_management.png)
 
 Dans la fenêtre **[!UICONTROL Connexions]**, cliquez sur **[!UICONTROL Ajouter > Connexion]**.
-
-![](assets/s_ncs_user_add_connexion.png)
 
 Vous devez ensuite définir les paramètres de cette connexion. Pour cela :
 
@@ -97,7 +95,7 @@ Le menu **[!UICONTROL Aide > À propos...]** vous permet d’accéder aux infor
 
 ![](assets/about-acc.png)
 
-Chaque fois que vous contactez l’équipe d’assistance clientèle d’Adobe, vous devez fournir le numéro de version et le numéro de version de la console client et du serveur d’applications Campaign.
+Chaque fois que vous contactez l’équipe d’assistance clientèle d’Adobe, vous devez fournir le numéro de version et le numéro de version de la console client et du serveur d’applications Adobe Campaign.
 
 Si vous utilisez la [version Campaign Gold Standard](../../rn/using/gold-standard.md), vous devez également partager les caractères SHA/1 qui s&#39;affichent dans la boîte de dialogue **[!UICONTROL À propos]**. Par exemple, pour la version Gold **Standard 10**, le numéro de build indique **build 9032@efd8a94**, comme illustré ci-dessous :
 
@@ -107,6 +105,6 @@ Pour en savoir plus sur Gold Standard, voir [cet article](https://helpx.adobe.c
 
 **Rubriques connexes** :
 
-* [Options de support Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
-* [Distribution logicielle](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html)
-* [Assistance Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Options d’aide et de support d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
+* [Distribution de logiciels Adobe](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html)
+* [Sessions d&#39;assistance et d&#39;experts Adobe Experience Cloud](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
