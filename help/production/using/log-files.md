@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Les fichiers de log mono-instance sont listés dans le tableau suivant :
 | inMail.log | Logs du module des mails rebond |
 | logins.log | Logs de toutes les tentatives de connexion à Adobe Campaign (ayant réussies ou non) |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le répertoire **redir** existe uniquement sur les serveurs de redirection. Le sous-répertoire **url** contient les correspondances des URL à rediriger et le **journal** du sous-répertoire contient les logs de tracking. Pour générer des logs de tracking, le module **trackinglogd** doit être en cours d’exécution.
 
