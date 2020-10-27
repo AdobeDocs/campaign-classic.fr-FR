@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 81090be2-3ed4-4f35-948b-e21af6e19999
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
+workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -26,8 +26,8 @@ Vous pouvez tester l&#39;envoi du message en envoyant un BAT vers une adresse de
 
 L&#39;envoi d&#39;un BAT se fait selon le même principe que pour une diffusion classique (voir à ce sujet [cette section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)). Cependant, l&#39;envoi d&#39;un BAT dans le cadre de Message Center suppose d&#39;avoir préalablement effectué les opérations suivantes :
 
-* créer une ou plusieurs adresses de base (voir [Gestion des adresses de contrôle dans les messages transactionnels](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)) avec des données de test (voir [Données de personnalisation](../../message-center/using/personalization-data.md)),
-* créer le contenu du message (voir [Création du contenu du message](../../message-center/using/creating-message-content.md)).
+* Create one or more seed addresses (refer to [Managing seed addresses in transactional messages](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)) with test data (refer to [Personalization data](../../message-center/using/personalization-data.md)).
+* Create the message content (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
 
 Pour effectuer l&#39;envoi :
 
