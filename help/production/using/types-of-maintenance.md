@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: 4a436ccf-097c-43e6-9eda-492bada5512a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Adobe Campaign met à votre disposition un workflow intégré qui permet de plan
 * suppression des enregistrements orphelins et réinitialisation du statut des objets qui ont expirés,
 * mise à jour des statistiques de la base de données.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le workflow de nettoyage assure la maintenance au niveau applicatif et non celle du SGDB (à l&#39;exception de la mise à jour des statistiques). Il est cependant nécessaire d&#39;effectuer des opérations de maintenance sur la base. En effet, le fait que la tâche de nettoyage se déroule sans erreur ne signifie pas que la base de données soit totalement optimisée.
 
