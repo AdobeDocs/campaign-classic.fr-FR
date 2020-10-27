@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '2665'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+workflow-type: tm+mt
+source-wordcount: '2896'
+ht-degree: 87%
 
 ---
 
@@ -75,7 +75,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse email est de trois ans et que la table des destinataires augmente de 50% tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
 >
 >Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
->Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
 ### Identifier les adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -118,8 +118,7 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
->
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
+Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
 
 Vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d’informations sur l’assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
@@ -157,20 +156,23 @@ Les éléments mis en quarantaine sont les jetons d&#39;appareil.
 
 **Pour iOS - connecteur binaire**
 
-Pour chaque notification, Adobe Campaign reçoit les erreurs synchrones et asynchrones du serveur APNS. Adobe Campaign génère des erreurs soft pour les erreurs synchrones suivantes :
+>[!NOTE]
+A compter de la version Campaign 20.3, le connecteur binaire hérité d’iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre mise en oeuvre en conséquence. [En savoir plus](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+
+Pour chaque notification, Adobe Campaign reçoit les erreurs synchrones et asynchrones du serveur APNs. Pour les erreurs synchrones suivantes, Adobe Campaign génère des erreurs logicielles :
 
 * Problèmes liés à la longueur de la payload : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 * Problèmes liés à l&#39;expiration du certificat : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 * Perte de la connexion pendant la diffusion : reprise effectuée, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 * Problème lié à la configuration du service (certificat non valide, mot de passe du certificat incorrect, aucun certificat) : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 
-Le serveur APNS informe de manière asynchrone Adobe Campaign de la désinscription d&#39;un jeton d&#39;appareil (lors de la désinstallation de l&#39;application mobile par l&#39;utilisateur). Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heures pour contacter les services de feedback APNS afin de mettre à jour la table **AppSubscriptionRcp**. Pour tous les jetons désactivés, le champ **Désactivé** est défini sur **True** et l&#39;inscription associée à ce jeton d&#39;appareil est automatiquement exclue des prochaines diffusions.
+The APNs server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
 
-**Pour iOS - connecteur HTTP/2**
+**Pour iOS - Connecteur HTTP/V2**
 
-Le protocole HTTP/2 permet d&#39;obtenir un feedback direct et le statut de chaque notification push. Si le connecteur HTTP/2 est utilisé, le service de feedback n&#39;est plus appelé par le workflow **[!UICONTROL mobileAppOptOutMgt]**. Les jetons désinscrits sont gérés différemment par le connecteur binaire iOS et le connecteur HTTP/2 iOS. Un jeton est considéré comme désinscrit lorsqu&#39;une application mobile est désinstallée ou réinstallée.
+Le protocole HTTP/V2 permet un retour direct et un état pour chaque diffusion Push. Si le connecteur de protocole HTTP/V2 est utilisé, le service de commentaire n’est plus appelé par le flux de travaux **[!UICONTROL mobileAppOptOutMgt]** . Les jetons non enregistrés sont gérés différemment entre le connecteur binaire iOS et le connecteur HTTP/V2 iOS. Un jeton est considéré comme non enregistré lorsqu’une application mobile est désinstallée ou réinstallée.
 
-Si l&#39;APNS renvoie de manière synchrone un statut &quot;désinscrit&quot; pour un message, le jeton cible est immédiatement mis en quarantaine.
+De manière synchrone, si les APN renvoient un état &quot;non enregistré&quot; pour un message, le jeton de cible est immédiatement mis en quarantaine.
 
 <table> 
  <tbody> 
@@ -223,7 +225,7 @@ Si l&#39;APNS renvoie de manière synchrone un statut &quot;désinscrit&quot; po
    <td> Non<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problème de certificat (mot de passe, endommagement, etc.) et problème de test de connexion à l'APNS<br /> </td> 
+   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
    <td> Echec<br /> </td> 
    <td> Messages d'erreur différents selon l'erreur<br /> </td> 
    <td> Soft<br /> </td> 
@@ -239,7 +241,7 @@ Si l&#39;APNS renvoie de manière synchrone un statut &quot;désinscrit&quot; po
    <td> Oui<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejet du message par l'APNS : désinscription<br /> l'utilisateur a supprimé l'application ou le jeton a expiré<br /> </td> 
+   <td> APNs message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
    <td> Echec<br /> </td> 
    <td> Désinscrit<br /> </td> 
    <td> Hard<br /> </td> 
@@ -247,7 +249,7 @@ Si l&#39;APNS renvoie de manière synchrone un statut &quot;désinscrit&quot; po
    <td> Non<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejet du message par l'APNS : toutes les autres erreurs<br /> </td> 
+   <td> APNs message rejection: all other errors<br /> </td> 
    <td> Echec<br /> </td> 
    <td> La raison de l'erreur de rejet est indiquée dans le message d'erreur<br /> </td> 
    <td> Soft<br /> </td> 
@@ -272,11 +274,10 @@ Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heu
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
 >[!NOTE]
->
->Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
->* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
->* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
->* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
+* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
+* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
 
 Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
 
@@ -358,6 +359,134 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr> 
+    <tr> 
+   <td> Rejet du message FCM : Argument non valide<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> INVALID_ARGUMENT </td> 
+   <td> Ignoré</td> 
+   <td> Indéfinie<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Rejet du message FCM : Erreur d'authentification tierce<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> THIRD_PARTY_AUTH_ERROR </td> 
+   <td> Ignoré</td>
+   <td> Refusés<br /> </td> 
+   <td> Oui<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Rejet du message FCM : L'ID d'expéditeur ne correspond pas<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> SENDER_ID_MISMATCH </td> 
+   <td> Soft</td>
+   <td> Utilisateur inconnu<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Rejet du message FCM : Non enregistré<br /> </td> 
+   <td> Echec<br /> </td>
+   <td> NON ENREGISTRÉ </td> 
+   <td> Hard</td> 
+   <td> Utilisateur inconnu<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Rejet du message FCM : Interne<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> INTERNE </td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Oui<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Rejet du message FCM : Non disponible<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> INDISPONIBLE</td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Oui<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Rejet du message FCM : code d'erreur inattendu<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> code d'erreur inattendu</td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+  <tr> 
+   <td> Authentification : Problème de connexion<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> Impossible de se connecter au serveur d'authentification </td> 
+   <td> Ignoré</td>
+   <td> Refusés<br /> </td> 
+   <td> Oui<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : Client ou étendue non autorisé dans la demande.<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> non autorisé_client </td> 
+   <td> Ignoré</td>
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : Le client n'est pas autorisé à récupérer des jetons d'accès à l'aide de cette méthode, ou le client n'est pas autorisé pour l'une des étendues demandées.<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> non autorisé_client </td> 
+   <td> Ignoré</td>
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : Accès refusé<br /> </td> 
+   <td> Echec<br /> </td>
+   <td> access_deny</td> 
+   <td> Ignoré</td>
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : Adresse électronique non valide<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> Invalid_grant </td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : JWT non valide<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> Invalid_grant </td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : Signature JWT non valide<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> Invalid_grant </td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : Audience d'étendue OAuth ou de jeton d'ID non valide fournie<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> non autorisé_client</td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
+    <tr> 
+   <td> Authentification : Client OAuth désactivé<br /> </td> 
+   <td> Echec<br /> </td> 
+   <td> disabled_client</td> 
+   <td> Ignoré</td> 
+   <td> Refusés<br /> </td> 
+   <td> Non<br /> </td> 
+  </tr>
  </tbody> 
 </table>
 
@@ -368,8 +497,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
 Le mécanisme de quarantaine des messages SMS est globalement identique au processus général. Voir [A propos des quarantaines](#about-quarantines). Les spécificités des SMS sont énumérées ci-dessous.
 
 >[!NOTE]
->
->Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
+Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
  <tbody> 
@@ -427,9 +555,8 @@ Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état
 Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
 
 >[!NOTE]
->
->Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
+Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
 
