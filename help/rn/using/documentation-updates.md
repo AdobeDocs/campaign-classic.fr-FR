@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: ba5e815dd1576b55d9b3226639680f6358137f13
 workflow-type: tm+mt
-source-wordcount: '3768'
-ht-degree: 98%
+source-wordcount: '3898'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,31 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
 
 ## Octobre 2020 {#oct-2020}
+
+**Nouvelles fonctionnalités incluses dans la version 20.3**
+
+Améliorations des notifications Push pour iOS - [En savoir plus](../../delivery/using/configuring-the-mobile-application.md)
+
+Améliorations des notifications Push pour Android - [En savoir plus](../../delivery/using/configuring-the-mobile-application-android.md)
+
+**Autres mises à jour de la documentation accompagnant cette version**
+
+Mise à jour de la matrice de compatibilité. [En savoir plus](../../rn/using/compatibility-matrix.md)
+
+La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En savoir plus](../../rn/using/deprecated-features.md)
+
+Les notes de mise à jour et la matrice de compatibilité pour la version Gold Standard sont maintenant disponibles dans une section dédiée.
+[En savoir plus](../../rn/using/gold-standard.md#gs-10)
+
+**Autres mises à jour**
+
+Les pages de documentation ont été mises à jour pour refléter la mise à jour de Tomcat 8.
+
+Des détails ont été ajoutés à la description de la zone &quot;A propos&quot; dans la section &quot;Obtention de votre version Adobe Campaign&quot;. [En savoir plus](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+
+Des instructions pour effectuer une mise à niveau de build ont été ajoutées à la section &quot;Mise à jour de Adobe Campaign Classic&quot;. En savoir plus[ En savoir plus](../../production/using/build-upgrade.md)
+
+Des questions fréquentes sur la mise à niveau de Campaign ont été ajoutées aux questions courantes de Campaign. En savoir plus[ En savoir plus](../../platform/using/faq-build-upgrade.md)
 
 Les modèles d’hébergement Campaign sur site, hébergés et hybrides sont maintenant décrits dans une section dédiée. [En savoir plus](../../installation/using/hosting-models.md)
 
