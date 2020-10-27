@@ -11,18 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
 
 # Résolution des problèmes{#troubleshooting}
 
-Si votre appareil mobile est connecté en Wi-Fi et que vous ne recevez pas les notifications, vérifiez que les ports FCM/APNS ne sont pas bloqués par votre pare-feu.
+Si votre périphérique mobile est connecté au Wi-Fi et que vous ne recevez pas de notifications, vérifiez que les ports FCM/APNs ne sont pas bloqués par votre pare-feu.
 
 **Android** : l&#39;appareil mobile se connecte aux serveurs FCM sur les ports 5228 à 5230. Vous devez donc configurer votre pare-feu pour qu&#39;il autorise la connexion avec FCM. Les ports à ouvrir sont les suivants : 5228 (le plus fréquemment utilisé), 5229 et 5230.
 
