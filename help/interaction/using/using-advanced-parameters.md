@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 2bb756a2-4aca-4195-9b7a-ec85028a8012
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Ce chapitre présente les différents paramétrages avancés possibles dans Interaction.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le chapitre suivant s&#39;adresse aux **administrateurs techniques**.
 
@@ -33,4 +33,3 @@ Ce chapitre présente les différents paramétrages avancés possibles dans Inte
 * La création d’un environnement de test est présentée dans la section [Créer un environnement de test](../../interaction/using/creating-a-test-environment.md).
 * Vous pouvez modifier le comportement standard du moteur à l’aide de points d’extension. Voir à ce propos la section [Points d’extension](../../interaction/using/hooks.md).
 * Enfin, l’utilisation d’Interaction avec une architecture répartie est présentée dans la section [Architectures réparties](../../interaction/using/distributed-architectures.md).
-
