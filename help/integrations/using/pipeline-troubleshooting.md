@@ -11,18 +11,18 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '644'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 97%
 
 ---
 
 
 # Dépannage du pipeline {#pipeline-troubleshooting}
 
-**Échec du pipeline avec l’erreur « Aucune tâche ne correspond au masque pipelined@ »**
+**Echec de Pipelin avec l&#39;erreur &quot;Aucune tâche ne correspond au masque pipelin@&lt; instance >&quot;**
 
 Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 
@@ -49,7 +49,7 @@ Le paramètre @authPrivateKey du fichier de configuration de l’instance est in
 1. Vérifiez qu’authPrivateKey est défini.
 1. Vérifiez qu’authPrivateKey commence par @, se termine par = et comporte environ 4 000 caractères.
 1. Recherchez la clé d’origine et vérifiez qu’elle est au format RSA, fait 4 096 bits de long, et commence par -----BEGIN RSA PRIVATE KEY-----.
-   <br> Si nécessaire, recréez la clé et enregistrez-la sur Adobe Analytics. Consultez cette [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation).
+   <br> Si nécessaire, recréez la clé et enregistrez-la sur Adobe Analytics.
 1. Vérifiez que la clé a été codée dans la même instance que [!DNL pipelined]. <br>Si nécessaire, recommencez le codage à l’aide de l’exemple JavaScript ou de workflow.
 
 **Échec du pipeline avec « impossible de lire le jeton durant l’authentification »**
@@ -91,42 +91,3 @@ En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer
 1. Vérifiez la taille de la file d’attente dans la page d’état [!DNL pipelined]. Si la taille de la file d’attente est importante, améliorez les performances de JS.
 1. Comme le retard semble augmenter avec le volume, configurez les déclencheurs sur Analytics en utilisant moins de messages.
 Annexes
-
-**Utilisation du code JavaScript de cryptage de clé**
-
-Exécutez un JavaScript pour crypter la clé privée. Cette opération est requise pour la configuration du pipeline.
-
-Voici un exemple de code que vous pouvez utiliser pour exécuter la fonction cryptString :
-
-```
-/*
-USAGE:
-  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-*/
- 
-function usage()
-{
-  return "USAGE:\n" +
-    '  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js\n'
-}
- 
-var fn = application.arg;
-if( fn == "" )
-  logError("Missing key file file\n" + usage());
- 
-//open the pem file
-plaintext = loadFile(fn)
- 
-if( !plaintext.match(/^-----BEGIN RSA PRIVATE KEY-----/) )
-  logError("File should be an rsa private key")
- 
-logInfo("Encrypted key:\n" + cryptString(plaintext, <xtkSecretKey>))
-```
-
-Sur le serveur, exécutez le Javascript :
-
-```
-nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-```
-
-Copiez et collez la clé codée de la sortie vers la console.
