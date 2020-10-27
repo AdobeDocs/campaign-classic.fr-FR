@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 8ec525f400c29b986eadd888d29f1579860871c6
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 47%
+source-wordcount: '2355'
+ht-degree: 48%
 
 ---
 
@@ -209,10 +209,10 @@ Les services suivants doivent être redémarrés :
 
 Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (nlserverweb), téléchargez puis copiez le fichier suivant :
 
+```
+Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
+```
 
-    ```
-    Setup-client-7.xxxx.exe dans [chemin de l&#39;application]\datakit\nl\en\jsp
-    ```
 
 Ainsi, à la prochaine connexion des postes clients, une fenêtre indiquera aux utilisateurs la disponibilité d&#39;une nouvelle mise à jour et leur proposera de la télécharger et de l&#39;installer.
 
@@ -344,7 +344,7 @@ Il existe trois options pour résoudre les conflits : **Acceptez la nouvelle ver
 * L&#39;objet n&#39;est pas mis à niveau.
 * Effets à long terme : incompatibilités de versions, client ne tirant pas parti des correctifs.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Il est fortement recommandé de résoudre les conflits.
 
 
@@ -408,7 +408,7 @@ Voici la procédure pour effectuer une fusion complexe :
 1. Effectuez les tests dans un environnement de test.
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >Des compétences en développement sont nécessaires pour effectuer des fusions complexes.
 
 
@@ -417,4 +417,4 @@ Voici la procédure pour effectuer une fusion complexe :
 * [FAQ sur l’upgrade de build](../../platform/using/faq-build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d’aide et de support pour les Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
-* [Programme Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html)
+* [Programme Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html)
