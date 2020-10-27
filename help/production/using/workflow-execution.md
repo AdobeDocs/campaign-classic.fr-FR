@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 7d8828c5-5776-49ca-b4f7-a4a6aaaa9db1
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le r
 
    Pour vérifier le nombre de workflows en cours d’exécution de votre instance, nous vous recommandons d’utiliser les vues prédéfinies, accessibles par défaut dans le dossier **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Pour plus d’informations, consultez [cette page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >L’augmentation du seuil de l’option **[!UICONTROL NmsOperation_LimitConcurrency]** peut entraîner des problèmes de performances sur votre instance. Dans tous les cas, n’effectuez pas cette opération vous-même et communiquez avec votre contact Adobe Campaign.
 
