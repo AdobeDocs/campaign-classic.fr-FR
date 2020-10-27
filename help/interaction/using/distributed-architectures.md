@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Afin de supporter les montées en charge et assurer un service en continu sur le
 
 La synchronisation des offres s&#39;effectue par packages. Sur les instances d&#39;exécution, tous les objets du catalogue sont préfixés par le nom du compte externe. Cela permet le support de plusieurs instances de pilotage (instances de développement et de production par exemple) sur une même instance d&#39;exécution.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Nous vous recommandons fortement d&#39;utiliser des noms internes courts et explicites.
 
@@ -112,7 +112,7 @@ Si, pour des raisons d&#39;optimisation, seulement une partie de la base marketi
 
 Voici la liste des options de maintenance disponibles sur l&#39;instance de pilotage :
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ces options ne doivent être utilisées que dans des cas de maintenance spécifiques.
 
@@ -128,7 +128,7 @@ L&#39;option suivante est disponible sur les instances d&#39;exécution :
 
 Lors de l&#39;installation des packages Interaction de pilotage et d&#39;exécution, la taille en base de données des identifiants des propositions passe de 32 à 64 bits.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Selon le volume de propositions existantes dans votre instance, cette opération peut être très longue.
 
