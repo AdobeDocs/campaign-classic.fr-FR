@@ -11,9 +11,9 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
+workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 100%
 
@@ -153,7 +153,7 @@ Ce type de contenu permet de publier un lien vers une vidéo YouTube. Comme pour
 
 Renseignez les différents champs proposés :
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Toutes les URL doivent commencer par **&quot;http://&quot;** ou **&quot;https://&quot;**.
 
