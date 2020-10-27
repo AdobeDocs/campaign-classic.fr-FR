@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 2cd8a320-37e8-410a-b71b-0c13c8e15482
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 # Données de personnalisation{#personalization-data}
 
-Vous pouvez utiliser des données dans le modèle de message afin de tester la personnalisation de vos messages transactionnels. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Si vous installez le module **Délivrabilité**, ces données vous permettent d&#39;afficher le rendu des messages chez différents fournisseurs d&#39;accès (**Inbox rendering**, voir à ce sujet [cette section](../../delivery/using/about-deliverability.md)).
+Vous pouvez utiliser des données dans le modèle de message afin de tester la personnalisation de vos messages transactionnels. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Si vous installez le module **Délivrabilité**, ces données vous permettent d&#39;afficher le rendu des messages chez différents fournisseurs d&#39;accès (**Inbox rendering**, voir à ce sujet [cette section](../../delivery/using/inbox-rendering.md)).
 
 Ces données n&#39;ont pour but que de tester vos messages avant leur envoi effectif et ne correspondent pas aux données réelles qui seront traitées par Message Center. En revanche, la structure XML doit être identique à celle de l&#39;événement qui est stocké dans l&#39;instance d&#39;exécution, comme illustré ci-dessous.
 
@@ -34,4 +34,3 @@ Ces informations permettent de personnaliser le contenu du message à l’aide d
 1. Dans le contenu de l&#39;événement, entrez les informations de test au format XML.
 
    ![](assets/messagecenter_create_custo_001.png)
-
