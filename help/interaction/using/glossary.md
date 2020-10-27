@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 5b2b7682-6bac-4282-8d27-e8a259934e7d
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Voici la définition des éléments principaux d&#39;Interaction.
 
 * **Emplacement** : dossier définissant les lieux d&#39;exposition de l&#39;offre. La définition d&#39;un emplacement permet à la fois d&#39;indiquer le canal utilisé, de spécifier s&#39;il est possible ou non de l&#39;utiliser en mode unitaire (par défaut : uniquement en mode batch), de construire le contenu de l&#39;offre par l&#39;intermédiaire de fonctions de rendu et de spécifier le thème des offres présentées. Un emplacement est une interface entre le canal et le moteur d&#39;offres.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Un emplacement n&#39;est pas égal à un canal de communication, il correspond à un lieu d&#39;exposition sur un canal. Par exemple, des offres exposées sur un site web peuvent occuper deux emplacements dans une même page. Dans ce cas, on aura donc deux emplacements pour le même canal.
    >
