@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 870ab0f2-1bd7-42e7-8d83-a08a520b6587
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Les répertoires à sauvegarder sont donc :
 
 * nl6/var/`<instanceName>`/relay (facultatif)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La sauvegarde de la base de données est impérative.
 
