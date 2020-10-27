@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 7%
+source-wordcount: '2023'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ Nous avons donc lancé le programme [Gold Standard](https://helpx.adobe.com/fr/c
 
 Une mise à niveau de build est une mise à jour du logiciel Adobe Campaign Classic vers le dernier numéro de build sécurisé, tout en restant dans le même niveau de build principal/secondaire. Par exemple : Campagne Classic v7 build 9026 vers Campaign v7 build 9032.
 
-En savoir plus dans [cette section](../../rn/using/rn-overview.md).
+En savoir plus [dans cette section](../../rn/using/rn-overview.md).
 
 ## Quelle est la dernière version de Adobe Campaign Classic ?
 
@@ -40,13 +40,13 @@ La dernière version du Campaign Classic, y compris les nouvelles fonctionnalit�
 
 Consultez votre version dans le menu **[!UICONTROL Aide > A propos de...]** de la console du client Adobe Campaign. La zone **[!UICONTROL À propos]** contient des informations détaillées sur la version et la version que vous exécutez à la fois pour la console et le serveur.
 
-En savoir plus dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+En savoir plus [dans cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## Que signifie le statut de build ?
 
 Depuis Campaign Classic 19.2, un statut est associé à chaque build.
 
-En savoir plus dans [cette section](../../rn/using/rn-overview.md).
+En savoir plus [dans cette section](../../rn/using/rn-overview.md).
 
 ## Est-ce qu&#39;une mise à niveau de version est identique à une mise à niveau de version ?
 
@@ -203,3 +203,10 @@ tout le contenu est affiché et présent.
    * Test d&#39;envoi de SMS
    * Si une FDA externe est connectée, testez si les données sont envoyées dans les deux sens.
    * Si vous utilisez des intégrations telles que Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics, testez si elles fonctionnent encore comme avant.
+
+**Voir aussi**
+
+* [Réalisation d’un upgrade de build](../../production/using/build-upgrade.md)
+* [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
+* [Options d’aide et de support pour les Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Programme Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html)
