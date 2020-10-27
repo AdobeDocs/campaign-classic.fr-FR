@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -30,15 +30,15 @@ Le rapport **[!UICONTROL Analyse des offres]** vous permet d&#39;avoir une vue d
 
 Les statistiques sont classées selon trois critères :
 
-* par date.
+* Par date:
 
    ![](assets/offer_report_perdate.png)
 
-* par emplacement.
+* Par espace :
 
    ![](assets/offer_report_perspaces.png)
 
-* par diffusions.
+* Par diffusions :
 
    ![](assets/offer_report_perdeliveries.png)
 
