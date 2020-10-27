@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -369,7 +369,7 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 
 >[!NOTE]
 >
->Pour Microsoft SQL Server, vous pouvez utiliser le plan de maintenance décrit [sur cette page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
+>For Microsoft SQL Server, you can use the maintenance plan detailed on [this page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l’administrateur de base de données pour connaître les procédures de maintenance de cette version.
 
@@ -421,7 +421,7 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
 
    Vous remarquerez qu&#39;un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Travaux]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple il n&#39;y a qu&#39;un seul objet car toutes les tâches de maintenance font partie du même plan de maintenance.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Pour que cet objet puisse s’exécuter, l’agent Microsoft SQL Server doit être activé.
 
