@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
-translation-type: ht
-source-git-commit: 76547b8e7ef377a6d2c786e721b16c571e8b7712
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f7527a2d9b76e34fbaa2c9471c44a7a1e7e074d7
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 82%
 
 ---
 
@@ -28,13 +28,11 @@ Les différents workflows techniques associés aux messages transactionnels (Mes
 
 ## Workflows de l&#39;instance de pilotage {#control-instance-workflows}
 
-Sur l&#39;instance de pilotage, vous devez créer un workflow d&#39;archivage par instance d&#39;exécution. Les workflows d&#39;archivage sont ensuite accessibles à partir du dossier **Administration > Exploitation > Message Center**. Une fois créés, les workflows d&#39;archivage sont automatiquement démarrés.
-
-**Architecture répartie**
-
-Si vous disposez d&#39;une ou plusieurs instances d&#39;exécution, vous devez créer, sur l&#39;instance de pilotage, un workflow d&#39;archivage pour chaque compte externe de type **[!UICONTROL Instance d&#39;exécution Message Center]**. Cliquez sur le bouton **[!UICONTROL Créer le workflow d&#39;archivage]** pour créer et démarrer le workflow.
+Sur l&#39;instance de pilotage, qu&#39;une ou plusieurs instances d&#39;exécution soient enregistrées, vous devez créer un processus d&#39;archivage pour chaque compte externe d&#39;instance d&#39;exécution **** Message Center. Cliquez sur le bouton **[!UICONTROL Créer le processus]** d’archivage pour créer et début le processus.
 
 ![](assets/messagecenter_archiving_002.png)
+
+Ces workflows sont ensuite accessibles à partir du dossier **Administration > Production > Message Center** . Une fois créés, les workflows d’archivage sont automatiquement démarrés.
 
 <!--**Minimal architecture**
 
