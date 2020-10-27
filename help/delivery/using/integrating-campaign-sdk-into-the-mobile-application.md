@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ La fonction d&#39;enregistrement permet :
 * **Sous iOS** :
 
    ```
-   // Callback called on successful registration to the APNS
+   // Callback called on successful registration to the APNs
    - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
    {
        // Pass the token to Adobe Campaign
