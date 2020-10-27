@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: c7b4103d-99b2-4e64-a457-ee0e3326b172
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Ce chapitre décrit la gestion des environnements d&#39;offres dans Interaction.
 
 Plusieurs profils d&#39;utilisation différents interviennent dans la gestion et l&#39;utilisation des offres. La première étape consiste donc à s&#39;assurer que ces profils existent ou, le cas échéant, à les créer.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les paramétrages suivants doivent être effectués par un **administrateur technique**.
 
