@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2d6266957a1e290333c505e40f95df46797e19c4
+workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Accédez à l’onglet **Campagnes** et sélectionnez le menu **[!UICONTROL Appl
 
 >[!NOTE]
 >
->ALways protège les pages pouvant contenir des informations personnelles. Consultez la [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#privacy).
+>Protégez toujours les pages susceptibles de contenir des informations personnelles. Consultez la [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#privacy).
 
 Ce modèle détermine le type d&#39;application web. Vous pouvez ainsi créer :
 
