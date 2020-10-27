@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
+workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 100%
 
@@ -234,11 +234,11 @@ A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de cont
 
 Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l&#39;envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Voir aussi :
 * [Choisir la cible du BAT](#selecting-the-proof-target)
 
-* [À propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md)
+* [A propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md)
 
 * [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
