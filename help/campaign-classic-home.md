@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 86%
 
 ---
 
@@ -17,8 +17,9 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **[Émoticônes](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
-Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d’objet.
+* **[Passer à l’API](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/> du fournisseur d’APN basée sur HTTP/2 Découvrez comment migrer du protocole binaire hérité à l’API du fournisseur d’APN basée sur HTTP/2.
+
+* **[Ajouter des émoticônes à vos messages](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Vous pouvez maintenant insérer des émoticônes dans les messages et l&#39;objet
 
 * **[Accès à l’assistance technique](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/>
 FAQ, bonnes pratiques, ressources d’aide, demandes d’assistance.
@@ -28,9 +29,6 @@ Découvrez comment Adobe Campaign peut vous aider à assurer la conformité en 
 
 * **[Fonctionnalités de tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html)**<br/>
 Découvrez les fonctionnalités et les processus de tracking dans Campaign.
-
-* **[Contenu interactif avec AMP](delivery/using/defining-interactive-content.md)**<br/>
-Découvrez comment envoyer des emails dynamiques avec le nouveau format AMP.
 
 [Cliquez ici pour plus de mises à jour](/help/rn/using/documentation-updates.md)
 
