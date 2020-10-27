@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
        }   
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >La fonction de rendu doit appeler les champs utilisés pour l&#39;emplacement dans l&#39;ordre dans lequel ils ont été précédemment sélectionnés afin que les offres s&#39;affichent correctement.
 
@@ -223,7 +223,7 @@ Pour créer l&#39;emplacement correspondant à la catégorie **Premium**, procé
 
    ![](assets/offer_inbound_fallback_example_025.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >La fonction de rendu doit appeler les champs utilisés pour l&#39;emplacement dans l&#39;ordre dans lequel ils ont été précédemment sélectionnés afin que les offres s&#39;affichent correctement.
 
