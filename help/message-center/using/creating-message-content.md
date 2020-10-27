@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 1f420652-c9af-4a49-8d5c-a640e960aced
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 La définition du contenu du message transactionnel fonctionne selon les mêmes principes que pour une diffusion classique dans Adobe Campaign. Par exemple, pour une diffusion email, vous pouvez créer un contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l&#39;objet de la diffusion. Reportez-vous au chapitre [Diffuser par email](../../delivery/using/about-email-channel.md) pour plus d&#39;informations.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les images incluses dans le message doivent être accessibles publiquement. Adobe Campaign ne fournit pas de mécanisme de mise en ligne des images pour les messages transactionnels.\
 >Contrairement à JSSP ou webApp, `<%=` n’a pas de séquence d’échappement par défaut.
