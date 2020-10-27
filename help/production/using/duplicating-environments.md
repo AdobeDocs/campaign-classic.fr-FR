@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ### Présentation {#overview}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si vous n&#39;avez pas accès au serveur et à la base de données (environnements hébergés), vous ne serez pas en mesure d&#39;effectuer les procédures décrites ci-dessous. Veuillez contacter Adobe.
 
@@ -49,14 +49,14 @@ Pour cela, les étapes sont les suivantes :
    >Dans Adobe Campaign, une **cautérisation** regroupe les actions qui permettent l&#39;arrêt des processus qui interagissent avec l&#39;extérieur : logs, tracking, diffusions, workflows de campagnes, etc.\
    >Cette étape est nécessaire afin de ne pas diffuser des messages plusieurs fois (une fois depuis l&#39;environnement nominal, une fois depuis l&#39;environnement dupliqué).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Un environnement peut contenir plusieurs instances. Chaque instance Adobe Campaign est sujette à un contrat de licence. Le nombre d&#39;environnements autorisés est mentionné dans votre contrat de licence.\
    >La procédure proposée ci-après vous permet de transférer un environnement sans pour autant impacter le nombre d&#39;environnements et d&#39;instances installées.
 
 ### Avant de commencer {#before-you-start}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Il est vivement recommandé de réaliser des sauvegardes complètes des bases de données de toutes les instances des environnements-source et cible avant toute manipulation. En cas de problème, vous pourrez ainsi restaurer ces sauvegardes et retrouver la configuration initiale.
 
@@ -70,7 +70,7 @@ Nous vous proposons ici de comprendre les étapes de transfert d&#39;un environn
 
 Les étapes ci-dessous doivent être réalisées avec précaution : certains processus peuvent être en cours lors de la copie des bases de données de l&#39;environnement-source. La procédure de cautérisation (Etape 3 ci-après) permet de ne pas diffuser les messages plusieurs fois aux mêmes destinataires et de conserver la cohérence des données.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
@@ -218,7 +218,7 @@ Vérifer visuellement que l&#39;accès à la console client fonctionne.
 
 ### Etape 8 - Importer les options et les comptes externes dans l&#39;environnement-cible (recette) {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Seul le processus web doit être lancé à cette étape. Dans le cas contraire, arrêtez les autres processus en cours d’exécution avant de continuer.
 
