@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 75%
 
 ---
 
@@ -31,42 +31,14 @@ Il prend également en charge des volumes élevés de trafic sans affecter les p
 
 ## Architecture de [!DNL Triggers] {#triggers-architecture}
 
-### Qu’est-ce que Pipeline ? {#pipeline-explanation}
-
->[!CAUTION]
->
->Seules les solutions Adobe Cloud peuvent produire et consommer des événements provenant des services de Pipeline d’Adobe. Les systèmes externes à Adobe ne le peuvent pas.
-
-Pipeline est un système de messagerie hébergé dans Experience Cloud qui utilise [Apache Kafka](http://kafka.apache.org/). C’est un moyen de transmettre facilement des données entre les solutions. De plus, Pipeline est une file d’attente de messages plutôt qu’une base de données. Les producteurs envoient les événements dans le pipeline et les consommateurs écoutent le flux et font ce qu’ils veulent avec les événements. Les événements sont conservés quelques jours mais pas plus. L’objectif est de procéder à l’écoute 24 heures sur 24, 7 jours sur 7, et de traiter les événements immédiatement.
-
-![](assets/triggers_1.png)
-
-### Comment fonctionne Pipeline ? {#how-pipeline-work}
-
 Le processus [!DNL pipelined] est toujours en cours d’exécution sur le serveur marketing d’Adobe Campaign. Il se connecte au pipeline, récupère les événements et les traite immédiatement.
 
 ![](assets/triggers_2.png)
 
-Le processus [!DNL pipelined] se connecte à Experience Cloud à l’aide d’un service d’authentification et envoie une clé privée. Le service d’authentification renvoie un jeton. Le jeton est utilisé pour l’authentification lors de la récupération des événements. Les [!DNL Triggers] sont récupérés à partir d’un service web REST à l’aide d’une requête GET simple. La réponse est au format JSON. Les paramètres de la requête incluent le nom du déclencheur et un pointeur qui indique le dernier message récupéré. Le processus [!DNL pipelined] le gère automatiquement.
+Le processus [!DNL pipelined] se connecte à Experience Cloud à l’aide d’un service d’authentification et envoie une clé privée. Le service d’authentification renvoie un jeton. Le jeton est utilisé pour l’authentification lors de la récupération des événements.
 
-## Utilisation de l’intégration des Triggers Adobe Experience Cloud avec Adobe Campaign Classic
+For more information on authentication, refer to this [page](../../integrations/using/configuring-adobe-io.md).
 
-Voici quelques bonnes pratiques [!DNL Triggers] :
-
-* Les données [!DNL Trigger] doivent être stockées au moment où elles arrivent dans Campaign. Elles ne doivent pas être traitées directement, car cela créerait une latence.
-* La date et l’heure doivent être vérifiées à partir du message et non de la base de données.
-* Utilisez TriggerTimestamp et l’identifiant du déclencheur pour supprimer des duplicatas.
-
->[!CAUTION]
+>[!NOTE]
 >
->L’exemple ci-dessous n’est pas fourni d’usine. Il s&#39;agit d&#39;un exemple spécifique parmi plusieurs implémentations possibles.
-
-Les événements de pipeline sont téléchargés automatiquement. Ils peuvent être surveillés à l’aide d’un formulaire.
-
-![](assets/triggers_3.png)
-
-Le nœud d’événement de pipeline n’est pas natif et doit être ajouté, de même que le formulaire associé doit être créé dans Campaign. Ces opérations sont limitées aux utilisateurs experts uniquement. Pour plus d’informations à ce sujet, reportez-vous aux sections suivantes : [Arborescence de navigation](../../configuration/using/about-navigation-hierarchy.md) et [Éditer les formulaires](../../configuration/using/editing-forms.md).
-
-Un workflow de campagne récurrent effectue des requêtes sur les déclencheurs et s’ils correspondent aux critères marketing, il débute une diffusion.
-
-![](assets/triggers_4.png)
+>Le traitement ultérieur des événements est effectué dans le cadre du package ACX fourni en dehors de l’implémentation par défaut. Le événement reçu est traité immédiatement à l’aide du code JavaScript. Il est enregistré dans une table de base de données sans autre traitement en temps réel. Les déclencheurs sont utilisés pour le ciblage par un processus de campagne qui envoie des courriers électroniques. La campagne est configurée pour que le client qui a déclenché le événement reçoive un courrier électronique.
