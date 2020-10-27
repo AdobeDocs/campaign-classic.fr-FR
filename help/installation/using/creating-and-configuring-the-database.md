@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1345'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 98%
 
 ---
 
@@ -64,12 +64,13 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
-* Pour un moteur **Microsoft SQL Server**, vous devez définir :
+* Pour un moteur **Microsoft SQL Server**, vous devez définir : le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
-   1. le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
-   1. le mécanisme d’identification pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
+   >[!CAUTION]
+   >
+   > Depuis la version 20.3, l&#39;authentification Windows NT est désactivée. **[!UICONTROL L&#39;authentification]** SQL Server est désormais le seul mode d&#39;authentification disponible pour Microsoft SQL Server. [En savoir plus](../../rn/using/deprecated-features.md)
 
-      ![](assets/s_ncs_install_db_mssql_creation01.png)
+   ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### Etape 2 - Connexion au serveur {#step-2---connecting-to-the-server}
 
