@@ -11,10 +11,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '3775'
+translation-type: tm+mt
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+workflow-type: tm+mt
+source-wordcount: '3773'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Il est possible d&#39;afficher le journal des logs relatif à un processus. Pour
 
 La liste des indicateurs système permet d&#39;afficher des informations concernant la machine comme la mémoire physique et virtuelle de la machine, les processus en cours d&#39;activité ou son espace disque. Les indicateurs sont différents selon que le serveur est installé sur une machine utilisant un système d&#39;exploitation Linux ou Windows. Dans la page **[!UICONTROL Supervision de l&#39;instance]**, cliquez sur le lien **[!UICONTROL Afficher]** pour dérouler la liste des indicateurs.
 
-#### Sous Windows {#in-windows}
+#### Windows {#in-windows}
 
 * **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/monitoring-thresholds.md) pour plus d&#39;informations.
 * **[!UICONTROL Memory]** : informations relatives à la mémoire physique (RAM).
@@ -103,7 +103,7 @@ La liste des indicateurs système permet d&#39;afficher des informations concern
 
    Lorsque l&#39;indicateur **[!UICONTROL Alert]** s&#39;affiche, une des causes possible peut-être que le processus en question est verrouillé par le moteur de base de données SQL ou qu&#39;il est en boucle infinie. Le processus **watchdog** fourni par Adobe Campaign relance automatiquement la totalité des processus chaque jour et permet de remédier au problème. Vous pouvez cependant interrompre le processus concerné vous-même afin de forcer son redémarrage.
 
-#### Sous Linux {#in-linux}
+#### Linux {#in-linux}
 
 ![](assets/production_system_indicators_linux_001.png)
 
@@ -256,7 +256,7 @@ Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 
 ![](assets/smtp_reports_access.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* Les informations liées au Monitoring SMTP ne sont disponibles que si le canal email a été activé.
 >* Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** n&#39;est proposé que si le serveur de statistiques est démarré sur l&#39;instance.
@@ -484,7 +484,7 @@ Adobe Campaign peut vous fournir un outil de surveillance des instances (netrepo
 
 ![](assets/pro_netreport.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Cet outil peut être utilisé pour surveiller votre instance mais il n&#39;est pas pris en charge par Adobe Campaign. Contactez votre administrateur de Campaign pour plus d&#39;informations.
 
@@ -548,7 +548,7 @@ Voici un exemple de configuration :
 >
 >Vous pouvez spécifier différentes configurations en ajoutant un suffixe au fichier **netconf.xml**, par exemple **netconf-dev.xml**, **netconf-prod.xml**, etc. Spécifiez ensuite la configuration à utiliser pour exécuter le netreport dans les fichiers **netreport.bat** ou **netreport.sh** en ajoutant **$JAVA_HOME/bin/java netreport dev** ou **@%JAVA_HOME%binjava netreport prod** par exemple.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour que la connexion à l&#39;opérateur **monitoring** fonctionne, la machine sur laquelle le netreport est exécuté doit être dans une zone de sécurité en mode **sessionTokenOnly**. Si aucun masque IP de confiance n&#39;a été défini pour cet opérateur, la zone de sécurité doit être également en mode **allowEmptyPassword** et **allowUserPassword**.
 
