@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
+workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
 
@@ -164,7 +164,7 @@ Exemple de données :
 
 Lors de la réception d&#39;un événement, Adobe Campaign génère un identifiant unique de retour. Il correspond à l&#39;identifiant de la version historisée de l&#39;événement.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lors de la réception d&#39;appels SOAP, Adobe Campaign vérifie le format des adresses email. Si une adresse email n&#39;est pas correctement mise en forme, une erreur est renvoyée.
 
