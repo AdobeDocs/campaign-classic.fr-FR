@@ -3,15 +3,15 @@ audience: end-user
 user-guide-title: Guide d'Adobe Campaign Classic
 breadcrumb-title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing intercanaux offrant un important retour sur investissement marketing.
+user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing cross-canal offrant un important retour sur investissement marketing.
 product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 98%
+source-wordcount: '2148'
+ht-degree: 96%
 
 ---
 
@@ -23,17 +23,19 @@ ht-degree: 98%
 + Notes de mise à jour {#release-notes}
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
-   + [Version Gold Standard ](rn/using/gold-standard.md)
+   + Gold Standard Release {#gs-release}
+      + [Notes de mise à jour de Gold Standard](rn/using/gold-standard.md)
+      + [Grille de compatibilité Gold Standard](rn/using/compatibility-matrix-gs.md)
    + Versions précédentes {#previous-releases}
+      + [Version 20.2](rn/using/release--20-2.md)
       + [Version 20.1](rn/using/release--20-1.md)
       + [Version 19.2](rn/using/release--19-2.md)
       + [Version 19.1](rn/using/release--19-1.md)
       + [Version 18.10](rn/using/release--18-10.md)
       + [Version 18.6](rn/using/release--18-6.md)
       + [Version 18.4](rn/using/release--18-4.md)
-   + Fonctionnalités obsolètes et compatibilité{#deprecated-compatibility}
-      + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
-      + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
+   + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
+   + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
 + Prise en main {#getting-started}
    + Prise en main d&#39;Adobe Campaign {#starting-with-adobe-campaign}
       + [Prise en main d&#39;Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -121,7 +123,10 @@ ht-degree: 98%
    + Envoi de notifications push {#sending-push-notifications}
       + [A propos de Mobile App Channel](delivery/using/about-mobile-app-channel.md)
       + [Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + [Paramétrage de l&#39;application mobile dans Adobe Campaign](delivery/using/configuring-the-mobile-application.md)
+      + Configuring the mobile application{#configure-the-mobile-app}
+         + [Prise en main de la configuration de l’application](delivery/using/get-started-app-config.md)
+         + [Etapes de configuration pour iOS](delivery/using/configuring-the-mobile-application.md)
+         + [Procédure de configuration pour Android](delivery/using/configuring-the-mobile-application-android.md)
       + [Créer des notifications](delivery/using/creating-notifications.md)
       + [Résolution des problèmes](delivery/using/troubleshooting.md)
    + Envoi de courrier {#sending-direct-mail}
@@ -336,8 +341,8 @@ ht-degree: 98%
    + Triggers Experience Cloud {#experience-triggers}
       + [À propos de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
-      + [Option de pipeline NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-      + [Événements Triggers](integrations/using/events.md)
+      + [Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
+      + [Configuration de événements pour une implémentation personnalisée](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
 + Automatisation et workflows {#automating-with-workflows}
