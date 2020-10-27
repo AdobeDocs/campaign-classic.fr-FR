@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 3bc88f9c-cc42-4bf6-a318-0093c73e4d82
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
+workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 100%
 
@@ -35,4 +35,3 @@ Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le co
 1. Sélectionnez l&#39;adresse de contrôle préalablement créée afin d&#39;afficher le message personnalisé.
 
    ![](assets/messagecenter_create_seedaddr_009.png)
-
