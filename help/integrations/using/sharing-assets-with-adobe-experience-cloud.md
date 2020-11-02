@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: d10624ea-d961-4162-879b-1754f897d763
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 84%
 
 ---
 
@@ -37,5 +37,5 @@ Consultez la section [Configurer l&#39;accès à Assets](../../integrations/usin
 
 >[!NOTE]
 >
->Si vous utilisez Adobe Campaign On-Premise, l&#39;intégration avec Assets core service et AEM Assets n&#39;est pas disponible, sauf si AEM Assets est également On-Premise.
+>Dans le cadre d’un environnement sur site Adobe Campaign, l’intégration avec le service principal Assets et avec AEM Assets n’est pas disponible, sauf si AEM Assets est également sur site.
 
