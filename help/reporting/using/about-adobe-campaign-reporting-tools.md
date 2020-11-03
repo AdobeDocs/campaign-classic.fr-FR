@@ -9,9 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: c5dad561-0708-4b7a-84a0-eb00beff58c6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
