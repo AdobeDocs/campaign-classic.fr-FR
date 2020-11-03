@@ -11,9 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
