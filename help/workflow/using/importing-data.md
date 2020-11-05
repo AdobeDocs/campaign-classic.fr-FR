@@ -9,9 +9,9 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
-translation-type: ht
-source-git-commit: b04d802ce1041aecbb60aeeabbd35b1d78c2451d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1e6ef4a3924e2cab0e6baf06e0861620e17d240b
+workflow-type: tm+mt
 source-wordcount: '2628'
 ht-degree: 100%
 
@@ -273,8 +273,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
    ![](assets/gpg_generate.png)
 
 1. Dans le système externe, utilisez la clé publique téléchargée à l’aide du panneau de contrôle pour crypter les données à importer dans Campaign Classic.
-
-   ![](assets/gpg_external.png)
 
 1. Dans Campaign Classic, créez un workflow pour importer les données cryptées et les décrypter à l’aide de la clé privée installée via le panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
