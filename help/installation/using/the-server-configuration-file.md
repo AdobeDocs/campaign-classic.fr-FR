@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '7852'
+source-wordcount: '7855'
 ht-degree: 99%
 
 ---
@@ -3220,7 +3220,7 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identifiant de l’organisation IMS : identifiant unique de l’organisation au sein d’Adobe Marketing Cloud, utilisé notamment pour le service VisitorId et pour le SSO IMS. <br /> </td> 
+   <td> Identity Management System (IMS) organization identifier: unique organization identifier within the Adobe Experience Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
