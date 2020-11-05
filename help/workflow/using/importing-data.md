@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 translation-type: tm+mt
-source-git-commit: 1e6ef4a3924e2cab0e6baf06e0861620e17d240b
+source-git-commit: 12a6409df4816519b979b911d7de03eae94bef33
 workflow-type: tm+mt
 source-wordcount: '2628'
 ht-degree: 100%
@@ -276,14 +276,14 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Dans Campaign Classic, créez un workflow pour importer les données cryptées et les décrypter à l’aide de la clé privée installée via le panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
-   ![](assets/gpg_workflow.png)
+   ![](assets/gpg_import_workflow.png)
 
    * Activité **[!UICONTROL Transfert de fichier]** : transfère le fichier d’une source externe vers Campaign Classic. Dans cet exemple, nous voulons transférer le fichier depuis un serveur SFTP.
    * Activité **[!UICONTROL Chargement (fichier)]** : charge les données du fichier dans la base de données et le décrypte à l’aide de la clé privée générée dans le panneau de contrôle.
 
 1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis spécifiez le compte externe à partir duquel vous souhaitez importer le fichier .gpg crypté.
 
-   ![](assets/gpg_transfer.png)
+   ![](assets/gpg_key_transfer.png)
 
    Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../workflow/using/file-transfer.md).
 
