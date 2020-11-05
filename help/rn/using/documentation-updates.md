@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 54ac5abcc53c41d025238a3c89f9d732c0fb1376
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
 source-wordcount: '3921'
 ht-degree: 96%
@@ -41,7 +41,7 @@ La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En sav
 Les notes de mise à jour et la matrice de compatibilité pour la version Gold Standard sont maintenant disponibles dans une section dédiée.
 [En savoir plus](../../rn/using/gold-standard.md#gs-10)
 
-L&#39;intégration des déclencheurs basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les E/S d&#39;Adobe. [En savoir plus](../../integrations/using/about-triggers.md)
+L&#39;intégration des déclencheurs basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les E/S d&#39;Adobe. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
 **Autres mises à jour**
 
