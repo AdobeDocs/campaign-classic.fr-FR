@@ -1,8 +1,6 @@
 ---
 title: Configuration des E/S d'Adobe pour les déclencheurs Adobe Experience Cloud
-seo-title: Configuration des E/S d'Adobe pour les déclencheurs Adobe Experience Cloud
-description: Configuration des E/S d'Adobe pour les déclencheurs Adobe Experience Cloud
-seo-description: null
+description: Découvrez comment configurer les E/S d'Adobe pour les déclencheurs Adobe Experience Cloud
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -15,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -25,15 +23,22 @@ ht-degree: 1%
 
 # Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud {#configuring-adobe-io}
 
-Les configurations préalables requises sont les suivantes :
+## Prérequis {#adobe-io-prerequisites}
 
-* Adobe Campaign Classic construit ACC-19.1.9 ou ACC-20.2.1 et versions ultérieures.
-* un IMSOrgID valide.
-* a Accès des développeurs à l&#39;organisation IMS. Vous devez demander les privilèges d&#39;administrateur système de l&#39;organisation IMS pour suivre la procédure décrite dans cette [page](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) afin de fournir cet accès à tous les Profils de produits.
+Avant de commencer cette mise en oeuvre, vérifiez que vous disposez des éléments suivants :
 
-## Étape 1 : Créer/mettre à jour un projet d&#39;E/S Adobe {#creating-adobe-io-project}
+* une version récente de Adobe Campaign : versions 19.1.8 ou 20.2.1 et ultérieures,
+* un IMSOrgID valide : l’identifiant d’organisation IMS (Identity Management System) est l’identifiant unique au sein du Adobe Experience Cloud, utilisé en particulier pour le service d’identification des visiteurs et l’authentification unique (SSO) IMS,
+* a Accès des développeurs à l&#39;organisation IMS.
 
-1. Accédez à l&#39;E/S de l&#39;Adobe et connectez-vous avec le droit Administrateur système pour IMSorg.
+>[!NOTE]
+>
+>Si vous devez demander les privilèges d&#39;administrateur système de l&#39;organisation IMS, suivez la procédure détaillée [dans cette page](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) pour fournir cet accès à tous les Profils de produits.
+
+
+## Étape 1 : Créer/mettre à jour un projet d&#39;E/S d&#39;Adobe {#creating-adobe-io-project}
+
+1. Accédez aux E/S d&#39;Adobe et connectez-vous avec le droit Administrateur système pour IMSorg.
 
    >[!NOTE]
    >
@@ -43,9 +48,9 @@ Les configurations préalables requises sont les suivantes :
 
    >[!NOTE]
    >
-   >Si votre ID de client est vide, vous pouvez directement **[!UICONTROL créer un nouveau projet]** dans les E/S d’Adobe.
+   >Si votre ID client est vide, vous pouvez directement **[!UICONTROL créer un nouveau projet]** dans les E/S d&#39;Adobe.
 
-1. Vous devez maintenant identifier le projet existant à l’aide de l’ID client extrait. Recherchez des projets existants avec le même ID client que celui extrait à l’étape précédente.
+1. Identifiez le projet existant à l’aide de l’ID client extrait. Recherchez des projets existants avec le même ID client que celui extrait à l’étape précédente.
 
    ![](assets/adobe_io_8.png)
 
@@ -53,7 +58,7 @@ Les configurations préalables requises sont les suivantes :
 
    ![](assets/adobe_io_1.png)
 
-1. Dans la fenêtre **[!UICONTROL Ajouter une API]**, sélectionnez **[!UICONTROL Adobe Analytics]**.
+1. Dans la fenêtre **[!UICONTROL Ajouter une API]** , sélectionnez **[!UICONTROL Adobe Analytics]**.
 
    ![](assets/adobe_io_2.png)
 
@@ -61,7 +66,7 @@ Les configurations préalables requises sont les suivantes :
 
    ![](assets/adobe_io_3.png)
 
-1. Si l’ID client est vide, sélectionnez **[!UICONTROL Générer une paire]** de clés pour créer une paire de clés publique et privée.
+1. Si votre ID client était vide, sélectionnez **[!UICONTROL Générer une paire]** de clés pour créer une paire de clés publique et privée.
 
    ![](assets/adobe_io_4.png)
 
@@ -83,7 +88,7 @@ Les configurations préalables requises sont les suivantes :
 
 ## Étape 2 : Ajouter les informations d’identification du projet dans Adobe Campaign {#add-credentials-campaign}
 
-Pour ajouter les informations d’identification du projet dans Adobe Campaign, exécutez la commande suivante en tant qu’utilisateur néolane sur tous les conteneurs de l’instance Adobe Campaign pour insérer les informations d’identification du compte **** technique dans le fichier de configuration de l’instance.
+Pour ajouter les informations d’identification du projet en Adobe Campaign, exécutez la commande suivante en tant qu’utilisateur néolane sur tous les conteneurs de l’instance Adobe Campaign pour insérer les informations d’identification du compte **** technique dans le fichier de configuration de l’instance.
 
 ```
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
