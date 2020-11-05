@@ -1,8 +1,6 @@
 ---
 title: Paramétrer IMS
-seo-title: Paramétrer IMS
-description: Paramétrer IMS
-seo-description: null
+description: Découvrez comment vous connecter via une Adobe ID
 page-status-flag: never-activated
 uuid: b659d29f-2a27-4a7b-b5ca-f44c3271dd4e
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: 279d0548-c876-4d5f-a195-48618bd5e9d1
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 97%
 
 ---
 
