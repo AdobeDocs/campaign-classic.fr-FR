@@ -1,8 +1,6 @@
 ---
-title: Configuration de l'intégration
-seo-title: Configuration de l'intégration
-description: Configuration de l'intégration
-seo-description: null
+title: Configuration des événements
+description: Découvrez comment configurer des événements pour une implémentation personnalisée
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 71%
+source-wordcount: '1205'
+ht-degree: 72%
 
 ---
 
@@ -28,9 +26,7 @@ Certaines parties de cette configuration sont un développement personnalisé et
 * connaissances opérationnelles des API QueryDef et Writer,
 * notions de cryptage et d&#39;authentification à l’aide de clés privées.
 
-Etant donné que la modification du code JS nécessite des compétences techniques, n&#39;essayez pas de le faire sans la bonne compréhension.
-
-Le traitement ultérieur des événements est effectué dans le cadre du package ACX fourni en dehors de l’implémentation par défaut. Le événement reçu est traité immédiatement à l’aide du code JavaScript. Il est enregistré dans une table de base de données sans autre traitement en temps réel. Les déclencheurs sont utilisés pour le ciblage par un processus de campagne qui envoie des courriers électroniques. La campagne est configurée pour que le client qui a déclenché le événement reçoive un courrier électronique.
+Etant donné que la modification du code Javascript nécessite des compétences techniques, n&#39;essayez pas sans la bonne compréhension.
 
 ## Événements de traitement dans JavaScript {#events-javascript}
 
@@ -40,7 +36,7 @@ Pipeline utilise une fonction JavaScript pour traiter chaque message. Cette fonc
 
 Elle est configurée dans l’option **[!UICONTROL NmsPipeline_Config]** sous l’attribut « JSConnector ». Ce JavaScript est appelé chaque fois qu’un événement est reçu. Il est exécuté par le processus [!DNL pipelined].
 
-L’exemple de fichier JS est cus:triggers.js.
+L’exemple de fichier JavaScript est cus:triggers.js.
 
 ### Fonction JavaScript {#function-js}
 
@@ -58,7 +54,7 @@ Elle doit être renvoyée comme
 <undefined/>
 ```
 
-Vous devez redémarrer [!DNL pipelined] après avoir modifié le fichier JS.
+Vous devez redémarrer [!DNL pipelined] après avoir modifié le code JavaScript.
 
 ### Format des données Trigger {#trigger-format}
 
@@ -136,7 +132,7 @@ Les messages en erreur sont repris plusieurs fois dans la durée définie dans l
 
 ### Analyse des données {#data-parsing}
 
-Cet exemple de code JS analyse l’eVar01 dans les enrichissements.
+Cet exemple de code JavaScript analyse l’eVar01 dans les enrichissements.
 
 ```
 function processPipelineMessage(xmlTrigger)
