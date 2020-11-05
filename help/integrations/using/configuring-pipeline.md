@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 24%
+source-wordcount: '919'
+ht-degree: 23%
 
 ---
 
@@ -48,13 +48,13 @@ Les configurations préalables requises sont les suivantes :
 
 L’authentification est requise car le pipeline est hébergé dans le Adobe Experience Cloud.
 Une paire de clés publique et privée est utilisée. Ce processus a la même fonction qu’un utilisateur/mot de passe mais est plus sécurisé.
-L&#39;authentification est prise en charge pour le Marketing Cloud via le projet d&#39;E/S Adobe.
+L&#39;authentification est prise en charge pour le Marketing Cloud via le projet d&#39;E/S d&#39;Adobe.
 
-## Étape 1 : Création/mise à jour d&#39;un projet d&#39;E/S Adobe {#creating-adobe-io-project}
+## Étape 1 : Création/mise à jour d&#39;un projet d&#39;E/S d&#39;Adobe {#creating-adobe-io-project}
 
-Pour les clients hébergés, vous pouvez créer un ticket de service à la clientèle afin d’activer votre organisation avec des jetons de compte technique E/S Adobe pour l’intégration Triggers.
+Pour les clients hébergés, vous pouvez créer un ticket d&#39;assistance clientèle pour permettre à votre entreprise d&#39;utiliser des jetons de compte technique d&#39;E/S d&#39;Adobe pour l&#39;intégration des déclencheurs.
 
-Pour les clients sur site, reportez-vous à la page [Configuration des E/S Adobe pour les déclencheurs](../../integrations/using/configuring-adobe-io.md) Adobe Experience Cloud. Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lors de l’ajout d’API aux informations d’identification d’E/S de l’Adobe.
+Pour les clients sur site, reportez-vous à la page [Configuration des E/S d’Adobe pour les déclencheurs](../../integrations/using/configuring-adobe-io.md) Adobe Experience Cloud. Notez que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lors de l’ajout d’API aux informations d’identification d’E/S de l’Adobe.
 
 ## Étape 2 : Configuration de l&#39;option de pipeline NmsPipeline_Config {#configuring-nmspipeline}
 
