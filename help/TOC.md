@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2151'
 ht-degree: 96%
 
 ---
@@ -339,7 +339,7 @@ ht-degree: 96%
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes de [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Triggers Experience Cloud {#experience-triggers}
-      + [À propos de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Commencer avec [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
       + [Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
       + [Configuration de événements pour une implémentation personnalisée](integrations/using/events.md)
