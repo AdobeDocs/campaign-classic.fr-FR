@@ -1,8 +1,6 @@
 ---
-title: Configuration de l'intégration
-seo-title: Configuration de l'intégration
-description: Configuration de l'intégration
-seo-description: null
+title: Configuration du pipeline
+description: Découvrez comment configurer le pipeline
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: f3caef21a269cf57624a07bfe1b4bf1e241061a6
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 23%
+source-wordcount: '923'
+ht-degree: 21%
 
 ---
 
@@ -32,17 +30,17 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 
 ## Prérequis {#prerequisites}
 
-L’utilisation de [!DNL Experience Cloud Triggers] dans Campaign requiert :
+Avant de démarrer cette configuration, vérifiez que vous disposez des éléments suivants :
 
-* Adobe Campaign version 19.1.9 ou 20.3.1. et ultérieure.
-* Version d’Analytics Standard.
+* une version récente de Adobe Campaign : versions 19.1.8 ou 20.2.1 et ultérieures,
+* Version de Adobe Analytics Standard
 
-Les configurations préalables requises sont les suivantes :
+Vous aurez également besoin de :
 
 * Authentification du projet d&#39;E/S Adobe
-* IMSOrgId, l’identifiant du client Experience Cloud auquel Adobe Analytics a ajouté.
-* L&#39;équipe de mise en service doit disposer des privilèges d&#39;administrateur système pour l&#39;organisation IMS du client
-* Configuration des déclencheurs dans Adobe Analytics
+* un IMSOrgID valide, l&#39;identifiant du client Experience Cloud avec Adobe Analytics ajouté
+* a Accès des développeurs à l&#39;organisation IMS
+* configuration des déclencheurs effectuée en Adobe Analytics
 
 ## Fichiers d’authentification et de configuration {#authentication-configuration}
 
