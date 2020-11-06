@@ -9,11 +9,11 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Les différents modèles d&#39;hébergement sont présentés [dans cette section
 | Configuration du serveur Campaign | À la demande | Disponible | Disponible | [En savoir plus](../../installation/using/the-server-configuration-file.md) |
 | Email Cci | À la demande | À la demande | Disponible | [En savoir plus](../../installation/using/email-archiving.md) |
 | Gérer l&#39;instance d&#39;exécution Message Center | À la demande | À la demande | Disponible | [En savoir plus](../../message-center/using/about-transactional-messaging.md) |
-| Gestion de la plate-forme de mid-sourcing | À la demande | À la demande | Disponible | [En savoir plus](../../installation/using/mid-sourcing-server.md) |
+| Gestion de la plateforme de mid-sourcing | À la demande | À la demande | Disponible | [En savoir plus](../../installation/using/mid-sourcing-server.md) |
 | Inbox Rendering via Litmus | À la demande | À la demande | Disponible | [En savoir plus](../../delivery/using/inbox-rendering.md) |
 | Intégration avec IMS (Adobe ID) | À la demande | À la demande | À la demande | [En savoir plus](../../integrations/using/about-adobe-id.md) |
 | Chiffrement/déchiffrement des données pour les transferts de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) |
