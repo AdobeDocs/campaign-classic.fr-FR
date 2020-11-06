@@ -9,9 +9,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Pour rappel, les composants suivants doivent être installés et correctement pa
 
 Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librairies requises.
 
-* La librairie C doit supporter le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été activé.
+* La bibliothèque C doit supporter le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été activé.
 
    Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
 
@@ -53,7 +53,7 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librai
 
    Pour les distributions RHEL 7, la version 1.0 d’OpenSSL est requise.
 
-* Pour utiliser Adobe Campaign, la librairie suivante doit être installée : **libicu**.
+* Pour utiliser Adobe Campaign, la bibliothèque suivante doit être installée : **libicu**.
 
    Les versions supportées de **libicu** sont les suivantes (distribution 32bits ou 64bits) :
 
@@ -61,7 +61,7 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librai
    * Debian 8 : libicu52
    * Debian 9 : libicu57
 
-   Pour utiliser Adobe Campaign, la librairie libc-ares doit être installée. Sous RHEL/CentOS, exécutez la commande suivante :
+   Pour utiliser Adobe Campaign, la bibliothèque libc-ares doit être installée. Sous RHEL/CentOS, exécutez la commande suivante :
 
    ```
    yum install c-ares
@@ -181,7 +181,7 @@ L&#39;utilisation de PostgreSQL avec Adobe Campaign requiert également l&#39;in
 
 ### Oracle {#oracle}
 
-Récupérez la version des librairies pour Debian 64 bits, soit : **libclntsh.so**, **libclntsh.so.11.1** et **libclntsh.so.10.1**.
+Récupérez la version des bibliothèques pour Debian 64 bits, soit : **libclntsh.so**, **libclntsh.so.11.1** et **libclntsh.so.10.1**.
 
 Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
@@ -193,7 +193,7 @@ Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
 Les problèmes peuvent survenir après la mise à jour ou le changement de version d&#39;un client ou d&#39;un serveur Oracle ou lors de la première installation de l&#39;instance.
 
-Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires inattendus (une ou plusieurs heures) entre les logs, le dernier traitement de workflow, le traitement suivant, etc, il pourrait y avoir un problème entre la librairie du client Oracle et le serveur Oracle. Pour éviter ces problèmes :
+Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires inattendus (une ou plusieurs heures) entre les logs, le dernier traitement de workflow, le traitement suivant, etc, il pourrait y avoir un problème entre la bibliothèque du client Oracle et le serveur Oracle. Pour éviter ces problèmes :
 
 1. Assurez-vous d&#39;utiliser la version **cliente complète**.
 
@@ -209,7 +209,7 @@ Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires i
 
 ### DB2 {#db2}
 
-La version des librairies supportées est **libdb2.so**.
+La version des bibliothèques prises en charge est **libdb2.so**.
 
 ## Etapes de mise en oeuvre {#implementation-steps}
 
