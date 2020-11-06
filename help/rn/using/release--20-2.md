@@ -1,6 +1,6 @@
 ---
-title: Version 20.2
-description: Version 20.2
+title: Version 20.2
+description: Version 20.2
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -9,16 +9,16 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aeae6320f9b8de8618f7e5f07bc586d1b101611f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2183'
 ht-degree: 100%
 
 ---
 
 
-# Version 20.2{#release-20-2}
+# Version 20.2{#release-20-2}
 
 ![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
@@ -242,7 +242,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d’un problème en raison duquel des doublons d’emails transactionnels étaient envoyés après correction d’un échec de communication du serveur de tracking. (NEO-23640)
 * Correction d’un problème en raison duquel la valeur du paramètre de codage était supprimée lors de la redirection à partir d’une URL de tracking (impact sur les caractères japonais). (NEO-25637)
 * Correction d’un problème en raison duquel une requête ne fonctionnait pas lors de la comparaison de nombres flottants. (NEO-23243)
-* Correction d’un problème en raison duquel le contenu de la colonne **Modifié par** ne s’affichait pas après le redémarrage d’un workflow. (NEO-23035)
+* Correction d’un problème en raison duquel le contenu de la colonne **Modification par** ne s’affichait pas après le redémarrage d’un workflow. (NEO-23035)
 * Correction d’un problème en raison duquel le workflow technique de tracking échouait lors du téléchargement des logs à partir d’un deuxième conteneur. (NEO-23159)
 * Correction d’un problème en raison duquel les workflows échouaient lors de l’exécution d’une activité d’**enrichissement**. (NEO-17338)
 * Une vérification a été ajoutée au champ **Doublons à conserver** dans l’activité de workflow **Déduplication** afin d’empêcher la saisie de valeurs &quot;null&quot; ou négatives.
