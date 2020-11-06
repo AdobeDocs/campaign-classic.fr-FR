@@ -9,11 +9,11 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 discoiquuid: 0e17abea-5e86-43b5-8bca-ee39d9b24c90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a3cdf40da579fc3c4c7fc26b10c160543cc45d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Voici la procédure pour restaurer la version v6.1 à partir de la version v7.
 1. Redémarrez IIS.
 1. Redémarrez le service Adobe Campaign v6.1.
 
-## Restauration vers Campaign v6.02
+## Restauration de Campaign v6.02
 
 Voici la procédure pour restaurer la version v6.02 à partir de la version v7.
 
@@ -46,7 +46,7 @@ Voici la procédure pour restaurer la version v6.02 à partir de la version v7.
 1. Redémarrez IIS.
 1. Redémarrez le service Adobe Campaign v6.02.
 
-## Restauration vers Campaign v5.11
+## Restauration de Campaign v5.11
 
 Voici la procédure pour restaurer la version v5.11 à partir de la version v7.
 
