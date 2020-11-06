@@ -13,20 +13,20 @@ translation-type: tm+mt
 source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Version Gold Standard{#gold-standard}
 
-Gold Standard est une version de support à long terme Campaign Classic. En tant qu’utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à niveau Gold Standard avec la dernière version stable sans que vous n’ayez aucune action à effectuer. Les clients On-premise et hybrides peuvent également bénéficier des versions Gold Standard.
+Gold Standard est la version de prise en charge à long terme de Campaign Classic. En tant qu’utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à niveau Gold Standard avec la dernière version stable sans que vous n’ayez aucune action à effectuer. Les clients On-premise et hybrides peuvent également bénéficier des versions Gold Standard.
 
 Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version.
 
 Cette page répertorie les versions Gold Standard.
 
-For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
+[Pour plus d’informations sur la mise à niveau de Campaign Gold Standard, consultez cet article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
 ## ![](assets/do-not-localize/green_2.png) Version Gold Standard 10{#gs-10}
 
@@ -38,7 +38,7 @@ Correction d’un problème qui empêchait le tracking de fonctionner lorsque la
 
 >[!CAUTION]
 >
->Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Refer [to this page](../../installation/using/installing-the-client-console.md)
+>Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez [cette page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 9{#gs-9}
 
@@ -48,7 +48,7 @@ Le build 9032@800be2e comprend les correctifs suivants :
 
 * Le connecteur HTTP2 iOS a été amélioré (mises à jour tierces et gestion des erreurs). (NEO-25904, NEO-25903, NEO-25799)
 
-The following fixes are related to the tracking link security mechanism (learn more in the [Security and Privacy checklist](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)):
+Les correctifs suivants sont liés au mécanisme de sécurité des liens de tracking (apprenez-en davantage dans la [liste de contrôle Sécurité et confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)) :
 
 * Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
 * Correction d’un problème qui pouvait empêcher d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook.  (NEO-25688)
@@ -67,7 +67,7 @@ Le build 9032@3a9dc9c comprend les correctifs suivants :
 
 >[!CAUTION]
 >
->Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. The procedure is detailed [in this page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
+>Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
