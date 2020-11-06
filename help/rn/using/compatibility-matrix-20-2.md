@@ -9,9 +9,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
 ht-degree: 100%
 
