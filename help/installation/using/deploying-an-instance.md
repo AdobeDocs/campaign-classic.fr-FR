@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3203'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section Modèles [d’](../../installation/using/hosting-models.md) hébergement ou [cette page](../../installation/using/capability-matrix.md).
+>Pour les déploiements hébergés par Adobe, les configurations côté serveur ne peuvent être effectuées que par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
 ## L&#39;assistant de déploiement {#deployment-wizard}
 
@@ -58,7 +58,7 @@ La section inférieure de la fenêtre permet de sélectionner les options à act
 
 * **[!UICONTROL Identifiant client pour la facturation]** : il peut s&#39;agir par exemple du nom de l&#39;instance et du numéro de version.
 * **[!UICONTROL Nom usuel du client]** : saisissez le nom de votre société. Cette information est notamment utilisée notamment dans les liens de désabonnement.
-* **[!UICONTROL Espace de nommage]** : saisissez ici un identifiant court, en minuscules. L&#39;objectif consiste à distinguer votre configuration spécifique de la configuration d&#39;usine en cas de mise à jour. L&#39;espace de nommage par défaut est **cus** - pour customer (client).
+* **[!UICONTROL Espace de noms]** : saisissez ici un identifiant court, en minuscules. L&#39;objectif consiste à distinguer votre configuration spécifique de la configuration d&#39;usine en cas de mise à jour. L&#39;espace de nommage par défaut est **cus** - pour customer (client).
 
 ### Options techniques {#technical-options}
 
@@ -87,7 +87,7 @@ Indiquez les paramètres suivants :
 * **[!UICONTROL Adresse expéditeur]** : l&#39;adresse email de l&#39;expéditeur,
 * **[!UICONTROL Nom de l&#39;adresse de réponse]** : le nom, personnalisable, qui sera utilisé lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie,
 * **[!UICONTROL Adresse de réponse]** : l&#39;adresse email à utiliser lorsque le destinataire clique sur le bouton **[!UICONTROL Répondre]** de son logiciel de messagerie,
-* **[!UICONTROL Adresse d&#39;erreur]** : l&#39;adresse email des messages en erreur. Il s&#39;agit d&#39;une adresse technique utilisée pour gérer les rebonds, notamment les emails reçus par le serveur Adobe Campaign si les adresses ciblés n&#39;existent pas.
+* **[!UICONTROL Adresse d&#39;erreur]** : l&#39;adresse email des messages en erreur. Il s&#39;agit d&#39;une adresse technique utilisée pour gérer les rebonds, notamment les emails reçus par le serveur Adobe Campaign si les adresses cible n&#39;existent pas.
 
 En complément, vous pouvez indiquer les **masques** autorisés pour l&#39;adresse expéditeur et l&#39;adresse d&#39;erreur. Au besoin, ces masques doivent être séparés les uns des autres par une virgule. Ce paramétrage est facultatif. Lorsque ces champs sont renseignés, Adobe Campaign contrôle, au moment de l&#39;envoi (ou au moment de l&#39;analyse, lorsque l&#39;adresse ne contient pas d&#39;éléments variables), que les adresses renseignées dans la diffusion sont valables. Ce fonctionnement permet d&#39;éviter l&#39;utilisation d&#39;adresses qui pourraient poser des problème de délivrabilité. Les adresses d&#39;expédition doivent être configurées sur le serveur d&#39;envoi.
 
@@ -156,7 +156,7 @@ Les mails rebonds sont traités de façon automatique par Adobe Campaign, en app
 
 Les mails rebonds non traités ne sont pas affichés dans l’interface Adobe Campaign. Ils sont supprimés automatiquement à moins qu’ils ne soient transférés à une boîte de tierce partie au moyen des champs suivants :
 
-* **[!UICONTROL Adresse de transfert]** : remplissez ce champ pour transférer vers une adresse tierce tous les messages d’erreurs (traitées ou non) collectés par la plate-forme Adobe Campaign.
+* **[!UICONTROL Adresse de transfert]** : remplissez ce champ pour transférer vers une adresse tierce tous les messages d’erreurs (traitées ou non) collectés par la plateforme Adobe Campaign.
 * **[!UICONTROL Adresse pour les erreurs]** : remplissez ce champ pour transférer vers une adresse tierce uniquement les messages d’erreurs que le processus inMail n’a pas été en mesure de qualifier.
 * **[!UICONTROL Serveur SMTP]** : serveur utilisé pour envoyer les mails rebonds non traités.
 
@@ -275,7 +275,7 @@ L&#39;étape suivante permet de définir les paramètres par défaut lors des di
 
 ![](assets/s_ncs_install_deployment_wiz_12.png)
 
-### Compte par défaut pour le routage des SMS {#default-account-for-sms-delivery}
+### Compte par défaut pour la diffusion des SMS {#default-account-for-sms-delivery}
 
 Renseignez les informations suivantes :
 
