@@ -1,6 +1,6 @@
 ---
-title: Mise à jour de version à une nouvelle version
-description: Découvrez les étapes techniques de la mise à niveau vers une nouvelle version
+title: Mise à niveau  vers un nouveau build
+description: Découvrez les étapes techniques de la mise à niveau vers un nouveau build
 page-status-flag: never-activated
 uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
 contentOwner: sauviat
@@ -9,16 +9,16 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Mise à niveau vers une nouvelle version (sur site){#upgrading}
+# Mise à niveau vers un nouveau build (on-premise){#upgrading}
 
 Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Adobe Campaign vers laquelle s&#39;effectue la mise à jour et consultez les [notes de mises à jour](../../rn/using/latest-release.md) .
 
@@ -163,7 +163,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 
 ### Redémarrer le serveur web {#reboot-the-web-server}
 
-Vous devez arrêter Apache afin que la nouvelle librairie soit prise en compte.
+Vous devez arrêter Apache afin que la nouvelle bibliothèque soit prise en compte.
 
 Pour cela exécutez la commande :
 
@@ -175,7 +175,7 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
-   >Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle librairie.
+   >Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 >
 
