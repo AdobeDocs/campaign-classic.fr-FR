@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3042'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La section ci-après présente les paramétrages nécessaires pour contrôler le
 
 >[!NOTE]
 >
->Certaines configurations ne peuvent être effectuées que par Adobe pour des déploiements hébergés par Adobe, par exemple pour accéder aux fichiers de configuration du serveur et des instances. Pour en savoir plus sur les différents déploiements, consultez la section Modèles [d’](../../installation/using/hosting-models.md) hébergement ou [cette page](../../installation/using/capability-matrix.md).
+>Pour les déploiements hébergés par Adobe, certaines configurations ne peuvent être effectuées que par Adobe comme l’accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
 Pour en savoir plus sur les concepts et les bonnes pratiques relatifs à la délivrabilité, voir cette [section](../../delivery/using/about-deliverability.md).
 
@@ -40,7 +40,7 @@ Le débit d&#39;une ou plusieurs instances Adobe Campaign peut être contrôlé 
 
 Le débit des messages doit être contrôlé pour chacune des adresses IP utilisées par les serveurs de diffusion (**mta**) pour l&#39;envoi des emails. Plusieurs **mta** repartis sur plusieurs machines et appartenant à différentes instances Adobe Campaign peuvent partager les mêmes adresses IP pour l&#39;envoi d&#39;emails : il est donc nécessaire qu&#39;un processus coordonne l&#39;utilisation de ces adresses IP.
 
-C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#39;ouvertures de connexions et d&#39;envois de messages vers les serveurs de messagerie pour un ensemble d&#39;adresses IP. Le serveur de statistiques maintient ainsi le compte des envois et peut autoriser ou refuser les envois dans le temps en fonction des quotas définis.
+C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#39;ouvertures de connexions et d&#39;envois de messages vers les serveurs de messagerie pour un ensemble d&#39;adresses IP. Le serveur de statistiques maintient ainsi le compte des diffusion et peut autoriser ou refuser les envois dans le temps en fonction des quotas définis.
 
 ![](assets/s_ncs_install_mta.png)
 
@@ -78,7 +78,7 @@ Parallèlement, le module charge une liste de limitations pour certains serveurs
 
 Le serveur de statistiques peut fédérer plusieurs instances ou plusieurs machines si elles partagent les mêmes adresses IP publiques. Il n&#39;est donc pas rattaché à une instance particulière, mais il doit néanmoins en contacter une pour récupérer les limitations par domaine.
 
-Les statistiques d&#39;envoi sont conservées pour chaque MX cible et pour chaque IP source. Par exemple, si le domaine ciblé possède 5 MX et la plateforme peut utiliser 3 adresses IP différentes, le serveur pourra gérer jusqu&#39;à 15 séries d&#39;indicateurs pour ce domaine.
+Les statistiques de diffusion sont conservées pour chaque MX cible et pour chaque IP source. Par exemple, si le domaine ciblé possède 5 MX et la plateforme peut utiliser 3 adresses IP différentes, le serveur pourra gérer jusqu&#39;à 15 séries d&#39;indicateurs pour ce domaine.
 
 L&#39;adresse IP source correspond à l&#39;adresse IP publique, c&#39;est-à-dire à l&#39;adresse telle qu&#39;elle est vue par le serveur de messagerie distant. Cette adresse IP peut différer de celle de la machine hébergeant le **mta**, si un routeur NAT est présent. Pour cette raison, le serveur de statistiques utilise un identifiant correspondant à l&#39;IP publique (**publicId**). L&#39;association entre l&#39;adresse locale et cet identifiant est déclarée dans le fichier de configuration **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
@@ -88,11 +88,11 @@ Pour diffuser les messages vers les serveurs de messagerie, le composant **Email
 
 Avant l&#39;envoi des messages, le module demande des &#39;jetons&#39; au serveur. Généralement, il s&#39;agit d&#39;un lot minimum de 10 jetons, afin de réduire le nombre de requêtes auprès du serveur.
 
-Le serveur conserve en mémoire toutes les statistiques de connexion et d&#39;envoi. En cas de redémarrage, les informations sont provisoirement perdues : chacun des clients conserve localement une copie de ses statistiques d&#39;envoi et les retourne régulièrement au serveur (toutes les 2 minutes). Le serveur peut alors ré-agréger les données.
+Le serveur conserve en mémoire toutes les statistiques de connexion et de diffusion. En cas de redémarrage, les informations sont provisoirement perdues : chacun des clients conserve localement une copie de ses statistiques d&#39;envoi et les retourne régulièrement au serveur (toutes les 2 minutes). Le serveur peut alors ré-agréger les données.
 
 Les sections suivantes décrivent le traitement d&#39;un message par le composant **Email Traffic Shaper**.
 
-### Envoi d&#39;un message {#message-delivery}
+### Diffusion d&#39;un message {#message-delivery}
 
 Lorsqu&#39;un message est envoyé, 3 résultats sont possibles :
 
@@ -102,7 +102,7 @@ Lorsqu&#39;un message est envoyé, 3 résultats sont possibles :
 
    >[!NOTE]
    >
-   >Un **chemin** désigne une connexion entre le **mta** Adobe Campaign et le **mta** destination, le **mta** Adobe Campaign pouvant choisir parmi plusieurs IP de départ et plusieurs adresses IP du domaine destination.
+   >Un **chemin** désigne une connexion entre le **mta** Adobe Campaign et **mta** la cible, **mta** Adobe Campaign pouvant choisir parmi plusieurs IP de départ et plusieurs adresses IP du domaine destination.
 
 ### Abandon d&#39;un message {#message-abandonment}
 
@@ -292,7 +292,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
 * **[!UICONTROL Timeout Data]** : durée maximale d&#39;attente d&#39;une réponse du serveur après l&#39;envoi du contenu du message (section DATA du protocole SMTP).
 * **[!UICONTROL Timeout]** : durée maximale d&#39;attente de réponse pour les autres échanges avec le serveur SMTP.
-* **[!UICONTROL TLS]** : le protocole TLS, qui permet de crypter l&#39;émission des emails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
+* **[!UICONTROL TLS]** : le protocole TLS, qui permet de crypter la diffusion des emails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
 
    * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
 
@@ -301,7 +301,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
       >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
 
    * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans cryptage.
-   * **[!UICONTROL Opportuniste]** : l&#39;envoi des messages est crypté si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
+   * **[!UICONTROL Opportuniste]** : la diffusion des messages est cryptée si le serveur de réception (SMTP) est capable de gérer le protocole TLS.
 
 Exemple de paramétrage :
 
@@ -388,7 +388,7 @@ Les paramètres sont les suivants :
 
 >[!NOTE]
 >
->Dans le fichier serverConf.xml, vous devez vérifier qu’une adresse IP correspond à un seul hôte helohost, avec un identifiant unique (public_id). Elle ne peut pas être mappée à plusieurs hôtes helohost, car cela pourrait entraîner des problèmes de limitation du flux.
+>Dans le fichier serverConf.xml, vous devez vérifier qu’une adresse IP correspond à un seul hôte helohost, avec un identifiant unique (public_id). Elle ne peut pas être mappée à plusieurs hôtes helohost, car cela pourrait entraîner des problèmes de contrôle de flux de diffusion.
 
 Dans l&#39;exemple précédent, en condition normale, les adresses seront utilisées selon la répartition suivante :
 
@@ -411,7 +411,7 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
 
 ## Optimisation de l&#39;envoi d&#39;emails {#email-sending-optimization}
 
-L&#39;architecture interne du **mta** Adobe Campaign a un impact sur le paramétrage pour optimiser l&#39;envoi d&#39;emails. Voici quelques conseils pour améliorer les envois.
+L&#39;architecture interne du **mta** Adobe Campaign a un impact sur le paramétrage pour optimiser la diffusion d&#39;emails. Voici quelques conseils pour améliorer les diffusions.
 
 ### Ajuster le paramètre maxWaitingMessages {#adjust-the-maxwaitingmessages-parameter}
 
