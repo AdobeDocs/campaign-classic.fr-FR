@@ -9,11 +9,11 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -28,21 +28,21 @@ C&#39;est la raison pour laquelle nous pensons qu&#39;il est important que vous 
 
 ## Statuts des versions{#rn-statuses}
 
-Un état est associé à chaque build. Vous trouverez ci-dessous la liste des statuts et leur interprétation.
+Un statut est associé à chaque build. Vous trouverez ci-dessous la liste des statuts et leur interprétation.
 
-![](assets/do-not-localize/green3.png) **Disponibilité** générale (GA) - Validée en production et recommandée par l&#39;Adobe.
+![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
 
-The **last GA build** is Gold Standard 10. Cliquez [ici](../../rn/using/gold-standard.md#gs-10)
+La **dernière version de GA** est Gold Standard 10. Cliquez [ici](../../rn/using/gold-standard.md#gs-10)
 
-![](assets/do-not-localize/limited3.png) **Disponibilité** limitée (LA) - Déploiement à la demande uniquement.
+![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Dernière version dotée de nouvelles fonctionnalités.
 
-La **dernière version** de RC est Campaign Classic 20.3. Cliquez [ici](../../rn/using/latest-release.md)
+Le **dernier build de RC** est Campaign Classic 20.3. Cliquez [ici](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/orange3.png) **Plus disponible** - La mise à jour vers une version plus récente est requise.
+![](assets/do-not-localize/orange3.png) **Plus disponible** - La mise à jour vers un build plus récent est requise.
 
-![](assets/do-not-localize/red3.png) **Obsolète** - La mise à jour vers une nouvelle version est obligatoire.
+![](assets/do-not-localize/red3.png) **Obsolète** - La mise à jour vers un nouveau build est obligatoire.
 
 ## Recommandations{#recommendations}
 
@@ -58,10 +58,10 @@ En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Po
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-As a Gold Standard user, you will automatically benefit from the Gold Standard upgrade with the [latest GA build](../../rn/using/gold-standard.md#gs-10) without any action. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
+En tant qu’utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à niveau Gold Standard avec la [dernière version de GA](../../rn/using/gold-standard.md#gs-10) sans que vous n’ayez aucune action à effectuer. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
 >[!NOTE]
->La matrice de compatibilité pour Gold Standard est disponible dans la matrice [de compatibilité](../../rn/using/compatibility-matrix-gs.md)GA.
+>La matrice de compatibilité pour Gold Standard est disponible dans la [Matrice de compatibilité GA](../../rn/using/compatibility-matrix-gs.md).
 
 ## Support et autres liens utiles{#support}
 
