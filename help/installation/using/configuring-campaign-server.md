@@ -11,9 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3615'
 ht-degree: 100%
 
@@ -212,7 +212,7 @@ Au préalable, vous devez configurer l&#39;énumération d&#39;usine **[!UICONTR
 
 Ce paramétrage est effectué dans l&#39;explorateur Campaign :
 
-1. Cliquez sur le nœud **[!UICONTROL Administration > Plate-Forme > Enumérations]**.
+1. Cliquez sur le nœud **[!UICONTROL Administration > Plateforme > Enumérations]**.
 1. Sélectionnez l&#39;énumération système **[!UICONTROL Zone de sécurité (securityZone)]**.
 
    ![](assets/enum_securityzone.png)
