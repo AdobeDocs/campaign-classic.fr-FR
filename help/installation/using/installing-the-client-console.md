@@ -1,6 +1,6 @@
 ---
 title: Installation de la console
-description: Découvrez comment installer la console client
+description: Découvrez comment installer la console cliente
 page-status-flag: never-activated
 uuid: 1279c0d8-bf27-4a58-ae94-796d6147231a
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bdc09e1b6e037e1b21573b8624a947e30f8ad1fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
