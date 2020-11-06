@@ -1,6 +1,6 @@
 ---
 title: Création d'une liste de profils avec un workflow
-description: Découvrez comment créer une liste de profil dans un processus
+description: Découvrez comment créer une liste de profils dans un workflow
 page-status-flag: never-activated
 uuid: a30f7217-fe82-4290-b1e6-e7a126a316c1
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Pour plus d&#39;informations sur les listes dans Campaign, consultez [cette sect
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
 
-Pour créer un processus de ciblage et mettre à jour des destinataires dans un tableau de destinataires personnalisé, procédez comme suit :
+Pour créer un workflow de ciblage et mettre à jour des destinataires dans une table de destinataires personnalisée, procédez comme suit :
 
 1. Ouvrez le nœud **[!UICONTROL Profils et cibles > Traitements > Workflows de ciblage]** dans l&#39;explorateur.
 1. Créez un nouveau workflow de ciblage.
