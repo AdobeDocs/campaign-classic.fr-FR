@@ -9,11 +9,11 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign propose trois modèles d’hébergement, ce qui offre la liberté
 
 >[!NOTE]
 >
->Pour les environnements hébergés par Adobe, les étapes principales d&#39;installation et de configuration ne peuvent être exécutées que par Adobe, comme la configuration du serveur et la personnalisation des fichiers de configuration d&#39;instance. To learn more about the main differences between deployment modes, refer to [this page](../../installation/using/capability-matrix.md).
+>Pour les environnements hébergés par Adobe, les étapes principales d&#39;installation et de configuration ne peuvent être exécutées que par Adobe, comme la configuration du serveur et la personnalisation des fichiers de configuration d&#39;instance. Pour en savoir plus sur les principales différences entre les modes de déploiement, consultez [cette page](../../installation/using/capability-matrix.md).
 
 * **Services gérés (hébergé)**
 
