@@ -1,6 +1,6 @@
 ---
-title: Installation d’un serveur de midsourcing dans Campaign
-description: Cette section décrit l'installation et la configuration d'un serveur de mid-sourcing dans  Campaign 
+title: Installation d'un serveur de mid-sourcing dans Campaign
+description: Cette section décrit l'installation et la configuration d'un serveur de mid-sourcing dans Campaign
 page-status-flag: never-activated
 uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 270c86a8a15ebe38907be258aed9d245d2a49b6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 
    >[!CAUTION]
    >
-   >Si vous installez un serveur de mid-sourcing et que vous souhaitez installer des modules Adobe Campaign supplémentaires, il est déconseillé de choisir le module Campaign. Préférez le module Delivery.
+   >Si vous installez un serveur de mid-sourcing et que vous souhaitez installer des modules Adobe Campaign supplémentaires, il est déconseillé de choisir le module Campaign. Préférez le module Diffusion.
 
    Suivez la même procédure que pour un déploiement standard en sélectionnant uniquement l&#39;option **[!UICONTROL Plateforme de Mid-sourcing]**.
 
