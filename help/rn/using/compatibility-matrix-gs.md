@@ -1,6 +1,6 @@
 ---
 title: Matrice de compatibilité Gold Standard
-description: Matrice de compatibilité des Campaign Classic pour la version Gold Standard
+description: Matrice de compatibilité Campaign Classic pour la version Gold Standard
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fd
 contentOwner: sauviat
@@ -9,18 +9,18 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7p
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e615b2420d126cd42ed52257491282b36975f9ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Matrice de compatibilité Gold Standard{#compatibility-matrix-gs}
 
-Ce document liste tous les systèmes et composants pris en charge pour les versions de **Adobe Campaign Classic Gold Standard** 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec Adobe Campaign.
+Ce document répertorie tous les systèmes et composants pris en charge pour les builds **Adobe Campaign Classic Gold Standard** 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec Adobe Campaign.
 
 ## Remarques importantes{#important-notes-gs}
 
@@ -80,7 +80,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <td>Apache</td>
 <td>
 <p>2.4 pour RHEL7 - CentOS 7, Debian 8/9, Windows (64 bits)</p>
-<p>2.2 pour RHEL6 - CentOS 6 uniquement (64 bits)</p>
+<p>2.2 pour RHEL6 - CentOS 6 uniquement (64 bits)</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +155,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <td>DB2 UDB</td>
 <td>
 <p>9.7</p>
-<p>Avertissement : DB2 UDB n'est pas autorisé pour les nouvelles installations.</p>
+<p>Avertissement : DB2 UDB n'est pas autorisé pour les nouvelles installations.</p>
 </td>
 </tr>
 </tbody>
@@ -228,22 +228,22 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>5,7</p>
+<p>5.7</p>
 </td>
 </tr>
 <tr>
 <td>Teradata</td>
 <td>
-<p>16,20</p>
+<p>16.20</p>
 <p>16</p>
-<p>15,10</p>
-<p>15,0</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
-<p>7,2</p>
+<p>7.2</p>
 </td>
 </tr>
 <tr>
@@ -317,9 +317,9 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 
 ## Navigateurs{#Browsers-gs}
 
-Pour les navigateurs suivants, la dernière version est prise en charge : Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+Pour les navigateurs suivants, la dernière version est prise en charge : Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
 
-Internet Explorer 11 est pris en charge.
+Internet Explorer 11 est pris en charge.
 
 ## Articles connexes{#Morelikethis-gs}
 
