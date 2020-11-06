@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
 ht-degree: 100%
 
