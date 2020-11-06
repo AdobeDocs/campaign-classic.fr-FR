@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -32,5 +32,5 @@ Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas né
 >Adobe pour les déploiements hébergés par Adobe. Par exemple, pour
 >configurer les fichiers de configuration du serveur et de l’instance.
 >
->To learn more about the main differences between deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to the [Feature differences for hosted and on-premise deployments](../../installation/using/capability-matrix.md).
+>Pour en savoir plus sur les principales différences entre les déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [Différences de fonctionnalités pour les déploiements hébergés et on-premise](../../installation/using/capability-matrix.md).
 
