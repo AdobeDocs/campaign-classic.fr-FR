@@ -26,7 +26,7 @@ La configuration globale d’Adobe Campaign est définie dans le fichier **serve
 
 >[!NOTE]
 >
->Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section Modèles [d’](../../installation/using/hosting-models.md) hébergement ou [cette page](../../installation/using/capability-matrix.md). Les étapes d&#39;installation et de configuration des modèles hébergés et hybrides sont présentées dans cette [section](../../installation/using/hosted-model.md).
+>Pour les déploiements hébergés par Adobe, les configurations côté serveur ne peuvent être effectuées que par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md). Les étapes d&#39;installation et de configuration des modèles hébergés et hybrides sont présentées dans cette [section](../../installation/using/hosted-model.md).
 
 Les premiers paramètres se trouvent dans le nœud **shared**. Ils sont liés à l’instance et peuvent être utilisés par toutes les commandes nlserver (nlserver web, nlserver wfserver, etc.). Les autres sections se rapportent à une sous-commande spécifique de nlserver.
 
@@ -105,7 +105,7 @@ Voici les différents paramètres du nœud **authentication** :
   </tr> 
   <tr> 
    <td> sessionCacheSec<br /> </td> 
-   <td> Durée du cache : cache des informations de session en secondes.<br /> </td> 
+   <td> Durée de mise en cache : cache des informations de session en secondes.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -523,7 +523,7 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   </tr> 
   <tr> 
    <td> nameServers<br /> </td> 
-   <td> Serveur DNS : liste séparée par des virgules des serveurs de noms (DNS). Voir la note ci-dessous.<br /> </td> 
+   <td> Serveur DNS : liste séparée par des virgules des serveurs de noms de domaines (DNS). Voir la note ci-dessous.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -705,7 +705,7 @@ Voici les différents paramètres du nœud **mailExchanger**. Il s’agit de la 
 
 ## module {#module}
 
-Voici les différents paramètres du nœud **module**. Il s’agit de la configuration du module de restriction des espaces de nommage xtk.
+Voici les différents paramètres du nœud **module**. l s’agit de la configuration du module de restriction des espaces de noms xtk.
 
 <table> 
  <thead> 
@@ -719,7 +719,7 @@ Voici les différents paramètres du nœud **module**. Il s’agit de la configu
  <tbody> 
   <tr> 
    <td> defaultNameSpace<br /> </td> 
-   <td> Espace de nommage par défaut lors de la création d’une nouvelle entité.<br /> </td> 
+   <td> Espace de noms par défaut utilisé lors de la création d’une nouvelle entité.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
@@ -1123,7 +1123,7 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
   </tr> 
   <tr> 
    <td> smtpEnableTLS<br /> </td> 
-   <td> Activer le support SMTPS : active l’envoi des emails en mode sécurisé (STARTTLS/SMTPS) si le serveur distant le supporte.<br /> </td> 
+   <td> Activer le support SMTPS : active la diffusion des emails en mode sécurisé (STARTTLS/SMTPS) si le serveur distant le supporte.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1541,7 +1541,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
-   <td> Adresse du serveur des statistiques d’envois, sous la forme
+   <td> Adresse du serveur des statistiques de diffusion, sous la forme
     &lt;dns or ip&gt; 
       <code>[</code> : 
      &lt;port&gt; 
@@ -1742,7 +1742,7 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> Durée maximale de rétention d’un message. Si un message préparé ne peut être envoyé à cause du contrôle de flux ou de l’impossibilité de se connecter au MTA du destinataire, le message préparé est abandonné et sera traité lors de la prochaine reprise.<br /> </td> 
+   <td> Durée maximale de rétention d’un message. Si un message préparé ne peut être envoyé à cause du contrôle de flux ou de l’impossibilité de se connecter au MTA cible, le message préparé est abandonné et sera traité lors de la prochaine reprise.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1805,7 +1805,7 @@ Dans le nœud **mta > child > smtp**, configurez les paramètres suivants. Il 
  <tbody> 
   <tr> 
    <td> enableTLS<br /> </td> 
-   <td> Active l’envoi des emails en mode sécurisé (STARTTLS/SMTPS) si le serveur distant le supporte.<br /> </td> 
+   <td> Active la diffusion des emails en mode sécurisé (STARTTLS/SMTPS) si le serveur distant le supporte.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
