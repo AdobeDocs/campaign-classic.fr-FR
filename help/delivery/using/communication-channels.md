@@ -12,19 +12,19 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: e01acc00d0b15df99c009fe29d170ed0fc9fa956
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 100%
+source-wordcount: '1192'
+ht-degree: 92%
 
 ---
 
 
 # Canaux de communication{#communication-channels}
 
-Avec Adobe Campaign, vous pouvez envoyer des campagnes cross-canal, notamment des emails, des SMS, des messages LINE, des notifications push et des courriers, et mesurer leur efficacité au travers de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés par le biais des diffusions. Ils peuvent être personnalisés pour chaque destinataire.
+Avec Adobe Campaign, vous pouvez envoyer des campagnes entre canaux, y compris des courriels, des SMS, des messages LINE, des notifications Push et des courriels directs, et mesurer leur efficacité à l&#39;aide de divers [rapports](../../reporting/using/delivery-reports.md)dédiés. Ces messages sont conçus et envoyés par diffusion et peuvent être personnalisés pour chaque destinataire.
 
-Les principales fonctionnalités vont du ciblage, définition et personnalisation des messages, exécution des communications jusqu&#39;aux rapports opérationnels associés. Le point d&#39;entrée fonctionnel principal est l&#39;assistant de diffusion. Autour de ce point d&#39;entrée, plusieurs fonctionnalités sont couvertes par Adobe Campaign.
+Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, l&#39;exécution des communications et les rapports opérationnels connexes. Le principal point d&#39;accès fonctionnel est l&#39;assistant de diffusion. Ce point d&#39;accès mène à de multiples fonctionnalités couvertes par Adobe Campaign.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 
    >[!NOTE]
    >
-   >L&#39;utilisation de plusieurs canaux dépend de votre package. Vérifiez votre contrat de licence.
+   >Le nombre de canaux disponibles dépend de votre contrat. Veuillez vérifier votre accord de licence.
 
 Les diffusions peuvent être **on-line** (via email, un des canaux mobiles et les notifications push) et **off-line** (canal courrier).
 
