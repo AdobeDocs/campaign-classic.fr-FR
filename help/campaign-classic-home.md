@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ccd4fe1366fd9ecaca83dbf7aac241524f0af7d6
+source-git-commit: c14d257bb4f206e56a16d45507ee98ccad239fe7
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 78%
+source-wordcount: '274'
+ht-degree: 90%
 
 ---
 
@@ -17,11 +17,13 @@ ht-degree: 78%
 
 ## Nouveautés
 
-* **[Mise à jour de l’intégration](integrations/using/configuring-adobe-io.md)**<br/>des déclencheurs Adobe Experience Cloud Le service d’authentification hérité d’Auth a atteint la fin de vie. Découvrez comment migrer vers les E/S d&#39;Adobe.
+* **[Mise à jour de l’intégration](integrations/using/configuring-adobe-io.md)**<br/> des déclencheurs Adobe Experience Cloud Le service d’authentification hérité d’Auth a atteint la fin de vie. Découvrez comment migrer vers les E/S d&#39;Adobe.
 
-* **[Passer à l’API](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/> du fournisseur d’APN basée sur HTTP/2 Découvrez comment migrer du protocole binaire hérité à l’API du fournisseur d’APN basée sur HTTP/2.
+* **[Passage à l’API du fournisseur d’APN basée sur HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/>
+Découvrez comment migrer du protocole binaire hérité à l’API du fournisseur d’APN basée sur HTTP/2.
 
-* **[Ajouter des émoticônes à vos messages](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>Vous pouvez maintenant insérer des émoticônes dans les messages et l&#39;objet
+* **[Ajout d’émoticônes à vos messages](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
+Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d&#39;objet
 
 * **[Accès à l’assistance technique](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/>
 FAQ, bonnes pratiques, ressources d’aide, demandes d’assistance.
@@ -29,7 +31,7 @@ FAQ, bonnes pratiques, ressources d’aide, demandes d’assistance.
 * **[Fonctionnalités de tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html)**<br/>
 Découvrez les fonctionnalités et les processus de tracking dans Campaign.
 
-[Cliquez ici pour plus de mises à jour](/help/rn/using/documentation-updates.md)
+[Autres mises à jour](/help/rn/using/documentation-updates.md)
 
 ## Pages principales
 
