@@ -9,9 +9,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 7e56e4f98ffab752f0b86bb8620fb1b4af6a3dca
+workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 100%
 
@@ -175,9 +175,10 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
->Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
->
 
+   >
+   >   
+   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 
 Puis redémarrez Apache :
