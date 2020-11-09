@@ -9,9 +9,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
-translation-type: ht
-source-git-commit: bdc09e1b6e037e1b21573b8624a947e30f8ad1fc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 48176ebb19689855f3ee5e61fa6492be5a682291
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -77,7 +77,6 @@ Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, pa
 >[!NOTE]
 >
 >Le bouton **[!UICONTROL Ajouter]** permet de créer des **[!UICONTROL dossiers]** dans lesquels vous pourrez classer vos différentes connexions par des opérations de glisser-déposer.
-
 
 ## Connexion à Adobe Campaign
 
