@@ -13,15 +13,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
+source-git-commit: 8486213403bf848f1632aff06f3f1528b199f86d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 3%
 
 ---
 
 
-# Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud {#configuring-adobe-io}
+# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
 >[!CAUTION]
 >
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 Avant de commencer cette mise en oeuvre, vérifiez que vous disposez des éléments suivants :
 
-* une version récente de Adobe Campaign : versions 19.1.8 ou 20.2.1 et ultérieures,
+* une version récente de Adobe Campaign (20.2.1 et ultérieure),
 * un IMSOrgID valide : l’identifiant d’organisation IMS (Identity Management System) est l’identifiant unique au sein du Adobe Experience Cloud, utilisé par exemple pour le service d’identification des visiteurs et l’authentification unique (SSO) IMS,
 * a Accès des développeurs à l&#39;organisation IMS.
 
@@ -56,31 +56,31 @@ Avant de commencer cette mise en oeuvre, vérifiez que vous disposez des éléme
 
 1. Identifiez le projet existant à l’aide de l’ID client extrait. Recherchez des projets existants avec le même ID client que celui extrait à l’étape précédente.
 
-   ![](assets/adobe_io_8.png)
+   ![](assets/do-not-localize/adobe_io_8.png)
 
 1. Sélectionnez **[!UICONTROL + Ajouter au projet]** et choisissez **[!UICONTROL API]**.
 
-   ![](assets/adobe_io_1.png)
+   ![](assets/do-not-localize/adobe_io_1.png)
 
 1. Dans la fenêtre **[!UICONTROL Ajouter une API]** , sélectionnez **[!UICONTROL Adobe Analytics]**.
 
-   ![](assets/adobe_io_2.png)
+   ![](assets/do-not-localize/adobe_io_2.png)
 
 1. Sélectionnez **[!UICONTROL Service Account (JWT)]** comme type d’authentification.
 
-   ![](assets/adobe_io_3.png)
+   ![](assets/do-not-localize/adobe_io_3.png)
 
 1. Si votre ID client était vide, sélectionnez **[!UICONTROL Générer une paire]** de clés pour créer une paire de clés publique et privée.
 
-   ![](assets/adobe_io_4.png)
+   ![](assets/do-not-localize/adobe_io_4.png)
 
 1. Téléchargez votre clé publique et cliquez sur **[!UICONTROL Suivant]**.
 
-   ![](assets/adobe_io_5.png)
+   ![](assets/do-not-localize/adobe_io_5.png)
 
 1. Sélectionnez le profil de produit appelé **Analytics-&lt; Nom de l’entreprise >** et cliquez sur **[!UICONTROL Enregistrer l’API]** configurée.
 
-   ![](assets/adobe_io_6.png)
+   ![](assets/do-not-localize/adobe_io_6.png)
 
 1. Dans votre projet, sélectionnez Compte **[!UICONTROL de service (JWT)]** et copiez les informations suivantes :
    * **[!UICONTROL Identifiant du client]**
@@ -88,7 +88,7 @@ Avant de commencer cette mise en oeuvre, vérifiez que vous disposez des éléme
    * **[!UICONTROL ID de compte technique]**
    * **[!UICONTROL Identifiant de l&#39;organisation]**
 
-   ![](assets/adobe_io_7.png)
+   ![](assets/do-not-localize/adobe_io_7.png)
 
 ## Étape 2 : Ajouter les informations d’identification du projet dans Adobe Campaign {#add-credentials-campaign}
 
