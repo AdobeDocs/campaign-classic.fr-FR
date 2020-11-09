@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
+source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 98%
+source-wordcount: '1353'
+ht-degree: 97%
 
 ---
 
@@ -130,7 +130,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 * Pour une base Oracle, Microsoft SQL Server ou PostgreSQL, l&#39;administrateur de bases de données peut par ailleurs déterminer ici des **paramètres de stockage** à utiliser lors de la création des objets base de données.
 
-   Ces paramètres reçoivent les noms exacts des tablespaces (avertissement : respecte la casse). Ils sont respectivement stockés dans le nœud **[!UICONTROL Administration > Plate-forme > Options]** dans les options suivantes (voir [](../../installation/using/configuring-campaign-options.md#database)) :
+   Ces paramètres reçoivent les noms exacts des tablespaces (avertissement : respecte la casse). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options (see [this section](../../installation/using/configuring-campaign-options.md#database)):
 
    * **WdbcOptions_TableSpaceUser**: tables utilisateur basées sur un schéma
    * **WdbcOptions_TableSpaceIndex**: index des tables utilisateur basées sur un schéma
