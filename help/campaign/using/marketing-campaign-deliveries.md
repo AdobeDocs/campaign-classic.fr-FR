@@ -11,9 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
+workflow-type: tm+mt
 source-wordcount: '3115'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Créer des diffusions {#creating-deliveries}
 
@@ -82,7 +82,7 @@ Le mode de fonctionnement du module de workflow est détaillé dans le guide [Au
 
 Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 
 #### Créer un workflow de ciblage {#creating-a-targeting-workflow}
