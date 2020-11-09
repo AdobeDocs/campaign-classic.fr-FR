@@ -3,14 +3,14 @@ audience: end-user
 user-guide-title: Guide d'Adobe Campaign Classic
 breadcrumb-title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: null
+user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing cross-canal offrant un important retour sur investissement marketing.
 product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 7490895826c9ff80b01e89bb9a106ba218637bf0
+source-git-commit: 5f3ecffba2e505ad0bb074f6d635a51d983997e2
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2151'
 ht-degree: 99%
 
 ---
@@ -339,7 +339,7 @@ ht-degree: 99%
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes de [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Triggers Experience Cloud {#experience-triggers}
-      + [Commencer avec [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Get started with [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
       + [Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
       + [Configuration d’événements pour une mise en œuvre personnalisée](integrations/using/events.md)
