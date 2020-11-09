@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: f3caef21a269cf57624a07bfe1b4bf1e241061a6
+source-git-commit: 4f949d8db3aa3082acf1765bf66080b270cc6db4
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '921'
 ht-degree: 21%
 
 ---
@@ -32,7 +32,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 
 Avant de démarrer cette configuration, vérifiez que vous disposez des éléments suivants :
 
-* une version récente de Adobe Campaign : versions 19.1.8 ou 20.2.1 et ultérieures,
+* une version récente de Adobe Campaign (20.2.1 et ultérieure),
 * Version de Adobe Analytics Standard
 
 Vous aurez également besoin de :
