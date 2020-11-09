@@ -3,15 +3,15 @@ audience: end-user
 user-guide-title: Guide d'Adobe Campaign Classic
 breadcrumb-title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing cross-canal offrant un important retour sur investissement marketing.
+user-guide-description: null
 product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 7490895826c9ff80b01e89bb9a106ba218637bf0
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 96%
+source-wordcount: '2134'
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 96%
 + Notes de mise à jour {#release-notes}
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
-   + Gold Standard Release {#gs-release}
-      + [Notes de mise à jour de Gold Standard](rn/using/gold-standard.md)
-      + [Grille de compatibilité Gold Standard](rn/using/compatibility-matrix-gs.md)
+   + Version Gold Standard {#gs-release}
+      + [Notes de mise à jour Gold Standard](rn/using/gold-standard.md)
+      + [Matrice de compatibilité Gold Standard](rn/using/compatibility-matrix-gs.md)
    + Versions précédentes {#previous-releases}
       + [Version 20.2](rn/using/release--20-2.md)
       + [Version 20.1](rn/using/release--20-1.md)
@@ -71,7 +71,7 @@ ht-degree: 96%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête          {#creating-queries}
+   + Créer une requête  {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -123,10 +123,10 @@ ht-degree: 96%
    + Envoi de notifications push {#sending-push-notifications}
       + [A propos de Mobile App Channel](delivery/using/about-mobile-app-channel.md)
       + [Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + Configuring the mobile application{#configure-the-mobile-app}
+      + Configuration de l’application mobile{#configure-the-mobile-app}
          + [Prise en main de la configuration de l’application](delivery/using/get-started-app-config.md)
-         + [Etapes de configuration pour iOS](delivery/using/configuring-the-mobile-application.md)
-         + [Procédure de configuration pour Android](delivery/using/configuring-the-mobile-application-android.md)
+         + [Étapes de configuration pour iOS](delivery/using/configuring-the-mobile-application.md)
+         + [Étapes de configuration pour Android](delivery/using/configuring-the-mobile-application-android.md)
       + [Créer des notifications](delivery/using/creating-notifications.md)
       + [Résolution des problèmes](delivery/using/troubleshooting.md)
    + Envoi de courrier {#sending-direct-mail}
@@ -171,7 +171,7 @@ ht-degree: 96%
    + Gestion de la délivrabilité {#deliverability-management}
       + [A propos de la délivrabilité](delivery/using/about-deliverability.md)
       + [Points clés à vérifier](delivery/using/deliverability-key-points.md)
-      + [Démarrer une nouvelle plate-forme](delivery/using/starting-new-platform.md)
+      + [Démarrer une nouvelle plateforme](delivery/using/starting-new-platform.md)
       + [Contrôler le contenu du message](delivery/using/control-message-content.md)
       + [Améliorez votre réputation](delivery/using/improve-reputation.md)
       + [Recommandations techniques](delivery/using/technical-recommendations.md)
@@ -342,7 +342,7 @@ ht-degree: 96%
       + [Commencer avec [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
       + [Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
-      + [Configuration de événements pour une implémentation personnalisée](integrations/using/events.md)
+      + [Configuration d’événements pour une mise en œuvre personnalisée](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
 + Automatisation et workflows {#automating-with-workflows}
@@ -430,7 +430,7 @@ ht-degree: 96%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle  {#monitoring}
+      + Contrôle   {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -481,7 +481,7 @@ ht-degree: 96%
       + [Intégrations avec les solutions Adobe Experience Cloud](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
       + [Règlement sur la protection des informations personnelles](workflow/using/general-data-protection-regulation--gdpr-.md)
       + [Emission vers Mid-sourcing](workflow/using/transfer-to-mid-sourcing.md)
-      + [Plate-forme de Mid-sourcing](workflow/using/mid-sourcing-platform.md)
+      + [Plateforme de Mid-sourcing](workflow/using/mid-sourcing-platform.md)
 + Gestion des offres {#managing-offers}
    + Prise en main d&#39;Interaction {#interaction-overview}
       + [Interaction et la gestion des offres](interaction/using/interaction-and-offer-management.md)
@@ -659,7 +659,7 @@ ht-degree: 96%
    + Mise à jour d’Adobe Campaign {#updating-adobe-campaign}
       + [Introduction](production/using/introduction.md)
       + [Réalisation d’un upgrade de build](production/using/build-upgrade.md)
-      + [Procédure de mise à niveau (sur site)](production/using/upgrading.md)
+      + [Procédure d’upgrade (on-premise)](production/using/upgrading.md)
       + [Transformation en Unicode](production/using/switching-to-unicode.md)
       + [Procédures de migration](production/using/migration-procedures.md)
    + Maintenance de la base de données {#database-maintenance}
