@@ -1,8 +1,6 @@
 ---
 title: Début et Fin
-seo-title: Début et Fin
-description: Début et Fin
-seo-description: null
+description: En savoir plus sur les activités de Début et de fin de processus
 page-status-flag: never-activated
 uuid: ec0c818c-c307-4f50-908c-507bce0ea27b
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 8b239d5e-2317-42c8-9fee-7d40bea624da
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '136'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
