@@ -1,8 +1,6 @@
 ---
 title: Diffusions de campagnes marketing
-seo-title: Diffusions de campagnes marketing
-description: Diffusions de campagnes marketing
-seo-description: En savoir plus sur les diffusions d'opérations marketing
+description: En savoir plus sur les diffusions d'opérations marketing
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 translation-type: tm+mt
-source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
+source-git-commit: f6e820bd05b95e57b395407ed1e17c11b17cbf84
 workflow-type: tm+mt
-source-wordcount: '3115'
-ht-degree: 100%
+source-wordcount: '3076'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +22,9 @@ ht-degree: 100%
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
 
-![](assets/do-not-localize/how-to-video.png)[Découvrez cette fonctionnalité en vidéo](#create-email-video)
+Une fois créées à partir d’une campagne, les diffusions sont liées à cette campagne et consolidées au niveau de la campagne.
+
+![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Créer des diffusions {#creating-deliveries}
 
@@ -32,29 +32,21 @@ Pour créer une diffusion associée à une opération, cliquez sur le lien **[!U
 
 ![](assets/campaign_op_add_delivery.png)
 
-Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles.
-
->[!NOTE]
->
->Le mode de création et de paramétrage des diffusions est présenté dans la section [Envoyer les messages](../../delivery/using/steps-about-delivery-creation-steps.md).
+Les paramétrages proposés sont adaptés au type de diffusion : courrier, email, canaux mobiles. [En savoir plus](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Choisir la population cible {#selecting-the-target-population}
 
-Pour chaque diffusion, le chargé d&#39;opération va définir :
+Pour chaque diffusion, vous pouvez définir :
 
-* La cible principale. Voir à ce propos les sections [Construire la cible principale dans un workflow](#building-the-main-target-in-a-workflow) et [Choisir la population cible](#selecting-the-target-population).
-* La population témoin. Voir à ce propos la section [Définir une population témoin](#defining-a-control-group).
-* Les adresses de contrôle. Voir à ce propos [cette section](../../delivery/using/about-seed-addresses.md).
+* Audience - En savoir plus sur la [création de l’audience dans un processus](#building-the-main-target-in-a-workflow) et la [sélection de la population](#selecting-the-target-population)de cibles.
+* Une Population témoin - En savoir plus sur la [définition d&#39;une Population témoin](#defining-a-control-group).
+* Adresses de contrôle - En savoir plus dans [cette section](../../delivery/using/about-seed-addresses.md).
 
-Certaines de ces informations sont héritées du modèle.
+Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
->[!NOTE]
->
->Les modèles d&#39;opération sont présentés dans la section [Modèles d&#39;opération](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+Pour créer la cible de diffusion, vous pouvez définir des critères de filtrage pour les destinataires de la base de données. Ce mode de sélection destinataire est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
 
-Vous pouvez définir des critères de filtrage des destinataires présents dans la base de données afin de construire la cible de la diffusion. Ce mode de sélection des destinataires est présenté dans la section [Envoyer les messages](../../delivery/using/steps-defining-the-target-population.md).
-
-### Exemple : diffuser à un groupe de destinataires {#example--delivering-to-a-group-of-recipients}
+**Exemple : envoyer des messages à un groupe**
 
 Vous pouvez par exemple importer une population dans une liste puis cibler cette liste dans les diffusions.
 
@@ -68,24 +60,15 @@ Vous pouvez par exemple importer une population dans une liste puis cibler cette
 
 ![](assets/s_user_target_group_next.png)
 
-### Construire la cible principale dans un workflow {#building-the-main-target-in-a-workflow}
+### Création de l’audience dans un processus {#building-the-main-target-in-a-workflow}
 
-La cible principale d&#39;une diffusion peut également être définie au travers d&#39;un workflow de ciblage : cet environnement graphique permet de construire une cible via des requêtes, des tests et des unions, déduplications, partages, etc.
-
-Le mode de fonctionnement du module de workflow est détaillé dans le guide [Automatiser avec des workflows](../../workflow/using/architecture.md).
+La cible principale d&#39;une diffusion peut également être définie au travers d&#39;un workflow de ciblage : cet environnement graphique permet de construire une cible via des requêtes, des tests et des unions, déduplications, partages, etc. [En savoir plus](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
 >
->Dans une même campagne, vous ne pouvez pas configurer plus de 28 workflows. Au-delà de cette limite, les workflows supplémentaires ne sont pas visibles dans l&#39;interface et peuvent générer des erreurs.
+>Vous ne pouvez pas créer plus de 28 workflows dans une campagne. Après cette limite, d’autres workflows ne sont pas visibles dans l’interface et peuvent générer des erreurs.
 
-### Comment créer un email dans une campagne {#create-email-video}
-
-Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign Classic.
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-
-#### Créer un workflow de ciblage {#creating-a-targeting-workflow}
+#### Création du processus {#creating-a-targeting-workflow}
 
 Le ciblage peut être construit grâce à une combinaison de critères de filtrage, enchaînés graphiquement dans un workflow. Vous pouvez ainsi créer des populations et sous-populations qui seront ciblées selon vos besoins. Pour afficher l&#39;éditeur de workflows, cliquez sur l&#39;onglet **[!UICONTROL Ciblages et workflows]** dans le tableau de bord des campagnes.
 
@@ -124,7 +107,7 @@ Vous pouvez créer plusieurs workflows de ciblage pour une même opération. Pou
 1. Sélectionnez le modèle de workflow **[!UICONTROL Nouveau workflow]** et nommez ce workflow.
 1. Cliquez sur **[!UICONTROL Ok]** pour valider la création du workflow, puis créez le diagramme pour ce workflow.
 
-#### Exécuter un workflow {#executing-a-workflow}
+#### Exécuter le processus {#executing-a-workflow}
 
 Les workflows de ciblage peuvent être lancés manuellement via le bouton **[!UICONTROL Démarrer]** de la barre d&#39;outils, sous réserve que vous disposiez des droits adéquats.
 
@@ -275,7 +258,7 @@ Vous pouvez définir une nouvelle population qui sera utilisée comme population
 
 ## Démarrer la diffusion {#starting-a-delivery}
 
-Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. Pour les diffusions par email ou sur les canaux mobiles, voir la section [Démarrer une diffusion online](#starting-an-online-delivery) et pour les diffusions courrier, voir la section [Démarrer une diffusion offline](#starting-an-offline-delivery).
+Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
 
 ### Démarrer une diffusion online {#starting-an-online-delivery}
 
@@ -476,3 +459,9 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 >[!NOTE]
 >
 >Pour plus d&#39;informations sur les exports, reportez-vous à la section [Prise en main](../../platform/using/generic-imports-and-exports.md).
+
+#### Comment créer un email dans une campagne {#create-email-video}
+
+Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
