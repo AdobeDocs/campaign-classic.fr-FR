@@ -1,8 +1,6 @@
 ---
 title: Tâche
-seo-title: Tâche
-description: Tâche
-seo-description: null
+description: En savoir plus sur l'activité du processus des Tâches
 page-status-flag: never-activated
 uuid: a6fda9d7-83ce-4528-8a9e-e7d06e9b1017
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: ec6f9a10-ad84-4d9f-86e2-490539c2171b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '87'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 92%
 
 ---
 
