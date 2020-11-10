@@ -1,8 +1,6 @@
 ---
 title: Web Analytics
-seo-title: Web Analytics
-description: Web Analytics
-seo-description: null
+description: En savoir plus sur le package Web Analytics
 page-status-flag: never-activated
 uuid: 63742453-16d9-48c2-9a3d-d96f5b131fb3
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: cc2d4741-2b26-4933-a28d-5dd7b5f436be
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '179'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 96%
 
 ---
 
