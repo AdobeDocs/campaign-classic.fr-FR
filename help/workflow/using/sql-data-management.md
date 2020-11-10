@@ -1,8 +1,6 @@
 ---
 title: Gestion des données SQL
-seo-title: Gestion des données SQL
-description: Gestion des données SQL
-seo-description: null
+description: En savoir plus sur l'activité du flux de travaux SQL Data Management
 page-status-flag: never-activated
 uuid: b6057496-2dd5-4289-96df-98378e4f0ae7
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 98%
 
 ---
 
