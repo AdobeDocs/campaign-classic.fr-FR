@@ -1,8 +1,6 @@
 ---
 title: Diffusion récurrente
-seo-title: Diffusion récurrente
-description: Diffusion récurrente
-seo-description: null
+description: En savoir plus sur l'activité de processus des diffusions périodiques
 page-status-flag: never-activated
 uuid: 715855df-fe29-46e8-a7ab-d534f010a26e
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +44,7 @@ Une **diffusion récurrente** crée une nouvelle instance de diffusion chaque fo
 
 Cette vidéo explique comment configurer une diffusion récurrente et une activité Planificateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 >[!NOTE]
 >
