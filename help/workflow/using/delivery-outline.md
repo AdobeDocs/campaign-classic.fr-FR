@@ -1,8 +1,6 @@
 ---
 title: Composition de diffusion
-seo-title: Composition de diffusion
-description: Composition de diffusion
-seo-description: null
+description: En savoir plus sur l'activité du processus des Compositions de diffusion
 page-status-flag: never-activated
 uuid: 2b924cc6-6b71-481e-acab-2d035bbc2852
 contentOwner: sauviat
@@ -11,18 +9,18 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 79%
 
 ---
 
 
 # Composition de diffusion{#delivery-outline}
 
-L&#39;activité de composition de diffusion permet d&#39;utiliser une composition dans un workflow de campagne. La composition doit avoir été préalablement créée dans la campagne.
+The **delivery outline** lets you use an outline in a campaign workflow. The outline must have been created in the campaign beforehand.
 
 Pour plus d&#39;informations sur les compositions de diffusion dans Adobe Campaign, consultez cette [section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
@@ -30,7 +28,7 @@ Pour paramétrer l&#39;activité, vous devez simplement sélectionner la composi
 
 ## Exemple : Insérer une offre via une composition de diffusion {#example--inserting-an-offer-via-a-delivery-outline}
 
-L&#39;activité de composition de diffusion, disponible dans les workflows de campagne, vous permet de présenter des offres référencées dans une composition de diffusion de la campagne en cours.
+The **delivery outline** activity, available in the campaign workflows, lets you present offers that are referenced in a delivery outline from the current campaign in progress.
 
 >[!NOTE]
 >
