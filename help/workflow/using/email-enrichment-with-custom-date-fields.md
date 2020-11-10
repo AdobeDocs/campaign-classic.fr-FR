@@ -1,8 +1,6 @@
 ---
 title: Enrichissement des emails avec des champs de date personnalisés
-seo-title: Enrichissement des emails avec des champs de date personnalisés
-description: Enrichissement des emails avec des champs de date personnalisés
-seo-description: null
+description: Découvrez comment enrichir les courriels avec des champs de date personnalisés
 page-status-flag: never-activated
 uuid: 6dd240b1-f995-4e12-90a5-55aeb584bcdc
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 9cb3be65-6652-47fa-b8a4-e088530aab4a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 98%
 
 ---
 
