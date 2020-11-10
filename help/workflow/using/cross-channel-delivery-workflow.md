@@ -1,8 +1,6 @@
 ---
 title: Workflow de diffusion cross-canal
-seo-title: Workflow de diffusion cross-canal
-description: Workflow de diffusion cross-canal
-seo-description: null
+description: En savoir plus sur les workflows de diffusion entre canaux
 page-status-flag: never-activated
 uuid: 02d51b13-656f-48f3-b744-5968ffa94b3e
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 2fe907da-ef37-46e2-a8fb-6ad4e18be486
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
