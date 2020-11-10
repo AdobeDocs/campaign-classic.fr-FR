@@ -1,8 +1,6 @@
 ---
 title: Social Marketing
-seo-title: Social Marketing
-description: Social Marketing
-seo-description: null
+description: En savoir plus sur les workflows techniques de marketing sur les réseaux sociaux
 page-status-flag: never-activated
 uuid: ab84cc4d-0599-4fff-976c-89525faeb889
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 339f4aa9-0513-4b0e-ac2a-24f5dc012d49
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 93%
 
 ---
 
