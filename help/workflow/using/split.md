@@ -1,8 +1,6 @@
 ---
 title: Partage
-seo-title: Partage
-description: Partage
-seo-description: null
+description: En savoir plus sur l'activité de flux de travaux fractionnée
 page-status-flag: never-activated
 uuid: 00dc3436-e271-4512-8f29-71a55213afc3
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 9eadfda0-0614-4e4e-aed0-26f0b9222fbd
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '2133'
+ht-degree: 99%
 
 ---
 
