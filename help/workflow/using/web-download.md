@@ -1,8 +1,6 @@
 ---
 title: Téléchargement Web
-seo-title: Téléchargement Web
-description: Téléchargement Web
-seo-description: null
+description: En savoir plus sur l'activité du processus de téléchargement Web
 page-status-flag: never-activated
 uuid: 44039e9c-0cd8-4d3f-b73f-e01c5343835a
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: 8590cc75-11c8-450d-90e8-56744e12ac70
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
