@@ -1,8 +1,6 @@
 ---
 title: Agir sur une diffusion
-seo-title: Agir sur une diffusion
-description: Agir sur une diffusion
-seo-description: null
+description: En savoir plus sur l'activité du processus de contrôle des Diffusions
 page-status-flag: never-activated
 uuid: f9cef2d9-a6a5-45bd-8c7a-fabc11879628
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 0b5ee05c-4b96-425a-ab0f-60b930de21bd
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 95%
 
 ---
 
