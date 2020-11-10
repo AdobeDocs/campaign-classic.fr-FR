@@ -1,8 +1,6 @@
 ---
 title: Requête
-seo-title: Requête
-description: Requête
-seo-description: null
+description: En savoir plus sur l'activité du processus des Requêtes
 page-status-flag: never-activated
 uuid: 32f4f467-5083-414f-8616-1aa4bf2b5867
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '1680'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '1685'
+ht-degree: 99%
 
 ---
 
