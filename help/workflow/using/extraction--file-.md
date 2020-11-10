@@ -1,6 +1,6 @@
 ---
 title: Extraction (fichier)
-description: En savoir plus sur l’activité du workflow d’extraction (fichier).
+description: En savoir plus sur l'activité de flux de travail de l'extraction de données (fichier)
 page-status-flag: never-activated
 uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
