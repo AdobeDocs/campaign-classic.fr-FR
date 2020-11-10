@@ -1,8 +1,6 @@
 ---
-title: Paramètres supplémentaires
-seo-title: Paramètres supplémentaires
-description: Paramètres supplémentaires
-seo-description: null
+title: Autres paramètres de suivi Web
+description: En savoir plus sur les paramètres du suivi Web
 page-status-flag: never-activated
 uuid: c223c84a-f8fd-43d3-9deb-b1c19d442c65
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 discoiquuid: 1b2ae224-8406-4506-b589-6e5f6631e87f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 96%
 
 ---
 
