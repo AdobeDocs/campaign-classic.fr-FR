@@ -1,8 +1,6 @@
 ---
 title: Envoyer un rapport à une liste
-seo-title: Envoyer un rapport à une liste
-description: Envoyer un rapport à une liste
-seo-description: null
+description: Découvrez comment envoyer un rapport à une liste avec un processus
 page-status-flag: never-activated
 uuid: 29759fd8-47f3-47cc-9f7e-263e305fd6fb
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 41b8a8a8-efac-4e8e-8aea-d4fd06c46e74
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
