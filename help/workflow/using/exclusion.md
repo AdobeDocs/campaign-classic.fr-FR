@@ -1,8 +1,6 @@
 ---
 title: Exclusion
-seo-title: Exclusion
-description: Exclusion
-seo-description: null
+description: En savoir plus sur l'activité du processus d'exclusion
 page-status-flag: never-activated
 uuid: e4f54a0b-2fec-4415-986b-83c8928ed174
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: acab51f3-686b-4d2b-bb02-8fbfae36b1ba
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '352'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 98%
 
 ---
 
