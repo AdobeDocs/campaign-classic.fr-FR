@@ -1,6 +1,6 @@
 ---
 title: Cycle de vie des données
-description: En savoir plus sur le cycle de vie des données dans les workflows.
+description: En savoir plus sur le cycle de vie des données dans les workflows
 page-status-flag: never-activated
 uuid: 7668f1a2-fcd0-41f8-b8f6-71d77bc47486
 contentOwner: sauviat
@@ -9,9 +9,9 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
