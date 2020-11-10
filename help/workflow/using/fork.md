@@ -1,6 +1,6 @@
 ---
 title: Branchement
-description: Branchement
+description: En savoir plus sur l'activité du flux de travaux Fork
 page-status-flag: never-activated
 uuid: 90db1991-cff9-4dbd-a478-7aae1d845836
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '72'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 91%
 
 ---
 
