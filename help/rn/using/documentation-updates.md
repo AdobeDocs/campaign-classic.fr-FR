@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 7af0d17450ea2bee757e54dd4861f11ad023b700
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
 workflow-type: tm+mt
-source-wordcount: '3940'
+source-wordcount: '3948'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,8 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
 
 ## Novembre 2020 {#nov-2020}
+
+[La version](../../rn/using/release--20-2.md#release-20-2-3-build-9182) de Campaign 20.2.3 est maintenant disponible en version GA.
 
 La section Confidentialité a été déplacée et enrichie de deux nouvelles sections : [Gestion](../../platform/using/privacy-management.md) de la confidentialité et [gestion des demandes](../../platform/using/privacy-requests.md)de confidentialité.
 
