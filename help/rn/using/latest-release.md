@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+source-git-commit: 8ebd22773fff820423b965be62d32a242d626f3f
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 100%
