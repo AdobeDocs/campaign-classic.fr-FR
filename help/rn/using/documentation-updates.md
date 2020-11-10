@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 7af0d17450ea2bee757e54dd4861f11ad023b700
 workflow-type: tm+mt
-source-wordcount: '3921'
-ht-degree: 96%
+source-wordcount: '3940'
+ht-degree: 98%
 
 ---
 
@@ -24,13 +24,17 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
 
+## Novembre 2020 {#nov-2020}
+
+La section Confidentialité a été déplacée et enrichie de deux nouvelles sections : [Gestion](../../platform/using/privacy-management.md) de la confidentialité et [gestion des demandes](../../platform/using/privacy-requests.md)de confidentialité.
+
 ## Octobre 2020 {#oct-2020}
 
-**Nouvelles fonctionnalités incluses dans la version 20.3**
+**Nouvelles fonctionnalités incluses dans la version 20.3**
 
-Améliorations des notifications Push pour iOS - [En savoir plus](../../delivery/using/configuring-the-mobile-application.md)
+Améliorations des notifications push pour iOS - [En savoir plus](../../delivery/using/configuring-the-mobile-application.md)
 
-Améliorations des notifications Push pour Android - [En savoir plus](../../delivery/using/configuring-the-mobile-application-android.md)
+Améliorations des notifications push pour Android - [En savoir plus](../../delivery/using/configuring-the-mobile-application-android.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -41,21 +45,21 @@ La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En sav
 Les notes de mise à jour et la matrice de compatibilité pour la version Gold Standard sont maintenant disponibles dans une section dédiée.
 [En savoir plus](../../rn/using/gold-standard.md#gs-10)
 
-L&#39;intégration des déclencheurs basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les E/S d&#39;Adobe. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
 
 **Autres mises à jour**
 
-Les pages de documentation ont été mises à jour pour refléter la mise à jour de Tomcat 8.
+Les pages de la documentation ont été mises à jour pour prendre en compte la mise à jour de Tomcat 8.
 
-Des détails ont été ajoutés à la description de la zone &quot;A propos&quot; dans la section &quot;Obtention de votre version Adobe Campaign&quot;. [En savoir plus](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+Des détails ont été ajoutés à la description de la zone « À propos » dans la section « Obtention de votre version Adobe Campaign ». [En savoir plus](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-Des instructions pour effectuer une mise à niveau de build ont été ajoutées à la section &quot;Mise à jour de Adobe Campaign Classic&quot;. En savoir plus[ En savoir plus](../../production/using/build-upgrade.md)
+Des instructions pour réaliser un upgrade de build ont été ajoutées à la section « Mise à jour d’Adobe Campaign Classic ». En savoir plus[ En savoir plus](../../production/using/build-upgrade.md)
 
-Des questions fréquentes sur la mise à niveau de Campaign ont été ajoutées aux questions courantes de Campaign. En savoir plus[ En savoir plus](../../platform/using/faq-build-upgrade.md)
+Des questions fréquentes sur l’upgrade de build de Campaign ont été ajoutées aux questions courantes de Campaign. En savoir plus[ En savoir plus](../../platform/using/faq-build-upgrade.md)
 
-Les modèles d’hébergement Campaign sur site, hébergés et hybrides sont maintenant décrits dans une section dédiée. [En savoir plus](../../installation/using/hosting-models.md)
+Les modèles d’hébergement Campaign on-premise, hébergés et hybrides sont maintenant décrits dans une section dédiée. [En savoir plus](../../installation/using/hosting-models.md)
 
-La matrice des capacités Campaign par modèle d&#39;hébergement a été mise à jour et déplacée dans le guide d&#39;installation. [En savoir plus](../../installation/using/capability-matrix.md)
+La matrice des fonctionnalités de Campaign par modèle d&#39;hébergement a été mise à jour et déplacée dans le guide d&#39;installation. [En savoir plus](../../installation/using/capability-matrix.md)
 
 La section Fonctionnalités avancées du reporting de Campaign a été améliorée afin d&#39;expliquer en détail comment utiliser les paramètres d&#39;URL et les variables dans les rapports personnalisés. [En savoir plus](../../reporting/using/advanced-functionalities.md)
 
@@ -407,7 +411,7 @@ Un nouvel article relatif à l&#39;utilisation du catalogue d&#39;offres d&#39;A
 
 La section activité Sous-workflow a été enrichie en y incorporant un exemple d&#39;utilisation. [En savoir plus](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise &amp; Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
+La page [Matrice des fonctionnalités de Campaign Classic on-premise/hébergé](../../installation/using/capability-matrix.md) a été mis à jour avec des informations relatives à la fonctionnalité Email Cci.
 
 La documentation sur les messages transactionnels a été mise à jour avec une note concernant la publication de modèles. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 
