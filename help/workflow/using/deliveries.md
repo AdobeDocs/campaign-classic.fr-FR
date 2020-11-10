@@ -1,8 +1,6 @@
 ---
 title: Diffusions
-seo-title: Diffusions
-description: Diffusions
-seo-description: null
+description: En savoir plus sur les workflows de Diffusions par défaut
 page-status-flag: never-activated
 uuid: d323eb4d-937b-4b37-8400-942336f0a1b4
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: 37612f62-68c0-4f73-a9a1-6d017aab862f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 98%
 
 ---
 
