@@ -1,8 +1,6 @@
 ---
 title: Construire un workflow
-seo-title: Construire un workflow
-description: Construire un workflow
-seo-description: null
+description: Découvrez comment créer un processus
 page-status-flag: never-activated
 uuid: 55743545-dd4b-4a0a-aeff-8fd638812b9d
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1686'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '1679'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +26,7 @@ Cette section détaille les principes clés et les bonnes pratiques pour la cré
 * Pour concevoir le diagramme d’un workflow, voir [Ajouter et lier des activités](#adding-and-linking-activities)
 * Pour accéder aux paramètres et aux propriétés des activités, voir [Configurer des activités](#configuring-activities)
 * Pour concevoir des workflows de ciblage, voir [Cibler des workflows](#targeting-workflows)
-* Pour utiliser un workflow afin d’exécuter une opération, voir [Workflows des opérations](#campaign-workflows)
+* Use workflows to execute a campaign, see [Campaign workflows](#campaign-workflows)
 * Pour créer des workflows techniques et y accéder, voir [Workflows techniques](#technical-workflows)
 * Pour utiliser des modèles afin de créer des workflows, voir [Modèles de workflows](#workflow-templates)
 
@@ -145,13 +143,13 @@ Les workflows de ciblage peuvent être créés et édités à partir du noeud **
 
 Les workflows de ciblage qui s&#39;inscrivent dans le contexte d&#39;une opération sont stockés avec tous les workflows des opérations.
 
-### Etapes de mise en oeuvre {#implementation-steps-}
+### Etapes clés de création d’un processus de ciblage {#implementation-steps-}
 
-Les phases de construction des données du ciblage sont les suivantes :
+Les étapes de création d’un processus de ciblage sont détaillées dans les sections suivantes :
 
-1. Identifier les données dans la base. Voir à ce sujet la section [Créer des requêtes](../../workflow/using/targeting-data.md#creating-queries).
-1. Pour préparer les données en fonction des besoins de diffusion, reportez-vous à la section [Enrichir/Modifier des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data).
-1. Utiliser les données pour procéder à des mises à jour ou dans une diffusion. Voir à ce sujet la section [Mettre à jour la base de données](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
+1. **Identifier** les données dans la base de données - Voir [Création de requêtes.](../../workflow/using/targeting-data.md#creating-queries)
+1. **Préparer** les données pour répondre aux besoins des diffusions - Voir [Enrichissement et modification des données](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
+1. **Utiliser** les données pour effectuer des mises à jour ou dans une diffusion - Voir [Mise à jour de la base de données](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
 
 Les résultats de tous les enrichissements et manipulations effectués lors du ciblage sont stockés pour être accessibles dans les champs de personnalisation, notamment pour les utiliser dans la création de messages personnalisés. Voir à ce sujet la section [Données de la cible](../../workflow/using/data-life-cycle.md#target-data)
 
@@ -179,15 +177,15 @@ Pour chaque opération, vous pouvez créer des workflows à exécuter depuis l&#
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-Cet onglet contient les mêmes activités que pour tous les workflows. Elles sont présentées dans la section [Etapes de mise en œuvre](#implementation-steps-).
+Cet onglet contient les mêmes activités que pour tous les workflows. [En savoir plus](#implementation-steps-)
 
-En plus des opérations de ciblage, les workflows des opérations permettent de créer et paramétrer intégralement des diffusions sur tous les canaux disponibles. Une fois créées dans un workflow, ces diffusions sont accessibles depuis le tableau de bord de l&#39;opération.
+En plus des opérations de ciblage, les workflows des opérations permettent de créer et paramétrer intégralement des diffusions sur tous les canaux disponibles. Une fois créées dans un workflow, ces diffusions sont accessibles depuis le tableau de bord de l&#39;opération. [En savoir plus](../../campaign/using/marketing-campaign-deliveries.md)
 
 Tous les workflows des opérations sont centralisés sous le noeud **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Workflows des opérations]**.
 
 ![](assets/campaigns_wf.png)
 
-Les workflows des opérations et des exemples de mise en œuvre sont présentés dans cette [page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+Campaign workflows and implementation examples are detailed in [this page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 ## Workflows techniques {#technical-workflows}
 
@@ -205,7 +203,7 @@ Le sous-dossier **[!UICONTROL Processus de campagne]** centralise les workflows 
 
 Vous pouvez créer d&#39;autres workflows techniques dans le noeud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l&#39;arborescence. Cette manipulation est toutefois réservée à des utilisateurs experts.
 
-Les activités proposées sont les mêmes que pour les workflows de ciblage. Voir à ce sujet la section [Etapes de mise en œuvre](#implementation-steps-).
+Les activités proposées sont les mêmes que pour les workflows de ciblage. [En savoir plus](#implementation-steps-)
 
 ## Les modèles de workflows {#workflow-templates}
 
