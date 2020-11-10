@@ -1,8 +1,6 @@
 ---
 title: Lecture de liste
-seo-title: Lecture de liste
-description: Lecture de liste
-seo-description: null
+description: En savoir plus sur l'activité du processus des Lectures de liste
 page-status-flag: never-activated
 uuid: 34e28675-f28b-407f-8d60-41a5383af0db
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 96a7aea4-4799-4ac7-8dff-666b075a1c43
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 98%
 
 ---
 
