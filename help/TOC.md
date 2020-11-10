@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5f3ecffba2e505ad0bb074f6d635a51d983997e2
+source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2156'
 ht-degree: 99%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 99%
 + Prise en main {#getting-started}
    + Prise en main d&#39;Adobe Campaign {#starting-with-adobe-campaign}
       + [Prise en main d&#39;Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-      + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
       + [Lancement d&#39;Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + [Espace de travail Adobe Campaign](platform/using/adobe-campaign-workspace.md)
       + FAQ {#faq}
@@ -54,6 +53,10 @@ ht-degree: 99%
          + [Rapports](platform/using/faq-reporting.md)
          + [Développement](platform/using/faq-developers.md)
       + [Tutoriels](platform/using/tutorials.md)
+   + Confidentialité {#privacy}
+      + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
+      + [Gestion de la confidentialité](platform/using/privacy-management.md)
+      + [Demandes d’accès à des informations personnelles](platform/using/privacy-requests.md)
    + Gérer les profils {#profile-management}
       + [A propos des profils](platform/using/about-profiles.md)
       + [Editer un profil](platform/using/editing-a-profile.md)
@@ -339,7 +342,7 @@ ht-degree: 99%
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes de [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Triggers Experience Cloud {#experience-triggers}
-      + [Get started with [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Commencer avec [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
       + [Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
       + [Configuration d’événements pour une mise en œuvre personnalisée](integrations/using/events.md)
