@@ -11,18 +11,18 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 100%
+ht-degree: 57%
 
 ---
 
 
 # Editer les formulaires{#editing-forms}
 
-L&#39;écran de création et de configuration des formulaires de saisie est accessible à partir du dossier **[!UICONTROL Administration > Paramétrage > Formulaires de saisie]** de la console cliente Adobe Campaign :
+The input form creation and configuration screen is accessible from the **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Input forms]** folder of the Adobe Campaign client console:
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
