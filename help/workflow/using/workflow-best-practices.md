@@ -1,8 +1,6 @@
 ---
 title: Bonnes pratiques relatives aux workflows
-seo-title: Bonnes pratiques relatives aux workflows
-description: Bonnes pratiques relatives aux workflows
-seo-description: null
+description: Découvrez les meilleures pratiques du processus Campaign
 page-status-flag: never-activated
 uuid: 56b04004-5d96-4169-9494-3d04284d5a3d
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 3da951ef-5775-4593-8301-f143c71edc19
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1656'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '1655'
+ht-degree: 99%
 
 ---
 
