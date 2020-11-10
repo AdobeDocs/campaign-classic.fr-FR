@@ -1,8 +1,6 @@
 ---
-title: Services d'inscriptions
-seo-title: Services d'inscriptions
-description: Services d'inscriptions
-seo-description: null
+title: Services d’inscriptions
+description: En savoir plus sur l'activité du processus des Services d'inscription
 page-status-flag: never-activated
 uuid: f8c05f8a-0791-4294-8aa3-69b7325e4d43
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 940bec7e-e3f0-4251-b7fe-72bf188743a7
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 98%
 
 ---
 
