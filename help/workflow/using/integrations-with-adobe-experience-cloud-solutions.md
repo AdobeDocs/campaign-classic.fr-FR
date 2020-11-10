@@ -1,8 +1,6 @@
 ---
-title: Intégrations avec les solutions Adobe Experience Cloud
-seo-title: Intégrations avec les solutions Adobe Experience Cloud
-description: Intégrations avec les solutions Adobe Experience Cloud
-seo-description: null
+title: Intégrations aux workflows de solutions Adobe Experience Cloud
+description: En savoir plus sur les workflows de solutions Integrations with Adobe Experience Cloud
 page-status-flag: never-activated
 uuid: 6f179af5-1e5b-42a9-a493-1b726af2af8e
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 discoiquuid: dddc3bdc-2344-423b-81d9-6f93847448a0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '110'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 84%
 
 ---
 
