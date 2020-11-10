@@ -1,8 +1,6 @@
 ---
-title: 'Propriétés d''exécution '
-seo-title: 'Propriétés d''exécution '
-description: 'Propriétés d''exécution '
-seo-description: null
+title: 'Propriétés d''exécution     '
+description: En savoir plus sur les propriétés du flux de travaux Campaign
 page-status-flag: never-activated
 uuid: bd576cc0-2db8-4519-bcb5-52bf5c811f42
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 71969b30-cc01-4358-9597-f17939720684
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 99%
 
 ---
 
