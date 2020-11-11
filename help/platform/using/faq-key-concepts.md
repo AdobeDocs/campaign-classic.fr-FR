@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Vérifiez les [numéros de version et de build](../../platform/using/launching-a
 
 ## Quelles sont les différences entre un environnement on-premise et un environnement hébergé ?{#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur configuration peuvent dépendre du [type de déploiement](../../installation/using/hosting-models.md) de votre installation : hébergé (Managed Services), hybride ou sur site.
+Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur configuration peuvent dépendre du [type de déploiement](../../installation/using/hosting-models.md) de votre installation : hébergée (Managed Services), hybride ou On-Premise.
 
 [Pour en savoir plus, cliquez ici](../../installation/using/capability-matrix.md).
 
@@ -63,7 +63,7 @@ Consultez [ce document](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-
 
 ## Quelles notions concernant l&#39;interface utilisateur de Campaign faut-il connaître ? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Lisez [cette section](../../platform/using/adobe-campaign-workspace.md) pour en savoir plus sur les bases de l’espace de travail Adobe Campaign.
+Lisez [cette section](../../platform/using/adobe-campaign-workspace.md) pour en savoir plus sur les bases de l&#39;espace de travail Adobe Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrir l&#39;espace de travail Campaign en vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
@@ -87,7 +87,7 @@ Un workflow peut également faire intervenir des opérateurs afin de notifier ou
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/about-email-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrir ceci en vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## Comment envoyer des SMS ? {#how-to-send-sms-messages-}
 
