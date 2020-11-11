@@ -9,9 +9,9 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # Matrice des fonctionnalités {#capability-matrix-per-model}
 
-Adobe Campaign Classic est proposé avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Cet article présente des détails sur les principales différences de certaines fonctionnalités entre les déploiements entièrement hébergés (Managed Services) et On-premise.
+Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Cet article présente des détails sur les principales différences de certaines fonctionnalités entre les déploiements entièrement hébergés (Managed Services) et On-premise.
 
 Cette page présente les principales différences entre les déploiements hébergés (Managed Services) et On-premise. Les spécificités des déploiements hybrides dépendent des éléments hébergés par Adobe et hébergés dans vos locaux.
 
