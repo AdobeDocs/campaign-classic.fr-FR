@@ -78,7 +78,7 @@ Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, pa
 >
 >Le bouton **[!UICONTROL Ajouter]** permet de créer des **[!UICONTROL dossiers]** dans lesquels vous pourrez classer vos différentes connexions par des opérations de glisser-déposer.
 
-## Connexion à Adobe Campaign
+## Connexion à Adobe Campaign
 
 Pour vous connecter à une instance existante, procédez comme suit :
 
