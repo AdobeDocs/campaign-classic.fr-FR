@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 7a92bc51-24cf-4ce6-bd50-a315f8f6e34e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 
