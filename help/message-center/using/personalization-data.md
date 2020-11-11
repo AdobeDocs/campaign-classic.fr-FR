@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 2cd8a320-37e8-410a-b71b-0c13c8e15482
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
