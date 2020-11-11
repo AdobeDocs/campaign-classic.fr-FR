@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
 ht-degree: 100%
 
