@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 discoiquuid: 8fa464e6-3c88-441c-8179-0c54960469a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -35,5 +35,5 @@ Définition du type d&#39;événement dans les propriétés du modèle de messag
 Par défaut, l&#39;acheminement est basé sur les informations suivantes :
 
 * Le type d&#39;événement
-* Canal à utiliser (par défaut : email)
-* Modèle de diffusion le plus récent, basé sur la date de publication
+* Le canal à utiliser (email par défaut)
+* Le modèle de diffusion le plus récent, selon la date de publication
