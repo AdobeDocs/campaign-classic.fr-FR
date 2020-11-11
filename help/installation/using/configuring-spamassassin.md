@@ -11,9 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Pour les déploiements hébergés par Adobe, certaines configurations ne peuvent être effectuées que par Adobe comme l’accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
+>Certaines configurations peuvent uniquement être effectuées par Adobe pour les déploiements hébergés par Adobe. Par exemple, pour accéder aux fichiers de configuration de serveur et d&#39;instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
 ## Présentation {#overview}
 
