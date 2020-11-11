@@ -9,9 +9,9 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
