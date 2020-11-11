@@ -1,6 +1,6 @@
 ---
 title: Questions courantes
-description: FAQ sur Adobe Campaign Classic
+description: FAQ d'Adobe Campaign Classic
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 91%
 
 Besoin d’aide lorsque vous utilisez Campaign Classic ? Lisez les 10 premières questions ci-dessous, ainsi que d’autres questions fréquentes dans cette page. Vous pouvez également procéder comme suit :
 
-* [Visionnez des vidéos de didacticiels](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/overview.html)
-* [Parcourir les options d’aide autonome](../../platform/using/tutorials.md#how-to-videos)
-* [Lisez la section Prise en main et cas d’utilisation](../../platform/using/tutorials.md#step-by-step-guides)
+* [Visionner des tutoriels vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/overview.html)
+* [Parcourir les options d&#39;aide autonome](../../platform/using/tutorials.md#how-to-videos)
+* [Lire la section Prise en main et cas pratiques](../../platform/using/tutorials.md#step-by-step-guides)
 * Impossible de trouver la réponse ? [Demander à l&#39;expert](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* Besoin d&#39;aide ? [Consulter les options d’aide et de support de Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
+* Besoin d&#39;aide ? [Consulter les options d&#39;aide et de support de Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
 
 ## 1. Comment effectuer une mise à niveau de Campaign vers le dernière version ?{#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -34,7 +34,7 @@ Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies 
 
 Si vous utilisez Adobe Managed Services, vous pouvez bénéficier de la mise à niveau vers Campaign Gold Standard. Voir à ce propos [cet article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
-[Lisez cette section](../../production/using/build-upgrade.md) pour savoir comment mettre à jour votre environnement et lire les questions [](../../platform/using/faq-build-upgrade.md) courantes sur ce sujet spécifique.
+[Lisez cette section](../../production/using/build-upgrade.md) pour savoir comment mettre à jour votre environnement et consultez les [Questions courantes](../../platform/using/faq-build-upgrade.md) sur ce sujet spécifique.
 
 ## 2. Qu&#39;est-ce que le workflow Nettoyage de la base ?{#what-is-the-database-cleanup-workflow-}
 
