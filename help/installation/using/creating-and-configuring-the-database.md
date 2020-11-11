@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -64,11 +64,11 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
-* Pour un moteur **Microsoft SQL Server**, vous devez définir : le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
+* Pour un moteur **Microsoft SQL Server**, vous devez définir :  le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
    >[!CAUTION]
    >
-   > Depuis la version 20.3, l&#39;authentification Windows NT est désactivée. **[!UICONTROL L&#39;authentification]** SQL Server est désormais le seul mode d&#39;authentification disponible pour Microsoft SQL Server. [En savoir plus](../../rn/using/deprecated-features.md)
+   > Depuis la version 20.3, l&#39;authentification Windows NT est désactivée. **[!UICONTROL L&#39;authentification SQL Server]** est désormais le seul mode d&#39;authentification disponible pour Microsoft SQL Server. [En savoir plus](../../rn/using/deprecated-features.md)
 
    ![](assets/s_ncs_install_db_mssql_creation01.png)
 
