@@ -9,9 +9,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
