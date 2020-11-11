@@ -26,7 +26,7 @@ La configuration globale d’Adobe Campaign est définie dans le fichier **serve
 
 >[!NOTE]
 >
->Pour les déploiements hébergés par Adobe, les configurations côté serveur ne peuvent être effectuées que par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md). Les étapes d&#39;installation et de configuration des modèles hébergés et hybrides sont présentées dans cette [section](../../installation/using/hosted-model.md).
+>Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md). Les étapes d&#39;installation et de configuration des modèles hébergés et hybrides sont présentées dans cette [section](../../installation/using/hosted-model.md).
 
 Les premiers paramètres se trouvent dans le nœud **shared**. Ils sont liés à l’instance et peuvent être utilisés par toutes les commandes nlserver (nlserver web, nlserver wfserver, etc.). Les autres sections se rapportent à une sous-commande spécifique de nlserver.
 
