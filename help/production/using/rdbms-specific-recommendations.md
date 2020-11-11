@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -369,7 +369,7 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 
 >[!NOTE]
 >
->For Microsoft SQL Server, you can use the maintenance plan detailed on [this page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
+>Pour Microsoft SQL Server, vous pouvez utiliser le plan de maintenance décrit sur [cette page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
 L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l’administrateur de base de données pour connaître les procédures de maintenance de cette version.
 
