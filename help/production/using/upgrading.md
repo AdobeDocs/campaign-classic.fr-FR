@@ -1,6 +1,6 @@
 ---
-title: Mise à niveau  vers un nouveau build
-description: Découvrez les étapes techniques de la mise à niveau vers un nouveau build
+title: Upgrade  vers un nouveau build
+description: Découvrez les étapes techniques clés de l'upgrade vers un nouveau build
 page-status-flag: never-activated
 uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
 contentOwner: sauviat
@@ -18,7 +18,7 @@ ht-degree: 100%
 ---
 
 
-# Mise à niveau vers un nouveau build (on-premise){#upgrading}
+# Upgrade vers un nouveau build (On-Premise){#upgrading}
 
 Avant de commencer la mise à jour, déterminez et confirmez la version d&#39;Adobe Campaign vers laquelle s&#39;effectue la mise à jour et consultez les [notes de mises à jour](../../rn/using/latest-release.md) .
 
@@ -175,8 +175,10 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
->
->   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
+
+   >
+   >   
+   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 
 Puis redémarrez Apache :
@@ -212,7 +214,7 @@ Le résultat de la synchronisation peut être consulté de deux manières :
 
 Pour résoudre un conflit, procédez de la manière suivante :
 
-1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]** .
+1. Dans l&#39;arborescence d&#39;Adobe Campaign, positionnez-vous dans **[!UICONTROL Administration > Paramétrage > Gestion des packages > Edition des conflits]** .
 1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
 
 Il existe trois possibilités de résoudre un conflit :
