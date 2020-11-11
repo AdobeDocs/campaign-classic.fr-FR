@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2896'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires 
 >
 >Cette section s&#39;applique aux canaux on-line : email, SMS et notification push.
 
-### Optimiser votre diffusion par le biais des mises en quarantaine      {#optimizing-your-delivery-through-quarantines}
+### Optimiser votre diffusion par le biais des mises en quarantaine       {#optimizing-your-delivery-through-quarantines}
 
-Les profils dont l’adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
+Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
-Certains fournisseurs d’accès Internet considèrent automatiquement les emails comme du spam si le taux d’adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
+Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
 
-De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](../../delivery/using/delivery-best-practices.md) .
+De plus, elles réduisent les coûts d&#39;envoi des SMS en excluant les numéros de téléphone erronés des diffusions. Pour plus d&#39;informations sur les bonnes pratiques en matière de sécurisation et d&#39;optimisation de vos diffusions, consultez [cette page](../../delivery/using/delivery-best-practices.md) .
 
 ### Quarantaine et liste bloquée {#quarantine-vs-denylist}
 
-La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l’adresse, les deux profils seront impactés.
+La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l&#39;adresse, les deux profils seront impactés.
 
-De même, un profil, dont l’adresse email est en quarantaine qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
+De même, un profil, dont l&#39;adresse email est en quarantaine qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
 
 En revanche, en cas d&#39;insertion en **liste bloquée**, le profil ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out).
 
@@ -50,15 +50,15 @@ En revanche, en cas d&#39;insertion en **liste bloquée**, le profil ne sera plu
 >
 >Lorsqu&#39;un utilisateur répond à un SMS avec un mot-clé tel que &#39;&#39;STOP&#39;&#39; pour se désabonner des diffusions SMS, son profil n&#39;est pas mis en liste bloquée comme c&#39;est le cas pour la désinscription des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
-## Identifier les adresses en quarantaine      {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine       {#identifying-quarantined-addresses}
 
-Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l’ensemble de la plateforme.
+Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion      {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion       {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme      {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme       {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -107,12 +107,12 @@ Pour supprimer manuellement une adresse de la liste de quarantaine :
 
    ![](assets/tech_quarant_error_status.png)
 
-* Vous pouvez également modifier son statut en **[!UICONTROL Placé sur la liste autorisée]**. Dans ce cas, l’adresse reste dans la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
+* Vous pouvez également modifier son statut en **[!UICONTROL Placé sur la liste autorisée]**. Dans ce cas, l&#39;adresse reste dans la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
 
 Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
 
-* Les adresses dont l’état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine après une diffusion réussie.
-* Les adresses dont l’état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine si la dernière erreur de type Soft a eu lieu il y a plus de 10 jours. Pour plus d’informations sur la gestion des erreurs de type Soft, consultez [cette section](#soft-error-management).
+* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine après une diffusion réussie.
+* Les adresses dont l&#39;état est **[!UICONTROL En erreur]** seront supprimées de la liste de quarantaine si la dernière erreur de type Soft a eu lieu il y a plus de 10 jours. Pour plus d&#39;informations sur la gestion des erreurs de type Soft, consultez [cette section](#soft-error-management).
 * Les adresses dont l&#39;état est **[!UICONTROL En erreur]** et qui ont rebondi avec l&#39;erreur **[!UICONTROL Boîte pleine]** sont supprimées de la liste de quarantaine après 30 jours.
 
 Leur état devient ensuite **[!UICONTROL Valide]**.
@@ -120,31 +120,31 @@ Leur état devient ensuite **[!UICONTROL Valide]**.
 >[!IMPORTANT]
 Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
 
-Vous pouvez modifier le nombre d’erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l’assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d’informations sur l’assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
+Vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l&#39;assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
-## Conditions de mise en quarantaine d’une adresse      {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d&#39;une adresse       {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de la diffusion et de la raison attribuée lors de la qualification des messages d&#39;erreur (voir les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
 * **Erreur de type Ignoré** : les erreurs de type Ignoré ne mettent pas une adresse en quarantaine.
 * **Erreur de type Hard** : l&#39;adresse email correspondante est mise immédiatement en quarantaine.
-* **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. Pour plus d’informations, voir la section [Comprendre la gestion des erreurs de type Soft](#soft-error-management).
+* **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. Pour plus d&#39;informations, voir la section [Comprendre la gestion des erreurs de type Soft](#soft-error-management).
 
 Si un utilisateur qualifie un email comme du spam ([système de gestion des plaintes (feedback loop)](../../delivery/using/technical-recommendations.md#feedback-loop)), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L&#39;adresse email de l&#39;utilisateur est alors automatiquement mise en quarantaine.
 
-Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#39;erreur]** indique pourquoi l&#39;adresse sélectionnée a été mise en quarantaine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
+Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#39;erreur]** indique pourquoi l&#39;adresse sélectionnée a été mise en quarantaine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
 
 ![](assets/tech_quarant_error_reasons.png)
 
 ### Gestion des erreurs de type Soft {#soft-error-management}
 
-Contrairement aux erreurs de type Hard, les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d’erreurs.
+Contrairement aux erreurs de type Hard, les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs.
 
-* Quand le compteur d’erreurs atteint le seuil limite, l’adresse passe en quarantaine.
-* Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d&#39;au moins 24h. L’adresse est mise en quarantaine à la cinquième erreur.
+* Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse passe en quarantaine.
+* Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d&#39;au moins 24h. L&#39;adresse est mise en quarantaine à la cinquième erreur.
 * Le seuil du compteur d&#39;erreurs peut être modifié. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Le compteur d’erreurs est réinitialisé si la dernière erreur significative s’est produite plus de 10 jours avant. Le statut de l’adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow **Nettoyage de la base**.
+Le compteur d&#39;erreurs est réinitialisé si la dernière erreur significative s&#39;est produite plus de 10 jours avant. Le statut de l&#39;adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow **Nettoyage de la base**.
 
 ## Quarantaines des notifications push {#push-notification-quarantines}
 
@@ -157,22 +157,22 @@ Les éléments mis en quarantaine sont les jetons d&#39;appareil.
 **Pour iOS - connecteur binaire**
 
 >[!NOTE]
-A compter de la version Campaign 20.3, le connecteur binaire hérité d’iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre mise en oeuvre en conséquence. [En savoir plus](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+À compter de la version Campaign 20.3, le connecteur binaire hérité d&#39;iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-http2.html)
 
-Pour chaque notification, Adobe Campaign reçoit les erreurs synchrones et asynchrones du serveur APNs. Pour les erreurs synchrones suivantes, Adobe Campaign génère des erreurs logicielles :
+Pour chaque notification, Adobe Campaign reçoit les erreurs synchrones et asynchrones du serveur APNS. Adobe Campaign génère des erreurs soft pour les erreurs synchrones suivantes :
 
 * Problèmes liés à la longueur de la payload : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 * Problèmes liés à l&#39;expiration du certificat : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 * Perte de la connexion pendant la diffusion : reprise effectuée, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 * Problème lié à la configuration du service (certificat non valide, mot de passe du certificat incorrect, aucun certificat) : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
 
-The APNs server asynchronously notifies Adobe Campaign that a device token has been unregistered (when the mobile application has been uninstalled by the user). The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. For all the deactivated tokens, the field **Disabled** is set to **True** and the subscription linked to that device token will be automatically excluded from future deliveries.
+Le serveur APNS informe de manière asynchrone Adobe Campaign de la désinscription d&#39;un jeton d&#39;appareil (lors de la désinstallation de l&#39;application mobile par l&#39;utilisateur). Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heures pour contacter les services de feedback APNS afin de mettre à jour la table **AppSubscriptionRcp**. Pour tous les jetons désactivés, le champ **Désactivé** est défini sur **True** et l&#39;inscription associée à ce jeton d&#39;appareil est automatiquement exclue des prochaines diffusions.
 
-**Pour iOS - Connecteur HTTP/V2**
+**Pour iOS - connecteur HTTP/V2**
 
-Le protocole HTTP/V2 permet un retour direct et un état pour chaque diffusion Push. Si le connecteur de protocole HTTP/V2 est utilisé, le service de commentaire n’est plus appelé par le flux de travaux **[!UICONTROL mobileAppOptOutMgt]** . Les jetons non enregistrés sont gérés différemment entre le connecteur binaire iOS et le connecteur HTTP/V2 iOS. Un jeton est considéré comme non enregistré lorsqu’une application mobile est désinstallée ou réinstallée.
+Le protocole HTTP/V2 permet des retours et un état directs pour chaque diffusion push. Si le connecteur de protocole HTTP/V2 est utilisé, le service des retours n&#39;est plus appelé par le workflow **[!UICONTROL mobileAppOptOutMgt]**. Les jetons non enregistrés sont gérés différemment entre le connecteur binaire iOS et le connecteur HTTP/V2 iOS. Un jeton est considéré comme non enregistré lorsqu&#39;une application mobile est désinstallée ou réinstallée.
 
-De manière synchrone, si les APN renvoient un état &quot;non enregistré&quot; pour un message, le jeton de cible est immédiatement mis en quarantaine.
+Si l&#39;APNS renvoie de manière synchrone un statut &quot;désinscrit&quot; pour un message, le jeton cible est immédiatement mis en quarantaine.
 
 <table> 
  <tbody> 
@@ -225,7 +225,7 @@ De manière synchrone, si les APN renvoient un état &quot;non enregistré&quot;
    <td> Non<br /> </td> 
   </tr> 
   <tr> 
-   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
+   <td> Problème de certificat (mot de passe, endommagement, etc.) et problème de test de connexion à l'APNS<br /> </td> 
    <td> Echec<br /> </td> 
    <td> Messages d'erreur différents selon l'erreur<br /> </td> 
    <td> Soft<br /> </td> 
@@ -241,7 +241,7 @@ De manière synchrone, si les APN renvoient un état &quot;non enregistré&quot;
    <td> Oui<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
+   <td> Rejet du message par l'APNS : désinscription<br /> l'utilisateur a supprimé l'application ou le jeton a expiré<br /> </td> 
    <td> Echec<br /> </td> 
    <td> Désinscrit<br /> </td> 
    <td> Hard<br /> </td> 
@@ -249,7 +249,7 @@ De manière synchrone, si les APN renvoient un état &quot;non enregistré&quot;
    <td> Non<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs message rejection: all other errors<br /> </td> 
+   <td> Rejet du message par l'APNS : toutes les autres erreurs<br /> </td> 
    <td> Echec<br /> </td> 
    <td> La raison de l'erreur de rejet est indiquée dans le message d'erreur<br /> </td> 
    <td> Soft<br /> </td> 
@@ -360,7 +360,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
    <td> Non<br /> </td> 
   </tr> 
     <tr> 
-   <td> Rejet du message FCM : Argument non valide<br /> </td> 
+   <td> Rejet du message par le FCM : argument non valide<br /> </td> 
    <td> Echec<br /> </td> 
    <td> INVALID_ARGUMENT </td> 
    <td> Ignoré</td> 
@@ -368,7 +368,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Rejet du message FCM : Erreur d'authentification tierce<br /> </td> 
+   <td> Rejet du message par le FCM : erreur d'authentification tierce<br /> </td> 
    <td> Echec<br /> </td> 
    <td> THIRD_PARTY_AUTH_ERROR </td> 
    <td> Ignoré</td>
@@ -376,7 +376,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
    <td> Oui<br /> </td> 
   </tr>
     <tr> 
-   <td> Rejet du message FCM : L'ID d'expéditeur ne correspond pas<br /> </td> 
+   <td> Rejet du message par le FCM : le Sender ID ne correspond pas<br /> </td> 
    <td> Echec<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> Soft</td>
@@ -384,31 +384,31 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Rejet du message FCM : Non enregistré<br /> </td> 
+   <td> Rejet du message par le FCM : non enregistré<br /> </td> 
    <td> Echec<br /> </td>
-   <td> NON ENREGISTRÉ </td> 
+   <td> UNREGISTERED </td> 
    <td> Hard</td> 
    <td> Utilisateur inconnu<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Rejet du message FCM : Interne<br /> </td> 
+   <td> Rejet du message par le FCM : interne<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> INTERNE </td> 
+   <td> INTERNAL </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Oui<br /> </td> 
   </tr>
     <tr> 
-   <td> Rejet du message FCM : Non disponible<br /> </td> 
+   <td> Rejet du message par le FCM : non disponible<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> INDISPONIBLE</td> 
+   <td> UNAVAILABLE</td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Oui<br /> </td> 
   </tr>
     <tr> 
-   <td> Rejet du message FCM : code d'erreur inattendu<br /> </td> 
+   <td> Rejet du message par le FCM : code d'erreur inattendu<br /> </td> 
    <td> Echec<br /> </td> 
    <td> code d'erreur inattendu</td> 
    <td> Ignoré</td> 
@@ -416,7 +416,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
    <td> Non<br /> </td> 
   </tr>
   <tr> 
-   <td> Authentification : Problème de connexion<br /> </td> 
+   <td> Authentification : problème de connexion<br /> </td> 
    <td> Echec<br /> </td> 
    <td> Impossible de se connecter au serveur d'authentification </td> 
    <td> Ignoré</td>
@@ -424,63 +424,63 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
    <td> Oui<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : Client ou étendue non autorisé dans la demande.<br /> </td> 
+   <td> Authentification : client non autorisé ou périmètre demandé.<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> non autorisé_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignoré</td>
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : Le client n'est pas autorisé à récupérer des jetons d'accès à l'aide de cette méthode, ou le client n'est pas autorisé pour l'une des étendues demandées.<br /> </td> 
+   <td> Authentification : le client n'est pas autorisé à récupérer des jetons d'accès à l'aide de cette méthode, ou le client n'est pas autorisé pour l'un des paramètres demandés.<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> non autorisé_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignoré</td>
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : Accès refusé<br /> </td> 
+   <td> Authentification : accès refusé<br /> </td> 
    <td> Echec<br /> </td>
-   <td> access_deny</td> 
+   <td> access_denied</td> 
    <td> Ignoré</td>
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : Adresse électronique non valide<br /> </td> 
+   <td> Authentification : adresse électronique non valide<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> Invalid_grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : JWT non valide<br /> </td> 
+   <td> Authentification : JWT non valide<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> Invalid_grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : Signature JWT non valide<br /> </td> 
+   <td> Authentification : signature JWT non valide<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> Invalid_grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : Audience d'étendue OAuth ou de jeton d'ID non valide fournie<br /> </td> 
+   <td> Authentification : périmètre OAuth non valide ou jeton d'ID non valide fourni<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> non autorisé_client</td> 
+   <td> unauthorized_client</td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
   </tr>
     <tr> 
-   <td> Authentification : Client OAuth désactivé<br /> </td> 
+   <td> Authentification : client OAuth désactivé<br /> </td> 
    <td> Echec<br /> </td> 
    <td> disabled_client</td> 
    <td> Ignoré</td> 
