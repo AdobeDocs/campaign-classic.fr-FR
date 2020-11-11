@@ -11,9 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: f296676e-3bf1-47da-8239-f5ae54e52fc0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ D’autres configurations sont disponibles dans [Paramétrage du serveur Campaig
 
 >[!NOTE]
 >
->Pour les déploiements hébergés par Adobe, les configurations côté serveur ne peuvent être effectuées que par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou la [matrice des fonctionnalités](../../installation/using/capability-matrix.md).
+>Pour les déploiements hébergés par Adobe, les configurations côté serveur ne peuvent être effectuées que par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [la matrice des fonctionnalités](../../installation/using/capability-matrix.md).
 
 ## Identifiant &#39;internal&#39;{#internal-identifier}
 
