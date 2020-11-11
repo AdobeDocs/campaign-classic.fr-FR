@@ -1,6 +1,6 @@
 ---
-title: Configuration de l’application mobile iOS en Adobe Campaign
-description: Découvrez comment configurer votre application mobile pour iOS
+title: Paramétrage de l'application mobile iOS dans Adobe Campaign
+description: Découvrez comment paramétrer votre application mobile pour iOS
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
 contentOwner: sauviat
@@ -9,36 +9,36 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# Etapes de configuration pour iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
+# Étapes de configuration pour iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-Une fois le pack installé, vous pouvez définir les paramètres de votre application iOS dans Adobe Campaign Classic.
+Une fois le package installé, vous pouvez définir les paramètres de votre application iOS dans Adobe Campaign Classic.
 
 >[!NOTE]
 >
 >Pour savoir comment configurer votre application pour Android et comment créer une diffusion pour Android, reportez-vous à cette [section](../../delivery/using/configuring-the-mobile-application-android.md).
 
-## Configuring iOS external account {#configuring-external-account-ios}
+## Configuration du compte externe iOS {#configuring-external-account-ios}
 
-Pour iOS, le connecteur HTTP/2 iOS envoie des notifications aux APN HTTP/2.
+Pour iOS, le connecteur HTTP/2 iOS envoie des notifications à l&#39;APNS HTTP/2.
 
-Pour configurer ce connecteur, procédez comme suit :
+Pour configurer ce connecteur, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
 1. Sélectionnez le compte externe **[!UICONTROL routage iOS]**.
-1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field with the following URL: ```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
+1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL URL d&#39;accès au connecteur]** avec l&#39;URL suivante :```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
 
    >[!NOTE]
    >
-   > A compter de la version Campaign 20.3, le connecteur binaire hérité d’iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre mise en oeuvre en conséquence. [En savoir plus](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+   > À compter de la version Campaign 20.3, le connecteur binaire hérité d&#39;iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-http2.html)
 
    ![](assets/nmac_connectors.png)
 
@@ -73,11 +73,11 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
 1. Créez vos applications de développement et de production iOS. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app).
 
-## Création d’applications mobiles iOS {#creating-ios-app}
+## Création d&#39;applications mobiles iOS {#creating-ios-app}
 
-Après avoir créé votre service, vous devez à présent créer votre application iOS :
+Après avoir créé votre service, vous devez maintenant créer votre application iOS :
 
-1. Dans le service que vous venez de créer, cliquez sur le bouton **[!UICONTROL Ajouter]** pour sélectionner le type d’application.
+1. Dans le service que vous venez de créer, cliquez sur le bouton **[!UICONTROL Ajouter]** pour choisir le type d&#39;application.
 
    ![](assets/nmac_service_2.png)
 
@@ -106,15 +106,15 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
    >
    > La **[!UICONTROL clé d’intégration]** est entièrement personnalisable avec une valeur de chaîne, mais doit être exactement identique à celle spécifiée dans le SDK.
 
-1. Select one of the out-of-the-box icons from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+1. Sélectionnez l&#39;une des icônes d’usine dans le champ **[!UICONTROL Icône de l&#39;application]** pour personnaliser l&#39;application mobile dans votre service.
 
-1. Sélectionnez le mode **** Authentification. Notez que vous pouvez toujours modifier votre mode d&#39;authentification ultérieurement dans l&#39;onglet **[!UICONTROL Certificat]** de votre application mobile.
-   * **[!UICONTROL Authentification]** basée sur un certificat : Cliquez sur **[!UICONTROL Saisissez le certificat...]** puis sélectionnez votre clé p12 et saisissez le mot de passe fourni par le développeur d&#39;applications mobiles.
-   * **[!UICONTROL Authentification]** basée sur un jeton : Renseignez les paramètres de connexion **[!UICONTROL Key ID]**, **[!UICONTROL Team ID]** et **[!UICONTROL Bundle ID]** , puis sélectionnez votre certificat p8 en cliquant sur **[!UICONTROL Enter the private key.]** Pour plus d’informations sur l’authentification **[!UICONTROL basée sur]** un jeton, reportez-vous à la documentation [](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based)Apple.
+1. Sélectionnez le **[!UICONTROL mode d&#39;authentification]**. Veuillez noter que vous pourrez toujours modifier votre mode d&#39;authentification ultérieurement dans l&#39;onglet **[!UICONTROL Certificat]** de votre application mobile.
+   * **[!UICONTROL Authentification basée sur les certificats]** : cliquez sur **[!UICONTROL Renseigner le certificat...]**, sélectionnez votre clé p12 et saisissez le mot de passe fourni par le développeur d&#39;applications mobiles.
+   * **[!UICONTROL Authentification basée sur les jetons]** : renseignez les paramètres de connexion **[!UICONTROL Identifiant de la clé]**, **[!UICONTROL Identifiant de l&#39;équipe]** et **[!UICONTROL Identifiant de paquet]**, puis sélectionnez votre certificat p8 en cliquant sur **[!UICONTROL Renseigner la clé privée.]** Pour plus d&#39;informations sur l&#39;**[!UICONTROL authentification basée sur les jetons]**, reportez-vous à la [documentation Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based).
 
    >[!NOTE]
    >
-   > L’Adobe recommande l’utilisation d’une authentification **[!UICONTROL basée sur un]** jeton pour votre configuration iOS, car ce mode d’authentification est plus sécurisé et ne doit pas être lié à l’expiration du certificat.
+   > Adobe recommande l&#39;utilisation d&#39;une **[!UICONTROL authentification basée sur les jetons]** pour votre configuration iOS, car ce mode d&#39;authentification est plus sécurisé et n&#39;est pas lié à l’expiration du certificat.
 
    ![](assets/nmac_ios_4.png)
 
@@ -128,7 +128,7 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 
 Votre application iOS est maintenant prête à être utilisée dans Campaign Classic.
 
-## Creating an iOS rich notification {#creating-ios-delivery}
+## Création d&#39;une notification iOS enrichie {#creating-ios-delivery}
 
 Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies. Adobe Campaign peut envoyer des notifications à l&#39;aide de variables qui permettront à l&#39;appareil d&#39;afficher des notifications enrichies.
 
