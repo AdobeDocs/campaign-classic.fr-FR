@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '959'
 ht-degree: 100%
 
