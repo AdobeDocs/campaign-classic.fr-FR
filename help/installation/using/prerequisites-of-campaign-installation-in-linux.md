@@ -9,9 +9,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 100%
 
