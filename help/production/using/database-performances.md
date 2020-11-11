@@ -11,9 +11,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
