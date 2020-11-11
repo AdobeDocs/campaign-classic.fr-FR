@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 5addada8-0185-488f-9825-83f60981c139
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,11 +118,11 @@ Découvrez comment accéder aux données de profil, trier et filtrer les profils
 
 Cette vidéo explique également la conformité d’Adobe Campaign Classic au RGPD.
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12&captions=fre_fr)
 
 **Voir aussi**
 
-* [Gestion de la confidentialité en Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
+* [Gestion de la confidentialité dans Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
 
 * [Définir la population cible](../../delivery/using/define-the-right-audience.md)
 
