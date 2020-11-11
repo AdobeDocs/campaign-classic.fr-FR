@@ -10,9 +10,9 @@ tutorials-url: https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-classic.fr-FR
 solution: Campaign, Campaign Classic
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83717ec594f4d63eb0d3486b6ba8ac84087e7c3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '35'
 ht-degree: 100%
 
