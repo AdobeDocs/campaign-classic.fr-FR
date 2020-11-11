@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d6266957a1e290333c505e40f95df46797e19c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 97%
 
 Le type d&#39;une application web est sélectionné au moment de sa création.
 
-Accédez à l’onglet **Campagnes** et sélectionnez le menu **[!UICONTROL Applications Web]**. Cliquez sur le bouton **[!UICONTROL Créer.]** Sélectionnez le modèle d’application Web à utiliser :
+Accédez à l&#39;onglet **Campagnes** et sélectionnez le menu **[!UICONTROL Applications Web]**. Cliquez sur le bouton **[!UICONTROL Créer.]** Sélectionnez le modèle d&#39;application Web à utiliser :
 
 ![](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >
->Protégez toujours les pages susceptibles de contenir des informations personnelles. Consultez la [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#privacy).
+>Protégez toujours les pages pouvant contenir des informations personnelles. Consultez la [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#privacy).
 
 Ce modèle détermine le type d&#39;application web. Vous pouvez ainsi créer :
 
@@ -56,7 +56,7 @@ Ce modèle détermine le type d&#39;application web. Vous pouvez ainsi créer :
 
 1. Des applications Facebook
 
-   Adobe Campaign permet, via l’option **Social Marketing** de publier des contenus personnalisés dans une application Facebook. Voir à ce sujet [cette section](../../social/using/about-social-marketing.md).
+   Adobe Campaign permet, via l&#39;option **Social Marketing** de publier des contenus personnalisés dans une application Facebook. Voir à ce sujet [cette section](../../social/using/about-social-marketing.md).
 
    >[!CAUTION]
    >
