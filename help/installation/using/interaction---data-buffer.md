@@ -11,9 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: cbfdeb2f-4f20-45b8-8cc0-89362f9ea9c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Pour les déploiements hébergés par Adobe, certaines configurations ne peuvent être effectuées que par Adobe comme l’accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
+>Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
 Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
 
