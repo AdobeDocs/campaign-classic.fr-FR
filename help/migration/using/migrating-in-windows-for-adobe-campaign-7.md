@@ -1,7 +1,7 @@
 ---
 title: Migration sous Windows pour Adobe Campaign 7
-seo-title: Migration sous Windows pour Adobe Campaign 7
-description: Migration sous Windows pour Adobe Campaign 7
+seo-title: Migration sous Windows pour Adobe Campaign 7
+description: Migration sous Windows pour Adobe Campaign 7
 seo-description: null
 page-status-flag: never-activated
 uuid: 74464400-bdd4-42f8-bcbe-ace7095ae4e4
@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -305,7 +305,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
 1. Exécutez le script **iis_neolane_setup.vbs** permettant de configurer automatiquement le paramétrage des ressources utilisées par le serveur Adobe Campaign sur le répertoire virtuel créé précédemment.
 
-   * This file is found in the **`[Adobe Campaign v7]`\conf** directory, where **`[Adobe Campaign v7]`** is the access path to the Adobe Campaign installation directory. La commande d&#39;exécution du script est la suivante (pour les administrateurs) :
+   * Ce fichier se trouve dans le répertoire **`[Adobe Campaign v7]`\conf**, où **`[Adobe Campaign v7]`** est le chemin d&#39;accès au répertoire d&#39;installation d&#39;Adobe Campaign. La commande d&#39;exécution du script est la suivante (pour les administrateurs) :
 
       ```
       cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
