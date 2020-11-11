@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 84f14b7a8c4ed05b309109c76be8c8c7b7b52d83
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 
 >[!NOTE]
 >
->Adobe Campaign Classic is available in v6.11 and v7. Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). Les captures d’écran se rapportent à l’interface utilisateur de Campaign Classic v7.
+>Adobe Campaign Classic est disponible dans les versions v6.11 et v7. Sauf mention contraire, les ressources d&#39;aide s&#39;appliquent aux deux versions (dans leur [build le plus récent)](../../rn/using/latest-release.md). Les captures d&#39;écran se rapportent à l&#39;interface utilisateur de Campaign Classic v7.
 
 ## Fonctionnalités principales {#key-capabilities}
 
@@ -50,7 +50,7 @@ Les notions de base de la gestion des profils sont expliquées dans la section [
 
 ### Segmentation ciblée {#targeted-segmentation}
 
-Pour vous permettre de mettre en place des offres hautement ciblées et différenciées, Adobe Campaign intègre des fonctionnalités d&#39;analyse et ciblage. Grâce aux fonctionnalités d&#39;analyse descriptive, vous avez la possibilité d&#39;analyser les informations en amont et en aval de vos campagnes marketing. D&#39;autre part, les fonctionnalités de gestion de filtres et l’[éditeur graphique de requête](../../platform/using/about-queries-in-campaign.md) vous permettent de filtrer les populations d&#39;inscrits, d&#39;échantillonner ou de créer des groupes cibles sur un nombre illimité de critères. Les fonctions d’analyse et de ciblage sont décrites dans [cette page](../../reporting/using/about-descriptive-analysis.md) et dans la section [Création de filtres](../../platform/using/creating-filters.md).
+Pour vous permettre de mettre en place des offres hautement ciblées et différenciées, Adobe Campaign intègre des fonctionnalités d&#39;analyse et ciblage. Grâce aux fonctionnalités d&#39;analyse descriptive, vous avez la possibilité d&#39;analyser les informations en amont et en aval de vos campagnes marketing. D&#39;autre part, les fonctionnalités de gestion de filtres et l&#39;[éditeur graphique de requête](../../platform/using/about-queries-in-campaign.md) vous permettent de filtrer les populations d&#39;inscrits, d&#39;échantillonner ou de créer des groupes cibles sur un nombre illimité de critères. Les fonctions d&#39;analyse et de ciblage sont décrites dans [cette page](../../reporting/using/about-descriptive-analysis.md) et dans la section [Création de filtres](../../platform/using/creating-filters.md).
 
 Les fonctionnalités avancées de Data Management proposent une extension des capacités de traitement des données. Elles permettent de simplifier et d&#39;optimiser le processus de ciblage en incluant des données non modélisées dans le datamart. Ces fonctionnalités sont présentées sur [cette page](../../workflow/using/targeting-data.md#data-management).
 
@@ -68,11 +68,11 @@ Adobe Campaign vous permet de suivre et de comprendre les comportements de vos 
 
 ### Intégrations d&#39;Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
-Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagnes avancées d’Adobe Campaign avec un ensemble de solutions conçues pour vous aider à personnaliser l’expérience de vos utilisateurs : Adobe Experience Manager, Adobe Analytics, Adobe Target ou les déclencheurs Adobe Experience Cloud, par exemple. Vous pouvez également intégrer Adobe IMS et vous connecter à Campaign à l’aide de votre Adobe ID. Pour plus d’informations sur ces intégrations inter-solutions et d’authentification, consultez [cette section](../../integrations/using/about-adobe-id.md).
+Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagnes avancées d&#39;Adobe Campaign avec un ensemble de solutions conçues pour vous aider à personnaliser l&#39;expérience de vos utilisateurs : Adobe Experience Manager, Adobe Analytics, Adobe Target ou les déclencheurs Adobe Experience Cloud, par exemple. Vous pouvez également intégrer Adobe IMS et vous connecter à Campaign à l&#39;aide de votre Adobe ID. Pour plus d&#39;informations sur ces intégrations inter-solutions et d&#39;authentification, consultez [cette section](../../integrations/using/about-adobe-id.md).
 
 ## Fonctions principales et composants additionnels {#core-capabilities-and-add-ons}
 
-Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d’implémenter et d’optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines de ces fonctions sont des fonctions principales, tandis que d’autres dépendent de l’installation d’un package et de votre paramétrage. Une description détaillée du produit est présentée dans la section [Description du produit Adobe Campaign Classic](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic—product-description.html).
+Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d&#39;implémenter et d&#39;optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines de ces fonctions sont des fonctions principales, tandis que d&#39;autres dépendent de l&#39;installation d&#39;un package et de votre paramétrage. Une description détaillée du produit est présentée dans la section [Description du produit Adobe Campaign Classic](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic—product-description.html).
 
 Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certaines de ces fonctions peuvent ne pas être disponibles dans votre instance.
 
