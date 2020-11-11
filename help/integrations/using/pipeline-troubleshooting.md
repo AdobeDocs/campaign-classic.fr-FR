@@ -11,18 +11,18 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Dépannage du pipeline {#pipeline-troubleshooting}
 
-**Echec de Pipelin avec l&#39;erreur &quot;Aucune tâche ne correspond au masque pipelin@&lt; instance >&quot;**
+**Échec du pipeline avec l&#39;erreur &#39;&#39;Aucune tâche ne correspond au masque pipelined@&lt; instance >&quot;**
 
 Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 
