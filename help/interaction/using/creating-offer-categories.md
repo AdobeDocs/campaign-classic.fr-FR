@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: a9fad813-3256-4a00-ba74-7dbaba9e8e23
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ Pour créer une catégorie supplémentaire, procédez comme suit :
 
    Par la suite, il vous est possible, selon vos besoins :
 
-   * Assign eligibility dates from the **[!UICONTROL Eligibility]** tab.
+   * D&#39;attribuer des dates d&#39;éligibilité, depuis l&#39;onglet **[!UICONTROL Éligibilité]**.
 
       ![](assets/offer_cat_create_004.png)
 
-   * Enter key words that may be used to select offers from within this category, using the **[!UICONTROL Themes]** field.
+   * D&#39;entrer des mots-clés qui pourront être utilisés pour sélectionner les offres de cette catégorie, depuis le champ **[!UICONTROL Thèmes]**.
 
       ![](assets/offer_cat_create_005.png)
 
@@ -58,7 +58,7 @@ Pour créer une catégorie supplémentaire, procédez comme suit :
       >
       >Lors de l&#39;appel au moteur d&#39;offres, seule la partie du catalogue dont les thèmes ou les catégories correspondent aux paramètres est sélectionnée.
 
-   * Temporarily &quot;boost&quot; the offer weight of a category for a given period via the **[!UICONTROL Multiplier weight]** field.
+   * &quot;Boostez&quot; temporairement le poids des offres de la catégorie pour une période donnée, depuis le champ **[!UICONTROL Poids multiplicateur]**.
 
       ![](assets/offer_cat_create_006.png)
 
