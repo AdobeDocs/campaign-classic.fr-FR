@@ -11,9 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '3145'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Une fois le profil de l&#39;opérateur créé, vous pouvez compléter ou mettre 
 
 >[!NOTE]
 >
->Le champ **[!UICONTROL Timeout de session]** permet d&#39;ajuster le délai avant l&#39;expiration de la session FDA. Voir à ce sujet la section [À propos de Federated Data Access](../../platform/using/about-fda.md).
+>Le champ **[!UICONTROL Timeout de session]** permet d&#39;ajuster le délai avant l&#39;expiration de la session FDA. Voir à ce sujet la section [À propos de Federated Data Access](../../installation/using/about-fda.md).
 
 ### Fuseau horaire de l&#39;opérateur {#time-zone-of-the-operator}
 
