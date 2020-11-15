@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Vous pouvez optimiser la personnalisation à l&#39;aide d&#39;une option dédié
 
 Cette option permet, lors de l&#39;analyse de la diffusion, de créer automatiquement et d&#39;exécuter un workflow qui stocke dans une table temporaire toutes les données liées à la cible, notamment les données issues des tables liées en FDA.
 
-Si vous cochez cette option, les performances de l’analyse des diffusions peuvent être améliorées lorsque de nombreuses données sont en cours de traitement, en particulier si les données de personnalisation proviennent d’une table externe par le biais de FDA. Voir à ce sujet la section [Accès à une base externe (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data);
+Si vous cochez cette option, les performances de l’analyse des diffusions peuvent être améliorées lorsque de nombreuses données sont en cours de traitement, en particulier si les données de personnalisation proviennent d’une table externe par le biais de FDA. Voir à ce sujet la section [Accès à une base externe (FDA)](../../installation/using/about-fda.md);
 
 Par exemple, si vous rencontrez des problèmes de performances lorsque vous diffusez des messages à un grand nombre de destinataires tout en utilisant un nombre important de champs de personnalisation et/ou de blocs de personnalisation dans le contenu de vos messages, cette option peut accélérer le traitement de la personnalisation et, par conséquent, la diffusion de vos messages.
 
@@ -127,4 +127,4 @@ Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pou
 
 Découvrez comment ajouter un champ de personnalisation à la ligne d’objet et au contenu d’une diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
