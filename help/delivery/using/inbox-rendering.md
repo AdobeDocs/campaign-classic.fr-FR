@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Pour les clients hébergés et hybrides, l&#39;Inbox rendering est configuré po
 Pour les installations sur site, suivez la procédure ci-dessous pour configurer l&#39;Inbox rendering.
 
 1. Installez le package **[!UICONTROL Inbox rendering (IR)]** via le menu **[!UICONTROL Outils]** >**[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus d&#39;informations, voir la section [Installer des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
-1. Configurez un compte externe de type HTTP via le nœud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Voir à ce propos la section [Créer un compte externe](../../platform/using/external-accounts.md#creating-an-external-account).
+1. Configurez un compte externe de type HTTP via le nœud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Voir à ce propos la section [Créer un compte externe](../../installation/using/external-accounts.md#creating-an-external-account).
 1. Définissez les paramètres du compte externe comme suit :
    * **[!UICONTROL Libellé]** : informations relatives au serveur de délivrabilité
    * **[!UICONTROL Nom interne]** : deliverabilityInstance
