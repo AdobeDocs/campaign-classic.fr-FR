@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
 translation-type: tm+mt
-source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 Cette section présente les étapes préliminaires de paramétrage indispensables avant de procéder à l&#39;installation d&#39;Adobe Campaign.
 
-La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
+La configuration technique et logicielle requise pour l&#39;installation d&#39;Adobe Campaign est présentée dans la [Matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
 Pour rappel, les composants suivants doivent être installés et correctement paramétrés :
 
-* Apache, voir [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html),
+* Apache, voir [Matrice de compatibilité](../../rn/using/compatibility-matrix.md),
 * JDK Java et OpenJDK, voir la section [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
 * Librairies, voir la section [Librairies](#libraries),
 * Couches d&#39;accès base de données, voir la section [Couches d&#39;accès base de données](#database-access-layers),
@@ -169,7 +169,7 @@ Les paramétrages suivants sont nécessaires sous CentOS :
 
 Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign. Selon le moteur de base de données utilisé, les versions et modes d&#39;installation peuvent différer.
 
-Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
+Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
 Consultez également section générale [Base de données](../../installation/using/database.md).
 
