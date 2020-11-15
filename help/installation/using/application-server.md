@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 7a9e028c-255d-4aad-9827-d19f9a7897b2
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Vous devez installer un JDK sur les machines sur lesquelles vous comptez lancer 
 
 L&#39;application a été validée pour le JDK développé par Oracle ainsi que pour **OpenJDK**.
 
-Les versions prises en charge sont répertoriées dans la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
+The supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
