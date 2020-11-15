@@ -1,8 +1,6 @@
 ---
 title: A propos de l’arborescence de navigation
-seo-title: A propos de l’arborescence de navigation
 description: A propos de l’arborescence de navigation
-seo-description: null
 page-status-flag: never-activated
 uuid: 3fc31f78-2de7-4fb2-b951-71c87d4f0cfe
 contentOwner: sauviat
@@ -11,10 +9,10 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 discoiquuid: cf6a79ac-c5b1-4508-bcf1-73f2fbbfe87b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '94'
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '91'
 ht-degree: 100%
 
 ---
