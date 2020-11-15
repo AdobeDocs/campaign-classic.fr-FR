@@ -1,8 +1,6 @@
 ---
 title: A propos des services web
-seo-title: A propos des services web
 description: A propos des services web
-seo-description: null
 page-status-flag: never-activated
 uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
 contentOwner: sauviat
@@ -11,10 +9,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '661'
+translation-type: tm+mt
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
+workflow-type: tm+mt
+source-wordcount: '658'
 ht-degree: 100%
 
 ---
