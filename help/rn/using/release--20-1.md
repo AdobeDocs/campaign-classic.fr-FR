@@ -9,9 +9,9 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ _17 février 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake est un entrepôt de données dans le cloud entièrement géré, conçu pour être évolutif en termes de stockage et de puissance de calcul. Grâce à ce nouveau connecteur, Adobe Campaign peut maintenant exploiter la puissance de Snowflake pour segmenter les mégadonnées (Big Data). Ce connecteur est disponible pour tous les clients, notamment les clients hébergés par Adobe.</p>
-    <p>Pour plus d’informations, consultez la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">documentation détaillée</a> et regardez le <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutoriel vidéo</a>.</p>
+    <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-snowflake.md">documentation détaillée</a> et regardez le <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutoriel vidéo</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -62,7 +62,7 @@ _17 février 2020_
  <tbody> 
   <tr> 
    <td> <p>Le connecteur Hadoop FDA a été amélioré pour prendre en charge Hadoop 3.0 ainsi que Cloudera.</p>
-    <p>Pour plus d’informations, consultez la <a href="../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3">documentation détaillée</a>.</p>
+    <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-hadoop.md">documentation détaillée</a>.</p>
    </td> 
   </tr> 
  </tbody> 
