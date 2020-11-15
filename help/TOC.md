@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 99%
+source-wordcount: '2167'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
    + Confidentialité {#privacy}
       + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + [Demandes d’accès à des informations personnelles](platform/using/privacy-requests.md)
+      + [Demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
    + Gérer les profils {#profile-management}
       + [A propos des profils](platform/using/about-profiles.md)
       + [Editer un profil](platform/using/editing-a-profile.md)
@@ -82,17 +82,6 @@ ht-degree: 99%
       + [Gestion des accès](platform/using/access-management.md)
       + [Utiliser les packages de données](platform/using/working-with-data-packages.md)
       + [Gestion des énumérations](platform/using/managing-enumerations.md)
-      + [Comptes externes](platform/using/external-accounts.md)
-   + Accéder à une base externe (FDA){#accessing-external-database}
-      + [À propos de FDA](platform/using/about-fda.md)
-      + [Configuration des connecteurs FDA](platform/using/specific-configuration-database.md)
-      + [Anciens connecteurs](platform/using/legacy-connectors.md)
-      + [Droits d&#39;accès à la base externe](platform/using/remote-database-access-rights.md)
-      + [Connexion à la base de données](platform/using/connecting-to-database.md)
-      + [Créer le schéma des données](platform/using/creating-data-schema.md)
-      + [Définir le mapping des données](platform/using/defining-data-mapping.md)
-      + [Options additionnelles](platform/using/additional-options.md)
-      + [Annexes](platform/using/appendices-fda.md)
    + Connecteurs {#connectors}
       + [A propos des connecteurs](platform/using/about-connectors.md)
       + [Connecteurs CRM](platform/using/crm-connectors.md)
@@ -460,7 +449,7 @@ ht-degree: 99%
       + [Propriétés d&#39;exécution](workflow/using/workflow-properties.md)
       + [Paramètres avancés](workflow/using/advanced-parameters.md)
       + [Scripts/Templates JavaScript](workflow/using/javascript-scripts-and-templates.md)
-      + [Accéder à une base externe (FDA)](workflow/using/accessing-an-external-database--fda-.md)
+      + [Accès à une base de données externe](workflow/using/accessing-an-external-database--fda-.md)
       + [Gestion des droits](workflow/using/managing-rights.md)
       + [Gestion des images d&#39;activité](workflow/using/managing-activity-images.md)
       + [Gestion des affinités](workflow/using/managing-propensity.md)
@@ -585,7 +574,7 @@ ht-degree: 99%
    + Annexes {#annexes}
       + [Exemples d&#39;apps Facebook](social/using/examples-of-facebook-apps.md)
       + [Effectuer un tracking](social/using/tracking.md)
-+ Installation de Campaign Classic {#installing-campaign-classic}
++ Installation and configuration guide {#installing-campaign-classic}
    + Principes d&#39;architecture {#architecture-and-hosting-models}
       + [Architecture générale](installation/using/general-architecture.md)
       + Modèles d&#39;hébergement{#hosting-models-lp}
@@ -633,6 +622,23 @@ ht-degree: 99%
       + [Paramétrage de SpamAssassin](installation/using/configuring-spamassassin.md)
       + [Serveur de mid-sourcing](installation/using/mid-sourcing-server.md)
       + [Interaction - Mémoire tampon](installation/using/interaction---data-buffer.md)
+      + [Paramétrer les comptes externes](installation/using/external-accounts.md)
+   + Accès à une base de données externe {#accessing-external-database}
+      + [Commencer avec FDA](installation/using/about-fda.md)
+      + Instructions de configuration {#config-databases}
+         + [Etapes de configuration](installation/using/configure-fda.md)
+         + [Configuration du Snowflake](installation/using/configure-fda-snowflake.md)
+         + [Configurer la syntaxe Azure](installation/using/configure-fda-synapse.md)
+         + [Configuration de la fonction Hadoop](installation/using/configure-fda-hadoop.md)
+         + [Configurer Oracle](installation/using/configure-fda-oracle.md)
+         + [Configuration de Netezza](installation/using/configure-fda-netezza.md)
+         + [Configuration de Sybase IQ](installation/using/configure-fda-sybase.md)
+         + [Configuration des métadonnées](installation/using/configure-fda-teradata.md)
+         + [Configuration de SAP HANA](installation/using/configure-fda-sap-hana.md)
+      + [Droits d’accès à distance](installation/using/remote-database-access-rights.md)
+      + [Connexion à la base de données](installation/using/connecting-to-database.md)
+      + [Créer le schéma des données](installation/using/creating-data-schema.md)
+      + [Définir le mapping des données](installation/using/defining-data-mapping.md)
    + Annexes {#appendices}
       + [Fichier de configuration du serveur](installation/using/the-server-configuration-file.md)
       + [Points d’entrée réseau Campaign ](installation/using/campaign-network-endpoints.md)
@@ -640,7 +646,7 @@ ht-degree: 99%
       + [Création de nouvelles instances](installation/using/creating-new-instances.md)
       + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstaller Campaign](installation/using/uninstalling-campaign.md)
-+ Surveillance de Campaign Classic{#monitoring-campaign-classic}
++ Guide de surveillance {#monitoring-campaign-classic}
    + Introduction {#introduction}
       + [Avant-propos](production/using/foreword.md)
       + [Architecture générale](production/using/general-architecture.md)
@@ -688,7 +694,7 @@ ht-degree: 99%
       + [Mise à jour de la console](production/using/console-update.md)
       + [Perte de mot de passe](production/using/lost-password.md)
       + [Comportement des JSP](production/using/jsp-behavior.md)
-+ Configuration de Campaign Classic {#configuring-campaign-classic}
++ Guide des développeurs {#configuring-campaign-classic}
    + Modèle de données {#data-model}
       + [A propos du modèle de données](configuration/using/about-data-model.md)
       + [Description du modèle de données](configuration/using/data-model-description.md)
@@ -746,7 +752,7 @@ ht-degree: 99%
       + [Insertion des balises sur votre site](configuration/using/inserting-tags-in-your-site.md)
       + [Collecter toutes les visites](configuration/using/collecting-all-visits.md)
       + [Tracking anonyme](configuration/using/anonymous-tracking.md)
-+ Migrer vers une nouvelle version {#migrating-to-a-new-version}
++ Guide de migration {#migrating-to-a-new-version}
    + Présentation de la migration {#migration-overview}
       + [A propos de la migration](migration/using/about-migration.md)
       + [Méthode de migration](migration/using/migration-method.md)
