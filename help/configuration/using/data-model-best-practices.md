@@ -9,9 +9,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-translation-type: ht
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '4031'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Pour optimiser l’architecture et les performances de votre système, appliquez
 
 Un champ doit être stocké dans une table s’il est destiné à un ciblage ou une personnalisation. En d’autres termes, si un champ n’est pas utilisé pour envoyer un email personnalisé ou comme critère dans une requête, il occupe de l’espace disque alors qu’il est inutile.
 
-Pour les instances hybrides et on-premise, le module FDA (Federated Data Access, fonctionnalité facultative d’accès aux données externes) répond à la nécessité d’ajouter un champ « à la volée » lors d’un processus de campagne. Si vous disposez de l’option FDA, vous n’avez pas besoin de tout importer. Voir à ce sujet la section [À propos de Federated Data Access](../../platform/using/about-fda.md).
+Pour les instances hybrides et on-premise, le module FDA (Federated Data Access, fonctionnalité facultative d’accès aux données externes) répond à la nécessité d’ajouter un champ « à la volée » lors d’un processus de campagne. Si vous disposez de l’option FDA, vous n’avez pas besoin de tout importer. Voir à ce sujet la section [À propos de Federated Data Access](../../installation/using/about-fda.md).
 
 ### Choix des clés {#choice-of-keys}
 
