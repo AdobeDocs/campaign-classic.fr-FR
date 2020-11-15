@@ -1,6 +1,6 @@
 ---
 title: Modèles d'hébergement
-description: Modèles d'hébergement
+description: Discover - Modèles d’hébergement Campaign
 page-status-flag: never-activated
 uuid: a9e035d9-326b-4e14-8f05-a22fe38d172b
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 24521f77d6d13f8469869fdd8445b46a8d215dad
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 98%
 
 ---
 
