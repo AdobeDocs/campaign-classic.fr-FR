@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: action-activities
 discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 85%
 
 ---
 
@@ -26,9 +26,9 @@ L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes 
 
 Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont remplis :
 
-* L&#39;activité est disponible pour les sources de données distantes uniquement. Le package **[!UICONTROL FDA]** (Federated Data Access) doit donc être installé sur votre instance (voir [cette section](../../platform/using/about-fda.md)).
-* Le schéma sortant doit exister dans la base de données et être associé à une base de données FDA (pour plus d&#39;informations sur les schémas de données, reportez-vous à [cette section](../../configuration/using/about-schema-reference.md)).
-* L&#39;opérateur exécutant le workflow doit disposer du droit nommé **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. Pour plus d&#39;informations sur les droits nommés, reportez-vous à [cette section](../../platform/using/access-management.md#named-rights).
+* The activity is available for remote data sources only. The **[!UICONTROL FDA]** (Federated Data Access) package must therefore be installed on your instance. [En savoir plus](../../installation/using/about-fda.md).
+* Le schéma sortant doit exister dans la base de données et être lié à une base de données de FDA. [En savoir plus](../../configuration/using/about-schema-reference.md).
+* L&#39;opérateur qui exécute le flux de travail doit avoir l&#39;ACTIVITÉ d&#39;DATA MANAGEMENT **[!UICONTROL USE SQL (useSqlDmActivity)]** nommée à droite. [En savoir plus](../../platform/using/access-management.md#named-rights).
 
 ## Configuration de l&#39;activité Gestion des données SQL {#configuring-the-sql-data-management-activity}
 
