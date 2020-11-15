@@ -11,9 +11,9 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 discoiquuid: 1ca7ec80-18d1-4e94-bfe6-16ecd094fdf3
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 
@@ -31,4 +31,4 @@ Plusieurs activités permettent d&#39;interagir avec les données d&#39;un base 
 * Enrichissement
 * Chargement de données.
 
-L&#39;utilisation de l&#39;option FDA dépend de votre contrat de licence Adobe Campaign. Le paramétrage de cette option ainsi que les bonnes pratiques et limitations liées à son utilisation sont détaillées dans cette [section](../../platform/using/about-fda.md).
+L&#39;utilisation de l&#39;option FDA dépend de votre contrat de licence Adobe Campaign. Le paramétrage de cette option ainsi que les bonnes pratiques et limitations liées à son utilisation sont détaillées dans cette [section](../../installation/using/about-fda.md).
