@@ -11,9 +11,9 @@ audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: f5244ab8-2421-4d76-bcf6-3574e68ea4e9
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ En tant que client hébergé, la plupart des étapes d&#39;installation et de co
 * Installez les packages natifs : consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
 * Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](../../delivery/using/deliverability-key-points.md) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez [cette section](../../installation/using/configuring-campaign-options.md).
-* Configuration d&#39;une base de données externe (Federated Data Access) : consultez [cette section](../../platform/using/about-fda.md).
+* Configuration d&#39;une base de données externe (Federated Data Access) : consultez [cette section](../../installation/using/about-fda.md).
 * Configuration des connecteurs CRM : consultez [cette section](../../platform/using/crm-connectors.md).
 * Pour en savoir plus sur les principes de déploiement Mid-sourcing, consultez [cette section](../../installation/using/mid-sourcing-deployment.md).
 
