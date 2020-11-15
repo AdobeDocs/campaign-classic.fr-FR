@@ -11,9 +11,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 >[!NOTE]
 >
 >Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner
->les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
+les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 
@@ -374,7 +374,7 @@ Pour les relations de jointure à l’aide de Federated Database Access :
 * ![](assets/join_fda_11.png) : Cardinalité 1-1
 * ![](assets/join_fda_1m.png) : Cardinalité 1-N
 
-Pour plus d’informations sur les tables FDA, voir la section [Accès à une base de données externe](../../platform/using/about-fda.md).
+Pour plus d’informations sur les tables FDA, voir la section [Accès à une base de données externe](../../installation/using/about-fda.md).
 
 Un lien doit être déclaré dans le schéma possédant la clé étrangère de la table liée à partir de l’élément principal :
 
