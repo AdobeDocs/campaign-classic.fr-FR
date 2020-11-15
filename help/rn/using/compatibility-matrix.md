@@ -10,25 +10,25 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 85%
+source-wordcount: '538'
+ht-degree: 98%
 
 ---
 
 
 # Matrice de compatibilité{#compatibility-matrix}
 
-This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec Adobe Campaign.
+Ce document répertorie tous les systèmes et composants pris en charge pour [le dernier build](../../rn/using/latest-release.md) d’**Adobe Campaign Classic**. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec Adobe Campaign.
 
-Si vous êtes un utilisateur Gold Standard, reportez-vous à la matrice [de compatibilité](../../rn/using/compatibility-matrix-gs.md)Gold Standard.
+Si vous êtes un utilisateur Gold Standard, reportez-vous à la [matrice de compatibilité Gold Standard](../../rn/using/compatibility-matrix-gs.md).
 
 ## Remarques importantes{#important-notes}
 
 Sauf mention contraire, toutes les versions mineures sont prises en charge.
 
-In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic is compatible with all the systems and tools listed in this page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n’est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
+Dans son [dernier build](../../rn/using/latest-release.md), Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n’est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
 
 Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../rn/using/deprecated-features.md).
 
@@ -244,22 +244,22 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>5,7</p>
+<p>5.7</p>
 </td>
 </tr>
 <tr>
 <td>Teradata</td>
 <td>
-<p>16,20</p>
+<p>16.20</p>
 <p>16</p>
-<p>15,10</p>
-<p>15,0</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
-<p>7,2</p>
+<p>7.2</p>
 </td>
 </tr>
 <tr>
@@ -333,13 +333,13 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Navigateurs{#Browsers}
 
-Pour les navigateurs suivants, la dernière version est prise en charge : Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+Pour les navigateurs suivants, la dernière version est prise en charge : Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
 
-Internet Explorer 11 est pris en charge.
+Internet Explorer 11 est pris en charge.
 
 ## Articles connexes{#Morelikethis}
 
 * [Notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md)
 * [Guide d’installation](../../installation/using/general-architecture.md)
 * [Fonctionnalités et systèmes obsolètes](../../rn/using/deprecated-features.md)
-* [Procédure d’upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html)
+* [Procédure d’upgrade de build](../../production/using/build-upgrade.md)
