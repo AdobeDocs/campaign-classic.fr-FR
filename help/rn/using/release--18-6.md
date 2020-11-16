@@ -11,11 +11,11 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '811'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
+>Cette version a été rappelée. Effectuez [la mise à niveau vers la dernière version](../../production/using/build-upgrade.md) ou contactez le service à la clientèle [](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)Adobe.
 
 **Nouveautés**
 
@@ -42,7 +42,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> Query banding<br /> </td> 
-   <td> <p>Lorsque plusieurs utilisateurs de Campaign se connectent à un même compte externe Teradata FDA, vous pouvez désormais transmettre une Query band (paires clé/valeur) spécifique à chaque utilisateur. Chaque fois qu'un utilisateur de Campaign effectue une requête sur la base de données Teradata, Adobe Campaign peut désormais envoyer des métadonnées associées à l'utilisateur. Ces données, qui consistent en une liste de clés et de valeurs, peuvent ensuite être utilisées par les administrateurs de Teradata à des fins d'audit ou pour gérer les droits d'accès, par exemple.</p><p>Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">documentation détaillée</a>.</p> </td>
+   <td> <p>Lorsque plusieurs utilisateurs de Campaign se connectent à un même compte externe Teradata FDA, vous pouvez désormais transmettre une Query band (paires clé/valeur) spécifique à chaque utilisateur. Chaque fois qu'un utilisateur de Campaign effectue une requête sur la base de données Teradata, Adobe Campaign peut désormais envoyer des métadonnées associées à l'utilisateur. Ces données, qui consistent en une liste de clés et de valeurs, peuvent ensuite être utilisées par les administrateurs de Teradata à des fins d'audit ou pour gérer les droits d'accès, par exemple.</p><p>Pour plus d’informations, consultez la <a href="../../installation/using/external-accounts.md">documentation détaillée</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) ou contactez le [support technique](https://support.neolane.net/).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
