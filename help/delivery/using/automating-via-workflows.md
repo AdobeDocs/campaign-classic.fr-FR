@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
+workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -267,7 +267,7 @@ On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jo
 <input label="File name" type="editbtn" xpath="/tmp/@name">
   <enter>
     <soapCall name="GetAndTransform" service="ncm:content">
-      <param exprIn="'https://server/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
+      <param exprIn="'https://myserver.adobe.com/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
       <param exprIn="'xtk:xslt|cus:book-workflow.xsl'" type="string"/>
       <param type="DOMElement" xpathOut="."/>
     </soapCall>
@@ -275,7 +275,7 @@ On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jo
 </input>
 ```
 
-La zone d&#39;édition permet de renseigner le nom du fichier à récupérer. L&#39;URL est construite à partir de ce nom, soit par exemple : https://server/incomin/data.xml
+La zone d&#39;édition vous permet de saisir le nom du fichier à récupérer. L’URL est construite en fonction de ce nom, par exemple : https://myserver.adobe.com/incomin/data.xml
 
 Le format des données à récupérer est le même que dans l&#39;exemple 1 de l&#39;automatisation des workflows. Nous utiliserons la feuille de style &quot;cus:livre-workflow.xsl&quot; vue dans cet exemple.
 
