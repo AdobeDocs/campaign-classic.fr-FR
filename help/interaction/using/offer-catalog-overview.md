@@ -1,8 +1,6 @@
 ---
 title: Présentation du catalogue d'offres
-seo-title: Présentation du catalogue d'offres
-description: Présentation du catalogue d'offres
-seo-description: null
+description: En savoir plus sur le catalogue d'offres à Campaign
 page-status-flag: never-activated
 uuid: 97b3bebc-4c82-42d3-ae6e-6642caa17687
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
-translation-type: ht
-source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 94%
 
 ---
 
