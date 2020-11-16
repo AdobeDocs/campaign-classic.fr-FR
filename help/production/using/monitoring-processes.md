@@ -1,8 +1,6 @@
 ---
 title: Surveillance des processus
-seo-title: Surveillance des processus
-description: Surveillance des processus
-seo-description: null
+description: Découvrez comment surveiller les processus Campaign
 page-status-flag: never-activated
 uuid: 9dc1461f-5e95-454d-8df5-19baab85f184
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
-source-wordcount: '3773'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '3775'
+ht-degree: 99%
 
 ---
 
