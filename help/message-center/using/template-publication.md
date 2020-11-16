@@ -1,8 +1,6 @@
 ---
 title: Publication des modèles
-seo-title: Publication des modèles
-description: Publication des modèles
-seo-description: null
+description: Modèle de message transactionnel de publication
 page-status-flag: never-activated
 uuid: f83dbe5f-762c-4c58-aeed-6ec289eb522f
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
