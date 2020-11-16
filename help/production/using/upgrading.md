@@ -1,5 +1,5 @@
 ---
-title: Upgrade  vers un nouveau build
+title: Upgrade vers un nouveau build
 description: Découvrez les étapes techniques clés de l'upgrade vers un nouveau build
 page-status-flag: never-activated
 uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 7e56e4f98ffab752f0b86bb8620fb1b4af6a3dca
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
 
 1. Exécutez **setup.exe**.
 
-   Ce fichier peut être téléchargé depuis la page du support Adobe Campaign ([https://support.neolane.net/](https://support.neolane.net/)) en cliquant sur le lien **Centre de téléchargement**.
+   Pour télécharger ce fichier, connectez-vous au portail [de distribution de](https://experience.adobe.com/downloads) logiciels à l&#39;aide de vos identifiants d&#39;utilisateur. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 1. Sélectionnez le mode d&#39;installation : choisissez **[!UICONTROL Mise à jour ou réparation]**
 1. Cliquez sur **[!UICONTROL Suivant]** .
@@ -127,7 +127,7 @@ Pour connaître la procédure de mise à jour de la console cliente, reportez-vo
 
 ### Obtenir les packages à jour {#obtain-updated-packages}
 
-Commencez par récupérer les deux packages mis à jour d&#39;Adobe Campaign : accédez à la page du support Adobe Campaign ([https://support.neolane.net/](https://support.neolane.net/)) via le lien du **Centre de téléchargement**.
+Début en récupérant les deux paquets mis à jour de Adobe Campaign : connectez-vous au portail [de distribution de](https://experience.adobe.com/downloads) logiciels à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 Le fichier est **nlserver6-v7-XXX.rpm**
 
