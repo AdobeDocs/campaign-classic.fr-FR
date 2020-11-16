@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2659'
 ht-degree: 99%
 
 ---
@@ -191,7 +191,7 @@ Les étapes de paramétrage pour configurer le connecteur Microsoft Dynamics son
 
    Adobe Campaign Classic prend en charge l’interface Dynamics 365 REST avec le protocole OAuth pour l’authentification.
 
-   Si vous choisissez un type de déploiement **[!UICONTROL WebAPI]**, vous devez inscrire une application dans le répertoire Azure et obtenir le **clientId** du répertoire Azure. Cette inscription est documentée dans [cette page](https://msdn.microsoft.com/fr-fr/library/mt622431.aspx).
+   Si vous choisissez un type de déploiement **[!UICONTROL WebAPI]**, vous devez inscrire une application dans le répertoire Azure et obtenir le **clientId** du répertoire Azure. Cette inscription est documentée dans [cette page](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN).
 
    >[!NOTE]
    >
