@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 84%
+ht-degree: 82%
 
 ---
 
@@ -113,7 +113,7 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dess
    apt-get install unixodbc
    ```
 
-1. Téléchargez et installez les pilotes ODBC pour Apache Hive depuis HortonWorks : [https://www.hortonworks.com/downloads/](https://www.hortonworks.com/downloads/).
+1. Download and install ODBC drivers for Apache Hive from HortonWorks: [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
