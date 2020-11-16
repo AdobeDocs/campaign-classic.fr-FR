@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1404'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ Elle permet plus précisément aux administrateurs de la plate-forme d’effectu
 
 L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](../../workflow/using/about-workflows.md), [Activités](../../workflow/using/about-activities.md) et [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md).
 
-La carte thermique des workflows est disponible par défaut dans Adobe Campaign à compter de la version 18.10. Si vous disposez d’un build entre 8700 et 8977 (18.10), vous pouvez également bénéficier de cette fonctionnalité. Pour demander le package correspondant, contactez l’[Assistance clientèle Adobe](https://support.neolane.net/) et suivez les instructions sur [cette page](https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html) pour savoir comment l’installer.
+La carte thermique des workflows est disponible par défaut dans Adobe Campaign à compter de la version 18.10. Si vous disposez d’un build entre 8700 et 8977 (18.10), vous pouvez également bénéficier de cette fonctionnalité. Pour demander le package correspondant, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) et suivez les instructions sur [cette page](https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html) pour savoir comment l’installer.
 
 Lors de votre premier accès à la carte thermique des workflows, la fenêtre contextuelle suivante apparaît. Cet accord autorise le transfert et le stockage aux États-Unis pour permettre à Adobe Campaign de :
 
