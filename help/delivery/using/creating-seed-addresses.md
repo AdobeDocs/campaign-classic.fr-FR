@@ -1,8 +1,6 @@
 ---
 title: Créer des adresses de contrôle
-seo-title: Créer des adresses de contrôle
-description: Créer des adresses de contrôle
-seo-description: null
+description: Découvrez comment créer et utiliser des adresses de contrôle
 page-status-flag: never-activated
 uuid: 0dae107a-7b53-4096-93c3-9517b402cbc9
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 discoiquuid: 6dad49af-4818-471b-9df1-057cc6b9a68a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
