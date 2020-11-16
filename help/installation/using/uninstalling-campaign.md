@@ -1,8 +1,6 @@
 ---
 title: Désinstaller Campaign
-seo-title: Désinstaller Campaign
-description: Désinstaller Campaign
-seo-description: null
+description: Découvrez comment désinstaller Campaign
 page-status-flag: never-activated
 uuid: 4e95a576-a2fe-41dd-a03d-e4a3120f8788
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: 702253cc-3e1a-44ad-9340-b8588ee86bad
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '35'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 86%
 
 ---
 
