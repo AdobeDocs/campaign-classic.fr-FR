@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
+workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Pour créer une instance, procédez comme suit :
 
 1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d’une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
-   Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://machine).
+   Par exemple, vous pouvez utiliser une URL de type [`https://<machine>.<domain>.com`](https://myserver.adobe.com).
 
    >[!CAUTION]
    >
