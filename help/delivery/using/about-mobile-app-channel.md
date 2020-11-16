@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
-translation-type: ht
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ Le serveur Adobe Campaign doit pouvoir contacter le serveur APNS sur les ports 
 
    >[!NOTE]
    >
-   > À compter de la version Campaign 20.3, le connecteur binaire hérité d&#39;iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-http2.html)
+   > À compter de la version Campaign 20.3, le connecteur binaire hérité d&#39;iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
 
 Pour en tester le bon fonctionnement, utilisez les commandes suivantes :
 
