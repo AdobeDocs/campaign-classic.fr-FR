@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 translation-type: tm+mt
-source-git-commit: 270c86a8a15ebe38907be258aed9d245d2a49b6d
+source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 100%
+source-wordcount: '1055'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ Cette section présente les étapes d&#39;installation et de configuration d&#39
 L&#39;architecture « mid-sourcing » est présentée dans la section [Déploiement Mid-sourcing](../../installation/using/mid-sourcing-deployment.md).
 
 L&#39;installation d&#39;un serveur de mid-sourcing est identique à celle d&#39;une instance classique (se référer à la configuration standard). Il s&#39;agit d&#39;une instance autonome avec sa propre base de données, sur laquelle il est possible de lancer des diffusions. Elle contient simplement une configuration supplémentaire permettant à des instances distantes de lui déléguer des envois à effectuer en mode mid-sourcing.
+
+>[!CAUTION]
+>
+>Une fois le serveur de midsourcing configuré et les workflows [de](../../workflow/using/transfer-to-mid-sourcing.md) synchronisation exécutés pour la première fois, veillez à ne pas mettre à jour le nom interne des comptes externes de midsourcing.
 
 ## Etapes d&#39;installation et de configuration d&#39;une instance {#steps-for-installing-and-configuring-an-instance}
 
