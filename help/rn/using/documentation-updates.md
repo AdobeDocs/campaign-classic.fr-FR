@@ -1,6 +1,6 @@
 ---
 title: Mises à jour de la documentation d'Adobe Campaign Classic
-description: Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d'Adobe Campaign Classic.
+description: Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d'Adobe Campaign Classic
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
+source-git-commit: 58b7070ad765ba072b9c82e75ab1100f8cb38f3a
 workflow-type: tm+mt
-source-wordcount: '3544'
-ht-degree: 97%
+source-wordcount: '3584'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,12 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md) pour accéder à d’autres mises à jour.
 
 ## Novembre 2020 {#nov-2020}
+
+La présentation du modèle de données Campaign a été améliorée et réorganisée. [En savoir plus](../../configuration/using/about-data-model.md)
+
+La configuration du compte externe a été déplacée vers [cette section](../../installation/using/external-accounts.md).
+
+La documentation de Campaign Federated Data Access (FDA) a été améliorée avec les détails de chaque configuration de base de données externe et déplacée vers [cette section](../../installation/using/about-fda.md).
 
 [La version](../../rn/using/release--20-2.md#release-20-2-3-build-9182) de Campaign 20.2.3 est maintenant disponible en version GA.
 
