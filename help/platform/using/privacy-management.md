@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
+source-git-commit: 9240b6e194dbc26fbf37a9ecf88a1ae03f9e7a75
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '897'
 ht-degree: 58%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer
 
 * This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
-* Il contient également des informations sur les fonctions importantes de gestion de la confidentialité ([consentement, rétention des données et rôles](#consent-retention-roles)utilisateur), ainsi que les meilleures pratiques pour vous aider à respecter vos exigences en matière de confidentialité lors de l’utilisation de Adobe Campaign.
+* Il contient également des informations sur les fonctions importantes de gestion de la confidentialité ([consentement, rétention et rôles](#consent-retention-roles)), ainsi que les meilleures pratiques pour vous aider à respecter vos exigences en matière de confidentialité lors de l’utilisation de Adobe Campaign.
 
 ## Règlement sur la gestion de la vie privée {#privacy-management-regulations}
 
@@ -74,7 +74,7 @@ Depuis le début, Adobe Campaign se sert de certaines fonctions pour gérer cert
 
 For more on Consent management, refer to the [detailed documentation](../../delivery/using/managing-subscriptions.md).
 
-En plus des outils de gestion du consentement fournis par Adobe Campaign, vous avez la possibilité de déterminer si un consommateur a choisi de ne pas vendre de renseignements personnels. Consultez [cette section](../../platform/using/privacy-requests.md#sale-of-personal-information).
+En plus des outils de gestion du consentement fournis par Adobe Campaign, vous avez la possibilité de déterminer si un consommateur a choisi de ne pas vendre de renseignements personnels. Consultez [cette section](../../platform/using/privacy-requests.md##sale-of-personal-information-ccpa).
 
 ### Conservation des données {#data-retention}
 
