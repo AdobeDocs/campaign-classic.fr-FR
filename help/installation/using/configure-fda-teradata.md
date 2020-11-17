@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 022fe39e849ceafa6678120ff455d07432fb9a1f
+source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
 workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 76%
@@ -96,11 +96,9 @@ Le compte externe Teradata vous permet de connecter votre instance Campaign à v
 
    * **[!UICONTROL Base de données]**: Nom de la base de données (facultatif)
 
-   * 
-      * **[!UICONTROL Options]**: Options à transmettre via Teradata. Utilisez le format suivant : &#39;parameter=value&#39;. Utilisez une semi-colonne comme séparateur entre les valeurs.
-   * 
-      * **[!UICONTROL Fuseau horaire]**: Fuseau horaire défini dans Teradata. [En savoir plus](#timezone)
+   * **[!UICONTROL Options]**: Options à transmettre via Teradata. Utilisez le format suivant : &#39;parameter=value&#39;. Utilisez une semi-colonne comme séparateur entre les valeurs.
 
+   * **[!UICONTROL Fuseau horaire]**: Fuseau horaire défini dans Teradata. [En savoir plus](#timezone)
 
 ### Query banding
 
