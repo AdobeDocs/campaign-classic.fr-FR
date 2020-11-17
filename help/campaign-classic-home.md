@@ -17,7 +17,7 @@ ht-degree: 85%
 
 ## Nouveautés
 
-* **[Mise à jour de l’intégration](integrations/using/configuring-adobe-io.md)de Adobe Experience Cloud Triggers))**<br/> Le service d’authentification hérité d’Auth a atteint la fin de vie. Découvrez comment migrer vers les E/S d&#39;Adobe.
+* **[Mise à jour de l’intégration d'Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Le service d’authentification historique d’oAuth a atteint la fin de vie. Découvrez comment migrer vers Adobe I/O.
 
 * **[Passer à l’API du fournisseur d’APNs basée sur HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/> Découvrez comment migrer du protocole binaire historique à l’API du fournisseur d’APNs basée sur HTTP/2.
 
