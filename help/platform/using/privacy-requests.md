@@ -1,5 +1,5 @@
 ---
-title: Demandes d’accès à des informations personnelles
+title: Demandes d'accès à des informations personnelles
 description: Découvrez comment gérer les demandes de confidentialité
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
+source-git-commit: e0ca252aceb0f2abca4a1324c5e4ece038927533
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2591'
 ht-degree: 43%
 
 ---
@@ -82,7 +82,7 @@ Avant de créer des requêtes de confidentialité, vous devez définir l’espac
 
 Trois espaces de noms d’usine sont disponibles : email, téléphone et téléphone mobile. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
-## Création d’une demande d’accès à des informations personnelles {#create-privacy-request-ui}
+## Creating a Privacy request {#create-privacy-request-ui}
 
 The **Adobe Campaign interface** allows you to create your Privacy requests and track their evolution. Pour créer une nouvelle demande de confidentialité, suivez les instructions suivantes :
 
@@ -129,7 +129,7 @@ Si vous avez créé des tables personnalisées ayant un lien avec la table du de
 >Si vous effectuez des demandes de traitement par lots de confidentialité en utilisant des workflows de suppression de profil, veuillez tenir compte des remarques suivantes :
 >* La suppression de profil par le biais des workflows ne traite pas les tables filles.
 >* Vous devez gérer la suppression pour toutes les tables filles.
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** perform the deletion. Nous suggérons de limiter à 200 profils par jour la suppression pour des raisons de performances.
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. Nous suggérons de limiter à 200 profils par jour la suppression pour des raisons de performances.
 
 
 ### Etat des requêtes de confidentialité {#privacy-request-statuses}
@@ -444,14 +444,14 @@ Pour indiquer les valeurs, plusieurs méthodes peuvent être utilisées :
 
 Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce partie les informations personnelles des profils qui s’y sont opposés.
 
-To change the opt-out status, go to **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** and select a recipient. In the **[!UICONTROL General]** tab, you will see the field configured in the previous section.
+1. To change the opt-out status, go to **[!UICONTROL Profiles and Target]** > **[!UICONTROL Recipients]** and select a recipient. In the **[!UICONTROL General]** tab, you will see the field configured in the previous section.
 
-![](assets/privacy-ccpa-5.png)
+   ![](assets/privacy-ccpa-5.png)
 
-Configurez la liste destinataire pour qu’elle affiche la colonne d’ouverture. Pour savoir comment configurer des listes, consultez la documentation [](../../platform/using/adobe-campaign-workspace.md#configuring-lists)détaillée.
+1. Configurez la liste destinataire pour qu’elle affiche la colonne d’ouverture. Pour savoir comment configurer des listes, consultez la documentation [](../../platform/using/adobe-campaign-workspace.md#configuring-lists)détaillée.
 
-![](assets/privacy-ccpa-6.png)
+   ![](assets/privacy-ccpa-6.png)
 
-Vous pouvez cliquer sur la colonne pour trier les destinataires en fonction des informations d’exclusion. Vous pouvez également créer un filtre en vue d’afficher uniquement les destinataires qui ont exercé leur droit d’opposition. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. Vous pouvez cliquer sur la colonne pour trier les destinataires en fonction des informations d’exclusion. Vous pouvez également créer un filtre en vue d’afficher uniquement les destinataires qui ont exercé leur droit d’opposition. For more on creating filters, see [this section](../../platform/using/creating-filters.md).
 
-![](assets/privacy-ccpa-7.png)
+   ![](assets/privacy-ccpa-7.png)
