@@ -12,11 +12,11 @@ discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dfa3938433fcd67eb8f38269e82ee1102eda41ce
+workflow-type: tm+mt
+source-wordcount: '1807'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,14 @@ Une fois le package installé, vous pouvez définir les paramètres de votre app
 >
 >Pour savoir comment configurer votre application pour iOS et comment créer une diffusion pour iOS, reportez-vous à cette [section](../../delivery/using/configuring-the-mobile-application.md).
 
+Les étapes clés sont les suivantes :
+
+1. [Configuration du compte externe Android](#configuring-external-account-android)
+1. [Configuration du service Android](#configuring-android-service)
+1. [Création de l’application mobile dans Campaign](#creating-android-app)
+1. [Étendre le schéma de l’application avec des données supplémentaires](#extend-subscription-schema)
+
+Vous pourrez alors [créer une notification](#creating-android-delivery)Android enrichie.
 
 ## Configuration du compte externe Android {#configuring-external-account-android}
 
@@ -94,23 +102,17 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
    >
    > La **[!UICONTROL clé d&#39;intégration]** est entièrement personnalisable avec une valeur de chaîne, mais doit être exactement identique à celle spécifiée dans le SDK.
 
-1. Sélectionnez l&#39;une des **[!UICONTROL versions d&#39;API]** :
-   * HTTP. Voir à ce sujet cette [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
-   * HTTPV1. Voir à ce sujet cette [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+1. Select the **[!UICONTROL API version]**:
 
-1. Renseignez les champs **[!UICONTROL Firebase Cloud Messaging pour paramètres de connexion Android]**.
+   * HTTPV1. La configuration est détaillée dans cette [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+   * HTTP (hérité). La configuration est détaillée dans cette [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+
+
+1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
 
 1. Cliquez sur **[!UICONTROL Terminer]**, puis sur **[!UICONTROL Enregistrer]**. Votre application Android est maintenant prête à être utilisée dans Campaign Classic.
 
 Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL Identifiant de l&#39;utilisateur]** (@userKey) de la table **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]**. Cette clé permet de relier un abonnement à un destinataire. Si vous souhaitez collecter des données additionnelles (par exemple une clé de réconciliation complexe), vous devez effectuer le paramétrage suivant :
-
-1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** et définissez les nouveaux champs.
-
-1. Définissez le mapping dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]**.
-
-   >[!CAUTION]
-   >
-   >Assurez-vous que les noms des paramètres dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]** sont les mêmes que dans le code de l&#39;application mobile. Voir [Intégrer le SDK Campaign dans l&#39;application mobile](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
 
 ### Sélectionner la version d&#39;API{#select-api-version}
 
@@ -126,7 +128,7 @@ Pour configurer la version d&#39;API HTTP v1, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Charger le fichier json du projet pour extraire les détails du projet...]** pour charger directement votre fichier de clé JSON. Pour plus d&#39;informations sur l&#39;extraction de votre fichier JSON, consultez cette [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
-1. Vous pouvez également saisir manuellement les informations suivantes :
+   Vous pouvez également saisir manuellement les informations suivantes :
    * **[!UICONTROL Identifiant du projet]**
    * **[!UICONTROL Clé privée]**
    * **[!UICONTROL Email client]**
@@ -180,6 +182,19 @@ Vous trouverez ci-dessous les noms de payload FCM pour personnaliser davantage v
 
 <br>
 
+## Étendre le schéma appsubscriptionRcp {#extend-subscription-schema}
+
+Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux champs supplémentaires afin de stocker les paramètres de l’application dans la base de données Campaign. Ces champs seront utilisés pour la personnalisation, par exemple. Pour cela :
+
+1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** et définissez les nouveaux champs. Learn more about schema extension in [this page](../../configuration/using/about-schema-edition.md)
+
+1. Définissez le mapping dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]**.
+
+   >[!CAUTION]
+   >
+   >Assurez-vous que les noms des paramètres dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]** sont les mêmes que dans le code de l&#39;application mobile. Voir [Intégrer le SDK Campaign dans l&#39;application mobile](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
+
+
 ## Création d&#39;une notification Android enrichie {#creating-android-delivery}
 
 Firebase Cloud Messaging vous permet de choisir entre deux types de messages :
@@ -202,7 +217,7 @@ Pour plus d&#39;informations sur les types de messages Firebase Cloud Messagin
 
 1. Sélectionnez **[!UICONTROL Diffuser sur Android (android)]** dans la liste déroulante **[!UICONTROL Modèle de diffusion]**. Ajoutez un **[!UICONTROL Libellé]** à la diffusion.
 
-1. Cliquez sur **[!UICONTROL Pour]** pour définir la population à cibler. Par défaut, l&#39;**[!UICONTROL Application abonnée]** est appliquée. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner votre service.
+1. Cliquez sur **[!UICONTROL Pour]** pour définir la population à cibler. Par défaut, le mapping de ciblage **[!UICONTROL Application abonnés]** est appliquée. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner votre service.
 
    ![](assets/nmac_android_7.png)
 
@@ -215,7 +230,7 @@ Les **[!UICONTROL variables d&#39;application]** sont automatiquement ajoutées 
 
 1. Sélectionnez le **[!UICONTROL message de données]** comme **[!UICONTROL type de message]**.
 
-1. Éditez la notification enrichie.
+1. Modifiez la notification enrichie.
 
    ![](assets/nmac_android_5.png)
 
@@ -241,7 +256,7 @@ L&#39;image et la page web doivent s&#39;afficher dans la notification push lors
 
 1. Sélectionnez **[!UICONTROL Diffuser sur Android (android)]** dans la liste déroulante **[!UICONTROL Modèle de diffusion]**. Ajoutez un **[!UICONTROL Libellé]** à la diffusion.
 
-1. Cliquez sur **[!UICONTROL Pour]** pour définir la population à cibler. Par défaut, l&#39;**[!UICONTROL Application abonnée]** est appliquée. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner votre service.
+1. Cliquez sur **[!UICONTROL Pour]** pour définir la population à cibler. Par défaut, le mapping de ciblage **[!UICONTROL Application abonnés]** est appliquée. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner votre service.
 
    ![](assets/nmac_android_7.png)
 
