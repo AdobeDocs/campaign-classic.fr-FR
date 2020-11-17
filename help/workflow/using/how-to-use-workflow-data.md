@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: -general-operation
 discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 9e7799689a4c7cdbadf3521d462760626263b59b
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 96%
@@ -130,7 +130,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
    ```
    var cmd='gpg ';
    cmd += ' --trust-model always';
-   cmd += ' --batch -yes';
+   cmd += ' --batch --yes';
    cmd += ' --recipient fingerprint';
    cmd += ' --encrypt --output ' + vars.filename + '.gpg ' + vars.filename;
    execCommand(cmd,true);
