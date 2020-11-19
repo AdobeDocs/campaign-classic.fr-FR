@@ -1,6 +1,6 @@
 ---
 title: Configurer l’accès à Teradata
-description: Découvrez comment configurer l’accès aux métadonnées dans la FDA
+description: Découvrez comment configurer l'accès à Teradata dans FDA
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -20,15 +20,15 @@ ht-degree: 76%
 
 # Configurer l’accès à Teradata {#configure-access-to-teradata}
 
-Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès aux métadonnées.
+Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Teradata.
 
 1. Installation et configuration des pilotes [Teradata](#teradata-config)
 1. Configuration du [compte externe](#teradata-external) Teradata dans Campaign
 1. Configuration [](#teradata-additional-configurations) supplémentaire pour Teradata et Campaign Server
 
-## Configuration des Teradata {#teradata-config}
+## Configuration de teradata {#teradata-config}
 
-Vous devez installer des pilotes pour que Teradata puisse mettre en oeuvre la connexion à Campaign.
+Vous devez installer des pilotes pour que Teradata puisse établir une connexion à Campaign.
 
 1. Installez le [pilote ODBC pour Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
@@ -86,7 +86,7 @@ Le compte externe Teradata vous permet de connecter votre instance Campaign à v
 
 1. Pour configurer le compte externe **[!UICONTROL Teradata]**, vous devez indiquer les informations suivantes :
 
-   * **[!UICONTROL Type]**: Sélectionnez le type de **[!UICONTROL métadonnées]** .
+   * **[!UICONTROL Type]**: Sélectionnez le type **[!UICONTROL Teradata]** .
 
    * **[!UICONTROL Serveur]**: URL ou nom de votre serveur Teradata
 
@@ -106,7 +106,7 @@ Si plusieurs utilisateurs Adobe Campaign se connectent au même compte externe F
 
 ![](assets/ext_account_20.png)
 
-Lorsque cette option est configurée, chaque fois qu’un utilisateur Campaign effectue une requête dans la base de données Teradata, Adobe Campaign envoie des métadonnées, qui se composent d’une liste de clés, associées à cet utilisateur. Ces données peuvent ensuite être utilisées par les administrateurs Teradata à des fins d’audit ou pour gérer les droits d’accès.
+Lorsque cette option est configurée, chaque fois qu&#39;un utilisateur Campaign effectue une requête sur la base de données Teradata, Adobe Campaign envoie des métadonnées, composées d&#39;une liste de clés, associées à cet utilisateur. Ces données peuvent ensuite être utilisées par les administrateurs Teradata à des fins d’audit ou pour gérer les droits d’accès.
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ Lorsque cette option est configurée, chaque fois qu’un utilisateur Campaign e
 
 Pour configurer la bande de Requêtes, procédez comme suit :
 
-1. Utilisez l’option **[!UICONTROL Par défaut]** pour entrer une bande de requête par défaut qui sera utilisée si un utilisateur n’a pas de bande de requête associée. Si ce champ est vide, les utilisateurs sans bande de requête ne pourront pas utiliser les Teradata.
+1. Utilisez l’option **[!UICONTROL Par défaut]** pour entrer une bande de requête par défaut qui sera utilisée si un utilisateur n’a pas de bande de requête associée. Si ce champ est vide, les utilisateurs sans bande de requête ne pourront pas utiliser Teradata.
 
 1. Utilisez le champ **[!UICONTROL Utilisateurs]** pour spécifier une bande de requête pour chaque utilisateur. Vous pouvez ajouter autant de paires clé/valeur que nécessaire, par exemple priority=1;work=high. Si aucune bande de requête n’est affectée à l’utilisateur, le champ **[!UICONTROL Par défaut]** est appliqué.
 
