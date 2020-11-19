@@ -20,10 +20,10 @@ ht-degree: 78%
 
 # Configurer l’accès à Azure Synapse {#configure-access-to-azure-synapse}
 
-Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l&#39;accès à Microsoft Azure Synapse Analytics.
+Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Microsoft Azure synapse Analytics.
 
-1. Configuration de la syntaxe Azure sur [CentOS](#azure-centos), [Windows](#azure-windows) ou [Debian](#azure-debian)
-1. Configuration du [compte externe](#azure-external) Azure Synapse dans Campaign
+1. Configuration d&#39;Azure synapse sur [CentOS](#azure-centos), [Windows](#azure-windows) ou [Debian](#azure-debian)
+1. Configuration du [compte externe](#azure-external) Azure synapse dans Campaign
 
 ## Azure Synapse sous CentOS {#azure-centos}
 
@@ -34,7 +34,7 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/ab
 >* La version 13.0 fonctionnera avec Red Hat 6 et 7.
 
 
-Pour configurer Azure Synapse sur CentOS, procédez comme suit :
+Pour configurer Azure synapse sur CentOS, procédez comme suit :
 
 1. Installez tout d’abord le pilote ODBC. Vous pouvez le trouver sur cette [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
