@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
 workflow-type: tm+mt
 source-wordcount: '2167'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
          + [Développement](platform/using/faq-developers.md)
       + [Tutoriels](platform/using/tutorials.md)
    + Confidentialité {#privacy}
-      + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
+      + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
    + Gérer les profils {#profile-management}
@@ -74,7 +74,7 @@ ht-degree: 97%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête  {#creating-queries}
+   + Créer une requête    {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -331,9 +331,9 @@ ht-degree: 97%
       + [Synchronisation des applications web](integrations/using/synchronizing-web-applications.md)
       + [Résolution des problèmes de [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
    + Triggers Experience Cloud {#experience-triggers}
-      + [Commencer avec [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [Prise en main de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
-      + [Configuration des E/S d&#39;Adobe pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
+      + [Configuration d’Adobe I/O pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
       + [Configuration d’événements pour une mise en œuvre personnalisée](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
@@ -422,7 +422,7 @@ ht-degree: 97%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle   {#monitoring}
+      + Contrôle     {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -574,7 +574,7 @@ ht-degree: 97%
    + Annexes {#annexes}
       + [Exemples d&#39;apps Facebook](social/using/examples-of-facebook-apps.md)
       + [Effectuer un tracking](social/using/tracking.md)
-+ Installation and configuration guide {#installing-campaign-classic}
++ Guide d’installation et de configuration {#installing-campaign-classic}
    + Principes d&#39;architecture {#architecture-and-hosting-models}
       + [Architecture générale](installation/using/general-architecture.md)
       + Modèles d&#39;hébergement{#hosting-models-lp}
@@ -622,20 +622,20 @@ ht-degree: 97%
       + [Paramétrage de SpamAssassin](installation/using/configuring-spamassassin.md)
       + [Serveur de mid-sourcing](installation/using/mid-sourcing-server.md)
       + [Interaction - Mémoire tampon](installation/using/interaction---data-buffer.md)
-      + [Paramétrer les comptes externes](installation/using/external-accounts.md)
+      + [Paramétrage des comptes externes](installation/using/external-accounts.md)
    + Accès à une base de données externe {#accessing-external-database}
-      + [Commencer avec FDA](installation/using/about-fda.md)
+      + [Prise en main de FDA](installation/using/about-fda.md)
       + Instructions de configuration {#config-databases}
-         + [Etapes de configuration](installation/using/configure-fda.md)
-         + [Configuration du Snowflake](installation/using/configure-fda-snowflake.md)
-         + [Configuration de Azure synapse](installation/using/configure-fda-synapse.md)
-         + [Configuration de Hadoop](installation/using/configure-fda-hadoop.md)
-         + [Configuration de Oracle](installation/using/configure-fda-oracle.md)
+         + [Étapes de configuration](installation/using/configure-fda.md)
+         + [Configurer Snowflake](installation/using/configure-fda-snowflake.md)
+         + [Configurer Azure Synapse](installation/using/configure-fda-synapse.md)
+         + [Configurer Hadoop](installation/using/configure-fda-hadoop.md)
+         + [Configurer Oracle](installation/using/configure-fda-oracle.md)
          + [Configurer Netezza](installation/using/configure-fda-netezza.md)
          + [Configurer Sybase IQ](installation/using/configure-fda-sybase.md)
          + [Configurer Teradata](installation/using/configure-fda-teradata.md)
          + [Configurer SAP HANA](installation/using/configure-fda-sap-hana.md)
-      + [Droits d’accès à distance](installation/using/remote-database-access-rights.md)
+      + [Droits d’accès distants](installation/using/remote-database-access-rights.md)
       + [Connexion à la base de données](installation/using/connecting-to-database.md)
       + [Créer le schéma des données](installation/using/creating-data-schema.md)
       + [Définir le mapping des données](installation/using/defining-data-mapping.md)
@@ -645,7 +645,7 @@ ht-degree: 97%
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création de nouvelles instances](installation/using/creating-new-instances.md)
       + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
-      + [Désinstaller Campaign](installation/using/uninstalling-campaign.md)
+      + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
 + Guide de surveillance {#monitoring-campaign-classic}
    + Introduction {#introduction}
       + [Avant-propos](production/using/foreword.md)
