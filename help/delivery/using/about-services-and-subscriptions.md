@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des services et des abonnements
-seo-title: A propos des services et des abonnements
 description: A propos des services et des abonnements
-seo-description: null
-page-status-flag: never-activated
-uuid: 259ad642-8001-42d0-ba82-d4d7d566f196
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-discoiquuid: 6a2eb799-ea0b-404d-8dc8-5f3ba1e4b630
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '153'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '149'
 ht-degree: 100%
 
 ---
