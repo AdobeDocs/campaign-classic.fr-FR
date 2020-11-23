@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publier le kit d'opération
-seo-title: Publier le kit d'opération
 description: Publier le kit d'opération
-seo-description: null
-page-status-flag: never-activated
-uuid: f2d35a8d-191f-4c53-8682-7ccce2a94257
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 8653d4fc-e47f-451a-95f2-c9209a252664
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '483'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
