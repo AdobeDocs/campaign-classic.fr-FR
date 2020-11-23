@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migration sous Linux pour Adobe Campaign v7
-seo-title: Migration sous Linux pour Adobe Campaign v7
 description: Migration sous Linux pour Adobe Campaign v7
-seo-description: null
-page-status-flag: never-activated
-uuid: 47870ea4-b07b-4db7-8094-7a8b6f4b6936
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-discoiquuid: 8f6519e8-5c8d-4974-b193-a9f1cf78b3a3
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1897'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1890'
 ht-degree: 100%
 
 ---
