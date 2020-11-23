@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
-seo-title: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
 description: '"Cas pratique : sélection des adresses de contrôle selon des critères"'
-seo-description: null
-page-status-flag: never-activated
-uuid: 6af39893-6ef3-4204-8b53-0c16e35bac8f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: fa8aab62-e182-4388-aa23-c255b0dbd42e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '920'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '913'
 ht-degree: 100%
 
 ---
