@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des activités de ciblage
-seo-title: A propos des activités de ciblage
 description: A propos des activités de ciblage
-seo-description: null
-page-status-flag: never-activated
-uuid: c62d15a2-f701-4d56-8491-57cd8b52d4cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 91caf55f-e7ff-4693-a014-e8fc5d243072
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '407'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
