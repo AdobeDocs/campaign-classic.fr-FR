@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mode de tracking web
-seo-title: Mode de tracking web
 description: Mode de tracking web
-seo-description: null
-page-status-flag: never-activated
-uuid: 51b889d3-28f8-480a-a614-10c8eb3128ac
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: efeef54b-925d-4654-8601-52a73539b41f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '680'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '677'
 ht-degree: 100%
 
 ---
