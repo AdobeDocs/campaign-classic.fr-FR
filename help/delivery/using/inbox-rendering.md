@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Inbox rendering  dans Campaign
 description: Découvrez comment capturer les rendus d'email et y accéder dans un rapport dédié
-page-status-flag: never-activated
-uuid: 2025f5e9-8a19-407c-9e0a-378ba5a76208
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 translation-type: tm+mt
-source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 100%
