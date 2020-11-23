@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Règles de présentation
-seo-title: Règles de présentation
 description: Règles de présentation
-seo-description: null
-page-status-flag: never-activated
-uuid: 460f06f8-cdb9-401d-a45e-e54e56d66781
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: case-study
-discoiquuid: 8ef303b4-d9ce-40ee-a6c6-ed5012ab8eb8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '492'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
