@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Purge des événements
-seo-title: Purge des événements
 description: Purge des événements
-seo-description: null
-page-status-flag: never-activated
-uuid: bbce6813-dfa8-418c-9b52-06e814c15265
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: 2f643080-93b4-4c9f-80cf-b1770b149e6c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '92'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
