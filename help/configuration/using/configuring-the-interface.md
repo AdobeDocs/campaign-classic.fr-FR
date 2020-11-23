@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration de l'interface
-seo-title: Configuration de l'interface
 description: Configuration de l'interface
-seo-description: null
-page-status-flag: never-activated
-uuid: 101ba02f-da43-4dcc-b9ff-6e5ca848fc5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 8fb9ff23-17a7-4425-9195-738d6fd914dc
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '313'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
