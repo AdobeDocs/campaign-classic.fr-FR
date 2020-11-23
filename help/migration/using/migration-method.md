@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Méthode de migration
-seo-title: Méthode de migration
 description: Méthode de migration
-seo-description: null
-page-status-flag: never-activated
-uuid: 6b954d5b-cfa3-43c6-ac3d-da9185e9e9d1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
