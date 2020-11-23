@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Paramétrage du serveur Campaign
-seo-title: Paramétrage du serveur Campaign
 description: Paramétrage du serveur Campaign
-seo-description: null
-page-status-flag: never-activated
-uuid: a1fadad2-e888-4dd8-bc1f-04df16ba7d46
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: f296676e-3bf1-47da-8239-f5ae54e52fc0
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '547'
 ht-degree: 100%
 
 ---
