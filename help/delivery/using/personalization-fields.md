@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Champs de personnalisation
-seo-title: Champs de personnalisation
 description: Champs de personnalisation
-seo-description: null
-page-status-flag: never-activated
-uuid: 3a94a50e-259e-40c3-ae67-8a2c42e9fad7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '917'
 ht-degree: 100%
 
 ---
