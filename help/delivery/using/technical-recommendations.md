@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Recommandations techniques pour améliorer la délivrabilité avec Adobe Campaign Classic
 description: Découvrez les techniques, les configurations et les outils que vous pouvez utiliser pour améliorer votre taux de délivrabilité avec Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 71be1087-e5ff-4a7a-85ca-36803839e72f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 100%
 
