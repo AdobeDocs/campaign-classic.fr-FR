@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publier sur Facebook
-seo-title: Publier sur Facebook
 description: Publier sur Facebook
-seo-description: null
-page-status-flag: never-activated
-uuid: f15170fa-0e7d-4913-81d6-0072c1ece482
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
-translation-type: ht
-source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
-workflow-type: ht
-source-wordcount: '1256'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1253'
 ht-degree: 100%
 
 ---
