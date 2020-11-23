@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Intégrer une offre via l'assistant
-seo-title: Intégrer une offre via l'assistant
 description: Intégrer une offre via l'assistant
-seo-description: null
-page-status-flag: never-activated
-uuid: 0d8cf0b5-fc27-4bf4-bd1d-892fe6e3257b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-discoiquuid: 181fcb70-9394-4091-93df-92c39273ec3d
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '846'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '840'
 ht-degree: 100%
 
 ---
