@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser le serveur SFTP
 description: Découvrez les bonnes pratiques et la résolution des problèmes liés au serveur SFTP.
-page-status-flag: never-activated
-uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 translation-type: tm+mt
-source-git-commit: ebec481d5a018d06e47c782627e9a9064cb0dd64
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 77%
