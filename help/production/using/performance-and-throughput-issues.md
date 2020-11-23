@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Problèmes de performance et de débit
-seo-title: Problèmes de performance et de débit
 description: Problèmes de performance et de débit
-seo-description: null
-page-status-flag: never-activated
-uuid: 28c35453-9a15-44a3-9961-f4c604c209c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '691'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
