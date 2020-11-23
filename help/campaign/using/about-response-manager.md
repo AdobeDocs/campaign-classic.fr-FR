@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos de la gestion de la réaction
-seo-title: A propos de la gestion de la réaction
 description: A propos de la gestion de la réaction
-seo-description: null
-page-status-flag: never-activated
-uuid: 3087a96d-50fb-488a-9b76-70eb5c67deed
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: a4669fee-4512-455f-b495-ebd5a0746b76
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '442'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
