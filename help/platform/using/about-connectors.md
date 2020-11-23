@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des connecteurs
-seo-title: A propos des connecteurs
 description: A propos des connecteurs
-seo-description: null
-page-status-flag: never-activated
-uuid: 2596fabc-679a-45c8-a62a-165c221654b7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---
