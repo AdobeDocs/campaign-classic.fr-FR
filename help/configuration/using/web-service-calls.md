@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Appels Web Service
-seo-title: Appels Web Service
 description: Appels Web Service
-seo-description: null
-page-status-flag: never-activated
-uuid: 7defe0e4-bb4a-4f6a-b6e8-e2ffac73b4c1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 6934c165-6d27-4ce5-8607-170f299b4702
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '954'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '951'
 ht-degree: 100%
 
 ---
