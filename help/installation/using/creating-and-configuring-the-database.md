@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Création et paramétrage de la base de données
-seo-title: Création et paramétrage de la base de données
 description: Création et paramétrage de la base de données
-seo-description: null
-page-status-flag: never-activated
-uuid: e5143d55-61fa-416a-80db-c29a0caf9a3e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1342'
 ht-degree: 98%
 
 ---
