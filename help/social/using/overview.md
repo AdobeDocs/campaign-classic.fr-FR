@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Présentation
-seo-title: Présentation
 description: Présentation
-seo-description: null
-page-status-flag: never-activated
-uuid: e1cd6b8c-b7e4-4cfb-a3d6-ad05f81a8e5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 9330d4f2-b36d-440d-b56e-b2d4448199b2
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '139'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
