@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Perte de mot de passe
-seo-title: Perte de mot de passe
 description: Perte de mot de passe
-seo-description: null
-page-status-flag: never-activated
-uuid: caac68bf-abdc-45da-9697-b689ebd37002
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: d52eeadc-19c6-4d48-995a-1c1f2ca3b5ec
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '156'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '154'
 ht-degree: 100%
 
 ---
