@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Temps traitement Message Center
-seo-title: Temps traitement Message Center
 description: Temps traitement Message Center
-seo-description: null
-page-status-flag: never-activated
-uuid: 06aca2c2-33c0-4839-bee4-fd838c49ce76
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: reports
-discoiquuid: d1f591d2-95e8-4d99-bc60-955c96b532eb
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '252'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
