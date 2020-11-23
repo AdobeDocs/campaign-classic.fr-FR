@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Planificateur
 description: En savoir plus sur l'activité du processus des Planificateurs
-page-status-flag: never-activated
-uuid: e814b978-2edd-442e-9334-9633bc9ec63a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 97%
