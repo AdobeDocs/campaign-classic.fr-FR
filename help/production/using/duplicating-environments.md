@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Duplication d'environnements
-seo-title: Duplication d'environnements
 description: Duplication d'environnements
-seo-description: null
-page-status-flag: never-activated
-uuid: b8fb8083-e3ec-4b1c-9449-73ac03508d89
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: data-processing
-discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
-source-wordcount: '1298'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1296'
 ht-degree: 100%
 
 ---
@@ -74,6 +69,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pro
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
+
 >
 
 
