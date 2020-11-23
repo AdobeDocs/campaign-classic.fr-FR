@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Règles de filtrage
-seo-title: Règles de filtrage
 description: Règles de filtrage
-seo-description: null
-page-status-flag: never-activated
-uuid: 24238a99-1f0f-4d04-9807-557ec2a5ba16
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: 0d50826e-2211-4c3b-8413-ca1453bba6c4
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '526'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
