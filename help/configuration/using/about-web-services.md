@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des services web
 description: A propos des services web
-page-status-flag: never-activated
-uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
 translation-type: tm+mt
-source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 100%
