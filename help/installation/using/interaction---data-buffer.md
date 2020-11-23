@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Interaction - Mémoire tampon
-seo-title: Interaction - Mémoire tampon
 description: Interaction - Mémoire tampon
-seo-description: null
-page-status-flag: never-activated
-uuid: 4cb742b5-6bde-43e8-b26b-16f27dd65f72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: cbfdeb2f-4f20-45b8-8cc0-89362f9ea9c1
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
