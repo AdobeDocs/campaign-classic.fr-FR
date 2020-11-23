@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Construire un workflow
 description: Découvrez comment créer un processus
-page-status-flag: never-activated
-uuid: 55743545-dd4b-4a0a-aeff-8fd638812b9d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 95%
