@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Modèle hébergé
-seo-title: Modèle hébergé
 description: Modèle hébergé
-seo-description: null
-page-status-flag: never-activated
-uuid: b8db3c93-ccba-465a-8b75-921d7266c4e4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
-discoiquuid: ada27825-42bd-48c7-bc03-a619f1fa9463
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
-source-wordcount: '88'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
