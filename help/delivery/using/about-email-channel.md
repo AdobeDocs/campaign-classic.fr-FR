@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: À propos du canal email dans Adobe Campaign Classic
 description: Cette section fournit des informations générales spécifiques au canal email dans Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: aaef3c4a-99b2-4554-9a78-bb66459e45a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 88575757-ef1b-4247-88ff-6f355c1ecd3e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 
