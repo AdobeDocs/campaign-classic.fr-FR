@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Avertissements relatifs à la migration
 description: Avertissements relatifs à la migration
-page-status-flag: never-activated
-uuid: 35361471-881c-4aaf-a57b-ed7e89a97eae
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-discoiquuid: 1fa1fe0f-c392-413a-9fa0-d1b4e10e2e5e
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
