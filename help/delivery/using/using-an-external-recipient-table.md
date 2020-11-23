@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser une table de destinataires externe
-seo-title: Utiliser une table de destinataires externe
 description: Utiliser une table de destinataires externe
-seo-description: null
-page-status-flag: never-activated
-uuid: a6147425-14f0-41e8-a47f-3e7072deafa7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: 92c32b2d-d8bf-41ab-9349-ef4a15f10521
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '90'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '85'
 ht-degree: 100%
 
 ---
