@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Schémas de données
-seo-title: Schémas de données
 description: Schémas de données
-seo-description: null
-page-status-flag: never-activated
-uuid: 3327a38c-e44d-4581-a67b-bb60c1604a5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: aeaa9475-3715-40a4-8864-29d126883272
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '548'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '546'
 ht-degree: 100%
 
 ---
