@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des messages transactionnels
 description: 'Envoyer des messages de déclenchement en fonction des événements générés à partir de systèmes d''information. '
-page-status-flag: never-activated
-uuid: c854daac-8756-44f3-a4e2-be31177ab9d1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: introduction
-discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
