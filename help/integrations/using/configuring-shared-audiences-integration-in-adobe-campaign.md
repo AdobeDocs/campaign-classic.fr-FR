@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration de l'intégration des audiences partagées dans Adobe Campaign
 description: Découvrez comment configurer l'intégration des audiences partagées
-page-status-flag: never-activated
-uuid: 6ed137e4-027f-4eb0-a0b5-4beb7deef51f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 98%
