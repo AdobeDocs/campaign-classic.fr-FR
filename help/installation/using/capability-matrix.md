@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Matrice des fonctionnalités Campaign On-premise, hybride et hébergé
 description: Découvrez les principales différences entre les déploiements hébergés et On-premise
-page-status-flag: never-activated
-uuid: d1c786a1-2691-4966-9108-059004050464
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
