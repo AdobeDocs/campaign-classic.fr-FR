@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Comprendre les diffusions en échec
 description: Découvrez comment comprendre les échecs de diffusion
-page-status-flag: never-activated
-uuid: 03a91f84-77fe-40a9-8be9-a6a35a873ae1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 99%
