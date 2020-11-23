@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tester le tracking
-seo-title: Tester le tracking
 description: Tester le tracking
-seo-description: null
-page-status-flag: never-activated
-uuid: 76d84ab4-b632-4498-96a1-ce9c773ec125
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: 4ed23249-4ecf-4e57-91b3-6fae1387bd6a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '256'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
