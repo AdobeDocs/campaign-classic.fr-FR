@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Structure d’un schéma de données
-seo-title: Structure d’un schéma de données
 description: Structure d’un schéma de données
-seo-description: null
-page-status-flag: never-activated
-uuid: 83e3995d-fa31-4cb5-acf2-83f17329c99c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: a1a39eaa-6d6f-42c5-a36b-bd1cb3a77dcb
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '147'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '142'
 ht-degree: 100%
 
 ---
