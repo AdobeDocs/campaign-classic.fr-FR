@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Accès à une base de données externe
 description: Découvrez comment vous connecter à une base de données externe
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 98%
