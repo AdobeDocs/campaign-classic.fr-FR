@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Types de maintenance
-seo-title: Types de maintenance
 description: Types de maintenance
-seo-description: null
-page-status-flag: never-activated
-uuid: 44faee3d-0549-4f63-8fdc-b24e6de47bc4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: 4a436ccf-097c-43e6-9eda-492bada5512a
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
-source-wordcount: '497'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
