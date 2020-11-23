@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gestion des inscriptions
-seo-title: Gestion des inscriptions
 description: Gestion des inscriptions
-seo-description: null
-page-status-flag: never-activated
-uuid: a2c526fa-3080-4dd5-9628-f0e7040f93cd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '1158'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1156'
 ht-degree: 100%
 
 ---
