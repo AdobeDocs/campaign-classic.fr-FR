@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos de la simulation des offres
-seo-title: A propos de la simulation des offres
 description: A propos de la simulation des offres
-seo-description: null
-page-status-flag: never-activated
-uuid: 3c6783a0-6bab-4c41-8101-1d926c1ac6ac
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: 0af021af-2686-4a37-97d9-6d13a851b5dd
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '273'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
