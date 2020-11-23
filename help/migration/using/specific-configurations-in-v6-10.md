@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Paramétrages spécifiques v6.10
-seo-title: Paramétrages spécifiques v6.10
 description: Paramétrages spécifiques v6.10
-seo-description: null
-page-status-flag: never-activated
-uuid: 29fa3576-7f25-4eaf-9602-5fc6d09467ec
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: configuration
-discoiquuid: 1b6ce502-0d33-46e4-b52e-124b849de11f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '107'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '103'
 ht-degree: 100%
 
 ---
