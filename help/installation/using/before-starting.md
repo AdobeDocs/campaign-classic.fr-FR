@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prérequis et recommandations
 description: Découvrez les prérequis avant d'installer Campaign (On-premise)
-page-status-flag: never-activated
-uuid: b3fb7485-1200-4699-af40-98c94f632ae1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 2c5e0004-2a5d-4e89-ae6c-6bad186bd958
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
