@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Insérer une ressource partagée
-seo-title: Insérer une ressource partagée
 description: Insérer une ressource partagée
-seo-description: null
-page-status-flag: never-activated
-uuid: ab661bfd-d0a3-4b5c-ba52-4c76c834d584
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-discoiquuid: 3d01cc7e-5685-4101-bf4b-ef5f6e52b3c9
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '236'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
