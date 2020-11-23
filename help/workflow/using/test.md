@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Test
 description: En savoir plus sur l'activité du processus de test
-page-status-flag: never-activated
-uuid: 3522f4ac-3a72-4ff1-b3aa-1b4c283ef2bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 96%
