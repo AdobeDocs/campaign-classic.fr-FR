@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Introduction
-seo-title: Introduction
 description: Introduction
-seo-description: null
-page-status-flag: never-activated
-uuid: 5fe35361-16e1-4424-9c57-f029ec1c2502
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 18bb18c6-c41b-4501-9312-1af04db10dd5
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '93'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '92'
 ht-degree: 100%
 
 ---
