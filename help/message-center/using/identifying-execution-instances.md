@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Identifier les instances d'exécution
-seo-title: Identifier les instances d'exécution
 description: Identifier les instances d'exécution
-seo-description: null
-page-status-flag: never-activated
-uuid: 215908da-9e70-4f37-aa99-67e80c2ae16a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-discoiquuid: c4b3f1f1-4be7-441e-b348-35d0e26b57d8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '110'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
