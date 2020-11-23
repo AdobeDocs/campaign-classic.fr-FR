@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Intégration à un serveur Web pour Linux
 description: Découvrez comment intégrer Campaign dans un serveur Web (Linux)
-page-status-flag: never-activated
-uuid: 7b18d176-4458-46a8-8da4-3621f90c6b13
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 752ba848-aee9-4bb0-b2c5-490f3124f74e
 translation-type: tm+mt
-source-git-commit: fb1aac4eb6dc43b4b7e00da8199fc5f33d064867
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 97%
