@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer une application Facebook
-seo-title: Créer une application Facebook
 description: Créer une application Facebook
-seo-description: null
-page-status-flag: never-activated
-uuid: f02129b9-6f64-41ee-8b56-d85211a58f69
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: configuration
-discoiquuid: c1d880bb-256e-451c-8c52-198711907f8e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1107'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1103'
 ht-degree: 100%
 
 ---
