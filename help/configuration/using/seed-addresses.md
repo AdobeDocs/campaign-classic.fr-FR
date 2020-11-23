@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adresses de contrôle
-seo-title: Adresses de contrôle
 description: Adresses de contrôle
-seo-description: null
-page-status-flag: never-activated
-uuid: 0ebdeb73-be67-4c34-9f59-9fd4fb5241ab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 41338d32-b95c-45ae-bee6-17b2af5bd837
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '335'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '333'
 ht-degree: 100%
 
 ---
