@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Chargement (SOAP)
-seo-title: Chargement (SOAP)
 description: Chargement (SOAP)
-seo-description: null
-page-status-flag: never-activated
-uuid: 80597892-e363-48f6-8633-faad161064a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 94178104-f8ba-4c17-8ff9-928c5d2df1b7
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '269'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
