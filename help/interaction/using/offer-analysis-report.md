@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Rapport Analyse des offres
-seo-title: Rapport Analyse des offres
 description: Rapport Analyse des offres
-seo-description: null
-page-status-flag: never-activated
-uuid: 5593b570-adc0-41a7-a83c-f8e6e4be6247
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
-discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
-translation-type: ht
-source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: ht
-source-wordcount: '88'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '85'
 ht-degree: 100%
 
 ---
