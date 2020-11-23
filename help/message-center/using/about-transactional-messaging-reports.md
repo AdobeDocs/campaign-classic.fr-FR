@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des rapports des messages transactionnels
-seo-title: A propos des rapports des messages transactionnels
 description: A propos des rapports des messages transactionnels
-seo-description: null
-page-status-flag: never-activated
-uuid: b188b1e9-4999-409e-86d7-fada5452b78d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: reports
-discoiquuid: 716de3cb-7ec9-454b-9e8f-0b134388687c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '50'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '46'
 ht-degree: 100%
 
 ---
