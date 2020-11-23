@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Lecture de liste
 description: En savoir plus sur l'activité du processus des Lectures de liste
-page-status-flag: never-activated
-uuid: 34e28675-f28b-407f-8d60-41a5383af0db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 96a7aea4-4799-4ac7-8dff-666b075a1c43
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 98%
