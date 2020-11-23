@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Le fichier de configuration du serveur
-seo-title: Le fichier de configuration du serveur
 description: Le fichier de configuration du serveur
-seo-description: null
-page-status-flag: never-activated
-uuid: 8ef7168b-3543-4830-80b0-65a023158b3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7851'
 ht-degree: 99%
 
 ---
