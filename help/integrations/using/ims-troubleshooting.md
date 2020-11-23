@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Dépanner IMS
-seo-title: Dépanner IMS
 description: Dépanner IMS
-seo-description: null
-page-status-flag: never-activated
-uuid: 5db95afc-8cbf-4ec3-b58f-504486fe4a40
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '433'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
