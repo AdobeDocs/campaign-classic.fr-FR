@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Réponses aux formulaires web
-seo-title: Réponses aux formulaires web
 description: Réponses aux formulaires web
-seo-description: null
-page-status-flag: never-activated
-uuid: 374df070-8969-4bf6-bd24-0b827d38593f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: c89926b6-488e-4c72-8f67-b6af388bade3
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '895'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '892'
 ht-degree: 100%
 
 ---
