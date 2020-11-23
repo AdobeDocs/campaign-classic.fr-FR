@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser les packages de données
-seo-title: Utiliser les packages de données
 description: Utiliser les packages de données
-seo-description: null
-page-status-flag: never-activated
-uuid: 867b2702-dbc4-4b71-a385-a2c7fd09d25e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2532'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2528'
 ht-degree: 100%
 
 ---
