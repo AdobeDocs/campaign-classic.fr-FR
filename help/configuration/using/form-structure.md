@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Structure d'un formulaire
-seo-title: Structure d'un formulaire
 description: Structure d'un formulaire
-seo-description: null
-page-status-flag: never-activated
-uuid: b4e2078e-5630-493b-8ed5-3553ffea105c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: input-forms
-discoiquuid: f8ae9497-9ca2-4c0c-8dc8-c0563839b036
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2404'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2402'
 ht-degree: 100%
 
 ---
