@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tester la migration
-seo-title: Tester la migration
 description: Tester la migration
-seo-description: null
-page-status-flag: never-activated
-uuid: 3ee6a10b-dea2-41c6-9aef-ee3ac922b459
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: 30e3082f-a367-4c3b-bff2-208ccf97acd4
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '670'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '667'
 ht-degree: 100%
 
 ---
