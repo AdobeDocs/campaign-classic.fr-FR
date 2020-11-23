@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Canal LINE
-seo-title: Canal LINE
 description: Canal LINE
-seo-description: null
-page-status-flag: never-activated
-uuid: 0b0e34b2-7ee9-456a-9ed9-7ede889584b6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 367314a2-eb6d-4710-8a47-5a51049ad924
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '97'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '95'
 ht-degree: 100%
 
 ---
