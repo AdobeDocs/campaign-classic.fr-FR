@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Environnements en ligne/édition
-seo-title: Environnements en ligne/édition
 description: Environnements en ligne/édition
-seo-description: null
-page-status-flag: never-activated
-uuid: 38ee2f6a-e446-4ac6-b962-40b648eeaf66
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-discoiquuid: 3cea2be4-4da4-4ebd-a241-1bbaa5abb16e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '492'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '489'
 ht-degree: 100%
 
 ---
