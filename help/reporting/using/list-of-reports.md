@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Liste des rapports
-seo-title: Liste des rapports
 description: Liste des rapports
-seo-description: null
-page-status-flag: never-activated
-uuid: 79a914d0-7828-4fe1-b1b7-b055d4bf1f82
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-discoiquuid: 3e593527-5580-44ea-93dc-9084d862537e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1010'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1007'
 ht-degree: 100%
 
 ---
