@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utilisation d'agrégats
 description: Découvrez comment utiliser les agrégats
-page-status-flag: never-activated
-uuid: 70556745-56b2-4f22-bbc5-7f8106fb0d4a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 9ca649b4-2226-4cfe-bae1-4632c421975b
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 99%
