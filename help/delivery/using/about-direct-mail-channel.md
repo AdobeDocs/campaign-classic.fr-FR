@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos du canal Courrier
-seo-title: A propos du canal Courrier
 description: A propos du canal Courrier
-seo-description: null
-page-status-flag: never-activated
-uuid: c7fe4d33-a056-49cd-977e-b56753360c8b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-discoiquuid: 33fe5a57-55db-4cd7-b1fd-0dc3691909ab
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '134'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
