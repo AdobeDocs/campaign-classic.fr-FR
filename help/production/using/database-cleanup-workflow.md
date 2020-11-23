@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Workflow de nettoyage de la base de données
 description: Découvrez comment les données obsolètes sont automatiquement nettoyées
-page-status-flag: never-activated
-uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: data-processing
-discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 100%
 
