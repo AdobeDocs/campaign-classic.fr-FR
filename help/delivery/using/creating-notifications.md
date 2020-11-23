@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer des notifications push
 description: Découvrez comment créer des notifications push
-page-status-flag: never-activated
-uuid: fb1862df-e616-4147-a642-dc867bc983b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
-translation-type: ht
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 
