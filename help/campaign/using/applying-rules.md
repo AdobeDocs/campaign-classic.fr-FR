@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Appliquer les règles
-seo-title: Appliquer les règles
 description: Appliquer les règles
-seo-description: null
-page-status-flag: never-activated
-uuid: 4472fc0d-d717-4603-8472-bdaf2835a02a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '1043'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
