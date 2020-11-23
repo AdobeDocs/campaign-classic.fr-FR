@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Spécificités par SGBDR
-seo-title: Spécificités par SGBDR
 description: Spécificités par SGBDR
-seo-description: null
-page-status-flag: never-activated
-uuid: 637c1b5a-0484-4734-a012-eb4ba8036263
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
-source-wordcount: '1128'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1125'
 ht-degree: 100%
 
 ---
