@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos du traitement des événements
-seo-title: A propos du traitement des événements
 description: A propos du traitement des événements
-seo-description: null
-page-status-flag: never-activated
-uuid: 6c3e02b3-0d4d-4661-952a-e4915ca9ef92
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-discoiquuid: a78c9986-7c49-47db-99a0-9f0949c4dee7
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '350'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
