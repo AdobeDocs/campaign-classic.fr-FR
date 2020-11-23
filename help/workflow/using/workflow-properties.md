@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 'Propriétés d''exécution     '
 description: En savoir plus sur les propriétés du flux de travaux Campaign
-page-status-flag: never-activated
-uuid: bd576cc0-2db8-4519-bcb5-52bf5c811f42
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: 71969b30-cc01-4358-9597-f17939720684
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 99%
