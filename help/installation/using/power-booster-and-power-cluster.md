@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Power Booster et Power Cluster
-seo-title: Power Booster et Power Cluster
 description: Power Booster et Power Cluster
-seo-description: null
-page-status-flag: never-activated
-uuid: 4d23ed42-a368-4bd6-afaf-48452e253d19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 715d2b69-5b47-4890-8b7d-1dc0a0d4ead8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '405'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
