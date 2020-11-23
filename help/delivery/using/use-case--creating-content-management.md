@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: '"Cas pratique : utiliser la gestion de contenu"'
-seo-title: '"Cas pratique : utiliser la gestion de contenu"'
 description: '"Cas pratique : utiliser la gestion de contenu"'
-seo-description: null
-page-status-flag: never-activated
-uuid: 204a63eb-40dd-446d-a847-4e55ad23b2bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: a4c62580-664d-47fe-87f5-cfe608b05e6f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1221'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1216'
 ht-degree: 100%
 
 ---
