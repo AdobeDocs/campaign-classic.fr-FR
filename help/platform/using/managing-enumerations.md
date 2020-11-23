@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gestion des énumérations
-seo-title: Gestion des énumérations
 description: Gestion des énumérations
-seo-description: null
-page-status-flag: never-activated
-uuid: 23ad4cae-237f-48e5-b111-cfe88cf0b864
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: 7674c856-2b64-4a85-9ffa-3e14a142028e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '939'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '937'
 ht-degree: 100%
 
 ---
