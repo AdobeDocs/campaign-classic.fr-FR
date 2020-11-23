@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Paramétrage de SpamAssassin
-seo-title: Paramétrage de SpamAssassin
 description: Paramétrage de SpamAssassin
-seo-description: null
-page-status-flag: never-activated
-uuid: 327548c0-d621-4417-9fc9-b0bf30251dc0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '983'
 ht-degree: 97%
 
 ---
