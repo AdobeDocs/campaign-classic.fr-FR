@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publication des modèles
 description: Modèle de message transactionnel de publication
-page-status-flag: never-activated
-uuid: f83dbe5f-762c-4c58-aeed-6ec289eb522f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 98%
