@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Code SQL et code JavaScript
 description: En savoir plus sur les activités de flux de travaux des codes SQL et JavaScript
-page-status-flag: never-activated
-uuid: 20a39bbf-c6b0-4697-97b4-c07609cfb048
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 1afa75c2-7377-4d03-9105-11bcc9e3206c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 96%
