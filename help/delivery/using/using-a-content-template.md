@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser un modèle de contenu
-seo-title: Utiliser un modèle de contenu
 description: Utiliser un modèle de contenu
-seo-description: null
-page-status-flag: never-activated
-uuid: 893b9711-593f-4865-b61a-ef0fede9a2b0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: 48f491b7-bf7b-457f-9cf2-db2bbf4eceea
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '443'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
