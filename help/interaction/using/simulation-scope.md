@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Périmètre de la simulation
-seo-title: Périmètre de la simulation
 description: Périmètre de la simulation
-seo-description: null
-page-status-flag: never-activated
-uuid: d3145926-0a7e-455f-9b93-55be1b2a0518
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: ef658468-e20b-45d9-a714-c152e55c1c79
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '241'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
