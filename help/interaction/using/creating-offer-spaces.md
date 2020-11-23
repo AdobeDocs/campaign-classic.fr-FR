@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer des emplacements d'offres
-seo-title: Créer des emplacements d'offres
 description: Créer des emplacements d'offres
-seo-description: null
-page-status-flag: never-activated
-uuid: 2ad38697-db14-4dc0-abb8-9b71d57e0e35
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-discoiquuid: 0fae2149-0980-466d-ac9e-8afec2e278be
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1035'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1032'
 ht-degree: 100%
 
 ---
