@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configurer un questionnaire
-seo-title: Configurer un questionnaire
 description: Configurer un questionnaire
-seo-description: null
-page-status-flag: never-activated
-uuid: e6798345-f408-43fb-b37c-aef889fb3a6d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: 98706258-0621-4aa9-bf14-f92f14946308
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '118'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
