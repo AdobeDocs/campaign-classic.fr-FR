@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Réception de SMS
 description: En savoir plus sur l'activité de flux de travaux SMS entrants
-page-status-flag: never-activated
-uuid: 895e54df-e795-48ac-ac94-96dab454c550
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: fa9ae600-91fc-4aea-ae02-8ab9064947ac
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 93%
