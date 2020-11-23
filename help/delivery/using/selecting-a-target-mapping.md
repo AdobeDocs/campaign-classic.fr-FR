@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Choisir un mapping de ciblage
-seo-title: Choisir un mapping de ciblage
 description: Choisir un mapping de ciblage
-seo-description: null
-page-status-flag: never-activated
-uuid: 29a666a3-2ecc-4732-b068-c93935929771
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-discoiquuid: e2c6e273-1640-4f46-a80e-0cecb06e2769
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '185'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '181'
 ht-degree: 100%
 
 ---
