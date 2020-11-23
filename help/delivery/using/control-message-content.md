@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos de la délivrabilité dans Adobe Campaign Classic
 description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 2681042b-3018-42ae-b252-2367b56616bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 
