@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Surveillance des processus
 description: Découvrez comment surveiller les processus Campaign
-page-status-flag: never-activated
-uuid: 9dc1461f-5e95-454d-8df5-19baab85f184
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '3775'
 ht-degree: 99%
