@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Extraction (fichier)
 description: En savoir plus sur l'activité de flux de travail de l'extraction de données (fichier)
-page-status-flag: never-activated
-uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 97%
