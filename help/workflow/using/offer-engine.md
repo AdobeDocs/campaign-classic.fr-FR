@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Moteur d'offres
-seo-title: Moteur d'offres
 description: Moteur d'offres
-seo-description: null
-page-status-flag: never-activated
-uuid: a8f6056a-80e6-4f9f-81f5-563c98d11d28
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 08987595-e80c-4197-ad1e-9aa7cfc7c3eb
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '142'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '140'
 ht-degree: 100%
 
 ---
