@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Blocs de personnalisation
-seo-title: Blocs de personnalisation
 description: Blocs de personnalisation
-seo-description: null
-page-status-flag: never-activated
-uuid: f9867f8d-f6ce-4a5f-b6b4-fd8056d28576
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '996'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '994'
 ht-degree: 100%
 
 ---
@@ -163,4 +158,4 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
 Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
