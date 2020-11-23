@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Modèles d'hypothèse
-seo-title: Modèles d'hypothèse
 description: Modèles d'hypothèse
-seo-description: null
-page-status-flag: never-activated
-uuid: 080417c2-1c45-4404-961e-2e660d8f0436
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: addfc395-7a85-4be1-a757-a719ed34bb33
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1566'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1564'
 ht-degree: 100%
 
 ---
