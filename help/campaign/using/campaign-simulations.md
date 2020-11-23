@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Simulation de campagnes
-seo-title: Simulation de campagnes
 description: Simulation de campagnes
-seo-description: null
-page-status-flag: never-activated
-uuid: d5a090ef-57e5-46b2-b9ad-6d4d964c8e20
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: e8e7a720-c93d-491d-8768-270e47e9c898
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1376'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1374'
 ht-degree: 100%
 
 ---
