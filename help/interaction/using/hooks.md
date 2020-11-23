@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Les points d'extension
-seo-title: Les points d'extension
 description: Les points d'extension
-seo-description: null
-page-status-flag: never-activated
-uuid: 4394717e-8625-4e2f-9492-3fd9b444a732
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 2b799ad7-b729-4b3e-9adc-1df13259f2a9
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '520'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
