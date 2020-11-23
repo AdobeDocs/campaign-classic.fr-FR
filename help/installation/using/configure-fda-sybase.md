@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configurer l’accès à Sybase IQ
 description: Découvrez comment configurer l'accès à Sybase IQ dans FDA
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 67%
@@ -20,12 +17,12 @@ ht-degree: 67%
 
 # Configurer l’accès à Sybase IQ {#configure-access-to-sybase-iq}
 
-Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l&#39;accès à Sybase IQ.
+Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Sybase IQ.
 
 1. Configuration de la base de données [Sybase IQ](#configuring-sybase)
 1. Configuration du [compte externe](#sybase-external) Sybase IQ dans Campaign
 
-## Configuration de Sybase IQ {#configuring-sybase}
+## Configuration de sybase IQ {#configuring-sybase}
 
 La connexion à une base de données externe Sybase IQ en FDA nécessite des configurations supplémentaires ci-dessous sur le serveur Adobe Campaign.
 
@@ -69,7 +66,7 @@ La connexion à une base de données externe Sybase IQ en FDA nécessite des con
    * Si vous utilisez un fichier customer.sh pour déclarer le chemin d’accès : ajoutez le chemin d’accès /opt/sybase/IQ-16_0/lib64 pour la variable LD_LIBRARY_PATH.
    * Sinon, utilisez une commande Unix.
 
-## Compte externe Sybase IQ {#sybase-external}
+## compte externe sybase IQ {#sybase-external}
 
 Le compte externe Sybase IQ vous permet de connecter votre instance Campaign à votre base de données externe Sybase IQ.
 
