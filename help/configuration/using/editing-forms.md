@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Editer les formulaires
-seo-title: Editer les formulaires
 description: Editer les formulaires
-seo-description: null
-page-status-flag: never-activated
-uuid: 9e4b9d7f-018b-42b7-9069-9e8720bd3fc2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: input-forms
-discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
 translation-type: tm+mt
-source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 57%
+source-wordcount: '50'
+ht-degree: 56%
 
 ---
 
