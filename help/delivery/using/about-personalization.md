@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos de la personnalisation
-seo-title: A propos de la personnalisation
 description: A propos de la personnalisation
-seo-description: null
-page-status-flag: never-activated
-uuid: 45184611-ed9b-4a34-9c85-52f51de4ecab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 43afd347-6600-409a-8f67-a4f3e9776d51
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '128'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '126'
 ht-degree: 100%
 
 ---
