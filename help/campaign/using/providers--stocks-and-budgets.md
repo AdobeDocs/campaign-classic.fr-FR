@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prestataires, stocks et budgets
-seo-title: Prestataires, stocks et budgets
 description: Prestataires, stocks et budgets
-seo-description: null
-page-status-flag: never-activated
-uuid: 6caffaaf-a6a6-40e1-8b17-07c81748382c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: d4627141-cef1-4ddb-ad6a-5dc217b9fa96
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1994'
 ht-degree: 100%
 
 ---
