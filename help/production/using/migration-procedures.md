@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Procédures de migration
-seo-title: Procédures de migration
 description: Procédures de migration
-seo-description: null
-page-status-flag: never-activated
-uuid: bad54f1f-abdc-4730-b7a1-5305ee17a223
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: cd03c475-fe57-4c6e-b1c0-533938e6f74e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '86'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
