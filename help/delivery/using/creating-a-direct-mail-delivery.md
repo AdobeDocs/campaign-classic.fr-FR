@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer une diffusion courrier
-seo-title: Créer une diffusion courrier
 description: Créer une diffusion courrier
-seo-description: null
-page-status-flag: never-activated
-uuid: f7567144-48e8-4683-89d4-a34efb451215
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-discoiquuid: d6eae7e3-0d57-457e-99a2-1ed7b10474e6
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '89'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
