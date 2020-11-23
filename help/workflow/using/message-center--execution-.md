@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Message Center (Execution)
-seo-title: Message Center (Execution)
 description: Message Center (Execution)
-seo-description: null
-page-status-flag: never-activated
-uuid: 8dfb09d1-da00-43fb-9df4-243bb915cbde
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: dc3d8998-9493-4d71-b3e2-6f9531cb9bac
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '234'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
