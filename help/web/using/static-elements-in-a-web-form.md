@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Eléments statiques dans un formulaire web
-seo-title: Eléments statiques dans un formulaire web
 description: Eléments statiques dans un formulaire web
-seo-description: null
-page-status-flag: never-activated
-uuid: 628e2252-16a2-4c8a-a178-60a9441d3198
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: ca3377c6-a120-4cd0-aaf4-80248f4f5918
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1351'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1345'
 ht-degree: 100%
 
 ---
