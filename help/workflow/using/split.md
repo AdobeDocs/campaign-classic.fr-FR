@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Partage
 description: En savoir plus sur l'activité de flux de travaux fractionnée
-page-status-flag: never-activated
-uuid: 00dc3436-e271-4512-8f29-71a55213afc3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 9eadfda0-0614-4e4e-aed0-26f0b9222fbd
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2133'
 ht-degree: 99%
