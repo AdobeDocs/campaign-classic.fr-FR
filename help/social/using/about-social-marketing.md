@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos du marketing sur les réseaux sociaux
 description: Découvrez comment utiliser Campaign pour interagir avec des clients via Facebook et Twitter.
-page-status-flag: never-activated
-uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: introduction
-discoiquuid: 743b891a-5857-4734-8035-ea9f23860680
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
