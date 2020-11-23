@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gestion des données SQL
 description: En savoir plus sur l'activité du flux de travaux SQL Data Management
-page-status-flag: never-activated
-uuid: b6057496-2dd5-4289-96df-98378e4f0ae7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 85%
