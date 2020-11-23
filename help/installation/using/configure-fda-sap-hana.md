@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configurer l’accès à SAP HANA
 description: Découvrez comment configurer l'accès à SAP HANA dans FDA
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 71%
@@ -23,7 +20,7 @@ ht-degree: 71%
 Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à SAP HANA.
 
 1. Configuration de la base de données [SAP HANA](#sap-config)
-1. Configuration du [compte externe](#sap-external) SAP HANA à Campaign
+1. Configuration du [compte externe](#sap-external) SAP HANA dans Campaign
 
 ## Pilotes SAP HANA {#sap-config}
 
