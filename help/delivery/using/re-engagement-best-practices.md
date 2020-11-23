@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mise en œuvre
-seo-title: Mise en œuvre
 description: Mise en œuvre
-seo-description: null
-page-status-flag: never-activated
-uuid: 883bad1c-c35b-4c48-9dca-c0cb947facb6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 853f26ad-d373-49a5-952e-4197ffc3d904
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '878'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '877'
 ht-degree: 100%
 
 ---
