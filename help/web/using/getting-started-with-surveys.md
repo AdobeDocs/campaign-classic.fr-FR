@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prise en main des questionnaires
-seo-title: Prise en main des questionnaires
 description: Prise en main des questionnaires
-seo-description: null
-page-status-flag: never-activated
-uuid: 62ca684c-94a7-465a-9536-75e8a96b1c0e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: online-surveys
-discoiquuid: 2df82006-dcc3-4b07-bc36-b646b1c27aaa
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '957'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '953'
 ht-degree: 100%
 
 ---
