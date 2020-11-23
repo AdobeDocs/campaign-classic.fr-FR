@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gestion des affinités
-seo-title: Gestion des affinités
 description: Gestion des affinités
-seo-description: null
-page-status-flag: never-activated
-uuid: b459232c-bb77-4134-9646-f3bccdccee57
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-discoiquuid: 13a00dd6-1b62-4561-9a0a-e21e21dcc38e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '54'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '52'
 ht-degree: 100%
 
 ---
