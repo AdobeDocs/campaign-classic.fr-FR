@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gestion des modèles
-seo-title: Gestion des modèles
 description: Gestion des modèles
-seo-description: null
-page-status-flag: never-activated
-uuid: 1f76d1f1-c1a6-493a-bb8c-178712f2a32f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 12b2d22b-ac6d-4ddd-a8cb-57bc56df4281
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '116'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
