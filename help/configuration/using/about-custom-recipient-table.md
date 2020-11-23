@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: À propos de la table des destinataires personnalisée
-seo-title: À propos de la table des destinataires personnalisée
 description: À propos de la table des destinataires personnalisée
-seo-description: null
-page-status-flag: never-activated
-uuid: 4b162da4-90d2-44ff-9f89-ff0275540359
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: c3ff8462-e47e-4637-8213-769fdeb86a57
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '685'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '681'
 ht-degree: 100%
 
 ---
