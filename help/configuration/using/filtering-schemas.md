@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Filtrage des schémas
-seo-title: Filtrage des schémas
 description: Filtrage des schémas
-seo-description: null
-page-status-flag: never-activated
-uuid: 04a90785-3084-42fd-85af-77bc28687579
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 64d4c5b8-db0b-4287-8d30-4bf09878a401
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '413'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '411'
 ht-degree: 100%
 
 ---
