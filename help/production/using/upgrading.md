@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Upgrade vers un nouveau build
 description: Découvrez les étapes techniques clés de l'upgrade vers un nouveau build
-page-status-flag: never-activated
-uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 94%
