@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Additional data
-seo-title: Additional data
 description: Additional data
-seo-description: null
-page-status-flag: never-activated
-uuid: 81a889ce-b02d-4593-95fa-1de5601182e0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-discoiquuid: 29339aad-fd8e-4dae-8f6e-2db87221ad04
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '741'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '739'
 ht-degree: 100%
 
 ---
