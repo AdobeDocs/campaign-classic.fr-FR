@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Commandes usuelles
-seo-title: Commandes usuelles
 description: Commandes usuelles
-seo-description: null
-page-status-flag: never-activated
-uuid: f06df8c0-d4ec-4d6b-84d5-f46d852388a3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
-source-wordcount: '410'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '408'
 ht-degree: 100%
 
 ---
@@ -34,6 +29,7 @@ Le paramètre **`<command>`** correspond au module.
 >
 >* Vous pouvez dans tous les cas adjoindre l&#39;argument **-noconsole** afin de supprimer les commentaires affichés après le lancement des modules.
 >* A contrario, vous pouvez ajouter l&#39;argument **-verbose** pour afficher plus d&#39;informations.
+
 >
 
 
@@ -167,6 +163,8 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >* D&#39;une manière générale, au lieu de modifier les fichiers de configuration à la main, vous pouvez utiliser la commande **config**.
 >* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** : **nlserver config -?**
 >* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
+
 >
->  nlserver config -setdblogin:Oracle:test6@dbserver
+>  
+nlserver config -setdblogin:Oracle:test6@dbserver
 
