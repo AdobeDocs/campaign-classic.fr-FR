@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Implémenter des méthodes SOAP
-seo-title: Implémenter des méthodes SOAP
 description: Implémenter des méthodes SOAP
-seo-description: null
-page-status-flag: never-activated
-uuid: c9366f4e-460d-4087-88f7-9cc6d0de597a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 76984d9d-7759-4e0f-a275-09cca27589fa
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '423'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
