@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration de l’accès à Assets
-seo-title: Configuration de l’accès à Assets
 description: Configuration de l’accès à Assets
-seo-description: null
-page-status-flag: never-activated
-uuid: dc8c0016-92c8-41ab-98c6-d0fe0bfd6c41
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-discoiquuid: df1b6ead-3471-404a-b43f-a68fb86cb14c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '611'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
