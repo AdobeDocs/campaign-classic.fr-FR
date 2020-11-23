@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Régénération des schémas
-seo-title: Régénération des schémas
 description: Régénération des schémas
-seo-description: null
-page-status-flag: never-activated
-uuid: 455c37f1-cbaf-4503-b2e9-5eec7fad6e97
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 0f7c835e-b429-422b-87ae-1234c7dd8fe6
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '140'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
