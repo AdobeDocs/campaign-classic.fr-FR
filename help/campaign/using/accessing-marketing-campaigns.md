@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Accès aux campagnes marketing
-seo-title: Accès aux campagnes marketing
 description: Accès aux campagnes marketing
-seo-description: null
-page-status-flag: never-activated
-uuid: a482be37-61bb-4588-9dfb-f9c3ee5a1930
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1066'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
