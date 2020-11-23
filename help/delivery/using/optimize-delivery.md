@@ -1,18 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Optimiser la diffusion des messages
-seo-title: Optimiser la diffusion des messages
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '746'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
@@ -24,9 +20,9 @@ Avant même de commencer à créer des diffusions, vous pouvez prendre des mesur
 
 La section suivante présente les bonnes pratiques et les procédures recommandées pour optimiser la configuration d&#39;Adobe Campaign. L&#39;application de ces pratiques permettra de limiter les problèmes que vous risquez de rencontrer en aval.
 
-## Performances de la plate-forme
+## Performances de la plateforme
 
-Plusieurs facteurs peuvent avoir une incidence directe sur les performances du serveur et ralentir la plate-forme :
+Plusieurs facteurs peuvent avoir une incidence directe sur les performances du serveur et ralentir la plateforme :
 
 * Nombre et type d’éléments de personnalisation : dans les emails, la personnalisation extrait les données de la base de données pour chaque destinataire. Si les éléments de personnalisation sont nombreux, la quantité de données nécessaire pour préparer la diffusion augmente.  En savoir plus sur la personnalisation dans [cette section](../../delivery/using/about-personalization.md)
 
@@ -62,7 +58,7 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
 Vous avez tout intérêt à mettre en place et à conserver de bons processus de gestion des quarantaines.
 
-Lorsque vous commencez à envoyer des emails sur une nouvelle plate-forme, vous pouvez utiliser une liste d’adresses qui ne sont pas entièrement qualifiées. Or l’envoi à des adresses non valides ou à des adresses pièges (boîtes mails créées dans le but de piéger les spammeurs) contribue à abaisser la réputation de la plate-forme. De bons processus de gestion des quarantaines permettent de conserver la qualité des adresses, d&#39;éviter la mise sur liste bloquée de la part des FAI et de réduire le taux d&#39;erreur, tout en augmentant la vitesse des diffusions et le débit.
+Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous pouvez utiliser une liste d’adresses qui ne sont pas entièrement qualifiées. Or l’envoi à des adresses non valides ou à des adresses pièges (boîtes mails créées dans le but de piéger les spammeurs) contribue à abaisser la réputation de la plateforme. De bons processus de gestion des quarantaines permettent de conserver la qualité des adresses, d&#39;éviter la mise sur liste bloquée de la part des FAI et de réduire le taux d&#39;erreur, tout en augmentant la vitesse des diffusions et le débit.
 
 **Conseils**
 
@@ -73,7 +69,7 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plate-forme, vous 
 * Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Voir à ce propos [cette section](../../delivery/using/understanding-quarantine-management.md).
 
 
-* Certains fournisseurs d’accès Internet considèrent automatiquement les emails comme du spam si le taux d’adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
+* Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
 
 * La gestion des quarantaines réduit également les coûts d’envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
 
