@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Contenu conditionnel
-seo-title: Contenu conditionnel
 description: Contenu conditionnel
-seo-description: null
-page-status-flag: never-activated
-uuid: d1c38263-a163-448c-8822-8b3e776e45cf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '488'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -118,4 +113,4 @@ Dans l’exemple ci-dessous, vous allez découvrir comment créer un email multi
 
 Découvrez comment ajouter du contenu conditionnel à une diffusion en prenant pour exemple une newsletter multilingue.
 
->[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
