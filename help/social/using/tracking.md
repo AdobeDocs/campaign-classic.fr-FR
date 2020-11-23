@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Effectuer un tracking
-seo-title: Effectuer un tracking
 description: Effectuer un tracking
-seo-description: null
-page-status-flag: never-activated
-uuid: 607886fd-c036-4f61-aa86-fc0a97d38762
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: annexes
-discoiquuid: 1755ab4f-b655-48da-bf9a-426807bd85fd
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '77'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
