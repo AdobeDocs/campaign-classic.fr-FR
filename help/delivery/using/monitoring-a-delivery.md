@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Contrôler une diffusion
-seo-title: Contrôler une diffusion
 description: Contrôler une diffusion
-seo-description: null
-page-status-flag: never-activated
-uuid: 7cb409eb-a01c-4b4d-bb62-760e0bafdc8a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '2639'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2636'
 ht-degree: 100%
 
 ---
