@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: '"Cas pratiques : formulaires web"'
-seo-title: '"Cas pratiques : formulaires web"'
 description: '"Cas pratiques : formulaires web"'
-seo-description: null
-page-status-flag: never-activated
-uuid: b2c3f171-325e-4913-a188-a791bad0df2e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-translation-type: ht
-source-git-commit: 3e1896ac4ccd1099bd50e279762c2fbff5cd8eba
-workflow-type: ht
-source-wordcount: '995'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '991'
 ht-degree: 100%
 
 ---
