@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Connecteurs CRM
-seo-title: Connecteurs CRM
 description: Connecteurs CRM
-seo-description: null
-page-status-flag: never-activated
-uuid: ef3d88a1-b0fd-4790-b6e8-63fa339ef991
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 translation-type: tm+mt
-source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2659'
+source-wordcount: '2657'
 ht-degree: 99%
 
 ---
