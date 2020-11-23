@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 'Envoi d''une demande à Adobe  '
-seo-title: 'Envoi d''une demande à Adobe  '
 description: 'Envoi d''une demande à Adobe  '
-seo-description: null
-page-status-flag: never-activated
-uuid: 8caa1dd6-864d-4101-8b72-c9bd28b8173f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '160'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
