@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Exemples d'apps Facebook
-seo-title: Exemples d'apps Facebook
 description: Exemples d'apps Facebook
-seo-description: null
-page-status-flag: never-activated
-uuid: 336f4006-3545-4b04-959d-61cd0446af27
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: annexes
-discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
-translation-type: ht
-source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
-workflow-type: ht
-source-wordcount: '2129'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2125'
 ht-degree: 100%
 
 ---
