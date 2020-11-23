@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Importer des données
-seo-title: Importer des données
 description: Importer des données
-seo-description: null
-page-status-flag: never-activated
-uuid: ca2269ad-7cfd-4f27-88be-469445a468bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: c886bd02-c484-443c-93ca-ca244adbf893
-translation-type: ht
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: ht
-source-wordcount: '4496'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '4494'
 ht-degree: 100%
 
 ---
