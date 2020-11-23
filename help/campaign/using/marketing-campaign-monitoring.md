@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Surveillance des campagnes marketing
-seo-title: Surveillance des campagnes marketing
 description: Surveillance des campagnes marketing
-seo-description: null
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '266'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
