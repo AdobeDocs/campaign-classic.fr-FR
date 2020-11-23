@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser les données d'un workflow
 description: Découvrez comment utiliser les données de processus
-page-status-flag: never-activated
-uuid: ed03f14b-1b53-426e-9213-22cb2f3deb19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 translation-type: tm+mt
-source-git-commit: 9e7799689a4c7cdbadf3521d462760626263b59b
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 96%
