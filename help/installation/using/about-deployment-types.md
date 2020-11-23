@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: À propos des types de déploiement
-seo-title: À propos des types de déploiement
 description: À propos des types de déploiement
-seo-description: null
-page-status-flag: never-activated
-uuid: 9349944d-099f-4e96-9ae6-2ff150095c10
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
 translation-type: tm+mt
-source-git-commit: 12bb3b4ba833d2c265350167be61bd916e8b3fc8
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 88%
 
 ---
