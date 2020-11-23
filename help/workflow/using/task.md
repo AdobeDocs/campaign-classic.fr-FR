@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tâche
 description: En savoir plus sur l'activité du processus des Tâches
-page-status-flag: never-activated
-uuid: a6fda9d7-83ce-4528-8a9e-e7d06e9b1017
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-discoiquuid: ec6f9a10-ad84-4d9f-86e2-490539c2171b
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 92%
