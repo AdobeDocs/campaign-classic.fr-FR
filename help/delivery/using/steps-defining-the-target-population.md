@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Définir la population cible
-seo-title: Définir la population cible
 description: Définir la population cible
-seo-description: null
-page-status-flag: never-activated
-uuid: 8bf70ea4-5f28-4d85-b5ce-0bd3ed3eea55
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: ht
-source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: ht
-source-wordcount: '1723'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1719'
 ht-degree: 100%
 
 ---
@@ -234,7 +229,7 @@ A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de cont
 
 Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l&#39;envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Voir aussi :
 * [Choisir la cible du BAT](#selecting-the-proof-target)
