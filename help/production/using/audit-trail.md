@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Suivi
-seo-title: Suivi
 description: Suivi
-seo-description: null
-page-status-flag: never-activated
-uuid: b96b93b6-e002-4c67-b9ce-b66cdcd395d7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: aa147a8c-9d93-45c8-bb4a-db714739f4c0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '492'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
