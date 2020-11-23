@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configurer l’accès à Oracle
 description: Découvrez comment configurer l'accès à Oracle dans FDA
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 73%
@@ -20,7 +17,7 @@ ht-degree: 73%
 
 # Configurer l’accès à Oracle {#configure-access-to-oracle}
 
-Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l&#39;accès à Oracle.
+Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Oracle.
 
 1. Configuration d’Oracle sous [Linux](#oracle-linux) ou [Windows](#azure-windows)
 1. Configuration du [compte externe](#oracle-external) Oracle dans Campaign
