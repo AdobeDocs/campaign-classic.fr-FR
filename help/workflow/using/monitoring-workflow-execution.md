@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Surveiller l'exécution des workflows
-seo-title: Surveiller l'exécution des workflows
 description: Surveiller l'exécution des workflows
-seo-description: null
-page-status-flag: never-activated
-uuid: 4d215ff4-a61d-4294-8f15-17c612022577
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2083'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2080'
 ht-degree: 100%
 
 ---
