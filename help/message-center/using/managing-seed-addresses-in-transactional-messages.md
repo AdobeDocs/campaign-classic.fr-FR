@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gestion des adresses de contrôle dans les messages transactionnels
-seo-title: Gestion des adresses de contrôle dans les messages transactionnels
 description: Gestion des adresses de contrôle dans les messages transactionnels
-seo-description: null
-page-status-flag: never-activated
-uuid: 51c4e79d-53bb-4d46-9c7d-e90066f5317d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
-translation-type: ht
-source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
-workflow-type: ht
-source-wordcount: '200'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
