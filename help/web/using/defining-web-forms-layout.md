@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Définir la disposition des formulaires web
-seo-title: Définir la disposition des formulaires web
 description: Définir la disposition des formulaires web
-seo-description: null
-page-status-flag: never-activated
-uuid: ae8659d0-3608-44dd-93ec-33c418a66ad0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '533'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
