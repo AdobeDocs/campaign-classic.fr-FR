@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Exemples
-seo-title: Exemples
 description: Exemples
-seo-description: null
-page-status-flag: never-activated
-uuid: bfc9bb13-500b-4435-b56a-550588a240bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: 7b0aef75-345d-45be-b7d0-a9f6944ee678
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1375'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1374'
 ht-degree: 100%
 
 ---
