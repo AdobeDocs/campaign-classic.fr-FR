@@ -1,27 +1,24 @@
 ---
-title: Configuration des E/S d'Adobe pour les déclencheurs Adobe Experience Cloud
+solution: Campaign Classic
+product: campaign
+title: Configuration d’Adobe I/O pour les déclencheurs Adobe Experience Cloud
 description: Découvrez comment configurer les E/S d'Adobe pour les déclencheurs Adobe Experience Cloud
-page-status-flag: never-activated
-uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 160af30e13bb6a81672477f4f801dbd5cc3c767c
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 34%
+ht-degree: 38%
 
 ---
 
 
-# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
+# Configuration d’Adobe I/O pour les déclencheurs Adobe Experience Cloud {#configuring-adobe-io}
 
 >[!CAUTION]
 >
