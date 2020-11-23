@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos de l'analyse descriptive
-seo-title: A propos de l'analyse descriptive
 description: A propos de l'analyse descriptive
-seo-description: null
-page-status-flag: never-activated
-uuid: ce62beff-bed5-4901-a9ce-0028afbd744d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-discoiquuid: ae57ef5f-e5db-4a91-a65a-d1f5f5b905ef
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '198'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
