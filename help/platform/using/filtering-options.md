@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Options de filtrage
-seo-title: Options de filtrage
 description: Options de filtrage
-seo-description: null
-page-status-flag: never-activated
-uuid: 79e9870b-3a27-4924-9d75-1ebec6911140
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '285'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
