@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -214,6 +214,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Oracle</td>
 <td>
+<p>19c</p>
 <p>18c</p>
 <p>12c</p>
 <p>11g</p>
@@ -269,7 +270,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SP12 ou ultérieure</p>
+<p>version 1 SPS 12</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
