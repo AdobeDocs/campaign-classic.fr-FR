@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Traduire une application web
-seo-title: Traduire une application web
 description: Traduire une application web
-seo-description: null
-page-status-flag: never-activated
-uuid: 7b24a872-d3d1-4473-a6f9-96ba2a0eee8b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 328e5b2f-8596-4eda-8ac5-57cb29bfb691
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '378'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '374'
 ht-degree: 100%
 
 ---
