@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Problèmes relatifs aux logs de tracking
-seo-title: Problèmes relatifs aux logs de tracking
 description: Problèmes relatifs aux logs de tracking
-seo-description: null
-page-status-flag: never-activated
-uuid: 996869c4-7ffe-4fcc-9555-1d8b65e93e87
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 1b9ff479-4847-408d-a5c2-9a164805081f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '72'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '69'
 ht-degree: 100%
 
 ---
