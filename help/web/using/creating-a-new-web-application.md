@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer une application web
-seo-title: Créer une application web
 description: Créer une application web
-seo-description: null
-page-status-flag: never-activated
-uuid: 4e783bd5-222f-4d35-8df7-1e1b83587b5a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-applications
-discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
-translation-type: ht
-source-git-commit: 2d6266957a1e290333c505e40f95df46797e19c4
-workflow-type: ht
-source-wordcount: '369'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
