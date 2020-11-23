@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 4d5ca9277305cc0baeb233d0912f26b6bdcf3206
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -253,7 +253,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SP12 ou ultérieure</p>
+<p>version 1 SPS 12</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
@@ -261,10 +261,6 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
 <p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
 </td>
-</tr>
-<tr>
-<td>Snowflake</td>
-<td> </td>
 </tr>
 </tbody>
 </table>
