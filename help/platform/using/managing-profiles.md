@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Gérer des profils
-seo-title: Gérer des profils
 description: Gérer des profils
-seo-description: null
-page-status-flag: never-activated
-uuid: f045dd5e-e069-4293-8c44-49d71071b041
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: ef7aa3a0-249f-46eb-9300-5b97bce31c8c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '240'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
