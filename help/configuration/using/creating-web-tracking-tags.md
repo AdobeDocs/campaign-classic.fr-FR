@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer les balises de tracking web
-seo-title: Créer les balises de tracking web
 description: Créer les balises de tracking web
-seo-description: null
-page-status-flag: never-activated
-uuid: c5599bdd-e6b8-4db4-b0ca-aaee2adc1919
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 647ca037-4efb-4524-9642-11056d096aea
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '273'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
