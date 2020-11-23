@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Paramétrer l'accès au rapport
-seo-title: Paramétrer l'accès au rapport
 description: Paramétrer l'accès au rapport
-seo-description: null
-page-status-flag: never-activated
-uuid: d32d9805-f84f-457f-b37b-a8278642336a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: dd50ca25-8fa2-48fa-84cc-a63e476701a0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '799'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '794'
 ht-degree: 100%
 
 ---
