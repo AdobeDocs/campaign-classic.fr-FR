@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Marketing distribué
 description: En savoir plus sur le module Marketing distribué
-page-status-flag: never-activated
-uuid: 071edddc-b9d2-4193-a667-71f738132684
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 5d34669d-e79f-42e1-85ba-8b4e38d98e5c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 89%
