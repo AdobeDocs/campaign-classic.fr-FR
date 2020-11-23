@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Publier sur Twitter
-seo-title: Publier sur Twitter
 description: Publier sur Twitter
-seo-description: null
-page-status-flag: never-activated
-uuid: 405bce50-a63c-4bd3-8f03-c71809bb1cfd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-discoiquuid: 2dc278ce-477c-493d-8abb-8bbdf2e988a5
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1029'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---
