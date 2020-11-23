@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Insérer un code-barres dans un email
-seo-title: Insérer un code-barres dans un email
 description: Insérer un code-barres dans un email
-seo-description: null
-page-status-flag: never-activated
-uuid: 61f9d8ea-38b0-46a5-8085-b6f34f8559f7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-discoiquuid: 679b9ae2-362c-483d-acb8-47bc01928541
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '532'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
