@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 'Configuration '
-seo-title: 'Configuration '
 description: 'Configuration '
-seo-description: null
-page-status-flag: never-activated
-uuid: 59503b54-ad49-4b00-8ffb-52e6f6c62070
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: ed4afa5e-c184-4c8e-a086-41d87b863190
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '784'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
