@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offres par cellule
-seo-title: Offres par cellule
 description: Offres par cellule
-seo-description: null
-page-status-flag: never-activated
-uuid: 731bfdde-abd2-400e-9e22-3dbaad37c5b9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d90594bb-e3ba-4fb1-9e11-83d519c1ca7d
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '162'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
