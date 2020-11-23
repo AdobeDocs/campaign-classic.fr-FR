@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Validation des campagnes marketing
-seo-title: Validation des campagnes marketing
 description: Validation des campagnes marketing
-seo-description: null
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2648'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2645'
 ht-degree: 100%
 
 ---
@@ -198,8 +193,9 @@ Le statut de l&#39;opération est alors **[!UICONTROL A valider]**.
 >[!NOTE]
 >
 >* Pour sélectionner les processus qui seront soumis à une validation, modifiez le modèle de campagne. Voir à ce sujet la section [Modèles de campagne](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
->
->* Voir aussi la section sur le [Processus de validation](#approval-process).
+   >
+   >
+* Voir aussi la section sur le [Processus de validation](#approval-process).
 
 
 
@@ -270,6 +266,7 @@ Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Ed
 >* Lorsqu&#39;une liste de validants est définie, le traitement est validé dès que l&#39;un des opérateurs de la liste a donné son accord. Le lien de validation correspondant n&#39;est alors plus proposé dans le tableau de bord. Lorsque l&#39;envoi de notifications est activé et qu&#39;un autre validant clique sur le lien de validation du mail de notification, il est alors averti qu&#39;un autre opérateur a déjà validé le traitement.
 >* Vous pouvez définir un planning de validation pour l&#39;opération, dans la section inférieure de la fenêtre d&#39;édition des validants. Par défaut, les validants ont trois jours à partir de la date de soumission pour valider les traitements. Il est possible de définir un rappel qui sera automatiquement envoyé aux opérateurs concernés avant l&#39;expiration du délai de validation.
 >* Vous pouvez ajouter des rappels depuis cette section.
+
 >
 
 
