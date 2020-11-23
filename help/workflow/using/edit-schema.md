@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Edition du schéma
 description: En savoir plus sur l'activité de flux de travail Modifier le schéma
-page-status-flag: never-activated
-uuid: abd77902-98b7-4ab7-a240-dd6b3bb247bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 733576d2-505f-4598-89eb-a10e7331bf7e
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 93%
