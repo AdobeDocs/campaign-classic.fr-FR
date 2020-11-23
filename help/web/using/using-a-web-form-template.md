@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser un modèle de formulaire web
-seo-title: Utiliser un modèle de formulaire web
 description: Utiliser un modèle de formulaire web
-seo-description: null
-page-status-flag: never-activated
-uuid: c2986dca-a6c7-4ebc-9be8-c4716611f502
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: web-forms
-discoiquuid: d9369ba1-0397-40fe-bbaf-24252564d93c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '231'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
