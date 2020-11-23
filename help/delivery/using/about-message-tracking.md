@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos du tracking des messages
-seo-title: A propos du tracking des messages
 description: A propos du tracking des messages
-seo-description: null
-page-status-flag: never-activated
-uuid: 91127faf-b9c4-46af-b842-b9816c501ecf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-discoiquuid: 5d8bbfe0-e202-4062-aa47-9ad87b975bb7
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '199'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
