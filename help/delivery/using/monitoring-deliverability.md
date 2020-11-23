@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Supervision de la délivrabilité dans Adobe Campaign Classic
 description: Découvrez les outils et les directives concernant la supervision de la délivrabilité dans Adobe Campaign Classic.
-page-status-flag: never-activated
-uuid: 0b5c5dbd-f532-4d8a-a255-9e6d88357d8d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
