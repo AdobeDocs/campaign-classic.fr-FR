@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Délivrabilité des emails
-seo-title: Délivrabilité des emails
 description: Délivrabilité des emails
-seo-description: null
-page-status-flag: never-activated
-uuid: 983aec6b-60f6-4c9b-a75a-1693958626c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '3042'
+source-wordcount: '3040'
 ht-degree: 100%
 
 ---
