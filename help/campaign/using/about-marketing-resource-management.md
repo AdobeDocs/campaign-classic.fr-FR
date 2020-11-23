@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos de la gestion des ressources marketing
-seo-title: A propos de la gestion des ressources marketing
 description: A propos de la gestion des ressources marketing
-seo-description: null
-page-status-flag: never-activated
-uuid: 01f9958a-f963-4fb3-b171-1f760cd34353
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 6101e083-3754-41e1-8a93-021b1a771dc0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '406'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
