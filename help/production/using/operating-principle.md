@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Principe de fonctionnement
-seo-title: Principe de fonctionnement
 description: Principe de fonctionnement
-seo-description: null
-page-status-flag: never-activated
-uuid: a15929ca-5b1f-499a-a883-43fd0a318c98
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 5e9c17ad-14d2-4173-9fc9-0e48a21426c8
-translation-type: ht
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
-workflow-type: ht
-source-wordcount: '502'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
