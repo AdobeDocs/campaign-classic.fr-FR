@@ -21,8 +21,7 @@ ht-degree: 100%
 
 * **[Mise à jour de l’intégration d&#39;Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Le service d’authentification historique d’oAuth a atteint la fin de vie. Découvrez comment migrer vers Adobe I/O. Découvrez comment migrer vers Adobe I/O.
 
-* **[Passer à l’API du fournisseur d’APNs basée sur HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/>
-Découvrez comment migrer du protocole binaire historique à l’API du fournisseur d’APNs basée sur HTTP/2.
+* **[Passer à l’API du fournisseur d’APNs basée sur HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/> Découvrez comment migrer du protocole binaire historique à l’API du fournisseur d’APNs basée sur HTTP/2.
 
 * **[Ajout d’émoticônes à vos messages](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d&#39;objet.
 
