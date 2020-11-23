@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Suivi des simulations
-seo-title: Suivi des simulations
 description: Suivi des simulations
-seo-description: null
-page-status-flag: never-activated
-uuid: 8979eb5b-596b-4308-87a1-126afcfb6e0c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-discoiquuid: a557026c-3b6a-4302-a042-0015449eaca5
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '146'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '144'
 ht-degree: 100%
 
 ---
