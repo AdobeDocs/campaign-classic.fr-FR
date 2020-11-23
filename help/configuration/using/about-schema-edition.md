@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos de l’édition de schéma
 description: Commencer avec l'édition schéma
-page-status-flag: never-activated
-uuid: edb4d47d-b507-4d86-9873-ebd5f6acefc6
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: d5b08e4e-060c-4185-9dac-af270918e2b9
 translation-type: tm+mt
-source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 99%
