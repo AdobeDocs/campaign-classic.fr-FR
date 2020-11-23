@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offres sur canal sortant
-seo-title: Offres sur canal sortant
 description: Offres sur canal sortant
-seo-description: null
-page-status-flag: never-activated
-uuid: a8a7ce5f-0d18-47f2-b258-34b9471de769
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: case-study
-discoiquuid: 3bd113c3-da67-4f4f-aa40-f4c7860a8569
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '470'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '465'
 ht-degree: 100%
 
 ---
