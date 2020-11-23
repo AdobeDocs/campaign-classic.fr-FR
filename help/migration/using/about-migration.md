@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Migration vers Campaign Classic
 description: Découvrez comment effectuer une migration vers Campaign Classic à partir d'une version précédente de Campaign
-page-status-flag: never-activated
-uuid: 23a9c858-b6c1-495f-a463-0ceb147068c9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-discoiquuid: 0ff9a8a9-2cb7-4b0b-a45e-2431151e59f1
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
