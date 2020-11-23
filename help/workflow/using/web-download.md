@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Téléchargement Web
 description: En savoir plus sur l'activité du processus de téléchargement Web
-page-status-flag: never-activated
-uuid: 44039e9c-0cd8-4d3f-b73f-e01c5343835a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-discoiquuid: 8590cc75-11c8-450d-90e8-56744e12ac70
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 98%
