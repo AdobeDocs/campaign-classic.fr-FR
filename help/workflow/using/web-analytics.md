@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Web Analytics
 description: En savoir plus sur le package Web Analytics
-page-status-flag: never-activated
-uuid: 63742453-16d9-48c2-9a3d-d96f5b131fb3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: cc2d4741-2b26-4933-a28d-5dd7b5f436be
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 96%
