@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Historique des propositions
-seo-title: Historique des propositions
 description: Historique des propositions
-seo-description: null
-page-status-flag: never-activated
-uuid: 91f45612-ede2-49f2-b0cd-1a9a19e6693a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
-discoiquuid: 82e67697-5dc7-4013-a00d-be8cdad31354
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '64'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '61'
 ht-degree: 100%
 
 ---
