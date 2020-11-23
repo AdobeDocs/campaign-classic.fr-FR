@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Propriétés du rapport
 description: En savoir plus sur les paramètres des propriétés du rapport
-page-status-flag: never-activated
-uuid: 56163f53-d115-45b8-94a5-c173ac4c6533
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
-translation-type: ht
-source-git-commit: b0b9a0714075474bf52c3eed78d45bcef25b44fc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
