@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Intégrer une offre via un workflow
-seo-title: Intégrer une offre via un workflow
 description: Intégrer une offre via un workflow
-seo-description: null
-page-status-flag: never-activated
-uuid: 57c4d4e0-6594-46f0-b9ce-2c689fb2eaa2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-discoiquuid: 6e27caea-1f1a-457d-bdec-1f93a12b01cf
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1100'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1094'
 ht-degree: 100%
 
 ---
