@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Connexion par LDAP
 description: 'Découvrez comment utiliser LDAP pour vous connecter à Campaign '
-page-status-flag: never-activated
-uuid: 13a426bc-7c34-49e5-ac8e-26d830845f28
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 1563db7c-ccb6-46b3-9299-67ec0aedaca0
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 100%
 
