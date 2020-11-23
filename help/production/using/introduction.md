@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Introduction
-seo-title: Introduction
 description: Introduction
-seo-description: null
-page-status-flag: never-activated
-uuid: 4192a74e-1d4f-4784-80e3-53aaefa9141e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: 772992bf-588f-42bd-a72a-986a88815264
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '179'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '178'
 ht-degree: 100%
 
 ---
