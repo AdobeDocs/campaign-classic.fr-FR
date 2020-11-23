@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Cellules
-seo-title: Cellules
 description: Cellules
-seo-description: null
-page-status-flag: never-activated
-uuid: 1b18928f-04e1-4268-ab8e-ff74d78599de
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: f7187d42-56e9-4681-b172-22abd43ecd29
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '136'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
