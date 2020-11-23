@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mise à jour d'agrégat
 description: En savoir plus sur l'activité de mise à jour du flux de travail des agrégats
-page-status-flag: never-activated
-uuid: 34ae42e1-da34-43be-b219-0b3b872177b3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-discoiquuid: 031f8d5d-940c-4a4c-97e7-ad4ef61983c1
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 93%
