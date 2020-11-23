@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Principes et cycle des données d’ACS Connector
-seo-title: Principes et cycle des données d’ACS Connector
 description: Principes et cycle des données d’ACS Connector
-seo-description: null
-page-status-flag: never-activated
-uuid: ea62ee69-042e-4c18-aaea-d65872d07dd9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '2052'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2046'
 ht-degree: 100%
 
 ---
