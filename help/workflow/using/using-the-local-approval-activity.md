@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser l'activité Validation en local
 description: Découvrez comment utiliser l'activité d'approbation locale
-page-status-flag: never-activated
-uuid: 6003aaed-543d-4e6b-b1f2-ad4e9757bff3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: c143d8c3-c3ce-470c-8812-4b19cdb8afbf
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 99%
