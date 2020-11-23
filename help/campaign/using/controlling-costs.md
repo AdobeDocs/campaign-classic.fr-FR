@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Maîtriser les coûts
-seo-title: Maîtriser les coûts
 description: Maîtriser les coûts
-seo-description: null
-page-status-flag: never-activated
-uuid: 4209ebad-966f-44a6-a33c-bbb398c6f5c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 892b93ed-cb0e-4af5-a1ae-eff0c8b703c6
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2541'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2539'
 ht-degree: 100%
 
 ---
