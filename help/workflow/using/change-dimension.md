@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Changement de dimension
-seo-title: Changement de dimension
 description: Changement de dimension
-seo-description: null
-page-status-flag: never-activated
-uuid: 6cb309c0-4096-47ce-b1d4-37a3ddafaaa1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 61583062-2349-4ab3-a3bf-310d21894f34
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '398'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
