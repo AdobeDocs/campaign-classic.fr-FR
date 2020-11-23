@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Requête avec gestion des regroupements
 description: Découvrez comment exécuter des requêtes avec gestion des regroupements
-page-status-flag: never-activated
-uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
