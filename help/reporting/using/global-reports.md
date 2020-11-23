@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Rapports globaux
-seo-title: Rapports globaux
 description: Rapports globaux
-seo-description: null
-page-status-flag: never-activated
-uuid: 83ea834e-08f7-441b-8f15-a25ec07c4aab
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2388'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2386'
 ht-degree: 100%
 
 ---
