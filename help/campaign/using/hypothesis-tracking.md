@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Suivi des hypothèses
-seo-title: Suivi des hypothèses
 description: Suivi des hypothèses
-seo-description: null
-page-status-flag: never-activated
-uuid: cb949a9d-8bbe-446b-b5b4-22234a91a68b
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-discoiquuid: 4452bfc6-9ac4-4d81-a63c-879a163c13ee
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '469'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
