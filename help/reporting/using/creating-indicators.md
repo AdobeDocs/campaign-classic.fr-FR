@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer les indicateurs
-seo-title: Créer les indicateurs
 description: Créer les indicateurs
-seo-description: null
-page-status-flag: never-activated
-uuid: 3caaba6b-b6c8-4b64-b123-d7098e9ddc7a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-discoiquuid: a5fc6c78-b4fb-41fd-a072-7be4ece3c554
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '753'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '751'
 ht-degree: 100%
 
 ---
