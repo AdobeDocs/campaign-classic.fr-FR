@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Utiliser votre Adobe ID dans Campaign
 description: En savoir plus sur l'intégration Adobe IMS
-page-status-flag: never-activated
-uuid: d88f70f7-637a-4609-8747-784700b6ca1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 translation-type: tm+mt
-source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 89%
