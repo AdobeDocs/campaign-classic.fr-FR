@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Matrice de compatibilité
 description: Matrice de compatibilité
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 
@@ -250,7 +247,7 @@ Les pilotes SGBDR suivants sont pris en charge :
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>5,7</p>
+<p>5.7</p>
 </td>
 </tr>
 <tr>
@@ -265,7 +262,7 @@ Les pilotes SGBDR suivants sont pris en charge :
 <tr>
 <td>Netezza</td>
 <td>
-<p>7,2</p>
+<p>7.2</p>
 </td>
 </tr>
 <tr>
@@ -332,7 +329,7 @@ Les pilotes SGBDR suivants sont pris en charge :
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9</p>
+<p>iOS 9</p>
 <p>iOS 10</p>
 <p>iOS 11</p>
 <p>iOS 12</p>
