@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Bonnes pratiques relatives à l'édition de contenu
-seo-title: Bonnes pratiques relatives à l'édition de contenu
 description: Bonnes pratiques relatives à l'édition de contenu
-seo-description: null
-page-status-flag: never-activated
-uuid: badc6806-b474-4cad-94a3-003a50271281
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: 3ad38469-8e22-4bfc-8029-5d360f76d6bb
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '552'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '548'
 ht-degree: 100%
 
 ---
