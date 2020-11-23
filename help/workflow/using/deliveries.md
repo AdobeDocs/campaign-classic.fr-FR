@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Diffusions
 description: En savoir plus sur les workflows de Diffusions par défaut
-page-status-flag: never-activated
-uuid: d323eb4d-937b-4b37-8400-942336f0a1b4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-discoiquuid: 37612f62-68c0-4f73-a9a1-6d017aab862f
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 98%
