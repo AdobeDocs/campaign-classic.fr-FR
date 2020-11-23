@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Offres sur canal entrant
-seo-title: Offres sur canal entrant
 description: Offres sur canal entrant
-seo-description: null
-page-status-flag: never-activated
-uuid: 45cfc990-da38-451b-b65e-e9703e443a4d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: case-study
-discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
-translation-type: ht
-source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: ht
-source-wordcount: '2159'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2154'
 ht-degree: 100%
 
 ---
