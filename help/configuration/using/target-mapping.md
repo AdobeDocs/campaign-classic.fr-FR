@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mapping de ciblage
 description: Découvrez comment créer un mapping de ciblage
-page-status-flag: never-activated
-uuid: a7dad8eb-c191-4f10-b7d8-63e0699603b7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: ff7e6f72-7605-41ee-b25a-1e4618e674d7
 translation-type: tm+mt
-source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 98%
