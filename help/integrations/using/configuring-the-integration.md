@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration de l’intégration Adobe Experience Manager
 description: Découvrez comment configurer l'intégration Campaign-AEM
-page-status-flag: never-activated
-uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 98%
