@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Ajouter des profils
-seo-title: Ajouter des profils
 description: Ajouter des profils
-seo-description: null
-page-status-flag: never-activated
-uuid: c37d7bc7-b4aa-4d29-a592-7d484d995779
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 299f84e6-f6ff-4ca0-9799-b56d57e1752b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '78'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
