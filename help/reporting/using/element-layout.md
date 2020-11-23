@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Mettre en page les éléments
-seo-title: Mettre en page les éléments
 description: Mettre en page les éléments
-seo-description: null
-page-status-flag: never-activated
-uuid: 60dc80d9-f81b-48ce-9341-f975daaf5ebc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-discoiquuid: 8fdda764-3e42-4972-a9c9-63567588931e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '438'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
