@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des modèles
-seo-title: A propos des modèles
 description: A propos des modèles
-seo-description: null
-page-status-flag: never-activated
-uuid: 13b5ad3a-aded-43b8-ae4d-c23aa7bc17bd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-discoiquuid: 22e289d0-c33c-4daa-a893-b292e523f30b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '281'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
