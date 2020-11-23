@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Espace de travail Adobe Campaign
-seo-title: Espace de travail Adobe Campaign
 description: Espace de travail Adobe Campaign
-seo-description: null
-page-status-flag: never-activated
-uuid: ed954f73-6456-4fa3-b284-9b2d865c2afb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
-translation-type: ht
-source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
-workflow-type: ht
-source-wordcount: '2222'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2219'
 ht-degree: 100%
 
 ---
