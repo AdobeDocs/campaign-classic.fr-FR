@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Désinstaller Campaign
 description: Découvrez comment désinstaller Campaign
-page-status-flag: never-activated
-uuid: 4e95a576-a2fe-41dd-a03d-e4a3120f8788
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: 702253cc-3e1a-44ad-9340-b8588ee86bad
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 86%
