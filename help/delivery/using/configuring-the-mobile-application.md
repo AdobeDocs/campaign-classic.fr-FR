@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Paramétrage de l'application mobile iOS dans Adobe Campaign
 description: Découvrez comment paramétrer votre application mobile pour iOS
-page-status-flag: never-activated
-uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 translation-type: tm+mt
-source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
