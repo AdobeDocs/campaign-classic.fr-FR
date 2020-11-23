@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Définir les conditions de filtrage
-seo-title: Définir les conditions de filtrage
 description: Définir les conditions de filtrage
-seo-description: null
-page-status-flag: never-activated
-uuid: 2ed5d0bd-88fd-4eff-baf0-ed1b097269da
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-discoiquuid: 8e575da0-c51a-4106-a826-3e1771e63649
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '3397'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '3394'
 ht-degree: 100%
 
 ---
