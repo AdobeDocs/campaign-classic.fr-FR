@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer une offre
-seo-title: Créer une offre
 description: Créer une offre
-seo-description: null
-page-status-flag: never-activated
-uuid: 9e8b0351-e2a5-4043-be86-e275d2f849ea
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: 010c88f4-9444-448f-bb7b-7191517d2e23
-translation-type: ht
-source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: ht
-source-wordcount: '837'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '834'
 ht-degree: 100%
 
 ---
