@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Création de filtres
-seo-title: Création de filtres
 description: Création de filtres
-seo-description: null
-page-status-flag: never-activated
-uuid: 9fa4a80d-8f03-4f24-92a1-44f6ae2a2337
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '2100'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '2098'
 ht-degree: 100%
 
 ---
