@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Intégration à un serveur web pour Windows
-seo-title: Intégration à un serveur web pour Windows
 description: Intégration à un serveur web pour Windows
-seo-description: null
-page-status-flag: never-activated
-uuid: a5042221-44fe-46a6-9322-288b108396e2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: a4f2ae0e-e631-4ab6-934e-8298e4ce6f2c
 translation-type: tm+mt
-source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '994'
 ht-degree: 99%
 
 ---
