@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Version 18.6
-seo-title: Version 18.6
 description: Version 18.6
-seo-description: null
-page-status-flag: never-activated
-uuid: 72941f8f-0b84-4868-a768-8aa972459ef2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '810'
 ht-degree: 98%
 
 ---
