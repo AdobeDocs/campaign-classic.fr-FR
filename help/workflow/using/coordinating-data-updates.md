@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Coordonner les mises à jour des données
-seo-title: Coordonner les mises à jour des données
 description: Coordonner les mises à jour des données
-seo-description: null
-page-status-flag: never-activated
-uuid: 003d63f8-3169-4190-882e-e360a83ccafb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: efe09c66-b74b-48f0-9042-5da4342e014e
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '306'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
