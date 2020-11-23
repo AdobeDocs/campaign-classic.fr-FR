@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Valider et activer une offre
-seo-title: Valider et activer une offre
 description: Valider et activer une offre
-seo-description: null
-page-status-flag: never-activated
-uuid: 1be96bb4-ef17-4b4d-b872-05e1c6b1412d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
-translation-type: ht
-source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: ht
-source-wordcount: '665'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '660'
 ht-degree: 100%
 
 ---
