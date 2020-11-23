@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configurer l'accès à Synapse
 description: Découvrez comment configurer l'accès à Synapse dans FDA
-page-status-flag: never-activated
-uuid: b84359b9-c584-431d-80d5-71146d9b6854
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: connectors
-discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: be3626e858ced32e9dbfd5d07da29a4ccf256ac4
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 78%
