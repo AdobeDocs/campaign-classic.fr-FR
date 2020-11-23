@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: A propos des Triggers Adobe Experience Cloud
 description: Commencer avec la mise en oeuvre des triggers Adobe Experience Cloud
-page-status-flag: never-activated
-uuid: c523822f-8178-4989-bd88-ab402470e540
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -39,4 +36,4 @@ Le processus [!DNL pipelined] est toujours en cours d’exécution sur le serveu
 
 Le processus [!DNL pipelined] se connecte à Experience Cloud à l’aide d’un service d’authentification et envoie une clé privée. Le service d’authentification renvoie un jeton. Le jeton est utilisé pour l’authentification lors de la récupération des événements.
 
-For more information on authentication, refer to this [page](../../integrations/using/configuring-adobe-io.md).
+Pour plus d&#39;informations sur l&#39;authentification, consultez cette [page](../../integrations/using/configuring-adobe-io.md).
