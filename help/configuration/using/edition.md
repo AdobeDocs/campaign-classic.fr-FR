@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Edition
-seo-title: Edition
 description: Edition
-seo-description: null
-page-status-flag: never-activated
-uuid: df9298fc-5f62-4afb-8118-ca7e3987e81f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-discoiquuid: 820be231-af76-44ce-8f4d-cd5eae1eb169
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '124'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
