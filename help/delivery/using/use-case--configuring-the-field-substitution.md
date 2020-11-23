@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: '"Cas pratique : configuration de la substitution des champs"'
-seo-title: '"Cas pratique : configuration de la substitution des champs"'
 description: '"Cas pratique : configuration de la substitution des champs"'
-seo-description: null
-page-status-flag: never-activated
-uuid: 7f083dc6-e6d7-4eea-ac66-87674716515c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: a104fcab-75e6-4d73-bc3d-88570de6df7f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '460'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '454'
 ht-degree: 100%
 
 ---
