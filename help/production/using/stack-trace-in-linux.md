@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Stack trace sous Linux
-seo-title: Stack trace sous Linux
 description: Stack trace sous Linux
-seo-description: null
-page-status-flag: never-activated
-uuid: d839df47-902f-4b92-bc78-536fc4fb6c98
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 60f306ea-4593-4e56-896e-8933277ee26a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '123'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '119'
 ht-degree: 100%
 
 ---
