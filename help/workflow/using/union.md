@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Union
 description: En savoir plus sur l'activité du processus d'Union
-page-status-flag: never-activated
-uuid: 987e106e-c414-4db4-a93e-96e43dc04370
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 573021ad-1efb-4156-af6d-417737ce745a
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 97%
