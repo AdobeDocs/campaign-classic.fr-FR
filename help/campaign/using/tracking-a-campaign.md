@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Tracking d’une opération
-seo-title: Tracking d’une opération
 description: Tracking d’une opération
-seo-description: null
-page-status-flag: never-activated
-uuid: 66919c81-b22c-4138-a654-ea53154ba718
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-discoiquuid: e1f8958d-f036-4635-be6e-ebdbea6ac116
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '436'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
