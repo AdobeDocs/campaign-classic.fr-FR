@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Configuration réseau
 description: Découvrez les directives sur la communication du système
-page-status-flag: never-activated
-uuid: 17357170-7440-4603-bea6-2e4b9086ae72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-discoiquuid: 639d2f42-e397-4694-942c-b2b8ad94ce9c
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 
