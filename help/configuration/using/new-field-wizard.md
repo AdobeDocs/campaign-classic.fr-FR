@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Assistant d'ajout de champs
-seo-title: Assistant d'ajout de champs
 description: Assistant d'ajout de champs
-seo-description: null
-page-status-flag: never-activated
-uuid: 2c8d35db-042a-47cf-a7a6-3bb63bf40d94
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 6da65fb5-18a1-41a0-96d8-588e383f944b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '209'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '206'
 ht-degree: 100%
 
 ---
