@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Créer des adresses de contrôle
 description: Découvrez comment créer et utiliser des adresses de contrôle
-page-status-flag: never-activated
-uuid: 0dae107a-7b53-4096-93c3-9517b402cbc9
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-discoiquuid: 6dad49af-4818-471b-9df1-057cc6b9a68a
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 98%
