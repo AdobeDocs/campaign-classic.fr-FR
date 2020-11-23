@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Schéma d'une table existante
-seo-title: Schéma d'une table existante
 description: Schéma d'une table existante
-seo-description: null
-page-status-flag: never-activated
-uuid: cb766259-8ed7-40a1-8df7-75a8a3f9986d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
