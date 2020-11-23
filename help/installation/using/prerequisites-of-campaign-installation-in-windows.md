@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Prérequis pour l’installation de Campaign sous Windows
 description: Prérequis pour l’installation de Campaign sous Windows
-page-status-flag: never-activated
-uuid: 3c030186-d2ab-4845-b5c6-2ed49da00756
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: faaecbd6-f707-4307-8921-04d8993c2c47
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
