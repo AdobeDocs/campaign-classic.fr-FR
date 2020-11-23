@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Interactions anonymes
-seo-title: Interactions anonymes
 description: Interactions anonymes
-seo-description: null
-page-status-flag: never-activated
-uuid: 6e28e8a4-8d2f-4747-8dd0-680fbf02b25d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-discoiquuid: 3fd7a1ef-b0e2-4a7e-9e36-044d997db785
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '469'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
