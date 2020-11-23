@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Composition de diffusion
 description: En savoir plus sur l'activité du processus des Compositions de diffusion
-page-status-flag: never-activated
-uuid: 2b924cc6-6b71-481e-acab-2d035bbc2852
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 79%
