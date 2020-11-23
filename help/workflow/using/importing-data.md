@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Importer des données
 description: Découvrez comment importer des données dans Adobe Campaign
-page-status-flag: never-activated
-uuid: c8cf2bf1-f7a5-4de4-9e53-a961c9e5beca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2627'
 ht-degree: 100%
@@ -54,7 +51,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
-### Utiliser les modèles d’import        {#using-import-templates}
+### Utiliser les modèles d’import         {#using-import-templates}
 
 La plupart des workflows d&#39;import doivent contenir les activités suivantes : **[!UICONTROL Chargement (fichier)]**, **[!UICONTROL Enrichissement]**, **[!UICONTROL Partage]**, **[!UICONTROL Déduplication]**, **[!UICONTROL Mise à jour de données]**.
 
