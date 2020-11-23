@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Installation d'un serveur de mid-sourcing dans Campaign
 description: Cette section décrit l'installation et la configuration d'un serveur de mid-sourcing dans Campaign
-page-status-flag: never-activated
-uuid: 9b891a64-d75e-44d2-8de2-17334e1b8dca
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 translation-type: tm+mt
-source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 97%
