@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Modèle hybride
-seo-title: Modèle hybride
 description: Modèle hybride
-seo-description: null
-page-status-flag: never-activated
-uuid: d10cf1b9-f572-427f-8cfb-78965f76ce76
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
-discoiquuid: f5244ab8-2421-4d76-bcf6-3574e68ea4e9
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
