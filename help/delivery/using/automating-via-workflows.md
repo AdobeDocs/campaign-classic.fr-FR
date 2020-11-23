@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Automatiser via les workflows
-seo-title: Automatiser via les workflows
 description: Automatiser via les workflows
-seo-description: null
-page-status-flag: never-activated
-uuid: c77e8b2b-2a2c-4c6e-8497-662e7269e226
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: content-management
-discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
 translation-type: tm+mt
-source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1200'
 ht-degree: 97%
 
 ---
