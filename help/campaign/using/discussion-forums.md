@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Forums de discussion
-seo-title: Forums de discussion
 description: Forums de discussion
-seo-description: null
-page-status-flag: never-activated
-uuid: 6253bb32-c71d-45ac-bc03-027131ae95a5
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-discoiquuid: 88eb17b6-5206-4064-9cd9-b4645a85c609
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '801'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '799'
 ht-degree: 100%
 
 ---
