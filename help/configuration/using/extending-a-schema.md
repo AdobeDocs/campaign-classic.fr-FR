@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Extension d'un schéma
 description: Découvrez comment étendre un schéma
-page-status-flag: never-activated
-uuid: 1767b9de-1d72-4ece-aeec-87f83862d81c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: 1c9af980-4e6b-44dc-af61-dd284863ec7d
 translation-type: tm+mt
-source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 98%
