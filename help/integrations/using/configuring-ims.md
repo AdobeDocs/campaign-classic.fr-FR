@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Paramétrer IMS
 description: Découvrez comment vous connecter via une Adobe ID
-page-status-flag: never-activated
-uuid: b659d29f-2a27-4a7b-b5ca-f44c3271dd4e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-discoiquuid: 279d0548-c876-4d5f-a195-48618bd5e9d1
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 97%
