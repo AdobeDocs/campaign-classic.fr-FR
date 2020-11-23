@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Imports et exports génériques
-seo-title: Imports et exports génériques
 description: Imports et exports génériques
-seo-description: null
-page-status-flag: never-activated
-uuid: e98753bb-1f14-4ec7-aa3b-d5e4f1ebaef7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '534'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
