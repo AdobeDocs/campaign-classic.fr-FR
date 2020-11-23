@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Déploiement Mid-sourcing
-seo-title: Déploiement Mid-sourcing
 description: Déploiement Mid-sourcing
-seo-description: null
-page-status-flag: never-activated
-uuid: e359c486-7ee6-4295-80fc-4c371a0ef068
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 19220d8e-9494-46b4-9aa0-4c4a729aea96
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '353'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
