@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Carte thermique des workflows
-description: Surveillez vos Workflows de campagne avec Workflow HeatMap
+description: Surveillez vos workflows Campaign avec la Carte thermique des workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Carte thermique des workflows {#workflow-heatmap}
 
-Adobe Campaign Workflow HeatMap consiste en une représentation graphique codée par couleur de tous les workflows en cours d&#39;exécution. Elle est disponible uniquement pour les administrateurs de l’instance.
+La Carte thermique des workflows d’Adobe Campaign est une représentation graphique avec code-couleur de tous les workflows en cours d’exécution. Elle est disponible uniquement pour les administrateurs de l’instance.
 
 D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](../../production/using/monitoring-guidelines.md).
 
@@ -25,7 +25,7 @@ D’autres méthodes de surveillance des différents processus de Campaign sont 
 
 En donnant un aperçu rapide du nombre de workflows simultanés, la carte thermique des workflows permet aux administrateurs de la plateforme Adobe Campaign de surveiller la charge de l&#39;instance et de planifier les workflows en conséquence.
 
-Elle permet plus précisément aux administrateurs de la plate-forme d’effectuer les opérations suivantes :
+Elle permet plus précisément aux administrateurs de la plateforme d’effectuer les opérations suivantes :
 
 * afficher et analyser les workflows simultanés ;
 * filtrer les workflows par durée pour déterminer ceux risquant de rencontrer des problèmes ;
