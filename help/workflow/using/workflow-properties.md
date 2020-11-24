@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 'Propriétés d''exécution     '
-description: En savoir plus sur les propriétés du flux de travaux Campaign
+title: Propriétés d’exécution
+description: En savoir plus sur les propriétés des workflows de Campaign
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
    Cette option ne doit être utilisée qu&#39;à des fins de débuggage et jamais en production. Lorsque cette option est activée, le workflow devient prioritaire, et tous les autres workflows sont stoppés par le moteur de workflow tant qu&#39;il n&#39;est pas terminé.
 
-### Gestion des erreurs     {#error-management}
+### Gestion des erreurs      {#error-management}
 
 * **[!UICONTROL Résolution des problèmes]**
 
