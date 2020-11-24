@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Un statut est associé à chaque build. Vous trouverez ci-dessous la liste des s
 
 ![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
 
-Les **dernières versions** de GA sont les suivantes : [Gold Standard 10 et](../../rn/using/gold-standard.md#gs-10) [Campaign 20.2.3](../../rn/using/release--20-2.md#release-20-2-3-build-9182)
+Les **derniers builds en disponibilité générale** ont les versions suivantes : [Gold Standard 10](../../rn/using/gold-standard.md#gs-10) et [Campaign 20.2.3](../../rn/using/release--20-2.md#release-20-2-3-build-9182)
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Dernière version dotée de nouvelles fonctionnalités.
 
-The **last RC build** is [Campaign Classic 20.3 release](../../rn/using/latest-release.md)
+Le **dernier build RC** est [Campaign Classic 20.3](../../rn/using/latest-release.md)
 
 ![](assets/do-not-localize/orange3.png) **Plus disponible** - La mise à jour vers un build plus récent est requise.
 
