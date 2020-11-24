@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <ul>
    <li>API Soap - On-premise : 2007, 2015, 2016</li>
    <li>API Soap - Online : 2015, 2016</li>
-   <li>API Web - Microsoft Dynamics CRM Sur site : Mise à jour 1 de 2016, 2016</li>
-   <li>API Web - Microsoft Dynamics CRM Online : Mise à jour 1 de 2016, 2016</li>
+   <li>API Web - Microsoft Dynamics CRM On-premise : 2016, mise à jour 1 de 2016</li>
+   <li>API Web - Microsoft Dynamics CRM Online : 2016, mise à jour 1 de 2016</li>
    </ul>
   <p><em>Date de suppression prévue : 2021</em></p>
   </td>
