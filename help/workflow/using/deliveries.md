@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Diffusions
-description: En savoir plus sur les workflows de Diffusions par défaut
+description: En savoir plus sur les workflows de diffusions par défaut
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Les workflows présentés ci-dessous sont installés par défaut.
   <tr> 
    <td> <span class="uicontrol">Mise à jour pour la délivrabilité</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td> Ce workflow permet de créer la liste des règles de qualification des mails rebonds, ainsi que la liste des domaines et des MX dans la plate-forme. Ce workflow ne fonctionne que si le port HTTPS est ouvert. Ces listes ne sont pas mises à jour tant que le module Délivrabilité n'est pas installé.<br /> </td> 
+   <td> Ce workflow permet de créer la liste des règles de qualification des mails rebonds, ainsi que la liste des domaines et des MX dans la plateforme. Ce workflow ne fonctionne que si le port HTTPS est ouvert. Ces listes ne sont pas mises à jour tant que le module Délivrabilité n'est pas installé.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage de la base</span> <br /> </td> 
