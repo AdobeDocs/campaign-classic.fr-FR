@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Paramétrer IMS
-description: Découvrez comment vous connecter via une Adobe ID
+description: Découvrez comment vous connecter via un Adobe ID
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Vous devez installer le package **[!UICONTROL Intégration avec Adobe Experience
 
 ## Configurer le compte externe {#configuring-the-external-account}
 
-Configurez le compte externe **Adobe Experience Cloud** dans **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+Configurez le compte externe **Adobe Experience Cloud** dans **[!UICONTROL Administration > Plateforme > Comptes externes]**.
 
 >[!CAUTION]
 >
