@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -27,29 +27,29 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 
 ## Prérequis {#prerequisites}
 
-Avant de démarrer cette configuration, vérifiez que vous utilisez :
+Avant de démarrer cette configuration, vérifiez que vous utilisez :
 
-* Version minimale d’Adobe Campaign 20.3
-* Version de Adobe Analytics Standard
+* Adobe Campaign version 20.3 au minimum ;
+* Adobe Analytics version standard.
 
-Vous aurez également besoin de :
+Vous aurez également besoin des éléments suivants :
 
-* Authentification du projet d&#39;E/S Adobe
-* un IMSOrgID valide, l&#39;identifiant du client Experience Cloud avec Adobe Analytics ajouté
-* a Accès des développeurs à l&#39;organisation IMS
-* configuration des déclencheurs effectuée en Adobe Analytics
+* l’authentification de projet Adobe I/O ;
+* un IMSOrgId valide, l’identifiant du client Experience Cloud auquel Adobe Analytics a été ajouté ;
+* l’accès développeur à l’organisation IMS ;
+* la configuration des déclencheurs effectuée dans Adobe Analytics.
 
 ## Fichiers d&#39;authentification et de configuration {#authentication-configuration}
 
 L&#39;authentification est requise, car le pipeline est hébergé dans Adobe Experience Cloud.
 Une paire de clés publique et privée est utilisée. Ce processus fonctionne de la même manière qu&#39;un nom d&#39;utilisateur/mot de passe, mais il est plus sécurisé.
-L&#39;authentification est prise en charge pour le Marketing Cloud via le projet d&#39;E/S d&#39;Adobe.
+L’authentification est prise en charge pour Marketing Cloud via le projet Adobe I/O.
 
-## Étape 1 : Création/mise à jour d&#39;un projet d&#39;E/S d&#39;Adobe {#creating-adobe-io-project}
+## Étape 1 : création/mise à jour du projet Adobe I/O {#creating-adobe-io-project}
 
-Pour les clients hébergés, vous pouvez créer un ticket d&#39;assistance clientèle pour permettre à votre entreprise d&#39;utiliser des jetons de compte technique d&#39;E/S d&#39;Adobe pour l&#39;intégration des déclencheurs.
+Pour les clients hébergés, vous pouvez créer un ticket d’Assistance clientèle afin d’activer votre organisation avec des jetons de compte technique Adobe I/O pour l’intégration à Triggers.
 
-For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
+Pour les clients On-Premise, reportez-vous à la page [Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md). Veuillez noter que vous devez sélectionner **[!UICONTROL Adobe Analytics]** lors de l’ajout d’API aux informations d’identification d’Adobe I/O.
 
 ## Étape 2 : configuration de l&#39;option de pipeline NmsPipeline_Config {#configuring-nmspipeline}
 
