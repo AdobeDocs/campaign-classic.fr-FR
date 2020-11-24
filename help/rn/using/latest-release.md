@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Dernière version
-description: Dernière version de Campaign Classic  Notes
+description: Dernière version de Campaign Classic   Notes
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
