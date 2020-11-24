@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Téléchargement Web
-description: En savoir plus sur l'activité du processus de téléchargement Web
+description: En savoir plus sur l’activité de workflow de téléchargement Web
 audience: workflow
 content-type: reference
 topic-tags: event-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ L&#39;activité de type **Téléchargement Web** permet de lancer le télécharg
 
    * Pour utiliser un **[!UICONTROL Compte externe]**, sélectionnez le compte dans la liste déroulante et indiquez le fichier à télécharger.
 
-      Les comptes externes sont paramétrés depuis le noeud **[!UICONTROL Administration > Plate-forme > Comptes externes]** de l&#39;arborescence Adobe Campaign. Les paramètres du compte peuvent être édités à partir de l&#39;icône **[!UICONTROL Editer le lien]**.
+      Les comptes externes sont paramétrés depuis le noeud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l&#39;arborescence Adobe Campaign. Les paramètres du compte peuvent être édités à partir de l&#39;icône **[!UICONTROL Editer le lien]**.
 
       ![](assets/download_web_edit_external.png)
 
