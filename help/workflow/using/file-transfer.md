@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Envoi de fichier
-description: En savoir plus sur l'activité du processus de transfert de fichiers
+description: En savoir plus sur l’activité de workflow d’envoi de fichier
 audience: workflow
 content-type: reference
 topic-tags: event-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    ![](assets/file_transfert_edit.png)
 
-   Cochez l&#39;option **[!UICONTROL Utilisez un compte externe]** pour sélectionner un compte parmi les comptes S3, FTP ou SFTP paramétrés dans le nœud **[!UICONTROL Administration > Plate-forme > Comptes externes]** de l&#39;arborescence. Indiquez ensuite le répertoire sur le serveur contenant le ou les fichiers à transférer.
+   Cochez l&#39;option **[!UICONTROL Utilisez un compte externe]** pour sélectionner un compte parmi les comptes S3, FTP ou SFTP paramétrés dans le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l&#39;arborescence. Indiquez ensuite le répertoire sur le serveur contenant le ou les fichiers à transférer.
 
    ![](assets/file_transfert_edit_external.png)
 
