@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '3604'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,15 +29,15 @@ La configuration du compte externe a été déplacée vers [cette section](../..
 
 La documentation de Campaign Federated Data Access (FDA) a été améliorée avec les détails de chaque configuration de base de données externe et déplacée vers [cette section](../../installation/using/about-fda.md).
 
-[La version](../../rn/using/release--20-2.md#release-20-2-3-build-9182) de Campaign 20.2.3 est maintenant disponible en version GA.
+[Campaign 20.2.3](../../rn/using/release--20-2.md#release-20-2-3-build-9182) est désormais disponible en version GA (disponibilité générale).
 
-La section Confidentialité a été déplacée et enrichie de deux nouvelles pages : [Gestion](../../platform/using/privacy-management.md) de la confidentialité et [gestion des demandes](../../platform/using/privacy-requests.md)de confidentialité.
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
 
 Une note a été ajoutée dans la page de configuration du serveur de midsourcing pour indiquer que le nom interne du compte externe ne doit pas être mis à jour une fois le serveur configuré. [En savoir plus](../../installation/using/mid-sourcing-server.md)
 
 Des informations sur la syntaxe à utiliser lors de la spécification d’un chemin d’accès à un serveur SFTP externe ont été ajoutées. [En savoir plus](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
-## Octobre 2020 {#oct-2020}
+## Octobre 2020 {#oct-2020}
 
 **Nouvelles fonctionnalités incluses dans la version 20.3**
 
@@ -54,7 +54,7 @@ La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En sav
 Les notes de mise à jour et la matrice de compatibilité pour la version Gold Standard sont maintenant disponibles dans une section dédiée.
 [En savoir plus](../../rn/using/gold-standard.md#gs-10)
 
-Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
+L’intégration des triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
 **Autres mises à jour**
 
