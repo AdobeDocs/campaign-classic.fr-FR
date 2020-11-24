@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '7851'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -3215,7 +3215,7 @@ Voir à ce sujet cette [section](../../installation/using/deploying-an-instance.
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identity Management System (IMS) organization identifier: unique organization identifier within the Adobe Experience Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
+   <td> Identifiant de l’organisation Identity Management System (IMS) : identifiant unique de l’organisation dans Adobe Experience Cloud, utilisé notamment pour le service VisitorID et le SSO de l’IMS. <br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
