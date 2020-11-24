@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Configuration de l’intégration Adobe Experience Manager
-description: Découvrez comment configurer l'intégration Campaign-AEM
+description: Découvrez comment configurer l’intégration Campaign-AEM
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Pour configurer le compte externe AEM, procédez comme suit :
 
    ![](assets/aem_config_3.png)
 
-1. Sélectionnez **[!UICONTROL Administration > Plate-forme > Comptes externes]**.
+1. Sélectionnez **[!UICONTROL Administration > Plateforme > Comptes externes]**.
 1. Dans la liste **[!UICONTROL Compte externe]**, sélectionnez **[!UICONTROL Instance AEM]**.
 1. Renseignez les paramètres de votre instance de création AEM :
 
@@ -96,7 +96,7 @@ L&#39;option **AEMResourceTypeFilter** sert à filtrer les types de ressources E
 Pour vérifier si l&#39;option **[!UICONTROL AEMResourceTypeFilter]** est configurée :
 
 1. Cliquez sur le bouton **[!UICONTROL Explorateur]**.
-1. Sélectionnez **[!UICONTROL Administration > Plate-forme > Options]**.
+1. Sélectionnez **[!UICONTROL Administration > Plateforme > Options]**.
 1. Dans la liste **[!UICONTROL Options]**, sélectionnez **[!UICONTROL AEMResourceTypeFilter]**.
 1. Dans le champ **[!UICONTROL Valeur (texte)]**, le chemin doit être le suivant :
 
