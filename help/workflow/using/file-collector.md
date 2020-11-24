@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Collecteur de fichiers
-description: En savoir plus sur l'activité du processus des Collecteurs de fichiers
+description: En savoir plus sur l’activité de workflow de collecteur de fichiers
 audience: workflow
 content-type: reference
 topic-tags: event-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
