@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Code SQL et code JavaScript
-description: En savoir plus sur les activités de flux de travaux des codes SQL et JavaScript
+description: En savoir plus sur les activités du workflow des codes SQL et JavaScript
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
