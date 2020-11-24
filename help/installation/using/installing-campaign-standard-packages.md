@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Installation des packages standard de Campaign Classic
-description: Découvrez comment installer les packages intégrés Campaign
+description: Découvrez comment installer les packages standard de Campaign
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Les packages sont à présent installés.
 
 ### Liste des packages prêts à l’emploi {#list-of-standard-packages}
 
-Le tableau suivant liste tous les packages intégrés Campaign.
+Le tableau ci-après répertorie tous les packages standard de Campaign.
 
 <table> 
  <thead> 
@@ -80,12 +80,12 @@ Le tableau suivant liste tous les packages intégrés Campaign.
   </tr> 
   <tr> 
    <td> Contrôle du moteur d’offres avec l’instance d’exécution. Facultatif.<br /> </td> 
-   <td> Package à installer sur l’instance de pilotage pour le moteur d’Offre (interaction). <a href="../../interaction/using/distributed-architectures.md#packages-configuration">En savoir plus</a> </td> 
+   <td> Package à installer sur l’instance de pilotage pour le moteur d’offres (interaction). <a href="../../interaction/using/distributed-architectures.md#packages-configuration">En savoir plus</a> </td> 
    <td> Marketing<br /> </td>  
   </tr> 
   <tr> 
    <td> Moteur d’offre pour les instances d’exécution. Facultatif.<br /> </td> 
-   <td> Package à installer sur les instances d'exécution pour le moteur d’Offre (interaction). <a href="../../interaction/using/distributed-architectures.md">En savoir plus</a> </td> 
+   <td> Package à installer sur les instances d’exécution pour le moteur d’offres (interaction). <a href="../../interaction/using/distributed-architectures.md">En savoir plus</a> </td> 
    <td> Mid, Exécution <br /> </td>  
   </tr> 
   <!--tr> 
@@ -200,7 +200,7 @@ Le tableau suivant liste tous les packages intégrés Campaign.
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with Adobe Experience Cloud<br /> </td> 
+   <td> Intégration avec Adobe Experience Cloud<br /> </td> 
    <td> Permet d’importer et d’exporter des audiences/segments à partir de différentes solutions Adobe Experience Cloud dans Adobe Campaign. Facultatif. <a href="../../integrations/using/configuring-ims.md#installing-the-package">En savoir plus</a> </td> 
    <td> Marketing</td> 
   </tr> 
@@ -215,13 +215,13 @@ Le tableau suivant liste tous les packages intégrés Campaign.
    <td> Marketing </td> 
   </tr> 
   <tr> 
-   <td> Plate-forme de Mid-sourcing<br /> </td> 
+   <td> Plateforme de Mid-sourcing<br /> </td> 
    <td> Cette configuration présente une solution intermédiaire optimale entre le mode hébergé (ASP) et l’internalisation. Toute la partie concernant l’envoi des messages est déportée sur un serveur de "mid-sourcing", hébergé chez Adobe Campaign. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus</a> <br /> </td> 
    <td> Mid-sourcing </td> 
   </tr> 
   <tr> 
    <td> Assistance AMP<br /> </td> 
-   <td> Permet d’utiliser le nouveau fichier AMP interactif pour le format d'un email et d’envoyer des courriers électroniques dynamiques. Facultatif. <a href="../../delivery/using/defining-interactive-content.md">En savoir plus</a> <br /> </td> 
+   <td> Permet d’utiliser le nouveau format interactif AMP pour email et d’envoyer des emails dynamiques. Facultatif. <a href="../../delivery/using/defining-interactive-content.md">En savoir plus</a> <br /> </td> 
    <td> Tous </td> 
   </tr> 
   <tr> 
