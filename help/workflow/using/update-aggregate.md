@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Mise à jour d'agrégat
-description: En savoir plus sur l'activité de mise à jour du flux de travail des agrégats
+description: En savoir plus sur l’activité de workflow de mise à jour d’agrégat
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
