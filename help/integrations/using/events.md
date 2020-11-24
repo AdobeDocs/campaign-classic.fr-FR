@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Une partie de cette configuration est un travail de développement personnalisé
 * connaissances opérationnelles des API QueryDef et Writer,
 * notions de cryptage et d&#39;authentification à l’aide de clés privées.
 
-Etant donné que la modification du code Javascript nécessite des compétences techniques, n&#39;essayez pas sans la bonne compréhension.
+Étant donné que la modification du code JavaScript nécessite des compétences techniques, veuillez ne pas la modifier pas si vous ne le maîtrisez pas.
 
 ## Événements de traitement dans JavaScript {#events-javascript}
 
@@ -51,7 +51,7 @@ Elle doit être renvoyée comme
 <undefined/>
 ```
 
-You should restart [!DNL pipelined] after editing the Javascript.
+Vous devez redémarrer [!DNL pipelined] après avoir modifié le fichier JavaScript.
 
 ### Format des données Trigger {#trigger-format}
 
