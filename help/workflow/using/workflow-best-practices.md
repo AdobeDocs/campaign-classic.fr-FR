@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Bonnes pratiques relatives aux workflows
-description: Découvrez les meilleures pratiques du processus Campaign
+description: Découvrez les bonnes pratiques relatives aux workflows de Campaign
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,13 +76,13 @@ Dans la fenêtre des **[!UICONTROL Propriétés du workflow]**, ne cochez jamais
 
 ![](assets/wf-execute-in-engine.png)
 
-## Propriétés d&#39;exécution      {#workflow-properties}
+## Propriétés d&#39;exécution       {#workflow-properties}
 
 ### Dossiers des workflows {#workflow-folders}
 
 Adobe conseille de créer les workflows dans un dossier dédié.
 
-Si le workflow a un impact sur l’ensemble de la plate-forme (processus de nettoyage, par exemple), vous pouvez ajouter un sous-dossier au dossier intégré **[!UICONTROL Workflows techniques]**.
+Si le workflow a un impact sur l’ensemble de la plateforme (processus de nettoyage, par exemple), vous pouvez ajouter un sous-dossier au dossier intégré **[!UICONTROL Workflows techniques]**.
 
 ### Attribution d’un nom au workflow {#workflow-naming}
 
@@ -122,7 +122,7 @@ Avant de commencer la construction d’un workflow, pensez à définir les super
 
 Vérifiez régulièrement l’univers de **[!UICONTROL Surveillance]** pour connaître le statut des workflows actifs. Voir à ce propos la section [Supervision de l’instance](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
 
-La carte thermique des workflows permet aux administrateurs de la plate-forme Adobe Campaign de surveiller la charge sur l’instance et de planifier les workflows en conséquence. Voir à ce sujet [Surveillance des workflows](../../workflow/using/heatmap.md).
+La carte thermique des workflows permet aux administrateurs de la plateforme Adobe Campaign de surveiller la charge sur l’instance et de planifier les workflows en conséquence. Voir à ce sujet [Surveillance des workflows](../../workflow/using/heatmap.md).
 
 ## Utilisation des activités {#using-activities}
 
