@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Workflows du Règlement sur la protection des données à caractère personnel
-description: En savoir plus sur les workflows de réglementation de la protection des données à caractère personnel
+title: Workflows relatifs au règlement sur la protection des informations personnelles
+description: En savoir plus sur les workflows relatifs au règlement sur la protection des informations personnelles
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
