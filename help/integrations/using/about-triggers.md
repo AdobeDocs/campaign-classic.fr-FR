@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: A propos des Triggers Adobe Experience Cloud
-description: Commencer avec la mise en oeuvre des triggers Adobe Experience Cloud
+description: Prise en main de la mise en œuvre des Triggers d’Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Commencer avec les triggers Adobe Experience Cloud{#about-adobe-experience-triggers}
+# Prise en main des Triggers d’Adobe Experience Cloud{#about-adobe-experience-triggers}
 
 [!DNL Triggers] est une intégration entre Adobe Campaign et Adobe Analytics, qui utilise le pipeline. Le pipeline récupère les actions ou déclencheurs des utilisateurs de votre site web. Un abandon de panier est un exemple de déclencheur. Les déclencheurs sont traités dans Adobe Campaign pour envoyer des emails en temps quasi réel.
 
