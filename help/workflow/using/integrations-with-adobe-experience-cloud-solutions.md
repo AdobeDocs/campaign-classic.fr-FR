@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Intégrations aux workflows de solutions Adobe Experience Cloud
-description: En savoir plus sur les workflows de solutions Integrations with Adobe Experience Cloud
+title: Workflows des intégrations avec les solutions Adobe Experience Cloud
+description: En savoir plus sur les workflows des intégrations avec les solutions Adobe Experience Cloud
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
