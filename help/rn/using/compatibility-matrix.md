@@ -9,8 +9,8 @@ topic-tags: latest-release-notes
 translation-type: tm+mt
 source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 99%
 
 ---
 
@@ -192,7 +192,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>API Web : Dynamics 365 Sur site et en ligne</p>
+<p>API Web : Dynamics 365 On-premise et Online</p>
 </td>
 </tr>
 </tbody>
