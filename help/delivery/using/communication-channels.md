@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Canaux de communication{#communication-channels}
 
-Avec Adobe Campaign, vous pouvez envoyer des campagnes entre canaux, y compris des courriels, des SMS, des messages LINE, des notifications Push et des courriels directs, et mesurer leur efficacité à l&#39;aide de divers [rapports](../../reporting/using/delivery-reports.md)dédiés. Ces messages sont conçus et envoyés par diffusion et peuvent être personnalisés pour chaque destinataire.
+Avec Adobe Campaign, vous pouvez réaliser des campagnes cross-canal, y compris sous forme d’emails, SMS, messages LINE, notifications push et courrier, et mesurer leur efficacité à l’aide de différents [rapports](../../reporting/using/delivery-reports.md) dédiés. Ces messages sont conçus et envoyés à l’aide de diffusions, et sont personnalisables pour chaque destinataire.
 
-Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, l&#39;exécution des communications et les rapports opérationnels connexes. Le principal point d&#39;accès fonctionnel est l&#39;assistant de diffusion. Ce point d&#39;accès mène à de multiples fonctionnalités couvertes par Adobe Campaign.
+Les principales fonctionnalités comprennent le ciblage, la définition et la personnalisation des messages, la mise en œuvre des communications et les rapports opérationnels connexes. Le principal point d’accès fonctionnel est l’assistant de diffusion. Ce point d’accès permet d’accéder à de multiples fonctionnalités proposées par Adobe Campaign.
 
 >[!NOTE]
 >
