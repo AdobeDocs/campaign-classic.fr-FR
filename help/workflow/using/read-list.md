@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Lecture de liste
-description: En savoir plus sur l'activité du processus des Lectures de liste
+description: En savoir plus sur l’activité de workflow de lecture de liste
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
