@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Enrichissement des emails avec des champs de date personnalisés
-description: Découvrez comment enrichir les courriels avec des champs de date personnalisés
+description: Découvrez comment enrichir les emails avec des champs de date personnalisés
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
