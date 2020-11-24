@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,5 +32,5 @@ Consultez la section [Configurer l&#39;accès à Assets](../../integrations/usin
 
 >[!NOTE]
 >
->Dans le cadre d’un environnement sur site Adobe Campaign, l’intégration avec le service principal Assets et avec AEM Assets n’est pas disponible, sauf si AEM Assets est également sur site.
+>Dans le contexte d’un environnement Adobe Campaign On-Premise, l’intégration avec Assets core service et AEM Assets n’est pas disponible, sauf si AEM Assets est également On-Premise.
 
