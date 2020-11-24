@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
-* Pour un moteur **Microsoft SQL Server**, vous devez définir :  le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
+* Pour un moteur **Microsoft SQL Server**, vous devez définir :   le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
    >[!CAUTION]
    >
@@ -125,7 +125,7 @@ La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibili
 
 * Pour une base Oracle, Microsoft SQL Server ou PostgreSQL, l&#39;administrateur de bases de données peut par ailleurs déterminer ici des **paramètres de stockage** à utiliser lors de la création des objets base de données.
 
-   Ces paramètres reçoivent les noms exacts des tablespaces (avertissement : respecte la casse). They are respectively stored in the **[!UICONTROL Administration > Platform > Options]** node in the following options (see [this section](../../installation/using/configuring-campaign-options.md#database)):
+   Ces paramètres reçoivent les noms exacts des tablespaces (avertissement : respecte la casse). Ils sont respectivement stockés dans le nœud **[!UICONTROL Administration > Plateforme > Options]** dans les options suivantes (voir [cette section](../../installation/using/configuring-campaign-options.md#database)) :
 
    * **WdbcOptions_TableSpaceUser**: tables utilisateur basées sur un schéma
    * **WdbcOptions_TableSpaceIndex**: index des tables utilisateur basées sur un schéma
