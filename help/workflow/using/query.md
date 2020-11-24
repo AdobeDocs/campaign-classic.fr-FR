@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Requête
-description: En savoir plus sur l'activité du processus des Requêtes
+description: En savoir plus sur l’activité de workflow de requête
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Sélectionnez d&#39;abord le type de données à ajouter :
 * Sélectionnez **[!UICONTROL Données externes]** pour ajouter des données issues d’une base de données externe. Cette option n’est disponible que si vous avez acquis l’option **Federated Data Access**. Voir à ce sujet la section [Accéder à une base externe (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
 * Sélectionnez l&#39;option **[!UICONTROL Une proposition d&#39;offre]** pour ajouter un ensemble de colonnes permettant de stocker la meilleure proposition générée par le moteur d&#39;offres. Cette option n&#39;est disponible que si vous avez acquis le module **Interaction**.
 
-Si aucun module optionnel n&#39;est installé sur la plate-forme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
+Si aucun module optionnel n&#39;est installé sur la plateforme, cette étape n&#39;est pas affichée. Vous accédez directement à l&#39;étape suivante.
 
 Pour ajouter des données de la base Adobe Campaign :
 
