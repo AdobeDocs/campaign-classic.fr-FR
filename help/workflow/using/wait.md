@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Attente
-description: En savoir plus sur l'activité du processus d'attente
+description: En savoir plus sur l’activité de workflow d’attente
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
