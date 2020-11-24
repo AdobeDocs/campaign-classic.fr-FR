@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Gestion des données SQL
-description: En savoir plus sur l'activité du flux de travaux SQL Data Management
+description: En savoir plus sur l’activité de workflow de gestion des données SQL
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
