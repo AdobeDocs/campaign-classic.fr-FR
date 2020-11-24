@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Envoyer un email d'anniversaire
-description: Découvrez comment envoyer un courriel d'anniversaire avec un workflow
+description: Découvrez comment envoyer un email d’anniversaire à l’aide d’un workflow
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
