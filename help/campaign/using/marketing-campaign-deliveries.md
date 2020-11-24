@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '3076'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
 
-Une fois créées à partir d’une campagne, les diffusions sont liées à cette campagne et consolidées au niveau de la campagne.
+Une fois créées à partir d’une campagne, les diffusions y sont liées et sont consolidées au niveau de cette campagne.
 
 ![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
@@ -33,17 +33,17 @@ Les paramétrages proposés sont adaptés au type de diffusion : courrier, emai
 
 ## Choisir la population cible {#selecting-the-target-population}
 
-Pour chaque diffusion, vous pouvez définir :
+Pour chaque diffusion, vous pouvez définir :
 
-* Audience - En savoir plus sur la [création de l’audience dans un processus](#building-the-main-target-in-a-workflow) et la [sélection de la population](#selecting-the-target-population)de cibles.
-* Une Population témoin - En savoir plus sur la [définition d&#39;une Population témoin](#defining-a-control-group).
+* L’audience - En savoir plus dans les sections [Construction de l’audience dans un workflow](#building-the-main-target-in-a-workflow) et [Choisir la population cible](#selecting-the-target-population).
+* Une population témoin - En savoir plus dans la section [Définir une population témoin](#defining-a-control-group).
 * Adresses de contrôle - En savoir plus dans [cette section](../../delivery/using/about-seed-addresses.md).
 
-Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+Certaines de ces informations sont héritées du [modèle](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-Pour créer la cible de diffusion, vous pouvez définir des critères de filtrage pour les destinataires de la base de données. Ce mode de sélection destinataire est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
+Pour créer la cible de diffusion, vous pouvez définir des critères de filtrage pour les destinataires dans la base de données. Ce mode de sélection des destinataires est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
 
-**Exemple : envoyer des messages à un groupe**
+**Exemple : envoyer des messages à un groupe**
 
 Vous pouvez par exemple importer une population dans une liste puis cibler cette liste dans les diffusions.
 
@@ -57,15 +57,15 @@ Vous pouvez par exemple importer une population dans une liste puis cibler cette
 
 ![](assets/s_user_target_group_next.png)
 
-### Création de l’audience dans un processus {#building-the-main-target-in-a-workflow}
+### Construction de l’audience dans un workflow {#building-the-main-target-in-a-workflow}
 
 La cible principale d&#39;une diffusion peut également être définie au travers d&#39;un workflow de ciblage : cet environnement graphique permet de construire une cible via des requêtes, des tests et des unions, déduplications, partages, etc. [En savoir plus](../../workflow/using/architecture.md).
 
 >[!IMPORTANT]
 >
->Vous ne pouvez pas créer plus de 28 workflows dans une campagne. Après cette limite, d’autres workflows ne sont pas visibles dans l’interface et peuvent générer des erreurs.
+>Vous ne pouvez pas créer plus de 28 workflows dans une campagne. Au-delà de cette limite, les autres workflows sont invisibles dans l’interface et peuvent générer des erreurs.
 
-#### Création du processus {#creating-a-targeting-workflow}
+#### Créer le workflow {#creating-a-targeting-workflow}
 
 Le ciblage peut être construit grâce à une combinaison de critères de filtrage, enchaînés graphiquement dans un workflow. Vous pouvez ainsi créer des populations et sous-populations qui seront ciblées selon vos besoins. Pour afficher l&#39;éditeur de workflows, cliquez sur l&#39;onglet **[!UICONTROL Ciblages et workflows]** dans le tableau de bord des campagnes.
 
@@ -104,7 +104,7 @@ Vous pouvez créer plusieurs workflows de ciblage pour une même opération. Pou
 1. Sélectionnez le modèle de workflow **[!UICONTROL Nouveau workflow]** et nommez ce workflow.
 1. Cliquez sur **[!UICONTROL Ok]** pour valider la création du workflow, puis créez le diagramme pour ce workflow.
 
-#### Exécuter le processus {#executing-a-workflow}
+#### Exécuter le workflow {#executing-a-workflow}
 
 Les workflows de ciblage peuvent être lancés manuellement via le bouton **[!UICONTROL Démarrer]** de la barre d&#39;outils, sous réserve que vous disposiez des droits adéquats.
 
@@ -255,7 +255,7 @@ Vous pouvez définir une nouvelle population qui sera utilisée comme population
 
 ## Démarrer la diffusion {#starting-a-delivery}
 
-Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
+Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. Pour les diffusions par email ou sur les canaux mobiles, voir la section [Démarrer une diffusion online](#starting-an-online-delivery) et pour les diffusions courrier, voir la section [Démarrer une diffusion offline](#starting-an-offline-delivery).
 
 ### Démarrer une diffusion online {#starting-an-online-delivery}
 
@@ -263,7 +263,7 @@ Une fois toutes les demandes de validation approuvées, la diffusion passe à l&
 
 >[!NOTE]
 >
->Si un opérateur spécifique ou groupe d&#39;opérateurs est désigné pour le démarrage de la diffusion dans les propriétés de cette dernière, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour cela activez l&#39;option **NMS_ActivateOwnerConfirmation** en indiquant comme valeur **1**. Les options sont gérées depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]****[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
+>Si un opérateur spécifique ou groupe d&#39;opérateurs est désigné pour le démarrage de la diffusion dans les propriétés de cette dernière, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour cela activez l&#39;option **NMS_ActivateOwnerConfirmation** en indiquant comme valeur **1**. Les options sont gérées depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]****[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
 >  
 >Pour désactiver cette option, indiquez **0** comme valeur. Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l&#39;opérateur ou le groupe d&#39;opérateurs désigné pour l&#39;envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l&#39;envoi.
 
