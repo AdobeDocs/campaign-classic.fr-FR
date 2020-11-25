@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: eb7e1c98f69ba20ef4222bfefea74fdaf6072397
+source-git-commit: 6464a61148fd12738d95953161aea4ac4d19c04b
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 42%
+ht-degree: 49%
 
 ---
 
@@ -55,32 +55,31 @@ Vous pouvez tester les tests suivants et si l&#39;échec de connexion persiste, 
 </tr>
   <tr> 
    <td>Le module Web Adobe Campaign est-il bien lancé ?</td> 
-   <td>
-   Connectez-vous à l’URL suivante : <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Si vous obtenez une erreur Java Tomcat :
+   <td>Connectez-vous à l’URL suivante : <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Si vous obtenez une erreur Java Tomcat :
 
     L&#39;intégration JAVA est-elle correctement effectuée ? Adobe Campaign requiert un JDK SUN pour fonctionner.
     
-    Il est intégré dans le fichier [chemin de l’application]/nl6/customer.sh
-    
-    * Si vous obtenez une page vierge :
-    
-    Le module Web Adobe Campaign a-t-il démarré ? Vous devez vous procurer :
-    
-    &lt;pre>
-    nlserver
-    pdumpHH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/YYYY
-    [...]
-    web@default (27515) - 55.2 Mb
-    [...]
-    &lt;/pre>*. commande suivante : &lt;pre>nlserver début web&lt;/pre>&lt;/td>
+    Son intégration se fait dans le fichier [chemin de l&#39;application]/nl6/customer.sh
+
+* Si vous obtenez une page blanche :
+
+       Le module Adobe Campaign Web a-t-il démarré ? Vous devez obtenir :
+       
+       &lt;pre>
+ nlserver pdump     
+ HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY     
+ [...]     
+ web@default (27515) - 55.2 Mb[...]&lt;/pre>    
     
     
-    
-    
-    
-    
-    
-</tr>
+   
+* Sinon, relancez-le en utilisant la commande suivante :
+
+       &lt;pre>
+ nlserver début web     
+ &lt;/pre>     
+     &lt;/td>
+   </tr>
   <tr>
   	<td>De manière générale, vérifiez la configuration des zones de sécurité.</td>
   	<td>Pour plus d'informations sur la configuration des zones de sécurité, reportez-vous à [cette section](../../installation/using/configuring-campaign-server.md#definition-security-zones)</td>
