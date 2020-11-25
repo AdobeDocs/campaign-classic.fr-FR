@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae342f41b9b74159607b313e1c29549b17488db5
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 94%
 
 ---
 
@@ -66,7 +66,7 @@ Les groupes d&#39;opérateurs destinés aux validations doivent être conçus co
 
 ## Expirations {#expirations}
 
-Les expirations sont des transitions particulières que l&#39;on retrouve sur différents types d&#39;activités mais qui sont surtout utilisées pour les validations. Une expiration permet de déclencher une action après un certain délai si personne n&#39;a répondu, ou de continuer l&#39;exécution du workflow (et par exemple assigner une validation à un groupe différent).
+Les expirations sont des transitions spécifiques qui sont utilisées dans différents types d&#39;activité, et en particulier dans les approbations. Vous pouvez utiliser une expiration pour déclencher une action après un certain temps sans réponse. Il peut également être utilisé, par exemple, pour suivre le processus et affecter une approbation à un autre groupe.
 
 Le deuxième onglet des propriétés de l&#39;activité de validation permet de définir une ou plusieurs expirations. En effet, vous pouvez définir plusieurs types d&#39;expiration.
 
