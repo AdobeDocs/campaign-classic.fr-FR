@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 92%
 
 ---
 
@@ -32,6 +32,8 @@ Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer l
 >Dans l&#39;onglet **[!UICONTROL Abonnements]** du service, vous trouverez la liste de tous les abonnés au service, c&#39;est-à-dire toutes les personnes ayant installé l&#39;application sur leur terminal mobile et accepté de recevoir des notifications.
 
 ## Installer le package {#installing-package-ios}
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment installer le package d&#39;application mobile en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
 
 En tant que client hybride/hébergé, contactez l&#39;équipe d&#39;Assistance clientèle d&#39;Adobe pour accéder au canal de notifications push dans Campaign.
 
