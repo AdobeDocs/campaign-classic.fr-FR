@@ -7,82 +7,82 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cb6a2247e3b7617511aecf3d2d19985af0216494
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 45%
 
 ---
 
 
 # Connexion impossible{#failure-to-connect}
 
-Si vous n&#39;arrivez plus à vous connecter à votre instance Adobe Campaign, les causes peuvent être multiples : de nombreux contextes peuvent poser problème.
+Les raisons d&#39;un problème de connexion peuvent être multiples et dépendent de divers contextes.
 
-De manière générale, vérifiez la configuration des zones de sécurité.
+Vous pouvez tester les tests suivants et si l&#39;échec de connexion persiste, contactez l&#39;assistance **** Adobe Campaign.
 
->[!NOTE]
->
->Pour plus d’informations sur le paramétrage des zones de sécurité, consultez [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 
-Vérifiez les informations suivantes :
 
-1. **Vérifications du réseau**
+<table> 
+ <thead> 
+  <tr> 
+   <th>Vérifications<br /> </th> 
+   <th>Résolution<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Avez-vous accès à internet depuis votre ordinateur ?</td> 
+   <td>Vérifiez que vous pouvez vous connecter à des sites sur Internet (par exemple). Si vous ne pouvez pas vous connecter, il s'agit d'un problème sur votre machine : contactez votre administrateur système.</td>
+  </tr>
+  <tr> 
+   <td>Pouvez-vous vous connecter sur le serveur hébergeant Adobe Campaign par un autre service ?</td> 
+   <td>Connectez-vous en SSH ou tout autre moyen sur le serveur. En cas d'impossibilité, il y a un problème réseau chez votre hébergeur, contactez leur administrateur réseau.</td>
+  </tr>
+  <tr> 
+   <td>Le serveur Web répond-t-il ?</td> 
+   <td>Connectez-vous à l’URL d’accès au serveur Adobe Campaign à l’aide d’un navigateur Web : **`http(s):// <urlserver>`**. S’il ne répond pas, le serveur web est arrêté sur l’ordinateur. Contactez l’administrateur système de votre hébergeur pour redémarrer le service.</td>
+  </tr>
+  <tr> 
+   <td>L'intégration Adobe Campaign est-elle bien effectuée ?</td> 
+   <td>Connectez-vous à : **`http(s)://<urlserver>URL /r/test`**. Le serveur doit renvoyer le type de message suivant :
 
-   * Avez-vous accès à internet depuis votre ordinateur ?
+    &quot;
+    &lt;redirecteur status=&#39;OK&#39; date=&#39;AAAA/MM/JJ HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;nom d&#39;hôte>&#39; localHost=&#39;&lt;serveur>&#39;/>
+    &quot;
+    
+    Si vous n&#39;obtenez pas ce résultat, vérifiez dans votre configuration de serveur Web que l&#39;intégration est prise en compte.&lt;/td>
+</tr>
+  <tr> 
+   <td>Le module Web Adobe Campaign est-il bien lancé ?</td> 
+   <td>
+   Connectez-vous à l’URL suivante : **`http(s)://<URLSERVER>/nl/jsp/logon.jsp`** * Si vous obtenez une erreur Java Tomcat :
 
-      Vérifiez que vous pouvez vous connecter à des sites sur Internet (par exemple). Si vous ne pouvez pas vous connecter, il s&#39;agit d&#39;un problème sur votre machine : contactez votre administrateur système.
-
-   * Pouvez-vous vous connecter sur le serveur hébergeant Adobe Campaign par un autre service ?
-
-      Connectez-vous en SSH ou tout autre moyen sur le serveur. En cas d&#39;impossibilité, il y a un problème réseau chez votre hébergeur, contactez leur administrateur réseau.
-
-1. **Vérifications côté serveur Web** (IIS/apache/etc.)
-
-   * Le serveur Web répond-t-il ?
-
-      Connectez-vous à l’URL d’accès au serveur Adobe Campaign à l’aide d’un navigateur web : **http(s)://`<urlserver>`**. S’il ne répond pas, le serveur web est arrêté sur l’ordinateur. Contactez l’administrateur système de votre hébergeur pour redémarrer le service.
-
-   * L&#39;intégration Adobe Campaign est-elle bien effectuée ?
-
-      Connectez-vous à l’URL **http(s):// `<urlserver>`/r/test**. Le serveur doit renvoyer le type de message suivant :
-
-      ```
-      <redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='<hostname>' localHost='<server>'/>
-      ```
-
-      Si vous n’obtenez pas ce résultat, vérifiez dans la configuration de votre serveur Web que l’intégration est bien prise en compte.
-
-1. **Vérifications côté Adobe Campaign**
-
-   * Le module Web Adobe Campaign est-il bien lancé ?
-
-      Connectez-vous à l’URL :**http(s)://`<URLSERVER>`/nl/jsp/logon.jsp**
-
-      * Si vous obtenez une erreur Tomcat Java :
-
-         L&#39;intégration JAVA est-elle correctement effectuée ? Adobe Campaign requiert un JDK SUN pour fonctionner.
-
-         Il est intégré dans le fichier **`[path of application]`/nl6/customer.sh**
-
-      * Si vous obtenez une page blanche :
-
-         Le module Web d&#39;Adobe Campaign est-il bien démarré ? Vous devez obtenir :
-
-         ```
-         nlserver pdump
-         HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
-         [...]
-         web@default (27515) - 55.2 Mb
-         [...]
-         ```
-
-      * Sinon, relancez-le en utilisant la commande suivante :
-
-         ```
-         nlserver start web
-         ```
->[!NOTE]
->
->Lorsque vous affichez la liste des modules Adobe Campaign et que vous obtenez une réponse du type : **nlserverpdump**
->HH:MM:SS > Serveur d’applications pour Adobe Campaign Classic (version 7.X YY.R XXX@SHA1) de DD/MM/YYYY Aucune tâche Vous devez redémarrer l’ensemble de l’application Adobe Campaign. Pour ce faire, utilisez la commande suivante : **nlserver watchdog -svc -noconsole **
+    L&#39;intégration JAVA est-elle correctement effectuée ? Adobe Campaign requiert un JDK SUN pour fonctionner.
+    
+    Il est intégré dans le fichier **`[chemin de l&#39;application]`/nl6/customer.sh**
+    
+    * Si vous obtenez une page vierge :
+    
+    Le module Web Adobe Campaign a-t-il démarré ? Vous devez vous procurer :
+    
+    &quot;
+    nlserver
+    pdumpHH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/YYYY
+    [..]
+    web@default (27515) - 55.2 Mb
+    [...]
+    &quot;* Si vous ne redémarrez pas, utilisez la commande suivante :&quot;  Web de début de serveur nlserver&quot;&lt;/td>
+    
+    
+    
+    
+    
+    
+</tr>
+  <tr>
+  	<td>De manière générale, vérifiez la configuration des zones de sécurité.</td>
+  	<td>Pour plus d'informations sur la configuration des zones de sécurité, reportez-vous à [cette section](../../installation/using/configuring-campaign-server.md#definition-security-zones)</td>
+  </tr>
+ </tbody> 
+</table>
