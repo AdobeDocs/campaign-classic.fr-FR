@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: affc541c480ad7e618120fe90270841add06b711
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 64%
 
 ---
 
@@ -34,6 +34,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
    <tr> 
    <td> <span class="uicontrol">Calcul de l'agrégat full (cube propositionrcp) du MessageCenter</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
+   <td> Ce processus met à jour l'agrégat <strong>complet</strong> pour le cube du centre <strong>de</strong> messages. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, date, état et Type d'événement.<br /> Le cube Centre <strong>de</strong> messages est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans <a href="../../reporting/using/about-cubes.md">cette section</a>.<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 
