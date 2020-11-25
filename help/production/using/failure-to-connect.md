@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 6464a61148fd12738d95953161aea4ac4d19c04b
+source-git-commit: 2cc4ab52f3cbdd00831d0b5104690b7adf6091ce
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 49%
+source-wordcount: '343'
+ht-degree: 56%
 
 ---
 
@@ -50,36 +50,31 @@ Vous pouvez tester les tests suivants et si l&#39;échec de connexion persiste, 
     &lt;pre>
     &lt;redir status=&#39;OK&#39; date=&#39;AAAA/MM/JJ HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
     &lt;/pre>
-    
-    Si vous n&#39;obtenez pas ce résultat, vérifiez dans votre configuration de serveur Web que l&#39;intégration est prise en compte.&lt;/td>
+Si vous n’obtenez pas ce résultat, vérifiez dans la configuration de votre serveur Web que l’intégration est bien prise en compte.</td>
 </tr>
   <tr> 
    <td>Le module Web Adobe Campaign est-il bien lancé ?</td> 
    <td>Connectez-vous à l’URL suivante : <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Si vous obtenez une erreur Java Tomcat :
 
-    L&#39;intégration JAVA est-elle correctement effectuée ? Adobe Campaign requiert un JDK SUN pour fonctionner.
-    
-    Son intégration se fait dans le fichier [chemin de l&#39;application]/nl6/customer.sh
+L&#39;intégration JAVA est-elle correctement effectuée ? Adobe Campaign requiert un JDK SUN pour fonctionner.
+
+It is integrated in the file [path of application]/nl6/customer.sh
 
 * Si vous obtenez une page blanche :
 
-       Le module Adobe Campaign Web a-t-il démarré ? Vous devez obtenir :
-       
-       &lt;pre>
- nlserver pdump     
- HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY     
- [...]     
- web@default (27515) - 55.2 Mb[...]&lt;/pre>    
-    
-    
-   
+Le module Web d&#39;Adobe Campaign est-il bien démarré ? Vous devez obtenir :
+
+<pre>
+nlserver pdumpHH:MM:SS &gt; Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY[...]web@default (27515) - 55.2 Mb[...]
+</pre>
+
 * Sinon, relancez-le en utilisant la commande suivante :
 
-       &lt;pre>
- nlserver début web     
- &lt;/pre>     
-     &lt;/td>
-   </tr>
+<pre>        
+nlserver start web
+</pre>
+</td>
+</tr>
   <tr>
   	<td>De manière générale, vérifiez la configuration des zones de sécurité.</td>
   	<td>Pour plus d'informations sur la configuration des zones de sécurité, reportez-vous à [cette section](../../installation/using/configuring-campaign-server.md#definition-security-zones)</td>
