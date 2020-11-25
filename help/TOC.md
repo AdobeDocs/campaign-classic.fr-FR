@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 100%
+source-wordcount: '2171'
+ht-degree: 99%
 
 ---
 
@@ -55,9 +55,10 @@ ht-degree: 100%
          + [Développement](platform/using/faq-developers.md)
       + [Tutoriels](platform/using/tutorials.md)
    + Confidentialité {#privacy}
-      + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
+      + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
+      + [FAQ sur la confidentialité](platform/using/privacy-faq.md)
    + Gérer les profils {#profile-management}
       + [A propos des profils](platform/using/about-profiles.md)
       + [Editer un profil](platform/using/editing-a-profile.md)
