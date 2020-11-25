@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
 workflow-type: tm+mt
 source-wordcount: '2627'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -258,7 +258,7 @@ Le cas pratique ci-dessous présente un exemple.
 
 Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
-Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
