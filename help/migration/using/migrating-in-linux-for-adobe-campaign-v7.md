@@ -267,6 +267,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       ```
       rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
+
    >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
@@ -394,6 +395,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
+
    >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
@@ -472,6 +474,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
+
    >[!IMPORTANT]
    >
    >Il est impératif que l&#39;installation des packages réussisse pour passer à l&#39;étape suivante.
