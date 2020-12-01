@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Construire un questionnaire
-description: Construire un questionnaire
+title: Conception d’un questionnaire
+description: Conception d’un questionnaire
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Construire un questionnaire{#building-a-survey}
+# Conception d’un questionnaire{#building-a-survey}
 
 ## Créer un nouveau questionnaire {#creating-a-new-survey}
 
