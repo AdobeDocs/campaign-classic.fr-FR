@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Le modèle de formulaire est choisi lors de la création du formulaire. Il ne pe
 
 Par défaut, les champs des formulaires Web sont stockés dans la table des destinataires. Vous pouvez modifier la table utilisée en sélectionnant une nouvelle table dans le champ **[!UICONTROL Type de document]**. L&#39;icône **[!UICONTROL Loupe]** permet de visualiser le contenu de la table sélectionnée.
 
-Les réponses fournies sont stockées par défaut dans la table **[!UICONTROL Réponse à un formulaire d&#39;un destinataire]**.
+Les réponses fournies sont stockées par défaut dans la table **Réponse à un formulaire d&#39;un destinataire**.
 
 ## Paramétrer une page d&#39;erreur {#setting-up-an-error-page}
 
