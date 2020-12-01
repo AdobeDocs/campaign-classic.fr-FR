@@ -1,63 +1,56 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos de l'éditeur HTML de Campaign
-description: A propos de l'éditeur HTML de Campaign
+title: Prise en main de l’éditeur HTML Campaign
+description: Commencer avec Campaign DCE
 audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 5%
 
 ---
 
 
-# A propos de l&#39;éditeur HTML de Campaign{#about-campaign-html-editor}
+# Prise en main de l’éditeur HTML Campaign{#about-campaign-html-editor}
 
-Le **Digital Content Editor (DCE)** est un éditeur de contenus HTML qui permet de créer ou modifier facilement des modèles ou du contenu au format HTML dans Adobe Campaign.
+The **Digital Content Editor (DCE)** is an HTML content editor that lets you easily create content and templates in HTML format within Adobe Campaign.
 
-Le Digital Content Editor permet de faciliter l&#39;insertion et la mise en forme d&#39;éléments de la page ainsi que l&#39;association des champs de la base avec les éléments d&#39;une page HTML. Il est proposé par défaut lors de la création d&#39;une page d&#39;une application Web, ou disponible lors de la création de diffusions basées sur un modèle dans lequel il est actif.
+Avec le Digital Content Editor, vous pouvez insérer et formater des éléments de page, et mapper des champs de base de données avec des éléments d’une page HTML. Cet éditeur est disponible lors de la création d’une page pour une application Web ou lors de la création de diffusions basées sur un modèle de DCE.
 
 >[!NOTE]
+>>Si vous devez ajouter du code JavaScript côté serveur, utilisez des blocs de personnalisation. [En savoir plus](../../delivery/using/personalization-blocks.md).
 >
->Le DCE permet uniquement d&#39;effectuer les opérations décrites dans cette section.
->
->Si vous souhaitez ajouter du code JavaScript côté serveur, il convient de le faire dans des blocs de personnalisation. Pour plus d’informations sur la création et la modification des blocs de personnalisation, consultez [cette page](../../delivery/using/personalization-blocks.md).
-
 >[!CAUTION]
->
->Pour des raisons de confidentialité, nous vous recommandons d&#39;utiliser HTTPS pour toutes les ressources externes.
+Toutes les ressources externes doivent être référencées avec une URL HTTPS.
 
-## Fonctionnement général de l&#39;éditeur de contenus {#content-editor-general-operation}
+## Étapes clés d’utilisation du Digital Content Editor {#content-editor-general-operation}
 
-Cette section présente les grandes étapes d&#39;édition et de mise en ligne d&#39;un contenu édité avec le DCE dans le cadre d&#39;une application web et dans le contexte d&#39;une diffusion.
+Cette section présente les étapes clés de modification et de téléchargement du contenu modifié avec le DCE, dans le contexte d’une application Web et d’une conception de diffusion.
 
 Le fonctionnement général est le suivant :
 
 ![](assets/dce_schema.png)
 
-Dans le contexte d&#39;une application Web simple, les étapes de création sont les suivantes :
+Pour créer une application **** Web simple, vous devez :
 
-* Création d’une application web, lire à ce sujet la section [Créer une landing page](../../web/using/creating-a-landing-page.md),
-* Sélection d&#39;un contenu existant ou création d&#39;un contenu à partir d&#39;un modèle standard, lire à ce sujet la section [Gestion des modèles](../../web/using/template-management.md),
-* Édition et configuration du contenu, lire à ce sujet la section [Editer le contenu](../../web/using/editing-content.md),
-* Publication de l’application web, lire à ce sujet la section [Publier le contenu](../../web/using/creating-a-landing-page.md#step-3---publishing-content) et [cette page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
-
->[!NOTE]
->
->Pour un exemple complet de mise en œuvre du DCE dans le cadre d&#39;une application Web, consultez la section [Créer une landing page](../../web/using/creating-a-landing-page.md).
-
-Dans le contexte d&#39;une diffusion par email, les étapes de création sont les suivantes :
-
-* Création d&#39;une diffusion à partir d&#39;un modèle de type email dans lequel le DCE est activé,
-* Sélection d&#39;un contenu existant ou création d&#39;un contenu à partir d&#39;un modèle standard,
-* Modification et configuration du contenu en ligne,
-* Envoi de la diffusion, lire à ce sujet [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+1. Création d&#39;une application Web - [En savoir plus](../../web/using/creating-a-landing-page.md)
+1. Select existing content or creating content from a standard template - [Learn more](../../web/using/template-management.md)
+1. Modifier et configurer du contenu - [En savoir plus](../../web/using/editing-content.md)
+1. Publier l&#39;Application web - [En savoir plus](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
->
->Pour un exemple complet de mise en œuvre du DCE dans le cadre d&#39;une diffusion par emai, consultez [ce cas d’utilisation](../../web/using/use-case--creating-an-email-delivery.md).
+Un exemple complet de mise en oeuvre dans le contexte d’une application Web est disponible dans [cette section](../../web/using/creating-a-landing-page.md).
 
+Pour créer une diffusion **de** courrier électronique, vous devez :
+
+1. Création d&#39;une diffusion à partir d&#39;un modèle DCE - [En savoir plus](../../web/using/use-case--creating-an-email-delivery.md)
+1. Select an existing content or create content from a [standard template](../../web/using/template-management.md)
+1. Modification et configuration du contenu en ligne
+1. Envoyer la diffusion - [En savoir plus](../../delivery/using/steps-about-delivery-creation-steps.md)
+
+>[!NOTE]
+Un exemple complet de mise en oeuvre dans le contexte d’une diffusion de courrier électronique est disponible dans [ce cas](../../web/using/use-case--creating-an-email-delivery.md)d’utilisation.
