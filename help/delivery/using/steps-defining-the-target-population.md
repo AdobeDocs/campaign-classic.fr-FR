@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 100%
+source-wordcount: '1726'
+ht-degree: 99%
 
 ---
 
@@ -225,15 +225,16 @@ Vous pouvez utiliser des **[!UICONTROL Adresses de contrôle]** en tant que cibl
 
 A l&#39;aide de l&#39;option **[!UICONTROL Cible spécifique et Adresses de contrôle]**, vous pouvez cumuler la définition d&#39;une cible spécifique au BAT et l&#39;utilisation des adresses de contrôle. Les paramétrages correspondants sont alors définis dans deux sous-onglets distincts.
 
-## Comment gérer l’adresse de contrôle et les BAT dans un email {#seeds-and-proofs-video}
+Voir aussi :
+
+* [Choisir la cible du BAT](#selecting-the-proof-target)
+* [A propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md)
+* [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+
+## Tutoriel vidéo {#seeds-and-proofs-video}
 
 Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l&#39;envoyer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
-Voir aussi :
-* [Choisir la cible du BAT](#selecting-the-proof-target)
-
-* [A propos des adresses de contrôle](../../delivery/using/about-seed-addresses.md)
-
-* [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
