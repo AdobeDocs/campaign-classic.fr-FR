@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 88%
 
 ---
 
@@ -39,9 +39,9 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 ## Placer les champs de la page {#positioning-the-fields-on-the-page}
 
-La mise en page du formulaire Web est définie au niveau de la page, au niveau de chaque conteneur et peut être surchargée pour chaque contrôle.
+La disposition du formulaire Web est définie page par page dans chaque conteneur et peut être surchargée si nécessaire.
 
-Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s&#39;étendent eux aussi sur un certain nombre de colonnes et les champs qu&#39;ils contiennent s&#39;étendent sur un certain nombre de cellules.
+Pages are broken down into columns: each page contains a certain number of columns. Each field of the page occupies **n** cells. Containers also occupy a certain number of columns and the fields they contain occupy a certain number of cells.
 
 Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
 
