@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 100%
+source-wordcount: '982'
+ht-degree: 99%
 
 ---
 
@@ -107,13 +107,15 @@ Les profils exclus lors de la préparation de la diffusion (règles de typologie
 
 Vous pouvez obtenir un aperçu du **[!UICONTROL Nombre de profils actifs]** depuis le menu Campaign Standard **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]**. La comptabilisation est réalisée par le [workflow technique](../../workflow/using/deliveries.md) **[!UICONTROL Nombre de profils de facturation actifs]** (**[!UICONTROL billingActiveContactCount]**), qui s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le menu **[!UICONTROL Mesures des clients]**. Chaque période dure 12 mois.
 
-## Comment créer et gérer des profils {#create-profiles-video}
+## Tutoriel vidéo {#create-profiles-video}
 
 Découvrez comment accéder aux données de profil, trier et filtrer les profils et créer et gérer manuellement des profils.
 
 Cette vidéo explique également la conformité d’Adobe Campaign Classic au RGPD.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
 **Voir aussi**
 
