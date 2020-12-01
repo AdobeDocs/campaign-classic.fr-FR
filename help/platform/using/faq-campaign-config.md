@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,9 @@ Adobe Campaign propose différents connecteurs CRM pour relier votre plateforme 
 
 Ces connecteurs permettent d&#39;intégrer rapidement et simplement les données : Adobe Campaign propose un assistant dédié pour collecter et sélectionner parmi les tables disponibles dans le CRM. Ils permettent une synchronisation bidirectionnelle des informations afin que les données client soient à jour simultanément sur les différents systèmes.
 
-Consultez l&#39;article [Configurer les connecteurs CRM](../../platform/using/crm-connectors.md) pour apprendre à synchroniser votre outil CRM avec Adobe Campaign. Regardez cette vidéo de cas pratique concernant l&#39;[intégration d&#39;Adobe Campaign avec Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+Lisez la section [Configuration des connecteurs](../../platform/using/crm-connectors.md) CRM pour savoir comment synchroniser votre outil CRM avec Adobe Campaign.
+
+![](assets/do-not-localize/how-to-video.png) Regardez cette vidéo de cas d&#39;utilisation sur l&#39;intégration [](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)Adobe Campaign et Microsoft Dynamics 365.
 
 ## Comment effectuer un effacement de la mémoire cache locale (soft) lorsque les problèmes sont spécifiques à la machine ou à l’utilisateur ? {#perform-soft-cache-clear}
 
