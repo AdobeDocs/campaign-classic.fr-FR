@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
@@ -63,17 +63,21 @@ Vous trouverez ci-dessous les étapes nécessaires pour créer et appliquer une 
 
 Pendant la préparation de la diffusion, les destinataires sont exclus lorsque le critère est satisfait. Vous pouvez consultez les logs pour suivre les exclusions. Des exemples d&#39;utilisation des règles de typologie de pression sont disponibles sur [cette page](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules).
 
-## Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie {#typologies-video}
+## Tutoriels vidéo {#typologies-video}
+
+### Comment configurer la gestion de la fatigue à l&#39;aide de règles de typologie
 
 Cette vidéo explique comment mettre en œuvre la gestion de la fatigue dans Adobe Campaign Classic en utilisant les règles de typologie.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
-## Comment configurer la gestion de la fatigue à l&#39;aide de filtres prédéfinis
+### Comment configurer la gestion de la fatigue à l&#39;aide de filtres prédéfinis
 
 La gestion de la fatigue contrôle la fréquence et le nombre des messages afin d&#39;éviter une sollicitation excessive des destinataires. Si votre instance ne contient pas le module d&#39;optimisation de campagne, vous pouvez configurer un filtre prédéfini qui filtrera la population cible en fonction du nombre de messages reçus. Cette vidéo explique comment implémenter la gestion de la fatigue dans Adobe Campaign Classic à l&#39;aide de filtres.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
 **Rubrique connexe**
 
