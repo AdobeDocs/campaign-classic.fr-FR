@@ -1,15 +1,15 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos des applications web
-description: Créer et partager des applications web, des landing pages et des questionnaires.
+title: Prise en main des applications web
+description: Créer et partager des applications web, des landing pages et des questionnaires
 audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '717'
 ht-degree: 100%
 
 ---
