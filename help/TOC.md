@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 99%
+source-wordcount: '2179'
+ht-degree: 98%
 
 ---
 
@@ -273,7 +273,7 @@ ht-degree: 99%
       + [Tracking d’une application web](web/using/tracking-a-web-application.md)
       + [Désinscription (opt-out) du tracking des applications web](web/using/web-application-tracking-opt-out.md)
    + Edition de contenus HTML {#editing-html-content}
-      + [A propos de l&#39;éditeur HTML de Campaign](web/using/about-campaign-html-editor.md)
+      + [Commencer avec l’éditeur HTML](web/using/about-campaign-html-editor.md)
       + [Gestion des modèles](web/using/template-management.md)
       + [Interface de l&#39;éditeur de contenu](web/using/content-editor-interface.md)
       + [Editer le contenu](web/using/editing-content.md)
@@ -281,7 +281,7 @@ ht-degree: 99%
       + [Créer une Landing Page](web/using/creating-a-landing-page.md)
       + [Cas pratique : création d&#39;une diffusion email](web/using/use-case--creating-an-email-delivery.md)
    + Formulaires web {#web-forms}
-      + [A propos des formulaires web](web/using/about-web-forms.md)
+      + [Commencer avec les formulaires Web](web/using/about-web-forms.md)
       + [Utiliser un modèle de formulaire web](web/using/using-a-web-form-template.md)
       + [Ajouter des champs à un formulaire web](web/using/adding-fields-to-a-web-form.md)
       + [Eléments statiques dans un formulaire web](web/using/static-elements-in-a-web-form.md)
@@ -294,9 +294,9 @@ ht-degree: 99%
       + [Traduire un formulaire web](web/using/translating-a-web-form.md)
       + [Cas pratiques : formulaires web](web/using/use-cases--web-forms.md)
    + Questionnaires en ligne {#online-surveys}
-      + [A propos des questionnaires](web/using/about-surveys.md)
-      + [Prise en main des questionnaires](web/using/getting-started-with-surveys.md)
-      + [Construire un questionnaire](web/using/building-a-survey.md)
+      + [Commencer avec les questionnaires](web/using/about-surveys.md)
+      + [Etapes clés de création d’un questionnaire](web/using/getting-started-with-surveys.md)
+      + [Conception d’un questionnaire](web/using/building-a-survey.md)
       + [Gérer les réponses](web/using/managing-answers.md)
       + [Publier, suivre et utiliser les données collectées](web/using/publish--track-and-use-collected-data.md)
       + [Configurer un questionnaire](web/using/configuring-surveys.md)
