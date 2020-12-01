@@ -7,17 +7,21 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 75%
 
 ---
 
 
 # Diffusion (au fil de l&#39;eau){#continuous-delivery}
 
-Une activité de type **Diffusion au fil de l&#39;eau** permet d&#39;ajouter de nouveaux destinataires à une action de diffusion existante. Ce type de diffusion évite de créer une diffusion complète à chaque fois : ce mode de fonctionnement est souvent plus efficace, notamment pour les notifications ou alertes de faible volume effectuées au fil de l&#39;eau. Au niveau du modèle de diffusion, vous pouvez indiquer un script de calcul du libellé (et du dossier de campagne) de la diffusion associée. Si le script calcule une diffusion qui n&#39;existe pas encore, elle est alors créée à la volée.
+Une action de type diffusion **** continue vous permet d’ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion vous évite d’avoir à créer une diffusion à chaque fois : Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#continuous-delivery-video)
+
+Au niveau du modèle de diffusion, vous pouvez spécifier un script pour calculer l’étiquette (et le dossier de campagne) de la diffusion associée. Si le script calcule une diffusion qui n’existe pas encore, elle est créée à la volée.
 
 ![](assets/edit_diffusion_fil.png)
 
@@ -56,6 +60,10 @@ Une diffusion (au fil de l’eau) crée une diffusion et des logs de diffusion U
 
 ![Diffusion (au fil de l’eau)](assets/delivery_continuous.jpg)
 
+## Tutoriel vidéo {#continuous-delivery-video}
+
 Cette vidéo montre comment configurer une diffusion (au fil de l’eau) avec une requête incrémentale.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
