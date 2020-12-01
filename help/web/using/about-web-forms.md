@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos des formulaires web
-description: A propos des formulaires web
+title: Commencer avec les formulaires Web
+description: Commencer avec les formulaires Web dans Campaign
 audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 93%
 
 ---
 
 
-# A propos des formulaires web{#about-web-forms}
+# Get started with web forms{#about-web-forms}
 
 Adobe Campaign intègre un module graphique de définition et de publication de formulaires web afin de créer des pages proposant des champs de saisie et de sélection, et pouvant inclure des données de la base. Vous pouvez ainsi concevoir et mettre en ligne des pages web auxquelles les utilisateurs pourront accéder pour consulter ou renseigner des informations.
 
@@ -53,7 +53,7 @@ L&#39;onglet **[!UICONTROL Edition]** permet d&#39;en créer le contenu.
 
 Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont les suivantes :
 
-* Créer la ou les pages et les contrôles qui les composent : champs de saisie, listes déroulantes, contenus HTML, etc.
+* Début en créant les pages et les contrôles requis : champs d’entrée, listes déroulantes, contenu HTML, etc.
 
    Cette étape est présentée ci-dessous.
 
@@ -80,6 +80,7 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 >
 >* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans le sous-onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
 >* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
+
 >
 
 
