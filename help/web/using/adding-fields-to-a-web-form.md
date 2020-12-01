@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '2542'
-ht-degree: 100%
+source-wordcount: '2550'
+ht-degree: 94%
 
 ---
 
@@ -196,7 +196,7 @@ Les boutons radio permettent de proposer à l&#39;utilisateur une série d&#39;o
 
 ![](assets/s_ncs_admin_survey_radio_button.png)
 
-Vous pouvez créer les boutons radio individuellement (boutons unitaires) ou via une liste à choix multiples. Toutefois, le principe du bouton radio étant de sélectionner une option ou une autre, on créera toujours au moins un couple de boutons radio, et jamais un bouton isolé.
+Vous pouvez créer des boutons radio individuellement (boutons unitaires) ou via une liste à choix multiples, mais comme le but des boutons radio est de sélectionner une option ou une autre, nous allons toujours créer au moins une paire de boutons radio, jamais un seul bouton.
 
 >[!CAUTION]
 >
@@ -251,7 +251,7 @@ Le contenu des champs du formulaire peut être formaté pour correspondre aux do
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-Pour permettre à l&#39;utilisateur d&#39;indiquer une date dans une page de formulaire, sélectionnez le menu **[!UICONTROL Ajouter une zone de saisie > Date...]** dans la barre d&#39;outils de l&#39;éditeur de page.
+Pour permettre à l’utilisateur de saisir une date dans une page de formulaire, ajoutez un champ de saisie et sélectionnez le type **[!UICONTROL Date...]**.
 
 Indiquez le libellé du champ et le mode de stockage des données.
 
@@ -381,17 +381,20 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 >* Adobe Campaign n&#39;applique aucun contrôle sur la taille ou le type de ressource téléchargée : il est donc vivement recommandé de n&#39;utiliser les champs de téléchargement que pour les sites de type intranet sécurisé.
 >* Lorsque plusieurs serveurs sont associés à l’instance (architecture « load balancing »), vous devez vous assurer que les appels au formulaire web arrivent sur le même serveur.
 >* Ce type d&#39;implémentation peut nécessiter l&#39;intervention de l&#39;équipe Consulting d&#39;Adobe Campaign.
+
 >
 
 
 
 ## Insérer une constante masquée {#inserting-a-hidden-constant}
 
-Vous pouvez valoriser un champ lorsque l&#39;utilisateur passe sur une des pages du formulaire. Pour cela, positionnez une constante dans la page concernée et indiquez la valeur et l&#39;espace de stockage.
+Lorsque l’utilisateur valide l’une des pages du formulaire, vous pouvez définir une valeur spécifique pour un champ de son profil ou une variable.
 
 Ce champ n&#39;est pas visible par l&#39;utilisateur mais permet d&#39;enrichir les données de son profil.
 
-Dans l&#39;exemple suivant, le champ **origine** du profil du destinataire est automatiquement renseigné lorsqu&#39;un utilisateur valide cette page. La constante n&#39;est pas affichée dans la page.
+Pour ce faire, placez une **constante** dans la page et spécifiez la valeur et l’emplacement de l’enregistrement.
+
+Dans l’exemple suivant, le champ **origine** du profil du destinataire est renseigné automatiquement chaque fois qu’un utilisateur approuve cette page. La constante n’est pas affichée sur la page.
 
 ![](assets/s_ncs_admin_survey_constante.png)
 
