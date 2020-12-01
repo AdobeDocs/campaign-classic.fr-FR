@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '911'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à
 >
 >Adobe Campaign Classic est disponible dans les versions v6.11 et v7. Sauf mention contraire, les ressources d&#39;aide s&#39;appliquent aux deux versions (dans leur [build le plus récent)](../../rn/using/latest-release.md). Les captures d&#39;écran se rapportent à l&#39;interface utilisateur de Campaign Classic v7.
 
+![](assets/do-not-localize/how-to-video.png) [Découvrez les fonctionnalités principales en vidéo](#video)
+
 ## Fonctionnalités principales {#key-capabilities}
 
 Adobe Campaign offre une plateforme pour concevoir des expériences client cross-canal et propose un environnement pour l&#39;orchestration visuelle de campagnes, la gestion d&#39;interactions en temps réel et l&#39;exécution cross-canal.
@@ -32,8 +34,6 @@ Adobe Campaign offre une plateforme pour concevoir des expériences client cros
 Le cycle d&#39;une campagne marketing avec Adobe Campaign illustre les principales fonctionnalités du produit :
 
 ![](assets/d_ncs_user_emarketing.png)
-
-![](assets/do-not-localize/how-to-video.png) [Découvrez les fonctionnalités principales en vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
 
 ### Profil client intégré {#integrated-customer-profile}
 
@@ -67,7 +67,7 @@ Vous pouvez combiner les fonctionnalités de diffusion et de gestion de campagne
 
 ## Fonctions principales et composants additionnels {#core-capabilities-and-add-ons}
 
-Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d&#39;implémenter et d&#39;optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines de ces fonctions sont des fonctions principales, tandis que d&#39;autres dépendent de l&#39;installation d&#39;un package et de votre paramétrage. Une description détaillée du produit est présentée dans la section [Description du produit Adobe Campaign Classic](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic—product-description.html).
+Adobe Campaign vous propose un ensemble de fonctions qui vous permettent d&#39;implémenter et d&#39;optimiser les fonctionnalités de marketing conversationnel selon vos besoins et votre architecture. Certaines de ces fonctions sont des fonctions principales, tandis que d&#39;autres dépendent de l&#39;installation d&#39;un package et de votre paramétrage. Une description détaillée du produit est présentée dans la section [Description du produit Adobe Campaign Classic](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
 Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certaines de ces fonctions peuvent ne pas être disponibles dans votre instance.
 
@@ -87,3 +87,10 @@ Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certa
 * [Services web](../../configuration/using/about-web-services.md) : utilisez Campaign par le biais des API/Services web.
 * [Reporting](../../reporting/using/about-adobe-campaign-reporting-tools.md) : accédez à des rapports intégrés, analysez les données et créez vos propres rapports.
 
+## Tutoriel vidéo {#video}
+
+Cette vidéo présente les principales fonctionnalités et fonctionnalités du Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
