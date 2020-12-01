@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Prise en main des questionnaires
-description: Prise en main des questionnaires
+title: Etapes clés de création d’un questionnaire
+description: Créer votre premier questionnaire avec Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '959'
+ht-degree: 98%
 
 ---
 
 
-# Prise en main des questionnaires{#getting-started-with-surveys}
+# Etapes clés de création d’un questionnaire{#getting-started-with-surveys}
 
 Nous vous proposons ici d&#39;aborder rapidement, en sept étapes clés, la création d&#39;un questionnaire simple, selon le modèle suivant :
 
