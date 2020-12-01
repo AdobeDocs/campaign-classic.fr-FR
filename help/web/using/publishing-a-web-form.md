@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
    > 
    >Cette fonctionnalité est particulièrement utile dans les applications Web mais n&#39;est pas recommandée dans les formulaires publics. L&#39;option de contrôle d&#39;accès sélectionnée doit être &quot;Activer le contrôle d&#39;accès&quot;.
 
-L&#39;option **[!UICONTROL Ignorer le pré-chargement si l&#39;identification est vide]** doit être sélectionnée si vous ne souhaitez pas effectuer de mise à jour des profils. Dans ce cas, chaque profil saisi sera ajouté en base après validation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est diffusé sur un site web.
+Si vous ne souhaitez pas mettre à jour des profils, vous devez sélectionner l’option **[!UICONTROL Ignorer le préchargement si aucun ID]** n’est sélectionné. Dans ce cas, chaque profil entré sera ajouté à la base de données après approbation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est publié sur un site Web.
 
 L&#39;option **[!UICONTROL Chargement automatique des données référencées dans le formulaire]** permet de précharger automatiquement les données correspondant aux champs de saisie et aux champs de fusion du formulaire. En revanche, les données référencées dans les activités **[!UICONTROL Script]** et **[!UICONTROL Test]** ne sont pas concernées. Lorsque cette option n&#39;est pas sélectionnée, vous devez définir les champs à l&#39;aide de l&#39;option **[!UICONTROL Chargement de données additionnelles]**.
 
