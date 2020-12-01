@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ Interaction vous permet de créer et gérer un catalogue d’offres, et de param
 
 ![](assets/Offermgt2.png)
 
-Pour vous familiariser avec la fonctionnalité d’interaction et les terminologies utilisées dans l’interaction de Campaign, regardez cette vidéo : [Aperçu de l’interaction Adobe Campaign](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Pour vous familiariser avec la fonction d&#39;interaction et les terminologies utilisées dans Campaign Interaction, regardez [cette vidéo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
 
 ## Rubriques connexes :
 
