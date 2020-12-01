@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 100%
+source-wordcount: '1662'
+ht-degree: 95%
 
 ---
 
@@ -105,7 +105,7 @@ Vous pouvez exporter et importer les chaînes de caractères afin de les traduir
 
 ### Exporter les fichiers {#exporting-files}
 
-1. Sélectionnez la ou les applications web dont vous souhaitez exporter les chaînes, cliquez avec le bouton droit, puis sélectionnez **[!UICONTROL Actions > Exporter les chaînes pour traduction...]**
+1. Select the Web application(s) whose strings you want to export, right-click, then select **[!UICONTROL Actions > Export strings for translation...]**
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
@@ -454,7 +454,7 @@ Pour ajouter une langue, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
 
-1. Sélectionnez la langue de traduction et saisissez la traduction de la chaîne. Vous pouvez valider la traduction en cochant l&#39;option **[!UICONTROL Traduction validée]**.
+1. Sélectionnez la langue de traduction et saisissez une traduction pour la chaîne. Vous pouvez approuver la traduction en cochant l’option **[!UICONTROL Traduction approuvée]** .
 
    ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
@@ -470,7 +470,7 @@ Pour ajouter une langue, procédez comme suit :
 
 Pour traduire vos applications web dans d&#39;autres langues que celles proposées par défaut (voir [Changer la langue d&#39;affichage des formulaires](#changing-forms-display-language)), vous devez ajouter une nouvelle langue de traduction.
 
-1. Cliquez sur le noeud **[!UICONTROL Administration > Plateforme > Enumérations]** dans l&#39;arborescence Adobe Campaign, et sélectionnez **[!UICONTROL Langues disponibles pour la traduction]**, dans la liste des énumérations. La liste des langues de traduction disponibles apparaît dans la partie inférieure de la fenêtre.
+1. Cliquez sur le noeud **[!UICONTROL Administration > Plateforme > Énumérations]** de l’arborescence Adobe Campaign et sélectionnez **[!UICONTROL Langues disponibles pour traduction]** dans la liste. La liste des traductions disponibles s&#39;affiche dans la partie inférieure de la fenêtre.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
