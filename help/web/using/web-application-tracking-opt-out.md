@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Si vous devez écrire du code JSSP, les API côté serveur suivantes sont dispon
 
 * **NL.ServerWebTracking._displayOptOutBanner() :**
 
-   renvoie la valeur true si la bannière d&#39;opt-out doit s&#39;afficher après que l&#39;administrateur l&#39;est sélectionnée.
+   Renvoie &quot;true&quot; si la bannière d’exclusion doit être affichée après la sélection d’une bannière d’exclusion par l’administrateur.
 
    Ce code est appelé lorsque l&#39;administrateur a déjà choisi d&#39;utiliser la bannière d&#39;opt-out pour le tracking web.
 
