@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '542'
+ht-degree: 93%
 
 ---
 
@@ -35,6 +35,8 @@ Pour utiliser cette option, les tables spécifiques concernées doivent avoir é
 
 Généralement, la sauvegarde d&#39;une cible dans une liste marque la fin d&#39;un workflow. Par défaut, l&#39;activité **[!UICONTROL Mise à jour de liste]** n&#39;a donc pas de transition sortante. Cochez l&#39;option **[!UICONTROL Générer une transition sortante]** pour en ajouter une.
 
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer une liste de destinataires à partir de l&#39;Explorateur en vidéo](#video)
+
 ## Exemple : mise à jour de liste {#example--list-update}
 
 Dans l&#39;exemple suivant, l&#39;activité de mise à jour de liste suit une requête permettant de cibler les hommes de plus de 30 ans vivant en France. Dans un premier temps, la liste sera créée à partir des résultats de la requête. Elle sera mise à jour à chaque lancement ultérieur du workflow. Elle pourra par exemple être utilisée régulièrement dans le cadre de campagnes d&#39;offres promotionnelles ciblées.
@@ -56,8 +58,6 @@ Dans l&#39;exemple suivant, l&#39;activité de mise à jour de liste suit une re
 
    La liste de destinataires correspondante est alors créée ou mise à jour.
 
-Voir à ce propos la vidéo sur la [création d&#39;une liste de destinataires](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html).
-
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
@@ -68,3 +68,11 @@ Identifie la population à sauvegarder dans le groupe.
 ## Paramètres de sortie {#output-parameters}
 
 * groupId: Identifiant du groupe.
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo montre comment créer une liste de destinataires à partir de l&#39;Explorateur.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
