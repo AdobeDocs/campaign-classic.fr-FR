@@ -7,17 +7,17 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 100%
+source-wordcount: '1332'
+ht-degree: 87%
 
 ---
 
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
 
-Vous pouvez inclure dans une page de formulaire des éléments avec lesquels l&#39;utilisateur n&#39;a pas d&#39;interaction : il s&#39;agit d&#39;éléments statiques tels qu&#39;une image, un contenu HTML, une barre horizontale ou lien hypertexte. Ces éléments sont créés à partir du premier bouton de la barre d&#39;outils, depuis le menu **[!UICONTROL Ajouter un élément statique]**.
+Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit de éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés à l’aide du premier bouton de la barre d’outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -36,7 +36,7 @@ Les types de champs disponibles sont les suivants :
 
 Vous pouvez inclure des contenus HTML dans une page de formulaire : liens hypertextes, images, paragraphes formatés, objets vidéo, Flash, etc.
 
-L&#39;éditeur HTML vous permet de saisir directement le contenu à insérer dans la page du formulaire. Pour accéder à cet éditeur, choisissez le menu **[!UICONTROL Eléments statiques > HTML]** .
+L’éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l’éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]** .
 
 Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour y coller un contenu externe. Pour basculer en mode &quot;code source&quot;, cliquez sur la première icône de la barre d&#39;outils :
 
@@ -54,7 +54,7 @@ Pour insérer un champ de la base, utilisez le bouton de personnalisation.
 
 Renseignez les champs de la fenêtre d&#39;édition, comme dans l&#39;exemple ci-dessous :
 
-Pour ajouter un lien hypertexte, choisissez le menu **[!UICONTROL Eléments statiques > Lien]**.
+To add a hypertext link, go to **[!UICONTROL Static elements]** > **[!UICONTROL Link]**.
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
@@ -174,7 +174,7 @@ Vous pouvez réinjecter dans la page suivante le nom de l&#39;utilisateur et la 
 
 >[!NOTE]
 >
->Pour des raisons de sécurité, la valeur saisie dans la formule **`<%=`** est remplacée par des caractères d&#39;échappement. Pour éviter cela, et seulement en cas de besoin, utilisez la syntaxe suivante : **`<%=`**
+>Pour des raisons de sécurité, la valeur saisie dans la **`<%=`** formule est remplacée par des caractères avec échappement.
 
 Dans notre exemple, le nom et le prénom du destinataire sont stockés dans un champ de la base, tandis que la marque de son véhicule est stockée dans une variable. La syntaxe du message personnalisé en page 2 sera la suivante :
 
@@ -210,19 +210,19 @@ Par exemple, vous pouvez créer un champ **Contact** qui permettra d’afficher 
 
    >[!CAUTION]
    >
-   >Si vous saisissez ces caractères dans l&#39;éditeur HTML, les champs **&lt;** et **>** sont remplacés par leurs caractères d&#39;échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l&#39;icône **[!UICONTROL Afficher le code source]** de l&#39;éditeur de texte HTML.
+   >Si vous saisissez ces caractères dans l’éditeur HTML, les **&lt;** et **>** champs sont remplacés par des caractères avec échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l’icône **[!UICONTROL Afficher le code]** source de l’éditeur de texte HTML.
 
 1. Ouvrez l&#39;onglet **[!UICONTROL Prévisualisation]** du formulaire pour visualiser la valeur renseignée dans le HTML :
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-Ce mode de fonctionnement permet de factoriser les textes des formulaires Web et d&#39;en gérer les traductions au travers de l&#39;outil intégré de traduction. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+Ce mode de fonctionnement vous permet de définir le texte des Formulaires web une seule fois et de gérer les traductions à l&#39;aide de l&#39;outil de traduction intégré. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
 
 ## Insérer des images {#inserting-images}
 
 Pour inclure des images dans les formulaires, elles doivent être enregistrées sur un serveur accessible depuis l&#39;extérieur.
 
-Sélectionnez le menu **[!UICONTROL Eléments statiques > Image]**.
+Select the **[!UICONTROL Static elements]** > **[!UICONTROL Image]** menu.
 
 Sélectionner la source de l&#39;image à insérer : elle peut être issue de la bibliothèque de ressources publiques ou stockée sur un serveur externe accessible de l&#39;extérieur.
 
