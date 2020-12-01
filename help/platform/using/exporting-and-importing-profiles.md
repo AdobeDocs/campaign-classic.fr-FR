@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 100%
+source-wordcount: '154'
+ht-degree: 94%
 
 ---
 
@@ -34,8 +34,10 @@ Pour paramétrer et exécuter des imports et des exports de données, accédez �
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## Import de profils{#import-profiles-video}
+## Tutoriel vidéo {#import-profiles-video}
 
 Cette vidéo explique comment importer des profils dans Adobe Campaign pour un import occasionnel.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
+
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
