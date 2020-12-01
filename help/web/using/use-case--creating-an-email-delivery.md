@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: '"Cas pratique : création d''une diffusion email"'
-description: '"Cas pratique : création d''une diffusion email"'
+title: 'Cas d’utilisation : création d’une diffusion de messagerie'
+description: Création d’un cas d’utilisation de diffusion de messagerie
 audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 46aa896929c960abeb501642a5ffbbb56de4802e
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
