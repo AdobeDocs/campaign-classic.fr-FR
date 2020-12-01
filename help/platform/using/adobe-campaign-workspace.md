@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 100%
+source-wordcount: '2232'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Depuis la section centrale de la page d&#39;accueil, vous pouvez utiliser les li
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [Découvrir l&#39;espace de travail Campaign en vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l&#39;espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -389,3 +389,11 @@ Dans les champs qui expriment une durée (par exemple : période de validité d
 * **[!UICONTROL j]** pour les jours.
 
 ![](assets/enter_unit_sample.png)
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo présente l&#39;espace de travail Campaign Classic.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+
+D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
