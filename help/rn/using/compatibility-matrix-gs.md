@@ -6,11 +6,11 @@ description: Matrice de compatibilité Campaign Classic pour la version Gold Sta
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aabab5367ea4a26837fa3dc94a36fbbfa48d59e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -253,7 +253,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SPS 12</p>
+<p>SPS 12 version 1</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
