@@ -6,11 +6,11 @@ description: Cette page répertorie toutes les nouvelles fonctionnalités et mis
 audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3647'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,21 +25,21 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 
 La présentation du modèle de données Campaign a été améliorée et réorganisée. [En savoir plus](../../configuration/using/about-data-model.md)
 
-La configuration du compte externe a été déplacée vers [cette section](../../installation/using/external-accounts.md).
+La configuration des comptes externes a été déplacée vers [cette section](../../installation/using/external-accounts.md).
 
-La documentation de Campaign Federated Data Access (FDA) a été améliorée avec les détails de chaque configuration de base de données externe et déplacée vers [cette section](../../installation/using/about-fda.md).
+La documentation de Campaign Federated Data Access (FDA) a été améliorée. Elle comprend maintenant des détails sur chaque configuration de base de données externe et a été déplacée vers [cette section](../../installation/using/about-fda.md).
 
 [Campaign 20.2.3](../../rn/using/release--20-2.md#release-20-2-3-build-9182) est désormais disponible en version GA (disponibilité générale).
 
-The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
+La section Confidentialité a été déplacée et enrichie de deux nouvelles pages : [Gestion de la confidentialité](../../platform/using/privacy-management.md) et [Gestion des demandes d&#39;accès à des informations personnelles](../../platform/using/privacy-requests.md).
 
 Une note a été ajoutée dans la page de configuration du serveur de midsourcing pour indiquer que le nom interne du compte externe ne doit pas être mis à jour une fois le serveur configuré. [En savoir plus](../../installation/using/mid-sourcing-server.md)
 
-Des informations sur la syntaxe à utiliser lors de la spécification d’un chemin d’accès à un serveur SFTP externe ont été ajoutées. [En savoir plus](../../platform/using/sftp-server-usage.md#external-SFTP-server)
+Des informations ont été ajoutées sur la syntaxe à utiliser lors de la spécification d’un chemin d’accès à un serveur SFTP externe. [En savoir plus](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
-La section Données personnelles et Personas a été mise à jour avec un scénario d’utilisation afin d’illustrer comment les différentes personnes interagissent en matière de confidentialité. [En savoir plus](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+La section Données personnelles et Acteurs impliqués a été mise à jour avec un scénario d’utilisation afin d’illustrer comment les différents acteurs impliqués interagissent en matière de confidentialité. [En savoir plus](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
 
-Une nouvelle section énumérant les questions fréquentes sur la protection des renseignements personnels a été ajoutée. [En savoir plus](../../platform/using/privacy-faq.md)
+Une nouvelle section énumérant les questions fréquentes relatives à la protection des données personnelles a été ajoutée. [En savoir plus](../../platform/using/privacy-faq.md)
 
 ## Octobre 2020 {#oct-2020}
 
