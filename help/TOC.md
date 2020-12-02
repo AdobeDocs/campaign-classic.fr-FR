@@ -58,7 +58,7 @@ ht-degree: 98%
       + [Informations personnelles et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
-      + [FAQ sur la confidentialité](platform/using/privacy-faq.md)
+      + [FAQ relatif à la protection des données personnelles](platform/using/privacy-faq.md)
    + Gérer les profils {#profile-management}
       + [A propos des profils](platform/using/about-profiles.md)
       + [Editer un profil](platform/using/editing-a-profile.md)
@@ -424,7 +424,7 @@ ht-degree: 98%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle     {#monitoring}
+      + Contrôle      {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -463,7 +463,7 @@ ht-degree: 98%
       + [Web Analytics](workflow/using/web-analytics.md)
       + [Marketing distribué](workflow/using/distributed-marketing.md)
       + [Supervision de la délivrabilité](workflow/using/email-deliverability.md)
-      + [Inbox rendering](workflow/using/inbox-rendering.md)
+      + [Rendu de la boîte de réception](workflow/using/inbox-rendering.md)
       + [Interaction](workflow/using/interaction.md)
       + [Contrôle du moteur d’offres](workflow/using/control-of-offer-engine.md)
       + [Message Center (Pilotage)](workflow/using/message-center--control-.md)
