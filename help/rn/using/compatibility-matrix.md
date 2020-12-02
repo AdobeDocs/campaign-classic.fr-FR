@@ -6,11 +6,11 @@ description: Matrice de compatibilité Campaign Classic
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -270,7 +270,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>version 1 SPS 12</p>
+<p>SPS 12 version 1</p>
 </td>
 </tr>
 <tr><td>Hadoop via HiveSQL</td>
