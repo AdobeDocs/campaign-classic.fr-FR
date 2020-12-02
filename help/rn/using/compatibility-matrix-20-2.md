@@ -6,9 +6,9 @@ description: Matrice de compatibilité
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aabab5367ea4a26837fa3dc94a36fbbfa48d59e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
 ht-degree: 100%
 
