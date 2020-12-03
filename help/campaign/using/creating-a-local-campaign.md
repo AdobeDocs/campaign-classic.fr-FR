@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 100%
+source-wordcount: '1696'
+ht-degree: 90%
 
 ---
 
@@ -51,27 +51,27 @@ Dans la fenêtre de l&#39;opération, cliquez sur l&#39;onglet **[!UICONTROL Edi
 
 Dans l&#39;onglet **Marketing Distribué**, vous pouvez choisir le type d&#39;interface Web, les valeurs par défaut et indiquer les paramètres avancés à saisir lors de la commande par les entités locales.
 
-L&#39;interface Web correspond à un formulaire à renseigner par l&#39;entité locale lors de la commande de l&#39;opération.
+L’interface Web correspond à un formulaire à remplir par l’entité locale lors de la commande de la campagne.
 
-Sélectionnez le type d&#39;interface Web à appliquer aux opérations créées à partir du modèle :
+Sélectionnez le type d’interface Web à appliquer aux campagnes créées à partir du modèle :
 
 ![](assets/mkt_distr_1.png)
 
-Quatre types d&#39;interface Web sont disponibles :
+Il existe quatre types d’interfaces Web :
 
 * **[!UICONTROL Par brief]** : l&#39;entité locale doit éditer un brief où elle peut saisir la description des paramètres de l&#39;opération. Une fois la commande validée, l&#39;entité centrale paramètre et exécute l&#39;intégralité de l&#39;opération.
 
    ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL Par formulaire]** : l&#39;entité locale a accès à un formulaire Web où elle peut, par exemple, éditer le contenu, la cible, la taille maximale de la cible, ainsi que les dates de création et d&#39;extraction grâce à des champs de personnalisation, selon le formulaire utilisé. Il est possible pour l&#39;entité locale d&#39;évaluer la cible et de prévisualiser le contenu depuis ce formulaire Web.
+* **[!UICONTROL Par formulaire]**  : L’entité locale a accès à un formulaire Web où, selon le modèle utilisé, elle peut modifier le contenu, la cible, sa taille maximale, ainsi que les dates de création et d’extraction à l’aide de champs de personnalisation. L’Entité locale peut évaluer le contenu de la cible et de la prévisualisation de ce formulaire Web.
 
    ![](assets/mkt_distr_8.png)
 
-   Le formulaire proposé est défini dans une application web qui doit être sélectionnée dans la liste déroulante du champ **[!UICONTROL Interface web]** dans le lien **[!UICONTROL Paramètres avancés de l’opération...]** du modèle. Voir la section [Créer une opération locale par formulaire](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+   Le formulaire proposé est spécifié dans une application Web qui doit être sélectionnée dans une liste déroulante à partir du champ **[!UICONTROL Interface Web]** dans les paramètres de campagne avancés **[!UICONTROL du modèle...]**. Voir la section [Créer une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
    >[!NOTE]
    >
-   >L&#39;application Web utilisée ici est un exemple. Vous devez créer une application Web spécifique pour pouvoir utiliser un formulaire. Voir [API](../../configuration/using/about-web-services.md).
+   >L’application Web utilisée dans cet exemple est un exemple. Vous devez créer une application Web spécifique pour pouvoir utiliser un formulaire. Reportez-vous à [API](../../configuration/using/about-web-services.md).
 
    ![](assets/mkt_distr_7.png)
 
@@ -240,7 +240,7 @@ Pour commander une opération :
 
    >[!NOTE]
    >
-   >Les applications Web sont présentées dans le guide [Fonctionnalités Web](../../web/using/about-web-applications.md) .
+   >Les Applications web sont détaillées dans [cette section](../../web/using/about-web-applications.md).
 
 1. Renseignez les informations utiles dans la première page (libellé de la commande et commentaire) et cliquez sur **[!UICONTROL Suivant]**.
 
@@ -310,7 +310,7 @@ La commande peut également être validée à partir de la console, depuis la vu
 >
 >L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
-#### Créer une campagne      {#creating-a-campaign}
+#### Créer une campagne       {#creating-a-campaign}
 
 Lorsque la commande d&#39;une opération est validée, celle-ci peut être paramétrée et exécutée par l&#39;entité locale.
 
