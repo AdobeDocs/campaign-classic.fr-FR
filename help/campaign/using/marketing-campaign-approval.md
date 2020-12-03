@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '2645'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -176,7 +176,7 @@ Grâce à Campaign, vous pouvez mettre en place des processus de validation des 
 
 Pour les diffusions courrier, les opérateurs Adobe Campaign peuvent visualiser le fichier d&#39;extraction avant l&#39;envoi au routeur et, au besoin, modifier le format et relancer l&#39;extraction. Voir [Valider un fichier d’extraction](#approving-an-extraction-file).
 
-Pour chaque campagne, vous pouvez approuver la cible de diffusion, le contenu (voir [Valider le contenu](#approving-content)) et les coûts. Les opérateurs Adobe Campaign en charge de la validation peuvent être avertis par email et accepter ou refuser la validation depuis la console ou via une connexion Web. Voir [Valider les traitements](#approving-processes).
+Pour chaque campagne, vous pouvez approuver la cible de diffusion, le contenu (voir [Valider le contenu](#approving-content)) et les coûts. Les opérateurs Adobe Campaign en charge de l&#39;approbation peuvent être avertis par e-mail et peuvent accepter ou refuser l&#39;approbation de la console ou via une connexion web. Voir [Valider les traitements](#approving-processes).
 
 Une fois ces phases de validation achevées, la diffusion peut être lancée. Voir [Démarrer une diffusion](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery).
 
@@ -193,8 +193,9 @@ Le statut de l&#39;opération est alors **[!UICONTROL A valider]**.
 >[!NOTE]
 >
 >* Pour sélectionner les processus qui seront soumis à une validation, modifiez le modèle de campagne. Voir à ce sujet la section [Modèles de campagne](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
->
->* Voir aussi la section sur le [Processus de validation](#approval-process).
+   >
+   >
+* Voir aussi la section sur le [Processus de validation](#approval-process).
 
 
 
@@ -265,6 +266,7 @@ Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Ed
 >* Lorsqu&#39;une liste de validants est définie, le traitement est validé dès que l&#39;un des opérateurs de la liste a donné son accord. Le lien de validation correspondant n&#39;est alors plus proposé dans le tableau de bord. Lorsque l&#39;envoi de notifications est activé et qu&#39;un autre validant clique sur le lien de validation du mail de notification, il est alors averti qu&#39;un autre opérateur a déjà validé le traitement.
 >* Vous pouvez définir un planning de validation pour l&#39;opération, dans la section inférieure de la fenêtre d&#39;édition des validants. Par défaut, les validants ont trois jours à partir de la date de soumission pour valider les traitements. Il est possible de définir un rappel qui sera automatiquement envoyé aux opérateurs concernés avant l&#39;expiration du délai de validation.
 >* Vous pouvez ajouter des rappels depuis cette section.
+
 >
 
 
