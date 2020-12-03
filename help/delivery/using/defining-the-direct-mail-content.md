@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Ce lien permet d&#39;accéder à l&#39;assistant d&#39;extraction afin de défin
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Vous pouvez insérer une URL personnalisée dans le fichier d&#39;extraction. Voir à ce sujet le guide [Fonctionnalités Web](../../web/using/publishing-a-web-form.md).
+Il est possible d’insérer une URL personnalisée dans le fichier d’extraction. Voir à ce propos [cette section](../../web/using/publishing-a-web-form.md).
 
 >[!NOTE]
 >
