@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Pour créer une opération collaborative par formulaire, le modèle **[!UICONTRO
 
 Dans l&#39;onglet **[!UICONTROL Edition]**, cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** pour accéder à l&#39;onglet **Marketing Distribué**.
 
-Sélectionnez le type d&#39;interface Web **Par formulaire**. Ce type d&#39;interface permet la création de champs de personnalisation qui seront utilisés par les entités locales lors de la commande de l&#39;opération. Voir [Créer une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
+Sélectionnez l&#39;interface Web **Par formulaire**. Ce type d’interface vous permet de créer des champs de personnalisation qui seront utilisés par les entités locales lors de la commande d’une campagne. Voir [Créer une campagne locale (par formulaire)](../../campaign/using/examples.md#creating-a-local-campaign--by-form-).
 
 Enregistrez votre opération. Vous pouvez désormais l&#39;utiliser depuis la vue **Kits d&#39;opération** de l&#39;univers **Campagne**, en cliquant sur le bouton **[!UICONTROL Créer]**.
 
