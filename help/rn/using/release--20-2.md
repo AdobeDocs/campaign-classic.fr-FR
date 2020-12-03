@@ -6,11 +6,11 @@ description: Version 20.2
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '2183'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9cf995fe58b6afd89ee54724c97681f39994eba9
+workflow-type: tm+mt
+source-wordcount: '2206'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ _22 juillet 2020_
 * Après le passage au [nouveau mécanisme d’identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
 * Correction d’une vulnérabilité XSS potentielle dans le contenu d’une diffusion. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/orange_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
@@ -156,6 +156,8 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](https://helpx.adob
 * Les certificats des applications mobiles iOS utilisant le connecteur HTTP2 iOS sont maintenant validés avant d’envoyer des notifications push, ce qui empêche les échecs de diffusions en raison du dépassement des dates d’expiration de ces certificats.
 
 * La gestion des connexions au proxy HTTP a été améliorée. [En savoir plus](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+
+* Nouvelle option dans les activités de flux de travaux **[!UICONTROL Code JavaScript]** et **[!UICONTROL Code JavaScript avancé]** pour arrêter l’exécution après une limite. La valeur par défaut est de 1 heure. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#javascript-code).
 
 **Autres changements**
 
