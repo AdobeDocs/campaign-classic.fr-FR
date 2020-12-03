@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -76,5 +76,5 @@ Par exemple :
 * Les paramètres par défaut de certaines activités de workflow référencent la table des destinataires standards (**[!UICONTROL nms:recipient]**) : ces paramètres doivent être modifiés dans le cadre de l&#39;utilisation d&#39;une table de destinataires externe. Voir la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
 * Le bloc de personnalisation du **[!UICONTROL Lien de désinscription]** standard doit être adapté.
 * Le mapping de ciblage des modèles de diffusion standard doit être modifié.
-* Les formulaires v4 ne sont pas compatibles avec l&#39;utilisation d&#39;une table de destinataires externe : vous devez utiliser les applications Web.
+* Les formulaires V4 ne sont pas compatibles avec un tableau de destinataires externe : vous devez utiliser des applications web.
 
