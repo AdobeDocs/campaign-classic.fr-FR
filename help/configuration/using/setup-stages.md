@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Le principe de base repose sur l&#39;ajout des balises de tracking Web dans cert
 Il existe deux types de balises :
 
 * **WEB** : cette balise permet de savoir si la page a été visitée,
-* **TRANSACTION** : fonctionne comme une balise WEB, mais avec la possibilité d&#39;ajouter des informations relatives, par exemple, au chiffre d&#39;affaires généré (montant de la transaction, nombre d&#39;articles achetés, etc.).
+* **TRANSACTION** : fonctionne comme une balise web, mais avec la possibilité d’ajouter des informations sur le volume d’activité généré, par exemple (montant de la transaction, nombre d’articles achetés, etc.).
 
 Les étapes pour mettre en place ces balises sont les suivantes:
 
