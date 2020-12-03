@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 100%
 
 ## Créer une campagne locale (par formulaire) {#creating-a-local-campaign--by-form-}
 
-Le type d&#39;interface Web **par formulaire** implique l&#39;utilisation d&#39;une **application Web**. Cette application Web peut contenir toute sorte d&#39;éléments définis personnalisés, selon le paramétrage. Par exemple, vous pouvez proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des APIs dédiées.
+L&#39;interface Web de type **Par formulaire** implique l&#39;utilisation d&#39;une **application Web**. Selon sa configuration, cette application Web peut contenir n’importe quel type d’éléments personnalisés définis. Par exemple, vous pouvez suggérer des liens pour évaluer la cible, le budget, le contenu, etc., par le biais d’API dédiées.
 
 >[!NOTE]
 >
 >Les APIs sont présentées dans un document dédié, accessible selon votre contrat. Voir [API](../../configuration/using/about-web-services.md).
 >
->L&#39;application Web utilisée dans cet exemple n&#39;est pas une application Web native d&#39;Adobe Campaign. Pour utiliser un formulaire dans une opération, vous devez créer l&#39;application Web dédiée.
+>L&#39;Application web utilisée dans cet exemple n&#39;est pas une application Web qui est prête à l&#39;emploi avec Adobe Campaign. Pour utiliser un formulaire dans une campagne, vous devez créer l’application Web dédiée.
 
-Lors de la création du modèle d&#39;opération, cliquez sur l&#39;icône **[!UICONTROL Loupe]** de l&#39;option **[!UICONTROL Interface web]** du lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** pour accéder aux détails de l&#39;application Web.
+Lors de la création du modèle de campagne, cliquez sur l&#39;icône **[!UICONTROL Zoom]** dans l&#39;interface **[!UICONTROL Web]** de l&#39;option **[!UICONTROL Paramètres avancés de la campagne...]** lien permettant d’accéder aux détails de l’application Web.
 
 ![](assets/mkg_dist_local_op_form1.png)
 
@@ -106,7 +106,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_target_valid8.png)
 
-1. En cliquant sur le lien **[!UICONTROL Accéder à votre liste de contacts et valider le ciblage]**, l&#39;entité locale a accès, depuis un navigateur Web, à la liste de ses clients sélectionnés pour l&#39;opération.
+1. En cliquant sur le lien **[!UICONTROL Accéder à votre liste de contact et approuver le ciblage]**, l&#39;entité locale a accès (via un navigateur Web) à la liste des clients sélectionnés pour la campagne.
 
    ![](assets/mkg_dist_use_case_target_valid9.png)
 
