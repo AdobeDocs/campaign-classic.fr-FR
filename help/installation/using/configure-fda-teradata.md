@@ -6,11 +6,11 @@ description: Découvrez comment configurer l'accès à Teradata dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1639'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 76%
 
 Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Teradata.
 
-1. Installation et configuration des pilotes [Teradata](#teradata-config)
+1. Installation et configuration des [pilotes Teradata](#teradata-config)
 1. Configuration du [compte externe](#teradata-external) Teradata dans Campaign
-1. Configuration [](#teradata-additional-configurations) supplémentaire pour Teradata et Campaign Server
+1. [Configuration supplémentaire](#teradata-additional-configurations) pour Teradata et le serveur Campaign
 
-## Configuration de teradata {#teradata-config}
+## Configuration de Teradata {#teradata-config}
 
 Vous devez installer des pilotes pour que Teradata puisse établir une connexion à Campaign.
 
@@ -68,14 +68,14 @@ Vous devez installer des pilotes pour que Teradata puisse établir une connexion
 
 >[!NOTE]
 >
->La connexion à une base de données externe Teradata dans FDA nécessite des étapes de configuration supplémentaires sur le serveur Adobe Campaign. [En savoir plus](#teradata-additional-configurations).
+>La connexion à une base de données externe Teradata dans FDA nécessite certaines étapes de configuration supplémentaires sur le serveur Adobe Campaign. [En savoir plus](#teradata-additional-configurations).
 
 
 ## Compte externe Teradata{#teradata-external}
 
 Le compte externe Teradata vous permet de connecter votre instance Campaign à votre base de données externe Teradata.
 
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. Dans l’**[!UICONTROL Explorateur Campaign]**, cliquez sur **[!UICONTROL Administration]** / **[!UICONTROL Plateforme]** / **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**, puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL Type]**.
 
@@ -83,19 +83,19 @@ Le compte externe Teradata vous permet de connecter votre instance Campaign à v
 
 1. Pour configurer le compte externe **[!UICONTROL Teradata]**, vous devez indiquer les informations suivantes :
 
-   * **[!UICONTROL Type]**: Sélectionnez le type **[!UICONTROL Teradata]** .
+   * **[!UICONTROL Type]** : Choisissez le type **[!UICONTROL Teradata]**.
 
-   * **[!UICONTROL Serveur]**: URL ou nom de votre serveur Teradata
+   * **[!UICONTROL Serveur]** : URL ou nom de votre serveur Teradata
 
-   * **[!UICONTROL Compte]**: Nom du compte utilisé pour accéder à la base de données Teradata
+   * **[!UICONTROL Compte]** : Nom du compte utilisé pour accéder à la base de données Teradata
 
-   * **[!UICONTROL Mot de passe]**: Mot de passe utilisé pour la connexion à la base de données Teradata
+   * **[!UICONTROL Mot de passe]** : Mot de passe utilisé pour se connecter à la base de données Teradata
 
-   * **[!UICONTROL Base de données]**: Nom de la base de données (facultatif)
+   * **[!UICONTROL Base de données]** : nom de la base de données (facultatif)
 
-   * **[!UICONTROL Options]**: Options à transmettre via Teradata. Utilisez le format suivant : &#39;parameter=value&#39;. Utilisez une semi-colonne comme séparateur entre les valeurs.
+   * **[!UICONTROL Options]** : Options à transmettre à l’aide de Teradata. Utilisez le format suivant : &#39;parameter=value&#39;. Utilisez un point-virgule comme séparateur entre les valeurs.
 
-   * **[!UICONTROL Fuseau horaire]**: Fuseau horaire défini dans Teradata. [En savoir plus](#timezone)
+   * **[!UICONTROL Fuseau horaire]** : Fuseau horaire défini dans Teradata. [En savoir plus](#timezone)
 
 ### Query banding
 
@@ -109,11 +109,11 @@ Lorsque cette option est configurée, chaque fois qu&#39;un utilisateur Campaign
 >
 >Pour plus d’informations sur les **[!UICONTROL Tranches de requête]**, consultez la [documentation de Teradata](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
 
-Pour configurer la bande de Requêtes, procédez comme suit :
+Pour configurer le query banding, procédez comme suit :
 
-1. Utilisez l’option **[!UICONTROL Par défaut]** pour entrer une bande de requête par défaut qui sera utilisée si un utilisateur n’a pas de bande de requête associée. Si ce champ est vide, les utilisateurs sans bande de requête ne pourront pas utiliser Teradata.
+1. Utilisez l’option **[!UICONTROL Par défaut]** pour saisir un query band par défaut qui sera utilisé si un utilisateur n’a pas de query band associé. Si ce champ est vide, les utilisateurs sans query band ne pourront pas utiliser Teradata.
 
-1. Utilisez le champ **[!UICONTROL Utilisateurs]** pour spécifier une bande de requête pour chaque utilisateur. Vous pouvez ajouter autant de paires clé/valeur que nécessaire, par exemple priority=1;work=high. Si aucune bande de requête n’est affectée à l’utilisateur, le champ **[!UICONTROL Par défaut]** est appliqué.
+1. Utilisez le champ **[!UICONTROL Utilisateurs]** pour spécifier un query band pour chaque utilisateur. Vous pouvez ajouter autant de paires clé/valeur que nécessaire, par exemple priority=1;workload=high. Si aucun query band n’est affecté à l’utilisateur, le champ **[!UICONTROL Par défaut]** est appliqué.
 
 1. Cochez la case **[!UICONTROL Actif]** pour activer cette fonction.
 
@@ -123,9 +123,9 @@ Si l’erreur suivante s’affiche lors du test de la connexion **TIM-030008 Dat
 
 L’erreur **ODB-240000 ODBC : nom de source de données [Microsoft][ODBC Driver Manager] introuvable et aucun pilote par défaut spécifié.** survient avec Windows si vous utilisez un pilote 16.X. Adobe Campaign s’attend à ce que les données Teradata soient nommées ’{teradata}’ dans odbcinst.ini.
 
-* Depuis Campaign 18.10, vous pouvez ajouter ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; dans les options du compte externe. Le numéro de version peut changer, le nom exact peut être trouvé en exécutant odbcad32.exe et en accédant à l’onglet Pilotes.
+* À compter de Campaign 18.10, vous pouvez ajouter ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; dans les options du compte externe. Le numéro de version peut changer, le nom exact peut être trouvé en exécutant odbcad32.exe et en accédant à l’onglet Pilotes.
 
-* Si vous utilisez une ancienne version de Campaign, vous devrez copier la section Teradata de odbcinst.ini créée par l&#39;installation du pilote dans une nouvelle section appelée Teradata. Regedit peut être utilisé dans ce cas. If your base is in latin1, you will have to add **APICharSize=1** in the options.
+* Si vous utilisez une ancienne version de Campaign, vous devrez copier la section Teradata d’odbcinst.ini créée par l&#39;installation du pilote dans une nouvelle section appelée Teradata. Regedit peut être utilisé dans ce cas. Si votre base est en latin1, vous devrez ajouter **APICharSize=1** dans les options.
 
 ## Paramétrages additionnels {#teradata-additional-configurations}
 
@@ -152,7 +152,7 @@ Customers with a Latin-1 Teradata database migrating to a recent Campaign Classi
 
 ### Configuration utilisateur {#user-configuration}
 
-Les droits suivants sont requis sur la base de données externe : créer/déposer/exécuter des procédures personnalisées, créer/déposer/insérer/sélectionner des tables. Vous devrez peut-être également créer des fonctions de mode utilisateur si vous souhaitez utiliser les fonctions md5 et sha2 sur votre instance d’Adobe Campaign.
+Les droits suivants sont obligatoires sur la base de données externe : créer/déposer/exécuter des procédures personnalisées, créer/déposer/insérer/sélectionner des tables. Vous devrez peut-être également créer des fonctions de mode utilisateur si vous souhaitez utiliser les fonctions md5 et sha2 sur votre instance d’Adobe Campaign.
 
 Assurez-vous de configurer le fuseau horaire approprié. Il doit correspondre à ce qui sera défini dans le compte externe créé dans l’instance d’Adobe Campaign.
 
