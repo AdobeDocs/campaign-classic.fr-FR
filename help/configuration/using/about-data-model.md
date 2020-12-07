@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Commencer avec le modèle de données Campaign Classic
+title: Prise en main du modèle de données de Campaign Classic
 description: Découvrez comment étendre le modèle de données Campaign, modifier des schémas, utiliser des API, et plus encore
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
 # Prise en main du modèle de données de Campaign {#about-data-model}
 
-Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. Les principaux tableaux et concepts sont répertoriés dans cette page.
+Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. Les tables et concepts principaux sont répertoriés dans cette page.
 
 ## Présentation {#data-model-overview}
 
@@ -83,7 +83,7 @@ Pour plus d’informations sur la configuration des schémas d’extension pour 
 
 ## Utilisation d&#39;une table de destinataires par défaut {#custom-recipient-table}
 
-When designing your Adobe Campaign data model, you can use the [out-of-the-box Recipient table](#default-recipient-table), or decide to create a [custom recipient table](../../configuration/using/about-custom-recipient-table.md) table to store you marketing profiles.
+Pour concevoir votre modèle de données Adobe Campaign, vous pouvez utiliser la [table des destinataires d’usine](#default-recipient-table) ou décider de créer une [table des destinataires personnalisée](../../configuration/using/about-custom-recipient-table.md) pour stocker vos profils marketing.
 
 En effet, si votre modèle de données ne correspond pas à une structure centrée sur les destinataires, vous pouvez configurer d&#39;autres tables pour créer une dimension de ciblage dans Adobe Campaign. Cette approche peut, par exemple, être pertinente si vous devez cibler des ménages, des comptes (comme les téléphones portables) et des entreprises/des sites plutôt que des destinataires.
 
@@ -95,13 +95,13 @@ Les principes et les procédures applicables pour utiliser une table de destinat
 
 Les avantages d&#39;une table de destinataires par défaut sont les suivants :
 
-* **Modèle** de données flexible : le tableau de Destinataire prêt à l&#39;emploi est inutile si vous n&#39;avez pas besoin de la plupart des champs de table du Destinataire ou si le modèle de données n&#39;est pas centré sur le destinataire.
+* **Modèle de données flexible** - La table des destinataires d’usine est sans intérêt si vous n&#39;avez pas besoin de la plupart de ses champs ou si le modèle de données n’est pas centré sur les destinataires.
 
-* **Évolutivité** - Les gros volumes nécessitent un tableau rationalisé avec peu de champs pour une conception efficace. La table des destinataires prête à l&#39;emploi comporterait trop de champs inutiles, ce qui pourrait avoir un impact sur les performances et réduire l&#39;efficacité.
+* **Évolutivité** - Pour une conception efficace, les gros volumes nécessitent une table rationalisée comportant peu de champs. La table des destinataires prête à l&#39;emploi comporterait trop de champs inutiles, ce qui pourrait avoir un impact sur les performances et réduire l&#39;efficacité.
 
-* **Emplacement** des données : si les données résident dans une base de données marketing externe existante, il peut s’avérer nécessaire d’utiliser la table de Destinataires prête à l’emploi. Dans ce cas, il est plus simple de créer une nouvelle structure basée sur celle qui existe.
+* **Emplacement des données** - Si les données se trouvent dans une base de données marketing externe existante, l’utilisation de la table des destinataires d’usine pourrait nécessiter un effort trop important. Dans ce cas, il est plus simple de créer une nouvelle structure basée sur celle qui existe.
 
-* **Migration** aisée - Aucune maintenance n&#39;est nécessaire pour vérifier que toutes les extensions sont toujours valides lors de la mise à niveau.
+* **Migration simple** - Aucune maintenance n’est nécessaire pour vérifier que toutes les extensions sont encore valides lors d’une mise à niveau.
 
 >[!IMPORTANT]
 >
@@ -109,15 +109,15 @@ Les avantages d&#39;une table de destinataires par défaut sont les suivants :
 
 ## Rubriques connexes :
 
-En savoir plus sur le modèle de données Campaign dans les sections suivantes :
+En savoir plus sur le modèle de données Campaign dans les sections suivantes :
 
-* **Description des tableaux** principaux - Pour plus d&#39;informations sur la description du modèle de données par défaut du Campaign Classic, consultez [cette section](../../configuration/using/data-model-description.md).
+* **Description des tables principales** - Pour plus d’informations sur la description du modèle de données par défaut de Campaign Classic, consultez [cette section](../../configuration/using/data-model-description.md).
 
-* **Description complète de chaque tableau** - Pour accéder à la description complète de chaque tableau, sélectionnez **[!UICONTROL Admin > Configuration > schémas]** de données, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]** .
+* **Description complète de chaque table** - Pour obtenir la description de chaque table, accédez à&#x200B;**[!UICONTROL h>Admin > Configuration > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet  **[!UICONTROL Documentation]**.
 
    ![](assets/data-model_documentation-tab.png)
 
 
-* **Schémas** Campaign - La structure physique et logique des données transportées dans l’application est décrite dans le langage XML. Il obéit à une grammaire spécifique à l&#39;Adobe Campaign, appelée un schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
+* **Schémas Campaign** - La structure physique et logique des données transportées dans l’application est décrite dans le langage XML. Celui-ci obéit à une grammaire spécifique à Adobe Campaign, appelée un schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
-* **Meilleures pratiques** relatives aux modèles de données - Découvrez l&#39;architecture des modèles de données Campaign et les meilleures pratiques connexes, dans [cette section](../../configuration/using/data-model-best-practices.md#data-model-architecture).
+* **Bonnes pratiques relatives aux modèles de données** - Découvrez l&#39;architecture des modèles de données Campaign et les bonnes pratiques connexes, dans [cette section](../../configuration/using/data-model-best-practices.md#data-model-architecture).
