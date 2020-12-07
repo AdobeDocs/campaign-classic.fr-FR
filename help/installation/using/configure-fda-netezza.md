@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Configurer l’accès à Netezza
-description: Découvrez comment configurer l'accès à Netezza dans FDA
+description: Découvrez comment configurer l’accès à Netezza dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 80%
 
 Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Netezza.
 
-1. Installation et configuration des pilotes [Netezza](#netezza-config)
+1. Installation et configuration des [pilotes Netezza](#netezza-config)
 1. Configuration du [compte externe](#netezza-external) Netezza dans Campaign
 
-## Configuration de netezza {#netezza-config}
+## Configuration de Netezza {#netezza-config}
 
 La connexion à une base de données externe Netezza en FDA requiert les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign :
 
@@ -69,11 +69,11 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
    * **NZ_ODBC_INI_PATH** : emplacement du fichier odbc.ini. Netezza requiert également cette seconde variable pour l’utilisation du fichier odbc.ini.
 
-## Compte externe netezza {#netezza-external}
+## Compte externe Netezza {#netezza-external}
 
-Le compte externe Netezza vous permet de connecter votre instance Campaign à votre base de données externe Netezza.
+Le compte externe Netezza vous permet de connecter l’instance Campaign à la base de données externe Netezza.
 
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Dans l’**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**, puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL Type]**.
 
