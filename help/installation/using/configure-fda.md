@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Configuration des connecteurs de FDA
-description: Découvrez les étapes de configuration de la FDA
+description: Découvrir les étapes de configuration de FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ En règle générale, il est nécessaire d’installer la couche cliente corresp
 
 ## Etapes de configuration {#fda-configuration-steps}
 
-Pour configurer l&#39;accès à une base de données externe avec FDA, les étapes de configuration sont les suivantes :
+Pour configurer l’accès à une base de données externe avec FDA, les étapes de configuration sont les suivantes :
 
 1. installer les pilotes qui correspondent à votre base de données sur le serveur marketing Adobe Campaign. Les pilotes sont répertoriés dans les pages spécifiques à la base de données [répertoriées ci-dessous](#fda-specific-configuration).
 1. [créer et paramétrer un compte externe](../../installation/using/connecting-to-database.md) permettant d’établir la connexion entre Adobe Campaign et la base externe. Pour plus d&#39;informations sur les comptes externes de Campaign, consultez [cette page](../../installation/using/external-accounts.md).
 1. [créer le schéma](../../installation/using/creating-data-schema.md) de la base de données externe dans Adobe Campaign. Il est ainsi possible de reconnaître la structure des données de la base de données externe.
-1. Si nécessaire, [créez un mapping de ciblage](../../installation/using/defining-data-mapping.md) à partir du schéma créé précédemment. Ceci est nécessaire si les destinataires de vos diffusions proviennent de la base de données externe. Cette mise en oeuvre s’accompagne de limitations liées à la personnalisation des messages.
+1. Si nécessaire, [créez un mapping de ciblage](../../installation/using/defining-data-mapping.md) à partir du schéma créé précédemment. Ceci est nécessaire si les destinataires de vos diffusions proviennent de la base de données externe. Cette implémentation s’accompagne de limitations liées à la personnalisation des messages.
 
 Une fois le schéma de données créé, les données peuvent être traitées dans Adobe Campaign. Voir à ce propos [cette section](../../workflow/using/accessing-an-external-database--fda-.md).
 
