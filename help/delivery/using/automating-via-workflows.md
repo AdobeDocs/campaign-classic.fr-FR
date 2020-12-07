@@ -6,11 +6,11 @@ description: Automatiser via les workflows
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -270,7 +270,7 @@ On ajoute dans le formulaire de saisie un contrôle d&#39;édition de mise à jo
 </input>
 ```
 
-La zone d&#39;édition vous permet de saisir le nom du fichier à récupérer. L’URL est construite en fonction de ce nom, par exemple : https://myserver.adobe.com/incomin/data.xml
+La zone d’édition vous permet de saisir le nom du fichier à récupérer. L’URL est construite en fonction de ce nom, par exemple : https://myserver.adobe.com/incomin/data.xml
 
 Le format des données à récupérer est le même que dans l&#39;exemple 1 de l&#39;automatisation des workflows. Nous utiliserons la feuille de style &quot;cus:livre-workflow.xsl&quot; vue dans cet exemple.
 
