@@ -17,7 +17,7 @@ ht-degree: 75%
 
 # Diffusion (au fil de l&#39;eau){#continuous-delivery}
 
-Une action de type diffusion **** continue vous permet d’ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion vous évite d’avoir à créer une diffusion à chaque fois : Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
+Une action de type **diffusion continue** vous permet d&#39;ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion vous évite d’avoir à créer une diffusion à chaque fois : Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#continuous-delivery-video)
 
@@ -43,7 +43,7 @@ Uniquement lorsque l&#39;action **[!UICONTROL Spécifiés par l&#39;événement 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
 Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
@@ -66,4 +66,4 @@ Cette vidéo montre comment configurer une diffusion (au fil de l’eau) avec un
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
