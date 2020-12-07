@@ -6,11 +6,11 @@ description: 'Configuration '
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,12 +157,12 @@ La déclaration de type de dossier doit être saisie sous un élément **`<model
 
 Les attributs **name** et **label** renseignent le nom interne de l&#39;élément et le libellé affiché dans le menu **[!UICONTROL Ajouter un dossier]**.
 
-L’élément **`<nodemodel>`**  contient la description du type de dossier avec les propriétés suivantes :
+L’élément **`<nodemodel>`** contient la description du type de dossier avec les propriétés suivantes :
 
 * **name** : nom interne.
 * **label** : libellé utilisé dans le menu **[!UICONTROL Ajouter un dossier]** et comme libellé par défaut lors de l&#39;insertion d&#39;un dossier.
 * **img** : image par défaut à l&#39;insertion du dossier.
-* **hiddenCommands**: liste des commandes (séparées par une virgule) à masquer. Valeurs possibles : &quot;adbnew&quot;, &quot;adbsave&quot;, &quot;adbcancel&quot; et &quot;adbdup&quot;.
+* **hiddenCommands** : liste des commandes (séparées par une virgule) à masquer. Valeurs possibles : &quot;adbnew&quot;, &quot;adbsave&quot;, &quot;adbcancel&quot; et &quot;adbdup&quot;.
 * **newFolderShortCuts** : liste des raccourcis sur les modèles (**`<nodemodel>`** séparés par une virgule) en création de dossier.
 * **insertRight**, **editRight**, **deleteRight** : droits pour l&#39;insertion, l&#39;édition et la suppression des dossiers.
 
