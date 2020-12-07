@@ -77,7 +77,7 @@ La gestion de la fatigue contrôle la fréquence et le nombre des messages afin 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
 **Rubrique connexe**
 
