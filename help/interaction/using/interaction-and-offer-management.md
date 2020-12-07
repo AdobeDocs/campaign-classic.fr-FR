@@ -27,7 +27,7 @@ Interaction vous permet de créer et gérer un catalogue d’offres, et de param
 
 ![](assets/Offermgt2.png)
 
-![](assets/do-not-localize/how-to-video.png) Pour vous familiariser avec la fonction d&#39;interaction et les terminologies utilisées dans Campaign Interaction, regardez [cette vidéo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Pour vous familiariser avec la fonction d&#39;interaction et les terminologies utilisées dans Campaign Interaction, regardez  [cette vidéo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
 
 ## Rubriques connexes :
 
