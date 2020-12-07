@@ -6,11 +6,11 @@ description: Paramétrage de SpamAssassin
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
 ### Installation de SpamAssassin {#installing-spamassassin}
 
-1. Connect to the [Software distribution portal](https://experience.adobe.com/downloads) using your user credentials. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+1. Connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/downloads) à l’aide de vos informations d’identification d’utilisateur. En savoir plus sur la distribution de logiciels sur [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 1. Téléchargez le fichier **Neolane Spam Assassin (Windows Installation) (2.0)** (neolane_spamassassin.2.0.zip).
 1. Copiez ce fichier sur le serveur Adobe Campaign puis décompressez-le.
 
