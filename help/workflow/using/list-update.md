@@ -75,4 +75,4 @@ Cette vidéo montre comment créer une liste de destinataires à partir de l&#39
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
