@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Configurer l’accès à Sybase IQ
-description: Découvrez comment configurer l'accès à Sybase IQ dans FDA
+description: Découvrez comment configurer l’accès à Sybase IQ dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 67%
 
 Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Sybase IQ.
 
-1. Configuration de la base de données [Sybase IQ](#configuring-sybase)
+1. Configuration de la [base de données Sybase IQ](#configuring-sybase)
 1. Configuration du [compte externe](#sybase-external) Sybase IQ dans Campaign
 
-## Configuration de sybase IQ {#configuring-sybase}
+## Configuration de Sybase IQ {#configuring-sybase}
 
-La connexion à une base de données externe Sybase IQ en FDA nécessite des configurations supplémentaires ci-dessous sur le serveur Adobe Campaign.
+La connexion à une base de données externe Sybase IQ dans FDA nécessite les paramétrages additionnels ci-dessous sur le serveur Adobe Campaign.
 
 >[!NOTE]
 >
->Before starting, make sure the **unixodbc** package is on the server.
+>Vérifiez que le package **unixodbc** se trouve sur le serveur.
 
 1. Installez **iq_odbc**. Une erreur peut se produire à la fin de l’installation. Celle-ci peut être ignorée.
 
@@ -66,11 +66,11 @@ La connexion à une base de données externe Sybase IQ en FDA nécessite des con
    * Si vous utilisez un fichier customer.sh pour déclarer le chemin d’accès : ajoutez le chemin d’accès /opt/sybase/IQ-16_0/lib64 pour la variable LD_LIBRARY_PATH.
    * Sinon, utilisez une commande Unix.
 
-## compte externe sybase IQ {#sybase-external}
+## Compte externe Sybase IQ {#sybase-external}
 
-Le compte externe Sybase IQ vous permet de connecter votre instance Campaign à votre base de données externe Sybase IQ.
+Le compte externe Sybase IQ permet de connecter votre instance Campaign à la base de données externe Sybase IQ.
 
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Dans l’**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**, puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL Type]**.
 
