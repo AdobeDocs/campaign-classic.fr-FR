@@ -2,20 +2,20 @@
 solution: Campaign Classic
 product: campaign
 title: À propos de la délivrabilité dans Campaign 
-description: Apprendre les meilleures pratiques en matière de délivrabilité
+description: Découvrir les bonnes pratiques en matière de délivrabilité
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# A propos de la délivrabilité{#about-deliverability}
+# À propos de la délivrabilité{#about-deliverability}
 
 **La délivrabilité consiste à mesurer le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam.**
 
