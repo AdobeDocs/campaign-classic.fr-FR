@@ -10,24 +10,24 @@ translation-type: tm+mt
 source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Gestion de la confidentialité {#privacy-management}
 
-Adobe Campaign offre un ensemble d&#39;outils pour vous aider à vous conformer aux [règlements sur la protection des renseignements personnels](#privacy-management-regulations) (y compris le RGPD, l&#39;ACCP, le PDPA, le LGPD).
+Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer aux [règlements relatifs à la confidentialité](#privacy-management-regulations) (notamment les règlements RGPD, CCPA, PDPA et LGPD).
 
-Voici les cinq principales capacités offertes par l&#39;Adobe Campaign pour s&#39;assurer que le RMPE et d&#39;autres règlements sur la protection des renseignements personnels sont prêts :
+Voici les cinq principales fonctionnalités que propose Adobe Campaign pour s&#39;assurer du niveau de préparation à l&#39;application du RGPD et d&#39;autres règlements sur la protection des données personnelles :
 
 ![](assets/privacy-gdpr-use-cases.png)
 
 * **Droit d&#39;accès**
 
-* **Droit de supprimer**
+* **Droit de suppression**
 
-Pour plus d&#39;informations à ce sujet, voir [Droit d&#39;accès et droit à l&#39;oubli](#right-access-forgotten).
+Pour plus d&#39;informations à ce sujet, voir [Droit d&#39;accès et Droit à l&#39;oubli](#right-access-forgotten).
 
 * **Gestion du consentement**
 
@@ -35,7 +35,7 @@ Pour plus d&#39;informations à ce sujet, voir [Droit d&#39;accès et droit à l
 
 * **Gestion des droits**
 
-Pour plus d&#39;informations à ce sujet, voir [Consentement, Rétention et Rôles](#consent-retention-roles).
+Pour plus d’informations à ce sujet, voir [Consentement, conservation des données et rôles](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
