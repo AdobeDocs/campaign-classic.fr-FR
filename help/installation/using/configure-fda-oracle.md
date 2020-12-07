@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Configurer l’accès à Oracle
-description: Découvrez comment configurer l'accès à Oracle dans FDA
+description: Découvrez comment configurer l’accès à Oracle dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
       yum install libaio1
       ```
 
-1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Oracle]. For more on how to configure your external account, refer to [this section](#oracle-external).
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Oracle]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#oracle-external).
 
 ## Oracle sous Windows {#oracle-windows}
 
@@ -74,13 +74,13 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
 1. Ajoutez une variable d’environnement TNS_ADMIN avec pour valeur C:Oracle et redémarrez la machine.
 
-1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Oracle]. For more on how to configure your external account, refer to [this section](#oracle-external).
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Oracle]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#oracle-external).
 
 ## Compte externe Oracle {#oracle-external}
 
-The [!DNL Oracle] external account allows you to connect your Campaign instance to your Oracle external database.
+Le compte externe [!DNL Oracle] permet de connecter votre instance Campaign à votre base de données externe Oracle.
 
-1. From Campaign **[!UICONTROL Explorer]**, select **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Dans l&#39;**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Choisissez **[!UICONTROL Nouveau]**.
 
