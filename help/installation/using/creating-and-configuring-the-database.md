@@ -6,11 +6,11 @@ description: Création et paramétrage de la base de données
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Sélectionnez le moteur de base de données parmi ceux proposés dans la liste d
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-Les bases de données prises en charge sont répertoriées dans la matrice [de](../../rn/using/compatibility-matrix.md)compatibilité de Campaign.
+Les bases de données prises en charge sont répertoriées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) de Campaign.
 
 Identifiez le serveur et sélectionnez le type d&#39;opération à réaliser. Ici : **[!UICONTROL Créer ou recycler une base de données]**.
 
