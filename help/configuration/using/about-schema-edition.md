@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: A propos de l’édition de schéma
-description: Commencer avec l'édition schéma
+description: Prise en main de l’édition de schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1014'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->Vous pouvez également ajouter des énumérations gérées par l&#39;utilisateur (accessibles depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Platform]**) pour spécifier les valeurs d&#39;un champ donné. Cela peut être judicieux si vous envisagez d&#39;utiliser votre énumération en dehors du schéma sur lequel vous travaillez.
+>Vous pouvez également ajouter des énumérations gérées par l&#39;utilisateur (accessibles depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]**) pour spécifier les valeurs d&#39;un champ donné. Cela peut être judicieux si vous envisagez d&#39;utiliser votre énumération en dehors du schéma sur lequel vous travaillez.
 
 Pour en savoir plus sur les énumérations, consultez les sections [Enumérations](../../configuration/using/schema-structure.md#enumerations) et [`<enumeration>`Elément](../../configuration/using/elements-and-attributes.md#enumeration--element).
 
