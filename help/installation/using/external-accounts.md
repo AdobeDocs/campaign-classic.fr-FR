@@ -6,18 +6,18 @@ description: Découvrez comment créer des comptes externes
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1879'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Comptes externes{#external-accounts}
 
-Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour établir des connexions avec des systèmes externes, vous pouvez créer de nouveaux comptes externes.
+Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour établir des connexions avec des systèmes externes, vous pouvez créer des comptes externes.
 
 Les comptes externes sont utilisés par des processus techniques, tels que des workflows techniques ou des workflows des opérations. Lors de la configuration d’un transfert de fichier dans un workflow ou d’un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
@@ -39,9 +39,9 @@ Vous pouvez configurer les types de comptes externes suivants :
 
 ## Création d’un compte externe {#creating-an-external-account}
 
-Pour créer un compte externe, procédez comme suit. Les paramètres détaillés dépendent du type de compte externe.
+Pour créer un compte externe, procédez comme suit : Les paramètres détaillés dépendent du type de compte externe.
 
-1. From Campaign **[!UICONTROL Explorer]**, select **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Dans l’**[!UICONTROL Explorateur]** Campaign, sélectionnez **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
    ![](assets/ext_account_1.png)
 
@@ -49,7 +49,7 @@ Pour créer un compte externe, procédez comme suit. Les paramètres détaillés
 
    ![](assets/ext_account_2.png)
 
-1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal Name]**.
+1. Définissez un **[!UICONTROL Libellé]** et un **[!UICONTROL Nom interne]**.
 1. Sélectionnez le **[!UICONTROL Type]** de compte externe que vous voulez créer.
 1. Configurez l’accès au compte en spécifiant les informations de connexion en fonction du type de compte externe choisi.
 
@@ -58,7 +58,7 @@ Pour créer un compte externe, procédez comme suit. Les paramètres détaillés
 1. Cochez l’option **[!UICONTROL Activé]** pour activer la connexion.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Le compte externe est créé et ajouté à la liste comptes externes.
+Le compte externe est créé et ajouté à la liste des comptes externes.
 
 ## Compte externe Mails rebonds {#bounce-mails-external-account}
 
@@ -140,22 +140,22 @@ Pour savoir où trouver ces informations de connexion, consultez [cette page](ht
 
 ## Compte externe de base de données externe {#external-database-external-account}
 
-Utilisez le compte externe de type de base de données **** externe pour vous connecter à une base de données externe. En savoir plus sur l’option Federated Data Access (FDA) dans [cette section](../../installation/using/about-fda.md).
+Utilisez le compte externe de type **Base de données externe** pour vous connecter à une base de données externe. En savoir plus sur l’option Federated Data Access (FDA) dans [cette section](../../installation/using/about-fda.md).
 
-External databases compatible with Campaign are listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md)
+Les bases de données externes compatibles avec Campaign sont répertoriées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md)
 
 ![](assets/ext_account_11.png)
 
-Les paramètres de configuration du compte externe dépendent du moteur de base de données. En savoir plus sur les sections suivantes :
+Les paramètres de configuration du compte externe dépendent du moteur de base de données. En savoir plus dans les sections suivantes :
 
-* Configure access to [Azure Synapse](../../installation/using/configure-fda-synapse.md)
-* Configure access to [Hadoop](../../installation/using/configure-fda-hadoop.md)
-* Configure access to [Oracle](../../installation/using/configure-fda-oracle.md)
-* Configure access to [Netezza](../../installation/using/configure-fda-netezza.md)
-* Configure access to [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-* Configure access to [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* Configure access to [Sybase IQ](../../installation/using/configure-fda-sybase.md)
-* Configure access to [Teradata](../../installation/using/configure-fda-teradata.md)
+* Configurer l’accès à [Azure Synapse](../../installation/using/configure-fda-synapse.md)
+* Configurer l’accès à [Hadoop](../../installation/using/configure-fda-hadoop.md)
+* Configurer l’accès à [Oracle](../../installation/using/configure-fda-oracle.md)
+* Configurer l’accès à [Netezza](../../installation/using/configure-fda-netezza.md)
+* Configurer l’accès à [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+* Configurer l’accès à [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configurer l’accès à [Sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Configurer l’accès à [Teradata](../../installation/using/configure-fda-teradata.md)
 
 ## Compte externe Web Analytics {#web-analytics-external-account}
 
