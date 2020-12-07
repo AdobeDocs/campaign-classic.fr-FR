@@ -6,9 +6,9 @@ description: Découvrez comment utiliser le modèle de données de Campaign Cla
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4031'
 ht-degree: 100%
 
