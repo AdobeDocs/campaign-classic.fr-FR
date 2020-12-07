@@ -6,11 +6,11 @@ description: Avant de commencer la migration
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 88%
 
 ## Avertissements {#warnings}
 
-* Le processus de migration ne doit être effectué que par des utilisateurs experts. Vous devez être assisté par au moins un expert en base de données, un administrateur système et un développeur d’applications d’Adobe Campaign.
+* Le processus de migration doit être uniquement effectué par des utilisateurs experts. Vous devez être assisté par au moins un expert en base de données, un administrateur système et un développeur d’applications d’Adobe Campaign.
 * Avant de démarrer la migration, vérifiez que les systèmes et composants que vous utilisez sont bien compatibles avec la v7. Consultez la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
-* Si vous utilisez Adobe Campaign Cloud Messaging (midsourcing), contactez l’Adobe avant de commencer la procédure de migration complète.
+* Si vous utilisez Adobe Campaign Cloud Messaging (mid-sourcing), contactez Adobe avant de lancer l’ensemble de la procédure de migration.
 * Avant toute migration, vous devez **impérativement** effectuer une sauvegarde de vos données.
 * La réalisation de l&#39;intégralité du processus de migration peut nécessiter plusieurs jours.
 * Adobe Campaign v7 est plus strict en termes de paramétrage que les versions 5.11 et 6.02, cela afin, notamment, d&#39;éviter des problèmes de corruption de données et de préserver leur intégrité en base. Par conséquent, il est possible que certains paramétrages proposés en v5.11 ou en v6.02 ne soient plus fonctionnels tels quels en v7 et requièrent donc une adaptation lors de votre migration. Nous vous invitons à tester de façon systématique, avant la mise en production, tous les paramétrages et notamment les workflows, indispensables à votre utilisation d&#39;Adobe Campaign.
@@ -47,7 +47,7 @@ Avant toute migration, vous devez **impérativement** effectuer une sauvegarde d
 
 ### Recommandations {#recommendation}
 
-Comme la procédure de migration est délicate, nous recommandons vivement de lire ce document attentivement avant de commencer la procédure.
+La migration étant une procédure sensible, nous vous recommandons vivement de lire attentivement ce document avant d&#39;entreprendre son exécution.
 
 ## Etapes de migration {#migration-steps}
 
