@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Paramétrer les options de Campaign
-description: Découvrez comment configurer les options Campaign
+description: Découvrez comment paramétrer les options de Campaign
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
