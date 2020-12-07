@@ -251,7 +251,7 @@ Le contenu des champs du formulaire peut être formaté pour correspondre aux do
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-Pour permettre à l’utilisateur de saisir une date dans une page de formulaire, ajoutez un champ de saisie et sélectionnez le type **[!UICONTROL Date...]**.
+Pour permettre à l’utilisateur de saisir une date dans une page de formulaire, ajoutez un champ de saisie et sélectionnez le type **[!UICONTROL Date..]**.
 
 Indiquez le libellé du champ et le mode de stockage des données.
 
@@ -392,7 +392,7 @@ Lorsque l’utilisateur valide l’une des pages du formulaire, vous pouvez déf
 
 Ce champ n&#39;est pas visible par l&#39;utilisateur mais permet d&#39;enrichir les données de son profil.
 
-Pour ce faire, placez une **constante** dans la page et spécifiez la valeur et l’emplacement de l’enregistrement.
+Pour ce faire, placez une **constante** dans la page et indiquez la valeur et l’emplacement de l’enregistrement.
 
 Dans l’exemple suivant, le champ **origine** du profil du destinataire est renseigné automatiquement chaque fois qu’un utilisateur approuve cette page. La constante n’est pas affichée sur la page.
 
