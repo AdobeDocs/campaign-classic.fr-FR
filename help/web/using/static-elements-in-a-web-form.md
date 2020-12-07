@@ -17,7 +17,7 @@ ht-degree: 87%
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
 
-Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit de éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés à l’aide du premier bouton de la barre d’outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
+Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit de éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d’outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -54,7 +54,7 @@ Pour insérer un champ de la base, utilisez le bouton de personnalisation.
 
 Renseignez les champs de la fenêtre d&#39;édition, comme dans l&#39;exemple ci-dessous :
 
-To add a hypertext link, go to **[!UICONTROL Static elements]** > **[!UICONTROL Link]**.
+Pour ajouter un lien hypertexte, accédez à **[!UICONTROL Éléments statiques]** > **[!UICONTROL Lien]**.
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
@@ -174,7 +174,7 @@ Vous pouvez réinjecter dans la page suivante le nom de l&#39;utilisateur et la 
 
 >[!NOTE]
 >
->Pour des raisons de sécurité, la valeur saisie dans la **`<%=`** formule est remplacée par des caractères avec échappement.
+>Pour des raisons de sécurité, la valeur saisie dans la formule **`<%=`** est remplacée par des caractères avec échappement.
 
 Dans notre exemple, le nom et le prénom du destinataire sont stockés dans un champ de la base, tandis que la marque de son véhicule est stockée dans une variable. La syntaxe du message personnalisé en page 2 sera la suivante :
 
@@ -210,7 +210,7 @@ Par exemple, vous pouvez créer un champ **Contact** qui permettra d’afficher 
 
    >[!CAUTION]
    >
-   >Si vous saisissez ces caractères dans l’éditeur HTML, les **&lt;** et **>** champs sont remplacés par des caractères avec échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l’icône **[!UICONTROL Afficher le code]** source de l’éditeur de texte HTML.
+   >Si vous saisissez ces caractères dans l’éditeur HTML, les champs **&quot;a1/> et****seront remplacés par leurs caractères d’échappement.** Dans ce cas, vous devez corriger le code source en cliquant sur l’icône **[!UICONTROL Afficher le code source]** de l’éditeur de texte HTML.
 
 1. Ouvrez l&#39;onglet **[!UICONTROL Prévisualisation]** du formulaire pour visualiser la valeur renseignée dans le HTML :
 
@@ -222,7 +222,7 @@ Ce mode de fonctionnement vous permet de définir le texte des Formulaires web u
 
 Pour inclure des images dans les formulaires, elles doivent être enregistrées sur un serveur accessible depuis l&#39;extérieur.
 
-Select the **[!UICONTROL Static elements]** > **[!UICONTROL Image]** menu.
+Sélectionnez le menu **[!UICONTROL Éléments statiques]** > **[!UICONTROL Image]**.
 
 Sélectionner la source de l&#39;image à insérer : elle peut être issue de la bibliothèque de ressources publiques ou stockée sur un serveur externe accessible de l&#39;extérieur.
 
