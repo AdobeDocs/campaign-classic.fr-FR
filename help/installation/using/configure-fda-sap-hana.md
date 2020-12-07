@@ -6,11 +6,11 @@ description: Découvrez comment configurer l'accès à SAP HANA dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 71%
 
 Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à SAP HANA.
 
-1. Configuration de la base de données [SAP HANA](#sap-config)
+1. Configuration de la [base de données SAP HANA](#sap-config)
 1. Configuration du [compte externe](#sap-external) SAP HANA dans Campaign
 
 ## Pilotes SAP HANA {#sap-config}
@@ -60,11 +60,11 @@ La connexion à une base de données externe SAP HANA en FDA requiert certains p
    * **LD_LIBRARY_PATH** : doit inclure le lien vers votre client SAP HANA (/usr/sap/hdbclient/libodbcHDB.so par défaut).
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
 
-## COMPTE EXTERNE SAP HANA{#sap-external}
+## Compte externe SAP HANA{#sap-external}
 
-Le compte externe SAP HANA vous permet de connecter votre instance Campaign à votre base de données externe SAP HANA.
+Le compte externe SAP HANA permet de connecter l’instance Campaign à la base de données externe SAP HANA.
 
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Dans l’**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**, puis sélectionnez **[!UICONTROL Base de données externe]** comme **[!UICONTROL Type]**.
 
