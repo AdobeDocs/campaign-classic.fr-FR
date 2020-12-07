@@ -6,20 +6,20 @@ description: Connexion impossible
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85fae38f864b031f069058dae79ce6753dc4bf03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
 
 # Connexion impossible{#failure-to-connect}
 
-Les raisons d&#39;un problème de connexion peuvent être multiples et dépendent de divers contextes.
+Les causes des problèmes de connexion peuvent être multiples et dépendent des différents contextes.
 
-Vous pouvez tester les tests suivants et si l&#39;échec de connexion persiste, contactez l&#39;assistance **** Adobe Campaign.
+Vous pouvez appliquer les tests suivants. Si l’échec de connexion persiste, contactez l’**Assistance clientèle d’Adobe**.
 
 
 
@@ -41,27 +41,29 @@ Vous pouvez tester les tests suivants et si l&#39;échec de connexion persiste, 
 </tr>
 <tr> 
 <td>Le serveur Web répond-t-il ?</td> 
-<td>Connect to the Adobe Campaign server access URL using a Web browser: <b>http(s):// &lt;urlserver&gt;</b>. S’il ne répond pas, le serveur web est arrêté sur l’ordinateur. Contactez l’administrateur système de votre hébergeur pour redémarrer le service.</td>
+<td>Connectez-vous à l’URL d’accès au serveur Adobe Campaign à l’aide d’un navigateur web : <b>http(s):// &lt;urlserver&gt;</b>. S’il ne répond pas, le serveur web est arrêté sur l’ordinateur. Contactez l’administrateur système de votre hébergeur pour redémarrer le service.</td>
 </tr>
 <tr> 
 <td>L'intégration Adobe Campaign est-elle bien effectuée ?</td> 
-<td>Log on to the: <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. Le serveur doit renvoyer le type de message suivant : &lt;redirecteur status='OK' date='AAAA/MM/JJ HH:MM:SS' build='XXXX' host='&lt;nom d'hôte&gt;' localHost='&lt;serveur&gt;'/&gt;Si vous n'obtenez pas ce résultat, vérifiez la configuration de votre serveur Web qui prend en compte l'intégration.</td>
+<td>Connectez-vous à l’URL <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. Le serveur doit renvoyer le type de message suivant : &lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
+
+Si vous n’obtenez pas ce résultat, vérifiez que l’intégration est prise en compte dans la configuration de votre serveur Web.</td>
 </tr>
 <tr> 
-<td>Connect to the following URL: <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+<td>Connectez-vous à l’URL suivante : <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
 <td>Si vous obtenez une erreur Java Tomcat, vérifiez si l’intégration JAVA est correctement effectuée. Son intégration se fait dans le fichier [chemin de l'application]/nl6/customer.sh</td>
 </tr>
 <tr> 
-<td>Connect to the following URL: <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
-<td>Si vous obtenez une page vierge, vérifiez si le module Web Adobe Campaign est démarré. La commande nlserver pdump doit renvoyer Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) de DD/MM/YYYY. Sinon, redémarrez le module avec la commande nlserver début web</td>
+<td>Connectez-vous à l'URL suivante : <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+<td>Si vous obtenez une page vierge, vérifiez si le module Web Adobe Campaign est démarré. La commande nlserver pdump doit renvoyer Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY. Sinon, redémarrez le module avec la commande nlserver start web</td>
 </tr>
 <tr>
 <td>De manière générale, vérifiez la configuration des zones de sécurité.</td>
-<td>Pour plus d’informations sur le paramétrage des zones de sécurité, consultez <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>cette section.</a></td>
+<td>Pour plus d’informations sur le paramétrage des zones de sécurité, consultez <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=fr#configuring-campaign-server"/>cette section.</a></td>
 </tr>
 <tr>
 <td>La commande nlserver pdump renvoie <b>Aucune tâche</b></td>
-<td>Vous devez redémarrer l’ensemble de l’application Adobe Campaign. To do this, use the following command: <b>nlserver watchdog -svc -noconsole</b></td>
+<td>Vous devez redémarrer l’ensemble de l’application Adobe Campaign. Pour ce faire, utilisez la commande suivante : <b>nlserver watchdog -svc -noconsole</b></td>
 </tr>
 </tbody> 
 </table>
