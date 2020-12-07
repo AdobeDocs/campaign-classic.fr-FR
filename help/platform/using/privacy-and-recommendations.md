@@ -6,11 +6,11 @@ description: En savoir plus sur la confidentialité et le consentement
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97e039e48068e3862bc6640711efe54f21fc0f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -89,29 +89,29 @@ Ainsi, en tant qu&#39;entreprise qui collecte et partage des données personnell
 
 ### Scénario d&#39;utilisation {#use-case-scenario}
 
-Pour illustrer l’interaction entre les différentes personnes, voici un exemple d’utilisation d’une expérience client GDPR de haut niveau.
+Pour illustrer l’interaction entre les différents acteurs impliqués, voici un exemple de cas d’utilisation d’une expérience client RGPD de haut niveau.
 
-Dans cet exemple, une société aérienne est le client Adobe Campaign. Cette société est le contrôleur **de** données et tous les clients de la société aérienne sont des sujets **de** données. Laura dans ce cas particulier est un client de la société aérienne.
+Dans cet exemple, une compagnie aérienne est le client Adobe Campaign. Cette compagnie est le **contrôleur de données** et tous ses clients sont les **titulaires de données**. Dans ce cas particulier, Laura est une cliente de la compagnie aérienne.
 
 Voici les différentes personnes utilisées dans cet exemple :
 
-* **Laura** est le sujet **des** données. C&#39;est la destinataire qui reçoit les messages de la société aérienne. Laura peut-être un voyageur fréquent, mais peut décider à un moment donné qu&#39;elle ne veut pas de publicité personnalisée ou de messages marketing de la société aérienne. Elle demandera à la société de la compagnie aérienne (selon leur processus) de supprimer son numéro de vol fréquent.
+* **Laura** est le **titulaire de données**. Elle est la destinataire qui reçoit les messages de la compagnie aérienne. Même si Laura voyage souvent, elle peut décider à un moment donné qu&#39;elle ne veut pas de publicité personnalisée ou de messages marketing de la compagnie aérienne. Elle va demander à la compagnie aérienne (selon le processus prévu par l&#39;entreprise) de supprimer son numéro de &quot;grand voyageur&quot;.
 
-* **Anne** est le contrôleur **de** données à la société aérienne. Elle reçoit la demande de Laura, récupère les identifiants utiles demandés pour identifier la personne concernée et envoie la demande en Adobe Campaign.
+* **Anne** est le **contrôleur de données** de la compagnie aérienne. Elle reçoit la demande de Laura, récupère les identifiants utiles requis pour identifier le titulaire de données et soumet la demande dans Adobe Campaign.
 
-* **Adobe Campaign** est le processeur **de** données.
+* **Adobe Campaign** est le **responsable du traitement des données**.
 
 ![](assets/privacy-gdpr-flow.png)
 
 Voici le flux général de ce cas pratique :
 
-1. The **Data Subject** (Laura) sends a GDPR request to the **Data Controller**, via email, customer care or a web portal.
+1. Le **titulaire de données** (Laura) envoie une demande RGPD au **contrôleur de données**, par le biais d&#39;un email, de l&#39;assistance clientèle ou d&#39;un portail web.
 
-1. The **Data Controller** (Anne) pushes the GDPR request to Campaign via the interface or using an API.
+1. Le **contrôleur de données** (Anne) transmet la demande RGPD à Campaign à l&#39;aide de l&#39;interface ou d&#39;une API.
 
-1. Once the **Data Processor** (Adobe Campaign) receives the information, it takes action on the GDPR request and sends a response or acknowledgement to the **Data Controller** (Anne).
+1. Lorsque le **responsable du traitement des données** (Adobe Campaign) reçoit la demande, il la traite et envoie une réponse ou une confirmation au **contrôleur de données** (Anne).
 
-1. The **Data Controller** (Anne) then reviews the information and sends it back to the **Data Subject** (Laura).
+1. Le **contrôleur de données** (Anne) examine ensuite les informations et les renvoie au **titulaire de données** (Laura).
 
 ## Acquisition de données {#data-acquisition}
 
@@ -151,7 +151,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à v
 
 * Le **droit à l&#39;oubli** (demande de suppression) autorise le titulaire de données à effacer ses données personnelles.
 
-The **Access** and **Delete** requests are presented in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
+Les demandes d&#39;**accès** et de **suppression** sont présentées dans [cette section](../../platform/using/privacy-management.md#right-access-forgotten).
 
 Les étapes principales pour créer ces requêtes sont détaillées dans [cette section](../../platform/using/privacy-requests.md).
 
