@@ -6,9 +6,9 @@ description: Mapping de la base de données
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1974'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 >[!NOTE]
 >
 >Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner
->les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
+les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 
