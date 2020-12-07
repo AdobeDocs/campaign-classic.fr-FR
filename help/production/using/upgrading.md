@@ -6,11 +6,11 @@ description: Découvrez les étapes techniques clés de l'upgrade vers un nouvea
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
 
 1. Exécutez **setup.exe**.
 
-   Pour télécharger ce fichier, connectez-vous au portail [de distribution de](https://experience.adobe.com/downloads) logiciels à l&#39;aide de vos identifiants d&#39;utilisateur. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+   Pour télécharger ce fichier, connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/downloads) à l’aide de vos informations d’identification d’utilisateur. En savoir plus sur la distribution des logiciels sur [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
 1. Sélectionnez le mode d&#39;installation : choisissez **[!UICONTROL Mise à jour ou réparation]**
 1. Cliquez sur **[!UICONTROL Suivant]** .
@@ -124,7 +124,7 @@ Pour connaître la procédure de mise à jour de la console cliente, reportez-vo
 
 ### Obtenir les packages à jour {#obtain-updated-packages}
 
-Début en récupérant les deux paquets mis à jour de Adobe Campaign : connectez-vous au portail [de distribution de](https://experience.adobe.com/downloads) logiciels à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/downloads) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
 Le fichier est **nlserver6-v7-XXX.rpm**
 
