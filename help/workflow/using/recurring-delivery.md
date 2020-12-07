@@ -52,5 +52,5 @@ Cette vidéo explique comment configurer une diffusion récurrente et une activi
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
