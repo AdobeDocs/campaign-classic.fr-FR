@@ -6,24 +6,24 @@ description: Découvrez les bonnes pratiques et la résolution des problèmes li
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # Bonnes pratiques et résolution des problèmes liés au serveur SFTP {#sftp-server-usage}
 
-## Recommandations globales du serveur SFTP {#global-recommendations}
+## Recommandations globales relatives au serveur SFTP {#global-recommendations}
 
 Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers sont stockés sur un serveur SFTP hébergé, fourni par Adobe. Veillez à suivre les recommandations ci-dessous lors de l’utilisation de serveurs SFTP.
 
 * Utilisez l’authentification par clé plutôt que par mot de passe pour éviter l’expiration du mot de passe (la période de validité des mots de passe est de 90 jours). De plus, l’authentification par clé permet de générer plusieurs clés, par exemple lors de la gestion de plusieurs entités. À l’inverse, l’authentification par mot de passe nécessite le partage du mot de passe avec toutes les entités que vous gérez.
 
-   Le format de clé pris en charge est SSH-2 RSA 2048. Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server.
+   Le format de clé pris en charge est SSH-2 RSA 2048. Les clés peuvent être générées avec des outils tels que PyTTY (Windows) ou ssh-keygen (Unix). Vous devrez fournir la clé publique à l’équipe de support Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour qu’elle soit téléchargée sur le serveur Campaign.
 
 * Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
 
@@ -31,13 +31,13 @@ Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers 
 
 * Par défaut, tous les dossiers que vous créez sont en lecture/écriture pour votre identifiant uniquement. Lorsque vous créez des dossiers auxquels Campaign doit accéder, veillez à les configurer avec des droits en lecture/écriture pour l&#39;ensemble du groupe. Sinon, les workflows peuvent ne pas pouvoir créer/supprimer des fichiers, car ils sont exécutés sous un identifiant différent au sein du même groupe pour des raisons de sécurité.
 
-* Les adresses IP publiques à partir desquelles vous tentez d&#39;établir la connexion SFTP doivent être ajoutées à la liste autorisée sur l&#39;instance Campaign. L’Ajoute des adresses IP à la liste autorisée peut être demandée par l’intermédiaire du service à la clientèle [](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)Adobe.
+* Les adresses IP publiques à partir desquelles vous tentez d&#39;établir la connexion SFTP doivent être ajoutées à la liste autorisée sur l&#39;instance Campaign. L’ajout des adresses IP à la liste autorisée peut être demandé par l’intermédiaire de l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-## Meilleures pratiques d’utilisation des bases de données {#sftp-server-best-practices}
+## Bonnes pratiques d’utilisation des bases de données {#sftp-server-best-practices}
 
-Les serveurs SFTP sont conçus pour être des espaces d’enregistrement temporaires sur lesquels vous pouvez contrôler la rétention et la suppression des fichiers.
+Les serveurs SFTP sont conçus en tant qu’espaces de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
-Lorsqu’ils ne sont pas correctement utilisés ou surveillés, ces espaces peuvent rapidement remplir l’espace physique disponible sur le serveur et entraîner la troncation des fichiers lors des téléchargements suivants. Une fois l’espace saturé, la purge automatique peut déclencher et effacer les fichiers les plus anciens de l’enregistrement SFTP.
+Lorsqu’ils ne sont pas correctement utilisés ou surveillés, ces espaces peuvent rapidement remplir l’espace physique disponible sur le serveur et entraîner la troncation des fichiers lors des téléchargements suivants. Une fois l’espace saturé, la purge automatique peut être déclenchée et effacer les fichiers les plus anciens de l’espace de stockage SFTP.
 
 Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-après.
 
@@ -55,18 +55,18 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 
 * Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
-## External SFTP server usage {#external-SFTP-server}
+## Utilisation d’un serveur SFTP externe {#external-SFTP-server}
 
-Si vous utilisez votre propre serveur SFTP, veillez à suivre autant que possible les recommandations ci-dessus.
+Si vous utilisez votre propre serveur SFTP, suivez autant que possible les recommandations mentionnées ci-dessus.
 
-En outre, lors de la spécification en Campaign Classic d’un chemin d’accès à un serveur SFTP externe, la syntaxe du chemin d’accès diffère selon le système d’exploitation du serveur SFTP :
+En outre, lors de la spécification dans Campaign Classic d’un chemin d’accès à un serveur SFTP externe, la syntaxe du chemin d’accès diffère selon le système d’exploitation du serveur SFTP :
 
-* Si votre serveur SFTP se trouve sous **Windows**, utilisez toujours un chemin relatif.
-* Si votre serveur STP est sur **Linux**, utilisez toujours un chemin relatif à la maison (commençant par &quot;~/&quot;) ou un chemin absolu (commençant par &quot;/&quot;).
+* Si votre serveur SFTP est sous **Windows**, utilisez toujours un chemin relatif.
+* Si votre serveur STP est sous **Linux**, utilisez toujours un chemin relatif au répertoire de base (commençant par &quot;~/&quot;) ou un chemin absolu (commençant par &quot;/&quot;).
 
 ## Problèmes de connexion liés au serveur SFTP hébergé par Adobe {#sftp-server-troubleshooting}
 
-The section below lists the information to check and provide to the Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) when encountering connection issues with Adobe hosted SFTP servers.
+La section ci-après indique les informations à vérifier et à fournir à l’équipe de support d’Adobe via l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) lorsque vous rencontrez des problèmes liés aux serveurs SFTP hébergés d’Adobe.
 
 1. Vérifiez que votre instance est en cours d’exécution. Pour cela, ouvrez votre navigateur, puis effectuez un appel **[!UICONTROL GET]** sur le point d’entrée **[!UICONTROL /r/test]** de l’instance :
 
