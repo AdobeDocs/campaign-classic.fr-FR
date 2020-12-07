@@ -104,7 +104,7 @@ Identifiez les heures de faible volume ou trafic qui seraient idéales pour les 
 
 Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
 
-Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
+Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
 
 ## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
 
@@ -205,5 +205,5 @@ du contenu est présent et s&#39;affiche.
 
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
-* [Programme Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html)
+* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Programme Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
