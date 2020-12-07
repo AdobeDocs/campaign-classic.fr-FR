@@ -6,9 +6,9 @@ description: Découvrez les conseils et les bonnes pratiques pour surveiller les
 audience: production
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
 ht-degree: 100%
 
