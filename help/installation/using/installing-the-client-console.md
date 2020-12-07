@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Avant de commencer, vous devez vérifier la [matrice de compatibilité](https://
 >
 >La console cliente et le serveur applicatif Campaign doivent s’exécuter sur la même version de produit. Adobe recommande également d’utiliser la même version de produit.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez comment installer et configurer le client Adobe Campaign en [vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) Découvrez comment installer et configurer le client Adobe Campaign en  [vidéo](#video)
 
 ## Téléchargement de la console{#download-the-client-console}
 
@@ -94,7 +94,7 @@ Pour vous connecter à une instance existante, procédez comme suit :
 **Rubriques connexes :**
 
 * [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
-* [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+* [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 ## Tutoriel vidéo
 
@@ -102,4 +102,4 @@ Cette vidéo explique comment installer et configurer le client Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
-D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
