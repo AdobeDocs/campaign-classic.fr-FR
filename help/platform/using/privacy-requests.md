@@ -6,11 +6,11 @@ description: Découvrez comment gérer les demandes d’accès à des informatio
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2591'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Avant de créer des demandes d’accès à des informations personnelles, vous d
 
 Trois espaces de noms d’usine sont disponibles : email, téléphone et téléphone mobile. Si vous avez besoin d’un autre espace de noms (un champ personnalisé de destinataire, par exemple), vous pouvez le créer dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Espaces de noms]**.
 
-## Creating a Privacy request {#create-privacy-request-ui}
+## Création d’une demande d’accès à des informations personnelles {#create-privacy-request-ui}
 
 L’**interface d’Adobe Campaign** permet de créer des demandes d’accès à des informations personnelles et de suivre leur évolution. Pour créer une demande d’accès à des informations personnelles, procédez comme suit :
 
@@ -126,7 +126,7 @@ Si vous avez créé des tables personnalisées ayant un lien avec la table du de
 >Si vous effectuez des demandes d’accès à des informations personnelles par lots à l’aide des workflows de suppression de profil, tenez compte des remarques suivantes :
 >* La suppression de profil par le biais des workflows ne traite pas les tables filles.
 >* Vous devez gérer la suppression pour toutes les tables filles.
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. Nous suggérons de limiter à 200 profils par jour la suppression pour des raisons de performances.
+>* Adobe recommande de créer un workflow ETL qui ajoute les lignes à supprimer dans la table Accès à des informations personnelles et de laisser le workflow **[!UICONTROL Supprimer les données de demande d’accès à des informations personnelles]** effectuer la suppression. Nous suggérons de limiter à 200 profils par jour la suppression pour des raisons de performances.
 
 
 ### Statuts des demandes d’accès à des informations personnelles {#privacy-request-statuses}
