@@ -6,11 +6,11 @@ description: À propos des types de déploiement
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas né
 
 >[!NOTE]
 >
->Les étapes de configuration de l’installation principale ne peuvent être exécutées que par Adobe pour les déploiements hébergés par l’Adobe, pour configurer par exemple les fichiers de configuration de serveur et d’instance.
+>Les étapes de configuration de l’installation principale ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe, par exemple afin de configurer les fichiers de configuration de serveur et d’instance.
 >
 >Pour en savoir plus sur les principales différences entre les déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [Différences de fonctionnalités pour les déploiements hébergés et On-premise](../../installation/using/capability-matrix.md).
 
