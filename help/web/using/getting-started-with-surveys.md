@@ -15,7 +15,7 @@ ht-degree: 98%
 ---
 
 
-# Etapes clés de création d’un questionnaire{#getting-started-with-surveys}
+# Etapes clés de création d’un questionnaire {#getting-started-with-surveys}
 
 Nous vous proposons ici d&#39;aborder rapidement, en sept étapes clés, la création d&#39;un questionnaire simple, selon le modèle suivant :
 
