@@ -1,26 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configurer l'accès à Synapse
-description: Découvrez comment configurer l'accès à Synapse dans FDA
+title: Configurer l’accès à Synapse
+description: Découvrez comment configurer l’accès à Synapse dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # Configurer l’accès à Azure Synapse {#configure-access-to-azure-synapse}
 
-Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Microsoft Azure synapse Analytics.
+Utilisez l’option Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Microsoft Azure Synapse Analytics.
 
-1. Configuration d&#39;Azure synapse sur [CentOS](#azure-centos), [Windows](#azure-windows) ou [Debian](#azure-debian)
-1. Configuration du [compte externe](#azure-external) Azure synapse dans Campaign
+1. Configuration d’Azure synapse sur [CentOS](#azure-centos), [Windows](#azure-windows) ou [Debian](#azure-debian)
+1. Configuration du [compte externe](#azure-external) Azure Synapse dans Campaign
 
 ## Azure Synapse sous CentOS {#azure-centos}
 
@@ -31,7 +31,7 @@ Utilisez l’option Campaign [Federated Data Access](../../installation/using/ab
 >* La version 13.0 fonctionnera avec Red Hat 6 et 7.
 
 
-Pour configurer Azure synapse sur CentOS, procédez comme suit :
+Pour configurer Azure Synapse sur CentOS, procédez comme suit :
 
 1. Installez tout d’abord le pilote ODBC. Vous pouvez le trouver sur cette [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
@@ -87,7 +87,7 @@ Pour configurer Azure synapse sur CentOS, procédez comme suit :
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. In Campaign, you can then configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to [this section](#azure-external).
+1. Dans Campaign , vous pouvez ensuite configurer votre compte externe [!DNL Azure Synapse]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#azure-external).
 
 1. Comme Azure Synapse Analytics communique par le biais du port TCP 1433, vous devez l’ouvrir sur votre pare-feu. Utilisez la commande suivante :
 
@@ -114,7 +114,7 @@ Pour configurer Azure synapse sur CentOS, procédez comme suit :
 
 Pour configurer Azure Synapse sous Windows :
 
-1. Installez tout d’abord le pilote ODBC Microsoft. You can find it in [this page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
+1. Installez tout d’abord le pilote ODBC Microsoft. Vous pouvez le trouver sur cette [page](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
 1. Choisissez les fichiers suivants à installer :
 
@@ -124,7 +124,7 @@ Pour configurer Azure Synapse sous Windows :
 
 1. Une fois votre pilote ODBC installé, vous pouvez le tester, si nécessaire. Pour plus d’informations à ce propos, consultez cette [page](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server).
 
-1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Azure Synapse]. For more on how to configure your external account, refer to [this section](#azure-external).
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Azure Synapse]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#azure-external).
 
 1. Comme Azure Synapse Analytics communique par le biais du port TCP 1433, vous devez ouvrir ce port sur le pare-feu Windows Defender. Pour plus d’informations à ce propos, consultez la [documentation Windows](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
 
@@ -179,7 +179,7 @@ Pour configurer Azure Synapse sous Debian :
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Dans Campaign Classic, vous pouvez maintenant configurer votre compte externe [!DNL Azure Synapse]. For more on how to configure your external account, refer to [this section](#azure-external).
+1. Dans Campaign Classic, vous pouvez maintenant configurer votre compte externe [!DNL Azure Synapse]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#azure-external).
 
 1. Pour configurer les iptables sous Debian afin d’assurer la connexion avec Azure Synapse Analytics, activez le port TCP 1433 sortant pour votre hostname à l’aide de la commande suivante :
 
@@ -192,13 +192,13 @@ Pour configurer Azure Synapse sous Debian :
    >Pour autoriser la communication du côté d&#39;Azure Synapse Analytics, vous devrez peut-être ajouter votre adresse IP publique à la liste autorisée. Pour ce faire, voir la [documentation Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules).
 
 
-## Azure Synapse external account {#azure-external}
+## Compte externe Azure Synapse {#azure-external}
 
 Le compte externe [!DNL Azure Synapse] vous permet de connecter l’instance Campaign à la base de données externe Azure Synapse.
 
-Pour créer votre [!DNL Azure Synapse] compte externe, procédez comme suit :
+Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Dans l’**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
