@@ -63,7 +63,7 @@ Ne partez pas de l’hypothèse selon laquelle les données entrantes sont cohé
 
 Un exemple de modèle d’import est disponible dans la section [Configurer un import récurrent](#setting-up-a-recurring-import).
 
-### Utiliser des formats de fichiers plats       {#using-flat-file-formats}
+### Utiliser des formats de fichiers plats        {#using-flat-file-formats}
 
 Le format le plus efficace pour les imports est le fichier plat. Les fichiers plats peuvent être importés en masse au niveau de la base de données.
 
@@ -112,7 +112,7 @@ Les imports complets sont réservés au chargement initial.
 
 Les données doivent être importées à l&#39;aide de la gestion des données et non de JavaScript.
 
-### Maintenir la cohérence       {#maintaining-consistency}
+### Maintenir la cohérence        {#maintaining-consistency}
 
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
@@ -262,7 +262,7 @@ Dans ce cas pratique, nous allons créer un workflow afin d’importer des donn�
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La clé publique sera partagée avec le système externe. Ce dernier l’utilisera pour crypter les données à envoyer à Campaign.
    * Campaign Classic utilisera la clé privée pour décrypter les données cryptées entrantes.
@@ -310,4 +310,4 @@ Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
-D&#39;autres vidéos pratiques des Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
