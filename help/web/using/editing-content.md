@@ -6,9 +6,9 @@ description: Editer le contenu
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -137,6 +137,7 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >* Nouvelle fenêtre (_blank)
 >* Fenêtre courante (_self)
 >* Comportement par défaut du navigateur
+
 >
 
 
@@ -202,8 +203,9 @@ Les options disponibles sont les suivantes :
 >[!NOTE]
 >
 >* Icône **Supprimer** : supprime le bloc et tout son contenu.
->
->* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
+   >
+   >
+* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
 
 
 ## Gestion des images et animations {#managing-images-and-animations}
