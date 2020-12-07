@@ -6,9 +6,9 @@ description: 'Découvrez comment utiliser LDAP pour vous connecter à Campaign '
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1195'
 ht-degree: 100%
 
