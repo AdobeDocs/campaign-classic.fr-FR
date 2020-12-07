@@ -41,7 +41,7 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 La disposition du formulaire Web est définie page par page dans chaque conteneur et peut être surchargée si nécessaire.
 
-Pages are broken down into columns: each page contains a certain number of columns. Each field of the page occupies **n** cells. Containers also occupy a certain number of columns and the fields they contain occupy a certain number of cells.
+Les pages sont réparties en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe des cellules **n**. Les conteneurs occupent également un certain nombre de colonnes et les champs qu’ils contiennent occupent un certain nombre de cellules.
 
 Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
 
