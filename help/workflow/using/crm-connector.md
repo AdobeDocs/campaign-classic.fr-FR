@@ -6,9 +6,9 @@ description: En savoir plus sur le Connecteur CRM et configurer la synchronisati
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1596'
 ht-degree: 100%
 
