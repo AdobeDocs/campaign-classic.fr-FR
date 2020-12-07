@@ -15,7 +15,7 @@ ht-degree: 97%
 ---
 
 
-# Get started with surveys{#about-surveys}
+# Commencer avec questionnaires{#about-surveys}
 
 Adobe Campaign intègre un module graphique de définition et de publication d&#39;applications Web afin de créer des pages, par exemple pour formulaire d&#39;édition sur un extranet ou des formulaires de notification, incluant des données de la base avec des tableaux, graphiques, champs de saisie, etc. Cette fonctionnalité vous permet de concevoir et mettre en ligne des pages web auxquelles les utilisateurs pourront accéder pour consulter ou renseigner des informations.
 
