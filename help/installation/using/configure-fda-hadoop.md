@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Configurer l’accès à Hadoop 
-description: Découvrez comment configurer l'accès à Hadoop dans FDA
+description: Découvrez comment configurer l’accès à Hadoop dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Hadoop.
 
-1. Configuration de la base de données [Hadoop](#configuring-hadoop)
+1. Configuration de la [base de données Hadoop](#configuring-hadoop)
 1. Configuration du [compte externe](#hadoop-external) Hadoop dans Campaign
 
 ## Configuration de Hadoop 3.0 {#configuring-hadoop}
@@ -37,7 +37,7 @@ La connexion à une base de données externe Hadoop dans FDA requiert les param�
    systemctl start nlserver.service
    ```
 
-1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Hadoop]. For more on how to configure your external account, refer to [this section](#hadoop-external).
+1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Hadoop]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#hadoop-external).
 
 ## Compte externe Hadoop {#hadoop-external}
 
@@ -84,9 +84,9 @@ Le connecteur prend également en charge les options Hive suivantes :
 
 ## Configuration de Hadoop 2.1 {#configure-access-hadoop-2}
 
-Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dessous pour [Windows](#for-windows) ou [Linux](#for-linux).
+Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dessous pour [Windows](#for-windows) ou [Linux](#for-linux).
 
-### Hadoop 2.1 pour Windows {#for-windows}
+### Hadoop 2.1 pour Windows {#for-windows}
 
 1. Installez les pilotes ODBC et [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) pour Windows.
 1. Créez le nom de la source de données en exécutant l’outil ODBC DataSource Administrator. Il vous est fourni un exemple de nom de source de données système pour Hive que vous pouvez modifier.
@@ -100,9 +100,9 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dess
    User/Password: admin/<your password here>
    ```
 
-1. Create the Hadoop external account, as detailed in [this section](#hadoop-external).
+1. Créez le compte externe Hadoop, comme décrit dans [cette section](#hadoop-external).
 
-### Hadoop 2.1 pour Linux {#for-linux}
+### Hadoop 2.1 pour Linux {#for-linux}
 
 1. Installez unixodbc pour Linux.
 
@@ -110,7 +110,7 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dess
    apt-get install unixodbc
    ```
 
-1. Download and install ODBC drivers for Apache Hive from HortonWorks: [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
+1. Téléchargez et installez les pilotes ODBC pour Apache Hive depuis HortonWorks : [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
@@ -187,5 +187,5 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-dess
    isql vorac -v
    ```
 
-1. Create the Hadoop external account, as detailed in [this section](#hadoop-external).
+1. Créez le compte externe Hadoop, comme décrit dans [cette section](#hadoop-external).
 
