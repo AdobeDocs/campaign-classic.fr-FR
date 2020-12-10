@@ -6,18 +6,18 @@ description: Découvrez comment configurer l’accès à Snowflake dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 535339b5a9b39625100d630b0b831df143dbeb01
+workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
 # Configurer l’accès à Snowflake {#configure-access-to-snowflake}
 
-Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à [!DNL Snowflake].
+Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour configurer l’accès à [!DNL Snowflake].
 
 1. Configuration de [!DNL Snowflake] sous [CentOS](#snowflake-centos), [Windows](#snowflake-windows) ou [Debian](#snowflake-debian)
 1. Configuration du [compte externe](#snowflake-external) [!DNL Snowflake] dans Campaign
