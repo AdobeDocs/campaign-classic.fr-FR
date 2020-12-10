@@ -6,9 +6,9 @@ description: Découvrez les conseils et les bonnes pratiques pour surveiller les
 audience: production
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9aa0ecd423bfbf1082e9ce5bdb36aaf1611dea54
+workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP pa
 Des actions spécifiques peuvent être effectuées en cas de problème avec des diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problèmes liés à l’affichage des images](../../production/using/image-display-issues.md)
-* [Problèmes de performances des diffusions](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [Problèmes de performances des diffusions](../../delivery/using/delivery-performances.md)
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *sur les modèles d’hébergement on-Premise uniquement*
 
 ### Surveillance de la base de données {#monitoring-database}
