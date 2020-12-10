@@ -6,9 +6,9 @@ description: Publier sur Twitter
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le rendu du tweet.
 
 Le tracking est visualisable dans les rapports de diffusion et dans l&#39;onglet **[!UICONTROL Edition > Tracking]** de la diffusion et du service.
 
-La configuration du tracking s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/monitoring-a-delivery.md).
+La configuration du tracking s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ Pour chaque abonné, Adobe Campaign récupère les informations suivantes :
 * **[!UICONTROL Fuseau horaire]** : fuseau horaire de l&#39;utilisateur
 * **[!UICONTROL Vérifié]** : ce champ indique si l&#39;utilisateur possède un compte Twitter vérifié
 
-### Limitations {#limitations-1}
+### Limites {#limitations-1}
 
 Les limitations suivantes sont des contraintes inhérentes à Twitter.
 
