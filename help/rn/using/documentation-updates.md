@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5406b1cd6f9cf4f87071a9976be1728ba9d4fcef
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
 source-wordcount: '3676'
 ht-degree: 99%
@@ -340,7 +340,7 @@ La nouvelle option **Durée maximale d&#39;exécution de la personnalisation** d
 
 Les exemples d&#39;appels d&#39;API utilisant une requête **HttpServletRequest** avec logon() et query() ont été mis à jour. [En savoir plus](../../configuration/using/web-service-calls.md).
 
-Une recommandation pour l&#39;attribut **sqlDefault** de la définition de schéma a été ajoutée. [En savoir plus](../../configuration/using/elements-and-attributes.md#attribute-description).
+Une recommandation pour l&#39;attribut **sqlDefault** de la définition de schéma a été ajoutée. [En savoir plus](../../configuration/using/schema/attribute.md)).
 
 L&#39;intégration entre Adobe Campaign et Adobe Real-time Customer Data Platform est maintenant référencée dans le guide **Intégration avec Adobe Experience Cloud**. [En savoir plus](../../integrations/using/about-campaign-integrations.md).
 
