@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Le `<srcschema>` est l’élément racine d’un schéma. Il s’agit du point d
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-9}
 
-La présentation du schéma est disponible dans [A propos de la référence du schéma](../../configuration/using/about-schema-reference.md) et [Structure du schéma](../../configuration/using/schema-structure.md).
+La présentation du schéma est disponible dans [A propos de la référence du schéma](../../../configuration/using/about-schema-reference.md) et [Structure du schéma](../../../configuration/using/schema-structure.md).
 
 ## Description des attributs {#attribute-description-14}
 
