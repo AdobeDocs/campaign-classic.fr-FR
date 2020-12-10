@@ -6,9 +6,9 @@ description: Ce document décrit le modèle de données d’Adobe Campaign Cla
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ L’arborescence est gérée à l’aide des champs iParentId et iChildCount. Le
 
 ## Diffusion et tracking {#delivery-and-tracking}
 
-Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce propos la section [Suivre les diffusions](../../delivery/using/monitoring-a-delivery.md). Voir à ce propos la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
+Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Voir à ce propos la section [Suivre les diffusions](../../delivery/using/about-delivery-monitoring.md). Voir à ce propos la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
