@@ -6,9 +6,9 @@ description: FAQ d'Adobe Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ L’interface Security Zones Self Service peut être utilisée pour gérer les e
 
 Adobe Campaign contient un ensemble de tableaux de bord et d&#39;outils qui permettent de suivre les diffusions de vos emails.
 
-[Cliquez ici pour découvrir](../../delivery/using/monitoring-a-delivery.md) comment vous assurer que vos messages sont bien envoyés, surveiller l&#39;exécution et entreprendre une action en cas d&#39;erreur.
+[Cliquez ici pour découvrir](../../delivery/using/about-delivery-monitoring.md) comment vous assurer que vos messages sont bien envoyés, surveiller l&#39;exécution et entreprendre une action en cas d&#39;erreur.
 
 ## 5. Est-il possible de suivre l&#39;exécution des workflows ?{#can-i-monitor-workflow-execution}
 
