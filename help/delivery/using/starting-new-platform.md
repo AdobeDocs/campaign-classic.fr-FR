@@ -6,9 +6,9 @@ description: En savoir plus sur la gestion de la délivrabilité lors du démarr
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Le démarrage d’une plate-forme s’accompagne souvent de l’utilisation d’
 * **Limitez le débit** en limitant le nombre de mtachilds. Pour plus d’informations sur la modification de ce paramètre technique, contactez votre administrateur Adobe Campaign.
 * **Augmentez progressivement les volumes envoyés** pour éviter que les emails soient marqués comme spam. Ne ciblez pas l’ensemble de la base de données dès le début, mais ajoutez plutôt une partie supplémentaire de la liste à chaque envoi. Vous devriez ainsi pouvoir augmenter le volume à chaque étape tout en réduisant le taux global d’adresses non valides. Pour un développement fluide de la phase de démarrage, vous pouvez utiliser des vagues. Pour plus d’informations à ce sujet, voir la section [Envoyer en plusieurs vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 * **Effectuez régulièrement des envois**. Dans une certaine mesure, il est préférable de réaliser de petits envois fréquents plutôt que des envois volumineux et sporadiques.
-* **Accordez de l’attention aux rapports de diffusion**. La présence d’indicateurs d’erreur élevés peut révéler un paramètre technique mal configuré. Voir à ce propos la section [Suivre une diffusion](../../delivery/using/monitoring-a-delivery.md).
+* **Accordez de l’attention aux rapports de diffusion**. La présence d’indicateurs d’erreur élevés peut révéler un paramètre technique mal configuré. Voir à ce propos la section [Suivre une diffusion](../../delivery/using/about-delivery-monitoring.md).
 
 **Rubriques connexes** :
 * [Augmentez la réputation de vos emails grâce au rodage des adresses IP](https://helpx.adobe.com/fr/campaign/kb/increase-email-rep-ip-warming.html)
