@@ -6,9 +6,9 @@ description: Découvrez comment créer des notifications push
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ L&#39;envoi du BAT et l&#39;envoi final de la notification s&#39;effectuent de l
 Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions. Voir à ce sujet les sections suivantes :
 
 * [Quarantaines des notifications push](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Contrôler une diffusion](../../delivery/using/monitoring-a-delivery.md)
+* [Contrôler une diffusion](../../delivery/using/about-delivery-monitoring.md)
 * [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
 
 ## Envoi de notifications sur Android {#sending-notifications-on-android}
@@ -138,5 +138,5 @@ Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion
 Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions. Voir à ce sujet les sections suivantes :
 
 * [Quarantaines des notifications push](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [Contrôler une diffusion](../../delivery/using/monitoring-a-delivery.md)
+* [Contrôler une diffusion](../../delivery/using/about-delivery-monitoring.md)
 * [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
