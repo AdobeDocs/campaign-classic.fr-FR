@@ -1,0 +1,72 @@
+---
+solution: Campaign Classic
+product: campaign
+title: Eléments et attributs
+description: Eléments et attributs
+audience: configuration
+content-type: reference
+topic-tags: schema-reference
+translation-type: tm+mt
+source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 100%
+
+---
+
+
+# `<join>` element {#join--element}
+
+## Modèle de contenu {#content-model-7}
+
+join:==EMPTY
+
+## Attributs {#attributes-7}
+
+* @dstFilterExpr (string)
+* @xpath-dst (string)
+* @xpath-src (string)
+
+## Parents {#parents-7}
+
+`<element>`
+
+## Enfants {#children-7}
+
+Aucun
+
+## Description {#description-7}
+
+Cet élément permet de définir les champs créant une jointure entre des tables SQL.
+
+## Usage et contexte d&#39;utilisation {#use-and-context-of-use-5}
+
+Un  élément `<join>` ne peut être utilisé que si l’élément `<element>` parent est de type &quot;link&quot;. Cela signifie que l’attribut « @type=link » doit être déclaré pour l’élément parent.
+
+Il n’est pas nécessaire de spécifier le nom et l’espace de nommage de la table distante dans l’élément `<join>`. Ils doivent être spécifiés dans le `<element>` parent.
+
+Par convention, les liens sont définis à la fin du schéma.
+
+Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;un élément de type &quot;link&quot;, alors le lien sera automatiquement posé sur les clefs primaires des deux tables.
+
+## Description des attributs {#attribute-description-7}
+
+* **dstFilterExpr (string)** : cet attribut permet de restreindre le nombre de valeurs éligibles dans la table distante.
+* **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; de la table distante).
+* **xpath-src (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; dans le schéma courant).
+
+## Exemples      {#examples-6}
+
+Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@compagny-id&quot; de la table distante:
+
+```
+<join xpath-dst="@compagny-id" xpath-src="@email"/>
+```
+
+Lien &#39;filtré&#39; vers la table &quot;cus:Country&quot; basé sur le contenu du champ &quot;@country&quot; qui doit contenir la valeur &#39;FR&#39; :
+
+```
+<element name="StockEN" type="link" label="MyLink" target="cus:Stock">
+   <join xpath-dst="@country" xpath-src="@code" dstFilterExpr="@country = 'EN'"/>
+ </element>
+```
