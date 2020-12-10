@@ -6,9 +6,9 @@ description: Découvrez les outils et les directives concernant la supervision d
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
@@ -38,10 +38,10 @@ Vous pouvez également utiliser les outils suivants :
    * **[!UICONTROL Erreurs soft]** qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
 
    Voir à ce propos la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
-* Plus généralement, le [tableau de bord des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) donne accès aux éléments suivants :
-   * [Synthèse des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-summary), qui indique le détail de l’envoi et le [nombre de messages](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) à envoyer, traités et envoyés avec succès.
-   * [Logs et historique de la diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history), qui montrent les cibles exclues et le motif d’exclusion.
-   * [Logs de tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs), qui affichent les informations de tracking, telles que les ouvertures et les clics.
+* Plus généralement, le [tableau de bord des diffusions](../../delivery/using/about-delivery-monitoring.md) donne accès aux éléments suivants :
+   * [Synthèse des diffusions](../../delivery/using/delivery-dashboard.md#delivery-summary), qui indique le détail de l’envoi et le nombre de messages à envoyer, traités et envoyés avec succès.
+   * [Logs et historique de la diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history), qui montrent les cibles exclues et le motif d’exclusion.
+   * [Logs de tracking](../../delivery/using/delivery-dashboard.md#tracking-logs), qui affichent les informations de tracking, telles que les ouvertures et les clics.
 
 ## Directives de supervision {#monitoring-guidelines}
 
@@ -53,7 +53,7 @@ Voici quelques directives supplémentaires concernant la supervision de la déli
 * Vérifiez chaque débit de diffusion pour vous assurer qu&#39;il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
 * Lors de l’utilisation des [vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
 * Vérifiez que le nombre d’erreurs et les [mises en quarantaine](../../delivery/using/understanding-quarantine-management.md) correspondent aux autres diffusions.
-* Consultez attentivement les [logs de diffusion](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
+* Consultez attentivement les [logs de diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
 
 ## Signal Spam {#signal-spam}
 
