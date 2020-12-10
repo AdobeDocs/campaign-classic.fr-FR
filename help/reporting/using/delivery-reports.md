@@ -6,11 +6,11 @@ description: Rapports sur les diffusions
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Ce rapport regroupe les indicateurs clés qui permettent de suivre le comporteme
 * **[!UICONTROL Ouvertures distinctes sur la population atteinte]** : Estimation du nombre de destinataires ciblés distincts ayant ouvert au moins une fois un même message. Les clics sur les liens de désinscription et page miroir sont comptabilisés.
 * **[!UICONTROL Somme des ouvertures sur la population atteinte]** : Estimation du nombre total d&#39;ouvertures effectuées par des destinataires ciblés.
 * **[!UICONTROL Clics sur le lien de désinscription]** : Nombre de clics effectués sur le lien de désinscription.
-* **[!UICONTROL Clics sur le lien de la page miroir]** : Nombre de clics effectués sur le lien de la page miroir. Pour être comptabilisé, le lien doit être défini comme tel dans l&#39;assistant de diffusion (URL trackées). Reportez-vous à cette [page](../../delivery/using/monitoring-a-delivery.md).
+* **[!UICONTROL Clics sur le lien de la page miroir]** : Nombre de clics effectués sur le lien de la page miroir. Pour être comptabilisé, le lien doit être défini comme tel dans l&#39;assistant de diffusion (URL trackées). Reportez-vous à cette [page](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation des transferts]** : Estimation du nombre d&#39;emails transférés par les destinataires cibles de la diffusion à d&#39;autres personnes. Cette valeur est calculée en effectuant la différence entre le nombre de personnes distinctes et le nombre de destinataires distincts ayant cliqué au moins une fois dans le mail.
 
    >[!NOTE]
@@ -124,7 +124,7 @@ Ce rapport présente le palmarès des pages visitées suite au lancement d&#39;u
 
 ![](assets/s_ncs_user_url_report.png)
 
-Vous pouvez paramétrer le contenu de ce rapport en sélectionnant : le palmarès à afficher, le périmètre de la vue (depuis le lancement de l&#39;action, sur les six premières heures suivant le lancement, etc.) et le mode d&#39;affichage des données (par libellé, par URL, par catégorie - voir à ce sujet [cette page](../../delivery/using/monitoring-a-delivery.md)). Cliquez sur **[!UICONTROL Actualiser]** pour valider votre choix.
+Vous pouvez configurer le contenu de ce rapport en sélectionnant : le graphique de score à afficher, le filtre temporel (depuis le lancement de l&#39;action, au cours des 6 premières heures suivant le lancement, etc.) et le mode d&#39;affichage des données (par étiquette, par URL, par catégorie). Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
 
 Dans la section supérieure du rapport, les taux suivants sont affichés :
 
