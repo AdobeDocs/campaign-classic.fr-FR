@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1b498e9f47dc3cfc108ee182829b83442819629d
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2216'
 ht-degree: 98%
 
 ---
@@ -710,7 +710,8 @@ ht-degree: 98%
       + [À propos de la référence des schémas](configuration/using/about-schema-reference.md)
       + [Structure d&#39;un schéma](configuration/using/schema-structure.md)
       + [Mapping de la base de données](configuration/using/database-mapping.md)
-      + [Eléments et attributs](configuration/using/elements-and-attributes.md)
+      + [Eléments et attributs]  {#elements-attributes}
+         + [Introduction](configuration/using/schema-introduction.md)
          + [Attribut](configuration/using/schema/attribute.md)
          + [Compute string](configuration/using/schema/compute-string.md)
          + [Condition](configuration/using/schema/condition.md)
