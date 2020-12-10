@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 854d509315f1d8585cb041575908df896468cc77
+source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2215'
 ht-degree: 98%
 
 ---
@@ -710,7 +710,24 @@ ht-degree: 98%
       + [À propos de la référence des schémas](configuration/using/about-schema-reference.md)
       + [Structure d&#39;un schéma](configuration/using/schema-structure.md)
       + [Mapping de la base de données](configuration/using/database-mapping.md)
-      + [Eléments et attributs](configuration/using/elements-and-attributes.md)
+      + Eléments et attributs {#elements-and-attributes}
+         + [Attribut](configuration/using/schema/attribute.md)
+         + [Compute string](configuration/using/schema/compute-string.md)
+         + [Condition](configuration/using/schema/condition.md)
+         + [Index de base de données](configuration/using/schema/db-index.md)
+         + [Elément](configuration/using/schema/element.md)
+         + [Enumération](configuration/using/schema/enumeration.md)
+         + Aide d’[ ](configuration/using/schema/help.md)
+         + [Jointure](configuration/using/schema/join.md)
+         + [Clé](configuration/using/schema/key.md)
+         + [Keyfield](configuration/using/schema/keyfield.md)
+         + [Méthodologie](configuration/using/schema/method.md)
+         + [Méthodes](configuration/using/schema/methods.md)
+         + [Param](configuration/using/schema/param.md)
+         + [Paramètres](configuration/using/schema/parameters.md)
+         + [SrcSchema](configuration/using/schema/srcschema.md)
+         + [Sysfilter](configuration/using/schema/sysfilter.md)
+         + [Valeur](configuration/using/schema/value.md)
    + Edition des schémas {#editing-schemas}
       + [A propos de l’édition de schéma](configuration/using/about-schema-edition.md)
       + [Schémas de données](configuration/using/data-schemas.md)
