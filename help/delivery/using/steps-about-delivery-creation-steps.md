@@ -6,9 +6,9 @@ description: Découvrez les principales étapes de création de diffusions dans 
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
 
 1. **Envoyer la diffusion**. [En savoir plus](../../delivery/using/steps-sending-the-delivery.md)
 
-1. **Suivre la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour en savoir plus, consultez les sections [Suivi des diffusions](../../delivery/using/monitoring-a-delivery.md) et [Tracking des diffusions](../../delivery/using/about-message-tracking.md).
+1. **Suivre la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour en savoir plus, consultez les sections [Suivi des diffusions](../../delivery/using/about-delivery-monitoring.md) et [Tracking des diffusions](../../delivery/using/about-message-tracking.md).
 
 >[!NOTE]
 >
