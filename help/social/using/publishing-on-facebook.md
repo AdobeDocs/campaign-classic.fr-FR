@@ -6,9 +6,9 @@ description: Publier sur Facebook
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -196,7 +196,7 @@ Le tracking est visualisable dans les rapports de diffusion et dans l&#39;onglet
 
 Les clics sur l&#39;URL contenue dans la diffusion sont mesurés par Adobe Campaign. Le nombre de clics sur le bouton **[!UICONTROL J&#39;aime]**, le nombre de commentaires et le nombre de fans sont mesurés par Facebook.
 
-La configuration du tracking s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/monitoring-a-delivery.md).
+La configuration du tracking s’effectue de la même manière que pour une diffusion email. Voir à ce sujet [cette section](../../delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >
