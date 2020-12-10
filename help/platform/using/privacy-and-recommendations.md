@@ -6,9 +6,9 @@ description: En savoir plus sur la confidentialité et le consentement
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 97e039e48068e3862bc6640711efe54f21fc0f15
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 100%
 
@@ -87,15 +87,15 @@ Les [principaux règlements](#privacy-regulations) se réfèrent de la manière 
 
 Ainsi, en tant qu&#39;entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Campaign agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu&#39;en tant que contrôleur de données, il vous appartient de gérer les relations avec les titulaires de données, par exemple lors de la gestion des [demandes d&#39;accès à des informations personnelles](#privacy-requests).
 
-### Scénario d&#39;utilisation {#use-case-scenario}
+### Scénario d’utilisation {#use-case-scenario}
 
-Pour illustrer l’interaction entre les différents acteurs impliqués, voici un exemple de cas d’utilisation d’une expérience client RGPD de haut niveau.
+Pour illustrer l’interaction entre les différentes personnes, voici un exemple général de cas d’utilisation d’expérience client de RGPD de haut niveau.
 
-Dans cet exemple, une compagnie aérienne est le client Adobe Campaign. Cette compagnie est le **contrôleur de données** et tous ses clients sont les **titulaires de données**. Dans ce cas particulier, Laura est une cliente de la compagnie aérienne.
+Dans cet exemple, une compagnie aérienne est le client Adobe Campaign. Cette société est le **contrôleur de données** et tous les clients de la compagnie aérienne sont **titulaires de données**. Dans ce cas particulier, Laura est une cliente de la compagnie aérienne.
 
 Voici les différentes personnes utilisées dans cet exemple :
 
-* **Laura** est le **titulaire de données**. Elle est la destinataire qui reçoit les messages de la compagnie aérienne. Même si Laura voyage souvent, elle peut décider à un moment donné qu&#39;elle ne veut pas de publicité personnalisée ou de messages marketing de la compagnie aérienne. Elle va demander à la compagnie aérienne (selon le processus prévu par l&#39;entreprise) de supprimer son numéro de &quot;grand voyageur&quot;.
+* **Laura** est la **titulaire de données**. Elle reçoit les messages de la compagnie aérienne. Laura voyage peut-être fréquemment, mais elle peut décider à un moment donné de ne pas recevoir de publicité personnalisée ou de messages marketing de la part de la compagnie aérienne. Elle demandera à la compagnie aérienne (selon leur processus) de supprimer son numéro de vol fréquent.
 
 * **Anne** est le **contrôleur de données** de la compagnie aérienne. Elle reçoit la demande de Laura, récupère les identifiants utiles requis pour identifier le titulaire de données et soumet la demande dans Adobe Campaign.
 
@@ -105,11 +105,11 @@ Voici les différentes personnes utilisées dans cet exemple :
 
 Voici le flux général de ce cas pratique :
 
-1. Le **titulaire de données** (Laura) envoie une demande RGPD au **contrôleur de données**, par le biais d&#39;un email, de l&#39;assistance clientèle ou d&#39;un portail web.
+1. Le **titulaire de données** (Laura) envoie une demande RGPD au **contrôleur de données** par email, par le biais de l’assistance clientèle ou d’un portail web.
 
-1. Le **contrôleur de données** (Anne) transmet la demande RGPD à Campaign à l&#39;aide de l&#39;interface ou d&#39;une API.
+1. Le **contrôleur de données** (Anne) transmet la demande RGPD à Campaign via l’interface ou à l’aide d’une API.
 
-1. Lorsque le **responsable du traitement des données** (Adobe Campaign) reçoit la demande, il la traite et envoie une réponse ou une confirmation au **contrôleur de données** (Anne).
+1. Une fois que le **responsable du traitement des données** (Adobe Campaign) reçoit la demande, il la traite et envoie une réponse ou une confirmation au **contrôleur de données** (Anne).
 
 1. Le **contrôleur de données** (Anne) examine ensuite les informations et les renvoie au **titulaire de données** (Laura).
 
@@ -141,7 +141,7 @@ Depuis l&#39;origine, Adobe Campaign dispose de fonctions importantes, essentiel
 * **Conservation des données** : toutes les tables de journalisation standard natives comportent des périodes de rétention prédéfinies, limitant généralement le stockage de leurs données à 6 mois maximum. Il est possible de définir des périodes de conservation supplémentaires à l&#39;aide de workflows. Pour en savoir plus, contactez les consultants Adobe ou les administrateurs techniques.
 * **Gestion des droits** : Adobe Campaign permet de gérer les droits affectés aux divers opérateurs Campaign par l&#39;intermédiaire de différents rôles préconfigurés ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Voir à ce sujet la section [Gestion des accès](../../platform/using/access-management.md).
 
-Pour plus d’informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette section](../../platform/using/privacy-management.md#consent-retention-roles).
+Pour plus d&#39;informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette section](../../platform/using/privacy-management.md#consent-retention-roles).
 
 ### Demandes d&#39;accès à des informations personnelles {#privacy-requests}
 
@@ -176,7 +176,7 @@ Les règlements tels que le Règlement général sur la protection des données 
 
 Adobe Campaign vous permet de suivre les emails envoyés et le comportement de vos destinataires de diffusion : ouverture, clics sur des liens, désinscriptions, etc. Pour plus d&#39;informations à ce sujet, consultez la section [A propos du tracking des messages](../../delivery/using/about-message-tracking.md).
 
-Pour ce faire, ajoutez des [liens suivis](../../delivery/using/how-to-configure-tracked-links.md) à vos messages afin de mesurer l&#39;impact de votre diffusion et le comportement du destinataire dans l&#39;onglet [Tracking](../../delivery/using/monitoring-a-delivery.md#tracking-logs) du tableau de bord de diffusion. Les données de suivi sont interprétées dans le rapport des [indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
+Pour ce faire, ajoutez des [liens suivis](../../delivery/using/how-to-configure-tracked-links.md) à vos messages afin de mesurer l&#39;impact de votre diffusion et le comportement du destinataire dans l&#39;onglet [Tracking](../../delivery/using/delivery-dashboard.md#tracking-logs) du tableau de bord de diffusion. Les données de suivi sont interprétées dans le rapport des [indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 ### Tracking web {#web-tracking}
 
