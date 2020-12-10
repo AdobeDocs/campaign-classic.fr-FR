@@ -1,0 +1,211 @@
+---
+solution: Campaign Classic
+product: campaign
+title: Tableau de bord de la diffusion
+description: Découvrez comment utiliser le tableau de bord de diffusion pour surveiller vos diffusions.
+audience: delivery
+content-type: reference
+topic-tags: monitoring-deliveries
+translation-type: tm+mt
+source-git-commit: 3c82e30cdc1057be6357d48170b959fb89c79528
+workflow-type: tm+mt
+source-wordcount: '1242'
+ht-degree: 45%
+
+---
+
+
+# Tableau de bord de la diffusion {#delivery-dashboard}
+
+Le **tableau de bord des diffusions** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l&#39;envoi des messages.
+
+Il vous permet de récupérer des informations sur une diffusion et de les modifier si nécessaire. Notez que le contenu des onglets ne peut plus être modifié une fois la diffusion envoyée.
+
+Vous trouverez ci-dessous les informations à surveiller à l’aide des différents onglets disponibles dans le tableau de bord :
+
+* [Synthèse des diffusions (Delivery summary)](#delivery-summary)
+* [Rapports sur les diffusions](#delivery-reports)
+* [Logs de diffusion, pages miroir, exclusions](#delivery-logs-and-history)
+* [Logs de tracking de diffusion et historique](#tracking-logs)
+* [Rendu des diffusions](#delivery-rendering)
+* [Suivi de la diffusion](#delivery-audit-)
+
+![](assets/s_ncs_user_del_details.png)
+
+**Rubriques connexes :**
+
+* [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
+* [Comprendre la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md)
+* [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md)
+* [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md)
+
+## Synthèse des diffusions (Delivery summary){#delivery-summary}
+
+L&#39;onglet **[!UICONTROL Résumé]** contient les caractéristiques de la diffusion : état de la diffusion, canal utilisé, informations sur l&#39;expéditeur, objet, informations relatives à l&#39;exécution.
+
+## Rapports sur les diffusions {#delivery-reports}
+
+Le lien **[!UICONTROL Rapports]**, accessible à partir de l&#39;onglet **[!UICONTROL Résumé]**, vous permet de consulter un ensemble de rapports liés à l&#39;action de diffusion : rapport général de diffusion, rapport détaillé, rapport de diffusion, distribution des messages en échec, taux d&#39;ouverture, clics et transactions, etc.
+
+Le contenu de cet onglet peut être configuré en fonction de vos besoins. Pour plus d&#39;informations sur les rapports de diffusion, consultez [cette section](../../reporting/using/delivery-reports.md).
+
+![](assets/delivery-report.png)
+
+## Logs de diffusion, historique et exclusions {#delivery-logs-and-history}
+
+L&#39;onglet **[!UICONTROL Diffusion]** propose un historique des occurrences de cette diffusion. Il contient les logs de diffusion, c&#39;est-à-dire la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire et les messages associés.
+
+Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires pour lesquels l&#39;envoi a échoué ou ceux dont l&#39;adresse est en quarantaine. Pour cela, cliquez sur le bouton **[!UICONTROL Filtres]** et choisissez **[!UICONTROL Par Statut]**. Sélectionnez ensuite le statut dans la liste déroulante affichée au-dessus de la liste. Les différents statuts sont répertoriés dans [cette page](../../delivery/using/delivery-statuses.md).
+
+>[!NOTE]
+>
+>La liste qui affiche les logs de diffusion peut être personnalisée, comme toute liste dans le Campaign Classic. Vous pouvez, par exemple, ajouter une colonne pour connaître l’adresse IP qui a envoyé chaque courriel dans une diffusion. Pour plus d&#39;informations sur ce sujet, reportez-vous au cas d&#39;utilisation détaillé dans [cette section](#use-case).
+
+![](assets/s_ncs_user_delivery_delivery_tab.png)
+
+**[!UICONTROL Afficher la page miroir de ce message...Le lien]** vous permet de vue de la page miroir du contenu de la diffusion sélectionnée dans la liste dans une nouvelle fenêtre.
+
+La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la section [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+
+![](assets/s_ncs_user_wizard_miror_page_link.png)
+
+## Logs de tracking de diffusion et historique {#tracking-logs}
+
+L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking sont mises à jour toutes les heures.
+
+>[!NOTE]
+>
+>Si le tracking n&#39;est pas activé pour une diffusion, cet onglet n&#39;est pas affiché.
+
+Le paramétrage du tracking est effectué dans l&#39;assistant de diffusion, à l&#39;étape concernée. Voir à ce sujet la section [Comment configurer des liens trackés](../../delivery/using/how-to-configure-tracked-links.md). 
+
+Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports de diffusion. Voir [cette section](../../reporting/using/delivery-reports.md).
+
+![](assets/s_ncs_user_delivery_tracking_tab.png)
+
+## Inbox rendering {#delivery-rendering}
+
+L&#39;onglet **[!UICONTROL Rendu de la boîte de réception]** vous permet de prévisualisation le message dans les différents contextes dans lesquels il peut être reçu et de vérifier la compatibilité dans les principaux ordinateurs de bureau et applications.
+
+Ainsi, vous pouvez vous assurer que votre message sera affiché aux destinataires de manière optimale sur divers clients Web, courriels Web et périphériques.
+
+Pour plus d’informations sur le rendu de la boîte de réception, voir [cette page](../../delivery/using/inbox-rendering.md)
+
+![](assets/s_tn_inbox_rendering_tokens.png)
+
+## Suivi de la diffusion {#delivery-audit-}
+
+L&#39;onglet **[!UICONTROL Audit]** contient le journal des diffusions et tous les messages concernant les BAT.
+
+Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les données. Utilisez le bouton **[!UICONTROL Filtres]** pour définir un filtre sur les données.
+
+Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir la section [Analyser la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+
+Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des BAT qui ont été envoyés.
+
+![](assets/s_ncs_user_delivery_log_tab.png)
+
+Vous pouvez modifier les informations affichées dans cette fenêtre (ainsi que celles des onglets **[!UICONTROL Diffusion]** et **[!UICONTROL Tracking]**) en sélectionnant les colonnes à afficher. Pour cela, cliquez sur l&#39;icône **[!UICONTROL Configurer la liste]**, située en bas à droite. La configuration de l&#39;affichage des listes est présentée dans [cette section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+
+## Synchronisation du tableau de bord des diffusions {#delivery-dashboard-synchronization}
+
+Dans le tableau de bord des diffusions, vous souhaitez vérifier les messages traités et les logs de diffusion pour vous assurer que la diffusion a bien été envoyée.
+
+Certains indicateurs ou statuts peuvent être incorrects ou ne pas être à jour. Ce problème peut être résolu à l&#39;aide des solutions suivantes :
+
+* Si le statut de votre diffusion est incorrect, vérifiez que toutes les validations nécessaires ont été effectuées pour celle-ci ou que les workflows **[!UICONTROL operationMgt]** et **[!UICONTROL deliveryMgt]** s&#39;exécutent sans erreur. La diffusion peut aussi utiliser une affinité qui n&#39;est pas configurée sur l&#39;instance d&#39;envoi.
+
+* Si les indicateurs de diffusion sont toujours à zéro et que vous utilisez une configuration en mid-sourcing, vérifiez le workflow technique **[!UICONTROL Mid-sourcing (compteurs des diffusions)]**. Lancez-le si son statut n&#39;est pas **[!UICONTROL Démarré]**. Vous pouvez ensuite essayer de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l&#39;explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d&#39;envoi et de tracking]**. Pour plus d&#39;informations sur les indicateurs de tracking, voir cette [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+
+* Si le compteur de diffusions ne correspond pas à votre diffusion, essayez de recalculer les indicateurs en procédant comme suit : cliquez avec le bouton droit sur la diffusion en question dans l&#39;explorateur Adobe Campaign et sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Recalculer les indicateurs d&#39;envoi et de tracking]** pour effectuer une nouvelle synchronisation. Pour plus d&#39;informations sur les indicateurs de tracking, référez-vous à cette [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+
+* Si votre compteur de diffusions n&#39;est pas à jour pour les déploiements Mid-sourcing, vérifiez que le workflow technique **[!UICONTROL Mid-sourcing (compteurs des diffusions)]** est en cours d&#39;exécution. Pour plus d&#39;informations à ce sujet, voir cette [page](../../installation/using/mid-sourcing-deployment.md).
+
+Vous pouvez également effectuer un tracking de vos diffusions à l&#39;aide de différents rapports dans le tableau de bord des diffusions. Voir à ce sujet cette [section](../../reporting/using/delivery-reports.md).
+
+## Cas d’utilisation : Ajouter les adresses IP des expéditeurs aux journaux {#use-case}
+
+Dans cette section, vous apprendrez comment ajouter aux informations des logs de diffusion concernant l’adresse IP qui a envoyé chaque courrier électronique dans une diffusion.
+
+>[!NOTE]
+>
+>Cette modification est différente si vous utilisez une instance unique ou une instance de midsourcing. Avant de procéder à la modification, vérifiez que vous êtes connecté à l’instance d’envoi de courrier électronique.
+
+### Étape 1 : Étendre le schéma
+
+Pour ajouter **publicID** dans vos logs de diffusion, vous devez d’abord étendre le schéma. Vous pouvez procéder comme suit.
+
+1. Créez une extension de schéma sous **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]** > **[!UICONTROL New]**.
+
+   Pour plus d&#39;informations sur les extensions de schéma, consultez [cette page](../../configuration/using/extending-a-schema.md).
+
+1. Sélectionnez **[!UICONTROL wideLogRcp]** pour étendre les logs de diffusion du Destinataire (nms) et définir un Espace de nommage personnalisé. Dans ce cas, ce sera &quot;cus&quot; :
+
+   ![](assets/schema-parameters.png)
+
+   >[!NOTE]
+   >
+   >Si votre instance est en Midsourcing, vous devez utiliser le schéma wideLogMid.
+
+1. Ajoutez le nouveau champ dans votre extension. Dans cet exemple, vous devez remplacer :
+
+   ```
+   <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log" name="broadLogRcp"/>
+   ```
+
+   par :
+
+   ```
+   <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log" name="broadLogRcp">
+   <attribute desc="Outbound IP identifier" label="IP identifier"
+   name="publicId" type="long"/>
+   </element>
+   ```
+
+   ![](assets/edit-schema.png)
+
+### Étape 2 : Mettre à jour la structure de base de données
+
+Une fois les modifications effectuées, vous devez mettre à jour la structure de la base de données afin de l’aligner sur sa description logique.
+
+Pour ce faire, procédez comme suit :
+
+1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Mettre à jour la structure de la base de données...]**.
+
+   ![](assets/update-database-structure.png)
+
+1. Dans la fenêtre **[!UICONTROL Modifier les tables]**, la table **[!UICONTROL NmsBroadLogRcp]** est cochée (ou la table **[!UICONTROL wideLogMid]** si votre environnement est dans un Midsourcing), comme suit :
+
+   ![](assets/edit-tables.png)
+
+   >[!IMPORTANT]
+   >
+   >Assurez-vous toujours qu&#39;il n&#39;y a aucune autre modification, à l&#39;exception de la table **[!UICONTROL NmsBroadLoGRcp]** (ou de la table **[!UICONTROL largeLogMid]** si vous êtes dans un environnement de Midsourcing). Si tel est le cas, désélectionnez les autres tables.
+
+1. Cliquez sur **[!UICONTROL Suivant]** pour valider. L’écran suivant s’affiche :
+
+   ![](assets/update-script.png)
+
+1. Cliquez sur **[!UICONTROL Suivant]**, puis **[!UICONTROL Début]** pour début de la mise à jour de la structure de la base de données. La création de l&#39;index commence. Cette étape peut être longue, en fonction du nombre de lignes de la table **[!UICONTROL NmsBroadLogRcp]**.
+
+   ![](assets/start-database-update.png)
+
+>[!NOTE]
+>
+>Une fois la mise à jour de la structure physique de la base de données terminée, vous devez vous déconnecter et vous reconnecter afin que vos modifications soient prises en compte.
+
+### Étape 3 : Valider la modification
+
+Pour vérifier que tout fonctionnait correctement, vous devez mettre à jour l’écran logs de diffusion.
+
+Pour ce faire, accédez aux logs de diffusion et ajoutez la colonne &quot;Identifiant IP&quot;.
+
+![](assets/list-config.png)
+
+>[!NOTE]
+>
+>Pour savoir comment configurer des listes dans l&#39;interface du Campaign Classic, consultez [cette page](../../platform/using/adobe-campaign-workspace.md).
+
+Vous trouverez ci-dessous ce que vous devez voir dans l’onglet **[!UICONTROL Diffusion]** après les modifications :
+
+![](assets/logs-with-ip.png)
