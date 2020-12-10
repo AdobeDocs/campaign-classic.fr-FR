@@ -5,9 +5,9 @@ title: Tracking et surveillance des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Vous avez cliqué sur le bouton Envoyer ? Voyons maintenant ce qui se passe. Un
 Pour contrôler vos campagnes, vous devez vérifier que le message a bien été délivré à vos destinataires.
 
 Depuis le tableau de bord des diffusions de Campaign, vous pouvez vérifier les messages traités et consulter les logs d’audit de diffusion.
-Vous pouvez également contrôler le statut des messages dans les logs de diffusion. [En savoir plus](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+Vous pouvez également contrôler le statut des messages dans les logs de diffusion. [En savoir plus](../../delivery/using/about-delivery-monitoring.md).
 
 Que faire si les diffusions ne sont pas envoyées et restent dans un état **En attente** ?
 
@@ -65,6 +65,6 @@ Des actions spécifiques peuvent être effectuées en cas de problèmes liés au
 
 * [Problèmes liés à l’affichage des images](../../production/using/image-display-issues.md)
 
-* [Problèmes de performances des diffusions](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [Problèmes de performances des diffusions](../../delivery/using/delivery-performances.md)
 
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *clients On-premise uniquement*
