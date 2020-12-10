@@ -6,9 +6,9 @@ description: Structure d'un schéma
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Les règles à respecter sont les suivantes :
 
 Le type de données est renseigné à partir de l&#39;attribut **type** sur les éléments **`<attribute>`** et **`<element>`**.
 
-Une liste complète est disponible dans la description de l&#39;[`<attribute>`élément](../../configuration/using/elements-and-attributes.md#attribute--element) et de l’[`<element>`élément](../../configuration/using/elements-and-attributes.md#element--element).
+Une liste complète est disponible dans la description de l&#39;[`<attribute>`élément](../../configuration/using/schema/attribute.md) et de l’[`<element>`élément](../../configuration/using/schema/element.md)).
 
 Lorsque cet attribut n’est pas renseigné, **string** est le type de données par défaut, sauf si l’élément contient des éléments enfants. Si tel est le cas, il est utilisé uniquement pour structurer les éléments de manière hiérarchique (élément **`<location>`** dans notre exemple).
 
@@ -272,10 +272,10 @@ Le tableau suivant liste les correspondances des types de données générés pa
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
-   <td> DOUBLE PRECISION<br /> </td> 
+   <td> PRÉCISION DU doublon<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> DOUBLE<br /> </td> 
+   <td> DOUBLON<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
@@ -486,6 +486,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >
 >* **Location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
+
 >
 
 
