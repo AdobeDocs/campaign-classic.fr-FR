@@ -6,9 +6,9 @@ description: Canal SMS
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '3270'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Pour ce faire, procédez comme suit :
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 
-   La case à cocher **[!UICONTROL Activer le TLS sur SMPP]** vous permet de chiffrer le trafic SMPP. Voir à ce sujet cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
+   La case à cocher **[!UICONTROL Activer le TLS sur SMPP]** vous permet de chiffrer le trafic SMPP. Voir à ce sujet cette [note technique](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. Si vous paramétrez un connecteur **[!UICONTROL SMPP Générique étendu]**, vous pouvez configurer des réponses automatiques.
 
@@ -490,7 +490,7 @@ Les options disponibles sont les suivantes :
 
 Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions. Voir à ce sujet les sections suivantes :
 
-* [Contrôler une diffusion](../../delivery/using/monitoring-a-delivery.md)
+* [Contrôler une diffusion](../../delivery/using/about-delivery-monitoring.md)
 * [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
 * [A propos du tracking des messages](../../delivery/using/about-message-tracking.md)
 
@@ -595,6 +595,6 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!IMPORTANT]
 >
->Il n&#39;existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le [tableau de bord des diffusions](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard).
+>Il n&#39;existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le [tableau de bord des diffusions](../../delivery/using/delivery-dashboard.md).
 >
 >Ces messages ne sont pas non plus comptabilisés dans les [règles de pression commerciale](../../campaign/using/pressure-rules.md).
