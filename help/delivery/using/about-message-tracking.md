@@ -6,9 +6,9 @@ description: A propos du tracking des messages
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Dans le cadre d&#39;une diffusion par email, le tracking permet le suivi des mes
 
 Les mesures de tracking peuvent être consultées dans les rapports **[!UICONTROL URL et flux de clics]**, **[!UICONTROL Statistiques de tracking]** et **[!UICONTROL Position des clics]** et dans l&#39;onglet **[!UICONTROL Tracking]** de la diffusion.
 
-Le tableau de bord des diffusions est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Voir à ce sujet [cette section](../../delivery/using/monitoring-a-delivery.md).
+Le tableau de bord des diffusions est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Voir à ce sujet [cette section](../../delivery/using/delivery-dashboard.md).
 
 **Rubriques connexes** :
 
