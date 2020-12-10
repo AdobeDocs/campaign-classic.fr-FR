@@ -6,10 +6,10 @@ description: Prise en main de l’édition de schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1014'
+translation-type: tm+mt
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+workflow-type: tm+mt
+source-wordcount: '998'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >Vous pouvez également ajouter des énumérations gérées par l&#39;utilisateur (accessibles depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]**) pour spécifier les valeurs d&#39;un champ donné. Cela peut être judicieux si vous envisagez d&#39;utiliser votre énumération en dehors du schéma sur lequel vous travaillez.
 
-Pour en savoir plus sur les énumérations, consultez les sections [Enumérations](../../configuration/using/schema-structure.md#enumerations) et [`<enumeration>`Elément](../../configuration/using/elements-and-attributes.md#enumeration--element).
+Pour en savoir plus sur les énumérations, consultez les sections [Enumérations](../../configuration/using/schema-structure.md#enumerations) et [`<enumeration>`Elément](../../configuration/using/schema/enumeration.md).
 
 ## Index {#index}
 
@@ -119,7 +119,7 @@ Les attributs permettent de définir les champs composant votre objet de donnée
 
 ![](assets/schemaextension_getting_started_2.png)
 
-La liste complète des attributs est disponible dans la section [`<attribute>`Elément](../../configuration/using/elements-and-attributes.md#attribute--element). Voici quelques-uns des attributs les plus utilisés :
+La liste complète des attributs est disponible dans la section [`<attribute>`Elément](../../configuration/using/schema/attribute.md). Voici quelques-uns des attributs les plus utilisés :
 
 * **@advanced**
 * **@dataPolicy**
@@ -138,7 +138,7 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 
    Pour obtenir le tableau répertoriant les correspondances des types de données générés par Adobe Campaign pour les différents systèmes de gestion de base de données, consultez la section [Correspondance des types de données Adobe Campaign/SGBD](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
-Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/elements-and-attributes.md#attribute-description).
+Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/schema/attribute.md).
 
 ### Exemples     {#examples}
 
@@ -146,13 +146,12 @@ Exemple de définition d&#39;une valeur par défaut :
 
 ```
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
-```
+`
 
-Exemple d&#39;utilisation d&#39;un attribut commun en tant que modèle pour un champ également marqué comme obligatoire :
-
+Example of using a common attribute as a template for a field also marked as mandatory:
 ```
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
-```
+"
 
 Exemple de champ calculé masqué au moyen de l&#39;attribut **@advanced** :
 
@@ -180,7 +179,7 @@ Les liens sont déclarés dans le schéma qui contient la **clé étrangère** d
 
 Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
-### Exemples     {#examples-1}
+### Exemples      {#examples-1}
 
 Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 
