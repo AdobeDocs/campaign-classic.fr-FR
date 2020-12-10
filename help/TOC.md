@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 13cc481606ffb78f9a755ef8aa8a9d7cbb5d44c2
+source-git-commit: 854d509315f1d8585cb041575908df896468cc77
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2196'
 ht-degree: 98%
 
 ---
@@ -153,7 +153,12 @@ ht-degree: 98%
       + [Gestion des inscriptions](delivery/using/managing-subscriptions.md)
       + [Marketing viral et réseaux sociaux](delivery/using/viral-and-social-marketing.md)
    + Suivre les diffusions {#monitoring-deliveries}
-      + [Contrôler une diffusion](delivery/using/monitoring-a-delivery.md)
+      + [Commencer avec la surveillance des diffusions](delivery/using/about-delivery-monitoring.md)
+      + [Accès à la liste des diffusions](delivery/using/list-of-deliveries.md)
+      + [Tableau de bord de la diffusion](delivery/using/delivery-dashboard.md)
+      + [Meilleures pratiques en matière de performances de diffusion](delivery/using/delivery-performances.md)
+      + [Résolution des problèmes liés aux diffusions](delivery/using/delivery-troubleshooting.md)
+      + [Statuts de diffusion](delivery/using/delivery-statuses.md)
       + [Comprendre les diffusions en échec](delivery/using/understanding-delivery-failures.md)
       + [Comprendre la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
    + Tracker les messages {#tracking-messages}
