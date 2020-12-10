@@ -6,9 +6,9 @@ description: Cette section fournit des informations générales spécifiques au 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 
@@ -31,6 +31,6 @@ Les étapes clés pour envoyer un email sont les suivantes :
 * [Définir la population cible](../../delivery/using/steps-defining-the-target-population.md)
 * [Définir le contenu de l&#39;email](../../delivery/using/defining-the-email-content.md)
 * [Envoyer l&#39;email](../../delivery/using/sending-messages.md)
-* [Contrôler une diffusion](../../delivery/using/monitoring-a-delivery.md)
+* [Contrôler une diffusion](../../delivery/using/about-delivery-monitoring.md)
 
 Les sections ci-dessous fournissent des informations spécifiques au canal email. Pour plus d’informations sur la création d’une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
