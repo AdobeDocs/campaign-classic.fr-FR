@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
 source-wordcount: '2216'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 98%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête    {#creating-queries}
+   + Créer une requête     {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
       + [Tracking d’une application web](web/using/tracking-a-web-application.md)
       + [Désinscription (opt-out) du tracking des applications web](web/using/web-application-tracking-opt-out.md)
    + Edition de contenus HTML {#editing-html-content}
-      + [Commencer avec l’éditeur HTML](web/using/about-campaign-html-editor.md)
+      + [Prise en main de l’éditeur HTML](web/using/about-campaign-html-editor.md)
       + [Gestion des modèles](web/using/template-management.md)
       + [Interface de l&#39;éditeur de contenu](web/using/content-editor-interface.md)
       + [Editer le contenu](web/using/editing-content.md)
@@ -286,7 +286,7 @@ ht-degree: 98%
       + [Créer une Landing Page](web/using/creating-a-landing-page.md)
       + [Cas pratique : création d&#39;une diffusion email](web/using/use-case--creating-an-email-delivery.md)
    + Formulaires web {#web-forms}
-      + [Commencer avec les formulaires Web](web/using/about-web-forms.md)
+      + [Prise en main des formulaires web](web/using/about-web-forms.md)
       + [Utiliser un modèle de formulaire web](web/using/using-a-web-form-template.md)
       + [Ajouter des champs à un formulaire web](web/using/adding-fields-to-a-web-form.md)
       + [Eléments statiques dans un formulaire web](web/using/static-elements-in-a-web-form.md)
@@ -299,8 +299,8 @@ ht-degree: 98%
       + [Traduire un formulaire web](web/using/translating-a-web-form.md)
       + [Cas pratiques : formulaires web](web/using/use-cases--web-forms.md)
    + Questionnaires en ligne {#online-surveys}
-      + [Commencer avec les questionnaires](web/using/about-surveys.md)
-      + [Etapes clés de création d’un questionnaire](web/using/getting-started-with-surveys.md)
+      + [Prise en main des questionnaires](web/using/about-surveys.md)
+      + [Étapes clés de la création d’un questionnaire](web/using/getting-started-with-surveys.md)
       + [Conception d’un questionnaire](web/using/building-a-survey.md)
       + [Gérer les réponses](web/using/managing-answers.md)
       + [Publier, suivre et utiliser les données collectées](web/using/publish--track-and-use-collected-data.md)
@@ -429,7 +429,7 @@ ht-degree: 98%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle      {#monitoring}
+      + Contrôle       {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
