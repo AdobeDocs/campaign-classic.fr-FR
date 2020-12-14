@@ -253,10 +253,10 @@ Les pilotes SGBDR suivants sont pris en charge :
 <tr>
 <td>Teradata</td>
 <td>
-<p>15,0</p>
-<p>15,10</p>
+<p>15.0</p>
+<p>15.10</p>
 <p>16</p>
-<p>16,20</p>
+<p>16.20</p>
 </td>
 </tr>
 <tr>
@@ -322,7 +322,7 @@ Les pilotes SGBDR suivants sont pris en charge :
 <td>
 <p>7.x</p>
 <p>8.x</p>
-<p>9,0</p>
+<p>9.0</p>
 <p>avec SDK Mobile version 1.0.27.</p>
 </td>
 </tr>
