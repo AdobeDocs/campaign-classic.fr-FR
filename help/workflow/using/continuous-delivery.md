@@ -6,22 +6,22 @@ description: Diffusion (au fil de l'eau)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Diffusion (au fil de l&#39;eau){#continuous-delivery}
 
-Une action de type **diffusion continue** vous permet d&#39;ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion vous évite d’avoir à créer une diffusion à chaque fois : Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
+Une action de type **diffusion continue** permet d‘ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois. Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#continuous-delivery-video)
 
-Au niveau du modèle de diffusion, vous pouvez spécifier un script pour calculer l’étiquette (et le dossier de campagne) de la diffusion associée. Si le script calcule une diffusion qui n’existe pas encore, elle est créée à la volée.
+Au niveau du modèle de diffusion, vous pouvez spécifier un script pour calculer le libellé (et le dossier de campagne) de la diffusion associée. Si le script calcule une diffusion qui n’existe pas encore, elle est créée à la volée.
 
 ![](assets/edit_diffusion_fil.png)
 
@@ -43,7 +43,7 @@ Uniquement lorsque l&#39;action **[!UICONTROL Spécifiés par l&#39;événement 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schéma
+* schema
 * recCount
 
 Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
@@ -64,6 +64,6 @@ Une diffusion (au fil de l’eau) crée une diffusion et des logs de diffusion U
 
 Cette vidéo montre comment configurer une diffusion (au fil de l’eau) avec une requête incrémentale.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
