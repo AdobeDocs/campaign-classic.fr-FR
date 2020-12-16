@@ -6,11 +6,11 @@ description: Blocs de personnalisation
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1004'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -156,8 +156,8 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
 ## Tutoriel vidéo {#personalization-blocks-video}
 
-Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion de messagerie.
+Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
