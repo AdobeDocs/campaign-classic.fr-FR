@@ -6,9 +6,9 @@ description: Découvrez comment envoyer un email d’anniversaire à l’aide d�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 Ce workflow, exécuté quotidiennement, sélectionne tous les destinataires dont la date de naissance correspond à la date courante.
 
-![](assets/do-not-localize/how-to-video.png) Ce cas pratique est également proposé sous la forme d&#39;une vidéo. Voir à ce propos la vidéo sur la [création d&#39;un workflow](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html).
+![](assets/do-not-localize/how-to-video.png) Ce cas pratique est également proposé sous la forme d‘une vidéo. Voir à ce propos la vidéo sur la [création d‘un workflow](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html).
 
 Pour ce faire, créez une campagne et cliquez sur l’onglet **[!UICONTROL Ciblage et workflows]**. Voir à ce propos la section [Construire la cible principale dans un workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
