@@ -6,11 +6,11 @@ description: Accès aux campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1063'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Le bloc de navigation de l&#39;univers **[!UICONTROL Campagnes]** offre plusieur
 * **Calendrier des campagnes** : calendrier des plans, des programmes marketing, des diffusions et des opérations. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
 * **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
 * **Diffusions** : accès aux diffusions contenues dans les opérations.
-* **applications web** : accès aux applications web (formulaires, questionnaires, etc.).
+* **Applications web** : accès aux applications web (formulaires, questionnaires, etc.).
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ Vous pouvez accéder aux écrans de la console Adobe Campaign par l&#39;intermé
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
 
-Les approbations (d&#39;une cible ou d&#39;un contenu de diffusion, par exemple) peuvent être effectuées via un accès Web.
+Les validations (de la cible ou du contenu d’une diffusion, par exemple) peuvent être réalisées par le biais d’un accès web.
 
 ![](assets/campaign_web_interface_validation.png)
 
