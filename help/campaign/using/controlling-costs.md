@@ -6,11 +6,11 @@ description: Maîtriser les coûts
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2539'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Au niveau des opérations, selon le niveau d&#39;engagement, un coût peut être
 >   
 >L&#39;option **[!UICONTROL Niveau d&#39;engagement]** représente une projection des coûts dans le futur avant qu&#39;ils ne soient imputés au budget. Suivant le stade d&#39;avancement d&#39;une opération, d&#39;une tâche ou d&#39;une diffusion, vous pouvez décider d&#39;assigner un niveau d&#39;engagement plus ou moins élevé (1. Prévu, 2. Réservé, 3. Engagé) à l&#39;aide de la liste déroulante.
 
-Par exemple, le coût prévu d&#39;une campagne Web est estimé à 45 000 euros.
+Par exemple, le coût prévisionnel estimé d’une opération web est de 45 000 euros.
 
 ![](assets/s_user_edit_budget_node_impact_0.png)
 
