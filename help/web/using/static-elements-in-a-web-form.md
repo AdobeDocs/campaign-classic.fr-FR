@@ -6,18 +6,18 @@ description: Eléments statiques dans un formulaire web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1332'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
 
-Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit de éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d’outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
+Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit d’éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d’outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -36,7 +36,7 @@ Les types de champs disponibles sont les suivants :
 
 Vous pouvez inclure des contenus HTML dans une page de formulaire : liens hypertextes, images, paragraphes formatés, objets vidéo, Flash, etc.
 
-L’éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l’éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]** .
+L’éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l’éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]**.
 
 Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour y coller un contenu externe. Pour basculer en mode &quot;code source&quot;, cliquez sur la première icône de la barre d&#39;outils :
 
@@ -54,11 +54,11 @@ Pour insérer un champ de la base, utilisez le bouton de personnalisation.
 
 Renseignez les champs de la fenêtre d&#39;édition, comme dans l&#39;exemple ci-dessous :
 
-Pour ajouter un lien hypertexte, accédez à **[!UICONTROL Éléments statiques]** > **[!UICONTROL Lien]**.
+Pour ajouter un lien hypertexte, accédez au menu **[!UICONTROL Éléments statiques]** > **[!UICONTROL Lien]**.
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
-* Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu&#39;il sera affiché dans la page du formulaire.
+* Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu’il sera affiché dans la page du formulaire.
 * L’**[!UICONTROL URL]** correspond à l’adresse visée, par exemple : [https://www.adobe.com](https://www.adobe.com) pour un site web ou [info@adobe.com](mailto:info@adobe.com) pour envoyer un message.
 * Le champ **[!UICONTROL Fenêtre]** permet de sélectionner le mode d&#39;affichage du lien, lorsqu&#39;il s&#39;agit d&#39;un site. Vous pouvez choisir d&#39;ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre courante ou dans une autre fenêtre.
 * Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
@@ -210,13 +210,13 @@ Par exemple, vous pouvez créer un champ **Contact** qui permettra d’afficher 
 
    >[!CAUTION]
    >
-   >Si vous saisissez ces caractères dans l’éditeur HTML, les champs **&quot;a1/> et****seront remplacés par leurs caractères d’échappement.** Dans ce cas, vous devez corriger le code source en cliquant sur l’icône **[!UICONTROL Afficher le code source]** de l’éditeur de texte HTML.
+   >Si vous saisissez ces caractères dans l’éditeur HTML, les champs **&lt;** et **>** seront remplacés par leurs caractères avec échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l’icône **[!UICONTROL Afficher le code source]** de l’éditeur de texte HTML.
 
-1. Ouvrez l&#39;onglet **[!UICONTROL Prévisualisation]** du formulaire pour visualiser la valeur renseignée dans le HTML :
+1. Ouvrez l’onglet **[!UICONTROL Aperçu]** du formulaire pour afficher la valeur renseignée dans le HTML :
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-Ce mode de fonctionnement vous permet de définir le texte des Formulaires web une seule fois et de gérer les traductions à l&#39;aide de l&#39;outil de traduction intégré. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+Ce mode de fonctionnement permet de définir les textes des formulaires web et d’en gérer les traductions à l’aide de l’outil intégré de traduction. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
 
 ## Insérer des images {#inserting-images}
 
