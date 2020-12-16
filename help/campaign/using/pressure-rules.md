@@ -6,11 +6,11 @@ description: Règles de pression
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3428'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ La valeur de ce seuil peut être constante ou calculée par une formule qui peut
 
 **Exemple:**
 
-Vous pouvez indexer le nombre de messages autorisés en fonction du segment auquel le destinataire appartient. Cela signifie qu’un destinataire appartenant au segment Web peut recevoir plus de messages que d’autres destinataires. Une formule de type **[!UICONTROL Iif (@origine=&#39;Web&#39;, 5, 3)]** autorise la diffusion de 5 messages aux destinataires et de 3 messages pour les autres segments. La configuration sera la suivante :
+Vous pouvez indexer le nombre de messages autorisés en fonction du segment auquel appartient le destinataire. Ainsi, un destinataire répertorié dans un segment web pourrait recevoir plus de messages que les autres destinataires. Une formule de type **[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]** permet d’autoriser la diffusion de 5 messages à ces destinataires contre seulement 3 messages pour les destinataires des autres segments. Le paramétrage sera donc le suivant :
 
 ![](assets/campaign_opt_pressure_sample.png)
 
