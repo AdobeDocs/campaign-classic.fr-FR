@@ -6,11 +6,11 @@ description: Publier le kit d'opération
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez alors lancer le processus de validation en cliquant sur le bouton **
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
-Un message de notification est ensuite envoyé au réviseur pour confirmer la disponibilité de ce package de campagne. Le message contient un lien permettant d’accepter ou de rejeter l’approbation via un accès Web.
+Un message de notification est alors envoyé au validant afin de confirmer la mise à disposition de ce kit d&#39;opération. Ce message propose un lien pour accepter ou refuser la validation via un accès web.
 
 ![](assets/s_advuser_mkg_dist_valid_process1.png)
 
