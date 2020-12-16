@@ -6,11 +6,11 @@ description: A propos des services web
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-L&#39;élément `<soap-env:fault>` dans le corps du message SOAP est utilisé pour transmettre les signaux d&#39;erreur provenant du traitement du service Web. Il se compose des sous-éléments suivants :
+L’élément `<soap-env:fault>` du corps du message SOAP sert à transmettre les signaux d’erreur qui se produisent pendant le traitement du service web. Il se compose des sous-éléments suivants :
 
 * `<faultcode>` : indique le type d’erreur. Les types d’erreurs sont les suivants :
 
