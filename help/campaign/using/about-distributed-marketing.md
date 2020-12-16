@@ -6,11 +6,11 @@ description: A propos du marketing distribué
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -70,9 +70,9 @@ Voir [Création d&#39;une campagne locale](../../campaign/using/creating-a-local
 
 Une opération collaborative est une opération dont le **planning d&#39;exécution est défini** par l&#39;entité centrale. Les entités locales sont libres de participer ou non à l&#39;opération. En fonction du paramétrage de l&#39;opération, le contenu et la cible peuvent être localisés par l&#39;entité locale. Il existe plusieurs types d&#39;opérations collaboratives :
 
-* **[!UICONTROL Campagne de collaboration (par formulaire)]** : recommandé pour les campagnes impliquant jusqu’à 300 entités locales. L’entité locale peut saisir des paramètres prédéfinis pour le ciblage et la personnalisation du contenu dans un formulaire Web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (client extranet). Un administrateur fonctionnel peut définir et configurer le formulaire en fonction d’un modèle de formulaire défini par l’intégrateur. Pour commander la campagne, l’entité locale a simplement besoin d’un accès Web.
-* **[!UICONTROL Opération collaborative par opération]** : conseillée pour des opérations visant quelques dizaines d&#39;entités locales. Ce type d&#39;opération crée des opérations filles pour chaque entité locale. Lorsque la commande d&#39;une **[!UICONTROL Opération collaborative par opération]** est validée par l&#39;entité centrale, l&#39;opération est mise à disposition de l&#39;entité locale qui peut la modifier. L&#39;exécution est automatiquement synchronisée entre les opérations filles et l&#39;opération mère. L&#39;entité locale doit avoir un accès client riche pour commander l&#39;opération et y participer.
-* **[!UICONTROL Campagne de collaboration (par approbation de cible)]** : recommandé pour les campagnes destinées à plusieurs milliers d’entités locales. L’Entité locale reçoit une liste de contact prédéfinie par l’entité centrale. L’entité locale décide de conserver ou non certains contacts en fonction du contenu de la campagne, via un formulaire Web. Les Entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à la campagne, l&#39;entité locale a simplement besoin d&#39;un accès au Web.
+* **[!UICONTROL Opération collaborative (par formulaire)]** : conseillée pour des opérations visant jusqu’à 300 entités locales. L’entité locale peut saisir des paramètres prédéfinis en terme de ciblage et de personnalisation de contenu dans un formulaire web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (extranet client). La définition et le paramétrage de ce formulaire peuvent être réalisés par un administrateur fonctionnel sur la base d’un modèle de formulaire défini par l’intégrateur. Pour commander l’opération, l’entité locale a seulement besoin d’un accès web.
+* **[!UICONTROL Opération collaborative (par opération)]** : conseillée pour des opérations visant quelques dizaines d’entités locales. Ce type d’opération crée des opérations filles pour chaque entité locale. Lorsque la commande d’une **[!UICONTROL Opération collaborative par opération]** est validée par l’entité centrale, l’opération est mise à disposition de l’entité locale qui peut la modifier. L’exécution est automatiquement synchronisée entre les opérations filles et l’opération mère. L’entité locale doit avoir accès à une instance pour commander une opération et y participer.
+* **[!UICONTROL Opération collaborative (par validation de la cible)]** : conseillée pour des opérations visant jusqu’à plusieurs milliers d’entités locales. L’entité locale reçoit une liste de contacts sélectionnés par l’entité centrale. L’entité locale choisit de garder ou non certains contacts en fonction du contenu de l’opération, grâce à un formulaire web. Les entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à l’opération, l’entité locale a seulement besoin d’un accès web.
 * **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
 
 Voir [Création d’une campagne collaborative](../../campaign/using/creating-a-collaborative-campaign.md).
@@ -144,7 +144,7 @@ Les étapes de mise en oeuvre dépendent du type de kit d&#39;opération utilis�
    * le planning d&#39;exécution (date de contact et date d&#39;extraction), **pour les opérations locales seulement**,
    * l&#39;extension du schéma des commandes avec l&#39;ensemble des champs additionnels nécessaires.
 
-1. Créez un formulaire Web (Adobe ou extranet) qui vous permet d’afficher les paramètres de localisation, d’évaluer la cible et le budget, ainsi que de prévisualisation du contenu et d’approuver la commande.
+1. Créez un modèle de formulaire web (Adobe ou extranet) qui permet d’afficher les paramètres de localisation, d’évaluer la cible et le budget, mais aussi d’avoir un aperçu du contenu et de valider la commande.
 
    Pour les **opérations collaboratives par validation de la cible**, créer la table où seront enregistrées les validations pour chaque entité locale.
 
