@@ -6,11 +6,11 @@ description: Découvrez comment utiliser les données d'un workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Dans ce cas pratique, nous allons créer un workflow pour crypter et exporter de
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Générez une paire de clés GPG (publique/privée) à l’aide d’un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Générez une paire de clés GPG (publique/privée) à l’aide d’un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
 1. Dans Campaign Classic, créez un workflow pour exporter les données et les crypter à l’aide de la clé privée installée à l’aide du panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
@@ -144,8 +144,8 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 ### Tutoriel vidéo {#video}
 
-Cette vidéo montre comment utiliser une clé GPG pour chiffrer des données est également disponible dans
+Cette vidéo montre comment utiliser une clé GPG pour crypter des données. Elle est également disponible dans
 
->[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
