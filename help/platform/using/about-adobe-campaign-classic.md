@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos d'Adobe Campaign Classic
+title: À propos d‘Adobe Campaign Classic
 description: Découvrez les fonctionnalités principales, l'interface utilisateur et les directives globales.
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,8 +89,8 @@ Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certa
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo présente les principales fonctionnalités et fonctionnalités du Campaign Classic.
+Cette vidéo présente les principales fonctionnalités de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
