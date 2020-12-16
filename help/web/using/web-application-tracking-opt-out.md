@@ -6,11 +6,11 @@ description: Désinscription (opt-out) du tracking des applications web
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Si vous devez écrire du code JSSP, les API côté serveur suivantes sont dispon
 
 * **NL.ServerWebTracking._displayOptOutBanner() :**
 
-   Renvoie &quot;true&quot; si la bannière d’exclusion doit être affichée après la sélection d’une bannière d’exclusion par l’administrateur.
+   Renvoie la valeur &quot;true&quot; si la bannière d‘opt-out doit s‘afficher après que l‘administrateur l‘ait sélectionnée.
 
    Ce code est appelé lorsque l&#39;administrateur a déjà choisi d&#39;utiliser la bannière d&#39;opt-out pour le tracking web.
 
