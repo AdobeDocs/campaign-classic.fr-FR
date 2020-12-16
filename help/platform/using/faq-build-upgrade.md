@@ -6,9 +6,9 @@ description: Questions courantes relatives aux upgrades de build Campaign
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2023'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Par exemple, si l&#39;on reprend les informations de serveur figurant dans la ca
 
 Adobe réalisera une sauvegarde de votre système avant tout changement. Toutefois, si votre système de hors production (serveurs de développement ou de test) a fait l&#39;objet de personnalisations critiques, nous vous RECOMMANDONS FORTEMENT d&#39;exporter ces personnalisations sous la forme d&#39;un package avant tout upgrade.
 
-![](assets/do-not-localize/how-to-video.png) Pour plus d&#39;informations, [regardez cette vidéo didactique](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+![](assets/do-not-localize/how-to-video.png) Pour plus d‘informations, [regardez cette vidéo pratique](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
 
 ## Quand les upgrades auront-ils lieu ?
 
@@ -104,7 +104,7 @@ Identifiez les heures de faible volume ou trafic qui seraient idéales pour les 
 
 Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
 
-Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
+Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
 
 ## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
 
@@ -205,5 +205,5 @@ du contenu est présent et s&#39;affiche.
 
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
-* [Programme Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
+* [Programme Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html)
