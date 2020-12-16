@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos du guide de configuration
-description: A propos du guide de configuration
+title: À propos du Guide de configuration
+description: À propos du Guide de configuration
 audience: configuration
 content-type: reference
 topic-tags: about
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 13cc481606ffb78f9a755ef8aa8a9d7cbb5d44c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '10'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
 
-# A propos du Guide de configuration{#about}
+# À propos du Guide de configuration{#about}
 
 Test
 
