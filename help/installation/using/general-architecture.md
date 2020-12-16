@@ -6,11 +6,11 @@ description: Découvrez comment installer et configurer Campaign Classic.
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1336'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign repose sur une architecture orientée service (SOA) composée de 
 L&#39;accès à l&#39;application peut se faire de différentes manières, en fonction des besoins des utilisateurs : client riche, client léger et intégration via les API.
 
 * **Client riche** : l&#39;interface utilisateur principale de l&#39;application est un client riche, c&#39;est-à-dire une application native (Windows) qui communique avec le serveur d&#39;application Adobe Campaign uniquement à l&#39;aide de protocoles Internet standard (SOAP, HTTP, etc.). Cette console présente les avantages d&#39;une bonne ergonomie et d&#39;une grande productivité, avec une faible consommation en bande passante (utilisation d&#39;un cache local) et dans le cadre d&#39;un déploiement très simple. En effet, cette console se déploie depuis un navigateur, se met automatiquement à jour et ne nécessite aucune configuration réseau spécifique, car elle ne génère que du trafic HTTP(S).
-* **Client** mince : Certaines parties de l&#39;application peuvent être consultées via un simple navigateur Web à l&#39;aide d&#39;une interface utilisateur HTML, y compris le module de rapports, les étapes d&#39;approbation de diffusion, les fonctionnalités du module de Marketing distribué (central/local), la surveillance d&#39;instance, etc. Ce mode permet d’inclure des fonctionnalités Adobe Campaign dans un intranet ou un extranet.
+* **Client léger** : certaines parties de l’application sont directement accessibles via un simple navigateur web, par le biais d’une interface utilisateur en HTML, notamment le module de reporting, les phases de validation des diffusions, les fonctionnalités du module de Marketing Distribué (central/local), le monitoring de l’instance, etc. Ce mode de fonctionnement permet d’inclure des fonctions Adobe Campaign dans un intranet ou un extranet.
 * **Intégration par les API** : dans certains cas, le système est directement piloté par d&#39;autres applications qui utilisent les API Web Services exposées par le biais du protocole SOAP.
 
 ## Couche de logique applicative {#logical-application-layer}
