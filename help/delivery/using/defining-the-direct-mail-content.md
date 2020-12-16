@@ -6,11 +6,11 @@ description: Définir le contenu du courrier
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ Il est possible d’insérer une URL personnalisée dans le fichier d’extracti
 
 >[!NOTE]
 >
->Cet assistant reprend les étapes de l&#39;assistant d&#39;export décrites dans la section [Prise en main](../../platform/using/exporting-data.md#export-wizard).
+>Cet assistant reprend les étapes de l’assistant d’export décrites dans la section [Prise en main](../../platform/using/exporting-data.md#export-wizard).
