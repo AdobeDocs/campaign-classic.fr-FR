@@ -6,11 +6,11 @@ description: Définir la disposition des formulaires web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
 ## Placer les champs de la page {#positioning-the-fields-on-the-page}
 
-La disposition du formulaire Web est définie page par page dans chaque conteneur et peut être surchargée si nécessaire.
+La mise en page du formulaire web est définie page par page, pour chaque conteneur et peut être surchargée si nécessaire.
 
-Les pages sont réparties en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe des cellules **n**. Les conteneurs occupent également un certain nombre de colonnes et les champs qu’ils contiennent occupent un certain nombre de cellules.
+Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s’étendent eux aussi sur un certain nombre de colonnes et les champs qu’ils contiennent s’étendent sur un certain nombre de cellules.
 
 Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
 
