@@ -6,11 +6,11 @@ description: Dernière version de Campaign Classic    Notes
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1824'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 792bfbd041b20a61e975703e7d9d4a35859c2882
+workflow-type: tm+mt
+source-wordcount: '1856'
+ht-degree: 98%
 
 ---
 
@@ -94,6 +94,11 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 **Améliorations**
 
 * Plusieurs améliorations ont été apportées à la **console cliente** :
+   * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
+
+      >[!CAUTION]
+      >
+      >Après la mise à jour du protocole de connexion, la mise à niveau est obligatoire (serveur et console) pour pouvoir se connecter à partir du 21 mars 2020.
    * Pour éviter toute incompatibilité avec certaines restrictions de règles GPO de sécurité Internet, l&#39;écran de connexion de la console cliente Campaign a été remplacé par un formulaire Windows standard intégré.
    * Correction d’un problème lors des activités de copie/collage dans un workflow à l’aide de la console cliente 64 bits. (NEO-27635)
    * Dans le menu **À propos**, des informations ont été ajoutées pour faire la différence entre les consoles 64 et 32 bits.
