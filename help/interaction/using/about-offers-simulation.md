@@ -6,9 +6,9 @@ description: A propos de la simulation des offres
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
