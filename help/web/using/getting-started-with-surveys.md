@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Etapes clés de création d’un questionnaire
+title: Étapes clés de création d’un questionnaire
 description: Créer votre premier questionnaire avec Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '959'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Etapes clés de création d’un questionnaire {#getting-started-with-surveys}
+# Étapes clés de création d’un questionnaire {#getting-started-with-surveys}
 
 Nous vous proposons ici d&#39;aborder rapidement, en sept étapes clés, la création d&#39;un questionnaire simple, selon le modèle suivant :
 
