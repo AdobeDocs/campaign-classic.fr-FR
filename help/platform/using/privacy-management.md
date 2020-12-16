@@ -6,9 +6,9 @@ description: En savoir plus sur la gestion de la confidentialité
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
 ht-degree: 100%
 
@@ -17,17 +17,17 @@ ht-degree: 100%
 
 # Gestion de la confidentialité {#privacy-management}
 
-Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer aux [règlements relatifs à la confidentialité](#privacy-management-regulations) (notamment les règlements RGPD, CCPA, PDPA et LGPD).
+Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer aux [règlements sur la protection des données](#privacy-management-regulations) (notamment RGPD, CCPA, PDPA, LGPD).
 
-Voici les cinq principales fonctionnalités que propose Adobe Campaign pour s&#39;assurer du niveau de préparation à l&#39;application du RGPD et d&#39;autres règlements sur la protection des données personnelles :
+Voici les cinq principales capacités offertes par Adobe Campaign pour s’assurer du respect du RGPD et d’ autres règlements sur la protection des renseignements :
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **Droit d&#39;accès**
+* **Droit d’accès**
 
 * **Droit de suppression**
 
-Pour plus d&#39;informations à ce sujet, voir [Droit d&#39;accès et Droit à l&#39;oubli](#right-access-forgotten).
+Pour plus d’informations à ce sujet, voir [Droit d’accès et droit à l’oubli](#right-access-forgotten).
 
 * **Gestion du consentement**
 
