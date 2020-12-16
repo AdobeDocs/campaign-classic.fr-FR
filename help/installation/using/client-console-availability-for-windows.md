@@ -6,11 +6,11 @@ description: Disponibilité de la console cliente pour Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour cela, vous devez :
 1. Copier ce package dans le répertoire d&#39;installation d’Adobe Campaign, sous **/datakit/nl/eng/jsp**.
 1. Démarrer le serveur Adobe Campaign.
 
-Les utilisateurs finaux peuvent alors télécharger le programme d’installation de la console via un navigateur Web à l’aide de l’URL suivante :
+Les utilisateurs finaux peuvent alors télécharger le programme d’installation de la console depuis un navigateur Web, via l’URL suivante :
 
 ```
 https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
