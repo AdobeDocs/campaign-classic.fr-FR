@@ -6,11 +6,11 @@ description: Créer des campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 Les campagnes comprennent des actions (diffusions) et des processus (import ou extraction de fichiers), ainsi que des ressources (documents marketing, compositions de diffusion). Elles sont utilisées dans les campagnes marketing. Les campagnes font partie d’un programme et les programmes sont inclus dans un plan de campagne.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez comment créer un plan marketing, des programmes et des campagnes  [en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) Découvrez comment créer un plan marketing, des programmes et des campagnes [dans une vidéo](#video)
 
 Pour créer une campagne marketing, il faut suivre les étapes suivantes :
 
@@ -47,7 +47,7 @@ Pour créer une campagne marketing, il faut suivre les étapes suivantes :
 
    Voir [Créer les prestataires et leurs structures de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-Une fois ces étapes terminées, vous pouvez lancer les diffusions (voir [Démarrer une diffusions](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), vérifier les données, les processus et les informations relatifs aux diffusions et, si nécessaire, gérer les documents associés (voir [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). Vous pouvez également suivre l&#39;exécution des phases de traitement des campagnes et des diffusions (voir [Suivi](../../campaign/using/marketing-campaign-monitoring.md)).
+Une fois ces étapes terminées, vous pouvez lancer les diffusions (voir [Démarrer une diffusions](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), vérifier les données, les processus et les informations relatifs aux diffusions et, si nécessaire, gérer les documents associés (voir [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). Vous pouvez également suivre l’exécution des phases de traitement des campagnes et des diffusions (voir [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
 
 ## Créer une hiérarchie de plans et de programmes {#creating-plan-and-program-hierarchy}
 
@@ -237,6 +237,6 @@ Chaque opération périodique contient les mêmes éléments. Une fois créée, 
 
 Cette vidéo explique comment créer un plan marketing, des programmes et des campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
