@@ -6,11 +6,11 @@ description: Configuration du serveur Campaign
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d0ae3d597f9ee30515437d94901cb034d0ca3d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3633'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -603,18 +603,18 @@ Par exemple : **uploadWhiteList=&quot;.*.png,.*.jpg&quot;** vous permet de tél
 
 ## Paramétrage de la connexion au proxy {#proxy-connection-configuration}
 
-Vous pouvez connecter le serveur Campaign à un système externe par le biais d’un proxy, en utilisant par exemple une activité de flux de travail **Transfert de fichier**. Pour ce faire, vous devez configurer la section **proxyConfig** du fichier **serverConf.xml** à l’aide d’une commande spécifique. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+Vous pouvez connecter le serveur Campaign à un système externe par le biais d’un proxy, en utilisant par exemple une activité de workflow **Transfert de fichier**. Pour ce faire, vous devez configurer la section **proxyConfig** du fichier **serverConf.xml** à l’aide d’une commande spécifique. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
-Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Notez que depuis la version 20.2 de Campaign, les paramètres de protocole HTTP et HTTPS sont **indisponibles**. Ces paramètres sont toujours mentionnés ci-dessous car ils restent disponibles dans les versions précédentes - y compris 9032.
+Les connexions proxy suivantes sont possibles : HTTP, HTTPS, FTP, SFTP. Notez qu’à compter de la version 20.2 de Campaign, les paramètres de protocole HTTP et HTTPS sont **indisponibles**. Ces paramètres sont toujours mentionnés ci-dessous car ils restent disponibles dans les builds précédents, y compris le build 9032.
 
 >[!CAUTION]
 >
->Seul le mode d’authentification de base est pris en charge. L&#39;authentification NTLM n&#39;est pas prise en charge.
+>Seul le mode d’authentification de base est pris en charge. L’authentification NTLM n’est pas prise en charge.
 >
 >Les proxys SOCKS ne sont pas pris en charge.
 
 
-Vous pouvez utiliser la commande suivante :
+Vous pouvez utiliser la commande suivante :
 
 ```
 nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]
