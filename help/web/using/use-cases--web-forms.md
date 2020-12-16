@@ -6,11 +6,11 @@ description: '"Cas pratiques : formulaires web"'
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Pour ce faire, procédez comme suit :
 
 1. Configurez l’activité **[!UICONTROL Enregistrement]** afin de sauvegarder les informations renseignées dans la page du formulaire.
 
-   Cette activité vous permet de créer des profils destinataires dans un dossier temporaire dédié afin de les différencier des profils de la base de données auxquels des communications peuvent être envoyées.
+   Cette activité permet de créer les profils de destinataires dans un dossier temporaire dédié afin de les différencier des profils en base, auxquels des communications peuvent être adressées.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
 
