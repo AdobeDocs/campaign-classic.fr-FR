@@ -6,18 +6,18 @@ description: Définir l'enchaînement des pages des formulaires web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # Définir l&#39;enchaînement des pages des formulaires web{#defining-web-forms-page-sequencing}
 
-Le formulaire peut contenir une ou plusieurs pages. Il est créé à l’aide d’un diagramme qui vous permet de séquencer les pages, les tests, l’exécution de script, le saut de page et l’enregistrement des étapes. Le mode de conception de diagramme global est identique à celui d’un processus Campaign.
+Le formulaire peut contenir une ou plusieurs pages. Il est créé à l’aide d’un diagramme qui vous permet de séquencer les pages, les tests, l’exécution de scripts, le saut de page et l’enregistrement des étapes. Le mode de conception de diagramme global est identique à celui d’un workflow Campaign.
 
 ## A propos des pages précédente et suivante {#about-previous-page-and-next-page}
 
