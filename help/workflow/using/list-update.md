@@ -6,11 +6,11 @@ description: Mise à jour de liste
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour utiliser cette option, les tables spécifiques concernées doivent avoir é
 
 Généralement, la sauvegarde d&#39;une cible dans une liste marque la fin d&#39;un workflow. Par défaut, l&#39;activité **[!UICONTROL Mise à jour de liste]** n&#39;a donc pas de transition sortante. Cochez l&#39;option **[!UICONTROL Générer une transition sortante]** pour en ajouter une.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer une liste de destinataires à partir de l&#39;Explorateur en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer une liste de destinataires à partir de l‘Explorateur dans une vidéo](#video)
 
 ## Exemple : mise à jour de liste {#example--list-update}
 
@@ -71,8 +71,8 @@ Identifie la population à sauvegarder dans le groupe.
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo montre comment créer une liste de destinataires à partir de l&#39;Explorateur.
+Cette vidéo montre comment créer une liste de destinataires à partir de l‘Explorateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12?captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
