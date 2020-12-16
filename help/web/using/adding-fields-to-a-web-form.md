@@ -6,11 +6,11 @@ description: Ajouter des champs à un formulaire web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2550'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -196,7 +196,7 @@ Les boutons radio permettent de proposer à l&#39;utilisateur une série d&#39;o
 
 ![](assets/s_ncs_admin_survey_radio_button.png)
 
-Vous pouvez créer des boutons radio individuellement (boutons unitaires) ou via une liste à choix multiples, mais comme le but des boutons radio est de sélectionner une option ou une autre, nous allons toujours créer au moins une paire de boutons radio, jamais un seul bouton.
+Vous pouvez créer les boutons radio individuellement (boutons unitaires) ou via une liste à choix multiples. Toutefois, le principe du bouton radio étant de sélectionner une option ou une autre, il sera toujours nécessaire de créer au moins deux boutons radio, et jamais un bouton isolé.
 
 >[!CAUTION]
 >
@@ -251,7 +251,7 @@ Le contenu des champs du formulaire peut être formaté pour correspondre aux do
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-Pour permettre à l’utilisateur de saisir une date dans une page de formulaire, ajoutez un champ de saisie et sélectionnez le type **[!UICONTROL Date..]**.
+Pour permettre à l’utilisateur de saisir une date dans une page de formulaire, ajoutez un champ de saisie et sélectionnez le type **[!UICONTROL Date...]**.
 
 Indiquez le libellé du champ et le mode de stockage des données.
 
@@ -390,11 +390,11 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 
 Lorsque l’utilisateur valide l’une des pages du formulaire, vous pouvez définir une valeur spécifique pour un champ de son profil ou une variable.
 
-Ce champ n&#39;est pas visible par l&#39;utilisateur mais permet d&#39;enrichir les données de son profil.
+Ce champ n‘est pas visible par l‘utilisateur mais permet d‘enrichir les données de son profil.
 
-Pour ce faire, placez une **constante** dans la page et indiquez la valeur et l’emplacement de l’enregistrement.
+Pour ce faire, placez une **constante** dans la page et indiquez la valeur et l’emplacement de stockage.
 
-Dans l’exemple suivant, le champ **origine** du profil du destinataire est renseigné automatiquement chaque fois qu’un utilisateur approuve cette page. La constante n’est pas affichée sur la page.
+Dans l’exemple suivant, le champ **origine** du profil du destinataire est renseigné automatiquement chaque fois qu’un utilisateur valide cette page. La constante n’est pas affichée sur la page.
 
 ![](assets/s_ncs_admin_survey_constante.png)
 
