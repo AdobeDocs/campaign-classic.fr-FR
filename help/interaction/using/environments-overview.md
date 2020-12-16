@@ -6,9 +6,9 @@ description: Présentation des environnements
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
 ht-degree: 100%
 
