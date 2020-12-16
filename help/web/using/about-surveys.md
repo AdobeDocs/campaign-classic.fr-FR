@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Commencer avec les questionnaires
-description: Commencer avec les questionnaires Campaign
+title: Prise en main des questionnaires
+description: Prise en main des questionnaires Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Commencer avec questionnaires{#about-surveys}
+# Prise en main des questionnaires{#about-surveys}
 
 Adobe Campaign intègre un module graphique de définition et de publication d&#39;applications Web afin de créer des pages, par exemple pour formulaire d&#39;édition sur un extranet ou des formulaires de notification, incluant des données de la base avec des tableaux, graphiques, champs de saisie, etc. Cette fonctionnalité vous permet de concevoir et mettre en ligne des pages web auxquelles les utilisateurs pourront accéder pour consulter ou renseigner des informations.
 
@@ -31,7 +31,7 @@ La gestion des applications web est présentée dans [cette section](../../web/u
 >
 >Pour des raisons de confidentialité, nous vous recommandons d&#39;utiliser HTTPS pour toutes les ressources externes.
 
-## Portée des fonctionnalités {#campaign-surveys-scope}
+## Portée de la fonctionnalité {#campaign-surveys-scope}
 
 Sous Adobe Campaign, les applications Web en général permettent d&#39;accéder aux fonctionnalités suivantes :
 
