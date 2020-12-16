@@ -6,11 +6,11 @@ description: Définir la population cible
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1726'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -233,8 +233,8 @@ Voir aussi :
 
 ## Tutoriel vidéo {#seeds-and-proofs-video}
 
-Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l&#39;envoyer.
+Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l’envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
