@@ -6,11 +6,11 @@ description: En savoir plus sur les activités du workflow des codes SQL et Java
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8bcfc8826a66517e6a648dbc57b681778718c33c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Une activité de type **[!UICONTROL Code SQL]** exécute un script SQL. Le scrip
 
 Les activités **[!UICONTROL code JavaScript]** et **[!UICONTROL code JavaScript avancé]** exécutent un script JavaScript dans le cadre d’un workflow. Pour plus d’informations sur les scripts, voir la section [Scripts/Templates JavaScript](../../workflow/using/javascript-scripts-and-templates.md).
 
-### Délai d&#39;exécution {#exec-delay}
+### Délai d‘exécution {#exec-delay}
 
-À compter de la version 20.2, un délai d’exécution a été ajouté aux activités **[!UICONTROL code JavaScript]** et **[!UICONTROL code JavaScript avancé]**. Par défaut, la phase d’exécution ne peut pas dépasser 1 heure. Après ce délai, le processus est abandonné avec un message d’erreur et l’échec de l’exécution.
+À compter de la version 20.2, un délai d‘exécution a été ajouté aux activités **[!UICONTROL code JavaScript]** et **[!UICONTROL code JavaScript avancé]**. Par défaut, la phase d’exécution ne peut pas dépasser 1 heure. Après ce délai, le processus est abandonné avec un message d‘erreur et l‘échec de l’exécution.
 
-Vous pouvez modifier ce délai dans le champ **[!UICONTROL Arrêter l’exécution après]** disponible dans ces activités.
+Vous pouvez modifier ce délai dans le champ **[!UICONTROL Arrêter l’exécution après]**, disponible dans ces activités.
 
 Pour ignorer cette limite, vous devez définir la valeur sur **0**.
 
@@ -49,7 +49,7 @@ Pour ignorer cette limite, vous devez définir la valeur sur **0**.
 
 * **[!UICONTROL Script]** : la zone centrale de l’éditeur contient le script à exécuter.
 
-* **[!UICONTROL Erreurs]** de traitement : Reportez-vous à la section Erreurs [ de ](../../workflow/using/monitoring-workflow-execution.md#processing-errors)traitement.
+* **[!UICONTROL Traiter les erreurs]** : voir la section [Traitement des erreurs](../../workflow/using/monitoring-workflow-execution.md#processing-errors).
 
 ### Code JavaScript avancé {#adv-js-code-desc}
 
