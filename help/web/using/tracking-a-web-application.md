@@ -6,11 +6,11 @@ description: Tracking d’une application web
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Les principales fonctionnalités proposées dans cette version sont les suivante
 
    * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d&#39;un chemin de navigation.
    * **Taux de rebond** : nombre de personnes qui n&#39;ont affiché que la première étape.
-   * **Entonnoir** de conversion : taux de perte entre chaque étape.
+   * **Entonnoir de conversion** : taux de perte entre chacune des étapes.
 
    En complément, un graphique de type **Secteur** représente la population en fonction de son origine.
 
