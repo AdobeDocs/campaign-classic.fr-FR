@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Commencer avec les formulaires Web
-description: Commencer avec les formulaires Web dans Campaign
+title: Prise en main des formulaires web
+description: Prise en main des formulaires web dans Campaign
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Commencer avec les formulaires Web{#about-web-forms}
+# Prise en main des formulaires web{#about-web-forms}
 
 Adobe Campaign intègre un module graphique de définition et de publication de formulaires web afin de créer des pages proposant des champs de saisie et de sélection, et pouvant inclure des données de la base. Vous pouvez ainsi concevoir et mettre en ligne des pages web auxquelles les utilisateurs pourront accéder pour consulter ou renseigner des informations.
 
@@ -53,7 +53,7 @@ L&#39;onglet **[!UICONTROL Edition]** permet d&#39;en créer le contenu.
 
 Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont les suivantes :
 
-* Début en créant les pages et les contrôles requis : champs d’entrée, listes déroulantes, contenu HTML, etc.
+* Commencez par créer les pages et contrôles requis : champs de saisie, listes déroulantes, contenus HTML, etc.
 
    Cette étape est présentée ci-dessous.
 
