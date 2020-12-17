@@ -6,11 +6,11 @@ description: Découvrez les étapes principales d'un upgrade vers un nouveau bui
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '2355'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
@@ -163,7 +163,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 ### Mettre à jour l&#39;application serveur Adobe Campaign
 
-1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html).
+1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
 
 1. Sélectionnez le mode d&#39;installation : **Mise à jour** ou **Réparation**.
 
@@ -204,12 +204,13 @@ Les services suivants doivent être redémarrés :
 
 ### Mise à jour des consoles clientes
 
+La console client doit se trouver sur la même build que l’instance du serveur.
+
 Sur la machine sur laquelle est installé le serveur applicatif Adobe Campaign (nlserverweb), téléchargez puis copiez le fichier suivant :
 
 ```
 Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 ```
-
 
 Ainsi, à la prochaine connexion des postes clients, une fenêtre indiquera aux utilisateurs la disponibilité d&#39;une nouvelle mise à jour et leur proposera de la télécharger et de l&#39;installer.
 
@@ -245,7 +246,7 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 
 Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
 
-1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
+1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
 1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
 
    ```
@@ -364,8 +365,8 @@ Il existe différents types de fusions :
 #### Où trouver le code ?
 
 1. Le code intégré est stocké dans des fichiers XML dans le dossier datakit. Recherchez le fichier XML qui correspond à l&#39;objet en conflit, par exemple : DossierInstallation\datakit\nms\fra\form\recipient.xml
-1. Récupérez la version d&#39;origine : via le [centre de téléchargement](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html) ou une autre installation non mise à niveau du produit.
-1. Récupérez la nouvelle version : via le [centre de téléchargement](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html) ou les fichiers installés par le client.
+1. Récupérez la version d&#39;origine : via le [centre de téléchargement](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) ou une autre installation non mise à niveau du produit.
+1. Récupérez la nouvelle version : via le [centre de téléchargement](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) ou les fichiers installés par le client.
 1. Récupérez la version personnalisée : récupérez le code source de l&#39;objet depuis le client Campaign.
 
 ### Comment créer une comparaison de fichiers
