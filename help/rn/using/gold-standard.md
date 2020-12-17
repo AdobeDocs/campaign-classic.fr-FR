@@ -6,11 +6,11 @@ description: Notes de mise à jour Campaign Classic Gold Standard
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '820'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 494be84478f652dd5e1473dd98272056514f31c8
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 90%
 
 ---
 
@@ -25,6 +25,24 @@ Cette page répertorie les versions Gold Standard.
 
 [Pour plus d’informations sur la mise à niveau de Campaign Gold Standard, consultez cet article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
+## ![](assets/do-not-localize/limited_2.png) Version Gold Standard 11{#gs-11}
+
+_15 décembre 2020_
+
+>[!CAUTION]
+>
+>Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le 21 mars 2020.
+
+La version 9032@2a2a028 comprend les améliorations et correctifs suivants :
+
+* Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
+
+* L’authentification de l’intégration des triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+
+* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
+
+* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes de usurpation de requête côté serveur (SSRF). (NEO-27777)
+
 ## ![](assets/do-not-localize/green_2.png) Version Gold Standard 10{#gs-10}
 
 _7 juillet 2020_
@@ -35,7 +53,7 @@ Correction d’un problème qui empêchait le tracking de fonctionner lorsque la
 
 >[!CAUTION]
 >
->Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez [cette page](../../installation/using/installing-the-client-console.md)
+>Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez à ce sujet [cette page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 9{#gs-9}
 
@@ -60,11 +78,11 @@ _29 avril 2020_
 
 Le build 9032@3a9dc9c comprend les correctifs suivants :
 
-* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
+* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
 
 >[!CAUTION]
 >
->Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
+>Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
