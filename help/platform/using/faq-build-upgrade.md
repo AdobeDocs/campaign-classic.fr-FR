@@ -6,11 +6,11 @@ description: Questions courantes relatives aux upgrades de build Campaign
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
-source-wordcount: '2023'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Identifiez les heures de faible volume ou trafic qui seraient idéales pour les 
 
 Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
 
-Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
+Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
 
 ## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
 
@@ -136,7 +136,7 @@ Oui. Les clients doivent indiquer à Adobe un point de contact disponible au cou
 
 ## Dois-je mettre à jour la console cliente ?
 
-Oui. La console cliente doit présenter le même build que l&#39;instance de serveur ou un build plus récent. Une fois l&#39;upgrade réalisé, votre console cliente doit vous inviter à effectuer un upgrade vers le build le plus récent afin de vous assurer qu&#39;elle reste alignée sur le build du serveur.
+Oui. La console client doit se trouver sur la même build que l’instance du serveur. Une fois l&#39;upgrade réalisé, votre console cliente doit vous inviter à effectuer un upgrade vers le build le plus récent afin de vous assurer qu&#39;elle reste alignée sur le build du serveur.
 
 ## Quel est le plan de restauration ? Les sauvegardes de mes données sont-elles conservées ?
 
@@ -205,5 +205,5 @@ du contenu est présent et s&#39;affiche.
 
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
-* [Programme Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html)
+* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Programme Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
