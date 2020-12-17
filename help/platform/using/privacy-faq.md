@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: a399adc47e4676fe2d001924c62019e829eea403
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 98%
+source-wordcount: '808'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Voici quelques-unes des questions fréquentes sur la confidentialité et le cons
 
 ## Termes clés {#key-terms}
 
-### Quels sont les termes clés de la protection des renseignements personnels ?
+**Quels sont les termes clés de la protection des renseignements personnels ?**
 
 Les éléments répertoriés ci-dessous renvoient aux termes et concepts clés relatifs à la protection des informations personnelles et au consentement dans Adobe Campaign :
 
@@ -32,7 +32,7 @@ Les éléments répertoriés ci-dessous renvoient aux termes et concepts clés r
 
 ## Préparation à la réglementation en matière de confidentialité {#privacy-regulations-readiness}
 
-### Que suggère Adobe Campaign pour se conformer aux plus récentes réglementations en matière de protection des informations personnelles ?
+**Que suggère Adobe Campaign pour se conformer aux plus récentes réglementations en matière de protection des informations personnelles ?**
 
 Adobe ne fournit pas de conseils juridiques. Vous devriez travailler avec votre propre service juridique pour vous assurer qu’il prend toutes les mesures nécessaires pour le respect du RGPD, de l&#39;ACPCP, de PDPA, du LGPD ou de toute autre disposition réglementaire applicable.
 
@@ -68,7 +68,7 @@ Adobe ne fournit pas de conseils juridiques. Vous devriez travailler avec votre 
 
 ## Préserver l’interaction client {#preserve-user-engagement}
 
-### Comment les contrôleurs de données peuvent-ils obtenir le consentement avec un minimum d’impact sur l’interaction client ?
+**Comment les contrôleurs de données peuvent-ils obtenir le consentement avec un minimum d’impact sur l’interaction client ?**
 
 Dans les cas où le consentement est nécessaire pour certaines activités de commercialisation, le consentement du consommateur doit être actif (c’est-à-dire qu’il n’y a pas de silence en tant qu’avis conforme ou cases pré-cochées), dégroupé, et il ne peut pas être conditionnel à l’offre de services.
 
@@ -78,7 +78,7 @@ Plutôt que de considérer ces exigences accrues de consentement comme un risque
 
 ## Gérer le consentement {#manage-consent}
 
-### Comment les contrôleurs de données peuvent-ils gérer le consentement dans Adobe Campaign ?
+**Comment les contrôleurs de données peuvent-ils gérer le consentement dans Adobe Campaign ?**
 
 Adobe Campaign offre déjà des capacités de gestion du consentement à plus de niveaux que la plupart des spécialistes marketing ne tirent parti des champs de données personnalisés ou d’un ou plusieurs services.
 
@@ -88,7 +88,7 @@ Par exemple, l’extension du modèle de données dans Adobe Campaign pour suivr
 
 ## Suppression de données {#data-deletion}
 
-### Quelles données les contrôleurs de données peuvent-ils supprimer dans Adobe Campaign en réponse à une requête d’un client (titulaire des données) ?
+**Quelles données les contrôleurs de données peuvent-ils supprimer dans Adobe Campaign en réponse à une requête d’un client (titulaire des données) ?**
 
 Toutes les données associées au titulaire de données seront supprimées, y compris les tableaux prêts à l’emploi et personnalisés.
 
@@ -96,21 +96,19 @@ Techniquement, toutes les données liées au titulaire de données avec `integri
 
 En tant que contrôleur de données, vous avez la possibilité de personnaliser cela en modifiant l’intégrité des liens définis dans les schémas de données (par exemple, si vous avez une justification commerciale pour ne pas supprimer certaines données).
 
-### Quel est l’impact de la suppression des logs de tracking et de diffusion sur les rapports ?
+**Quel est l’impact de la suppression des logs de tracking et de diffusion sur les rapports ?**
 
 Dans Adobe Campaign, les rapports reposent sur des indicateurs calculés grâce aux données agrégées issues des logs de diffusion et de tracking. Par conséquent, la suppression de ces logs ne doit pas avoir d’incidence sur les mesures affichées dans les rapports.
 
 ## Réimporter les données {#re-import-data}
 
-### Dois-je garder à l’esprit la possibilité de réimporter les données ultérieurement ?
-
-Souvent dans Adobe Campaign, l’enregistrement est téléchargé à partir d’une source de données externe.
+**Souvent dans Adobe Campaign, l’enregistrement est téléchargé à partir d’une source de données externe. Dois-je garder à l’esprit la possibilité de réimporter les données ultérieurement ?**
 
 Lorsque vous recevez une demande de suppression, vous devez vérifier, en tant que contrôleur de données, que vous supprimez de tous vos systèmes toutes les données nécessaires concernant le titulaire de données.
 
 ## Opt-in à nouveau {#opt-in-again}
 
-**Un Data Subject, dont les données ont été effacées d&#39;Adobe Campaign, peut-il opt-in plus tard ?**
+**Est-ce qu’un titulaire de données dont les données ont été effacées d’Adobe Campaign peut donner son accord à nouveau plus tard ?**
 
 Il est possible pour un titulaire de données de s’inscrire à nouveau ou d’être ajouté en tant que nouveau destinataire après l’effacement de ses données d’Adobe Campaign.
 
