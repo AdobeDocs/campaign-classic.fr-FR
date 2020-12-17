@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: fa8e63051b4c8bbcfd4000a1e59fa6d91422149d
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 99%
+source-wordcount: '3684'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,8 @@ Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign C
 La section du suivi des diffusions a été réorganisée en thèmes. [En savoir plus](../../delivery/using/about-delivery-monitoring.md)
 
 Un exemple d’utilisation a été ajouté sur la manière d’ajouter les adresses IP des expéditeurs aux logs de diffusion. [En savoir plus](../../delivery/using/delivery-dashboard.md#use-case)
+
+FAQ sur la confidentialité a été déplacée à [cette section](../../platform/using/privacy-faq.md).
 
 ## Novembre 2020 {#nov-2020}
 
