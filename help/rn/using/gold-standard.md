@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 494be84478f652dd5e1473dd98272056514f31c8
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 90%
+source-wordcount: '820'
+ht-degree: 100%
 
 ---
 
@@ -25,24 +25,6 @@ Cette page répertorie les versions Gold Standard.
 
 [Pour plus d’informations sur la mise à niveau de Campaign Gold Standard, consultez cet article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
-## ![](assets/do-not-localize/limited_2.png) Version Gold Standard 11{#gs-11}
-
-_15 décembre 2020_
-
->[!CAUTION]
->
->Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le 21 mars 2020.
-
-La version 9032@2a2a028 comprend les améliorations et correctifs suivants :
-
-* Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
-
-* L’authentification de l’intégration des triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
-
-* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
-
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes de usurpation de requête côté serveur (SSRF). (NEO-27777)
-
 ## ![](assets/do-not-localize/green_2.png) Version Gold Standard 10{#gs-10}
 
 _7 juillet 2020_
@@ -53,7 +35,7 @@ Correction d’un problème qui empêchait le tracking de fonctionner lorsque la
 
 >[!CAUTION]
 >
->Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez à ce sujet [cette page](../../installation/using/installing-the-client-console.md)
+>Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez [cette page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 9{#gs-9}
 
