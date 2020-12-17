@@ -22,10 +22,12 @@ Le **Digital Content Editor (DCE)** est un éditeur de contenus HTML qui permet 
 Avec le Digital Content Editor, vous pouvez insérer et mettre en forme des éléments de page, et mapper des champs de base de données à des éléments d‘une page HTML. Cet éditeur est disponible lors de la création d’une page pour une application web ou de la création de diffusions basées sur un modèle du DCE.
 
 >[!NOTE]
+>
 >>Si vous devez ajouter du code JavaScript côté serveur, utilisez des blocs de personnalisation. [En savoir plus](../../delivery/using/personalization-blocks.md).
 >
 >[!CAUTION]
-Toutes les ressources externes doivent être référencées avec une URL HTTPS.
+>
+>Toutes les ressources externes doivent être référencées avec une URL HTTPS.
 
 ## Étapes clés d‘utilisation du Digital Content Editor {#content-editor-general-operation}
 
@@ -43,7 +45,8 @@ Pour créer une **application web** simple, vous devez :
 1. Publier l‘application web - [En savoir plus](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
-Un exemple complet d’implémentation dans le contexte d’une application web est disponible dans [cette section](../../web/using/creating-a-landing-page.md).
+>
+>Un exemple complet d’implémentation dans le contexte d’une application web est disponible dans [cette section](../../web/using/creating-a-landing-page.md).
 
 Pour créer une **diffusion email**, vous devez :
 
@@ -53,4 +56,5 @@ Pour créer une **diffusion email**, vous devez :
 1. Envoyer la diffusion - [En savoir plus](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
-Un exemple complet d‘implémentation dans le contexte d’une diffusion email est disponible dans [ce cas pratique](../../web/using/use-case--creating-an-email-delivery.md).
+>
+>Un exemple complet d‘implémentation dans le contexte d’une diffusion email est disponible dans [ce cas pratique](../../web/using/use-case--creating-an-email-delivery.md).
