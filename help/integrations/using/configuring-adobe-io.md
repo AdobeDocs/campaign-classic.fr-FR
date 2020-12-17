@@ -9,11 +9,11 @@ topic-tags: adobe-experience-manager
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7353abfe07bc177d103c83c7f2a5d57d7fb415a3
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## Prérequis {#adobe-io-prerequisites}
 
-Cette intégration ne s’applique qu’à partir de la **version Campaign Classic 20.3**.
+Cette intégration ne s&#39;applique qu&#39;à partir des versions **Campaign Classic 20.3 et Gold Standard 11**.
 
 Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléments suivants :
 
