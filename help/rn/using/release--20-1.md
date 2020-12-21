@@ -6,9 +6,9 @@ description: Version 20.1
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -17,19 +17,19 @@ ht-degree: 100%
 
 # Version 20.1{#release-20-1}
 
-## ![](assets/do-not-localize/orange_2.png) Version 20.1.3 - Build 9124{#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/red_2.png) Version 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
 _mercredi 6 mai 2020_
 
 * Correction d’un problème avec l’activité de **transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
 
-## ![](assets/do-not-localize/orange_2.png) Version 20.1.2 - Build 9123{#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/red_2.png) Version 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
 _13 mars 2020_
 
 * Correction d’une erreur qui empêchait le déploiement de la version sur les serveurs Red Hat 7. (NEO-23332)
 
-## ![](assets/do-not-localize/orange_2.png) Version 20.1 - Build 9122{#release-20-1-build-9122}
+## ![](assets/do-not-localize/red_2.png) Version 20.1 - Build 9122{#release-20-1-build-9122}
 
 _17 février 2020_
 
