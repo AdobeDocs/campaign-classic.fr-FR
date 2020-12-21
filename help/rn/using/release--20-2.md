@@ -6,9 +6,9 @@ description: Version 20.2
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: ht
-source-git-commit: 9cf995fe58b6afd89ee54724c97681f39994eba9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+workflow-type: tm+mt
 source-wordcount: '2206'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ _11 septembre 2020_
 * Correction d’une régression au cours d’un postupgrade qui provoquait un démarrage incorrect de nlserver (logs d’erreur).
 * La gestion des mises à jour pour la mémoire partagée a été améliorée. Les étapes supplémentaires requises dans la version 20.2 ne sont plus nécessaires.
 
-## ![](assets/do-not-localize/orange_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/red_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
 _22 juillet 2020_
 
@@ -56,9 +56,9 @@ _22 juillet 2020_
 * Après le passage au [nouveau mécanisme d’identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
 * Correction d’une vulnérabilité XSS potentielle dans le contenu d’une diffusion. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/orange_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
+## ![](assets/do-not-localize/red_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
 _lundi 8 juin 2020_
 
