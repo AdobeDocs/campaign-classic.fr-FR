@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: dc345681e8d0085b4366be0afa2d8207170c716f
+source-git-commit: 02b7c77791f8893100e2d4d19b98dbcfd218802c
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 93%
@@ -23,7 +23,7 @@ _16 décembre 2020_
 
 >[!CAUTION]
 >
->Cette version est fournie avec un nouveau protocole de connexion :  la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le 21 mars 2020.
+>Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le 21 mars 2020.
 
 **Améliorations**
 
