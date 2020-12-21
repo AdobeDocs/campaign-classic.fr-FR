@@ -6,9 +6,9 @@ description: Version 19.2
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Version 19.2{#release-19-2}
 
-## ![](assets/do-not-localize/orange_2.png) Version 19.2.3 - Build 9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/red_2.png) Version 19.2.3 - Build 9081 {#release-19-2-3-build-9081}
 
 _7 février 2020_
 
@@ -26,7 +26,7 @@ _7 février 2020_
 * Correction d’un problème de régression lié à l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur Windows Server. (NEO-20629)
 * Correction d’un problème qui affichait un numéro de balise de version incorrect dans le menu **À propos**.
 
-## ![](assets/do-not-localize/orange_2.png) Version 19.2 - Build 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/red_2.png) Version 19.2 - Build 9080 {#release-19-2-build-9080}
 
 _2 décembre 2019_
 
