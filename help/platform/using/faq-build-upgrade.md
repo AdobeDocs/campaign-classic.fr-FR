@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 100%
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ Oui. Les clients doivent indiquer à Adobe un point de contact disponible au cou
 
 ## Dois-je mettre à jour la console cliente ?
 
-Oui. La console cliente doit présenter le même build que l&#39;instance de serveur ou un build plus récent. Une fois l&#39;upgrade réalisé, votre console cliente doit vous inviter à effectuer un upgrade vers le build le plus récent afin de vous assurer qu&#39;elle reste alignée sur le build du serveur.
+Oui. La console client doit se trouver sur la même build que l’instance du serveur. Une fois l&#39;upgrade réalisé, votre console cliente doit vous inviter à effectuer un upgrade vers le build le plus récent afin de vous assurer qu&#39;elle reste alignée sur le build du serveur.
 
 ## Quel est le plan de restauration ? Les sauvegardes de mes données sont-elles conservées ?
 
