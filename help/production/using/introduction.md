@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 93%
 
 ---
 
@@ -35,6 +35,10 @@ Adobe Campaign repose sur plusieurs processus exécutés côté serveur que vous
 * Serveur applicatif (nlserver web)
 * Serveur de diffusion (nlserver mta)
 * Serveur de redirection (webmdl)
+
+>[!CAUTION]
+>
+>La console client doit se trouver sur la même version que l’instance du serveur.
 
 >[!NOTE]
 >
