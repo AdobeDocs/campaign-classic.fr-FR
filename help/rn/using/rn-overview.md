@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ Les **derniers builds en disponibilité générale** ont les versions suivantes�
 
 Le **dernier build RC** est [Campaign Classic 20.3](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/orange3.png) **Plus disponible** - La mise à jour vers un build plus récent est requise.
-
-![](assets/do-not-localize/red3.png) **Obsolète** - La mise à jour vers un nouveau build est obligatoire.
+![](assets/do-not-localize/red3.png) **Déconseillé**  - Aucun déploiement. Les implémentations existantes doivent être mises à niveau.
 
 ## Recommandations{#recommendations}
 
 Pour garantir une configuration stable, nous vous recommandons d’installer le même build stable sur tous les serveurs qui s’exécutent sur la même configuration client.
+
+En outre, la console client doit se trouver sur la même version que l’instance du serveur.
 
 Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md) et [Matrice de compatibilité](../../rn/using/compatibility-matrix.md) avec chaque nouvelle version.
 
