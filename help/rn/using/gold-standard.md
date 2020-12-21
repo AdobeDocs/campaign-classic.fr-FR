@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 2725767f826a9ee041555bb49e8bfd0964d41736
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,24 @@ Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’
 Cette page répertorie les versions Gold Standard.
 
 [Pour plus d’informations sur la mise à niveau de Campaign Gold Standard, consultez cet article](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
+
+## ![](assets/do-not-localize/limited_2.png) Version Gold Standard 11{#gs-11}
+
+_21 décembre 2020_
+
+>[!CAUTION]
+>
+>Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le 21 mars 2020.
+
+La version 9032@2a2a028 comprend les améliorations et correctifs suivants :
+
+* Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
+
+* L’authentification de l’intégration des triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+
+* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
+
+* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes de usurpation de requête côté serveur (SSRF). (NEO-27777)
 
 ## ![](assets/do-not-localize/green_2.png) Version Gold Standard 10{#gs-10}
 
