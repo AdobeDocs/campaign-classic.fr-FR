@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: f9584342d81b53ad5854b30b7c4970b0aba6d4ff
+source-git-commit: e4cdeddaeb19f3ab7d601343d2a2c91f1c27822b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Correction d’un problème qui empêchait le tracking de fonctionner lorsque la
 
 >[!CAUTION]
 >
->Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez [cette page](../../installation/using/installing-the-client-console.md)
+>Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez à ce sujet [cette page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 9{#gs-9}
 
@@ -79,7 +79,7 @@ Le build 9032@3a9dc9c comprend les correctifs suivants :
 * Correction d’une régression qui entraînait le blocage du workflow de nettoyage.
 * Correction d’une régression mineure dans les logs du workflow de nettoyage.
 
-## ![](assets/do-not-localize/orange_2.png) Version Gold Standard 6{#gs-6}
+## ![](assets/do-not-localize/red_2.png) Version Gold Standard 6{#gs-6}
 
 _9 mars 2020_
 
@@ -87,7 +87,7 @@ Le build 9032@19f73c5 comprend le correctif suivant :
 
 * Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
 
-## ![](assets/do-not-localize/orange_2.png) Version Gold Standard 5{#gs-5}
+## ![](assets/do-not-localize/red_2.png) Version Gold Standard 5{#gs-5}
 
 _17 décembre 2019_
 
@@ -95,7 +95,7 @@ Le build 9032@d6b8062 comprend le correctif suivant :
 
 * Correction d’un problème de suivi sur les canaux de communication suivants : mobile (SMS, MMS), push (iOS, Android) et réseaux sociaux (Facebook, Twitter). (NEO-19595)
 
-## ![](assets/do-not-localize/orange_2.png) Version Gold Standard 4{#gs-4}
+## ![](assets/do-not-localize/red_2.png) Version Gold Standard 4{#gs-4}
 
 _11 décembre 2019_
 
@@ -103,7 +103,7 @@ Le build 9032@bc4a935 comprend le correctif suivant :
 
 * Correction d’un problème de performances lors de l’envoi de messages avec une base de données MSSQL. (NEO-17558)
 
-## ![](assets/do-not-localize/orange_2.png) Version Gold Standard 3{#gs-3}
+## ![](assets/do-not-localize/red_2.png) Version Gold Standard 3{#gs-3}
 
 _20 novembre 2019_
 
