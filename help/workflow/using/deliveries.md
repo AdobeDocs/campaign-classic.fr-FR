@@ -6,18 +6,18 @@ description: En savoir plus sur les workflows de diffusions par défaut
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 97%
 
 ---
 
 
 # Diffusions{#deliveries}
 
-Les workflows présentés ci-dessous sont installés par défaut.
+Les workflows détaillés ci-dessous sont installés par défaut avec le module **Diffusions**.
 
 <table> 
  <tbody> 
@@ -37,7 +37,7 @@ Les workflows présentés ci-dessous sont installés par défaut.
    <td> Ce workflow transmet par email le rapport d'activité du système à l'opérateur 'billing'. Par défaut, il se déclenche tous les 25 du mois.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Nombre de profils de facturation actifs</span> <br /> </td> 
+   <td> <span class="uicontrol">Facturation (profils actifs)</span> <br /> </td> 
    <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
    <td> <p>Ce workflow compte le nombre de profils actifs. Par défaut, il se déclenche toutes les nuits à 1h00 du matin.</p> <p>Un “<strong>profil</strong>” désigne un enregistrement d'informations (par exemple : un enregistrement dans la table nmsRecipient ou une table externe contenant un identifiant de cookie, un identifiant client, un identifiant mobile ou d'autres informations relatives à un canal particulier) représentant un client final ou un prospect. La facturation ne concerne que les profils “actifs”. Un profil est considéré comme actif s'il a été ciblé ou s'il a reçu des communications au cours des 12 derniers mois via n'importe quel canal.</p> <p>Les canaux Facebook et Twitter ne sont pas prises en compte.</p> <p>Vous pouvez obtenir un aperçu du <span class="uicontrol">Nombre de profils actifs</span> depuis le menu <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Gestion de campagne</span> &gt; <span class="uicontrol">Mesures des clients</span>.</p> </td> 
   </tr> 
@@ -67,7 +67,7 @@ Les workflows présentés ci-dessous sont installés par défaut.
    <td> Toutes les heures, ce workflow déploie les offres validées sur l'environnement en ligne, ainsi que toutes les catégories contenues dans le catalogue d'offres.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Aperçu</span> <br /> </td> 
+   <td> <span class="uicontrol">Prévisionnel</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
    <td> Ce workflow effectue l’analyse des diffusions enregistrées dans le calendrier prévisionnel (création des logs prévisionnels). Par défaut, il se déclenche tous les jours à 1h00.<br /> </td> 
   </tr> 
