@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 787beef89325340cc1d46faa03e9cfae7f1c705c
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 98%
@@ -148,7 +148,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 * Correction d’un problème lors de l’utilisation du connecteur Snowflake FDA. Un utilisateur disposant des droits nommés d&#39;accès à Snowflake FDA n&#39;a pas pu exécuter une requête sur un schéma Snowflake. Une erreur de type « Mot de passe introuvable » s&#39;affichait dans les logs. (NEO-23851)
 * Correction d’un problème qui se produisait pendant l’utilisation d’un connecteur FDA lorsque le nom du schéma FDA lié était une sous-chaîne d’un nom d’élément du schéma actuel. Ce problème se produisait, par exemple, si le schéma FDA était « cust » et que l’un des éléments du schéma Destinataire était « customer ». Lors de la récupération de la colonne à l’intérieur de l’élément « customer » et de l’ajout d’une colonne à partir du schéma FDA « cust », la valeur de la colonne locale était absente. (NEO-20193)
 * Correction d’un problème dans les workflows lors de la récupération d’enregistrements d’une base de données externe et de leur insertion dans la base de données Campaign. (NEO-26359)
-* Correction d’un problème dans le workflow technique **Mise à jour du statut des événements** : pour faire correspondre la taille des champs correspondants entrants dans l&#39;activité **Statistiques de diffusion**, la taille de trois champs de destination de l&#39;activité **Mise à jour des stats de diffusion** a été changée de 32 à 64 bits. (NEO-11557) En savoir plus sur le workflow **Mise à jour du statut des événements** dans [cette section](../../workflow/using/message-center--execution-.md).
+* Correction d’un problème dans le workflow technique **Mise à jour du statut des événements** : pour faire correspondre la taille des champs correspondants entrants dans l&#39;activité **Statistiques de diffusion**, la taille de trois champs de destination de l&#39;activité **Mise à jour des stats de diffusion** a été changée de 32 à 64 bits. (NEO-11557) En savoir plus sur le workflow **Mise à jour du statut des événements** dans [cette section](../../workflow/using/about-technical-workflows.md).
 * Correction d’un problème dans le rapport **Historique des événements Message Center** qui provoquait des erreurs de script lors de la tentative d’application de filtres et rendait impossible le filtrage selon une période. (NEO-23365)
 * Correction d’un problème d’interférence entre les workflows techniques **Traitements sur les opérations** et **Prévisualisation** (prévisionnel). Ce problème se produisait lorsque les diffusions planifiées conservaient le statut « Cible prête » ou « Prêt à être diffusé ». (NEO-20819)
 * Correction d’un problème d’analyse XML en raison duquel l’identifiant XML n’était pas présent dans le champ mdata dans xtkOperator. Ce problème entraînait un échec du postupgrade. (NEO-26113)
