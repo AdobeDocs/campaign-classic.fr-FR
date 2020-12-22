@@ -6,20 +6,20 @@ description: Purge des événements
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
+workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
 
 # Purge des événements{#purging-events}
 
-Vous pouvez paramétrer la durée pendant laquelle vous souhaitez conserver les événements en base depuis l&#39;assistant de déploiement.
+Vous pouvez utiliser l&#39;[assistant de déploiement](../../production/using/database-cleanup-workflow.md#deployment-wizard) pour configurer la durée de stockage des données dans la base de données.
 
-La purge des événements est effectuée automatiquement par le workflow **[!UICONTROL Nettoyage de la base]**. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
+La purge des événements est effectuée automatiquement par le workflow [](../../production/using/database-cleanup-workflow.md)Nettoyage de la base. Ce workflow purge les événements reçus et stockés sur les instances d&#39;exécution et des événements archivés sur une instance de pilotage.
 
 Pour modifier les paramètres de purge, utilisez la flèche ascendante et descendante.
 
