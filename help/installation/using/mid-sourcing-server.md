@@ -6,9 +6,9 @@ description: Cette section décrit l'installation et la configuration d'un serve
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ L&#39;installation d&#39;un serveur de mid-sourcing est identique à celle d&#39
 
 >[!CAUTION]
 >
->Une fois le serveur de mid-sourcing configuré et les [workflows de synchronisation](../../workflow/using/transfer-to-mid-sourcing.md) exécutés pour la première fois, veillez à ne pas mettre à jour le nom interne des comptes externes de mid-sourcing.
+>Une fois le serveur de mid-sourcing configuré et les [workflows de synchronisation](../../workflow/using/about-technical-workflows.md) exécutés pour la première fois, veillez à ne pas mettre à jour le nom interne des comptes externes de mid-sourcing.
 
 ## Etapes d&#39;installation et de configuration d&#39;une instance {#steps-for-installing-and-configuring-an-instance}
 
