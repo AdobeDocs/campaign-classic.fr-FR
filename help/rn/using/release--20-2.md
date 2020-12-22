@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+source-git-commit: 26f232fafbcc39eb710135a1fc937e40a76ad0bd
 workflow-type: tm+mt
-source-wordcount: '2206'
-ht-degree: 100%
+source-wordcount: '2488'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,30 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
-## ![](assets/do-not-localize/green_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/green_2.png) Version 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
+
+_22 décembre 2020_
+
+>[!CAUTION]
+>
+>Cette version est fournie avec un nouveau protocole de connexion :  la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le 21 mars 2020.
+
+**Améliorations**
+
+* Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
+* Déclenche l&#39;authentification d&#39;intégration basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée en Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
+* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes de usurpation de requête côté serveur (SSRF). (NEO-27777)
+* Correction d’un problème en raison duquel le connecteur SMPP était désactivé après une erreur de connexion, ce qui empêchait l’envoi d’autres diffusions SMS et provoquait des problèmes de performances. (NEO-28609)
+* Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions. (NEO-26856)
+* Correction d’un problème en raison duquel le serveur se bloquait lors de l’affichage des données de la cible à partir d’une activité **Partage** dans un workflow.
+* Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la tentative de prévisualisation de messages SMS après une requête sur un autre schéma que **Destinataire** (nms:destinataire). (NEO-27517)
+* Correction d’un problème lors de l’exécution d’une demande de connexion HTTPS avec le numéro de port explicitement défini dans le nom d’hôte, l’appel échouait avec une erreur de certificat. (NEO-29146)
+* Correction d’un problème dans la gestion des threads POSIX qui générait des fichiers de vidage principaux volumineux sur l’instance marketing. (NEO-28117, NEO-29281)
+* Correction de problèmes susceptibles de provoquer un blocage du processus Web lors de la préparation de diffusions ou avec une prévisualisation de diffusion récurrente. (NEO-27790, NEO-27517)
+* Correction d’un problème en raison duquel l’envoi de diffusions ou de BAT échouait lorsqu’il était déclenché par un opérateur non administrateur. (NEO-28597)
+
+## ![](assets/do-not-localize/red_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
 _11 septembre 2020_
 
