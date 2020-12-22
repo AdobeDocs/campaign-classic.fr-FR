@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 647a872d71d19802d7334a6e8f881f8d7ad94d13
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
 workflow-type: tm+mt
-source-wordcount: '3140'
-ht-degree: 99%
+source-wordcount: '3179'
+ht-degree: 98%
 
 ---
 
@@ -451,3 +451,7 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 Les diffusions suivantes seront affichées dans la vue :
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
+
+>[!NOTE]
+>
+>Lors de la gestion des événements [de messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md), les dossiers **[!UICONTROL Événements temps réels]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues sur les instances d&#39;exécution, car cela pourrait permettre d&#39;accéder aux bonnes questions. Pour en savoir plus sur la collecte de événements, voir [cette section](../../message-center/using/event-collection.md).
