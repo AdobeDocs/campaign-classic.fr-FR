@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '195'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
 * [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
+* [Utilisation de la fonctionnalité de fusion des activités Déduplications](../../workflow/using/deduplication-merge.md)
 
 ## Ciblage {#designing-queries}
 
