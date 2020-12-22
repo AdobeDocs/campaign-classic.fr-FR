@@ -1,23 +1,27 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos des workflows techniques
-description: Liste des workflows techniques de Campaign
+title: Workflows techniques
+description: Pour en savoir plus sur les workflows techniques disponibles avec les forfaits Campaign Classic.
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3f2e984f85e517777751e3c36dc96437eefb3010
+workflow-type: tm+mt
+source-wordcount: '1849'
+ht-degree: 72%
 
 ---
 
 
-# A propos des workflows techniques{#about-technical-workflows}
+# Workflows techniques{#about-technical-workflows}
 
-Les workflows présentés dans cette section sont installés avec les packages intégrés d’Adobe Campaign. Ces packages, de même que les workflows techniques associés, dépendent de votre contrat de licence. Par défaut, ils sont disponibles dans un sous-dossier du nœud suivant : **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Workflows techniques]**.
+## A propos des workflows techniques {#overview}
+
+Les workflows détaillés dans cette section sont installés avec les différents packages intégrés Adobe Campaign. Ces forfaits et workflows techniques connexes dépendent de votre contrat de licence. Les packages intégrés sont détaillés dans [cette section](../../installation/using/installing-campaign-standard-packages.md).
+
+Par défaut, les workflows techniques sont disponibles dans un sous-dossier du noeud suivant : **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Workflows techniques]**.
 
 >[!NOTE]
 >
@@ -25,23 +29,55 @@ Les workflows présentés dans cette section sont installés avec les packages i
 
 Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniques, voir la [section dédiée](../../workflow/using/monitoring-technical-workflows.md).
 
-Cette section contient des informations sur les workflows techniques qui sont liés aux packages suivants :
+## Liste des workflows techniques {#list-technical-workflows}
 
-* [Deliveries](../../workflow/using/deliveries.md)
-* [Campagne](../../workflow/using/campaign.md)
-* [Web Analytics](../../workflow/using/web-analytics.md)
-* [Distributed Marketing (Marketing distribué)](../../workflow/using/distributed-marketing.md)
-* [Email Deliverability (Supervision de la délivrabilité)](../../workflow/using/email-deliverability.md)
-* [Inbox Rendering (IR)](../../workflow/using/inbox-rendering.md)
-* [Interaction](../../workflow/using/interaction.md)
-* [Contrôle du moteur d’offres](../../workflow/using/control-of-offer-engine.md)
-* [Message Center (Pilotage)](../../workflow/using/message-center--control-.md)
-* [Message Center (Execution)](../../workflow/using/message-center--execution-.md)
-* [Mobile App Channel](../../workflow/using/mobile-app-channel.md)
-* [Canal LINE](../../workflow/using/line-channel.md)
-* [Ressources marketing (MRM)](../../workflow/using/marketing-resources--mrm-.md)
-* [Social Marketing](../../workflow/using/social-marketing.md)
-* [Intégrations avec les solutions Adobe Experience Cloud](../../workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-* [Règlement sur la protection des informations personnelles](../../workflow/using/general-data-protection-regulation--gdpr-.md)
-* [Emission vers Mid-sourcing](../../workflow/using/transfer-to-mid-sourcing.md)
-* [Plate-forme de Mid-sourcing](../../workflow/using/mid-sourcing-platform.md)
+| Workflow technique | Package | Description |
+|------|--------|-----------|
+| **Cleansing**  d&#39;alias (aliasCleansing) | Diffusion | Ce workflow réalise l’uniformisation des valeurs des énumérations. Par défaut, il se déclenche tous les jours à 3h00. |
+| **Facturation**  (facturation) | Diffusion | Ce workflow transmet par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Par défaut, il se déclenche tous les 25 du mois. |
+| **Calcul des statistiques**  Twitter (statsTwitter) | Réseaux sociaux (Social Marketing) | Ce workflow calcule les statistiques liées aux retweets et aux visites sur Twitter. |
+| **Tâches**  Campaign (operationMgt) | Campagnes marketing (Campaign) | Ce workflow gère les traitements sur les opérations marketing (démarrage du ciblage, extraction des fichiers, etc.). Il crée également les workflows relatifs aux opérations récurrentes et périodiques. |
+| **Collecter des requêtes**  de confidentialité (collectionPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow génère les données du destinataire stockées dans Adobe Campaign et les met à disposition sur l’écran de la demande d’accès. |
+| **Calcul**  des coûts (budgetMgt) | Campagnes marketing (Campaign) | Ce workflow lance le calcul des lignes de dépenses et des coûts sur les budgets, les plans, programmes, opérations, diffusions et tâches. |
+| **Nettoyage**  de la base de données (nettoyage) | Diffusion | Ce workflow est le workflow d&#39;entretien de la base : il procède aux différents calculs des statistiques et traitements, et supprime les données obsolètes de la base de données selon le paramétrage défini dans l&#39;assistant de déploiement. Par défaut, il se déclenche tous les jours à 4H00. Pour plus d’informations, consultez [cette page](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic). |
+| **Supprimer les utilisateurs**  de la LIGNE bloquée (deleteBlockLineUsersV2) | Canal LINE | Ce workflow assure la suppression des données des utilisateurs LINE V2 s’ils ont bloqué le compte officiel LINE pendant 180 jours. |
+| **Supprimer les données**  de requêtes de confidentialité (deletePrivacyRequestsData) | Règlement sur la protection des informations personnelles | Ce workflow supprime les données du destinataire stockées dans Adobe Campaign. |
+| **Indicateurs**  de diffusion (deliveryIndicators) | Plate-forme de Mid-sourcing | Ce workflow met à jour les indicateurs de tracking des diffusions. Par défaut, ce workflow se déclenche toutes les heures. |
+| **Processus des**  forums de discussion (newsgroupMgt) | Ressources marketing (MRM) | Ce workflow gère l&#39;envoi des notifications dans les forums de discussion. Il se déclenche lorsqu&#39;il reçoit un signal de validation |
+| **Processus**  marketing distribués (centralLocalMgt) | Marketing central/local (Marketing distribué) | Ce workflow exécute les traitements relatifs à l&#39;utilisation du module de marketing distribué. Il lance la création des opérations en local et gère les notifications relatives aux commandes et à la mise à disposition des kits d&#39;opération. |
+| **purge**  de événement(webAnalyticsPurgeWebEvents) | Connecteurs Web Analytics | Ce processus vous permet de supprimer chaque événement du champ de base de données en fonction de la période configurée dans le champ Durée de vie. |
+| **Exporter des audiences vers le Adobe Experience Cloud** (exportSharedAudience) | Intégration avec Adobe Experience Cloud | Ce workflow permet d’exporter des audiences en tant qu’audiences/segments partagés. Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez. |
+| **Prévisions**  (prévisions) | Diffusion | Ce workflow effectue l’analyse des diffusions enregistrées dans le calendrier prévisionnel (création des logs prévisionnels). Par défaut, il se déclenche tous les jours à 1h00. |
+| **Calcul de l&#39;agrégat complet (cube propositionrcp)** (agg_nmspropositionrcp_full) | Moteur d’offres (Interaction) | Ce workflow met à jour l&#39;agrégat Complet (full) du cube Proposition d&#39;offre. Par défaut, il se déclenche tous les jours à 6H00. Cet agrégat capture les dimensions suivantes : Canal, Diffusion, Offre marketing et Date. Le cube Proposition d&#39;offre est ensuite utilisé pour générer des rapports basés sur les offres. Pour plus d&#39;informations sur les cubes, consultez [cette section](../../reporting/using/about-cubes.md). |
+| **Identification des contacts**  convertis (webAnalyticsFindConverted) | Connecteurs Web Analytics | Ce processus indexe les visiteurs du site qui ont effectué leur achat après une campagne de marketing de relance. Les données récupérées par ce flux de travail sont accessibles dans le rapport Efficacité du marketing de relance (Reportez-vous à cette page). |
+| **Importer des audiences à partir du Adobe Experience Cloud** (importSharedAudience) | Intégration avec Adobe Experience Cloud | Ce workflow permet d’importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d’Adobe Experience Cloud. |
+| **Tâches sur des diffusions dans des campagnes**  (deliveryMgt) | Campagnes marketing (Campaign) | Ce workflow démarre les diffusions validées et lance les post-traitements du prestataire pour une diffusion externe. Il envoie également des notifications de validation et des rappels. |
+| **Tâches en prestataire**  (fournisseurMgt) | Campagnes marketing (Campaign) | Ce workflow démarre les traitements du prestataire (email au routeur et post-traitement) une fois que les diffusions ont été validées. |
+| **Mise à jour**  du jeton d&#39;accès LINE V2 (updateLineV2AccessToken) | Canal LINE | Ce workflow actualise le jeton d’accès à la version LINE V2. |
+| **Migration**  MID vers LineUserID (MIDToUserIDMimigration) | Canal LINE | Ce workflow génère les ID des utilisateurs LINE V2 pour la migration de LINE V1 vers LINE V2. |
+| **Notifications**  de ressource marketing (assetMgt) | Ressources marketing (MRM) | Ce workflow gère les notifications associées à la validation et à la publication des ressources marketing. |
+| **Centre de messages  &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | Contrôle des messages transactionnels (Message Center - Pilotage) | Ce workflow : <ul><li>récupère la liste des événements traités par la ou les opérations,</li><li>se synchronise avec la table NmsBroadLogMsg afin de récupérer les qualifications des messages de diffusion,</li><li>récupère les logs de diffusion d&#39;événements dès que la synchronisation avec la table NmsBroadLogMsg est terminée,</li><li>se synchronise avec la table NmsTrackingUrl afin de récupérer le tracking des URL de diffusion,</li><li>récupère les URL de tracking des événements dès que la synchronisation avec la table NmsTrackingUrl est terminée,</li><li>permet de récupérer toutes les adresses email mises en quarantaine toutes les trois heures après l&#39;envoi d&#39;une diffusion.</ul> |
+| **Calcul**  de l&#39;agrégat complet de MessageCenter (agg_messageCenter_full) | Moteur d’offres (Interaction) | Ce processus met à jour l&#39;agrégat complet pour le cube du centre de messages. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d&#39;événement. Le cube Centre de messages est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans [cette section](../../reporting/using/about-cubes.md) |
+| **Midsourcing (compteurs de diffusion)** (defaultMidSourcingDlv) | Emission vers Mid-sourcing | Ce workflow collecte les informations de comptage des diffusions sur le serveur de mid-sourcing. Les informations de comptage comprennent les indicateurs généraux de diffusion tels que le nombre de diffusions envoyées, etc. Les informations de tracking comme les ouvertures ne sont pas incluses. Par défaut, il se déclenche toutes les dix minutes. |
+| **Midsourcing (logs de diffusion)** (defaultMidSourcingLog) | Emission vers Mid-sourcing | Ce workflow collecte les logs des diffusions sur le serveur de mid-sourcing. Par défaut, il se déclenche toutes les heures. |
+| **Gestion**  des exclusions NMAC (mobileAppOptOutMgt) | Mobile App Channel | Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. Pour plus d&#39;informations, consultez [cette section](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
+| **Nombre de profils**  de facturation principaux (billingActiveContactCount) | Moteur d’offre (Interaction) | Ce workflow compte le nombre de profils actifs. Par défaut, il se déclenche toutes les nuits à 1h00 du matin. Un « Profil » désigne un enregistrement d’informations (par exemple : un enregistrement dans la table nmsRecipient ou une table externe contenant un identifiant de cookie, un identifiant client, un identifiant mobile ou d’autres informations relatives à un canal particulier) représentant un client final ou un prospect. La facturation concerne uniquement les Profils &quot;principaux&quot;. Un Profil est considéré comme &quot;principal&quot; si le Profil a été ciblé ou communiqué au cours des 12 derniers mois par un canal quelconque. Les canaux Facebook et Twitter ne sont pas pris en compte. Vous pouvez obtenir un aperçu du Nombre de profils actifs depuis le menu Administration > Gestion de campagne > Mesures des clients. |
+| **Notification**  d’Offre (offerMgt) | Diffusion | Toutes les heures, ce workflow déploie les offres validées sur l&#39;environnement en ligne, ainsi que toutes les catégories contenues dans le catalogue d&#39;offres. |
+| **Nettoyage**  des workflows en pause (cleanupPausedWorkflows) | Diffusion | Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu&#39;ils sont en pause depuis trop longtemps. Après un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, ce workflow est déclenché tous les lundis à 5h00. Pour plus d&#39;informations, consultez [Gestion des workflows en pause](../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows). |
+| **Nettoyage**  de la demande de confidentialité (cleanupPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow supprime les fichiers de demande d’accès qui ont plus de 90 jours. |
+| **Événements batch**  de traitement (batchEventsProcessing) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet de répartir les événements batch dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message. |
+| **Événements temps réels**  de traitement (rtEventsProcessing) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet de répartir les événements temps réel dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message. |
+| **Synchronisation**  de proposition (propositionSynch) | Contrôle du moteur d’offres avec l’instance d’exécution | Ce workflow synchronise les propositions entre les instances marketing et d’exécution utilisées pour les interactions. |
+| **Récupération des événements**  Web (webAnalyticsGetWebEvents) | Connecteurs Web Analytics | Toutes les heures, ce workflow télécharge les segments portant sur le comportement des internautes sur un site donné, les inclut dans la base de données Adobe Campaign et lance le workflow de re-marketing. |
+| **Actualiser pour la délivrabilité**  (délivrabilityUpdate) | Supervision de la délivrabilité (Email Deliverability) | Une fois le package de surveillance de la délivrabilité (délivrabilité des e-mails) installé, ce processus s&#39;exécute de nuit pour mettre à jour régulièrement la liste des règles et permet de gérer activement la délivrabilité des plateformes. |
+| **Agrégats**  de rapports (reportingAggregates) | Diffusion | Ce workflow met à jour les agrégats utilisés dans les rapports. Par défaut, il se déclenche tous les jours à 2H00. |
+| **Envoi d’indicateurs et d’attributs**  de campagne (webAnalyticsSendMetrics) | Connecteurs Web Analytics | Ce flux de travail vous permet d’envoyer par courrier électronique des indicateurs de campagne d’Adobe Campaign à Adobe Experience Cloud Suite via le connecteur Genesis Adobe®. Les indicateurs concernés sont les suivants : Envoyé (Envoyé), Nombre total d’ouvertures (iTotalRecipientOpen), Nombre total de destinataires ayant cliqué sur (iTotalRecipientClick), Erreurs (iError), Exclusion (opt-out) (iOptOut). |
+| **Stock : Commandes et alertes**  (stockMgt) | Campagnes marketing (Campaign) | Ce workflow lance le calcul des stocks sur les lignes de commande et gère les seuils d&#39;alerte. |
+| **Synchronisation des fans**  Facebook (syncFacebookFans) | Réseaux sociaux (Social Marketing) | Ce workflow importe les fans Facebook dans Adobe Campaign tous les jours à 7H00. |
+| **Synchronisation des pages**  Facebook (syncFacebook) | Réseaux sociaux (Social Marketing) | Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00. |
+| **Synchronisation des pages**  Twitter (syncTwitter) | Réseaux sociaux (Social Marketing) | Ce workflow importe les followers Twitter dans Adobe Campaign tous les jours à 7H00. |
+| **Notification**  de tâche (taskMgt) | Ressources marketing (MRM) | Ce workflow permet d&#39;envoyer les messages de notification relatifs aux tâches dans les opérations marketing. |
+| **Suivi**  (suivi) | Diffusion | Ce workflow réalise la récupération et la consolidation des informations de tracking. Il assure également le re-calcul des statistiques de tracking et de diffusions, notamment celles utilisées par les workflows d&#39;archivage de Message Center. Par défaut, il se déclenche toutes les heures. |
+| **Mettre à jour l&#39;état**  du événement (updateEventsStatus) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet d&#39;attribuer un statut à l&#39;événement. Les statuts d&#39;un événement sont les suivants :<ul><li>En attente : l&#39;événement se trouve dans la file d&#39;attente. Aucun modèle de message ne lui a encore été associé.</li><li>En attente de diffusion : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.</li><li>Envoyé : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été envoyée.</li><li>Ignoré par la diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.</li><li>Erreur de diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.</li><li>Evénement non pris en charge : l&#39;association de l&#39;événement à un modèle de message a échoué. L&#39;événement ne sera pas retraité.</li></ul> |
+| **Mise à jour de la délivrabilité**  (délivrabilityUpdate) | Diffusion | Ce workflow permet de créer la liste des règles de qualification des mails rebonds, ainsi que la liste des domaines et des MX dans la plateforme. Ce workflow ne fonctionne que si le port HTTPS est ouvert. Ces listes ne sont pas mises à jour tant que le module Délivrabilité n&#39;est pas installé. |
+| **Mise à jour du réseau initial pour le rendu**  de boîte de réception (updateRenderingSeeds) | Inbox Rendering (IR) | Ce flux de travaux met à jour les adresses électroniques utilisées pour le rendu de la boîte de réception et ne fonctionne que si le port HTTPS est ouvert pour la délivrabilité.neolane.net. |
