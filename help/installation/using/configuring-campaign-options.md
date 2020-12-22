@@ -6,9 +6,9 @@ description: Découvrez comment paramétrer les options de Campaign
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
 source-wordcount: '3930'
 ht-degree: 100%
 
@@ -204,7 +204,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
+   <td><p>Cette option est utilisée par le workflow technique <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> pour le comptage du nombre de diffusions en cours.</p>Elle vous permet de définir le nombre de jours au-delà desquels les diffusions dont le statut est incohérent seront exclues du nombre de diffusions en cours.</p><p>Par défaut, la valeur est définie sur « 7 », ce qui signifie que les diffusions incohérentes remontant à plus de 7 jours seront exclues.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -360,7 +360,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Vous permet de surveiller l’exécution du workflow technique <a href="../../workflow/using/campaign.md">operationMgt</a>. Si ce paramètre est activé (avec la valeur "1"), les informations d’exécution sont consignées dans les logs d’audit du workflow.<br /> </td> 
+   <td> Vous permet de surveiller l’exécution du workflow technique <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a>. Si ce paramètre est activé (avec la valeur "1"), les informations d’exécution sont consignées dans les logs d’audit du workflow.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
