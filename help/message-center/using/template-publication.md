@@ -6,28 +6,30 @@ description: Publication de modèles de message transactionnel
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 02dee9c4cc03784ccc20f147f816798248bd10f2
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 22%
 
 ---
 
 
 # Publication des modèles{#template-publication}
 
-Une fois le modèle de message créé sur l’instance de pilotage, vous pouvez le publier sur toutes les instances d’exécution. La publication vous permet de créer automatiquement deux modèles de messages sur l’instance d’exécution. Vous pouvez ainsi envoyer des messages liés à des événements temps réel et par lots.
+Lorsque le modèle de message créé sur l’instance de pilotage est terminé, vous pouvez le publier. Ce processus le publiera également sur toutes les instances d&#39;exécution.
 
->[!IMPORTANT]
->
->Toute modification du modèle doit être suivie d&#39;une nouvelle publication afin que les changements soient pris en compte lors de l&#39;envoi des messages transactionnels.
+La publication vous permet de créer automatiquement deux modèles de messages sur les instances d&#39;exécution, ce qui vous permet d&#39;envoyer des messages liés à des messages en temps réel et à des événements batch.
 
 >[!NOTE]
 >
->Lors de la publication de modèles de messages transactionnels, les règles de typologie sont automatiquement publiées sur les instances d&#39;exécution.
+>Lors de la publication de modèles de message transactionnel, les règles de typologie sont également automatiquement publiées sur les instances d&#39;exécution.
 
-1. Dans l&#39;instance de pilotage, positionnez-vous au niveau du dossier **[!UICONTROL Message Center > Modèle de messages transactionnels]** dans l&#39;arborescence.
+>[!IMPORTANT]
+>
+>Chaque fois que vous apportez des modifications à un modèle, veillez à le publier à nouveau pour que ces modifications soient effectives pendant la diffusion du message transactionnel.
+
+1. Sur l’instance de pilotage, accédez au dossier **[!UICONTROL Centre de messages > Modèles de message transactionnel]** de l’arborescence.
 1. Sélectionnez le modèle que vous souhaitez publier sur vos instances d&#39;exécution.
 1. Cliquez sur **[!UICONTROL Publier]**.
 
@@ -37,6 +39,10 @@ Lorsque la publication est terminée, les deux modèles de messages destinés à
 
 ![](assets/messagecenter_deployed_model_001.png)
 
+Une fois qu’un modèle est publié, si le événement correspondant est déclenché, l’instance d&#39;exécution reçoit le événement, le lie au modèle transactionnel et envoie le message transactionnel correspondant à chaque destinataire.
+
 >[!NOTE]
 >
->Si vous remplacez par une valeur vide un champ existant du modèle de message transactionnel, tel que l’adresse de l’expéditeur, le champ correspondant sur la ou les instances d’exécution ne sera pas mis à jour lors de la nouvelle publication du message transactionnel. Il contiendra toujours la valeur précédente. Toutefois, si vous avez une valeur non vide, le champ correspondant sera mis à jour de manière habituelle après la publication suivante.
+>Si vous remplacez un champ existant du modèle de message transactionnel, tel que l’adresse de l’expéditeur, par une valeur vide, le champ correspondant de l’instance d&#39;exécution ou des  ne sera pas mis à jour une fois le message transactionnel publié à nouveau. Elle contiendra toujours la valeur précédente.
+>
+>Cependant, si vous ajoutez une valeur non vide, le champ correspondant sera mis à jour comme d’habitude après la publication suivante.
