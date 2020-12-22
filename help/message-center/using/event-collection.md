@@ -6,11 +6,11 @@ description: Collecte des événements
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 73%
 
 ---
 
@@ -25,3 +25,7 @@ Les événements générés par le système d&#39;information peuvent être coll
 Une fois collectés, les événements sont ensuite répartis par les workflows techniques entre les files d&#39;attente temps réel ou par lots des instances d&#39;exécution en attendant d&#39;être associés à un modèle de message.
 
 ![](assets/messagecenter_events_queues_001.png)
+
+>[!NOTE]
+>
+>Sur les instances d&#39;exécution, les dossiers **[!UICONTROL Événements temps réels]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues, car cela pourrait entraîner des problèmes de [droit d&#39;accès](../../platform/using/access-management.md#about-permissions). Pour plus d’informations sur la définition d’un dossier en tant que vue, voir [A propos des vues](../../platform/using/access-management.md#about-views).
