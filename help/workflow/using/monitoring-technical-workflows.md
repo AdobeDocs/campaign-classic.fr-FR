@@ -6,9 +6,9 @@ description: Surveiller les workflows techniques
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Pour la **[!UICONTROL Mise à jour délivrabilité (&#39;deliverabilityUpdate&#3
 
 Pour le **[!UICONTROL Processus de campagne (&#39;operationMgt&#39;, &#39;deliveryMgt&#39;, ...)]** :
 
-1. Examinez tous les workflows situés sous le dossier **[!UICONTROL Processus de campagne.]** Voir à ce propos [cette page](../../workflow/using/campaign.md).
+1. Examinez tous les workflows situés sous le dossier **[!UICONTROL Processus de campagne.]** Voir à ce propos [cette page](../../workflow/using/about-technical-workflows.md).
 1. Vérifiez que les workflow s&#39;exécutent comme prévu et que le journal des logs n&#39;indique pas d&#39;erreurs récurrentes.
 
 ## Supervision de workflow {#workflow-supervision}
