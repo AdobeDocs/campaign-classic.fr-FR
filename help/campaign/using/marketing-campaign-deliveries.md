@@ -6,11 +6,11 @@ description: En savoir plus sur les diffusions d'opérations marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
-source-wordcount: '3084'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
+source-wordcount: '3085'
+ht-degree: 99%
 
 ---
 
@@ -281,7 +281,7 @@ Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39
 
 >[!NOTE]
 >
->Les workflows techniques relatifs aux processus d&#39;opérations sont présentés dans la section [Liste des workflows de processus d&#39;opérations](../../workflow/using/campaign.md).
+>Les workflows techniques liés au paquet Campaign sont présentés dans la [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
 **Etape 1 - Valider le fichier**
 
@@ -461,6 +461,6 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
