@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 588e1e465eb5ba06f3a7310f70fe958ec2ec334f
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 ## Nouveautés
 
+* **[Supprimer les ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> rebonds durs incorrectsDécouvrez comment mettre à jour les rebonds durs incorrects après une panne de Gmail
+
 * **[Mise à jour de l’intégration d&#39;Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Le service d’authentification historique d’oAuth a atteint la fin de vie. Découvrez comment migrer vers Adobe I/O.
 
 * **[Passer à l’API du fournisseur d’APNs basée sur HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/> Découvrez comment migrer du protocole binaire historique à l’API du fournisseur d’APNs basée sur HTTP/2.
@@ -26,8 +28,6 @@ ht-degree: 100%
 * **[Ajout d’émoticônes à vos messages](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/> Vous pouvez maintenant insérer des émoticônes dans les messages et la ligne d&#39;objet.
 
 * **[Accès à l’assistance technique](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)**<br/> FAQ, bonnes pratiques, ressources d’aide, demandes d’assistance.
-
-* **[Fonctionnalités de tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html)**<br/> Découvrez les fonctionnalités et les processus de tracking dans Campaign.
 
 [Autres mises à jour](/help/rn/using/documentation-updates.md)
 
@@ -85,6 +85,6 @@ ht-degree: 100%
 | [Vidéos pratiques](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr) | [Modèle de données Campaign](configuration/using/about-data-model.md) |
 | [Matrice de compatibilité](rn/using/compatibility-matrix.md) | [JSAPI Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Prise en main de Campaign ](platform/using/about-adobe-campaign-classic.md) | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/acc-implementation.html) |
-| [Upgrade vers la version Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
-| [Fonctionnalités obsolètes](rn/using/deprecated-features.md) | [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) |
+| [Upgrade vers la version Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
+| [Fonctionnalités obsolètes](rn/using/deprecated-features.md) | [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [Directives de supervision](production/using/monitoring-guidelines.md) |
