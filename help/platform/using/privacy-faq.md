@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 98%
@@ -110,7 +110,7 @@ Lorsque vous recevez une demande de suppression, vous devez vérifier, en tant q
 
 ## Opt-in à nouveau {#opt-in-again}
 
-**Un Data Subject, dont les données ont été effacées d&#39;Adobe Campaign, peut-il opt-in plus tard ?**
+### Un Data Subject, dont les données ont été effacées d&#39;Adobe Campaign, peut-il opt-in plus tard ?
 
 Il est possible pour un titulaire de données de s’inscrire à nouveau ou d’être ajouté en tant que nouveau destinataire après l’effacement de ses données d’Adobe Campaign.
 
