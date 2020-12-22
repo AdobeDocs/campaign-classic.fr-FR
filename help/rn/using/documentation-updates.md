@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
 workflow-type: tm+mt
-source-wordcount: '3684'
-ht-degree: 98%
+source-wordcount: '3745'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,12 @@ La section du suivi des diffusions a été réorganisée en thèmes. [En savoir 
 Un exemple d’utilisation a été ajouté sur la manière d’ajouter les adresses IP des expéditeurs aux logs de diffusion. [En savoir plus](../../delivery/using/delivery-dashboard.md#use-case)
 
 FAQ sur la confidentialité a été déplacée à [cette section](../../platform/using/privacy-faq.md).
+
+Un exemple d’utilisation a été ajouté sur la manière d’utiliser la fonctionnalité de fusion d’activités de Déduplication. [En savoir plus](../../workflow/using/deduplication-merge.md)
+
+La page des paramètres et protocoles du connecteur SMS a été déplacée [ici](../../delivery/using/sms-protocol.md).
+
+Une note a été ajoutée à la section Messages transactionnels pour avertir que les dossiers de événement ne doivent pas être définis comme des vues sur les instances d&#39;exécution, afin d&#39;éviter les problèmes de droits d&#39;accès. [En savoir plus](../../message-center/using/event-collection.md)
 
 ## Novembre 2020 {#nov-2020}
 
