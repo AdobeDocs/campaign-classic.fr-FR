@@ -6,9 +6,9 @@ description: Exécution des workflows
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Dans certains cas, les workflows exécutés à partir d’une campagne ne commen
 
 Il peut y avoir plusieurs causes à ce problème. Procédez comme suit pour le résoudre :
 
-1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md). Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
+1. Vérifiez le statut du workflow technique [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md). Ce processus gère les traitements ou les workflows au sein d’une campagne. En cas d’échec, les workflows ne démarrent pas / ne s’arrêtent pas. Redémarrez-le pour reprendre l’exécution des workflows de campagne.
 
    Pour en savoir plus sur la surveillance des workflows techniques, consultez [cette page](../../workflow/using/monitoring-technical-workflows.md).
 
