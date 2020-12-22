@@ -5,11 +5,11 @@ title: Définir l’audience appropriée
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,10 @@ Il est important d&#39;éviter d&#39;avoir des adresses email en double, car cel
 
 Pour garantir votre réputation et assurer une bonne gestion des quarantaines, dédupliquez les adresses.
 
-En savoir plus [sur ce cas pratique](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery).
+**Rubriques connexes :**
+
+* [Activité Déduplication](../../workflow/using/deduplication.md).
+* [Cas d’utilisation : Utilisation de la fonctionnalité de fusion des activités Déduplications](../../workflow/using/deduplication-merge.md)
 
 ## Adresses email d’index {#index-addresses}
 
