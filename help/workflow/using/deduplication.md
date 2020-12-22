@@ -6,11 +6,11 @@ description: En savoir plus sur l’activité de workflow de déduplication
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 55e2297c5c60a48be230d06a3c1880d79b8ea5f2
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 67%
 
 ---
 
@@ -18,6 +18,29 @@ ht-degree: 100%
 # Déduplication{#deduplication}
 
 La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l&#39;adresse email, du numéro de téléphone ou d&#39;un autre champ.
+
+L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes de duplicata d&#39;un jeu de données. Par exemple, les enregistrements ci-dessous peuvent être considérés comme duplicata, car ils ont la même adresse électronique et le même téléphone portable et/ou de domicile.
+
+| Date de dernière modification | Prénom | Nom | Email | Téléphone mobile | Phone |
+-----|------------|-----------|-------|--------------|------
+| 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+
+L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicata. Par exemple, dans le cas d’utilisation ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la date la plus ancienne **[!UICONTROL Date]**, le résultat sera :
+
+| Date | Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
+-----|----------|------------|-------|--------------|------
+| 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+
+L&#39;enregistrement maître sélectionné transfère les données sans fusionner les données de champ avec d&#39;autres données pertinentes dans les lignes de duplicata.
+
+Complémentaire:
+
+| Date | Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
+-----|------------|-----------|-------|--------------|------
+| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## Bonnes pratiques {#best-practices}
 
@@ -34,15 +57,11 @@ Ce cas de figure doit s&#39;aborder de cette manière :
 
 Pour paramétrer une déduplication, vous devez renseigner son libellé, la méthode et les critères de déduplication et les options relatives au résultat.
 
-Cliquez sur le lien **[!UICONTROL Editer la configuration...]** pour définir le mode de déduplication.
+1. Cliquez sur le lien **[!UICONTROL Editer la configuration...]** pour définir le mode de déduplication.
 
-![](assets/s_user_segmentation_dedup_param.png)
+   ![](assets/s_user_segmentation_dedup_param.png)
 
-1. Choix de la cible
-
-   Sélectionnez le type de cible de cette activité (par défaut, la déduplication porte sur les destinataires) et le critère à utiliser, c&#39;est-à-dire le champ pour lequel des valeurs identiques permettent d&#39;identifier les doublons : l&#39;adresse email, le numéro de mobile ou de téléphone, le fax ou l&#39;adresse postale.
-
-   ![](assets/s_user_segmentation_dedup_param2.png)
+1. Sélectionnez le type de cible pour cette activité (par défaut, la déduplication est liée aux destinataires) et le critère à utiliser, c&#39;est-à-dire le champ pour lequel des valeurs identiques permettent d&#39;identifier les duplicata.
 
    >[!NOTE]
    >
@@ -50,11 +69,13 @@ Cliquez sur le lien **[!UICONTROL Editer la configuration...]** pour définir le
    >
    >L&#39;option **[!UICONTROL Autre]** permet, à l&#39;étape suivante, de sélectionner le ou les critères à utiliser :
 
+   ![](assets/s_user_segmentation_dedup_param2.png)
+
+1. À l’étape suivante, l’option **[!UICONTROL Autre]** vous permet de sélectionner le ou les critères à utiliser en cas de valeurs identiques.
+
    ![](assets/s_user_segmentation_dedup_param3.png)
 
-1. Méthodes de déduplication
-
-   Sélectionnez dans la liste déroulante la méthode de déduplication à utiliser et indiquez le nombre de doublons à conserver.
+1. Sélectionnez dans la liste déroulante la méthode de déduplication à utiliser et indiquez le nombre de doublons à conserver.
 
    ![](assets/s_user_segmentation_dedup_param4.png)
 
@@ -72,7 +93,11 @@ Cliquez sur le lien **[!UICONTROL Editer la configuration...]** pour définir le
    * **[!UICONTROL A partir d&#39;une expression]** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite (ou la plus grande).
 
       ![](assets/s_user_segmentation_dedup_param7.png)
-   Cliquez sur **[!UICONTROL Terminer]** pour valider la méthode de déduplication sélectionnée.
+   >[!NOTE]
+   >
+   >La fonctionnalité **[!UICONTROL Fusionner]**, accessible via le lien **[!UICONTROL Paramètres avancés]**, vous permet de configurer un ensemble de règles afin de fusionner un champ ou un groupe de champs en un seul enregistrement de données obtenu. Pour plus d’informations sur ce sujet, voir [Fusion de champs en un seul enregistrement](#merging-fields-into-single-record).
+
+1. Cliquez sur **[!UICONTROL Terminer]** pour valider la méthode de déduplication sélectionnée.
 
    La section centrale de la fenêtre résume le paramétrage défini.
 
@@ -80,7 +105,7 @@ Cliquez sur le lien **[!UICONTROL Editer la configuration...]** pour définir le
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-   Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité, comme suit :
+1. Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité, comme suit :
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
@@ -110,6 +135,32 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 
 Lors de l&#39;exécution du workflow, les destinataires identifiés comme étant des doublons seront exclus du résultat (et donc de la diffusion) et ajoutés à la liste des doublons. Cette liste pourra être réutilisée afin de ne pas avoir à identifier de nouveau les doublons.
 
+## Fusionner des champs en un seul enregistrement de données {#merging-fields-into-single-record}
+
+La fonctionnalité **[!UICONTROL Fusionner]** permet de configurer un ensemble de règles pour que la déduplication définisse un champ ou un groupe de champs à fusionner dans un seul enregistrement de données obtenu.
+
+Par exemple, avec un ensemble d’enregistrements de duplicata, vous pouvez choisir de conserver le numéro de téléphone le plus ancien ou le nom le plus récent.
+
+Une case à utiliser exploitant cette fonctionnalité est disponible dans [cette section](../../workflow/using/deduplication-merge.md).
+
+Pour ce faire, procédez comme suit :
+
+1. Dans l’étape de sélection de la méthode de Déduplication ****, cliquez sur le lien **[!UICONTROL Paramètres avancés]**.
+
+   ![](assets/dedup1.png)
+
+1. Sélectionnez l&#39;option **[!UICONTROL Fusionner les enregistrements]** pour activer la fonctionnalité.
+
+   Si vous souhaitez regrouper plusieurs champs de données dans chaque condition de fusion, activez l&#39;option **[!UICONTROL Utiliser plusieurs critères de fusion d&#39;enregistrements]**.
+
+   ![](assets/dedup2.png)
+
+1. Après avoir activé la fonctionnalité, un onglet **[!UICONTROL Fusionner]** est ajouté à l&#39;activité **[!UICONTROL Déduplication]**. Il vous permet de définir des groupes de champs à fusionner et leurs règles associées.
+
+   Pour plus d&#39;informations sur ce sujet, consultez le cas d&#39;utilisation spécifique disponible dans [cette section](../../workflow/using/deduplication-merge.md).
+
+   ![](assets/dedup3.png)
+
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
@@ -120,7 +171,7 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
 Ce triplet de valeurs identifie la cible résultant de la déduplication. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
