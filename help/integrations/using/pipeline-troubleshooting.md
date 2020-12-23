@@ -6,11 +6,11 @@ description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 
 1. Vérifiez si l’élément [!DNL pipelined] se trouve dans le fichier de configuration. Si ce n’est pas le cas, cela signifie qu’il n’est pas pris en charge.
-1. Effectuez la mise à niveau vers la version 6.11 build 8705 ou ultérieure.
+1. Effectuez la mise à niveau vers Campaign 20.3 ou Gold Standard 11.
 
 **Échec du pipeline avec « aurait dû commencer par `[` ou `{` (iRc=16384) »**
 
@@ -31,7 +31,7 @@ Définissez la configuration JSON dans l’option **NmsPipeline_Config**. Voir �
 
 **Échec du pipeline avec « le sujet doit être une organisation ou un client valide »**
 
-La configuration IMSOrgid n’est pas valide.
+La configuration de l&#39;identifiant d&#39;organisation n&#39;est pas valide.
 
 1. Vérifiez que l’IMSOrgId est défini dans le fichier serverConf.xml.
 1. Recherchez un IMSOrgId vide dans le fichier de configuration de l’instance qui peut remplacer le paramètre par défaut. Si vous en trouvez un, supprimez-le.
@@ -85,4 +85,3 @@ En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer
 1. Recherchez des erreurs dans pipelined.log susceptibles de provoquer des reprises. Corrigez les erreurs, le cas échéant.
 1. Vérifiez la taille de la file d’attente dans la page d’état [!DNL pipelined]. Si la taille de la file d’attente est importante, améliorez les performances de JS.
 1. Comme le retard semble augmenter avec le volume, configurez les déclencheurs sur Analytics en utilisant moins de messages.
-Annexes
