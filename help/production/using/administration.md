@@ -6,9 +6,9 @@ description: 'Administration '
 audience: production
 content-type: reference
 topic-tags: production-procedures
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c78d8f469bade41717eb854e8cec00859c1d4e3
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -76,19 +76,23 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
    >[!NOTE]
    >
-   > 
-   >    * Si l&#39;instance n&#39;est pas précisée, il s&#39;agira de l&#39;instance &quot;default&quot;.
-   >    * Utilisez l&#39;option **-immediate** en cas d&#39;urgence pour forcer l&#39;arrêt immédiat du processus (équivalent à la commande **kill -9** Unix).
-   >    * Utilisez l’option **-noconsole** pour assurer que le module lancé n’affiche rien sur la console. Ses logs seront écrits sur le disque via le module **syslogd**.
-   >    * Utilisez l’option **-verbose** pour afficher davantage d&#39;informations sur les actions du processus.
-   >    
-   >      Exemple:
-   >    
-   >      **nlserver restart web -verbose**
-   >    
-   >      **nlserver start mta@moninstance -verbose**
-   >    
-   >      Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
+   >* Si l&#39;instance n&#39;est pas précisée, il s&#39;agira de l&#39;instance &quot;default&quot;.
+   >* Utilisez l&#39;option **-immediate** en cas d&#39;urgence pour forcer l&#39;arrêt immédiat du processus (équivalent à la commande **kill -9** Unix).
+   >* Utilisez l’option **-noconsole** pour assurer que le module lancé n’affiche rien sur la console. Ses logs seront écrits sur le disque via le module **syslogd**.
+   >* Utilisez l’option **-verbose** pour afficher davantage d&#39;informations sur les actions du processus.
+
+      >
+      >   
+      Exemple:
+      >
+      >   
+      **nlserver restart web -verbose**
+      >
+      >   
+      **nlserver start mta@moninstance -verbose**
+      >
+      >   
+      Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
 
 
 * Démarrer tous les processus Adobe Campaign (équivalent à un démarrage du service **nlserver6**) :
