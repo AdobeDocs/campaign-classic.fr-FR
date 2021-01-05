@@ -6,11 +6,11 @@ description: Seuil de connexions
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
@@ -21,11 +21,13 @@ Pour des serveurs soumis à de fortes charge, il se peut que le seuil de connexi
 
 Il existe trois seuils différents :
 
-1. Le seuil de connexions Web, paramétré dans votre serveur web. Pour le modifier, contactez votre administrateur système.
-1. Le seuil de connexions base de données. Pour le modifier, contactez votre administrateur de base de données.
-1. Le seuil de connexions Adobe Campaign, disponible à deux endroits :
+* Le **seuil de connexion Web**, configuré dans votre serveur Web. Pour le modifier, contactez votre administrateur système.
 
-   * Côté Tomcat : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.
+* Seuil de connexion à la base de données ****. Pour le modifier, contactez votre administrateur de base de données.
+
+* Le seuil de connexion **Adobe Campaign**, disponible en deux emplacements :
+
+   * **Côté Tomcat : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.**
 
       Ce seuil est configuré dans le fichier **nl6/tomcat-8/conf/server.xml**. L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
 
@@ -41,7 +43,7 @@ Il existe trois seuils différents :
                   unpackWARs="true" autoDeploy="true">
       ```
 
-   * Côté base de données : ensemble de toutes les connexions ouvertes simultanément sur la base de données par un processus.
+   * **Base de données** : de toutes les connexions s&#39;ouvrent en même temps sur la base de données par un processus.
 
       Ce seuil est paramétré dans le fichier **nl6/conf/serverConf.xml**. L&#39;attribut **maxCnx** situé dans **datasource pool** permet d&#39;augmenter le seuil des requêtes traitées simultanément.
 
