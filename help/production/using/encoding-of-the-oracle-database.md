@@ -6,15 +6,17 @@ description: Encodage de la base Oracle
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 100%
+ht-degree: 58%
 
 ---
 
 
 # Encodage de la base Oracle{#encoding-of-the-oracle-database}
 
-Adobe Campaign utilise les encodages par défaut d’Oracle. Si vous en utilisez d’autres, il peut se produire une incompatibilité. Voir à ce sujet [cette section](../../installation/using/database.md#oracle).
+Adobe Campaign utilise les encodages Oracle par défaut.
+
+Si vous en utilisez d&#39;autres, une incompatibilité peut se produire. Voir à ce propos [cette section](../../installation/using/database.md#oracle).
