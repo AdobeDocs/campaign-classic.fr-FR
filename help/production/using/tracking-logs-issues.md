@@ -6,11 +6,11 @@ description: Problèmes relatifs aux logs de tracking
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 100%
+ht-degree: 73%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 100%
 
 Lorsque les logs de tracking ne remontent pas, les causes peuvent être multiples. Nous vous recommandons de vérifier les informations suivantes :
 
-* Le workflow **Tracking** est-il en erreur ?
+* **Le workflow** Tracking **est-il en erreur ?**
 
-   Consultez [Surveiller les workflows techniques](../../workflow/using/monitoring-technical-workflows.md).
+Consultez [Surveiller les workflows techniques](../../workflow/using/monitoring-technical-workflows.md).
 
-   ![](assets/tracking_scheduled_task.png)
+![](assets/tracking_scheduled_task.png)
 
-* Le module **trackinglogd** est-il démarré sur le serveur ?
+* **Le module** trackinglogd **est-il démarré sur le serveur ?**
 
-   Consultez [Fichiers de log](../../production/using/log-files.md).
+Consultez [Fichiers de log](../../production/using/log-files.md).
 
-* Des modifications réseau ont-elles eu lieu ? Elles peuvent provoquer la perte de connexion aux serveurs en utilisant l&#39;alias de tracking.
+* **Des changements ont-ils été apportés ?**
 
+Ils peuvent provoquer une perte de connexion aux serveurs à l&#39;aide de l&#39;alias de suivi.
