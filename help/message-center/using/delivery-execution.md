@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 translation-type: tm+mt
-source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
+source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 97%
+source-wordcount: '246'
+ht-degree: 55%
 
 ---
 
@@ -37,11 +37,17 @@ Par défaut, elles sont classées dans un sous-dossier correspondant au mois d&#
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré d’Adobe Campaign, tous les messages transactionnels peuvent également être envoyés avec celui-ci pour optimiser la délivrabilité, le débit et la gestion des bounces. Tous les impacts sont identiques à ceux des messages marketing standard et sont présentés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
 
-<!--## Transactional message monitoring {#transactional-message-monitoring}
+## Surveillance du message transactionnel {#transactional-message-monitoring}
 
-To monitor your transactional messages, check the delivery logs. Accessing the delivery logs is presented in [this section](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history).
+Pour surveiller vos messages transactionnels, vérifiez les logs de diffusion. L&#39;accès aux logs de diffusion est présenté dans [cette section](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
-The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
+Les diffusions transactionnelles envoyées à partir de l’instance d&#39;exécution sont synchronisées à nouveau vers l’instance de pilotage par le biais d’un processus technique (**[!UICONTROL instance d&#39;exécution du centre de messages]**) qui s’exécute toutes les heures.
+
+>[!NOTE]
+>
+>Les diffusions hebdomadaires accumulent les événements en fonction de la dernière mise à jour du événement, et non de la date de création du événement. Par conséquent, lors de l&#39;extraction de logs de diffusion de messagerie transactionnelle à partir de l&#39;instance de pilotage, l&#39;ID de diffusion associé à chaque ID de journal de diffusion peut changer au fil du temps lorsque le journal est mis à jour (par exemple, lorsqu&#39;un rebond entrant est reçu pour le événement).
+
+<!--The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
 
 Let's take a [delivery template](../../message-center/using/introduction.md) labelled *Template_1*.
 
