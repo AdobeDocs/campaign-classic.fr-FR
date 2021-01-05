@@ -6,11 +6,11 @@ description: Problèmes liés à l'affichage des images
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '135'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 35%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 100%
 
 Si vous rencontrez des problèmes d&#39;affichage des images dans un message envoyé, les raisons peuvent être liées à un emplacement incorrect :
 
-* Les emplacements peuvent ne pas correspondre ou les images ne pas avoir été correctement transmises au serveur de tracking : vérifiez votre configuration.
-* Les images peuvent ne pas se trouver dans le dossier des ressources publiques sur l&#39;instance marketing : téléchargez les images dans votre dossier des ressources pour résoudre le problème.
-* Si vous utilisez une architecture en mid-sourcing : vérifiez que les images sont téléchargées sans erreur lorsque les bons à tirer sont envoyés (les informations sont affichées dans les logs d&#39;analyse).
+* Les emplacements peuvent ne pas correspondre ou les images n&#39;ont pas été correctement transférées vers le serveur de suivi de duplicata : vérifiez votre configuration.
+* Les images ne peuvent pas résider dans le dossier ressource publique de l’instance marketing : téléchargez les images dans votre dossier de ressources pour résoudre le problème.
+* Si vous travaillez dans une architecture de midsourcing : les images de vérification sont téléchargées sans erreurs lorsque des BAT sont envoyés (les informations s’affichent dans les journaux des analyses).
 
 Comment résoudre le problème :
 
 1. Envoyez un bon à tirer qui affichera les images.
 1. Validez que la configuration des ressources dans la configuration de l&#39;instance est correcte.
-1. Vérifiez le dossier des ressources publiques ou, si les images ne figurent pas dans ce dossier, le dossier référencé dans la diffusion.
-
+1. Vérifiez le dossier ressources publiques ou, si ce n’est dans le dossier ressources publiques, le dossier référencé dans la diffusion.
