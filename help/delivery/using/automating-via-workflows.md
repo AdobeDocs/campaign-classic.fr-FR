@@ -6,11 +6,11 @@ description: Automatiser via les workflows
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 98%
 
 ---
 
@@ -200,7 +200,7 @@ Cet exemple reprend le principe du premier exemple, mais avec la création de l&
 
 La première tâche **Création de diffusion** crée l&#39;action de diffusion.
 
-L&#39;activité de branchement permet de lancer en parallèle le calcul de la cible et la création de l&#39;instance de contenu.
+L’activité de la fourchette vous permet de lancer le calcul de la cible et la création de l’instance de contenu en parallèle.
 
 Une fois les tâches effectuées, la boite de rendez-vous active la tâche **Diffusion** pour lancer la diffusion créée précédemment sur le contenu et le ciblage.
 
