@@ -6,11 +6,11 @@ description: Cette section décrit l’architecture des messages transactionnels
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1114'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d45f393083ec540025a9e001b089a8b1241a8c99
+workflow-type: tm+mt
+source-wordcount: '1151'
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,15 @@ Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les 
 
 ## Ajout d&#39;un canal de diffusion {#adding-a-delivery-channel}
 
-L&#39;ajout d&#39;un canal de diffusion (Canal mobile, Mobile App Channel, etc.) doit être impérativement effectué avant l&#39;installation du package des messages transactionnels. Si vous avez démarré un projet des messages transactionnels sur le canal email, puis que vous décidez, au cours du projet, d&#39;ajouter un nouveau canal, vous devez suivre ces étapes :
+Vous devez Ajouter un canal de diffusion (canal mobile, canal d’application mobile, etc.) avant d’installer le package de Message transactionnel.
+
+Adobe vous recommande de toujours ajouter le package de canal de diffusion avant d’installer le package de Message transactionnel.
+
+Cependant, si vous avez démarré un projet de messagerie transactionnelle sur le canal de messagerie, puis que vous décidez au cours du projet d&#39;ajouter un nouveau canal, vous pouvez suivre les étapes ci-dessous.
+
+>[!NOTE]
+>
+>Cette procédure s&#39;applique uniquement aux clients utilisant un serveur Windows NLServer installé sur le même ordinateur que celui sur lequel ils travaillent.
 
 1. Installez le canal dont vous avez besoin, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package... > Package Adobe Campaign]** ).
 1. Effectuez une importation de fichier ( **[!UICONTROL Outils > Avancé > Importer un package... > Fichier]** ), puis sélectionnez le fichier **datakitnms **`[Your language]`**packagemessageCenter.xml**.
