@@ -6,24 +6,24 @@ description: Problèmes de performance et de débit
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 
 # Problèmes de performance et de débit{#performance-and-throughput-issues}
 
->[!NOTE]
->
->Tout d’abord, vous devez vérifier que le dernier build est installé. Vous êtes ainsi assuré d’avoir les derniers correctifs et fonctionnalités. Reportez-vous aux [Notes de mise à jour](../../rn/using/latest-release.md) pour plus d’informations sur le contenu de chaque version.
+Tout d&#39;abord, vérifiez que vous avez installé la dernière version. Vous disposez ainsi des dernières fonctionnalités et correctifs de bogues.
+
+Consultez les [Notes de mise à jour](../../rn/using/latest-release.md) pour plus d&#39;informations sur le contenu de chaque version.
 
 ## Matériel et infrastructure {#hardware-and-infrastructure}
 
-Les instructions générales concernant les exigences matérielles pour Campaign Classic On-premise sont présentées dans cet [article](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
+Les directives générales concernant la configuration matérielle requise pour les Campaign Classic sur site sont détaillées sur cette [page](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
 L’équipe de conseillers peut fournir aux clients de la version hébergée un outil leur permettant de voir facilement combien d’espace est utilisé par différents types de tables dans la base de données ainsi que l’espace utilisé sur le site SFTP. Elle propose en outre des outils de suppression des données inutiles. Contactez les équipes de conseillers ou de support si vous avez besoin d’implémenter cet outil. Voici quelques points importants à vérifier à l’aide de cet outil :
 
@@ -33,7 +33,7 @@ L’équipe de conseillers peut fournir aux clients de la version hébergée un 
 
 Adobe Campaign fournit également un [outil](../../production/using/monitoring-processes.md#manual-monitoring) permettant de vérifier l’utilisation du CPU et de la RAM. Utilisez cet outil pour observer certains indicateurs spécifiques tels que : **Memory**, **Swap Memory**, **Disk**, **Active Processes**. Si les valeurs sont trop élevées, vous pouvez essayer de réduire le nombre de workflows ou de les planifier de manière à ce qu’ils démarrent en décalé.
 
-## Performances de la base {#database-performances}
+## Vérification de la base de données {#database-performances}
 
 La plupart du temps, les problèmes de performance sont liés à la maintenance de la base de données. Voici les principaux éléments à vérifier :
 
@@ -44,9 +44,9 @@ La plupart du temps, les problèmes de performance sont liés à la maintenance 
 
 >[!NOTE]
 >
->Voir à ce sujet la section : [Performances de la base](../../production/using/database-performances.md).
+>Pour plus d&#39;informations, consultez cette section : [Performances de la base de données](../../production/using/database-performances.md).
 
-## Configuration des applications {#application-configuration}
+## Configuration de l&#39;application {#application-configuration}
 
 Voici une liste d’articles relatifs aux bonnes pratiques en matière de configuration des applications :
 
@@ -68,4 +68,3 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 >[!NOTE]
 >
 >Voir aussi la section [Points clés de la délivrabilité](../../delivery/using/deliverability-key-points.md).
-
