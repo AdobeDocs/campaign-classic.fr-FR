@@ -7,19 +7,19 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 90%
+ht-degree: 85%
 
 ---
 
 
-# Version Gold Standard{#gold-standard}
+# Versions Gold Standard{#gold-standard}
 
-Gold Standard est la version de prise en charge à long terme de Campaign Classic. En tant qu’utilisateur Gold Standard, vous bénéficiez automatiquement de la mise à niveau Gold Standard avec la dernière version stable sans que vous n’ayez aucune action à effectuer. Les clients On-premise et hybrides peuvent également bénéficier des versions Gold Standard.
+Gold Standard est la version de prise en charge à long terme de Campaign Classic. En tant qu&#39;utilisateur hébergé Gold Standard, vous bénéficiez automatiquement de la mise à niveau vers Gold Standard avec la dernière version stable sans aucune action. Les clients sur site et hybrides peuvent également bénéficier des versions de Gold Standard.
 
-Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version.
+Si vous migrez à partir d’une ancienne version, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version.
 
 Cette page répertorie les versions Gold Standard.
 
