@@ -99,7 +99,7 @@ Le compte externe Teradata vous permet de connecter votre instance Campaign à v
 
 ### Query banding
 
-Si plusieurs utilisateurs Adobe Campaign se connectent au même compte externe FDA Teradata, l’onglet **[!UICONTROL Tranches de requête]** vous permet de définir une tranche de requête, c’est-à-dire un ensemble de paires clé/valeur, sur une session.
+Si plusieurs utilisateurs Adobe Campaign se connectent au même compte externe FDA Teradata, l’onglet **[!UICONTROL Query banding]** vous permet de définir un query band, c’est-à-dire un ensemble de paires clé/valeur, sur une session.
 
 ![](assets/ext_account_20.png)
 
@@ -107,7 +107,7 @@ Lorsque cette option est configurée, chaque fois qu&#39;un utilisateur Campaign
 
 >[!NOTE]
 >
->Pour plus d’informations sur les **[!UICONTROL Tranches de requête]**, consultez la [documentation de Teradata](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
+>Pour plus d’informations sur le **[!UICONTROL Query banding]**, consultez la [documentation de Teradata](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw).
 
 Pour configurer le query banding, procédez comme suit :
 
