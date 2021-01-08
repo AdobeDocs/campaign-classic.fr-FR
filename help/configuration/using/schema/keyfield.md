@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# élément keyfield {#keyfield--element}
+# élément keyfield{#keyfield--element}
 
 ## Modèle de contenu {#content-model-9}
 
@@ -43,7 +43,7 @@ Cet élément définit les champs à intégrer à un index ou bien à une cle
 * **xlink (MNTOKEN)**: permet de référencer automatiquement les clefs étrangères définies dans la jointure pour une table de relation (lien N-N).
 * **xpath (MNTOKEN)** : définition d’un index ou d’une clé sur un élément `<attribute>`. Cet attribut reçoit un Xpath qui définit le chemin d’accès à l’attribut du schéma qui définit la clé ou l’index.
 
-## Exemples      {#examples-}
+## Exemples       {#examples-}
 
 Sélection du champ &quot;sName&quot; dans un index avec un Xpath sur &quot;@name&quot;:
 
