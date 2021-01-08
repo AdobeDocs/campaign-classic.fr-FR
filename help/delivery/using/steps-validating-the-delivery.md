@@ -6,9 +6,9 @@ description: Valider la diffusion
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1808'
 ht-degree: 100%
 
@@ -136,6 +136,7 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 >
 >* Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuration de la cible du BAT est expliquée dans la section [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
