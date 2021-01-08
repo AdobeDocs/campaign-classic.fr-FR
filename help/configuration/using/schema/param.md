@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# élément param {#param--element}
+# élément param{#param--element}
 
 ## Modèle de contenu {#content-model-12}
 
@@ -43,7 +43,7 @@ param:==help
 
 ## Description {#description-12}
 
-Cet élémént permet de définir un paramètre d&#39;un appel à une méthode SOAP.
+Cet élément permet de définir un paramètre d&#39;un appel à une méthode SOAP.
 
 ## Description des attributs {#attribute-description-12}
 
