@@ -700,7 +700,7 @@ Voici les différents paramètres du nœud **mailExchanger**. Il s’agit de la 
 
 ## module {#module}
 
-Voici les différents paramètres du nœud **module**. l s’agit de la configuration du module de restriction des espaces de noms xtk.
+Voici les différents paramètres du nœud **module**. Il s’agit de la configuration du module de restriction des espaces de noms xtk.
 
 <table> 
  <thead> 
