@@ -117,7 +117,7 @@ Dans SOAP, les paramètres sont reconnus par ordre d’apparition. Le premier pa
 
 Le résultat de la requête est renseigné à partir de l’élément `<pdomoutput>`.
 
-## Gestion des erreurs       {#error-management}
+## Gestion des erreurs        {#error-management}
 
 Exemple de réponse d&#39;erreur SOAP :
 
