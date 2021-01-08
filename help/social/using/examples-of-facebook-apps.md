@@ -43,7 +43,7 @@ Les exemples d&#39;applications web de type Facebook présentés dans cette sect
 >
 >Ces cas d&#39;utilisation simples ne sont donnés qu&#39;à titre d&#39;exemple afin d&#39;illustrer les fonctionnalités des applications web de type Facebook.
 
-## Recommandations      {#recommendations}
+## Recommandations       {#recommendations}
 
 Les limitations suivantes sont des contraintes inhérentes à Facebook :
 
