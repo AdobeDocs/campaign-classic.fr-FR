@@ -36,7 +36,7 @@ Les méthodes doivent d’abord être déclarées dans les schémas (pour en sav
 
 Leur déclaration est similaire à celle des méthodes natives. La seule différence est l’ajout de l’attribut &#39;library&#39; spécifiant le nom de la bibliothèque de méthodes dans laquelle se trouve la définition.
 
-Ce nom correspond au nom (avec l&#39;espace de nommage) de l&#39;entité de type &#39;Code JavaScript&#39;.
+Ce nom correspond au nom (avec l’espace de noms) de l’entité de type &#39;Code JavaScript&#39;.
 
 Exemple:
 
@@ -52,7 +52,7 @@ La méthode testLog(msg) est déclarée dans une extension de nms:recipient
 
 >[!NOTE]
 >
->L&#39;espace de nommage et le nom utilisés pour la bibliothèque sont indépendants de l&#39;espace de nommage et du nom du schéma dans lequel se trouve la déclaration.
+>L&#39;espace de noms et le nom utilisés pour la bibliothèque sont indépendants de l&#39;espace de noms et du nom du schéma dans lequel se trouve la déclaration.
 
 ### Définition {#definition}
 
