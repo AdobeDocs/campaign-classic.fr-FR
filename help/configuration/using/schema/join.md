@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# join element {#join--element}
+# élément join{#join--element}
 
 ## Modèle de contenu {#content-model-7}
 
@@ -43,7 +43,7 @@ Cet élément permet de définir les champs créant une jointure entre des table
 
 Un  élément `<join>` ne peut être utilisé que si l’élément `<element>` parent est de type &quot;link&quot;. Cela signifie que l’attribut « @type=link » doit être déclaré pour l’élément parent.
 
-Il n’est pas nécessaire de spécifier le nom et l’espace de nommage de la table distante dans l’élément `<join>`. Ils doivent être spécifiés dans le `<element>` parent.
+Il n’est pas nécessaire de spécifier le nom et l’espace de noms de la table distante dans l’élément `<join>`. Ils doivent être spécifiés dans le `<element>` parent.
 
 Par convention, les liens sont définis à la fin du schéma.
 
@@ -55,7 +55,7 @@ Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;u
 * **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; de la table distante).
 * **xpath-src (string)** : cet attribut reçoit un Xpath (attribut &quot;@name&quot; dans le schéma courant).
 
-## Exemples      {#examples-6}
+## Exemples       {#examples-6}
 
 Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@compagny-id&quot; de la table distante:
 
