@@ -41,7 +41,7 @@ La structure du document XML est la suivante :
 </navtree>
 ```
 
-Le document XML contient l’élément racine **`<navtree>`** avec les attributs **name** et **namespace** pour spécifier le nom du document et l’espace de nommage. Le nom et l’espace de nommage constituent la clé d’identification du document.
+Le document XML contient l’élément racine **`<navtree>`** avec les attributs **name** et **namespace** pour spécifier le nom du document et l’espace de noms. Le nom et l’espace de noms constituent la clé d’identification du document.
 
 Les commandes globales de l&#39;application sont déclarées dans le document à partir de l’élément **`<commands>`**.
 
