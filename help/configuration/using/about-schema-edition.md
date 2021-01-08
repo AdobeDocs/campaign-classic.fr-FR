@@ -6,9 +6,9 @@ description: Prise en main de l’édition de schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c3a2184ab09b1e1ed91d0127adc636a51808aec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1014'
 ht-degree: 100%
 
@@ -140,7 +140,7 @@ La liste complète des attributs est disponible dans la section [`<attribute>`El
 
 Pour en xavoir plus sur chaque attribut, consultez la section [Description des attributs](../../configuration/using/schema/attribute.md).
 
-### Exemples     {#examples}
+### Exemples      {#examples}
 
 Exemple de définition d&#39;une valeur par défaut :
 
@@ -188,7 +188,7 @@ Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) e
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
-Exemple de relation 1-1 entre un schéma personnalisé &quot;Car&quot; (dans l&#39;espace de nommage &quot;cus&quot;) et la table des destinataires :
+Exemple de relation 1-1 entre un schéma personnalisé &quot;Car&quot; (dans l&#39;espace de noms &quot;cus&quot;) et la table des destinataires :
 
 ```
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
