@@ -23,7 +23,7 @@ Les formulaires sont présentés dans [cette section](../../configuration/using/
 
 ## Structure d&#39;un formulaire {#form-structure}
 
-Le document XML d’un formulaire de saisie doit contenir l’élément racine **`<form>`** avec les attributs **name** et **namespace** pour renseigner le nom du formulaire et son espace de nommage, respectivement.
+Le document XML d’un formulaire de saisie doit contenir l’élément racine **`<form>`** avec les attributs **name** et **namespace** pour renseigner le nom du formulaire et son espace de noms, respectivement.
 
 ```
 <form name="form_name" namespace="name_space">
@@ -31,7 +31,7 @@ Le document XML d’un formulaire de saisie doit contenir l’élément racine 
 </form>
 ```
 
-Par défaut, un formulaire est associé au schéma de données qui porte le même nom et le même espace de nommage. Pour associer un formulaire avec un nom différent, saisissez la clé de schéma dans l’attribut **entity-schema** de l’élément **`<form>`**.
+Par défaut, un formulaire est associé au schéma de données qui porte le même nom et le même espace de noms. Pour associer un formulaire avec un nom différent, saisissez la clé de schéma dans l’attribut **entity-schema** de l’élément **`<form>`**.
 
 Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir de notre schéma d&#39;exemple &quot;cus:livre&quot; :
 
