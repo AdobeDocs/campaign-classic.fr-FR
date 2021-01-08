@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# élément de paramètres {#parameters--element}
+# élément parameters{#parameters--element}
 
 ## Modèle de contenu {#content-model-13}
 
@@ -45,7 +45,7 @@ Cet élément est obligatoire même pour un seul élément `<param>` enfant de l
 
 Aucun
 
-## Exemples      {#examples-10}
+## Exemples       {#examples-10}
 
 ```
 <parameters
