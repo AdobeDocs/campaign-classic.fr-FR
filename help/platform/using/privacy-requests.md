@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Pour obtenir une présentation générale de la gestion de la protection des données, consultez [cette section](../../platform/using/privacy-management.md).
 
-Ces informations s’appliquent au RGPD, au CCPA, au PDPA et au LGPD. Pour plus d’informations sur ces règlementations, consultez [cette section](../../platform/using/privacy-management.md#privacy-management-regulations).
+Ces informations s&#39;appliquent au RGPD, au CCPA, au PDPA et au LGPD. Pour plus d&#39;informations sur ces règlementations, consultez [cette section](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 Le droit d’opposition (opt-out) à la vente des informations personnelles, spécifique au CCPA, est expliqué dans [cette section](#sale-of-personal-information-ccpa).
 
@@ -46,9 +46,9 @@ Adobe Campaign offre aux contrôleurs de données deux moyens d’effectuer les
 
 ### Prérequis {#prerequesites}
 
-Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d’accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (email, service à la clientèle ou portail web).
+Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (email, assistance clientèle ou portail web).
 
-Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l’identité du titulaire de données à l’origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
+Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l&#39;identité du titulaire de données à l&#39;origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
 
 ### Installation du package relatif à la confidentialité {#install-privacy-package}
 
@@ -131,7 +131,7 @@ Si vous avez créé des tables personnalisées ayant un lien avec la table du de
 
 ### Statuts des demandes d’accès à des informations personnelles {#privacy-request-statuses}
 
-Voici les différents statuts des demandes d’accès à des informations personnelles :
+Voici les différents états des demandes d&#39;accès à des informations personnelles :
 
 * **[!UICONTROL Nouveau]**/**[!UICONTROL Reprise en attente]** : en cours, le workflow n&#39;a pas encore traité la demande.
 * **[!UICONTROL Traitement]**/**[!UICONTROL Reprise en cours]** : le workflow traite la demande.
@@ -380,9 +380,9 @@ Vous trouverez ci-dessous un exemple d&#39;appel de l&#39;API depuis un script J
 
 ## Droit d’opposition (opt-out) à la vente des informations personnelles (CCPA) {#sale-of-personal-information-ccpa}
 
-Le CCPA **(California Consumer Privacy Act)** fournit aux résidents de la Californie de nouveaux droits relatifs aux informations personnelles et impose des responsabilités en matière de protection des données à certaines entités qui exercent des activités en Californie.
+Le **CCPA** (California Consumer Privacy Act) fournit aux résidents de la Californie de nouveaux droits relatifs aux informations personnelles et impose des responsabilités en matière de protection des données à certaines entités qui exercent des activités en Californie.
 
-La configuration et l’usage des demandes d’accès et de suppression sont identiques pour le RGPD et le CCPA. Cette section présente le droit d’opposition à la vente des données personnelles, qui est spécifique au CCPA.
+La configuration et l&#39;usage des demandes d&#39;accès et de suppression sont identiques pour le RGPD et le CCPA. Cette section présente le droit d&#39;opposition à la vente des données personnelles, qui est spécifique au CCPA.
 
 Outre les outils de [gestion du consentement](../../platform/using/privacy-management.md#consent-management) fournis par Adobe Campaign, vous pouvez suivre si un client s’est opposé à la vente de ses informations personnelles.
 
@@ -392,7 +392,7 @@ Pour que cela fonctionne, vous devez étendre la table Profils et ajouter un cha
 
 >[!IMPORTANT]
 >
->En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d’opt-out. Pour plus d’informations sur votre rôle en tant que contrôleur de données, voir la section [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data).
+>En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d’informations sur votre rôle en tant que contrôleur de données, voir la section [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ### Prérequis {#ccpa-prerequisite}
 
@@ -410,7 +410,7 @@ Pour plus d’informations sur la création d’un champ, reportez-vous à la [d
 
    ![](assets/privacy-ccpa-1.png)
 
-1. Pour le **[!UICONTROL Type de champ]**, sélectionnez **[!UICONTROL Champ SQL]**. Pour le Libellé, utilisez **[!UICONTROL Opt-out pour le CCPA]**. Sélectionnez le type **[!UICONTROL Nombre entier 8 bits (boolean)]** et définissez le **[!UICONTROL Chemin relatif]** suivant : @OPTOUTCCPA. Cliquez sur **[!UICONTROL Terminer]**.
+1. Pour le **[!UICONTROL Type de champ]**, sélectionnez **[!UICONTROL Champ SQL]**. Pour le Libellé, utilisez **[!UICONTROL Opt-out pour le CCPA]**. Sélectionnez le type **[!UICONTROL Nombre entier 8 bits (boolean)]** et définissez le **[!UICONTROL Chemin relatif]** unique suivant : @OPTOUTCCPA. Cliquez sur **[!UICONTROL Terminer]**.
 
    ![](assets/privacy-ccpa-2.png)
 
@@ -430,15 +430,15 @@ Pour plus d’informations sur la création d’un champ, reportez-vous à la [d
 
 ### Utilisation {#usage}
 
-Il est de la responsabilité du contrôleur de données d’indiquer la valeur du champ et de suivre les règles et les directives du CCPA relatives à la vente des données.
+Il est de la responsabilité du contrôleur de données d&#39;indiquer la valeur du champ et de suivre les règles et les directives du CCPA relatives à la vente des données.
 
 Pour indiquer les valeurs, plusieurs méthodes peuvent être utilisées :
 
 * à l’aide de l’interface de Campaign en éditant les détails du destinataire ;
 * Utilisation de l&#39;API
-* par l’intermédiaire d’un workflow d’import de données.
+* Par l&#39;intermédiaire d&#39;un workflow d&#39;import de données.
 
-Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce partie les informations personnelles des profils qui s’y sont opposés.
+Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce partie les informations personnelles des profils qui s&#39;y sont opposés.
 
 1. Pour modifier le statut d’opt-out, accédez à **[!UICONTROL Profils et cible]** > **[!UICONTROL Destinataires]** et sélectionnez un destinataire. Sous l’onglet **[!UICONTROL Général]**, vous trouverez le champ configuré dans la section précédente.
 
