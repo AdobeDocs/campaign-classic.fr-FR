@@ -66,7 +66,7 @@ La table des logs de réaction d&#39;un destinataire **[!UICONTROL nms:remaMatch
 
    ![](assets/delivery_mapping1.png)
 
-1. Dans la fenêtre qui s&#39;affiche, personnalisez éventuellement l&#39;**[!UICONTROL Espace de nommage d&#39;extension]** puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre qui s&#39;affiche, personnalisez éventuellement l&#39;**[!UICONTROL Espace de noms d&#39;extension]** puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/delivery_mapping2.png)
 
