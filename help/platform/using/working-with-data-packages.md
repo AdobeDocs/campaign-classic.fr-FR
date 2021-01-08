@@ -296,7 +296,7 @@ La génération de packages peut être paramétrée à partir de l’onglet **[!
 Pour exporter un package à partir d’une définition de package, suivez les étapes ci-dessous :
 
 1. Sélectionnez la définition de package à exporter, puis cliquez sur le bouton **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Exporter le package]**.
-1. Un fichier XML correspondant au package exporté est sélectionné par défaut. Il est nommé en fonction de l’espace de nommage et du nom de la définition de package.
+1. Un fichier XML correspondant au package exporté est sélectionné par défaut. Il est nommé en fonction de l’espace de noms et du nom de la définition de package.
 1. Une fois le nom de package et l’emplacement définis, cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l’exportation.
 
    ![](assets/packagedefinition_packageexport.png)
@@ -405,7 +405,7 @@ Les types étant définis, nous devons spécifier une convention de dénominatio
 * Campagne : de 200 à 299
 * Mise à jour : de 5000 à 5999
 
-### Packages     {#data-packages}
+### Packages      {#data-packages}
 
 >[!NOTE]
 >
