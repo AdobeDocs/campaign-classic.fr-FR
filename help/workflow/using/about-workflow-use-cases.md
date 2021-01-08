@@ -35,7 +35,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 * [Automatisation de la création, de l’édition et de la publication de contenu](../../delivery/using/automating-via-workflows.md#examples)
 
-## Contrôle   {#monitoring}
+## Contrôle    {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
