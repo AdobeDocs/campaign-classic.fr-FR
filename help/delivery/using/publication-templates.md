@@ -27,9 +27,9 @@ Le modèle de publication est la fiche d&#39;identité du contenu à publier. Il
 
 ## Identification d&#39;un modèle de publication {#identification-of-a-publication-template}
 
-Un modèle de publication est identifié par son nom et son espace de nommage.
+Un modèle de publication est identifié par son nom et son espace de noms.
 
-La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de nommage et le nom séparés par le caractère &#39;:&#39; (par exemple : **xac:newsletter**).
+La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **xac:newsletter**).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ La clé d&#39;identification d&#39;une feuille de style est une chaîne construi
 
 Les modèles de publication sont stockés par défaut dans le noeud **[!UICONTROL Administration > Paramétrages > Modèles de publication]**. Pour créer un nouveau modèle, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des modèles.
 
-Pour paramétrer le modèle de publication, indiquez le nom du modèle (c&#39;est-à-dire la clé d&#39;identification composée du nom et de l&#39;espace de nommage), son libellé, le schéma de données et le formulaire de saisie auxquels il est associé.
+Pour paramétrer le modèle de publication, indiquez le nom du modèle (c&#39;est-à-dire la clé d&#39;identification composée du nom et de l&#39;espace de noms), son libellé, le schéma de données et le formulaire de saisie auxquels il est associé.
 
 ![](assets/d_ncs_content_model.png)
 
