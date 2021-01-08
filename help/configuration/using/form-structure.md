@@ -19,7 +19,7 @@ ht-degree: 100%
 
 La description d&#39;un formulaire est un document XML structuré respectant la grammaire du schéma des formes **xtk:form**.
 
-Le document XML du formulaire de saisie doit contenir l’élément racine `<form>` avec les attributs **name** et **namespace** pour renseigner respectivement le nom du formulaire et son namespace.
+Le document XML du formulaire de saisie doit contenir l’élément racine `<form>` avec les attributs **name** et **namespace** pour renseigner respectivement le nom du formulaire et son espace de noms.
 
 ```
 <form name="form_name" namespace="name_space">
@@ -27,7 +27,7 @@ Le document XML du formulaire de saisie doit contenir l’élément racine `<for
 </form>
 ```
 
-Par défaut, un formulaire est associé au schéma de données possédant un nom et un namespace identiques. Pour associer un formulaire avec un nom différent, définissez l’attribut **entity-schema** de l’élément `<form>` sur le nom de la clé de schéma. Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir du schéma d&#39;exemple &quot;cus:recipient&quot; :
+Par défaut, un formulaire est associé au schéma de données possédant un nom et un espace de noms identiques. Pour associer un formulaire avec un nom différent, définissez l’attribut **entity-schema** de l’élément `<form>` sur le nom de la clé de schéma. Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir du schéma d&#39;exemple &quot;cus:recipient&quot; :
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -210,7 +210,7 @@ Ce conteneur affiche une barre d&#39;icônes verticale permettant de sélectionn
 
 Le conteneur principal est défini par l&#39;attribut **type=&quot;iconbox&quot;**. Les pages associées aux icônes sont déclarées dans les conteneurs fils. Le libellé des icônes est renseigné à partir de l&#39;attribut **label**.
 
-L’icône d’une page est renseignée à partir de l’attribut `img="<image>"`, où `<image>` est le nom de l’image correspondant à sa clé construite avec le nom et le namespace (par exemple « xtk:properties.png »).
+L’icône d’une page est renseignée à partir de l’attribut `img="<image>"`, où `<image>` est le nom de l’image correspondant à sa clé construite avec le nom et l’espace de noms (par exemple « xtk:properties.png »).
 
 Les images sont disponibles à partir du noeud **[!UICONTROL Administration > Paramétrage > Images]**.
 
