@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Elément dbindex {#dbindex--element}
+# élément dbindex{#dbindex--element}
 
 ## Modèle de contenu {#content-model-3}
 
@@ -47,7 +47,7 @@ Il est possible de définir plusieurs index. Un index peut référencer un ou pl
 
 L&#39;ordre des éléments `<keyfield>` définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
 
-Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Exemple : Nom de la table : &quot;Sample&quot;, Namespace : &quot;Cus&quot;, nom de l&#39;index : &quot;MyIndex&quot; - nom du champ de l&#39;index lors de la requête de création de l&#39;index en table : &quot;CusSample_myIndex&quot;.
+Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Exemple : Nom de la table : &quot;Sample&quot;, Espace de noms : &quot;Cus&quot;, nom de l&#39;index : &quot;MyIndex&quot; - nom du champ de l&#39;index lors de la requête de création de l&#39;index en table : &quot;CusSample_myIndex&quot;.
 
 ## Description des attributs {#attribute-description-3}
 
@@ -68,7 +68,7 @@ Le nom de l&#39;index en base est calculé par concaténation du nom de la table
 * **name (MNTOKEN)**: nom unique de l&#39;index.
 * **unique (boolean)**: si cette option est activée (@unique=&quot;true&quot;), alors cet attribut garantie l&#39;unicité de l&#39;index sur l&#39;ensemble des champs qui le composent.
 
-## Exemples      {#examples-3}
+## Exemples       {#examples-3}
 
 Création d’un index sur le champ « id ». (L’attribut « @unique » sur l’élément `<dbindex>` déclenche l’ajout du mot clé SQL « UNIQUE » lorsque l’index est créé dans la base de données (requête)).
 
