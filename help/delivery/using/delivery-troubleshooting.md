@@ -2,24 +2,24 @@
 solution: Campaign Classic
 product: campaign
 title: Résolution des problèmes
-description: En savoir plus sur les performances des diffusions et comment résoudre les problèmes liés à la surveillance des diffusions.
+description: En savoir plus sur les performances des diffusions et comment résoudre les problèmes liés au monitoring des diffusions.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3ba836bbb5a5f82d6a7868dcb15edc8e61b9a5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
-# Dépannage de l’envoi de diffusions {#delivery-troubleshooting}
+# Résolution des problèmes liés à l&#39;envoi de diffusions {#delivery-troubleshooting}
 
-Cette section liste les problèmes courants que vous pouvez rencontrer lors de l’envoi de diffusions et comment les résoudre.
+Cette section répertorie les problèmes courants que vous pouvez rencontrer lors de l&#39;envoi de diffusions et comment les résoudre.
 
-De plus, veillez à suivre les meilleures pratiques et la liste de contrôle détaillée dans [cette page](../../delivery/using/delivery-performances.md) pour vous assurer que vos diffusions fonctionnent bien.
+De plus, veillez à suivre les bonnes pratiques et la liste de contrôle détaillée sur [cette page](../../delivery/using/delivery-performances.md) pour vous assurer que vos diffusions fonctionnent bien.
 
 **Rubriques connexes :**
 
@@ -55,17 +55,17 @@ Si l&#39;état d&#39;une diffusion par email est **[!UICONTROL En échec]**, la 
 
 Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a échoué. Voici les erreurs possibles que vous pouvez détecter dans les logs de diffusion :
 
-* Les messages des destinataires échouent avec une erreur &quot;Inatteignable&quot; indiquant :
+* Les messages des destinataires échouent avec une erreur &quot;Inatteignable&quot; indiquant :
 
    ```
    Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
    ```
 
-   La cause de ce problème est presque toujours une personnalisation dans le code HTML qui tente d’appeler sur un tableau ou un champ qui n’a pas été défini ou mappé dans le ciblage en amont ou dans le mapping de ciblage de la diffusion.
+   Le problème est presque toujours dû à une personnalisation du code HTML qui tente d&#39;appeler une table ou un champ non défini ou mappé dans le ciblage amont ou dans le mapping de ciblage de la diffusion.
 
    Pour corriger ce problème, le workflow et le contenu de la diffusion doivent être examinés afin de déterminer précisément quelle personnalisation tente d&#39;appeler la table en question et si la table peut être mappée ou non. À partir de là, supprimer l&#39;appel à cette table dans le code HTML ou résoudre le mapping sur la diffusion peut permettre de résoudre le problème.
 
-* Dans le modèle de déploiement de midsourcing, le message suivant peut apparaître dans les logs de diffusion :
+* Dans le modèle de déploiement Mid-sourcing, le message suivant peut apparaître dans les logs de diffusion :
 
    ```
    Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'.
@@ -77,7 +77,7 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
    Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Consultez [cette section](../../workflow/using/scheduler.md).
 
-* En cas d’échec d’une diffusion, l’erreur suivante peut s’afficher dans les logs de diffusion :
+* En cas d&#39;échec d&#39;une diffusion, l&#39;erreur suivante peut s&#39;afficher dans les logs de diffusion :
 
    ```
    DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
@@ -87,12 +87,12 @@ Les logs de diffusion sont la clé pour apprendre pourquoi une diffusion a écho
 
    Pour la corriger, vérifiez les données de personnalisation utilisées, puis contrôlez la cible des destinataires qui possèdent plusieurs entrées pour l&#39;un de ces champs. Vous pouvez également utiliser une activité de **[!UICONTROL Déduplication]** dans le workflow de ciblage avant l&#39;activité de diffusion pour vérifier qu&#39;il n&#39;existe qu&#39;un seul champ de personnalisation à la fois. Pour plus d&#39;informations sur la déduplication, consultez [cette page](../../workflow/using/deduplication.md).
 
-* Certaines diffusions peuvent échouer avec une erreur &quot;Inatteignable&quot; indiquant :
+* Certaines diffusions peuvent échouer avec une erreur &quot;Inatteignable&quot; indiquant :
 
    ```
    Inbound email bounce (rule 'Auto_replies' has matched this bounce).
    ```
 
-   Cela signifie que la diffusion a réussi mais que Adobe Campaign a reçu une réponse automatique du destinataire (par exemple une réponse &quot;Absence du bureau&quot;) qui correspondait aux règles d&#39;émail entrantes &quot;Auto_response&quot;.
+   Cela signifie que la diffusion a réussi mais qu&#39;Adobe Campaign a reçu une réponse automatique du destinataire (par exemple une réponse &quot;Absent du bureau&quot;) qui correspondait aux règles d&#39;email entrant &quot;Réponses_automatiques&quot;.
 
-   L’adresse électronique de réponse automatique est ignorée par Adobe Campaign et l’adresse du destinataire n’est pas envoyée aux quarantaines.
+   L&#39;email de réponse automatique est ignoré par Adobe Campaign et l&#39;adresse du destinataire n&#39;est pas envoyée en quarantaine.
