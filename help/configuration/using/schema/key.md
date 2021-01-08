@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# élément clé {#key--element}
+# élément key{#key--element}
 
 ## Modèle de contenu {#content-model-8}
 
@@ -63,7 +63,7 @@ Les 1000 premiers identifiants sont réservés donc si une plage de valeurs doit
 * **name (MNTOKEN)**: nom interne de la clef.
 * **noDbIndex (boolean)**: s&#39;il est activé (noDbIndex=&quot;true&quot;), le champ correspondant à la clef ne sera pas indexé.
 
-## Exemples      {#examples-------}
+## Exemples       {#examples-------}
 
 Déclaration d&#39;une clef composite autorisant un des deux champs la composant &quot;@expr&quot; ou &quot;@alias&quot; à être vide:
 
