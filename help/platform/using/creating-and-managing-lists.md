@@ -136,7 +136,7 @@ Découvrez comment créer une audience en configurant une liste de destinataires
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12?captions=fre_fr)
 
-### Comment créer une liste de destinataires avec un workflow  {#create-list-in-a-wf-video}
+### Comment créer une liste de destinataires avec un workflow   {#create-list-in-a-wf-video}
 
 Découvrez comment créer un workflow pour cibler des destinataires, et comment le rendre récurrent avant d&#39;utiliser la liste dans une cible d&#39;email.
 
