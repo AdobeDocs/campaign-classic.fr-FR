@@ -6,11 +6,11 @@ description: Découvrez comment configurer l’accès à Snowflake dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 535339b5a9b39625100d630b0b831df143dbeb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
