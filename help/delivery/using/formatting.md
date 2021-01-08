@@ -23,7 +23,7 @@ Un template JavaScript est un document HTML ou texte incluant du code JavaScript
 
 ### Identification d&#39;un template JavaScript {#identification-of-a-javascript-template}
 
-Un template JavaScript est identifié par son nom et son espace de nommage de la même manière que les schémas et les formulaires. Il est cependant préconisé de compléter le nom du template avec l&#39;option **.js**.
+Un template JavaScript est identifié par son nom et son espace de noms de la même manière que les schémas et les formulaires. Il est cependant préconisé de compléter le nom du template avec l&#39;option **.js**.
 
 ### Structure d&#39;un template JavaScript {#structure-of-a-javascript-template}
 
@@ -376,9 +376,9 @@ Cette transformation est elle-même décrite en XML dans un document appelé feu
 
 ### Identification d&#39;une feuille de style {#identifying-a-stylesheet}
 
-Une feuille de style est identifiée par son nom et son espace de nommage de la même manière que les schémas et les formulaires. Il est cependant recommandé de compléter le nom de la feuille de style avec l&#39;extension **.xsl**.
+Une feuille de style est identifiée par son nom et son espace de noms de la même manière que les schémas et les formulaires. Il est cependant recommandé de compléter le nom de la feuille de style avec l&#39;extension **.xsl**.
 
-La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de nommage et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:livre.xsl**).
+La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:livre.xsl**).
 
 ### Structure d&#39;une feuille de style {#structure-of-a-stylesheet}
 
@@ -411,9 +411,9 @@ Une feuille de style est un document XML respectant les règles suivantes :
 * les valeurs d&#39;attributs sont entre guillemets,
 * un élément doit avoir un marqueur d&#39;ouverture et un marqueur de fermeture,
 * les caractères « &lt; » ou « &amp; » doivent être remplacés par les entités **&#39;&lt;&#39;** ou **&#39;&amp;&#39;**,
-* chaque élément XSL doit utiliser l&#39;espace de nom **xsl**.
+* chaque élément XSL doit utiliser l&#39;espace de noms **xsl**.
 
-Une feuille de style doit commencer par le marqueur d’élément racine XSL **`<xsl:stylesheet>`** et se terminer par le marqueur **`</xsl:stylesheet>`**. L’espace de nommage XSL doit être défini dans le marqueur d’ouverture comme suit :
+Une feuille de style doit commencer par le marqueur d’élément racine XSL **`<xsl:stylesheet>`** et se terminer par le marqueur **`</xsl:stylesheet>`**. L’espace de noms XSL doit être défini dans le marqueur d’ouverture comme suit :
 
 ```
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
@@ -497,7 +497,7 @@ La directive **`<xsl:include>`** indique le nom de la feuille de style à inclur
 
 >[!NOTE]
 >
->Le nom de l&#39;espace de nommage ne doit pas être renseigné dans la référence de la feuille de style à inclure. Par convention, cette feuille de style est créée avec l&#39;espace de nommage utilisateur.
+>Le nom de l&#39;espace de noms ne doit pas être renseigné dans la référence de la feuille de style à inclure. Par convention, cette feuille de style est créée avec l&#39;espace de noms utilisateur.
 
 ### Edition d&#39;une feuille de style {#editing-a-stylesheet}
 
@@ -526,7 +526,7 @@ Ces deux options sont accessibles à partir de l&#39;écran des gestions des opt
 **Exemple**:
 
 * NcmResourcesDir = &quot;https://server/images/&quot;
-* NcmRessourcesDirPreview = &quot;x:/images/&quot;
+* NcmResourcesDirPreview = &quot;x:/images/&quot;
 
 Lors du traitement de la feuille de style, selon le contexte (aperçu ou publication), l&#39;attribut **_resPath** sur l&#39;élément principal du document XML en entrée est automatiquement renseigné avec l&#39;une ou l&#39;autre des deux options.
 
