@@ -17,23 +17,23 @@ ht-degree: 64%
 
 # Annulation de la publication des modèles{#template-unpublication}
 
-Lorsqu’un modèle de message a été publié sur les instances d’exécution, il est possible d’en annuler la publication. Pour plus d’informations sur le processus de publication de modèles, voir [cette section](../../message-center/using/template-publication.md).
+Lorsqu’un modèle de message a été publié sur les instances d’exécution, il est possible de le dépublier. Pour plus d’informations sur le processus de publication de modèles, voir [cette section](../../message-center/using/template-publication.md).
 
 * En effet, un modèle publié peut toujours être appelé si le événement correspondant est déclenché : si vous n’utilisez plus de modèle de message, il est recommandé de l’annuler. Vous éviterez ainsi d’envoyer par erreur un message transactionnel indésirable.
 
-   Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez annuler sa publication une fois la période de Noël terminée et le publier de nouveau l’année suivante.
+   Par exemple, vous avez publié un modèle de message utilisé uniquement pour les campagnes de Noël. Vous pouvez le dépublier une fois la période de Noël terminée et le publier de nouveau l’année suivante.
 
-* En outre, vous ne pouvez pas supprimer un modèle de message transactionnel dont le statut est **[!UICONTROL Publié]**. Vous devez d’abord annuler sa publication.
+* En outre, vous ne pouvez pas supprimer un modèle de message transactionnel dont le statut est **[!UICONTROL Publié]**. Vous devez d’abord le dépublier.
 
 >[!NOTE]
 >
 >Cette fonctionnalité est disponible à partir de la version Campaign 20.2.
 
-Pour annuler la publication d’un modèle de message transactionnel, procédez comme décrit ci-dessous.
+Pour dépublier un modèle de message transactionnel, procédez comme décrit ci-dessous.
 
 1. Sur l’instance de pilotage, accédez au dossier **[!UICONTROL Centre de messages > Modèles de message transactionnel]** de l’arborescence.
-1. Sélectionnez le modèle dont vous souhaitez annuler la publication.
-1. Cliquez sur **[!UICONTROL Annuler la publication]**.
+1. Sélectionnez le modèle que vous souhaitez dépublier.
+1. Cliquez sur **[!UICONTROL Dépublier]**.
 
    <!--1. Fill in the **[!UICONTROL Log of the process]** field.-->
 
