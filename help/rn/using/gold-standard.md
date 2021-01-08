@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: dcef36c3ce14c45cb08a79180938ad8d26fa6549
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ Cette page répertorie les versions Gold Standard.
 
 ## ![](assets/do-not-localize/green_2.png) Version Gold Standard 11{#gs-11}
 
-_22 décembre 2020_
+_22 décembre 2020_
 
 >[!CAUTION]
 >
@@ -37,11 +37,11 @@ La version 9032@d3b452f comprend les améliorations et correctifs suivants :
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
 
-* L’authentification de l’intégration des triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+* L’authentification de l’intégration des Triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
-* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
+* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 durant la mise à niveau.
 
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes de usurpation de requête côté serveur (SSRF). (NEO-27777)
+* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 10{#gs-10}
 
