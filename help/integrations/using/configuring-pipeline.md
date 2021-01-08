@@ -6,11 +6,11 @@ description: Découvrez comment configurer le pipeline
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 
 Avant de démarrer cette configuration, vérifiez que vous utilisez :
 
-* Version minimale d’Adobe Campaign 20.3 ou de Gold Standard 11
+* Adobe Campaign 20.3 ou Gold Standard 11 minimum
 * Adobe Analytics version standard.
 
 Vous aurez également besoin des éléments suivants :
