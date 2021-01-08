@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# élément sysfilter {#sysfilter--element}
+# élément sysFilter{#sysfilter--element}
 
 ## Modèle de contenu {#content-model-15}
 
@@ -41,7 +41,7 @@ Cet élément permet de définir un filtre.
 
 Cet élément n&#39;a aucun attribut.
 
-## Exemples      {#examples-12}
+## Exemples       {#examples-12}
 
 Définition d&#39;un filtre avec une condition sur l&#39;attribut @name:
 
