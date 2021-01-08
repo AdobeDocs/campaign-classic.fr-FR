@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Cibler les données{#targeting-data}
 
-## Créer une requête      {#creating-queries}
+## Créer une requête       {#creating-queries}
 
 ### Sélectionner les données {#selecting-data}
 
