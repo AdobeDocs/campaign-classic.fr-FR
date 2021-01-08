@@ -21,7 +21,7 @@ Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign.
 
 ## Méthodes statiques {#static-methods}
 
-L&#39;accès aux méthodes SOAPs statiques se fait par invocation d&#39;une méthode sur l&#39;objet représentant le schéma. Les schémas sont des propriétés des objets de type &#39;namespace&#39;. Ces namespaces sont des variables globales, ainsi par exemple, les variables xtk ou nms représentent les espaces de nommage correspondant.
+L&#39;accès aux méthodes SOAPs statiques se fait par invocation d&#39;une méthode sur l&#39;objet représentant le schéma. Les schémas sont des propriétés des objets de type &#39;espace de noms&#39;. Ces espaces de noms sont des variables globales, ainsi par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
 
 L&#39;exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
 
@@ -50,7 +50,7 @@ for each (var w in res.workflow)
   logInfo(w.@internalName)
 ```
 
-## Exemples    {#examples}
+## Exemples     {#examples}
 
 * Requête sur la table des destinataires avec une opération &quot;get&quot; :
 
