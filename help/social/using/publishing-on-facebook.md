@@ -6,9 +6,9 @@ description: Publier sur Facebook
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Renseignez les différents champs proposés :
    >Si vous souhaitez ajouter, dans le champ **[!UICONTROL Lien]**, l&#39;url d&#39;une application Facebook afin de la promouvoir, nous vous recommandons de la configurer pour qu&#39;elle s&#39;adapte à un affichage smartphone :
    >
    >1. Sélectionnez l&#39;application Facebook [https://developers.facebook.com/apps](https://developers.facebook.com/apps), puis l&#39;onglet **[!UICONTROL Paramètres > Général]**.
-   >1. Renseignez le champ **[!UICONTROL Namespace]**.
+   >1. Renseignez le champ **[!UICONTROL Espace de noms]**.
    >1. Renseignez le champ **[!UICONTROL URL du site mobile]** : lorsqu&#39;un utilisateur cliquera sur le lien de la publication depuis un smartphone, il sera automatiquement redirigé par Facebook sur l&#39;url définie dans ce champ.
    >1. Construisez votre application web de manière à personnaliser l&#39;affichage de l&#39;application Facebook en fonction de l&#39;appareil utilisé (smartphone ou PC).
    >1. Dans le champ **[!UICONTROL Lien]** de la publication depuis la console Adobe Campaign, saisissez l&#39;url du champ **[!UICONTROL Page Canevas]**.
