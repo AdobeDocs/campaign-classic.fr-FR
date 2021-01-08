@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# élément de méthode {#method--element}
+# élément method {#method--element}
 
 ## Modèle de contenu {#content-model-10}
 
@@ -50,7 +50,7 @@ Cet élément permet de définir une méthode SOAP.
 
 Les méthodes SOAP permettent des traitements applicatifs.
 
-L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour déclarer une nouvelle méthode (non native): l&#39;espace de nommage et le nom utilisés pour la bibliothèque sont indépendants de l&#39;espace de nommage et du nom du schéma dans lequel se trouve la déclaration.
+L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour déclarer une nouvelle méthode (non native) : l&#39;espace de noms et le nom utilisés pour la bibliothèque sont indépendants de l&#39;espace de noms et du nom du schéma dans lequel se trouve la déclaration.
 
 ## Description des attributs {#attribute-description-10}
 
@@ -61,7 +61,7 @@ L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour d�
 * **name (MNTOKEN)**: nom unique de la méthode.
 * **static (boolean)**: si cet attribut est activé, la méthode est considérée comme autonome, tous les paramètres doivent être indiqués à la méthode lors de son appel.
 
-## Exemples      {#examples-7}
+## Exemples       {#examples-7}
 
 Définition de la méthode d&#39;usine &quot;Subscribe&quot; :
 
