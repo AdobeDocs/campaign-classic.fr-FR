@@ -21,7 +21,7 @@ La déduplication supprime les doublons dans le ou les résultats des activités
 
 L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes de duplicata d&#39;un jeu de données. Par exemple, les enregistrements ci-dessous peuvent être considérés comme duplicata, car ils ont la même adresse électronique et le même téléphone portable et/ou de domicile.
 
-| Date de dernière modification | Prénom | Nom | Email | Téléphone mobile | Phone |
+| Date de la dernière modification | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|------------|-----------|-------|--------------|------
 | 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 | 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
