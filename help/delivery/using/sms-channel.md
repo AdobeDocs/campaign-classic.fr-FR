@@ -6,9 +6,9 @@ description: Canal SMS
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3270'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Pour ce faire, procédez comme suit :
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 
-   La case à cocher **[!UICONTROL Activer le TLS sur SMPP]** vous permet de chiffrer le trafic SMPP. Voir à ce sujet cette [note technique](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+   La case à cocher **[!UICONTROL Activer le TLS sur SMPP]** vous permet de chiffrer le trafic SMPP. Voir à ce sujet cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. Si vous paramétrez un connecteur **[!UICONTROL SMPP Générique étendu]**, vous pouvez configurer des réponses automatiques.
 
