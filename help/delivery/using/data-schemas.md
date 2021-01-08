@@ -23,7 +23,7 @@ La création et le paramétrage des schémas de données dans Adobe Campaign son
 
 ## Structure d&#39;un schéma {#schema-structure}
 
-Le document XML d&#39;un schéma de données doit contenir l&#39;élément racine **`<srcschema>`** avec les attributs **name** et **namespace** pour renseigner respectivement le nom du schéma et son espace de nommage.
+Le document XML d&#39;un schéma de données doit contenir l&#39;élément racine **`<srcschema>`** avec les attributs **name** et **namespace** pour renseigner respectivement le nom du schéma et son espace de noms.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -177,4 +177,4 @@ La sauvegarde du schéma source va automatiquement lancer la génération du sch
 
 >[!NOTE]
 >
->Le contrôle d&#39;édition **Nom** permet de saisir la clé du schéma composée du nom et de l&#39;espace de nommage. Les attributs **name** et **namespace** de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
+>Le contrôle d&#39;édition **Nom** permet de saisir la clé du schéma composée du nom et de l&#39;espace de noms. Les attributs **name** et **namespace** de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
