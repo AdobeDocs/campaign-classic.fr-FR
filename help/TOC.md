@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
 workflow-type: tm+mt
 source-wordcount: '2202'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 97%
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête     {#creating-queries}
+   + Créer une requête      {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -155,10 +155,10 @@ ht-degree: 97%
       + [Gestion des inscriptions](delivery/using/managing-subscriptions.md)
       + [Marketing viral et réseaux sociaux](delivery/using/viral-and-social-marketing.md)
    + Suivre les diffusions {#monitoring-deliveries}
-      + [Commencer avec la surveillance des diffusions](delivery/using/about-delivery-monitoring.md)
+      + [Prise en main du monitoring de diffusion](delivery/using/about-delivery-monitoring.md)
       + [Accès à la liste des diffusions](delivery/using/list-of-deliveries.md)
       + [Tableau de bord de la diffusion](delivery/using/delivery-dashboard.md)
-      + [Meilleures pratiques en matière de performances de diffusion](delivery/using/delivery-performances.md)
+      + [Bonnes pratiques des performances de diffusion](delivery/using/delivery-performances.md)
       + [Résolution des problèmes liés aux diffusions](delivery/using/delivery-troubleshooting.md)
       + [Statuts de diffusion](delivery/using/delivery-statuses.md)
       + [Comprendre les diffusions en échec](delivery/using/understanding-delivery-failures.md)
@@ -342,7 +342,7 @@ ht-degree: 97%
    + Triggers Experience Cloud {#experience-triggers}
       + [Prise en main de [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuration du pipeline](integrations/using/configuring-pipeline.md)
-      + [Configuration d’Adobe I/O pour les déclencheurs Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
+      + [Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)
       + [Configuration d’événements pour une mise en œuvre personnalisée](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
@@ -431,7 +431,7 @@ ht-degree: 97%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle       {#monitoring}
+      + Contrôle        {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -539,7 +539,7 @@ ht-degree: 97%
       + [Aperçu du message transactionnel](message-center/using/transactional-message-preview.md)
       + [Envoyer un bon à tirer](message-center/using/sending-a-proof.md)
       + [Publication des modèles](message-center/using/template-publication.md)
-      + [Annulation de la publication des modèles](message-center/using/template-unpublication.md)
+      + [Dépublication des modèles](message-center/using/template-unpublication.md)
    + Traitement des événements {#event-processing}
       + [A propos du traitement des événements](message-center/using/about-event-processing.md)
       + [Collecte des événements](message-center/using/event-collection.md)
@@ -709,18 +709,18 @@ ht-degree: 97%
          + [Compute string](configuration/using/schema/compute-string.md)
          + [Condition](configuration/using/schema/condition.md)
          + [Index de base de données](configuration/using/schema/db-index.md)
-         + [Elément](configuration/using/schema/element.md)
-         + [Enumération](configuration/using/schema/enumeration.md)
-         + Aide d’[ ](configuration/using/schema/help.md)
+         + [Élément](configuration/using/schema/element.md)
+         + [Énumération](configuration/using/schema/enumeration.md)
+         + [Aide](configuration/using/schema/help.md)
          + [Jointure](configuration/using/schema/join.md)
          + [Clé](configuration/using/schema/key.md)
          + [Keyfield](configuration/using/schema/keyfield.md)
-         + [Méthodologie](configuration/using/schema/method.md)
+         + [Méthode](configuration/using/schema/method.md)
          + [Méthodes](configuration/using/schema/methods.md)
          + [Param](configuration/using/schema/param.md)
          + [Paramètres](configuration/using/schema/parameters.md)
          + [SrcSchema](configuration/using/schema/srcschema.md)
-         + [Sysfilter](configuration/using/schema/sysfilter.md)
+         + [SysFilter](configuration/using/schema/sysfilter.md)
          + [Valeur](configuration/using/schema/value.md)
    + Edition des schémas {#editing-schemas}
       + [A propos de l’édition de schéma](configuration/using/about-schema-edition.md)
