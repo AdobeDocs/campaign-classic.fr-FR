@@ -69,7 +69,7 @@ La définition de la clé de réconciliation doit être renseignée via l’attr
 
 Cet appel ne retourne pas de données, hormis les erreurs.
 
-### Exemples     {#examples}
+### Exemples      {#examples}
 
 Abonnement avec clé de réconciliation du destinataire sur l&#39;email : le document XML en entrée doit référencer l&#39;email et la définition de la clé sur ce champ.
 
