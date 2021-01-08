@@ -90,7 +90,7 @@ Par exemple, vous pouvez choisir de ne présenter l&#39;offre qu&#39;aux personn
 >
 >Vous devez limiter la règle aux canaux pour lesquels les données sont définies. Dans notre exemple, nous limitons la règle au canal web entrant (champ **[!UICONTROL Pris en compte si]**).
 
-### Personnalisation     {#personalization}
+### Personnalisation      {#personalization}
 
 Il est également possible d&#39;utiliser ces données additionnelles lors de la personnalisation d&#39;une offre. Vous pouvez, par exemple, ajouter une condition sur la langue de navigation.
 
