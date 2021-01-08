@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Meilleures pratiques en matière de performances de diffusion
-description: En savoir plus sur les performances des diffusions et les meilleures pratiques.
+title: Bonnes pratiques des performances de diffusion
+description: En savoir plus sur les performances de diffusion et les bonnes pratiques.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b43412286762977c416665d296908a9bfc9b20a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Meilleures pratiques en matière de performances de diffusion {#delivery-performances}
+# Bonnes pratiques des performances de diffusion {#delivery-performances}
 
 Nous vous recommandons de suivre les instructions ci-dessous pour vous assurer que vos diffusions fonctionnent bien, ainsi que les vérifications effectuées si vous rencontrez des problèmes de diffusions.
 
