@@ -6,11 +6,11 @@ description: Introduction
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign repose sur plusieurs processus exécutés côté serveur que vous
 
 >[!CAUTION]
 >
->La console client doit se trouver sur la même version que l’instance du serveur.
+>La console cliente doit présenter le même build que l&#39;instance de serveur.
 
 >[!NOTE]
 >
