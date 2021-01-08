@@ -23,7 +23,7 @@ Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas né
 
 >[!NOTE]
 >
->Les étapes de configuration de l’installation principale ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe, par exemple afin de configurer les fichiers de configuration de serveur et d’instance.
+>Les étapes de configuration de l’installation principale ne peuvent être exécutées que par  Adobe pour les déploiements hébergés par Adobe, par exemple afin de configurer les fichiers de configuration de serveur et d’instance.
 >
 >Pour en savoir plus sur les principales différences entre les déploiements, consultez la section [Modèles d’hébergement](../../installation/using/hosting-models.md) ou [Différences de fonctionnalités pour les déploiements hébergés et On-premise](../../installation/using/capability-matrix.md).
 
