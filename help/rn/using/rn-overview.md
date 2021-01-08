@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 51993e6f606132e425553da67687aca76e166dbd
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ Les **derniers builds en disponibilité générale** ont les versions suivantes�
 
 Le **dernier build RC** est [Campaign Classic 20.3](../../rn/using/latest-release.md)
 
-![](assets/do-not-localize/red3.png) **Déconseillé**  - Aucun déploiement. Les implémentations existantes doivent être mises à niveau.
+![](assets/do-not-localize/red3.png) **Obsolète**  - Aucun déploiement. Les implémentations existantes doivent être mises à niveau.
 
 ## Recommandations{#recommendations}
 
 Pour garantir une configuration stable, nous vous recommandons d’installer le même build stable sur tous les serveurs qui s’exécutent sur la même configuration client.
 
-En outre, la console client doit se trouver sur la même version que l’instance du serveur.
+En outre, la console cliente doit présenter le même build que l&#39;instance de serveur.
 
 Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md) et [Matrice de compatibilité](../../rn/using/compatibility-matrix.md) avec chaque nouvelle version.
 
@@ -51,7 +51,7 @@ Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionna
 
 En tant que client hébergé (service géré ou hybride), vous devez contacter l’équipe d’Assistance clientèle pour que votre environnement soit mis à niveau.
 
-En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
+En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) et mettre à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
