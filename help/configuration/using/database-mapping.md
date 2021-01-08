@@ -48,7 +48,7 @@ Les noms SQL sont déduits automatiquement en fonction du nom et du type de l’
 
 Les règles de nommage des noms SQL sont les suivantes :
 
-* table : concaténation de l’espace de nommage et du nom du schéma
+* table : concaténation de l’espace de noms et du nom du schéma
 
    Dans notre exemple le nom de la table est renseigné à partir de l’élément principal du schéma dans l’attribut **sqltable** :
 
@@ -67,7 +67,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 >[!NOTE]
 >
 >Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner
->les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
+les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 
@@ -296,7 +296,7 @@ La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 b
 
 L’avantage d’une clé incrémentale est d’obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n’est pas consommatrice car elle utilise un entier sur deux octets.
 
-Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l’attribut **pkSequence**. Si cet attribut n’est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L’application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsLargeLogId** et **NmsTrackingLogId** respectivement), car il s’agit des tables qui contiennent le plus d’enregistrements.
+Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l’attribut **pkSequence**. Si cet attribut n’est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L’application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsBroadLogId** et **NmsTrackingLogId** respectivement), car il s’agit des tables qui contiennent le plus d’enregistrements.
 
 À compter d’ACC 18.10, **XtkNewId** n’est plus la valeur par défaut de la séquence dans les schémas d’usine. Vous pouvez désormais créer ou étendre un schéma avec une séquence dédiée.
 
