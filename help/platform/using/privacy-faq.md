@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Voici quelques-unes des questions fréquentes sur la confidentialité et le cons
 
 ## Termes clés {#key-terms}
 
-### Quels sont les termes clés de la protection des renseignements personnels ?
+### Quels sont les termes clés de la protection de la confidentialité ?
 
 Les éléments répertoriés ci-dessous renvoient aux termes et concepts clés relatifs à la protection des informations personnelles et au consentement dans Adobe Campaign :
 
@@ -110,7 +110,7 @@ Lorsque vous recevez une demande de suppression, vous devez vérifier, en tant q
 
 ## Opt-in à nouveau {#opt-in-again}
 
-### Un Data Subject, dont les données ont été effacées d&#39;Adobe Campaign, peut-il opt-in plus tard ?
+### Est-ce qu&#39;un titulaire de données dont les données ont été effacées d&#39;Adobe Campaign peut à nouveau donner son accord plus tard ?
 
 Il est possible pour un titulaire de données de s’inscrire à nouveau ou d’être ajouté en tant que nouveau destinataire après l’effacement de ses données d’Adobe Campaign.
 
