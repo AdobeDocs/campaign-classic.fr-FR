@@ -33,7 +33,7 @@ La zone d&#39;édition affiche le contenu XML du schéma source :
 
 >[!NOTE]
 >
->Le contrôle d&#39;édition &quot;Nom&quot; permet de saisir la clé du schéma, composée du nom et de l&#39;espace de nommage. Les attributs &quot;name&quot; et &quot;namespace&quot; de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
+>Le contrôle d&#39;édition &quot;Nom&quot; permet de saisir la clé du schéma, composée du nom et de l&#39;espace de noms. Les attributs &quot;name&quot; et &quot;namespace&quot; de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
 
 L&#39;aperçu génère automatiquement le schéma étendu :
 
@@ -56,13 +56,13 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
-1. Indiquez le nom de la table et son espace de nommage.
+1. Indiquez le nom de la table et son espace de noms.
 
    ![](assets/s_ncs_configuration_create_new_param.png)
 
    >[!NOTE]
    >
-   >Par défaut, les schémas créés par les utilisateurs sont stockés dans le namespace « cus ». Voir à ce propos la section [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+   >Par défaut, les schémas créés par les utilisateurs sont stockés dans l’espace de noms « cus ». Voir à ce propos la section [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
 1. Créez le contenu de la table. Il est recommandé d&#39;utiliser l&#39;assistant de saisie afin de n&#39;omettre aucun paramètre. Pour cela, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
 
