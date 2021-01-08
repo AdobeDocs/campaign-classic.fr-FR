@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Dernière version
-description: Dernière version de Campaign Classic    Notes
+description: Dernière version de Campaign Classic     Notes
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1879'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 Les fonctionnalités suivantes sont obsolètes dans la version 20.3 :
 
 * Le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud est obsolète. Si vous utilisez le domaine demdex pour vos comptes externes d’import/export, vous devez adapter votre mise en œuvre en conséquence. [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* L’authentification de l’intégration des triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+* L’authentification de l’intégration des Triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
 En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md).
 
