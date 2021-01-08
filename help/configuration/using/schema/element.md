@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# élément {#element--element}
+# élément element{#element--element}
 
 ## Modèle de contenu {#content-model-4}
 
@@ -111,7 +111,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **folderModel (string)**: définit le type de dossier permettant le stockage des entités. Cet attribut n&#39;est défini que si &quot;@folderLink&quot; est présent.
 * **folderProcess (string)**: définit le lien dans lequel est stocké les instances des modèles des entités. Cet attribut n&#39;est défini que si &quot;@folderLink&quot; est présent.
 * **fullLoad (boolean)**: cet attribut force l&#39;affichage de tous les enregistrements d&#39;une table lors de la sélection du champ dans un formulaire.
-* **img (string)**: reçoit le chemin d&#39;une image associée a l&#39;élément. La valeur de cet attribut est de la forme &quot;namespace:nom de l&#39;image&quot;. Exemple : img=&quot;cus:monImage.jpg&quot;. Physiquement l&#39;image doit être importée sur le serveur applicatif.
+* **img (string)**: reçoit le chemin d&#39;une image associée a l&#39;élément. La valeur de cet attribut est de la forme &quot;espace de noms:nom de l&#39;image&quot;. Exemple : img=&quot;cus:monImage.jpg&quot;. Physiquement l&#39;image doit être importée sur le serveur applicatif.
 * **integrity (string)**: intégrité référentielle de l&#39;occurrence de la table source envers la table cible.
 
    Les valeurs accessibles sont:
@@ -149,7 +149,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **ref (string)** : cet attribut définit une référence vers un élément &lt;element> partagé par plusieurs schémas (factorisation des définitions). La définition n&#39;est pas recopiée dans le schéma courant.
 * **required (boolean)**: si cet attribut est activé (@required=&quot;true&quot;), le champ est mis en avant dans l&#39;interface. Le label du champ est affiché en rouge dans un formulaire.
 * **revAdvanced (boolean)**: s&#39;il est activé, cet attribut précise que le lien inverse est de type &quot;advanced&quot;.
-* **evCardinality (string)** : cet attribut définit la cardinalité d&#39;un lien entre deux tables. Il est utilisé dans un `<element>` de type &quot;link&quot;.
+* **revCardinality (string)** : cet attribut définit la cardinalité d&#39;un lien entre deux tables. Il est utilisé dans un `<element>` de type &quot;link&quot;.
 
    Les valeurs possibles sont les suivantes :
 
@@ -166,7 +166,7 @@ Il existe quatre types d&#39;élément `<element>` dans Adobe Campaign.
 * **revTarget (string)**: cible du lien inverse.
 * **sql (boolean)**: si cet attribut est activé (@sql=&quot;true&quot;), il force le stockage de l&#39;élément en SQL même lorsque l&#39;élément a la propriété xml=&quot;true&quot;.
 * **sqlname (string)**: nom du champ lors de la création de la table. Si &quot;@sqlname&quot; n&#39;est pas précisé la valeur de l&#39;attribut &quot;@name&quot; est pris par défaut. Lors de l&#39;écriture du schéma en table des préfixes seront automatiquement rajoutés en fonction du type du champ.
-* **sqltable (string)**: pour l&#39;élément principal du schéma, cet attribut surcharge le nom de la table SQL généré par défaut. Si &quot;@sqltable&quot; n&#39;est pas précisé le nom par défaut est de la forme: namespace (avec la première lettre en majuscule) et la valeur du &quot;@name&quot; du SrcSchema.
+* **sqltable (string)**: pour l&#39;élément principal du schéma, cet attribut surcharge le nom de la table SQL généré par défaut. Si &quot;@sqltable&quot; n&#39;est pas précisé le nom par défaut est de la forme: espace de noms (avec la première lettre en majuscule) et la valeur du &quot;@name&quot; du SrcSchema.
 * **tableSpace (string)** : cet attribut permet de spécifier un nouveau tablespace de stockage de données pour une table (valable sur l’élément `<element>` racine).
 * **tableSpaceIndex (string)** : cet attribut permet de spécifier un nouveau tablespace de stockage des index pour une table (valable sur l&#39;élément `<element>` racine).
 * **target (MNTOKEN)**: reçoit le nom du schéma cible lors de la création d&#39;un lien entre tables. Cet attribut n&#39;est actif que si l&#39;élément est de type &quot;link&quot;.
