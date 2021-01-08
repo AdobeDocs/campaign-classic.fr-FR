@@ -27,7 +27,7 @@ ht-degree: 100%
 Il existe deux solutions pour étendre un schéma déjà existant :
 
 1. Modifier directement le schéma source.
-1. Créer un autre schéma de même nom, mais avec un espace de nommage différent. L&#39;avantage est de pouvoir étendre une table sans avoir à modifier le schéma d&#39;origine.
+1. Créer un autre schéma de même nom, mais avec un espace de noms différent. L&#39;avantage est de pouvoir étendre une table sans avoir à modifier le schéma d&#39;origine.
 
    L&#39;élément racine du schéma doit contenir l&#39;attribut **extendedSchema** avec comme valeur le nom du schéma à étendre.
 
