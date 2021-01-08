@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# élément de chaîne de calcul {#compute-string--element}
+# élément compute-string {#compute-string--element}
 
 ## Modèle de contenu {#content-model-1}
 
@@ -45,7 +45,7 @@ Lorsqu’aucun `<compute-string>` n’est défini, un élément `<compute-string
 
 * **expr (string)**: expression XTK et/ou Xpath.
 
-## Exemples      {#examples-1}
+## Exemples       {#examples-1}
 
 ```
 <compute-string expr="@label + Iif(@code='','', ' (' + [folder/@label] + ')')"/>  
