@@ -716,7 +716,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Permet de paramétrer des déclencheurs Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des déclencheurs Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permet de paramétrer les Triggers Experience Cloud. Le type de données est "texte long" et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des Triggers Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
