@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1553'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# élément d&#39;attribut {#attribute--element}
+# élément attribute{#attribute--element}
 
 ## Modèle de contenu {#content-model}
 
@@ -60,7 +60,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 * **advanced (boolean)**: quand cette option est activée (@advanced=&quot;true&quot;), elle permet de masquer l&#39;élément dans la liste des champs disponibles et accessibles pour la configuration d&#39;une liste dans un formulaire.
 * **applicableIf (string)** : cet attribut vous permet de rendre les champs facultatifs. L’élément `<attribute>` sera pris en compte lors de la mise à jour de la base de données lorsque la contrainte sera respectée. &quot;applicableIf&quot; reçoit une expression XTK.
 * **autoIncrement (boolean)**: si cette option est activée, le champ devient un compteur. Cela permet d&#39;incrémenter une valeur (le plus souvent un ID).(usage interne)
-* **belongsTo (string)**: prend le nom et le namespace de la table qui partage le champ - renseigne le schéma oà¹ est déclaré l&#39;attribut. (utilisé uniquement dans un `<schema>`).
+* **belongsTo (string)**: prend le nom et l’espace de noms de la table qui partage le champ - renseigne le schéma où est déclaré l&#39;attribut. (utilisé uniquement dans un `<schema>`).
 * **dataPolicy (string)**: permet de préciser des contraintes de validation sur les valeurs permises dans le champ de type SQL ou XML, les valeurs pour cet attribut sont :
 
    * &quot;none&quot; : pas de valeur
@@ -94,7 +94,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
    Lorsque une caractéristique est définie dans un schéma, ce schéma doit comporter une clef principale basé sur un seul champ (clef composite non autorisée).
 
 * **featureDate (boolean)**: attribut associé au champ de caractéristiques &quot;feature&quot;, si sa valeur est &quot;true&quot;, il permet de connaître la date de la dernière mise à jour de la valeur.
-* **img (string)**: permet de définir un chemin pour une image associée à un champ (namespace + nom de l&#39;image)(exemple : img=&quot;cus:mypicture.jpg&quot;). Physiquement l&#39;image doit être importée sur le serveur applicatif.
+* **img (string)**: permet de définir un chemin pour une image associée à un champ (espace de noms + nom de l&#39;image)(exemple : img=&quot;cus:mypicture.jpg&quot;). Physiquement l&#39;image doit être importée sur le serveur applicatif.
 * **label (string)**: libellé associé au champ, le plus souvent destiné à l&#39;utilisateur dans l&#39;interface. Il permet d&#39;éviter les contraintes de nommage.
 * **length (string)**: nombre de caractères maximal autorisés pour une valeur du champ SQL de type &quot;string&quot;. Si l&#39;attribut &quot;@length&quot; n&#39;est pas précisé, Adobe Campaign crée automatiquement un champ de 255 caractères.
 * **localizable (boolean)**: s&#39;il est activé, cet attribut indique à l&#39;outil de collecte de récupérer la valeur de l&#39;attribut &quot;@label&quot; pour traduction (usage interne).
