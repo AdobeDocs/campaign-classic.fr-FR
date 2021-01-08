@@ -76,7 +76,7 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition en sortie de l&#39;activité de **[!UICONTROL Gestion de contenu]** afin d&#39;enchaîner l&#39;exécution du workflow sur une nouvelle activité. Lorsque cette option est cochée, vous devez saisir le libellé de la transition.
 
-## Exemples    {#examples}
+## Exemples     {#examples}
 
 ### Automatiser la création et la diffusion d&#39;un contenu {#automating-content-creation-and-delivery}
 
