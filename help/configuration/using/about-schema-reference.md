@@ -72,17 +72,17 @@ Les balises **`<element>`** définissent les noms des éléments d’entité. Le
 
 ## Identification d&#39;un schéma {#identification-of-a-schema}
 
-Un schéma de données est identifié par son nom et son espace de nommage.
+Un schéma de données est identifié par son nom et son espace de noms.
 
-Un espace de nommage permet de regrouper un ensemble de schémas par centres d&#39;intérêt. Par exemple, on utilisera l&#39;espace de nommage **cus** pour le paramétrage spécifique aux clients (**customers**).
+Un espace de noms permet de regrouper un ensemble de schémas par centres d&#39;intérêt. Par exemple, on utilisera l&#39;espace de noms **cus** pour le paramétrage spécifique aux clients (**customers**).
 
 >[!IMPORTANT]
 >
->Par convention, le nom de l&#39;espace de nommage doit être concis et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
+>Par convention, le nom de l&#39;espace de noms doit être concis et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
 >
 >Les identifieurs ne doivent pas commencer par des caractères numériques.
 
-Certains espaces de nommage sont réservés pour la description des entités systèmes nécessaires au bon fonctionnement de l&#39;application Adobe Campaign :
+Certains espaces de noms sont réservés pour la description des entités systèmes nécessaires au bon fonctionnement de l&#39;application Adobe Campaign :
 
 * **xtk** : relatif aux données système de la plateforme,
 * **nl** : relatif à l&#39;utilisation globale de l&#39;application,
@@ -90,4 +90,4 @@ Certains espaces de nommage sont réservés pour la description des entités sys
 * **ncm** : relatif à la gestion de contenu,
 * **temp** : réservé aux schémas temporaires.
 
-La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de nommage et le nom séparés par le caractère &#39;:&#39;, par exemple **cus:recipient**.
+La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39;, par exemple **cus:recipient**.
