@@ -117,7 +117,7 @@ Les étapes sont les suivantes :
 1. Sélectionnez l&#39;opération de référence.
 1. Définissez le libellé du kit d&#39;opération, son dossier d&#39;enregistrement et indiquez son planning de réalisation.
 
-### Dates      {#dates}
+### Dates       {#dates}
 
 Les dates de début et de fin correspondent à la période de visibilité de l&#39;opération dans la liste des kits.
 
