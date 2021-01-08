@@ -68,7 +68,7 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 </package>
 ```
 
-* Les champs **nom**, **espace de nommage**, et **description du package** (&quot;name&quot;, &quot;namespace&quot; et &quot;label&quot;) sont essentiellement indicatifs. Ils permettent de voir le package récapitulé dans la liste des packages installés (Explorateur/Administration/Gestion des packages/Packages installés).
+* Les champs **nom**, **espace de noms**, et **description du package** (&quot;name&quot;, &quot;namespace&quot; et &quot;label&quot;) sont essentiellement indicatifs. Ils permettent de voir le package récapitulé dans la liste des packages installés (Explorateur/Administration/Gestion des packages/Packages installés).
 * Les champs **buildVersion** et **buildNumber** sont obligatoires. Ils doivent correspondre à la version du serveur auquel la console est connectée. Cette information est disponible dans la boîte de dialogue &quot;Aide/À propos&quot;.
 * Les blocs suivants, **entities** et **funclist**, sont obligatoires. Dans funcList, les champs &quot;name&quot; et &quot;namespace&quot; sont obligatoires, mais leur nom est laissé au choix de l&#39;utilisateur, et il désignent la liste de fonctions de manière unique.
 
@@ -146,6 +146,6 @@ Un descripteur de fonction spéciale est le bloc **« pass-through »** avec u
 
 Dans ce cas, l&#39;ajout d&#39;une fonction sert uniquement à rendre visible pour le client une fonction de la base de données qui n&#39;aurait pas été rendue disponible par défaut.
 
-## Exemples     {#examples}
+## Exemples      {#examples}
 
 D’autres exemples de fonctions sont disponibles dans le package prédéfini « xtkdatakitfuncList.xml ».
