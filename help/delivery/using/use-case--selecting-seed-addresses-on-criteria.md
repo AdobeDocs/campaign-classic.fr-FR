@@ -51,7 +51,7 @@ Pour plus de détails sur les extensions de schéma, voir [le guide Configuratio
 
    ![](assets/dlv_seeds_usecase_09.png)
 
-1. Choisissez le schéma source **[!UICONTROL Adresses de contrôle]**, choisissez **doc** comme **[!UICONTROL espace de nommage]** et cliquez sur **[!UICONTROL Ok]**.
+1. Choisissez le schéma source **[!UICONTROL Adresses de contrôle]**, choisissez **doc** comme **[!UICONTROL espace de noms]** et cliquez sur **[!UICONTROL Ok]**.
 
    ![](assets/dlv_seeds_usecase_10.png)
 
