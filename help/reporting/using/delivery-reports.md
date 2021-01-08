@@ -6,11 +6,11 @@ description: Rapports sur les diffusions
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1628'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Ce rapport présente le palmarès des pages visitées suite au lancement d&#39;u
 
 ![](assets/s_ncs_user_url_report.png)
 
-Vous pouvez configurer le contenu de ce rapport en sélectionnant : le graphique de score à afficher, le filtre temporel (depuis le lancement de l&#39;action, au cours des 6 premières heures suivant le lancement, etc.) et le mode d&#39;affichage des données (par étiquette, par URL, par catégorie). Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
+Vous pouvez paramétrer le contenu de ce rapport en sélectionnant : le palmarès à afficher, le périmètre de la vue (depuis le lancement de l&#39;action, sur les six premières heures suivant le lancement, etc.) et le mode d&#39;affichage des données (par libellé, par URL, par catégorie). Cliquez sur le bouton **[!UICONTROL Actualiser]** pour valider votre choix.
 
 Dans la section supérieure du rapport, les taux suivants sont affichés :
 
