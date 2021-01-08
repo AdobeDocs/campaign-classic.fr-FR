@@ -6,9 +6,9 @@ description: Structure d'un schéma
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1570'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ La structure de base d’un `<srcschema>` est la suivante :
 </srcSchema>
 ```
 
-Le document XML d&#39;un schéma de données doit contenir l&#39;élément racine **`<srcschema>`** avec les attributs **name** et **namespace** pour renseigner respectivement le nom du schéma et son espace de nommage.
+Le document XML d&#39;un schéma de données doit contenir l&#39;élément racine **`<srcschema>`** avec les attributs **name** et **namespace** pour renseigner respectivement le nom du schéma et son espace de noms.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -272,10 +272,10 @@ Le tableau suivant liste les correspondances des types de données générés pa
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
-   <td> PRÉCISION DU doublon<br /> </td> 
+   <td> DOUBLE PRECISION<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> DOUBLON<br /> </td> 
+   <td> DOUBLE<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
@@ -486,6 +486,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >
 >* **Location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
+
 >
 
 
