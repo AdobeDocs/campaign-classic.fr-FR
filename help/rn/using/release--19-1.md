@@ -9,8 +9,8 @@ topic-tags: latest-release-notes
 translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3072'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
-_16 décembre 2020_
+_16 décembre 2020_
 
 >[!CAUTION]
 >
@@ -28,26 +28,26 @@ _16 décembre 2020_
 **Améliorations**
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
-* Déclenche l&#39;authentification d&#39;intégration basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée en Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
-* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes de usurpation de requête côté serveur (SSRF). (NEO-27777)
-* Correction d’un problème en raison duquel le connecteur SMPP était désactivé après une erreur de connexion, ce qui empêchait l’envoi d’autres diffusions SMS et provoquait des problèmes de performances.
+* L’authentification de l’intégration des Triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 durant la mise à niveau.
+* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
+* Correction d&#39;un problème en raison duquel le connecteur SMPP était désactivé après une erreur de connexion, ce qui empêchait l&#39;envoi d&#39;autres diffusions SMS et provoquait des problèmes de performances.
 * Correction d’un problème qui affichait des pourcentages incorrects lors de la génération d’un rapport descriptif via une activité de workflow. (NEO-14314)
-* Correction d’un problème de préparation de diffusion lorsque l’option **Exclure l’adresse du duplicata pendant la diffusion** était désélectionnée. (NEO-13240)
+* Correction d&#39;un problème de préparation de diffusion lorsque l&#39;option **Exclure les adresses en double lors de la diffusion** était désélectionnée. (NEO-13240)
 * Correction d’un problème en raison duquel les workflows échouaient lors de l’exécution d’une activité d’**enrichissement**. (NEO-17338)
 * Correction d’un problème dans les workflows lors de la récupération d’enregistrements d’une base de données externe et de leur insertion dans la base de données Campaign. (NEO-26359)
 * Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions.
-* Correction d’un problème en raison duquel la fonction **NoNull** ne fonctionnait pas dans les bases de données Oracle après la mise à niveau vers la version 9032. (NEO-26488)
+* Correction d&#39;un problème en raison duquel la fonction **NoNull** ne fonctionnait pas dans les bases de données Oracle après la mise à niveau vers la version 9032. (NEO-26488)
 * Correction d’un problème lors de la modification de la description d’un modèle de campagne qui empêchait l’affichage du bouton **Enregistrer** pendant la copie et le collage de symboles, comme des caractères japonais. (NEO-27071)
 * Correction d’un problème qui empêchait l’enregistrement de la description d’une campagne ou d’un modèle de campagne en cliquant en dehors de la fenêtre avant de cliquer sur le bouton **Enregistrer**. (NEO-27449)
 * Correction d’un problème au niveau de la configuration du proxy qui empêchait la connexion à Adobe Campaign après la dernière mise à jour de Windows 10. (NEO-27813)
-* Correction d’un problème lié à la gestion des lignes vides dans les fichiers journaux, en raison duquel le comportement du processus MTA était défaillant et les performances de l’envoi de diffusions diminuaient.
+* Correction d’un problème lié à la gestion des lignes vides dans les fichiers de log, en raison duquel le comportement du processus MTA était défaillant et les performances de l&#39;envoi de diffusions diminuaient.
 
 **Évolutions techniques**
 
 Tomcat a été mis à jour de la version 7 (7.0.103) vers la version 8 (8.5.57). Le répertoire `tomcat-7` a été remplacé par un répertoire `tomcat-8`. Sous Windows, _iis_neolane_setup.vbs_ et _apache_neolane.conf_ sont maintenant installés dans le répertoire `conf` (au lieu de `tomcat-7/conf`). Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `conf`.
 
-Sous Linux, le démarrage du service nlserver utilise maintenant une unité systemd au lieu du script /etc/init.d/nlserver6. La migration vers le nouveau schéma de démarrage est effectuée automatiquement lors de l’installation du package 19.1.8. Le serveur /etc/init.d/nlserver6 est encore fourni, mais pour interagir avec le service nlserver (démarrage, redémarrage, arrêt, etc.), nous vous recommandons d’utiliser directement la commande systemctl.
+Sous Linux, le démarrage du service nlserver utilise désormais une unité systemd au lieu du script /etc/init.d/nlserver6. La migration vers le nouveau schéma de démarrage est effectuée automatiquement lors de l’installation du package 19.1.8. Le serveur /etc/init.d/nlserver6 est encore fourni, mais pour interagir avec le service nlserver (démarrage, redémarrage, arrêt, etc.), nous vous recommandons d’utiliser directement la commande systemctl.
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.1.7 - Build 9036 {#release-19-1-7-build-9036}
 
