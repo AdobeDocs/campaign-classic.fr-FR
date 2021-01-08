@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# élément de condition {#condition--element}
+# élément condition{#condition--element}
 
 ## Modèle de contenu {#content-model-2}
 
@@ -49,7 +49,7 @@ Plusieurs conditions de filtrage peuvent être définies dans un même élément
 * **enabledIf (string)**: test d&#39;activation de la condition.
 * **expr (string)**: une expression XTK.
 
-## Exemples      {#examples-2}
+## Exemples       {#examples-2}
 
 ```
 <sysfilter>
