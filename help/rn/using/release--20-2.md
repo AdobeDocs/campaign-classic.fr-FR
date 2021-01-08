@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '2488'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 ## ![](assets/do-not-localize/green_2.png) Version 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
 
-_22 décembre 2020_
+_22 décembre 2020_
 
 >[!CAUTION]
 >
@@ -30,17 +30,17 @@ _22 décembre 2020_
 **Améliorations**
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS.
-* Déclenche l&#39;authentification d&#39;intégration basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée en Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
-* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes de usurpation de requête côté serveur (SSRF). (NEO-27777)
-* Correction d’un problème en raison duquel le connecteur SMPP était désactivé après une erreur de connexion, ce qui empêchait l’envoi d’autres diffusions SMS et provoquait des problèmes de performances. (NEO-28609)
+* L’authentification de l’intégration des Triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 durant la mise à niveau.
+* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
+* Correction d&#39;un problème en raison duquel le connecteur SMPP était désactivé après une erreur de connexion, ce qui empêchait l&#39;envoi d&#39;autres diffusions SMS et provoquait des problèmes de performances. (NEO-28609)
 * Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions. (NEO-26856)
 * Correction d’un problème en raison duquel le serveur se bloquait lors de l’affichage des données de la cible à partir d’une activité **Partage** dans un workflow.
 * Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la tentative de prévisualisation de messages SMS après une requête sur un autre schéma que **Destinataire** (nms:destinataire). (NEO-27517)
-* Correction d’un problème lors de l’exécution d’une demande de connexion HTTPS avec le numéro de port explicitement défini dans le nom d’hôte, l’appel échouait avec une erreur de certificat. (NEO-29146)
-* Correction d’un problème dans la gestion des threads POSIX qui générait des fichiers de vidage principaux volumineux sur l’instance marketing. (NEO-28117, NEO-29281)
-* Correction de problèmes susceptibles de provoquer un blocage du processus Web lors de la préparation de diffusions ou avec une prévisualisation de diffusion récurrente. (NEO-27790, NEO-27517)
-* Correction d’un problème en raison duquel l’envoi de diffusions ou de BAT échouait lorsqu’il était déclenché par un opérateur non administrateur. (NEO-28597)
+* Correction d&#39;un problème en raison duquel lors de l&#39;exécution d&#39;une demande de connexion HTTPS avec le numéro de port explicitement défini dans le nom d&#39;hôte, l&#39;appel échouait avec une erreur de certificat. (NEO-29146)
+* Correction d&#39;un problème dans la gestion des threads POSIX qui générait des fichiers de vidage principaux volumineux sur l&#39;instance marketing. (NEO-28117, NEO-29281)
+* Correction de problèmes susceptibles de provoquer un blocage du processus web lors de la préparation de diffusions ou avec une prévisualisation de diffusion récurrente. (NEO-27790, NEO-27517)
+* Correction d&#39;un problème en raison duquel l&#39;envoi de diffusions ou de BAT échouait lorsqu&#39;il était déclenché par un opérateur non administrateur. (NEO-28597)
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
@@ -160,7 +160,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](https://helpx.adob
 
 **Améliorations**
 
-* La messagerie transactionnelle a été améliorée pour offrir une meilleure expérience utilisateur. Vous pouvez désormais annuler la publication d’un modèle de message transactionnel, ce qui le supprime des instances d’exécution. [En savoir plus](../../message-center/using/template-unpublication.md).
+* La messagerie transactionnelle a été améliorée pour offrir une meilleure expérience utilisateur. Vous pouvez désormais dépublier un modèle de message transactionnel, ce qui le supprime des instances d’exécution. [En savoir plus](../../message-center/using/template-unpublication.md).
 
 * De nouvelles options sont disponibles pour définir des limites lors de l’envoi d’emails contenant des images ou des pièces jointes. Ces garde-fous permettent d’éviter des problèmes de performances, ce qui est particulièrement utile pour les messages transactionnels. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
 
