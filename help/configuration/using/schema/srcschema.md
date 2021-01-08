@@ -6,16 +6,16 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# élément srcschema {#srcschema--element}
+# élément srcSchema{#srcschema--element}
 
 ## Modèle de contenu {#content-model-14}
 
@@ -70,12 +70,12 @@ La présentation du schéma est disponible dans [A propos de la référence du s
 
 * **modifiedBy-id (long)**: correspond à l&#39;identifiant de l&#39;opérateur qui a modifié le schéma.
 * **name (string)**: nom unique du schéma.
-* **namespace (string)**: espace de nommage du schéma (espace par défaut : nms, xtk, nl). Lors de la création d&#39;un nouveau schéma, il est conseillé d&#39;utiliser un namespace spécifique au projet.
+* **namespace (string)**: espace de noms du schéma (espace par défaut : nms, xtk, nl). Lors de la création d&#39;un nouveau schéma, il est conseillé d&#39;utiliser un espace de noms spécifique au projet.
 * **useRecycleBin (boolean)**: activation de la corbeille dans l&#39;application. Les enregistrements supprimés seront placés en corbeille avant la destruction définitive. Cette fonctionnalité est disponible uniquement pour le module &quot;Diffusions&quot;.
 * **view (boolean)**: s&#39;il est activé (@view=&quot;true&quot;), le schéma sera utilisé comme une vue. L&#39;assistant de mise à jour de la structure de la base ne tiendra pas compte du schéma. Cette option permet le plus souvent de référencer des tables externes.
 * **xtkschema (string)**: nom du schéma définissant la grammaire des schémas (par défaut xtk:srcSchema).
 
-## Exemples      {#examples-11}
+## Exemples       {#examples-11}
 
 Élément `<srcschema>` du schéma d’usine « nms:delivery »
 
