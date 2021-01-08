@@ -192,7 +192,7 @@ Les étapes de paramétrage pour configurer le connecteur Microsoft Dynamics son
    >
    >Le paramètre redirectURL n&#39;est pas requis par Adobe Campaign Classic.
 
-   La valeur **clientId** est utilisée avec le nom d&#39;utilisateur/mot de passe pour récupérer le jeton du porteur à l&#39;aide d&#39;un mot de passe de type d&#39;autorisation. Il s&#39;agit de l&#39;**autorisation des informations d&#39;identification de mot de passe du propriétaire des ressources**. Voir à ce propos [cette page](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc).
+   La valeur **clientId** est utilisée avec le nom d&#39;utilisateur/mot de passe pour récupérer le jeton du porteur à l&#39;aide d&#39;un mot de passe de type d&#39;octroi. Il s&#39;agit de l&#39;**octroi des informations d&#39;identification de mot de passe du propriétaire des ressources**. Voir à ce propos [cette page](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc).
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 
