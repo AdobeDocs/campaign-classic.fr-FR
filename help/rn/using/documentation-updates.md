@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 88172a79aad37e6a311b144f4ea685bb4846825b
 workflow-type: tm+mt
 source-wordcount: '3831'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -31,13 +31,13 @@ La liste des workflows techniques avec leurs paquets associés a été réorgani
 
 La section Dépannage du guide de surveillance a été réorganisée et améliorée avec un landing page. [En savoir plus](../../production/using/troubleshooting.md)
 
-## Décembre 2020 {#dec-2020}
+## Décembre 2020 {#dec-2020}
 
-La section du suivi des diffusions a été réorganisée en thèmes. [En savoir plus](../../delivery/using/about-delivery-monitoring.md)
+La section du monitoring des diffusions a été réorganisée en thèmes. [En savoir plus](../../delivery/using/about-delivery-monitoring.md)
 
-Un exemple d’utilisation a été ajouté sur la manière d’ajouter les adresses IP des expéditeurs aux logs de diffusion. [En savoir plus](../../delivery/using/delivery-dashboard.md#use-case)
+Un exemple d&#39;utilisation a été ajouté sur la manière d&#39;ajouter les adresses IP des expéditeurs aux logs de diffusion. [En savoir plus](../../delivery/using/delivery-dashboard.md#use-case)
 
-FAQ sur la confidentialité a été déplacée à [cette section](../../platform/using/privacy-faq.md).
+La FAQ sur la confidentialité a été déplacée vers [cette section](../../platform/using/privacy-faq.md).
 
 Un exemple d’utilisation a été ajouté sur la manière d’utiliser la fonctionnalité de fusion d’activités de Déduplication. [En savoir plus](../../workflow/using/deduplication-merge.md)
 
@@ -45,7 +45,7 @@ La page des paramètres et protocoles du connecteur SMS a été déplacée [ici]
 
 Une note a été ajoutée à la section Messages transactionnels pour avertir que les dossiers de événement ne doivent pas être définis comme des vues sur les instances d&#39;exécution, afin d&#39;éviter les problèmes de droits d&#39;accès. [En savoir plus](../../message-center/using/event-collection.md)
 
-## Novembre 2020 {#nov-2020}
+## Novembre 2020 {#nov-2020}
 
 La présentation du modèle de données Campaign a été améliorée et réorganisée. [En savoir plus](../../configuration/using/about-data-model.md)
 
@@ -82,7 +82,7 @@ La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En sav
 Les notes de mise à jour et la matrice de compatibilité pour la version Gold Standard sont maintenant disponibles dans une section dédiée.
 [En savoir plus](../../rn/using/gold-standard.md#gs-10)
 
-L’intégration des triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+L’intégration des Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
 **Autres mises à jour**
 
@@ -189,7 +189,7 @@ Loi sur la protection de la vie privée en Thaïlande et au Brésil - [En savoir
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La nouvelle option qui permet d’annuler la publication d’un modèle de message transactionnel
+La nouvelle option qui permet de dépublier un modèle de message transactionnel
 est présentée dans [cette section](../../message-center/using/template-unpublication.md).
 
 Les nouvelles options destinées à définir des limites lors de l’envoi d’emails incluant des images téléchargées à partir d’une URL personnalisée et des pièces jointes ont été ajoutées à la liste des options de Campaign Classic. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
@@ -324,13 +324,13 @@ Le guide concernant le reporting a été mis à jour et réorganisé. [En savoir
 
 Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans un workflow a été ajouté. [En savoir plus](../../workflow/using/javascript-scripts-and-templates.md)
 
-## Décembre 2019 {#december-2019}
+## Décembre 2019 {#december-2019}
 
 L&#39;option &quot;WdbcOptions_TempDbName&quot; a été ajoutée à la liste des options de Campaign. [En savoir plus](../../installation/using/configuring-campaign-options.md)
 
 La page relative à la matrice FDA a été déplacée [ici](../../installation/using/remote-database-access-rights.md).
 
-La page Matrice des droits d&#39;accès a été déplacée [ici](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en).
+La page Matrice des droits d&#39;accès a été déplacée [ici](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=fr).
 
 La section décrivant comment définir du contenu interactif avec AMP a été déplacée. [En savoir plus](../../delivery/using/defining-interactive-content.md)
 
@@ -362,7 +362,7 @@ Une recommandation pour l&#39;attribut **sqlDefault** de la définition de sché
 
 L&#39;intégration entre Adobe Campaign et Adobe Real-time Customer Data Platform est maintenant référencée dans le guide **Intégration avec Adobe Experience Cloud**. [En savoir plus](../../integrations/using/about-campaign-integrations.md).
 
-## Novembre 2019 {#november-2019}
+## Novembre 2019 {#november-2019}
 
 Un avertissement a été ajouté aux sections [Multiplexage du serveur de mid-sourcing](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) et [Support de plusieurs instances de pilotage](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances), indiquant que ces déploiements ne sont pas pris en charge pour les clients hybrides et intégralement hébergés.
 
