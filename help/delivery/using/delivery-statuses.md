@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Statuts de diffusion
-description: En savoir plus sur les états disponibles sur votre tableau de bord de diffusion.
+description: En savoir plus sur les statuts disponibles sur votre tableau de bord de diffusion.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 79%
 
 ajouter screenshot -->
 
-Une fois qu’une diffusion a été envoyée, le tableau de bord de diffusion affiche un état qui vous permet de vérifier si l’envoi a réussi. Les états possibles sont détaillés dans la section ci-dessous.
+Une fois qu&#39;une diffusion a été envoyée, le tableau de bord de diffusion affiche un statut qui vous permet de vérifier si l&#39;envoi a réussi. Les statuts possibles sont détaillés dans la section ci-dessous.
 
 ![](assets/delivery-status.png)
 
@@ -33,7 +33,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
 * [Résolution des problèmes liés aux diffusions](../../delivery/using/delivery-troubleshooting.md)
 * [À propos de la délivrabilité](../../delivery/using/about-deliverability.md)
 
-## Liste des états de diffusion {#list-delivery-statuses}
+## Liste des statuts de diffusion {#list-delivery-statuses}
 
 <table> 
  <thead> 
@@ -53,7 +53,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> En échec<br /> </td> 
-   <td> La diffusion n'a pas pu atteindre le destinataire en raison d'une adresse invalide ou d'une boîte de réception pleine par exemple. La raison peut être également un problème lié aux blocs de personnalisation. Ils peuvent générer des erreurs lorsque les schémas ne correspondent pas au mapping de diffusion. Voir <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Comprendre les échecs de diffusion</a><br /> </td> 
+   <td> La diffusion n'a pas pu atteindre le destinataire en raison d'une adresse invalide ou d'une boîte de réception pleine par exemple. La raison peut être également un problème lié aux blocs de personnalisation. Ils peuvent générer des erreurs lorsque les schémas ne correspondent pas au mapping de diffusion. Voir <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Comprendre les diffusions en échec</a><br /> </td> 
   </tr>
   <tr> 
    <td> En attente<br /> </td> 
@@ -99,11 +99,11 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * Le Message Transfert Agent (MTA) qui exécute les modules et les processus sur le serveur de diffusion et qui gère l&#39;envoi des emails peut ne pas avoir été lancé ou doit être redémarré.
 
-   Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
+   Pour le vérifier, puis au besoin le lancer, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Cette opération peut être effectuée avec un modèle d’hébergement **sur site** ou **hybride** ayant accès au serveur Campaign (voir [modèles d’hébergement](../../installation/using/hosting-models.md)).
+   >Cette opération peut être effectuée avec un modèle d’hébergement **On-premise** ou **hybride** ayant accès au serveur Campaign (voir [modèles d&#39;hébergement](../../installation/using/hosting-models.md)).
 
    1. Vérifiez que vos modules `mta@<instance>` sont bien lancés sur vos serveurs MTA.
 
@@ -129,11 +129,11 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
    Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* Lorsque trop de campagnes sont en cours d’exécution, l’état de la diffusion reste &quot;En attente&quot;.
+* Lorsque trop de campagnes sont en cours d&#39;exécution, l’état de la diffusion reste &#39;En attente&#39;.
 
    La limite des campagnes simultanées est définie dans l&#39;option **[!UICONTROL NmsOperation_LimitConcurrency]**. La valeur par défaut est 10.
 
-   Pour en savoir plus sur les options de [cette page](../../installation/using/configuring-campaign-options.md).
+   En savoir plus sur les options sur [cette page](../../installation/using/configuring-campaign-options.md).
 
 
 **Rubriques connexes :**
