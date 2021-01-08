@@ -81,7 +81,7 @@ Voir [Création d’une campagne collaborative](../../campaign/using/creating-a-
 
 L&#39;inscription d&#39;une entité locale à une opération se traduit par la création d&#39;une commande qui regroupe toutes les informations relatives à la localisation de la campagne.
 
-## Espace de travail    {#workspace}
+## Espace de travail     {#workspace}
 
 La liste des kits d&#39;opération est accessible à partir de l&#39;univers **Campagnes** : cliquez sur le lien **[!UICONTROL Kits d&#39;opération]**.
 
