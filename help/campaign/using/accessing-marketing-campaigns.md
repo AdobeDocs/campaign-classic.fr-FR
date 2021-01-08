@@ -21,7 +21,7 @@ Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les cam
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
-### Page d&#39;accueil      {#home-page}
+### Page d&#39;accueil       {#home-page}
 
 Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
