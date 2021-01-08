@@ -6,9 +6,9 @@ description: Ce document décrit le modèle de données d’Adobe Campaign Cla
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2380'
 ht-degree: 100%
 
