@@ -27,7 +27,7 @@ L&#39;inconvénient principal est la limitation des données et des propriétés
 
 Les écrans de l&#39;assistant contiennent les étapes suivantes :
 
-1. La première page permet de renseigner le nom du schéma à étendre et l&#39;espace de nommage du schéma d&#39;extension où seront enregistrées les modifications :
+1. La première page permet de renseigner le nom du schéma à étendre et l&#39;espace de noms du schéma d&#39;extension où seront enregistrées les modifications :
 
    ![](assets/d_ncs_integration_schema_addfield.png)
 
