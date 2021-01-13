@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: b7f44f4c18bef4cc412af878846b2c4305a17787
+source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 72%
@@ -20,7 +20,7 @@ ht-degree: 72%
 Il est possible de changer ou de récupérer un mot de passe perdu.
 Deux cas sont possibles :
 
-* **Perte du mot de passe d&#39;un opérateur Adobe Campaign**
+**Perte du mot de passe d&#39;un opérateur Adobe Campaign**
 
 Dans ce cas, vous pouvez modifier le mot de passe de l’opérateur concerné.
 Pour ce faire, procédez comme suit :
@@ -33,7 +33,7 @@ Pour ce faire, procédez comme suit :
 
 1. Définissez le nouveau mot de passe de l’opérateur. Nous recommandons aux opérateurs de modifier leur mot de passe lorsqu’ils se reconnectent pour la première fois.
 
-* Perte du mot de passe **internal (clients on-premise uniquement)**
+Perte du mot de passe **internal (clients on-premise uniquement)**
 
 En cas de perte du mot de passe internal, vous devez le réinitialiser. Pour cela, la procédure est la suivante :
 
