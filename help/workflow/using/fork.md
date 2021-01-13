@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 16%
@@ -26,7 +26,7 @@ Par exemple, vous pouvez utiliser l’activité après une requête, afin d’ef
 
 Vous pouvez également utiliser l’activité dans le contexte de la création de contenu et de l’automatisation de l’envoi de diffusions, afin de lancer le calcul de la cible et la création de contenu en parallèle. Un cas pratique dédié est disponible dans [cette section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
->[!WARNING]
+>[!IMPORTANT]
 >
 >Gardez à l’esprit que les transitions sortantes ajoutées après une activité Fork ne s’exécuteront pas simultanément.
 >
