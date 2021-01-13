@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 09a79330e1ff951898d1559d5765818c12dc497a
+source-git-commit: 9a104fdc7bed89f56178d5ab638e1440e6342efc
 workflow-type: tm+mt
 source-wordcount: '8424'
 ht-degree: 1%
@@ -102,7 +102,7 @@ Dans le mode séparé **Transmetteur+récepteur**, la connexion utilisée dépen
 
 Par exemple, lors de l’envoi d’un MT, la connexion de l’émetteur est utilisée et le `RESP` qui reconnaît le MT est également envoyé par l’intermédiaire du canal de l’émetteur. Lorsque vous recevez un MO (ou un SR), la connexion du récepteur est utilisée pour recevoir le MO et pour envoyer le `RESP` qui reconnaît le MO.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 Dans Adobe Campaign Classic, pour lier SR à leur MT correspondante, un identifiant est renvoyé par le SMSC avec les étapes `SUBMIT_SM_RESP` et `DELIVER_SM`. L&#39;identifiant est stocké dans le champ `providerId` de la table `nms::providerMsgId` et est lié à `broadLogId` et `deliveryId`. Cette opération de correspondance est effectuée par le processus SMS lors de l&#39;écriture dans la base de données.
 
@@ -505,7 +505,7 @@ La fenêtre est le nombre de `SUBMIT_SM PDU`s qui peuvent être envoyées sans a
 
 Exemple de transmission avec une fenêtre maximale de 4 :
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins le nombre de SMS/s multiplié par la latence du lien.
 en secondes afin que le connecteur n&#39;attende jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
@@ -708,7 +708,7 @@ Permet d’ajouter un fichier TLV personnalisé. Ce champ définit la partie de 
 
 Ce paramètre permet uniquement d’ajouter une option TLV par message.
 
-### Réponse automatique aux MO    {#automatic-reply}
+### Réponse automatique aux MO     {#automatic-reply}
 
 >[!IMPORTANT]
 >
@@ -772,7 +772,7 @@ La période de validité est transmise dans le champ `validity_period` du `SUBMI
 
 ## Connecteur SMPP générique étendu {#acc-extended-connector}
 
-![](assets/sms_protocol_4.png)
+![](assets/do-not-localize/sms_protocol_4.png)
 
 Les flèches représentent des flux de données.
 
