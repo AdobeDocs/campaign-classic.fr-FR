@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 73%
@@ -21,14 +21,14 @@ Lorsque les logs de tracking ne remontent pas, les causes peuvent être multiple
 
 * **Le workflow** Tracking **est-il en erreur ?**
 
-Consultez [Surveiller les workflows techniques](../../workflow/using/monitoring-technical-workflows.md).
+   Consultez [Surveiller les workflows techniques](../../workflow/using/monitoring-technical-workflows.md).
 
-![](assets/tracking_scheduled_task.png)
+   ![](assets/tracking_scheduled_task.png)
 
 * **Le module** trackinglogd **est-il démarré sur le serveur ?**
 
-Consultez [Fichiers de log](../../production/using/log-files.md).
+   Consultez [Fichiers de log](../../production/using/log-files.md).
 
 * **Des changements ont-ils été apportés ?**
 
-Ils peuvent provoquer une perte de connexion aux serveurs à l&#39;aide de l&#39;alias de suivi.
+   Ils peuvent provoquer une perte de connexion aux serveurs à l&#39;aide de l&#39;alias de suivi.
