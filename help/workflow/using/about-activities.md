@@ -6,10 +6,10 @@ description: A propos des activités
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '98'
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,5 @@ Dans les workflows des opérations, l’onglet **[!UICONTROL Evénements]** est 
 En savoir plus:
 
 * [A propos des activités de ciblage](../../workflow/using/about-targeting-activities.md)
-* [Importer des données](../../workflow/using/importing-data.md)
 * [Exécuter un workflow](../../workflow/using/starting-a-workflow.md)
 * [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md)
