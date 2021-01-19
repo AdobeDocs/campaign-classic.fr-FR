@@ -6,11 +6,11 @@ description: Créez des diffusions pour envoyer des messages personnalisés sur 
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1190'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
+workflow-type: tm+mt
+source-wordcount: '1217'
+ht-degree: 94%
 
 ---
 
@@ -88,7 +88,11 @@ Les canaux on-line vous permettent de créer vos messages (email, SMS, diffusion
 
 ## Canaux Autre {#other-channels}
 
-Adobe Campaign propose des modèles de diffusion Agence ou Téléphone, qui sont utilisés pour créer des diffusions externes. L&#39;utilisation de ces canaux implique de configurer des méthodologies dédiées pour traiter les fichiers de sortie. Les étapes de configuration sont les mêmes que pour le [canal Courrier](../../delivery/using/about-direct-mail-channel.md).
+modèle de diffusion téléphonique des offres Adobe Campaign, qui est utilisé pour créer des diffusions externes. L’utilisation de ce canal implique la configuration de méthodologies dédiées pour traiter les fichiers de sortie. Les étapes de configuration sont identiques à celles du [canal de Courrier](../../delivery/using/about-direct-mail-channel.md).
+
+>[!NOTE]
+>
+>Le canal téléphonique n&#39;est pas disponible en standard. Sa mise en oeuvre nécessite la participation de Adobes Consulting ou d&#39;un partenaire Adobe. Pour plus d&#39;informations, contactez votre représentant d&#39;Adobe.
 
 De plus, les diffusions de type Autre utilisent un modèle technique spécifique qui n&#39;exécute aucun processus. Elles permettent ainsi notamment de gérer dans Adobe Campaign des actions marketing exécutées en dehors de la plateforme.
 
