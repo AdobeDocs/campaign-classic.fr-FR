@@ -6,9 +6,9 @@ description: A propos des activités de ciblage
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Ces activités permettent de construire une ou plusieurs cibles en définissant 
 
 * **Requête** : permet d&#39;effectuer une requête. Voir la section [Créer une requête](../../workflow/using/query.md#creating-a-query).
 * **Requête incrémentale** : permet d&#39;effectuer une requête et d&#39;en planifier l&#39;exécution. Voir la section [Requête incrémentale](../../workflow/using/incremental-query.md).
-* **Lecture de liste** : permet d&#39;utiliser les données contenues dans une liste. Voir la section [Utiliser les données d&#39;une liste : Lecture de Liste](../../workflow/using/importing-data.md#using-data-from-a-list--read-list).
+* **Lecture de liste** : permet d&#39;utiliser les données contenues dans une liste. Voir la section [Utiliser les données d&#39;une liste : Lecture de Liste](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 * **Union** : permet de regrouper le résultat de plusieurs activités dans une même cible. Voir la section [Union](../../workflow/using/union.md).
 * **Intersection** : permet de n&#39;extraire que la population commune aux résultats des activités entrantes. Voir la section [Intersection](../../workflow/using/intersection.md).
 * **Exclusion** : permet de créer une cible à partir d&#39;une cible principale de laquelle on extrait une ou plusieurs autres cibles. Voir la section [Intersection](../../workflow/using/intersection.md).
