@@ -6,9 +6,9 @@ description: Coupons personnalisés
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Le fait d&#39;ajouter des coupons à vos diffusions peut donner une valeur ajout
 >
 >La Gestion des coupons est un package qui doit être installé. Pour confirmer que vous disposez de la Gestion des coupons, allez dans **[!UICONTROL Administration > Configuration > Gestion des packages > Packages installés.]**
 >
->Les données des coupons peuvent être importées et exportée à l&#39;aide de formats CSV et XML. Pour plus d&#39;informations sur l&#39;import et l&#39;export, voir [cette section](../../platform/using/generic-imports-and-exports.md).
+>Les données des coupons peuvent être importées et exportée à l&#39;aide de formats CSV et XML. Pour plus d&#39;informations sur l&#39;import et l&#39;export, voir [cette section](../../platform/using/get-started-data-import-export.md).
 
 ## Créer un coupon {#creating-a-coupon}
 
@@ -58,7 +58,7 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
 
    >[!NOTE]
    >
-   >Les coupons individuels peuvent être importés en masse. Pour plus de détails sur l&#39;import et l&#39;export, voir [cette section](../../platform/using/generic-imports-and-exports.md).
+   >Les coupons individuels peuvent être importés en masse. Pour plus de détails sur l&#39;import et l&#39;export, voir [cette section](../../platform/using/get-started-data-import-export.md).
 
 ### Configuration de coupons individuels {#configuring-individual-coupons}
 
