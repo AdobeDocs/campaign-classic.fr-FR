@@ -25,17 +25,17 @@ Consultez les [Notes de mise à jour de Adobe Campaign Classic](../../rn/using/l
 
 La section activité **[!UICONTROL Fork]** a été enrichie de bonnes pratiques. [En savoir plus](../../workflow/using/fork.md)
 
-La section **Connecteurs CRM** a été mise à jour, améliorée et réorganisée. [En savoir plus](../../platform/using/crm-connectors.md)
+La section **Connecteurs CRM** a été mise à jour, améliorée et réorganisée. [En savoir plus](../../platform/using/crm-connectors.md).
 
-Les étapes permettant de connecter **Adobe Campaign et Microsoft Dynamics** sont maintenant détaillées dans une page dédiée. [En savoir plus](../../platform/using/crm-ms-dynamics.md)
+Les étapes permettant de connecter **Adobe Campaign et Microsoft Dynamics** sont maintenant détaillées dans une page dédiée. [En savoir plus](../../platform/using/crm-ms-dynamics.md).
 
-L’API Oracle On Demand est désormais obsolète en tant que CRM connecté à Campaign. [En savoir plus](../../rn/using/deprecated-features.md)
+L’API Oracle On Demand est désormais obsolète en tant que CRM connecté à Campaign. [En savoir plus](../../rn/using/deprecated-features.md).
 
 Découvrez comment trouver la version actuelle du servlet Web Tomcat incorporé utilisé dans une instance de Adobe Campaign [ici](../../production/using/locate-tomcat-version.md).
 
 La liste des workflows techniques avec leurs paquets associés a été améliorée et centralisée en une seule page. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
-La section de dépannage du guide **Surveillance** a été réorganisée et améliorée avec un landing page. [En savoir plus](../../production/using/troubleshooting.md)
+La section de dépannage du guide **Surveillance** a été réorganisée et améliorée avec un landing page. [En savoir plus](../../production/using/troubleshooting.md).
 
 Une nouvelle section **Importation et exportation de données** est disponible avec de nouvelles pages relatives aux workflows, à la compression des données, au chiffrement et aux meilleures pratiques d’importation. [En savoir plus](../../platform/using/get-started-data-import-export.md)
 
@@ -185,7 +185,7 @@ Des cas d’utilisation ont été ajoutés pour [crypter](../../platform/using/z
 
 La page sur l&#39;intégration des Triggers Experience Cloud et Adobe Campaign Classic a été déplacée [ici](../../integrations/using/about-triggers.md).
 
-## Juillet 2020 {#release-20-2}
+## Juillet 2020 {#release-20-2}
 
 **Nouvelles fonctionnalités incluses dans la version 20.2**
 
@@ -197,8 +197,7 @@ Loi sur la protection de la vie privée en Thaïlande et au Brésil - [En savoir
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La nouvelle option qui permet de dépublier un modèle de message transactionnel
-est présentée dans [cette section](../../message-center/using/template-unpublication.md).
+La nouvelle option qui permet de dépublier un modèle de message transactionnel est présentée dans [cette section](../../message-center/using/template-unpublication.md).
 
 Les nouvelles options destinées à définir des limites lors de l’envoi d’emails incluant des images téléchargées à partir d’une URL personnalisée et des pièces jointes ont été ajoutées à la liste des options de Campaign Classic. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
 
