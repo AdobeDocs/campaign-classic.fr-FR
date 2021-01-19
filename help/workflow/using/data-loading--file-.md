@@ -6,9 +6,9 @@ description: En savoir plus sur l’activité de workflow de chargement (fichier
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Vous pouvez définir un pré-traitement à exécuter lors de l’import du fichi
 
 ![](assets/preprocessing-dataloading.png)
 
-Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou crypter un fichier avant traitement](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing).
+Pour plus d’informations à ce sujet, consultez cette section : [Compresser ou crypter un fichier avant traitement](../../platform/using/unzip-decrypt.md).
 
 ## Définir le format du fichier {#defining-the-file-format}
 
@@ -113,7 +113,7 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
    * la première colonne contient un code correspondant à l&#39;événement : achat (d&#39;un montant supérieur ou inférieur à 3000 euros), sans achat ou retour d&#39;un ou plusieurs articles.
    * les quatre colonnes suivantes contiennent le prénom, le nom, l&#39;email et le numéro de compte du client.
 
-   Le paramétrage du format du fichier à charger correspond à celui défini lors d&#39;un import de données dans Adobe Campaign. Voir à ce sujet cette [section](../../platform/using/importing-data.md#step-2---source-file-selection).
+   Le paramétrage du format du fichier à charger correspond à celui défini lors d&#39;un import de données dans Adobe Campaign. Voir à ce sujet cette [section](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
 
 1. Dans l&#39;activité de partage, indiquez les sous-ensembles à créer, en fonction de la valeur de la colonne **Evénement**.
 
