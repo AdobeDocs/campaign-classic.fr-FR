@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Les principales méthodes pour créer des profils de destinataires sont les suiv
 
 >[!NOTE]
 >
->L’import de fichiers et de formulaires web est présenté dans la section [Imports et exports génériques](../../platform/using/generic-imports-and-exports.md).
+>L’import de fichiers et de formulaires web est présenté dans la section [Imports et exports génériques](../../platform/using/get-started-data-import-export.md).
 
 ## Profils et cibles {#profiles-and-targets}
 
@@ -58,7 +58,7 @@ Il permet également d&#39;accéder :
 * aux listes ; voir à ce sujet [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md),
 * aux services d&#39;abonnements, voir à ce sujet [cette page](../../delivery/using/managing-subscriptions.md),
 * aux applications web, voir à ce sujet [cette page](../../web/using/about-web-applications.md),
-* aux imports et exports (traitements) ; voir à ce propos [Imports et exports génériques](../../platform/using/generic-imports-and-exports.md),
+* aux imports et exports (traitements) ; voir à ce propos [Imports et exports génériques](../../platform/using/about-generic-imports-exports.md),
 * aux workflows de ciblage, voir à ce sujet [cette page](../../workflow/using/building-a-workflow.md#implementation-steps-).
 
 La page des destinataires permet d&#39;effectuer les opérations courantes sur les profils : édition, mise à jour, ajout, suppression, tri.
