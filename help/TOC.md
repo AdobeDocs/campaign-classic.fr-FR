@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
+source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
 workflow-type: tm+mt
-source-wordcount: '2202'
-ht-degree: 98%
+source-wordcount: '2293'
+ht-degree: 94%
 
 ---
 
@@ -68,10 +68,22 @@ ht-degree: 98%
       + [Exporter et importer des profils](platform/using/exporting-and-importing-profiles.md)
       + [Créer et gérer des listes](platform/using/creating-and-managing-lists.md)
    + Import et export de données {#importing-and-exporting-data}
-      + [Imports et exports génériques](platform/using/generic-imports-and-exports.md)
-      + [Exporter des données](platform/using/exporting-data.md)
-      + [Importer des données](platform/using/importing-data.md)
-      + [Utiliser le serveur SFTP](platform/using/sftp-server-usage.md)
+      + [Prise en main de l’importation et de l’exportation des données](platform/using/get-started-data-import-export.md)
+      + [Importation et exportation de données à l’aide de workflows](platform/using/import-export-workflows.md)
+      + Utilisation des importations et exportations génériques {generic-import-export}
+         + [Commencer avec les importations et exportations génériques](platform/using/about-generic-imports-exports.md)
+         + [Création de modèles d’importation et d’exportation](platform/using/creating-import-export-templates.md)
+         + [Création de tâches d’importation et d’exportation](platform/using/creating-import-export-jobs.md)
+         + [Configuration des tâches d’importation](platform/using/executing-import-jobs.md)
+         + [Configuration des tâches d’exportation](platform/using/executing-export-jobs.md)
+         + [Surveillance de l’exécution des tâches](platform/using/monitoring-jobs-execution.md)
+         + [Exemples d&#39;import générique](platform/using/import-operations-samples.md)
+      + Gestion du chiffrement et de la compression des données {managing-data-encryptage-compression}
+         + [Décompresser ou décrypter un fichier avant traitement](platform/using/unzip-decrypt.md)
+         + [Envoi ou chiffrement d’un fichier avant traitement](platform/using/zip-encrypt.md)
+      + Meilleures pratiques et dépannage {bonnes pratiques}
+         + [Importer et exporter les meilleures pratiques](platform/using/import-export-best-practices.md)
+         + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
    + Filtrer les données {#filtering-data}
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
@@ -86,7 +98,10 @@ ht-degree: 98%
       + [Gestion des énumérations](platform/using/managing-enumerations.md)
    + Connecteurs {#connectors}
       + [A propos des connecteurs](platform/using/about-connectors.md)
-      + [Connecteurs CRM](platform/using/crm-connectors.md)
+      + Connecteurs CRM{#crm-connectors}
+         + [Commencer avec les connecteurs CRM](platform/using/crm-connectors.md)
+         + [Connexion à Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+         + [Synchronisation des données avec la gestion de la relation client](platform/using/crm-data-sync.md)
       + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Envoyer les messages {#sending-messages}
    + [Prise en main du des messages](delivery/using/communication-channels.md)
@@ -115,7 +130,7 @@ ht-degree: 98%
       + [Canal SMS](delivery/using/sms-channel.md)
       + [Canal LINE](delivery/using/line-channel.md)
       + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
-      + [Dépannage SMS](delivery/using/troubleshooting-sms.md)
+      + [Résolution des problèmes liés aux SMS](delivery/using/troubleshooting-sms.md)
    + Envoi de notifications push {#sending-push-notifications}
       + [A propos de Mobile App Channel](delivery/using/about-mobile-app-channel.md)
       + [Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -347,13 +362,11 @@ ht-degree: 98%
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
 + Automatisation et workflows {#automating-with-workflows}
-   + Introduction {#introduction}
-      + [Prise en main des workflows](workflow/using/about-workflows.md)
+   + Prise en main des workflows {#introduction}
+      + [A propos des workflows](workflow/using/about-workflows.md)
       + [A propos des activités](workflow/using/about-activities.md)
-   + Fonctionnement général {#general-operation}
       + [Construire un workflow](workflow/using/building-a-workflow.md)
       + [Cibler les données](workflow/using/targeting-data.md)
-      + [Importer des données](workflow/using/importing-data.md)
       + [Utiliser les données d&#39;un workflow](workflow/using/how-to-use-workflow-data.md)
       + [Bonnes pratiques relatives aux workflows](workflow/using/workflow-best-practices.md)
    + Exécuter un workflow {#executing-a-workflow}
@@ -441,6 +454,7 @@ ht-degree: 98%
          + [Enrichir des données](workflow/using/enriching-data.md)
          + [Utilisation d&#39;agrégats](workflow/using/using-aggregates.md)
          + [Utilisation de la fonctionnalité de fusion des activités Déduplications](workflow/using/deduplication-merge.md)
+         + [Configuration d’un processus d’importation périodique](workflow/using/recurring-import-workflow.md)
       + Créer des requêtes {#designing-queries}
          + [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](workflow/using/quarterly-list-update.md)
       + Ciblage {#designing-queries}
