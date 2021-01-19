@@ -6,9 +6,9 @@ description: Automatisez les processus avec des workflows, gérez les données e
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Reportez-vous à ces sections qui contiennent des conseils et de bonnes pratique
 
 * En savoir plus sur les activités de workflow dans [cette page](../../workflow/using/how-to-use-workflow-data.md).
 * Découvrez comment créer un workflow dans [cette section](../../workflow/using/building-a-workflow.md).
-* Découvrez comment utiliser des workflows pour importer des données dans Campaign à l&#39;aide de [cette section](../../workflow/using/importing-data.md).
+* Découvrez comment utiliser des workflows pour importer des données dans Campaign à l&#39;aide de [cette section](../../platform/using/import-export-workflows.md).
 * Les bonnes pratiques de workflow sont détaillées dans [cette page](../../workflow/using/workflow-best-practices.md).
 * Consultez [cette section](../../workflow/using/starting-a-workflow.md) pour en savoir plus sur l&#39;exécution des workflows.
 * Découvrez comment surveiller les workflows dans [cette page](../../workflow/using/monitoring-workflow-execution.md).
