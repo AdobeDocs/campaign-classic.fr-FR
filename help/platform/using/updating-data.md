@@ -6,11 +6,11 @@ description: Mettre à jour les données
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -92,7 +92,7 @@ Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   Pour en savoir plus sur le paramétrage de l’assistant d&#39;export, consultez la section [Assistant d’export](../../platform/using/exporting-data.md#export-wizard).
+   Pour plus d&#39;informations sur la configuration de l&#39;assistant d&#39;export, consultez [cette section](../../platform/using/executing-export-jobs.md).
 
 ## Abonner à un service {#subscribing-to-a-service}
 
