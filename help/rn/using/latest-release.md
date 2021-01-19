@@ -6,11 +6,11 @@ description: Dernière version de Campaign Classic     Notes
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1915'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ Pour la version Gold Standard de Campaign Classic (dernier build GA), [reportez-
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
-_11 janvier 2021_
+_11 janvier 2021_
 
 * Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
-* Correction d’un problème de régression lié au processus de génération du journal large qui pouvait provoquer le blocage du processus MTA.
+* Correction d’un problème de régression lié au processus de génération des broadlogs qui entraînait le blocage du processus MTA.
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
@@ -74,7 +74,7 @@ _27 octobre 2020_
 
 >[!CAUTION]
 >
->Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le 21 mars 2021.
+>Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign au-delà du 21 mars 2021.
 
 **Améliorations de la sécurité**
 
@@ -105,7 +105,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 **Améliorations**
 
 * Plusieurs améliorations ont été apportées à la **console cliente** :
-   * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme d&#39;authentification IMS. La mise à niveau du serveur et de la console client est obligatoire pour pouvoir se connecter après le 21 mars 2021.
+   * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS. La mise à niveau du serveur et de la console cliente est obligatoire pour pouvoir se connecter après le 21 mars 2021.
    * Pour éviter toute incompatibilité avec certaines restrictions de règles GPO de sécurité Internet, l&#39;écran de connexion de la console cliente Campaign a été remplacé par un formulaire Windows standard intégré.
    * Correction d’un problème lors des activités de copie/collage dans un workflow à l’aide de la console cliente 64 bits. (NEO-27635)
    * Dans le menu **À propos**, des informations ont été ajoutées pour faire la différence entre les consoles 64 et 32 bits.
