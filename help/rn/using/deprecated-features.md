@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 82c5f4f4c37f295a6c206eb33616ae9223740f36
-workflow-type: ht
-source-wordcount: '1626'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+workflow-type: tm+mt
+source-wordcount: '1632'
+ht-degree: 99%
 
 ---
 
@@ -47,12 +47,13 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </tr>
   <tr>
   <td>Connecteurs CRM<br></td>
-   <td><p>À compter de la version 20.3 de Campaign, les connecteurs CRM suivants sont obsolètes:</p>
+   <td><p>Depuis la version Campaign 20.3, les connecteurs CRM suivants sont obsolètes avec Campaign :</p>
    <ul>
    <li>API Soap - On-premise : 2007, 2015, 2016</li>
    <li>API Soap - Online : 2015, 2016</li>
    <li>API Web - Microsoft Dynamics CRM On-premise : 2016, mise à jour 1 de 2016</li>
    <li>API Web - Microsoft Dynamics CRM Online : 2016, mise à jour 1 de 2016</li>
+   <li>API Oracle On Demand</li>
    </ul>
   <p><em>Date de suppression prévue : avril 2021</em></p>
   </td>
