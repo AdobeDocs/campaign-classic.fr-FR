@@ -6,9 +6,9 @@ description: A propos des adresses de contrôle
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -46,7 +46,8 @@ Dans le cadre des diffusions courrier, les adresses de contrôle sont ajoutées 
 >Pour les diffusions courrier, le format du fichier d&#39;extraction doit respecter les limitations suivantes :
 >
 >* Il ne doit pas utiliser l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY+HAVING)]**.
->* Si des collections d&#39;éléments sont extraites, ces champs auront une valeur vide pour les adresses de contrôle, sauf si l&#39;option **[!UICONTROL Ligne unique (mode expert)]** est cochée. Voir à ce sujet [cette section](../../platform/using/exporting-data.md#step-7---data-formatting).
+>* Si des collections d&#39;éléments sont extraites, ces champs auront une valeur vide pour les adresses de contrôle, sauf si l&#39;option **[!UICONTROL Ligne unique (mode expert)]** est cochée. Voir à ce sujet [cette section](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
+
 >
 
 
