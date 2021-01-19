@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
 workflow-type: tm+mt
 source-wordcount: '2293'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -453,7 +453,7 @@ ht-degree: 94%
          + [Créer une liste récapitulative](workflow/using/creating-a-summary-list.md)
          + [Enrichir des données](workflow/using/enriching-data.md)
          + [Utilisation d&#39;agrégats](workflow/using/using-aggregates.md)
-         + [Utilisation de la fonctionnalité de fusion des activités Déduplications](workflow/using/deduplication-merge.md)
+         + [Utilisation de la fonctionnalité de fusion de l&#39;activité de déduplication](workflow/using/deduplication-merge.md)
          + [Configuration d’un processus d’importation périodique](workflow/using/recurring-import-workflow.md)
       + Créer des requêtes {#designing-queries}
          + [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](workflow/using/quarterly-list-update.md)
@@ -684,8 +684,8 @@ ht-degree: 94%
       + [Spécificités par SGBDR](production/using/rdbms-specific-recommendations.md)
       + [Objets d&#39;application](production/using/application-objects.md)
    + Résolution des problèmes {#troubleshooting-toc}
-      + [Présentation du dépannage de la production](production/using/troubleshooting.md)
-      + Questions courantes et générales {#common-general-issues-toc}
+      + [Présentation de la résolution des problèmes de production](production/using/troubleshooting.md)
+      + Problèmes courants et généraux {#common-general-issues-toc}
          + [Modules et problèmes courants](production/using/modules-and-frequent-issues.md)
          + [Exécution des workflows](production/using/workflow-execution.md)
          + [Perte de mot de passe](production/using/lost-password.md)
@@ -695,7 +695,7 @@ ht-degree: 94%
          + [Problèmes liés à l’affichage des images](production/using/image-display-issues.md)
          + [Images absentes](production/using/images-missing.md)
          + [Fichiers temporaires](production/using/temporary-files.md)
-      + Utilisation des journaux {#working-with-log-toc}
+      + Utilisation des logs {#working-with-log-toc}
          + [Précision des logs](production/using/log-precision.md)
          + [Problèmes relatifs aux logs de tracking](production/using/tracking-logs-issues.md)
       + Problèmes de base de données {#database-issues-toc}
@@ -704,7 +704,7 @@ ht-degree: 94%
       + Améliorations de la connexion {#connection-improvements-toc}
          + [Connexion impossible](production/using/failure-to-connect.md)
          + [Seuil de connexions](production/using/connection-thresholds.md)
-      + Dépannage technique {#technical-troubleshooting-toc}
+      + Résolution des problèmes techniques {#technical-troubleshooting-toc}
          + [Stack trace sous Linux](production/using/stack-trace-in-linux.md)
          + [Comportement des JSP](production/using/jsp-behavior.md)
          + [Localisation de la version de Tomcat](production/using/locate-tomcat-version.md)
