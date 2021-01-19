@@ -6,11 +6,11 @@ description: Eléments statiques dans un formulaire web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: ht
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+workflow-type: tm+mt
+source-wordcount: '1329'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Les types de champs disponibles sont les suivants :
 
 ## Insérer du contenu HTML {#inserting-html-content}
 
-Vous pouvez inclure des contenus HTML dans une page de formulaire : liens hypertextes, images, paragraphes formatés, objets vidéo, Flash, etc.
+Vous pouvez inclure du contenu HTML dans une page de formulaire : liens hypertexte, images, paragraphes formatés, vidéos, etc.
 
 L’éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l’éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]**.
 
