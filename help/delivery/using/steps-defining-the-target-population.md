@@ -6,9 +6,9 @@ description: Définir la population cible
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Pour cela :
 
 1. Lors de l&#39;import des destinataires, cliquez sur le lien **[!UICONTROL Définition du format du fichier...]** pour sélectionner et configurer le fichier externe.
 
-   Pour plus d&#39;informations sur l&#39;import de données, consultez [cette section](../../platform/using/importing-data.md#step-2---source-file-selection).
+   Pour plus d&#39;informations sur l&#39;import de données, consultez [cette section](../../platform/using/executing-import-jobs.md#step-2---source-file-selection).
 
 1. Cliquez sur **[!UICONTROL Terminer]** et configurez votre diffusion comme une diffusion standard.
 
@@ -235,6 +235,6 @@ Voir aussi :
 
 Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l’envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
