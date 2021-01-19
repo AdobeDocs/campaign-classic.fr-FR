@@ -6,9 +6,9 @@ description: Découvrez les principales différences entre les déploiements hé
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -33,8 +33,8 @@ Les différents modèles d&#39;hébergement sont présentés [dans cette section
 | Gestion de la plateforme de mid-sourcing | À la demande | À la demande | Disponible | [En savoir plus](../../installation/using/mid-sourcing-server.md) |
 | Inbox Rendering via Litmus | À la demande | À la demande | Disponible | [En savoir plus](../../delivery/using/inbox-rendering.md) |
 | Intégration avec IMS (Adobe ID) | À la demande | À la demande | À la demande | [En savoir plus](../../integrations/using/about-adobe-id.md) |
-| Chiffrement/déchiffrement des données pour les transferts de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) |
-| Compression/décompression de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing) |
+| Chiffrement/déchiffrement des données pour les transferts de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../platform/using/unzip-decrypt.md) |
+| Compression/décompression de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../platform/using/unzip-decrypt.md) |
 | Délégation du nom de domaine | À la demande | À la demande | Non disponible | [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html) |
 | Installation de SpamAssassin | À la demande | Disponible | Disponible | [En savoir plus](../../delivery/using/spamassassin.md) |
 | Accès aux rapports de délivrabilité | Disponible | À la demande | Disponible | [En savoir plus](../../delivery/using/monitoring-deliverability.md) |
