@@ -6,11 +6,11 @@ description: Découvrez comment installer les packages standard de Campaign
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-translation-type: ht
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
+workflow-type: tm+mt
+source-wordcount: '1208'
+ht-degree: 98%
 
 ---
 
@@ -122,6 +122,11 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   <tr> 
    <td> Canal mobile (SMS) <br /> </td> 
    <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="../../delivery/using/sms-channel.md">En savoir plus</a> <br /> </td> 
+   <td> Tous<br /> </td> 
+  </tr> 
+   <tr> 
+   <td> Canal téléphonique<br /> </td> 
+   <td> Envoie des diffusions à l'aide du canal téléphonique avec Adobe Campaign. Utilisé pour le centre d’appels. Facultatif. <a href="../../delivery/using/communication-channels.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
