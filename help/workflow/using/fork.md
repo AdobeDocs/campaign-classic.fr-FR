@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
+source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 16%
+source-wordcount: '200'
+ht-degree: 9%
 
 ---
 
@@ -28,12 +28,10 @@ Vous pouvez également utiliser l’activité dans le contexte de la création d
 
 >[!IMPORTANT]
 >
->Gardez à l’esprit que les transitions sortantes ajoutées après une activité Fork ne s’exécuteront pas simultanément.
->
->L&#39;activité ne doit donc pas être utilisée pour améliorer les performances du flux de travail, mais plutôt pour exécuter plusieurs activités de manière indépendante, et finalement les réunir avant d&#39;exécuter le reste du flux de travail.
+>Les transitions sortantes ajoutées après une activité **[!UICONTROL Fork]** **ne s&#39;exécuteront pas simultanément.** Ce comportement peut avoir un impact sur les performances du workflow. Utilisez cette activité si vous devez exécuter plusieurs activités indépendamment, puis les rassembler avant d’exécuter le reste du processus.
 
-Pour configurer l’activité, ouvrez-la, puis définissez le nombre et le libellé des transitions sortantes de votre choix.
+Pour configurer l&#39;activité **[!UICONTROL Fork]**, ouvrez-la pour définir le numéro et l&#39;étiquette des transitions sortantes.
 
 ![](assets/s_user_segmentation_fork.png)
 
-Vous pouvez ensuite configurer chaque transition sortante, puis les associer à l’aide d’une activité [ET-join](../../workflow/using/and-join.md), si nécessaire. Ainsi, le reste du flux de travail ne s’exécutera qu’une fois les transitions sortantes de l’activité **[!UICONTROL Fork]** terminées.
+Vous pouvez ensuite configurer chaque transition sortante, puis les joindre ensemble à l’aide d’une activité [ET-join](../../workflow/using/and-join.md), si nécessaire. Ainsi, le reste du flux de travail ne s’exécutera qu’une fois les transitions sortantes de l’activité **[!UICONTROL Fork]** terminées.
