@@ -6,11 +6,11 @@ description: FAQ sur Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Apprenez à orchestrer les processus et les tâches à l&#39;aide des workflows 
 
 ## Comment importer des données dans Campaign ?{#how-can-i-import-data-in-campaign-}
 
-Apprenez les bonnes pratiques d&#39;import de données via un workflow Campaign dans [cette section](../../workflow/using/importing-data.md).
+Découvrez les meilleures pratiques pour importer des données dans [cette section](../../platform/using/import-export-best-practices.md).
 
 ## Est-il possible de suivre l&#39;exécution des workflows ?{#can-i-monitor-workflow-execution-}
 
@@ -59,7 +59,7 @@ Découvrez comment partager une cible en différents sous-ensembles dans [cette 
 
 Vous pouvez modifier certains champs dans une table Campaign avec les valeurs d&#39;un fichier texte externe.
 
-[Cliquez ici pour découvrir comment](../../platform/using/importing-data.md#example--enrich-the-values-with-those-of-an-external-file).
+[Cliquez ici pour découvrir comment](../../platform/using/import-operations-samples.md#example--enrich-the-values-with-those-of-an-external-file).
 
 ## Comment identifier et cibler de nouveaux destinataires ?{#how-can-i-identify-and-target-new-recipients-}
 
