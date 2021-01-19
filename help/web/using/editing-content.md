@@ -6,10 +6,10 @@ description: Editer le contenu
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1259'
+translation-type: tm+mt
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+workflow-type: tm+mt
+source-wordcount: '1239'
 ht-degree: 100%
 
 ---
@@ -137,6 +137,7 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >* Nouvelle fenêtre (_blank)
 >* Fenêtre courante (_self)
 >* Comportement par défaut du navigateur
+
 >
 
 
@@ -202,24 +203,14 @@ Les options disponibles sont les suivantes :
 >[!NOTE]
 >
 >* Icône **Supprimer** : supprime le bloc et tout son contenu.
->
->* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
+   >
+   >
+* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
 
 
 ## Gestion des images et animations {#managing-images-and-animations}
 
 Le Digital Content Editor permet de travailler avec **tous types d&#39;images** dont le format est compatible avec les navigateurs.
-
-Pour être compatible avec le DCE, les **animations de type &quot;Flash&quot;** doivent être insérées dans une page HTML de la manière suivante :
-
-```
-<object type="application/x-shockwave-flash" data="https://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
- <param name="movie" value="https://www.mydomain.com/flash/your_animation.swf" />
- <param name="quality" value="high" />
- <param name="play" value="true"/>
- <param name="loop" value="true"/> 
-</object>
-```
 
 >[!CAUTION]
 >
