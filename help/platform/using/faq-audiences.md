@@ -6,9 +6,9 @@ description: FAQ sur Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Vous pouvez importer des destinataires ou les créer manuellement à l&#39;aide 
 
 ## Comment importer des profils ?{#how-to-import-profiles-}
 
-Découvrez des cas pratiques simples pour [importer des profils](../../platform/using/importing-data.md#generic-import-samples) dans votre base de données.
+Découvrez des cas pratiques simples pour [importer des profils](../../platform/using/import-operations-samples.md) dans votre base de données.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)
 
