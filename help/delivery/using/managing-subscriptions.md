@@ -6,9 +6,9 @@ description: Gestion des inscriptions
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 * Abonner automatiquement à ce service un ensemble de destinataires. La liste de ces destinataires peut être issue d&#39;une opération de filtrages, d&#39;un groupe, d&#39;un dossier, d&#39;un import ou d&#39;une sélection directe par la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez sur le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Abonner la sélection à un service...]** puis sélectionnez le service visé et lancez l&#39;opération.
 * Importer des destinataires et les abonner automatiquement à un service d&#39;information : pour cela, sélectionnez le service visé dans la dernière étape de l&#39;assistant d&#39;import.
 
-   Voir à ce propos [cette section](../../platform/using/importing-data.md#import-wizard).
+   Voir à ce propos [cette section](../../platform/using/executing-import-jobs.md).
 
 * Utiliser un formulaire web pour que les destinataires puissent s&#39;abonner à un service.
 
