@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '3085'
 ht-degree: 99%
@@ -455,7 +455,7 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les exports, reportez-vous à la section [Prise en main](../../platform/using/generic-imports-and-exports.md).
+>Pour plus d&#39;informations sur les exports, reportez-vous à la section [Prise en main](../../platform/using/get-started-data-import-export.md).
 
 #### Tutoriel vidéo {#create-email-video}
 
