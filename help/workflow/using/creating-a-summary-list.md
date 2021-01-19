@@ -6,9 +6,9 @@ description: Créer une liste récapitulative
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
    L&#39;activité **Chargement(fichier)** permet d&#39;alimenter la table de travail du workflow avec les données collectées.
 
-   Pour plus d&#39;informations sur cette activité, voir la section [Charger des données depuis un fichier](../../workflow/using/importing-data.md#loading-data-from-a-file).
+   Pour plus d&#39;informations sur cette activité, voir la section [Charger des données depuis un fichier](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
 1. Configurez l&#39;activité **Collecteur de fichiers** pour collecter des fichiers de type texte (*.txt) dans le répertoire sélectionné.
 
