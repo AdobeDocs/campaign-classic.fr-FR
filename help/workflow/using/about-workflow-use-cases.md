@@ -9,10 +9,10 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 97%
+source-wordcount: '207'
+ht-degree: 94%
 
 ---
 
@@ -52,10 +52,11 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md)
 * [Enrichir des données](../../workflow/using/enriching-data.md)
 * [Utilisation d&#39;agrégats](../../workflow/using/using-aggregates.md)
-* [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
+* [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../platform/using/unzip-decrypt.md)
 * [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
 * [Utilisation de la fonctionnalité de fusion des activités Déduplications](../../workflow/using/deduplication-merge.md)
+* [Configuration d’un processus d’importation périodique](../../workflow/using/recurring-import-workflow.md)
 
 ## Ciblage {#designing-queries}
 
