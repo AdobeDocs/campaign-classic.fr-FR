@@ -6,11 +6,11 @@ description: En savoir plus sur les paramètres des propriétés du rapport
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 
 Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données dans la page. Ainsi, vous pouvez sélectionner :
 
-* Le moteur de rendu des graphiques : Adobe Campaign propose deux modes distincts pour générer le rendu des graphiques. Par défaut, le moteur de rendu est HTML 5. Au besoin, vous pouvez choisir un rendu Flash.
+* Le moteur de rendu du graphique : par défaut, le moteur de rendu est HTML 5.
 * Le type de navigation dans le rapport : via des boutons ou des liens.
 * La position par défaut des libellés des éléments du rapport. Cette position peut être surchargée au niveau de chaque élément.
 * Le modèle, ou thème, utilisé pour la génération des pages du rapport.
