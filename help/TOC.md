@@ -81,7 +81,7 @@ ht-degree: 96%
       + Gestion du chiffrement et de la compression des données {managing-data-encryptage-compression}
          + [Décompresser ou décrypter un fichier avant traitement](platform/using/unzip-decrypt.md)
          + [Envoi ou chiffrement d’un fichier avant traitement](platform/using/zip-encrypt.md)
-      + Meilleures pratiques et dépannage {bonnes pratiques}
+      + Meilleures pratiques et dépannage {best-practices}
          + [Importer et exporter les meilleures pratiques](platform/using/import-export-best-practices.md)
          + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
    + Filtrer les données {#filtering-data}
