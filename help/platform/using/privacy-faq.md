@@ -6,9 +6,9 @@ description: En savoir plus sur la confidentialité et le consentement
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Adobe ne fournit pas de conseils juridiques. Vous devriez travailler avec votre 
 
 * Vérifiez que tous les emails marketing comprennent un lien de désabonnement.
 
-* Évaluez la stratégie globale du marketing pa email pour définir des mises en œuvre propres à chaque zone géographique.
+* Évaluez la stratégie globale du marketing email pour définir des mises en œuvre propres à chaque zone géographique.
 
 **Compréhension des données**
 
