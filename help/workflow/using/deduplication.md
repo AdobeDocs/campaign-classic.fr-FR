@@ -6,11 +6,11 @@ description: En savoir plus sur l’activité de workflow de déduplication
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 55e2297c5c60a48be230d06a3c1880d79b8ea5f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -19,28 +19,28 @@ ht-degree: 67%
 
 La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l&#39;adresse email, du numéro de téléphone ou d&#39;un autre champ.
 
-L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes de duplicata d&#39;un jeu de données. Par exemple, les enregistrements ci-dessous peuvent être considérés comme duplicata, car ils ont la même adresse électronique et le même téléphone portable et/ou de domicile.
+L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes dupliquées d&#39;un jeu de données. Par exemple, les enregistrements ci-dessous peuvent être considérés comme des duplicatas, car ils ont la même adresse email et le même téléphone portable et/ou de domicile.
 
 | Date de la dernière modification | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|------------|-----------|-------|--------------|------
-| 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
-| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
-L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicata. Par exemple, dans le cas d’utilisation ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la date la plus ancienne **[!UICONTROL Date]**, le résultat sera :
+L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicatas. Par exemple, dans le cas pratique ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la **[!UICONTROL Date]** la plus ancienne, le résultat est le suivant :
 
-| Date | Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|----------|------------|-------|--------------|------
-| 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
-L&#39;enregistrement maître sélectionné transfère les données sans fusionner les données de champ avec d&#39;autres données pertinentes dans les lignes de duplicata.
+L&#39;enregistrement principal sélectionné transfère les données sans fusionner les données de champ avec d&#39;autres données pertinentes dans les lignes de duplicatas.
 
-Complémentaire:
+Complémentaire :
 
-| Date | Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|------------|-----------|-------|--------------|------
-| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## Bonnes pratiques {#best-practices}
 
@@ -61,7 +61,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
    ![](assets/s_user_segmentation_dedup_param.png)
 
-1. Sélectionnez le type de cible pour cette activité (par défaut, la déduplication est liée aux destinataires) et le critère à utiliser, c&#39;est-à-dire le champ pour lequel des valeurs identiques permettent d&#39;identifier les duplicata.
+1. Sélectionnez le type de cible pour cette activité (par défaut, la déduplication est liée aux destinataires) et le critère à utiliser, c&#39;est-à-dire le champ pour lequel des valeurs identiques permettent d&#39;identifier les duplicatas.
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
-1. À l’étape suivante, l’option **[!UICONTROL Autre]** vous permet de sélectionner le ou les critères à utiliser en cas de valeurs identiques.
+1. L&#39;option **[!UICONTROL Autre]** permet, à l&#39;étape suivante, de sélectionner le ou les critères à utiliser en cas de valeurs identiques :
 
    ![](assets/s_user_segmentation_dedup_param3.png)
 
@@ -95,7 +95,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
       ![](assets/s_user_segmentation_dedup_param7.png)
    >[!NOTE]
    >
-   >La fonctionnalité **[!UICONTROL Fusionner]**, accessible via le lien **[!UICONTROL Paramètres avancés]**, vous permet de configurer un ensemble de règles afin de fusionner un champ ou un groupe de champs en un seul enregistrement de données obtenu. Pour plus d’informations sur ce sujet, voir [Fusion de champs en un seul enregistrement](#merging-fields-into-single-record).
+   >La fonctionnalité **[!UICONTROL Fusion]**, accessible via le lien **[!UICONTROL Paramètres avancés]**, vous permet de configurer un ensemble de règles afin de fusionner un champ ou un groupe de champs en un seul enregistrement de données obtenu. Pour plus d’informations à ce sujet, voir [Fusion de champs en un seul enregistrement](#merging-fields-into-single-record).
 
 1. Cliquez sur **[!UICONTROL Terminer]** pour valider la méthode de déduplication sélectionnée.
 
@@ -135,29 +135,29 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 
 Lors de l&#39;exécution du workflow, les destinataires identifiés comme étant des doublons seront exclus du résultat (et donc de la diffusion) et ajoutés à la liste des doublons. Cette liste pourra être réutilisée afin de ne pas avoir à identifier de nouveau les doublons.
 
-## Fusionner des champs en un seul enregistrement de données {#merging-fields-into-single-record}
+## Fusion de champs en un seul enregistrement de données {#merging-fields-into-single-record}
 
-La fonctionnalité **[!UICONTROL Fusionner]** permet de configurer un ensemble de règles pour que la déduplication définisse un champ ou un groupe de champs à fusionner dans un seul enregistrement de données obtenu.
+La fonctionnalité **[!UICONTROL Fusion]** permet de configurer un ensemble de règles pour que la déduplication définisse un champ ou un groupe de champs à fusionner dans un seul enregistrement de données obtenu.
 
-Par exemple, avec un ensemble d’enregistrements de duplicata, vous pouvez choisir de conserver le numéro de téléphone le plus ancien ou le nom le plus récent.
+Par exemple, avec un ensemble d’enregistrements dupliqués, vous pouvez choisir de conserver le numéro de téléphone le plus ancien ou le nom le plus récent.
 
-Une case à utiliser exploitant cette fonctionnalité est disponible dans [cette section](../../workflow/using/deduplication-merge.md).
+Un cas pratique exploitant cette fonctionnalité est disponible dans [cette section](../../workflow/using/deduplication-merge.md).
 
 Pour ce faire, procédez comme suit :
 
-1. Dans l’étape de sélection de la méthode de Déduplication ****, cliquez sur le lien **[!UICONTROL Paramètres avancés]**.
+1. Dans l’étape de sélection de la **[!UICONTROL méthode de déduplication]**, cliquez sur le lien **[!UICONTROL Paramètres avancés]**.
 
    ![](assets/dedup1.png)
 
 1. Sélectionnez l&#39;option **[!UICONTROL Fusionner les enregistrements]** pour activer la fonctionnalité.
 
-   Si vous souhaitez regrouper plusieurs champs de données dans chaque condition de fusion, activez l&#39;option **[!UICONTROL Utiliser plusieurs critères de fusion d&#39;enregistrements]**.
+   Si vous souhaitez regrouper plusieurs champs de données dans chaque condition de fusion, activez l&#39;option **[!UICONTROL Utiliser plusieurs critères de fusion des enregistrements]**.
 
    ![](assets/dedup2.png)
 
-1. Après avoir activé la fonctionnalité, un onglet **[!UICONTROL Fusionner]** est ajouté à l&#39;activité **[!UICONTROL Déduplication]**. Il vous permet de définir des groupes de champs à fusionner et leurs règles associées.
+1. Après avoir activé la fonctionnalité, un onglet **[!UICONTROL Fusion]** est ajouté à l&#39;activité **[!UICONTROL Déduplication]**. Il vous permet de définir des groupes de champs à fusionner et leurs règles associées.
 
-   Pour plus d&#39;informations sur ce sujet, consultez le cas d&#39;utilisation spécifique disponible dans [cette section](../../workflow/using/deduplication-merge.md).
+   Pour plus d&#39;informations à ce sujet, reportez-vous au cas pratique disponible dans [cette section](../../workflow/using/deduplication-merge.md).
 
    ![](assets/dedup3.png)
 
@@ -171,7 +171,7 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schéma
+* schema
 * recCount
 
 Ce triplet de valeurs identifie la cible résultant de la déduplication. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
