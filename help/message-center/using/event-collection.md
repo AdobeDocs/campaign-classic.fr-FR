@@ -6,11 +6,11 @@ description: Collecte des événements
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ Une fois collectés, les événements sont ensuite répartis par les workflows t
 
 >[!NOTE]
 >
->Sur les instances d&#39;exécution, les dossiers **[!UICONTROL Événements temps réels]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues, car cela pourrait entraîner des problèmes de [droit d&#39;accès](../../platform/using/access-management.md#about-permissions). Pour plus d’informations sur la définition d’un dossier en tant que vue, voir [A propos des vues](../../platform/using/access-management.md#about-views).
+>Sur les instances d&#39;exécution, les dossiers **[!UICONTROL Événements en temps réel]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues, car cela pourrait entraîner des problèmes de [droit d&#39;accès](../../platform/using/access-management.md#about-permissions). Pour plus d’informations sur la définition d’un dossier en tant que vue, voir [A propos des vues](../../platform/using/access-management.md#about-views).
