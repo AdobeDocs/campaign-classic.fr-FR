@@ -6,18 +6,18 @@ description: Fichiers temporaires
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Fichiers temporaires{#temporary-files}
 
-Les messages d&#39;erreur tels que les suivants peuvent s&#39;afficher (en particulier dans les logs de diffusion) lorsque le système est mis en production :
+Lorsque vous lancez le système en production, vous pouvez obtenir des messages d&#39;erreur (notamment dans les logs de diffusion), tels que :
 
 *Unable to rename file &#39;/tmp/tmp0000.tmp&#39; to /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml ;(errno=18, Invalid cross-device link) (iRc=-52)*
 
