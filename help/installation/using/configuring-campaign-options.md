@@ -6,9 +6,9 @@ description: Découvrez comment paramétrer les options de Campaign
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3930'
 ht-degree: 100%
 
