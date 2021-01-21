@@ -6,11 +6,11 @@ description: Configuration de l’accès à Assets
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d5d4b87bae44ce0a93458f79179434a5bf315c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Cette section décrit les étapes de configuration nécessaires dans Adobe Campa
 
 >[!NOTE]
 >
->Si les deux packages (**[!UICONTROL Intégration AEM]** et **[!UICONTROL Intégration avec Adobe Experience Cloud]**) sont installés, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud sont utilisables. Pour pouvoir également accéder aux ressources de votre bibliothèque AEM Assets, vous devez synchroniser AEM Assets et Adobe Experience Cloud. Les ressources d’AEM Assets seront alors également disponibles dans la bibliothèque Adobe Experience Cloud. Pour plus d’informations sur la synchronisation entre AEM Assets et Adobe Experience Cloud, consultez la [documentation détaillée](https://docs.adobe.com/docs/en/aod/overview/collaborating/aem-assets-aod-sync.html).
+>Si les deux packages (**[!UICONTROL Intégration AEM]** et **[!UICONTROL Intégration avec Adobe Experience Cloud]**) sont installés, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud sont utilisables. Pour pouvoir également accéder aux ressources de votre bibliothèque AEM Assets, vous devez synchroniser AEM Assets et Adobe Experience Cloud. Les ressources d’AEM Assets seront alors également disponibles dans la bibliothèque Adobe Experience Cloud. Pour plus d’informations sur la synchronisation entre AEM Assets et Adobe Experience Cloud, consultez la [documentation détaillée](https://docs.adobe.com/docs/fr/aod/overview/collaborating/aem-assets-aod-sync.html).
 
 ## Intégration avec Experience Cloud Assets {#integrating-with-experience-cloud-assets}
 
@@ -40,7 +40,7 @@ Afin de pouvoir utiliser l&#39;intégration entre Adobe Campaign et Experience C
 Pour activer la connexion entre Adobe Campaign et Adobe Experience Cloud, configurez la connexion via IMS (service de connexion Adobe ID). Cette configuration est décrite dans le document [Connexion via un Adobe ID](../../integrations/using/about-adobe-id.md). Elle comprend notamment :
 
 * l’installation du package **[!UICONTROL Intégration avec Adobe Experience Cloud]**.
-* la configuration d&#39;un compte externe Adobe Experience Manager.
+* la configuration d&#39;un compte externe Adobe Experience Cloud.
 
 >[!NOTE]
 >
@@ -68,6 +68,6 @@ Lorsque vous insérez des images dans le contenu d&#39;une diffusion d&#39;aprè
 
 >[!NOTE]
 >
->Si le package **[!UICONTROL Intégration avec Adobe Experience Cloud]** est également installé sur votre instance Adobe Campaign, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud seront utilisables. Pour accéder également aux ressources de votre bibliothèque AEM Assets, vous devez synchroniser AEM Assets et Adobe Experience Cloud. Les ressources d’AEM Assets seront alors également disponibles dans la bibliothèque Adobe Experience Cloud. Dans ce cas précis, vous n’avez pas besoin de créer un modèle de diffusion spécifique. Pour plus d’informations sur la synchronisation entre AEM Assets et Adobe Experience Cloud, consultez la [documentation détaillée](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html#integration).
+>Si le package **[!UICONTROL Intégration avec Adobe Experience Cloud]** est également installé sur votre instance Adobe Campaign, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud seront utilisables. Pour accéder également aux ressources de votre bibliothèque AEM Assets, vous devez synchroniser AEM Assets et Adobe Experience Cloud. Les ressources d’AEM Assets seront alors également disponibles dans la bibliothèque Adobe Experience Cloud. Dans ce cas précis, vous n’avez pas besoin de créer un modèle de diffusion spécifique. Pour plus d’informations sur la synchronisation entre AEM Assets et Adobe Experience Cloud, consultez la [documentation détaillée](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html?lang=fr#integration).
 
 
