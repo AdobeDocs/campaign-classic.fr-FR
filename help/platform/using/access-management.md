@@ -6,11 +6,11 @@ description: Gestion des accès
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3179'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
 
 ## Les groupes d&#39;opérateurs {#operator-groups}
 
@@ -341,7 +341,7 @@ Ces droits sont les suivants :
 
 >[!NOTE]
 >
->Cette liste peut varier en fonction des composants additionnels installés sur la plate-forme.
+>Cette liste peut varier en fonction des composants additionnels installés sur la plateforme.
 
 ## Matrice des droits d&#39;accès {#access-rights-matrix}
 
@@ -454,4 +454,4 @@ Les diffusions suivantes seront affichées dans la vue :
 
 >[!NOTE]
 >
->Lors de la gestion des événements [de messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md), les dossiers **[!UICONTROL Événements temps réels]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues sur les instances d&#39;exécution, car cela pourrait permettre d&#39;accéder aux bonnes questions. Pour en savoir plus sur la collecte de événements, voir [cette section](../../message-center/using/event-collection.md).
+>Lors de la gestion des événements de [messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md), les dossiers **[!UICONTROL Événements temps réel]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues sur les instances d&#39;exécution, car cela pourrait entraîner des problèmes de droit d&#39;accès. Pour plus d&#39;informations sur la collecte d&#39;événements, voir [cette section](../../message-center/using/event-collection.md).
