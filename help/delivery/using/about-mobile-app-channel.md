@@ -6,11 +6,11 @@ description: Cette section contient des informations générales spécifiques à
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Vous pouvez définir le comportement de l’application lorsque l’utilisateur 
 >* Attention : dans certains pays, la loi exige que vous informiez les utilisateurs de vos applications mobiles du type de données collectées et de la finalité de leur traitement. Vous devez vérifier la législation.
 
 
-Le flux de travaux **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) met à jour les désinscriptions de notification sur les périphériques mobiles. Pour plus d&#39;informations sur ce processus, consultez la [liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
+Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez la [liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
 Adobe Campaign est compatible avec l&#39;APNS binaire et HTTP/2. Pour plus d’informations sur la procédure de configuration, voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
