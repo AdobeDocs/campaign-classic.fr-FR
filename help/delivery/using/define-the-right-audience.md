@@ -5,11 +5,11 @@ title: Définir l’audience appropriée
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour garantir votre réputation et assurer une bonne gestion des quarantaines, d
 **Rubriques connexes :**
 
 * [Activité Déduplication](../../workflow/using/deduplication.md).
-* [Cas d’utilisation : Utilisation de la fonctionnalité de fusion des activités Déduplications](../../workflow/using/deduplication-merge.md)
+* [Cas pratique : utilisation de la fonctionnalité de fusion de l’activité Déduplication](../../workflow/using/deduplication-merge.md)
 
 ## Adresses email d’index {#index-addresses}
 
