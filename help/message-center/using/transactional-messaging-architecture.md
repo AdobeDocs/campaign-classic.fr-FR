@@ -6,11 +6,11 @@ description: Cette section décrit l’architecture des messages transactionnels
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d30a70f8fbfb7a916638697c0f7a5060c2458ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -64,11 +64,11 @@ Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les 
 
 ## Ajout d&#39;un canal de diffusion {#adding-a-delivery-channel}
 
-Vous devez Ajouter un canal de diffusion (canal mobile, canal d’application mobile, etc.) avant d’installer le package de Message transactionnel.
+L&#39;ajout d&#39;un canal de diffusion (canal mobile, canal applications mobiles, etc.) doit être réalisé avant d’installer le package Message transactionnel.
 
-Adobe vous recommande de toujours ajouter le package de canal de diffusion avant d’installer le package de Message transactionnel.
+Adobe vous recommande de toujours ajouter le package de canal de diffusion avant d’installer le package Message transactionnel.
 
-Cependant, si vous avez démarré un projet de messagerie transactionnelle sur le canal de messagerie, puis que vous décidez au cours du projet d&#39;ajouter un nouveau canal, vous pouvez suivre les étapes ci-dessous.
+Cependant, si vous avez démarré un projet de message transactionnel sur le canal email, puis que vous décidez au cours du projet d&#39;ajouter un nouveau canal, vous pouvez suivre les étapes ci-dessous.
 
 >[!NOTE]
 >
