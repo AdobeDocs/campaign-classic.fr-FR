@@ -6,21 +6,21 @@ description: Performances de la base
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Performances de la base de données{#database-performances}
+# Performances de la base{#database-performances}
 
 La plupart des problèmes de performance sont liés à l&#39;entretien de la base de données. Nous vous proposons quatre axes de recherche pour vous aider à en trouver les causes :
 
 * Configuration 
-* l&#39;installation et la configuration de la plateforme Adobe Campaign
+* Installation et la configuration de la plateforme Adobe Campaign
 * Maintenance de la base de données
 * Diagnostic en temps réel
 
