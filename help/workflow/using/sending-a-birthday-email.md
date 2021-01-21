@@ -6,11 +6,11 @@ description: Découvrez comment envoyer un email d’anniversaire à l’aide d�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -204,7 +204,7 @@ Ajoutez une activité de type **Diffusion récurrente** basée sur le modèle de
 
 >[!CAUTION]
 >
->Pour que les workflows s&#39;exécutent, les workflows techniques relatifs au paquet Campaign doivent être démarrés. Pour plus d&#39;informations à ce sujet, consultez la section [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
+>Pour que les workflows s’exécutent, les workflows techniques liés au package Campaign doivent être démarrés. Voir à ce sujet la section [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 >
 >Si les étapes d’approbation sont activées pour la campagne, les diffusions ne sont envoyées qu’une fois ces étapes confirmées. Voir à ce sujet la section [Choix des processus à approuver](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved).
 
