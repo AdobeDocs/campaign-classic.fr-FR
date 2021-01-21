@@ -6,11 +6,11 @@ description: Problèmes relatifs aux logs de tracking
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -29,6 +29,6 @@ Lorsque les logs de tracking ne remontent pas, les causes peuvent être multiple
 
    Consultez [Fichiers de log](../../production/using/log-files.md).
 
-* **Des changements ont-ils été apportés ?**
+* **Des modifications ont-elles été apportées ?**
 
-   Ils peuvent provoquer une perte de connexion aux serveurs à l&#39;aide de l&#39;alias de suivi.
+   Elles peuvent provoquer la perte de connexion aux serveurs en utilisant l&#39;alias de tracking.
