@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '3085'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -281,7 +281,7 @@ Lorsque toutes les validations ont été acceptées, la diffusion passe à l&#39
 
 >[!NOTE]
 >
->Les workflows techniques liés au paquet Campaign sont présentés dans la [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
+>Les workflows techniques liés au kit d&#39;opération sont présentés dans la [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
 **Etape 1 - Valider le fichier**
 
