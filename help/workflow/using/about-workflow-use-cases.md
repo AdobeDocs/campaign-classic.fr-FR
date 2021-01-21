@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 * [Automatisation de la création, de l’édition et de la publication de contenu](../../delivery/using/automating-via-workflows.md#examples)
 
-## Contrôle    {#monitoring}
+## Contrôle     {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
@@ -55,7 +55,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../platform/using/unzip-decrypt.md)
 * [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
-* [Utilisation de la fonctionnalité de fusion des activités Déduplications](../../workflow/using/deduplication-merge.md)
+* [Utilisation de la fonctionnalité de fusion de l’activité Déduplication](../../workflow/using/deduplication-merge.md)
 * [Configuration d’un processus d’importation périodique](../../workflow/using/recurring-import-workflow.md)
 
 ## Ciblage {#designing-queries}
