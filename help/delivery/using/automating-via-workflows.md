@@ -6,11 +6,11 @@ description: Automatiser via les workflows
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition en sortie de l&#39;activité de **[!UICONTROL Gestion de contenu]** afin d&#39;enchaîner l&#39;exécution du workflow sur une nouvelle activité. Lorsque cette option est cochée, vous devez saisir le libellé de la transition.
 
-## Exemples     {#examples}
+## Exemples      {#examples}
 
 ### Automatiser la création et la diffusion d&#39;un contenu {#automating-content-creation-and-delivery}
 
@@ -200,7 +200,7 @@ Cet exemple reprend le principe du premier exemple, mais avec la création de l&
 
 La première tâche **Création de diffusion** crée l&#39;action de diffusion.
 
-L’activité de la fourchette vous permet de lancer le calcul de la cible et la création de l’instance de contenu en parallèle.
+L&#39;activité de branchement permet de lancer en parallèle le calcul de la cible et la création de l&#39;instance de contenu.
 
 Une fois les tâches effectuées, la boite de rendez-vous active la tâche **Diffusion** pour lancer la diffusion créée précédemment sur le contenu et le ciblage.
 
