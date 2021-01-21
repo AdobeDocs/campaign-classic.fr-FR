@@ -6,11 +6,11 @@ description: Perte de mot de passe
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Pour ce faire, procédez comme suit :
 
 1. Définissez le nouveau mot de passe de l’opérateur. Nous recommandons aux opérateurs de modifier leur mot de passe lorsqu’ils se reconnectent pour la première fois.
 
-Perte du mot de passe **internal (clients on-premise uniquement)**
+**Perte du mot de passe interne (clients on-premise uniquement)**
 
-En cas de perte du mot de passe internal, vous devez le réinitialiser. Pour cela, la procédure est la suivante :
+En cas de perte du mot de passe interne, vous devez le réinitialiser. Pour cela, la procédure est la suivante :
 
 1. Modifiez le fichier **/usr/local/neolane/nl6/conf/serverConf.xml**.
 
