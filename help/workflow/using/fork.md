@@ -10,21 +10,21 @@ translation-type: tm+mt
 source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 9%
+ht-degree: 54%
 
 ---
 
 
 # Branchement{#fork}
 
-L&#39;activité **[!UICONTROL Fork]** vous permet de créer plusieurs transitions sortantes, afin d&#39;exécuter plusieurs activités indépendamment au sein du même flux de travail.
+L&#39;activité **[!UICONTROL Branchement]** vous permet de créer plusieurs transitions sortantes, afin d&#39;exécuter plusieurs activités indépendamment au sein du même workflow.
 
-Par exemple, vous pouvez utiliser l’activité après une requête, afin d’effectuer deux actions en parallèle :
+Par exemple, vous pouvez utiliser l’activité après une requête, afin d’effectuer deux actions en parallèle :
 
-* Enregistrez le résultat de la requête dans une audience,
-* Exécutez une segmentation sur le résultat afin d’envoyer plusieurs diffusions.
+* Enregistrer le résultat de la requête dans une audience,
+* Exécuter une segmentation sur le résultat afin d’envoyer plusieurs diffusions.
 
-Vous pouvez également utiliser l’activité dans le contexte de la création de contenu et de l’automatisation de l’envoi de diffusions, afin de lancer le calcul de la cible et la création de contenu en parallèle. Un cas pratique dédié est disponible dans [cette section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
+Vous pouvez également utiliser l’activité dans le cadre de la création de contenu et de l’automatisation de l’envoi des diffusions, afin de lancer simultanément le calcul de la cible et la création de contenu. Un cas pratique dédié est disponible dans [cette section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
 >[!IMPORTANT]
 >
