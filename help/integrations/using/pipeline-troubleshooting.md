@@ -6,11 +6,11 @@ description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 
 1. Vérifiez si l’élément [!DNL pipelined] se trouve dans le fichier de configuration. Si ce n’est pas le cas, cela signifie qu’il n’est pas pris en charge.
-1. Effectuez la mise à niveau vers Campaign 20.3 ou Gold Standard 11.
+1. Effectuez une mise à niveau vers Campaign 20.3 ou Gold Standard 11.
 
 **Échec du pipeline avec « aurait dû commencer par `[` ou `{` (iRc=16384) »**
 
@@ -31,7 +31,7 @@ Définissez la configuration JSON dans l’option **NmsPipeline_Config**. Voir �
 
 **Échec du pipeline avec « le sujet doit être une organisation ou un client valide »**
 
-La configuration de l&#39;identifiant d&#39;organisation n&#39;est pas valide.
+La configuration de l&#39;identifiant de l&#39;organisation n&#39;est pas valide.
 
 1. Vérifiez que l’IMSOrgId est défini dans le fichier serverConf.xml.
 1. Recherchez un IMSOrgId vide dans le fichier de configuration de l’instance qui peut remplacer le paramètre par défaut. Si vous en trouvez un, supprimez-le.
