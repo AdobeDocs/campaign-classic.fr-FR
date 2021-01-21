@@ -6,18 +6,18 @@ description: En savoir plus sur les workflows de diffusions par défaut
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Diffusions{#deliveries}
 
-Les workflows détaillés ci-dessous sont installés par défaut avec le module **Diffusions**.
+Les workflows présentés ci-dessous sont installés par défaut avec le module **Diffusions**.
 
 <table> 
  <tbody> 
