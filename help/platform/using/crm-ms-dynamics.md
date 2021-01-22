@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 7478ae37aee5e8b0d9c904f5b9d810375d9d6481
+source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 5%
+source-wordcount: '978'
+ht-degree: 6%
 
 ---
 
@@ -79,7 +79,7 @@ Pour obtenir l&#39;ID client, vous devez enregistrer une application dans Azure 
 
 Une fois que vous avez enregistré, vous obtenez un **ID de l&#39;application** qui est l&#39;identifiant client pour Campaign.
 
-En savoir plus sur [cette page](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+En savoir plus sur [cette page](https://docs.microsoft.com/fr-fr/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
 ### Générer la clé secrète client Microsoft Dynamics {#config-client-secret-microsoft}
 
@@ -188,3 +188,22 @@ Campaign et Microsoft Dynamics sont maintenant connectés. Vous pouvez configure
 Regardez cette vidéo pour découvrir comment intégrer Dynamics 365 à Adobe Campaign Classic, dans le contexte d&#39;un déploiement Office 365.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
+
+
+## Types de données de champ pris en charge {#ms-dyn-supported-types}
+
+Pour Microsoft Dynamics 365, les types d&#39;attribut pris en charge/non pris en charge sont répertoriés ci-dessous :
+
+
+| Type d’attribut | Pris en charge |
+| --------------------------------------------------------------------------------- | --------- |
+| Types de base : booléen, datetime, decimal, flottante, doublon, integer, bigint, string | Oui |
+| Argent (comme doublon) | Oui |
+| memo, entityname, primarykey, uniqueidentifier (en tant que chaînes) | Oui |
+| Etat, liste de sélection (les valeurs possibles sont stockées dans des énumérations), état (chaîne) | Oui |
+| owner (as string) | Oui |
+| Recherche (seules les recherches de référence d&#39;entité unique) | Oui |
+| customer | Non |
+| Concernant | Non |
+| PartyList | Non |
+| ManagedProperty | Non |
