@@ -8,11 +8,11 @@ user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des 
 solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2290'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -68,27 +68,27 @@ ht-degree: 96%
       + [Exporter et importer des profils](platform/using/exporting-and-importing-profiles.md)
       + [Créer et gérer des listes](platform/using/creating-and-managing-lists.md)
    + Import et export de données {#importing-and-exporting-data}
-      + [Prise en main de l’importation et de l’exportation des données](platform/using/get-started-data-import-export.md)
-      + [Importation et exportation de données à l’aide de workflows](platform/using/import-export-workflows.md)
-      + Utilisation d&#39;importations et d&#39;exportations génériques {#generic-imports-exports}
-         + [Commencer avec les importations et exportations génériques](platform/using/about-generic-imports-exports.md)
-         + [Création de modèles d’importation et d’exportation](platform/using/creating-import-export-templates.md)
-         + [Création de tâches d’importation et d’exportation](platform/using/creating-import-export-jobs.md)
-         + [Configuration des tâches d’importation](platform/using/executing-import-jobs.md)
-         + [Configuration des tâches d’exportation](platform/using/executing-export-jobs.md)
-         + [Surveillance de l’exécution des tâches](platform/using/monitoring-jobs-execution.md)
+      + [Prise en main de l&#39;import et de l&#39;export de données](platform/using/get-started-data-import-export.md)
+      + [Import et export de données à l&#39;aide de workflows](platform/using/import-export-workflows.md)
+      + Utilisation d&#39;imports et d&#39;exports génériques {#generic-imports-exports}
+         + [Prise en main d&#39;imports et d&#39;exports génériques](platform/using/about-generic-imports-exports.md)
+         + [Création de modèles d&#39;import et d&#39;export](platform/using/creating-import-export-templates.md)
+         + [Création de traitements d&#39;import et d&#39;export](platform/using/creating-import-export-jobs.md)
+         + [Configuration de traitements d&#39;import](platform/using/executing-import-jobs.md)
+         + [Configuration de traitements d&#39;export](platform/using/executing-export-jobs.md)
+         + [Surveillance de l&#39;exécution des traitements](platform/using/monitoring-jobs-execution.md)
          + [Exemples d&#39;import générique](platform/using/import-operations-samples.md)
-      + Gestion du chiffrement et de la compression des données {#managing-data-encryption-compression}
+      + Gestion du cryptage et de la compression des données {#managing-data-encryption-compression}
          + [Décompresser ou décrypter un fichier avant traitement](platform/using/unzip-decrypt.md)
-         + [Envoi ou chiffrement d’un fichier avant traitement](platform/using/zip-encrypt.md)
-      + Meilleures pratiques et dépannage {#best-practices}
-         + [Importer et exporter les meilleures pratiques](platform/using/import-export-best-practices.md)
+         + [Compresser ou crypter un fichier avant traitement](platform/using/zip-encrypt.md)
+      + Bonnes pratiques et résolution des problèmes {#best-practices}
+         + [Bonnes pratiques en matière d’import et d’export](platform/using/import-export-best-practices.md)
          + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
    + Filtrer les données {#filtering-data}
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
-   + Créer une requête      {#creating-queries}
+   + Créer une requête       {#creating-queries}
       + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définir les conditions de filtrage](platform/using/defining-filter-conditions.md)
@@ -99,9 +99,9 @@ ht-degree: 96%
    + Connecteurs {#connectors}
       + [A propos des connecteurs](platform/using/about-connectors.md)
       + Connecteurs CRM{#crm-connectors}
-         + [Commencer avec les connecteurs CRM](platform/using/crm-connectors.md)
-         + [Connexion à Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-         + [Synchronisation des données avec la gestion de la relation client](platform/using/crm-data-sync.md)
+         + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
+         + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+         + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
       + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector.md)
 + Envoyer les messages {#sending-messages}
    + [Prise en main du des messages](delivery/using/communication-channels.md)
@@ -454,7 +454,7 @@ ht-degree: 96%
          + [Enrichir des données](workflow/using/enriching-data.md)
          + [Utilisation d&#39;agrégats](workflow/using/using-aggregates.md)
          + [Utilisation de la fonctionnalité de fusion de l&#39;activité de déduplication](workflow/using/deduplication-merge.md)
-         + [Configuration d’un processus d’importation périodique](workflow/using/recurring-import-workflow.md)
+         + [Configuration d&#39;un workflow d&#39;import récurrent](workflow/using/recurring-import-workflow.md)
       + Créer des requêtes {#designing-queries}
          + [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](workflow/using/quarterly-list-update.md)
       + Ciblage {#designing-queries}
