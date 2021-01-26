@@ -6,11 +6,11 @@ description: Cette page répertorie toutes les nouvelles fonctionnalités et mis
 audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 759346587e3ce98c408a0a17218341118dbceb82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3887'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 94%
 
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
-Consultez les [Notes de mise à jour de Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives à la version.
+Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## Janvier 2021 {#jan-2021}
 
-La section activité **[!UICONTROL Fork]** a été enrichie de bonnes pratiques. [En savoir plus](../../workflow/using/fork.md)
+La section sur l&#39;activité **[!UICONTROL Branchement]** a été enrichie d&#39;informations à propos des bonnes pratiques. [En savoir plus](../../workflow/using/fork.md)
 
 La section **Connecteurs CRM** a été mise à jour, améliorée et réorganisée. [En savoir plus](../../platform/using/crm-connectors.md).
 
@@ -31,27 +31,27 @@ Les étapes permettant de connecter **Adobe Campaign et Microsoft Dynamics** son
 
 L’API Oracle On Demand est désormais obsolète en tant que CRM connecté à Campaign. [En savoir plus](../../rn/using/deprecated-features.md).
 
-Découvrez comment trouver la version actuelle du servlet Web Tomcat incorporé utilisé dans une instance de Adobe Campaign [ici](../../production/using/locate-tomcat-version.md).
+Découvrez [ici](../../production/using/locate-tomcat-version.md) comment déterminer la version actuelle de la servlet web Tomcat intégrée utilisée dans une instance d&#39;Adobe Campaign.
 
-La liste des workflows techniques avec leurs paquets associés a été améliorée et centralisée en une seule page. [En savoir plus](../../workflow/using/about-technical-workflows.md)
+La liste des workflows techniques avec leurs packages associés a été améliorée et centralisée sur une seule page. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
-La section de dépannage du guide **Surveillance** a été réorganisée et améliorée avec un landing page. [En savoir plus](../../production/using/troubleshooting.md).
+La section sur la résolution des problèmes du guide de **surveillance** a été réorganisée et améliorée avec une landing page. [En savoir plus](../../production/using/troubleshooting.md).
 
-Une nouvelle section **Importation et exportation de données** est disponible avec de nouvelles pages relatives aux workflows, à la compression des données, au chiffrement et aux meilleures pratiques d’importation. [En savoir plus](../../platform/using/get-started-data-import-export.md)
+Une nouvelle section **Import et export de données** est disponible avec de nouvelles pages relatives aux workflows, à la compression des données, au cryptage et aux bonnes pratiques d’import. [En savoir plus](../../platform/using/get-started-data-import-export.md)
 
 ## Décembre 2020 {#dec-2020}
 
-La section **Surveillance de la Diffusion** a été réorganisée en thèmes. [En savoir plus](../../delivery/using/about-delivery-monitoring.md)
+La section du **monitoring des diffusions** a été réorganisée en thèmes. [En savoir plus](../../delivery/using/about-delivery-monitoring.md)
 
 Un exemple d&#39;utilisation a été ajouté sur la manière d&#39;ajouter les adresses IP des expéditeurs aux logs de diffusion. [En savoir plus](../../delivery/using/delivery-dashboard.md#use-case)
 
 La FAQ sur la confidentialité a été déplacée vers [cette section](../../platform/using/privacy-faq.md).
 
-Un exemple d’utilisation a été ajouté sur la façon d’utiliser la fonctionnalité de fusion des activités **[!UICONTROL Déduplication]**. [En savoir plus](../../workflow/using/deduplication-merge.md)
+Un cas pratique a été ajouté sur la manière d’utiliser la fonctionnalité de fusion de l’activité de **[!UICONTROL déduplication]**. [En savoir plus](../../workflow/using/deduplication-merge.md)
 
-La description complète du protocole et des paramètres du connecteur SMS est maintenant disponible [ici](../../delivery/using/sms-protocol.md).
+La description complète de la page des paramètres et du proptocole du connecteur SMS est maintenant disponible [ici](../../delivery/using/sms-protocol.md).
 
-Une note a été ajoutée à la section **Messages transactionnels** pour avertir que les dossiers de événement ne doivent pas être définis comme des vues sur les instances d&#39;exécution, afin d&#39;éviter les problèmes d&#39;accès appropriés. [En savoir plus](../../message-center/using/event-collection.md)
+Une note a été ajoutée à la section **Messages transactionnels** pour avertir que les dossiers dʼévénement ne doivent pas être définis comme des vues sur les instances dʼexécution, afin d&#39;éviter les problèmes de droits dʼaccès. [En savoir plus](../../message-center/using/event-collection.md)
 
 ## Novembre 2020 {#nov-2020}
 
@@ -285,7 +285,7 @@ Les guides [d’installation](../../installation/using/general-architecture.md),
 
 Le guide d’installation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. Les nouveaux systèmes pris en charge ont été ajoutés. Les systèmes obsolètes et non pris en charge ont été supprimés. [En savoir plus](../../installation/using/general-architecture.md)
 
-La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 Une bonne pratique concernant l’affinité IP a été ajoutée au guide d’installation. [En savoir plus](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -303,7 +303,7 @@ Le nouveau paramètre de configuration du rapport des URL a été documenté [ic
 
 La page **Matrice des fonctionnalités On-premise et hébergées de Campaign Classic** a été mise à jour en indiquant les nouveaux connecteurs FDA. [En savoir plus](../../installation/using/capability-matrix.md).
 
-La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 Le nouveau workflow **[!UICONTROL Nettoyage de la table Nmsaddress]** a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
@@ -353,7 +353,7 @@ Messagerie SMS sécurisée (TLS) - [En savoir plus](https://helpx.adobe.com/fr/c
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Une nouvelle section a été ajoutée pour expliquer comment résoudre les problèmes liés à un workflow qui reste dans l&#39;état &quot;Démarrer dès que possible&quot; au cours d&#39;une campagne. [En savoir plus](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -415,7 +415,7 @@ Les bonnes pratiques pour améliorer les performances des workflows et des diffu
 
 **Nouvelles fonctionnalités incluses dans la version 19.1**
 
-Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
 
 Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
@@ -423,7 +423,7 @@ Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
 Un nouveau FAQ relatif à l&#39;upgrade de build a été créé. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/build-upgrade-faq.html)
 
-Mise à jour de la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La [matrice de compatibilité 19.0](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix-19-0.html) a été archivée.
+Mise à jour de la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La [matrice de compatibilité 19.0](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix-19-0.html) a été archivée.
 
 La page « Fonctionnalités obsolètes et supprimées de Campaign Classic » a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
@@ -478,7 +478,7 @@ Ajout d&#39;informations sur le rapport de billing.
 Mise à jour de la documentation sur l&#39;intégration des audiences partagées.
 [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 La section Workflows techniques a été mise à jour. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
