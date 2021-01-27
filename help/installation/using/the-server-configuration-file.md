@@ -6,9 +6,9 @@ description: Le fichier de configuration du serveur
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7851'
 ht-degree: 100%
 
@@ -1920,7 +1920,7 @@ Voici les différents paramètres du nœud **nmac**. Il s’agit de la configura
  </tbody> 
 </table>
 
-### relay {#relay-1}
+### relayer {#relay-1}
 
 Voici les différents paramètres du nœud **nmac > relay**. Il s’agit de la configuration d’un relais pour diffuser des messages (connecteur ios http2).
 
@@ -2168,7 +2168,7 @@ Pour plus d&#39;informations, voir la section [Définition des zones de sécurit
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> label<br /> </td> 
+   <td> libellé<br /> </td> 
    <td> Libellé<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2236,7 +2236,7 @@ Pour plus d&#39;informations, voir la section [Définition des zones de sécurit
  </thead> 
  <tbody> 
   <tr> 
-   <td> label<br /> </td> 
+   <td> libellé<br /> </td> 
    <td> Libellé<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2962,7 +2962,7 @@ Voici les différents paramètres du nœud **web > jssp**. Il s’agit de la co
 
 Le nœud **web > jsp > classpath** contient la liste de tous les Class Paths à utiliser lors du démarrage de la JVM.
 
-### relay {#relay-2}
+### relayer {#relay-2}
 
 Voici les différents paramètres du nœud **web > relay**. Il s’agit de la configuration du relais de requêtes HTTP entre deux zones.
 
