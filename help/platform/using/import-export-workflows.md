@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Importation et exportation de données à l’aide de workflows
+title: Import et export de données à l'aide de workflows
 description: Découvrez comment importer et exporter des données à l’aide de workflows dans le Campaign Classic.
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 68%
+ht-degree: 72%
 
 ---
 
 
-# Importation et exportation de données à l’aide de workflows {#import-export-workflows}
+# Import et export de données à l&#39;aide de workflows {#import-export-workflows}
 
 ## Collecter des données {#collecting-data-workflows}
 
