@@ -6,9 +6,9 @@ description: Publication des modèles
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 02dee9c4cc03784ccc20f147f816798248bd10f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
