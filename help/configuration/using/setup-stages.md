@@ -6,9 +6,9 @@ description: Etapes de mise en place
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 
