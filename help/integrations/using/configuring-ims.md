@@ -7,15 +7,19 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
 
 
 # Paramétrer IMS{#configuring-ims}
+
+>[!IMPORTANT]
+>
+>L’implémentation d’Adobe IMS est strictement réservée aux administrateurs techniques d’Adobe. Contactez votre chargé de compte Adobe pour démarrer le processus de mise en œuvre.
 
 ## Prérequis {#prerequisites}
 
