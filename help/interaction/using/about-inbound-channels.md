@@ -6,9 +6,9 @@ description: A propos des canaux entrants
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
