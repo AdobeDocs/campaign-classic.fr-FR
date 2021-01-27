@@ -6,9 +6,9 @@ description: Stack trace sous Linux
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -23,6 +23,7 @@ La **stack trace** représente une trace contenue dans un fichier de type **core
 >
 >* Un fichier **core** se présente sous le nom **core.`<num>`**.
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
+
 >
 
 
