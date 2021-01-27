@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: dcef36c3ce14c45cb08a79180938ad8d26fa6549
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 100%
+source-wordcount: '984'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,14 @@ _22 décembre 2020_
 
 >[!CAUTION]
 >
->Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign au-delà du 21 mars 2021.
+> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **21 mars 2021**.
+   >
+   > 
+* Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+>
+>
+Pour en savoir plus, consultez la [FAQ sur la mise à niveau vers Gold Standard 11](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
+
 
 Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
