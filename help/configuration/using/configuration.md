@@ -6,9 +6,9 @@ description: 'Configuration '
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 100%
 
