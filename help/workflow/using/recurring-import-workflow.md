@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
 
-# Configuration d’un processus d’importation périodique {#setting-up-a-recurring-import}
+# Configuration d&#39;un workflow d&#39;import récurrent {#setting-up-a-recurring-import}
 
 Il est recommandé d’utiliser un modèle de flux de travail si vous devez importer régulièrement des fichiers avec la même structure.
 
