@@ -6,9 +6,9 @@ description: Prise en main de l’édition de schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4c3a2184ab09b1e1ed91d0127adc636a51808aec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ Les liens sont déclarés dans le schéma qui contient la **clé étrangère** d
 
 Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
-### Exemples      {#examples-1}
+### Exemples       {#examples-1}
 
 Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 
