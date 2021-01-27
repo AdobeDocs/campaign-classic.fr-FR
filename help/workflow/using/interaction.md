@@ -6,9 +6,9 @@ description: Interaction
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: affc541c480ad7e618120fe90270841add06b711
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
