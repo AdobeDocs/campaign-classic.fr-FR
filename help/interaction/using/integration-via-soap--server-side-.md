@@ -6,9 +6,9 @@ description: Intégration via SOAP (côté serveur)
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
