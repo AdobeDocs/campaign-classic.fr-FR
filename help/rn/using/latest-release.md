@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '1915'
-ht-degree: 100%
+source-wordcount: '1941'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,17 @@ _11 janvier 2021_
 ## ![](assets/do-not-localize/red_2.png) Version 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
 _27 octobre 2020_
+
+>[!CAUTION]
+>
+> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **21 mars 2021**.
+   >
+   > 
+* Cette version comprend un correctif de sécurité : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+
+>
+
+
 
 **Nouveautés**
 
@@ -71,10 +82,6 @@ _27 octobre 2020_
 </tr> 
 </tbody> 
 </table>
-
->[!CAUTION]
->
->Cette version est fournie avec un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign au-delà du 21 mars 2021.
 
 **Améliorations de la sécurité**
 
