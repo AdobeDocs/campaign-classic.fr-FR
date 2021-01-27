@@ -6,9 +6,9 @@ description: En savoir plus sur les fonctionnalités de surveillance des diffusi
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54ba9d2ee05b1bd7de7616142e8ad6bcbac5f8eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
