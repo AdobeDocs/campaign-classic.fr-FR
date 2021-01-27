@@ -6,9 +6,9 @@ description: En savoir plus sur les mises à niveau de Campaign Classic
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 51993e6f606132e425553da67687aca76e166dbd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
