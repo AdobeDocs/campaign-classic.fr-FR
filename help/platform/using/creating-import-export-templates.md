@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Création de modèles d’importation et d’exportation
+title: Création de modèles d'import et d'export
 description: Découvrez comment créer des modèles d’importation et d’exportation en Campaign Classic.
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 39%
+ht-degree: 46%
 
 ---
 
 
-# Création de modèles d&#39;importation et d&#39;exportation {#creating-import-export-templates}
+# Création de modèles d&#39;import et d&#39;export {#creating-import-export-templates}
 
 Les modèles d&#39;import et d&#39;export sont stockés dans le répertoire **[!UICONTROL Ressources > Modèles > Modèles de traitement]** de l&#39;arborescence d&#39;Adobe Campaign.
 
