@@ -6,9 +6,9 @@ description: Découvrez comment débuter avec la configuration de l'application 
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
