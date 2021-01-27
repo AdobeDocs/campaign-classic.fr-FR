@@ -6,9 +6,9 @@ description: Créer votre premier questionnaire avec Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
