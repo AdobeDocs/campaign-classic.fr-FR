@@ -6,9 +6,9 @@ description: Installation du serveur
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
