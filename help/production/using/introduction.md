@@ -6,9 +6,9 @@ description: Introduction
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
