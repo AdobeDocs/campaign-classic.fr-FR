@@ -6,9 +6,9 @@ description: En savoir plus sur les workflows de diffusions par défaut
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
