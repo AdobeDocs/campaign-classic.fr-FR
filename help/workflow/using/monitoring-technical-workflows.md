@@ -6,9 +6,9 @@ description: Surveiller les workflows techniques
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
