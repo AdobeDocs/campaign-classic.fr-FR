@@ -6,9 +6,9 @@ description: Gestion des images d'activité
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
