@@ -6,9 +6,9 @@ description: Cette section contient des informations générales spécifiques à
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
 
