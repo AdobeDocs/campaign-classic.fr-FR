@@ -6,9 +6,9 @@ description: Exécution des workflows
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 100%
 
