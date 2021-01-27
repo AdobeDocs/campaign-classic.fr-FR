@@ -6,9 +6,9 @@ description: Découvrez comment installer la console cliente
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -94,12 +94,12 @@ Pour vous connecter à une instance existante, procédez comme suit :
 **Rubriques connexes :**
 
 * [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
-* [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+* [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 ## Tutoriel vidéo
 
 Cette vidéo explique comment installer et configurer le client Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
