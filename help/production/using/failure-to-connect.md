@@ -6,9 +6,9 @@ description: Connexion impossible
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 85fae38f864b031f069058dae79ce6753dc4bf03
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 
