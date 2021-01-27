@@ -6,9 +6,9 @@ description: En savoir plus sur les activités du workflow des codes SQL et Java
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8bcfc8826a66517e6a648dbc57b681778718c33c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
