@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Création de tâches d’importation et d’exportation
+title: Création de traitements d'import et d'export
 description: Découvrez comment créer des tâches d’importation et d’exportation dans le Campaign Classic.
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 28%
+ht-degree: 35%
 
 ---
 
 
-# Création de tâches d&#39;importation et d&#39;exportation {#creating-import-export-jobs}
+# Création de traitements d&#39;import et d&#39;export {#creating-import-export-jobs}
 
 Une fois les modèles configurés, les opérations d&#39;importation et d&#39;exportation peuvent être lancées dans plusieurs contextes à Adobe Campaign.
 
