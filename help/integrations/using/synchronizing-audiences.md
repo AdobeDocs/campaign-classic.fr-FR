@@ -6,9 +6,9 @@ description: Synchronisation des audiences
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite
 
 ## Envoyer et suivre votre diffusion {#send-and-monitor-your-delivery}
 
-Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme décrit en détail dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme décrit en détail dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
 
 1. Exécutez le workflow de diffusion. Cette étape prépare l&#39;envoi de l&#39;email.
 1. Dans le tableau de bord de la diffusion, validez manuellement l&#39;envoi de la diffusion.
