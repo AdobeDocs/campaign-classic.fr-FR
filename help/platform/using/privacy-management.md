@@ -6,9 +6,9 @@ description: En savoir plus sur la gestion de la confidentialité
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c86b2d377c66e79cf4f10053f588796b95e6877e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 100%
 
