@@ -6,9 +6,9 @@ description: Accès aux campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
 
