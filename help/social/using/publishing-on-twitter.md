@@ -6,9 +6,9 @@ description: Publier sur Twitter
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Pour chaque abonné, Adobe Campaign récupère les informations suivantes :
 * **[!UICONTROL Fuseau horaire]** : fuseau horaire de l&#39;utilisateur
 * **[!UICONTROL Vérifié]** : ce champ indique si l&#39;utilisateur possède un compte Twitter vérifié
 
-### Limitations {#limitations-1}
+### Limites {#limitations-1}
 
 Les limitations suivantes sont des contraintes inhérentes à Twitter.
 
