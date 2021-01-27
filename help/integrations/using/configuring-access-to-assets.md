@@ -6,9 +6,9 @@ description: Configuration de l’accès à Assets
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5d5d4b87bae44ce0a93458f79179434a5bf315c3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
