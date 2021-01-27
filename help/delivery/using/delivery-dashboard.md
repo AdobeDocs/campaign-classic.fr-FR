@@ -6,9 +6,9 @@ description: En savoir plus sur l'utilisation du tableau de bord de la diffusion
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c82e30cdc1057be6357d48170b959fb89c79528
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
 
