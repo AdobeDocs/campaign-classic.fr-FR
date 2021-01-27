@@ -6,9 +6,9 @@ description: Cette page répertorie toutes les nouvelles fonctionnalités et mis
 audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 759346587e3ce98c408a0a17218341118dbceb82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 100%
 
@@ -285,7 +285,7 @@ Les guides [d’installation](../../installation/using/general-architecture.md),
 
 Le guide d’installation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. Les nouveaux systèmes pris en charge ont été ajoutés. Les systèmes obsolètes et non pris en charge ont été supprimés. [En savoir plus](../../installation/using/general-architecture.md)
 
-La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 Une bonne pratique concernant l’affinité IP a été ajoutée au guide d’installation. [En savoir plus](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -303,7 +303,7 @@ Le nouveau paramètre de configuration du rapport des URL a été documenté [ic
 
 La page **Matrice des fonctionnalités On-premise et hébergées de Campaign Classic** a été mise à jour en indiquant les nouveaux connecteurs FDA. [En savoir plus](../../installation/using/capability-matrix.md).
 
-La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
+La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 Le nouveau workflow **[!UICONTROL Nettoyage de la table Nmsaddress]** a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
@@ -353,7 +353,7 @@ Messagerie SMS sécurisée (TLS) - [En savoir plus](https://helpx.adobe.com/fr/c
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html)
+La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Une nouvelle section a été ajoutée pour expliquer comment résoudre les problèmes liés à un workflow qui reste dans l&#39;état &quot;Démarrer dès que possible&quot; au cours d&#39;une campagne. [En savoir plus](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -415,7 +415,7 @@ Les bonnes pratiques pour améliorer les performances des workflows et des diffu
 
 **Nouvelles fonctionnalités incluses dans la version 19.1**
 
-Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
+Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
@@ -423,7 +423,7 @@ Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
 Un nouveau FAQ relatif à l&#39;upgrade de build a été créé. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/build-upgrade-faq.html)
 
-Mise à jour de la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La [matrice de compatibilité 19.0](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix-19-0.html) a été archivée.
+Mise à jour de la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La [matrice de compatibilité 19.0](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix-19-0.html) a été archivée.
 
 La page « Fonctionnalités obsolètes et supprimées de Campaign Classic » a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
@@ -478,7 +478,7 @@ Ajout d&#39;informations sur le rapport de billing.
 Mise à jour de la documentation sur l&#39;intégration des audiences partagées.
 [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 La section Workflows techniques a été mise à jour. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
