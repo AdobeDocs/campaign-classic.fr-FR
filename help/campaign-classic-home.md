@@ -4,9 +4,9 @@ solution: Campaign Classic
 product: campaign
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 588e1e465eb5ba06f3a7310f70fe958ec2ec334f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
