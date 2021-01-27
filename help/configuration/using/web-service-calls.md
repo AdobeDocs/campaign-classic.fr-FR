@@ -6,9 +6,9 @@ description: Appels Web Service
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 100%
 
