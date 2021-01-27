@@ -6,9 +6,9 @@ description: '"Cas pratique : utiliser la gestion de contenu"'
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
    <td> Title<br /> </td> 
    <td> Attribut<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td> Title<br /> </td> 
+   <td> Titre<br /> </td> 
   </tr> 
   <tr> 
    <td> Sous-titre<br /> </td> 
