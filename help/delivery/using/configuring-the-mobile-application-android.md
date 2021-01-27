@@ -9,9 +9,9 @@ topic-tags: sending-push-notifications
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 100%
 
@@ -173,7 +173,7 @@ Vous trouverez ci-dessous les noms de payload FCM pour personnaliser davantage v
 
 | Type de message | Élément de message configurable (nom de payload FCM) | Options configurables (nom de payload FCM) |
 |:-:|:-:|:-:|
-| Message de données | N/A | dryRun |
+| Message de données | S/O | dryRun |
 | Message de notification | title, body, android_channel_id, icon, sound, tag, color, click_action <br> | dryRun |
 
 <br>
