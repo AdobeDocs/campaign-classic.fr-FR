@@ -5,9 +5,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 82%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 * **[Connexion via IMS/Adobe ID ? Mise à niveau vers les dernières versions](integrations/using/about-adobe-id.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter à Campaign après le** 21 mars 2021 **.
 
-* **[Campaign Security ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> BulletinMise à jour vers les dernières versions afin de sécuriser votre plateforme Campaign.
+* **[Sécurisez vos ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> instances CampaignUpdate sur les dernières versions afin de sécuriser votre plateforme Campaign.
 
 * **[Suppression des hard bounces incorrects](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Découvrez comment mettre à jour les hard bounces incorrects après une panne de Gmail
 
