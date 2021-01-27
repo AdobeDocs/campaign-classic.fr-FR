@@ -6,9 +6,9 @@ description: Exécution de la diffusion
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
