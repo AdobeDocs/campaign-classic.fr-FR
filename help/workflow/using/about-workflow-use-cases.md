@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
 * [Utilisation de la fonctionnalité de fusion de l’activité Déduplication](../../workflow/using/deduplication-merge.md)
-* [Configuration d’un processus d’importation périodique](../../workflow/using/recurring-import-workflow.md)
+* [Configuration d&#39;un workflow d&#39;import récurrent](../../workflow/using/recurring-import-workflow.md)
 
 ## Ciblage {#designing-queries}
 
