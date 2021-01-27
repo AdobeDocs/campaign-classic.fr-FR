@@ -6,9 +6,9 @@ description: Découvrez les procédures de résolution des problèmes de product
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0f2986f88f72c191262248029ec620fad538c218
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
