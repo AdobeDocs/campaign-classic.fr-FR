@@ -6,9 +6,9 @@ description: Créer une opération locale
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 100%
 
@@ -310,7 +310,7 @@ La commande peut également être validée à partir de la console, depuis la vu
 >
 >L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
-#### Créer une campagne       {#creating-a-campaign}
+#### Créer une campagne        {#creating-a-campaign}
 
 Lorsque la commande d&#39;une opération est validée, celle-ci peut être paramétrée et exécutée par l&#39;entité locale.
 
