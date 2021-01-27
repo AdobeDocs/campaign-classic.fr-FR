@@ -6,9 +6,9 @@ description: En savoir plus sur les statuts disponibles sur votre tableau de bor
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 100%
 
