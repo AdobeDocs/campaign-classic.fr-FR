@@ -12,9 +12,9 @@ discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 32a14eb99847dc04a582623204bc856c29fa4359
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
@@ -99,15 +99,15 @@ Pour configurer ces règles, procédez comme suit :
 
 Après avoir configuré ces règles, les données suivantes sont reçues à la fin de l&#39;activité **[!UICONTROL Déduplication]**.
 
-| Date de modification | Prénom | Nom | Email | Téléphone mobile | Phone |
+| Date de modification | Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
 -----|------------|-----------|-------|--------------|------|
-| 5/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 7/22/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 10/03/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
+| 22/07/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
+| 03/10/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 Le résultat est fusionné à partir des trois enregistrements selon les règles configurées précédemment. Après comparaison, il est conclu que le nom et le téléphone mobile les plus récents sont utilisés, ainsi que le numéro de téléphone original.
 
-| Prénom | Nom | Email | Téléphone mobile | Phone |
+| Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
 |------------|-----------|-------|--------------|------|
 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
