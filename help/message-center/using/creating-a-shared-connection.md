@@ -6,9 +6,9 @@ description: Créer une connexion partagée
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >
 >* Les extensions de schéma effectuées sur les schémas utilisés par les [workflows techniques de Message Center](../../message-center/using/technical-workflows.md) sur les instances de pilotage ou d&#39;exécution doivent être dupliquées sur les autres instances utilisées par le module des messages transactionnels Adobe Campaign.
 >* L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
+
 >
 
 
