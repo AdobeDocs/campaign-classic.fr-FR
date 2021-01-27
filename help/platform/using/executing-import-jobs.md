@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration des tâches d’importation
+title: Configuration de traitements d'import
 description: Découvrez comment configurer et exécuter des tâches d’importation dans le Campaign Classic.
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '3204'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
 
-# Configuration des tâches d&#39;importation {#executing-import-jobs}
+# Configuration de traitements d&#39;import {#executing-import-jobs}
 
 Adobe Campaign vous permet d’importer des données dans la base de données à partir d’un ou de plusieurs fichiers au format texte, CSV, TAB ou XML. Ces fichiers sont associés à une table (principale ou liée) et chaque champ du ou des fichiers source est associé à un champ de la base de données.
 
