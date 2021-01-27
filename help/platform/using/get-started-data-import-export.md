@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Prise en main de l’importation et de l’exportation des données
+title: Prise en main de l'import et de l'export de données
 description: En savoir plus sur l’importation et l’exportation de données en Campaign Classic.
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
 
-# Commencer avec l&#39;importation et l&#39;exportation de données {#get-started-data-import-export}
+# Prise en main de l&#39;import et de l&#39;export de données {#get-started-data-import-export}
 
 Adobe Campaign Classic fournit des fonctionnalités de data Management qui vous permettent d’importer et d’exporter des données. Ces opérations peuvent être effectuées à l’aide de workflows ou d’importations et d’exportations génériques.
 
@@ -59,7 +59,7 @@ Voir à ce propos les sections suivantes :
 * [Décompresser ou déchiffrer un fichier](../../platform/using/unzip-decrypt.md)
 * [Compresser ou crypter un fichier](../../platform/using/zip-encrypt.md)
 
-## Meilleures pratiques et dépannage {#best-practices-troubleshooting}
+## Bonnes pratiques et résolution des problèmes {#best-practices-troubleshooting}
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
