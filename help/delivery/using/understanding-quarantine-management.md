@@ -6,9 +6,9 @@ description: Comprendre la gestion des quarantaines
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2893'
 ht-degree: 100%
 
@@ -45,15 +45,15 @@ En revanche, en cas d&#39;insertion en **liste bloquée**, le profil ne sera plu
 >
 >Lorsqu&#39;un utilisateur répond à un SMS avec un mot-clé tel que &#39;&#39;STOP&#39;&#39; pour se désabonner des diffusions SMS, son profil n&#39;est pas mis en liste bloquée comme c&#39;est le cas pour la désinscription des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
-## Identifier les adresses en quarantaine        {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine         {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion        {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion         {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme        {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme         {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -70,7 +70,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse email est de trois ans et que la table des destinataires augmente de 50% tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
 >
 >Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
->Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
 ### Identifier les adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -113,12 +113,11 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
->
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
+Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
 
 Vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l&#39;assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
-## Conditions de mise en quarantaine d&#39;une adresse        {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d&#39;une adresse         {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de la diffusion et de la raison attribuée lors de la qualification des messages d&#39;erreur (voir les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
@@ -153,8 +152,7 @@ Les éléments mis en quarantaine sont les jetons d&#39;appareil.
 **Pour iOS - connecteur binaire**
 
 >[!NOTE]
->
->À compter de la version Campaign 20.3, le connecteur binaire hérité d&#39;iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
+À compter de la version Campaign 20.3, le connecteur binaire hérité d&#39;iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
 
 Pour chaque notification, Adobe Campaign reçoit les erreurs synchrones et asynchrones du serveur APNS. Adobe Campaign génère des erreurs soft pour les erreurs synchrones suivantes :
 
@@ -271,11 +269,10 @@ Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heu
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
 >[!NOTE]
->
->Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
->* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
->* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
->* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
+* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
+* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
 
 Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
 
@@ -287,7 +284,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>Status</strong><br /> </td> 
+   <td> <strong>Statut</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
@@ -432,7 +429,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : le client n'est pas autorisé à récupérer des jetons d'accès à l'aide de cette méthode, ou le client n'est pas autorisé pour l'un des paramètres demandés.<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> unauthorized_client </td> 
+   <td> non autorisé_client </td> 
    <td> Ignoré</td>
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -456,7 +453,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : JWT non valide<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> invalid_grant </td> 
+   <td> Invalid_grant </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -464,7 +461,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : signature JWT non valide<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> invalid_grant </td> 
+   <td> Invalid_grant </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -472,7 +469,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : périmètre OAuth non valide ou audience de jeton d'ID non valide fourni<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> unauthorized_client</td> 
+   <td> non autorisé_client</td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -495,14 +492,13 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
 Le mécanisme de quarantaine des messages SMS est globalement identique au processus général. Voir [A propos des quarantaines](#about-quarantines). Les spécificités des SMS sont énumérées ci-dessous.
 
 >[!NOTE]
->
->Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
+Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>Status</strong><br /> </td> 
+   <td> <strong>Statut</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
@@ -554,9 +550,8 @@ Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état
 Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
 
 >[!NOTE]
->
->Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
+Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
 
