@@ -8,9 +8,9 @@ user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des 
 solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2290'
 ht-degree: 100%
 
@@ -444,7 +444,7 @@ ht-degree: 100%
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle        {#monitoring}
+      + Contrôle         {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Workflow de supervision](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
