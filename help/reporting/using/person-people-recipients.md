@@ -6,9 +6,9 @@ description: Rapports sur les diffusions
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Personnes : comme le navigateur de ce destinataire accepte les cookies, nous ob
 | John | - | - | - |
 | Marie | - | - | +1 |
 | Florian | +1 | +1 | +1 |
-| Total intermédiaire | 1 | 1 | 2 |
+| Total intermédiaire | 3 | 1 | 2 |
 
 Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par la personne à qui Florian a transféré l&#39;email :
 
@@ -120,9 +120,9 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
-| Florian | +1 | +1 | +1 |
+| Florien | +1 | +1 | +1 |
 | Personne inconnue | - | +1 | - |
-| Total intermédiaire | 1 | 2 | 2 |
+| Total intermédiaire | 3 | 2 | 2 |
 
 ## Etape 4 : Henry {#step-4--henry}
 
@@ -144,7 +144,7 @@ L&#39;ouverture et les 4 clics effectués par Henry apparaissent dans les logs s
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
-| Florian | +1 | +1 | +1 |
+| Florien | +1 | +1 | +1 |
 | Personne inconnue | - | +1 | - |
 | Henry | +1 | +4 | +1 |
 | Total intermédiaire | 2 | 6 | 3 |
