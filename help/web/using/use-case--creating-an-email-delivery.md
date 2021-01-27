@@ -6,9 +6,9 @@ description: 'Cas pratique : création d’une diffusion email'
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 46aa896929c960abeb501642a5ffbbb56de4802e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
 
