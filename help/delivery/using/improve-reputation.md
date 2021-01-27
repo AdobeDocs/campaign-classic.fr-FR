@@ -6,9 +6,9 @@ description: En savoir plus sur l'amélioration de votre réputation lors de l'u
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 100%
 
