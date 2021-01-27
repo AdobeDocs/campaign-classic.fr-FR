@@ -6,9 +6,9 @@ description: Perte de mot de passe
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
