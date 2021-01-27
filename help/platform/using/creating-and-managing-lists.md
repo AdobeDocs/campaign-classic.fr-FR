@@ -6,9 +6,9 @@ description: Découvrez comment créer et gérer des listes
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -134,12 +134,12 @@ Une liste est un ensemble statique de destinataires qui peut être ciblé dans d
 
 Découvrez comment créer une audience en configurant une liste de destinataires à partir de l&#39;Explorateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 ### Comment créer une liste de destinataires avec un workflow   {#create-list-in-a-wf-video}
 
 Découvrez comment créer un workflow pour cibler des destinataires, et comment le rendre récurrent avant d&#39;utiliser la liste dans une cible d&#39;email.
 
->[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
