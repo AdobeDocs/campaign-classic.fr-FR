@@ -42,7 +42,7 @@ Découvrez la procédure pas à pas pour connecter Campaign et Microsoft Dynamic
 
 En général, pour utiliser des connecteurs CRM en Adobe Campaign, procédez comme suit :
 
-1. Créez un compte externe à partir du nœud **[!UICONTROL Administration > Plate-forme > Comptes externes]** de l&#39;arborescence d&#39;Adobe Campaign.
+1. Créez un compte externe à partir du nœud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l&#39;arborescence d&#39;Adobe Campaign.
 1. Sélectionnez le système de gestion de la relation client auquel vous devez connecter Campaign.
 1. Entrez les paramètres pour activer la connexion.
 1. Exécutez l’assistant de configuration pour générer la table CRM disponible : l&#39;assistant de configuration vous permet de collecter des tables et de créer le schéma correspondant.
@@ -75,7 +75,7 @@ En général, pour utiliser des connecteurs CRM en Adobe Campaign, procédez com
 
    Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour lancer l&#39;import de la liste.
 
-1. Vérifiez les valeurs importées sous le menu **[!UICONTROL Administration > Plate-forme > Enumérations]**.
+1. Vérifiez les valeurs importées sous le menu **[!UICONTROL Administration > Plateforme > Enumérations]**.
 
    ![](assets/crm_connectors_sfdc_exe.png)
 
