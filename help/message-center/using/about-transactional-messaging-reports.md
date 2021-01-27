@@ -6,9 +6,9 @@ description: A propos des rapports des messages transactionnels
 audience: message-center
 content-type: reference
 topic-tags: reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 100%
 
