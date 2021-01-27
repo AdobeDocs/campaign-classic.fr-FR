@@ -6,9 +6,9 @@ description: Découvrez comment trouver la version actuelle de la servlet web To
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 49e49d5e35d14a31236cc4f78188cdf77353fbbf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 100%
 
