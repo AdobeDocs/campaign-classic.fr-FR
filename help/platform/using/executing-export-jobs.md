@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration des tâches d’exportation
+title: Configuration de traitements d'export
 description: Découvrez comment configurer et exécuter des tâches d’exportation dans le Campaign Classic.
 audience: platform
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 87%
 ---
 
 
-# Configuration des tâches d&#39;exportation {#executing-export-jobs}
+# Configuration de traitements d&#39;export {#executing-export-jobs}
 
 Les tâches d’exportation vous permettent d’accéder à la base de données et d’en extraire les données : contacts, clients, listes, segments, etc.
 
