@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Surveillance de l’exécution des tâches
+title: Surveillance de l'exécution des traitements
 description: Découvrez comment surveiller l’exécution des tâches d’importation et d’exportation.
 audience: platform
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 60%
+ht-degree: 63%
 
 ---
 
 
-# Surveillance de l&#39;exécution des tâches {#monitoring-job-execution}
+# Surveillance de l&#39;exécution des traitements {#monitoring-job-execution}
 
 Vous pouvez suivre l’exécution de vos tâches d’importation et d’exportation directement à partir de la liste des tâches d’importation/exportation.
 
