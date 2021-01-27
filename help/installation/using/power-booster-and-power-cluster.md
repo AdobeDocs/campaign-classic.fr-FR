@@ -6,9 +6,9 @@ description: Power Booster et Power Cluster
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -46,8 +46,8 @@ Les options Power Booster et Power Cluster peuvent être exploitées par les app
   <tr> 
    <td> </td> 
    <td> <strong>Architecture standard</strong><br /> </td> 
-   <td> <strong>Power Booster</strong><br /> </td> 
-   <td> <strong>Power Cluster</strong><br /> </td> 
+   <td> <strong>Booster d'alimentation</strong><br /> </td> 
+   <td> <strong>Cluster d'alimentation</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> Campagnes e-mail et interactions sortantes<br /> </td> 
