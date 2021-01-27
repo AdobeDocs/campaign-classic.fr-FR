@@ -6,9 +6,9 @@ description: À propos de la table des destinataires personnalisée
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
