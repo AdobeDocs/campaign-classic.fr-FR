@@ -94,7 +94,7 @@ La date de la dernière synchronisation est stockée dans l&#39;option indiquée
 >
 >Cette note s&#39;applique uniquement à l&#39;activité **[!UICONTROL Connecteur CRM]** générique. Pour les autres activités CRM, le processus est automatique.
 >
->Cette option doit être créée et renseignée manuellement dans **[!UICONTROL Administration]** > **[!UICONTROL Plate-forme]** > **[!UICONTROL Options]**. Il doit s&#39;agir d&#39;une option texte. De plus, sa valeur doit correspondre au format suivant : **aaaa/MM/jj hh:mm:ss**.
+>Cette option doit être créée et renseignée manuellement dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s&#39;agir d&#39;une option texte. De plus, sa valeur doit correspondre au format suivant : **aaaa/MM/jj hh:mm:ss**.
 > 
 >Pour tout autre import, vous devez mettre à jour manuellement cette option.
 
