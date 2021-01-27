@@ -6,9 +6,9 @@ description: Gestion des accès
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3179'
 ht-degree: 100%
 
@@ -203,7 +203,7 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).
 
 ## Les groupes d&#39;opérateurs {#operator-groups}
 
