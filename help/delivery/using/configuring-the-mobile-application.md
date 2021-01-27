@@ -6,9 +6,9 @@ description: Découvrez comment paramétrer votre application mobile pour iOS
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a1bd8dc2b5946b74cb880eff934e3b35cadfb2d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 100%
 
