@@ -6,9 +6,9 @@ description: Champs de personnalisation
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
 
@@ -122,6 +122,6 @@ Si vous définissez cette option sur 0, il n’y aura aucune limite de temps pou
 
 Découvrez comment ajouter un champ de personnalisation à la ligne d’objet et au contenu d’une diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
