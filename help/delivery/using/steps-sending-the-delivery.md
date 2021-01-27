@@ -6,9 +6,9 @@ description: Configuration et envoi de la diffusion
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 100%
 
@@ -200,4 +200,4 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, le paramètre **[!UICONTROL Durée de diffusion]** des diffusions Campaign ne sera utilisé que s’il est défini sur **3,5** jours ou moins. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 >
->Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
+>Tous les impacts sont détaillés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
