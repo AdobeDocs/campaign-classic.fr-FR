@@ -6,9 +6,9 @@ description: Les validations permettent à des opérateurs de prendre des décis
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae342f41b9b74159607b313e1c29549b17488db5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 100%
 
