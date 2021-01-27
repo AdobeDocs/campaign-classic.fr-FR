@@ -6,9 +6,9 @@ description: Seuil de connexions
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
