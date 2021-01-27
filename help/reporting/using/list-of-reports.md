@@ -6,9 +6,9 @@ description: Liste des rapports
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 100%
 
@@ -38,22 +38,22 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   <tr> 
    <td> Débit de diffusion (throughput)<br /> </td> 
    <td> Graphes de débit de diffusion, en messages/heure et Bits/s.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Echecs et retours (errors)<br /> </td> 
    <td> Ventilation des échecs et retours, par cause et domaine de messagerie.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Indicateurs de tracking (deliveryFeedback)<br /> </td> 
    <td> Synthèse des indicateurs-clés pour le tracking du comportement des destinataires.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Indicateurs de tracking (mobileAppDeliveryFeedback)<br /> </td> 
    <td> Indicateurs de tracking d'une diffusion sur application mobile.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Navigateurs (browserStatistics)<br /> </td> 
@@ -63,42 +63,42 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   <tr> 
    <td> Partage vers les réseaux sociaux (deliveryForward)<br /> </td> 
    <td> Statistiques des partages et d'ouvertures.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Position des clics (hoturls)<br /> </td> 
    <td> Affiche le message et les taux de clics en surimpression.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Rapport des hypothèses (deliveryHypothesis)<br /> </td> 
    <td> Affiche la synthèse des mesures sur les hypothèses de diffusion.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Statistiques de diffusion (statisticsPerDelivery)<br /> </td> 
    <td> Statistiques (messages traités, messages délivrés, erreurs hard, erreurs soft, ouvertures, clics, désinscriptions) par domaine de l'email.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Statistiques des activités de partage (forwardActivities)<br /> </td> 
    <td> Analyse des partages, ouvertures et abonnements par périodes de temps.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Statistiques de tracking (trackingStatistics)<br /> </td> 
    <td> Statistiques sur les taux d'ouvertures, clics et transactions dans le temps.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Synthèse des diffusions (deliverySending)<br /> </td> 
    <td> Synthèse des indicateurs de la diffusion : cible, exclusions et envois.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Synthèse des diffusions (deliveryStatistics)<br /> </td> 
    <td> Tableau de synthèse des diffusions sélectionnées : cibles, exclusions et envois.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> Systèmes d'exploitation (osStatistics)<br /> </td> 
@@ -108,12 +108,12 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   <tr> 
    <td> Taux de réactivité (deliveryFeedbackSocial)<br /> </td> 
    <td> Taux de réactivité d'une diffusion et répartition des réactions.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
   <tr> 
    <td> URL et flux de clics (topUrlDelivery)<br /> </td> 
    <td> URL les plus réactives et flux de clics associés.<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:diffusion<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -262,7 +262,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
   <tr> 
    <td> Exploration des lignes de coût (budgetExplorerProgram)<br /> </td> 
    <td> Analyse descriptive d'exploration des lignes de coûts.<br /> </td> 
-   <td> nms:program<br /> </td> 
+   <td> nms:programme<br /> </td> 
   </tr> 
   <tr> 
    <td> Synthèse du/des budget(s) (budget)<br /> </td> 
