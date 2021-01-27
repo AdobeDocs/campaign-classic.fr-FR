@@ -6,9 +6,9 @@ description: Configuration du serveur Campaign
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d0ae3d597f9ee30515437d94901cb034d0ca3d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3633'
 ht-degree: 100%
 
