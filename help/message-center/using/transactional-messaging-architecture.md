@@ -6,9 +6,9 @@ description: Cette section décrit l’architecture des messages transactionnels
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d30a70f8fbfb7a916638697c0f7a5060c2458ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 100%
 
