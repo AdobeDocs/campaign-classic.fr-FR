@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 296cf21201134ec9812df00b03f2d72e3063b19a
+source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 96%
@@ -139,8 +139,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>SQL Server </td>
 <td>
-<p>2018</p>
-<p>2018 R2</p>
+<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
@@ -222,6 +221,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </tr>
 <tr><td>SQL Server </td>
 <td>
+<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
