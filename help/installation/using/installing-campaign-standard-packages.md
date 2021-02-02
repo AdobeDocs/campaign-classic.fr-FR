@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,27 +25,27 @@ Les packages standard contiennent un ensemble de fonctionnalités qui peuvent ê
 >
 >Vous ne pouvez installer que les packages correspondant aux options mentionnées dans votre contrat de licence.
 >
->L’installation d’un nouveau package peut avoir un impact sur toute votre plateforme : il doit être testé et validé avant le déploiement final.
+>L&#39;installation d&#39;un nouveau package peut avoir un impact sur toute votre plateforme : il doit être testé et validé avant le déploiement final.
 >
 >Une fois un package installé, vous ne pouvez pas le désinstaller.
 
 Pour installer un package natif :
 
-1. Accédez à l’assistant d’import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
+1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 1. Sélectionnez **[!UICONTROL Installer un package standard]**.
 1. Dans la liste de packages, vérifiez les packages que vous souhaitez installer.
    >[!NOTE]
    >
-   >Lorsqu’un package est grisé, cela signifie qu’il est déjà installé ou qu’il n’est pas compatible avec votre instance. La compatibilité est détaillée dans le tableau ci-dessous.
-1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l’installation du package.
+   >Lorsqu&#39;un package est grisé, cela signifie qu&#39;il est déjà installé ou qu&#39;il n&#39;est pas compatible avec votre instance. La compatibilité est détaillée dans le tableau ci-dessous.
+1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
    Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
-1. **[!UICONTROL Fermez]** la fenêtre d’installation.
+1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
 
 Les packages sont à présent installés.
 
-### Liste des packages prêts à l’emploi {#list-of-standard-packages}
+### Liste des packages prêts à l&#39;emploi {#list-of-standard-packages}
 
 Le tableau ci-après répertorie tous les packages standard de Campaign.
 
@@ -54,13 +54,13 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   <tr> 
    <th> Package </th> 
    <th> Description </th> 
-   <th> Type d’instance </th>
+   <th> Type d'instance </th>
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Diffusion<br /> </td> 
-   <td> Surveille les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. <a href="../../delivery/using/about-delivery-monitoring.md">En savoir plus</a><br /> </td> 
+   <td> Surveille les diffusions et les éventuels problèmes rencontrés lors de l'envoi des messages. <a href="../../delivery/using/about-delivery-monitoring.md">En savoir plus</a><br /> </td> 
    <td> Tous</td> 
   </tr> 
   <tr> 
@@ -74,18 +74,18 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
    <td> Marketing</td> 
   </tr> 
   <tr> 
-   <td> Moteur d’offres (Interaction)<br /> </td> 
-   <td> Répond en temps réel lors d’une interaction avec un contact donné (un client ou une cible) en leur faisant une ou plusieurs offres adaptées.  Facultatif. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">En savoir plus</a> <br /> </td> 
+   <td> Moteur d'offres (Interaction)<br /> </td> 
+   <td> Répond en temps réel lors d'une interaction avec un contact donné (un client ou une cible) en leur faisant une ou plusieurs offres adaptées.  Facultatif. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
-   <td> Contrôle du moteur d’offres avec l’instance d’exécution. Facultatif.<br /> </td> 
-   <td> Package à installer sur l’instance de pilotage pour le moteur d’offres (interaction). <a href="../../interaction/using/distributed-architectures.md#packages-configuration">En savoir plus</a> </td> 
+   <td> Contrôle du moteur d'offres avec l'instance d'exécution. Facultatif.<br /> </td> 
+   <td> Package à installer sur l'instance de pilotage pour le moteur d'offres (interaction). <a href="../../interaction/using/distributed-architectures.md#packages-configuration">En savoir plus</a> </td> 
    <td> Marketing<br /> </td>  
   </tr> 
   <tr> 
-   <td> Moteur d’offre pour les instances d’exécution. Facultatif.<br /> </td> 
-   <td> Package à installer sur les instances d’exécution pour le moteur d’offres (interaction). <a href="../../interaction/using/distributed-architectures.md">En savoir plus</a> </td> 
+   <td> Moteur d'offre pour les instances d'exécution. Facultatif.<br /> </td> 
+   <td> Package à installer sur les instances d'exécution pour le moteur d'offres (interaction). <a href="../../interaction/using/distributed-architectures.md">En savoir plus</a> </td> 
    <td> Mid, Exécution <br /> </td>  
   </tr> 
   <!--tr> 
@@ -101,7 +101,7 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Contrôle des messages transactionnels (Message Center - Pilotage)<br /> </td> 
-   <td> Gère les messages de déclenchement générés par des événements déclenchés à partir des systèmes d’information. Facultatif. <a href="../../message-center/using/about-transactional-messaging.md">En savoir plus </a> <br /> </td> 
+   <td> Gère les messages de déclenchement générés par des événements déclenchés à partir des systèmes d'information. Facultatif. <a href="../../message-center/using/about-transactional-messaging.md">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -111,22 +111,22 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Canal LINE<br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="../../delivery/using/line-channel.md">En savoir plus</a> <br /> </td> 
+   <td> Envoie les diffusions à l'aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="../../delivery/using/line-channel.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
    <td> Canal courrier<br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal courrier avec Adobe Campaign. Facultatif. <a href="../../delivery/using/about-direct-mail-channel.md">En savoir plus</a><br /> </td> 
+   <td> Envoie les diffusions à l'aide du canal courrier avec Adobe Campaign. Facultatif. <a href="../../delivery/using/about-direct-mail-channel.md">En savoir plus</a><br /> </td> 
    <td> Tous<br /> </td>
   </tr> 
   <tr> 
    <td> Canal mobile (SMS) <br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="../../delivery/using/sms-channel.md">En savoir plus</a> <br /> </td> 
+   <td> Envoie les diffusions à l'aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="../../delivery/using/sms-channel.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
    <tr> 
-   <td> Canal téléphonique<br /> </td> 
-   <td> Envoie des diffusions à l'aide du canal téléphonique avec Adobe Campaign. Utilisé pour le centre d’appels. Facultatif. <a href="../../delivery/using/communication-channels.md">En savoir plus</a> <br /> </td> 
+   <td> Canal Téléphone<br /> </td> 
+   <td> Envoie les diffusions à l'aide du canal téléphonique avec Adobe Campaign. Utilisé pour le centre d'appel. Facultatif. <a href="../../delivery/using/communication-channels.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
@@ -141,27 +141,27 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Questionnaires en ligne (Survey Manager)<br /> </td> 
-   <td> Crée et gère des questionnaires en ligne pour ajouter ou modifier des informations de profil, s’abonner, se désabonner ou générer un formulaire d’inscription à un concours. Facultatif. <a href="../../web/using/about-surveys.md">En savoir plus </a> <br /> </td> 
+   <td> Crée et gère des formulaires en ligne pour ajouter ou modifier des informations de profil, s'abonner, se désabonner ou générer un formulaire d'inscription à un concours. Facultatif. <a href="../../web/using/about-surveys.md">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Marketing Analytics<br /> </td> 
-   <td> Permet d’analyser et de mesurer les données, de calculer les statistiques, de simplifier et d’optimiser la création et le calcul de rapports. Vous pouvez également créer des rapports et des populations cibles. Facultatif. <a href="../../reporting/using/about-cubes.md">En savoir plus</a><br /> </td> 
+   <td> Permet d'analyser et de mesurer les données, de calculer les statistiques, de simplifier et d'optimiser la création et le calcul de rapports. Vous pouvez également créer des rapports et des populations cibles. Facultatif. <a href="../../reporting/using/about-cubes.md">En savoir plus</a><br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Gestion de la réaction<br /> </td> 
-   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d’offres pour tous les canaux de communication.  Facultatif. <a href="../../campaign/using/about-response-manager.md">En savoir plus </a> <br /> </td> 
+   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../campaign/using/about-response-manager.md">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Accès aux données externes (Federated Data Access)<br /> </td> 
-   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="../../workflow/using/accessing-an-external-database--fda-.md">En savoir plus</a> <br /> </td> 
+   <td> Propose l'option Federated Data Access (FDA) afin d'exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d'Adobe Campaign.  Facultatif. <a href="../../workflow/using/accessing-an-external-database--fda-.md">En savoir plus</a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation des campagnes<br /> </td> 
-   <td> Contrôle, filtre et surveille l’envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l’entreprise. Facultatif. <a href="../../campaign/using/about-campaign-typologies.md">En savoir plus </a> <br /> </td> 
+   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="../../campaign/using/about-campaign-typologies.md">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -191,22 +191,22 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Connecteurs Web Analytics<br /> </td> 
-   <td> Permet à Adobe Campaign et Adobe Analytics d’interagir par le biais du package des connecteurs Web Analytics. Non compatible avec la messagerie transactionnelle (package Message Center). <a href="../../platform/using/adobe-analytics-data-connector.md">En savoir plus</a><br /> </td> 
+   <td> Permet à Adobe Campaign et Adobe Analytics d'interagir par le biais du package des connecteurs Web Analytics. Non compatible avec la messagerie transactionnelle (package Message Center). <a href="../../platform/using/adobe-analytics-data-connector.md">En savoir plus</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
    <td> Intégration AEM<br /> </td> 
-   <td> Permet de gérer le contenu de vos diffusions email ainsi que vos formulaires directement dans Adobe Experience Manager afin de bénéficier des fonctionnalités d’édition de contenu d’AEM et des capacités de diffusion d’Adobe Campaign. <a href="../../integrations/using/about-adobe-experience-manager.md">En savoir plus</a> <br /> </td> 
+   <td> Permet de gérer le contenu de vos diffusions email ainsi que vos formulaires directement dans Adobe Experience Manager afin de bénéficier des fonctionnalités d'édition de contenu d'AEM et des capacités de diffusion d'Adobe Campaign. <a href="../../integrations/using/about-adobe-experience-manager.md">En savoir plus</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
    <td> Intégration des Audiences partagées Adobe Experience Cloud<br /> </td> 
-   <td> Permet d’échanger et de partager des audiences/segments avec les solutions et services principaux d’Adobe Experience Cloud. Nécessite IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">En savoir plus</a> <br /> </td> 
+   <td> Permet d'échanger et de partager des audiences/segments avec les solutions et services principaux d'Adobe Experience Cloud. Nécessite IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">En savoir plus</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégration avec Adobe Experience Cloud<br /> </td> 
-   <td> Permet d’importer et d’exporter des audiences/segments à partir de différentes solutions Adobe Experience Cloud dans Adobe Campaign. Facultatif. <a href="../../integrations/using/configuring-ims.md#installing-the-package">En savoir plus</a> </td> 
+   <td> Permet d'importer et d'exporter des audiences/segments à partir de différentes solutions Adobe Experience Cloud dans Adobe Campaign. Facultatif. <a href="../../integrations/using/configuring-ims.md#installing-the-package">En savoir plus</a> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -216,22 +216,22 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
   </tr> 
   <tr> 
    <td> Emission vers Mid-sourcing <br /> </td> 
-   <td> Présente les étapes d’installation et de configuration d’un serveur de mid-sourcing ainsi que les étapes de déploiement d’une instance permettant à des tiers d’envoyer des messages en mode mid-sourcing. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus</a> <br /> </td> 
+   <td> Présente les étapes d'installation et de configuration d'un serveur de midsourcing ainsi que les étapes de déploiement d'une instance permettant à des tiers d'envoyer des messages en mode midsourcing. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus</a> <br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
    <td> Plateforme de Mid-sourcing<br /> </td> 
-   <td> Cette configuration présente une solution intermédiaire optimale entre le mode hébergé (ASP) et l’internalisation. Toute la partie concernant l’envoi des messages est déportée sur un serveur de "mid-sourcing", hébergé chez Adobe Campaign. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus</a> <br /> </td> 
+   <td> Cette configuration présente une solution intermédiaire optimale entre le mode hébergé (ASP) et l'internalisation. Toute la partie concernant l'envoi des messages est déportée sur un serveur de "midsourcing", hébergé chez Adobe Campaign. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus</a> <br /> </td> 
    <td> Mid-sourcing </td> 
   </tr> 
   <tr> 
    <td> Assistance AMP<br /> </td> 
-   <td> Permet d’utiliser le nouveau format interactif AMP pour email et d’envoyer des emails dynamiques. Facultatif. <a href="../../delivery/using/defining-interactive-content.md">En savoir plus</a> <br /> </td> 
+   <td> Permet d'utiliser le nouveau format interactif AMP pour email et d'envoyer des emails dynamiques. Facultatif. <a href="../../delivery/using/defining-interactive-content.md">En savoir plus</a> <br /> </td> 
    <td> Tous </td> 
   </tr> 
   <tr> 
    <td> ACS Connector<br /> </td> 
-   <td> Relie Adobe Campaign v7 et Adobe Campaign Standard. Il s’agit d’une fonctionnalité intégrée de Campaign v7 qui reproduit automatiquement les données vers Campaign Standard, associant le meilleur des deux applications. Facultatif. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">En savoir plus</a> <br /> </td> 
+   <td> Relie Adobe Campaign v7 et Adobe Campaign Standard. Il s'agit d'une fonctionnalité intégrée de Campaign v7 qui reproduit automatiquement les données vers Campaign Standard, associant le meilleur des deux applications. Facultatif. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">En savoir plus</a> <br /> </td> 
    <td> Marketing </td> 
   </tr> 
  </tbody> 
@@ -239,16 +239,16 @@ Le tableau ci-après répertorie tous les packages standard de Campaign.
 
 ### Package Message Center {#message-center-package}
 
-Vous devez installer des canaux de diffusion (email, canal mobile, canal d’application mobile, etc.) avant d’installer la messagerie transactionnelle (package Message Center). Si vous avez démarré un projet Message Center réservé aux emails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
+Vous devez installer des canaux de diffusion (email, canal mobile, canal d&#39;application mobile, etc.) avant d&#39;installer la messagerie transactionnelle (package Message Center). Si vous avez démarré un projet Message Center réservé aux emails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
 
-1. Installez le nouveau canal, par exemple le **Canal mobile**, à l’aide de l’assistant d’import de package (**[!UICONTROL Outils > Avancé > Import de package > Package Adobe Campaign]**).
+1. Installez le nouveau canal, par exemple le **Canal mobile**, à l&#39;aide de l&#39;assistant d&#39;import de package (**[!UICONTROL Outils > Avancé > Import de package > Package Adobe Campaign]**).
 1. Importez le fichier (**[!UICONTROL Outils > Avancé > Importer un package > Fichier]**), puis sélectionnez :
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. Dans le **[!UICONTROL contenu des données XML à importer]**, conservez uniquement le modèle de diffusion Message Center correspondant au canal associé. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l’élément **Entités** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le **Canal d’applications mobiles**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
+1. Dans le **[!UICONTROL contenu des données XML à importer]**, conservez uniquement le modèle de diffusion Message Center correspondant au canal associé. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **Entités** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le **Canal d&#39;applications mobiles**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
