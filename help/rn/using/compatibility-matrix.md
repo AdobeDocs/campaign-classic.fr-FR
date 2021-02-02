@@ -25,7 +25,7 @@ Si vous êtes un utilisateur Gold Standard, reportez-vous à la [matrice de comp
 
 Sauf mention contraire, toutes les versions mineures sont prises en charge.
 
-Dans son [dernier build](../../rn/using/latest-release.md), Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n’est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
+Dans son [dernier build](../../rn/using/latest-release.md), Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n&#39;est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
 
 Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../rn/using/deprecated-features.md).
 
@@ -57,7 +57,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <td>
 <p>8.x (64 bits)</p>
 <p>7.x (64 bits)</p>
-<p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d’écrire des règles SELinux personnalisées pour vérifier qu’un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
+<p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d'écrire des règles SELinux personnalisées pour vérifier qu'un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
 </td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Libre Office</td>
 <td>
-<p>6 (et versions antérieures en cas d’incorporation dans votre système)</p>
+<p>6 (et versions antérieures en cas d'incorporation dans votre système)</p>
 </td>
 </tr>
 <tr>
@@ -157,7 +157,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p>Avertissement : Microsoft SQL Server n’est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">En savoir plus</a>.</p>
+<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">En savoir plus</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -275,7 +275,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </tbody>
 </table>
 
-## Systèmes d’exploitation de la console cliente{#ClientConsoleoperatingsystems}
+## Systèmes d&#39;exploitation de la console cliente{#ClientConsoleoperatingsystems}
 
 <table>
 <tbody>
@@ -325,7 +325,7 @@ Internet Explorer 11 est pris en charge.
 
 ## Articles connexes{#Morelikethis}
 
-* [Notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md)
-* [Guide d’installation](../../installation/using/general-architecture.md)
+* [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md)
+* [Guide d&#39;installation](../../installation/using/general-architecture.md)
 * [Fonctionnalités et systèmes obsolètes](../../rn/using/deprecated-features.md)
-* [Procédure d’upgrade de build](../../production/using/build-upgrade.md)
+* [Procédure d&#39;upgrade de build](../../production/using/build-upgrade.md)
