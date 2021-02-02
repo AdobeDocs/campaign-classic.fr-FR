@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Synchronisation des données des connecteurs CRM
-description: Gérer les données entre Campaign et votre gestion de la relation client
+description: Gérer les données entre Campaign et votre gestion de la relation client (CRM)
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -10,35 +10,35 @@ translation-type: tm+mt
 source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
 workflow-type: tm+mt
 source-wordcount: '1618'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Synchronisation des données entre Campaign et CRM {#data-synchronization}
+# Synchronisation des données entre Campaign et la gestion de la relation client (CRM) {#data-synchronization}
 
-La synchronisation des données entre Adobe Campaign et la gestion de la relation client est effectuée via une activité de flux de travail dédiée : [Connecteur CRM](../../workflow/using/crm-connector.md).
+La synchronisation des données entre Adobe Campaign et la gestion de la relation client (CRM) est réalisée à travers une activité de workflow dédiée : [connecteur CRM](../../workflow/using/crm-connector.md).
 
-Par exemple, pour importer les données Microsoft Dynamics dans Adobe Campaign, créez le type de processus suivant :
+Par exemple, pour importer les données Microsoft Dynamics dans Adobe Campaign, créez un workflow du type suivant :
 
 ![](assets/crm_connectors_msdynamics_07.png)
 
-Ce workflow importe les contacts depuis Microsoft Dynamics, les sychronise avec les données Adobe Campaign existantes, déduplique les contacts et met à jour la base de données Adobe Campaign.
+Ce workflow importe les contacts depuis Microsoft Dynamics, les synchronise avec les données Adobe Campaign existantes, déduplique les contacts et met à jour la base de données Adobe Campaign.
 
-L&#39;activité **[!UICONTROL CRM Connector]** doit être configurée pour synchroniser les données.
+L&#39;activité **[!UICONTROL Connecteur CRM]** doit être paramétrée pour synchroniser les données.
 
 ![](assets/crm_connectors_msdynamics_08.png)
 
-Avec cette activité, vous pouvez :
+Avec cette activité, vous pouvez effectuer les actions suivantes :
 
-* Importer à partir de la gestion de la relation client - [En savoir plus](#importing-from-the-crm)
-* Exporter vers la gestion de la relation client - [En savoir plus](#exporting-to-the-crm)
-* Importer des objets supprimés dans la gestion de la relation client - [En savoir plus](#importing-objects-deleted-in-the-crm)
-* Supprimer des objets dans la gestion de la relation client - [En savoir plus](#deleting-objects-in-the-crm)
+* Import depuis le CRM - [En savoir plus](#importing-from-the-crm)
+* Export vers le CRM - [En savoir plus](#exporting-to-the-crm)
+* Import des objets supprimés dans le CRM - [En savoir plus](#importing-objects-deleted-in-the-crm)
+* Suppression d&#39;objets dans le CRM - [En savoir plus](#deleting-objects-in-the-crm)
 
 ![](assets/crm_task_select_op.png)
 
-Sélectionnez le compte externe correspondant à la gestion de la relation client avec lequel vous souhaitez configurer la synchronisation, puis sélectionnez l’objet à synchroniser : comptes, opportunités, pistes, contacts, etc.
+Sélectionnez le compte externe correspondant au CRM avec lequel vous souhaitez paramétrer une synchronisation puis choisissez l&#39;objet à synchroniser : comptes, opportunités, leads, contacts, etc.
 
 ![](assets/crm_task_select_obj.png)
 
@@ -126,7 +126,7 @@ Afin d&#39;assurer un bon fonctionnement avec les différents CRM, les filtres d
 * Les comparaisons de type JOIN ne sont pas supportées.
 * L&#39;expression indiquée dans la colonne de gauche doit nécessairement être un champ. Elle ne peut pas être une combinaison de plusieurs expressions, un nombre, etc.
 
-Par exemple, les conditions de filtrage suivantes ne sont PAS valides pour une importation CRM, car l’opérateur OU est placé au même niveau que les opérateurs ET :
+Par exemple, les critères de filtrage suivants ne seront PAS valides dans le cadre d&#39;un import CRM, car l&#39;opérateur OU est placé au même niveau que les opérateurs ET :
 
 * l&#39;opérateur OU est placé au même niveau que les opérateurs ET
 * des comparaisons portent sur des chaînes de texte
@@ -168,7 +168,7 @@ Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
 
    >[!IMPORTANT]
    >
-   >La fonction d’exportation de l’activité **[!UICONTROL CRM Connector]** peut insérer ou mettre à jour des champs côté CRM. Pour activer les mises à jour des champs dans la gestion de la relation client, vous devez spécifier la clé Principale de la table distante. Si la clé est manquante, les données sont insérées (au lieu d’être mises à jour).
+   >La fonction d&#39;export de l&#39;activité **[!UICONTROL Connecteur CRM]** peut insérer ou mettre à jour des champs côté CRM. Pour activer les mises à jour des champs dans le CRM, vous devez spécifier la clé primaire de la table distante. Si la clé est manquante, les données sont insérées (au lieu d&#39;être mises à jour).
 
 1. Dans la section **[!UICONTROL Correspondance]**, indiquez les champs à exporter et leur correspondance dans le CRM.
 
@@ -224,7 +224,7 @@ Les rejets sont collectés avec leur code d&#39;erreur et le message corresponda
 >
 >Même lorsque l&#39;option **[!UICONTROL Traiter les rejets]** n&#39;est pas activée, un avertissement est généré pour chaque colonne rejetée, avec le code erreur et le message correspondant.
 
-La transition de sortie **[!UICONTROL Rejeter]** vous permet d&#39;accéder au schéma de sortie qui contient les colonnes spécifiques pertinentes aux messages d&#39;erreur et aux codes. Pour Salesforce.com, cette colonne est **errorSymbol** (symbole d&#39;erreur, différent du code d&#39;erreur), **errorMessage** (description du contexte d&#39;erreur).
+La transition sortante **[!UICONTROL Rejet]** permet d&#39;accéder au schéma de sortie qui contient les colonnes spécifiques relatives aux codes et messages d&#39;erreur. Pour Salesforce.com, cette colonne est **errorSymbol** (symbole de l&#39;erreur, différent du code de l&#39;erreur), **errorMessage** (description du contexte de l&#39;erreur).
 
 ## Import des objets supprimés dans le CRM {#importing-objects-deleted-in-the-crm}
 
@@ -248,7 +248,7 @@ Pour supprimer des objets côté CRM, vous devez indiquer la clé primaire des �
 
 ![](assets/crm_delete_in_crm.png)
 
-L’onglet **[!UICONTROL Comportement]** vous permet d’activer le traitement des rejets. Cette option génère une seconde transition en sortie de l’activité **[!UICONTROL Connecteur CRM]**. Voir à ce sujet la section [Traitement des erreurs](#error-processing).
+L&#39;onglet **[!UICONTROL Comportement]** vous permet d&#39;activer le traitement des rejets. Cette option génère une seconde transition en sortie de l&#39;activité **[!UICONTROL Connecteur CRM]**. Voir à ce sujet la section [Traitement des erreurs](#error-processing).
 
 >[!NOTE]
 >
