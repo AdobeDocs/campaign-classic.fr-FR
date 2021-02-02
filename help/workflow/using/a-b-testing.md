@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 98a2c5aa01b4d45ceeb14fb1ad7a607b236c2817
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 96%
 
 ---
 
@@ -34,6 +34,7 @@ Pour créer votre test A/B, vous allez suivre les étapes suivantes :
 * [Etape 3 : créer deux modèles de diffusions](#step-3--creating-two-delivery-templates)
 * [Etape 4 : paramétrer les diffusions dans le workflow](#step-4--configuring-the-deliveries-in-the-workflow)
 * [Etape 5 : créer le script](#step-5--creating-the-script)
+* [Etape 6 : définir la diffusion finale](#step-6--defining-the-final-delivery)
 * [Etape 7 : lancer le workflow](#step-7--starting-the-workflow)
 * [Etape 8 : analyser le résultat](#step-8--analyzing-the-result).
 
@@ -49,7 +50,7 @@ Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Wor
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Modifiez le libellé du workflow déjà existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un (voir à ce sujet cette [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Modifiez le libellé du flux de travaux existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un nouveau.
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
@@ -183,7 +184,7 @@ Le choix du contenu de la diffusion destinée à la population restante est calc
 
 ### Exemple de script {#example-of-a-script}
 
-Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Voir à ce sujet la section [Mise en œuvre](#implementation).
+Le script suivant peut être utilisé comme dans le processus de ciblage (voir [Configuration du script](../../workflow/using/a-b-testing.md#configuring-script)).
 
 ```
  // query the database to find the winner (best open rate)
@@ -229,12 +230,12 @@ Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Voir
    vars.deliveryId = delivery.id
 ```
 
-Pour une explication détaillée du script, voir [Détails du script](#details-of-the-script).
+Pour une explication détaillée du script, consultez [cette section](../../workflow/using/a-b-testing.md#details-of-the-script).
 
-### Mise en oeuvre {#implementation}
+### Configuration du script {#configuring-script}
 
 1. Ouvrez votre activité **[!UICONTROL Code JavaScript]**,
-1. Copiez le script proposé dans [Exemple de script](#example-of-a-script) dans la fenêtre **[!UICONTROL Code JavaScript]**.
+1. Copiez le script présenté [précédemment](../../workflow/using/a-b-testing.md#example-of-a-script) dans la fenêtre **[!UICONTROL Code JavaScript]**.
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
