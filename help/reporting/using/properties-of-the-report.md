@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 
 Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données dans la page. Ainsi, vous pouvez sélectionner :
 
-* Le moteur de rendu du graphique : par défaut, le moteur de rendu est HTML 5.
+* Le moteur de rendu des graphiques : par défaut, le moteur de rendu est HTML 5.
 * Le type de navigation dans le rapport : via des boutons ou des liens.
 * La position par défaut des libellés des éléments du rapport. Cette position peut être surchargée au niveau de chaque élément.
 * Le modèle, ou thème, utilisé pour la génération des pages du rapport.
@@ -81,6 +81,6 @@ Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#3
 
 Dans l&#39;onglet **[!UICONTROL Page d&#39;erreur]**, vous pouvez paramétrer le message qui doit apparaître en cas d&#39;erreur lors de l&#39;affichage du rapport.
 
-Vous pouvez définir des textes et les associer à des identifiants afin de gérer la localisation du rapport. Pour plus d’informations, voir la section [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
+Vous pouvez définir des textes et les associer à des identifiants afin de gérer la localisation du rapport. Pour plus d&#39;informations, voir la section [Ajouter un en-tête et un pied de page](../../reporting/using/element-layout.md#adding-a-header-and-a-footer).
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
