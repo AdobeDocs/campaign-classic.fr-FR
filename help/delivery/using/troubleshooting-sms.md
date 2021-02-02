@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 96ad3208c792efb47097768bc779bec59d9ca313
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '2745'
-ht-degree: 89%
+source-wordcount: '2751'
+ht-degree: 88%
 
 ---
 
@@ -203,7 +203,7 @@ Avec le format hexadécimal, vous pouvez faire la différence entre des caractè
 
 Pour convertir les codes unicode en hexadécimal, vous pouvez utiliser des outils en ligne tels que le site Web [Convertisseur de code unicode](https://r12a.github.io/app-conversion/). Saisissez votre texte, assurez-vous qu&#39;il n&#39;existe pas d&#39;informations d&#39;identification personnelle telles que des numéros de téléphone, puis cliquez sur **Convertir**. Les valeurs hexadécimales se trouvent en bas (zone UTF-32).
 
-Lors de l&#39;ouverture de tickets concernant les problèmes d&#39;encodage, que ce soit avec le fournisseur ou le support Adobe Campaign, incluez toujours une version hexadécimale de ce que vous tapez et de ce que vous voyez.
+Lors de l’ouverture de tickets sur les problèmes de codage, que ce soit avec le fournisseur ou avec le service à la clientèle ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe, incluez toujours une version hexadécimale de ce que vous tapez et de ce que vous voyez.[
 
 **Étape 3 : Savoir ce que vous devez envoyer**
 
