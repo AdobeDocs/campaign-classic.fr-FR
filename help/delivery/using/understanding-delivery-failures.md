@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 9ee7ef1faf06c31ec6659734582caac099a01bc1
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '2491'
-ht-degree: 100%
+source-wordcount: '2497'
+ht-degree: 99%
 
 ---
 
@@ -242,12 +242,15 @@ Les statuts de qualification des mails rebonds sont les suivants :
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré :
 >
 >* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
+   >
+   >
+* Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
+   >
+   >
+* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
 >
->* Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
 >
->* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
->
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
 
 ### Règles de gestion des emails {#email-management-rules}
 
@@ -294,7 +297,7 @@ Le serveur de messagerie d’Adobe Campaign applique une règle unique de **ges
 * Vous pouvez choisir d’activer ou non certaines normes d’identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
 * Les paramètres de **Relais SMTP** permettent de configurer l’adresse IP et le port d’un serveur relais pour un domaine particulier. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom de]** dans l’adresse de l’expéditeur, veillez à ne pas signer vos emails avec le **Sender ID** qui est la norme d’authentification de messagerie exclusive de Microsoft, devenue obsolète. Si l’option **[!UICONTROL Sender ID]** est activée, décochez la case correspondante et contactez l’assistance d’Adobe Campaign. Il n’y aura aucune incidence sur la délivrabilité.
+Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom de]** dans l’adresse de l’expéditeur, veillez à ne pas signer vos emails avec le **Sender ID** qui est la norme d’authentification de messagerie exclusive de Microsoft, devenue obsolète. Si l’option **[!UICONTROL ID d’expéditeur]** est activée, décochez la case correspondante et contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Il n’y aura aucune incidence sur la délivrabilité.
 
 >[!IMPORTANT]
 >
