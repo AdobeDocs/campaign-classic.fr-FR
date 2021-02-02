@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 100%
+source-wordcount: '1357'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Si vous recevez toujours le même message d’erreur pour un FAI, il se peut que
 * Mettez à jour vos formulaires d’abonnement pour détecter d’éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
 * Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d’exclure de la cible les destinataires qui n’ont pas ouvert ou cliqué dans l’un de vos messages dans les 12 mois précédents.
 
-Si le problème persiste, contactez les services commerciaux, délivrabilité, assistance d’Adobe Campaign ou support technique d’Adobe Campaign.
+Si le problème persiste, contactez le service commercial ou les services de délivrabilité, [Adobe Customer Care](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Liste bloquée et quarantaine {#denylist-versus-quarantine}
 
