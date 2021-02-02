@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d34435b0b8714a87add6a5e3f82e4f94376f205b
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1240'
 ht-degree: 100%
 
 ---
@@ -41,23 +41,6 @@ Elle permet plus précisément aux administrateurs de la plateforme d’effectue
 L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](../../workflow/using/about-workflows.md), [Activités](../../workflow/using/about-activities.md) et [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md).
 
 La carte thermique des workflows est disponible par défaut dans Adobe Campaign à compter de la version 18.10. Si vous disposez d’un build entre 8700 et 8977 (18.10), vous pouvez également bénéficier de cette fonctionnalité. Pour demander le package correspondant, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) et suivez les instructions sur [cette page](https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html) pour savoir comment l’installer.
-
-Lors de votre premier accès à la carte thermique des workflows, la fenêtre contextuelle suivante apparaît. Cet accord autorise le transfert et le stockage aux États-Unis pour permettre à Adobe Campaign de :
-
-* surveiller les instances pour enquêter sur tout problème de performance ;
-* collecter des données afin de détecter des anomalies.
-
-Notez que le transfert de vos données est uniquement disponible pour les utilisateurs qui se connectent à Adobe Campaign au moyen de leur Adobe ID.
-
-![](assets/wf_monitoring_agreement.png)
-
-Trois options sont disponibles :
-
-* **[!UICONTROL Accepter]** : en acceptant cet accord, vous autorisez Adobe Campaign à collecter vos données et à les transférer aux États-Unis afin de vous aider si des anomalies sont détectées.
-* **[!UICONTROL Refuser]** : si vous refusez l’accord, vos données ne seront pas transférées, mais vous pourrez continuer à utiliser la carte thermique des workflows.
-* **[!UICONTROL Ne plus afficher ce message]** : si vous cliquez sur **[!UICONTROL Ne plus afficher ce message]**, la fenêtre contextuelle n’apparaîtra plus lorsque vous accéderez à la carte thermique des workflows, mais elle restera accessible au moyen du bouton **[!UICONTROL Conditions d’utilisation]**.
-
-Ce choix n’est pas définitif, vous pouvez toujours le modifier en cliquant sur le bouton **[!UICONTROL Conditions d’utilisation]**.
 
 ## Utilisation de la carte thermique {#using-the-heatmap}
 
