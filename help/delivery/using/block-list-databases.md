@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 74%
 
 ---
 
@@ -31,7 +31,7 @@ La liste qui suit répertorie les listes RBL les plus utilisées. Pour obtenir u
 
    Consultez la page [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   La base la plus importante. Etre répertorié sur cette liste est généralement une situation grave. Si cela se produit, vous devez réagir IMMEDIATEMENT et avertir les services commerciaux, délivrabilité et support d&#39;Adobe Campaign.
+   La base de données est plus importante. Être classé dans cette liste est généralement une situation grave. Si cela se produit, vous devez agir IMMÉDIATEMENT et avertir les services commerciaux, la délivrabilité et [le service à la clientèle ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Adobe.
 
 * **SpamCop**
 
@@ -43,13 +43,13 @@ La liste qui suit répertorie les listes RBL les plus utilisées. Pour obtenir u
 
    Consultez la page [https://www.uribl.com/](https://www.uribl.com/)
 
-   Cette liste recense les domaines qui apparaissent régulièrement dans les messages déclarés en spam. Si votre domaine apparaît dans cette liste, cela peut affecter considérablement votre délivrabilité. Avertissez immédiatement les services délivrabilité et support d&#39;Adobe Campaign.
+   Cette liste identifie les domaines qui apparaissent régulièrement dans les messages déclarés comme spam. Si votre domaine s’affiche sur cette liste, il peut avoir une incidence significative sur votre délivrabilité. Vous devez informer immédiatement les services de délivrabilité et [le service à la clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SURBL**
 
    Consulter la page [http://www.surbl.org/](http://www.surbl.org/)
 
-   SURBL recence les sites web qui sont apparus dans des messages non sollicités. Si votre domaine apparaît dans cette liste, cela peut affecter considérablement votre délivrabilité. Avertissez immédiatement les services délivrabilité et support d&#39;Adobe Campaign.
+   SURBL identifie les sites Web qui apparaissent régulièrement dans les spams. Si votre domaine s’affiche sur cette liste, il peut avoir une incidence significative sur votre délivrabilité. Vous devez informer immédiatement les services de délivrabilité et [le service à la clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **iX Manitu**
 
