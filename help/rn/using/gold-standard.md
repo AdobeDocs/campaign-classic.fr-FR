@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 92%
+source-wordcount: '1024'
+ht-degree: 86%
 
 ---
 
@@ -32,13 +32,12 @@ _22 décembre 2020_
 >[!CAUTION]
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **21 mars 2021**.
-   >
-   > 
-* Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Si vous utilisez l’intégration Déclencheurs d’expérience par le biais de l’authentification Auth, vous devez vous rendre à Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification Auth hérité sera retiré le **30 avril 2021**.
+
 >
 >
 Pour en savoir plus, consultez la [FAQ sur la mise à niveau vers Gold Standard 11](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html).
-
 
 Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
@@ -46,7 +45,7 @@ Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
 * L’authentification de l’intégration des Triggers basée à lʼorigine sur la configuration de lʼauthentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
-* Après la fin de la prise en charge du protocole binaire hérité des APN iOS, toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 durant la mise à niveau.
+* Suite à la [fin de la prise en charge du protocole binaire hérité des APN iOS](https://developer.apple.com/news/?id=c88acm2b), toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
 
 * Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
 
