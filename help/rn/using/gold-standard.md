@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
+source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 86%
@@ -31,7 +31,7 @@ _22 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **21 mars 2021**.
+> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **31 mars 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Déclencheurs d’expérience par le biais de l’authentification Auth, vous devez vous rendre à Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification Auth hérité sera retiré le **30 avril 2021**.
 
