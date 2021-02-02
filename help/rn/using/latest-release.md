@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
+source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
 source-wordcount: '1981'
 ht-degree: 95%
@@ -34,7 +34,7 @@ _27 octobre 2020_
 
 >[!CAUTION]
 >
-> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **21 mars 2021**.
+> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **31 mars 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Déclencheurs d’expérience par le biais de l’authentification Auth, vous devez vous rendre à Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification Auth hérité sera retiré le **30 avril 2021**.
 
@@ -108,7 +108,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 **Améliorations**
 
 * Plusieurs améliorations ont été apportées à la **console cliente** :
-   * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS. La mise à niveau du serveur et de la console cliente est obligatoire pour pouvoir se connecter après le 21 mars 2021.
+   * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS. La mise à niveau du serveur et de la console cliente est obligatoire pour pouvoir se connecter après le 31 mars 2021.
    * Pour éviter toute incompatibilité avec certaines restrictions de règles GPO de sécurité Internet, l&#39;écran de connexion de la console cliente Campaign a été remplacé par un formulaire Windows standard intégré.
    * Correction d’un problème lors des activités de copie/collage dans un workflow à l’aide de la console cliente 64 bits. (NEO-27635)
    * Dans le menu **À propos**, des informations ont été ajoutées pour faire la différence entre les consoles 64 et 32 bits.
