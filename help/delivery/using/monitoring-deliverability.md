@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 93%
 
 ---
 
@@ -71,17 +71,12 @@ Les informations fournies sont disponibles en temps réel, ce qui permet une ass
 
 ## Rapport de supervision de la délivrabilité technique {#technical-deliverability-monitoring}
 
-Le rapport de supervision de la délivrabilité technique est mis à jour quotidiennement et disponible en accédant à **[!UICONTROL Surveillance]** > **[!UICONTROL Aperçu]** et en cliquant sur le lien **[!UICONTROL Monitoring technique]** dans l’onglet **[!UICONTROL Accueil]** d’Adobe Campaign. Il comprend plusieurs indicateurs de qualité de la délivrabilité pour votre plateforme.
+Le rapport **Analyse technique de la délivrabilité** comprend un certain nombre d&#39;indicateurs de qualité de la délivrabilité pour votre plate-forme. Vous pouvez recevoir ce rapport quotidien par courriel. Pour le demander, ouvrez un [dossier d&#39;assistance](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) spécifique et spécifiez :
 
-Ces indicateurs sont mis à jour tous les jours à 9 h.
+* nom de l’instance
+* les adresses électroniques auxquelles envoyer le rapport
 
->[!NOTE]
->
->En complément, vous avez la possibilité de recevoir un rapport quotidien par email à l’adresse souhaitée. Nous vous invitons à nous communiquer cette adresse par email ou via l’Extranet Adobe Campaign.
-
-![](assets/s_tn_del_monitoring.png)
-
-Les indicateurs utilisés dans ce rapport sont les suivants :
+Ce rapport contient les indicateurs suivants :
 
 * **[!UICONTROL Reverse DNS]** : Adobe Campaign vérifie qu&#39;un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l&#39;IP.
 
@@ -92,6 +87,9 @@ Les indicateurs utilisés dans ce rapport sont les suivants :
 * **[!UICONTROL IP et domaine RBL]** (Real-time Blackhole List) : liste des adresses IP et domaines qui ont été marqués par les organisations de liste bloquée pour mauvaise réputation d&#39;envoi. Ces listes sont enrichies par des organismes dédiés tels que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux RBL qui ont un impact significatif sur la délivrabilité. Ces RBL sont les témoins de votre réputation d’envoi et peuvent être interrogés par les ISP avant acceptation de vos emails.
 
 * **[!UICONTROL SNDS]** (Smart Network Data Services) : un [service Windows Live Hotmail de lutte contre le spam](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail est le seul FAI qui fournit ce type d&#39;informations. Les scores de référence sont un résultat de filtre vert, un taux de plainte inférieur à 0,1 % et un taux zéro de pourriel.
+
+Ces indicateurs sont mis à jour tous les jours à 9 h.
+
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
