@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Exemples d'import générique
-description: En savoir plus sur les importations génériques que vous pouvez effectuer à l’aide des tâches d’importation.
+description: En savoir plus sur les imports génériques que vous pouvez effectuer à l'aide des traitements d'imports.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Exemples d&#39;import générique {#import-operations-samples}
 
-## Importation à partir d&#39;une liste de destinataires {#example--import-from-a-list-of-recipients}
+## Import d&#39;une liste de destinataires {#example--import-from-a-list-of-recipients}
 
 Pour créer et alimenter une liste de destinataires à partir de la vue d&#39;ensemble des listes, effectuez les étapes suivantes :
 
@@ -44,7 +44,7 @@ Pour créer et alimenter une liste de destinataires à partir de la vue d&#39;en
 
    ![](assets/s_ncs_user_import_example00_03.png)
 
-## Importer de nouveaux enregistrements à partir d&#39;un fichier texte {#example--import-new-records-from-a-text-file-}
+## Import de nouveaux enregistrements depuis un fichier texte {#example--import-new-records-from-a-text-file-}
 
 Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires stockés dans un fichier texte, effectuez les étapes suivantes :
 
@@ -100,7 +100,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
          ![](assets/s_ncs_user_import_example07_02.png)
 
-## Mettre à jour et insérer des destinataires {#example--update-and-insert-recipients}
+## Mise à jour et insertion de destinataires {#example--update-and-insert-recipients}
 
 Vous souhaitez mettre à jour des enregistrements déjà existants dans la base et en créer de nouveaux à partir d&#39;un fichier texte. Voici un exemple de mise en œuvre :
 
@@ -140,7 +140,7 @@ Vous souhaitez mettre à jour des enregistrements déjà existants dans la base 
 
       ![](assets/s_ncs_user_import_example06_03.png)
 
-## Enrichir les valeurs avec celles d&#39;un fichier externe {#example--enrich-the-values-with-those-of-an-external-file}
+## Enrichissement des valeurs par celles d&#39;un fichier externe {#example--enrich-the-values-with-those-of-an-external-file}
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte en privilégiant les valeurs contenues dans la base de données.
 
@@ -191,7 +191,7 @@ Les étapes sont les suivantes :
 
    Seules les valeurs qui étaient vides ont été remplacées par les valeurs du fichier texte. En revanche, la valeur déjà existante dans la base n&#39;a pas été écrasée par celle du fichier d&#39;import.
 
-## Mettez à jour et enrichissez les valeurs issues d&#39;un fichier externe {#example--update-and-enrich-the-values-from-those-in-an-external-file}.
+## Mise à jour et enrichissement des valeurs à partir de celles d&#39;un fichier externe {#example--update-and-enrich-the-values-from-those-in-an-external-file}
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte et privilégier les valeurs contenues dans le fichier texte.
 
