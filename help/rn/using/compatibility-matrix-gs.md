@@ -10,22 +10,22 @@ translation-type: tm+mt
 source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Matrice de compatibilité Gold Standard{#compatibility-matrix-gs}
 
-Ce document répertorie tous les systèmes et composants pris en charge pour les builds **Adobe Campaign Classic Gold Standard** 19.1. Les produits et versions qui ne font pas partie de cette liste ne sont pas compatibles avec cette version d’Adobe Campaign.
+Ce document répertorie tous les systèmes et composants pris en charge pour les builds **Adobe Campaign Classic Gold Standard** 19.1. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec cette version d&#39;Adobe Campaign.
 
 ## Remarques importantes{#important-notes-gs}
 
 Sauf mention contraire, toutes les versions mineures sont prises en charge.
 
-Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n’est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
+Adobe Campaign Classic est compatible avec tous les systèmes et outils répertoriés dans cette page. Lorsque des versions spécifiques de ces systèmes et outils tiers arrivent en fin de vie (EOL) avec leurs créateurs respectifs, Adobe Campaign n&#39;est plus compatible avec celles-ci. Elles sont alors supprimées de notre matrice de compatibilité pour la version suivante du produit. Pour éviter tout problème, vérifiez que vous disposez des versions prises en charge des systèmes répertoriés dans la matrice de compatibilité.
 
-## Systèmes d’exploitation{#OperatingSystems-gs}
+## Systèmes d&#39;exploitation{#OperatingSystems-gs}
 
 <table> 
 <tbody> 
@@ -47,7 +47,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <td>RHEL</td>
 <td>
 <p>7.x (64 bits)</p>
-<p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d’écrire des règles SELinux personnalisées pour vérifier qu’un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
+<p><strong>Important :</strong> si vous utilisez RHEL, vous devez désactiver SELinux ou demander à vos architectes d'écrire des règles SELinux personnalisées pour vérifier qu'un SELinux activé ne pose pas de problème pour les opérations de Campaign.</p>
 </td>
 </tr>
 <tr>
@@ -97,7 +97,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>Libre Office</td>
 <td>
-<p>6 (et versions antérieures en cas d’incorporation dans votre système)</p>
+<p>6 (et versions antérieures en cas d'incorporation dans votre système)</p>
 </td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p>Avertissement : Microsoft SQL Server n’est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">En savoir plus</a>.</p>
+<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">En savoir plus</a>.</p>
 </td>
 </tr>
 <tr>
@@ -270,7 +270,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </tbody>
 </table>
 
-## Systèmes d’exploitation de la console cliente{#ClientConsoleoperatingsystems-gs}
+## Systèmes d&#39;exploitation de la console cliente{#ClientConsoleoperatingsystems-gs}
 
 <table>
 <tbody>
@@ -321,7 +321,7 @@ Internet Explorer 11 est pris en charge.
 
 ## Articles connexes{#Morelikethis-gs}
 
-* [Notes de mise à jour d’Adobe Campaign Classic](../../rn/using/latest-release.md)
-* [Guide d’installation](../../installation/using/general-architecture.md)
+* [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md)
+* [Guide d&#39;installation](../../installation/using/general-architecture.md)
 * [Fonctionnalités et systèmes obsolètes](../../rn/using/deprecated-features.md)
-* [Procédure d’upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html)
+* [Procédure d&#39;upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html)
