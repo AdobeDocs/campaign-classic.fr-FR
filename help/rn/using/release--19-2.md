@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 96%
+source-wordcount: '1416'
+ht-degree: 95%
 
 ---
 
@@ -26,10 +26,7 @@ _23 décembre 2020_
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **21 mars 2021**.
    >
    > 
-* Cette version comprend un correctif de sécurité : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-
->
-
+* Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 
@@ -145,7 +142,7 @@ Vérifiez que vous disposez des versions prises en charge des systèmes réperto
 
 _SDK Campaign Mobile_
 
-Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, nous avons ajouté la prise en charge d&#39;iOS 13. Cette nouvelle version prend désormais en charge la priorité des notifications et le nouveau processus de gestion des jetons d&#39;enregistrement pour les notifications Push iOS 13. Si vous exécutez des applications correspondant à une version précédente du SDK, vous devez recompiler vos applications avec le nouveau. Pour obtenir le SDK, contactez l&#39;Assistance clientèle d&#39;Adobe.
+Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, nous avons ajouté la prise en charge d&#39;iOS 13. Cette nouvelle version prend désormais en charge la priorité des notifications et le nouveau processus de gestion des jetons d&#39;enregistrement pour les notifications Push iOS 13. Si vous exécutez des applications correspondant à une version précédente du SDK, vous devez recompiler vos applications avec le nouveau. Pour obtenir le SDK, contactez le [service à la clientèle de l’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Correctifs**
 
