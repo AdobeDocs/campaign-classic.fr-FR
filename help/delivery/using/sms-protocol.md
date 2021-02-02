@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 9a104fdc7bed89f56178d5ab638e1440e6342efc
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '8424'
+source-wordcount: '8433'
 ht-degree: 89%
 
 ---
@@ -818,7 +818,7 @@ Si plusieurs comptes de la même instance Adobe Campaign se connectent au même 
 ### Activer les traces SMPP de verbose lors des vérifications {#enable-verbose}
 
 Vous devez toujours activer les traces SMPP de verbose lors des vérifications.
-Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile pour le Support de vous aider.
+Même si vous ne pouvez pas vérifier vous-même les journaux, il sera plus facile pour [le service à la clientèle de l&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) de vous aider.
 
 ### Tester votre SMS {#test}
 
