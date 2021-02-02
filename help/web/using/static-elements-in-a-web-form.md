@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
 
-Vous pouvez inclure des éléments avec lesquels l’utilisateur n’a aucune interaction dans les pages du formulaire ; il s’agit d’éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d’outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
+Vous pouvez inclure des éléments avec lesquels l&#39;utilisateur n&#39;a aucune interaction dans les pages du formulaire ; il s&#39;agit d&#39;éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Ces éléments sont créés par le premier bouton de la barre d&#39;outils, en sélectionnant **[!UICONTROL Éléments statiques]**.
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -34,9 +34,9 @@ Les types de champs disponibles sont les suivants :
 
 ## Insérer du contenu HTML {#inserting-html-content}
 
-Vous pouvez inclure du contenu HTML dans une page de formulaire : liens hypertexte, images, paragraphes formatés, vidéos, etc.
+Vous pouvez inclure des contenus HTML dans une page de formulaire : liens hypertextes, images, paragraphes formatés, vidéos, etc.
 
-L’éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l’éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]**.
+L&#39;éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l&#39;éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]**.
 
 Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour y coller un contenu externe. Pour basculer en mode &quot;code source&quot;, cliquez sur la première icône de la barre d&#39;outils :
 
@@ -58,8 +58,8 @@ Pour ajouter un lien hypertexte, accédez au menu **[!UICONTROL Éléments stati
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
-* Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu’il sera affiché dans la page du formulaire.
-* L’**[!UICONTROL URL]** correspond à l’adresse visée, par exemple : [https://www.adobe.com](https://www.adobe.com) pour un site web ou [info@adobe.com](mailto:info@adobe.com) pour envoyer un message.
+* Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu&#39;il sera affiché dans la page du formulaire.
+* L&#39;**[!UICONTROL URL]** correspond à l&#39;adresse visée, par exemple : [https://www.adobe.com](https://www.adobe.com) pour un site web ou [info@adobe.com](mailto:info@adobe.com) pour envoyer un message.
 * Le champ **[!UICONTROL Fenêtre]** permet de sélectionner le mode d&#39;affichage du lien, lorsqu&#39;il s&#39;agit d&#39;un site. Vous pouvez choisir d&#39;ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre courante ou dans une autre fenêtre.
 * Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
 
@@ -109,7 +109,7 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur l’enchaînement des pages dans un formulaire web, voir [Définir l&#39;enchaînement des pages des formulaires web](../../web/using/defining-web-forms-page-sequencing.md).
+   >Pour plus d&#39;informations sur l&#39;enchaînement des pages dans un formulaire web, voir [Définir l&#39;enchaînement des pages des formulaires web](../../web/using/defining-web-forms-page-sequencing.md).
 
 * Pré-remplir les champs du formulaire avec les données de profil Facebook
 
@@ -195,7 +195,7 @@ L&#39;onglet **[!UICONTROL Texte]** permet de créer des champs variables qui pe
 
 Utilisez cette méthode pour localiser facilement vos chaînes. Voir [Traduire un formulaire web](../../web/using/translating-a-web-form.md)
 
-Par exemple, vous pouvez créer un champ **Contact** qui permettra d’afficher la chaîne « Dernier contact le » dans le contenu HTML. Pour ce faire, procédez comme suit :
+Par exemple, vous pouvez créer un champ **Contact** qui permettra d&#39;afficher la chaîne « Dernier contact le » dans le contenu HTML. Pour ce faire, procédez comme suit :
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Textes]** du texte HTML.
 1. Cliquez sur l&#39;icône **[!UICONTROL Ajouter]**.
@@ -210,13 +210,13 @@ Par exemple, vous pouvez créer un champ **Contact** qui permettra d’afficher 
 
    >[!CAUTION]
    >
-   >Si vous saisissez ces caractères dans l’éditeur HTML, les champs **&lt;** et **>** seront remplacés par leurs caractères avec échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l’icône **[!UICONTROL Afficher le code source]** de l’éditeur de texte HTML.
+   >Si vous saisissez ces caractères dans l&#39;éditeur HTML, les champs **&lt;** et **>** seront remplacés par leurs caractères avec échappement. Dans ce cas, vous devez corriger le code source en cliquant sur l&#39;icône **[!UICONTROL Afficher le code source]** de l&#39;éditeur de texte HTML.
 
-1. Ouvrez l’onglet **[!UICONTROL Aperçu]** du formulaire pour afficher la valeur renseignée dans le HTML :
+1. Ouvrez le libellé **[!UICONTROL Aperçu]** du formulaire pour afficher la valeur renseignée dans le HTML :
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-Ce mode de fonctionnement permet de définir les textes des formulaires web et d’en gérer les traductions à l’aide de l’outil intégré de traduction. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+Ce mode de fonctionnement permet de définir les textes des formulaires web et d&#39;en gérer les traductions à l&#39;aide de l&#39;outil de traduction intégré. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
 
 ## Insérer des images {#inserting-images}
 
