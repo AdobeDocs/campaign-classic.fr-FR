@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
 source-wordcount: '2843'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#
 
 >[!IMPORTANT]
 >
->En cas d’utilisation du paramètre **-usetimestamptz:1** avec un moteur de base non compatible, votre base de données sera corrompue et il vous sera alors nécessaire de restaurer une sauvegarde de votre base de données et de ré-exécuter la commande ci-dessous.
+>En cas d&#39;utilisation du paramètre **-usetimestamptz:1** avec un moteur de base non compatible, votre base de données sera corrompue et il vous sera alors nécessaire de restaurer une sauvegarde de votre base de données et de ré-exécuter la commande ci-dessous.
 
 >[!NOTE]
 >
->Il est possible de modifier le fuseau horaire après la migration via la console (noeud **[!UICONTROL Administration > Plate-forme > Options > WdbcTimeZone]**).
+>Il est possible de modifier le fuseau horaire après la migration via la console (noeud **[!UICONTROL Administration > Plateforme > Options > WdbcTimeZone]**).
 >
 >Pour plus d&#39;informations sur la gestion des fuseaux horaires, consultez [cette section](../../installation/using/time-zone-management.md).
 
@@ -56,7 +56,7 @@ Si vous obtenez l&#39;erreur **ORA 01805** lors du postupgrade, cela signifie qu
 
 1. Assurez-vous que les fichiers de fuseau horaire sont bien les mêmes sur les deux serveurs.
 
-Pour plus d’informations, consultez le site : [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004)
+Pour plus d&#39;informations, consultez le site : [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004)
 
 Une différence de fuseau horaire entre le client et le serveur peut également entraîner des retards. C&#39;est pourquoi nous recommandons d&#39;utiliser la même version de la bibliothèque Oracle du côté client et du côté serveur. Les deux fuseaux horaires doivent être identiques.
 
@@ -96,7 +96,7 @@ La configuration des zones de sécurité est présentée dans [cette section](..
 
 ### Mots de passe des opérateurs {#user-passwords}
 
-Dans v7, la connexion de l’opérateur **interne** et **administrateur** doit être sécurisée par un mot de passe. Nous vous recommandons vivement d’affecter des mots de passe à ces comptes et à tous les comptes d’opérateurs **avant la migration**. Si vous n&#39;avez pas spécifié de mot de passe pour la connexion **interne**, vous ne pourrez pas vous connecter. Pour attribuer un mot de passe à la connexion **interne**, saisissez la commande suivante :
+Dans v7, la connexion de l&#39;opérateur **interne** et **administrateur** doit être sécurisée par un mot de passe. Nous vous recommandons vivement d&#39;affecter des mots de passe à ces comptes et à tous les comptes d&#39;opérateurs **avant la migration**. Si vous n&#39;avez pas spécifié de mot de passe pour la connexion **interne**, vous ne pourrez pas vous connecter. Pour attribuer un mot de passe à la connexion **interne**, saisissez la commande suivante :
 
 ```
 nlserver config -internalpassword
@@ -151,7 +151,7 @@ Certains schémas d&#39;usine ont été modifiés et ne sont désormais accessib
 
 ### Paramètre sessiontoken {#sessiontoken-parameter}
 
-Dans la version 5, le paramètre **sessiontoken** fonctionnait à la fois côté client (liste des écrans de type d’aperçu, éditeur de lien, etc.) et côté serveur (applications web, rapports, jsp, jssp, etc.). Dans v7, il ne fonctionne que côté serveur. Si vous souhaitez revenir aux fonctionnalités complète telles que dans la version 5, vous devez modifier les liens à l’aide de ce paramètre et les transmettre via la page de connexion :
+Dans la version 5, le paramètre **sessiontoken** fonctionnait à la fois côté client (liste des écrans de type d&#39;aperçu, éditeur de lien, etc.) et côté serveur (applications web, rapports, jsp, jssp, etc.). Dans v7, il ne fonctionne que côté serveur. Si vous souhaitez revenir aux fonctionnalités complète telles que dans la version 5, vous devez modifier les liens à l&#39;aide de ce paramètre et les transmettre via la page de connexion :
 
 Exemple de lien :
 
@@ -171,7 +171,7 @@ Nouveau lien utilisant la page de connexion :
 
 ### Fonctions SQL {#sql-functions}
 
-Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Toutes les fonctions SQL doivent à présent être ajoutées dans le schéma **xtk:funcList** (voir à ce sujet [cette section](../../configuration/using/adding-additional-sql-functions.md)). Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plate-forme > Options]**.
+Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Toutes les fonctions SQL doivent à présent être ajoutées dans le schéma **xtk:funcList** (voir à ce sujet [cette section](../../configuration/using/adding-additional-sql-functions.md)). Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plateforme > Options]**.
 
 >[!IMPORTANT]
 >
@@ -196,9 +196,9 @@ Par exemple :
 
 Adobe Campaign v7 intègre un interpréteur JavaScript plus récent. Toutefois, cette mise à jour peut entraîner le mauvais fonctionnement de certains scripts. Comme le moteur précédent était plus permissif, certaines syntaxes fonctionneraient, ce qui n&#39;est plus le cas avec la nouvelle version du moteur.
 
-Le **[!UICONTROL myObject.La syntaxe @attribute]** n’est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
+Le **[!UICONTROL myObject.La syntaxe @attribute]** n&#39;est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
 
-Pour tous les autres types d’objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante : **[!UICONTROL employee.@sn]**, doit maintenant utiliser la syntaxe suivante : **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
+Pour tous les autres types d&#39;objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante : **[!UICONTROL employee.@sn]**, doit maintenant utiliser la syntaxe suivante : **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
 
 * Ancienne syntaxe :
 
@@ -256,11 +256,11 @@ Le schéma queryDef (xtk:queryDef) a été modifié :
 
 * un nouvel élément `<subQuery>` est disponible pour remplacer le SELECT inclus dans du SQLData
 * deux nouvelles valeurs &quot;IN&quot; et &quot;NOT IN&quot; sont introduites pour l&#39;attribut @setOperator
-* un nouvel élément `<where>`, enfant de l’élément `<node>` : ceci permet de faire des « sous-sélections » dans un SELECT
+* un nouvel élément `<where>`, enfant de l&#39;élément `<node>` : ceci permet de faire des « sous-sélections » dans SELECT
 
 Lorsqu&#39;un attribut de type &quot;@expr&quot; est utilisé, le SQLData peut être présent. Une recherche peut être effectuée sur les termes suivants : &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
 
-Les instances d’Adobe Campaign v7 sont sécurisées par défaut. La sécurisation intervient au niveau des définitions de zones de sécurité dans le fichier **[!UICONTROL serverConf.xml]** : l’attribut **allowSQLInjection** gère la sécurisation de la syntaxe SQL.
+Les instances d&#39;Adobe Campaign v7 sont sécurisées par défaut. La sécurisation intervient au niveau des définitions de zones de sécurité dans le fichier **[!UICONTROL serverConf.xml]** : l&#39;attribut **allowSQLInjection** gère la sécurisation de la syntaxe SQL.
 
 En cas d&#39;erreur SQLData lors de l&#39;exécution du postupgrade, vous devez modifier cet attribut afin d&#39;autoriser temporairement l&#39;utilisation des syntaxes basées sur le SQLData, le temps de réécrire le code. Pour cela, l&#39;option suivante doit être modifiée dans le fichier **serverConf.xml** :
 
@@ -274,7 +274,7 @@ Relancez alors le postupgrade avec la commande suivante :
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-Vous devrez ensuite configurer les zones de sécurité (voir [Sécurité](#security)) puis réactiver la sécurisation en modifiant l’option :
+Vous devrez ensuite configurer les zones de sécurité (voir [Sécurité](#security)) puis réactiver la sécurisation en modifiant l&#39;option :
 
 ```
 allowSQLInjection="false"
@@ -390,7 +390,7 @@ L&#39;alias est facultatif
 
 **Astuces**
 
-Dans un élément `<subQuery>`, pour référencer un champ ‘field’ de l’élément `<queryDef>` principal, la syntaxe suivante doit être employée : `[../@field]`
+Dans un élément `<subQuery>`, pour référencer un champ ‘field&#39; de l&#39;élément `<queryDef>` principal, la syntaxe suivante doit être employée : `[../@field]`
 
 Exemple:
 
@@ -473,7 +473,7 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
 ## Tomcat {#tomcat}
 
-Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version (Tomcat 7). Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d’accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
+Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version (Tomcat 7). Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d&#39;accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
@@ -499,7 +499,7 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 
 ### Contenu des offres {#offer-content}
 
-Dans v7, le contenu de l’offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d’offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l’interface. Après la mise à niveau, vous devez recréer le contenu de l’offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d’offre.
+Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
 
 >[!IMPORTANT]
 Si certaines diffusions utilisant des offres étaient paramétrées pour être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions en v7. Si vous n&#39;avez pas la possibilité de le faire, un mode &quot;compatibilité&quot; est proposé. Ce mode est fortement déconseillé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d&#39;Interaction v7. C&#39;est un mode transitoire permettant de terminer les campagnes en cours avant d&#39;effectuer la véritable migration 6.1. Veuillez nous contacter si vous souhaitez obtenir plus d&#39;informations sur ce mode.
@@ -620,7 +620,7 @@ Tous les rapports standards utilisent à présent le moteur de rendu v6.x. Si vo
 
 ![](assets/migration_reports_1.png)
 -->
-Si vous souhaitez bénéficier des nouvelles fonctionnalités de rapport, vous devez republier les rapports. Pour ce faire, modifiez le rapport **[!UICONTROL Propriétés]**, cliquez sur **[!UICONTROL Rendu]** et sélectionnez le moteur de rendu v.6.x. Dans ce cas, vérifiez tous vos scripts et modifiez-les si nécessaire. En ce qui concerne l’exportation au format PDF, si vous avez ajouté un script spécifique pour Open Office, cela ne fonctionnera plus avec le nouveau moteur d’exportation PDF (PhantomJS).
+Si vous souhaitez bénéficier des nouvelles fonctionnalités de rapport, vous devez republier les rapports. Pour ce faire, modifiez le rapport **[!UICONTROL Propriétés]**, cliquez sur **[!UICONTROL Rendu]** et sélectionnez le moteur de rendu v.6.x. Dans ce cas, vérifiez tous vos scripts et modifiez-les si nécessaire. En ce qui concerne l&#39;export au format PDF, si vous avez ajouté un script spécifique pour Open Office, il ne fonctionnera plus avec le nouveau moteur d&#39;export PDF (PhantomJS).
 
 ## Des applications web {#web-applications}
 
@@ -631,7 +631,7 @@ Il existe deux familles d&#39;applications web :
 
 ### Applications web identifiées {#identified-web-applications}
 
-Tout comme pour les rapports (voir [Rapports](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (qui contient les univers), vous devez republier l’application Web. Si votre code JavaScript fonctionne, vous pouvez sélectionner le moteur de rendu v6.x. Si ce n’est pas le cas, vous pouvez utiliser le moteur de rendu v6.0 tout en adaptant votre code, puis utiliser le moteur de rendu v6.x.
+Tout comme pour les rapports (voir [Rapports](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (qui contient les univers), vous devez republier l&#39;application web. Si votre code JavaScript fonctionne, vous pouvez sélectionner le moteur de rendu v6.x. Si ce n&#39;est pas le cas, vous pouvez utiliser le moteur de rendu v6.0 tout en adaptant votre code, puis utiliser le moteur de rendu v6.x.
 
 >[!NOTE]
 Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
