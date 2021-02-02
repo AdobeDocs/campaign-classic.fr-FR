@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Surveillance de l'exécution des traitements
-description: Découvrez comment surveiller l’exécution des tâches d’importation et d’exportation.
+description: Découvrez comment surveiller l'exécution des traitements d'import et d'export.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -10,23 +10,23 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # Surveillance de l&#39;exécution des traitements {#monitoring-job-execution}
 
-Vous pouvez suivre l’exécution de vos tâches d’importation et d’exportation directement à partir de la liste des tâches d’importation/exportation.
+Vous pouvez suivre l&#39;exécution de vos traitements d&#39;import et d&#39;export directement depuis la liste des traitements d&#39;import/export.
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
-* L&#39;onglet **[!UICONTROL Journal]** permet de consulter les messages du journal concernant l&#39;exécution.
+* L&#39;onglet **[!UICONTROL Journal]** permet de consulter les messages de logs relatifs à l&#39;exécution.
 * L&#39;onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Voir la section [Comportement en cas d&#39;erreur](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
 
-Dans l&#39;onglet **[!UICONTROL Général]**, le champ **[!UICONTROL État]** indique l&#39;état actuel d&#39;une tâche.
+Dans l&#39;onglet **[!UICONTROL Général]**, le champ **[!UICONTROL Statut]** indique le statut actuel d&#39;un traitement.
 
-Chaque état est représenté par une icône et une étiquette spéciales. Les états et leurs icônes sont répertoriés ci-dessous :
+Chaque statut est représenté par une icône et un libellé spéciaux. Les statuts et leurs icônes sont répertoriés ci-dessous :
 
 ![](assets/s_ncs_user_export_status.png)
 
