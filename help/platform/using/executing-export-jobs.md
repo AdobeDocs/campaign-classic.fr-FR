@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration de traitements d'export
-description: Découvrez comment configurer et exécuter des tâches d’exportation dans le Campaign Classic.
+title: Paramétrage de traitements d'export
+description: Découvrez comment paramétrer et exécuter des traitements d'export dans Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -10,20 +10,20 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '1016'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Configuration de traitements d&#39;export {#executing-export-jobs}
+# Paramétrage de traitements d&#39;export {#executing-export-jobs}
 
-Les tâches d’exportation vous permettent d’accéder à la base de données et d’en extraire les données : contacts, clients, listes, segments, etc.
+Les traitements d&#39;export vous permettent d&#39;accéder à la base de données et d&#39;en extraire les données : contacts, clients, listes, segments, etc.
 
-Par exemple, il peut s’avérer utile d’utiliser les données de suivi de campagne (historique de suivi, etc.) dans une feuille de calcul. Les données de sortie peuvent être au format txt, CSV, TAB ou XML.
+Par exemple, il peut s&#39;avérer utile d&#39;utiliser les données de tracking des campagnes (historique de tracking, etc.) dans une feuille de calcul. Les données de sortie peuvent être au format txt, CSV, TAB ou XML.
 
-L’assistant d&#39;export vous permet de configurer une exportation, de définir ses options et d’exécuter le lancement. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;exportation (simple ou multiple) et des droits de l&#39;opérateur.
+L&#39;assistant d&#39;export vous permet de paramétrer un export, de définir ses options et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;export (simple ou multiple) et des droits de l&#39;opérateur.
 
-L’assistant d&#39;export s’affiche après avoir créé une nouvelle tâche d’exportation (voir [Création de tâches d’importation et d’exportation](../../platform/using/creating-import-export-jobs.md).
+L&#39;assistant d&#39;export s&#39;affiche après la création d&#39;un nouveau traitement d&#39;export (voir [Création de traitements d&#39;import et d&#39;export](../../platform/using/creating-import-export-jobs.md).
 
 ## Etape 1 - Choix du modèle d&#39;export {#step-1---choosing-the-export-template}
 
@@ -43,9 +43,9 @@ Lorsque vous lancez l&#39;assistant d&#39;export, vous devez d&#39;abord sélect
 
 ## Etape 2 - Type de fichier à exporter {#step-2---type-of-file-to-export}
 
-Sélectionnez le type de document à exporter, c’est-à-dire le schéma des données à exporter.
+Sélectionnez le type de document à exporter, c&#39;est-à-dire le schéma des données à exporter.
 
-Par défaut, lorsque l’export est lancé depuis le nœud **[!UICONTROL Traitements]**, il s’agit des données de la table des destinataires. Si l’export est lancé à partir d’une liste de données (à partir du **[!UICONTROL menu contextuel > Exporter]**), la table à laquelle appartiennent les données est automatiquement renseignée dans le champ **[!UICONTROL Type de document]**.
+Par défaut, lorsque l&#39;export est lancé depuis le nœud **[!UICONTROL Traitements]**, il s&#39;agit des données de la table des destinataires. Si l&#39;export est lancé à partir d&#39;une liste de données (à partir du **[!UICONTROL menu contextuel > Exporter]**), la table à laquelle appartiennent les données est automatiquement renseignée dans le champ **[!UICONTROL Type de document]**.
 
 ![](assets/s_ncs_user_export_wizard02.png)
 
@@ -111,7 +111,7 @@ Vous pouvez modifier l&#39;ordre et le libellé des champs pour le fichier de so
 
    ![](assets/s_ncs_user_export_wizard06.png)
 
-* Cliquez sur l’icône **[!UICONTROL Ajouter un champ calculé]** si vous voulez créer un champ calculé (par exemple, une colonne contenant le nom+le prénom). Voir à ce sujet la section [Champs calculés](../../platform/using/executing-import-jobs.md#calculated-fields).
+* Cliquez sur l&#39;icône **[!UICONTROL Ajouter un champ calculé]** si vous voulez créer un champ calculé (par exemple, une colonne contenant le nom+le prénom). Voir à ce sujet la section [Champs calculés](../../platform/using/executing-import-jobs.md#calculated-fields).
 
 Si vous exportez une collection d&#39;éléments (par exemple les abonnements des destinataires, les listes auxquelles ils appartiennent, etc.), vous devez indiquer le nombre d&#39;éléments de la collection que vous voulez exporter.
 
@@ -131,4 +131,4 @@ Cliquez sur **[!UICONTROL Démarrer]** pour lancer l&#39;export des données.
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-Vous pouvez ensuite surveiller l’exécution de la tâche d’importation (voir [Surveillance de l’exécution des tâches](../../platform/using/monitoring-jobs-execution.md).
+Vous pouvez ensuite surveiller l&#39;exécution du traitement d&#39;import (voir [Surveillance de l&#39;exécution des traitements](../../platform/using/monitoring-jobs-execution.md).
