@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+source-git-commit: c24cdd21c2426ea12a1cbd76d78154256bc814c8
 workflow-type: tm+mt
-source-wordcount: '3179'
-ht-degree: 100%
+source-wordcount: '3214'
+ht-degree: 98%
 
 ---
 
@@ -123,6 +123,11 @@ Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, vous pouvez mettre à jo
 Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;accéder aux options suivantes :
 
 * L&#39;option **[!UICONTROL Bloquer le compte]** permet de désactiver le compte de l&#39;opérateur : celui-ci ne peut plus accéder à Adobe Campaign.
+
+   >[!NOTE]
+   >
+   >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de Campaign. Pour arrêter d&#39;envoyer des notifications Campaign à cet opérateur, l&#39;Adobe vous recommande de supprimer l&#39;adresse électronique de son profil.
+
 * L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
 * Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
 * Vous pouvez également définir un masque IP de confiance à partir du lien correspondant.
