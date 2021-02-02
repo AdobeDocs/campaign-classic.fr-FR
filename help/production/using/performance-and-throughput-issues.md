@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '692'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ Consultez les [Notes de mise à jour](../../rn/using/latest-release.md) pour plu
 
 Les instructions générales concernant les exigences matérielles pour Campaign Classic on-premise sont présentées dans cette [page](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
-L’équipe de conseillers peut fournir aux clients de la version hébergée un outil leur permettant de voir facilement combien d’espace est utilisé par différents types de tables dans la base de données ainsi que l’espace utilisé sur le site SFTP. Elle propose en outre des outils de suppression des données inutiles. Contactez les équipes de conseillers ou de support si vous avez besoin d’implémenter cet outil. Voici quelques points importants à vérifier à l’aide de cet outil :
+L’équipe de consultants peut fournir aux clients hébergés un outil qui vous permet de facilement vue l’espace utilisé par divers types de tables dans la base de données ainsi que l’espace utilisé sur le site SFTP. Il fournit également des outils permettant de nettoyer les données inutiles. Contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si vous avez besoin de l’implémentation de cet outil. Voici quelques éléments importants à vérifier à l’aide de cet outil :
 
 * Un nettoyage est requis si la taille de l’index est supérieure à la taille de la table.
 * Vérifiez les tables qui sont remplies au maximum. Si celles-ci sont fréquemment utilisées, alors il est important de les nettoyer.
