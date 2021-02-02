@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Configuration de traitements d'import
-description: Découvrez comment configurer et exécuter des tâches d’importation dans le Campaign Classic.
+description: Découvrez comment configurer et exécuter des traitements d'import dans Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -10,26 +10,26 @@ translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '3204'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Configuration de traitements d&#39;import {#executing-import-jobs}
 
-Adobe Campaign vous permet d’importer des données dans la base de données à partir d’un ou de plusieurs fichiers au format texte, CSV, TAB ou XML. Ces fichiers sont associés à une table (principale ou liée) et chaque champ du ou des fichiers source est associé à un champ de la base de données.
+Adobe Campaign vous permet d&#39;importer des données dans la base de données à partir d&#39;un ou de plusieurs fichiers au format texte, CSV, TAB ou XML. Ces fichiers sont associés à une table (principale ou liée) et chaque champ du ou des fichier(s) source est associé à un champ de la base de données.
 
 >[!NOTE]
 >
 >Vous pouvez importer des données sans les associer aux données de la base en utilisant la fonction **[!UICONTROL Importer une liste.]** Les données seront alors utilisables exclusivement dans les workflows via l&#39;objet **[!UICONTROL Lecture de liste]**. Voir à ce sujet [cette page](../../workflow/using/read-list.md).
 
-L’assistant d&#39;import vous permet de configurer une importation, de définir ses options (telles que la transformation des données) et l’exécution du lancement. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;importation (simple ou multiple) et des droits de l&#39;opérateur.
+L&#39;assistant d&#39;import vous permet de configurer un import, de définir ses options (comme la transformation de données) et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;import (simple ou multiple) et des droits de l&#39;opérateur.
 
-L&#39;assistant d&#39;import s&#39;affiche après avoir créé une tâche d&#39;importation (voir [Création de tâches d&#39;importation et d&#39;exportation](../../platform/using/creating-import-export-jobs.md).
+L&#39;assistant d&#39;import s&#39;affiche après avoir créé un nouveau traitement d&#39;import (voir [Création de traitements d&#39;import et d&#39;export](../../platform/using/creating-import-export-jobs.md).
 
 >[!NOTE]
 >
->Si vous utilisez un serveur web IIS, un paramétrage peut-être nécessaire afin d&#39;autoriser le téléchargement de gros fichiers (> 28 Mo). Voir à ce sujet [cette section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
+>Si vous utilisez un serveur web IIS, un paramétrage peut-être nécessaire afin d&#39;autoriser le téléchargement de fichiers volumineux (> 28 Mo). Voir à ce sujet [cette section](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit).
 
 ## Fichier source {#source-file}
 
@@ -59,7 +59,7 @@ Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélect
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Chaque fois qu’un fichier est ajouté, l’écran de l’assistant **[!UICONTROL Fichier à importer]** s’affiche. Consultez la section [Etape 2 - Choix du fichier source](#step-2---source-file-selection) et suivez les étapes de l’assistant pour définir les options d’import comme pour un import simple.
+   Chaque fois qu&#39;un fichier est ajouté, l&#39;écran de l&#39;assistant **[!UICONTROL Fichier à importer]** s&#39;affiche. Consultez la section [Etape 2 - Choix du fichier source](#step-2---source-file-selection) et suivez les étapes de l&#39;assistant pour définir les options d&#39;import comme pour un import simple.
 
    >[!NOTE]
    >
@@ -217,9 +217,9 @@ Il convient aussi de ne pas choisir un champ qui risque d&#39;être modifié lor
 
 >[!NOTE]
 >
->Pour un import de destinataires, l’identifiant du dossier sélectionné est implicitement ajouté à la clé.
+>Pour un import de destinataires, l&#39;identifiant du dossier sélectionné est implicitement ajouté à la clé.
 >
->La réconciliation n’est donc effectuée que sur ce dossier (sauf si aucun dossier n’est sélectionné).
+>La réconciliation n&#39;est donc effectuée que sur ce dossier (sauf si aucun dossier n&#39;est sélectionné).
 
 ### Déduplication {#deduplication}
 
@@ -256,8 +256,8 @@ Le détail de ces rejets est visible depuis l&#39;onglet **[!UICONTROL Rejets]**
 
 Les rejets peuvent être de deux types (le type est affiché dans la colonne **[!UICONTROL Connecteur]**) :
 
-* Les rejets du connecteur texte concernent les erreurs lors du traitement de la ligne du fichier (champ calculé, analyse de données, etc.). Ainsi, en cas d’erreur, c’est toujours la ligne entière qui est rejetée.
-* Les rejets du connecteur base de données concernent les erreurs ayant lieu lors de la réconciliation des données ou de l’écriture dans la base. Dans le cas d’un import sur plusieurs tables, le rejet peut ne concerner qu’une portion de l’enregistrement (par exemple pour un import de destinataires et d’événements associés, une erreur peut empêcher la mise à jour d’un événement sans pour autant rejeter le destinataire).
+* Les rejets du connecteur texte concernent les erreurs lors du traitement de la ligne du fichier (champ calculé, analyse de données, etc.). Ainsi, en cas d&#39;erreur, c&#39;est toujours la ligne entière qui est rejetée.
+* Les rejets du connecteur base de données concernent les erreurs ayant lieu lors de la réconciliation des données ou de l&#39;écriture dans la base. Dans le cas d&#39;un import sur plusieurs tables, le rejet peut ne concerner qu&#39;une portion de l&#39;enregistrement (par exemple pour un import de destinataires et d&#39;événements associés, une erreur peut empêcher la mise à jour d&#39;un événement sans pour autant rejeter le destinataire).
 
 Dans la page de réconciliation des données, il est possible de définir champ par champ, et table par table, le type de gestion d&#39;erreur souhaité.
 
@@ -291,7 +291,7 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
       >[!NOTE]
       >
-      >Le dossier par défaut de l’opérateur correspond au premier dossier dans lequel l’opérateur a le droit d’écrire. Voir [Gestion de l’accès aux dossiers](../../platform/using/access-management.md#folder-access-management).
+      >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire. Voir [Gestion de l&#39;accès aux dossiers](../../platform/using/access-management.md#folder-access-management).
 
       Pour choisir le dossier d&#39;import, cliquez sur la flèche située à droite du champ **[!UICONTROL Dossier]** et sélectionnez le dossier visé. Vous pouvez également utiliser l&#39;icône **[!UICONTROL Choisir le lien]** pour afficher l&#39;arborescence dans une nouvelle fenêtre ou créer un nouveau dossier.
 
@@ -335,4 +335,4 @@ La dernière étape de l&#39;assistant permet de lancer l&#39;import des donnée
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-Vous pouvez ensuite surveiller l’exécution de la tâche d’importation (voir [Surveillance de l’exécution des tâches](../../platform/using/monitoring-jobs-execution.md).
+Vous pouvez ensuite surveiller l&#39;exécution du traitement d&#39;import (voir [Surveillance de l&#39;exécution des traitements](../../platform/using/monitoring-jobs-execution.md).
