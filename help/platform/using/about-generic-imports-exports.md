@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos des imports et exports génériques
-description: En savoir plus sur les importations et les exportations génériques.
+title: À propos des imports et exports génériques
+description: En savoir plus sur les imports et exports génériques.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -10,22 +10,22 @@ translation-type: tm+mt
 source-git-commit: c650862efc74cfbe8f73f11ef905be9f35614088
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
-# A propos des imports et exports génériques {#about-generic-imports-exports}
+# À propos des imports et exports génériques {#about-generic-imports-exports}
 
-Adobe Campaign Classic fournit des importations et des exportations génériques. Ils vous permettent, par exemple, d&#39;extraire une liste de clients ou de prospects qui feront alors partie d&#39;une population de cibles, ou de fournir à votre base de données des données provenant de fichiers externes.
+Adobe Campaign Classic fournit des imports et exports génériques. Ils vous permettent, par exemple, d&#39;extraire une liste de clients ou de prospects qui feront alors partie d&#39;une population cible, ou de fournir à votre base de données des données provenant de fichiers externes.
 
-Les importations et exportations génériques sont gérées à partir du noeud **[!UICONTROL Profils et Cibles > Emplois > Importations et exportations génériques]** de l&#39;arbre Adobe Campaign.
+Les imports et exports génériques sont gérés à partir du nœud **[!UICONTROL Profils et Cibles > Traitements > Imports et exports génériques]** de l&#39;arbre Adobe Campaign.
 
-Les étapes permettant d’effectuer des opérations d’importation et d’exportation génériques sont les suivantes :
+Les étapes permettant d&#39;effectuer des opérations d&#39;import et d&#39;export génériques sont les suivantes :
 
-1. [Créez un modèle](../../platform/using/creating-import-export-templates.md)  d’importation ou d’exportation (facultatif).
-1. [Créez une tâche](../../platform/using/creating-import-export-jobs.md) d’importation ou d’exportation.
-1. Configurez et exécutez la tâche [import](../../platform/using/executing-import-jobs.md) ou [export](../../platform/using/executing-export-jobs.md).
-1. [](../../platform/using/monitoring-jobs-execution.md) Contrôle de l’exécution de la tâche.
+1. [Créer un modèle d&#39;import ou d&#39;export](../../platform/using/creating-import-export-templates.md) (facultatif).
+1. [Créer un traitement d&#39;import ou d&#39;export](../../platform/using/creating-import-export-jobs.md).
+1. Configurer et exécuter le traitement [import](../../platform/using/executing-import-jobs.md) ou [export](../../platform/using/executing-export-jobs.md).
+1. [Surveiller](../../platform/using/monitoring-jobs-execution.md) l&#39;exécution du traitement.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
