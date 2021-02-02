@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 85fae38f864b031f069058dae79ce6753dc4bf03
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les causes des problèmes de connexion peuvent être multiples et dépendent des différents contextes.
 
-Vous pouvez appliquer les tests suivants. Si l’échec de connexion persiste, contactez l’**Assistance clientèle d’Adobe**.
+Vous pouvez tester les tests suivants et si l’échec de connexion persiste, contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 
