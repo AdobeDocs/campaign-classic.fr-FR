@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Apprenez à orchestrer les processus et les tâches à l&#39;aide des workflows 
 
 ## Comment importer des données dans Campaign ?{#how-can-i-import-data-in-campaign-}
 
-Découvrez les meilleures pratiques pour importer des données dans [cette section](../../platform/using/import-export-best-practices.md).
+Découvrez les bonnes pratiques pour importer des données dans [cette section](../../platform/using/import-export-best-practices.md).
 
 ## Est-il possible de suivre l&#39;exécution des workflows ?{#can-i-monitor-workflow-execution-}
 
