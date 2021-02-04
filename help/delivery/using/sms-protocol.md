@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
 source-wordcount: '8433'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->Le **protocole et paramètres du connecteur SMS** pour Adobe Campaign Standard se trouve dans cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html#administrating).
+>Le **protocole et les paramètres du connecteur SMS** pour Adobe Campaign Standard sont présentés dans cette [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html?lang=fr#administrating).
 >
 >Dans ce document, toutes les références au protocole, aux noms de champs et aux valeurs se rapportent à la [spécification SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -32,7 +32,7 @@ Il existe deux façons principales d&#39;envoyer un SMS :
 * L&#39;envoyer depuis Internet, façon dont Adobe Campaign envoie des messages. Pour cela, vous avez besoin d&#39;un fournisseur de services de SMS destiné à connecter Internet au réseau mobile.
 Adobe Campaign utilise le protocole SMPP pour envoyer des SMS à un fournisseur de services.
 
-Ce document vous guidera dans la connexion établie entre Adobe Campaign et un fournisseur SMPP.
+Ce document vous guide tout au long de la configuration de la connexion entre Adobe Campaign et un fournisseur SMPP.
 
 Les fournisseurs SMPP peuvent parfois s&#39;écarter des spécifications officielles, mais le connecteur SMS d&#39;Adobe Campaign offre de nombreuses options pour adapter son comportement pour qu&#39;il soit compatible avec la plupart des fournisseurs.
 
@@ -74,7 +74,7 @@ Un SMS contient plus d&#39;informations que de texte. Voici une liste de ce que 
 
 ## Protocole SMPP {#smpp-protocol}
 
-Adobe Campaign Classic prend en charge le protocole SMPP version 3.4. Il s&#39;agit d&#39;un protocole étendu qui permet d&#39;envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des reçus. Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Classic prend en charge le protocole SMPP version 3.4. Il s&#39;agit d&#39;un protocole répandu qui permet d&#39;envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des accusés de réception. Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 L&#39;équipement réseau côté fournisseur SMS est souvent appelé SMSC.
 
@@ -86,11 +86,11 @@ SMPP ouvre 1 ou 2 connexions TCP, selon son mode. Toutes les connexions sont to
 Le protocole SMPP peut fonctionner en deux modes :
 
 * **Transmitter + receiver (ou TX+RX)** : deux connexions TCP distinctes sont utilisées pour la transmission et la réception de messages.
-* **Transcepteur (ou TRX)** : une connexion TCP unique est utilisée pour transmettre et recevoir des messages.
+* **Transceiver (ou TRX)** : une connexion TCP unique est utilisée pour transmettre et recevoir des messages.
 
 >[!NOTE]
 >
-> Adobe Campaign Classic ne prend en charge que le mode TX+RX. Cette limitation est due à son architecture technique.
+> Adobe Campaign Classic ne prend en charge que le mode TX+RX. Cette limite est liée à son architecture technique.
 
 ### PDU SMPP {#smpp-pdu}
 
@@ -104,7 +104,7 @@ Par exemple, lors de l&#39;envoi d&#39;un MT, la connexion de l&#39;émetteur es
 
 ![](assets/do-not-localize/sms_protocol_1.png)
 
-Dans Adobe Campaign Classic, pour lier SR à leur MT correspondante, un identifiant est renvoyé par le SMSC avec les étapes `SUBMIT_SM_RESP` et `DELIVER_SM`. L&#39;identifiant est stocké dans le champ `providerId` de la table `nms::providerMsgId` et est lié à `broadLogId` et `deliveryId`. Cette opération de correspondance est effectuée par le processus SMS lors de l&#39;écriture dans la base de données.
+Dans Adobe Campaign Classic, pour lier un SR à son MT correspondant, un identifiant est renvoyé par le SMSC avec les étapes `SUBMIT_SM_RESP` et `DELIVER_SM`. L&#39;identifiant est stocké dans le champ `providerId` de la table `nms::providerMsgId` et est lié à `broadLogId` et `deliveryId`. Cette opération de correspondance est effectuée par le processus SMS lors de l&#39;écriture dans la base de données.
 
 Un `SUBMIT_SM_RESP PDU` réussi déclenche le statut du message &quot;envoyé&quot; dans le journal d&#39;envoi tandis qu&#39;un `DELIVER_SM (SR) PDU` réussi déclenche le statut du message &quot;reçu&quot;.
 
@@ -150,7 +150,7 @@ Champs visibles dans un `BIND_* PDU` :
 
 #### UNBIND {#unbind}
 
-Ce PDU doit être envoyé par le système avant de se déconnecter. Il doit attendre la PDU `UNBIND_RESP` correspondante avant de fermer la connexion.
+Ce PDU doit être envoyé par le système avant de se déconnecter. Il doit attendre le PDU `UNBIND_RESP` correspondant avant de fermer la connexion.
 
 La conformité SMSC ne doit pas fermer la connexion, la connexion TCP est contrôlée par le connecteur Adobe Campaign.
 
@@ -158,7 +158,7 @@ La conformité SMSC ne doit pas fermer la connexion, la connexion TCP est contr�
 
 Ce PDU envoie un MT au SMSC. Sa réponse PDU donne l&#39;ID du MT.
 
-Champs visibles dans une PDU `SUBMIT_SM` :
+Champs visibles dans un PDU`SUBMIT_SM` :
 
 * **service_type** : requis par certains fournisseurs. Défini dans les propriétés de la diffusion.
 
@@ -212,13 +212,13 @@ La plupart des champs ont la même signification que leur contrepartie `SUBMIT_S
 
 * **short_message** : texte du message. Pour le SR, il contient les données décrites à l&#39;annexe B de la spécification du protocole SMPP. Voir [Gestion des erreurs SR](../../delivery/using/sms-protocol.md#sr-error-management) pour plus de détails.
 
-Adobe Campaign peut lire l&#39;ID de message dans le champ facultatif `receipted_message_id` avec une configuration particulière.
+Adobe Campaign peut lire l&#39;identifiant du message dans le champ facultatif `receipted_message_id` avec un ajustement de la configuration.
 
 #### DELIVER_SM_RESP {#deliver-sm-resp}
 
 Ce PDU est envoyé par Adobe Campaign pour acquitter SR et MO.
 
-Adobe Campaign Classic reconnaît SR et MO une fois qu&#39;ils ont été insérés dans la base de données. Certaines erreurs de traitement peuvent se produire même si une PDU `DELIVER_SM_RESP` réussie a été envoyée. Cette limitation est due à l&#39;architecture logicielle de Adobe Campaign Classic.
+Adobe Campaign Classic reconnaît SR et MO une fois qu&#39;ils ont été insérés dans la base de données. Certaines erreurs de traitement peuvent se produire même si un PDU `DELIVER_SM_RESP` réussi a été envoyé. Cette limite est due à l&#39;architecture logicielle d&#39;Adobe Campaign Classic.
 
 #### ENQUIRE_LINK {#enquire-links}
 
@@ -256,7 +256,7 @@ Pour atteindre le débit maximal possible, vous devez affiner la fenêtre d&#39;
 
 Le protocole SMPP définit des erreurs synchrones standard dans `RESP PDU`, mais il ne définit pas de codes d&#39;erreur pour SR. Chaque fournisseur utilise ses propres codes d&#39;erreur avec leur signification.
 
-Une recommandation est faite dans la section de l&#39;annexe B de la [spécification du protocole SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 167), mais cela ne liste pas les codes d&#39;erreur réels ni leur signification.
+Une recommandation est faite dans la section de l&#39;Annexe B de la [spécification du protocole SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 167), mais sans indiquer les codes d&#39;erreur réels ni leur signification.
 
 Pour s&#39;adapter à la gestion des erreurs, le système de messagerie broadlog d&#39;Adobe Campaign a été exploité pour indiquer correctement les erreurs et leur sévérité (hard, soft, etc.).
 
@@ -267,7 +267,7 @@ Comme mentionné ci-dessus, il existe deux types d&#39;erreurs :
 
 Lorsqu&#39;un SR est reçu, le statut et l&#39;erreur se trouvent dans son champ `short_message` (exemple pour les mises en œuvre conformes à l&#39;Annexe B). Le champ `short_message` du PDU est souvent appelé le **champ de texte**, car il contient du texte en MT. En cas de SR, il contient des informations techniques ainsi qu&#39;un sous-champ nommé **Texte**. Ces deux champs sont différents et `short_message` contiennent en fait le champ **Texte** et d&#39;autres informations.
 
-Les connecteurs Adobe Campaign Classic (à l’exception de l’option SMPP étendu) utilisent un comportement codé en dur qui dépend du fournisseur sélectionné. Le SMPP générique ne fait que distinguer la réussite de l&#39;erreur, sans aucun détail. Le journal des diffusions peut contenir certaines informations qui ne sont pas garanties.
+Les connecteurs Adobe Campaign Classic (à l&#39;exception de l&#39;option SMPP étendu) utilisent un comportement codé en dur qui dépend du fournisseur sélectionné. Le SMPP générique ne fait que distinguer la réussite de l&#39;erreur, sans aucun détail. Le log de diffusion peut contenir certaines informations qui ne sont pas garanties.
 
 #### Format de champ de texte SR {#sr-text-field-format}
 
@@ -291,7 +291,7 @@ Le champ &quot;err&quot; contient le code d&#39;erreur propre au fournisseur. Le
 
 Enfin, le champ &quot;text&quot; contient généralement le début du texte du MT. Adobe Campaign n&#39;en tient pas compte et certains fournisseurs ne le transmettent pas pour éviter les fuites d&#39;informations d&#39;identification personnelle et la consommation de bande passante du réseau. Il peut être utilisé lors de résolution des problèmes pour repérer plus facilement le SR correspondant à un test MT en lisant ce champ.
 
-### Exemple de traitement SR dans Adobe Campaign Classic Extended générique SMPP {#sr-processing}
+### Exemple de traitement SR dans un SMPP générique étendu Adobe Campaign Standard {#sr-processing}
 
 Cet exemple montre comment afficher le cas d&#39;une mise en œuvre suivant la recommandation de l&#39;Annexe B, les valeurs par défaut dans le compte externe et un SMS MT réussi.
 
@@ -327,7 +327,7 @@ Par défaut, toutes les erreurs sont configurées en tant qu&#39;erreurs logicie
 
 ### Encodage du texte SMS {#sms-text-encoding}
 
-Vous devez **toujours contacter le fournisseur SMSC en cas de problèmes d&#39;encodage**. Seuls les fournisseurs SMSC ont une connaissance du codage qu&#39;ils prennent en charge et des règles spéciales qui peuvent s&#39;appliquer en raison de limitations de leur plateforme technique.
+Vous devez **toujours contacter le fournisseur SMSC en cas de problèmes d&#39;encodage**. Seuls les fournisseurs SMSC ont une connaissance de l&#39;encodage qu&#39;ils prennent en charge et des règles spéciales qui peuvent s&#39;appliquer en raison des limites de leur plateforme technique.
 
 Les messages SMS utilisent un encodage spécial de 7 bits, souvent appelé encodage GSM7.
 
@@ -335,7 +335,7 @@ Dans le protocole SMPP, le texte GSM7 sera étendu à 8 bits par caractère pou
 
 En cas de problème d&#39;encodage, voici quelques éléments importants à vérifier :
 
-* Assurez-vous de connaître les caractères qui font partie de l&#39;encodage. GSM7 ne prend pas entièrement en charge les marques ou accents diacritiques. Surtout en français, où &quot;é&quot; et &quot;è&quot; font partie de GSM7, mais &quot;ê&quot;, &quot;â&quot; ou &quot;ï&quot; non. Il en va de même pour l&#39;espagnol.
+* Assurez-vous de connaître les caractères qui font partie de l&#39;encodage. GSM7 ne prend pas entièrement en charge les signes diacritiques ou les accents. Surtout en français, où &quot;é&quot; et &quot;è&quot; font partie de GSM7, mais &quot;ê&quot;, &quot;â&quot; ou &quot;ï&quot; non. Il en va de même pour l&#39;espagnol.
 
 * Le C avec cédille (ç) n&#39;est présent que dans les majuscules de l&#39;alphabet GSM7, mais certains téléphones le rendent en minuscules ou &quot;smart&quot;. La recommandation générale est d&#39;éviter complètement la cédille ou de basculer en UCS-2.
 
@@ -405,17 +405,17 @@ Valeur transmise dans le champ `system_id` du PDU BIND. Certains fournisseurs on
 
 Dans Adobe Campaign Classic, il définit le nombre de connexions par enfant MTA.
 
-Le connecteur SMPP Adobe Campaign Classic Extended peut contrôler le nombre de connexions par enfant MTA. Pour contrôler la limite globale des connexions, vous devrez limiter le nombre de processus enfant MTA, ce qui signifie souvent disposer d&#39;une plateforme de midsourcing dédiée pour les SMS.
+Le connecteur SMPP étendu Adobe Campaign Classic peut contrôler le nombre de connexions par enfant MTA. Pour contrôler la limite globale des connexions, vous devrez limiter le nombre de processus enfant MTA, ce qui signifie souvent disposer d&#39;une plateforme de mid-sourcing dédiée pour les SMS.
 
-Pour Adobe Campaign Classic, il peut y avoir un nombre différent de connexions de récepteurs et d&#39;émetteurs :
+Pour Adobe Campaign Classic, le nombre de connexions de récepteurs et d&#39;émetteurs peut être différent :
 
-* **Connexions de l’émetteur = Nombre de connexions enfant MTA * Nombre de processus enfant MTA * Nombre de MTA (si la réponse automatique est définie) + Nombre de connexions enfant MTA**
+* **Connexions de l&#39;émetteur = Nombre de connexions enfant MTA * Nombre de processus enfant MTA * Nombre de MTA (si la réponse automatique est définie) + Nombre de connexions enfant MTA**
 
-Comme nous l&#39;avons suggéré plus haut, le processus SMS Adobe Campaign Classic ouvre plus de connexions d&#39;émetteur si la réponse automatique est activée. Ces connexions supplémentaires sont utilisées pour envoyer les réponses automatiques.
+Comme nous l&#39;avons suggéré plus haut, le processus SMS d&#39;Adobe Campaign Classic ouvre davantage de connexions d&#39;émetteur si la réponse automatique est activée. Ces connexions supplémentaires sont utilisées pour envoyer les réponses automatiques.
 
-* **Connexions du destinataire = Nombre de connexions enfants MTA**
+* **Connexions de récepteur = Nombre de connexions enfant MTA**
 
-Si vous configurez des réponses automatiques, le processus SMS ouvrira des paires émetteur/récepteur, augmentant ainsi le nombre de connexions d&#39;émetteur. Si vous n&#39;avez pas configuré de réponse automatique, elle n&#39;ouvrira que les connexions de réception.
+Si vous configurez des réponses automatiques, le processus SMS ouvrira des paires émetteur/récepteur, augmentant ainsi le nombre de connexions d&#39;émetteur. Si vous n&#39;avez pas configuré de réponse automatique, elle n&#39;ouvrira que les connexions de récepteur.
 
 #### Activer TLS via SMPP {#enable-TLS}
 
@@ -425,7 +425,7 @@ Utilisez TLS pour vous connecter au fournisseur. La connexion sera cryptée. La 
 
 Ce paramètre permet de vider tout le trafic SMPP dans les fichiers logs. Il est souvent nécessaire d&#39;ajuster les paramètres lors de la configuration initiale. Ceci doit être activé lors de la résolution des problèmes du connecteur et comparé au trafic vu par le fournisseur.
 
-Dans Adobe Campaign Classic, la sortie du journal se trouve dans le journal MTA pour le trafic lié aux MT et dans le journal SMS pour le trafic lié aux MO et SR.
+Dans Adobe Campaign Classic, la sortie du log se trouve dans le log MTA pour le trafic lié aux MT et dans le log SMS pour le trafic lié aux MO et SR.
 
 ### Paramètre de connexion du récepteur {#receiver-connection}
 
@@ -457,7 +457,7 @@ Pour obtenir une explication plus générale du processus d&#39;encodage, consul
 
 Lorsque l&#39;option est activée, le MO entrant est stocké dans le tableau inSMS de la base de données. Ce tableau peut être interrogé à l&#39;aide de l&#39;activité requête de tout workflow.
 
-Adobe Campaign Classic stocke toujours tous les MO dans la base de données inSMS afin que cette option ne soit pas disponible.
+Adobe Campaign Classic stocke toujours tous les MO dans la base de données inSMS. Cette option n&#39;est donc pas disponible.
 
 #### Activer les mises à jour des KPI en temps réel pendant le traitement du SR (rapport d&#39;état){#real-time-kpi}
 
@@ -465,7 +465,7 @@ Lorsqu&#39;ils sont activés, les KPI (indicateurs de performance clés) sont mi
 
 L&#39;inconvénient peut être de faibles performances en raison de la contention de base de données qu&#39;elle génère. Si cette option est désactivée, les statistiques sont mises à jour par le workflow **syncfromexec**, qui s&#39;exécute toutes les 20 minutes.
 
-Adobe Campaign Classic dispose d’un mécanisme entièrement différent pour les indicateurs de performance clés. Cette option n’est donc pas disponible.
+Adobe Campaign Classic dispose d&#39;un mécanisme entièrement différent pour les KPI (indicateurs de performance clés). Cette option n&#39;est donc pas disponible.
 
 #### Numéro source {#source-number}
 
@@ -485,7 +485,7 @@ La spécification d&#39;un numéro court s&#39;avère utile pour deux fonctionna
 
 * Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine l&#39;utilisateur pour un numéro court spécifique.
 
-#### Source TON/NPI, destination TON/NPI {#ton-npi}
+#### NPI/TON source, NPI/TON destination {#ton-npi}
 
 Le TON (Type de numéro) et le NPI (Indicateur de plan de numérotation) sont décrits à la section 5.2.5 de la [spécification SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 117). Ces valeurs doivent être définies en fonction des besoins du fournisseur.
 
@@ -707,11 +707,11 @@ Permet d&#39;ajouter un fichier TLV personnalisé. Ce champ définit la partie b
 
 Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
-### Réponse automatique aux MO      {#automatic-reply}
+### Réponse automatique aux MO       {#automatic-reply}
 
 >[!IMPORTANT]
 >
->Dans Adobe Campaign Classic et dans une architecture hybride, l’application de réponse automatique pour le connecteur SMPP étendu nécessite l’ajout d’un accès en écriture pour l’opérateur mid sur le dossier **Compte externe**.
+>Dans Adobe Campaign Classic et avec une architecture hybride, l&#39;application d&#39;une réponse automatique pour le connecteur SMPP étendu nécessite l&#39;ajout d&#39;un accès en écriture pour l&#39;opérateur mid sur le dossier **Compte externe**.
 
 Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
 
@@ -773,37 +773,37 @@ La période de validité est transmise dans le champ `validity_period` du `SUBMI
 
 ![](assets/do-not-localize/sms_protocol_4.png)
 
-Les flèches représentent des flux de données.
+Les flèches représentent les flux de données.
 
-Lors de l’envoi de pièces de diffusion, la MTA génère des enfants MTA. Le nombre de processus enfants MTA est dynamique et dépend d’une configuration dans le fichier serverConf.xml. Chaque enfant MTA instancie le connecteur `CSmppConnectorWorker` qui se connecte au fournisseur SMPP. Les connexions sont maintenues en vie tant que l’enfant MTA est maintenu en vie, ce qui est également configurable dans serverConf.xml.
+Lors de l&#39;envoi de fragments de diffusion, le MTA génère des enfants MTA. Le nombre de processus enfant MTA est dynamique et dépend d&#39;une configuration dans le fichier serverConf.xml. Chaque enfant MTA instancie le connecteur `CSmppConnectorWorker` qui se connecte au fournisseur SMPP. Les connexions sont maintenues actives tant que l&#39;enfant MTA est en vie, ce qui est également configurable dans serverConf.xml.
 
-Le processus SMS ne traite que SR, se connecte au fournisseur et laisse la connexion ouverte. Le processus se reconnecte toutes les 10 minutes pour recharger de nouveaux paramètres, ce qui est normal.
+Le processus SMS ne traite que le SR, se connecte au fournisseur et laisse la connexion ouverte. Le processus se reconnecte toutes les 10 minutes pour recharger de nouveaux paramètres, ce qui est normal.
 
 ### Correspondance des entrées MT, SR et broadlog {#matching-mt}
 
-Une table intermédiaire `nmsProviderMsgId` est utilisée pour stocker temporairement les données MT et SR avant d&#39;être validée de manière asynchrone sur le journal large.
+Une table `nmsProviderMsgId` intermédiaire est utilisée pour stocker temporairement les données MT et SR avant la validation asynchrone sur le broadlog.
 
-`nmsProviderMsgId` Le tableau comprend 3 groupes de colonnes :
+La table `nmsProviderMsgId` comprend 3 groupes de colonnes :
 
-* Colonnes mises à jour lorsqu’un MT est envoyé et accusé de réception : `iBroadLogId`, `iDeliveryId`
+* Colonnes mises à jour lorsqu&#39;un MT est envoyé et fait l&#39;objet d&#39;un accusé de réception : `iBroadLogId`, `iDeliveryId`
 
-* Colonnes mises à jour lors de la réception d&#39;une SR : `iMsgId`, `iStatus`
+* Colonnes mises à jour lors de la réception d&#39;un SR : `iMsgId`, `iStatus`
 
-* Colonnes qui sont toujours mises à jour : `tsCreated`, `sProviderId`
+* Colonnes toujours mises à jour : `tsCreated`, `sProviderId`
 
-Une fois le traitement de MT et SR terminé, vous devriez avoir des lignes complètes, avec des informations à la fois sur le journal large et sur l&#39;état.
+Une fois le traitement des MT et SR terminé, vous devriez avoir des lignes complètes, avec des informations concernant à la fois le broadlog et l&#39;état.
 
-Ici, `iMsgId` est lié à la table `nmsBroadLogMsg`, ce qui indique le message d’état/d’erreur complet.
+Ici, `iMsgId` est lié à la table `nmsBroadLogMsg`, ce qui indique le message d&#39;état/d&#39;erreur complet.
 
-Le processus SMS recherche toutes les minutes des lignes complètes, puis les traite de façon asynchrone :
+Le processus SMS recherche toutes les minutes des lignes complètes, puis les traite de façon asynchrone :
 
 * La ligne complète est lue.
-* Le processus SMS calcule le nom de la table du journal large en fonction du mappage des diffusions.
-* Le processus SMS met à jour la table du journal de publication avec l&#39;ID du message et l&#39;état.
+* Le processus SMS calcule le nom de la table de broadlog en fonction du mapping de diffusion.
+* Le processus SMS met à jour la table du broadlog avec l&#39;identifiant du message et l&#39;état.
 
-**Connexions de débit et parallèles**
+**Débit et connexions parallèles**
 
-Chaque enfant MTA crée un nombre configurable de connexions, de sorte que la limitation du nombre d’enfants MTA limite le nombre de connexions. Comme la corrélation entre les processus enfants MTA et le trafic est corrélée, cela peut être quelque peu contrôlé mais encore un peu imprévisible.
+Chaque enfant MTA crée un nombre configurable de connexions, de sorte que la limite du nombre d&#39;enfants MTA restreint le nombre de connexions. Comme les processus enfant MTA et le trafic sont corrélés, il existe un certain contrôle bien qu&#39;encore un peu imprévisible.
 
 ## Avant la mise en ligne {#checklist}
 
