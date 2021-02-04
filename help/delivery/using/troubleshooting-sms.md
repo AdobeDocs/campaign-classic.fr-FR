@@ -9,13 +9,13 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '2751'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Résolution des problèmes SMS {#troubleshooting-sms}
+# Résolution des problèmes de SMS {#troubleshooting-sms}
 
 ## Conflit entre différents comptes externes {#external-account-conflict}
 
@@ -69,11 +69,11 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m�
 * Recherchez (dans le répertoire /postupgrade) si le système a été mis à niveau et quand.
 * Déterminez si des packages affectant les SMS ont pu être mis à jour récemment (/var/log/dpkg.log).
 
-## Problème avec le midsourcing (hébergé){#issue-mid-sourcing}
+## Problème lié au mid-sourcing (hébergé){#issue-mid-sourcing}
 
-* Si le problème survient sur un environnement de midsourcing, assurez-vous que la diffusion et les journaux étendus sont correctement créés et mis à jour sur le serveur de midsourcing. Si ce n&#39;est pas le cas, ce n&#39;est pas un problème de SMS.
+* Si le problème se produit dans un environnement de mid-sourcing, vérifiez que les logs de diffusion et les broadlogs sont correctement créés et mis à jour sur le serveur de mid-sourcing. Si ce n&#39;est pas le cas, il ne s&#39;agit pas d&#39;un problème de SMS.
 
-* Si tout fonctionne sur le serveur intermédiaire et que les SMS sont correctement envoyés, mais que l’instance marketing n’est pas correctement mise à jour, un problème de synchronisation intermédiaire peut se produire.
+* Si tout fonctionne sur le serveur de mid-sourcing et que les SMS sont correctement envoyés, mais que l&#39;instance marketing n&#39;est pas correctement mise à jour, il est possible qu&#39;un problème de synchronisation mid-sourcing se produise.
 
 ## Problème lors de la connexion au fournisseur {#issue-provider}
 
@@ -93,7 +93,7 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m�
 
 Une connexion est considérée comme instable si l&#39;une des situations suivantes se produit :
 
-* La connexion dure moins d&#39;une heure. Les connexions d&#39;émetteurs Adobe Campaign Classic constituent une exception en raison du fonctionnement de la MTA Adobe Campaign Classic.
+* La connexion dure moins d&#39;une heure. Les connexions d&#39;émetteur Adobe Campaign Classic constituent une exception en raison du fonctionnement du MTA Adobe Campaign Classic.
 
 * Le fournisseur envoie `UNBIND PDU`.
 
@@ -111,13 +111,13 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 * La capture du réseau est parfois la seule façon de voir comment la connexion est fermée.
 
-* Si le fournisseur ferme les connexions en envoyant un `TCP FIN` ou un `TCP RST packet`, demandez à votre fournisseur de plus amples informations.
+* Si le fournisseur ferme les connexions en envoyant un paquet `TCP FIN` ou `TCP RST packet`, demandez à votre fournisseur de plus amples informations.
 
 * Si le fournisseur ferme la connexion après avoir envoyé une erreur de nettoyage telle que `DELIVER_SM_RESP` avec un code d&#39;erreur, il doit réparer son connecteur sinon il empêchera la transmission d&#39;autres types de messages et déclenchera le ralentissement du MTA. Ceci est particulièrement important en mode émetteur-récepteur où la fermeture de la connexion a un impact à la fois sur les MT et SR.
 
 ## Problème lors de l&#39;envoi d&#39;un MT (SMS régulier envoyé à un utilisateur final){#issue-MT}
 
-* Vérifiez que la connexion est stable. Une connexion SMPP doit rester en service pendant au moins une heure en continu, à l&#39;exception des émetteurs de Adobe Campaign Classic. Voir la section [Problème de connexion instable](../../delivery/using/sms-protocol.md#issues-unstable-connection).
+* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Voir la section [Problème de connexion instable](../../delivery/using/sms-protocol.md#issues-unstable-connection).
 
 * Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Voir la section [Problème de connexions instables](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection).
 
@@ -153,7 +153,7 @@ Réduction du nombre de doublons en cas de nouvelle reprise :
 
 * Vérifiez que le `DELIVER_SM PDU` vient du fournisseur et qu&#39;il est correctement formé.
 
-* Vérifiez que Adobe Campaign répond avec succès `DELIVER_SM_RESP PDU` dans les délais impartis. Sur Adobe Campaign Classic, cela garantit que la SR a été insérée dans la table `providerMsgId` pour traitement différé par le processus SMS.
+* Vérifiez que Adobe Campaign répond avec succès `DELIVER_SM_RESP PDU` dans les délais impartis. Sur Adobe Campaign Classic, cela garantit que le SR a été inséré dans la table `providerMsgId` pour le traitement différé par le processus SMS.
 
 Si le `DELIVER_SM PDU` n&#39;est pas suivi d&#39;un acquittement, vérifiez ce qui suit :
 
@@ -161,9 +161,9 @@ Si le `DELIVER_SM PDU` n&#39;est pas suivi d&#39;un acquittement, vérifiez ce q
 
 * Vérifiez que les erreurs sont correctement configurées dans le tableau `broadLogMsg`.
 
-Si `DELIVER_SM PDU` a été reconnu par le connecteur SMPP étendu de Adobe Campaign Classic mais que le fichier wideLog n&#39;est pas mis à jour correctement, vérifiez le processus de rapprochement des identifiants décrit dans la section [Correspondance des entrées MT, SR et Broadlog](../../delivery/using/sms-protocol.md#matching-mt).
+Si `DELIVER_SM PDU` a été reconnu par le connecteur SMPP étendu Adobe Campaign Classic mais que le broadLog n&#39;est pas mis à jour correctement, vérifiez le processus de réconciliation des identifiants décrit dans la section [Correspondance des entrées MT, SR et Broadlog](../../delivery/using/sms-protocol.md#matching-mt).
 
-Si vous avez tout corrigé, mais que certains SR non valides figurent toujours dans les tampons du fournisseur, vous pouvez les ignorer en utilisant l’option &quot;Invalid ID accept count&quot; (Nombre d’identifiants non valides reconnus). Cette option doit être utilisée avec soin et réinitialisée à 0 aussi vite que possible après le nettoyage des tampons.
+Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans les tampons du fournisseur, vous pouvez les ignorer à l&#39;aide de l&#39;option Nombre d&#39;acquittements d&#39;identifiant invalides. Cette option doit être utilisée avec soin et réinitialisée à 0 aussi vite que possible après le nettoyage des tampons.
 
 ## Problème lors du traitement de MO (et de la réponse liste bloquée / auto){#issue-process-MO}
 
@@ -173,15 +173,15 @@ Si vous avez tout corrigé, mais que certains SR non valides figurent toujours d
 
 * Si le MO (`DELIVER_SM PDU`) n&#39;apparaît pas dans les traces, le problème est du côté fournisseur. Il devra effectuer une résolution des problèmes sur sa plateforme.
 
-* Si le `DELIVER_SM PDU` apparaît, vérifiez qu&#39;Adobe Campaign a confirmé sa réception avec un `DELIVER_SM_RESP PDU` indiquant un succès (code 0). Ce RESP garantit que toute la logique de traitement a été appliquée par Adobe Campaign (réponse automatique et liste autorisée / liste bloquée). Si ce n&#39;est pas le cas, recherchez un message d&#39;erreur dans les journaux de processus SMS.
+* Si le `DELIVER_SM PDU` apparaît, vérifiez qu&#39;Adobe Campaign a confirmé sa réception avec un `DELIVER_SM_RESP PDU` indiquant un succès (code 0). Ce RESP garantit que toute la logique de traitement a été appliquée par Adobe Campaign (réponse automatique et liste autorisée / liste bloquée). Si ce n&#39;est pas le cas, recherchez un message d&#39;erreur dans les logs de processus SMS.
 
-* Si les réponses automatiques sont activées, vérifiez que `SUBMIT_SM` a été envoyé au fournisseur. Dans le cas contraire, il est garanti de trouver un message d&#39;erreur dans les journaux de processus SMS.
+* Si les réponses automatiques sont activées, vérifiez que `SUBMIT_SM` a été envoyé au fournisseur. Si ce n&#39;est pas le cas, il est garanti qu&#39;un message d&#39;erreur se trouvera dans les logs de processus SMS.
 
 * Si le `SUBMIT_SM MT PDU` contenant la réponse se trouve dans les traces mais que le SMS ne parvient pas au téléphone portable, vous devez contacter le fournisseur pour obtenir de l&#39;aide sur la résolution des problèmes.
 
 ## Problème lors de la préparation de la diffusion sans exclure les destinataires mis en quarantaine (mis en quarantaine par la fonction de réponse automatique) {#issue-delivery-preparation}
 
-* Vérifiez que le format du numéro de téléphone est exactement le même dans le tableau de quarantaine et dans le log de diffusion. Si ce n&#39;est pas le cas, consultez cette [section](../../delivery/using/sms-protocol.md#automatic-reply) si vous rencontrez des problèmes avec le préfixe plus du format de numéro de téléphone international.
+* Vérifiez que le format du numéro de téléphone est exactement le même dans la table de quarantaine et dans le log de diffusion. Si ce n&#39;est pas le cas, consultez cette [section](../../delivery/using/sms-protocol.md#automatic-reply) si vous rencontrez des problèmes avec le préfixe plus du format de numéro de téléphone international.
 
 * Vérifiez les numéros courts. Des exclusions peuvent se produire si le numéro court du destinataire est identique à celui défini dans le compte externe ou s&#39;il est vide (vide = tout numéro court). Si un seul numéro court est utilisé pour l&#39;ensemble de l&#39;instance Adobe Campaign, il est plus facile de laisser tous les champs de **numéro court** vides.
 
@@ -253,7 +253,7 @@ Une capture réseau n&#39;est pas toujours nécessaire, en général les message
 
 * Il est possible qu&#39;il y ait un trafic mixte entre les différentes connexions.
 
-Dans tous les autres cas, essayez d&#39;abord d&#39;analyser des messages SMPP explicites et demandez une capture réseau uniquement si des informations sont manquantes dans les journaux explicites.
+Dans toutes les autres situations, essayez d&#39;abord d&#39;analyser les messages SMPP en mode verbeux et de demander une capture réseau uniquement si des informations manquent dans les logs de mode verbeux.
 
 Dans certains cas, la capture du trafic réseau n&#39;est pas nécessaire. Voici les situations les plus courantes :
 
@@ -275,10 +275,10 @@ Le nouveau connecteur prend en charge la connexion étendue via les traces : SM
 
 **Activation par compte externe (méthode préférée)**
 
-1. Dans le **Compte externe**, cochez **Activer les traces SMPP détaillées dans le fichier journal**.
-1. Patientez 10 minutes pour laisser le serveur recharger les comptes externes.
+1. Dans le **compte externe**, cochez **Activer les traces SMPP en mode verbeux dans le fichier journal**.
+1. Patientez 10 minutes pour permettre au serveur de recharger les comptes externes.
 
-Ça devrait être principal maintenant.
+Il doit alors être actif.
 
 **Activation dans la configuration**
 
