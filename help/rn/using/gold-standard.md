@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,8 @@ Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 * Suite à la [fin de la prise en charge du protocole binaire hérité des APN iOS](https://developer.apple.com/news/?id=c88acm2b), toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 après la mise à niveau.
 
 * Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
+
+* Correction d’un problème en raison duquel les workflows échouaient lors de l’exécution d’une activité d’**enrichissement**. (NEO-17338)
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 10{#gs-10}
 
