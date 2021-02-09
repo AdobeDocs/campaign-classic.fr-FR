@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 translation-type: tm+mt
-source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 85%
 
 ---
 
@@ -35,7 +35,7 @@ Par défaut, elles sont classées dans un sous-dossier correspondant au mois d&#
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré d’Adobe Campaign, tous les messages transactionnels peuvent également être envoyés avec celui-ci pour optimiser la délivrabilité, le débit et la gestion des bounces. Tous les impacts sont identiques à ceux des messages marketing standard et sont présentés dans le document sur le [MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), tous les messages transactionnels peuvent également être envoyés avec la MTA améliorée Adobe Campaign pour une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. Tous les impacts sont les mêmes que pour les messages marketing standard.
 
 ## Surveillance de message transactionnel {#transactional-message-monitoring}
 
