@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 32db73de8308670dfd74d974072bd96b3a22fc31
 workflow-type: tm+mt
-source-wordcount: '8433'
+source-wordcount: '8432'
 ht-degree: 99%
 
 ---
@@ -483,7 +483,7 @@ La spécification d&#39;un numéro court s&#39;avère utile pour deux fonctionna
 
 * La prévisualisation affiche le numéro court si aucun numéro source n&#39;est fourni. Il reflétera le comportement réel sur le téléphone portable.
 
-* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine l&#39;utilisateur pour un numéro court spécifique.
+* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine de l’utilisateur un code court spécifique.
 
 #### NPI/TON source, NPI/TON destination {#ton-npi}
 
@@ -713,7 +713,7 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 >
 >Dans Adobe Campaign Classic et avec une architecture hybride, l&#39;application d&#39;une réponse automatique pour le connecteur SMPP étendu nécessite l&#39;ajout d&#39;un accès en écriture pour l&#39;opérateur mid sur le dossier **Compte externe**.
 
-Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
+Cette fonctionnalité permet de répondre rapidement au texte à l&#39;opérateur et de gérer l&#39;envoi de code par abrégé à la liste bloquée.
 
 Les colonnes **Mot-clé** et **Numéro court** définissent les conditions pour déclencher la réponse automatique. Si les deux champs correspondent, le MO est envoyé et l&#39;action supplémentaire est déclenchée. Pour spécifier un caractère de remplacement, vous devez laisser le champ vide. Le mot-clé correspond au premier mot alphanumérique du texte MO, en ignorant la ponctuation et les espaces de début. Cela signifie que le champ **Mot-clé** ne peut pas contenir d&#39;espaces et doit être un seul mot.
 
