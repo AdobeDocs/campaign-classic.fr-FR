@@ -1,6 +1,6 @@
 ---
 audience: end-user
-breadcrumb-title: Campaign Classic
+breadcrumb-title: Centre d’aide
 product: campaign
 title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
+source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 100%
+source-wordcount: '2347'
+ht-degree: 98%
 
 ---
 
@@ -124,7 +124,11 @@ ht-degree: 100%
       + [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
       + [Définir le contenu de l&#39;email](delivery/using/defining-the-email-content.md)
       + [Définition d’un contenu interactif](delivery/using/defining-interactive-content.md)
-      + [Envoyer les messages](delivery/using/sending-messages.md)
+      + Envoyer un email {#sending-an-email}
+         + [Confirmation de la diffusion de courriel](delivery/using/sending-messages.md)
+         + [Paramètres de l&#39;email](delivery/using/email-parameters.md)
+         + [Envoi avec la MTA améliorée](delivery/using/sending-with-enhanced-mta.md)
+         + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Joindre des fichiers](delivery/using/attaching-files.md)
    + Envoi de messages sur les mobiles {#sending-messages-on-mobiles}
       + [Canal SMS](delivery/using/sms-channel.md)
@@ -165,6 +169,19 @@ ht-degree: 100%
       + [Utiliser une table de destinataires externe](delivery/using/using-an-external-recipient-table.md)
       + [Cas pratique : sélection des adresses de contrôle selon des critères](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [Cas pratique : configuration de la substitution des champs](delivery/using/use-case--configuring-the-field-substitution.md)
+   + A/B testing {#a-b-testing}
+      + [Commencer avec les tests A/B](delivery/using/get-started-a-b-testing.md)
+      + [Configuration des tests A/B](delivery/using/configuring-a-b-testing.md)
+      + Cas pratique {#use-case}
+         + [À propos de ce cas d&#39;utilisation](delivery/using/a-b-testing-use-case.md)
+         + [Création d’un workflow de ciblage](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [Configuration des exemples de population](delivery/using/a-b-testing-uc-population-samples.md)
+         + [Création des modèles de diffusion](delivery/using/a-b-testing-uc-delivery-templates.md)
+         + [Configuration des diffusions](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+         + [Création du script](delivery/using/a-b-testing-uc-script.md)
+         + [Définition de la diffusion finale](delivery/using/a-b-testing-uc-final-delivery.md)
+         + [Démarrer le workflow](delivery/using/a-b-testing-uc-start-workflow.md)
+         + [Analyse du résultat](delivery/using/a-b-testing-uc-analyzing.md)
    + Abonnements et parrainage {#subscriptions-and-referrals}
       + [A propos des services et des abonnements](delivery/using/about-services-and-subscriptions.md)
       + [Gestion des inscriptions](delivery/using/managing-subscriptions.md)
@@ -195,7 +212,7 @@ ht-degree: 100%
       + [Inbox rendering](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Meilleures pratiques de réengagement](delivery/using/re-engagement-best-practices.md)
-      + [Base de données de listes bloquées](delivery/using/block-list-databases.md)
+      + [Base de données des listes bloquées](delivery/using/block-list-databases.md)
       + [Résolution des problèmes](delivery/using/deliverability-faq.md)
    + Module de gestion de contenu {#content-management}
       + [A propos de la gestion de contenu](delivery/using/about-content-management.md)
@@ -439,7 +456,6 @@ ht-degree: 100%
       + [À propos des cas pratiques de workflows](workflow/using/about-workflow-use-cases.md)
       + Diffusions {#deliveries}
          + [Utiliser l&#39;activité Validation en local](workflow/using/using-the-local-approval-activity.md)
-         + [A/B testing](workflow/using/a-b-testing.md)
          + [Envoyer un email d&#39;anniversaire](workflow/using/sending-a-birthday-email.md)
          + [Charger le contenu d&#39;une diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
