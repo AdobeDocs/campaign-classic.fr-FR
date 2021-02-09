@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,9 @@ La cause est la suivante :
 
 Adobe Campaign génère des fichiers temporaires sous **/tmp**, puis les renomme pour les déplacer sous **/usr/local/neolane/nl6/var**. Cette erreur se produit lorsque les deux dossiers (**/tmp** et **/usr/local/neolane/nl6/var**, qui est en fait un lien symbolique vers **/var/nl6**) correspondent à des devices différents. La commande **df** permet de le vérifier.
 
-Pour corriger ce problème, les fichiers temporaires doivent être générés dans le même device que la destination. Par exemple en exécutant :
+Pour corriger ce problème, les fichiers temporaires doivent être générés sur le même périphérique que la destination.
+
+Par exemple, exécutez les actions suivantes :
 
 ```
 $ cd ~/nl6/var
@@ -33,9 +35,8 @@ $ mkdir tmp
 $ vi ~/nl6/customer.sh
 ```
 
-puis en ajoutant :
+Ajoutez ensuite :
 
 ```
 export TMPDIR=/usr/local/neolane/nl6/var/tmp 
 ```
-
