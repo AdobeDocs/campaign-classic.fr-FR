@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
@@ -48,8 +48,8 @@ Adobe Campaign peut fonctionner sous deux niveaux de logs :
    >[!NOTE]
    >
    >Si vous utilisez **tracefilter:***, tous les types de logs sont activés : ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, network, pop3, inmail\
-   >Les types de logs les plus utiles sont les suivants : **wdbc** (affiche toutes les requêtes SQL), **soap** (affiche tous les appels SOAP), **ldap** (affiche toutes les requêtes LDAP lors de l&#39;authentification), **xtkquery** (affiche la liste de toutes les querydef).\
-   >Il est possible de les utiliser unitairement (par exemple : **tracefilter:soap,wdbc**). Vous pouvez aussi tous les activer et choisir d&#39;en exclure certains : **-tracefilter:*,!soap**
+   Les types de logs les plus utiles sont les suivants : **wdbc** (affiche toutes les requêtes SQL), **soap** (affiche tous les appels SOAP), **ldap** (affiche toutes les requêtes LDAP lors de l&#39;authentification), **xtkquery** (affiche la liste de toutes les querydef).\
+   Il est possible de les utiliser unitairement (par exemple : **tracefilter:soap,wdbc**). Vous pouvez aussi tous les activer et choisir d&#39;en exclure certains : **-tracefilter:*,!soap**
 
    Vérifiez que l&#39;erreur s&#39;est bien produite, puis relancez le processus normalement :
 
@@ -58,18 +58,17 @@ Adobe Campaign peut fonctionner sous deux niveaux de logs :
    ```
 
 >[!IMPORTANT]
->
->Les logs de ces commandes sont stockés dans le fichier de log du module.
+Les logs de ces commandes sont stockés dans le fichier de log du module.
 
 Voici un exemple spécifique au module Web. Les autres modules fonctionnent comme indiqués ci-dessus.
 
-Avant de lancer cette commande, vérifiez qu&#39;aucun processus en cours ne peut être impacté.
+Avant de lancer cette commande, vérifiez qu&#39;aucun processus en cours ne peut être impacté:
 
 ```
 nlserver pdump -who
 ```
 
-Puis arrêtez et redémarrez le module en mode **TraceFilter**.
+Puis arrêtez et redémarrez le module en mode **TraceFilter:**
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default
@@ -82,13 +81,11 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 ```
 
 >[!NOTE]
->
->Le mode **Tracefile** permet d’enregistrer les logs. Dans les exemples ci-dessus, les logs sont enregistrés dans les fichiers **var/`<instance-name>`/mta_debug.log** et **var/default/web_debug.log**.
+Le mode **Tracefile** permet d’enregistrer les logs. Dans les exemples ci-dessus, les logs sont enregistrés dans les fichiers **var/`<instance-name>`/mta_debug.log** et **var/default/web_debug.log**.
 
 >[!IMPORTANT]
->
->Sous Windows, vous ne devez pas ajouter l&#39;option LD_PRELOAD. La commande suivante suffit :\
->nlserver web -tomcat -verbose -tracefilter:*
+Sous Windows, vous ne devez pas ajouter l&#39;option LD_PRELOAD. La commande suivante suffit :\
+nlserver web -tomcat -verbose -tracefilter:*
 
 Vérifiez que le problème se reproduit, puis relancez le module :
 
