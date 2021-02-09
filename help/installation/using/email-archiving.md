@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5fa848d86f951cb9dc40eb7981abea29c1092291
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 100%
@@ -102,7 +102,7 @@ Veillez à ajuster ces paramètres en fonction du débit d&#39;envoi des emails.
 
 ## Configuration de l&#39;adresse email en Cci (on-premise) {#configuring-the-bcc-email-address--on-premise-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Pour des raisons de confidentialité, les emails en Cci doivent être traités dans un système d&#39;archivage capable de stocker en toute sécurité les informations d&#39;identification personnelles (PII).
 
@@ -125,7 +125,7 @@ Dans le fichier **config-`<instance name>.xml`**, utilisez les paramètres suiva
 
 ## Passage au nouvel Email Cci {#updated-email-archiving-system--bcc-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Le système d&#39;archivage des emails (Cci) a été modifié avec Adobe Campaign 17.2 (build 8795). Si vous effectuez une mise à niveau à partir d&#39;un build antérieur et que vous utilisiez déjà les fonctionnalités d&#39;archivage des emails, vous devez effectuer une mise à niveau manuelle vers le nouveau système d&#39;archivage des emails (Cci).
 
