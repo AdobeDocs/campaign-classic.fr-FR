@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+source-git-commit: a341980e9d940857388bb2755e5eaa74824cf6ea
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Cette section décrit comment créer un processus pour effectuer des tests A/B.
 
 1. Ajouter une activité [fractionnée](../../workflow/using/split.md) pour diviser la population ciblée en plusieurs sous-ensembles.
 
-1. Ouvrez l’activité, puis configurez chaque sous-ensemble en fonction de vos besoins. Pour plus d&#39;informations sur la configuration d&#39;une activité **[!UICONTROL fractionnée]**, consultez cette section.
+1. Ouvrez l’activité, puis configurez chaque sous-ensemble en fonction de vos besoins. Pour plus d&#39;informations sur la configuration d&#39;une activité **[!UICONTROL Split]**, consultez [cette section](../../workflow/using/split.md).
 
    Dans cet exemple, nous voulons tester deux nouveaux sujets pour un bulletin d&#39;information en les présentant à 10 % de la population ciblée.
 
