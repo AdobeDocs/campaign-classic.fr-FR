@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 965aee2e310dd7e35d7a65bf9a1bda5dc8eb0959
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 94%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,13 @@ Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer l
 
 En tant que client hybride/hébergé, contactez l’équipe [Adobe Customer Care](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour accéder au canal de notification Push à Campaign.
 
-En tant que client On-Premise, vous devez effectuer les étapes d&#39;installation suivantes :
+En tant que client sur site, vous devez installer un package intégré.
+
+>[!CAUTION]
+>
+>Pour en savoir plus sur les packages intégrés de Campaign, les meilleures pratiques et les recommandations, consultez [cette page](../../installation/using/installing-campaign-standard-packages.md).
+
+Les étapes d&#39;installation sont les suivantes :
 
 1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
