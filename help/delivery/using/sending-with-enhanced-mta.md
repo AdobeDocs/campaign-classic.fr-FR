@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 6%
@@ -147,7 +147,7 @@ Par conséquent, vous devez attendre la fin de la période de validité pour voi
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-## Débit des diffusions
+### Débit des diffusions
 
 Le graphique de débit de la Diffusion Campaign n&#39;affiche plus le débit de vos destinataires de messagerie. Ce graphique montre maintenant la vitesse de transmission de vos messages de Campaign vers le MTA amélioré.
 
@@ -163,7 +163,7 @@ Une fois qu’un message figure dans la file d’attente du MTA amélioré depui
 
 Pour en savoir plus sur la période de validité, voir [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
-## Signature DKIM
+### Signature DKIM
 
 La signature de l’authentification par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée par l’AMT améliorée. Dans le cadre de la mise à niveau vers le MTA amélioré, la signature DKIM par le MTA natif de Campaign sera désactivée dans la table Gestion des domaines.
 Pour en savoir plus sur DKIM, voir [cette section](../../delivery/using/technical-recommendations.md#dkim).
