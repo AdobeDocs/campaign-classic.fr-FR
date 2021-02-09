@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 99%
+source-wordcount: '2623'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,9 @@ Lorsqu&#39;un message (email, SMS, notification push) ne peut pas être envoyé 
 
 >[!NOTE]
 >
->Les messages d&#39;erreur de type Email (ou &quot;bounces&quot;) sont qualifiés par le processus inMail. Les messages d&#39;erreur de type SMS (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
+>Les messages d’erreur **email** (ou « bounces ») sont qualifiés par le MTA amélioré (bounces synchrones) ou par le traitement inMail (bounces asynchrones).
+>
+>Les messages d’erreur de type **SMS** (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
 
 Une fois un message envoyé, les logs de diffusion permettent de consulter le statut de la diffusion pour chaque profil ainsi que le type d&#39;échec et la raison associés.
 
@@ -184,9 +186,13 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 >
 >Les messages temporairement non diffusés peuvent uniquement être associés à une erreur **Soft** ou **Ignoré**, mais pas à une erreur **Hard** (voir la section [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)).
 
-Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et indiquez la durée souhaitée dans le champ correspondant. Les propriétés avancées des diffusions sont présentées dans [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+>[!IMPORTANT]
+>
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), les paramètres de nouvelle tentative dans la diffusion ne sont plus utilisés par Campaign. Les reprises des erreurs soft et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des retours provenant du domaine d&#39;email du message.
 
-La configuration par défaut permet cinq reprises à des intervalles d’une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [cette section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
+Pour les installations sur site et les installations hébergées/hybrides utilisant l’ancienne MTA Campaign, pour modifier la durée d’une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant. Voir [Définition de la période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+
+Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de Reprises peut être modifié globalement (contactez votre administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [Configuration des Reprises](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
 ## Erreurs synchrones et asynchrones  {#synchronous-and-asynchronous-errors}
 
@@ -207,17 +213,38 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
 
 ## Gestion des emails bounce {#bounce-mail-management}
 
-La plateforme Adobe Campaign permet de gérer les échecs d&#39;envoi d&#39;email via la fonctionnalité des mails rebonds. Lorsqu&#39;un email ne peut pas être délivré à son destinataire, le serveur de messagerie distant renvoie automatiquement un message d&#39;erreur (mail rebond) vers une boîte email technique réservée à cet usage. Les messages d&#39;erreur sont relevés par la plateforme Adobe Campaign et qualifiés par le processus inMail afin d&#39;enrichir la liste des règles de gestion des emails.
+La plate-forme Adobe Campaign vous permet de gérer les échecs de diffusion de courrier électronique par le biais de la fonctionnalité de retour de courrier.
+
+Lorsqu&#39;un courrier électronique ne peut pas être envoyé à un destinataire, le serveur de messagerie distant renvoie automatiquement un message d&#39;erreur (message de rebonds) à une boîte de réception technique conçue à cet effet.
+
+Pour les installations sur site et les installations hébergées/hybrides utilisant l’ancienne MTA Campaign, les messages d’erreur sont collectés par la plateforme Adobe Campaign et qualifiés par le processus inMail pour enrichir la liste des règles de gestion des e-mails.
+
+>[!IMPORTANT]
+>
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), la plupart des règles de gestion du courrier électronique ne sont plus utilisées. Voir à ce propos [cette section](#email-management-rules).
 
 ### Qualification des emails bounce  {#bounce-mail-qualification}
 
-Lorsque l&#39;envoi d&#39;un email échoue, le serveur de diffusion Adobe Campaign reçoit un message d&#39;erreur de la part du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est constituée à partir des chaînes contenues dans le message renvoyé par le serveur distant. A chaque message d&#39;erreur sont attribués un type et une raison d&#39;échec.
+>[!IMPORTANT]
+>
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md) :
+>
+>* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. **** Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
+   >
+   >
+* **** Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
+   >
+   >
+* Pour les instances qui utilisent la MTA améliorée **sans hameoks/EFS**, les règles **[!UICONTROL Courriel entrant]** seront également utilisées pour traiter les courriers électroniques de rebond synchrones provenant de la MTA améliorée, en utilisant la même adresse électronique que pour les courriers électroniques de rebond asynchrones.
+
+
+Pour les installations sur site et les installations hébergées/hybrides utilisant l’ancienne MTA Campaign, lorsque la diffusion d’un courrier électronique échoue, le serveur de diffusion Adobe Campaign reçoit un message d’erreur du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est composée de chaînes contenues dans le message renvoyé par le serveur distant. Les types et motifs d’échec sont affectés à chaque message d’erreur.
 
 Cette liste est disponible depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Qualification des logs de diffusion]**. Il contient toutes les règles utilisées par Adobe Campaign pour qualifier les erreurs de diffusion. Cette liste est non exhaustive et est régulièrement mise à jour par Adobe Campaign. Elle peut également être gérée par l&#39;utilisateur.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-* Le message renvoyé par le serveur distant à la première occurrence de ce type d&#39;erreur est affiché dans la colonne **[!UICONTROL Premier texte]** de la table **[!UICONTROL Qualification des logs de diffusion]**. Si cette colonne n&#39;est pas visible, cliquez sur le bouton **[!UICONTROL Configurer la liste]** en bas à droite de la liste pour la sélectionner.
+Le message renvoyé par le serveur distant à la première occurrence de ce type d&#39;erreur est affiché dans la colonne **[!UICONTROL Premier texte]** de la table **[!UICONTROL Qualification des logs de diffusion]**. Si cette colonne n&#39;est pas visible, cliquez sur le bouton **[!UICONTROL Configurer la liste]** en bas à droite de la liste pour la sélectionner.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
@@ -237,22 +264,11 @@ Les statuts de qualification des mails rebonds sont les suivants :
 
 ![](assets/deliverability_qualif_status.png)
 
+### Règles de gestion des emails {#email-management-rules}
+
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré :
->
->* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
-   >
-   >
-* Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
-   >
-   >
-* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
->
->
-Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
-
-### Règles de gestion des emails {#email-management-rules}
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), la plupart des règles de gestion du courrier électronique ne sont plus utilisées. Pour plus de détails, voir les sections ci-dessous.
 
 Les règles mail sont accessibles depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Jeux de règles mail]**. Vous pouvez consulter les règles de gestion des emails dans la section inférieure de la fenêtre.
 
@@ -272,7 +288,11 @@ Les règles par défaut sont les suivantes.
 
 #### Mail entrant {#inbound-email}
 
-Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
+>[!IMPORTANT]
+>
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md) et si votre instance dispose de la fonctionnalité **Webhooks/EFS**, les règles **[!UICONTROL E-mail entrant]** ne sont plus utilisées pour les messages d’erreur de diffusion synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
+
+Pour les installations sur site et les installations hébergées/hybrides utilisant l’ancienne MTA Campaign, ces règles contiennent la liste de chaînes de caractères qui peuvent être renvoyées par des serveurs distants et qui vous permettent de qualifier l’erreur (**Hard**, **Soft** ou **Ignorée**).
 
 Lors de l’échec d’un envoi d’email, le serveur de messagerie distant renvoie un message d’erreur rebond à l’adresse spécifiée dans les paramètres de la plateforme. Adobe Campaign compare le contenu de chaque mail rebond aux chaînes disponibles dans la liste des règles puis attribue l’un des trois [types d’erreurs](#delivery-failure-types-and-reasons).
 
@@ -282,15 +302,13 @@ Lors de l’échec d’un envoi d’email, le serveur de messagerie distant renv
 
 Pour plus d’informations sur la qualification des mails rebonds, consultez [cette section](#bounce-mail-qualification).
 
->[!IMPORTANT]
->
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré et si votre instance dispose de la fonctionnalité **Webhooks/EFS**, les règles de **[!UICONTROL mail entrant]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
->
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
-
 #### Gestion des domaines {#domain-management}
 
-Le serveur de messagerie d’Adobe Campaign applique une règle unique de **gestion des domaines** à tous les domaines.
+>[!IMPORTANT]
+>
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), les règles **[!UICONTROL Gestion des domaines]** ne sont plus utilisées. La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages et tous les domaines. La signature n’utilise ni **Sender ID**, ni **DomainKeys** ou **S/MIME**, sauf indication contraire du MTA amélioré.
+
+Pour les installations sur site et les installations hébergées/hybrides utilisant l’ancienne MTA Campaign, le serveur de messagerie Adobe Campaign applique une règle **Gestion des domaines** unique à tous les domaines.
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
@@ -299,13 +317,13 @@ Le serveur de messagerie d’Adobe Campaign applique une règle unique de **ges
 
 Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom de]** dans l’adresse de l’expéditeur, veillez à ne pas signer vos emails avec le **Sender ID** qui est la norme d’authentification de messagerie exclusive de Microsoft, devenue obsolète. Si l’option **[!UICONTROL ID d’expéditeur]** est activée, décochez la case correspondante et contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Il n’y aura aucune incidence sur la délivrabilité.
 
+#### Gestion des MX {#mx-management}
+
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré, les règles de **[!UICONTROL gestion des domaines]** ne sont plus utilisées. La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages et tous les domaines. La signature n’utilise ni **Sender ID**, ni **DomainKeys** ou **S/MIME**, sauf indication contraire du MTA amélioré.
->
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion **[!UICONTROL MX management]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 
-#### Gestion des MX {#mx-management}
+Pour les installations sur site et les installations hébergées/hybrides utilisant l’ancienne MTA Campaign :
 
 * Les règles de gestion MX permettent de réguler le flux des emails sortants pour un domaine spécifique. Elles consistent à faire un échantillonnage des messages qui reviennent en erreur et de bloquer les envois, le cas échéant.
 
@@ -314,9 +332,3 @@ Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom
 * Pour configurer des règles de gestion MX, il suffit de fixer un seuil et de sélectionner certains paramètres SMTP. Le **seuil** est une limite calculée en pourcentage d’erreur au-delà de laquelle tout message vers un domaine spécifique est bloqué. Par exemple, dans le cas général, pour un minimum de 300 messages, l’envoi des emails est bloqué pendant 3 heures si le taux d’erreur atteint 90 %.
 
 Pour plus d&#39;informations sur la gestion des MX, consultez [cette section](../../installation/using/email-deliverability.md#mx-configuration).
-
->[!IMPORTANT]
->
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le MTA amélioré, les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
->
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html).
