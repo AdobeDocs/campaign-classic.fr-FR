@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '4031'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -253,7 +253,7 @@ Par défaut, les logs de diffusion et de tracking d’Adobe Campaign sont conse
 
 En savoir plus sur la conservation des données dans les [recommandations relatives à la confidentialité et à la sécurité de Campaign](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#consent).
 
-Pour en savoir plus sur le processus de nettoyage de la base de données Campaign, [consultez cette section](../../production/using/database-cleanup-workflow.md).
+Pour en savoir plus sur le processus de nettoyage de la base de données Campaign [dans cette section](../../production/using/database-cleanup-workflow.md).
 
 >[!IMPORTANT]
 >
