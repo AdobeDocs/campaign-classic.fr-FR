@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: e84387c7c396c60c429c3f625870a97a7fdaef5a
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 87%
@@ -32,11 +32,6 @@ Pour plus d&#39;informations sur les bonnes pratiques et la configuration de la 
 >Email Cci est une fonctionnalité facultative. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
 
 Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, la fonctionnalité Email Cci n&#39;est pas activée par défaut. Vous devez l’activer manuellement au niveau de la diffusion de courriel ou du modèle de diffusion.
-
-<!--
->[!IMPORTANT]
->
->If you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), you can request to use Email BCC with Enhanced MTA for improved efficiency and less latency. In that case, all sent emails are automatically sent to the BCC address. You cannot enable it at the delivery or delivery template level, thus the steps below do not apply. For more on this, see [this section](../../installation/using/email-archiving.md).-->
 
 Pour activer la fonctionnalité Email Cci pour un modèle de diffusion email, procédez comme suit :
 
