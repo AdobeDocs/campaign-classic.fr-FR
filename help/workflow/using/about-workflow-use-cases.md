@@ -9,7 +9,7 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 * [Utiliser l&#39;activité Validation en local](../../workflow/using/using-the-local-approval-activity.md)
-* [A/B testing](../../workflow/using/a-b-testing.md)
+* [A/B testing](../../delivery/using/a-b-testing-use-case.md)
 * [Envoyer un email d&#39;anniversaire](../../workflow/using/sending-a-birthday-email.md)
 * [Charger le contenu d&#39;une diffusion](../../workflow/using/loading-delivery-content.md)
 * [Workflow de diffusion cross-canal](../../workflow/using/cross-channel-delivery-workflow.md)
