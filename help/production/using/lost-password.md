@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 71%
 
 ---
 
@@ -20,20 +20,27 @@ ht-degree: 100%
 Il est possible de changer ou de récupérer un mot de passe perdu.
 Deux cas sont possibles :
 
-**Perte du mot de passe d&#39;un opérateur Adobe Campaign**
+* [Perte du mot de passe d&#39;un opérateur Adobe Campaign](#password-lost-by-campaign-operator)
+* [Mot de passe interne perdu](#internal-password-lost)  (clients sur site uniquement)
 
-Dans ce cas, vous pouvez modifier le mot de passe de l’opérateur concerné.
+## Mot de passe perdu par un opérateur Campaign {#password-lost-by-campaign-operator}
+
+Si un opérateur Adobe Campaign perd son mot de passe, vous pouvez le modifier.
 Pour ce faire, procédez comme suit :
 
 1. Connectez-vous via un opérateur disposant des droits d’administrateur.
-1. Cliquez avec le bouton droit sur un opérateur.
+1. Cliquez avec le bouton droit de la souris sur un opérateur.
 1. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Réinitialiser le mot de passe]**.
 
    ![](assets/operator-passwd.png)
 
-1. Définissez le nouveau mot de passe de l’opérateur. Nous recommandons aux opérateurs de modifier leur mot de passe lorsqu’ils se reconnectent pour la première fois.
+1. Définissez le nouveau mot de passe de l’opérateur. Nous recommandons à l’opérateur de modifier son mot de passe lors de sa première reconnexion.
 
-**Perte du mot de passe interne (clients on-premise uniquement)**
+## Mot de passe interne perdu {#internal-password-lost}
+
+>[!NOTE]
+>
+>Cette section ne s&#39;applique qu&#39;aux clients sur site.
 
 En cas de perte du mot de passe interne, vous devez le réinitialiser. Pour cela, la procédure est la suivante :
 
