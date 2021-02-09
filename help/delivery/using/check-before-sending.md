@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Si vous disposez de plusieurs contenus pour une diffusion email, vous pouvez uti
 
 * Choisissez la version qui a eu le plus de succès et envoyez-la au reste de vos destinataires.
 
-En savoir plus à ce sujet dans [cette section](../../workflow/using/a-b-testing.md).
+En savoir plus à ce sujet dans [cette section](../../delivery/using/get-started-a-b-testing.md).
 
 ## Vérifiez que votre message est bien délivré. {#make-sure-your-message-is-delivered}
 
