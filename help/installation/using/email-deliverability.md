@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
 workflow-type: tm+mt
 source-wordcount: '3040'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -131,15 +131,15 @@ Par défaut, le serveur de statistiques écoute sur le port 7777. Ce port peut �
 
 ## Configuration des MX {#mx-configuration}
 
+>[!IMPORTANT]
+>
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion **[!UICONTROL MX management]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
+
+Les sections ci-dessous ne s&#39;appliquent qu&#39;aux installations sur site et aux installations hébergées/hybrides utilisant l&#39;ancienne Campaign MTA.
+
 ### A propos des règles MX {#about-mx-rules}
 
 Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communication entre un serveur expéditeur et un serveur destinataire.
-
->[!IMPORTANT]
->
->Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le MTA amélioré, les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
->
->Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html).
 
 Ces règles sont rechargées automatiquement tous les matins à 6h00 (heure du serveur) afin de fournir régulièrement l’instance du client.
 
