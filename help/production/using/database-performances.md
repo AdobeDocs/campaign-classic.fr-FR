@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -46,9 +46,9 @@ Vous devez vérifier que la tâche de nettoyage de la base fonctionne correcteme
 
 Vous devez vous assurer que la maintenance de la base de données est correctement planifiée et effectuée. Pour cela, renseignez-vous auprès de votre administrateur de base de données pour connaître :
 
-* son planning de maintenance,
-* les plans de maintenance déjà exécutés,
-* consulter les logs des scripts.
+* Leur calendrier de maintenance
+* Plans de maintenance précédemment exécutés
+* Affichage des journaux de script
 
 Voir à ce propos [cette section](../../production/using/recommendations.md).
 
@@ -60,9 +60,9 @@ Voir à ce propos [cette section](../../production/using/recommendations.md).
 
 Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;elles deviennent trop volumineuses, les performances de la base sont affectées. Ces tables sont créées notamment par les workflows et les diffusions. Elles ne disparaissent pas de la base tant que le traitement des workflows et des diffusions n&#39;est pas terminé ou qu&#39;ils n&#39;ont pas été interrompus ou supprimés. Pour limiter les tables de travail vous pouvez effectuer les opérations suivantes :
 
-* arrêter ou supprimer les diffusions dont le statut est, au choix, **[!UICONTROL En échec]**, **[!UICONTROL En cours]**, **[!UICONTROL Prête à être diffusée]**, ou **[!UICONTROL En pause]** .
-* arrêter ou supprimer les workflows qui sont en pause à cause d&#39;une erreur,
-* arrêter les workflows utilisés pour faire des tests, qui ne contiennent pas d&#39;activité **[!UICONTROL Fin]** et dont le statut est, de ce fait, **[!UICONTROL En pause]** .
+* Arrêtez ou supprimez des diffusions présentant les états suivants : **[!UICONTROL Échec]**, **[!UICONTROL En cours]**, **[!UICONTROL Prêt pour la diffusion]** ou **[!UICONTROL En pause]**.
+* Arrêter ou supprimer les workflows en pause en raison d’une erreur.
+* Arrêter tous les workflows utilisés pour les tests qui ne contiennent pas d&#39;activité **[!UICONTROL End]** et dont l&#39;état reste donc **[!UICONTROL Suspendu]**.
 
 >[!IMPORTANT]
 >
@@ -72,14 +72,13 @@ Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;el
 
 Selon les paramètres d&#39;installation d&#39;Adobe Campaign, vous avez deux outils à votre disposition pour effectuer le suivi de votre plateforme :
 
-* la page de production de l&#39;instance. Voir à ce propos la section [Surveillance manuelle](../../production/using/monitoring-processes.md#manual-monitoring).
-* le script netreport. Voir à ce propos la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* Page de production de l’instance. Voir à ce propos la section [Surveillance manuelle](../../production/using/monitoring-processes.md#manual-monitoring).
+* Le script *netreport*. Voir à ce propos la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## Cas particuliers {#specifics}
 
 Il peut être nécessaire d&#39;effectuer un diagnostic en temps-réel pour déterminer la cause du problème. Vous devez d&#39;abord vérifier les fichiers journaux des processus et de la plateforme. Puis, suivez l&#39;activité de la base lors de la reproduction du problème. Vous devez particulièrement porter votre attention sur les éléments suivants :
 
-* le plan d&#39;exécution de la maintenance,
-* les requêtes SQL en cours d&#39;exécution,
-* si des processus externes s&#39;exécutent en même temps (nettoyage, import, calcul d&#39;agrégats, etc.).
-
+* Plan d&#39;exécution de la maintenance
+* les requêtes SQL en cours d&#39;exécution
+* Précise si les processus externes s’exécutent en même temps (cleansing, importations, calcul d’agrégat, etc.).
