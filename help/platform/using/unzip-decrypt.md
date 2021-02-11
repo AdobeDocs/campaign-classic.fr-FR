@@ -6,11 +6,11 @@ description: Découvrez comment décompresser ou déchiffrer un fichier dans Cam
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Pour ce faire :
    >
    >Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l&#39;exception de ceux qui hébergent leurs instances marketing on-premise).
 
-1. Si votre installation d’Adobe Campaign est hébergée par Adobe, contactez le [service à la clientèle de l’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour que les utilitaires nécessaires soient installés sur le serveur.
+1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) afin que les utilitaires nécessaires soient installés sur le serveur.
 1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de cryptage) nécessaires sur le serveur applicatif.
 
 Vous pouvez ensuite utiliser les commandes de pré-traitement de votre choix dans les workflows :
@@ -54,7 +54,7 @@ Dans ce cas pratique, nous allons créer un workflow afin d&#39;importer des don
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La clé publique sera partagée avec le système externe. Ce dernier l&#39;utilisera pour crypter les données à envoyer à Campaign.
    * Campaign Classic utilisera la clé privée pour décrypter les données cryptées entrantes.
