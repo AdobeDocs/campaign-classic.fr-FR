@@ -6,9 +6,9 @@ description: Découvrez comment vous connecter via un Adobe ID
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
