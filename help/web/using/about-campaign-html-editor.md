@@ -6,9 +6,9 @@ description: Prise en main du DCE Campaign
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
