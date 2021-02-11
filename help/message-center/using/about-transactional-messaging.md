@@ -6,11 +6,11 @@ description: 'Envoyer des messages de déclenchement en fonction des événement
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ Dans cette architecture spécifique, l&#39;instance d&#39;exécution est sépar�
 
 >[!NOTE]
 >
->Pour créer de nouveaux utilisateurs pour les instances d&#39;exécution Message Center hébergées sur Adobe Cloud, vous devez contacter le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Les utilisateurs du Centre de messages sont des opérateurs spécifiques qui nécessitent des autorisations dédiées pour accéder aux dossiers &quot;Événements temps réels (nmsRtEvent)&quot;.
+>Pour créer des utilisateurs pour les instances d&#39;exécution Message Center hébergées sur Adobe Cloud, vous devez contacter [l&#39;Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Les utilisateurs de Message Center sont des opérateurs spécifiques qui nécessitent des permissions dédiées pour accéder aux dossiers &#39;Evénements temps réel&#39; (nmsRtEvent).
