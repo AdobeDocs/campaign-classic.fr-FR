@@ -818,7 +818,7 @@ Si plusieurs comptes de la même instance Adobe Campaign se connectent au même 
 ### Activer les traces SMPP de verbose lors des vérifications {#enable-verbose}
 
 Vous devez toujours activer les traces SMPP de verbose lors des vérifications.
-Même si vous ne pouvez pas vérifier vous-même les journaux, il sera plus facile pour [le service à la clientèle de l&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) de vous aider.
+Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile pour l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) de vous aider.
 
 ### Tester votre SMS {#test}
 
