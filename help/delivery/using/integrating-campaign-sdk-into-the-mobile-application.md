@@ -6,11 +6,11 @@ description: Découvrez comment intégrer le SDK Campaign à votre application m
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Les SDK Campaign pour iOS et Android sont des composants du module Canal applica
 
 >[!NOTE]
 >
->Pour obtenir le SDK Campaign (précédemment appelé SDK Neolane), contactez le [service à la clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 L&#39;intérêt du SDK est de faciliter l&#39;intégration d&#39;une application mobile à la plateforme Adobe Campaign.
 
@@ -368,12 +368,12 @@ Le prototype de **registerDeviceStatus** est le suivant :
   <tr> 
    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
    <td> Le nom d'hôte du serveur marketing ACC est vide ou non défini.<br /> </td>
-   <td> VIDE<br /> </td>
+   <td> EMPTY<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
    <td> La clé d'intégration est vide ou non définie.<br /> </td>
-   <td> VIDE<br /> </td>
+   <td> EMPTY<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
@@ -383,7 +383,7 @@ Le prototype de **registerDeviceStatus** est le suivant :
   <tr> 
    <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
    <td> L'UUID indiqué (clé d'intégration) est inconnu.<br /> </td>
-   <td> VIDE<br /> </td>
+   <td> EMPTY<br /> </td>
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td>
