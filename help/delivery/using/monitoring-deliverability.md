@@ -6,11 +6,11 @@ description: Découvrez les outils et les directives concernant la supervision d
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -71,12 +71,12 @@ Les informations fournies sont disponibles en temps réel, ce qui permet une ass
 
 ## Rapport de supervision de la délivrabilité technique {#technical-deliverability-monitoring}
 
-Le rapport **Analyse technique de la délivrabilité** comprend un certain nombre d&#39;indicateurs de qualité de la délivrabilité pour votre plate-forme. Vous pouvez recevoir ce rapport quotidien par courriel. Pour le demander, ouvrez un [dossier d&#39;assistance](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) spécifique et spécifiez :
+Rapport de **supervision de la délivrabilité technique**, qui comprend un certain nombre d’indicateurs de qualité de la délivrabilité pour votre plateforme. Vous pouvez recevoir ce rapport quotidien par email. Pour le demander, ouvrez un [dossier d&#39;assistance](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) spécifique et indiquez :
 
-* nom de l’instance
-* les adresses électroniques auxquelles envoyer le rapport
+* le nom de l’instance ;
+* les adresses email auxquelles envoyer le rapport.
 
-Ce rapport contient les indicateurs suivants :
+Ce rapport contient les indicateurs suivants :
 
 * **[!UICONTROL Reverse DNS]** : Adobe Campaign vérifie qu&#39;un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l&#39;IP.
 
