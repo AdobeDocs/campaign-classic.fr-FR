@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
 source-wordcount: '2623'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -37,7 +37,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 * [Statut En échec](../../delivery/using/delivery-performances.md#failed-status)
 * [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)
 
-## Types de diffusion en échec et raisons {#delivery-failure-types-and-reasons}
+## Types de diffusion en échec et raisons  {#delivery-failure-types-and-reasons}
 
 Trois types d&#39;erreurs sont liés à un message en échec. Chaque type d&#39;erreur détermine si une adresse est mise en quarantaine. Voir à ce propos la section [Conditions de mise en quarantaine d&#39;une adresse](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
@@ -178,7 +178,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
  </tbody> 
 </table>
 
-## Reprises après une diffusion temporairement en échec  {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec   {#retries-after-a-delivery-temporary-failure}
 
 Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
 
@@ -194,7 +194,7 @@ Pour les installations sur site et les installations hébergées/hybrides utilis
 
 Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de Reprises peut être modifié globalement (contactez votre administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [Configuration des Reprises](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
-## Erreurs synchrones et asynchrones  {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones   {#synchronous-and-asynchronous-errors}
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
@@ -223,7 +223,7 @@ Pour les installations sur site et les installations hébergées/hybrides utilis
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), la plupart des règles de gestion du courrier électronique ne sont plus utilisées. Voir à ce propos [cette section](#email-management-rules).
 
-### Qualification des emails bounce  {#bounce-mail-qualification}
+### Qualification des emails bounce   {#bounce-mail-qualification}
 
 >[!IMPORTANT]
 >
@@ -315,7 +315,7 @@ Pour les installations sur site et les installations hébergées/hybrides utilis
 * Vous pouvez choisir d’activer ou non certaines normes d’identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
 * Les paramètres de **Relais SMTP** permettent de configurer l’adresse IP et le port d’un serveur relais pour un domaine particulier. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom de]** dans l’adresse de l’expéditeur, veillez à ne pas signer vos emails avec le **Sender ID** qui est la norme d’authentification de messagerie exclusive de Microsoft, devenue obsolète. Si l’option **[!UICONTROL ID d’expéditeur]** est activée, décochez la case correspondante et contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Il n’y aura aucune incidence sur la délivrabilité.
+Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom de]** dans l’adresse de l’expéditeur, veillez à ne pas signer vos emails avec le **Sender ID** qui est la norme d’authentification de messagerie exclusive de Microsoft, devenue obsolète. Si l’option **[!UICONTROL Sender ID]** est activée, décochez la case correspondante et contactez l’[Assistance clientèle d’Adobe Campaign](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Il n’y aura aucune incidence sur la délivrabilité.
 
 #### Gestion des MX {#mx-management}
 
