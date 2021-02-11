@@ -6,11 +6,11 @@ description: Connexion impossible
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Les causes des problèmes de connexion peuvent être multiples et dépendent des différents contextes.
 
-Vous pouvez tester les tests suivants et si l’échec de connexion persiste, contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Vous pouvez effectuer les tests suivants. Si la connexion échoue toujours, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 
