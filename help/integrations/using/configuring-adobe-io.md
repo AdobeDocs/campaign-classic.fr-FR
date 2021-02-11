@@ -9,11 +9,11 @@ topic-tags: adobe-experience-manager
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ec03e5bfdacc16ce148b24e200b517d73fae00b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 79%
 
 >[!CAUTION]
 >
->Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**. Le mode d’authentification Auth hérité sera retiré le 30 avril 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**. L’ancien mode d’authentification OAuth sera abandonné le 30 avril 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->Notez que lors de ce déplacement vers Adobe I/O, certains déclencheurs entrants peuvent être perdus.
+>Notez que lors de ce déplacement vers Adobe I/O, certains triggers entrants peuvent être perdus.
 
 ## Prérequis {#adobe-io-prerequisites}
 
@@ -43,7 +43,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
    >
    > Assurez-vous d&#39;être connecté au portail de l&#39;organisation approprié.
 
-1. Extrayez l’identifiant client d’intégration existant (ID client) du fichier de configuration de l’instance ims/authIMSTAClientId. Un attribut non existant ou vide indique que l’identifiant du client n’est pas configuré.
+1. Extrayez l&#39;identifiant client (identifiant du client) d&#39;intégration existant du fichier de configuration de l&#39;instance ims/authIMSTAClientId. Un attribut non existant ou vide indique que l’identifiant du client n’est pas configuré.
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
    ![](assets/do-not-localize/adobe_io_3.png)
 
-1. Si votre ID client était vide, sélectionnez **[!UICONTROL Générer une paire de clés]** pour créer une paire de clés publique et privée.
+1. Si l’identifiant du client était vide, sélectionnez **[!UICONTROL Générer une paire de clés]** pour créer une paire de clés publique et privée.
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -87,7 +87,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
 >[!NOTE]
 >
->Le certificat Adobe I/O expire après 12 mois. Vous devez générer une nouvelle paire de clés chaque année.
+>Le certificat Adobe I/O expire après 12 mois. Vous devez générer une nouvelle paire de clés chaque année.
 
 ## Étape 2 : ajouter les informations d&#39;identification du projet dans Adobe Campaign {#add-credentials-campaign}
 
@@ -99,7 +99,7 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 >[!NOTE]
 >
->Vous devez coder la clé privée au format base64 UTF-8. Pensez à supprimer la nouvelle ligne de la clé avant de la coder, à l’exception de la clé privée. La clé privée doit être la même que celle utilisée pour créer l&#39;intégration. Pour tester le codage base64 de la clé privée, vous pouvez utiliser [ce site Web](https://www.base64encode.org/).
+>Vous devez coder la clé privée au format base64 UTF-8. N&#39;oubliez pas de supprimer la nouvelle ligne de la clé avant de la coder, à l&#39;exception de la clé privée. La clé privée doit être la même que celle utilisée pour créer l&#39;intégration. Pour tester l&#39;encodage base64 de la clé privée, vous pouvez utiliser [ce site Web](https://www.base64encode.org/).
 
 ## Étape 3 : mettre à jour la balise en pipeline {#update-pipelined-tag}
 
