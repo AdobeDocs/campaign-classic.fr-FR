@@ -6,11 +6,11 @@ description: Gestion des accès
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c24cdd21c2426ea12a1cbd76d78154256bc814c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
 
    >[!NOTE]
    >
-   >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de Campaign. Pour arrêter d&#39;envoyer des notifications Campaign à cet opérateur, l&#39;Adobe vous recommande de supprimer l&#39;adresse électronique de son profil.
+   >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de la part de Campaign. Pour arrêter l&#39;envoi de notifications Campaign à cet opérateur, Adobe vous recommande de supprimer l&#39;adresse email de son profil.
 
 * L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
 * Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
@@ -208,7 +208,7 @@ Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit no
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
 
 ## Les groupes d&#39;opérateurs {#operator-groups}
 
