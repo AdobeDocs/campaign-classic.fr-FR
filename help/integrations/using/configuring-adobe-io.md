@@ -10,10 +10,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b82796182525ffa55b17fe8ac2f84f1bec230cf
+source-git-commit: 3348156f020d4c8af7e1d57c46cba99205422696
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
