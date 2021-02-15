@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3348156f020d4c8af7e1d57c46cba99205422696
+source-git-commit: c5c881d6919a8715e6588fb39793f562a16873bb
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 98%
@@ -85,7 +85,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
    ![](assets/do-not-localize/adobe_io_7.png)
 
->[!NOTE]
+>[!CAUTION]
 >
 >Le certificat Adobe I/O expire après 12 mois. Vous devez générer une nouvelle paire de clés chaque année.
 
