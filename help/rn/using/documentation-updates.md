@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 7473a64a7f3865d1e1eefde9607c539c2f632138
+source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
 workflow-type: tm+mt
-source-wordcount: '3932'
+source-wordcount: '3965'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,10 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usin
 Une nouvelle section a été ajoutée avec des informations détaillées sur la façon d’effectuer des tests A/B à l’aide de workflows. [En savoir plus](../../delivery/using/get-started-a-b-testing.md)
 
 La section Adobe Campaign Enhanced MTA a été déplacée [ici](../../delivery/using/sending-with-enhanced-mta.md).
+
+Une nouvelle page a été ajoutée pour fournir un aperçu des fonctionnalités de suivi dans [!DNL Campaign Classic]. [En savoir plus](../../delivery/using/about-message-tracking.md)
+
+Une section de dépannage a été ajoutée pour vous aider à résoudre les problèmes courants liés au suivi. [En savoir plus](../../delivery/using/tracking-troubleshooting.md)
 
 La section **Envoi d&#39;un courriel** a été réorganisée et clarifiée avec de nouvelles sous-sections. [En savoir plus](../../delivery/using/sending-messages.md)
 
