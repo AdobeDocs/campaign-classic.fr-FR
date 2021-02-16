@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
+source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
 workflow-type: tm+mt
-source-wordcount: '2347'
+source-wordcount: '2349'
 ht-degree: 98%
 
 ---
@@ -201,6 +201,7 @@ ht-degree: 98%
       + [Personnaliser le tracking des URL](delivery/using/personalizing-url-tracking.md)
       + [Accéder aux logs de tracking](delivery/using/accessing-the-tracking-logs.md)
       + [Tester le tracking](delivery/using/testing-tracking.md)
+      + [Dépannage du suivi](delivery/using/tracking-troubleshooting.md)
    + Gestion de la délivrabilité {#deliverability-management}
       + [A propos de la délivrabilité](delivery/using/about-deliverability.md)
       + [Points clés à vérifier](delivery/using/deliverability-key-points.md)
