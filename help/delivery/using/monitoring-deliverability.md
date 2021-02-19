@@ -6,9 +6,9 @@ description: Découvrez les outils et les directives concernant la supervision d
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 100%
 
