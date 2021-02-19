@@ -419,7 +419,7 @@ Si vous configurez des réponses automatiques, le processus SMS ouvrira des pair
 
 #### Activer TLS via SMPP {#enable-TLS}
 
-Utilisez TLS pour vous connecter au fournisseur. La connexion sera cryptée. La connexion TLS est gérée par la bibliothèque OpenSSL. Tout ce qui est applicable à OpenSSL sera vrai pour cette connexion.
+Utilisez TLS pour vous connecter au fournisseur. La connexion sera cryptée. La connexion TLS est gérée par la bibliothèque OpenSSL.Tout ce qui est applicable à OpenSSL sera vrai pour cette connexion.
 
 #### Activer les traces SMPP en mode verbeux dans le fichier de log {#enable-verbose-log-file}
 
@@ -471,7 +471,7 @@ Adobe Campaign Classic dispose d&#39;un mécanisme entièrement différent pour 
 
 Définit l&#39;adresse source par défaut des messages. Ce paramètre ne s&#39;applique que si le numéro source a été laissé vide dans la diffusion.
 
-Par défaut, le champ du numéro source n&#39;est pas transmis. Le fournisseur le remplace donc par le numéro court.
+Par défaut, le champ du numéro source n&#39;est pas transmis.Le fournisseur le remplace donc par le numéro court.
 
 Ceci active la fonction d&#39;écrasement de l&#39;adresse de l&#39;expéditeur / oADC.
 
@@ -507,7 +507,7 @@ Exemple de transmission avec une fenêtre maximale de 4 :
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée. La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
+La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
 Si la fenêtre est trop grande, vous pouvez envoyer plus de messages en doublons en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
 
 Comment calculer la formule optimale de la fenêtre d&#39;émission :
@@ -659,7 +659,7 @@ Indique le format de l&#39;ID renvoyé dans le champ `message_id` du `SUBMIT_SM_
 
 * **Nombre décimal** : l&#39;ID doit être un nombre décimal au format ASCII. Les espaces de début et de fin et les zéros de début sont supprimés lorsque ce paramètre est utilisé.
 
-* **Nombre hexadécimal** : l&#39;ID doit être un nombre hexadécimal au format ASCII, sans 0x ni h à la fin. L&#39;ID est ensuite converti en nombre décimal avant d&#39;être stocké dans la base de données.
+* **Nombre hexadécimal** : l&#39;ID doit être un nombre hexadécimal au format ASCII, sans 0x ni h à la fin.L&#39;ID est ensuite converti en nombre décimal avant d&#39;être stocké dans la base de données.
 
 * **Chaîne hexadécimale** : l&#39;ID doit être un texte encodé en ASCII qui est lui-même une chaîne d&#39;octets encodés en hexadécimal. Par exemple, dans le PDU, vous trouverez `0x34 0x31 0x34 0x32 0x34 0x33`, qui se traduit par &quot;414243&quot; en ASCII. Cette chaîne est alors décodée sous la forme d&#39;une chaîne hexadécimale d&#39;octets et vous obtenez &quot;ABC&quot; en conséquence : vous stockerez l&#39;ID &quot;ABC&quot; dans la base de données.
 
