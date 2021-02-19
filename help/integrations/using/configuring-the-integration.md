@@ -6,9 +6,9 @@ description: Découvrez comment configurer l’intégration Campaign-AEM
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
