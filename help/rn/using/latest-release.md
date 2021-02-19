@@ -6,9 +6,9 @@ description: Dernière version de Campaign Classic      Notes
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1981'
 ht-degree: 100%
 
