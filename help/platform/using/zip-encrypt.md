@@ -6,9 +6,9 @@ description: Découvrez comment compresser ou chiffrer un fichier dans Campaign�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Pour ce faire :
    >
    >Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l&#39;exception de ceux qui hébergent leurs instances marketing on-premise).
 
-1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l&#39;[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) d&#39;Adobe afin que les utilitaires nécessaires soient installés sur le serveur.
+1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) afin que les utilitaires nécessaires soient installés sur le serveur.
 1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de cryptage) nécessaires sur le serveur applicatif.
 
 Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICONTROL Script]** de l&#39;activité ou dans une activité **[!UICONTROL Code JavaScript]**. Le cas pratique ci-dessous présente un exemple.
@@ -45,7 +45,7 @@ Dans ce cas pratique, nous allons créer un workflow pour chiffrer et exporter d
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Générez une paire de clés GPG (publique/privée) à l&#39;aide d&#39;un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Générez une paire de clés GPG (publique/privée) à l&#39;aide d&#39;un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
 1. Dans Campaign Classic, créez un workflow pour exporter les données et les chiffrer à l&#39;aide de la clé privée installée à l&#39;aide du panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
