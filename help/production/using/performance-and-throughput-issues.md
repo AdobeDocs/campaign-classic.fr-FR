@@ -6,9 +6,9 @@ description: Problèmes de performance et de débit
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
