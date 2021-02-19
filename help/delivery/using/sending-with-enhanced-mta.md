@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
 workflow-type: tm+mt
 source-wordcount: '1427'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -133,11 +133,11 @@ Pour en savoir plus sur la qualification des rebonds, voir [cette section](../..
 
 Dans la vue **[!UICONTROL Résumé]** d&#39;une diffusion de courriel [tableau de bord](../../delivery/using/delivery-dashboard.md), le pourcentage **[!UICONTROL Succès]** début à 100 %, puis diminue progressivement tout au long de la diffusion [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), lorsque les rebonds soft et hard sont reportés de l&#39;ATM amélioré.
 
-En effet, tous les messages s’affichent sous la forme **[!UICONTROL Envoyé]** dans les journaux [d’envoi](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) dès qu’ils sont correctement relayés de Campaign vers l’AMT amélioré. Ils restent dans ce statut à moins ou jusqu’à ce qu’un [rebond](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
+En effet, tous les messages s’affichent sous la forme **[!UICONTROL Envoyé]** dans les journaux [d’envoi](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) dès qu’ils sont correctement relayés de Campaign vers l’AMT amélioré. Ils restent dans ce statut à moins ou jusqu’à ce qu’un [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
 
 Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état passe de **[!UICONTROL Envoyé]** à **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Succès]** est diminué en conséquence.
 
-Lorsque les messages rebondissant à l’écran sont renvoyés à partir de la MTA améliorée, ils apparaissent toujours sous la forme **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** n’est pas encore mis à jour. Les messages rebondissants sont ensuite [relancés](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
+Lorsque les messages rebondissant à l’écran sont renvoyés à partir de la MTA améliorée, ils apparaissent toujours sous la forme **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** n’est pas encore mis à jour. L&#39;envoi des messages soft bounces est ensuite [réessayé](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
 
 * Si une nouvelle tentative a réussi avant la fin de la période de validité, l’état du message reste **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** reste inchangé.
 
