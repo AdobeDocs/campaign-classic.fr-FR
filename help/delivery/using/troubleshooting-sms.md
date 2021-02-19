@@ -6,9 +6,9 @@ description: En savoir plus sur le connecteur SMS et comment le configurer.
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2751'
 ht-degree: 100%
 
