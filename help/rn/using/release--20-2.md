@@ -6,9 +6,9 @@ description: Version 20.2
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2561'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ _22 décembre 2020_
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via le service d&#39;identités Adobe (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **31 mars 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration Experience Clod Triggers par le biais de l’authentification Auth, vous devez vous déplacer vers Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification OAuth sera abandonné le **30 avril 2021**.
+> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez vous déplacer vers Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
 
 
 
@@ -83,7 +83,7 @@ _22 juillet 2020_
 * Après le passage au [nouveau mécanisme d’identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
 * Correction d’une vulnérabilité XSS potentielle dans le contenu d’une diffusion. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
