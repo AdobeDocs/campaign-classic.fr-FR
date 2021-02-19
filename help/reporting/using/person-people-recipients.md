@@ -100,7 +100,7 @@ Personnes : comme le navigateur de ce destinataire accepte les cookies, nous ob
 | John | - | - | - |
 | Marie | - | - | +1 |
 | Florian | +1 | +1 | +1 |
-| Total intermédiaire | 3 | 1 | 2 |
+| Total intermédiaire | 1 | 3 | 2 |
 
 Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par la personne à qui Florian a transféré l&#39;email :
 
@@ -122,7 +122,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 | Marie | - | - | +1 |
 | Florien | +1 | +1 | +1 |
 | Personne inconnue | - | +1 | - |
-| Total intermédiaire | 3 | 2 | 2 |
+| Total intermédiaire | 1 | 2 | 2 |
 
 ## Etape 4 : Henry {#step-4--henry}
 
