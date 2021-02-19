@@ -6,9 +6,9 @@ description: Version 19.2
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 100%
 
@@ -23,9 +23,10 @@ _23 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via le service d&#39;identités Adobe (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **31 mars 2021**.
->
-> * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **31 mars 2021**.
+   >
+   > 
+* Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 
