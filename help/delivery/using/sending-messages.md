@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Une fois votre adresse électronique créée et configurée, vous pouvez l’envoyer à la cible principale. Cette section présente les principales étapes à suivre pour confirmer la diffusion d’un courriel.
 
-1. Vérifiez que vous avez configuré tous les paramètres propres à la diffusion de messagerie. Pour plus d’informations sur ce sujet, voir [Paramètres de courriel](../../delivery/using/email-parameters.md).
+1. Vérifiez que vous avez configuré tous les paramètres spécifiques à la diffusion de messagerie. Pour plus d’informations sur ce sujet, voir [Paramètres de courriel](../../delivery/using/email-parameters.md).
 1. Lorsque le courrier électronique est prêt, avant de l’envoyer à la cible principale, il est recommandé de détecter toute erreur potentielle en envoyant des BAT. Pour plus d’informations sur ce sujet, voir [Envoi d’un BAT](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 1. Une fois l’opération terminée, vous devez valider le courrier électronique en lançant l’analyse. Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez une action et cliquez sur **[!UICONTROL Analyser]**. Pour plus d&#39;informations sur ce sujet, voir [Lancement de l&#39;analyse](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
