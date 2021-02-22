@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 100%
+source-wordcount: '1707'
+ht-degree: 99%
 
 ---
 
@@ -408,7 +408,7 @@ Pour configurer le compte externe Salesforce CRM afin de l&#39;utiliser avec Ado
 
 * **[!UICONTROL Version de l&#39;API]**
 
-   Version de l&#39;API parmi **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** et **[!UICONTROL Version 15]**.
+   Version de l’API entre **[!UICONTROL Version 49]**, **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** ou **[!UICONTROL Version 15]**.
 
 Pour ce compte externe, vous devez configurer votre Salesforce CRM à l&#39;aide de l&#39;assistant de configuration.
 
