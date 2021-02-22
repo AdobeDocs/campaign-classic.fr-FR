@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
 source-wordcount: '2368'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ Avant de commencer l&#39;upgrade de build, les clients On-Premise doivent effect
 
 1. Obtenez la dernière version du [fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md).
 
-1. Téléchargez le dernier build. [En savoir plus sur le centre de téléchargement](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html).
+1. [Téléchargez la dernière version](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html). [En savoir plus](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html).
 
 Vous devez également connaître toutes les [lignes de commande utiles](../../installation/using/command-lines.md) avant de commencer un upgrade de build :
 
@@ -163,7 +163,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 ### Mettre à jour l&#39;application serveur Adobe Campaign
 
-1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
+1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
 1. Sélectionnez le mode d&#39;installation : **Mise à jour** ou **Réparation**.
 
@@ -365,8 +365,8 @@ Il existe différents types de fusions :
 #### Où trouver le code ?
 
 1. Le code intégré est stocké dans des fichiers XML dans le dossier datakit. Recherchez le fichier XML qui correspond à l&#39;objet en conflit, par exemple : DossierInstallation\datakit\nms\fra\form\recipient.xml
-1. Récupérez la version d&#39;origine : via le [centre de téléchargement](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) ou une autre installation non mise à niveau du produit.
-1. Récupérez la nouvelle version : via le [centre de téléchargement](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html) ou les fichiers installés par le client.
+1. Récupérez la version d&#39;origine : via le [centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ou une autre installation non mise à niveau du produit.
+1. Récupérez la nouvelle version : via le [centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ou les fichiers installés par le client.
 1. Récupérez la version personnalisée : récupérez le code source de l&#39;objet depuis le client Campaign.
 
 ### Comment créer une comparaison de fichiers
