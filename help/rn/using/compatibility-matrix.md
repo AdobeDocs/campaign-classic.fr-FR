@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
+source-git-commit: 07a13f206ada24dbfe54be754afe4f97834a23e1
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
@@ -174,7 +174,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>API du connecteur Salesforce</td>
 <td>
-<p>API version 37</p>
+<p>API version 49</p>
 </td>
 </tr>
 <tr>
