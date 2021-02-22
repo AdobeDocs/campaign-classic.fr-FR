@@ -5,9 +5,8 @@ title: Configuration du pipeline
 description: Découvrez comment configurer le pipeline
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 531eb23ff8fe1b77c37a51e7f99921b0bc071f0f
+source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
