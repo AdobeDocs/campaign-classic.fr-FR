@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: df7c27e763e7e0c02189ed972f33eb03ca2a915f
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 100%
+source-wordcount: '1003'
+ht-degree: 96%
 
 ---
 
@@ -128,7 +128,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
    >Ce bloc peut être utilisé dans les diffusions qui ciblent uniquement les visiteurs.
 
 * **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l&#39;inscription.
-* **[!UICONTROL Liens de partage vers réseaux sociaux]** : insère des boutons grâce auxquels le destinataire peut partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, Twitter, Google + et LinkedIn (voir [Marketing viral : transférer à un ami](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Liens]**  de partage sur les réseaux sociaux : insère des boutons qui permettent au destinataire de partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, Twitter et LinkedIn (voir  [Marketing Viral : à un ami](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style des emails de contenu]** et **[!UICONTROL Style de notification]** : génèrent un code permettant de formater un email avec les styles HTML par défaut. Ces blocs doivent être insérés dans le code source de la diffusion, dans la section **[!UICONTROL ...]**, dans les balises **`<style>...</style>`**.
 * **[!UICONTROL URL d&#39;acceptation d&#39;une offre en mode unitaire]** : insère une URL permettant de définir une offre d&#39;interaction comme étant **[!UICONTROL Acceptée]** (voir [cette section](../../interaction/using/offer-analysis-report.md)).
 
