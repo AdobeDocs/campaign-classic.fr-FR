@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ Il est possible de vous connecter à Adobe Campaign via votre Adobe ID. Voir à 
 
 Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
-1. Saisissez l’identifiant du compte opérateur dans le champ **[!UICONTROL Login]**.
+1. Entrez l&#39;identifiant de compte d&#39;opérateur dans le champ **[!UICONTROL Connexion]**.
 
    L’identifiant vous est fourni par l’administrateur de la plate-forme Adobe Campaign.
 
@@ -41,9 +41,14 @@ Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
    La première fois que vous accédez à la base de données, votre mot de passe est celui que vous aura attribué l’administrateur. Une fois que vous serez connecté, vous pourrez personnaliser votre mot de passe via le menu **[!UICONTROL Outils > Changer le mot de passe...]** Des détails sur les opérateurs et les connexions sont disponibles dans [Gestion des accès](../../platform/using/access-management.md).
 
-1. Cliquez sur **[!UICONTROL SE CONNECTER]** pour valider.
+1. Cliquez sur **[!UICONTROL SE CONNECTER]** pour valider.<!--You can also press the **Enter** key to launch connection.-->
 
 Vous pouvez maintenant accéder à l’[espace de travail Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
+
+Certains raccourcis clavier sont disponibles sur l&#39;**[!UICONTROL écran de connexion]** :
+* Tous les éléments exploitables peuvent être sélectionnés à l&#39;aide de la touche **Tabulation** (de haut en bas) ou de la touche **Tabulation** + **Maj** (de bas en haut).
+* Pour lancer la connexion, vous pouvez également appuyer sur la touche **Entrée**.
+* Vous pouvez utiliser la clé **Echap** pour rétablir les derniers valeurs de connexion réussies dans les champs **[!UICONTROL Connexion]** et **[!UICONTROL Mot de passe]**.
 
 ## Configuration de connexions {#setting-up-connections}
 
@@ -101,5 +106,5 @@ Pour en savoir plus sur Gold Standard, voir [cet article](https://helpx.adobe.c
 **Rubriques connexes** :
 
 * [Options d&#39;aide et de support d&#39;Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
-* [Distribution logicielle Adobe](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html)
+* [Distribution de logiciels Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
 * [Adobe Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
