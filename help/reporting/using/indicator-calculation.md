@@ -518,7 +518,7 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
    <td> Succès<br /> </td> 
    <td> @successWithoutSeeds<br /> </td> 
    <td> Comptage des messages pour lesquels le champ "adresse de contrôle" est égal à "Non" et dont le statut est égal à "Pris en compte par le prestataire" ou "Envoyé" ou "Reçu sur le mobile".<br /> </td> 
-   <td> sum([indicateurs/@succès))<br /> </td> 
+   <td> sum([indicateurs/@succès])<br /> </td> 
   </tr> 
   <tr> 
    <td> Ouvertures distinctes sur la population atteinte<br /> </td> 
@@ -554,7 +554,7 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
    <td> Envois<br /> </td> 
    <td> @successWithoutSeeds<br /> </td> 
    <td> Comptage des messages pour lesquels le champ "adresse de contrôle" est égal à "Non" et dont le statut est égal à "Pris en compte par le prestataire" ou "Envoyé" ou "Reçu sur le mobile".<br /> </td> 
-   <td> sum([indicateurs/@succès))<br /> </td> 
+   <td> sum([indicateurs/@succès])> </td> 
   </tr> 
   <tr> 
    <td> Plaintes (Complaints)<br /> </td> 
@@ -774,7 +774,7 @@ Ce rapport se base sur la table **[!UICONTROL Diffusion]** (nms:delivery).
    <td> Succès<br /> </td> 
    <td> @success<br /> </td> 
    <td> Nombre de messages traités avec succès.<br /> </td> 
-   <td> sum([indicateurs/@succès))<br /> </td> 
+   <td> sum([indicateurs/@succès])<br /> </td> 
   </tr> 
   <tr> 
    <td> Erreurs<br /> </td> 
