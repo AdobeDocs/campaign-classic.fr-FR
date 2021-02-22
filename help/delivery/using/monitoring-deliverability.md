@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
+source-git-commit: fa5679d91808edb8e3916d5f0e0f54c73198e934
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '485'
 ht-degree: 100%
 
 ---
@@ -25,14 +25,12 @@ Utilisez les outils proposés par Adobe Campaign pour superviser la délivrabil
 
 Le package Délivrabilité vous donne accès aux informations suivantes :
 
-* Rapport de suivi technique, au jour le jour, des performances de délivrabilité (monitoring technique). Disponible sur demande, ce rapport permet de recevoir un rapport quotidien envoyé par email à une adresse spécifiée. Pour en savoir plus à ce sujet, contactez l’équipe Assistance clientèle d’Adobe.
 * [Rapport Inbox rendering](../../delivery/using/inbox-rendering.md), qui permet la prévisualisation de vos messages sur les principaux clients de messagerie afin d’analyser le contenu et la réputation.
 * Vue d’ensemble de la qualité des messages (boîte de réception, spam).
 
 Vous pouvez également utiliser les outils suivants :
 
 * Rapport **[!UICONTROL Débit de diffusion]**, qui donne une vue d’ensemble du débit global de la plateforme pour une période donnée. Voir à ce propos [cette section](../../reporting/using/global-reports.md#delivery-throughput).
-* Rapport de **[!UICONTROL supervision de la délivrabilité technique]**, qui comprend un certain nombre d’indicateurs de qualité de la délivrabilité pour votre plateforme. Voir à ce propos [cette section](#technical-deliverability-monitoring).
 * Chaque diffusion génère un rapport de statistiques de diffusion pour les différents fournisseurs d’accès à internet (FAI). Il présente certaines mesures de réputation et de qualité des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
    * **[!UICONTROL Erreurs hard]**, qui indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
    * **[!UICONTROL Erreurs soft]** qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
@@ -68,28 +66,6 @@ Signal Spam est un service français qui propose un reporting de rétroaction an
 [250ok](https://250ok.com/) est une solution de monitoring complémentaire des outils internes de délivrabilité d&#39;Adobe. Elle produit des listes bloquées de domaines et d&#39;adresses IP et des indicateurs de réputation.
 
 Les informations fournies sont disponibles en temps réel, ce qui permet une assistance proactive.
-
-## Rapport de supervision de la délivrabilité technique {#technical-deliverability-monitoring}
-
-Rapport de **supervision de la délivrabilité technique**, qui comprend un certain nombre d’indicateurs de qualité de la délivrabilité pour votre plateforme. Vous pouvez recevoir ce rapport quotidien par email. Pour le demander, ouvrez un [dossier d&#39;assistance](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) spécifique et indiquez :
-
-* le nom de l’instance ;
-* les adresses email auxquelles envoyer le rapport.
-
-Ce rapport contient les indicateurs suivants :
-
-* **[!UICONTROL Reverse DNS]** : Adobe Campaign vérifie qu&#39;un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l&#39;IP.
-
-* **[!UICONTROL SPF]** (Sender Policy Framework) : mécanisme d’authentification qui permet aux fournisseurs d’accès à Internet et de messagerie de vérifier si l’expéditeur de l’email autorisé sur le domaine d’envoi.
-
-* **[!UICONTROL DomainKeys]** : Service développé par Yahoo visant à certifier l&#39;identité de l&#39;émetteur d&#39;un email.
-
-* **[!UICONTROL IP et domaine RBL]** (Real-time Blackhole List) : liste des adresses IP et domaines qui ont été marqués par les organisations de liste bloquée pour mauvaise réputation d&#39;envoi. Ces listes sont enrichies par des organismes dédiés tels que Spamhaus, Spamcop, SURBL/URIBL, etc. Adobe Campaign traite actuellement les contrôles par rapport aux RBL qui ont un impact significatif sur la délivrabilité. Ces RBL sont les témoins de votre réputation d’envoi et peuvent être interrogés par les ISP avant acceptation de vos emails.
-
-* **[!UICONTROL SNDS]** (Smart Network Data Services) : un [service Windows Live Hotmail de lutte contre le spam](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx). Hotmail est le seul FAI qui fournit ce type d&#39;informations. Les scores de référence sont un résultat de filtre vert, un taux de plainte inférieur à 0,1 % et un taux zéro de pourriel.
-
-Ces indicateurs sont mis à jour tous les jours à 9 h.
-
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
