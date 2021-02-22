@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
+source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> Pris en compte par le fournisseur de services<br /> </td> 
-   <td> Le fournisseur de services SMS a reçu la diffusion.<br /> </td> 
+   <td> Le fournisseur de services SMS a reçu la diffusion.<br /> Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank"> </a>améliorée, le message a été relayé de Campaign vers la MTA améliorée.</td> 
   </tr> 
   <tr> 
    <td> Reçu sur le mobile<br /> </td> 
@@ -129,7 +129,7 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
    Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* Lorsque trop de campagnes sont en cours d&#39;exécution, l’état de la diffusion reste &#39;En attente&#39;.
+* Lorsque trop de campagnes sont en cours d’exécution, l’état de la diffusion reste &quot;En attente&quot;.
 
    La limite des campagnes simultanées est définie dans l&#39;option **[!UICONTROL NmsOperation_LimitConcurrency]**. La valeur par défaut est 10.
 
