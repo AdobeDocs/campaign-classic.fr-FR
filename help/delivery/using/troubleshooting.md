@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
@@ -22,8 +22,6 @@ Si votre appareil mobile est connecté en Wi-Fi et que vous ne recevez pas les n
 **Android** : l&#39;appareil mobile se connecte aux serveurs FCM sur les ports 5228 à 5230. Vous devez donc configurer votre pare-feu pour qu&#39;il autorise la connexion avec FCM. Les ports à ouvrir sont les suivants : 5228 (le plus fréquemment utilisé), 5229 et 5230.
 
 **iOS** :
-
-Connecteur binaire : pour envoyer des notifications, vous devez autoriser le trafic TCP entrant et sortant sur le port 2195. Les appareils connectés au service push doivent autoriser le trafic TCP entrant et sortant sur le port 5223.
 
 Connecteur HTTP/2 : vous devez autoriser les communications à destination et en provenance des serveurs suivants :
 
