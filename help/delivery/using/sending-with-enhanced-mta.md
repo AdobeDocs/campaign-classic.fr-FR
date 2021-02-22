@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
+source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 8%
+source-wordcount: '1950'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,10 @@ Il est mis en oeuvre pour améliorer l&#39;évolutivité, augmenter le débit de
 Si une instance de Campaign Classic a été configurée après septembre 2018, vous utilisez la MTA améliorée. Pour tous les autres clients Campaign Classic, consultez la [Foire aux questions](#enhanced-mta-faq) ci-dessous.
 
 L’implémentation améliorée de la MTA peut avoir un impact sur certaines fonctionnalités Campaign existantes. Pour en savoir plus sur ce sujet, voir les [Spécifications MTA améliorées](#enhanced-mta-impacts).
+
+>[!NOTE]
+>
+>Si vous êtes un utilisateur final d’Adobe Campaign et que vous souhaitez savoir si votre instance a été mise à niveau vers la MTA améliorée, contactez votre administrateur Campaign interne.
 
 ## Forum aux questions {#enhanced-mta-faq}
 
@@ -129,24 +133,6 @@ Les qualifications de rebond dans la table Campaign **[!UICONTROL qualification 
 
 Pour en savoir plus sur la qualification des rebonds, voir [cette section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### État envoyé avec MTA amélioré
-
-Dans la vue **[!UICONTROL Résumé]** d&#39;une diffusion de courriel [tableau de bord](../../delivery/using/delivery-dashboard.md), le pourcentage **[!UICONTROL Succès]** début à 100 %, puis diminue progressivement tout au long de la diffusion [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), lorsque les rebonds soft et hard sont reportés de l&#39;ATM amélioré.
-
-En effet, tous les messages s’affichent sous la forme **[!UICONTROL Envoyé]** dans les journaux [d’envoi](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) dès qu’ils sont correctement relayés de Campaign vers l’AMT amélioré. Ils restent dans ce statut à moins ou jusqu’à ce qu’un [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
-
-Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état passe de **[!UICONTROL Envoyé]** à **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Succès]** est diminué en conséquence.
-
-Lorsque les messages rebondissant à l’écran sont renvoyés à partir de la MTA améliorée, ils apparaissent toujours sous la forme **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** n’est pas encore mis à jour. L&#39;envoi des messages soft bounces est ensuite [réessayé](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
-
-* Si une nouvelle tentative a réussi avant la fin de la période de validité, l’état du message reste **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** reste inchangé.
-
-* Sinon, l’état devient **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Succès]** est diminué en conséquence.
-
-Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage final **[!UICONTROL Succès]** et le nombre final de **[!UICONTROL Envoyé]** et **[!UICONTROL Échec]**.
-
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
 ### Débit des diffusions
 
 Le graphique de débit de la Diffusion Campaign n&#39;affiche plus le débit de vos destinataires de messagerie. Ce graphique montre maintenant la vitesse de transmission de vos messages de Campaign vers le MTA amélioré.
@@ -167,3 +153,78 @@ Pour en savoir plus sur la période de validité, voir [cette section](../../del
 
 La signature de l’authentification par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée par l’AMT améliorée. Dans le cadre de la mise à niveau vers le MTA amélioré, la signature DKIM par le MTA natif de Campaign sera désactivée dans la table Gestion des domaines.
 Pour en savoir plus sur DKIM, voir [cette section](../../delivery/using/technical-recommendations.md#dkim).
+
+### Rapports de réussite de diffusion
+
+Dans la vue **[!UICONTROL Résumé]** d&#39;une diffusion de courriel [tableau de bord](../../delivery/using/delivery-dashboard.md), le pourcentage **[!UICONTROL Succès]** début à 100 %, puis diminue progressivement tout au long de la diffusion [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), lorsque les rebonds soft et hard sont reportés de l&#39;ATM amélioré.
+
+En effet, tous les messages s’affichent sous la forme **[!UICONTROL Envoyé]** dans les journaux [d’envoi](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) dès qu’ils sont correctement relayés de Campaign vers l’AMT amélioré. Ils restent dans ce statut à moins ou jusqu’à ce qu’un [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
+
+Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état passe de **[!UICONTROL Envoyé]** à **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Succès]** est diminué en conséquence.
+
+Lorsque les messages rebondissant à l’écran sont renvoyés à partir de la MTA améliorée, ils apparaissent toujours sous la forme **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** n’est pas encore mis à jour. L&#39;envoi des messages soft bounces est ensuite [réessayé](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
+
+* Si une nouvelle tentative a réussi avant la fin de la période de validité, l’état du message reste **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** reste inchangé.
+
+* Sinon, l’état devient **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Succès]** est diminué en conséquence.
+
+Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage final **[!UICONTROL Succès]** et le nombre final de **[!UICONTROL Envoyé]** et **[!UICONTROL Échec]**.
+
+<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
+
+### Service de commentaires par email (bêta) {#email-feedback-service}
+
+Grâce à la fonctionnalité de service de commentaires par email (EFS), l’état de chaque email est rapporté avec précision, car les commentaires sont capturés directement à partir de l’agent du MTA amélioré.
+
+>[!IMPORTANT]
+>
+>Le service de commentaires par email est actuellement disponible en version bêta.
+>
+>Si vous souhaitez participer à ce programme bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous répondrons.
+
+Une fois la diffusion lancée, le pourcentage **[!UICONTROL Succès]** n’est plus modifié lorsque le message est relayé de Campaign vers l’AMT amélioré.
+
+<!--![](assets/efs-sending.png)-->
+
+Les logs de diffusion affichent le **[!UICONTROL statut pris en compte par le prestataire]** pour chaque adresse ciblée.
+
+<!--![](assets/efs-pending.png)-->
+
+Lorsque le message est effectivement diffusé aux profils ciblés et que ces informations sont rapportées en temps réel à partir du MTA amélioré, les logs de diffusion affichent l’état **[!UICONTROL Envoyé]** pour chaque adresse qui a reçu le message avec succès. Le pourcentage **[!UICONTROL Réussite]** est augmenté en conséquence à chaque diffusion réussie.
+
+Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état de journal passe de **[!UICONTROL Prise en compte par le prestataire]** à **[!UICONTROL Échec]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
+
+Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état de journal reste inchangé (**[!UICONTROL pris en compte par le prestataire]**) : seul le [motif d’erreur](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) est mis à jour<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Le pourcentage **[!UICONTROL Réussite]** reste inchangé. L&#39;envoi des messages soft bounces est ensuite réessayé tout au long de la [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) de la diffusion :
+
+* Si une nouvelle tentative a réussi avant la fin de la période de validité, l’état du message passe à **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** est augmenté en conséquence.
+
+* Sinon, l’état devient **[!UICONTROL Échec]**. Le pourcentage **[!UICONTROL Réussite]** <!--and **[!UICONTROL Bounces + errors]** -->reste inchangé.
+
+>[!NOTE]
+>
+>Pour plus d’informations sur les bounces hard et soft, voir [cette section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>
+>Pour plus d’informations sur les reprises après une défaillance temporaire d’une diffusion, voir [cette section](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+
+
+Les tableaux ci-dessous montrent les modifications des indicateurs de performance clés et l&#39;état des journaux envoyés introduites par la fonctionnalité EFS.
+
+**Avec le service de commentaires par courriel**
+
+| Étape du processus d’envoi | Récapitulatif des indicateurs clés | Envoi de l&#39;état des journaux |
+|--- |--- |--- |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | **[!UICONTROL Le pourcentage]** de réussite n’est pas affiché (débuts sortis à 0 %) | Pris en compte par le fournisseur de services |
+| Les rapports sur les messages hard bounces sont renvoyés à partir du MTA amélioré. | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | En échec |
+| Les messages soft bounces sont renvoyés à partir du MTA amélioré. | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | Pris en compte par le fournisseur de services |
+| Les reprises de messages soft bounces réussissent | **[!UICONTROL Le]** pourcentage de réussite est augmenté en conséquence. | Envoyés |
+| Échec des reprises de messages soft bounces | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | En échec |
+
+**Sans le service de commentaires par courriel**
+
+| Étape du processus d’envoi | Récapitulatif des indicateurs clés | Envoi de l&#39;état des journaux |
+|--- |--- |--- |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | **[!UICONTROL débuts]** de réussite sortis à 100 % | Envoyés |
+| Les rapports sur les messages hard bounces sont renvoyés à partir du MTA amélioré. | **[!UICONTROL Le]** pourcentage de réussite est diminué en conséquence. | En échec |
+| Les messages soft bounces sont renvoyés à partir du MTA amélioré. | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | Envoyés |
+| Les reprises de messages soft bounces réussissent | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | Envoyés | **[!UICONTROL Le]** pourcentage de réussite est augmenté en conséquence. | Envoyés |
+| Échec des reprises de messages soft bounces | **[!UICONTROL Le]** pourcentage de réussite est diminué en conséquence. | En échec |
