@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 5b5aae1b8c19e9fed5f3172d796b0f25022b6d58
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
@@ -21,155 +21,85 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 Pour la version Gold Standard de Campaign Classic (dernier build GA), [reportez-vous à cette page](../../rn/using/gold-standard.md).
 
-## ![](assets/do-not-localize/blue_2.png) Version 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
+## ![](assets/do-not-localize/blue_2.png) Version 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
-_11 janvier 2021_
-
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
-* Correction d’un problème de régression lié au processus de génération des broadlogs qui entraînait le blocage du processus MTA.
-
-## ![](assets/do-not-localize/red_2.png) Version 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
-
-_27 octobre 2020_
-
->[!CAUTION]
->
-> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via le service d&#39;identités Adobe (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **31 mars 2021**.
-> * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez vous déplacer vers Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
-
-
-**Nouveautés**
-
-<table> 
-<thead>
-<tr> 
-<th> <strong>Améliorations des notifications push iOS</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>Lors de l’intégration de votre application mobile avec Campaign, vous devez sécuriser vos communications avec le service Apple Push Notification (APN). Vous pouvez utiliser l’authentification par certificat ou par jeton.
-</p>
-<p>Ces deux modes d’authentification sont maintenant disponibles pour les applications mobiles iOS dans Campaign Classic :
-</p>
-<ul> 
-<li><p>Authentification par jeton (recommandée) : ce mode d'authentification est basé sur un fichier .p8. Il est plus rapide, car chaque demande aux APN contient le jeton. <a href="https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns">En savoir plus</a></p></li>
-<li><p>Authentification par certificat : ce mode d'authentification est basé sur un fichier .p12. Pour chaque application, un certificat distinct est requis. Ce certificat est délivré par Apple via votre compte de développeur. <a href="https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns">En savoir plus</a></p></li> 
-</ul>
-<p>Découvrez comment sélectionner le mode d'authentification dans Campaign dans la <a href="../../delivery/using/configuring-the-mobile-application.md">documentation détaillée</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
-
-<table> 
-<thead>
-<tr> 
-<th> <strong>Améliorations des notifications push Android</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p><a href="../../delivery/using/configuring-the-mobile-application-android.md#creating-notification-message">Les notifications push Android ont été améliorées afin de prendre en charge l’API FCM HTTP v1 pour l’authentification de canal push Android.</a> </p>
-<p>Avec la nouvelle version de l'API prise en charge, vous pouvez maintenant envoyer des messages de notification FCM qui proposent des fonctionnalités enrichies de messagerie push. <a href="https://firebase.google.com/docs/cloud-messaging/migrate-v1">En savoir plus</a></p> 
-<p>Découvrez comment configurer l’API FCM HTTP v1 pour Android dans Adobe Campaign dans <a href="../../delivery/using/configuring-the-mobile-application-android.md">cette section</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
+_22 février 2021_
 
 **Améliorations de la sécurité**
 
-* Chargement sécurisé des bibliothèques : afin de se protéger des attaques par préchargement de DLL, Campaign charge désormais les DLL Windows uniquement à partir du chemin d’accès de DLL système par défaut Windows lors du chargement du client Campaign (nlclient). [En savoir plus](https://support.microsoft.com/fr-fr/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks) (NEO-24147)
-* Correction d’un problème de sécurité afin de renforcer la protection contre les attaques SSRF (Server Side Request Forgery). (NEO-25661)
-* Correction d’un problème qui se produisait lors du traitement des demandes d’accès à des informations personnelles RGPD qui empêchait la suppression d’enregistrements des tables personnalisées avec une relation de second niveau avec la table des destinataires. (NEO-25967)
-* Correction d’un problème de sécurité lors de l’utilisation des appels d’API effectués par des utilisateurs non-administrateurs lors de la synchronisation de modèles Adobe Experience Manager. (NEO-23487)
+* Le mécanisme d&#39;authentification de la console a été amélioré pour optimiser la sécurité. (NEO-26944)
+* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-28532)
 
 **Mises à jour de compatibilité**
 
 Les systèmes suivants sont désormais pris en charge avec Campaign :
-* iOS 14
-* PostgreSQL 12
-* CentOS / RedHat 8
-* MSSQL2019
 
-En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/compatibility-matrix.md).
+* L’API Salesforce version 49 est désormais prise en charge lors de l’utilisation du compte externe de gestion de la relation client Salesforce.
 
 **Fonctionnalités obsolètes**
 
-Les fonctionnalités suivantes sont obsolètes dans la version 20.3 :
-
-* Le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud est obsolète. Si vous utilisez le domaine demdex pour vos comptes externes d’import/export, vous devez adapter votre mise en œuvre en conséquence. [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* L’authentification de l’intégration des Triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
+Le rapport **Analyse de la délivrabilité technique** est désormais obsolète.
 
 En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md).
 
 **Améliorations**
 
-* Plusieurs améliorations ont été apportées à la **console cliente** :
-   * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS. La mise à niveau du serveur et de la console cliente est obligatoire pour pouvoir se connecter après le 31 mars 2021.
-   * Pour éviter toute incompatibilité avec certaines restrictions de règles GPO de sécurité Internet, l&#39;écran de connexion de la console cliente Campaign a été remplacé par un formulaire Windows standard intégré.
-   * Correction d’un problème lors des activités de copie/collage dans un workflow à l’aide de la console cliente 64 bits. (NEO-27635)
-   * Dans le menu **À propos**, des informations ont été ajoutées pour faire la différence entre les consoles 64 et 32 bits.
-* L&#39;identifiant du workflow s&#39;affiche maintenant dans les logs lors de la reprise d&#39;un workflow, ce qui vous permet de mieux l’identifier.
-* Un nouveau cookie permanent a été ajouté : nllastdelid. Ce cookie (autre que UUID230) stockera deliveryId. Lorsque le cookie de session n’est pas présent, les informations de broadlog sont extraites du deliveryId présent dans ce cookie.
-Cette modification corrige un problème qui se produisait lorsque la session du navigateur était terminée : le cookie de session contenant deliveryId et broadlogId a été supprimé. Sans deliveryId, les informations de broadlog étaient introuvables et celles de la table de tracking étaient manquantes en cas de tracking permanent (dernière diffusion).
-En savoir plus sur les cookies dans [cette section](../../platform/using/privacy-and-recommendations.md#cookies).
-* Amélioration des performances de débit des diffusions à volume élevé avec le serveur de délivrabilité en redémarrant le processus MTA avant l&#39;envoi de la diffusion.
+**Le service de commentaires par courriel (EFS)** est un service évolutif qui capture directement les commentaires des MTA amélioré, améliorant ainsi la précision des rapports. Cette fonctionnalité est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+
+* Toutes les catégories de commentaires sont maintenant capturées pour créer des rapports complets et précis.
+* Le calcul de l’indicateur Délivrés est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l’amélioration de la précision et de la réactivité.
+* Le service EFS résout le problème des retards grâce au reporting synchrone des soft bounces.
+
+Pour plus d’informations, consultez la [documentation détaillée](../../delivery/using/sending-with-enhanced-mta.md#efs).
+Si vous souhaitez participer à cette version bêta privée, remplissez ce [formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous répondrons.
 
 **Autres changements**
 
-* Lors de l’utilisation d’un chemin relatif pour le protocole SFTP, les caractères `~/` ne sont plus automatiquement ajoutés. Si nécessaire, vous pouvez ajouter manuellement des caractères `~/` à votre chemin, mais Adobe conseille d’utiliser un **chemin absolu**.
-* L&#39;authentification Windows NT a été supprimée des méthodes d&#39;authentification disponibles lors de la configuration d&#39;une nouvelle base de données avec Microsoft SQL Server. [En savoir plus](../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine)
-* Le workflow de nettoyage de la base a été optimisé pour Teradata afin d’améliorer les performances. (NEO-19959)
-* Amélioration du message d’erreur affiché lors de l’insertion d’une image à partir d’Adobe Target. Le nom du tenant était vide dans le compte externe.
-* Dans les propriétés de la diffusion, l’option **[!UICONTROL Archiver les emails]** a été renommée **[!UICONTROL Email BCC]**.
-* Pour améliorer la robustesse, les requêtes selectAll avec des nœuds non valides sont maintenant rejetées. Si vous devez désactiver la vérification et revenir au comportement précédent, vous pouvez définir XtkSecurity_Disable_QueryCheck sur 0.
-
-**Évolutions techniques**
-
-Tomcat a été mis à jour de la version 7 (7.0.103) vers la version 8 (8.5.57).
-
-Le répertoire `tomcat-7` a été remplacé par un répertoire `tomcat-8`.
-
-Sous Windows, _iis_neolane_setup.vbs_ et _apache_neolane.conf_ sont maintenant installés dans le répertoire `conf` (au lieu de `tomcat-7/conf`).
-
-Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `conf`.
+* La vitesse de transfert a été améliorée pour les logs de tracking volumineux par compression.
+* Le Heatmap du flux de travail a été amélioré afin d’éviter les dépassements de délai lors de l’exécution de workflows avec plusieurs activités. (NEO-27423).
+* Correction d’un problème en raison duquel une offre pouvait être présentée même si sa date de fin était dépassée. Le Campaign Classic prend désormais en compte l’horodatage complet de la date de fin plutôt que la date uniquement. (NEO-27590)
+* Le lien Google+ a été supprimé du bloc de personnalisation **Liens de partage de réseau social**.
+* Correction d’un problème après l’implémentation d’un correctif dans la dernière version. Une vérification a été ajoutée sur le nom d&#39;hôte lors de la connexion à l&#39;aide de SSL/TLS, ce qui a conduit à l&#39;échec des diffusions SMS. La vérification du nom d&#39;hôte a été désactivée pour la plupart des protocoles tels que POP3, SMS et HTTP avec proxy et la vérification du certificat pour le compte externe SMS a été améliorée avec trois valeurs (NEO-29581). [En savoir plus](../../delivery/using/sms-protocol.md#skip-tls)
 
 **Correctifs**
 
-* Correction d’un problème qui empêchait le nouveau calcul des statistiques de diffusion.
-* Correction d’un problème en raison duquel un message d’erreur s’affichait lors du téléchargement d’un fichier CSV pendant l’utilisation du build 9080 de Campaign Classic connecté à un serveur utilisant un build plus ancien. (NEO-23218)
-* Correction d’un problème qui affichait un message d’erreur lors de la configuration de l’assistant Microsoft Dynamics CRM pour un compte externe. Cette erreur était due à un problème de compatibilité avec la dernière version de l&#39;API MS Dynamics CRM. (NEO-24528)
-* Correction d’un problème qui empêchait d’exporter des enregistrements de type recherche (c’est-à-dire des données composées d’enregistrements de clé étrangère associés à d’autres tables) de Campaign Classic vers Microsoft Dynamics à l’aide du connecteur CRM. (NEO-23864)
-* Correction d’un problème qui empêchait la récupération des données Microsoft Dynamics si l’option **Index automatique** était activée dans le connecteur CRM. (NEO-25981)
-* Correction d’un problème lié à l’authentification IMS qui laissait les connexions ouvertes même si elles étaient terminées. Les connexions terminées seront maintenant automatiquement fermées dès leur fin afin d&#39;éviter d&#39;accumuler des connexions et de consommer des ressources système. (NEO-25996)
-* Correction d’un problème qui n’affichait aucun message d’erreur lors de l’échec de la synchronisation du contenu Adobe Experience Manager pour une diffusion en raison d’une configuration incorrecte du compte externe (compte ou mot de passe incorrect). Un message s’affiche maintenant en cas d’échec, ce qui permet d’identifier plus facilement le problème. (NEO-25586)
-* Correction d’un problème qui se produisait lors de la sélection du type d’opération **Mise à jour** dans l’activité **Mise à jour des données**. Si les données à mettre à jour étaient incorrectes, le workflow était en erreur et échouait. En cas de données incorrectes, le workflow n’échoue pas et les enregistrements sont stockés dans une transition sortante **Rejets**. (NEO-23794)
-* Correction d’un problème qui empêchait le fonctionnement des workflows contenant des sous-workflows. (NEO-24036)
-* Correction d’un problème lors de la modification de la description d’un modèle de campagne qui empêchait l’affichage du bouton **Enregistrer** pendant la copie et le collage de symboles, comme des caractères japonais. (NEO-27071)
-* Correction d’un problème qui empêchait la modification du serveur de tracking dans l’assistant de configuration de l’instance.
-* Correction d’un problème qui empêchait l’enregistrement de la description d’une campagne ou d’un modèle de campagne en cliquant en dehors de la fenêtre avant de cliquer sur le bouton **Enregistrer**. (NEO-27449)
-* Correction d’un problème qui empêchait le fonctionnement du workflow technique **Nombre de profils de facturation actifs** (billingActiveContactCount). Ce problème peut se produire si une liaison a été effectuée sur un champ calculé dans une extension de schéma. Une grande quantité de données a été créée, ce qui peut entraîner un manque d&#39;espace temporaire dans la base de données. (NEO-24062)
-* Correction d’un problème lié à l’activité **Chargement (fichier)** qui empêchait l’import de caractères japonais depuis des fichiers txt et csv s’ils étaient placés à la fin du fichier. (NEO-24957)
-* Correction d’un problème en raison duquel les diffusions continues empêchaient le renseignement correct des champs **Début de l’analyse** et **Fin de l’analyse**. (NEO-20755)
-* Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la tentative de prévisualisation de messages SMS après une requête sur un autre schéma que **Destinataire** (nms:destinataire). (NEO-27517)
-* Correction d’un problème lors de l’utilisation du connecteur Snowflake FDA. Un utilisateur disposant des droits nommés d&#39;accès à Snowflake FDA n&#39;a pas pu exécuter une requête sur un schéma Snowflake. Une erreur de type « Mot de passe introuvable » s&#39;affichait dans les logs. (NEO-23851)
-* Correction d’un problème qui se produisait pendant l’utilisation d’un connecteur FDA lorsque le nom du schéma FDA lié était une sous-chaîne d’un nom d’élément du schéma actuel. Ce problème se produisait, par exemple, si le schéma FDA était « cust » et que l’un des éléments du schéma Destinataire était « customer ». Lors de la récupération de la colonne à l’intérieur de l’élément « customer » et de l’ajout d’une colonne à partir du schéma FDA « cust », la valeur de la colonne locale était absente. (NEO-20193)
-* Correction d’un problème dans les workflows lors de la récupération d’enregistrements d’une base de données externe et de leur insertion dans la base de données Campaign. (NEO-26359)
-* Correction d’un problème dans le workflow technique **Mise à jour du statut des événements** : pour faire correspondre la taille des champs correspondants entrants dans l&#39;activité **Statistiques de diffusion**, la taille de trois champs de destination de l&#39;activité **Mise à jour des stats de diffusion** a été changée de 32 à 64 bits. (NEO-11557) En savoir plus sur le workflow **Mise à jour du statut des événements** dans [cette section](../../workflow/using/about-technical-workflows.md).
-* Correction d’un problème dans le rapport **Historique des événements Message Center** qui provoquait des erreurs de script lors de la tentative d’application de filtres et rendait impossible le filtrage selon une période. (NEO-23365)
-* Correction d’un problème d’interférence entre les workflows techniques **Traitements sur les opérations** et **Prévisualisation** (prévisionnel). Ce problème se produisait lorsque les diffusions planifiées conservaient le statut « Cible prête » ou « Prêt à être diffusé ». (NEO-20819)
-* Correction d’un problème d’analyse XML en raison duquel l’identifiant XML n’était pas présent dans le champ mdata dans xtkOperator. Ce problème entraînait un échec du postupgrade. (NEO-26113)
-* Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité **Transfert de fichier** liée à un compte externe Azure crypté en SSL pour lequel la connexion était établie avec HTTP au lieu de HTTPS. (NEO-26720)
-* Correction d’un problème lié à la base de données MSSQL en raison duquel une erreur se produisait avec la procédure up_updatestats pendant le workflow de nettoyage.
-* Correction d’un blocage qui se produisait pendant l’arrêt du processus web si les demandes d’interaction étaient toujours en cours de traitement. (NEO-26447)
-* Correction d’un problème en raison duquel la fonction **NoNull** d’Oracle DB ne fonctionnait plus après l’upgrade 9032. (NEO-26488)
-* Correction d’un problème en raison duquel le workflow de tracking échouait après l’upgrade 9171 si le package LINEV2 était installé sans le package Message Center.
-* Correction d’un problème d’évolutivité qui empêchait l’augmentation du pool de connexions au nombre de connexions souhaité, car la chaîne de connexion à la base de données pour l’attribut &#39;APP&#39; finissait par obtenir une valeur non valide. (NEO-25105)
-* Correction d’un problème au niveau de la configuration du proxy qui empêchait la connexion à Adobe Campaign après la dernière mise à jour de Windows 10. (NEO-27813)
-* Correction d’un problème en raison duquel des URL indésirables étaient visibles dans les emails diffusés après l’import de modèles HTML contenant des liens de tracking. (NEO-25909)
-* Correction d’un problème en raison duquel le serveur se bloquait lors de l’affichage des données de la cible à partir d’une activité **Partage** dans un workflow.
-* Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions. (NEO-26856)
-* Correction d’un problème dans l’activité d’enrichissement en raison duquel les utilisateurs non-administrateurs définissaient des variables de l’instance. (NEO-25653)
+* Correction d’un problème en raison duquel les raccourcis clavier Tabulation, Entrée et Echap ne fonctionnaient pas sur le nouvel écran de connexion.
+* Correction d’un problème d’actualisation en raison duquel le nom d’un nouveau flux de travail était remplacé par la valeur par défaut après l’enregistrement (NEO-26106).
+* Correction d’un problème survenant lors de l’exécution de workflows où un nouveau champ a été ajouté dans le cadre d’une activité **Enrichissement** avant une activité **Diffusion** à l’aide d’un mapping de ciblage **Fichier externe** : des champs indésirables ont été ajoutés au mapping de ciblage **Fichier externe**. (NEO-27687)
+* Correction d’un problème en raison duquel certains caractères du code source étaient modifiés lors de la réouverture d’une application Web précédemment créée et enregistrée. (NEO-27597)
+* Correction d’un problème qui pouvait se produire lors de la mise à niveau vers une version incluant le nouveau mécanisme de signature pour le suivi des liens (depuis la version 19.1.4 et Campaign 20.2) : lorsque plusieurs modèles étaient associés à un événement, la mise à niveau pouvait entraîner la sélection d’un modèle incorrect lors de l’envoi du message transactionnel. (NEO-28326)
+* Correction d’un problème en raison duquel la MTA ne réagissait pas et ne pouvait pas traiter les diffusions sauf si elle était redémarrée. (NEO-27455)
+* Correction d’un problème de la base de données MSSQL lié à la gestion de l’horodatage lors des opérations de chargement en masse pour une colonne de type datetime.
+* Correction d’un problème de requête de processus lors de l’utilisation des fonctions xtk de Redshift. Les sous-jours, sous-secondes, sous-minutes et sous-heures acceptent désormais les deux types d&#39;horodatage de décalage (NEO-24962).
+* Correction d’un problème en raison duquel un message d’erreur de script s’affichait lors de la tentative de prévisualisation d’un rapport avec accès anonyme. (NEO-27081)
+* Correction d’un problème qui pouvait réduire l’utilisation de la mémoire sur le serveur lors de l’analyse des diffusions.
+* Correction d’un problème en raison duquel l’instance ne fonctionnait pas lors de l’exécution de requêtes complexes spécifiques.
+* Correction d’un problème qui empêchait l’exécution du processus technique **Synchronisation des pages Twitter**. (NEO-28634)
+* Correction d’un problème qui pouvait afficher un message d’erreur lié à la fonction decryptPassword lors de la tentative de publication sur Twitter à l’aide du modèle de diffusion **Tweet (twitter)**. (NEO-28216)
+* Correction d’un problème survenant lors de l’utilisation d’une activité **JavaScript** pour effectuer une requête HTTP dans un flux de travail. Après avoir défini le numéro de port dans le nom d’hôte, l’appel échoue avec l’erreur suivante (NEO-29146) :
+
+```
+IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
+```
+
+* Correction d’un problème qui empêchait l’envoi de nouvelles diffusions avec la personnalisation des données de cible.
+* Correction d’un problème en raison duquel plusieurs blocages se produisaient dans l’instance marketing, causant des fichiers principaux.
+* Correction d’un problème en raison duquel le flux de travail **Suivi** échouait avec l’erreur suivante (NEO-25206) :
+
+```
+There is no index on the sourceId field of the 'NmsTrackingLogRcp' table required for the current Web tracking mode. Please add this index.
+```
+
+* Correction d’un problème survenant lors de la création et de l’enregistrement d’une diffusion dans l’onglet **Ciblage et flux de travail** d’une campagne : la prévisualisation échouerait avec l’erreur suivante (NEO-29440) :
+
+```
+XTK-170024 The temporary 'temp:deliveryEmail-all' schema is not defined in the current context
+```
+
+* Correction d’une erreur qui se produisait lors de la configuration d’un compte externe entre une instance marketing et une instance Adobe Campaign Standard ou une instance de midsourcing Campaign Classic à l’aide de l’option &quot;DésactiverFOH2=1&quot;. Lors de l’utilisation de l’option &quot;DisableFOH2=1&quot; dans le compte externe, les connexions n’étaient pas correctement fermées et s’empilaient, provoquant l’erreur suivante (NEO-26258) :
+
+```
+The maximum number of connections has been reached (50) by connections pool 'nms:extAccount:acsDefaultRelayAccount XXX'. The server is overloaded. Please try again later.
+```
+
+* Correction d’une erreur SMS en cas de problèmes de connexion entre le serveur et le fournisseur. La connexion serait alors automatiquement désactivée par l’enfant MTA. Adobe Campaign Classic ne tenterait pas de se connecter à cette connexion défaillante tant qu&#39;un nouvel enfant n&#39;aurait pas été démarré.
