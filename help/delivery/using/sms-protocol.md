@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 32db73de8308670dfd74d974072bd96b3a22fc31
+source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
 workflow-type: tm+mt
-source-wordcount: '8432'
+source-wordcount: '8458'
 ht-degree: 99%
 
 ---
@@ -596,6 +596,12 @@ Lorsque le TLS est activé, ignorez toutes les vérifications de certificat.
 Lorsque l&#39;option est cochée, la connexion n&#39;est plus sécurisée, elle ne doit pas être activée en production.
 
 Ceci peut être utile à des fins de débogage ou de test.
+
+Vous pouvez choisir entre trois valeurs différentes pour la validation du certificat :
+
+* Vérification de certification complète (y compris le nom d’hôte), par défaut.
+* Ignorer la vérification du nom d&#39;hôte.
+* Ignorer la vérification du certificat.
 
 #### Liaison TON/NPI {#bind-ton-npi}
 
