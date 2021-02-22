@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: f39a84108c1f3327a469d5a230518652647ed63e
+source-git-commit: 2de8261feda6e64a84bd82e9fb71bc1fddf77113
 workflow-type: tm+mt
-source-wordcount: '7846'
-ht-degree: 100%
+source-wordcount: '7929'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +32,7 @@ Les premiers paramètres se trouvent dans le nœud **shared**. Ils sont liés à
 * [dnsConfig](#dnsconfig)
 * [exec](#exec)
 * [htmlToPdf](#htmltopdf)
+* [ims](#ims)
 * [javaScript](#javascript)
 * [mailExchanger](#mailexchanger)
 * [module](#module)
@@ -637,6 +638,71 @@ Exemple pour phantomjs :
 ```
 phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:{outPdf}' '-post:{postFile}' '-url:{originUrl}' -sessiontoken:{sessiontoken} -format:{format} -orientation:{orientation} -marginTop:{marginTop} -marginLeft:{marginLeft} -marginRight:{marginRight} -marginBottom:{marginBottom}
 ```
+
+## ims {#ims}
+
+Voici les différents paramètres du noeud **ims**. Il s&#39;agit de la configuration pour Campaign se connectant à un autre service à l&#39;aide de [IMS](../../integrations/using/about-adobe-id.md).
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Paramètre </th> 
+   <th> Description </th> 
+   <th> Type </th> 
+   <th> Valeur par défaut </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> authIMSClientId<br /> </td> 
+   <td> Identifiant du client<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSClientSecret<br /> </td> 
+   <td> Clé secrète (cryptée en AES)<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSCode<br /> </td> 
+   <td> Code d'autorisation (cryptée en AES)<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSEndpoint<br /> </td> 
+   <td> URL du serveur IMS<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> 'https://ims-na1.adobelogin.com'<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAClientId<br /> </td> 
+   <td> Identifiant du client du compte technique<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAClientSecret<br /> </td> 
+   <td> Clé secrète de compte technique (cryptée en AES)<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAId<br /> </td> 
+   <td> Identifiant du compte technique<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+  <tr> 
+   <td> authIMSTAPrivateKey<br /> </td> 
+   <td> Clé privée de compte technique (cryptée en AES)<br /> </td> 
+   <td> Chaîne <br /> </td> 
+   <td> <br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## javaScript {#javascript}
 
