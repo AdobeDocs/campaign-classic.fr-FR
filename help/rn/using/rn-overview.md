@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 51993e6f606132e425553da67687aca76e166dbd
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
@@ -55,7 +55,7 @@ En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Po
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-En tant quʼutilisateur Gold Standard hébergé, vous bénéficierez automatiquement de la mise à niveau Gold Standard avec le [dernier build GA](../../rn/using/gold-standard.md#gs-10) sans que vous n’ayez aucune action à effectuer. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
+En tant quʼutilisateur Gold Standard hébergé, vous bénéficierez automatiquement de la mise à niveau Gold Standard avec le [dernier build GA](../../rn/using/gold-standard.md#gs-11) sans que vous n’ayez aucune action à effectuer. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html).
 
 >[!NOTE]
 >La matrice de compatibilité pour Gold Standard est disponible dans la [Matrice de compatibilité GA](../../rn/using/compatibility-matrix-gs.md).
