@@ -9,10 +9,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 100%
+source-wordcount: '1717'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,14 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><strong>Fonctionnalité</strong></td>
    <td><strong>Remplacement</strong></td>
   </tr>
+    <tr>
+  <td>Rapport de supervision de la délivrabilité technique<br></td>
+   <td><p>A compter de la version Campaign 21.1, le rapport de surveillance de la délivrabilité technique est obsolète.</p>
+   <p>Si nécessaire, vous pouvez recevoir ce rapport tous les jours par courriel jusqu’à la date de suppression de la fonctionnalité. Pour le demander, ouvrez un <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">cas d'assistance</a> spécifique et indiquez le nom de l'instance et l'adresse électronique à laquelle envoyer le rapport.</p> 
+   <p>L'Adobe vous recommande de collaborer avec l'équipe de délivrabilité pour définir les meilleurs outils pour surveiller les performances de délivrabilité de votre instance.</p>
+  <p><em>Date de suppression de la cible : Fin 2021</em></p>
+  </td>
+ </tr>
   <tr>
   <td>Connecteurs CRM<br></td>
    <td><p>À compter de la version 20.3 de Campaign, les connecteurs CRM suivants sont obsolètes avec Campaign :</p>
@@ -83,7 +91,6 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <td>Connecteurs SMS<br></td>
   <td><p> À compter de la version 20.2 de Campaign, les connecteurs SMS suivants sont obsolètes.<p>
    <ul>
-   <li>NetSize</li>
    <li>SMPP générique (SMPP version 3.4 avec prise en charge du mode binaire)</li>
    <li>Sybase365 (SAP SMS 365)</li>
    <li>CLX Communications</li>
