@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '1435'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -24,8 +24,9 @@ _23 décembre 2020_
 >[!CAUTION]
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **31 mars 2021**.
->
-> * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+   >
+   > 
+* Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS.
@@ -33,19 +34,19 @@ _23 décembre 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
-_mercredi 6 mai 2020_
+_6 mai 2020_
 
 * Correction d’un problème avec l’activité de **transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.1.2 - Build 9123{#release-20-1-2-build-9123}
 
-_13 mars 2020_
+_13 mars 2020_
 
 * Correction d’une erreur qui empêchait le déploiement de la version sur les serveurs Red Hat 7. (NEO-23332)
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.1 - Build 9122{#release-20-1-build-9122}
 
-_17 février 2020_
+_17 février 2020_
 
 **Nouveautés**
 
