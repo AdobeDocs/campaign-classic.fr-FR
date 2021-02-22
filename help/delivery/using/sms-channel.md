@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
 workflow-type: tm+mt
-source-wordcount: '3270'
-ht-degree: 100%
+source-wordcount: '3269'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 
 1. un compte externe spécifiant un connecteur et un type de message,
 
-   Notez que les connecteurs suivants seront abandonnés à compter de la version 20.2 : NetSize, SMPP générique (SMPP version 3.4 avec prise en charge du mode binaire), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et iOS. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. Pour plus d’informations à ce propos, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
+   Notez que les connecteurs suivants seront abandonnés à compter de la version 20.2 : SMPP générique (SMPP version 3.4 prenant en charge le mode binaire), Sybase365 (SAP SMS 365), CLX Communications, Tele2, O2 et iOS. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. Pour plus d’informations à ce propos, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html).
 
 1. un modèle de diffusion dans lequel est référencé ce compte externe.
 
