@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '2893'
+source-wordcount: '2694'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse email est de trois ans et que la table des destinataires augmente de 50% tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
 >
 >Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
->Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
 ### Identifier les adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -113,8 +113,7 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
->
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
+Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
 
 Vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l&#39;assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
@@ -150,24 +149,7 @@ Les éléments mis en quarantaine sont les jetons d&#39;appareil.
 
 ### Quarantaine iOS {#ios-quarantine}
 
-**Pour iOS - connecteur binaire**
-
->[!NOTE]
->
->À compter de la version Campaign 20.3, le connecteur binaire hérité d&#39;iOS est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
-
-Pour chaque notification, Adobe Campaign reçoit les erreurs synchrones et asynchrones du serveur APNS. Adobe Campaign génère des erreurs soft pour les erreurs synchrones suivantes :
-
-* Problèmes liés à la longueur de la payload : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
-* Problèmes liés à l&#39;expiration du certificat : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
-* Perte de la connexion pendant la diffusion : reprise effectuée, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
-* Problème lié à la configuration du service (certificat non valide, mot de passe du certificat incorrect, aucun certificat) : aucune reprise, la raison de l&#39;échec est **[!UICONTROL Inatteignable]**.
-
-Le serveur APNS informe de manière asynchrone Adobe Campaign de la désinscription d&#39;un jeton d&#39;appareil (lors de la désinstallation de l&#39;application mobile par l&#39;utilisateur). Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heures pour contacter les services de feedback APNS afin de mettre à jour la table **AppSubscriptionRcp**. Pour tous les jetons désactivés, le champ **Désactivé** est défini sur **True** et l&#39;inscription associée à ce jeton d&#39;appareil est automatiquement exclue des prochaines diffusions.
-
-**Pour iOS - connecteur HTTP/V2**
-
-Le protocole HTTP/V2 permet des retours et un état directs pour chaque diffusion push. Si le connecteur de protocole HTTP/V2 est utilisé, le service des retours n&#39;est plus appelé par le workflow **[!UICONTROL mobileAppOptOutMgt]**. Les jetons non enregistrés sont gérés différemment entre le connecteur binaire iOS et le connecteur HTTP/V2 iOS. Un jeton est considéré comme non enregistré lorsqu&#39;une application mobile est désinstallée ou réinstallée.
+Le protocole HTTP/V2 permet des retours et un état directs pour chaque diffusion push. Si le connecteur de protocole HTTP/V2 est utilisé, le service des retours n&#39;est plus appelé par le workflow **[!UICONTROL mobileAppOptOutMgt]**. Un jeton est considéré comme non enregistré lorsqu&#39;une application mobile est désinstallée ou réinstallée.
 
 Si l&#39;APNS renvoie de manière synchrone un statut &quot;désinscrit&quot; pour un message, le jeton cible est immédiatement mis en quarantaine.
 
@@ -271,11 +253,10 @@ Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heu
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
 >[!NOTE]
->
->Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
->* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
->* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
->* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
+* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
+* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
 
 Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
 
@@ -495,8 +476,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
 Le mécanisme de quarantaine des messages SMS est globalement identique au processus général. Voir [A propos des quarantaines](#about-quarantines). Les spécificités des SMS sont énumérées ci-dessous.
 
 >[!NOTE]
->
->Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
+Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
  <tbody> 
@@ -554,9 +534,8 @@ Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état
 Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
 
 >[!NOTE]
->
->Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
+Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
 
