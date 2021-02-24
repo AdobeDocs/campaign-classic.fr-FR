@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 92%
 
 ---
 
@@ -19,11 +19,14 @@ ht-degree: 100%
 
 La réception des messages ainsi que l’activation des liens insérés dans le contenu des messages peuvent être suivis pour chaque diffusion. Vous pouvez ainsi assurer un tracking du comportement des destinataires suite aux actions de diffusion dont ils ont été la cible.
 
+Le tracking s’applique aux messages, tandis que le tracking web permet de suivre la navigation des destinataires sur un site Internet (pages visitées, achats). Le paramétrage du tracking web est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
+
 >[!NOTE]
 >
->Le tracking s’applique aux messages, tandis que le tracking web permet de suivre la navigation des destinataires sur un site Internet (pages visitées, achats).
->
->Le paramétrage du tracking web est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
+>Les liens contenus dans le contenu des courriels qui contiennent la personnalisation doivent faire l’objet d’un suivi syntaxique spécifique. Pour plus d&#39;informations sur la façon d&#39;ajouter des liens dans des courriels qui peuvent être personnalisés et qui prennent en charge le suivi, consultez [cette section](../../delivery/using/tracking-personalized-links.md).
+
+
+
 
 Le tracking des messages est activé par défaut. Pour personnaliser le tracking des URL, procédez comme suit :
 
