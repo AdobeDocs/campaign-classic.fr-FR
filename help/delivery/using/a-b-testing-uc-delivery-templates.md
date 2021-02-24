@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 75%
+source-wordcount: '99'
+ht-degree: 62%
 
 ---
 
@@ -31,3 +31,5 @@ Vous allez à présent créer deux modèles de diffusions. Chaque modèle sera r
 1. Répétez les mêmes étapes pour créer un modèle destiné à la diffusion B.
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
+
+Vous pouvez maintenant configurer les diffusions dans le processus (voir [Étape 4 : Configurez les diffusions dans le processus ](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)).
