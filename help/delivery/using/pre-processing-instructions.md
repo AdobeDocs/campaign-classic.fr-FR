@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Où :
 
 L&#39;objet peut être :
 
-* *&quot;diffusion&quot; : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
+* &quot;diffusion&quot; : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
 * &quot;provider&quot; : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
 * Un objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
 * Élément de la boucle foreach : voir la section [Foreach](#<%@-foreach) ci-dessous.
