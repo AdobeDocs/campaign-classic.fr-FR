@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Personnaliser le tracking des URL
-description: Personnaliser le tracking des URL
+title: Configuration des options de suivi d’URL
+description: Configuration des options de suivi d’URL
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 019c982dcf040fb2dc2a1c82d4a2ff5a964ec5fa
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 92%
 
 ---
 
 
-# Personnaliser le tracking des URL{#personalizing-url-tracking}
+# Configuration des options de suivi d’URL{#personalizing-url-tracking}
 
 Les paramètres avancés du tracking des messages sont accessibles à partir de l&#39;icône **[!UICONTROL Tracking &amp; images]** située dans la barre d&#39;outils de l&#39;assistant de diffusion.
 
