@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 91%
+source-wordcount: '251'
+ht-degree: 87%
 
 ---
 
@@ -51,3 +51,5 @@ L’étape suivante consiste à configurer les diffusions. Elles sont destinées
 1. Reliez l&#39;activité **[!UICONTROL Attente]** à l&#39;activité **[!UICONTROL Code JavaScript]**.
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
+
+Vous pouvez maintenant créer le script (voir [Étape 5 : Créez le script ](../../delivery/using/a-b-testing-uc-script.md)).
