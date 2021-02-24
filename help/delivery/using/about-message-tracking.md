@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '686'
 ht-degree: 12%
 
 ---
@@ -57,7 +57,7 @@ Les options de suivi peuvent être configurées en activant ou en désactivant l
 
 **Personnalisation des liens suivis**
 
-Les fonctionnalités de suivi des Campaign Classic vous permettent d’ajouter des liens dans les courriers électroniques qui peuvent être personnalisés et qui prennent en charge le suivi. [En savoir plus](https://helpx.adobe.com/campaign/kb/tracking-personnalized-links.html)
+Les fonctionnalités de suivi des Campaign Classic vous permettent d’ajouter des liens dans les courriers électroniques qui peuvent être personnalisés et qui prennent en charge le suivi. [En savoir plus](../../delivery/using/tracking-personalized-links.md)
 
 **Logs de tracking**
 
