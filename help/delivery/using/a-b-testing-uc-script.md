@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '342'
+ht-degree: 90%
 
 ---
 
@@ -169,3 +169,5 @@ L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une 
 * Nombre de pages web visitées suite à la réception d&#39;un message : `[indicators/@totalWebPage]`,
 * Taux de désinscription le plus bas : `[indicators/@optOutRatio]`,
 * Montant des transactions : `[indicators/@amount]`.
+
+Vous pouvez désormais définir la diffusion finale (voir [Étape 6: Définissez la diffusion finale ](../../delivery/using/a-b-testing-uc-final-delivery.md)).
