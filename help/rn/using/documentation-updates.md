@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '4084'
 ht-degree: 95%
@@ -45,6 +45,8 @@ Une section de dépannage a été ajoutée pour vous aider à résoudre les prob
 
 La section **Envoi d&#39;un courriel** a été réorganisée et clarifiée avec de nouvelles sous-sections. [En savoir plus](../../delivery/using/sending-messages.md)
 
+Des informations ont été ajoutées sur la manière d’ajouter des liens dans les courriels qui peuvent être personnalisés et qui prennent en charge le suivi. [En savoir plus](../../delivery/using/tracking-personalized-links.md).
+
 ## Janvier 2021 {#jan-2021}
 
 La section sur l&#39;activité **[!UICONTROL Branchement]** a été enrichie d&#39;informations à propos des bonnes pratiques. [En savoir plus](../../workflow/using/fork.md)
@@ -62,8 +64,6 @@ La liste des workflows techniques avec leurs packages associés a été amélior
 La section sur la résolution des problèmes du guide de **surveillance** a été réorganisée et améliorée avec une landing page. [En savoir plus](../../production/using/troubleshooting.md).
 
 Une nouvelle section **Import et export de données** est disponible avec de nouvelles pages relatives aux workflows, à la compression des données, au cryptage et aux bonnes pratiques d’import. [En savoir plus](../../platform/using/get-started-data-import-export.md)
-
-Des informations ont été ajoutées sur la manière d’ajouter des liens dans les courriels qui peuvent être personnalisés et qui prennent en charge le suivi. [En savoir plus](../../delivery/using/tracking-personalized-links.md).
 
 ## Décembre 2020 {#dec-2020}
 
