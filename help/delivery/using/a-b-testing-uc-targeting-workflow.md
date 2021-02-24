@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 92%
+source-wordcount: '166'
+ht-degree: 85%
 
 ---
 
@@ -34,3 +34,5 @@ Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Wor
 1. A l&#39;aide de la souris, faites glisser les différentes activités dans la fenêtre du workflow, soit une activité **[!UICONTROL Requête]** (onglet **[!UICONTROL Ciblage]**), une activité **[!UICONTROL Partage]** (onglet **[!UICONTROL Ciblage]**), deux activités **[!UICONTROL Diffusion e-mail]** (onglet **[!UICONTROL Diffusions]**), une activité **[!UICONTROL Attente]** (onglet **[!UICONTROL Ordonnancement]**), une activité **[!UICONTROL Code JavaScript]** (onglet **[!UICONTROL Action]**) et une activité **[!UICONTROL Diffusion]** (onglet **[!UICONTROL Actions]**).
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
+
+Vous pouvez maintenant configurer les exemples de population (voir [Étape 2 : Configurez les échantillons de population ](../../delivery/using/a-b-testing-uc-population-samples.md)).
