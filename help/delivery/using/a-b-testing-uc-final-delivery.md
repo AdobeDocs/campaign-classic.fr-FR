@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 81%
+source-wordcount: '121'
+ht-degree: 74%
 
 ---
 
@@ -27,3 +27,5 @@ Une fois que le script pour sélectionner le gagnant du test A/B a été créé,
    ![](assets/ab_test_final_delivery.png)
 
 En préparant la diffusion spécifiée dans la transition (définie via l&#39;activité **[!UICONTROL Code Javascript]**), vous pourrez alors la valider et démarrer l&#39;envoi, comme décrit à l&#39;étape suivante.
+
+Vous pouvez maintenant début le processus (voir [Étape 7 : Début du processus ](../../delivery/using/a-b-testing-uc-start-workflow.md)).
