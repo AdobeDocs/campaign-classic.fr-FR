@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 84%
+source-wordcount: '89'
+ht-degree: 74%
 
 ---
 
@@ -30,3 +30,5 @@ ht-degree: 84%
    Dans notre exemple, c&#39;est le modèle A qui a été retenu.
 
 1. Lorsque le contenu de la troisième diffusion est déterminé, procédez à la validation de la cible et du contenu.
+
+Vous pouvez maintenant analyser le résultat (voir [Étape 8 : Analyser le résultat ](../../delivery/using/a-b-testing-uc-analyzing.md)).
