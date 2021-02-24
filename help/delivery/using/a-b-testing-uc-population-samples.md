@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 90%
+source-wordcount: '195'
+ht-degree: 83%
 
 ---
 
@@ -80,3 +80,5 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
    * Modifiez le libellé pour désigner la population qui ne comprend ni la population A, ni la B et cliquez sur **[!UICONTROL OK]** pour fermer l&#39;activité.
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
+
+Vous pouvez maintenant créer les deux modèles de diffusion (voir [Étape 3 : Créez deux modèles de diffusion ](../../delivery/using/a-b-testing-uc-delivery-templates.md)).
