@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 31%
+source-wordcount: '244'
+ht-degree: 30%
 
 ---
 
@@ -29,13 +29,14 @@ De plus, le test détaillé dans ce cas d&#39;utilisation ne concernait que deux
 
 Les étapes principales pour effectuer cette utilisation sont les suivantes :
 
-* [Étape 1 : Création d’un processus de ciblage](#step-1--creating-a-targeting-workflow)
-* [Étape 2 : Configurer des exemples de population](#step-2--configuring-population-samples)
-* [Étape 3 : Créer deux modèles de diffusion](#step-3--creating-two-delivery-templates)
-* [Étape 4 : Configuration des diffusions dans le processus](#step-4--configuring-the-deliveries-in-the-workflow)
-* [Étape 5 : Création du script](#step-5--creating-the-script)
-* [Étape 7 : Début du processus](#step-7--starting-the-workflow)
-* [Étape 8 : Analysez le résultat](#step-8--analyzing-the-result).
+* [Étape 1 : Création d’un processus de ciblage](../../delivery/using/a-b-testing-uc-targeting-workflow.md)
+* [Étape 2 : Configurer des exemples de population](../../delivery/using/a-b-testing-uc-population-samples.md)
+* [Étape 3 : Créer deux modèles de diffusion](../../delivery/using/a-b-testing-uc-delivery-templates.md)
+* [Étape 4 : Configuration des diffusions dans le processus](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)
+* [Étape 5 : Création du script](../../delivery/using/a-b-testing-uc-script.md)
+* [Étape 6 : Définir la diffusion finale](../../delivery/using/a-b-testing-uc-final-delivery.md)
+* [Étape 7 : Début du processus](../../delivery/using/a-b-testing-uc-start-workflow.md)
+* [Étape 8 : Analyser le résultat](../../delivery/using/a-b-testing-uc-analyzing.md)
 
 **Rubriques connexes :**
 
