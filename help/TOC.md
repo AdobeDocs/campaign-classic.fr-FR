@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 4030eb1cf9aa78a10daffe9ea849aa205660e359
+source-git-commit: 6dbf77c29dddc4b718910835520e4480e01d0d4a
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 98%
+source-wordcount: '2368'
+ht-degree: 97%
 
 ---
 
@@ -199,7 +199,11 @@ ht-degree: 98%
    + Tracker les messages {#tracking-messages}
       + [A propos du tracking des messages](delivery/using/about-message-tracking.md)
       + [Comment configurer des liens trackés](delivery/using/how-to-configure-tracked-links.md)
-      + [Personnaliser le tracking des URL](delivery/using/personalizing-url-tracking.md)
+      + Suivi des liens personnalisés {#tracking-personalized-links}
+         + [Commencer avec le suivi des liens personnalisés](delivery/using/tracking-personalized-links.md)
+         + [Détection des URL de suivi](delivery/using/detecting-tracking-urls.md)
+         + [Instructions de prétraitement pour le suivi](delivery/using/pre-processing-instructions.md)
+      + [Configuration des options de suivi d’URL](delivery/using/personalizing-url-tracking.md)
       + [Accéder aux logs de tracking](delivery/using/accessing-the-tracking-logs.md)
       + [Tester le tracking](delivery/using/testing-tracking.md)
       + [Dépannage du suivi](delivery/using/tracking-troubleshooting.md)
