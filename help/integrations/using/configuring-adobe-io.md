@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 333d2221d4f86fe18232473385653ed8409adf54
+source-git-commit: 25673f33c626edd5b7f4c7ba240364b3ea8d616a
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 81%
+source-wordcount: '522'
+ht-degree: 98%
 
 ---
 
@@ -96,19 +96,9 @@ Pour ajouter les informations d’identification du projet dans Adobe Campaign, 
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
-La clé privée doit être codée au format base64 UTF-8. Pour ce faire :
-
-1. Utilisez la clé privée générée à l&#39;[étape 1 : Création/mise à jour d’un projet d’Adobe I/O ](#creating-adobe-io-project). La clé privée doit être identique à celle utilisée pour créer l’intégration.
-
-1. A l&#39;aide de ce [site Web](https://www.base64encode.org/), copiez votre clé privée dans le champ correspondant.
-
-   >[!NOTE]
-   >
-   >Une ligne supplémentaire peut parfois être automatiquement ajoutée lorsque vous copiez/collez la clé privée. Pensez à le supprimer avant de coder votre clé privée.
-
-1. Cliquez sur **[!UICONTROL Coder]**.
-
-1. Utilisez votre nouvelle clé privée codée au format base64 UTF-8 pour exécuter la commande décrite ci-dessus.
+>[!NOTE]
+>
+>Vous devez coder la clé privée au format base64 UTF-8. N&#39;oubliez pas de supprimer la nouvelle ligne de la clé avant de la coder, à l&#39;exception de la clé privée. La clé privée doit être la même que celle utilisée pour créer l&#39;intégration. Pour tester l&#39;encodage base64 de la clé privée, vous pouvez utiliser [ce site Web](https://www.base64encode.org/).
 
 ## Étape 3 : mettre à jour la balise en pipeline {#update-pipelined-tag}
 
