@@ -7,17 +7,17 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: e2dfc34b35e6ce03715bd5723cff578a1aacd559
+source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
 
-# Confirmation de la diffusion de courriel {#confirming-email-delivery}
+# Étapes principales pour envoyer un courrier électronique {#confirming-email-delivery}
 
-Une fois votre adresse électronique créée et configurée, vous pouvez l’envoyer à la cible principale. Cette section présente les principales étapes à suivre pour confirmer la diffusion d’un courriel.
+Une fois votre adresse électronique créée et configurée, vous pouvez l’envoyer à la cible principale. Cette section présente les principales étapes à suivre pour vérifier et confirmer la diffusion d&#39;un courriel.
 
 1. Vérifiez que vous avez configuré tous les paramètres spécifiques à la diffusion de messagerie. Pour plus d’informations sur ce sujet, voir [Paramètres de courriel](../../delivery/using/email-parameters.md).
 1. Lorsque le courrier électronique est prêt, avant de l’envoyer à la cible principale, il est recommandé de détecter toute erreur potentielle en envoyant des BAT. Pour plus d’informations sur ce sujet, voir [Envoi d’un BAT](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
