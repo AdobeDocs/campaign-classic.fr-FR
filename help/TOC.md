@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 6dbf77c29dddc4b718910835520e4480e01d0d4a
+source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2372'
 ht-degree: 97%
 
 ---
@@ -125,8 +125,8 @@ ht-degree: 97%
       + [Créer une diffusion email](delivery/using/creating-an-email-delivery.md)
       + [Définir le contenu de l&#39;email](delivery/using/defining-the-email-content.md)
       + [Définition d’un contenu interactif](delivery/using/defining-interactive-content.md)
-      + Envoyer un email {#sending-an-email}
-         + [Confirmation de la diffusion de courriel](delivery/using/sending-messages.md)
+      + Envoi de la diffusion de courriel {#sending-an-email}
+         + [Étapes principales pour envoyer un courriel](delivery/using/sending-messages.md)
          + [Paramètres de l&#39;email](delivery/using/email-parameters.md)
          + [Envoi avec la MTA améliorée](delivery/using/sending-with-enhanced-mta.md)
          + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
