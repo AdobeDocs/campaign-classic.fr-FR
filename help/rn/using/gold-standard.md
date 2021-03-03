@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
+source-git-commit: 23ba4091a1ffaa0245c58e8d346c60b54f79b4a2
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 91%
 
 ---
 
@@ -27,15 +27,30 @@ Cette page répertorie les versions Gold Standard.
 
 ## ![](assets/do-not-localize/green_2.png) Version Gold Standard 11{#gs-11}
 
-_22 décembre 2020_
+_2 mars 2021_
+
+Le build 9032@10c2709 comprend le correctif suivant :
+
+* Correction d’une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
+
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
+
+>[!NOTE]
+>
+> Connectez-vous à [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs [dans cette page](../../installation/using/client-console-availability-for-windows.md).
+
+
+_22 décembre 2020_
 
 >[!CAUTION]
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via le service d&#39;identités Adobe (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **31 mars 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez vous déplacer vers Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
+> * Si vous utilisez l&#39;intégration Triggers Experience Cloud via l&#39;authentification Auth, vous devez passer à l&#39;Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
+
 >
->Pour en savoir plus, consultez la [FAQ sur la mise à niveau vers Gold Standard 11](https://helpx.adobe.com/fr/campaign/kb/gold-standard-upgrade.html).
+>
+Pour en savoir plus, consultez la [FAQ sur la mise à niveau vers Gold Standard 11](https://helpx.adobe.com/fr/campaign/kb/gold-standard-upgrade.html).
 
 Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
@@ -80,7 +95,7 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de trac
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 8{#gs-8}
 
-_29 avril 2020_
+_29 avril 2020_
 
 Le build 9032@3a9dc9c comprend les correctifs suivants :
 
@@ -105,7 +120,7 @@ Le build 9032@3a9dc9c comprend les correctifs suivants :
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 6{#gs-6}
 
-_9 mars 2020_
+_9 mars 2020_
 
 Le build 9032@19f73c5 comprend le correctif suivant :
 
@@ -113,7 +128,7 @@ Le build 9032@19f73c5 comprend le correctif suivant :
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 5{#gs-5}
 
-_17 décembre 2019_
+_17 décembre 2019_
 
 Le build 9032@d6b8062 comprend le correctif suivant :
 
@@ -121,7 +136,7 @@ Le build 9032@d6b8062 comprend le correctif suivant :
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 4{#gs-4}
 
-_11 décembre 2019_
+_11 décembre 2019_
 
 Le build 9032@bc4a935 comprend le correctif suivant :
 
@@ -129,7 +144,7 @@ Le build 9032@bc4a935 comprend le correctif suivant :
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 3{#gs-3}
 
-_20 novembre 2019_
+_20 novembre 2019_
 
 Le build 9032@3468c7b comprend les correctifs suivants :
 
@@ -139,7 +154,7 @@ Le build 9032@3468c7b comprend les correctifs suivants :
 
 ## ![](assets/do-not-localize/red_2.png) Version Gold Standard 2{#gs-2}
 
-_19 septembre 2019_
+_19 septembre 2019_
 
 Le build 9032@cee805c comprend les correctifs suivants :
 
@@ -148,7 +163,7 @@ Le build 9032@cee805c comprend les correctifs suivants :
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.1.4 - Build 9032{#release-19-1-4-build-9032}
 
-_13 août 2019_
+_13 août 2019_
 
 Le build 19.1.4 initial comprend les correctifs suivants :
 
