@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 1b02c3870ddc01705f01ea992e734cf0810e003a
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,8 @@ Pour télécharger et installer la console cliente Adobe Campaign, procédez com
 
 >[!NOTE]
 >
->Sous Windows, vous pouvez lancer directement le fichier **nlclient.exe** présent dans le répertoire `[INSTALL]/bin` à partir du serveur Windows, où `[INSTALL]` est le chemin d’accès au répertoire d’installation Adobe Campaign.
+>Vous pouvez proposer la mise à jour vers la dernière version à tous les utilisateurs de la console cliente Campaign en copiant le fichier exécutable de la console sur un dossier spécifique du serveur Campaign Marketing. [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
+
 
 ## Création de la connexion{#create-the-connection}
 
