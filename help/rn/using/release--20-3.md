@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '1945'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 99%
 
 ## ![](assets/do-not-localize/blue_2.png) Version 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
-_11 janvier 2021_
+_11 janvier 2021_
 
 * Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
 * Correction d’un problème de régression lié au processus de génération des broadlogs qui entraînait le blocage du processus MTA.
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.3.1 - Build 9228 {#release-20-3-1-build-9228}
 
-_27 octobre 2020_
+_27 octobre 2020_
 
 >[!CAUTION]
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via le service d&#39;identités Adobe (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **31 mars 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez vous déplacer vers Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
+> * Si vous utilisez l&#39;intégration Triggers Experience Cloud via l&#39;authentification Auth, vous devez passer à l&#39;Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
 
 
 **Nouveautés**
