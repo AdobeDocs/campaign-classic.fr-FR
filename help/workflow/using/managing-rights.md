@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gestion des droits
-description: Gestion des droits
+title: Gérer les autorisations de processus
+description: Découvrez comment gérer les autorisations de processus
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 96%
 
 ---
 
 
-# Gestion des droits{#managing-rights}
+# Gérer les autorisations de processus{#managing-rights}
 
 Pour créer, exécuter ou modifier les workflows, les opérateurs Adobe Campaign, lorsqu&#39;ils ne sont pas Administrateurs, doivent avoir les droits correspondants.
 
