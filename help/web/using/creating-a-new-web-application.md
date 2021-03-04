@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Créer une application web{#creating-a-new-web-application}
+# Créer une application Web{#creating-a-new-web-application}
 
 Le type d&#39;une application web est sélectionné au moment de sa création.
 
