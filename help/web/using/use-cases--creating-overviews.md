@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
 
-# Cas pratiques : création de vues d&#39;ensemble{#use-cases-creating-overviews}
+# Cas d’utilisation : créer des pages d&#39;aperçu{#use-cases-creating-overviews}
 
 Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue d&#39;ensemble permettant d&#39;afficher l&#39;ensemble des applications web contenues dans votre base. Vous allez paramétrer les éléments suivants :
 
