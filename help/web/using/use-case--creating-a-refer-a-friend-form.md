@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 99%
 
 ---
 
 
-# Cas pratique : création d’un formulaire de parrainage d’un ami{#use-case-creating-a-refer-a-friend-form}
+# Cas d’utilisation : créer un formulaire de référence{#use-case-creating-a-refer-a-friend-form}
 
 Dans cet exemple, nous allons proposer un jeu-concours aux destinataires de la base de données. Le formulaire Web de participation permettra au destinataire, en plus de ses réponses, de parrainer un ami auquel ce jeu pourra être proposé, en communiquant son adresse email.
 
