@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
-# Utiliser un modèle de formulaire web{#using-a-web-form-template}
+# Utiliser un modèle de formulaire Web{#using-a-web-form-template}
 
 Un modèle de formulaire est un paramétrage réutilisable pour créer de nouveaux formulaires. Les modèles de formulaires sont stockés par défaut avec les modèles d&#39;applications Web, sous le noeud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications Web]**.
 
