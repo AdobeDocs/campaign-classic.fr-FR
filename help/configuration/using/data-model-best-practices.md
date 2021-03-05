@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '4031'
+source-wordcount: '4027'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Ce document présente les principales recommandations lors de la conception de votre modèle de données Adobe Campaign.
 
-Pour une meilleure compréhension des tables Campaign intégrées et de leurs interactions, voir la section [Modèle de données Campaign Classic](../../configuration/using/about-data-model.md).
+Pour une meilleure compréhension des tableaux intégrés de Campaign et de leur interaction, consultez la section [cette section](../../configuration/using/about-data-model.md).
 
 Pour commencer à utiliser les schémas de Campaign, lisez cette [documentation](../../configuration/using/about-schema-reference.md). Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign en consultant [ce document](../../configuration/using/about-schema-edition.md).
 
@@ -148,7 +148,7 @@ Ainsi, un client qui diffuse 6 milliards d’emails par an en conservant les lo
 
 Lorsqu’une table personnalisée est créée dans Adobe Campaign avec une clé primaire de type autoPK, une séquence personnalisée dédiée doit être systématiquement associée à cette table.
 
-Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign Classic dans les requêtes SQL générées.
+Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign  dans les requêtes SQL générées.
 
 **Rubriques connexes :**
 * Pour plus d’informations sur la fonctionnalité de **génération automatique de séquence**, voir [ce document](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
