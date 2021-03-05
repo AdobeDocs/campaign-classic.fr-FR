@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </tr>
     <tr>
   <td>Rapport de supervision de la délivrabilité technique<br></td>
-   <td><p>A compter de la version Campaign 21.1, le rapport de surveillance de la délivrabilité technique est obsolète.</p>
-   <p>Si nécessaire, vous pouvez recevoir ce rapport tous les jours par courriel jusqu’à la date de suppression de la fonctionnalité. Pour le demander, ouvrez un <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">cas d'assistance</a> spécifique et indiquez le nom de l'instance et l'adresse électronique à laquelle envoyer le rapport.</p> 
-   <p>L'Adobe vous recommande de collaborer avec l'équipe de délivrabilité pour définir les meilleurs outils pour surveiller les performances de délivrabilité de votre instance.</p>
-  <p><em>Date de suppression de la cible : Fin 2021</em></p>
+   <td><p>À compter de la version Campaign 21.1, le rapport de supervision de la délivrabilité technique est obsolète.</p>
+   <p>Si nécessaire, vous pouvez recevoir ce rapport tous les jours par email jusqu'à la date de suppression de la fonctionnalité. Pour le demander, ouvrez un <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">cas d'assistance</a> spécifique et indiquez le nom de l'instance et la ou les adresse(s) email où envoyer le rapport.</p> 
+   <p>Adobe vous recommande de collaborer avec l'équipe chargée de la délivrabilité pour définir les meilleurs outils pour superviser les performances de délivrabilité de votre instance.</p>
+  <p><em>Date de suppression prévue : fin 2021</em></p>
   </td>
  </tr>
   <tr>
