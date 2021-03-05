@@ -6,9 +6,9 @@ description: Version 18.6
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -97,7 +97,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
   </tr> 
   <tr> 
    <td> Prise en charge de Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
+   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
