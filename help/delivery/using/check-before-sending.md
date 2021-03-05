@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -64,7 +64,7 @@ En dernier lieu, tirez parti des fonctionnalités d’Adobe Campaign Classic et
 
 ### Suivre un processus de validation
 
-Vous pouvez définir un processus de validation complet, impliquant des opérateurs et des groupes Adobe Campaign, afin de valider la cible et le contenu du message. Cela assurera une surveillance et un contrôle complet des différents traitements de l&#39;opération : ciblage, contenu, budget, extraction et envoi d&#39;un BAT. En fonction de leurs permissions, les utilisateurs seront avertis, ils recevront les BAT et ils pourront valider ou refuser le message. En savoir plus à ce sujet dans [cette section](../../campaign/using/marketing-campaign-approval.md#approval-process).
+Vous pouvez définir un processus de validation complet, impliquant des opérateurs et des groupes Adobe Campaign, afin de valider la cible et le contenu du message. Cela assurera une surveillance et un contrôle complet des différents traitements de l&#39;opération : ciblage, contenu, budget, extraction et envoi d&#39;un BAT. En fonction de leurs permissions, les utilisateurs seront avertis, ils recevront les BAT et ils pourront valider ou refuser le message. En savoir plus à ce sujet dans [cette section](../../campaign/using/marketing-campaign-approval.md).
 
 ### Utiliser des vagues
 
