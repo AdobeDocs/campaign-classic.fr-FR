@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Pendant la préparation de la diffusion, les destinataires sont exclus lorsque l
 
 ### Comment configurer la gestion de la fatigue à l’aide de règles de typologie
 
-Cette vidéo explique comment mettre en œuvre la gestion de la fatigue dans Adobe Campaign Classic en utilisant les règles de typologie.
+Cette vidéo explique comment mettre en œuvre la gestion de la fatigue dans Adobe Campaign  en utilisant les règles de typologie.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
@@ -77,7 +77,7 @@ La gestion de la fatigue contrôle la fréquence et le nombre des messages afin 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
 **Rubrique connexe**
 
