@@ -2,20 +2,20 @@
 solution: Campaign Classic
 product: campaign
 title: Créer des campagnes marketing
-description: Créer des campagnes marketing
+description: Découvrez comment créer et exécuter des campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1294'
+ht-degree: 92%
 
 ---
 
 
-# Créer des campagnes marketing{#setting-up-marketing-campaigns}
+# Commencer avec les campagnes marketing{#setting-up-marketing-campaigns}
 
 Les campagnes comprennent des actions (diffusions) et des processus (import ou extraction de fichiers), ainsi que des ressources (documents marketing, compositions de diffusion). Elles sont utilisées dans les campagnes marketing. Les campagnes font partie d’un programme et les programmes sont inclus dans un plan de campagne.
 
@@ -23,33 +23,21 @@ Les campagnes comprennent des actions (diffusions) et des processus (import ou e
 
 Pour créer une campagne marketing, il faut suivre les étapes suivantes :
 
-1. Création d’une campagne : découvrez les campagnes et leurs caractéristiques : libellé, type, dates de début et de fin, budget, ressources associées, responsable(s) et participants.
+1. Création d’une campagne : découvrez les campagnes et leurs caractéristiques : libellé, type, dates de début et de fin, budget, ressources associées, responsable(s) et participants. [En savoir plus](#creating-a-campaign).
 
-   Voir [Créer une campagne](#creating-a-campaign).
+1. Définition de la ou des population(s) cible(s) : créez un workflow avec requêtes de ciblage. [En savoir plus](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
-1. Définition de la ou des population(s) cible(s) : créez un workflow avec requêtes de ciblage.
+1. Création de diffusions : sélectionnez les canaux et définissez le contenu à envoyer. [En savoir plus](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
-   Voir [Choisir la population cible](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
+1. Approbation de diffusions. [En savoir plus](../../campaign/using/marketing-campaign-approval.md).
 
-1. Création de diffusions : sélectionnez les canaux et définissez le contenu à envoyer.
+1. Surveiller les diffusions. [En savoir plus](../../campaign/using/marketing-campaign-monitoring.md).
 
-   Voir [Créez des diffusions](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
+1. Planification de la campagne et des coûts associés. [En savoir plus](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
-1. Approbation de diffusions.
+Une fois ces étapes terminées, vous pouvez début les diffusions (voir [cette section](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), vérifier les données, les processus et les informations relatifs aux diffusions et, si nécessaire, gérer les documents associés (voir [cette section](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). Vous pouvez également suivre l&#39;exécution des phases de traitement des campagnes et des diffusions (voir [cette section](../../campaign/using/marketing-campaign-monitoring.md)).
 
-   Consulter [Processus de validation](../../campaign/using/marketing-campaign-approval.md#approval-process).
-
-1. Surveillance des diffusions.
-
-   Voir [Surveillance](../../campaign/using/marketing-campaign-monitoring.md).
-
-1. Planification de la campagne et des coûts associés.
-
-   Voir [Créer les prestataires et leurs structures de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
-
-Une fois ces étapes terminées, vous pouvez lancer les diffusions (voir [Démarrer une diffusions](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), vérifier les données, les processus et les informations relatifs aux diffusions et, si nécessaire, gérer les documents associés (voir [Gérer les documents associés](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). Vous pouvez également suivre l’exécution des phases de traitement des campagnes et des diffusions (voir [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
-
-## Créer une hiérarchie de plans et de programmes {#creating-plan-and-program-hierarchy}
+## Créer une hiérarchie de plan et de programme {#creating-plan-and-program-hierarchy}
 
 Pour configurer l&#39;arborescence des dossiers des plans marketing et des programmes, procédez comme suit :
 
@@ -69,9 +57,9 @@ Pour configurer l&#39;arborescence des dossiers des plans marketing et des progr
 1. Cliquez avec le bouton droit de la souris sur le plan nouvellement créé et sélectionnez **Ajouter un dossier &#39;Programme&#39;**.
 1. Répétez les étapes décrites ci-dessus pour renommer le nouveau dossier de programmes et modifier le nom interne.
 
-## Créer une campagne        {#creating-a-campaign}
+## Créez une campagne {#creating-a-campaign}
 
-### Ajouter une opération {#adding-a-campaign}
+### Ajouter une campagne {#adding-a-campaign}
 
 Vous pouvez créer une opération depuis la liste des opérations. Pour afficher cette vue, sélectionnez le lien **[!UICONTROL Opérations]** disponible depuis l&#39;univers **[!UICONTROL Campagnes]**.
 
@@ -99,7 +87,7 @@ Cliquez sur **[!UICONTROL OK]** pour créer l&#39;opération. Elle est ajoutée 
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
-### Editer et configurer l&#39;opération {#editing-and-configuring-a-campaign}
+### Modifier et configurer une campagne {#editing-and-configuring-a-campaign}
 
 Vous pouvez ensuite éditer l&#39;opération que vous venez de créer et en définir les paramètres.
 
@@ -115,11 +103,11 @@ Une opération récurrente est une opération basée sur un modèle spécifique 
 
 Une opération périodique est une opération qui se créé automatiquement selon le planning d&#39;exécution de son modèle.
 
-### Créer une opération récurrente {#creating-a-recurring-campaign}
+### Créer une campagne récurrente {#creating-a-recurring-campaign}
 
 Les opérations récurrentes sont créées à partir d&#39;un modèle spécifique qui définit le modèle de workflow à exécuter et le planning d&#39;exécution.
 
-#### Création d’un modèle pour les campagnes récurrentes {#creating-the-campaign-template}
+#### Créer un modèle pour les campagnes récurrentes {#creating-the-campaign-template}
 
 1. Créez un modèle d&#39;opération de type **[!UICONTROL Récurrente]**.
 
@@ -193,11 +181,11 @@ Pour créer l&#39;opération récurrente et exécuter ses workflows selon le pla
    >La date de début de la ligne de planning associée au workflow est disponible à partir d&#39;une variable du workflow avec la syntaxe suivante :\
    >`$date(instance/vars/@startPlanningDate)`
 
-### Créer une opération périodique {#creating-a-periodic-campaign}
+### Créer une campagne périodique {#creating-a-periodic-campaign}
 
 Une opération périodique est une opération basée sur un modèle spécifique qui permet de créer des instances d&#39;opérations selon un planning d&#39;exécution. Les instances d&#39;opérations sont créées automatiquement sur la base d&#39;un modèle d&#39;opération périodique, selon la fréquence définie dans le planning du modèle.
 
-#### Créer le modèle d&#39;opération {#creating-the-campaign-template-1}
+#### Créer le modèle de campagne {#creating-the-campaign-template-1}
 
 1. Créez un modèle d&#39;opération de type **[!UICONTROL Périodique]**, de préférence en dupliquant un modèle d&#39;opération existant.
 
@@ -239,4 +227,4 @@ Cette vidéo explique comment créer un plan marketing, des programmes et des ca
 
 >[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
