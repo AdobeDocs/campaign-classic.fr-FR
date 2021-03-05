@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1592'
 ht-degree: 100%
 
 ---
@@ -205,8 +205,8 @@ Si, par exemple, vous avez inclus une liste de produits dans votre email, lors d
 
 ## Tutoriel vidéo {#amp-email-video}
 
-La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign Classic et présente son utilisation.
+La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign  et présente son utilisation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
