@@ -1,6 +1,6 @@
 ---
 audience: end-user
-breadcrumb-title: Centre d’aide
+breadcrumb-title: Centre d'aide
 product: campaign
 title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
 workflow-type: tm+mt
 source-wordcount: '2381'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -172,7 +172,7 @@ ht-degree: 62%
       + [Cas d’utilisation : sélectionner des adresses de contrôle sur des critères](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [Cas d’utilisation : configurer la substitution de champ](delivery/using/use-case--configuring-the-field-substitution.md)
    + A/B testing {#a-b-testing}
-      + [Commencer avec les tests A/B](delivery/using/get-started-a-b-testing.md)
+      + [Prise en main des tests A/B](delivery/using/get-started-a-b-testing.md)
       + [Configuration des tests A/B](delivery/using/configuring-a-b-testing.md)
       + Cas pratique {#use-case}
          + [À propos de ce cas d&#39;utilisation](delivery/using/a-b-testing-use-case.md)
@@ -201,13 +201,13 @@ ht-degree: 62%
       + [A propos du tracking des messages](delivery/using/about-message-tracking.md)
       + [Comment configurer des liens trackés](delivery/using/how-to-configure-tracked-links.md)
       + Suivi des liens personnalisés {#tracking-personalized-links}
-         + [Commencer avec le suivi des liens personnalisés](delivery/using/tracking-personalized-links.md)
+         + [Prise en main du tracking des liens personnalisés](delivery/using/tracking-personalized-links.md)
          + [Détecter les URL de suivi](delivery/using/detecting-tracking-urls.md)
-         + [Instructions de prétraitement pour le suivi](delivery/using/pre-processing-instructions.md)
+         + [Instructions de prétraitement pour le tracking](delivery/using/pre-processing-instructions.md)
       + [Configuration des options de suivi d’URL](delivery/using/personalizing-url-tracking.md)
       + [Accès aux logs de tracking](delivery/using/accessing-the-tracking-logs.md)
       + [Suivi des tests](delivery/using/testing-tracking.md)
-      + [Dépannage du suivi](delivery/using/tracking-troubleshooting.md)
+      + [Résolution des problèmes de tracking](delivery/using/tracking-troubleshooting.md)
    + Gestion de la délivrabilité {#deliverability-management}
       + [A propos de la délivrabilité](delivery/using/about-deliverability.md)
       + [Points clés à vérifier](delivery/using/deliverability-key-points.md)
@@ -467,7 +467,7 @@ ht-degree: 62%
          + [Charger le contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle        {#monitoring}
+      + Contrôle         {#monitoring}
          + [Envoyer un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Superviser vos workflows](workflow/using/supervising-workflows.md)
          + [Envoyer des alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
