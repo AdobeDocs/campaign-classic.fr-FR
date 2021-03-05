@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: add0efb4efd5a37129c649b942799622947f3143
 workflow-type: tm+mt
 source-wordcount: '4112'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -27,29 +27,29 @@ Des informations ont été ajoutées dans la section **[!UICONTROL activité Jav
 
 ## Février 2021 {#release-21.1}
 
-**Mises à jour de la documentation accompagnant la version 21.1**
+**Mises à jour de la documentation accompagnant la version 21.1**
 
-La nouvelle fonctionnalité **Service de commentaires par courriel** (version bêta privée) est documentée [ici](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+La nouvelle fonctionnalité **Service de commentaires par email** (version bêta privée) est documentée [ici](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
 
-La section **Fichier de configuration de serveur** a été mise à jour avec les paramètres de configuration nécessaires pour que Campaign se connecte à un autre service à l&#39;aide d&#39;IMS. [En savoir plus](../../installation/using/the-server-configuration-file.md#ims)
+La section **Fichier de configuration du serveur** a été mise à jour avec les paramètres de configuration nécessaires pour que Campaign se connecte à un autre service à l&#39;aide d&#39;IMS. [En savoir plus](../../installation/using/the-server-configuration-file.md#ims)
 
-Dans la liste des états de diffusion, la description de **prise en compte par le prestataire** a été mise à jour : cet état est désormais également utilisé pour les diffusions électroniques envoyées à l’aide du [service de commentaires par courriel](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [En savoir plus](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+Dans la liste des statuts de diffusion, la description de **Prise en compte par le prestataire** a été mise à jour : ce statut est désormais également utilisé pour les diffusions par email envoyées à l&#39;aide du [service de commentaires par email](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [En savoir plus](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
 
-Les raccourcis clavier disponibles sur le nouvel écran de connexion pour se connecter à Adobe Campaign sont maintenant documentés. [En savoir plus](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+Les raccourcis clavier disponibles sur le nouvel écran de connexion pour se connecter à Adobe Campaign sont maintenant documentés. [En savoir plus](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
 **Autres mises à jour**
 
-Une nouvelle section a été ajoutée avec des informations détaillées sur la façon d’effectuer des tests A/B à l’aide de workflows. [En savoir plus](../../delivery/using/get-started-a-b-testing.md)
+Une nouvelle section a été ajoutée avec des informations détaillées sur la façon d&#39;effectuer des tests A/B à l&#39;aide de workflows. [En savoir plus](../../delivery/using/get-started-a-b-testing.md)
 
-La section Adobe Campaign Enhanced MTA a été déplacée [ici](../../delivery/using/sending-with-enhanced-mta.md).
+La section MTA amélioré d&#39;Adobe Campaign a été déplacée [ici](../../delivery/using/sending-with-enhanced-mta.md).
 
-Une nouvelle page a été ajoutée pour fournir un aperçu des fonctionnalités de suivi dans [!DNL Campaign Classic]. [En savoir plus](../../delivery/using/about-message-tracking.md)
+Une nouvelle page a été ajoutée pour fournir un aperçu des fonctionnalités de tracking dans [!DNL Campaign Classic]. [En savoir plus](../../delivery/using/about-message-tracking.md)
 
-Une section de dépannage a été ajoutée pour vous aider à résoudre les problèmes courants liés au suivi. [En savoir plus](../../delivery/using/tracking-troubleshooting.md)
+Une section de résolution des problèmes a été ajoutée pour vous aider à résoudre les problèmes courants liés au tracking. [En savoir plus](../../delivery/using/tracking-troubleshooting.md)
 
-La section **Envoi d&#39;un courriel** a été réorganisée et clarifiée avec de nouvelles sous-sections. [En savoir plus](../../delivery/using/sending-messages.md)
+La section **Envoi d&#39;un email** a été réorganisée et clarifiée avec de nouvelles sous-sections. [En savoir plus](../../delivery/using/sending-messages.md)
 
-Des informations ont été ajoutées sur la manière d’ajouter des liens dans les courriels qui peuvent être personnalisés et qui prennent en charge le suivi. [En savoir plus](../../delivery/using/tracking-personalized-links.md).
+Des informations ont été ajoutées sur la manière d&#39;ajouter des liens dans les emails qui peuvent être personnalisés et qui prennent en charge le tracking. [En savoir plus](../../delivery/using/tracking-personalized-links.md).
 
 ## Janvier 2021 {#jan-2021}
 
@@ -85,7 +85,7 @@ Une note a été ajoutée à la section **Messages transactionnels** pour averti
 
 ## Novembre 2020 {#nov-2020}
 
-La présentation du modèle de données Campaign a été améliorée et réorganisée. [En savoir plus](../../configuration/using/about-data-model.md)
+La présentation du modèle de données Campaign a été améliorée et réorganisée. [En savoir plus](../../configuration/using/about-data-model.md).
 
 La configuration des comptes externes a été déplacée vers [cette section](../../installation/using/external-accounts.md).
 
@@ -118,7 +118,7 @@ Mise à jour de la matrice de compatibilité. [En savoir plus](../../rn/using/co
 La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En savoir plus](../../rn/using/deprecated-features.md)
 
 Les notes de mise à jour et la matrice de compatibilité pour la version Gold Standard sont maintenant disponibles dans une section dédiée.
-[En savoir plus](../../rn/using/gold-standard.md#gs-11)
+[En savoir plus](../../rn/using/gold-standard.md#gs-11).
 
 L’intégration des Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
 
