@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ Pour ajouter un modèle, consultez la section [Options globales](../../web/using
 
 A la fin du paramétrage d&#39;une diffusion, il vous est possible de l&#39;enregistrer comme modèle afin de la réutiliser lors de prochaines diffusions.
 
-Dans l&#39;univers **Campagnes**, ouvrez la diffusion de votre choix. Cliquez sur le bouton **Enregistrer comme modèle**, donnez un nom au modèle puis enregistrez.
+Dans l&#39;onglet **Campagnes**, ouvrez la diffusion sélectionnée. Cliquez sur le bouton **Enregistrer en tant que modèle**, nommez le modèle, puis enregistrez-le.
 
 ![](assets/dce_save_model.png)
 
