@@ -7,10 +7,10 @@ audience: social
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign** : positionnez-vous sur l&#39;univers **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Créer]**.
+* **Adobe Campaign** : accédez à l’onglet  **[!UICONTROL Profils et]** targetstab, cliquez sur le lien  **[!UICONTROL Services et]** Abonnements et cliquez sur le bouton  **** Créer.
 
    ![](assets/social_twitter_service_007.png)
 
