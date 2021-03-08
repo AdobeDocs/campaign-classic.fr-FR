@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes 
 
 ## Etape 1 : création de la liste de destinataires {#step-1--creating-the-recipient-list}
 
-Positionnez-vous sur l&#39;univers **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Listes]** puis sur le bouton **[!UICONTROL Créer]**. Sélectionnez **[!UICONTROL Nouvelle liste]** et créez une nouvelle liste de destinataires à qui le rapport sera envoyé.
+Accédez à l&#39;onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Listes]**, puis sur le bouton **[!UICONTROL Créer]**. Sélectionnez **[!UICONTROL Nouvelle liste]** et créez une nouvelle liste de destinataire à laquelle le rapport doit être envoyé.
 
 ![](assets/use_case_report_1.png)
 
