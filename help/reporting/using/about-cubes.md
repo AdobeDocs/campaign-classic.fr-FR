@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -89,7 +89,7 @@ Les cubes sont localisés sous le noeud **[!UICONTROL Administration > Paramétr
 
 Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
-* L&#39;exploration des données peut être réalisée directement dans un rapport, conçu à partir de l&#39;univers **[!UICONTROL Rapports]** de la plateforme Adobe Campaign.
+* Les exportations de données peuvent être effectuées directement dans un rapport, conçu dans l&#39;onglet **[!UICONTROL Rapports]** de la plateforme Adobe Campaign.
 
    Pour cela, créez un nouveau rapport et sélectionnez le cube à utiliser.
 
