@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -151,7 +151,7 @@ Localisez le HTML de votre diffusion. Par exemple, dans **[!UICONTROL Diffusion 
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-Enregistrez votre modèle d&#39;opération. Vous pouvez désormais l&#39;utiliser depuis la vue **Kits d&#39;opération** de l&#39;univers **Campagnes**, en cliquant sur le bouton **[!UICONTROL Créer]**.
+Enregistrez votre modèle de campagne. Vous pouvez désormais l’utiliser à partir de la vue **[!UICONTROL Paquets Campaign]** dans l’onglet **[!UICONTROL Campagnes]**, en cliquant sur le bouton **[!UICONTROL Créer]**.
 
 ![](assets/mkt_distr_9.png)
 
@@ -270,7 +270,7 @@ Pour commander une opération :
 
    Voir à ce propos la section [Processus de validation](#approval-process).
 
-1. L’opérateur local est alors notifié de la disponibilité de l’opération : elle est accessible à partir de la liste des kits d’opérations de l’univers **Campagnes**. Il peut alors l’utiliser. Voir à ce propos la section [Accéder aux opérations](../../campaign/using/accessing-campaigns.md).
+1. L’opérateur local est alors averti que la campagne est disponible : la disponibilité de la campagne se trouve dans la liste des packages de campagne dans l&#39;onglet **Campagnes**. La campagne peut ensuite être utilisée. Voir à ce propos la section [Accéder aux opérations](../../campaign/using/accessing-campaigns.md).
 
    L&#39;option **[!UICONTROL Démarrer le ciblage à la validation de la commande]** permet à l&#39;entité locale d&#39;exécuter l&#39;opération dès que sa commande a été validée.
 
@@ -280,7 +280,7 @@ Pour commander une opération :
 
 Pour confirmer la commande d&#39;une opération, l&#39;entité centrale doit la valider.
 
-La vue d&#39;ensemble **[!UICONTROL Commandes d&#39;opération]**, accessible à partir du lien correspondant dans l&#39;univers **Campagnes**, permet de visualiser l&#39;état des commandes d&#39;opérations et de procéder à leur validation.
+L&#39;aperçu **[!UICONTROL Commandes Campaign]**, accessible via l&#39;onglet **Campagnes**, vous permet de vue l&#39;état des commandes de campagne et de les approuver.
 
 >[!NOTE]
 >
