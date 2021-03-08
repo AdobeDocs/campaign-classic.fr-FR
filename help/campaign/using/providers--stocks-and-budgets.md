@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -206,7 +206,7 @@ Pour mettre en place la gestion des stocks et des commandes dans Adobe Campaign,
 
 ### Gestion des stocks {#stock-management}
 
-Adobe Campaign peut alerter un groupe d&#39;opérateurs si le stock de fournitures est épuisé ou s&#39;il a atteint un seuil minimum. Les stocks sont accessibles à partir du lien **[!UICONTROL Stocks]** accessible à partir de l&#39;univers **[!UICONTROL Campagnes]**, via le lien **[!UICONTROL Autres choix]** de la zone de navigation.
+Adobe Campaign peut alerter un groupe d&#39;utilisateurs si le stock est épuisé ou a atteint un seuil minimum. Les niveaux de stock sont accessibles via le lien **[!UICONTROL Stocks]** de l&#39;onglet **[!UICONTROL Campagnes]** via le lien **[!UICONTROL Autres choix]** de la zone de navigation.
 
 ![](assets/s_ncs_user_stocks_view.png)
 
