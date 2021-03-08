@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '797'
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,7 @@ Dans les cas où le consentement est nécessaire pour certaines activités de co
 
 Il peut même arriver que certains consentements doivent être actualisés pour pouvoir continuer à utiliser les données.
 
-Plutôt que de considérer ces exigences accrues de consentement comme un risque pour l’univers commercialisable, les spécialistes marketing pourraient les considérer comme un véritable indicateur de l’engagement et de la fidélité de la marque, ainsi que de la satisfaction et de la confiance des clients.
+Les spécialistes du marketing devraient considérer ces exigences de consentement améliorées comme un véritable indicateur de l’engagement et de la fidélité de la marque, ainsi que de la satisfaction et de la confiance des clients.
 
 ## Gérer le consentement {#manage-consent}
 
