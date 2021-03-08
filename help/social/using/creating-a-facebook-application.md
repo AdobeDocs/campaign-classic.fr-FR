@@ -7,10 +7,10 @@ audience: social
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Les étapes de paramétrage sont les suivantes :
 
 L&#39;application web Adobe Campaign de type Facebook permet d&#39;afficher du contenu personnalisé dans votre application Facebook. Pour chaque application Facebook, vous devez créer une application web dans Adobe Campaign. Les étapes de création d&#39;une application web de type Facebook sont les suivantes.
 
-1. Positionnez-vous sur l&#39;univers **[!UICONTROL Réseaux sociaux]**, cliquez sur le lien **[!UICONTROL Applications]** puis sur le bouton **[!UICONTROL Créer]**.
+1. Accédez à l’onglet **[!UICONTROL Réseaux sociaux]**, cliquez sur le lien **[!UICONTROL Applications]**, puis sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/social_webapp_001.png)
 
