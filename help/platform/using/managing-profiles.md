@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 
 >[!NOTE]
 >
->Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. Voir à ce sujet la section [Les dossiers et les vues](../../platform/using/access-management.md#folders-and-views).
+>Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. En savoir plus sur [Dossiers et vues](../../platform/using/access-management-folders.md).
 
 ## Déplacer un destinataire {#moving-recipients}
 
