@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '1373'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ La simulation permet de suivre et de comparer l&#39;impact des diffusions les un
 
 Pour créer une simulation, les étapes sont les suivantes :
 
-1. Dans l&#39;univers des **[!UICONTROL Campagnes]**, cliquez sur le lien **[!UICONTROL Autres choix]** de la section **[!UICONTROL Créer]** et choisissez **[!UICONTROL Simulation]**.
+1. Ouvrez l&#39;onglet **[!UICONTROL Campagnes]**, cliquez sur le lien **[!UICONTROL Plus]** dans la section **[!UICONTROL Créer]** et sélectionnez l&#39;option **[!UICONTROL Simulation]**.
 
    ![](assets/simu_campaign_opti_01.png)
 
