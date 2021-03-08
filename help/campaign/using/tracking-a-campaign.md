@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ Ils peuvent ainsi :
 
 ## Filtrer les kits {#filter-packages}
 
-Depuis l&#39;univers des **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **[!UICONTROL Kits d&#39;opération]** qui regroupe toutes les opérations de Marketing Distribué existantes. Cette liste peut être filtrée afin de n&#39;afficher que les opérations publiées, en retard, en attente de validation, etc. Pour cela, cliquez sur les liens proposés dans la section supérieure de cette vue, ou utilisez le lien **[!UICONTROL Filtrer la liste]** et sélectionnez l&#39;état des kits d&#39;opération à afficher.
+Dans l&#39;onglet **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **[!UICONTROL packages Campaign]** qui regroupe toutes les campagnes de Marketing distribué existantes. Vous pouvez filtrer cette liste de sorte qu’elle n’affiche que les campagnes publiées, en retard, en attente d’approbation, etc. Pour ce faire, cliquez sur les liens dans la section supérieure de cette vue ou utilisez le lien **[!UICONTROL Filtrer la liste]** et sélectionnez l’état du package de campagne à afficher.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
