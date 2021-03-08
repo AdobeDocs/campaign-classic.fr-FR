@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '3204'
-ht-degree: 100%
+source-wordcount: '3206'
+ht-degree: 99%
 
 ---
 
@@ -291,7 +291,7 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
       >[!NOTE]
       >
-      >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire. Voir [Gestion de l&#39;accès aux dossiers](../../platform/using/access-management.md#folder-access-management).
+      >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire. En savoir plus sur [Gestion de l&#39;accès aux dossiers](../../platform/using/access-management-folders.md).
 
       Pour choisir le dossier d&#39;import, cliquez sur la flèche située à droite du champ **[!UICONTROL Dossier]** et sélectionnez le dossier visé. Vous pouvez également utiliser l&#39;icône **[!UICONTROL Choisir le lien]** pour afficher l&#39;arborescence dans une nouvelle fenêtre ou créer un nouveau dossier.
 
