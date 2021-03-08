@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1628'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Vous pouvez suivre l&#39;exécution des diffusions à l&#39;aide de différents rapports, accessibles depuis la vue d&#39;ensemble des diffusions. Pour les afficher, respectez les étapes suivantes :
 
-1. Positionnez-vous sur l&#39;univers **[!UICONTROL Campagnes]** et cliquez sur le lien **[!UICONTROL Diffusion]** pour afficher la liste des diffusions.
+1. Accédez à l&#39;onglet **[!UICONTROL Campagnes]** et cliquez sur le lien **[!UICONTROL Diffusion]** pour afficher la liste des diffusions.
 1. Cliquez sur le nom de la diffusion visée pour afficher son détail.
 
    ![](assets/s_ncs_user_detailled_report.png)
