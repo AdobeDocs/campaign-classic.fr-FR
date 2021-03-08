@@ -7,10 +7,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 95%
 
 ---
 
@@ -77,5 +77,5 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->Le mot de passe **interne** doit être identique sur tous les serveurs de tracking. Pour plus d&#39;informations, consultez les sections [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier) et [A propos des permissions](../../platform/using/access-management.md#about-permissions).
+>Le mot de passe **internal** doit être identique pour tous les serveurs de suivi. Pour plus d&#39;informations, consultez les sections [Identificateur interne](../../installation/using/campaign-server-configuration.md#internal-identifier) et [Permissions](../../platform/using/access-management.md).
 
