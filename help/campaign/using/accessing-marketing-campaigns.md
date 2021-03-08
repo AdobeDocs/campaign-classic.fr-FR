@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -27,11 +27,11 @@ Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
 ![](assets/campaign_global_view.png)
 
-Cliquez sur les liens de la barre de navigation pour accéder aux différents univers.
+Cliquez sur les liens dans la barre de navigation pour accéder aux différentes fonctionnalités.
 
-Les éléments d&#39;une campagne se trouvent dans l&#39;univers **[!UICONTROL Campagnes]** : vous y trouverez une vue d&#39;ensemble des programmes et des campagnes marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, elles-mêmes formées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de la gestion des campagnes marketing à l&#39;aide de Campaign, les informations concernant les diffusions, les budgets, les validants et les documents liés sont disponibles dans chaque campagne.
+Les éléments Campaign se trouvent dans l&#39;onglet **[!UICONTROL Campagnes]** : vous trouverez ici un aperçu des programmes et campagnes marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, elles-mêmes formées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de la gestion des campagnes marketing à l&#39;aide de Campaign, les informations concernant les diffusions, les budgets, les validants et les documents liés sont disponibles dans chaque campagne.
 
-Le bloc de navigation de l&#39;univers **[!UICONTROL Campagnes]** offre plusieurs entrées, selon les modules installés sur l&#39;instance. Par exemple, vous pouvez accéder aux éléments suivants :
+Le bloc **[!UICONTROL Browsing]** de l&#39;onglet **[!UICONTROL Campagnes]** offre différentes entrées, selon les modules installés sur l&#39;instance. Vous pouvez, par exemple, accéder à :
 
 * **Calendrier des campagnes** : calendrier des plans, des programmes marketing, des diffusions et des opérations. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
 * **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
@@ -46,7 +46,7 @@ Le bloc de navigation de l&#39;univers **[!UICONTROL Campagnes]** offre plusieur
 
 ### Calendrier des campagnes {#campaign-calendar}
 
-Chaque opération s&#39;inscrit dans un programme, lui-même inscrit dans un plan. Les plans, programmes et leurs opérations sont accessibles à partir du menu **[!UICONTROL Calendrier des campagnes]** de l&#39;univers **Campagnes**.
+Chaque campagne appartient à un programme qui appartient à son tour à un plan. Les plans, programmes et campagnes sont accessibles via le menu **[!UICONTROL Calendrier Campaign]** de l&#39;onglet **Campagnes**.
 
 Pour éditer un plan, un programme, une opération ou une diffusion, cliquez sur son nom dans le calendrier, puis sur le lien **[!UICONTROL Ouvrir...]**. L&#39;élément visé est alors affiché dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
 
@@ -95,7 +95,7 @@ Vous pouvez accéder aux opérations à partir du calendrier des campagnes, de l
    ![](assets/campaign_op_edit.png)
 
 1. Depuis l&#39;onglet **[!UICONTROL Planning]** du programme, le mode d&#39;édition est le même que depuis le calendrier des campagnes.
-1. Depuis le lien **[!UICONTROL Opérations]** de l&#39;univers des **[!UICONTROL Campagnes]**, cliquez sur le nom de l&#39;opération à éditer.
+1. Sur le lien **[!UICONTROL Campagnes]** de l&#39;onglet **[!UICONTROL Campagnes]**, cliquez sur le nom de la campagne à modifier.
 
    ![](assets/campaign_edit_from_list.png)
 
