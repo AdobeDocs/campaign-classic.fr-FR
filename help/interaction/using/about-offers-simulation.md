@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ Pour savoir comment simuler une offre, procédez comme suit.
 
 Pour effectuer une simulation de vos offres, procédez de la manière suivante :
 
-1. Dans l&#39;univers **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Simulations]**, puis sur le bouton **[!UICONTROL Créer]**.
+1. Dans l&#39;onglet **[!UICONTROL Profils et Cibles]**, cliquez sur le lien **[!UICONTROL Simulations]**, puis sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/offer_simulation_001.png)
 
