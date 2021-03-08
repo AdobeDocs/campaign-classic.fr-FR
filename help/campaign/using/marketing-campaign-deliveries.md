@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 67364f80ddc51d4792e73bbf39d388bdf4297005
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -199,7 +199,7 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Les ressources sont des ressources marketing qui sont gérées dans le tableau de bord des ressources marketing accessible à partir du lien **[!UICONTROL Ressources]** de l&#39;univers **[!UICONTROL Campagnes]**.
+* Les ressources sont des ressources marketing générées dans le tableau de bord de ressource marketing accessibles via le lien **[!UICONTROL Ressources]** de l&#39;onglet **[!UICONTROL Campagnes]**.
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
