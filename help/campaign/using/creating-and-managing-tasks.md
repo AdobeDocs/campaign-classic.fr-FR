@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '3901'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Les tâches peuvent être créées, visualisées et suivies au niveau de liste d
 
 Les tâches sont attachées à des opérations, et peuvent avoir des dépendances, c&#39;est-à-dire des tâches associées. Chaque tâche a un statut, une priorité, une charge estimée et des coûts associés.
 
-Toutes les tâches sont regroupées dans une liste accessible par le biais de l&#39;univers **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
+Toutes les tâches sont regroupées dans une liste accessible via l&#39;onglet **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
 
 Elles peuvent être affichées dans le planning du programme auquel elles appartiennent.
 
@@ -35,7 +35,7 @@ Elles peuvent être affichées dans le planning du programme auquel elles appart
 
 ### Afficher les tâches {#displaying-tasks}
 
-Les tâches sont affichées dans la liste des tâches accessible à partir de l&#39;univers **[!UICONTROL Campagnes]**.
+Les tâches s’affichent dans la liste de tâches accessible via l’onglet **[!UICONTROL Campagnes]**.
 
 ![](assets/s_ncs_user_task_edit_view.png)
 
@@ -57,7 +57,7 @@ Cliquez sur une tâche pour l&#39;éditer.
 
 ## Créer une nouvelle tâche {#creating-a-new-task}
 
-Pour créer une tâche, cliquez sur le lien **[!UICONTROL Tâches]** de l&#39;univers Campagnes et choisissez **[!UICONTROL Créer]**.
+Pour créer une tâche, cliquez sur le lien **[!UICONTROL Tâches]** dans l&#39;onglet **[!UICONTROL Campagnes]** et sélectionnez **[!UICONTROL Créer]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
@@ -436,6 +436,7 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 >
 >* Le statut de la tâche est mis à jour automatiquement.
 >* Même si la période de validité est terminée, une tâche qui n&#39;a pas été close par son responsable apparaît toujours dans les tâches en cours. Un message d&#39;avertissement est affiché pour alerter les opérateurs que la tâche est en retard.
+
 >
 
 
