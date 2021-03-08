@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
-# Filtrage des schémas{#filtering-schemas}
+# Filtrer les schémas{#filtering-schemas}
 
 ## Filtres système {#system-filters}
 
@@ -63,7 +63,7 @@ Ces filtres sont renseignés au niveau de l’**élément** principal des schém
 >
 >Si aucun filtre n&#39;est défini, tous les opérateurs peuvent accéder librement en lecture et en écriture au schéma.
 
-## Protection des schémas intégrés {#protecting-built-in-schemas}
+## Schémas intégrés Protect {#protecting-built-in-schemas}
 
 Par défaut, les schémas intégrés ne sont accessibles avec les permissions d’ÉCRITURE que par les opérateurs possédant le droit d’ADMINISTRATION :
 
@@ -102,7 +102,7 @@ Par défaut, les schémas intégrés ne sont accessibles avec les permissions d�
 >
 >Le schéma **xtk:sessionInfo** n’est accessible en lecture et en écriture que par le compte interne d’une instance Adobe Campaign.
 
-## Modification des filtres système des schémas intégrés {#modifying-system-filters-of-built-in-schemas}
+## Modifier les filtres système des schémas intégrés {#modifying-system-filters-of-built-in-schemas}
 
 Il est tout de même possible de modifier les filtres système des schémas d’usine, protégés par défaut, notamment pour des raisons de compatibilité avec les versions antérieures.
 
