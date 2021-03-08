@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 100%
+source-wordcount: '2082'
+ht-degree: 97%
 
 ---
 
@@ -111,7 +111,7 @@ Les tables de travail du workflow sont automatiquement supprimées lorsque le wo
 
 ## Gérer les erreurs {#managing-errors}
 
-Lorsqu&#39;une erreur se produit, le workflow se met en pause et l&#39;activité qui était en cours d&#39;exécution lorsque l&#39;erreur s&#39;est produite clignote alors en rouge. Dans la vue d&#39;ensemble des workflows (univers **[!UICONTROL Supervision]** > lien **[!UICONTROL Workflows]**), vous pouvez n&#39;afficher que les workflows en erreur, comme dans l&#39;exemple ci-dessous.
+Lorsqu’une erreur se produit, le processus est suspendu et l’activité en cours d’exécution lorsque l’erreur s’est produite clignote en rouge. Dans l&#39;aperçu du flux de travail, sous l&#39;onglet **[!UICONTROL Surveillance]** - **[!UICONTROL Workflows]**, vous pouvez afficher les workflows avec des erreurs uniquement, comme illustré ci-dessous.
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
@@ -169,7 +169,7 @@ Si possible, il est recommandé de le relancer complètement après avoir effect
 
 La page **[!UICONTROL Supervision de l&#39;instance]** permet de visualiser l&#39;activité du serveur Adobe Campaign et de consulter la liste des workflows et des diffusions en échec.
 
-Pour accéder à cette page, positionnez-vous sur l&#39;univers **[!UICONTROL Supervision]**, et cliquez sur le lien **[!UICONTROL Vue générale]**.
+Pour accéder à cette page, accédez à l&#39;onglet **[!UICONTROL Surveillance]** et cliquez sur le lien **[!UICONTROL vue générale]**.
 
 ![](assets/wf-monitoring_from-homepage.png)
 
