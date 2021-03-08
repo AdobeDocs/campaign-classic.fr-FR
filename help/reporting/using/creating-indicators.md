@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -121,7 +121,7 @@ Une fois le cube paramétré, il peut être utilisé comme modèle pour créer u
 
 Pour cela :
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]** de l&#39;univers des **[!UICONTROL Rapports]** et sélectionnez le cube que vous venez de créer.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** de l&#39;onglet **[!UICONTROL Rapports]** et sélectionnez le cube que vous venez de créer.
 
    ![](assets/s_advuser_cube_wz_14.png)
 
