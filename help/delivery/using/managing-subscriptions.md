@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Les opérations d&#39;abonnement/désabonnement aux services peuvent être réal
 
 Vous pouvez créer et gérer des abonnements à des services d&#39;information auxquels seront associés des messages de confirmation ou des diffusions automatiques vers les abonnés.
 
-Pour accéder à la vue d&#39;ensemble des services d&#39;information, positionnez-vous sur l&#39;univers **[!UICONTROL Profils et cibles]**, et cliquez sur le lien **[!UICONTROL Services et abonnements]**.
+Pour accéder au mappage des services d&#39;information, ouvrez l&#39;onglet **[!UICONTROL Profils et Cibles]** et cliquez sur le lien **[!UICONTROL Services et Abonnements]**.
 
 ![](assets/s_ncs_user_services_new.png)
 
