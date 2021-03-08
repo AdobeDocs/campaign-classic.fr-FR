@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: add0efb4efd5a37129c649b942799622947f3143
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '4112'
 ht-degree: 99%
@@ -287,7 +287,7 @@ Un cas pratique a été ajouté concernant l’intégration d’une offre dynami
 
 Une nouvelle section relative aux différentes langues disponibles dans Adobe Campaign est maintenant disponible. [En savoir plus](../../platform/using/adobe-campaign-workspace.md#languages)
 
-Les directives relatives à la gestion des accès ont été mises à jour pour détailler davantage les droits nommés. [En savoir plus](../../platform/using/access-management.md#named-rights)
+Les directives relatives à la gestion des accès ont été mises à jour pour détailler davantage les droits nommés. [En savoir plus](../../platform/using/access-management-named-rights.md)
 
 ## Février 2020 {#february-2020}
 
@@ -405,7 +405,7 @@ Un avertissement a été ajouté aux sections [Multiplexage du serveur de mid-so
 
 Une nouvelle section a été ajoutée pour décrire comment forcer le codage des caractères lors de l&#39;envoi d&#39;un email. [En savoir plus](../../delivery/using/sending-messages.md#character-encoding)
 
-La section Gestion des accès a été mise à jour avec le droit de **protection des informations personnelles**. [En savoir plus](../../platform/using/access-management.md#named-rights)
+La section Gestion des accès a été mise à jour avec le droit de **protection des informations personnelles**. [En savoir plus](../../platform/using/access-management-named-rights.md)
 
 Des informations ont été ajoutées pour indiquer que le contenu des champs de personnalisation ne peut pas dépasser 1 024 caractères. [En savoir plus](../../delivery/using/personalization-fields.md)
 
