@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1442'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Pour chaque ressource marketing gérée via Adobe Campaign, vous pouvez contrôl
 
 ## Ajouter une ressource marketing {#adding-a-marketing-resource}
 
-Les ressources marketing sont accessibles à partir de l&#39;univers Campagnes.
+Les ressources marketing sont accessibles via l&#39;onglet **[!UICONTROL Campagnes]**.
 
 Pour ajouter une ressource, cliquez sur le bouton **[!UICONTROL Créer]**.
 
