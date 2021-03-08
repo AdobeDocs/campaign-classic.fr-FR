@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Dans les propriétés d&#39;un workflow, sélectionnez un groupe de responsables
 
 Avant de commencer la construction d’un workflow, pensez à définir les superviseurs. Ceux-ci seront avertis par email lorsqu’un workflow sera en erreur. Voir à ce propos la section [Gérer les erreurs](../../workflow/using/monitoring-workflow-execution.md#managing-errors).
 
-Vérifiez régulièrement l’univers de **[!UICONTROL Surveillance]** pour connaître le statut des workflows actifs. Voir à ce propos la section [Supervision de l’instance](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
+Vérifiez régulièrement l&#39;onglet **[!UICONTROL Surveillance]** pour vue l&#39;état général des workflows principaux. Voir à ce propos la section [Supervision de l’instance](../../workflow/using/monitoring-workflow-execution.md#instance-supervision).
 
 La carte thermique des workflows permet aux administrateurs de la plateforme Adobe Campaign de surveiller la charge sur l’instance et de planifier les workflows en conséquence. Voir à ce sujet [Surveillance des workflows](../../workflow/using/heatmap.md).
 
