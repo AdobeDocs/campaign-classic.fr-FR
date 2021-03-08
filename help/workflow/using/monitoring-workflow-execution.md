@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 100%
@@ -271,7 +271,7 @@ Pour cela :
 
 1. Cliquez avec le bouton droit sur le dossier dans lequel vous souhaitez ajouter la vue.
 1. Dans **[!UICONTROL Ajouter un dossier]** / **[!UICONTROL Administration]**, sélectionnez la vue à ajouter.
-1. Une fois le dossier ajouté à l&#39;arborescence, assurez-vous de le configurer en tant que vue afin qu&#39;il affiche tous les workflows, quel que soit leur dossier d&#39;origine. Pour plus d&#39;informations sur la configuration des vues, consultez [cette section](../../platform/using/access-management.md#adding-folders-and-creating-views).
+1. Une fois le dossier ajouté à l&#39;arborescence, assurez-vous de le configurer en tant que vue afin qu&#39;il affiche tous les workflows, quel que soit leur dossier d&#39;origine. Pour plus d&#39;informations sur la configuration des vues, consultez [cette section](../../platform/using/access-management-folders.md).
 
 En outre, vous pouvez configurer des dossiers de filtres qui vous permettront de filtrer la liste des workflows en fonction de leur état d’exécution. Pour cela :
 
