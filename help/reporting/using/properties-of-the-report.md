@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Les options possibles sont les suivantes :
 
 * **[!UICONTROL Accès anonyme]** : cette option permet un accès illimité au rapport. Cependant, aucune manipulation n&#39;est possible.
 
-   Ce sont les droits de l&#39;opérateur technique &#39;webapp&#39; qui sont utilisés pour afficher les éléments du rapport. En savoir plus [dans cette section](../../platform/using/access-management.md#default-operators).
+   Les autorisations de l’opérateur technique &quot;webapp&quot; sont utilisées pour afficher les éléments de rapport. En savoir plus [dans cette section](../../platform/using/access-management-operators.md).
 
 * **[!UICONTROL Contrôle d&#39;accès]** : cette option permet à un opérateur Adobe Campaign d&#39;y accéder, après connexion.
 * **[!UICONTROL Compte spécifique]** : permet d&#39;exécuter le rapport avec les droits de l&#39;opérateur sélectionné dans le champ **[!UICONTROL Opérateur]**.
