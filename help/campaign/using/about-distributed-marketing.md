@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ L&#39;inscription d&#39;une entité locale à une opération se traduit par la c
 
 ## Espace de travail     {#workspace}
 
-La liste des kits d&#39;opération est accessible à partir de l&#39;univers **Campagnes** : cliquez sur le lien **[!UICONTROL Kits d&#39;opération]**.
+La liste des packages de campagne est accessible à partir de l&#39;onglet **Campagnes** : cliquez sur le lien **[!UICONTROL Packages Campaign]**.
 
 ![](assets/mkg_dist_home_local_op.png)
 
