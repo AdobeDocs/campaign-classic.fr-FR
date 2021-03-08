@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%
@@ -83,7 +83,7 @@ La disposition générale de l’explorateur Adobe Campaign est présentée dan
 >
 >Vous pouvez également afficher une vue avancée de cette liste à partir de l’arborescence Adobe Campaign, en cliquant sur le lien **[!UICONTROL Profils et cibles > Destinataires]**. L’affichage de cette liste peut être paramétré selon vos besoins. Vous pouvez ajouter ou supprimer des colonnes, définir leur ordre, trier les données, etc. Le paramétrage de l’affichage des listes est présentée dans [Utiliser l’explorateur Adobe Campaign](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
 >
->Vous pouvez également définir des vues de destinataires. Pour plus d’informations sur cette fonctionnalité, voir [Les dossiers et les vues](../../platform/using/access-management.md#folders-and-views).
+>Vous pouvez également définir des vues de destinataires. Pour plus d’informations sur cette fonctionnalité, voir [Les dossiers et les vues](../../platform/using/access-management-folders.md).
 
 ## Profils actifs {#active-profiles}
 
