@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: af2707c6d86215ff94911e670a1eb080572de23c
 workflow-type: tm+mt
-source-wordcount: '4112'
-ht-degree: 99%
+source-wordcount: '4171'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,15 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## Mars 2021 {#march-2021}
+
+Le chapitre [gestion des autorisations](../../platform/using/access-management.md) a été amélioré et divisé en sections, y compris des détails sur [les opérateurs](../../platform/using/access-management-operators.md), [les Groupes d&#39;utilisateurs](../../platform/using/access-management-groups.md), [les Droits nommés](../../platform/using/access-management-named-rights.md) et [la gestion des dossiers](../../platform/using/access-management-folders.md).
+
+Découvrez comment créer et gérer vos campagnes à l&#39;aide de ces nouvelles pages :
+* [Création et configuration de modèles de campagne](../../campaign/using/marketing-campaign-templates.md)
+* [Diffusions de campagnes marketing](../../campaign/using/marketing-campaign-deliveries.md)
+* [Sélectionner l&#39;audience de vos campagnes](../../campaign/using/marketing-campaign-target.md)
+* [Gérer les documents associés](../../campaign/using/marketing-campaign-assets.md)
+* [Configuration et gestion du processus d’approbation](../../campaign/using/marketing-campaign-approval.md)
 
 Des informations ont été ajoutées dans la section **[!UICONTROL activité JavaScript avancée]** sur l&#39;utilisation de la méthode tâche.setCompleted() pour arrêter la tâche et empêcher les rappels ultérieurs. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
