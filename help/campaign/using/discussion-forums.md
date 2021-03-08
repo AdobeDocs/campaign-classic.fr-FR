@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
@@ -95,7 +95,7 @@ Vous pouvez vous abonner à un forum afin d&#39;en suivre les discussions. Une f
 
    ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-   Pour plus d&#39;informations sur le tableau de bord personnel d&#39;un opérateur, consultez [cette section](../../platform/using/access-management.md#operators).
+   Pour plus d&#39;informations sur le tableau de bord personnel d&#39;un opérateur, consultez [cette section](../../platform/using/access-management-operators.md).
 
 * Pour voir qui est abonné à un forum, cliquez sur le lien **[!UICONTROL Liste des abonnés à ce forum de discussion]** au-dessus de la liste des messages.
 
