@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2038'
 ht-degree: 100%
 
 ---
@@ -25,12 +25,12 @@ Adobe Campaign est un outil puissant pour collecter et traiter de très grands v
 
 * Évitez d&#39;envoyer des emails, des notifications push et des messages SMS non sollicités (« spam »). Adobe croit fermement aux principes du consentement (permission marketing) pour fidéliser le client et offrir une valeur ajoutée tout au long de sa durée de vie et interdit donc strictement l&#39;utilisation d&#39;Adobe Campaign pour l&#39;envoi de messages non sollicités.
 
-Prenez le temps de consulter la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) afin de connaître les principaux éléments à vérifier en termes de sécurité et de confidentialité.
+Prenez le temps de consulter la [liste de contrôle de sécurité et de confidentialité](../../installation/using/get-started-security-privacy.md) afin de connaître les principaux éléments à vérifier en termes de sécurité et de confidentialité.
 
 ### Règlements relatifs à la confidentialité {#privacy-regulations}
 
 Pour gérer correctement la confidentialité et les données personnelles, travaillez dans le cadre des législations applicables aux zones géographiques où vous intervenez. Ces règlements comprennent :
-* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_fr) (Règlement général européen sur la protection des données)
+* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Règlement général européen sur la protection des données)
 * [DPA](https://www.gov.uk/data-protection) (mise en œuvre du RGPD au Royaume-Uni)
 * [Directive européenne sur la protection de la vie privée et les communications électroniques](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (loi des États-Unis fixant les règles et les exigences relatives aux emails commerciaux)
