@@ -2,22 +2,22 @@
 solution: Campaign Classic
 product: campaign
 title: Espace de travail Adobe Campaign
-description: Espace de travail Adobe Campaign
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+description: Découvrez comment utiliser et personnaliser l'espace de travail Campaign
+feature: 'Vue d’ensemble '
+role: Ingénieur de données
+level: Début
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: c91d9c39d92779ed0366905a944f065c427b1e5a
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 100%
+source-wordcount: '1293'
+ht-degree: 79%
 
 ---
 
 
 # Espace de travail Adobe Campaign{#adobe-campaign-workspace}
 
-## Explorer l&#39;interface Adobe Campaign {#about-adobe-campaign-interface}
+## Explorer l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
 Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plate-forme.
 
@@ -71,7 +71,7 @@ Pour plus d’informations sur la création d’une instance, consultez cette [p
 
 ## Principes de navigation {#navigation-basics}
 
-### Parcourir les pages {#browsing-pages}
+### Pages de navigation {#browsing-pages}
 
 Les différentes fonctionnalités de la plate-forme sont réparties dans les fonctions principales : utilisez les liens proposés dans le bandeau supérieur de l&#39;interface pour y accéder.
 
@@ -107,19 +107,56 @@ Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTR
 
 ## Utiliser l&#39;explorateur Adobe Campaign {#using-adobe-campaign-explorer}
 
-### A propos de l&#39;explorateur Adobe Campaign {#about-adobe-campaign-explorer}
-
 L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctions d&#39;Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plate-forme.
 
 L&#39;espace de travail **[!UICONTROL Explorateur]** est divisé en trois zones :
 
 ![](assets/s_ncs_user_navigation.png)
 
-**1 - Arborescence** : vous pouvez personnaliser le contenu de l&#39;arborescence (ajouter, déplacer, supprimer des nœuds). Cette opération est réservée à des utilisateurs experts. Pour plus d&#39;informations, consultez [cette page](../../configuration/using/about-navigation-hierarchy.md).
+**1 - Arbre** : vous pouvez personnaliser le contenu de l’arborescence (ajouter, déplacer ou supprimer des noeuds). Cette procédure est destinée aux utilisateurs experts uniquement. Voir à ce propos [cette section](#about-navigation-hierarchy).).
 
-**2 - Liste** : vous pouvez filtrer cette liste, lancer des recherches, ajouter des informations ou trier les données.
+**2 - Liste** : vous pouvez filtrer cette liste, lancer des recherches, ajouter des informations ou trier les données. [En savoir plus](adobe-campaign-ui-lists.md).
 
 **3 - Détails** : vous pouvez afficher le détail de l&#39;élément sélectionné. L&#39;icône située dans la section supérieure droite permet d&#39;afficher ces informations en plein écran.
+
+### Dossiers et arborescence de navigation{#about-navigation-hierarchy}
+
+L&#39;arborescence de navigation fonctionne comme un navigateur de fichiers (par exemple, l&#39;Explorateur Windows). Les dossiers peuvent contenir des sous-dossiers. La sélection d’un noeud affiche la vue correspondante.
+
+La vue affichée est une liste associée à un schéma et à un formulaire de saisie pour l&#39;édition de la ligne sélectionnée.
+
+![](assets/d_ncs_integration_navigation.png)
+
+Pour ajouter un nouveau dossier dans l&#39;arborescence, cliquez avec le bouton droit sur le dossier dans la branche duquel vous souhaitez insérer un dossier et choisissez **[!UICONTROL Ajouter un dossier]**. Dans le menu contextuel, sélectionnez le type de dossier à créer.
+
+![](assets/d_ncs_integration_navigation_create.png)
+
+Découvrez comment configurer l&#39;arborescence de navigation de Campaign [dans cette section](../../configuration/using/configuration.md).
+
+Découvrez comment définir des autorisations sur les dossiers [dans cette section](access-management-folders.md).
+
+### Meilleures pratiques de configuration des dossiers
+
+* **Utiliser des dossiers intégrés**
+
+   L’utilisation des dossiers intégrés facilite l’utilisation, la maintenance et le dépannage de l’application pour les personnes qui ne sont pas impliquées dans le projet. Vous ne devez pas créer de structures de dossiers personnalisées pour les destinataires, les listes, les diffusions, etc., mais utiliser les dossiers standard tels que Administration, Profils et Cibles, Gestion de campagne.
+
+* **Création de sous-dossiers**
+
+   Placez les workflows techniques sous le dossier standard : Administration / Production / Workflows techniques, et créer des sous-répertoires par type de processus.
+
+* **Définir une convention d’affectation de nom**
+
+   Par exemple, vous pouvez nommer les workflows par ordre alphabétique, de sorte qu’ils s’affichent dans l’ordre d’exécution.
+
+   par exemple :
+
+   * A1 - destinataires d&#39;importation, débuts à 10 h ;
+   * A2 - billets d&#39;importation, débuts à 11h00.
+
+* **Créer des modèles pour les utilisateurs avec lesquels début**
+
+   Créez des modèles de diffusion, des modèles de processus, des modèles de campagne spécifiques aux utilisateurs. Cette structure permet de gagner du temps et de s’assurer que le mappage et les typologies de diffusion appropriés sont utilisés pour chaque utilisateur.
 
 ### Résolution d&#39;écran {#screen-resolution}
 
@@ -127,208 +164,15 @@ Pour une navigation et une convivialité optimales, Adobe recommande l&#39;utili
 
 >[!CAUTION]
 >
->Les résolutions inférieures à 1 600x900 pixels peuvent ne pas être prises en charge par Adobe Campaign.
+>Les résolutions inférieures à 1 600 x 900 pixels sont prises en charge par Adobe Campaign.
 
 Dans l&#39;espace de travail de l&#39;**[!UICONTROL Explorateur]**, si certaines parties de la zone **[!UICONTROL Détails]** semblent tronquées, développez-la à l&#39;aide de la flèche située en haut de la zone ou cliquez sur le bouton **[!UICONTROL Agrandir]**.
 
 ![](assets/s_ncs_user_resolution.png)
 
-### Naviguer dans les listes {#browsing-lists}
+### Parcourir et personnaliser les listes {#browsing-lists}
 
-Pour naviguer dans une liste, vous pouvez utiliser **les ascenseurs** (barres de défilement horizontal et vertical) afin de faire défiler la liste sans changer d&#39;enregistrement sélectionné, **la molette de la souris**, ou **les flèches du clavier**.
-
->[!NOTE]
->
->La configuration et la personnalisation du contenu des listes sont présentées dans la section [Configurer les listes](#configuring-lists).
->
->Vous pouvez également trier et filtrer les données. Voir la section [Options de filtrage](../../platform/using/filtering-options.md).
-
-### Compter les enregistrements {#counting-records}
-
-Par défaut, Adobe Campaign charge en mémoire les 200 premiers enregistrements d&#39;une liste. Par conséquent, l&#39;affichage ne propose pas nécessairement l&#39;intégralité des enregistrements de la table dont vous affichez le contenu. Vous pouvez lancer un décompte du nombre d&#39;enregistrements de la liste et déclencher le chargement en mémoire d&#39;enregistrements supplémentaires.
-
-En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique le nombre d&#39;enregistrements chargés en mémoire par rapport au nombre total d&#39;enregistrements dans la base (après application de tous les filtres éventuels) :
-
-![](assets/s_ncs_user_nb_200_0.png)
-
-Si un &quot;**?**&quot; apparaît à la place du nombre de droite, cliquez sur le compteur pour lancer le calcul.
-
-### Charger d&#39;autres enregistrements {#loading-more-records}
-
-Pour charger (et donc afficher) des enregistrements supplémentaires (par défaut, 200 lignes), cliquez sur le bouton **[!UICONTROL Continuer le chargement]**.
-
-![](assets/s_ncs_user_load_list.png)
-
-Si vous souhaitez charger l&#39;intégralité des enregistrements, cliquez dans la liste avec le bouton droit et sélectionnez **[!UICONTROL Tout charger]**.
-
->[!CAUTION]
->
->La durée du chargement de la liste entière peut être longue, selon le nombre d&#39;enregistrements.
-
-### Modifier le nombre d&#39;enregistrements par défaut {#change-default-number-of-records}
-
-Pour modifier le nombre d&#39;enregistrements chargés par défaut, cliquez sur le bouton **[!UICONTROL Configurer la liste]**, en bas à droite de la liste.
-
-![](assets/s_ncs_user_configure_list.png)
-
-Dans la fenêtre de configuration de la liste, cliquez sur le lien &quot;Paramètres avancés&quot; (en bas à gauche) et modifiez le nombre de lignes à récupérer.
-
-![](assets/s_ncs_user_configurelist_advancedparam.png)
-
-## Configurer les listes {#configuring-lists}
-
-### Ajouter des colonnes {#add-columns}
-
-Deux méthodes permettent d&#39;ajouter une colonne à une liste.
-
-Vous pouvez ajouter rapidement une colonne à une liste à partir du détail d’un enregistrement. Pour cela :
-
-1. Depuis un écran de détail, cliquez avec le bouton droit sur le champ à afficher dans une colonne.
-1. Sélectionnez **[!UICONTROL Ajouter dans la liste]**.
-
-   La colonne est ajoutée à droite des colonnes déjà affichées.
-
-![](assets/s_ncs_user_add_in_list.png)
-
-Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher des données qui ne sont pas affichées sur l&#39;écran de détail, consiste à utiliser la fenêtre de configuration de liste. Pour cela :
-
-1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
-
-   ![](assets/s_ncs_user_configure_list.png)
-
-1. Dans la fenêtre de configuration de la liste, double-cliquez parmi les **[!UICONTROL Champs disponibles]** sur le champ à ajouter à la liste afin de l&#39;ajouter aux **[!UICONTROL Colonnes de sortie]**.
-
-   ![](assets/s_ncs_user_configurelist.png)
-
-   >[!NOTE]
-   >
-   >Par défaut, les champs avancés ne sont pas affichés. Pour les afficher, cliquez sur l&#39;icône **Afficher les champs avancés**, située en bas à droite de la liste des champs disponibles.
-   >
-   >Les libellés sont affichés par table puis par ordre alphabétique.
-   >
-   >Pour lancer une recherche dans les champs disponibles, utilisez le champ **Rechercher**. Pour plus d&#39;informations, voir la section [Trier une liste](#sorting-a-list).
-   >
-   >Les champs sont identifiés par des icônes spécifiques : champs SQL, tables liées, champs calculés, etc. Pour chaque champ sélectionné, la description est affichée sous la liste des champs disponibles. [Configurer les listes](#configuring-lists).
-   >
-   >Vous pouvez également trier et filtrer les données. Voir la section [Options de filtrage](../../platform/using/filtering-options.md).
-
-1. Répétez la procédure pour chaque colonne à afficher.
-1. Utilisez les flèches pour modifier l&#39;**ordre d&#39;affichage**. La colonne la plus haute sera la plus à gauche dans la liste des enregistrements.
-
-   ![](assets/s_ncs_user_columns_order_down.png)
-
-1. Au besoin, vous pouvez cliquer sur **[!UICONTROL Répartition des valeurs]** pour visualiser la répartition des valeurs du champ sélectionné dans le dossier courant.
-
-   ![](assets/s_ncs_user_configurelist_values.png)
-
-1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
-
-### Créer une nouvelle colonne {#create-a-new-column}
-
-Vous pouvez créer de nouvelles colonnes pour afficher des champs supplémentaires dans la liste. Pour cela :
-
-1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
-1. Cliquez sur **[!UICONTROL Ajouter]** pour afficher un nouveau champ dans la liste.
-
-### Retirer une colonne {#remove-a-column}
-
-Vous pouvez masquer une ou plusieurs colonnes dans une liste d&#39;enregistrements via le bouton **[!UICONTROL Configurer la liste]** situé en bas à droite de la liste.
-
-![](assets/s_ncs_user_configure_list.png)
-
-Dans la fenêtre de configuration de la liste, sélectionnez la colonne à masquer dans la zone **[!UICONTROL Colonnes de sortie]** et cliquez sur le bouton de suppression.
-
-![](assets/s_ncs_user_removecolumn_icon.png)
-
-Répétez l&#39;opération pour chaque colonne à masquer. Cliquez sur **[!UICONTROL OK]** pour valider la configuration et visualiser le résultat.
-
-### Ajuster la largeur des colonnes {#adjust-column-width}
-
-Lorsque la liste est active, c’est-à-dire lorsqu’au moins une ligne est sélectionnée, la touche F9 permet d’ajuster la largeur des colonnes afin d’afficher toutes les colonnes à l’écran.
-
-### Afficher les enregistrements des sous-dossiers {#display-sub-folders-records}
-
-Les listes peuvent afficher :
-
-* soit les enregistrements contenus dans le dossier sélectionné uniquement,
-* soit les enregistrements du dossier sélectionné ET ceux de ses sous-dossiers.
-
-Pour basculer d&#39;un mode d&#39;affichage à l&#39;autre, cliquer sur l&#39;icône **[!UICONTROL Afficher les fils]** dans la barre d&#39;outils.
-
-![](assets/s_ncs_user_display_children_icon.png)
-
-### Enregistrer une configuration de liste {#saving-a-list-configuration}
-
-La configuration des listes est locale au poste de travail. Lorsque le cache local est vidé, les configurations locales sont désactivées.
-
-Les paramétrages d&#39;affichage définis s&#39;appliquent par défaut à toutes les listes, pour le type de dossier correspondant. Ainsi, lorsque vous modifiez l&#39;affichage de la liste des destinataires à partir d&#39;un dossier, cette configuration sera appliquée à tous les autres dossiers de destinataires.
-
-Toutefois, il est possible d&#39;enregistrer un ou plusieurs paramétrages afin de les appliquer à différents dossiers du même type. Le paramétrage est sauvegardé dans les propriétés du dossier qui contient les données et peut être réappliqué.
-
-Par exemple, pour un dossier de diffusions, il est possible de paramétrer l&#39;affichage suivant :
-
-![](assets/s_ncs_user_folder_save_config_1.png)
-
-Pour enregistrer cette configuration de liste en vue de la réutiliser, procédez comme suit :
-
-1. Cliquez avec le bouton droit sur le dossier contenant les données affichées.
-1. Sélectionnez **[!UICONTROL Propriétés]**.
-1. Cliquez sur **[!UICONTROL Paramètres avancés]** et indiquez un nom dans le champ **[!UICONTROL Configuration]**.
-
-   ![](assets/s_ncs_user_folder_save_config_2.png)
-
-1. Cliquez sur **[!UICONTROL OK]**, puis sur **[!UICONTROL Enregistrer]**.
-
-Vous pouvez ensuite appliquer cette configuration à un autre dossier de type **Diffusions** :
-
-![](assets/s_ncs_user_folder_save_config_3.png)
-
-Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du dossier. L&#39;affichage de la liste est modifié pour correspondre à la configuration indiquée :
-
-![](assets/s_ncs_user_folder_save_config_5.png)
-
-## Exporter une liste {#exporting-a-list}
-
-Pour exporter les données d&#39;une liste, vous devez utiliser l&#39;assistant d&#39;export. Pour y accèder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
-
-L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expliquée dans la section [Imports et exports génériques](../../platform/using/about-generic-imports-exports.md).
-
->[!CAUTION]
->
->Les éléments d&#39;une liste ne doivent pas être exportés via la fonction Copier/Coller.
-
-## Trier une liste {#sorting-a-list}
-
-Les listes peuvent contenir un grand nombre de données. Vous pouvez trier ces données ou appliquer des filtres simples ou avancés. Le tri permet d&#39;afficher les données dans un ordre ascendant ou descendant, tandis que les filtres permettent de définir et de combiner des critères afin de n&#39;afficher qu&#39;une sélection de données.
-
-Cliquez sur l&#39;en-tête de la colonne pour appliquer un tri ascendant, un tri descendant ou annuler le tri des données. Une flèche bleue devant le libellé de la colonne indique qu&#39;un tri est actif et l&#39;ordre du tri. Un tiret rouge devant le libellé de la colonne indique que le tri est appliqué à des données indexées depuis la base de données. Ce mode de tri permet d&#39;optimiser les actions de tri.
-
-Vous pouvez également paramétrer le tri ou combiner les critères de tri. Pour cela, procédez comme suit :
-
-1. Cliquez sur **[!UICONTROL Configurer la liste]** en bas à droite de la liste.
-
-   ![](assets/s_ncs_user_configure_list.png)
-
-1. Dans la fenêtre de configuration de la liste, cliquez sur l&#39;onglet **[!UICONTROL Tris]**.
-1. Sélectionnez les champs à trier et le sens du tri (ascendant/descendant).
-
-   ![](assets/s_ncs_user_configurelist_sort.png)
-
-1. La priorité du tri est définie par l&#39;ordre des colonnes de tri. Pour changer la priorité, modifiez l&#39;ordre des colonnes à partir des icônes correspondantes.
-
-   ![](assets/s_ncs_user_configurelist_move.png)
-
-   La priorité du tri n&#39;a aucune incidence sur l&#39;affichage des colonnes de la liste.
-
-1. Cliquez sur **[!UICONTROL Ok]** pour valider ce paramétrage et visualiser le résultat dans la liste.
-
-### Recherche d&#39;éléments {#running-a-search}
-
-Vous pouvez lancer une recherche parmi les champs disponibles dans un éditeur à partir du champ **[!UICONTROL Rechercher]** situé au-dessus de la liste des champs. Utilisez la touche **Entrée** du clavier pour parcourir la liste : les libellés des champs qui correspondent à votre recherche apparaissent en gras.
-
->[!NOTE]
->
->Vous pouvez créer des filtres pour n&#39;afficher qu&#39;une partie des données d&#39;une liste. Voir la section [Création de filtres](../../platform/using/creating-filters.md).
+Découvrez comment parcourir, gérer et personnaliser les listes [dans cette section](adobe-campaign-ui-lists.md).
 
 ## Formats et unités {#formats-and-units}
 
