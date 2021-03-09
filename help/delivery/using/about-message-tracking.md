@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: e52d1963b72593c5dab8ced9e459d25b05044022
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 12%
@@ -41,7 +41,7 @@ Pour configurer le suivi, votre instance doit être déclarée et enregistrée a
 
 **Enregistrement du tracking**
 
-Une fois le suivi configuré et les URL renseignées, le serveur de suivi doit être enregistré. [En savoir plus](../../installation/using/deploying-an-instance.md#tracking-configuration#saving-tracking)
+Une fois le suivi configuré et les URL renseignées, le serveur de suivi doit être enregistré. [En savoir plus](../../installation/using/deploying-an-instance.md#saving-tracking)
 
 ## Tracking des messages {#message-tracking}
 
@@ -103,7 +103,7 @@ Ce rapport combine les indicateurs clés pour le suivi du comportement des desti
 
 Les différents tableaux indiquent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul selon le type de diffusion. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-## Dépannage du suivi {#tracking-troubleshooting}
+## Résolution des problèmes de tracking {#tracking-troubleshooting}
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
