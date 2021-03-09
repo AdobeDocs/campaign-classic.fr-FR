@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 5871674ee26766cf08439768df3fb07ea0f99e7b
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '682'
 ht-degree: 100%
 
 ---
 
 
-# À propos de la table des destinataires personnalisée{#about-custom-recipient-table}
+# Utiliser une table de destinataires personnalisée{#about-custom-recipient-table}
 
 Cette section présente les principes d&#39;utilisation d&#39;une table de destinataires non standard.
 
