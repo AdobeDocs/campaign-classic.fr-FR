@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 96%
+source-wordcount: '771'
+ht-degree: 90%
 
 ---
 
 
 # Gérer l’accès aux dossiers {#folder-access-management}
 
-A chaque dossier de l&#39;arborescence sont attachées des propriétés d&#39;accès en lecture, écriture et suppression. Pour accéder à un dossier, un opérateur ou un groupe d&#39;opérateurs doit se voir attribuer au minimum un droit en lecture sur celui-ci.
+Chaque dossier de l&#39;arborescence de navigation de l&#39;Explorateur dispose de droits d&#39;accès en lecture, en écriture et en suppression qui lui sont attachés. Pour accéder à un fichier, un opérateur ou un groupe d&#39;utilisateurs doit avoir au moins un accès en lecture.
 
 ## Autorisations sur un dossier
 
@@ -71,7 +71,7 @@ Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds 
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Vous pouvez accorder des permissions sur ces dossiers comme sur tous les autres dossiers de l&#39;arborescence. Voir la section [Gestion de l&#39;accès aux dossiers](#folder-access-management).
+Vous pouvez personnaliser l’arborescence de navigation de l’Explorateur. Découvrez les étapes de configuration et les meilleures pratiques [dans cette section](adobe-campaign-workspace.md).
 
 ### À propos des vues {#about-views}
 
