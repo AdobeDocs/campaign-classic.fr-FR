@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
-workflow-type: ht
-source-wordcount: '1717'
+translation-type: tm+mt
+source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
+workflow-type: tm+mt
+source-wordcount: '1712'
 ht-degree: 100%
 
 ---
@@ -99,7 +99,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <li>iOS</li>
    </ul>
   <p>Si vous utilisez l’un de ces connecteurs, vous devez adapter votre implémentation en conséquence. <a href="../../delivery/using/sms-channel.md">En savoir plus</a></p> 
-  <p>Découvrez comment effectuer la migration des anciens connecteurs dans <a href="https://helpx.adobe.com/fr/campaign/kb/sms-connector.html">cette note technique</a>.</p>
+  <p>Découvrez comment effectuer la migration des anciens connecteurs dans <a href="../../delivery/using/unsupported-connector-migration.md">cette note technique</a>.</p>
   <p><em>Date de suppression prévue : avril 2021</em></p>
   </td> 
  </tr>
