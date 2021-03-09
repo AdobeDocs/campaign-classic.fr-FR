@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
+source-git-commit: 3454af2faffacd43fa1ad852529dad175340a237
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Il existe trois types d’instructions :
 
 Ils peuvent être testés directement à partir de l&#39;assistant de diffusion. Elles s’appliquent dans la prévisualisation de contenu et lorsque vous cliquez sur le bouton de suivi pour afficher la liste des URL.
 
-## &lt;>{#<%@-include}
+## &lt;>{#include}
 
 Les exemples suivants sont parmi les plus couramment utilisés :
 
@@ -43,7 +43,7 @@ Les exemples suivants sont parmi les plus couramment utilisés :
 
 Utilisez le bouton de personnalisation de l’assistant de diffusion pour obtenir la syntaxe correcte.
 
-## &lt;%@ valeur {#<%@-value}
+## &lt;%@ valeur {#value}
 
 Cette instruction donne accès aux paramètres de la diffusion qui sont constants pour tous les destinataires.
 
@@ -62,7 +62,7 @@ L&#39;objet peut être :
 * &quot;diffusion&quot; : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
 * &quot;provider&quot; : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
 * Un objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
-* Élément de la boucle foreach : voir la section [Foreach](#<%@-foreach) ci-dessous.
+* Élément de la boucle foreach : voir la section [Foreach](#foreach) ci-dessous.
 
 ### Objet &quot;diffusion&quot; {#delivery-object}
 
@@ -82,7 +82,7 @@ Pour l&#39;instruction `<%@ value object="delivery" xpath="@myCustomField" %>`, 
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### &lt;>{#<%@-value-in-javascript}
+### &lt;>{#value-in-javascript}
 
 Pour autoriser l&#39;utilisation de la valeur &lt;%@ dans les sections de script, deux objets spéciaux sont remplacés par &lt;% et %> :
 
@@ -96,7 +96,7 @@ par exemple :
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## &lt;>{#<%@-foreach}
+## &lt;>{#foreach}
 
 Cette instruction permet l&#39;itération sur un tableau d&#39;objets chargés dans la diffusion pour suivre les liens individuels liés aux objets.
 
