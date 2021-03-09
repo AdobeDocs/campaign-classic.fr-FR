@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 100%
@@ -70,7 +70,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
    >[!NOTE]
    >
-   >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **navtree**, reportez-vous à [cette page](../../configuration/using/about-navigation-hierarchy.md).
+   >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **navtree**, reportez-vous à [cette page](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy).
 
    Dans le cas de l&#39;exemple actuel, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
 
