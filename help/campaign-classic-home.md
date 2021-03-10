@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
-translation-type: ht
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 832d81c02c590afbe933f9ba63accbc0ba82f180
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 91%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## Nouveautés
+
+* **[Mettez à jour votre ](technotes/ios-certificate-update.md)**<br/> certificat APNsLe 29 mars 2021, une mise à jour APNs aura un impact sur le canal Campaign iOS. Vous devez mettre à jour votre configuration pour éviter toute panne de canal Push sous iOS.
 
 * **[Vous vous connectez via IMS/Adobe ID ? Effectuez une mise à niveau vers les derniers builds](integrations/using/about-adobe-id.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 31 mars 2021 **.
 
@@ -86,7 +88,6 @@ ht-degree: 100%
 | [Notes de mise à jour](/help/rn/using/latest-release.md) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Vidéos pratiques](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr) | [Modèle de données Campaign](configuration/using/about-data-model.md) |
 | [Matrice de compatibilité](rn/using/compatibility-matrix.md) | [JSAPI Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Prise en main de Campaign ](platform/using/about-adobe-campaign-classic.md) | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/acc-implementation.html) |
 | [Upgrade vers la version Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
 | [Fonctionnalités obsolètes](rn/using/deprecated-features.md) | [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) |
 | [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [Directives de supervision](production/using/monitoring-guidelines.md) |
