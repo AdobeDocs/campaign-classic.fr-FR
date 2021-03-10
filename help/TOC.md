@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: f170f554935700161c457bb34bace8c403f4262b
+source-git-commit: de017afc1e5d30b561ed2bb7485756f30ef8778a
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2461'
 ht-degree: 61%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 61%
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
    + [Notes techniques](technotes/technote.md)
+   + [Mise à jour du certificat iOS](technotes/ios-certificate-update.md)
 + Prise en main {#getting-started}
    + Prise en main d&#39;Adobe Campaign {#starting-with-adobe-campaign}
       + [Prise en main d&#39;Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
