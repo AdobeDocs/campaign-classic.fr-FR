@@ -6,10 +6,10 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 87844fae046dff69193d3462c802057499f406ef
+source-git-commit: 248c74485e8e5889ca630c8f60ac2fa085204c51
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 11%
+source-wordcount: '896'
+ht-degree: 16%
 
 ---
 
@@ -69,23 +69,33 @@ Le service d&#39;identification des Adobes (IMS) cessera de prendre en charge le
 
 **Es-tu affecté ?**
 
-Si vous vous connectez à Campaign [par l&#39;intermédiaire d&#39;un Adobe ID](../integrations/using/about-adobe-id.md), par le biais d&#39;un service d&#39;identité d&#39;Adobe (IMS), la mise à niveau vers l&#39;une des nouvelles versions répertoriées ci-dessus est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
+Si vous vous connectez à Campaign [par l&#39;intermédiaire d&#39;un Adobe ID](../integrations/using/about-adobe-id.md), via le service d&#39;identité d&#39;Adobe (IMS), la mise à niveau vers l&#39;une des nouvelles versions répertoriées ci-dessus est obligatoire. Ces versions sont accompagnées d’un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
 
 **Comment mettre à jour ?**
 
 En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà mis à niveau votre ou vos instances vers une version plus récente.
 
-En tant que client sur site/hybride, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier de la nouvelle console client et assurer une transition **transparente avant le 31 mars 2021**.
+En tant que client sur site/hybride, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier de la nouvelle console client et assurer une transition **transparente avant le 30 juin 2021**.
+
+Une fois toutes les instances mises à niveau, la console cliente doit également être mise à niveau vers cette version.
+
+* Découvrez comment accéder à la [distribution logicielle d&#39;Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
+
+* [Découvrez comment installer la console cliente de Campaign](../installation/using/installing-the-client-console.md).
 
 ## Intégration avec les déclencheurs Experience Cloud
 
-Le service d’authentification Auth hérité a atteint la fin de vie, il sera retiré le 30 juin 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
+Le service d’authentification Auth hérité a atteint la fin de vie. Déclenche l&#39;authentification d&#39;intégration, basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline, a été déplacée vers l&#39;Adobe I/O. Il sera retiré le 30 juin 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411).
 
 **Es-tu affecté ?**
 
 Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification Auth, **vous devez passer à Adobe I/O**.
 
 **Comment mettre à jour ?**
+
+Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la procédure [passer au nouveau mode d&#39;authentification](../integrations/using/configuring-adobe-io.md). Pour ce faire, vous devez générer le nouveau jeton d’Adobe I/O et l’utiliser dans l’implémentation.  
+
+En outre, pour les environnements hybrides, les clients doivent s&#39;assurer que pipeline est configuré sur l&#39;instance de mid-sourcing. [En savoir plus](../integrations/using/configuring-pipeline.md).
 
 [Découvrez comment migrer vers Adobe I/O](../integrations/using/configuring-adobe-io.md).
 
@@ -119,4 +129,4 @@ En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà
 
 En tant que client sur site/hybride, vous devez mettre à jour votre configuration pour garantir une transition **transparente avant le 29 mars 2021**.
 
-[Découvrez comment incorporer le nouveau certificat](ios-certificate-update.md)
+[Découvrez comment incorporer le nouveau certificat](ios-certificate-update.md).
