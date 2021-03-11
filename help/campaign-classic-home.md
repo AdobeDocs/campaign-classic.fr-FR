@@ -5,10 +5,10 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 832d81c02c590afbe933f9ba63accbc0ba82f180
+source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 91%
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 * **[Mettez à jour votre ](technotes/ios-certificate-update.md)**<br/> certificat APNsLe 29 mars 2021, une mise à jour APNs aura un impact sur le canal Campaign iOS. Vous devez mettre à jour votre configuration pour éviter toute panne de canal Push sous iOS.
 
-* **[Vous vous connectez via IMS/Adobe ID ? Effectuez une mise à niveau vers les derniers builds](integrations/using/about-adobe-id.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 31 mars 2021 **.
+* **[Vous vous connectez via IMS/Adobe ID ? Mise à niveau vers les dernières versions](integrations/using/about-adobe-id.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter à Campaign après le** 30 juin 2021 **.
 
 * **[Sécurisez vos instances Campaign](https://helpx.adobe.com/fr/campaign/kb/gold-standard-upgrade.html)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign.
 
