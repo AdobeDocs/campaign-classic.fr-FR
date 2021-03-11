@@ -6,9 +6,9 @@ description: En savoir plus sur les mises à niveau de Campaign Classic
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6f6cfe1c1aa0d896fb6400d63b6023a983c6192
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Les **derniers builds en disponibilité générale** ont les versions suivantes�
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Dernière version dotée de nouvelles fonctionnalités.
 
-Le **dernier build RC** est [Campaign Classic 20.3](../../rn/using/latest-release.md)
+Le **dernier build RC** est [Campaign Classic 21.1](../../rn/using/latest-release.md)
 
 ![](assets/do-not-localize/red3.png) **Obsolète**  - Aucun déploiement. Les implémentations existantes doivent être mises à niveau.
 
