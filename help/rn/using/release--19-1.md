@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
+source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '3138'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ _16 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via le service d&#39;identités Adobe (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **31 mars 2021**.
+> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l&#39;intégration Triggers Experience Cloud via l&#39;authentification Auth, vous devez passer à l&#39;Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
 
