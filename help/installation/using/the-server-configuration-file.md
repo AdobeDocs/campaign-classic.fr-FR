@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 2de8261feda6e64a84bd82e9fb71bc1fddf77113
+source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
 workflow-type: tm+mt
-source-wordcount: '7929'
+source-wordcount: '7970'
 ht-degree: 99%
 
 ---
@@ -1690,6 +1690,8 @@ Dans le nœud **cache**, configurez les paramètres suivants. Il s’agit de la 
 ### relay {#relay}
 
 Dans le nœud **mta > relay**, configurez les paramètres suivants. Il s’agit de la configuration pour l’utilisation d’un serveur de mail pour assurer la diffusion des messages.
+
+La liste sera gérée de la même manière qu&#39;une liste de MX renvoyée par une requête DNS MX, généralement la première MX est utilisée tant qu&#39;elle est disponible, puis la suivante est utilisée, et ainsi de suite.
 
 Pour plus d&#39;informations, consultez la section [Relais SMTP](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
