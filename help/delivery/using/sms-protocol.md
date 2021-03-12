@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
+source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
 workflow-type: tm+mt
 source-wordcount: '8458'
 ht-degree: 99%
@@ -483,7 +483,7 @@ La spécification d&#39;un numéro court s&#39;avère utile pour deux fonctionna
 
 * La prévisualisation affiche le numéro court si aucun numéro source n&#39;est fourni. Il reflétera le comportement réel sur le téléphone portable.
 
-* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine de l’utilisateur un code court spécifique.
+* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine l&#39;utilisateur pour un numéro court spécifique.
 
 #### NPI/TON source, NPI/TON destination {#ton-npi}
 
@@ -597,9 +597,9 @@ Lorsque l&#39;option est cochée, la connexion n&#39;est plus sécurisée, elle 
 
 Ceci peut être utile à des fins de débogage ou de test.
 
-Vous pouvez choisir entre trois valeurs différentes pour la validation du certificat :
+Vous pouvez choisir entre trois valeurs différentes pour la validation du certificat :
 
-* Vérification de certification complète (y compris le nom d’hôte), par défaut.
+* Procéder à une vérification complète de la certification (y compris le nom d&#39;hôte), par défaut.
 * Ignorer la vérification du nom d&#39;hôte.
 * Ignorer la vérification du certificat.
 
@@ -713,13 +713,13 @@ Permet d&#39;ajouter un fichier TLV personnalisé. Ce champ définit la partie b
 
 Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
-### Réponse automatique aux MO       {#automatic-reply}
+### Réponse automatique aux MO  {#automatic-reply}
 
 >[!IMPORTANT]
 >
->Dans Adobe Campaign Classic et avec une architecture hybride, l&#39;application d&#39;une réponse automatique pour le connecteur SMPP étendu nécessite l&#39;ajout d&#39;un accès en écriture pour l&#39;opérateur mid sur le dossier **Compte externe**.
+>Dans Adobe Campaign Classic et dans une architecture hybride, l’application de réponse automatique pour le connecteur SMPP étendu nécessite l’ajout d’un accès en écriture pour l’opérateur mid sur le dossier **Compte externe**.
 
-Cette fonctionnalité permet de répondre rapidement au texte à l&#39;opérateur et de gérer l&#39;envoi de code par abrégé à la liste bloquée.
+Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
 
 Les colonnes **Mot-clé** et **Numéro court** définissent les conditions pour déclencher la réponse automatique. Si les deux champs correspondent, le MO est envoyé et l&#39;action supplémentaire est déclenchée. Pour spécifier un caractère de remplacement, vous devez laisser le champ vide. Le mot-clé correspond au premier mot alphanumérique du texte MO, en ignorant la ponctuation et les espaces de début. Cela signifie que le champ **Mot-clé** ne peut pas contenir d&#39;espaces et doit être un seul mot.
 
