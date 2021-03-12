@@ -6,9 +6,9 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: df04057716726a74196add3fbc400fffaca26fc9
+source-git-commit: 26d6e52a03d6123092c811a93612c8d05f75f6fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '905'
 ht-degree: 16%
 
 ---
@@ -30,7 +30,7 @@ Les utilisateurs de Campaign doivent effectuer la mise à niveau vers l’une de
 
 Ces versions assurent la continuité de certains services Campaign : Experience Cloud Déclenche l&#39;intégration, l&#39;authentification APNs et le nouveau protocole de connexion qui affecte le mécanisme d&#39;authentification du service Identity Management d&#39;Adobe (IMS).
 
-En tant que client hébergé, aucune action n’est nécessaire : Adobe est propriétaire des mises à jour de configuration et de mise à niveau de build pour vous.
+En tant que client hébergé, l’Adobe vous informera des mises à niveau de build requises à intervalles réguliers. Vous devez effectuer la mise à niveau conformément aux recommandations pour garantir la conformité.
 
 En tant que client sur site/hybride, vous devez effectuer la mise à niveau vers l’une des versions répertoriées ci-dessus. En outre, vous devez effectuer quelques tâches manuelles pour vous assurer que votre environnement est sûr et prêt pour les modifications à venir à partir d&#39;Adobes ou de systèmes tiers.
 
