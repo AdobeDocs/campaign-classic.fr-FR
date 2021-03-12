@@ -6,9 +6,9 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 26d6e52a03d6123092c811a93612c8d05f75f6fb
+source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '918'
 ht-degree: 16%
 
 ---
@@ -34,6 +34,10 @@ En tant que client hébergé, l’Adobe vous informera des mises à niveau de bu
 
 En tant que client sur site/hybride, vous devez effectuer la mise à niveau vers l’une des versions répertoriées ci-dessus. En outre, vous devez effectuer quelques tâches manuelles pour vous assurer que votre environnement est sûr et prêt pour les modifications à venir à partir d&#39;Adobes ou de systèmes tiers.
 
+>[!NOTE]
+>
+>Pour toute question sur ces modifications, contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 ## Mises à jour de sécurité
 
 Les dernières versions de Campaign sont fournies avec un correctif de sécurité qui renforce la protection contre les problèmes de usurpation de requête côté serveur (SSRF). En savoir plus [dans cette page](https://helpx.adobe.com/security/products/campaign/apsb21-04.html).
@@ -48,7 +52,7 @@ Vous devez effectuer la mise à niveau vers l’une des nouvelles versions répe
 
 * En tant que client hybride, l’Adobe mettra à niveau l’instance de midsourcing vers la nouvelle version et il est fortement recommandé de mettre à niveau son instance de marketing également.
 
-   La nouvelle version est compatible avec au moins la version 17.9 de Campaign Classic, mais pour éviter tout problème de sécurité, l’Adobe recommande vivement de mettre à niveau toutes les instances vers une nouvelle version. 
+   La nouvelle version est compatible avec au moins la version 17.9 de Campaign Classic, mais pour éviter tout problème de sécurité, Adobe recommande vivement de mettre à niveau toutes les instances vers une nouvelle version. 
 
 * En tant que client sur site, vous êtes invité à mettre à niveau les instances de marketing et de midsourcing vers une version plus récente.
 
