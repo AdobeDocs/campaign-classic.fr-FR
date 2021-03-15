@@ -6,10 +6,10 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: c9e3d12f8975b2c87f6f4aaf306fae71803786ad
+source-git-commit: 1a7ec4899bc0fab3935c25918c586a20afb88d1a
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 16%
+source-wordcount: '974'
+ht-degree: 12%
 
 ---
 
@@ -63,22 +63,21 @@ Vous devez effectuer la mise à niveau vers l’une des nouvelles versions répe
 
 ## Mise à jour de la console client Campaign
 
-La dernière version de Gold Standard 11 corrige une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. La mise à niveau de la console est obligatoire.
+La dernière version de Gold Standard 11 corrige une régression qui empêchait l&#39;utilisation de certains composants de la Console de contrôle, tels que le sélecteur de date et la gestion des images dans les diffusions. La mise à niveau de la console est obligatoire.
 
 [En savoir plus](../rn/using/gold-standard.md).
 
-
 >[!NOTE]
 >
->Les mises à jour des autres versions seront bientôt disponibles.
+>La nouvelle console client pour les autres versions sera bientôt disponible.
 
 ## Connexion à Campaign via IMS
 
-Le service d&#39;identification des Adobes (IMS) cessera de prendre en charge les anciennes versions d&#39;Internet Explorer à compter du 30 juin 2021. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). La console Campaign a été mise à jour pour assurer sa compatibilité avec IMS.
+Le service d&#39;identité d&#39;Adobe (IMS) cessera de prendre en charge les anciennes versions d&#39;Internet Explorer à compter du **30 juin 2021**. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html). Campaign Client Console a été mis à jour pour assurer la compatibilité avec l&#39;Adobe IMS.
 
 **Es-tu affecté ?**
 
-Si vous vous connectez à Campaign [par l&#39;intermédiaire d&#39;un Adobe ID](../integrations/using/about-adobe-id.md), via le service d&#39;identité d&#39;Adobe (IMS), la mise à niveau vers l&#39;une des nouvelles versions répertoriées ci-dessus est obligatoire. Ces versions sont accompagnées d’un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
+Si vous vous connectez à Campaign [par l&#39;intermédiaire d&#39;un Adobe ID](../integrations/using/about-adobe-id.md), via le service d&#39;identité d&#39;Adobe (IMS), la mise à niveau vers l&#39;une des nouvelles versions répertoriées ci-dessus est obligatoire. Ces versions sont accompagnées d’un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et Client Console puissent se connecter à Campaign après le **30 juin 2021**.
 
 **Comment mettre à jour ?**
 
@@ -86,11 +85,11 @@ En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà
 
 En tant que client sur site/hybride, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier de la nouvelle console client et assurer une transition **transparente avant le 30 juin 2021**.
 
-Une fois toutes les instances mises à niveau, la console cliente doit également être mise à niveau vers cette version.
+Une fois toutes les instances mises à niveau, la console client doit également être mise à niveau vers cette version.
 
 * Découvrez comment accéder à la [distribution logicielle d&#39;Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
-* [Découvrez comment installer la console cliente de Campaign](../installation/using/installing-the-client-console.md).
+* [Découvrez comment installer la console](../installation/using/installing-the-client-console.md) client Campaign.
 
 ## Intégration avec les déclencheurs Experience Cloud
 
@@ -110,7 +109,7 @@ En outre, pour les environnements hybrides, les clients doivent s&#39;assurer qu
 
 ## API du fournisseur APN basé sur HTTP/2
 
-Le service Apple Push Notification (APNs) ne prendra plus en charge l&#39;ancien protocole binaire à compter du 31 mars 2021. [En savoir plus](https://developer.apple.com/news/?id=c88acm2b).
+Le service de notifications Push Apple (APN) ne prendra plus en charge le protocole binaire hérité à compter du **31 mars 2021**. [En savoir plus](https://developer.apple.com/news/?id=c88acm2b).
 
 **Est-ce que tu es affecté ?**
 
@@ -128,14 +127,22 @@ Le 29 mars 2021, une mise à jour de l’infrastructure du service de notificati
 
 Pour en savoir plus sur les modifications des APN [dans cette page](https://developer.apple.com/news/?id=7gx0a2lp).
 
-**Es-tu affecté ?**
+**Êtes-vous affectées ?**
 
-Si vous utilisez Campaign pour envoyer des notifications Push sur des appareils iOS, vous êtes affecté.
+Si vous utilisez Campaign pour envoyer des notifications Push sur des appareils iOS, vous êtes concerné.
 
 **Comment mettre à jour ?**
 
 En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà incorporé le nouveau certificat racine à votre environnement.
 
-En tant que client sur site/hybride, vous devez mettre à jour votre configuration pour garantir une transition **transparente avant le 29 mars 2021**.
+En tant que client local/hybride, vous devez mettre à jour votre configuration pour garantir une transition transparente **avant le 29 mars 2021**.
 
 [Découvrez comment incorporer le nouveau certificat](ios-certificate-update.md).
+
+
+## Liens utiles
+
+* [Mise à niveau de votre environnement](../production/using/build-upgrade.md)
+* [FAQ sur l&#39;upgrade de build](../platform/using/faq-build-upgrade.md)
+* [Télécharger version Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
+* [Mettre la nouvelle console Client à la disposition des utilisateurs](../installation/using/client-console-availability-for-windows.md)
