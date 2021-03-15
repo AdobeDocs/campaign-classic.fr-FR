@@ -6,9 +6,9 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
+source-git-commit: c9e3d12f8975b2c87f6f4aaf306fae71803786ad
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '941'
 ht-degree: 16%
 
 ---
@@ -44,7 +44,7 @@ Les dernières versions de Campaign sont fournies avec un correctif de sécurit�
 
 **Es-tu affecté ?**
 
-Si votre environnement utilise une version inférieure à Campaign 21.1, vous êtes affecté.
+Si votre environnement utilise une version inférieure à Campaign 19.1.8, 19.2.4, 20.1.4, 20.2.4, 20.3.3 ou Gold Standard 11, vous êtes affecté.
 
 **Comment mettre à jour ?**
 
@@ -66,6 +66,11 @@ Vous devez effectuer la mise à niveau vers l’une des nouvelles versions répe
 La dernière version de Gold Standard 11 corrige une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. La mise à niveau de la console est obligatoire.
 
 [En savoir plus](../rn/using/gold-standard.md).
+
+
+>[!NOTE]
+>
+>Les mises à jour des autres versions seront bientôt disponibles.
 
 ## Connexion à Campaign via IMS
 
@@ -93,7 +98,7 @@ Le service d’authentification Auth hérité a atteint la fin de vie. Déclench
 
 **Es-tu affecté ?**
 
-Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification Auth, **vous devez passer à Adobe I/O**.
+Si votre environnement utilise une version inférieure à Campaign 19.1.8, 20.2.4, Gold Standard 11, vous utilisez une version plus ancienne de l’intégration Triggers par le biais de l’authentification Auth : **vous devez passer à l&#39;Adobe I/O**.
 
 **Comment mettre à jour ?**
 
