@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
+source-git-commit: 8aab4bc23d688aa225cfc636936cf2835840e410
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 74%
+ht-degree: 65%
 
 ---
 
@@ -24,8 +24,8 @@ Elles ne s&#39;appliquent que dans le contexte du contenu de la diffusion. C’e
 Il existe trois types d’instructions :
 
 * **[!DNL include]**: principalement pour adapter certains codes dans des options, des blocs de personnalisation, des fichiers externes ou des pages. [En savoir plus](#include)
-* &quot;**[!DNL value]**&quot; : pour donner accès aux champs de la diffusion, aux variables de diffusion et aux objets personnalisés chargés dans la diffusion. [En savoir plus](#value)
-* &quot;**[!DNL foreach]**&quot; : pour exécuter en boucle un tableau chargé en tant qu’objet personnalisé. [En savoir plus](#foreach)
+* **[!DNL value]**: pour donner accès aux champs de la diffusion, aux variables de diffusion et aux objets personnalisés chargés dans la diffusion. [En savoir plus](#value)
+* **[!DNL foreach]**: pour placer en boucle un tableau chargé en tant qu’objet personnalisé. [En savoir plus](#foreach)
 
 Elles peuvent être testées directement à partir de l&#39;assistant de diffusion. Elles s’appliquent dans la prévisualisation du contenu et lorsque vous cliquez sur le bouton de tracking pour afficher la liste des URL.
 
@@ -75,8 +75,8 @@ Où :
 
 * **[!DNL object]**: nom de l’objet (exemple : diffusion, fournisseur, etc.).
 L&#39;objet peut être :
-   * &quot;delivery&quot; : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
-   * &quot;provider&quot; : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
+   * **[!DNL delivery]**: pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
+   * **[!DNL provider]**: pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
    * Objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
    * Élément de la boucle foreach : voir la section [Foreach](#foreach) ci-dessous.
 * **[!DNL xpath]**: xpath du champ.
@@ -101,22 +101,28 @@ Pour la personnalisation de l&#39;email, l’objet de diffusion est accessible d
    ```
 
 
->[!NOTE]
->
->* Pour l&#39;instruction `<%@ value object="delivery" xpath="@myCustomField" %>`, il existe une autre limite pour les diffusions envoyées par mid-sourcing. Le champ personnalisé @myCustomField doit être ajouté au schéma nms:diffusion sur les plateformes marketing et de mid-sourcing.
-   >
-   >
-* Pour les variables/paramètres de diffusion, utilisez la syntaxe suivante (à l’aide de l’objet &quot;delivery&quot;) :
->
->
-`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+**Attention**
+
+Si vous utilisez les instructions suivantes pour les diffusions envoyées par midsourcing, le champ personnalisé **@myCustomField** doit être ajouté au schéma nms:diffusion sur les plateformes marketing et midsourcing :
+
+```
+<%@ value object="delivery" xpath="@myCustomField" %>
+```
+
+Pour les variables/paramètres de diffusion, utilisez la syntaxe suivante (à l’aide de l’objet &quot;delivery&quot;) :
+
+```
+<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>
+```
 
 ### [!DNL value] dans une section Javascript  {#value-in-javascript}
 
 Pour autoriser l&#39;utilisation de la valeur &lt;%@ dans les sections JavaScript, deux objets spéciaux sont remplacés par &lt;% et %> :
 
-* `<%@ value object='startScript' %>`
-* `<%@ value object='endScript' %>`
+```
+<%@ value object='startScript' %>
+<%@ value object='endScript' %>
+```
 
 Par exemple :
 
