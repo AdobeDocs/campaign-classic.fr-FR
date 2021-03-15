@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '782'
 ht-degree: 52%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign propose un ensemble d’outils pour vous aider à respecter la vi
 
 Consultez [cette page](../../platform/using/privacy-management.md) pour obtenir des informations générales sur la gestion de la confidentialité et les étapes de mise en oeuvre en Adobe Campaign. Vous trouverez également des bonnes pratiques, ainsi qu’une vue d&#39;ensemble du processus utilisateur et des acteurs impliqués.
 
-## Personnalisation des URL
+## Personnalisation des URL {#url-personalization}
 
 Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours toute personnalisation dans la partie nom d’hôte de l’URL afin d’éviter des failles de sécurité potentielles. Les exemples suivants ne doivent jamais être utilisés dans tous les attributs d’URL &quot;a0/> ou `<img src="">` :`a href="">`
 
@@ -57,7 +57,7 @@ Pour améliorer la sécurité, un nouveau mécanisme de signature pour le suivi 
 >
 >Lorsqu’un utilisateur clique sur une URL signée incorrecte, l’erreur suivante est renvoyée : « L’URL &quot;...&quot; demandée est introuvable. »
 
-En outre, les clients hébergés et hybrides sur la version 19.1.4 (9032@3a9dc9c et 9032@800be2e) et sur Campaign 20.2 peuvent utiliser une amélioration pour désactiver les URL générées à partir des versions précédentes. Par défaut, cette option est désactivée. Vous pouvez contacter le [service d’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonction.
+En outre, à compter de la version Campaign 20.2 et de la version Gold Standard, les clients hébergés et hybrides peuvent utiliser une amélioration pour désactiver les URL générées à partir des versions précédentes. Par défaut, cette option est désactivée. Vous pouvez contacter le [service d’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonction.
 
 Pour activer ce nouveau mécanisme, les clients on-premise doivent suivre la procédure suivante sur tous les serveurs Campaign :
 
@@ -65,7 +65,7 @@ Pour activer ce nouveau mécanisme, les clients on-premise doivent suivre la pro
 1. Redémarrez le service **nlserver** .
 1. Sur le serveur de suivi, redémarrez le serveur web (apache2 sur Debian, httpd sur CentOS/RedHat, IIS sur Windows).
 
-Les clients qui s’exécutent sur la version 19.1.4 (9032@3a9dc9c) peuvent rencontrer des problèmes avec les diffusions de notification Push à l’aide du lien de suivi ou des diffusions à l’aide de balises d’ancrage. Si tel est le cas, l’Adobe recommande de désactiver le nouveau mécanisme de signature pour le suivi des liens :
+Les clients qui s’exécutent sur Gold Standard 19.1.4 peuvent rencontrer des problèmes avec les diffusions de notification Push à l’aide d’un lien de suivi ou de diffusions à l’aide de balises d’ancrage. Si tel est le cas, l’Adobe recommande de désactiver le nouveau mécanisme de signature pour le suivi des liens :
 
 **Les** clients hébergés et hybrides doivent contacter  [Customer ](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Career pour que ce mécanisme soit désactivé.
 
