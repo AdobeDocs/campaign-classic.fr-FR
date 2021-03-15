@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 85%
+source-wordcount: '642'
+ht-degree: 74%
 
 ---
 
@@ -23,9 +23,9 @@ Elles ne s&#39;appliquent que dans le contexte du contenu de la diffusion. C’e
 
 Il existe trois types d’instructions :
 
-* &quot;**include**&quot; : principalement pour factoriser du code dans des options, des blocs de personnalisation, des fichiers externes ou des pages
-* &quot;**value**&quot; : pour donner accès aux champs de la diffusion, aux variables de diffusion et aux objets personnalisés chargés dans la diffusion.
-* &quot;**foreach**&quot; : pour exécuter en boucle un tableau chargé en tant qu’objet personnalisé.
+* **[!DNL include]**: principalement pour adapter certains codes dans des options, des blocs de personnalisation, des fichiers externes ou des pages. [En savoir plus](#include)
+* &quot;**[!DNL value]**&quot; : pour donner accès aux champs de la diffusion, aux variables de diffusion et aux objets personnalisés chargés dans la diffusion. [En savoir plus](#value)
+* &quot;**[!DNL foreach]**&quot; : pour exécuter en boucle un tableau chargé en tant qu’objet personnalisé. [En savoir plus](#foreach)
 
 Elles peuvent être testées directement à partir de l&#39;assistant de diffusion. Elles s’appliquent dans la prévisualisation du contenu et lorsque vous cliquez sur le bouton de tracking pour afficher la liste des URL.
 
@@ -33,15 +33,33 @@ Elles peuvent être testées directement à partir de l&#39;assistant de diffusi
 
 Les exemples suivants sont parmi les plus couramment utilisés :
 
-* Inclusion du lien de la page miroir : `<%@ include view="MirrorPage" %>`
-* URL de la page miroir : « Afficher en tant que `<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`
-* URL de désabonnement d’usine : `<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
-* Autres exemples :
-   * `<%@ include file='http://www.google.com' %>`
-   * `<%@ include file='file:///X:/france/service/test.html' %>`
-   * `<%@ include option='NmsServer_URL' %>`
+* Inclusion du lien de la page miroir : 
 
-Utilisez le bouton de personnalisation de l’assistant de diffusion pour obtenir la syntaxe correcte.
+   ```
+   <%@ include view="MirrorPage" %>  
+   ```
+
+* URL de la page miroir:
+
+   ```
+   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+   ```
+
+* URL de désabonnement d’usine : 
+
+   ```
+   <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+   ```
+
+* Autres exemples :
+
+   ```
+   <%@ include file='http://www.google.com' %>
+   <%@ include file='file:///X:/france/service/test.html' %>
+   <%@ include option='NmsServer_URL' %>
+   ```
+
+   Utilisez le bouton de personnalisation de l’assistant de diffusion pour obtenir la syntaxe correcte.
 
 ## [!DNL value] {#value}
 
@@ -49,7 +67,9 @@ Cette instruction donne accès aux paramètres de la diffusion qui sont constant
 
 Syntaxe :
 
-`<%@ value object="myObject" xpath="@myField" index="1" %>`
+```
+<%@ value object="myObject" xpath="@myField" index="1" %>
+```
 
 Où :
 
@@ -66,19 +86,30 @@ L&#39;objet peut être :
 
 Pour la personnalisation de l&#39;email, l’objet de diffusion est accessible de deux manières différentes :
 
-* Dans JavaScript. Par exemple : `<%= delivery.myField %>`.
+* Utilisation de JavaScript :
+
+   ```
+   <%= delivery.myField %>`.
+   ```
 
    Dans la diffusion d’objets JavaScript, les champs personnalisés ne sont pas pris en charge. Ils fonctionnent dans la prévisualisation, mais pas dans le MTA parce que celui-ci ne peut accéder qu&#39;au schéma de diffusion d’usine.
 
-* Par le biais du pré-traitement `<%@ value object="delivery"`.
+* Utilisation d’un prétraitement :
 
-Pour l&#39;instruction `<%@ value object="delivery" xpath="@myCustomField" %>`, il existe une autre limite pour les diffusions envoyées par mid-sourcing. Le champ personnalisé @myCustomField doit être ajouté au schéma nms:diffusion sur les plateformes marketing et de mid-sourcing.
+   ```
+   <%@ value object="delivery"
+   ```
+
 
 >[!NOTE]
 >
->Pour les variables/paramètres de diffusion, utilisez la syntaxe suivante (à l’aide de l’objet &quot;delivery&quot;) :
+>* Pour l&#39;instruction `<%@ value object="delivery" xpath="@myCustomField" %>`, il existe une autre limite pour les diffusions envoyées par mid-sourcing. Le champ personnalisé @myCustomField doit être ajouté au schéma nms:diffusion sur les plateformes marketing et de mid-sourcing.
+   >
+   >
+* Pour les variables/paramètres de diffusion, utilisez la syntaxe suivante (à l’aide de l’objet &quot;delivery&quot;) :
 >
->`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+>
+`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
 ### [!DNL value] dans une section Javascript  {#value-in-javascript}
 
@@ -100,14 +131,16 @@ Cette instruction permet une itération sur un tableau d&#39;objets chargés dan
 
 Syntaxe :
 
-`<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>`
+```
+<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
+```
 
 Où :
 
-* &quot;object&quot; : nom de l’objet où commencer, généralement un objet de script supplémentaire, mais il peut s’agir d’une diffusion.
-* &quot;xpath&quot; (facultatif) : xpath de la collection à exécuter en boucle. La valeur par défaut est &quot;.&quot;, ce qui signifie que l&#39;objet est le tableau à exécuter en boucle.
-* &quot;index&quot; (facultatif) : si xpath n&#39;est pas &quot;.&quot; et l&#39;objet est un tableau lui-même, index d&#39;élément de l&#39;objet (démarre à 0).
-* &quot;item&quot; (facultatif) : nom d&#39;un nouvel objet accessible avec &lt;%@ value dans la boucle foreach. Par défaut le nom du lien dans le schéma.
+* **[!DNL object]**: nom de l’objet à partir duquel le début doit être effectué, généralement un objet de script supplémentaire, mais il peut s’agir d’une diffusion.
+* **[!DNL xpath]** (facultatif) : xpath de la collection à mettre en boucle. La valeur par défaut est &quot;.&quot;, ce qui signifie que l&#39;objet est le tableau à exécuter en boucle.
+* **[!DNL index]** (facultatif) : si xpath n&#39;est pas &quot;&quot;. et l&#39;objet est un tableau lui-même, index d&#39;élément de l&#39;objet (démarre à 0).
+* **[!DNL item]** (facultatif) : nom d’un nouvel objet accessible avec  &lt;> Par défaut le nom du lien dans le schéma.
 
 Exemple :
 
