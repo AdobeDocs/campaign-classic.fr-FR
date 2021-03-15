@@ -1,121 +1,119 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Instructions de prétraitement pour les URL suivies
-description: En savoir plus sur les instructions de prétraitement à utiliser pour script l’URL d’un courrier électronique et pour le suivi.
+title: Instructions de pré-traitement pour les URL trackées
+description: Découvrez les instructions de pré-traitement à utiliser pour écrire le script de l’URL d’un email et qu'elle soit toujours trackée.
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 3454af2faffacd43fa1ad852529dad175340a237
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 1%
+source-wordcount: '647'
+ht-degree: 85%
 
 ---
 
 
-# Instructions de prétraitement {#pre-processing-instructions}
+# Instructions de pré-traitement {#pre-processing-instructions}
 
-Les instructions &lt;%@ ne sont pas JavaScript, cette syntaxe est propre à Adobe Campaign.
+Vous pouvez utiliser une syntaxe spécifique dans le contenu de la diffusion pour ajouter des instructions et créer un script pour l’URL du courrier électronique suivi. Les instructions &lt;%@ ne sont pas JavaScript : cette syntaxe est spécifique à Adobe Campaign.
 
-Elles ne s&#39;appliquent que dans le contexte du contenu de la diffusion. Il s’agit du seul moyen de script de l’URL d’un courrier électronique et de le suivre (en plus des paramètres d’URL). Ils peuvent être vus comme une copie/collage automatique appliquée pendant l’analyse de diffusion avant de détecter les liens à suivre.
+Elles ne s&#39;appliquent que dans le contexte du contenu de la diffusion. C’est la seule méthode pour écrire le script de l’URL d’un email et qu’elle soit encore trackée (en plus des paramètres d’URL). Elles peuvent être vues comme un copié/collé automatique appliqué pendant l’analyse de la diffusion avant la détection des liens à tracker.
 
-Il existe trois types d’instructions :
+Il existe trois types d’instructions :
 
-* &quot;**include**&quot; : principalement pour faciliter certains codes dans des options, des blocs de personnalisation, des fichiers externes ou des pages
-* &quot;**value**&quot; : pour donner accès aux champs de la diffusion, aux variables de diffusion et aux objets personnalisés chargés dans la diffusion
-* &quot;**foreach**&quot; : pour placer en boucle un tableau chargé en tant qu’objet personnalisé.
+* &quot;**include**&quot; : principalement pour factoriser du code dans des options, des blocs de personnalisation, des fichiers externes ou des pages
+* &quot;**value**&quot; : pour donner accès aux champs de la diffusion, aux variables de diffusion et aux objets personnalisés chargés dans la diffusion.
+* &quot;**foreach**&quot; : pour exécuter en boucle un tableau chargé en tant qu’objet personnalisé.
 
-Ils peuvent être testés directement à partir de l&#39;assistant de diffusion. Elles s’appliquent dans la prévisualisation de contenu et lorsque vous cliquez sur le bouton de suivi pour afficher la liste des URL.
+Elles peuvent être testées directement à partir de l&#39;assistant de diffusion. Elles s’appliquent dans la prévisualisation du contenu et lorsque vous cliquez sur le bouton de tracking pour afficher la liste des URL.
 
-## &lt;>{#include}
+## [!DNL include] {#include}
 
-Les exemples suivants sont parmi les plus couramment utilisés :
+Les exemples suivants sont parmi les plus couramment utilisés :
 
-* Inclusion du lien de la page miroir : `<%@ include view="MirrorPage" %>`
-* URL de la page miroir : &quot;Vue en tant que `<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`
-* URL de désinscription prête à l&#39;emploi : `<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
-* Autres exemples :
+* Inclusion du lien de la page miroir : `<%@ include view="MirrorPage" %>`
+* URL de la page miroir : « Afficher en tant que `<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`
+* URL de désabonnement d’usine : `<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
+* Autres exemples :
    * `<%@ include file='http://www.google.com' %>`
    * `<%@ include file='file:///X:/france/service/test.html' %>`
    * `<%@ include option='NmsServer_URL' %>`
 
 Utilisez le bouton de personnalisation de l’assistant de diffusion pour obtenir la syntaxe correcte.
 
-## &lt;%@ valeur {#value}
+## [!DNL value] {#value}
 
 Cette instruction donne accès aux paramètres de la diffusion qui sont constants pour tous les destinataires.
 
-Syntaxe:
+Syntaxe :
 
 `<%@ value object="myObject" xpath="@myField" index="1" %>`
 
-Où :
+Où :
 
-* &quot;object&quot; : nom de l’objet (exemple : diffusion, fournisseur, etc.).
-* &quot;xpath&quot; : xpath du champ.
-* &quot;index&quot; (facultatif) : si &quot;object&quot; est un tableau (pour les objets de script supplémentaires), index d&#39;élément dans le tableau (Débuts à 0).
+* **[!DNL object]**: nom de l’objet (exemple : diffusion, fournisseur, etc.).
+L&#39;objet peut être :
+   * &quot;delivery&quot; : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
+   * &quot;provider&quot; : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
+   * Objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
+   * Élément de la boucle foreach : voir la section [Foreach](#foreach) ci-dessous.
+* **[!DNL xpath]**: xpath du champ.
+* **[!DNL index]** (facultatif) : s&#39; **[!DNL object]** il s&#39;agit d&#39;un tableau (pour les objets de script supplémentaires), index d&#39;élément dans le tableau (Débuts à 0).
 
-L&#39;objet peut être :
+### [!DNL delivery] objet {#delivery-object}
 
-* &quot;diffusion&quot; : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
-* &quot;provider&quot; : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
-* Un objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
-* Élément de la boucle foreach : voir la section [Foreach](#foreach) ci-dessous.
+Pour la personnalisation de l&#39;email, l’objet de diffusion est accessible de deux manières différentes :
 
-### Objet &quot;diffusion&quot; {#delivery-object}
+* Dans JavaScript. Par exemple : `<%= delivery.myField %>`.
 
-Pour la personnalisation du courrier électronique, l’objet de diffusion est accessible de deux manières :
+   Dans la diffusion d’objets JavaScript, les champs personnalisés ne sont pas pris en charge. Ils fonctionnent dans la prévisualisation, mais pas dans le MTA parce que celui-ci ne peut accéder qu&#39;au schéma de diffusion d’usine.
 
-* Dans JavaScript. Par exemple: `<%= delivery.myField %>`.
+* Par le biais du pré-traitement `<%@ value object="delivery"`.
 
-   Dans la diffusion d’objets JavaScript, les champs personnalisés ne sont pas pris en charge. Ils travaillent dans la prévisualisation, mais pas dans la MTA parce que la MTA ne peut accéder qu&#39;au schéma de diffusion prêt à l&#39;emploi.
-
-* Par le biais du prétraitement `<%@ value object="delivery"`.
-
-Pour l&#39;instruction `<%@ value object="delivery" xpath="@myCustomField" %>`, il existe une autre limite pour les diffusions envoyées par midsourcing. Le champ personnalisé @myCustomField doit être ajouté au schéma nms:diffusion sur les plateformes marketing et de midsourcing.
+Pour l&#39;instruction `<%@ value object="delivery" xpath="@myCustomField" %>`, il existe une autre limite pour les diffusions envoyées par mid-sourcing. Le champ personnalisé @myCustomField doit être ajouté au schéma nms:diffusion sur les plateformes marketing et de mid-sourcing.
 
 >[!NOTE]
 >
->Pour les paramètres/variables de diffusion, utilisez la syntaxe suivante (à l’aide de l’objet diffusion) :
+>Pour les variables/paramètres de diffusion, utilisez la syntaxe suivante (à l’aide de l’objet &quot;delivery&quot;) :
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### &lt;>{#value-in-javascript}
+### [!DNL value] dans une section Javascript  {#value-in-javascript}
 
-Pour autoriser l&#39;utilisation de la valeur &lt;%@ dans les sections de script, deux objets spéciaux sont remplacés par &lt;% et %> :
+Pour autoriser l&#39;utilisation de la valeur &lt;%@ dans les sections JavaScript, deux objets spéciaux sont remplacés par &lt;% et %> :
 
 * `<%@ value object='startScript' %>`
 * `<%@ value object='endScript' %>`
 
-par exemple :
+Par exemple :
 
 ```
 <%@ value object='startScript' %> var iMode = <%@ value object="delivery" xpath="@deliveryMode" %> if(iMode == 1) { ... } else { ... }`
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## &lt;>{#foreach}
+## [!DNL foreach] {#foreach}
 
-Cette instruction permet l&#39;itération sur un tableau d&#39;objets chargés dans la diffusion pour suivre les liens individuels liés aux objets.
+Cette instruction permet une itération sur un tableau d&#39;objets chargés dans la diffusion pour tracker les liens individuels associés aux objets.
 
-Syntaxe:
+Syntaxe :
 
 `<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>`
 
-Où :
+Où :
 
-* &quot;object&quot; : nom de l’objet à partir duquel le début doit être effectué, généralement un objet de script supplémentaire, mais il peut s’agir d’une diffusion.
-* &quot;xpath&quot; (facultatif) : xpath de la collection à mettre en boucle. La valeur par défaut est &quot;.&quot;, ce qui signifie que l&#39;objet est le tableau sur lequel la boucle doit être activée.
-* &quot;index&quot; (facultatif) : si xpath n&#39;est pas &quot;&quot;. et object est un tableau lui-même, index d&#39;élément de l&#39;objet (débuts à 0).
-* &quot;item&quot; (facultatif) : nom d&#39;un nouvel objet accessible avec la valeur &lt;%@ dans la boucle foreach. Valeur par défaut du nom du lien dans le schéma.
+* &quot;object&quot; : nom de l’objet où commencer, généralement un objet de script supplémentaire, mais il peut s’agir d’une diffusion.
+* &quot;xpath&quot; (facultatif) : xpath de la collection à exécuter en boucle. La valeur par défaut est &quot;.&quot;, ce qui signifie que l&#39;objet est le tableau à exécuter en boucle.
+* &quot;index&quot; (facultatif) : si xpath n&#39;est pas &quot;.&quot; et l&#39;objet est un tableau lui-même, index d&#39;élément de l&#39;objet (démarre à 0).
+* &quot;item&quot; (facultatif) : nom d&#39;un nouvel objet accessible avec &lt;%@ value dans la boucle foreach. Par défaut le nom du lien dans le schéma.
 
 Exemple :
 
-Dans les propriétés/personnalisation de la diffusion, chargez un tableau d’articles et un tableau de relations entre le destinataire et les articles.
+Dans les propriétés/personnalisation de la diffusion, chargez un tableau d’articles et une table de relations entre le destinataire et les articles.
 
-L’affichage de liens vers ces articles peut se faire simplement avec un script JavaScript comme suit :
+L’affichage de liens vers ces articles peut se faire simplement avec un script JavaScript comme suit :
 
 ```
 <%
@@ -126,12 +124,12 @@ L’affichage de liens vers ces articles peut se faire simplement avec un script
 %>
 ```
 
-Avec cette solution, les liens vers tous les articles sont suivis sans distinction. Vous pouvez savoir qu’un destinataire a cliqué sur un lien d’article, mais vous ne pouvez pas savoir quel article.
+Avec cette solution, les liens vers tous les articles sont trackés sans distinction. Vous pouvez déterminer qu’un destinataire a cliqué sur un lien d’article, mais vous ne pouvez pas savoir quel article.
 
-La solution consiste à :
+La solution consiste à :
 
-1. Préchargez tous les articles possibles dans un tableau de script supplémentaire de la diffusion - articleList[] - ce qui signifie qu’il doit y avoir un nombre fini d’articles possibles.
-1. Ecrivez une fonction JavaScript au début du contenu.
+1. Précharger tous les articles possibles dans un tableau de script supplémentaire de la diffusion - articleList[] - ce qui signifie qu’il doit y avoir un nombre fini d’articles possibles.
+1. Écrire une fonction JavaScript au début du contenu.
 
    ```
    <%@ value object='startScript' %>
@@ -148,7 +146,7 @@ La solution consiste à :
    }
    <%@ value object='endScript' %>
    ```
-1. Affichez l’article en appelant la fonction.
+1. Afficher l’article en appelant la fonction.
 
    ```
    <%
