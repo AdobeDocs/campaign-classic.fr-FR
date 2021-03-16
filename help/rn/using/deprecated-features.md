@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1712'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <li>iOS</li>
    </ul>
   <p>Si vous utilisez l’un de ces connecteurs, vous devez adapter votre implémentation en conséquence. <a href="../../delivery/using/sms-channel.md">En savoir plus</a></p> 
-  <p>Découvrez comment effectuer la migration des anciens connecteurs dans <a href="../../delivery/using/unsupported-connector-migration.md">cette note technique</a>.</p>
+  <p>Découvrez comment effectuer la migration des connecteurs hérités dans <a href="../../delivery/using/unsupported-connector-migration.md">cette note technique</a>.</p>
   <p><em>Date de suppression prévue : avril 2021</em></p>
   </td> 
  </tr>
