@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 2a82c1f67d8bc6d8499383a600a003480e82510f
+source-git-commit: 4552b8c73f0d547a9bb2dc7d8489927ea687f575
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '2467'
 ht-degree: 61%
 
 ---
@@ -114,6 +114,7 @@ ht-degree: 61%
          + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
       + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector.md)
+   + [Options d’aide et d’assistance](support.md)
 + Créer et envoyer des messages {#sending-messages}
    + [Prise en main du des messages](delivery/using/communication-channels.md)
    + Etapes clés lors de la création d&#39;une diffusion {#key-steps-when-creating-a-delivery}
