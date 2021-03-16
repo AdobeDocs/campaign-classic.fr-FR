@@ -6,11 +6,11 @@ description: Découvrez comment créer des comptes externes
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1707'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -252,7 +252,7 @@ Pour vous connecter à la console Adobe Campaign à l&#39;aide d&#39;un Adobe I
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../integrations/using/configuring-ims.md).
 
-## Compte externe SFTP             {#sftp-external-account}
+## Compte externe SFTP  {#sftp-external-account}
 
 Le compte externe SFTP vous permet de configurer et de tester l&#39;accès à un serveur en dehors d&#39;Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
 
@@ -408,7 +408,7 @@ Pour configurer le compte externe Salesforce CRM afin de l&#39;utiliser avec Ado
 
 * **[!UICONTROL Version de l&#39;API]**
 
-   Version de l’API entre **[!UICONTROL Version 49]**, **[!UICONTROL Version 37]**, **[!UICONTROL Version 21]** ou **[!UICONTROL Version 15]**.
+   Version de l&#39;API parmi **[!UICONTROL Version 49]**, **[!UICONTROL Version 37]**, ]**Version 21**[!UICONTROL  et **[!UICONTROL Version 15]**.
 
 Pour ce compte externe, vous devez configurer votre Salesforce CRM à l&#39;aide de l&#39;assistant de configuration.
 
