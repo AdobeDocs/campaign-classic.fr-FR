@@ -6,9 +6,9 @@ description: Découvrez les outils et les directives concernant la supervision d
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa5679d91808edb8e3916d5f0e0f54c73198e934
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -59,11 +59,11 @@ Signal Spam est un service français qui propose un reporting de rétroaction an
 
 * Ce service permet de suivre la réputation des FAI français et l’évolution de l’activité des clients.
 
-* Signal Spam fournit permet également aux utilisateurs finaux de déposer des plaintes directes via une interface dédiée. Ces plaintes sont ensuite mises en quarantaine dans la base de données des adresses email.
+* Signal Spam fournit permet également aux utilisateurs finaux de déposer des plaintes directes via une interface dédiée.Ces plaintes sont ensuite mises en quarantaine dans la base de données des adresses email.
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) est une solution de monitoring complémentaire des outils internes de délivrabilité d&#39;Adobe. Elle produit des listes bloquées de domaines et d&#39;adresses IP et des indicateurs de réputation.
+[250ok](https://250ok.com/) est une solution de monitoring complémentaire des outils internes de délivrabilité d&#39;Adobe.Elle produit des listes bloquées de domaines et d&#39;adresses IP et des indicateurs de réputation.
 
 Les informations fournies sont disponibles en temps réel, ce qui permet une assistance proactive.
 
