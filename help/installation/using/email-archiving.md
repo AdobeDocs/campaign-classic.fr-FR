@@ -6,9 +6,9 @@ description: Archivage des emails
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5fa848d86f951cb9dc40eb7981abea29c1092291
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
 ht-degree: 100%
 
