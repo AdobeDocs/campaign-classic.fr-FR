@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
