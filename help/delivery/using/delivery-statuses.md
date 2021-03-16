@@ -6,11 +6,11 @@ description: En savoir plus sur les statuts disponibles sur votre tableau de bor
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,15 +49,15 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> Ignoré<br /> </td> 
-   <td> La diffusion n’a pas été envoyée au destinataire en raison d’une erreur liée à son adresse. Elle était soit sur liste bloquée, soit mise en quarantaine, soit non fournie, ou il s'agissait d'un doublon. <br /> </td> 
+   <td> La diffusion n’a pas été envoyée au destinataire en raison d’une erreur liée à son adresse. Elle était soit sur liste bloquée, soit mise en quarantaine, soit non fournie, ou il s'agissait d'un doublon.<br /> </td> 
   </tr> 
   <tr> 
    <td> En échec<br /> </td> 
-   <td> La diffusion n'a pas pu atteindre le destinataire en raison d'une adresse invalide ou d'une boîte de réception pleine par exemple. La raison peut être également un problème lié aux blocs de personnalisation. Ils peuvent générer des erreurs lorsque les schémas ne correspondent pas au mapping de diffusion. Voir <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Comprendre les diffusions en échec</a><br /> </td> 
+   <td> La diffusion n'a pas pu atteindre le destinataire en raison d'une adresse invalide ou d'une boîte de réception pleine par exemple.La raison peut être également un problème lié aux blocs de personnalisation.Ils peuvent générer des erreurs lorsque les schémas ne correspondent pas au mapping de diffusion. Voir <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Comprendre les diffusions en échec</a><br /> </td> 
   </tr>
   <tr> 
    <td> En attente<br /> </td> 
-   <td> La diffusion est prête à être envoyée. Elle sera traitée par le serveur de diffusion (MTA). Voir la section <a href="#pending-status" target="_blank">Statut En attente</a>.<br /> </td> 
+   <td> La diffusion est prête à être envoyée.Elle sera traitée par le serveur de diffusion (MTA). Voir la section <a href="#pending-status" target="_blank">Statut En attente</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Non applicable<br /> </td> 
@@ -69,7 +69,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> Pris en compte par le fournisseur de services<br /> </td> 
-   <td> Le fournisseur de services SMS a reçu la diffusion.<br /> Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la MTA <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank"> </a>améliorée, le message a été relayé de Campaign vers la MTA améliorée.</td> 
+   <td> Le fournisseur de services SMS a reçu la diffusion.<br /> Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA amélioré</a>, le message a été relayé de Campaign vers le MTA amélioré.</td> 
   </tr> 
   <tr> 
    <td> Reçu sur le mobile<br /> </td> 
@@ -82,7 +82,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> Préparé<br /> </td> 
-   <td> Statut intermédiaire utilisé uniquement pour les connecteurs externes tels que le canal mobile. Il succède à l'état 'En attente' et c'est le connecteur externe qui déterminera le statut suivant.<br /> </td> 
+   <td> Statut intermédiaire utilisé uniquement pour les connecteurs externes tels que le canal mobile.Il succède à l'état 'En attente' et c'est le connecteur externe qui déterminera le statut suivant.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +93,7 @@ Pour apprendre à optimiser la délivrabilité de vos emails Adobe Campaign, co
 
 Après avoir validé votre diffusion, vous pouvez constater que son statut est **[!UICONTROL En attente]**.Ce statut signifie que le processus d&#39;exécution attend la disponibilité de certaines ressources.
 
-Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée. Voir à ce sujet la section [Planifier la diffusion](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée.Voir à ce sujet la section [Planifier la diffusion](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
 Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL En attente]**, la raison peut en être la suivante :
 
@@ -129,7 +129,7 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
    Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* Lorsque trop de campagnes sont en cours d’exécution, l’état de la diffusion reste &quot;En attente&quot;.
+* Lorsque trop de campagnes sont en cours d&#39;exécution, l’état de la diffusion reste « En attente ».
 
    La limite des campagnes simultanées est définie dans l&#39;option **[!UICONTROL NmsOperation_LimitConcurrency]**. La valeur par défaut est 10.
 
