@@ -6,11 +6,11 @@ description: Délivrabilité des emails
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3040'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ L&#39;adresse IP source correspond à l&#39;adresse IP publique, c&#39;est-à-di
 
 Pour diffuser les messages vers les serveurs de messagerie, le composant **Email Traffic Shaper** fait une demande d&#39;ouverture de connexion auprès du serveur de statistiques. Une fois la demande acceptée, la connexion est ouverte.
 
-Avant l&#39;envoi des messages, le module demande des &#39;jetons&#39; au serveur. Généralement, il s&#39;agit d&#39;un lot minimum de 10 jetons, afin de réduire le nombre de requêtes auprès du serveur.
+Avant l&#39;envoi des messages, le module demande des « jetons » au serveur.Généralement, il s&#39;agit d&#39;un lot minimum de 10 jetons, afin de réduire le nombre de requêtes auprès du serveur.
 
 Le serveur conserve en mémoire toutes les statistiques de connexion et de diffusion. En cas de redémarrage, les informations sont provisoirement perdues : chacun des clients conserve localement une copie de ses statistiques d&#39;envoi et les retourne régulièrement au serveur (toutes les 2 minutes). Le serveur peut alors ré-agréger les données.
 
@@ -133,9 +133,9 @@ Par défaut, le serveur de statistiques écoute sur le port 7777. Ce port peut �
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion **[!UICONTROL MX management]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 
-Les sections ci-dessous ne s&#39;appliquent qu&#39;aux installations sur site et aux installations hébergées/hybrides utilisant l&#39;ancienne Campaign MTA.
+Les sections ci-dessous ne s&#39;appliquent qu&#39;aux installations on-premise et aux installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign.
 
 ### A propos des règles MX {#about-mx-rules}
 
@@ -196,7 +196,7 @@ Au total, l&#39;utilisateur dispose de seize adresses distantes. Avec ses deux a
 >
 >Si deux enregistrement MX référencent la même adresse IP, un seul chemin sera pris en compte, et non deux.
 
-Ci-dessous, quelques exemples sur l&#39;utilisation des règles MX:
+Ci-dessous, quelques exemples sur l&#39;utilisation des règles MX :
 
 ![](assets/s_ncs_examples_mx_rules.png)
 
@@ -363,7 +363,7 @@ La configuration relative à la gestion du trafic se situe dans l&#39;élément 
 
 Pour chacun des éléments **IPAffinity**, vous devez déclarer les adresses IP de la machine qui peuvent être utilisées.
 
-Exemple:
+Exemple :
 
 ```
 <IPAffinity localDomain="<domain>" name="default">
