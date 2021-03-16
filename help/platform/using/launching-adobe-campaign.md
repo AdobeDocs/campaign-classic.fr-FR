@@ -6,10 +6,10 @@ description: Lancement d’Adobe Campaign
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
-workflow-type: ht
-source-wordcount: '598'
+translation-type: tm+mt
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+workflow-type: tm+mt
+source-wordcount: '597'
 ht-degree: 100%
 
 ---
@@ -105,6 +105,6 @@ Pour en savoir plus sur Gold Standard, voir [cet article](https://helpx.adobe.c
 
 **Rubriques connexes** :
 
-* [Options d&#39;aide et de support d&#39;Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
+* [Options d&#39;aide et de support d&#39;Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
 * [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
 * [Adobe Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
