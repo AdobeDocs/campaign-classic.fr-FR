@@ -6,11 +6,11 @@ description: Comment configurer des liens trackés
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le tracking s’applique aux messages, tandis que le tracking web permet de suiv
 
 >[!NOTE]
 >
->Les liens contenus dans le contenu des courriels qui contiennent la personnalisation doivent faire l’objet d’un suivi syntaxique spécifique. Pour plus d&#39;informations sur la façon d&#39;ajouter des liens dans des courriels qui peuvent être personnalisés et qui prennent en charge le suivi, consultez [cette section](../../delivery/using/tracking-personalized-links.md).
+>Les liens inclus dans le contenu des emails qui comportent des éléments de personnalisation ont besoin d&#39;une syntaxe spécifique pour être trackés. Pour plus d&#39;informations sur l&#39;ajout de liens dans des emails pouvant être personnalisés et prenant en charge le tracking, consultez [cette section](../../delivery/using/tracking-personalized-links.md).
 
 
 
