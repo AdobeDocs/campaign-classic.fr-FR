@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 54ba9d2ee05b1bd7de7616142e8ad6bcbac5f8eb
+source-git-commit: bc35a95d7deed1f0fd432ef8639f307ecf4d8e1f
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -38,8 +38,8 @@ Pour chaque diffusion, un tableau de bord dédié est disponible. Il vous permet
 
 Il est conseillé de suivre plusieurs instructions afin d&#39;assurer que vos diffusions fonctionnent bien. Les problèmes courants que vous pouvez rencontrer lors de l&#39;envoi de diffusions sont également disponibles pour vous aider à envoyer des diffusions efficacement.
 
-* [Performances des diffusions et bonnes pratiques](../../delivery/using/list-of-deliveries.md)
-* [Résolution des problèmes liés à l&#39;envoi de diffusions](../../delivery/using/delivery-dashboard.md)
+* [Performances des diffusions et bonnes pratiques](../../delivery/using/delivery-performances.md)
+* [Résolution des problèmes liés à l&#39;envoi de diffusions](../../delivery/using/delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 
