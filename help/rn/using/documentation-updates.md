@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
 source-wordcount: '4213'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,18 +25,18 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usin
 
 Une nouvelle page a été ajoutée avec des lignes directrices et des références pour obtenir la prise en charge du Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
 
-Une nouvelle section a été ajoutée avec les meilleures pratiques et les vérifications à effectuer en matière de sécurité et de confidentialité. [En savoir plus](../../installation/using/get-started-security-privacy.md)
+Une nouvelle section a été ajoutée concernant les bonnes pratiques et les vérifications à effectuer en matière de sécurité et de confidentialité. [En savoir plus](../../installation/using/get-started-security-privacy.md)
 
-Le chapitre [gestion des autorisations](../../platform/using/access-management.md) a été amélioré et divisé en sections, y compris des détails sur [les opérateurs](../../platform/using/access-management-operators.md), [les Groupes d&#39;utilisateurs](../../platform/using/access-management-groups.md), [les Droits nommés](../../platform/using/access-management-named-rights.md) et [la gestion des dossiers](../../platform/using/access-management-folders.md).
+Le [chapitre relatif à la gestion des autorisations](../../platform/using/access-management.md) a été amélioré et divisé en sections, comprenant notamment des informations détaillées sur les [opérateurs](../../platform/using/access-management-operators.md), les [groupes d’opérateurs](../../platform/using/access-management-groups.md), les [droits nommés](../../platform/using/access-management-named-rights.md) et la [gestion des dossiers](../../platform/using/access-management-folders.md).
 
-Découvrez comment créer et gérer vos campagnes à l&#39;aide de ces nouvelles pages :
+Découvrez comment créer et gérer vos campagnes à l’aide de ces nouvelles pages :
 * [Création et configuration de modèles de campagne](../../campaign/using/marketing-campaign-templates.md)
 * [Diffusions de campagnes marketing](../../campaign/using/marketing-campaign-deliveries.md)
-* [Sélectionner l&#39;audience de vos campagnes](../../campaign/using/marketing-campaign-target.md)
-* [Gérer les documents associés](../../campaign/using/marketing-campaign-assets.md)
-* [Configuration et gestion du processus d’approbation](../../campaign/using/marketing-campaign-approval.md)
+* [Sélection de l’audience de vos campagnes](../../campaign/using/marketing-campaign-target.md)
+* [Gestion des documents associés](../../campaign/using/marketing-campaign-assets.md)
+* [Configuration et gestion du processus de validation](../../campaign/using/marketing-campaign-approval.md)
 
-Des informations ont été ajoutées dans la section **[!UICONTROL activité JavaScript avancée]** sur l&#39;utilisation de la méthode tâche.setCompleted() pour arrêter la tâche et empêcher les rappels ultérieurs. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+Des informations ont été ajoutées dans la section d’activité **[!UICONTROL JavaScript avancée]** sur l’utilisation de la méthode task.setCompleted() pour terminer la tâche et empêcher les rappels ultérieurs. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 ## Février 2021 {#release-21.1}
 
