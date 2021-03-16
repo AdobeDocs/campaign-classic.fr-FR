@@ -5,9 +5,9 @@ title: A propos des Triggers Adobe Experience Cloud
 description: Prise en main de la mise en œuvre des Triggers d’Adobe Experience Cloud
 audience: integrations
 content-type: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
