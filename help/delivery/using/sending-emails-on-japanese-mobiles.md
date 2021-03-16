@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Envoi de courriers électroniques sur des mobiles japonais avec Adobe Campaign Classic
-description: Découvrez comment configurer, concevoir et envoyer des courriers électroniques qui seront lus sur un mobile japonais.
+title: Envoi d'emails sur des mobiles japonais avec Adobe Campaign Classic
+description: Découvrez comment configurer, concevoir et envoyer des emails qui seront lus sur un mobile japonais.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
