@@ -6,11 +6,11 @@ description: Exécution de la diffusion
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Par défaut, elles sont classées dans un sous-dossier correspondant au mois d&#
 
 >[!NOTE]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), tous les messages transactionnels peuvent également être envoyés avec la MTA améliorée Adobe Campaign pour une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. Tous les impacts sont les mêmes que pour les messages marketing standard.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré d&#39;Adobe Campaign](../../delivery/using/sending-with-enhanced-mta.md), tous les messages transactionnels peuvent également être envoyés avec celui-ci pour optimiser la délivrabilité, le débit et la gestion des retours. Tous les impacts sont les mêmes que pour les messages marketing standard.
 
 ## Surveillance de message transactionnel {#transactional-message-monitoring}
 
