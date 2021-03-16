@@ -6,11 +6,11 @@ description: Lancement d’Adobe Campaign
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Il est possible de vous connecter à Adobe Campaign via votre Adobe ID. Voir à 
 
 Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
-1. Entrez l&#39;identifiant de compte d&#39;opérateur dans le champ **[!UICONTROL Connexion]**.
+1. Saisissez l’identifiant du compte opérateur dans le champ **[!UICONTROL Login]**.
 
    L’identifiant vous est fourni par l’administrateur de la plate-forme Adobe Campaign.
 
@@ -45,10 +45,10 @@ Vous pouvez aussi vous connecter via un login/mot de passe dédié :
 
 Vous pouvez maintenant accéder à l’[espace de travail Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
 
-Certains raccourcis clavier sont disponibles sur l&#39;**[!UICONTROL écran de connexion]** :
-* Tous les éléments exploitables peuvent être sélectionnés à l&#39;aide de la touche **Tabulation** (de haut en bas) ou de la touche **Tabulation** + **Maj** (de bas en haut).
+Certains raccourcis clavier sont disponibles dans l&#39;**[!UICONTROL écran de connexion]** :
+* Tous les éléments exploitables peuvent être sélectionnés à l&#39;aide de la touche **Tab** (de haut en bas) ou de la touche **Tab** + **Maj** (de bas en haut).
 * Pour lancer la connexion, vous pouvez également appuyer sur la touche **Entrée**.
-* Vous pouvez utiliser la clé **Echap** pour rétablir les derniers valeurs de connexion réussies dans les champs **[!UICONTROL Connexion]** et **[!UICONTROL Mot de passe]**.
+* Vous pouvez utiliser la touche **Échap** pour rétablir les dernières valeurs de connexion correctes dans les champs **[!UICONTROL Login]** et **[!UICONTROL Mot de passe]**.
 
 ## Configuration de connexions {#setting-up-connections}
 
@@ -106,5 +106,5 @@ Pour en savoir plus sur Gold Standard, voir [cet article](https://helpx.adobe.c
 **Rubriques connexes** :
 
 * [Options d&#39;aide et de support d&#39;Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acc-support)
-* [Distribution de logiciels Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
+* [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
 * [Adobe Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
