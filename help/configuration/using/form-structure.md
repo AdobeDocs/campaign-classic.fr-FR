@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f82f71f4eed44f4f12ab7a65188d25ff6c552d35
 workflow-type: tm+mt
 source-wordcount: '2402'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -235,7 +235,7 @@ Exemples de syntaxes de conditions :
 
 * **visibleIf=&quot;@email=&#39;peter.martinezATneeolane.net&#39;&quot;** : teste l’égalité sur les données de type chaîne. La valeur de comparaison doit être entre guillemets.
 * **visibleIf=&quot;@gender >= 1 and @gender != 2&quot;** : condition sur une valeur numérique.
-* **visibleIf=&quot;@boolean1==true or @boolean2==false&quot;** : test sur des champs booléens.
+* **visibleIf=&quot;@boolean1=true ou @boolean2=false&quot;** : test sur les champs booléens.
 
 #### Conteneur d&#39;activation {#enabling-container}
 
@@ -555,9 +555,9 @@ L&#39;exécution d&#39;un formulaire de saisie initialise un document XML conten
 
 ### Mise à jour du contexte {#updating-the-context}
 
-Pour modifier le contexte du formulaire, vous devez utiliser la balise **`<set expr="<value>" xpath="<field>"/>`**, où **`<field>`** est le chemin destination et **`<value>`** est la valeur ou expression de mise à jour.
+Pour modifier le contexte du formulaire, vous devez utiliser la balise `<set expr="<value>" xpath="<field>"/>`, où `<field>` est le chemin destination et `<value>` est la valeur ou expression de mise à jour.
 
-Exemples d’utilisation de la balise **`<set>`** :
+Exemples d’utilisation de la balise `<set>` :
 
 * **`<set expr="'Test'" xpath="/tmp/@test" />`** : positionne la valeur &#39;Test&#39; à l’emplacement temporaire /tmp/@test1
 * **`<set expr="'Test'" xpath="@lastName" />`** : met à jour l’entité sur l’attribut &quot;lastName&quot; avec la valeur &#39;Test&#39;
