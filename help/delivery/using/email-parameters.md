@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration des paramètres de courrier électronique dans Adobe Campaign Classic
-description: Découvrez les options et les paramètres spécifiques à la diffusion de courriel.
+title: Configuration des paramètres de l'email dans Adobe Campaign Classic
+description: Découvrez les options et les paramètres spécifiques à la diffusion par email.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e84387c7c396c60c429c3f625870a97a7fdaef5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Paramètres de l&#39;email {#email-parameters}
 
-Cette section présente les options et paramètres spécifiques à la diffusion de courriel.
+Cette section présente les options et paramètres spécifiques à la diffusion par email.
 
 ## Email Cci {#email-bcc}
 
@@ -31,7 +31,7 @@ Pour plus d&#39;informations sur les bonnes pratiques et la configuration de la 
 >
 >Email Cci est une fonctionnalité facultative. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
 
-Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, la fonctionnalité Email Cci n&#39;est pas activée par défaut. Vous devez l’activer manuellement au niveau de la diffusion de courriel ou du modèle de diffusion.
+Lors de la création d&#39;une diffusion ou d&#39;un modèle de diffusion, la fonctionnalité Email Cci n&#39;est pas activée par défaut. Vous devez l&#39;activer manuellement au niveau de la diffusion email ou du modèle de diffusion.
 
 Pour activer la fonctionnalité Email Cci pour un modèle de diffusion email, procédez comme suit :
 
@@ -73,7 +73,7 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 >[!NOTE]
 >
->Pour en savoir plus sur la définition du contenu du courrier électronique, voir [cette section](../../delivery/using/defining-the-email-content.md).
+>Pour en savoir plus sur la définition d&#39;email, consultez [cette section](../../delivery/using/defining-the-email-content.md).
 
 ## Générer la page miroir {#generating-mirror-page}
 
@@ -115,11 +115,11 @@ L&#39;onglet **[!UICONTROL SMTP]** des paramètres de la diffusion permet de par
 
 Par défaut, les mails rebonds sont réceptionnés dans la boîte d&#39;erreur de la plateforme. Vous pouvez toutefois définir une adresse d&#39;erreur spécifique pour une diffusion.
 
-Vous pouvez également définir une adresse spécifique à partir de cet écran afin d&#39;étudier les raisons des courriers de retour qui n&#39;ont pas pu être automatiquement qualifiés par l&#39;application. Pour chacun de ces champs, l&#39;icône **Ajouter des champs personnalisés** permet d&#39;ajouter des paramètres de personnalisation.
+Vous pouvez également définir une adresse spécifique depuis cet écran afin d&#39;investiguer sur les causes des mails rebonds n&#39;ayant pas pu être automatiquement qualifiés par l&#39;application. Pour chacun de ces champs, l&#39;icône d&#39;**ajout de champs personnalisés** permet d&#39;ajouter des paramètres de personnalisation.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-Pour plus d&#39;informations sur la gestion du courrier de rebonds, consultez [cette section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Pour plus d’informations sur la gestion des mails rebonds, consultez [cette section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 ## Ajouter des en-têtes SMTP {#adding-smtp-headers}
 
