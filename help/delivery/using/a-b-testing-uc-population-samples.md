@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration des exemples de population
-description: Découvrez comment effectuer des tests A/B à l’aide d’un cas d’utilisation spécifique.
+title: Configuration d'échantillons de population
+description: Découvrez comment effectuer des tests A/B à l'aide d'un cas pratique spécifique.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
-# Configuration des échantillons de population {#step-2--configuring-population-samples}
+# Configuration d&#39;échantillons de population {#step-2--configuring-population-samples}
 
 ## Paramétrage de l&#39;activité Requête {#configuring-the-query-activity}
 
@@ -81,4 +81,4 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-Vous pouvez maintenant créer les deux modèles de diffusion (voir [Étape 3 : Créez deux modèles de diffusion ](../../delivery/using/a-b-testing-uc-delivery-templates.md)).
+Vous pouvez maintenant créer les deux modèles de diffusion (voir [Étape 3 : créer deux modèles de diffusion](../../delivery/using/a-b-testing-uc-delivery-templates.md)).
