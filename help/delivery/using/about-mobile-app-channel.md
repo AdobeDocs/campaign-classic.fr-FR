@@ -6,11 +6,11 @@ description: Cette section contient des informations générales spécifiques à
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Vous pouvez définir le comportement de l’application lorsque l’utilisateur 
 
 Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez la [liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign est compatible avec les API HTTP/2. Pour plus d’informations sur la procédure de configuration, voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d’informations sur la procédure de configuration, voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
 
 ## Parcours des données {#data-path}
 
@@ -85,7 +85,7 @@ Les informations suivantes sont remontées dans Adobe Campaign :
 
 ![](assets/nmac_delivery_view.png)
 
-Le serveur Adobe Campaign doit être en mesure de contacter le serveur APNs sur le port 443 pour le connecteur HTTP/2 iOS.
+Le serveur d’Adobe Campaign doit être en mesure de contacter le serveur APNs sur le port 443 pour le connecteur HTTP/2 iOS.
 
 Pour en tester le bon fonctionnement, utilisez les commandes suivantes :
 
@@ -101,5 +101,5 @@ Pour en tester le bon fonctionnement, utilisez les commandes suivantes :
    telnet gateway.push.apple.com
    ```
 
-Avec le connecteur HTTP/2 iOS, le MTA, le serveur Web et le serveur de flux de travail doivent être en mesure de contacter les APN sur le port 443.
+Avec le connecteur HTTP/2 iOS, le MTA, le serveur web et le serveur de workflow doivent pouvoir contacter l&#39;APNs sur le port 443.
 
