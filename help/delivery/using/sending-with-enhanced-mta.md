@@ -1,57 +1,57 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Envoi avec la MTA améliorée à Adobe Campaign Classic
-description: Découvrez l'étendue et les spécificités de l'envoi de courriels avec l'accord de confidentialité amélioré Adobe Campaign.
+title: Envoi d'emails avec le MTA amélioré dans Adobe Campaign Classic
+description: Découvrez la portée et les spécificités de l'envoi d'emails avec le MTA amélioré d'Adobe Campaign.
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
 
-# Envoi avec la MTA améliorée {#sending-with-enhanced-mta}
+# Envoi d&#39;emails avec le MTA amélioré {#sending-with-enhanced-mta}
 
-Le **MTA amélioré d&#39;Adobe Campaign** (Agent de transfert de courrier) fournit une infrastructure d&#39;envoi améliorée permettant une meilleure délivrabilité, réputation, débit, rapports, gestion des rebonds, amélioration de l&#39;adresse IP et gestion des paramètres de connexion.
+Le **MTA amélioré d&#39;Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d&#39;envoi mise à niveau qui permet d&#39;améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion.
 
-Il est mis en oeuvre pour améliorer l&#39;évolutivité, augmenter le débit des diffusions et aider à envoyer plus de courriers électroniques plus rapidement. Ceci est réalisé avec de nouvelles techniques de diffusion adaptative qui modifient les paramètres d’envoi de courrier électronique en temps réel en fonction des commentaires des Prestataires Internet.
+Il est implémenté pour améliorer l&#39;évolutivité, augmenter le débit de diffusion et envoyer plus rapidement un plus grand nombre d&#39;emails. Ces améliorations sont possibles grâce à de nouvelles techniques de diffusion adaptatives qui modifient en temps réel les paramètres d’envoi des emails en fonction des retours des fournisseurs d’accès à Internet.
 
 >[!IMPORTANT]
 >
->La MTA Adobe Campaign Enhanced est uniquement disponible pour les clients hébergés ou hybrides Campaign Classic. Les installations sur site des Campaign Classic ne peuvent pas être mises à niveau pour utiliser la MTA améliorée.
+>Le MTA amélioré d&#39;Adobe Campaign est uniquement disponible pour les clients Campaign Classic hébergés ou hybrides. Les installations on-premise de Campaign Classic ne peuvent pas être mises à niveau en vue d’utiliser le MTA amélioré.
 
-Si une instance de Campaign Classic a été configurée après septembre 2018, vous utilisez la MTA améliorée. Pour tous les autres clients Campaign Classic, consultez la [Foire aux questions](#enhanced-mta-faq) ci-dessous.
+Si votre instance de Campaign Classic a été provisionnée après le mois de septembre 2018, vous utilisez le MTA amélioré. Pour tous les autres clients Campaign Classic, consultez le [Forum aux questions](#enhanced-mta-faq) ci-dessous.
 
-L’implémentation améliorée de la MTA peut avoir un impact sur certaines fonctionnalités Campaign existantes. Pour en savoir plus sur ce sujet, voir les [Spécifications MTA améliorées](#enhanced-mta-impacts).
+L’implémentation du MTA amélioré peut avoir un impact sur certaines fonctionnalités Campaign existantes. Voir à ce sujet la section [Spécificités du MTA amélioré](#enhanced-mta-impacts).
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur final d’Adobe Campaign et que vous souhaitez savoir si votre instance a été mise à niveau vers la MTA améliorée, contactez votre administrateur Campaign interne.
+>Si vous êtes un utilisateur final d’Adobe Campaign et que vous souhaitez déterminer si votre instance a été mise à niveau vers le MTA amélioré, contactez votre administrateur Campaign interne.
 
 ## Forum aux questions {#enhanced-mta-faq}
 
 ### Utilisation et avantages
 
-**Qu’est-ce que l’AMT améliorée ?**
+**Qu’est-ce que le MTA amélioré ?**
 
-Adobe Campaign peut désormais être mis à niveau pour utiliser un nouveau MTA (Mail Transfer Agent) qui exécute le courrier électronique commercial de SparkPost appelé **Momentum**.
+Adobe Campaign peut maintenant être mis à niveau en vue d’utiliser un nouveau MTA (Mail Transfer Agent) qui exécute le MTA d&#39;email commercial de SparkPost appelé **Momentum**.
 
-Momentum représente une technologie MTA innovante et hautement performante qui comprend une gestion plus intelligente des rebonds et une capacité d&#39;optimisation automatisée de la délivrabilité qui aide les expéditeurs à atteindre et à maintenir des taux de diffusion optimaux de boîte de réception. <!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+Momentum offre une technologie MTA innovante et extrêmement performante. Elle comprend une gestion des retours plus intelligente et une fonctionnalité d&#39;optimisation de la délivrabilité automatisée qui aide les expéditeurs à atteindre et à maintenir des taux de remise optimaux aux boîtes de réception.<!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
 
-**Quels sont les avantages ?**
+**Quels sont les avantages ?**
 
-* Les clients Adobe Campaign utilisant l&#39;AMT amélioré ont vu une <!--300%-->augmentation massive de la vitesse de débit globale et une <!--90%+-->réduction significative des rebonds doux.
-* La MTA améliorée utilise la dernière technologie MTA pour vous offrir des vitesses de débit optimales pour votre diffusion de messagerie.
-* En s&#39;adaptant instantanément et automatiquement aux commentaires qu&#39;il reçoit, il garantit également une diffusion de courriel plus précise et plus intelligente avec des données de diffusion en temps réel.
+* Les clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%-->augmentation importante de la vitesse de débit globale et une <!--90%+-->réduction significative des soft bounces.
+* Le MTA amélioré utilise la dernière technologie MTA pour vous offrir des vitesses de débit optimales pour votre diffusion par email.
+* En s&#39;adaptant instantanément et automatiquement aux retours qu&#39;il reçoit, il garantit également une diffusion par email plus précise et plus intelligente avec des données de diffusion en temps réel.
 
-**Puis-je utiliser simultanément les MTA natifs Adobe Campaign et les MTA amélioré ?**
+**Puis-je utiliser simultanément le MTA natif d&#39;Adobe Campaign et le MTA amélioré ?**
 
-Non. Seule la MTA améliorée peut être utilisée pour vos diffusions de messagerie après la mise à niveau de votre instance.
+Non. Seul le MTA amélioré peut être utilisé pour vos diffusions par email après la mise à niveau de votre instance.
 
 <!--
 **Is there a fee associated with upgrading my instance to and subsequent use of the Enhanced MTA?**
@@ -64,167 +64,167 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 * For Adobe Campaign Classic existing customers, we’ve implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you’re not already using it, we’ll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
 -->
 
-### Mise à niveau vers la MTA améliorée
+### Mise à niveau vers le MTA amélioré
 
-**Que faut-il faire pour effectuer la mise à niveau vers la MTA améliorée ?**
+**Que faut-il faire pour effectuer la mise à niveau vers le MTA amélioré ?**
 
-Si une instance de Campaign Classic a été configurée après septembre 2018, aucune action n’est requise, car vous utilisez déjà la MTA améliorée.
+Si votre instance de Campaign Classic a été provisionnée après le mois de septembre 2018, aucune action n’est requise, car vous utilisez déjà le MTA amélioré.
 
-Pour tous les autres clients hébergés ou partiellement hébergés (hybrides), l’équipe Adobe Campaign tentera de coordonner une date de migration et fournira des détails sur les étapes appropriées nécessaires à la migration.
-
->[!IMPORTANT]
->
->La MTA améliorée n’est pas disponible pour les installations sur site.
-
-**Quel est le processus de mise à niveau de mon instance vers la MTA améliorée ?**
-
-Le processus complet pour vos instances hébergées nécessite quelques minutes d’inactivité. Adobe surveillera le débit et la délivrabilité des courriers électroniques jusqu&#39;à 24 heures après la mise à niveau afin d&#39;évaluer tout impact sur vos diffusions de courrier électronique.
-
-Si des problèmes sont détectés, l’Adobe peut rapidement et temporairement rétablir votre instance dans la MTA Adobe Campaign native.
-
-Actuellement, la MTA améliorée affecte uniquement le canal de messagerie. Vos notifications Push et diffusions SMS continueront à utiliser le MTA natif de Campaign et ne seront en aucune façon affectés par la mise à niveau.
-
-**Dois-je recommencer à utiliser le réchauffement d’IP après la mise à niveau vers la MTA améliorée ?**
-
-Non. La mise à niveau n’exige pas de passer à de nouvelles adresses IP. Vous pouvez donc continuer à utiliser vos adresses IP de messagerie réchauffées existantes.
-
-**La mise à niveau vers la MTA améliorée aura-t-elle un impact sur les campagnes ou les diffusions en cours ?**
-
-Toutes les diffusions qui ont été préparées avant la mise à niveau de votre instance pour utiliser la MTA améliorée devront être repréparées pour utiliser correctement la nouvelle MTA.
-
-Pour les clients qui utilisent la fonctionnalité de messagerie transactionnelle Adobe Campaign, tout appel d’API pour déclencher un courrier électronique sera mis en file d’attente pendant la très courte période d’interruption de la mise à niveau et sera tenté une fois la mise à niveau terminée.
-
-## Spécifications MTA améliorées {#enhanced-mta-impacts}
-
-### En-têtes MTA améliorés
-
-Les dernières instances de Campaign Classic incluent du code qui ajoute les en-têtes MTA améliorés requis à chaque message. Si vous utilisez Adobe Campaign 19.1 (build 9032) ou version ultérieure et que ce n’est pas le cas, vous devez ajouter le paramètre &quot;useMomentum=true&quot; à votre configuration d’instance de marketing (dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)).
-
-Cependant, si vous utilisez une instance plus ancienne qui n’inclut pas ce code, une nouvelle règle de typologie nommée **[!UICONTROL Règle de typologie pour les MTA améliorées]** doit être ajoutée à toutes les typologies existantes de votre instance Campaign.
-Cette règle est ajoutée par un **[!UICONTROL package de typologie]** installé dans le cadre de la mise à niveau vers la MTA améliorée.
+Pour tous les autres clients hébergés ou partiellement hébergés (hybrides), l’équipe d&#39;Adobe Campaign fixera une date de migration et fournira des détails sur les étapes appropriées nécessaires à la migration.
 
 >[!IMPORTANT]
 >
->Si cette règle de typologie apparaît dans vos typologies, ne la supprimez ni ne la modifiez en aucune manière. Dans le cas contraire, vos diffusions de messagerie pourraient être affectées.
+>Le MTA amélioré n’est pas disponible pour les installations on-premise.
 
-Ce package **[!UICONTROL Typology]** doit être installé sur l’instance de marketing Adobe Campaign.
+**Quel est le processus de mise à niveau de mon instance vers le MTA amélioré ?**
 
-Si vous êtes un client hybride, l’équipe Adobe Campaign vous fournira des instructions sur la façon d’installer le package **[!UICONTROL typologie]** sur votre instance marketing dans le cadre de la mise à niveau vers la MTA améliorée. Contactez votre gestionnaire de compte pour obtenir toutes les instructions.
+Pour vos instances hébergées, le processus complet nécessite quelques minutes de temps d’arrêt. Adobe surveillera le débit et la délivrabilité des emails jusqu&#39;à 24 heures après la mise à niveau afin d&#39;évaluer les impacts sur vos diffusions par email.
+
+Si des problèmes sont détectés, Adobe peut rapidement et temporairement rétablir votre instance vers le MTA natif d&#39;Adobe Campaign.
+
+Actuellement, le MTA amélioré affecte uniquement le canal email. Vos notifications push et diffusions SMS continueront à utiliser le MTA natif de Campaign et ne seront en aucune façon affectés par la mise à niveau.
+
+**Dois-je suivre à nouveau le processus de rodage des adresses IP après la mise à niveau vers le MTA amélioré ?**
+
+Non. La mise à niveau n’exige pas de basculer vers de nouvelles adresses IP. Vous pouvez donc continuer à utiliser vos adresses IP d&#39;email rodées.
+
+**La mise à niveau vers le MTA amélioré aura-t-elle un impact sur les campagnes ou les diffusions en cours ?**
+
+Toutes les diffusions qui ont été préparées avant la mise à niveau de votre instance en vue d’utiliser le MTA amélioré devront être repréparées afin d’utiliser correctement le nouveau MTA.
+
+Pour les clients qui utilisent la fonctionnalité de messagerie transactionnelle d&#39;Adobe Campaign, tout appel d’API pour déclencher un email sera mis en file d’attente pendant la très courte période de temps d’arrêt de la mise à niveau et sera réessayé une fois la mise à niveau terminée.
+
+## Spécificités du MTA amélioré {#enhanced-mta-impacts}
+
+### En-têtes du MTA amélioré
+
+Les dernières instances de Campaign Classic incluent du code qui ajoute les en-têtes du MTA amélioré requis à chaque message. Si vous utilisez Adobe Campaign 19.1 (build 9032) ou une version ultérieure et que ce n’est pas le cas, vous devez ajouter le paramètre &quot;useMomentum=true&quot; à votre configuration d’instance marketing (dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)).
+
+Cependant, si vous utilisez une instance plus ancienne qui n’inclut pas ce code, une nouvelle règle de typologie nommée **[!UICONTROL Règle de typologie pour les MTA améliorés]** doit être ajoutée à toutes les typologies existantes de votre instance Campaign.
+Cette règle est ajoutée par un package de **[!UICONTROL typologie]** installé dans le cadre de la mise à niveau vers le MTA amélioré.
 
 >[!IMPORTANT]
 >
->Les instructions fournies par l’équipe Adobe Campaign sur la façon d’installer le package **[!UICONTROL Typology]** doivent être soigneusement suivies. Sinon, vous risquez de rencontrer des problèmes majeurs avec vos adresses IP utilisées pour envoyer des courriers électroniques.
+>Si cette règle de typologie apparaît dans vos typologies, ne la supprimez ni ne la modifiez en aucune manière. Dans le cas contraire, vos diffusions par email pourraient être affectées.
 
-Pour en savoir plus sur les typologies, voir [cette section](../../campaign/using/about-campaign-typologies.md).
+Ce package de **[!UICONTROL typologie]** doit être installé sur l’instance marketing d&#39;Adobe Campaign.
+
+Si vous êtes un client hybride, l’équipe d&#39;Adobe Campaign vous fournira des instructions sur la façon d’installer le package de **[!UICONTROL typologie]** sur votre instance marketing dans le cadre de la mise à niveau vers le MTA amélioré. Contactez votre chargé de compte pour obtenir toutes les instructions.
+
+>[!IMPORTANT]
+>
+>Les instructions fournies par l’équipe d&#39;Adobe Campaign sur la façon d’installer le package de **[!UICONTROL typologie]** doivent être soigneusement suivies. Sinon, vous risquez de rencontrer des problèmes majeurs avec les adresses IP utilisées pour envoyer des emails.
+
+Pour en savoir plus sur les typologies, consultez [cette section](../../campaign/using/about-campaign-typologies.md).
 
 ### Nouvelles règles MX
 
-Les règles de débit de la diffusion de gestion MX ne sont plus utilisées. La MTA améliorée dispose de ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des messages électroniques.
+Les règles de débit de diffusion de gestion des MX ne sont plus utilisées. Le MTA amélioré dispose de ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 
 Pour en savoir plus à propos de la configuration des MX, voir [cette section](../../installation/using/email-deliverability.md#mx-configuration).
 
-### Qualification de rebond
+### Qualification des retours
 
-Les qualifications de rebond dans la table Campaign **[!UICONTROL qualification du journal de Diffusion]** ne sont plus utilisées pour les messages d&#39;erreur de diffusion **synchrone**. Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
+Les qualifications des retours dans la table **[!UICONTROL Qualification des logs de diffusion]** Campaign ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions **synchrones**. Le MTA amélioré détermine le type et la qualification de retour, puis renvoie ces informations à Campaign.
 
 >[!NOTE]
 >
->La MTA améliorée qualifie le rebond SMTP et renvoie cette qualification à Campaign sous la forme d’un code de rebond mappé à un motif de rebond Campaign et à une qualification.
+>Le MTA amélioré qualifie le retour SMTP et envoie cette qualification à Campaign sous la forme d’un code de retour mappé à un motif et à une qualification de retour Campaign.
 
-Pour en savoir plus sur la qualification des rebonds, voir [cette section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
+Pour plus d’informations sur la qualification des retours, consultez [cette section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Débit des diffusions
 
-Le graphique de débit de la Diffusion Campaign n&#39;affiche plus le débit de vos destinataires de messagerie. Ce graphique montre maintenant la vitesse de transmission de vos messages de Campaign vers le MTA amélioré.
+Le graphique du débit des diffusions de Campaign n&#39;affiche plus le débit vers vos destinataires d&#39;emails. Il indique maintenant la vitesse de débit pour le relais de vos messages entre Campaign et le MTA amélioré.
 
-Pour plus d&#39;informations sur le débit des diffusions, voir [cette section](../../reporting/using/global-reports.md#delivery-throughput).
+Pour plus d’informations sur le débit de diffusion, consultez [cette section](../../reporting/using/global-reports.md#delivery-throughput).
 
 ### Période de validité
 
-Le paramètre de la période de validité dans vos diffusions Campaign ne sera utilisé par la MTA améliorée que s’il est défini sur **3,5 jours ou moins**. Si vous définissez une valeur supérieure à 3,5 jours à Campaign, elle ne sera pas prise en compte.
+Le paramètre de la période de validité dans vos diffusions Campaign ne sera utilisé par le MTA amélioré que s’il est défini sur **3,5 jours ou moins**. Si vous définissez une valeur supérieure à 3,5 jours dans Campaign, elle ne sera pas prise en compte.
 
-Par exemple, si la période de validité est définie sur la valeur par défaut de 5 jours dans Campaign, les messages rebondissants seront placés dans la file d’attente des nouvelles tentatives MTA améliorées et ne seront retentés que pendant 3,5 jours à compter du moment où ce message a atteint la MTA améliorée. Dans ce cas, la valeur définie dans Campaign ne sera pas utilisée.
+Par exemple, si la période de validité est définie sur la valeur par défaut de 5 jours dans Campaign, les messages soft bounce seront placés dans la file d’attente de reprise du MTA amélioré et ne feront l’objet d’une reprise que pendant 3,5 jours à compter du moment où ils ont atteint le MTA amélioré. Dans ce cas, la valeur définie dans Campaign ne sera pas utilisée.
 
 Une fois qu’un message figure dans la file d’attente du MTA amélioré depuis 3,5 jours et qu’il n’a pas été diffusé, il expire et son état est mis à jour de **[!UICONTROL Envoi]** à **[!UICONTROL Échec]** dans les logs de diffusion.
 
-Pour en savoir plus sur la période de validité, voir [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+Pour plus d’informations sur la période de validité, consultez [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
 
 ### Signature DKIM
 
-La signature de l’authentification par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée par l’AMT améliorée. Dans le cadre de la mise à niveau vers le MTA amélioré, la signature DKIM par le MTA natif de Campaign sera désactivée dans la table Gestion des domaines.
-Pour en savoir plus sur DKIM, voir [cette section](../../delivery/using/technical-recommendations.md#dkim).
+La signature d’authentification par email DKIM (DomainKeys Identified Mail) est effectuée par l’MTA amélioré. Dans le cadre de la mise à niveau vers le MTA amélioré, la signature DKIM par le MTA natif de Campaign sera désactivée dans la table Gestion des domaines.
+Pour en savoir plus sur DKIM, consultez [cette section](../../delivery/using/technical-recommendations.md#dkim).
 
 ### Rapports de réussite de diffusion
 
-Dans la vue **[!UICONTROL Résumé]** d&#39;une diffusion de courriel [tableau de bord](../../delivery/using/delivery-dashboard.md), le pourcentage **[!UICONTROL Succès]** début à 100 %, puis diminue progressivement tout au long de la diffusion [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period), lorsque les rebonds soft et hard sont reportés de l&#39;ATM amélioré.
+Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](../../delivery/using/delivery-dashboard.md) d&#39;une diffusion email, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) de la diffusion, à mesure que les erreurs soft et hard bounces font l&#39;objet de rapports du MTA amélioré vers Campaign.
 
-En effet, tous les messages s’affichent sous la forme **[!UICONTROL Envoyé]** dans les journaux [d’envoi](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) dès qu’ils sont correctement relayés de Campaign vers l’AMT amélioré. Ils restent dans ce statut à moins ou jusqu’à ce qu’un [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
+En effet, tous les messages s&#39;affichent comme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) dès qu&#39;ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
 
-Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état passe de **[!UICONTROL Envoyé]** à **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Succès]** est diminué en conséquence.
+Lorsque les messages hard bounce sont renvoyés du MTA amélioré, leur état passe de **[!UICONTROL Envoyés]** à **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Succès]** diminue en conséquence.
 
-Lorsque les messages rebondissant à l’écran sont renvoyés à partir de la MTA améliorée, ils apparaissent toujours sous la forme **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** n’est pas encore mis à jour. L&#39;envoi des messages soft bounces est ensuite [réessayé](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
+Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaissent toujours comme **[!UICONTROL Envoyés]** et le pourcentage **[!UICONTROL Succès]** n&#39;est pas encore mis à jour. L&#39;envoi des messages soft bounce fait ensuite l&#39;objet de [reprises](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
 
-* Si une nouvelle tentative a réussi avant la fin de la période de validité, l’état du message reste **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** reste inchangé.
+* Si une reprise est effectuée avec succès avant la fin de la période de validité, l&#39;état du message reste **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** reste le même.
 
-* Sinon, l’état devient **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Succès]** est diminué en conséquence.
+* Dans le cas contraire, l&#39;état devient **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Succès]** diminue en conséquence.
 
-Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage final **[!UICONTROL Succès]** et le nombre final de **[!UICONTROL Envoyé]** et **[!UICONTROL Échec]**.
+Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage **[!UICONTROL Succès]** final et le nombre final de messages réellement **[!UICONTROL Envoyés]** et en **[!UICONTROL En échec]**.
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
 ### Service de commentaires par email (bêta) {#email-feedback-service}
 
-Grâce à la fonctionnalité de service de commentaires par email (EFS), l’état de chaque email est rapporté avec précision, car les commentaires sont capturés directement à partir de l’agent du MTA amélioré.
+Grâce à la fonctionnalité Service de commentaires par email (EFS), l&#39;état de chaque email est signalé avec précision, car les commentaires sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
 
 >[!IMPORTANT]
 >
 >Le service de commentaires par email est actuellement disponible en version bêta.
 >
->Si vous souhaitez participer à ce programme bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous répondrons.
+>Si vous souhaitez participer à ce programme Bêta, remplissez [ce formulaire](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) et nous vous recontacterons.
 
-Une fois la diffusion lancée, le pourcentage **[!UICONTROL Succès]** n’est plus modifié lorsque le message est relayé de Campaign vers l’AMT amélioré.
+Une fois la diffusion lancée, le pourcentage **[!UICONTROL Succès]** n&#39;est plus modifié lorsque le message est relayé avec succès de Campaign vers le MTA amélioré.
 
 <!--![](assets/efs-sending.png)-->
 
-Les logs de diffusion affichent le **[!UICONTROL statut pris en compte par le prestataire]** pour chaque adresse ciblée.
+Les logs de diffusion affichent le statut **[!UICONTROL Pris en compte par le prestataire]** pour chaque adresse ciblée.
 
 <!--![](assets/efs-pending.png)-->
 
-Lorsque le message est effectivement diffusé aux profils ciblés et que ces informations sont rapportées en temps réel à partir du MTA amélioré, les logs de diffusion affichent l’état **[!UICONTROL Envoyé]** pour chaque adresse qui a reçu le message avec succès. Le pourcentage **[!UICONTROL Réussite]** est augmenté en conséquence à chaque diffusion réussie.
+Lorsque le message est effectivement diffusé aux profils ciblés et que ces informations sont renvoyées en temps réel du MTA amélioré, les logs de diffusion affichent l&#39;état **[!UICONTROL Envoyés]** pour chaque adresse ayant reçu le message avec succès. Le pourcentage **[!UICONTROL Succès]** augmente en conséquence lorsqu&#39;une diffusion est effectuée avec succès.
 
-Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état de journal passe de **[!UICONTROL Prise en compte par le prestataire]** à **[!UICONTROL Échec]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
+Lorsque des messages hard bounce sont signalés depuis le MTA amélioré, leur statut de log passe de **[!UICONTROL Pris en compte par le prestataire]** à **[!UICONTROL En échec]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Lorsque des messages rebondissants sont signalés à partir de la MTA améliorée, leur état de journal reste inchangé (**[!UICONTROL pris en compte par le prestataire]**) : seul le [motif d’erreur](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) est mis à jour<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Le pourcentage **[!UICONTROL Réussite]** reste inchangé. L&#39;envoi des messages soft bounces est ensuite réessayé tout au long de la [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) de la diffusion :
+Lorsque des messages soft bounce sont signalés depuis le MTA amélioré, leur statut de log reste inchangé (**[!UICONTROL pris en compte par le prestataire]**) : seule la [raison de l’erreur](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) est mise à jour<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Le pourcentage **[!UICONTROL Succès]** reste inchangé. L&#39;envoi des messages soft bounce fait ensuite l&#39;objet de reprises tout au long de la [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) de la diffusion :
 
-* Si une nouvelle tentative a réussi avant la fin de la période de validité, l’état du message passe à **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** est augmenté en conséquence.
+* Si une reprise est effectuée avec succès avant la fin de la période de validité, l’état du message passe à **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** augmente en conséquence.
 
-* Sinon, l’état devient **[!UICONTROL Échec]**. Le pourcentage **[!UICONTROL Réussite]** <!--and **[!UICONTROL Bounces + errors]** -->reste inchangé.
+* Sinon, l’état devient **[!UICONTROL Échec]**. Le <!--and **[!UICONTROL Bounces + errors]** -->pourcentage **[!UICONTROL Succès]** reste inchangé.
 
 >[!NOTE]
 >
->Pour plus d’informations sur les bounces hard et soft, voir [cette section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Pour plus d&#39;informations sur les hard et soft bounces, voir [cette section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Pour plus d’informations sur les reprises après une défaillance temporaire d’une diffusion, voir [cette section](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Pour plus d&#39;informations sur les reprises après une diffusion temporairement en échec, voir [cette section](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 
-Les tableaux ci-dessous montrent les modifications des indicateurs de performance clés et l&#39;état des journaux envoyés introduites par la fonctionnalité EFS.
+Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
 
-**Avec le service de commentaires par courriel**
+**Avec le service de commentaires par email**
 
-| Étape du processus d’envoi | Récapitulatif des indicateurs clés | Envoi de l&#39;état des journaux |
+| Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
-| Le message est relayé avec succès de Campaign vers le MTA amélioré | **[!UICONTROL Le pourcentage]** de réussite n’est pas affiché (débuts sortis à 0 %) | Pris en compte par le fournisseur de services |
-| Les rapports sur les messages hard bounces sont renvoyés à partir du MTA amélioré. | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | En échec |
-| Les messages soft bounces sont renvoyés à partir du MTA amélioré. | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | Pris en compte par le fournisseur de services |
-| Les reprises de messages soft bounces réussissent | **[!UICONTROL Le]** pourcentage de réussite est augmenté en conséquence. | Envoyés |
-| Échec des reprises de messages soft bounces | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | En échec |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | Le pourcentage **[!UICONTROL Succès]** n’est pas affiché (démarre à 0 %) | Pris en compte par le prestataire |
+| Les messages hard bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]** | En échec |
+| Les messages soft bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]** | Pris en compte par le fournisseur de services |
+| Les reprises des messages soft bounce sont effectuées avec succès | Le pourcentage **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
+| Échec des reprises des messages soft bounce | Aucun changement du pourcentage **[!UICONTROL Succès]** | En échec |
 
-**Sans le service de commentaires par courriel**
+**Sans le service de commentaires par email**
 
-| Étape du processus d’envoi | Récapitulatif des indicateurs clés | Envoi de l&#39;état des journaux |
+| Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
-| Le message est relayé avec succès de Campaign vers le MTA amélioré | **[!UICONTROL débuts]** de réussite sortis à 100 % | Envoyés |
-| Les rapports sur les messages hard bounces sont renvoyés à partir du MTA amélioré. | **[!UICONTROL Le]** pourcentage de réussite est diminué en conséquence. | En échec |
-| Les messages soft bounces sont renvoyés à partir du MTA amélioré. | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | Envoyés |
-| Les reprises de messages soft bounces réussissent | Aucun changement dans le pourcentage **[!UICONTROL Réussite]** | Envoyés | **[!UICONTROL Le]** pourcentage de réussite est augmenté en conséquence. | Envoyés |
-| Échec des reprises de messages soft bounces | **[!UICONTROL Le]** pourcentage de réussite est diminué en conséquence. | En échec |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | Le pourcentage **[!UICONTROL Succès]** commence à 100 % | Envoyés |
+| Les messages hard bounce sont renvoyés du MTA amélioré. | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence | En échec |
+| Les messages soft bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]** | Envoyés |
+| Les reprises des messages soft bounce sont effectuées avec succès | Aucun changement du pourcentage **[!UICONTROL Succès]** | Envoyés | Le pourcentage **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
+| Échec des reprises des messages soft bounce | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence | En échec |
