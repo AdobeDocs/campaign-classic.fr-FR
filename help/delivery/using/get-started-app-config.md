@@ -6,11 +6,11 @@ description: Découvrez comment débuter avec la configuration de l'application 
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 965aee2e310dd7e35d7a65bf9a1bda5dc8eb0959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer l
 
 En tant que client hybride/hébergé, contactez l&#39;équipe d&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour accéder au canal de notifications push dans Campaign.
 
-En tant que client sur site, vous devez installer un package intégré.
+En tant que client on-premise, vous devez installer un package natif.
 
 >[!CAUTION]
 >
->Pour en savoir plus sur les packages intégrés de Campaign, les meilleures pratiques et les recommandations, consultez [cette page](../../installation/using/installing-campaign-standard-packages.md).
+>Pour en savoir plus sur les packages natifs de Campaign, les bonnes pratiques et les recommandations, consultez [cette page](../../installation/using/installing-campaign-standard-packages.md).
 
-Les étapes d&#39;installation sont les suivantes :
+Les étapes d&#39;installation sont les suivantes :
 
 1. Accédez à l&#39;assistant d&#39;import de package depuis le menu **[!UICONTROL Outils > Avancé > Import de package...]** de la console cliente Adobe Campaign.
 
@@ -57,7 +57,7 @@ Les étapes d&#39;installation sont les suivantes :
 
 1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
-   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les journaux de l&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
    ![](assets/package_ios_3.png)
 
