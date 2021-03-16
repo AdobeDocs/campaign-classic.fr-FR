@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2018'
 ht-degree: 100%
 
 ---
@@ -205,5 +205,5 @@ du contenu est présent et s&#39;affiche.
 
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
 * [Programme Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
