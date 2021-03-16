@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Analyse du résultat
-description: Découvrez comment effectuer des tests A/B à l’aide d’un cas d’utilisation spécifique.
+description: Découvrez comment effectuer des tests A/B à l'aide d'un cas pratique spécifique.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
