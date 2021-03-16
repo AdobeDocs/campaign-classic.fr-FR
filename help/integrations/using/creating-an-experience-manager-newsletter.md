@@ -5,9 +5,9 @@ title: Création d'une newsletter Experience Manager
 description: Création d'une newsletter Experience Manager
 audience: integrations
 content-type: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
 ht-degree: 100%
 
