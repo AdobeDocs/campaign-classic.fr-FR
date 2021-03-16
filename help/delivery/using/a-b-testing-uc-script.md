@@ -6,11 +6,11 @@ description: Découvrez comment effectuer des tests A/B à l’aide d’un cas d
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -170,4 +170,4 @@ L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une 
 * Taux de désinscription le plus bas : `[indicators/@optOutRatio]`,
 * Montant des transactions : `[indicators/@amount]`.
 
-Vous pouvez désormais définir la diffusion finale (voir [Étape 6: Définissez la diffusion finale ](../../delivery/using/a-b-testing-uc-final-delivery.md)).
+Vous pouvez maintenant définir la diffusion finale (voir [Étape 6 : définir la diffusion finale ](../../delivery/using/a-b-testing-uc-final-delivery.md)).
