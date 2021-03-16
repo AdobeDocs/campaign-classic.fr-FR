@@ -6,11 +6,11 @@ description: Dernière version de Campaign Classic       Notes
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Pour la version Gold Standard de Campaign Classic (dernier build GA), [reportez-
 
 ## ![](assets/do-not-localize/blue_2.png) Version 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
-_22 février 2021_
+_22 février 2021_
 
 **Améliorations de la sécurité**
 
