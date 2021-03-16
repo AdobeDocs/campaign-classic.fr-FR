@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## ![](assets/do-not-localize/limited_2.png) Version 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
-_23 décembre 2020_
+_23 décembre 2020_
 
 >[!CAUTION]
 >
