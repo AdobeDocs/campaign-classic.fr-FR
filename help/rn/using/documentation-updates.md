@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '4190'
+source-wordcount: '4213'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
 
 ## Mars 2021 {#march-2021}
+
+Une nouvelle page a été ajoutée avec des lignes directrices et des références pour obtenir la prise en charge du Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
 
 Une nouvelle section a été ajoutée avec les meilleures pratiques et les vérifications à effectuer en matière de sécurité et de confidentialité. [En savoir plus](../../installation/using/get-started-security-privacy.md)
 
