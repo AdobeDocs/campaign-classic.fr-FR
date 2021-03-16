@@ -6,11 +6,11 @@ description: Découvrez les étapes principales d'un upgrade vers un nouveau bui
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2368'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Avant de commencer l&#39;upgrade de build, les clients On-Premise doivent effect
 
 1. Obtenez la dernière version du [fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md).
 
-1. [Téléchargez la dernière version](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html). [En savoir plus](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html).
+1. [Téléchargez le dernier build](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html). [En savoir plus](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html).
 
 Vous devez également connaître toutes les [lignes de commande utiles](../../installation/using/command-lines.md) avant de commencer un upgrade de build :
 
@@ -146,7 +146,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 1. Arrêtez les services suivants :
 
-   * services Web (IIS) :   **iisreset /stop**
+   * services Web (IIS) :  **iisreset /stop**
    * service Adobe Campaign : **net stop nlserver6**
 
    >[!NOTE]
@@ -163,7 +163,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 ### Mettre à jour l&#39;application serveur Adobe Campaign
 
-1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
+1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html).
 
 1. Sélectionnez le mode d&#39;installation : **Mise à jour** ou **Réparation**.
 
@@ -246,7 +246,7 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 
 Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
 
-1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
+1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
 1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
 
    ```
@@ -277,7 +277,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 Si l&#39;avertissement concerne un conflit de ressources, il requiert l&#39;intervention de l&#39;utilisateur pour être résolu.
 
-Le fichier de **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log**. contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **installationDirectory/var/instanceName/postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs d&#39;erreur et d&#39;avertissement.
+Le fichier de **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **installationDirectory/var/instanceName/postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs d&#39;erreur et d&#39;avertissement.
 
 ### Analyser les conflits
 
