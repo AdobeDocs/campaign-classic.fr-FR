@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '3138'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 97%
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
-_16 décembre 2020_
+_16 décembre 2020_
 
 >[!CAUTION]
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Triggers Experience Cloud via l&#39;authentification Auth, vous devez passer à l&#39;Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
+> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
 
 
 
@@ -89,7 +89,7 @@ _15 septembre 2020_
 >
 >Ce build est destiné aux installations on-premise uniquement. Pour les déploiements hybrides, les instances hébergées continueront à exécuter le build 9032. Ne mettez pas à niveau votre instance marketing vers le build 9035, car il n’est pas compatible avec la version 9032.
 
-_3 octobre 2019_
+_3 octobre 2019_
 
 **Améliorations**
 
@@ -101,7 +101,7 @@ _3 octobre 2019_
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.1.5 - Build 9033{#release-19-1-5-build-9033}
 
-_13 août 2019_
+_13 août 2019_
 
 **Améliorations**
 
@@ -121,9 +121,9 @@ _13 août 2019_
 >19.1.4 Les versions Gold Standard sont répertoriées dans cette [page](../../rn/using/gold-standard.md).
 
 
-## ![](assets/do-not-localize/red_2.png) Version 19.1.2 - Build 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/red_2.png) Version 19.1.2 - Build 9029{#release-19-1-2-build-9029}
 
-_21 juin 2019_
+_21 juin 2019_
 
 **Améliorations de la sécurité**
 
@@ -139,7 +139,7 @@ _21 juin 2019_
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.1 - Build 9026{#release-19-1-build-9026}
 
-_30 mai 2019_
+_30 mai 2019_
 
 **Nouveautés**
 
