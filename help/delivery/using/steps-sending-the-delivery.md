@@ -6,11 +6,11 @@ description: Configuration et envoi de la diffusion
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,21 +35,21 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
    >
    >Lorsque la diffusion est dupliquée, le paramètre est remis à zéro.
 
-* **[!UICONTROL Envoyer en utilisant plusieurs vagues]** : Pour plus d’informations sur ce sujet, reportez-vous à la section  [Envoi à l’aide de plusieurs vagues](#sending-using-multiple-waves).
+* **[!UICONTROL Envoyer en plusieurs vagues]** : pour plus d’informations, voir la section [Envoyer en plusieurs vagues](#sending-using-multiple-waves).
 
 * **[!UICONTROL Tester l’envoi par SMTP]** : cette option vous permet de tester l’envoi d’une diffusion via SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée.
 
    >[!NOTE]
    >
-   >L&#39;utilisation de cette option est déconseillée dans le cas d&#39;une installation en mid-sourcing afin de ne pas faire appel au mta. Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, consultez [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   >L&#39;utilisation de cette option est déconseillée dans le cas d&#39;une installation en mid-sourcing afin de ne pas faire appel au MTA. Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, voir [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
 * **[!UICONTROL Email Cci]** : permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (Cci, ou Bcc en anglais) à la cible des messages. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 
 ## Confirmation de l&#39;envoi des diffusions.{#confirming-delivery}
 
-Lorsque la diffusion est configurée et prête à être envoyée, vérifiez que vous avez exécuté l’analyse de diffusion.
+Une fois la diffusion configurée et prête à être envoyée, vérifiez que vous avez exécuté l’analyse de la diffusion.
 
-Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Pour plus d&#39;informations sur ce sujet, voir [Lancement de l&#39;analyse](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. Voir à ce propos la section [Lancement de l&#39;analyse](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -57,7 +57,7 @@ Une fois que vous avez terminé, cliquez sur **[!UICONTROL Confirmer l’envoi]*
 
 Vous pouvez ensuite fermer l&#39;assistant de diffusion et suivre l&#39;exécution de la diffusion depuis l&#39;onglet **[!UICONTROL Diffusion]** accessible à partir du détail de cette diffusion ou depuis la liste des diffusions.
 
-Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions. Voir à ce sujet les sections suivantes :
+Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions.Voir à ce sujet les sections suivantes :
 
 * [Contrôler une diffusion](../../delivery/using/about-delivery-monitoring.md)
 * [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
@@ -77,7 +77,7 @@ Vous pouvez différer la diffusion des messages pour planifier l&#39;envoi ou po
 
 >[!IMPORTANT]
 >
->Une fois que vous avez lancé l&#39;analyse, la date de contact que vous avez définie est figée. Si vous modifiez cette date, veillez à relancer l&#39;analyse pour que vos modifications soient bien prises en compte.
+>Une fois que vous avez lancé l&#39;analyse, la date de contact que vous avez définie est figée.Si vous modifiez cette date, veillez à relancer l&#39;analyse pour que vos modifications soient bien prises en compte.
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
@@ -93,7 +93,7 @@ Elle vous permet de différer la diffusion à une date ultérieure ou enregistre
 
 * L&#39;option **[!UICONTROL Planifier la diffusion (pas d&#39;exécution automatique)]** permet de planifier une analyse prévisionnelle de la diffusion.
 
-   Lorsque ce paramétrage est enregistré, la diffusion passe alors dans l&#39;état **[!UICONTROL Ciblage en attente]**. L&#39;analyse sera lancée à la date indiquée.
+   Lorsque ce paramétrage est enregistré, la diffusion passe alors dans l&#39;état **[!UICONTROL Ciblage en attente]**.L&#39;analyse sera lancée à la date indiquée.
 
 * L&#39;option **[!UICONTROL Planifier la diffusion (exécution automatique à la date prévue)]** permet d&#39;indiquer la date de contact.
 
@@ -137,7 +137,7 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
 
    >[!IMPORTANT]
    >
-   >Veillez à ce que les dernières vagues ne dépassent pas la date limite d&#39;envoi qui est définie dans l&#39;onglet **[!UICONTROL Validité]**. Sinon, certains messages peuvent ne pas être envoyés.
+   >Veillez à ce que les dernières vagues ne dépassent pas la date limite d&#39;envoi qui est définie dans l&#39;onglet **[!UICONTROL Validité]**.Sinon, certains messages peuvent ne pas être envoyés.
    >
    >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Reportez-vous à [cette section](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
 
@@ -173,9 +173,9 @@ Les messages temporairement non diffusés en raison d&#39;une erreur **Soft** ou
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers la [MTA améliorée](../../delivery/using/sending-with-enhanced-mta.md), les paramètres de nouvelle tentative dans la diffusion ne sont plus utilisés par Campaign. Les reprises des erreurs soft et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des retours provenant du domaine d&#39;email du message.
+>Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les paramètres de reprise de la diffusion ne sont plus utilisés par Campaign. Les reprises des erreurs soft et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des retours provenant du domaine d&#39;email du message.
 
-Pour les installations sur site et les installations hébergées/hybrides utilisant l’ancienne MTA Campaign, la section centrale de l’onglet **[!UICONTROL Diffusion]** pour les paramètres de diffusion indique le nombre de Reprises à effectuer le lendemain de la diffusion et le délai minimal entre les Reprises.
+Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, la section centrale de l’onglet **[!UICONTROL Diffusion]** pour les paramètres de diffusion indique le nombre de reprises à effectuer le lendemain de la diffusion et le délai minimal entre celles-ci.
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
@@ -189,11 +189,11 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
 * Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de lancement. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n&#39;est pas atteinte.
 
-   Vous pouvez également choisir de spécifier des dates. Pour cela, cochez l&#39;option **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent de préciser également l&#39;heure. Cette heure correspond par défaut à l&#39;heure courante mais peut être modifiée directement dans le champ de saisie.
+   Vous pouvez également choisir de spécifier des dates.Pour cela, cochez l&#39;option **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent de préciser également l&#39;heure. Cette heure correspond par défaut à l&#39;heure courante mais peut être modifiée directement dans le champ de saisie.
 
    >[!IMPORTANT]
    >
-   >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), le paramètre **[!UICONTROL Durée de Diffusion]** de vos diffusions de messagerie Campaign ne sera utilisé que si défini sur **3,5 jours ou moins**. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+   >Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), le paramètre **[!UICONTROL Durée de diffusion]** des diffusions Campaign ne sera utilisé que s’il est défini sur **3,5 jours ou moins**. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
 * **Limite de validité des ressources** : le champ **[!UICONTROL Limite de validité]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 
