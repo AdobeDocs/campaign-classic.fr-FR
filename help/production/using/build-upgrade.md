@@ -6,10 +6,10 @@ description: Découvrez les étapes principales d'un upgrade vers un nouveau bui
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: ht
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
-workflow-type: ht
-source-wordcount: '2368'
+translation-type: tm+mt
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+workflow-type: tm+mt
+source-wordcount: '2367'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 ### Mettre à jour l&#39;application serveur Adobe Campaign
 
-1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html).
+1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
 1. Sélectionnez le mode d&#39;installation : **Mise à jour** ou **Réparation**.
 
@@ -246,7 +246,7 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 
 Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
 
-1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
+1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
 1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
 
    ```
