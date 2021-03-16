@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25673f33c626edd5b7f4c7ba240364b3ea8d616a
+source-git-commit: 42166334d361ffdac13842cd9d07ca7c9859bbb2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 98%
+source-wordcount: '626'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**. L’ancien mode d’authentification OAuth sera abandonné le 30 avril 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**. L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 >
->Notez que lors de ce déplacement vers Adobe I/O, certains triggers entrants peuvent être perdus.
+>Notez que lors de ce déplacement vers [!DNL Adobe I/O], certains déclencheurs entrants peuvent être perdus.
 
 ## Prérequis {#adobe-io-prerequisites}
 
@@ -32,11 +32,11 @@ Cette intégration ne s&#39;applique qu&#39;à partir des **versions Campaign C
 Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléments suivants :
 
 * Un **identifiant d&#39;organisation** valide : l&#39;identifiant de l&#39;organisation Identity Management System (IMS) est l’identifiant unique dans Adobe Experience Cloud, utilisé par exemple pour le service VisitorID et l’authentification unique (SSO) IMS. [En savoir plus](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr)
-* Un **accès développeur** à votre organisation.  Si vous devez demander les privilèges d’administrateur système de l’organisation IMS, procédez comme décrit [dans cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) pour accorder cet accès à tous les profils de produit.
+* Un **accès développeur** à votre organisation. Si vous devez demander les privilèges d’administrateur système de l’organisation IMS, procédez comme décrit [dans cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html) pour accorder cet accès à tous les profils de produit.
 
 ## Étape 1 : créer/mettre à jour un projet Adobe I/O {#creating-adobe-io-project}
 
-1. Accédez à Adobe I/O et connectez-vous avec le droit Administrateur système pour I’organisation IMS.
+1. Accédez à [!DNL Adobe I/O] et connectez-vous avec le droit Administrateur système de l&#39;organisation IMS.
 
    >[!NOTE]
    >
@@ -66,17 +66,22 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
 1. Si l’identifiant du client était vide, sélectionnez **[!UICONTROL Générer une paire de clés]** pour créer une paire de clés publique et privée.
 
+   Les clés seront alors automatiquement téléchargées avec une date d&#39;expiration par défaut de 365 jours. Une fois expirée, vous devez créer une nouvelle paire de clés et mettre à jour l&#39;intégration dans le fichier de configuration. L&#39;option 2 vous permet de créer et de télécharger manuellement votre **[!UICONTROL clé publique]** avec une date d&#39;expiration plus longue.
+
    ![](assets/do-not-localize/adobe_io_4.png)
 
-1. Téléchargez votre clé publique et cliquez sur **[!UICONTROL Suivant]**.
+1. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Sélectionnez le profil de produit appelé **Analytics-&lt; Nom de l&#39;entreprise >** et cliquez sur **[!UICONTROL Enregistrer l&#39;API configurée]**.
+1. Sélectionnez un **[!UICONTROL profil de produits]** existant ou créez-en un nouveau si nécessaire. Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
+
+   Pour plus d&#39;informations sur [!DNL Analytics] **[!UICONTROL Profils de produits]**, consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
-1. Dans votre projet, sélectionnez **[!UICONTROL Compte de service (JWT)]** et copiez les informations suivantes :
+1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Analytics]** et copiez les informations suivantes sous **[!UICONTROL Compte de service (JWT)]** :
+
    * **[!UICONTROL Identifiant du client]**
    * **[!UICONTROL Secret du client]**
    * **[!UICONTROL Identifiant du du compte technique]**
@@ -96,9 +101,17 @@ Pour ajouter les informations d’identification du projet dans Adobe Campaign, 
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
->[!NOTE]
->
->Vous devez coder la clé privée au format base64 UTF-8. N&#39;oubliez pas de supprimer la nouvelle ligne de la clé avant de la coder, à l&#39;exception de la clé privée. La clé privée doit être la même que celle utilisée pour créer l&#39;intégration. Pour tester l&#39;encodage base64 de la clé privée, vous pouvez utiliser [ce site Web](https://www.base64encode.org/).
+La clé privée doit être encodée au format UTF-8 base64. Pour ce faire :
+
+1. Utilisez la clé privée générée dans la section [Étape 1 : créer/mettre à jour un projet Adobe I/O](#creating-adobe-io-project). La clé privée doit être la même que celle utilisée pour créer l&#39;intégration.
+
+1. Codez la clé privée à l’aide de la commande suivante : ```base64 ./private.key```.
+
+   >[!NOTE]
+   >
+   >Des lignes supplémentaires peuvent parfois être automatiquement ajoutées lorsque vous copiez/collez la clé privée. Pensez à la supprimer avant de d&#39;encoder votre clé privée.
+
+1. Utilisez votre nouvelle clé privée encodée au format UTF-8 base64 pour exécuter la commande décrite ci-dessus.
 
 ## Étape 3 : mettre à jour la balise en pipeline {#update-pipelined-tag}
 
