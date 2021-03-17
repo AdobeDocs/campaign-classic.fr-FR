@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Commencer la sécurité et la confidentialité
+title: Prise en main de la sécurité et de la confidentialité
 description: En savoir plus sur les éléments clés à vérifier en matière de sécurité et de confidentialité.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 45a77d3fc143ab9c6f9f17ab6118f8816254f6fd
+source-git-commit: 922603492d2c98d751683d3aa481e9ab19bca70c
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 66%
+source-wordcount: '450'
+ht-degree: 57%
 
 ---
 
 
-# Commencer avec la sécurité et la confidentialité {#get-started-security-privacy}
+# Prise en main de la sécurité et de la confidentialité {#get-started-security-privacy}
 
-Cette section vous présente les éléments clés à vérifier en matière de sécurité et de confidentialité.
+Cette section vous présente les éléments clés à vérifier en matière de sécurité et de confidentialité. Certaines configurations ne peuvent être exécutées que par des clients sur site.
 
 ## Confidentialité
 
@@ -52,9 +52,9 @@ Lorsque vous développez en Adobe Campaign (workflows, JavaScript, JSSP, etc.), 
 
 * **Scripts** : évitez si possible d’utiliser des instructions SQL. Utilisez des fonctions paramétrables plutôt que la concaténation de chaîne et évitez toute injection SQL en ajoutant les fonctions SQL à utiliser à la liste autorisée.
 
-* **Sécuriser le modèle de données** : utilisez des droits nommés pour limiter les actions des opérateurs et ajoutez des filtres système (sysFilter).
+* **Sécurisez le modèle** de données : utiliser des droits nommés pour limiter les actions des opérateurs, ajouter des filtres système (sysFilter)
 
-* **Ajouter des captchas dans les applications web** : découvrez comment ajouter des captchas dans vos pages d&#39;inscription et landing pages publiques.
+* **Ajoutez captchas dans les applications** Web : apprenez à ajouter des casquettes dans vos landings page publics et vos pages d&#39;abonnement.
 
 [En savoir plus](../../installation/using/scripting-coding-guidelines.md)
 
@@ -86,15 +86,15 @@ Le paramétrage doit être effectué sur tous les serveurs. Les fichiers de conf
 
 [En savoir plus](../../installation/using/server-configuration.md)
 
-## Paramétrage du serveur Web
+## Configuration du serveur web
 
 <img src="assets/do-not-localize/icon_web.svg" width="60px">
 
 Plusieurs bonnes pratiques doivent être suivies lors de la configuration de votre serveur Web (Apache/IIS) :
 
-* Désactivez l&#39;ancienne version de SSL et les chiffrements :
-* Supprimez la méthode TRACE :
+* Désactivez l&#39;ancienne version de SSL et les chiffrements.
+* Supprimer la méthode de TRACE
 * Supprimez la bannière :
-* Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux :
+* Limiter la taille de la requête pour empêcher le téléchargement de fichiers importants
 
 [En savoir plus](../../installation/using/web-server-configuration.md)
