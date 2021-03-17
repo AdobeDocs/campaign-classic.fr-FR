@@ -5,9 +5,9 @@ title: Configuration de l’intégration Adobe Experience Manager
 description: Découvrez comment configurer l’intégration Campaign-AEM
 audience: integrations
 content-type: reference
-translation-type: ht
-source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Vous devez configurer une zone de sécurité pour que cet opérateur puisse se c
 
 >[!CAUTION]
 >
->Il est vivement recommandé de créer une zone de sécurité dédiée à AEM afin d&#39;éviter tout problème de sécurité. Voir à ce propos le [guide](../../installation/using/configuring-campaign-server.md#defining-security-zones) d&#39;installation.
+>Il est vivement recommandé de créer une zone de sécurité dédiée à AEM afin d&#39;éviter tout problème de sécurité. Voir à ce propos le [guide](../../installation/using/security-zones.md) d&#39;installation.
 
 Si votre instance Campaign est hébergée par Adobe, contactez l’équipe d&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Si vous utilisez Campaign on-premise, procédez comme suit :
 
