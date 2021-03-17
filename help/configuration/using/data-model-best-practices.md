@@ -96,7 +96,7 @@ L’attribut tablespace du schéma permet de spécifier un tablespace dédié po
 
 Avec l’assistant d’installation, il est possible de stocker des objets en fonction de leur type (données, temporaire et index).
 
-Les tablespaces dédiés sont plus performants pour la création de partitions et les règles de sécurité. Ils offrent en outre une administration fluide et flexible, une meilleure optimisation et des performances optimales.
+Les tablespaces dédiés sont plus performants pour la création de partitions et les règles de sécurité.Ils offrent en outre une administration fluide et flexible, une meilleure optimisation et des performances optimales.
 
 ## Identificateurs {#identifiers}
 
@@ -142,7 +142,7 @@ Il existe deux types de séquences :
 >
 >La séquence est un nombre entier sur 32 bits, avec un nombre maximal fini de valeurs possibles (2,14 milliards). Après avoir atteint la valeur maximale, la séquence revient à 0 pour effectuer un nouveau cycle de génération d’id.
 >
->Faute de purge des anciennes données, il se produit une violation de clé unique, obstacle à l’intégrité et l’utilisation de la plateforme.  Adobe Campaign n’est plus en mesure d’envoyer des communications (en cas d’impact sur la table des logs de diffusion), ce qui a un impact sur les performances.
+>Faute de purge des anciennes données, il se produit une violation de clé unique, obstacle à l’intégrité et l’utilisation de la plateforme. Adobe Campaign n’est plus en mesure d’envoyer des communications (en cas d’impact sur la table des logs de diffusion), ce qui a un impact sur les performances.
 
 Ainsi, un client qui diffuse 6 milliards d’emails par an en conservant les logs pendant 180 jours, serait à court d’id en 4 mois. Pour éviter un tel problème, veillez à définir les paramètres de purge en fonction de vos volumes. Voir à ce propos [cette section](#data-retention).
 
@@ -253,7 +253,7 @@ Par défaut, les logs de diffusion et de tracking d’Adobe Campaign sont conse
 
 En savoir plus sur la conservation des données dans les [recommandations relatives à la confidentialité et à la sécurité de Campaign](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#consent).
 
-Pour en savoir plus sur le processus de nettoyage de la base de données Campaign [dans cette section](../../production/using/database-cleanup-workflow.md).
+Pour en savoir plus sur le workflow de nettoyage de base de données de Campaign, consultez [cette section](../../production/using/database-cleanup-workflow.md).
 
 >[!IMPORTANT]
 >
