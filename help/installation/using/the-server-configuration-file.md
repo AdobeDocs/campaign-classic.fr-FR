@@ -639,9 +639,9 @@ Exemple pour phantomjs :
 phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:{outPdf}' '-post:{postFile}' '-url:{originUrl}' -sessiontoken:{sessiontoken} -format:{format} -orientation:{orientation} -marginTop:{marginTop} -marginLeft:{marginLeft} -marginRight:{marginRight} -marginBottom:{marginBottom}
 ```
 
-## ims {#ims}
+## IMS {#ims}
 
-Voici les différents paramètres du noeud **ims**. Il s&#39;agit de la configuration pour Campaign se connectant à un autre service à l&#39;aide de [IMS](../../integrations/using/about-adobe-id.md).
+Voici les différents paramètres du nœud **IMS**. Il s&#39;agit de la configuration pour Campaign se connectant à un autre service à l&#39;aide de [IMS](../../integrations/using/about-adobe-id.md).
 
 <table> 
  <thead> 
