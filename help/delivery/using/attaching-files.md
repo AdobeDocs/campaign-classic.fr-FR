@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1032'
 ht-degree: 100%
 
 ---
@@ -101,11 +101,6 @@ L’option **[!UICONTROL Le contenu du fichier est personnalisé et converti en 
 Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes :
 
 1. Sélectionnez le fichier à télécharger.
-
-   >[!NOTE]
-   >
-   >Le fichier source doit être créé sous LibreOffice. La configuration de l&#39;instance doit respecter les prérequis décrits dans [cette section](../../installation/using/before-starting.md).
-
 1. Précisez le libellé si nécessaire.
 1. Sélectionnez l&#39;option **[!UICONTROL Télécharger le fichier sur le serveur]**, puis cliquez sur le lien **[!UICONTROL Mettre à jour sur le serveur]** pour lancer le transfert.
 1. Vous pouvez afficher une prévisualisation : pour cela, sélectionnez un destinataire.
