@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 69%
+source-wordcount: '1159'
+ht-degree: 71%
 
 ---
 
@@ -29,8 +29,6 @@ ht-degree: 69%
 >
 >
 Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
-
-Pour savoir comment utiliser l&#39;interface utilisateur libre-service des zones de sécurité pour gérer les entrées dans la configuration de la zone de sécurité VPN, consultez [cette note technique](https://helpx.adobe.com/fr/campaign/kb/configuring-security-zones-self-service.html).
 
 * Vérifiez que le proxy inverse n&#39;est pas autorisé dans subNetwork. Si c&#39;est le cas, l&#39;**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
 
@@ -127,6 +125,6 @@ Adobe Campaign vous permet de définir un mot de passe simple dans l’élément
 
 Par défaut, Adobe Campaign n’associe pas une session à une adresse IP spécifique, mais vous pouvez activer cette option pour empêcher tout vol de la session. Pour ce faire, dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md), définissez l’attribut checkIPConsistent sur **true** dans le noeud `<authentication>`.
 
-Par défaut, Adobe Campaign MTA n’utilise pas de connexion sécurisée pour envoyer du contenu au serveur SMTP. Vous devez activer cette fonction (peut réduire la vitesse de diffusion). Pour ce faire, définissez enableTLS sur tr**ue dans le noeud `<smtp ...>`.
+Par défaut, Adobe Campaign MTA n’utilise pas de connexion sécurisée pour envoyer du contenu au serveur SMTP. Vous devez activer cette fonction (peut réduire la vitesse de diffusion). Pour ce faire, définissez **enableTLS** sur **true** dans le noeud `<smtp ...>`.
 
 Vous pouvez réduire la durée de vie d&#39;une session dans le nœud d&#39;authentification (attribut sessionTimeOutSec).
