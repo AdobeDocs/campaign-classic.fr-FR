@@ -7,7 +7,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '2844'
 ht-degree: 98%
@@ -92,7 +92,7 @@ Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utili
 
 **Après le postupgrade** (avant le redémarrage du serveur), vous devez configurer les zones de sécurité.
 
-La configuration des zones de sécurité est présentée dans [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+La configuration des zones de sécurité est présentée dans [cette section](../../installation/using/security-zones.md).
 
 ### Mots de passe des opérateurs {#user-passwords}
 
