@@ -7,19 +7,17 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 89%
 
 ---
 
 
 # Interaction - Mémoire tampon{#interaction-data-buffer}
 
->[!NOTE]
->
->Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
+Vous pouvez configurer une zone de tampon de données pour augmenter les performances de l’interaction entrante en désynchronisant les calculs de Proposition d&#39;offre. Cette configuration doit être effectuée dans le fichier de configuration de l’instance (config-Instance.xml).
 
 Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
 
@@ -27,12 +25,19 @@ Il concerne uniquement interaction entrant, soit pour un appel (avec ou sans don
 
 Afin d&#39;éviter une file d&#39;attente lors de l&#39;écriture des propositions liées à un destinataire, un nouveau processus génère une **zone de mémoire tampon** qui permet l&#39;**écriture asynchrone** des propositions. Cette zone de mémoire de tampon est lue et vidée de façon périodique. La période par défaut correspond environ à une seconde. Par conséquent, l&#39;écriture des propositions est regroupée.
 
+>[!NOTE]
+>
+>Ce paramètre est indispensable si vous utilisez Interaction avec une architecture répartie.
+
 Le **paramétrage** de la zone de mémoire tampon est à effectuer dans le fichier de configuration propre à l&#39;instance (config-Instance.xml).
 
->[!NOTE]
+>[!CAUTION]
+>
+>Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 >
 >Tout changement effectué sur la configuration demande un redémarrage du serveur web (Apache / IIS) et des processus Adobe Campaign.\
 >Lors du paramétrage de la zone de mémoire tampon, veillez à disposer d&#39;une configuration matériel adaptée (quantité de mémoire vive).
+
 
 Lors du paramétrage de la zone de mémoire tampon, veillez à disposer d&#39;une configuration matériel adaptée (quantité de mémoire vive).
 
