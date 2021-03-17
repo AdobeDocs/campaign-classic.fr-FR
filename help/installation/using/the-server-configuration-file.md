@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 99%
@@ -21,7 +21,7 @@ La configuration globale d’Adobe Campaign est définie dans le fichier **serve
 
 >[!NOTE]
 >
->Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md). Les étapes d&#39;installation et de configuration des modèles hébergés et hybrides sont présentées dans cette [section](../../installation/using/hosted-model.md).
+>Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md). Les étapes d&#39;installation et de configuration des modèles hébergés et hybrides sont présentées dans cette [section](../../installation/using/hosting-models.md).
 
 Les premiers paramètres se trouvent dans le nœud **shared**. Ils sont liés à l’instance et peuvent être utilisés par toutes les commandes nlserver (nlserver web, nlserver wfserver, etc.). Les autres sections se rapportent à une sous-commande spécifique de nlserver.
 
@@ -2193,7 +2193,7 @@ Voici les différents paramètres du nœud **repair**. Il s’agit de la configu
 
 Voici les différents paramètres du nœud **securityZone**.
 
-Pour plus d&#39;informations, voir la section [Définition des zones de sécurité](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+Pour plus d&#39;informations, voir la section [Définition des zones de sécurité](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2291,7 +2291,7 @@ Voici la configuration par défaut :
 
 Voici les différents paramètres du nœud **securityZone > subNetwork**.
 
-Pour plus d&#39;informations, voir la section [Définition des zones de sécurité](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+Pour plus d&#39;informations, voir la section [Définition des zones de sécurité](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
