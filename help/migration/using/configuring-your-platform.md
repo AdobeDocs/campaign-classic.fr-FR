@@ -7,7 +7,7 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
@@ -109,7 +109,7 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 
 * Zones de sécurité
 
-   Avant de démarrer le serveur, vous devez configurer les zones de sécurité. Pour plus d&#39;informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones) et la section [Sécurité](../../migration/using/general-configurations.md#security).
+   Avant de démarrer le serveur, vous devez configurer les zones de sécurité. Pour plus d&#39;informations, consultez [cette section](../../installation/using/security-zones.md) et la section [Sécurité](../../migration/using/general-configurations.md#security).
 
 * Schémas
 
