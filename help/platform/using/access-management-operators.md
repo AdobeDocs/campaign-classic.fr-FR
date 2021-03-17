@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 ---
 
 
-# Créer et gérer des opérateurs {#operators}
+# Création et gestion d’opérateurs {#operators}
 
 ## Commencer avec les opérateurs Campaign {#about-operators}
 
@@ -33,7 +33,7 @@ Pour plus d&#39;informations sur l&#39;intégration d&#39;Adobe Campaign avec LD
 
 >[!IMPORTANT]
 >
->Un opérateur doit être associé à une zone de sécurité pour se connecter à une instance. Pour plus d&#39;informations sur les zones de sécurité dans Adobe Campaign, consultez [cette page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+>Un opérateur doit être associé à une zone de sécurité pour se connecter à une instance. Pour plus d&#39;informations sur les zones de sécurité dans Adobe Campaign, consultez [cette page](../../installation/using/security-zones.md).
 
 Les utilisateurs peuvent également se connecter directement à Adobe Campaign via leur Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
 
@@ -106,7 +106,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
    >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de la part de Campaign. Pour arrêter l&#39;envoi de notifications Campaign à cet opérateur, Adobe vous recommande de supprimer l&#39;adresse email de son profil.
 
 * L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à un [accès web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
-* Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+* Vous pouvez associer une zone de sécurité à l&#39;opérateur. Voir à ce propos [cette page](../../installation/using/security-zones.md).
 * Vous pouvez également définir un masque IP de confiance à partir du lien correspondant.
 
    L&#39;opérateur pourra se connecter à Adobe Campaign sans saisir son mot de passe si son adresse IP est dans cette liste.
