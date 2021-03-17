@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: baa41d876b889d2746f593e97f6b624dfffa5911
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Le workflow Nettoyage de la base de données permet de supprimer les données ob
 
 ## 3. Comment configurer des zones de sécurité ?{#how-can-i-configure-security-zones-}
 
-L’interface Security Zones Self Service peut être utilisée pour gérer les entrées de la configuration Zone de sécurité VPN d’un déploiement Adobe Campaign Classic. Pour plus d’informations sur les zones de sécurité dans Campaign, consultez [cette section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
+L’interface Security Zones Self Service peut être utilisée pour gérer les entrées de la configuration Zone de sécurité VPN d’un déploiement Adobe Campaign Classic. Pour plus d’informations sur les zones de sécurité dans Campaign, consultez [cette section](../../installation/using/security-zones.md).
 
 [Cliquez ici pour en savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-security-zones-self-service.html) sur l’interface utilisateur Security Zone Self Service.
 
