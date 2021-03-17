@@ -6,11 +6,11 @@ description: Découvrez les étapes techniques clés de l'upgrade vers un nouvea
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: ht
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
-workflow-type: ht
-source-wordcount: '1193'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,6 @@ Il est nécessaire d&#39;arrêter toutes les instances du service nlserver afin 
       **iisreset /stop**
 
    * service Adobe Campaign : **net stop nlserver6**
-
    >[!IMPORTANT]
    >
    >Vous devez également vous assurer que le serveur de redirection (webmdl) est arrêté afin que le fichier **nlsrvmod.dll**, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
@@ -117,7 +116,7 @@ Pour mettre à jour Adobe Campaign dans une nouvelle version lors de la diffusio
 * [Effectuer la mise à jour](#perform-an-update),
 * [Redémarrer le serveur web](#reboot-the-web-server).
 
-Pour connaître la procédure de mise à jour de la console cliente, reportez-vous à [cette section](../../installation/using/client-console-availability-for-linux.md).
+[En savoir plus sur la disponibilité](../../installation/using/client-console-availability-for-windows.md) de Client Console.
 
 >[!NOTE]
 >
@@ -125,7 +124,7 @@ Pour connaître la procédure de mise à jour de la console cliente, reportez-vo
 
 ### Obtenir les packages à jour {#obtain-updated-packages}
 
-Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
+Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 Le fichier est **nlserver6-v7-XXX.rpm**
 
@@ -173,8 +172,10 @@ Pour cela exécutez la commande :
 >
 >* Il est possible que votre script porte le nom **httpd** plutôt que **apache**.
 >* Vous DEVEZ impérativement exécuter cette commande jusqu&#39;à obtenir la réponse suivante :
->
->   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
+
+   >
+   >   
+   Cette opération est nécessaire afin qu&#39;Apache prenne en compte la nouvelle bibliothèque.
 
 
 Puis redémarrez Apache :
