@@ -6,7 +6,7 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 587daebd8a779bb9d0917fd2dfab4144494809e3
+source-git-commit: cac3e22dd9aa8220f6980bef0d57c11d47c91163
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Si votre environnement utilise une version inférieure à celle répertoriée ci
 
 Vous devez effectuer la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessus.
 
-* En tant que client hybride, l’Adobe mettra à niveau l’instance de midsourcing vers la nouvelle version et il est fortement recommandé de mettre à niveau son instance de marketing également.
+* En tant que client hybride, l’Adobe mettra à niveau l’instance marketing vers la nouvelle version et il est vivement recommandé de mettre à niveau son instance marketing également.
 
    La nouvelle version est compatible avec au moins la version 17.9 de Campaign Classic, mais pour éviter tout problème de sécurité, Adobe recommande vivement de mettre à niveau toutes les instances vers une nouvelle version. 
 
