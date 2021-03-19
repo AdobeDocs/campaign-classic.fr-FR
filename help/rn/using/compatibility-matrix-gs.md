@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Matrice de compatibilité Gold Standard
+title: Matrice de compatibilité pour Campaign Gold Standard
 description: Matrice de compatibilité Campaign Classic pour la version Gold Standard
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
-workflow-type: ht
-source-wordcount: '514'
-ht-degree: 100%
+feature: 'Vue d’ensemble '
+role: Professionnel
+level: Débutant
+translation-type: tm+mt
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 98%
 
 ---
 
@@ -206,7 +206,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>Oracle</td>
 <td>
-<p>12c</p>
+<p>12 quater</p>
 <p>11g</p>
 </td>
 </tr>
