@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Version 18.10
-description: Version 18.10
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '2366'
-ht-degree: 100%
+title: Notes de mise à jour de Campaign 18.10
+description: Notes de mise à jour de Campaign 18.10
+feature: 'Vue d’ensemble '
+role: Professionnel
+level: Débutant
+translation-type: tm+mt
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+workflow-type: tm+mt
+source-wordcount: '2375'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Améliorations**
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
