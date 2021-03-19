@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Dernière version
 description: Dernière version de Campaign Classic       Notes
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+feature: 'Vue d’ensemble '
+role: Professionnel
+level: Débutant
+translation-type: tm+mt
+source-git-commit: d1796224df95663c39fa5975e88c03a923c94878
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Si vous souhaitez participer à cette version bêta privée, remplissez ce [form
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
 ```
 
-* Correction d&#39;un problème qui empêchait l&#39;envoi de nouvelles diffusions avec la personnalisation des données de la cible.
+* Correction d’un problème qui empêchait l’envoi de nouvelles diffusions avec la personnalisation des données de cible (NEO-30323).
 * Correction d&#39;un problème en raison duquel plusieurs blocages se produisaient dans l&#39;instance marketing générant les fichiers principaux.
 * Correction d&#39;un problème en raison duquel le workflow **Suivi** échouait avec l&#39;erreur suivante (NEO-25206) :
 
