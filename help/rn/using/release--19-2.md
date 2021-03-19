@@ -2,14 +2,14 @@
 solution: Campaign Classic
 product: campaign
 title: Version 19.2
-description: Version 19.2
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+description: Notes de mise à jour de Campaign 19.2
+feature: null
+role: null
+level: null
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1418'
 ht-degree: 97%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
-_23 décembre 2020_
+_23 décembre 2020_
 
 >[!CAUTION]
 >
@@ -44,7 +44,7 @@ _7 février 2020_
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.2 - Build 9080 {#release-19-2-build-9080}
 
-_2 décembre 2019_
+_2 décembre 2019_
 
 **Nouveautés**
 
