@@ -1,15 +1,15 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Version 19.1
-description: Version 19.1
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+title: Notes de mise à jour de Campaign 19.1
+description: Notes de mise à jour de Campaign 19.1
+feature: null
+role: null
+level: null
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
 workflow-type: tm+mt
-source-wordcount: '3138'
+source-wordcount: '3145'
 ht-degree: 98%
 
 ---
@@ -25,7 +25,7 @@ _16 décembre 2020_
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
+> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification Auth hérité avec Campaign sera retiré le **30 novembre 2021**.
 
 
 
