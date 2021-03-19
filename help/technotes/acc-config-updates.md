@@ -6,7 +6,7 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 849a95c718f9dc58aeabc8a49d3bf8290ea79b86
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 15%
@@ -25,6 +25,7 @@ En tant que client sur site/hybride, pour des raisons de sécurité, vous devez 
 >[!NOTE]
 >
 >Pour toute question sur ces modifications, contactez le service à la clientèle [Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 
 ## Mises à jour de sécurité
 
@@ -101,7 +102,7 @@ Une fois toutes les instances mises à niveau, la console client doit également
 
 ## Intégration avec les déclencheurs Experience Cloud
 
-Le service d’authentification Auth hérité a atteint la fin de vie. Déclenche l&#39;authentification d&#39;intégration, basée à l&#39;origine sur la configuration de l&#39;authentification Auth pour accéder au pipeline, a été déplacée vers l&#39;Adobe I/O. Il sera retiré le **30 avril 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+Le service d’authentification Auth hérité a atteint la fin de vie. Déclenche l&#39;authentification d&#39;intégration, basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline, a été déplacée vers l&#39;Adobe I/O. Il sera retiré le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
 **Es-tu affecté ?**
 
