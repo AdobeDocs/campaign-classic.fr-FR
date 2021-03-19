@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -66,9 +66,9 @@ Vous pouvez configurer le répertoire de stockage (répertoire **var**) des donn
 
 * Sous Linux, rendez-vous dans le fichier **customer.sh** et indiquez : **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   Voir à ce sujet la section [Personnaliser les paramètres](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+   Pour plus d&#39;informations à ce sujet, reportez-vous à la section [Personnaliser les paramètres](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
-## Activation des processus {#enabling-processes}
+## Activer les processus {#enabling-processes}
 
 L’activation (ou la désactivation) des processus Adobe Campaign se fait sur le serveur à partir des fichiers **config-default.xml** et **`config-<instance>.xml`**.
 
@@ -122,6 +122,6 @@ Les paramètres de diffusion doivent être configurés dans le dossier **serverC
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-Les autres paramètres de diffusion disponibles dans ce fichier sont présentés dans la section [Personnalisation des paramètres de diffusion](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+Les autres paramètres de diffusion disponibles dans ce fichier sont présentés dans [Personnaliser les paramètres de diffusion](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
 Consultez également la section [Délivrabilité des emails](../../installation/using/email-deliverability.md).
