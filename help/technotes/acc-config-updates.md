@@ -6,9 +6,9 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: 587daebd8a779bb9d0917fd2dfab4144494809e3
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1027'
 ht-degree: 15%
 
 ---
@@ -72,11 +72,11 @@ La dernière version de Gold Standard 11 corrige une régression qui empêchait 
 
 Le service d&#39;identité d&#39;Adobe (IMS) cessera de prendre en charge les anciennes versions d&#39;Internet Explorer à compter du **30 juin 2021**. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
-La console client Campaign a été mise à jour afin de garantir la compatibilité avec l&#39;Adobe IMS dans les versions Campaign suivantes :
+Campaign Client Console a été mis à jour pour assurer la compatibilité avec l&#39;Adobe IMS.
 
 **Es-tu affecté ?**
 
-Si vous vous connectez à Campaign [par l&#39;intermédiaire d&#39;un Adobe ID](../integrations/using/about-adobe-id.md), via le service d&#39;identité d&#39;Adobe (IMS), la mise à niveau vers l&#39;une des nouvelles versions répertoriées ci-dessous est obligatoire :
+Si vous vous connectez à Campaign [via un Adobe ID](../integrations/using/about-adobe-id.md), par le biais d’Adobe Identity Management Service (IMS), la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
