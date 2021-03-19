@@ -2,14 +2,14 @@
 solution: Campaign Classic
 product: campaign
 title: Mises à jour de la documentation d'Adobe Campaign Classic
-description: Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d'Adobe Campaign Classic
-audience: rns
-content-type: reference
-topic-tags: latest-documentation-updates
+description: Cette page liste toutes les nouvelles fonctionnalités et mises à jour de la documentation Adobe Campaign Classic.
+feature: 'Vue d’ensemble '
+role: Professionnel
+level: Débutant
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '4213'
+source-wordcount: '4214'
 ht-degree: 99%
 
 ---
