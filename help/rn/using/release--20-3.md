@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Version 20.3
-description: Version 20.3
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+title: Notes de mise à jour de Campaign 20.3
+description: Notes de mise à jour de Campaign 20.3
+feature: 'Vue d’ensemble '
+role: Professionnel
+level: Débutant
 translation-type: tm+mt
-source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
+source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 95%
+source-wordcount: '1956'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 
-_11 janvier 2021_
+_11 janvier 2021_
 
 * Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
 * Correction d’un problème de régression lié au processus de génération des broadlogs qui entraînait le blocage du processus MTA.
@@ -32,7 +32,7 @@ _27 octobre 2020_
 >
 > * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
 > * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Triggers Experience Cloud via l&#39;authentification Auth, vous devez passer à l&#39;Adobe I/O comme décrit [dans cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth sera abandonné le **30 avril 2021**.
+> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification Auth hérité avec Campaign sera retiré le **30 novembre 2021**.
 
 
 **Nouveautés**
