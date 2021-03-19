@@ -2,17 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Fonctionnalités obsolètes et supprimées de Campaign Classic
-description: Cette page répertorie les fonctionnalités obsolètes et supprimées d’Adobe Campaign Classic
-audience: rn
-content-type: reference
-topic-tags: campaign-classic-deprecated-features
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
-workflow-type: ht
-source-wordcount: '1712'
-ht-degree: 100%
+description: Les listes de cette page ont abandonné et supprimé les fonctionnalités de Adobe Campaign Classic.
+feature: 'Vue d’ensemble '
+role: Professionnel
+level: Débutant
+translation-type: tm+mt
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+workflow-type: tm+mt
+source-wordcount: '1716'
+ht-degree: 99%
 
 ---
 
