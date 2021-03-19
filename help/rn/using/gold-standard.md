@@ -7,15 +7,15 @@ feature: 'Vue d’ensemble '
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
+source-git-commit: 0ce968d8acdd0aea0211da248a085f05dfe70ae7
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 93%
 
 ---
 
 
-# Versions Gold Standard{#gold-standard}
+# Notes de mise à jour de la version Gold Standard{#gold-standard}
 
 Cette page répertorie les versions Gold Standard. Pour en savoir plus sur Campaign Gold Standard [consultez cette page](gs-overview.md).
 
