@@ -6,10 +6,10 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 9b4b1bb5d016df8a7933ac0b96c6f110b0c4d7ac
+source-git-commit: b036dccc012b1948837549492d9a1b0726af459d
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 15%
+source-wordcount: '1068'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,8 @@ Si votre environnement utilise une version inférieure à celle répertoriée ci
 * Version Campaign 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
 * Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
+Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
 **Comment mettre à jour ?**
 
 Vous devez effectuer la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessus.
@@ -60,13 +62,12 @@ Vous devez effectuer la mise à niveau vers l’une des nouvelles versions répe
 
 ## Mise à jour de la console client Campaign
 
-La dernière version de Gold Standard 11 corrige une régression qui empêchait l&#39;utilisation de certains composants de la Console client, tels que le sélecteur de dates et la gestion des images dans les diffusions. La mise à niveau de la console est obligatoire.
+Les versions suivantes corrigent une régression qui empêchait l’utilisation de certains composants de la console client, tels que le sélecteur de date et la gestion des images dans les diffusions. **La** mise à niveau de la console est obligatoire.
 
-[En savoir plus](../rn/using/gold-standard.md).
-
->[!NOTE]
->
->Ce correctif est également disponible dans les dernières [19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039), [19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082) et [20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126).
+* Dernière version de Gold Standard 11 9032@10c2709. [En savoir plus](../rn/using/gold-standard.md)
+* Version Campaign 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
+* Version Campaign 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
+* Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
 ## Mise à jour du système IMS (Adobe Identity Management System)
 
@@ -87,6 +88,8 @@ Si vous vous connectez à Campaign [via un Adobe ID](../integrations/using/about
 * Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
 Ces versions sont accompagnées d’un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et Client Console puissent se connecter à Campaign après le **30 juin 2021**.
+
+Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **Comment mettre à jour ?**
 
@@ -116,6 +119,8 @@ La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous 
 * Version Campaign 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
 * Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
+Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
 **Comment mettre à jour ?**
 
 Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la procédure [passer au nouveau mode d&#39;authentification](../integrations/using/configuring-adobe-io.md). Pour ce faire, vous devez générer le nouveau jeton d’Adobe I/O et l’utiliser dans l’implémentation.  
@@ -133,6 +138,8 @@ Le service de notifications Push Apple (APN) ne prendra plus en charge le protoc
 **Est-ce que tu es affecté ?**
 
 Si vos instances s’exécutent sur une version **plus ancienne que Campaign 21.1,** et envoient des notifications Push avec le protocole binaire Apple hérité, vous devez mettre à jour l’API du fournisseur APN basé sur HTTP/2.
+
+Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **Comment mettre à jour ?**
 
@@ -157,7 +164,6 @@ En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà
 En tant que client sur site/hybride, vous devez mettre à jour votre configuration pour garantir une transition **transparente avant le 29 mars 2021**.
 
 [Découvrez comment incorporer le nouveau certificat](ios-certificate-update.md).
-
 
 ## Liens utiles
 
