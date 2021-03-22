@@ -6,9 +6,9 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
+source-git-commit: 9b4b1bb5d016df8a7933ac0b96c6f110b0c4d7ac
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1025'
 ht-degree: 15%
 
 ---
@@ -60,13 +60,13 @@ Vous devez effectuer la mise à niveau vers l’une des nouvelles versions répe
 
 ## Mise à jour de la console client Campaign
 
-La dernière version de Gold Standard 11 corrige une régression qui empêchait l&#39;utilisation de certains composants de la Console de contrôle, tels que le sélecteur de date et la gestion des images dans les diffusions. La mise à niveau de la console est obligatoire.
+La dernière version de Gold Standard 11 corrige une régression qui empêchait l&#39;utilisation de certains composants de la Console client, tels que le sélecteur de dates et la gestion des images dans les diffusions. La mise à niveau de la console est obligatoire.
 
 [En savoir plus](../rn/using/gold-standard.md).
 
 >[!NOTE]
 >
->Ce correctif se trouve également dans les derniers [19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039), [19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082) et [20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126). La nouvelle console client pour les autres versions sera bientôt disponible.
+>Ce correctif est également disponible dans les dernières [19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039), [19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082) et [20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126).
 
 ## Mise à jour du système IMS (Adobe Identity Management System)
 
