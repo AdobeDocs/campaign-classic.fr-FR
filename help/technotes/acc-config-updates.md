@@ -6,9 +6,9 @@ description: Technote
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: cac3e22dd9aa8220f6980bef0d57c11d47c91163
+source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1035'
 ht-degree: 15%
 
 ---
@@ -66,7 +66,7 @@ La dernière version de Gold Standard 11 corrige une régression qui empêchait 
 
 >[!NOTE]
 >
->La nouvelle console client pour les autres versions sera bientôt disponible.
+>Ce correctif se trouve également dans les derniers [19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039), [19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082) et [20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126). La nouvelle console client pour les autres versions sera bientôt disponible.
 
 ## Mise à jour du système IMS (Adobe Identity Management System)
 
