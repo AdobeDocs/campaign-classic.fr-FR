@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 100%
+source-wordcount: '1211'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Les principales fonctionnalités comprennent le ciblage, la définition et la pe
 
 >[!NOTE]
 >
->Adobe Campaign propose un ensemble d&#39;outils pour suivre la délivrabilité et optimiser l&#39;envoi des emails. Pour plus d&#39;informations, consultez [Prise en main de la délivrabilité](../../delivery/using/deliverability-key-points.md) et [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md).
+>Adobe Campaign offre un ensemble d&#39;outils permettant de surveiller votre délivrabilité et d&#39;optimiser l&#39;envoi de courriers électroniques. En savoir plus dans [cette section](../../delivery/using/about-deliverability.md).
 
 L&#39;envoi d&#39;une diffusion peut être automatisé en préparant la diffusion ou en l&#39;envoyant par le biais d&#39;un workflow. Pour plus d&#39;informations sur les activités de type diffusion dans les workflows, consultez [cette section](../../workflow/using/about-action-activities.md).
 
