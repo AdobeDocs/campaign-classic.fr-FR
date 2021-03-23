@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -41,9 +41,9 @@ En tant qu&#39;utilisateur expert, vous pouvez configurer les fonctionnalités d
 
 ## Comment configurer la délivrabilité des emails ? {#how-to-configure-email-deliverability-}
 
-Outre la section [Configuration de la délivrabilité](../../delivery/using/about-deliverability.md#configuration), lisez les recommandations techniques sur la délivrabilité pour comprendre comment configurer votre instance afin d’optimiser les fonctionnalités de diffusion de Campaign.
+Outre le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), lisez les recommandations techniques sur la délivrabilité afin de comprendre comment configurer votre instance afin d&#39;optimiser les capacités de livraison de Campaign.
 
-[Pour en savoir plus, cliquez ici](../../delivery/using/technical-recommendations.md).
+[Pour en savoir plus, cliquez ici](../../delivery/using/about-deliverability.md).
 
 ## Comment mettre en place la validation du contenu ? {#how-can-i-implement-content-approval-}
 
