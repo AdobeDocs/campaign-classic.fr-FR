@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
    * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](../../delivery/using/about-deliverability.md).
 
-* Appliquez les recommandations détaillées [dans ce document](../../delivery/using/deliverability-key-points.md).
+* Appliquez les recommandations détaillées [dans ce document](../../delivery/using/about-deliverability.md).
 
 * Contactez votre représentant Adobe pour obtenir de l&#39;aide.
 
