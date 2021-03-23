@@ -6,11 +6,11 @@ description: En savoir plus sur les statuts disponibles sur votre tableau de bor
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
-workflow-type: ht
-source-wordcount: '627'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
@@ -87,7 +87,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
  </tbody> 
 </table>
 
-Pour apprendre à optimiser la délivrabilité de vos emails Adobe Campaign, consultez le [guide de bonnes pratiques de délivrabilité](../../delivery/using/deliverability-key-points.md) d&#39;Adobe Campaign ainsi que [cette page](../../delivery/using/about-deliverability.md).
+Pour savoir comment optimiser la délivrabilité de vos courriels Adobe Campaign, consultez [cette section](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Statut En attente {#pending-status}
 
