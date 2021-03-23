@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Mises à jour de la documentation d'Adobe Campaign Classic
 description: Cette page liste toutes les nouvelles fonctionnalités et mises à jour de la documentation Adobe Campaign Classic.
-feature: 'Vue d’ensemble '
+feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
 workflow-type: tm+mt
-source-wordcount: '4214'
-ht-degree: 99%
+source-wordcount: '4270'
+ht-degree: 97%
 
 ---
 
@@ -37,6 +37,8 @@ Découvrez comment créer et gérer vos campagnes à l’aide de ces nouvelles p
 * [Configuration et gestion du processus de validation](../../campaign/using/marketing-campaign-approval.md)
 
 Des informations ont été ajoutées dans la section d’activité **[!UICONTROL JavaScript avancée]** sur l’utilisation de la méthode task.setCompleted() pour terminer la tâche et empêcher les rappels ultérieurs. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+
+La section [Livraison](../../delivery/using/about-deliverability.md) a été mise à jour et comprend maintenant des liens vers le nouveau [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Toutes les informations génériques relatives à la délivrabilité qui peuvent s&#39;appliquer à diverses solutions d&#39;Adobe ont été déplacées à l&#39;annexe [Guide des meilleures pratiques](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Février 2021 {#release-21.1}
 
@@ -130,7 +132,7 @@ Mise à jour de la matrice de compatibilité. [En savoir plus](../../rn/using/co
 
 La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En savoir plus](../../rn/using/deprecated-features.md)
 
-Les notes de mise à jour et la matrice de compatibilité pour la version Gold Standard sont maintenant disponibles dans une section dédiée.
+Les notes de mise à jour et la matrice de compatibilité pour la version [!DNL Gold Standard] sont désormais disponibles dans une section dédiée.
 [En savoir plus](../../rn/using/gold-standard.md#gs-11).
 
 L’intégration des Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
@@ -167,7 +169,7 @@ Une note a été ajoutée concernant l&#39;utilisation de données supplémentai
 
 Découvrez les bonnes pratiques en matière de conception de diffusion et d’envoi avec Campaign dans une section dédiée. [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
-La landing page des bonnes pratiques en matière de délivrabilité a été améliorée pour faciliter l’accès aux sous-sections. [En savoir plus](../../delivery/using/deliverability-key-points.md)
+La landing page des bonnes pratiques en matière de délivrabilité a été améliorée pour faciliter l’accès aux sous-sections. [En savoir plus](../../delivery/using/about-deliverability.md)
 
 Des vidéos pratiques sont désormais disponibles concernant les rubriques suivantes :
 
@@ -206,7 +208,7 @@ La section **[!UICONTROL Rendez-vous]** a été enrichie d’informations suppl�
 
 Un cas pratique sur la mise à jour automatique d’une liste à l’aide d’une requête incrémentale a été ajouté aux cas pratiques de workflow. [En savoir plus](../../workflow/using/about-workflow-use-cases.md)
 
-Les [Notes de mise à jour](../../rn/using/latest-release.md) ont été réorganisées : une [page d’aperçu](../../rn/using/latest-release.md) a été ajoutée avec des informations sur les statuts de build, le processus de mise à niveau, les recommandations et des liens importants. Une page dédiée aux [versions Gold Standard](../../rn/using/gold-standard.md) a également été ajoutée et la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) a été intégrée.
+Les [Notes de mise à jour](../../rn/using/latest-release.md) ont été réorganisées : une [page d’aperçu](../../rn/using/latest-release.md) a été ajoutée avec des informations sur les statuts de build, le processus de mise à niveau, les recommandations et des liens importants. Une page dédiée aux [[!DNL Gold Standard] versions ](../../rn/using/gold-standard.md) a également été ajoutée et la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) a été intégrée.
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
 
@@ -266,7 +268,7 @@ La section Supervision de la délivrabilité a été déplacée et améliorée. 
 
 La section Résolution des problèmes de délivrabilité a été déplacée et améliorée. [En savoir plus](../../delivery/using/deliverability-faq.md)
 
-Les directives relatives à la délivrabilité lors du démarrage d’une nouvelle section de plateforme ont été améliorées. [En savoir plus](../../delivery/using/starting-new-platform.md)
+Les lignes directrices sur la délivrabilité lors du démarrage d&#39;une nouvelle plateforme ont été améliorées. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
 
 La section Envoi d’emails transactionnels avec des pièces jointes a été déplacée et mise à jour. [En savoir plus](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -476,7 +478,7 @@ Une section décrivant les étapes d&#39;installation et de configuration des mo
 
 Une section décrivant les étapes de désinstallation du serveur Campaign a été ajoutée. [En savoir plus](../../installation/using/uninstalling-campaign.md)
 
-Les guides de prise en main concernant la [sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html), la [délivrabilité](../../delivery/using/deliverability-key-points.md) et la [confidentialité](../../platform/using/privacy-management.md) ont été mis à jour.
+Les guides de prise en main concernant la [sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html), la [délivrabilité](../../delivery/using/about-deliverability.md) et la [confidentialité](../../platform/using/privacy-management.md) ont été mis à jour.
 
 La description de l&#39;option de workflow de pré-processus a été mise à jour pour refléter les modifications de produit. [En savoir plus](../../workflow/using/data-loading--file-.md)
 
