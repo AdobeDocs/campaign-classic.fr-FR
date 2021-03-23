@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Modèles d'hébergement
 description: Découvrez les modèles d’hébergement de Campaign
-feature: 'Vue d’ensemble '
+feature: Vue d’ensemble
 role: Architecte
-level: Début
+level: Débutant
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 09bd634142f643206c38ac5f881302a5d489ecaf
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 56%
+source-wordcount: '626'
+ht-degree: 51%
 
 ---
 
@@ -33,7 +33,7 @@ En tant que client hébergé, la plupart des étapes d&#39;installation et de co
 
 * Configurer les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/configuring-multibranding.md).
 * Installation de la console cliente : consultez [cette section](../../installation/using/installing-the-client-console.md).
-* Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](../../delivery/using/deliverability-key-points.md) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
+* Pour en savoir plus sur les outils de délivrabilité et les meilleures pratiques, consultez la [documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez [cette section](../../installation/using/configuring-campaign-options.md).
 * Configuration des connecteurs CRM : consultez [cette section](../../platform/using/crm-connectors.md).
 
@@ -65,7 +65,7 @@ En tant que client hybride, la plupart des étapes d&#39;installation et de conf
 * Configurez les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/configuring-multibranding.md).
 * Installation de la console cliente : consultez [cette section](../../installation/using/installing-the-client-console.md).
 * Installez les packages natifs : consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
-* Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez le [guide de prise en main](../../delivery/using/deliverability-key-points.md) et la [documentation détaillée](../../delivery/using/about-deliverability.md).
+* Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils de délivrabilité et les meilleures pratiques, consultez la [documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez [cette section](../../installation/using/configuring-campaign-options.md).
 * Configuration d&#39;une base de données externe (Federated Data Access) : consultez [cette section](../../installation/using/about-fda.md).
 * Configuration des connecteurs CRM : consultez [cette section](../../platform/using/crm-connectors.md).
