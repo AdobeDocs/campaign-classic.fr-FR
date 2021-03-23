@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '2018'
-ht-degree: 100%
+source-wordcount: '2037'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign fait l&#39;objet de mises à jour régulières. Si vous connaiss
 
 C&#39;est pourquoi il est essentiel que nos clients exécutent la version la plus récente d&#39;Adobe Campaign. Nous pouvons ainsi vous aider plus efficacement si vous rencontrez des problèmes ; l&#39;identification, la reproduction et la résolution d&#39;un problème sur un ancien build prend généralement plus de temps, sans compter que vos éventuels problèmes peuvent avoir été corrigés dans un build récent.
 
-En conséquence, nous avons lancé le programme [Gold Standard](https://helpx.adobe.com/fr/campaign/kb/gold-standard.html) pour travailler en collaboration avec nos clients en vue de réaliser proactivement des upgrades réguliers de leur environnement.
+[!DNL Gold Standard] est la version de prise en charge à long terme du Campaign Classic. En tant qu&#39;utilisateur hébergé [!DNL Gold Standard], vous bénéficiez automatiquement de la mise à niveau de [!DNL Gold Standard] avec la dernière version stable sans aucune action. Les clients sur site et hybrides peuvent également bénéficier de [!DNL Gold Standard] versions. Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version. [En savoir plus](../../rn/using/gs-overview.md).
 
 ## Qu&#39;est-ce qu&#39;un upgrade de build ?
 
@@ -206,4 +206,4 @@ du contenu est présent et s&#39;affiche.
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
-* [Programme Gold Standard](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)
