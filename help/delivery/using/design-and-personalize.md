@@ -5,11 +5,11 @@ title: Créer du contenu personnalisé
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
-workflow-type: ht
-source-wordcount: '1277'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '1289'
+ht-degree: 98%
 
 ---
 
@@ -114,7 +114,7 @@ Pour éviter les erreurs de formatage courantes, tenez compte des éléments sui
 
 * Utilisation de **carcatères autorisés** dans les emails : la liste des caractères valides pour les adresses email est définie dans l’option « XtkEmail_Characters ». Découvrez comment accéder aux options Campaign [dans cette section](../../installation/using/configuring-campaign-options.md). Pour gérer correctement les caractères spéciaux, Adobe Campaign doit être installé en Unicode.
 
-* Configuration de l’**authentification des emails** : assurez-vous que les en-têtes d’email contiennent la signature DKIM. L’authentification DKIM (Domain Keys Identified Mail) permet au serveur de messagerie de réception de vérifier qu’un message a bien été envoyé par la personne ou l’entité revendiquant l’envoi et si le contenu du message a été modifié ou non entre le moment où il a été envoyé (et « signé » par DKIM) et celui où il a été reçu. Cette norme utilise généralement le domaine dans l’en-tête « De » ou « Expéditeur ». Voir à ce propos [cette section](../../delivery/using/technical-recommendations.md#dkim).
+* Configuration de l’**authentification des emails** : assurez-vous que les en-têtes d’email contiennent la signature DKIM. L’authentification DKIM (Domain Keys Identified Mail) permet au serveur de messagerie de réception de vérifier qu’un message a bien été envoyé par la personne ou l’entité revendiquant l’envoi et si le contenu du message a été modifié ou non entre le moment où il a été envoyé (et « signé » par DKIM) et celui où il a été reçu. Cette norme utilise généralement le domaine dans l’en-tête « De » ou « Expéditeur ». Pour plus d&#39;informations à ce sujet, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 
 ### Email en responsive design
 
