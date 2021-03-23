@@ -6,11 +6,11 @@ description: Découvrez la portée et les spécificités de l'envoi d'emails ave
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: ht
-source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
-workflow-type: ht
-source-wordcount: '1950'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '1962'
+ht-degree: 99%
 
 ---
 
@@ -152,7 +152,7 @@ Pour plus d’informations sur la période de validité, consultez [cette sectio
 ### Signature DKIM
 
 La signature d’authentification par email DKIM (DomainKeys Identified Mail) est effectuée par l’MTA amélioré. Dans le cadre de la mise à niveau vers le MTA amélioré, la signature DKIM par le MTA natif de Campaign sera désactivée dans la table Gestion des domaines.
-Pour en savoir plus sur DKIM, consultez [cette section](../../delivery/using/technical-recommendations.md#dkim).
+Pour en savoir plus sur la DKIM, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 
 ### Rapports de réussite de diffusion
 
