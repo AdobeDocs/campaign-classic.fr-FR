@@ -6,11 +6,11 @@ description: Délivrabilité des emails
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: ht
-source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
-workflow-type: ht
-source-wordcount: '3040'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '3060'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,9 @@ La section ci-après présente les paramétrages nécessaires pour contrôler le
 >
 >Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
-Pour en savoir plus sur les concepts et les bonnes pratiques relatifs à la délivrabilité, voir cette [section](../../delivery/using/about-deliverability.md).
+Pour en savoir plus sur les concepts et les meilleures pratiques liés à la délivrabilité avec Adobe Campaign, consultez cette [section](../../delivery/using/about-deliverability.md).
 
-Toutes les recommandations techniques pour assurer le bon envoi et la bonne réception des emails par une plateforme Adobe Campaign sont disponibles dans cette [section](../../delivery/using/technical-recommendations.md).
+Pour un examen plus approfondi de ce qu&#39;est la délivrabilité, y compris toutes les recommandations techniques concernant l&#39;envoi et la réception efficaces de courriels par une plate-forme d&#39;Adobe, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Principe de fonctionnement {#operating-principle}
 
