@@ -6,11 +6,11 @@ description: Découvrez comment comprendre les échecs de diffusions
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
-workflow-type: ht
-source-wordcount: '2623'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '2631'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Adresse non renseignée </td> 
-   <td> Hard </td> 
+   <td> dur </td> 
    <td> 7 </td> 
    <td> L'adresse du destinataire n'est pas renseignée.<br /> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Adresse placée sur la liste bloquée </td> 
-   <td> Hard </td> 
+   <td> dur </td> 
    <td> 8 </td> 
    <td> L'adresse a été ajoutée à la liste bloquée au moment de l'envoi. Cet état est utilisé pour importer des données à partir de listes externes et de systèmes externes dans la liste Quarantaine d’Adobe Campaign.<br /> </td> 
   </tr> 
@@ -123,7 +123,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Boîte pleine </td> 
-   <td> Soft </td> 
+   <td> Doux </td> 
    <td> 5 </td> 
    <td> La boîte de messagerie de l'utilisateur est pleine et ne peut plus accepter d'autres messages. Ce profil sera ciblé de nouveau jusqu'à ce que le nombre d'erreurs atteigne 5. Une fois ce chiffre atteint, l'enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée.<br /> Ce type d'erreur est géré par un processus de nettoyage, l'adresse est défini sur un statut valide au bout de 30 jours.<br /> Attention : pour que l'adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique Nettoyage de la base (cleanup) doit être démarré.<br /> </td> 
   </tr> 
@@ -171,14 +171,14 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Utilisateur inconnu </td> 
-   <td> Hard </td> 
+   <td> dur </td> 
    <td> 1 </td> 
    <td> L'adresse n'existe pas. Aucune autre diffusion ne sera envoyée pour ce profil.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Reprises après une diffusion temporairement en échec   {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec    {#retries-after-a-delivery-temporary-failure}
 
 Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
 
@@ -194,7 +194,7 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 
 Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [Paramétrer les reprises](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
-## Erreurs synchrones et asynchrones   {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones    {#synchronous-and-asynchronous-errors}
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
@@ -205,7 +205,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
    >
    >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   La [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
+   La [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
 
    >[!NOTE]
    >
@@ -223,17 +223,19 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de gestion des emails ne sont plus utilisées. Voir à ce propos [cette section](#email-management-rules).
 
-### Qualification des emails bounce   {#bounce-mail-qualification}
+### Qualification des emails bounce    {#bounce-mail-qualification}
 
 >[!IMPORTANT]
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md) :
 >
 >* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. **** Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
->
->* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
->
->* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
+   >
+   >
+* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
+   >
+   >
+* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
 
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, lorsque la diffusion d&#39;un email échoue, le serveur de diffusion d&#39;Adobe Campaign reçoit un message d&#39;erreur du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est composée de chaînes contenues dans le message renvoyé par le serveur distant. Les types et raisons des échec sont affectés à chaque message d&#39;erreur.
