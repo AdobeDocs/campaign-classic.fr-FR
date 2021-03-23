@@ -5,11 +5,11 @@ title: Configuration du pipeline
 description: Découvrez comment configurer le pipeline
 audience: integrations
 content-type: reference
-translation-type: ht
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+workflow-type: tm+mt
+source-wordcount: '918'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 
 Avant de démarrer cette configuration, vérifiez que vous utilisez :
 
-* Adobe Campaign 20.3, 20.2.4, 19.1.8 ou Gold Standard 11 au minimum
+* Adobe Campaign 20.3, 20.2.4, 19.1.8 ou [!DNL Gold Standard] 11 minimum
 * Adobe Analytics version standard.
 
 Vous aurez également besoin des éléments suivants :
