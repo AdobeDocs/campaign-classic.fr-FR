@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '778'
 ht-degree: 52%
 
 ---
@@ -57,7 +57,7 @@ Pour améliorer la sécurité, un nouveau mécanisme de signature pour le suivi 
 >
 >Lorsqu’un utilisateur clique sur une URL signée incorrecte, l’erreur suivante est renvoyée : « L’URL &quot;...&quot; demandée est introuvable. »
 
-En outre, à compter de la version Campaign 20.2 et de la version Gold Standard, les clients hébergés et hybrides peuvent utiliser une amélioration pour désactiver les URL générées à partir des versions précédentes. Par défaut, cette option est désactivée. Vous pouvez contacter le [service d’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonction.
+En outre, à compter des versions Campaign 20.2 et [!DNL Gold Standard], les clients hébergés et hybrides peuvent utiliser une amélioration pour désactiver les URL générées à partir des versions précédentes. Par défaut, cette option est désactivée. Vous pouvez contacter le [service d’assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonction.
 
 Pour activer ce nouveau mécanisme, les clients on-premise doivent suivre la procédure suivante sur tous les serveurs Campaign :
 
@@ -65,7 +65,7 @@ Pour activer ce nouveau mécanisme, les clients on-premise doivent suivre la pro
 1. Redémarrez le service **nlserver** .
 1. Sur le serveur de suivi, redémarrez le serveur web (apache2 sur Debian, httpd sur CentOS/RedHat, IIS sur Windows).
 
-Les clients qui s’exécutent sur Gold Standard 19.1.4 peuvent rencontrer des problèmes avec les diffusions de notification Push à l’aide d’un lien de suivi ou de diffusions à l’aide de balises d’ancrage. Si tel est le cas, l’Adobe recommande de désactiver le nouveau mécanisme de signature pour le suivi des liens :
+Les clients qui s’exécutent sur [!DNL Gold Standard] 19.1.4 peuvent rencontrer des problèmes avec les diffusions de notification Push à l’aide du lien de suivi ou des diffusions à l’aide de balises d’ancrage. Si tel est le cas, l’Adobe recommande de désactiver le nouveau mécanisme de signature pour le suivi des liens :
 
 **Les** clients hébergés et hybrides doivent contacter  [Customer ](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) Career pour que ce mécanisme soit désactivé.
 
