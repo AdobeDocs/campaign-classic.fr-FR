@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 5b43412286762977c416665d296908a9bfc9b20a
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 89%
 
 ---
 
@@ -53,6 +53,6 @@ En cas de mauvaises performances des diffusions, vous pouvez vérifier les point
 
 * **Taille de la diffusion** : l&#39;envoi de diffusions volumineuses peut prendre plus de temps. Les fils du MTA sont configurés pour gérer une taille de batch par défaut, qui convient à la plupart des instances, mais qui doit être vérifiée lorsque les diffusions sont constamment lentes.
 * **Cible de la diffusion** : les performances d&#39;une diffusion peuvent être impactées par les soft bounces, qui sont traités en fonction de la configuration des reprises. Plus le nombre des erreurs est élevé, plus les reprises sont nécessaires.
-* **Charge globale de la plateforme** : lorsque plusieurs diffusions volumineuses sont envoyées, la plateforme globale peut être impactée. Vous pouvez également vérifier la réputation IP et les problèmes de délivrabilité. Voir à ce sujet le [guide de bonnes pratiques de délivrabilité](../../delivery/using/deliverability-key-points.md) d&#39;Adobe Campaign et [cette page](../../delivery/using/about-deliverability.md).
+* **Charge** globale de la plate-forme : Lorsque plusieurs grandes diffusions sont envoyées, la plate-forme globale peut être affectée. Vous pouvez également vérifier la réputation de l’IP et les problèmes de délivrabilité. Pour plus d&#39;informations à ce sujet, consultez [cette section](../../delivery/using/about-deliverability.md) et le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 La maintenance de la plateforme et de la base de données peut également impacter les performances d&#39;envoi des diffusions. Voir à ce sujet [cette page](../../production/using/database-performances.md).
