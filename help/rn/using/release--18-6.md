@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Notes de mise à jour de Campaign 18.6
-description: Notes de mise à jour de Campaign 18.6
+title: Notes de mise à jour de Campaign 18.6
+description: Notes de mise à jour de Campaign 18.6
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-feature: 'Vue d’ensemble '
+feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez un [upgrade vers le dernier build](../../production/using/build-upgrade.md) ou contactez le [support technique](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -100,7 +100,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
   </tr> 
   <tr> 
    <td> Prise en charge de Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
+   <td> Adobe Campaign est maintenant compatible avec Windows Server 2016. Consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html">matrice de comptabilité de Campaign Classic</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
