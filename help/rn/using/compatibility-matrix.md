@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Matrice de compatibilité pour le Campaign Classic
+title: Matrice de compatibilité pour Campaign Classic
 description: Matrice de compatibilité Campaign Classic
 feature: Vue d’ensemble
 role: Professionnel
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
