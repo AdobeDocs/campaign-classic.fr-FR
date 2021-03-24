@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 0b3bc9547d756352f4af5dac713f85666c96c425
 workflow-type: tm+mt
 source-wordcount: '2448'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -552,7 +552,7 @@ ht-degree: 96%
       + [Création d’un environnement de test](interaction/using/creating-a-test-environment.md)
       + [Les points d&#39;extension](interaction/using/hooks.md)
       + [Architectures réparties](interaction/using/distributed-architectures.md)
-      + [Configuration du tampon de données](installation/using/interaction---data-buffer.md)
+      + [Configuration du buffer de données](installation/using/interaction---data-buffer.md)
    + Cas d’utilisation {#case-study}
       + [Règles de présentation](interaction/using/presentation-rules.md)
       + [Offres sur canal entrant](interaction/using/offers-on-an-inbound-channel.md)
@@ -622,12 +622,12 @@ ht-degree: 96%
    + Liste de contrôle relative à la sécurité et à la confidentialité {#security-privacy}
       + [Prise en main de la sécurité et de la confidentialité](installation/using/get-started-security-privacy.md)
       + [Personnalisation et confidentialité](installation/using/privacy.md)
-      + [Gestion de l&#39;accès sécurisé](installation/using/access-management.md)
+      + [Gestion des accès sécurisés](installation/using/access-management.md)
       + [Instructions relatives aux scripts et à l’encodage](installation/using/scripting-coding-guidelines.md)
       + [Réseau, base de données et SSL/TLS](installation/using/network-database.md)
       + [Paramètres de sécurité du serveur](installation/using/server-configuration.md)
-      + [Paramètres de sécurité du serveur Web](installation/using/web-server-configuration.md)
-   + Installer Campaign (sur site){#install-campaign-on-prem}
+      + [Paramètres de sécurité du serveur web](installation/using/web-server-configuration.md)
+   + Installation de Campaign (On-premise){#install-campaign-on-prem}
       + Instructions de déploiement {#deployment-guidelines}
          + [Serveur de base de données](installation/using/database.md)
          + [Serveur applicatif](installation/using/application-server.md)
@@ -639,23 +639,23 @@ ht-degree: 96%
          + [Intégration dans un serveur web (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
          + [Disponibilité de la console cliente pour Windows](installation/using/client-console-availability-for-windows.md)
       + Campaign sous Linux {#installing-campaign-in-linux-}
-         + [Prérequis](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+         + [Conditions préalables](installation/using/prerequisites-of-campaign-installation-in-linux.md)
          + [Installation de packages](installation/using/installing-packages-with-linux.md)
-         + [Intégration dans un serveur Web](installation/using/integration-into-a-web-server-for-linux.md)
+         + [Intégration dans un serveur web](installation/using/integration-into-a-web-server-for-linux.md)
       + [Gestion des fuseaux horaires](installation/using/time-zone-management.md)
       + [Installation d’un serveur de midsourcing](installation/using/mid-sourcing-server.md)
-   + Déployer Campaign (sur site) {#initial-configuration}
+   + Déploiement de Campaign (On-premise) {#initial-configuration}
       + [Principales étapes](installation/using/about-initial-configuration.md)
       + [Création d’une instance et connexion](installation/using/creating-an-instance-and-logging-on.md)
       + [Création et configuration de la base de données](installation/using/creating-and-configuring-the-database.md)
       + [Configuration du serveur Campaign](installation/using/campaign-server-configuration.md)
       + [Déploiement d’une instance](installation/using/deploying-an-instance.md)
-      + [Installation de packages intégrés](installation/using/installing-campaign-standard-packages.md)
+      + [Installation de packages natifs](installation/using/installing-campaign-standard-packages.md)
    + Configuration de Campaign {#additional-configurations}
       + [Paramètres du serveur Campaign](installation/using/configuring-campaign-server.md)
       + [Définition de zones de sécurité](installation/using/security-zones.md)
-      + [Paramétrages techniques des emails](installation/using/email-deliverability.md)
-      + [Configurer le Cci de courrier électronique](installation/using/email-archiving.md)
+      + [Configurations techniques des emails](installation/using/email-deliverability.md)
+      + [Configuration du Cci d’email](installation/using/email-archiving.md)
       + [Configuration de SpamAssassin](installation/using/configuring-spamassassin.md)
    + Connexion à Campaign{#connect-to-campaign}
       + [Installation de la console client](installation/using/installing-the-client-console.md)
@@ -663,12 +663,12 @@ ht-degree: 96%
          + [À propos de l’ [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
          + [Configuration d’Adobe [!DNL IMS]](integrations/using/configuring-ims.md)
          + [Implémentation d’Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
-         + [Dépanner IMS](integrations/using/ims-troubleshooting.md)
+         + [Dépannage d’IMS](integrations/using/ims-troubleshooting.md)
       + [Connexion via LDAP](installation/using/connecting-through-ldap.md)
-   + Connecter Campaign à des systèmes externes {#accessing-external-database}
+   + Connexion de Campaign à des systèmes externes {#accessing-external-database}
       + [Configuration des comptes externes](installation/using/external-accounts.md)
-      + Configurer Federated Data Access{#configure-fda}
-         + [Commencer avec Federated Data Access](installation/using/about-fda.md)
+      + Configuration de Federated Data Access{#configure-fda}
+         + [Prise en main de Federated Data Access](installation/using/about-fda.md)
          + Instructions de configuration {#config-databases}
             + [Étapes de configuration](installation/using/configure-fda.md)
             + [Configurer Snowflake](installation/using/configure-fda-snowflake.md)
