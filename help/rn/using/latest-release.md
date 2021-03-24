@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Si vous souhaitez participer à cette version bêta privée, remplissez ce [form
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
 ```
 
-* Correction d’un problème qui empêchait l’envoi de nouvelles diffusions avec la personnalisation des données de cible (NEO-30323).
+* Correction d’un problème qui empêchait l’envoi de nouvelles diffusions avec la personnalisation des données de la cible (NEO-30323).
 * Correction d&#39;un problème en raison duquel plusieurs blocages se produisaient dans l&#39;instance marketing générant les fichiers principaux.
 * Correction d&#39;un problème en raison duquel le workflow **Suivi** échouait avec l&#39;erreur suivante (NEO-25206) :
 
