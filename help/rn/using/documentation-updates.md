@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Mises à jour de la documentation d'Adobe Campaign Classic
-description: Cette page liste toutes les nouvelles fonctionnalités et mises à jour de la documentation Adobe Campaign Classic.
+description: Cette page répertorie toutes les nouvelles fonctionnalités et les mises à jour de la documentation d’Adobe Campaign Classic
 feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
 workflow-type: tm+mt
 source-wordcount: '4270'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usin
 
 ## Mars 2021 {#march-2021}
 
-Une nouvelle page a été ajoutée avec des lignes directrices et des références pour obtenir la prise en charge du Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
+Une nouvelle page a été ajoutée, laquelle contient des instructions et des références permettant d’obtenir une assistance pour Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
 
 Une nouvelle section a été ajoutée concernant les bonnes pratiques et les vérifications à effectuer en matière de sécurité et de confidentialité. [En savoir plus](../../installation/using/get-started-security-privacy.md)
 
