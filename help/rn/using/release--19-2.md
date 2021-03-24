@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Version 19.2
-description: Notes de mise à jour de Campaign 19.2
+title: Version 19.2
+description: Notes de mise à jour de Campaign 19.2
 feature: null
 role: null
 level: null
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Version 19.2{#release-19-2}
+# Version 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
@@ -33,10 +33,10 @@ _23 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version est fournie avec un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign après le **30 juin 2021**.
+> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**.
    >
    > 
-* Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+* Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 
