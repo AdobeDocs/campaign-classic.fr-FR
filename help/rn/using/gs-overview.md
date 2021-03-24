@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies 
 
 ## Pourquoi mon entreprise a-t-elle besoin de cette mise à niveau ?
 
-En tant que client hébergé, si votre compte a été identifié comme nécessitant la mise à niveau d&#39;une ou de plusieurs technologies liées au Campaign Classic, ainsi que la mise à jour de la version et/ou de la version actuelles, vous serez averti directement par Adobe.
+En tant que client hébergé, si votre compte doit effectuer une mise à niveau d’une ou de plusieurs technologies liées à Campaign Classic, ainsi qu’une mise à jour du build et/ou de la version actuels, vous en serez directement informé par Adobe.
 
 En tant que client sur site ou hybride s&#39;exécutant sur une version plus ancienne, Adobe vous encourage à passer à la dernière version [!DNL Gold Standard].
 
@@ -47,23 +47,23 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
   <td>
       <img alt="Sécurité" src="assets/do-not-localize/security.png"/>
     <div>
-    <strong>Sécurité améliorée</strong>
+    <strong>Amélioration de la sécurité</strong>
     </div>
     <ul>
     <li>Les technologies utilisées par Adobe Campaign Classic offrent une réelle valeur ajoutée.</li>
     <li>Toutes vos instances doivent être mises à jour pour garantir la sécurité.</li>
     <li>La sécurité nécessite une attention constante et une maintenance proactive.</li>
-    <li>Les risques de sécurité sont omniprésents et ne peuvent être ignorés : chaque mise à niveau pour Campaign Classic améliore la sécurité.</li>
+    <li>Les risques liés à la sécurité sont omniprésents et ne peuvent être ignorés : chaque mise à niveau de Campaign Classic améliore la sécurité.</li>
     </ul>
   </td>
 
 <td>
-      <img alt="Assistance" src="assets/do-not-localize/support.png" />
+      <img alt="Support" src="assets/do-not-localize/support.png" />
     <div>
     <strong>Amélioration du support</strong>
     </div>
     <ul>
-    <li>La plupart des problèmes critiques sont en fait résolus par des mises à niveau et peuvent être évités.</li>
+    <li>De fait, la plupart des problèmes sont résolus grâce aux mises à niveau et peuvent être évités.</li>
     <li>Des mises à niveau régulières permettent de relever les défis auxquels les entreprises doivent faire face et augmentent ainsi leur efficacité.</li>
     <li>Le volume des interventions de l’Assistance clientèle sera réduit, ce qui permettra des résolutions plus rapides. En outre, une attention plus grande pourra être accordée aux problèmes qui ne sont pas liés aux mises à niveau.</li>
     </ul>
@@ -84,10 +84,10 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
   </td>
 
 <td>
-      <img alt="Upgrade de build" src="assets/do-not-localize/upgrades.png" />
+      <img alt="Mise à niveau du build" src="assets/do-not-localize/upgrades.png" />
     <div>
     <strong>Mises à niveau plus faciles</strong>
-    </a>
+    </a>
     </div>
     <ul>
     <li>Les efforts demandés par une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre 2 versions (v5 —&gt; v7).</li>
@@ -101,5 +101,5 @@ Nous nous engageons à mettre à votre disposition des informations pertinentes 
 ## Ressources supplémentaires
 
 * [[!DNL Gold Standard] notes de mise à jour](gold-standard.md)
-* [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau du build](../../platform/using/faq-build-upgrade.md)
 * [[!DNL Gold Standard] matrice de compatibilité](compatibility-matrix-gs.md)
