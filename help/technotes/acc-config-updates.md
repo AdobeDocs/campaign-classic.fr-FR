@@ -6,7 +6,7 @@ description: Note technique
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 01f4e4ee841a797f4be61ffc01096b7f651ce963
+source-git-commit: bdd746120f2162cf48eeb9d519513656bd4e75aa
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 58%
@@ -29,7 +29,7 @@ Pour des raisons de sécurité, vous devez maintenant effectuer la mise à nivea
 >Pour toute question sur ces modifications, contactez le service à la clientèle [Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
-## Mises à jour de sécurité
+## Mises à jour de sécurité {#acc-security-updates}
 
 Les dernières versions de Campaign sont fournies avec un correctif de sécurité qui renforce la protection contre les problèmes de bogue de requête côté serveur (SSRF). En savoir plus [sur cette page](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html).
 
@@ -62,7 +62,7 @@ Vous devez effectuer une mise à niveau vers un build plus récent parmi ceux r�
 >Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe d’assistance clientèle d’Adobe pour appliquer un correctif de sécurité manuel à court terme à vos instances**.
 
 
-## Mise à jour de la console client Campaign Classic
+## Mise à jour de la console client Campaign Classic {#acc-cc-updates}
 
 Les versions de la console **désormais disponibles** ci-dessous doivent être installées pour résoudre une régression récemment identifiée. Cette régression empêchait l’utilisation de certains composants de la Console client, tels que le sélecteur de date et la gestion des images dans les diffusions. **La mise à niveau de la console est obligatoire.**
 
@@ -105,7 +105,7 @@ Une fois toutes les instances mises à niveau, la console client doit également
 
 * [Découvrez comment installer la console client de Campaign](../installation/using/installing-the-client-console.md).
 
-## Intégration avec les triggers Experience Cloud
+## Intégration avec les triggers Experience Cloud {#acc-triggers-updates}
 
 Le service d’authentification oAuth hérité est arrivé en fin de vie. L’authentification de l’intégration des triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Elle sera mise hors service le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
@@ -131,7 +131,7 @@ En outre, pour les environnements hybrides, les clients doivent s&#39;assurer qu
 
 [Découvrez comment migrer vers Adobe I/O](../integrations/using/configuring-adobe-io.md).
 
-## Mises à jour d’APNs
+## Mises à jour d’APNs  {#acc-apns-updates}
 
 ### API du fournisseur APNs basé sur HTTP/2
 
