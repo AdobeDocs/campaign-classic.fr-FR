@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 6eb29742d5884096f2d06b763823aede48f5dcb3
 workflow-type: tm+mt
-source-wordcount: '1962'
-ht-degree: 99%
+source-wordcount: '1991'
+ht-degree: 96%
 
 ---
 
@@ -98,7 +98,7 @@ Pour les clients qui utilisent la fonctionnalité de messagerie transactionnelle
 
 ### En-têtes du MTA amélioré
 
-Les dernières instances de Campaign Classic incluent du code qui ajoute les en-têtes du MTA amélioré requis à chaque message. Si vous utilisez Adobe Campaign 19.1 (build 9032) ou une version ultérieure et que ce n’est pas le cas, vous devez ajouter le paramètre &quot;useMomentum=true&quot; à votre configuration d’instance marketing (dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)).
+Les dernières instances de Campaign Classic incluent du code qui ajoute les en-têtes du MTA amélioré requis à chaque message. Si vous utilisez Adobe Campaign 19.1 (build 9032) ou version ultérieure et que ce n’est pas le cas, vous devez demander à [Adobe Customer Care](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) d’ajouter le paramètre &quot;useMomentum=true&quot; à votre configuration d’instance d&#39;exécution (dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), qui peut être votre instance marketing, [instance de midsourcing](../../installation/using/mid-sourcing-server.md) ou [instance d&#39;exécution de messagerie transactionnelle](../../message-center/using/creating-a-shared-connection.md#execution-instance), selon votre configuration.
 
 Cependant, si vous utilisez une instance plus ancienne qui n’inclut pas ce code, une nouvelle règle de typologie nommée **[!UICONTROL Règle de typologie pour les MTA améliorés]** doit être ajoutée à toutes les typologies existantes de votre instance Campaign.
 Cette règle est ajoutée par un package de **[!UICONTROL typologie]** installé dans le cadre de la mise à niveau vers le MTA amélioré.
