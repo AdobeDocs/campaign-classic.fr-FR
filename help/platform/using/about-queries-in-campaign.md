@@ -3,19 +3,19 @@ solution: Campaign Classic
 product: campaign
 title: A propos des requêtes dans Campaign
 description: A propos des requêtes dans Campaign
-audience: platform
-content-type: reference
-topic-tags: creating-queries
+feature: Éditeur de requête
+role: Professionnel, architecte de données
+level: Débutant
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 94%
 
 ---
 
 
-# A propos des requêtes dans Campaign{#about-queries-in-campaign}
+# Commencer avec requêtes{#about-queries-in-campaign}
 
 L&#39;outil de requêtage est présent à de nombreux niveaux de la plate-forme Adobe Campaign : pour créer une population cible, segmenter les clients, extraire et filtrer des logs de tracking, construire des filtres, etc.
 
