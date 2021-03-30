@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '3394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
-# Définir les conditions de filtrage{#defining-filter-conditions}
+# Définition des conditions de filtre{#defining-filter-conditions}
 
-## Sélectionner l&#39;opérateur {#choosing-the-operator}
+## Sélectionnez l’opérateur {#choosing-the-operator}
 
 Dans une condition de filtrage, il faut lier deux valeurs grâce à un opérateur.
 
@@ -117,7 +117,7 @@ Voici une liste descriptive des opérateurs disponibles :
  </tbody> 
 </table>
 
-## Utiliser ET, OU, SAUF {#using-and--or--except}
+## Utilisez ET, OU, SAUF {#using-and--or--except}
 
 Dans les requêtes utilisant plus d&#39;un critère de filtrage, vous devez définir les liens entre conditions. Il y a trois liens possibles :
 
@@ -146,7 +146,7 @@ Cet autre exemple montre un filtre permettant d&#39;afficher : les destinataires
 
 ![](assets/query_editor_nveau_31.png)
 
-## Hiérarchisation des conditions {#prioritizing-conditions}
+## Attribuer la priorité aux conditions {#prioritizing-conditions}
 
 Cette section explique comment hiérarchiser les conditions. Ceci est possible grâce aux flèches bleues situées dans la barre d&#39;outils.
 
@@ -259,13 +259,13 @@ Liens vers une table et éléments de collection :
 
 >[!NOTE]
 >
->* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [Construction d’expressions](#building-expressions).
+>* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d&#39;informations sur la modification d&#39;une expression, consultez [cette section](#building-expressions).
 >* Supprimez une colonne de sortie en cliquant sur la croix rouge **Supprimer**.
 >* Modifiez l&#39;ordre des colonnes de sortie grâce aux flèches.
 >* L’icône **[!UICONTROL Répartition des valeurs]** sert à visualiser la répartition des valeurs du champ sélectionné (par exemple, les répartitions liées aux villes des destinataires, à la langue des destinataires, etc.).
 
 
-## Création de champs calculés {#creating-calculated-fields}
+## Créer des champs calculés {#creating-calculated-fields}
 
 Au besoin, ajoutez une colonne lors du formatage des données. Un champ calculé rajoute une colonne dans la fenêtre de prévisualisation des données. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**.
 
@@ -306,7 +306,7 @@ Pour retirer le champ, cliquez sur la croix rouge **[!UICONTROL Enlever le champ
 
 ![](assets/query_editor_nveau_58.png)
 
-## Construction d&#39;expressions {#building-expressions}
+## Créer des expressions {#building-expressions}
 
 L&#39;outil d&#39;édition d&#39;une expression sert à calculer des agrégats, générer une fonction ou éditer une formule à partir d&#39;une expression.
 
