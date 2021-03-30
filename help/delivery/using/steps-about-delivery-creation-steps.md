@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
 1. **Définir le contenu de la diffusion**. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
 
    * [Canal email](../../delivery/using/defining-the-email-content.md)
-   * [Canal SMS](../../delivery/using/sms-channel.md#defining-the-sms-content)
+   * [Canal SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
    * [Canal courrier](../../delivery/using/defining-the-direct-mail-content.md)
    * [Canal des applications mobiles](../../delivery/using/about-mobile-app-channel.md)
 
