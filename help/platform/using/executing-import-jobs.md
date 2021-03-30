@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '3206'
-ht-degree: 99%
+source-wordcount: '3201'
+ht-degree: 98%
 
 ---
 
 
-# Configuration de traitements d&#39;import {#executing-import-jobs}
+# Configuration des traitements d’import {#executing-import-jobs}
 
 Adobe Campaign vous permet d&#39;importer des données dans la base de données à partir d&#39;un ou de plusieurs fichiers au format texte, CSV, TAB ou XML. Ces fichiers sont associés à une table (principale ou liée) et chaque champ du ou des fichier(s) source est associé à un champ de la base de données.
 
@@ -25,7 +25,7 @@ Adobe Campaign vous permet d&#39;importer des données dans la base de données
 
 L&#39;assistant d&#39;import vous permet de configurer un import, de définir ses options (comme la transformation de données) et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;import (simple ou multiple) et des droits de l&#39;opérateur.
 
-L&#39;assistant d&#39;import s&#39;affiche après avoir créé un nouveau traitement d&#39;import (voir [Création de traitements d&#39;import et d&#39;export](../../platform/using/creating-import-export-jobs.md).
+L’assistant d&#39;import s’affiche après la création d’une tâche d’importation (voir [Création de tâches d’importation et d’exportation](../../platform/using/creating-import-export-jobs.md).
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ L&#39;assistant d&#39;import s&#39;affiche après avoir créé un nouveau traite
 
 Dans le fichier source, chaque ligne correspond à un enregistrement. Les données des enregistrements sont séparées les unes des autres par un délimiteur (espace, tabulation, caractère, etc.). Les données sont ainsi récupérées sous forme de colonnes et chaque colonne est associée à un champ de la base de données.
 
-## Etape 1 - Choix du modèle d&#39;import {#step-1---choosing-the-import-template}
+## Étape 1 - Sélection du modèle d&#39;import {#step-1---choosing-the-import-template}
 
 Lorsque vous lancez l&#39;assistant d&#39;import, vous devez d&#39;abord sélectionner un modèle. A titre d&#39;exemple, pour configurer l&#39;import des destinataires qui ont reçu une newsletter, procédez comme suit :
 
@@ -85,7 +85,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
    * **[!UICONTROL Ne pas mettre à jour les énumérations]**
 
-      Cochez cette option pour ne pas enrichir la liste des valeurs énumérées en base. Voir [Gestion des énumérations](../../platform/using/managing-enumerations.md).
+      Cochez cette option pour ne pas enrichir la liste des valeurs énumérées en base. Voir [Gérer les énumérations](../../platform/using/managing-enumerations.md).
 
 * Onglet **[!UICONTROL Variables]**
 
@@ -115,7 +115,7 @@ Utilisez les options proposées au-dessus de cette vue pour paramétrer l&#39;im
 * **[!UICONTROL Auto-détection du format]** permet de réinitialiser le format de la source de données. Cette option permet de réappliquer les formats originaux aux données qui ont été formatées via l&#39;option **[!UICONTROL Cliquez ici pour changer le format du fichier...]**.
 * Le lien **[!UICONTROL Paramètres avancés...]** permet de filtrer les données sources et d&#39;accéder à des options avancées. Vous pouvez choisir depuis cet écran de n&#39;importer qu&#39;une partie du fichier. Vous pouvez également définir un filtre pour n&#39;importer par exemple que les utilisateurs de type &#39;Prospect&#39; ou &#39;Client&#39;, en fonction de la valeur de la ligne correspondante. L&#39;utilisation de ces options est réservée à des utilisateurs experts JavaScript.
 
-### Modifier le format du fichier {#changing-the-file-format}
+### Modifier le format de fichier {#changing-the-file-format}
 
 L&#39;option **[!UICONTROL Cliquez ici pour changer le format du fichier...]** permet de formater les données du fichier source, et notamment de préciser le séparateur de colonnes et le type de données pour chaque champ. Ce paramétrage est réalisé au travers de la fenêtre suivante :
 
@@ -244,7 +244,7 @@ La déduplication concerne un enregistrement présent à la fois dans le fichier
 
 Les options **[!UICONTROL Rejeter]** et **[!UICONTROL Ignorer]** fonctionnent comme présentés ci-dessus.
 
-### Comportement en cas d&#39;erreur {#behavior-in-the-event-of-an-error}
+### En cas d&#39;erreur {#behavior-in-the-event-of-an-error}
 
 La plupart des opérations de transfert de données génèrent des erreurs qui peuvent être de différentes natures (format de ligne incohérent, email invalide, etc.). Toutes les erreurs et tous les avertissements générés par le moteur d&#39;import sont stockés et attachés à l&#39;instance d&#39;import.
 
@@ -311,7 +311,7 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      Vous pouvez créer une liste pour ces destinataires en cliquant sur **[!UICONTROL Choisir le lien]**, puis sur **[!UICONTROL Créer]**. La création et la gestion des listes sont présentées dans [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md).
+      Vous pouvez créer une liste pour ces destinataires en cliquant sur **[!UICONTROL Choisir le lien]**, puis sur **[!UICONTROL Créer]**. La création et la gestion des listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
 
       ![](assets/s_ncs_user_import_wizard05_6.png)
 
@@ -329,10 +329,10 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
 Cliquez sur **[!UICONTROL Suivant]** pour valider cette étape et afficher l&#39;étape suivante.
 
-## Etape 6 - Lancement de l&#39;import {#step-6---launching-the-import}
+## Étape 6 - Lancement de l&#39;importation {#step-6---launching-the-import}
 
 La dernière étape de l&#39;assistant permet de lancer l&#39;import des données. Pour cela, cliquez sur le bouton **[!UICONTROL Démarrer]**.
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-Vous pouvez ensuite surveiller l&#39;exécution du traitement d&#39;import (voir [Surveillance de l&#39;exécution des traitements](../../platform/using/monitoring-jobs-execution.md).
+Vous pouvez ensuite surveiller l’exécution de la tâche d’importation (voir [Surveillance de l’exécution des tâches](../../platform/using/monitoring-jobs-execution.md).
