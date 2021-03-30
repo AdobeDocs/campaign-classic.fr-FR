@@ -7,10 +7,10 @@ feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
+source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
 workflow-type: tm+mt
-source-wordcount: '4270'
-ht-degree: 98%
+source-wordcount: '4295'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,9 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usin
 
 ## Mars 2021 {#march-2021}
 
-Une nouvelle page a été ajoutée, laquelle contient des instructions et des références permettant d’obtenir une assistance pour Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
+La section [Commencer avec les SMS](../../delivery/using/sms-channel.md) a été réorganisée et améliorée. Vous pouvez maintenant apprendre comment [configurer le canal SMS](../../delivery/using/sms-set-up.md), [créer un SMS](../../delivery/using/sms-create.md), [envoyer et suivre les SMS](../../delivery/using/sms-send.md) dans les sections dédiées.
+
+La page &quot;Options d’aide et d’assistance&quot; pour le Campaign Classic a été intégrée dans la documentation de base. [En savoir plus](../../support.md)
 
 Une nouvelle section a été ajoutée concernant les bonnes pratiques et les vérifications à effectuer en matière de sécurité et de confidentialité. [En savoir plus](../../installation/using/get-started-security-privacy.md)
 
@@ -440,7 +442,7 @@ Une nouvelle page de bonnes pratiques relatives au connecteur de données d&#39;
 
 Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour – [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
-Une recommandation a été ajoutée à la documentation du canal SMS. Elle permet d&#39;éviter des problèmes lors de l&#39;utilisation de plusieurs comptes externes en ayant recours au connecteur SMPP générique étendu avec le même compte fournisseur. [En savoir plus](../../delivery/using/sms-channel.md#automatic-reply)
+Une recommandation a été ajoutée à la documentation du canal SMS. Elle permet d&#39;éviter des problèmes lors de l&#39;utilisation de plusieurs comptes externes en ayant recours au connecteur SMPP générique étendu avec le même compte fournisseur. [En savoir plus](../../delivery/using/sms-set-up.md#automatic-reply)
 
 Des informations ont été ajoutées dans la documentation de l&#39;activité Planificateur pour décrire comment empêcher les exécutions simultanées d&#39;un workflow. [En savoir plus](../../workflow/using/scheduler.md)
 
