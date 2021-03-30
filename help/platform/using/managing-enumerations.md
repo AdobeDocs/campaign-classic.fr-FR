@@ -7,17 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 96%
 
 ---
 
 
-# Gestion des énumérations{#managing-enumerations}
-
-## A propos des énumérations {#about-enumerations}
+# Gérer les énumérations{#managing-enumerations}
 
 Une énumération est une liste de valeurs proposées par le système pour renseigner certains champs. Les énumérations permettent de standardiser les valeurs de ces champs et de faciliter leur saisie ou leur utilisation au sein de requêtes.
 
@@ -90,7 +88,7 @@ Vérifiez les paramètres avant de valider cette opération.
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Voir [Exécution du cleansing des données](#running-data-cleansing).
+Ainsi, lorsque l&#39;utilisateur renseigne la valeur **NEILSEN** dans un champ « société » (dans la console Adobe Campaign ou dans un formulaire), elle sera remplacée par la valeur **NEILSEN Ltd**. Le remplacement des valeurs est réalisé par le workflow **Cleansing des alais**. Reportez-vous à [Exécution du cleansing de données](#running-data-cleansing).
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -112,15 +110,15 @@ Une fois l&#39;exécution terminée, l&#39;alias est ajouté dans la liste des a
 
 ![](assets/s_ncs_user_itemized_list_alias_detail2.png)
 
-#### Récupération des apparitions des alias {#retrieving-alias-hits}
+#### Récupérer les accès d&#39;alias {#retrieving-alias-hits}
 
 Les valeurs saisies par les utilisateurs peuvent être transformées en alias. En effet, lorsque l&#39;utilisateur saisit une valeur qui n&#39;est pas présente dans la liste des valeurs d&#39;énumération, cette valeur est stockée dans l&#39;onglet **[!UICONTROL Alias]**.
 
-Le workflow technique **Cleansing des alias** récupère ces valeurs chaque nuit afin de mettre à jour la liste détaillée. Voir [Exécution du cleansing des données](#running-data-cleansing)
+Le workflow technique **Cleansing des alias** récupère ces valeurs chaque nuit afin de mettre à jour la liste détaillée. Reportez-vous à [Exécution du cleansing de données](#running-data-cleansing).
 
-Au besoin, la colonne **[!UICONTROL Hits]** peut afficher le nombre de fois où cette valeur a été saisie. Le calcul de cette valeur peut être long et coûteux en mémoire. Voir à ce sujet la section [Calcul des occurrences de saisie](#calculating-entry-occurrences).
+Au besoin, la colonne **[!UICONTROL Hits]** peut afficher le nombre de fois où cette valeur a été saisie. Le calcul de cette valeur peut être long et coûteux en mémoire. Pour plus d&#39;informations à ce sujet, consultez [Calculer les occurrences d&#39;entrée](#calculating-entry-occurrences).
 
-### Exécution de la normalisation des données {#running-data-cleansing}
+### Exécuter le cleansing de données {#running-data-cleansing}
 
 Le cleansing des données est réalisé par le workflow technique **[!UICONTROL Cleansing des alias]**. Les paramétrages définis pour les énumérations sont appliqués lors de son exécution. Voir [Workflow de cleansing des alias](#alias-cleansing-workflow).
 
@@ -134,7 +132,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet de définir la date de p
 
 Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;uniformisation des données.
 
-#### Calcul des occurrences de saisie {#calculating-entry-occurrences}
+#### Calculer les occurrences d&#39;entrée {#calculating-entry-occurrences}
 
 Le sous-onglet **[!UICONTROL Alias]** d&#39;une énumération peut afficher le nombre d&#39;apparitions d&#39;un alias parmi toutes les valeurs saisies. Cette information est une estimation. Elle s&#39;affichera dans la colonne **[!UICONTROL Hits]**.
 
