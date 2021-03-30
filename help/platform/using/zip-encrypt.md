@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 83%
 
 ---
 
 
-# Compresser ou chiffrer un fichier {#zipping-or-encrypting-a-file}
+# Ignorer ou chiffrer un fichier {#zipping-or-encrypting-a-file}
 
 Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors de la définition d&#39;un export par le biais d&#39;une activité **[!UICONTROL Extraction (fichier)]**, vous pouvez définir une étape de post-traitement pour le compresser ou le chiffrer.
 
@@ -25,7 +25,9 @@ Pour ce faire :
 
    >[!NOTE]
    >
-   >Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l&#39;exception de ceux qui hébergent leurs instances marketing on-premise).
+   >Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >
+   >Notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](../../rn/using/gs-overview.md) ou la dernière version de [GA (21.1)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) afin que les utilitaires nécessaires soient installés sur le serveur.
 1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de cryptage) nécessaires sur le serveur applicatif.
@@ -34,10 +36,10 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICO
 
 **Rubriques connexes :**
 
-* [Décompresser ou décrypter un fichier avant traitement](../../platform/using/unzip-decrypt.md)
+* [Décompression ou déchiffrement d’un fichier avant traitement](../../platform/using/unzip-decrypt.md)
 * [Activité Extraction (fichier)](../../workflow/using/extraction--file-.md).
 
-## Cas pratique : chiffrage et export de données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
+## Cas d’utilisation : Chiffrer et exporter des données à l&#39;aide d&#39;une clé installée sur le Panneau de Contrôle {#use-case-gpg-encrypt}
 
 Dans ce cas pratique, nous allons créer un workflow pour chiffrer et exporter des données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle.
 
