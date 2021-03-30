@@ -6,9 +6,9 @@ description: Notes de mise à jour de Campaign 18.4
 feature: null
 role: null
 level: null
-translation-type: ht
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ ht-degree: 100%
 * Les administrateurs peuvent à nouveau définir ou réinitialiser le mot de passe des opérateurs. Pour cela, cliquez avec le bouton droit sur un opérateur, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Réinitialiser le mot de passe]**, puis définissez le nouveau mot de passe de l&#39;opérateur. Nous recommandons aux opérateurs de changer leur mot de passe lors de leur première reconnexion. Pour plus d&#39;informations, consultez la [documentation détaillée](../../production/using/lost-password.md).
 * Pour prendre en charge la nouvelle fonctionnalité multi-tenant d&#39;Adobe Target, un nouveau paramètre &quot;at_property&quot; peut maintenant être ajouté aux URL lors de la configuration des options et des comptes externes pour l&#39;intégration avec Target. La valeur à utiliser pour ce paramètre figure dans Adobe Target et sera utilisée par Campaign lors des appels à Target. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
 * Vous pouvez maintenant spécifier l&#39;ouverture d&#39;une landing page par défaut lors d&#39;un clic sur une image fournie par Adobe Target. Auparavant, un clic sur cette image affichait l&#39;image par défaut définie lors de la création de l&#39;email. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrations/using/inserting-a-dynamic-image.md).
-* Ajout de la case à cocher **Activer les traces SMPP** dans le compte externe pour forcer la sortie des traces. Pour plus d&#39;informations, consultez la [documentation détaillée](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+* Ajout de la case à cocher **Activer les traces SMPP** dans le compte externe pour forcer la sortie des traces. Pour plus d&#39;informations, consultez la [documentation détaillée](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 **Evolutions techniques**
 
