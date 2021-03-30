@@ -7,9 +7,9 @@ feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 93%
 
 ---
@@ -62,7 +62,7 @@ En tant qu&#39;utilisateur hébergé [!DNL Gold Standard], vous bénéficierez a
 
 ## Support et autres liens utiles{#support}
 
-* [Aide et support](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
+* [Aide et support](../../support.md)
 * [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
