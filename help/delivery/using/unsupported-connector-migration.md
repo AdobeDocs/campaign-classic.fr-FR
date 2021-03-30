@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 584c11cc46d3a0cea3dcbbaef2700200fbdb8201
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 11%
@@ -47,7 +47,7 @@ Les anciens connecteurs SMS utilisent le connecteur SMS Java qui surcharge le pr
 >
 >Même si vous pouvez transposer les paramètres, la configuration du connecteur **[!UICONTROL SMPP générique étendu]** nécessite que vous discutiez avec votre fournisseur qui vous fournira les informations nécessaires pour remplir le reste des paramètres. Pour plus d’informations à ce sujet, consultez cette [page](../../delivery/using/sms-protocol.md).
 
-Tout d&#39;abord, vous devrez créer un nouveau compte externe **[!UICONTROL SMPP générique étendu]**, puis vous pourrez peut-être transposer certains des paramètres. Vous trouverez les étapes détaillées dans cette [page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+Tout d&#39;abord, vous devrez créer un nouveau compte externe **[!UICONTROL SMPP générique étendu]**, puis vous pourrez peut-être transposer certains des paramètres. Vous trouverez les étapes détaillées dans cette [page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 Vous devez maintenant remplir les paramètres de l&#39;onglet **[!UICONTROL Mobile]** de votre nouveau compte externe **[!UICONTROL SMPP générique étendu]** en fonction de votre connecteur précédent.
 
