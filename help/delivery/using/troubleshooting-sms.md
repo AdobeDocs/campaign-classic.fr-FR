@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Protocole et paramètres du connecteur SMS
-description: En savoir plus sur le connecteur SMS et comment le configurer.
+title: Résolution des problèmes de SMS
+description: En savoir plus sur la résolution des problèmes liés au canal SMS
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
-source-wordcount: '2751'
-ht-degree: 100%
+source-wordcount: '2744'
+ht-degree: 99%
 
 ---
 
