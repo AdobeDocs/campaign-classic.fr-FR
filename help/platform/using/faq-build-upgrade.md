@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2027'
 ht-degree: 98%
 
 ---
@@ -168,7 +168,7 @@ Oui. Le serveur est arrêté au cours d&#39;un upgrade de façon à assurer l&#3
 
 Si vous rencontrez des problèmes après un upgrade de build, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). L&#39;Assistance clientèle planifie les dates de build et ouvre les tickets correspondants.
 
-En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/ac-support.html)
+En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 
 ## Liste de contrôle d&#39;upgrade de build {#check-list}
 
@@ -205,5 +205,5 @@ du contenu est présent et s&#39;affiche.
 
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
-* [Options d&#39;aide et de support pour Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 * [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)
