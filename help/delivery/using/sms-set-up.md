@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 64f5b108173806aff53f7240e8c9d499cc332d72
+source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1781'
 ht-degree: 95%
 
 ---
@@ -286,7 +286,7 @@ CR : retour chariot (Carriage Return)
 
 ^ { } `[ ~ ]` | €
 
-## A propos des encodages de texte {#about-text-encodings}
+## Codages de texte {#about-text-encodings}
 
 Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
 
