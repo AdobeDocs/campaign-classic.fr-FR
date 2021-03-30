@@ -6,11 +6,11 @@ description: Découvrez comment créer des comptes externes
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: ht
-source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
-workflow-type: ht
-source-wordcount: '1707'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bfe2e29ed904b6a04bab28455301437c63ab8118
+workflow-type: tm+mt
+source-wordcount: '1807'
+ht-degree: 95%
 
 ---
 
@@ -35,6 +35,7 @@ Vous pouvez configurer les types de comptes externes suivants :
 * [Compte externe Amazon Simple Storage Service (S3)](#amazon-simple-storage-service--s3--external-account)
 * [Compte externe Microsoft Dynamics CRM](#microsoft-dynamics-crm-external-account)
 * [Compte externe Salesforce CRM](#salesforce-crm-external-account)
+* [Compte de stockage externe Blob  Azure ](#azure-blob-external-account)
 
 ## Création d&#39;un compte externe {#creating-an-external-account}
 
@@ -98,7 +99,7 @@ Le compte externe **[!UICONTROL Routage]** vous permet de configurer chaque cana
 Les canaux suivants peuvent être configurés :
 
 * [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-* [Mobile (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
+* [Mobile (SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
 * [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [Canal Courrier](../../delivery/using/about-direct-mail-channel.md)
 * [Agence](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
@@ -413,3 +414,23 @@ Pour configurer le compte externe Salesforce CRM afin de l&#39;utiliser avec Ado
 Pour ce compte externe, vous devez configurer votre Salesforce CRM à l&#39;aide de l&#39;assistant de configuration.
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../platform/using/crm-connectors.md).
+
+## Compte externe d&#39;enregistrement Blob Azure (#azure-blob-external-account)
+
+Le compte externe **Azure Blob enregistrement** peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l&#39;aide d&#39;une activité de flux de travail **[!UICONTROL Transférer le fichier]**. Voir à ce propos cette [section](../../workflow/using/file-transfer.md).
+
+![](assets/ext_account_23.png)
+
+Pour configurer le **[!UICONTROL compte externe Azure]** pour qu&#39;il fonctionne avec Adobe Campaign, vous devez fournir les détails suivants :
+
+* **[!UICONTROL Serveur]**
+
+   URL de votre serveur d&#39;enregistrement Azure Blob.
+
+* **[!UICONTROL Chiffrement]**
+
+   Type de chiffrement choisi entre **[!UICONTROL Aucun]** et **[!UICONTROL SSL]**.
+
+* **[!UICONTROL Clé d’accès]**
+
+   Pour savoir où trouver votre **[!UICONTROL clé d&#39;accès]**, consultez cette [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
