@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 90%
 
 ---
 
 
-# Ajouter des adresses de contrôle{#adding-seed-addresses}
+# Ajout d’adresses de contrôle{#adding-seed-addresses}
 
 ## Adresses de contrôle dans une diffusion {#seed-addresses-in-a-delivery}
 
@@ -31,7 +31,7 @@ Trois modes d&#39;insertion sont possibles :
 
 1. Vous pouvez importer des modèles d&#39;adresses que vous pourrez adapter selon vos besoins.
 
-   Pour cela, cliquez sur le lien **[!UICONTROL Importer des adresses de contrôle...]** et sélectionnez le dossier contenant les modèles d&#39;adresses. Voir à ce sujet la section [Créer des modèles d’adresses de contrôle](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
+   Pour cela, cliquez sur le lien **[!UICONTROL Importer des adresses de contrôle...]** et sélectionnez le dossier contenant les modèles d&#39;adresses. Voir à ce propos [cette section](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates).
 
    Au besoin, une fois ajoutées, vous pouvez double-cliquer dessus ou cliquer sur le bouton **[!UICONTROL Détail...]** pour adapter le contenu des champs de chaque adresse.
 
@@ -39,13 +39,13 @@ Trois modes d&#39;insertion sont possibles :
 
    Pour cela, cliquez sur le lien **[!UICONTROL Editer la condition dynamique...]**, puis indiquez les paramètres de sélection des adresses de contrôle. Vous pouvez par exemple inclure toutes les adresses de contrôle contenues dans un dossier spécifique ou les adresses de contrôle appartenant à un service particulier de votre société.
 
-   Vous trouverez un exemple de cela dans la section : [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
+   La présente section en donne un exemple : [Cas d&#39;utilisation : sélectionnez adresses de contrôle sur critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >
 >Cette option est notamment utilisée lorsque la table des destinataires utilisée n&#39;est pas la table par défaut **nms:recipient** et que vous utilisez la fonctionnalité d&#39;Inbox Rendering fournie avec le module de **[!UICONTROL Délivrabilité]** d&#39;Adobe Campaign.
 >
->Voir à ce sujet la section [Utiliser une table de destinataires externe](../../delivery/using/using-an-external-recipient-table.md) et la documentation sur le [Inbox rendering](../../delivery/using/inbox-rendering.md).
+>Pour plus d’informations à ce sujet, reportez-vous à la section [Utilisation d’une table de destinataire externe](../../delivery/using/using-an-external-recipient-table.md) et à la documentation relative au [rendu de boîte de réception](../../delivery/using/inbox-rendering.md).
 
 Pour les diffusions courrier, vous pouvez personnaliser le mode d&#39;insertion des adresses dans le fichier d&#39;extraction. Par défaut, elles sont insérées dans l&#39;ordre de tri du fichier de sortie, mais vous pouvez choisir de les insérer à la fin ou au début du fichier, ou aléatoirement parmi les destinataires de la cible principale.
 
