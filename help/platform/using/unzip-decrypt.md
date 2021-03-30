@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,9 @@ Pour ce faire :
 
    >[!NOTE]
    >
-   >Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l&#39;exception de ceux qui hébergent leurs instances marketing on-premise).
+   >Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >
+   >Notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](../../rn/using/gs-overview.md) ou la dernière version de [GA (21.1)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
 1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) afin que les utilitaires nécessaires soient installés sur le serveur.
 1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de cryptage) nécessaires sur le serveur applicatif.
@@ -44,9 +46,9 @@ Le cas pratique ci-dessous présente un exemple.
 **Rubriques connexes :**
 
 * [Activité Chargement (fichier)](../../workflow/using/data-loading--file-.md).
-* [Compresser ou crypter un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+* [Ignorer ou chiffrer un fichier](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
-## Cas pratique : import de données chiffrées à l&#39;aide d&#39;une clé générée par le panneau de contrôle {#use-case-gpg-decrypt}
+## Cas d’utilisation : Importer des données chiffrées à l’aide d’une clé générée par le Panneau de Contrôle {#use-case-gpg-decrypt}
 
 Dans ce cas pratique, nous allons créer un workflow afin d&#39;importer des données chiffrées dans un système externe, à l&#39;aide d&#39;une clé générée dans le panneau de contrôle.
 
