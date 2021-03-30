@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1035'
+ht-degree: 99%
 
 ---
 
 
-# Joindre des fichiers{#attaching-files}
+# Joindre des fichiers à un courrier électronique {#attaching-files}
 
 ## A propos des pièces jointes à un email {#about-email-attachments}
 
@@ -117,7 +117,7 @@ Pour ce type d&#39;attachement, les étapes de paramétrage sont les suivantes 
 >
 >Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que pièce jointe, la taille d’une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
-### Ajout d’un fichier calculé {#attach-a-calculated-file}
+### Joindre un fichier calculé {#attach-a-calculated-file}
 
 Vous pouvez calculer le nom d&#39;un attachement pendant la préparation de la diffusion. Pour cela, sélectionnez l&#39;option **[!UICONTROL Le nom de fichier est calculé lors de l&#39;analyse de la diffusion (il ne peut pas dépendre du destinataire)]**.
 
@@ -140,7 +140,7 @@ Vous pouvez calculer le nom d&#39;un attachement pendant la préparation de la d
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
-### Ajout d’un fichier personnalisé {#attach-a-personalized-file}
+### Joindre un fichier personnalisé {#attach-a-personalized-file}
 
 Lorsque vous sélectionnez un fichier attaché, vous pouvez choisir l&#39;option **[!UICONTROL Le nom de fichier est calculé au moment de l&#39;envoi pour chaque destinataire (il peut dépendre du destinataire)]**. Vous pouvez ensuite associer les données de personnalisation des destinataires au nom du fichier à envoyer.
 
