@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 100%
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -43,9 +43,11 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 
 >[!NOTE]
 >
->Si votre instance est hébergée sur AWS, vous pouvez surveiller le stockage de votre serveur SFTP au moyen du [Panneau de configuration](https://docs.adobe.com/content/help/fr-FR/control-panel/using/sftp-management/sftp-storage-management.html) Campaign Classic.
+>Si votre instance est hébergée sur AWS, vous pouvez surveiller le stockage de votre serveur SFTP au moyen du [Panneau de configuration](https://docs.adobe.com/content/help/fr-FR/control-panel/using/sftp-management/sftp-storage-management.html) Campaign Classic. Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 >
->Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette section](https://docs.adobe.com/content/help/fr-FR/control-panel/using/faq.html#ims-org-id) .
+>Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Notez que votre instance doit être mise à niveau avec la dernière version de [Gold Standard](../../rn/using/gs-overview.md) ou la dernière version de [GA (21.1)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 * La taille du serveur varie en fonction de votre licence. Dans tous les cas, conservez le minimum de données possible et uniquement pendant le temps nécessaire (15 jours est la durée maximale).
 
