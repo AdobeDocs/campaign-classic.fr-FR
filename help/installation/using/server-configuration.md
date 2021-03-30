@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 71%
+source-wordcount: '1209'
+ht-degree: 67%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 71%
 
 ## Paramétrage des zones de sécurité
 
->[!IMPORTANT]
->
->A partir du build 8977, l’interface Security Zones Self Service n’est plus disponible.
->
->* Si vous êtes hébergé sur AWS, l’ajout d’IP à la liste autorisée doit être effectué dans Panneau de Contrôle. Pour plus d’informations, consultez la [documentation dédiée](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
->* Si votre instance n’est pas hébergée sur AWS, contactez l’équipe de support Adobe pour ajouter les adresses IP à la liste autorisée.
+A partir du build 8977, l’interface Security Zones Self Service n’est plus disponible. Si votre instance n’est pas hébergée sur AWS, contactez l’équipe de support Adobe pour ajouter les adresses IP à la liste autorisée. Sinon, l&#39;ajout d&#39;IP à la liste autorisée doit être effectué dans [Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
 
+Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+
+>[!NOTE]
+> 
+>Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 >
->
-Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
+>Notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](../../rn/using/gs-overview.md) ou la dernière version de [GA (21.1)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
 
 * Vérifiez que le proxy inverse n&#39;est pas autorisé dans subNetwork. Si c&#39;est le cas, l&#39;**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
 
