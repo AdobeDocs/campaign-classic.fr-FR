@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 translation-type: tm+mt
-source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 100%
+source-wordcount: '1197'
+ht-degree: 97%
 
 ---
 
 
-# Automatiser via les workflows{#automating-via-workflows}
+# Automatisation à l’aide de workflows{#automating-via-workflows}
 
 ## Activité Gestion de contenu {#content-management-activity}
 
@@ -78,7 +78,7 @@ L&#39;option **Générer une transition sortante** permet d&#39;ajouter une tran
 
 ## Exemples      {#examples}
 
-### Automatiser la création et la diffusion d&#39;un contenu {#automating-content-creation-and-delivery}
+### Automatisez la création et la diffusion de contenu {#automating-content-creation-and-delivery}
 
 L&#39;exemple suivant automatise la création et la diffusion d&#39;un contenu.
 
@@ -160,7 +160,7 @@ Le contenu de la diffusion est renseigné à partir de l&#39;événement entrant
 
 L&#39;action finale de l&#39;activité est de préparer puis lancer la diffusion.
 
-### Créer un contenu et le publier ultérieurement {#creating-content-and-publishing-it-later}
+### Créer du contenu pour une publication ultérieure {#creating-content-and-publishing-it-later}
 
 Cet exemple crée un contenu et ne lance la publication fichier qu&#39;après un délai d&#39;attente.
 
@@ -192,7 +192,7 @@ L&#39;activité **Code JavaScript** récupère le nom complet de chaque fichier 
 
 ![](assets/d_ncs_content_workflow9.png)
 
-### Création de la diffusion puis de son contenu {#creating-the-delivery-and-its-content}
+### Créer la diffusion et son contenu {#creating-the-delivery-and-its-content}
 
 Cet exemple reprend le principe du premier exemple, mais avec la création de l&#39;action de diffusion en première étape.
 
@@ -214,11 +214,11 @@ Le contenu de la diffusion est renseigné à partir de l&#39;événement entrant
 
 L&#39;action finale de l&#39;activité est de préparer et de lancer la diffusion.
 
-### Import du contenu depuis FTP {#importing-content-from-ftp}
+### Importer du contenu à partir du FTP {#importing-content-from-ftp}
 
 Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
-### Import du contenu depuis le connecteur Amazon Simple Storage Service (S3){#importing-content-from-amazon-simple-storage-service--s3--connector}
+### Importer du contenu à partir du connecteur Amazon Simple Enregistrement Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
 Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans des compartiments Amazon Simple Storage Service (S3), vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Voir [cet exemple](../../workflow/using/loading-delivery-content.md).
 
