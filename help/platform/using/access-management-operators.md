@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: Commencer avec les opérateurs Campaign
 description: Découvrez comment créer et gérer des utilisateurs de campagne
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Gestion des accès
+role: Professionnel, Administrateur
+level: Débutant
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1217'
 ht-degree: 97%
 
 ---
