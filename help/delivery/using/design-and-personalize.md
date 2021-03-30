@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 40edacce1812a1722e5a23e5db7da11687c44ac8
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 98%
@@ -96,7 +96,7 @@ Veillez à tester toutes les modifications avant l’envoi final
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
 La translittération consiste à remplacer un caractère d&#39;un SMS par un autre lorsque ce caractère n&#39;est pas pris en charge par la norme GSM. Notez que l&#39;insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l&#39;encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l&#39;onglet des paramètres du canal SMPP du **[!UICONTROL Compte externe]** correspondant.
-En savoir plus dans [cette section](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+En savoir plus dans [cette section](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 **Conseils** :
 
@@ -104,7 +104,7 @@ En savoir plus dans [cette section](../../delivery/using/sms-channel.md#creating
 
 * En revanche, si vos SMS contiennent beaucoup de caractères qui ne sont pas pris en charge par la norme GSM, activez la translittération afin de limiter le coût de vos envois.
 
-En savoir plus dans [cette section](../../delivery/using/sms-channel.md#about-character-transliteration).
+En savoir plus dans [cette section](../../delivery/using/sms-set-up.md#about-character-transliteration).
 
 ## Travail sur le formatage {#formatting}
 
