@@ -6,26 +6,24 @@ description: Cette section contient des informations générales spécifiques à
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
-source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 92%
 
 ---
 
 
-# A propos de Mobile App Channel{#about-mobile-app-channel}
+# Commencer avec le canal d’application mobile {#about-mobile-app-channel}
+
+Le **Canal d’applications mobiles** vous permet d’utiliser la plate-forme Adobe Campaign pour envoyer des notifications Push personnalisées aux terminaux iOS et Android via des applications.
 
 >[!CAUTION]
 >
 >Ce document décrit le processus d’intégration de votre application mobile avec la plateforme Adobe Campaign. Il ne donne aucune information ni sur la création de l’application mobile ni sur son paramétrage pour la gestion des notifications. Si vous souhaitez obtenir des informations à ce sujet, reportez-vous aux documentations officielles [Apple](https://developer.apple.com/) et [Android](https://developer.android.com/index.html).
 
-Les sections ci-dessous apportent des informations spécifiques à Mobile App Channel.
-
-Pour plus d&#39;informations sur la création d&#39;une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
-
-Le canal des applications mobiles (**Mobile App Channel**) permet d&#39;envoyer des notifications personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications (apps). Deux canaux de diffusion sont disponibles :
+Deux canaux de diffusions sont disponibles :
 
 * Un canal iOS permettant d’envoyer des notifications sur les appareils mobiles Apple.
 
@@ -38,6 +36,7 @@ Le canal des applications mobiles (**Mobile App Channel**) permet d&#39;envoyer 
 A ces deux canaux correspondent deux activités de diffusion dans les workflows des opérations :
 
 ![](assets/nmac_intro_3.png)
+
 
 >[!NOTE]
 >
@@ -56,7 +55,9 @@ Vous pouvez définir le comportement de l’application lorsque l’utilisateur 
 
 Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez la [liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d’informations sur la procédure de configuration, voir la section [Paramétrage de l’application mobile dans Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md).
+Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d&#39;informations sur les étapes de configuration, consultez la section [cette section](../../delivery/using/configuring-the-mobile-application.md).
+
+Pour plus d&#39;informations sur la création d&#39;une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Parcours des données {#data-path}
 
