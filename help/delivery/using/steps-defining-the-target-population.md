@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 8e0c6951be9d2f9fb0e58af213cb8db4079f2225
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 100%
+source-wordcount: '1746'
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 100%
 
 ## A propos des populations ciblées {#about-target-populations}
 
-Pour chaque diffusion, vous pouvez définir plusieurs types de populations cibles. La section ci-dessous fournit des informations supplémentaires sur la façon de sélectionner :
+Pour chaque diffusion, vous pouvez définir plusieurs types de populations de cibles :
 
-* Les principaux destinataires de la diffusion. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* Les destinataires des messages de BAT pour configurer un cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-
-De plus, si la diffusion est incluse dans une campagne marketing, vous pouvez également définir des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [populations témoins](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+* **Audience** principale : profils qui recevront des messages. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* **BAT** : destinataires de messages BAT, impliqués dans le cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **Adresses de contrôle** : destinataires qui ne sont pas en cible de diffusion mais qui recevront la diffusion (dans le cadre d’une campagne de marketing uniquement). [En savoir plus](../../delivery/using/about-seed-addresses.md)
+* **Populations témoins** : population qui ne recevra pas la diffusion, utilisée pour suivre le comportement et l’impact de la campagne (dans le contexte d’une campagne marketing uniquement). [En savoir plus](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
 ## Sélection des principaux destinataires de la diffusion {#selecting-the-main-target}
 
