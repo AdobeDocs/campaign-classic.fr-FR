@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
 Le contenu de la diffusion est prêt à être configuré. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
 
 * [Définir le contenu de l&#39;email](../../delivery/using/defining-the-email-content.md)
-* [Définir le contenu du SMS](../../delivery/using/sms-channel.md#defining-the-sms-content)
+* [Définir le contenu du SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
 * [Définir le contenu du courrier](../../delivery/using/defining-the-direct-mail-content.md)
 * [Notifications push](../../delivery/using/about-mobile-app-channel.md)
 
