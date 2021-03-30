@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Mettre à jour les données{#updating-data}
+# Mise à jour de données{#updating-data}
 
 Les informations attachées au profil d&#39;un destinataire peuvent être mises à jour manuellement ou automatiquement.
 
@@ -23,7 +23,7 @@ Les informations attachées au profil d&#39;un destinataire peuvent être mises 
 
 Une mise à jour automatique peut être configurée via un workflow. Voir à ce propos [cette section](../../workflow/using/update-data.md).
 
-## Réaliser une mise à jour en masse {#performing-a-mass-update}
+## Effectuer une mise à jour en masse {#performing-a-mass-update}
 
 Les mises à jour manuelles sont commandées à partir du menu contextuel **[!UICONTROL Actions]** affiché à partir du bouton droit de la souris sur le ou les destinataires sélectionnés, ou à partir de l&#39;icône **[!UICONTROL Actions]**.
 
@@ -79,7 +79,7 @@ Cliquez sur le bouton **[!UICONTROL Calculer]** pour visualiser le résultat de 
 
 Vérifiez les colonnes **[!UICONTROL Résultat]** des deux sections de la fenêtre et cliquez sur le bouton **[!UICONTROL Terminer]** pour lancer la fusion.
 
-## export des données {#exporting-data}
+## Exporter des données {#exporting-data}
 
 Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;export :
 
@@ -94,7 +94,7 @@ Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;
 
    Pour en savoir plus sur le paramétrage de l&#39;assistant d&#39;export, consultez [cette section](../../platform/using/executing-export-jobs.md).
 
-## Abonner à un service {#subscribing-to-a-service}
+## S&#39;abonner à un service {#subscribing-to-a-service}
 
 Dans la plupart des cas, les destinataires s&#39;abonnent à une newsletter par le biais d&#39;une landing page dédiée, comme expliqué dans [cette section](../../delivery/using/managing-subscriptions.md). Toutefois, les profils de destinataires filtrés peuvent être abonnés manuellement à un service (Newsletter ou Service viral). Pour cela :
 
