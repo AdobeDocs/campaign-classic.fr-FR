@@ -7,10 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 40abbf1f981331b8a19d3607c57624aac22c91f2
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 78%
 
 ---
 
@@ -36,3 +36,9 @@ L’intégration prend en charge deux types d’identifiants Adobe Experience Cl
 
 * **Visitor ID** : ce type d&#39;identifiant permet de réconcilier des visiteurs Adobe Experience Cloud avec des destinataires Adobe Campaign.
 * **Declared ID** : ce type d&#39;identifiant permet de réconcilier tout type de données avec des éléments de la base de données Adobe Campaign. Il est représenté dans Adobe Campaign sous la forme d&#39;une clé de réconciliation préalablement définie.
+
+   >[!NOTE]
+   >
+   > La source de données d’ID déclarée peut désormais également être utilisée avec l’intégration du service principal People.
+   >
+   >Si vous utilisez l’intégration de service principal People et souhaitez ajouter l’intégration d’Audience Manager, vous aurez besoin de l’aide d’un consultant Adobe Audience Manager pour éviter de perdre toutes les synchronisations d’ID collectées lors de la transition vers l’utilisation de cette source de données d’ID déclarés dans un contexte Adobe Audience Manager.
