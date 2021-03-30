@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: Créer et gérer des groupes d’opérateurs
 description: Découvrez comment accorder l'accès aux groupes d'opérateurs
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Gestion des accès
+role: Professionnel, Administrateur
+level: Débutant
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '551'
 ht-degree: 95%
 
 ---
@@ -68,7 +68,6 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    * **[!UICONTROL INSERTION DES DOSSIERS DOSSIERS]** : dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
    * **[!UICONTROL WORKFLOW]** : droit pour utiliser les workflows.
-
    >[!NOTE]
    >
    >Ce groupe ne permet pas aux opérateurs de démarrer les diffusions.
@@ -100,6 +99,3 @@ Ce groupe contient les droits nommés suivants :
 
    * **[!UICONTROL INSERTION DES DOSSIERS]** : dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
    * **[!UICONTROL ÉDITION DES DOSSIERS]** : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.
-
-
-
