@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
 
-# Gérer des profils{#managing-profiles}
+# Gestion des profils{#managing-profiles}
 
 ## Arborescence des destinataires {#recipient-tree}
 
@@ -29,15 +29,15 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 >
 >Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. En savoir plus sur [Dossiers et vues](../../platform/using/access-management-folders.md).
 
-## Déplacer un destinataire {#moving-recipients}
+## Déplacer les destinataires {#moving-recipients}
 
 Vous pouvez sélectionner un ou plusieurs destinataires et le(s) déplacer d&#39;un dossier vers une autre par un glisser-déposer depuis la liste des destinataires vers le dossier visé. Un message d&#39;avertissement vous permet de confirmer l&#39;opération.
 
-## Dupliquer un destinataire {#copying-a-recipient}
+## Copier un destinataire {#copying-a-recipient}
 
 Vous pouvez dupliquer un destinataire dans le même dossier à partir du bouton droit de la souris sur le destinataire visé en choisissant **[!UICONTROL Dupliquer]**.
 
-## Supprimer des destinataires {#deleting-recipients}
+## Supprimer les destinataires {#deleting-recipients}
 
 Pour supprimer des destinataires, vous devez au préalable les déplacer dans un dossier spécifique puis purger le contenu de ce dossier. Il est **vivement déconseillé** d&#39;utiliser l&#39;option **[!UICONTROL Supprimer]** dans ce cas de figure.
 
