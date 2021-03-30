@@ -3,69 +3,25 @@ solution: Campaign Classic
 product: campaign
 title: Gérer l’accès aux dossiers Campaign
 description: Découvrez comment accorder l'accès aux dossiers Campaign et créer des vues
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: Paramètres de l’application
+role: Professionnel, Administrateur
+level: Débutant
 translation-type: tm+mt
-source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 90%
+source-wordcount: '781'
+ht-degree: 88%
 
 ---
 
 
-# Gérer l’accès aux dossiers {#folder-access-management}
+# Gestion de l’accès aux dossiers{#folder-access-management}
 
 Chaque dossier de l&#39;arborescence de navigation de l&#39;Explorateur dispose de droits d&#39;accès en lecture, en écriture et en suppression qui lui sont attachés. Pour accéder à un fichier, un opérateur ou un groupe d&#39;utilisateurs doit avoir au moins un accès en lecture.
 
-## Autorisations sur un dossier
-
-### Editer les permissions sur un dossier {#edit-permissions-on-a-folder}
-
-Pour éditer les permissions sur un dossier spécifique de l&#39;arborescence, suivez les étapes ci-dessous :
-
-1. Cliquez avec le bouton droit sur le dossier et sélectionnez **[!UICONTROL Propriétés...]**.
-
-   ![](assets/s_ncs_user_folder_properties.png)
-
-1. Cliquez sur l&#39;onglet **[!UICONTROL Sécurité]** pour visualiser les autorisations sur ce dossier.
-
-   ![](assets/s_ncs_user_folder_properties_security.png)
-
-### Modifier les permissions {#modify-permissions}
-
-Pour modifier les permissions, vous pouvez :
-
-* **Remplacer un groupe ou un opérateur**. Pour cela, cliquez sur un des groupes (ou opérateurs) ayant des droits sur ce dossier et sélectionnez un nouveau groupe (ou un nouvel opérateur) depuis la liste déroulante :
-
-   ![](assets/s_ncs_user_folder_properties_security02.png)
-
-* **Autoriser un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez attribuer des autorisations sur ce dossier.
-* **Interdire un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Supprimer]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez retirer toute autorisation sur ce dossier.
-* **Sélectionner les droits attribués à un groupe ou un opérateur**. Pour cela, cliquez sur le groupe ou l&#39;opérateur visé : cochez les droits d&#39;accès que vous voulez lui attribuer et décochez les autres.
-
-   ![](assets/s_ncs_user_folder_properties_security03.png)
-
-### Propager les permissions {#propagate-permissions}
-
-Vous pouvez propager les autorisations et les droits d&#39;accès. Pour cela, sélectionnez l&#39;option **[!UICONTROL Propager]** dans les propriétés du dossier.
-
-Les autorisations définies dans cette fenêtre seront alors appliquées à l&#39;ensemble des sous-dossiers du nœud courant. Vous pourrez ensuite surcharger ces autorisations pour chacun des sous-dossiers.
-
->[!NOTE]
->
->Lorsque vous désélectionnez cette option pour un dossier, elle ne l&#39;est pas automatiquement pour ses sous-dossiers. Vous devez la désélectionner explicitement pour chacun des sous-dossiers.
-
-### Accorder l&#39;accès à tous les opérateurs {#grant-access-to-all-operators}
-
-Dans l&#39;onglet **[!UICONTROL Sécurité]**, si l&#39;option **[!UICONTROL Dossier système]** est cochée, tous les opérateurs auront accès aux données qu&#39;il contient, quels que soient leurs droits. Si elle n&#39;est pas cochée, alors il faut ajouter explicitement l&#39;opérateur (ou son groupe) dans la liste des autorisations pour qu&#39;il puisse y accéder.
-
-![](assets/s_ncs_user_folder_properties_security03b.png)
-
 ## Les dossiers et les vues {#folders-and-views}
 
-### À propos des dossiers {#about-folders}
+### Qu&#39;est-ce qu&#39;un dossier {#about-folders}
 
 Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l&#39;arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Vous pouvez ensuite sélectionner le type de dossier à créer. Par défaut, le premier menu propose d&#39;ajouter le dossier correspondant au contexte courant.
 
@@ -73,7 +29,7 @@ Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds 
 
 Vous pouvez personnaliser l’arborescence de navigation de l’Explorateur. Découvrez les étapes de configuration et les meilleures pratiques [dans cette section](adobe-campaign-workspace.md).
 
-### À propos des vues {#about-views}
+### Qu&#39;est-ce qu&#39;une vue {#about-views}
 
 En outre, vous pouvez créer des vues afin de restreindre l&#39;accès aux données et d&#39;organiser le contenu de l&#39;arborescence pour l&#39;adapter à vos besoins. Vous pourrez ensuite attribuer des droits sur les vues.
 
@@ -121,3 +77,49 @@ Les diffusions suivantes seront affichées dans la vue :
 >[!NOTE]
 >
 >Lors de la gestion des événements de [messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md), les dossiers **[!UICONTROL Événements temps réel]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues sur les instances d&#39;exécution, car cela pourrait entraîner des problèmes de droit d&#39;accès. Pour plus d&#39;informations sur la collecte d&#39;événements, voir [cette section](../../message-center/using/event-collection.md).
+
+
+
+## Autorisations sur un dossier
+
+### Editer les permissions sur un dossier {#edit-permissions-on-a-folder}
+
+Pour éditer les permissions sur un dossier spécifique de l&#39;arborescence, suivez les étapes ci-dessous :
+
+1. Cliquez avec le bouton droit sur le dossier et sélectionnez **[!UICONTROL Propriétés...]**.
+
+   ![](assets/s_ncs_user_folder_properties.png)
+
+1. Cliquez sur l&#39;onglet **[!UICONTROL Sécurité]** pour visualiser les autorisations sur ce dossier.
+
+   ![](assets/s_ncs_user_folder_properties_security.png)
+
+### Modifier les permissions {#modify-permissions}
+
+Pour modifier les permissions, vous pouvez :
+
+* **Remplacer un groupe ou un opérateur**. Pour cela, cliquez sur un des groupes (ou opérateurs) ayant des droits sur ce dossier et sélectionnez un nouveau groupe (ou un nouvel opérateur) depuis la liste déroulante :
+
+   ![](assets/s_ncs_user_folder_properties_security02.png)
+
+* **Autoriser un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez attribuer des autorisations sur ce dossier.
+* **Interdire un groupe ou un opérateur**. Pour cela, cliquez sur le bouton **[!UICONTROL Supprimer]** et sélectionnez le groupe ou l&#39;opérateur auquel vous souhaitez retirer toute autorisation sur ce dossier.
+* **Sélectionner les droits attribués à un groupe ou un opérateur**. Pour cela, cliquez sur le groupe ou l&#39;opérateur visé : cochez les droits d&#39;accès que vous voulez lui attribuer et décochez les autres.
+
+   ![](assets/s_ncs_user_folder_properties_security03.png)
+
+### Propager les permissions {#propagate-permissions}
+
+Vous pouvez propager les autorisations et les droits d&#39;accès. Pour cela, sélectionnez l&#39;option **[!UICONTROL Propager]** dans les propriétés du dossier.
+
+Les autorisations définies dans cette fenêtre seront alors appliquées à l&#39;ensemble des sous-dossiers du nœud courant. Vous pourrez ensuite surcharger ces autorisations pour chacun des sous-dossiers.
+
+>[!NOTE]
+>
+>Lorsque vous désélectionnez cette option pour un dossier, elle ne l&#39;est pas automatiquement pour ses sous-dossiers. Vous devez la désélectionner explicitement pour chacun des sous-dossiers.
+
+### Accorder l&#39;accès à tous les opérateurs {#grant-access-to-all-operators}
+
+Dans l&#39;onglet **[!UICONTROL Sécurité]**, si l&#39;option **[!UICONTROL Dossier système]** est cochée, tous les opérateurs auront accès aux données qu&#39;il contient, quels que soient leurs droits. Si elle n&#39;est pas cochée, alors il faut ajouter explicitement l&#39;opérateur (ou son groupe) dans la liste des autorisations pour qu&#39;il puisse y accéder.
+
+![](assets/s_ncs_user_folder_properties_security03b.png)
