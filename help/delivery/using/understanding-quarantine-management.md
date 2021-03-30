@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '2702'
 ht-degree: 98%
@@ -527,7 +527,7 @@ Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;appliqu
 
 **Pour le connecteur SMPP générique étendu**
 
-Lors de l&#39;utilisation du protocole SMPP pour envoyer des SMS, la gestion des erreurs est traitée différemment. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez [cette page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+Lors de l&#39;utilisation du protocole SMPP pour envoyer des SMS, la gestion des erreurs est traitée différemment. Pour plus d&#39;informations sur le connecteur SMPP générique étendu, consultez [cette page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
 Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état) qui est renvoyé à l&#39;aide d&#39;expressions régulières (regex) pour filtrer son contenu. Ces données sont alors mises en correspondance avec les informations figurant dans la table **[!UICONTROL Qualification des logs de diffusion]** (disponible via le menu **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagnes]** > **[!UICONTROL Gestion des NP@I]**).
 
@@ -544,13 +544,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * Tous les messages d&#39;erreur commencent par **SR** pour faire la distinction entre les codes d&#39;erreur SMS et les codes d&#39;erreur email.
-* La seconde partie (**Generic**, dans cet exemple) du message d&#39;erreur fait référence au nom de l&#39;implémentation du SMSC comme défini dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]** du compte externe SMS. Voir [cette page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+* La seconde partie (**Generic**, dans cet exemple) du message d&#39;erreur fait référence au nom de l&#39;implémentation du SMSC comme défini dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]** du compte externe SMS. Voir [cette page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
    Comme un même code d&#39;erreur peut avoir une signification différente pour chaque prestataire, ce champ vous permet de déterminer quel prestataire a généré le code d&#39;erreur. Vous pouvez alors rechercher l&#39;erreur dans la documentation du prestataire adéquat.
 
 * La troisième partie (**DELIVRD**, dans cet exemple) du message d&#39;erreur correspond au code d&#39;état extrait du SR à l&#39;aide de la regex d&#39;extraction de code d&#39;état définie dans le compte externe SMS.
 
-   Cette regex est spécifiée dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]** du compte externe. Voir [cette page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+   Cette regex est spécifiée dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]** du compte externe. Voir [cette page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
    ![](assets/tech_quarant_error_regex.png)
 
@@ -558,7 +558,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * La quatrième partie (**000**, dans cet exemple) du message d&#39;erreur correspond au code d&#39;erreur extrait du SR à l&#39;aide de la regex d&#39;extraction de code d&#39;erreur définie dans le compte externe SMS.
 
-   Cette regex est spécifiée dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]** du compte externe. Voir [cette page](../../delivery/using/sms-channel.md#creating-an-smpp-external-account).
+   Cette regex est spécifiée dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]** du compte externe. Voir [cette page](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account).
 
    Par défaut, la regex extrait le champ **err:** comme défini dans la section **Appendix B** de la **spécification SMPP 3.4**.
 
