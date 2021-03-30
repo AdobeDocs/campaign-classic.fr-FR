@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Création de modèles d&#39;import et d&#39;export {#creating-import-export-templates}
+# Création de modèles d’import et d’export {#creating-import-export-templates}
 
 Les modèles d&#39;import et d&#39;export sont stockés dans le répertoire **[!UICONTROL Ressources > Modèles > Modèles de traitement]** de l&#39;arborescence d&#39;Adobe Campaign.
 
@@ -31,5 +31,5 @@ Vous pouvez dupliquer des modèles existants pour créer vos propres modèles ou
 
 Le processus de configuration d&#39;un modèle est alors identique à celui présenté dans les sections suivantes :
 
-* [Configuration d&#39;un traitement d&#39;import](../../platform/using/executing-import-jobs.md)
-* [Configuration d&#39;un traitement d&#39;export](../../platform/using/executing-export-jobs.md)
+* [Configuration d’une tâche d’importation](../../platform/using/executing-import-jobs.md)
+* [Configuration d’une tâche d’exportation](../../platform/using/executing-export-jobs.md)
