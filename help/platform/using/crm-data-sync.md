@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 100%
+source-wordcount: '1617'
+ht-degree: 98%
 
 ---
 
 
-# Synchronisation des données entre Campaign et la gestion de la relation client (CRM) {#data-synchronization}
+# Synchroniser les données entre Campaign et la gestion de la relation client {#data-synchronization}
 
 La synchronisation des données entre Adobe Campaign et la gestion de la relation client (CRM) est réalisée à travers une activité de workflow dédiée : [connecteur CRM](../../workflow/using/crm-connector.md).
 
@@ -82,9 +82,9 @@ Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
 
    Voir à ce sujet la section [Gestion des variables](#variable-management).
 
-### Gestion des variables {#variable-management}
+### Gérer les variables {#variable-management}
 
-L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** permet de ne collecter que les objets modifiés depuis la dernière exécution de l&#39;import.
+Activez l&#39;option **[!UICONTROL Index automatique]** pour collecter uniquement les objets modifiés depuis la dernière importation.
 
 ![](assets/crm_task_import_option.png)
 
@@ -115,7 +115,7 @@ L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère tro
    >
    >Ces dates sont exprimées au format **yyyy/MM/dd hh:mm:ss**.
 
-### Filtrer les données {#filtering-data}
+### Filtrage des données {#filtering-data}
 
 Afin d&#39;assurer un bon fonctionnement avec les différents CRM, les filtres doivent être créés selon les règles suivantes :
 
@@ -226,7 +226,7 @@ Les rejets sont collectés avec leur code d&#39;erreur et le message corresponda
 
 La transition sortante **[!UICONTROL Rejet]** permet d&#39;accéder au schéma de sortie qui contient les colonnes spécifiques relatives aux codes et messages d&#39;erreur. Pour Salesforce.com, cette colonne est **errorSymbol** (symbole de l&#39;erreur, différent du code de l&#39;erreur), **errorMessage** (description du contexte de l&#39;erreur).
 
-## Import des objets supprimés dans le CRM {#importing-objects-deleted-in-the-crm}
+## Import d&#39;objets supprimés dans le CRM {#importing-objects-deleted-in-the-crm}
 
 Afin de permettre la mise en place d&#39;un processus exhaustif de synchronisation des données, vous pouvez importer dans Adobe Campaign les objets supprimés côté CRM.
 
