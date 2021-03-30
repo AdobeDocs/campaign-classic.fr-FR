@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Création de traitements d&#39;import et d&#39;export {#creating-import-export-jobs}
+# Création de traitements d’import et d’export {#creating-import-export-jobs}
 
 Une fois les modèles paramétrés, les opérations d&#39;import et d&#39;export peuvent être lancées dans plusieurs contextes sous Adobe Campaign.
 
@@ -36,5 +36,5 @@ Une fois les modèles paramétrés, les opérations d&#39;import et d&#39;export
 
 Toutes ces actions ouvrent les assistants d&#39;export ou d&#39;import de données. Ils sont détaillés dans les sections suivantes :
 
-* [Configuration d&#39;un traitement d&#39;import](../../platform/using/executing-import-jobs.md)
-* [Configuration d&#39;un traitement d&#39;export](../../platform/using/executing-export-jobs.md)
+* [Configuration d’une tâche d’importation](../../platform/using/executing-import-jobs.md)
+* [Configuration d’une tâche d’exportation](../../platform/using/executing-export-jobs.md)
