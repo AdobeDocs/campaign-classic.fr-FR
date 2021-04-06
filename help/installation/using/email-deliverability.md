@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Délivrabilité des emails
-description: Délivrabilité des emails
+title: Configuration technique des courriers électroniques
+description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des courriers électroniques.
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: c62caeacd374b31f597f3c4b23318b8705fbda61
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 98%
+source-wordcount: '3089'
+ht-degree: 96%
 
 ---
-
 
 # Paramétrages techniques des emails{#email-deliverability}
 
@@ -27,7 +27,7 @@ La section ci-après présente les paramétrages nécessaires pour contrôler le
 
 Pour en savoir plus sur les concepts et les meilleures pratiques liés à la délivrabilité avec Adobe Campaign, consultez cette [section](../../delivery/using/about-deliverability.md).
 
-Pour un examen plus approfondi de ce qu&#39;est la délivrabilité, y compris toutes les recommandations techniques concernant l&#39;envoi et la réception efficaces de courriels par une plate-forme d&#39;Adobe, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Pour un examen plus approfondi de ce qu&#39;est la délivrabilité, y compris toutes les recommandations techniques concernant l&#39;envoi et la réception efficaces de courriels par une plate-forme d&#39;Adobe, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr-FR).
 
 ## Principe de fonctionnement {#operating-principle}
 
@@ -135,9 +135,11 @@ Par défaut, le serveur de statistiques écoute sur le port 7777. Ce port peut �
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 
-Les sections ci-dessous ne s&#39;appliquent qu&#39;aux installations on-premise et aux installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign.
-
 ### A propos des règles MX {#about-mx-rules}
+
+>[!NOTE]
+>
+>Cette section et les sections ci-dessous ne s&#39;appliquent qu&#39;aux installations sur site et aux installations hébergées/hybrides utilisant l&#39;ancienne Campaign MTA.
 
 Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communication entre un serveur expéditeur et un serveur destinataire.
 
@@ -301,6 +303,10 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 Exemple de paramétrage :
 
 ![](assets/s_ncs_install_mx_mgt_rule_details.png)
+
+>[!NOTE]
+>
+>Pour plus d’informations sur l’utilisation des serveurs MX avec Adobe Campaign, voir [cette section](../../installation/using/using-mx-servers.md).
 
 ### Gestion des formats des emails {#managing-email-formats}
 
