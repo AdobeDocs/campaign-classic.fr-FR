@@ -7,14 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
+exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 translation-type: tm+mt
-source-git-commit: 0c93193ff30737870803f9fb25019f3162dcc96d
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
 
 ---
-
 
 # Utilisation de serveurs MX avec Campaign {#using-mx-servers}
 
