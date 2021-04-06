@@ -6,14 +6,14 @@ description: Découvrez comment comprendre les échecs de diffusions
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 99%
+source-wordcount: '2665'
+ht-degree: 98%
 
 ---
-
 
 # Comprendre les diffusions en échec{#understanding-delivery-failures}
 
@@ -263,6 +263,10 @@ Les statuts de qualification des mails rebonds sont les suivants :
 * **[!UICONTROL Ignorer]** : le mail rebond est ignoré par le MTA de Campaign, ce qui signifie que ce rebond ne provoquera jamais la mise en quarantaine de l’adresse du destinataire. Il ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité** et il ne sera pas envoyé aux instances clientes.
 
 ![](assets/deliverability_qualif_status.png)
+
+>[!NOTE]
+>
+>En cas de panne d&#39;un FAI, les courriels envoyés via Campaign seront incorrectement marqués comme rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification de rebond. Voir à ce propos [cette page](../../delivery/using/update-bounce-qualification.md).
 
 ### Règles de gestion des emails {#email-management-rules}
 
