@@ -7,14 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
+exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 0c93193ff30737870803f9fb25019f3162dcc96d
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
 
 ---
-
 
 # Mettre à jour la qualification de rebond après une panne de fournisseur de services Internet {#update-bounce-qualification.md}
 
@@ -63,4 +63,3 @@ Une fois que vous disposez de la liste des destinataires concernés, vous pouvez
 **Rubriques connexes :**
 * [Comprendre les échecs de Diffusion](../../delivery/using/understanding-delivery-failures.md)
 * [Qualification des emails bounce  ](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
