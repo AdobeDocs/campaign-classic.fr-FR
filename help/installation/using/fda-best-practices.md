@@ -6,14 +6,14 @@ description: Découvrez les meilleures pratiques et les limites lors de l'utilis
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 translation-type: tm+mt
-source-git-commit: 0a92ebd6c9400f8caf43da8f633c7755a3fb77ce
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 95%
 
 ---
-
 
 # Bonnes pratiques et limites
 
@@ -60,4 +60,3 @@ Evitez autant que possible les opérations nécessitant d’utiliser à la fois 
 Si vous souhaitez effectuer de la personnalisation dans vos diffusions à l’aide des données de la base externe, collectez les données à utiliser dans un workflow afin de les rendre disponibles dans une table temporaire. Utilisez alors les données de la table temporaire pour personnaliser votre diffusion.
 
 L’option FDA est assujettie aux limitations du système de la base de données externe que vous utilisez.
-
