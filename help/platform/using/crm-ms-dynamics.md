@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Connecteur Microsoft Dynamics CRM
+title: Campaign - Connecteur Microsoft Dynamics CRM
 description: Connecter Campaign et Microsoft Dynamics
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 translation-type: tm+mt
-source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
+source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 99%
 
 ---
-
 
 # Connecter Campaign et Microsoft Dynamics 365{#connect-to-msdyn}
 
@@ -26,12 +26,6 @@ Les déploiements possibles sont les suivants :
 * pour un déploiement **On-premise**, appliquez les étapes clés d&#39;Office 365.
 
 La synchronisation des données s&#39;effectue via une activité de workflow dédiée. [En savoir plus](../../platform/using/crm-data-sync.md).
-
-
->[!NOTE]
->
-> Les versions des systèmes CRM compatibles avec Campaign sont répertoriées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#CRMconnectors).
-
 
 ## Étapes de mise en œuvre{#microsoft-dynamics-implementation-steps}
 
@@ -56,10 +50,10 @@ Dans Campaign Classic :
 
 
 >[!CAUTION]
->
 > Lors de la connexion d&#39;Adobe Campaign à Microsoft Dynamics, vous ne pouvez pas :
 > * Installer de plug-in qui peut modifier le comportement du CRM, ce qui peut entraîner des problèmes de compatibilité avec Adobe Campaign
 > * Sélectionner plusieurs énumérations
+
 >
 
 
