@@ -5,33 +5,33 @@ title: Note technique
 description: Note technique
 hide: true
 hidefromtoc: true
+exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: bdd746120f2162cf48eeb9d519513656bd4e75aa
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-
 # Mises à jour de la configuration Adobe Campaign - Mars 2021 {#acc-config-updates}
 
-Les infrastructures et les paramètres doivent être régulièrement mis à jour avec les dernières versions et les correctifs de produits. Ces correctifs sont nécessaires pour assurer la continuité du service et la sécurité. En outre, des mises à niveau seront nécessaires pour s’aligner sur les modifications tierces.
+Une mise à jour de l’infrastructure et des paramètres doit être régulièrement effectuée avec les derniers builds et correctifs de produits. Ces correctifs sont nécessaires pour assurer la sécurité et la continuité du service. En outre, des mises à niveau seront nécessaires pour s’aligner sur les modifications tierces.
 
-En tant que client **hébergé ou Managed Services**, l&#39;Adobe vous informera de la mise à niveau de la version à intervalles réguliers. Vous devrez effectuer la mise à niveau conformément aux recommandations afin de garantir la conformité.
+En tant que **client Managed Services ou hébergé**, Adobe vous informera des mises à niveau de build requises à intervalles réguliers. Vous devrez effectuer la mise à niveau conformément aux recommandations afin de garantir sa conformité.
 
-En tant que client **sur site ou hybride**, vous devez mettre à niveau votre implémentation à intervalles réguliers conformément aux dernières versions publiées.
+En tant que **client On-premise ou hybride**, vous devez mettre à niveau votre implémentation à intervalles réguliers conformément aux derniers builds publiés.
 
-Pour des raisons de sécurité, vous devez maintenant effectuer la mise à niveau vers l’une des versions répertoriées ci-dessous. Outre les étapes de mise à niveau standard, quelques tâches manuelles doivent être effectuées pour vous assurer que votre environnement est sûr et prêt pour les modifications à venir à partir de systèmes Adobes ou tiers.
+Pour des raisons de sécurité, vous devez maintenant effectuer la mise à niveau vers l’une des versions répertoriées ci-dessous. Outre la procédure de mise à niveau standard, vous devez effectuer quelques tâches manuelles afin de vous assurer que votre environnement est sécurisé et prêt à recevoir les futures modifications apportées par Adobe ou des systèmes tiers.
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez le service à la clientèle [Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question sur ces modifications, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Mises à jour de sécurité {#acc-security-updates}
 
-Les dernières versions de Campaign sont fournies avec un correctif de sécurité qui renforce la protection contre les problèmes de bogue de requête côté serveur (SSRF). En savoir plus [sur cette page](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html).
+Les dernières versions de Campaign s’accompagnent d’un correctif de sécurité qui renforce la protection contre les problèmes de type SSRF (Server Side Request Forgery). En savoir plus [sur cette page](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html).
 
 **Cela vous concerne-t-il ?**
 
@@ -51,31 +51,31 @@ Découvrez comment vérifier votre version [dans cette section](../platform/usin
 
 Vous devez effectuer une mise à niveau vers un build plus récent parmi ceux répertoriés ci-dessus.
 
-* En tant que client hybride, l’Adobe vous informera des dates de mise à niveau planifiées pour vos instances de midsourcing. L’Adobe vous recommande vivement de mettre à niveau également votre instance marketing.
+* En tant que client hybride, Adobe vous informera des dates de mise à niveau planifiées pour vos instances de mid-sourcing. Adobe vous recommande vivement de mettre également à niveau votre instance marketing.
 
-   La nouvelle version est rétrocompatible avec la version 17.9 de Campaign Classic, mais l’Adobe recommande vivement une mise à niveau sur toutes les instances afin de remédier aux vulnérabilités de sécurité.
+   Le nouveau build offre une rétrocompatibilité avec la version 17.9 de Campaign Classic. Toutefois, Adobe vous recommande vivement d’effectuer une mise à niveau sur toutes les instances afin de remédier aux vulnérabilités de sécurité.
 
-* En tant que client sur site, vous êtes invité à mettre à niveau les instances de marketing et de midsourcing vers la dernière version.
+* En tant que client On-premise, vous êtes invité à mettre à niveau les instances marketing et celles de mid-sourcing vers le build le plus récent.
 
 >[!CAUTION]
 >
->Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe d’assistance clientèle d’Adobe pour appliquer un correctif de sécurité manuel à court terme à vos instances**.
+>Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe de l’Assistance clientèle d’Adobe pour appliquer un correctif de sécurité manuel à court terme à vos instances**.
 
 
-## Mise à jour de la console client Campaign Classic {#acc-cc-updates}
+## Mise à jour de la console cliente Campaign {#acc-cc-updates}
 
-Les versions de la console **désormais disponibles** ci-dessous doivent être installées pour résoudre une régression récemment identifiée. Cette régression empêchait l’utilisation de certains composants de la Console client, tels que le sélecteur de date et la gestion des images dans les diffusions. **La mise à niveau de la console est obligatoire.**
+Les versions **désormais disponibles** de la console ci-dessous doivent être installées pour résoudre une régression récemment identifiée. Cette régression empêchait l’utilisation de certains composants de la console cliente, tels que le sélecteur de date et la gestion des images dans les diffusions. La **mise à niveau de la console** est obligatoire.
 
-* Dernière version de Gold Standard 11 9032@10c2709. [En savoir plus](../rn/using/gold-standard.md)
+* Dernier build Gold Standard 11 9032@10c2709. [En savoir plus](../rn/using/gold-standard.md)
 * Version Campaign 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
 * Version Campaign 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
 * Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
-## Mise à niveau d’Adobe Identity Management System (IMS)
+## Mise à jour d’Adobe Identity Management System (IMS)
 
-Le service d&#39;identité d&#39;Adobe (IMS) cessera de prendre en charge les anciennes versions d&#39;Internet Explorer à partir du **30 juin 2021**. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html).
+Le Services d&#39;identités Adobe ne prendra plus en charge les anciennes versions d’Internet Explorer à compter du **30 juin 2021**. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html).
 
-Une mise à niveau de la console client Campaign est nécessaire pour assurer la compatibilité avec l&#39;Adobe IMS.
+Une mise à niveau de la console cliente Campaign est nécessaire pour assurer la compatibilité avec Adobe IMS.
 
 **Cela vous concerne-t-il ?**
 
@@ -89,23 +89,23 @@ Si vous vous connectez à Campaign [via un Adobe ID](../integrations/using/about
 * Version Campaign 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
 * Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
-Ces versions s’accompagnent d’un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter à Campaign au-delà du **30 juin 2021**.
+Ces versions s’accompagnent d’un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign au-delà du **30 juin 2021**.
 
 Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **Comment effectuer la mise à jour ?**
 
-En tant que client hébergé, l’Adobe travaillera avec vous pour mettre à niveau votre ou vos instances vers la nouvelle version sous peu.
+En tant que client hébergé, Adobe collaborera avec vous sous peu afin de mettre à niveau votre ou vos instance(s) vers la nouvelle version.
 
-En tant que client On-premise/hybride, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier de la nouvelle console client et assurer une transition harmonieuse **avant le 30 juin 2021**.
+En tant que client On-premise/hybride, vous devez effectuer la mise à niveau vers l’une des versions les plus récentes pour bénéficier de la nouvelle console cliente et assurer une transition harmonieuse **avant le 30 juin 2021**.
 
-Une fois toutes les instances mises à niveau, la console client doit également être mise à niveau vers cette version.
+Une fois toutes les instances mises à niveau, la console cliente doit également être mise à niveau vers cette version.
 
 * Découvrez comment accéder à la [distribution logicielle d’Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
-* [Découvrez comment installer la console client de Campaign](../installation/using/installing-the-client-console.md).
+* [Découvrez comment installer la console cliente de Campaign](../installation/using/installing-the-client-console.md).
 
-## Intégration avec les triggers Experience Cloud {#acc-triggers-updates}
+## Intégration avec les triggers Experience Cloud  {#acc-triggers-updates}
 
 Le service d’authentification oAuth hérité est arrivé en fin de vie. L’authentification de l’intégration des triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Elle prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
@@ -125,13 +125,13 @@ Découvrez comment vérifier votre version [dans cette section](../platform/usin
 
 **Comment effectuer la mise à jour ?**
 
-Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la [procédure permettant de passer au nouveau mode d’authentification](../integrations/using/configuring-adobe-io.md). Pour ce faire, vous devez générer le nouveau jeton d’Adobe I/O et l’utiliser dans l’implémentation.  
+Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la [procédure permettant de passer au nouveau mode d’authentification](../integrations/using/configuring-adobe-io.md). Pour ce faire, vous devez générer le nouveau jeton Adobe I/O et l’utiliser dans l’implémentation.
 
 En outre, pour les environnements hybrides, les clients doivent s&#39;assurer que pipeline est configuré sur l&#39;instance de mid-sourcing. [En savoir plus](../integrations/using/configuring-pipeline.md).
 
 [Découvrez comment migrer vers Adobe I/O](../integrations/using/configuring-adobe-io.md).
 
-## Mises à jour d’APNs  {#acc-apns-updates}
+## Mises à jour d’APNs   {#acc-apns-updates}
 
 ### API du fournisseur APNs basée sur HTTP/2
 
@@ -139,13 +139,13 @@ Le service Apple Push Notification (APNs) ne prendra plus en charge l&#39;ancien
 
 **Cela vous concerne-t-il ?**
 
-Si vos instances s’exécutent sur une version **plus ancienne que Campaign 21.1,** et que vous envoyez des notifications Push avec le protocole binaire Apple hérité, vous devez mettre à jour l’API du fournisseur APN basé sur HTTP/2.
+Si vos instances s’exécutent sur une **version antérieure à Campaign 21.1** et que vous envoyez des notifications push avec le protocole binaire Apple hérité, vous devez mettre à jour l’API du fournisseur APNs basée sur HTTP/2.
 
 Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **Comment effectuer la mise à jour ?**
 
-En tant que client hébergé, si vous avez effectué la mise à niveau vers la nouvelle version, l’Adobe a déjà mis à jour vos instances vers l’API HTTP/2.
+En tant que client hébergé, si vous avez effectué la mise à niveau vers le nouveau build, Adobe a déjà mis à jour votre ou vos instance(s) vers l’API basée sur HTTP/2.
 
 En tant que client On-premise/hébergé, vous devez mettre à jour votre configuration. [Découvrez comment migrer vers HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
 
@@ -172,4 +172,4 @@ En tant que client On-premise/hybride, vous devez mettre à jour votre configura
 * [Mise à niveau de votre environnement](../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau du build](../platform/using/faq-build-upgrade.md)
 * [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
-* [Mise à disposition de la nouvelle console client auprès des utilisateurs](../installation/using/client-console-availability-for-windows.md)
+* [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../installation/using/client-console-availability-for-windows.md)
