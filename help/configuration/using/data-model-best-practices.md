@@ -6,14 +6,14 @@ description: Découvrez comment utiliser le modèle de données de Campaign Cla
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
+exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6768e9ac518ab0c5642241d1fd2086de5b1e6892
 workflow-type: tm+mt
 source-wordcount: '4027'
 ht-degree: 99%
 
 ---
-
 
 # Bonnes pratiques relatives au modèle de données{#data-model-best-practices}
 
@@ -251,7 +251,7 @@ Par défaut, les logs de diffusion et de tracking d’Adobe Campaign sont conse
 * Si vous souhaitez les conserver plus longtemps, cette décision doit être prise avec soin en fonction de la taille de la base de données et du volume des messages envoyés. Pour rappel, une séquence Adobe Campaign est définie par un entier sur 32 bits.
 * Il est recommandé de ne pas avoir plus d’un milliard de documents à la fois dans ces tables (soit près de 50 % des 2,14 milliards d’id disponibles) pour limiter tout risque d’utiliser l’ensemble de ces id. Pour ce faire, certains clients devront réduire la durée de conservation à moins de 180 jours.
 
-En savoir plus sur la conservation des données dans les [recommandations relatives à la confidentialité et à la sécurité de Campaign](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#consent).
+Pour en savoir plus sur la rétention des données, consultez les [Règles de confidentialité et de sécurité de Campaign](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#consent).
 
 Pour en savoir plus sur le workflow de nettoyage de base de données de Campaign, consultez [cette section](../../production/using/database-cleanup-workflow.md).
 
