@@ -6,14 +6,14 @@ description: En savoir plus sur l'intégration Adobe IMS
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
+exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 translation-type: tm+mt
-source-git-commit: 313f15a3097fa4c53c1bd802de0e73801acd410b
+source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 77%
 
 ---
-
 
 # A propos des Adobe ID{#about-adobe-id}
 
@@ -33,7 +33,7 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 >
 > * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 20.3.3](../../rn/using/latest-release.md)
-> * [Campaign 20.2.4](../../rn/using/release--20-2.md)
+> * [Campaign 20.2.5](../../rn/using/release--20-2.md)
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
 > * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
