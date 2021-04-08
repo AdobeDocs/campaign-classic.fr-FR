@@ -6,14 +6,14 @@ description: Le fichier de configuration du serveur
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 99%
 
 ---
-
 
 # Le fichier de configuration du serveur{#the-server-configuration-file}
 
@@ -2193,7 +2193,7 @@ Voici les différents paramètres du nœud **repair**. Il s’agit de la configu
 
 Voici les différents paramètres du nœud **securityZone**.
 
-Pour plus d&#39;informations, voir la section [Définition des zones de sécurité](../../installation/using/security-zones.md).
+Pour plus d&#39;informations, consultez [Définir des zones de sécurité](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2291,7 +2291,7 @@ Voici la configuration par défaut :
 
 Voici les différents paramètres du nœud **securityZone > subNetwork**.
 
-Pour plus d&#39;informations, voir la section [Définition des zones de sécurité](../../installation/using/security-zones.md).
+Pour plus d&#39;informations, consultez [Définir des zones de sécurité](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -3486,4 +3486,3 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
   </tr> 
  </tbody> 
 </table>
-
