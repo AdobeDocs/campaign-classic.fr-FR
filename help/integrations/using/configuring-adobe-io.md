@@ -8,14 +8,14 @@ content-type: reference
 index: y
 internal: n
 snippet: y
+exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: f3ca92325f70cb3b9cca1ec5f6b7ddb5a02f9159
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 73%
 
 ---
-
 
 # Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud {#configuring-adobe-io}
 
@@ -74,9 +74,9 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Sélectionnez un **[!UICONTROL profil de produits]** existant ou créez-en un nouveau si nécessaire. Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
+1. Sélectionnez un **[!UICONTROL profil de produits]** existant ou créez-en un nouveau si nécessaire. Aucune autorisation n&#39;est requise pour ce **[!UICONTROL profil de produits]**. Pour plus d&#39;informations sur [!DNL Analytics] **[!UICONTROL Profils de produits]**, consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
 
-   Pour plus d&#39;informations sur [!DNL Analytics] **[!UICONTROL Profils de produits]**, consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
+   Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
