@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 translation-type: tm+mt
-source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
+source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Un statut est associé à chaque build. Vous trouverez ci-dessous la liste des s
 
 ![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
 
-Les **derniers builds en disponibilité générale** ont les versions suivantes : [[!DNL Gold Standard]  11](../../rn/using/gold-standard.md#gs-11) et [Campaign 20.2.5](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
+Les **derniers builds en disponibilité générale** ont les versions suivantes : [[!DNL Gold Standard]  11](../../rn/using/gold-standard.md) et [Campaign 20.2.5](../../rn/using/release--20-2.md)
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
