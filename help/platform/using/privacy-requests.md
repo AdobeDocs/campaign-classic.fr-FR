@@ -6,14 +6,14 @@ description: Découvrez comment gérer les demandes d’accès à des informatio
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2562'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des demandes d’accès à des informations personnelles {#privacy-requests}
 
@@ -21,11 +21,9 @@ Pour obtenir une présentation générale de la gestion de la protection des don
 
 Ces informations s&#39;appliquent au RGPD, au CCPA, au PDPA et au LGPD. Pour plus d&#39;informations sur ces règlementations, consultez [cette section](../../platform/using/privacy-management.md#privacy-management-regulations).
 
-Le droit d’opposition (opt-out) à la vente des informations personnelles, spécifique au CCPA, est expliqué dans [cette section](#sale-of-personal-information-ccpa).
+Le droit d&#39;opposition (opt-out) à la vente des informations personnelles, spécifique au CCPA, est expliqué dans [cette section](#sale-of-personal-information-ccpa).
 
->[!IMPORTANT]
->
->Les procédures d’installation décrites dans ce document s’appliquent à partir de Campaign Classic 18.4 (build 8931+). Si vous exécutez une version antérieure, consultez cette [note technique](https://helpx.adobe.com/fr/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).
+<!--Installation procedures described in this document are applicable starting Campaign Classic 18.4 (build 8931+). If you are running on a previous version, refer to this [technote](https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).-->
 
 ## À propos des demandes d’accès à des informations personnelles {#about-privacy-requests}
 
