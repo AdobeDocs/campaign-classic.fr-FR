@@ -6,20 +6,30 @@ description: Découvrez comment configurer des zones de sécurité
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 830ec0ed80fdc6e27a8cc782b0e4b79abf033450
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 95%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
 
-# Définir des zones de sécurité {#defining-security-zones}
+# Définition de zones de sécurité {#defining-security-zones}
 
 Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration des zones de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
 
-Les opérateurs sont liés à une zone de sécurité depuis le profil dans la console (nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**). Apprenez comment lier les zones aux opérateurs Campaign dans [cette section](#linking-a-security-zone-to-an-operator).
+Les opérateurs sont liés à une zone de sécurité à partir de son profil dans la console, accessible dans le noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**. [En savoir plus](#linking-a-security-zone-to-an-operator).
+
+>[!NOTE]
+>
+>Cette procédure est limitée aux déploiements **sur site**.
+>
+>En tant que client **hébergé**, si vous pouvez accéder au [Panneau de Contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l&#39;interface en libre-service Zone de sécurité. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>
+>Les autres clients **hybrides/hébergés** doivent contacter un Adobe pour configurer des zones de sécurité pour leur instance.
+
 
 ## Créer des zones de sécurité {#creating-security-zones}
 
