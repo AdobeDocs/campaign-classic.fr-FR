@@ -6,58 +6,16 @@ description: En savoir plus sur les meilleures pratiques de configuration du ser
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 67%
+source-wordcount: '623'
+ht-degree: 62%
 
 ---
 
-
 # Configuration du serveur {#server-configuration}
-
-## Paramétrage des zones de sécurité
-
-A partir du build 8977, l’interface Security Zones Self Service n’est plus disponible. Si votre instance n’est pas hébergée sur AWS, contactez l’équipe de support Adobe pour ajouter les adresses IP à la liste autorisée. Sinon, l&#39;ajout d&#39;IP à la liste autorisée doit être effectué dans [Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
-
-Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
-
->[!NOTE]
-> 
->Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
->
->Notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](../../rn/using/gs-overview.md) ou la dernière version de [GA (21.1)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
-
-
-* Vérifiez que le proxy inverse n&#39;est pas autorisé dans subNetwork. Si c&#39;est le cas, l&#39;**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
-
-* Limitez l&#39;utilisation de sessionTokenOnly=&quot;true&quot; :
-
-   * Avertissement : si cet attribut est défini sur true, l&#39;opérateur peut être exposé à une **attaque CRSF**.
-   * De plus, le cookie sessionToken n&#39;étant pas défini avec un flag httpOnly, certains codes JavaScript côté client peuvent le lire.
-   * L&#39;utilisation de Message Center avec plusieurs instances d&#39;exécution requiert toutefois l&#39;activation de l&#39;option sessionTokenOnly : créez une nouvelle zone de sécurité avec l&#39;option sessionTokenOnly définie sur &quot;true&quot; et ajoutez **uniquement les adresses IP nécessaires** à cette zone.
-
-* Si possible, définissez all allowHTTP, showErrors sur false (non pour localhost) et vérifiez-les.
-
-   * allowHTTP = &quot;false&quot; : force les opérateurs à utiliser le protocole HTTPS.
-   * showErrors = &quot;false&quot; : masque les erreurs techniques (y compris celles de SQL). Cet attribut empêche l&#39;affichage d&#39;un trop grand nombre d&#39;informations, mais il limite la possibilité des marketeurs de corriger les erreurs (sans demander des informations supplémentaires à un administrateur).
-
-* Définissez allowDebug sur true uniquement sur les adresses IP utilisées par les utilisateurs marketing/administrateurs qui doivent créer (ou plutôt prévisualiser) des questionnaires, webApps et rapports. Ce flag permet d&#39;afficher les règles de relais et de les déboguer pour ces adresses IP.
-
-* Ne définissez jamais les attributs allowEmptyPassword, allowUserPassword et allowSQLInjection sur true. Ils ne servent qu&#39;à faciliter la migration depuis la v5 vers la v6.0 :
-
-   * L&#39;attribut **allowEmptyPassword** permet aux opérateurs de disposer d&#39;un mot de passe vide. Si c&#39;est votre cas, demandez à tous les opérateurs de définir un mot de passe avec un délai. Une fois ce délai passé, définissez cet attribut sur la valeur false.
-
-   * L&#39;attribut **allowUserPassword** permet aux opérateurs d&#39;envoyer leurs identifiants en tant que paramètres (afin qu&#39;ils puissent être connectés par Apache/IIS/un proxy). Cette fonctionnalité était auparavant utilisée pour simplifier l&#39;utilisation de l&#39;API. Vous pouvez vérifier dans votre « livre de recettes » (ou dans les spécifications) si des applications tierces utilisent cet attribut. Si c&#39;est le cas, vous devez demander à ces tiers de changer la façon dont ils utilisent notre API et supprimer cette fonctionnalité dès que possible.
-
-   * **** allowSQLInjectionpermet à l&#39;utilisateur d&#39;effectuer des injections SQL en utilisant une ancienne syntaxe. Dès que possible, effectuez les corrections décrites dans [cette page](../../migration/using/general-configurations.md) pour pouvoir définir cet attribut sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier le paramétrage de votre zone de sécurité. Cette page affiche l&#39;état actif des mesures de sécurité (calculé avec ces flags de sécurité) pour l&#39;adresse IP actuelle.
-
-* Cookie HttpOnly/useSecurityToken : reportez-vous au flag **sessionTokenOnly**.
-
-* Limitez le nombre d’adresses IP ajoutées à la liste autorisée : dans les zones de sécurité, nous avons ajouté les 3 plages pour les réseaux privés. Il est peu probable que vous utilisiez toutes ces adresses IP. Donc gardez uniquement ceux dont vous avez besoin.
-
-* Mettez à jour l&#39;opérateur interne/webApp pour qu&#39;il soit accessible uniquement dans localhost.
 
 ## Protection des téléchargements de fichiers
 
