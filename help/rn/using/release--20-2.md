@@ -4,24 +4,22 @@ product: campaign
 title: Version 20.2
 description: Version 20.2
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: a25f9464a762defa5d9a3b45bb60a387c65b7c97
+source-git-commit: 65662a49aefdd6b5f85b39677908696f093779e8
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2835'
 ht-degree: 92%
 
 ---
 
-
 # Version 20.2{#release-20-2}
-
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/green_2.png) Version 20.2.5 - Build 9188 {#release-20-2-5-build-9188}
 
-_31 mars 2020_
+_31 mars 2021_
 
 **Améliorations**
 
@@ -63,6 +61,8 @@ _22 décembre 2020_
 * Correction d&#39;un problème dans la gestion des threads POSIX qui générait des fichiers de vidage principaux volumineux sur l&#39;instance marketing. (NEO-28117, NEO-29281)
 * Correction de problèmes susceptibles de provoquer un blocage du processus web lors de la préparation de diffusions ou avec une prévisualisation de diffusion récurrente. (NEO-27790, NEO-27517)
 * Correction d&#39;un problème en raison duquel l&#39;envoi de diffusions ou de BAT échouait lorsqu&#39;il était déclenché par un opérateur non administrateur. (NEO-28597)
+
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.3 - Build 9182 {#release-20-2-3-build-9182}
 
