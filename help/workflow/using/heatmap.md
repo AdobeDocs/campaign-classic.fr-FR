@@ -6,14 +6,14 @@ description: Surveillez vos workflows Campaign avec la Carte thermique des workf
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 translation-type: tm+mt
-source-git-commit: d34435b0b8714a87add6a5e3f82e4f94376f205b
+source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1179'
 ht-degree: 100%
 
 ---
-
 
 # Carte thermique des workflows {#workflow-heatmap}
 
@@ -40,7 +40,7 @@ Elle permet plus précisément aux administrateurs de la plateforme d’effectue
 
 L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](../../workflow/using/about-workflows.md), [Activités](../../workflow/using/about-activities.md) et [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md).
 
-La carte thermique des workflows est disponible par défaut dans Adobe Campaign à compter de la version 18.10. Si vous disposez d’un build entre 8700 et 8977 (18.10), vous pouvez également bénéficier de cette fonctionnalité. Pour demander le package correspondant, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) et suivez les instructions sur [cette page](https://helpx.adobe.com/fr/campaign/kb/install-workflow-heatmap-package.html) pour savoir comment l’installer.
+<!--The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.-->
 
 ## Utilisation de la carte thermique {#using-the-heatmap}
 
