@@ -4,16 +4,16 @@ product: campaign
 title: A propos des profils
 description: A propos des profils
 feature: Profils, Audiences
-role: Professionnel, architecte de données
-level: Débutant
+role: Business Practitioner, Data Architect
+level: Beginner
+exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 69%
+source-wordcount: '1024'
+ht-degree: 71%
 
 ---
-
 
 # Commencer avec profils{#about-profiles}
 
@@ -79,11 +79,11 @@ Pour accéder aux fonctionnalités avancées et aux paramétrages, vous devez cl
 
 ![](assets/d_ncs_user_interface01.png)
 
-La présentation générale de l&#39;explorateur Adobe Campaign est présentée dans [cette section](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+La présentation générale de l&#39;explorateur Adobe Campaign est présentée dans [cette page](../../platform/using/adobe-campaign-explorer.md).
 
 >[!NOTE]
 >
->Vous pouvez également afficher une vue avancée de cette liste à partir de l’arborescence Adobe Campaign, en cliquant sur le lien **[!UICONTROL Profils et cibles > Destinataires]**. L’affichage de cette liste peut être paramétré selon vos besoins. Vous pouvez ajouter ou supprimer des colonnes, définir leur ordre, trier les données, etc. La configuration de l&#39;affichage des listes est décrite dans [cette section](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+>Vous pouvez également afficher une vue avancée de cette liste à partir de l’arborescence Adobe Campaign, en cliquant sur le lien **[!UICONTROL Profils et cibles > Destinataires]**. L’affichage de cette liste peut être paramétré selon vos besoins. Vous pouvez ajouter ou supprimer des colonnes, définir leur ordre, trier les données, etc. La configuration de l&#39;affichage des listes est décrite dans [cette page](../../platform/using/adobe-campaign-ui-lists.md).
 >
 >Vous pouvez également définir des vues de destinataires. Pour plus d&#39;informations sur cette fonctionnalité, consultez [cette section](../../platform/using/access-management-folders.md).
 
@@ -93,11 +93,11 @@ Les profils actifs sont les profils qui sont comptabilisés à des fins de factu
 
 Le nombre de profils principaux est disponible pour **les instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
 
-Si vous êtes hébergé sur AWS, vous pouvez également surveiller le nombre de profils principaux utilisés sur vos instances directement à partir du Panneau de Contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+Si vous êtes hébergé sur AWS, vous pouvez également surveiller le nombre de profils principaux utilisés sur vos instances directement à partir du Panneau de Contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
 >[!NOTE]
 >
->Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
 >Notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](../../rn/using/gs-overview.md) ou la dernière version de [GA (21.1)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
