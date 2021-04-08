@@ -6,15 +6,14 @@ description: Découvrez comment utiliser Campaign Explorer
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
+exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
 translation-type: tm+mt
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+source-git-commit: 8405eefb2e79deeeca07e0c8231bdfa5200ec185
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 44%
 
 ---
-
 
 # Utiliser l&#39;explorateur Adobe Campaign {#using-adobe-campaign-explorer}
 
