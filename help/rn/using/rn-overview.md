@@ -4,16 +4,16 @@ product: campaign
 title: Prise en main des mises à niveau
 description: En savoir plus sur les mises à niveau de Campaign Classic
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 93%
 
 ---
-
 
 # Prise en main des mises à niveau{#rn-overview}
 
@@ -29,7 +29,7 @@ Un statut est associé à chaque build. Vous trouverez ci-dessous la liste des s
 
 ![](assets/do-not-localize/green3.png) **Disponibilité générale** (GA) - Validée en production et recommandée par Adobe.
 
-Les **derniers builds en disponibilité générale** ont les versions suivantes : [[!DNL Gold Standard]  11](../../rn/using/gold-standard.md#gs-11) et [Campaign 20.2.4](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
+Les **derniers builds en disponibilité générale** ont les versions suivantes : [[!DNL Gold Standard]  11](../../rn/using/gold-standard.md#gs-11) et [Campaign 20.2.5](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
 
 ![](assets/do-not-localize/limited3.png) **Disponibilité limitée** (LA) - Déploiement à la demande uniquement.
 
