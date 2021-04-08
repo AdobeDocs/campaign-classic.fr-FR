@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 99%
+source-wordcount: '1107'
+ht-degree: 96%
 
 ---
 
@@ -117,7 +117,6 @@ La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous 
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
-* Version Campaign 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
 * Version Campaign 20.2.5. [En savoir plus](../rn/using/release--20-2.md)
 * Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
@@ -135,7 +134,7 @@ En outre, pour les environnements hybrides, les clients doivent s&#39;assurer qu
 
 ### API du fournisseur APNs basée sur HTTP/2
 
-Le service Apple Push Notification (APNs) ne prendra plus en charge l&#39;ancien protocole binaire à compter du **31 mars 2021**. [En savoir plus](https://developer.apple.com/news/?id=c88acm2b).
+Depuis le **31 mars 2021**, le service Apple Push Notification (APN) ne prend plus en charge le protocole binaire hérité. [En savoir plus](https://developer.apple.com/news/?id=c88acm2b).
 
 **Cela vous concerne-t-il ?**
 
@@ -151,7 +150,7 @@ En tant que client sur site/hybride, vous devez mettre à jour votre configurati
 
 ### Mises à jour du certificat racine d’APNs
 
-Le 29 mars 2021, une mise à jour de l’infrastructure du service Apple Push Notification (APNs) aura un impact sur le canal iOS d’Adobe Campaign Classic. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
+Le 29 mars 2021, une mise à jour de l’infrastructure du service de notifications Push Apple (APN) a affecté le canal Adobe Campaign Classic iOS. Une modification de la configuration du système d’exploitation est **obligatoire** pour éviter une panne du canal push d’iOS.
 
 Pour en savoir plus sur les modifications d’APNs, consultez [cette page](https://developer.apple.com/news/?id=7gx0a2lp).
 
