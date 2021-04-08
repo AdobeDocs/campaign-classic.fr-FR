@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2483'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 98%
       + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + Espace de travail Adobe Campaign{#campaign-workspace}
          + [Prise en main de l’IU de Campaign](platform/using/adobe-campaign-workspace.md)
+         + [Utiliser Campaign Explorer](platform/using/adobe-campaign-explorer.md)
          + [Parcourir et personnaliser des listes](platform/using/adobe-campaign-ui-lists.md)
       + Forum aux questions {#faq}
          + [Questions les plus fréquentes](platform/using/common-questions.md)
@@ -226,9 +227,9 @@ ht-degree: 98%
       + [Tracking des tests](delivery/using/testing-tracking.md)
       + [Résolution des problèmes de tracking](delivery/using/tracking-troubleshooting.md)
    + Gestion de la délivrabilité {#deliverability-management}
-      + [Qu&#39;est-ce que la délivrabilité ?](delivery/using/about-deliverability.md)
+      + [Qu’est-ce que la délivrabilité ?](delivery/using/about-deliverability.md)
       + [Contrôler le contenu du message](delivery/using/control-message-content.md)
-      + [Contrôle de la délivrabilité](delivery/using/monitoring-deliverability.md)
+      + [Surveillance de la délivrabilité](delivery/using/monitoring-deliverability.md)
       + [Inbox rendering](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Résolution des problèmes](delivery/using/deliverability-faq.md)
