@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -118,7 +118,7 @@ La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
 * Version Campaign 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
-* Version Campaign 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
+* Version Campaign 20.2.5. [En savoir plus](../rn/using/release--20-2.md)
 * Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
 Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
@@ -147,7 +147,7 @@ Découvrez comment vérifier votre version [dans cette section](../platform/usin
 
 En tant que client hébergé, si vous avez effectué la mise à niveau vers le nouveau build, Adobe a déjà mis à jour votre ou vos instance(s) vers l’API basée sur HTTP/2.
 
-En tant que client On-premise/hébergé, vous devez mettre à jour votre configuration. [Découvrez comment migrer vers HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
+En tant que client sur site/hybride, vous devez mettre à jour votre configuration. [Découvrez comment migrer vers HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)
 
 ### Mises à jour du certificat racine d’APNs
 
