@@ -6,14 +6,14 @@ description: Configuration de l'interface
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 translation-type: tm+mt
-source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 100%
 
 ---
-
 
 # Configuration de l&#39;interface{#configuring-the-interface}
 
@@ -70,7 +70,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
    >[!NOTE]
    >
-   >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **navtree**, reportez-vous à [cette page](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy).
+   >Pour connaître l&#39;intégralité des possibilités concernant les fichiers de type **navtree**, reportez-vous à [cette page](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
    Dans le cas de l&#39;exemple actuel, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc de la forme suivante :
 
@@ -91,4 +91,3 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
    ```
 
 1. Enregistrez la création.
-
