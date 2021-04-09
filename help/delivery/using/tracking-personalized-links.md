@@ -6,11 +6,11 @@ description: Découvrez comment écrire des liens dans des emails qui peuvent ê
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b81d0ea22bf9d8f33e486535b4ce02fbae7b9ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Les liens inclus dans le contenu des emails qui comportent des éléments de per
 L’utilisation de JavaScript dans le contenu des emails (HTML ou Texte) vous permet de générer et d&#39;envoyer du contenu dynamique aux destinataires, avec deux restrictions :
 
 * Le script ne peut pas accéder directement à la base de données (la fonction SQL et les fonctions API ne sont pas disponibles),
-* Adobe Campaign doit être capable de détecter les URL afin que les liens puissent être suivis. [En savoir plus](detecting-tracking-urls.md)
+* Adobe Campaign doit être en mesure de détecter les URL afin que les liens puissent être suivis. [En savoir plus](detecting-tracking-urls.md)
 
-Vous pouvez ajouter des instructions de prétraitement spécifiques pour script et suivi de l’URL. [En savoir plus](pre-processing-instructions.md)
+Vous pouvez ajouter des instructions de pré-traitement spécifiques pour effectuer le script et le suivi de l’URL. [En savoir plus](pre-processing-instructions.md)
 
 Pour la détection du tracking, Adobe Campaign incorpore [Tidy](http://www.html-tidy.org/) pour analyser la source HTML et détecter le modèle. Il répertorie toutes les URL du contenu afin qu’elles puissent être trackées individuellement. Adobe Campaign utilise à nouveau Tidy pour remplacer l&#39;URL (`http://myurl.com`) par une URL pointant vers le serveur de redirection d&#39;Adobe Campaign.
 
