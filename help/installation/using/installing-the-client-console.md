@@ -6,14 +6,14 @@ description: Découvrez comment installer la console cliente
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 translation-type: tm+mt
-source-git-commit: c96a7faf5c65848a3f383a5721bfa45048ecea57
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 56%
+ht-degree: 66%
 
 ---
-
 
 # Installation et mise à jour de la console cliente Campaign{#installing-the-client-console}
 
@@ -50,23 +50,23 @@ Afin de permettre aux utilisateurs Adobe Campaign de se connecter à l&#39;insta
 
 ### Mise à disposition de la console pour les utilisateurs {#make-console-available}
 
-Lorsque la machine utilisée pour lancer un serveur applicatif Adobe Campaign (nlserver web) reçoit les connexions des utilisateurs par la console cliente, vous pouvez la configurer afin de mettre à disposition le programme d&#39;installation (setup) du client riche Adobe Campaign à travers une interface HTML. Chaque fois qu’une nouvelle version de la console client est disponible, les utilisateurs sont invités à la télécharger lors du lancement de leur console client.
+Lorsque l’ordinateur utilisé pour démarrer un serveur d’application Adobe Campaign (nlserver web) reçoit les connexions des utilisateurs à partir de la console client, vous pouvez le configurer afin de mettre à disposition le programme d’installation de la console Adobe Campaign à travers une interface HTML. Chaque fois qu’une nouvelle version de la console client est disponible, les utilisateurs sont invités à la télécharger lors du lancement de leur console client.
 
-Pour cela, vous devez :
+Pour ce faire, procédez comme suit :
 
-1. Sélectionnez le package contenant le programme d&#39;installation de la console.
+1. Sélectionnez le package qui contient le programme d’installation de la console.
 
    Ce fichier s’appelle setup-client-7.X.XXXX.exe pour v7 ou setup-client-6.X.XXXX.exe pour v6.1, où X est la sous-version d’Adobe Campaign et XXXX est la compilation.   nombre.
 
 1. Copiez et collez ce package dans le dossier d’installation Adobe Campaign (sur le serveur marketing pour les installations hybrides), sous /datakit/nl/eng/jsp.
 
-1. Début du serveur Adobe Campaign.
+1. Démarrez le serveur Adobe Campaign.
 
 >[!CAUTION]
 >
->  L&#39;Adobe recommande de ne pas sélectionner l&#39;option **[!UICONTROL Ne plus poser cette question]** pour s&#39;assurer que tous les utilisateurs sont avertis lorsqu&#39;une nouvelle version de la console est disponible.  Si cette option est sélectionnée, l&#39;utilisateur ne sera pas informé des nouvelles versions disponibles.
+>  Adobe recommande de ne pas sélectionner l’option **[!UICONTROL Ne plus poser cette question]** pour que tous les utilisateurs soient informés de la disponibilité d’une nouvelle version de la console.  Si cette option est sélectionnée, l&#39;utilisateur ne sera pas informé des nouvelles versions disponibles.
 
-Si **[!UICONTROL Ne plus poser cette question]** a été sélectionné, vous pouvez réinitialiser cette invite. Seuls les administrateurs système à l&#39;aise avec la modification du registre Windows doivent effectuer les modifications suivantes :
+Si **[!UICONTROL Ne plus poser cette question]** a été sélectionné, vous pouvez réinitialiser cette invite. Seuls les administrateurs système qui maîtrisent l’édition du Registre Windows doivent apporter ces modifications :
 
 1. Ouvrez l&#39;Editeur du Registre à l&#39;aide de la commande **regedit** dans le menu **[!UICONTROL Démarrer]** > Exécuter.
 
