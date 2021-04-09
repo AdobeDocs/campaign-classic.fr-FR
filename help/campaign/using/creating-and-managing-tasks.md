@@ -6,11 +6,11 @@ description: Créer et gérer les tâches
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3901'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les tâches peuvent être créées, visualisées et suivies au niveau de liste d
 
 Les tâches sont attachées à des opérations, et peuvent avoir des dépendances, c&#39;est-à-dire des tâches associées. Chaque tâche a un statut, une priorité, une charge estimée et des coûts associés.
 
-Toutes les tâches sont regroupées dans une liste accessible via l&#39;onglet **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
+Toutes les tâches sont regroupées dans une liste accessible à partir de l’onglet **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
 
 Elles peuvent être affichées dans le planning du programme auquel elles appartiennent.
 
@@ -35,7 +35,7 @@ Elles peuvent être affichées dans le planning du programme auquel elles appart
 
 ### Afficher les tâches {#displaying-tasks}
 
-Les tâches s’affichent dans la liste de tâches accessible via l’onglet **[!UICONTROL Campagnes]**.
+Les tâches sont affichées dans la liste des tâches accessible à partir de l’onglet **[!UICONTROL Campagnes]**.
 
 ![](assets/s_ncs_user_task_edit_view.png)
 
@@ -57,7 +57,7 @@ Cliquez sur une tâche pour l&#39;éditer.
 
 ## Créer une nouvelle tâche {#creating-a-new-task}
 
-Pour créer une tâche, cliquez sur le lien **[!UICONTROL Tâches]** dans l&#39;onglet **[!UICONTROL Campagnes]** et sélectionnez **[!UICONTROL Créer]**.
+Pour créer une tâche, cliquez sur le lien **[!UICONTROL Tâches]** de l’onglet **[!UICONTROL Campagnes]** et choisissez **[!UICONTROL Créer]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
