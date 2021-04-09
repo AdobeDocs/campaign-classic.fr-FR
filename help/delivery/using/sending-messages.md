@@ -6,18 +6,18 @@ description: Découvrez comment confirmer la diffusion d'un email et découvrez 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Étapes principales pour l’envoi d’un email {#confirming-email-delivery}
+# Étapes principales de l’envoi d’un email {#confirming-email-delivery}
 
-Une fois votre email créé et configuré, vous pouvez l’envoyer à la cible principale. Cette section présente les principales étapes à suivre pour vérifier et confirmer la diffusion d&#39;un courriel.
+Une fois votre email créé et configuré, vous pouvez l’envoyer à la cible principale. Cette section présente les principales étapes à suivre pour vérifier et confirmer la diffusion d’un email.
 
 1. Vérifiez que vous avez configuré tous les paramètres spécifiques à la diffusion par email. Voir à ce propos la section [Paramètres de l&#39;email](../../delivery/using/email-parameters.md).
 1. Lorsque l&#39;email est prêt, avant de l’envoyer à la cible principale, il est recommandé de détecter toute erreur potentielle en envoyant des BAT. Pour plus d&#39;informations à ce sujet, consultez [Envoi d&#39;un BAT](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
