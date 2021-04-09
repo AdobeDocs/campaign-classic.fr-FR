@@ -6,11 +6,11 @@ description: Lignes de commande
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 Les lignes de commande suivantes requièrent la possibilité d&#39;accéder au serveur applicatif. Pour les déploiements hébergés par Adobe, ces commandes ne peuvent être exécutées que par Adobe.
 
-## Créer une instance {#creating-an-instance}
+## Création d’une instance {#creating-an-instance}
 
 La création d&#39;une instance peut être exécutée en ligne de commande avec la syntaxe :
 
@@ -31,7 +31,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 La commande **nlserver config -addinstance:instance1/demo*/fra** permet de créer une instance de nom **instance1** de langue française avec le masque DNS demo*.
 
-## Déclarer une base de données {#declaring-a-database}
+## Déclaration d’une base de données {#declaring-a-database}
 
 Vous pouvez associer une base de données existante à une instance. Pour cela, la ligne de commande est la suivante :
 
