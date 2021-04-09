@@ -6,11 +6,11 @@ description: Configurer la publication Twitter
 audience: social
 content-type: reference
 topic-tags: configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Cette étape requiert l&#39;accès simultané à votre console Adobe Campaign ai
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign** : accédez à l’onglet  **[!UICONTROL Profils et]** targetstab, cliquez sur le lien  **[!UICONTROL Services et]** Abonnements et cliquez sur le bouton  **** Créer.
+* **Adobe Campaign** : positionnez-vous sur l’onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/social_twitter_service_007.png)
 
