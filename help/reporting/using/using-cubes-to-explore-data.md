@@ -6,11 +6,11 @@ description: Utiliser des cubes pour explorer les données
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Marketing Analytics permet de simplifier la création de rapports ainsi que l&#
 
 ### Etape 1 - Création d&#39;un rapport basé sur un cube {#step-1---creating-a-report-based-on-a-cube}
 
-Pour créer un rapport basé sur un cube, cliquez sur le bouton **[!UICONTROL Créer]** dans l&#39;onglet **[!UICONTROL Rapports]** et sélectionnez le cube à utiliser.
+Pour créer un rapport basé sur un cube, cliquez sur le bouton **[!UICONTROL Créer]** de l’onglet **[!UICONTROL Rapports]** et choisissez le cube à utiliser.
 
 La procédure est décrite dans la section [Créer un rapport basé sur un cube](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
@@ -152,7 +152,7 @@ Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
    Vous pouvez choisir de conserver le contenu du panier ou de le vider.
 
-   La liste concernée est accessible via l&#39;onglet **[!UICONTROL Profils et cibles]**.
+   La liste correspondante est accessible à partir de l’onglet **[!UICONTROL Profils et cibles]**.
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 
