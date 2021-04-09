@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 77%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 
 >[!IMPORTANT]
 >
->Si vous vous connectez à Campaign par le biais d&#39;Adobe Identity Service (IMS), vous devez effectuer la mise à niveau vers la dernière version pour pouvoir vous connecter à Campaign après le **30 juin 2021**. Cette mise à niveau est obligatoire pour le serveur Campaign et la console cliente. Selon votre version actuelle, vous devez effectuer la mise à niveau vers l’une des versions suivantes :
+>Si vous vous connectez à Campaign par le biais d’Adobe Identity Service (IMS), vous devez effectuer une mise à niveau vers le dernier build pour pouvoir vous connecter après le **30 juin 2021**. Cette mise à niveau est obligatoire pour le serveur Campaign et la console cliente. Selon votre version actuelle, vous devez effectuer la mise à niveau vers l’une des versions suivantes :
 >
 > * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 20.3.3](../../rn/using/latest-release.md)
