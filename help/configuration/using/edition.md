@@ -6,16 +6,16 @@ description: Edition
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Modifier l&#39;arborescence de navigation de l&#39;Explorateur Campaign{#edition}
+# Modification de l’arborescence de navigation de l’Explorateur Campaign{#edition}
 
 L&#39;écran de création et de configuration des documents de paramétrage de l&#39;arborescence de navigation est accessible à partir du nœud **[!UICONTROL Administration > Paramétrage > Arborescences de navigation]** :
 
