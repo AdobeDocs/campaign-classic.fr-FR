@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Paramétrage du serveur Web
+title: Configuration du serveur web
 description: En savoir plus sur les principales pratiques de configuration des serveurs Web.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 38%
+source-wordcount: '325'
+ht-degree: 40%
 
 ---
 
-
-# Paramétrage du serveur Web {#web-server-configuration}
+# Configuration du serveur web {#web-server-configuration}
 
 Vous trouverez ci-dessous quelques-unes des meilleures pratiques liées à la configuration du serveur Web (Apache/IIS).
 
@@ -58,7 +58,7 @@ Vous trouverez ci-dessous quelques-unes des meilleures pratiques liées à la co
    * ServerSignature **Off**
    * ServerTokens **Prod**
 
-   **Sous IIS**  (voir la  [documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), effectuez la configuration suivante :
+   **Sous IIS**, effectuez la configuration suivante :
 
    * Installez **URLScan**.
    * Editez le fichier **Urlscan.ini** afin d&#39;obtenir **RemoveServerHeader=1**.
@@ -66,7 +66,7 @@ Vous trouverez ci-dessous quelques-unes des meilleures pratiques liées à la co
 
 * Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux :
 
-   **Sur Apache**  (voir la  [documentation](http://httpd.apache.org/docs/2.2/mod/core.html#limitrequestbody)), ajoutez la directive  **** LimitRequestBodydirective (taille en octets) dans le répertoire /.
+   **Sur Apache**, ajoutez la directive  **** LimitRequestBodydirective (taille en octets) dans le répertoire /.
 
    ```
    <Directory />
