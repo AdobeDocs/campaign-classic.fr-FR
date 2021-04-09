@@ -1,37 +1,37 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Audience de la cible de campagne marketing
-description: Découvrez comment définir l'audience de vos campagnes marketing
+title: Audience cible de la campagne marketing
+description: Découvrez comment définir l’audience de vos campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Sélectionnez l&#39;audience de vos campagnes {#marketing-campaign-deliveries}
+# Sélection de l’audience de vos campagnes {#marketing-campaign-deliveries}
 
-Dans une campagne marketing, pour chaque diffusion, vous pouvez définir :
+Dans une opération marketing, pour chaque diffusion, vous pouvez définir :
 
-* L’audience - En savoir plus dans les sections [Construction de l’audience dans un workflow](#building-the-main-target-in-a-workflow) et [Choisir la population cible](#selecting-the-target-population).
-* Une Population témoin - En savoir plus dans [cette section](#defining-a-control-group).
-* Adresses de contrôle - En savoir plus dans [cette section](../../delivery/using/about-seed-addresses.md).
+* L’audience : en savoir plus dans les sections [Création de l’audience dans un workflow](#building-the-main-target-in-a-workflow) et [Sélection de la population cible](#selecting-the-target-population).
+* Une population témoin : en savoir plus dans [cette section](#defining-a-control-group).
+* Adresses de contrôle : en savoir plus dans [cette section](../../delivery/using/about-seed-addresses.md).
 
-Certaines de ces informations peuvent être héritées du [modèle de campagne](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+Certaines de ces informations sont héritées du [modèle d’opération](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 Pour créer la cible de diffusion, vous pouvez définir des critères de filtrage pour les destinataires dans la base de données. Ce mode de sélection des destinataires est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
 
-## Envoyer à un groupe
+## Envoi à un groupe
 
-Vous pouvez par exemple importer une population dans une liste puis cibler cette liste dans les diffusions. Pour ce faire, procédez comme suit :
+Vous pouvez importer une population dans une liste puis cibler cette liste dans les diffusions. Pour ce faire, procédez comme suit :
 
-1. Modifiez la diffusion concernée et cliquez sur le lien **[!UICONTROL À]** pour modifier la population ciblée.
+1. Modifiez la diffusion concernée et cliquez sur le lien **[!UICONTROL Pour]** afin de modifier la population ciblée.
 
 1. Dans l&#39;onglet **[!UICONTROL Cible principale]**, choisissez l&#39;option **[!UICONTROL Définie depuis la base de données]** et cliquez sur **[!UICONTROL Ajouter]** pour sélectionner les destinataires.
 
@@ -41,9 +41,9 @@ Vous pouvez par exemple importer une population dans une liste puis cibler cette
 
 ![](assets/s_user_target_group_next.png)
 
-## Créer l’audience dans un processus de campagne {#building-the-main-target-in-a-workflow}
+## Création de l’audience dans un workflow de campagne {#building-the-main-target-in-a-workflow}
 
-La cible principale d’une diffusion peut également être définie dans le processus de la campagne : cet environnement graphique vous permet de créer une cible à l’aide de requêtes, de tests et d’opérateurs : union, déduplication, partage, etc.
+La cible principale d’une diffusion peut également être définie au travers d’un workflow de campagne : cet environnement graphique permet de créer une cible via des requêtes, des tests et des opérateurs tels que des unions, déduplications, partages, etc.
 
 >[!IMPORTANT]
 >
@@ -169,13 +169,13 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
    ![](assets/s_user_segmentation_stop_unconditional.png)
 
-## Ajouter une Population témoin {#defining-a-control-group}
+## Ajout d’une population témoin {#defining-a-control-group}
 
 La population témoin est une population qui ne recevra pas la diffusion : elle est utilisée pour suivre les comportements après diffusion et l&#39;impact de la campagne, par comparaison du comportement de la population cible, qui, elle, a reçu la diffusion.
 
 La population témoin peut être extraite de la cible principale et/ou issue d&#39;un groupe ou d&#39;une requête spécifique.
 
-### Activer la Population témoin pour une campagne {#activating-the-control-group-for-a-campaign}
+### Activation de la population témoin pour une campagne {#activating-the-control-group-for-a-campaign}
 
 Vous pouvez définir une population témoin au niveau de l&#39;opération : elle sera alors appliquée à chaque diffusion de l&#39;opération concernée.
 
@@ -191,7 +191,7 @@ Vous pouvez définir une population témoin au niveau de l&#39;opération : ell
 
 La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population témoin](#adding-a-population).
 
-### Activer la Population témoin pour une diffusion {#activating-the-control-group-for-a-delivery}
+### Activation de la population témoin pour une diffusion {#activating-the-control-group-for-a-delivery}
 
 Vous pouvez définir une population témoin au niveau de la diffusion : elle sera alors appliquée à chaque diffusion de l&#39;opération concernée.
 
@@ -210,7 +210,7 @@ Par défaut, le paramétrage de la population témoin défini au niveau de l&#39
 
 La procédure de paramétrage est présentée dans les sections [Extraire la population témoin de la cible principale](#extracting-the-control-group-from-the-main-target) et [Ajouter une population témoin](#adding-a-population).
 
-### Extraire la Population témoin de la cible principale {#extracting-the-control-group-from-the-main-target}
+### Extraction de la population témoin de la cible principale {#extracting-the-control-group-from-the-main-target}
 
 Vous pouvez extraire des destinataires de la cible principale de la diffusion : dans ce cas, les destinataires seront soustraits de la cible des actions de diffusion impactées par ce paramétrage. Cette extraction peut être aléatoire ou résulter d&#39;un tri sur les destinataires.
 
@@ -227,7 +227,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin
 
 Ce paramétrage correspond à celui d&#39;une activité de partage dans le workflow, qui permet d&#39;éclater une cible en plusieurs sous-ensembles. La population témoin correspond à l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/architecture.md).
 
-### Utiliser une nouvelle population comme Population témoin {#adding-a-population}
+### Utilisation d’une nouvelle population comme population témoin {#adding-a-population}
 
 Vous pouvez définir une nouvelle population qui sera utilisée comme population témoin. Cette population peut être issue d&#39;un groupe de destinataires ou construite via une requête spécifique.
 
@@ -240,8 +240,8 @@ Vous pouvez définir une nouvelle population qui sera utilisée comme population
 
 #### Tutoriel vidéo {#create-email-video}
 
-Cette vidéo explique comment créer une campagne et un courriel en Adobe Campaign.
+Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-D&#39;autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
