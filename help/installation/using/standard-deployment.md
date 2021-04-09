@@ -6,14 +6,14 @@ description: Déploiement Standard
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 
 ---
-
 
 # Déploiement Standard{#standard-deployment}
 
@@ -107,7 +107,7 @@ Les étapes sont les suivantes :
 
 1. Remplacez le mot de passe **internal** par celui du serveur applicatif.
 
-   Voir à ce sujet la section [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 1. Rattachez la base de données sur l&#39;instance :
 
@@ -117,7 +117,7 @@ Les étapes sont les suivantes :
 
 1. A partir des fichiers **config-default.xml** et **config-demo.xml**, activez les modules **web**, **trackinglogd** et **mta**.
 
-   Voir à ce sujet la section [Activation des processus](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Editez le fichier **serverConf.xml** et renseignez :
 
@@ -131,7 +131,7 @@ Les étapes sont les suivantes :
       >
       >Le paramètre **nameServers** n&#39;est utile que sous Windows.
 
-      Voir à ce sujet la section [Paramètres de diffusion](../../installation/using/campaign-server-configuration.md#delivery-settings).
+      Voir à ce sujet la section [Paramètres de diffusion](configuring-campaign-server.md#delivery-settings).
 
    * les serveurs de tracking redondants dans les paramètres de la redirection :
 
@@ -177,4 +177,3 @@ Les étapes sont les suivantes :
    >[!NOTE]
    >
    >On utilise l&#39;instance déjà existante des deux serveurs de tracking créés précédemment en utilisant le mot de passe du login **internal**.
-
