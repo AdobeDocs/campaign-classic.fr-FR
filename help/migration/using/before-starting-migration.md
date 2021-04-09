@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -77,4 +77,4 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->Le mot de passe **internal** doit être identique pour tous les serveurs de suivi. Pour plus d&#39;informations, consultez les sections [Identificateur interne](../../installation/using/configuring-campaign-server.md#internal-identifier) et [Permissions](../../platform/using/access-management.md).
+>Le mot de passe **interne** doit être identique pour tous les serveurs de tracking. Pour plus d’informations, consultez les sections [Identifiant interne](../../installation/using/configuring-campaign-server.md#internal-identifier) et [Permissions](../../platform/using/access-management.md).
