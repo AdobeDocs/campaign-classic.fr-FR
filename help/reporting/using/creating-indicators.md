@@ -6,11 +6,11 @@ description: Créer les indicateurs
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Une fois le cube paramétré, il peut être utilisé comme modèle pour créer u
 
 Pour cela :
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]** de l&#39;onglet **[!UICONTROL Rapports]** et sélectionnez le cube que vous venez de créer.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** de l’onglet **[!UICONTROL Rapports]** et sélectionnez le cube que vous venez de créer.
 
    ![](assets/s_advuser_cube_wz_14.png)
 
