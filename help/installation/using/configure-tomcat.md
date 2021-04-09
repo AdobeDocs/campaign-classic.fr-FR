@@ -6,14 +6,14 @@ description: Configuration de Campaign Tomcat
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf,b4a422b4-4b8b-4883-8d74-0dccda4a5ef3
 translation-type: tm+mt
-source-git-commit: 8ab0aab42accbd1253d53e8133f5af0a38c724ea
+source-git-commit: 5d8d9e6ba41f94179bbf5f6d41f86267381b9b93
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 79%
 
 ---
-
 
 # Configurer Apache Tomcat {#configuring-tomcat}
 
