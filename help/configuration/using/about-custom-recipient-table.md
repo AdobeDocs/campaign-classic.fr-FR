@@ -6,16 +6,16 @@ description: À propos de la table des destinataires personnalisée
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5871674ee26766cf08439768df3fb07ea0f99e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
 ht-degree: 100%
 
 ---
 
 
-# Utiliser une table de destinataires personnalisée{#about-custom-recipient-table}
+# Utilisation d’une table des destinataires personnalisée{#about-custom-recipient-table}
 
 Cette section présente les principes d&#39;utilisation d&#39;une table de destinataires non standard.
 
