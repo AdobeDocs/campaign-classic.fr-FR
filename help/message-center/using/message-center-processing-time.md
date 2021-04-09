@@ -6,18 +6,18 @@ description: Temps traitement Message Center
 audience: message-center
 content-type: reference
 topic-tags: reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Temps traitement Message Center{#message-center-processing-time}
 
-Ce rapport présente les principaux indicateurs liés à la file d&#39;attente en temps réel. Ce rapport, destiné aux administrateurs techniques, est également accessible via l&#39;onglet **[!UICONTROL Surveillance]** de l&#39;instance de pilotage.
+Ce rapport présente les principaux indicateurs associés à la file d’attente en temps réel. Ce rapport destiné aux administrateurs techniques est également accessible à partir de l’onglet **[!UICONTROL Supervision]** de l’instance de pilotage.
 
 ![](assets/mc_reports_2.png)
 
