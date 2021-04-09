@@ -6,14 +6,14 @@ description: Questions courantes relatives aux upgrades de build Campaign
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 98%
 
 ---
-
 
 # FAQ sur l&#39;upgrade de build {#build-upgrade-faq}
 
