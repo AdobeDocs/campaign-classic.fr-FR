@@ -6,14 +6,14 @@ description: Joindre des fichiers
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 99%
 
 ---
-
 
 # Joindre des fichiers à un courrier électronique {#attaching-files}
 
