@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: e165af411d2580d69694f1730116cb198418bfe2
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '7970'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -201,7 +201,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> Fichiers autorisés à être téléchargés séparés par des ','. La chaîne doit être une expression régulière Java valide. Voir la section<a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">Limitation des fichiers téléchargeables</a>.<br /> </td> 
+   <td> Fichiers autorisés à être téléchargés séparés par des ','. La chaîne doit être une expression régulière Java valide. Voir la section<a href="file-res-management.md" target="_blank">Limitation des fichiers téléchargeables</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -425,7 +425,7 @@ Dans le nœud **dataStore > dataSource > pool**, configurez les paramètres du
 
 Voici les différents paramètres du nœud **dataStore > virtualDir**. Il s’agit de la configuration du mapping entre les répertoires virtuels et réels.
 
-Pour plus d&#39;informations, voir la section [Gestion des ressources publiques](../../installation/using/configuring-campaign-server.md#managing-public-resources).
+Pour plus d&#39;informations, voir la section [Gestion des ressources publiques](file-res-management.md).
 
 <table> 
  <thead> 
@@ -867,7 +867,7 @@ Voici les différents paramètres du nœud **ooconv**. Il s’agit de la configu
 
 Voici les différents paramètres du nœud **proxyConfig**. Il s’agit de la configuration des paramètres de proxy.
 
-Pour plus d&#39;informations, voir la section [Paramétrage de la connexion au proxy](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+Pour plus d&#39;informations, voir la section [Paramétrage de la connexion au proxy](file-res-management.md).
 
 <table> 
  <thead> 
@@ -904,7 +904,7 @@ Pour plus d&#39;informations, voir la section [Paramétrage de la connexion au p
 
 Dans le nœud **proxyConfig > HTTP Proxy / Secure proxy**, configurez les paramètres suivants.
 
-Pour plus d&#39;informations, voir la section [Paramétrage de la connexion au proxy](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+Pour plus d&#39;informations, voir la section [Paramétrage de la connexion au proxy](file-res-management.md).
 
 <table> 
  <thead> 
@@ -1691,7 +1691,7 @@ Dans le nœud **cache**, configurez les paramètres suivants. Il s’agit de la 
 
 Dans le nœud **mta > relay**, configurez les paramètres suivants. Il s’agit de la configuration pour l’utilisation d’un serveur de mail pour assurer la diffusion des messages.
 
-La liste sera gérée de la même manière qu&#39;une liste de MX renvoyée par une requête DNS MX, généralement la première MX est utilisée tant qu&#39;elle est disponible, puis la suivante est utilisée, et ainsi de suite.
+La liste sera gérée de la même manière qu’une liste de MX renvoyée par une requête DNS MX. En règle générale, le premier MX est utilisé tant qu’il est disponible, puis le suivant est utilisé, et ainsi de suite.
 
 Pour plus d&#39;informations, consultez la section [Relais SMTP](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
