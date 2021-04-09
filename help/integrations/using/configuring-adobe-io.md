@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: f3ca92325f70cb3b9cca1ec5f6b7ddb5a02f9159
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 73%
+ht-degree: 98%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 73%
 
 >[!CAUTION]
 >
->Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**. Le mode d’authentification Auth hérité avec Campaign et Campaign sera retiré le 30 novembre 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**. Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le 30 novembre 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->Notez que lors de ce déplacement vers [!DNL Adobe I/O], certains déclencheurs entrants peuvent être perdus.
+>Notez que lors de ce déplacement vers [!DNL Adobe I/O], certains triggers entrants peuvent être perdus.
 
 ## Prérequis {#adobe-io-prerequisites}
 
@@ -36,11 +36,11 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
 ## Étape 1 : créer/mettre à jour un projet Adobe I/O {#creating-adobe-io-project}
 
-1. Accédez à [!DNL Adobe I/O] et connectez-vous avec le droit Administrateur système de l&#39;organisation IMS.
+1. Accédez à [!DNL Adobe I/O] et connectez-vous avec le droit Administrateur système pour I’organisation IMS.
 
    >[!NOTE]
    >
-   > Assurez-vous d&#39;être connecté au portail de l&#39;organisation approprié.
+   > Assurez-vous d’être connecté au portail d’organisation approprié.
 
 1. Extrayez l&#39;identifiant client (identifiant du client) d&#39;intégration existant du fichier de configuration de l&#39;instance ims/authIMSTAClientId. Un attribut non existant ou vide indique que l’identifiant du client n’est pas configuré.
 
@@ -66,7 +66,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
 1. Si l’identifiant du client était vide, sélectionnez **[!UICONTROL Générer une paire de clés]** pour créer une paire de clés publique et privée.
 
-   Les clés seront alors automatiquement téléchargées avec une date d&#39;expiration par défaut de 365 jours. Une fois expirée, vous devez créer une nouvelle paire de clés et mettre à jour l&#39;intégration dans le fichier de configuration. L&#39;option 2 vous permet de créer et de télécharger manuellement votre **[!UICONTROL clé publique]** avec une date d&#39;expiration plus longue.
+   Les clés seront alors automatiquement téléchargées avec une date d’expiration par défaut de 365 jours. Une fois la date d’expiration atteinte, vous devez générer une nouvelle paire de clés et mettre à jour l’intégration dans le fichier de configuration. L’option 2 vous permet de créer et de télécharger manuellement votre **[!UICONTROL clé publique]** avec une date d’expiration plus longue.
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -74,13 +74,13 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Sélectionnez un **[!UICONTROL profil de produits]** existant ou créez-en un nouveau si nécessaire. Aucune autorisation n&#39;est requise pour ce **[!UICONTROL profil de produits]**. Pour plus d&#39;informations sur [!DNL Analytics] **[!UICONTROL Profils de produits]**, consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console).
+1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n&#39;est requise pour ce **[!UICONTROL profil de produits]**. Pour plus d’informations sur les **[!UICONTROL profils de produit]** [!DNL Analytics], consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr#admin-console).
 
    Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
-1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Analytics]** et copiez les informations suivantes sous **[!UICONTROL Compte de service (JWT)]** :
+1. Dans votre projet, sélectionnez **[!UICONTROL Adobe Analytics]** et copiez les informations suivantes sous **[!UICONTROL Compte Service (JWT)]** :
 
    * **[!UICONTROL Identifiant du client]**
    * **[!UICONTROL Secret du client]**
@@ -105,11 +105,11 @@ La clé privée doit être encodée au format UTF-8 base64. Pour ce faire :
 
 1. Utilisez la clé privée générée dans la section [Étape 1 : créer/mettre à jour un projet Adobe I/O](#creating-adobe-io-project). La clé privée doit être la même que celle utilisée pour créer l&#39;intégration.
 
-1. Codez la clé privée à l’aide de la commande suivante : ```base64 ./private.key```.
+1. Encodez la clé privée à l’aide de la commande suivante : ```base64 ./private.key```.
 
    >[!NOTE]
    >
-   >Des lignes supplémentaires peuvent parfois être automatiquement ajoutées lorsque vous copiez/collez la clé privée. Pensez à la supprimer avant de d&#39;encoder votre clé privée.
+   >Des lignes supplémentaires peuvent parfois être automatiquement ajoutées lors du copier/coller de la clé privée. Pensez à les supprimer avant d’encoder votre clé privée.
 
 1. Utilisez votre nouvelle clé privée encodée au format UTF-8 base64 pour exécuter la commande décrite ci-dessus.
 
