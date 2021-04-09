@@ -6,11 +6,11 @@ description: En savoir plus sur la confidentialité et le consentement
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -74,9 +74,9 @@ Dans les cas où le consentement est nécessaire pour certaines activités de co
 
 Il peut même arriver que certains consentements doivent être actualisés pour pouvoir continuer à utiliser les données.
 
-Les spécialistes du marketing devraient considérer ces exigences de consentement améliorées comme un véritable indicateur de l’engagement et de la fidélité de la marque, ainsi que de la satisfaction et de la confiance des clients.
+Les spécialistes marketing devraient considérer ces exigences de consentement améliorées comme un véritable indicateur de la fidélité et de l’interaction avec la marque, ainsi que de la satisfaction et de la confiance des clients.
 
-## Gérer le consentement {#manage-consent}
+## Gestion du consentement {#manage-consent}
 
 ### Comment les contrôleurs de données peuvent-ils gérer le consentement dans Adobe Campaign ?
 
