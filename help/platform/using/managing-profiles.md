@@ -6,14 +6,14 @@ description: Gérer des profils
 audience: platform
 content-type: reference
 topic-tags: profile-management
+exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
-
 
 # Gestion des profils{#managing-profiles}
 
@@ -27,7 +27,7 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 
 >[!NOTE]
 >
->Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. En savoir plus sur [Dossiers et vues](../../platform/using/access-management-folders.md).
+>Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. En savoir plus dans la section [Dossiers et vues](../../platform/using/access-management-folders.md).
 
 ## Déplacer les destinataires {#moving-recipients}
 
@@ -48,4 +48,3 @@ Pour purger un dossier, utilisez le menu **[!UICONTROL Actions > Purger le doss
 Cliquez sur **[!UICONTROL Démarrer]** pour lancer l&#39;opération. La section centrale de la fenêtre affiche l&#39;état d&#39;avancement, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_user_purge_folder_start.png)
-
