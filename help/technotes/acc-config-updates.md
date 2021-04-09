@@ -14,7 +14,7 @@ ht-degree: 96%
 
 ---
 
-# Mises à jour de la configuration Adobe Campaign - Mars 2021 {#acc-config-updates}
+# Mises à jour de la configuration d’Adobe Campaign - Mars 2021 {#acc-config-updates}
 
 Une mise à jour de l’infrastructure et des paramètres doit être régulièrement effectuée avec les derniers builds et correctifs de produits. Ces correctifs sont nécessaires pour assurer la sécurité et la continuité du service. En outre, des mises à niveau seront nécessaires pour s’aligner sur les modifications tierces.
 
@@ -107,11 +107,11 @@ Une fois toutes les instances mises à niveau, la console cliente doit égalemen
 
 ## Intégration avec les triggers Experience Cloud  {#acc-triggers-updates}
 
-Le service d’authentification oAuth hérité est arrivé en fin de vie. L’authentification de l’intégration des triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Elle prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+Le service d’authentification oAuth hérité est arrivé en fin de vie. L’authentification de l’intégration de Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Elle prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
 **Cela vous concerne-t-il ?**
 
-Si vos instances s’exécutent sur une **version antérieure à Campaign 19.1.8, 20.2.4 ou Gold Standard 11**, vous utilisez une version plus ancienne de l’intégration des triggers via l’authentification oAuth : **vous devez effectuer la mise à niveau vers une version plus récente et passer à Adobe I/O**.
+Si vos instances s’exécutent sur une **version antérieure à Campaign 19.1.8, 20.2.4 ou Gold Standard 11**, vous utilisez une version plus ancienne de l’intégration Triggers via l’authentification oAuth : **vous devez effectuer la mise à niveau vers une version plus récente et passer à Adobe I/O**.
 
 La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
@@ -160,11 +160,11 @@ Si vous utilisez Campaign pour envoyer des notifications push sur des appareils 
 
 **Comment effectuer la mise à jour ?**
 
-En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà incorporé le nouveau certificat racine à votre environnement.
+En tant que client hébergé, aucune action n’est nécessaire : Adobe a déjà intégré le nouveau certificat racine à votre environnement.
 
 En tant que client On-premise/hybride, vous devez mettre à jour votre configuration pour garantir une transition harmonieuse **avant le 29 mars 2021**.
 
-[Découvrez comment incorporer le nouveau certificat](ios-certificate-update.md).
+[Découvrez comment intégrer le nouveau certificat](ios-certificate-update.md).
 
 ## Liens utiles
 
