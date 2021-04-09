@@ -6,11 +6,11 @@ description: Découvrez comment envoyer un rapport à une liste à l’aide d’
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les étapes principales de mise en oeuvre de ce cas pratique sont les suivantes 
 
 ## Etape 1 : création de la liste de destinataires {#step-1--creating-the-recipient-list}
 
-Accédez à l&#39;onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Listes]**, puis sur le bouton **[!UICONTROL Créer]**. Sélectionnez **[!UICONTROL Nouvelle liste]** et créez une nouvelle liste de destinataire à laquelle le rapport doit être envoyé.
+Accédez à l’onglet **[!UICONTROL Profils et cibles]**, cliquez sur le lien **[!UICONTROL Listes]**, puis sur le bouton **[!UICONTROL Créer]**. Sélectionnez **[!UICONTROL Nouvelle liste]** et créez une liste de destinataires à laquelle envoyer le rapport.
 
 ![](assets/use_case_report_1.png)
 
