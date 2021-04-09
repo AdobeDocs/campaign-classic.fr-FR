@@ -2,29 +2,29 @@
 solution: Campaign Classic
 product: campaign
 title: Conception et exécution de campagnes marketing
-description: Définir, optimiser, exécuter et analyser des campagnes marketing.
+description: Définissez, optimisez, exécutez et analysez des campagnes marketing.
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Concevoir et exécuter des campagnes marketing{#designing-marketing-campaigns}
+# Conception et exécution de campagnes marketing{#designing-marketing-campaigns}
 
-Adobe Campaign vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes de communication et de marketing. Adobe Campaign agit comme un centre d&#39;exécution et d&#39;ordre unifié pour les stratégies marketing. Pour plus d&#39;informations à ce sujet, consultez [Campagnes d&#39;accès](../../campaign/using/accessing-campaigns.md) et [Créer des campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
+Adobe Campaign vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes marketing et de communication. Adobe Campaign agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../campaign/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
-De plus, le module **Marketing Resource Management (MRM)** complète cette application grâce à des fonctionnalités permettant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées. Le Marketing Resource Management permet l&#39;optimisation et la régulation du management des processus internes et externes, des ressources et campagnes marketing, ainsi que des relations avec les tierces parties (agences, imprimeurs, etc.). Voir à ce sujet [cette section](../../campaign/using/about-marketing-resource-management.md).
+De plus, le module **Gestion des ressources marketing (MRM)** vous permet de contrôler les actions marketing de façon collaborative à travers la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliqués. La gestion des ressources marketing permet l’optimisation et la régulation de la gestion des processus internes et externes, des ressources et campagnes marketing, ainsi que des relations tierces (agences, imprimeurs, autres). Pour plus d’informations à ce sujet, consultez [cette section](../../campaign/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
->Pour plus d’informations sur les fonctionnalités de base de Adobe Campaign, consultez la section [cette section](../../platform/using/about-adobe-campaign-classic.md).\
->Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages personnalisés sur les différents canaux sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Pour plus d’informations sur les fonctionnalités de base d’Adobe Campaign, reportez-vous à [cette section](../../platform/using/about-adobe-campaign-classic.md).\
+>Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages sur les différents canaux sont présentées dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrir les concepts clés des campagnes marketing dans une vidéo](#video)
 
@@ -62,7 +62,7 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
    Une composition est une description structurée d&#39;une diffusion. Chaque diffusion peut référencer une composition qui contient, par exemple, les offres associées, des documents à joindre ou un lien vers des magasins. En fonction de la composition sélectionnée, telle ou telle offre sera référencée dans la diffusion.
 
-   Voir à ce propos [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   Pour plus d’informations à ce sujet, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Tutoriel {#video}
 
