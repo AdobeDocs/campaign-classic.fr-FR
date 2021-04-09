@@ -6,14 +6,14 @@ description: Découvrez les étapes techniques clés de l'upgrade vers un nouvea
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
+exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 translation-type: tm+mt
-source-git-commit: cb24bc78b5cc09307ca470470464f204d9f41278
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 80%
 
 ---
-
 
 # Upgrade vers un nouveau build (On-Premise){#upgrading}
 
@@ -117,7 +117,7 @@ Sur un environnement Linux, suivez les étapes ci-dessous pour mettre à jour Ad
 * [Effectuez la mise à jour](#perform-an-update),
 * [Redémarrer le serveur web](#reboot-the-web-server).
 
-[En savoir plus sur la disponibilité](../../installation/using/client-console-availability-for-windows.md) de Client Console.
+[En savoir plus sur la disponibilité de la console client](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >
@@ -269,4 +269,3 @@ Ainsi, à la prochaine connexion des postes clients, une fenêtre indiquera aux 
 >[!NOTE]
 >
 >Assurez-vous que l&#39;utilisateur Apache a bien les droits d&#39;accès en lecture à ce fichier d&#39;installation et reportez-vous au [guide d&#39;installation](../../installation/using/general-architecture.md) pour plus d&#39;informations.
-
