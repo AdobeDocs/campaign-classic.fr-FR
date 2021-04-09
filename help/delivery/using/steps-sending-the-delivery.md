@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Avant d&#39;envoyer la diffusion, vous pouvez définir les paramètres d&#39;env
 
    >[!NOTE]
    >
-   >L&#39;utilisation de cette option est déconseillée dans le cas d&#39;une installation en mid-sourcing afin de ne pas faire appel au MTA. Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, voir [cette section](../../installation/using/configuring-campaign-server.md#delivery-settings).
+   >L&#39;utilisation de cette option est déconseillée dans le cas d&#39;une installation en mid-sourcing afin de ne pas faire appel au MTA. Pour plus d&#39;informations sur la configuration d&#39;un serveur SMTP, voir [cette section](../../installation/using/configure-delivery-settings.md).
 
 * **[!UICONTROL Email Cci]** : permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (Cci, ou Bcc en anglais) à la cible des messages. Voir à ce propos [cette section](../../delivery/using/sending-messages.md#archiving-emails).
 
