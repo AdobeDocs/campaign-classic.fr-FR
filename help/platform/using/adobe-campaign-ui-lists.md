@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gestion et personnalisation des listes
+title: Gestion et personnalisation de listes
 description: Découvrez comment parcourir et configurer des listes
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Gérer et personnaliser les listes{#manage-and-customize-lists}
+# Gestion et personnalisation de listes{#manage-and-customize-lists}
 
 Vous pouvez accéder aux listes des enregistrements de la base de données Campaign à l’aide de l’Explorateur. Vous pouvez filtrer ces listes, lancer des recherches, ajouter des informations, filtrer et trier les données.
 
-## Compter les enregistrements {#counting-records}
+## Comptage des enregistrements {#counting-records}
 
 Par défaut, Adobe Campaign charge en mémoire les 200 premiers enregistrements d&#39;une liste. Par conséquent, l&#39;affichage ne propose pas nécessairement l&#39;intégralité des enregistrements de la table dont vous affichez le contenu. Vous pouvez lancer un décompte du nombre d&#39;enregistrements de la liste et déclencher le chargement en mémoire d&#39;enregistrements supplémentaires.
 
@@ -29,7 +29,7 @@ En bas à droite de l&#39;écran de liste, un **[!UICONTROL compteur]** indique 
 
 Si un &quot;**?**&quot; apparaît à la place du nombre de droite, cliquez sur le compteur pour lancer le calcul.
 
-### Charger plus d&#39;enregistrements {#loading-more-records}
+### Chargement d’enregistrements supplémentaires {#loading-more-records}
 
 Pour charger (et donc afficher) des enregistrements supplémentaires (par défaut, 200 lignes), cliquez sur le bouton **[!UICONTROL Continuer le chargement]**.
 
@@ -51,7 +51,7 @@ Dans la fenêtre de configuration de la liste, cliquez sur **[!UICONTROL Paramè
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-## Configurer des listes {#configuring-lists}
+## Configuration de listes {#configuring-lists}
 
 ### Ajouter des colonnes {#add-columns}
 
@@ -82,9 +82,9 @@ Une autre méthode pour ajouter des colonnes, lorsque vous souhaitez afficher de
    >
    >Les libellés sont affichés par table puis par ordre alphabétique.
    >
-   >Pour lancer une recherche dans les champs disponibles, utilisez le champ **Rechercher**. Voir à ce sujet [cette section](#sorting-a-list).
+   >Pour lancer une recherche dans les champs disponibles, utilisez le champ **Rechercher**. Pour plus d’informations, consultez [cette section](#sorting-a-list).
    >
-   >Les champs sont identifiés par des icônes spécifiques : champs SQL, tables liées, champs calculés, etc. Pour chaque champ sélectionné, la description est affichée sous la liste des champs disponibles. [En savoir plus](#configuring-lists).
+   >Les champs sont identifiés par des icônes spécifiques : champs SQL, tables liées, champs calculés, etc. Pour chaque champ sélectionné, la description est affichée sous la liste des champs disponibles. [En savoir plus](#configuring-lists).
    >
    >Vous pouvez également trier et filtrer les données. Reportez-vous à [cette section](../../platform/using/filtering-options.md).
 
@@ -122,7 +122,7 @@ Répétez l&#39;opération pour chaque colonne à masquer. Cliquez sur **[!UICON
 
 Lorsque la liste est active, c’est-à-dire lorsqu’au moins une ligne est sélectionnée, la touche F9 permet d’ajuster la largeur des colonnes afin d’afficher toutes les colonnes à l’écran.
 
-### Afficher les données dans les sous-dossiers {#display-sub-folders-records}
+### Affichage des données dans des sous-dossiers {#display-sub-folders-records}
 
 Les listes peuvent afficher :
 
@@ -133,7 +133,7 @@ Pour basculer d&#39;un mode d&#39;affichage à l&#39;autre, cliquer sur l&#39;ic
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
-## Enregistrer une configuration de liste {#saving-a-list-configuration}
+## Enregistrement d’une configuration de liste {#saving-a-list-configuration}
 
 La configuration des listes est locale au poste de travail. Lorsque le cache local est vidé, les configurations locales sont désactivées.
 
@@ -163,7 +163,7 @@ Cliquez sur **[!UICONTROL Enregistrer]** dans la fenêtre des propriétés du do
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-## Exporter une liste {#exporting-a-list}
+## Export d’une liste {#exporting-a-list}
 
 Pour exporter les données d&#39;une liste, vous devez utiliser l&#39;assistant d&#39;export. Pour y accèder, sélectionnez les éléments de la liste à exporter, cliquez avec le bouton droit de la souris et choisissez **[!UICONTROL Exporter...]**.
 
@@ -173,7 +173,7 @@ L&#39;utilisation des fonctions d&#39;importation et d&#39;exportation est expli
 >
 >Les éléments d&#39;une liste ne doivent pas être exportés via la fonction Copier/Coller.
 
-## Trier une liste {#sorting-a-list}
+## Tri d’une liste {#sorting-a-list}
 
 Les listes peuvent contenir un grand nombre de données. Vous pouvez trier ces données ou appliquer des filtres simples ou avancés. Le tri permet d&#39;afficher les données dans un ordre ascendant ou descendant, tandis que les filtres permettent de définir et de combiner des critères afin de n&#39;afficher qu&#39;une sélection de données.
 
