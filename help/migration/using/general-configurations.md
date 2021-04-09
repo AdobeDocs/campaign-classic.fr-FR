@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '2843'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -631,7 +631,7 @@ Il existe deux familles d&#39;applications web :
 
 ### Applications web identifiées {#identified-web-applications}
 
-Tout comme pour les rapports ([en savoir plus](#reports)), si vous aviez ajouté du code JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (contenant les onglets bleus), vous devez republier l’application Web. Si votre code JavaScript fonctionne, vous pouvez sélectionner le moteur de rendu v6.x. Si ce n&#39;est pas le cas, vous pouvez utiliser le moteur de rendu v6.0 tout en adaptant votre code, puis utiliser le moteur de rendu v6.x.
+Tout comme pour les rapports ([en savoir plus](#reports)), si vous avez ajouté JavaScript, vous devez vérifier et vous adapter si nécessaire. Si vous souhaitez bénéficier de la bannière bleue v7 (qui contient les onglets bleus), vous devez republier l’application web. Si votre code JavaScript fonctionne, vous pouvez sélectionner le moteur de rendu v6.x. Si ce n&#39;est pas le cas, vous pouvez utiliser le moteur de rendu v6.0 tout en adaptant votre code, puis utiliser le moteur de rendu v6.x.
 
 >[!NOTE]
 Les étapes de sélection du moteur de rendu sont les mêmes que pour les rapports. Voir [Rapports personnalisés](#personalized-reports).
