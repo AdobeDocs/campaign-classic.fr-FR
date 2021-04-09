@@ -6,16 +6,16 @@ description: Découvrez les principales différences entre les déploiements hé
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
+exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
-
-# Matrice des capacités par modèle{#capability-matrix-per-model}
+# Matrice des fonctionnalités par modèle{#capability-matrix-per-model}
 
 Adobe Campaign Classic est fourni avec un ensemble de modules et d&#39;options. La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Cet article présente des détails sur les principales différences de certaines fonctionnalités entre les déploiements entièrement hébergés (Managed Services) et On-premise.
 
