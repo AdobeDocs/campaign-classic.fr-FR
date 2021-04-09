@@ -6,11 +6,11 @@ description: Surveiller les workflows techniques
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ D’autres méthodes de surveillance des différents processus de Campaign sont 
 
 ## Tableau de bord de supervision de l&#39;instance {#instance-monitoring-dashboard}
 
-Le tableau de bord de surveillance d&#39;instance est accessible via l&#39;onglet **[!UICONTROL Surveillance]**.
+Le tableau de bord de supervision de l’instance est accessible à partir de l’onglet **[!UICONTROL Supervision]**.
 
 ![](assets/monitoring_technical_workflows1.png)
 
