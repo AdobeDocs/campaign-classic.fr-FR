@@ -1,33 +1,33 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gérer l’accès aux dossiers Campaign
-description: Découvrez comment accorder l'accès aux dossiers Campaign et créer des vues
+title: Gestion de l’accès aux dossiers Campaign
+description: Découvrez comment octroyer l’accès aux dossiers Campaign et créer des vues
 feature: Paramètres de l’application
-role: Professionnel, Administrateur
-level: Débutant
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 88%
+source-wordcount: '777'
+ht-degree: 98%
 
 ---
 
-
 # Gestion de l’accès aux dossiers{#folder-access-management}
 
-Chaque dossier de l&#39;arborescence de navigation de l&#39;Explorateur dispose de droits d&#39;accès en lecture, en écriture et en suppression qui lui sont attachés. Pour accéder à un fichier, un opérateur ou un groupe d&#39;utilisateurs doit avoir au moins un accès en lecture.
+Chaque dossier de l’arborescence de navigation de l’Explorateur dispose de droits d’accès en lecture, en écriture et en suppression associés. Pour accéder à un fichier, un opérateur ou un groupe d’opérateurs doit avoir au moins un accès en lecture.
 
 ## Les dossiers et les vues {#folders-and-views}
 
 ### Qu&#39;est-ce qu&#39;un dossier {#about-folders}
 
-Les dossiers sont des nœuds dans l&#39;arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l&#39;arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Vous pouvez ensuite sélectionner le type de dossier à créer. Par défaut, le premier menu propose d&#39;ajouter le dossier correspondant au contexte courant.
+Les dossiers sont des nœuds dans l’arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l’arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Par défaut, le premier menu permet d’ajouter le dossier correspondant au contexte en cours.
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Vous pouvez personnaliser l’arborescence de navigation de l’Explorateur. Découvrez les étapes de configuration et les meilleures pratiques [dans cette section](adobe-campaign-workspace.md).
+Vous pouvez personnaliser l’arborescence de navigation de l’Explorateur. Découvrez les étapes et les bonnes pratiques de configuration [dans cette section](adobe-campaign-workspace.md).
 
 ### Qu&#39;est-ce qu&#39;une vue {#about-views}
 
@@ -80,7 +80,7 @@ Les diffusions suivantes seront affichées dans la vue :
 
 
 
-## Autorisations sur un dossier
+## Permissions sur un dossier
 
 ### Editer les permissions sur un dossier {#edit-permissions-on-a-folder}
 
