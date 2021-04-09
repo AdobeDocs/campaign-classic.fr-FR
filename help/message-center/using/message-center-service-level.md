@@ -6,18 +6,18 @@ description: Qualité de service Message Center
 audience: message-center
 content-type: reference
 topic-tags: reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Qualité de service Message Center{#message-center-service-level}
 
-Ce rapport affiche les statistiques de diffusion relatives aux messages transactionnels ainsi que la ventilation des erreurs. Vous pouvez cliquer sur un type d&#39;erreur pour afficher ses détails. Ce rapport, destiné aux administrateurs techniques, est également accessible via l&#39;onglet **[!UICONTROL Surveillance]** de l&#39;instance de pilotage.
+Ce rapport affiche les statistiques de diffusion relatives aux messages transactionnels ainsi que la répartition des erreurs. Cliquez sur un type d’erreur pour en afficher les détails. Ce rapport destiné aux administrateurs techniques est également accessible à partir de l’onglet **[!UICONTROL Supervision]** de l’instance de pilotage.
 
 ![](assets/mc_reports_1.png)
 
