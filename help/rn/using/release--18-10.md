@@ -4,16 +4,16 @@ product: campaign
 title: Notes de mise à jour de Campaign 18.10
 description: Notes de mise à jour de Campaign 18.10
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
-translation-type: ht
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: ht
-source-wordcount: '2375'
+role: Business Practitioner
+level: Beginner
+exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
+translation-type: tm+mt
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+workflow-type: tm+mt
+source-wordcount: '2372'
 ht-degree: 100%
 
 ---
-
 
 # Version 18.10{#release-18-10}
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Améliorations**
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 
 * Les API de Campaign Classic sont maintenant disponibles dans une [page dédiée](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html). Si vous utilisiez le fichier jsapi.chm, vous devez à présent vous référer à la nouvelle version en ligne.
 * PostgreSQL 10, Debian 9 et Teradata 16.20 sont maintenant pris en charge. Consultez la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html).
-* Lors de la création d&#39;une connexion SFTP, vous pouvez maintenant utiliser l&#39;authentification par proxy. Pour plus d&#39;informations, consultez la [documentation détaillée](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration) (NEO-9868)
+* Lors de la création d&#39;une connexion SFTP, vous pouvez maintenant utiliser l&#39;authentification par proxy. Pour plus d&#39;informations, consultez la [documentation détaillée](../../installation/using/file-res-management.md) (NEO-9868)
 * L&#39;option **Formule de calcul de date** est maintenant disponible dans les propriétés d&#39;une diffusion lors de la création d&#39;une diffusion unique à l&#39;aide du modèle de diffusion courrier. (NEO-9792)
 * La gestion des noms de domaine a été améliorée pour le tracking des cookies et les applications web. Pour plus d&#39;informations, consultez la section &#39;Evolutions techniques&#39;.
 * L&#39;import des ressources partagées Adobe Marketing Cloud dans une diffusion ou une landing page a été amélioré en termes de sécurité et de performances.
@@ -240,4 +240,3 @@ Ces modifications d&#39;index peuvent entraîner une augmentation du temps néce
 * Correction d&#39;une erreur Oracle qui se produisait lors de l&#39;enregistrement d&#39;une nouvelle composition de diffusion après la sélection d&#39;un élément d&#39;un schéma spécifique **basé sur une vue SQL**. (NEO-11682)
 * Correction d&#39;une erreur qui entraînait la génération de fichiers de rejet comportant des faux positifs lors du traitement d&#39;un fichier zip contenant un fichier .csv via une activité de chargement de fichier utilisant l&#39;option de décompression.
 * xtkjoblog est maintenant purgé par le nettoyage.
-
