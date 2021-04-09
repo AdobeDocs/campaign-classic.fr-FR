@@ -11,15 +11,15 @@ translation-type: tm+mt
 source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '1212'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Configuration de l’arborescence de navigation de l’Explorateur Campaign{#configuration}
 
-En tant qu’utilisateur expert, vous pouvez ajouter des dossiers dans l’arborescence de l’explorateur et les personnaliser.
+En tant qu’utilisateur expert, vous pouvez ajouter des dossiers dans l’arborescence de l’explorateur et la personnaliser.
 
-Pour en savoir plus sur l&#39;explorateur Campaign et la hiérarchie de navigation [dans cette section](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
+Pour plus d’informations sur l’explorateur Campaign et sur l’arborescence de navigation, consultez [cette section](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
 Les types de dossiers utilisés par la liste de navigation sont décrits dans un document XML respectant la grammaire du schéma **xtk:navtree**.
 
