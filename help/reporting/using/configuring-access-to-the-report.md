@@ -6,11 +6,11 @@ description: Paramétrer l'accès au rapport
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ L&#39;accès au rapport peut être limité à un contexte, ou emplacement, spéc
 
 * **[!UICONTROL Mono-sélection]** : le rapport n&#39;est accessible que lorsqu&#39;on sélectionne une entité particulière.
 * **[!UICONTROL Multi-sélection]** : le rapport est accessible lorsque plusieurs entités sont sélectionnées.
-* **[!UICONTROL Global]**  : le rapport est accessible à partir de la liste des rapports disponibles dans le  **** rapport stab.
+* **[!UICONTROL Global]** : le rapport est accessible depuis la liste des rapports disponibles de l’onglet **[!UICONTROL Rapports]**.
 
 ### Ordre d&#39;affichage {#display-sequence}
 
@@ -63,7 +63,7 @@ Le rapport peut également être partagé avec des opérateurs ou des groupes d&
 
 ### Définir les options de filtrage {#defining-the-filtering-options}
 
-L&#39;onglet **[!UICONTROL Rapports]** affiche tous les rapports disponibles sur la plateforme et pour lesquels l&#39;opérateur connecté dispose d&#39;un droit d&#39;accès.
+L’onglet **[!UICONTROL Rapports]** affiche tous les rapports disponibles dans la plateforme, et pour lesquels l’opérateur connecté a un droit d’accès.
 
 Par défaut, ils sont triés par pertinence mais vous pouvez appliquer d&#39;autres types de filtres : alphabétique, par ancienneté, etc.
 
