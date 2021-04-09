@@ -1,35 +1,35 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Documents et compositions de diffusion des campagnes marketing
-description: En savoir plus sur les documents et compositions de diffusion des campagnes marketing
+title: Compositions de diffusions et documents des campagnes marketing
+description: En savoir plus sur les compositions de diffusions et sur les documents des campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
-# Gérer les documents associés {#managing-associated-documents}
+# Gestion des documents associés {#managing-associated-documents}
 
-Vous pouvez associer divers documents à une campagne : rapports, photos, pages Web, diagrammes, etc. Ces documents peuvent être dans n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.).
+Vous pouvez associer divers documents à une opération : rapports, photos, pages web, diagrammes et bien d’autres. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF et autres).
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est réservée aux petits actifs et documents.
+>Cette fonctionnalité est réservée aux petites ressources et documents.
 
-Dans une campagne, vous pouvez également faire référence à d’autres éléments, tels que des bons promotionnels, des offres spéciales relatives à une marque ou à un magasin spécifique, etc. Lorsque ces éléments sont inclus dans un plan, ils peuvent être associés à une diffusion de messagerie directe. Voir [Associer et structurer des ressources liées par une composition de diffusion](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+Dans une campagne, vous pouvez également faire référence à d’autres éléments, tels que des coupons promotionnels, des offres spéciales relatives à une marque ou à un magasin spécifique et bien plus. Lorsque ces éléments sont inclus dans une composition, ils peuvent être associés à une diffusion courrier. Voir à ce sujet la section [Association et structure des ressources liées via une composition de diffusion](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
->Si vous utilisez le module de gestion des Ressources marketing Campaign, vous pouvez également gérer une bibliothèque de ressources marketing disponible pour plusieurs utilisateurs pour le travail collaboratif. [En savoir plus](../../campaign/using/managing-marketing-resources.md).
+>Si vous utilisez le module de gestion de ressources marketing de Campaign, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. [En savoir plus](../../campaign/using/managing-marketing-resources.md).
 
-## Documents d&#39;Ajoute {#adding-documents}
+## Ajout de documents {#adding-documents}
 
 Des documents peuvent être associés au niveau de l&#39;opération (documents contextuels) ou au niveau du programme (documents généraux).
 
@@ -56,19 +56,19 @@ Au niveau du tableau de bord, les documents associés à l&#39;opération sont r
 
 Ils peuvent également être édités et modifiés depuis cette vue.
 
-## Associer et structurer des ressources liées par une composition de diffusion {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+## Association et structure des ressources liées via une composition de diffusion {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
->Les compositions sont exclusivement utilisées dans le cadre d&#39;opérations courrier.
+>Les compositions de diffusion sont exclusivement utilisées dans le cadre de campagnes courrier.
 
-Une composition de diffusion désigne un ensemble structuré d’éléments (documents, magasins, bons promotionnels, etc.) créée par la société et pour une campagne particulière.
+Une composition de diffusion désigne un ensemble structuré d’éléments (documents, magasins, coupons promotionnels et autres). créé par la société et pour une campagne particulière.
 
-Ces éléments sont regroupés en compositions de diffusion et chaque composition de diffusion sera associée à une diffusion ; il sera référencé dans le fichier d&#39;extraction envoyé au **prestataire** afin d&#39;être joint à la diffusion. Par exemple, vous pouvez créer une composition de diffusion qui fait référence à une branche et aux brochures marketing qu’elle utilise.
+Ces éléments sont regroupés au sein de compositions de diffusions, chacune associée à une diffusion. La composition de diffusion sera référencée dans le fichier d’extraction envoyé au **fournisseur** afin d’être jointe à la diffusion. Par exemple, vous pouvez créer une composition de diffusion qui fait référence à une branche et aux brochures marketing qu’elle utilise.
 
-Les compositions permettent, au niveau de l&#39;opération, de structurer des éléments externes qui seront associés à la diffusion en fonction de certains critères : agence de rattachement, offre promotionnelle accordée, invitation à un événement local, etc.
+Les compositions de diffusions permettent, au niveau de la campagne, de structurer des éléments externes qui seront associés à la diffusion en fonction de certains critères : branche de rattachement, offre promotionnelle accordée, invitation à un événement local, etc.
 
-### Créer un plan {#creating-an-outline}
+### Création d’une composition {#creating-an-outline}
 
 Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositions de diffusions]** proposé dans l&#39;onglet **[!UICONTROL Edition > Documents]** de l&#39;opération concernée.
 
@@ -76,7 +76,7 @@ Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositio
 >
 >Si cet onglet n&#39;est pas présent, alors cette fonctionnalité n&#39;est pas prise en compte pour cette opération. Reportez-vous à la configuration du modèle d&#39;opération.
 >   
->Pour plus d’informations sur les modèles de , reportez-vous à [cette section](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>Pour plus d’informations sur les modèles, reportez-vous à [cette section](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
@@ -98,15 +98,15 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Les ressources sont des ressources marketing générées dans le tableau de bord de ressource marketing accessibles via le lien **[!UICONTROL Ressources]** de l&#39;onglet **[!UICONTROL Campagnes]**.
+* Les ressources sont des ressources marketing générées dans le tableau de bord des ressources marketing, lequel est accessible à partir du lien **[!UICONTROL Ressources]** de l’onglet **[!UICONTROL Campagnes]**.
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur les ressources marketing, consultez [cette section](../../campaign/using/managing-marketing-resources.md).
+   >Pour plus d’informations sur les ressources marketing, reportez-vous à [cette section](../../campaign/using/managing-marketing-resources.md).
 
-### Sélectionner un contour {#selecting-an-outline}
+### Sélection d’une composition {#selecting-an-outline}
 
 Pour chaque diffusion, vous pouvez sélectionner la composition à associer à partir de la section réservée à la configuration de l&#39;extraction, comme dans l&#39;exemple ci-dessous :
 
@@ -132,4 +132,4 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les exportations, consultez la section [cette section](../../platform/using/get-started-data-import-export.md).
+>Pour plus d’informations sur les exports, reportez-vous à [cette section](../../platform/using/get-started-data-import-export.md).
