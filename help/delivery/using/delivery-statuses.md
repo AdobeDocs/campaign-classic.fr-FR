@@ -6,14 +6,14 @@ description: En savoir plus sur les statuts disponibles sur votre tableau de bor
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
-
 
 # Statuts de diffusion {#delivery-statuses}
 
@@ -87,7 +87,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
  </tbody> 
 </table>
 
-Pour savoir comment optimiser la délivrabilité de vos courriels Adobe Campaign, consultez [cette section](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Pour savoir comment optimiser la délivrabilité de vos courriels Adobe Campaign, consultez [cette section](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 ## Statut En attente {#pending-status}
 
@@ -127,7 +127,7 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * La diffusion peut utiliser une affinité qui n&#39;a pas été configurée sur le serveur d&#39;envoi.
 
-   Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
+   Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#delivery-settings).
 
 * Lorsque trop de campagnes sont en cours d&#39;exécution, l’état de la diffusion reste « En attente ».
 
