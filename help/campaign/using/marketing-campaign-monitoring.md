@@ -6,11 +6,11 @@ description: Surveillance des campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Pour contrôler l&#39;état d&#39;une diffusion, éditez-la et consultez son tab
 
 >[!NOTE]
 >
->Des informations concernant les détails de la diffusion sont disponibles dans [cette section](../../delivery/using/about-message-tracking.md).
+>Des informations relatives aux détails de la diffusion sont disponibles dans [cette section](../../delivery/using/about-message-tracking.md).
 
 ## Tracking de l&#39;exécution {#execution-tracking}
 
