@@ -6,14 +6,14 @@ description: Déploiement Entreprise
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 100%
 
 ---
-
 
 # Déploiement Entreprise{#enterprise-deployment}
 
@@ -113,7 +113,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
    nlserver config -internalpassword
    ```
 
-   Voir à ce sujet la section [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 1. Créez l’instance de **démonstration** avec les masques DNS pour le suivi (ici, **tracking.campaign.net**) et l’accès aux consoles client (ici, **console.campaign.net**). Vous avez le choix entre les deux méthodes suivantes :
 
@@ -151,7 +151,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
    </serverconf>
    ```
 
-   Voir à ce sujet la section [Activation des processus](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Editez le fichier **serverConf.xml** et renseignez le domaine de diffusion puis indiquez les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA.
 
@@ -163,7 +163,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
    >
    >Le paramètre **nameServers** n&#39;est utile que sous Windows.
 
-   Pour en savoir plus, consultez [Paramétrage du serveur Campaign](../../installation/using/campaign-server-configuration.md).
+   Pour en savoir plus, consultez [Paramétrage du serveur Campaign](../../installation/using/configuring-campaign-server.md).
 
 1. Copiez le programme d’installation de la console cliente (**setup-client-7.XX**, **YYYY.exe** pour v7 ou **setup-client-6.XX**, **YYY.exe pour v6.1) dans le dossier /datakit/nl/fra/jsp.****** [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
 
@@ -229,7 +229,7 @@ Les étapes sont les suivantes :
    </serverconf>
    ```
 
-   Voir à ce sujet la section [Activation des processus](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Editez le fichier **serverConf.xml** et renseignez la configuration DNS du module MTA :
 
@@ -241,7 +241,7 @@ Les étapes sont les suivantes :
    >
    >Le paramètre **nameServers** n&#39;est utile que sous Windows.
 
-   Pour en savoir plus, consultez [Paramétrage du serveur Campaign](../../installation/using/campaign-server-configuration.md).
+   Pour en savoir plus, consultez [Paramétrage du serveur Campaign](../../installation/using/configuring-campaign-server.md).
 
 1. Démarrez les serveurs Adobe Campaign.
 
@@ -290,4 +290,3 @@ Les étapes sont les suivantes :
    * Pour Windows : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration).
 
 1. Démarrer le serveur Adobe Campaign.
-
