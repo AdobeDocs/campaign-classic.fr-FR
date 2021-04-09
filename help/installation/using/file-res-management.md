@@ -6,8 +6,9 @@ description: Découvrez comment configurer la gestion des fichiers et des ressou
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 401e1be234d52f04cbdf8dfa97f51ac227836cd5
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 74%
