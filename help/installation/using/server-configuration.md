@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Configuration de la sécurité du serveur
-description: En savoir plus sur les meilleures pratiques de configuration du serveur
+description: En savoir plus sur les bonnes pratiques relatives à la configuration du serveur
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 59%
+ht-degree: 96%
 
 ---
 
@@ -28,29 +28,29 @@ Identifiez avec les utilisateurs opérationnels le type de fichiers qu’ils té
 * des fichiers ETL (txt, csv, tab, etc.)
 * etc.
 
-Ajoutez tous ces types de fichiers dans serverConf/shared/datastore/@uploadAllowlist (expression régulière Java valide). En savoir plus sur [cette page](../../installation/using/file-res-management.md).
+Ajoutez tous ces types de fichiers dans serverConf/shared/datastore/@uploadAllowlist (expression régulière Java valide). En savoir plus à ce propos sur [cette page](../../installation/using/file-res-management.md).
 
-Adobe Campaign ne limite pas la taille du fichier. Mais vous pouvez le faire en configurant IIS/Apache. En savoir plus dans [cette section](../../installation/using/web-server-configuration.md).
+Adobe Campaign ne limite pas la taille des fichiers, mais vous pouvez la limiter en configurant IIS/Apache. En savoir plus dans [cette section](../../installation/using/web-server-configuration.md).
 
 ## Relais
 
-Pour plus d&#39;informations, consultez [cette page](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays).
+Pour plus d’informations, reportez-vous à [cette page](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays).
 
-Par défaut, toutes les pages dynamiques sont relayées automatiquement au serveur Tomcat local de la machine dont le module Web est démarré. Vous pouvez choisir de ne pas relayer certaines d&#39;entre elles. Si vous n&#39;utilisez pas certains modules d&#39;Adobe Campaign (tels que webapp, interaction, certaines pages jsp), vous pouvez les supprimer des règles de relais.
+Par défaut, toutes les pages dynamiques sont relayées automatiquement au serveur Tomcat local de la machine dont le module web est démarré. Vous pouvez choisir de ne pas relayer certaines d’entre elles. Si vous n’utilisez pas certains modules d’Adobe Campaign (tels que webapp, interaction, certains jsp), vous pouvez les supprimer des règles de relais.
 
 Nous avons forcé la possibilité d’afficher par défaut les ressources des utilisateurs finaux à l’aide de HTTP (httpAllowed=&quot;true&quot;). Comme ces pages peuvent afficher certaines PII (contenu/adresse email), un bon d’échange ou une offre, vous devez forcer de nouveau HTTPS sur ces chemins.
 
-Si vous utilisez des noms d&#39;hôte différents (un nom d&#39;hôte public et un nom d&#39;hôte pour les opérateurs), vous pouvez également empêcher le relais de certaines ressources dont les opérateurs ont besoin sur le nom DNS public.
+Si vous utilisez des noms d’hôte différents (un nom d’hôte public et un nom d’hôte pour les opérateurs), vous pouvez également empêcher le relais de certaines ressources dont les opérateurs ont besoin sur le nom DNS public.
 
 ## Protection des connexions sortantes
 
-La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.) est limitée. Pour autoriser une nouvelle URL, l’administrateur doit la référencer dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md).
+La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows et autres) est limitée. Pour autoriser une nouvelle URL, l’administrateur doit la référencer dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md).
 
 Il existe trois modes de protection des connexions :
 
-* **Blocking** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d’erreur s’affiche. Il s&#39;agit du mode par défaut après un postupgrade.
+* **Blocking** : toutes les URL qui ne figurent pas sur la liste autorisée sont bloquées et un message d’erreur s’affiche. Il s’agit du mode par défaut après un postupgrade.
 * **Permissive** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées.
-* **Avertissement**  : toutes les URL ne figurant pas sur la liste autorisée sont autorisées, mais l’interprète JS émet un avertissement afin que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
+* **Warning** : toutes les URL qui ne figurent pas sur la liste autorisée sont autorisées, mais l’interpréteur JS émet un avertissement pour que l’administrateur puisse les collecter. Ce mode ajoute des messages d’avertissement JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -60,29 +60,29 @@ Il existe trois modes de protection des connexions :
 </urlPermission>
 ```
 
-Les nouveaux clients utiliseront le mode de blocage. S’ils souhaitent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
+Les nouveaux clients utiliseront le mode Blocking. S’ils souhaitent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
 
-Les clients existants provenant d&#39;une migration peuvent utiliser pendant un certain temps le mode d&#39;avertissement. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL.
+Les clients existants provenant d’une migration peuvent utiliser le mode Warning pour un temps. Ils doivent entre-temps analyser le trafic sortant pour autoriser les URL.
 
 ## Restriction des commandes (côté serveur)
 
-Plusieurs commandes sont blacklistées et ne peuvent pas être exécutées à l&#39;aide de la fonction execCommand. Un utilisateur Unix dédié fournit une sécurité supplémentaire pour exécuter des commandes externes. Pour les installations hébergées, cette restriction est automatiquement appliquée. Pour les installations sur site, vous pouvez configurer manuellement cette restriction en suivant les instructions de [cette page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). En outre, les activités de flux de travaux **[!UICONTROL Script]** et **[!UICONTROL Tâche externe]** ne sont pas disponibles (instances nouvellement installées).
+Plusieurs commandes sont mises en quarantaine et ne peuvent pas être exécutées à l’aide de la fonction execCommand. Un utilisateur Unix dédié fournit une sécurité supplémentaire pour exécuter des commandes externes. Pour les installations hébergées, cette restriction est automatiquement appliquée. Pour les installations On-premise, vous pouvez configurer manuellement cette restriction en suivant les instructions décrites sur [cette page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). En outre, les activités de workflow **[!UICONTROL Script]** et **[!UICONTROL Tâche externe]** ne sont pas disponibles (instances nouvellement installées).
 
-## Autres paramétrages
+## Autres configurations
 
-Vous pouvez ajouter des en-têtes HTTP supplémentaires pour toutes les pages (pour plus d’informations, voir [cette page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)) :
+Vous pouvez ajouter des en-têtes HTTP supplémentaires à toutes les pages (pour plus d’informations, reportez-vous à [cette page](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)) :
 
-* Vous pouvez ajouter d&#39;autres en-têtes tels que HSTS, X-FRAME-OPTIONS, CSP, etc.
+* Vous pouvez ajouter d’autres en-têtes tels que HSTS, X-FRAME-OPTIONS, CSP et bien d’autres.
 * Vous devez les tester dans un environnement de test avant de les appliquer en production.
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign peut être rompu en ajoutant certains en-têtes.
+   >L’ajout de certains en-têtes peut entraîner un dysfonctionnement d’Adobe Campaign.
 
-Adobe Campaign vous permet de définir un mot de passe simple dans l’élément `<dbcnx .../>`. N’utilisez pas cette fonctionnalité.
+Adobe Campaign vous permet de définir un mot de passe en clair dans l’élément `<dbcnx .../>`. N’utilisez pas cette fonctionnalité.
 
-Par défaut, Adobe Campaign n’associe pas une session à une adresse IP spécifique, mais vous pouvez activer cette option pour empêcher tout vol de la session. Pour ce faire, dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md), définissez l’attribut checkIPConsistent sur **true** dans le noeud `<authentication>`.
+Par défaut, Adobe Campaign n’associe pas une session à une adresse IP spécifique, mais vous pouvez activer cette option pour empêcher tout vol de la session. Pour ce faire, dans le [fichier serverConf.xml](../../installation/using/the-server-configuration-file.md), définissez l’attribut checkIPConsistent sur **true** dans le nœud `<authentication>`.
 
-Par défaut, Adobe Campaign MTA n’utilise pas de connexion sécurisée pour envoyer du contenu au serveur SMTP. Vous devez activer cette fonction (peut réduire la vitesse de diffusion). Pour ce faire, définissez **enableTLS** sur **true** dans le noeud `<smtp ...>`.
+Par défaut, le MTA d’Adobe Campaign n’utilise pas de connexion sécurisée pour envoyer du contenu au serveur SMTP. Vous devez activer cette fonctionnalité (laquelle peut réduire la vitesse des diffusions). Pour ce faire, définissez **enableTLS** sur **true** dans le nœud `<smtp ...>`.
 
-Vous pouvez réduire la durée de vie d&#39;une session dans le nœud d&#39;authentification (attribut sessionTimeOutSec).
+Vous pouvez réduire la durée de vie d’une session dans le nœud d’authentification (attribut sessionTimeOutSec).
