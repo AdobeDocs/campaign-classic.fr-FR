@@ -6,8 +6,9 @@ description: Découvrez comment configurer les paramètres de la Diffusion Campa
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 401e1be234d52f04cbdf8dfa97f51ac227836cd5
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 78%
