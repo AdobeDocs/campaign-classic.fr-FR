@@ -6,16 +6,16 @@ description: Concevoir une application web
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Création d’une application Web {#designing-a-web-application}
+# Conception d’une application web{#designing-a-web-application}
 
 Les applications Web sont créées et gérées suivant le même principe que les [questionnaires en ligne](../../web/using/about-surveys.md).
 
