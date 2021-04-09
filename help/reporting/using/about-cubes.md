@@ -6,16 +6,16 @@ description: A propos des cubes
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '740'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Commencer avec cubes{#about-cubes}
+# Prise en main des cubes{#about-cubes}
 
 L&#39;exploration des données de la base est proposée à travers le module **Marketing Analytics**. Elle permet d&#39;analyser et de mesurer les données, de calculer des statistiques, ainsi que de simplifier et d&#39;optimiser la création et le calcul des rapports. En complément, Marketing Analytics permet de créer des rapports et d&#39;y construire des populations cibles. Une fois identifiées, les populations sont stockées dans des listes, qui peuvent ensuite être exploitées dans Adobe Campaign (ciblage, segmentation, etc.).
 
@@ -89,7 +89,7 @@ Les cubes sont localisés sous le noeud **[!UICONTROL Administration > Paramétr
 
 Les principaux contextes d&#39;utilisation des cubes sont les suivants :
 
-* Les exportations de données peuvent être effectuées directement dans un rapport, conçu dans l&#39;onglet **[!UICONTROL Rapports]** de la plateforme Adobe Campaign.
+* Les exports de données peuvent être réalisés directement dans un rapport, conçu à partir de l’onglet **[!UICONTROL Rapports]** de la plateforme Adobe Campaign.
 
    Pour cela, créez un nouveau rapport et sélectionnez le cube à utiliser.
 
