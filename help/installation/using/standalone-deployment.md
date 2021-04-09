@@ -112,7 +112,7 @@ Les étapes sont les suivantes :
    nlserver config -internalpassword
    ```
 
-   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+   Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 1. Créez l’instance de **démonstration** avec les masques DNS pour le suivi (ici, **tracking.campaign.net**) et l’accès aux consoles client (ici, **console.campaign.net**). Vous avez le choix entre les deux méthodes suivantes :
 
@@ -150,7 +150,7 @@ Les étapes sont les suivantes :
    </serverconf>
    ```
 
-   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
+   Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Editez le fichier **serverConf.xml** et renseignez le domaine de diffusion puis indiquez les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA.
 
@@ -164,7 +164,7 @@ Les étapes sont les suivantes :
 
    Pour en savoir plus, consultez [Paramétrage du serveur Campaign](../../installation/using/configuring-campaign-server.md).
 
-1. Copiez le programme d’installation de la console cliente (**setup-client-7.XX**, **YYYY.exe** pour v7 ou **setup-client-6.XX**, **YYY.exe pour v6.1) dans le dossier /datakit/nl/fra/jsp.****** [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
+1. Copiez le programme d’installation de la console client (**setup-client-7.XX**, **YYYY.exe** pour v7 ou **setup-client-6.XX**, **YYY.exe** pour v6.1) dans le dossier **/datakit/nl/eng/jsp**. [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
 
 1. Suivez la procédure d&#39;intégration du serveur Web (IIS, Apache) décrite dans les sections suivantes :
 
@@ -184,7 +184,7 @@ Les étapes sont les suivantes :
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
    * Pour Windows : [](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
 
-1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et lancez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules actifs.
+1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et exécutez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules activés.
 
    >[!NOTE]
    >
@@ -205,9 +205,9 @@ Les étapes sont les suivantes :
 
 1. Testez le module **nlserver web** à partir de l&#39;URL : https://console.campaign.net/nl/jsp/logon.jsp.
 
-   Cette URL permet d&#39;accéder à la page de téléchargement du programme d&#39;installation client.
+   Cette URL permet d’accéder à la page de téléchargement du programme d’installation client.
 
-   Saisissez l&#39;identifiant (login) **internal** avec son mot de passe associé à partir de la page intermédiaire de contrôle d&#39;accès. [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
+   Saisissez le nom d’utilisateur **interne** et son mot de passe associé à partir de la page de contrôle d’accès. [En savoir plus](../../installation/using/client-console-availability-for-windows.md).
 
    ![](assets/s_ncs_install_access_client.png)
 
