@@ -6,11 +6,11 @@ description: Créer une opération locale
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Localisez le HTML de votre diffusion. Par exemple, dans **[!UICONTROL Diffusion 
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-Enregistrez votre modèle de campagne. Vous pouvez désormais l’utiliser à partir de la vue **[!UICONTROL Paquets Campaign]** dans l’onglet **[!UICONTROL Campagnes]**, en cliquant sur le bouton **[!UICONTROL Créer]**.
+Enregistrez votre modèle de campagne. Vous pouvez désormais l’utiliser depuis la vue **[!UICONTROL Kits d’opération]** de l’onglet **[!UICONTROL Campagnes]**, en cliquant sur le bouton **[!UICONTROL Créer]**.
 
 ![](assets/mkt_distr_9.png)
 
@@ -270,7 +270,7 @@ Pour commander une opération :
 
    Voir à ce propos la section [Processus de validation](#approval-process).
 
-1. L’opérateur local est alors averti que la campagne est disponible : la disponibilité de la campagne se trouve dans la liste des packages de campagne dans l&#39;onglet **Campagnes**. La campagne peut ensuite être utilisée. Voir à ce propos la section [Accéder aux opérations](../../campaign/using/accessing-campaigns.md).
+1. L’opérateur local est alors notifié de la disponibilité de la campagne : elle est accessible à partir de la liste des kits d’opérations de l’onglet **Campagnes**. La campagne peut alors être utilisée. Voir à ce propos la section [Accéder aux opérations](../../campaign/using/accessing-campaigns.md).
 
    L&#39;option **[!UICONTROL Démarrer le ciblage à la validation de la commande]** permet à l&#39;entité locale d&#39;exécuter l&#39;opération dès que sa commande a été validée.
 
@@ -280,7 +280,7 @@ Pour commander une opération :
 
 Pour confirmer la commande d&#39;une opération, l&#39;entité centrale doit la valider.
 
-L&#39;aperçu **[!UICONTROL Commandes Campaign]**, accessible via l&#39;onglet **Campagnes**, vous permet de vue l&#39;état des commandes de campagne et de les approuver.
+La vue d’ensemble **[!UICONTROL Commandes des campagnes]**, accessible à partir du lien correspondant dans l’onglet **Campagnes**, permet de visualiser l’état des commandes des campagnes et de procéder à leur validation.
 
 >[!NOTE]
 >
@@ -310,7 +310,7 @@ La commande peut également être validée à partir de la console, depuis la vu
 >
 >L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
-#### Créer une campagne        {#creating-a-campaign}
+#### Créer une campagne       {#creating-a-campaign}
 
 Lorsque la commande d&#39;une opération est validée, celle-ci peut être paramétrée et exécutée par l&#39;entité locale.
 
