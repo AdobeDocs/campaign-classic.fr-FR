@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration du serveur
-description: En savoir plus sur les meilleures pratiques de configuration du serveur.
+title: Configuration de la sécurité du serveur
+description: En savoir plus sur les meilleures pratiques de configuration du serveur
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 62%
+source-wordcount: '628'
+ht-degree: 59%
 
 ---
 
-# Configuration du serveur {#server-configuration}
+# Paramètres de sécurité du serveur {#server-configuration}
 
 ## Protection des téléchargements de fichiers
 
-Demandez aux utilisateurs quels types de fichiers ils téléchargent sur le serveur à l&#39;aide de l&#39;interface web/nlclient. Pour rappel, les besoins de l&#39;entreprise peuvent être les suivants :
+Identifiez avec les utilisateurs opérationnels le type de fichiers qu’ils téléchargent sur le serveur à l’aide de la console client Campaign ou de l’interface Web. Pour rappel, les besoins de l’entreprise peuvent être les suivants :
 
 * des images (jpg, gif, png, etc.),
 * des contenus (zip, html, css, etc.),
