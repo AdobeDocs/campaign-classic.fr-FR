@@ -6,11 +6,11 @@ description: En savoir plus sur les activités du workflow des codes SQL et Java
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add0efb4efd5a37129c649b942799622947f3143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Pour ignorer cette limite, vous devez définir la valeur sur **0**.
 * **[!UICONTROL Transitions]** : vous pouvez définir plusieurs transitions en sortie de l’activité.
 * **[!UICONTROL Planificateur]**: l’onglet **[!UICONTROL Planning]** permet de planifier le déclenchement de l’activité.
 
-JavaScript avancé est une tâche persistante et est régulièrement rappelé s’il n’a pas été marqué comme terminé. Pour mettre fin à la tâche et empêcher les rappels ultérieurs, vous devez utiliser la méthode **tâche.setCompleted()** dans la section **[!UICONTROL Appels suivants]** :
+JavaScript avancé est une tâche persistante et est régulièrement rappelé s’il n’a pas été marqué comme terminé. Pour terminer la tâche et empêcher les rappels ultérieurs, vous devez utiliser la méthode **task.setCompleted()** dans la section **[!UICONTROL Appels suivants]** :
 
 ```
 task.postEvent(task.transitionByName("ok")); // to transition to Ok branch
