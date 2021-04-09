@@ -6,11 +6,11 @@ description: Intégrer une offre via l'assistant
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour présenter une offre lors d&#39;une campagne marketing, il vous suffit de c
 
 ![](assets/offer_delivery_009.png)
 
-Pour en savoir plus sur les diffusions de courrier direct [dans cette section](../../delivery/using/about-direct-mail-channel.md). Pour en savoir plus sur les campagnes marketing [dans cette section](../../campaign/using/setting-up-marketing-campaigns.md).
+En savoir plus sur les diffusions courrier [dans cette section](../../delivery/using/about-direct-mail-channel.md). En savoir plus sur les campagnes marketing [dans cette section](../../campaign/using/setting-up-marketing-campaigns.md).
 
 ### Etapes principales pour insérer une offre dans une diffusion {#main-steps-for-inserting-an-offer-into-a-delivery}
 
