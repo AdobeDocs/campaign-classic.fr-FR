@@ -6,14 +6,14 @@ description: Création et connexion à une instance
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 
 ---
-
 
 # Création et connexion à une instance{#creating-an-instance-and-logging-on}
 
@@ -25,7 +25,7 @@ Pour créer une nouvelle instance ainsi que la base de données Adobe Campaign, 
 
 >[!NOTE]
 >
->Seul l&#39;identifiant **interne** peut effectuer ces opérations. Voir à ce propos la section [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Seul l&#39;identifiant **interne** peut effectuer ces opérations. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 Lorsque la console Adobe Campaign est démarrée, vous accédez à une page de connexion.
 
@@ -82,4 +82,3 @@ Pour créer une instance, procédez comme suit :
    >[!NOTE]
    >
    >Il est possible de créer l&#39;instance à partir de la ligne de commande. Voir à ce propos la section [Lignes de commande](../../installation/using/command-lines.md).
-
