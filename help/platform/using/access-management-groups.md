@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Créer et gérer des groupes d’opérateurs
-description: Découvrez comment accorder l'accès aux groupes d'opérateurs
+title: Création et gestion de groupes d’opérateurs
+description: Découvrez comment octroyer l’accès aux groupes d’opérateurs
 feature: Gestion des accès
-role: Professionnel, Administrateur
-level: Débutant
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 95%
+source-wordcount: '547'
+ht-degree: 100%
 
 ---
 
+# Création et gestion de groupes d’opérateurs {#operator-groups}
 
-# Créer et gérer des groupes d&#39;opérateurs {#operator-groups}
+Les groupes d’opérateurs sont créés à partir du nœud **[!UICONTROL Administration > Gestion des accès > Groupes d’opérateurs]** de l’arborescence.
 
-Les groupes d&#39;opérateurs sont créés depuis le noeud **[!UICONTROL Administration > Gestion des accès > Groupes d&#39;opérateurs]** de l&#39;arborescence.
-
-## Créer un groupe d&#39;opérateurs {#creating-a-new-operator-group}
+## Création d’un groupe d’opérateurs {#creating-a-new-operator-group}
 
 Pour créer un nouveau groupe d&#39;opérateurs, les étapes sont les suivantes :
 
