@@ -6,14 +6,14 @@ description: Paramétrages généraux
 audience: migration
 content-type: reference
 topic-tags: configuration
+exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2843'
 ht-degree: 98%
 
 ---
-
 
 # Paramétrages généraux{#general-configurations}
 
@@ -104,7 +104,7 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->Le mot de passe **internal** doit être identique sur tous les serveurs de tracking. Pour plus d&#39;informations, consultez [cette section](../../installation/using/campaign-server-configuration.md#internal-identifier) et [cette section](../../platform/using/access-management.md).
+>Le mot de passe **internal** doit être identique sur tous les serveurs de tracking. Pour plus d&#39;informations, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier) et [cette section](../../platform/using/access-management.md).
 
 ### Nouveautés v7 {#new-features-in-v7}
 
@@ -473,7 +473,7 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
 ## Tomcat {#tomcat}
 
-Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version (Tomcat 7). Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d&#39;accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
+Le serveur Tomcat intégré dans Adobe Campaign v7 a changé de version. Son dossier d&#39;installation (tomcat-6) a donc également changé (tomcat 7). Après la mise à niveau, vérifiez que les chemins d&#39;accès sont bien liés au dossier mis à jour (dans le fichier **[!UICONTROL serverConf.xml]**).
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
