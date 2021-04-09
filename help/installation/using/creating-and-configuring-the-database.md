@@ -6,14 +6,14 @@ description: Création et paramétrage de la base de données
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 100%
 
 ---
-
 
 # Création et paramétrage de la base de données{#creating-and-configuring-the-database}
 
@@ -28,7 +28,7 @@ Les étapes de paramétrage sont présentés ci-après.
 >
 >Les noms de la base de données, des utilisateurs ou des schémas ne doivent pas commencer par un chiffre, ni utiliser de caractères spéciaux.
 >
->Seul l’identifiant **interne** peut effectuer ces opérations. Voir à ce sujet la section [Identifiant interne](../../installation/using/campaign-server-configuration.md#internal-identifier).
+>Seul l’identifiant **interne** peut effectuer ces opérations. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 ## 1er cas : créer/recycler une base {#case-1--creating-recycling-a-database}
 
@@ -245,4 +245,3 @@ Exemple de configuration Microsoft SQL Server sur la base base61 associée au co
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
-
