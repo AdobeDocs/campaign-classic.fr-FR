@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Commencer avec les opérateurs Campaign
-description: Découvrez comment créer et gérer des utilisateurs de campagne
+title: Prise en main des opérateurs Campaign
+description: Découvrez comment créer et gérer des utilisateurs Campaign
 feature: Gestion des accès
-role: Professionnel, Administrateur
-level: Débutant
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 97%
+source-wordcount: '1213'
+ht-degree: 100%
 
 ---
 
-
 # Création et gestion d’opérateurs {#operators}
 
-## Commencer avec les opérateurs Campaign {#about-operators}
+## Prise en main des opérateurs Campaign {#about-operators}
 
 Un opérateur est un utilisateur Adobe Campaign qui possède des permissions pour se connecter et effectuer des actions.
 
@@ -37,7 +37,7 @@ Pour plus d&#39;informations sur l&#39;intégration d&#39;Adobe Campaign avec LD
 
 Les utilisateurs peuvent également se connecter directement à Adobe Campaign via leur Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
 
-## Créer un opérateur {#creating-an-operator}
+## Création d’un opérateur {#creating-an-operator}
 
 Pour créer un opérateur et accorder des permissions, procédez comme suit :
 
@@ -77,7 +77,7 @@ Une fois le profil de l&#39;opérateur créé, vous pouvez compléter ou mettre 
 >
 >Le champ **[!UICONTROL Timeout de session]** permet d&#39;ajuster le délai avant l&#39;expiration de la session FDA. Voir à ce sujet la section [À propos de Federated Data Access](../../installation/using/about-fda.md).
 
-## Définir le fuseau horaire de l&#39;opérateur {#time-zone-of-the-operator}
+## Définition du fuseau horaire de l’opérateur {#time-zone-of-the-operator}
 
 Dans l’onglet **[!UICONTROL Général]**, vous pouvez sélectionner le fuseau horaire de l’opérateur. Par défaut, les opérateurs travaillent dans le fuseau horaire du serveur. Il est toutefois possible de sélectionner un autre fuseau horaire parmi ceux proposés dans la liste déroulante.
 
@@ -91,7 +91,7 @@ Les paramétrages relatifs aux fuseaux horaires sont décrits sur [cette page](.
 
 En outre, la liste déroulante **[!UICONTROL Paramètres régionaux]** vous permet de sélectionner le format d&#39;affichage des dates et des nombres.
 
-## Autorisations d&#39;Ajoute {#access-rights-options}
+## Ajout de permissions {#access-rights-options}
 
 Dans l&#39;onglet **[!UICONTROL Droits d&#39;accès]**, vous pouvez mettre à jour les groupes et droits nommés associés à l&#39;opérateur.
 
@@ -127,7 +127,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
    >
    >Cette restriction est uniquement visuelle et doit être utilisée avec précaution. L&#39;opérateur connecté avec ce type de droits ne voit QUE le contenu du dossier spécifié et ne peut accéder à aucun autre noeud de l&#39;arborescence via l&#39;explorateur. Toutefois, en fonction des fonctionnalités auxquelles il a accès (par exemple : les workflows), il peut afficher les données normalement contenues dans des noeuds qu&#39;il ne peut pas visualiser.
 
-### Vérifier les paramètres {#check-settings}
+### Vérification des paramètres {#check-settings}
 
 L&#39;onglet **[!UICONTROL Suivi]** permet de visualiser des informations relatives à l&#39;opérateur. Les différents onglets sont alimentés automatiquement en fonction des paramètres définis et des champs d&#39;intervention de l&#39;opérateur.
 
