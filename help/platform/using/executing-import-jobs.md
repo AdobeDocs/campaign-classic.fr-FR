@@ -6,14 +6,14 @@ description: Découvrez comment configurer et exécuter des traitements d'import
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '3201'
 ht-degree: 98%
 
 ---
-
 
 # Configuration des traitements d’import {#executing-import-jobs}
 
@@ -291,7 +291,7 @@ L&#39;étape suivante de l&#39;assistant d&#39;import permet de choisir ou crée
 
       >[!NOTE]
       >
-      >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire. En savoir plus sur [Gestion de l&#39;accès aux dossiers](../../platform/using/access-management-folders.md).
+      >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire. En savoir plus dans la section [Gestion des accès aux dossiers](../../platform/using/access-management-folders.md).
 
       Pour choisir le dossier d&#39;import, cliquez sur la flèche située à droite du champ **[!UICONTROL Dossier]** et sélectionnez le dossier visé. Vous pouvez également utiliser l&#39;icône **[!UICONTROL Choisir le lien]** pour afficher l&#39;arborescence dans une nouvelle fenêtre ou créer un nouveau dossier.
 
