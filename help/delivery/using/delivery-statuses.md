@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 95%
@@ -127,7 +127,7 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * La diffusion peut utiliser une affinité qui n&#39;a pas été configurée sur le serveur d&#39;envoi.
 
-   Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#delivery-settings).
+   Dans ce cas, vérifiez la configuration de la gestion du trafic (affinité IP) et utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au MTA qui gère l&#39;affinité. Voir à ce propos [cette section](../../installation/using/configure-delivery-settings.md).
 
 * Lorsque trop de campagnes sont en cours d&#39;exécution, l’état de la diffusion reste « En attente ».
 
