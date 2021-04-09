@@ -6,14 +6,14 @@ description: Intégration à un serveur web pour Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # Intégration à un serveur web pour Windows{#integration-into-a-web-server-for-windows}
 
@@ -23,7 +23,7 @@ Vous pouvez utiliser ce Tomcat intégré pour servir des requêtes HTTP.
 
 Dans ce cas :
 
-* le port d’écoute par défaut est 8080. Pour le modifier, voir [Configurer Tomcat](../../installation/using/configuring-campaign-server.md#configuring-tomcat).
+* le port d’écoute par défaut est 8080. Pour le modifier, reportez-vous à [cette section](../../installation/using/configure-tomcat.md).
 * Vos consoles clientes se connectent alors en utilisant une URL de type [https:// `<computer>`:8080](https://myserver.adobe.com:8080).
 
 Cependant, pour des raisons de sécurité et d&#39;administration, il est conseillé d&#39;utiliser un véritable serveur Web comme point d&#39;entrée principal pour le trafic HTTP lorsque la machine qui fait tourner Adobe Campaign est exposée sur Internet et que vous voulez donner un accès à la console depuis l&#39;extérieur de votre réseau.
@@ -178,4 +178,3 @@ Pour corriger cela et afficher correctement l&#39;erreur, effectuez le paramétr
 1. Sélectionnez la valeur **PassThrough** au niveau de la ligne **existingResponse**.
 
 ![](assets/ins_iis_httperrors.png)
-
