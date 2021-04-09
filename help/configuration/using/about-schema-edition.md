@@ -6,11 +6,11 @@ description: Prise en main de l’édition de schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans Adobe Campaign, les schémas de données permettent de :
 * définir des liens entre les différents objets de l&#39;application ;
 * définir et décrire les champs individuels inclus dans chaque objet.
 
-Pour une meilleure compréhension des tableaux intégrés de Campaign et de leur interaction, consultez [cette section](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, consultez [cette section](https://helpx.adobe.com/fr/campaign/kb/acc-datamodel.html).
 
 ## Extension ou création de schémas {#extending-or-creating-schemas}
 
@@ -180,7 +180,7 @@ Les liens sont déclarés dans le schéma qui contient la **clé étrangère** d
 
 Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
-### Exemples       {#examples-1}
+### Exemples      {#examples-1}
 
 Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 
