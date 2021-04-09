@@ -6,14 +6,14 @@ description: En savoir plus sur le connecteur SMS et comment le configurer.
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
+exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '8433'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Protocole et paramètres du connecteur SMS {#sms-connector-protocol}
 
@@ -717,7 +717,7 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
 >[!IMPORTANT]
 >
->Dans Adobe Campaign Classic et dans une architecture hybride, l’application de réponse automatique pour le connecteur SMPP étendu nécessite l’ajout d’un accès en écriture pour l’opérateur mid sur le dossier **Compte externe**.
+>Dans Adobe Campaign Classic et avec une architecture hybride, l’application d’une réponse automatique pour le connecteur SMPP étendu nécessite l’ajout d’un accès en écriture pour l’opérateur mid sur le dossier **Compte externe**.
 
 Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
 
