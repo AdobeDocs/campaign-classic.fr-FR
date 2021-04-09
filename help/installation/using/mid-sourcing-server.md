@@ -6,14 +6,14 @@ description: Cette section décrit l'installation et la configuration d'un serve
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 100%
 
 ---
-
 
 # Serveur de mid-sourcing{#mid-sourcing-server}
 
@@ -61,7 +61,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
    </serverconf>
    ```
 
-   Voir à ce propos la section [Activation des processus](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 * Les étapes **6**,**9** et **10** ne sont pas nécessaires.
 * Lors des étapes **12** et **13**, vous devez indiquer le port 8080 dans l&#39;URL de connexion (car la console communique directement avec Tomcat sans passer par le serveur Web). L&#39;URL devient [http://console.campaign.net:8080](http://console.campaign.net). A l&#39;étape **13**, sélectionnez le package **[!UICONTROL Emission vers Mid-Sourcing]**, en complément des packages à installer.
@@ -180,4 +180,3 @@ Vous devez arrêter et redémarrer le serveur pour que cette modification soit p
 Si la diffusion de messages doit être gérée par plusieurs serveurs de mid-sourcing, sélectionnez l&#39;option **[!UICONTROL Routage avec alternance des comptes mid-sourcing utilisés]** et indiquez les différents serveurs.
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)
-
