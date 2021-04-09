@@ -6,11 +6,11 @@ description: Exemples
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ Lorsque les validations sont approuvées, l&#39;opération peut démarrer automa
 
 #### Publier l&#39;opération {#publishing-the-campaign}
 
-Vous pouvez maintenant ajouter un **package de campagne** à partir de l&#39;onglet **[!UICONTROL Campagnes]**.
+Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **[!UICONTROL Campagnes]**.
 
 1. Choisissez votre **[!UICONTROL Opération de référence]**. Dans l&#39;onglet **[!UICONTROL Edition]** de votre kit, vous pouvez choisir le **[!UICONTROL Mode de validation]** que vous souhaitez utiliser pour votre opération :
 
