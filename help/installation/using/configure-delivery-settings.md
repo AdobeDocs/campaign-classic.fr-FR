@@ -1,0 +1,101 @@
+---
+solution: Campaign Classic
+product: campaign
+title: Configuration des paramètres de la Diffusion Campaign
+description: Découvrez comment configurer les paramètres de la Diffusion Campaign
+audience: installation
+content-type: reference
+topic-tags: initial-configuration
+translation-type: tm+mt
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 78%
+
+---
+
+# Configurer les paramètres de diffusion {#delivery-settings}
+
+Les paramètres de diffusion doivent être configurés dans le dossier **serverConf.xml**.
+
+* **Configuration DNS** : renseignez le domaine de diffusion ainsi que les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA à partir de **`<dnsconfig>`**.
+
+   >[!NOTE]
+   >
+   >Le paramètre **nameServers** est indispensable pour une installation sous Windows. Pour une installation Linux, il doit être laissé vide.
+
+   ```
+   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
+   ```
+
+Vous pouvez également effectuer les configurations suivantes en fonction de vos besoins et paramètres : configurez un [relais SMTP](#smtp-relay), adaptez le nombre de processus enfant [MTA](#mta-child-processes), [Gérer le trafic SMTP sortant](#managing-outbound-smtp-traffic-with-affinities).
+
+## Relais SMTP {#smtp-relay}
+
+Le module MTA agit comme un agent de transfert de mails natif pour la diffusion par le protocole SMTP (port 25).
+
+Il est cependant possible de le remplacer par un serveur de messagerie relais si la politique de sécurité l&#39;impose. Le cas échéant, le débit global sera le relais (si le débit du serveur relais est inférieur à celui d&#39;Adobe Campaign).
+
+Dans ce cas, ces paramètres sont définis en configurant le serveur SMTP dans la section **`<relay>`**. Vous devez spécifier l’adresse IP (ou hôte) du serveur SMTP utilisé pour transférer l’email et son port associé (25 par défaut).
+
+```
+<relay address="192.0.0.3" port="25"/>
+```
+
+>[!IMPORTANT]
+>
+>Ce mode de fonctionnement implique des limitations importantes sur les diffusions puisqu&#39;il peut réduire considérablement le débit en raison des performances propres au serveur relais (latence, bande passante...). De plus, la capacité de qualifier les erreurs de diffusion synchrones (détectées par l&#39;analyse du trafic SMTP) sera limitée et aucun envoi ne sera possible si le serveur relais n&#39;est pas disponible.
+
+## Processus MTA child {#mta-child-processes}
+
+Il est possible de contrôler le nombre de processus enfants (maxSpareServers par défaut 2) afin d&#39;optimiser les performances de diffusion en fonction de la puissance CPU des serveurs et des ressources réseau disponibles. Cette configuration doit être effectuée dans la section **`<master>`** de la configuration MTA sur chaque ordinateur individuel.
+
+```
+<master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
+```
+
+Voir également la section [Optimisation de l’envoi d’emails](../../installation/using/email-deliverability.md#email-sending-optimization).
+
+## Gérer le trafic SMTP sortant avec des affinités {#managing-outbound-smtp-traffic-with-affinities}
+
+>[!IMPORTANT]
+>
+>La configuration de l&#39;affinité doit être cohérente d&#39;un serveur à l&#39;autre. Nous vous recommandons de contacter Adobe pour obtenir une configuration d’affinité, car les modifications de configuration doivent être répliquées sur tous les serveurs d’applications qui exécutent la MTA.
+
+Vous pouvez améliorer le trafic SMTP sortant grâce à des affinités avec les adresses IP.
+
+Pour cela, les étapes sont les suivantes :
+
+1. Saisissez les affinités dans la section **`<ipaffinity>`** du fichier **serverConf.xml**.
+
+   Vous pouvez définir plusieurs noms pour une même affinité : ces noms doivent être séparés les uns des autres par le caractère **;**.
+
+   Exemple:
+
+   ```
+    IPAffinity name="mid.Server;WWserver;local.Server">
+             <IP address="XX.XXX.XX.XX" heloHost="myserver.us.campaign.net" publicId="123" excludeDomains="neo.*" weight="5"/
+   ```
+
+   Reportez-vous au fichier **serverConf.xml** pour consulter les paramètres à utiliser.
+
+1. Pour permettre la sélection de l&#39;affinité dans les listes déroulantes, vous devez ajouter le ou les noms des affinités dans l&#39;énumération **IPAffinity**.
+
+   ![](assets/ipaffinity_enum.png)
+
+   >[!NOTE]
+   >
+   >Les énumérations sont présentées dans [ce document](../../platform/using/managing-enumerations.md).
+
+   Il est ensuite possible de sélectionner l&#39;affinité à utiliser, comme ci-dessous au niveau des typologies :
+
+   ![](assets/ipaffinity_typology.png)
+
+   >[!NOTE]
+   >
+   >Vous pouvez également vous référer à la section [Configuration des serveurs de diffusion](../../installation/using/email-deliverability.md#delivery-server-configuration).
+
+**Rubriques connexes :**
+* [Configurations techniques des emails](email-deliverability.md)
+* [Utilisation de serveurs MX avec Campaign](using-mx-servers.md)
+* [Configuration du Cci d’email](email-archiving.md)
