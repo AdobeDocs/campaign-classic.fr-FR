@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: 65662a49aefdd6b5f85b39677908696f093779e8
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '2835'
 ht-degree: 92%
@@ -200,7 +200,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](https://helpx.adob
 
 * Les certificats des applications mobiles iOS utilisant le connecteur HTTP2 iOS sont maintenant validés avant d’envoyer des notifications push, ce qui empêche les échecs de diffusions en raison du dépassement des dates d’expiration de ces certificats.
 
-* La gestion des connexions au proxy HTTP a été améliorée. [En savoir plus](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration).
+* La gestion des connexions au proxy HTTP a été améliorée. [En savoir plus](../../installation/using/file-res-management.md).
 
 * Nouvelle option dans les activités de workflow **[!UICONTROL Code JavaScript]** et **[!UICONTROL Code JavaScript avancé]** pour arrêter l’exécution après une limite. La valeur par défaut est de 1 heure. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#javascript-code).
 
