@@ -6,14 +6,14 @@ description: Découvrez les étapes principales d'un upgrade vers un nouveau bui
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
+exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 100%
 
 ---
-
 
 # Réalisation d&#39;un upgrade de build{#performing-a-build-upgrade}
 
