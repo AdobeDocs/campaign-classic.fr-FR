@@ -6,18 +6,18 @@ description: Interaction - Mémoire tampon
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Interaction - Mémoire tampon{#interaction-data-buffer}
 
-Vous pouvez configurer une zone de tampon de données pour augmenter les performances de l’interaction entrante en désynchronisant les calculs de Proposition d&#39;offre. Cette configuration doit être effectuée dans le fichier de configuration de l’instance (config-Instance.xml).
+Il est possible de configurer une zone de mémoire tampon afin d’augmenter les performances d’Interaction entrante en désynchronisant le calcul des propositions d’offre. Cette configuration est à effectuer dans le fichier de configuration propre à l’instance (config-Instance.xml).
 
 Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
 
@@ -27,9 +27,9 @@ Afin d&#39;éviter une file d&#39;attente lors de l&#39;écriture des propositio
 
 >[!NOTE]
 >
->Ce paramètre est indispensable si vous utilisez Interaction avec une architecture répartie.
+>Ce paramètre est indispensable si vous utilisez Interaction avec une architecture distribuée.
 
-Le **paramétrage** de la zone de mémoire tampon est à effectuer dans le fichier de configuration propre à l&#39;instance (config-Instance.xml).
+La **configuration** de la zone de mémoire tampon est à effectuer dans le fichier de configuration propre à l’instance (config-Instance.xml).
 
 >[!CAUTION]
 >
