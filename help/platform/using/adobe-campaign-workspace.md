@@ -2,8 +2,8 @@
 solution: Campaign Classic
 product: campaign
 title: Espace de travail Adobe Campaign
-description: Découvrez comment utiliser et personnaliser l'espace de travail Campaign
-feature: Présentation
+description: Découvrez comment utiliser et personnaliser l’espace de travail Campaign
+feature: Vue d’ensemble
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
@@ -11,13 +11,13 @@ translation-type: tm+mt
 source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '852'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Espace de travail Adobe Campaign{#adobe-campaign-workspace}
 
-## Explorer l’interface Adobe Campaign {#about-adobe-campaign-interface}
+## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
 
 Une fois connecté à la base de données, vous accédez à la page d&#39;accueil d&#39;Adobe Campaign. Celle-ci se présente sous la forme d&#39;un tableau de bord : il est composé de liens et de raccourcis qui vous permettent d&#39;accéder aux fonctions disponibles selon votre installation et aux paramétrages généraux de la plate-forme.
 
@@ -69,9 +69,9 @@ Pour plus d’informations sur la création d’une instance, consultez cette [p
 >
 >La langue ne peut pas être modifiée après la création de l&#39;instance.
 
-## Principes de navigation {#navigation-basics}
+## Notions de base relatives à la navigation {#navigation-basics}
 
-### Pages de navigation {#browsing-pages}
+### Navigation sur les pages {#browsing-pages}
 
 Les différentes fonctionnalités de la plate-forme sont réparties dans les fonctions principales : utilisez les liens proposés dans le bandeau supérieur de l&#39;interface pour y accéder.
 
@@ -85,7 +85,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
 ![](assets/recipient_list_overview.png)
 
-### Utiliser les onglets {#using-tabs}
+### Utilisation des onglets {#using-tabs}
 
 * Lorsque vous cliquez sur une fonction principale ou un lien, la page correspondante vient remplacer la page courante. Pour retourner sur la page précédente, utilisez le bouton **[!UICONTROL Retour]** de la barre d&#39;outils. Pour revenir à la page d&#39;accueil, cliquez sur le bouton **[!UICONTROL Accueil]**.
 
@@ -95,7 +95,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
    ![](assets/d_ncs_user_interface_tabs.png)
 
-### Créer un élément {#creating-an-element}
+### Création d’un élément {#creating-an-element}
 
 Dans chaque section des fonctions principales, vous pouvez naviguer parmi les éléments disponibles. Pour cela, utilisez les raccourcis proposés dans la section **[!UICONTROL Navigation]**. Le lien **[!UICONTROL Autres choix]** permet d&#39;accéder à toutes les autres pages, indépendamment de celles de la fonction courante.
 
