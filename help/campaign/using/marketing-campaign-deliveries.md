@@ -6,11 +6,11 @@ description: En savoir plus sur les diffusions d'opérations marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -199,7 +199,7 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Les ressources sont des ressources marketing générées dans le tableau de bord de ressource marketing accessibles via le lien **[!UICONTROL Ressources]** de l&#39;onglet **[!UICONTROL Campagnes]**.
+* Les ressources sont des ressources marketing générées dans le tableau de bord des ressources marketing, qui est accessible à partir du lien **[!UICONTROL Ressources]** de l’onglet **[!UICONTROL Campagnes]**.
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
@@ -237,8 +237,8 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 #### Tutoriel vidéo {#create-email-video}
 
-Cette vidéo explique comment créer une campagne et un courriel en Adobe Campaign.
+Cette vidéo explique comment créer une campagne et un email dans Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-D&#39;autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
