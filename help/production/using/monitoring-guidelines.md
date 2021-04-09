@@ -6,14 +6,14 @@ description: Découvrez les conseils et les bonnes pratiques pour surveiller les
 audience: production
 content-type: reference
 topic-tags: introduction
+exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 88%
+source-wordcount: '771'
+ht-degree: 92%
 
 ---
-
 
 # Directives de supervision {#monitoring-guidelines}
 
@@ -56,7 +56,7 @@ Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre ins
 
 >[!NOTE]
 >
->Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
 >Notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](../../rn/using/gs-overview.md) ou la dernière version de [GA (21.1)](../../rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html).
 
@@ -142,7 +142,7 @@ Des ressources techniques sont disponibles dans la documentation Campaign Classi
 
 *Modèles d’hébergement on-premise et hybrides uniquement*
 
-* [Configurations de serveur obligatoires](../../installation/using/campaign-server-configuration.md)
+* [Configurations du serveur](../../installation/using/configuring-campaign-server.md)
 * [Configuration du fichier serverconf.xml](../../installation/using/the-server-configuration-file.md)
 * [Configuration du serveur pour la délivrabilité](../../installation/using/email-deliverability.md)
 * [Lignes de commande pour créer une instance et déclarer une base de données](../../installation/using/command-lines.md)
