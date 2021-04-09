@@ -6,16 +6,16 @@ description: Créer une application web
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Créer une application Web{#creating-a-new-web-application}
+# Création d’une application web{#creating-a-new-web-application}
 
 Le type d&#39;une application web est sélectionné au moment de sa création.
 
