@@ -6,11 +6,11 @@ description: Créer une connexion partagée
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ Dans l’arborescence de toutes les instances d’exécution, créez un dossier 
 
 Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réalisé sur TOUTES les instances d&#39;exécution.
 
-1. Créez un dossier par opérateur dans le noeud **[!UICONTROL Administration > Production > Message Center]** : **Dossier 1** et **Dossier 2**. Pour plus d&#39;informations sur la création de dossiers et de vues, consultez [cette page](../../platform/using/access-management-folders.md).
+1. Créez un dossier par opérateur dans le nœud **[!UICONTROL Administration > Production > Message Center]** : **Dossier 1** et **Dossier 2**. Pour plus d’informations sur la création de dossiers et de vues, reportez-vous à [cette page](../../platform/using/access-management-folders.md).
 
    ![](assets/messagecenter_multi_control_3.png)
 
