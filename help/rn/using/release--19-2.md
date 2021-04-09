@@ -6,14 +6,14 @@ description: Notes de mise à jour de Campaign 19.2
 feature: null
 role: null
 level: null
+exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 translation-type: tm+mt
-source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 100%
 
 ---
-
 
 # Version 19.2{#release-19-2}
 
@@ -34,8 +34,9 @@ _23 décembre 2020_
 >[!CAUTION]
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**.
->
-> * Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+   >
+   > 
+* Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 
@@ -137,7 +138,7 @@ _2 décembre 2019_
    * L&#39;option **XtkCleanup_NoStats** a été améliorée pour PostgreSQL afin de mieux contrôler le comportement de l&#39;étape d&#39;optimisation du stockage du workflow de nettoyage de la base de données. [En savoir plus](../../production/using/database-cleanup-workflow.md#statistics-update)
 * Un mécanisme de verrouillage de compte a été ajouté à l&#39;API **logon()**. Il empêche toute nouvelle tentative de connexion après un certain nombre de tentatives consécutives de connexion ayant échoué pour une période donnée.
 * Une nouvelle option **Durée maximale d&#39;exécution de la personnalisation** des propriétés de diffusion permet de définir un délai d&#39;expiration pour la durée d&#39;exécution de la personnalisation. Ce mécanisme empêche que cette durée ne soit trop longue. [En savoir plus](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* L&#39;option **protocole ftp** a été ajoutée pour vous permettre d&#39;utiliser une configuration proxy pour les connexions SFTP. [En savoir plus](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
+* L&#39;option **protocole ftp** a été ajoutée pour vous permettre d&#39;utiliser une configuration proxy pour les connexions SFTP. [En savoir plus](../../installation/using/file-res-management.md)
 * Nouvelle prise en charge de l&#39;accès par proxy à un serveur SFTP externe pour les environnements on-premise.
 * Une barrière de sécurité spécifique a été ajoutée pour empêcher l&#39;installation de packages incompatibles avec l&#39;instance Campaign. [En savoir plus](../../installation/using/installing-campaign-standard-packages.md)
 
@@ -184,5 +185,3 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 * Correction d&#39;un problème lors de l&#39;accès aux modèles prédictifs. (NEO-19713)
 * Correction d&#39;un problème affectant l&#39;échantillonnage aléatoire dans l&#39;activité de workflow **Partage** avec la base de données Hadoop FDA. (NEO-16636)
 * Correction d&#39;une régression sur Oracle en raison de laquelle certaines fonctions étaient considérées comme non valides après le postupgrade. (NEO-12759)
-
-
