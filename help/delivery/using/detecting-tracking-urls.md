@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Détection des URL de tracking
-description: En savoir plus sur le modèle recommandé pour tracker les URL
+description: En savoir plus sur le modèle recommandé pour suivre les URL
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Après avoir traité les instructions `<%@`, l’URL à tracker possède la synt
 
 ## Modèle non sécurisé
 
-Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours toute personnalisation dans la partie nom d’hôte de l’URL afin d’éviter des failles de sécurité potentielles. En savoir plus sur [cette page](../../installation/using/privacy.md#url-personalization).
+Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours toute personnalisation dans la partie de nom d’hôte de l’URL afin d’éviter des failles de sécurité potentielles. En savoir plus sur [cette page](../../installation/using/privacy.md#url-personalization).
 
-Par exemple, la syntaxe `<a href="http://<%=myURL%>">` est **non sécurisée** et doit être évitée.
+Par exemple, la syntaxe `<a href="http://<%=myURL%>">` n’est **pas sécurisée** et doit être évitée.
 
 * L’utilisation de cette syntaxe peut entraîner des problèmes de sécurité si le lien généré par Adobe Campaign contient un ou plusieurs paramètres.
 * Tidy peut incorrectement corriger certains liens, ce qui peut se produire de manière aléatoire. Le symptôme typique est une portion de code HTML visible dans les BAT d&#39;email mais pas dans la prévisualisation.
