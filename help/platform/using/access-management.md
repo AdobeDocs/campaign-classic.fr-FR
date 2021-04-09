@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Prise en main des autorisations
-description: Découvrez comment accorder l'accès aux fonctionnalités Campaign
+title: Prise en main des permissions
+description: Découvrez comment octroyer l’accès aux fonctionnalités Campaign
 feature: Gestion des accès
-role: Professionnel, Administrateur
-level: Débutant
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 63%
+source-wordcount: '255'
+ht-degree: 100%
 
 ---
 
-
-# Prise en main des autorisations{#access-management}
+# Prise en main des permissions{#access-management}
 
 Adobe Campaign vous permet de définir et gérer les permissions attribuées aux différents opérateurs. Les permissions sont un ensemble de droits et restrictions qui autorisent ou interdisent :
 
@@ -25,35 +25,35 @@ Adobe Campaign vous permet de définir et gérer les permissions attribuées aux
 
 Les permissions s&#39;appliquent à des profils d&#39;opérateurs ou à des groupes d&#39;opérateurs.
 
-Ils sont complétés par des paramètres de sécurité liés au mode de connexion de l&#39;opérateur à Adobe Campaign. Pour en savoir plus sur les zones de sécurité dans [cette page](../../installation/using/security-zones.md).
+Elles sont complétées par des paramètres de sécurité liés au mode de connexion de l’opérateur à Adobe Campaign. En savoir plus sur les zones de sécurité dans [cette page](../../installation/using/security-zones.md).
 
 Vous pouvez accorder deux types de permissions à un utilisateur :
 
 * Vous pouvez définir des groupes d&#39;opérateurs auxquels vous attribuez des droits, puis associer les opérateurs à un ou plusieurs groupes. Ce mode de fonctionnement permet de mutualiser les permissions et d&#39;uniformiser les profils des opérateurs. Il permet également de faciliter la gestion et la maintenance des profils. La création et la gestion des groupes sont présentées dans [cette section](access-management-groups.md).
 
-* Vous pouvez attribuer directement des droits nommés aux utilisateurs, éventuellement pour surcharger les droits attribués via les groupes. Ces droits sont présentés dans [cette page](access-management-named-rights.md).
+* Vous pouvez directement attribuer des droits nommés aux utilisateurs, dans certains cas pour surcharger les droits attribués via les groupes. Ces droits sont présentés sur [cette page](access-management-named-rights.md).
 
 >[!NOTE]
 >
 >Avant de commencer à définir les permissions, Adobe vous recommande de lire la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
 
-Découvrez comment accorder l’accès et configurer des autorisations dans ces sections :
+Découvrez comment octroyer l’accès et configurer des permissions dans les sections suivantes :
 
-* [Créer des opérateurs](access-management-operators.md)
+* [Création d’opérateurs](access-management-operators.md)
 
-* [Définir des groupes](access-management-groups.md)
+* [Définition de groupes](access-management-groups.md)
 
-* [Droits nommés d&#39;Ajoute](access-management-named-rights.md)
+* [Ajout de droits nommés](access-management-named-rights.md)
 
-* [Gérer l’accès au dossier Campaign](access-management-folders.md)
+* [Gestion de l’accès aux dossiers Campaign](access-management-folders.md)
 
-* [Matrice des droits d&#39;accès](access-management-named-rights.md#access-rights-matrix)
+* [Matrice des droits d’accès](access-management-named-rights.md#access-rights-matrix)
 
 
 Voir aussi :
 
-* [Gérer les autorisations pour les workflows](../../workflow/using/managing-rights.md)
-* [Gérer les autorisations pour le marketing distribué](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
-* [Gérer les autorisations pour le module d’interaction](../../interaction/using/operator-profiles.md)
-* [Filtrer l&#39;accès aux schémas](../../configuration/using/filtering-schemas.md)
-* [Limitation de la vue PI](../../configuration/using/restricting-pii-view.md)
+* [Gestion des permissions relatives aux workflows](../../workflow/using/managing-rights.md)
+* [Gestion des permissions pour le marketing distribué](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [Gestion des permissions relatives au module d’interaction](../../interaction/using/operator-profiles.md)
+* [Filtrage de l’accès aux schémas](../../configuration/using/filtering-schemas.md)
+* [Restriction de l’affichage des PII](../../configuration/using/restricting-pii-view.md)
