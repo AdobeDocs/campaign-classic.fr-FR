@@ -6,14 +6,14 @@ description: Principe de configuration
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
 ---
-
 
 # Principe de configuration{#configuration-principle}
 
@@ -25,7 +25,7 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 
    >[!IMPORTANT]
    >
-   >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   >Pour vous connecter avec l’identifiant **Internal**, vous devez impérativement avoir défini un mot de passe. Voir à ce sujet [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 * De nombreux paramétrages techniques du serveur : ces paramétrages peuvent tous être surchargés dans la configuration spécifique d&#39;une instance.
 
