@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration des zones de sécurité
+title: Configuration de zones de sécurité
 description: Découvrez comment configurer des zones de sécurité
 audience: installation
 content-type: reference
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
 workflow-type: tm+mt
 source-wordcount: '1493'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -26,12 +26,12 @@ Les opérateurs sont liés à une zone de sécurité à partir de son profil dan
 >
 >Cette procédure est limitée aux déploiements **sur site**.
 >
->En tant que client **hébergé**, si vous pouvez accéder au [Panneau de Contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l&#39;interface en libre-service Zone de sécurité. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>En tant que client **hébergé**, si vous pouvez accéder au [Panneau de Contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l&#39;interface en libre-service Zone de sécurité. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr)
 >
 >Les autres clients **hybrides/hébergés** doivent contacter l&#39;équipe d&#39;assistance à l&#39;Adobe pour ajouter une adresse IP à la liste autorisée.
 
 
-## Créer des zones de sécurité {#creating-security-zones}
+## Création de zones de sécurité {#creating-security-zones}
 
 Une zone est définie par :
 
@@ -40,7 +40,7 @@ Une zone est définie par :
 
 Les zones de sécurité sont imbriquées. Chaque définition d&#39;une nouvelle zone à l&#39;intérieur d&#39;une autre réduit donc le nombre d&#39;opérateurs pouvant s&#39;y connecter tout en augmentant les droits attribués à chaque opérateur.
 
-Les zones doivent être définies lors de la configuration du serveur, dans le fichier **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans [cette section](../../installation/using/the-server-configuration-file.md).
+Les zones peuvent être définies lors de la configuration du serveur dans le fichier **serverConf.xml**. Tous les paramètres disponibles dans **serverConf.xml** sont répertoriés dans [cette section](../../installation/using/the-server-configuration-file.md).
 
 Chaque zone définit des droits, comme par exemple :
 
@@ -223,31 +223,31 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
 ## Recommandations    
 
-* Vérifiez que le proxy inverse n&#39;est pas autorisé dans subNetwork. Si c&#39;est le cas, l&#39;**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
+* Assurez-vous que le proxy inverse n’est pas autorisé dans subNetwork. Si c’est le cas, l’**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
 
-* Limitez l&#39;utilisation de sessionTokenOnly=&quot;true&quot; :
+* Limitez l’utilisation de sessionTokenOnly=&quot;true&quot; :
 
-   * Avertissement : si cet attribut est défini sur true, l&#39;opérateur peut être exposé à une **attaque CRSF**.
-   * De plus, le cookie sessionToken n&#39;étant pas défini avec un flag httpOnly, certains codes JavaScript côté client peuvent le lire.
-   * L&#39;utilisation de Message Center avec plusieurs instances d&#39;exécution requiert toutefois l&#39;activation de l&#39;option sessionTokenOnly : créez une nouvelle zone de sécurité avec l&#39;option sessionTokenOnly définie sur &quot;true&quot; et ajoutez **uniquement les adresses IP nécessaires** à cette zone.
+   * Avertissement : si cet attribut est défini sur true, l’opérateur peut être exposé à une **attaque CRSF**.
+   * De plus, le cookie sessionToken n’étant pas défini avec un flag httpOnly, certains codes JavaScript côté client peuvent le lire.
+   * L’utilisation de Message Center avec plusieurs instances d’exécution requiert toutefois l’activation de l’option sessionTokenOnly : créez une nouvelle zone de sécurité avec l’option sessionTokenOnly définie sur « true » et ajoutez **uniquement les adresses IP nécessaires** à cette zone.
 
-* Si possible, définissez all allowHTTP, showErrors sur false (non pour localhost) et vérifiez-les.
+* Si possible, définissez les attributs allowHTTP et showErrors sur la valeur false (pas pour localhost) et vérifiez-les.
 
-   * allowHTTP = &quot;false&quot; : force les opérateurs à utiliser le protocole HTTPS.
-   * showErrors = &quot;false&quot; : masque les erreurs techniques (y compris celles de SQL). Cet attribut empêche l&#39;affichage d&#39;un trop grand nombre d&#39;informations, mais il limite la possibilité des marketeurs de corriger les erreurs (sans demander des informations supplémentaires à un administrateur).
+   * allowHTTP = &quot;false&quot; : force les opérateurs à utiliser le protocole HTTPS.
+   * showErrors = &quot;false&quot; : masque les erreurs techniques (y compris celles de SQL). Cet attribut empêche l’affichage d’un trop grand nombre d’informations, mais il limite la possibilité des spécialistes marketing de corriger les erreurs (sans demander d’informations supplémentaires à un administrateur).
 
-* Définissez allowDebug sur true uniquement sur les adresses IP utilisées par les utilisateurs marketing/administrateurs qui doivent créer (ou plutôt prévisualiser) des questionnaires, webApps et rapports. Ce flag permet d&#39;afficher les règles de relais et de les déboguer pour ces adresses IP.
+* Définissez allowDebug sur true uniquement sur les adresses IP utilisées par les utilisateurs marketing/administrateurs qui doivent créer (ou plutôt prévisualiser) des questionnaires, webApps et rapports. Ce flag permet d’afficher les règles de relais et de les déboguer pour ces adresses IP.
 
-* Ne définissez jamais les attributs allowEmptyPassword, allowUserPassword et allowSQLInjection sur true. Ils ne servent qu&#39;à faciliter la migration depuis la v5 vers la v6.0 :
+* Ne définissez jamais les attributs allowEmptyPassword, allowUserPassword et allowSQLInjection sur true. Ils ne servent qu’à faciliter la migration de la v5 vers la v6.0 :
 
-   * L&#39;attribut **allowEmptyPassword** permet aux opérateurs de disposer d&#39;un mot de passe vide. Si c&#39;est votre cas, demandez à tous les opérateurs de définir un mot de passe avec un délai. Une fois ce délai passé, définissez cet attribut sur la valeur false.
+   * L’attribut **allowEmptyPassword** permet aux opérateurs de disposer d’un mot de passe vide. Si c’est votre cas, demandez à tous les opérateurs de définir un mot de passe avec un délai. Une fois ce délai passé, définissez cet attribut sur la valeur false.
 
-   * L&#39;attribut **allowUserPassword** permet aux opérateurs d&#39;envoyer leurs identifiants en tant que paramètres (afin qu&#39;ils puissent être connectés par Apache/IIS/un proxy). Cette fonctionnalité était auparavant utilisée pour simplifier l&#39;utilisation de l&#39;API. Vous pouvez vérifier dans votre « livre de recettes » (ou dans les spécifications) si des applications tierces utilisent cet attribut. Si c&#39;est le cas, vous devez demander à ces tiers de changer la façon dont ils utilisent notre API et supprimer cette fonctionnalité dès que possible.
+   * L’attribut **allowUserPassword** permet aux opérateurs d’envoyer leurs identifiants en tant que paramètres (afin qu’ils puissent être connectés par Apache/IIS/un proxy). Cette fonctionnalité était auparavant utilisée pour simplifier l’utilisation de l’API. Vous pouvez vérifier dans votre « livre de recettes » (ou dans les spécifications) si des applications tierces utilisent cet attribut. Si c’est le cas, vous devez demander à ces tiers de changer la façon dont ils utilisent notre API et supprimer cette fonctionnalité dès que possible.
 
-   * **** allowSQLInjectionpermet à l&#39;utilisateur d&#39;effectuer des injections SQL en utilisant une ancienne syntaxe. Dès que possible, effectuez les corrections décrites dans [cette page](../../migration/using/general-configurations.md) pour pouvoir définir cet attribut sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier le paramétrage de votre zone de sécurité. Cette page affiche l&#39;état actif des mesures de sécurité (calculé avec ces flags de sécurité) pour l&#39;adresse IP actuelle.
+   * L’attribut **allowSQLInjection** permet à l’utilisateur d’effectuer des injections SQL en utilisant une ancienne syntaxe. Dès que possible, effectuez les corrections décrites dans [cette page](../../migration/using/general-configurations.md) pour pouvoir définir cet attribut sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier la configuration de votre zone de sécurité. Cette page affiche le statut actif des mesures de sécurité (calculé avec ces flags de sécurité) pour l’adresse IP actuelle.
 
 * Cookie HttpOnly/useSecurityToken : reportez-vous au flag **sessionTokenOnly**.
 
-* Limitez le nombre d’adresses IP ajoutées à la liste autorisée : dans les zones de sécurité, nous avons ajouté les 3 plages pour les réseaux privés. Il est peu probable que vous utilisiez toutes ces adresses IP. Donc gardez uniquement ceux dont vous avez besoin.
+* Limitez le nombre d’adresses IP ajoutées à la liste autorisée : dans les zones de sécurité, nous avons ajouté les 3 plages pour les réseaux privés. Il est peu probable que vous utilisiez toutes ces adresses IP. Ne gardez par conséquent que celles qui vous sont nécessaires.
 
-* Mettez à jour l&#39;opérateur interne/webApp pour qu&#39;il soit accessible uniquement dans localhost.
+* Mettez à jour l’opérateur interne/webApp pour qu’il soit accessible uniquement dans localhost.
