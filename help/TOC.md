@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '2483'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -509,7 +509,6 @@ ht-degree: 98%
       + [Accès à une base de données externe](workflow/using/accessing-an-external-database--fda-.md)
       + [Gestion des autorisations](workflow/using/managing-rights.md)
       + [Gestion des images d’activité](workflow/using/managing-activity-images.md)
-      + [Gestion de l’appétence](workflow/using/managing-propensity.md)
       + [Gestion des fuseaux horaires](workflow/using/managing-time-zones.md)
       + [Workflows techniques](workflow/using/about-technical-workflows.md)
 + Gestion des offres {#managing-offers}
@@ -625,7 +624,7 @@ ht-degree: 98%
       + [Déploiement Entreprise](installation/using/enterprise-deployment.md)
       + [Déploiement Mid-sourcing](installation/using/mid-sourcing-deployment.md)
       + [Power Booster et Power Cluster](installation/using/power-booster-and-power-cluster.md)
-   + Liste de contrôle relative à la sécurité et à la confidentialité {#security-privacy}
+   + Paramètres de sécurité et de confidentialité {#security-privacy}
       + [Prise en main de la sécurité et de la confidentialité](installation/using/get-started-security-privacy.md)
       + [Personnalisation et confidentialité](installation/using/privacy.md)
       + [Gestion des accès sécurisés](installation/using/access-management.md)
@@ -654,12 +653,13 @@ ht-degree: 98%
       + [Principales étapes](installation/using/about-initial-configuration.md)
       + [Création d’une instance et connexion](installation/using/creating-an-instance-and-logging-on.md)
       + [Création et configuration de la base de données](installation/using/creating-and-configuring-the-database.md)
-      + [Configuration du serveur Campaign](installation/using/campaign-server-configuration.md)
       + [Déploiement d’une instance](installation/using/deploying-an-instance.md)
       + [Installation de packages natifs](installation/using/installing-campaign-standard-packages.md)
    + Configuration de Campaign {#additional-configurations}
-      + [Paramètres du serveur Campaign](installation/using/configuring-campaign-server.md)
+      + [Configuration du serveur Campaign](installation/using/configuring-campaign-server.md)
       + [Définition de zones de sécurité](installation/using/security-zones.md)
+      + [Définition des autorisations d’URL](installation/using/url-permissions.md)
+      + [Configurer Tomcat](installation/using/configure-tomcat.md)
       + [Configurations techniques des emails](installation/using/email-deliverability.md)
       + [Utilisation de serveurs MX avec Campaign](installation/using/using-mx-servers.md)
       + [Configuration du Cci d’email](installation/using/email-archiving.md)
