@@ -6,9 +6,9 @@ description: 'Configuration '
 audience: production
 content-type: reference
 topic-tags: production-procedures
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
