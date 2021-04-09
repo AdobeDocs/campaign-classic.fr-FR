@@ -6,16 +6,16 @@ description: Prérequis pour l'installation de Campaign sous Linux
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Conditions préalables à l’installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
+# Prérequis pour l’installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
 
 ## Logiciels prérequis {#software-prerequisites}
 
