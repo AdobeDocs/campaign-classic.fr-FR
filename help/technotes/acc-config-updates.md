@@ -40,7 +40,7 @@ Les dernières versions de Campaign s’accompagnent d’un correctif de sécuri
 Si votre environnement utilise un build antérieur à ceux répertoriés ci-dessous, cela vous concerne :
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
-* Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [En savoir plus](../rn/using/latest-release.md)
 * Campaign Version 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
 * Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
 * Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
@@ -84,7 +84,7 @@ Une mise à niveau de la console cliente Campaign est nécessaire pour assurer l
 Si vous vous connectez à Campaign [via un Adobe ID](../integrations/using/about-adobe-id.md), par le biais d’Adobe Identity Management Service (IMS), la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
-* Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [En savoir plus](../rn/using/latest-release.md)
 * Campaign Version 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
 * Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
 * Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
@@ -118,7 +118,7 @@ Si vos instances s’exécutent sur une **version antérieure à Campaign 19.1.
 La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
-* Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [En savoir plus](../rn/using/latest-release.md)
 * Campaign Version 20.2.5. [En savoir plus](../rn/using/release--20-2.md)
 * Campaign Version 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
