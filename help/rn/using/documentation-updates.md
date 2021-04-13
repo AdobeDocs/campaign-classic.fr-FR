@@ -4,22 +4,26 @@ product: campaign
 title: Mises à jour de la documentation d'Adobe Campaign Classic
 description: Cette page répertorie toutes les nouvelles fonctionnalités et les mises à jour de la documentation d’Adobe Campaign Classic
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
+source-git-commit: 815648f97d2f5e15c1d5ddc340d384d440d0d6b2
 workflow-type: tm+mt
-source-wordcount: '4295'
-ht-degree: 96%
+source-wordcount: '4324'
+ht-degree: 97%
 
 ---
-
 
 # Mises à jour de la documentation{#documentation-updates}
 
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
+
+## 2 avril 21 {#april-2021}
+
+Une nouvelle section a été consacrée à la manière d’utiliser les sources et destinations Adobe Experience Platform pour partager des données entre les Campaign Classic et les Adobes de la plateforme de données client en temps réel (RTCDP). [En savoir plus](../../integrations/using/get-started-sources-destinations.md)
 
 ## Mars 2021 {#march-2021}
 
@@ -40,7 +44,7 @@ Découvrez comment créer et gérer vos campagnes à l’aide de ces nouvelles p
 
 Des informations ont été ajoutées dans la section d’activité **[!UICONTROL JavaScript avancée]** sur l’utilisation de la méthode task.setCompleted() pour terminer la tâche et empêcher les rappels ultérieurs. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-La section [Livraison](../../delivery/using/about-deliverability.md) a été mise à jour et comprend maintenant des liens vers le nouveau [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Toutes les informations génériques relatives à la délivrabilité qui peuvent s&#39;appliquer à diverses solutions d&#39;Adobe ont été déplacées à l&#39;annexe [Guide des meilleures pratiques](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
+La section [Délivrabilité](../../delivery/using/about-deliverability.md) a été mise à jour et inclut désormais des liens vers le nouveau [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr). Toutes les informations génériques relatives à la délivrabilité qui peuvent s’appliquer à diverses solutions d’Adobe ont été déplacées vers l’[annexe du guide des bonnes pratiques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=fr#additional-resources).
 
 ## Février 2021 {#release-21.1}
 
