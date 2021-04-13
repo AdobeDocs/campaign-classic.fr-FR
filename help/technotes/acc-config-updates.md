@@ -20,7 +20,9 @@ Une mise à jour de l’infrastructure et des paramètres doit être régulière
 
 En tant que **client Managed Services ou hébergé**, Adobe vous informera des mises à niveau de build requises à intervalles réguliers. Vous devrez effectuer la mise à niveau conformément aux recommandations afin de garantir sa conformité.
 
-En tant que **client On-premise ou hybride**, vous devez mettre à niveau votre implémentation à intervalles réguliers conformément aux derniers builds publiés.
+En tant que **client On-premise ou hybride**, vous devez régulièrement mettre à niveau votre implémentation pour l&#39;adapter aux derniers builds publiés.
+
+
 
 Pour des raisons de sécurité, vous devez maintenant effectuer la mise à niveau vers l’une des versions répertoriées ci-dessous. Outre la procédure de mise à niveau standard, vous devez effectuer quelques tâches manuelles afin de vous assurer que votre environnement est sécurisé et prêt à recevoir les futures modifications apportées par Adobe ou des systèmes tiers.
 
@@ -39,11 +41,11 @@ Si votre environnement utilise un build antérieur à ceux répertoriés ci-dess
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
-* Version Campaign 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
-* Version Campaign 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
-* Version Campaign 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
-* Version Campaign 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
-* Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
+* Campaign Version 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
+* Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
+* Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
+* Campaign Version 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
+* Campaign Version 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
 Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -59,7 +61,7 @@ Vous devez effectuer une mise à niveau vers un build plus récent parmi ceux r�
 
 >[!CAUTION]
 >
->Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe de l’Assistance clientèle d’Adobe pour appliquer un correctif de sécurité manuel à court terme à vos instances**.
+>Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe de l’Assistance clientèle d’Adobe pour appliquer à court terme un correctif de sécurité manuel sur vos instances**.
 
 
 ## Mise à jour de la console cliente Campaign {#acc-cc-updates}
@@ -67,9 +69,9 @@ Vous devez effectuer une mise à niveau vers un build plus récent parmi ceux r�
 Les versions **désormais disponibles** de la console ci-dessous doivent être installées pour résoudre une régression récemment identifiée. Cette régression empêchait l’utilisation de certains composants de la console cliente, tels que le sélecteur de date et la gestion des images dans les diffusions. La **mise à niveau de la console** est obligatoire.
 
 * Dernier build Gold Standard 11 9032@10c2709. [En savoir plus](../rn/using/gold-standard.md)
-* Version Campaign 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
-* Version Campaign 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
-* Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
+* Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
+* Campaign Version 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
+* Campaign Version 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
 ## Mise à jour d’Adobe Identity Management System (IMS)
 
@@ -83,11 +85,11 @@ Si vous vous connectez à Campaign [via un Adobe ID](../integrations/using/about
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
-* Version Campaign 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
-* Version Campaign 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
-* Version Campaign 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
-* Version Campaign 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
-* Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
+* Campaign Version 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
+* Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
+* Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
+* Campaign Version 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
+* Campaign Version 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
 Ces versions s’accompagnent d’un nouveau protocole de connexion : la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign au-delà du **30 juin 2021**.
 
@@ -107,7 +109,7 @@ Une fois toutes les instances mises à niveau, la console cliente doit égalemen
 
 ## Intégration avec les triggers Experience Cloud  {#acc-triggers-updates}
 
-Le service d’authentification oAuth hérité est arrivé en fin de vie. L’authentification de l’intégration de Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Elle prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+Le service d’authentification historique oAuth est arrivé en fin de vie Le mode d’authentification de l’intégration des triggers, historiquement basé sur l’authentification oAUTH pour accéder au pipeline, a été remplacé par Adobe I/O. Il prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
 **Cela vous concerne-t-il ?**
 
@@ -117,8 +119,8 @@ La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous 
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Version Campaign 21.1.1. [En savoir plus](../rn/using/latest-release.md)
-* Version Campaign 20.2.5. [En savoir plus](../rn/using/release--20-2.md)
-* Version Campaign 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
+* Campaign Version 20.2.5. [En savoir plus](../rn/using/release--20-2.md)
+* Campaign Version 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
 
 Découvrez comment vérifier votre version [dans cette section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -170,5 +172,5 @@ En tant que client On-premise/hybride, vous devez mettre à jour votre configura
 
 * [Mise à niveau de votre environnement](../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau du build](../platform/using/faq-build-upgrade.md)
-* [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
+* [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../installation/using/client-console-availability-for-windows.md)
