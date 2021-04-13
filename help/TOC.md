@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 97%
+source-wordcount: '2516'
+ht-degree: 96%
 
 ---
 
@@ -213,7 +213,7 @@ ht-degree: 97%
       + [Résolution des problèmes liés aux diffusions](delivery/using/delivery-troubleshooting.md)
       + [Statuts de diffusion](delivery/using/delivery-statuses.md)
       + [Présentation des diffusions en échec](delivery/using/understanding-delivery-failures.md)
-      + [Mettre à jour la qualification des rebonds après une panne de fournisseur de services Internet](delivery/using/update-bounce-qualification.md)
+      + [Mettre à jour la qualification des bounces après une panne de FAI](delivery/using/update-bounce-qualification.md)
       + [Présentation de la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
    + Suivi des messages {#tracking-messages}
       + [A propos du tracking des messages](delivery/using/about-message-tracking.md)
@@ -394,6 +394,10 @@ ht-degree: 97%
       + [Configuration d’événements pour une implémentation personnalisée](integrations/using/events.md)
       + [Surveillance du pipeline](integrations/using/pipeline-monitoring.md)
       + [Dépannage du pipeline](integrations/using/pipeline-troubleshooting.md)
+   + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
+      + [Commencer avec les sources et les destinations](integrations/using/get-started-sources-destinations.md)
+      + [Incorporer des audiences Adobe Experience Platform dans Campaign](integrations/using/ingest-aep-data.md)
+      + [Exporter des données de Campaign vers Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatisation à l’aide de workflows {#automating-with-workflows}
    + Prise en main des workflows {#introduction}
       + [A propos des workflows](workflow/using/about-workflows.md)
