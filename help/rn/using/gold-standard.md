@@ -4,22 +4,30 @@ product: campaign
 title: '[!DNL Gold Standard] notes de mise à jour'
 description: Notes de mise à jour du Campaign Classic [!DNL Gold Standard]
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: ac01b3c064209362cc6142a716d2892c27753d76
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 96%
+source-wordcount: '1058'
+ht-degree: 94%
 
 ---
-
 
 # [!DNL Gold Standard] notes de mise à jour{#gold-standard}
 
 Cette page liste [!DNL Gold Standard] versions. Pour en savoir plus sur Campaign [!DNL Gold Standard] [dans cette page](gs-overview.md).
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 version{#gs-11}
+
+_14 avril 2021_
+
+La version 9032@d030c36 inclut les correctifs suivants :
+
+* Correction d’une régression de la console cliente qui provoquait des messages d’erreur persistants sur l’écran de connexion IMS. (NEO-34821)
+
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
 _2 mars 2021_
 
@@ -31,7 +39,7 @@ Le build 9032@10c2709 comprend le correctif suivant :
 
 >[!NOTE]
 >
-> Connectez-vous à la [distribution logicielle Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs finaux [sur cette page](../../installation/using/client-console-availability-for-windows.md).
+> Connectez-vous à la [distribution logicielle Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs finaux [sur cette page](../../installation/using/client-console-availability-for-windows.md).
 
 
 _22 décembre 2020_
