@@ -4,14 +4,14 @@ product: campaign
 title: Dernière version
 description: Dernière version de Campaign Classic       Notes
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 translation-type: tm+mt
-source-git-commit: 3db426580ba72668cd9fa274b57f925600eda27b
+source-git-commit: 2c2dff554c716468c0984f3d893bd29aa9fd4453
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 98%
+source-wordcount: '921'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,14 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 >Les versions de **disponibilité générale de Campaign** sont les suivantes : [[!DNL Gold Standard] 11 version](../../rn/using/gold-standard.md#gs-11) et [Campaign 20.2.5 version](../../rn/using/release--20-2.md).
 
 
-## ![](assets/do-not-localize/blue_2.png) Version 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
+## ![](assets/do-not-localize/blue_2.png) Version 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
+
+_14 avril 2021_
+
+* La gestion des mots de passe a été améliorée pour optimiser la sécurité.
+* Correction d’un problème qui pouvait provoquer des blocages MTA.
+
+## ![](assets/do-not-localize/red_2.png) Version 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
 _22 février 2021_
 
