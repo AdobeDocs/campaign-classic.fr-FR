@@ -6,18 +6,28 @@ description: Notes de mise à jour de Campaign 19.1
 feature: null
 role: null
 level: null
+exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 translation-type: tm+mt
-source-git-commit: 631e7a0f89a365626401a6157ef84442fa0fd59f
+source-git-commit: 5271a23f7d815d432cfec00c57555c18be1fd3c7
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3267'
 ht-degree: 99%
 
 ---
 
-
 # Version 19.1{#release-19-1}
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
+
+_15 avril 2021_
+
+* Correction d’une régression de la console cliente qui provoquait des messages d’erreur persistants sur l’écran de connexion IMS. (NEO-34821)
+
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+
+>[!NOTE]
+>
+> Connectez-vous à la [distribution logicielle Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs finaux [sur cette page](../../installation/using/client-console-availability-for-windows.md).
 
 _22 mars 2021_
 
@@ -27,7 +37,7 @@ _22 mars 2021_
 
 >[!NOTE]
 >
-> Connectez-vous à la [distribution logicielle Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs finaux [sur cette page](../../installation/using/client-console-availability-for-windows.md).
+> Connectez-vous à la [distribution logicielle Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs finaux [sur cette page](../../installation/using/client-console-availability-for-windows.md).
 
 _16 décembre 2020_
 
