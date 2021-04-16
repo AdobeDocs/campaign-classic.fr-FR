@@ -4,22 +4,22 @@ product: campaign
 title: Matrice de compatibilité pour Campaign Classic
 description: Matrice de compatibilité Campaign Classic
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
-workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 98%
+role: Business Practitioner
+level: Beginner
+exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '524'
+ht-degree: 100%
 
 ---
-
 
 # Matrice de compatibilité{#compatibility-matrix}
 
 Ce document répertorie tous les systèmes et composants pris en charge pour [le dernier build](../../rn/using/latest-release.md) d’**Adobe Campaign Classic**. Les produits et versions ne faisant pas partie de cette liste ne sont pas compatibles avec Adobe Campaign.
 
-Si vous êtes un utilisateur [!DNL Gold Standard], consultez la [[!DNL Gold Standard] matrice de compatibilité](../../rn/using/compatibility-matrix-gs.md).
+Si vous êtes un utilisateur [!DNL Gold Standard], reportez-vous à la [[!DNL Gold Standard] matrice de compatibilité](../../rn/using/compatibility-matrix-gs.md).
 
 ## Remarques importantes{#important-notes}
 
@@ -202,9 +202,9 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Oracle</td>
 <td>
-<p>19 quater</p>
-<p>18 quater</p>
-<p>12 quater</p>
+<p>19c</p>
+<p>18c</p>
+<p>12c</p>
 <p>11g</p>
 </td>
 </tr>
