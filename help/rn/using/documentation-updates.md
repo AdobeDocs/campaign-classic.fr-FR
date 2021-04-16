@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 69630f1450241e15d385dc03a3a2b02f6f7c850b
 workflow-type: tm+mt
 source-wordcount: '4324'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ Une nouvelle section a été consacrée à la manière d’utiliser les sources 
 
 ## Mars 2021 {#march-2021}
 
-La section [Commencer avec les SMS](../../delivery/using/sms-channel.md) a été réorganisée et améliorée. Vous pouvez maintenant apprendre comment [configurer le canal SMS](../../delivery/using/sms-set-up.md), [créer un SMS](../../delivery/using/sms-create.md), [envoyer et suivre les SMS](../../delivery/using/sms-send.md) dans les sections dédiées.
+La section [Prise en main des SMS](../../delivery/using/sms-channel.md) a été réorganisée et améliorée. Vous pouvez maintenant découvrir comment [configurer le canal SMS](../../delivery/using/sms-set-up.md), [créer un SMS](../../delivery/using/sms-create.md), [envoyer et tracker les SMS](../../delivery/using/sms-send.md) dans les sections dédiées.
 
-La page &quot;Options d’aide et d’assistance&quot; pour le Campaign Classic a été intégrée dans la documentation de base. [En savoir plus](../../support.md)
+La page Options d’aide et d’assistance pour Campaign Classic a été intégrée dans la documentation de base. [En savoir plus](../../support.md)
 
 Une nouvelle section a été ajoutée concernant les bonnes pratiques et les vérifications à effectuer en matière de sécurité et de confidentialité. [En savoir plus](../../installation/using/get-started-security-privacy.md)
 
@@ -138,7 +138,7 @@ Mise à jour de la matrice de compatibilité. [En savoir plus](../../rn/using/co
 
 La page Fonctionnalités obsolètes et supprimées a été mise à jour. [En savoir plus](../../rn/using/deprecated-features.md)
 
-Les notes de mise à jour et la matrice de compatibilité pour la version [!DNL Gold Standard] sont désormais disponibles dans une section dédiée.
+Les notes de mise à jour et la matrice de compatibilité pour la version [!DNL Gold Standard] sont maintenant disponibles dans une section dédiée.
 [En savoir plus](../../rn/using/gold-standard.md#gs-11).
 
 L’intégration des Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
@@ -274,7 +274,7 @@ La section Supervision de la délivrabilité a été déplacée et améliorée. 
 
 La section Résolution des problèmes de délivrabilité a été déplacée et améliorée. [En savoir plus](../../delivery/using/deliverability-faq.md)
 
-Les lignes directrices sur la délivrabilité lors du démarrage d&#39;une nouvelle plateforme ont été améliorées. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
+Les directives relatives à la délivrabilité lors du démarrage d’une nouvelle plateforme ont été améliorées. [En savoir plus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr#transition-process)
 
 La section Envoi d’emails transactionnels avec des pièces jointes a été déplacée et mise à jour. [En savoir plus](../../message-center/using/transactional-email-with-attachments.md)
 
