@@ -7,9 +7,9 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 
@@ -206,7 +206,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>Oracle</td>
 <td>
-<p>12c</p>
+<p>12 quater</p>
 <p>11g</p>
 </td>
 </tr>
