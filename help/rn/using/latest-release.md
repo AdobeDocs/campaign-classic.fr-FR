@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Dernière version
-description: Dernière version de Campaign Classic       Notes
+description: Dernière version de Campaign Classic        Notes
 feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 >[!NOTE]
 >
->Les versions de **disponibilité générale de Campaign** sont les suivantes : [[!DNL Gold Standard] 11 version](../../rn/using/gold-standard.md#gs-11) et [Campaign 20.2.5 version](../../rn/using/release--20-2.md).
+>Les **builds GA** (disponibilité générale) de Campaign sont les suivants : [[!DNL Gold Standard] version 11](../../rn/using/gold-standard.md#gs-11) et [Campaign version 20.2.5](../../rn/using/release--20-2.md).
 
 ## ![](assets/do-not-localize/blue_2.png) Version 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
