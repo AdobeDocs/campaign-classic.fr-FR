@@ -4,16 +4,16 @@ product: campaign
 title: Notes de mise à jour de Campaign 20.3
 description: Notes de mise à jour de Campaign 20.3
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
-translation-type: ht
-source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
-workflow-type: ht
-source-wordcount: '1956'
+role: Business Practitioner
+level: Beginner
+exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
+translation-type: tm+mt
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: tm+mt
+source-wordcount: '1953'
 ht-degree: 100%
 
 ---
-
 
 # Version 20.3{#release-20-3}
 
