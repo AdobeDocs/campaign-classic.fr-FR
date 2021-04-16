@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 1c59afc7021af604559184cd0c21129af3759a8c
 workflow-type: tm+mt
 source-wordcount: '2975'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -33,17 +33,17 @@ _31 mars 2021_
 
 **Améliorations**
 
-* Une amélioration a été apportée pour empêcher les blocages sur les appels de savon non valides. Cela peut entraîner l’arrêt du fonctionnement de l’instance lors de l’exécution de requêtes complexes spécifiques. (NEO-28796, NEO-30553)
+* Une amélioration a été apportée pour empêcher les blocages sur les appels SOAP non valides. Cette situation pouvait entraîner l’arrêt du fonctionnement de l’instance lors de l’exécution de requêtes complexes spécifiques. (NEO-28796, NEO-30553)
 * Correction d’une régression qui empêchait l’envoi de diffusions SMS avec TLS en raison de la vérification du nom d’hôte. (NEO-29581)
-* Correction d’un problème en raison duquel les liens de suivi signés ne fonctionnaient pas sur certains clients de messagerie. (NEO-28414, NEO-29615)
-* Correction d’une séquence d’ID de suivi lors de l’utilisation de balises de tracking webApp qui pouvait provoquer des conflits avec les ID de duplicata. (NEO-27931)
+* Correction d’un problème en raison duquel les liens de tracking signés ne fonctionnaient pas sur certains clients de messagerie. (NEO-28414, NEO-29615)
+* Correction d’une séquence d’ID de tracking lors de l’utilisation de balises de tracking webApp qui provoquait des conflits avec les ID dupliqués. (NEO-27931)
 * Correction d’un problème en raison duquel les workflows en cours d’exécution étaient arrêtés par le redémarrage quotidien du serveur wfserver. (NEO-30047)
 * Correction d’un problème de sécurité lors de l’utilisation des appels d’API effectués par des utilisateurs non-administrateurs lors de la synchronisation de modèles Adobe Experience Manager. (NEO-32389, NEO-23487)
-* Correction d’un problème en raison duquel la console se bloquait lors de la fermeture d’une boîte de dialogue de diffusion sur une diffusion créée à partir d’un modèle. (NEO-31547)
-* Correction d’un problème survenant lors de la création et de l’enregistrement d’une diffusion dans l’onglet **Ciblage et flux de travail** d’une campagne : la prévisualisation échoue avec l&#39;erreur suivante. (NEO-29440)
-* Correction d’un problème en raison duquel Tomcat 8.5 envoyait des réponses non valides, ce qui provoquait des erreurs dans les journaux de messagerie transactionnelle. (NEO-30858)
-* Correction d’un problème de régression qui entraînait une corruption de la mémoire dans la gestion des threads externes et affectait les performances.
-* Correction d’un problème en raison duquel le processus de facturation échouait lors de l’utilisation d’un mapping de ciblage personnalisé. La clé Principale du schéma personnalisé est stockée dans la colonne &quot;sourceId&quot; qui n’autorise que les entiers. Il autorise désormais des entiers ainsi que des valeurs de chaîne. (NEO-25914, NEO-28146)
+* Correction d’un problème en raison duquel la console se bloquait lors de la fermeture d’une boîte de dialogue sur une diffusion créée à partir d’un modèle. (NEO-31547)
+* Correction d’un problème qui se produisait lors de la création et de l’enregistrement d’une diffusion dans l’onglet **Ciblage et workflow** d’une campagne : la prévisualisation échouait avec l’erreur suivante.(NEO-29440)
+* Correction d’un problème en raison duquel Tomcat 8.5 envoyait des réponses non valides, ce qui provoquait des erreurs dans les logs de messagerie transactionnelle. (NEO-30858)
+* Correction d’un problème de régression qui entraînait une corruption de la mémoire dans la gestion des threads externes et avait un impact sur les performances.
+* Correction d’un problème en raison duquel le workflow de facturation échouait lors de l’utilisation d’un mapping de ciblage personnalisé. La clé principale du schéma personnalisé est stockée dans la colonne &#39;sourceId&#39; qui n’autorisait que des entiers. Elle autorise désormais des entiers ainsi que des valeurs de chaîne. (NEO-25914, NEO-28146)
 * Correction d’une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453)
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.4 - Build 9187 {#release-20-2-4-build-9187}
