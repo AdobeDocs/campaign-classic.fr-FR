@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: bd6f77606517a0d3ceaa3c2b398733521af3ae43
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 95%
 
 ## Nouveautés
 
-* **[Mettez à jour votre ](technotes/ios-certificate-update.md)**<br/> certificat APNsLe 29 mars 2021, une mise à jour APNs a eu un impact sur le canal Campaign iOS. Vous devez mettre à jour votre configuration pour éviter toute coupure du canal push d’iOS.
+* **[Mise à jour de votre certificat APNs](technotes/ios-certificate-update.md)**<br/> Le 29 mars 2021, une mise à jour APNs a eu un impact sur le canal iOS de Campaign. Vous devez mettre à jour votre configuration pour éviter toute coupure du canal push d’iOS.
 
 * **[Vous vous connectez via IMS/Adobe ID ? Effectuez une mise à niveau vers les derniers builds](integrations/using/about-adobe-id.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **.
 
-* **[Sécurisez vos instances Campaign](technotes/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign.
+* **[Sécurisation de vos instances Campaign](technotes/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign.
 
 * **[Suppression des hard bounces incorrects](https://helpx.adobe.com/fr/campaign/kb/update-bounce-qualification.html)**<br/> Découvrez comment mettre à jour les hard bounces incorrects après une panne de Gmail
 
@@ -87,6 +87,6 @@ ht-degree: 95%
 | [Notes de mise à jour](/help/rn/using/latest-release.md) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Vidéos pratiques](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr) | [Modèle de données Campaign](configuration/using/about-data-model.md) |
 | [Matrice de compatibilité](rn/using/compatibility-matrix.md) | [JSAPI Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [[!DNL Gold Standard] mise à niveau](rn/using/gs-overview.md) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
+| Mise à niveau[[!DNL Gold Standard] ](rn/using/gs-overview.md) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
 | [Fonctionnalités obsolètes](rn/using/deprecated-features.md) | [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) |
 | [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [Directives de supervision](production/using/monitoring-guidelines.md) |
