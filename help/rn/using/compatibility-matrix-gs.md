@@ -2,18 +2,18 @@
 solution: Campaign Classic
 product: campaign
 title: Matrice de compatibilité pour Campaign [!DNL Gold Standard]
-description: Matrice de compatibilité des Campaign Classic pour  [!DNL Gold Standard] version
+description: 'Matrice de compatibilité Campaign Classic pour la version  [!DNL Gold Standard] '
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
-workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 98%
+role: Business Practitioner
+level: Beginner
+exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '509'
+ht-degree: 100%
 
 ---
-
 
 # [!DNL Gold Standard] Matrice de compatibilité{#compatibility-matrix-gs}
 
@@ -206,7 +206,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>Oracle</td>
 <td>
-<p>12 quater</p>
+<p>12c</p>
 <p>11g</p>
 </td>
 </tr>
