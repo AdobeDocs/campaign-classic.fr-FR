@@ -7,9 +7,9 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
