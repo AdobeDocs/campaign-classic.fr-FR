@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
 workflow-type: tm+mt
 source-wordcount: '2516'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 96%
 + Notes de mise à jour {#release-notes}
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
-   + [!DNL Gold Standard] publier  {#gs-release}
-      + [Contenu [!DNL Gold Standard]](rn/using/gs-overview.md)
+   + Version [!DNL Gold Standard] {#gs-release}
+      + [En quoi consiste [!DNL Gold Standard]](rn/using/gs-overview.md)
       + [[!DNL Gold Standard] notes de mise à jour](rn/using/gold-standard.md)
       + [[!DNL Gold Standard] matrice de compatibilité](rn/using/compatibility-matrix-gs.md)
    + Versions précédentes {#previous-releases}
@@ -48,7 +48,7 @@ ht-degree: 96%
       + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + Espace de travail Adobe Campaign{#campaign-workspace}
          + [Prise en main de l’IU de Campaign](platform/using/adobe-campaign-workspace.md)
-         + [Utiliser Campaign Explorer](platform/using/adobe-campaign-explorer.md)
+         + [Utilisation de l’explorateur Campaign](platform/using/adobe-campaign-explorer.md)
          + [Parcourir et personnaliser des listes](platform/using/adobe-campaign-ui-lists.md)
       + Forum aux questions {#faq}
          + [Questions les plus fréquentes](platform/using/common-questions.md)
@@ -146,16 +146,16 @@ ht-degree: 96%
          + [Envois sur mobiles japonais](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Joindre des fichiers](delivery/using/attaching-files.md)
    + Envoi de SMS {#sending-messages-on-mobiles}
-      + [Commencer par SMS](delivery/using/sms-channel.md)
+      + [Prise en main des SMS](delivery/using/sms-channel.md)
       + [Configurer le canal SMS](delivery/using/sms-set-up.md)
       + [Créer un SMS](delivery/using/sms-create.md)
-      + [Envoyer et suivre des SMS](delivery/using/sms-send.md)
+      + [Envoyer et tracker les SMS](delivery/using/sms-send.md)
       + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
       + [Résolution des problèmes liés aux SMS](delivery/using/troubleshooting-sms.md)
       + [Migration vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + Envoi de notifications push {#sending-push-notifications}
-      + [Commencer avec le canal d&#39;application mobile](delivery/using/about-mobile-app-channel.md)
+      + [Prise en main du canal Applications mobiles](delivery/using/about-mobile-app-channel.md)
       + [Intégration du SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuration de l’application mobile{#configure-the-mobile-app}
          + [Prise en main de la configuration de l’application](delivery/using/get-started-app-config.md)
@@ -213,7 +213,7 @@ ht-degree: 96%
       + [Résolution des problèmes liés aux diffusions](delivery/using/delivery-troubleshooting.md)
       + [Statuts de diffusion](delivery/using/delivery-statuses.md)
       + [Présentation des diffusions en échec](delivery/using/understanding-delivery-failures.md)
-      + [Mettre à jour la qualification des bounces après une panne de FAI](delivery/using/update-bounce-qualification.md)
+      + [Mise à jour de la qualification des bounces après une panne de FAI](delivery/using/update-bounce-qualification.md)
       + [Présentation de la gestion des quarantaines](delivery/using/understanding-quarantine-management.md)
    + Suivi des messages {#tracking-messages}
       + [A propos du tracking des messages](delivery/using/about-message-tracking.md)
@@ -480,7 +480,7 @@ ht-degree: 96%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle         {#monitoring}
+      + Contrôle          {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -628,7 +628,7 @@ ht-degree: 96%
       + [Déploiement Entreprise](installation/using/enterprise-deployment.md)
       + [Déploiement Mid-sourcing](installation/using/mid-sourcing-deployment.md)
       + [Power Booster et Power Cluster](installation/using/power-booster-and-power-cluster.md)
-   + Paramètres de sécurité et de confidentialité {#security-privacy}
+   + Paramètres relatifs à la sécurité et à la confidentialité {#security-privacy}
       + [Prise en main de la sécurité et de la confidentialité](installation/using/get-started-security-privacy.md)
       + [Personnalisation et confidentialité](installation/using/privacy.md)
       + [Gestion des accès sécurisés](installation/using/access-management.md)
@@ -665,7 +665,7 @@ ht-degree: 96%
       + [Définition des autorisations d’URL](installation/using/url-permissions.md)
       + [Fichiers et ressources](installation/using/file-res-management.md)
       + [Configurer Tomcat](installation/using/configure-tomcat.md)
-      + [Configuration des paramètres de la diffusion](installation/using/configure-delivery-settings.md)
+      + [Configurer les paramètres de la diffusion](installation/using/configure-delivery-settings.md)
       + [Configurations techniques des emails](installation/using/email-deliverability.md)
       + [Utilisation de serveurs MX avec Campaign](installation/using/using-mx-servers.md)
       + [Configuration du Cci d’email](installation/using/email-archiving.md)
