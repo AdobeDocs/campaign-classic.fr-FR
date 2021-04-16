@@ -7,11 +7,11 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,14 +51,14 @@ Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionna
 
 En tant que client hébergé (service géré ou hybride), vous devez contacter l’équipe d’Assistance clientèle pour que votre environnement soit mis à niveau.
 
-En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) et mettre à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
+En tant qu’utilisateur On-premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger le dernier build stable](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements. Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
 ### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-En tant qu&#39;utilisateur hébergé [!DNL Gold Standard], vous bénéficierez automatiquement de la mise à niveau de [!DNL Gold Standard] avec la [dernière version GA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-11) sans aucune action. [En savoir plus](../../rn/using/gs-overview.md).
+En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez automatiquement de la mise à niveau [!DNL Gold Standard] avec le [dernier build [!DNL Gold Standard]  GA](../../rn/using/gold-standard.md#gs-11) sans que vous n’ayez aucune action à effectuer. [En savoir plus](../../rn/using/gs-overview.md).
 
 >[!NOTE]
->La matrice de compatibilité pour [!DNL Gold Standard] est disponible dans la [matrice de compatibilité GA](../../rn/using/compatibility-matrix-gs.md).
+>La matrice de compatibilité pour [!DNL Gold Standard] est disponible dans la [Matrice de compatibilité GA](../../rn/using/compatibility-matrix-gs.md).
 
 ## Support et autres liens utiles{#support}
 
