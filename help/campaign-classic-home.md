@@ -87,6 +87,6 @@ ht-degree: 100%
 | [Notes de mise à jour](/help/rn/using/latest-release.md) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Vidéos pratiques](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr) | [Modèle de données Campaign](configuration/using/about-data-model.md) |
 | [Matrice de compatibilité](rn/using/compatibility-matrix.md) | [JSAPI Campaign](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| Mise à niveau[[!DNL Gold Standard] ](rn/using/gs-overview.md) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
+| [[!DNL Gold Standard] : mise à niveau](rn/using/gs-overview.md) | [Guide du tracking](https://helpx.adobe.com/fr/campaign/kb/acc-tracking.html) |
 | [Fonctionnalités obsolètes](rn/using/deprecated-features.md) | [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html) |
 | [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [Directives de supervision](production/using/monitoring-guidelines.md) |
