@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Notes de mise à jour de Campaign 20.3
 description: Notes de mise à jour de Campaign 20.3
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265

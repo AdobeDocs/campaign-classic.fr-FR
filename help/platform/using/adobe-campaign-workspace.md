@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Espace de travail Adobe Campaign
 description: Découvrez comment utiliser et personnaliser l’espace de travail Campaign
-feature: Vue d’ensemble
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13

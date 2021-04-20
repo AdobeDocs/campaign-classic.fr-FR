@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Créer et gérer des listes
 description: Découvrez comment créer et gérer des listes
-feature: Profils
-role: Professionnel
-level: Débutant
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt

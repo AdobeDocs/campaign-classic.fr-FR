@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Création et gestion de groupes d’opérateurs
 description: Découvrez comment octroyer l’accès aux groupes d’opérateurs
-feature: Gestion des accès
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525

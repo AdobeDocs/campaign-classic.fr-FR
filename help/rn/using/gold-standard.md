@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Notes de mise à jour de [!DNL Gold Standard]
 description: Notes de mise à jour de Campaign Classic [!DNL Gold Standard]
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e

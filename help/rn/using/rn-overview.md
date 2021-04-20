@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Prise en main des mises à niveau
 description: En savoir plus sur les mises à niveau de Campaign Classic
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499

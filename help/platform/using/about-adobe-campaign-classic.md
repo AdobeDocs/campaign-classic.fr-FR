@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: À propos d‘Adobe Campaign Classic
 description: Découvrez les fonctionnalités principales, l'interface utilisateur et les directives globales.
-feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

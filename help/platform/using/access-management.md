@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Prise en main des permissions
 description: Découvrez comment octroyer l’accès aux fonctionnalités Campaign
-feature: Gestion des accès
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e

@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Utilisation des droits nommés pour la configuration des permissions
 description: Découvrez comment utiliser des droits nommés pour configurer des permissions
-feature: Gestion des accès
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0

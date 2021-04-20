@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Fonctionnalités obsolètes et supprimées de Campaign Classic
 description: Cette page répertorie les fonctionnalités obsolètes et supprimées d’Adobe Campaign Classic
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645

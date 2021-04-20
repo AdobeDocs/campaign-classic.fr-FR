@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Prise en main des opérateurs Campaign
 description: Découvrez comment créer et gérer des utilisateurs Campaign
-feature: Gestion des accès
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39

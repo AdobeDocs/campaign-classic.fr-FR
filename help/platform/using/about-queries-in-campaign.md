@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: A propos des requêtes dans Campaign
 description: A propos des requêtes dans Campaign
-feature: Éditeur de requête
-role: Professionnel, architecte de données
-level: Débutant
+feature: Query Editor
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
