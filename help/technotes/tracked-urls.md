@@ -8,8 +8,8 @@ hidefromtoc: true
 translation-type: tm+mt
 source-git-commit: 65ff09dd8ded029178c4c85489bf01ef80d16e8d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 20%
 
 ---
 
