@@ -3,23 +3,23 @@ solution: Campaign Classic
 product: campaign
 title: A propos des connecteurs
 description: A propos des connecteurs
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 93%
+exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
+# Prise en main des connecteurs {#about-connectors}
 
-# Commencer avec les connecteurs{#about-connectors}
+Adobe Campaign fournit plusieurs connecteurs qui vous permettent de communiquer avec des applications externes, de vous connecter à des moteurs de base de données et d’intégrer Adobe Campaign à Adobe Analytics pour partager des données.
 
-Adobe Campaign fournit plusieurs connecteurs qui vous permettent de communiquer avec des applications externes, de vous connecter à des moteurs de base de données et d&#39;intégrer Adobe Campaign à Adobe Analytics pour partager des données.
-
-Les connecteurs disponibles sont répertoriés ci-dessous :
+Les connecteurs disponibles sont répertoriés ci-dessous :
 
 * FDA Connector (**Federated Data Access**) vous permet de connecter Campaign à une ou plusieurs bases de données externes et de traiter les informations stockées dans celles-ci sans affecter vos données Campaign. [En savoir plus](../../installation/using/about-fda.md).
 * Les connecteurs CRM vous permettent d&#39;échanger des données entre Adobe Campaign et votre solution de CRM grâce à des activités de workflow dédiées. [En savoir plus](../../platform/using/crm-connectors.md).
@@ -34,4 +34,3 @@ Vous pouvez également intégrer Campaign à plusieurs autres systèmes, tels qu
 >[!NOTE]
 >
 >La disponibilité de ces modules et leur utilisation peuvent dépendre du type de déploiement de votre installation. Reportez-vous à la [matrice des fonctionnalités hébergées de Campaign On-Premise](../../installation/using/capability-matrix.md).
-
