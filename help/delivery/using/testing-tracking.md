@@ -6,14 +6,14 @@ description: Tester le tracking
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
 ---
-
 
 # Tester le tracking{#testing-tracking}
 
@@ -39,4 +39,3 @@ Vous pouvez tester le tracking sur les pages miroir, les logs d&#39;email et les
    Pour vérifier le tracking des logs d&#39;email, recherchez les valeurs **Ouverture** et **[!UICONTROL Clic email]** dans la colonne **Type**.
 
    Si les logs d&#39;ouverture n&#39;apparaissent pas, accédez à la diffusion. Vérifiez dans ses **propriétés** que les options **Activer le tracking** et **[!UICONTROL Tracking d&#39;ouverture]** sont cochées.
-
