@@ -6,14 +6,14 @@ description: FAQ sur Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
-workflow-type: tm+mt
+exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
 ---
-
 
 # FAQ sur les profils et audiences {#audiences-faq}
 
