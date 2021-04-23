@@ -6,14 +6,14 @@ description: Etapes pour créer une requête
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '928'
 ht-degree: 100%
 
 ---
-
 
 # Etapes pour créer une requête{#steps-to-create-a-query}
 
@@ -138,4 +138,3 @@ Dans cet exemple, les données sont triées selon l&#39;âge des destinataires c
 >[!NOTE]
 >
 >Dans la fenêtre **[!UICONTROL Prévisualisation des données]**, les 200 premières lignes de résultat s&#39;affichent par défaut. Pour modifier cette quantité, saisissez un chiffre dans la case **[!UICONTROL Lignes à visualiser]**, validez puis cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**.
-
