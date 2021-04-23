@@ -7,11 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 ## Protection des téléchargements de fichiers
 
-Identifiez avec les utilisateurs opérationnels le type de fichiers qu’ils téléchargent sur le serveur à l’aide de la console client Campaign ou de l’interface Web. Pour rappel, les besoins de l’entreprise peuvent être les suivants :
+Demandez aux utilisateurs quels types de fichiers ils téléchargent sur le serveur à l’aide de la console cliente de Campaign ou de l’interface Web. Pour rappel, les besoins de l’entreprise peuvent être les suivants :
 
 * des images (jpg, gif, png, etc.),
 * des contenus (zip, html, css, etc.),
