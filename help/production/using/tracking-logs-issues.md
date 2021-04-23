@@ -6,14 +6,14 @@ description: Problèmes relatifs aux logs de tracking
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
-workflow-type: tm+mt
+exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
 ---
-
 
 # Problèmes relatifs aux logs de tracking{#tracking-logs-issues}
 
