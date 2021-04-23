@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de téléchargement We
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
 ---
-
 
 # Téléchargement Web{#web-download}
 
