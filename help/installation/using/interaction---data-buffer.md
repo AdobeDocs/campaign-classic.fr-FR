@@ -6,14 +6,14 @@ description: Interaction - Mémoire tampon
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 translation-type: ht
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '299'
 ht-degree: 100%
 
 ---
-
 
 # Interaction - Mémoire tampon{#interaction-data-buffer}
 
@@ -67,4 +67,3 @@ Détails des arguments :
  runLevel: Priority at start Default: 10 
  targetKeySize: Max. number of characters stored in the shared memory for identifying individuals Default: 16 
 ```
-
