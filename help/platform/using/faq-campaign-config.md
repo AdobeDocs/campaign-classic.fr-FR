@@ -6,14 +6,14 @@ description: FAQ sur Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
-workflow-type: tm+mt
+exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # FAQ sur les paramètres de Campaign {#settings-faq}
 
@@ -41,7 +41,7 @@ En tant qu&#39;utilisateur expert, vous pouvez configurer les fonctionnalités d
 
 ## Comment configurer la délivrabilité des emails ? {#how-to-configure-email-deliverability-}
 
-Outre le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), lisez les recommandations techniques sur la délivrabilité afin de comprendre comment configurer votre instance afin d&#39;optimiser les capacités de livraison de Campaign.
+Outre le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr), lisez les recommandations techniques sur la délivrabilité pour comprendre comment configurer votre instance afin d’optimiser les fonctionnalités de diffusion de Campaign.
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/about-deliverability.md).
 
@@ -75,7 +75,7 @@ Ces connecteurs permettent d&#39;intégrer rapidement et simplement les données
 
 Lisez la section [Configurer les connecteurs CRM](../../platform/using/crm-connectors.md) pour savoir comment synchroniser votre outil CRM avec Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Regardez cette vidéo de cas pratique sur [l’intégration d’Adobe Campaign et Microsoft Dynamics 365](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html).
+![](assets/do-not-localize/how-to-video.png) Regardez cette vidéo de cas pratique sur [l’intégration d’Adobe Campaign et Microsoft Dynamics 365](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html?lang=fr).
 
 ## Comment effectuer un effacement de la mémoire cache locale (soft) lorsque les problèmes sont spécifiques à la machine ou à l’utilisateur ? {#perform-soft-cache-clear}
 
