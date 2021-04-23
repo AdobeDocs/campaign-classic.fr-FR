@@ -6,14 +6,14 @@ description: Synchronisation des audiences
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1228'
 ht-degree: 100%
 
 ---
-
 
 # Synchronisation des audiences{#synchronizing-audiences}
 
@@ -139,7 +139,7 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite
 
 ## Envoyer et suivre votre diffusion {#send-and-monitor-your-delivery}
 
-Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme décrit en détail dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme décrit en détail dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
 
 1. Exécutez le workflow de diffusion. Cette étape prépare l&#39;envoi de l&#39;email.
 1. Dans le tableau de bord de la diffusion, validez manuellement l&#39;envoi de la diffusion.
@@ -151,4 +151,3 @@ Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme dé
       Les quarantaines sont automatiquement synchronisées avec Campaign v7. Ainsi, les informations de non-délivrabilité peuvent être prises en compte pour le prochain ciblage effectué dans Campaign v7.
 
       Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
-
