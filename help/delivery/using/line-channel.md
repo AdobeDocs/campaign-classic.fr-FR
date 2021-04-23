@@ -6,14 +6,14 @@ description: Canal LINE
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
+exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 translation-type: ht
-source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1163'
 ht-degree: 100%
 
 ---
-
 
 # Création de diffusions LINE{#line-channel}
 
