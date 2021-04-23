@@ -6,14 +6,14 @@ description: Découvrez comment vous connecter à une base de données externe
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '686'
 ht-degree: 100%
 
 ---
-
 
 # Connexion à la base de données {#connecting-to-the-database}
 
