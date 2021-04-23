@@ -6,14 +6,14 @@ description: Etapes de mise en oeuvre
 audience: interaction
 content-type: reference
 topic-tags: general-operation
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '284'
 ht-degree: 100%
 
 ---
-
 
 # Etapes de mise en oeuvre{#implementation-steps}
 
@@ -58,4 +58,3 @@ ht-degree: 100%
 
 1. Créer une campagne.
 1. Référencer une offre dans une campagne ou l’envoi d’une campagne. Voir à ce sujet la section [A propos des canaux sortants](../../interaction/using/about-outbound-channels.md).
-
