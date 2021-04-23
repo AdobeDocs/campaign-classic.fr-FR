@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2665'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 * [Statut En échec](../../delivery/using/delivery-performances.md#failed-status)
 * [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)
 
-## Types de diffusion en échec et raisons   {#delivery-failure-types-and-reasons}
+## Types de diffusion en échec et raisons    {#delivery-failure-types-and-reasons}
 
 Trois types d&#39;erreurs sont liés à un message en échec. Chaque type d&#39;erreur détermine si une adresse est mise en quarantaine. Voir à ce propos la section [Conditions de mise en quarantaine d&#39;une adresse](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
@@ -69,7 +69,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Adresse non renseignée </td> 
-   <td> dur </td> 
+   <td> Hard </td> 
    <td> 7 </td> 
    <td> L'adresse du destinataire n'est pas renseignée.<br /> </td> 
   </tr> 
@@ -81,7 +81,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Adresse placée sur la liste bloquée </td> 
-   <td> dur </td> 
+   <td> Hard </td> 
    <td> 8 </td> 
    <td> L'adresse a été ajoutée à la liste bloquée au moment de l'envoi. Cet état est utilisé pour importer des données à partir de listes externes et de systèmes externes dans la liste Quarantaine d’Adobe Campaign.<br /> </td> 
   </tr> 
@@ -123,7 +123,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Boîte pleine </td> 
-   <td> Doux </td> 
+   <td> Soft </td> 
    <td> 5 </td> 
    <td> La boîte de messagerie de l'utilisateur est pleine et ne peut plus accepter d'autres messages. Ce profil sera ciblé de nouveau jusqu'à ce que le nombre d'erreurs atteigne 5. Une fois ce chiffre atteint, l'enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée.<br /> Ce type d'erreur est géré par un processus de nettoyage, l'adresse est défini sur un statut valide au bout de 30 jours.<br /> Attention : pour que l'adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique Nettoyage de la base (cleanup) doit être démarré.<br /> </td> 
   </tr> 
@@ -171,7 +171,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
   </tr> 
   <tr> 
    <td> Utilisateur inconnu </td> 
-   <td> dur </td> 
+   <td> Hard </td> 
    <td> 1 </td> 
    <td> L'adresse n'existe pas. Aucune autre diffusion ne sera envoyée pour ce profil.<br /> </td> 
   </tr> 
@@ -205,7 +205,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
    >
    >Le paramétrage de la boîte des mails rebonds est décrit dans [cette section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
 
-   La [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
+   La [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops) fonctionne comme les emails de bounce. Lorsqu’un utilisateur qualifie un email de spam, vous pouvez configurer des règles d’email dans Adobe Campaign pour bloquer toutes les diffusions à cet utilisateur. Les messages envoyés à des utilisateurs qui ont qualifié un email comme spam sont automatiquement redirigés vers une boîte de réception spécialement créée à cet effet. Les adresses de ces utilisateurs figurent sur la liste bloquée même s&#39;ils n&#39;ont pas cliqué sur le lien de désinscription. Les adresses figurent sur la liste bloquée de la table des quarantaines (**NmsAddress**) et non de la table des destinataires (**NmsRecipient**).
 
    >[!NOTE]
    >
@@ -266,7 +266,7 @@ Les statuts de qualification des mails rebonds sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d&#39;un FAI, les courriels envoyés via Campaign seront incorrectement marqués comme rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification de rebond. Voir à ce propos [cette page](../../delivery/using/update-bounce-qualification.md).
+>En cas de panne d’un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour en savoir plus sur le sujet, consultez [cette page](../../delivery/using/update-bounce-qualification.md).
 
 ### Règles de gestion des emails {#email-management-rules}
 
