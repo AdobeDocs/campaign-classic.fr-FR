@@ -6,14 +6,14 @@ description: Cette section décrit l’architecture des messages transactionnels
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 2d30a70f8fbfb7a916638697c0f7a5060c2458ee
-workflow-type: tm+mt
+exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1151'
 ht-degree: 100%
 
 ---
-
 
 # Architecture des messages transactionnels{#transactional-messaging-architecture}
 
