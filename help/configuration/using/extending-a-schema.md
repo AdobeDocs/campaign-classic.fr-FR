@@ -6,14 +6,14 @@ description: Découvrez comment étendre un schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 
 ---
-
 
 # Extension d&#39;un schéma{#extending-a-schema}
 
@@ -65,4 +65,3 @@ Il existe deux solutions pour étendre un schéma déjà existant :
 >
 >Pour que les modifications soient prises en compte, vous devez régénérer les schémas. Voir à ce sujet la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).\
 >Si les modifications affectent la structure de la base de données, vous devez exécuter une mise à jour. Voir à ce sujet la section [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md).
-
