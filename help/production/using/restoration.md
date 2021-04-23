@@ -6,14 +6,14 @@ description: Restauration
 audience: production
 content-type: reference
 topic-tags: data-processing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '65'
 ht-degree: 100%
 
 ---
-
 
 # Restauration{#restoration}
 
@@ -27,4 +27,3 @@ La procédure de restauration sur un serveur vierge est la suivante :
 * lancement d&#39;Adobe Campaign.
 
 Pour plus d&#39;informations, reportez-vous au **Guide d&#39;Installation**.
-
