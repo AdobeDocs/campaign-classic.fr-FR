@@ -7,11 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1088'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Les étapes sont les suivantes :
 
       ![](assets/install_create_new_connexion.png)
 
-      Pour plus d&#39;informations sur ce sujet, reportez-vous à la section [Création d&#39;une instance et connexion à ](../../installation/using/creating-an-instance-and-logging-on.md).
+      Voir à ce sujet la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 
       ou
 
@@ -211,7 +211,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_install_access_client.png)
 
-1. Lancez la console cliente Adobe Campaign (récupérée à partir de la page de téléchargement de l&#39;étape précédente ou lancée directement sur le serveur pour une installation Windows), paramétrez l&#39;URL de connexion du serveur avec l&#39;URL https://console.campaign.net et connectez-vous avec l&#39;identifiant (login) **internal**.
+1. Lancez la console cliente Adobe Campaign (récupérée à partir de la page de téléchargement de l’étape précédente ou lancée directement sur le serveur pour une installation Windows), spécifiez l’URL de connexion du serveur https://console.campaign.net et connectez-vous avec l’identifiant (login) **internal**.
 
    Consultez [cette page](../../installation/using/creating-an-instance-and-logging-on.md) et [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
