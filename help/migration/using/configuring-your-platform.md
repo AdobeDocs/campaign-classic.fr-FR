@@ -6,14 +6,14 @@ description: Configurer votre plateforme
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 translation-type: ht
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '941'
 ht-degree: 100%
 
 ---
-
 
 # Configurer votre plateforme{#configuring-your-platform}
 
@@ -130,4 +130,3 @@ Après l&#39;exécution du **postupgrade**, les éléments suivants doivent êtr
 * Interaction
 
    Si vous utilisez **Interaction**, vous devez ajuster les paramètres après la migration. Voir à ce propos la section [Interaction](../../migration/using/general-configurations.md#interaction).
-
