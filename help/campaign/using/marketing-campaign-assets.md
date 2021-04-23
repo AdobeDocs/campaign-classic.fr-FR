@@ -6,14 +6,14 @@ description: En savoir plus sur les compositions de diffusions et sur les docume
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '784'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des documents associés {#managing-associated-documents}
 
