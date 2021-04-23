@@ -6,14 +6,14 @@ description: Découvrez comment effectuer des tests A/B à l'aide d'un cas prati
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 translation-type: ht
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 
 ---
-
 
 # Analyse du résultat {#step-8--analyzing-the-result}
 
