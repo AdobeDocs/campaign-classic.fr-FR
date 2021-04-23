@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ Chaque noeud correspond à un dossier. Les données de chaque dossier doivent ê
 >
 >Pour afficher la liste de tous les destinataires de la base, vous devez créer une vue. En savoir plus dans la section [Dossiers et vues](../../platform/using/access-management-folders.md).
 
-## Déplacer les destinataires {#moving-recipients}
+## Déplacer des destinataires {#moving-recipients}
 
-Vous pouvez sélectionner un ou plusieurs destinataires et le(s) déplacer d&#39;un dossier vers une autre par un glisser-déposer depuis la liste des destinataires vers le dossier visé. Un message d&#39;avertissement vous permet de confirmer l&#39;opération.
+Vous pouvez sélectionner un ou plusieurs destinataires et le(s) déplacer d’un dossier vers une autre par un glisser-déposer depuis la liste des destinataires vers le dossier visé. Un message d’avertissement vous permet de confirmer l’opération.
 
 ## Copier un destinataire {#copying-a-recipient}
 
-Vous pouvez dupliquer un destinataire dans le même dossier à partir du bouton droit de la souris sur le destinataire visé en choisissant **[!UICONTROL Dupliquer]**.
+Vous pouvez dupliquer un destinataire dans le même dossier en effectuant un clic droit sur le destinataire visé et en sélectionnant **[!UICONTROL Dupliquer]**.
 
-## Supprimer les destinataires {#deleting-recipients}
+## Supprimer des destinataires {#deleting-recipients}
 
 Pour supprimer des destinataires, vous devez au préalable les déplacer dans un dossier spécifique puis purger le contenu de ce dossier. Il est **vivement déconseillé** d&#39;utiliser l&#39;option **[!UICONTROL Supprimer]** dans ce cas de figure.
 
