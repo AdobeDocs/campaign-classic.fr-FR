@@ -6,14 +6,14 @@ description: A propos de la création de rapports dans Campaign
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # Étapes clés de la création d’un rapport{#about-reports-creation-in-campaign}
 
@@ -31,4 +31,3 @@ Les étapes nécessaires pour créer, publier et diffuser un rapport d&#39;analy
 1. Configurer les options d’affichage : type d’affichage, rapports partagés : voir [Contexte d’affichage des rapports](../../reporting/using/configuring-access-to-the-report.md#report-display-context), [Définir un contenu conditionnel](../../reporting/using/defining-a-conditional-content.md) et [Paramétrer l’accès au rapport](../../reporting/using/configuring-access-to-the-report.md),
 1. Publier le rapport (assistant de publication) : voir [Publication du rapport](../../reporting/using/configuring-access-to-the-report.md#publishing-the-report),
 1. Convertir le rapport : export, historique, affichage dans un navigateur : voir [Agir sur les rapports](../../reporting/using/actions-on-reports.md).
-
