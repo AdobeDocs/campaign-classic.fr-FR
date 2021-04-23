@@ -6,14 +6,14 @@ description: Créer et partager des applications web, des landing pages et des q
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '717'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main des applications web{#about-web-applications}
 
@@ -102,4 +102,3 @@ L&#39;assistant de création vous permet de sélectionner les options à activer
 >[!CAUTION]
 >
 >Les types d&#39;applications disponibles dépendent des options et modules installés. Consultez votre contrat de licence.
-
