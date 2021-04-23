@@ -6,14 +6,14 @@ description: Créer une application web
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '364'
 ht-degree: 100%
 
 ---
-
 
 # Création d’une application web{#creating-a-new-web-application}
 
