@@ -6,14 +6,14 @@ description: A propos de la simulation des offres
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
+exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
 ---
-
 
 # A propos de la simulation des offres{#about-offers-simulation}
 
