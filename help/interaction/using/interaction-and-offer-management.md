@@ -6,14 +6,14 @@ description: Envoyez les meilleures offres à vos contacts en fonction des règl
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 
 ---
-
 
 # Interaction et la gestion des offres{#interaction-and-offer-management}
 
