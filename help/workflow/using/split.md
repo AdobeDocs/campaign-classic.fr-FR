@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de partage
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2133'
 ht-degree: 100%
 
 ---
-
 
 # Partage{#split}
 
@@ -232,7 +232,7 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schéma
+* schema
 * recCount
 
 Ce triplet de valeurs identifie la cible résultant de l&#39;exclusion. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
