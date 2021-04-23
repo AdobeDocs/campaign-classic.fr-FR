@@ -6,14 +6,14 @@ description: Interface de l'éditeur de contenu
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: c93931820887306c0ef64ef05d4f0ba2ca5a98aa
-workflow-type: tm+mt
+exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '537'
 ht-degree: 100%
 
 ---
-
 
 # Interface de l&#39;éditeur de contenu{#content-editor-interface}
 
@@ -87,4 +87,3 @@ La barre d&#39;outils est un **élément contextuel** de l&#39;interface du DCE 
 >[!CAUTION]
 >
 >Certaines fonctionnalités de la barre d&#39;outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, les **instructions** provenant de la feuille de style peuvent s&#39;avérer **prioritaires** par rapport aux instructions spécifiées avec la barre d&#39;outils.
-
