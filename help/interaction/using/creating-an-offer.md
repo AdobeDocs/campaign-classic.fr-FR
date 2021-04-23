@@ -6,14 +6,14 @@ description: Créer une offre
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
+exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
 ---
-
 
 # Créer une offre{#creating-an-offer}
 
@@ -186,4 +186,3 @@ Les hypothèses réalisées sur une proposition d&#39;offre sont référencées 
 La création des hypothèses est expliquée dans le détail sur [cette page](../../campaign/using/about-response-manager.md).
 
 ![](assets/offer_hypothesis_001.png)
-
