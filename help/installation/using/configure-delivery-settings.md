@@ -1,17 +1,17 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration des paramètres de la Diffusion Campaign
-description: Découvrez comment configurer les paramètres de la Diffusion Campaign
+title: Configuration des paramètres de diffusion Campaign
+description: Découvrez comment configurer les paramètres de diffusion Campaign
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 401e1be234d52f04cbdf8dfa97f51ac227836cd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les paramètres de diffusion doivent être configurés dans le dossier **serverC
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-Vous pouvez également effectuer les configurations suivantes en fonction de vos besoins et paramètres : configurez un [relais SMTP](#smtp-relay), adaptez le nombre de processus enfant [MTA](#mta-child-processes), [Gérer le trafic SMTP sortant](#managing-outbound-smtp-traffic-with-affinities).
+Vous pouvez également effectuer les configurations suivantes en fonction de vos besoins et de vos paramètres : configurer un [relais SMTP](#smtp-relay), adapter le nombre de [processus enfants MTA](#mta-child-processes), [gérer le trafic SMTP sortant](#managing-outbound-smtp-traffic-with-affinities).
 
 ## Relais SMTP {#smtp-relay}
 
@@ -49,7 +49,7 @@ Dans ce cas, ces paramètres sont définis en configurant le serveur SMTP dans l
 
 ## Processus MTA child {#mta-child-processes}
 
-Il est possible de contrôler le nombre de processus enfants (maxSpareServers par défaut 2) afin d&#39;optimiser les performances de diffusion en fonction de la puissance CPU des serveurs et des ressources réseau disponibles. Cette configuration doit être effectuée dans la section **`<master>`** de la configuration MTA sur chaque ordinateur individuel.
+Il est possible de contrôler le nombre de processus enfants (maxSpareServers par défaut 2) afin d’optimiser les performances de diffusion en fonction de la puissance CPU des serveurs et des ressources réseau disponibles. Cette configuration doit être effectuée dans la section **`<master>`** de la configuration MTA sur chaque ordinateur individuel.
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
@@ -57,11 +57,11 @@ Il est possible de contrôler le nombre de processus enfants (maxSpareServers pa
 
 Voir également la section [Optimisation de l’envoi d’emails](../../installation/using/email-deliverability.md#email-sending-optimization).
 
-## Gérer le trafic SMTP sortant avec des affinités {#managing-outbound-smtp-traffic-with-affinities}
+## Gérer le trafic SMTP sortant avec les affinités {#managing-outbound-smtp-traffic-with-affinities}
 
 >[!IMPORTANT]
 >
->La configuration de l&#39;affinité doit être cohérente d&#39;un serveur à l&#39;autre. Nous vous recommandons de contacter Adobe pour obtenir une configuration d’affinité, car les modifications de configuration doivent être répliquées sur tous les serveurs d’applications qui exécutent la MTA.
+>La configuration des affinités doit être cohérente d’un serveur à l’autre. Nous vous recommandons de contacter Adobe pour obtenir une configuration d’affinité, car les modifications de configuration doivent être répliquées sur tous les serveurs d’applications qui exécutent la MTA.
 
 Vous pouvez améliorer le trafic SMTP sortant grâce à des affinités avec les adresses IP.
 
