@@ -6,14 +6,14 @@ description: Options de filtrage
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Options de filtrage{#filtering-options}
 
