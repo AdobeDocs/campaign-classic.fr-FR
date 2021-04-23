@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
