@@ -6,14 +6,14 @@ description: Modèles de campagne marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1168'
 ht-degree: 100%
 
 ---
-
 
 # Création et configuration de modèles d’opération {#campaign-templates}
 
@@ -65,7 +65,7 @@ Les divers onglets et sous-onglets du modèle d’opération vous permettent d�
 
 ## Sélection des modules {#select-modules}
 
-Le lien **[!UICONTROL Paramètres avancés de l’opération…]** vous permet d’activer et de désactiver des tâches pour les opérations basées sur ce modèle. Sélectionnez les fonctionnalités à activer dans les opérations créées à partir de ce modèle.
+Le lien **[!UICONTROL Paramètres avancés de l’opération…]** vous permet d’activer et de désactiver des traitements pour les opérations basées sur ce modèle. Sélectionnez les fonctionnalités à activer dans les opérations créées à partir de ce modèle.
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
