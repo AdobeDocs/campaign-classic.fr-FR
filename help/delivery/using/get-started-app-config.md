@@ -6,14 +6,14 @@ description: Découvrez comment débuter avec la configuration de l'application 
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
+exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 translation-type: ht
-source-git-commit: 965aee2e310dd7e35d7a65bf9a1bda5dc8eb0959
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '316'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main de la configuration de l&#39;application
 
