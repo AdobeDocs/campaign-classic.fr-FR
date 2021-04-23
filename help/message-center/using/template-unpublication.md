@@ -6,14 +6,14 @@ description: Publication des modèles
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: tm+mt
-source-git-commit: 02dee9c4cc03784ccc20f147f816798248bd10f2
-workflow-type: tm+mt
+exl-id: 1e09381d-af20-4309-8769-47f0d5e8dd64
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '247'
 ht-degree: 100%
 
 ---
-
 
 # Annulation de la publication des modèles{#template-unpublication}
 
