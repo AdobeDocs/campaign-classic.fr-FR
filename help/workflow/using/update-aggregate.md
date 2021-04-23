@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de mise à jour d’ag
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '100'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour d&#39;agrégat{#update-aggregate}
 
@@ -30,4 +30,3 @@ Par défaut, une mise à jour complète est réalisée à chaque calcul. Pour pe
 **Bonne pratique** : une activité **[!UICONTROL Planificateur]** peut être utilisée pour définir la fréquence de mise à jour des calculs.
 
 ![](assets/s_advuser_cube_agregate_04.png)
-
