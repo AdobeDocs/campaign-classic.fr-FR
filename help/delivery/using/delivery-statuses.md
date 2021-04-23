@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
  </tbody> 
 </table>
 
-Pour savoir comment optimiser la délivrabilité de vos courriels Adobe Campaign, consultez [cette section](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+Pour découvrir comment optimiser la délivrabilité de vos emails Adobe Campaign, reportez-vous à [cette section](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 ## Statut En attente {#pending-status}
 
