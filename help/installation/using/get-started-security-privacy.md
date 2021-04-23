@@ -6,14 +6,14 @@ description: En savoir plus sur les éléments clés à vérifier en matière de
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 translation-type: ht
-source-git-commit: 922603492d2c98d751683d3aa481e9ab19bca70c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '450'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main de la sécurité et de la confidentialité {#get-started-security-privacy}
 
@@ -36,7 +36,7 @@ La configuration et le renforcement de la confidentialité sont des éléments c
 
 <img src="assets/do-not-localize/icon_access.svg" width="60px">
 
-Gestion des accès est un élément important du renforcement de la sécurité. Voici quelques bonnes pratiques clés :
+La gestion des accès joue un rôle important dans le renforcement de la sécurité. Vous trouverez ci-dessous quelques-unes des principales bonnes pratiques à appliquer.
 
 * Créez suffisamment de groupes de sécurité.
 * Vérifiez que chaque opérateur dispose des droits d’accès adéquats.
