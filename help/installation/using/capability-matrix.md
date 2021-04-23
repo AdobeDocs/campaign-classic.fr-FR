@@ -7,11 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,5 @@ Adobe Campaign propose l&#39;option **Federated Data Access** (FDA) afin d&#3
 * [Notes de mise à jour](../../rn/using/latest-release.md)
 * [Mises à niveau de Campaign Classic](../../rn/using/rn-overview.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
-* [[!DNL Gold Standard] versions](../../rn/using/gold-standard.md)
-* [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)
+* Versions [[!DNL Gold Standard] ](../../rn/using/gold-standard.md)
+* [[!DNL Gold Standard] programme](../../rn/using/gs-overview.md)
