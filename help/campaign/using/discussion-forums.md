@@ -6,14 +6,14 @@ description: Forums de discussion
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '799'
 ht-degree: 100%
 
 ---
-
 
 # Forums de discussion{#discussion-forums}
 
@@ -111,6 +111,4 @@ Si des opérateurs abonnés à un forum ne reçoivent pas les notifications atte
 
    * Depuis la page d&#39;accueil d&#39;Adobe Campaign, allez à **[!UICONTROL Campagnes > Navigation > Diffusions]**, puis ouvrez la diffusion **[!UICONTROL Notification des forums de discussion]**.
    * Dans l&#39;explorateur, allez à **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Diffusions techniques > Notifications de workflow]**, puis cliquez sur **[!UICONTROL Notification des forums de discussion]**.
-
    Dans la boîte **[!UICONTROL Notification des forums de discussion]**, les logs de diffusion se trouvent dans l&#39;onglet **[!UICONTROL Édition > Diffusion]**. Consultez également les onglets **[!UICONTROL Tracking > Journal]** et **[!UICONTROL Causes d&#39;exclusion]**.
-
