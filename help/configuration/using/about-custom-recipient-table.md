@@ -6,14 +6,14 @@ description: À propos de la table des destinataires personnalisée
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 translation-type: ht
-source-git-commit: 5871674ee26766cf08439768df3fb07ea0f99e7b
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '682'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation d’une table des destinataires personnalisée{#about-custom-recipient-table}
 
@@ -77,4 +77,3 @@ Par exemple :
 * Le bloc de personnalisation du **[!UICONTROL Lien de désinscription]** standard doit être adapté.
 * Le mapping de ciblage des modèles de diffusion standard doit être modifié.
 * Les formulaires v4 ne sont pas compatibles avec l‘utilisation d’une table de destinataires externe : vous devez utiliser les applications Web.
-
