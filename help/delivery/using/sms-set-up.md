@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration du canal SMS Campaign
+title: Configuration du canal SMS de Campaign
 description: Découvrez comment configurer le canal SMS dans Campaign
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
-workflow-type: tm+mt
+exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1781'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Configurer le canal SMS {#setting-up-sms-channel}
 
@@ -21,14 +21,14 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 
 1. un compte externe spécifiant un connecteur et un type de message,
 
-   Notez que les connecteurs hérités sont désormais obsolètes. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md).
+   Notez que les anciens connecteurs sont désormais obsolètes. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md).
 
 1. un modèle de diffusion dans lequel est référencé ce compte externe.
 
-## Créer un compte externe SMPP {#creating-an-smpp-external-account}
+## Création d’un compte externe SMPP {#creating-an-smpp-external-account}
 
 Pour envoyer un SMS à un téléphone mobile, vous devez d’abord créer votre compte externe SMPP.
-Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez cette [page](../../delivery/using/sms-protocol.md).
+Pour plus d’informations sur les paramètres et le protocole SMS, reportez-vous à cette [page](../../delivery/using/sms-protocol.md).
 
 Pour ce faire, procédez comme suit :
 
@@ -82,13 +82,13 @@ Pour ce faire, procédez comme suit :
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 
-   La case à cocher **[!UICONTROL Activer TLS sur SMPP]** permet de chiffrer le trafic SMPP. Pour plus d’informations à ce sujet, consultez cette [page](../../delivery/using/sms-protocol.md).
+   La case à cocher **[!UICONTROL Activer TLS par SMPP]** permet de chiffrer le trafic SMPP. Pour plus d’informations à ce sujet, consultez cette [page](../../delivery/using/sms-protocol.md).
 
 1. Si vous paramétrez un connecteur **[!UICONTROL SMPP Générique étendu]**, vous pouvez configurer des réponses automatiques.
 
    Voir à ce propos [cette section](#automatic-reply).
 
-## Translitération de caractères SMS {#about-character-transliteration}
+## Translittération de caractères SMS {#about-character-transliteration}
 
 La translittération des caractères peut être configurée dans un compte externe de routage vers mobiles par SMPP dans l&#39;onglet **[!UICONTROL Mobile]**.
 
@@ -343,7 +343,7 @@ Pour éviter cela, appliquez l&#39;une des solutions suivantes, selon le fournis
 
    ![](assets/extended_smpp_system-type.png)
 
-Les étapes de configuration d&#39;un compte externe à l&#39;aide du connecteur SMPP générique étendu sont détaillées dans la section [Créer un compte externe SMPP](#creating-an-smpp-external-account).
+La procédure de configuration d’un compte externe à l’aide du connecteur SMPP générique étendu est détaillée dans la section [Création d’un compte externe SMPP](#creating-an-smpp-external-account).
 
 ## Modifier le modèle de diffusion {#changing-the-delivery-template}
 
