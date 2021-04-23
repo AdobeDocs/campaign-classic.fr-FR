@@ -6,14 +6,14 @@ description: Disponibilité de la console cliente pour Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 translation-type: ht
-source-git-commit: 1b02c3870ddc01705f01ea992e734cf0810e003a
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '340'
 ht-degree: 100%
 
 ---
-
 
 # Disponibilité de la console cliente pour Windows{#client-console-availability-for-windows}
 
@@ -58,4 +58,3 @@ Si vous avez sélectionné cette option, vous pouvez réinitialiser cette invite
    ```
 
 1. Supprimez l&#39;entrée **confAdvisedUpgrade** et fermez l&#39;Editeur du Registre.
-
