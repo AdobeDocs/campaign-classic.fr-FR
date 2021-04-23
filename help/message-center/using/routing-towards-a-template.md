@@ -6,14 +6,14 @@ description: Acheminement vers un modèle
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 2c18c557-f49b-4af8-8795-3d59bd78e63f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '121'
 ht-degree: 100%
 
 ---
-
 
 # Acheminement vers un modèle{#routing-towards-a-template}
 
