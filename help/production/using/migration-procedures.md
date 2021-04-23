@@ -6,14 +6,14 @@ description: Procédures de migration
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 0b71a4d3-b340-4742-bd69-4073ce271cf3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '84'
 ht-degree: 100%
 
 ---
-
 
 # Procédures de migration{#migration-procedures}
 
@@ -26,4 +26,3 @@ Pour plus d&#39;informations sur les procédures de migration et les bonnes prat
 
 * [Réalisation d’un upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html)
 * [Présentation de la migration](../../migration/using/about-migration.md)
-
