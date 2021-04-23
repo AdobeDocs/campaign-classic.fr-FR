@@ -6,14 +6,14 @@ description: Rapports sur les diffusions
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '768'
 ht-degree: 100%
 
 ---
-
 
 # Personnes et destinataires {#person-people-and-recipients}
 
@@ -100,7 +100,7 @@ Personnes : comme le navigateur de ce destinataire accepte les cookies, nous ob
 | John | - | - | - |
 | Marie | - | - | +1 |
 | Florian | +1 | +1 | +1 |
-| Total intermédiaire | 1 | 3 | 2 |
+| Total intermédiaire | 1 | 1 | 2 |
 
 Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par la personne à qui Florian a transféré l&#39;email :
 
@@ -120,7 +120,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
-| Florien | +1 | +1 | +1 |
+| Florian | +1 | +1 | +1 |
 | Personne inconnue | - | +1 | - |
 | Total intermédiaire | 1 | 2 | 2 |
 
@@ -144,7 +144,7 @@ L&#39;ouverture et les 4 clics effectués par Henry apparaissent dans les logs s
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
-| Florien | +1 | +1 | +1 |
+| Florian | +1 | +1 | +1 |
 | Personne inconnue | - | +1 | - |
 | Henry | +1 | +4 | +1 |
 | Total intermédiaire | 2 | 6 | 3 |
@@ -173,3 +173,4 @@ La réactivité brute et l&#39;estimation des transferts sont calculées de la m
 >* A représente l&#39;indicateur **[!UICONTROL Clics]** (destinataires ayant cliqués).
 >* B représente l&#39;indicateur **[!UICONTROL Clics distincts sur la population atteinte]** (personnes ayant cliqué).
 >* C représente l&#39;indicateur **[!UICONTROL Ouvertures distinctes sur la population atteinte]** (destinataires ayant ouvert).
+
