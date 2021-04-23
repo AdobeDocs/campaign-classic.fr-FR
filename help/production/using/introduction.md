@@ -6,14 +6,14 @@ description: Introduction
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
-workflow-type: tm+mt
+exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
 ---
-
 
 # Introduction{#introduction}
 
@@ -50,4 +50,3 @@ Si la nouvelle version implique une modification de la structure de la base, il 
 1. Serveur applicatif (nlserver web),
 1. Serveur de redirection (webmdl),
 1. Serveur de diffusion (nlserver mta).
-
