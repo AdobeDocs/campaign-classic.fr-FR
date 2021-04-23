@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de contrainte horaire
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
 ---
-
 
 # Contrainte horaire{#time-constraint}
 
@@ -24,4 +24,3 @@ Saisissez le libellé de l&#39;activité et indiquez la plage horaire pendant la
 Lorsque l&#39;option **[!UICONTROL Retenter plus tard si hors plage d&#39;exécution]** est sélectionnée, elle permet de relancer la tâche en dehors de la plage d&#39;exécution. Si vous souhaitez que l&#39;action du workflow soit définitivement abandonnée après sa suspension, désélectionnez cette option.
 
 ![](assets/s_user_scheduled_wait.png)
-
