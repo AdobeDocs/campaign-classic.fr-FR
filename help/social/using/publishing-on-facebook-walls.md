@@ -6,14 +6,14 @@ description: Publication sur les murs Facebook
 audience: social
 content-type: reference
 topic-tags: configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1063'
 ht-degree: 100%
 
 ---
-
 
 # Publication sur les murs Facebook{#publishing-on-facebook-walls}
 
