@@ -6,24 +6,24 @@ description: Mettre à jour les données
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-
 # Mise à jour de données{#updating-data}
 
-Les informations attachées au profil d&#39;un destinataire peuvent être mises à jour manuellement ou automatiquement.
+Les informations attachées au profil d’un destinataire peuvent être mises à jour manuellement ou automatiquement.
 
 ## Configurer une mise à jour automatique {#setting-up-an-automatic-update}
 
 Une mise à jour automatique peut être configurée via un workflow. Voir à ce propos [cette section](../../workflow/using/update-data.md).
 
-## Effectuer une mise à jour en masse {#performing-a-mass-update}
+## Réaliser une mise à jour en masse {#performing-a-mass-update}
 
 Les mises à jour manuelles sont commandées à partir du menu contextuel **[!UICONTROL Actions]** affiché à partir du bouton droit de la souris sur le ou les destinataires sélectionnés, ou à partir de l&#39;icône **[!UICONTROL Actions]**.
 
@@ -94,7 +94,7 @@ Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;
 
    Pour en savoir plus sur le paramétrage de l&#39;assistant d&#39;export, consultez [cette section](../../platform/using/executing-export-jobs.md).
 
-## S&#39;abonner à un service {#subscribing-to-a-service}
+## S’abonner à un service {#subscribing-to-a-service}
 
 Dans la plupart des cas, les destinataires s&#39;abonnent à une newsletter par le biais d&#39;une landing page dédiée, comme expliqué dans [cette section](../../delivery/using/managing-subscriptions.md). Toutefois, les profils de destinataires filtrés peuvent être abonnés manuellement à un service (Newsletter ou Service viral). Pour cela :
 
@@ -127,4 +127,3 @@ Vous pouvez vérifier le traitement depuis l&#39;onglet **[!UICONTROL Abonnement
 >[!NOTE]
 >
 >Pour plus d&#39;informations sur la création et le paramétrage des services, consultez [cette page](../../delivery/using/managing-subscriptions.md).
-
