@@ -7,18 +7,18 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # Installation et mise à jour de la console cliente Campaign{#installing-the-client-console}
 
 
-Campaign Client Console est un client riche qui vous permet de vous connecter à vos serveurs d’applications Campaign.
+La console cliente Campaign est un client riche qui vous permet de vous connecter à votre ou vos serveur(s) applicatif(s) Campaign.
 
 Avant de commencer, vous devez vérifier la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html) Campaign, obtenir l’URL de votre serveur Campaign et les informations d’identification de l’utilisateur.
 
@@ -28,45 +28,45 @@ Avant de commencer, vous devez vérifier la [matrice de compatibilité](https://
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez comment installer et configurer le client Adobe Campaign dans une [vidéo](#video)
 
-Le processus d’installation ou de mise à jour de la console cliente varie en fonction de votre implémentation de Adobe Campaign Classic.
-Veuillez consulter les détails ci-dessous pour comprendre ce qui est requis pour votre mise en oeuvre.
+Le processus d’installation ou de mise à jour de la console cliente varie selon votre implémentation d’Adobe Campaign Classic.
+Consultez les éléments détaillés ci-dessous pour connaître les processus requis pour votre implémentation.
 
 
-## Implémentations hébergées par l&#39;Adobe {#hosted-customers}
+## Implémentations hébergées par Adobe {#hosted-customers}
 
-Pour installer ou mettre à jour vos consoles client :
+Pour installer ou mettre à jour votre (vos) console(s) cliente(s) :
 
 1. Adobe peut effectuer un déploiement direct. Une fois la console mise à jour, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre contextuelle.
 
-1. Vous pouvez télécharger sur vos consoles client à partir de [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
+1. Vous pouvez effectuer un téléchargement sur vos consoles clientes à partir de la [distribution logicielle](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
-   **Les utilisateurs devront disposer d’un accès administrateur pour effectuer la mise à jour. Si les utilisateurs ne disposent pas de droits d’administration, un administrateur système devra effectuer un déploiement sur toutes les consoles client**
+   **Les utilisateurs devront disposer d’un accès administrateur pour effectuer la mise à jour. Si les utilisateurs ne disposent pas de droits d’administration, un administrateur système devra effectuer un déploiement sur toutes les consoles clientes**.
 
 
 
-## Implémentations hybrides et entièrement sur site {#hybrid-onprem-customers}
+## Implémentations hybrides et intégralement On-premise {#hybrid-onprem-customers}
 
-Afin de permettre aux utilisateurs Adobe Campaign de se connecter à l&#39;instance que vous avez créée et paramétrée, ils doivent utiliser la console cliente.
+Afin de permettre aux utilisateurs Adobe Campaign de se connecter à l’instance que vous avez créée et paramétrée, ils doivent utiliser la console cliente.
 
 ### Mise à disposition de la console pour les utilisateurs {#make-console-available}
 
-Lorsque l’ordinateur utilisé pour démarrer un serveur d’application Adobe Campaign (nlserver web) reçoit les connexions des utilisateurs à partir de la console client, vous pouvez le configurer afin de mettre à disposition le programme d’installation de la console Adobe Campaign à travers une interface HTML. Chaque fois qu’une nouvelle version de la console client est disponible, les utilisateurs sont invités à la télécharger lors du lancement de leur console client.
+Lorsque l’ordinateur utilisé pour démarrer un serveur d’application Adobe Campaign (nlserver web) reçoit les connexions des utilisateurs à partir de la console cliente, vous pouvez le configurer afin de mettre à disposition le programme d’installation de la console Adobe Campaign à travers une interface HTML. Chaque fois qu’une nouvelle version de la console client est disponible, les utilisateurs sont invités à la télécharger lors du lancement de leur console client.
 
 Pour ce faire, procédez comme suit :
 
 1. Sélectionnez le package qui contient le programme d’installation de la console.
 
-   Ce fichier s’appelle setup-client-7.X.XXXX.exe pour v7 ou setup-client-6.X.XXXX.exe pour v6.1, où X est la sous-version d’Adobe Campaign et XXXX est la compilation.   nombre.
+   Ce fichier est appelé setup-client-7.X.XXXX.exe pour la v7 ou setup-client-6.X.XXXX.exe pour la v6.1, où X correspond à la sous-version d’Adobe Campaign et XXXX au numéro de build.
 
-1. Copiez et collez ce package dans le dossier d’installation Adobe Campaign (sur le serveur marketing pour les installations hybrides), sous /datakit/nl/eng/jsp.
+1. Copiez et collez ce package dans le dossier d’installation Adobe Campaign (sur le serveur marketing pour les installations hybrides), sous /datakit/nl/eng/jsp.
 
-1. Démarrez le serveur Adobe Campaign.
+1. Démarrez le serveur Adobe Campaign.
 
 >[!CAUTION]
 >
->  Adobe recommande de ne pas sélectionner l’option **[!UICONTROL Ne plus poser cette question]** pour que tous les utilisateurs soient informés de la disponibilité d’une nouvelle version de la console.  Si cette option est sélectionnée, l&#39;utilisateur ne sera pas informé des nouvelles versions disponibles.
+>  Adobe recommande de ne pas sélectionner l’option **[!UICONTROL Ne plus poser cette question]** pour que tous les utilisateurs soient informés de la disponibilité d’une nouvelle version de la console.  Si cette option est sélectionnée, l’utilisateur ne sera pas informé des nouvelles versions disponibles.
 
-Si **[!UICONTROL Ne plus poser cette question]** a été sélectionné, vous pouvez réinitialiser cette invite. Seuls les administrateurs système qui maîtrisent l’édition du Registre Windows doivent apporter ces modifications :
+Si l’option **[!UICONTROL Ne plus poser cette question]** a été sélectionnée, vous pouvez réinitialiser cette invite. Seuls les administrateurs système qui maîtrisent l’édition du Registre Windows doivent apporter ces modifications :
 
 1. Ouvrez l&#39;Editeur du Registre à l&#39;aide de la commande **regedit** dans le menu **[!UICONTROL Démarrer]** > Exécuter.
 
@@ -80,18 +80,18 @@ Si **[!UICONTROL Ne plus poser cette question]** a été sélectionné, vous pou
 
 >[!NOTE]
 >
->Si vous appliquez une console mise à jour à une implémentation existante, les utilisateurs reçoivent automatiquement une invite de mise à jour de la console client. Si vous implémentez Campaign pour la première fois, les utilisateurs devront télécharger la console. Consultez ci-dessous les détails des deux options
+>Si vous appliquez une console mise à jour à une implémentation existante, les utilisateurs reçoivent automatiquement une invite de mise à jour de la console cliente. Si vous implémentez Campaign pour la première fois, les utilisateurs devront télécharger la console. Consultez ci-dessous les détails des deux options
 
 ### Mettre à jour la console - implémentation existante{#update-the-client-console}
 
-Une fois la console disponible dans le dossier du serveur Campaign, les utilisateurs sont invités à télécharger la dernière version de la console client dans une fenêtre contextuelle.
+Une fois la console disponible dans le dossier du serveur Campaign, les utilisateurs sont invités à télécharger la dernière version de la console cliente dans une fenêtre contextuelle.
 
-**Les utilisateurs devront disposer d’un accès administrateur pour effectuer la mise à jour. Si les utilisateurs ne disposent pas de droits d’administration, un administrateur système devra effectuer un déploiement sur toutes les consoles client**
+**Les utilisateurs devront disposer d’un accès administrateur pour effectuer la mise à jour. Si les utilisateurs ne disposent pas de droits d’administration, un administrateur système devra effectuer un déploiement sur toutes les consoles clientes**.
 
 
-### Téléchargez la console - nouvelle implémentation{#download-the-client-console}
+### Télécharger la console - nouvelle implémentation{#download-the-client-console}
 
-Les utilisateurs doivent maintenant télécharger et installer la console en procédant comme suit :
+Les utilisateurs doivent maintenant télécharger et installer la console en procédant comme suit :
 
 1. Ouvrez un navigateur web et téléchargez la console disponible à l’adresse suivante :
 
@@ -107,7 +107,7 @@ Les utilisateurs doivent maintenant télécharger et installer la console en pro
 1. Téléchargez et enregistrez le fichier d’installation client.
 1. Exécutez le fichier téléchargé sur un poste sous Windows : l’installation démarre. Le chemin d’installation par défaut de la console cliente est **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX Client**, où X correspond à 6 ou 7, selon votre version d’Adobe Campaign.
 
-### Créer la connexion - Nouveaux utilisateurs seulement{#create-the-connection}
+### Créer la connexion - Nouveaux utilisateurs uniquement{#create-the-connection}
 
 Une fois la console cliente installée, procédez comme suit pour créer la connexion au serveur applicatif :
 
@@ -154,7 +154,7 @@ Pour vous connecter à une instance existante, procédez comme suit :
 **Rubriques connexes :**
 
 * [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
-* [Matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 ## Tutoriel vidéo
 
