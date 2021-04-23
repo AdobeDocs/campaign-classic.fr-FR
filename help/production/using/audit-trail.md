@@ -6,14 +6,14 @@ description: Suivi
 audience: production
 content-type: reference
 topic-tags: production-procedures
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
 ---
-
 
 # Suivi{#audit-trail}
 
@@ -107,4 +107,3 @@ Pour ce faire :
    ![](assets/audit_trail_6.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** .
-
