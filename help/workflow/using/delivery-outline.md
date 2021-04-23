@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de composition de diff
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
 ---
-
 
 # Composition de diffusion{#delivery-outline}
 
@@ -48,4 +48,3 @@ L’activité de **composition de diffusion**, disponible dans les workflows de 
    La prévisualisation prend en compte le nombre d&#39;offres défini dans la diffusion. Lors de l&#39;exécution du workflow, c&#39;est le nombre défini dans la composition de diffusion qui est pris en compte.
 
    ![](assets/int_compo_offre_wf1.png)
-
