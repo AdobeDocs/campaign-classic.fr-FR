@@ -6,14 +6,14 @@ description: Offres sur canal sortant
 audience: interaction
 content-type: reference
 topic-tags: case-study
+exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
 ---
-
 
 # Offres sur canal sortant{#offers-on-an-outbound-channel}
 
@@ -126,4 +126,3 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 1. Pour conserver les données des simulations, utilisez les fonctions d&#39;historisation ou d&#39;export disponibles dans le rapport.
 
    ![](assets/offer_simulation_example_013.png)
-
