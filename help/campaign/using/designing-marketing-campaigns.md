@@ -6,14 +6,14 @@ description: Définissez, optimisez, exécutez et analysez des campagnes marketi
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
+exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
-
 
 # Conception et exécution de campagnes marketing{#designing-marketing-campaigns}
 
