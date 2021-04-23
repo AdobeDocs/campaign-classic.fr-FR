@@ -6,14 +6,14 @@ description: Créez des diffusions pour envoyer des messages personnalisés sur 
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
-workflow-type: tm+mt
+exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1211'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Canaux de communication{#communication-channels}
 
@@ -23,7 +23,7 @@ Les principales fonctionnalités comprennent le ciblage, la définition et la pe
 
 >[!NOTE]
 >
->Adobe Campaign offre un ensemble d&#39;outils permettant de surveiller votre délivrabilité et d&#39;optimiser l&#39;envoi de courriers électroniques. En savoir plus dans [cette section](../../delivery/using/about-deliverability.md).
+>Adobe Campaign offre un ensemble d’outils destinés à surveiller votre délivrabilité et à optimiser l’envoi d’emails. En savoir plus dans [cette section](../../delivery/using/about-deliverability.md).
 
 L&#39;envoi d&#39;une diffusion peut être automatisé en préparant la diffusion ou en l&#39;envoyant par le biais d&#39;un workflow. Pour plus d&#39;informations sur les activités de type diffusion dans les workflows, consultez [cette section](../../workflow/using/about-action-activities.md).
 
