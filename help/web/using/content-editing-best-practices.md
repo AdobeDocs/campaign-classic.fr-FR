@@ -6,14 +6,14 @@ description: Bonnes pratiques relatives à l'édition de contenu
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '548'
 ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques relatives à l&#39;édition de contenu{#content-editing-best-practices}
 
@@ -94,4 +94,3 @@ La section supérieure de l&#39;éditeur affiche les message liés à l&#39;éta
 * Il reste n champs ou blocs de personnalisation à configurer.
 * La contenu de la diffusion a été préparé, toute modification nécessite une nouvelle analyse.
 * La diffusion est prête à être diffusée.
-
