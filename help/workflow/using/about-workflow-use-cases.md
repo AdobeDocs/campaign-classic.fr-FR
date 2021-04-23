@@ -8,14 +8,14 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
+exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 translation-type: ht
-source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # À propos des cas pratiques de workflows {#about-workflow-use-cases}
 
