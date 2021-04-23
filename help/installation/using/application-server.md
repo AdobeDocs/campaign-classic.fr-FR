@@ -6,14 +6,14 @@ description: Serveur applicatif
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '498'
 ht-degree: 100%
 
 ---
-
 
 # Serveur applicatif{#application-server}
 
