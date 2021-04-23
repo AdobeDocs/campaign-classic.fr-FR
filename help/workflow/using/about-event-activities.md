@@ -6,14 +6,14 @@ description: À propos des activités d’événement
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 
 ---
-
 
 # À propos des activités d’événement{#about-event-activities}
 
@@ -23,4 +23,3 @@ La tâche principale de ces activités consiste à attendre un événement. Il p
 * Transfert de fichier : transfère un fichier sur un serveur. Voir à ce sujet la section [Transfert de fichier](../../workflow/using/file-transfer.md).
 * Téléchargement Web : télécharge un fichier depuis le web. Voir à ce sujet la section [Téléchargement Web](../../workflow/using/web-download.md).
 * Réception de SMS et Réception d’emails : récupère et traite des emails ou des SMS. Voir à ce sujet les sections [Réception de SMS](../../workflow/using/inbound-sms.md) et [Réception d’emails](../../workflow/using/inbound-emails.md).
-
