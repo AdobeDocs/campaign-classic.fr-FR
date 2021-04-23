@@ -6,14 +6,14 @@ description: Découvrez comment effectuer des tests A/B à l’aide d’un cas d
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 translation-type: ht
-source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '244'
 ht-degree: 100%
 
 ---
-
 
 # À propos de ce cas d&#39;utilisation {#about-use-case}
 
