@@ -6,14 +6,14 @@ description: Connexion impossible
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '377'
 ht-degree: 100%
 
 ---
-
 
 # Connexion impossible{#failure-to-connect}
 
