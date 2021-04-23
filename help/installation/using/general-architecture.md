@@ -6,14 +6,14 @@ description: Découvrez comment installer et configurer Campaign Classic.
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1336'
 ht-degree: 100%
 
 ---
-
 
 # Architecture générale{#general-architecture}
 
