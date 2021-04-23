@@ -6,14 +6,14 @@ description: Découvrez comment configurer l’accès à Hadoop dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '619'
 ht-degree: 100%
 
 ---
-
 
 # Configurer l’accès à Hadoop {#configure-access-to-hadoop}
 
@@ -188,4 +188,3 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-des
    ```
 
 1. Créez le compte externe Hadoop, comme décrit dans [cette section](#hadoop-external).
-
