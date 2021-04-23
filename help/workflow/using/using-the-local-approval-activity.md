@@ -6,14 +6,14 @@ description: Découvrez comment utiliser l’activité Validation en local
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1430'
 ht-degree: 100%
 
 ---
-
 
 # Utiliser l&#39;activité Validation en local{#using-the-local-approval-activity}
 
@@ -219,4 +219,3 @@ Cet onglet affiche les informations suivantes :
 L&#39;onglet **[!UICONTROL Ciblés]** du log de validation affiche la liste des destinataires ciblés et leur statut de validation. Vous avez la possibilité de modifier ce statut si besoin.
 
 ![](assets/local_validation_admin_6.png)
-
