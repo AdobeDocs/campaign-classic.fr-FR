@@ -6,14 +6,14 @@ description: Créer et identifier la diffusion
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
 
 ---
-
 
 # Créer et identifier la diffusion {#create-and-identify-the-delivery}
 
@@ -55,4 +55,3 @@ Le contenu de la diffusion est prêt à être configuré. La définition du cont
 * [Définir le contenu du SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
 * [Définir le contenu du courrier](../../delivery/using/defining-the-direct-mail-content.md)
 * [Notifications push](../../delivery/using/about-mobile-app-channel.md)
-
