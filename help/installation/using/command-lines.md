@@ -6,14 +6,14 @@ description: Lignes de commande
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 translation-type: ht
-source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '150'
 ht-degree: 100%
 
 ---
-
 
 # Lignes de commande{#command-lines}
 
@@ -51,4 +51,3 @@ La commande suivante paramètre l&#39;instance **demo** avec la base de type SQL
 ```
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo
 ```
-
