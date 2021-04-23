@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de diffusion récurren
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # Diffusion récurrente{#recurring-delivery}
 
@@ -53,4 +53,3 @@ Cette vidéo explique comment configurer une diffusion récurrente et une activi
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
-
