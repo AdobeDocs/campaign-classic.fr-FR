@@ -6,14 +6,14 @@ description: Autorisations d’accès aux bases de données externes
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1029'
 ht-degree: 100%
 
 ---
-
 
 # Droits d&#39;accès à la base externe {#remote-database-access-rights}
 
@@ -55,7 +55,7 @@ L’administrateur de la base de données doit mettre en correspondance ces droi
 | **Création de tables** | Privilège CREATE TABLE ON SCHEMA  | Privilège CREATE | Privilège CREATE TABLE | Permission CREATE TABLE | Privilège CREATE | Privilège CREATE |
 | **Création d’index** | N/A | Privilège CREATE | Privilège INDEX ou CREATE ANY INDEX | Permission ALTER | Privilège CREATE | Privilège INDEX |
 | **Création de fonctions** | Privilège CREATE FUNCTION ON SCHEMA | Privilège USAGE ON LANGUAGE plpythonu pour pouvoir appeler des scripts Python externes | Privilège CREATE PROCEDURE ou CREATE ANY PROCEDURE | Permission CREATE FUNCTION | Privilège USAGE | Privilège CREATE ROUTINE |
-| **Création de procédures** | S/O | Privilège USAGE ON LANGUAGE plpythonu pour pouvoir appeler des scripts Python externes | Privilège CREATE PROCEDURE ou CREATE ANY PROCEDURE | Permission CREATE PROCEDURE | Privilège USAGE (les procédures sont des fonctions) | Privilège CREATE ROUTINE |
+| **Création de procédures** | N/A | Privilège USAGE ON LANGUAGE plpythonu pour pouvoir appeler des scripts Python externes | Privilège CREATE PROCEDURE ou CREATE ANY PROCEDURE | Permission CREATE PROCEDURE | Privilège USAGE (les procédures sont des fonctions) | Privilège CREATE ROUTINE |
 | **Suppression d’objets (tables, index, fonctions, procédures)** | Propriété de l’objet | Être propriétaire de l’objet ou être un super-utilisateur | Privilège DROP ANY &lt; objet >  | Permission ALTER | Table : propriété de la table Index : propriété de l’index Fonction : propriété de la fonction | Privilège DROP |
 | **Surveillance des exécutions** | Privilège MONITOR sur l’objet requis | Aucun privilège requis pour utiliser la commande EXPLAIN | Privilèges INSERT et SELECT et privilège nécessaire pour exécuter l’instruction sur laquelle repose la séquence des opérations EXPLAIN PLAN | Permission SHOWPLAN | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Privilège SELECT |
 | **Écriture de données** | Privilèges INSERT et/ou UPDATE (selon l’opération d’écriture) | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE ou INSERT et UPDATE ANY TABLE | Permissions INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE |
