@@ -6,18 +6,18 @@ description: Cas pratique
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-
 # Cas pratique{#use-case}
 
-## Créer un filtre sur le format d&#39;un email des abonnés {#creating-a-filter-on-the-email-format-of-subscribers}
+## Créer un filtre sur le format des emails des abonnés {#creating-a-filter-on-the-email-format-of-subscribers}
 
 Dans le ce cas pratique, nous allons créer un filtre afin de trier les abonnement à des newsletters en fonction du format d&#39;email renseigné par les destinataires.
 
@@ -44,7 +44,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   Ces champs seront accessibles pour la définition des conditions de filtrage dans le corps de l&#39;éditeur de filtres. Le mode de définition d&#39;un filtre applicatif est identique à celui d&#39;un filtre avancé. Voir [Création d’un filtre avancé](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   Ces champs seront accessibles pour la définition des conditions de filtrage dans le corps de l&#39;éditeur de filtres. Le mode de définition d&#39;un filtre applicatif est identique à celui d&#39;un filtre avancé. Voir la section [Créer un filtre avancé](../../platform/using/creating-filters.md#creating-an-advanced-filter).
 
 1. Créez un nouveau filtre sur les abonnements afin de n&#39;afficher que les abonnements pour lequel aucun format des email n&#39;a été défini :
 
@@ -58,4 +58,3 @@ Les étapes sont les suivantes :
    Le nom du filtre courant est affiché au-dessus de la liste. Pour annuler ce filtre, cliquez sur l&#39;icône **[!UICONTROL Supprimer ce filtre]**.
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)
-
