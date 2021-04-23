@@ -6,14 +6,14 @@ description: Architectures réparties
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
 
 ---
-
 
 # Architectures réparties{#distributed-architectures}
 
@@ -229,4 +229,3 @@ GO
 CREATE NONCLUSTERED INDEX NmsPropositionRcp_recipientId ON NmsPropositionRcp (iRecipientId)
 GO
 ```
-
