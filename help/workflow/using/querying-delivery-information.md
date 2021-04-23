@@ -6,14 +6,14 @@ description: Découvrez comment interroger les informations diffusion
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1541'
 ht-degree: 100%
 
 ---
-
 
 # Requête sur les informations de diffusion {#querying-delivery-information}
 
