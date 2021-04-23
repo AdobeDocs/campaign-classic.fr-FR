@@ -6,14 +6,14 @@ description: Résolution des problèmes
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
+exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 translation-type: ht
-source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '98'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes{#troubleshooting}
 
