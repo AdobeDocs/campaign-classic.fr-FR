@@ -6,14 +6,14 @@ description: En savoir plus sur l'activité de workflow Branchement
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
-workflow-type: tm+mt
+exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
 ---
-
 
 # Branchement{#fork}
 
