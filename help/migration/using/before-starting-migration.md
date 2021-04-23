@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
 ht-degree: 100%
 
