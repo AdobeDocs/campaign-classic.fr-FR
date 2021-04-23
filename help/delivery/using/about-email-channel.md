@@ -6,14 +6,14 @@ description: Cette section fournit des informations générales spécifiques au 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
 ---
-
 
 # A propos du canal email{#about-email-channel}
 
