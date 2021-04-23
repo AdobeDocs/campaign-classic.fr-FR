@@ -6,14 +6,14 @@ description: Coupons personnalisés
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
-workflow-type: tm+mt
+exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '958'
 ht-degree: 100%
 
 ---
-
 
 # Coupons personnalisés{#personalized-coupons}
 
