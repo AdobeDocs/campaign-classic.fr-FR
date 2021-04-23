@@ -6,14 +6,14 @@ description: A propos des canaux sortants
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
 ---
-
 
 # A propos des canaux sortants{#about-outbound-channels}
 
