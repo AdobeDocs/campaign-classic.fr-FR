@@ -6,14 +6,14 @@ description: Découvrez comment restaurer la version précédente
 audience: migration
 content-type: reference
 topic-tags: rollback
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '291'
 ht-degree: 100%
 
 ---
-
 
 # Restauration de la version précédente{#about-rollback}
 
