@@ -6,14 +6,14 @@ description: Workflows techniques
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
-workflow-type: tm+mt
+exl-id: 771b08df-69f8-4a35-8c78-99edf0a66c69
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
 ---
-
 
 # Workflows techniques{#technical-workflows}
 
