@@ -6,14 +6,14 @@ description: 'Administration '
 audience: production
 content-type: reference
 topic-tags: production-procedures
-translation-type: tm+mt
-source-git-commit: 9c78d8f469bade41717eb854e8cec00859c1d4e3
-workflow-type: tm+mt
+exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 
 ---
-
 
 # Administration{#administration}
 
@@ -80,14 +80,19 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    >* Utilisez l&#39;option **-immediate** en cas d&#39;urgence pour forcer l&#39;arrêt immédiat du processus (équivalent à la commande **kill -9** Unix).
    >* Utilisez l’option **-noconsole** pour assurer que le module lancé n’affiche rien sur la console. Ses logs seront écrits sur le disque via le module **syslogd**.
    >* Utilisez l’option **-verbose** pour afficher davantage d&#39;informations sur les actions du processus.
-   >
-   >   Exemple:
-   >
-   >   **nlserver restart web -verbose**
-   >
-   >   **nlserver start mta@moninstance -verbose**
-   >
-   >   Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
+
+      >
+      >   
+      Exemple:
+      >
+      >   
+      **nlserver restart web -verbose**
+      >
+      >   
+      **nlserver start mta@moninstance -verbose**
+      >
+      >   
+      Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
 
 
 * Démarrer tous les processus Adobe Campaign (équivalent à un démarrage du service **nlserver6**) :
@@ -105,4 +110,3 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    >[!NOTE]
    >
    >Certaines modifications de la configuration ne sont pas prises en compte dynamiquement et nécessitent un arrêt/démarrage complet d&#39;Adobe Campaign.
-
