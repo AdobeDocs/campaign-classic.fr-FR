@@ -6,14 +6,14 @@ description: Structure d'un formulaire
 audience: configuration
 content-type: reference
 topic-tags: input-forms
+exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 translation-type: ht
-source-git-commit: f82f71f4eed44f4f12ab7a65188d25ff6c552d35
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '2402'
 ht-degree: 100%
 
 ---
-
 
 # Structure d&#39;un formulaire{#form-structure}
 
@@ -670,4 +670,3 @@ L&#39;attribut **exprIn** contient l&#39;emplacement de la donnée à passer en 
   </soapCall>
 </leave>
 ```
-
