@@ -6,14 +6,14 @@ description: Comment configurer des liens trackés
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 translation-type: ht
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
 ---
-
 
 # Comment configurer des liens trackés{#how-to-configure-tracked-links}
 
