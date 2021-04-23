@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Les étapes sont les suivantes :
 
 1. Remplacez le mot de passe **internal** par celui du serveur applicatif.
 
-   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+   Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 1. Rattachez la base de données sur l&#39;instance :
 
@@ -117,7 +117,7 @@ Les étapes sont les suivantes :
 
 1. A partir des fichiers **config-default.xml** et **config-demo.xml**, activez les modules **web**, **trackinglogd** et **mta**.
 
-   Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
+   Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 1. Editez le fichier **serverConf.xml** et renseignez :
 
