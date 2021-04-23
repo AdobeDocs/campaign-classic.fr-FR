@@ -6,14 +6,14 @@ description: Les points d'extension
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '519'
 ht-degree: 100%
 
 ---
-
 
 # Les points d&#39;extension{#hooks}
 
@@ -149,4 +149,3 @@ var product = getUrl("https://EXTERNAL_SYSTEM?offerCode=" + encodeURIComponent(x
 if( product )
   return [{offer_id: parseInt(String(xmlOffer.@id)), weight: dWeight, productId: product}];
 ```
-
