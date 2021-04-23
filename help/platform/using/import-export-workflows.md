@@ -6,22 +6,22 @@ description: Découvrez comment importer et exporter des données à l'aide de w
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-
-# Importer et exporter des données à l&#39;aide de workflows {#import-export-workflows}
+# Import et export de données à l’aide de workflows {#import-export-workflows}
 
 ## Collecter des données {#collecting-data-workflows}
 
 Les workflows peuvent être utiles pour automatiser certains de vos imports. Que vous importiez des données à partir d&#39;un fichier local ou d&#39;un serveur SFTP, vous pouvez utiliser des workflows pour standardiser vos procédures de gestion des données.
 
-### Utiliser les données d&#39;une liste : Lecture de liste {#using-data-from-a-list--read-list}
+### Utiliser les données d’une liste : lecture de liste {#using-data-from-a-list--read-list}
 
 Les données traitées dans un workflow peuvent provenir de listes dont les données ont été préparées et structurées au préalable.
 
@@ -29,7 +29,7 @@ Ces listes peuvent avoir été constituées directement dans Adobe Campaign ou i
 
 Pour plus d&#39;informations sur l&#39;utilisation de l&#39;activité de lecture de liste dans un workflow, consultez [cette page](../../workflow/using/read-list.md).
 
-### Charger les données à partir d&#39;un fichier {#loading-data-from-a-file}
+### Charger des données depuis un fichier {#loading-data-from-a-file}
 
 Les données traitées dans un workflow peuvent êtes extraites d&#39;un fichier structuré pour qu&#39;il puisse être importé dans Adobe Campaign.
 
