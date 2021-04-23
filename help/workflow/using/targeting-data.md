@@ -6,14 +6,14 @@ description: En savoir plus sur le ciblage des données dans un workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2011'
 ht-degree: 100%
 
 ---
-
 
 # Cibler les données{#targeting-data}
 
@@ -256,4 +256,3 @@ Les données identifiées et collectées peuvent être enrichies, regroupées et
 * L’activité **[!UICONTROL Enrichissement]** permet d’ajouter momentanément des colonnes à un schéma et d’ajouter des informations à certains éléments. Elle est présentée dans la section [Enrichissement](../../workflow/using/enrichment.md) du référentiel des activités.
 * L’activité **[!UICONTROL Edition du schéma]** permet de modifier la structure d’un schéma. Elle est présentée dans la section [Edition du schéma](../../workflow/using/edit-schema.md) du référentiel des activités.
 * L’activité **[!UICONTROL Changement de dimension]** permet de modifier la dimension de ciblage pendant le cycle de construction de la cible. Elle est présentée dans la section [Changement de dimension](../../workflow/using/change-dimension.md).
-
