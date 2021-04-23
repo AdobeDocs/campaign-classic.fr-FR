@@ -6,14 +6,14 @@ description: Bonnes pratiques en matière de reporting Campaign
 audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '839'
 ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques en matière de reporting{#best-practices-reporting}
 
