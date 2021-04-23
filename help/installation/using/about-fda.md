@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
