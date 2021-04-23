@@ -6,14 +6,14 @@ description: Découvrez comment installer les packages standard de Campaign
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-translation-type: tm+mt
-source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
-workflow-type: tm+mt
+exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1208'
 ht-degree: 100%
 
 ---
-
 
 # Installation des packages standard de Campaign Classic{#installing-campaign-standard-packages}
 
@@ -39,7 +39,7 @@ Pour installer un package natif :
    >Lorsqu&#39;un package est grisé, cela signifie qu&#39;il est déjà installé ou qu&#39;il n&#39;est pas compatible avec votre instance. La compatibilité est détaillée dans le tableau ci-dessous.
 1. Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour commencer l&#39;installation du package.
 
-   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les logs d&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
+   Une fois les packages installés, la barre de progression indique **100 %**. De plus, les journaux de l&#39;installation contiennent le message suivant : **[!UICONTROL L&#39;installation des packages s&#39;est terminée avec succès]**.
 
 1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
 
@@ -255,4 +255,3 @@ Vous devez installer des canaux de diffusion (email, canal mobile, canal d&#39;a
 >[!CAUTION]
 >
 >Les modèles de diffusion du Message Center pour LINE ne seront pas disponibles si les packages Message Center sont installés avant LINE
-
