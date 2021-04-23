@@ -6,14 +6,14 @@ description: Limitation de l'affichage des PII
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
 ---
-
 
 # Limitation de l’affichage des PII{#restricting-pii-view}
 
@@ -92,4 +92,3 @@ Vous trouverez ci-dessous un exemple d’extension de table de logs pour mettre 
 >[!NOTE]
 >
 >Cette restriction s’applique aux utilisateurs n’ayant pas de connaissances techniques : un utilisateur technique, avec les permissions associées, sera en mesure de récupérer les données. Cette méthode n’est donc pas entièrement sûre.
-
