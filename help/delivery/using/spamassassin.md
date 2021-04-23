@@ -6,14 +6,14 @@ description: Découvrez comment configurer la détection des messages indésirab
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '264'
 ht-degree: 100%
 
 ---
-
 
 # SpamAssassin{#spamassassin}
 
