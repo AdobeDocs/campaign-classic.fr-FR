@@ -6,14 +6,14 @@ description: Désinscription (opt-out) du tracking des applications web
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '670'
 ht-degree: 100%
 
 ---
-
 
 # Désinscription (opt-out) du tracking des applications web{#web-application-tracking-opt-out}
 
@@ -153,4 +153,3 @@ var webTracking = new NL.ServerWebTracking(request, 'optOutBanner');
 </body>
 </html>
 ```
-
