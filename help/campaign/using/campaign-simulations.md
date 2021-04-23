@@ -6,14 +6,14 @@ description: Simulation de campagnes
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
+exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1373'
 ht-degree: 100%
 
 ---
-
 
 # Simulation de campagnes{#campaign-simulations}
 
