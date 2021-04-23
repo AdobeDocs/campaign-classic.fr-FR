@@ -6,14 +6,14 @@ description: Règles de filtrage
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
-
 
 # Règles de filtrage{#filtering-rules}
 
@@ -84,7 +84,7 @@ Vous pouvez également associer directement des règles de filtrage depuis cet o
 >Ces paramétrages peuvent être définis au niveau du modèle de diffusion afin de les appliquer automatiquement à toute nouvelle diffusion créée à partir de ce modèle.
 
 
-## Règles d&#39;exclusion de délivrabilité par défaut       {#default-deliverability-exclusion-rules}
+## Règles d&#39;exclusion de délivrabilité par défaut      {#default-deliverability-exclusion-rules}
 
 Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclusion des adresses]** (**[!UICONTROL addressExclusions]**) et **[!UICONTROL Exclusion des domaines]** (**[!UICONTROL domainExclusions]**). Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
@@ -93,4 +93,3 @@ Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée li
 >[!NOTE]
 >
 >Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre des destinataires exclus est indiqué dans les logs d&#39;analyse de diffusion.
-
