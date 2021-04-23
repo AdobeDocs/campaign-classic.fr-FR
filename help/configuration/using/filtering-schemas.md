@@ -6,14 +6,14 @@ description: Filtrage des schémas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 
 ---
-
 
 # Filtrage des schémas{#filtering-schemas}
 
@@ -113,4 +113,3 @@ Il est tout de même possible de modifier les filtres système des schémas d’
 1. Créez une extension du schéma concerné ou ouvrez une extension existante.
 1. Dans l’élément principal, ajoutez un élément enfant **`<sysfilter name="<filter name>" _operation="delete"/>`** afin de supprimer l’application du filtre du même nom dans le schéma d’origine.
 1. Ajoutez un nouveau filtre si vous le souhaitez, comme décrit dans la section [Filtres système](#system-filters).
-
