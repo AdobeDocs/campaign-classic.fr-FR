@@ -6,14 +6,14 @@ description: Problèmes de performance et de débit
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
-workflow-type: tm+mt
+exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '711'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
-
 
 # Problèmes de performance et de débit{#performance-and-throughput-issues}
 
@@ -52,7 +52,7 @@ Voici une liste d’articles relatifs aux bonnes pratiques en matière de config
 
 * Processus et mémoire MTA et MTAChild : le module **mta** distribue les messages à ses modules fils **mtachild**. Chaque **mtachild** prépare les messages, puis demande l’autorisation au serveur de statistiques avant de les envoyer. Consultez cette [page](../../installation/using/email-deliverability.md) pour plus d’informations.
 * Configuration de TLS : l’activation globale de TLS n’est pas recommandée, car elle peut réduire le débit. Les paramètres TLS par domaine, gérés par l’équipe de délivrabilité, doivent plutôt être réglés en fonction des besoins. Consultez cette [page](../../installation/using/email-deliverability.md#mx-configuration) pour plus d’informations.
-* DKIM : pour assurer le niveau de sécurité du DKIM, la norme 1024b est la meilleure pratique de chiffrement recommandée. Les clés DKIM inférieures ne seront pas considérées comme valides par la majorité des fournisseurs d’accès. Consultez à ce sujet [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* DKIM : pour assurer le niveau de sécurité du DKIM, la valeur 1024b est la taille de chiffrement recommandée selon les bonnes pratiques. Les clés DKIM inférieures ne seront pas considérées comme valides par la majorité des fournisseurs d’accès. Reportez-vous à [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 
 ## Problèmes de délivrabilité {#deliverability-issues}
 
@@ -67,4 +67,4 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
 
 >[!NOTE]
 >
->Voir aussi la section [Livraison](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+>Voir aussi la section [Delivrabilité](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
