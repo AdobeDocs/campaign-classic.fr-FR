@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '7970'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -2193,7 +2193,7 @@ Voici les différents paramètres du nœud **repair**. Il s’agit de la configu
 
 Voici les différents paramètres du nœud **securityZone**.
 
-Pour plus d&#39;informations, consultez [Définir des zones de sécurité](../../installation/using/security-zones.md).
+Pour plus d’informations, voir la section [Définition des zones de sécurité](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2291,7 +2291,7 @@ Voici la configuration par défaut :
 
 Voici les différents paramètres du nœud **securityZone > subNetwork**.
 
-Pour plus d&#39;informations, consultez [Définir des zones de sécurité](../../installation/using/security-zones.md).
+Pour plus d’informations, voir la section [Définition des zones de sécurité](../../installation/using/security-zones.md).
 
 <table> 
  <thead> 
@@ -2858,13 +2858,13 @@ Voir à ce sujet cette [section](configuring-campaign-server.md#default-port-for
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Port de contrôle d’écoute Tomcat : voir <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
+   <td> Port d’écoute de contrôle du Tomcat : voir la section <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Port d’écoute HTTP Tomcat : voir <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
+   <td> Port d’écoute HTTP du Tomcat : voir la section <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
    <td> Court<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -3149,7 +3149,7 @@ Pour plus d&#39;informations, voir la section [Sécurité et relais des pages dy
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> URL de la page de cible : voir <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
+   <td> URL de la page cible : voir la section <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
