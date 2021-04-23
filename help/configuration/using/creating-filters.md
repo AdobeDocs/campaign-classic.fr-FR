@@ -6,14 +6,14 @@ description: Création de filtres
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '98'
 ht-degree: 100%
 
 ---
-
 
 # Création de filtres{#creating-filters}
 
@@ -26,4 +26,3 @@ Ces filtres seront disponibles dans l&#39;écran de sélection de la cible au m�
 1. Complétez le **[!UICONTROL Libellé]** du filtre puis sélectionnez dans le champ **[!UICONTROL Type de document]** le schéma correspondant à la table externe des destinataires.
 1. Créez vos **[!UICONTROL conditions de filtrage]** basées sur les champs de votre schéma.
 1. Enregistrez le filtre.
-
