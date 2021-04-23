@@ -6,14 +6,14 @@ description: Recommandations à propos de la base de données
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
 ---
-
 
 # Base de données{#database}
 
