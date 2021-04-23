@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -24,6 +24,6 @@ Une fois l’installation d’Adobe Campaign terminée, vous devez en effectuer 
 1. Pour configurer le serveur Adobe Campaign, consultez la section [Configuration du serveur Campaign](../../installation/using/configuring-campaign-server.md).
 1. Pour déployer l’instance, consultez la section [Déploiement d’une instance](../../installation/using/deploying-an-instance.md).
 
-La configuration d&#39;une instance implique l&#39;activation des processus (web, mta, wfserver, etc.) à démarrer sur le serveur et le paramétrage des modules pour l&#39;envoi des e-mails, du tracking, etc. Pour chaque instance, l&#39;activation des processus Adobe Campaign est réalisée sur le serveur. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
+La configuration d’une instance implique l’activation des processus (web, mta, wfserver, etc.) à démarrer sur le serveur et le paramétrage des modules pour l’envoi des emails, du tracking, etc. Pour chaque instance, l’activation des processus Adobe Campaign est réalisée sur le serveur. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-Des paramétrages complémentaires au niveau de chaque instance peuvent être nécessaires, selon les modules utilisés, votre architecture et vos besoins et afin d&#39;optimiser le fonctionnement d&#39;Adobe Campaign.
+Des paramétrages complémentaires au niveau de chaque instance peuvent être nécessaires, selon les modules utilisés, votre architecture et vos besoins et afin d’optimiser le fonctionnement d’Adobe Campaign.
