@@ -7,17 +7,17 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Qu’est-ce que la délivrabilité ?{#about-deliverability}
 
-La délivrabilité vous permet de mesurer le succès de vos campagnes en atteignant la boîte de réception de vos destinataires sans rebondir ni être marqué comme indésirable. [Découvrez pourquoi la délivrabilité est importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=fr#why-deliverability-matters).
+La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires, et ce, sans rebonds et sans être marquées comme spam. [Découvrez pourquoi la délivrabilité est importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=fr#why-deliverability-matters).
 
 Plus précisément, la délivrabilité des emails désigne l’ensemble des caractéristiques qui déterminent la capacité d’un message à atteindre sa destination, par l’intermédiaire d’une adresse email personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format.
 
@@ -29,11 +29,11 @@ En règle générale, les problèmes de délivrabilité sont liés aux mesures d
 
 * Pour obtenir des recommandations générales sur la manière de concevoir des campagnes de marketing par email réussies, consultez la section [Stratégie et définition de la délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=fr).
 
-* Pour des recommandations plus spécifiques sur la façon d&#39;optimiser la délivrabilité de vos courriels Adobe Campaign, l&#39;Adobe recommande d&#39;utiliser les meilleures pratiques répertoriées dans cette section.
+* Pour bénéficier de recommandations plus spécifiques quant à la manière d’optimiser la délivrabilité de vos emails Adobe Campaign, Adobe recommande de suivre les bonnes pratiques répertoriées dans cette section.
 
 >[!NOTE]
 >
->Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), qui est mis à jour régulièrement.
+>Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr), qui est mis à jour régulièrement.
 
 ### Taux de délivrabilité
 
@@ -53,11 +53,11 @@ Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, pa
 ## Outils de délivrabilité de Campaign {#deliverability-tools}
 
 <!--Adobe Campaign provides a number of tools designed to ensure optimal deliverability.-->
-Adobe Campaign fournit plusieurs outils pour suivre et améliorer les performances de délivrabilité de votre plate-forme. Cette page met également en avant les principes clés à garder en tête pour optimiser la délivrabilité lors de l’utilisation de Campaign.
+Adobe Campaign fournit différents outils pour suivre et améliorer les performances de délivrabilité de votre plateforme. Cette page met également en avant les principes clés à garder en tête pour optimiser la délivrabilité lors de l’utilisation de Campaign.
 
 ### Création minutieuse de votre message
 
-Lors de la configuration, de la conception et du test de votre message, veillez à respecter les meilleures pratiques mentionnées dans les sections ci-dessous. L&#39;exploitation de toutes les fonctionnalités fournies par Adobe Campaign vous aide à améliorer la délivrabilité.
+Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d’Adobe Campaign contribue à améliorer la délivrabilité.
 
 * [Bonnes pratiques relatives à la diffusion](../../delivery/using/delivery-best-practices.md)
 * [Contrôle du contenu des emails](../../delivery/using/control-message-content.md)
@@ -66,9 +66,9 @@ Lors de la configuration, de la conception et du test de votre message, veillez 
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 
-Pour éviter d’envoyer des messages à des adresses non valides, limiter les communications abusives et améliorer la réputation de l’expéditeur, Adobe recommande de mettre en place un mécanisme de double opt-in. Cette méthode vous permet de vous assurer que vos destinataires se sont abonnés intentionnellement.
+Pour éviter d’envoyer des messages à des adresses non valides, limiter les communications abusives et améliorer la réputation de l’expéditeur, Adobe recommande de mettre en place un mécanisme de double opt-in. Vous pouvez ainsi vous assurer que vos destinataires se sont abonnés intentionnellement.
 
-Pour plus d&#39;informations à ce sujet, voir [Créer un formulaire d&#39;abonnement avec double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
+Pour plus d’informations à ce sujet, voir [Créer un formulaire d’abonnement avec double opt-in](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 Pour plus d’informations sur les bonnes pratiques à appliquer lors de la collecte de données auprès de vos clients, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=fr#data-quality-and-hygiene).
 
@@ -90,7 +90,7 @@ Voir à ce propos les sections suivantes :
 
 Utilisez les outils proposés par Adobe Campaign pour surveiller votre délivrabilité.
 
-Adobe Campaign vous permet de vérifier les performances de vos diffusions à l’aide d’un ensemble d’indicateurs et de rapports en temps réel intégrés afin de mieux comprendre vos diffusions.
+Adobe Campaign permet de vérifier les performances de vos diffusions et de les comprendre à l’aide d’un ensemble d’indicateurs et de rapports en temps réel intégrés.
 
 Voir à ce propos les sections suivantes :
 
