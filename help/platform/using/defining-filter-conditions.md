@@ -6,18 +6,18 @@ description: Définir les conditions de filtrage
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '3394'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-
 # Définition des conditions de filtre{#defining-filter-conditions}
 
-## Sélectionnez l’opérateur {#choosing-the-operator}
+## Sélectionner l’opérateur {#choosing-the-operator}
 
 Dans une condition de filtrage, il faut lier deux valeurs grâce à un opérateur.
 
@@ -117,7 +117,7 @@ Voici une liste descriptive des opérateurs disponibles :
  </tbody> 
 </table>
 
-## Utilisez ET, OU, SAUF {#using-and--or--except}
+## Utiliser ET, OU, SAUF {#using-and--or--except}
 
 Dans les requêtes utilisant plus d&#39;un critère de filtrage, vous devez définir les liens entre conditions. Il y a trois liens possibles :
 
@@ -146,7 +146,7 @@ Cet autre exemple montre un filtre permettant d&#39;afficher : les destinataires
 
 ![](assets/query_editor_nveau_31.png)
 
-## Attribuer la priorité aux conditions {#prioritizing-conditions}
+## Hiérarchiser les conditions {#prioritizing-conditions}
 
 Cette section explique comment hiérarchiser les conditions. Ceci est possible grâce aux flèches bleues situées dans la barre d&#39;outils.
 
@@ -259,7 +259,7 @@ Liens vers une table et éléments de collection :
 
 >[!NOTE]
 >
->* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d&#39;informations sur la modification d&#39;une expression, consultez [cette section](#building-expressions).
+>* Utilisez le bouton **[!UICONTROL Ajouter]** (au-dessus de la barre d’icônes latérale) pour ajouter une colonne de sortie dans laquelle vous souhaitez modifier l’expression. Pour plus d’informations sur la modification d’une expression, voir [cette section](#building-expressions).
 >* Supprimez une colonne de sortie en cliquant sur la croix rouge **Supprimer**.
 >* Modifiez l&#39;ordre des colonnes de sortie grâce aux flèches.
 >* L’icône **[!UICONTROL Répartition des valeurs]** sert à visualiser la répartition des valeurs du champ sélectionné (par exemple, les répartitions liées aux villes des destinataires, à la langue des destinataires, etc.).
