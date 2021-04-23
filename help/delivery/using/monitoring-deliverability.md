@@ -6,20 +6,20 @@ description: Découvrez les outils et les directives concernant la supervision d
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
-source-git-commit: 5d1a653a9a164c34bb70efcc86ff2d7bdf1130a2
-workflow-type: tm+mt
+exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-
 # Contrôle de la délivrabilité{#monitoring-deliverability}
 
-Vous trouverez ci-dessous des détails sur les différents outils de surveillance fournis par Adobe Campaign, ainsi que des directives supplémentaires sur l&#39;exploitation des fonctionnalités offertes par Adobe Campaign pour surveiller la délivrabilité de votre plateforme.
+Vous trouverez ci-dessous des détails sur les différents outils de surveillance fournis par Adobe Campaign, ainsi que des directives supplémentaires sur l’exploitation des fonctionnalités offertes par Adobe Campaign pour surveiller la délivrabilité de votre plateforme.
 
-## Supervision de la délivrabilité {#configuration}
+## Surveillance de la délivrabilité {#configuration}
 
 Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign. Pour l’utiliser, ce package doit être installé. Une fois l&#39;installation terminée, redémarrez le serveur pour que le package soit pris en compte.
 * Pour les clients hébergés et hybrides, la **supervision de la délivrabilité** est configurée sur votre instance par l&#39;assistance technique et les consultants d&#39;Adobe. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
@@ -33,7 +33,7 @@ Le package Délivrabilité vous donne accès aux informations suivantes :
 * [Rapport Inbox rendering](../../delivery/using/inbox-rendering.md), qui permet la prévisualisation de vos messages sur les principaux clients de messagerie afin d’analyser le contenu et la réputation.
 * Vue d’ensemble de la qualité des messages (boîte de réception, spam).
 
-## Outils de monitoring {#monitoring-tools}
+## Outils de surveillance {#monitoring-tools}
 
 Vous pouvez également utiliser les outils suivants :
 
@@ -55,7 +55,7 @@ Voici quelques directives supplémentaires concernant la supervision de la déli
 * Vérifiez régulièrement le [débit des diffusions](../../reporting/using/global-reports.md#delivery-throughput) pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
 * Vérifiez que les [reprises](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
 * Vérifiez régulièrement que la boîte des [emails rebonds](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
-* Vérifiez le débit de chaque diffusion, accessible à partir du [tableau de bord de diffusion](../../delivery/using/delivery-dashboard.md), pour vous assurer qu&#39;il est conforme à la validité du contenu de la diffusion (par ex. Les &quot;ventes Flash&quot; doivent être livrées en minutes et non en jours).
+* Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](../../delivery/using/delivery-dashboard.md), pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
 * Lors de l’utilisation des [vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
 * Vérifiez que le nombre d’erreurs et les [mises en quarantaine](../../delivery/using/understanding-quarantine-management.md) correspondent aux autres diffusions.
 * Consultez attentivement les [logs de diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
