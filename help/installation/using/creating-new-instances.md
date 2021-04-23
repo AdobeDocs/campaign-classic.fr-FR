@@ -6,14 +6,14 @@ description: Création de nouvelles instances
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
 ---
-
 
 # Création de nouvelles instances{#creating-new-instances}
 
@@ -28,4 +28,3 @@ Pour cela, connectez-vous à une base de données existante puis respectez les �
    ![](assets/s_ncs_install_declare_instance_menu.png)
 
    Spécifiez les paramètres de la nouvelle instance. Voir à ce propos la section [Création et connexion à une instance](../../installation/using/creating-an-instance-and-logging-on.md).
-
