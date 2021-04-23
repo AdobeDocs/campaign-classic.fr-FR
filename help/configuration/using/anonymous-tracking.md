@@ -6,14 +6,14 @@ description: Tracking anonyme
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Tracking anonyme{#anonymous-tracking}
 
@@ -34,4 +34,3 @@ Pour activer le tracking Web anonyme sur votre instance, les éléments suivants
 * Les formulaires Web et questionnaires doivent être publiés et exécutés sur le serveur de tracking. L&#39;option correspondante doit être sélectionnée dans l&#39;assistant de déploiement.
 
    ![](assets/webtracking_publication_set_for_webapps.png)
-
