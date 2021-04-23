@@ -5,14 +5,14 @@ title: Créer du contenu personnalisé
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
-source-git-commit: 40edacce1812a1722e5a23e5db7da11687c44ac8
-workflow-type: tm+mt
+exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1289'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Créer du contenu personnalisé {#build-personalized-content}
 
@@ -114,7 +114,7 @@ Pour éviter les erreurs de formatage courantes, tenez compte des éléments sui
 
 * Utilisation de **carcatères autorisés** dans les emails : la liste des caractères valides pour les adresses email est définie dans l’option « XtkEmail_Characters ». Découvrez comment accéder aux options Campaign [dans cette section](../../installation/using/configuring-campaign-options.md). Pour gérer correctement les caractères spéciaux, Adobe Campaign doit être installé en Unicode.
 
-* Configuration de l’**authentification des emails** : assurez-vous que les en-têtes d’email contiennent la signature DKIM. L’authentification DKIM (Domain Keys Identified Mail) permet au serveur de messagerie de réception de vérifier qu’un message a bien été envoyé par la personne ou l’entité revendiquant l’envoi et si le contenu du message a été modifié ou non entre le moment où il a été envoyé (et « signé » par DKIM) et celui où il a été reçu. Cette norme utilise généralement le domaine dans l’en-tête « De » ou « Expéditeur ». Pour plus d&#39;informations à ce sujet, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* Configuration de l’**authentification des emails** : assurez-vous que les en-têtes d’email contiennent la signature DKIM. L’authentification DKIM (Domain Keys Identified Mail) permet au serveur de messagerie de réception de vérifier qu’un message a bien été envoyé par la personne ou l’entité revendiquant l’envoi et si le contenu du message a été modifié ou non entre le moment où il a été envoyé (et « signé » par DKIM) et celui où il a été reçu. Cette norme utilise généralement le domaine dans l’en-tête « De » ou « Expéditeur ». Pour plus d’informations à ce sujet, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 
 ### Email en responsive design
 
