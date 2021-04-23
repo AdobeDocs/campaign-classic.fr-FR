@@ -7,23 +7,23 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 401e1be234d52f04cbdf8dfa97f51ac227836cd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Gestion des fichiers et des ressources{#file-and-resmanagement}
 
-## Limiter le format de fichier de transfert {#limiting-uploadable-files}
+## Limiter le format des fichiers envoyés {#limiting-uploadable-files}
 
-Utilisez l’attribut **uploadWhiteList** pour limiter les types de fichiers disponibles pour le téléchargement sur le serveur Adobe Campaign.
+Utilisez l’attribut **uploadWhiteList** pour limiter les types de fichiers disponibles pour téléchargement sur le serveur Adobe Campaign.
 
 Cet attribut est disponible au niveau de l&#39;élément **dataStore** du fichier **serverConf.xml.** Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
-La valeur par défaut de cet attribut est **.+** et vous permet de télécharger n’importe quel type de fichier.
+La valeur par défaut de cet attribut est **.+** et vous permet de charger n’importe quel type de fichier.
 
 Pour limiter les formats possibles, remplacez la valeur d’attribut par une expression java régulière valide. Vous pouvez saisir plusieurs valeurs en les séparant par une virgule.
 
@@ -107,9 +107,9 @@ Si vous souhaitez désactiver temporairement la connexion au proxy, définissez 
 
 ## Gérer les ressources publiques {#managing-public-resources}
 
-Pour être accessibles au public, les images utilisées dans les courriels et les ressources publiques liés aux campagnes doivent être présentes sur un serveur accessible en externe. Ils peuvent ensuite être mis à la disposition de destinataires ou d&#39;opérateurs externes. [En savoir plus](../../installation/using/deploying-an-instance.md#managing-public-resources).
+Pour être accessibles publiquement, les images utilisées dans les emails et les ressources publiques associées aux opérations doivent être présentes sur un serveur accessible de l’extérieur. Elles peuvent ensuite être mises à la disposition de destinataires ou d’opérateurs externes. [En savoir plus](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-Les ressources publiques sont stockées dans le répertoire **/var/res/instance** du répertoire d’installation Adobe Campaign.
+Les ressources publiques sont stockées dans le répertoire **/var/res/instance** du répertoire d’installation d’Adobe Campaign.
 
 L&#39;URL correspondante est la suivante : **http://serveur/res/instance** où **instance** est le nom de l&#39;instance de tracking.
 
