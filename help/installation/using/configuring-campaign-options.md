@@ -6,14 +6,14 @@ description: Découvrez comment paramétrer les options de Campaign
 audience: installation
 content-type: reference
 topic-tags: appendices
-translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
-workflow-type: tm+mt
+exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '3930'
 ht-degree: 100%
 
 ---
-
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
@@ -1042,4 +1042,3 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
  </tbody> 
 </table>
-
