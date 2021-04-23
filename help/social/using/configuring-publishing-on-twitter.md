@@ -6,14 +6,14 @@ description: Configurer la publication Twitter
 audience: social
 content-type: reference
 topic-tags: configuration
+exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
 ---
-
 
 # Configurer la publication Twitter{#configuring-publishing-on-twitter}
 
