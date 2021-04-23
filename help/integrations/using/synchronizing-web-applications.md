@@ -6,14 +6,14 @@ description: Synchronisation des applications web
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '853'
 ht-degree: 100%
 
 ---
-
 
 # Synchronisation des applications web{#synchronizing-web-applications}
 
@@ -134,4 +134,3 @@ Lorsque le destinataire met ses informations à jour via l&#39;application web, 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Abonnements]**. Le service de newsletter apparaît maintenant.
 
    ![](assets/acs_connect_lp_21.png)
-
