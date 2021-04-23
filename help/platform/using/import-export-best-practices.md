@@ -6,14 +6,14 @@ description: En savoir plus sur les bonnes pratiques à suivre lors de l'import 
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 03d35202-d221-4136-aad4-00704aabb356
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques en matière d&#39;import et d&#39;export {#import-export-best-practices}
 
@@ -31,7 +31,7 @@ Ne partez pas de l&#39;hypothèse selon laquelle les données entrantes sont coh
 
 Un exemple de modèle de workflow générique conçu pour importer des données est disponible dans la section [Exemple : modèle de workflow pour importer des données](../../platform/using/creating-import-export-templates.md).
 
-## Utiliser des formats de fichier aplatis {#using-flat-file-formats}
+## Utiliser des formats de fichier plat {#using-flat-file-formats}
 
 Le format le plus efficace pour les imports est le fichier plat. Les fichiers plats peuvent être importés en masse au niveau de la base de données.
 
