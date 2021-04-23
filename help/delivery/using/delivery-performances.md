@@ -6,14 +6,14 @@ description: En savoir plus sur les performances de diffusion et les bonnes prat
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
-workflow-type: tm+mt
+exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques des performances de diffusion {#delivery-performances}
 
@@ -53,6 +53,6 @@ En cas de mauvaises performances des diffusions, vous pouvez vérifier les point
 
 * **Taille de la diffusion** : l&#39;envoi de diffusions volumineuses peut prendre plus de temps. Les fils du MTA sont configurés pour gérer une taille de batch par défaut, qui convient à la plupart des instances, mais qui doit être vérifiée lorsque les diffusions sont constamment lentes.
 * **Cible de la diffusion** : les performances d&#39;une diffusion peuvent être impactées par les soft bounces, qui sont traités en fonction de la configuration des reprises. Plus le nombre des erreurs est élevé, plus les reprises sont nécessaires.
-* **Charge** globale de la plate-forme : Lorsque plusieurs grandes diffusions sont envoyées, la plate-forme globale peut être affectée. Vous pouvez également vérifier la réputation de l’IP et les problèmes de délivrabilité. Pour plus d&#39;informations à ce sujet, consultez [cette section](../../delivery/using/about-deliverability.md) et le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* **Charge globale de la plateforme** : il est possible que la plateforme soit affectée lorsque plusieurs diffusions volumineuses sont envoyées. Vous pouvez également vérifier la réputation IP et l’existence de problèmes de délivrabilité. Pour plus d’informations à ce sujet, consultez [cette section](../../delivery/using/about-deliverability.md) ainsi que le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
-La maintenance de la plateforme et de la base de données peut également impacter les performances d&#39;envoi des diffusions. Voir à ce sujet [cette page](../../production/using/database-performances.md).
+La maintenance de la plateforme et de la base de données peut également impacter les performances d’envoi des diffusions. Voir à ce sujet [cette page](../../production/using/database-performances.md).
