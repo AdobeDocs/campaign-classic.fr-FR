@@ -6,14 +6,14 @@ description: Résolution des problèmes liés à ACS Connector
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes liés à ACS Connector{#troubleshooting-the-acs-connector}
 
@@ -112,4 +112,3 @@ Selon votre mise en œuvre, vous pouvez rencontrer quelques problèmes courants.
 * **Je ne peux pas éditer un profil, une audience ou une landing page dans Campaign Standard. Pourquoi ?**
 
    Les ressources synchronisées depuis Campaign v7 sont en lecture seule dans Campaign Standard pour garantir la cohérence des données. Si vous devez éditer l&#39;un de ces éléments, vous pouvez le faire dans Campaign v7 et répliquer ensuite la modification dans Campaign Standard.
-
