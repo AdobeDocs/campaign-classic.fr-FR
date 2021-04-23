@@ -6,14 +6,14 @@ description: Interactions anonymes
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # Interactions anonymes{#anonymous-interactions}
 
@@ -60,4 +60,3 @@ En cas d&#39;absence d&#39;élément permettant d&#39;identifier un contact ou s
 Pour cela, cochez la case **[!UICONTROL Basculer sur un emplacement anonyme si aucun individu n&#39;a été identifié]**, puis spécifiez l&#39;environnement dédié à ces visiteurs non identifiés dans la zone **[!UICONTROL Emplacement anonyme associé]** de la définition d&#39;un emplacement.
 
 ![](assets/anonymous_to_anonymous_environment.png)
-
