@@ -6,14 +6,14 @@ description: A propos des activités
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
-workflow-type: tm+mt
+exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '96'
 ht-degree: 100%
 
 ---
-
 
 # A propos des activités{#about-activities}
 
