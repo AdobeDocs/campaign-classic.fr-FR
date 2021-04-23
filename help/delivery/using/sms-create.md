@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Créer un SMS avec Campaign
+title: Créer des SMS avec Campaign
 description: Découvrez comment créer des SMS avec Campaign
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
-workflow-type: tm+mt
+exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
+# Création d’une diffusion SMS {#creating-a-sms-delivery}
 
-# Créer une diffusion SMS {#creating-a-sms-delivery}
-
-## Sélectionnez le canal de diffusion {#selecting-the-delivery-channel}
+## Choisir le canal de diffusion {#selecting-the-delivery-channel}
 
 Pour créer une diffusion SMS, procédez comme suit :
 
@@ -26,14 +26,14 @@ Pour créer une diffusion SMS, procédez comme suit :
 >Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
-1. Sélectionnez le modèle de diffusion **Envoyé vers mobiles (SMPP)** que vous avez créé précédemment. Pour en savoir plus sur ce sujet, consultez la section [Modifier le modèle de diffusion](sms-set-up.md#changing-the-delivery-template).
+1. Sélectionnez le modèle de diffusion **Envoyé vers mobiles (SMPP)** que vous avez créé précédemment. Voir à ce propos la section [Modifier le modèle de diffusion](sms-set-up.md#changing-the-delivery-template).
 
    ![](assets/s_user_mobile_wizard.png)
 
 1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Cliquez sur **[!UICONTROL Continuer]** pour valider ces informations et afficher la fenêtre de configuration du message.
 
-## Définissez le contenu du SMS {#defining-the-sms-content}
+## Définir le contenu du SMS {#defining-the-sms-content}
 
 Pour définir le contenu du SMS, procédez comme suit :
 
@@ -57,7 +57,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >La longueur des messages SMS est limitée à 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est rédigé en unicode, il ne peut dépasser 70 caractères. Certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour plus d&#39;informations sur la longueur du message, consultez la section [translittération des caractères SMS](#about-character-transliteration).
+   >La longueur des messages SMS est limitée à 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est rédigé en unicode, il ne peut dépasser 70 caractères. Certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères](#about-character-transliteration).
    >
    >Lors de la présence de champs de personnalisation ou de contenu conditionnel, la taille du message varie d&#39;un destinataire à l&#39;autre. La longueur du message doit être évaluée une fois la personnalisation effectuée.
    >
@@ -65,11 +65,10 @@ Pour définir le contenu du SMS, procédez comme suit :
 
 1. Si vous utilisez le connecteur NetSize ou un connecteur SMPP, il est possible de personnaliser le nom de l&#39;émetteur de la diffusion. Voir à ce propos la section [Paramètres avancés](#advanced-parameters).
 
-## Sélectionner la population de cibles {#selecting-the-target-population}
+## Choisir la population cible {#selecting-the-target-population}
 
-Le processus détaillé lors de la sélection de la population cible d&#39;une diffusion est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
+Le processus détaillé de sélection de la population cible d’une diffusion est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
 
-Pour plus d&#39;informations sur l&#39;utilisation des champs de personnalisation, consultez [cette section](../../delivery/using/about-personalization.md).
+Pour plus d’informations sur l’utilisation des champs de personnalisation, consultez [cette section](../../delivery/using/about-personalization.md).
 
-Pour plus d&#39;informations sur l&#39;inclusion d&#39;une liste de semences, consultez [cette page](../../delivery/using/about-seed-addresses.md).
-
+Pour plus d’informations sur l’inclusion d’une liste de contrôle, consultez [cette page](../../delivery/using/about-seed-addresses.md).
