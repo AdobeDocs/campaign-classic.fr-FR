@@ -6,14 +6,14 @@ description: Comprendre la gestion des quarantaines
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2702'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Comprendre la gestion des quarantaines{#understanding-quarantine-management}
 
@@ -25,7 +25,7 @@ Adobe Campaign gère une liste d&#39;adresses en quarantaine. Les destinataires 
 >
 >Cette section s&#39;applique aux canaux on-line : email, SMS et notification push.
 
-### Optimiser votre diffusion par le biais des mises en quarantaine        {#optimizing-your-delivery-through-quarantines}
+### Optimiser votre diffusion par le biais des mises en quarantaine  {#optimizing-your-delivery-through-quarantines}
 
 Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
@@ -45,15 +45,15 @@ En revanche, en cas d&#39;insertion en **liste bloquée**, le profil ne sera plu
 >
 >Lorsqu&#39;un utilisateur répond à un SMS avec un mot-clé tel que &#39;&#39;STOP&#39;&#39; pour se désabonner des diffusions SMS, son profil n&#39;est pas mis en liste bloquée comme c&#39;est le cas pour la désinscription des emails. Le numéro de téléphone du profil est mis en quarantaine, de sorte que l&#39;utilisateur puisse continuer à recevoir des emails.
 
-## Identifier les adresses en quarantaine         {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine  {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
 
-### Identifier les adresses en quarantaine pour une diffusion         {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion  {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans les logs de diffusion du tableau de bord des diffusions (voir la section [Logs et historique de la diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)).
 
-### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme         {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l&#39;ensemble de la plateforme  {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l&#39;ensemble de la plateforme depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et adresses]**.
 
@@ -117,7 +117,7 @@ Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantai
 
 Vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l&#39;assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
-## Conditions de mise en quarantaine d&#39;une adresse         {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d&#39;une adresse  {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de la diffusion et de la raison attribuée lors de la qualification des messages d&#39;erreur (voir les sections [Qualification des emails bounce](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)et [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
 
@@ -125,7 +125,7 @@ Adobe Campaign gère la mise en quarantaine en fonction du type d&#39;échec de
 * **Erreur de type Hard** : l&#39;adresse email correspondante est mise immédiatement en quarantaine.
 * **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d&#39;erreurs. Pour plus d&#39;informations, voir la section [Comprendre la gestion des erreurs de type Soft](#soft-error-management).
 
-Si un utilisateur qualifie un courrier électronique de spam ([boucle de rétroaction](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), le message est automatiquement redirigé vers une boîte aux lettres technique gérée par Adobe. L’adresse électronique de l’utilisateur est alors automatiquement envoyée à la quarantaine.
+Si un utilisateur qualifie un email comme du spam ([feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops)), le message est automatiquement redirigé vers une boîte email technique gérée par Adobe. L’adresse email de l’utilisateur est alors automatiquement mise en quarantaine.
 
 Dans la liste des adresses en quarantaine, le champ **[!UICONTROL Raison de l&#39;erreur]** indique pourquoi l&#39;adresse sélectionnée a été mise en quarantaine. La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
 
@@ -268,7 +268,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>Statut</strong><br /> </td> 
+   <td> <strong>Status</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
@@ -413,7 +413,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : le client n'est pas autorisé à récupérer des jetons d'accès à l'aide de cette méthode, ou le client n'est pas autorisé pour l'un des paramètres demandés.<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> non autorisé_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignoré</td>
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -437,7 +437,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : JWT non valide<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> Invalid_grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -445,7 +445,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : signature JWT non valide<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> Invalid_grant </td> 
+   <td> invalid_grant </td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -453,7 +453,7 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
     <tr> 
    <td> Authentification : périmètre OAuth non valide ou audience de jeton d'ID non valide fourni<br /> </td> 
    <td> Echec<br /> </td> 
-   <td> non autorisé_client</td> 
+   <td> unauthorized_client</td> 
    <td> Ignoré</td> 
    <td> Refusés<br /> </td> 
    <td> Non<br /> </td> 
@@ -482,7 +482,7 @@ Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;appliqu
  <tbody> 
   <tr> 
    <td> <strong>Scénario</strong><br /> </td> 
-   <td> <strong>Statut</strong><br /> </td> 
+   <td> <strong>Status</strong><br /> </td> 
    <td> <strong>Message de l'erreur</strong><br /> </td> 
    <td> <strong>Type de l'échec</strong><br /> </td> 
    <td> <strong>Raison de l'échec</strong><br /> </td> 
