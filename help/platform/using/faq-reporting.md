@@ -6,14 +6,14 @@ description: FAQ sur Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '317'
 ht-degree: 100%
 
 ---
-
 
 # FAQ sur les rapports {#reporting-faq}
 
