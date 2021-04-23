@@ -6,14 +6,14 @@ description: En savoir plus sur les performances des diffusions et comment réso
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
-workflow-type: tm+mt
+exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes liés à l&#39;envoi de diffusions {#delivery-troubleshooting}
 
@@ -37,7 +37,7 @@ Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion sem
 
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
-   * Messages en attente (**[!UICONTROL quotas satisfaits]** message) : les quotas déclarés par les règles déclaratives MX définies dans Campaign ont été respectés. Pour plus d&#39;informations sur ce message, consultez [cette page](../../delivery/using/deliverability-faq.md). Pour en savoir plus sur les règles MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
+   * Messages en attente (message **[!UICONTROL quotas satisfaits]**) : les quotas déclarés par les règles déclaratives MX définies dans Campaign ont été respectés. Pour plus d’informations sur ce type de message, consultez [cette page](../../delivery/using/deliverability-faq.md). Pour en savoir plus sur les règles MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
 
    * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et une mise sur liste bloquée éventuelle.
 
