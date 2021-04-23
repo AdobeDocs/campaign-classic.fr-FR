@@ -1,17 +1,17 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign - Connecteur Microsoft Dynamics CRM
+title: Campaign - Connecteur Microsoft Dynamics CRM
 description: Connecter Campaign et Microsoft Dynamics
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
