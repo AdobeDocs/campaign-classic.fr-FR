@@ -6,14 +6,14 @@ description: En savoir plus sur la gestion de la confidentialité
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: c86b2d377c66e79cf4f10053f588796b95e6877e
-workflow-type: tm+mt
+exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '887'
 ht-degree: 100%
 
 ---
-
 
 # Gestion de la confidentialité {#privacy-management}
 
