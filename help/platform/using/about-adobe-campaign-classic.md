@@ -3,17 +3,17 @@ solution: Campaign Classic
 product: campaign
 title: À propos d‘Adobe Campaign Classic
 description: Découvrez les fonctionnalités principales, l'interface utilisateur et les directives globales.
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '915'
+exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '912'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main de Campaign Classic{#about-adobe-campaign-classic}
 
