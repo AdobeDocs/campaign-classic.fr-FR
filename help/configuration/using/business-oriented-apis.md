@@ -6,14 +6,14 @@ description: API orientées métier
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e6638870-3141-4f12-b904-db436127c0d1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '635'
 ht-degree: 100%
 
 ---
-
 
 # API orientées métier{#business-oriented-apis}
 
@@ -237,4 +237,3 @@ Si vous ne disposez pas d&#39;un modèle de diffusion, vous pouvez utiliser l&#3
   </targets> 
 </delivery> 
 ```
-
