@@ -6,14 +6,14 @@ description: Accéder aux logs de tracking
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: df494786-5950-4646-aa9c-4dde45845057
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '93'
 ht-degree: 100%
 
 ---
-
 
 # Accès aux logs de tracking{#accessing-the-tracking-logs}
 
