@@ -6,14 +6,14 @@ description: Structure d'un schéma
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
-workflow-type: tm+mt
+exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1570'
 ht-degree: 100%
 
 ---
-
 
 # Structure d&#39;un schéma{#schema-structure}
 
@@ -272,10 +272,10 @@ Le tableau suivant liste les correspondances des types de données générés pa
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
-   <td> PRÉCISION DU doublon<br /> </td> 
+   <td> DOUBLE PRECISION<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> DOUBLON<br /> </td> 
+   <td> DOUBLE<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
@@ -486,6 +486,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >
 >* **Location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
+
 >
 
 
@@ -529,4 +530,3 @@ Résultat de la chaîne calculée sur un destinataire : **Dupont René (rene.dup
 >[!NOTE]
 >
 >Si le schéma ne contient pas de Compute string, une Compute string est renseignée par défaut avec les valeurs de la clé primaire du schéma.
-
