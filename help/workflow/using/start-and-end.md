@@ -6,14 +6,14 @@ description: En savoir plus sur les activités de workflow de début et de fin
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
-
 
 # Début et Fin{#start-and-end}
 
@@ -34,4 +34,3 @@ Les activités **[!UICONTROL Début]** et **[!UICONTROL Fin]** permettent de mar
    Les données de la table de travail sont automatiquement supprimées à l&#39;activation de l&#39;activité de fin. Si cela n&#39;est pas nécessaire, et afin d&#39;éviter toute charge inutile, vous pouvez choisir de désactiver la transition en sortie de la dernière activité. Par exemple, en sortie d&#39;une diffusion, si aucun traitement n&#39;est prévu, décochez l&#39;option correspondante comme ci-dessous :
 
    ![](assets/s_advuser_delivery_option_no_output.png)
-
