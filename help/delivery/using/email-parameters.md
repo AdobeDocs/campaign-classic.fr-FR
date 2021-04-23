@@ -6,14 +6,14 @@ description: Découvrez les options et les paramètres spécifiques à la diffus
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 translation-type: ht
-source-git-commit: e84387c7c396c60c429c3f625870a97a7fdaef5a
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '966'
 ht-degree: 100%
 
 ---
-
 
 # Paramètres de l&#39;email {#email-parameters}
 
