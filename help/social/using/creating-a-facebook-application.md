@@ -6,14 +6,14 @@ description: Créer une application Facebook
 audience: social
 content-type: reference
 topic-tags: configuration
+exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1103'
 ht-degree: 100%
 
 ---
-
 
 # Créer une application Facebook{#creating-a-facebook-application}
 
@@ -166,4 +166,3 @@ Vous pouvez paramétrer vos applications Facebook pour qu&#39;elles apparaissent
 1. Sélectionnez la page Facebook sur laquelle vous souhaitez ajouter l&#39;onglet et cliquez sur **[!UICONTROL Ajouter un onglet de page]**.
 
    ![](assets/social_webapp_fb_0011.png)
-
