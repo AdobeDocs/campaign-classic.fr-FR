@@ -6,14 +6,14 @@ description: Rapports globaux
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2386'
 ht-degree: 100%
 
 ---
-
 
 # Rapports globaux {#global-reports}
 
