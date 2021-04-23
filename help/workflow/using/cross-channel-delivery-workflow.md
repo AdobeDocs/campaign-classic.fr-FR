@@ -6,14 +6,14 @@ description: En savoir plus sur les workflows de diffusion cross-canal
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '758'
 ht-degree: 100%
 
 ---
-
 
 # Workflow de diffusion cross-canal{#cross-channel-delivery-workflow}
 
