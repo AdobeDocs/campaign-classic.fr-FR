@@ -6,14 +6,14 @@ description: Power Booster et Power Cluster
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
 ---
-
 
 # Power Booster et Power Cluster{#power-booster-and-power-cluster}
 
@@ -46,8 +46,8 @@ Les options Power Booster et Power Cluster peuvent être exploitées par les app
   <tr> 
    <td> </td> 
    <td> <strong>Architecture standard</strong><br /> </td> 
-   <td> <strong>Booster d'alimentation</strong><br /> </td> 
-   <td> <strong>Cluster d'alimentation</strong><br /> </td> 
+   <td> <strong>Power Booster</strong><br /> </td> 
+   <td> <strong>Power Cluster</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> Campagnes e-mail et interactions sortantes<br /> </td> 
@@ -90,4 +90,3 @@ exposés sur l'internet public<br /> </td>
 * Une instance d&#39;exécution doit être dédiée à un service. Vous ne pouvez pas installer un package correspondant à un service auquel vous n&#39;avez pas souscrit. Par exemple, si vous avez souscrit à l&#39;option **Power Booster** pour le service **Message Center**, vous ne pouvez installer que le package **[!UICONTROL Exécution des messages transactionnels]** sur l&#39;instance d&#39;exécution dédiée. Vérifiez votre contrat de licence.
 * Dans la mesure où les instances dédiées (ou clusters) sont des instances Adobe Campaign, les recommandations sont les mêmes que pour une instance principale. Voir à ce sujet [ce document](../../production/using/foreword.md).
 * Pour dimensionner correctement l&#39;instance d&#39;un point de vue base de données/composants matériels, nous vous invitons à vous rapprocher des services professionnels d&#39;Adobe Campaign.
-
