@@ -7,11 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez utiliser ce Tomcat intégré pour servir des requêtes HTTP.
 
 Dans ce cas :
 
-* le port d’écoute par défaut est 8080. Pour le modifier, reportez-vous à [cette section](configure-tomcat.md).
+* le port d’écoute par défaut est 8080. Pour savoir comment le modifier, consultez [cette section](configure-tomcat.md).
 * Vos consoles clientes se connectent alors en utilisant une URL de type :
 
    ```
