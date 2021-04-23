@@ -6,14 +6,14 @@ description: Cas pratiques
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1420'
 ht-degree: 100%
 
 ---
-
 
 # Cas pratiques{#use-cases}
 
@@ -286,4 +286,3 @@ Vous pouvez par exemple afficher les domaines des adresses exclues, par date d&#
 Et générer un rapport du type :
 
 ![](assets/reporting_descriptive_exclusion_result.png)
-
