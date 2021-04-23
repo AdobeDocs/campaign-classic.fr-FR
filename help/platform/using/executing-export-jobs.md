@@ -6,14 +6,14 @@ description: Découvrez comment paramétrer et exécuter des traitements d'expor
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Configuration des traitements d’export {#executing-export-jobs}
 
@@ -23,9 +23,9 @@ Par exemple, il peut s&#39;avérer utile d&#39;utiliser les données de tracking
 
 L&#39;assistant d&#39;export vous permet de paramétrer un export, de définir ses options et de lancer son exécution. Il s&#39;agit d&#39;une série d&#39;écrans dont le contenu dépend du type d&#39;export (simple ou multiple) et des droits de l&#39;opérateur.
 
-L’assistant d&#39;export s’affiche après avoir créé une nouvelle tâche d’exportation (voir [Création de tâches d’importation et d’exportation](../../platform/using/creating-import-export-jobs.md).
+L’assistant d’export s’affiche après la création d’un nouveau traitement d’export (voir la section [Création de traitements d’import et d’export](../../platform/using/creating-import-export-jobs.md)).
 
-## Etape 1 - Sélection du modèle d’exportation {#step-1---choosing-the-export-template}
+## Etape 1 - Choix du modèle d’export {#step-1---choosing-the-export-template}
 
 Lorsque vous lancez l&#39;assistant d&#39;export, vous devez d&#39;abord sélectionner un modèle. A titre d&#39;exemple, pour configurer l&#39;export des destinataires qui se sont récemment inscrits, procédez comme suit :
 
@@ -63,7 +63,7 @@ Par défaut, lorsque l&#39;export est lancé depuis le nœud **[!UICONTROL Trait
 
    Vous devez indiquer la date de la dernière modification. Elle peut être récupérée dans un champ ou calculée.
 
-## Étape 3 - Définir le format de sortie {#step-3---defining-the-output-format}
+## Etape 3 - Définition du format de sortie {#step-3---defining-the-output-format}
 
 Sélectionnez le format de sortie du fichier exporté. Les formats possibles sont les suivants : Texte, Texte à colonnes fixes, CSV, XML.
 
@@ -125,10 +125,10 @@ Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour avoir
 
 Cliquez sur les onglets en bas de l&#39;assistant pour basculer de l&#39;aperçu du résultat en colonnes, au résultat en XML. Vous pouvez également visualiser les requêtes SQL générées.
 
-## Étape 9 - Lancement de l&#39;exportation {#step-9---launching-the-export}
+## Etape 9 - Lancement de l’export {#step-9---launching-the-export}
 
-Cliquez sur **[!UICONTROL Démarrer]** pour lancer l&#39;export des données.
+Cliquez sur **[!UICONTROL Démarrer]** pour lancer l’export des données.
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-Vous pouvez ensuite surveiller l’exécution de la tâche d’importation (voir [Surveillance de l’exécution des tâches](../../platform/using/monitoring-jobs-execution.md).
+Vous pouvez ensuite surveiller l’exécution du traitement d’import (voir la section [Surveillance de l’exécution des traitements](../../platform/using/monitoring-jobs-execution.md).
