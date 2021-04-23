@@ -6,14 +6,14 @@ description: Découvrez comment créer des hypothèses dans la Gestion de la ré
 audience: campaign
 content-type: reference
 topic-tags: response-manager
+exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1115'
 ht-degree: 100%
 
 ---
-
 
 # Création d’hypothèses{#creating-hypotheses}
 
@@ -181,4 +181,3 @@ Dans cet exemple, nous voulons créer une hypothèse liée à une diffusion. Cet
 1. Dans l’arborescence d’Adobe Campaign, accédez au nœud **[!UICONTROL Gestion de campagnes > Hypothèses de mesure]** pour vérifier les indicateurs calculés par l’hypothèse.
 
    ![](assets/response_hypothesis_delivery_example_010.png)
-
