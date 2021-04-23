@@ -6,14 +6,14 @@ description: Définir l'enchaînement des pages des formulaires web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '739'
 ht-degree: 100%
 
 ---
-
 
 # Définir l&#39;enchaînement des pages des formulaires web{#defining-web-forms-page-sequencing}
 
@@ -125,4 +125,3 @@ Pour personnaliser cette page, double-cliquez sur l&#39;objet **[!UICONTROL Fin]
 
 * Vous pouvez copier et coller un contenu HTML existant. Pour cela, cliquez sur le bouton **[!UICONTROL Afficher le code source]** et insérez le code HTML.
 * Vous pouvez utiliser une URL externe : pour cela, cochez l&#39;option correspondante et saisissez l&#39;URL de la page à afficher.
-
