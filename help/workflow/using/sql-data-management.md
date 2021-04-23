@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de gestion des donnée
 audience: workflow
 content-type: reference
 topic-tags: action-activities
+exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des données SQL{#sql-data-management}
 
@@ -113,4 +113,3 @@ AS SELECT i1.sFirstName, i1.sLastName, i2.sEmail
 FROM <%= task.incomingTransitionByName('input1').tableName %> i1
 JOIN <%= task.incomingTransitionByName('input2').tableName %> i2 ON (i1.id = i2.id)
 ```
-
