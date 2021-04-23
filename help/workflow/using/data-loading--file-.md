@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de chargement (fichier
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1161'
 ht-degree: 100%
 
 ---
-
 
 # Chargement (fichier){#data-loading-file}
 
@@ -132,4 +132,3 @@ L&#39;exemple suivant permet de collecter tous les jours un fichier sur le serve
 1. Indiquez ensuite les traitements à effectuer pour chaque type de population. Dans notre exemple, nous allons mettre à jour les données de la base. Pour cela, positionnez une activité **[!UICONTROL Mise à jour de données]** à l&#39;extrémité de chaque transition sortante de l&#39;activité de **[!UICONTROL Partage]**.
 
    L&#39;activité de **[!UICONTROL Mise à jour de données]** est présentée dans la section [Mise à jour de données](../../workflow/using/update-data.md).
-
