@@ -6,14 +6,14 @@ description: Règles de présentation
 audience: interaction
 content-type: reference
 topic-tags: case-study
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
 ---
-
 
 # Règles de présentation{#presentation-rules}
 
