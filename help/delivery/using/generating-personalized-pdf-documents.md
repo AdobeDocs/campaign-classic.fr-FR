@@ -6,14 +6,14 @@ description: Générer des documents PDF personnalisés
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e5239d99-256b-412b-be20-f64f822da9c3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
 ---
-
 
 # Générer des documents PDF personnalisés{#generating-personalized-pdf-documents}
 
