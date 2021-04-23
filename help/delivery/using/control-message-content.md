@@ -6,66 +6,66 @@ description: En savoir plus sur la gestion de la délivrabilité dans Adobe Camp
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
-source-git-commit: d6a581ae86e50c17ac20fe54baf305b864e11790
-workflow-type: tm+mt
+exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-
 # Contrôler le contenu de votre message{#control-message-content}
 
-Pour que vos courriels atteignent vos destinataires et améliorent le taux de livraison de vos courriels, ils doivent respecter un certain nombre de règles. Sinon, le contenu de certains messages peut être détecté comme indésirable. Adobe Campaign fournit plusieurs outils pour que votre contenu respecte ces règles.
+Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux de délivrabilité, assurez-vous qu’ils respectent un certain nombre de règles. Dans le cas contraire, le contenu de certains messages peut être détecté comme du spam. Adobe Campaign fournit plusieurs outils vous permettant de vérifier que votre contenu respecte ces règles.
 
-Suivez les principes ci-dessous lors de la conception du contenu de votre message :
+Suivez les principes ci-dessous lors de la conception du contenu de votre message :
 
-* [Adresse](#sender-address) de l&#39;expéditeur : l&#39;adresse doit identifier explicitement l&#39;expéditeur. Le domaine doit être détenu par l&#39;expéditeur et enregistré auprès de celui-ci. Le registre des domaines ne doit pas être privatisé.
-* [Personnalisation](#personalization) : la personnalisation du contenu et la définition d’une heure d’envoi par destinataire augmentent les chances d’ouverture de votre message.
-* Images et texte : respectez un rapport texte/image correct (par exemple, 60 % de texte et 40 % d’images).
-* [Désinscription ](#opt-out) linkand landing page : le lien désinscription est essentiel. Il doit être visible et valide et le formulaire doit être fonctionnel.
-* Prévisualisation : utilisez les outils proposés par Adobe Campaign pour vérifier et optimiser le contenu de votre courrier électronique ([rendu de boîte de réception](#message-responsiveness), [SpamAssassin](#spamassassin)).
+* [Adresse expéditeur](#sender-address) : l’adresse doit identifier explicitement l’expéditeur. Le domaine doit appartenir à l’expéditeur et être enregistré auprès de lui. Le registre des domaines ne doit pas être privatisé.
+* [Personnalisation](#personalization) : la personnalisation du contenu et la définition d’une heure d’envoi par destinataire augmentent les chances d’ouverture de votre message.
+* Images et texte : respectez un ratio texte/images correct (par exemple, 60 % de texte et 40 % d’images).
+* [Lien de désinscription](#opt-out) et landing page correspondante : le lien de désinscription est indispensable. Il doit être visible et valide. En outre, le formulaire doit être fonctionnel.
+* Prévisualisation : utilisez les outils fournis par Adobe Campaign pour vérifier et optimiser le contenu de votre email ([Inbox Rendering](#message-responsiveness), [ SpamAssassin emails](#spamassassin)).
 
-Pour obtenir des conseils supplémentaires sur l&#39;optimisation de la délivrabilité lors de la conception de contenu, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabilité lors de la conception du contenu, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=fr).
 
 >[!NOTE]
 >
->Pour plus d’informations sur la modification du contenu des courriels, voir [Définition du contenu des courriels](../../delivery/using/defining-the-email-content.md) et [Création de contenu personnalisé](../../delivery/using/design-and-personalize.md).
+>Pour plus d’informations sur la modification du contenu des emails, voir [Définition du contenu de l’email](../../delivery/using/defining-the-email-content.md) et [Créer du contenu personnalisé](../../delivery/using/design-and-personalize.md).
 
-## Adresse d&#39;expéditeur {#sender-address}
+## Adresse d’expéditeur {#sender-address}
 
-Certains FAI vérifient la validité de l&#39;adresse de l&#39;expéditeur (**[!UICONTROL From]**) avant d&#39;accepter les messages. Une adresse mal formée peut entraîner son rejet par le serveur de réception.
+Certains FAI vérifient la validité de l’adresse de l’expéditeur (**[!UICONTROL De]**) avant d’accepter les messages. Une adresse mal formée peut entraîner son rejet par le serveur de réception.
 
-Il faut s&#39;assurer qu&#39;une adresse correcte est bien renseignée au niveau de l&#39;instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
+Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
 
-Pour plus d&#39;informations à ce sujet, voir [Définition de l&#39;expéditeur](../../delivery/using/defining-the-email-content.md).
+Voir à ce propos la section [Définir l’expéditeur](../../delivery/using/defining-the-email-content.md).
 
-## Personnalisation      {#personalization}
+## Personnalisation  {#personalization}
 
-Pour améliorer l’expérience de vos destinataires et les faire ouvrir, Adobe Campaign vous permet de personnaliser vos messages.
+Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre email, Adobe Campaign vous permet de personnaliser vos messages.
 
-Pour plus d’informations sur l’utilisation des champs de personnalisation en Adobe Campaign, voir [cette section](../../delivery/using/personalization-fields.md).
+Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, voir [cette section](../../delivery/using/personalization-fields.md).
 
-Vous trouverez dans [cette section](../../delivery/using/design-and-personalize.md#optimize-personalization) quelques conseils pour optimiser la personnalisation lors de la création de votre contenu.
+Vous trouverez dans [cette section](../../delivery/using/design-and-personalize.md#optimize-personalization) un certain nombre de conseils pour optimiser la personnalisation lors de la création de votre contenu.
 
-## Lien et formulaire de désinscription {#opt-out}
+## Lien et formulaire d’exclusion {#opt-out}
 
-Par défaut, lorsque le message est analysé, une [règle de typologie](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) vérifie si un lien d’exclusion a été inclus et génère un avertissement s’il est absent. Vous pouvez modifier cette règle afin qu’une erreur soit déclenchée plutôt qu’un simple avertissement et empêcher une diffusion de sortir sans ce lien.
+Par défaut, une [règle de typologie](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. On peut éventuellement modifier le niveau d’alerte de cette règle afin qu’elle génère une erreur, de façon à ce qu’en aucun cas une diffusion ne puisse être démarrée sans ce lien.
 
-Il faut vérifier du début à la fin le bon fonctionnement du lien de désinscription avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
+Il faut vérifier du début à la fin le bon fonctionnement du lien d’exclusion avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
 
 Découvrez comment insérer un lien d’exclusion [dans cette section](../../delivery/using/personalization-blocks.md#personalization-blocks-example).
 
-Au cas où un problème empêchant la désinscription ne serait détecté qu&#39;après le démarrage de la diffusion, il sera toutefois possible de désinscrire manuellement (à l&#39;aide d&#39;une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien de désinscription, même s&#39;ils n&#39;ont pas pu ou voulu confirmer ce choix.
+Au cas où un problème empêchant l’exclusion ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible d’exclure manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d’exclusion, même s’ils n’ont pas pu confirmer ce choix.
 
-En règle générale, n’essayez pas d’empêcher les destinataires qui souhaitent s’exclure en les obligeant à remplir des champs tels que leur adresse électronique ou leur nom, par exemple. Le formulaire ne doit comporter qu’un seul bouton de validation et la réconciliation ne doit être effectuée que sur l’identifiant chiffré.
+Il est recommandé de ne pas empêcher les destinataires qui souhaitent s’exclure en les obligeant à remplir des champs tels que leur adresse email ou leur nom, par exemple. Le formulaire ne doit comporter qu’un seul bouton de validation et la réconciliation ne doit être effectuée que sur l’identifiant chiffré.
 
-La demande de confirmation supplémentaire n&#39;est pas fiable : un utilisateur peut voir deux adresses électroniques redirigées vers la même zone (par exemple : firstname.lastname@club.com et firstname.lastname@internet-club.com). Si le destinataire est capable de se souvenir de la première adresse seulement et souhaite se désabonner via un message envoyé à l&#39;autre, le formulaire refusera cette adresse car l&#39;identifiant chiffré et l&#39;adresse électronique saisie ne correspondent pas.
+Demander une confirmation supplémentaire n’est pas fiable, car un utilisateur peut disposer de deux adresses email redirigées vers la même boîte (par exemple : prénom.nom@club.com et prénom.nom@internet-club.com). Si le destinataire est capable de se souvenir uniquement de la première adresse et souhaite s’exclure via un message envoyé à l’autre, le formulaire refusera cette adresse, car l’identifiant chiffré et l’adresse email saisie ne correspondront pas.
 
 ## Inbox rendering {#message-responsiveness}
 
-Avant d&#39;envoyer votre message, vous pouvez tester la réactivité de votre message en vérifiant à quoi ressemblera votre message sur différents périphériques. Vous vous assurez ainsi que son affichage sera optimal sur divers clients web, webmails et appareils.
+Avant d’envoyer votre message, vous pouvez tester sa réactivité en vérifiant son apparence sur différents appareils. Vous vous assurez ainsi que son affichage sera optimal sur divers clients web, webmails et appareils.
 
 Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
@@ -75,6 +75,6 @@ Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-render
 
 Adobe Campaign peut être configuré pour fonctionner avec SpamAssassin. Cela permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
 
-Avant de démarrer une diffusion, l&#39;onglet **[!UICONTROL Prévisualisation]** vous permet d&#39;évaluer les risques. Un message d’avertissement indique le résultat du test.
+Avant qu’une diffusion ne soit lancée, l’onglet **[!UICONTROL Aperçu]** permet de visualiser les risques. Un message d’avertissement donne le résultat du test.
 
 En savoir plus dans cette [section](../../delivery/using/spamassassin.md).
