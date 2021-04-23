@@ -6,14 +6,14 @@ description: Créer un tableau
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2643'
 ht-degree: 100%
 
 ---
-
 
 # Créer un tableau{#creating-a-table}
 
