@@ -6,14 +6,14 @@ description: '"Cas pratique : sélection des adresses de contrôle selon des cri
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '913'
 ht-degree: 100%
 
 ---
-
 
 # Cas pratique : sélection des adresses de contrôle selon des critères{#use-case-selecting-seed-addresses-on-criteria}
 
