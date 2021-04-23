@@ -6,14 +6,14 @@ description: Seuils de suivi
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '97'
 ht-degree: 100%
 
 ---
-
 
 # Seuils de suivi{#monitoring-thresholds}
 
@@ -24,4 +24,3 @@ Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (roug
 >[!NOTE]
 >
 >Le nombre d&#39;événements en attente dans la file est affiché dans la section [Indicateurs système](../../production/using/monitoring-processes.md#system-indicators) de la page de suivi des processus Adobe Campaign. Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md#deployment-wizard).
-
