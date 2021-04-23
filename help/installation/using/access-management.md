@@ -6,14 +6,14 @@ description: En savoir plus sur les bonnes pratiques relatives à la gestion des
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 translation-type: ht
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '377'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des accès {#access-management}
 
