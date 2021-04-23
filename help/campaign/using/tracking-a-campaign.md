@@ -6,14 +6,14 @@ description: Tracking d’une opération
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
 ---
-
 
 # Tracking d’une opération{#tracking-a-campaign}
 
@@ -104,4 +104,3 @@ Vous pouvez réinitialiser un kit d&#39;opération déjà publié afin de le mod
 >[!NOTE]
 >
 >Vous pouvez également réinitialiser un kit d&#39;opération qui a été annulé.
-
