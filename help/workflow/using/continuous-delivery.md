@@ -6,14 +6,14 @@ description: Diffusion (au fil de l'eau)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
 ---
-
 
 # Diffusion (au fil de l&#39;eau){#continuous-delivery}
 
@@ -43,7 +43,7 @@ Uniquement lorsque l&#39;action **[!UICONTROL Spécifiés par l&#39;événement 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schéma
+* schema
 * recCount
 
 Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
