@@ -6,14 +6,14 @@ description: Spécificités par SGBDR
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1125'
 ht-degree: 100%
 
 ---
-
 
 # Spécificités par SGBDR{#rdbms-specific-recommendations}
 
@@ -95,6 +95,7 @@ vacuum full nmsdelivery;
 >* Les commandes **vacuum** et **re-index** verrouillent la table ce qui met certains processus en attente pendant toute la durée de la maintenance.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande **vacuum full** peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
 >* Cette opération de maintenance peut être effectuée par un workflow d’Adobe Campaign via une activité de type **[!UICONTROL SQL]** (voir à ce sujet [cette section](../../workflow/using/architecture.md)). Assurez-vous de lancer la maintenance pendant une période de faible activité et en dehors des périodes de sauvegarde.
+
 >
 
 
