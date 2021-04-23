@@ -6,14 +6,14 @@ description: Découvrez comment effectuer une migration vers Campaign Classic �
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
-
 
 # Migration vers Campaign Classic{#about-migration}
 
