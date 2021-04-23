@@ -6,14 +6,14 @@ description: Découvrez comment configurer l’accès à Sybase IQ dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '335'
 ht-degree: 100%
 
 ---
-
 
 # Configurer l’accès à Sybase IQ {#configure-access-to-sybase-iq}
 
@@ -89,4 +89,3 @@ Le compte externe Sybase IQ permet de connecter votre instance Campaign à la ba
 >[!NOTE]
 >
 >Pour Windows, vous devez installer le client Sybase IQ sur le serveur Adobe Campaign et créer une connexion ODBC. Veillez à créer une source de données système lorsque le serveur Adobe Campaign (nlserver) s’exécute en tant que service sous Windows.
-
