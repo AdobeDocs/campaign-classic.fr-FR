@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
 ht-degree: 100%
 
