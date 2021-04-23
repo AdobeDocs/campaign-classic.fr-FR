@@ -6,14 +6,14 @@ description: Environnements en ligne/édition
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '489'
 ht-degree: 100%
 
 ---
-
 
 # Environnements en ligne/édition{#live-design-environments}
 
@@ -67,4 +67,3 @@ Par défaut, Interaction est livré avec un environnement pré-paramétré pour 
 >[!NOTE]
 >
 >Pour plus d&#39;informations sur les interactions anonymes sur canal entrant, consultez la section [Interactions anonymes](../../interaction/using/anonymous-interactions.md).
-
