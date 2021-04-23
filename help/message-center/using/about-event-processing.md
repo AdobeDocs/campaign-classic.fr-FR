@@ -6,14 +6,14 @@ description: A propos du traitement des événements
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3d85866a-6339-458c-807a-b267cce772b8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '347'
 ht-degree: 100%
 
 ---
-
 
 # A propos du traitement des événements{#about-event-processing}
 
