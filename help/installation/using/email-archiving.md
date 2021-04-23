@@ -6,14 +6,14 @@ description: Archivage des emails
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 translation-type: ht
-source-git-commit: 5fa848d86f951cb9dc40eb7981abea29c1092291
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1312'
 ht-degree: 100%
 
 ---
-
 
 # Email Cci {#email-archiving}
 
@@ -147,4 +147,3 @@ Une fois que l&#39;email Cci est configuré, veillez à sélectionner l&#39;opti
 
 * **Emails par connexion** : l’archivage des emails en Cci fonctionne en ouvrant une connexion et en essayant d’envoyer tous les emails via cette connexion. Adobe recommande de vérifier avec votre contact technique le nombre d’emails acceptés sur une connexion donnée. L’augmentation de ce nombre peut avoir un grand impact sur le débit Cci.
 * **IP d’envoi en Cci** : actuellement, les emails en Cci ne sont pas envoyés par les proxys MTA normaux. En revanche, une connexion directe est ouverte du serveur MTA au serveur de messagerie de destination. Cela signifie que vous devrez peut-être ajouter des adresses IP supplémentaires à la liste autorisée de votre réseau, en fonction de la configuration de votre serveur de messagerie.
-
