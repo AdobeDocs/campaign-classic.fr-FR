@@ -6,14 +6,14 @@ description: Utilisation des paramètres avancés
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 232e2bfc-f497-40ad-811e-118dbfcabbcf
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation des paramètres avancés{#using-advanced-parameters}
 
