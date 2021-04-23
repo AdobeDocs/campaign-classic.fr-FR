@@ -6,14 +6,14 @@ description: Surveiller les workflows techniques
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
 ---
-
 
 # Surveiller les workflows techniques {#monitoring-technical-workflows}
 
