@@ -7,11 +7,11 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2843'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
