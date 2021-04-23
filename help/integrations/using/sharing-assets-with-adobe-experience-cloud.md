@@ -6,14 +6,14 @@ description: Partage de ressources avec Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
 ---
-
 
 # Partage de ressources avec Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 
@@ -33,4 +33,3 @@ Consultez la section [Configurer l&#39;accès à Assets](../../integrations/usin
 >[!NOTE]
 >
 >Dans le contexte d’un environnement Adobe Campaign On-Premise, l’intégration avec Assets core service et AEM Assets n’est pas disponible, sauf si AEM Assets est également On-Premise.
-
