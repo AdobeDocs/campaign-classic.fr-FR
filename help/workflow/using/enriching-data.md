@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow d’enrichissement
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '823'
 ht-degree: 100%
 
 ---
-
 
 # Enrichir des données{#enriching-data}
 
@@ -125,4 +125,3 @@ Afin de répartir les destinataires en fonction de leur score, une activité de 
 1. Pour chaque sous-ensemble, ajoutez une activité de type **[!UICONTROL Diffusion]**. Utilisez un modèle de diffusion différent pour chaque sous-ensemble.
 
    ![](assets/uc1_enrich_20.png)
-
