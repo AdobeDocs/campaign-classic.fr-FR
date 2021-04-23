@@ -6,14 +6,14 @@ description: Duplication d'environnements
 audience: production
 content-type: reference
 topic-tags: data-processing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1296'
 ht-degree: 100%
 
 ---
-
 
 # Duplication d&#39;environnements{#duplicating-environments}
 
@@ -69,6 +69,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pro
 >
 >* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
+
 >
 
 
