@@ -6,14 +6,14 @@ description: Surveillance des campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
 ---
-
 
 # Surveillance des campagnes marketing {#monitoring-marketing-campaigns}
 
