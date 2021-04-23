@@ -6,14 +6,14 @@ description: Coordonner les mises à jour des données
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
 
 ---
-
 
 # Coordonner les mises à jour des données{#coordinating-data-updates}
 
@@ -57,4 +57,3 @@ Pour créer le workflow, procédez comme suit :
 
 * [Empêcher les exécutions multiples simultanées](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
 * [Activité Mise à jour de données](../../workflow/using/update-data.md)
-
