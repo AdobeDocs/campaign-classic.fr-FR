@@ -6,14 +6,14 @@ description: Exemples
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1374'
 ht-degree: 100%
 
 ---
-
 
 # Exemples{#examples}
 
@@ -252,4 +252,3 @@ Les étapes sont les suivantes :
 1. Validez le kit pour activer sa publication.
 
    ![](assets/mkg_dist_use_case_form_6.png)
-
