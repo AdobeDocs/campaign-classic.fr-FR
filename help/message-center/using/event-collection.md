@@ -6,14 +6,14 @@ description: Collecte des événements
 audience: message-center
 content-type: reference
 topic-tags: event-processing
+exl-id: 63cde1c2-8f4c-4cb0-aa98-0c42f9e5f3c6
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # Collecte des événements{#event-collection}
 
