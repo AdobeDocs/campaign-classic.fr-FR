@@ -6,14 +6,14 @@ description: Règles de contrôle
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '382'
 ht-degree: 100%
 
 ---
-
 
 # Règles de contrôle{#control-rules}
 
@@ -73,4 +73,3 @@ Les étapes sont les suivantes :
    A la fin de l&#39;analyse, le bouton **[!UICONTROL Confirmer l&#39;envoi]** ne sera pas disponible.
 
    ![](assets/campaign_opt_create_control_06.png)
-
