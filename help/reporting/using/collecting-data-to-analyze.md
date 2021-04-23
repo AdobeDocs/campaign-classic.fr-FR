@@ -6,14 +6,14 @@ description: Collecter les données à analyser
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
 
 ---
-
 
 # Collecter les données à analyser{#collecting-data-to-analyze}
 
@@ -81,4 +81,3 @@ Paramétrez le nombre d&#39;enregistrements à extraire via la requête à l&#39
 
 * **[!UICONTROL Limiter au premier enregistrement]** pour extraire un seul résultat,
 * **[!UICONTROL Taille]** pour extraire un nombre d&#39;enregistrements précis.
-
