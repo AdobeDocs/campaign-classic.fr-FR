@@ -6,14 +6,14 @@ description: En savoir plus sur les paramètres de tracking web
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
-
 
 # Paramètres supplémentaires{#additional-parameters}
 
@@ -112,4 +112,3 @@ adobe@selma:~$ systemctl start apache2
 >[!NOTE]
 >
 >Pour Linux, si vous augmentez la taille des paramètres **webTrackingParamSize** ou **maxSharedLogs**, vous devrez peut-être augmenter la taille de la mémoire partagée (SHM).
-
