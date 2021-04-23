@@ -6,14 +6,14 @@ description: Contenu conditionnel
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '493'
 ht-degree: 100%
 
 ---
-
 
 # Contenu conditionnel{#conditional-content}
 
