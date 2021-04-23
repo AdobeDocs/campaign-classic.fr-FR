@@ -6,14 +6,14 @@ description: Paramétrage du multibranding
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: aa2e7ef7-fe69-41c8-9c90-bfb1533031a5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '235'
 ht-degree: 100%
 
 ---
-
 
 # Paramétrage du multibranding{#configuring-multibranding}
 
@@ -81,4 +81,3 @@ Sur l&#39;instance de pilotage, vous devez lier les modèles de diffusion et les
 1. Créez un compte externe par marque avec le même nom interne qu&#39;à l&#39;étape 1.
 1. Créez un modèle de diffusion par défaut par marque.
 1. Dans les **[!UICONTROL Propriétés]** du modèle de diffusion, définissez le routage sur le compte externe de la marque.
-
