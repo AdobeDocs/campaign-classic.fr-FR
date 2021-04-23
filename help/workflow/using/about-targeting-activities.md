@@ -6,14 +6,14 @@ description: A propos des activités de ciblage
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '404'
 ht-degree: 100%
 
 ---
-
 
 # A propos des activités de ciblage{#about-targeting-activities}
 
@@ -39,4 +39,3 @@ Ces activités permettent de construire une ou plusieurs cibles en définissant 
 * **Mise à jour de liste** : enregistre le résultat des activités entrantes dans une liste. Voir la section [Mise à jour de liste](../../workflow/using/list-update.md).
 * **Mise à jour de données** : permet de mettre à jour en masse des données de la base. Voir la section [Mise à jour des données](../../workflow/using/update-data.md).
 * **Connecteur CRM** : permet de paramétrer la synchronisation entre Adobe Campaign et un CRM. Voir la section [Connecteur CRM](../../workflow/using/crm-connector.md).
-
