@@ -6,14 +6,14 @@ description: Paramétrage de SpamAssassin
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 translation-type: ht
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
 ---
-
 
 # Paramétrage de SpamAssassin{#configuring-spamassassin}
 
@@ -194,4 +194,3 @@ Pour améliorer les performances sous Linux, éditez le fichier **/etc/spamassas
 ```
 dns_available no
 ```
-
