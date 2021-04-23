@@ -6,14 +6,14 @@ description: Découvrez comment utiliser Campaign pour interagir avec des client
 audience: social
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # A propos du marketing sur les réseaux sociaux{#about-social-marketing}
 
