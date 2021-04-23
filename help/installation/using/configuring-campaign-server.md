@@ -7,23 +7,23 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1582'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Prise en main de la configuration du serveur Campaign{#gs-campaign-server-config}
 
-Ce chapitre décrit les configurations côté serveur qui peuvent être effectuées en fonction de vos besoins et de vos spécificités environnements.
+Ce chapitre décrit les configurations côté serveur qui peuvent être exécutées en fonction de vos besoins et des spécificités de votre environnement.
 
 ## Restrictions
 
-Ces procédures sont limitées aux déploiements **sur site**/**hybrides** et nécessitent des autorisations d’administration.
+Ces procédures sont limitées aux déploiements **On-premise**/**hybrides** et nécessitent des autorisations d’administration.
 
-Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent être configurés que par Adobe. Cependant, certains paramètres peuvent être configurés dans [Campaign Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html), tels que la gestion des listes autorisées IP ou les autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html).
+Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent être configurés que par Adobe. Cependant, certains paramètres peuvent être configurés dans le [panneau de contrôle de Campaign ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr), comme la gestion des listes d’adresses IP autorisées ou les autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr).
 
 Pour plus d’informations, consultez les sections suivantes :
 
@@ -38,24 +38,24 @@ Les fichiers de configuration de Campaign Classic sont stockés dans le dossier 
 * **serverConf.xml** : configuration générale pour toutes les instances. Ce fichier regroupe les paramètres techniques du serveur Adobe Campaign : ces paramètres sont communs à toutes les instances. Vous trouverez ci-après la description de certains de ces paramètres. Les différents nœuds et paramètres sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 * **config-`<instance>`.xml** (où **instance** est le nom de l’instance) : configuration spécifique de l’instance. Si vous partagez votre serveur entre plusieurs instances, entrez les paramètres propres à chaque instance dans le fichier correspondant.
 
-## Étendue de la configuration
+## Périmètre de la configuration
 
 Configurez ou adaptez le serveur Campaign en fonction de vos besoins et de votre configuration. Vous pouvez ainsi :
 
-* Sécuriser l&#39;[identifiant interne](#internal-identifier)
-* Activer [les processus Campaign](#enabling-processes)
-* Configurer les [autorisations d&#39;URL](url-permissions.md)
-* Définir [Zones de sécurité](security-zones.md)
-* Configurer [les paramètres Tomcat](configure-tomcat.md)
-* Personnaliser les [paramètres de Diffusion](configure-delivery-settings.md)
-* Définir [Sécurité dynamique des pages et relais](#dynamic-page-security-and-relays)
-* Limiter la liste des commandes externes [autorisées](#restricting-authorized-external-commands)
-* Configurer [Suivi redondant](#redundant-tracking)
-* Gérer [Haute disponibilité et affinités de workflow](#high-availability-workflows-and-affinities)
+* Sécuriser l’[identifiant interne](#internal-identifier)
+* Activer [les processus de Campaign](#enabling-processes)
+* Configurer les [autorisations d’URL](url-permissions.md)
+* Définir les [zones de sécurité](security-zones.md)
+* Configurer les [paramètres Tomcat](configure-tomcat.md)
+* Personnaliser les [paramètres de diffusion](configure-delivery-settings.md)
+* Définir [la sécurité et les relais des pages dynamiques](#dynamic-page-security-and-relays)
+* Limiter la liste des [commandes externes autorisées](#restricting-authorized-external-commands)
+* Configurer un [tracking redondant](#redundant-tracking)
+* Gérer la [haute disponibilité et les affinités de workflow](#high-availability-workflows-and-affinities)
 * Configurer la gestion des fichiers - [En savoir plus](file-res-management.md)
-   * Limiter le format des fichiers de téléchargement
-   * Activer l&#39;accès aux ressources publiques
-   * Configurer la connexion du proxy
+   * Limiter le format des fichiers envoyés
+   * Activer l’accès aux ressources publiques
+   * Configurer la connexion au proxy
 * [Redémarrage automatique des processus](#automatic-process-restart)
 
 
@@ -83,7 +83,7 @@ Confirmation: XXXX
 17:34:02 >   Password successfully changed for account 'internal' (authentication mode 'nl')
 ```
 
-## Activer les processus {#enabling-processes}
+## Activation des processus {#enabling-processes}
 
 L’activation (ou la désactivation) des processus Adobe Campaign se fait sur le serveur à partir des fichiers **config-default.xml** et **`config-<instance>.xml`**.
 
@@ -135,14 +135,14 @@ Vous pouvez configurer le répertoire de stockage (répertoire **var**) des donn
 
 * Sous Linux, rendez-vous dans le fichier **customer.sh** et indiquez : **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   Pour plus d&#39;informations à ce sujet, reportez-vous à la section [Personnaliser les paramètres](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+   Pour plus d’informations à ce sujet, reportez-vous à la section [Personnalisation des paramètres](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 
 ## Sécurité et relais des pages dynamiques {#dynamic-page-security-and-relays}
 
 Par défaut, toutes les pages dynamiques sont automatiquement liées au serveur Tomcat **local** de la machine dont le module web a démarré. Cette configuration est saisie dans la section **`<url>`** de la configuration du relais de requête pour le fichier **ServerConf.xml**.
 
-Vous pouvez relayer l&#39;exécution de la page dynamique sur un serveur **distant** ; si le module Web n&#39;est pas activé sur l&#39;ordinateur. Pour ce faire, vous devez remplacer **localhost** par le nom de l’ordinateur distant pour JSP et JSSP, les Applications web, les rapports et les chaînes.
+Vous pouvez relayer l’exécution de la page dynamique sur un serveur **distant** si le module Web n’est pas activé sur l’ordinateur. Pour ce faire, vous devez remplacer **localhost** par le nom de l’ordinateur distant pour JSP et JSSP, les applications web, les rapports et les chaînes.
 
 Pour plus d’informations sur les différents paramètres disponibles, consultez le fichier de configuration **serverConf.xml**.
 
@@ -192,7 +192,7 @@ Dans cet exemple, la valeur **`<IP_addresses>`** correspond à la liste des adre
 
 ### Gérer les en-têtes HTTP {#managing-http-headers}
 
-Par défaut, tous les en-têtes HTTP ne sont pas relayés. Vous pouvez ajouter des en-tête spécifiques dans les réponses transmises par le relais. Pour cela :
+Par défaut, tous les en-têtes HTTP ne sont pas relayés. Vous pouvez ajouter des en-têtes spécifiques dans les réponses transmises par le relais. Pour cela :
 
 1. Accédez au fichier **serverConf.xml**.
 1. Dans le nœud **`<relay>`**, accédez à la liste des en-têtes HTTP relayés.
@@ -270,7 +270,7 @@ Les URL des serveurs redondants doivent être renseignées dans la configuration
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-La propriété **enableIf** est facultative (vide par défaut) et vous permet d&#39;activer la connexion uniquement si le résultat est true. Vous pouvez ainsi obtenir une configuration identique sur tous les serveurs de redirection.
+La propriété **enableIf** est optionnelle (vide par défaut) et permet de n’activer la connexion que si le résultat est vrai. Ceci afin d’obtenir une configuration identique sur tous les serveurs de redirection.
 
 Pour connaître le hostname de la machine, exécutez la commande suivante : **hostname -s**.
 
@@ -288,7 +288,7 @@ Vous pouvez choisir de forcer l&#39;exécution d&#39;un workflow ou d&#39;une ac
 
 1. Créez la ou les affinités du workflow ou de l&#39;activité en la tapant dans le champ **[!UICONTROL Affinité]**.
 
-   Vous pouvez choisir n’importe quel nom d’affinité, mais veillez à ne pas utiliser d’espaces ni de signes de ponctuation. Si vous utilisez des serveurs différents, spécifiez des noms différents.
+   Vous pouvez choisir n’importe quel nom d’affinité, mais veillez à ne pas utiliser d’espaces ni de signes de ponctuation. Si vous utilisez des serveurs différents, spécifiez aussi des noms différents.
 
    ![](assets/s_ncs_install_server_wf_affinity01.png)
 
