@@ -6,14 +6,14 @@ description: A propos des canaux entrants
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: 33247728-b865-4dfd-814f-2900965a7187
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '218'
 ht-degree: 100%
 
 ---
-
 
 # A propos des canaux entrants{#about-inbound-channels}
 
