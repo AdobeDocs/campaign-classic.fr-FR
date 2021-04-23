@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de lecture de liste
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
 ---
-
 
 # Lecture de liste{#read-list}
 
@@ -70,4 +70,3 @@ Les profils contenus dans le dossier **NvxContacts** doivent être ciblés par u
    ![](assets/s_advuser_list_read_sample_4.png)
 
 1. Sélectionnez ensuite le champ correspondant à l&#39;adresse email dans les deux ensembles (Source et Destination). Les colonnes seront alors associées et les destinataires dont l&#39;adresse email figure dans la liste d&#39;adresses importée seront exlcus de la cible.
-
