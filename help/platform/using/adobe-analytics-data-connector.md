@@ -3,17 +3,17 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics - Data Connector
 description: Adobe Analytics - Data Connector
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner, Administrator
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 99%
+exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '1810'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics - Data Connector{#adobe-analytics-data-connector}
 
@@ -282,4 +282,3 @@ Adobe Campaign met à votre disposition des modèles de diffusion personnalisés
 Le rapport **[!UICONTROL Efficacité du remarketing]** est accessible depuis la page des rapports globaux. Il permet de visualiser le nombre de contacts convertis (ayant réalisés un achat) par rapport aux abandons de panier suite à la campagne de remarketing d&#39;Adobe Campaign. Le taux de conversion est calculé sur les 7 ou 30 derniers jours ou depuis le début de la synchronisation entre Adobe Campaign et les outils de Web Analytics.
 
 ![](assets/webanalytics_reporting.png)
-
