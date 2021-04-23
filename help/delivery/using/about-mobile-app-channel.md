@@ -6,24 +6,24 @@ description: Cette section contient des informations générales spécifiques à
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
+# Prise en main du canal des applications mobiles (Mobile App Channel){#about-mobile-app-channel}
 
-# Commencer avec le canal d’application mobile {#about-mobile-app-channel}
-
-Le **Canal d’applications mobiles** vous permet d’utiliser la plate-forme Adobe Campaign pour envoyer des notifications Push personnalisées aux terminaux iOS et Android via des applications.
+Le canal des applications mobiles (**Mobile App Channel**) permet d’envoyer des notifications personnalisées depuis la plateforme Adobe Campaign sur des terminaux iOS et Android, via des applications.
 
 >[!CAUTION]
 >
 >Ce document décrit le processus d’intégration de votre application mobile avec la plateforme Adobe Campaign. Il ne donne aucune information ni sur la création de l’application mobile ni sur son paramétrage pour la gestion des notifications. Si vous souhaitez obtenir des informations à ce sujet, reportez-vous aux documentations officielles [Apple](https://developer.apple.com/) et [Android](https://developer.android.com/index.html).
 
-Deux canaux de diffusions sont disponibles :
+Deux canaux de diffusions sont disponibles :
 
 * Un canal iOS permettant d’envoyer des notifications sur les appareils mobiles Apple.
 
@@ -55,9 +55,9 @@ Vous pouvez définir le comportement de l’application lorsque l’utilisateur 
 
 Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez la [liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d&#39;informations sur les étapes de configuration, consultez la section [cette section](../../delivery/using/configuring-the-mobile-application.md).
+Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d’informations sur les étapes de configuration, voir [cette section](../../delivery/using/configuring-the-mobile-application.md).
 
-Pour plus d&#39;informations sur la création d&#39;une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Pour plus d’informations sur la création d’une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Parcours des données {#data-path}
 
@@ -103,4 +103,3 @@ Pour en tester le bon fonctionnement, utilisez les commandes suivantes :
    ```
 
 Avec le connecteur HTTP/2 iOS, le MTA, le serveur web et le serveur de workflow doivent pouvoir contacter l&#39;APNs sur le port 443.
-
