@@ -6,14 +6,14 @@ description: Fichiers temporaires
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
 translation-type: ht
-source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # Fichiers temporaires{#temporary-files}
 
