@@ -6,14 +6,14 @@ description: Schémas de données
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Schémas de données{#data-schemas}
 
@@ -121,4 +121,3 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
    ![](assets/s_ncs_configuration_structure.png)
 
 1. Mettez à jour la structure de la base de données pour créer la table à laquelle le schéma sera lié. Voir à ce propos la section [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md).
-
