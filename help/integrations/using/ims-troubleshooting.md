@@ -6,14 +6,14 @@ description: Dépanner IMS
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
 ---
-
 
 # Dépanner IMS{#ims-troubleshooting}
 
@@ -82,4 +82,3 @@ Redémarrez le serveur si des modifications ont été apportées aux paramètres
 * L&#39;utilisateur ne parvient pas à accéder à la page de login Adobe ID :
 
    Reportez-vous aux étapes précédentes pour vérifier le paramétrage du périmètre.
-
