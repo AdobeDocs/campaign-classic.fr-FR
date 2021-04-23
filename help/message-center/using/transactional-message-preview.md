@@ -6,14 +6,14 @@ description: Aperçu du message transactionnel
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 9eb94c78-6822-41ef-9fa1-cf0ac53b0490
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '58'
 ht-degree: 100%
 
 ---
-
 
 # Aperçu du message transactionnel{#transactional-message-preview}
 
