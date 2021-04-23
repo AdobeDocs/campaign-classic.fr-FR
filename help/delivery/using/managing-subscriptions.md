@@ -6,14 +6,14 @@ description: Gestion des inscriptions
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
+exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1155'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des inscriptions{#managing-subscriptions}
 
