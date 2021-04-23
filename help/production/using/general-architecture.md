@@ -6,14 +6,14 @@ description: Architecture générale
 audience: production
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '181'
 ht-degree: 100%
 
 ---
-
 
 # Architecture générale{#general-architecture}
 
@@ -56,4 +56,3 @@ La répartition des modules sur plusieurs machines offre une grande souplesse d&
 | 8005/tcp (local) | Adobe Campaign : module web | OUI |
 | 8080/tcp | Adobe Campaign : module web (tomcat) | OUI |
 | 7777 | Serveur de statistiques (stat server) | OUI |
-
