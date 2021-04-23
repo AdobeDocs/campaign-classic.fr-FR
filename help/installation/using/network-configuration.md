@@ -6,14 +6,14 @@ description: Découvrez les directives sur la communication du système
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
 ---
-
 
 # Configuration réseau{#network-configuration}
 
@@ -115,7 +115,7 @@ Pour le tracking des diffusions SMS (**nlserver sms**), le port suivant doit êt
   </tr> 
   <tr> 
    <td> 38000/tcp (port par défaut)<br /> </td> 
-   <td> Passerelle SMS<br /> </td> 
+   <td> SMS gateway<br /> </td> 
    <td> Interroge le statut des files d'attente de diffusion gérées par la passerelle SMS NetSize [option].<br /> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Emplacement <br /> </td> 
+   <td> Location<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
@@ -215,7 +215,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Emplacement <br /> </td> 
+   <td> Location<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
