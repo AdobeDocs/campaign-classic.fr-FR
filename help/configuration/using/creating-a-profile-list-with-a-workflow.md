@@ -6,14 +6,14 @@ description: Découvrez comment créer une liste de profils dans un workflow
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # Création d&#39;une liste de profils avec un workflow{#creating-a-profile-list-with-a-workflow}
 
@@ -46,5 +46,3 @@ Pour créer un workflow de ciblage et mettre à jour des destinataires dans une 
    Le tableau de bord précise le schéma sur lequel est basée la liste, comme le montre l&#39;écran ci-dessous :
 
    ![](assets/mapping_list_view.png)
-
-
