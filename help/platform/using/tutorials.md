@@ -6,14 +6,14 @@ description: Tutoriels
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
-workflow-type: tm+mt
+exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '398'
 ht-degree: 100%
 
 ---
-
 
 # Tutoriels{#tutorials}
 
