@@ -6,14 +6,14 @@ description: Gestion des images d'activité
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des images d&#39;activité{#managing-activity-images}
 
@@ -48,4 +48,3 @@ Les images utilisées dans les diagrammes des différents workflows peuvent êtr
 >Les images proposées sont celles qui sont enregistrées dans le noeud **[!UICONTROL Administration > Paramétrage > Images]** de l&#39;arborescence.
 >  
 >Les images doivent être au format PNG, 48x48 pixels, 16 millions de couleurs et avec un fond transparent.
-
