@@ -6,14 +6,14 @@ description: Prise en main du DCE Campaign
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
-workflow-type: tm+mt
+exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main de l‘éditeur HTML Campaign{#about-campaign-html-editor}
 
