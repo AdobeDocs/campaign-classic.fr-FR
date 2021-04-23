@@ -6,14 +6,14 @@ description: Découvrez comment configurer l’accès à Oracle dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '368'
 ht-degree: 100%
 
 ---
-
 
 # Configurer l’accès à Oracle {#configure-access-to-oracle}
 
@@ -97,6 +97,4 @@ Le compte externe [!DNL Oracle] permet de connecter votre instance Campaign à v
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
    * **[!UICONTROL Fuseau horaire]** : fuseau horaire du serveur
-
    ![](assets/oracle_config.png)
-
