@@ -6,14 +6,14 @@ description: Partage d'audiences avec Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-translation-type: tm+mt
-source-git-commit: 40abbf1f981331b8a19d3607c57624aac22c91f2
-workflow-type: tm+mt
+exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # Partage d&#39;audiences avec Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
 
@@ -39,6 +39,6 @@ L’intégration prend en charge deux types d’identifiants Adobe Experience Cl
 
    >[!NOTE]
    >
-   > La source de données d’ID déclarée peut désormais également être utilisée avec l’intégration du service principal People.
+   > Désormais, la source de données des ID déclarés peut également être utilisée avec l’intégration de People Core Service.
    >
-   >Si vous utilisez l’intégration de service principal People et souhaitez ajouter l’intégration d’Audience Manager, vous aurez besoin de l’aide d’un consultant Adobe Audience Manager pour éviter de perdre toutes les synchronisations d’ID collectées lors de la transition vers l’utilisation de cette source de données d’ID déclarés dans un contexte Adobe Audience Manager.
+   >Si vous utilisez l’intégration de People Core Service et que vous souhaitez ajouter l’intégration d’Audience Manager, vous aurez besoin de l’aide d’un consultant Adobe Audience Manager. Ce dernier vous aidera à éviter de perdre toutes les synchronisations d’ID collectées lors de la transition vers l’utilisation de cette source de données d’ID déclarés dans un contexte Adobe Audience Manager.
