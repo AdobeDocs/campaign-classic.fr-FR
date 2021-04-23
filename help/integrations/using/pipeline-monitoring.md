@@ -5,14 +5,14 @@ title: Configuration de l'intégration
 description: Configuration de l'intégration
 audience: integrations
 content-type: reference
+exl-id: 84399496-33fd-4936-85e7-32de8503740f
 translation-type: ht
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
 
 # Surveillance du pipeline {#pipeline-monitoring}
 
