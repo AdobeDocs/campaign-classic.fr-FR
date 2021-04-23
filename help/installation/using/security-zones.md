@@ -7,28 +7,28 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1493'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Définir des zones de sécurité (sur site){#defining-security-zones}
+# Définir des zones de sécurité (On-Premise){#defining-security-zones}
 
-Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration des zones de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
+Chaque opérateur doit être associé à une zone pour se connecter à une instance et l’adresse IP de l’opérateur doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité. La configuration des zones de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
 
-Les opérateurs sont liés à une zone de sécurité à partir de son profil dans la console, accessible dans le noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**. [En savoir plus](#linking-a-security-zone-to-an-operator).
+Un opérateur est lié à une zone de sécurité à partir de son profil dans la console, accessible dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**. [En savoir plus](#linking-a-security-zone-to-an-operator).
 
 >[!NOTE]
 >
->Cette procédure est limitée aux déploiements **sur site**.
+>Cette procédure est limitée aux déploiements **On-Premise**.
 >
->En tant que client **hébergé**, si vous pouvez accéder au [Panneau de Contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l&#39;interface en libre-service Zone de sécurité. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr)
+>En tant que client **hébergé**, si vous pouvez accéder au [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service de la zone de sécurité. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr)
 >
->Les autres clients **hybrides/hébergés** doivent contacter l&#39;équipe d&#39;assistance à l&#39;Adobe pour ajouter une adresse IP à la liste autorisée.
+>Les autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance d’Adobe pour ajouter une adresse IP à la liste autorisée.
 
 
 ## Création de zones de sécurité {#creating-security-zones}
@@ -36,9 +36,9 @@ Les opérateurs sont liés à une zone de sécurité à partir de son profil dan
 Une zone est définie par :
 
 * une ou plusieurs plages d&#39;adresses IP (IPv4 et IPv6)
-* un nom technique associé à chaque plage d&#39;adresses IP
+* un nom technique associé à chaque plage d’adresses IP
 
-Les zones de sécurité sont imbriquées. Chaque définition d&#39;une nouvelle zone à l&#39;intérieur d&#39;une autre réduit donc le nombre d&#39;opérateurs pouvant s&#39;y connecter tout en augmentant les droits attribués à chaque opérateur.
+Les zones de sécurité sont imbriquées. Chaque définition d’une nouvelle zone à l’intérieur d’une autre réduit donc le nombre d’opérateurs pouvant s’y connecter tout en augmentant les droits attribués à chaque opérateur.
 
 Les zones peuvent être définies lors de la configuration du serveur dans le fichier **serverConf.xml**. Tous les paramètres disponibles dans **serverConf.xml** sont répertoriés dans [cette section](../../installation/using/the-server-configuration-file.md).
 
@@ -221,7 +221,7 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
 
 
-## Recommandations    
+## Recommandations
 
 * Assurez-vous que le proxy inverse n’est pas autorisé dans subNetwork. Si c’est le cas, l’**ensemble** du trafic est détecté comme provenant de cette adresse IP locale et est donc considéré comme digne de confiance.
 
