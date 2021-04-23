@@ -6,14 +6,14 @@ description: Problèmes liés à l'affichage des images
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
-workflow-type: tm+mt
+exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
 ---
-
 
 # Problèmes liés à l&#39;affichage des images{#image-display-issues}
 
