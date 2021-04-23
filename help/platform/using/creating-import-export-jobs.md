@@ -6,14 +6,14 @@ description: Découvrez comment créer des traitements d'import et d'export dans
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # Création de traitements d’import et d’export {#creating-import-export-jobs}
 
@@ -36,5 +36,5 @@ Une fois les modèles paramétrés, les opérations d&#39;import et d&#39;export
 
 Toutes ces actions ouvrent les assistants d&#39;export ou d&#39;import de données. Ils sont détaillés dans les sections suivantes :
 
-* [Configuration d’une tâche d’importation](../../platform/using/executing-import-jobs.md)
-* [Configuration d’une tâche d’exportation](../../platform/using/executing-export-jobs.md)
+* [Configuration d’un traitement d’import](../../platform/using/executing-import-jobs.md)
+* [Configuration d’un traitement d’export](../../platform/using/executing-export-jobs.md)
