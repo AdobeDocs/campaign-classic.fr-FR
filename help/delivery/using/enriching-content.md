@@ -6,14 +6,14 @@ description: Enrichir le contenu
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '669'
 ht-degree: 100%
 
 ---
-
 
 # Enrichir le contenu{#enriching-content}
 
@@ -260,4 +260,3 @@ Le résultat obtenu après exécution du script :
 Le contenu du code JavaScript est ajouté à partir du dossier **[!UICONTROL Administration > Paramétrage > Gestion de contenu > Codes JavaScript]** et doit être renseigné dans le modèle de publication pour chaque transformation.
 
 ![](assets/d_ncs_content_link5.png)
-
