@@ -6,14 +6,14 @@ description: Eléments statiques dans un formulaire web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
-workflow-type: tm+mt
+exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1329'
 ht-degree: 100%
 
 ---
-
 
 # Eléments statiques dans un formulaire web{#static-elements-in-a-web-form}
 
