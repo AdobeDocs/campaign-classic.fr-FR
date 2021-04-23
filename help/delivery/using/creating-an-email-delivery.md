@@ -6,14 +6,14 @@ description: Créer une diffusion email
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '95'
 ht-degree: 100%
 
 ---
-
 
 # Créer une diffusion email{#creating-an-email-delivery}
 
