@@ -6,14 +6,14 @@ description: A propos du canal Courrier
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # A propos du canal Courrier{#about-direct-mail-channel}
 
