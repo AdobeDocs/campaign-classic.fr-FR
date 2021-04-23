@@ -6,14 +6,14 @@ description: API orientées données
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1885'
 ht-degree: 100%
 
 ---
-
 
 # API orientées données{#data-oriented-apis}
 
@@ -675,4 +675,3 @@ Par défaut, pour mettre à jour les éléments de collection XML, il faut rense
      </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-
