@@ -6,14 +6,14 @@ description: En savoir plus sur les directives à suivre lors du développement 
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 translation-type: ht
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '775'
 ht-degree: 100%
 
 ---
-
 
 # Instructions relatives aux scripts et au codage {#scripting-coding-guidelines}
 
