@@ -6,14 +6,14 @@ description: Découvrez comment les données obsolètes sont automatiquement net
 audience: production
 content-type: reference
 topic-tags: data-processing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2997'
 ht-degree: 100%
 
 ---
-
 
 # Workflow de nettoyage de la base de données{#database-cleanup-workflow}
 
