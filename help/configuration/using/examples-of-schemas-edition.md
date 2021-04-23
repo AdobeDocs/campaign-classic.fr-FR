@@ -6,14 +6,14 @@ description: Exemples d'édition de schémas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '664'
 ht-degree: 100%
 
 ---
-
 
 # Exemples d&#39;édition de schémas{#examples-of-schemas-edition}
 
