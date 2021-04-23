@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2355'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Avant de commencer l&#39;upgrade de build, les clients On-Premise doivent effect
 
 1. Obtenez la dernière version du [fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md).
 
-1. [Téléchargez le dernier build](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html). [En savoir plus](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html).
+1. [Téléchargez le dernier build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [En savoir plus](https://docs.adobe.com/content/help/fr-FR/experience-cloud/software-distribution/home.html).
 
 Vous devez également connaître toutes les [lignes de commande utiles](../../installation/using/command-lines.md) avant de commencer un upgrade de build :
 
@@ -146,7 +146,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 1. Arrêtez les services suivants :
 
-   * services Web (IIS) :  **iisreset /stop**
+   * services Web (IIS) :   **iisreset /stop**
    * service Adobe Campaign : **net stop nlserver6**
 
    >[!NOTE]
@@ -246,7 +246,7 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 
 Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
 
-1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
+1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
 1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
 
    ```
@@ -415,4 +415,4 @@ Voici la procédure pour effectuer une fusion complexe :
 * [FAQ sur l&#39;upgrade de build](../../platform/using/faq-build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
-* [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)
+* [[!DNL Gold Standard] programme](../../rn/using/gs-overview.md)
