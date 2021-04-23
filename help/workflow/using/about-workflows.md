@@ -6,14 +6,14 @@ description: Automatisez les processus avec des workflows, gérez les données e
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '655'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main des workflows{#gs-workflows}
 
