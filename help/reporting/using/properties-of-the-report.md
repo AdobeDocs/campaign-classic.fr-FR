@@ -6,14 +6,14 @@ description: En savoir plus sur les paramètres des propriétés du rapport
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '462'
 ht-degree: 100%
 
 ---
-
 
 # Propriétés du rapport{#properties-of-the-report}
 
