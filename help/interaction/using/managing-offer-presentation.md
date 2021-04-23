@@ -6,14 +6,14 @@ description: Gérer la présentation des offres
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1084'
 ht-degree: 100%
 
 ---
-
 
 # Gérer la présentation des offres{#managing-offer-presentation}
 
@@ -157,4 +157,3 @@ Pour préciser les propositions à comptabiliser via une requête, cliquez sur l
 Dans l&#39;exemple ci-dessous, les propositions à comptabiliser au bout de deux présentations sont celles de la catégorie **Offres spéciales**, pour l&#39;emplacement **Centre d&#39;appels**, dont le poids est inférieur à **20**.
 
 ![](assets/offer_typology_013.png)
-
