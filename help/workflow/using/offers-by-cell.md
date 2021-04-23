@@ -6,14 +6,14 @@ description: Offres par cellule
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '159'
 ht-degree: 100%
 
 ---
-
 
 # Offres par cellule{#offers-by-cell}
 
@@ -33,4 +33,3 @@ Pour cela :
       ![](assets/int_offer_per_cell1.png)
 
 1. Paramétrez ensuite une activité de diffusion correspondant au canal de votre choix. Voir à ce sujet la section [Diffusions cross-canal](../../workflow/using/cross-channel-deliveries.md).
-
