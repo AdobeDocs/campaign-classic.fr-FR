@@ -6,14 +6,14 @@ description: Purge des événements
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
-workflow-type: tm+mt
+exl-id: 275a333b-70cc-4549-ac52-ac8ce54c2805
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '90'
 ht-degree: 100%
 
 ---
-
 
 # Purge des événements{#purging-events}
 
