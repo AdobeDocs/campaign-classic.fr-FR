@@ -6,14 +6,14 @@ description: Temps traitement Message Center
 audience: message-center
 content-type: reference
 topic-tags: reports
+exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
 ---
-
 
 # Temps traitement Message Center{#message-center-processing-time}
 
@@ -33,4 +33,3 @@ Comme pour le rapport **[!UICONTROL Qualité de service Message Center]**, vous 
 >[!NOTE]
 >
 >Les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs sont paramétrables dans l&#39;assistant de déploiement d&#39;Adobe Campaign. Voir la section [Seuils de suivi](../../message-center/using/monitoring-thresholds.md).
-
