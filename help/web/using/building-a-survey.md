@@ -6,14 +6,14 @@ description: Conception d’un questionnaire
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
 ---
-
 
 # Conception d’un questionnaire{#building-a-survey}
 
@@ -137,4 +137,3 @@ Lorsque la page est actualisée, les questions affichées ne sont pas les mêmes
 >[!CAUTION]
 >
 >Lorsque vous affichez aléatoirement telle ou telle question (option **[!UICONTROL Tirage aléatoire des questions]** cochée au niveau de la page), vous devez veiller à ne pas utiliser dans ces questions des listes à choix multiples dans lesquelles une ou plusieurs sélections sont obligatoires.
-
