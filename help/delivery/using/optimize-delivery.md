@@ -5,14 +5,14 @@ title: Optimiser la diffusion des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
-workflow-type: tm+mt
+exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '743'
 ht-degree: 100%
 
 ---
-
 
 # Optimiser votre diffusion {#optimize-delivery}
 
