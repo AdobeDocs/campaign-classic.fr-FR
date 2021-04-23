@@ -6,14 +6,14 @@ description: Créer une connexion partagée
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
+exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 translation-type: ht
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1048'
 ht-degree: 100%
 
 ---
-
 
 # Créer une connexion partagée{#creating-a-shared-connection}
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >
 >* Les extensions de schéma effectuées sur les schémas utilisés par les [workflows techniques de Message Center](../../message-center/using/technical-workflows.md) sur les instances de pilotage ou d&#39;exécution doivent être dupliquées sur les autres instances utilisées par le module des messages transactionnels Adobe Campaign.
 >* L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
+
 >
 
 
@@ -156,4 +157,3 @@ Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réali
 1. Attribuez à chaque opérateur les droits en lecture et en écriture sur son dossier. Pour cela, effectuez un clic droit sur le dossier et sélectionnez **[!UICONTROL Propriétés]**. Sélectionnez ensuite l&#39;onglet **[!UICONTROL Sécurité]** et ajoutez l&#39;opérateur correspondant (**mc1** pour le dossier **Dossier 1** et **mc2** pour le dossier **Dossier 2**). Vérifiez que les cases **[!UICONTROL Lecture/Ecriture des données]** sont bien cochées.
 
    ![](assets/messagecenter_multi_control_6.png)
-
