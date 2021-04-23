@@ -6,14 +6,14 @@ description: Insérer une ressource partagée
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
 ---
-
 
 # Insérer une ressource partagée{#inserting-a-shared-asset}
 
@@ -48,4 +48,3 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées
 >[!NOTE]
 >
 >Si vous utilisez l&#39;intégration avec Adobe Target, vous pouvez utiliser une image partagée comme image par défaut. Consultez [cette page](../../integrations/using/integrating-with-adobe-target.md).
-
