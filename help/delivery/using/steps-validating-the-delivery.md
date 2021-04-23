@@ -6,14 +6,14 @@ description: Valider la diffusion
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: ba50892f7b9578cface142184a287d95c0e11370
-workflow-type: tm+mt
+exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1804'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
-
 
 # Validation de la diffusion {#validating-the-delivery}
 
@@ -25,17 +25,17 @@ Pour cela :
 
    Les règles appliquées pendant l&#39;analyse sont présentées dans [cette section](#validation-process-with-typologies). Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
 
-1. **Envoyer des BAT** : cette étape vous permet de contrôler le contenu, les URL, la personnalisation, etc. Pour en savoir plus, consultez les sections [Envoyer un BAT](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible de BAT spécifique](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. **Envoyer des BAT** : cette étape permet de contrôler le contenu, les adresses URL, la personnalisation, etc. Pour en savoir plus, consultez les sections [Envoyer un BAT](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!IMPORTANT]
 >
 >Les deux étapes ci-dessus DOIVENT être exécutées après chaque modification du contenu du message.
 
-## Analysez la diffusion {#analyzing-the-delivery}
+## Analyser la diffusion {#analyzing-the-delivery}
 
 L’analyse est l’étape servant au calcul de la population cible et à la préparation de la diffusion. Une fois la diffusion terminée, elle est prête à être envoyée.
 
-### Lancer l&#39;analyse {#launching-the-analysis}
+### Lancer l’analyse {#launching-the-analysis}
 
 1. Pour lancer l’analyse de diffusion, cliquez sur **[!UICONTROL Envoyer]**.
 1. Sélectionnez **[!UICONTROL Diffuser dès que possible]**.
@@ -83,7 +83,7 @@ Une fois le résultat de l’analyse vérifié, vous pourrez cliquer sur **[!UIC
 >
 >Cliquez sur le lien **[!UICONTROL Modifier la cible principale de la diffusion]** si le nombre de messages à envoyer ne correspond pas à votre paramétrage. Vous pourrez alors modifier la définition de la population ciblée et relancer l&#39;analyse.
 
-### Paramètres d’Analyse {#analysis-parameters}
+### Paramètres d’analyse {#analysis-parameters}
 
 L’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion permet de définir un ensemble d’informations relatives à la préparation des messages lors de la phase d’analyse.
 
@@ -92,15 +92,15 @@ L’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion permet de d
 Cet onglet permet d&#39;accéder aux options suivantes :
 
 * **[!UICONTROL Libellé et code diffusion]** : les options de cette section sont utilisées pour calculer les valeurs de ces champs pendant la phase d’analyse de diffusion. Le champ **[!UICONTROL Calculer le dossier d’exécution lors de l’analyse de la diffusion]** calcule le nom du dossier qui contiendra cette action de diffusion pendant la phase d’analyse.
-* **[!UICONTROL Mode de validation]** : ce champ permet de définir une diffusion manuelle ou automatique, une fois l’analyse terminée. Les modes de validation sont présentés dans la section [Modifier le mode d’approbation](#changing-the-approval-mode).
+* **[!UICONTROL Mode de validation]** : ce champ permet de définir une diffusion manuelle ou automatique, une fois l’analyse terminée. Les modes de validation sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
 * **[!UICONTROL Préparer les fragments de diffusion dans la base de données]** : cette option vous permet d’améliorer les performances de l’analyse des diffusions. Voir à ce propos [cette section](#improving-delivery-analysis).
 * **[!UICONTROL Préparer les données de personnalisation avec un workflow]** : cette
-option permet de préparer, dans un workflow automatique, les données de personnalisation contenues dans la diffusion, ce qui permet d’augmenter considérablement les performances d’exécution de la personnalisation. Pour plus d’informations à ce sujet, voir [Optimisation de la personnalisation](../../delivery/using/personalization-fields.md#optimizing-personalization).
+option permet de préparer, dans un workflow automatique, les données de personnalisation contenues dans la diffusion, ce qui permet d’augmenter considérablement les performances d’exécution de la personnalisation. Pour plus d’informations à ce sujet, voir la section [Optimiser la personnalisation](../../delivery/using/personalization-fields.md#optimizing-personalization).
 * **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l’analyse de la diffusion dans un processus à part. Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d’Adobe Campaign (nlserver web). En cochant cette option, vous êtes assuré que l’analyse sera menée à son terme, même en cas de défaillance du serveur applicatif.
 * **[!UICONTROL Enregistrer les requêtes de ciblage et de personnalisation dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d&#39;analyse.
 * **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans les contenus HTML. Elles seront affichées telles quelles dans les contenus envoyés. Ces directives sont introduites par la balise **&lt;%=**.
 
-### Améliorer les performances de l&#39;analyse de diffusion {#improving-delivery-analysis}
+### Améliorer les performances des analyses de diffusions {#improving-delivery-analysis}
 
 Pour accélérer la préparation de la diffusion, vous pouvez cocher l’option **[!UICONTROL Préparer les fragments de diffusion dans la base de données]** avant de lancer l’analyse.
 
@@ -112,7 +112,7 @@ Actuellement, cette option n’est disponible que si les conditions suivantes so
 * Vous ne pouvez pas cibler une population provenant d’un fichier externe. Pour une diffusion unique, cliquez sur le lien **[!UICONTROL À]** dans les **[!UICONTROL Paramètres de l’e-mail]** et vérifiez que l’option **[!UICONTROL Définie depuis la base de données]** est sélectionnée. Pour une diffusion utilisée dans un workflow, vérifiez que les destinataires sont **[!UICONTROL Spécifiés par le ou les événements entrants]** dans l’onglet **[!UICONTROL Diffusion]**.
 * Vous devez utiliser une base de données PostgreSQL.
 
-### Configurez la priorité de l&#39;analyse {#analysis-priority-}
+### Configurer la priorité d’analyse {#analysis-priority-}
 
 Lorsque votre diffusion fait partie d&#39;une campagne, l&#39;onglet **[!UICONTROL Avancé]** propose une option supplémentaire : celle-ci vous permet d&#39;organiser l&#39;ordre de traitement des diffusions d&#39;une même campagne.
 
@@ -134,8 +134,8 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 
 >[!NOTE]
 >
->* Les modes de validation disponibles sont détaillés dans [Modifier le mode d’approbation](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
->* La configuration de la cible de BAT est expliquée dans [Définir une cible de BAT spécifique](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+>* Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
+>* La configuration de la cible du BAT est expliquée dans la section [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >
 
@@ -143,13 +143,13 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 
 Pour envoyer un BAT, procédez comme suit :
 
-1. Assurez-vous que la cible du BAT a été configurée comme décrit dans [Définir une cible de BAT spécifique](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. Vérifiez que la cible du BAT a été configurée comme décrit dans la section [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 1. Cliquez sur **[!UICONTROL Envoyer un BAT]** dans la barre supérieure de l&#39;assistant de diffusion.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
-1. Lancez l’analyse des messages. Voir [Analyser la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
-1. Vous pouvez maintenant envoyer la diffusion (voir [Envoyer la diffusion](../../delivery/using/steps-sending-the-delivery.md)).
+1. Lancez l’analyse des messages. Voir la section [Analyser la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Vous pouvez maintenant envoyer la diffusion (voir la section [Envoyer la diffusion](../../delivery/using/steps-sending-the-delivery.md)).
 
    Une fois la diffusion envoyée, le BAT apparaît dans la liste de diffusion et est automatiquement créé et numéroté. Il peut être modifié si vous souhaitez accéder à son contenu et à ses propriétés. Voir à ce propos [cette page](../../delivery/using/about-delivery-monitoring.md).
 
@@ -176,7 +176,7 @@ L&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion permet de
 Les options disponibles sont les suivantes :
 
 * La première option permet de conserver les doublons du BAT.
-* Les deux options ci-dessous permettent de conserver les destinataires qui se trouvent sur la liste bloquée et les adresses en quarantaine. Voir la description de ces options pour la cible principale dans [Personnaliser les paramètres d’exclusion](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
+* Les deux options ci-dessous permettent de conserver les destinataires qui se trouvent sur la liste bloquée et les adresses en quarantaine. Voir la description de ces options pour la cible principale dans la section [Personnaliser les paramètres d’exclusion](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings). Contrairement à la cible d’une diffusion, où ces adresses sont exclues par défaut, elles sont conservées par défaut pour la cible d’un BAT.
 * L&#39;option **[!UICONTROL Conserver le code diffusion pour le BAT]** permet d&#39;attribuer au BAT le même code de diffusion que celui défini pour la diffusion à laquelle il correspond : ce code est spécifié dans la première étape de l&#39;assistant de diffusion.
 * Par défaut, l&#39;objet du BAT est préfixé par &quot;BAT N°&quot;, où N° correspond au numéro du BAT. Vous pouvez modifier ce préfixe dans le champ **[!UICONTROL Préfixe du libellé]**.
 
@@ -198,7 +198,7 @@ Vous pouvez visualiser et éditer les règles de validation, leur contenu, leur 
 
 Vous pouvez créer de nouvelles règles et définir de nouvelles typologies depuis ce noeud. Ces opérations sont toutefois réservées à des utilisateurs experts, maîtrisant le langage JavaScript.
 
-Pour plus d&#39;informations sur les règles de typologie, consultez [cette page](../../campaign/using/about-campaign-typologies.md).
+Pour plus d’informations sur les règles de typologie, consultez [cette page ](../../campaign/using/about-campaign-typologies.md).
 
 Vous pouvez également éditer la typologie courante en cliquant sur l&#39;icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
 
@@ -212,7 +212,7 @@ L&#39;onglet **[!UICONTROL Règle]** propose la liste des règles de typologie �
 >
 >Les typologies de type **[!UICONTROL Arbitrage]** sont utilisées dans le cadre de la gestion de la pression commerciale. Voir à ce sujet [cette section](../../campaign/using/about-marketing-resource-management.md).
 
-## Modifier le mode d’approbation {#changing-the-approval-mode}
+## Changer le mode de validation {#changing-the-approval-mode}
 
 L&#39;onglet **[!UICONTROL Analyse]** des propriétés de la diffusion vous permet de sélectionner le mode de validation. En effet, si des avertissements sont générés lors de l&#39;analyse (par exemple, si certains caractères sont accentués dans le sujet de la diffusion, etc.), vous pouvez paramétrer la diffusion afin de définir si elle doit toutefois être exécutée ou non. Par défaut, à la fin de la phase d&#39;analyse, l&#39;utilisateur doit valider l&#39;envoi des messages : il s&#39;agit d&#39;une validation **manuelle**.
 
