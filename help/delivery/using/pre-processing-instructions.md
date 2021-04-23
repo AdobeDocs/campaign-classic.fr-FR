@@ -6,14 +6,14 @@ description: Découvrez les instructions de pré-traitement à utiliser pour éc
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 translation-type: ht
-source-git-commit: 8aab4bc23d688aa225cfc636936cf2835840e410
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Instructions de pré-traitement {#pre-processing-instructions}
 
@@ -185,7 +185,6 @@ La solution consiste à :
    }
    <%@ value object='endScript' %>
    ```
-
 1. Afficher l’article en appelant la fonction.
 
    ```
@@ -196,4 +195,3 @@ La solution consiste à :
    }
    %>
    ```
-
