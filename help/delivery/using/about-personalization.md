@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Commencer avec la personnalisation
-description: Découvrez comment personnaliser les messages et utiliser le contenu conditionnel dans Campaign
+title: Prise en main de la personnalisation
+description: Découvrez comment personnaliser les messages et utiliser un contenu conditionnel dans Campaign
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
@@ -11,11 +11,11 @@ translation-type: tm+mt
 source-git-commit: d3ef2783409a3a36badbd3f8248ba1bdf6acae7e
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Commencer avec la personnalisation{#about-personalization}
+# Prise en main de la personnalisation{#about-personalization}
 
 Les messages diffusés par Adobe Campaign peuvent faire l&#39;objet de plusieurs types de personnalisation. Les axes de personnalisation peuvent concerner le contenu ou la présentation, ils peuvent être combinés en fonction de critères issus notamment des profils des destinataires. Pour les diffusions par email, vous pouvez définir les éléments et conditions de personnalisation d&#39;une diffusion directement en JavaScript à partir de l&#39;onglet **[!UICONTROL Source]** du message. D&#39;une manière générale, Adobe Campaign vous permet de :
 
