@@ -3,19 +3,19 @@ solution: Campaign Classic
 product: campaign
 title: À propos des imports et exports génériques
 description: En savoir plus sur les imports et exports génériques.
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 91%
+exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '126'
+ht-degree: 100%
 
 ---
 
-
-# Commencer les tâches d&#39;importation et d&#39;exportation {#about-generic-imports-exports}
+# Prise en main des traitements d’import et d’export {#about-generic-imports-exports}
 
 Adobe Campaign Classic fournit des imports et exports génériques. Ils vous permettent, par exemple, d&#39;extraire une liste de clients ou de prospects qui feront alors partie d&#39;une population cible, ou de fournir à votre base de données des données provenant de fichiers externes.
 
@@ -29,5 +29,3 @@ Les étapes permettant d&#39;effectuer des opérations d&#39;import et d&#39;exp
 1. [Créer un traitement d&#39;import ou d&#39;export](../../platform/using/creating-import-export-jobs.md).
 1. Configurer et exécuter le traitement [import](../../platform/using/executing-import-jobs.md) ou [export](../../platform/using/executing-export-jobs.md).
 1. [Surveiller](../../platform/using/monitoring-jobs-execution.md) l&#39;exécution du traitement.
-
-
