@@ -6,14 +6,14 @@ description: Créer une opération collaborative
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
 ---
-
 
 # Créer une opération collaborative{#creating-a-collaborative-campaign-intro}
 
