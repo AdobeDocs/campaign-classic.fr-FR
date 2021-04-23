@@ -6,14 +6,14 @@ description: Découvrez les étapes principales pour créer un nouveau rapport
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '961'
 ht-degree: 100%
 
 ---
-
 
 # Création d’un rapport{#creating-a-new-report}
 
