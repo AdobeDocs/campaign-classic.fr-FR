@@ -6,14 +6,14 @@ description: Configuration des options de tracking d’URL
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 translation-type: ht
-source-git-commit: 019c982dcf040fb2dc2a1c82d4a2ff5a964ec5fa
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
 ---
-
 
 # Configuration des options de tracking d’URL{#personalizing-url-tracking}
 
