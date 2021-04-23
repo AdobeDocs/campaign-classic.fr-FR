@@ -6,14 +6,14 @@ description: Découvrez comment configurer, concevoir et envoyer des emails qui 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: 44634227-2340-49c4-b330-740c739ea551
 translation-type: ht
-source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '799'
 ht-degree: 100%
 
 ---
-
 
 # Envoi d&#39;emails sur un mobile japonais {#sending-emails-on-japanese-mobiles}
 
