@@ -7,11 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
    * ServerSignature **Off**
    * ServerTokens **Prod**
 
-   **Sous IIS**, effectuez la configuration suivante :
+   **Sur IIS**, effectuez la configuration suivante :
 
    * Installez **URLScan**.
    * Modifiez le fichier **Urlscan.ini** afin d’obtenir **RemoveServerHeader=1**.
@@ -66,7 +66,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 * Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux :
 
-   **Sur Apache**, ajoutez la directive  **** LimitRequestBodydirective (taille en octets) dans le répertoire /.
+   **** Sur Apache, ajoutez la directive **LimitRequestBody** (taille en octets) dans le répertoire /.
 
    ```
    <Directory />
