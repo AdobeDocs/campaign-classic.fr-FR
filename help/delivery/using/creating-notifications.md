@@ -6,14 +6,14 @@ description: Découvrez comment créer des notifications push
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '892'
 ht-degree: 100%
 
 ---
-
 
 # Créer des notifications{#creating-notifications}
 
