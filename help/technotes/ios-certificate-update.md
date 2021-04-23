@@ -6,11 +6,11 @@ description: Note technique
 hide: false
 hidefromtoc: true
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Pour intégrer le nouveau certificat, procédez comme suit :
 
 1. Téléchargez le certificat racine **AAACertificateServices 5/12/2020** [à partir de cette page](https://support.sectigo.com/Com_KnowledgeDetailPage?Id=kA03l00000117cL).
 
-1. Vérifiez que le certificat AAA est présent à la fois dans votre système d’exploitation et dans les Trust Store JAVA. Sinon, ajoutez-le.
+1. Vérifiez que le certificat AAA est présent à la fois dans votre système d’exploitation et dans les truststores JAVA. Sinon, ajoutez-le.
 
 1. Redémarrez le service web d’Adobe Campaign :
 
