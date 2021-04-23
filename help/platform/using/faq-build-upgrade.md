@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2027'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign fait l&#39;objet de mises à jour régulières. Si vous connaiss
 
 C&#39;est pourquoi il est essentiel que nos clients exécutent la version la plus récente d&#39;Adobe Campaign. Nous pouvons ainsi vous aider plus efficacement si vous rencontrez des problèmes ; l&#39;identification, la reproduction et la résolution d&#39;un problème sur un ancien build prend généralement plus de temps, sans compter que vos éventuels problèmes peuvent avoir été corrigés dans un build récent.
 
-[!DNL Gold Standard] est la version de prise en charge à long terme du Campaign Classic. En tant qu&#39;utilisateur hébergé [!DNL Gold Standard], vous bénéficiez automatiquement de la mise à niveau de [!DNL Gold Standard] avec la dernière version stable sans aucune action. Les clients sur site et hybrides peuvent également bénéficier de [!DNL Gold Standard] versions. Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version. [En savoir plus](../../rn/using/gs-overview.md).
+[!DNL Gold Standard] est la version de prise en charge à long terme de Campaign Classic. En tant qu’utilisateur [!DNL Gold Standard]hébergé, vous bénéficiez automatiquement de la mise à niveau vers [!DNL Gold Standard] avec la dernière version stable sans que vous n’ayez aucune action à effectuer. Les clients On-premise et hybrides peuvent également bénéficier des versions [!DNL Gold Standard]. Si vous migrez depuis un ancien build, nous vous recommandons d’effectuer d’abord la mise à niveau vers cette version. [En savoir plus](../../rn/using/gs-overview.md).
 
 ## Qu&#39;est-ce qu&#39;un upgrade de build ?
 
@@ -104,7 +104,7 @@ Identifiez les heures de faible volume ou trafic qui seraient idéales pour les 
 
 Consultez notre [liste de contrôle d&#39;upgrade de build ci-dessous](#check-list) et vos plans de test, et vérifiez que les ressources qui peuvent réaliser ces tests sont disponibles dans les 24/48 heures suivant un upgrade.
 
-Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html).
+Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
 
 ## Les upgrades peuvent-ils être effectués le soir ou en dehors des heures de bureau ?
 
@@ -206,4 +206,4 @@ du contenu est présent et s&#39;affiche.
 * [Réalisation d&#39;un upgrade de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
-* [[!DNL Gold Standard] program](../../rn/using/gs-overview.md)
+* [[!DNL Gold Standard] programme](../../rn/using/gs-overview.md)
