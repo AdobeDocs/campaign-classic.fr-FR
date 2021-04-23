@@ -6,14 +6,14 @@ description: En savoir plus sur le cycle de vie d’un workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
-
 
 # Cycle de vie d&#39;un workflow {#workflow-life-cycle}
 
