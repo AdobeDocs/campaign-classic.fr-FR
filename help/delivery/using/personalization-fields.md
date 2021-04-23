@@ -6,14 +6,14 @@ description: Champs de personnalisation
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '926'
 ht-degree: 100%
 
 ---
-
 
 # Champs de personnalisation{#personalization-fields}
 
