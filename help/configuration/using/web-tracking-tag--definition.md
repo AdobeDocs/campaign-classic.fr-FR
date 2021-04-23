@@ -6,14 +6,14 @@ description: '"Balise de tracking web : définition"'
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
 ---
-
 
 # Balise de tracking web : définition{#web-tracking-tag-definition}
 
@@ -130,4 +130,3 @@ Les méthodes possibles sont les suivantes :
 
 * Insertion de l&#39;URL dans l&#39;attribut **&quot;src&quot;** d&#39;une balise HTML **`<img>`** intégrée à la page Web que l&#39;on souhaite tracker.
 * Appel direct au serveur de redirection au moment de la génération de la page Web que l&#39;on souhaite tracker.
-
