@@ -6,7 +6,7 @@ description: Notes de mise à jour de Campaign 18.6
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
