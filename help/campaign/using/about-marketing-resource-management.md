@@ -6,14 +6,14 @@ description: A propos de la gestion des ressources marketing
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '402'
 ht-degree: 100%
 
 ---
-
 
 # A propos de la gestion des ressources marketing{#about-marketing-resource-management}
 
@@ -60,4 +60,3 @@ En complément, les plans et programmes d&#39;Adobe Campaign proposent des fonct
 * Gestion des tâches. Voir à ce sujet la section [Créer et gérer les tâches](../../campaign/using/creating-and-managing-tasks.md)
 
 * Gestion des ressources marketing. Voir à ce sujet la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md)
-
