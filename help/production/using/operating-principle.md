@@ -6,14 +6,14 @@ description: Principe de fonctionnement
 audience: production
 content-type: reference
 topic-tags: production-procedures
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '500'
 ht-degree: 100%
 
 ---
-
 
 # Principe de fonctionnement{#operating-principle}
 
@@ -126,4 +126,3 @@ Usage: nlserver [-verbose:<verbose mode>] [-?|h|H] [-version] [-noconsole]
 -filter : applies the XTK filter contained in the file during loading of the schema entities.
 -setactivationkey : sets the activation key
 ```
-
