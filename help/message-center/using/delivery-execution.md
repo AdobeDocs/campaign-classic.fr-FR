@@ -6,14 +6,14 @@ description: Exécution de la diffusion
 audience: message-center
 content-type: reference
 topic-tags: event-processing
+exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 translation-type: ht
-source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # Exécution de la diffusion{#delivery-execution}
 
