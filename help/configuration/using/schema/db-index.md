@@ -6,14 +6,14 @@ description: Eléments et attributs
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
-workflow-type: tm+mt
+exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
 ---
-
 
 # élément dbindex{#dbindex--element}
 
