@@ -6,14 +6,14 @@ description: En savoir plus sur la résolution des problèmes liés au canal SMS
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2744'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes de SMS {#troubleshooting-sms}
 
