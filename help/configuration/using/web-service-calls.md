@@ -7,11 +7,11 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ La partie `<service>` décrit le service &quot;XtkQueryDef&quot; avec son URI su
 
 ## Connectivité {#connectivity}
 
-Adobe Campaign a renforcé la sécurité des mécanismes d&#39;authentification en introduisant [zones de sécurité](../../installation/using/security-zones.md) et paramètres de gestion des sessions.
+Adobe Campaign a renforcé la sécurité des mécanismes d’authentification en introduisant les [zones de sécurité](../../installation/using/security-zones.md) et paramètres de gestion des sessions.
 
 Deux modes d&#39;authentification sont disponibles :
 
