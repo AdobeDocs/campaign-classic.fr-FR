@@ -7,19 +7,19 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Lancement d’Adobe Campaign{#launching-adobe-campaign}
+# Lancement d’Adobe Campaign{#launching-adobe-campaign}
 
 La console cliente Campaign est un client riche qui vous permet de vous connecter à votre ou vos serveur(s) applicatif(s) Campaign. Découvrez comment télécharger et configurer la console cliente en consultant [cette page](../../installation/using/installing-the-client-console.md).
 
-## Début Adobe Campaign {#starting-adobe-campaign}
+## Lancement d’Adobe Campaign {#starting-adobe-campaign}
 
 Vous pouvez démarrer Adobe Campaign à partir du menu **[!UICONTROL Démarrer / Tous les programmes / Adobe Campaign v.X / Console cliente Adobe Campaign]**.
 
@@ -27,7 +27,7 @@ La page de connexion de la console cliente permet de configurer ou de sélection
 
 ![](assets/acc-logon.png)
 
-## Connexion à Adobe Campaign {#connecting-to-adobe-campaign}
+## Connexion à Adobe Campaign {#connecting-to-adobe-campaign}
 
 Il est possible de vous connecter à Adobe Campaign via votre Adobe ID. Voir à ce sujet [cette page](../../integrations/using/about-adobe-id.md).
 
@@ -74,7 +74,7 @@ Les identifiants et mots de passe des opérateurs ayant accès au logiciel, ains
 
 Cette fonctionnalité est décrite dans la section [Gestion des accès](../../platform/using/access-management.md).
 
-## Déconnexion de Adobe Campaign {#disconnecting-from-adobe-campaign}
+## Déconnexion d’Adobe Campaign {#disconnecting-from-adobe-campaign}
 
 Pour vous déconnecter d’Adobe Campaign, utilisez la première icône de la barre d’icônes.
 
@@ -84,7 +84,7 @@ Pour vous déconnecter d’Adobe Campaign, utilisez la première icône de la ba
 >
 >Vous pouvez également quitter directement l’application, sans vous déconnecter au préalable.
 
-## Obtenez votre version Adobe Campaign {#getting-your-campaign-version}
+## Obtention de la version d’Adobe Campaign {#getting-your-campaign-version}
 
 Le menu **[!UICONTROL Aide > À propos...]** vous permet d’accéder aux informations suivantes :
 
@@ -97,14 +97,14 @@ Le menu **[!UICONTROL Aide > À propos...]** vous permet d’accéder aux infor
 
 Lorsque vous contactez l&#39;équipe d&#39;Assistance clientèle d&#39;Adobe, vous devez indiquer les numéros de version et de build du serveur applicatif et de la console cliente Campaign.
 
-Si vous utilisez la [ [!DNL Gold Standard] version Campaign ](../../rn/using/gold-standard.md), vous devez également partager les caractères SHA/1 qui s&#39;affichent dans la boîte de dialogue **[!UICONTROL À propos]**. Par exemple, pour la version Gold **Standard 10**, le numéro de build indique **build 9032@efd8a94**, comme illustré ci-dessous :
+Si vous utilisez la [ [!DNL Gold Standard] version Campaign](../../rn/using/gold-standard.md), vous devez également partager les caractères SHA/1 qui s’affichent dans la boîte de dialogue **[!UICONTROL À propos]**. Par exemple, pour la version Gold **Standard 10**, le numéro de build indique **build 9032@efd8a94**, comme illustré ci-dessous :
 
 ![](assets/about-acc-gs.png)
 
-Pour en savoir plus sur [!DNL Gold Standard] [dans cet article ](../../rn/using/gs-overview.md).
+Pour en savoir plus sur la version [!DNL Gold Standard], [voir cet article](../../rn/using/gs-overview.md).
 
 **Rubriques connexes** :
 
 * [Options d&#39;aide et de support d&#39;Adobe Campaign](../../support.md)
-* [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html)
+* [Distribution du logiciel Adobe Campaign](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Adobe Experience Cloud et sessions d&#39;experts](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
