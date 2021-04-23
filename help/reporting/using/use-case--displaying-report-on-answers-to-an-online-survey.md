@@ -6,14 +6,14 @@ description: '"Cas pratique : affichage d''un rapport sur les réponses à un qu
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
+exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
 ---
-
 
 # Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -88,4 +88,3 @@ Vous pouvez ensuite créer un rapport basé sur ce cube et en exploiter les donn
 Adaptez les informations à afficher selon vos besoins.
 
 ![](assets/reporting_usecase_3_02.png)
-
