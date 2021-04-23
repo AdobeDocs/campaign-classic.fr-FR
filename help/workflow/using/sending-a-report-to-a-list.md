@@ -6,14 +6,14 @@ description: Découvrez comment envoyer un rapport à une liste à l’aide d’
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
 
 ---
-
 
 # Envoyer un rapport à une liste{#sending-a-report-to-a-list}
 
@@ -128,6 +128,4 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
    * Pour les champs **[!UICONTROL Destinataires]** et **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Spécifiés dans la diffusion]**.
    * **[!UICONTROL Action à effectuer]** : sélectionnez **[!UICONTROL Préparer et démarrer]**.
    * Décochez les options **[!UICONTROL Générer une transition sortante]** et **[!UICONTROL Traiter les erreurs]**.
-
    ![](assets/use_case_report_11.png)
-
