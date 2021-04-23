@@ -6,14 +6,14 @@ description: Images absentes
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
-workflow-type: tm+mt
+exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '111'
 ht-degree: 100%
 
 ---
-
 
 # Images absentes{#images-missing}
 
