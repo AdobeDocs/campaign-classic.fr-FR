@@ -6,14 +6,14 @@ description: Chargement (SOAP)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
-
 
 # Chargement (SOAP){#loading-soap}
 
@@ -54,4 +54,3 @@ Le principe de fonctionnement est le suivant :
       Le code de cet onglet sera appelé en boucle par Adobe Campaign jusqu&#39;à ce qu&#39;un objet XML null soit retourné.
 
    * **[!UICONTROL Finalisation]** : fermeture de la connexion et/ou libération des autres ressources créées lors du traitement.
-
