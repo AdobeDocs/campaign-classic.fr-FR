@@ -6,14 +6,14 @@ description: Périmètre de la simulation
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
 ---
-
 
 # Périmètre de la simulation{#simulation-scope}
 
@@ -51,4 +51,3 @@ Vous pouvez enrichir l&#39;analyse de la simulation en ajoutant des axes de repo
 Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les champs voulus. Les axes seront utilisés pour le calcul de la simulation et apparaîtront dans le rapport d&#39;analyse. Voir à ce sujet [Enregistrement du tracking](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)
-
