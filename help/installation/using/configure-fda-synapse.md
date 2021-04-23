@@ -6,14 +6,14 @@ description: Découvrez comment configurer l’accès à Synapse dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '717'
 ht-degree: 100%
 
 ---
-
 
 # Configurer l’accès à Azure Synapse {#configure-access-to-azure-synapse}
 
@@ -217,4 +217,3 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
    * **[!UICONTROL Mot de passe]** : mot de passe du compte utilisateur
 
    * **[!UICONTROL Base de données]** : nom de la base de données
-
