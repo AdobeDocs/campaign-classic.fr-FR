@@ -6,14 +6,14 @@ description: Quels sont les points clés à vérifier lors de la gestion de la d
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
-source-git-commit: 5d1a653a9a164c34bb70efcc86ff2d7bdf1130a2
-workflow-type: tm+mt
+exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '671'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes de délivrabilité{#deliverability-faq}
 
