@@ -1,17 +1,17 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuration technique des courriers électroniques
-description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des courriers électroniques.
+title: Configuration technique des emails
+description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des emails.
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c62caeacd374b31f597f3c4b23318b8705fbda61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3089'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ La section ci-après présente les paramétrages nécessaires pour contrôler le
 >
 >Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
-Pour en savoir plus sur les concepts et les meilleures pratiques liés à la délivrabilité avec Adobe Campaign, consultez cette [section](../../delivery/using/about-deliverability.md).
+Pour en savoir plus sur les bonnes pratiques et les concepts relatifs à la délivrabilité avec Adobe Campaign, voir cette [section](../../delivery/using/about-deliverability.md).
 
-Pour un examen plus approfondi de ce qu&#39;est la délivrabilité, y compris toutes les recommandations techniques concernant l&#39;envoi et la réception efficaces de courriels par une plate-forme d&#39;Adobe, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr-FR).
+Pour un examen plus approfondi de ce qu’est la délivrabilité, y compris les recommandations techniques concernant l’envoi et la réception efficaces d’emails par une plateforme d’Adobe, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 ## Principe de fonctionnement {#operating-principle}
 
@@ -139,7 +139,7 @@ Par défaut, le serveur de statistiques écoute sur le port 7777. Ce port peut �
 
 >[!NOTE]
 >
->Cette section et les sections ci-dessous ne s&#39;appliquent qu&#39;aux installations sur site et aux installations hébergées/hybrides utilisant l&#39;ancienne Campaign MTA.
+>Cette section ainsi que les sections ci-dessous ne s’appliquent qu’aux installations On-Premise et aux installations hébergées/hybrides utilisant l’ancien MTA de Campaign.
 
 Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communication entre un serveur expéditeur et un serveur destinataire.
 
@@ -306,7 +306,7 @@ Exemple de paramétrage :
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’utilisation des serveurs MX avec Adobe Campaign, voir [cette section](../../installation/using/using-mx-servers.md).
+>Pour plus d’informations sur l’utilisation des serveurs MX avec Adobe Campaign, voir [cette section](../../installation/using/using-mx-servers.md).
 
 ### Gestion des formats des emails {#managing-email-formats}
 
