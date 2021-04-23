@@ -6,14 +6,14 @@ description: Implémenter des méthodes SOAP
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
 ---
-
 
 # Implémenter des méthodes SOAP{#implementing-soap-methods}
 
@@ -116,4 +116,3 @@ function nms_recipient_getKey(self)
    return [self.@firstName, self.@lastName]
  }
 ```
-
