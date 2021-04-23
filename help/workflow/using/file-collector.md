@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de collecteur de fichi
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '565'
 ht-degree: 100%
 
 ---
-
 
 # Collecteur de fichiers{#file-collector}
 
