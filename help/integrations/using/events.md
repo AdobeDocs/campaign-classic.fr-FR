@@ -6,9 +6,9 @@ description: Découvrez comment configurer des événements pour une implémenta
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1205'
 ht-degree: 100%
 
@@ -208,8 +208,8 @@ Voici un exemple de code de schéma pour cette table :
 | shopper_id | Chaîne 32 | shopper_id | Identifiant interne du nouvel acheteur Défini par le workflow de réconciliation. Si la valeur est nulle, cela signifie que le client est inconnu dans Campaign. |
 | shopper_key | Long | shopper_key | Identifiant externe du nouvel acheteur capturé par Analytics. |
 | created | Datetime | Created | Heure à laquelle l’événement a été créé dans Campaign. |
-| lastModified | Date/Heure | Dernière modification | Dernière modification de l’événement dans Adobe. |
-| timeGMT | Date/Heure | Date et heure | Heure à laquelle l’événement a été généré dans Analytics. |
+| lastModified | Datetime | Dernière modification | Dernière modification de l’événement dans Adobe. |
+| timeGMT | Datetime | Date et heure | Heure à laquelle l’événement a été généré dans Analytics. |
 
 ### Affichage des événements {#display-events}
 
