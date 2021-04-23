@@ -6,14 +6,14 @@ description: A propos des modèles
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: d943898c-06fe-451d-aa28-8a95665f4112
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # A propos des modèles{#about-templates}
 
@@ -35,4 +35,4 @@ Il existe deux types de modèles :
 
 >[!NOTE]
 >
->Les modèles disponibles dépendent de vos droits d’accès, du paramétrage de votre instance et du contexte dans lequel ils sont appelés. Lorsque vous créez un service d’information, vous pouvez y associer un modèle de diffusion pour les messages de confirmation : vous ne pourrez accéder qu’aux modèles dont le mapping de ciblage est celui des abonnements. Pour plus d&#39;informations à ce sujet, consultez [Sélectionner un mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md) et [À propos des services et des abonnements](../../delivery/using/about-services-and-subscriptions.md).
+>Les modèles disponibles dépendent de vos droits d’accès, du paramétrage de votre instance et du contexte dans lequel ils sont appelés. Lorsque vous créez un service d’information, vous pouvez y associer un modèle de diffusion pour les messages de confirmation : vous ne pourrez accéder qu’aux modèles dont le mapping de ciblage est celui des abonnements. Voir à ce sujet les sections [Choisir un mapping de ciblage](../../delivery/using/selecting-a-target-mapping.md) et [À propos des services et des abonnements](../../delivery/using/about-services-and-subscriptions.md).
