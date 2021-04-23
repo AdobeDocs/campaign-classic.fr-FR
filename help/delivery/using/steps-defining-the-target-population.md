@@ -6,25 +6,25 @@ description: Définir la population cible
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 8e0c6951be9d2f9fb0e58af213cb8db4079f2225
-workflow-type: tm+mt
+exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1746'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Définir la population cible {#defining-the-target-population}
 
 ## A propos des populations ciblées {#about-target-populations}
 
-Pour chaque diffusion, vous pouvez définir plusieurs types de populations de cibles :
+Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible :
 
-* **Audience** principale : profils qui recevront des messages. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* **BAT** : destinataires de messages BAT, impliqués dans le cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **Adresses de contrôle** : destinataires qui ne sont pas en cible de diffusion mais qui recevront la diffusion (dans le cadre d’une campagne de marketing uniquement). [En savoir plus](../../delivery/using/about-seed-addresses.md)
-* **Populations témoins** : population qui ne recevra pas la diffusion, utilisée pour suivre le comportement et l’impact de la campagne (dans le contexte d’une campagne marketing uniquement). [En savoir plus](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+* **Audience principale :** profils qui recevront des messages. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* **BAT** : destinataires des messages BAT, concernés par le cycle de validation. [En savoir plus](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **Adresses de contrôle** : destinataires ne figurant pas dans la cible mais qui recevront la diffusion (uniquement dans le cadre d’une campagne de marketing). [En savoir plus](../../delivery/using/about-seed-addresses.md)
+* **Populations témoins** : population qui ne recevra pas la diffusion, servant à suivre le comportement et l’impact de la campagne (uniquement dans le cadre d’une campagne de marketing). [En savoir plus](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 
 ## Sélection des principaux destinataires de la diffusion {#selecting-the-main-target}
 
