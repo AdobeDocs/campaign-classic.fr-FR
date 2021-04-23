@@ -6,14 +6,14 @@ description: Insertion des balises sur votre site
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '319'
 ht-degree: 100%
 
 ---
-
 
 # Insertion des balises sur votre site{#inserting-tags-in-your-site}
 
@@ -185,4 +185,3 @@ L’URL que vous créez doit respecter les règles de syntaxe définies dans la 
   }
   [...]
 ```
-
