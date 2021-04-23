@@ -6,14 +6,14 @@ description: Seuil de connexions
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
-workflow-type: tm+mt
+exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
-
 
 # Seuil de connexions{#connection-thresholds}
 
@@ -58,4 +58,3 @@ Il existe trois seuils différents :
               <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
             </dataSource>
       ```
-
