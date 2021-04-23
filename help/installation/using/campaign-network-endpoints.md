@@ -6,14 +6,14 @@ description: Points d’entrée réseau Campaign
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '50'
 ht-degree: 100%
 
 ---
-
 
 # Points d’entrée réseau Campaign {#campaign-standard-network-endpoints}
 
