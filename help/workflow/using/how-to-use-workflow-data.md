@@ -6,14 +6,14 @@ description: Découvrez comment utiliser les données d'un workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
-source-git-commit: 1901db70fde2b7b3c2789154bd93160012cd4c29
-workflow-type: tm+mt
+exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
 ---
-
 
 # Utiliser les données d&#39;un workflow{#how-to-use-workflow-data}
 
