@@ -6,14 +6,14 @@ description: Assistant d'ajout de champs
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
 ---
-
 
 # Assistant d&#39;ajout de champs{#new-field-wizard}
 
@@ -50,4 +50,3 @@ Un fichier d&#39;extension de nom &quot;cus:recipient&quot; dans notre exemple, 
 >[!NOTE]
 >
 >Par défaut, les champs ajoutés sont déclarés avec la propriété **user** (avec la valeur &quot;true&quot;). Celle-ci permet d&#39;afficher et d&#39;éditer le champ dans le formulaire de saisie du schéma étendu avec l&#39;utilisation d&#39;un contrôle de type &quot;treeEdit&quot; (voir à ce sujet le chapitre Formulaires de saisie).
-
