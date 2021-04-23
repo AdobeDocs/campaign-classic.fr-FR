@@ -6,14 +6,14 @@ description: Mise à jour de liste
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
-workflow-type: tm+mt
+exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '542'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour de liste{#list-update}
 
