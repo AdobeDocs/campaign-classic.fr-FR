@@ -6,14 +6,14 @@ description: Découvrez comment créer des modèles d'import et d'export dans Ca
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # Création de modèles d’import et d’export {#creating-import-export-templates}
 
@@ -31,5 +31,5 @@ Vous pouvez dupliquer des modèles existants pour créer vos propres modèles ou
 
 Le processus de configuration d&#39;un modèle est alors identique à celui présenté dans les sections suivantes :
 
-* [Configuration d’une tâche d’importation](../../platform/using/executing-import-jobs.md)
-* [Configuration d’une tâche d’exportation](../../platform/using/executing-export-jobs.md)
+* [Configuration d’un traitement d’import](../../platform/using/executing-import-jobs.md)
+* [Configuration d’un traitement d’export](../../platform/using/executing-export-jobs.md)
