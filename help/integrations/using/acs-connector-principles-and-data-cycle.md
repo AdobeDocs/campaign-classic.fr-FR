@@ -6,14 +6,14 @@ description: Principes et cycle des données d’ACS Connector
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2046'
 ht-degree: 100%
 
 ---
-
 
 # Principes et cycle des données d’ACS Connector{#acs-connector-principles-and-data-cycle}
 
@@ -327,4 +327,3 @@ La table des destinataires d’usine est répliquée dans le cadre de la mise en
 
 1. Si la gestion des droits est basée sur les dossiers, accédez à **[!UICONTROL Administration > ACS Connector > Gestion des droits > Mapping des dossiers]**, puis définissez un groupe de sécurité pour les dossiers associés à vos tables personnalisées. Voir [Conversion des droits](#rights-conversion).
 1. Utilisez le workflow **[!UICONTROL Nouvelle réplication]** (et non le modèle) pour inclure la table personnalisée et les champs à répliquer. Voir [Workflows techniques et de réplication](#technical-and-replication-workflows).
-
