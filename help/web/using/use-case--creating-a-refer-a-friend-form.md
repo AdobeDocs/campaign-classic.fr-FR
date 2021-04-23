@@ -6,14 +6,14 @@ description: '"Cas pratique : création d’un formulaire de parrainage d’un 
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '624'
 ht-degree: 100%
 
 ---
-
 
 # Cas d’utilisation : création d’un formulaire de référence{#use-case-creating-a-refer-a-friend-form}
 
@@ -126,4 +126,3 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    Son profil contient les informations saisies par son parrain. Elles sont stockées selon les paramétrages saisis dans le script du formulaire. Il sera enregistré dans la table des destinataires s&#39;il choisit de s&#39;inscrire à la newsletter.
-
