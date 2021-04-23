@@ -5,14 +5,14 @@ title: Définir l’audience appropriée
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
-source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
-workflow-type: tm+mt
+exl-id: c0533148-b027-4158-9b95-8d2df769e963
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
 ---
-
 
 # Définir l’audience appropriée {#define-the-right-audience}
 
