@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: Gestion de l’accès aux dossiers Campaign
 description: Découvrez comment octroyer l’accès aux dossiers Campaign et créer des vues
-feature: Application Settings
+feature: Paramétrage de l’application
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Chaque dossier de l’arborescence de navigation de l’Explorateur dispose de d
 
 ## Les dossiers et les vues {#folders-and-views}
 
-### Qu&#39;est-ce qu&#39;un dossier {#about-folders}
+### Qu’est-ce qu’un dossier ?{#about-folders}
 
 Les dossiers sont des nœuds dans l’arborescence Adobe Campaign. Ces nœuds sont créés à partir du bouton droit de la souris dans l’arborescence, via le menu **[!UICONTROL Ajouter un dossier]**. Par défaut, le premier menu permet d’ajouter le dossier correspondant au contexte en cours.
 
@@ -29,7 +29,7 @@ Les dossiers sont des nœuds dans l’arborescence Adobe Campaign. Ces nœuds so
 
 Vous pouvez personnaliser l’arborescence de navigation de l’Explorateur. Découvrez les étapes et les bonnes pratiques de configuration [dans cette section](adobe-campaign-workspace.md).
 
-### Qu&#39;est-ce qu&#39;une vue {#about-views}
+### Qu’est-ce qu’une vue ?{#about-views}
 
 En outre, vous pouvez créer des vues afin de restreindre l&#39;accès aux données et d&#39;organiser le contenu de l&#39;arborescence pour l&#39;adapter à vos besoins. Vous pourrez ensuite attribuer des droits sur les vues.
 
