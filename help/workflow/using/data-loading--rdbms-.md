@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de chargement (SGBD)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # Chargement (SGBD){#data-loading-rdbms}
 
@@ -38,4 +38,3 @@ Le principe de fonctionnement est le suivant :
 1. Vous pouvez définir un filtre sur ces données. Pour cela, cliquez sur le lien **[!UICONTROL Editer la requête....]**.
 
    Les données ainsi collectées peuvent être utilisées tout au long du cycle de vie du workflow.
-
