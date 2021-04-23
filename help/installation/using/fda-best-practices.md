@@ -1,17 +1,17 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Meilleures pratiques et limites de la FDA Campaign
-description: Découvrez les meilleures pratiques et les limites lors de l'utilisation d'une base de données externe (FDA)
+title: Bonnes pratiques et limites de FDA dans Campaign
+description: Découvrez les bonnes pratiques et les limites de l’utilisation d’une base de données externe (FDA)
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
