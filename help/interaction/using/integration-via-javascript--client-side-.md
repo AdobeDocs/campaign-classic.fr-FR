@@ -6,14 +6,14 @@ description: Intégration via JavaScript (côté client)
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1164'
 ht-degree: 100%
 
 ---
-
 
 # Intégration via JavaScript (côté client){#integration-via-javascript-client-side}
 
@@ -326,4 +326,3 @@ Vous pouvez utiliser une fonction de rendu XML pour créer la présentation d&#3
    ```
 
 ![](assets/interaction_xmlmode_001.png)
-
