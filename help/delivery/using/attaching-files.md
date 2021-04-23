@@ -7,17 +7,17 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Joindre des fichiers à un courrier électronique {#attaching-files}
+# Joindre des fichiers à un email {#attaching-files}
 
-## A propos des pièces jointes à un email {#about-email-attachments}
+## À propos des pièces jointes à un email {#about-email-attachments}
 
 Vous pouvez joindre un ou plusieurs fichiers à une diffusion d’email.
 
