@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3ca92325f70cb3b9cca1ec5f6b7ddb5a02f9159
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 ## Prérequis {#adobe-io-prerequisites}
 
-Cette intégration ne s&#39;applique qu&#39;à partir des **[!DNL Gold Standard]versions Campaign Classic 20.3, 20.2.4, 19.1.8 et  11**.
+Cette intégration ne s’applique qu’à partir des **[!DNL Gold Standard]versions Campaign Classic 20.3, 20.2.4, 19.1.8 et 11**.
 
 Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléments suivants :
 
@@ -74,7 +74,7 @@ Avant de commencer cette mise en œuvre, vérifiez que vous disposez des éléme
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n&#39;est requise pour ce **[!UICONTROL profil de produits]**. Pour plus d’informations sur les **[!UICONTROL profils de produit]** [!DNL Analytics], consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr#admin-console).
+1. Sélectionnez un **[!UICONTROL profil de produit]** existant ou créez-en un si nécessaire. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**. Pour plus d’informations sur les **[!UICONTROL profils de produit]** [!DNL Analytics], consultez la [documentation Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr#admin-console).
 
    Cliquez ensuite sur **[!UICONTROL Enregistrer l’API configurée]**.
 
