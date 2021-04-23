@@ -6,14 +6,14 @@ description: Découvrez comment étendre le modèle de données Campaign, modifi
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '988'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main du modèle de données de Campaign {#about-data-model}
 
