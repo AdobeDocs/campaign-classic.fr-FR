@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Les étapes de paramétrage sont présentés ci-après.
 >
 >Les noms de la base de données, des utilisateurs ou des schémas ne doivent pas commencer par un chiffre, ni utiliser de caractères spéciaux.
 >
->Seul l’identifiant **interne** peut effectuer ces opérations. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+>Seul l’identifiant **interne** peut effectuer ces opérations. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 ## 1er cas : créer/recycler une base {#case-1--creating-recycling-a-database}
 
@@ -59,7 +59,7 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 
 * Pour un moteur **Oracle**, renseignez le **nom TNS** qui a été défini sur le serveur applicatif.
 * Pour un moteur **PostgreSQL** ou **DB2**, indiquez le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
-* Pour un moteur **Microsoft SQL Server**, vous devez définir :    le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
+* Pour un moteur **Microsoft SQL Server**, vous devez définir :  le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données : **DNS** ou **DNS`\<instance>`** (mode instance),
 
    >[!CAUTION]
    >
