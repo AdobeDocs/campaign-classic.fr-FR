@@ -6,14 +6,14 @@ description: A propos du marketing distribué
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: c166409b-e040-491e-840a-a41310935d75
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1175'
 ht-degree: 100%
 
 ---
-
 
 # A propos du marketing distribué{#about-distributed-marketing}
 
@@ -165,4 +165,3 @@ Ces étapes doivent être réalisées à chaque opération.
 1. Evaluer la cible, le budget, etc..
 1. Prévisualiser le contenu de l&#39;opération.
 1. Commander l&#39;opération.
-
