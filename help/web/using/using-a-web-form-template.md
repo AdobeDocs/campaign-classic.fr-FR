@@ -6,14 +6,14 @@ description: Utiliser un modèle de formulaire web
 audience: web
 content-type: reference
 topic-tags: web-forms
+exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '226'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation d’un modèle de formulaire web{#using-a-web-form-template}
 
