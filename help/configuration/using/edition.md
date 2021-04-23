@@ -6,14 +6,14 @@ description: Edition
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
+exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 translation-type: ht
-source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 
 ---
-
 
 # Modification de l’arborescence de navigation de l’Explorateur Campaign{#edition}
 
@@ -34,4 +34,3 @@ La zone d&#39;édition renseigne le contenu du document XML :
 L&#39;aperçu génère automatiquement le document fusionné contenant le paramétrage complet :
 
 ![](assets/d_ncs_integration_navigation_preview.png)
-
