@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow d’attente
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
 ---
-
 
 # Attente{#wait}
 
@@ -32,4 +32,3 @@ Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l&#39
 * Tandis que si, par exemple, les paramètres régionaux sont définis sur &#39;Français&#39; : **s** pour les secondes, **mn** pour les minutes, **h** pour les heures, **j** pour les jours, **m** pour les mois, **a** pour les années. Lors de la validation, la valeur est automatiquement traduite dans l&#39;unité la plus lisible, comme dans l&#39;exemple ci-dessus : **90s** a été traduit en **1mn 30s**.
 
    L&#39;unité par défaut est le jour (**j**).
-
