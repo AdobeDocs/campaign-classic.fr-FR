@@ -6,14 +6,14 @@ description: Accès aux campagnes marketing
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
+exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1063'
 ht-degree: 100%
 
 ---
-
 
 # Accès aux campagnes marketing{#accessing-marketing-campaigns}
 
