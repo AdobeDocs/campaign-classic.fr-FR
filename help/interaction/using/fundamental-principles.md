@@ -6,14 +6,14 @@ description: Principes fondamentaux
 audience: interaction
 content-type: reference
 topic-tags: general-operation
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
 ---
-
 
 # Principes fondamentaux{#fundamental-principles}
 
@@ -42,4 +42,3 @@ Ces deux types d&#39;interactions peuvent être réalisés soit en mode unitaire
 Dès lors qu&#39;une offre peut ou doit être présentée (en fonction des paramétrages réalisés), le moteur d&#39;offre joue le rôle d&#39;intermédiaire : il calcule automatiquement la meilleure offre possible pour un contact parmi celles disponibles, en combinant les données recueillies sur le contact et les différentes règles applicables définies dans l&#39;application.
 
 ![](assets/architecture_interaction2.png)
-
