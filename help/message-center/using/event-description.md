@@ -6,14 +6,14 @@ description: En savoir plus sur l’événement de messages transactionnels
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 3a9c435a6469f291c4ecdb30eceb83c4f000f5e0
-workflow-type: tm+mt
+exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '747'
 ht-degree: 100%
 
 ---
-
 
 # Description des événements{#event-description}
 
@@ -228,4 +228,3 @@ En revanche, si le traitement de l&#39;événement échoue, la méthode renvoie 
       </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-
