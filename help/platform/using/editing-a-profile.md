@@ -6,14 +6,14 @@ description: Editer un profil
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Modification d’un profil{#editing-a-profile}
 
@@ -67,7 +67,7 @@ Cet écran permet d&#39;afficher le ou les groupes auxquels appartient le profil
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-Pour plus d&#39;informations à ce sujet, consultez [Création et gestion de listes](../../platform/using/creating-and-managing-lists.md).
+Voir à ce sujet la section [Créer et gérer des listes](../../platform/using/creating-and-managing-lists.md).
 
 ## Onglet Abonnements {#subscriptions-tab}
 
@@ -98,4 +98,3 @@ La liste est paramétrable et contient typiquement : l&#39;URL cliquée, la date
 >[!NOTE]
 >
 >Pour plus d&#39;informations sur les fonctionnalités de mise en œuvre du tracking, consultez [cette page](../../delivery/using/delivery-dashboard.md).
-
