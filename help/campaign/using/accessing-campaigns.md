@@ -6,14 +6,14 @@ description: Accéder aux opérations
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
 ---
-
 
 # Accéder aux opérations{#accessing-campaigns}
 
