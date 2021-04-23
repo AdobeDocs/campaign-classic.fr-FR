@@ -6,14 +6,14 @@ description: En savoir plus sur l’activité de workflow de déduplication
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 55e2297c5c60a48be230d06a3c1880d79b8ea5f2
-workflow-type: tm+mt
+exl-id: 38add4fe-6238-45de-863e-895ebca189b7
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
 ---
-
 
 # Déduplication{#deduplication}
 
@@ -29,18 +29,18 @@ L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des
 
 L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicatas. Par exemple, dans le cas pratique ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la **[!UICONTROL Date]** la plus ancienne, le résultat est le suivant :
 
-| Date | Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|----------|------------|-------|--------------|------
-| 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
 L&#39;enregistrement principal sélectionné transfère les données sans fusionner les données de champ avec d&#39;autres données pertinentes dans les lignes de duplicatas.
 
 Complémentaire :
 
-| Date | Prénom | Nom | Courriel | Téléphone mobile | Téléphone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
 -----|------------|-----------|-------|--------------|------
-| 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## Bonnes pratiques {#best-practices}
 
@@ -171,7 +171,7 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schéma
+* schema
 * recCount
 
 Ce triplet de valeurs identifie la cible résultant de la déduplication. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
