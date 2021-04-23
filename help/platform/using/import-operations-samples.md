@@ -6,14 +6,14 @@ description: En savoir plus sur les imports génériques que vous pouvez effectu
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
-workflow-type: tm+mt
+exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1103'
 ht-degree: 100%
 
 ---
-
 
 # Exemples d&#39;import générique {#import-operations-samples}
 
