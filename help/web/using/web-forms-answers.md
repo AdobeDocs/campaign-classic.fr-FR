@@ -6,14 +6,14 @@ description: Réponses aux formulaires web
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '892'
 ht-degree: 100%
 
 ---
-
 
 # Réponses aux formulaires web{#web-forms-answers}
 
@@ -142,4 +142,3 @@ Vous pouvez sélectionner un dossier de recherche pour la réconciliation et le 
 >Les opérations possibles sont : **[!UICONTROL Réconciliation seule]**,**[!UICONTROL Mise à jour ou insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Mise à jour]**, **[!UICONTROL Suppression]**.\
 >Le dossier par défaut de l&#39;opérateur correspond au premier dossier dans lequel l&#39;opérateur a le droit d&#39;écrire.\
 >Consultez [cette section](../../platform/using/access-management.md).
-
