@@ -6,14 +6,14 @@ description: Rapports sur les diffusions
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
+exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1628'
 ht-degree: 100%
 
 ---
-
 
 # Rapports sur les diffusions {#delivery-reports}
 
