@@ -6,14 +6,14 @@ description: En savoir plus sur les bonnes pratiques en matière de configuratio
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 translation-type: ht
-source-git-commit: 63b2e6b95812f1649e636580984a1f0dcc9c5c53
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
 ---
-
 
 # Réseau, base de données et SSL/TLS {#network-database}
 
