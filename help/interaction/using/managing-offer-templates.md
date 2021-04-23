@@ -6,14 +6,14 @@ description: Gérer les modèles d'offre
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # Gérer les modèles d&#39;offre{#managing-offer-templates}
 
@@ -44,4 +44,3 @@ Afin de dupliquer un modèle d&#39;offre (d&#39;usine ou non), voici la marche �
 Ce modèle sera désormais proposé lors de la création d&#39;une offre.
 
 ![](assets/offer_modelcreated_001.png)
-
