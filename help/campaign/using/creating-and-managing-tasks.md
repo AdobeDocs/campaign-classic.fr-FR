@@ -6,14 +6,14 @@ description: Créer et gérer les tâches
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '3901'
 ht-degree: 100%
 
 ---
-
 
 # Créer et gérer les tâches{#creating-and-managing-tasks}
 
@@ -436,6 +436,7 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 >
 >* Le statut de la tâche est mis à jour automatiquement.
 >* Même si la période de validité est terminée, une tâche qui n&#39;a pas été close par son responsable apparaît toujours dans les tâches en cours. Un message d&#39;avertissement est affiché pour alerter les opérateurs que la tâche est en retard.
+
 >
 
 
@@ -510,4 +511,3 @@ Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laq
    >[!NOTE]
    >
    >Lorsqu&#39;une tâche est terminée, le responsable a la possibilité de réinitialiser son cycle de vie. Pour cela, ouvrez la tâche, puis cliquez sur le lien **[!UICONTROL Réinitialiser la tâche pour l&#39;exécuter à nouveau...]** situé dans la partie inférieure de son tableau de bord.
-
