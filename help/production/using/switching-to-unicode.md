@@ -6,14 +6,14 @@ description: Transformation en Unicode
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '119'
 ht-degree: 100%
 
 ---
-
 
 # Transformation en Unicode{#switching-to-unicode}
 
@@ -99,4 +99,3 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
 
    * vérifier que les données s&#39;affichent correctement, notamment les caractères accentués,
    * lancer une diffusion et vérifier que la récupération du tracking fonctionne.
-
