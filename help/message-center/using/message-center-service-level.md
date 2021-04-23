@@ -6,14 +6,14 @@ description: Qualité de service Message Center
 audience: message-center
 content-type: reference
 topic-tags: reports
+exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # Qualité de service Message Center{#message-center-service-level}
 
@@ -33,4 +33,3 @@ Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou
 >[!NOTE]
 >
 >Les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs sont paramétrables dans l&#39;assistant de déploiement. Voir [Seuils de suivi](../../message-center/using/monitoring-thresholds.md).
-
