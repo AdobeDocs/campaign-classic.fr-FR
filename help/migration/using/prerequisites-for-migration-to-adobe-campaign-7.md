@@ -6,14 +6,14 @@ description: Prérequis pour la migration vers Adobe Campaign 7
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 747d8a2c-b13a-4852-a9b5-0d37b236a36f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '80'
 ht-degree: 100%
 
 ---
-
 
 # Prérequis pour la migration vers Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 
