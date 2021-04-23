@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Envoyer, surveiller et suivre les SMS
-description: Découvrez comment envoyer, surveiller et suivre des SMS au Campaign
+title: Envoi, surveillance et suivi de SMS
+description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campaign
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
+# Envoi, surveillance et suivi  de diffusions par SMS{#sms-properties}
 
-# Envoyer, surveiller et suivre les diffusions SMS{#sms-properties}
-
-## Envoyer des messages SMS {#sending-sms-messages}
+## Envoi de messages SMS {#sending-sms-messages}
 
 Pour valider votre message et le diffuser aux destinataires de la diffusion en cours de création, cliquez sur **[!UICONTROL Envoyer]**.
 
@@ -58,15 +58,15 @@ Les options disponibles sont les suivantes :
 
 * **Nombre maximal de SMS par message** : cette option vous permet de régler le nombre de SMS à utiliser pour envoyer un message. Si le nombre est fixé à 0, vous pouvez utiliser un SMS pour diffuser votre message par SMS. Si le nombre de SMS est fixé à 1 ou 2 par exemple, et que le message dépasse ce nombre, le message ne sera pas envoyé.
 
-## Surveillance et suivi des SMS {#monitoring-and-tracking-sms-deliveries}
+## Surveillance et suivi de SMS {#monitoring-and-tracking-sms-deliveries}
 
-Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions.Voir à ce sujet les sections suivantes :
+Une fois les messages envoyés, vous pouvez effectuer la surveillance et le suivi des diffusions.Voir à ce sujet les sections suivantes :
 
 * [Surveillance d’une diffusion](../../delivery/using/about-delivery-monitoring.md)
 * [Présentation des diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [A propos du tracking des messages](../../delivery/using/about-message-tracking.md)
+* [À propos du suivi des messages](../../delivery/using/about-message-tracking.md)
 
-## Traiter les messages entrants {#processing-inbound-messages}
+## Traitement des messages entrants {#processing-inbound-messages}
 
 Le module **nlserver sms** interroge à intervalle régulier le routeur des messages SMS. Cela permet à Adobe Campaign de collecter les états d&#39;avancement des diffusions et de gérer les accusés de réception et les désinscriptions des destinataires.
 
@@ -110,7 +110,7 @@ Le schéma InSMS contient les informations relatives aux SMS entrants. Une descr
 * **operatorCode** : code du réseau de l&#39;opérateur.
 * **linkedSmsId** : identifiant Adobe Campaign (broadlogId) associé au SMS sortant, dont ce SMS est la réponse.
 
-## Gérer les réponses automatiques (réglementation américaine) {#managing-automatic-replies--american-regulation-}
+## Gestion des réponses automatiques (réglementation américaine) {#managing-automatic-replies--american-regulation-}
 
 Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campaign par un message contenant un mot-clé tel que STOP, HELP ou YES, il est obligatoire sur le marché américain de configurer les messages qui lui sont automatiquement renvoyés.
 
@@ -120,7 +120,7 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!IMPORTANT]
 >
->La procédure détaillée suivante n&#39;est valide que pour les connecteurs SMPP, à l&#39;exception du connecteur SMPP générique étendu. Pour en savoir plus sur ce sujet, consultez la section [Créer un compte externe SMPP](sms-set-up.md#creating-an-smpp-external-account).
+>La procédure détaillée suivante n&#39;est valide que pour les connecteurs SMPP, à l&#39;exception du connecteur SMPP générique étendu. Voir à ce sujet la section [Création d’un compte externe SMPP](sms-set-up.md#creating-an-smpp-external-account).
 >
 >Elle entre dans le cadre du processus de certification effectué par les opérateurs américains pour les campagnes marketing aux Etats-Unis. Ces SMS doivent notamment parvenir immédiatement à l&#39;abonné qui a envoyé le mot-clé.
 
@@ -167,6 +167,6 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!IMPORTANT]
 >
->Il n&#39;existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](../../delivery/using/delivery-dashboard.md).
+>Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](../../delivery/using/delivery-dashboard.md).
 >
 >Ces messages ne sont pas pris en compte dans les règles de pression commerciale. [En savoir plus](../../campaign/using/pressure-rules.md).
