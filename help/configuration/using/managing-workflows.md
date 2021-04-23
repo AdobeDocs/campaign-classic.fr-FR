@@ -6,14 +6,14 @@ description: Gestion des workflows
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des workflows{#managing-workflows}
 
@@ -28,4 +28,3 @@ Toutes les activités utilisées dans votre workflow utiliseront ainsi votre tab
 Pour plus d&#39;informations sur les workflows, voir [cette section](../../workflow/using/about-workflows.md).
 
 ![](assets/cfg_external_table_workflow.png)
-
