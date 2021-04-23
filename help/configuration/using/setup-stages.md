@@ -6,14 +6,14 @@ description: Etapes de mise en place
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
 ---
-
 
 # Etapes de mise en place{#setup-stages}
 
@@ -50,4 +50,3 @@ window.location.protocol + "//tsupport/r/" +
 Math.random().toString() + "?tagid=" + escape(_t) + "'/>")
 </script>
 ```
-
