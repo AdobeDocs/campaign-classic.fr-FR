@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,4 +41,4 @@ Les CRM et versions pris en charge sont présentés dans la [matrice de compatib
 Découvrez la procédure détaillée pour connecter Campaign et Microsoft Dynamics [dans cette section](../../platform/using/crm-ms-dynamics.md)
 
 
-Découvrez la procédure pas à pas pour connecter Campaign et Salesforce [dans cette section](../../platform/using/crm-sfdc.md)
+Découvrez la procédure détaillée pour connecter Campaign et Salesforce [dans cette section](../../platform/using/crm-sfdc.md)
