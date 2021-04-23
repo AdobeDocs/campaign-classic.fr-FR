@@ -6,14 +6,14 @@ description: Prise en main de l’édition de schéma
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
+exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1011'
 ht-degree: 100%
 
 ---
-
 
 # A propos de l’édition de schéma{#about-schema-edition}
 
@@ -225,4 +225,3 @@ Voir à ce sujet la section [Mettre à jour la structure de la base de données]
 >[!NOTE]
 >
 >Lorsque les modifications n&#39;ont aucun impact sur la structure de la base de données, vous devez uniquement régénérer les schémas. Pour ce faire, sélectionnez le ou les schémas à mettre à jour, cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]**. Voir à ce sujet la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
-
