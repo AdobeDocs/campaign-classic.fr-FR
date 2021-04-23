@@ -6,14 +6,14 @@ description: Mise en forme
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1459'
 ht-degree: 100%
 
 ---
-
 
 # Mise en forme{#formatting}
 
@@ -69,7 +69,7 @@ Les attributs et éléments du contenu sont représentés comme des objets JavaS
 **Exemple**:
 
 * **content.@name** : récupère la valeur de l’attribut « name » de l’élément principal
-* **contenu.@`['name']`** : identique au contenu **.syntaxe @name**
+* **content.@`['name']`** : identique au contenu **.syntaxe @name**
 * **content.chapter.length**`<chapter` : retourne le nombre d’éléments sur l’élément de collection
 * **content.chapter`[0]`.@name** : récupère le nom du premier élément `<chapter>`
 * **chapter.name()** : retourne le nom de l’élément `<chapter>`
