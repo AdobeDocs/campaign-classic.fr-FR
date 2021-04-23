@@ -6,14 +6,14 @@ description: Blocs de personnalisation
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
+exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 translation-type: ht
-source-git-commit: df7c27e763e7e0c02189ed972f33eb03ca2a915f
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1003'
 ht-degree: 100%
 
 ---
-
 
 # Blocs de personnalisation{#personalization-blocks}
 
