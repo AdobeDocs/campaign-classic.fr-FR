@@ -6,14 +6,14 @@ description: Découvrez comment définir le contenu interactif et dynamique d’
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1592'
 ht-degree: 100%
 
 ---
-
 
 # Définition d’un contenu interactif{#defining-interactive-content}
 
