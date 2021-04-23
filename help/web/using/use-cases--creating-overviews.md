@@ -6,14 +6,14 @@ description: '"Cas pratiques : création de vues d''ensemble"'
 audience: web
 content-type: reference
 topic-tags: web-applications
+exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1032'
 ht-degree: 100%
 
 ---
-
 
 # Cas d’utilisation : création de pages de vue d’ensemble{#use-cases-creating-overviews}
 
@@ -224,4 +224,3 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 L&#39;application Web est maintenant paramétrée. Vous pouvez cliquer sur l&#39;onglet **[!UICONTROL Prévisualisation]** pour en avoir un aperçu.
 
 ![](assets/s_ncs_configuration_webapp_result.png)
-
