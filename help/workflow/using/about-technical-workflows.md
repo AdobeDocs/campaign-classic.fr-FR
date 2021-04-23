@@ -6,14 +6,14 @@ description: Pour en savoir plus sur les workflows techniques disponibles avec l
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
-source-git-commit: f57f52d8807eb771e2416b6648e1d746a206fa96
-workflow-type: tm+mt
+exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1826'
 ht-degree: 100%
 
 ---
-
 
 # Workflows techniques{#about-technical-workflows}
 
