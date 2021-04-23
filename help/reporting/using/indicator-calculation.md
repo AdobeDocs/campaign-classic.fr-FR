@@ -6,14 +6,14 @@ description: Calcul des indicateurs
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '3021'
 ht-degree: 100%
 
 ---
-
 
 # Calcul des indicateurs {#indicator-calculation}
 
@@ -200,7 +200,7 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques Navigateurs internet]
    <td> Taux relatif<br /> </td> 
    <td> -<br /> </td> 
    <td> Pourcentage des visiteurs, pour cette version, par rapport au nombre total de visiteurs sur ce navigateur.<br /> </td> 
-   <td> percent(@totalVisitors, sum(@totalVisitors) <br /> </td> 
+   <td> percent(@totalVisitors, sum(@totalVisitors)) <br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -397,7 +397,7 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques Navigateurs internet]
    <td> Visiteurs<br /> </td> 
    <td> @totalVisitors / @days<br /> </td> 
    <td> Moyenne par jour du nombre total de destinataires ciblés, par système d'exploitation, ayant cliqué au moins une fois dans une même diffusion.<br /> </td> 
-   <td> Sum(@visiteur)<br /> </td> 
+   <td> Sum(@visitors)<br /> </td> 
   </tr> 
   <tr> 
    <td> Pages vues<br /> </td> 
@@ -428,7 +428,7 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques Navigateurs internet]
  <tbody> 
   <tr> 
    <td> Taux d'utilisation<br /> </td> 
-   <td> @visiteur<br /> </td> 
+   <td> @visitors<br /> </td> 
    <td> Pourcentage du nombre de visiteurs par jour, sur ce système d'exploitation, par rapport au nombre de visiteurs mesuré le jour le plus fréquenté.<br /> </td> 
    <td> percent(sum(@visitors), max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -442,7 +442,7 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques Navigateurs internet]
    <td> Taux relatif<br /> </td> 
    <td> -<br /> </td> 
    <td> Pourcentage des visiteurs, par version, par rapport au nombre total de visiteurs sur ce système d'exploitation.<br /> </td> 
-   <td> percent(@totalVisitors, sum(@totalVisitors)<br /> </td> 
+   <td> percent(@totalVisitors, sum(@totalVisitors))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -518,7 +518,7 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
    <td> Succès<br /> </td> 
    <td> @successWithoutSeeds<br /> </td> 
    <td> Comptage des messages pour lesquels le champ "adresse de contrôle" est égal à "Non" et dont le statut est égal à "Pris en compte par le prestataire" ou "Envoyé" ou "Reçu sur le mobile".<br /> </td> 
-   <td> sum([indicateurs/@succès])<br /> </td> 
+   <td> sum([indicators/@success])<br /> </td> 
   </tr> 
   <tr> 
    <td> Ouvertures distinctes sur la population atteinte<br /> </td> 
@@ -554,7 +554,7 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
    <td> Envois<br /> </td> 
    <td> @successWithoutSeeds<br /> </td> 
    <td> Comptage des messages pour lesquels le champ "adresse de contrôle" est égal à "Non" et dont le statut est égal à "Pris en compte par le prestataire" ou "Envoyé" ou "Reçu sur le mobile".<br /> </td> 
-   <td> sum([indicateurs/@succès])> </td> 
+   <td> sum([indicators/@success])<br /> </td> 
   </tr> 
   <tr> 
    <td> Plaintes (Complaints)<br /> </td> 
@@ -594,9 +594,9 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
   </tr> 
   <tr> 
    <td> Clics des destinataires<br /> </td> 
-   <td> @destinataireClick<br /> </td> 
+   <td> @recipientClick<br /> </td> 
    <td> Comptage distinct des @broadLog-id dont le type de l'url égal à "Clic email".<br /> </td> 
-   <td> Countdistinct(Iif([url/@type]=1, @wideLog-id, 0))<br /> </td> 
+   <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Réactivité estimée<br /> </td> 
@@ -647,46 +647,46 @@ Ce rapport se base sur les tables **[!UICONTROL Statistiques d&#39;envoi et de t
    <td> div(@amount, @toDeliver)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Courriel<br /> </td> 
+   <td> Email<br /> </td> 
    <td> @email<br /> </td> 
    <td> Somme de tous les @totalClicks dont la catégorie de l'url est égale à "email".<br /> </td> 
-   <td> Sum(iIf([url/@catégorie]='email',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
    <td> Somme de tous les @totalClicks dont la catégorie de l'url est égale à "facebook".<br /> </td> 
-   <td> Sum(iIf([url/@catégorie]='facebook',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
    <td> Somme de tous les @totalClicks dont la catégorie de l'url est égale à "twitter".<br /> </td> 
-   <td> Sum(iIf([url/@catégorie]='twitter',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Délicieux <br /> </td> 
+   <td> Delicious<br /> </td> 
    <td> @delicious<br /> </td> 
    <td> Somme de tous les @totalClicks dont la catégorie de l'url est égale à "delicious".<br /> </td> 
-   <td> Sum(iIf([url/@catégorie]='delicious',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='delicious',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Digg<br /> </td> 
    <td> @digg<br /> </td> 
    <td> Somme de tous les @totalClicks dont la catégorie de l'url est égale à "digg".<br /> </td> 
-   <td> Sum(iIf([url/@catégorie]='digg',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='digg',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Google<br /> </td> 
    <td> @google<br /> </td> 
    <td> Somme de tous les @totalClicks dont la catégorie de l'url est égale à "google".<br /> </td> 
-   <td> Sum(iIf([url/@catégorie]='google',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='google',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Linkedin<br /> </td> 
    <td> @linkedin<br /> </td> 
    <td> Somme de tous les @totalClicks dont la catégorie de l'url est égale à "linkedin".<br /> </td> 
-   <td> Sum(iIf([url/@catégorie]='linkedin',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@category]='linkedin',@totalClicks,0))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -774,7 +774,7 @@ Ce rapport se base sur la table **[!UICONTROL Diffusion]** (nms:delivery).
    <td> Succès<br /> </td> 
    <td> @success<br /> </td> 
    <td> Nombre de messages traités avec succès.<br /> </td> 
-   <td> sum([indicateurs/@succès])<br /> </td> 
+   <td> sum([indicators/@success])<br /> </td> 
   </tr> 
   <tr> 
    <td> Erreurs<br /> </td> 
@@ -825,7 +825,7 @@ Ce rapport se base sur la table **[!UICONTROL Diffusion]** (nms:delivery).
   </tr> 
   <tr> 
    <td> Ouvertures<br /> </td> 
-   <td> @ouvertures<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> Somme de tous les @totalClicks dont la clé primaire de l'url est égale à 1.<br /> </td> 
    <td> sum(Iif([@url-id] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -850,7 +850,7 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques d&#39;envoi et de tra
    <td> Emails traités<br /> </td> 
    <td> @processed<br /> </td> 
    <td> Somme de tous les messages pour lesquels le statut est égal à "Préparé", "Envoyé" ou "En échec".<br /> </td> 
-   <td> @prepare + @error + @success<br /> </td> 
+   <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
    <td> Delivrés<br /> </td> 
@@ -872,9 +872,9 @@ Ce rapport se base sur la table **[!UICONTROL Statistiques d&#39;envoi et de tra
   </tr> 
   <tr> 
    <td> Ouvertures (Opens)<br /> </td> 
-   <td> @destinataireOpen<br /> </td> 
+   <td> @recipientOpen<br /> </td> 
    <td> Comptage de tous les @broadLog-id dans tous les logs de tracking.<br /> </td> 
-   <td> Countdistinct ([@wideLog-id])<br /> </td> 
+   <td> Countdistinct ([@broadLog-id])<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics<br /> </td> 
