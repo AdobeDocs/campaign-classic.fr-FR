@@ -6,14 +6,14 @@ description: Valider et activer une offre
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '660'
 ht-degree: 100%
 
 ---
-
 
 # Valider et activer une offre{#approving-and-activating-an-offer}
 
@@ -130,4 +130,3 @@ Vous pouvez également désactiver directement une catégorie en vous rendant da
 >Lorsqu&#39;une offre est supprimée dans un environnement en édition, elle est automatiquement désactivée dans l&#39;environnement en ligne associé. Après un délai de rétention des propositions, les offres désactivées sont supprimées de l&#39;environnement en ligne.
 
 ![](assets/offer_preview_deactivate.png)
-
