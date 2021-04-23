@@ -6,14 +6,14 @@ description: Ajout d'autres fonctions SQL
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1024'
 ht-degree: 100%
 
 ---
-
 
 # Ajout d&#39;autres fonctions SQL{#adding-additional-sql-functions}
 
