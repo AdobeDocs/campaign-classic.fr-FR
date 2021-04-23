@@ -7,23 +7,23 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Upgrade vers un nouveau build (On-Premise){#upgrading}
 
-Avant de commencer le processus de mise à niveau, déterminez et confirmez la version d&#39;Adobe Campaign à mettre à niveau et consultez les [Notes de mise à jour](../../rn/using/latest-release.md) .
+Avant de commencer la mise à jour, déterminez et confirmez la version d’Adobe Campaign vers laquelle elle s’effectue et consultez les [notes de mises à jour](../../rn/using/latest-release.md) 
 
 >[!IMPORTANT]
 >
->* L’Adobe recommande vivement d’effectuer une sauvegarde de base de données sur chaque instance avant la mise à jour. Voir à ce sujet [cette section](../../production/using/backup.md).
->* Pour effectuer une mise à niveau, assurez-vous que vous disposez des capacités et des autorisations nécessaires pour accéder aux instances et aux journaux.
->* Lisez [cette section](../../installation/using/general-architecture.md) et le chapitre [build upgrade](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) avant de commencer.
+>* Adobe recommande vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. Voir à ce sujet [cette section](../../production/using/backup.md).
+>* Pour effectuer une mise à jour, vérifiez que vous avez la possibilité et les permissions d’accéder aux instances et aux logs.
+>* Lisez [cette section](../../installation/using/general-architecture.md) et le chapitre [Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) avant de commencer.
 
 >
 
@@ -31,10 +31,10 @@ Avant de commencer le processus de mise à niveau, déterminez et confirmez la v
 
 ## Windows {#in-windows}
 
-Sur un environnement Windows, suivez les étapes ci-dessous pour mettre à jour Adobe Campaign vers une nouvelle version :
+Dans un environnement Windows, procédez comme suit pour mettre à jour Adobe Campaign vers un nouveau build :
 
 * [Arrêter les services](#shut-down-services),
-* [Mettez à niveau le serveur](#upgrade-the-adobe-campaign-server-application) d’applications,
+* [Mettre à niveau le serveur d’applications](#upgrade-the-adobe-campaign-server-application),
 * [synchroniser les ressources](#synchronize-resources),
 * [Redémarrer les services](#restart-services).
 
@@ -71,7 +71,7 @@ Pour exécuter le fichier de mise à jour, respectez les étapes suivantes :
 
 1. Exécutez **setup.exe**.
 
-   Pour télécharger ce fichier, connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) à l’aide de vos informations d’identification d’utilisateur. En savoir plus sur la distribution des logiciels sur [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
+   Pour télécharger ce fichier, connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l’aide de vos informations d’identification d’utilisateur. En savoir plus sur la distribution des logiciels sur [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
 1. Sélectionnez le mode d&#39;installation : choisissez **[!UICONTROL Mise à jour ou réparation]**
 1. Cliquez sur **[!UICONTROL Suivant]** .
@@ -111,21 +111,21 @@ Les services à redémarrer sont :
 
 ## Linux {#in-linux}
 
-Sur un environnement Linux, suivez les étapes ci-dessous pour mettre à jour Adobe Campaign vers une nouvelle version :
+Dans un environnement Linux, procédez comme suit pour mettre à jour Adobe Campaign vers un nouveau build :
 
-* [Télécharger les packages](#obtain-updated-packages) mis à jour,
-* [Effectuez la mise à jour](#perform-an-update),
-* [Redémarrer le serveur web](#reboot-the-web-server).
+* [Télécharger les packages mis à jour](#obtain-updated-packages),
+* [Effectuer la mise à jour](#perform-an-update),
+* [Redémarrer le serveur Web](#reboot-the-web-server).
 
 [En savoir plus sur la disponibilité de la console client](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >
->Depuis la version 8757, la bibliothèque tierce n’est plus nécessaire.
+>À partir du build 8757, la bibliothèque tierce n’est plus nécessaire.
 
 ### Obtenir les packages à jour {#obtain-updated-packages}
 
-Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+Commencez par récupérer les deux packages d’Adobe Campaign mis à jour : connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l&#39;aide de vos informations d&#39;identification d&#39;utilisateur. En savoir plus sur la distribution de logiciels dans [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
 Le fichier est **nlserver6-v7-XXX.rpm**
 
@@ -139,7 +139,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
    $rpm -Uvh nlserver6-v7-XXXX.rpm
    ```
 
-   Où XXX est la version du fichier.
+   où XXX correspond à la version du fichier.
 
    Le fichier rpm possède des dépendances dans les packages des distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances, vous devrez peut-être utiliser l&#39;option &quot;nodeps&quot; du fichier rpm :
 
@@ -157,7 +157,7 @@ Le fichier est **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Les procédures complètes d’installation sont décrites dans [cette section](../../installation/using/installing-campaign-standard-packages.md). La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur. Pour plus d&#39;informations sur ce sujet, reportez-vous à la section [Résolution des conflits de mise à niveau](#resolving-upgrade-conflicts).
+>Les procédures complètes d’installation sont décrites dans [cette section](../../installation/using/installing-campaign-standard-packages.md). La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur. Voir à ce sujet la section [Résoudre les conflits d’upgrade](#resolving-upgrade-conflicts).
 
 ### Redémarrer le serveur web {#reboot-the-web-server}
 
@@ -185,7 +185,7 @@ Puis redémarrez Apache :
 /etc/init.d/apache start
 ```
 
-## Résolution des conflits de mise à niveau {#resolving-upgrade-conflicts}
+## Résoudre les conflits d’upgrade {#resolving-upgrade-conflicts}
 
 Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
@@ -208,7 +208,7 @@ Le résultat de la synchronisation peut être consulté de deux manières :
 
 * Le fichier de log **post-upgrade_`<server version number>_<time of postupgrade>`.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : **`<installation directory>/var/<instance/postupgrade`**. Les erreurs et les avertissements sont indiqués par les attributs d’erreur et d’avertissement.
 
-### Résolution des conflits {#resolving-conflicts}
+### Résoudre les conflits {#resolving-conflicts}
 
 Pour résoudre un conflit, procédez de la manière suivante :
 
@@ -240,7 +240,7 @@ Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
 ### Bonnes pratiques {#best-practices}
 
-Un échec de mise à jour peut être lié à la configuration de la base de données. Assurez-vous que les configurations effectuées par l&#39;administrateur technique et l&#39;administrateur de la base de données sont compatibles.
+L’échec d’une mise à jour peut être lié à la configuration de la base de données. Assurez-vous que les configurations effectuées par l’administrateur technique et l’administrateur de la base de données sont compatibles.
 
 Par exemple, une base de données unicode ne doit pas autoriser uniquement le stockage de données en LATIN1, etc.
 
@@ -248,7 +248,7 @@ Par exemple, une base de données unicode ne doit pas autoriser uniquement le st
 
 ### Windows {#in-windows-1}
 
-Sur l’ordinateur sur lequel le serveur d’applications Adobe Campaign est installé (**nlserver web**), téléchargez et copiez le fichier **setup-client-6.XXXX.exe** n **[chemin d’accès de l’application]/datakit/nl/eng/jsp**.
+Sur l’ordinateur sur lequel est installé le serveur d’applications Adobe Campaign (**nlserver web**), téléchargez et copiez le fichier **setup-client-6.XXXX.exe** dans le **[chemin d’accès de l’application]/datakit/nl/eng/jsp**.
 
 Ainsi, à la prochaine connexion des postes clients, une fenêtre indiquera aux utilisateurs la disponibilité d&#39;une mise à jour et leur proposera de la télécharger et de l&#39;installer.
 
@@ -258,7 +258,7 @@ Ainsi, à la prochaine connexion des postes clients, une fenêtre indiquera aux 
 
 ### Linux {#in-linux-1}
 
-Sur l’ordinateur sur lequel le serveur d’applications Adobe Campaign (**nlserver web**) est installé, récupérez le package **setup-client-6.XXXX.exe** et copiez-le en enregistrant **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
+Sur l’ordinateur sur lequel est installé le serveur d’applications Adobe Campaign (**nlserver web**), récupérez le package **setup-client-6.XXXX.exe**, copiez-le et enregistrez-le dans **/usr/local/neolane/nl6/datakit/nl/eng/jsp** :
 
 ```
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
