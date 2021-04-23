@@ -6,14 +6,14 @@ description: Créer votre premier questionnaire avec Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '959'
 ht-degree: 100%
 
 ---
-
 
 # Étapes clés de création d’un questionnaire {#getting-started-with-surveys}
 
@@ -152,4 +152,3 @@ Vous pouvez ensuite suivre les réponses des utilisateurs au travers des rapport
 >L&#39;URL publique contient le nom interne du questionnaire. En cas de modification du nom interne, l&#39;URL automatiquement mise à jour : tous les liens vers le questionnaires doivent alors être mis à jour.
 >
 >Si des diffusions contenant un lien vers le formulaire ont déjà été envoyées, ce lien ne fonctionnera plus.
-
