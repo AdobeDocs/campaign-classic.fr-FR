@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Pour créer une nouvelle instance ainsi que la base de données Adobe Campaign, 
 
 >[!NOTE]
 >
->Seul l&#39;identifiant **interne** peut effectuer ces opérations. Voir à ce propos [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+>Seul l&#39;identifiant **interne** peut effectuer ces opérations. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 Lorsque la console Adobe Campaign est démarrée, vous accédez à une page de connexion.
 
