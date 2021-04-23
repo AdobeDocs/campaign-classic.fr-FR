@@ -6,14 +6,14 @@ description: Mettre à jour la structure de la base de données
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6c1e061b-8636-4285-8d83-97474544d252
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '151'
 ht-degree: 100%
 
 ---
-
 
 # Mettre à jour la structure de la base de données{#updating-the-database-structure}
 
@@ -40,4 +40,3 @@ Suivez les étapes et visualisez le script SQL de mise à jour de la base de don
 Lancez ensuite la mise à jour de la base de données :
 
 ![](assets/d_ncs_integration_schema_update3.png)
-
