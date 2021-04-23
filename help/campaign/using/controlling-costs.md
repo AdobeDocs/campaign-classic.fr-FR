@@ -6,14 +6,14 @@ description: Maîtriser les coûts
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2539'
 ht-degree: 100%
 
 ---
-
 
 # Maîtriser les coûts{#controlling-costs}
 
