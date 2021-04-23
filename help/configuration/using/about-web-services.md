@@ -6,14 +6,14 @@ description: A propos des services web
 audience: configuration
 content-type: reference
 topic-tags: api
-translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '658'
 ht-degree: 100%
 
 ---
-
 
 # A propos des services web{#about-web-services}
 
