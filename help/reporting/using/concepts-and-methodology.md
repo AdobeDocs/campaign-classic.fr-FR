@@ -6,14 +6,14 @@ description: Concepts et méthodologie
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1565'
 ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques relatives aux cubes{#concepts-and-methodology}
 
@@ -273,4 +273,3 @@ Pour sélectionner une ligne, une colonne ou une cellule, cliquez dessus avec le
 Le filtre est automatiquement appliqué et ajouté dans la zone des filtres, au-dessus du rapport.
 
 ![](assets/neolap_create_filter_display.png)
-
