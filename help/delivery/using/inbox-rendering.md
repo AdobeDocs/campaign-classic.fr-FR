@@ -84,7 +84,6 @@ Chaque fois que vous utilisez la fonctionnalité **[!UICONTROL Inbox rendering]*
 >
 >* Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook 2010, un pour le rendu Apple Mail 9, etc.
 >* Pour une même diffusion, si vous régénérez le rapport d&#39;inbox rendering, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
-
 >
 
 
