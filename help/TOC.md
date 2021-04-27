@@ -8,11 +8,11 @@ user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des 
 solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2519'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
    + [Notes techniques](technotes/technote.md)
    + [Mise à jour du certificat iOS](technotes/ios-certificate-update.md)
    + [Mises à jour de la configuration de Campaign](technotes/acc-config-updates.md)
-   + [Mise à jour des URL suivies](technotes/tracked-urls.md)
+   + [Mise à jour des URL trackées](technotes/tracked-urls.md)
 + Prise en main {#getting-started}
    + Prise en main d’Adobe Campaign {#starting-with-adobe-campaign}
       + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -481,7 +481,7 @@ ht-degree: 99%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle          {#monitoring}
+      + Contrôle           {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
