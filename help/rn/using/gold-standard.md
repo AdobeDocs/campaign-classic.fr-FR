@@ -7,11 +7,11 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 113a3535cd197f9b654fc1e50e20886e76ee886a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Cette page répertorie les versions de [!DNL Gold Standard]. Pour en savoir plus
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] version 11 {#gs-11}
 
-_14 avril 2021_
+_14 avril 2021_
 
-La version 9032@d030c36 inclut les correctifs suivants :
+Le build 9032@d030c36 comprend le correctif suivant :
 
-* Correction d’une régression de la console cliente qui provoquait des messages d’erreur persistants sur l’écran de connexion IMS. (NEO-34821)
+* Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
 **La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
@@ -100,11 +100,11 @@ _29 avril 2020_
 
 Le build 9032@3a9dc9c comprend les correctifs suivants :
 
-* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism).
+* Amélioration de la sécurité des liens de tracking dans les emails. Cette option est activée par défaut pour tous les clients. Une autre fonctionnalité de sécurité améliorée est disponible. Il est possible de l’activer en contactant l&#39;Assistance clientèle. Pour plus d’informations sur la fonctionnalité et la procédure d’activation pour les clients non hébergés, consultez la [liste de contrôle de sécurité et de confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism).
 
 >[!CAUTION]
 >
->Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+>Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
