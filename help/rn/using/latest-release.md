@@ -2,16 +2,16 @@
 solution: Campaign Classic
 product: campaign
 title: Dernière version
-description: Dernière version de Campaign Classic        Notes
+description: Dernière version de Campaign Classic         Notes
 feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 ## ![](assets/do-not-localize/blue_2.png) Version 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
-_15 avril 2021_
+__
 
 * La gestion des mots de passe a été améliorée pour optimiser la sécurité.
-* Correction d’un problème qui pouvait provoquer des blocages MTA.
+* Correction d&#39;un problème qui pouvait provoquer des blocages de MTA.
 
 ## ![](assets/do-not-localize/red_2.png) Version 21.1.1 - Build 9277 {#release-21-1-1-build-9277}
 
