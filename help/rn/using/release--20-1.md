@@ -7,11 +7,11 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: da87e8aac5d5419c8b21803e4041da166d8ffde9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 98%
 
 ## ![](assets/do-not-localize/limited_2.png) Version 20.1.4 - Build 9126 {#release-20-1-4-build-9126}
 
-_15 avril 2021_
+_15 avril 2021_
 
-* Correction d’une régression de la console cliente qui provoquait des messages d’erreur persistants sur l’écran de connexion IMS. (NEO-34821)
+* Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
 **La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
