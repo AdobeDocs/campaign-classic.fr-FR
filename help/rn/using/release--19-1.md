@@ -7,11 +7,11 @@ feature: null
 role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5271a23f7d815d432cfec00c57555c18be1fd3c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 99%
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
-_15 avril 2021_
+__
 
-* Correction d’une régression de la console cliente qui provoquait des messages d’erreur persistants sur l’écran de connexion IMS. (NEO-34821)
+* Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
 **La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
@@ -215,7 +215,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
 
-* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.
 * Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le workflow de tracking détecte désormais les problèmes du log de tracking qui peuvent entraîner des erreurs et arrêter le workflow. Ces problèmes sont maintenant écartés et ne sont pas traités.
 * Workflow de nettoyage : le workflow de nettoyage a été amélioré de manière à éviter les erreurs et arrêts potentiels. Cela optimise la taille et la performance des bases de données.
