@@ -4,9 +4,9 @@ solution: Campaign Classic
 product: campaign
 title: Documentation du produit Adobe Campaign Classic
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd6f77606517a0d3ceaa3c2b398733521af3ae43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
