@@ -7,11 +7,11 @@ feature: null
 role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f5a536a5ac1286cdf6f1c9f53377fe8d0f55bed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 98%
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.2.4 - Build 9082 {#release-19-2-4-build-9082}
 
-_15 avril 2021_
+__
 
-* Correction d’une régression de la console cliente qui provoquait des messages d’erreur persistants sur l’écran de connexion IMS. (NEO-34821)
+* Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
 **La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
