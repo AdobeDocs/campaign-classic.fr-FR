@@ -377,7 +377,7 @@ ht-degree: 100%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [À propos de [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuration de l’intégration](integrations/using/configuring-the-integration.md)
-      + [Création d’une newsletter](integrations/using/creating-an-experience-manager-newsletter.md) [!DNL Experience Manager] 
+      + [Création d’une newsletter [!DNL Experience Manager]](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Intégration à [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
