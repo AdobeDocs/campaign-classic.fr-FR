@@ -9,25 +9,25 @@ translation-type: tm+mt
 source-git-commit: e1b09767a8eed3a7dc90e4db0429238d86d39570
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 19%
+ht-degree: 91%
 
 ---
 
-# Problème de signature des URL suivies {#tracked-urls}
+# Problème de signature des URL trackées {#tracked-urls}
 
-Suite à des modifications récentes, les URL suivies peuvent échouer lorsque la signature d’URL est principale dans Campaign. Certaines boîtes aux lettres peuvent être plus touchées que d&#39;autres, car certaines sociétés disposent d&#39;outils de sécurité spécifiques qui peuvent affecter les liens et modifier le mécanisme de signature d&#39;URL.
+Suite à des modifications récentes, les URL trackées peuvent échouer lorsque la signature d&#39;URL est active dans Campaign. Certaines boîtes de réception peuvent être plus touchées que d&#39;autres, car certaines sociétés disposent d&#39;outils de sécurité spécifiques qui peuvent affecter les liens et modifier le mécanisme de signature d&#39;URL.
 
-Par conséquent, l’Adobe vous recommande de désactiver le mécanisme de signature pour le suivi des liens. Cette procédure corrige les liens de suivi anciens, à l’exception de ceux qui ont été reçus avec une fuite de doublon.
+Par conséquent, Adobe vous recommande de désactiver le mécanisme de signature pour les liens de tracking. Cette procédure corrige les anciens liens de tracking, à l&#39;exception de ceux qui ont été reçus avec un double échappement.
 
-Notez que les liens de désinscription peuvent échouer comme tout autre lien, la fréquence est variable d’hôte à hôte, mais inférieure à 1 %.
+Veuillez noter que les liens de désinscription peuvent échouer comme tout autre lien, la fréquence est variable d&#39;hôte à hôte, mais inférieure à 1 %.
 
 **Cela vous concerne-t-il ?**
 
-Pour améliorer la sécurité, le mécanisme de signature pour le suivi des liens dans les courriels a été introduit dans [Campaign Gold Standard 8](../rn/using/gold-standard.md#gs8) - avril 2020 - et est activé par défaut pour tous les clients qui commencent la version 19.1.4 (9032@3a9dc9c) et Campaign 20.2.
+Pour améliorer la sécurité, le mécanisme de signature pour les liens de tracking dans les emails a été introduit dans [Campaign Gold Standard 8](../rn/using/gold-standard.md#gs8), avril 2020, et est activé par défaut pour tous les clients qui commencent la version 19.1.4 (9032@3a9dc9c) et Campaign 20.2.
 
-Si votre environnement s’exécute sur l’une des versions répertoriées ci-dessous, vous pouvez être affecté :
+Si votre environnement s&#39;exécute sur l&#39;une des versions répertoriées ci-dessous, vous pouvez être affecté :
 
-* Gold Standard 8 à 11. [En savoir plus](../rn/using/gold-standard.md#gs-8)
+* Gold Standard 8 à 11. [En savoir plus](../rn/using/gold-standard.md#gs-8)
 * Campaign versions 21.1.1 (build 9277) à 21.1.2 (build 9282). [En savoir plus](../rn/using/latest-release.md)
 * Campaign versions 20.3.1 (build 9228) à 20.3.3 (build 9234). [En savoir plus](../rn/using/release--20-3.md)
 * Campaign versions 20.2.1 (build 9178) à 20.2.3 (build 9182). [En savoir plus](../rn/using/release--20-2.md)
@@ -39,13 +39,13 @@ Découvrez comment vérifier votre version [dans cette section](../platform/usin
 
 **Comment effectuer la mise à jour ?**
 
-En tant que **client hébergé**, l’Adobe travaillera avec vous pour mettre à jour votre configuration sous peu.
+En tant que **client hébergé**, Adobe travaillera avec vous pour mettre à jour votre configuration rapidement.
 
-En tant que client **sur site/hybride**, vous devez mettre à jour votre configuration.
+En tant que **client on-premise/hybride**, vous devez mettre à jour votre configuration.
 
-Procédez comme suit :
+Procédez comme suit :
 
-1. Dans le [fichier de configuration du serveur](../installation/using/the-server-configuration-file.md) (serverConf.xml), remplacez **signEmailLinks** par **false**.
+1. Dans le [fichier de configuration du serveur](../installation/using/the-server-configuration-file.md) (serverConf.xml), définissez **signEmailLinks** sur **false**.
 1. Redémarrez le service **nlserver**.
 1. Sur le serveur de tracking, redémarrez le serveur web (apache2 sur Debian, httpd sur CentOS/RedHat, IIS sous Windows).
 
@@ -55,16 +55,16 @@ Procédez comme suit :
 
 >[!NOTE]
 >
->Le fichier **config-`<instance>`.xml** remplace les paramètres **serverConf.xml**. Si **signEmailLinks** est présent dans **config-`<instance>`.xml** (où **instance** est le nom de votre instance), il doit également être remplacé par **false**.
+>Le fichier **config-`<instance>`.xml** remplace les paramètres **serverConf.xml**. Si **signEmailLinks** est présent dans **config-`<instance>`.xml** (où **instance** est le nom de votre instance), il doit également être défini sur **false**.
 
 
-**Quel est l&#39;impact ?**
+**Quel est l&#39;impact ?**
 
-La maintenance nécessite un temps d&#39;inactivité maximal de 25 minutes et pendant cette période, toutes les diffusions, les liens de suivi et les appels d&#39;API ne fonctionneront pas.
+La maintenance nécessite un temps d&#39;inactivité maximal de 25 minutes et pendant cette période, toutes les diffusions, les liens de tracking et les appels d&#39;API ne fonctionneront pas.
 
 Une fois la mise à jour terminée, tous les liens fonctionnent comme prévu.
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
