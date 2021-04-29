@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 326ccbad77f3bd03a8eba22d7714084d52d2f02b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Le tableau suivant donne accès à la documentation disponible sur les intégrat
  <tbody> 
   <tr> 
    <td> <strong>Plateforme de données clientes Adobe en temps réel (RTCDP)</strong><br /> </td> 
-   <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe (RTCDP) vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">En savoir plus</a> sur l’intégration de Campaign et de la plateforme de données clientes Adobe en temps réel.</p><br /> </td> 
+   <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe (RTCDP) vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">En savoir plus</a> sur l'intégration de Campaign et d'Adobe Real-time Customer Data Platform.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management System (IMS) - Adobe ID</strong><br /> </td> 
