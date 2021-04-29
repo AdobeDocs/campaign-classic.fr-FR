@@ -9,9 +9,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
+source-git-commit: 378be6d4ef4ff69818d45c608a61b9a3506398be
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 60%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 60%
 
 ## Contexte
 
-Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorrect de certains messages électroniques envoyés à des adresses électroniques Apple valides, rebondissant de manière irréversible en tant qu’adresses électroniques non valides par les serveurs Apple, avec le rebond suivant :  &quot;550 5.1.1 <email address>: succès de la recherche d&#39;utilisateur, mais aucun enregistrement d&#39;utilisateur n&#39;a été trouvé.&quot;
+Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorrect de certains messages électroniques envoyés à des adresses électroniques Apple valides, rebondissant de manière irréversible en tant qu’adresses électroniques non valides par les serveurs Apple, avec le rebond suivant :  &quot;550 5.1.1 &quot;adresse électronique&quot; : succès de la recherche d&#39;utilisateur, mais aucun enregistrement d&#39;utilisateur n&#39;a été trouvé.&quot;
 
 Ce problème s&#39;est produit le 26/4 et a duré de 7h à 1h heure normale de l&#39;Est.
 
