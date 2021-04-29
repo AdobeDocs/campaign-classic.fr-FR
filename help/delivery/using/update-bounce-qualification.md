@@ -9,7 +9,7 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 378be6d4ef4ff69818d45c608a61b9a3506398be
+source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 60%
@@ -24,11 +24,11 @@ Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorre
 
 Ce problème s&#39;est produit le 26/4 et a duré de 7h à 1h heure normale de l&#39;Est.
 
-En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
-
 >[!NOTE]
 >
 >Vous pouvez vérifier le Tableau de bord d’état du système Apple sur [cette page](https://www.apple.com/support/systemstatus/).
+
+En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
 Selon la logique standard de gestion des retours, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un paramètre **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
 
