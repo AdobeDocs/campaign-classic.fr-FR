@@ -1,45 +1,45 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Incorporer des segments Adobe Experience Platform dans Campaign
-description: Découvrez comment intégrer des audiences Adobe Experience Platform dans le Campaign Classic.
+title: Ingérer des segments Adobe Experience Platform dans Campaign
+description: Découvrez comment ingérer des audiences Adobe Experience Platform dans Campaign Classic.
 audience: integrations
 content-type: reference
-translation-type: tm+mt
-source-git-commit: 9b3254c16eed784846db87d27f9f5de009dafdc3
-workflow-type: tm+mt
+exl-id: 6db8a653-b649-402c-8814-24826edadba7
+translation-type: ht
+source-git-commit: 44ea4acb384fd7cb9de8b5be8132446ee0023cfe
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# Ingérer des segments Adobe Experience Platform dans Campaign {#destinations}
 
-# Incorporer des segments Adobe Experience Platform dans Campaign {#destinations}
+Pour ingérer des segments Adobe Experience Platform dans Campaign et les utiliser dans vos workflows, vous devez d&#39;abord connecter Adobe Campaign en tant que **destination** Adobe Experience Platform et le configurer avec le segment à exporter.
 
-Pour importer Adobe Experience Platform dans Campaign et les utiliser dans vos workflows, vous devez d&#39;abord connecter Adobe Campaign en tant que Adobe Experience Platform **Destination** et le configurer avec le segment à exporter.
-
-Une fois la destination configurée, les données sont exportées vers votre emplacement d’enregistrement et vous devez créer un processus dédié dans le Campaign Classic pour les assimiler.
+Une fois la destination configurée, les données sont exportées vers votre emplacement de stockage et vous devez créer un workflow dédié dans Campaign Classic pour les ingérer.
 
 ## Connecter Adobe Campaign en tant que destination
 
-Dans la plate-forme Adobe Experience, configurez une connexion avec Adobe Campaign en sélectionnant un emplacement d’enregistrement pour les segments exportés. Cette procédure vous permet également de sélectionner les segments à exporter et de spécifier des champs XDM supplémentaires à inclure.
+Dans Adobe Experience Platform, configurez une connexion avec Adobe Campaign en sélectionnant un emplacement de stockage pour les segments exportés. Cette procédure permet également de sélectionner les segments à exporter et de spécifier des champs XDM additionnels à inclure.
 
-Pour plus d&#39;informations à ce sujet, consultez la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+Consultez à ce sujet la [documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
 
-Une fois la destination configurée, Adobe Experience Platform crée un fichier .txt ou .csv délimité par des tabulations à l’emplacement de l’enregistrement que vous avez fourni. Cette opération est planifiée et exécutée une fois par 24h.
+Une fois la destination configurée, Adobe Experience Platform crée un fichier .txt ou .csv délimité par des tabulations à l’emplacement de stockage indiqué. Cette opération est planifiée et exécutée une fois toutes les 24 heures.
 
-Vous pouvez désormais configurer un processus Campaign Classic pour assimiler le segment dans Campaign.
+Vous pouvez désormais configurer un workflow Campaign Classic pour ingérer le segment dans Campaign.
 
-## Création d’un processus d’importation dans le Campaign Classic
+## Création d&#39;un workflow d&#39;import dans Campaign Classic
 
-Une fois que le Campaign Classic a été configuré en tant que destination, vous devez créer un processus dédié pour importer le fichier qui a été exporté par Adobe Experience Platform.
+Une fois Campaign Classic configuré en tant que destination, vous devez créer un workflow dédié pour importer le fichier qui a été exporté par Adobe Experience Platform.
 
-Pour ce faire, vous devez ajouter et configurer une activité **[!UICONTROL Transfert de fichier]**. Pour plus d&#39;informations sur la configuration de cette activité, consultez [cette section](../../workflow/using/file-transfer.md).
+Pour ce faire, vous devez ajouter et configurer une activité **[!UICONTROL Transfert de fichier]**. Pour plus d’informations sur la configuration de cette activité, consultez [cette section](../../workflow/using/file-transfer.md).
 
 ![](assets/rtcdp-file-transfer.png)
 
-Vous pouvez ensuite créer votre processus en fonction de vos besoins (mettre à jour la base de données à l’aide des données de segment, envoyer des diffusions entre canaux au segment, etc.)
+Vous pouvez ensuite créer votre workflow en fonction de vos besoins (mettre à jour la base de données à l’aide des données de segment, envoyer des diffusions cross-canal au segment, etc.)
 
-Par exemple, le flux de travail ci-dessous télécharge quotidiennement le fichier depuis l’emplacement de votre enregistrement, puis met à jour la base de données Campaign avec les données de segment.
+Par exemple, le workflow ci-dessous télécharge quotidiennement le fichier depuis votre emplacement de stockage, puis met à jour la base de données Campaign à l’aide des données de segment.
 
 ![](assets/rtcdp-workflow.png)
