@@ -9,27 +9,22 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
+source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 63%
+source-wordcount: '436'
+ht-degree: 60%
 
 ---
 
-# Mettre à jour la qualification des rebonds après une panne d’un FAI{#update-bounce-qualification.md}
+# Mettre à jour les rebonds durs incorrects après une panne d’Apple {#update-bounce-qualification.md}
 
 ## Contexte
 
-En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
-
-Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorrect de certains messages électroniques envoyés à des adresses électroniques Apple valides, rebondissant de manière irréversible en tant qu’adresses électroniques non valides par les serveurs Apple, avec le rebond suivant :
-
-
-```
-“550 5.1.1 <email address>: user lookup success but no user record found.”
-```
+Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorrect de certains messages électroniques envoyés à des adresses électroniques Apple valides, rebondissant de manière irréversible en tant qu’adresses électroniques non valides par les serveurs Apple, avec le rebond suivant :  &quot;550 5.1.1 <email address>: succès de la recherche d&#39;utilisateur, mais aucun enregistrement d&#39;utilisateur n&#39;a été trouvé.&quot;
 
 Ce problème s&#39;est produit le 26/4 et a duré de 7h à 1h heure normale de l&#39;Est.
+
+En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
 >[!NOTE]
 >
