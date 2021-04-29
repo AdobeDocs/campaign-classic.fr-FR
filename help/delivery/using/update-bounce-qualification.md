@@ -9,7 +9,7 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
+source-git-commit: 718b490d48c6cfabdb24ab18dffb6db664f2a46c
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 60%
@@ -53,7 +53,7 @@ En fonction du calendrier de l’incident, voici les instructions recommandées 
 * Pour les instances Campaign contenant des informations de règles d’email entrant dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
-   * **Domaine de courriel (@domain)** égal à icloud.com&quot; OU domaine de courriel (@domain) égal à me.com&quot; OU domaine de courriel (@domain) égal à mac.com&quot;
+   * **Domaine de courriel (@domaine)** égal à icloud.com OU domaine de  **courriel (@domaine)** égal à me.com OU domaine de  **courriel (@domaine)** égal à mac.com
    * **État de la mise à jour (@lastModified)** le ou après le 26/4/2021 07:00:00
    * **Etat de la mise à jour (@lastModified)** le ou avant le 26/04/2021 01:00:00 PM
 
