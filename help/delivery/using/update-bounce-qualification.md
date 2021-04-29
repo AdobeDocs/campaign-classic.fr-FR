@@ -9,10 +9,10 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: ad7f0725a5ce1dea9b5b3ab236c839a816b29382
+source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 62%
+source-wordcount: '428'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,14 @@ ht-degree: 62%
 
 En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
-Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorrect de certains messages électroniques envoyés à des adresses électroniques Apple valides, rebondissant de manière irréversible en tant qu’adresses électroniques non valides par les serveurs Apple, avec le rebond suivant : *&quot;550 5.1.1 <email address>: succès de la recherche d&#39;utilisateur, mais aucun enregistrement d&#39;utilisateur n&#39;a été trouvé.&quot;*Ce problème s&#39;est produit le 26/4 et a duré de 7h à 1h heure normale de l&#39;Est.
+Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorrect de certains messages électroniques envoyés à des adresses électroniques Apple valides, rebondissant de manière irréversible en tant qu’adresses électroniques non valides par les serveurs Apple, avec le rebond suivant :
+
+
+```
+“550 5.1.1 <email address>: user lookup success but no user record found.”
+```
+
+Ce problème s&#39;est produit le 26/4 et a duré de 7h à 1h heure normale de l&#39;Est.
 
 >[!NOTE]
 >
@@ -44,7 +51,7 @@ En fonction du calendrier de l’incident, voici les instructions recommandées 
 
 * Pour les instances Campaign contenant des informations de réponse de retour SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-   * **Le texte d’erreur (texte de la quarantaine)** contient &quot;succès de recherche d’utilisateur mais aucun enregistrement d’utilisateur trouvé&quot; ET le texte d’ **erreur (texte de la quarantaine)** contient &quot;support.apple.com&quot; **
+   * **Le texte d’erreur (texte de la quarantaine)** contient &quot;succès de la recherche d’utilisateur, mais aucun enregistrement d’utilisateur trouvé&quot; ET le texte d’ **erreur (texte de la quarantaine)** contient &quot;support.apple.com&quot;
    * **État de la mise à jour (@lastModified)** le ou après le 26/4/2021 07:00:00
    * **Etat de la mise à jour (@lastModified)** le ou avant le 26/04/2021 01:00:00 PM
 
