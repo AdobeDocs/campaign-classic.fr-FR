@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-translation-type: ht
-source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
-workflow-type: ht
-source-wordcount: '355'
+translation-type: tm+mt
+source-git-commit: 3e3a5250f165677026557a4e2249fc683aa23d57
+workflow-type: tm+mt
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
 
-# Connecter Campaign et Microsoft Dynamics 365{#connect-to-msdyn}
+# Connecter Campaign et Salesforce.com{#connect-to-sfdc}
 
 Sur cette page, vous allez découvrir comment connecter Campaign Classic à **Salesforce**.
 
