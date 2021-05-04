@@ -7,11 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
 source-wordcount: '3930'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -627,11 +627,11 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Nom du tablespace destiné à contenir les données des tables standard d'Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
+   <td> Nom de l’espace disque logique destiné à contenir les données des tables d’outils Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Nom du tablespace destiné à contenir les index des tables standard d'Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
+   <td> Nom de l’espace disque logique destiné à contenir les index des tables d’outils Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
