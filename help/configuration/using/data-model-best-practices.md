@@ -7,10 +7,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-translation-type: ht
-source-git-commit: 6768e9ac518ab0c5642241d1fd2086de5b1e6892
-workflow-type: ht
-source-wordcount: '4027'
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
+source-wordcount: '4026'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Ce document présente des cas pratiques courants et les bonnes pratiques pour ap
 
 ## Architecture du modèle de données {#data-model-architecture}
 
-Adobe Campaign Standard est un puissant système de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies on-line et off-line pour créer des expériences client personnalisées.
+Adobe Campaign  est un puissant système de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies on-line et off-line pour créer des expériences client personnalisées.
 
 ### Approche axée sur le client {#customer-centric-approach}
 
@@ -212,7 +212,7 @@ Le tableau ci-après indique dans quels cas les trois index décrits ci-dessous 
 
 ### Liens {#links}
 
-Attention à l’intégrité « propre » des grandes tables. La suppression d’enregistrements possédant des tables volumineuses avec une intégrité qui leur est propre peut arrêter l’instance. La table est verrouillée et les suppressions sont faites une par une. Il est donc préférable d’appliquer une intégrité « neutre » sur les tables filles très volumineuses.
+Attention à l’intégrité « propre » des grandes tables. La suppression d’enregistrements possédant des tables volumineuses avec une intégrité qui leur est propre peut arrêter l’instance. La table est verrouillée et les suppressions sont faites une par une. Il est donc préférable d’appliquer une intégrité « neutre » sur les tables enfants très volumineuses.
 
 La déclaration d’un lien en tant que jointure externe est néfaste pour les performances. L’enregistrement Zero ID émule la fonctionnalité de jointure externe. Il n’est pas nécessaire de déclarer des jointures externes si le lien utilise l’autopk.
 
