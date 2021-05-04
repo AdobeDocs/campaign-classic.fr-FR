@@ -1,5 +1,5 @@
 ---
-solution: Campaign Standard
+solution: Campaign Classic
 product: campaign
 title: Bonnes pratiques en matière d'import et d'export
 description: En savoir plus sur les bonnes pratiques à suivre lors de l'import ou de l'export de données.
@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
