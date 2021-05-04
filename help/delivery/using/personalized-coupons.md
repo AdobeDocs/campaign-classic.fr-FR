@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -115,7 +115,7 @@ Dans l&#39;exemple ci-dessous, la diffusion est créée à partir de la Page d&#
 
       ![](assets/deliv_coup_11.png)
 
-      Le coupon est inséré dans le message sous forme de code et non du nom qui lui est assigné. Le code est utilisé dans le cadre du modèle de données standard Campaign.
+      Le bon est inséré dans le message sous forme de code plutôt que sous le nom que vous avez attribué. Le code est utilisé dans le modèle de données de l’outil Campaign.
    ![](assets/deliv_coup_12.png)
 
 1. Lancez un test pour confirmer le nom assigné au coupon. Allez dans l&#39;onglet **[!UICONTROL Prévisualisation]** et cliquez sur **[!UICONTROL Tester la personnalisation]**. Sélectionnez un destinataire pour le test.
