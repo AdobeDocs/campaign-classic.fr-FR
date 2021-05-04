@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '444'
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Conseil : vérifiez la configuration relative à la gestion du trafic (affinit�
 
 ## Tracking {#tracking-deliveries}
 
-Pour mieux connaître le comportement de vos destinataires, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désabonnements, etc. Dans Campaign Classic, ces informations figurent dans l’onglet Tracking des destinataires ciblés par la diffusion et dans l’onglet Tracking de la diffusion. Dans Campaign Standard, elles sont affichées dans l’onglet Logs de tracking de la diffusion.
+Pour mieux connaître le comportement de vos destinataires, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désabonnements, etc. Dans Campaign Classic, ces informations figurent dans l’onglet Tracking des destinataires ciblés par la diffusion et dans l’onglet Tracking de la diffusion.
 
 **Conseil** : Le tracking des messages est activé par défaut. Pour paramétrer les URL, sélectionnez l&#39;option Afficher les URL, située dans la section inférieure de l’assistant de diffusion. Pour chaque URL du message, vous pouvez choisir d&#39;activer ou non le tracking.
 
