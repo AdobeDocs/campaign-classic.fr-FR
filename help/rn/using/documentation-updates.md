@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+source-git-commit: 9781e313e03489d203e14ab0c426aa1001c7a257
 workflow-type: tm+mt
 source-wordcount: '4317'
 ht-degree: 99%
@@ -44,7 +44,7 @@ Découvrez comment créer et gérer vos campagnes à l’aide de ces nouvelles p
 
 Des informations ont été ajoutées dans la section d’activité **[!UICONTROL JavaScript avancée]** sur l’utilisation de la méthode task.setCompleted() pour terminer la tâche et empêcher les rappels ultérieurs. [En savoir plus](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-La section [Délivrabilité](../../delivery/using/about-deliverability.md) a été mise à jour et inclut désormais des liens vers le nouveau [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr). Toutes les informations génériques relatives à la délivrabilité qui peuvent s’appliquer à diverses solutions d’Adobe ont été déplacées vers l’[annexe du guide des bonnes pratiques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=fr#additional-resources).
+La section [Délivrabilité](../../delivery/using/about-deliverability.md) a été mise à jour et inclut désormais des liens vers le nouveau [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr). Toutes les informations génériques relatives à la délivrabilité qui peuvent s’appliquer à diverses solutions d’Adobe ont été déplacées vers l’[annexe du guide des bonnes pratiques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Février 2021 {#release-21.1}
 
