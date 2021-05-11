@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: Matrice de compatibilité pour Campaign Classic
 description: Matrice de compatibilité Campaign Classic
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 92%
 
 ---
 
@@ -275,19 +275,25 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </tbody>
 </table>
 
-## Systèmes d&#39;exploitation de la console cliente{#ClientConsoleoperatingsystems}
+## Console client {#ClientConsoleoperatingsystems}
+
+Les systèmes d’exploitation et navigateurs suivants sont requis pour utiliser Campaign Client Console.
+
+### Systèmes d’exploitation
 
 <table>
 <tbody>
 <tr>
-<td>Windows Server </td>
+<td>Microsoft Windows Server</td>
 <td>
 <p>2016</p>
 <p>2012</p>
 </td>
+<td>
+</td>
 </tr>
 <tr>
-<td>Windows</td>
+<td>Microsoft Windows</td>
 <td>
 <p>8</p>
 <p>10 (recommandé pour les instances japonaises)</p>
@@ -295,6 +301,30 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </tr>
 </tbody>
 </table>
+
+### Navigateurs
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer </p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## SDK Mobile{#MobileSDK}
 
@@ -319,9 +349,53 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Navigateurs{#Browsers}
 
-Pour les navigateurs suivants, la dernière version est prise en charge : Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+Les navigateurs suivants sont compatibles avec Campaign for Web Access.
 
-Internet Explorer 11 est pris en charge.
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer </p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Articles connexes{#Morelikethis}
 
