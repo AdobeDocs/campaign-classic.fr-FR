@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 translation-type: tm+mt
-source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
+source-git-commit: 62b2fdd807a654ab81d19a1b5c0d8ac88648e45c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 92%
 
 ---
@@ -277,7 +277,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Console client {#ClientConsoleoperatingsystems}
 
-Les systèmes d’exploitation et navigateurs suivants sont requis pour utiliser Campaign Client Console.
+:warning: Les systèmes d’exploitation et navigateurs suivants sont requis pour utiliser Campaign Client Console.
 
 ### Systèmes d’exploitation
 
@@ -288,8 +288,6 @@ Les systèmes d’exploitation et navigateurs suivants sont requis pour utiliser
 <td>
 <p>2016</p>
 <p>2012</p>
-</td>
-<td>
 </td>
 </tr>
 <tr>
