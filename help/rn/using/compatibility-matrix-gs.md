@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: Matrice de compatibilité pour Campaign [!DNL Gold Standard]
 description: 'Matrice de compatibilité Campaign Classic pour la version  [!DNL Gold Standard] '
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 92%
 
 ---
 
@@ -270,21 +270,27 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </tbody>
 </table>
 
-## Systèmes d&#39;exploitation de la console cliente{#ClientConsoleoperatingsystems-gs}
+
+## Console client {#ClientConsoleoperatingsystems}
+
+Les systèmes d’exploitation et navigateurs suivants sont requis pour utiliser Campaign Client Console.
+
+### Systèmes d’exploitation
 
 <table>
 <tbody>
 <tr>
-<td>Windows Server </td>
+<td>Microsoft Windows Server</td>
 <td>
 <p>2016</p>
 <p>2012</p>
 </td>
+<td>
+</td>
 </tr>
 <tr>
-<td>Windows</td>
+<td>Microsoft Windows</td>
 <td>
-<p>Sept</p>
 <p>8</p>
 <p>10 (recommandé pour les instances japonaises)</p>
 </td>
@@ -292,7 +298,31 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </tbody>
 </table>
 
-## SDK Mobile{#MobileSDK-gs}
+### Navigateurs
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer </p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## SDK Mobile{#MobileSDK}
 
 <table>
 <tbody>
@@ -313,11 +343,54 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </tbody>
 </table>
 
-## Navigateurs{#Browsers-gs}
+## Navigateurs{#Browsers}
 
-Pour les navigateurs suivants, la dernière version est prise en charge : Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+Les navigateurs suivants sont compatibles avec Campaign for Web Access.
 
-Internet Explorer 11 est pris en charge.
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>Dernière version</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer </p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Articles connexes{#Morelikethis-gs}
 
