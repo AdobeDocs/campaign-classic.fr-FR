@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 translation-type: tm+mt
-source-git-commit: 548ed5710cced016606283198f81a8f13c65ac10
+source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 92%
@@ -273,7 +273,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 
 ## Console client {#ClientConsoleoperatingsystems}
 
-:warning: Les systèmes d’exploitation et navigateurs suivants sont requis pour utiliser Campaign Client Console.
+:warning: Les systèmes d’exploitation et le navigateur suivants sont nécessaires pour utiliser Campaign Client Console.
 
 ### Systèmes d’exploitation
 
@@ -296,7 +296,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </tbody>
 </table>
 
-### Navigateurs
+### Navigateur
 
 <table>
 <tbody>
