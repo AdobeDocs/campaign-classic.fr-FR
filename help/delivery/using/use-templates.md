@@ -6,11 +6,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Un [modèle de diffusion](../../delivery/using/creating-a-delivery-template.md) 
 
 Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de disposer d’un sous-domaine par marque. Une banque peut, par exemple, avoir plusieurs sous-domaines qui correspondent à chacune de ses agences régionales. Si une banque détient le domaine bluebank.com, ses sous-domaines peuvent être @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Disposer d’un modèle de diffusion par sous-domaine vous permet de toujours utiliser les paramètres préconfigurés adéquats pour chaque marque et d’éviter ainsi des erreurs tout en gagnant du temps.
 
-**Conseil** : Pour éviter les erreurs de configuration, nous vous recommandons de duplicata d’un modèle natif et de modifier ses propriétés plutôt que de créer un nouveau modèle.
+**Conseil :** afin d’éviter toute erreur de paramétrage, il est recommandé de dupliquer un modèle natif et d’en modifier les propriétés plutôt que d’en créer un nouveau.
 
 ## Configurer les adresses
 
