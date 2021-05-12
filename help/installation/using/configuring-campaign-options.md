@@ -7,11 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -306,7 +306,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
    <td> Emplacement pour l'affichage des logos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">ncmPublishingDir</span> <br /> </td> 
+   <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
    <td> Répertoire utilisé comme racine pour les publications.<br /> Pour plus d’informations sur la génération du contenu HTML et Texte, consultez <a href="../../delivery/using/using-a-content-template.md">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -347,7 +347,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">crmMarketingActivityWindow</span> <br /> </td> 
+   <td> <span class="uicontrol">CrmMarketingActivityWindow</span> <br /> </td> 
    <td> Durée en mois au-delà de laquelle l'historique de marketing ignore les informations.<br /> </td> 
   </tr> 
   <tr> 
@@ -409,7 +409,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Allow_PrivilegeEscalation</span> <br /> </td> 
-   <td> Si 1 est sélectionné, cette option autorise privilegeEscalade en JavaScript.<br /> </td> 
+   <td> Si 1 est sélectionné, cette option autorise privilegeEscalation en JavaScript.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Disable_ControlsOnFileDownload</span> <br /> </td> 
@@ -627,11 +627,11 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Nom de l’espace disque logique destiné à contenir les données des tables d’outils Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les données des tables ootb d’Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Nom de l’espace disque logique destiné à contenir les index des tables d’outils Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
+   <td> Nom du tablespace destiné à contenir les index des tables ootb d’Adobe Campaign.<br />Voir la section <a href="../../installation/using/creating-and-configuring-the-database.md">Création et paramétrage de la base de données</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
