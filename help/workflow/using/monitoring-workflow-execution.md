@@ -7,11 +7,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -261,7 +261,7 @@ Les vues disponibles sont les suivantes :
 * **[!UICONTROL En cours d’exécution]** : répertorie tous les workflows en cours d’exécution.
 * **[!UICONTROL En pause]** : répertorie tous les workflows en pause.
 * **[!UICONTROL Échec]** : répertorie tous les workflows en échec.
-* **[!UICONTROL Démarrage en attente]** : répertorie tous les workflows en attente de démarrage par le processus operationMgt. Cette vue est disponible avec le package **Campagnes marketing** uniquement (voir [Installation des packages intégrés Campaign](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Démarrage en attente]** : répertorie tous les workflows en attente de démarrage par le processus operationMgt. Cette vue n’est disponible que dans le package des **campagnes marketing** (voir la section [Installation des packages natifs de Campaign](../../installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
