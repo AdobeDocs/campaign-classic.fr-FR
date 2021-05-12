@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4026'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Ce document présente des cas pratiques courants et les bonnes pratiques pour ap
 
 ## Architecture du modèle de données {#data-model-architecture}
 
-Adobe Campaign  est un puissant système de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies on-line et off-line pour créer des expériences client personnalisées.
+Adobe Campaign est un puissant système de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies on-line et off-line pour créer des expériences client personnalisées.
 
 ### Approche axée sur le client {#customer-centric-approach}
 
