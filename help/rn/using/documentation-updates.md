@@ -436,7 +436,7 @@ Mise à jour du guide de prise en main des bonnes pratiques de diffusion – [En
 
 ## Octobre 2019 {#october-2019}
 
-La liste des messages d&#39;erreur pour Campaign a été mise à jour. [En savoir plus](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+La liste des messages d’erreur de Campaign a été mise à jour. [En savoir plus](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 Amélioration et enrichissement du guide de prise en main du RGPD. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA – [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
@@ -496,7 +496,7 @@ Ajout d&#39;informations supplémentaires sur les méthodes d&#39;authentificati
 
 Les étapes de configuration d&#39;Apache ont été mises à jour. [En savoir plus](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Une nouvelle page a été ajoutée, y compris la liste des points de fin pour Classic. [En savoir plus](../../installation/using/campaign-network-endpoints.md)
+Une nouvelle page contenant la liste des points d’entrée de Classic a été ajoutée. [En savoir plus](../../installation/using/campaign-network-endpoints.md)
 
 L&#39;article relatif aux bonnes pratiques concernant le package Données a été mis à jour. [En savoir plus](../../configuration/using/data-model-best-practices.md)
 
