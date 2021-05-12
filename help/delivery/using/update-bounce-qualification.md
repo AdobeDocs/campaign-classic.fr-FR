@@ -8,25 +8,25 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 718b490d48c6cfabdb24ab18dffb6db664f2a46c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Mettre à jour les rebonds durs incorrects après une panne d’Apple {#update-bounce-qualification.md}
+# Mettre à jour les erreurs hard incorrectes après une panne d’Apple {#update-bounce-qualification.md}
 
 ## Contexte
 
-Le 26 avril 2021, un problème mondial chez Apple a entraîné l’envoi incorrect de certains messages électroniques envoyés à des adresses électroniques Apple valides, rebondissant de manière irréversible en tant qu’adresses électroniques non valides par les serveurs Apple, avec le rebond suivant :  &quot;550 5.1.1 &quot;adresse électronique&quot; : succès de la recherche d&#39;utilisateur, mais aucun enregistrement d&#39;utilisateur n&#39;a été trouvé.&quot;
+Le 26 avril 2021, suite à un problème mondial chez Apple, l’envoi de certains e-mails à des adresses électroniques Apple valides a entraîné des erreurs hard injustifiées. Ces adresses e-mail ont été considérées comme non valides par les serveurs Apple, avec la réponse de retours suivante :  « 550 5.1.1 &quot;adresse e-mail&quot;: user lookup success but no user record found » (l’utilisateur a été trouvé, mais aucun enregistrement d’utilisateur trouvé).
 
-Ce problème s&#39;est produit le 26/4 et a duré de 7h à 1h heure normale de l&#39;Est.
+Ce problème s’est produit le 26 avril et a duré de 7 h à 13 h EST. 
 
 >[!NOTE]
 >
->Vous pouvez vérifier le Tableau de bord d’état du système Apple sur [cette page](https://www.apple.com/support/systemstatus/).
+>Vous pouvez vérifier le tableau de bord d’état du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/).
 
 En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
@@ -36,7 +36,7 @@ Pour trouver les destinataires qui ont été affectés par ce problème , ou au 
 
 ## Processus de mise à jour
 
-Vous devrez exécuter une requête sur votre table de quarantaine pour filtrer tous les destinataires Apple - y compris, @icloud.com, @me.com, @mac.com - qui ont été potentiellement affectés par la panne pour pouvoir être retirés de la liste de quarantaine, et inclus dans les futures diffusions de messagerie Campaign.
+Vous devrez exécuter une requête sur votre table de quarantaine pour filtrer tous les destinataires Apple qui ont été potentiellement affectés par la panne (qui incluent @icloud.com, @me.com, @mac.com), afin qu’ils puissent être supprimés de la liste de quarantaine et inclus dans les futures diffusions d’emails de Campaign.
 
 En fonction du calendrier de l’incident, voici les instructions recommandées pour cette requête.
 
@@ -46,16 +46,16 @@ En fonction du calendrier de l’incident, voici les instructions recommandées 
 
 * Pour les instances Campaign contenant des informations de réponse de retour SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-   * **Le texte d’erreur (texte de la quarantaine)** contient &quot;succès de la recherche d’utilisateur, mais aucun enregistrement d’utilisateur trouvé&quot; ET le texte d’ **erreur (texte de la quarantaine)** contient &quot;support.apple.com&quot;
-   * **État de la mise à jour (@lastModified)** le ou après le 26/4/2021 07:00:00
-   * **Etat de la mise à jour (@lastModified)** le ou avant le 26/04/2021 01:00:00 PM
+   * **Le texte d’erreur (texte de quarantaine)** contient « user lookup success but no user record found » (l’utilisateur a été trouvé, mais aucun enregistrement d’utilisateur trouvé) **ET le texte d’erreur (texte de quarantaine)** contient « support.apple.com ».
+   * **État de la mise à jour (@lastModified)** le ou après le 26/04/2021 à 07:00:00
+   * **État de la mise à jour (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
 
 * Pour les instances Campaign contenant des informations de règles d’email entrant dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
-   * **Domaine de courriel (@domaine)** égal à icloud.com OU domaine de  **courriel (@domaine)** égal à me.com OU domaine de  **courriel (@domaine)** égal à mac.com
-   * **État de la mise à jour (@lastModified)** le ou après le 26/4/2021 07:00:00
-   * **Etat de la mise à jour (@lastModified)** le ou avant le 26/04/2021 01:00:00 PM
+   * **Domaine d’e-mail (@domaine)** égal à icloud.com OU **domaine d’e-mail (@domaine)** égal à me.com OU **domaine d’e-mail (@domaine)** égal à mac.com
+   * **État de la mise à jour (@lastModified)** le ou après le 26/04/2021 à 07:00:00
+   * **État de la mise à jour (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
 
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de nettoyage de la base de données ****, soit simplement les supprimer de la table.
 
