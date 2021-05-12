@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Documentation du produit Adobe Campaign Classic
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 ## Nouveautés
 
-* **[Supprimer les ](delivery/using/update-bounce-qualification.md)**<br/> rebonds durs incorrectsDécouvrez comment mettre à jour les rebonds durs incorrects après une panne d&#39;Apple
+* **[Suppression des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)**<br/> Découvrez comment mettre à jour les erreurs hard incorrectes après une panne d’Apple.
 
 * **[Mise à jour de votre certificat APNs](technotes/ios-certificate-update.md)**<br/> Le 29 mars 2021, une mise à jour APNs a eu un impact sur le canal iOS de Campaign. Vous devez mettre à jour votre configuration pour éviter toute coupure du canal push d’iOS.
 
