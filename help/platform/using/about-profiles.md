@@ -7,11 +7,11 @@ feature: Profils et audiences
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c733b68a06fba9bb24cd1c1995ffc99a1277be87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Les profils actifs sont les profils qui sont comptabilisés à des fins de factu
 
 Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
 
-Si vous êtes hébergé sur AWS, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+Si vous êtes hébergé sur AWS, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
 
 La facturation ne concerne que les profils **actifs**. Un profil est considéré comme actif s’il a été ciblé ou s’il a reçu des communications au cours des 12 derniers mois via n’importe quel canal.
 
