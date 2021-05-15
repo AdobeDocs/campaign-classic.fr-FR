@@ -7,21 +7,18 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: dc3151a77350aa2b2acd989a57f5b489c1a98962
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 91%
 
 ---
 
-# A propos de la gestion de la réaction{#about-response-manager}
+# Commencer avec Campaign Gestion de la réaction{#about-response-manager}
 
-## Objectifs {#objectives}
+Adobe Campaign offre un module complémentaire de gestion des réponses qui vous permet de mesurer la réussite et la rentabilité des campagnes ou Propositions d&#39;offre marketing sur les canaux de communication : e-mail, mobile, publipostage, etc.
 
-Adobe Campaign propose une application de gestion de la réaction (Response Manager), qui permet de mesurer le succès et la rentabilité d&#39;une campagne marketing ou d&#39;une proposition d&#39;offre, quel que soit le canal de communication utilisé (email, mobile, téléphone, courrier, fax, agence, etc.).
-
-## Concept d&#39;hypothèse {#hypothesis-concept}
+## Hypothèse {#hypothesis-concept}
 
 Afin de déduire le comportement des personnes ciblées suite à la réception d&#39;une offre ou d&#39;une diffusion, des hypothèses peuvent être paramétrées sur une période donnée à partir de la date de contact. Ces hypothèses sont basées sur une table des **transactions** qui enregistre les achats et qui contient également le détail de ces achats.
 
@@ -41,7 +38,7 @@ Vous pouvez également comptabiliser l&#39;ensemble des réactions du foyer du d
 
 Chaque hypothèse est associée à une seule table des transactions. Une diffusion ou une offre peut être associée à plusieurs hypothèses.
 
-## Méthodologie {#method}
+## Etapes de mise en oeuvre {#method}
 
 Avant d&#39;utiliser le Response Manager, consultez la section [Configuration](../../campaign/using/configuration.md) et procédez aux paramétrages qui vous sont nécessaires.
 
