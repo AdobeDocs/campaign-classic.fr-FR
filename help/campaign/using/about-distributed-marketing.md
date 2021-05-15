@@ -1,23 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: A propos du marketing distribué
-description: A propos du marketing distribué
+title: Marketing distribué Campaign
+description: Commencer avec le marketing distribué
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1175'
-ht-degree: 100%
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 98%
 
 ---
 
-# A propos du marketing distribué{#about-distributed-marketing}
+# Commencer avec le marketing distribué {#about-distributed-marketing}
 
-## Introduction {#introduction}
+<!--
+>[!AVAILABILITY]
+>
+>:warning: This capability is not available in Campaign v8. [Learn more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
+-->
 
 Adobe Campaign propose une application de Marketing Distribué - **Distributed Marketing** - qui permet de mettre en place des opérations collaboratives entre des entités centrales (par exemple le siège de l&#39;entreprise, le service marketing, etc.) et des entités locales (par exemple des points de vente, des agences régionales, etc.). Cette collaboration s&#39;organise autour d&#39;un espace commun, la **[!UICONTROL liste des kits d&#39;opération]**, où des modèles et des instances d&#39;opérations créés au niveau central sont proposés aux entités locales.
 
@@ -29,55 +32,56 @@ L&#39;entité centrale propose aux entités locales des opérations auxquelles e
 
 ## Terminologie {#terminology}
 
-### Entité centrale {#central-entities}
+* **Entité centrale**
 
-Une entité centrale regroupe les opérateurs marketing chargés de définir la communication et d&#39;assister les entités locales dans la réalisation de leur campagne marketing.
+   Une entité centrale regroupe les opérateurs marketing chargés de définir la communication et d&#39;assister les entités locales dans la réalisation de leur campagne marketing.
 
-L&#39;entité centrale peut, grâce au module de Marketing Distribué :
+   L&#39;entité centrale peut, grâce au module de Marketing Distribué :
 
-* mettre en place des kits de campagne marketing à destination des entités locales,
-* favoriser l&#39;autonomie des entités locales dans le choix de leurs communications envers leurs clients/prospects, leur ciblage, leur contenu, etc.,
-* gérer et maîtriser les coûts,
-* animer un réseau d&#39;agences.
+   * mettre en place des kits de campagne marketing à destination des entités locales,
+   * favoriser l&#39;autonomie des entités locales dans le choix de leurs communications envers leurs clients/prospects, leur ciblage, leur contenu, etc.,
+   * gérer et maîtriser les coûts,
+   * animer un réseau d&#39;agences.
 
-### Entité locale {#local-entities}
+* **Entité locale**
 
-Une entité locale correspond à une agence, un magasin ou un groupe d&#39;opérateurs locaux spécifiques (responsables de pays ou de régions, responsables de marques, etc.).
+   Une entité locale correspond à une agence, un magasin ou un groupe d&#39;opérateurs locaux spécifiques (responsables de pays ou de régions, responsables de marques, etc.).
 
-Le Marketing Distribué permet aux entités locales d&#39;avoir plus d&#39;autonomie tout en optimisant les coûts de réalisation.
+   Le Marketing Distribué permet aux entités locales d&#39;avoir plus d&#39;autonomie tout en optimisant les coûts de réalisation.
 
-### Localisation {#localization}
+* **Localisation**
 
-La localisation est la capacité pour une entité locale de modifier la cible et le contenu d&#39;une opération. Le niveau de localisation possible dépend du type d&#39;opération et de la mise en oeuvre.
+   La localisation est la capacité pour une entité locale de modifier la cible et le contenu d&#39;une opération. Le niveau de localisation possible dépend du type d&#39;opération et de la mise en oeuvre.
 
-### Liste des kits d&#39;opération {#list-of-campaign-packages}
+* **Liste des kits d&#39;opération**
 
-La liste des kits d&#39;opération regroupe les opérations qui sont disponibles pour les entités locales.
+   La liste des kits d&#39;opération regroupe les opérations qui sont disponibles pour les entités locales.
 
-### Kit d&#39;opération {#campaign-package}
+* **Kit d&#39;opération**
 
-Modèle (ou instance d&#39;opération) créé par une entité centrale et mis à disposition d&#39;un ensemble d&#39;entités locales.
+   Modèle (ou instance d&#39;opération) créé par une entité centrale et mis à disposition d&#39;un ensemble d&#39;entités locales.
 
-### Opération locale {#local-campaign}
+* **Opération locale**
 
-Une opération locale est une instance d&#39;opération créée à partir d&#39;un modèle d&#39;opération référencé dans la liste des **[!UICONTROL kits d&#39;opération]** avec un **planning d&#39;exécution spécifique** à chaque commande de l&#39;entité locale. L&#39;objectif est de répondre à un besoin local de communication en utilisant un modèle d&#39;opération formalisé et paramétré par l&#39;entité centrale.
+   Une opération locale est une instance d&#39;opération créée à partir d&#39;un modèle d&#39;opération référencé dans la liste des **[!UICONTROL kits d&#39;opération]** avec un **planning d&#39;exécution spécifique** à chaque commande de l&#39;entité locale. L&#39;objectif est de répondre à un besoin local de communication en utilisant un modèle d&#39;opération formalisé et paramétré par l&#39;entité centrale.
 
-Le degré d&#39;autonomie de l&#39;entité locale dépend de la mise en oeuvre utilisée.
+   Le degré d&#39;autonomie de l&#39;entité locale dépend de la mise en oeuvre utilisée.
 
-Voir [Création d&#39;une campagne locale](../../campaign/using/creating-a-local-campaign.md).
+   Voir [Création d&#39;une campagne locale](../../campaign/using/creating-a-local-campaign.md).
 
-### Opération collaborative {#collaborative-campaign}
+* **Opération collaborative**
 
-Une opération collaborative est une opération dont le **planning d&#39;exécution est défini** par l&#39;entité centrale. Les entités locales sont libres de participer ou non à l&#39;opération. En fonction du paramétrage de l&#39;opération, le contenu et la cible peuvent être localisés par l&#39;entité locale. Il existe plusieurs types d&#39;opérations collaboratives :
+   Une opération collaborative est une opération dont le **planning d&#39;exécution est défini** par l&#39;entité centrale. Les entités locales sont libres de participer ou non à l&#39;opération. En fonction du paramétrage de l&#39;opération, le contenu et la cible peuvent être localisés par l&#39;entité locale. Il existe plusieurs types d&#39;opérations collaboratives :
 
-* **[!UICONTROL Opération collaborative (par formulaire)]** : conseillée pour des opérations visant jusqu’à 300 entités locales. L’entité locale peut saisir des paramètres prédéfinis en terme de ciblage et de personnalisation de contenu dans un formulaire web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (extranet client). La définition et le paramétrage de ce formulaire peuvent être réalisés par un administrateur fonctionnel sur la base d’un modèle de formulaire défini par l’intégrateur. Pour commander l’opération, l’entité locale a seulement besoin d’un accès web.
-* **[!UICONTROL Opération collaborative (par opération)]** : conseillée pour des opérations visant quelques dizaines d’entités locales. Ce type d’opération crée des opérations filles pour chaque entité locale. Lorsque la commande d’une **[!UICONTROL Opération collaborative par opération]** est validée par l’entité centrale, l’opération est mise à disposition de l’entité locale qui peut la modifier. L’exécution est automatiquement synchronisée entre les opérations filles et l’opération mère. L’entité locale doit avoir accès à une instance pour commander une opération et y participer.
-* **[!UICONTROL Opération collaborative (par validation de la cible)]** : conseillée pour des opérations visant jusqu’à plusieurs milliers d’entités locales. L’entité locale reçoit une liste de contacts sélectionnés par l’entité centrale. L’entité locale choisit de garder ou non certains contacts en fonction du contenu de l’opération, grâce à un formulaire web. Les entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à l’opération, l’entité locale a seulement besoin d’un accès web.
-* **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
+   * **[!UICONTROL Opération collaborative (par formulaire)]** : conseillée pour des opérations visant jusqu’à 300 entités locales. L’entité locale peut saisir des paramètres prédéfinis en terme de ciblage et de personnalisation de contenu dans un formulaire web. Le formulaire peut être un formulaire Adobe Campaign ou un formulaire externe (extranet client). La définition et le paramétrage de ce formulaire peuvent être réalisés par un administrateur fonctionnel sur la base d’un modèle de formulaire défini par l’intégrateur. Pour commander l’opération, l’entité locale a seulement besoin d’un accès web.
+   * **[!UICONTROL Opération collaborative (par opération)]** : conseillée pour des opérations visant quelques dizaines d’entités locales. Ce type d’opération crée des opérations enfants pour chaque entité locale. Lorsque la commande d’une **[!UICONTROL Opération collaborative par opération]** est validée par l’entité centrale, l’opération est mise à disposition de l’entité locale qui peut la modifier. L’exécution est automatiquement synchronisée entre les opérations enfants et l’opération parent. L’entité locale doit avoir accès à une instance pour commander une opération et y participer.
 
-Voir [Création d’une campagne collaborative](../../campaign/using/creating-a-collaborative-campaign.md).
+   * **[!UICONTROL Opération collaborative (par validation de la cible)]** : conseillée pour des opérations visant jusqu’à plusieurs milliers d’entités locales. L’entité locale reçoit une liste de contacts sélectionnés par l’entité centrale. L’entité locale choisit de garder ou non certains contacts en fonction du contenu de l’opération, grâce à un formulaire web. Les entités locales sont déduites de la liste de contacts sélectionnés. Pour participer à l’opération, l’entité locale a seulement besoin d’un accès web.
+   * **[!UICONTROL Opération collaborative simple]** : ce mode permet d&#39;assurer la compatibilité avec les développements spécifiques réalisés dans les versions précédentes.
 
-### Commande de kits d&#39;opération {#ordering-campaign-packages}
+   Voir [Création d’une campagne collaborative](../../campaign/using/creating-a-collaborative-campaign.md).
+
+**Commande de kits d&#39;opération**
 
 L&#39;inscription d&#39;une entité locale à une opération se traduit par la création d&#39;une commande qui regroupe toutes les informations relatives à la localisation de la campagne.
 
@@ -123,13 +127,13 @@ Chaque entité organisationnelle contient les informations d&#39;identification 
 >
 >Le processus de validation est présenté dans la section [Processus de validation](../../campaign/using/creating-a-local-campaign.md#approval-process).
 
-## Mise en oeuvre {#implementation}
+## Mise en œuvre {#implementation}
 
 Les opérations de Marketing Distribué sont créées et publiées par l&#39;entité centrale, puis peuvent être utilisées par les entités locales autant que par l&#39;entité centrale, selon les besoins.
 
 Les étapes de mise en oeuvre dépendent du type de kit d&#39;opération utilisé et du niveau de délégation au niveau des entités locales.
 
-### Côté intégrateur {#integrator-side}
+### Tâches de l’intégrateur {#integrator-side}
 
 1. Créer les entités locales.
 1. Associer les destinataires aux opérateurs en charge des entités locales.
@@ -148,7 +152,7 @@ Les étapes de mise en oeuvre dépendent du type de kit d&#39;opération utilis�
 
    Pour les **opérations collaboratives par validation de la cible**, créer la table où seront enregistrées les validations pour chaque entité locale.
 
-### Côté administrateur fonctionnel {#functional-administrator-side}
+### Tâches d&#39;administrateur fonctionnel {#functional-administrator-side}
 
 Ces étapes doivent être réalisées à chaque création d&#39;opération.
 
@@ -157,7 +161,7 @@ Ces étapes doivent être réalisées à chaque création d&#39;opération.
 1. Paramétrer l&#39;opération avec les champs de localisation et la référence du formulaire.
 1. Publiez l&#39;opération.
 
-### Côté opérateur local {#local-operator-side}
+### Tâches des opérateurs locaux {#local-operator-side}
 
 Ces étapes doivent être réalisées à chaque opération.
 
