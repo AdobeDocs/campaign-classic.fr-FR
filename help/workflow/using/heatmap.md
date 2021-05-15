@@ -1,27 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Carte thermique des workflows
-description: Surveillez vos workflows Campaign avec la Carte thermique des workflows
+title: Carte thermique des workflows Campaign
+description: Surveillez vos workflows avec la Carte thermique des workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-translation-type: ht
-source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
-workflow-type: ht
-source-wordcount: '1179'
-ht-degree: 100%
+source-git-commit: 53d8e2ff56481497c7805b92a7885a662a1924cf
+workflow-type: tm+mt
+source-wordcount: '1181'
+ht-degree: 91%
 
 ---
 
 # Carte thermique des workflows {#workflow-heatmap}
 
-La Carte thermique des workflows d’Adobe Campaign est une représentation graphique avec code-couleur de tous les workflows en cours d’exécution. Elle est disponible uniquement pour les administrateurs de l’instance.
+Campaign Workflow HeatMap consiste en une représentation graphique codée par couleur de tous les workflows en cours d&#39;exécution. Il n’est disponible que pour les **administrateurs de Campaign**.
 
-D’autres méthodes de surveillance des différents processus de Campaign sont présentées dans [cette page](../../production/using/monitoring-guidelines.md).
+Découvrez d&#39;autres moyens de surveiller les processus Campaign dans [cette page](../../production/using/monitoring-guidelines.md).
 
-## A propos de la carte thermique des workflows {#about-the-workflow-heatmap}
+## Commencez avec Workflow HeatMap {#about-the-workflow-heatmap}
 
 En donnant un aperçu rapide du nombre de workflows simultanés, la carte thermique des workflows permet aux administrateurs de la plateforme Adobe Campaign de surveiller la charge de l&#39;instance et de planifier les workflows en conséquence.
 
@@ -31,7 +30,7 @@ Elle permet plus précisément aux administrateurs de la plateforme d’effectue
 * filtrer les workflows par durée pour déterminer ceux risquant de rencontrer des problèmes ;
 * filtrer les activités par durée pour déterminer celles risquant de rencontrer des problèmes ;
 * trouver facilement des workflows distincts et toutes les activités associées (avec leur durée) ;
-* effectuer une recherche par type de workflow ([workflows techniques](../../workflow/using/building-a-workflow.md#technical-workflows) ou [workflows de campagne](../../workflow/using/building-a-workflow.md#campaign-workflows)) ;
+* Filtrer par type de processus : [workflows techniques](../../workflow/using/building-a-workflow.md#technical-workflows) ou [workflows de campagne](../../workflow/using/building-a-workflow.md#campaign-workflows)
 * rechercher un workflow spécifique à analyser.
 
 >[!NOTE]
@@ -40,13 +39,11 @@ Elle permet plus précisément aux administrateurs de la plateforme d’effectue
 
 L’utilisation de la carte thermique des workflows demande une bonne maîtrise des concepts suivants : [Workflows](../../workflow/using/about-workflows.md), [Activités](../../workflow/using/about-activities.md) et [Bonnes pratiques relatives aux workflows](../../workflow/using/workflow-best-practices.md).
 
-<!--The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.-->
-
-## Utilisation de la carte thermique {#using-the-heatmap}
+## Personnaliser Workflow HeatMap {#using-the-heatmap}
 
 >[!NOTE]
 >
->Seuls les utilisateurs disposant de droits d&#39;administration peuvent accéder à la Carte thermique des workflows Campaign.
+>Si aucune donnée n’est affichée dans la carte de chaleur du flux de travail, cliquez sur le bouton **[!UICONTROL Charger les données]**.
 
 1. Accédez à **[!UICONTROL Suivi]**, puis cliquez sur le lien **[!UICONTROL Carte thermique des workflows]** pour afficher la page **[!UICONTROL Carte thermique des workflows Campaign]**.
 
@@ -69,7 +66,7 @@ L’utilisation de la carte thermique des workflows demande une bonne maîtrise 
 
    ![](assets/wkf_monitoring_filters_duration.png)
 
-1. Vous pouvez également sélectionner un workflow spécifique dans la liste **[!UICONTROL Workflows]**.
+1. Vous pouvez également choisir un processus spécifique dans la liste déroulante **[!UICONTROL Workflows]**.
 
    ![](assets/wkf_monitoring_filters_workflows.png)
 
@@ -84,11 +81,9 @@ L’utilisation de la carte thermique des workflows demande une bonne maîtrise 
 
 1. Pour rechercher un workflow spécifique par nom, vous pouvez également utiliser le champ **[!UICONTROL Filtre de nom de workflow]**.
 
-   ![](assets/wkf_monitoring_filters_name.png)
-
 1. Si vous avez édité certains workflows entre temps, cliquez sur le bouton **[!UICONTROL Recharger les données]** pour actualiser les données affichées dans la grille.
 
-## Lecture de la carte thermique {#reading-the-heatmap}
+## Interprétation de Workflow HeatMap {#reading-the-heatmap}
 
 La Carte thermique des workflows Campaign est une grille qui se lit naturellement en commençant en haut à gauche pour terminer en bas à droite. Il est possible de trouver les &quot;zones chaudes&quot; avec un code-couleur allant du vert au rouge.
 
@@ -116,7 +111,7 @@ Dans l&#39;exemple suivant, trois workflows sont en cours d&#39;exécution (quel
 1. Cliquez sur l&#39;identifiant ou le nom d&#39;un workflow pour l&#39;ouvrir directement.
 1. Pour revenir à la vue **[!UICONTROL Carte thermique des workflows Campaign]**, cliquez sur le bouton **[!UICONTROL Accueil]**.
 
-## Cas pratiques : utilisation de la carte thermique pour prendre des mesures {#use-cases--using-the-heatmap-to-take-actions}
+## Cas d’utilisation : utiliser HeatMap pour agir {#use-cases--using-the-heatmap-to-take-actions}
 
 La Carte thermique des workflows Campaign peut s&#39;avérer utile dans deux principaux scénarios.
 
@@ -135,7 +130,7 @@ En tant qu&#39;administrateur de Campaign, la carte thermique des workflows peut
    * Si vous rencontrez des problèmes de performances et si la grille contient une ou plusieurs cellules rouges, songez à modifier les heures de début de plusieurs workflows. Demandez aux utilisateurs marketing de déplacer manuellement les workflows des périodes surchargées (&quot;chaudes&quot;) vers des créneaux horaires moins chargés. Un niveau d&#39;activité stable devrait ainsi être maintenu tout au long de la journée.
    * Pour éviter les pics et la surcharge de l&#39;instance, examinez la carte thermique avant de planifier de nouveaux workflows et choisissez le meilleur horaire. Prenez en compte les créneaux horaires correspondant aux cellules grises ou vertes de la grille pour démarrer de nouveaux workflows.
 
-### Recherche des workflows de longue durée ayant une incidence sur les performances {#finding-long-running-workflows-that-impact-performance}
+### Rechercher les workflows à long terme qui ont un impact sur les performances {#finding-long-running-workflows-that-impact-performance}
 
 En tant qu&#39;administrateur de Campaign, la carte thermique des workflows vous permet de trouver les workflows les plus longs pouvant ralentir l&#39;activité.
 
@@ -151,7 +146,7 @@ En tant qu&#39;administrateur de Campaign, la carte thermique des workflows vous
    * Conseillez aux utilisateurs marketing de scinder les workflows les plus longs afin de réduire la durée de traitement.
    * Effectuez une analyse plus approfondie de workflows et d&#39;activités spécifiques (JavaScript, import, export, etc.) pour isoler les problèmes et les résoudre plus facilement.
 
-## Exemple : utilisation de la carte thermique pour une meilleure planification des workflows {#example--using-the-heatmap-to-improve-workflow-planning}
+## Utiliser HeatMap pour améliorer la planification du flux de travail {#example--using-the-heatmap-to-improve-workflow-planning}
 
 L&#39;exemple ci-dessous montre comment rendre la planification plus efficace et améliorer les performances grâce à l&#39;utilisation de la Carte thermique des workflows d&#39;Adobe Campaign.
 
