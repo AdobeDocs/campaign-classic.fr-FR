@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 53d8e2ff56481497c7805b92a7885a662a1924cf
+source-git-commit: 527ac9f4e408228aaa1354693a191c1e77e76b68
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -115,7 +115,7 @@ Dans l&#39;exemple suivant, trois workflows sont en cours d&#39;exécution (quel
 
 La Carte thermique des workflows Campaign peut s&#39;avérer utile dans deux principaux scénarios.
 
-### Réduction du nombre de workflows simultanés {#reducing-the-number-of-concurrent-workflows}
+### Réduire le nombre de workflows simultanés {#reducing-the-number-of-concurrent-workflows}
 
 En tant qu&#39;administrateur de Campaign, la carte thermique des workflows peut vous aider à analyser la charge de l&#39;instance et à planifier les workflows existants ou nouveaux aux moments appropriés.
 
