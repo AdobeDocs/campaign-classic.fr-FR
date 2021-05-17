@@ -6,9 +6,8 @@ description: Surveillez vos workflows avec la Carte thermique des workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-debugging: testing ugp-4522
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 496c9e7d374b0a98f451c4e8fde1436fde764452
+source-git-commit: e6969a3ed61bde692b2f72b3711f12ce46a0025f
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 90%
