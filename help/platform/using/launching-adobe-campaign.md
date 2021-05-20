@@ -7,11 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-translation-type: tm+mt
 source-git-commit: 2c275751ab86e98652820bf461c617442480c725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +21,7 @@ La console cliente Campaign est un client riche qui vous permet de vous connecte
 
 >[!CAUTION]
 >
->Vérifiez la compatibilité de votre système et de vos outils avec Adobe Campaign Client Console dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems).
+>Vérifiez la compatibilité de votre système et de vos outils avec la console cliente Adobe Campaign dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems).
 
 ## Lancement d’Adobe Campaign {#starting-adobe-campaign}
 
