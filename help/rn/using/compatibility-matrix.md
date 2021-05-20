@@ -7,11 +7,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-translation-type: tm+mt
 source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +32,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 >
 >Cette matrice est régulièrement mise à jour avec les nouveaux éléments pris en charge ajoutés et les éléments déconseillés supprimés.
 
-## Systèmes d’exploitation{#OperatingSystems}
+## Systèmes d&#39;exploitation{#OperatingSystems}
 
 <table> 
 <tbody> 
@@ -202,9 +201,9 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <tr>
 <td>Oracle</td>
 <td>
-<p>19 quater</p>
-<p>18 quater</p>
-<p>12 quater</p>
+<p>19c</p>
+<p>18c</p>
+<p>12c</p>
 <p>11g</p>
 </td>
 </tr>
@@ -275,9 +274,9 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 </tbody>
 </table>
 
-## Console client {#ClientConsoleoperatingsystems}
+## Console cliente {#ClientConsoleoperatingsystems}
 
-:warning: Les systèmes d’exploitation et le navigateur suivants sont nécessaires pour utiliser Campaign Client Console.
+Avertissement : les systèmes d’exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
 
 ### Systèmes d’exploitation
 
@@ -339,7 +338,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Navigateurs{#Browsers}
 
-Les navigateurs suivants sont compatibles avec Campaign for Web Access.
+Les navigateurs ci-après sont compatibles avec Campaign pour un accès à internet.
 
 <table>
 <tbody>
@@ -387,7 +386,7 @@ Les navigateurs suivants sont compatibles avec Campaign for Web Access.
 </table>
 
 
-## Articles connexes{#Morelikethis}
+## Autres informations similaires{#Morelikethis}
 
 * [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md)
 * [Guide d&#39;installation](../../installation/using/general-architecture.md)
