@@ -7,11 +7,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-translation-type: tm+mt
 source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +205,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <tr>
 <td>Oracle</td>
 <td>
-<p>12 quater</p>
+<p>12c</p>
 <p>11g</p>
 </td>
 </tr>
@@ -273,7 +272,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 
 ## Console client {#ClientConsoleoperatingsystems}
 
-:warning: Les systèmes d’exploitation et le navigateur suivants sont nécessaires pour utiliser Campaign Client Console.
+Avertissement : les systèmes d’exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
 
 ### Systèmes d’exploitation
 
@@ -334,7 +333,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 
 ## Navigateurs{#Browsers}
 
-Les navigateurs suivants sont compatibles avec Campaign for Web Access.
+Les navigateurs ci-après sont compatibles avec Campaign pour un accès à internet.
 
 <table>
 <tbody>
