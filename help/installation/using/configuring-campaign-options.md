@@ -7,23 +7,24 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-translation-type: ht
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: ht
-source-wordcount: '3930'
-ht-degree: 100%
+source-git-commit: 3413a54b1f45d23dcec9bf363bcf714a94642245
+workflow-type: tm+mt
+source-wordcount: '3944'
+ht-degree: 99%
 
 ---
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
-Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign.
+Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign. Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
->[!NOTE]
+>[!CAUTION]
 >
->La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
+>* Les options non répertoriées dans cette page sont internes uniquement et **ne doivent pas être modifiées**.
+   >
+   >
+* La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
 
-Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
 ## Diffusion {#delivery}
 
@@ -827,7 +828,7 @@ Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campa
  </tbody> 
 </table>
 
-## Effectuer un tracking {#tracking}
+## Tracking {#tracking}
 
 <table> 
  <thead> 
