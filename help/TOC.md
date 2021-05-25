@@ -1,24 +1,24 @@
 ---
-audience: end-user
-breadcrumb-title: Centre d'aide
-product: campaign
-title: Guide Campaign Classic
-breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing cross-canal offrant un important retour sur investissement marketing.
 solution: Campaign Classic
+product: campaign
 sub-product: adobe campaign classic
+title: Centre d’aide de Adobe Campaign Classic v7
+breadcrumb-title: Campaign Classic v7
+breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
+user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing intercanaux offrant un important retour sur investissement marketing.
+audience: end-user
 type: Documentation
-source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+source-git-commit: 43f49ecb651e37a7e166f8823c75d938338b952c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
 
 
-# Guide Adobe Campaign Classic v7 {#using}
+# Documentation de Adobe Campaign Classic v7 {#campaign-v7}
 
-+ [Documentation du produit](campaign-classic-home.md)
++ [Documentation de Campaign Classic v7](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
 + Notes de mise à jour {#release-notes}
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
@@ -609,7 +609,7 @@ ht-degree: 99%
       + [Créez une application Facebook](social/using/creating-a-facebook-application.md)
       + [Configuration de la publication sur Twitter](social/using/configuring-publishing-on-twitter.md)
    + Publication sur les médias sociaux {#publishing-on-facebook-twitter}
-      + [Vue d’ensemble](social/using/overview.md)
+      + [Vue d&#39;ensemble](social/using/overview.md)
       + [Publication sur Facebook](social/using/publishing-on-facebook.md)
       + [Publication sur Twitter](social/using/publishing-on-twitter.md)
    + Annexes {#annexes}
