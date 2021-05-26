@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 98%
 
 ---
 
@@ -88,6 +88,5 @@ D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experie
 
 * [Appliquer des règles d’entreprises automatiques aux diffusions sur n’importe quel canal](https://helpx.adobe.com/fr/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
-* [A propos des typologies de campagne](../../campaign/using/pressure-rules.md)
+* [Prise en main des typologies et de la gestion de la fatigue](../../campaign/using/pressure-rules.md)
 
-* [Gestion de la fatigue marketing avec les règles de pression](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
