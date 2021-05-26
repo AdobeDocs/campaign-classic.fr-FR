@@ -7,11 +7,10 @@ feature: Profils et audiences
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-translation-type: ht
-source-git-commit: c733b68a06fba9bb24cd1c1995ffc99a1277be87
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+workflow-type: tm+mt
+source-wordcount: '925'
+ht-degree: 92%
 
 ---
 
@@ -91,10 +90,6 @@ La mise en page générale de l’explorateur Adobe Campaign est présentée sur
 
 Les profils actifs sont les profils qui sont comptabilisés à des fins de facturation.
 
-Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
-
-Si vous êtes hébergé sur AWS, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
-
 La facturation ne concerne que les profils **actifs**. Un profil est considéré comme actif s’il a été ciblé ou s’il a reçu des communications au cours des 12 derniers mois via n’importe quel canal.
 
 Les profils exclus lors de la préparation de la diffusion (règles de typologie, quarantaines) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions ne sera comptabilisé qu&#39;une seule fois.
@@ -103,7 +98,13 @@ Les profils exclus lors de la préparation de la diffusion (règles de typologie
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Vous pouvez obtenir un aperçu du **[!UICONTROL Nombre de profils actifs]** depuis le menu Campaign **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]**. La comptabilisation est réalisée par le [workflow technique](../../workflow/using/about-technical-workflows.md) **[!UICONTROL Nombre de profils de facturation actifs]** (**[!UICONTROL billingActiveContactCount]**), qui s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le menu **[!UICONTROL Mesures des clients]**. Chaque période dure 12 mois.
+Dans l&#39;explorateur Campaign, accédez à **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]** pour avoir un aperçu du nombre de profils principaux. Le comptage réel est effectué par le **[!UICONTROL nombre de profils de facturation principaux]** ([!UICONTROL billingActiveContactCount]) [workflow technique](../../workflow/using/about-technical-workflows.md). Ce workflow s’exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le dossier **[!UICONTROL Mesures client]** .
+
+Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
+
+>[!NOTE]
+>
+>Vous pouvez également surveiller le nombre de profils principaux sur votre instance directement depuis le Panneau de Contrôle Campaign. Pour plus d&#39;informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
 
 ## Tutoriel vidéo {#create-profiles-video}
 
