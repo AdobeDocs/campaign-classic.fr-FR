@@ -7,11 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1826'
-ht-degree: 100%
+source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+workflow-type: tm+mt
+source-wordcount: '1828'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +33,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | Workflow technique | Package | Description |
 |------|--------|-----------|
 | **Gestion des alias** (aliasCleansing) | Diffusion | Ce workflow réalise l’uniformisation des valeurs des énumérations. Par défaut, il se déclenche tous les jours à 3h00. |
-| **Facturation** (billing) | Diffusion | Ce workflow transmet par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Par défaut, il se déclenche tous les 25 du mois. |
+| **Facturation** (billing) | Diffusion | Ce workflow transmet par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Il est déclenché le 25 de chaque mois sur l’instance Marketing. |
 | **Calcul des statistiques Twitter** (statsTwitter) | Réseaux sociaux (Social Marketing) | Ce workflow calcule les statistiques liées aux retweets et aux visites sur Twitter. |
 | **Traitements sur les opérations** (operationMgt) | Campagnes marketing (Campaign) | Ce workflow gère les traitements sur les opérations marketing (démarrage du ciblage, extraction des fichiers, etc.). Il crée également les workflows relatifs aux opérations récurrentes et périodiques. |
 | **Collecter les données pour le service Carte thermique** (collectDataHeatMapService) | Installé par défaut | Ce workflow récupère les données requises par le service Carte thermique. |
