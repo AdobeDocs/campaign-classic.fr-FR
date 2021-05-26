@@ -6,11 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '743'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +31,7 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
 * Exécution du workflow : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plate-forme. Suivez les directives répertoriées [dans ce document](../../workflow/using/workflow-best-practices.md#execution-and-performance).
 
-* En tant que client hébergé, vous pouvez tirer parti des [fonctionnalités du panneau de contrôle de Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/discover-control-panel/key-features.html) pour surveiller votre plate-forme à l’aide des fonctionnalités de [surveillance des performances](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Si vous êtes éligible, vous pouvez tirer parti des [fonctionnalités du panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
 ## Vérifier la configuration du réseau {#network-config}
 
