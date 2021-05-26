@@ -7,10 +7,9 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
-source-wordcount: '771'
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '769'
 ht-degree: 100%
 
 ---
@@ -52,7 +51,7 @@ Le journal d’audit vous permet de visualiser l’historique complet des modifi
 
 **Panneau de contrôle**
 
-Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) pour plus d’informations.
+Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) pour plus d’informations.
 
 >[!NOTE]
 >
@@ -84,7 +83,7 @@ De plus, vous pouvez créer un processus qui vous permettra de surveiller l’é
 
 Suivez les directives et les bonnes pratiques relatives à l’utilisation de workflows pour améliorer les performances. Pour plus d’informations, consultez les sections suivantes :
 * [Bonnes pratiques relatives à l’utilisation des workflows](../../workflow/using/workflow-best-practices.md)
-* [Surveiller l’exécution des workflows](../../workflow/using/monitoring-workflow-execution.md)
+* [Surveiller l&#39;exécution des workflows](../../workflow/using/monitoring-workflow-execution.md)
 
 ### Surveillance des diffusions {#monitoring-deliveries}
 
@@ -101,7 +100,7 @@ Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP pa
 **Résolution des problèmes liés aux diffusions**
 Des actions spécifiques peuvent être effectuées en cas de problème avec des diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
-* [Problèmes liés à l’affichage des images](../../production/using/image-display-issues.md)
+* [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 * [Problèmes de performances des diffusions](../../delivery/using/delivery-performances.md)
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *sur les modèles d’hébergement on-Premise uniquement*
 
