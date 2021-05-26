@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '905'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '903'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +32,7 @@ Pour ce faire, nous devons suivre les étapes suivantes dans Adobe Campaign et 
 
 1. [Insérer l’offre dynamique dans un email](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [Créer des offres de redirection](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
-1. [Créer des audiences](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Création d&#39;une audience](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
 1. [Créer une activité de ciblage d’expérience](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Prévisualiser et envoyer l’email](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
@@ -60,7 +59,7 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 * La **[!UICONTROL Landing Page]** : si vous souhaitez que l’image par défaut soit redirigée vers une landing page par défaut. Cette adresse URL ne s’applique qu’aux cas où l’image par défaut est affichée dans l’email final et est facultative.
 * Les **[!UICONTROL Paramètres de décision additionnels]** : associez les champs définis dans les segments d’Adobe Target et les champs d’Adobe Campaign. Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans notre exemple, nous avons ajouté le champ Pays.
 
-Si vous utilisez les permissions d’Enterprise pour les paramètres d’Adobe Target, ajoutez la propriété correspondante dans ce champ. Pour en savoir plus sur les permissions de Target Enterprise, voir [cette page](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/properties-overview.html).
+Si vous utilisez les permissions d’Enterprise pour les paramètres d’Adobe Target, ajoutez la propriété correspondante dans ce champ. Pour en savoir plus sur les permissions de Target Enterprise, voir [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html).
 
 ![](assets/target_13.png)
 
