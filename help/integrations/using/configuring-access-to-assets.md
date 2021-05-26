@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '607'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +27,7 @@ Cette section décrit les étapes de configuration nécessaires dans Adobe Campa
 
 >[!NOTE]
 >
->Si les deux packages (**[!UICONTROL Intégration AEM]** et **[!UICONTROL Intégration avec Adobe Experience Cloud]**) sont installés, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud sont utilisables. Pour pouvoir également accéder aux ressources de votre bibliothèque AEM Assets, vous devez synchroniser AEM Assets et Adobe Experience Cloud. Les ressources d’AEM Assets seront alors également disponibles dans la bibliothèque Adobe Experience Cloud. Pour plus d’informations sur la synchronisation entre AEM Assets et Adobe Experience Cloud, consultez la [documentation détaillée](https://docs.adobe.com/docs/fr/aod/overview/collaborating/aem-assets-aod-sync.html).
+>Si les deux packages (**[!UICONTROL Intégration AEM]** et **[!UICONTROL Intégration à Adobe Experience Cloud]** ) sont installés, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud peuvent être utilisées.
 
 ## Intégration avec Experience Cloud Assets {#integrating-with-experience-cloud-assets}
 
