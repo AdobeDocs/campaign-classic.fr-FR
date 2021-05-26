@@ -3,15 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Prise en main des mises à niveau
 description: En savoir plus sur les mises à niveau de Campaign Classic
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: tm+mt
-source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +62,7 @@ En tant qu’utilisateur [!DNL Gold Standard] hébergé, vous bénéficiez autom
 ## Support et autres liens utiles{#support}
 
 * [Aide et support](../../support.md)
-* [Versions du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)
+* [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
 
