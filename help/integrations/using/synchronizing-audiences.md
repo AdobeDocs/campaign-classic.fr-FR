@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1228'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '1206'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +28,7 @@ Ce cas pratique montre comment préparer la cible de votre diffusion dans Campai
 >
 >Vous pouvez également enrichir les données à l&#39;aide d&#39;agrégats et de collections dans Adobe Campaign Standard si toutes les données dont vous avez besoin sont déjà répliquées.
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Pour ce faire, les éléments suivants sont nécessaires :
 
@@ -139,15 +138,15 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite
 
 ## Envoyer et suivre votre diffusion {#send-and-monitor-your-delivery}
 
-Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion, comme décrit en détail dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html):
+Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion :
 
 1. Exécutez le workflow de diffusion. Cette étape prépare l&#39;envoi de l&#39;email.
 1. Dans le tableau de bord de la diffusion, validez manuellement l&#39;envoi de la diffusion.
 1. Examinez les rapports et les logs de la diffusion :
 
-   * **Dans Campaign Standard** : accédez aux [rapports](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) et [logs](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relatifs à la diffusion comme pour toute autre diffusion.
+   * **Dans Campaign Standard** : accédez aux [rapports](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) et [logs](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relatifs à la diffusion comme pour toute autre diffusion.
    * **Dans Campaign v7 et Campaign Standard** : les identifiants des diffusions, les broadLogs et les logs de tracking des emails sont synchronisés dans Campaign v7. Vous obtenez alors une vue à 360° de vos campagnes marketing depuis Campaign v7.
 
       Les quarantaines sont automatiquement synchronisées avec Campaign v7. Ainsi, les informations de non-délivrabilité peuvent être prises en compte pour le prochain ciblage effectué dans Campaign v7.
 
-      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en).
