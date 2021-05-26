@@ -7,11 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '887'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +83,7 @@ Un workflow peut également faire intervenir des opérateurs afin de notifier ou
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/about-email-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## Comment envoyer des SMS ? {#how-to-send-sms-messages-}
 
