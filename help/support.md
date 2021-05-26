@@ -5,11 +5,10 @@ title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 89%
 
 ---
 
@@ -95,7 +94,7 @@ Comment effectuer une mise à niveau vers un nouveau build ? Comment surveiller
 ### Qu’est-ce que le panneau de contrôle ?
 
 Le panneau de contrôle de Campaign accroît votre efficacité en tant qu’administrateur de produit Campaign Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
-[Cliquez ici](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html?lang=fr) pour plus d’informations.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour plus d’informations.
 
 >[!NOTE]
 >
@@ -105,29 +104,30 @@ Le panneau de contrôle de Campaign accroît votre efficacité en tant qu’admi
 
 ### Comment accéder au panneau de contrôle ?
 
-Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. Il est accessible uniquement aux utilisateurs Admin. [Cliquez ici](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr) pour plus d’informations.
+Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. Il est accessible uniquement aux utilisateurs Admin. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html) pour plus d’informations.
 
 ### FAQ sur le panneau de contrôle
 
-[Cliquez ici](https://docs.adobe.com/content/hecontrol-panel/using/faq.html?lang=fr) pour accéder à la FAQ sur le panneau de contrôle Campaign.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) pour accéder à la FAQ sur le panneau de contrôle Campaign.
 
 ### Gestion SFTP
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://docs.adobe.com/content/hecontrol-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d’informations.
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) pour plus d’informations.
 
 ### Sous-domaines et certificats
 
-Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus :
-* [Branding des sous-domaines](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
-* [Configuration d’un nouveau sous-domaine](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
-* [Surveillance des certificats SSL](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr)
+Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus sur ces pages :
+* [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ### Paramètres des instances
 
-Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le panneau de contrôle. En savoir plus :
-* [Adresses IP sur la liste autorisée](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/ip-whitelisting-instance-access.html?lang=fr)
-* [Autorisations d’URL](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/url-permissions.html?lang=fr)
-* [Détails de l’instance](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/instance-details.html?lang=fr)
+Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le panneau de contrôle. En savoir plus sur ces pages :
+* [Ajoutez des adresses IP sur la ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) liste autorisée pour accéder à vos instances Campaign.
+* [Gestion des autorisations d’URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
+* [Accès aux détails de l’instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [Gestion des clés GPG pour le cryptage des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
 ## Demande d’aide {#support}
 
@@ -141,11 +141,11 @@ Rejoignez la communauté Campaign Classic : cherchez des réponses à une ques
 
 ### Accès au Centre de téléchargement Campaign
 
-Depuis juin 2020, la distribution logicielle de la solution Experience Cloud remplace l’ancien Centre de téléchargement Neolane et permet de trouver et télécharger plus efficacement vos logiciels, packages et outils. [Cliquez ici](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) pour accéder à la distribution logicielle de la solution Experience Cloud.
-En savoir plus sur le nouveau Centre de téléchargement [sur cette page](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html?lang=fr).
+Depuis juin 2020, la distribution logicielle de la solution Experience Cloud remplace l’ancien Centre de téléchargement Neolane et permet de trouver et télécharger plus efficacement vos logiciels, packages et outils. [Cliquez ici](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour accéder à la distribution logicielle de la solution Experience Cloud.
+En savoir plus sur le nouveau Centre de téléchargement [sur cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
 ### Création d’un ticket ou démarrage d’une conversation
 
 La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d’Adobe pour résoudre vos problèmes.
 
-Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
