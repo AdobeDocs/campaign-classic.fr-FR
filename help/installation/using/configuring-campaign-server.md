@@ -7,10 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-translation-type: ht
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: ht
-source-wordcount: '1582'
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '1580'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
+* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 * [Modèles d&#39;hébergement](../../installation/using/hosting-models.md)
 * [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](../../installation/using/capability-matrix.md)
 
