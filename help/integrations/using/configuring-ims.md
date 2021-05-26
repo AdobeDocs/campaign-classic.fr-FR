@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '365'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 96%
 
 ---
 
@@ -21,12 +20,12 @@ ht-degree: 100%
 >
 >L’implémentation d’Adobe IMS est strictement réservée aux administrateurs techniques d’Adobe. Contactez votre chargé de compte Adobe pour démarrer le processus de mise en œuvre.
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Pour utiliser l&#39;intégration avec l&#39;IMS, les éléments suivants sont requis :
 
 * Vous devez disposer d’une organisation Adobe Experience Cloud et d’identifiants IMS (fournis lors de la première connexion à Adobe Experience Cloud).
-* Vous devez ajouter des utilisateurs dans Experience Cloud. Voir à ce propos [cette page](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html).
+* Vous devez ajouter des utilisateurs dans Experience Cloud. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 >[!NOTE]
 >
@@ -54,7 +53,7 @@ Configurez le compte externe **Adobe Experience Cloud** dans **[!UICONTROL Admin
 
 Renseignez les informations suivantes :
 
-* les informations de connexion au serveur IMS utilisé (identifiant et secret). Ces informations sont fournies par le support Adobe. Pour plus d&#39;informations, consultez la [FAQ Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/faq.html).
+* les informations de connexion au serveur IMS utilisé (identifiant et secret). Ces informations sont fournies par le support Adobe. Pour plus d&#39;informations, consultez la [FAQ Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html).
 
    L&#39;adresse du **[!UICONTROL Serveur de rappel]** (callback server) doit être indiquée en **https**. Ce champ correspond à l&#39;URL d&#39;accès à votre instance Adobe Campaign.
 
