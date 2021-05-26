@@ -7,11 +7,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '3775'
-ht-degree: 100%
+source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+workflow-type: tm+mt
+source-wordcount: '3779'
+ht-degree: 99%
 
 ---
 
@@ -255,6 +254,7 @@ Ils sont regroupés dans **Supervision** > &#39;Monitoring SMTP&#39;.
 >
 >* Les informations liées au Monitoring SMTP ne sont disponibles que si le canal email a été activé.
 >* Le rapport **[!UICONTROL Statistiques SMTP d&#39;envoi]** n&#39;est proposé que si le serveur de statistiques est démarré sur l&#39;instance.
+
 >
 
 
@@ -337,7 +337,7 @@ Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
 ## Rapport de billing {#billing-report}
 
-Le workflow technique **[!UICONTROL Facturation]** transmet par email le rapport d’activité du système à l’opérateur &#39;billing&#39;. Par défaut, il se déclenche tous les 25 du mois.
+Le workflow technique **[!UICONTROL Facturation]** envoie par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Il est déclenché par défaut le 25 de chaque mois sur l’instance Marketing.
 
 Ce workflow technique se trouve dans un sous-dossier du nœud suivant : **Administration** > **Production** > **Workflows techniques**.
 
