@@ -7,9 +7,9 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: ht
-source-wordcount: '538'
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -143,7 +143,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">En savoir plus</a>.</p>
+<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux.</p>
 </td>
 </tr>
 <tr>
