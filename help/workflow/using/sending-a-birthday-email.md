@@ -7,11 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +26,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 Ce workflow, exécuté quotidiennement, sélectionne tous les destinataires dont la date de naissance correspond à la date courante.
 
-![](assets/do-not-localize/how-to-video.png) Ce cas pratique est également proposé sous la forme d‘une vidéo. Voir à ce propos la vidéo sur la [création d‘un workflow](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html).
+![](assets/do-not-localize/how-to-video.png) Ce cas pratique est également proposé sous la forme d‘une vidéo. Voir à ce propos la vidéo sur la [création d‘un workflow](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html).
 
 Pour ce faire, créez une campagne et cliquez sur l’onglet **[!UICONTROL Ciblage et workflows]**. Voir à ce propos la section [Construire la cible principale dans un workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
