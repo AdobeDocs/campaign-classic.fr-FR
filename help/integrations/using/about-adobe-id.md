@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-translation-type: ht
-source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
-workflow-type: ht
-source-wordcount: '191'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 96%
 
 ---
 
@@ -32,12 +31,11 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 >Si vous vous connectez à Campaign par le biais du Service d’identités Adobe (IMS), vous devez effectuer une mise à niveau vers le dernier build pour pouvoir vous connecter après le **30 juin 2021**. Cette mise à niveau est obligatoire pour le serveur Campaign et la console cliente. Selon votre version actuelle, vous devez effectuer une mise à niveau vers l’une des versions suivantes :
 >
 > * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
-> * [Campaign 20.3.3](../../rn/using/latest-release.md)
-> * [Campaign 20.2.5](../../rn/using/release--20-2.md)
-> * [Campaign 20.1.4](../../rn/using/release--20-1.md)
-> * [Campaign 19.2.4](../../rn/using/release--19-2.md)
-> * [Campaign 19.1.8](../../rn/using/release--19-1.md)
->
+* [Campaign 20.3.3](../../rn/using/latest-release.md)
+* [Campaign 20.2.5](../../rn/using/release--20-2.md)
+* [Campaign 20.1.4](../../rn/using/release--20-1.md)
+* [Campaign 19.2.4](../../rn/using/release--19-2.md)
+* [Campaign 19.1.8](../../rn/using/release--19-1.md)
 
 
 
@@ -45,6 +43,6 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 
 | Pages utiles | Autres ressources |
 |---|---|
-| [Paramétrer IMS](../../integrations/using/configuring-ims.md) | [FAQ sur Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/faq.html) |
+| [Paramétrer IMS](../../integrations/using/configuring-ims.md) | [FAQ sur Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
 | [Implémenter IMS](../../integrations/using/implementing-ims.md) | [Gestion des accès](../../platform/using/access-management.md) |
 | [Dépanner IMS](../../integrations/using/ims-troubleshooting.md) | [Installation des packages Campaign](../../installation/using/installing-campaign-standard-packages.md) |
