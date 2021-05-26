@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '2046'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '2044'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +84,7 @@ La réplication des logs des emails et des identifiants des diffusions permet d�
 
 ACS Connector synchronise les quarantaines entre Campaign v7 et Campaign Standard.
 
-Imaginons par exemple qu’un profil qui a été répliqué depuis Campaign v7 vers Campaign Standard comprend une adresse email. Si l’adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d’informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+Imaginons par exemple qu’un profil qui a été répliqué depuis Campaign v7 vers Campaign Standard comprend une adresse email. Si l’adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d’informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
 
 ### Utilisation de profils répliqués {#using-replicated-profiles}
 
@@ -93,7 +92,7 @@ Les profils répliqués peuvent être utilisés par Campaign Standard et Campaig
 
 Pour savoir comment envoyer une diffusion dans Campaign Standard à l’aide de profils répliqués, voir [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md). Des instructions supplémentaires sont fournies pour le partage des données de désabonnement entre Campaign v7 et Campaign Standard.
 
-### Limitations {#limitations}
+### Limites {#limitations}
 
 Les profils répliqués sont prêts à l’emploi pour les diffusions, mais présentent certaines limites dans Campaign Standard. Passez en revue les points suivants pour apprendre à gérer ces limites au mieux.
 
@@ -108,7 +107,7 @@ Les profils répliqués sont prêts à l’emploi pour les diffusions, mais pré
 
 L’application choisie (Campaign v7 ou Campaign Standard) pour envoyer les diffusions n’a aucune incidence sur la facturation. Les informations de facturation sont réconciliées entre Campaign v7 et Campaign Standard. Par conséquent, si vous envoyez des diffusions à un même destinataire à l’aide des deux applications, il est toujours comptabilisé comme un seul profil actif.
 
-## Mise en oeuvre {#implementation}
+## Mise en œuvre {#implementation}
 
 Il existe deux types de mises en œuvre d’ACS Connector, qui sont toujours effectuées par l’équipe Consulting d’Adobe Campaign.
 
