@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: dc3151a77350aa2b2acd989a57f5b489c1a98962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Commencer avec Campaign Gestion de la réaction{#about-response-manager}
+# Prise en main de la gestion de la réaction de Campaign{#about-response-manager}
 
-Adobe Campaign offre un module complémentaire de gestion des réponses qui vous permet de mesurer la réussite et la rentabilité des campagnes ou Propositions d&#39;offre marketing sur les canaux de communication : e-mail, mobile, publipostage, etc.
+Adobe Campaign propose un module complémentaire de gestion de la réaction qui permet de mesurer le succès et la rentabilité d&#39;une campagne marketing ou d&#39;une proposition d&#39;offre, quel que soit le canal de communication utilisé : email, mobile, courrier, etc.
 
 ## Hypothèse {#hypothesis-concept}
 
@@ -38,7 +38,7 @@ Vous pouvez également comptabiliser l&#39;ensemble des réactions du foyer du d
 
 Chaque hypothèse est associée à une seule table des transactions. Une diffusion ou une offre peut être associée à plusieurs hypothèses.
 
-## Etapes de mise en oeuvre {#method}
+## Étapes de mise en œuvre {#method}
 
 Avant d&#39;utiliser le Response Manager, consultez la section [Configuration](../../campaign/using/configuration.md) et procédez aux paramétrages qui vous sont nécessaires.
 
