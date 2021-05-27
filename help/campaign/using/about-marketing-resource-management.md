@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-# Prise en main de la gestion des Ressources marketing{#about-marketing-resource-management}
+# Prise en main de la gestion des ressources marketing{#about-marketing-resource-management}
 
 <!--
 >[!AVAILABILITY]
@@ -28,13 +28,13 @@ Les opérateurs Adobe Campaign peuvent coordonner leurs actions et en valider le
 
 Ainsi, dans le cadre des programmes et sous-programmes des plans marketing, des tâches peuvent être créées et affectées aux opérateurs impliqués, puis gérées durant toutes leurs étapes de réalisation.
 
-**** MRM vous permet également de gérer les ressources marketing dans lesquelles plusieurs participants sont impliqués : l&#39;intégrité et la surveillance des ressources sont effectuées par un tableau de bord spécifique.
+**MRM** permet également de gérer des ressources marketing sur lesquelles plusieurs intervenants sont appelés à intervenir : l&#39;intégrité et le suivi de ces ressources est assuré via un tableau de bord dédié.
 
-Enfin, la fonctionnalité de gestion du budget est étendue à la gestion des cibles et des lignes de dépense et aux rapports intégrés étendus. Vous pouvez ensuite surveiller et mesurer la productivité et les performances de toutes les activités marketing.
+Enfin, la fonctionnalité de gestion budgétaire est étendue à la gestion des objectifs et des lignes de dépenses, ainsi qu&#39;aux rapports natifs étendus. Vous pouvez ensuite surveiller et mesurer la productivité et les performances de toutes les activités marketing.
 
 ## Concepts et terminologie {#core-concepts}
 
-Dans le cadre de la gestion des Ressources marketing Adobe Campaign, les concepts et les termes suivants sont spécifiques :
+Dans le cadre de la gestion des ressources marketing Adobe Campaign, les concepts et termes suivants sont spécifiques :
 
 * **Tâche**
 
@@ -50,16 +50,16 @@ Dans le cadre de la gestion des Ressources marketing Adobe Campaign, les concept
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’espace de travail Adobe Campaign, voir [cette section](../../platform/using/adobe-campaign-workspace.md).
+>Pour plus d’informations sur l&#39;espace de travail Adobe Campaign, consultez [cette section](../../platform/using/adobe-campaign-workspace.md).
 >  
->Les diffusions et les canaux de communication sont détaillés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Les diffusions et les canaux de communication sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 >
->Les fonctionnalités des campagnes marketing sont détaillées dans [cette section](../../campaign/using/accessing-marketing-campaigns.md).
+>Les fonctionnalités des campagnes marketing sont présentées dans [cette section](../../campaign/using/accessing-marketing-campaigns.md).
 
-Avec le module complémentaire Gestion des Ressources marketing (MRM), les plans et les programmes sont dotés des fonctionnalités supplémentaires énumérées ci-dessous :
+Avec le module complémentaire Marketing Resource Management (MRM), les plans et programmes sont dotés des fonctionnalités supplémentaires répertoriées ci-dessous :
 
 * **Gestion budgétaire**. [En savoir plus](../../campaign/using/controlling-costs.md)
 
-* **Gestion des tâches**. [en savoir plus](../../campaign/using/creating-and-managing-tasks.md)
+* **Gestion des tâches**. [En savoir plus](../../campaign/using/creating-and-managing-tasks.md)
 
-* **Gestion des** ressources. [En savoir plus](../../campaign/using/managing-marketing-resources.md)
+* **Gestion des ressources**. [En savoir plus](../../campaign/using/managing-marketing-resources.md)
