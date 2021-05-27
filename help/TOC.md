@@ -26,7 +26,7 @@ ht-degree: 99%
    + Version [!DNL Gold Standard] {#gs-release}
       + [En quoi consiste [!DNL Gold Standard]](rn/using/gs-overview.md)
       + [Notes de mise à jour de [!DNL Gold Standard]](rn/using/gold-standard.md)
-      + [[!DNL Gold Standard] matrice de compatibilité](rn/using/compatibility-matrix-gs.md)
+      + [Matrice de compatibilité [!DNL Gold Standard]](rn/using/compatibility-matrix-gs.md)
    + Versions précédentes {#previous-releases}
       + [Version 20.3](rn/using/release--20-3.md)
       + [Version 20.2](rn/using/release--20-2.md)
@@ -191,7 +191,7 @@ ht-degree: 99%
    + A/B testing {#a-b-testing}
       + [Prise en main des tests A/B](delivery/using/get-started-a-b-testing.md)
       + [Configuration des tests AB](delivery/using/configuring-a-b-testing.md)
-      + Cas d’utilisation {#use-case}
+      + Cas pratique {#use-case}
          + [À propos de ce cas d&#39;utilisation](delivery/using/a-b-testing-use-case.md)
          + [Création d’un workflow de ciblage](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [Configuration des échantillons de population](delivery/using/a-b-testing-uc-population-samples.md)
@@ -425,7 +425,7 @@ ht-degree: 99%
       + [Offres par cellule](workflow/using/offers-by-cell.md)
       + [Composition de diffusion](workflow/using/delivery-outline.md)
       + [Enrichissement](workflow/using/enrichment.md)
-      + [Edition du schéma](workflow/using/edit-schema.md)
+      + [Modification du schéma](workflow/using/edit-schema.md)
       + [Moteur d&#39;offres](workflow/using/offer-engine.md)
       + [Déduplication](workflow/using/deduplication.md)
       + [Changement de dimension](workflow/using/change-dimension.md)
@@ -480,7 +480,7 @@ ht-degree: 99%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle           {#monitoring}
+      + Contrôle            {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -521,7 +521,7 @@ ht-degree: 99%
       + [Glossaire](interaction/using/glossary.md)
       + [Bonnes pratiques relatives aux interactions](interaction/using/interaction-best-practices.md)
    + Fonctionnement général {#general-operation}
-      + [Etapes de mise en oeuvre](interaction/using/implementation-steps.md)
+      + [Étapes de mise en œuvre](interaction/using/implementation-steps.md)
       + [Principes fondamentaux](interaction/using/fundamental-principles.md)
    + Gestion des environnements {#managing-environments}
       + [Présentation des environnements](interaction/using/environments-overview.md)
@@ -562,7 +562,7 @@ ht-degree: 99%
       + [Les points d&#39;extension](interaction/using/hooks.md)
       + [Architectures réparties](interaction/using/distributed-architectures.md)
       + [Configuration du buffer de données](installation/using/interaction---data-buffer.md)
-   + Cas d’utilisation {#case-study}
+   + Cas pratique {#case-study}
       + [Règles de présentation](interaction/using/presentation-rules.md)
       + [Offres sur canal entrant](interaction/using/offers-on-an-inbound-channel.md)
       + [Offres sur canal sortant](interaction/using/offers-on-an-outbound-channel.md)
@@ -599,7 +599,7 @@ ht-degree: 99%
       + [Historique des événements](message-center/using/history-of-message-center-events.md)
       + [Qualité de service Message Center](message-center/using/message-center-service-level.md)
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
-   + Cas d’utilisation {#use-case}
+   + Cas pratique {#use-case}
       + [Envoi d’emails transactionnels avec des pièces jointes](message-center/using/transactional-email-with-attachments.md)
 + Intégration aux médias sociaux {#integrating-with-social-media}
    + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
