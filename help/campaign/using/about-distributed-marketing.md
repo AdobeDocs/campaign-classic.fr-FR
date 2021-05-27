@@ -1,20 +1,20 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Marketing distribué Campaign
-description: Commencer avec le marketing distribué
+title: Marketing distribué de Campaign
+description: Prise en main du marketing distribué
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Commencer avec le marketing distribué {#about-distributed-marketing}
+# Prise en main du marketing distribué {#about-distributed-marketing}
 
 <!--
 >[!AVAILABILITY]
@@ -51,7 +51,7 @@ L&#39;entité centrale propose aux entités locales des opérations auxquelles e
 
 * **Localisation**
 
-   La localisation est la capacité pour une entité locale de modifier la cible et le contenu d&#39;une opération. Le niveau de localisation possible dépend du type d&#39;opération et de la mise en oeuvre.
+   La localisation est la capacité pour une entité locale de modifier la cible et le contenu d&#39;une opération. Le niveau de localisation possible dépend du type d&#39;opération et de la mise en œuvre.
 
 * **Liste des kits d&#39;opération**
 
@@ -101,7 +101,7 @@ Vous devez d&#39;abord définir les acteurs des entités centrales et locales à
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 
-### Les opérateurs {#operators}
+### Opérateurs {#operators}
 
 Vous devez créer des opérateurs centraux et des opérateurs locaux.
 
@@ -133,7 +133,7 @@ Les opérations de Marketing Distribué sont créées et publiées par l&#39;ent
 
 Les étapes de mise en oeuvre dépendent du type de kit d&#39;opération utilisé et du niveau de délégation au niveau des entités locales.
 
-### Tâches de l’intégrateur {#integrator-side}
+### Tâches de l&#39;intégrateur {#integrator-side}
 
 1. Créer les entités locales.
 1. Associer les destinataires aux opérateurs en charge des entités locales.
@@ -152,7 +152,7 @@ Les étapes de mise en oeuvre dépendent du type de kit d&#39;opération utilis�
 
    Pour les **opérations collaboratives par validation de la cible**, créer la table où seront enregistrées les validations pour chaque entité locale.
 
-### Tâches d&#39;administrateur fonctionnel {#functional-administrator-side}
+### Tâches de l&#39;administrateur fonctionnel {#functional-administrator-side}
 
 Ces étapes doivent être réalisées à chaque création d&#39;opération.
 
@@ -161,7 +161,7 @@ Ces étapes doivent être réalisées à chaque création d&#39;opération.
 1. Paramétrer l&#39;opération avec les champs de localisation et la référence du formulaire.
 1. Publiez l&#39;opération.
 
-### Tâches des opérateurs locaux {#local-operator-side}
+### Tâches de l&#39;opérateur local {#local-operator-side}
 
 Ces étapes doivent être réalisées à chaque opération.
 
