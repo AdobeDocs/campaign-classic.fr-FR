@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Appliquer les règles
 description: Appliquer les règles
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 
