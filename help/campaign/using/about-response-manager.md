@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: A propos de la gestion de la réaction
 description: A propos de la gestion de la réaction
@@ -7,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: dc3151a77350aa2b2acd989a57f5b489c1a98962
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
