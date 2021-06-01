@@ -2,26 +2,29 @@
 solution: Campaign Classic
 product: campaign
 title: Qualité de service Message Center
-description: Qualité de service Message Center
+description: En savoir plus sur le rapport Qualité de service Message Center .
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 71%
 
 ---
 
-# Qualité de service Message Center{#message-center-service-level}
+# Qualité de service Message Center {#message-center-service-level}
 
-Ce rapport affiche les statistiques de diffusion relatives aux messages transactionnels ainsi que la répartition des erreurs. Cliquez sur un type d’erreur pour en afficher les détails. Ce rapport destiné aux administrateurs techniques est également accessible à partir de l’onglet **[!UICONTROL Supervision]** de l’instance de pilotage.
+Ce rapport affiche les statistiques de diffusion relatives aux messages transactionnels ainsi que la répartition des erreurs. Cliquez sur un type d’erreur pour en afficher les détails.
+
+Ce rapport, destiné aux administrateurs techniques, est également accessible à partir de l&#39;onglet **[!UICONTROL Surveillance]** de l&#39;instance de pilotage.
 
 ![](assets/mc_reports_1.png)
 
-Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou relatives à une instance d&#39;exécution en particulier. Il est également possible de filtrer les données par canal et sur une période spécifique. Les indicateurs affichés dans la partie **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
+Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou relatives à une instance d&#39;exécution particulière. Vous pouvez également filtrer les données par canal et sur une période spécifique.
+
+Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
 
 * **[!UICONTROL Entrant (débit evt/h)]** : moyenne horaire du nombre d&#39;événements entrés dans la file Message Center.
 * **[!UICONTROL Entrant (volume evt)]** : nombre d&#39;événements entrés dans la file Message Center.
@@ -32,4 +35,4 @@ Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou
 
 >[!NOTE]
 >
->Les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs sont paramétrables dans l&#39;assistant de déploiement. Voir [Seuils de suivi](../../message-center/using/monitoring-thresholds.md).
+>Les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs sont paramétrables dans l&#39;assistant de déploiement. Voir [Seuils de suivi](../../message-center/using/additional-configurations.md#monitoring-thresholds).
