@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Déploiement Mid-sourcing
 description: Déploiement Mid-sourcing
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -30,7 +28,7 @@ La communication générale entre les serveurs et les processus est réalisée c
 * Les modules de diffusion et de gestion des mails rebonds sont désactivés sur l&#39;instance.
 * L&#39;application est configurée pour déléguer les envois des messages à un serveur de mid-sourcing distant via des appels SOAP (sur HTTP ou HTTPS).
 
-## Caractéristiques {#features}
+## Fonctionnalités {#features}
 
 ### Avantages {#advantages}
 
@@ -56,7 +54,7 @@ La communication générale entre les serveurs et les processus est réalisée c
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps-}
 
-### Prérequis {#prerequisites}
+### Conditions préalables requises {#prerequisites}
 
 * JDK sur le serveur applicatif.
 * Accès à un serveur de base de données sur le serveur applicatif.
