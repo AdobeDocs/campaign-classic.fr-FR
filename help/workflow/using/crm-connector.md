@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Connecteur CRM
 description: En savoir plus sur le Connecteur CRM et configurer la synchronisation des données
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 
