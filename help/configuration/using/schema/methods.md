@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Eléments et attributs
 description: Eléments et attributs
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 100%
 
