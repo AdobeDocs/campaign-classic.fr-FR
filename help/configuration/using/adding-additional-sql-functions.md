@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Ajout d'autres fonctions SQL
 description: Ajout d'autres fonctions SQL
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 100%
 
