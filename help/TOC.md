@@ -8,17 +8,17 @@ user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des 
 solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a9a32b383d4709d9f0adf1e886d2ec3a9d601652
+source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
 workflow-type: tm+mt
-source-wordcount: '2522'
-ht-degree: 99%
+source-wordcount: '2477'
+ht-degree: 98%
 
 ---
 
 
 # Documentation de Adobe Campaign Classic v7 {#using}
 
-+ [Documentation de Campaign v7](campaign-classic-home.md)
++ [Documentation Campaign v7](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
 + Notes de mise à jour {#release-notes}
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
@@ -567,40 +567,26 @@ ht-degree: 99%
       + [Offres sur canal entrant](interaction/using/offers-on-an-inbound-channel.md)
       + [Offres sur canal sortant](interaction/using/offers-on-an-outbound-channel.md)
 + Messages transactionnels {#transactional-messaging}
-   + Prise en main des messages transactionnels {#introduction}
-      + [A propos des messages transactionnels](message-center/using/about-transactional-messaging.md)
+   + [Prise en main des messages transactionnels](message-center/using/about-transactional-messaging.md)
+   + Configuration des messages transactionnels {#configure-transactional-messaging}
       + [Architecture des messages transactionnels](message-center/using/transactional-messaging-architecture.md)
-      + [Description des événements](message-center/using/event-description.md)
-   + Configuration de l’instance {#instance-configuration}
-      + [Création d’une connexion partagée](message-center/using/creating-a-shared-connection.md)
-      + [Identification des instances d’exécution](message-center/using/identifying-execution-instances.md)
-      + [Surveillance des seuils](message-center/using/monitoring-thresholds.md)
-      + [Purge des événements](message-center/using/purging-events.md)
-      + [Workflows techniques](message-center/using/technical-workflows.md)
-      + [Création de types d’événement](message-center/using/creating-event-types.md)
-      + [Configuration du multibranding](message-center/using/configuring-multibranding.md)
+      + [Configuration des instances](message-center/using/configuring-instances.md)
+      + [Paramétrages additionnels](message-center/using/additional-configurations.md)
    + Modèles de messages {#message-templates}
-      + [À propos des modèles de messages transactionnels](message-center/using/introduction.md)
-      + [Création du modèle de message](message-center/using/creating-the-message-template.md)
-      + [Création du contenu du message](message-center/using/creating-message-content.md)
-      + [Gestion des adresses de contrôle dans les messages transactionnels](message-center/using/managing-seed-addresses-in-transactional-messages.md)
-      + [Données de personnalisation](message-center/using/personalization-data.md)
-      + [Aperçu du message transactionnel](message-center/using/transactional-message-preview.md)
-      + [Envoi d’un BAT](message-center/using/sending-a-proof.md)
-      + [Publication des modèles](message-center/using/template-publication.md)
-      + [Dépublication des modèles](message-center/using/template-unpublication.md)
-   + Traitement des événements {#event-processing}
-      + [A propos du traitement des événements](message-center/using/about-event-processing.md)
-      + [Collecte des événements](message-center/using/event-collection.md)
-      + [Acheminement vers un modèle](message-center/using/routing-towards-a-template.md)
+      + [Création de types d’événement](message-center/using/creating-event-types.md)
+      + [Concevoir des modèles de message](message-center/using/creating-the-message-template.md)
+      + [Tester les modèles de message](message-center/using/testing-message-templates.md)
+      + [Publication de modèles de message](message-center/using/publishing-message-templates.md)
+   + Traitement des événements transactionnels {#processing}
+      + [Description des événements](message-center/using/event-description.md)
+      + [Traitement des événements](message-center/using/about-event-processing.md)
       + [Exécution de la diffusion](message-center/using/delivery-execution.md)
    + Rapports {#reports}
-      + [A propos des rapports des messages transactionnels](message-center/using/about-transactional-messaging-reports.md)
+      + [Accès aux rapports des messages transactionnels](message-center/using/about-transactional-messaging-reports.md)
       + [Historique des événements](message-center/using/history-of-message-center-events.md)
       + [Qualité de service Message Center](message-center/using/message-center-service-level.md)
       + [Temps traitement Message Center](message-center/using/message-center-processing-time.md)
-   + Cas pratique {#use-case}
-      + [Envoi d’emails transactionnels avec des pièces jointes](message-center/using/transactional-email-with-attachments.md)
+   + [Cas pratique](message-center/using/transactional-email-with-attachments.md)
 + Intégration aux médias sociaux {#integrating-with-social-media}
    + [A propos du marketing sur les réseaux sociaux](social/using/about-social-marketing.md)
    + Configuration {#configuration}
