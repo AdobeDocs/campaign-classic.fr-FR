@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Utiliser votre Adobe ID dans Campaign
 description: En savoir plus sur l'intégration Adobe IMS
@@ -7,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 96%
