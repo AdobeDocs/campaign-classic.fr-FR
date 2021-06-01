@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Exemples d'édition de schémas
 description: Exemples d'édition de schémas
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 100%
 
