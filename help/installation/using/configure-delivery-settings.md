@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration des paramètres de diffusion Campaign
 description: Découvrez comment configurer les paramètres de diffusion Campaign
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-translation-type: ht
-source-git-commit: 401e1be234d52f04cbdf8dfa97f51ac227836cd5
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
@@ -47,7 +45,7 @@ Dans ce cas, ces paramètres sont définis en configurant le serveur SMTP dans l
 >
 >Ce mode de fonctionnement implique des limitations importantes sur les diffusions puisqu&#39;il peut réduire considérablement le débit en raison des performances propres au serveur relais (latence, bande passante...). De plus, la capacité de qualifier les erreurs de diffusion synchrones (détectées par l&#39;analyse du trafic SMTP) sera limitée et aucun envoi ne sera possible si le serveur relais n&#39;est pas disponible.
 
-## Processus MTA child {#mta-child-processes}
+## Processus MTA enfants {#mta-child-processes}
 
 Il est possible de contrôler le nombre de processus enfants (maxSpareServers par défaut 2) afin d’optimiser les performances de diffusion en fonction de la puissance CPU des serveurs et des ressources réseau disponibles. Cette configuration doit être effectuée dans la section **`<master>`** de la configuration MTA sur chaque ordinateur individuel.
 
