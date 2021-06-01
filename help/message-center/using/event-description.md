@@ -1,25 +1,24 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Description de l’événement du Message center
-description: En savoir plus sur l’événement de messages transactionnels
+title: Description des événements
+description: Découvrez comment les événements de messagerie transactionnelle sont gérés dans Adobe Campaign Classic à l’aide des méthodes SOAP.
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 94%
 
 ---
 
-# Description des événements{#event-description}
+# Description des événements {#event-description}
 
-## À propos du modèle de données de messagerie transactionnelle {#about-transactional-messaging-datamodel}
+## Modèle de données de messagerie transactionnelle {#about-transactional-messaging-datamodel}
 
-La messagerie transactionnelle repose sur le modèle de données d’Adobe Campaign et utilise deux tables supplémentaires distinctes. Ces [tables](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** et **NmsBatchEvent**, contiennent les mêmes champs et permettent de gérer les événements temps réel d’une part et les événements batch d’autre part.
+La messagerie transactionnelle repose sur le modèle de données d’Adobe Campaign et utilise deux tables supplémentaires distinctes. Ces [tables](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** et **NmsBatchEvent** contiennent les mêmes champs et permettent de gérer d’une part les événements temps réel et d’autre part les événements batch.
 
 ## Méthodes SOAP {#soap-methods}
 
@@ -103,7 +102,7 @@ Exemple avec PushEvents :
 </urn:PushEvents>
 ```
 
-Les éléments **`<rtevent>`** et **`<batchevent>`** possèdent un jeu d&#39;attributs ainsi qu&#39;un élément fils indispensable : **`<ctx>`** permettant d’intégrer les données du message.
+Les éléments **`<rtevent>`** et **`<batchevent>`** possèdent un jeu d&#39;attributs ainsi qu&#39;un élément enfant indispensable : **`<ctx>`** permettant d’intégrer les données du message.
 
 >[!NOTE]
 >
