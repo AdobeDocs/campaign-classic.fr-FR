@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Utiliser des cubes pour explorer les données
 description: Utiliser des cubes pour explorer les données
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%
 
