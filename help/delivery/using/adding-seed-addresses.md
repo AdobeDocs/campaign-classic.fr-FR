@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Ajouter des adresses de contrôle
 description: Ajouter des adresses de contrôle
@@ -7,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
-source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
