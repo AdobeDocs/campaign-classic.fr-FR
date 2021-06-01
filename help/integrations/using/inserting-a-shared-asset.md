@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Insérer une ressource partagée
 description: Insérer une ressource partagée
@@ -7,9 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
