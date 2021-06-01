@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Serveur de messagerie
 description: Serveur de messagerie
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
