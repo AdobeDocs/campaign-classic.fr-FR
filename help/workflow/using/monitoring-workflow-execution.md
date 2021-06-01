@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Surveiller l'exécution des workflows
 description: Surveiller l'exécution des workflows
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-translation-type: ht
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 100%
 
