@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Déduplication
 description: En savoir plus sur l’activité de workflow de déduplication
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -29,7 +27,7 @@ L&#39;activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des
 
 L&#39;activité **[!UICONTROL Déduplication]** peut conserver une ligne entière comme enregistrement unique après l&#39;identification des duplicatas. Par exemple, dans le cas pratique ci-dessus, si l’activité est configurée pour ne conserver que l’enregistrement avec la **[!UICONTROL Date]** la plus ancienne, le résultat est le suivant :
 
-| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Téléphone |
 -----|----------|------------|-------|--------------|------
 | 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
@@ -37,7 +35,7 @@ L&#39;enregistrement principal sélectionné transfère les données sans fusion
 
 Complémentaire :
 
-| Date | Prénom | Nom | Email | Téléphone mobile | Phone |
+| Date | Prénom | Nom | Email | Téléphone mobile | Téléphone |
 -----|------------|-----------|-------|--------------|------
 | 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
@@ -53,7 +51,7 @@ Ce cas de figure doit s&#39;aborder de cette manière :
 
 ![](assets/dedup_bonnepratique.png)
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 Pour paramétrer une déduplication, vous devez renseigner son libellé, la méthode et les critères de déduplication et les options relatives au résultat.
 
