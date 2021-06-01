@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Paramétrage de SpamAssassin
 description: Paramétrage de SpamAssassin
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -21,7 +19,7 @@ ht-degree: 100%
 >
 >Certaines configurations peuvent uniquement être effectuées par Adobe pour les déploiements hébergés par Adobe. Par exemple, pour accéder aux fichiers de configuration de serveur et d&#39;instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 SpamAssassin est un logiciel destiné à filtrer les emails indésirables. Intégré à Adobe Campaign, il permet d’attribuer un score aux emails créés dans la plateforme et d’évaluer le risque que les messages soient considérés comme indésirables par les messageries des destinataires avant qu’une diffusion ne soit lancée. Pour cela, SpamAssassin doit être installé et configuré sur le ou les serveurs d’application d’Adobe Campaign et requiert un certain nombre de modules additionnels en Perl pour fonctionner.
 
@@ -48,7 +46,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
 ### Installation de SpamAssassin {#installing-spamassassin}
 
-1. Connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) à l’aide de vos informations d’identification d’utilisateur. En savoir plus sur la distribution de logiciels sur [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
+1. Connectez-vous au [portail de distribution de logiciels](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) à l’aide de vos informations d’identification d’utilisateur. En savoir plus sur la distribution de logiciels sur [cette page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 1. Téléchargez le fichier **Neolane Spam Assassin (Windows Installation) (2.0)** (neolane_spamassassin.2.0.zip).
 1. Copiez ce fichier sur le serveur Adobe Campaign puis décompressez-le.
 
