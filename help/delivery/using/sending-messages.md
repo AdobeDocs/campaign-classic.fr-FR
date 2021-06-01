@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Envoyer un email avec Adobe Campaign Classic
 description: Découvrez comment confirmer la diffusion d'un email et découvrez les spécificités de la diffusion d'emails.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -35,6 +33,6 @@ Une fois votre email créé et configuré, vous pouvez l’envoyer à la cible p
 Les sections suivantes décrivent en détail les paramètres et les configurations spécifiques à la diffusion d’emails :
 <!--* [Generating the mirror page](../../delivery/using/generating-mirror-page.md)
 * [Email BCC](../../delivery/using/email-bcc.md)-->
-* [Paramètres de l&#39;email](../../delivery/using/email-parameters.md)
+* [Paramètres de l’email](../../delivery/using/email-parameters.md)
 * [Envoi d&#39;emails avec le MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md)
 * [Envoi d&#39;emails sur un mobile japonais](../../delivery/using/sending-emails-on-japanese-mobiles.md)
