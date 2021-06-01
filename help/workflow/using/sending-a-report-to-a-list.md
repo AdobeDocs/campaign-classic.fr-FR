@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Envoyer un rapport à une liste
 description: Découvrez comment envoyer un rapport à une liste à l’aide d’un workflow
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
