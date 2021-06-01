@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Prérequis pour l'installation de Campaign sous Linux
 description: Prérequis pour l'installation de Campaign sous Linux
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%
 
@@ -170,7 +168,7 @@ Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées d
 
 Consultez également section générale [Base de données](../../installation/using/database.md).
 
-### PostgreSQL {#postgresql}
+### PostgreSQL {#postgresql}
 
 Adobe Campaign prend en charge toutes les versions de librairies du client PostgreSQL à partir de la version 7.2 :(**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** et **libpq.so.3.1**).
 
