@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Limitation de l'affichage des PII
 description: Limitation de l'affichage des PII
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -17,11 +15,11 @@ ht-degree: 100%
 
 # Limitation de l’affichage des PII{#restricting-pii-view}
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 Certains clients ont besoin que les utilisateurs marketing puissent accéder aux enregistrements de données, mais ne souhaitent pas qu’ils visualisent des informations d’identification personnelles (PII) telles que le prénom, le nom ou l’adresse email. Adobe Campaign propose un moyen de protéger la confidentialité et d’empêcher toute utilisation abusive des données par des opérateurs standard de Campaign.
 
-## Mise en oeuvre {#implementation}
+## Mise en œuvre {#implementation}
 
 Un nouvel attribut pouvant être appliqué à un élément ou un attribut a été ajouté aux schémas. Il complète l&#39;attribut **[!UICONTROL visibleIf]** existant et s&#39;appelle **[!UICONTROL accessibleIf]**. Lorsqu&#39;il contient une expression XTK liée au contexte utilisateur actuel, cet attribut peut utiliser des valeurs telles que **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]**.
 
