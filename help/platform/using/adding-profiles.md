@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Ajouter des profils
 description: Ajouter des profils
@@ -7,9 +6,8 @@ feature: Profils
 role: Business Practitioner
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 100%
 
