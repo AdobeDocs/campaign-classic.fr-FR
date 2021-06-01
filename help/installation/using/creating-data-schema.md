@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Accès à une base de données externe
 description: Accès à une base de données externe
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
