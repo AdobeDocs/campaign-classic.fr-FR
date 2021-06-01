@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Schéma d'une table existante
 description: Schéma d'une table existante
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 # Schéma d&#39;une table existante{#schema-of-an-existing-table}
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 Lorsque l&#39;application doit accéder aux données d&#39;une table déjà existante, ou d&#39;une vue SQL, ou de données provenant d&#39;une base distante, vous devez créer son schéma dans Adobe Campaign avec les données suivantes :
 
@@ -27,7 +25,7 @@ Lorsque l&#39;application doit accéder aux données d&#39;une table déjà exis
 * les champs et leur emplacement dans la structure XML : renseigner uniquement les champs utilisés dans l&#39;application,
 * les liens : s&#39;il existe des jointures avec les autres tables de la base.
 
-## Mise en oeuvre {#implementation}
+## Mise en œuvre {#implementation}
 
 Pour créer le schéma correspondant, les étapes sont les suivantes :
 
