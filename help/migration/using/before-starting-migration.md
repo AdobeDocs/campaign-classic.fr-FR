@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Avant de commencer la migration
 description: Avant de commencer la migration
@@ -7,9 +6,8 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 
@@ -45,7 +43,7 @@ Avant toute migration, vous devez **impérativement** effectuer une sauvegarde d
 * Il n&#39;est pas possible de changer de type de moteur de base de données (SGBD). Par exemple, il n&#39;est pas possible de passer d&#39;un moteur PostgreSQL à un moteur Oracle. Il est cependant possible de passer d&#39;un moteur Oracle 8 à un moteur Oracle 10.
 * Il n&#39;est pas possible de passer d&#39;une base non-Unicode à une base Unicode.
 
-### Recommandations {#recommendation}
+### Recommandation {#recommendation}
 
 La migration étant une procédure sensible, nous vous recommandons vivement de lire attentivement ce document avant d&#39;entreprendre son exécution.
 
