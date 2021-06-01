@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Paramétrer des tests A/B
 description: Découvrez comment paramétrer les tests A/B dans Campaign Classic.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 100%
 
