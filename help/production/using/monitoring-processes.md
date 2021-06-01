@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Surveillance des processus
 description: Découvrez comment surveiller les processus de Campaign
@@ -7,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '3779'
 ht-degree: 99%
