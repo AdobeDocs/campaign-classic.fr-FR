@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Prise en main des applications web
 description: Créer et partager des applications web, des landing pages et des questionnaires
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 100%
 
