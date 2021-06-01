@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Paramétrage de l''application mobile dans Adobe Campaign '
 description: Découvrez comment débuter avec la configuration de l'application mobile
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
