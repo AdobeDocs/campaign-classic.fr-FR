@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Etapes de mise en oeuvre
 description: Etapes de mise en oeuvre
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
