@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Principe de configuration
 description: Principe de configuration
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
