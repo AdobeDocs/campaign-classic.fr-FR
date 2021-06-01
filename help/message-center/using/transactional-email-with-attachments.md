@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Envoi d’emails transactionnels avec des pièces jointes
 description: Découvrez comment envoyer des emails transactionnels avec des pièces jointes individuelles et/ou personnalisées à l’aide d’Adobe Campaign Classic.
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 84%
