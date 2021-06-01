@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Principe de fonctionnement
 description: Principe de fonctionnement
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
