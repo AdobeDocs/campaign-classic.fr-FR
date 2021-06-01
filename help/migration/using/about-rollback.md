@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Restauration de la version précédente
 description: Découvrez comment restaurer la version précédente
@@ -7,9 +6,8 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
