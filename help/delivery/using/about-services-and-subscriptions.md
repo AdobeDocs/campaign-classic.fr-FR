@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: A propos des services et des abonnements
 description: A propos des services et des abonnements
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 
