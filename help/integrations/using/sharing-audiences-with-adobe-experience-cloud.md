@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Partage d'audiences avec Adobe Experience Cloud
 description: Partage d'audiences avec Adobe Experience Cloud
@@ -7,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 100%
