@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Structure d'un formulaire
 description: Structure d'un formulaire
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 100%
 
@@ -86,7 +84,7 @@ Pour afficher les contrôles de l&#39;exemple précédent sur deux colonnes :
 </form>
 ```
 
-L’élément **`<container>`** avec l&#39;attribut **colcount** permet de forcer l’affichage des contrôles fils sur deux colonnes.
+L’élément **`<container>`** avec l&#39;attribut **colcount** permet de forcer l’affichage des contrôles enfants sur deux colonnes.
 
 L&#39;attribut **colspan** sur un contrôle étend celui-ci avec le nombre de colonnes renseignées dans sa valeur :
 
@@ -102,7 +100,7 @@ L&#39;attribut **colspan** sur un contrôle étend celui-ci avec le nombre de co
 </form> 
 ```
 
-En renseignant l&#39;attribut **type=&quot;frame&quot;**, le conteneur ajoute un habillage autour des contrôles fils avec le libellé contenu dans l&#39;attribut **label** :
+En renseignant l&#39;attribut **type=&quot;frame&quot;**, le conteneur ajoute un habillage autour des contrôles enfants avec le libellé contenu dans l&#39;attribut **label** :
 
 ![](assets/d_ncs_integration_form_exemple4.png)
 
@@ -138,7 +136,7 @@ Un texte d’aide a été ajouté à l’aide de la balise `<static>` avec le ty
 
 Les conteneurs permettent de regrouper un ensemble de contrôles. Ils sont représentés par l’élément **`<container>`**. Ils ont été utilisés ci-dessus pour mettre en forme les contrôles sur plusieurs colonnes.
 
-L’attribut **xpath** sur un `<container>` permet de simplifier le référencement des contrôles fils. Le référencement des contrôles est alors relatif au `<container>` parent.
+L’attribut **xpath** sur un `<container>` permet de simplifier le référencement des contrôles enfants. Le référencement des contrôles est alors relatif au `<container>` parent.
 
 Exemple de conteneur sans &quot;xpath&quot; :
 
@@ -181,7 +179,7 @@ Un conteneur à onglets met en forme les données dans des pages accessibles dep
 </container>
 ```
 
-Le conteneur principal est défini par l&#39;attribut **type=&quot;notebook&quot;**. Les onglets sont déclarés dans les conteneurs fils, le libellé des onglets est renseigné à partir de l&#39;attribut **label**.
+Le conteneur principal est défini par l&#39;attribut **type=&quot;notebook&quot;**. Les onglets sont déclarés dans les conteneurs enfants, le libellé des onglets est renseigné à partir de l&#39;attribut **label**.
 
 >[!NOTE]
 >
@@ -208,7 +206,7 @@ Ce conteneur affiche une barre d&#39;icônes verticale permettant de sélectionn
 </container>
 ```
 
-Le conteneur principal est défini par l&#39;attribut **type=&quot;iconbox&quot;**. Les pages associées aux icônes sont déclarées dans les conteneurs fils. Le libellé des icônes est renseigné à partir de l&#39;attribut **label**.
+Le conteneur principal est défini par l&#39;attribut **type=&quot;iconbox&quot;**. Les pages associées aux icônes sont déclarées dans les conteneurs enfants. Le libellé des icônes est renseigné à partir de l&#39;attribut **label**.
 
 L’icône d’une page est renseignée à partir de l’attribut `img="<image>"`, où `<image>` est le nom de l’image correspondant à sa clé construite avec le nom et l’espace de noms (par exemple « xtk:properties.png »).
 
@@ -426,7 +424,7 @@ Ce contrôle affiche une liste à colonnes éditable avec une barre d&#39;outils
 
 Le contrôle liste doit être renseigné avec l&#39;attribut **type=&quot;list&quot;**, le chemin de la liste doit porter sur l&#39;élément de collection.
 
-Les colonnes sont déclarées dans les balises **`<input>`** de la liste. Le libellé et la taille de colonne peuvent être forcés avec les attributs **label** et **colSize**.
+Les colonnes sont déclarées dans les balises **`<input>`** enfants de la liste. Le libellé et la taille de colonne peuvent être forcés avec les attributs **label** et **colSize**.
 
 >[!NOTE]
 >
