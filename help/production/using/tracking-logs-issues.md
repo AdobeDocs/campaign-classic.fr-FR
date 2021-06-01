@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Problèmes relatifs aux logs de tracking
 description: Problèmes relatifs aux logs de tracking
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
