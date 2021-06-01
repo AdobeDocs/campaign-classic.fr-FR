@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Envoi de fichier
 description: En savoir plus sur l’activité de workflow d’envoi de fichier
@@ -7,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
