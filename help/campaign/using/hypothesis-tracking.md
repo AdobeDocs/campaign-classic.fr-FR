@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Suivi des hypothèses
 description: Suivi des hypothèses
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -65,7 +63,7 @@ Vous pouvez visualiser les réactions des destinataires aux hypothèses depuis l
 
    ![](assets/response_hypothesis_reactions_001.png)
 
-## Rapports {#reports}
+## Rapports  {#reports}
 
 Le **[!UICONTROL Rapport des hypothèses]** permet de consulter les résultats des hypothèses appliquées aux opérations et diffusions. Il contient les indicateurs calculés par l’hypothèse (voir à ce propos la section [Indicateurs](#indicators)).
 
