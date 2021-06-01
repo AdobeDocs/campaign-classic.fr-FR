@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Début et Fin
 description: En savoir plus sur les activités de workflow de début et de fin
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
