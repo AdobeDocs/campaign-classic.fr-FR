@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Coordonner les mises à jour des données
 description: Coordonner les mises à jour des données
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
