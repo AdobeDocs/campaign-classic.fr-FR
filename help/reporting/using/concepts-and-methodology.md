@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Concepts et méthodologie
 description: Concepts et méthodologie
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
 
@@ -96,7 +94,7 @@ Vous pouvez, au choix :
 
 Dans ce cas, le filtre sélectionné au niveau du schéma des faits est ignoré.
 
-### Enumérations {#enumerations}
+### Énumérations {#enumerations}
 
 Afin d&#39;augmenter la lisibilité et la pertinence des rapports, Adobe Campaign vous permet de créer des énumérations spécifiques pour regrouper différentes valeurs dans une même classe. Ces énumérations, réservées à la mise en classe, sont référencés dans les cubes puis affichées dans les rapports.
 
