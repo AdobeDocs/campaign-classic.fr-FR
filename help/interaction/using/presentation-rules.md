@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Règles de présentation
 description: Règles de présentation
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
