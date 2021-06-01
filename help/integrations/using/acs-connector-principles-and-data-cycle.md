@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Principes et cycle des données d’ACS Connector
 description: Principes et cycle des données d’ACS Connector
@@ -7,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2044'
 ht-degree: 99%
