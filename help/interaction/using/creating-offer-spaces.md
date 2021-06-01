@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer des emplacements d'offres
 description: Créer des emplacements d'offres
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
