@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Fonctionnalités avancées
 description: Fonctionnalités avancées
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
 
