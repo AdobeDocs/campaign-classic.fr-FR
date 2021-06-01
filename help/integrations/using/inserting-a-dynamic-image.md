@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Insérer une image dynamique
 description: Insérer une image dynamique
@@ -7,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 99%
