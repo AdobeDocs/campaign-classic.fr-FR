@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Disponibilité de la console cliente pour Windows
 description: Disponibilité de la console cliente pour Windows
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
