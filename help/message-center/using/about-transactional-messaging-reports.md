@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Accès aux rapports des messages transactionnels
 description: Découvrez comment accéder aux rapports des messages transactionnels Adobe Campaign Classic.
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 42d43d67-7660-4d81-9280-10f030aa8f0e
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
