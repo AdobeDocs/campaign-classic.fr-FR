@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Accès aux campagnes marketing
 description: Accès aux campagnes marketing
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
 
@@ -129,7 +127,7 @@ Pour chaque opération, les intervenants peuvent échanger des messages via un f
 
 Voir à ce propos la section [Forums de discussions](../../campaign/using/discussion-forums.md).
 
-#### Rapports {#reports}
+#### Rapports  {#reports}
 
 Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;opération.
 
@@ -139,7 +137,7 @@ Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;op
 >
 >Les rapports sont présentés dans [cette section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
-#### Configuration {#configuration}
+#### Configuration  {#configuration}
 
 Les opérations sont créées à partir de modèles d&#39;opérations : vous pouvez paramétrer des modèles réutilisables pour lesquels certaines options sont sélectionnées et certains paramétrages seront déjà enregistrés. Pour chaque opération, les fonctionnalités suivantes sont proposées :
 
