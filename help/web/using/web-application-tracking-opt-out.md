@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Désinscription (opt-out) du tracking des applications web
 description: Désinscription (opt-out) du tracking des applications web
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
