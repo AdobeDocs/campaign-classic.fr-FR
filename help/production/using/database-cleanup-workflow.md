@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Workflow de nettoyage de la base de données
 description: Découvrez comment les données obsolètes sont automatiquement nettoyées
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ Le workflow **[!UICONTROL Nettoyage de la base]** (cleanup), accessible à parti
 
 ![](assets/ncs_cleanup_workflow.png)
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 Le paramétrage du nettoyage de la base s&#39;effectue à deux niveaux : dans le planificateur du workflow et dans l&#39;assistant de déploiement.
 
