@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Signal externe
 description: En savoir plus sur l’activité de workflow de signal externe
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
