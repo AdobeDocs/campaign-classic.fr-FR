@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Définir la population cible
 description: Définir la population cible
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 100%
 
