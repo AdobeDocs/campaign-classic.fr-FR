@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Edition
 description: Edition
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
