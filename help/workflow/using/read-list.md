@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Lecture de liste
 description: En savoir plus sur l’activité de workflow de lecture de liste
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
