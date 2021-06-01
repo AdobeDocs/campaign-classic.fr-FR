@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Déploiement Entreprise
 description: Déploiement Entreprise
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 100%
 
@@ -28,7 +26,7 @@ La communication générale entre les serveurs et les processus est réalisée c
 
 Le débit attendu dans ce type de configuration peut être supérieur à 100 000 mails par heure avec le paramétrage et la bande-passante adéquats.
 
-## Caractéristiques {#features}
+## Fonctionnalités {#features}
 
 ### Avantages {#advantages}
 
@@ -50,7 +48,7 @@ Coûts du matériel et d&#39;administration plus élevés.
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
-### Prérequis {#prerequisites}
+### Conditions préalables requises {#prerequisites}
 
 * JDK sur les deux serveurs applicatifs,
 * Serveur Web (IIS, Apache) sur les deux frontaux,
