@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Profils d'opérateurs
 description: Profils d'opérateurs
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 
