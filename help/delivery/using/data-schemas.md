@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Schémas de données
 description: Schémas de données
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
@@ -31,7 +29,7 @@ Le document XML d&#39;un schéma de données doit contenir l&#39;élément racin
 </srcSchema>
 ```
 
-Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être fils de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
+Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
 
 Dans un schéma de gestion de contenu, l&#39;élément principal est représenté par la ligne :
 
