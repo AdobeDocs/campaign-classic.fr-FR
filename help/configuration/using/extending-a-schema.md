@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Extension d'un schéma
 description: Découvrez comment étendre un schéma
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
