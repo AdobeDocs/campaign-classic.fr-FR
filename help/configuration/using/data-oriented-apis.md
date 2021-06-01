@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: API orientées données
 description: API orientées données
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 100%
 
@@ -533,7 +531,7 @@ Définition des méthodes &quot;Write&quot; et &quot;WriteCollection&quot; dans 
 >
 >Cette méthode est de type &quot;static&quot;, les paramètres en entrée sont compris dans un document XML au format du schéma à mettre à jour.
 
-### Présentation {#overview}
+### Vue d’ensemble {#overview}
 
 La réconciliation des données s&#39;opère à partir de la définition des clés renseignées dans le schéma associé. La procédure d&#39;écriture va rechercher la première clé éligible en fonction des données renseignées dans le document en entrée. L&#39;entité est insérée ou mise à jour en fonction de son existence dans la base de données.
 
