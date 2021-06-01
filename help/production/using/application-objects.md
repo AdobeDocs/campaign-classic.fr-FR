@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Objets d'application
 description: Objets d'application
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -21,7 +19,7 @@ Les objets natifs doivent être suivis. Il est important d&#39;éviter une crois
 
 ## Séquence d&#39;identifiants {#sequence-of-ids}
 
-Adobe Campaign utilise une séquence d&#39;identifiants qui doit être consommée en conséquence : **xtkNewId**. Si la séquence est consommée très rapidement (c&#39;est-à-dire à partir de 100 000 par jour), vous devez vérifier que cela correspond aux besoins de votre entreprise (envoi de millions d&#39;emails par jour, par exemple). Il est possible de définir une séquence dédiée pour des tables spécifiques. Vous pouvez configurer un workflow pour suivre l&#39;utilisation des identifiants.
+Adobe Campaign utilise une séquence d&#39;identifiants qui doit être consommée en conséquence : **xtkNewId**. Si la séquence est consommée très rapidement (c&#39;est-à-dire à partir de 100 000 par jour), vous devez vérifier que cela correspond aux exigences de votre entreprise (envoi de millions d&#39;emails par jour, par exemple). Il est possible de définir une séquence dédiée pour des tables spécifiques. Vous pouvez configurer un workflow pour suivre l&#39;utilisation des identifiants.
 
 Lorsque la séquence dépasse les 2 milliards (2 147 483 648 pour être exact), elle revient à zéro, ce qui crée des problèmes et doit être évité. Cette séquence doit donc être suivie.
 
@@ -39,7 +37,8 @@ Cette méthode permet également de mettre en lumière les utilisateurs qui cré
 
 ## Diffusions {#deliveries}
 
-Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des besoins de l&#39;entreprise. Envisagez d&#39;utiliser des diffusions au fil de l&#39;eau pour créer un nombre inférieur de diffusions. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/continuous-delivery.md).
+Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l&#39;instance. Un nombre trop élevé de diffusions occupe de l&#39;espace de base de données et entraîne des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des exigences de l&#39;entreprise. Envisagez d&#39;utiliser des diffusions au fil de l&#39;eau pour créer un nombre inférieur de diffusions. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/continuous-delivery.md).
+
 
 Les diffusions de plus de deux ans doivent être purgées de l&#39;instance.
 
