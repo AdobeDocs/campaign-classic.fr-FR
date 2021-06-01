@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Création de nouvelles instances
 description: Création de nouvelles instances
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%
 
