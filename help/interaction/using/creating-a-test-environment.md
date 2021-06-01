@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer un environnement de test
 description: Créer un environnement de test
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 
