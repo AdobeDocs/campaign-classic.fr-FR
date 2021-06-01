@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Statuts de diffusion
 description: En savoir plus sur les statuts disponibles sur votre tableau de bord de diffusion.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-translation-type: ht
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
 
@@ -140,4 +138,4 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 
 * [Logs et historique de la diffusion](#delivery-logs-and-history)
 * [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [Types de diffusion en échec et raisons   ](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
