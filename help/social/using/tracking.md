@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Effectuer un tracking
 description: Effectuer un tracking
@@ -7,9 +6,8 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 83883ba3-e4dc-428c-a377-1986cfd1fe55
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 100%
 
