@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Autorisations d’accès à une base de données externe
 description: Autorisations d’accès aux bases de données externes
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 100%
 
