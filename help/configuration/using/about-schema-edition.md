@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: A propos de l’édition de schéma
 description: Prise en main de l’édition de schéma
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 100%
 
@@ -35,7 +33,7 @@ Pour ajouter un nouveau type de données qui n&#39;existe pas par défaut dans A
 
 Une fois que vous avez créé une extension ou un nouveau schéma, il est recommandé de définir les éléments de son contenu XML dans l&#39;ordre ci-dessous.
 
-## Enumérations {#enumerations}
+## Énumérations {#enumerations}
 
 Les énumérations sont définies avant l&#39;élément principal du schéma. Elles permettent d&#39;afficher des valeurs dans une liste afin de restreindre les choix de l&#39;utilisateur pour un champ donné.
 
