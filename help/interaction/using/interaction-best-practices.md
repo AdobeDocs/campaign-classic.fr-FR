@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Bonnes pratiques relatives aux interactions Adobe Campaign Classic
 description: Cette section présente l'approche recommandée pour gérer le module Interaction dans Adobe Campaign Classic.
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ Cette section présente les bonnes pratiques pour gérer le module Interaction d
 
 Interaction dans Adobe Campaign requiert une gestion attentive pour fonctionner de manière efficace. Vous devez trouver un équilibre entre le nombre de contacts, de catégories d’offres et d’offres. Si ces facteurs ne sont pas gérés avec attention, votre instance Adobe Campaign peut rencontrer des problèmes.
 
-### Mise en oeuvre {#implementation}
+### Mise en œuvre {#implementation}
 
 Vous trouverez ci-dessous les éléments importants à garder à l’esprit lors de la mise en œuvre et de la configuration des interactions.
 
