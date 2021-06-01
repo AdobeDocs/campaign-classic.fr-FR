@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Administration '
 description: 'Administration '
@@ -7,15 +6,14 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
 ---
 
-# Administration{#administration}
+# Administration {#administration}
 
 Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est assuré par le service **nlserver**.
 
@@ -80,14 +78,19 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
    >* Utilisez l&#39;option **-immediate** en cas d&#39;urgence pour forcer l&#39;arrêt immédiat du processus (équivalent à la commande **kill -9** Unix).
    >* Utilisez l’option **-noconsole** pour assurer que le module lancé n’affiche rien sur la console. Ses logs seront écrits sur le disque via le module **syslogd**.
    >* Utilisez l’option **-verbose** pour afficher davantage d&#39;informations sur les actions du processus.
-   >
-   >   Exemple:
-   >
-   >   **nlserver restart web -verbose**
-   >
-   >   **nlserver start mta@moninstance -verbose**
-   >
-   >   Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
+
+      >
+      >   
+      Exemple:
+      >
+      >   
+      **nlserver restart web -verbose**
+      >
+      >   
+      **nlserver start mta@moninstance -verbose**
+      >
+      >   
+      Cette option ajoute des logs supplémentaires. Nous vous conseillons de redémarrer les processus sans l&#39;option **-verbose** après avoir obtenu vos informations afin de ne pas surcharger les logs.
 
 
 * Démarrer tous les processus Adobe Campaign (équivalent à un démarrage du service **nlserver6**) :
