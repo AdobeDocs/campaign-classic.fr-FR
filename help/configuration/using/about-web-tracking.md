@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: À propos du tracking web
 description: À propos du tracking web
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
