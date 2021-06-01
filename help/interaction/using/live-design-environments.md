@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Environnements en ligne/édition
 description: Environnements en ligne/édition
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 100%
 
