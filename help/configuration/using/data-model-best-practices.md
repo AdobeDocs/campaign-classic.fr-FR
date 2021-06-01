@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Bonnes pratiques relatives au modèle de données
 description: Découvrez comment utiliser le modèle de données de Campaign Classic
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-translation-type: ht
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '4026'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ Pour une meilleure compréhension des tables intégrées de Campaign et de leur 
 
 Pour commencer à utiliser les schémas de Campaign, lisez cette [documentation](../../configuration/using/about-schema-reference.md). Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign en consultant [ce document](../../configuration/using/about-schema-edition.md).
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 Le système Adobe Campaign est extrêmement flexible et peut être étendu au-delà de l’implémentation initiale. Toutefois, même si les possibilités sont infinies, il est essentiel de prendre des décisions judicieuses et de construire des bases solides pour commencer à concevoir votre modèle de données.
 
@@ -31,7 +29,7 @@ Ce document présente des cas pratiques courants et les bonnes pratiques pour ap
 
 ## Architecture du modèle de données {#data-model-architecture}
 
-Adobe Campaign est un puissant système de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies on-line et off-line pour créer des expériences client personnalisées.
+Adobe Campaign est un puissant système de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne pour créer des expériences client personnalisées.
 
 ### Approche axée sur le client {#customer-centric-approach}
 
@@ -154,7 +152,7 @@ Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 0
 * Pour plus d’informations sur la fonctionnalité de **génération automatique de séquence**, voir [ce document](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html).
 * Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
-## Index {#indexes}
+## des index ; {#indexes}
 
 Les index sont essentiels aux performances. Lorsque vous déclarez une clé dans le schéma, Adobe crée automatiquement un index sur les champs de la clé. Vous pouvez également déclarer d’autres index pour les requêtes qui n’utilisent pas la clé.
 
