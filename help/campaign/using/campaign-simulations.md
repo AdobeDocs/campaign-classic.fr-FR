@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Simulation de campagnes
 description: Simulation de campagnes
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 100%
 
@@ -147,7 +145,7 @@ L&#39;analyse descriptive est présentée dans cette [section](../../reporting/u
 
 Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. La vue **[!UICONTROL Rapports]**, accessible depuis le tableau de bord de la simulation, permet d&#39;avoir une vue plus fiable des informations.****
 
-### Rapports {#reports}
+### Rapports  {#reports}
 
 Pour analyser le résultat d&#39;une simulation, éditez les rapports qui lui sont associés: ils présentent les exclusions de la simulation et leurs causes.
 
