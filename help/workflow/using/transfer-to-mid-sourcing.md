@@ -1,13 +1,11 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Emission vers Mid-sourcing
 description: En savoir plus sur les workflows d’émission vers Mid-sourcing
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%
