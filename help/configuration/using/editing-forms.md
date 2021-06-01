@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Editer les formulaires
 description: Editer les formulaires
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 100%
 
