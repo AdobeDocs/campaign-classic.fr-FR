@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Création du script
 description: Découvrez comment effectuer des tests A/B à l’aide d’un cas d’utilisation spécifique.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -69,7 +67,7 @@ Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Voir
 
 Pour une explication détaillée du script, voir [Détails du script](#details-of-the-script).
 
-## Mise en oeuvre {#implementation}
+## Mise en œuvre {#implementation}
 
 1. Ouvrez votre activité **[!UICONTROL Code JavaScript]**,
 1. Copiez le script proposé dans [Exemple de script](#example-of-a-script) dans la fenêtre **[!UICONTROL Code JavaScript]**.
