@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer et gérer des listes
 description: Découvrez comment créer et gérer des listes
@@ -7,9 +6,8 @@ feature: Profils
 role: Business Practitioner
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 100%
 
