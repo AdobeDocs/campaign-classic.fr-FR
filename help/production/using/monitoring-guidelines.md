@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Directives de supervision
 description: Découvrez les conseils et les bonnes pratiques pour surveiller les instances et les processus Campaign.
@@ -7,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 100%
