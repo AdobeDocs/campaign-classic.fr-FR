@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Rapports sur les diffusions
 description: Rapports sur les diffusions
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
