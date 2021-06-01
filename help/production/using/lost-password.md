@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Perte de mot de passe
 description: Perte de mot de passe
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
