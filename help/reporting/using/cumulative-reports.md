@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Rapports cumulés
 description: Rapports cumulés
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 
