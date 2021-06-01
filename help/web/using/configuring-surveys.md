@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configurer un questionnaire
 description: Configurer un questionnaire
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
 
