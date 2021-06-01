@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer et identifier la diffusion
 description: Créer et identifier la diffusion
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 
