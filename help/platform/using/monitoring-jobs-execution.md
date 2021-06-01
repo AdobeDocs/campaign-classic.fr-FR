@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Surveillance de l'exécution des traitements
 description: Découvrez comment surveiller l'exécution des traitements d'import et d'export.
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
