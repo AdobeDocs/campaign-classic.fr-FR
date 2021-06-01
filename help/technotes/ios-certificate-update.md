@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Note technique
 description: Note technique
 hide: false
 hidefromtoc: true
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
