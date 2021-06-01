@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Gestion des données SQL
 description: En savoir plus sur l’activité de workflow de gestion des données SQL
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -19,7 +17,7 @@ ht-degree: 100%
 
 L&#39;activité **Gestion des données SQL** permet d&#39;écrire vos requêtes SQL pour créer et remplir les tables de travail.
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont remplis :
 
