@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configurer la publication Twitter
 description: Configurer la publication Twitter
@@ -7,9 +6,8 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -26,7 +24,7 @@ Pour qu&#39;Adobe Campaign puisse envoyer des tweets sur vos comptes Twitter, vo
 
 ![](assets/social_diagram_twitter_service.png)
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Vous devez tout d&#39;abord créer un ou plusieurs comptes Twitter sur lesquels vous enverrez vos tweets.
 
