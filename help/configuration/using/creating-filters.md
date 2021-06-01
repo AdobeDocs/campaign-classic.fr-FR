@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Création de filtres
 description: Création de filtres
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
