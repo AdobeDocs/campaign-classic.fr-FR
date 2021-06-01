@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Ressources et principes de la gestion de contenu
 description: Ressources et principes de la gestion de contenu
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
