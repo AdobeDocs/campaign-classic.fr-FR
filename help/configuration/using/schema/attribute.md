@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Eléments et attributs
 description: Eléments et attributs
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 100%
 
@@ -170,7 +168,7 @@ La séquence dans laquelle les éléments `<attribute>` sont définis dans un `<
 
 * **xml (boolean)**: si cette option est activée, les valeurs du champ n&#39;ont pas de champ SQL associé. Adobe Campaign crée un champ &quot;mData&quot; de type Text pour stocker les enregistrements. En conséquence, il n&#39;y a pas de filtrage ni de tri sur ces champs.
 
-### Exemples {#examples}
+### Exemples   {#examples}
 
 Exemple d&#39;énumération dont les valeurs sont stockées en base:
 
