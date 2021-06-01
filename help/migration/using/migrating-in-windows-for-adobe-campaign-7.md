@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Migration sous Windows pour Adobe Campaign 7
 description: Migration sous Windows pour Adobe Campaign 7
@@ -7,9 +6,8 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1561'
 ht-degree: 100%
 
@@ -38,7 +36,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
    iisreset /stop
    ```
 
-1. Le module **mta** et ses modules fils (**mtachild**) doivent être arrêtés correctement à l&#39;aide des commandes :
+1. Le module **mta** et ses modules enfants (**mtachild**) doivent être arrêtés correctement à l&#39;aide des commandes :
 
    ```
    nlserver stop mta@<instance name>
