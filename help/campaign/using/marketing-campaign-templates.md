@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Modèles de campagne marketing
 description: Modèles de campagne marketing
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
