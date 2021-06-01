@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Présentation
 description: Présentation
@@ -7,9 +6,8 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
