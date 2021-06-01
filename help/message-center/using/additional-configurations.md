@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 82%
+source-wordcount: '786'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 ## Surveillance des seuils {#monitoring-thresholds}
 
-Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs qui apparaissent dans les rapports **Qualité de service Message Center** et **Temps traitement Message Center** (voir la section [A propos des rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)).
+Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs qui apparaissent dans les rapports **Qualité de service Message Center** et **Temps traitement Message Center** (voir [Accéder aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)).
 
 Pour ce faire, procédez comme suit :
 
@@ -109,7 +109,7 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
 
    >[!NOTE]
    >
-   >Découvrez comment créer un compte externe de type instance d&#39;exécution dans la section [Instance de pilotage](../../message-center/using/configuring-instances.md#control-instance) .
+   >Découvrez comment créer un compte externe de type instance d&#39;exécution dans [cette section](../../message-center/using/configuring-instances.md#control-instance).
 
 1. Etendez le schéma nms:extAccount pour ajouter l&#39;URL de tracking :
 
