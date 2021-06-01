@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Présentation du catalogue d'offres
 description: En savoir plus sur le catalogue d’offres dans Campaign
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 464a6548-1b91-4e09-b620-3b820ef69653
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
