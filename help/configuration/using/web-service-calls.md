@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Appels Web Service
 description: Appels Web Service
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-translation-type: ht
-source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%
 
