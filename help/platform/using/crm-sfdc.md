@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign - Connecteur CRM Salesforce
 description: Connecter Campaign et Salesforce.com
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-translation-type: ht
-source-git-commit: 3e3a5250f165677026557a4e2249fc683aa23d57
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%
 
