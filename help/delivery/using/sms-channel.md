@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Prise en main du canal SMS
 description: Prise en main du canal SMS
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
 
@@ -28,7 +26,7 @@ Avant d’envoyer des SMS :
 Les étapes clés pour envoyer un SMS sont les suivantes :
 
 * [Configuration du canal SMS](sms-set-up.md)
-* [Création d’une diffusion SMS](sms-create.md)
+* [Création d&#39;une diffusion SMS](sms-create.md)
 * [Définition de l’audience](sms-create.md#selecting-the-target-population)
 * [Définition du contenu du SMS](sms-create.md#defining-the-sms-content)
 * [Envoi, surveillance et suivi de SMS](sms-send.md)
