@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '3779'
 ht-degree: 99%
@@ -44,7 +44,8 @@ La liste des indicateurs système permet d&#39;afficher des informations concern
 
 #### Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/monitoring-thresholds.md) pour plus d&#39;informations.
+* **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/additional-configurations.md#monitoring-thresholds) pour plus d&#39;informations.
+
 * **[!UICONTROL Memory]** : informations relatives à la mémoire physique (RAM).
 
    **[!UICONTROL Current value]** : consommation réelle de mémoire.
@@ -101,7 +102,8 @@ La liste des indicateurs système permet d&#39;afficher des informations concern
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/monitoring-thresholds.md) pour plus d&#39;informations.
+* **[!UICONTROL Pending events queued]** : indicateur propre à **Message Center**. Reportez-vous à [cette section](../../message-center/using/additional-configurations.md#monitoring-thresholds) pour plus d&#39;informations.
+
 * **[!UICONTROL Load average (1/5/15 minutes)]** : informations relatives à la charge, soit le taux d&#39;utilisation du processeur par les processus de la machine, au cours de la dernière minute ou des cinq dernières minutes ou du dernier quart d&#39;heure.
 
    **[!UICONTROL Current value]** : charge actuelle de la machine.
