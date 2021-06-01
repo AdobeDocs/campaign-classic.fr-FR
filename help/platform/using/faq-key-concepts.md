@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Principaux concepts
 description: FAQ sur Campaign Classic
@@ -7,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 99%
