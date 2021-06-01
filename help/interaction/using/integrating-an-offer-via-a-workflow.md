@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Intégrer une offre via un workflow
 description: Intégrer une offre via un workflow
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 100%
 
