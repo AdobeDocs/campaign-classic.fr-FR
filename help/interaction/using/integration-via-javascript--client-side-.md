@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Intégration via JavaScript (côté client)
 description: Intégration via JavaScript (côté client)
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
 
