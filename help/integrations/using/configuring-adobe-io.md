@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration d’Adobe I/O pour les Triggers Adobe Experience Cloud
 description: Découvrez comment configurer Adobe I/O pour les Triggers Adobe Experience Cloud
@@ -9,9 +8,8 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-translation-type: ht
-source-git-commit: f3ca92325f70cb3b9cca1ec5f6b7ddb5a02f9159
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 
