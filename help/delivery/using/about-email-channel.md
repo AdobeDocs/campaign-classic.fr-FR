@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: À propos du canal email dans Adobe Campaign Classic
 description: Cette section fournit des informations générales spécifiques au canal email dans Adobe Campaign Classic.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 
