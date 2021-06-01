@@ -1,36 +1,52 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Architecture des messages transactionnels Adobe Campaign Classic
-description: Cette section décrit l’architecture des messages transactionnels Adobe Campaign Classic.
+title: Architecture des messages transactionnels
+description: Cette section décrit l’architecture des messages transactionnels Adobe Campaign Classic et les canaux disponibles pour diffuser des messages transactionnels.
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1151'
-ht-degree: 100%
+source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 81%
 
 ---
 
-# Architecture des messages transactionnels{#transactional-messaging-architecture}
+# Architecture des messages transactionnels {#transactional-messaging-architecture}
 
-## A propos des instances d&#39;exécution et de pilotage {#about-execution-and-control-instances}
+La messagerie transactionnelle repose sur une architecture spécifique, composée de plusieurs instances :
 
-Dans Adobe Campaign, les fonctionnalités des messages transactionnels (appelées également Message Center) ont été conçues pour supporter les montées en charge et assurer un service en continu 24 h/24 et 7 j/7. Elles sont constituées de plusieurs instances :
+* Une **instance de pilotage**, sur laquelle les modèles de messages sont créés.
 
-* une instance de pilotage dans laquelle les modèles de messages sont créés,
-* une ou plusieurs instances d&#39;exécution qui assurent la réception des événements et l&#39;envoi des messages.
-
-Pour utiliser ces fonctionnalités, les utilisateurs d&#39;Adobe Campaign se connectent à l&#39;instance de pilotage afin de créer les modèles de messages transactionnels, générer l&#39;aperçu du message grâce à une adresse de contrôle, afficher des rapports et suivre les instances d&#39;exécution.
-
-Les instances d&#39;exécution reçoivent les événements, les associent aux modèles de message transactionnel et envoient un message personnalisé pour chaque destinataire.
+* Une ou plusieurs **instances d&#39;exécution**, qui reçoivent des événements et diffusent des messages.
 
 ![](assets/messagecenter_diagram.png)
 
-## Support de plusieurs instances de pilotage {#supporting-several-control-instances}
+| Instance de pilotage | Instance d’exécution |
+|--- |--- |
+| Les utilisateurs d’Adobe Campaign se connectent à l’instance de pilotage pour : <ul><li>Créer des modèles de messages transactionnels</li><li>Générer l&#39;aperçu du message à l&#39;aide d&#39;une liste de contrôle</li><li>Afficher les rapports</li><li>Surveiller les instances d’exécution</li></ul> | Les instances d&#39;exécution sont là pour : <ul><li>Réception d’événements</li><li>Les lier à des modèles de messages transactionnels</li><li>Envoyer un message personnalisé à chaque destinataire</li></ul> |
+
+## Installer des instances {#installing-instances}
+
+L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe recommande de travailler sur un environnement de test avant une mise en production. Il faut aussi posséder une licence Adobe Campaign compatible. Contactez votre chargé de compte Adobe pour plus d&#39;informations.
+
+>[!IMPORTANT]
+>
+>L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
+
+Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Voir à ce propos la section [Ajout d’un canal de diffusion](#adding-a-delivery-channel).
+
+## Instance de pilotage {#control-instance}
+
+Pour installer l&#39;instance de pilotage sur votre machine, sélectionnez le package **[!UICONTROL Contrôle des messages transactionnels]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Importer le package]**. Pour plus d&#39;informations, voir la section [Installer des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+
+![](assets/messagecenter_install_controlinstance_001.png)
+
+Les étapes détaillées pour configurer l&#39;instance de pilotage sont présentées dans [cette section](../../message-center/using/configuring-instances.md#control-instance).
+
+### Prise en charge de plusieurs instances de contrôle {#supporting-several-control-instances}
 
 >[!IMPORTANT]
 >
@@ -42,31 +58,27 @@ Il est possible de mutualiser un cluster d&#39;exécution entre différentes ins
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration requise, voir [Utilisation de plusieurs instances de pilotage](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances).
+>Pour plus d’informations sur la configuration requise, voir [Utilisation de plusieurs instances de pilotage](../../message-center/using/configuring-instances.md#using-several-control-instances).
 
-## Installation des instances {#installing-instances}
+## Instance d&#39;exécution {#execution-instance}
 
-L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe recommande de travailler sur un environnement de test avant une mise en production. Il faut aussi posséder une licence Adobe Campaign compatible. Contactez votre chargé de compte Adobe pour plus d&#39;informations.
+Pour installer une instance d&#39;exécution sur votre machine, sélectionnez le package **[!UICONTROL Exécution de messages transactionnels]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Importer un package]**. Pour plus d&#39;informations, voir la section [Installer des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+
+![](assets/messagecenter_install_executioninstance_001.png)
+
+Les étapes détaillées pour configurer une instance d’exécution sont présentées dans [cette section](../../message-center/using/configuring-instances.md#execution-instance).
+
+## Canaux de diffusion disponibles
+
+Le canal Email est disponible par défaut. Pour diffuser vos messages transactionnels sur plusieurs canaux, vous pouvez ajouter d’autres canaux (canal mobile, canal Applications mobiles, etc.).
 
 >[!IMPORTANT]
 >
->L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
+>L&#39;ajout d&#39;un canal de diffusion (canal mobile, canal applications mobiles, etc.) doit être réalisé avant d’installer le package Message transactionnel.
 
-Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Voir [Ajout d’un canal de diffusion](#adding-a-delivery-channel).
+### Ajouter un canal de diffusion {#adding-a-delivery-channel}
 
-* Pour installer l&#39;instance de pilotage sur votre machine, sélectionnez le module **[!UICONTROL Pilotage des messages transactionnels]**.
-
-   ![](assets/messagecenter_install_controlinstance_001.png)
-
-* Pour installer l&#39;instance d&#39;exécution sur votre machine, sélectionnez le module **[!UICONTROL Exécution des messages transactionnels]**.
-
-   ![](assets/messagecenter_install_executioninstance_001.png)
-
-## Ajout d&#39;un canal de diffusion {#adding-a-delivery-channel}
-
-L&#39;ajout d&#39;un canal de diffusion (canal mobile, canal applications mobiles, etc.) doit être réalisé avant d’installer le package Message transactionnel.
-
-Adobe vous recommande de toujours ajouter le package de canal de diffusion avant d’installer le package Message transactionnel.
+Adobe vous recommande **de toujours ajouter le package du canal de diffusion avant d’installer le package Message transactionnel**.
 
 Cependant, si vous avez démarré un projet de message transactionnel sur le canal email, puis que vous décidez au cours du projet d&#39;ajouter un nouveau canal, vous pouvez suivre les étapes ci-dessous.
 
@@ -115,7 +127,7 @@ Create your delivery templates the way you would for an email campaign:
 
 You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
 
-## Messages transactionnels et notifications push {#transactional-messaging-and-push-notifications}
+### Notifications push transactionnelles {#transactional-messaging-and-push-notifications}
 
 Couplés au module Mobile App Channel, les messages transactionnels permettent d&#39;émettre des messages transactionnels au travers des notifications push sur des applications mobiles.
 
@@ -162,7 +174,7 @@ Voici un exemple de traitement d&#39;un événement contenant ces informations :
 >
 >La conception des modèles de messages reste la même.
 
-## Messages transactionnels et LINE {#transactional-messaging-and-line}
+### Messages transactionnels et LINE {#transactional-messaging-and-line}
 
 Lorsqu&#39;ils sont combinés avec le canal LINE, les messages transactionnels permettent d&#39;envoyer des messages en temps réel sur l&#39;application LINE installée sur les appareils mobiles des clients. Ils sont utilisés pour envoyer le message de bienvenue lorsqu&#39;un utilisateur LINE ajoute la page de la marque.
 
@@ -237,4 +249,4 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
 
 
 
-1. Vous pouvez maintenant commencer à créer des messages transactionnels. Pour plus d&#39;informations, consultez cette [page](../../message-center/using/introduction.md).
+1. Vous pouvez maintenant commencer à créer des messages transactionnels. Pour plus d&#39;informations, consultez cette [page](../../message-center/using/creating-the-message-template.md).
