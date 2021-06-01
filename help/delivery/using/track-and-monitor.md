@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Tracking et surveillance des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-translation-type: ht
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -63,7 +61,7 @@ Des actions spécifiques peuvent être effectuées en cas de problèmes liés au
 
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 
-* [Problèmes liés à l’affichage des images](../../production/using/image-display-issues.md)
+* [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 
 * [Problèmes de performances des diffusions](../../delivery/using/delivery-performances.md)
 
