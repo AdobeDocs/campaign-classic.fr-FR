@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: À propos de la délivrabilité dans Campaign 
 description: Découvrir les bonnes pratiques en matière de délivrabilité
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -33,7 +31,7 @@ En règle générale, les problèmes de délivrabilité sont liés aux mesures d
 
 >[!NOTE]
 >
->Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr), qui est mis à jour régulièrement.
+>Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), qui est mis à jour régulièrement.
 
 ### Taux de délivrabilité
 
@@ -61,8 +59,8 @@ Lors de la configuration, de la conception et du test de votre message, assurez-
 
 * [Bonnes pratiques relatives à la diffusion](../../delivery/using/delivery-best-practices.md)
 * [Contrôle du contenu des emails](../../delivery/using/control-message-content.md)
-* [Inbox rendering](../../delivery/using/inbox-rendering.md)
-* [Envoi d’un BAT](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
+* [Inbox rendering  ](../../delivery/using/inbox-rendering.md)
+* [Envoyer un bon à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 
