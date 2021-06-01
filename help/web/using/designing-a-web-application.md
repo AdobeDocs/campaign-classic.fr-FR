@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Concevoir une application web
 description: Concevoir une application web
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 
