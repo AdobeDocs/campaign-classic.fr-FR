@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Power Booster et Power Cluster
 description: Power Booster et Power Cluster
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 # Power Booster et Power Cluster{#power-booster-and-power-cluster}
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 Adobe Campaign fournit deux séries d&#39;options architecturales pré-packagées permettant de dimensionner votre déploiement :
 
