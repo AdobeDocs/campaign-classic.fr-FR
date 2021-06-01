@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Interaction - Mémoire tampon
 description: Interaction - Mémoire tampon
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
 
