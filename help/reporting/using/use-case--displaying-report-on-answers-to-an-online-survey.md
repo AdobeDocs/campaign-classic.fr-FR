@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: '"Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne"'
 description: '"Cas pratique : affichage d''un rapport sur les réponses à un questionnaire en ligne"'
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
