@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Synchronisation des audiences
 description: Synchronisation des audiences
@@ -7,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 96%
