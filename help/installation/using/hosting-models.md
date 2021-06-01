@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Modèles d'hébergement
 description: Découvrez les modèles d’hébergement de Campaign
@@ -7,7 +6,7 @@ feature: Vue d’ensemble
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
