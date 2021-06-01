@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Diffusion
 description: En savoir plus sur l’activité de workflow de type Diffusion
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 100%
 
