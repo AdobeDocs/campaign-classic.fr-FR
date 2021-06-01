@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration technique des emails
 description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des emails.
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-translation-type: ht
-source-git-commit: c62caeacd374b31f597f3c4b23318b8705fbda61
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '3089'
 ht-degree: 100%
 
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 # Paramétrages techniques des emails{#email-deliverability}
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 La section ci-après présente les paramétrages nécessaires pour contrôler le débit des instances Adobe Campaign pour l’envoi d’emails.
 
@@ -44,7 +42,7 @@ C&#39;est la fonction du module **stat** : il fédère toutes les demandes d&#39
 
 ### Serveurs de diffusion {#delivery-servers}
 
-Le module **mta** distribue les messages à ses modules fils **mtachild**. Chaque **mtachild** prépare les messages, puis demande l&#39;autorisation au serveur de statistiques avant de les envoyer.
+Le module **mta** distribue les messages à ses modules enfants **mtachild**. Chaque **mtachild** prépare les messages, puis demande l&#39;autorisation au serveur de statistiques avant de les envoyer.
 
 Les étapes sont les suivantes :
 
@@ -426,4 +424,4 @@ Le paramètre **maxWorkingSetMb** se calcule empiriquement en multipliant le nom
 
 ### Ajuster le nombre de mtachild {#adjust-the-number-of-mtachild}
 
-Le nombre de child ne devrait pas excéder le nombre de processeurs de la machine. Nous vous recommandons de ne pas dépasser 8 **mtachild**. L&#39;ordre du millier de sessions semble une bonne valeur. Il faut alors augmenter le nombre de messages par **child** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
+Le nombre d&#39;enfants ne devrait pas excéder le nombre de processeurs de la machine. Nous vous recommandons de ne pas dépasser 8 **mtachild**. L&#39;ordre du millier de sessions semble une bonne valeur. Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
