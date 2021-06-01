@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Enrichir le contenu
 description: Enrichir le contenu
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 
