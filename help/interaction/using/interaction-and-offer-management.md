@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Interaction et la gestion des offres
 description: Envoyez les meilleures offres à vos contacts en fonction des règles d'éligibilité.
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
