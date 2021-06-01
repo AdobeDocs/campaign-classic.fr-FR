@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Paramétrage de l'application mobile Android dans Adobe Campaign
 description: Découvrez comment paramétrer votre application mobile pour Android
@@ -10,9 +9,8 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 100%
 
@@ -39,7 +37,7 @@ Vous pourrez alors [créer une notification Android enrichie](#creating-android-
 
 Deux connecteurs sont disponibles pour Android :
 
-* Le connecteur V1 permet une connexion par MTA child.
+* Le connecteur V1 permet une connexion par MTA enfant.
 * Le connecteur V2 permet plusieurs connexions simultanées avec le serveur FCM pour améliorer le débit.
 
 Pour sélectionner le connecteur à utiliser, procédez comme suit :
@@ -58,7 +56,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
 1. Pour Android V2, un paramètre supplémentaire est disponible dans le fichier de configuration du serveur Adobe (serverConf.xml) :
 
-   * **maxGCMConnectPerChild** : limite maximale du nombre de requêtes HTTP parallèles sur le serveur FCM initiées par chaque serveur fils (8 par défaut).
+   * **maxGCMConnectPerChild** : limite maximale du nombre de requêtes HTTP parallèles sur le serveur FCM initiées par chaque serveur enfant (8 par défaut).
 
 ## Configuration du service Android {#configuring-android-service}
 
