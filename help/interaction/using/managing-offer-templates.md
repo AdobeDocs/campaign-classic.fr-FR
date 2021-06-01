@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Gérer les modèles d'offre
 description: Gérer les modèles d'offre
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
