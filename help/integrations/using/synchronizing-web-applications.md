@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Synchronisation des applications web
 description: Synchronisation des applications web
@@ -7,9 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -21,7 +19,7 @@ Dans ce cas pratique, nous allons envoyer une communication, à l&#39;aide de Ca
 
 Si vous disposez d&#39;un grand nombre de services et d&#39;applications web dans Campaign v7, vous pouvez décider de ne pas tous les recréer dans Campaign Standard. ACS Connector vous permet d&#39;utiliser l&#39;ensemble des services et des applications web de Campaign v7 et de les associer à une diffusion envoyée par Campaign Standard.
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Pour ce faire, les éléments suivants sont nécessaires :
 
