@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Cas pratique
 description: Cas pratique
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
