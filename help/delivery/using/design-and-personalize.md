@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer du contenu personnalisé
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
 
