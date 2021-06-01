@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Autres paramètres de tracking web
 description: En savoir plus sur les paramètres de tracking web
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
