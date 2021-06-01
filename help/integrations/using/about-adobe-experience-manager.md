@@ -1,12 +1,11 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: A propos d'Adobe Experience Manager
 description: A propos d'Adobe Experience Manager
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 90%
