@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Paramétrages spécifiques v5.11
 description: Paramétrages spécifiques v5.11
@@ -7,9 +6,8 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 978e1249-f79b-4f5f-9a94-3bb2510785de
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -88,7 +86,7 @@ Dans cet exemple, une vue **NmcTrackingLogMessages** a été créée et celle-ci
 
 Pour garantir le bon fonctionnement du postupgrade, vous devez impérativement supprimer la vue avant la migration, puis la recréer après la migration, en l&#39;adaptant au mode TIMESTAMP WITH TIMEZONE.
 
-## Effectuer un tracking {#tracking}
+## Tracking {#tracking}
 
 La formule de tracking a été modifiée. Lors de la migration, l’ancienne formule (v5) est remplacée par la nouvelle (v7). Si vous utilisez une formule personnalisée dans Adobe Campaign v5, cette configuration doit être adaptée dans Adobe Campaign v7 (options **NmsTracking_ClickFormula** et **NmsTracking_OpenFormula**).
 
