@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Exporter et importer des profils
 description: Exporter et importer des profils
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
