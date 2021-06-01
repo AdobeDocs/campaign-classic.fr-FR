@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 74%
+source-wordcount: '511'
+ht-degree: 61%
 
 ---
 
@@ -19,7 +19,7 @@ Pour que chaque événement puisse être transformé en message personnalisé, v
 
 >[!IMPORTANT]
 >
->Les types d’événement doivent être créés au préalable. Voir à ce sujet la section [Création des types d&#39;événement](../../message-center/using/creating-event-types.md).
+>Les types d’événement doivent être créés au préalable. Voir à ce propos la section [Créer des types d’événements](../../message-center/using/creating-event-types.md).
 
 Les modèles de messages transactionnels contiennent les informations nécessaires pour personnaliser le message transactionnel. Vous pouvez également utiliser des modèles pour tester la prévisualisation des messages et envoyer des BAT à l’aide d’adresses de contrôle avant de les diffuser à la cible finale. Voir à ce propos la section [Test des modèles de messages transactionnels](../../message-center/using/testing-message-templates.md).
 
@@ -41,19 +41,19 @@ Les modèles de messages transactionnels contiennent les informations nécessair
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Les types d&#39;événements doivent être créés au préalable dans la console. Voir à ce sujet la section [Création des types d&#39;événement](../../message-center/using/creating-event-types.md).
+   Les types d&#39;événements doivent être créés au préalable dans la console. Voir à ce propos la section [Créer des types d’événements](../../message-center/using/creating-event-types.md).
 
    >[!IMPORTANT]
    >
    >Un type d’événement ne peut pas être lié à plusieurs modèles.
 
-1. Saisissez une nature et une description, puis cliquez sur **[!UICONTROL Continuer]** pour créer le corps du message (voir [Création du contenu du message](#creating-message-content)).
+1. Saisissez une nature et une description, puis cliquez sur **[!UICONTROL Continuer]** pour créer le corps du message (voir [Créer le contenu du message](#creating-message-content)).
 
    ![](assets/messagecenter_create_model_004.png)
 
 ## Création du contenu du message {#creating-message-content}
 
-La définition du contenu du message transactionnel fonctionne selon les mêmes principes que pour une diffusion classique dans Adobe Campaign. Par exemple, pour une diffusion email, vous pouvez créer un contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l&#39;objet de la diffusion. Reportez-vous au chapitre [Diffuser par email](../../delivery/using/about-email-channel.md) pour plus d&#39;informations.
+La définition du contenu du message transactionnel est la même que pour les diffusions régulières dans Adobe Campaign. Par exemple, pour une diffusion email, vous pouvez créer du contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l’objet de la diffusion. Voir à ce propos le chapitre [Diffusion Email](../../delivery/using/about-email-channel.md) .
 
 >[!IMPORTANT]
 >
