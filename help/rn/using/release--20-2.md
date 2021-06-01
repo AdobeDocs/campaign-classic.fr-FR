@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Version 20.2
 description: Version 20.2
@@ -7,7 +6,7 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2975'
 ht-degree: 100%
