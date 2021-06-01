@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Valider et activer une offre
 description: Valider et activer une offre
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
@@ -55,7 +53,7 @@ Pour valider le contenu d&#39;une offre, procédez comme suit :
 
 ## Valider l&#39;éligibilité d&#39;une offre {#approving-offer-eligibility}
 
-Valider l&#39;éligibilité d&#39;une offre consiste à accepter ou non les poids de l&#39;offre et les règles d&#39;éligibilité également paramétrés dans l&#39;offre ou hérités des règles créées au niveau de sa catégorie mère.
+Une tâche parent planifiée pour finir le mardi 9 octobre à 17h a 2 tâches enfants, la tâche A et la tâche B. La tâche A est planifiée pour commencer le 10 octobre à 14h et la tâche B, planifiée pour commencer le 12 octobre à 8h.
 
 >[!IMPORTANT]
 >
