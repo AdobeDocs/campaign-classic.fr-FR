@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Champs de personnalisation
 description: Champs de personnalisation
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
 
