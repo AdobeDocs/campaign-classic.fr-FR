@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Gestion de l’accès aux dossiers Campaign
 description: Découvrez comment octroyer l’accès aux dossiers Campaign et créer des vues
@@ -7,7 +6,7 @@ feature: Paramétrage de l’application
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
