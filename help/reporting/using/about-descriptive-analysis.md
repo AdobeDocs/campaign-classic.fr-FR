@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: A propos de l'analyse descriptive
 description: A propos de l'analyse descriptive
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -31,7 +29,7 @@ Vous pouvez générer des rapports d&#39;analyse quantitative ou qualitative. L&
 
    ![](assets/reporting_descriptive_sample_3.png)
 
-* Répartition en secteurs
+* Répartition par secteur
 
    ![](assets/reporting_descriptive_sample_2.png)
 
