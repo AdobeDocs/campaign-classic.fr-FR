@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 55%
+source-wordcount: '1277'
+ht-degree: 49%
 
 ---
 
@@ -40,7 +40,7 @@ Si vous utilisez plusieurs instances d&#39;exécution, vous devez créer autant 
 
 >[!NOTE]
 >
->Lorsque des instances d’exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Pour plus d’informations, reportez-vous à la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
+>Lorsque des instances d’exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Voir à ce propos la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
 
 ### Créer un compte externe
 
@@ -75,7 +75,7 @@ Pour créer un compte externe de type **[!UICONTROL Instance d&#39;exécution]**
 
    >[!NOTE]
    >
-   >Pour ne pas avoir à saisir de mot de passe lors de la connexion à l’instance, vous pouvez spécifier l’adresse IP de l’instance de pilotage dans l’instance d’exécution. Voir à ce sujet la section [Configuration de la ou des instances d&#39;exécution](#execution-instance).
+   >Pour ne pas avoir à saisir de mot de passe lors de la connexion à l’instance, vous pouvez spécifier l’adresse IP de l’instance de pilotage dans l’instance d’exécution. Voir à ce propos la section [Configuration de la ou des instances d&#39;exécution](#execution-instance).
 
 1. Indiquez la méthode de rapatriement qui doit être utilisée par l&#39;instance d&#39;exécution. Les données à récupérer sont transmises par l&#39;instance d&#39;exécution à l&#39;instance de pilotage, afin d&#39;enrichir les historiques des messages transactionnels et des événements.
 
@@ -91,7 +91,7 @@ Pour créer un compte externe de type **[!UICONTROL Instance d&#39;exécution]**
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Reportez-vous à la section [Accès à une base de données externe](../../installation/using/about-fda.md) pour plus d&#39;informations sur le Federated Data Access (FDA).
+   Pour plus d&#39;informations sur Federated Data Access (FDA), consultez [cette section](../../installation/using/about-fda.md).
 
 1. Cliquez sur **[!UICONTROL Tester la connexion]** pour vérifier que la connexion entre l&#39;instance de pilotage et l&#39;instance d&#39;exécution est effective.
 
@@ -131,7 +131,7 @@ Pour utiliser un mot de passe vide, accédez aux instances d’exécution et dé
 
 >[!NOTE]
 >
->Lorsque des instances d’exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Pour plus d’informations, reportez-vous à la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
+>Lorsque des instances d’exécution sont utilisées par plusieurs instances de pilotage, les données peuvent être divisées par dossier et par opérateur. Voir à ce propos la section [Utilisation de plusieurs instances de pilotage](#using-several-control-instances).
 
 1. Sur une instance d&#39;exécution, positionnez-vous au niveau du dossier des opérateurs ( **[!UICONTROL Administration > Gestion des accès > Opérateurs]** ).
 1. Sélectionnez l&#39;agent **Message Center**.
@@ -162,17 +162,17 @@ Dans l’arborescence de toutes les instances d’exécution, créez un dossier 
 >
 >Les étapes ci-dessous doivent être exécutées **sur les instances de pilotage**.
 
-1. Dans l’instance de pilotage **Pilotage 1**, créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc1** dans chaque compte externe. L&#39;opérateur **mc1** sera ensuite créé sur toutes les instances d&#39;exécution (voir [Configuration des instances d&#39;exécution](#configuring-execution-instances)).
+1. Sur l’instance de pilotage **Control 1**, créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc1** dans chaque compte externe. L&#39;opérateur **mc1** sera ensuite créé sur toutes les instances d&#39;exécution (voir [Configuration des instances d&#39;exécution](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_1.png)
 
-1. Dans l’instance de pilotage **Pilotage 2**, créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc2** dans chaque compte externe. L&#39;opérateur **mc2** sera ensuite créé sur toutes les instances d&#39;exécution (voir [Configuration des instances d&#39;exécution](#configuring-execution-instances)).
+1. Sur l’instance de pilotage **Control 2**, créez un compte externe par instance d’exécution, puis saisissez l’opérateur **mc2** dans chaque compte externe. L&#39;opérateur **mc2** sera ensuite créé sur toutes les instances d&#39;exécution (voir [Configuration des instances d&#39;exécution](#configuring-execution-instances)).
 
    ![](assets/messagecenter_multi_control_2.png)
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur la configuration d&#39;une instance de pilotage, consultez [cette section](#control-instance).
+   >Pour plus d’informations sur la configuration d’une instance de pilotage, voir [cette section](#control-instance).
 
 ### Configuration des instances d’exécution {#configuring-execution-instances}
 
