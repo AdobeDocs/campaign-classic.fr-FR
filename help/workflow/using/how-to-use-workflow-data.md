@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Utiliser les données d'un workflow
 description: Découvrez comment utiliser les données d'un workflow
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
