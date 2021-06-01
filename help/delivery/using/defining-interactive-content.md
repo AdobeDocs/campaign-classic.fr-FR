@@ -7,9 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-translation-type: ht
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: ht
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 100%
 
@@ -29,7 +28,7 @@ Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign
 
 >[!NOTE]
 >
-> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/creating-a-shared-connection.md#execution-instance). Contactez votre chargé de compte.
+> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/configuring-instances.md#execution-instance). Contactez votre chargé de compte.
 
 ## À propos d’AMP for Email{#about-amp-for-email}
 
@@ -118,7 +117,7 @@ Pour créer un email au format AMP, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas prévisualiser votre contenu AMP directement dans Adobe Campaign. Utilisez un site Web externe tel que [AMP Playground](https://playground.amp.dev/fr).
+   >Vous ne pouvez pas prévisualiser votre contenu AMP directement dans Adobe Campaign. Utilisez un site Web externe tel que [AMP Playground](https://playground.amp.dev).
 
 1. Retournez dans Adobe Campaign et copiez-collez votre contenu validé dans l’onglet **[!UICONTROL Contenu AMP]**.
 
