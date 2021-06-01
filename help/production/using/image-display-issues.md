@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Problèmes liés à l'affichage des images
 description: Problèmes liés à l'affichage des images
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
