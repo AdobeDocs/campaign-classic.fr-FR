@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Publier sur Twitter
 description: Publier sur Twitter
@@ -7,9 +6,8 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
@@ -21,7 +19,7 @@ ht-degree: 100%
 
 Une fois le paramétrage effectué, Social Marketing permet d&#39;envoyer des tweets sur vos comptes Twitter.
 
-### Limitations {#limitations}
+### Limites {#limitations}
 
 Les limitations suivantes sont des contraintes inhérentes à Twitter.
 
