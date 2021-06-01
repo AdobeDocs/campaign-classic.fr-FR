@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration réseau
 description: Découvrez les directives sur la communication du système
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 
@@ -200,7 +198,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Location<br /> </td> 
+   <td> Emplacement<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
@@ -215,7 +213,7 @@ Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants d
  <tbody> 
   <tr> 
    <td> Port d'écoute<br /> </td> 
-   <td> Location<br /> </td> 
+   <td> Emplacement<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
