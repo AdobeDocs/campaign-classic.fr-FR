@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Gestion des fuseaux horaires
 description: Gestion des fuseaux horaires
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 100%
 
@@ -45,7 +43,7 @@ Par exemple, en postgreSQL, la commande **SET TIME ZONE &#39;Europe/Paris&#39;;*
 
 Par contre, si l&#39;on utilise commande **SET TIME ZONE 0200;**, le décalage sera toujours GMT+2.
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 Le mode de stockage des dates et heures est choisi lors de la création de la base de données (voir la section [Création d&#39;une nouvelle instance](#creating-a-new-instance)). En cas de migration, les heures liées aux dates sont converties en dates et heures locales (voir la section [Migration](#migration)).
 
