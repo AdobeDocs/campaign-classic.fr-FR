@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Démarrer un workflow
 description: Découvrez comment démarrer un workflow ainsi que la barre d’outils des actions de workflows et le menu contextuel
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
