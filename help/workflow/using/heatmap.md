@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Carte thermique des workflows Campaign
 description: Surveillez vos workflows avec la Carte thermique des workflows
@@ -7,8 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: e6969a3ed61bde692b2f72b3711f12ce46a0025f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 100%
 
