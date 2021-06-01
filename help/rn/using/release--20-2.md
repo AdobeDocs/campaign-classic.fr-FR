@@ -7,9 +7,8 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-translation-type: ht
-source-git-commit: 1c59afc7021af604559184cd0c21129af3759a8c
-workflow-type: ht
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
+workflow-type: tm+mt
 source-wordcount: '2975'
 ht-degree: 100%
 
@@ -122,7 +121,7 @@ _22 juillet 2020_
 * Après le passage au [nouveau mécanisme d’identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
 * Correction d’une vulnérabilité XSS potentielle dans le contenu d’une diffusion. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
@@ -203,7 +202,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](https://helpx.adob
 
 **Améliorations**
 
-* La messagerie transactionnelle a été améliorée pour offrir une meilleure expérience utilisateur. Vous pouvez désormais dépublier un modèle de message transactionnel, ce qui le supprime des instances d’exécution. [En savoir plus](../../message-center/using/template-unpublication.md).
+* La messagerie transactionnelle a été améliorée pour offrir une meilleure expérience utilisateur. Vous pouvez désormais dépublier un modèle de message transactionnel, ce qui le supprime des instances d’exécution. [En savoir plus](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
 * De nouvelles options sont disponibles pour définir des limites lors de l’envoi d’emails contenant des images ou des pièces jointes. Ces garde-fous permettent d’éviter des problèmes de performances, ce qui est particulièrement utile pour les messages transactionnels. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
 
