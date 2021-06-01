@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Utiliser l'assistant d'analyse descriptive
 description: Utiliser l'assistant d'analyse descriptive
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
 
