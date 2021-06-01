@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Résolution des problèmes de SMS
 description: En savoir plus sur la résolution des problèmes liés au canal SMS
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 100%
 
