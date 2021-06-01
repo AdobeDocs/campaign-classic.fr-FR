@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Envoi, surveillance et suivi de SMS
 description: Découvrez comment envoyer, surveiller et suivre des SMS dans Campaign
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -64,7 +62,7 @@ Une fois les messages envoyés, vous pouvez effectuer la surveillance et le suiv
 
 * [Surveillance d’une diffusion](../../delivery/using/about-delivery-monitoring.md)
 * [Présentation des diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [À propos du suivi des messages](../../delivery/using/about-message-tracking.md)
+* [A propos du tracking des messages](../../delivery/using/about-message-tracking.md)
 
 ## Traitement des messages entrants {#processing-inbound-messages}
 
