@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration des options de tracking d’URL
 description: Configuration des options de tracking d’URL
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
