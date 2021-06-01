@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Description des événements
 description: Découvrez comment les événements de messagerie transactionnelle sont gérés dans Adobe Campaign Classic à l’aide des méthodes SOAP.
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 94%
