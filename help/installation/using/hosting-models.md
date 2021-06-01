@@ -7,9 +7,8 @@ feature: Vue d’ensemble
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Adobe Campaign peut être déployé en tant que Managed Service : tous les comp
 
 En tant que client hébergé, la plupart des étapes d&#39;installation et de configuration sont effectuées par Adobe. Vous pouvez accéder aux sections suivantes pour personnaliser votre mise en œuvre :
 
-* Configurer les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/configuring-multibranding.md).
+* Configurer les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Installation de la console cliente : consultez [cette section](../../installation/using/installing-the-client-console.md).
 * Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez [la documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez [cette section](../../installation/using/configuring-campaign-options.md).
@@ -62,7 +61,7 @@ Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solutio
 En tant que client hybride, la plupart des étapes d’installation et de configuration sont effectuées par Adobe. Vous pouvez accéder aux sections suivantes pour personnaliser votre implémentation :
 
 * Configuration des messages transactionnels : consultez [cette section](../../message-center/using/transactional-messaging-architecture.md).
-* Configurez les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/configuring-multibranding.md).
+* Configurez les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Installation de la console cliente : consultez [cette section](../../installation/using/installing-the-client-console.md).
 * Installez les packages natifs : consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
 * Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez la [documentation détaillée](../../delivery/using/about-deliverability.md).
