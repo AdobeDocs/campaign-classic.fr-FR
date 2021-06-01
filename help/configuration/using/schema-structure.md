@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Structure d'un schéma
 description: Structure d'un schéma
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 100%
 
@@ -93,7 +91,7 @@ Avec son schéma de données correspondant :
 
 ## Description {#description}
 
-Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être fils de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
+Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
 
 Dans notre exemple, l&#39;élément principal est représenté par la ligne :
 
@@ -272,7 +270,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
-   <td> DOUBLE PRECISION<br /> </td> 
+   <td> DOUBLE PRÉCISION<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> DOUBLE<br /> </td> 
@@ -356,7 +354,7 @@ Pour lier une valeur par défaut à un champ, vous pouvez utiliser le `<default>
 
 `<sqldefault>` : vous permet d’avoir une valeur ajoutée lors de la création d’un champ. Cette valeur s’affiche sous forme de résultat SQL. Lors de la mise à jour d’un schéma, seuls les nouveaux enregistrements seront affectés par cette valeur.
 
-### Enumérations {#enumerations}
+### Énumérations {#enumerations}
 
 #### Enumération libre {#free-enumeration}
 
@@ -443,7 +441,7 @@ Notre schéma d&#39;exemple complété avec les propriétés :
 </srcSchema>
 ```
 
-## des collections.{#collections}
+## des collections. {#collections}
 
 Une collection est une liste d&#39;éléments de même nom et de même niveau hiérarchique.
 
@@ -477,7 +475,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 * **@email** : sélectionne l&#39;email,
 * **Location/@city** : sélectionne l’attribut « city » sous l’élément **`<location>`**.
 * **../@email** : sélectionne l&#39;email sur l&#39;élément parent de l&#39;élément courant
-* **group`[1]/@label`** : sélectionne l’attribut « label » fils du premier élément de collection **`<group>`**
+* **group`[1]/@label`** : sélectionne l’attribut « label » enfant du premier élément de collection **`<group>`**
 * **group`[@label='test1']`** : sélectionne l’attribut « label », enfant de l’élément **`<group>`** et contenant la valeur « test1 »
 
 >[!NOTE]
@@ -486,6 +484,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >
 >* **Location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
+
 >
 
 
