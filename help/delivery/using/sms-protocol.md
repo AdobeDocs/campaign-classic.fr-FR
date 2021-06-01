@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Protocole et paramètres du connecteur SMS
 description: En savoir plus sur le connecteur SMS et comment le configurer.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '8433'
 ht-degree: 100%
 
@@ -22,7 +20,7 @@ ht-degree: 100%
 >Dans ce document, toutes les références au protocole, aux noms de champs et aux valeurs se rapportent à la [spécification SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
 Les SMS peuvent se limiter à envoyer des SMS courts sans formatage, mais leur simplicité en fait un canal de communication précieux.
 
