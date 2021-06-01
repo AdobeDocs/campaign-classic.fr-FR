@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Demandes d'accès à des informations personnelles
 description: Découvrez comment gérer les demandes d’accès à des informations personnelles
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-translation-type: ht
-source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2562'
 ht-degree: 100%
 
@@ -42,7 +40,7 @@ Adobe Campaign offre aux contrôleurs de données deux moyens d’effectuer les
 >
 >Pour plus d’informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data).
 
-### Prérequis {#prerequesites}
+### Conditions préalables requises {#prerequesites}
 
 Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (email, assistance clientèle ou portail web).
 
@@ -122,8 +120,8 @@ Si vous avez créé des tables personnalisées ayant un lien avec la table du de
 >[!IMPORTANT]
 >
 >Si vous effectuez des demandes d’accès à des informations personnelles par lots à l’aide des workflows de suppression de profil, tenez compte des remarques suivantes :
->* La suppression de profil par le biais des workflows ne traite pas les tables filles.
->* Vous devez gérer la suppression pour toutes les tables filles.
+>* La suppression de profil par le biais des workflows ne traite pas les tables enfants.
+>* Vous devez gérer la suppression pour toutes les tables enfants.
 >* Adobe recommande de créer un workflow ETL qui ajoute les lignes à supprimer dans la table Accès à des informations personnelles et de laisser le workflow **[!UICONTROL Supprimer les données de demande d’accès à des informations personnelles]** effectuer la suppression. Nous suggérons de limiter à 200 profils par jour la suppression pour des raisons de performances.
 
 
