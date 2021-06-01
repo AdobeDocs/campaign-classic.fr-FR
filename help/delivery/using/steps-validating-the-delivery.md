@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Valider la diffusion
 description: Valider la diffusion
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 100%
 
@@ -136,6 +134,7 @@ Afin de détecter les éventuelles erreurs de paramétrage de vos messages, Adob
 >
 >* Les modes de validation disponibles sont présentés dans la section [Changer le mode de validation](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuration de la cible du BAT est expliquée dans la section [Définir une cible spécifique au BAT](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+
 >
 
 
