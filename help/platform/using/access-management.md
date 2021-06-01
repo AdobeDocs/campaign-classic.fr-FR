@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Prise en main des permissions
 description: Découvrez comment octroyer l’accès aux fonctionnalités Campaign
@@ -7,9 +6,8 @@ feature: Gestion des accès
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
