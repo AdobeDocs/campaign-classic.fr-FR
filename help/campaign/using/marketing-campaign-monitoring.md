@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Surveillance des campagnes marketing
 description: Surveillance des campagnes marketing
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
