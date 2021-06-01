@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Création et connexion à une instance
 description: Création et connexion à une instance
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 
