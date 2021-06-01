@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer une opération collaborative
 description: Créer une opération collaborative
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -53,15 +51,15 @@ Pour créer une opération collaborative par opération, le modèle **[!UICONTRO
 
 Lors de la commande de l&#39;opération, l&#39;entité locale peut remplir des critères prédéfinis par l&#39;entité centrale, et évaluer l&#39;opération avant de la commander.
 
-Lorsque la commande d&#39;une **Opération collaborative par opération** est validée par l&#39;entité centrale, une opération fille est créée pour l&#39;entité locale. La mise à disposition de l&#39;opération permet à l&#39;entité locale de modifier :
+Lorsque la commande d&#39;une **Opération collaborative par opération** est validée par l&#39;entité centrale, une opération enfant est créée pour l&#39;entité locale. La mise à disposition de l&#39;opération permet à l&#39;entité locale de modifier :
 
 * le workflow de l&#39;opération,
 * les règles de typologie,
 * et les champs de personnalisation.
 
-L&#39;exécution de l&#39;opération fille est faite par l&#39;entité locale. L&#39;entité centrale exécute l&#39;opération mère.
+L&#39;exécution de l&#39;opération enfant est faite par l&#39;entité locale. L&#39;entité centrale exécute l&#39;opération parent.
 
-L&#39;entité centrale peut visualiser toutes les opérations filles associées à une **Opération collaborative par opération** à partir du tableau de bord de celle-ci (via le lien **[!UICONTROL Liste des opérations liées]**).
+L&#39;entité centrale peut visualiser toutes les opérations enfants associées à une **Opération collaborative par opération** à partir du tableau de bord de celle-ci (via le lien **[!UICONTROL Liste des opérations liées]**).
 
 ![](assets/mkg_dist_mutual_op_by_op.png)
 
