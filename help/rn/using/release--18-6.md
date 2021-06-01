@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Notes de mise à jour de Campaign 18.6
 description: Notes de mise à jour de Campaign 18.6
@@ -10,8 +9,7 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
