@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Etapes de mise en place
 description: Etapes de mise en place
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 
