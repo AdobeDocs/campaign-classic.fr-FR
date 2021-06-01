@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Dernière version
 description: Dernière version de Campaign Classic         Notes
@@ -7,9 +6,8 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-translation-type: ht
-source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 100%
 
