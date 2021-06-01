@@ -1,14 +1,13 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -104,7 +103,7 @@ Le panneau de contrôle de Campaign accroît votre efficacité en tant qu’admi
 
 ### Comment accéder au panneau de contrôle ?
 
-Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. Il est accessible uniquement aux utilisateurs Admin. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html) pour plus d’informations.
+Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. Il est accessible uniquement aux utilisateurs Admin. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr) pour plus d’informations.
 
 ### FAQ sur le panneau de contrôle
 
@@ -117,17 +116,17 @@ Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP 
 ### Sous-domaines et certificats
 
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus sur ces pages :
-* [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
+* [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
+* [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
+* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr)
 
 ### Paramètres des instances
 
 Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le panneau de contrôle. En savoir plus sur ces pages :
 * [Ajoutez des adresses IP sur la ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) liste autorisée pour accéder à vos instances Campaign.
 * [Gestion des autorisations d’URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
-* [Accès aux détails de l’instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
-* [Gestion des clés GPG pour le cryptage des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
+* [Accès aux détails de l’instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
+* [Gestion des clés GPG pour le cryptage des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr)
 
 ## Demande d’aide {#support}
 
