@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Restauration
 description: Restauration
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
