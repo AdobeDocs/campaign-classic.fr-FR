@@ -7,9 +7,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-translation-type: ht
-source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
-workflow-type: ht
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
@@ -98,7 +97,7 @@ L&#39;ensemble des droits définissant une zone sont les suivants :
 >
 >Dans la définition d&#39;une zone, chaque attribut recevant la valeur **true** réduit la sécurité.
 
-Dans le cas de Message Center, quand il y a plusieurs instances d&#39;exécution, vous devez créer une zone de sécurité supplémentaire avec l&#39;attribut **sessionTokenOnly** défini sur **true**, dans laquelle seules les adresses IP nécessaires doivent être ajoutées. Le paramétrage des instances est présenté dans [ce document](../../message-center/using/creating-a-shared-connection.md).
+Dans le cas de Message Center, quand il y a plusieurs instances d&#39;exécution, vous devez créer une zone de sécurité supplémentaire avec l&#39;attribut **sessionTokenOnly** défini sur **true**, dans laquelle seules les adresses IP nécessaires doivent être ajoutées. Le paramétrage des instances est présenté dans [ce document](../../message-center/using/configuring-instances.md).
 
 ## Bonnes pratiques pour les zones de sécurité {#best-practices-for-security-zones}
 
