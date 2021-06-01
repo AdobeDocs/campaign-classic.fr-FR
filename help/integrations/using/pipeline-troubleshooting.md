@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration de l'intégration
 description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
 
