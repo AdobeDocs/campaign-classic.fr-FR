@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Détection des URL de tracking
 description: En savoir plus sur le modèle recommandé pour suivre les URL
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
