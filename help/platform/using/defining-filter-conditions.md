@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Définir les conditions de filtrage
 description: Définir les conditions de filtrage
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '3394'
 ht-degree: 100%
 
