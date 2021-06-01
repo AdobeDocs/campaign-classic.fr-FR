@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Tableau de bord de la diffusion
 description: En savoir plus sur l'utilisation du tableau de bord de la diffusion pour surveiller vos diffusions.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ Il vous permet de récupérer des informations sur une diffusion et de les modif
 
 Vous trouverez ci-dessous les informations à surveiller à l&#39;aide des différents onglets disponibles dans le tableau de bord :
 
-* [Synthèse des diffusions (Delivery summary)](#delivery-summary)
+* [Synthèse des diffusions](#delivery-summary)
 * [Rapports sur les diffusions](#delivery-reports)
 * [Logs de diffusion, pages miroir, exclusions](#delivery-logs-and-history)
 * [Logs et historique de suivi des diffusions](#tracking-logs)
@@ -36,7 +34,7 @@ Vous trouverez ci-dessous les informations à surveiller à l&#39;aide des diff�
 
 * [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md)
-* [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md)
+* [Bonnes pratiques relatives à la diffusion](../../delivery/using/delivery-best-practices.md)
 * [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md)
 
 ## Synthèse des diffusions (Delivery summary){#delivery-summary}
