@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration du pipeline
 description: Découvrez comment configurer le pipeline
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 100%
 
@@ -24,7 +22,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 >
 >Dans le cas d&#39;un déploiement hybride, vérifiez que le pipeline est configuré sur une instance mid-sourcing.
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Avant de démarrer cette configuration, vérifiez que vous utilisez :
 
