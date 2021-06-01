@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer une diffusion email
 description: Créer une diffusion email
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
