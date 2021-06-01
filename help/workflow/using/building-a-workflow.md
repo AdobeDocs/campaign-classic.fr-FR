@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Construire un workflow
 description: Découvrez comment construire un workflow
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 100%
 
