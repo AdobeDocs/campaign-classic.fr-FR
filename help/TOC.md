@@ -5,10 +5,9 @@ product: campaign
 title: Guide Campaign Classic
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing cross-canal offrant un important retour sur investissement marketing.
-solution: Campaign Classic
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2477'
 ht-degree: 98%
