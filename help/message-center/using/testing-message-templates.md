@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 58%
+ht-degree: 60%
 
 ---
 
@@ -57,13 +57,13 @@ Lorsque les adresses sont créées, vous pouvez dès lors afficher l&#39;aperçu
 
 ## Données de personnalisation {#personalization-data}
 
-Il est possible d&#39;utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [inbox rendering](../../delivery/using/inbox-rendering.md).
+Il est possible d&#39;utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 Ces données ont pour but de tester vos messages avant leur diffusion finale. Ces messages ne correspondent pas aux données réelles à traiter. Toutefois, la structure XML doit être identique à celle de l&#39;événement stocké dans l&#39;instance d&#39;exécution, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/messagecenter_create_custo_006.png)
 
-Ces informations vous permettent de personnaliser le contenu du message à l’aide de balises de personnalisation (voir à ce sujet [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content)).
+Ces informations vous permettent de personnaliser le contenu du message à l’aide de balises de personnalisation (voir à ce sujet [Créer le contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content)).
 
 1. Sélectionnez le modèle de message transactionnel.
 
@@ -91,7 +91,7 @@ Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le co
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-A l&#39;aide d&#39;adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [inbox rendering](../../delivery/using/inbox-rendering.md).
+A l&#39;aide d&#39;adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
 ## Envoi d’un BAT {#sending-a-proof}
 
