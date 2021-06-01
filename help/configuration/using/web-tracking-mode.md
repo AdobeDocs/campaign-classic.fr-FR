@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Mode de tracking web
 description: Mode de tracking web
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
 
