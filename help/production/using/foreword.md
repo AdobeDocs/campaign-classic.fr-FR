@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Avant-propos
 description: Avant-propos
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: c9e92fec-383e-46ba-bce1-183ac8f637de
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 100%
 
