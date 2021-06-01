@@ -2,20 +2,19 @@
 solution: Campaign Classic
 product: campaign
 title: Exécution de la diffusion
-description: Exécution de la diffusion
+description: En savoir plus sur l'exécution et le monitoring de la diffusion des messages transactionnels.
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '230'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 86%
 
 ---
 
-# Exécution de la diffusion{#delivery-execution}
+# Exécution de la diffusion {#delivery-execution}
 
 ## Envoi de message transactionnel {#transactional-message-send}
 
@@ -39,7 +38,7 @@ Par défaut, elles sont classées dans un sous-dossier correspondant au mois d&#
 
 ## Surveillance de message transactionnel {#transactional-message-monitoring}
 
-Pour surveiller vos messages transactionnels, vérifiez les logs de diffusion. L’accès aux logs de diffusion est présenté dans [cette section](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+Pour surveiller vos messages transactionnels, consultez les [logs de diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
 Les diffusions transactionnelles envoyées à partir de l’instance d’exécution sont synchronisées à nouveau vers l’instance de pilotage par le biais d’un workflow technique (**[!UICONTROL instance d’exécution Message Center]**) qui s’exécute toutes les heures.
 
@@ -73,3 +72,5 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
+
+Pour surveiller l’activité et l’exécution de la ou des instances d’exécution, voir [Rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md).
