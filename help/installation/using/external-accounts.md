@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Comptes externes
 description: Découvrez comment créer des comptes externes
@@ -7,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 97%
