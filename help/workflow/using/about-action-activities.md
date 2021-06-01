@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: À propos des activités d’action
 description: À propos des activités d’action
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
 
