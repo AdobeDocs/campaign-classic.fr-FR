@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Intégrer une offre via l'assistant
 description: Intégrer une offre via l'assistant
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
 
