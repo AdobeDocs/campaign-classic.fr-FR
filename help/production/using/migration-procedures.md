@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Procédures de migration
 description: Procédures de migration
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 0b71a4d3-b340-4742-bd69-4073ce271cf3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
 
