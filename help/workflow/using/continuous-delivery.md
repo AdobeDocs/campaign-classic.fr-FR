@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Diffusion (au fil de l'eau)
 description: Diffusion (au fil de l'eau)
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
