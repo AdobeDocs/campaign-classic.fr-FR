@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Spécificités par SGBDR
 description: Spécificités par SGBDR
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 100%
 
@@ -19,7 +17,7 @@ ht-degree: 100%
 
 Cette section contient une série de recommandations et de bonnes pratiques destinées à vous aider à mettre en place les plans de maintenance de vos bases de données pour chacun des moteurs SGBDR supportés par Adobe Campaign. Gardez à l&#39;esprit que ce ne sont que des recommandations. C&#39;est à vous qu&#39;il revient de les adapter en fonction de vos contraintes et de vos procédures internes. L&#39;administrateur de base de données est la personne qui doit être responsable de ces procédures.
 
-## PostgreSQL {#postgresql}
+## PostgreSQL {#postgresql}
 
 ### Détecter les grandes tables {#detecting-large-tables}
 
@@ -95,6 +93,7 @@ vacuum full nmsdelivery;
 >* Les commandes **vacuum** et **re-index** verrouillent la table ce qui met certains processus en attente pendant toute la durée de la maintenance.
 >* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande **vacuum full** peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
 >* Cette opération de maintenance peut être effectuée par un workflow d’Adobe Campaign via une activité de type **[!UICONTROL SQL]** (voir à ce sujet [cette section](../../workflow/using/architecture.md)). Assurez-vous de lancer la maintenance pendant une période de faible activité et en dehors des périodes de sauvegarde.
+
 >
 
 
