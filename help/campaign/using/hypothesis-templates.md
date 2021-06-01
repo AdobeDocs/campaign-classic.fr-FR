@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Modèles d'hypothèse
 description: Modèles d'hypothèse
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 100%
 
