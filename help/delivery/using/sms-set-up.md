@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration du canal SMS de Campaign
 description: Découvrez comment configurer le canal SMS dans Campaign
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 100%
 
@@ -52,7 +50,7 @@ Pour ce faire, procédez comme suit :
 
    Contactez ensuite votre fournisseur qui vous donnera la valeur à saisir dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]**, en fonction du fournisseur que vous aurez choisi.
 
-   Vous pouvez définir le nombre de connexions au fournisseur par MTA child. Par défaut, ce nombre est défini sur 1.
+   Vous pouvez définir le nombre de connexions au fournisseur par MTA enfant. Par défaut, ce nombre est défini sur 1.
 
 1. Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM.
 
