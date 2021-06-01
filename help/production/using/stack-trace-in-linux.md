@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Stack trace sous Linux
 description: Stack trace sous Linux
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -23,6 +21,7 @@ La **stack trace** représente une trace contenue dans un fichier de type **core
 >
 >* Un fichier **core** se présente sous le nom **core.`<num>`**.
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
+
 >
 
 
