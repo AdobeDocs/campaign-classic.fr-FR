@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration de l’intégration Adobe Experience Manager
 description: Découvrez comment configurer l’intégration Campaign-AEM
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
