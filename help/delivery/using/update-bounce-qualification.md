@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Mettre à jour la qualification des rebonds après une panne d’un FAI
 description: Découvrez comment mettre à jour la qualification des rebonds après une panne d’un fournisseur d’accès à Internet.
@@ -8,9 +7,8 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-translation-type: ht
-source-git-commit: 718b490d48c6cfabdb24ab18dffb6db664f2a46c
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
@@ -61,4 +59,4 @@ Une fois que vous disposez de la liste des destinataires concernés, vous pouvez
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [Qualification des mails rebonds](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [Qualification des emails bounce   ](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
