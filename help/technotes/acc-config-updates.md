@@ -1,13 +1,11 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Note technique
 description: Note technique
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-translation-type: tm+mt
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 100%
@@ -169,6 +167,6 @@ En tant que client On-premise/hybride, vous devez mettre à jour votre configura
 ## Liens utiles
 
 * [Mise à niveau de votre environnement](../production/using/build-upgrade.md)
-* [FAQ sur la mise à niveau du build](../platform/using/faq-build-upgrade.md)
+* [FAQ sur l’upgrade de build](../platform/using/faq-build-upgrade.md)
 * [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../installation/using/client-console-availability-for-windows.md)
