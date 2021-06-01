@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configurer l’accès à Teradata
 description: Découvrez comment configurer l'accès à Teradata dans FDA
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 100%
 
@@ -292,7 +290,7 @@ Assurez-vous d’installer le pilote ODBC et la base de transport parallèle Ter
 
 Assurez-vous que le chemin d’accès du pilote et des utilitaires se trouve dans la variable PATH dont nlserver disposera pendant l’exécution. Par défaut, le chemin d’accès est C:\Program Files (x86)\Teradata\Client\15.10\bin sur Windows 32 bits or C:\Program Files\Teradata\Client\15.10\bin sur 64 bits).
 
-## Fuseau horaire {#timezone}
+## Time zone {#timezone}
 
 Teradata utilise un nom de fuseau horaire qui n’est pas standard. Vous pouvez trouver la liste sur le [site Teradata](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA). Adobe Campaign essaiera de convertir le fuseau horaire donné dans la configuration externe en un élément que Teradata comprend. Si aucune correspondance n’est trouvée, le fuseau horaire GMT+X (ou GMT-X) le plus proche sera trouvé pour la session et un avertissement sera ajouté au journal.
 
