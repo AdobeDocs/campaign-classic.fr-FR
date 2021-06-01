@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Paramétrages spécifiques v6.02
 description: Paramétrages spécifiques v6.02
@@ -7,9 +6,8 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7e8f8488-f3ef-4b64-9981-335d67caf372
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
