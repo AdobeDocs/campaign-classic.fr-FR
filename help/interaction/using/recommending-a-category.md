@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Recommander une catégorie
 description: Recommander une catégorie
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 
