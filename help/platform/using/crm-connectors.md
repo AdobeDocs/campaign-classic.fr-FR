@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Connecteurs CRM
 description: Prise en main des connecteurs CRM dans Campaign
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
-translation-type: ht
-source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
