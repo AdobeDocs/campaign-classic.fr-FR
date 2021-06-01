@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Paramétrage des diffusions
 description: Découvrez comment effectuer des tests A/B à l'aide d'un cas pratique spécifique.
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 
