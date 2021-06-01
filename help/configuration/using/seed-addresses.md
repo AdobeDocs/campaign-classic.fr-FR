@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adresses de contrôle
 description: Adresses de contrôle
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ Si la table des destinataires est une table personnalisée, vous devez effectuer
 
 Pour plus d&#39;informations sur l&#39;utilisation des adresses de contrôle, consultez [cette section](../../delivery/using/about-seed-addresses.md).
 
-## Mise en oeuvre {#implementation}
+## Mise en œuvre {#implementation}
 
 Le schéma **nms:seedMember** et le formulaire éponyme livrés d&#39;usine ont vocation à être étendus pour un paramètrage client afin de référencer tous les champs nécessaires. La définition du schéma contient des commentaires expliquant son mode de paramétrage.
 
