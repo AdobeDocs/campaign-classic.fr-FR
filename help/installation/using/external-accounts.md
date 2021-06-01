@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 97%
@@ -112,7 +112,7 @@ Si vous possédez une architecture répartie, vous devez spécifier les instance
 
    Mot de passe du compte tel qu&#39;il a été défini dans le dossier de l&#39;opérateur.
 
-Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../message-center/using/creating-a-shared-connection.md#control-instance).
+Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../message-center/using/configuring-instances.md#control-instance).
 
 
 ## Accès aux comptes externes de systèmes externes
