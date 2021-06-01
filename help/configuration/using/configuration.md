@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Configuration '
 description: 'Configuration '
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-translation-type: ht
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 100%
 
