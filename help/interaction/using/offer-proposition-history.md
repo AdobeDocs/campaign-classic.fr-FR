@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Historique des propositions
 description: Historique des propositions
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 exl-id: 480d49e7-0237-4c87-abe8-445b7bf91a30
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 100%
 
