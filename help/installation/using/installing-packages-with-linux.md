@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Installation de packages avec Linux
 description: Installation de packages avec Linux
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 100%
 
