@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Marketing distribué de Campaign
 description: Prise en main du marketing distribué
@@ -7,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 100%
 
