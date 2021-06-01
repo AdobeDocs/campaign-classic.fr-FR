@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Offres par cellule
 description: Offres par cellule
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 
