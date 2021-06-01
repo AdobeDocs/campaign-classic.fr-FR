@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 81%
+source-wordcount: '1226'
+ht-degree: 76%
 
 ---
 
@@ -35,7 +35,7 @@ L&#39;installation des packages des messages transactionnels requiert de nombreu
 >
 >L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
 
-Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Voir à ce propos la section [Ajout d’un canal de diffusion](#adding-a-delivery-channel).
+Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Voir à ce propos la section [Ajouter un canal de diffusion](#adding-a-delivery-channel).
 
 ## Instance de pilotage {#control-instance}
 
@@ -57,7 +57,7 @@ Il est possible de mutualiser un cluster d&#39;exécution entre différentes ins
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration requise, voir [Utilisation de plusieurs instances de pilotage](../../message-center/using/configuring-instances.md#using-several-control-instances).
+>Pour plus d’informations sur la configuration nécessaire, voir [Utilisation de plusieurs instances de pilotage](../../message-center/using/configuring-instances.md#using-several-control-instances).
 
 ## Instance d&#39;exécution {#execution-instance}
 
@@ -181,7 +181,7 @@ Pour utiliser le module des messages transactionnels avec LINE, les éléments s
 
 * Installez le package **[!UICONTROL LINE Connect]** sur les deux instances.
 * Installez le package **[!UICONTROL Transactional message control]** sur l&#39;instance marketing et le package **[!UICONTROL Transactional message execution]** sur l&#39;instance d&#39;exécution.
-* Créez un **compte externe** et un **service** LINE sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d&#39;informations sur la création d&#39;un compte externe et d&#39;un service LINE, consultez cette [page](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-).
+* Créez un compte externe LINE **** et **service** sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d&#39;informations sur la création d&#39;un compte externe et d&#39;un service LINE, consultez [cette section](../../delivery/using/line-channel.md#setting-up-line-channel).
 
 Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **[!UICONTROL Compte externe]**, vous devez ensuite configurer les différents comptes externes sur les deux instances :
 
@@ -248,4 +248,4 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
 
 
 
-1. Vous pouvez maintenant commencer à créer des messages transactionnels. Pour plus d&#39;informations, consultez cette [page](../../message-center/using/creating-the-message-template.md).
+1. Vous pouvez maintenant [créer des messages transactionnels](../../message-center/using/creating-the-message-template.md).
