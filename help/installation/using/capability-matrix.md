@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Matrice des fonctionnalités Campaign On-premise, hybride et hébergé
 description: Découvrez les principales différences entre les déploiements hébergés et On-premise
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -56,5 +54,5 @@ Adobe Campaign propose l&#39;option **Federated Data Access** (FDA) afin d&#3
 * [Notes de mise à jour](../../rn/using/latest-release.md)
 * [Mises à niveau de Campaign Classic](../../rn/using/rn-overview.md)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
-* Versions [[!DNL Gold Standard] ](../../rn/using/gold-standard.md)
+* [Versions [!DNL Gold Standard]](../../rn/using/gold-standard.md)
 * [[!DNL Gold Standard] programme](../../rn/using/gs-overview.md)
