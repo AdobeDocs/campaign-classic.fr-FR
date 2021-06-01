@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Définir les propriétés des formulaires web
 description: Définir les propriétés des formulaires web
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
 
