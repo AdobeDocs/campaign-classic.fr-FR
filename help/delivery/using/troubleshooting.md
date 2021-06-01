@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Résolution des problèmes
 description: Résolution des problèmes
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
