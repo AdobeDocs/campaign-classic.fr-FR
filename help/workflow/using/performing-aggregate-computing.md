@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Réaliser un calcul d'agrégats
 description: Découvrez comment effectuer des calculs d'agrégats dans des requêtes
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
 
