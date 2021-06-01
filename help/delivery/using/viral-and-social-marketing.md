@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Marketing viral et réseaux sociaux
 description: Marketing viral et réseaux sociaux
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
