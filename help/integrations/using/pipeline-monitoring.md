@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration de l'intégration
 description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -24,7 +22,7 @@ Il est au format REST, qui est décrit ci-dessous.
 
 ![](assets/triggers_8.png)
 
-## Indicateurs {#indicators}
+## Indicators {#indicators}
 
 Cette section répertorie les indicateurs dans le service web de statut.
 
@@ -36,7 +34,7 @@ Les indicateurs recommandés pour la surveillance sont mis en surbrillance.
    * last-failed-cnx-ms-ago : laps de temps en ms depuis le dernier échec de la vérification de connexion.
    * pipeline-host : nom de l’hôte à partir duquel les données du pipeline sont extraites.
 * pointeur
-   * current-offsets : valeur du pointeur dans le pipeline, par thread fils.
+   * current-offsets : valeur du pointeur dans le pipeline, par thread enfant.
    * last-flush-ms-ago : laps de temps en ms depuis la récupération d’un lot de déclencheurs.
    * next-offsets-flush : délai d’attente jusqu’au lot suivant, une fois le lot actuel terminé.
    * processed-since-last-flush : nombre de déclencheurs traités dans le dernier lot.
