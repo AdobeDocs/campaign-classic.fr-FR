@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Création d'un filtre
 description: Découvrez comment créer un filtre lors de l'exécution de requêtes
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
