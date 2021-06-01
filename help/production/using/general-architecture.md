@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Architecture générale
 description: Architecture générale
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
 
