@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Interactions anonymes
 description: Interactions anonymes
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
