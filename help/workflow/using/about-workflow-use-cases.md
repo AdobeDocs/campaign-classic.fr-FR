@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: À propos des cas pratiques de workflows
 description: En savoir plus sur les cas pratiques de workflows dans Campaign Classic.
@@ -9,9 +8,8 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -35,7 +33,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 * [Automatisation de la création, de l’édition et de la publication de contenu](../../delivery/using/automating-via-workflows.md#examples)
 
-## Contrôle     {#monitoring}
+## Contrôle            {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
@@ -44,19 +42,19 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Envoyer des alertes personnalisées aux opérateurs](../../workflow/using/sending-personalized-alerts-to-operators.md)
 * [Configuration d’un processus de validation de destinataire avant l’envoi d’une diffusion](../../workflow/using/using-the-local-approval-activity.md)
 
-## Data management {#management}
+## Gestion des données {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
 * [Coordonner les mises à jour des données](../../workflow/using/coordinating-data-updates.md)
 * [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md)
-* [Enrichir des données](../../workflow/using/enriching-data.md)
+* [Enrichir des données ](../../workflow/using/enriching-data.md)
 * [Utilisation d&#39;agrégats](../../workflow/using/using-aggregates.md)
 * [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../platform/using/unzip-decrypt.md)
 * [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
 * [Utilisation de la fonctionnalité de fusion de l’activité Déduplication](../../workflow/using/deduplication-merge.md)
-* [Configuration d&#39;un workflow d&#39;import récurrent](../../workflow/using/recurring-import-workflow.md)
+* [Paramétrage d&#39;un workflow d&#39;import récurrent](../../workflow/using/recurring-import-workflow.md)
 
 ## Ciblage {#designing-queries}
 
@@ -71,4 +69,4 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Création d&#39;un filtre](../../workflow/using/creating-a-filter.md)
 * [Filtrer les destinataires en double](../../workflow/using/filtering-duplicated-recipients.md)
 * [Appeler une variable d&#39;instance dans une requête](../../workflow/using/javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
-* [Application d’un pourcentage de partage à une population](../../workflow/using/javascript-scripts-and-templates.md#example)
+* [Application d’un pourcentage fractionné à une population](../../workflow/using/javascript-scripts-and-templates.md#example)
