@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Résolution des problèmes de production
 description: Découvrez les procédures de résolution des problèmes de production relatives à la configuration, à la surveillance, au processus de mise à niveau, au traitement des données et à la maintenance des bases de données d'Adobe Campaign.
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -30,7 +28,7 @@ Cette section contient des procédures de résolution des problèmes relatives a
 
 Des actions spécifiques peuvent être effectuées en cas de problèmes liés aux diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
-* [Problèmes liés à l’affichage des images](../../production/using/image-display-issues.md)
+* [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 * [Image manquante](../../production/using/images-missing.md)
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) (*sur les modèles d’hébergement on-premise uniquement*)
 
