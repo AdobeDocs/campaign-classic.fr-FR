@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Déploiement Standard
 description: Déploiement Standard
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-translation-type: ht
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 
@@ -34,7 +32,7 @@ La communication générale entre les serveurs et les processus est réalisée c
 
 Ce type de configuration peut faire face à un grand nombre de profils de destinataires (de 500 000 à 1 000 000), le serveur de base de données étant le principal facteur de limite (ainsi que la bande passante disponible).
 
-## Caractéristiques {#features}
+## Fonctionnalités {#features}
 
 ### Avantages {#advantages}
 
@@ -43,7 +41,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
-### Prérequis {#prerequisites}
+### Conditions préalables requises {#prerequisites}
 
 * JDK sur les trois machines,
 * Serveur Web (IIS, Apache) sur les deux frontaux,
