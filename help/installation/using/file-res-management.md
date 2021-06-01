@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Gestion des fichiers et des ressources
 description: Découvrez comment configurer la gestion des fichiers et des ressources dans Campaign
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-translation-type: ht
-source-git-commit: 401e1be234d52f04cbdf8dfa97f51ac227836cd5
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
