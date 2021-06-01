@@ -1,13 +1,11 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Diffusions
 description: En savoir plus sur les workflows de diffusions par défaut
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
-source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
