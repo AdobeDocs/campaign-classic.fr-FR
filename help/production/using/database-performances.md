@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Performances de la base
 description: Performances de la base
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -24,7 +22,7 @@ La plupart des problèmes de performance sont liés à l&#39;entretien de la bas
 * Maintenance de la base de données
 * Diagnostic en temps réel
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 Vous devez vérifier que la configuration initiale de la plateforme Adobe Campaign est toujours valable et revoir, le cas échéant, les besoins de votre client en termes de délivrabilité ou de taille de la base. Nous vous conseillons d&#39;effectuer également une vérification complète de la configuration matérielle (CPU, RAM, Système E/S).
 
