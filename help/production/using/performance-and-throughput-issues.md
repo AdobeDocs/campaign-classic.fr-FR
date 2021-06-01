@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Problèmes de performance et de débit
 description: Problèmes de performance et de débit
@@ -7,9 +6,8 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 100%
 
@@ -50,7 +48,7 @@ La plupart du temps, les problèmes de performance sont liés à la maintenance 
 
 Voici une liste d’articles relatifs aux bonnes pratiques en matière de configuration des applications :
 
-* Processus et mémoire MTA et MTAChild : le module **mta** distribue les messages à ses modules fils **mtachild**. Chaque **mtachild** prépare les messages, puis demande l’autorisation au serveur de statistiques avant de les envoyer. Consultez cette [page](../../installation/using/email-deliverability.md) pour plus d’informations.
+* Processus et mémoire MTA et MTAChild : le module **mta** distribue les messages à ses modules enfants **mtachild**. Chaque **mtachild** prépare les messages, puis demande l’autorisation au serveur de statistiques avant de les envoyer. Consultez cette [page](../../installation/using/email-deliverability.md) pour plus d’informations.
 * Configuration de TLS : l’activation globale de TLS n’est pas recommandée, car elle peut réduire le débit. Les paramètres TLS par domaine, gérés par l’équipe de délivrabilité, doivent plutôt être réglés en fonction des besoins. Consultez cette [page](../../installation/using/email-deliverability.md#mx-configuration) pour plus d’informations.
 * DKIM : pour assurer le niveau de sécurité du DKIM, la valeur 1024b est la taille de chiffrement recommandée selon les bonnes pratiques. Les clés DKIM inférieures ne seront pas considérées comme valides par la majorité des fournisseurs d’accès. Reportez-vous à [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 
