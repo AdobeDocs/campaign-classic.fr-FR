@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Structure d’un schéma de données
 description: Structure d’un schéma de données
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
