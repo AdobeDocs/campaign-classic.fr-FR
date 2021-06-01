@@ -1,13 +1,11 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Note technique
 description: Note technique
 hide: true
 hidefromtoc: true
-translation-type: ht
-source-git-commit: 51773f48bac90febe44c6796b8cc08fce072bab3
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 100%
 
