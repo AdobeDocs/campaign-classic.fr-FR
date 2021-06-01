@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Import et export d'audiences
 description: Import et export d'audiences
@@ -7,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 95%
