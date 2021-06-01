@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configuration de l’intégration avec Adobe Target
 description: Configuration de l’intégration avec Adobe Target
@@ -7,9 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -17,7 +15,7 @@ ht-degree: 100%
 
 # Configuration de l’intégration avec Adobe Target{#configuring-the-integration-with-adobe-target}
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Afin de pouvoir utiliser l&#39;intégration entre Adobe Campaign et Adobe Target, les éléments suivants sont requis :
 
