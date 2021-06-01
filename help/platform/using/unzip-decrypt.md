@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Décompresser ou déchiffrer un fichier
 description: Découvrez comment décompresser ou déchiffrer un fichier dans Campaign Classic avant de le traiter.
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%
 
@@ -56,7 +54,7 @@ Dans ce cas pratique, nous allons créer un workflow afin d&#39;importer des don
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La clé publique sera partagée avec le système externe. Ce dernier l&#39;utilisera pour crypter les données à envoyer à Campaign.
    * Campaign Classic utilisera la clé privée pour décrypter les données cryptées entrantes.
