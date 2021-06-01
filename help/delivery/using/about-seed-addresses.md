@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: A propos des adresses de contrôle
 description: A propos des adresses de contrôle
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -47,6 +45,7 @@ Dans le cadre des diffusions courrier, les adresses de contrôle sont ajoutées 
 >
 >* Il ne doit pas utiliser l&#39;option **[!UICONTROL Gérer les groupements (GROUP BY+HAVING)]**.
 >* Si des collections d&#39;éléments sont extraites, ces champs auront une valeur vide pour les adresses de contrôle, sauf si l&#39;option **[!UICONTROL Ligne unique (mode expert)]** est cochée. Voir à ce sujet [cette section](../../platform/using/executing-export-jobs.md#step-7---data-formatting).
+
 >
 
 
