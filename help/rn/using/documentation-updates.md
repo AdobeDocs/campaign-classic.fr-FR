@@ -7,7 +7,7 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '4387'
 ht-degree: 98%
@@ -113,7 +113,7 @@ Un cas pratique a été ajouté sur la manière d’utiliser la fonctionnalité 
 
 La description complète de la page des paramètres et du protocole du connecteur SMS est maintenant disponible [ici](../../delivery/using/sms-protocol.md).
 
-Une note a été ajoutée à la section **Messages transactionnels** pour avertir que les dossiers dʼévénement ne doivent pas être définis comme des vues sur les instances dʼexécution, afin d&#39;éviter les problèmes de droits dʼaccès. [En savoir plus](../../message-center/using/event-collection.md)
+Une note a été ajoutée à la section **Messages transactionnels** pour avertir que les dossiers dʼévénement ne doivent pas être définis comme des vues sur les instances dʼexécution, afin d&#39;éviter les problèmes de droits dʼaccès. [En savoir plus](../../message-center/using/about-event-processing.md#event-collection)
 
 ## Novembre 2020 {#nov-2020}
 
@@ -259,7 +259,7 @@ Loi sur la protection de la vie privée en Thaïlande et au Brésil - [En savoir
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La nouvelle option qui permet de dépublier un modèle de message transactionnel est présentée dans [cette section](../../message-center/using/template-unpublication.md).
+La nouvelle option qui permet de dépublier un modèle de message transactionnel est présentée dans [cette section](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
 Les nouvelles options destinées à définir des limites lors de l’envoi d’emails incluant des images téléchargées à partir d’une URL personnalisée et des pièces jointes ont été ajoutées à la liste des options de Campaign Classic. [En savoir plus](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -519,7 +519,7 @@ La section activité Sous-workflow a été enrichie en y incorporant un exemple 
 
 La page [Matrice des fonctionnalités de Campaign Classic on-premise/hébergé](../../installation/using/capability-matrix.md) a été mis à jour avec des informations relatives à la fonctionnalité Email Cci.
 
-La documentation sur les messages transactionnels a été mise à jour avec une note concernant la publication de modèles. [En savoir plus](../../message-center/using/template-publication.md)
+La documentation sur les messages transactionnels a été mise à jour avec une note concernant la publication de modèles. [En savoir plus](../../message-center/using/publishing-message-templates.md#template-publication)
 
 La section Mails rebonds non traités a été mise à jour en y ajoutant des détails sur les champs Adresse de transfert et Adresse pour les erreurs. [En savoir plus](../../installation/using/deploying-an-instance.md)
 
