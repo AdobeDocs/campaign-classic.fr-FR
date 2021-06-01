@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 42%
@@ -40,7 +40,7 @@ Les fonctionnalités des messages transactionnels sont conçues pour prendre en 
 
 Le module de messagerie transactionnelle Adobe Campaign s’intègre dans un système d’information qui renvoie les événements à modifier en messages transactionnels personnalisés. Ces messages peuvent être envoyés individuellement ou par lots via e-mail, SMS ou notifications push.
 
-Cette fonctionnalité repose sur une architecture spécifique, où l’**instance d’exécution** est séparée de l’**instance de pilotage**. Cette répartition garantit une disponibilité accrue et une meilleure gestion de la charge. Voir à ce propos [Instances de messages transactionnels](../../message-center/using/transactional-messaging-architecture.md).
+Cette fonctionnalité repose sur une architecture spécifique, où l’**instance d’exécution** est séparée de l’**instance de pilotage**. Cette répartition garantit une disponibilité accrue et une meilleure gestion de la charge. Voir à ce propos [Architecture des messages transactionnels](../../message-center/using/transactional-messaging-architecture.md).
 
 >[!NOTE]
 >
@@ -81,8 +81,8 @@ Sur l’instance **de pilotage**, vous devez effectuer les actions suivantes :
 
 Une fois que vous avez conçu et publié le modèle de message transactionnel, si un événement correspondant est déclenché, les principales étapes ci-dessous sont effectuées sur l’**instance d’exécution** :
 
-1. Lorsque l&#39;événement est généré par le système d&#39;information externe, les données pertinentes sont envoyées à Campaign via les méthodes **PushEvent** et **PushEvents**. Voir [Collecte des événements](#event-collection).
-1. L&#39;événement est associé au modèle de message approprié. Voir [Routage vers un modèle](#routing-towards-a-template).
+1. Lorsque l&#39;événement est généré par le système d&#39;information externe, les données pertinentes sont envoyées à Campaign via les méthodes **PushEvent** et **PushEvents**. Voir [Collecte des événements](../../message-center/using/about-event-processing.md#event-collection).
+1. L&#39;événement est associé au modèle de message approprié. Voir [Routage vers un modèle](../../message-center/using/about-event-processing.md#routing-towards-a-template).
 1. Une fois l&#39;étape d&#39;enrichissement terminée, la diffusion est envoyée. Voir [Exécution de la diffusion](../../message-center/using/delivery-execution.md). Chaque destinataire ciblé reçoit un message personnalisé.
 
 ## Rubriques connexes :{#related-topics}
@@ -90,4 +90,4 @@ Une fois que vous avez conçu et publié le modèle de message transactionnel, s
 * [Prise en main des canaux de communication](../../delivery/using/communication-channels.md)
 * [Etapes clés de création de diffusion](../../delivery/using/steps-about-delivery-creation-steps.md)
 * [Architecture des messages transactionnels](../../message-center/using/transactional-messaging-architecture.md)
-* [A propos des rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)
+* [Accès aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)
