@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Créer des filtres prédéfinis
 description: Créer des filtres prédéfinis
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 
