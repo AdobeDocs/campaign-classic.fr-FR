@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Architectures réparties
 description: Architectures réparties
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 100%
 
@@ -46,7 +44,7 @@ Les offres supprimées dans l&#39;environnement en édition sont désactivées s
 
 Un workflow est créé pour chaque compte externe et environnement pour la synchronisation des propositions. La fréquence de synchronisation peut être ajustée pour chaque environnement et compte externe.
 
-## Limitations {#limitations}
+## Limites {#limitations}
 
 * Si vous utilisez la fonction de basculement (fall back) d&#39;un environnement anonyme vers un environnement identifié, ces deux environnements doivent être sur la même instance d&#39;exécution.
 * La synchronisation entre plusieurs instances d&#39;exécution ne s&#39;effectue pas en temps réel. Les interactions d&#39;un même contact doivent être envoyées vers une même instance. L&#39;instance de pilotage doit être dédiée au canal sortant (pas de temps réel).
@@ -134,7 +132,7 @@ Lors de l&#39;installation des packages Interaction de pilotage et d&#39;exécut
 >
 >Si vous avez effectué des paramétrages spécifiques dans la table des propositions, adaptez les requêtes en conséquence.
 
-### PostgreSQL {#postgresql}
+### PostgreSQL {#postgresql}
 
 Deux méthodes sont possibles. La première (utilisation d&#39;une table de travail) est un peu plus rapide.
 
