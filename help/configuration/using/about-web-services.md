@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: A propos des services web
 description: A propos des services web
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 100%
 
@@ -28,7 +26,7 @@ Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et 
 >Le nombre d&#39;appels de moteur autorisé par jour varie selon votre contrat de licence. Voir à ce sujet [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
 >Une liste de toutes les API avec leur description complète est disponible dans [cette documentation dédiée](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Afin d&#39;utiliser les API Adobe Campaign, il est conseillé de posséder des notions sur les sujets suivants :
 
