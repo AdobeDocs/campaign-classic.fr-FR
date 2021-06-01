@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Notes de mise à jour de Campaign 18.4
 description: Notes de mise à jour de Campaign 18.4
@@ -7,8 +6,7 @@ feature: null
 role: null
 level: null
 exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
-translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 100%
