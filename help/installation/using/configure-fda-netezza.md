@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Configurer l’accès à Netezza
 description: Découvrez comment configurer l’accès à Netezza dans FDA
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
