@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Mapping de la base de données
 description: Mapping de la base de données
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 100%
 
@@ -67,7 +65,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 >[!NOTE]
 >
 >Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner
->les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
+les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 
