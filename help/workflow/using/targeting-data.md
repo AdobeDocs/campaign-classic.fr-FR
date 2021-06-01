@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Cibler les données
 description: En savoir plus sur le ciblage des données dans un workflow
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 100%
 
