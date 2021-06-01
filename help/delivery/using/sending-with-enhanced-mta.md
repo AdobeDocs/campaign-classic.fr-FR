@@ -7,9 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 100%
 
@@ -98,7 +97,7 @@ Pour les clients qui utilisent la fonctionnalité de messagerie transactionnelle
 
 ### En-têtes du MTA amélioré
 
-Les dernières instances de Campaign Classic incluent du code qui ajoute les en-têtes du MTA amélioré requis à chaque message. Si vous utilisez Adobe Campaign 19.1 (build 9032) ou une version ultérieure et que ce n’est pas le cas, vous devez demander à l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) d’ajouter le paramètre &quot;useMomentum=true&quot; à votre configuration d’instance d’exécution (dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), qui peut être une instance marketing, une [instance de mid-sourcing](../../installation/using/mid-sourcing-server.md) ou une [instance d’exécution de messages transactionnelle](../../message-center/using/creating-a-shared-connection.md#execution-instance), selon votre configuration.
+Les dernières instances de Campaign Classic incluent du code qui ajoute les en-têtes du MTA amélioré requis à chaque message. Si vous utilisez Adobe Campaign 19.1 (build 9032) ou une version ultérieure et que ce n’est pas le cas, vous devez demander à l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) d’ajouter le paramètre &quot;useMomentum=true&quot; à votre configuration d’instance d’exécution (dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), qui peut être une instance marketing, une [instance de mid-sourcing](../../installation/using/mid-sourcing-server.md) ou une [instance d’exécution de messages transactionnelle](../../message-center/using/configuring-instances.md#execution-instance), selon votre configuration.
 
 Cependant, si vous utilisez une instance plus ancienne qui n’inclut pas ce code, une nouvelle règle de typologie nommée **[!UICONTROL Règle de typologie pour les MTA améliorés]** doit être ajoutée à toutes les typologies existantes de votre instance Campaign.
 Cette règle est ajoutée par un package de **[!UICONTROL typologie]** installé dans le cadre de la mise à niveau vers le MTA amélioré.
