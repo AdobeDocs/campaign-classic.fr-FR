@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Assistant d'ajout de champs
 description: Assistant d'ajout de champs
@@ -7,9 +6,8 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
