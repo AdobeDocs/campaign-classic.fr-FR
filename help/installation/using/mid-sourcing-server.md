@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Installation d'un serveur de mid-sourcing dans Campaign
 description: Cette section décrit l'installation et la configuration d'un serveur de mid-sourcing dans Campaign
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 100%
 
