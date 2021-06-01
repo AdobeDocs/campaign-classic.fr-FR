@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Attente
 description: En savoir plus sur l’activité de workflow d’attente
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
