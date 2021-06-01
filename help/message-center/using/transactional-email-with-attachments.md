@@ -1,27 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Ajout de pièces jointes aux messages transactionnels avec Adobe Campaign Classic
-description: Découvrez comment envoyer des emails transactionnels avec des pièces jointes individuelles et/ou personnalisées à l’aide d’Adobe Campaign Classic
+title: Envoi d’emails transactionnels avec des pièces jointes
+description: Découvrez comment envoyer des emails transactionnels avec des pièces jointes individuelles et/ou personnalisées à l’aide d’Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: use-case
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '632'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 84%
 
 ---
 
-# Cas pratique : envoi d’emails transactionnels avec des pièces jointes{#transactional-email-with-attachments}
+# Cas pratique : Envoi d’emails transactionnels avec des pièces jointes {#transactional-email-with-attachments}
 
 L&#39;objectif de ce cas pratique est d&#39;ajouter des pièces jointes d&#39;emails à la volée aux envois sortants.
 
 ## Principales étapes {#key-steps}
 
-Dans ce scénario, vous allez apprendre à envoyer des emails transactionnels avec des pièces jointes individuelles et/ou personnalisées. Les pièces jointes ne seront pas préchargées sur le serveur de messagerie transactionnelle, mais générées à la volée.
+Dans ce scénario, vous allez apprendre à envoyer des emails transactionnels avec des pièces jointes individuelles et/ou personnalisées. Les pièces jointes ne seront pas préchargées sur le serveur de messagerie transactionnelle : à la place, ils seront générés à la volée.
 
 Lorsque vous capturez des interactions ou des détails sur un client, vous devrez peut-être lui renvoyer ces informations à la fin du processus, par exemple dans un fichier PDF joint à un email.
 
@@ -48,8 +47,8 @@ Dans ce scénario, les pièces jointes ne sont pas créées à l’avance, mais 
 Avant de mettre en œuvre ce scénario, lisez attentivement les directives suivantes :
 
 * Les instances de messagerie transactionnelle ne doivent pas être utilisées pour stocker, exporter ou charger des fichiers ou des données. Elles ne peuvent être utilisées que pour les données d’événements et les informations s’y rapportant. Elles ne doivent pas être considérées comme un système de stockage de fichiers.
-* Comme il n&#39;existe aucun accès direct aux instances de messagerie transactionnelle ou aux serveurs à l&#39;extérieur d&#39;Adobe, il n&#39;y a aucun moyen standard de transférer ces fichiers sur ces serveurs (pas d&#39;accès FTP).
-* D’un point de vue contractuel, il n’est pas correct d’utiliser l’espace disque sur l’instance de messagerie transactionnelle pour stocker des fichiers, quels qu’ils soient, même pour les pièces jointes.
+* Comme il n’existe pas d’accès direct aux instances de messagerie transactionnelle ou aux serveurs en dehors de l’Adobe, il n’existe aucun moyen standard de transférer ces fichiers sur ces serveurs (pas d’accès FTP).
+* Il n’est pas contractuellement correct d’utiliser l’espace disque sur les instances de messagerie transactionnelle pour stocker des fichiers de quelque type que ce soit, pas même pour les pièces jointes.
 * Pour héberger ces fichiers, vous devez utiliser un autre système de disque en ligne. Vous avez besoin d’un accès FTP à ce système et vous devez pouvoir écrire et supprimer des fichiers.
 
 >[!NOTE]
