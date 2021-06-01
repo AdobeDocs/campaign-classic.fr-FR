@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Utiliser les packages de données
 description: Utiliser les packages de données
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
 
