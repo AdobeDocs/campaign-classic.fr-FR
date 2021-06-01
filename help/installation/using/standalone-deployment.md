@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Déploiement Stand-alone
 description: Déploiement Stand-alone
@@ -7,9 +6,8 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 100%
 
@@ -43,7 +41,7 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
 >
 >Un serveur de base de données préexistant peut être utilisé, sous réserve qu&#39;il dispose de ressources suffisantes.
 
-## Caractéristiques {#features}
+## Fonctionnalités {#features}
 
 ### Avantages {#advantages}
 
@@ -59,7 +57,7 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
-### Prérequis {#prerequisites}
+### Conditions préalables requises {#prerequisites}
 
 * JDK,
 * Serveur Web (IIS, Apache),
