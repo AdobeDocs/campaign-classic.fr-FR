@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Comprendre les diffusions en échec
 description: Découvrez comment comprendre les échecs de diffusions
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-translation-type: ht
-source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2665'
 ht-degree: 100%
 
@@ -35,7 +33,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 * [Logs et historique de la diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)
 * [Statut En échec](../../delivery/using/delivery-performances.md#failed-status)
-* [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)
+* [Types de diffusion en échec et raisons   ](#delivery-failure-types-and-reasons)
 
 ## Types de diffusion en échec et raisons    {#delivery-failure-types-and-reasons}
 
@@ -178,7 +176,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
  </tbody> 
 </table>
 
-## Reprises après une diffusion temporairement en échec    {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec     {#retries-after-a-delivery-temporary-failure}
 
 Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
 
@@ -194,7 +192,7 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 
 Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [Paramétrer les reprises](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
 
-## Erreurs synchrones et asynchrones    {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones     {#synchronous-and-asynchronous-errors}
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
@@ -223,17 +221,19 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de gestion des emails ne sont plus utilisées. Voir à ce propos [cette section](#email-management-rules).
 
-### Qualification des emails bounce    {#bounce-mail-qualification}
+### Qualification des emails bounce     {#bounce-mail-qualification}
 
 >[!IMPORTANT]
 >
 >Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md) :
 >
 >* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. **** Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
->
->* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
->
->* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
+   >
+   >
+* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
+   >
+   >
+* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
 
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, lorsque la diffusion d&#39;un email échoue, le serveur de diffusion d&#39;Adobe Campaign reçoit un message d&#39;erreur du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est composée de chaînes contenues dans le message renvoyé par le serveur distant. Les types et raisons des échec sont affectés à chaque message d&#39;erreur.
