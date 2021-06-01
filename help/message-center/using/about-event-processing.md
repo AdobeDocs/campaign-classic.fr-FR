@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: b46a483594f210c4530a934194c6d2b73deaeaf9
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 30%
@@ -85,7 +85,7 @@ L&#39;**historique des événements** (sous **[!UICONTROL Message Center]** > *
    * Un événement qui vient d’être collecté et qui n’a pas encore été traité. La colonne **[!UICONTROL Nombre d&#39;erreurs]** a la valeur 0. Le modèle d&#39;email n&#39;a pas encore été associé.
    * Un événement traité, mais dont la confirmation est erronée. La colonne **[!UICONTROL Nombre d&#39;erreurs]** a une valeur différente de 0. Pour savoir quand cet événement sera traité à nouveau, consultez la colonne **[!UICONTROL Traitement demandé le]**.
 
-* **En attente de diffusion** : L&#39;événement a été traité et le modèle de diffusion est lié. L&#39;email est en attente de diffusion et le processus de diffusion classique est appliqué. Pour plus d&#39;informations, vous pouvez ouvrir la  [diffusion](../../delivery/using/about-message-tracking.md).
+* **En attente de diffusion** : L&#39;événement a été traité et le modèle de diffusion est lié. L&#39;email est en attente de diffusion et le processus de diffusion classique est appliqué. Pour plus d&#39;informations, vous pouvez ouvrir la diffusion.
 * **Envoyé**,  **** Ignoré et  **Erreur de diffusion** : Ces statuts de diffusion sont récupérés via le workflow  **** updateEventsStatus . Pour plus d&#39;informations, vous pouvez ouvrir la diffusion correspondante.
 * **Événement non pris en charge** : La phase de routage des messages transactionnels a échoué. Par exemple, Adobe Campaign n’a pas trouvé l’email qui sert de modèle pour l’événement.
 * **Evénement expiré** : Le nombre maximal de tentatives d’envoi a été atteint. L’événement est considéré comme nul.
