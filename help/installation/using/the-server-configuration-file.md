@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Le fichier de configuration du serveur
 description: Le fichier de configuration du serveur
@@ -7,8 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 100%
@@ -32,7 +30,7 @@ Les premiers paramètres se trouvent dans le nœud **shared**. Ils sont liés à
 * [dnsConfig](#dnsconfig)
 * [exec](#exec)
 * [htmlToPdf](#htmltopdf)
-* [ims](#ims)
+* [IMS](#ims)
 * [javaScript](#javascript)
 * [mailExchanger](#mailexchanger)
 * [module](#module)
@@ -437,7 +435,7 @@ Pour plus d&#39;informations, voir la section [Gestion des ressources publiques]
  </thead> 
  <tbody> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom du répertoire virtuel <br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -481,7 +479,7 @@ Voici les différents paramètres du nœud **dataStore > preprocessCommand**. I
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom de ligne de commande<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -1584,7 +1582,8 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> retryLostMessages<br /> </td> 
-   <td> Réessayer les messages perdus : les fragments de diffusions seront repris si le processus fils est mort.<br /> </td> 
+   <td> Réessayer les messages perdus : les fragments de diffusions seront repris si le processus enfant est mort.<br />
+ </td> 
    <td> Booléen<br /> </td> 
    <td> vrai<br /> </td> 
   </tr> 
@@ -1639,7 +1638,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> workingPath<br /> </td> 
-   <td> Répertoire de travail : emplacement des fichiers temporaires utilisés par le MTA pour communiquer avec ses processus fils.<br /> </td> 
+   <td> Répertoire de travail : emplacement des fichiers temporaires utilisés par le MTA pour communiquer avec ses processus enfants.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/mta/' <br /> </td> 
   </tr> 
@@ -1738,7 +1737,7 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> Périodicité de recherche dans la base de données des jobs à diffuser. Cette valeur indique le nombre de secondes entre deux recherches dans la base de données. Pour connaître la liste des jobs en attente de diffusion, le MTA interroge la base de données à intervalles de temps réguliers. Lorsqu’il n’y a aucun job en attente, cet intervalle de temps est défini par cette valeur. Par contre, si lors de la dernière recherche, le MTA n’a pu confier un job en attente à un serveur fils, ce délai est automatiquement ramené à une seconde afin de permettre le traitement du job en attente le plus rapidement possible, c’est-à-dire dès qu’un serveur fils est à nouveau disponible. Cela ne signifie pas qu’une requête de base de données sera réalisée toutes les secondes jusqu’à ce qu’un serveur fils soit de nouveau disponible, car l’accès à la base n’est réalisé que si au moins un serveur fils devient disponible.<br /> </td> 
+   <td> Périodicité de recherche dans la base de données des jobs à diffuser. Cette valeur indique le nombre de secondes entre deux recherches dans la base de données. Pour connaître la liste des jobs en attente de diffusion, le MTA interroge la base de données à intervalles de temps réguliers. Lorsqu’il n’y a aucun job en attente, cet intervalle de temps est défini par cette valeur. Par contre, si lors de la dernière recherche, le MTA n’a pu confier un job en attente à un serveur enfant, ce délai est automatiquement ramené à une seconde afin de permettre le traitement du job en attente le plus rapidement possible, c’est-à-dire dès qu’un serveur enfant est à nouveau disponible. Cela ne signifie pas qu’une requête de base de données sera réalisée toutes les secondes jusqu’à ce qu’un serveur enfant soit de nouveau disponible, car l’accès à la base n’est réalisé que si au moins un serveur enfant devient disponible.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -1756,19 +1755,19 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> Nombre maximum de serveurs fils. Représente le nombre maximum de serveurs en fonctionnement. Il n'est pas souhaitable de fixer un nombre trop élevé sans nécessité, car cela consomme inutilement de la mémoire. Vous pouvez vérifier si ce nombre n'est pas trop élevé en étudiant la mémoire consommée sur votre machine lorsqu'une diffusion est en cours. Celle-ci ne doit jamais excéder de plus d'un tiers la mémoire physiquement disponible sur votre machine, car cela signifie que votre swap est mis à contribution. Voir la section <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Processus MTA child</a>.<br /> </td> 
+   <td> Nombre maximum de serveurs enfants. Représente le nombre maximum de serveurs en fonctionnement. Il n'est pas souhaitable de fixer un nombre trop élevé sans nécessité, car cela consomme inutilement de la mémoire. Vous pouvez vérifier si ce nombre n'est pas trop élevé en étudiant la mémoire consommée sur votre machine lorsqu'une diffusion est en cours. Celle-ci ne doit jamais excéder de plus d'un tiers la mémoire physiquement disponible sur votre machine, car cela signifie que votre swap est mis à contribution. Voir la section <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Processus MTA enfant</a>.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> minSpareServers<br /> </td> 
-   <td> Nombre minimum de serveurs fils. Le MTA essaie de conserver au moins le nombre de serveurs disponibles en fonctionnement. S’il en existe moins, les nouveaux seront démarrés au rythme d’un par seconde jusqu’à ce que cette valeur soit atteinte.<br /> </td> 
+   <td> Nombre minimum de serveurs enfants. Le MTA essaie de conserver au moins le nombre de serveurs disponibles en fonctionnement. S’il en existe moins, les nouveaux seront démarrés au rythme d’un par seconde jusqu’à ce que cette valeur soit atteinte.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> Nombre de serveurs fils au démarrage. Le nombre de serveurs fils est contrôlé dynamiquement ; lorsque le MTA démarre, il créé autant de serveurs fils que le nombre précisé par cette valeur. Normalement, les serveurs fils ne peuvent pas être démarrés à un rythme supérieur à plus d’un par seconde pour ne pas surcharger le système, néanmoins lors du démarrage du MTA, cette limitation n’est pas respectée pour que les serveurs fils soient démarrés aussi rapidement que possible.<br /> </td> 
+   <td> Nombre de serveurs enfants au démarrage. Le nombre de serveurs enfants est contrôlé dynamiquement ; lorsque le MTA démarre, il créé autant de serveurs enfants que le nombre précisé par cette valeur. Normalement, les serveurs enfants ne peuvent pas être démarrés à un rythme supérieur à plus d’un par seconde pour ne pas surcharger le système, néanmoins lors du démarrage du MTA, cette limitation n’est pas respectée pour que les serveurs enfants soient démarrés aussi rapidement que possible.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1777,7 +1776,7 @@ Voir à ce sujet cette [section](../../installation/using/configuring-campaign-s
 
 ### child {#child}
 
-Dans le nœud **mta > child**, configurez les paramètres suivants. Il s’agit de la configuration des serveurs fils.
+Dans le nœud **mta > child**, configurez les paramètres suivants. Il s’agit de la configuration des serveurs enfants.
 
 Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39;emails](../../installation/using/email-deliverability.md#email-sending-optimization).
 
@@ -1799,7 +1798,7 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
-   <td> Timeout de fermeture des serveurs fils inactifs. Si un serveur fils reste inactif pendant une période de temps supérieure à la valeur définie par ce paramètre, il se termine automatiquement pour libérer les ressources qu’il consomme inutilement.<br /> </td> 
+   <td> Timeout de fermeture des serveurs enfants inactifs. Si un serveur fils reste inactif pendant une période de temps supérieure à la valeur définie par ce paramètre, il se termine automatiquement pour libérer les ressources qu’il consomme inutilement.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
@@ -1811,13 +1810,13 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> maxGCMConnectPerChild<br /> </td> 
-   <td> Limite maximale du nombre de requêtes HTTP parallèles sur le serveur FCM initiées par chaque serveur fils.<br /> </td> 
+   <td> Limite maximale du nombre de requêtes HTTP parallèles sur le serveur FCM initiées par chaque serveur enfant.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 8<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
-   <td> Nombre maximum de messages par serveur fils. Chaque exemplaire fils du MTA traite ce nombre de messages et meurt. Il est important de préciser ici un nombre tel que toute négligence dans la gestion de la mémoire reste sans conséquence. Bien qu’il n’existe pas de fuite connue dans le MTA, il peut s’en produire dans les feuilles de style XSL ou dans les codes JavaScript présents dans les messages.<br /> </td> 
+   <td> Nombre maximum de messages par serveur enfant. Chaque exemplaire enfant du MTA traite ce nombre de messages et meurt. Il est important de préciser ici un nombre tel que toute négligence dans la gestion de la mémoire reste sans conséquence. Bien qu’il n’existe pas de fuite connue dans le MTA, il peut s’en produire dans les feuilles de style XSL ou dans les codes JavaScript présents dans les messages.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5000000<br /> </td> 
   </tr> 
@@ -1829,7 +1828,7 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
-   <td> Taille maximum en méga-octets de la mémoire qu’un serveur fils est autorisé à consommer. Au-delà de cette taille, le processus doit s’arrêter afin de libérer la mémoire qu’il utilise. <br /> </td> 
+   <td> Taille maximum en méga-octets de la mémoire qu’un serveur enfant est autorisé à consommer. Au-delà de cette taille, le processus doit s’arrêter afin de libérer la mémoire qu’il utilise. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 128<br /> </td> 
   </tr> 
@@ -1886,7 +1885,8 @@ Dans le nœud **mta > child > smtp**, configurez les paramètres suivants. Il 
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> Nombre maximum de sessions SMTP par serveur fils. Pour délivrer un message, le MTA initie une connexion SMTP vers le MTA du destinataire. Le nombre maximum de sessions SMTP actives en même temps sur un serveur fils est limité par cette valeur. En multipliant cette valeur à maxSpareServers, on obtient le nombre maximum de messages qui peuvent être délivrés en parallèle sur un serveur fils.<br /> </td> 
+   <td> Nombre maximum de sessions SMTP par serveur enfant. Pour délivrer un message, le MTA initie une connexion SMTP vers le MTA du destinataire. Le nombre maximum de sessions SMTP actives en même temps sur un serveur enfant est limité par cette valeur. En multipliant cette valeur à maxSpareServers, on obtient le nombre maximum de messages qui peuvent être délivrés en parallèle sur un serveur enfant.<br />
+ </td> 
    <td> Long<br /> </td> 
    <td> 1000<br /> </td> 
   </tr> 
@@ -1912,7 +1912,7 @@ Pour plus d&#39;informations, voir les sections [Liste des adresses IP à utilis
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom logique : noms associés à l’affinité par les utilisateurs. Le séparateur des noms est un point-virgule ;<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -1988,7 +1988,7 @@ Voici les différents paramètres du nœud **nmac**. Il s’agit de la configura
  </tbody> 
 </table>
 
-### relayer {#relay-1}
+### relay {#relay-1}
 
 Voici les différents paramètres du nœud **nmac > relay**. Il s’agit de la configuration d’un relais pour diffuser des messages (connecteur ios http2).
 
@@ -2236,13 +2236,13 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> libellé<br /> </td> 
+   <td> label<br /> </td> 
    <td> Libellé<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -2304,7 +2304,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
  </thead> 
  <tbody> 
   <tr> 
-   <td> libellé<br /> </td> 
+   <td> label<br /> </td> 
    <td> Libellé<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2316,7 +2316,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -3030,7 +3030,7 @@ Voici les différents paramètres du nœud **web > jssp**. Il s’agit de la co
 
 Le nœud **web > jsp > classpath** contient la liste de tous les Class Paths à utiliser lors du démarrage de la JVM.
 
-### relayer {#relay-2}
+### relay {#relay-2}
 
 Voici les différents paramètres du nœud **web > relay**. Il s’agit de la configuration du relais de requêtes HTTP entre deux zones.
 
@@ -3247,7 +3247,7 @@ Pour plus d&#39;informations, voir la section [Gestion des en-têtes HTTP (HTTP 
  </thead> 
  <tbody> 
   <tr> 
-   <td> name<br /> </td> 
+   <td> name&lt;a0/<br /> </td> 
    <td> Nom de l’en-tête<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
