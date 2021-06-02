@@ -27,6 +27,7 @@ Le paramètre **`<command>`** correspond au module.
 >
 >* Vous pouvez dans tous les cas adjoindre l&#39;argument **-noconsole** afin de supprimer les commentaires affichés après le lancement des modules.
 >* A contrario, vous pouvez ajouter l&#39;argument **-verbose** pour afficher plus d&#39;informations.
+
 >
 
 
@@ -160,6 +161,8 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >* D&#39;une manière générale, au lieu de modifier les fichiers de configuration à la main, vous pouvez utiliser la commande **config**.
 >* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** : **nlserver config -?**
 >* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
+
 >
->  nlserver config -setdblogin:Oracle:test6@dbserver
+>  
+nlserver config -setdblogin:Oracle:test6@dbserver
 
