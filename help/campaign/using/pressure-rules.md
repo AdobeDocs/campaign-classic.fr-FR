@@ -154,14 +154,12 @@ Par exemple, une règle de pression qui définit un seuil de 2 messages par sema
 >
 >* Saisir la valeur **15j** dans le champ **[!UICONTROL Période concernée]** : les diffusions envoyées jusqu&#39;à 15 jours avant à la date de la diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul,
 >
->  
-ou
+>  ou
 >
 >* Entrez **7d** dans le champ **[!UICONTROL Période concernée]** ET cochez la case **[!UICONTROL Prendre en compte les diffusions du calendrier prévisionnel]**.\
-   >Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
+>Option : les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 >
->
-Le jour de début de la période dépend du paramétrage de la base de données.
+>Le jour de début de la période dépend du paramétrage de la base de données.
 
 Ainsi, si l&#39;on applique à une diffusion du 11/11 une règle de pression s&#39;appliquant sur 15 jours et sans regroupement, la période pendant laquelle les diffusions seront prises en compte s&#39;étendra du 27/10 au 12/11. Si la règle de pression prend en compte les diffusions du calendrier prévisionnel, les diffusions comptabilisées seront celles dont la date de diffusion est comprise entre le 27/10 et le 27/11. Enfin, si l&#39;on paramètre au niveau de la règle un regroupement au mois calendaire, toutes les diffusions des mois d&#39;octobre et novembre seront prises en compte dans le calcul du seuil (du 1/10 au 30/11).
 

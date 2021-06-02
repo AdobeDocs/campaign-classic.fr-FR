@@ -21,7 +21,6 @@ La **stack trace** représente une trace contenue dans un fichier de type **core
 >
 >* Un fichier **core** se présente sous le nom **core.`<num>`**.
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
-
 >
 
 
