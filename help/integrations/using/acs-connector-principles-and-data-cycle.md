@@ -9,7 +9,7 @@ exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ La réplication des logs des emails et des identifiants des diffusions permet d�
 
 ACS Connector synchronise les quarantaines entre Campaign v7 et Campaign Standard.
 
-Imaginons par exemple qu’un profil qui a été répliqué depuis Campaign v7 vers Campaign Standard comprend une adresse email. Si l’adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d’informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html).
+Imaginons par exemple qu’un profil qui a été répliqué depuis Campaign v7 vers Campaign Standard comprend une adresse email. Si l’adresse email est mise en quarantaine par Campaign Standard, les données sont transmises à Campaign v7 lors de la synchronisation suivante. Pour plus d’informations sur les quarantaines, consultez les sections [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md) et [Quarantaines Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=fr).
 
 ### Utilisation de profils répliqués {#using-replicated-profiles}
 
