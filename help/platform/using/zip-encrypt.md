@@ -9,7 +9,7 @@ exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors
 
 Pour ce faire :
 
-1. Installez une paire de clés GPG pour votre instance à l&#39;aide du [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data).
+1. Installez une paire de clés GPG pour votre instance à l&#39;aide du [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr#encrypting-data).
 
    >[!NOTE]
    >
-   >Le Panneau de Contrôle est limité aux utilisateurs administrateurs et est disponible uniquement pour certaines versions de Campaign. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr)
+   >Le Panneau de contrôle est restreint aux utilisateurs administrateurs et est disponible uniquement pour certaines versions de Campaign. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr)
 
 1. Si votre installation d&#39;Adobe Campaign est hébergée par Adobe, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) afin que les utilitaires nécessaires soient installés sur le serveur.
 1. S&#39;il s&#39;agit d&#39;une installation on-premise, installez l&#39;utilitaire que vous souhaitez utiliser (GPG ou GZIP, par exemple) ainsi que les clés (clé de cryptage) nécessaires sur le serveur applicatif.
@@ -32,7 +32,7 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICO
 
 **Rubriques connexes :**
 
-* [Décompression ou déchiffrement d’un fichier avant traitement](../../platform/using/unzip-decrypt.md)
+* [Décompression ou déchiffrement d&#39;un fichier avant traitement](../../platform/using/unzip-decrypt.md)
 * [Activité Extraction (fichier)](../../workflow/using/extraction--file-.md).
 
 ## Cas pratique : chiffrage et export de données à l’aide d’une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
