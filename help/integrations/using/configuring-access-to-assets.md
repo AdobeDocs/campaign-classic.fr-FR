@@ -9,7 +9,7 @@ exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cette section décrit les étapes de configuration nécessaires dans Adobe Campa
 
 >[!NOTE]
 >
->Si les deux packages (**[!UICONTROL Intégration AEM]** et **[!UICONTROL Intégration à Adobe Experience Cloud]** ) sont installés, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud peuvent être utilisées.
+>Si les deux packages (**[!UICONTROL Intégration AEM]** et **[!UICONTROL Intégration avec Adobe Experience Cloud]**) sont installés, seules les ressources disponibles dans la bibliothèque Adobe Experience Cloud peuvent être utilisées.
 
 ## Intégration avec Experience Cloud Assets {#integrating-with-experience-cloud-assets}
 
