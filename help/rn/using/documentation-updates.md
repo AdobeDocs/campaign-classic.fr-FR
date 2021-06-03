@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
 workflow-type: tm+mt
 source-wordcount: '4416'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,19 +25,19 @@ La section **Messagerie transactionnelle** a été réorganisée et clarifiée a
 
 ## Mai 2021 {#may-2021}
 
-La documentation du rapport Carte thermique des workflows a été mise à jour et améliorée. [En savoir plus](../../workflow/using/heatmap.md)
+La documentation sur le rapport de carte thermique des workflows a été mise à jour et améliorée. [En savoir plus](../../workflow/using/heatmap.md)
 
 Les exigences de la console cliente Campaign ont été mises à jour dans la matrice de compatibilité. [En savoir plus](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
-L’installation de la console cliente Campaign pour les étapes a été améliorée et clarifiée. [En savoir plus](../../installation/using/installing-the-client-console.md)
+L&#39;installation de la console cliente Campaign pour les étapes a été améliorée et clarifiée. [En savoir plus](../../installation/using/installing-the-client-console.md)
 
-Une nouvelle technote a été créée concernant le problème de signature des URL trackées. [En savoir plus](../../technotes/tracked-urls.md)
+Une nouvelle note technique a été créée concernant le problème de signature des URL trackées. [En savoir plus](../../technotes/tracked-urls.md)
 
 ## Avril 2021 {#april-2021}
 
 Une nouvelle section a été consacrée à la manière d&#39;utiliser les sources et destinations Adobe Experience Platform pour partager des données entre Campaign Classic et Real-time Customer Data Platform (RTCDP). [En savoir plus](../../integrations/using/get-started-sources-destinations.md)
 
-Une nouvelle technote a été créée pour apprendre à mettre à jour la qualification des bounces après une panne de FAI. [En savoir plus](../../delivery/using/update-bounce-qualification.md)
+Une nouvelle note technique a été créée pour apprendre à mettre à jour la qualification des bounces après une panne de FAI. [En savoir plus](../../delivery/using/update-bounce-qualification.md)
 
 ## Mars 2021 {#march-2021}
 
