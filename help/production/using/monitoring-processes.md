@@ -9,7 +9,7 @@ exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '3779'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -338,7 +338,7 @@ Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
 ## Rapport de billing {#billing-report}
 
-Le workflow technique **[!UICONTROL Facturation]** envoie par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Il est déclenché par défaut le 25 de chaque mois sur l’instance Marketing.
+Le workflow technique **[!UICONTROL Facturation]** envoie par email le rapport d&#39;activité du système à l&#39;opérateur &#39;billing&#39;. Il est déclenché par défaut le 25 de chaque mois sur l&#39;instance Marketing.
 
 Ce workflow technique se trouve dans un sous-dossier du nœud suivant : **Administration** > **Production** > **Workflows techniques**.
 
