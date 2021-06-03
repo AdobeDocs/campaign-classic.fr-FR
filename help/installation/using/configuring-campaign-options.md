@@ -20,9 +20,8 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
 >[!CAUTION]
 >
 >* Les options non répertoriées dans cette page sont exclusivement internes et **ne doivent pas être modifiées**.
-   >
-   >
-* La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
+>
+>* La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
 
 
 ## Diffusion {#delivery}
