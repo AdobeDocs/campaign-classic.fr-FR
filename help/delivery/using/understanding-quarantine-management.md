@@ -68,7 +68,7 @@ Les informations disponibles pour chacune des adresses sont les suivantes :
 >L&#39;augmentation du nombre de quarantaines est un phénomène normal, lié à &quot;l&#39;usure&quot; de la base. Par exemple, si l&#39;on considère que la durée de vie d&#39;une adresse email est de trois ans et que la table des destinataires augmente de 50% tous les ans, l&#39;augmentation des quarantaines peut être calculée comme suit :
 >
 >Fin de l&#39;année 1 : (1*0,33)/(1+0,5)=22%.
-Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+>Fin de l&#39;année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
 ### Identifier les adresses en quarantaine dans les rapports de diffusion {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -111,7 +111,8 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
 >[!IMPORTANT]
-Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
+>
+>Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un email.
 
 Vous pouvez modifier le nombre d&#39;erreurs et la période entre deux erreurs. Pour ce faire, modifiez les paramètres correspondants dans l&#39;assistant de déploiement (**[!UICONTROL Canal email]** > **[!UICONTROL Paramètres avancés]**). Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md).
 
@@ -251,10 +252,11 @@ Le workflow **[!UICONTROL mobileAppOptOutMgt]** s&#39;exécute toutes les 6 heu
 Pendant l&#39;analyse de la diffusion, tous les appareils qui sont exclus de la cible sont automatiquement ajoutés à la table **excludeLogAppSubRcp**.
 
 >[!NOTE]
-Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
-* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
-* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
-* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
+>
+>Pour les utilisateurs qui ont recours au connecteur Baidu, voici les différents types d&#39;erreur :
+>* Problème de connexion au début de la diffusion : type d&#39;échec **[!UICONTROL Indéfini]**, raison d&#39;échec **[!UICONTROL Inatteignable]**, reprise effectuée.
+>* Perte de connexion pendant une diffusion : erreur soft, raison d&#39;échec **[!UICONTROL Refusés]**, reprise effectuée.
+>* Erreur synchrone renvoyée par Baidu pendant l&#39;envoi : erreur hard, raison d&#39;échec **[!UICONTROL Refusés]**, aucune reprise.
 
 Adobe Campaign contacte le serveur Baidu toutes les 10 minutes pour récupérer le statut du message envoyé et met à jour les broadlogs. Si un message est déclaré comme envoyé, le statut du message dans les broadlogs est défini sur **[!UICONTROL Reçu]**. Si Baidu déclare une erreur, le statut est défini sur **[!UICONTROL Echoué]**.
 
@@ -474,7 +476,8 @@ Le mécanisme de mise en quarantaine Android V2 utilise le même processus qu&#3
 Le mécanisme de quarantaine des messages SMS est globalement identique au processus général. Voir [A propos des quarantaines](#about-quarantines). Les spécificités des SMS sont énumérées ci-dessous.
 
 >[!NOTE]
-Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
+>
+>Le tableau **[!UICONTROL Qualification des logs de diffusion]** ne s&#39;applique pas au connecteur **SMPP Générique étendu**.
 
 <table> 
  <tbody> 
@@ -532,8 +535,9 @@ Le connecteur SMPP récupère les données du message du SR (rapport d&#39;état
 Avant qu&#39;un nouveau type d&#39;erreur ne soit qualifié, la raison de l&#39;échec est toujours défini sur **Refusé** par défaut.
 
 >[!NOTE]
-Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
-Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
+>
+>Les raisons et les types des échecs sont les mêmes que pour les emails. Voir la section [Types de diffusion en échec et raisons](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Demandez à votre prestataire la liste des codes d&#39;erreur et des états pour définir les types et les raisons corrects des erreurs dans la table Qualification des logs de diffusion.
 
 Exemple de message généré :
 
