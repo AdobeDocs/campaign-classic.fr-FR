@@ -9,7 +9,7 @@ exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '3944'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
 
 >[!CAUTION]
 >
->* Les options non répertoriées dans cette page sont internes uniquement et **ne doivent pas être modifiées**.
+>* Les options non répertoriées dans cette page sont exclusivement internes et **ne doivent pas être modifiées**.
    >
    >
 * La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
