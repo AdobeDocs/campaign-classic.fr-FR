@@ -144,7 +144,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 1. Arrêtez les services suivants :
 
-   * services Web (IIS) :   **iisreset /stop**
+   * services Web (IIS) :    **iisreset /stop**
    * service Adobe Campaign : **net stop nlserver6**
 
    >[!NOTE]
