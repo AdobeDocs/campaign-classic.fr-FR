@@ -9,7 +9,7 @@ exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -97,13 +97,13 @@ Les profils exclus lors de la préparation de la diffusion (règles de typologie
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Dans l&#39;explorateur Campaign, accédez à **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]** pour avoir un aperçu du nombre de profils principaux. Le comptage réel est effectué par le **[!UICONTROL nombre de profils de facturation principaux]** ([!UICONTROL billingActiveContactCount]) [workflow technique](../../workflow/using/about-technical-workflows.md). Ce workflow s’exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le dossier **[!UICONTROL Mesures client]** .
+Dans l&#39;explorateur Campaign, accédez à **[!UICONTROL Administration > Gestion de campagne > Mesures des clients]** pour avoir un aperçu du nombre de profils actifs. Le comptage réel est effectué par le [workflow technique](../../workflow/using/about-technical-workflows.md) **[!UICONTROL Comptage des profils de facturation actifs]** ([!UICONTROL billingActiveContactCount]). Ce workflow s&#39;exécute tous les jours et ajoute les nouvelles données au rapport existant pour la période en cours dans le dossier **[!UICONTROL Mesures des clients]**.
 
 Le nombre de profils actifs est disponible pour les **instances marketing** uniquement. Il n’est pas disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center / messagerie en temps réel).
 
 >[!NOTE]
 >
->Vous pouvez également surveiller le nombre de profils principaux sur votre instance directement depuis le Panneau de Contrôle Campaign. Pour plus d&#39;informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
+>Vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du Panneau de contrôle de Campaign. Pour plus d&#39;informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
 
 ## Tutoriel vidéo {#create-profiles-video}
 
