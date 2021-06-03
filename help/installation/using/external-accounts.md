@@ -9,7 +9,7 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ Pour vous connecter à la console Adobe Campaign à l&#39;aide d&#39;un Adobe I
 
 * **[!UICONTROL Identifiant de l&#39;organisation IMS]**
 
-   ID de votre organisation IMS. Pour trouver l’ID d’organisation, consultez [cette page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) (**Où puis-je trouver mon ID d’organisation IMS ?**).
+   Identifiant de votre organisation IMS. Pour trouver votre identifiant d&#39;organisation, consultez [cette page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=fr) (**Où puis-je trouver mon identifiant de l&#39;organisation IMS ?**).
 
 * **[!UICONTROL Masque de correspondance]**
 
