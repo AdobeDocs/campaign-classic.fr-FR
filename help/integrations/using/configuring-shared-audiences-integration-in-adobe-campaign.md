@@ -9,7 +9,7 @@ exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 98%
 
 Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
-1. [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign         ](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+1. [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 1. [Etape 2 : configuration de la source de données](#step-2--configure-the-data-source)
-1. [Étape 3 : Configuration du serveur de tracking Campaign      ](#step-3--configure-campaign-tracking-server)
+1. [Étape 3 : Configuration du serveur de tracking Campaign](#step-3--configure-campaign-tracking-server)
 1. [Étape 4 : Configuration du service d&#39;identification des visiteurs](#step-4--configure-the-visitor-id-service)
 
 >[!IMPORTANT]
 >
 >Si vous utilisez le domaine demdex et que vous suivez la syntaxe **ftp-out.demdex.com** pour le compte externe d&#39;import et **ftp-in.demdex.com** pour le compte externe d&#39;export, vous devez adapter votre implémentation en conséquence et passer au connecteur Amazon Simple Storage Service (S3) pour importer ou exporter des données. Pour plus d&#39;informations sur la configuration de vos comptes externes avec Amazon S3, consultez cette [section](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
 
-## Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign         {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+## Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign          {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;Adobe Campaign en procédant comme suit :
 
@@ -76,7 +76,7 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
    ![](assets/aam_config_3.png)
 
-## Étape 3 : Configuration du serveur de tracking Campaign         {#step-3--configure-campaign-tracking-server}
+## Étape 3 : Configuration du serveur de tracking Campaign          {#step-3--configure-campaign-tracking-server}
 
 Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
@@ -84,6 +84,6 @@ Vérifiez que le serveur de tracking Campaign est enregistré sur le domaine (CN
 
 ## Étape 4 : Configuration du service d&#39;identification des visiteurs {#step-4--configure-the-visitor-id-service}
 
-Si le service d&#39;identification des visiteurs (Visitor ID) n&#39;a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service .
+Si le service d&#39;identification des visiteurs (Visitor ID) n&#39;a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=fr) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service .
 
 La configuration et la mise en service sont terminées. L&#39;intégration peut être maintenant utilisée pour importer et exporter des audiences ou des segments.
