@@ -6,9 +6,9 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
 workflow-type: tm+mt
-source-wordcount: '4387'
+source-wordcount: '4416'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 98%
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation par mois et par version de Campaign.
 
 Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md) pour connaître les mises à jour relatives aux versions.
+
+## Juin 2021 {#june-2021}
+
+La section **Messagerie transactionnelle** a été réorganisée et clarifiée avec une nouvelle section Prise en main, y compris un [schéma amélioré](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) pour une meilleure compréhension du processus. [En savoir plus](../../message-center/using/about-transactional-messaging.md)
 
 ## Mai 2021 {#may-2021}
 
