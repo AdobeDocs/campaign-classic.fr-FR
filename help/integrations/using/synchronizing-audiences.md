@@ -9,7 +9,7 @@ exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -137,15 +137,15 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuite
 
 ## Envoyer et suivre votre diffusion {#send-and-monitor-your-delivery}
 
-Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion :
+Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion :
 
 1. Exécutez le workflow de diffusion. Cette étape prépare l&#39;envoi de l&#39;email.
 1. Dans le tableau de bord de la diffusion, validez manuellement l&#39;envoi de la diffusion.
 1. Examinez les rapports et les logs de la diffusion :
 
-   * **Dans Campaign Standard** : accédez aux [rapports](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) et [logs](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) relatifs à la diffusion comme pour toute autre diffusion.
+   * **Dans Campaign Standard** : accédez aux [rapports](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=fr) et [logs](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=fr) relatifs à la diffusion comme pour toute autre diffusion.
    * **Dans Campaign v7 et Campaign Standard** : les identifiants des diffusions, les broadLogs et les logs de tracking des emails sont synchronisés dans Campaign v7. Vous obtenez alors une vue à 360° de vos campagnes marketing depuis Campaign v7.
 
       Les quarantaines sont automatiquement synchronisées avec Campaign v7. Ainsi, les informations de non-délivrabilité peuvent être prises en compte pour le prochain ciblage effectué dans Campaign v7.
 
-      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en).
+      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=fr).
