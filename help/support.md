@@ -7,7 +7,7 @@ exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -111,22 +111,22 @@ Le panneau de contrôle est directement accessible à partir d’Adobe Experien
 
 ### Gestion SFTP
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) pour plus d’informations.
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d’informations.
 
 ### Sous-domaines et certificats
 
-Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus sur ces pages :
+Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus dans ces pages :
 * [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
 * [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
 * [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr)
 
 ### Paramètres des instances
 
-Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le panneau de contrôle. En savoir plus sur ces pages :
-* [Ajoutez des adresses IP sur la ](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) liste autorisée pour accéder à vos instances Campaign.
-* [Gestion des autorisations d’URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
-* [Accès aux détails de l’instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
-* [Gestion des clés GPG pour le cryptage des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr)
+Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le panneau de contrôle. En savoir plus dans ces pages :
+* [Ajout d&#39;adresses IP sur la liste autorisée](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) pour accéder à vos instances Campaign.
+* [Gestion des autorisations d&#39;URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
+* [Accès aux détails de l&#39;instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
+* [Gestion des clés GPG pour le chiffrement des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr)
 
 ## Demande d’aide {#support}
 
