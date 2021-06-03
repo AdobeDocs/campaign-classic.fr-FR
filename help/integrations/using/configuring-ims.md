@@ -9,7 +9,7 @@ exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 96%
 
 ## Conditions préalables requises {#prerequisites}
 
-Pour utiliser l&#39;intégration avec l&#39;IMS, les éléments suivants sont requis :
+Pour utiliser l&#39;intégration avec l&#39;IMS, les éléments suivants sont requis :
 
 * Vous devez disposer d’une organisation Adobe Experience Cloud et d’identifiants IMS (fournis lors de la première connexion à Adobe Experience Cloud).
-* Vous devez ajouter des utilisateurs dans Experience Cloud. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+* Vous devez ajouter des utilisateurs dans Experience Cloud. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Configurez le compte externe **Adobe Experience Cloud** dans **[!UICONTROL Admin
 
 Renseignez les informations suivantes :
 
-* les informations de connexion au serveur IMS utilisé (identifiant et secret). Ces informations sont fournies par le support Adobe. Pour plus d&#39;informations, consultez la [FAQ Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html).
+* les informations de connexion au serveur IMS utilisé (identifiant et secret). Ces informations sont fournies par le support Adobe. Pour plus d&#39;informations, consultez la [FAQ Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=fr).
 
    L&#39;adresse du **[!UICONTROL Serveur de rappel]** (callback server) doit être indiquée en **https**. Ce champ correspond à l&#39;URL d&#39;accès à votre instance Adobe Campaign.
 
