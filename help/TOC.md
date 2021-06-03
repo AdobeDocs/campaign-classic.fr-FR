@@ -10,12 +10,12 @@ type: Documentation
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '2477'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Documentation de Adobe Campaign Classic v7 {#using}
+# Documentation d&#39;Adobe Campaign Classic v7 {#using}
 
 + [Documentation Campaign v7](campaign-classic-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
@@ -479,7 +479,7 @@ ht-degree: 98%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle            {#monitoring}
+      + Contrôle             {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
