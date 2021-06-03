@@ -8,7 +8,7 @@ exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
 * Exécution du workflow : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plate-forme. Suivez les directives répertoriées [dans ce document](../../workflow/using/workflow-best-practices.md#execution-and-performance).
 
-* Si vous êtes éligible, vous pouvez tirer parti des [fonctionnalités du panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Si vous êtes éligible, vous pouvez tirer profit des [fonctionnalités du panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l&#39;aide des fonctionnalités de [surveillance des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
 
 ## Vérifier la configuration du réseau {#network-config}
 
