@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: b99de2a47bac08578d6e660595eb14c0858bf9fd
 workflow-type: tm+mt
-source-wordcount: '3944'
-ht-degree: 100%
+source-wordcount: '3964'
+ht-degree: 99%
 
 ---
 
@@ -20,8 +20,9 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
 >[!CAUTION]
 >
 >* Les options non répertoriées dans cette page sont exclusivement internes et **ne doivent pas être modifiées**.
->
->* La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
+   >
+   >
+* La modification ou la mise à jour des options d’Adobe Campaign ne peut être effectuée que par des utilisateurs experts.
 
 
 ## Diffusion {#delivery}
@@ -50,6 +51,10 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
    <td> <span class="uicontrol">DmRendering_SeedTargets</span> <br /> </td> 
    <td> Liste des schémas pour lesquels vous souhaitez utiliser des adresses de test pour l'Inbox Rendering (les noms des éléments sont séparés par des virgules). Par exemple : custom_nms_recipient.<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
+   <td> Adresse email en Cci à laquelle le MTA amélioré enverra une copie brute des emails envoyés. <br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
    <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seul l'opérateur ou le groupe d'opérateurs désigné pour l'envoi (ou un administrateur) dans les propriétés de la diffusion pourra confirmer et effectuer l'envoi. Voir <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">cette section</a>.</p> </td> 
