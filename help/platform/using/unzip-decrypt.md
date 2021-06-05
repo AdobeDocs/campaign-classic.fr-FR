@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 6f5e91a719553fbeb97811d30ce6318f857bec80
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 100%
+source-wordcount: '745'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign permet d&#39;importer des fichiers compressés ou chiffrés. Avan
 
 Pour ce faire :
 
-1. Utilisez le [panneau de Contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) pour générer une paire de clés publique/privée.
+1. Utilisez le [panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) pour générer une paire de clés publique/privée.
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ Dans ce cas pratique, nous allons créer un workflow afin d&#39;importer des don
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La clé publique sera partagée avec le système externe. Ce dernier l&#39;utilisera pour crypter les données à envoyer à Campaign.
    * Campaign Classic utilisera la clé privée pour décrypter les données cryptées entrantes.
