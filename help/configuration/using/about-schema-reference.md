@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 86%
 
 ---
 
@@ -74,18 +74,13 @@ Un schéma de données est identifié par son nom et son espace de noms.
 
 Un espace de noms permet de regrouper un ensemble de schémas par centres d&#39;intérêt. Par exemple, on utilisera l&#39;espace de noms **cus** pour le paramétrage spécifique aux clients (**customers**).
 
+La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39;, par exemple **cus:recipient**.
+
 >[!IMPORTANT]
 >
->Par convention, le nom de l&#39;espace de noms doit être concis et ne comprendre que des caractères autorisés conformes aux règles de nommage des noms XML.
+>Le nom de l&#39;espace de noms doit être concis et ne contenir que des caractères autorisés conformes aux règles de nommage XML.
 >
 >Les identifieurs ne doivent pas commencer par des caractères numériques.
+>
+>Les espaces de noms suivants sont réservés à la description des entités système requises pour le fonctionnement de l’application Adobe Campaign et ne doivent pas être utilisés : **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm&lt;a1 3/>,** xxl **.**
 
-Certains espaces de noms sont réservés pour la description des entités systèmes nécessaires au bon fonctionnement de l&#39;application Adobe Campaign :
-
-* **xtk** : relatif aux données système de la plateforme,
-* **nl** : relatif à l&#39;utilisation globale de l&#39;application,
-* **nms** : relatif à la diffusion (destinataire, diffusion, tracking, etc.),
-* **ncm** : relatif à la gestion de contenu,
-* **temp** : réservé aux schémas temporaires.
-
-La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39;, par exemple **cus:recipient**.
