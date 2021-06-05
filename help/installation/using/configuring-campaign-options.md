@@ -6,16 +6,17 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: c095d7ddde4b4ac23467ebd0fa8ee2fb613aacdc
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '3944'
-ht-degree: 100%
+source-wordcount: '3975'
+ht-degree: 99%
 
 ---
 
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
 Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de paramétrer les options d&#39;Adobe Campaign. Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
+
 
 >[!CAUTION]
 >
@@ -399,6 +400,14 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td> <span class="uicontrol">RestrictEditingOOTBSchema</span> <br /> </td> 
+   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l’édition des schémas intégrés.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
+   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l’édition des codes JavaScript intégrés.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
    <td> (Mode de compatibilité d’installation : build &gt; 6000) Lorsqu’elle est activée (valeur « 1 »), cette option permet l’utilisation d’anciens mots de passe stockés dans la base de données pour la connexion aux comptes externes ou à l’instance.<br /> </td> 
