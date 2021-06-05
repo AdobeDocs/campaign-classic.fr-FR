@@ -6,9 +6,9 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1953'
 ht-degree: 53%
 
 ---
@@ -23,14 +23,14 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 ## ![](assets/do-not-localize/blue_2.png) Version 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
-_4 juin 2021_
+_5 juin 2021_
 
 **Nouveautés**
 
 <table>
 <thead>
 <tr>
-<th><strong>Intégration de Journey Orchestration</strong><br/></th>
+<th><strong>Intégration à Adobe Journey Orchestration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -47,7 +47,7 @@ _4 juin 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Amélioration du canal LINE</strong><br /> </th> 
+<th> <strong>Améliorations du canal LINE</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
