@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    ![](assets/file_transfert_edit.png)
 
-   Cochez l&#39;option **[!UICONTROL Utilisez un compte externe]** pour sélectionner un compte parmi les comptes S3, FTP ou SFTP paramétrés dans le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l&#39;arborescence. Indiquez ensuite le répertoire sur le serveur contenant le ou les fichiers à transférer.
+   Cochez **[!UICONTROL Utiliser un compte externe]** pour sélectionner un compte à partir du noeud de stockage Azure Blob, S3, FTP ou SFTP configuré dans le noeud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l’arborescence. Indiquez ensuite le répertoire sur le serveur contenant le ou les fichiers à télécharger.
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -87,7 +87,7 @@ Le lien **[!UICONTROL Paramètres avancés...]** permet d&#39;accéder aux optio
 
 * **[!UICONTROL Afficher les logs de la session]**
 
-   Permet de récupérer les logs du transfert S3, FTP ou SFTP et de les inclure dans les logs du workflow.
+   Permet de récupérer les logs du stockage Azure Blob, du transfert S3, FTP ou SFTP et de les inclure dans les logs du workflow.
 
 * **[!UICONTROL Désactiver le mode passif]**.
 
