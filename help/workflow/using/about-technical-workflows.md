@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,6 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Mid-sourcing (compteurs des diffusions)** (defaultMidSourcingDlv) | Emission vers Mid-sourcing | Ce workflow collecte les informations de comptage des diffusions sur le serveur de mid-sourcing. Les informations de comptage comprennent les indicateurs généraux de diffusion tels que le nombre de diffusions envoyées, etc. Les informations de tracking comme les ouvertures ne sont pas incluses. Par défaut, il se déclenche toutes les dix minutes. |
 | **Mid-sourcing (logs de diffusion)** (defaultMidSourcingLog) | Emission vers Mid-sourcing | Ce workflow collecte les logs des diffusions sur le serveur de mid-sourcing. Par défaut, il se déclenche toutes les heures. |
 | **Gestion des opt-out NMAC** (mobileAppOptOutMgt) | Mobile App Channel | Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit. Pour plus d&#39;informations, voir à ce sujet [cette section](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines). |
-| **Comptage des profils de facturation actifs** (billingActiveContactCount) | Diffusion | Ce workflow compte le nombre de profils actifs. Par défaut, il se déclenche toutes les nuits à 1h00 du matin. Un « Profil » désigne un enregistrement d’informations (par exemple : un enregistrement dans la table nmsRecipient ou une table externe contenant un identifiant de cookie, un identifiant client, un identifiant mobile ou d’autres informations relatives à un canal particulier) représentant un client final ou un prospect. La facturation concerne uniquement les Profils &quot;actifs&quot;. Un Profil est considéré comme &quot;actif&quot; s’il a été ciblé ou a fait l’objet de communications au cours des 12 derniers mois par un canal quelconque. Les canaux Facebook et Twitter ne sont pas pris en compte. Vous pouvez obtenir un aperçu du Comptage des profils actifs depuis le menu Administration > Gestion de campagne > Mesures des clients. |
 | **Notification d&#39;offre** (offerMgt) | Diffusion | Toutes les heures, ce workflow déploie les offres validées sur l&#39;environnement en ligne, ainsi que toutes les catégories contenues dans le catalogue d&#39;offres. |
 | **Nettoyage des workflows en pause** (cleanupPausedWorkflows) | Diffusion | Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu&#39;ils sont en pause depuis trop longtemps. Après un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, ce workflow est déclenché tous les lundis à 5h00. Pour plus d’informations, voir [Gérer les workflows en pause](../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows). |
 | **Nettoyage des demandes d&#39;accès à des informations personnelles** (cleanupPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow supprime les fichiers de demande d’accès qui ont plus de 90 jours. |
@@ -69,7 +68,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Synchronisation des propositions** (propositionSynch) | Contrôle du moteur d’offres avec l’instance d’exécution | Ce workflow synchronise les propositions entre les instances marketing et d’exécution utilisées pour les interactions. |
 | **Récupération des événements web** (webAnalyticsGetWebEvents) | Connecteurs Web Analytics | Toutes les heures, ce workflow télécharge les segments portant sur le comportement des internautes sur un site donné, les inclut dans la base de données Adobe Campaign et lance le workflow de re-marketing. |
 | **Agrégats du reporting** (reportingAggregates) | Diffusion | Ce workflow met à jour les agrégats utilisés dans les rapports. Par défaut, il se déclenche tous les jours à 2H00. |
-| **Envoi des indicateurs et des attributs de campagne** (webAnalyticsSendMetrics) | Connecteurs Web Analytics | Ce workflow permet d’envoyer les indicateurs des campagnes email depuis Adobe Campaign vers Adobe Experience Cloud via le connecteur Adobe® Genesis. Les indicateurs concernés sont les suivants : Envoyés (iSent), Nombre total d’ouvertures (iTotalRecipientOpen), Nombre total de destinataires ayant cliqué (iTotalRecipientClick), Erreurs (iError), Désinscription (opt-out) (iOptOut). |
+| **Envoi des indicateurs et des attributs de campagne** (webAnalyticsSendMetrics) | Connecteurs Web Analytics | Ce workflow permet d&#39;envoyer les indicateurs des campagnes email depuis Adobe Campaign vers Adobe Experience Cloud Suite via le connecteur Adobe® Analytics. Les indicateurs concernés sont les suivants : Envoyé (Envoyé), Nombre total d&#39;ouvertures (iTotalRecipientOpen), Nombre total de destinataires ayant cliqué (iTotalRecipientClick), Erreurs (iError), Opposition (opt-out) (iOptOut). |
 | **Stock : commandes et alertes** (stockMgt) | Campagnes marketing (Campaign) | Ce workflow lance le calcul des stocks sur les lignes de commande et gère les seuils d&#39;alerte. |
 | **Synchronisation des fans Facebook** (syncFacebookFans) | Réseaux sociaux (Social Marketing) | Ce workflow importe les fans Facebook dans Adobe Campaign tous les jours à 7H00. |
 | **Synchronisation des pages Facebook** (syncFacebook) | Réseaux sociaux (Social Marketing) | Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00. |
