@@ -3,10 +3,10 @@ keywords: Campaign Standard;accueil;sujets populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 94%
 
 ---
 
@@ -16,17 +16,15 @@ ht-degree: 100%
 
 ## Nouveautés
 
+* **[La version de juin est en ligne !](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs des notes de mise à jour
+
 * **[Suppression des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)**<br/> Découvrez comment mettre à jour les erreurs hard incorrectes après une panne d’Apple.
 
-* **[Mise à jour de votre certificat APNs](technotes/ios-certificate-update.md)**<br/> Le 29 mars 2021, une mise à jour APNs a eu un impact sur le canal iOS de Campaign. Vous devez mettre à jour votre configuration pour éviter toute coupure du canal push d’iOS.
+* **[Vous vous connectez via IMS/Adobe ID ? Effectuez une mise à niveau vers les derniers builds](integrations/using/about-adobe-id.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **
 
-* **[Vous vous connectez via IMS/Adobe ID ? Effectuez une mise à niveau vers les derniers builds](integrations/using/about-adobe-id.md)**<br/> Si vous utilisez IMS pour vous connecter à Campaign, vous devez effectuer la mise à niveau pour pouvoir vous connecter après le** 30 juin 2021 **.
-
-* **[Sécurisation de vos instances Campaign](technotes/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign.
+* **[Sécurisation de vos instances Campaign](technotes/acc-config-updates.md)**<br/> Effectuez une mise à jour vers les derniers builds pour sécuriser votre plateforme Campaign
 
 * **[Mise à jour de l’intégration d&#39;Adobe Experience Cloud Triggers](integrations/using/configuring-adobe-io.md)**<br/> Le service d’authentification historique d’oAuth a atteint la fin de vie. Découvrez comment migrer vers Adobe I/O..
-
-* **[Passer à l’API du fournisseur d’APNs basée sur HTTP/2](https://helpx.adobe.com/fr/campaign/kb/migrate-to-apns-http2.html)**<br/> Découvrez comment migrer du protocole binaire historique vers l’API du fournisseur d’APNs basée sur HTTP/2.
 
 * **[Accès à l’assistance technique](support.md)**<br/> FAQ, bonnes pratiques, ressources d’aide, demandes d’assistance.
 
