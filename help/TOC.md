@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing cross-canal offrant un important retour sur investissement marketing.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 99%
+source-wordcount: '2485'
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,8 @@ ht-degree: 99%
          + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
          + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
-      + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector.md)
+      + [Connecteur Adobe Analytics](platform/using/adobe-analytics-connector.md)
+      + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Options d’aide et de support](support.md)
 + Création et envoi de messages {#sending-messages}
    + [Prise en main des messages](delivery/using/communication-channels.md)
@@ -670,7 +671,9 @@ ht-degree: 99%
          + [Bonnes pratiques et limites](installation/using/fda-best-practices.md)
          + Instructions de configuration {#config-databases}
             + [Etapes de configuration](installation/using/configure-fda.md)
+            + [Configuration de Vertica](installation/using/configure-fda-vertica.md)
             + [Configurer Snowflake](installation/using/configure-fda-snowflake.md)
+            + [Configuration de Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configurer Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configurer Hadoop](installation/using/configure-fda-hadoop.md)
             + [Configurer Oracle](installation/using/configure-fda-oracle.md)
