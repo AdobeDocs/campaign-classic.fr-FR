@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 97%
 
 ---
 
@@ -40,6 +40,10 @@ Une fois le schéma de données créé, les données peuvent être traitées dan
 Selon les bases de données externes auxquelles vous souhaitez accéder à partir d’Adobe Campaign, vous devrez effectuer certaines configurations spécifiques. Ces configurations impliquent essentiellement l’installation de pilotes et la déclaration des variables d’environnement appartenant à chaque SGBDR sur le serveur Adobe Campaign, ainsi que la configuration du compte externe.
 
 Suivez les liens ci-dessous pour en savoir plus :
+
+* Connecter Campaign et [Vertica](../../installation/using/configure-fda-vertica.md)
+
+* Connecter Campaign et [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 
 * Connecter Campaign et [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 
