@@ -6,17 +6,17 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 89%
+source-wordcount: '631'
+ht-degree: 79%
 
 ---
 
 # Envoi de fichier{#file-transfer}
 
-L&#39;activité de type **Transfert de fichier** permet de recevoir ou envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé est soit Amazon Simple Storage Service (S3) le FTP ou le SFTP.
-Avec une connexion S3 ou SFTP, vous pouvez également importer des données de segment dans Adobe Campaign avec la plateforme Adobe Real-time Customer Data. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
+L&#39;activité **Transfert de fichier** permet de recevoir ou d&#39;envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé est Azure Blob Storage, Amazon Simple Storage Service (S3), FTP ou SFTP.
+Avec S3, Azure Blob Storage ou la connexion SFTP, vous pouvez également importer des données de segment dans Adobe Campaign avec la plateforme de données clients en temps réel Adobe. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
 
 >[!NOTE]
 >
