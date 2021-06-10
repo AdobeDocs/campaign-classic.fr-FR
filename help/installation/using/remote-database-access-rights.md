@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '990'
 ht-degree: 100%
 
 ---
@@ -61,16 +61,16 @@ L’administrateur de la base de données doit mettre en correspondance ces droi
 | **Accès aux données clientes** | Privilège(s) SELECT sur (FUTURE) TABLE(S) ou VIEW(S) | Privilège SELECT | Privilège SELECT ou SELECT ANY TABLE | Permission SELECT | Privilège SELECT | Privilège SELECT |
 | **Accès aux métadonnées** | Privilège SELECT sur INFORMATION_SCHEMA SCHEMA | Privilège SELECT | Aucun privilège requis pour utiliser l’instruction DESCRIBE |  Permission VIEW DEFINITION | Aucun privilège requis pour utiliser la commande &quot;\d table&quot; | Privilège SELECT |
 
-|   | DB2 UDB | TeraData | InfiniDB | Sybase IQ / Sybase ASE | Netezza | Greenplum | AsterData |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **Connexion à une base de données distante** | Autorité CONNECT | Privilège CONNECT | Création d’un utilisateur lié à un hôte distant possédant tous les privilèges (ALL PRIVILEGES) | Aucune permission requise pour utiliser l’instruction CONNECT | Aucun privilège requis | Privilège CONNECT | Privilège CONNECT |
-| **Création de tables** | Autorité CREATETAB | Mot-clé CREATE TABLE ou TABLE | Privilège CREATE | Autorité RESOURCE et permission CREATE | Privilège TABLE | Privilège CREATE | Privilège CREATE |
-| **Création d’index** | Privilège INDEX | Mot-clé CREATE INDEX ou INDEX | Privilège INDEX | Autorité RESOURCE et permission CREATE | Privilège INDEX | Privilège CREATE | Privilège CREATE |
-| **Création de fonctions** | Autorité IMPLICIT_SCHEMA ou privilège CREATEIN | Mot-clé CREATE FUNCTION ou FUNCTION | Privilège CREATE ROUTINE | Autorité RESOURCE ou autorité DBA pour les fonctions Java | Privilège FUNCTION | Privilège USAGE | Privilège CREATE FUNCTION |
-| **Création de procédures** | Autorité IMPLICIT_SCHEMA ou privilège CREATEIN | Mot-clé CREATE PROCEDURE ou PROCEDURE | Privilège CREATE ROUTINE | Autorité RESOURCE | Privilège PROCEDURE | Privilège USAGE | Privilège CREATE FUNCTION |
-| **Suppression d’objets (tables, index, fonctions, procédures)** | Privilège DROPIN ou privilège CONTROL ou propriété de l’objet | DROP &lt; objet > ou mot-clé associé à l’objet | Privilège DROP | Propriété de l’objet ou autorité DBA | Privilège DROP | Propriété de l’objet | Propriété de l’objet |
-| **Surveillance des exécutions** | Autorité EXPLAIN | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Privilège SELECT | Seul un administrateur système peut exécuter sp_showplan | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Aucun privilège requis pour utiliser l’instruction EXPLAIN |
-| **Écriture de données** | Privilèges INSERT et UPDATE ou autorité DATAACCESS | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE | Permissions INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE |
-| **Chargement de données dans des tables** | Autorité LOAD | Privilèges SELECT et INSERT pour utiliser respectivement les instructions COPY TO et COPY FROM | Privilège FILE | Être propriétaire de la table ou autorisation ALTER. Selon l’option -gl, LOAD TABLE ne peut être exécutée que si l’utilisateur dispose de l’autorité DBA | Privilèges SELECT et INSERT | Privilèges SELECT et INSERT | Privilèges SELECT et INSERT |
-| **Accès aux données clientes** | Privilèges INSERT/UPDATE ou autorité DATAACCESS | Privilège SELECT | Privilège SELECT | Permission SELECT | Privilège SELECT | Privilège SELECT | Privilège SELECT |
-| **Accès aux métadonnées** | Aucune autorisation requise pour utiliser l’instruction DESCRIBE | Privilège SHOW | Privilège SELECT | Aucune permission requise pour utiliser l’instruction DESCRIBE | Aucun privilège requis pour utiliser la commande &quot;\d table&quot; | Aucun privilège requis pour utiliser la commande &quot;\d table&quot; | Aucun privilège requis pour utiliser la commande SHOW |
+|   | DB2 UDB | TeraData | InfiniDB | Sybase IQ / Sybase ASE | Netezza | AsterData |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **Connexion à une base de données distante** | Autorité CONNECT | Privilège CONNECT | Création d’un utilisateur lié à un hôte distant possédant tous les privilèges (ALL PRIVILEGES) | Aucune permission requise pour utiliser l’instruction CONNECT | Aucun privilège requis | Privilège CONNECT |
+| **Création de tables** | Autorité CREATETAB | Mot-clé CREATE TABLE ou TABLE | Privilège CREATE | Autorité RESOURCE et permission CREATE | Privilège TABLE | Privilège CREATE |
+| **Création d’index** | Privilège INDEX | Mot-clé CREATE INDEX ou INDEX | Privilège INDEX | Autorité RESOURCE et permission CREATE | Privilège INDEX | Privilège CREATE |
+| **Création de fonctions** | Autorité IMPLICIT_SCHEMA ou privilège CREATEIN | Mot-clé CREATE FUNCTION ou FUNCTION | Privilège CREATE ROUTINE | Autorité RESOURCE ou autorité DBA pour les fonctions Java | Privilège FUNCTION | Privilège CREATE FUNCTION |
+| **Création de procédures** | Autorité IMPLICIT_SCHEMA ou privilège CREATEIN | Mot-clé CREATE PROCEDURE ou PROCEDURE | Privilège CREATE ROUTINE | Autorité RESOURCE | Privilège PROCEDURE | Privilège CREATE FUNCTION |
+| **Suppression d’objets (tables, index, fonctions, procédures)** | Privilège DROPIN ou privilège CONTROL ou propriété de l’objet | DROP &lt; objet > ou mot-clé associé à l’objet | Privilège DROP | Propriété de l’objet ou autorité DBA | Privilège DROP | Propriété de l’objet |
+| **Surveillance des exécutions** | Autorité EXPLAIN | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Privilège SELECT | Seul un administrateur système peut exécuter sp_showplan | Aucun privilège requis pour utiliser l’instruction EXPLAIN | Aucun privilège requis pour utiliser l’instruction EXPLAIN |
+| **Écriture de données** | Privilèges INSERT et UPDATE ou autorité DATAACCESS | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE | Permissions INSERT et UPDATE | Privilèges INSERT et UPDATE | Privilèges INSERT et UPDATE |
+| **Chargement de données dans des tables** | Autorité LOAD | Privilèges SELECT et INSERT pour utiliser respectivement les instructions COPY TO et COPY FROM | Privilège FILE | Être propriétaire de la table ou autorisation ALTER. Selon l’option -gl, LOAD TABLE ne peut être exécutée que si l’utilisateur dispose de l’autorité DBA | Privilèges SELECT et INSERT | Privilèges SELECT et INSERT |
+| **Accès aux données clientes** | Privilèges INSERT/UPDATE ou autorité DATAACCESS | Privilège SELECT | Privilège SELECT | Permission SELECT | Privilège SELECT | Privilège SELECT |
+| **Accès aux métadonnées** | Aucune autorisation requise pour utiliser l’instruction DESCRIBE | Privilège SHOW | Privilège SELECT | Aucune permission requise pour utiliser l’instruction DESCRIBE | Aucun privilège requis pour utiliser la commande &quot;\d table&quot; | Aucun privilège requis pour utiliser la commande SHOW |
