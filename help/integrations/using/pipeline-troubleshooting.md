@@ -5,10 +5,10 @@ description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 45a84e1bf43678bbc31d8bac15a7e6520204fdc2
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '649'
+ht-degree: 89%
 
 ---
 
@@ -82,3 +82,9 @@ En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer
 1. Recherchez des erreurs dans pipelined.log susceptibles de provoquer des reprises. Corrigez les erreurs, le cas échéant.
 1. Vérifiez la taille de la file d’attente dans la page d’état [!DNL pipelined]. Si la taille de la file d’attente est importante, améliorez les performances de JS.
 1. Comme le retard semble augmenter avec le volume, configurez les déclencheurs sur Analytics en utilisant moins de messages.
+
+**Mise à niveau des instances d’étape de l’authentification héritée vers l’authentification d’Adobe E/S**
+
+La modification de l’authentification de l’intégration sur votre instance d’évaluation n’affecte pas la configuration de votre instance de production. Vous pouvez choisir de mettre à niveau votre instance d’évaluation, puis de mettre à jour l’authentification pour Adobe des E/S et tester vos déclencheurs sur votre instance d’évaluation.
+
+Votre instance de production continuera à utiliser l’authentification héritée et ne sera pas affectée par cette modification.
