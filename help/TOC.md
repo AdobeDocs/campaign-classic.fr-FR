@@ -8,9 +8,9 @@ user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des 
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 98%
          + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
          + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
-      + [Connecteur Adobe Analytics](platform/using/adobe-analytics-connector.md)
+      + [Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
       + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Options d’aide et de support](support.md)
 + Création et envoi de messages {#sending-messages}
@@ -230,7 +230,7 @@ ht-degree: 98%
       + [Qu’est-ce que la délivrabilité ?](delivery/using/about-deliverability.md)
       + [Contrôler le contenu du message](delivery/using/control-message-content.md)
       + [Surveillance de la délivrabilité](delivery/using/monitoring-deliverability.md)
-      + [Inbox rendering  ](delivery/using/inbox-rendering.md)
+      + [Inbox rendering](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Résolution des problèmes](delivery/using/deliverability-faq.md)
    + Module de gestion de contenu {#content-management}
@@ -480,7 +480,7 @@ ht-degree: 98%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle             {#monitoring}
+      + Contrôle  {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -507,7 +507,7 @@ ht-degree: 98%
       + [Surveillance des workflows techniques](workflow/using/monitoring-technical-workflows.md)
       + [Carte thermique des workflows](workflow/using/heatmap.md)
    + Gestion avancée {#advanced-management}
-      + [Propriétés d&#39;exécution       ](workflow/using/workflow-properties.md)
+      + [Propriétés d&#39;exécution](workflow/using/workflow-properties.md)
       + [Paramètres avancés](workflow/using/advanced-parameters.md)
       + [Scripts/Templates JavaScript](workflow/using/javascript-scripts-and-templates.md)
       + [Accès à une base de données externe](workflow/using/accessing-an-external-database--fda-.md)
@@ -574,8 +574,8 @@ ht-degree: 98%
       + [Paramétrages additionnels](message-center/using/additional-configurations.md)
    + Modèles de messages {#message-templates}
       + [Création de types d’événement](message-center/using/creating-event-types.md)
-      + [Concevoir des modèles de message](message-center/using/creating-the-message-template.md)
-      + [Tester les modèles de message](message-center/using/testing-message-templates.md)
+      + [Conception de modèles de message](message-center/using/creating-the-message-template.md)
+      + [Test de modèles de message](message-center/using/testing-message-templates.md)
       + [Publication de modèles de message](message-center/using/publishing-message-templates.md)
    + Traitement des événements transactionnels {#processing}
       + [Description des événements](message-center/using/event-description.md)
@@ -671,9 +671,9 @@ ht-degree: 98%
          + [Bonnes pratiques et limites](installation/using/fda-best-practices.md)
          + Instructions de configuration {#config-databases}
             + [Etapes de configuration](installation/using/configure-fda.md)
-            + [Configuration de Vertica](installation/using/configure-fda-vertica.md)
+            + [Configurer Vertica](installation/using/configure-fda-vertica.md)
             + [Configurer Snowflake](installation/using/configure-fda-snowflake.md)
-            + [Configuration de Google BigQuery](installation/using/configure-fda-google-big-query.md)
+            + [Configurer Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configurer Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configurer Hadoop](installation/using/configure-fda-hadoop.md)
             + [Configurer Oracle](installation/using/configure-fda-oracle.md)
