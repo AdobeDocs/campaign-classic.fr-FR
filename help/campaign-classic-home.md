@@ -4,9 +4,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 ## Nouveautés
 
-* **[La version de juin est en ligne !](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs des notes de mise à jour
+* **[La version de juin est publiée.](rn/using/latest-release.md)**<br/> Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans les notes de mise à jour
 
 * **[Suppression des erreurs hard incorrectes](delivery/using/update-bounce-qualification.md)**<br/> Découvrez comment mettre à jour les erreurs hard incorrectes après une panne d’Apple.
 
