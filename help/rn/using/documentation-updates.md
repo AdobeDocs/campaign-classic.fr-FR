@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: fc40dae282c045dd73547e34ea307297f64c66fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4490'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Consultez les [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/usin
 
 ## Juin 2021 {#june-2021}
 
-La section **Messagerie transactionnelle** a été réorganisée et clarifiée avec une nouvelle section Prise en main, y compris un [schéma amélioré](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) pour une meilleure compréhension du processus. [En savoir plus](../../message-center/using/about-transactional-messaging.md)
+La section **Messagerie transactionnelle** a été réorganisée et clarifiée avec une nouvelle section Prise en main, comprenant un [schéma amélioré](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) pour une meilleure compréhension du processus. [En savoir plus](../../message-center/using/about-transactional-messaging.md)
 
 **Mises à jour de la documentation accompagnant la version 21.1.3**
 
-Intégration avec Adobe Journey Orchestration - [En savoir plus](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html). Un cas pratique détaillé est présenté dans [cette page](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)
+Intégration avec Adobe Journey Orchestration - [En savoir plus](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=fr). Un cas pratique étape par étape est présenté dans [cette page](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=fr)
 
 Améliorations du canal LINE - [En savoir plus](../../delivery/using/line-channel.md)
 
 Nouveau connecteur FDA Vertica - [En savoir plus](../../installation/using/configure-fda-vertica.md)
 
-Nouveau connecteur FDA Google Big Query - [En savoir plus](../../installation/using/configure-fda-google-big-query.md)
+Nouveau connecteur FDA Google BigQuery - [En savoir plus](../../installation/using/configure-fda-google-big-query.md)
 
-La description du workflow technique &quot;Facturation (billing)&quot; inclut désormais les tâches initialement effectuées par le &quot;Nombre de profils de facturation principaux (billingActiveContactCount)&quot;. [En savoir plus](../../workflow/using/about-technical-workflows.md)
+La description du workflow technique « Facturation (billing) » comprend maintenant les tâches effectuées à l’origine par le « Comptage des profils de facturation actifs (billingActiveContactCount) ». [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
 ## Mai 2021 {#may-2021}
 
@@ -362,7 +362,7 @@ Les guides [d’installation](../../installation/using/general-architecture.md),
 
 Le guide d’installation a été mis à jour et synchronisé avec la dernière version de la matrice de compatibilité. Les nouveaux systèmes pris en charge ont été ajoutés. Les systèmes obsolètes et non pris en charge ont été supprimés. [En savoir plus](../../installation/using/general-architecture.md)
 
-La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+La matrice de compatibilité a été mise à jour en y intégrant les connecteurs FDA Hadoop 3.0 et Snowflake. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 Une bonne pratique concernant l’affinité IP a été ajoutée au guide d’installation. [En savoir plus](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -380,7 +380,7 @@ Le nouveau paramètre de configuration du rapport des URL a été documenté [ic
 
 La page **Matrice des fonctionnalités On-premise et hébergées de Campaign Classic** a été mise à jour en indiquant les nouveaux connecteurs FDA. [En savoir plus](../../installation/using/capability-matrix.md).
 
-La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+La page **Matrice des fonctionnalités de Campaign Classic** a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html)
 
 Le nouveau workflow **[!UICONTROL Nettoyage de la table Nmsaddress]** a été documenté [ici](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
@@ -430,7 +430,7 @@ Messagerie SMS sécurisée (TLS) - [En savoir plus](https://helpx.adobe.com/fr/c
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+La documentation relative à l&#39;agent de transfert d&#39;emails (MTA) amélioré d&#39;Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html)
 
 Une nouvelle section a été ajoutée pour expliquer comment résoudre les problèmes liés à un workflow qui reste dans l&#39;état &quot;Démarrer dès que possible&quot; au cours d&#39;une campagne. [En savoir plus](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -468,7 +468,7 @@ Amélioration et enrichissement du guide de prise en main du RGPD. Il s’agit m
 
 Une nouvelle page de résolution des problèmes a été ajoutée concernant le suivi dans Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/classic-tracking-troubleshooting.html).
 
-Une nouvelle page de bonnes pratiques pour Adobe Analytics Connector a été ajoutée. [En savoir plus sur Adobe Analytics Connector](../../platform/using/adobe-analytics-connector.md)
+Une nouvelle page de bonnes pratiques relatives au connecteur d&#39;Adobe Analytics a été ajoutée. [En savoir plus sur le connecteur d&#39;Adobe Analytics](../../platform/using/adobe-analytics-connector.md)
 
 Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour – [En savoir plus](../../delivery/using/delivery-best-practices.md)
 
@@ -500,7 +500,7 @@ Suivi - [En savoir plus](../../production/using/audit-trail.md)
 
 Un nouveau FAQ relatif à l&#39;upgrade de build a été créé. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/build-upgrade-faq.html)
 
-Mise à jour de la [matrice de compatibilité](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La [matrice de compatibilité 19.0](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix-19-0.html) a été archivée.
+Mise à jour de la [matrice de compatibilité](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix.html). La liste des systèmes de base de données pris en charge a été mise à jour, ainsi que les versions Android/iOS et les SDK associés. La [matrice de compatibilité 19.0](https://helpx.adobe.com/fr/campaign/kb/compatibility-matrix-19-0.html) a été archivée.
 
 La page « Fonctionnalités obsolètes et supprimées de Campaign Classic » a été mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/deprecated-and-removed-features.html)
 
@@ -546,7 +546,7 @@ Ajout de deux nouvelles options à la liste des options de Campaign : XtkSecuri
 Ajout d&#39;informations sur les différents comptes externes disponibles dans Campaign Classic et sur la manière de les configurer.
 [En savoir plus](../../installation/using/external-accounts.md)
 
-Mise à jour de la section Connecteur Analytics pour prendre en compte les modifications de l’interface.
+Mise à jour de la section connecteur d&#39;Analytics pour refléter les modifications de l&#39;interface.
 [En savoir plus](../../platform/using/adobe-analytics-connector.md)
 
 Ajout d&#39;informations sur le rapport de billing.
@@ -555,7 +555,7 @@ Ajout d&#39;informations sur le rapport de billing.
 Mise à jour de la documentation sur l&#39;intégration des audiences partagées.
 [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
+Les notes techniques suivantes ont été mises à jour : [Paramètres et protocole du connecteur SMS](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html) et [Génération automatique de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
 La section Workflows techniques a été mise à jour. [En savoir plus](../../workflow/using/about-technical-workflows.md)
 
