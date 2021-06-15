@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Dernière version
-description: Dernière version de Campaign Classic         Notes
+description: Dernière version de Campaign Classic  Notes
 feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1953'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -23,22 +23,22 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 ## ![](assets/do-not-localize/blue_2.png) Version 21.1.3 - Build 9330 {#release-21-1-3-build-9330}
 
-_5 juin 2021_
+_5 juin 2021_
 
 **Nouveautés**
 
 <table>
 <thead>
 <tr>
-<th><strong>Intégration à Adobe Journey Orchestration</strong><br/></th>
+<th><strong>Intégration avec Adobe Journey Orchestration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’intégration entre Journey Orchestration et Adobe Campaign Classic est désormais GA. Il permet au Journey Orchestration d’envoyer des emails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle Adobe Campaign Classic.</p>
+<p>L’intégration entre Journey Orchestration et Adobe Campaign Classic est maintenant en disponibilité générale (GA). Cette intégration permet à Journey Orchestration d’envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Classic.</p>
 <p>La connexion entre les instances Journey Orchestration et Campaign Classic est configurée par Adobe au moment de l’approvisionnement.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html">documentation du Journey Orchestration</a>. Un cas pratique détaillé est présenté dans cette <a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html">section</a></p>
+<p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=fr">documentation Journey Orchestration </a>. Un cas pratique étape par étape est présenté dans cette <a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=fr">section</a></p>
 </td>
 </tr>
 </tbody>
@@ -52,12 +52,12 @@ _5 juin 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Les améliorations suivantes ont été apportées au canal LINE :
+<td> <p>Les améliorations suivantes ont été apportées au canal LINE :
 </p>
 <ul> 
 <li><p>Prise en charge du type de message vidéo LINE</p></li>
 <li><p>Prise en charge de l’API d’enregistrement de partenaire LINE</p></li>
-<li><p>Prise en charge d’une nouvelle tentative d’envoi de messages en cas d’erreur côté serveur LINE ou d’expiration du réseau</p></li>
+<li><p>Prise en charge des reprises d’envoi de messages en cas d’erreur côté serveur LINE ou d’expiration du réseau</p></li>
 </ul>
 <p>Pour plus d’informations, consultez la <a href="../../delivery/using/line-channel.md">documentation détaillée</a>.</p>
 </td> 
@@ -73,7 +73,7 @@ _5 juin 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Vous pouvez désormais connecter votre instance Adobe Campaign Classic à votre base de données externe Vertica. Cette connexion est gérée à l’aide d’un nouveau compte externe.</p>
+<td> <p>Vous pouvez maintenant connecter votre instance Adobe Campaign Classic à votre base de données externe Vertica. Cette connexion est gérée à l’aide d’un nouveau compte externe.</p>
 <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-vertica.md">documentation détaillée</a>.</p>
 </td> 
 </tr> 
@@ -83,12 +83,12 @@ _5 juin 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Connecteur FDA Google Big Query</strong><br /> </th> 
+<th> <strong>Connecteur FDA Google BigQuery</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Vous pouvez désormais connecter votre instance Adobe Campaign Classic à votre base de données externe Google Big Query. Cette connexion est gérée à l’aide d’un nouveau compte externe.
+<td> <p>Vous pouvez maintenant connecter votre instance Adobe Campaign Classic à votre base de données externe Google BigQuery. Cette connexion est gérée à l’aide d’un nouveau compte externe.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-google-big-query.md">documentation détaillée</a>.</p>
 </td> 
@@ -98,15 +98,15 @@ _5 juin 2021_
 
 **Améliorations de la sécurité**
 
-* L’accès à la méthode d’API **xtk:session#GetCnxInfo** renvoyant les détails complets de la connexion à la base de données est désormais limité aux utilisateurs administrateurs uniquement. (NEO-27779)
+* L’accès à la méthode d’API **xtk:session#GetCnxInfo** renvoyant les détails complets de la connexion à la base de données est maintenant limité aux utilisateurs administrateurs uniquement. (NEO-27779)
 * La fonction decryptString obsolète a été remplacée par decryptPassword dans les fichiers JavaScript liés au CRM.
 * La fonctionnalité de signature de tracking a été améliorée afin de réduire le risque d&#39;erreurs de redirection lors de la modification du lien tracké par des outils tiers (clients de messagerie, navigateurs Internet, outils de sécurité des liens).
-* Correction d’un problème qui empêchait le fonctionnement des URL trackées lorsqu’elles contenaient des caractères en majuscules. Le mécanisme de signature des URL trackées est désormais sensible à la casse. (NEO-28414)
+* Correction d’un problème qui empêchait le fonctionnement des URL trackées lorsqu’elles contenaient des caractères majuscules. Le mécanisme de signature des URL trackées respecte maintenant la casse. (NEO-28414)
 
 **Mises à jour de compatibilité**
 
 Les systèmes suivants sont désormais pris en charge avec Campaign :
-* Connecteur FDA Google Big Query
+* Connecteur FDA Google BigQuery
 * Connecteur FDA Vertica
 * PostgreSQL 13
 
@@ -114,49 +114,49 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 
 **Fonctionnalités obsolètes**
 
-* À compter de la version 21.1 de Campaign, Adobe Analytics Data Connector est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics Connector.
+* À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics.
 Pour plus d’informations, consultez la [documentation détaillée](../../platform/using/adobe-analytics-connector.md).
-* La prise en charge de Debian 8 est désormais obsolète.
-* Suite à la dépréciation de Oracle CRM dans la version 20.3, le compte externe associé a été supprimé de l’interface.
+* La prise en charge de Debian 8 est maintenant obsolète.
+* Suite à la dépréciation d&#39;Oracle CRM dans la version 20.3, le compte externe associé a été supprimé de l’interface.
 
 En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md).
 
 **Améliorations**
 
 * Des vérifications supplémentaires ont été ajoutées lors de l’enregistrement d’un workflow pour s’assurer que les noms des activités sont uniques et que les transitions sont toujours suivies d’une activité.
-* Le workflow technique **Facturation (billing)** inclut désormais les tâches initialement effectuées par le workflow **Nombre de profils de facturation principal** (billingActiveContactCount), qui a été supprimé. Le rapport d&#39;email envoyé chaque mois par le workflow fournit désormais des informations sur le nombre de profils principaux sur l&#39;instance. [En savoir plus](../../workflow/using/about-technical-workflows.md).
-* Un nouvel attribut **_keyOnMData** a été ajouté pour pouvoir utiliser une clé pour les opérations sur les données de memo.
+* Le workflow technique **Facturation (billing)** comprend maintenant les tâches effectuées à l’origine par le workflow **Comptage des profils actifs** (billingActiveContactCount), qui a été supprimé. Le rapport sur les emails envoyé chaque mois par le workflow fournit désormais des informations sur le nombre de profils actifs sur l&#39;instance. [En savoir plus](../../workflow/using/about-technical-workflows.md).
+* Un nouvel attribut **_keyOnMData** a été ajouté pour pouvoir utiliser une clé pour les opérations sur les données de mémo.
 
 **Autres changements**
 
-* Le tiers openssl pour Windows a été mis à jour vers la version 1.1.1h.
-* Dans la description du package Debian, nlserver a été remplacé par le serveur Adobe Campaign Classic.
+* Le tiers openssl pour Windows a été mis à jour vers la version 1.1.1h.
+* Dans la description du package Debian, nlserver a été changé en serveur Adobe Campaign Classic.
 
 **Correctifs**
 
-* Correction d’un problème lors de la modification du délai d’expiration de la session afin de déconnecter les utilisateurs après une période spécifique où les utilisateurs restaient connectés même après l’heure définie.
+* Correction d’un problème lors de la modification du timeout de session afin de déconnecter les utilisateurs après une durée spécifique (les utilisateurs restaient connectés même après la durée définie).
 * Correction d’un problème en raison duquel les diffusions s’affichaient en lecture seule mais pouvaient toujours être modifiées dans les propriétés des diffusions.
 * Correction d&#39;une erreur qui entraînait la disparition de la barre d&#39;outils d&#39;édition lors de la conception d&#39;une application web.
 * Correction d&#39;une erreur qui affichait la version texte d&#39;un email avec des en-têtes Adobe Campaign Classic lors de l&#39;ajout d&#39;un lien vers un email. (NEO-29211
-* Lors de l’utilisation de la connexion FDA via HTTP, le workflow **Mid-sourcing (logs de diffusion)** (defaultMidSourcingLog) était bloqué dans le délai défini par l’option **NmsMidSourcing_LogsPeriodHour**. Cela empêcherait la mise à jour des enregistrements avec les données survenues après cette période définie. (NEO-30833)
-* Correction d’un problème qui se produisait après l’exécution du workflow de synchronisation du centre de messages. Chaque fois qu’un dossier d’objets de diffusion est déplacé dans un dossier personnalisé, le workflow déplace les diffusions vers le dossier **Historique des messages transactionnels** générique. (NEO-27445)
-* Correction d’un problème qui affichait un message d’erreur lors de l’affichage des rapports **Statistiques d’émission**, **Indicateurs de tracking** et **Statistiques des activités de partage**.
+* Lors de l’utilisation de la connexion FDA via HTTPS, le workflow **Mid-sourcing (logs de diffusion)** (defaultMidSourcingLog) était bloqué dans le délai défini par l’option **NmsMidSourcing_LogsPeriodHour**. Cela empêchait la mise à jour des enregistrements avec les données produites après cette période définie. (NEO-30833)
+* Correction d’un problème qui se produisait après l’exécution du workflow de synchronisation de Message Center. Chaque fois qu’un dossier d’objets de diffusion était déplacé vers un dossier personnalisé, le workflow déplaçait les diffusions vers le dossier **Historique des messages transactionnels** générique. (NEO-27445)
+* Correction d’un problème qui affichait un message d’erreur lors de l’affichage des rapports **Statistiques de diffusion**, **Indicateurs de tracking** et **Statistiques des activités de partage**.
 * L&#39;activité de workflow **Oracle On Demand** a été supprimée de l&#39;interface suite à la dépréciation du connecteur CRM Oracle.
-* Correction d’un problème qui arrêtait l’exécution des workflows de traitement après le redémarrage quotidien du module de serveur de workflow (wfserver). (NEO-30047)
-* Correction d’un problème qui empêchait la mise à jour du document de gestion MX, ce qui pouvait avoir un impact négatif sur la réputation IP. (NEO-29897)
-* Correction de problèmes qui provoquaient des blocages de processus web lors de la réception d’un appel SOAP. (NEO-28796) (NEO-29600)
+* Correction d’un problème qui arrêtait l’exécution des workflows de traitement après le redémarrage quotidien du module de serveur de workflows (wfserver). (NEO-30047)
+* Correction d’un problème qui empêchait la mise à jour du document de gestion des MX, ce qui pouvait avoir un impact négatif sur la réputation des adresses IP. (NEO-29897)
+* Correction de problèmes qui entraînaient des blocages de processus web lors de la réception d’un appel SOAP. (NEO-28796) (NEO-29600)
 * Correction d’un problème en raison duquel la création de l’index FDA SAP HANA échouait. (NEO-29664)
 * Correction d’un problème qui entraînait le maintien des messages transactionnels dans l’état **En attente** lors de l’exécution d’appels SOAP contenant un en-tête. (NEO-28737)
-* Correction d’un problème qui se produisait lors de l’utilisation du connecteur FDA Teradata : toutes les tables temporaires ont été créées sur un seul noeud de la grappe, ce qui peut finir par consommer tout l’espace du spool et provoquer un blocage du Teradata. Les tableaux temporaires sont désormais générés sur de nombreux noeuds. (NEO-28230)
-* Correction d’un problème lors de l’utilisation d’applications web en raison duquel les balises de tracking généraient des clés Principales incorrectes dans le schéma **nms:trackingURL** . (NEO-27931)
+* Correction d’un problème qui se produisait lors de l’utilisation du connecteur FDA Teradata : toutes les tables temporaires étaient créées sur un seul nœud du cluster, ce qui pouvait consommer tout l’espace du spool et provoquer le blocage de Teradata. Les tables temporaires sont maintenant générées sur de nombreux nœuds. (NEO-28230)
+* Correction d’un problème lors de l’utilisation d’applications web en raison duquel les balises de tracking généraient des clés primaires incorrectes dans le schéma **nms:trackingURL**. (NEO-27931)
 * La compatibilité avec ODBC 3.x a été améliorée pour garantir la précision des messages d’erreur.
 * Correction d’un problème qui entraînait des blocages de console lors de l’utilisation de modèles de contenu personnalisés dans des diffusions email. (NEO-31547)
 * Correction d’un problème qui empêchait Tomcat d’envoyer des réponses valides en raison d’une connexion lente ou d’une taille de réponse importante.
-* Correction d’un problème qui pouvait se produire lors de la lecture d’UUID à partir d’une base de données PostgreSQL.
-* Correction d’un problème qui entraînait des problèmes de performances lors de la recherche sur les données de proposition liées aux offres. (NEO-27554)
+* Correction d’un problème qui se produisait lors de la lecture de la valeur UUID à partir d’une base de données PostgreSQL.
+* Correction d’une erreur qui entraînait des problèmes de performances lors de la recherche de données de proposition liées aux offres. (NEO-27554)
 * Correction d’un problème en raison duquel le processus web ne répondait pas lorsque le service IMS était activé, mais ne répondait pas.
-* Correction d’un problème qui empêchait l’envoi d’une diffusion avec un groupe de BAT en raison d’un mécanisme de jointure spécifique qui avait échoué à la personnalisation de la diffusion. (NEO-14391)
-* Correction d’un problème qui empêchait l’envoi d’une alerte avec l’activité d’alerte si une requête et une activité d’enrichissement ciblaient la table de diffusion. (NEO-25157)
+* Correction d’un problème qui empêchait l’envoi d’une diffusion avec un groupe de BAT en raison d’un mécanisme d’association spécifique qui faisait échouer la personnalisation de la diffusion. (NEO-14391)
+* Correction d’un problème qui empêchait l’envoi d’une alerte avec l’activité d’alerte si une requête et une activité d’enrichissement ciblaient la table de diffusions. (NEO-25157)
 
 ## ![](assets/do-not-localize/red_2.png) Version 21.1.2 - Build 9282 {#release-21-1-2-build-9282}
 
