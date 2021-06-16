@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '311'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer l
 
 * Créez un service d&#39;information de type **[!UICONTROL Application mobile]** pour l&#39;application mobile Neotrips. Reportez-vous à [cette section pour iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-ios-service) et à [cette section pour Android](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service).
 * Ajoutez, à ce service, les versions iOS et Android de l&#39;application.
-* Créez une diffusion pour iOS et Android. [Consultez à ce sujet cette page](../../delivery/using/creating-notifications.md).
+* Créez une diffusion pour [iOS](create-notifications-ios.md) et [Android](create-notifications-android.md).
 
 ![](assets/nmac_service_diagram.png)
 
