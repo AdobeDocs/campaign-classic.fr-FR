@@ -6,18 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '293'
+ht-degree: 82%
 
 ---
 
 # Diffusions cross-canal{#cross-channel-deliveries}
 
 Les diffusions cross-canal sont disponibles dans l&#39;onglet **[!UICONTROL Diffusions]** des activités d&#39;un workflow de campagne.
-
-Elles permettent de créer une diffusion propre à un canal en particulier. Vous pouvez y définir le modèle sur lequel vous souhaitez baser votre diffusion ainsi que son contenu, de la même manière qu&#39;avec un assistant de diffusion classique.
 
 Les différents canaux disponibles sont :
 
@@ -26,12 +24,14 @@ Les différents canaux disponibles sont :
 * [Mobile](../../delivery/using/sms-channel.md)
 * [Twitter](../../social/using/publishing-on-twitter.md)
 * [Facebook](../../social/using/publishing-on-facebook.md)
-* [iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios)
-* [Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)
+* [iOS](../../delivery/using/create-notifications-ios.md)
+* [Android](../../delivery/using/create-notifications-android.md)
+
+Sélectionnez le modèle sur lequel vous souhaitez baser votre diffusion et définissez son contenu.
 
 Vous pouvez définir la cible de votre diffusion en amont du workflow via les différentes activités de ciblages.
 
-Par exemple, ici, nous allons créer un workflow pour envoyer un email ou un SMS aux abonnés aux notifications push, suivi d&#39;une notification push une semaine plus tard. Pour cela :
+Dans l&#39;exemple ci-dessous, nous allons créer un workflow pour envoyer un email ou un SMS aux abonnés aux notifications push, puis une notification push une semaine plus tard. Pour cela :
 
 1. Créez une campagne.
 1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de votre campagne, ajoutez une **[!UICONTROL Requête]** à votre workflow.
@@ -39,7 +39,7 @@ Par exemple, ici, nous allons créer un workflow pour envoyer un email ou un SMS
 
    >[!NOTE]
    >
-   >Pour les notifications push, pensez à utiliser la dimension cible **applications abonnées**.
+   >Pour les notifications push, utilisez la dimension cible **applications abonnées**.
 
    ![](assets/cross_channel_delivery_1.png)
 
