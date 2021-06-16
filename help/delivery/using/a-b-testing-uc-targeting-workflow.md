@@ -6,18 +6,18 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 71%
 
 ---
 
-# Créer un workflow de ciblage {#step-1--creating-a-targeting-workflow}
+# Création d&#39;un workflow de ciblage {#step-1--creating-a-targeting-workflow}
 
 Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Workflows]** d&#39;une opération. Il est composé d&#39;une activité **[!UICONTROL Requête]**, d&#39;une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusions e-mail]**, une activité **[!UICONTROL Attente]**, d&#39;une activité **[!UICONTROL Code JavaScript]** et une activité **[!UICONTROL Diffusion]**.
 
-1. Créez une opération si elle n&#39;existe pas déjà, (voir à ce sujet cette [section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
+1. Si vous ne l’avez pas déjà fait, créez une campagne (voir à ce sujet [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)).
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
@@ -25,7 +25,7 @@ Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Wor
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Modifiez le libellé du workflow déjà existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un (voir à ce sujet cette [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. Modifiez le libellé du workflow existant ou cliquez sur **[!UICONTROL Ajouter]** pour en créer un nouveau (voir à ce sujet [cette section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
@@ -33,4 +33,4 @@ Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblages et Wor
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
-Vous pouvez maintenant configurer les échantillons de population (voir [Étape 2 : paramétrer les échantillons de population ](../../delivery/using/a-b-testing-uc-population-samples.md)).
+Vous pouvez maintenant paramétrer les échantillons de population. [En savoir plus](a-b-testing-uc-population-samples.md).
