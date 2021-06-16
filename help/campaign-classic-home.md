@@ -3,14 +3,14 @@ keywords: Campaign Standard;accueil;sujets populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
-# Centre d’aide {#campaign-classic-documentation}
+# Documentation de Campaign Classic v7 {#campaign-classic-documentation}
 
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
