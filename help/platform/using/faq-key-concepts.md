@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
@@ -90,7 +90,7 @@ Découvrez comment configurer votre plateforme et envoyer des SMS dans [cette se
 
 ## Comment envoyer des notifications push ? {#how-to-send-push-notifications-}
 
-Découvrez comment utiliser Adobe Campaign pour [envoyer une notification push personnalisée](../../delivery/using/creating-notifications.md) à des appareils iOS et Android via des applications.
+Découvrez comment utiliser Adobe Campaign pour [envoyer une notification push personnalisée](../../delivery/using/create-notifications-ios.md) à des appareils iOS et Android via des applications.
 
 ## Comment concevoir et partager un questionnaire en ligne ? {#how-to-design-and-share-an-online-survey-}
 
