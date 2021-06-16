@@ -6,14 +6,14 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
 ---
 
-# Création d&#39;un filtre {#creating-a-filter}
+# Création d’un filtre {#creating-a-filter}
 
 Les filtres disponibles dans Adobe Campaign sont définis au travers de conditions de filtrage qui sont créées selon le même mode opératoire que les requêtes.
 
