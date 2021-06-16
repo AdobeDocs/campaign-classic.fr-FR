@@ -6,14 +6,14 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Coordonner les mises à jour des données{#coordinating-data-updates}
+# Coordination des mises à jour de données{#coordinating-data-updates}
 
 Ce cas pratique présente la création d&#39;un workflow permettant de gérer des mises à jour concomitantes lors de l&#39;utilisation de plusieurs exécutions d&#39;un workflow.
 
