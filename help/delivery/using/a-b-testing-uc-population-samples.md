@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 91%
 
 ---
 
-# Configuration d&#39;échantillons de population {#step-2--configuring-population-samples}
+# Configuration des échantillons de population {#step-2--configuring-population-samples}
 
-## Paramétrage de l&#39;activité Requête {#configuring-the-query-activity}
+## Configurez l&#39;activité Requête {#configuring-the-query-activity}
 
 * Double-cliquez sur l&#39;activité **[!UICONTROL Requête]**.
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Paramétrage de l&#39;activité Partage {#configuring-the-split-activity}
+## Configurez l&#39;activité Partage {#configuring-the-split-activity}
 
 Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D&#39;autre part, l&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chacune des diffusions.
 
@@ -79,4 +79,4 @@ Cette activité permet de créer plusieurs populations : celle qui reçoit la di
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-Vous pouvez maintenant créer les deux modèles de diffusion (voir [Étape 3 : créer deux modèles de diffusion](../../delivery/using/a-b-testing-uc-delivery-templates.md)).
+Vous pouvez maintenant créer les deux modèles de diffusion. [En savoir plus](a-b-testing-uc-delivery-templates.md)).
