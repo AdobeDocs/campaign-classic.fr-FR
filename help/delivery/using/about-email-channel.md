@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '137'
+ht-degree: 82%
 
 ---
 
@@ -20,15 +20,15 @@ Adobe Campaign vous permet de diffuser en masse des emails personnalisé à une 
 Avant d&#39;envoyer des emails :
 
 * Assurez-vous que les profils des destinataires contiennent au moins une adresse email.
-* En savoir plus sur les [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md) d’Adobe Campaign.
-* Lire au sujet de la [Délivrabilité](../../delivery/using/about-deliverability.md) et de la [Gestion de la délivrabilité](https://helpx.adobe.com/fr/campaign/kb/acc-deliverability.html).
+* En savoir plus sur les [Bonnes pratiques de diffusion](delivery-best-practices.md) d’Adobe Campaign.
+* Lisez ces sections pour en savoir plus sur la délivrabilité : [Gestion de la délivrabilité dans Campaign](about-deliverability.md) et [Guide des bonnes pratiques de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 Les étapes clés pour envoyer un email sont les suivantes :
 
-* [Créer une diffusion email](../../delivery/using/creating-an-email-delivery.md)
+* [Créez une diffusion email](../../delivery/using/creating-an-email-delivery.md)
 * [Définir la population cible](../../delivery/using/steps-defining-the-target-population.md)
-* [Définir le contenu de l&#39;email](../../delivery/using/defining-the-email-content.md)
+* [Définition du contenu de l’email](../../delivery/using/defining-the-email-content.md)
 * [Envoyer l&#39;email](../../delivery/using/sending-messages.md)
-* [Contrôler une diffusion](../../delivery/using/about-delivery-monitoring.md)
+* [Surveiller la diffusion](../../delivery/using/about-delivery-monitoring.md)
 
-Les sections ci-dessous fournissent des informations spécifiques au canal email. Pour plus d’informations sur la création d’une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Les sections ci-dessous fournissent des informations spécifiques au canal email. Pour plus d’informations sur la création d’une diffusion, voir [cette section](steps-about-delivery-creation-steps.md).
