@@ -5,8 +5,9 @@ description: Découvrez comment intégrer le SDK Campaign à votre application m
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
+version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
