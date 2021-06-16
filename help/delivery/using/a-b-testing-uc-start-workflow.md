@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 100%
+source-wordcount: '86'
+ht-degree: 93%
 
 ---
 
-# Démarrer le workflow {#step-7--starting-the-workflow}
+# Démarrez le workflow {#step-7--starting-the-workflow}
 
 1. Cliquez sur **[!UICONTROL Démarrer]** le workflow.
 
@@ -29,4 +29,4 @@ ht-degree: 100%
 
 1. Lorsque le contenu de la troisième diffusion est déterminé, procédez à la validation de la cible et du contenu.
 
-Vous pouvez maintenant analyser le résultat (voir [Étape 8 : analyser le résultat ](../../delivery/using/a-b-testing-uc-analyzing.md)).
+Vous pouvez maintenant analyser le résultat. [En savoir plus](a-b-testing-uc-analyzing.md).
