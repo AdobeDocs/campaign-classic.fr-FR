@@ -6,14 +6,14 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
-# Créer une liste récapitulative{#creating-a-summary-list}
+# Création d’une liste récapitulative{#creating-a-summary-list}
 
 Ce cas pratique détaille la création d&#39;un workflow permettant, à partir d&#39;une collecte de fichiers et suite à plusieurs enrichissements de données, de créer une liste récapitulative. L&#39;exemple est basé sur une liste de contacts ayant effectué des achats dans un magasin.
 
@@ -37,7 +37,7 @@ Pour créer une liste récapitulative, vous devez procéder comme suit :
 1. Enrichir les données &quot;Contacts&quot; avec un calcul d&#39;agrégat venant de la table &quot;Achats&quot;
 1. Créer une liste récapitulative
 
-## Etape 1: Chargement du fichier et réconciliation des données importées {#step-1--loading-the-file-and-reconciling-the-imported-data}
+## Étape 1 : Chargez le fichier et réconciliez les données importées {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 Les données à charger sont des données &quot;Achats&quot; de la forme suivante :
 
@@ -59,7 +59,7 @@ Ces données sont contenues dans un fichier texte : &quot;Achats.txt&quot;.
 
    L&#39;activité **Chargement(fichier)** permet d&#39;alimenter la table de travail du workflow avec les données collectées.
 
-   Pour plus d&#39;informations sur cette activité, voir la section [Charger des données depuis un fichier](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
+   Pour plus d&#39;informations sur cette activité, voir [Chargement de données à partir d&#39;un fichier](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
 
 1. Configurez l&#39;activité **Collecteur de fichiers** pour collecter des fichiers de type texte (*.txt) dans le répertoire sélectionné.
 
@@ -110,7 +110,7 @@ Les données de la table de travail du workflow après cet enrichissement sont l
 
 ![](assets/uc2_enrich_population1.png)
 
-## Etape 2: Écriture des données enrichies dans la table &#39;Achats&#39;{#step-2--writing-enriched-data-to-the--purchases--table}
+## Étape 2 : Écrire des données enrichies dans la table &#39;Achats&#39; {#step-2--writing-enriched-data-to-the--purchases--table}
 
 Cette étape consiste à écrire dans la table &quot;Achats&quot; les données importées et enrichies. Une activité **Mise à jour de données** est nécessaire pour réaliser cette action.
 
@@ -134,7 +134,7 @@ Dans l&#39;activité **Mise à jour de données**, la configuration suivante est
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## Etape 3: Enrichissement des données &#39;Contacts&#39;{#step-3--enriching--contact--data-}
+## Étape 3 : Enrichir les données &quot;Contact&quot; {#step-3--enriching--contact--data-}
 
 Le schéma &quot;Contacts&quot; est relié par un lien physique au schéma &quot;Achats&quot;. Il est donc possible d&#39;utiliser une autre option de l&#39;activité &quot;Enrichissement&quot; : l&#39;ajout de données liées à la dimension de filtrage.
 
@@ -170,7 +170,7 @@ Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des ch
 
    ![](assets/uc2_enrich_enrich8.png)
 
-## Etape 4: Créer et alimenter une liste récapitulative {#step-4--creating-and-adding-to-a-summary-list}
+## Étape 4 : Créer et ajouter à une liste récapitulative {#step-4--creating-and-adding-to-a-summary-list}
 
 La dernière étape consiste à écrire toutes les données enrichies dans une liste.
 
