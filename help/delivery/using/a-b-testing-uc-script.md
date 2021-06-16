@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Le choix du contenu de la diffusion destinée à la population restante est calc
 
 ## Exemple de script {#example-of-a-script}
 
-Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Voir à ce sujet la section [Mise en œuvre](#implementation).
+Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Pour plus d’informations à ce sujet, consultez [cette section](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
@@ -65,7 +65,7 @@ Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Voir
    vars.deliveryId = delivery.id
 ```
 
-Pour une explication détaillée du script, voir [Détails du script](#details-of-the-script).
+Pour une explication détaillée du script, reportez-vous à [cette section](#details-of-the-script).
 
 ## Mise en œuvre {#implementation}
 
@@ -168,4 +168,4 @@ L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une 
 * Taux de désinscription le plus bas : `[indicators/@optOutRatio]`,
 * Montant des transactions : `[indicators/@amount]`.
 
-Vous pouvez maintenant définir la diffusion finale (voir [Étape 6 : définir la diffusion finale ](../../delivery/using/a-b-testing-uc-final-delivery.md)).
+Vous pouvez maintenant définir la diffusion finale. [En savoir plus](a-b-testing-uc-final-delivery.md).
