@@ -1,16 +1,16 @@
 ---
 audience: end-user
-breadcrumb-title: Centre d'aide
+breadcrumb-title: Documentation de Campaign Classic v7
 product: campaign
-title: Guide Campaign Classic
+title: Guide de Campaign Classic v7
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Concevez, planifiez, exécutez, gérez et optimisez des campagnes marketing cross-canal offrant un important retour sur investissement marketing.
+user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser des campagnes dynamiques que les clients souhaitent réellement : par email, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
-source-wordcount: '2485'
-ht-degree: 100%
+source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
+workflow-type: tm+mt
+source-wordcount: '2498'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 100%
          + [Optimiser votre diffusion](delivery/using/optimize-delivery.md)
          + [Utilisez les modèles](delivery/using/use-templates.md)
          + [Création de contenu personnalisé](delivery/using/design-and-personalize.md)
-         + [Définition de l’audience appropriée](delivery/using/define-the-right-audience.md)
+         + [Définition de l&#39;audience appropriée](delivery/using/define-the-right-audience.md)
          + [Vérification avant envoi](delivery/using/check-before-sending.md)
          + [Tracker et suivre vos diffusions](delivery/using/track-and-monitor.md)
    + Envoi d’emails {#sending-emails}
@@ -413,7 +413,7 @@ ht-degree: 100%
       + [Définition des validations](workflow/using/defining-approvals.md)
       + [Architecture](workflow/using/architecture.md)
    + Activités de ciblage {#targeting-activities}
-      + [A propos des activités de ciblage](workflow/using/about-targeting-activities.md)
+      + [À propos des activités de ciblage](workflow/using/about-targeting-activities.md)
       + [Requête](workflow/using/query.md)
       + [Requête incrémentale](workflow/using/incremental-query.md)
       + [Lecture de liste](workflow/using/read-list.md)
