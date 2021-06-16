@@ -3,7 +3,7 @@ keywords: Campaign Standard;accueil;sujets populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
+source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 98%
@@ -61,11 +61,11 @@ ht-degree: 98%
     <p>
   </td>
   <td>
-    <a href="delivery/using/creating-notifications.md">
+    <a href="delivery/using/create-notifications-ios.md">
        <img alt="Notifications push" src="platform/using/assets/push.png" />
     </a>
     <div>
-       <a href="delivery/using/creating-notifications.md">
+       <a href="delivery/using/create-notifications-ios.md">
     <strong>Envoyer des notifications push</strong>
     </a>
     </div>
