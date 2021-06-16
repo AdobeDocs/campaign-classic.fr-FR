@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,16 @@ Une fois le package installé, vous pouvez définir les paramètres de votre app
 
 >[!NOTE]
 >
->Pour savoir comment configurer votre application pour Android et comment créer une diffusion pour Android, reportez-vous à cette [section](../../delivery/using/configuring-the-mobile-application-android.md).
+>Pour savoir comment configurer votre application pour Android et comment créer une diffusion pour Android, reportez-vous à cette [section](configuring-the-mobile-application-android.md).
+
+Les étapes clés sont les suivantes :
+
+1. [Configuration du compte externe iOS](#configuring-external-account-ios)
+1. [Configuration du service iOS](#configuring-ios-service)
+1. [Intégration de l’application mobile iOS dans Campaign](#creating-ios-app)
+
+Vous pourrez ensuite [créer une notification push pour les appareils iOS](create-notifications-ios.md).
+
 
 ## Configuration du compte externe iOS {#configuring-external-account-ios}
 
@@ -64,9 +73,9 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
 1. Créez vos applications de développement et de production iOS. Pour plus d’informations à ce sujet, consultez cette [section](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app).
 
-## Création d&#39;applications mobiles iOS {#creating-ios-app}
+## Créer une application mobile iOS {#creating-ios-app}
 
-Après avoir créé votre service, vous devez maintenant créer votre application iOS :
+Après avoir créé votre service, créez votre application iOS dans Campaign. Procédez comme suit :
 
 1. Dans le service que vous venez de créer, cliquez sur le bouton **[!UICONTROL Ajouter]** pour choisir le type d&#39;application.
 
@@ -118,40 +127,3 @@ Dans l’exemple suivant, nous ajoutons **mediaURl** et **mediaExt** pour créer
 1. Cliquez sur **[!UICONTROL Terminer]**.
 
 Votre application iOS est maintenant prête à être utilisée dans Campaign Classic.
-
-## Création d&#39;une notification iOS enrichie {#creating-ios-delivery}
-
-Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies. Adobe Campaign peut envoyer des notifications à l&#39;aide de variables qui permettront à l&#39;appareil d&#39;afficher des notifications enrichies.
-
-Vous devez maintenant créer une nouvelle diffusion et l’associer à l’application mobile que vous avez créée.
-
-1. Accédez à **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
-
-1. Cliquez sur **[!UICONTROL Nouveau]**.
-
-   ![](assets/nmac_android_3.png)
-
-1. Sélectionnez **[!UICONTROL Diffuser sur iOS (ios)]** dans la liste déroulante **[!UICONTROL Modèle de diffusion]**. Ajoutez un **[!UICONTROL Libellé]** à la diffusion.
-
-1. Cliquez sur **[!UICONTROL Pour]** pour définir la population à cibler. Par défaut, le mapping de ciblage **[!UICONTROL Application abonnés]** est appliquée. Cliquez sur **[!UICONTROL Ajouter]** pour sélectionner le service créé précédemment.
-
-   ![](assets/nmac_ios_9.png)
-
-1. Dans la fenêtre **[!UICONTROL Type de cible]**, sélectionnez **[!UICONTROL Abonnés d’une application mobile iOS (iPhone, iPad)]** et cliquez sur **[!UICONTROL Suivant]**.
-
-1. Dans la liste déroulante **[!UICONTROL Service]**, sélectionnez le service créé précédemment, puis l’application ciblée, et cliquez sur **[!UICONTROL Terminer]**.
-Les **[!UICONTROL variables d’application]** sont automatiquement ajoutées en fonction de ce qui a été incorporé au cours des étapes de configuration.
-
-   ![](assets/nmac_ios_6.png)
-
-1. Modifiez la notification enrichie.
-
-   ![](assets/nmac_ios_7.png)
-
-1. Cochez la case **[!UICONTROL Contenu mutable]** dans la fenêtre d’édition des notifications. L’application mobile pourra ainsi télécharger le contenu multimédia.
-
-1. Cliquez sur **[!UICONTROL Enregistrer]**, puis envoyez votre diffusion.
-
-L’image et la page web doivent s’afficher dans la notification push lors de la réception sur les appareils iOS des abonnés.
-
-![](assets/nmac_ios_8.png)
