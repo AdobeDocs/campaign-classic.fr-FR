@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 778f0a9436f26c10b266019f761b499ab7547be1
+source-git-commit: c612b47463427751eff27d6092e371c918c87d93
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 100%
+source-wordcount: '1634'
+ht-degree: 99%
 
 ---
 
@@ -43,9 +43,9 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </tr>
     <tr>
   <td>Adobe Analytics Data Connector<br></td>
-   <td><p>À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète.</p>
+   <td><p>À compter de la version 21.1.3 de Campaign, le connecteur de données Adobe Analytics est obsolète.</p>
    <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
-  <p><em>Date de suppression prévue : 2022</em></p>
+  <p><em>Date de suppression prévue : 1 mars 2022</em></p>
   </td>
  </tr>
     <tr>
@@ -134,7 +134,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
 
 Les systèmes suivants sont désormais obsolètes pour Campaign Classic : Reportez-vous à la [matrice de compatibilité](../../rn/using/compatibility-matrix.md) pour effectuer une mise à jour vers une nouvelle version ou passer à un nouveau système avant la fin de la compatibilité.
 
-### Adobe Campaign version 20.2 {#compat-20-2-release}
+### Adobe Campaign version 20.2  {#compat-20-2-release}
 
 À compter de la version 20.2, les connecteurs SMS suivants sont obsolètes. Voir la section [Fonctionnalités obsolètes](#deprecated-features)
 
