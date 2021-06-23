@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
 ---
 
-# Contrôle de la délivrabilité{#monitoring-deliverability}
+# Surveillance de la délivrabilité{#monitoring-deliverability}
 
 Vous trouverez ci-dessous des détails sur les différents outils de surveillance fournis par Adobe Campaign, ainsi que des directives supplémentaires sur l’exploitation des fonctionnalités offertes par Adobe Campaign pour surveiller la délivrabilité de votre plateforme.
 
@@ -28,7 +28,7 @@ Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gér
 
 Le package Délivrabilité vous donne accès aux informations suivantes :
 
-* [Rapport Inbox rendering](../../delivery/using/inbox-rendering.md), qui permet la prévisualisation de vos messages sur les principaux clients de messagerie afin d’analyser le contenu et la réputation.
+* [Rapport Inbox rendering](inbox-rendering.md), qui permet la prévisualisation de vos messages sur les principaux clients de messagerie afin d’analyser le contenu et la réputation.
 * Vue d’ensemble de la qualité des messages (boîte de réception, spam).
 
 ## Outils de surveillance {#monitoring-tools}
@@ -41,22 +41,22 @@ Vous pouvez également utiliser les outils suivants :
    * **[!UICONTROL Erreurs soft]** qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
 
    Voir à ce propos la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
-* Plus généralement, le [tableau de bord des diffusions](../../delivery/using/about-delivery-monitoring.md) donne accès aux éléments suivants :
-   * [Synthèse des diffusions](../../delivery/using/delivery-dashboard.md#delivery-summary), qui indique le détail de l’envoi et le nombre de messages à envoyer, traités et envoyés avec succès.
-   * [Logs et historique de la diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history), qui montrent les cibles exclues et le motif d’exclusion.
-   * [Logs de tracking](../../delivery/using/delivery-dashboard.md#tracking-logs), qui affichent les informations de tracking, telles que les ouvertures et les clics.
+* Plus généralement, le [tableau de bord des diffusions](about-delivery-monitoring.md) donne accès aux éléments suivants :
+   * [Synthèse des diffusions](delivery-dashboard.md#delivery-summary), qui indique le détail de l’envoi et le nombre de messages à envoyer, traités et envoyés avec succès.
+   * [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history), qui montrent les cibles exclues et le motif d’exclusion.
+   * [Logs de tracking](delivery-dashboard.md#tracking-logs), qui affichent les informations de tracking, telles que les ouvertures et les clics.
 
-## Directives de supervision {#monitoring-guidelines}
+## Instructions de surveillance {#monitoring-guidelines}
 
 Voici quelques directives supplémentaires concernant la supervision de la délivrabilité :
 
 * Vérifiez régulièrement le [débit des diffusions](../../reporting/using/global-reports.md#delivery-throughput) pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
-* Vérifiez que les [reprises](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
-* Vérifiez régulièrement que la boîte des [emails rebonds](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
-* Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](../../delivery/using/delivery-dashboard.md), pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
-* Lors de l’utilisation des [vagues](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves), vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
-* Vérifiez que le nombre d’erreurs et les [mises en quarantaine](../../delivery/using/understanding-quarantine-management.md) correspondent aux autres diffusions.
-* Consultez attentivement les [logs de diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
+* Vérifiez que les [reprises](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
+* Vérifiez régulièrement que la boîte des [emails rebonds](understanding-delivery-failures.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
+* Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](delivery-dashboard.md), pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
+* Lors de l’utilisation des [vagues](steps-sending-the-delivery.md#sending-using-multiple-waves), vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
+* Vérifiez que le nombre d’erreurs et les [mises en quarantaine](understanding-quarantine-management.md) correspondent aux autres diffusions.
+* Consultez attentivement les [logs de diffusion](delivery-dashboard.md#delivery-logs-and-history) pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc.).
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 
