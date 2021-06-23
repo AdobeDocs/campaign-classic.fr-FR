@@ -6,16 +6,16 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1217'
+ht-degree: 50%
 
 ---
 
 # Spécificités par SGBDR{#rdbms-specific-recommendations}
 
-Cette section contient une série de recommandations et de bonnes pratiques destinées à vous aider à mettre en place les plans de maintenance de vos bases de données pour chacun des moteurs SGBDR supportés par Adobe Campaign. Gardez à l&#39;esprit que ce ne sont que des recommandations. C&#39;est à vous qu&#39;il revient de les adapter en fonction de vos contraintes et de vos procédures internes. L&#39;administrateur de base de données est la personne qui doit être responsable de ces procédures.
+Pour vous aider à configurer des plans de maintenance, cette section répertorie quelques recommandations et bonnes pratiques adaptées aux différents moteurs SGBDR pris en charge par Adobe Campaign. Il ne s’agit toutefois que de recommandations. C&#39;est à vous de les adapter à vos besoins, conformément à votre procédure interne et vos contraintes. L’administrateur de la base de données a la responsabilité de créer et d’exécuter ces plans.
 
 ## PostgreSQL {#postgresql}
 
@@ -36,73 +36,132 @@ Cette section contient une série de recommandations et de bonnes pratiques dest
     ORDER BY 3 DESC, 1, 2 DESC;
    ```
 
-1. Lancez la commande suivante pour répertorier les tables volumineuses et les index :
+1. Vous pouvez exécuter cette requête pour repérer les tables et index volumineux :
 
    ```
-   select * from uvSpace;
+   SELECT * FROM uvSpace;
+   ```
+
+   Vous pouvez également exécuter cette requête, par exemple, pour afficher l’ensemble des tailles d’index :
+
+   ```
+   SELECT
+      tablename,
+      sum(size_mbytes) AS "sizeMB_all",
+      (
+         SELECT sum(size_mbytes)
+         FROM uvspace
+         AS uv2
+         WHERE
+            INDEXNAME IS NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS "sizeMB_data",
+      (
+         SELECT sum(size_mbytes)
+         FROM uvspace 
+         AS uv2 
+         WHERE
+            INDEXNAME IS NOT NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS "sizeMB_index",
+      (
+         SELECT ROW_COUNT
+         FROM uvspace
+         AS uv2
+         WHERE
+            INDEXNAME IS NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS ROWS FROM uvspace AS uv1
+      GROUP BY tablename
+      ORDER BY 2 DESC
    ```
 
 ### Maintenance simple {#simple-maintenance}
 
-Sous PostgreSQL, les commandes habituellement utilisées sont **vacuum full** et **reindex**.
+Dans PostgreSQL, vous pouvez utiliser les mots-clés typiques suivants :
 
-Voici un exemple classique de plan de maintenance SQL qui doit être exécuté régulièrement à l&#39;aide de ces deux commandes :
+* VACUUM (PLEIN, ANALYSER, VERBOSE)
+* REINDEX
+
+Pour exécuter l’opération VACUUM, l’analyser et l’accélérer, vous pouvez utiliser la syntaxe suivante :
 
 ```
-vacuum full nmsdelivery;
- reindex table nmsdelivery;
- 
- vacuum full nmsdeliverystat;
- reindex table nmsdeliverystat;
- 
- vacuum full xtkworkflow;
- reindex table xtkworkflow;
- 
- vacuum full xtkworkflowevent;
- reindex table xtkworkflowevent;
- 
- vacuum full xtkworkflowjob;
- reindex table xtkworkflowjob;
- 
- vacuum full xtkworkflowlog;
- reindex table xtkworkflowlog;
- 
- vacuum full xtkworkflowtask;
- reindex table xtkworkflowtask;
- 
- vacuum full xtkjoblog;
- reindex table xtkjoblog;
- 
- vacuum full xtkjob;
- reindex table xtkjob;
- 
- vacuum full nmsaddress;
- reindex table nmsaddress;
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) <table>;
+```
 
- vacuum full nmsdeliverypart;
- reindex table nmsdeliverypart;
- 
- vacuum full nmsmirrorpageinfo;
- reindex table nmsmirrorpageinfo;
+Nous vous recommandons vivement de ne pas omettre l’instruction ANALYZE. Dans le cas contraire, le tableau vide est laissé sans statistiques. La raison est qu&#39;une nouvelle table est construite, puis l&#39;ancienne est supprimée. Par conséquent, l’identifiant d’objet (OID) de la table change, mais aucune statistique n’est calculée. Par conséquent, vous rencontrerez immédiatement des problèmes de performances.
+
+Voici un exemple typique de plan de maintenance SQL à exécuter régulièrement :
+
+```
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdelivery;
+REINDEX TABLE nmsdelivery;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverystat;
+REINDEX TABLE nmsdeliverystat;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflow;
+REINDEX TABLE xtkworkflow;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowevent;
+REINDEX TABLE xtkworkflowevent;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowjob;
+REINDEX TABLE xtkworkflowjob;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowlog;
+REINDEX TABLE xtkworkflowlog;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowtask;
+REINDEX TABLE xtkworkflowtask;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkjoblog;
+REINDEX TABLE xtkjoblog;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkjob;
+REINDEX TABLE xtkjob;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsaddress;
+REINDEX TABLE nmsaddress;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverypart;
+REINDEX TABLE nmsdeliverypart;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
+REINDEX TABLE nmsmirrorpageinfo;
 ```
 
 >[!NOTE]
 >
->* Adobe conseille de commencer par les tables de petite taille. Si l&#39;opération de maintenance devait échouer sur les tables volumineuses (ce qui est davantage le cas que sur les petites tables), une partie de la maintenance serait déjà assurée.
->* Adobe recommande d&#39;ajouter tables spécifiques à votre modèle de données, notamment celles qui subissent des mises à jour massives. Par exemple, cela peut être le cas pour **NmsRecipient** si vous procédez chaque jour à d&#39;importantes réplications de données.
->* Les commandes **vacuum** et **re-index** verrouillent la table ce qui met certains processus en attente pendant toute la durée de la maintenance.
->* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande **vacuum full** peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
->* Cette opération de maintenance peut être effectuée par un workflow d’Adobe Campaign via une activité de type **[!UICONTROL SQL]** (voir à ce sujet [cette section](../../workflow/using/architecture.md)). Assurez-vous de lancer la maintenance pendant une période de faible activité et en dehors des périodes de sauvegarde.
+>* Adobe recommande de commencer par les tables plus petites : ainsi, si le processus échoue sur les tables volumineuses (où le risque d’échec est le plus élevé), au moins une partie de la maintenance est terminée.
+>* Adobe vous recommande d’ajouter les tables spécifiques à votre modèle de données, qui peuvent faire l’objet de mises à jour importantes. Cela peut être le cas pour **NmsRecipient** si vous disposez de flux de réplication de données quotidiens volumineux.
+>* Les instructions VACUUM et REINDEX verrouillent la table, ce qui interrompt certains processus pendant la maintenance.
+>* Pour les tables très volumineuses (généralement supérieures à 5 Go), l’instruction VACUUM PULL peut devenir assez inefficace et prendre beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
+>* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Voir à ce propos [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n’entre pas en conflit avec votre fenêtre de sauvegarde.
+
 >
 
 
 
 ### Reconstruire une base {#rebuilding-a-database}
 
-PostgreSQL ne propose pas de moyen efficace pour effectuer une reconstruction de table en ligne, car la commande **vacuum full** verrouille la table, empêchant ainsi une production régulière. La maintenance doit donc être effectuée lorsque la table n&#39;est pas utilisée. Vous pouvez, au choix :
+PostgreSQL ne permet pas d’effectuer facilement une reconstruction de table en ligne, car l’instruction VACUUM FULL verrouille la table, empêchant ainsi une production régulière. La maintenance doit donc être effectuée lorsque la table n&#39;est pas utilisée. Vous pouvez, au choix :
 
 * effectuer la maintenance lorsque la plateforme Adobe Campaign est arrêtée,
-* arrêter les processus Adobe Campaign susceptibles d&#39;écrire dans la table qui est en cours de reconstruction (par exemple **nlserver stop wfserver@nom_de_l&#39;instance** pour arrêter le processus de workflow).
+* arrêtez les différents sous-services Adobe Campaign susceptibles d’écrire dans la table en cours de reconstruction (**nlserver stop wfserver nom_instance** pour arrêter le processus de workflow).
 
 Voici un exemple de défragmentation de table à l&#39;aide de fonctions qui permettent de générer le langage de définition de données (LDD) voulu. La requête SQL suivante permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2** qui peuvent être utilisées pour générer le LDD destiné à recréer une table.
 
@@ -366,19 +425,19 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l’administrateur de base de données pour connaître les procédures de maintenance de cette version.
 
 1. Connectez-vous à Microsoft SQL Server Management Studio avec un identifiant auquel ont été attribués des droits administrateur.
-1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]** dans le menu contextuel.
+1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]** dans le menu contextuel..
 1. Cliquez sur **[!UICONTROL Suivant]** lorsque la page d&#39;accueil s&#39;affiche.
 1. Choisissez le type de plan de maintenance que vous souhaitez créer (exécution de la maintenance en une fois ou création d&#39;un plan pour chaque tâche de maintenance), puis cliquez sur **[!UICONTROL Modifier]**.
-1. Dans la fenêtre **[!UICONTROL Propriétés de la planification du travail]**, choisissez les paramètres d&#39;exécution voulus et cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Suivant]** .
-1. Sélectionnez les tâches de maintenance à effectuer comme illustré ci-dessous puis cliquez sur **[!UICONTROL Suivant]** .
+1. Dans la fenêtre **[!UICONTROL Propriétés de la planification du travail]**, choisissez les paramètres d&#39;exécution voulus et cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Suivant]**.
+1. Sélectionnez les tâches de maintenance à effectuer comme illustré ci-dessous puis cliquez sur **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
    >Nous vous conseillons d&#39;effectuer au moins les tâches de maintenance comme illustré ci-dessus. Vous pouvez également sélectionner la tâche de mise à jour des statistiques si vous le souhaitez, sachant que cette tâche est déjà effectuée par le workflow de nettoyage de la base.
 
-1. Dans la liste déroulante, sélectionnez la base sur laquelle vous souhaitez effectuer la tâche **[!UICONTROL Vérifier l&#39;intégrité de la base de données]**.
-1. Sélectionnez la base concernée et cliquez sur **[!UICONTROL OK]** puis **[!UICONTROL Suivant]** .
-1. Configurez la taille maximale allouée à votre base de données puis cliquez sur **[!UICONTROL Suivant]** .
+1. Dans la liste déroulante, sélectionnez la base de données sur laquelle vous souhaitez exécuter la tâche **[!UICONTROL Vérifier l’intégrité de la base de données]**.
+1. Sélectionnez la base concernée et cliquez sur **[!UICONTROL OK]** puis **[!UICONTROL Suivant]**.
+1. Configurez la taille maximale allouée à votre base de données puis cliquez sur **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
@@ -388,7 +447,7 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
 
    * Si le taux de fragmentation de l&#39;index est compris entre 10% et 40%, il est recommandé d&#39;effectuer une réorganisation :
 
-      Choisissez la base de données et les objets (tables ou vues) dont vous voulez réorganiser l&#39;index puis cliquez sur **[!UICONTROL Suivant]** .
+      Choisissez la base de données et les objets (tables ou vues) dont vous voulez réorganiser l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
 
       >[!NOTE]
       >
@@ -396,22 +455,22 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
 
    * Si le taux de fragmentation de l&#39;index est supérieur à 40%, il est recommandé d&#39;effectuer une reconstruction :
 
-      Choisissez les options de la tâche de reconstruction de l&#39;index puis cliquez sur **[!UICONTROL Suivant]** .
+      Choisissez les options de la tâche de reconstruction de l&#39;index puis cliquez sur **[!UICONTROL Suivant]**.
 
       >[!NOTE]
       >
-      >Le processus de reconstruction de l&#39;index est plus contraignant en termes d&#39;utilisation du processeur et verrouille les ressources de la base de données. Cochez l&#39;option **[!UICONTROL Keep index online while reindexing]** (Conserver l&#39;index en ligne lors de la réindexation) si vous souhaitez que l&#39;index soit disponible pendant la reconstruction.
+      >Le processus de reconstruction de l&#39;index est plus contraignant en termes d&#39;utilisation du processeur et verrouille les ressources de la base de données. Sélectionnez l&#39;option **[!UICONTROL Conserver l&#39;index en ligne lors de la réindexation]** si vous souhaitez que l&#39;index soit disponible pendant la reconstruction.
 
-1. Choisissez les options du rapport d&#39;activité des tâches de maintenance puis cliquez sur **[!UICONTROL Suivant]** .
-1. Vérifiez la liste des tâches du plan de maintenance puis cliquez sur **[!UICONTROL Terminer]** .
+1. Choisissez les options du rapport d&#39;activité des tâches de maintenance puis cliquez sur **[!UICONTROL Suivant]**.
+1. Vérifiez la liste des tâches du plan de maintenance puis cliquez sur **[!UICONTROL Terminer]**.
 
    L&#39;état d&#39;avancement du plan de maintenance et le statut des différentes étapes s&#39;affiche à l&#39;écran.
 
-1. Lorsque le plan de maintenance est arrivé à son terme, cliquez sur **[!UICONTROL Fermer]** .
+1. Lorsque le plan de maintenance est arrivé à son terme, cliquez sur **[!UICONTROL Fermer]**.
 1. Dans l’explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
 1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
 
-   Vous remarquerez qu&#39;un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Travaux]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple il n&#39;y a qu&#39;un seul objet car toutes les tâches de maintenance font partie du même plan de maintenance.
+   Notez qu’un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Tâches]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple, il n’y a qu’un seul objet, car toutes les tâches de maintenance font partie du même plan.
 
    >[!IMPORTANT]
    >
@@ -425,8 +484,8 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
 
 L&#39;option **WdbcOptions_TempDbName** permet de configurer une base de données distincte pour les tables de travail de Microsoft SQL Server. Cette configuration permet d&#39;optimiser les sauvegardes et la réplication.
 
-Cette option peut être utilisée si vous souhaitez que les tables de travail (par exemple, les tables créées pendant l&#39;exécution d&#39;un workflow) soient créées dans une autre base de données.
+Cette option peut être utilisée si vous souhaitez que les tables de travail (par exemple, les tables créées lors de l&#39;exécution d&#39;un workflow) soient créées dans une autre base de données.
 
-Lorsque vous définissez l&#39;option sur &quot;tempdb.dbo.&quot;, les tables de travail sont créées dans la base de données temporaire par défaut de Microsoft SQL Server. L&#39;administrateur de la base de données doit autoriser l&#39;accès en écriture à la base de données tempdb.
+Lorsque vous définissez l&#39;option sur &quot;tempdb.dbo.&quot;, les tables de travail sont créées dans la base de données temporaire par défaut de Microsoft SQL Server. L&#39;administrateur de la base de données doit autoriser l&#39;accès en écriture à la base de données tempdb.
 
-Si cette option est définie, elle sera utilisée sur toutes les bases de données Microsoft SQL Server configurées dans Adobe Campaign (base de données principale et comptes externes). Notez que si deux comptes externes partagent le même serveur, des conflits peuvent survenir (car tempdb est unique). De même, si deux instances Campaign utilisent le même serveur MSSQL, il peut y avoir des conflits si elles utilisent la même tempdb.
+Si cette option est définie, elle est utilisée sur toutes les bases de données Microsoft SQL Server configurées dans Adobe Campaign (base de données principale et comptes externes). Notez que si deux comptes externes partagent le même serveur, des conflits peuvent se produire (car tempdb est unique). De la même manière, si deux instances Campaign utilisent le même serveur MSSQL, il peut y avoir des conflits si elles utilisent la même tempdb.
