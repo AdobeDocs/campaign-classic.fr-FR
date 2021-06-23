@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: 9703e9d5cf0dba91d3f38d265756bdae69267c28
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 97%
 
 ---
 
@@ -176,11 +176,6 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 <p>API version 15</p>
 </td>
 </tr>
-<tr><td>API Oracle On Demand</td>
-<td>
-<p>API des services Web v1.0</p>
-</td>
-</tr>
 <tr>
 <td>Microsoft Dynamics </td>
 <td>
@@ -271,7 +266,7 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 
 ## Console client {#ClientConsoleoperatingsystems}
 
-Avertissement : les systèmes d’exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
+:warning: Les systèmes d’exploitation et navigateurs suivants sont nécessaires pour utiliser la console cliente Campaign.
 
 ### Systèmes d’exploitation
 
@@ -379,7 +374,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 </tbody>
 </table>
 
-## Articles connexes{#Morelikethis-gs}
+## Autres informations similaires{#Morelikethis-gs}
 
 * [Notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/latest-release.md)
 * [Guide d&#39;installation](../../installation/using/general-architecture.md)
