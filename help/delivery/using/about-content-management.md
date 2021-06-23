@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 91%
@@ -19,7 +19,7 @@ Le module Adobe Campaign Content Manager est un module [intégré de Campaign Cl
 
 >[!NOTE]
 >
->Cette section fait référence au module de gestion de contenu. Pour plus d’informations sur la conception du contenu des diffusions email, voir [cette section](../../delivery/using/defining-the-email-content.md).
+>Cette section fait référence au module de gestion de contenu. Pour plus d’informations sur la conception du contenu des diffusions email, voir [cette section](defining-the-email-content.md).
 
 Le module de gestion de contenu intègre des fonctionnalités de groupe de travail, de workflow et d’agrégation de contenu. Il permet de mettre automatiquement en forme un message : email, courrier, SMS, web, etc.
 
