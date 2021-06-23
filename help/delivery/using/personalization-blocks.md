@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 100%
+source-wordcount: '965'
+ht-degree: 96%
 
 ---
 
 # Blocs de personnalisation{#personalization-blocks}
 
-Ces blocs de personnalisation sont dynamiques, personnalisés et possèdent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Voir [Insérer des blocs de personnalisation](#inserting-personalization-blocks).
+Blocs de personnalisation sont dynamiques, personnalisées et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Voir [Insérer des blocs de personnalisation](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png)Découvrez cette fonctionnalité [en vidéo](#personalization-blocks-video)
 
@@ -68,7 +68,7 @@ Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 
 >[!NOTE]
 >
->Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+>Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
 1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
@@ -100,24 +100,12 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+   >Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici. ».
 * **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
-* **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule. Ce bloc doit être inséré dans le code source de la diffusion, dans les balises **`<script>...</script>`**.
-
-   Dans l’exemple ci-dessous, la fonction est utilisée pour remplacer l’élément « My header » par « My new header » avec des lettres majuscules à chaque mot :
-
-   ```
-   <h1 id="sample">My header</h1>
-   <script><%@ include view='toSmartCase'%>;
-   document.getElementById("sample").innerHTML = toSmartCase("My new header");
-   </script>
-   ```
-
-   ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
-
-* **[!UICONTROL URL de la page d’inscription]** : insère une URL d’abonnement (voir [A propos des services et des abonnements](../../delivery/using/about-services-and-subscriptions.md)).
+* **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
+* **[!UICONTROL URL de la page d’inscription]** : insère une URL d’abonnement (voir [A propos des services et des abonnements](about-services-and-subscriptions.md)).
 * **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription qui a été défini lors du paramétrage de l&#39;instance.
 * **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription qui permet d&#39;identifier le visiteur et la diffusion. Le lien a été défini lors du paramétrage de l&#39;instance.
 
@@ -126,7 +114,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
    >Ce bloc peut être utilisé dans les diffusions qui ciblent uniquement les visiteurs.
 
 * **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l&#39;inscription.
-* **[!UICONTROL Liens de partage vers réseaux sociaux]** : insère des boutons grâce auxquels le destinataire peut partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, Twitter et LinkedIn (voir [Marketing viral : transférer à un ami](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Liens de partage vers réseaux sociaux]** : insère des boutons grâce auxquels le destinataire peut partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, Twitter et LinkedIn (voir [Marketing viral : transférer à un ami](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style des emails de contenu]** et **[!UICONTROL Style de notification]** : génèrent un code permettant de formater un email avec les styles HTML par défaut. Ces blocs doivent être insérés dans le code source de la diffusion, dans la section **[!UICONTROL ...]**, dans les balises **`<style>...</style>`**.
 * **[!UICONTROL URL d&#39;acceptation d&#39;une offre en mode unitaire]** : insère une URL permettant de définir une offre d&#39;interaction comme étant **[!UICONTROL Acceptée]** (voir [cette section](../../interaction/using/offer-analysis-report.md)).
 
