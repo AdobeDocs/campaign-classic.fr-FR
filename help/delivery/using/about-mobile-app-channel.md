@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
@@ -53,9 +53,9 @@ Vous pouvez définir le comportement de l’application lorsque l’utilisateur 
 
 Le workflow **[!UICONTROL Gestion des opt-out NMAC]** (mobileAppOptOutMgt) met à jour les désabonnements aux notifications sur les appareils mobiles. Pour plus d&#39;informations sur ce workflow, consultez la [liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d’informations sur les étapes de configuration, voir [cette section](../../delivery/using/configuring-the-mobile-application.md).
+Adobe Campaign est compatible avec APNs HTTP/2. Pour plus d’informations sur les étapes de configuration, voir [cette section](configuring-the-mobile-application.md).
 
-Pour plus d’informations sur la création d’une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Pour plus d’informations sur la création d’une diffusion, voir [cette section](steps-about-delivery-creation-steps.md).
 
 ## Parcours des données {#data-path}
 
