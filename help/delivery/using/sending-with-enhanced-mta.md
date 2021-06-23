@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 100%
@@ -31,7 +31,7 @@ L’implémentation du MTA amélioré peut avoir un impact sur certaines fonctio
 >
 >Si vous êtes un utilisateur final d’Adobe Campaign et que vous souhaitez déterminer si votre instance a été mise à niveau vers le MTA amélioré, contactez votre administrateur Campaign interne.
 
-## Forum aux questions {#enhanced-mta-faq}
+## Foire aux questions {#enhanced-mta-faq}
 
 ### Utilisation et avantages
 
@@ -129,7 +129,7 @@ Les qualifications des retours dans la table **[!UICONTROL Qualification des log
 >
 >Le MTA amélioré qualifie le retour SMTP et envoie cette qualification à Campaign sous la forme d’un code de retour mappé à un motif et à une qualification de retour Campaign.
 
-Pour plus d’informations sur la qualification des retours, consultez [cette section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification).
+Pour plus d’informations sur la qualification des retours, consultez [cette section](understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Débit des diffusions
 
@@ -145,7 +145,7 @@ Par exemple, si la période de validité est définie sur la valeur par défaut 
 
 Une fois qu’un message figure dans la file d’attente du MTA amélioré depuis 3,5 jours et qu’il n’a pas été diffusé, il expire et son état est mis à jour de **[!UICONTROL Envoi]** à **[!UICONTROL Échec]** dans les logs de diffusion.
 
-Pour plus d’informations sur la période de validité, consultez [cette section](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+Pour plus d’informations sur la période de validité, consultez [cette section](steps-sending-the-delivery.md#defining-validity-period).
 
 ### Signature DKIM
 
@@ -154,13 +154,13 @@ Pour en savoir plus sur la signature DKIM, consultez le [Guide des bonnes pratiq
 
 ### Rapports de réussite de diffusion
 
-Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](../../delivery/using/delivery-dashboard.md) d&#39;une diffusion email, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) de la diffusion, à mesure que les erreurs soft et hard bounces font l&#39;objet de rapports du MTA amélioré vers Campaign.
+Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](delivery-dashboard.md) d&#39;une diffusion email, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](steps-sending-the-delivery.md#defining-validity-period) de la diffusion, à mesure que les erreurs soft et hard bounces font l&#39;objet de rapports du MTA amélioré vers Campaign.
 
-En effet, tous les messages s&#39;affichent comme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history) dès qu&#39;ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [bounce](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
+En effet, tous les messages s&#39;affichent comme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](delivery-dashboard.md#delivery-logs-and-history) dès qu&#39;ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau de la MTA améliorée à Campaign.
 
 Lorsque les messages hard bounce sont renvoyés du MTA amélioré, leur état passe de **[!UICONTROL Envoyés]** à **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Succès]** diminue en conséquence.
 
-Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaissent toujours comme **[!UICONTROL Envoyés]** et le pourcentage **[!UICONTROL Succès]** n&#39;est pas encore mis à jour. L&#39;envoi des messages soft bounce fait ensuite l&#39;objet de [reprises](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
+Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaissent toujours comme **[!UICONTROL Envoyés]** et le pourcentage **[!UICONTROL Succès]** n&#39;est pas encore mis à jour. L&#39;envoi des messages soft bounce fait ensuite l&#39;objet de [reprises](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) tout au long de la période de validité de la diffusion :
 
 * Si une reprise est effectuée avec succès avant la fin de la période de validité, l&#39;état du message reste **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** reste le même.
 
@@ -192,7 +192,7 @@ Lorsque le message est effectivement diffusé aux profils ciblés et que ces inf
 
 Lorsque des messages hard bounce sont signalés depuis le MTA amélioré, leur statut de log passe de **[!UICONTROL Pris en compte par le prestataire]** à **[!UICONTROL En échec]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Lorsque des messages soft bounce sont signalés depuis le MTA amélioré, leur statut de log reste inchangé (**[!UICONTROL pris en compte par le prestataire]**) : seule la [raison de l’erreur](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) est mise à jour<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Le pourcentage **[!UICONTROL Succès]** reste inchangé. L&#39;envoi des messages soft bounce fait ensuite l&#39;objet de reprises tout au long de la [période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period) de la diffusion :
+Lorsque des messages soft bounce sont signalés depuis le MTA amélioré, leur statut de log reste inchangé (**[!UICONTROL pris en compte par le prestataire]**) : seule la [raison de l’erreur](understanding-delivery-failures.md#delivery-failure-types-and-reasons) est mise à jour<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. Le pourcentage **[!UICONTROL Succès]** reste inchangé. L&#39;envoi des messages soft bounce fait ensuite l&#39;objet de reprises tout au long de la [période de validité](steps-sending-the-delivery.md#defining-validity-period) de la diffusion :
 
 * Si une reprise est effectuée avec succès avant la fin de la période de validité, l’état du message passe à **[!UICONTROL Envoyé]** et le pourcentage **[!UICONTROL Succès]** augmente en conséquence.
 
@@ -200,9 +200,9 @@ Lorsque des messages soft bounce sont signalés depuis le MTA amélioré, leur s
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les hard et soft bounces, voir [cette section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Pour plus d&#39;informations sur les hard et soft bounces, voir [cette section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Pour plus d&#39;informations sur les reprises après une diffusion temporairement en échec, voir [cette section](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Pour plus d&#39;informations sur les reprises après une diffusion temporairement en échec, voir [cette section](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 
 Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
