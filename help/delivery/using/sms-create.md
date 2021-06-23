@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
-# Création d’une diffusion SMS {#creating-a-sms-delivery}
+# Création d&#39;une diffusion SMS {#creating-a-sms-delivery}
 
 ## Choisir le canal de diffusion {#selecting-the-delivery-channel}
 
@@ -21,17 +21,17 @@ Pour créer une diffusion SMS, procédez comme suit :
 
 >[!NOTE]
 >
->Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
 1. Sélectionnez le modèle de diffusion **Envoyé vers mobiles (SMPP)** que vous avez créé précédemment. Voir à ce propos la section [Modifier le modèle de diffusion](sms-set-up.md#changing-the-delivery-template).
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 1. Cliquez sur **[!UICONTROL Continuer]** pour valider ces informations et afficher la fenêtre de configuration du message.
 
-## Définir le contenu du SMS {#defining-the-sms-content}
+## Définition du contenu du SMS {#defining-the-sms-content}
 
 Pour définir le contenu du SMS, procédez comme suit :
 
@@ -39,7 +39,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
-   L&#39;utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
+   L&#39;utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** en bas de page afin de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, vous devez choisir un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Sélectionnez un individu parmi la ou les cibles définies ou choisissez une autre personne.
 
@@ -65,8 +65,8 @@ Pour définir le contenu du SMS, procédez comme suit :
 
 ## Choisir la population cible {#selecting-the-target-population}
 
-Le processus détaillé de sélection de la population cible d’une diffusion est présenté dans [cette section](../../delivery/using/steps-defining-the-target-population.md).
+Le processus détaillé de sélection de la population cible d’une diffusion est présenté dans [cette section](steps-defining-the-target-population.md).
 
-Pour plus d’informations sur l’utilisation des champs de personnalisation, consultez [cette section](../../delivery/using/about-personalization.md).
+Pour plus d’informations sur l’utilisation des champs de personnalisation, consultez [cette section](about-personalization.md).
 
-Pour plus d’informations sur l’inclusion d’une liste de contrôle, consultez [cette page](../../delivery/using/about-seed-addresses.md).
+Pour plus d’informations sur l’inclusion d’une liste de contrôle, consultez [cette page](about-seed-addresses.md).
