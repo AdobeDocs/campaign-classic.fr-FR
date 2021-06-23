@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2665'
 ht-degree: 100%
 
 ---
 
-# Comprendre les diffusions en échec{#understanding-delivery-failures}
+# Comprendre les échecs de diffusion{#understanding-delivery-failures}
 
 ## A propos des diffusions en échec {#about-delivery-failures}
 
@@ -31,13 +31,13 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 **Rubriques connexes :**
 
-* [Logs et historique de la diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)
-* [Statut En échec](../../delivery/using/delivery-performances.md#failed-status)
+* [Logs et historique de la diffusion](delivery-dashboard.md#delivery-logs-and-history)
+* [Statut En échec](delivery-performances.md#failed-status)
 * [Types de diffusion en échec et raisons   ](#delivery-failure-types-and-reasons)
 
 ## Types de diffusion en échec et raisons    {#delivery-failure-types-and-reasons}
 
-Trois types d&#39;erreurs sont liés à un message en échec. Chaque type d&#39;erreur détermine si une adresse est mise en quarantaine. Voir à ce propos la section [Conditions de mise en quarantaine d&#39;une adresse](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
+Trois types d&#39;erreurs sont liés à un message en échec. Chaque type d&#39;erreur détermine si une adresse est mise en quarantaine. Voir à ce propos la section [Conditions de mise en quarantaine d&#39;une adresse](understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
 
 * **Hard** : une erreur de type &quot;hard&quot; indique une adresse invalide. Il s’agit d’un message d’erreur indiquant explicitement que l’adresse est invalide, par exemple : &quot;Utilisateur inconnu&quot;.
 * **Soft** : il s’agit d’une erreur qui peut être temporaire, ou qui n’a pas pu être qualifiée, par exemple : &quot;Domaine invalide&quot; ou &quot;Boîte pleine&quot;.
@@ -176,7 +176,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
  </tbody> 
 </table>
 
-## Reprises après une diffusion temporairement en échec     {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec    {#retries-after-a-delivery-temporary-failure}
 
 Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est temporaire, les reprises seront effectuées pendant la durée de diffusion.********
 
@@ -186,13 +186,13 @@ Si un message échoue en raison d&#39;une erreur Soft ou Ignoré qui est tempora
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les paramètres de reprise de la diffusion ne sont plus utilisés par Campaign. Les reprises des erreurs soft et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des retours provenant du domaine d&#39;email du message.
+>Pour les installations hébergées ou hybrides, si vous avez effectué une mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md), les paramètres de reprise de la diffusion ne sont plus utilisés par Campaign. Les reprises des erreurs soft et l’intervalle qui les sépare sont déterminés par le MTA amélioré en fonction du type et de la gravité des réponses des retours provenant du domaine d&#39;email du message.
 
-Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d&#39;une diffusion. Voir [Définition de la période de validité](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period).
+Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et spécifiez la durée souhaitée dans le champ correspondant pour modifier la durée d&#39;une diffusion. Voir [Définition de la période de validité](steps-sending-the-delivery.md#defining-validity-period).
 
-Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [Paramétrer les reprises](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)).
+Le paramétrage par défaut prévoit cinq reprises séparées d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [Paramétrer les reprises](steps-sending-the-delivery.md#configuring-retries)).
 
-## Erreurs synchrones et asynchrones     {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones    {#synchronous-and-asynchronous-errors}
 
 Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
@@ -207,7 +207,7 @@ Un message peut échouer immédiatement (erreur synchrone) ou plus tard, après 
 
    >[!NOTE]
    >
-   >La gestion des plaintes est décrite dans la section [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md).
+   >La gestion des plaintes est décrite dans la section [Gestion de la délivrabilité](about-deliverability.md).
 
 ## Gestion des emails bounce {#bounce-mail-management}
 
@@ -219,19 +219,21 @@ Pour les installations on-premise et les installations hébergées/hybrides util
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de gestion des emails ne sont plus utilisées. Voir à ce propos [cette section](#email-management-rules).
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md), les règles de gestion des emails ne sont plus utilisées. Voir à ce propos [cette section](#email-management-rules).
 
-### Qualification des emails bounce     {#bounce-mail-qualification}
+### Qualification des emails bounce    {#bounce-mail-qualification}
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md) :
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md) :
 >
 >* Les qualifications de rebond dans la table **[!UICONTROL Qualification des logs de diffusion]** ne sont plus utilisées pour les messages d’erreur relatifs aux échecs des diffusions synchrones. **** Le MTA amélioré détermine le type et la qualification de rebond, puis renvoie ces informations à Campaign.
->
->* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
->
->* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
+   >
+   >
+* Les rebonds **asynchrones** restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Voir à ce propos la section [Règles de gestion des emails](#email-management-rules).
+   >
+   >
+* Pour les instances qui utilisent le MTA amélioré sans **WebHooks/EFS**, les règles de **[!UICONTROL mail entrant]** sont également utilisées pour traiter les mails rebonds synchrones provenant du MTA amélioré, avec la même adresse email que pour les mails rebonds asynchrones.
 
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, lorsque la diffusion d&#39;un email échoue, le serveur de diffusion d&#39;Adobe Campaign reçoit un message d&#39;erreur du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est composée de chaînes contenues dans le message renvoyé par le serveur distant. Les types et raisons des échec sont affectés à chaque message d&#39;erreur.
@@ -262,13 +264,13 @@ Les statuts de qualification des mails rebonds sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d’un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour en savoir plus sur le sujet, consultez [cette page](../../delivery/using/update-bounce-qualification.md).
+>En cas de panne d’un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour en savoir plus sur le sujet, consultez [cette page](update-bounce-qualification.md).
 
 ### Règles de gestion des emails {#email-management-rules}
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de gestion des emails ne sont plus utilisées. Pour plus de détails, voir les sections ci-dessous.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md), les règles de gestion des emails ne sont plus utilisées. Pour plus de détails, voir les sections ci-dessous.
 
 Les règles mail sont accessibles depuis le nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > Jeux de règles mail]**. Vous pouvez consulter les règles de gestion des emails dans la section inférieure de la fenêtre.
 
@@ -290,7 +292,7 @@ Les règles par défaut sont les suivantes.
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md) et si votre instance dispose de la fonctionnalité **Webhooks/EFS**, les règles de **[!UICONTROL mail entrant]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md) et si votre instance dispose de la fonctionnalité **Webhooks/EFS**, les règles de **[!UICONTROL mail entrant]** ne sont plus utilisées pour les messages d&#39;erreur relatifs aux échecs des diffusions synchrones. Voir à ce propos [cette section](#bounce-mail-qualification).
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par des serveurs distants et qui vous permettent de qualifier l&#39;erreur (**Hard**, **Soft** ou **Ignorée**).
 
@@ -306,7 +308,7 @@ Pour plus d’informations sur la qualification des mails rebonds, consultez [ce
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de **[!UICONTROL gestion des domaines]** ne sont plus utilisées. La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages et tous les domaines. La signature n’utilise ni **Sender ID**, ni **DomainKeys** ou **S/MIME**, sauf indication contraire du MTA amélioré.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md), les règles de **[!UICONTROL gestion des domaines]** ne sont plus utilisées. La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages et tous les domaines. La signature n’utilise ni **Sender ID**, ni **DomainKeys** ou **S/MIME**, sauf indication contraire du MTA amélioré.
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign, le serveur de messagerie d&#39;Adobe Campaign applique une règle de **Gestion des domaines** unique à tous les domaines.
 
@@ -321,7 +323,7 @@ Si vos messages sont affichés dans Outlook avec la mention **[!UICONTROL Au nom
 
 >[!IMPORTANT]
 >
->Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](../../delivery/using/sending-with-enhanced-mta.md), les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
+>Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le [MTA amélioré](sending-with-enhanced-mta.md), les règles de débit de diffusion avec **[!UICONTROL Gestion des MX]** ne sont plus utilisées. Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l&#39;ancien MTA de Campaign :
 
