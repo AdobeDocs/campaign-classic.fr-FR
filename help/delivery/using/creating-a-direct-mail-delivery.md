@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
@@ -19,12 +19,12 @@ Pour créer une diffusion courrier, procédez comme suit :
 
 >[!NOTE]
 >
->Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+>Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
 1. Créez une diffusion, par exemple depuis le tableau de bord des diffusions.
 1. Sélectionnez le modèle de diffusion **Diffuser par courrier (papier)**.
 
    ![](assets/direct_mail.png)
 
-1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)
+1. Identifiez la diffusion avec un libellé, un code et une description. Voir à ce propos [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery)
 1. Cliquez sur **Continuer** pour valider ces informations et afficher la fenêtre de configuration du message.
