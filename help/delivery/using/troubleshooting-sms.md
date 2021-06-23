@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Vous devrez contacter le fournisseur pour qu&#39;il diagnostique les conflits po
    * Certains comptes externes partagent la même combinaison nom d&#39;utilisateur / mot de passe.
 Le fournisseur n&#39;a aucun moyen de savoir de quel compte externe provient le `BIND PDU`, de sorte qu&#39;il traite toutes les connexions à partir de plusieurs comptes comme une seule. Il se peut qu&#39;il ait redirigé les MO et SR de manière aléatoire sur les deux comptes, ce qui a provoqué des problèmes.
 Si le fournisseur prend en charge plusieurs codes courts pour le même nom d&#39;utilisateur / mot de passe, vous devrez leur demander où placer ce numéro court dans le `BIND PDU`. Notez que cette information doit être placée dans le `BIND PDU` et non dans `SUBMIT_SM`, puisque le `BIND PDU` est le seul endroit qui permettra d&#39;utiliser correctement les MO de routage.
-Consultez la section [Informations dans chaque type de PDU](../../delivery/using/sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans le `BIND PDU`, en général vous ajoutez le numéro court dans `address_range`, mais cela nécessite une assistance spéciale de la part du fournisseur. Contactez-le pour savoir comment il s&#39;attend à acheminer de manière indépendante plusieurs numéros courts.
+Consultez la section [Informations dans chaque type de PDU](sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans le `BIND PDU`, en général vous ajoutez le numéro court dans `address_range`, mais cela nécessite une assistance spéciale de la part du fournisseur. Contactez-le pour savoir comment il s&#39;attend à acheminer de manière indépendante plusieurs numéros courts.
 Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le même compte externe.
 
 ## Problème avec un compte externe en général {#external-account-issues}
@@ -83,7 +83,7 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m�
 
 * Vérifiez les paramètres **Compte externe**. Demandez au fournisseur la valeur des champs.
 
-* Si la connexion est réussie mais instable, consultez la section [Problème de connexion instable](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection).
+* Si la connexion est réussie mais instable, consultez la section [Problème de connexion instable](troubleshooting-sms.md#issues-unstable-connection).
 
 * Si les problèmes de connexion sont difficiles à diagnostiquer, une capture réseau peut fournir des informations. Assurez-vous que la capture du réseau s&#39;exécute simultanément pendant que le problème s&#39;affiche pour pouvoir être analysé efficacement. Notez également l&#39;heure exacte à laquelle le problème apparaît.
 
@@ -115,9 +115,9 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 ## Problème lors de l&#39;envoi d&#39;un MT (SMS régulier envoyé à un utilisateur final){#issue-MT}
 
-* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Voir la section [Problème de connexion instable](../../delivery/using/sms-protocol.md#issues-unstable-connection).
+* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Voir la section [Problème de connexion instable](sms-protocol.md#issues-unstable-connection).
 
-* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Voir la section [Problème de connexions instables](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection).
+* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Voir la section [Problème de connexions instables](troubleshooting-sms.md#issues-unstable-connection).
 
 * Vérifiez que le broadlog est présent et que son statut est correct avec les dates correctes. Si ce n&#39;est pas le cas, il peut s&#39;agir d&#39;un problème de préparation de diffusion ou de diffusion.
 
@@ -139,7 +139,7 @@ Les doublons sont souvent causés par des reprises. Il est normal d&#39;avoir de
 
 * Si vous voyez des doublons envoyés exactement à 60 secondes d&#39;intervalle, il s&#39;agit probablement d&#39;un problème du côté fournisseur. L&#39;envoi de `SUBMIT_SM_RESP` n&#39;est pas assez rapide.
 
-* Si vous voyez beaucoup de `BIND/UNBIND`, vous avez une connexion instable. Consultez la section [Problème de connexion instable](../../delivery/using/troubleshooting-sms.md#issues-unstable-connection) pour connaître les solutions avant de tenter de résoudre les problèmes de doublons de messages.
+* Si vous voyez beaucoup de `BIND/UNBIND`, vous avez une connexion instable. Consultez la section [Problème de connexion instable](troubleshooting-sms.md#issues-unstable-connection) pour connaître les solutions avant de tenter de résoudre les problèmes de doublons de messages.
 
 Réduction du nombre de doublons en cas de nouvelle reprise :
 
@@ -159,7 +159,7 @@ Si le `DELIVER_SM PDU` n&#39;est pas suivi d&#39;un acquittement, vérifiez ce q
 
 * Vérifiez que les erreurs sont correctement configurées dans le tableau `broadLogMsg`.
 
-Si `DELIVER_SM PDU` a été reconnu par le connecteur SMPP étendu Adobe Campaign Classic mais que le broadLog n&#39;est pas mis à jour correctement, vérifiez le processus de réconciliation des identifiants décrit dans la section [Correspondance des entrées MT, SR et Broadlog](../../delivery/using/sms-protocol.md#matching-mt).
+Si `DELIVER_SM PDU` a été reconnu par le connecteur SMPP étendu Adobe Campaign Classic mais que le broadLog n&#39;est pas mis à jour correctement, vérifiez le processus de réconciliation des identifiants décrit dans la section [Correspondance des entrées MT, SR et Broadlog](sms-protocol.md#matching-mt).
 
 Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans les tampons du fournisseur, vous pouvez les ignorer à l&#39;aide de l&#39;option Nombre d&#39;acquittements d&#39;identifiant invalides. Cette option doit être utilisée avec soin et réinitialisée à 0 aussi vite que possible après le nettoyage des tampons.
 
@@ -179,7 +179,7 @@ Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans l
 
 ## Problème lors de la préparation de la diffusion sans exclure les destinataires mis en quarantaine (mis en quarantaine par la fonction de réponse automatique) {#issue-delivery-preparation}
 
-* Vérifiez que le format du numéro de téléphone est exactement le même dans la table de quarantaine et dans le log de diffusion. Si ce n&#39;est pas le cas, consultez cette [section](../../delivery/using/sms-protocol.md#automatic-reply) si vous rencontrez des problèmes avec le préfixe plus du format de numéro de téléphone international.
+* Vérifiez que le format du numéro de téléphone est exactement le même dans la table de quarantaine et dans le log de diffusion. Si ce n&#39;est pas le cas, consultez cette [section](sms-protocol.md#automatic-reply) si vous rencontrez des problèmes avec le préfixe plus du format de numéro de téléphone international.
 
 * Vérifiez les numéros courts. Des exclusions peuvent se produire si le numéro court du destinataire est identique à celui défini dans le compte externe ou s&#39;il est vide (vide = tout numéro court). Si un seul numéro court est utilisé pour l&#39;ensemble de l&#39;instance Adobe Campaign, il est plus facile de laisser tous les champs de **numéro court** vides.
 
