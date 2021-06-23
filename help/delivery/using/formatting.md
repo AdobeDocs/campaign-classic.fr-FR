@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 98%
 
 ---
 
@@ -364,7 +364,7 @@ Les étapes de réalisation de cet exemple sont les suivantes :
 
 1. Vous pouvez enfin utiliser ce modèle de contenu dans vos diffusions.
 
-   Pour plus d’informations à ce sujet, reportez-vous à la section [Utiliser un modèle de contenu](../../delivery/using/using-a-content-template.md).
+   Pour plus d’informations à ce sujet, reportez-vous à la section [Utiliser un modèle de contenu](using-a-content-template.md).
 
 ## Feuilles de style XSL {#xsl-stylesheets}
 
@@ -564,7 +564,7 @@ Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la sy
 
 ## Affichage des dates {#date-display}
 
-Dans le document XML en entrée, les dates sont stockées dans le format interne XML : **AAAA/MM/JJ HH:MM:SS** (exemple 2018/10/01 12:23:30).
+Dans le document XML en entrée, les dates sont stockées au format interne XML : **AAAA/MM/JJ HH:MM:SS** (exemple 2018/10/01 12:23:30).
 
 Adobe Campaign met à disposition des fonctions de formatage des dates pour les templates JavaScript et les feuilles de style XSL qui sont présentés ci-après.
 
