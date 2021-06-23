@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 32%
@@ -40,7 +40,7 @@ Vous devez d’abord créer un compte [!DNL LINE] afin de pouvoir ensuite le lie
 
 Pour créer et configurer un compte [!DNL LINE], consultez la [documentation destinée aux développeurs LINE](https://developers.line.me/).
 
-### Créer et configurer le service LINE {#configure-line-service}
+### Création et configuration du service LINE {#configure-line-service}
 
 Pour créer votre service [!DNL LINE] :
 
@@ -58,7 +58,7 @@ Pour créer votre service [!DNL LINE] :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Pour plus d’informations sur les abonnements et les services, voir [Gestion des abonnements](../../delivery/using/managing-subscriptions.md).
+Pour plus d’informations sur les abonnements et les services, voir [Gestion des abonnements](managing-subscriptions.md).
 
 ### Configuration du compte externe LINE {#configure-line-external}
 
@@ -103,13 +103,13 @@ Pour créer une diffusion [!DNL LINE] vous devez suivre les étapes suivantes :
 
    ![](assets/line_message_01.png)
 
-1. Identifiez votre diffusion avec un **[!UICONTROL Libellé]**, **[!UICONTROL Code de diffusion]** et une **[!UICONTROL Description]**. Pour plus d’informations à ce sujet, consultez [cette section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery).
+1. Identifiez votre diffusion avec un **[!UICONTROL Libellé]**, **[!UICONTROL Code de diffusion]** et une **[!UICONTROL Description]**. Pour plus d&#39;informations à ce sujet, consultez [cette section](steps-create-and-identify-the-delivery.md#identifying-the-delivery).
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour valider la création de votre diffusion.
 
 1. Dans l&#39;éditeur de diffusion, sélectionnez **[!UICONTROL Pour]** afin de cibler les destinataires de votre diffusion [!DNL LINE]. Le ciblage est réalisé sur les **[!UICONTROL abonnements des visiteurs (nms:visitorSub)]**.
 
-   Pour plus d&#39;informations, voir la section [Identification des populations ciblées](../../delivery/using/steps-defining-the-target-population.md).
+   Pour plus d&#39;informations, voir la section [Identification des populations ciblées](steps-defining-the-target-population.md).
 
    ![](assets/line_message_08.png)
 
@@ -131,13 +131,13 @@ Pour créer une diffusion [!DNL LINE] vous devez suivre les étapes suivantes :
 
 1. Lorsque votre diffusion est correctement créée et paramétrée, vous pouvez l&#39;envoyer à la cible définie précédemment.
 
-   Pour plus d&#39;informations sur l&#39;envoi d&#39;une diffusion, consultez la section [Envoyer les messages](../../delivery/using/sending-messages.md).
+   Pour plus d&#39;informations sur l&#39;envoi d&#39;une diffusion, consultez la section [Envoyer les messages](sending-messages.md).
 
 1. Une fois votre message envoyé, accédez à votre rapport pour mesurer l&#39;efficacité de votre diffusion.
 
    Pour plus d’informations sur les rapports [!DNL LINE], voir [Accéder aux rapports](#accessing-reports).
 
-## Définissez le type de contenu {#defining-the-content}
+## Définition du type de contenu {#defining-the-content}
 
 Pour définir le contenu d&#39;une diffusion [!DNL LINE], vous devez d&#39;abord ajouter un type de message à votre diffusion. Chaque diffusion [!DNL LINE] peut contenir jusqu’à 5 messages.
 
@@ -157,7 +157,7 @@ Une diffusion de type **[!UICONTROL Message texte]** est un message envoyé aux 
 
 ![](assets/line_message_02.png)
 
-La configuration de ce type de message est similaire à la configuration de **[!UICONTROL Text]** dans un email. Pour plus d’informations, consultez cette [page](../../delivery/using/defining-the-email-content.md#message-content).
+La configuration de ce type de message est similaire à la configuration de **[!UICONTROL Text]** dans un email. Pour plus d’informations, consultez cette [page](defining-the-email-content.md#message-content).
 
 ### Paramétrer une diffusion de type Image et lien {#configuring-an-image-and-link-delivery}
 
@@ -239,7 +239,7 @@ Dans cet exemple, nous allons créer et paramétrer un message texte et une imag
 
 1. Dans la fenêtre de paramétrage de votre diffusion, sélectionnez votre population cible.
 
-   Pour plus d&#39;informations, voir la section [Identification des populations ciblées](../../delivery/using/steps-defining-the-target-population.md).
+   Pour plus d&#39;informations, voir la section [Identification des populations ciblées](steps-defining-the-target-population.md).
 
    ![](assets/line_usecase_02.png)
 
