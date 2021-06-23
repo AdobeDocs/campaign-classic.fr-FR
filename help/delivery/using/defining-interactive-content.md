@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1588'
 ht-degree: 100%
 
 ---
@@ -27,9 +27,10 @@ Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign
 
 >[!NOTE]
 >
-> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/configuring-instances.md#execution-instance). Contactez votre chargé de compte.
+> Pour les architectures hybrides et hébergées, le package doit être installé sur tous les serveurs, y compris le [serveur de Mid-sourcing](../../installation/using/mid-sourcing-server.md) et l’[instance d’exécution](../../message-center/using/configuring-instances.md#execution-instance).
 
-## À propos d’AMP for Email{#about-amp-for-email}
+
+## À propos d’AMP for Email {#about-amp-for-email}
 
 Le nouveau format **AMP for Email** permet d’inclure des composants AMP dans les messages afin d’améliorer l’expérience grâce à un contenu riche et exploitable. Grâce à la fonctionnalité d’application moderne directement disponible dans les emails, les destinataires peuvent interagir dynamiquement avec le contenu du message.
 
@@ -169,7 +170,7 @@ Pour plus de détails, consultez les documentations [Gmail](https://developers.g
 
 Pour tester l’envoi d’un email AMP à une adresse Mail.ru, procédez comme indiqué dans la [documentation Mail.ru destinée aux développeurs](https://postmaster.mail.ru/amp/?lang=en#howto) (section **Si vous êtes un utilisateur**).
 
-### Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie{#delivering-amp-emails-by-registering}
+### Diffuser des emails AMP en s’enregistrant auprès d’un fournisseur de messagerie {#delivering-amp-emails-by-registering}
 
 Vous pouvez tester la diffusion d&#39;emails dynamiques en vous enregistrant auprès des fournisseurs de messagerie pris en charge afin que votre domaine d&#39;expéditeur soit ajouté à la liste autorisée.
 
