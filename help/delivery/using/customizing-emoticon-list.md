@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 La liste des émoticônes affichée dans la fenêtre contextuelle est régie par une énumération. Vous pouvez ainsi afficher les valeurs contenues dans une liste pour limiter les choix de l’utilisateur pour un champ donné.
 Il est possible de personnaliser la position des émoticônes dans la liste et d’en ajouter d’autres.
-Des émoticônes sont disponibles pour les emails et les notifications push. Pour plus d’informations à ce propos, voir cette [page](../../delivery/using/defining-the-email-content.md#inserting-emoticons).
+Des émoticônes sont disponibles pour les emails et les notifications push. Pour plus d’informations à ce propos, voir cette [page](defining-the-email-content.md#inserting-emoticons).
 
 ## Ajout d’une nouvelle émoticône {#add-new-emoticon}
 
@@ -61,7 +61,7 @@ Votre nouvelle émoticône sera automatiquement placée dans le magasin.
 
 1. Pour que les modifications soient prises en compte, déconnectez-vous d’Adobe Campaign Classic, puis reconnectez-vous. Si la nouvelle émoticône n’apparaît toujours pas dans la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**, vous devrez peut-être vider le cache. Voir à ce propos cette [section](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 
-1. La nouvelle émoticône se trouve maintenant dans vos diffusions, dans la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**, à la 61e position, suite à la configuration effectuée lors des étapes précédentes. Pour plus d’informations sur l’utilisation des émoticônes dans vos diffusions, consultez cette [page](../../delivery/using/defining-the-email-content.md#inserting-emoticons).
+1. La nouvelle émoticône se trouve maintenant dans vos diffusions, dans la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**, à la 61e position, suite à la configuration effectuée lors des étapes précédentes. Pour plus d’informations sur l’utilisation des émoticônes dans vos diffusions, consultez cette [page](defining-the-email-content.md#inserting-emoticons).
 
    ![](assets/emoticon_4.png)
 
