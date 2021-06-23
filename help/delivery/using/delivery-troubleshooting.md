@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -17,25 +17,25 @@ ht-degree: 100%
 
 Cette section répertorie les problèmes courants que vous pouvez rencontrer lors de l&#39;envoi de diffusions et comment les résoudre.
 
-De plus, veillez à suivre les bonnes pratiques et la liste de contrôle détaillée sur [cette page](../../delivery/using/delivery-performances.md) pour vous assurer que vos diffusions fonctionnent bien.
+De plus, veillez à suivre les bonnes pratiques et la liste de contrôle détaillée sur [cette page](delivery-performances.md) pour vous assurer que vos diffusions fonctionnent bien.
 
 **Rubriques connexes :**
 
-* [Statuts de diffusion](../../delivery/using/delivery-statuses.md)
-* [Tableau de bord de la diffusion](../../delivery/using/delivery-dashboard.md)
-* [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
+* [Statuts de diffusion](delivery-statuses.md)
+* [Tableau de bord de la diffusion](delivery-dashboard.md)
+* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
 
 ## Diffusions lentes {#slow-deliveries}
 
 Après avoir cliqué sur le bouton **[!UICONTROL Envoyer]**, votre diffusion semble prendre plus de temps que d&#39;habitude. Cela peut être dû à différents éléments :
 
-* Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos broadlogs et consultez [cette section](../../delivery/using/about-deliverability.md).
+* Certains fournisseurs de messagerie ont peut-être ajouté vos adresses IP à une liste bloquée. Dans ce cas, vérifiez vos broadlogs et consultez [cette section](about-deliverability.md).
 
-* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md) d&#39;Adobe Campaign.
+* Votre diffusion peut être trop volumineuse pour être traitée rapidement. Cela peut être le cas lorsque la taille de la diffusion dépasse 60 Ko ou que la personnalisation JavaScript est importante. Pour obtenir des instructions relatives au contenu, consultez [Bonnes pratiques de diffusion](delivery-best-practices.md) d&#39;Adobe Campaign.
 
 * Le MTA Adobe Campaign a peut-être été soumis à une limitation. Celle-ci est due aux éléments suivants :
 
-   * Messages en attente (message **[!UICONTROL quotas satisfaits]**) : les quotas déclarés par les règles déclaratives MX définies dans Campaign ont été respectés. Pour plus d’informations sur ce type de message, consultez [cette page](../../delivery/using/deliverability-faq.md). Pour en savoir plus sur les règles MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
+   * Messages en attente (message **[!UICONTROL quotas satisfaits]**) : les quotas déclarés par les règles déclaratives MX définies dans Campaign ont été respectés. Pour plus d’informations sur ce type de message, consultez [cette page](deliverability-faq.md). Pour en savoir plus sur les règles MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
 
    * Messages mis en attente (message **[!UICONTROL Contrôle de flux dynamique]**) : le MTA de Campaign a rencontré des erreurs lors de la diffusion des messages pour un FAI donné, ce qui a entraîné un ralentissement afin d&#39;éviter une densité d&#39;erreurs trop importante et une mise sur liste bloquée éventuelle.
 
