@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Optimiser la diffusion des messages
+title: Optimisation de la diffusion des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
@@ -22,7 +22,7 @@ La section suivante présente les bonnes pratiques et les procédures recommand�
 
 Plusieurs facteurs peuvent avoir une incidence directe sur les performances du serveur et ralentir la plateforme :
 
-* Nombre et type d’éléments de personnalisation : dans les emails, la personnalisation extrait les données de la base de données pour chaque destinataire. Si les éléments de personnalisation sont nombreux, la quantité de données nécessaire pour préparer la diffusion augmente.  En savoir plus sur la personnalisation dans [cette section](../../delivery/using/about-personalization.md)
+* Nombre et type d’éléments de personnalisation : dans les emails, la personnalisation extrait les données de la base de données pour chaque destinataire. Si les éléments de personnalisation sont nombreux, la quantité de données nécessaire pour préparer la diffusion augmente.  En savoir plus sur la personnalisation dans [cette section](about-personalization.md)
 
 * Charge du serveur : lorsque le serveur marketing gère simultanément trop de tâches différentes, cela peut diminuer les performances. Le serveur marketing doit coordonner toutes les données entrantes et sortantes pour l’ensemble des diffusions afin de s’assurer que les données sont correctes et disponibles à temps.
 
@@ -46,9 +46,9 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
    * La délivrabilité désigne les facteurs qui déterminent la capacité d’un email à être accepté par le serveur d’un destinataire. Les fournisseurs d’accès à Internet (FAI) filtrent les emails qu’ils identifient comme spam ou bloquent le téléchargement des images. S’ils déterminent qu’un domaine donné envoie un trop grand nombre d’emails, ils fixent une limite au nombre d’emails qu’ils acceptent de cet expéditeur.
 
-   * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](../../delivery/using/about-deliverability.md).
+   * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](about-deliverability.md).
 
-* Appliquez les recommandations détaillées [dans ce document](../../delivery/using/about-deliverability.md).
+* Appliquez les recommandations détaillées [dans ce document](about-deliverability.md).
 
 * Contactez votre représentant Adobe pour obtenir de l&#39;aide.
 
@@ -64,7 +64,7 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous p
 
 * Les destinataires dont l’adresse est en quarantaine sont par défaut exclus lors de l’analyse d’une diffusion : ils ne seront pas ciblés. Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l’adresse n’existe pas. [En savoir plus](#identifying-quarantined-addresses-for-a-delivery)
 
-* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Voir à ce propos [cette section](../../delivery/using/understanding-quarantine-management.md).
+* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Voir à ce propos [cette section](understanding-quarantine-management.md).
 
 
 * Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
