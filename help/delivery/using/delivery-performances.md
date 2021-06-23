@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
@@ -19,9 +19,9 @@ Nous vous recommandons de suivre les instructions ci-dessous pour vous assurer q
 
 **Rubriques connexes :**
 
-* [Tableau de bord de la diffusion](../../delivery/using/delivery-dashboard.md)
-* [Résolution des problèmes liés aux diffusions](../../delivery/using/delivery-troubleshooting.md)
-* [À propos de la délivrabilité](../../delivery/using/about-deliverability.md)
+* [Tableau de bord de la diffusion](delivery-dashboard.md)
+* [Résolution des problèmes liés aux diffusions](delivery-troubleshooting.md)
+* [À propos de la délivrabilité](about-deliverability.md)
 
 ## Bonnes pratiques relatives aux performances {#best-practices-performance}
 
@@ -51,6 +51,6 @@ En cas de mauvaises performances des diffusions, vous pouvez vérifier les point
 
 * **Taille de la diffusion** : l&#39;envoi de diffusions volumineuses peut prendre plus de temps. Les enfants du MTA sont configurés pour gérer une taille de batch par défaut, qui convient à la plupart des instances, mais qui doit être vérifiée lorsque les diffusions sont constamment lentes.
 * **Cible de la diffusion** : les performances d&#39;une diffusion peuvent être impactées par les soft bounces, qui sont traités en fonction de la configuration des reprises. Plus le nombre des erreurs est élevé, plus les reprises sont nécessaires.
-* **Charge globale de la plateforme** : il est possible que la plateforme soit affectée lorsque plusieurs diffusions volumineuses sont envoyées. Vous pouvez également vérifier la réputation IP et l’existence de problèmes de délivrabilité. Pour plus d’informations à ce sujet, consultez [cette section](../../delivery/using/about-deliverability.md) ainsi que le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+* **Charge globale de la plateforme** : il est possible que la plateforme soit affectée lorsque plusieurs diffusions volumineuses sont envoyées. Vous pouvez également vérifier la réputation IP et l’existence de problèmes de délivrabilité. Pour plus d’informations à ce sujet, consultez [cette section](about-deliverability.md) ainsi que le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 La maintenance de la plateforme et de la base de données peut également impacter les performances d’envoi des diffusions. Voir à ce sujet [cette page](../../production/using/database-performances.md).
