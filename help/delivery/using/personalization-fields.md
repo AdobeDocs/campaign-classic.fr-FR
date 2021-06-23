@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Champs de personnalisation{#personalization-fields}
 
-Les champs de personnalisation sont utilisés pour un premier niveau de personnalisation du contenu des messages diffusés. Les champs que vous insérez dans un contenu principal matérialisent l&#39;emplacement où insérer les informations provenant de la source de données sélectionnée.
+Champs de personnalisation sont utilisés pour la personnalisation de premier niveau du contenu des messages diffusés. Les champs que vous insérez dans un contenu principal indiquent l’emplacement où insérer les données de la source de données sélectionnée.
 
 Par exemple, le champ de personnalisation de syntaxe **&lt;%= recipient.LastName %>** spécifie à Adobe Campaign d&#39;insérer le nom du destinataire se trouvant dans la base de données (table des destinataires).
 
@@ -75,7 +75,7 @@ Nous allons créer un email dans lequel nous allons tout d&#39;abord insérer le
 
 ## Optimiser la personnalisation {#optimizing-personalization}
 
-Vous pouvez optimiser la personnalisation à l&#39;aide d&#39;une option dédiée : **[!UICONTROL Préparer les données de personnalisation avec un workflow]**, disponible dans l&#39;onglet **[!UICONTROL Analyse]** des propriétés d&#39;une diffusion. Pour plus d’informations sur l’analyse de la diffusion, voir [cette section](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Vous pouvez optimiser la personnalisation à l&#39;aide d&#39;une option dédiée : **[!UICONTROL Préparer les données de personnalisation avec un workflow]**, disponible dans l&#39;onglet **[!UICONTROL Analyse]** des propriétés d&#39;une diffusion. Pour plus d’informations sur l’analyse de la diffusion, voir [cette section](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Cette option permet, lors de l&#39;analyse de la diffusion, de créer automatiquement et d&#39;exécuter un workflow qui stocke dans une table temporaire toutes les données liées à la cible, notamment les données issues des tables liées en FDA.
 
