@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Pour utiliser la substitution aléatoire des champs vous devez disposer :
 
 ## Création d&#39;une diffusion {#step-1---creating-a-delivery}
 
-Les étapes de création d’une diffusion sont présentées dans la section [Créer une diffusion email](../../delivery/using/creating-an-email-delivery.md).
+Les étapes de création d’une diffusion sont présentées dans la section [Créer une diffusion email](creating-an-email-delivery.md).
 
 Dans cet exemple, l&#39;utilisateur en charge des diffusions a créé sa newsletter :
 
@@ -51,7 +51,7 @@ Dans cet exemple, le schéma de données des adresses de contrôle reprend une v
 
 Cette énumération permet à l&#39;utilisateur de spécifier le genre littéraire préféré de ses clients.
 
-Pour que cette modification du schéma de données soit visible dans le **Formulaire de saisie** des adresses de contrôle, il faut mettre à jour ce dernier. Voir la section [Mettre à jour le formulaire de saisie](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
+Pour que cette modification du schéma de données soit visible dans le **Formulaire de saisie** des adresses de contrôle, il faut mettre à jour ce dernier. Voir la section [Mettre à jour le formulaire de saisie](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form).
 
 ## Configurer la personnalisation {#configuring-personalization}
 
@@ -61,7 +61,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Voir la section [Identification des populations cibles](../../delivery/using/steps-defining-the-target-population.md).
+1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Voir la section [Identification des populations cibles](steps-defining-the-target-population.md).
 
    Dans cet exemple, l&#39;utilisateur choisit comme cible principale les clients dont le **genre littéraire préféré** est la Science-Fiction.
 
@@ -73,7 +73,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur le lien **[!UICONTROL Editer la condition dynamique...]**, voir la section [Cas pratique : sélection des adresses de contrôle selon des critères](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md).
+   >Pour plus d’informations sur le lien **[!UICONTROL Editer la condition dynamique...]**, voir la section [Cas pratique : sélection des adresses de contrôle selon des critères](use-case--selecting-seed-addresses-on-criteria.md).
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** puis sélectionnez une adresse de contrôle pour tester la personnalisation.
 
