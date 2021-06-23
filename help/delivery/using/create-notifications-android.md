@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 95%
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 # Créer des notifications pour Android{#create-notificaations-android}
 
-Utilisez Adobe Campaign pour envoyer des notifications push sur les appareils Android. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Utilisez Adobe Campaign pour envoyer des notifications push sur les appareils Android. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
 Créez tout d&#39;abord une nouvelle diffusion.
 
@@ -31,7 +31,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 
 Pour plus d&#39;informations sur les types de messages Firebase Cloud Messaging, consultez la [documentation de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
 
-## Créer un message de données {#creating-data-message}
+## Création d’un message de données {#creating-data-message}
 
 1. Accédez à **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 
@@ -70,7 +70,7 @@ L&#39;image et la page web doivent s&#39;afficher dans la notification push lors
 
 >[!NOTE]
 >
->D&#39;autres options de message de notification sont disponibles uniquement avec la configuration d&#39;API HTTP v1. Pour plus d&#39;informations à ce sujet, consultez cette [section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
+>D&#39;autres options de message de notification sont disponibles uniquement avec la configuration d&#39;API HTTP v1. Pour plus d&#39;informations à ce sujet, consultez cette [section](configuring-the-mobile-application-android.md#android-service-httpv1).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer une notification push Android en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=fr#additional-resources)
 
