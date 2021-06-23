@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
 workflow-type: tm+mt
 source-wordcount: '2562'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Le droit d&#39;opposition (opt-out) à la vente des informations personnelles, s
 
 ## À propos des demandes d’accès à des informations personnelles {#about-privacy-requests}
 
-Pour faciliter la préparation à la protection des données, Adobe Campaign permet désormais de gérer les demandes d’Accès et de Suppression. Le **droit d’accès** et le **droit à l’oubli** (demande de suppression) sont décrits dans [cette section](../../platform/using/privacy-management.md#right-access-forgotten).
+Pour faciliter la préparation à la protection des données, Adobe Campaign permet désormais de gérer les demandes d&#39;accès et de suppression. Le **droit d’accès** et le **droit à l’oubli** (demande de suppression) sont décrits dans [cette section](../../platform/using/privacy-management.md#right-access-forgotten).
 
 Découvrez comment créer des demandes d’Accès et de Suppression, et comment elles sont traitées par Adobe Campaign.
 
@@ -42,7 +42,7 @@ Adobe Campaign offre aux contrôleurs de données deux moyens d’effectuer les
 
 ### Conditions préalables requises {#prerequesites}
 
-Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (email, assistance clientèle ou portail web).
+Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (e-mail, assistance clientèle ou portail web).
 
 Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l&#39;identité du titulaire de données à l&#39;origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
 
@@ -125,7 +125,7 @@ Si vous avez créé des tables personnalisées ayant un lien avec la table du de
 >* Adobe recommande de créer un workflow ETL qui ajoute les lignes à supprimer dans la table Accès à des informations personnelles et de laisser le workflow **[!UICONTROL Supprimer les données de demande d’accès à des informations personnelles]** effectuer la suppression. Nous suggérons de limiter à 200 profils par jour la suppression pour des raisons de performances.
 
 
-### Statuts des demandes d’accès à des informations personnelles {#privacy-request-statuses}
+### États des demandes d&#39;accès à des informations personnelles {#privacy-request-statuses}
 
 Voici les différents états des demandes d&#39;accès à des informations personnelles :
 
@@ -165,7 +165,7 @@ L&#39;information est disponible dans la base de données pendant 90 jours. Une
 
 Voici un exemple de fichier de données d&#39;un titulaire de données :
 
-![](assets/privacy-access-file.png)
+![](assets/do-not-localize/privacy-access-file.png)
 
 Les contrôleurs de données peuvent facilement créer une application web comprenant l&#39;URL JSSP correspondante pour que le fichier de données du titulaire des données soit disponible sur une page web.
 
@@ -257,7 +257,7 @@ Tout d&#39;abord, vous devez effectuer l&#39;authentification par le biais de l&
 
 1. Utilisez la méthode &quot;Logon&quot; et transmettez un nom d&#39;utilisateur et un mot de passe en tant que paramètres dans la demande. Vous obtiendrez une réponse contenant un jeton de session. Voici un exemple utilisant SoapUI.
 
-   ![](assets/privacy-api.png)
+   ![](assets/do-not-localize/privacy-api.png)
 
 1. Utilisez le jeton de session retourné comme authentification pour tous les appels d&#39;API suivants. Il arrive à expiration au bout de 24 heures.
 
@@ -269,7 +269,7 @@ Vous pouvez ensuite appeler l’API de protection des données :
 
    Voici un exemple utilisant **[!UICONTROL CreateRequestByName]**. Remarquez comment nous utilisons le jeton de session fourni ci-dessus pour l’authentification. La réponse est l’identifiant de la demande créée.
 
-   ![](assets/privacy-api-2.png)
+   ![](assets/do-not-localize/privacy-api-2.png)
 
    Pour vous aider à effectuer les étapes ci-dessus, tenez compte des points suivants :
 
@@ -374,7 +374,7 @@ Vous trouverez ci-dessous un exemple d&#39;appel de l&#39;API depuis un script J
    // User can use a simple queryDef with requestID as a parameter to check request status.
    ```
 
-## Droit d’opposition (opt-out) à la vente des informations personnelles (CCPA) {#sale-of-personal-information-ccpa}
+## Droit d&#39;opposition (opt-out) à la vente des informations personnelles (CCPA) {#sale-of-personal-information-ccpa}
 
 Le **CCPA** (California Consumer Privacy Act) fournit aux résidents de la Californie de nouveaux droits relatifs aux informations personnelles et impose des responsabilités en matière de protection des données à certaines entités qui exercent des activités en Californie.
 
@@ -388,7 +388,7 @@ Pour que cela fonctionne, vous devez étendre la table Profils et ajouter un cha
 
 >[!IMPORTANT]
 >
->En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d’informations sur votre rôle en tant que contrôleur de données, voir la section [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data).
+>En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d&#39;informations sur votre rôle en tant que contrôleur de données, voir [Données personnelles et acteurs impliqués](../../platform/using/privacy-and-recommendations.md#personal-data).
 
 ### Prérequis {#ccpa-prerequisite}
 
@@ -424,7 +424,7 @@ Pour plus d’informations sur la création d’un champ, reportez-vous à la [d
 
 1. Déconnectez-vous et reconnectez-vous. Suivez les étapes décrites dans la prochaine section afin de vérifier que le champ est disponible dans les détails d’un destinataire.
 
-### Utilisation {#usage}
+### Usage {#usage}
 
 Il est de la responsabilité du contrôleur de données d&#39;indiquer la valeur du champ et de suivre les règles et les directives du CCPA relatives à la vente des données.
 
