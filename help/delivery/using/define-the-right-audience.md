@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
 
-En savoir plus sur les populations ciblées [dans cette section](../../delivery/using/steps-defining-the-target-population.md)
+En savoir plus sur les populations ciblées [dans cette section](steps-defining-the-target-population.md)
 
 ## Cibler la bonne audience {#target-the-right-audience}
 
@@ -30,26 +30,26 @@ Par défaut, dans Campaign Classic, les modèles de diffusion ciblent les **Des
 
 Vous pouvez, par exemple, envoyer votre diffusion à des visiteurs dont le profil a été collecté par le biais des réseaux sociaux ou à des visiteurs qui se sont abonnés à un service d&#39;information.
 
-Ces mappings sont présentés [dans cette section](../../delivery/using/selecting-a-target-mapping.md).
+Ces mappings sont présentés [dans cette section](selecting-a-target-mapping.md).
 
 Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. Voir à ce propos [cette section](../../configuration/using/target-mapping.md).
 
 ## Destinataires externes {#external-recipients}
 
-Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. En savoir plus dans [cette section](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. En savoir plus dans [cette section](steps-defining-the-target-population.md#selecting-external-recipients).
 
 ## Envoyer des messages à vos abonnés {#send-to-subscribers}
 
-Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directement cibler les abonnés du service d&#39;information correspondant. En savoir plus dans [cette section](../../delivery/using/managing-subscriptions.md#delivering-to-the-subscribers-of-a-service).
+Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directement cibler les abonnés du service d&#39;information correspondant. En savoir plus dans [cette section](managing-subscriptions.md#delivering-to-the-subscribers-of-a-service).
 
 
 ## Tester les destinataires et les adresses de contrôle {#test-recipients-seed-addresses}
 
 Pour tester votre diffusion, utilisez des bons à tirer avant l&#39;envoi à la cible principale.
 
-Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des destinataires du BAT sont présentées [dans cette section](../../delivery/using/steps-defining-the-target-population.md#selecting-the-proof-target).
+Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes de définition des destinataires du BAT sont présentées [dans cette section](steps-defining-the-target-population.md#selecting-the-proof-target).
 
-Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis afin de tester une diffusion avant l’envoi à la cible principale. Elles sont présentées [dans cette section](../../delivery/using/about-seed-addresses.md).
+Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis afin de tester une diffusion avant l’envoi à la cible principale. Elles sont présentées [dans cette section](about-seed-addresses.md).
 
 ## Dédupliquer les adresses {#deduplicate-addresses}
 
