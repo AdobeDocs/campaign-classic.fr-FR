@@ -7,10 +7,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -45,18 +45,18 @@ En fonction du calendrier de l’incident, voici les instructions recommandées 
 * Pour les instances Campaign contenant des informations de réponse de retour SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Le texte d’erreur (texte de quarantaine)** contient « user lookup success but no user record found » (l’utilisateur a été trouvé, mais aucun enregistrement d’utilisateur trouvé) **ET le texte d’erreur (texte de quarantaine)** contient « support.apple.com ».
-   * **État de la mise à jour (@lastModified)** le ou après le 26/04/2021 à 07:00:00
-   * **État de la mise à jour (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
+   * **Mise à jour de l’état (@lastModified)** le ou après 4/26/2021 07:00:00
+   * **Mise à jour de l’état (@lastModified)** le ou avant 4/26/2021 01:00:00 PM
 
 * Pour les instances Campaign contenant des informations de règles d’email entrant dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
    * **Texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient »
    * **Domaine d’e-mail (@domaine)** égal à icloud.com OU **domaine d’e-mail (@domaine)** égal à me.com OU **domaine d’e-mail (@domaine)** égal à mac.com
-   * **État de la mise à jour (@lastModified)** le ou après le 26/04/2021 à 07:00:00
-   * **État de la mise à jour (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
+   * **Mise à jour de l’état (@lastModified)** le ou après 4/26/2021 07:00:00
+   * **Mise à jour de l’état (@lastModified)** le ou avant 4/26/2021 01:00:00 PM
 
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de nettoyage de la base de données ****, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
-* [Présentation des diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [Qualification des emails bounce   ](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [Présentation des diffusions en échec](understanding-delivery-failures.md)
+* [Qualification des emails bounce  ](understanding-delivery-failures.md#bounce-mail-qualification)
