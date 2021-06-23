@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 100%
@@ -21,18 +21,18 @@ Les principales fonctionnalités comprennent le ciblage, la définition et la pe
 
 >[!NOTE]
 >
->Adobe Campaign offre un ensemble d’outils destinés à surveiller votre délivrabilité et à optimiser l’envoi d’emails. En savoir plus dans [cette section](../../delivery/using/about-deliverability.md).
+>Adobe Campaign offre un ensemble d’outils destinés à surveiller votre délivrabilité et à optimiser l’envoi d’emails. En savoir plus dans [cette section](about-deliverability.md).
 
 L&#39;envoi d&#39;une diffusion peut être automatisé en préparant la diffusion ou en l&#39;envoyant par le biais d&#39;un workflow. Pour plus d&#39;informations sur les activités de type diffusion dans les workflows, consultez [cette section](../../workflow/using/about-action-activities.md).
 
 Les canaux de diffusion proposés par Adobe Campaign sont les suivants :
 
-1. **Canal email** : les diffusions email permettent d&#39;adresser des messages électroniques personnalisés à la population cible. Voir [A propos du canal email](../../delivery/using/about-email-channel.md).
-1. **Canal courrier** : les diffusions courrier permettent de générer un fichier d&#39;extraction contenant les données relatives à la population cible. Voir [A propos du canal courrier](../../delivery/using/about-direct-mail-channel.md).
-1. **Canal mobile** : les diffusions sur canaux mobiles permettent d&#39;adresser des SMS ou des messages LINE personnalisés à la population cible. Voir [Canal SMS](../../delivery/using/sms-channel.md).
-1. **Canal des applications mobiles** : les diffusions par applications mobiles permettent d&#39;envoyer des notifications sur des systèmes iOS et Android. Voir [Canal des applications mobiles](../../delivery/using/about-mobile-app-channel.md).
+1. **Canal email** : les diffusions email permettent d&#39;adresser des messages électroniques personnalisés à la population cible. Voir [A propos du canal email](about-email-channel.md).
+1. **Canal courrier** : les diffusions courrier permettent de générer un fichier d&#39;extraction contenant les données relatives à la population cible. Voir [A propos du canal courrier](about-direct-mail-channel.md).
+1. **Canal mobile** : les diffusions sur canaux mobiles permettent d&#39;adresser des SMS ou des messages LINE personnalisés à la population cible. Voir [Canal SMS](sms-channel.md).
+1. **Canal des applications mobiles** : les diffusions par applications mobiles permettent d&#39;envoyer des notifications sur des systèmes iOS et Android. Voir [Canal des applications mobiles](about-mobile-app-channel.md).
 
-   Les autres canaux sont présentés dans [cette page](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels).
+   Les autres canaux sont présentés dans [cette page](steps-about-delivery-creation-steps.md#other-channels).
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ Les comptes externes sont paramétrés depuis le nœud **[!UICONTROL Administrat
 
 ## Diffusions Email {#email-deliveries}
 
-Le [canal Email](../../delivery/using/about-email-channel.md) est l&#39;un des principaux canaux dans Adobe Campaign. Il vous permet de planifier et d&#39;envoyer des emails personnalisés à des cibles spécifiques.
+Le [canal Email](about-email-channel.md) est l&#39;un des principaux canaux dans Adobe Campaign. Il vous permet de planifier et d&#39;envoyer des emails personnalisés à des cibles spécifiques.
 
 Vous pouvez envoyer différents types d&#39;emails :
 
@@ -57,13 +57,13 @@ Vous pouvez envoyer différents types d&#39;emails :
 * Emails récurrents : dans une campagne, envoyez un même email régulièrement et agrégez chaque envoi et ses rapports de façon périodique. Un même email est envoyé, mais généralement à une cible différente, selon la cible éligible pour le jour de l&#39;envoi. Un exemple courant est un email d&#39;anniversaire. Voir à ce propos la section [Diffusions récurrentes](../../workflow/using/recurring-delivery.md).
 * Emails transactionnels : emails unitaires qui sont déclenchés en fonction du comportement de vos clients. Voir à ce propos la section [Messages transactionnels](../../message-center/using/about-transactional-messaging.md).
 
-Pour plus d&#39;informations sur l&#39;utilisation des diffusions et les recommandations relatives à celles-ci, consultez [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md) de Campaign.
+Pour plus d&#39;informations sur l&#39;utilisation des diffusions et les recommandations relatives à celles-ci, consultez [Bonnes pratiques de diffusion](delivery-best-practices.md) de Campaign.
 
 Pour plus d&#39;informations sur les différents types de diffusion, consultez [cette section](#types-of-deliveries).
 
 ## Diffusions sur des mobiles {#mobile-deliveries}
 
-Adobe Campaign permet de diffuser des [SMS](../../delivery/using/sms-channel.md) et des messages [LINE](../../delivery/using/line-channel.md) sur des mobiles.
+Adobe Campaign permet de diffuser des [SMS](sms-channel.md) et des messages [LINE](line-channel.md) sur des mobiles.
 
 Pour les SMS, vous pouvez créer, modifier et personnaliser des messages au format texte uniquement. Vous pouvez également prévisualiser les SMS avant leur envoi.
 
@@ -76,17 +76,17 @@ Pour diffuser des SMS ou des messages LINE vers un téléphone mobile, il vous f
 
 ## Notifications push {#push-notifications}
 
-Adobe Campaign vous permet d&#39;envoyer des [notifications push](../../delivery/using/about-mobile-app-channel.md) personnalisées et segmentées sur des appareils mobiles iOS et Android via des applications dédiées. Une fois les procédures de configuration et d&#39;intégration effectuées, les diffusions sur iOS et Android peuvent être créées et envoyées. Vous pouvez également concevoir des notifications enrichies avec des images et des vidéos.
+Adobe Campaign vous permet d&#39;envoyer des [notifications push](about-mobile-app-channel.md) personnalisées et segmentées sur des appareils mobiles iOS et Android via des applications dédiées. Une fois les procédures de configuration et d&#39;intégration effectuées, les diffusions sur iOS et Android peuvent être créées et envoyées. Vous pouvez également concevoir des notifications enrichies avec des images et des vidéos.
 
-## Canal Courrier {#direct-mail}
+## Courrier {#direct-mail}
 
-[Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux. Il vous offre la possibilité de mélanger des canaux off-line et on-line dans les parcours client.](../../delivery/using/about-direct-mail-channel.md)
+[Le canal Courrier est un canal off-line qui vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux. Il vous offre la possibilité de mélanger des canaux off-line et on-line dans les parcours client.](about-direct-mail-channel.md)
 
 Les canaux on-line vous permettent de créer vos messages (email, SMS, diffusion sur des applications mobiles, etc.) et de les envoyer à votre audience directement depuis Adobe Campaign. Les canaux off-line fonctionnent différemment. Lors de la préparation d&#39;une diffusion courrier, Adobe Campaign génère un fichier comprenant tous les profils ciblés et les informations de contact sélectionnées (adresse postale, par exemple). Vous pouvez ensuite envoyer ce fichier à votre opérateur de services postaux qui se chargera de l&#39;envoi.
 
 ## Canaux Autre {#other-channels}
 
-Adobe Campaign offre le modèle de diffusion Téléphone qui est utilisé pour créer des diffusions externes. L&#39;utilisation de ce canal implique la configuration de méthodologies dédiées pour traiter les fichiers de sortie. Les étapes de configuration sont identiques à celles du [canal Courrier](../../delivery/using/about-direct-mail-channel.md).
+Adobe Campaign offre le modèle de diffusion Téléphone qui est utilisé pour créer des diffusions externes. L&#39;utilisation de ce canal implique la configuration de méthodologies dédiées pour traiter les fichiers de sortie. Les étapes de configuration sont identiques à celles du [canal Courrier](about-direct-mail-channel.md).
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Par exemple, si vous exécutez ce type d&#39;activité une fois par mois, vous o
 
 Les diffusions récurrentes sont créées dans des workflows par le biais de l&#39;activité [](../../workflow/using/recurring-delivery.md)Diffusion récurrente. Un exemple d&#39;utilisation de cette activité est présenté dans la section suivante : [Créer une diffusion récurrente dans un workflow de ciblage](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
-### Diffusion (au fil de l&#39;eau){#continuous-delivery}
+### Diffusion (au fil de l&#39;eau) {#continuous-delivery}
 
 Une **diffusion au fil de l&#39;eau** permet d&#39;ajouter de nouveaux destinataires à une diffusion existante, ce qui évite d&#39;avoir à créer une diffusion à chaque exécution.
 
