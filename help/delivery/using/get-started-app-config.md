@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 96%
@@ -19,7 +19,7 @@ Vous trouverez dans cette section un exemple de configuration basé sur une soci
 
 Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer les opérations suivantes :
 
-* Créez un service d&#39;information de type **[!UICONTROL Application mobile]** pour l&#39;application mobile Neotrips. Reportez-vous à [cette section pour iOS](../../delivery/using/configuring-the-mobile-application.md#configuring-ios-service) et à [cette section pour Android](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service).
+* Créez un service d&#39;information de type **[!UICONTROL Application mobile]** pour l&#39;application mobile Neotrips. Reportez-vous à [cette section pour iOS](configuring-the-mobile-application.md#configuring-ios-service) et à [cette section pour Android](configuring-the-mobile-application-android.md#configuring-android-service).
 * Ajoutez, à ce service, les versions iOS et Android de l&#39;application.
 * Créez une diffusion pour [iOS](create-notifications-ios.md) et [Android](create-notifications-android.md).
 
@@ -29,7 +29,7 @@ Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer l
 >
 >Dans l&#39;onglet **[!UICONTROL Abonnements]** du service, vous trouverez la liste de tous les abonnés au service, c&#39;est-à-dire toutes les personnes ayant installé l&#39;application sur leur terminal mobile et accepté de recevoir des notifications.
 
-## Installer le package {#installing-package-ios}
+## Installation du package {#installing-package-ios}
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment installer le package d’application mobile en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=fr#sending-messages)
 
@@ -64,6 +64,6 @@ Les étapes d&#39;installation sont les suivantes :
 Une fois cette étape effectuée, vous pouvez configurer vos applications Android et iOS.
 Reportez-vous aux sections suivantes :
 
-* [Étapes de configuration pour iOS](../../delivery/using/configuring-the-mobile-application.md)
+* [Étapes de configuration pour iOS](configuring-the-mobile-application.md)
 
-* [Étapes de configuration pour Android](../../delivery/using/configuring-the-mobile-application-android.md)
+* [Étapes de configuration pour Android](configuring-the-mobile-application-android.md)
