@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Utiliser des modèles de diffusion
+title: Utilisation de modèles de diffusion
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Les modèles de diffusion accroissent l&#39;efficacité en offrant des configurations prêtes à l&#39;emploi pour les types d&#39;activité les plus courants. Grâce aux modèles, les marketeurs peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
 
-En savoir plus sur les modèles de diffusion dans [cette section](../../delivery/using/creating-a-delivery-template.md).
+En savoir plus sur les modèles de diffusion dans [cette section](creating-a-delivery-template.md).
 
 ## Prise en main des modèles de diffusion {#gs-templates}
 
-Un [modèle de diffusion](../../delivery/using/creating-a-delivery-template.md) vous permet de définir une fois un ensemble de propriétés techniques et fonctionnelles qui répond à vos besoins et qui peut être réutilisé pour de prochaines diffusions. Vous pouvez ensuite gagner du temps et normaliser les diffusions si nécessaire.
+Un [modèle de diffusion](creating-a-delivery-template.md) vous permet de définir une fois un ensemble de propriétés techniques et fonctionnelles qui répond à vos besoins et qui peut être réutilisé pour de prochaines diffusions. Vous pouvez ensuite gagner du temps et normaliser les diffusions si nécessaire.
 
 Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de disposer d’un sous-domaine par marque. Une banque peut, par exemple, avoir plusieurs sous-domaines qui correspondent à chacune de ses agences régionales. Si une banque détient le domaine bluebank.com, ses sous-domaines peuvent être @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Disposer d’un modèle de diffusion par sous-domaine vous permet de toujours utiliser les paramètres préconfigurés adéquats pour chaque marque et d’éviter ainsi des erreurs tout en gagnant du temps.
 
@@ -40,7 +40,7 @@ Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de dispos
 
 Pour configurer les adresses dans l’interface de Campaign, procédez comme suit :
 
-1. Dans le [modèle de diffusion](../../delivery/using/creating-a-delivery-template.md), cliquez sur le lien **[!UICONTROL De]**. Dans la fenêtre **[!UICONTROL Paramètres d&#39;en-tête email]**, renseignez les champs suivants :
+1. Dans le [modèle de diffusion](creating-a-delivery-template.md), cliquez sur le lien **[!UICONTROL De]**. Dans la fenêtre **[!UICONTROL Paramètres d&#39;en-tête email]**, renseignez les champs suivants :
 
    ![](assets/d_best_practices_email_header.png)
 
