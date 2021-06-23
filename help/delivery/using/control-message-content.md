@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 >[!NOTE]
 >
->Pour plus d’informations sur la modification du contenu des emails, voir [Définition du contenu de l’email](../../delivery/using/defining-the-email-content.md) et [Créer du contenu personnalisé](../../delivery/using/design-and-personalize.md).
+>Pour plus d’informations sur la modification du contenu des emails, voir [Définition du contenu de l’email](defining-the-email-content.md) et [Créer du contenu personnalisé](design-and-personalize.md).
 
 ## Adresse d’expéditeur {#sender-address}
 
@@ -37,23 +37,23 @@ Certains FAI vérifient la validité de l’adresse de l’expéditeur (**[!UICO
 
 Il faut s’assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement...)]** ou dans les scénarios les plus couramment utilisés.
 
-Voir à ce propos la section [Définir l’expéditeur](../../delivery/using/defining-the-email-content.md).
+Voir à ce propos la section [Définir l’expéditeur](defining-the-email-content.md).
 
 ## Personnalisation  {#personalization}
 
 Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre email, Adobe Campaign vous permet de personnaliser vos messages.
 
-Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, voir [cette section](../../delivery/using/personalization-fields.md).
+Pour plus d’informations sur l’utilisation des champs de personnalisation dans Adobe Campaign, voir [cette section](personalization-fields.md).
 
-Vous trouverez dans [cette section](../../delivery/using/design-and-personalize.md#optimize-personalization) un certain nombre de conseils pour optimiser la personnalisation lors de la création de votre contenu.
+Vous trouverez dans [cette section](design-and-personalize.md#optimize-personalization) un certain nombre de conseils pour optimiser la personnalisation lors de la création de votre contenu.
 
 ## Lien et formulaire d’exclusion {#opt-out}
 
-Par défaut, une [règle de typologie](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. On peut éventuellement modifier le niveau d’alerte de cette règle afin qu’elle génère une erreur, de façon à ce qu’en aucun cas une diffusion ne puisse être démarrée sans ce lien.
+Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence. On peut éventuellement modifier le niveau d’alerte de cette règle afin qu’elle génère une erreur, de façon à ce qu’en aucun cas une diffusion ne puisse être démarrée sans ce lien.
 
 Il faut vérifier du début à la fin le bon fonctionnement du lien d’exclusion avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation change bien la valeur de **[!UICONTROL Ne plus contacter cette personne]** à **[!UICONTROL Oui]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
 
-Découvrez comment insérer un lien d’exclusion [dans cette section](../../delivery/using/personalization-blocks.md#personalization-blocks-example).
+Découvrez comment insérer un lien d’exclusion [dans cette section](personalization-blocks.md#personalization-blocks-example).
 
 Au cas où un problème empêchant l’exclusion ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible d’exclure manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d’exclusion, même s’ils n’ont pas pu confirmer ce choix.
 
@@ -67,7 +67,7 @@ Avant d’envoyer votre message, vous pouvez tester sa réactivité en vérifian
 
 Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
-Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
+Voir à ce propos la section [Inbox rendering](inbox-rendering.md).
 
 ## SpamAssassin {#spamassassin}
 
@@ -75,4 +75,4 @@ Adobe Campaign peut être configuré pour fonctionner avec SpamAssassin. Cela pe
 
 Avant qu’une diffusion ne soit lancée, l’onglet **[!UICONTROL Aperçu]** permet de visualiser les risques. Un message d’avertissement donne le résultat du test.
 
-En savoir plus dans cette [section](../../delivery/using/spamassassin.md).
+En savoir plus dans cette [section](spamassassin.md).
