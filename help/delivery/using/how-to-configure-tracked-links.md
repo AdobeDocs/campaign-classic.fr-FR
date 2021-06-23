@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 83%
 
 ---
 
@@ -21,10 +21,17 @@ Le tracking s’applique aux messages, tandis que le tracking web permet de suiv
 
 >[!NOTE]
 >
->Les liens inclus dans le contenu des emails qui comportent des éléments de personnalisation ont besoin d&#39;une syntaxe spécifique pour être trackés. Pour plus d&#39;informations sur l&#39;ajout de liens dans des emails pouvant être personnalisés et prenant en charge le tracking, consultez [cette section](../../delivery/using/tracking-personalized-links.md).
+>Les liens inclus dans le contenu des emails qui comportent des éléments de personnalisation ont besoin d&#39;une syntaxe spécifique pour être trackés. Pour plus d&#39;informations sur l&#39;ajout de liens dans des emails pouvant être personnalisés et prenant en charge le tracking, consultez [cette section](tracking-personalized-links.md).
 
+Nous vous recommandons vivement de placer les URL dans des délimiteurs dans l’onglet **[!UICONTROL Contenu texte]** avant d’appliquer la formule de suivi. Les délimiteurs d’URL que vous saisissez dans cet onglet sont utilisés par Adobe Campaign pour identifier les URL dans les chaînes de caractères. Vous pouvez utiliser ces paires de délimiteurs :
+* Parenthèses ( )
+* Brackets [ ]
+* Braces { }
 
-
+Dans cet exemple, l’URL https://www.adobe.com est suivie d’un point-virgule (;). Le point-virgule peut être interprété par les clients de messagerie des destinataires comme faisant partie de l’URL. Par conséquent, le lien peut être rompu. Pour éviter ce problème, vous pouvez placer l’URL dans des délimiteurs de l’une des façons suivantes :
+* (https://www.adobe.com);
+* [https://www.adobe.com];
+* {https://www.adobe.com};
 
 Le tracking des messages est activé par défaut. Pour personnaliser le tracking des URL, procédez comme suit :
 
