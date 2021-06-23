@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Utiliser Adobe Campaign pour envoyer des messages SMS personnalisés.
 Avant d’envoyer des SMS :
 
 * Assurez-vous que les profils des destinataires contiennent au moins un téléphone portable.
-* En savoir plus sur les [Bonnes pratiques de diffusion](../../delivery/using/delivery-best-practices.md) d’Adobe Campaign.
+* En savoir plus sur les [Bonnes pratiques de diffusion](delivery-best-practices.md) d’Adobe Campaign.
 
 Les étapes clés pour envoyer un SMS sont les suivantes :
 
@@ -34,10 +34,10 @@ Les étapes clés pour envoyer un SMS sont les suivantes :
 
 De plus, vous devez connaître le protocole et les paramètres SMS. Découvrez comment établir une connexion entre Adobe Campaign et un fournisseur SMPP dans [ce document](sms-protocol.md)
 
-Pour plus d’informations sur la création d’une diffusion, voir [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
+Pour plus d’informations sur la création d’une diffusion, voir [cette section](steps-about-delivery-creation-steps.md).
 
 >[!NOTE]
 >
 >Adobe Campaign permet également d’adresser des notifications sur les terminaux mobiles, via son option **Canal applications mobiles (Mobile App Channel)**.
 > 
->Voir à ce sujet la section [Prise en main du canal applications mobiles](../../delivery/using/about-mobile-app-channel.md).
+>Voir à ce sujet la section [Prise en main du canal applications mobiles](about-mobile-app-channel.md).
