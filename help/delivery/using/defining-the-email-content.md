@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Pour définir le nom et l’adresse de l’expéditeur qui apparaîtront dans ll
 
 Cette fenêtre permet de saisir toutes les informations nécessaires à l&#39;élaboration des en-têtes de messages email. Ces informations peuvent être personnalisées.Pour cela, vous devez utiliser des champs de personnalisation, insérés via des boutons situés à droite des champs de saisie.
 
-L’insertion et l’utilisation de champs de personnalisation sont présentées dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
+L’insertion et l’utilisation de champs de personnalisation sont présentées dans la section [À propos de la personnalisation](about-personalization.md).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Par exemple, dans le message ci-dessus, le sujet du message est personnalisé po
 
 >[!NOTE]
 >
->L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
+>L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
 Vous pouvez également insérer des émoticônes dans votre ligne Objet à l’aide de la fenêtre contextuelle **[!UICONTROL Insérer une émoticône]**.
 
@@ -91,7 +91,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
 
    >[!NOTE]
    >
-   >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](../../delivery/using/about-personalization.md).
+   >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
    Les onglets en bas de page permettent d&#39;afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
 
@@ -137,7 +137,7 @@ Select the format of the email in the lower section of the window:
 
 Adobe Campaign permet de tester le nouveau format interactif [AMP for email](https://amp.dev/about/email/) qui sert, sous certaines conditions, à envoyer des emails dynamiques.
 
-Voir à ce propos [cette section](../../delivery/using/defining-interactive-content.md).
+Voir à ce propos [cette section](defining-interactive-content.md).
 
 ## Utilisation de la gestion de contenu {#using-content-management}
 
@@ -151,7 +151,7 @@ Ainsi, un onglet supplémentaire permet de saisir un contenu qui sera automatiqu
 
 >[!NOTE]
 >
->Pour plus d’informations sur la gestion de contenu dans Adobe Campaign, voir [cette section](../../delivery/using/about-content-management.md).
+>Pour plus d’informations sur la gestion de contenu dans Adobe Campaign, voir [cette section](about-content-management.md).
 
 ## Insertion d’émoticônes {#inserting-emoticons}
 
@@ -164,7 +164,7 @@ Vous pouvez insérer des émoticônes dans le contenu d’un email.
 
 1. Cliquez sur le bouton **[!UICONTROL Fermer]** lorsque vous avez terminé.
 
-Pour personnaliser la liste des émoticônes, voir cette [page](../../delivery/using/customizing-emoticon-list.md).
+Pour personnaliser la liste des émoticônes, voir cette [page](customizing-emoticon-list.md).
 
 ## Ajout d&#39;images {#adding-images}
 
@@ -215,7 +215,7 @@ Dans l&#39;assistant de diffusion, lorsque vous ouvrez un contenu HTML avec des 
 
 >[!NOTE]
 >
->Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que [pièce jointe](../../delivery/using/attaching-files.md), la taille d’une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+>Pour éviter tout problème de performances, si vous incluez des images téléchargées à la volée à partir d’une URL personnalisée en tant que [pièce jointe](attaching-files.md), la taille d’une image ne doit pas dépasser 100 000 octets par défaut. Le seuil recommandé peut être configuré à partir de la [liste des options de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 Voici un exemple de diffusion avec quatre images :
 
