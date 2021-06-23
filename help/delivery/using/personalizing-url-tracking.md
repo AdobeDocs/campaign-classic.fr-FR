@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Les paramètres avancés du tracking des messages sont accessibles à partir de 
 
 >[!NOTE]
 >
->La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Voir la section [Ajout d’images](../../delivery/using/defining-the-email-content.md#adding-images).
+>La gestion des images dans les emails est également paramétrée depuis cette fenêtre. Voir la section [Ajout d’images](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -37,7 +37,7 @@ Vous pouvez configurer les options de tracking :
 
 Les URL trackées sont listées dans la fenêtre centrale, sous la forme d&#39;une arborescence.
 
-Vous pouvez activer ou désactiver unitairement le tracking pour chaque URL du message. Voir à ce propos [cette section](../../delivery/using/how-to-configure-tracked-links.md).
+Vous pouvez activer ou désactiver unitairement le tracking pour chaque URL du message. Voir à ce propos [cette section](how-to-configure-tracked-links.md).
 
 L&#39;onglet **[!UICONTROL Avancé]** permet de personnaliser les formules de calcul des URL trackées et de l&#39;URL d&#39;ouverture.
 
