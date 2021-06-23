@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 100%
+source-wordcount: '899'
+ht-degree: 69%
 
 ---
 
@@ -23,7 +23,7 @@ Reportez-vous à [cette page](../../platform/using/privacy-management.md) pour o
 
 ## Personnalisation des URL {#url-personalization}
 
-Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours toute personnalisation dans la partie du nom d’hôte de l’URL afin d’éviter des failles de sécurité potentielles. Les exemples suivants ne doivent jamais être utilisés dans tous les attributs d’URL &lt;`a href="">` ou `<img src="">` :
+Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours toute personnalisation dans la partie du nom d&#39;hôte de l&#39;URL afin d&#39;éviter des failles de sécurité potentielles. Les exemples suivants ne doivent jamais être utilisés dans tous les attributs d’URL &lt;`a href="">` ou `<img src="">` :
 
 * `<%= url >`
 * `https://<%= url >`
@@ -47,27 +47,35 @@ Exemple :
 
 <img src="assets/privacy-query-dynamic-url.png">
 
-### Mécanisme de signature
+### signature d’URL
 
-Pour améliorer la sécurité, un nouveau mécanisme de signature pour les liens de tracking dans les emails a été ajouté dans le build 19.1.4 (9032@3a9dc9c) et est disponible dans le build 19.1.4 (9032@3a9dc9c) et Campaign 20.2. Cette option est activée par défaut pour tous les clients.
+Pour améliorer la sécurité, un mécanisme de signature pour le tracking des liens dans les emails a été introduit. Il est disponible dans les versions 19.1.4 (9032@3a9dc9c) et 20.2 de Campaign. Cette fonctionnalité est activée par défaut.
 
 >[!NOTE]
 >
->Lorsqu’un utilisateur clique sur une URL signée incorrecte, l’erreur suivante est renvoyée : « L’URL &quot;...&quot; demandée est introuvable ».
+>Lorsqu’un utilisateur clique sur une URL signée incorrecte, cette erreur est renvoyée : &quot;L’URL demandée &quot;...&quot; est introuvable.&quot;
 
-En outre, à compter de Campaign 20.2 et de la version [!DNL Gold Standard], les clients hébergés et hybrides peuvent tirer parti d’une amélioration pour désactiver les adresses URL générées à partir des builds précédents. Par défaut, cette option est désactivée. Vous pouvez contacter l’[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonctionnalité.
+De plus, depuis Campaign 20.2 et la version [!DNL Gold Standard], vous pouvez utiliser une amélioration pour désactiver les URL générées dans les builds précédents. Cette fonctionnalité est désactivée par défaut. Vous pouvez contacter l’[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonctionnalité.
 
-Pour activer ce nouveau mécanisme, les clients On-premise doivent suivre la procédure suivante sur tous les serveurs Campaign :
+Si vous exécutez [!DNL Gold Standard] 19.1.4, vous pouvez rencontrer des problèmes avec les diffusions de notification push à l’aide de liens de suivi ou celles qui utilisent des balises d’ancrage. Si tel est le cas, nous vous recommandons de désactiver la signature d’URL.
+
+Que vous exécutiez Campaign sur site ou dans une architecture hybride, vous devez contacter [l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour que la signature d’URL soit désactivée.
+
+Si vous exécutez Campaign dans une architecture hybride, avant d&#39;activer la signature de l&#39;URL, vérifiez que l&#39;instance hébergée de mid-sourcing a été mise à niveau comme suit :
+* Avant l’instance marketing sur site
+* à la même version que l’instance marketing sur site ou à une version légèrement supérieure ;
+
+Dans le cas contraire, certains de ces problèmes peuvent survenir :
+* Avant la mise à niveau de l&#39;instance de mid-sourcing, les URL sont envoyées sans signature via cette instance.
+* Une fois l&#39;instance de mid-sourcing mise à niveau et la signature de l&#39;URL activée sur les deux instances, les URL précédemment envoyées sans signature sont rejetées. Cela est dû au fait qu’une signature est demandée par les fichiers de suivi fournis par l’instance marketing.
+
+Pour désactiver les URL qui ont été générées dans les builds précédents, procédez comme suit sur tous les serveurs Campaign en même temps :
 
 1. Dans le fichier de configuration du serveur (serverConf.xml), définissez **blockRedirectForUnsignedTrackingLink** sur **true**.
 1. Redémarrez le service **nlserver**.
 1. Sur le serveur de tracking, redémarrez le serveur web (apache2 sur Debian, httpd sur CentOS/RedHat, IIS sous Windows).
 
-Les clients qui utilisent la version [!DNL Gold Standard] 19.1.4 peuvent rencontrer des problèmes avec les diffusions de notifications push qui se servent d’un lien de tracking ou les diffusions avec des balises d’ancrage. Si tel est le cas, Adobe recommande de désactiver le nouveau mécanisme de signature pour les liens de tracking :
-
-Les **clients hébergés et hybrides** doivent contacter l’[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour que ce mécanisme soit désactivé.
-
-Les **clients On-premise** peuvent procéder comme suit :
+Pour activer la signature d’URL, procédez comme suit sur tous les serveurs Campaign en même temps :
 
 1. Dans le fichier de configuration du serveur (serverConf.xml), remplacez **signEmailLinks** par **false**.
 1. Redémarrez le service **nlserver**.
@@ -81,7 +89,7 @@ Cette restriction vous permet de supprimer les champs de mots de passe. Le compt
 
 1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]**.
 
-1. Créez une **[!UICONTROL Extension d’un schéma]**.
+1. Créez une **[!UICONTROL Extension d&#39;un schéma]**.
 
    ![](assets/privacy-data-restriction.png)
 
