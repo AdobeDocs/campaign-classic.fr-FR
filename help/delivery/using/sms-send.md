@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
@@ -21,8 +21,8 @@ Pour valider votre message et le diffuser aux destinataires de la diffusion en c
 
 Le processus détaillé lors de la validation et l&#39;envoi d&#39;une diffusion est présenté dans les sections ci-dessous :
 
-* [Validation de la diffusion](../../delivery/using/steps-validating-the-delivery.md)
-* [Envoi de la diffusion](../../delivery/using/steps-sending-the-delivery.md)
+* [Validation de la diffusion](steps-validating-the-delivery.md)
+* [Envoi de la diffusion](steps-sending-the-delivery.md)
 
 ## Paramètres avancés {#advanced-parameters}
 
@@ -60,9 +60,9 @@ Les options disponibles sont les suivantes :
 
 Une fois les messages envoyés, vous pouvez effectuer la surveillance et le suivi des diffusions.Voir à ce sujet les sections suivantes :
 
-* [Surveillance d’une diffusion](../../delivery/using/about-delivery-monitoring.md)
-* [Présentation des diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [A propos du tracking des messages](../../delivery/using/about-message-tracking.md)
+* [Surveillance d’une diffusion](about-delivery-monitoring.md)
+* [Présentation des diffusions en échec](understanding-delivery-failures.md)
+* [A propos du tracking des messages](about-message-tracking.md)
 
 ## Traitement des messages entrants {#processing-inbound-messages}
 
@@ -165,6 +165,6 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!IMPORTANT]
 >
->Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](../../delivery/using/delivery-dashboard.md).
+>Il n’existe aucun historique pour ce type de messages automatiques. Ils ne figurent donc pas dans le tableau de bord des diffusions. [En savoir plus](delivery-dashboard.md).
 >
 >Ces messages ne sont pas pris en compte dans les règles de pression commerciale. [En savoir plus](../../campaign/using/pressure-rules.md).
