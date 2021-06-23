@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
@@ -32,12 +32,12 @@ Vous trouverez ci-dessous les informations à surveiller à l&#39;aide des diff�
 
 **Rubriques connexes :**
 
-* [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [Comprendre la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md)
-* [Bonnes pratiques relatives à la diffusion](../../delivery/using/delivery-best-practices.md)
-* [Gestion de la délivrabilité](../../delivery/using/about-deliverability.md)
+* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
+* [Comprendre la gestion des quarantaines](understanding-quarantine-management.md)
+* [Bonnes pratiques relatives à la diffusion](delivery-best-practices.md)
+* [Gestion de la délivrabilité](about-deliverability.md)
 
-## Synthèse des diffusions (Delivery summary){#delivery-summary}
+## Synthèse des diffusions {#delivery-summary}
 
 L&#39;onglet **[!UICONTROL Résumé]** contient les caractéristiques de la diffusion : état de la diffusion, canal utilisé, informations sur l&#39;expéditeur, objet, informations relatives à l&#39;exécution.
 
@@ -53,7 +53,7 @@ Le contenu de cet onglet peut être configuré en fonction de vos besoins. Pour 
 
 L&#39;onglet **[!UICONTROL Diffusion]** propose un historique des occurrences de cette diffusion. Il contient les logs de diffusion, c&#39;est-à-dire la liste des messages envoyés et leur statut. Il permet de visualiser l&#39;état de la diffusion pour chaque destinataire et les messages associés.
 
-Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires pour lesquels l&#39;envoi a échoué ou ceux dont l&#39;adresse est en quarantaine. Pour cela, cliquez sur le bouton **[!UICONTROL Filtres]** et choisissez **[!UICONTROL Par Statut]**. Sélectionnez ensuite le statut dans la liste déroulante affichée au-dessus de la liste. Les différents statuts sont répertoriés dans [cette page](../../delivery/using/delivery-statuses.md).
+Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires pour lesquels l&#39;envoi a échoué ou ceux dont l&#39;adresse est en quarantaine. Pour cela, cliquez sur le bouton **[!UICONTROL Filtres]** et choisissez **[!UICONTROL Par Statut]**. Sélectionnez ensuite le statut dans la liste déroulante affichée au-dessus de la liste. Les différents statuts sont répertoriés dans [cette page](delivery-statuses.md).
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Pour une diffusion, vous pouvez afficher par exemple seulement les destinataires
 
 Le lien **[!UICONTROL Afficher la page miroir de ce message...]** vous permet d&#39;afficher la page miroir du contenu de la diffusion sélectionnée dans la liste dans une nouvelle fenêtre.
 
-La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la section [Générer la page miroir](../../delivery/using/sending-messages.md#generating-the-mirror-page).
+La page miroir est disponible uniquement pour les diffusions pour lesquelles un contenu HTML a été défini. Voir à ce sujet la section [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -75,7 +75,7 @@ L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour c
 >
 >Si le tracking n&#39;est pas activé pour une diffusion, cet onglet n&#39;est pas affiché.
 
-Le paramétrage du tracking est effectué dans l&#39;assistant de diffusion, à l&#39;étape concernée. Voir à ce sujet la section [Comment configurer des liens trackés](../../delivery/using/how-to-configure-tracked-links.md). 
+Le paramétrage du tracking est effectué dans l&#39;assistant de diffusion, à l&#39;étape concernée. Voir à ce sujet la section [Comment configurer des liens trackés](how-to-configure-tracked-links.md). 
 
 Les données de **[!UICONTROL tracking]** sont interprétées dans les rapports de diffusion. Voir [cette section](../../reporting/using/delivery-reports.md).
 
@@ -87,7 +87,7 @@ L&#39;onglet **[!UICONTROL Inbox rendering]** permet de prévisualiser le messag
 
 Ainsi, vous pouvez vérifier que l&#39;affichage de votre message sera optimal pour les destinataires sur divers clients web, webmails et appareils.
 
-Voir à ce propos [cette section](../../delivery/using/inbox-rendering.md).
+Voir à ce propos [cette section](inbox-rendering.md).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -97,7 +97,7 @@ L&#39;onglet **[!UICONTROL Audit]** contient le log des diffusions et tous les m
 
 Le bouton **[!UICONTROL Actualiser]** permet de mettre à jour les données. Utilisez le bouton **[!UICONTROL Filtres]** pour définir un filtre sur les données.
 
-Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir la section [Analyser la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Le sous-onglet **[!UICONTROL Bons à tirer]** vous permet de voir la liste des BAT qui ont été envoyés.
 
