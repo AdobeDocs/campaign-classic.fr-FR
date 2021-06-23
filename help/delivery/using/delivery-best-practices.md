@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
@@ -103,8 +103,8 @@ Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diff
 
 Voir aussi :
 
-* [Prise en main de la délivrabilité](../../delivery/using/about-deliverability.md)
+* [Prise en main de la délivrabilité](about-deliverability.md)
 
-* [Étapes de création de diffusion](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [Étapes de création de diffusion](steps-about-delivery-creation-steps.md)
 
 * [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html)
