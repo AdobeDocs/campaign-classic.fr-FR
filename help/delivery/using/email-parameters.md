@@ -6,18 +6,18 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
 
 ---
 
-# Paramètres de l&#39;email {#email-parameters}
+# Paramètres de l’email {#email-parameters}
 
 Cette section présente les options et paramètres spécifiques à la diffusion par email.
 
-## Email Cci {#email-bcc}
+## E-mail Cci {#email-bcc}
 
 Adobe Campaign permet de stocker les emails sur un système externe à l&#39;aide de l&#39;option BCC en ajoutant une adresse email en &quot;copie cachée&quot; (BCC en anglais) à la cible des messages.
 
@@ -71,13 +71,13 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 >[!NOTE]
 >
->Pour en savoir plus sur la définition d&#39;email, consultez [cette section](../../delivery/using/defining-the-email-content.md).
+>Pour en savoir plus sur la définition d&#39;email, consultez [cette section](defining-the-email-content.md).
 
 ## Générer la page miroir {#generating-mirror-page}
 
 La page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l&#39;email.
 
-Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. Pour plus d’informations sur l’insertion de blocs de personnalisation, consultez la section [Blocs de personnalisation](../../delivery/using/personalization-blocks.md).
+Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. Pour plus d’informations sur l’insertion de blocs de personnalisation, consultez la section [Blocs de personnalisation](personalization-blocks.md).
 
 Dans les propriétés de diffusion, le champ **[!UICONTROL Mode]** de l&#39;onglet **[!UICONTROL Validité]** vous permet de modifier le mode de génération de la page.
 
@@ -117,7 +117,7 @@ Vous pouvez également définir une adresse spécifique depuis cet écran afin d
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-Pour plus d’informations sur la gestion des mails rebonds, consultez [cette section](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Pour plus d’informations sur la gestion des mails rebonds, consultez [cette section](understanding-delivery-failures.md#bounce-mail-management).
 
 ## Ajouter des en-têtes SMTP {#adding-smtp-headers}
 
