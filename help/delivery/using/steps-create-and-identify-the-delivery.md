@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Par défaut, un modèle est fourni pour chaque canal installé : courrier, email
 >
 >Les canaux proposés dans cette liste dépendent de votre contrat de licence.
 
-Vous pouvez créer de nouveaux modèles de diffusion afin de préconfigurer des paramètres spécifiques en fonction de vos besoins. Pour plus d’informations sur les modèles, consultez [cette section](../../delivery/using/about-templates.md).
+Vous pouvez créer de nouveaux modèles de diffusion afin de préconfigurer des paramètres spécifiques en fonction de vos besoins. Pour plus d’informations sur les modèles, consultez [cette section](about-templates.md).
 
 ## Identification de la diffusion {#identifying-the-delivery}
 
@@ -49,7 +49,7 @@ Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
 
 Le contenu de la diffusion est prêt à être configuré. La définition du contenu de diffusion est spécifique à chaque canal. Voir à ce sujet la section dédiée :
 
-* [Définir le contenu de l&#39;email](../../delivery/using/defining-the-email-content.md)
-* [Définir le contenu du SMS](../../delivery/using/sms-create.md#defining-the-sms-content)
-* [Définir le contenu du courrier](../../delivery/using/defining-the-direct-mail-content.md)
-* [Notifications push](../../delivery/using/about-mobile-app-channel.md)
+* [Définir le contenu de l&#39;email](defining-the-email-content.md)
+* [Définir le contenu du SMS](sms-create.md#defining-the-sms-content)
+* [Définir le contenu du courrier](defining-the-direct-mail-content.md)
+* [Notifications push](about-mobile-app-channel.md)
