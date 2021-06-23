@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 98%
@@ -27,16 +27,16 @@ De plus, le test détaillé dans ce cas pratique ne concernait que deux diffusio
 
 Les étapes principales pour réaliser ce cas pratique sont les suivantes :
 
-* [Étape 1 : créer un workflow de ciblage](../../delivery/using/a-b-testing-uc-targeting-workflow.md)
-* [Étape 2 : paramétrer les échantillons de population](../../delivery/using/a-b-testing-uc-population-samples.md)
-* [Étape 3 : créer deux modèles de diffusions](../../delivery/using/a-b-testing-uc-delivery-templates.md)
-* [Étape 4 : paramétrer les diffusions dans le workflow](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)
-* [Étape 5 : créer le script](../../delivery/using/a-b-testing-uc-script.md)
-* [Étape 6 : définir la diffusion finale](../../delivery/using/a-b-testing-uc-final-delivery.md)
-* [Étape 7 : lancer le workflow](../../delivery/using/a-b-testing-uc-start-workflow.md)
-* [Étape 8 : analyser le résultat](../../delivery/using/a-b-testing-uc-analyzing.md)
+* [Étape 1 : créer un workflow de ciblage](a-b-testing-uc-targeting-workflow.md)
+* [Étape 2 : paramétrer les échantillons de population](a-b-testing-uc-population-samples.md)
+* [Étape 3 : créer deux modèles de diffusions](a-b-testing-uc-delivery-templates.md)
+* [Étape 4 : paramétrer les diffusions dans le workflow](a-b-testing-uc-configuring-deliveries.md)
+* [Étape 5 : créer le script](a-b-testing-uc-script.md)
+* [Étape 6 : définir la diffusion finale](a-b-testing-uc-final-delivery.md)
+* [Étape 7 : lancer le workflow](a-b-testing-uc-start-workflow.md)
+* [Étape 8 : analyser le résultat](a-b-testing-uc-analyzing.md)
 
 **Rubriques connexes :**
 
-* [Prise en main des tests A/B](../../delivery/using/get-started-a-b-testing.md)
-* [Configuration des tests AB](../../delivery/using/configuring-a-b-testing.md)
+* [Prise en main des tests A/B](get-started-a-b-testing.md)
+* [Configuration des tests AB](configuring-a-b-testing.md)
