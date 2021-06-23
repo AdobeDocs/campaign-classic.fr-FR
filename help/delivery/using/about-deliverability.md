@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
@@ -40,11 +40,11 @@ Le taux de délivrabilité correspond au nombre de messages qui ont atteint les 
 Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, parmi lesquels :
 
 * Configuration correcte de vos instances : contactez votre représentant Adobe pour obtenir de l’aide.
-* Configuration réseau légitime : consultez [cette section](../../delivery/using/optimize-delivery.md#network-config) ainsi que la section [Configuration et stratégie du domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#domain-setup-and-strategy).
+* Configuration réseau légitime : consultez [cette section](optimize-delivery.md#network-config) ainsi que la section [Configuration et stratégie du domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#domain-setup-and-strategy).
 * Votre réputation d’adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
-* Qualité des adresses ciblées : consultez la section [Gestion des quarantaines](../../delivery/using/optimize-delivery.md#quarantine-management).
+* Qualité des adresses ciblées : consultez la section [Gestion des quarantaines](optimize-delivery.md#quarantine-management).
 * Le faible taux de [plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr) et de [hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces).
-* Le contenu de votre message : consultez la section [Contrôle du contenu des emails](../../delivery/using/control-message-content.md).
+* Le contenu de votre message : consultez la section [Contrôle du contenu des emails](control-message-content.md).
 * Authentification des messages (SPF, DKIM, DMARC) : consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 * Réputation de l’expéditeur : pour savoir comment les principaux FAI évaluent la réputation d’un expéditeur, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=fr).
 
@@ -57,10 +57,10 @@ Adobe Campaign fournit différents outils pour suivre et améliorer les perform
 
 Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d’Adobe Campaign contribue à améliorer la délivrabilité.
 
-* [Bonnes pratiques relatives à la diffusion](../../delivery/using/delivery-best-practices.md)
-* [Contrôle du contenu des emails](../../delivery/using/control-message-content.md)
-* [Inbox rendering  ](../../delivery/using/inbox-rendering.md)
-* [Envoyer un bon à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
+* [Bonnes pratiques relatives à la diffusion](delivery-best-practices.md)
+* [Contrôle du contenu des e-mails](control-message-content.md)
+* [Inbox rendering](inbox-rendering.md)
+* [Envoyer un bon à tirer](steps-validating-the-delivery.md#sending-a-proof)
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 
@@ -80,9 +80,9 @@ Certains fournisseurs d&#39;accès Internet considèrent automatiquement les ema
 
 Voir à ce propos les sections suivantes :
 
-* [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [Comprendre la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md)
-* [Quarantaine et liste bloquée](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
+* [Comprendre la gestion des quarantaines](understanding-quarantine-management.md)
+* [Quarantaine et liste bloquée](understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### Utilisation des outils de surveillance et de reporting
 
@@ -92,8 +92,8 @@ Adobe Campaign permet de vérifier les performances de vos diffusions et de les
 
 Voir à ce propos les sections suivantes :
 
-* [Surveillance de la délivrabilité](../../delivery/using/monitoring-deliverability.md)
-* [A propos du suivi des diffusions](../../delivery/using/about-delivery-monitoring.md)
+* [Surveillance de la délivrabilité](monitoring-deliverability.md)
+* [A propos du suivi des diffusions](about-delivery-monitoring.md)
 * [A propos des rapports natifs de Campaign](../../reporting/using/about-campaign-built-in-reports.md)
 
 <!--TO REMOVE
