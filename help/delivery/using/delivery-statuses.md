@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
@@ -23,13 +23,13 @@ Une fois qu&#39;une diffusion a été envoyée, le tableau de bord de diffusion 
 
 ![](assets/delivery-status.png)
 
-Pour plus d&#39;informations sur les différents échecs de diffusion que vous pouvez rencontrer et sur la façon de les résoudre, consultez [cette page](../../delivery/using/understanding-delivery-failures.md).
+Pour plus d&#39;informations sur les différents échecs de diffusion que vous pouvez rencontrer et sur la façon de les résoudre, consultez [cette page](understanding-delivery-failures.md).
 
 **Rubriques connexes :**
 
-* [Tableau de bord de la diffusion](../../delivery/using/delivery-dashboard.md)
-* [Résolution des problèmes liés aux diffusions](../../delivery/using/delivery-troubleshooting.md)
-* [À propos de la délivrabilité](../../delivery/using/about-deliverability.md)
+* [Tableau de bord de la diffusion](delivery-dashboard.md)
+* [Résolution des problèmes liés aux diffusions](delivery-troubleshooting.md)
+* [À propos de la délivrabilité](about-deliverability.md)
 
 ## Liste des statuts de diffusion {#list-delivery-statuses}
 
@@ -51,7 +51,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> En échec<br /> </td> 
-   <td> La diffusion n'a pas pu atteindre le destinataire en raison d'une adresse invalide ou d'une boîte de réception pleine par exemple.La raison peut être également un problème lié aux blocs de personnalisation.Ils peuvent générer des erreurs lorsque les schémas ne correspondent pas au mapping de diffusion. Voir <a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">Comprendre les diffusions en échec</a><br /> </td> 
+   <td> La diffusion n'a pas pu atteindre le destinataire en raison d'une adresse invalide ou d'une boîte de réception pleine par exemple.La raison peut être également un problème lié aux blocs de personnalisation.Ils peuvent générer des erreurs lorsque les schémas ne correspondent pas au mapping de diffusion. Voir <a href="understanding-delivery-failures.md" target="_blank">Comprendre les diffusions en échec</a><br /> </td> 
   </tr>
   <tr> 
    <td> En attente<br /> </td> 
@@ -67,7 +67,7 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
   </tr> 
   <tr> 
    <td> Pris en compte par le fournisseur de services<br /> </td> 
-   <td> Le fournisseur de services SMS a reçu la diffusion.<br /> Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA amélioré</a>, le message a été relayé de Campaign vers le MTA amélioré.</td> 
+   <td> Le fournisseur de services SMS a reçu la diffusion.<br /> Pour les installations hébergées ou hybrides, si vous avez effectué la mise à niveau vers le <a href="sending-with-enhanced-mta.md" target="_blank">MTA amélioré</a>, le message a été relayé de Campaign vers le MTA amélioré.</td> 
   </tr> 
   <tr> 
    <td> Reçu sur le mobile<br /> </td> 
@@ -85,13 +85,13 @@ Pour plus d&#39;informations sur les différents échecs de diffusion que vous p
  </tbody> 
 </table>
 
-Pour découvrir comment optimiser la délivrabilité de vos emails Adobe Campaign, reportez-vous à [cette section](../../delivery/using/about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+Pour découvrir comment optimiser la délivrabilité de vos emails Adobe Campaign, reportez-vous à [cette section](about-deliverability.md). Pour un examen plus approfondi de la délivrabilité, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
 ## Statut En attente {#pending-status}
 
 Après avoir validé votre diffusion, vous pouvez constater que son statut est **[!UICONTROL En attente]**.Ce statut signifie que le processus d&#39;exécution attend la disponibilité de certaines ressources.
 
-Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée.Voir à ce sujet la section [Planifier la diffusion](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+Le statut **[!UICONTROL En attente]** peut d&#39;abord signifier que votre diffusion a été planifiée et qu&#39;elle est en attente jusqu&#39;à la date spécifiée.Voir à ce sujet la section [Planifier la diffusion](steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
 Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL En attente]**, la raison peut en être la suivante :
 
@@ -137,5 +137,5 @@ Si votre diffusion n&#39;est pas envoyée et reste dans un état **[!UICONTROL E
 **Rubriques connexes :**
 
 * [Logs et historique de la diffusion](#delivery-logs-and-history)
-* [Comprendre les diffusions en échec](../../delivery/using/understanding-delivery-failures.md)
-* [Types de diffusion en échec et raisons   ](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [Comprendre les échecs de diffusion](understanding-delivery-failures.md)
+* [Types de diffusion en échec et raisons   ](understanding-delivery-failures.md#delivery-failure-types-and-reasons)
