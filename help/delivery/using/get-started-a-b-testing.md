@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Dans l&#39;exemple ci-dessous, la cible de diffusion a été divisée en deux gr
 
 ![](assets/a-b-testing-schema.png)
 
-Avec Campaign Classic, les tests A/B sont implémentés via des workflows, où vous spécifiez la population à cibler ainsi que les groupes qui recevront chaque variante (voir [Configuration des tests A/B](../../delivery/using/configuring-a-b-testing.md)).
+Avec Campaign Classic, les tests A/B sont implémentés via des workflows, où vous spécifiez la population à cibler ainsi que les groupes qui recevront chaque variante (voir [Configuration des tests A/B](configuring-a-b-testing.md)).
 
 Les étapes principales sont les suivantes :
 
@@ -37,4 +37,4 @@ Les étapes principales sont les suivantes :
 
 >[!NOTE]
 >
->Les workflows vous permettent également d&#39;automatiser vos processus en identifiant automatiquement la variante de diffusion qui a obtenu de meilleurs résultats, puis en l&#39;envoyant à la population restante. Voir à ce propos le [cas pratique](../../delivery/using/a-b-testing-use-case.md) dédié.
+>Les workflows vous permettent également d&#39;automatiser vos processus en identifiant automatiquement la variante de diffusion qui a obtenu de meilleurs résultats, puis en l&#39;envoyant à la population restante. Voir à ce propos le [cas pratique](a-b-testing-use-case.md) dédié.
