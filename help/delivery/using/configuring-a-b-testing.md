@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
-# Configuration des tests A/B{#configuring-a-b-testing}
+# Paramétrer des tests A/B {#configuring-a-b-testing}
 
 Cette section décrit comment créer un workflow pour effectuer des tests A/B.
 
@@ -37,4 +37,4 @@ Cette section décrit comment créer un workflow pour effectuer des tests A/B.
 
 Vous pouvez maintenant démarrer le workflow. Une fois les diffusions envoyées, vous pourrez tracker le comportement des trois sous-ensembles dans les logs de diffusion, afin de déterminer quel sujet a rencontré le plus de succès.
 
-Les workflows vous permettent également d&#39;automatiser vos processus en identifiant automatiquement la variante de diffusion qui a obtenu de meilleurs résultats, puis en l&#39;envoyant à la population restante. Voir à ce propos le [cas pratique](../../delivery/using/a-b-testing-use-case.md) dédié.
+Les workflows vous permettent également d&#39;automatiser vos processus en identifiant automatiquement la variante de diffusion qui a obtenu de meilleurs résultats, puis en l&#39;envoyant à la population restante. Voir à ce propos le [cas pratique](a-b-testing-use-case.md) dédié.
