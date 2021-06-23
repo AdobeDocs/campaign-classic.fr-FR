@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
@@ -25,11 +25,11 @@ La combinaison du document XML et des feuilles de styles XSL ou un Template Java
 
 Les différentes ressources nécessaires pour le paramétrage d&#39;un contenu sont les suivantes :
 
-* Schémas de données : description de la structure des contenus XML. Voir à ce sujet la section [Schémas de données](../../delivery/using/data-schemas.md).
-* Formulaires de saisie de données : construction d&#39;écrans de saisie de données. Voir à ce propos la section [Formulaires de saisie](../../delivery/using/input-forms.md).
-* Images : images utilisées dans les formulaires de saisie de données. Voir à ce propos la section [Gestion des images](../../delivery/using/formatting.md#image-management).
-* Feuilles de style : formatage des documents de sortie en langage XSLT. Voir à ce propos la section [Formatage](../../delivery/using/formatting.md).
-* Modèles JavaScript : formatage des documents de sortie en langage JavaScript. Voir à ce propos la section [Modèles de publication](../../delivery/using/publication-templates.md).
-* Codes JavaScript : codes JavaScript pour l&#39;agrégation des données. Voir à ce propos la section [Agrégateur](../../delivery/using/publication-templates.md#aggregator).
-* Modèles de publication : définition des modèles de publication. Voir à ce propos la section [Modèles de publication](../../delivery/using/publication-templates.md).
-* Contenu : instances de contenu à créer et à publier. Pour plus d&#39;informations à ce sujet, reportez-vous à la section [Utiliser un modèle de contenu](../../delivery/using/using-a-content-template.md).
+* Schémas de données : description de la structure des contenus XML. Voir à ce sujet la section [Schémas de données](data-schemas.md).
+* Formulaires de saisie de données : construction d&#39;écrans de saisie de données. Voir à ce propos la section [Formulaires de saisie](input-forms.md).
+* Images : images utilisées dans les formulaires de saisie de données. Voir à ce propos la section [Gestion des images](formatting.md#image-management).
+* Feuilles de style : formatage des documents de sortie en langage XSLT. Voir à ce propos la section [Formatage](formatting.md).
+* Modèles JavaScript : formatage des documents de sortie en langage JavaScript. Voir à ce propos la section [Modèles de publication](publication-templates.md).
+* Codes JavaScript : codes JavaScript pour l&#39;agrégation des données. Voir à ce propos la section [Agrégateur](publication-templates.md#aggregator).
+* Modèles de publication : définition des modèles de publication. Voir à ce propos la section [Modèles de publication](publication-templates.md).
+* Contenu : instances de contenu à créer et à publier. Pour plus d&#39;informations à ce sujet, reportez-vous à la section [Utiliser un modèle de contenu](using-a-content-template.md).
