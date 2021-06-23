@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -31,7 +31,7 @@ La mise en forme sera appliquée automatiquement, selon les paramètres sélecti
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-Voir à ce sujet l’exemple d’implémentation complet : [Créer un contenu dans l’assistant de diffusion](../../delivery/using/use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
+Voir à ce sujet l’exemple d’implémentation complet : [Créer un contenu dans l’assistant de diffusion](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
 
 ## Créer une instance de contenu {#creating-a-content-instance}
 
@@ -69,13 +69,13 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Vous pouvez autoriser la génération de contenus non validés. Pour cela, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](../../delivery/using/publication-templates.md#creating-and-configuring-the-template).
+   >Vous pouvez autoriser la génération de contenus non validés. Pour cela, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
 
    Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
 
 ## Diffuser une instance de contenu {#delivering-a-content-instance}
 
-Pour créer une instance de contenu et la diffuser, un modèle de diffusion doit être associé au modèle de publication utilisé pour générer ce contenu. Voir à ce sujet la section [Diffusion](../../delivery/using/publication-templates.md#delivery).
+Pour créer une instance de contenu et la diffuser, un modèle de diffusion doit être associé au modèle de publication utilisé pour générer ce contenu. Voir à ce sujet la section [Diffusion](publication-templates.md#delivery).
 
 De plus, le dossier de stockage du contenu doit être dédié aux contenus issus de ce modèle de publication (lorsqu&#39;un dossier de contenu permet la génération de plusieurs types de contenus différents, il n&#39;est pas possible de créer automatiquement la diffusion).
 
