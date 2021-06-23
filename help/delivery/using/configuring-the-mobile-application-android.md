@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 91%
@@ -79,7 +79,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
    ![](assets/nmac_service_2.png)
 
-1. Créez votre application Android. Pour plus d’informations à ce sujet, consultez [cette section](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app).
+1. Créez votre application Android. Pour plus d&#39;informations à ce sujet, consultez [cette section](configuring-the-mobile-application-android.md#creating-android-app).
 
 ## Création de l’application mobile Android {#creating-android-app}
 
@@ -93,7 +93,7 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
    ![](assets/nmac_android.png)
 
-1. Assurez-vous que la même **[!UICONTROL clé d&#39;intégration]** est définie dans Adobe Campaign et dans le code de l&#39;application via le SDK. Pour plus d’informations à ce sujet, consultez [cette section](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
+1. Assurez-vous que la même **[!UICONTROL clé d&#39;intégration]** est définie dans Adobe Campaign et dans le code de l&#39;application via le SDK. Pour plus d&#39;informations à ce sujet, consultez [cette section](integrating-campaign-sdk-into-the-mobile-application.md).
 
    >[!NOTE]
    >
@@ -111,8 +111,8 @@ Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL Iden
 
 Après avoir créé un service et une nouvelle application mobile, vous devez configurer votre application mobile en fonction de la version d&#39;API choisie.
 
-* **La configuration HTTP v1** est présentée dans  [cette section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1).
-* **La configuration HTTP (héritée)** est présentée dans  [cette section](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http).
+* **La configuration HTTP v1** est présentée dans  [cette section](configuring-the-mobile-application-android.md#android-service-httpv1).
+* **La configuration HTTP (héritée)** est présentée dans  [cette section](configuring-the-mobile-application-android.md#android-service-http).
 
 #### Configuration de l’API HTTP v1{#android-service-httpv1}
 
@@ -188,4 +188,4 @@ Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux c
 
    >[!CAUTION]
    >
-   >Assurez-vous que les noms des paramètres dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]** sont les mêmes que dans le code de l&#39;application mobile. Consultez [cette section](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md).
+   >Assurez-vous que les noms des paramètres dans l&#39;onglet **[!UICONTROL Paramètres d&#39;abonnement]** sont les mêmes que dans le code de l&#39;application mobile. Consultez [cette section](integrating-campaign-sdk-into-the-mobile-application.md).
