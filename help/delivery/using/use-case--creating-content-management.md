@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Un schéma de données est un document XML associé à un contenu, il décrit la
 >
 >La création et le paramétrage des schémas de données dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/about-schema-edition.md).
 >
->Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Schémas de données](../../delivery/using/data-schemas.md).
+>Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Schémas de données](data-schemas.md).
 
 Pour créer un schéma de données, les étapes sont les suivantes :
 
@@ -82,7 +82,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   Voir à ce sujet la section [Edition des schémas](../../delivery/using/data-schemas.md#editing-schemas).
+   Voir à ce sujet la section [Edition des schémas](data-schemas.md#editing-schemas).
 
    Pour chaque élément référencé dans le contenu, vous devez sélectionner le type correspondant.
 
@@ -170,7 +170,7 @@ La description d&#39;un formulaire est un document XML structuré respectant la 
 >
 >La création et le paramétrage des formulaires dans Adobe Campaign sont présentés dans [cette section](../../configuration/using/identifying-a-form.md).
 >
->Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Formlaires de saisie](../../delivery/using/input-forms.md).
+>Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Formlaires de saisie](input-forms.md).
 
 Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont les suivantes :
 
@@ -220,7 +220,7 @@ Dans notre exemple, nous allons utiliser un template Javascript pour définir le
 
 >[!NOTE]
 >
->Les contraintes liées à la construction des documents (template JavaScript ou XSL) sont présentées dans la section [Formatage](../../delivery/using/formatting.md).
+>Les contraintes liées à la construction des documents (template JavaScript ou XSL) sont présentées dans la section [Formatage](formatting.md).
 
 Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les suivantes :
 
@@ -231,7 +231,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
 1. Indiquez le nom du template et sélectionnez le schéma que vous avez créé pour la gestion de contenu.
 1. Importez le contenu fixe que vous souhaitez afficher dans le message.
 
-   Ajoutez les éléments variables en respectant la syntaxe présentée dans la section [Templates JavaScript](../../delivery/using/formatting.md#javascript-templates).
+   Ajoutez les éléments variables en respectant la syntaxe présentée dans la section [Templates JavaScript](formatting.md#javascript-templates).
 
    Pour afficher le contenu proposé dans notre exemple, le template JavaScript contient les éléments suivants :
 
@@ -324,7 +324,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
    </html>
    ```
 
-   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d’un template JavaScript](../../delivery/using/formatting.md#including-a-javascript-template).
+   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d’un template JavaScript](formatting.md#including-a-javascript-template).
 
    Dans notre exemple, la fonction contiendra le code suivant :
 
@@ -353,7 +353,7 @@ Vous devez ensuite créer un modèle de publication de contenu qui permettra de 
 
 >[!NOTE]
 >
->Pour plus d’informations sur les modèles de publication de contenu, consultez la section [Modèles de publication](../../delivery/using/publication-templates.md).
+>Pour plus d’informations sur les modèles de publication de contenu, consultez la section [Modèles de publication](publication-templates.md).
 
 Pour notre exemple, les étapes sont les suivantes :
 
@@ -379,7 +379,7 @@ Vous pouvez enfin créer des contenus à partir de ce modèle de publication.
 
 >[!NOTE]
 >
->Pour plus d’informations sur la création de contenu, voir [Utiliser un modèle de contenu](../../delivery/using/using-a-content-template.md).
+>Pour plus d’informations sur la création de contenu, voir [Utiliser un modèle de contenu](using-a-content-template.md).
 
 ### Créer un contenu dans l&#39;assistant de diffusion {#creating-content-in-the-delivery-wizard}
 
