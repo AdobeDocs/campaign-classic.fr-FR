@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -15,13 +15,13 @@ ht-degree: 100%
 
 # Validation{#validating}
 
-Les concepts généraux de validation d&#39;une diffusion sont présentés dans [cette section](../../delivery/using/steps-validating-the-delivery.md).
+Les concepts généraux de validation d&#39;une diffusion sont présentés dans [cette section](steps-validating-the-delivery.md).
 
-Le fichier de sortie d&#39;une diffusion par courrier est généré pendant l&#39;analyse de la diffusion. Le contenu du fichier dépend des colonnes de sortie sélectionnées (voir la section [Fichier d&#39;extraction](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)).
+Le fichier de sortie d&#39;une diffusion par courrier est généré pendant l&#39;analyse de la diffusion. Le contenu du fichier dépend des colonnes de sortie sélectionnées (voir la section [Fichier d&#39;extraction](defining-the-direct-mail-content.md#extraction-file)).
 
 >[!NOTE]
 >
->La phase d&#39;analyse est détaillée dans la section [Analyser la diffusion](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+>La phase d&#39;analyse est détaillée dans la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 Pendant la phase d&#39;analyse, le fichier est généré mais aucune information concernant les destinataires (à savoir les logs de diffusion) n&#39;est mise à jour. Vous pouvez donc annuler cette opération sans aucun risque.
 
