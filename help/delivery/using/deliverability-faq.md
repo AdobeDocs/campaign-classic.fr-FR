@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
@@ -49,13 +49,13 @@ Si le problème persiste, contactez les services commerciaux, les services charg
    * Le statut **[!UICONTROL Placé sur la liste bloquée]** signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
 
    * L&#39;application du statut **[!UICONTROL Quarantaine]** résulte d&#39;une erreur soft ou hard.
-   Voir à ce propos [cette section](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist).
+   Voir à ce propos [cette section](understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **À quoi correspondent les différentes raisons de mise en quarantaine ?**
 
    Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, sur liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 
-   Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
+   Pour plus d’informations, voir [Comprendre la gestion des quarantaines](understanding-quarantine-management.md).
 
 ## Retrait de la liste bloquée {#remove-from-denylist}
 
