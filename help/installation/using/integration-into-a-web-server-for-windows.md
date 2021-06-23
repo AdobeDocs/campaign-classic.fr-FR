@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 3958fff140cc9bf6c371f0c4207cafc9a27bb725
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ De même, vous devez utiliser un serveur Web lorsque vous souhaitez utiliser les
 
 >[!NOTE]
 >
->Si vous n’utilisez pas la fonctionnalité de suivi, vous pouvez effectuer une installation standard d’Apache ou IIS avec une redirection vers Campaign. Le module d&#39;extension du serveur web de suivi n&#39;est pas requis.
+>Si vous n’utilisez pas la fonctionnalité de suivi, vous pouvez effectuer une installation standard d’Apache ou IIS avec une redirection vers Campaign. Le module d’extension du serveur Web de tracking n’est pas requis.
 
 ## Configuration du serveur Web IIS {#configuring-the-iis-web-server}
 
@@ -46,7 +46,7 @@ Sous IIS 7, en plus des services standards, vous devez installer les Extensions 
 
 ![](assets/s_ncs_install_iis7_isapi.png)
 
-### Etapes de configuration {#configuration-steps}
+### Étapes de configuration {#configuration-steps}
 
 Les étapes de paramétrage sont les suivantes :
 
@@ -108,6 +108,9 @@ Vous devez tester la validité de la configuration.
 Pour cela, respectez la procédure suivante :
 
 1. Redémarrez le serveur IIS à partir de la ligne de commande **iisreset**
+
+1. Démarrez le service Adobe Campaign, puis assurez-vous qu’il est en cours d’exécution.
+
 1. Testez le bon fonctionnement du module de tracking depuis un navigateur Web via l&#39;URL suivante :
 
    ```
