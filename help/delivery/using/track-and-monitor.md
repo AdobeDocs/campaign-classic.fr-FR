@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Tracking et surveillance des messages
+title: Suivi et surveillance des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Vous avez cliqué sur le bouton **Envoyer** ? Voyons maintenant ce qui se passe
 Pour contrôler vos campagnes, vous devez vérifier que le message a bien été délivré à vos destinataires.
 
 Depuis le tableau de bord des diffusions de Campaign, vous pouvez vérifier les messages traités et consulter les logs d’audit de diffusion.
-Vous pouvez également contrôler le statut des messages dans les logs de diffusion. [En savoir plus](../../delivery/using/about-delivery-monitoring.md).
+Vous pouvez également contrôler le statut des messages dans les logs de diffusion. [En savoir plus](about-delivery-monitoring.md).
 
 Que faire si les diffusions ne sont pas envoyées et restent dans un état **En attente** ?
 
@@ -41,7 +41,7 @@ Pour mieux connaître le comportement de vos destinataires, vous pouvez suivre l
 
 **Conseil** : Le tracking des messages est activé par défaut. Pour paramétrer les URL, sélectionnez l&#39;option Afficher les URL, située dans la section inférieure de l’assistant de diffusion. Pour chaque URL du message, vous pouvez choisir d&#39;activer ou non le tracking.
 
-Pour plus d&#39;informations, reportez-vous à la section [Configuration du tracking](../../delivery/using/how-to-configure-tracked-links.md) et à la description des [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
+Pour plus d&#39;informations, reportez-vous à la section [Configuration du tracking](how-to-configure-tracked-links.md) et à la description des [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 ## Performances des diffusions {#delivery-performances}
 
@@ -63,6 +63,6 @@ Des actions spécifiques peuvent être effectuées en cas de problèmes liés au
 
 * [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 
-* [Problèmes de performances des diffusions](../../delivery/using/delivery-performances.md)
+* [Problèmes de performances des diffusions](delivery-performances.md)
 
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *clients On-premise uniquement*
