@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Vérifier avant envoi
+title: Vérification avant envoi
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -18,13 +18,13 @@ Une fois que votre message est prêt, vérifiez que le contenu s&#39;affiche cor
 
 Avant d’envoyer votre message, vérifiez également que les paramètres et la configuration sont cohérents par rapport à la diffusion.
 
-## Pourquoi la validation est-elle essentielle ? {#validation-is-key}
+## Pourquoi la validation est-elle essentielle ?  {#validation-is-key}
 
 Avant d&#39;envoyer une diffusion, vous devez vous assurer que vos destinataires recevront le message que vous souhaitez réellement leur envoyer. Pour cela, vous devez valider le contenu du message et les paramètres de diffusion.
 
 Cette étape vous permet de détecter les éventuelles erreurs et de les corriger avant l’envoi à la cible principale.
 
-Les étapes de validation d&#39;une diffusion sont présentées [dans cette section](../../delivery/using/steps-validating-the-delivery.md).
+Les étapes de validation d&#39;une diffusion sont présentées [dans cette section](steps-validating-the-delivery.md).
 
 ## Inbox rendering {#inbox-and-email-rendering}
 
@@ -36,13 +36,13 @@ L&#39;inbox rendering vous permet de prévisualiser vos messages sur les princip
 
 * Les fonctionnalités d&#39;inbox rendering sont essentielles pour déterminer si vos campagnes email réussissent à passer les filtres des principaux FAI et des services webmail. Les outils de ce type envoient une copie de vérification d&#39;un email à un réseau de boîtes de réception de test pour que vous puissiez voir comment le message s&#39;affichera à travers ces différents services. Ils peuvent également inclure des rapports et des options de correction de code qui vous permettent d&#39;identifier rapidement les problèmes et de les corriger afin d&#39;améliorer la délivrabilité.
 
-En savoir plus à ce sujet dans [cette section](../../delivery/using/inbox-rendering.md).
+En savoir plus à ce sujet dans [cette section](inbox-rendering.md).
 
 ## Messages de BAT {#proof-messages}
 
 L&#39;envoi de BAT permet de vérifier le lien de désinscription (opt-out), la page miroir et d&#39;autres liens, de valider le message, de vérifier le bon affichage des images, de détecter les erreurs possibles, etc. Vous souhaiterez peut-être également vérifier votre conception et le rendu sur différents appareils.
 
-En savoir plus à ce sujet dans [cette section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+En savoir plus à ce sujet dans [cette section](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Configurer des diffusions avec test A/B {#a-b-testing-deliveries}
 
@@ -54,9 +54,9 @@ Si vous disposez de plusieurs contenus pour une diffusion email, vous pouvez uti
 
 * Choisissez la version qui a eu le plus de succès et envoyez-la au reste de vos destinataires.
 
-En savoir plus à ce sujet dans [cette section](../../delivery/using/get-started-a-b-testing.md).
+En savoir plus à ce sujet dans [cette section](get-started-a-b-testing.md).
 
-## Vérifiez que votre message est bien délivré. {#make-sure-your-message-is-delivered}
+## Vérifiez que votre message est bien délivré.  {#make-sure-your-message-is-delivered}
 
 En dernier lieu, tirez parti des fonctionnalités d’Adobe Campaign Classic et augmentez les chances que votre message soit délivré aux bons destinataires.
 
@@ -66,7 +66,7 @@ Vous pouvez définir un processus de validation complet, impliquant des opérate
 
 ### Utiliser des vagues
 
-Vous pouvez augmenter progressivement le volume envoyé à l&#39;aide de vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. En savoir plus à ce sujet dans [cette section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
+Vous pouvez augmenter progressivement le volume envoyé à l&#39;aide de vagues. Cela évitera que les emails soient marqués comme spam ou pour limiter le nombre de messages par jour. Grâce aux vagues, vous pouvez répartir les envois en plusieurs lots au lieu d’envoyer de gros volumes de messages en même temps. En savoir plus à ce sujet dans [cette section](steps-sending-the-delivery.md#sending-using-multiple-waves).
 
 ### Définir la priorité des messages
 
