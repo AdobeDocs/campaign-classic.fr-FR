@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Grâce à ses fonctionnalités de tracking, Adobe Campaign vous permet de tracke
 
 Ces informations sont récupérées dans l&#39;onglet **[!UICONTROL Tracking]** du profil de chaque destinataire de la diffusion. Cet onglet présente tous les liens URL trackés sur lesquels le destinataire sélectionné dans la liste a cliqué. Il s’agit de l’accumulation de toutes les URL trackées dans les diffusions qui sont toujours présentes dans l’écran de diffusion. La liste peut être configurée et contient généralement les informations suivantes : l’URL sur laquelle l’utilisateur a cliqué, la date et l’heure du clic et le document dans lequel l’URL a été trouvée. Voir à ce propos [cette section](../../platform/using/editing-a-profile.md#tracking-tab).
 
-Le **tableau de bord des diffusions** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Voir à ce sujet [cette section](../../delivery/using/delivery-dashboard.md).
+Le **tableau de bord des diffusions** est la clé pour suivre les diffusions et les erreurs éventuelles rencontrées lors de l’envoi des messages. Voir à ce sujet [cette section](delivery-dashboard.md).
 
 Le diagramme suivant présente les étapes de la conversation entre l&#39;utilisateur et les différents serveurs.
 
@@ -47,29 +47,29 @@ Une fois le tracking configuré et les URL renseignées, le serveur de tracking 
 
 **Liens trackés**
 
-Vous pouvez tracker la réception des messages et l’activation des liens insérés dans le contenu du message pour mieux comprendre le comportement des destinataires. [En savoir plus](../../delivery/using/how-to-configure-tracked-links.md)
+Vous pouvez tracker la réception des messages et l’activation des liens insérés dans le contenu du message pour mieux comprendre le comportement des destinataires. [En savoir plus](how-to-configure-tracked-links.md)
 
 **Tracking des URL**
 
-Les options de tracking peuvent être paramétrées en activant ou en désactivant les URL trackées. [En savoir plus](../../delivery/using/personalizing-url-tracking.md)
+Les options de tracking peuvent être paramétrées en activant ou en désactivant les URL trackées. [En savoir plus](personalizing-url-tracking.md)
 
 **Personnalisation des liens trackés**
 
-Les fonctionnalités de tracking de Campaign Classic vous permettent d’ajouter des liens dans les emails qui peuvent être personnalisés et qui prennent en charge le tracking. [En savoir plus](../../delivery/using/tracking-personalized-links.md)
+Les fonctionnalités de tracking de Campaign Classic vous permettent d’ajouter des liens dans les emails qui peuvent être personnalisés et qui prennent en charge le tracking. [En savoir plus](tracking-personalized-links.md)
 
 **Logs de tracking**
 
-Le workflow technique de tracking récupère les données de tracking une fois que la diffusion a été envoyée et que le tracking a été activé. Ces données figurent dans l’onglet Tracking de votre diffusion. [En savoir plus](../../delivery/using/accessing-the-tracking-logs.md)
+Le workflow technique de tracking récupère les données de tracking une fois que la diffusion a été envoyée et que le tracking a été activé. Ces données figurent dans l’onglet Tracking de votre diffusion. [En savoir plus](accessing-the-tracking-logs.md)
 
 **Tester le tracking**
 
-Avant d’envoyer vos messages avec votre tracking, vous pouvez tester ce dernier sur votre page miroir, vos logs d&#39;email et vos liens. [En savoir plus](../../delivery/using/testing-tracking.md)
+Avant d’envoyer vos messages avec votre tracking, vous pouvez tester ce dernier sur votre page miroir, vos logs d&#39;email et vos liens. [En savoir plus](testing-tracking.md)
 
 ## Tracking des applications web {#web-application-tracking}
 
 <img src="assets/do-not-localize/icon-web-app.svg" width="60px">
 
-**Tracking d’une application web**
+**Tracking d&#39;une application web**
 
 Vous pouvez également tracker et mesurer les visites sur les pages d’application web avec des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d’application web, tels que les formulaires et les questionnaires en ligne. [En savoir plus](../../web/using/tracking-a-web-application.md)
 
@@ -105,7 +105,7 @@ Les différents tableaux contiennent la liste des indicateurs utilisés dans les
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants qui se produisent lors de l’utilisation du tracking dans Adobe Campaign Classic. Pour un dépannage plus avancé, reportez-vous à [cette section](../../delivery/using/tracking-troubleshooting.md).
+Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants qui se produisent lors de l’utilisation du tracking dans Adobe Campaign Classic. Pour un dépannage plus avancé, reportez-vous à [cette section](tracking-troubleshooting.md).
 
 * Vérifier que le processus trackinglogd est en cours d&#39;exécution
 
