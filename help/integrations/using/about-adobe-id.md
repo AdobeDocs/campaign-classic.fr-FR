@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: ccf36451d3a5551aaebac18edbde2ca84befa253
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 97%
@@ -36,9 +36,8 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 * [Campaign 19.1.8](../../rn/using/release--19-1.md)
 
-
-
 [!DNL :bulb:] [En savoir plus sur les mises à jour IMS](../../technotes/ims-updates.md)
+
 
 ## Plus de ressources
 
