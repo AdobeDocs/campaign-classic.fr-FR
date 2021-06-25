@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 1d25bdaf0d118ec5788d467c48c3c40c5891e46d
-workflow-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: 1caacff8b10c8593945b872d045fdaab3f26190c
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 96%
 
 ---
 
@@ -155,7 +155,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 et SP2</p>
-<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">En savoir plus</a>.</p>
+<p>Avertissement : Microsoft SQL Server n'est pas pris en charge en tant que base de données principale lorsque le serveur Campaign est exécuté sous Linux. [En savoir plus](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers).</p>
 </td>
 </tr>
 </tbody>
@@ -284,7 +284,7 @@ Pour en savoir plus sur les éléments obsolètes, consultez [cette page](../../
 
 ## Console cliente {#ClientConsoleoperatingsystems}
 
-Avertissement : les systèmes d’exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
+:warning: Les systèmes d’exploitation et navigateurs suivants sont nécessaires pour utiliser la console cliente Campaign.
 
 ### Systèmes d’exploitation
 
