@@ -5,9 +5,9 @@ description: Note technique
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 037e56040bd63edfdfee5ab6bf73b45d3a138072
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,6 @@ Si votre environnement utilise un build antérieur à ceux répertoriés ci-dess
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Campaign Version 21.1.1. [En savoir plus](../rn/using/latest-release.md)
-* Campaign Version 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
 * Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
 * Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
 * Campaign Version 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
@@ -60,7 +59,7 @@ Vous devez effectuer une mise à niveau vers un build plus récent parmi ceux r�
 >Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe de l’Assistance clientèle d’Adobe pour appliquer à court terme un correctif de sécurité manuel sur vos instances**.
 
 
-## Mise à jour de la console cliente Campaign {#acc-cc-updates}
+## Mise à jour de la console cliente Campaign   {#acc-cc-updates}
 
 Les versions **désormais disponibles** de la console ci-dessous doivent être installées pour résoudre une régression récemment identifiée. Cette régression empêchait l’utilisation de certains composants de la console cliente, tels que le sélecteur de date et la gestion des images dans les diffusions. La **mise à niveau de la console** est obligatoire.
 
@@ -81,7 +80,6 @@ Si vous vous connectez à Campaign [via un Adobe ID](../integrations/using/about
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Campaign Version 21.1.1. [En savoir plus](../rn/using/latest-release.md)
-* Campaign Version 20.3.3. [En savoir plus](../rn/using/release--20-3.md)
 * Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
 * Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
 * Campaign Version 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
@@ -103,9 +101,9 @@ Une fois toutes les instances mises à niveau, la console cliente doit égalemen
 
 * [Découvrez comment installer la console cliente de Campaign](../installation/using/installing-the-client-console.md).
 
-## Intégration avec les triggers Experience Cloud   {#acc-triggers-updates}
+## Intégration avec Experience Cloud Triggers {#acc-triggers-updates}
 
-Le service d’authentification historique oAuth est arrivé en fin de vie. Le mode d’authentification de l’intégration des triggers, historiquement basé sur l’authentification oAUTH pour accéder au pipeline, a été remplacé par Adobe I/O. Il prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+Le service d’authentification historique oAuth est arrivé en fin de vie Le mode d’authentification de l’intégration des triggers, historiquement basé sur l’authentification oAUTH pour accéder au pipeline, a été remplacé par Adobe I/O. Il prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
 **Cela vous concerne-t-il ?**
 
@@ -128,7 +126,7 @@ En outre, pour les environnements hybrides, les clients doivent s&#39;assurer qu
 
 [Découvrez comment migrer vers Adobe I/O](../integrations/using/configuring-adobe-io.md).
 
-## Mises à jour d’APNs    {#acc-apns-updates}
+## Mises à jour d’APNs {#acc-apns-updates}
 
 ### API du fournisseur APNs basée sur HTTP/2
 
