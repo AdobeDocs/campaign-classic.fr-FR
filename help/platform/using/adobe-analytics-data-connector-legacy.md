@@ -8,9 +8,9 @@ level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 6059693522850c13569b2c8f33137531276a3bd0
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1834'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Adobe Analytics Data Connector est désormais obsolète. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md).
+>Adobe Analytics - Data Connector est désormais obsolète. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md).
 
 ## A propos de l&#39;intégration de Data Connector {#about-data-connector-integration}
 
@@ -68,7 +68,7 @@ Les étapes suivantes décrivent le paramétrage du connecteur de données via u
 
 1. Dans l&#39;onglet **[!UICONTROL Admin]**, sélectionnez **[!UICONTROL Data Connectors]**.
 
-   Pour accéder au menu **[!UICONTROL Data Connectors]**, vous devez disposer des autorisations ci-après pour les outils Analytics. Voir à ce propos [cette page](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-console/permissions/analytics-tools.html)
+   Pour accéder au menu **[!UICONTROL Data Connectors]**, vous devez disposer des autorisations ci-après pour les outils Analytics. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)
    * Intégrations (créer)
    * Intégrations (mettre à jour)
    * Intégrations (supprimer)
@@ -148,12 +148,12 @@ L’intégration d’Adobe Campaign aux plates-formes d’Analytics se fait par 
 
 1. L&#39;onglet **[!UICONTROL Avancé]** vous permet de modifier des paramètres plus techniques.
 
-   * **[!UICONTROL Durée de vie]** : permet de définir un délai (en jours) après lequel les événements web récupérés dans Adobe Campaign par les workflows techniques. Par défaut : 180 jours.
+   * **[!UICONTROL Durée de vie]** : permet de définir un délai (en jours) après lequel les événements web récupérés dans Adobe Campaign par les workflows techniques. Par défaut : 180 jours.
    * **[!UICONTROL Persistance]** : permet de définir la période pendant laquelle tout événement web (un achat par exemple) peut être attribué à une opération de remarketing. Par défaut : 7 jours.
 
 >[!NOTE]
 >
->Si vous utilisez plusieurs outils de mesure d&#39;audience, vous pouvez sélectionner la valeur **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Partenaire]** lors de la création du compte externe. Un seul compte externe peut être référencé dans les propriétés des diffusions : vous devrez donc adapter la formule des URL trackées en ajoutant les paramètres attendus par Adobe ou tout autre outil de mesure utilisé.
+>Si vous utilisez plusieurs outils de mesure d&#39;audience, vous pouvez sélectionner la valeur **[!UICONTROL Autre]** dans la liste déroulante **[!UICONTROL Partenaire]** lors de la création du compte externe. Un seul compte externe peut être référencé dans les propriétés des diffusions : vous devrez donc adapter la formule des URL trackées en ajoutant les paramètres attendus par Adobe ou tout autre outil de mesure utilisé.
 
 ### Étape 3 : synchroniser Adobe Campaign et Adobe Analytics {#step-3--synchronize-adobe-campaign-and-adobe-analytics}
 
@@ -203,9 +203,9 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
 * **[!UICONTROL Identification des contacts convertis]** : répertorie les visiteurs du site ayant concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le rapport **[!UICONTROL Efficacité du remarketing]**, voir cette [page](#creating-a-re-marketing-campaign).
 * **[!UICONTROL Envoi des indicateurs et attributs de campagne]** : permet d’envoyer les indicateurs des campagnes email depuis Adobe Campaign vers Adobe Experience Cloud via Adobe Analytics - Connecteur de données. Ce workflow est déclenché à 4 heures du matin tous les jours et peut prendre 24 heures pour que les données soient envoyées à Analytics.
 
-   Veuillez noter que ce workflow ne devrait pas être redémarré. Dans le cas contraire, il renverrait toutes les données précédentes, ce qui peut fausser les résultats d’Analytics.
+   Veuillez noter que ce workflow ne devrait pas être redémarré. Dans le cas contraire, il renverrait toutes les données précédentes, ce qui peut fausser les résultats d&#39;Analytics.
 
-   Les indicateurs concernés sont les suivants :
+   Les indicateurs concernés sont les suivants :
 
    * **[!UICONTROL Messages à envoyer]** (@toDeliver)
    * **[!UICONTROL Traités]** (@processed)
@@ -222,12 +222,12 @@ Ils sont accessibles dans l&#39;arborescence Adobe Campaign au niveau du dossie
    >
    >Les données envoyées correspondent au delta basé sur la dernière prise de photo, ce qui peut générer une valeur négative dans les données de mesure.
 
-   Les attributs envoyés sont les suivants :
+   Les attributs envoyés sont les suivants :
 
    * **[!UICONTROL Nom interne]** (@internalName)
    * **[!UICONTROL Libellé]** (@label)
-   * **[!UICONTROL Libellé]** (operation/@label) : uniquement si le package **Campaign** est installé
-   * **[!UICONTROL Nature]** (operation/@nature) : uniquement si le package **Campaign** est installé
+   * **[!UICONTROL Libellé]** (operation/@label) : uniquement si le package **Campaign** est installé
+   * **[!UICONTROL Nature]** (operation/@nature) : uniquement si le package **Campaign** est installé
    * **[!UICONTROL Tag 1]** (webAnalytics/@tag1)
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
@@ -244,7 +244,7 @@ Afin qu&#39;Adobe Experience Cloud puisse suivre l&#39;activité sur les sites
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. Ouvrez les propriétés de la diffusion.
-1. Dans l’onglet **[!UICONTROL Web Analytics]**, sélectionnez le compte externe créé précédemment. Voir la section [Étape 2 : créer le compte externe dans Campaign](#step-2--create-the-external-account-in-campaign).
+1. Dans l&#39;onglet **[!UICONTROL Web Analytics]**, sélectionnez le compte externe créé précédemment. Voir la section [Étape 2 : créer le compte externe dans Campaign](#step-2--create-the-external-account-in-campaign).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
