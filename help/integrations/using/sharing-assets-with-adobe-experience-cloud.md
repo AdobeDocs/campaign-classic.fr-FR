@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Les services de ressources comprennent ce qui suit :
 
 Lors de l&#39;édition d&#39;une diffusion email ou d&#39;une landing page dans Adobe Campaign, vous pouvez insérer des ressources provenant de vos bibliothèques Adobe Experience Cloud. En fonction des solutions que vous utilisez, ces ressources peuvent être stockées dans Assets core service ou Adobe Experience Manager Assets.
 
-Les différentes bibliothèques disponibles sont présentées dans [ce document](https://docs.adobe.com/content/help/fr-FR/core-services/interface/assets/experience-cloud-assets.html).
+Les différentes bibliothèques disponibles sont présentées dans [ce document](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=fr).
 
 Consultez la section [Configurer l&#39;accès à Assets](../../integrations/using/configuring-access-to-assets.md) pour en savoir plus sur les spécificités liées à chaque bibliothèque.
 
