@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '2550'
-ht-degree: 100%
+source-wordcount: '2464'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Les types de champs disponibles sont les suivants :
 * Bouton de téléchargement. [Télécharger un fichier](#uploading-a-file).
 * Constante masquée. Voir [Insérer une constante masquée](#inserting-a-hidden-constant).
 
-Spécifiez le mode de stockage des réponses : mise à jour d’un champ de la base (seule la dernière valeur enregistrée est conservée) ou stockage dans une variable (la réponse ne sera pas stockée). Voir à ce sujet la section [Champs de stockage des réponses](../../web/using/web-forms-answers.md#response-storage-fields).
+Spécifiez le mode de stockage des réponses : mise à jour d’un champ de la base (seule la dernière valeur enregistrée est conservée) ou stockage dans une variable (la réponse ne sera pas stockée). Voir à ce sujet la section [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
 * **Nombre** : permet à l’utilisateur de saisir un nombre sur une ligne. Voir à ce sujet la section [Ajouter des nombres](#adding-numbers).
 
-   Lors de la validation de la page, le contenu des champs est contrôlé afin de vérifier que la valeur saisie est compatible avec le champ. Voir à ce sujet la section [Définir les paramètres de contrôle](../../web/using/form-rendering.md#defining-control-settings).
+   Lors de la validation de la page, le contenu des champs est contrôlé afin de vérifier que la valeur saisie est compatible avec le champ. Voir à ce sujet la section [Définir les paramètres de contrôle](form-rendering.md#defining-control-settings).
 
 * **Mot de passe** : permet à l&#39;utilisateur de saisir du texte sur une seule ligne. Lors de la saisie, les caractères sont remplacés par des points :
 
@@ -90,9 +90,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
    >[!CAUTION]
    >
-   >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours chariots. Leur espace de stockage doit être associé à un champ mappé sur un élément de type XML element et non XML attribute. Pour plus d&#39;informations sur les types de données dans les schéma, reportez-vous au chapitre &quot;Référence des schémas&quot; de [cette section](../../configuration/using/about-schema-reference.md).
-   >   
-   >Si vous utilisez le module **Questionnaire**, vous pouvez stocker les champs de ce type dans un champ archivé qui s&#39;adaptera automatiquement au format. Voir à ce sujet [cette section](../../web/using/about-surveys.md).
+   >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours chariot. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non à un attribut XML.
 
 * **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte, avec mise en forme, qui sera stocké au format HTML.
 
@@ -118,9 +116,9 @@ Vous pouvez modifier le mode de stockage des réponses à partir du lien **[!UIC
 
 >[!NOTE]
 >
->Les modes de stockage sont détaillés dans [Champs de stockage des réponses](../../web/using/web-forms-answers.md#response-storage-fields).
+>Les modes de stockage sont détaillés dans [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
-L’onglet **[!UICONTROL Avancé]** permet de définir des paramètres d’affichage du champ (position des libellés, alignement, etc.). Voir [Définir la disposition des formulaires web](../../web/using/defining-web-forms-layout.md).
+L’onglet **[!UICONTROL Avancé]** permet de définir des paramètres d’affichage du champ (position des libellés, alignement, etc.). Voir [Définir la disposition des formulaires web](defining-web-forms-layout.md).
 
 ## Ajouter des listes déroulantes {#adding-drop-down-lists}
 
@@ -206,7 +204,7 @@ Pour ajouter un bouton radio dans une page de formulaire, sélectionnez le menu 
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Les boutons radio sont configurés de la même manière que les cases à cocher (voir [Ajouter des cases à cocher](#adding-checkboxes)). Toutefois, aucune valeur n’est affectée si l’option n’est pas sélectionnée. Pour que plusieurs boutons soient interdépendants, c’est-à-dire que le fait de les sélectionner désélectionne automatiquement les autres, ils doivent être stockés dans le même champ. S’ils ne sont pas stockés dans la base de données, la même variable locale doit être utilisée pour le stockage temporaire. Voir [Champs de stockage des réponses](../../web/using/web-forms-answers.md#response-storage-fields).
+Les boutons radio sont configurés de la même manière que les cases à cocher (voir [Ajouter des cases à cocher](#adding-checkboxes)). Toutefois, aucune valeur n’est affectée si l’option n’est pas sélectionnée. Pour que plusieurs boutons soient interdépendants, c’est-à-dire que le fait de les sélectionner désélectionne automatiquement les autres, ils doivent être stockés dans le même champ. S’ils ne sont pas stockés dans la base de données, la même variable locale doit être utilisée pour le stockage temporaire. Voir [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
 ### Ajouter une liste de boutons {#add-a-list-of-buttons}
 
@@ -218,8 +216,8 @@ Vous ajoutez autant de boutons radio que de libellés. L&#39;avantage est de pou
 
 >[!NOTE]
 >
->Vous ne pouvez pas autoriser le choix de plusieurs valeurs dans les formulaires Web. Les sélections multiples ne peuvent être activées que dans les formulaires de type **Questionnaire.** Voir à ce propos [cette section](../../web/using/about-surveys.md).\
->Vous pouvez toutefois insérer un champ de type **[!UICONTROL Choix multiple]** dans une application Web, mais vous ne pouvez pas autoriser le choix de plusieurs valeurs : les options proposées pourront être sélectionnées via des boutons radio.
+>Vous ne pouvez pas activer la sélection multiple dans une application web.
+>Il est toutefois possible d&#39;insérer un champ de type **[!UICONTROL Choix multiple]** dans une application Web, mais cela ne permettra pas à l&#39;utilisateur de sélectionner plusieurs valeurs.
 
 ## Ajouter des matrices {#adding-grids}
 
@@ -239,7 +237,7 @@ Dans chaque ligne de matrice, une seule option peut être sélectionnée.
 
 >[!NOTE]
 >
->Dans notre exemple, le libellé de la matrice est masqué. Pour ce faire, accédez à l’onglet **[!UICONTROL Avancé]**. L’affichage de la **[!UICONTROL Position du libellé]** est défini sur **[!UICONTROL Caché]**. Voir [Définir la position des libellés](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels).
+>Dans notre exemple, le libellé de la matrice est masqué. Pour ce faire, accédez à l’onglet **[!UICONTROL Avancé]**. L’affichage de la **[!UICONTROL Position du libellé]** est défini sur **[!UICONTROL Caché]**. Voir [Définir la position des libellés](defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Ajouter des dates et des nombres {#adding-dates-and-numbers}
 
@@ -265,7 +263,7 @@ Les dates peuvent être sélectionnées via un calendrier ou des listes déroula
 
 >[!NOTE]
 >
->Par défaut, les dates utilisées dans les formulaires sont renseignées via un calendrier. Dans le cadre de formulaires multilingues, nous vous invitons à vérifier que les calendriers sont disponibles pour toutes les langues utilisées. Voir [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+>Par défaut, les dates utilisées dans les formulaires sont renseignées via un calendrier. Dans le cadre de formulaires multilingues, nous vous invitons à vérifier que les calendriers sont disponibles pour toutes les langues utilisées. Voir [Traduire un formulaire web](translating-a-web-form.md).
 
 Toutefois, il peut être plus adapté, par exemple pour indiquer une date de naissance, d&#39;utiliser des listes déroulantes.
 
@@ -323,8 +321,6 @@ L&#39;utilisateur sera abonné au service spécifié s&#39;il coche l&#39;option
 >
 >Si l&#39;utilisateur est déjà abonné à un service d&#39;information et que la case correspondant à ce service est décochée lorsqu&#39;il valide le formulaire, il sera alors désabonné.
 
-Des exemples de mise en œuvre d&#39;abonnements et de parrainage sont présentés dans [cette section](../../web/using/about-surveys.md).
-
 ## Insérer un captcha {#inserting-a-captcha}
 
 Les **captcha** permettent de prévenir l&#39;utilisation frauduleuse de vos formulaires Web.
@@ -379,6 +375,7 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 >* Adobe Campaign n&#39;applique aucun contrôle sur la taille ou le type de ressource téléchargée : il est donc vivement recommandé de n&#39;utiliser les champs de téléchargement que pour les sites de type intranet sécurisé.
 >* Lorsque plusieurs serveurs sont associés à l’instance (architecture « load balancing »), vous devez vous assurer que les appels au formulaire web arrivent sur le même serveur.
 >* Ce type d&#39;implémentation peut nécessiter l&#39;intervention de l&#39;équipe Consulting d&#39;Adobe Campaign.
+
 >
 
 
