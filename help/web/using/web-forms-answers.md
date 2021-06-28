@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
@@ -115,9 +115,9 @@ Pour enregistrer les informations collectées dans les pages d&#39;un formulaire
 
 Deux modes d&#39;utilisation de cette boîte sont possibles :
 
-* Si l’accès au formulaire web se fait via un lien envoyé dans un email, et donc si l’utilisateur qui a accès à l’application web est déjà en base, vous pouvez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]**. Voir à ce sujet la section [Diffuser un formulaire par email](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email).
+* Si l’accès au formulaire web se fait via un lien envoyé dans un email, et donc si l’utilisateur qui a accès à l’application web est déjà en base, vous pouvez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]**. Voir à ce sujet la section [Diffuser un formulaire par email](publishing-a-web-form.md#delivering-a-form-via-email).
 
-   Adobe Campaign utilise alors par défaut la clé primaire cryptée du profil de l’utilisateur, qui est un identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez paramétrer les informations à précharger à partir de la boîte de préchargement. Pour plus d’informations, consultez la section [Précharger les données du formulaire](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
+   Adobe Campaign utilise alors par défaut la clé primaire cryptée du profil de l’utilisateur, qui est un identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez paramétrer les informations à précharger à partir de la boîte de préchargement. Pour plus d’informations, consultez la section [Précharger les données du formulaire](publishing-a-web-form.md#pre-loading-the-form-data).
 
    >[!CAUTION]
    >
