@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%
@@ -69,9 +69,9 @@ Pour cela, utilisez l&#39;onglet **[!UICONTROL Avancé]**.
 
 Il permet de définir les propriétés suivantes :
 
-* **[!UICONTROL Position du libellé]** : voir [Définir la position des libellés](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels),
+* **[!UICONTROL Position du libellé]** : voir [Définir la position des libellés](defining-web-forms-layout.md#defining-the-position-of-labels),
 * **[!UICONTROL Format du libellé]** : Retour à la ligne ou Pas de retour à la ligne,
-* **[!UICONTROL Nombre de cellules]** : voir la section [Placer les champs de la page](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page),
+* **[!UICONTROL Nombre de cellules]** : voir la section [Placer les champs de la page](defining-web-forms-layout.md#positioning-the-fields-on-the-page),
 * **[!UICONTROL Alignement horizontal]** (Gauche, Droite, Centré) et **[!UICONTROL vertical]** (Haut, Bas, Milieu),
 * **[!UICONTROL Largeur]** de la zone : elle peut être exprimée en pourcentage, en em, en points ou en pixels (valeur par défaut),
 * **[!UICONTROL Longueur]** maximale : nombre de caractères maximum autorisé (pour un contrôle de type Texte, Nombre, Mot de passe),
@@ -146,17 +146,17 @@ Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi l
 
 * L&#39;arborescence principale contient les paramètres du contexte du formulaire. Les paramètres par défaut sont l&#39;Identifiant (qui correspond à l&#39;identifiant crypté du destinataire), la Langue et l&#39;Origine.
 
-   Voir à ce propos [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+   Voir à ce propos [cette page](defining-web-forms-properties.md#form-url-parameters).
 
 * La sous-arborescence **[!UICONTROL Destinataires]** contient les champs de saisie insérés dans le formulaire et stockés dans la base de données.
 
-   Pour plus d&#39;informations, voir la section [Stockage des données dans la base de données](../../web/using/web-forms-answers.md#storing-data-in-the-database).
+   Pour plus d&#39;informations, voir la section [Stockage des données dans la base de données](web-forms-answers.md#storing-data-in-the-database).
 
-* La sous-arborescence **[!UICONTROL Variables]** contient les variables disponibles pour ce formulaire. Pour plus d&#39;informations, voir la section [Stocker les données dans une variable locale](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
+* La sous-arborescence **[!UICONTROL Variables]** contient les variables disponibles pour ce formulaire. Pour plus d&#39;informations, voir la section [Stocker les données dans une variable locale](web-forms-answers.md#storing-data-in-a-local-variable).
 
-Pour plus d&#39;informations, reportez-vous au cas d&#39;utilisation disponible ici : [Afficher différentes options en fonction de la valeur sélectionnée](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+Pour plus d&#39;informations, reportez-vous au cas d&#39;utilisation disponible ici : [Afficher différentes options en fonction de la valeur sélectionnée](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
-Vous pouvez aussi conditionner l&#39;affichage des pages du formulaire via l&#39;objet **[!UICONTROL Test]**. Voir à ce sujet cette[page](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+Vous pouvez aussi conditionner l&#39;affichage des pages du formulaire via l&#39;objet **[!UICONTROL Test]**. Voir à ce sujet cette[page](defining-web-forms-page-sequencing.md#conditional-page-display).
 
 ## Importer des éléments depuis un formulaire existant {#importing-elements-from-an-existing-form}
 
