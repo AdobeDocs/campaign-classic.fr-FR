@@ -6,10 +6,10 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 100%
+source-wordcount: '2382'
+ht-degree: 94%
 
 ---
 
@@ -88,7 +88,7 @@ Vérifiez que l&#39;onglet de l&#39;application **App01** apparaît bien sur vot
 
 ![](assets/social_webapp_042.png)
 
-## Comment transmettre des paramètres à une application Facebook ?{#how-to-forward-settings-to-a-facebook-application-}
+## Comment transmettre des paramètres à une application Facebook ? {#how-to-forward-settings-to-a-facebook-application-}
 
 >[!IMPORTANT]
 >
@@ -120,7 +120,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web c
 
 ![](assets/social_webapp_018.png)
 
-## Comment acquérir les données des fans ?{#how-to-acquire-fan-data-}
+## Comment acquérir les données des fans ? {#how-to-acquire-fan-data-}
 
 >[!IMPORTANT]
 >
@@ -249,7 +249,7 @@ Si le profil n&#39;existe pas en base et que l&#39;adresse email de l&#39;utilis
 
 1. Vous pouvez sélectionner un dossier de recherche pour la réconciliation et un dossier de création pour les nouveaux profils. Si ces champs sont vides, les profils sont recherchés et créés dans le dossier par défaut correspondant au schéma du mapping.
 
-### Activité Fin {#end-activity}
+### Activité de fin {#end-activity}
 
 Pour contourner l&#39;erreur d&#39;affichage liée à Facebook, vous devez cocher la case **[!UICONTROL Utiliser une URL externe]** et saisir l&#39;URL de l&#39;application Facebook, suivie du paramètre **[!UICONTROL app_data]** et d&#39;une valeur. Cette valeur sera utilisée dans la l&#39;activité **[!UICONTROL Test]** pour permettre de détecter si l&#39;utilisateur vient de terminer le jeu et lui afficher une page de remerciements. Voir à ce sujet la section : [Activité Test](#test-activity).
 
@@ -297,7 +297,7 @@ L&#39;onglet **[!UICONTROL Activités]** de l&#39;écran de détails d&#39;un vi
    >
    >Pour qu&#39;Adobe Campaign récupère les check-ins effectués par le fan, vous devez cliquer sur le bouton **[!UICONTROL S’abonner]** dans l&#39;écran de configuration du service. Voir à ce sujet la section [Paramétrer les comptes externes](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
-## Comment pré-remplir les champs d&#39;un formulaire avec les données de profil Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## Comment précharger un formulaire à l’aide des données de profil Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
 L’application **[!UICONTROL Social Marketing]** vous donne également la possibilité d’insérer, dans un formulaire, un bouton permettant de pré-remplir les champs grâce aux informations de profil Facebook. Cette option, disponible dans tous les modèles d’application web (activités de type **[!UICONTROL Page]**), est présentée dans [cette section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -306,3 +306,55 @@ L’application **[!UICONTROL Social Marketing]** vous donne également la possi
 >[!NOTE]
 >
 >Avant d&#39;utiliser cette fonction, vous devez créer une application Facebook, ainsi qu&#39;un compte externe de type **[!UICONTROL Facebook Connect]**. Voir à ce sujet la section [Paramétrer les comptes externes](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+**Pré-remplir les champs du formulaire avec les données de profil Facebook**
+
+Vous créez un formulaire web et incluez dans les pages du formulaire des éléments avec lesquels l’utilisateur n’a aucune interaction. il s’agit d’éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Pour en savoir plus sur les éléments statiques dans un formulaire web, consultez [cette page](../../web/using/static-elements-in-a-web-form.md).
+
+Lors de l&#39;insertion d&#39;un élément statique, l&#39;option **[!UICONTROL Précharger avec Facebook]** permet d&#39;insérer un bouton dans un formulaire afin de précharger les champs à l&#39;aide des informations de profil Facebook.
+
+![](assets/web_social_webapp_037.png)
+
+Lorsque l&#39;utilisateur clique sur le bouton **[!UICONTROL Remplir automatiquement]**, l&#39;écran de demande de connexion Facebook apparaît.
+
+![](assets/web_social_webapp_029.png)
+
+>[!NOTE]
+>
+>Vous pouvez modifier la liste des droits étendus lors de la configuration du compte externe. Si aucun droit étendu n’est configuré, Facebook transmet les informations de profil de base par défaut.\
+>Pour consulter la liste des droits étendus et leur syntaxe, [reportez-vous à la documentation Facebook](https://developers.facebook.com/docs/reference/api/permissions).
+
+Si l&#39;utilisateur autorise le partage de ses informations, les champs du formulaire sont alors pré-remplis.
+
+![](assets/web_social_webapp_030.png)
+
+Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web composée des éléments suivants :
+
+* une page contenant le formulaire
+* une activité **[!UICONTROL Enregistrement]**
+* une activité **[!UICONTROL Fin]**
+
+![](assets/social_webapp_031.png)
+
+Les étapes d&#39;ajout du bouton de pré-remplissage sont les suivantes :
+
+1. Créez votre formulaire.
+
+   ![](assets/social_webapp_032.png)
+
+1. Positionnez-vous au même niveau que les champs du formulaire et ajoutez un lien.
+
+   ![](assets/social_webapp_033.png)
+
+1. Renseignez le libellé et sélectionnez le type **[!UICONTROL Bouton]**.
+
+   ![](assets/social_webapp_034.png)
+
+1. Dans le champ **[!UICONTROL Action]**, sélectionnez **[!UICONTROL Précharger avec Facebook]**.
+
+   ![](assets/social_webapp_035.png)
+
+1. Dans le champ **[!UICONTROL Application]**, sélectionnez le compte externe de type **[!UICONTROL Facebook Connect]** créé précédemment. Voir à ce sujet [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+
+   ![](assets/social_webapp_036.png)
+
