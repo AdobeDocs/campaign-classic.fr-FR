@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Avant d’envoyer vos messages avec votre tracking, vous pouvez tester ce dernie
 
 **Tracking d&#39;une application web**
 
-Vous pouvez également tracker et mesurer les visites sur les pages d’application web avec des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d’application web, tels que les formulaires et les questionnaires en ligne. [En savoir plus](../../web/using/tracking-a-web-application.md)
+Vous pouvez également tracker et mesurer les visites sur les pages d&#39;application web avec des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;applications Web tels que les formulaires et les landing pages. [En savoir plus](../../web/using/tracking-a-web-application.md)
 
 **Désinscription (opt-out) du tracking des applications web**
 
