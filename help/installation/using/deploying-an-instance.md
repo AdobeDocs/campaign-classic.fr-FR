@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '3203'
-ht-degree: 100%
+source-wordcount: '3193'
+ht-degree: 99%
 
 ---
 
@@ -372,7 +372,7 @@ Vous pouvez saisir plusieurs masques, séparés les uns des autres par une virgu
 
 ### Modes de publication {#publication-modes}
 
-La section inférieure de l&#39;assistant permet de sélectionner les options de publication des ressources publiques et des images. Ces options sont également disponibles pour les formulaires web et les questionnaires.
+La section inférieure de l&#39;assistant permet de sélectionner les options de publication des ressources publiques et des images.
 
 Les modes de publication suivants sont disponibles :
 
