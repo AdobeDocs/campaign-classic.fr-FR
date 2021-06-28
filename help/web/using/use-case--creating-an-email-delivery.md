@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Notre objectif final est d&#39;obtenir une diffusion partant d&#39;un modèle pe
 >
 >Avant de commencer, vous devez avoir en votre possession au moins un **modèle HTML** prêt à accueillir le contenu de vos futures diffusions.
 >
->Dans les **[!UICONTROL Propriétés]** de diffusion, vérifiez que le **[!UICONTROL Mode d’édition du contenu]** (dans l’onglet **[!UICONTROL Avancé]**) est défini sur **[!UICONTROL DCE]**. Pour garantir le fonctionnement optimal de l’éditeur, consultez les [Bonnes pratiques relatives à l’édition de contenu](../../web/using/content-editing-best-practices.md).
+>Dans les **[!UICONTROL Propriétés]** de diffusion, vérifiez que le **[!UICONTROL Mode d’édition du contenu]** (dans l’onglet **[!UICONTROL Avancé]**) est défini sur **[!UICONTROL DCE]**. Pour garantir le fonctionnement optimal de l’éditeur, consultez les [Bonnes pratiques relatives à l’édition de contenu](content-editing-best-practices.md).
 
 ## Etape 1 - Créer une diffusion {#step-1---creating-a-delivery}
 
@@ -54,7 +54,7 @@ Vous pouvez également importer du contenu HTML créé en dehors d&#39;Adobe Cam
 
 ![](assets/dce_select_from_file_template.png)
 
-Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutiliser ultérieurement. Lorsqu&#39;un modèle de contenu personnalisé est créé, son aperçu figure dans la liste des modèles. Voir à ce sujet la section [Gestion des modèles](../../web/using/template-management.md).
+Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutiliser ultérieurement. Lorsqu&#39;un modèle de contenu personnalisé est créé, son aperçu figure dans la liste des modèles. Voir à ce sujet la section [Gestion des modèles](template-management.md).
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
 * Insérer un lien sur une image
 
-   Afin de permettre aux destinataires de vos diffusions de se rendre sur une adresse externe depuis une image, cliquez sur l&#39;image concernée afin d&#39;afficher la barre d&#39;outils contextuelle, positionnez le curseur sur la première icône, puis cliquez sur **[!UICONTROL Lien vers une URL externe]**. Voir à ce sujet la section [Ajouter un lien](../../web/using/editing-content.md#adding-a-link).
+   Afin de permettre aux destinataires de vos diffusions de se rendre sur une adresse externe depuis une image, cliquez sur l&#39;image concernée afin d&#39;afficher la barre d&#39;outils contextuelle, positionnez le curseur sur la première icône, puis cliquez sur **[!UICONTROL Lien vers une URL externe]**. Voir à ce sujet la section [Ajouter un lien](editing-content.md#adding-a-link).
 
    ![](assets/dce_externalpage.png)
 
@@ -80,7 +80,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
 * Insérer un lien sur du texte
 
-   Afin d&#39;intégrer au texte de votre diffusion un lien vers une URL externe, sélectionnez du texte ou un bloc de texte, puis cliquez sur la première icône de la barre d&#39;outils contextuelle. Cliquez sur **[!UICONTROL Lien vers une URL externe]**, saisissez l’adresse de destination du lien dans le champs **[!UICONTROL URL]**. Pour plus d’informations, voir [Ajout d’un lien](../../web/using/editing-content.md#adding-a-link).
+   Afin d&#39;intégrer au texte de votre diffusion un lien vers une URL externe, sélectionnez du texte ou un bloc de texte, puis cliquez sur la première icône de la barre d&#39;outils contextuelle. Cliquez sur **[!UICONTROL Lien vers une URL externe]**, saisissez l’adresse de destination du lien dans le champs **[!UICONTROL URL]**. Pour plus d’informations, voir [Ajout d’un lien](editing-content.md#adding-a-link).
 
    L&#39;adresse du lien est modifiable à tout moment dans la partie droite de la fenêtre.
 
@@ -102,7 +102,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
 * Intégrer un lien vers une application Web
 
-   Le Digital Content Editor vous permet d&#39;intégrer des liens vers les applications Web de votre console Adobe Campaign, telles qu&#39;une landing page ou une page de formulaire. Voir à ce sujet la section [Lien vers une application web](../../web/using/editing-content.md#link-to-a-web-application).
+   Le Digital Content Editor vous permet d&#39;intégrer des liens vers les applications Web de votre console Adobe Campaign, telles qu&#39;une landing page ou une page de formulaire. Voir à ce sujet la section [Lien vers une application web](editing-content.md#link-to-a-web-application).
 
    Sélectionnez un champ texte dans lequel figurera votre lien vers l&#39;application Web, puis cliquez sur la première icône. Choisissez **[!UICONTROL Lien vers une application Web]**, puis sélectionnez l&#39;application souhaitée en cliquant sur l&#39;icône située à la fin du champ **Application Web**.
 
