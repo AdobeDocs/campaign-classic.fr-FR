@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Adobe Campaign contient un exemple de bannière que vous devez adapter à vos be
 >
 >Pour créer votre propre bannière, vous devez personnaliser la bannière d&#39;usine.
 
-Pour activer la bannière, vous devez configurer les propriétés de l&#39;application web. Voir la section [Concevoir une application web](../../web/using/designing-a-web-application.md).
+Pour activer la bannière, vous devez configurer les propriétés de l&#39;application web. Voir la section [Concevoir une application web](designing-a-web-application.md).
 
 Si le tracking web est activé, vous pouvez sélectionner l&#39;une des options suivantes :
 
@@ -64,7 +64,7 @@ La bannière par défaut possède la structure suivante :
 
 Vous devez remplacer le texte **Veuillez insérer votre message ici** par le bloc qui contient les informations sur le tracking. Ce remplacement doit être effectué dans le nouveau bloc de personnalisation associé à la bannière d’opt-out.
 
-La bannière est fournie avec une feuille CSS spécifique. Vous pouvez toutefois remplacer les styles lors de la création et de la configuration d&#39;une page web. Voir à ce propos [cette page](../../web/using/content-editor-interface.md).
+La bannière est fournie avec une feuille CSS spécifique. Vous pouvez toutefois remplacer les styles lors de la création et de la configuration d&#39;une page web. Voir à ce propos [cette page](content-editor-interface.md).
 
 ## Définir le cookie de désinscription (opt-out) à l&#39;aide des API {#setting-the-opt-out-cookie-using-api}
 
