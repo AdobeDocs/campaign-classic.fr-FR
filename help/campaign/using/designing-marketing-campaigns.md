@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Adobe Campaign vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes marketing et de communication. Adobe Campaign agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../campaign/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
-De plus, le module **Gestion des ressources marketing (MRM)** vous permet de contrôler les actions marketing de façon collaborative à travers la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliqués. La gestion des ressources marketing permet l’optimisation et la régulation de la gestion des processus internes et externes, des ressources et campagnes marketing, ainsi que des relations tierces (agences, imprimeurs, autres). Pour plus d’informations à ce sujet, consultez [cette section](../../campaign/using/about-marketing-resource-management.md).
+De plus, le module **Gestion des ressources marketing (MRM)** vous permet de contrôler les actions marketing de façon collaborative à travers la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliqués. La gestion des ressources marketing permet l’optimisation et la régulation de la gestion des processus internes et externes, des ressources et campagnes marketing, ainsi que des relations tierces (agences, imprimeurs, autres). Pour plus d’informations à ce sujet, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
