@@ -6,18 +6,18 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 95%
 
 ---
 
-# Prise en main du modèle de données de Campaign {#about-data-model}
+# Prise en main du modèle de données de Campaign{#about-data-model}
 
 Le modèle de données conceptuel de la base de données Adobe Campaign se compose d’un ensemble de tables intégrées et de leur interaction. Les tables et concepts principaux sont répertoriés dans cette page.
 
-## Présentation {#data-model-overview}
+## Vue d&#39;ensemble {#data-model-overview}
 
 Adobe Campaign repose sur une base de données relationnelle contenant des tables liées entre elles. La structure de base du modèle de données Adobe Campaign peut être décrite comme suit.
 
@@ -37,19 +37,19 @@ Une autre partie du modèle de données permet de stocker temporairement tous le
 
 Les logs de diffusion sont tous des messages envoyés aux destinataires ou aux appareils sur tous les canaux. Le tableau des logs de diffusion principale (**NmsBroadLog**) contient les logs de diffusion pour tous les destinataires.
 La table principale des logs de tracking (**NmsTrackingLog**) stocke les logs de tracking pour tous les destinataires. Les logs de tracking se rapportent aux réactions des destinataires, telles que les ouvertures d’email et les clics. Chaque réaction correspond à un log de tracking.
-Les mpgs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Il est donc vivement recommandé d’exporter les logs de façon régulière.
+Les mpgs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Il est donc vivement recommandé d&#39;exporter les logs de façon régulière.
 
 ### Tables techniques {#technical-tables}
 
 Enfin, une partie du modèle de données est constituée de données techniques utilisées pour le processus applicatif, y compris les opérateurs et les droits d’utilisateur (**NmsGroup**), les dossiers (**XtkFolder**).
 
-## Utilisation de la table des destinataires par défaut {#default-recipient-table}
+## Utilisation de la table des destinataires intégrée {#default-recipient-table}
 
-La table des destinataires d’usine d’Adobe Campaign est un bon point de départ pour créer votre modèle de données. Elle comporte un certain nombre de champs prédéfinis et de liens vers des tables faciles à étendre. Son emploi est particulièrement efficace si vous ciblez principalement les destinataires, car elle s&#39;appuie sur un modèle de données centré sur ces derniers.
+La table des destinataires intégrée dans Adobe Campaign constitue un bon point de départ pour la création de votre modèle de données. Elle comporte un certain nombre de champs prédéfinis et de liens vers des tables faciles à étendre. Son emploi est particulièrement efficace si vous ciblez principalement les destinataires, car elle s&#39;appuie sur un modèle de données centré sur ces derniers.
 
-Les avantages d&#39;une table de destinataires standard sont les suivants :
+Les avantages de l’utilisation de la table des destinataires intégrée sont les suivants :
 
-* Travailler directement avec des fonctionnalités telles que les abonnements, les listes de contrôle, les enquêtes, les réseaux sociaux, etc.
+* Utilisation de fonctionnalités intégrées telles que les abonnements, les listes de contrôle, etc.
 * Disposer d&#39;une base de données marketing dotée d&#39;un modèle de données axé sur les destinataires.
 * Permettre une mise en œuvre plus rapide.
 * Faciliter les prestations de maintenance des intervenants chargés de l&#39;assistance et des partenaires.
