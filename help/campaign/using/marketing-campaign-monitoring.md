@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Pour chaque opération, l&#39;onglet **[!UICONTROL Tracking]** permet de visuali
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* Le sous-onglet **[!UICONTROL Tâches]** regroupe toutes les tâches rattachées à l’opération. Cette vue vous permet de les éditer ou de les supprimer. Les tâches sont disponibles avec l&#39;application MRM. Elles sont présentées dans [cette section](../../campaign/using/creating-and-managing-tasks.md).
+* Le sous-onglet **[!UICONTROL Tâches]** regroupe toutes les tâches rattachées à l’opération. Cette vue vous permet de les éditer ou de les supprimer. Les tâches sont disponibles avec l&#39;application MRM. Elles sont présentées dans [cette section](../../mrm/using/creating-and-managing-tasks.md).
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
