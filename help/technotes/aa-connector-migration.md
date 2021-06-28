@@ -4,9 +4,9 @@ title: Migration vers Adobe Analytics Connector
 description: FAQ sur Campaign - Connecteur Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: cde4ed65abb2458fc40639b92314f8d56b18b78c
+source-git-commit: 41478c656ffd4e113788149e6cca9ed00602789e
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '836'
 ht-degree: 8%
 
 ---
@@ -73,7 +73,7 @@ En tant qu&#39;utilisateur on-premise, vous pouvez mettre en oeuvre le mode verb
 
 **Que signifie l’erreur &quot;Propriétaire de l’intégration et non administrateur&quot; ?**
 
-En savoir plus sur l’erreur &quot;Propriétaire de l’intégration non administrateur&quot; des Data Connectors dans [cette page](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
+En savoir plus sur l’erreur des Data Connectors `Integration Owner Not Admin` dans [cette page](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
 
 **Une fois la migration vers le nouveau connecteur terminée, qu’advient-il des anciennes données et suites de rapports ?**
 
