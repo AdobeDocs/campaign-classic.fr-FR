@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 100%
@@ -116,7 +116,7 @@ L&#39;extraction du fichier lance deux opérations : le calcul des budgets et le
 
 ## Gérer les documents associés {#managing-associated-documents}
 
-Vous pouvez associer différents documents à une opération : rapport, photo, page web, schéma, etc. Ces documents peuvent être dans n&#39;importe quel format (Microsoft Word, Powerpoint, PNG, JPG, Acrobat PDF, etc.). Découvrez comment lier des documents à une campagne [dans cette section](../../campaign/using/marketing-campaign-assets.md).
+Vous pouvez associer divers documents à une opération, comme des rapports, photos, pages web, diagrammes, etc. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF et autres). Découvrez comment lier des documents à une campagne [dans cette section](../../campaign/using/marketing-campaign-assets.md).
 
 >[!IMPORTANT]
 >
@@ -126,7 +126,7 @@ Vous pouvez également référencer dans les opérations des éléments externes
 
 >[!NOTE]
 >
->Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. Voir à ce sujet la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md).
+>Si vous utilisez MRM, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. Voir à ce sujet la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
 ### Ajouter des documents {#adding-documents}
 
@@ -203,7 +203,7 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur les ressources marketing, voir la section [Gérer les ressources marketing](../../campaign/using/managing-marketing-resources.md).
+   >Pour plus d&#39;informations sur les ressources marketing, voir la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
 #### Sélectionner une composition {#selecting-an-outline}
 
