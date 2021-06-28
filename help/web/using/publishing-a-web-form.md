@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
    ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   Les champs peuvent être ajoutés aux propriétés du formulaire via l’onglet **[!UICONTROL Paramètres]** (voir [Ajouter des paramètres](../../web/using/defining-web-forms-properties.md#adding-parameters)). Ils sont placés dans l’URL du formulaire ou dans les zones d’entrée.
+   Les champs peuvent être ajoutés aux propriétés du formulaire via l’onglet **[!UICONTROL Paramètres]** (voir [Ajouter des paramètres](defining-web-forms-properties.md#adding-parameters)). Ils sont placés dans l’URL du formulaire ou dans les zones d’entrée.
 
    >[!CAUTION]
    >
@@ -81,7 +81,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **Formulaire en édition**
 
-   C&#39;est la phase de conception initiale : lorsqu&#39;un nouveau formulaire est créé, il est en état d&#39;édition. L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+   C&#39;est la phase de conception initiale : lorsqu&#39;un nouveau formulaire est créé, il est en état d&#39;édition. L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
 
    >[!CAUTION]
    >
@@ -123,7 +123,7 @@ Pour être accessible par les utilisateurs, le formulaire doit être en producti
 
 * Cliquez sur le lien **[!UICONTROL Personnaliser le message affiché si le formulaire est fermé]** pour définir le message d&#39;erreur à afficher si l&#39;utilisateur tente d&#39;accéder au formulaire en dehors de sa période de validité.
 
-   Voir [Accessibilité du fomulaire](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form).
+   Voir [Accessibilité du fomulaire](defining-web-forms-properties.md#accessibility-of-the-form).
 
 ### Diffuser un formulaire par email {#delivering-a-form-via-email}
 
@@ -135,7 +135,7 @@ Lorsque vous diffusez une invitation par email, vous pouvez utiliser l&#39;optio
 
 Dans ce cas, la clé de réconciliation pour le stockage des données doit être l’identifiant chiffré du destinataire. Voir à ce sujet la section [Précharger les données du formulaire](#pre-loading-the-form-data).
 
-Dans ce cas, vous devez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement préchargé]** dans la zone d’enregistrement. Voir à ce sujet la section [Enregistrer les réponses aux formulaires web](../../web/using/web-forms-answers.md#saving-web-forms-answers).
+Dans ce cas, vous devez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement préchargé]** dans la zone d’enregistrement. Voir à ce sujet la section [Enregistrer les réponses aux formulaires web](web-forms-answers.md#saving-web-forms-answers).
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
@@ -154,7 +154,3 @@ Sélectionnez un destinataire et cliquez sur le bouton **[!UICONTROL Détail...]
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 Vous pouvez exploiter les traces des réponses fournies dans des requêtes, par exemple pour cibler uniquement les non-répondants dans le cadre d&#39;une relance ou proposer des communications spécifiques aux seuls répondants.
-
->[!NOTE]
->
->Pour réaliser un tracking complet des réponses fournies, exporter les réponses et consulter ou créer des rapports dédiés, vous devez utiliser le module optionnel **Questionnaire** (survey). Voir à ce sujet [cette section](../../web/using/about-surveys.md).
