@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
@@ -135,6 +135,7 @@ Les blocs de personnalisation et champs de personnalisation ne peuvent être ins
 >* Nouvelle fenêtre (_blank)
 >* Fenêtre courante (_self)
 >* Comportement par défaut du navigateur
+
 >
 
 
@@ -200,8 +201,9 @@ Les options disponibles sont les suivantes :
 >[!NOTE]
 >
 >* Icône **Supprimer** : supprime le bloc et tout son contenu.
->
->* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
+   >
+   >
+* Icône **Dupliquer** : duplique le bloc et également tous les styles rattachés au bloc.
 
 
 ## Gestion des images et animations {#managing-images-and-animations}
@@ -251,7 +253,7 @@ Par défaut, les champs proposés sont ceux de la table **[!UICONTROL Destinatai
 
 Le nom du champ apparaît dans l&#39;éditeur, surligné en jaune. Il sera remplacé, lors de la génération de la personnalisation (par exemple, lors de la prévisualisation d&#39;une landing page), par la valeur correspondant au profil du destinataire ciblé.
 
-Un exemple est présenté dans la section [Insertion d’un champ de personnalisation](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field).
+Un exemple est présenté dans la section [Insertion d’un champ de personnalisation](creating-a-landing-page.md#inserting-a-personalization-field).
 
 ### Insérer un bloc de personnalisation {#inserting-a-personalization-block}
 
