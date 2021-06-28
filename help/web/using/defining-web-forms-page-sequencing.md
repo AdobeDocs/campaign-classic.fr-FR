@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Pour chaque page, il est possible de supprimer les boutons **[!UICONTROL Suivant
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
-Vous pouvez remplacer ces boutons par des liens. Voir la section [Insérer du contenu HTML](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+Vous pouvez remplacer ces boutons par des liens. Voir la section [Insérer du contenu HTML](static-elements-in-a-web-form.md#inserting-html-content).
 
 ## Insérer un saut {#inserting-a-jump}
 
@@ -55,7 +55,7 @@ Dans cet exemple nous allons paramétrer un formulaire Web qui permet, à la val
 
    ![](assets/s_ncs_admin_survey_jump_sample1.png)
 
-1. Dans les propriétés du formulaire, ajoutez un paramètre (**next**) stocké dans une variable locale (**next**). Les variables locales sont détaillées dans la section [Stocker les données dans une variable locale](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable).
+1. Dans les propriétés du formulaire, ajoutez un paramètre (**next**) stocké dans une variable locale (**next**). Les variables locales sont détaillées dans la section [Stocker les données dans une variable locale](web-forms-answers.md#storing-data-in-a-local-variable).
 
    ![](assets/s_ncs_admin_survey_jump_sample2.png)
 
@@ -73,9 +73,9 @@ Dans cet exemple nous allons paramétrer un formulaire Web qui permet, à la val
 
 ## Insérer un lien vers une autre page du formulaire {#inserting-a-link-to-another-page-of-the-form}
 
-Vous pouvez insérer des liens vers d&#39;autres pages du formulaire. Vous devez ajouter dans la page un élément statique de type **[!UICONTROL Lien]**. Voir à ce sujet la section [Insérer un lien](../../web/using/static-elements-in-a-web-form.md#inserting-a-link).
+Vous pouvez insérer des liens vers d&#39;autres pages du formulaire. Vous devez ajouter dans la page un élément statique de type **[!UICONTROL Lien]**. Voir à ce sujet la section [Insérer un lien](static-elements-in-a-web-form.md#inserting-a-link).
 
-## Conditionner l&#39;affichage des pages {#conditional-page-display}
+## Affichage conditionnel des pages {#conditional-page-display}
 
 ### Affichage en fonction des réponses {#display-based-on-responses}
 
@@ -89,7 +89,7 @@ Vous pouvez stocker cette information dans un champ de la base de données ou ut
 
 >[!NOTE]
 >
->Les modes de stockage sont détaillés dans les [champs de stockage des réponses](../../web/using/web-forms-answers.md#response-storage-fields).
+>Les modes de stockage sont détaillés dans les [champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
 Dans notre exemple, nous allons utiliser une variable :
 
@@ -107,7 +107,7 @@ Définissez ensuite l&#39;enchaînement des pages lorsque l&#39;une ou l&#39;aut
 
 ### Affichage en fonction des paramètres {#display-based-on-parameters}
 
-Vous pouvez également personnaliser l&#39;enchaînement des pages en fonction des paramètres d&#39;initialisation du formulaire web ou en fonction de valeurs stockées en base. Voir la section [Paramètres d&#39;URL de formulaire](../../web/using/defining-web-forms-properties.md#form-url-parameters).
+Vous pouvez également personnaliser l&#39;enchaînement des pages en fonction des paramètres d&#39;initialisation du formulaire web ou en fonction de valeurs stockées en base. Voir la section [Paramètres d&#39;URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
 
 ## Ajouter des scripts {#adding-scripts}
 
