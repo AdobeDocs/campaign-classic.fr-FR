@@ -4,10 +4,10 @@ title: Migration vers Adobe Analytics Connector
 description: FAQ sur Campaign - Connecteur Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 248bd7774c01adb44ce33d0499c2b01d013e75bd
+source-git-commit: cde4ed65abb2458fc40639b92314f8d56b18b78c
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 10%
+source-wordcount: '840'
+ht-degree: 8%
 
 ---
 
@@ -22,12 +22,12 @@ Vous devez migrer vers la nouvelle intégration d’Adobe Analytics Connector su
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question sur ces modifications, consultez la [FAQ](#faq-aa). Pour plus d’informations, contactez [l’ Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Qu&#39;est-ce qui a changé ?
 
-Une nouvelle intégration entre Campaign Classic et Adobe Analytics est désormais disponible. Les modifications majeures sont répertoriées ci-dessous.
+Une nouvelle intégration entre Campaign Classic v7 et Adobe Analytics est désormais disponible. Les modifications majeures sont répertoriées ci-dessous.
 
 * L’intégration entre l’authentification Adobe Campaign Classic et Adobe Analytics est passée de l’utilisateur/mot de passe à Adobe Identity Management Service (IMS). Par conséquent, vous devez mettre en oeuvre Adobe IMS et vous connecter à Campaign [via un Adobe ID](../integrations/using/about-adobe-id.md), avant de démarrer l’implémentation d’Analytics Connector.
 
@@ -58,7 +58,7 @@ En tant que client on-premise/hybride, vous devez effectuer une mise à niveau v
 Une fois toutes les instances mises à niveau, vous pourrez [mettre en oeuvre la nouvelle intégration](../platform/using/adobe-analytics-connector.md) vers Adobe Analytics Connector, et assurer une transition transparente.
 
 
-## FAQ
+## FAQ{#faq-aa}
 
 **Comment puis-je obtenir des logs ?**
 
@@ -71,17 +71,21 @@ En tant qu&#39;utilisateur on-premise, vous pouvez mettre en oeuvre le mode verb
 * Pour activer le mode verbeux pour l’interface utilisateur, procédez comme suit : réexécutez le processus `web` en mode verbose.
 * Pour activer le mode verbeux pour les workflows **webAnalytics** : sélectionnez l’option **Exécuter dans le moteur** dans les propriétés du workflow, puis relancez `wfserver` en mode verbeux.
 
-**Propriétaire de l’intégration non administrateur**
+**Que signifie l’erreur &quot;Propriétaire de l’intégration et non administrateur&quot; ?**
 
 En savoir plus sur l’erreur &quot;Propriétaire de l’intégration non administrateur&quot; des Data Connectors dans [cette page](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
 
-**eVars/événements/suite de rapports existants présents dans Analytics non visibles dans Campaign**
+**Une fois la migration vers le nouveau connecteur terminée, qu’advient-il des anciennes données et suites de rapports ?**
+
+Après la migration, un nouveau connecteur (migré depuis l’ancien connecteur) commence à transférer les données vers cette même suite de rapports et les données existantes ne seront pas affectées : il sera ajouté aux données existantes.
+
+**Certaines eVar/événements/suites de rapports existantes présentes dans Analytics ne sont pas visibles dans Campaign. Que dois-je faire ?**
 
 L’intégration repose sur les données du Jeton de compte technique pour le fonctionnement quotidien. S’il manque une autorisation d’accès à une suite de rapports/de dimensions du profil de produit associé à l’utilisateur du compte technique, les API que nous utilisons seront simplement abandonnées pour ces requêtes.
 
 Si nous lisons les détails d’un composant Analytics (comme les mesures/dimensions/segments/suites de rapports), l’API ne renverra pas ces composants dans le résultat (qui peuvent sembler avoir été supprimé du côté Analytics ou n’être pas présent). L’API Analytics rejettera ces requêtes et fera une erreur.
 
-La solution consiste à mettre à jour le profil de produit dans le contexte utilisateur d’Analytics du jeton utilisateur technique avec les composants nouvellement créés/manquants en ajoutant ces composants dans [Adobe Admin Console](https://adminconsole.adobe.com/).
+La solution consiste à mettre à jour le **profil de produit** dans le contexte utilisateur d’Analytics du jeton d’utilisateur technique avec les composants nouvellement créés/manquants en ajoutant ces composants dans [Adobe Admin Console](https://adminconsole.adobe.com/). Pour plus d’informations, contactez [l’ Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Liens utiles
 
