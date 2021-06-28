@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 100%
@@ -285,8 +285,8 @@ Les coûts de diffusion d&#39;une opération sont consolidés au niveau de l&#39
 
 ### Mise en œuvre {#implementation}
 
-Dans une opération, lorsque vous sélectionnez le budget, vous devez renseigner le montant initial. Les coûts calculés seront mis à jour automatiquement en fonction du degré d&#39;engagement des montants renseignés (dépenses réalisées, prévues, réservées, engagées). Voir [Calcul des montants](../../campaign/using/controlling-costs.md#calculating-amounts).
+Dans une opération, lorsque vous sélectionnez le budget, vous devez renseigner le montant initial. Les coûts calculés seront mis à jour automatiquement en fonction du degré d&#39;engagement des montants renseignés (dépenses réalisées, prévues, réservées, engagées). Voir [Calcul des montants](../../mrm/using/controlling-costs.md#calculating-amounts).
 
 >[!NOTE]
 >
->La procédure de création de budgets est présentée dans [Créer un budget](../../campaign/using/controlling-costs.md#creating-a-budget).
+>La procédure de création de budgets est présentée dans [Créer un budget](../../mrm/using/controlling-costs.md#creating-a-budget).
