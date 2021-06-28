@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -35,9 +35,9 @@ Le cycle d&#39;une campagne marketing avec Adobe Campaign illustre les principa
 
 ### Profil client intégré {#integrated-customer-profile}
 
-Les profils (clients, prospects, inscrits aux newsletters, etc.) sont centralisés dans la base de données d&#39;Adobe Campaign. De multiples mécanismes d&#39;acquisition de profils et de constitution de cette base sont possibles : collecte on-line via formulaires web, imports manuels ou automatisés de fichiers texte, réplication avec bases de données ou autre système d&#39;information de l&#39;entreprise. Avec Adobe Campaign, vous pouvez incorporer l&#39;historique marketing, les informations d&#39;achat, les préférences, les données de CRM et des données de PII dans une vue consolidée à des fins d&#39;analyse et d&#39;action.
+Les profils (clients, prospects, abonnés aux newsletters, etc.) sont centralisés dans la base de données d&#39;Adobe Campaign. De multiples mécanismes d&#39;acquisition de profils et de constitution de cette base sont possibles : collecte en ligne via des formulaires web, imports manuels ou automatisés de fichiers texte, réplication avec bases de données ou autre système d&#39;information de l&#39;entreprise. Adobe Campaign vous permet d&#39;intégrer des données d&#39;historique marketing, des informations d&#39;achat, des préférences, des données CRM et des données d&#39;informations d&#39;identification personnelles pertinentes dans une vue consolidée afin d&#39;effectuer une analyse et de prendre des mesures.
 
-Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l&#39;envoi des diffusions (emails, SMS, etc.). Grâce aux données de destinataires stockées dans la base de données, vous pourrez filtrer la cible qui recevra toute diffusion donnée et ajouter les données de personnalisation à votre contenu de diffusion. Il existe d&#39;autres types de profils dans la base de données qui sont conçus pour d&#39;autres utilisations. Par exemple, les profils d&#39;adresses de contrôle sont destinés à tester votre diffusions avant leur envoi à la cible finale.
+Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l&#39;envoi des diffusions (e-mails, SMS, etc.). Grâce aux données de destinataires stockées dans la base, vous pouvez filtrer la cible recevant toute diffusion donnée et ajouter les données de personnalisation à votre contenu de diffusion. Il existe d&#39;autres types de profils dans la base de données qui sont conçus pour d&#39;autres utilisations. Par exemple, les profils d&#39;adresses de contrôle sont destinés à tester vos diffusions avant leur envoi à la cible finale.
 
 Les notions de base de la gestion des profils sont expliquées dans la section [A propos des profils](../../platform/using/about-profiles.md).
 
@@ -53,11 +53,11 @@ Adobe Campaign vous permet de concevoir et orchestrer des campagnes ciblées et 
 
 ### Personnalisation et interaction en temps réel {#personalization-and-real-time-interaction}
 
-Retenez l&#39;attention de vos clients et améliorez vos taux de réponse grâce à une personnalisation évoluée du contenu et des en-têtes des messages selon leur profil ou leurs préférences. La gestion du contenu des messages et leur personnalisation sont présentées dans [cette page](../../delivery/using/about-personalization.md). La gestion collaborative des contenus, ainsi que les circuits de notification et de validation sont présentés dans [cette section](../../campaign/using/about-marketing-resource-management.md).
+Retenez l&#39;attention de vos clients et améliorez vos taux de réponse grâce à une personnalisation évoluée du contenu et des en-têtes des messages selon leur profil ou leurs préférences. La gestion du contenu des messages et leur personnalisation sont présentées dans [cette page](../../delivery/using/about-personalization.md). La gestion collaborative des contenus, ainsi que les circuits de notification et de validation sont présentés dans [cette section](../../mrm/using/about-marketing-resource-management.md).
 
 ### Analyse et reporting {#analysis-and-reporting}
 
-Adobe Campaign vous permet de suivre et de comprendre les comportements de vos clients en enrichissant progressivement leurs données et profil. Grâce aux outils de reporting et d&#39;analyse, vous capitalisez à chaque nouvelle campagne, ciblez mieux vos actions marketing et optimisez leur impact et leur retour sur investissement. Consultez [cette page](../../reporting/using/delivery-reports.md) pour plus d&#39;informations.
+Adobe Campaign vous permet de suivre et comprendre les comportements de vos clients en enrichissant progressivement leurs données et profil. Grâce aux outils de reporting et d&#39;analyse, vous capitalisez sur chaque nouvelle campagne, bénéficiez d&#39;un meilleur ciblage de vos actions marketing et optimisez leur impact ainsi que leur retour sur investissement. Pour plus d’informations, consultez [cette page](../../reporting/using/delivery-reports.md) .
 
 ### Intégrations d&#39;Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
@@ -71,13 +71,13 @@ Les fonctions ci-dessous sont disponibles. Selon votre contrat de licence, certa
 
 * [Canaux](../../delivery/using/steps-about-delivery-creation-steps.md) : concevez et envoyez des diffusions sur divers canaux (email, SMS, Line, Mobile app, courrier).
 * [Campaign](../../campaign/using/designing-marketing-campaigns.md) : orchestrez des campagnes cross-canal.
-* [MRM](../../campaign/using/about-marketing-resource-management.md) : gérez les ressources marketing et les budgets.
+* [MRM](../../mrm/using/about-marketing-resource-management.md) : gérez les ressources marketing et les budgets.
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) : gérez les offres avec Campaign.
 * [Message Center](../../message-center/using/about-transactional-messaging.md) : envoyez des messages transactionnels par email, par SMS ou sur une application mobile.
 * [Social Marketing](../../social/using/about-social-marketing.md) : communiquez sur les réseaux sociaux : Facebook, Twitter.
 * [Workflow](../../workflow/using/about-workflows.md) / Data Management : automatisez les processus et gérez les données à l&#39;aide de workflows.
 * [Applications web](../../web/using/about-web-applications.md) : créez des pages web et des formulaires.
-* [Survey Manager](../../web/using/about-surveys.md) : créez des questionnaires et enquêtes en ligne.
+* [Survey Manager](../../surveys/using/about-surveys.md) : créez des questionnaires et enquêtes en ligne.
 * [Content Manager](../../delivery/using/about-content-management.md) : gérez le contenu des emails.
 * [Distributed Marketing](../../campaign/using/about-distributed-marketing.md) : coordonnez des campagnes pour des agences centrales/locales.
 * [Response Manager](../../campaign/using/about-response-manager.md) : gérez les réponses des clients.
