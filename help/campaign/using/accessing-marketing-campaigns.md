@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les cam
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
-### Page d&#39;accueil       {#home-page}
+### Page d’accueil   {#home-page}
 
 Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
@@ -34,7 +34,7 @@ Le bloc de **[!UICONTROL Navigation]** de l’onglet **[!UICONTROL Campagnes]** 
 * **Calendrier des campagnes** : calendrier des plans, des programmes marketing, des diffusions et des opérations. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
 * **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
 * **Diffusions** : accès aux diffusions contenues dans les opérations.
-* **Applications web** : accès aux applications web (formulaires, questionnaires, etc.).
+* **Applications** web : accès aux applications web (formulaires, landing pages, etc.).
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Une opération centralise un ensemble de diffusions. Pour chaque opération, le 
 
 Pour chaque opération, les intervenants peuvent échanger des messages via un forum dédié.
 
-Voir à ce propos la section [Forums de discussions](../../campaign/using/discussion-forums.md).
+Voir à ce propos la section [Forums de discussions](../../mrm/using/discussion-forums.md).
 
 #### Rapports  {#reports}
 
