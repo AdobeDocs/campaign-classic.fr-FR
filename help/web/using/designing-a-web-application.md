@@ -6,28 +6,22 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 85%
 
 ---
 
 # Conception d’une application web{#designing-a-web-application}
 
-Les applications Web sont créées et gérées suivant le même principe que les [questionnaires en ligne](../../web/using/about-surveys.md).
-
-Toutefois, les différences fonctionnelles sont les suivantes :
-
-* Les applications Web n&#39;utilisent pas de champs archivés. Le stockage des informations ne peut donc se faire que dans des champs de la base ou dans des variables locales.
-* Il n&#39;existe pas de rapports natifs sur les applications Web.
-* Des champs supplémentaires sont proposés, principalement pour la création de tableaux et de graphiques.
+Les applications web sont créées et gérées selon le même principe que les [formulaires web](about-web-forms.md).
 
 >[!CAUTION]
 >
->Il est vivement recommandé de contrôler au fur et à mesure les paramétrages appliqués afin de détecter les éventuelles erreurs suffisamment tôt dans le processus de construction de l&#39;application web. Pour contrôler le rendu d&#39;une modification, enregistrez l&#39;application puis cliquez sur le sous-onglet **[!UICONTROL Prévisualisation]**.
+>Utilisez le sous-onglet **[!UICONTROL Aperçu]** pour vérifier les erreurs lors de la conception de l&#39;application web.
 >
->Tant que l&#39;application web n&#39;est pas publiée, les modifications ne sont pas visibles par l&#39;utilisateur final.
+>Tant que l&#39;application Web n&#39;est pas publiée, les modifications ne sont pas exposées aux utilisateurs finaux.
 
 ## Insérer des graphiques dans une application web {#inserting-charts-in-a-web-application}
 
@@ -57,7 +51,7 @@ Elles se présentent dans l&#39;interface sous la forme de tableaux de bord et e
 
 Les applications web d&#39;usine sont stockées sous le nœud **[!UICONTROL Administration > Paramétrage > Applications web]**.
 
-## Applications web de type formulaires d&#39;édition{#edit-forms-type-web-applications}
+## Applications web de type formulaires d&#39;édition {#edit-forms-type-web-applications}
 
 Les applications web de type formulaires d&#39;édition pour un extranet sont caractérisées par :
 
@@ -70,4 +64,3 @@ Les applications web de type formulaires d&#39;édition pour un extranet sont ca
 
    Si les applications web de type &quot;Vues d&#39;ensemble&quot; sont toutes composées d&#39;une seule page, les formulaires d&#39;édition peuvent proposer un enchaînement de pages selon des critères précis (tests, sélections, profil de l&#39;opérateur connecté, etc.).
 
-Le fonctionnement de ce type d&#39;applications web est proche de celui des **Questionnaires**, toutefois, elles ne proposent pas la gestion des historiques ni l&#39;archivage des champs. Les utilisateurs y accèdent la plupart du temps via une page de login dans laquelle ils doivent s&#39;identifier.
