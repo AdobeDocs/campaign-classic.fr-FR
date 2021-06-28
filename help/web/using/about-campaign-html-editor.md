@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: cbfaf6a2c187ad62f7b6c9042b69f5e522fcfd02
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
@@ -37,22 +37,22 @@ Le fonctionnement général est le suivant :
 
 Pour créer une **application web** simple, vous devez :
 
-1. Créer une application web - [En savoir plus](../../web/using/creating-a-landing-page.md)
-1. Sélectionner un contenu existant ou créer du contenu à partir d‘un modèle standard - [En savoir plus](../../web/using/template-management.md)
-1. Modifier et configurer le contenu - [En savoir plus](../../web/using/editing-content.md)
-1. Publier l‘application web - [En savoir plus](../../web/using/creating-a-landing-page.md#step-3---publishing-content)
+1. Créer une application web - [En savoir plus](creating-a-landing-page.md)
+1. Sélectionner un contenu existant ou créer du contenu à partir d‘un modèle standard - [En savoir plus](template-management.md)
+1. Modifier et configurer le contenu - [En savoir plus](editing-content.md)
+1. Publier l‘application web - [En savoir plus](creating-a-landing-page.md#step-3---publishing-content)
 
 >[!NOTE]
 >
->Un exemple complet d’implémentation dans le contexte d’une application web est disponible dans [cette section](../../web/using/creating-a-landing-page.md).
+>Un exemple complet d’implémentation dans le contexte d’une application web est disponible dans [cette section](creating-a-landing-page.md).
 
 Pour créer une **diffusion email**, vous devez :
 
-1. Créer une diffusion à partir d‘un modèle du DCE - [En savoir plus](../../web/using/use-case--creating-an-email-delivery.md)
-1. Sélectionner un contenu existant ou créer un contenu à partir d’un [modèle standard](../../web/using/template-management.md)
+1. Créer une diffusion à partir d‘un modèle du DCE - [En savoir plus](use-case--creating-an-email-delivery.md)
+1. Sélectionner un contenu existant ou créer un contenu à partir d’un [modèle standard](template-management.md)
 1. Modifier et configurer du contenu en ligne
 1. Envoyer la diffusion - [En savoir plus](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
 >
->Un exemple complet d‘implémentation dans le contexte d’une diffusion email est disponible dans [ce cas pratique](../../web/using/use-case--creating-an-email-delivery.md).
+>Un exemple complet d‘implémentation dans le contexte d’une diffusion email est disponible dans [ce cas pratique](use-case--creating-an-email-delivery.md).
