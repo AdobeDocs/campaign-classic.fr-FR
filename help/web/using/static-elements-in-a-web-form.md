@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Pour insérer un champ de la base, utilisez le bouton de personnalisation.
 
 >[!NOTE]
 >
->Les chaînes saisies dans l&#39;éditeur HTML ne font l&#39;objet d&#39;une traduction que si elles sont définies dans le sous-onglet **[!UICONTROL Textes]**. Dans le cas contraire, elles ne sont pas collectées. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+>Les chaînes saisies dans l&#39;éditeur HTML ne font l&#39;objet d&#39;une traduction que si elles sont définies dans le sous-onglet **[!UICONTROL Textes]**. Dans le cas contraire, elles ne sont pas collectées. Voir à ce sujet la section [Traduire un formulaire web](translating-a-web-form.md).
 
 ### Insérer un lien {#inserting-a-link}
 
@@ -85,7 +85,7 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
    ![](assets/s_ncs_admin_survey_link_next.png)
 
-   Vous pouvez masquer les boutons **[!UICONTROL Suivant]** et/ou **[!UICONTROL Précédent]** si un lien est destiné à les remplacer. Voir à ce sujet cette [page](../../web/using/defining-web-forms-page-sequencing.md).
+   Vous pouvez masquer les boutons **[!UICONTROL Suivant]** et/ou **[!UICONTROL Précédent]** si un lien est destiné à les remplacer. Voir à ce sujet cette [page](defining-web-forms-page-sequencing.md).
 
    Ainsi, le lien paramétré remplacera le bouton **[!UICONTROL Suivant]** utilisé par défaut.
 
@@ -107,60 +107,7 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
    >[!NOTE]
    >
-   >Pour plus d&#39;informations sur l&#39;enchaînement des pages dans un formulaire web, voir [Définir l&#39;enchaînement des pages des formulaires web](../../web/using/defining-web-forms-page-sequencing.md).
-
-* Pré-remplir les champs du formulaire avec les données de profil Facebook
-
-   >[!CAUTION]
-   >
-   >Cette fonction n&#39;est disponible que si vous avez installé l&#39;application **[!UICONTROL Social Marketing]**. Avant d&#39;utiliser cette option, vous devez créer une application Facebook, ainsi qu&#39;un compte externe de type **[!UICONTROL Facebook Connect]**. Voir à ce sujet [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-   L&#39;option **[!UICONTROL Précharger avec Facebook]** permet d&#39;insérer, dans un formulaire, un bouton permettant de pré-remplir les champs grâce aux informations de profil Facebook.
-
-   ![](assets/web_social_webapp_037.png)
-
-   Lorsque l&#39;utilisateur clique sur le bouton **[!UICONTROL Remplir automatiquement]**, l&#39;écran de demande de connexion Facebook apparaît.
-
-   ![](assets/web_social_webapp_029.png)
-
-   >[!NOTE]
-   >
-   >Il est possible de modifier la liste des droits étendus lors de la configuration du compte externe. Si vous ne renseignez aucun droit étendu, Facebook transmet par défaut les informations de base du profil.\
-   >Pour connaître la liste des droits étendus et leur syntaxe, cliquez sur le lien : [https://developers.facebook.com/docs/reference/api/permissions/](https://developers.facebook.com/docs/reference/api/permissions/)
-
-   Si l&#39;utilisateur autorise le partage de ses informations, les champs du formulaire sont alors pré-remplis.
-
-   ![](assets/web_social_webapp_030.png)
-
-Pour réaliser ce cas d&#39;utilisation, nous avons créé une application web composée des éléments suivants :
-
-* une page contenant le formulaire
-* une activité **[!UICONTROL Enregistrement]**
-* une activité **[!UICONTROL Fin]**
-
-![](assets/social_webapp_031.png)
-
-Les étapes d&#39;ajout du bouton de pré-remplissage sont les suivantes :
-
-1. Créez votre formulaire.
-
-   ![](assets/social_webapp_032.png)
-
-1. Positionnez-vous au même niveau que les champs du formulaire et ajoutez un lien.
-
-   ![](assets/social_webapp_033.png)
-
-1. Renseignez le libellé et sélectionnez le type **[!UICONTROL Bouton]**.
-
-   ![](assets/social_webapp_034.png)
-
-1. Dans le champ **[!UICONTROL Action]**, sélectionnez **[!UICONTROL Précharger avec Facebook]**.
-
-   ![](assets/social_webapp_035.png)
-
-1. Dans le champ **[!UICONTROL Application]**, sélectionnez le compte externe de type **[!UICONTROL Facebook Connect]** créé précédemment. Voir à ce sujet [cette page](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
-
-   ![](assets/social_webapp_036.png)
+   >Pour plus d&#39;informations sur l&#39;enchaînement des pages dans un formulaire web, voir [Définir l&#39;enchaînement des pages des formulaires web](defining-web-forms-page-sequencing.md).
 
 ### Personnaliser le contenu HTML {#personalizing-html-content}
 
@@ -168,7 +115,7 @@ Vous pouvez personnaliser le contenu HTML d&#39;une page de formulaire avec des 
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-Vous pouvez réinjecter dans la page suivante le nom de l&#39;utilisateur et la marque sélectionnée en utilisant des champs de personnalisation. La syntaxe à utiliser dépend du mode de stockage des informations. Voir à ce propos la section [Utiliser les informations collectées](../../web/using/web-forms-answers.md#using-collected-information).
+Vous pouvez réinjecter dans la page suivante le nom de l&#39;utilisateur et la marque sélectionnée en utilisant des champs de personnalisation. La syntaxe à utiliser dépend du mode de stockage des informations. Voir à ce propos la section [Utiliser les informations collectées](web-forms-answers.md#using-collected-information).
 
 >[!NOTE]
 >
@@ -187,11 +134,11 @@ Le résultat sera le suivant :
 
 ![](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
-### Utilisation de variables texte {#using-text-variables}
+### Utilisation de variables de texte {#using-text-variables}
 
 L&#39;onglet **[!UICONTROL Texte]** permet de créer des champs variables qui peuvent être utilisés dans le HTML entre les caractères &lt;%= et %>, avec la syntaxe suivante : **$(IDENTIFIER)**.
 
-Utilisez cette méthode pour localiser facilement vos chaînes. Voir [Traduire un formulaire web](../../web/using/translating-a-web-form.md)
+Utilisez cette méthode pour localiser facilement vos chaînes. Voir [Traduire un formulaire web](translating-a-web-form.md)
 
 Par exemple, vous pouvez créer un champ **Contact** qui permettra d&#39;afficher la chaîne « Dernier contact le » dans le contenu HTML. Pour ce faire, procédez comme suit :
 
@@ -214,7 +161,7 @@ Par exemple, vous pouvez créer un champ **Contact** qui permettra d&#39;affiche
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-Ce mode de fonctionnement permet de définir les textes des formulaires web et d&#39;en gérer les traductions à l&#39;aide de l&#39;outil de traduction intégré. Voir à ce sujet la section [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+Ce mode de fonctionnement permet de définir les textes des formulaires web et d&#39;en gérer les traductions à l&#39;aide de l&#39;outil de traduction intégré. Voir à ce sujet la section [Traduire un formulaire web](translating-a-web-form.md).
 
 ## Insérer des images {#inserting-images}
 
