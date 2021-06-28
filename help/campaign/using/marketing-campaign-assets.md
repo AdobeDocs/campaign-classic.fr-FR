@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Dans une campagne, vous pouvez également faire référence à d’autres élém
 
 >[!NOTE]
 >
->Si vous utilisez le module de gestion de ressources marketing de Campaign, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. [En savoir plus](../../campaign/using/managing-marketing-resources.md).
+>Si vous utilisez le module de gestion de ressources marketing de Campaign, vous pouvez également gérer une bibliothèque de ressources marketing sur lesquelles plusieurs intervenants peuvent agir dans un mode collaboratif. [En savoir plus](../../mrm/using/managing-marketing-resources.md).
 
 ## Ajout de documents {#adding-documents}
 
@@ -102,7 +102,7 @@ Une composition peut contenir des articles, des champs de personnalisation, des 
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur les ressources marketing, reportez-vous à [cette section](../../campaign/using/managing-marketing-resources.md).
+   >Pour plus d’informations sur les ressources marketing, reportez-vous à [cette section](../../mrm/using/managing-marketing-resources.md).
 
 ### Sélection d’une composition {#selecting-an-outline}
 
