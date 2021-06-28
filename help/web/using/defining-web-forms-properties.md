@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** de la fenêtre des propriétés, vo
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-Le modèle de formulaire est choisi lors de la création du formulaire. Il ne peut pas être modifié ultérieurement. Pour plus d’informations sur la création et la gestion des modèles de formulaire, voir [Utiliser un modèle de formulaire web](../../web/using/using-a-web-form-template.md).
+Le modèle de formulaire est choisi lors de la création du formulaire. Il ne peut pas être modifié ultérieurement. Pour plus d’informations sur la création et la gestion des modèles de formulaire, voir [Utiliser un modèle de formulaire web](using-a-web-form-template.md).
 
 ## Stockage des données d&#39;un formulaire {#form-data-storage}
 
@@ -53,7 +53,7 @@ Le contenu des chaînes affichées est défini dans l&#39;onglet **[!UICONTROL P
 
 L&#39;onglet **[!UICONTROL Localisation]** permet de sélectionner les langues de conception et d&#39;affichage du formulaire Web.
 
-Voir [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+Voir [Traduire un formulaire web](translating-a-web-form.md).
 
 ## Navigation dans un formulaire et rendu {#form-browsing-and-rendering}
 
@@ -77,7 +77,7 @@ Ces éléments sont affichés en bas de chaque page. Leur positionnement peut ê
 
 Le champ **[!UICONTROL Modèle]** de l&#39;onglet **[!UICONTROL Rendu]** permet de sélectionner un thème parmi ceux disponibles.
 
-Les thèmes sont enregistrés dans le nœud **[!UICONTROL Administration > Configuration > Rendus des formulaires]** de l’arborescence. Voir [Choisir le modèle de rendu du formulaire](../../web/using/form-rendering.md#selecting-the-form-rendering-template).
+Les thèmes sont enregistrés dans le nœud **[!UICONTROL Administration > Configuration > Rendus des formulaires]** de l’arborescence. Voir [Choisir le modèle de rendu du formulaire](form-rendering.md#selecting-the-form-rendering-template).
 
 Un exemple de rendu est affiché dans la section inférieure de la fenêtre des propriétés. L&#39;icône **[!UICONTROL Editer le lien]** permet de visualiser le paramétrage correspondant au thème sélectionné.
 
@@ -85,13 +85,13 @@ Un exemple de rendu est affiché dans la section inférieure de la fenêtre des 
 
 ## Textes du formulaire {#texts-in-the-form}
 
-L&#39;onglet **[!UICONTROL Page]** permet de définir le contenu de l’en-tête et du pied de page du formulaire. Voir [Définir les en-têtes et pieds de page](../../web/using/form-rendering.md#defining-headers-and-footers).
+L&#39;onglet **[!UICONTROL Page]** permet de définir le contenu de l’en-tête et du pied de page du formulaire. Voir [Définir les en-têtes et pieds de page](form-rendering.md#defining-headers-and-footers).
 
-Il permet aussi de gérer les traductions. Voir [Traduire un formulaire web](../../web/using/translating-a-web-form.md).
+Il permet aussi de gérer les traductions. Voir [Traduire un formulaire web](translating-a-web-form.md).
 
 ## Accessibilité du formulaire {#accessibility-of-the-form}
 
-Un formulaire web est accessible aux utilisateurs s’il est **[!UICONTROL En ligne]** et si la date actuelle est comprise dans sa période de validité. Le statut du formulaire est modifié au cours de l’étape de publication (voir [Publier un formulaire](../../web/using/publishing-a-web-form.md#publishing-a-form)). Le statut s’affiche dans la section **Projet** de l’onglet **[!UICONTROL Général]** de la fenêtre des propriétés.
+Un formulaire web est accessible aux utilisateurs s’il est **[!UICONTROL En ligne]** et si la date actuelle est comprise dans sa période de validité. Le statut du formulaire est modifié au cours de l’étape de publication (voir [Publier un formulaire](publishing-a-web-form.md#publishing-a-form)). Le statut s’affiche dans la section **Projet** de l’onglet **[!UICONTROL Général]** de la fenêtre des propriétés.
 
 La période de validité est comprise entre la date de **[!UICONTROL Démarrage]** et la date de **[!UICONTROL Clôture]**. Si aucune date n&#39;est spécifiée dans ces champs, la validité du formulaire est permanente.
 
@@ -150,7 +150,7 @@ Des paramètres supplémentaires peuvent être ajoutés à partir l&#39;onglet *
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-Vous devez indiquer un espace de stockage d&#39;où sera récupérée la valeur du paramètre. Pour cela, sélectionnez une des options de stockage puis cliquez sur l&#39;onglet **[!UICONTROL Stockage]** pour sélectionner le champ ou la variable concernée. Les options de stockage sont détaillées dans les [Champs de stockage des réponses](../../web/using/web-forms-answers.md#response-storage-fields).
+Vous devez indiquer un espace de stockage d&#39;où sera récupérée la valeur du paramètre. Pour cela, sélectionnez une des options de stockage puis cliquez sur l&#39;onglet **[!UICONTROL Stockage]** pour sélectionner le champ ou la variable concernée. Les options de stockage sont détaillées dans les [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
 Le statut du répondant (par exemple 0, 1 ou toute autre valeur) pourra alors être ajouté dans l&#39;URL d&#39;accès au formulaire. Cette information peut être réutilisée dans les pages du formulaire ou dans une boîte de test. Vous pouvez ainsi conditionner les pages affichées en fonction de la valeur du contexte, comme dans l&#39;exemple suivant :
 
