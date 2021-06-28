@@ -6,16 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 92%
 
 ---
 
 # Tracking des visites sur une application web{#tracking-a-web-application}
 
-Adobe Campaign permet de suivre et de mesurer les visites sur les pages des applications Web en insérant des balises de tracking. Il est possible d&#39;utiliser cette fonctionnalité pour tous les types d&#39;applications Web (formulaires, enquêtes en ligne, pages Web créées à l&#39;aide de DCE, etc.).
+Adobe Campaign permet de suivre et de mesurer les visites sur les pages des applications Web en insérant des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;applications Web (formulaires, pages Web, etc.).
 
 Vous pouvez ainsi définir plusieurs chemins de navigation et en évaluer le succès. Les mesures ainsi effectuées sont répertoriées dans les rapports disponibles au niveau de chaque application.
 
@@ -55,13 +55,11 @@ Afin d&#39;identifier la source de trafic sur une application Web, Adobe Campaig
 
 >[!NOTE]
 >
->Pour rappel, le tracking anonyme n&#39;est possible que si cette option a été activée dans l&#39;assistant de déploiement.
->
->Voir à ce propos le [Guide d&#39;installation](../../installation/using/deploying-an-instance.md).
+>Le tracking anonyme n&#39;est disponible que si l&#39;option a été activée dans l&#39;assistant de déploiement lors de l&#39;installation de Campaign.
 
 ## Applications web conçues avec Digital Content Editor (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-Lorsqu&#39;une application web est créée en utilisant l&#39;éditeur de contenus HTML - **Digital Content Editor (DCE)** -, les balises de tracking sont insérées depuis le sous-onglet **[!UICONTROL Propriétés]** de l&#39;éditeur. Pour plus d&#39;informations sur le Digital Content Editor (DCE), consultez [cette section](../../web/using/about-campaign-html-editor.md).
+Lorsqu&#39;une application web est créée en utilisant l&#39;éditeur de contenus HTML - **Digital Content Editor (DCE)** -, les balises de tracking sont insérées depuis le sous-onglet **[!UICONTROL Propriétés]** de l&#39;éditeur. Pour plus d&#39;informations sur le Digital Content Editor (DCE), consultez [cette section](about-campaign-html-editor.md).
 
 ![](assets/trackers_2.png)
 
