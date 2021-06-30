@@ -65,7 +65,7 @@ Les étapes ci-dessous qui permettent de modifier un point unique de données co
 
    Par défaut, la réplication périodique d&#39;ACS Connector a lieu toutes les 15 minutes. Pour plus d’informations, voir [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
-## Créer un workflow       {#creating-a-workflow}
+## Créer un workflow        {#creating-a-workflow}
 
 Les profils et services répliqués depuis Campaign v7 permettent aux spécialistes du marketing digital d&#39;exploiter les données complètes dans Campaign Standard. Les instructions ci-dessous montrent comment ajouter une requête à un workflow de Campaign Standard et comment l&#39;utiliser ensuite avec la base de données répliquée.
 
