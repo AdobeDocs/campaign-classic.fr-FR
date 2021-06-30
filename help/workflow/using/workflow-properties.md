@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
    Cette option ne doit être utilisée qu&#39;à des fins de débuggage et jamais en production. Lorsque cette option est activée, le workflow devient prioritaire, et tous les autres workflows sont stoppés par le moteur de workflow tant qu&#39;il n&#39;est pas terminé.
 
-### Gestion des erreurs       {#error-management}
+### Gestion des erreurs        {#error-management}
 
 * **[!UICONTROL Résolution des problèmes]**
 
