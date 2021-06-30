@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
