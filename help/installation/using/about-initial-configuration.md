@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
