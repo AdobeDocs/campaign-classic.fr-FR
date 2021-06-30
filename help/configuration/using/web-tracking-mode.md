@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
 ht-degree: 100%
 
