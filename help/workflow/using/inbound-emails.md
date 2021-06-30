@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: event-activities
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 
