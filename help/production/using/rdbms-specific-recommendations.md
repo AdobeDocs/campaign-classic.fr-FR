@@ -422,7 +422,7 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 >
 >Pour Microsoft SQL Server, vous pouvez utiliser le plan de maintenance décrit sur [cette page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
-L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l’administrateur de base de données pour connaître les procédures de maintenance de cette version.
+L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l&#39;administrateur de base de données pour connaître les procédures de maintenance de cette version.
 
 1. Connectez-vous à Microsoft SQL Server Management Studio avec un identifiant auquel ont été attribués des droits administrateur.
 1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]** dans le menu contextuel..
@@ -467,14 +467,14 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une
    L&#39;état d&#39;avancement du plan de maintenance et le statut des différentes étapes s&#39;affiche à l&#39;écran.
 
 1. Lorsque le plan de maintenance est arrivé à son terme, cliquez sur **[!UICONTROL Fermer]**.
-1. Dans l’explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
+1. Dans l&#39;explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
 1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
 
    Notez qu’un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Tâches]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple, il n’y a qu’un seul objet, car toutes les tâches de maintenance font partie du même plan.
 
    >[!IMPORTANT]
    >
-   >Pour que cet objet puisse s’exécuter, l’agent Microsoft SQL Server doit être activé.
+   >Pour que cet objet puisse s&#39;exécuter, l&#39;agent Microsoft SQL Server doit être activé.
 
 **Configuration d&#39;une base de données distincte pour les tables de travail**
 
