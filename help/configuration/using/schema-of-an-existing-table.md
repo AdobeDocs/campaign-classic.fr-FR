@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-schemas
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Schéma d&#39;une table existante{#schema-of-an-existing-table}
 
-## Vue d’ensemble {#overview}
+## Vue d&#39;ensemble {#overview}
 
 Lorsque l&#39;application doit accéder aux données d&#39;une table déjà existante, ou d&#39;une vue SQL, ou de données provenant d&#39;une base distante, vous devez créer son schéma dans Adobe Campaign avec les données suivantes :
 
