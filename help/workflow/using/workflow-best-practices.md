@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1655'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Dans la fenêtre des **[!UICONTROL Propriétés du workflow]**, ne cochez jamais
 
 ![](assets/wf-execute-in-engine.png)
 
-## Propriétés d&#39;exécution        {#workflow-properties}
+## Propriétés d&#39;exécution         {#workflow-properties}
 
 ### Dossiers des workflows {#workflow-folders}
 
