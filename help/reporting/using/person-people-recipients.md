@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Personnes : comme le navigateur de ce destinataire accepte les cookies, nous ob
 | John | - | - | - |
 | Marie | - | - | +1 |
 | Florian | +1 | +1 | +1 |
-| Total intermédiaire | 3 | 3 | 2 |
+| Total intermédiaire | 1 | 1 | 2 |
 
 Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par la personne à qui Florian a transféré l&#39;email :
 
@@ -120,7 +120,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 | Marie | - | - | +1 |
 | Florian | +1 | +1 | +1 |
 | Personne inconnue | - | +1 | - |
-| Total intermédiaire | 3 | 2 | 2 |
+| Total intermédiaire | 1 | 2 | 2 |
 
 ## Etape 4 : Henry {#step-4--henry}
 
