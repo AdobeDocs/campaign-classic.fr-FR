@@ -31,7 +31,7 @@ L’implémentation du MTA amélioré peut avoir un impact sur certaines fonctio
 >
 >Si vous êtes un utilisateur final d’Adobe Campaign et que vous souhaitez déterminer si votre instance a été mise à niveau vers le MTA amélioré, contactez votre administrateur Campaign interne.
 
-## Foire aux questions {#enhanced-mta-faq}
+## Forum aux questions {#enhanced-mta-faq}
 
 ### Utilisation et avantages
 
