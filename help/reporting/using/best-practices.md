@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: reporting-in-adobe-campaign
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
 ht-degree: 100%
 
