@@ -711,7 +711,7 @@ Permet d&#39;ajouter un fichier TLV personnalisé. Ce champ définit la partie b
 
 Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
-### Réponse automatique aux MO  {#automatic-reply}
+### Réponse automatique aux MO   {#automatic-reply}
 
 >[!IMPORTANT]
 >
@@ -743,7 +743,7 @@ Ce champ est facultatif. Il permet d&#39;écraser l&#39;adresse de l&#39;expédi
 
 Le champ est limité à 21 caractères par la spécification SMPP, mais certains fournisseurs peuvent autoriser des valeurs plus longues. Notez également que des restrictions très strictes peuvent être appliquées dans certains pays, par exemple la longueur, le contenu, les caractères autorisés.
 
-### Paramètres de la diffusion {#delivery-parameters}
+### Paramètres de diffusion {#delivery-parameters}
 
 #### Nombre maximal de SMS par message {#maximum-sms}
 
