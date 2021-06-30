@@ -19,7 +19,7 @@ Adobe Campaign vous permet de créer, paramétrer, exécuter et analyser les cam
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
-### Page d’accueil   {#home-page}
+### Page d&#39;accueil        {#home-page}
 
 Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
@@ -27,9 +27,9 @@ Une fois connecté à Adobe Campaign, vous accédez à la page d&#39;accueil.
 
 Cliquez sur les liens de la barre de navigation pour accéder aux différentes fonctionnalités.
 
-Les éléments d’une opération se trouvent dans l’onglet **[!UICONTROL Campagnes]** : vous y trouverez une vue d’ensemble des programmes et des opérations marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, elles-mêmes formées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de la gestion des campagnes marketing à l&#39;aide de Campaign, les informations concernant les diffusions, les budgets, les validants et les documents liés sont disponibles dans chaque campagne.
+Les éléments d&#39;une opération se trouvent dans l&#39;onglet **[!UICONTROL Campagnes]** : vous y trouverez une vue d&#39;ensemble des programmes et des opérations marketing ainsi que de leurs sous-ensembles. Un programme de marketing est constitué de campagnes, elles-mêmes formées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de la gestion des campagnes marketing à l&#39;aide de Campaign, les informations concernant les diffusions, les budgets, les validants et les documents liés sont disponibles dans chaque campagne.
 
-Le bloc de **[!UICONTROL Navigation]** de l’onglet **[!UICONTROL Campagnes]** offre diverses entrées en fonction des modules installés sur l’instance. Vous pouvez, par exemple, accéder aux éléments suivants :
+Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]** offre diverses entrées en fonction des modules installés sur l&#39;instance. Vous pouvez, par exemple, accéder aux éléments suivants :
 
 * **Calendrier des campagnes** : calendrier des plans, des programmes marketing, des diffusions et des opérations. Voir à ce sujet la section [Calendrier des campagnes](#campaign-calendar).
 * **Opérations** : accès aux campagnes contenues dans l&#39;ensemble des programmes marketing.
@@ -44,7 +44,7 @@ Le bloc de **[!UICONTROL Navigation]** de l’onglet **[!UICONTROL Campagnes]** 
 
 ### Calendrier des campagnes {#campaign-calendar}
 
-Chaque campagne appartient à un programme qui appartient à son tour à un plan. Les plans, programmes et campagnes sont accessibles via le menu **[!UICONTROL Calendrier des campagnes]** de l’onglet **Campagnes**.
+Chaque campagne appartient à un programme qui appartient à son tour à un plan. Les plans, programmes et campagnes sont accessibles via le menu **[!UICONTROL Calendrier des campagnes]** de l&#39;onglet **Campagnes**.
 
 Pour éditer un plan, un programme, une opération ou une diffusion, cliquez sur son nom dans le calendrier, puis sur le lien **[!UICONTROL Ouvrir...]**. L&#39;élément visé est alors affiché dans un nouvel onglet, comme dans l&#39;exemple ci-dessous :
 
@@ -93,7 +93,7 @@ Vous pouvez accéder aux opérations à partir du calendrier des campagnes, de l
    ![](assets/campaign_op_edit.png)
 
 1. Depuis l&#39;onglet **[!UICONTROL Planning]** du programme, le mode d&#39;édition est le même que depuis le calendrier des campagnes.
-1. Depuis le lien **[!UICONTROL Opérations]** de l’onglet **[!UICONTROL Campagnes]**, cliquez sur le nom de l’opération à modifier.
+1. Depuis le lien **[!UICONTROL Opérations]** de l&#39;onglet **[!UICONTROL Campagnes]**, cliquez sur le nom de l&#39;opération à modifier.
 
    ![](assets/campaign_edit_from_list.png)
 
@@ -160,7 +160,7 @@ Vous pouvez accéder aux écrans de la console Adobe Campaign par l&#39;intermé
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
 
-Les validations (de la cible ou du contenu d’une diffusion, par exemple) peuvent être réalisées par le biais d’un accès web.
+Les validations (de la cible ou du contenu d&#39;une diffusion, par exemple) peuvent être réalisées par le biais d&#39;un accès web.
 
 ![](assets/campaign_web_interface_validation.png)
 
