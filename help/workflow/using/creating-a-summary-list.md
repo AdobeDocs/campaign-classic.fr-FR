@@ -37,7 +37,7 @@ Pour créer une liste récapitulative, vous devez procéder comme suit :
 1. Enrichir les données &quot;Contacts&quot; avec un calcul d&#39;agrégat venant de la table &quot;Achats&quot;
 1. Créer une liste récapitulative
 
-## Étape 1 : Chargez le fichier et réconciliez les données importées {#step-1--loading-the-file-and-reconciling-the-imported-data}
+## Étape 1 : Charger le fichier et réconcilier les données importées {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 Les données à charger sont des données &quot;Achats&quot; de la forme suivante :
 
@@ -110,7 +110,7 @@ Les données de la table de travail du workflow après cet enrichissement sont l
 
 ![](assets/uc2_enrich_population1.png)
 
-## Étape 2 : Écrire des données enrichies dans la table &#39;Achats&#39; {#step-2--writing-enriched-data-to-the--purchases--table}
+## Étape 2 : Écrire des données enrichies dans la table &quot;Achats&quot; {#step-2--writing-enriched-data-to-the--purchases--table}
 
 Cette étape consiste à écrire dans la table &quot;Achats&quot; les données importées et enrichies. Une activité **Mise à jour de données** est nécessaire pour réaliser cette action.
 
