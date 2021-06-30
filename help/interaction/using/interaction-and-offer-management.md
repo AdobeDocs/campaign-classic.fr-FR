@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: interaction-overview
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 
