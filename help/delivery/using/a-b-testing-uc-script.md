@@ -19,7 +19,7 @@ Le choix du contenu de la diffusion destinée à la population restante est calc
 
 ## Exemple de script {#example-of-a-script}
 
-Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Pour plus d’informations à ce sujet, consultez [cette section](#implementation).
+Le script suivant peut être utilisé tel quel dans le workflow de ciblage. Pour plus d&#39;informations à ce sujet, consultez [cette section](#implementation).
 
 ```
  // query the database to find the winner (best open rate)
