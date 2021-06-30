@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Téléchargement Web
-description: En savoir plus sur l’activité de workflow de téléchargement Web
+description: En savoir plus sur l'activité de workflow de téléchargement Web
 audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
