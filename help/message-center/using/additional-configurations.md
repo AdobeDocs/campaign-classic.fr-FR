@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Paramétrages additionnels
-description: Découvrez comment configurer des configurations supplémentaires pour la messagerie transactionnelle dans Adobe Campaign Classic.
+title: Configurations supplémentaires
+description: Découvrez comment paramétrer des configurations supplémentaires pour les messages transactionnels dans Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 78%
 
 ## Surveillance des seuils {#monitoring-thresholds}
 
-Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs qui apparaissent dans les rapports **Qualité de service Message Center** et **Temps traitement Message Center** (voir [Accéder aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)).
+Vous pouvez configurer les seuils d&#39;avertissement (orange) et d&#39;alerte (rouge) des indicateurs qui apparaissent dans les rapports **Qualité de service Message Center** et **Temps de traitement Message Center** (voir la section [Accès aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)).
 
 Pour ce faire, procédez comme suit :
 
-1. Ouvrez l’assistant de déploiement sur l’**instance d’exécution**.
+1. Ouvrez l&#39;assistant de déploiement sur l&#39;**instance d&#39;exécution**.
 
-1. Accédez à la page **[!UICONTROL Message Center]**.
+1. Accédez à la page **[!UICONTROL Message Center]**.
 
 1. Utilisez les flèches pour modifier les seuils.
 
@@ -49,7 +49,7 @@ Paramètres de purge des événements sur une instance d&#39;exécution :
 
 ![](assets/messagecenter_delete_events_002.png)
 
-Pour plus d’informations sur le workflow de nettoyage de la base, voir [cette section](../../production/using/database-cleanup-workflow.md).
+Pour plus d&#39;informations sur le workflow de nettoyage de la base, consultez [cette section](../../production/using/database-cleanup-workflow.md).
 
 
 ## Workflows techniques {#technical-workflows}
@@ -99,11 +99,11 @@ Cette section présente une solution pour configurer le tracking et les URL de p
 * Un sous-domaine doit être affecté à chaque marque.
 * Si le tracking web est réalisé sur les pages HTTPS, vous devez disposer d&#39;un certificat HTTPS pour chacune des marques.
 
-Pour configurer le multibranding, vous devez configurer les instances d’exécution et l’instance de pilotage.
+Pour configurer le multibranding, vous devez configurer les instances d&#39;exécution et l&#39;instance de pilotage.
 
 ### Instance d&#39;exécution {#execution-instance}
 
-Sur la ou les instances d&#39;exécution, procédez comme suit :
+Sur la ou les instances d&#39;exécution, procédez comme suit :
 
 1. Créez un compte externe par marque.
 
@@ -111,7 +111,7 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
    >
    >Découvrez comment créer un compte externe de type instance d&#39;exécution dans [cette section](../../message-center/using/configuring-instances.md#control-instance).
 
-1. Etendez le schéma nms:extAccount pour ajouter l&#39;URL de tracking :
+1. Étendez le schéma nms:extAccount pour ajouter l&#39;URL de tracking :
 
    ```
    <attribute advanced="true" desc="URL of the tracking servers" label="Tracking server URL"
@@ -120,7 +120,7 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
 
    >[!NOTE]
    >
-   >Découvrez comment étendre un schéma existant dans la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md) .
+   >Découvrez comment étendre un schéma existant dans la section [Extension d&#39;un schéma](../../configuration/using/extending-a-schema.md).
 
 1. Modifiez le formulaire nms:extAccount :
 
@@ -158,7 +158,7 @@ Sur l&#39;instance de pilotage, vous devez lier les modèles de diffusion et les
 
 Pour ce faire, procédez comme suit :
 
-1. Créez un compte externe par marque avec le même nom interne que celui défini sur l&#39;instance [d&#39;exécution](#execution-instance) (étape 1).
+1. Créez un compte externe par marque avec le même nom interne que celui défini sur l&#39;[instance d&#39;exécution](#execution-instance) (étape 1).
 
 1. Créez un modèle de diffusion par défaut par marque.
 
