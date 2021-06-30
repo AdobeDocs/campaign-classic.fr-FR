@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Toutefois, Adobe Campaign ne gère pas lui-même les fichiers archivés : il v
 
 Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transférés vers un serveur distant, comme un serveur de messagerie SMTP. La destination de l&#39;archivage est une adresse email en Cci (invisible aux destinataires de la diffusion) que vous devez spécifier.
 
-## Recommandations et limitations   {#recommendations-and-limitations}
+## Recommandations et limitations    {#recommendations-and-limitations}
 
 * La fonctionnalité Email Cci est facultative. Veuillez vérifier votre accord de licence.
 * Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l&#39;activer. L&#39;adresse email en Cci de votre choix doit être fournie à l&#39;équipe Adobe qui la configurera pour vous.
