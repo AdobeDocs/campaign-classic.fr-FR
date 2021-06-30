@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-schemas
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 # Limitation de l’affichage des PII{#restricting-pii-view}
 
-## Vue d’ensemble {#overview}
+## Vue d&#39;ensemble {#overview}
 
-Certains clients ont besoin que les utilisateurs marketing puissent accéder aux enregistrements de données, mais ne souhaitent pas qu’ils visualisent des informations d’identification personnelles (PII) telles que le prénom, le nom ou l’adresse email. Adobe Campaign propose un moyen de protéger la confidentialité et d’empêcher toute utilisation abusive des données par des opérateurs standard de Campaign.
+Certains clients ont besoin que les utilisateurs marketing puissent accéder aux enregistrements de données, mais ne souhaitent pas qu’ils visualisent des informations d’identification personnelles (PII) telles que le prénom, le nom ou l’adresse e-mail. Adobe Campaign propose un moyen de protéger la confidentialité et d’empêcher toute utilisation abusive des données par des opérateurs standard de Campaign.
 
 ## Mise en œuvre {#implementation}
 
