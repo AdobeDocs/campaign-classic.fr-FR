@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Partage
-description: En savoir plus sur l’activité de workflow de partage
+description: En savoir plus sur l'activité de workflow de partage
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
 ht-degree: 100%
 
@@ -148,7 +148,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
    * **[!UICONTROL Dimension de ciblage]** : renseignez le schéma de ciblage sur lequel la répartition de données sera appliquée, par exemple **[!UICONTROL Destinataire]**. Ce schéma doit toujours être compatible avec les données utilisées dans le workflow de ciblage.
    * **[!UICONTROL Champ de répartition]** : choisissez un champ depuis la dimension de ciblage. Par exemple, si vous sélectionnez le champ **[!UICONTROL Domaine de l&#39;email]**, la liste de destinataires sera répartie par domaine.
    * **[!UICONTROL Type de répartition]** : sélectionnez la manière dont sera exprimée la valeur de limitation de la cible dans l&#39;onglet **[!UICONTROL Distribution]** : **[!UICONTROL Pourcentage]** ou **[!UICONTROL Fixe]**.
-   * **[!UICONTROL Type d’affectation]** : sélectionnez le type d’affectation de la répartition de données. Vous avez le choix entre une affectation par groupe ou opérateur ou une affectation par entité locale. L’affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d’informations, consultez cette [section](../../campaign/using/about-distributed-marketing.md).
+   * **[!UICONTROL Type d&#39;affectation]** : sélectionnez le type d&#39;affectation de la répartition de données. Vous avez le choix entre une affectation par groupe ou opérateur ou une affectation par entité locale. L&#39;affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d&#39;informations, consultez cette [section](../../campaign/using/about-distributed-marketing.md).
    * **[!UICONTROL Stockage des validations]** : si vous utilisez une activité **[!UICONTROL Validation en local]** dans votre workflow de ciblage (voir la section [Validation en local](../../workflow/using/local-approval.md)), indiquez le schéma dans lequel seront stockés les résultats de validation. Vous devez spécifier un schéma de stockage pour chaque schéma de ciblage. Si vous utilisez le schéma de ciblage **[!UICONTROL Destinataires]**, saisissez le schéma de stockage par défaut **[!UICONTROL Validation en local d&#39;un destinataire]**.
 
       Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Stockage des validations]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
