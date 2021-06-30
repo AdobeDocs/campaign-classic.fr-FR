@@ -59,4 +59,4 @@ Une fois que vous disposez de la liste des destinataires concernés, vous pouvez
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](understanding-delivery-failures.md)
-* [Qualification des emails bounce  ](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Qualification des emails bounce   ](understanding-delivery-failures.md#bounce-mail-qualification)
