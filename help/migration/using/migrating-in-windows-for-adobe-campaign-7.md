@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1561'
 ht-degree: 100%
 
