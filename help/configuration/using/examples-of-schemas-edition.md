@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-schemas
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
 ht-degree: 100%
 
