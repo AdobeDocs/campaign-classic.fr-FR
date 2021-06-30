@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Exécution de la diffusion
-description: En savoir plus sur l'exécution et le monitoring de la diffusion des messages transactionnels.
+description: En savoir plus sur l'exécution et la surveillance de la diffusion des messages transactionnels.
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 ## Envoi de message transactionnel {#transactional-message-send}
 
-Concernant l’instance d’exécution, une fois que l’étape d’enrichissement a été effectuée et qu’un modèle de diffusion a été lié à l’événement, la diffusion est envoyée.
+Concernant l&#39;instance d&#39;exécution, une fois que l&#39;étape d&#39;enrichissement a été effectuée et qu&#39;un modèle de diffusion a été lié à l&#39;événement, la diffusion est envoyée.
 
 >[!NOTE]
 >
@@ -37,13 +37,13 @@ Par défaut, elles sont classées dans un sous-dossier correspondant au mois d&#
 
 ## Surveillance de message transactionnel {#transactional-message-monitoring}
 
-Pour surveiller vos messages transactionnels, consultez les [logs de diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+Pour surveiller vos messages transactionnels, vérifiez les [logs de diffusion](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
-Les diffusions transactionnelles envoyées à partir de l’instance d’exécution sont synchronisées à nouveau vers l’instance de pilotage par le biais d’un workflow technique (**[!UICONTROL instance d’exécution Message Center]**) qui s’exécute toutes les heures.
+Les diffusions transactionnelles envoyées à partir de l&#39;instance d&#39;exécution sont synchronisées à nouveau vers l&#39;instance de pilotage par le biais d&#39;un workflow technique (**[!UICONTROL instance d&#39;exécution Message Center]**) qui s&#39;exécute toutes les heures.
 
 >[!NOTE]
 >
->Les diffusions hebdomadaires accumulent les événements en fonction de la dernière mise à jour de l’événement, et non de la date de création de l’événement. Par conséquent, lors de l’extraction de logs de diffusion de messagerie transactionnelle à partir de l’instance de pilotage, l’identifiant de diffusion associé à chaque identifiant de log de diffusion peut changer au fil du temps lorsque le journal est mis à jour (par exemple, lorsqu’un retour entrant est reçu pour l&#39;événement).
+>Les diffusions hebdomadaires accumulent les événements en fonction de la dernière mise à jour de l&#39;événement, et non de la date de création de l&#39;événement. Par conséquent, lors de l&#39;extraction de logs de diffusion de messagerie transactionnelle à partir de l&#39;instance de pilotage, l&#39;identifiant de diffusion associé à chaque identifiant de log de diffusion peut changer au fil du temps lorsque le journal est mis à jour (par exemple, lorsqu&#39;un retour entrant est reçu pour l&#39;événement).
 
 <!--The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
 
@@ -72,4 +72,4 @@ To summarize, the deliveries weekly accumulate the events based on the latest ev
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
 
-Pour surveiller l’activité et l’exécution de la ou des instances d’exécution, voir [Rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md).
+Pour surveiller l&#39;activité et l&#39;exécution de la ou des instances d&#39;exécution, consultez [Rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md).
