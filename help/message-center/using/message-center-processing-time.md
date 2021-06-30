@@ -1,29 +1,29 @@
 ---
 product: campaign
-title: Temps traitement Message Center
-description: En savoir plus sur le rapport Temps traitement Message Center .
+title: Temps de traitement Message Center
+description: En savoir plus sur le rapport Temps de traitement Message Center.
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-# Temps traitement Message Center {#message-center-processing-time}
+# Temps de traitement Message Center {#message-center-processing-time}
 
-Ce rapport présente les principaux indicateurs associés à la file d’attente en temps réel.
+Ce rapport présente les principaux indicateurs associés à la file d&#39;attente en temps réel.
 
-Ce rapport, destiné aux administrateurs techniques, est également accessible à partir de l&#39;onglet **[!UICONTROL Surveillance]** de l&#39;instance de pilotage.
+Ce rapport destiné aux administrateurs techniques est également accessible à partir de l&#39;onglet **[!UICONTROL Supervision]** de l&#39;instance de pilotage.
 
 ![](assets/mc_reports_2.png)
 
 Comme pour le rapport **[!UICONTROL Qualité de service Message Center]**, vous pouvez choisir d&#39;afficher les statistiques globales ou relatives à une instance d&#39;exécution particulière. Vous pouvez également filtrer les données par canal et sur une période spécifique.
 
-Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
+Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
 
 * **[!UICONTROL Temps moyen dans la file (s)]** : temps moyen passé dans Message Center pour les événements traités avec succès. Seul le temps de traitement est pris en compte.
 * **[!UICONTROL Temps moyen d&#39;envoi des messages (s)]** : temps moyen passé dans Message Center pour les événements traités avec succès. Seul le temps d&#39;envoi par les mta est pris en compte.
