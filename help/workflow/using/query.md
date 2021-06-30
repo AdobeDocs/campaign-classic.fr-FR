@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
 ht-degree: 100%
 
