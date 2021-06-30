@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: navigation-hierarchy
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 
