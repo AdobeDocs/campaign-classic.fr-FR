@@ -23,7 +23,7 @@ ht-degree: 68%
 >
 >Notez que lors de ce déplacement vers [!DNL Adobe I/O], certains triggers entrants peuvent être perdus.
 
-## Prérequis {#adobe-io-prerequisites}
+## Conditions préalables requises {#adobe-io-prerequisites}
 
 Cette intégration ne s’applique qu’à partir des **[!DNL Gold Standard]versions Campaign Classic 20.3, 20.2.4, 19.1.8 et 11**.
 
