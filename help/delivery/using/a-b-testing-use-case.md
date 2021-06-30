@@ -29,7 +29,7 @@ Les étapes principales pour réaliser ce cas pratique sont les suivantes :
 
 * [Étape 1 : créer un workflow de ciblage](a-b-testing-uc-targeting-workflow.md)
 * [Étape 2 : paramétrer les échantillons de population](a-b-testing-uc-population-samples.md)
-* [Étape 3 : créer deux modèles de diffusions](a-b-testing-uc-delivery-templates.md)
+* [Étape 3 : créer deux modèles de diffusion](a-b-testing-uc-delivery-templates.md)
 * [Étape 4 : paramétrer les diffusions dans le workflow](a-b-testing-uc-configuring-deliveries.md)
 * [Étape 5 : créer le script](a-b-testing-uc-script.md)
 * [Étape 6 : définir la diffusion finale](a-b-testing-uc-final-delivery.md)
