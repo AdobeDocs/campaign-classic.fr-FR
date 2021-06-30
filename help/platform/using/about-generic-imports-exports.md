@@ -7,7 +7,7 @@ role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
 ht-degree: 100%
 
