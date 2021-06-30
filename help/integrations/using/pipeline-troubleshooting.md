@@ -8,7 +8,7 @@ exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -98,8 +98,8 @@ En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer
 1. Vérifiez la taille de la file d’attente dans la page d’état [!DNL pipelined]. Si la taille de la file d’attente est importante, améliorez les performances de JS.
 1. Comme le retard semble augmenter avec le volume, configurez les déclencheurs sur Analytics en utilisant moins de messages.
 
-**Mise à niveau des instances d’étape de l’authentification héritée vers l’authentification d’Adobe E/S**
+**Mise à niveau des instances d&#39;évaluation de l&#39;authentification héritée vers l&#39;authentification d’Adobe IO**
 
-La modification de l’authentification de l’intégration sur votre instance d’évaluation n’affecte pas la configuration de votre instance de production. Vous pouvez choisir de mettre à niveau votre instance d’évaluation, puis de mettre à jour l’authentification pour Adobe des E/S et tester vos déclencheurs sur votre instance d’évaluation.
+La modification de l&#39;authentification de l&#39;intégration sur votre instance d&#39;évaluation n&#39;affecte pas la configuration de votre instance de production. Vous pouvez choisir de mettre à niveau votre instance d&#39;évaluation, puis de mettre à jour l&#39;authentification pour Adobe IO et tester vos triggers sur votre instance d&#39;évaluation.
 
-Votre instance de production continuera à utiliser l’authentification héritée et ne sera pas affectée par cette modification.
+Votre instance de production continuera à utiliser l&#39;authentification héritée et ne sera pas affectée par cette modification.
