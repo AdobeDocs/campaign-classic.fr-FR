@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
 source-git-commit: bdc19e80744643097463e4e721b05a2ac8e51a2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Pour une navigation et une convivialité optimales, Adobe recommande l&#39;utili
 
 >[!CAUTION]
 >
->Les résolutions inférieures à 1 600 x 900 pixels ne sont pas prises en charge par Adobe Campaign.
+>Les résolutions inférieures à 1 600 x 900 pixels ne sont pas prises en charge par Adobe Campaign.
 
 Dans l’espace de travail de l’**[!UICONTROL Explorateur]**, si certaines parties de la zone **[!UICONTROL Détails]** semblent tronquées, développez-la à l’aide de la flèche située en haut de la zone ou cliquez sur le bouton **[!UICONTROL Agrandir]**.
 
