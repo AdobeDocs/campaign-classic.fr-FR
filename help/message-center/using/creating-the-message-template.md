@@ -1,27 +1,27 @@
 ---
 product: campaign
-title: Concevoir des modèles de messages transactionnels
-description: Découvrez comment créer et concevoir un modèle de message transactionnel dans Adobe Campaign Classic.
+title: Conception de modèles de messages transactionnels
+description: Découvrez comment créer et concevoir un modèle de message transactionnel dans Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
-# Concevoir des modèles de messages transactionnels {#creating-the-message-template}
+# Conception de modèles de messages transactionnels {#creating-the-message-template}
 
-Pour que chaque événement puisse être transformé en message personnalisé, vous devez créer un modèle de message correspondant à chaque type d’événement.
+Pour que chaque événement puisse être transformé en message personnalisé, vous devez créer un modèle de message correspondant à chaque type d&#39;événement.
 
 >[!IMPORTANT]
 >
->Les types d’événement doivent être créés au préalable. Voir à ce propos la section [Créer des types d’événements](../../message-center/using/creating-event-types.md).
+>Les types d&#39;événements doivent être créés au préalable. Voir à ce sujet la section [Création des types d&#39;événements](../../message-center/using/creating-event-types.md).
 
-Les modèles de messages transactionnels contiennent les informations nécessaires pour personnaliser le message transactionnel. Vous pouvez également utiliser des modèles pour tester la prévisualisation des messages et envoyer des BAT à l’aide d’adresses de contrôle avant de les diffuser à la cible finale. Voir à ce propos la section [Test des modèles de messages transactionnels](../../message-center/using/testing-message-templates.md).
+Les modèles de message transactionnel contiennent les informations nécessaires à la personnalisation du message transactionnel. Vous pouvez également utiliser des modèles pour tester la prévisualisation des messages et envoyer des BAT à l&#39;aide d&#39;adresses de contrôle avant de les diffuser à la cible finale. Voir à ce propos la section [Test des modèles de messages transactionnels](../../message-center/using/testing-message-templates.md).
 
 ## Création du modèle de message {#creating-message-template}
 
@@ -41,33 +41,33 @@ Les modèles de messages transactionnels contiennent les informations nécessair
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Les types d&#39;événements doivent être créés au préalable dans la console. Voir à ce propos la section [Créer des types d’événements](../../message-center/using/creating-event-types.md).
+   Les types d&#39;événements doivent être créés au préalable dans la console. Voir à ce sujet la section [Création des types d&#39;événements](../../message-center/using/creating-event-types.md).
 
    >[!IMPORTANT]
    >
-   >Un type d’événement ne peut pas être lié à plusieurs modèles.
+   >Un type d&#39;événement ne peut jamais être lié à plusieurs modèles.
 
-1. Saisissez une nature et une description, puis cliquez sur **[!UICONTROL Continuer]** pour créer le corps du message (voir [Créer le contenu du message](#creating-message-content)).
+1. Complétez la nature et la description selon vos besoins, puis cliquez sur **[!UICONTROL Continuer]** pour créer le corps du message (voir la section [Création du contenu du message](#creating-message-content)).
 
    ![](assets/messagecenter_create_model_004.png)
 
 ## Création du contenu du message {#creating-message-content}
 
-La définition du contenu du message transactionnel est la même que pour les diffusions régulières dans Adobe Campaign. Par exemple, pour une diffusion email, vous pouvez créer du contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l’objet de la diffusion. Voir à ce propos le chapitre [Diffusion Email](../../delivery/using/about-email-channel.md) .
+La définition du contenu du message transactionnel fonctionne selon les mêmes principes que pour une diffusion classique dans Adobe Campaign. Par exemple, pour une diffusion par e-mail, vous pouvez créer un contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l&#39;objet de la diffusion. Voir à ce sujet le chapitre [Diffuser par email](../../delivery/using/about-email-channel.md).
 
 >[!IMPORTANT]
 >
 >Les images incluses dans le message doivent être accessibles publiquement. Adobe Campaign ne fournit pas de mécanisme de mise en ligne des images pour les messages transactionnels.\
->Contrairement à JSSP ou webApp, `<%=` n’a pas de séquence d’échappement par défaut.
+>Contrairement à JSSP ou webApp, `<%=` n&#39;a pas de séquence d&#39;échappement par défaut.
 >
->Dans ce cas, vous devez appliquer une séquence d’échappement correcte à toutes les données provenant de l’événement. Cette séquence d’échappement dépend de l’utilisation de ce champ. Par exemple, dans une URL, utilisez encodeURIComponent. Pour un affichage dans le code HTML, vous pouvez utiliser escapeXMLString.
+>Dans ce cas, vous devez appliquer une séquence d&#39;échappement correcte à toutes les données provenant de l&#39;événement. Cette séquence d&#39;échappement dépend de l&#39;utilisation de ce champ. Par exemple, dans une URL, utilisez encodeURIComponent. Pour un affichage dans le code HTML, vous pouvez utiliser escapeXMLString.
 
 Lorsque vous avez défini le contenu de votre message, vous pouvez intégrer les informations de l&#39;événement dans le corps du message et ainsi le personnaliser. Les informations de l&#39;événement sont insérées dans le corps du texte à l&#39;aide des balises de personnalisation.
 
 ![](assets/messagecenter_create_content_001.png)
 
 * Tous les champs de personnalisation proviennent de la payload.
-* Il est possible de référencer un ou plusieurs blocs de personnalisation dans un message transactionnel. Le contenu du bloc est ajouté au contenu de la diffusion au cours de la publication dans l’instance d’exécution.
+* Il est possible de référencer un ou plusieurs blocs de personnalisation dans un message transactionnel. Le contenu du bloc est ajouté au contenu de la diffusion au cours de la publication dans l&#39;instance d&#39;exécution.
 
 Pour insérer des balises de personnalisation dans le corps d&#39;un message email, procédez comme suit :
 
@@ -75,11 +75,11 @@ Pour insérer des balises de personnalisation dans le corps d&#39;un message ema
 
 1. Rédigez le corps du message.
 
-1. Dans le corps du texte, insérez la balise à l’aide du menu **[!UICONTROL Evénements temps réel > XML de l’événement]** .
+1. Dans le corps du texte, insérez la balise à l&#39;aide du menu **[!UICONTROL Evénements temps réel > XML de l&#39;événement]**.
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. Complétez la balise selon la syntaxe suivante : .**nom de l&#39;élément**.@**nom de l&#39;attribut** comme illustré ci-dessous.
+1. Complétez la balise selon la syntaxe suivante : **nom de l&#39;élément**.@**nom de l&#39;attribut** comme illustré ci-dessous.
 
    ![](assets/messagecenter_create_custo_003.png)
 
