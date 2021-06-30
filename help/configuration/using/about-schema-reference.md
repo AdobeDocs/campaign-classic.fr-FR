@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -78,9 +78,9 @@ La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&
 
 >[!IMPORTANT]
 >
->Le nom de l&#39;espace de noms doit être concis et ne contenir que des caractères autorisés conformes aux règles de nommage XML.
+>Le nom de l&#39;espace de noms doit être court et ne doit contenir que des caractères autorisés conformément aux règles de nommage XML.
 >
->Les identifieurs ne doivent pas commencer par des caractères numériques.
+>Les identifiants ne doivent pas commencer par des caractères numériques.
 >
->Les espaces de noms suivants sont réservés à la description des entités système requises pour le fonctionnement de l’application Adobe Campaign et ne doivent pas être utilisés : **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm&lt;a1 3/>,** xxl **.**
+>Les espaces de noms suivants sont réservés à la description des entités système requises pour le fonctionnement de l’application Adobe Campaign et ne doivent pas être utilisés : **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**.
 
