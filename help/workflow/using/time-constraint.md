@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: flow-control-activities
 exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
