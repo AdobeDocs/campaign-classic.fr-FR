@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: migration-procedure
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
 ht-degree: 100%
 
