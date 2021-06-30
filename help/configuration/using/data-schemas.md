@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-schemas
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Pour éditer, créer et paramétrer les schémas, cliquez sur le nœud **[!UICON
 
 >[!NOTE]
 >
->Les schémas de données d’usine peuvent uniquement être supprimés par un administrateur de votre console Adobe Campaign Classic.
+>Les schémas de données d&#39;usine peuvent uniquement être supprimés par un administrateur de votre console Adobe Campaign Classic.
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
@@ -60,7 +60,7 @@ Pour cela, vous devez créer le schéma de la table puis procéder à la mise à
 
    >[!NOTE]
    >
-   >Par défaut, les schémas créés par les utilisateurs sont stockés dans l’espace de noms « cus ». Voir à ce propos la section [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+   >Par défaut, les schémas créés par les utilisateurs sont stockés dans l&#39;espace de noms « cus ». Voir à ce propos la section [Identification d&#39;un schéma](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
 1. Créez le contenu de la table. Il est recommandé d&#39;utiliser l&#39;assistant de saisie afin de n&#39;omettre aucun paramètre. Pour cela, cliquez sur le bouton **[!UICONTROL Insérer]** et sélectionnez le type de paramètre à ajouter.
 
