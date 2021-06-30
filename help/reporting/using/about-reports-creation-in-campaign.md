@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
