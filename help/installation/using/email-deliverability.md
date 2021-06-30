@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3089'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Paramétrages techniques des emails{#email-deliverability}
 
-## Vue d’ensemble {#overview}
+## Vue d&#39;ensemble {#overview}
 
 La section ci-après présente les paramétrages nécessaires pour contrôler le débit des instances Adobe Campaign pour l’envoi d’emails.
 
