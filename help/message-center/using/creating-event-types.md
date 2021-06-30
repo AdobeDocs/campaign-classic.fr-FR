@@ -1,43 +1,43 @@
 ---
 product: campaign
-title: Création de types d’événement
-description: Découvrez comment créer des types d’événement qui correspondent aux messages transactionnels que vous souhaitez envoyer dans Adobe Campaign Classic.
+title: Création de types d'événements
+description: Découvrez comment créer des types d'événements qui correspondent aux messages transactionnels que vous souhaitez envoyer dans Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
-# Création de types d’événement {#creating-event-types}
+# Création de types d&#39;événements {#creating-event-types}
 
-Pour vous assurer que chaque événement peut être modifié dans un message personnalisé, vous devez d’abord créer des **types d’événement**.
+Pour que chaque événement puisse être transformé en message personnalisé, vous devez d&#39;abord créer des **types d&#39;événements**.
 
-Lors de la [création d’un modèle de message](../../message-center/using/creating-the-message-template.md), vous sélectionnerez le type d’événement correspondant au message que vous souhaitez envoyer.
+Lors de la [création d&#39;un modèle de message](../../message-center/using/creating-the-message-template.md), vous sélectionnerez le type d&#39;événement correspondant au message que vous souhaitez envoyer.
 
 >[!IMPORTANT]
 >
->Vous devez créer des types d’événement avant de pouvoir les utiliser dans les modèles de message.
+>Vous devez créer des types d&#39;événements avant de pouvoir les utiliser dans des modèles de message.
 
-Pour créer des types d’événement qui seront traités par Adobe Campaign, procédez comme suit :
+Pour créer des types d&#39;événements qui seront traités par Adobe Campaign, procédez comme suit :
 
-1. Connectez-vous à l’**instance de pilotage**.
+1. Connectez-vous à l&#39;**instance de pilotage**.
 
-1. Accédez au dossier **[!UICONTROL Administration > Plateforme > Enumérations]** de l’arborescence.
+1. Positionnez-vous dans l&#39;arborescence au niveau du dossier **[!UICONTROL Administration > Plate-forme > Enumérations]**.
 
-1. Sélectionnez **[!UICONTROL Type d’événement]** dans la liste.
+1. Sélectionnez **[!UICONTROL Type d&#39;événement]** dans la liste.
 
-1. Cliquez sur **[!UICONTROL Ajouter]** pour créer une valeur d’énumération. Il peut s’agir d’une confirmation de commande, d’un changement de mot de passe, d’un changement de livraison de commande, etc.
+1. Cliquez sur **[!UICONTROL Ajouter]** pour créer une valeur d&#39;énumération. Il peut s&#39;agir d&#39;une confirmation de commande, d&#39;un changement de mot de passe, d&#39;un changement de livraison de commande, etc.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
 
    >[!IMPORTANT]
    >
-   >Chaque type d’événement doit correspondre à une valeur de l’énumération **[!UICONTROL Type d’événement]**.
+   >Chaque type d&#39;événement doit correspondre à une valeur de l&#39;énumération **[!UICONTROL Type d&#39;événement]**.
 
 1. Une fois les valeurs de l&#39;énumération créées, vous devez vous déconnecter puis vous reconnecter à votre instance afin que la création soit effective.
 
