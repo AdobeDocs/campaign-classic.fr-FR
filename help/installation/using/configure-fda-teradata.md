@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Configurer l’accès à Teradata
-description: Découvrez comment configurer l'accès à Teradata dans FDA
+description: Découvrez comment Configuration de l'accès à Teradata dans FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1639'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ L’erreur **ODB-240000 ODBC : nom de source de données [Microsoft][ODBC Drive
 
 * Si vous utilisez une ancienne version de Campaign, vous devrez copier la section Teradata d’odbcinst.ini créée par l&#39;installation du pilote dans une nouvelle section appelée Teradata. Regedit peut être utilisé dans ce cas. Si votre base est en latin1, vous devrez ajouter **APICharSize=1** dans les options.
 
-## Paramétrages additionnels {#teradata-additional-configurations}
+## Configurations supplémentaires {#teradata-additional-configurations}
 
 <!--
 ### Compatibility {#teradata-compatibility}
