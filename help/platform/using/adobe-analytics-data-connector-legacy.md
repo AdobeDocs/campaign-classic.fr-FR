@@ -15,11 +15,11 @@ ht-degree: 99%
 
 ---
 
-# Adobe Analytics - Data Connector{#adobe-analytics-data-connector-legacy}
+# Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
 
 >[!IMPORTANT]
 >
->Adobe Analytics - Data Connector est désormais obsolète. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md).
+>Adobe Analytics Data Connector est désormais obsolète. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md).
 
 ## A propos de l&#39;intégration de Data Connector {#about-data-connector-integration}
 
@@ -90,7 +90,7 @@ Les étapes suivantes décrivent le paramétrage du connecteur de données via u
 
    ![](assets/adobe_genesis_install_005.png)
 
-1. Indiquez ensuite les identifiants qui vont permettre de mesurer l&#39;impact de la campagne email, soit le nom interne de la campagne (cid) et l’identifiant de la table NmsBroadlog (bid). Indiquez également les indicateurs des événements à collecter.
+1. Indiquez ensuite les identifiants qui vont permettre de mesurer l&#39;impact de la campagne email, soit le nom interne de la campagne (cid) et l’identifiant de la table iNmsBroadlog (bid). Indiquez également les indicateurs des événements à collecter.
 Assurez-vous que les **[!UICONTROL Événements]** sont de type numérique, faute de quoi ils n’apparaîtront pas dans le menu déroulant.
 
    ![](assets/adobe_genesis_install_006.png)
