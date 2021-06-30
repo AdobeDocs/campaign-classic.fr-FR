@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
 ht-degree: 100%
 
