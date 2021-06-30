@@ -13,7 +13,7 @@ ht-degree: 63%
 
 ---
 
-# Configurer les diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
+# Configuration des diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
 Une fois les [populations créées](a-b-testing-uc-population-samples.md), vous pouvez configurer les diffusions. Dans ce cas pratique, les deux premières diffusions permettent d&#39;envoyer des contenus différents à la population A et B. La troisième diffusion est la diffusion de secours : il sera envoyé aux destinataires n&#39;appartenant pas à A ou B. Son contenu sera calculé par un script et sera identique à A ou B, selon celui qui a obtenu le taux d&#39;ouverture le plus élevé. Il est nécessaire de configurer une période d&#39;attente pour la troisième diffusion, afin de connaître le résultat des diffusions A et B. C’est pourquoi la troisième diffusion comprend une activité **[!UICONTROL Attente]**.
 
