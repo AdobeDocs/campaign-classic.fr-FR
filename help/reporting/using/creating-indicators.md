@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
 ht-degree: 100%
 
