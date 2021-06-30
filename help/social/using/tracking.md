@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: annexes
 exl-id: 83883ba3-e4dc-428c-a377-1986cfd1fe55
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '76'
 ht-degree: 100%
 
