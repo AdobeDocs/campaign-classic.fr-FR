@@ -145,7 +145,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_ncs_install_iis7_parameters_step11.png)
 
-## Paramétrages additionnels {#additional-configurations}
+## Configurations supplémentaires {#additional-configurations}
 
 ### Modifier la limite de la taille des fichiers téléchargeables {#changing-the-upload-file-size-limit}
 
