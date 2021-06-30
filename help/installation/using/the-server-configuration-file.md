@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7969'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -335,7 +335,7 @@ Dans le nœud **dataStore > dataSource > dbcnx**, configurez les paramètres d
   </tr> 
   <tr> 
    <td> provider<br /> </td> 
-   <td> Type (énumération). Les valeurs possibles sont 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase Sybase IQ, ), 'Relay' (Relais HTTP vers base distante).<br /> </td> 
+   <td> Type (énumération). Les valeurs possibles sont 'Oracle', 'MSSQL' (Microsoft SQL Server), 'PostgreSQL' (PostgreSQL,), 'Teradata', 'DB2', 'MySQL', 'Netezza', 'AsterData', 'SAPHANA' (SAP HANA), 'RedShift' (Amazon Redshift), 'ODBC' (ODBC (Sybase ASE, Sybase IQ)), 'Relay' (relais HTTP vers base distante).<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -435,7 +435,7 @@ Pour plus d&#39;informations, voir la section [Gestion des ressources publiques]
  </thead> 
  <tbody> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom du répertoire virtuel <br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -479,7 +479,7 @@ Voici les différents paramètres du nœud **dataStore > preprocessCommand**. I
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom de ligne de commande<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -1912,7 +1912,7 @@ Pour plus d&#39;informations, voir les sections [Liste des adresses IP à utilis
    <td> Chaîne <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom logique : noms associés à l’affinité par les utilisateurs. Le séparateur des noms est un point-virgule ;<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
@@ -2242,7 +2242,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -2316,7 +2316,7 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom interne<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> NewName() <br /> </td> 
@@ -3247,7 +3247,7 @@ Pour plus d&#39;informations, voir la section [Gestion des en-têtes HTTP (HTTP 
  </thead> 
  <tbody> 
   <tr> 
-   <td> name&lt;a0/<br /> </td> 
+   <td> name<br /> </td> 
    <td> Nom de l’en-tête<br /> </td> 
    <td> Chaîne <br /> </td> 
   </tr> 
