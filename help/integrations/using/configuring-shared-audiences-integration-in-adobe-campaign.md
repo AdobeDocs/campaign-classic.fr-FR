@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
    ![](assets/aam_config_3.png)
 
-## Étape 3 : Configuration du serveur de tracking Campaign          {#step-3--configure-campaign-tracking-server}
+## Étape 3 : Configuration du serveur de tracking Campaign         {#step-3--configure-campaign-tracking-server}
 
 Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
