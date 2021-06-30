@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Power Booster et Power Cluster{#power-booster-and-power-cluster}
 
-## Vue d’ensemble {#overview}
+## Vue d&#39;ensemble {#overview}
 
 Adobe Campaign fournit deux séries d&#39;options architecturales pré-packagées permettant de dimensionner votre déploiement :
 
@@ -34,7 +34,7 @@ Adobe Campaign fournit deux séries d&#39;options architecturales pré-packagée
 Les options Power Booster et Power Cluster peuvent être exploitées par les applications suivantes :
 
 * Campagne
-* Delivery
+* Diffusion
 * Message Center
 
 ## Matrice de recommandations architecturales {#matrix-of-architectural-recommendations}
