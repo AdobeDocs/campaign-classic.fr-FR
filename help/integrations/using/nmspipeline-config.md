@@ -5,7 +5,7 @@ description: Configuration de l'intégration
 audience: integrations
 content-type: reference
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Option de pipeline NmsPipeline_Config {#nmspipeline_config}
 
-Une fois l’authentification effectuée, [!DNL pipelined] peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
+Une fois l&#39;authentification effectuée, [!DNL pipelined] peut récupérer les événements et les traiter. Il traite uniquement les déclencheurs configurés dans Adobe Campaign, en ignorant les autres. Le déclencheur doit avoir été généré à partir d&#39;Analytics et envoyé au pipeline avant.
 L&#39;option peut également être configurée avec un caractère générique pour capturer tous les déclencheurs, quel que soit leur nom.
 
 La configuration des déclencheurs s&#39;effectue dans une option, sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Le nom de l&#39;option est **[!UICONTROL NmsPipeline_Config]**. Le type de données est &quot;texte long&quot; au format JSON.
