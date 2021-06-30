@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
