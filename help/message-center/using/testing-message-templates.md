@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Tester les modèles de message transactionnel
-description: Découvrez comment gérer les adresses de contrôle dans les messages transactionnels afin de les prévisualiser et de les tester dans Adobe Campaign Classic.
+title: Test des modèles de message transactionnel
+description: Découvrez comment gérer les adresses de contrôle dans les messages transactionnels afin de les prévisualiser et de les tester dans Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Tester les modèles de messages transactionnels {#testing-message-templates}
+# Test des modèles de message transactionnel {#testing-message-templates}
 
 Une fois que votre [modèle de message](../../message-center/using/creating-the-message-template.md) est prêt, suivez les étapes ci-dessous pour le prévisualiser et le tester.
 
@@ -21,7 +21,7 @@ Une fois que votre [modèle de message](../../message-center/using/creating-the-
 
 Une adresse de contrôle est utilisée pour afficher l&#39;aperçu de votre message, envoyer un BAT et tester la personnalisation de votre message avant qu&#39;il ne soit envoyé par email ou SMS. Les adresses de contrôle sont liées à la diffusion et ne peuvent être utilisées d&#39;une diffusion à l&#39;autre.
 
-Pour créer des adresses de contrôle dans un message transactionnel, procédez comme suit :
+Pour créer des adresses de contrôle dans un message transactionnel, procédez comme suit :
 
 1. Dans le modèle de message transactionnel, cliquez sur l&#39;onglet **[!UICONTROL Adresses de contrôle]**.
 
@@ -49,7 +49,7 @@ Pour créer des adresses de contrôle dans un message transactionnel, procédez 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
    <!--1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.-->
-1. Répétez l’opération pour créer le nombre d’adresses voulu.
+1. Répétez l&#39;opération pour créer le nombre d&#39;adresses voulu.
 
    ![](assets/messagecenter_create_seedaddr_008.png)
 
@@ -59,11 +59,11 @@ Lorsque les adresses sont créées, vous pouvez dès lors afficher l&#39;aperçu
 
 Il est possible d&#39;utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
-Ces données ont pour but de tester vos messages avant leur diffusion finale. Ces messages ne correspondent pas aux données réelles à traiter. Toutefois, la structure XML doit être identique à celle de l&#39;événement stocké dans l&#39;instance d&#39;exécution, comme dans l&#39;exemple ci-dessous :
+Ces données n&#39;ont pour but que de tester vos messages avant leur diffusion effective et ne correspondent pas aux données réelles qui seront traitées. En revanche, la structure XML doit être identique à celle de l&#39;événement qui est stocké dans l&#39;instance d&#39;exécution, comme illustré ci-dessous :
 
 ![](assets/messagecenter_create_custo_006.png)
 
-Ces informations vous permettent de personnaliser le contenu du message à l’aide de balises de personnalisation (voir à ce sujet [Créer le contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content)).
+Ces informations permettent de personnaliser le contenu du message à l&#39;aide de balises de personnalisation (voir à ce sujet la section [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content)).
 
 1. Sélectionnez le modèle de message transactionnel.
 
@@ -91,15 +91,15 @@ Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le co
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-A l&#39;aide d&#39;adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
+À l&#39;aide des adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Voir à ce propos la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
-## Envoi d’un BAT {#sending-a-proof}
+## Envoi d&#39;un BAT {#sending-a-proof}
 
 Vous pouvez tester la diffusion du message en envoyant un BAT vers une adresse de contrôle créée précédemment.
 
-L&#39;envoi d&#39;un BAT se fait selon le même processus que pour une [diffusion régulière](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
+L&#39;envoi d&#39;un BAT engage le même processus que pour une [diffusion standard](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
 
-* Création d’une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
+* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
 * [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 Pour effectuer l&#39;envoi :
@@ -114,7 +114,7 @@ Pour effectuer l&#39;envoi :
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Les BAT sont accessibles au niveau de chaque modèle, depuis l&#39;onglet **[!UICONTROL Suivi.]** Pour plus d’informations à ce sujet, voir [Envoyer un bon à tirer](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Les BAT sont accessibles au niveau de chaque modèle, depuis l&#39;onglet **[!UICONTROL Suivi.]** Pour plus d&#39;informations à ce sujet, consultez [Envoi d&#39;un BAT](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ![](assets/messagecenter_send_proof_003.png)
 
