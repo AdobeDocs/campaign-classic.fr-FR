@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Synchronisation des propositions** (propositionSynch) | Contrôle du moteur d’offres avec l’instance d’exécution | Ce workflow synchronise les propositions entre les instances marketing et d’exécution utilisées pour les interactions. |
 | **Récupération des événements web** (webAnalyticsGetWebEvents) | Connecteurs Web Analytics | Toutes les heures, ce workflow télécharge les segments portant sur le comportement des internautes sur un site donné, les inclut dans la base de données Adobe Campaign et lance le workflow de re-marketing. |
 | **Agrégats du reporting** (reportingAggregates) | Diffusion | Ce workflow met à jour les agrégats utilisés dans les rapports. Par défaut, il se déclenche tous les jours à 2H00. |
-| **Envoi des indicateurs et des attributs de campagne** (webAnalyticsSendMetrics) | Connecteurs Web Analytics | Ce workflow permet d&#39;envoyer les indicateurs des campagnes email depuis Adobe Campaign vers Adobe Experience Cloud Suite via le connecteur Adobe® Analytics. Les indicateurs concernés sont les suivants : Envoyé (Envoyé), Nombre total d&#39;ouvertures (iTotalRecipientOpen), Nombre total de destinataires ayant cliqué (iTotalRecipientClick), Erreurs (iError), Opposition (opt-out) (iOptOut). |
+| **Envoi des indicateurs et des attributs de campagne** (webAnalyticsSendMetrics) | Connecteurs Web Analytics | Ce workflow permet d&#39;envoyer les indicateurs des campagnes par e-mail d&#39;Adobe Campaign vers Adobe Experience Cloud Suite via le connecteur Adobe® Analytics. Les indicateurs concernés sont les suivants : Envoyé (iSent), Nombre total d&#39;ouvertures (iTotalRecipientOpen), Nombre total de destinataires ayant cliqué (iTotalRecipientClick), Erreurs (iError), Opt-Out (opt-out) (iOptOut). |
 | **Stock : commandes et alertes** (stockMgt) | Campagnes marketing (Campaign) | Ce workflow lance le calcul des stocks sur les lignes de commande et gère les seuils d&#39;alerte. |
 | **Synchronisation des fans Facebook** (syncFacebookFans) | Réseaux sociaux (Social Marketing) | Ce workflow importe les fans Facebook dans Adobe Campaign tous les jours à 7H00. |
 | **Synchronisation des pages Facebook** (syncFacebook) | Réseaux sociaux (Social Marketing) | Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00. |
