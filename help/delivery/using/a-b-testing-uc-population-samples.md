@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # Configuration des échantillons de population {#step-2--configuring-population-samples}
 
-## Configurez l&#39;activité Requête {#configuring-the-query-activity}
+## Configuration de l’activité Requête {#configuring-the-query-activity}
 
 * Double-cliquez sur l&#39;activité **[!UICONTROL Requête]**.
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Configurez l&#39;activité Partage {#configuring-the-split-activity}
+## Configuration de l&#39;activité Partage {#configuring-the-split-activity}
 
 Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D&#39;autre part, l&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chacune des diffusions.
 
