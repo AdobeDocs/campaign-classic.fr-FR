@@ -94,7 +94,7 @@ Vous pouvez ici définir la liste des caractères autorisés (&#39;data policy&#
 
 Deux listes sont proposées : **Européens uniquement** ou **US uniquement**. Elles peuvent être complétées par d&#39;autres caractères, au besoin.
 
-### Paramètres de la diffusion {#delivery-parameters}
+### Paramètres de diffusion {#delivery-parameters}
 
 Le lien **Paramètres avancés...** permet d&#39;accéder aux options de diffusion, aux paramètres liés aux reprises et aux mises en quarantaines.
 
