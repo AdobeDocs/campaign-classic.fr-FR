@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1570'
 ht-degree: 100%
 
@@ -270,7 +270,7 @@ Le tableau suivant liste les correspondances des types de données générés pa
   </tr> 
   <tr> 
    <td> Timespan<br /> </td> 
-   <td> DOUBLE PRÉCISION<br /> </td> 
+   <td> DOUBLE PRECISION<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> DOUBLE<br /> </td> 
@@ -484,6 +484,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >
 >* **Location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
+
 >
 
 
