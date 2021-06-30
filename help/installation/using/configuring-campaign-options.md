@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -402,11 +402,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBSchema</span> <br /> </td> 
-   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l’édition des schémas intégrés.<br /> </td> 
+   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l'édition des schémas intégrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
-   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l’édition des codes JavaScript intégrés.<br /> </td> 
+   <td> (à compter de la version 21.1.3) Si 1 est sélectionné (valeur par défaut), cette option désactive l'édition des codes JavaScript intégrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
