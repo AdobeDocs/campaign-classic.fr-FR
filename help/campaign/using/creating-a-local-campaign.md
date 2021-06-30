@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
 ht-degree: 100%
 
@@ -194,7 +194,7 @@ Pour une opération locale, l&#39;entité centrale peut définir les entités lo
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
-### Paramétrages additionnels {#additional-settings}
+### Configurations supplémentaires {#additional-settings}
 
 Lorsque le kit est enregistré, l&#39;entité centrale peut l&#39;éditer depuis l&#39;onglet **[!UICONTROL Edition]**.
 
@@ -308,7 +308,7 @@ La commande peut également être validée à partir de la console, depuis la vu
 >
 >L&#39;opération peut toujours être éditée et ses paramètres modifiés, jusqu&#39;à la date de disponibilité de l&#39;opération. L&#39;entité locale peut également renoncer à l&#39;opération en cliquant sur le bouton **[!UICONTROL Annuler]**.
 
-#### Créer une campagne       {#creating-a-campaign}
+#### Créer une campagne        {#creating-a-campaign}
 
 Lorsque la commande d&#39;une opération est validée, celle-ci peut être paramétrée et exécutée par l&#39;entité locale.
 
