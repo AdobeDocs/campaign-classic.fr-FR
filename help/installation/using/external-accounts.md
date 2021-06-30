@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -178,17 +178,17 @@ Les bases de données externes compatibles avec Campaign sont répertoriées dan
 
 Les paramètres de configuration du compte externe dépendent du moteur de base de données. En savoir plus dans les sections suivantes :
 
-* Configurer l’accès à [Vertica](../../installation/using/configure-fda-vertica.md)
-* Configurer l&#39;accès à [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* Configurer l’accès à [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
-* Configurer l&#39;accès à [Azure Synapse](../../installation/using/configure-fda-synapse.md)
-* Configurer l&#39;accès à [Hadoop](../../installation/using/configure-fda-hadoop.md)
-* Configurer l&#39;accès à [Oracle](../../installation/using/configure-fda-oracle.md)
-* Configurer l&#39;accès à [Netezza](../../installation/using/configure-fda-netezza.md)
-* Configurer l&#39;accès à [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
-* Configurer l&#39;accès à [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* Configurer l&#39;accès à [Sybase IQ](../../installation/using/configure-fda-sybase.md)
-* Configurer l&#39;accès à [Teradata](../../installation/using/configure-fda-teradata.md)
+* Configuration de l&#39;accès à [Vertica](../../installation/using/configure-fda-vertica.md)
+* Configuration de l&#39;accès à [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configuration de l&#39;accès à [BigQuery Google](../../installation/using/configure-fda-google-big-query.md)
+* Configuration de l&#39;accès à [Azure Synapse](../../installation/using/configure-fda-synapse.md)
+* Configuration de l&#39;accès à [Hadoop](../../installation/using/configure-fda-hadoop.md)
+* Configuration de l&#39;accès à [Oracle](../../installation/using/configure-fda-oracle.md)
+* Configuration de l&#39;accès à [Netezza](../../installation/using/configure-fda-netezza.md)
+* Configuration de l&#39;accès à [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+* Configuration de l&#39;accès à [Snowflake](../../installation/using/configure-fda-snowflake.md)
+* Configuration de l&#39;accès à [Sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Configuration de l&#39;accès à [Teradata](../../installation/using/configure-fda-teradata.md)
 
 ### Facebook Connect {#facebook-connect-external-account}
 
@@ -262,7 +262,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ## Web Analytics {#web-analytics-external-account}
 
-Le compte externe **[!UICONTROL Web Analytics]** vous permet de transférer des données d’Adobe Analytics vers Adobe Campaign sous la forme de segments. Inversement, il envoie les indicateurs et les attributs des campagnes email diffusées par Adobe Campaign au connecteur Adobe Analytics.
+Le compte externe **[!UICONTROL Web Analytics]** vous permet de transférer des données d’Adobe Analytics vers Adobe Campaign sous la forme de segments. Réciproquement, il envoie des indicateurs et des attributs de campagnes par e-mail diffusés par le connecteur Adobe Campaign à Adobe Analytics.
 
 ![](assets/ext_account_10.png)
 
