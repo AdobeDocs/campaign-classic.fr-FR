@@ -9,7 +9,7 @@ internal: n
 snippet: y
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Enrichissement des emails avec des champs de date personnalisés](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 * [Automatisation de la création, de l’édition et de la publication de contenu](../../delivery/using/automating-via-workflows.md#examples)
 
-## Contrôle            {#monitoring}
+## Contrôle  {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
@@ -50,8 +50,8 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Créer une liste récapitulative](../../workflow/using/creating-a-summary-list.md)
 * [Enrichir des données ](../../workflow/using/enriching-data.md)
 * [Utilisation d&#39;agrégats](../../workflow/using/using-aggregates.md)
-* [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../platform/using/unzip-decrypt.md)
-* [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
+* [Import de données chiffrées à l’aide d’une clé générée par le panneau de contrôle](../../platform/using/unzip-decrypt.md)
+* [Chiffrement et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentielle](../../workflow/using/quarterly-list-update.md)
 * [Utilisation de la fonctionnalité de fusion de l’activité Déduplication](../../workflow/using/deduplication-merge.md)
 * [Paramétrage d&#39;un workflow d&#39;import récurrent](../../workflow/using/recurring-import-workflow.md)
