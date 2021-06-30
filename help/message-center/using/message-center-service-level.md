@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Qualité de service Message Center
-description: En savoir plus sur le rapport Qualité de service Message Center .
+description: En savoir plus sur le rapport Qualité de service Message Center.
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 69%
 
 Ce rapport affiche les statistiques de diffusion relatives aux messages transactionnels ainsi que la répartition des erreurs. Cliquez sur un type d’erreur pour en afficher les détails.
 
-Ce rapport, destiné aux administrateurs techniques, est également accessible à partir de l&#39;onglet **[!UICONTROL Surveillance]** de l&#39;instance de pilotage.
+Ce rapport destiné aux administrateurs techniques est également accessible à partir de l’onglet **[!UICONTROL Supervision]** de l’instance de pilotage.
 
 ![](assets/mc_reports_1.png)
 
 Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou relatives à une instance d&#39;exécution particulière. Vous pouvez également filtrer les données par canal et sur une période spécifique.
 
-Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
+Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
 
 * **[!UICONTROL Entrant (débit evt/h)]** : moyenne horaire du nombre d&#39;événements entrés dans la file Message Center.
 * **[!UICONTROL Entrant (volume evt)]** : nombre d&#39;événements entrés dans la file Message Center.
