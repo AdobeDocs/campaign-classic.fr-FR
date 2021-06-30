@@ -1,25 +1,25 @@
 ---
 product: campaign
 title: 'Publication de modèles de message '
-description: Découvrez la publication et l’annulation de la publication d’un modèle de message transactionnel dans Adobe Campaign Classic.
+description: Découvrez la publication et l'annulation de la publication d'un modèle de message transactionnel dans Adobe Campaign Classic.
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Publier des modèles de message {#publishing-template-messages}
+# Publication de modèles de message {#publishing-template-messages}
 
 ## Publication des modèles {#template-publication}
 
-Lorsque le [modèle de message](../../message-center/using/creating-the-message-template.md) créé sur l’instance de pilotage est terminé et qu’une fois [testé](../../message-center/using/testing-message-templates.md), vous pouvez le publier. Ce processus le publiera également sur toutes les instances d&#39;exécution.
+Lorsque le [modèle de message](../../message-center/using/creating-the-message-template.md) créé sur l&#39;instance de pilotage est terminé et que vous l&#39;avez [testé](../../message-center/using/testing-message-templates.md), vous pouvez le publier. Ce processus le publiera également sur toutes les instances d&#39;exécution.
 
-La publication vous permet de créer automatiquement **deux modèles de messages** sur les instances d’exécution, ce qui vous permettra d’envoyer des messages liés à des **événements temps réel** et des **événements batch**.
+La publication vous permet de créer automatiquement **deux modèles de messages** sur les instances d’exécution. Vous pouvez ainsi envoyer des messages liés à des **événements temps réel** et à des **événements batch**.
 
 >[!NOTE]
 >
