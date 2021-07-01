@@ -484,7 +484,6 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 >
 >* **Location/@city** n’est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents
-
 >
 
 
