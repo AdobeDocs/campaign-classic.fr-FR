@@ -6,14 +6,18 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 46c8807a433d87a091a06fe60cf684919fddb5c6
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 91%
 
 ---
 
 # Insérer une ressource partagée{#inserting-a-shared-asset}
+
+>[!CAUTION]
+>
+> Experience Cloud Assets est désormais mis hors service. Pour une nouvelle mise en oeuvre, vous ne pouvez plus intégrer Experience Cloud Assets à Adobe Campaign Classic.
 
 Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées dans vos emails et landing pages de la manière suivante :
 
