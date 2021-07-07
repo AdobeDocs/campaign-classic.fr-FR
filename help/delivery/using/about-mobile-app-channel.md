@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 1da8b954f1ed8b3e1433b920149e968cb89a97c5
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 94%
 
 ---
 
@@ -91,13 +91,15 @@ Pour en tester le bon fonctionnement, utilisez les commandes suivantes :
 * Pour les tests :
 
    ```
-   telnet gateway.sandbox.push.apple.com
+   api.development.push.apple.com:443
    ```
 
 * En production :
 
    ```
-   telnet gateway.push.apple.com
+   api.push.apple.com:443
    ```
 
-Avec le connecteur HTTP/2 iOS, le MTA, le serveur web et le serveur de workflow doivent pouvoir contacter l&#39;APNs sur le port 443.
+Avec le connecteur HTTP/2 iOS, le MTA et le serveur web doivent pouvoir contacter l&#39;APNS sur le port 443.
+
+Si vous devez utiliser le connecteur HTTP/2 iOS via un proxy, reportez-vous à cette [page](../../installation/using/file-res-management.md#proxy-connection-configuration).
