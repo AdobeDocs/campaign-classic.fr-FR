@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: 939552f127207f258448b2a82bb8c4c000371694
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 89%
 
 ---
 
@@ -102,6 +102,19 @@ Si vous utilisez le même proxy pour plusieurs types de connexions, seul le para
 Si des connexions internes doivent passer à travers le proxy, ajoutez-les dans le paramètre override.
 
 Si vous souhaitez désactiver temporairement la connexion au proxy, définissez le paramètre enabled sur &quot;false&quot; ou &quot;0&quot;.
+
+Si vous devez utiliser le connecteur HTTP/2 iOS via un proxy, les modes de proxy HTTP suivants sont pris en charge :
+
+* HTTP sans authentification
+* Authentification de base HTTP
+
+Pour activer le mode proxy, la modification suivante doit être effectuée dans le fichier `serverconf.xml` :
+
+```
+<nmac useHTTPProxy="true">
+```
+
+Pour plus d&#39;informations sur ce connecteur HTTP/2 iOS, consultez cette [page](../../delivery/using/about-mobile-app-channel.md).
 
 ## Gérer les ressources publiques {#managing-public-resources}
 
