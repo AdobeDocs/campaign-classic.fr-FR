@@ -3,10 +3,10 @@ product: campaign
 title: Version 20.1
 description: Version 20.1
 feature: Vue d’ensemble
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 99%
