@@ -3,11 +3,11 @@ product: campaign
 title: Créer et gérer des listes
 description: Découvrez comment créer et gérer des listes
 feature: Profils
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Création et gestion de listes{#creating-and-managing-lists}
 
-## Qu’est-ce qu’une liste ? {#about-lists-in-adobe-campaign}
+## Qu’est-ce qu’une liste ?  {#about-lists-in-adobe-campaign}
 
 Une liste est un ensemble statique de profils qui peut être ciblé dans les actions de diffusion ou mis à jour lors d’opérations d’import ou lors de l’exécution d’un workflow. Par exemple, une population extraite de la base via une requête peut alimenter une liste.
 
