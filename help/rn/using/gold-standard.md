@@ -3,10 +3,10 @@ product: campaign
 title: Notes de mise à jour de [!DNL Gold Standard]
 description: Notes de mise à jour de Campaign Classic [!DNL Gold Standard]
 feature: Vue d’ensemble
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 6a2440224f9c7c7dad5d979c6c75ef429209d252
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 96%
