@@ -3,13 +3,13 @@ product: campaign
 title: Notes de mise à jour de Campaign 18.10
 description: Notes de mise à jour de Campaign 18.10
 feature: Vue d’ensemble
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '2372'
-ht-degree: 100%
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
+source-wordcount: '2370'
+ht-degree: 98%
 
 ---
 
@@ -74,13 +74,13 @@ ht-degree: 100%
 * Correction d’un problème d’échappement des caractères lors de l’envoi de notifications push sur une application mobile.
 * Correction d’un problème qui empêchait le passage de la méthode de synchronisation FDA à SOAP dans un compte externe Mid-sourcing.
 
-## Version 18.10.2 - Build 8978{#release-18-10-2-build-8978}
+## Version 18.10.2 - Build 8978{#release-18-10-2-build-8978}
 
 6 décembre 2018
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Améliorations**
 
@@ -96,13 +96,13 @@ ht-degree: 100%
 * Correction d&#39;un problème avec le calcul des durées de workflow dans la carte thermique des workflows.
 
 
-## Version 18.10 - Build 8977{#release-18-10-build-8977}
+## Version 18.10 - Build 8977{#release-18-10-build-8977}
 
 5 novembre 2018
 
 >[!CAUTION]
 >
->Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Ce build a été rappelé. Effectuez une [mise à niveau vers le dernier build](../../production/using/build-upgrade.md) ou contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Nouveautés**
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 
 * Correction d&#39;un problème de sécurité qui entraînait des vulnérabilités aux attaques SSRF (Server Side Request Forgery) et aux attaques par déni de service (DoS). (NEO-11453)
 * Le contenu (redirection du tracking, pages miroir, questionnaires, etc.) sera désormais servi par Campaign avec l&#39;en-tête X-Robots-Tag: nocache. Cela empêche l&#39;indexation de ce contenu par les moteurs de recherche Internet. (NEO-11101)
-* Correction d&#39;un problème d&#39;injection XTK dans l&#39;API d&#39;abonnement (nms:subscription:Unsubscribe et nms:subscription:Subscribe).
+* Correction d’un problème d’injection XTK dans l’API d’abonnement (nms:subscription:Se désabonner et nms:subscription:S’abonner).
 * Correction d’un problème d’injection XTK dans l’application web de désabonnement.
 * Suppression des mots de passe qui étaient affichés de manière non sécurisée dans certains logs SMS.
 
