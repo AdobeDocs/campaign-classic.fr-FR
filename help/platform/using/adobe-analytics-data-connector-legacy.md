@@ -3,12 +3,12 @@ product: campaign
 title: Adobe Analytics - Data Connector
 description: Adobe Analytics - Data Connector
 feature: Vue d’ensemble
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1834'
 ht-degree: 99%
