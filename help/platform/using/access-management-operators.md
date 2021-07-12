@@ -3,11 +3,11 @@ product: campaign
 title: Prise en main des opérateurs Campaign
 description: Découvrez comment créer et gérer des utilisateurs Campaign
 feature: Gestion des accès
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Création et gestion d’opérateurs {#operators}
 
-## Prise en main des opérateurs Campaign {#about-operators}
+## Prise en main des opérateurs Campaign  {#about-operators}
 
 Un opérateur est un utilisateur Adobe Campaign qui possède des permissions pour se connecter et effectuer des actions.
 
