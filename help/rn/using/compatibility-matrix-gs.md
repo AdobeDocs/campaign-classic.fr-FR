@@ -3,13 +3,13 @@ product: campaign
 title: Matrice de compatibilité pour Campaign [!DNL Gold Standard]
 description: 'Matrice de compatibilité Campaign Classic pour la version  [!DNL Gold Standard] '
 feature: Vue d’ensemble
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 9703e9d5cf0dba91d3f38d265756bdae69267c28
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -264,9 +264,9 @@ Adobe Campaign Classic est compatible avec tous les systèmes et outils réper
 </table>
 
 
-## Console client {#ClientConsoleoperatingsystems}
+## Console cliente {#ClientConsoleoperatingsystems}
 
-:warning: Les systèmes d’exploitation et navigateurs suivants sont nécessaires pour utiliser la console cliente Campaign.
+:warning: Les systèmes d&#39;exploitation et le navigateur ci-après sont nécessaires pour utiliser la console cliente Campaign.
 
 ### Systèmes d’exploitation
 
