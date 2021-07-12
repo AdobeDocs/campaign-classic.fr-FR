@@ -3,11 +3,11 @@ product: campaign
 title: A propos des connecteurs
 description: A propos des connecteurs
 feature: Vue d’ensemble
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
