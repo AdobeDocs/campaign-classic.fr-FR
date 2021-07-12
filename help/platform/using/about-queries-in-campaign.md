@@ -3,11 +3,11 @@ product: campaign
 title: A propos des requêtes dans Campaign
 description: A propos des requêtes dans Campaign
 feature: Requêteur
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
