@@ -4,10 +4,10 @@ product: campaign
 title: Connecteur Adobe Analytics
 description: En savoir plus sur le connecteur Adobe Analytics
 feature: Vue d'ensemble
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: c612b47463427751eff27d6092e371c918c87d93
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 99%
