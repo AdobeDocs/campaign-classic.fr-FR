@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: c5e1b10b82c8ea1cf8bcb617ee48fe13e16fbfd9
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 96%
+source-wordcount: '1066'
+ht-degree: 95%
 
 ---
 
@@ -24,19 +24,19 @@ _14 avril 2021_
 Le build 9032@d030c36 comprend le correctif suivant :
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
+* Cette version de console est requise pour conserver [l’accès IMS](../../technotes/ims-updates.md).
 
 **La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
 >[!CAUTION]
 >
-> * Si vous vous connectez à Campaign avec votre Adobe ID, via Adobe Identity Service (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
+> * Si vous vous connectez à Campaign avec votre Adobe ID, par le biais du service Adobe Identity Management (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
 > * Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
 
 >
 >
 Pour en savoir plus, consultez le [[!DNL Gold Standard] FAQ sur la mise à niveau vers la version 11](https://helpx.adobe.com/fr/campaign/kb/gold-standard-upgrade.html)
-
 
 _2 mars 2021_
 
