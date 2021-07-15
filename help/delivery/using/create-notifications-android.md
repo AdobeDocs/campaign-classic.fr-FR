@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Création d’une notification push pour les appareils Android
+title: Créer une notification push pour les appareils Android
 description: Découvrez comment créer des notifications push pour Android
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Créer des notifications pour Android{#create-notificaations-android}
 
-Utilisez Adobe Campaign pour envoyer des notifications push sur les appareils Android. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
+Utilisez Adobe Campaign pour envoyer des notifications push sur les appareils Android. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
 Créez tout d&#39;abord une nouvelle diffusion.
 
@@ -31,7 +31,7 @@ Firebase Cloud Messaging vous permet de choisir entre deux types de messages 
 
 Pour plus d&#39;informations sur les types de messages Firebase Cloud Messaging, consultez la [documentation de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
 
-## Création d’un message de données {#creating-data-message}
+## Créer un message de données {#creating-data-message}
 
 1. Accédez à **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]**.
 
