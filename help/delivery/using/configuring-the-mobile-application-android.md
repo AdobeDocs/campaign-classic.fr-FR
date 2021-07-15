@@ -10,9 +10,9 @@ internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
    * **maxGCMConnectPerChild** : limite maximale du nombre de requêtes HTTP parallèles sur le serveur FCM initiées par chaque serveur enfant (8 par défaut).
 
-## Configuration d’un service Android {#configuring-android-service}
+## Configuration d&#39;un service Android {#configuring-android-service}
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment configurer un service Android en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=fr#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -71,7 +71,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le mapping de ciblage **[!UICONTROL Applications abonnées par défaut (nms:appSubscriptionRcp)]** est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez créer un nouveau mapping de ciblage et le saisir dans le champ **[!UICONTROL Mapping de ciblage]** du service. Pour plus d&#39;informations sur la création d&#39;un mapping de ciblage, reportez-vous à [cette section](../../configuration/using/about-custom-recipient-table.md).
+   >Le mapping de ciblage par défaut **[!UICONTROL Applications abonnées (nms:appSubscriptionRcp)]** est lié à la table des destinataires. Si vous souhaitez utiliser un autre mapping de ciblage, vous devez créer un nouveau mapping de ciblage et le renseigner dans le champ **[!UICONTROL Mapping de ciblage]** du service. Pour plus d&#39;informations sur la création d&#39;un mapping de ciblage, reportez-vous à [cette section](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -81,7 +81,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
 1. Créez votre application Android. Pour plus d&#39;informations à ce sujet, consultez [cette section](configuring-the-mobile-application-android.md#creating-android-app).
 
-## Création de l’application mobile Android {#creating-android-app}
+## Création de l&#39;application mobile Android {#creating-android-app}
 
 Après avoir créé votre service, vous devez maintenant créer votre application Android :
 
@@ -111,8 +111,8 @@ Par défaut, Adobe Campaign enregistre une clé dans le champ **[!UICONTROL Iden
 
 Après avoir créé un service et une nouvelle application mobile, vous devez configurer votre application mobile en fonction de la version d&#39;API choisie.
 
-* **La configuration HTTP v1** est présentée dans  [cette section](configuring-the-mobile-application-android.md#android-service-httpv1).
-* **La configuration HTTP (héritée)** est présentée dans  [cette section](configuring-the-mobile-application-android.md#android-service-http).
+* La configuration **HTTP v1** est détaillée dans [cette section](configuring-the-mobile-application-android.md#android-service-httpv1).
+* La configuration **HTTP (héritée)** est détaillée dans [cette section](configuring-the-mobile-application-android.md#android-service-http).
 
 #### Configuration de l’API HTTP v1{#android-service-httpv1}
 
@@ -120,7 +120,7 @@ Pour configurer la version d&#39;API HTTP v1, procédez comme suit :
 
 1. Dans la fenêtre de l&#39;**[!UICONTROL assistant de création d&#39;une application mobile]**, sélectionnez **[!UICONTROL HTTPV1]** dans la liste déroulante **[!UICONTROL Versions d&#39;API]**.
 
-1. Cliquez sur **[!UICONTROL Charger le fichier json du projet pour extraire les détails du projet...]** pour charger directement votre fichier de clé JSON. Pour plus d’informations sur l’extraction de votre fichier JSON, consultez [cette page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+1. Cliquez sur **[!UICONTROL Charger le fichier json du projet pour extraire les détails du projet...]** pour charger directement votre fichier de clé JSON. Pour plus d&#39;informations sur l&#39;extraction de votre fichier JSON, consultez [cette page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
    Vous pouvez également saisir manuellement les informations suivantes :
    * **[!UICONTROL Identifiant du projet]**
