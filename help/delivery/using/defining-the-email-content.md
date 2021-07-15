@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Expéditeur {#sender}
 
-Pour définir le nom et l’adresse de l’expéditeur qui apparaîtront dans ll’en-tête des messages envoyés, cliquez sur le lien **[!UICONTROL De]**.
+Pour définir le nom et l’adresse de l’expéditeur qui apparaîtront dans l’en-tête des messages envoyés, cliquez sur le lien **[!UICONTROL De]**.
 
 ![](assets/s_ncs_user_wizard_email02.png)
 
