@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Consultez [ce document](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-
 
 Lisez [cette section](../../platform/using/adobe-campaign-workspace.md) pour en savoir plus sur les bases de l&#39;espace de travail Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrir l&#39;espace de travail Campaign en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [Découvrir l&#39;espace de travail Campaign en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html?lang=fr)
 
 ## Comment sélectionner l’audience de mes messages ?  {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -82,7 +82,7 @@ Un workflow peut également faire intervenir des opérateurs afin de notifier ou
 
 [Pour en savoir plus, cliquez ici](../../delivery/using/about-email-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html?lang=fr)
 
 ## Comment envoyer des SMS ?  {#how-to-send-sms-messages-}
 
@@ -128,6 +128,6 @@ Adobe évalue constamment les fonctionnalités du produit et prévoit au fil du 
 
 ## De nouvelles mises à jour de la documentation et des documents d&#39;aide sont-ils publiés ? {#are-there-new-documentation-updates-and-help-materials-released-}
 
-Les dernières mises à jour apportées à la documentation de Campaign Classic sont répertoriées sur [cette page](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html).
+Les dernières mises à jour apportées à la documentation de Campaign Classic sont répertoriées sur [cette page](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=fr).
 
 Vous pouvez également vous reporter aux dernières notes techniques répertoriées sur [cette page](https://helpx.adobe.com/fr/campaign/kb/article-list.html).
