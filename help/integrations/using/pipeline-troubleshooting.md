@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Le format de la clé privée n’est pas valide.
 1. Vérifiez que la clé est cryptée sur la même instance.
 1. Vérifiez que l’authPrivateKey du fichier de configuration correspond à la clé générée. <br>Veillez à utiliser OpenSSL pour générer la paire de clés. Par exemple, PuttyGen ne génère pas le format approprié.
 
-**Échec du pipeline avec &quot;n’est plus autorisé à obtenir le jeton d’accès&quot;**
+**Échec du pipeline avec &quot;n&#39;est plus autorisé à récupérer le jeton d&#39;accès&quot;**
 
-Les logs doivent être les suivants :
+Les logs doivent être les suivants :
 
 ```
 2021-05-31T08:42:18.124Z        66462   66501   1       error   log     Listener: JWT Token is empty. (iRc=16384)
@@ -65,7 +65,7 @@ Les logs doivent être les suivants :
 2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
 ```
 
-Ce message d’erreur signifie que l’authentification est configurée à l’aide de l’ancienne base Omniture OAuth. Consultez la documentation [Configuration de l’Adobe I/O pour Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) pour mettre à niveau votre authentification.
+Ce message d&#39;erreur signifie que l&#39;authentification est configurée à l&#39;aide de l&#39;ancienne base Omniture OAuth. Consultez la documentation [Configuration d&#39;Adobe I/O pour les Triggers Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md) pour mettre à niveau votre authentification.
 
 **Aucun déclencheur n’est récupéré**
 
