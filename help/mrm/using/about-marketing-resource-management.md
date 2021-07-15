@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,17 +33,17 @@ Dans le cadre de la gestion des ressources marketing Adobe Campaign, les concept
 
    Une tâche correspond à une action à mener dans le cadre d&#39;une opération. Une tâche est assignée à un groupe ou à une personne. Une tâche enfant peut être dépendante d&#39;une tâche mère, ainsi la tâche parent ne sera accomplie que lorsque toutes les tâches filles seront terminées. Une tâche peut être par exemple : un référencement de site internet, une revue de budget, un brief, etc.
 
-   Voir à ce propos la section [Créer et gérer des tâches](../../mrm/using/creating-and-managing-tasks.md).
+   Voir à ce sujet la section [Créer et gérer les tâches](../../mrm/using/creating-and-managing-tasks.md).
 
 * **Ressource marketing**
 
    Adobe Campaign permet le tracking de la réalisation de projets marketing collaboratifs tels que des supports de communication, des plans d&#39;action, des newsletters, etc. Le cycle de réalisation et de validation de ces ressources marketing peut être suivi depuis le tableau de bord des ressources jusqu&#39;à leur publication.
 
-   Voir à ce sujet la section [Gestion des ressources marketing](../../mrm/using/managing-marketing-resources.md).
+   Voir à ce sujet la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md).
 
 >[!NOTE]
 >
->Pour plus d’informations sur l&#39;espace de travail Adobe Campaign, consultez [cette section](../../platform/using/adobe-campaign-workspace.md).
+>Pour plus d&#39;informations sur l&#39;espace de travail Adobe Campaign, consultez [cette section](../../platform/using/adobe-campaign-workspace.md).
 >  
 >Les diffusions et les canaux de communication sont présentés dans [cette section](../../delivery/using/steps-about-delivery-creation-steps.md).
 >
