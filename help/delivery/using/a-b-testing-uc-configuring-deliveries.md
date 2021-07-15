@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Configuration des diffusions
-description: Découvrez comment effectuer des tests A/B à l’aide d’un cas d’utilisation spécifique
+title: Configurer des diffusions
+description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
-# Configuration des diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
+# Paramétrer les diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
-Une fois les [populations créées](a-b-testing-uc-population-samples.md), vous pouvez configurer les diffusions. Dans ce cas pratique, les deux premières diffusions permettent d&#39;envoyer des contenus différents à la population A et B. La troisième diffusion est la diffusion de secours : il sera envoyé aux destinataires n&#39;appartenant pas à A ou B. Son contenu sera calculé par un script et sera identique à A ou B, selon celui qui a obtenu le taux d&#39;ouverture le plus élevé. Il est nécessaire de configurer une période d&#39;attente pour la troisième diffusion, afin de connaître le résultat des diffusions A et B. C’est pourquoi la troisième diffusion comprend une activité **[!UICONTROL Attente]**.
+Une fois les [populations créées](a-b-testing-uc-population-samples.md), vous pouvez configurer les diffusions. Dans ce cas d&#39;utilisation, les deux premières diffusions permettent d&#39;envoyer des contenus différents à la population A et B. La troisième diffusion est la diffusion de secours : elle sera envoyée aux destinataires n&#39;appartenant pas à A ou B. Son contenu sera calculé par un script et sera identique à A ou B, selon celui qui a obtenu le taux d&#39;ouverture le plus élevé. Il est nécessaire de configurer une période d&#39;attente pour la troisième diffusion, afin de connaître le résultat des diffusions A et B. C’est pourquoi la troisième diffusion comprend une activité **[!UICONTROL Attente]**.
 
 1. Depuis l&#39;activité **[!UICONTROL Partage]**, rattachez la transition destinée à la population A à l&#39;une des diffusions e-mail déjà présentes dans le workflow.
 
