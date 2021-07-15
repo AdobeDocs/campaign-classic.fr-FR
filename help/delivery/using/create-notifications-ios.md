@@ -1,27 +1,27 @@
 ---
 product: campaign
-title: Création d’une notification push pour les appareils iOS
+title: Créer une notification push pour les appareils iOS
 description: Découvrez comment créer des notifications push pour iOS
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Créer des notifications pour iOS{#create-notifications-ios}
 
-Cette section présente les éléments spécifiques à la diffusion des notifications iOS. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
+Cette section présente les éléments spécifiques à la diffusion de notifications iOS. Les concepts généraux relatifs à la création d&#39;une diffusion sont présentés dans [cette section](steps-about-delivery-creation-steps.md).
 
 Créez tout d&#39;abord une nouvelle diffusion.
 
 ![](assets/nmac_delivery_1.png)
 
-Pour créer une notification push pour les appareils iOS, procédez comme suit :
+Pour créer une notification push pour les appareils iOS, procédez comme suit :
 
 1. Sélectionnez le modèle de diffusion **[!UICONTROL Diffuser sur iOS]**.
 
@@ -49,11 +49,11 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le mode **Push silencieux** permet d’envoyer une notification &quot;silencieuse&quot; à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Il est transféré directement à l’application.
+   >Le mode **Notification silencieuse** permet d&#39;envoyer une notification &quot;silencieuse&quot; à une application mobile. L&#39;utilisateur n&#39;est pas averti de l&#39;arrivée de la notification. Elle est directement transférée à l&#39;application.
 
 1. Dans le champ **[!UICONTROL Titre]**, renseignez le libellé du titre que vous souhaitez voir apparaître sur la notification. Il apparaîtra uniquement au niveau de la liste de notifications disponible depuis le centre de notifications. Ce champ permet de définir la valeur du paramètre **title** de la payload des notifications iOS.
 
-1. Si vous utilisez le connecteur HTTP/2, vous pouvez ajouter un sous-titre (valeur du paramètre **subtitle** de la payload des notifications iOS). Reportez-vous à [cette section](configuring-the-mobile-application.md).
+1. Si vous utilisez le connecteur HTTP/2, vous pouvez ajouter un sous-titre (valeur du paramètre **subtitle** de la payload des notifications iOS). Consultez [cette section](configuring-the-mobile-application.md).
 
 1. Saisissez ensuite le **[!UICONTROL Message]** et la **[!UICONTROL Valeur de la pastille]**, en fonction du type de notification choisi.
 
@@ -63,7 +63,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit :
    >
    >Les notifications de type **[!UICONTROL Pastille]** et **[!UICONTROL Alerte et pastille]** permettent de modifier la valeur de la pastille (le chiffre affiché au-dessus du logo de l&#39;application mobile). Pour réinitialiser la pastille, il suffit de mettre 0 comme valeur. Si le champ est vide, la valeur de la pastille ne sera pas changée.
 
-1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]** pour insérer des émoticônes dans votre notification push. Pour personnaliser la liste des émoticônes, reportez-vous à [cette section](customizing-emoticon-list.md)
+1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]** pour insérer des émoticônes dans votre notification push. Pour personnaliser la liste des émoticônes, consultez [cette section](customizing-emoticon-list.md).
 
 1. Le champ **[!UICONTROL Bouton d&#39;action]** vous permet de définir un libellé pour le bouton d&#39;action apparaissant sur les notifications de type alerte (champ **action_loc_key** de la payload). Si votre application iOS gère les chaînes localisables (**Localizable.strings**), renseignez dans ce champ, la clé correspondante. Si votre application ne gère pas le texte localisé, renseignez le libellé que vous souhaitez voir apparaître sur le bouton d&#39;action. Pour plus d&#39;informations sur les chaînes localisables, consultez [la documentation Apple](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) .
 1. Dans le champ **[!UICONTROL Jouer un son]**, sélectionnez le son que doit émettre le terminal mobile à la réception de la notification.
@@ -90,7 +90,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit :
 
 L&#39;envoi du BAT et l&#39;envoi final de la notification s&#39;effectuent de la même manière que pour une diffusion par e-mail.
 
-Une fois les messages envoyés, vous pouvez effectuer le suivi et le tracking des diffusions. Voir à ce sujet les sections suivantes :
+Une fois les messages envoyés, vous pouvez effectuer la surveillance et le suivi des diffusions.Voir à ce sujet les sections suivantes :
 
 * [Quarantaines des notifications push](understanding-quarantine-management.md#push-notification-quarantines)
 * [Contrôler une diffusion](about-delivery-monitoring.md)
