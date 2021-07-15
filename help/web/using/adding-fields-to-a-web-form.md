@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2464'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ Lorsque vous utilisez les boutons de la barre d&#39;outils, sélectionnez direct
 Les types de champs disponibles sont les suivants :
 
 * Entrée texte/nombre. Voir [Ajouter des champs de saisie](#adding-input-fields).
-* Sélection d’une liste déroulante. Voir [Ajouter des listes déroulantes](#adding-drop-down-lists).
+* Sélection d&#39;une liste déroulante. Voir [Ajouter des listes déroulantes](#adding-drop-down-lists).
 * Choix multiple via des cases à cocher. Voir [Ajouter des cases à cocher](#adding-checkboxes).
 * Sélection exclusive via des boutons radio. Voir [Ajouter des boutons radio](#adding-radio-buttons).
-* Vote dans une grille d’options. Voir [Ajouter des matrices](#adding-grids).
+* Vote dans une grille d&#39;options. Voir [Ajouter des matrices](#adding-grids).
 * Nombres et dates. Voir [Ajouter des dates et des nombres](#adding-dates-and-numbers).
-* Abonnement/désabonnement à un service d’informations. Voir [Cases à cocher d’abonnement](#subscription-checkboxes).
+* Abonnement/désabonnement à un service d&#39;informations. Voir [Cases à cocher d&#39;abonnement](#subscription-checkboxes).
 * Validation de captcha. Voir [Insérer un captcha](#inserting-a-captcha).
 * Bouton de téléchargement. [Télécharger un fichier](#uploading-a-file).
 * Constante masquée. Voir [Insérer une constante masquée](#inserting-a-hidden-constant).
 
-Spécifiez le mode de stockage des réponses : mise à jour d’un champ de la base (seule la dernière valeur enregistrée est conservée) ou stockage dans une variable (la réponse ne sera pas stockée). Voir à ce sujet la section [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
+Spécifiez le mode de stockage des réponses : mise à jour d&#39;un champ de la base (seule la dernière valeur enregistrée est conservée) ou stockage dans une variable (la réponse ne sera pas stockée). Voir à ce sujet la section [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
    ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Nombre** : permet à l’utilisateur de saisir un nombre sur une ligne. Voir à ce sujet la section [Ajouter des nombres](#adding-numbers).
+* **Nombre** : permet à l&#39;utilisateur de saisir un nombre sur une ligne. Voir à ce sujet la section [Ajouter des nombres](#adding-numbers).
 
    Lors de la validation de la page, le contenu des champs est contrôlé afin de vérifier que la valeur saisie est compatible avec le champ. Voir à ce sujet la section [Définir les paramètres de contrôle](form-rendering.md#defining-control-settings).
 
@@ -90,7 +90,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
    >[!CAUTION]
    >
-   >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours chariot. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non à un attribut XML.
+   >Les champs de texte multi-lignes sont des champs spécifiques qui peuvent contenir des retours à la ligne. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non sur un attribut XML.
 
 * **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte, avec mise en forme, qui sera stocké au format HTML.
 
@@ -118,7 +118,7 @@ Vous pouvez modifier le mode de stockage des réponses à partir du lien **[!UIC
 >
 >Les modes de stockage sont détaillés dans [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
-L’onglet **[!UICONTROL Avancé]** permet de définir des paramètres d’affichage du champ (position des libellés, alignement, etc.). Voir [Définir la disposition des formulaires web](defining-web-forms-layout.md).
+L&#39;onglet **[!UICONTROL Avancé]** permet de définir des paramètres d&#39;affichage du champ (position des libellés, alignement, etc.). Voir [Définir la disposition des formulaires web](defining-web-forms-layout.md).
 
 ## Ajouter des listes déroulantes {#adding-drop-down-lists}
 
@@ -204,7 +204,7 @@ Pour ajouter un bouton radio dans une page de formulaire, sélectionnez le menu 
 
 ![](assets/s_ncs_admin_survey_radio_button_sample.png)
 
-Les boutons radio sont configurés de la même manière que les cases à cocher (voir [Ajouter des cases à cocher](#adding-checkboxes)). Toutefois, aucune valeur n’est affectée si l’option n’est pas sélectionnée. Pour que plusieurs boutons soient interdépendants, c’est-à-dire que le fait de les sélectionner désélectionne automatiquement les autres, ils doivent être stockés dans le même champ. S’ils ne sont pas stockés dans la base de données, la même variable locale doit être utilisée pour le stockage temporaire. Voir [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
+Les boutons radio sont configurés de la même manière que les cases à cocher (voir [Ajouter des cases à cocher](#adding-checkboxes)). Toutefois, aucune valeur n&#39;est affectée si l&#39;option n&#39;est pas sélectionnée. Pour que plusieurs boutons soient interdépendants, c&#39;est-à-dire que le fait de les sélectionner désélectionne automatiquement les autres, ils doivent être stockés dans le même champ. S&#39;ils ne sont pas stockés dans la base de données, la même variable locale doit être utilisée pour le stockage temporaire. Voir [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
 ### Ajouter une liste de boutons {#add-a-list-of-buttons}
 
@@ -217,7 +217,7 @@ Vous ajoutez autant de boutons radio que de libellés. L&#39;avantage est de pou
 >[!NOTE]
 >
 >Vous ne pouvez pas activer la sélection multiple dans une application web.
->Il est toutefois possible d&#39;insérer un champ de type **[!UICONTROL Choix multiple]** dans une application Web, mais cela ne permettra pas à l&#39;utilisateur de sélectionner plusieurs valeurs.
+>Il est toutefois possible d&#39;insérer un champ de type **[!UICONTROL Choix multiple]** dans une application web, mais cela ne permettra pas à l&#39;utilisateur de sélectionner plusieurs valeurs.
 
 ## Ajouter des matrices {#adding-grids}
 
@@ -237,7 +237,7 @@ Dans chaque ligne de matrice, une seule option peut être sélectionnée.
 
 >[!NOTE]
 >
->Dans notre exemple, le libellé de la matrice est masqué. Pour ce faire, accédez à l’onglet **[!UICONTROL Avancé]**. L’affichage de la **[!UICONTROL Position du libellé]** est défini sur **[!UICONTROL Caché]**. Voir [Définir la position des libellés](defining-web-forms-layout.md#defining-the-position-of-labels).
+>Dans notre exemple, le libellé de la matrice est masqué. Pour ce faire, accédez à l&#39;onglet **[!UICONTROL Avancé]**. L&#39;affichage de la **[!UICONTROL Position du libellé]** est défini sur **[!UICONTROL Caché]**. Voir [Définir la position des libellés](defining-web-forms-layout.md#defining-the-position-of-labels).
 
 ## Ajouter des dates et des nombres {#adding-dates-and-numbers}
 
@@ -247,7 +247,7 @@ Le contenu des champs du formulaire peut être formaté pour correspondre aux do
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-Pour permettre à l’utilisateur de saisir une date dans une page de formulaire, ajoutez un champ de saisie et sélectionnez le type **[!UICONTROL Date...]**.
+Pour permettre à l&#39;utilisateur de saisir une date dans une page de formulaire, ajoutez un champ de saisie et sélectionnez le type **[!UICONTROL Date...]**.
 
 Indiquez le libellé du champ et le mode de stockage des données.
 
@@ -373,7 +373,7 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 >
 >* Ce type de champ doit être réservé aux formulaires dont l&#39;accès est sécurisé via la saisie d&#39;un identifiant/mot de passe.
 >* Adobe Campaign n&#39;applique aucun contrôle sur la taille ou le type de ressource téléchargée : il est donc vivement recommandé de n&#39;utiliser les champs de téléchargement que pour les sites de type intranet sécurisé.
->* Lorsque plusieurs serveurs sont associés à l’instance (architecture « load balancing »), vous devez vous assurer que les appels au formulaire web arrivent sur le même serveur.
+>* Lorsque plusieurs serveurs sont associés à l&#39;instance (architecture « load balancing »), vous devez vous assurer que les appels au formulaire web arrivent sur le même serveur.
 >* Ce type d&#39;implémentation peut nécessiter l&#39;intervention de l&#39;équipe Consulting d&#39;Adobe Campaign.
 
 >
@@ -382,12 +382,12 @@ Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans u
 
 ## Insérer une constante masquée {#inserting-a-hidden-constant}
 
-Lorsque l’utilisateur valide l’une des pages du formulaire, vous pouvez définir une valeur spécifique pour un champ de son profil ou une variable.
+Lorsque l&#39;utilisateur valide l&#39;une des pages du formulaire, vous pouvez définir une valeur spécifique pour un champ de son profil ou une variable.
 
 Ce champ n‘est pas visible par l‘utilisateur mais permet d‘enrichir les données de son profil.
 
-Pour ce faire, placez une **constante** dans la page et indiquez la valeur et l’emplacement de stockage.
+Pour ce faire, placez une **constante** dans la page et indiquez la valeur et l&#39;emplacement de stockage.
 
-Dans l’exemple suivant, le champ **origine** du profil du destinataire est renseigné automatiquement chaque fois qu’un utilisateur valide cette page. La constante n’est pas affichée sur la page.
+Dans l&#39;exemple suivant, le champ **origine** du profil du destinataire est renseigné automatiquement chaque fois qu&#39;un utilisateur valide cette page. La constante n&#39;est pas affichée sur la page.
 
 ![](assets/s_ncs_admin_survey_constante.png)
