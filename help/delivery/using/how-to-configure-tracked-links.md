@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 98bbbb36c9f8156cc34e826a024ff6e6e3f3fee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Le tracking s’applique aux messages, tandis que le tracking web permet de suiv
 >
 >Les liens inclus dans le contenu des emails qui comportent des éléments de personnalisation ont besoin d&#39;une syntaxe spécifique pour être trackés. Pour plus d&#39;informations sur l&#39;ajout de liens dans des emails pouvant être personnalisés et prenant en charge le tracking, consultez [cette section](tracking-personalized-links.md).
 
-Nous vous recommandons vivement de placer les URL dans des délimiteurs dans l’onglet **[!UICONTROL Contenu texte]** avant d’appliquer la formule de suivi. Les délimiteurs d’URL que vous saisissez dans cet onglet sont utilisés par Adobe Campaign pour identifier les URL dans les chaînes de caractères. Vous pouvez utiliser ces paires de délimiteurs :
+Nous vous recommandons vivement de placer les URL dans des délimiteurs dans l&#39;onglet **[!UICONTROL Contenu textuel]** avant d&#39;appliquer la formule de tracking. Les délimiteurs d&#39;URL que vous saisissez dans cet onglet sont utilisés par Adobe Campaign pour identifier les URL dans les chaînes de caractères. Vous pouvez utiliser les paires de délimiteurs suivantes :
 * Parenthèses ( )
-* Brackets [ ]
-* Braces { }
+* Crochets [ ]
+* Accolades { }
 
-Dans cet exemple, l’URL https://www.adobe.com est suivie d’un point-virgule. Le point-virgule peut être interprété par les clients de messagerie des destinataires comme faisant partie de l’URL. Par conséquent, le lien peut être rompu. Pour éviter ce problème, vous pouvez placer l’URL dans des délimiteurs de l’une des façons suivantes :
+Dans cet exemple, l&#39;URL https://www.adobe.com est suivie d&#39;un point-virgule. Le point-virgule peut être interprété par les clients de messagerie des destinataires comme faisant partie de l&#39;URL. Par conséquent, le lien peut être rompu. Pour éviter ce problème, vous pouvez placer l&#39;URL dans des délimiteurs de l&#39;une des façons suivantes :
 * (https://www.adobe.com);
 * [https://www.adobe.com];
 * {https://www.adobe.com};
