@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Le résultat sera le suivant :
 
 ![](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
-### Utilisation de variables de texte {#using-text-variables}
+### Utiliser des variables de texte {#using-text-variables}
 
 L&#39;onglet **[!UICONTROL Texte]** permet de créer des champs variables qui peuvent être utilisés dans le HTML entre les caractères &lt;%= et %>, avec la syntaxe suivante : **$(IDENTIFIER)**.
 
