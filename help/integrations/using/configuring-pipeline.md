@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: cf102a5e669ffe136e6ec2429343725ec6c3722e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 
 Avant de démarrer cette configuration, vérifiez que vous utilisez :
 
-* Au minimum, l’une des versions Adobe Campaign suivantes :
+* Au minimum, l&#39;une des versions Adobe Campaign suivantes :
    * 19.1.8.9039
    * 19.1.4.9032.GS.11
    * 20.2.4.9187
