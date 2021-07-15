@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
 ht-degree: 100%
 
 ---
 
-# Envoi, surveillance et suivi  de diffusions par SMS{#sms-properties}
+# Envoi, surveillance et suivi de diffusions par SMS{#sms-properties}
 
 ## Envoi de messages SMS {#sending-sms-messages}
 
@@ -58,7 +58,7 @@ Les options disponibles sont les suivantes :
 
 ## Surveillance et suivi de SMS {#monitoring-and-tracking-sms-deliveries}
 
-Une fois les messages envoyés, vous pouvez effectuer la surveillance et le suivi des diffusions.Voir à ce sujet les sections suivantes :
+Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
 
 * [Surveillance d’une diffusion](about-delivery-monitoring.md)
 * [Présentation des diffusions en échec](understanding-delivery-failures.md)
