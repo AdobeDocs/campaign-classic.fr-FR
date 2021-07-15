@@ -1,16 +1,16 @@
 ---
 audience: end-user
-breadcrumb-title: Documentation de Campaign Classic v7
+breadcrumb-title: Documentation de Campaign Classic v7
 product: campaign
-title: Guide de Campaign Classic v7
+title: Guide de Campaign Classic v7
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser des campagnes dynamiques que les clients souhaitent réellement : par email, mobile, canaux hors ligne, etc.'
+user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2518'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 97%
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
    + [Notes techniques](technotes/technote.md)
-   + [FAQ sur Adobe Analytics Connector](technotes/aa-connector-migration.md)
+   + [FAQ sur le connecteur Adobe Analytics](technotes/aa-connector-migration.md)
    + [Mise à jour du certificat iOS](technotes/ios-certificate-update.md)
    + [Mises à jour de la configuration de Campaign](technotes/acc-config-updates.md)
    + [Mise à jour des URL trackées](technotes/tracked-urls.md)
-   + [Mises à jour IMS](technotes/ims-updates.md)
+   + [Mises à jour de l&#39;IMS](technotes/ims-updates.md)
 + Prise en main {#getting-started}
    + Prise en main d’Adobe Campaign {#starting-with-adobe-campaign}
       + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
@@ -163,9 +163,9 @@ ht-degree: 97%
          + [Prise en main de la configuration de l&#39;application](delivery/using/get-started-app-config.md)
          + [Étapes de configuration pour iOS](delivery/using/configuring-the-mobile-application.md)
          + [Étapes de configuration pour Android](delivery/using/configuring-the-mobile-application-android.md)
-      + Créez une notification push{#create-a-push-msg}
-         + [Création d’un message push pour iOS](delivery/using/create-notifications-ios.md)
-         + [Création d’un message push pour Android](delivery/using/create-notifications-android.md)
+      + Création d&#39;une notification push{#create-a-push-msg}
+         + [Création d&#39;un message push pour iOS](delivery/using/create-notifications-ios.md)
+         + [Création d&#39;un message push pour Android](delivery/using/create-notifications-android.md)
       + [Résolution des problèmes](delivery/using/troubleshooting.md)
    + Envoi d’un courrier {#sending-direct-mail}
       + [A propos du canal Courrier](delivery/using/about-direct-mail-channel.md)
@@ -356,7 +356,7 @@ ht-degree: 97%
       + [Définition des propriétés des formulaires web](web/using/defining-web-forms-properties.md)
       + [Traduction d’un formulaire web](web/using/translating-a-web-form.md)
       + [Cas pratiques : formulaires web](web/using/use-cases--web-forms.md)
-+ Créer des questionnaires en ligne {#online-surveys}
++ Création de questionnaires en ligne{#online-surveys}
    + [Prise en main des questionnaires](surveys/using/about-surveys.md)
    + [Étapes clés de création d’un questionnaire](surveys/using/getting-started-with-surveys.md)
    + [Conception d’un questionnaire](surveys/using/building-a-survey.md)
@@ -484,7 +484,7 @@ ht-degree: 97%
          + [Chargement du contenu de la diffusion](workflow/using/loading-delivery-content.md)
          + [Workflow de diffusion cross-canal](workflow/using/cross-channel-delivery-workflow.md)
          + [Enrichissement des emails avec des champs de date personnalisés](workflow/using/email-enrichment-with-custom-date-fields.md)
-      + Contrôle  {#monitoring}
+      + Contrôle   {#monitoring}
          + [Envoi d’un rapport à une liste](workflow/using/sending-a-report-to-a-list.md)
          + [Supervision de vos workflows](workflow/using/supervising-workflows.md)
          + [Envoi d’alertes personnalisées aux opérateurs](workflow/using/sending-personalized-alerts-to-operators.md)
