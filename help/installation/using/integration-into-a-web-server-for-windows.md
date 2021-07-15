@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 source-git-commit: 3958fff140cc9bf6c371f0c4207cafc9a27bb725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1004'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Pour cela, respectez la procédure suivante :
 
 1. Redémarrez le serveur IIS à partir de la ligne de commande **iisreset**
 
-1. Démarrez le service Adobe Campaign, puis assurez-vous qu’il est en cours d’exécution.
+1. Démarrez le service Adobe Campaign, puis assurez-vous qu&#39;il est en cours d&#39;exécution.
 
 1. Testez le bon fonctionnement du module de tracking depuis un navigateur Web via l&#39;URL suivante :
 
