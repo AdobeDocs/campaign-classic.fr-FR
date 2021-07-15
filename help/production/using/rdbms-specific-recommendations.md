@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 # Spécificités par SGBDR{#rdbms-specific-recommendations}
 
-Pour vous aider à configurer des plans de maintenance, cette section répertorie quelques recommandations et bonnes pratiques adaptées aux différents moteurs SGBDR pris en charge par Adobe Campaign. Il ne s’agit toutefois que de recommandations. C&#39;est à vous de les adapter à vos besoins, conformément à votre procédure interne et vos contraintes. L’administrateur de la base de données a la responsabilité de créer et d’exécuter ces plans.
+Pour vous aider à configurer des plans de maintenance, cette section répertorie quelques recommandations et bonnes pratiques adaptées aux différents moteurs SGBDR pris en charge par Adobe Campaign. Il ne s&#39;agit toutefois que de recommandations. C&#39;est à vous de les adapter à vos besoins, conformément à votre procédure interne et vos contraintes. L&#39;administrateur de la base de données a la responsabilité de créer et d&#39;exécuter ces plans.
 
 ## PostgreSQL {#postgresql}
 
@@ -36,13 +36,13 @@ Pour vous aider à configurer des plans de maintenance, cette section répertori
     ORDER BY 3 DESC, 1, 2 DESC;
    ```
 
-1. Vous pouvez exécuter cette requête pour repérer les tables et index volumineux :
+1. Vous pouvez exécuter cette requête pour repérer les tables et index volumineux :
 
    ```
    SELECT * FROM uvSpace;
    ```
 
-   Vous pouvez également exécuter cette requête, par exemple, pour afficher l’ensemble des tailles d’index :
+   Vous pouvez également exécuter cette requête, par exemple, pour afficher l&#39;ensemble des tailles d&#39;index :
 
    ```
    SELECT
@@ -78,21 +78,21 @@ Pour vous aider à configurer des plans de maintenance, cette section répertori
 
 ### Maintenance simple {#simple-maintenance}
 
-Dans PostgreSQL, vous pouvez utiliser les mots-clés typiques suivants :
+Dans PostgreSQL, vous pouvez utiliser les mots-clés habituels suivants :
 
-* VACUUM (PLEIN, ANALYSER, VERBOSE)
+* VACUUM (FULL, ANALYZE, VERBOSE)
 * REINDEX
 
-Pour exécuter l’opération VACUUM, l’analyser et l’accélérer, vous pouvez utiliser la syntaxe suivante :
+Pour exécuter l&#39;opération VACUUM, l&#39;analyser et l&#39;horodater, vous pouvez utiliser la syntaxe suivante :
 
 ```
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) <table>;
 ```
 
-Nous vous recommandons vivement de ne pas omettre l’instruction ANALYZE. Dans le cas contraire, le tableau vide est laissé sans statistiques. La raison est qu&#39;une nouvelle table est construite, puis l&#39;ancienne est supprimée. Par conséquent, l’identifiant d’objet (OID) de la table change, mais aucune statistique n’est calculée. Par conséquent, vous rencontrerez immédiatement des problèmes de performances.
+Nous vous recommandons vivement de ne pas omettre l&#39;instruction ANALYZE. Dans le cas contraire, la table vide est laissée sans statistiques. La raison est qu&#39;un nouveau tableau est construit, puis l&#39;ancien est supprimé. Par conséquent, l&#39;identifiant d&#39;objet (OID) de la table change, mais aucune statistique n&#39;est calculée. C&#39;est pourquoi vous rencontrerez immédiatement des problèmes de performances.
 
-Voici un exemple typique de plan de maintenance SQL à exécuter régulièrement :
+Voici un exemple classique de plan de maintenance SQL qui doit être exécuté régulièrement :
 
 ```
 \timing on
@@ -146,11 +146,11 @@ REINDEX TABLE nmsmirrorpageinfo;
 
 >[!NOTE]
 >
->* Adobe recommande de commencer par les tables plus petites : ainsi, si le processus échoue sur les tables volumineuses (où le risque d’échec est le plus élevé), au moins une partie de la maintenance est terminée.
->* Adobe vous recommande d’ajouter les tables spécifiques à votre modèle de données, qui peuvent faire l’objet de mises à jour importantes. Cela peut être le cas pour **NmsRecipient** si vous disposez de flux de réplication de données quotidiens volumineux.
->* Les instructions VACUUM et REINDEX verrouillent la table, ce qui interrompt certains processus pendant la maintenance.
->* Pour les tables très volumineuses (généralement supérieures à 5 Go), l’instruction VACUUM PULL peut devenir assez inefficace et prendre beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
->* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Voir à ce propos [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n’entre pas en conflit avec votre fenêtre de sauvegarde.
+>* Adobe conseille de commencer par les tables de petite taille. Si l&#39;opération de maintenance devait échouer sur les tables volumineuses (ce qui est davantage le cas que sur les petites tables), une partie de la maintenance serait déjà assurée.
+>* Adobe vous recommande d&#39;ajouter les tables spécifiques à votre modèle de données, qui peuvent faire l&#39;objet de mises à jour importantes. Cela peut être le cas pour **NmsRecipient** si vous disposez de flux de réplication de données quotidiens volumineux.
+>* Les commandes VACUUM et REINDEX verrouillent la table ce qui met certains processus en attente pendant toute la durée de la maintenance.
+>* Pour les très grandes tables (généralement au-dessus de 5 Go), la commande VACUUM FULL peut devenir assez inefficace et nécessiter beaucoup de temps. Adobe déconseille de l&#39;utiliser pour la table **YyyNmsBroadLogXxx**.
+>* Cette opération de maintenance peut être implémentée par un workflow Adobe Campaign, à l&#39;aide d&#39;une activité **[!UICONTROL SQL]**. Voir à ce propos [cette section](../../workflow/using/architecture.md). Assurez-vous de planifier la maintenance pendant une période de faible activité qui n&#39;entrera pas en conflit avec votre période de sauvegarde.
 
 >
 
@@ -158,10 +158,10 @@ REINDEX TABLE nmsmirrorpageinfo;
 
 ### Reconstruire une base {#rebuilding-a-database}
 
-PostgreSQL ne permet pas d’effectuer facilement une reconstruction de table en ligne, car l’instruction VACUUM FULL verrouille la table, empêchant ainsi une production régulière. La maintenance doit donc être effectuée lorsque la table n&#39;est pas utilisée. Vous pouvez, au choix :
+PostgreSQL ne propose pas de moyen efficace pour effectuer une reconstruction de table en ligne, car l&#39;instruction VACUUM FULL verrouille la table, empêchant ainsi une production régulière. La maintenance doit donc être effectuée lorsque la table n&#39;est pas utilisée. Vous pouvez, au choix :
 
 * effectuer la maintenance lorsque la plateforme Adobe Campaign est arrêtée,
-* arrêtez les différents sous-services Adobe Campaign susceptibles d’écrire dans la table en cours de reconstruction (**nlserver stop wfserver nom_instance** pour arrêter le processus de workflow).
+* arrêter les différents sous-services Adobe Campaign susceptibles d&#39;écrire dans la table qui est en cours de reconstruction (par exemple **nlserver stop wfserver@nom_de_l&#39;instance** pour arrêter le processus de workflow).
 
 Voici un exemple de défragmentation de table à l&#39;aide de fonctions qui permettent de générer le langage de définition de données (LDD) voulu. La requête SQL suivante permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2** qui peuvent être utilisées pour générer le LDD destiné à recréer une table.
 
@@ -428,14 +428,14 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
 1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]** dans le menu contextuel..
 1. Cliquez sur **[!UICONTROL Suivant]** lorsque la page d&#39;accueil s&#39;affiche.
 1. Choisissez le type de plan de maintenance que vous souhaitez créer (exécution de la maintenance en une fois ou création d&#39;un plan pour chaque tâche de maintenance), puis cliquez sur **[!UICONTROL Modifier]**.
-1. Dans la fenêtre **[!UICONTROL Propriétés de la planification du travail]**, choisissez les paramètres d&#39;exécution voulus et cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Propriétés de la planification du traitement]**, choisissez les paramètres d&#39;exécution voulus et cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Suivant]**.
 1. Sélectionnez les tâches de maintenance à effectuer comme illustré ci-dessous puis cliquez sur **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
    >Nous vous conseillons d&#39;effectuer au moins les tâches de maintenance comme illustré ci-dessus. Vous pouvez également sélectionner la tâche de mise à jour des statistiques si vous le souhaitez, sachant que cette tâche est déjà effectuée par le workflow de nettoyage de la base.
 
-1. Dans la liste déroulante, sélectionnez la base de données sur laquelle vous souhaitez exécuter la tâche **[!UICONTROL Vérifier l’intégrité de la base de données]**.
+1. Dans la liste déroulante, sélectionnez la base de données sur laquelle vous souhaitez effectuer la tâche **[!UICONTROL Vérifier l&#39;intégrité de la base de données]**.
 1. Sélectionnez la base concernée et cliquez sur **[!UICONTROL OK]** puis **[!UICONTROL Suivant]**.
 1. Configurez la taille maximale allouée à votre base de données puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -470,7 +470,7 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
 1. Dans l&#39;explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
 1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
 
-   Notez qu’un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Tâches]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple, il n’y a qu’un seul objet, car toutes les tâches de maintenance font partie du même plan.
+   Vous remarquerez qu&#39;un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Traitements]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple il n&#39;y a qu&#39;un seul objet car toutes les tâches de maintenance font partie du même plan de maintenance.
 
    >[!IMPORTANT]
    >
@@ -484,8 +484,8 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
 
 L&#39;option **WdbcOptions_TempDbName** permet de configurer une base de données distincte pour les tables de travail de Microsoft SQL Server. Cette configuration permet d&#39;optimiser les sauvegardes et la réplication.
 
-Cette option peut être utilisée si vous souhaitez que les tables de travail (par exemple, les tables créées lors de l&#39;exécution d&#39;un workflow) soient créées dans une autre base de données.
+Cette option peut être utilisée si vous souhaitez que les tables de travail (par exemple, les tables créées pendant l&#39;exécution d&#39;un workflow) soient créées dans une autre base de données.
 
-Lorsque vous définissez l&#39;option sur &quot;tempdb.dbo.&quot;, les tables de travail sont créées dans la base de données temporaire par défaut de Microsoft SQL Server. L&#39;administrateur de la base de données doit autoriser l&#39;accès en écriture à la base de données tempdb.
+Lorsque vous définissez l&#39;option sur &quot;tempdb.dbo.&quot;, les tables de travail sont créées dans la base de données temporaire par défaut de Microsoft SQL Server. L&#39;administrateur de la base de données doit autoriser l&#39;accès en écriture à la base de données tempdb.
 
-Si cette option est définie, elle est utilisée sur toutes les bases de données Microsoft SQL Server configurées dans Adobe Campaign (base de données principale et comptes externes). Notez que si deux comptes externes partagent le même serveur, des conflits peuvent se produire (car tempdb est unique). De la même manière, si deux instances Campaign utilisent le même serveur MSSQL, il peut y avoir des conflits si elles utilisent la même tempdb.
+Si cette option est définie, elle est utilisée sur toutes les bases de données Microsoft SQL Server configurées dans Adobe Campaign (base de données principale et comptes externes). Veuillez noter que si deux comptes externes partagent le même serveur, des conflits peuvent survenir (car tempdb est unique). De même, si deux instances Campaign utilisent le même serveur MSSQL, il peut y avoir des conflits si elles utilisent la même tempdb.
