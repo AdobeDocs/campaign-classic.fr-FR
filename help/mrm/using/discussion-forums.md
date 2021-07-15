@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Dans la boîte **[!UICONTROL Forum de discussion]** :
 >
 >Une fois un message posté dans le forum, il ne peut plus être modifié ni supprimé.
 
-## Publier sur le forum personnel d&#39;un opérateur {#posting-to-the-personal-forum-of-an-operator}
+## Poster un message dans le forum personnel d&#39;un opérateur {#posting-to-the-personal-forum-of-an-operator}
 
 Vous pouvez poster un message dans le forum d&#39;un opérateur si par exemple votre message ne relève pas d&#39;une opération particulière mais que vous voulez conservez une trace de votre communication dans Adobe Campaign. Les forums personnels des opérateurs sont publics et tous les opérateurs pourront lire vos messages. L&#39;opérateur reçoit un email à chaque message posté dans son forum personnel.
 
