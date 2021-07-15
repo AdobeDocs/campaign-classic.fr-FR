@@ -7,31 +7,31 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3899'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Création et gestion de tâches{#creating-and-managing-tasks}
 
-Adobe Campaign permet de créer des tâches et de gérer leur cycle de vie complet directement au sein de l&#39;application. La mise en oeuvre des programmes et des opérations peut être découpée en tâches qui sont assignées à des opérateurs Adobe Campaign ou à des prestataires externes. Ce mode de fonctionnement permet de créer un environnement de collaboration ouvert incluant tous les participants au programme et les intervenants externes.
+Adobe Campaign permet de créer des tâches et de gérer leur cycle de vie complet directement au sein de l&#39;application. La mise en œuvre des programmes et des opérations peut être découpée en tâches qui sont assignées à des opérateurs Adobe Campaign ou à des prestataires externes. Ce mode de fonctionnement permet de créer un environnement de collaboration ouvert incluant tous les participants au programme et les intervenants externes.
 
 Les tâches peuvent être créées, visualisées et suivies au niveau de liste des tâches et du tableau de bord d&#39;une opération. Elles peuvent également être visualisées et suivies au niveau des plannings du plan marketing, des programmes et des opérations.
 
 Les tâches sont attachées à des opérations, et peuvent avoir des dépendances, c&#39;est-à-dire des tâches associées. Chaque tâche a un statut, une priorité, une charge estimée et des coûts associés.
 
-Toutes les tâches sont regroupées dans une liste accessible à partir de l’onglet **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
+Toutes les tâches sont regroupées dans une liste accessible à partir de l&#39;onglet **Campagnes**. Voir à ce propos la section [Accéder aux tâches](#accessing-tasks).
 
 Elles peuvent être affichées dans le planning du programme auquel elles appartiennent.
 
 ![](assets/d_ncs_user_tasks_in_planning.png)
 
-## Accès aux tâches {#accessing-tasks}
+## Accéder aux tâches {#accessing-tasks}
 
 ### Afficher les tâches {#displaying-tasks}
 
-Les tâches sont affichées dans la liste des tâches accessible à partir de l’onglet **[!UICONTROL Campagnes]**.
+Les tâches sont affichées dans la liste des tâches accessible à partir de l&#39;onglet **[!UICONTROL Campagnes]**.
 
 ![](assets/s_ncs_user_task_edit_view.png)
 
@@ -39,7 +39,7 @@ Vous pouvez y visualiser toutes les tâches de l&#39;opérateur connecté.
 
 Pour plus d&#39;informations, voir les sections [Etat d&#39;exécution d&#39;une tâche](#execution-status-of-a-task) et [Etat d&#39;avancement d&#39;une tâche](#progress-status-of-a-task).
 
-### Filtrage des tâches {#filtering-tasks}
+### Filtrer les tâches {#filtering-tasks}
 
 Lorsque vous affichez cette vue, elle est automatiquement filtrée afin de n&#39;afficher **[!UICONTROL que les tâches de l&#39;opérateur]**. Vous pouvez toutefois filtrer les tâches à partir des champs proposés dans la section supérieure de la fenêtre.
 
@@ -47,13 +47,13 @@ Lorsque vous affichez cette vue, elle est automatiquement filtrée afin de n&#39
 
 ### Modifier les tâches {#editing-tasks}
 
-Cliquez sur une tâche pour l&#39;éditer.
+Cliquez sur une tâche pour la modifier.
 
 ![](assets/s_ncs_user_task_edit_from_view.png)
 
 ## Créer une nouvelle tâche {#creating-a-new-task}
 
-Pour créer une tâche, cliquez sur le lien **[!UICONTROL Tâches]** de l’onglet **[!UICONTROL Campagnes]** et choisissez **[!UICONTROL Créer]**.
+Pour créer une tâche, cliquez sur le lien **[!UICONTROL Tâches]** de l&#39;onglet **[!UICONTROL Campagnes]** et choisissez **[!UICONTROL Créer]**.
 
 ![](assets/s_ncs_user_task_create_new.png)
 
@@ -133,7 +133,7 @@ Le responsable de la tâche peut se charger de la validation et ce, même si des
 
 ### Documents référencés {#documents-referenced}
 
-Il est possible d&#39;ajouter des documents et des ressources marketing à une tâche (voir à ce sujet [Gestion des ressources marketing](../../mrm/using/managing-marketing-resources.md)). Pour ce faire, ouvrez la tâche et cliquez sur l&#39;icône **[!UICONTROL Documents]** dans la barre d&#39;outils de la tâche.
+Il est possible d&#39;ajouter des documents et des ressources marketing à une tâche (pour plus d&#39;informations, voir la section [Gérer les ressources marketing](../../mrm/using/managing-marketing-resources.md)). Pour ce faire, ouvrez la tâche et cliquez sur l&#39;icône **[!UICONTROL Documents]** dans la barre d&#39;outils de la tâche.
 
 Cliquez sur **[!UICONTROL Ajouter]** et sélectionnez le document que vous souhaitez attacher à votre tâche. Faites de même pour les ressources marketing.
 
@@ -191,7 +191,7 @@ Un prestataire externe peut être impliqué dans la gestion de la tâche.
 
 Pour cela, éditez les propriétés de la tâche et sélectionnez le prestataire concerné. Les postes de coûts associés au prestataire sont automatiquement listés dans la section centrale de la fenêtre.
 
-Voir à ce sujet la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 Sélectionnez les postes de coûts afférents à la réalisation de la tâche. Pour cela, choisissez le type de coût et ajoutez éventuellement un montant à surcharger.
 
@@ -199,7 +199,7 @@ Sélectionnez les postes de coûts afférents à la réalisation de la tâche. P
 
 >[!NOTE]
 >
->La méthode de gestion des budgets et des coûts est présentée dans la section [Coûts de contrôle](../../mrm/using/controlling-costs.md).
+>La méthode de gestion des budgets et des coûts est présentée dans la section [Maîtriser les coûts](../../mrm/using/controlling-costs.md).
 
 Lorsqu&#39;un prestataire est sélectionné, il est affiché dans le tableau de bord de la tâche :
 
@@ -245,7 +245,7 @@ Pour créer une tâche directement rattachée à un programme :
 
 ### Disponibilité des opérateurs {#operator-availability}
 
-Dans le tableau de bord d&#39;une tâche, une icône près du nom de l&#39;opérateur signale que celui-ci est déjà mobilisé sur une autre tâche ou un évènement à un moment pendant la période couverte par la tâche. (Tâche dont l&#39;opérateur est responsable ou à laquelle il participe : il apparaît dans le champ **[!UICONTROL Affecté à]**, ou dans la boîte **[!UICONTROL Ressources]** de la tâche).
+Dans le tableau de bord d&#39;une tâche, une icône près du nom de l&#39;opérateur signale que celui-ci est déjà mobilisé sur une autre tâche ou un événement à un moment pendant la période couverte par la tâche. (Tâche dont l&#39;opérateur est responsable ou à laquelle il participe : il apparaît dans le champ **[!UICONTROL Affecté à]**, ou dans la boîte **[!UICONTROL Ressources]** de la tâche).
 
 ![](assets/mrm_task_alert_operator_busy.png)
 
@@ -299,18 +299,18 @@ Une tâche de création de ressource marketing peut être utilisée pour gérer 
 
 #### Interaction entre la tâche et sa ressource associée {#interaction-between-the-task-and-its-linked-resource}
 
-La tâche de création d&#39;une ressource marketing interagit avec la ressource qui lui est associée. Ainsi :
+La tâche de création d&#39;une ressource marketing interagit avec la ressource qui lui est associée. Ainsi :
 
 * Le planning d&#39;élaboration de la ressource et les coûts liés à celle-ci sont gérés via la tâche.
 * Les opérateurs peuvent travailler normalement sur la ressource (télécharger le fichier vers ou depuis le serveur, verrouiller et déverrouiller la ressource) : cela n&#39;a pas d&#39;incidence sur la tâche.
-* La validation et la publication de la ressource peuvent être faites via la tâche : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est active, la ressource est automatiquement validée et publiée lorsque la tâche est terminée. Si l&#39;option n&#39;est pas active, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource : une action effectuée dans l&#39;une n&#39;aura aucun effet sur l&#39;autre.
+* La validation et la publication de la ressource peuvent être faites via la tâche : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est active, la ressource est automatiquement validée et publiée lorsque la tâche est terminée. Si l&#39;option n&#39;est pas active, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource : une action effectuée dans l&#39;une n&#39;aura aucun effet sur l&#39;autre.
 
    Vous pouvez utiliser une série de tâches liées pour définir un chemin de validation complet. Cochez l&#39;option **[!UICONTROL Publier la ressource marketing]** uniquement au niveau de la dernière tâche : toutes les tâches devront être terminées pour que la ressource puisse être publiée. De plus, lorsque vous créerez une tâche de ressource marketing enfant d&#39;une autre tâche de ressource marketing, la ressource sera automatiquement sélectionnée dans la tâche-fille.
 
    * **Via la ressource** : si vous soumettez la ressource à validation ou la validez, ces actions n&#39;auront aucun effet sur la tâche.
    * **Via la tâche** : si l&#39;option **[!UICONTROL Publier la ressource marketing]** est cochée dans la tâche, la ressource est automatiquement validée et publiée lorsque la tâche est terminée (voir ci-dessous). Si l&#39;option n&#39;est pas cochée, il n&#39;y a pas d&#39;interaction entre la tâche et la ressource :une action effectuée dans l&#39;une n&#39;aura aucune incidence sur l&#39;autre.
 
-#### Configuration d’une tâche de création de ressource marketing {#configuring-a-marketing-resource-creation-task}
+#### Paramétrer une tâche de création de ressource marketing {#configuring-a-marketing-resource-creation-task}
 
 Le validant de la tâche peut être différent du validant de contenu défini dans la ressource. Cependant, si l&#39;option **[!UICONTROL Publier la ressource marketing]** est cochée (voir ci-dessous), le validant de la tâche est autorisé à valider le contenu de la ressource, puisque terminer la tâche valide automatiquement la ressource (ou, si aucun validant n&#39;est défini, le responsable de la tâche).
 
@@ -327,7 +327,7 @@ Le bouton **[!UICONTROL Publier la ressource]** est rendu disponible et le valid
 
 ![](assets/mrm_resource_audit_tab.png)
 
-### Tâche du groupe {#grouping-task}
+### Tâche de groupement {#grouping-task}
 
 La tâche de type **[!UICONTROL Tâche de groupement]** permet de regrouper plusieurs tâches et de synchroniser la gestion de leur état d&#39;avancement et de leur validation.
 
@@ -394,7 +394,7 @@ Chaque sous-tâche est une tâche standard, liée à la tâche principale.
 
 ![](assets/s_ncs_user_task_depends_on.png)
 
-#### Tâches de groupe {#grouping-tasks}
+#### Tâches de groupement {#grouping-tasks}
 
 Utilisez le champ **[!UICONTROL Regroupé à]** pour faire dépendre la réalisation d&#39;une tâche de la réalisation d&#39;une autre tâche.
 
@@ -417,7 +417,7 @@ On décale la tâche parent : elle finit maintenant le 11 octobre à 13h. Seule 
 
 ![](assets/mrm_task_parent_postpones_child.png)
 
-### Etat d&#39;exécution d&#39;une tâche {#execution-status-of-a-task}
+### Statut d&#39;exécution d&#39;une tâche {#execution-status-of-a-task}
 
 Les statuts des tâches sont visualisables dans la vue d&#39;ensemble des tâches. Le statut de réalisation d&#39;une tâche est mis à jour automatiquement en fonction des actions des opérateurs.
 
@@ -438,7 +438,7 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 
 
 
-### Etat d&#39;avancement d&#39;une tâche {#progress-status-of-a-task}
+### Statut d&#39;avancement d&#39;une tâche {#progress-status-of-a-task}
 
 En plus de son statut d&#39;exécution, une tâche peut être associée à un état d&#39;avancement : **[!UICONTROL En retard]**, **[!UICONTROL A valider]**, **[!UICONTROL A faire aujourd&#39;hui]** ou **[!UICONTROL A faire cette semaine]**. Ces informations sont automatiquement renseignées en fonction du planning de réalisation de la tâche.
 
