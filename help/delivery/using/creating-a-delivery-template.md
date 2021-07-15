@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
