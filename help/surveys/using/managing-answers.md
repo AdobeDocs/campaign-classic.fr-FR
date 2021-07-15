@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ En complément des modes de stockage standard communs à tous les formulaires We
 >
 >Cette option n&#39;est disponible que pour les formulaires web de type **Questionnaires**. Elle n&#39;est pas proposée pour d&#39;autres types de formulaires web.
 
-### Stocker dans un champ archivé {#storing-in-an-archived-field}
+### Stocker les réponses dans un champ archivé {#storing-in-an-archived-field}
 
 Vous pouvez facilement étendre le modèle de données en ajoutant de nouveaux espaces de stockage pour enregistrer les réponses fournies dans les questionnaires. Vous devez pour cela choisir l&#39;option **[!UICONTROL Stocker les réponses à une question]** lors de la création du champ de saisie. Cliquez sur le lien **[!UICONTROL Nouveau champ...]** et indiquez ses propriétés :
 
@@ -99,11 +99,11 @@ Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans 
 
 ### Paramètres de stockage {#storage-settings}
 
-Vous pouvez archiver les réponses aux questionnaires au format XML. Vous pouvez ainsi conserver une copie brute des réponses collectées, ce qui peut s&#39;avérer utile en cas de normalisation excessive des données dans une liste détaillée. [En savoir plus](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+Vous pouvez archiver les réponses aux questionnaires au format XML. Vous pouvez ainsi conserver une copie brute des réponses collectées, ce qui peut s&#39;avérer utile en cas de normalisation excessive des données dans une liste détaillée d&#39;informations. [En savoir plus](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >
->L’archivage des réponses brutes affecte l’espace de stockage requis. Utilisez cette option avec précaution.
+>L&#39;archivage des réponses brutes affecte l&#39;espace de stockage requis. Utilisez cette option avec précaution.
 
 Pour cela :
 
