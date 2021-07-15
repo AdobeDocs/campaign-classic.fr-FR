@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Le chapitre suivant présente les étapes de conception d&#39;un formulaire de t
 >
 >Lors de la configuration d&#39;applications web et de formulaires web, vous devez disposer d&#39;une résolution verticale minimale de 900 pixels (ex : 1 600x900).
 
-Les formulaires web sont accessibles via le menu Applications Web de l’onglet **Campagnes**. Dans l’arborescence d’Adobe Campaign, ils sont regroupés sous le nœud **[!UICONTROL Ressources > En ligne > Applications Web]**.
+Les formulaires web sont accessibles via le menu Applications Web de l&#39;onglet **Campagnes**. Dans l&#39;arborescence d&#39;Adobe Campaign, ils sont regroupés sous le nœud **[!UICONTROL Ressources > En ligne > Applications Web]**.
 
 Pour créer un formulaire Web, cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des applications Web.
 
@@ -57,7 +57,7 @@ Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont 
 
 * Définir de l&#39;enchaînement des pages et conditionner l&#39;affichage.
 
-   Cette étape est présentée dans la section [Définir l’enchaînement des pages des formulaires web](defining-web-forms-page-sequencing.md).
+   Cette étape est présentée dans la section [Définir l&#39;enchaînement des pages des formulaires web](defining-web-forms-page-sequencing.md).
 
 * Au besoin, traduire le contenu.
 
@@ -65,7 +65,7 @@ Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont 
 
 ## A propos de la conception des formulaires web {#about-web-forms-designing}
 
-Les pages du formulaire sont créées dans un éditeur spécifique qui permet de définir et de configurer des zones d’entrée (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenus HTML, etc.). Ces éléments peuvent être regroupés en conteneurs et leur disposition modifiée en fonction de vos besoins (voir à ce sujet la section [Créer des conteneurs](defining-web-forms-layout.md#creating-containers)).
+Les pages du formulaire sont créées dans un éditeur spécifique qui permet de définir et de configurer des zones d&#39;entrée (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenus HTML, etc.). Ces éléments peuvent être regroupés en conteneurs et leur disposition modifiée en fonction de vos besoins (voir à ce sujet la section [Créer des conteneurs](defining-web-forms-layout.md#creating-containers)).
 
 La définition du contenu et de la mise en page des écrans du formulaire sont présentés dans les sections suivantes :
 
@@ -78,6 +78,7 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 >
 >* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans le sous-onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
 >* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
+
 >
 
 
