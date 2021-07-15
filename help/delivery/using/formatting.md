@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Les attributs et éléments du contenu sont représentés comme des objets JavaS
 **Exemple**:
 
 * **content.@name** : récupère la valeur de l’attribut « name » de l’élément principal
-* **contenu.@`['name']`** : identique au contenu **.syntaxe @name**
+* **content.@`['name']`** : identique au contenu **.syntaxe @name**
 * **content.chapter.length**`<chapter` : retourne le nombre d’éléments sur l’élément de collection
 * **content.chapter`[0]`.@name** : récupère le nom du premier élément `<chapter>`
 * **chapter.name()** : retourne le nom de l’élément `<chapter>`
@@ -564,7 +564,7 @@ Dans le formulaire, le champ de sélection de l&#39;image sera ajouté via la sy
 
 ## Affichage des dates {#date-display}
 
-Dans le document XML en entrée, les dates sont stockées au format interne XML : **AAAA/MM/JJ HH:MM:SS** (exemple 2018/10/01 12:23:30).
+Dans le document XML en entrée, les dates sont stockées dans le format interne XML : **AAA/MM/JJ HH:MM:SS** (exemple 2018/10/01 12:23:30).
 
 Adobe Campaign met à disposition des fonctions de formatage des dates pour les templates JavaScript et les feuilles de style XSL qui sont présentés ci-après.
 
