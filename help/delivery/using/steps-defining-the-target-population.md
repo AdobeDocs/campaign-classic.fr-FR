@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1746'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Définir la population cible {#defining-the-target-population}
 
-## A propos des populations ciblées {#about-target-populations}
+## A propos des populations cibles {#about-target-populations}
 
 Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible :
 
