@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
 ht-degree: 100%
 
@@ -452,7 +452,7 @@ Pour ajouter une langue, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
 
-1. Sélectionnez la langue de traduction et saisissez une traduction pour la chaîne. Vous pouvez approuver la traduction en cochant l’option **[!UICONTROL Traduction validée]**.
+1. Sélectionnez la langue de traduction et saisissez une traduction pour la chaîne. Vous pouvez approuver la traduction en cochant l&#39;option **[!UICONTROL Traduction validée]**.
 
    ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
@@ -468,10 +468,10 @@ Pour ajouter une langue, procédez comme suit :
 
 Pour traduire vos applications web dans d&#39;autres langues que celles proposées par défaut (voir [Changer la langue d&#39;affichage des formulaires](#changing-forms-display-language)), vous devez ajouter une nouvelle langue de traduction.
 
-1. Cliquez sur le nœud **[!UICONTROL Administration > Plateforme > Énumérations]** de l’arborescence d’Adobe Campaign et sélectionnez **[!UICONTROL Langues disponibles pour la traduction]** dans la liste. La liste des traductions disponibles s’affiche dans la partie inférieure de la fenêtre.
+1. Cliquez sur le nœud **[!UICONTROL Administration > Plateforme > Énumérations]** de l&#39;arborescence d&#39;Adobe Campaign et sélectionnez **[!UICONTROL Langues disponibles pour la traduction]** dans la liste. La liste des traductions disponibles s&#39;affiche dans la partie inférieure de la fenêtre.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis renseignez le **[!UICONTROL Nom interne]**, le **[!UICONTROL Libellé]** et l’identifiant de l’image correspondant au drapeau de la langue. Pour ajouter une nouvelle image, contactez votre administrateur.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis renseignez le **[!UICONTROL Nom interne]**, le **[!UICONTROL Libellé]** et l&#39;identifiant de l&#39;image correspondant au drapeau de la langue. Pour ajouter une nouvelle image, contactez votre administrateur.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
