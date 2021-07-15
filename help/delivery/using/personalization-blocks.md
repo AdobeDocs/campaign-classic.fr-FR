@@ -7,21 +7,21 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Blocs de personnalisation{#personalization-blocks}
 
-Blocs de personnalisation sont dynamiques, personnalisées et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Voir [Insérer des blocs de personnalisation](#inserting-personalization-blocks).
+Blocs de personnalisation  sont dynamiques, personnalisés et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Voir [Insérer des blocs de personnalisation](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png)Découvrez cette fonctionnalité [en vidéo](#personalization-blocks-video)
 
-Les blocs de personnalisation sont accessibles notamment à partir du nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir [Blocs de personnalisation d’usine](#out-of-the-box-personalization-blocks)).
+Les blocs de personnalisation sont accessibles notamment à partir du nœud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;explorateur Adobe Campaign. Plusieurs blocs sont disponibles par défaut (voir [Blocs de personnalisation d&#39;usine](#out-of-the-box-personalization-blocks)).
 
-Vous pouvez définir de nouveaux blocs qui vous permettront d’optimiser la personnalisation de vos diffusions. Voir à ce sujet la section [Définir des blocs de personnalisation personnalisés](#defining-custom-personalization-blocks).
+Vous pouvez définir de nouveaux blocs qui vous permettront d&#39;optimiser la personnalisation de vos diffusions. Voir à ce sujet la section [Définir des blocs de personnalisation personnalisés](#defining-custom-personalization-blocks).
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Pour insérer un bloc de personnalisation dans un message, procédez comme suit�
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. Le menu **[!UICONTROL Autre...]** donne accès à tous les blocs de personnalisation d’usine et personnalisés (voir [Blocs de personnalisation d’usine](#out-of-the-box-personalization-blocks) et [Définir des blocs de personnalisation personnalisés](#defining-custom-personalization-blocks)).
+1. Le menu **[!UICONTROL Autre...]** donne accès à tous les blocs de personnalisation d&#39;usine et personnalisés (voir [Blocs de personnalisation d&#39;usine](#out-of-the-box-personalization-blocks) et [Définir des blocs de personnalisation personnalisés](#defining-custom-personalization-blocks)).
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -68,7 +68,7 @@ Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 
 >[!NOTE]
 >
->Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
+>Pour plus d&#39;informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
 
 1. Créez une nouvelle diffusion ou ouvrez une diffusion existante de type email.
 1. Dans l&#39;assistant de diffusion, cliquez sur le lien **[!UICONTROL Objet]** pour éditer l&#39;objet du message et saisir un objet.
@@ -100,12 +100,12 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
+   >Pour plus d&#39;informations sur la génération des pages miroir, voir [Générer la page miroir](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Lien vers la page miroir]** : insère un lien vers la page miroir : « Si vous ne parvenez pas à voir correctement ce message, cliquez ici. ».
 * **[!UICONTROL Lien de désinscription]** : insère un lien permettant de se désabonner de toutes les diffusions (liste bloquée).
 * **[!UICONTROL Fonction de formatage d&#39;un nom propre]** : génère la fonction JavaScript **[!UICONTROL toSmartCase]** qui convertit la première lettre de chaque mot en majuscule.
-* **[!UICONTROL URL de la page d’inscription]** : insère une URL d’abonnement (voir [A propos des services et des abonnements](about-services-and-subscriptions.md)).
+* **[!UICONTROL URL de la page d&#39;inscription]** : insère une URL d&#39;abonnement (voir [A propos des services et des abonnements](about-services-and-subscriptions.md)).
 * **[!UICONTROL Lien d&#39;inscription]** : insère un lien d&#39;inscription qui a été défini lors du paramétrage de l&#39;instance.
 * **[!UICONTROL Lien d&#39;inscription (avec parrain)]** : insère un lien d&#39;inscription qui permet d&#39;identifier le visiteur et la diffusion. Le lien a été défini lors du paramétrage de l&#39;instance.
 
@@ -146,4 +146,4 @@ Découvrez comment créer des blocs de contenu dynamiques et comment les utilise
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
