@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les étapes clés sont les suivantes :
 
 1. [Configuration du compte externe iOS](#configuring-external-account-ios)
 1. [Configuration du service iOS](#configuring-ios-service)
-1. [Intégration de l’application mobile iOS dans Campaign](#creating-ios-app)
+1. [Intégration de l&#39;application mobile iOS dans Campaign](#creating-ios-app)
 
 Vous pourrez ensuite [créer une notification push pour les appareils iOS](create-notifications-ios.md).
 
@@ -73,7 +73,7 @@ Votre connecteur iOS est maintenant paramétré. Vous pouvez créer votre servic
 
 1. Créez vos applications de développement et de production iOS. Pour plus d’informations à ce sujet, consultez cette [section](configuring-the-mobile-application.md#creating-ios-app).
 
-## Création d’une application mobile iOS {#creating-ios-app}
+## Création d&#39;une application mobile iOS {#creating-ios-app}
 
 Après avoir créé votre service, créez votre application iOS dans Campaign. Procédez comme suit :
 
