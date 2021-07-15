@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,13 +43,13 @@ Les mpgs de diffusion et de tracking sont supprimés après une certaine périod
 
 Enfin, une partie du modèle de données est constituée de données techniques utilisées pour le processus applicatif, y compris les opérateurs et les droits d’utilisateur (**NmsGroup**), les dossiers (**XtkFolder**).
 
-## Utilisation de la table des destinataires intégrée {#default-recipient-table}
+## Utilisation de la table des destinataires native {#default-recipient-table}
 
-La table des destinataires intégrée dans Adobe Campaign constitue un bon point de départ pour la création de votre modèle de données. Elle comporte un certain nombre de champs prédéfinis et de liens vers des tables faciles à étendre. Son emploi est particulièrement efficace si vous ciblez principalement les destinataires, car elle s&#39;appuie sur un modèle de données centré sur ces derniers.
+La table des destinataires intégrée d&#39;Adobe Campaign est un bon point de départ pour créer votre modèle de données. Elle comporte un certain nombre de champs prédéfinis et de liens vers des tables faciles à étendre. Son emploi est particulièrement efficace si vous ciblez principalement les destinataires, car elle s&#39;appuie sur un modèle de données centré sur ces derniers.
 
-Les avantages de l’utilisation de la table des destinataires intégrée sont les suivants :
+Les avantages d&#39;une table de destinataires native sont les suivants :
 
-* Utilisation de fonctionnalités intégrées telles que les abonnements, les listes de contrôle, etc.
+* Des fonctionnalités natives telles que les abonnements, les listes de contrôle, etc.
 * Disposer d&#39;une base de données marketing dotée d&#39;un modèle de données axé sur les destinataires.
 * Permettre une mise en œuvre plus rapide.
 * Faciliter les prestations de maintenance des intervenants chargés de l&#39;assistance et des partenaires.
