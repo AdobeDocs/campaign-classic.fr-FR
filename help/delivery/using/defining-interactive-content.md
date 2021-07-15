@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1588'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Pour créer un email au format AMP, procédez comme suit.
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas prévisualiser votre contenu AMP directement dans Adobe Campaign. Utilisez un site Web externe tel que [AMP Playground](https://playground.amp.dev).
+   >Vous ne pouvez pas prévisualiser votre contenu AMP directement dans Adobe Campaign. Utilisez un site Web externe tel que [AMP Playground](https://playground.amp.dev/fr).
 
 1. Retournez dans Adobe Campaign et copiez-collez votre contenu validé dans l’onglet **[!UICONTROL Contenu AMP]**.
 
