@@ -7,17 +7,17 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Création des modèles de diffusion {#step-3--creating-two-delivery-templates}
 
-Nous allons maintenant créer deux modèles de diffusion. Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion Email]** associée à l&#39;activité **[!UICONTROL Partage]**. Voir à ce propos [cette section](about-templates.md).
+Vous allez à présent créer deux modèles de diffusion. Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion e-mail]** rattachée à l&#39;activité **[!UICONTROL Partage]**. Reportez-vous à [cette section](about-templates.md) pour plus d&#39;informations.
 
-1. Accédez au dossier **[!UICONTROL Ressources > Modèle de diffusion]** .
+1. Accédez au dossier **[!UICONTROL Ressources > Modèle de diffusion]**.
 1. Dupliquez le modèle de diffusion **[!UICONTROL Email]**.
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
