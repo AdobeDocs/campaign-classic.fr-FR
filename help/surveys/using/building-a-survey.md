@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Conception d’un questionnaire{#building-a-survey}
 
-## Créer une enquête {#creating-a-new-survey}
+## Créer un nouveau questionnaire {#creating-a-new-survey}
 
 Le chapitre suivant présente les étapes de conception d&#39;un formulaire de type **Questionnaire** sous Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign permet de mettre ce questionnaire à disposition des utilisateurs, et de collecter et archiver les réponses dans la base de données.
 
@@ -25,11 +25,11 @@ Choisissez le modèle de questionnaire (par défaut **[!UICONTROL newSurvey]**).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Les pages du formulaire sont créées à l&#39;aide d&#39;un éditeur spécifique qui permet de définir et paramétrer des champs de saisie (texte), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenu HTML, etc.). Ils peuvent être collectés dans des &quot;conteneurs&quot; et disposés selon les besoins. [En savoir plus](#adding-questions)).
+Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique qui permet de définir et paramétrer des zones de saisie (textes), des champs de sélection (listes, cases à cocher, etc.) et des éléments statiques (images, contenus HTML, etc.). Ils peuvent être regroupés dans des conteneurs et mis en page selon vos besoins. [En savoir plus](#adding-questions)).
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la définition du contenu et la mise en page des écrans d&#39;un formulaire web, consultez [ce document](../../web/using/about-web-forms.md).
+>La définition du contenu et de la mise en page des écrans d&#39;un formulaire web sont présentés dans [ce document ](../../web/using/about-web-forms.md).
 
 ## Ajouter des champs {#adding-fields}
 
@@ -52,7 +52,7 @@ Lorsque vous ajouter un champ dans un questionnaire, vous devez sélectionner le
 
    >[!NOTE]
    >
-   >Les modes de stockage et les imports de champs sont présentés dans [cette section](../../surveys/using/managing-answers.md#storing-collected-answers).
+   >Les modes de stockage ainsi que l&#39;import de champs sont présentés dans [cette section](../../surveys/using/managing-answers.md#storing-collected-answers).
 
 La nature du champ à ajouter (liste déroulante, champ texte, cases à cocher, etc.) s&#39;adapte automatiquement au mode de stockage sélectionné. Vous pouvez toutefois la modifier à partir du champ **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**, en veillant à rester cohérent par rapport au type de données.
 
@@ -60,9 +60,9 @@ La nature du champ à ajouter (liste déroulante, champ texte, cases à cocher, 
 
 Les différents types de champs disponibles sont présentés dans [cette section](../../web/using/about-web-forms.md).
 
-## Eléments spécifiques aux questionnaires {#survey-specific-elements}
+## Éléments spécifiques aux questionnaires {#survey-specific-elements}
 
-Les questionnaires en ligne reposent sur les fonctionnalités des applications Web. Les fonctionnalités spécifiques à une enquête sont présentées ci-dessous.
+Les questionnaires en ligne reposent sur les fonctionnalités des applications web. Les fonctionnalités spécifiques à un questionnaire sont présentées ci-dessous.
 
 ### Choix multiples {#multiple-choice}
 
@@ -94,7 +94,7 @@ De plus, l&#39;espace de stockage pour ce champ de saisie doit être un **champ 
 
 ### Ajouter des questions {#adding-questions}
 
-Il existe deux types de conteneurs : standard et question. Les conteneurs standard sont utilisés pour configurer la mise en page et l’affichage conditionnel d’une page. [En savoir plus](../../web/using/about-web-forms.md).
+Les conteneurs peuvent être de deux types : standard ou question. Les conteneurs standards sont utilisés à des fins de mise en page et pour paramétrer un affichage conditionnel dans une page. [En savoir plus](../../web/using/about-web-forms.md).
 
 Utilisez un conteneur de type **Question** pour ajouter une question dans la page et insérer les réponses possibles en sous-arborescence. Les réponses des utilisateurs aux questions qui ont été positionnées dans ce type de conteneurs peuvent être analysées dans des rapports.
 
@@ -108,7 +108,7 @@ Le libellé de la question est saisi dans le champ libellé. Dans ce cas, le sty
 
 >[!NOTE]
 >
->Reportez-vous à [ce document](../../web/using/about-web-forms.md) pour plus d’informations sur l’utilisation de l’éditeur HTML.
+>L&#39;utilisation de l&#39;éditeur HTML est présentée dans [ce document ](../../web/using/about-web-forms.md).
 
 Par exemple :
 
