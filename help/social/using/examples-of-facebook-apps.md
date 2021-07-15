@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2382'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -297,7 +297,7 @@ L&#39;onglet **[!UICONTROL Activités]** de l&#39;écran de détails d&#39;un vi
    >
    >Pour qu&#39;Adobe Campaign récupère les check-ins effectués par le fan, vous devez cliquer sur le bouton **[!UICONTROL S’abonner]** dans l&#39;écran de configuration du service. Voir à ce sujet la section [Paramétrer les comptes externes](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
 
-## Comment précharger un formulaire à l’aide des données de profil Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## Comment précharger un formulaire à l&#39;aide des données de profil Facebook {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
 L’application **[!UICONTROL Social Marketing]** vous donne également la possibilité d’insérer, dans un formulaire, un bouton permettant de pré-remplir les champs grâce aux informations de profil Facebook. Cette option, disponible dans tous les modèles d’application web (activités de type **[!UICONTROL Page]**), est présentée dans [cette section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -309,9 +309,9 @@ L’application **[!UICONTROL Social Marketing]** vous donne également la possi
 
 **Pré-remplir les champs du formulaire avec les données de profil Facebook**
 
-Vous créez un formulaire web et incluez dans les pages du formulaire des éléments avec lesquels l’utilisateur n’a aucune interaction. il s’agit d’éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Pour en savoir plus sur les éléments statiques dans un formulaire web, consultez [cette page](../../web/using/static-elements-in-a-web-form.md).
+Vous créez un formulaire web et incluez des éléments avec lesquels l&#39;utilisateur n&#39;a aucune interaction dans les pages du formulaire ; il s&#39;agit d&#39;éléments statiques tels que des images, du contenu HTML, une barre horizontale ou un lien hypertexte. Pour en savoir plus sur les éléments statiques dans un formulaire web, consultez [cette page](../../web/using/static-elements-in-a-web-form.md).
 
-Lors de l&#39;insertion d&#39;un élément statique, l&#39;option **[!UICONTROL Précharger avec Facebook]** permet d&#39;insérer un bouton dans un formulaire afin de précharger les champs à l&#39;aide des informations de profil Facebook.
+Lorsque vous insérez un élément statique, l&#39;option **[!UICONTROL Précharger avec Facebook]** permet d&#39;insérer, dans un formulaire, un bouton permettant de pré-remplir les champs grâce aux informations de profil Facebook.
 
 ![](assets/web_social_webapp_037.png)
 
@@ -321,7 +321,7 @@ Lorsque l&#39;utilisateur clique sur le bouton **[!UICONTROL Remplir automatique
 
 >[!NOTE]
 >
->Vous pouvez modifier la liste des droits étendus lors de la configuration du compte externe. Si aucun droit étendu n’est configuré, Facebook transmet les informations de profil de base par défaut.\
+>Vous pouvez modifier la liste des droits étendus lors de la configuration du compte externe. Si aucun droit étendu n&#39;est configuré, Facebook transmet les informations de profil de base par défaut.\
 >Pour consulter la liste des droits étendus et leur syntaxe, [reportez-vous à la documentation Facebook](https://developers.facebook.com/docs/reference/api/permissions).
 
 Si l&#39;utilisateur autorise le partage de ses informations, les champs du formulaire sont alors pré-remplis.
