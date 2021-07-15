@@ -7,9 +7,9 @@ role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ _23 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
+> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
    >
    > 
 * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
@@ -108,7 +108,7 @@ _2 décembre 2019_
   <tr> 
 <td> <p>Adobe Campaign offre la possibilité de tester le nouveau format interactif <a href="https://amp.dev/about/email/">AMP pour email</a>. Ce format permet aux spécialistes du marketing d'incorporer des composants AMP dans les messages pour améliorer l'expérience d'utilisation des emails grâce à un contenu riche, dynamique et interactif, directement exploitable dans le message lui-même.</p>
    <p> Cette fonctionnalité est diffusée en version bêta publique.</p>
-   <p>Pour plus d'informations, consultez la <a href="../../delivery/using/defining-interactive-content.md">documentation détaillée</a> et regardez le <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutoriel vidéo</a>.</p><br /></td> 
+   <p>Pour plus d'informations, consultez la <a href="../../delivery/using/defining-interactive-content.md">documentation détaillée</a> et regardez le <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html?lang=fr">tutoriel vidéo</a>.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
