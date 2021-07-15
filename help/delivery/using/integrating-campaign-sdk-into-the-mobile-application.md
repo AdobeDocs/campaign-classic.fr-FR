@@ -8,9 +8,9 @@ topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Les SDK Campaign pour iOS et Android sont des composants du module Canal applica
 
 >[!NOTE]
 >
->Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour obtenir le SDK Campaign (anciennement connu sous le nom de SDK Neolane), contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 L&#39;intérêt du SDK est de faciliter l&#39;intégration d&#39;une application mobile à la plateforme Adobe Campaign.
 
@@ -54,15 +54,15 @@ Pour plus d&#39;informations sur les différentes versions Android et iOS prises
    >
    >Pour la version 1.0.25 du SDK, les quatre architectures sont disponibles dans le fichier **Neolane_SDK.h**.
 
-## Déclarer les paramètres d’intégration {#declaring-integration-settings}
+## Déclarer les paramètres d&#39;intégration {#declaring-integration-settings}
 
-Afin d’intégrer le SDK Campaign dans l’application mobile, l’administrateur fonctionnel doit fournir au développeur les informations suivantes :
+Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;administrateur fonctionnel doit fournir au développeur les informations suivantes :
 
 * **Une clé d&#39;intégration** permettant à la plateforme Adobe Campaign d&#39;identifier l&#39;application mobile.
 
    >[!NOTE]
    >
-   >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Voir la section [Paramétrage de l’application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
+   >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Voir la section [Paramétrage de l&#39;application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
 
 * **Une URL de tracking** correspondant à l&#39;adresse du serveur de tracking Adobe Campaign.
 * **Une URL marketing** permettant de collecter les abonnements.
@@ -146,7 +146,7 @@ La fonction d&#39;enregistrement permet :
 
    Les fonctions de tracking permettent de tracker l&#39;affichage de la notification (impression sur écran) et l&#39;activation des notifications (ouvertures).
 
-   Pour tracker l&#39;affichage d&#39;une notification (réalisé via l&#39;appel de la fonction **notifyReceive** du SDK),suivez l&#39;implémentation ci-après. Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **notifyReceive** lors de l’appel de la fonction **onMessageReceived** par le système Android.
+   Pour tracker l&#39;affichage d&#39;une notification (réalisé via l&#39;appel de la fonction **notifyReceive** du SDK),suivez l&#39;implémentation ci-après. Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **notifyReceive** lors de l&#39;appel de la fonction **onMessageReceived** par le système Android.
 
    ```
    package com.android.YourApplication;
@@ -290,13 +290,13 @@ La fonction d&#39;enregistrement permet :
 
    >[!NOTE]
    >
-   >A partir de la version 7.0, une fois la fonction **application:didReceiveRemoteNotification:fetchCompletionHandler** mise en oeuvre, le système d’exploitation appelle uniquement cette fonction. La fonction **application:didReceiveRemoteNotification** n’est donc pas appelée.
+   >À partir de la version 7.0, une fois la fonction **application:didReceiveRemoteNotification:fetchCompletionHandler** mise en œuvre, le système d&#39;exploitation appelle uniquement cette fonction. La fonction **application:didReceiveRemoteNotification** n&#39;est donc pas appelée.
 
-## Tracking des notifications silencieuses {#silent-notification-tracking}
+## Suivi des notifications silencieuses {#silent-notification-tracking}
 
 iOS permet d&#39;envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign vous permet de les tracker.
 
-Pour tracker votre notification silencieuse, suivez l&#39;exemple ci-après.
+Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 
 ```
 // AppDelegate.m
@@ -338,7 +338,7 @@ Pour tracker votre notification silencieuse, suivez l&#39;exemple ci-après.
 >
 >Ceci s&#39;applique exclusivement à iOS.
 
-Sous iOS, le protocole délégué vous permet d’obtenir le résultat de l’appel de **registerDevice** et peut être utilisé pour déterminer si une erreur s’est produite pendant l’enregistrement.
+Sous iOS, le protocole délégué vous permet d&#39;obtenir le résultat de l&#39;appel de **registerDevice** et peut être utilisé pour déterminer si une erreur s&#39;est produite pendant l&#39;enregistrement.
 
 Le prototype de **registerDeviceStatus** est le suivant :
 
@@ -530,7 +530,7 @@ Pour implémenter le délégué **registerDeviceStatus**, procédez comme suit 
 
 ## Variables {#variables}
 
-Les variables vous permettent de définir le comportement de l’application mobile après réception d’une notification. Ces variables doivent être définies dans le code de l’application mobile et dans la console Adobe Campaign, dans l’onglet **[!UICONTROL Variables]** du service d’applications mobiles dédié (voir la section [Paramétrage de l’application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
+Les variables vous permettent de définir le comportement de l&#39;application mobile après réception d&#39;une notification. Ces variables doivent être définies dans le code de l&#39;application mobile et dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Variables]** du service d&#39;applications mobiles dédié (voir la section [Paramétrage de l&#39;application mobile dans Adobe Campaign](configuring-the-mobile-application.md)). Voici un exemple de code qui permet à une application mobile de collecter toutes les variables ajoutées dans une notification. Dans notre exemple, nous utilisons la variable &quot;VAR&quot;.
 
 * **Sous Android** :
 
