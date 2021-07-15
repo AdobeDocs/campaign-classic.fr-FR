@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: configuring-channels
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2744'
 ht-degree: 100%
 
