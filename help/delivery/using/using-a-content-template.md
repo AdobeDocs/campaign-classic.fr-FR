@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
