@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 source-git-commit: cbfaf6a2c187ad62f7b6c9042b69f5e522fcfd02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
