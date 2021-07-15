@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '84'
 ht-degree: 100%
 
