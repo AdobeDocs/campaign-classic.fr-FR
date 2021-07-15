@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Coûts de contrôle
+title: Contrôle des coûts
 description: Découvrez comment contrôler les coûts
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2539'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Coûts de contrôle{#controlling-costs}
+# Contrôle des coûts{#controlling-costs}
 
 Adobe Campaign permet de contrôler les coûts marketing planifiés, engagés et facturés, et de les ventiler par catégories à l&#39;aide du module Marketing Resource Management.
 
@@ -31,7 +31,7 @@ Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivan
 
 1. Définition du mode de calcul des coûts
 
-   Les structures de coûts sont définies au niveau des prestataires. Voir [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   Les structures de coûts sont définies au niveau des prestataires. Voir la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 1. Définition des coûts des opérations (diffusions/tâches)
 
@@ -53,7 +53,7 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 
 * Saisir le montant initial
 
-   Indiquez le montant alloué dans le champ correspondant. Les autres montants sont renseignés automatiquement. Voir [Calcul des montants](#calculating-amounts).
+   Indiquez le montant alloué dans le champ correspondant. Les autres montants sont renseignés automatiquement. Voir [Calculer les montants](#calculating-amounts).
 
 * Définir la période de validité
 
@@ -71,7 +71,7 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 >
 >Voir à ce sujet la section [Rattacher un budget à un autre](#linking-a-budget-to-another).
 
-### Calcul des montants {#calculating-amounts}
+### Calculer les montants {#calculating-amounts}
 
 Chaque budget est défini par un montant initial qui sera décrémenté des coûts des différentes opérations, diffusions ou tâches qui lui sont rattachées, une fois qu&#39;elles auront été planifiées ou réalisées. Le statut des montants (prévu, réservé, engagé, dépensé, facturé) dépend du type de coût et du niveau d&#39;engagement définis au niveau de l&#39;opération, de la diffusion ou de la tâche.
 
@@ -126,7 +126,7 @@ Pour ajouter une catégorie, cliquez sur le bouton **[!UICONTROL Ajouter]** dans
 
 Vous pouvez sélectionner une catégorie parmi celles existantes ou définir une nouvelle catégorie en la saisissant directement dans le champ. Lorsque vous validez votre saisie, un message de confirmation vous permet d&#39;ajouter cette catégorie dans la liste des catégories existantes et éventuellement de l&#39;associer à une Nature. Ces informations seront exploitées dans les rapports sur les budgets.
 
-### Associer un budget à un autre {#linking-a-budget-to-another}
+### Rattacher un budget à un autre {#linking-a-budget-to-another}
 
 Vous pouvez rattacher un budget à un budget principal. Pour cela, sélectionnez le budget principal dans le champ **[!UICONTROL Budget de rattachement]** des budgets secondaires.
 
@@ -166,7 +166,7 @@ En fonction des postes de coûts sélectionnés, les structures de coûts corres
 
 >[!NOTE]
 >
->Les postes et structures de coûts sont présentés dans la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+>Les postes et les structures de coûts sont présentés dans la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
 ## Engagement, calcul et imputation des coûts {#cost-commitment--calculation-and-charging}
 
@@ -219,7 +219,7 @@ Nous allons créer une opération avec :
 * Une tâche avec un coût fixe
 * Une tâche avec un coût journalier
 
-#### Etape 1 - Créer le budget {#step-1---creating-the-budget}
+#### Étape 1 - Créer le budget {#step-1---creating-the-budget}
 
 1. Créez un nouveau budget à partir du noeud **[!UICONTROL Gestion de campagnes > Budgets]**.
 
@@ -227,9 +227,9 @@ Nous allons créer une opération avec :
 
 ![](assets/s_user_cost_mgmt_sample_1.png)
 
-#### Etape 2 - Configurer le prestataire et définir les structures de coûts {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
+#### Étape 2 - Configurer le prestataire et définir les structures de coûts {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du nœud **[!UICONTROL Administration > Campagnes.]** Voir à ce sujet la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+1. Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du nœud **[!UICONTROL Administration > Campagnes.]** Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
    Pour les diffusions courrier, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Puis créez les structures de coûts suivantes :
 
@@ -249,7 +249,7 @@ Nous allons créer une opération avec :
 
    ![](assets/s_user_cost_mgmt_sample_7.png)
 
-#### Etape 3 - imputer le budget à l&#39;opération {#step-3---charging-the-budget-in-the-campaign}
+#### Étape 3 - Imputer le budget dans l&#39;opération {#step-3---charging-the-budget-in-the-campaign}
 
 1. Créez une opération et sélectionnez le budget créé lors de l&#39;étape 1.
 
@@ -265,7 +265,7 @@ Nous allons créer une opération avec :
 
 1. Cliquez sur **[!UICONTROL Ok]** puis sur **[!UICONTROL Enregistrer]** pour valider ces données. Le coût calculé de l&#39;opération est alors mis à jour avec le coût prévisionnel estimé.
 
-#### Etape 4 - Créer la diffusion courrier {#step-4---creating-the-direct-mail-delivery}
+#### Étape 4 - Créer la diffusion courrier {#step-4---creating-the-direct-mail-delivery}
 
 1. Créez un workflow au niveau de l&#39;opération et positionnez les activités de requête afin de sélectionner la cible (attention, l&#39;adresse postale des destinataires doit être renseignée).
 
@@ -297,9 +297,9 @@ Au niveau de la diffusion, le coût calculé est mis à jour avec ces informatio
 
 Lorsque vous éditez le coût calculé, vous pouvez vérifier la ventilation des coûts ainsi que l&#39;état et la date du calcul des coûts.
 
-#### Etape 5 - Créer les tâches {#step-5---creating-tasks}
+#### Étape 5 - Créer les tâches {#step-5---creating-tasks}
 
-Dans cette opération, nous allons ajouter les deux tâches pour lesquelles les structures de coûts ont été créées précédemment (voir [Etape 2 - Configurer le prestataire et définir les structures de coûts](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Pour ce faire, dans le tableau de bord de la campagne, cliquez sur le bouton **[!UICONTROL Ajouter une tâche]**. Nommez la tâche et cliquez sur **[!UICONTROL Enregistrer]**.
+Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les structures de coûts ont été créées précédemment (voir [Étape 2 - Configurer le prestataire et définir les structures de coûts](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Pour ce faire, dans le tableau de bord de la campagne, cliquez sur le bouton **[!UICONTROL Ajouter une tâche]**. Nommez la tâche et cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. La tâche est alors ajoutée dans la liste des tâches. Vous devez l&#39;éditer pour la configurer.
 
@@ -351,7 +351,7 @@ Indiquez le numéro de la commande, le prestataire concerné et le montant total
 
 ![](assets/s_user_cost_create_order.png)
 
-### Émission et suivi de factures {#issuing-and-tracking-invoices}
+### Émettre et suivre des factures {#issuing-and-tracking-invoices}
 
 Pour chaque prestataire, vous pouvez enregistrer des factures et définir leur statut et le budget imputé.
 
