@@ -7,41 +7,41 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Étapes clés de création d’un questionnaire{#getting-started-with-surveys}
 
-Voici un aperçu rapide des principales étapes pour créer un questionnaire simple, à l&#39;aide du modèle intégré suivant :
+Nous vous proposons ici d&#39;aborder rapidement, en sept étapes clés, la création d&#39;un questionnaire simple, selon le modèle natif suivant :
 
 ![](assets/s_ncs_admin_survey_result.png)
 
 Ces étapes sont les suivantes :
 
-1. [Etape 1 - Créer un questionnaire](#step-1---creating-a-survey),
-1. [Etape 2 - Sélectionner le modèle](#step-2---selecting-the-template),
-1. [Etape 3 - Construire le questionnaire](#step-3---building-the-survey),
-1. [Etape 4 - Créer le contenu](#step-4---creating-the-page-content) de la page,
-1. [Etape 5 - Stocker les données](#step-5---storing-the-survey-data-) de l&#39;enquête,
-1. [Etape 6 - Publier les pages](#step-6---publishing-the-pages),
-1. [Étape 7 - Partager votre questionnaire](#step-7---sharing-your-online-survey) en ligne.
+1. [Étape 1 - Créer un questionnaire](#step-1---creating-a-survey),
+1. [Étape 2 - Sélectionner le modèle](#step-2---selecting-the-template),
+1. [Étape 3 - Construire le questionnaire](#step-3---building-the-survey),
+1. [Étape 4 - Créer le contenu de la page](#step-4---creating-the-page-content),
+1. [Étape 5 - Enregistrer les données du questionnaire](#step-5---storing-the-survey-data-),
+1. [Étape 6 - Publier les pages](#step-6---publishing-the-pages),
+1. [Étape 7 - Partager votre questionnaire en ligne](#step-7---sharing-your-online-survey).
 
-## Etape 1 - Créer un questionnaire {#step-1---creating-a-survey}
+## Étape 1 - Créer un questionnaire {#step-1---creating-a-survey}
 
 Pour créer un questionnaire, accédez à l&#39;onglet **[!UICONTROL Campagnes]** ou **[!UICONTROL Profils et cibles]** et cliquez sur le menu **[!UICONTROL Applications Web]**. Cliquez sur le bouton **[!UICONTROL Créer]** situé au-dessus de la liste des formulaires.
 
 ![](assets/s_ncs_admin_survey_create.png)
 
-## Etape 2 - Sélectionner le modèle {#step-2---selecting-the-template}
+## Étape 2 - Sélectionner le modèle {#step-2---selecting-the-template}
 
 Sélectionnez un modèle de questionnaire, puis nommez le questionnaire. Ce nom ne sera pas visible par les utilisateurs finaux mais permettra d&#39;identifier le questionnaire dans Adobe Campaign. Cliquez sur **[!UICONTROL Enregistrer]** : le questionnaire est ajouté dans la liste des applications Web.
 
 ![](assets/s_ncs_admin_survey_wz_00.png)
 
-## Etape 3 - Créer l&#39;enquête {#step-3---building-the-survey}
+## Étape 3 - Construire le questionnaire {#step-3---building-the-survey}
 
 Les questionnaires sont construits dans un diagramme où sont positionnées : la ou les pages où seront créés les contenus, les étapes de préchargement et d&#39;enregistrement des données, et des étapes de tests. Il est également possible d&#39;insérer des scripts et des requêtes.
 
@@ -58,7 +58,7 @@ Un questionnaire doit contenir **au minimum** les trois composants suivants : un
 
    ![](assets/s_ncs_admin_survey_end.png)
 
-## Etape 4 - Créer le contenu de la page {#step-4---creating-the-page-content}
+## Étape 4 - Créer le contenu de la page {#step-4---creating-the-page-content}
 
 Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page (compatibilité v5)]**. Ce type de page est accessible à partir de la palette avancée de l&#39;onglet **[!UICONTROL Edition]**.
 
@@ -112,7 +112,7 @@ Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page
 
    ![](assets/s_ncs_admin_survey_preview.png)
 
-## Étape 5 - Stockage des données de l&#39;enquête {#step-5---storing-the-survey-data-}
+## Étape 5 - Enregistrer les données du questionnaire {#step-5---storing-the-survey-data-}
 
 La boîte d&#39;enregistrement permet de sauvegarder les réponses fournies par les utilisateurs dans la base de données. Vous devez sélectionner une clé de réconciliation afin d&#39;identifier les profils déjà présents dans la base de données.
 
@@ -124,7 +124,7 @@ Dans l&#39;exemple ci-dessous, lors de l&#39;enregistrement (validation), si un 
 
 Cliquez sur **[!UICONTROL OK]** pour valider puis sur **[!UICONTROL Enregistrer]** pour sauvegarder le questionnaire.
 
-## Etape 6 - Publier les pages {#step-6---publishing-the-pages}
+## Étape 6 - Publier les pages {#step-6---publishing-the-pages}
 
 Afin de permettre aux utilisateurs d&#39;accéder aux pages HTML, le questionnaire doit être rendu disponible : il ne doit plus être en édition mais en production. Pour mettre en production un questionnaire, vous devez le publier. Pour cela :
 
@@ -137,7 +137,7 @@ Afin de permettre aux utilisateurs d&#39;accéder aux pages HTML, le questionnai
 
    ![](assets/survey_published.png)
 
-## Étape 7 - Partager votre questionnaire en ligne {#step-7---sharing-your-online-survey}
+## Étape 7 - Partager votre questionnaire en ligne {#step-7---sharing-your-online-survey}
 
 Une fois en production, le questionnaire est accessible sur le serveur et vous pouvez le diffuser. L&#39;URL d&#39;accès au questionnaire est affichée dans le tableau de bord.
 
