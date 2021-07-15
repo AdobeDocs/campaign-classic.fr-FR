@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -43,4 +43,4 @@ Cette action crée une diffusion dans le dossier attaché au modèle. Le nom de 
 
 >[!NOTE]
 >
->Pour plus d’informations sur la configuration d’une diffusion, voir [Définir le contenu de l’email](defining-the-email-content.md).
+>Pour plus d&#39;informations sur la configuration d&#39;une diffusion, voir [Définir le contenu de l&#39;email](defining-the-email-content.md).
