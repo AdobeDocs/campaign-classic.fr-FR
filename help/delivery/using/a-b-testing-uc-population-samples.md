@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Configuration des échantillons de population {#step-2--configuring-population-samples}
 
-## Configuration de l’activité Requête {#configuring-the-query-activity}
+## Configurer l&#39;activité de Requête {#configuring-the-query-activity}
 
 * Double-cliquez sur l&#39;activité **[!UICONTROL Requête]**.
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Configuration de l&#39;activité Partage {#configuring-the-split-activity}
+## Configurer l&#39;activité Partage {#configuring-the-split-activity}
 
 Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D&#39;autre part, l&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chacune des diffusions.
 
