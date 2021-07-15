@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1216'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
    <td> Title<br /> </td> 
    <td> Attribut<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td> Titre<br /> </td> 
+   <td> Title<br /> </td> 
   </tr> 
   <tr> 
    <td> Sous-titre<br /> </td> 
@@ -324,7 +324,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les s
    </html>
    ```
 
-   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d’un template JavaScript](formatting.md#including-a-javascript-template).
+   L&#39;appel à une fonction en début de template permet de mettre en forme l&#39;appel à des données de personnalisation issues de la base de données Adobe Campaign (ici : recipient.firstName et recipient.lastName), afin qu&#39;elles soient interprétées lors de leur utilisation dans une diffusion. Voir à ce sujet à la section [Inclusion d&#39;un template JavaScript](formatting.md#including-a-javascript-template).
 
    Dans notre exemple, la fonction contiendra le code suivant :
 
@@ -353,7 +353,7 @@ Vous devez ensuite créer un modèle de publication de contenu qui permettra de 
 
 >[!NOTE]
 >
->Pour plus d’informations sur les modèles de publication de contenu, consultez la section [Modèles de publication](publication-templates.md).
+>Pour plus d&#39;informations sur les modèles de publication de contenu, consultez la section [Modèles de publication](publication-templates.md).
 
 Pour notre exemple, les étapes sont les suivantes :
 
@@ -379,7 +379,7 @@ Vous pouvez enfin créer des contenus à partir de ce modèle de publication.
 
 >[!NOTE]
 >
->Pour plus d’informations sur la création de contenu, voir [Utiliser un modèle de contenu](using-a-content-template.md).
+>Pour plus d&#39;informations sur la création de contenu, voir [Utiliser un modèle de contenu](using-a-content-template.md).
 
 ### Créer un contenu dans l&#39;assistant de diffusion {#creating-content-in-the-delivery-wizard}
 
