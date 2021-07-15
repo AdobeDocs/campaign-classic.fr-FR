@@ -7,21 +7,21 @@ content-type: reference
 topic-tags: web-applications
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Conception d’une application web{#designing-a-web-application}
 
-Les applications web sont créées et gérées selon le même principe que les [formulaires web](about-web-forms.md).
+Les applications web sont créées et gérées suivant le même principe que les [formulaires web](about-web-forms.md).
 
 >[!CAUTION]
 >
->Utilisez le sous-onglet **[!UICONTROL Aperçu]** pour vérifier les erreurs lors de la conception de l&#39;application web.
+>Utilisez le sous-onglet **[!UICONTROL Prévisualisation]** pour vérifier les erreurs lors de la conception de l&#39;application web.
 >
->Tant que l&#39;application Web n&#39;est pas publiée, les modifications ne sont pas exposées aux utilisateurs finaux.
+>Tant que l&#39;application web n&#39;est pas publiée, les modifications ne sont pas exposées aux utilisateurs finaux.
 
 ## Insérer des graphiques dans une application web {#inserting-charts-in-a-web-application}
 
