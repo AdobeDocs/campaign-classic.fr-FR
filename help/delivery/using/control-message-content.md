@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
