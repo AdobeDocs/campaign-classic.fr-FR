@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '899'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -47,35 +47,35 @@ Exemple :
 
 <img src="assets/privacy-query-dynamic-url.png">
 
-### signature d’URL
+### Signature d&#39;URL
 
-Pour améliorer la sécurité, un mécanisme de signature pour le tracking des liens dans les emails a été introduit. Il est disponible dans les versions 19.1.4 (9032@3a9dc9c) et 20.2 de Campaign. Cette fonctionnalité est activée par défaut.
+Pour améliorer la sécurité, un mécanisme de signature pour les liens de tracking dans les e-mails été ajouté. Il est disponible dans la build 19.1.4 (9032@3a9dc9c) et Campaign 20.2. Cette fonctionnalité est activée par défaut.
 
 >[!NOTE]
 >
->Lorsqu’un utilisateur clique sur une URL signée incorrecte, cette erreur est renvoyée : &quot;L’URL demandée &quot;...&quot; est introuvable.&quot;
+>Lorsqu&#39;un utilisateur clique sur une URL signée incorrecte, cette erreur est renvoyée : &quot;L&#39;URL &#39;...&#39; demandée est introuvable.&quot;
 
-De plus, depuis Campaign 20.2 et la version [!DNL Gold Standard], vous pouvez utiliser une amélioration pour désactiver les URL générées dans les builds précédents. Cette fonctionnalité est désactivée par défaut. Vous pouvez contacter l’[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonctionnalité.
+De plus, depuis Campaign 20.2 et la version [!DNL Gold Standard], vous pouvez utiliser une amélioration pour désactiver les URL générées dans les builds précédents. Cette fonctionnalité est désactivée par défaut. Vous pouvez contacter l&#39;[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour activer cette fonctionnalité.
 
-Si vous exécutez [!DNL Gold Standard] 19.1.4, vous pouvez rencontrer des problèmes avec les diffusions de notification push à l’aide de liens de suivi ou celles qui utilisent des balises d’ancrage. Si tel est le cas, nous vous recommandons de désactiver la signature d’URL.
+Si vous exécutez [!DNL Gold Standard] 19.1.4, vous pouvez rencontrer des problèmes avec les diffusions de notification push utilisant des liens de tracking ou celles qui utilisent des balises d&#39;ancrage. Si tel est le cas, nous vous recommandons de désactiver la signature d&#39;URL.
 
-Que vous exécutiez Campaign sur site ou dans une architecture hybride, vous devez contacter [l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour que la signature d’URL soit désactivée.
+Que vous exécutiez Campaign On-premise ou dans une architecture hybride, vous devez contacter l&#39;[Assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) pour que la signature d&#39;URL soit désactivée.
 
-Si vous exécutez Campaign dans une architecture hybride, avant d&#39;activer la signature de l&#39;URL, vérifiez que l&#39;instance hébergée de mid-sourcing a été mise à niveau comme suit :
-* Avant l’instance marketing sur site
-* à la même version que l’instance marketing sur site ou à une version légèrement supérieure ;
+Si vous exécutez Campaign dans une architecture hybride, avant d&#39;activer la signature d&#39;URL, vérifiez que l&#39;instance de mid-sourcing hébergée a été mise à niveau comme suit :
+* Avant l’instance marketing On-premise
+* Vers la même version que l&#39;instance marketing On-premise ou vers une version légèrement supérieure ;
 
-Dans le cas contraire, certains de ces problèmes peuvent survenir :
+Dans le cas contraire, certains des problèmes suivants peuvent se produire :
 * Avant la mise à niveau de l&#39;instance de mid-sourcing, les URL sont envoyées sans signature via cette instance.
-* Une fois l&#39;instance de mid-sourcing mise à niveau et la signature de l&#39;URL activée sur les deux instances, les URL précédemment envoyées sans signature sont rejetées. Cela est dû au fait qu’une signature est demandée par les fichiers de suivi fournis par l’instance marketing.
+* Une fois l&#39;instance de mid-sourcing mise à niveau et la signature d&#39;URL activée sur les deux instances, les URL précédemment envoyées sans signature sont rejetées. Cela est dû au fait qu&#39;une signature est demandée par les fichiers de tracking fournis par l&#39;instance marketing.
 
-Pour désactiver les URL qui ont été générées dans les builds précédents, procédez comme suit sur tous les serveurs Campaign en même temps :
+Pour désactiver les URL qui ont été générées dans les builds précédents, procédez comme suit sur tous les serveurs Campaign en même temps :
 
 1. Dans le fichier de configuration du serveur (serverConf.xml), définissez **blockRedirectForUnsignedTrackingLink** sur **true**.
 1. Redémarrez le service **nlserver**.
 1. Sur le serveur de tracking, redémarrez le serveur web (apache2 sur Debian, httpd sur CentOS/RedHat, IIS sous Windows).
 
-Pour activer la signature d’URL, procédez comme suit sur tous les serveurs Campaign en même temps :
+Pour activer la signature d&#39;URL, procédez comme suit sur tous les serveurs Campaign en même temps :
 
 1. Dans le fichier de configuration du serveur (serverConf.xml), remplacez **signEmailLinks** par **false**.
 1. Redémarrez le service **nlserver**.
