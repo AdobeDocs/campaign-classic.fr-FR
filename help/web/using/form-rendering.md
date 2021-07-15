@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
 ht-degree: 100%
 
