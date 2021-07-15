@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # A propos des Adobe ID{#about-adobe-id}
 
-Le système Adobe Identity Management System (IMS) permet aux administrateurs de créer et de gérer l’accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
+Le système Adobe Identity Management System (IMS) permet aux administrateurs de créer et de gérer l&#39;accès des utilisateurs aux applications et services. Pour plus d&#39;informations sur les différents types d&#39;Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
 Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign à l&#39;aide de leur Adobe ID. Cette intégration offre les avantages suivants :
 
@@ -27,7 +27,7 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 
 >[!IMPORTANT]
 >
->Si vous vous connectez à Campaign par le biais du Service d’identités Adobe (IMS), vous devez effectuer une mise à niveau vers le dernier build pour pouvoir vous connecter après le **30 juin 2021**. Cette mise à niveau est obligatoire pour le serveur Campaign et la console cliente. Selon votre version actuelle, vous devez effectuer une mise à niveau vers l’une des versions suivantes :
+>Si vous vous connectez à Campaign par le biais du Service d&#39;identités Adobe (IMS), vous devez effectuer une mise à niveau vers le dernier build pour pouvoir vous connecter après le **30 juin 2021**. Cette mise à niveau est obligatoire pour le serveur Campaign et la console cliente. Selon votre version actuelle, vous devez effectuer une mise à niveau vers l&#39;une des versions suivantes :
 >
 > * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 * [Campaign 21.1.3](../../rn/using/latest-release.md)
@@ -36,7 +36,7 @@ Les utilisateurs de Campaign peuvent se connecter à la console Adobe Campaign �
 * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 * [Campaign 19.1.8](../../rn/using/release--19-1.md)
 
-[!DNL :bulb:] [En savoir plus sur les mises à jour IMS](../../technotes/ims-updates.md)
+[!DNL :bulb:] [En savoir plus sur les mises à jour de l&#39;IMS](../../technotes/ims-updates.md)
 
 
 ## Plus de ressources
