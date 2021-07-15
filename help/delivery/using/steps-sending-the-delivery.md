@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
 ht-degree: 100%
 
