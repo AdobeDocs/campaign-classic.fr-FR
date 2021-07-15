@@ -7,9 +7,9 @@ role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3263'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ _16 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
+> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
 > * Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
 
@@ -175,7 +175,7 @@ _30 mai 2019_
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
-   <td> <p>En tant qu'administrateur, augmentez votre productivité en surveillant et en gérant les modifications apportées dans l'instance Adobe Campaign Classic. Le Suivi consigne les actions effectuées sur les schémas sources, les workflows et les options. Vous pouvez déterminer rapidement si un élément a été créé, modifié ou supprimé.</p><p>Pour plus d'informations, consultez la <a href="../../production/using/audit-trail.md">documentation détaillée</a> et visualisez la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html">vidéo pratique</a>.</p></td> 
+   <td> <p>En tant qu'administrateur, augmentez votre productivité en surveillant et en gérant les modifications apportées dans l'instance Adobe Campaign Classic. Le Suivi consigne les actions effectuées sur les schémas sources, les workflows et les options. Vous pouvez déterminer rapidement si un élément a été créé, modifié ou supprimé.</p><p>Pour plus d'informations, consultez la <a href="../../production/using/audit-trail.md">documentation détaillée</a> et visualisez la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html?lang=fr">vidéo pratique</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Barrière de sécurité, robustesse et évolutivité<br /> </td> 
@@ -213,7 +213,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
 
-* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.
 * Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le workflow de tracking détecte désormais les problèmes du log de tracking qui peuvent entraîner des erreurs et arrêter le workflow. Ces problèmes sont maintenant écartés et ne sont pas traités.
 * Workflow de nettoyage : le workflow de nettoyage a été amélioré de manière à éviter les erreurs et arrêts potentiels. Cela optimise la taille et la performance des bases de données.
