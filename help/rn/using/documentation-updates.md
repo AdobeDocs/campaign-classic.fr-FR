@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '4476'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ La section sur la résolution des problèmes du guide de **surveillance** a ét�
 
 Une nouvelle section **Import et export de données** est disponible avec de nouvelles pages relatives aux workflows, à la compression des données, au cryptage et aux bonnes pratiques d’import. [En savoir plus](../../platform/using/get-started-data-import-export.md)
 
-## Décembre 2020 {#dec-2020}
+## Décembre 2020 {#dec-2020}
 
 La section du **monitoring des diffusions** a été réorganisée en thèmes. [En savoir plus](../../delivery/using/about-delivery-monitoring.md)
 
@@ -306,7 +306,7 @@ La section Envoi d’emails transactionnels avec des pièces jointes a été dé
 
 La section Bonnes pratiques relatives aux packages de données a été déplacée et mise à jour. [En savoir plus](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
-## Avril 2020 {#april-2020}
+## Avril 2020 {#april-2020}
 
 La table des droits FDA a été déplacée vers la documentation intitulée Accès à une base externe (FDA). [En savoir plus](../../installation/using/remote-database-access-rights.md)
 
@@ -322,7 +322,7 @@ Les sections [Qualification des emails bounce](../../delivery/using/understandin
 
 L’article sur le MTA amélioré d’Adobe Campaign a été mis à jour. Il ne s’applique désormais qu’à Campaign Classic. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acc-campaign-enhanced-mta.html)
 
-## Mars 2020 {#march-2020}
+## Mars 2020 {#march-2020}
 
 Les bonnes pratiques relatives au modèle de données ont été mises à jour avec de nouvelles sections, notamment [Séquences](../../configuration/using/data-model-best-practices.md#sequences), [Performances](../../configuration/using/data-model-best-practices.md#performance) et [Tables volumineuses](../../configuration/using/data-model-best-practices.md#large-tables). [En savoir plus](../../configuration/using/data-model-best-practices.md)
 
@@ -336,7 +336,7 @@ Une nouvelle section relative aux différentes langues disponibles dans Adobe C
 
 Les directives relatives à la gestion des accès ont été mises à jour pour détailler davantage les droits nommés. [En savoir plus](../../platform/using/access-management-named-rights.md)
 
-## Février 2020 {#february-2020}
+## Février 2020 {#february-2020}
 
 Une nouvelle section contenant une présentation des bonnes pratiques et des recommandations essentielles pour la conception du modèle de données Adobe Campaign est maintenant disponible. [En savoir plus](../../configuration/using/data-model-best-practices.md)
 
@@ -408,7 +408,7 @@ Le guide concernant le reporting a été mis à jour et réorganisé. [En savoir
 
 Un exemple d&#39;utilisation d&#39;une variable d&#39;instance dans un workflow a été ajouté. [En savoir plus](../../workflow/using/javascript-scripts-and-templates.md)
 
-## Décembre 2019 {#december-2019}
+## Décembre 2019 {#december-2019}
 
 L&#39;option &quot;WdbcOptions_TempDbName&quot; a été ajoutée à la liste des options de Campaign. [En savoir plus](../../installation/using/configuring-campaign-options.md)
 
@@ -478,7 +478,7 @@ Des informations ont été ajoutées dans la documentation de l&#39;activité Pl
 
 Les étapes de configuration du rendu du message (Inbox Rendering) pour les installations on-premise ont été ajoutées à la documentation. [En savoir plus](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
 
-## Septembre 2019 {#september-2019}
+## septembre 2019 {#september-2019}
 
 Une nouvelle page a été ajoutée au sujet d&#39;instructions générales concernant la maintenance de Campaign Classic. [En savoir plus](../../production/using/monitoring-guidelines.md)
 
