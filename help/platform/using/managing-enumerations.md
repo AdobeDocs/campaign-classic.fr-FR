@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
