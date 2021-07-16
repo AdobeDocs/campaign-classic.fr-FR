@@ -12,13 +12,13 @@ exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Version 18.6{#release-18-6}
 
-## Version 18.6.2 - Build 8949{#release-18-6-3-build-8949}
+## Version 18.6.2 - Build 8949{#release-18-6-3-build-8949}
 
 22 août 2018
 
@@ -74,7 +74,7 @@ Pour plus d’informations sur query banding, référez-vous à ces articles :
 * [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
-## Version 18.6 - Build 8947{#release-18-6-build-8947}
+## Version 18.6 - Build 8947{#release-18-6-build-8947}
 
 25 juin 2018
 
