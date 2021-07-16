@@ -26,9 +26,8 @@ Ce chapitre présente la création et la gestion des **formulaires**, la gestion
 >[!NOTE]
 >
 >* Les étapes détaillées de création d&#39;un formulaire web standard sont présentées dans [ce document](../../web/using/about-web-forms.md).
-   >
-   >
-* La gestion des applications web est présentée dans [ce document](../../web/using/about-web-applications.md). Pour plus d&#39;informations, reportez-vous à ce chapitre.
+>
+>* La gestion des applications web est présentée dans [ce document](../../web/using/about-web-applications.md). Pour plus d&#39;informations, reportez-vous à ce chapitre.
 
 
 ## Portée de la fonctionnalité {#campaign-surveys-scope}

@@ -433,7 +433,6 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**, 
 >
 >* Le statut de la tâche est mis à jour automatiquement.
 >* Même si la période de validité est terminée, une tâche qui n&#39;a pas été close par son responsable apparaît toujours dans les tâches en cours. Un message d&#39;avertissement est affiché pour alerter les opérateurs que la tâche est en retard.
-
 >
 
 
