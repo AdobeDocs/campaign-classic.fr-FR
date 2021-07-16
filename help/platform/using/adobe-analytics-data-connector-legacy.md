@@ -11,7 +11,7 @@ hide: true
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1834'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Les étapes suivantes décrivent le paramétrage du connecteur de données via u
 
 1. Dans l&#39;onglet **[!UICONTROL Admin]**, sélectionnez **[!UICONTROL Data Connectors]**.
 
-   Pour accéder au menu **[!UICONTROL Data Connectors]**, vous devez disposer des autorisations ci-après pour les outils Analytics. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)
+   Pour accéder au menu **[!UICONTROL Data Connectors]**, vous devez disposer des autorisations ci-après pour les outils Analytics. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=fr)
    * Intégrations (créer)
    * Intégrations (mettre à jour)
    * Intégrations (supprimer)
