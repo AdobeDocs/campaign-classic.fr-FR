@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Les déploiements possibles sont les suivants :
 
 La synchronisation des données s&#39;effectue via une activité de workflow dédiée. [En savoir plus](../../platform/using/crm-data-sync.md).
 
-## Étapes de mise en œuvre{#microsoft-dynamics-implementation-steps}
+## Étapes d&#39;implémentation{#microsoft-dynamics-implementation-steps}
 
 Pour connecter Microsoft Dynamics 365 à Adobe Campaign via **Web API**, vous devez appliquer les étapes suivantes :
 
@@ -48,10 +48,10 @@ Dans Campaign Classic :
 
 
 >[!CAUTION]
->
 > Lors de la connexion d&#39;Adobe Campaign à Microsoft Dynamics, vous ne pouvez pas :
 > * Installer de plug-in qui peut modifier le comportement du CRM, ce qui peut entraîner des problèmes de compatibilité avec Adobe Campaign
 > * Sélectionner plusieurs énumérations
+
 >
 
 
@@ -73,7 +73,7 @@ Une fois que vous avez enregistré vos données, vous obtenez un **ID de l&#39;a
 
 En savoir plus sur [cette page](https://docs.microsoft.com/fr-fr/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
 
-### Génération d&#39;un secret client Microsoft Dynamics {#config-client-secret-microsoft}
+### Génération d&#39;un secret du client Microsoft Dynamics {#config-client-secret-microsoft}
 
 Le secret client est la clé qui est unique à l&#39;identifiant du client. Pour obtenir l&#39;identifiant de clé de certificat, procédez comme suit :
 
@@ -90,7 +90,7 @@ Le secret client est la clé qui est unique à l&#39;identifiant du client. Pour
 
 1. Cliquez sur le lien **manifest** pour obtenir l&#39;**identifiant de clé de certificat** et l&#39;**ID de clé**.
 
-### Paramétrage des autorisations {#config-permissions-microsoft}
+### Configuration des autorisations {#config-permissions-microsoft}
 
 Vous devez configurer les **autorisations obligatoires** pour l&#39;application qui a été créée.
 
