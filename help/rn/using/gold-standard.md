@@ -26,13 +26,13 @@ Le build 9032@d030c36 comprend le correctif suivant :
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Cette version de console est requise pour conserver [l’accès IMS](../../technotes/ims-updates.md).
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!CAUTION]
 >
 > * Si vous vous connectez à Campaign avec votre Adobe ID, par le biais du service Adobe Identity Management (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
-> * Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
+> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d&#39;authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
 
 >
 >
@@ -44,7 +44,7 @@ Le build 9032@10c2709 comprend le correctif suivant :
 
 * Correction d’une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!NOTE]
 >
@@ -69,9 +69,9 @@ Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
 * Après la [fin de la prise en charge du protocole binaire hérité des APN iOS](https://developer.apple.com/news/?id=c88acm2b), toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 durant la mise à niveau.
 
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
+* Correction d&#39;un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
 
-* Correction d’un problème en raison duquel les workflows échouaient lors de l’exécution d’une activité d’**enrichissement**. (NEO-17338)
+* Correction d&#39;un problème en raison duquel les workflows échouaient lors de l&#39;exécution d&#39;une activité d&#39;**enrichissement**. (NEO-17338)
 
 ## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 10{#gs-10}
 
@@ -95,7 +95,7 @@ Le build 9032@800be2e comprend les correctifs suivants :
 
 Les correctifs suivants sont liés au mécanisme de sécurité des liens de tracking (apprenez-en davantage dans la [liste de contrôle Sécurité et confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#signature-mechanism)) :
 
-* Correction d’un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
+* Correction d&#39;un problème qui empêchait le suivi des « clics de notification » de fonctionner (notifications push iOS et Android). (NEO-25965)
 * Correction d’un problème qui pouvait empêcher d’ouvrir/de cliquer sur les URL de tracking lors de l’utilisation de certaines anciennes versions d’Outlook.  (NEO-25688)
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème lié au service anti-hameçonnage. (NEO-25283)
@@ -133,7 +133,7 @@ _9 mars 2020_
 
 Le build 9032@19f73c5 comprend le correctif suivant :
 
-* Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
+* Correction d&#39;un problème de comptes externes, lié à l&#39;utilisation de FTP sur SSL. (NEO-20498)
 
 ## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 5{#gs-5}
 
