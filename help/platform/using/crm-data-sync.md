@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1617'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1615'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ La date de la dernière synchronisation est stockée dans l&#39;option indiquée
 >
 >Cette note s&#39;applique uniquement à l&#39;activité **[!UICONTROL Connecteur CRM]** générique. Pour les autres activités CRM, le processus est automatique.
 >
->Cette option doit être créée et renseignée manuellement dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s&#39;agir d&#39;une option texte. De plus, sa valeur doit correspondre au format suivant : **aaaa/MM/jj hh:mm:ss**.
+>Cette option doit être créée et renseignée manuellement sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s’agir d’une option de texte et sa valeur doit correspondre au format suivant : **aaaa/MM/jj hh:mm:ss**.
 > 
 >Pour tout autre import, vous devez mettre à jour manuellement cette option.
 
@@ -111,7 +111,7 @@ L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère tro
 
    >[!NOTE]
    >
-   >Ces dates sont exprimées au format **yyyy/MM/dd hh:mm:ss**.
+   >Ces dates sont présentées au format suivant : **aaaa/MM/jj hh:mm:ss**.
 
 ### Filtrage des données {#filtering-data}
 
@@ -184,7 +184,7 @@ Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
    >
    >La liste des enregistrements à exporter et le résultat de l&#39;export sont conservés dans un fichier temporaire qui reste accessible tant que le workflow n&#39;est pas terminé ou redémarré, ce qui permet de reprendre le traitement en cas d&#39;erreur, sans risquer d&#39;exporter plusieurs fois le même enregistrement et sans perte de données.
 
-## Paramétrages additionnels {#additional-configurations}
+## Configurations supplémentaires {#additional-configurations}
 
 ### Sur le format des données saisies {#data-format}
 
@@ -224,7 +224,7 @@ Les rejets sont collectés avec leur code d&#39;erreur et le message corresponda
 
 La transition sortante **[!UICONTROL Rejet]** permet d&#39;accéder au schéma de sortie qui contient les colonnes spécifiques relatives aux codes et messages d&#39;erreur. Pour Salesforce.com, cette colonne est **errorSymbol** (symbole de l&#39;erreur, différent du code de l&#39;erreur), **errorMessage** (description du contexte de l&#39;erreur).
 
-## Import d’objets supprimés dans le CRM {#importing-objects-deleted-in-the-crm}
+## Import d&#39;objets supprimés dans le CRM {#importing-objects-deleted-in-the-crm}
 
 Afin de permettre la mise en place d&#39;un processus exhaustif de synchronisation des données, vous pouvez importer dans Adobe Campaign les objets supprimés côté CRM.
 
@@ -240,7 +240,7 @@ Pour cela, les étapes sont les suivantes :
    >
    >La période de suppression des éléments à récupérer doit correspondre aux limitations propres au CRM. Ainsi, par exemple, pour Salesforce.com, les éléments dont la suppression remonte à plus de 30 jours ne peuvent pas être récupérés.
 
-## Suppression d’objets dans le CRM {#deleting-objects-in-the-crm}
+## Suppression d&#39;objets dans le CRM {#deleting-objects-in-the-crm}
 
 Pour supprimer des objets côté CRM, vous devez indiquer la clé primaire des éléments distants à effacer.
 
