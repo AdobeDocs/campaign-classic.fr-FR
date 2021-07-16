@@ -9,7 +9,7 @@ exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ __
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ __
 
 _22 mars 2021_
 
-* Correction d’une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
+* Correction d&#39;une régression qui empêchait l&#39;utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!NOTE]
 >
@@ -41,14 +41,14 @@ _23 décembre 2020_
 
 >[!CAUTION]
 >
-> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
+> * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
    >
    > 
-* Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+* Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS.
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
+* Correction d&#39;un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.1.3 - Build 9124{#release-20-1-3-build-9124}
 
@@ -77,7 +77,7 @@ _17 février 2020_
  <tbody> 
   <tr> 
    <td> <p>Snowflake est un entrepôt de données dans le cloud entièrement géré, conçu pour être évolutif en termes de stockage et de puissance de calcul. Grâce à ce nouveau connecteur, Adobe Campaign peut maintenant exploiter la puissance de Snowflake pour segmenter les mégadonnées (Big Data). Ce connecteur est disponible pour tous les clients, notamment les clients hébergés par Adobe.</p>
-    <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-snowflake.md">documentation détaillée</a> et regardez le <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">tutoriel vidéo</a>.</p>
+    <p>Pour plus d’informations, consultez la <a href="../../installation/using/configure-fda-snowflake.md">documentation détaillée</a> et regardez le <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html?lang=fr">tutoriel vidéo</a>.</p>
    </td> 
   </tr> 
  </tbody> 
