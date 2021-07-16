@@ -7,7 +7,7 @@ role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ __
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ __
 
 _22 mars 2021_
 
-* Correction d’une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
+* Correction d&#39;une régression qui empêchait l&#39;utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!NOTE]
 >
@@ -42,8 +42,8 @@ _16 décembre 2020_
 >[!CAUTION]
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
-> * Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l’intégration Experience Cloud Triggers par le biais de l’authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
+> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d&#39;authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
 
 
 
@@ -56,7 +56,7 @@ _16 décembre 2020_
 * Correction d&#39;un problème en raison duquel le connecteur SMPP était désactivé après une erreur de connexion, ce qui empêchait l&#39;envoi d&#39;autres diffusions SMS et provoquait des problèmes de performances.
 * Correction d’un problème qui affichait des pourcentages incorrects lors de la génération d’un rapport descriptif via une activité de workflow. (NEO-14314)
 * Correction d&#39;un problème de préparation de diffusion lorsque l&#39;option **Exclure les adresses en double lors de la diffusion** était désélectionnée. (NEO-13240)
-* Correction d’un problème en raison duquel les workflows échouaient lors de l’exécution d’une activité d’**enrichissement**. (NEO-17338)
+* Correction d&#39;un problème en raison duquel les workflows échouaient lors de l&#39;exécution d&#39;une activité d&#39;**enrichissement**. (NEO-17338)
 * Correction d’un problème dans les workflows lors de la récupération d’enregistrements d’une base de données externe et de leur insertion dans la base de données Campaign. (NEO-26359)
 * Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions.
 * Correction d&#39;un problème en raison duquel la fonction **NoNull** ne fonctionnait pas dans les bases de données Oracle après la mise à niveau vers la version 9032. (NEO-26488)
@@ -80,17 +80,17 @@ _15 septembre 2020_
 * Amélioration de nlsrvmod pour l&#39;utilisation du thread Apache 2.4 afin de corriger les blocages nlsrvmod.
 * Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité de transfert de fichiers avec un compte externe Azure et un chiffrement SSL. La connexion a été effectuée via HTTP au lieu de HTTPS. (NEO-26720)
 * Correction d&#39;un problème lié au mécanisme de cache d&#39;URL qui ne récupérait pas le libellé ou la catégorie.
-* Correction d’un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions par email (en raison d’un contrôle incorrect des caractères ASCII). (NEO-26084)
+* Correction d&#39;un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions par email (en raison d&#39;un contrôle incorrect des caractères ASCII). (NEO-26084)
 * La liste jarsToSkip de catalina.properties a été mise à jour afin de supprimer la référence à un fichier jar qui n’était plus utilisé (notifications iOS).
 * Correction d&#39;un problème de régression qui empêchait la publication après le postupgrade.
 * Correction d&#39;un problème de régression lié aux rapports de diffusion d&#39;usine qui s&#39;affichaient tronqués lors de l&#39;export au format PDF. (NEO-25757)
-* Correction d’un problème en raison duquel la valeur du paramètre de codage était supprimée lors de la redirection à partir d’une URL de tracking (impact sur les caractères japonais). (NEO-25637)
-* Correction d’un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d’être autorisés. (NEO-25210)
-* Correction d’une régression qui affectait les champs calculés d’un workflow et provoquait l’échec de ce workflow. (NEO-25194)
+* Correction d&#39;un problème en raison duquel la valeur du paramètre de codage était supprimée lors de la redirection à partir d&#39;une URL de tracking (impact sur les caractères japonais). (NEO-25637)
+* Correction d&#39;un problème en raison duquel les liens non signés provenant de domaines personnalisés étaient bloqués au lieu d&#39;être autorisés. (NEO-25210)
+* Correction d&#39;une régression qui affectait les champs calculés d&#39;un workflow et provoquait l&#39;échec de ce workflow. (NEO-25194)
 * Correction d&#39;un problème de compatibilité avec Microsoft Dynamics (à partir de la version 8.2) qui empêchait l&#39;exécution de certains appels d&#39;API (RetrieveAllEntities). (NEO-24528)
-* Correction d’un problème de régression lors de l’utilisation de la fonction ACS Connector qui empêchait la connexion à une instance de Campaign Standard (gestion incorrecte de la connexion FOH/FOH2). (NEO-23433)
-* Correction d’un problème de régression concernant la connexion à la base de données qui provoquait le redémarrage constant du serveur web en raison d’un problème de codage de base de données. Ce problème pouvait conduire à une surconsommation. (NEO-23264)
-* Correction d’un problème lié au workflow de nettoyage de la base de données qui pouvait échouer en raison d’une source de données non gérée. (NEO-23160, NEO-23364)
+* Correction d&#39;un problème de régression lors de l&#39;utilisation de la fonction ACS Connector qui empêchait la connexion à une instance de Campaign Standard (gestion incorrecte de la connexion FOH/FOH2). (NEO-23433)
+* Correction d&#39;un problème de régression concernant la connexion à la base de données qui provoquait le redémarrage constant du serveur web en raison d&#39;un problème de codage de base de données. Ce problème pouvait conduire à une surconsommation. (NEO-23264)
+* Correction d&#39;un problème lié au workflow de nettoyage de la base de données qui pouvait échouer en raison d&#39;une source de données non gérée. (NEO-23160, NEO-23364)
 * Le workflow de nettoyage purge désormais les listes expirées par lots de 100 plutôt qu&#39;une par une.
 * Après le passage au [nouveau mécanisme d’identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
 * Correction d’un problème qui empêchait l’envoi d’emails lorsque du code JavaScript se trouvait en dehors de la balise de contenu HTML. (NEO-18628)
@@ -98,7 +98,7 @@ _15 septembre 2020_
 * Amélioration des performances de l&#39;assistant de mise à jour de la base de données afin de réduire le nombre d&#39;instructions SQL dans le but d&#39;optimiser le temps de réponse.
 * Correction d’un problème de blocage de la console qui pouvait se produire lors de la dévérification des URL trackées dans un email, à partir de l’onglet **Contenu texte** en raison d’une variable non initialisée. (NEO-13545)
 * Correction d&#39;un problème qui empêchait le téléchargement de fichiers dans une activité de transfert de fichiers à l&#39;aide d&#39;un compte de stockage Azure Blob externe en raison d&#39;une variable non initialisée (m_pCurlReader). (NEO-13717)
-* Correction d’un problème de postupgrade qui désactivait Apache et le serveur Web avant la republication de l’application web. (NEO-27155)
+* Correction d&#39;un problème de postupgrade qui désactivait Apache et le serveur Web avant la republication de l&#39;application web. (NEO-27155)
 * Correction d&#39;une régression en raison de laquelle un fuseau horaire incorrect était sélectionné lors de la définition de l&#39;heure dans une activité de workflow **Planificateur**.
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.1.6 - Build 9035 {#release-19-1-6-build-9035}
@@ -213,7 +213,7 @@ _30 mai 2019_
 
 **Améliorations de la sécurité, de la robustesse et de l&#39;évolutivité**
 
-* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* Optimisation de l&#39;utilisation de la séquence XtkNewId et de sa durée de vie : les tables les plus gourmandes ont été déplacées de la séquence xtkNewId vers les séquences dédiées. [En savoir plus](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA via HTTP v2 : le protocole FDA via HTTP est largement utilisé sur les déploiements hybrides, en particulier pour la préparation des diffusions et la récupération des broadLogs. Sa robustesse a été renforcée de façon à éviter les problèmes réseau et les erreurs possibles lors de la récupération ou de l&#39;envoi de données. Pour cela, les builds aux deux extrémités de la connexion doivent être à jour, sans quoi le protocole antérieur sera encore utilisé.
 * Workflow de tracking : la robustesse du workflow de tracking a été améliorée. Plusieurs problèmes liés aux mises à jour/insertions au niveau des logs de tracking et à la personnalisation du tracking d&#39;URL ont été résolus. En outre, le workflow de tracking détecte désormais les problèmes du log de tracking qui peuvent entraîner des erreurs et arrêter le workflow. Ces problèmes sont maintenant écartés et ne sont pas traités.
 * Workflow de nettoyage : le workflow de nettoyage a été amélioré de manière à éviter les erreurs et arrêts potentiels. Cela optimise la taille et la performance des bases de données.
