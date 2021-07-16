@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Les CRM et versions pris en charge sont présentés dans la [matrice de compatib
 >
 >Les connecteurs CRM fonctionnent seulement avec une URL sécurisée (https).
 
-### Étapes de mise en œuvre {#crm-implementation-steps}
+### Étapes d&#39;implémentation {#crm-implementation-steps}
 
 Découvrez la procédure détaillée pour connecter Campaign et Microsoft Dynamics [dans cette section](../../platform/using/crm-ms-dynamics.md)
 
