@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
 
@@ -231,7 +231,7 @@ Les définitions de packages vous permettent de créer une structure de package 
 * [Paramétrer la génération des définitions de packages](#configuring-package-definitions-generation)
 * [Exporter des packages à partir d&#39;une définition de package](#exporting-packages-from-a-package-definition)
 
-### Créer une définition de package{#creating-a-package-definition}
+### Créer une définition de package {#creating-a-package-definition}
 
 Les définitions de packages sont accessibles à partir du menu **[!UICONTROL Administration > Paramétrage > Gestion des packages > Définitions de packages]**.
 
@@ -267,7 +267,7 @@ Les entités peuvent être ajoutées directement à une définition de package �
 
    ![](assets/packagedefinition_entityadded.png)
 
-### Paramétrer la génération des définitions de packages{#configuring-package-definitions-generation}
+### Paramétrer la génération des définitions de packages {#configuring-package-definitions-generation}
 
 La génération de packages peut être paramétrée à partir de l&#39;onglet **[!UICONTROL Contenu]** de définition de package. Pour ce faire, cliquez sur le lien **[!UICONTROL Paramètres de génération]**.
 
