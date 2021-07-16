@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1634'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Lors de l’annonce de la suppression ou du remplacement imminent de fonctionnal
 * L’annonce de l’obsolescence vient en premier. Les fonctionnalités obsolètes sont encore disponibles et prises en charge pour les utilisateurs existants, mais elles ne seront plus améliorées ni documentées.
 * La suppression de fonctionnalités obsolètes aura lieu au plus tôt dans la version suivante. La date de suppression prévue est annoncée sur cette page.
 
-Cette procédure laisse aux clients au moins un cycle de publication pour s&#39;adapter à une nouvelle version ou au successeur d&#39;une fonctionnalité supprimée avant la suppression définitive.
+Cette procédure laisse aux clients au moins un cycle de publication pour s’adapter à une nouvelle version ou au successeur d’une fonctionnalité supprimée avant la suppression définitive.
 
 >[!NOTE]
 >Les versions et nouvelles fonctionnalités d’Adobe Campaign sont répertoriées dans les [Notes de mise à jour](../../rn/using/latest-release.md).
@@ -45,14 +45,14 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>À compter de la version 21.1.3 de Campaign, le connecteur de données Adobe Analytics est obsolète.</p>
    <p>Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence. <a href="../../platform/using/adobe-analytics-connector.md">En savoir plus</a></p>
-  <p><em>Date de suppression prévue : 1 mars 2022</em></p>
+  <p><em>Date de suppression prévue : 1 mars 2022</em></p>
   </td>
  </tr>
     <tr>
   <td>Rapport de supervision de la délivrabilité technique<br></td>
    <td><p>À compter de la version Campaign 21.1, le rapport de supervision de la délivrabilité technique est obsolète.</p>
-   <p>Si nécessaire, vous pouvez recevoir ce rapport tous les jours par email jusqu'à la date de suppression de la fonctionnalité. Pour le demander, ouvrez un <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">cas d'assistance</a> spécifique et indiquez le nom de l'instance et la ou les adresse(s) email où envoyer le rapport.</p> 
-   <p>Adobe vous recommande de collaborer avec l'équipe chargée de la délivrabilité pour définir les meilleurs outils pour superviser les performances de délivrabilité de votre instance.</p>
+   <p>Si nécessaire, vous pouvez recevoir ce rapport tous les jours par email jusqu’à la date de suppression de la fonctionnalité. Pour le demander, ouvrez un <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">cas d’assistance</a> spécifique et indiquez le nom de l’instance et la ou les adresse(s) email où envoyer le rapport.</p> 
+   <p>Adobe vous recommande de collaborer avec l’équipe chargée de la délivrabilité pour définir les meilleurs outils pour superviser les performances de délivrabilité de votre instance.</p>
   <p><em>Date de suppression prévue : fin 2021</em></p>
   </td>
  </tr>
@@ -60,7 +60,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <td>Authentification OAuth (OAuth et JWT)<br></td>
   <td><p> Depuis la version Campaign 20.3, l’authentification d’intégration Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers les Adobe I/O. <p>
   <p>Si vous utilisez l’intégration Triggers, vous devez adapter votre implémentation en conséquence. <a href="../../integrations/using/configuring-adobe-io.md">En savoir plus</a></p> 
-  <p>Pour plus d'informations sur l'abandon de l'authentification OAuth, consultez cette <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
+  <p>Pour plus d’informations sur l’abandon de l’authentification OAuth, consultez cette <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <p><em>Date de suppression prévue : novembre 2021</em></p>
   </td>
   </tr>
@@ -82,13 +82,13 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
    <td><p>À compter de la version 21.1.3 de Campaign, le canal Fax n’est plus disponible. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">En savoir plus</a></p>
   <tr>
   <td>Domaine Demdex<br></td>
-  <td><p> Depuis la version Campaign 21.1.3, le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud n'est plus disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">En savoir plus</a></p> 
+  <td><p> Depuis la version Campaign 21.1.3, le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud n’est plus disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">En savoir plus</a></p> 
   </td>
   </td>
   </tr>
    <tr> 
    <td>Authentification Windows NT<br></td>
-   <td><p>À compter de la version 20.3 de Campaign, l'authentification Windows NT a été supprimée des méthodes d'authentification disponibles lors de la configuration d'une nouvelle base de données avec Microsoft SQL Server. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">En savoir plus</a></p></td>
+   <td><p>À compter de la version 20.3 de Campaign, l’authentification Windows NT a été supprimée des méthodes d’authentification disponibles lors de la configuration d’une nouvelle base de données avec Microsoft SQL Server. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">En savoir plus</a></p></td>
   </tr>
    <tr> 
    <td>Archivage des emails basé sur les fichiers<br></td>
