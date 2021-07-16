@@ -9,13 +9,13 @@ exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '2370'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Version 18.10{#release-18-10}
 
-## Version 18.10.6 - Build 8985{#release-18-10-6-build-8985}
+## Version 18.10.6 - Build 8985{#release-18-10-6-build-8985}
 
 12 juillet 2019
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 * Améliorations des permissions pour exécuter le package de zone de sécurité lors de l&#39;utilisation d&#39;un compte interne.
 * Correction d&#39;un problème qui entraînait des erreurs dans les logs mtachild. (NEO-8978)
 
-## Version 18.10.5 - Build 8984{#release-18-10-5-build-8984}
+## Version 18.10.5 - Build 8984{#release-18-10-5-build-8984}
 
 23 avril 2019
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 * Suppression de la limite de 10 000 enregistrements dans la carte thermique des workflows afin de résoudre un problème de données manquantes. (NEO-12329)
 * Correction d&#39;un problème qui survenait lors de l&#39;utilisation de l&#39;option « Conserver toutes les données additionnelles de l&#39;ensemble principal » dans une activité de workflow d&#39;enrichissement. (NEO-13291)
 
-## Version 18.10.4 - Build 8983{#release-18-10-4-build-8983}
+## Version 18.10.4 - Build 8983{#release-18-10-4-build-8983}
 
 15 avril 2019
 
@@ -50,7 +50,7 @@ ht-degree: 98%
 * Dans l&#39;intégration Analytics, la récupération des données de segments AAM avec le caractère % est maintenant autorisée. (NEO-12025)
 * Correction d&#39;un problème de blocage Tomcat lors de l&#39;envoi de notifications push via HTTP2. (NEO-12701)
 
-## Version 18.10.3 - Build 8981{#release-18-10-3-build-8981}
+## Version 18.10.3 - Build 8981{#release-18-10-3-build-8981}
 
 29 janvier 2019
 
@@ -74,7 +74,7 @@ ht-degree: 98%
 * Correction d’un problème d’échappement des caractères lors de l’envoi de notifications push sur une application mobile.
 * Correction d’un problème qui empêchait le passage de la méthode de synchronisation FDA à SOAP dans un compte externe Mid-sourcing.
 
-## Version 18.10.2 - Build 8978{#release-18-10-2-build-8978}
+## Version 18.10.2 - Build 8978{#release-18-10-2-build-8978}
 
 6 décembre 2018
 
@@ -96,7 +96,7 @@ ht-degree: 98%
 * Correction d&#39;un problème avec le calcul des durées de workflow dans la carte thermique des workflows.
 
 
-## Version 18.10 - Build 8977{#release-18-10-build-8977}
+## Version 18.10 - Build 8977{#release-18-10-build-8977}
 
 5 novembre 2018
 
