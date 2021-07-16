@@ -7,7 +7,7 @@ role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ __
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ __
 
 _22 mars 2021_
 
-* Correction d’une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
+* Correction d&#39;une régression qui empêchait l&#39;utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 
 >[!NOTE]
 >
@@ -42,13 +42,14 @@ _23 décembre 2020_
 >[!CAUTION]
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
->
-> * Cette version est fournie avec un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+   >
+   > 
+* Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS.
-* Correction d’un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
+* Correction d&#39;un problème de sécurité afin de renforcer la protection contre les problèmes SSRF (Server Side Request Forgery). (NEO-27777)
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.2.3 - Build 9081 {#release-19-2-3-build-9081}
 
