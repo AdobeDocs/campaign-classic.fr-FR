@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 23d22283df418bb32eb7d2cb226bb7926e73bd0c
+source-git-commit: 4420aab0067048d1fb47b184ede579235dcd9819
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 99%
 
 ---
 
@@ -236,7 +236,7 @@ Adobe Campaign n’est pas compatible avec les connecteurs SMS suivants :
 
 ### Connecteurs CRM {#crm-connectors}
 
-À compter de la version 21.1 de Campaign, les connecteurs CRM suivants sont obsolètes avec Campaign :
+Depuis la version 21.1 de Campaign, les connecteurs CRM suivants ne sont plus compatibles avec Campaign :
 
 * API Soap - On-premise : 2007, 2015, 2016
 * API Soap - Online : 2015, 2016
