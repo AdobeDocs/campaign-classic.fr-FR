@@ -4,14 +4,14 @@ title: 'Options d’aide et de support pour Campaign Classic '
 description: Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
 ---
 
-# Options d’aide et de support pour Campaign Classic {#help-support-options}
+# Options d’aide et de support pour Campaign Classic {#help-support-options}
 
 Besoin d’aide pour Campaign Classic ? Vous êtes au bon endroit !
 
@@ -99,25 +99,25 @@ Le panneau de contrôle de Campaign accroît votre efficacité en tant qu’admi
 >
 >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier build [Gold Standard](rn/using/gs-overview.md) ou le dernier build [GA (21.1)](rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
+>Notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier build [Gold Standard](rn/using/gs-overview.md) ou le dernier build [GA (21.1.3)](rn/using/latest-release.md). Découvrez comment vérifier votre version dans [cette section](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr).
 
 ### Comment accéder au panneau de contrôle ?
 
-Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. Il est accessible uniquement aux utilisateurs Admin. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr) pour plus d’informations.
+Le panneau de contrôle est directement accessible à partir d&#39;Adobe Experience Cloud. Il est accessible uniquement aux utilisateurs Admin. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr) pour plus d&#39;informations.
 
 ### FAQ sur le panneau de contrôle
 
-[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr) pour accéder à la FAQ sur le panneau de contrôle Campaign.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) pour accéder à la FAQ sur le panneau de contrôle Campaign.
 
 ### Gestion SFTP
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d’informations.
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l&#39;ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr) pour plus d&#39;informations.
 
 ### Sous-domaines et certificats
 
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus dans ces pages :
 * [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
-* [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
+* [Configuration d&#39;un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
 * [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr)
 
 ### Paramètres des instances
@@ -145,6 +145,6 @@ En savoir plus sur le nouveau Centre de téléchargement [sur cette page](https:
 
 ### Création d’un ticket ou démarrage d’une conversation
 
-La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d’Adobe pour résoudre vos problèmes.
+La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d&#39;Adobe pour résoudre vos problèmes.
 
-Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
