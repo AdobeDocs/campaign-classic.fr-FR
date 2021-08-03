@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 93%
 
 ---
 
@@ -70,7 +70,7 @@ Plusieurs options permettent de mesurer les impacts d&#39;une migration et d&#39
 >
 >Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option  **-allinstances**.
 
-### Options -showCustomEntities et -showDeletedEntities{#showcustomentities-and--showdeletedentities-options}
+### Options -showCustomEntities et -showDeletedEntities {#showcustomentities-and--showdeletedentities-options}
 
 * L&#39;option **-showCustomEntities** affiche la liste de tous les objets non-standards :
 
@@ -156,7 +156,13 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Ce type d’erreur entraîne un échec de la migration. Voir la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des journaux d’erreurs d’application Web de type vues d’ensemble (migration depuis la version v6.02), voir la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Applications Web</a>.<br /> </td> 
+   <td> Ce type d’erreur entraîne un échec de la migration. Voir la section <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. Si vous obtenez des logs d'erreur d'application web de type vues d'ensemble (migration depuis une v6.02), reportez-vous à la section <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Configuration de Campaign</a>.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> crmDeploymentType="onpremise"<br /> </td> 
+   <td> PU-0007<br /> </td> 
+   <td> Erreur<br /> </td> 
+   <td> Ce type de déploiement n’est plus pris en charge. Le type de déploiement connecteur Microsoft CRM On-premise et Office 365 est désormais obsolète</a>. Pour passer au déploiement des API Web, voir <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
   </tr> 
  </tbody> 
 </table>
