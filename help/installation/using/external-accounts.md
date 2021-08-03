@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
-workflow-type: ht
-source-wordcount: '1739'
-ht-degree: 100%
+source-git-commit: 94664ec56d269afef926663c52b84ccaaab02480
+workflow-type: tm+mt
+source-wordcount: '1827'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour établir des connexions avec des systèmes externes, vous pouvez créer des comptes externes.
 
-Les comptes externes sont utilisés par les processus techniques comme les workflows techniques ou de campagne. Par exemple, lors de la configuration d’un transfert de fichier dans un workflow ou d’un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
+Les comptes externes sont utilisés par les processus techniques comme les workflows techniques ou de campagne. Par exemple, lors de la configuration d&#39;un transfert de fichier dans un workflow ou d&#39;un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
 ## Créer un compte externe {#creating-an-external-account}
 
@@ -74,7 +74,7 @@ Pour configurer le compte externe **[!UICONTROL Mails rebonds (defaultPopAccount
 
    Type de chiffrement choisi entre **[!UICONTROL Par défaut]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** ou **[!UICONTROL POP3S]**.
 
-### Routage{#routing-external-account}
+### Routage {#routing-external-account}
 
 Le compte externe **[!UICONTROL Routage]** vous permet de configurer chaque canal disponible dans Adobe Campaign en fonction des packages installés.
 
@@ -93,7 +93,7 @@ Les canaux suivants peuvent être configurés :
 * [Canal Android](../../delivery/using/configuring-the-mobile-application-android.md)
 
 
-### Instance d’exécution  {#execution-instance-external-account}
+### Instance d&#39;exécution  {#execution-instance-external-account}
 
 Si vous possédez une architecture répartie, vous devez spécifier les instances d&#39;exécution liées à l&#39;instance de contrôle et les connecter. Les modèles de messages transactionnels sont déployés sur l&#39;instance d&#39;exécution.
 
@@ -288,19 +288,17 @@ Le compte externe **[!UICONTROL AEM (instance AEM)]** vous permet de gérer le c
 
 Voir à ce propos cette [section](../../integrations/using/about-adobe-experience-manager.md).
 
-
-
 ## Comptes externes du connecteur CRM
 
 ### Microsoft Dynamics CRM {#microsoft-dynamics-crm-external-account}
 
-Le compte externe **[!UICONTROL Microsoft Dynamics CRM]** vous permet d&#39;importer et d&#39;exporter des données Microsoft Dynamics vers Adobe Campaign.
-
-Pour en savoir plus sur Campaign - Connecteur Microsoft Dynamics CRM dans cette [page](../../platform/using/crm-ms-dynamics.md).
-
 >[!NOTE]
 >
 > Les types de déploiement **[!UICONTROL On-premise]** et **[!UICONTROL Office 365]** sont désormais obsolètes. [En savoir plus](../../rn/using/deprecated-features.md).
+
+Le compte externe **[!UICONTROL Microsoft Dynamics CRM]** vous permet d&#39;importer et d&#39;exporter des données Microsoft Dynamics vers Adobe Campaign.
+
+Pour en savoir plus sur Campaign - Connecteur Microsoft Dynamics CRM dans cette [page](../../platform/using/crm-ms-dynamics.md).
 
 Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification **[!UICONTROL Informations de connexion et mot de passe]**, vous devez fournir les détails suivants :
 
@@ -314,13 +312,15 @@ Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification 
 
    URL de votre serveur Microsoft CRM.
 
+   Pour trouver votre **[!UICONTROL URL du serveur]** Microsoft Dynamics CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL du serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL Identifiant du client]**
 
    ID du client qui se trouve sur le portail de gestion Microsoft Azure au niveau de la catégorie **[!UICONTROL Mettre à jour votre code]**, dans le champ **[!UICONTROL ID du client]**.
 
 * **[!UICONTROL Version CRM]**
 
-   Version du CRM parmi **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** et **[!UICONTROL Dynamics CRM 2016]**.
+   Sélectionnez **[!UICONTROL Version CRM Dynamics 365]**.
 
 Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification **[!UICONTROL Certificat]**, vous devez fournir les détails suivants :
 
@@ -330,9 +330,13 @@ Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification 
 
    URL de votre serveur Microsoft CRM.
 
+   Pour trouver votre **[!UICONTROL URL du serveur]** Microsoft Dynamics CRM, accédez à votre compte Microsoft Dynamics CRM, puis cliquez sur **Dynamics 365** et sélectionnez votre application. Vous pouvez ensuite trouver votre **[!UICONTROL URL du serveur]** dans la barre d’adresse de votre navigateur, par exemple : `https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL Clé privée (encodée en Base64)]**
 
-   Clé privée encodée en Base64
+   Notez que la clé privée doit être encodée en Base64.
+
+   Pour cela, vous pouvez utiliser l&#39;aide d&#39;un encodeur Base64 ou utiliser la ligne de commande `base64 -w0 private.key` sous Linux.
 
 * **[!UICONTROL Identifiant de clé personnalisé]**
 
@@ -348,7 +352,7 @@ Avec le type de déploiement **[!UICONTROL Web API]** et l&#39;authentification 
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../platform/using/crm-connectors.md).
 
-### CRM Salesforce.com {#salesforce-crm-external-account}
+### CRM Salesforce.com   {#salesforce-crm-external-account}
 
 Le compte externe **[!UICONTROL Salesforce CRM]** vous permet d&#39;importer et d&#39;exporter des données Salesforce vers Adobe Campaign.
 
