@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 9fb5b1a256a7c77e64a449aea9a4489de1f9123a
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 100%
+source-wordcount: '1071'
+ht-degree: 72%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 100%
 
 Dans cette page, vous apprendrez comment connecter Campaign Classic à **Microsoft Dynamics CRM 365**.
 
-Les déploiements possibles sont les suivants :
-
-* via **Web API** (recommandé). Pour découvrir comment configurer la connexion à Microsoft Dynamics, consultez [la section ci-dessous](#microsoft-dynamics-implementation-step).
-* avec **Office 365**. Consultez [cette vidéo](#microsoft-dynamics-office-365) pour connaître les étapes clés de la configuration de cette intégration.
-* pour un déploiement **On-premise**, appliquez les étapes clés d&#39;Office 365.
+Le déploiement possible est effectué via **l’API Web** (recommandé). Pour découvrir comment configurer la connexion à Microsoft Dynamics, consultez [la section ci-dessous](#microsoft-dynamics-implementation-step).
 
 La synchronisation des données s&#39;effectue via une activité de workflow dédiée. [En savoir plus](../../platform/using/crm-data-sync.md).
 
@@ -48,12 +44,9 @@ Dans Campaign Classic :
 
 
 >[!CAUTION]
->
 > Lors de la connexion d&#39;Adobe Campaign à Microsoft Dynamics, vous ne pouvez pas :
 > * Installer de plug-in qui peut modifier le comportement du CRM, ce qui peut entraîner des problèmes de compatibilité avec Adobe Campaign
 > * Sélectionner plusieurs énumérations
->
-
 
 
 ## Configurer Microsoft Dynamics CRM {#config-crm-microsoft}
@@ -88,18 +81,43 @@ Le secret client est la clé qui est unique à l&#39;identifiant du client. Pour
    - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
    ```
 
-1. Cliquez sur le lien **manifest** pour obtenir l&#39;**identifiant de clé de certificat** et l&#39;**ID de clé**.
+   >[!NOTE]
+   >
+   >Vous pouvez modifier le nombre de jours, ici `-days 365`, dans l’exemple de code pour une période de validité du certificat plus longue.
+
+1. Vous devrez ensuite le coder en base64. Pour cela, vous pouvez utiliser l&#39;aide d&#39;un encodeur Base64 ou utiliser la ligne de commande `base64 -w0 private.key` sous Linux.
+
+1. Cliquez sur le lien **Manifest** pour obtenir l’**identifiant de clé de certificat (customKeyIdentifier)** et l’**identifiant de clé (keyId)**.
 
 ### Configuration des autorisations {#config-permissions-microsoft}
 
-Vous devez configurer les **autorisations obligatoires** pour l&#39;application qui a été créée.
+**Étape 1** : Configurez les  **autorisations** requises pour l’application qui a été créée.
 
 1. Accédez à **Azure Active Directory > Enregistrements des applications** et sélectionnez l&#39;application qui a été créée précédemment.
 1. Cliquez sur **Paramètres** en haut à gauche.
 1. Sur **Autorisations obligatoires**, cliquez sur **Ajouter** et **Sélectionner une API > Dynamics CRM Online**.
-1. Cliquez ensuite sur **Sélectionner**, activez **Accéder à Dynamics 365 en tant qu&#39;utilisateurs de l&#39;organisation** et cliquez sur **Sélectionner**.
+1. Cliquez sur **Sélectionner**, activez **Accéder à Dynamics 365 en tant qu’utilisateurs de l’organisation** et cliquez sur **Sélectionner**.
+1. Ensuite, dans l’application, sélectionnez le **manifeste** sous le menu **Gérer**.
+
+1. Dans l’éditeur **Manifest**, définissez la propriété `allowPublicClient` de `null` sur `true` et cliquez sur **Enregistrer**.
+
+**Étape 2** : Autorisation du consentement de l’administrateur
+
+1. Accédez à **Azure Principale Directory > Applications d’entreprise**.
+
+1. Sélectionnez l’application à laquelle vous souhaitez accorder le consentement administrateur à l’échelle du client.
+
+1. Dans le menu du volet de gauche, sélectionnez **Autorisations** sous **Sécurité**.
+
+1. Cliquez sur **Accorder le consentement de l’administrateur**.
+
+Pour plus d’informations à ce sujet, voir [Documentation Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal).
 
 ### Création d&#39;un utilisateur d&#39;application {#create-app-user-microsoft}
+
+>[!NOTE]
+>
+> Cette étape est facultative avec l’authentification **[!UICONTROL Identifiants de mot de passe]**.
 
 L&#39;utilisateur de l&#39;application est l&#39;utilisateur que l&#39;application enregistrée ci-dessus utilisera. Toute modification apportée à Microsoft Dynamics à l&#39;aide de l&#39;application enregistrée ci-dessus sera effectuée via cet utilisateur.
 
@@ -131,25 +149,25 @@ L&#39;utilisateur de l&#39;application est l&#39;utilisateur que l&#39;applicati
 
 ## Configuration de Campaign {#configure-acc-for-microsoft}
 
-Pour connecter Microsoft Dynamics 365 et Campaign, vous devez créer et configurer un compte externe dédié dans Campaign.
+>[!NOTE]
+>
+> Publier la mise hors service de [RDS à partir de Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint), les types de déploiements CRM On-premise et Office 365 ne sont plus compatibles avec Campaign. Adobe Campaign ne prend désormais en charge que le déploiement des API Web pour la version CRM **Dynamic CRM 365**. [En savoir plus](../../rn/using/deprecated-features.md#crm-connectors).
+
+Pour connecter Microsoft Dynamics 365 et Campaign, vous devez créer et configurer un **[!UICONTROL compte externe]** dédié dans Campaign.
 
 1. Accédez à **[!UICONTROL Administration > Plateforme > Comptes externes]**.
 
-1. Créez un nouveau compte externe, sélectionnez le type **[!UICONTROL Microsoft Dynamics CRM]** et l&#39;option **[!UICONTROL Activer]**.
+1. Sélectionnez le compte externe **[!UICONTROL Microsoft Dynamics CRM]** . Cochez l&#39;option **[!UICONTROL Activé]**.
 
-1. Sélectionnez le type de déploiement **[!UICONTROL Web API]** :
-
-   Adobe Campaign Classic prend en charge l&#39;interface REST de Dynamics 365 avec le protocole OAuth pour l&#39;authentification avec un **[!UICONTROL certificat]** ou des **[!UICONTROL mots de passe]**.
-
-   Utilisez les paramètres [définis précédemment](#get-client-id-microsoft) dans Azure Directory pour configurer le compte externe.
-
-   ![](assets/crm-ms-dynamics-ext-account.png)
+1. Renseignez les informations requises pour connecter Microsoft Dynamics 365 et Campaign.
 
    >[!NOTE]
    >
-   >La configuration du compte externe Microsoft Dynamics CRM est détaillée [dans cette section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
+   >La configuration du compte externe Microsoft Dynamics CRM avec chaque **[!UICONTROL type O-Auth CRM]** est détaillée [dans cette section](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account).
 
-1. Cliquez sur le lien de l&#39;**[!UICONTROL assistant de configuration Microsoft CRM...]** : Adobe Campaign découvre automatiquement les tables du modèle de données Microsoft Dynamics.
+   ![](assets/crm-ms-dynamics-ext-account.png)
+
+1. Cliquez sur l&#39;**[!UICONTROL assistant de configuration Microsoft CRM...]**. Adobe Campaign détecte automatiquement les tables du modèle de données Microsoft Dynamics.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
@@ -174,13 +192,6 @@ Pour connecter Microsoft Dynamics 365 et Campaign, vous devez créer et config
    ![](assets/crm_connectors_msdynamics_06.png)
 
 Campaign et Microsoft Dynamics sont maintenant connectés. Vous pouvez configurer la synchronisation des données entre les deux systèmes. Pour en savoir plus, consultez la section [Synchronisation des données](../../platform/using/crm-data-sync.md).
-
-## Configuration de l&#39;intégration de Microsoft Dynamics CRM Office 365{#microsoft-dynamics-office-365}
-
-Regardez cette vidéo pour découvrir comment intégrer Dynamics 365 à Adobe Campaign Classic, dans le contexte d&#39;un déploiement Office 365.
-
->[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
-
 
 ## Types de données de champ pris en charge {#ms-dyn-supported-types}
 
