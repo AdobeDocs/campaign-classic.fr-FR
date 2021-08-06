@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: 'Avec Adobe Campaign, vous pouvez utiliser des données client riches pour créer, coordonner et diffuser les campagnes dynamiques qui seront exactement celles que les clients souhaitent : par e-mail, mobile, canaux hors ligne, etc.'
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
-source-wordcount: '2518'
-ht-degree: 100%
+source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+workflow-type: tm+mt
+source-wordcount: '2525'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
    + [Notes techniques](technotes/technote.md)
-   + [FAQ sur le connecteur Adobe Analytics](technotes/aa-connector-migration.md)
    + [Mise à jour du certificat iOS](technotes/ios-certificate-update.md)
    + [Mises à jour de la configuration de Campaign](technotes/acc-config-updates.md)
    + [Mise à jour des URL trackées](technotes/tracked-urls.md)
@@ -69,7 +68,7 @@ ht-degree: 100%
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
    + Gérer les profils {#profile-management}
-      + [A propos des profils](platform/using/about-profiles.md)
+      + [À propos des profils](platform/using/about-profiles.md)
       + [Modification d’un profil](platform/using/editing-a-profile.md)
       + [Ajout de profils](platform/using/adding-profiles.md)
       + [Gestion des profils](platform/using/managing-profiles.md)
@@ -92,13 +91,13 @@ ht-degree: 100%
          + [Compression ou chiffrement d’un fichier avant traitement](platform/using/zip-encrypt.md)
       + Bonnes pratiques et résolution des problèmes {#best-practices}
          + [Bonnes pratiques en matière d&#39;import et d&#39;export](platform/using/import-export-best-practices.md)
-         + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
+         + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
    + Filtrage des données {#filtering-data}
       + [Options de filtrage](platform/using/filtering-options.md)
       + [Création de filtres](platform/using/creating-filters.md)
       + [Cas pratique](platform/using/use-case.md)
    + Création de requêtes {#creating-queries}
-      + [A propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
+      + [À propos des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
       + [Etapes pour créer une requête](platform/using/steps-to-create-a-query.md)
       + [Définition des conditions de filtre](platform/using/defining-filter-conditions.md)
    + Autorisations {#permissions}
@@ -111,14 +110,16 @@ ht-degree: 100%
       + [Packages de données](platform/using/working-with-data-packages.md)
       + [Énumérations](platform/using/managing-enumerations.md)
    + Connecteurs {#connectors}
-      + [A propos des connecteurs](platform/using/about-connectors.md)
+      + [À propos des connecteurs](platform/using/about-connectors.md)
       + Connecteurs CRM{#crm-connectors}
          + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
          + [Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
          + [Connexion à Salesforce.com](platform/using/crm-sfdc.md)
          + [Synchronisation des données avec le CRM](platform/using/crm-data-sync.md)
-      + [Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
-      + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
+      + Connecteur Adobe Analytics{#analytics-connector}
+         + [Intégration d’Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
+         + [Comment migrer vers le connecteur Adobe Analytics](technotes/aa-connector-migration.md)
+         + [Adobe Analytics - Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Options d’aide et de support](support.md)
 + Création et envoi de messages {#sending-messages}
    + [Prise en main des messages](delivery/using/communication-channels.md)
@@ -173,7 +174,7 @@ ht-degree: 100%
       + [Définir le contenu du courrier](delivery/using/defining-the-direct-mail-content.md)
       + [Validation](delivery/using/validating.md)
    + Utilisation de modèles de diffusion {#using-delivery-templates}
-      + [A propos des modèles](delivery/using/about-templates.md)
+      + [À propos des modèles](delivery/using/about-templates.md)
       + [Création d’un modèle de diffusion](delivery/using/creating-a-delivery-template.md)
       + [Sélection d’un mapping de ciblage](delivery/using/selecting-a-target-mapping.md)
       + [Création d’une diffusion depuis un modèle](delivery/using/creating-a-delivery-from-a-template.md)
@@ -186,7 +187,7 @@ ht-degree: 100%
       + [Génération de documents PDF personnalisés](delivery/using/generating-personalized-pdf-documents.md)
       + [Personnalisation de la liste des émoticônes](delivery/using/customizing-emoticon-list.md)
    + Utilisation des adresses de contrôle {#using-seed-addresses}
-      + [A propos des adresses de contrôle](delivery/using/about-seed-addresses.md)
+      + [À propos des adresses de contrôle](delivery/using/about-seed-addresses.md)
       + [Création d’adresses de contrôle](delivery/using/creating-seed-addresses.md)
       + [Ajout d’adresses de contrôle](delivery/using/adding-seed-addresses.md)
       + [Utilisation d’une table de destinataires externe](delivery/using/using-an-external-recipient-table.md)
@@ -206,7 +207,7 @@ ht-degree: 100%
          + [Démarrez le workflow](delivery/using/a-b-testing-uc-start-workflow.md)
          + [Analyse du résultat](delivery/using/a-b-testing-uc-analyzing.md)
    + Services et abonnements {#subscriptions-and-referrals}
-      + [A propos des services et des abonnements](delivery/using/about-services-and-subscriptions.md)
+      + [À propos des services et des abonnements](delivery/using/about-services-and-subscriptions.md)
       + [Gestion des abonnements](delivery/using/managing-subscriptions.md)
       + [Marketing viral et réseaux sociaux](delivery/using/viral-and-social-marketing.md)
    + Surveillance des diffusions {#monitoring-deliveries}
@@ -262,7 +263,7 @@ ht-degree: 100%
       + [Surveillance de vos campagnes](campaign/using/marketing-campaign-monitoring.md)
       + [Prestataires, stocks et budgets](campaign/using/providers--stocks-and-budgets.md)
    + Optimisation des campagnes {#campaign-optimization}
-      + [A propos des typologies de campagne](campaign/using/about-campaign-typologies.md)
+      + [À propos des typologies de campagne](campaign/using/about-campaign-typologies.md)
       + [Règles de pression](campaign/using/pressure-rules.md)
       + [Règles de cohérence](campaign/using/consistency-rules.md)
       + [Règles de contrôle](campaign/using/control-rules.md)
@@ -366,7 +367,7 @@ ht-degree: 100%
    + [Cas d’utilisation : création d’un formulaire de référence](surveys/using/use-case--creating-a-refer-a-friend-form.md)
    + [Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Intégration avec Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
-   + [A propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
+   + [À propos des intégrations de Campaign](integrations/using/about-campaign-integrations.md)
    + Partage d&#39;audiences {#audience-sharing}
       + [Partage des audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Envoi d’une requête à Adobe](integrations/using/submitting-request-to-adobe.md)
@@ -404,8 +405,8 @@ ht-degree: 100%
       + [Exporter des données de Campaign vers Adobe Experience Platform](integrations/using/export-campaign-data.md)
 + Automatisation à l’aide de workflows {#automating-with-workflows}
    + Prise en main des workflows {#introduction}
-      + [A propos des workflows](workflow/using/about-workflows.md)
-      + [A propos des activités](workflow/using/about-activities.md)
+      + [À propos des workflows](workflow/using/about-workflows.md)
+      + [À propos des activités](workflow/using/about-activities.md)
       + [Création d’un workflow](workflow/using/building-a-workflow.md)
       + [Données de la cible](workflow/using/targeting-data.md)
       + [Utilisation des données de workflow](workflow/using/how-to-use-workflow-data.md)
@@ -547,11 +548,11 @@ ht-degree: 100%
       + [Périmètre de la simulation](interaction/using/simulation-scope.md)
       + [Suivi des simulations](interaction/using/simulation-tracking.md)
    + Diffusion d’une offre {#delivering-an-offer}
-      + [A propos des canaux sortants](interaction/using/about-outbound-channels.md)
+      + [À propos des canaux sortants](interaction/using/about-outbound-channels.md)
       + [Intégration d’une offre via l’assistant](interaction/using/integrating-an-offer-via-the-wizard.md)
       + [Intégration d’une offre via un workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
    + Interactions unitaires {#unitary-interactions}
-      + [A propos des canaux entrants](interaction/using/about-inbound-channels.md)
+      + [À propos des canaux entrants](interaction/using/about-inbound-channels.md)
       + [Intégration via JavaScript (côté client)](interaction/using/integration-via-javascript--client-side-.md)
       + [Intégration via SOAP (côté serveur)](interaction/using/integration-via-soap--server-side-.md)
       + [Interactions anonymes](interaction/using/anonymous-interactions.md)
@@ -623,7 +624,7 @@ ht-degree: 100%
       + [Personnalisation et confidentialité](installation/using/privacy.md)
       + [Gestion des accès sécurisés](installation/using/access-management.md)
       + [Instructions relatives aux scripts et au codage](installation/using/scripting-coding-guidelines.md)
-      + [Réseau, base de données et SSL/TLS](installation/using/network-database.md)
+      + [Réseau, base de données et SSL/TLS](installation/using/network-database.md)
       + [Paramètres de sécurité du serveur](installation/using/server-configuration.md)
       + [Paramètres de sécurité du serveur web](installation/using/web-server-configuration.md)
    + Installation de Campaign (On-premise){#install-campaign-on-prem}
@@ -797,7 +798,7 @@ ht-degree: 100%
       + [Editer les formulaires](configuration/using/editing-forms.md)
       + [Structure d&#39;un formulaire](configuration/using/form-structure.md)
    + API {#api}
-      + [A propos des services web](configuration/using/about-web-services.md)
+      + [À propos des services web](configuration/using/about-web-services.md)
       + [Appels Web Service](configuration/using/web-service-calls.md)
       + [API orientées données](configuration/using/data-oriented-apis.md)
       + [API orientées métier](configuration/using/business-oriented-apis.md)
