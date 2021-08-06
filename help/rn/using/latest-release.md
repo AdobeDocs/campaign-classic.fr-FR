@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8a14afd25b03cea38cbfc2277fc9e51cf08658db
+source-git-commit: c59529a0a4d72ecb795569591d62a68f030a0ac7
 workflow-type: tm+mt
-source-wordcount: '1959'
-ht-degree: 98%
+source-wordcount: '1951'
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 **Fonctionnalités obsolètes**
 
 * À compter de la version 21.1 de Campaign, le connecteur de données Adobe Analytics est obsolète. Si vous utilisez ce connecteur, vous devez adapter votre implémentation en conséquence avec le nouveau connecteur Adobe Analytics.
-Pour plus d’informations, consultez la [documentation détaillée](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-connector.html).
+Pour plus d’informations, consultez la [documentation détaillée](../../technotes/aa-connector-migration.md).
 * La prise en charge de Debian 8 est maintenant obsolète.
 * Suite à la dépréciation d&#39;Oracle CRM dans la version 20.3, le compte externe associé a été supprimé de l’interface.
 
@@ -203,7 +203,7 @@ Si vous souhaitez participer à cette version bêta privée, remplissez ce [form
 * La carte thermique des workflows a été améliorée afin d&#39;éviter les timeouts lors de l&#39;exécution de workflows avec plusieurs activités. (NEO-27423).
 * Correction d&#39;un problème en raison duquel une offre pouvait être présentée même si sa date de fin était dépassée. Campaign Classic prend désormais en compte la date et l&#39;heure complètes de la date de fin plutôt que la date uniquement. (NEO-27590)
 * Le lien Google+ a été supprimé du bloc de personnalisation **Liens de partage vers réseaux sociaux**.
-* Correction d&#39;un problème après l&#39;implémentation d&#39;un correctif dans la dernière version. Une vérification a été ajoutée sur le nom d&#39;hôte lors de la connexion à l&#39;aide de SSL/TLS, ce qui a conduit à l&#39;échec des diffusions SMS. La vérification du nom d&#39;hôte a été désactivée pour la plupart des protocoles tels que POP3, SMS et HTTP avec proxy et la vérification du certificat pour le compte externe SMS a été améliorée avec trois valeurs (NEO-29581). [En savoir plus](../../delivery/using/sms-protocol.md#skip-tls)
+* Correction d&#39;un problème après l&#39;implémentation d&#39;un correctif dans la dernière version. Une vérification a été ajoutée sur le nom d&#39;hôte lors de la connexion à l&#39;aide de SSL/TLS, ce qui a conduit à l&#39;échec des diffusions SMS. La vérification du nom d&#39;hôte a été désactivée pour la plupart des protocoles tels que POP3, SMS et HTTP avec proxy et la vérification du certificat pour le compte externe SMS a été améliorée avec trois valeurs (NEO-29581). [En savoir plus](../../delivery/using/sms-protocol.md#skip-tls)
 
 **Correctifs**
 
