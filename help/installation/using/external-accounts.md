@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 94664ec56d269afef926663c52b84ccaaab02480
+source-git-commit: 7adde72f615e7c697fa2284235e180c29bc6d470
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 94%
@@ -92,7 +92,6 @@ Les canaux suivants peuvent être configurés :
 * [Canal iOS](../../delivery/using/configuring-the-mobile-application.md)
 * [Canal Android](../../delivery/using/configuring-the-mobile-application-android.md)
 
-
 ### Instance d&#39;exécution  {#execution-instance-external-account}
 
 Si vous possédez une architecture répartie, vous devez spécifier les instances d&#39;exécution liées à l&#39;instance de contrôle et les connecter. Les modèles de messages transactionnels sont déployés sur l&#39;instance d&#39;exécution.
@@ -112,7 +111,6 @@ Si vous possédez une architecture répartie, vous devez spécifier les instance
    Mot de passe du compte tel qu&#39;il a été défini dans le dossier de l&#39;opérateur.
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../message-center/using/configuring-instances.md#control-instance).
-
 
 ## Accès aux comptes externes de systèmes externes
 
@@ -148,13 +146,13 @@ Pour savoir où trouver ces informations de connexion, consultez [cette page](ht
 
 ### SFTP {#sftp-external-account}
 
-Le compte externe SFTP vous permet de configurer et de tester l&#39;accès à un serveur en dehors d&#39;Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
+Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Voir à ce sujet [cette page](../../workflow/using/file-transfer.md).
 
 ![](assets/ext_account_4.png)
 
 * **[!UICONTROL Serveur]**
 
-   URL du serveur SFTP.
+   URL du serveur SFTP.
 
 * **[!UICONTROL Port]**
 
@@ -162,11 +160,11 @@ Le compte externe SFTP vous permet de configurer et de tester l&#39;accès à un
 
 * **[!UICONTROL Compte]**
 
-   Nom du compte utilisé pour se connecter au serveur SFTP.
+   Nom du compte utilisé pour se connecter au serveur SFTP.
 
 * **[!UICONTROL Mot de passe]**
 
-   Mot de passe utilisé pour se connecter au serveur SFTP.
+   Mot de passe utilisé pour se connecter au serveur SFTP.
 
 ### Base de données externe (FDA) {#external-database-external-account}
 
