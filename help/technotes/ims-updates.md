@@ -4,8 +4,8 @@ title: Mise à jour de votre environnement pour vous connecter à Adobe Campaig
 description: Campaign - Mises à jour d'IMS
 hide: true
 hidefromtoc: true
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: ht
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -38,8 +38,8 @@ Si vous avez déjà effectué la mise à niveau, mais que vous utilisez une anci
    La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
    * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
-   * Campaign Version 21.1.3. [En savoir plus](../rn/using/latest-release.md)
-   * Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
+   * Campaign Version 21.1.3. [Apprenez-en davantage](../rn/using/latest-release.md)   
+   * Campaign Version 20.2.5. [En savoir plus](../rn/using/release--20-2.md)
    * Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
    * Campaign Version 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
    * Campaign Version 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
@@ -75,7 +75,7 @@ Le message d&#39;avertissement suivant s&#39;affiche pour les utilisateurs s&#39
 
 ![](../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/fr/x-productkb/global/update-operating-system-and-browser.html)
+Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernières mises à jour du système d&#39;exploitation que vous utilisez. [En savoir plus](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 **Après le 30 juin 2021**, le message suivant s&#39;affichera et vous ne pourrez plus vous connecter à Adobe Campaign :
 
@@ -89,7 +89,7 @@ Si un tel avertissement s&#39;affiche, assurez-vous d&#39;installer les dernièr
 ## Liens utiles
 
 * [Mise à niveau de votre environnement](../production/using/build-upgrade.md)
-* [FAQ sur l’upgrade de build](../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau des builds](../platform/using/faq-build-upgrade.md)
 * [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../installation/using/client-console-availability-for-windows.md)
 * [Installation de la console cliente Campaign](../installation/using/installing-the-client-console.md)
 * [Accéder à la distribution logicielle Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr)
