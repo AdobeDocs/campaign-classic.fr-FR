@@ -5,8 +5,8 @@ description: Note technique
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 037e56040bd63edfdfee5ab6bf73b45d3a138072
-workflow-type: ht
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Vous devez effectuer une mise à niveau vers un build plus récent parmi ceux r�
 
 >[!CAUTION]
 >
->Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe de l’Assistance clientèle d’Adobe pour appliquer à court terme un correctif de sécurité manuel sur vos instances**.
+>Si vous ne pouvez pas effectuer la mise à niveau dans le délai recommandé, **vous devez contacter l’équipe de l’assistance clientèle d’Adobe pour appliquer à court terme un correctif de sécurité manuel sur vos instances**.
 
 
 ## Mise à jour de la console cliente Campaign   {#acc-cc-updates}
@@ -80,7 +80,7 @@ Si vous vous connectez à Campaign [via un Adobe ID](../integrations/using/about
 
 * Gold Standard 11. [En savoir plus](../rn/using/gold-standard.md)
 * Campaign Version 21.1.1. [En savoir plus](../rn/using/latest-release.md)
-* Campaign Version 20.2.4. [En savoir plus](../rn/using/release--20-2.md)
+* Campaign Version 20.2.5. [En savoir plus](../rn/using/release--20-2.md)
 * Campaign Version 20.1.4. [En savoir plus](../rn/using/release--20-1.md)
 * Campaign Version 19.2.4. [En savoir plus](../rn/using/release--19-2.md)
 * Campaign Version 19.1.8. [En savoir plus](../rn/using/release--19-1.md)
@@ -165,6 +165,6 @@ En tant que client On-premise/hybride, vous devez mettre à jour votre configura
 ## Liens utiles
 
 * [Mise à niveau de votre environnement](../production/using/build-upgrade.md)
-* [FAQ sur l’upgrade de build](../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau des builds](../platform/using/faq-build-upgrade.md)
 * [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../installation/using/client-console-availability-for-windows.md)
