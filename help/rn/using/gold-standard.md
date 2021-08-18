@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: c5e1b10b82c8ea1cf8bcb617ee48fe13e16fbfd9
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 95%
+source-wordcount: '1077'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Le build 9032@d030c36 comprend le correctif suivant :
 >
 > * Si vous vous connectez à Campaign avec votre Adobe ID, par le biais du service Adobe Identity Management (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d&#39;authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth avec Campaign sera abandonné le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés.
 
 >
 >
@@ -48,7 +48,7 @@ Le build 9032@10c2709 comprend le correctif suivant :
 
 >[!NOTE]
 >
-> Connectez-vous à la [distribution logicielle Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs finaux [sur cette page](../../installation/using/client-console-availability-for-windows.md).
+> Connectez-vous à la [distribution logicielle Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) pour télécharger la nouvelle version. Découvrez comment proposer la mise à jour de la console à tous les utilisateurs finaux [sur cette page](../../installation/using/client-console-availability-for-windows.md).
 
 _22 décembre 2020_
 
@@ -83,7 +83,7 @@ Correction d’un problème qui empêchait le tracking de fonctionner lorsque la
 
 >[!CAUTION]
 >
->Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Consultez à ce sujet [cette page](../../installation/using/installing-the-client-console.md)
+>Nous vous recommandons de mettre à niveau la console cliente avec celle disponible dans cette version. Pour plus d’informations, consultez [cette page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 9{#gs-9}
 
@@ -115,7 +115,7 @@ Le build 9032@3a9dc9c comprend les correctifs suivants :
 >Si vous rencontrez des problèmes avec les notifications push lors de l’utilisation de liens de tracking, ou avec les diffusions lors de l’utilisation de balises d’ancrage, nous vous recommandons de désactiver le nouveau mécanisme de signature pour les liens de tracking. [La procédure est détaillée dans cette page](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
 
 * Correction d’un problème qui empêchait l’affichage des images sur les diffusions LINE. (NEO-23207)
-* Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
+* Correction d’un problème lié à l’activité **Transfert de fichier** qui empêchait le fonctionnement de l’authentification par clé SFTP sur Debian 9. (NEO-23183)
 * Correction d’un problème qui pouvait avoir un impact sur une notification push lorsqu’elle était envoyée à une fréquence élevée. (NEO-20516)
 * Correction d’un problème de gestion des réponses aux offres qui pouvait entraîner des blocages du serveur web. (NEO-19482)
 * Correction d’une erreur de la gestion de LibreOffice qui empêchait l’export de rapports. (NEO-20982)
@@ -133,7 +133,7 @@ _9 mars 2020_
 
 Le build 9032@19f73c5 comprend le correctif suivant :
 
-* Correction d&#39;un problème de comptes externes, lié à l&#39;utilisation de FTP sur SSL. (NEO-20498)
+* Correction d’un problème de comptes externes, lié à l’utilisation de FTP sur SSL. (NEO-20498)
 
 ## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] version 5{#gs-5}
 
