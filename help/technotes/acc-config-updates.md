@@ -5,10 +5,10 @@ description: Note technique
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 96%
 
 ---
 
@@ -103,7 +103,7 @@ Une fois toutes les instances mises à niveau, la console cliente doit égalemen
 
 ## Intégration avec Experience Cloud Triggers {#acc-triggers-updates}
 
-Le service d’authentification historique oAuth est arrivé en fin de vie Le mode d’authentification de l’intégration des triggers, historiquement basé sur l’authentification oAUTH pour accéder au pipeline, a été remplacé par Adobe I/O. Il prendra fin le **30 novembre 2021**. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+Le service d’authentification historique oAuth est arrivé en fin de vie L’authentification de l’intégration des Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Il sera retiré le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
 
 **Cela vous concerne-t-il ?**
 
