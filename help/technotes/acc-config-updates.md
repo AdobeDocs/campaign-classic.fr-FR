@@ -5,10 +5,10 @@ description: Note technique
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 601cc3883d7fa8abaa86161365c4230cbe30765c
+source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 96%
+source-wordcount: '1131'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,7 @@ Une fois toutes les instances mises à niveau, la console cliente doit égalemen
 
 ## Intégration avec Experience Cloud Triggers {#acc-triggers-updates}
 
-Le service d’authentification historique oAuth est arrivé en fin de vie L’authentification de l’intégration des Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. Il sera retiré le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés. [En savoir plus](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email).
+Le service d’authentification historique oAuth est arrivé en fin de vie L’authentification de l’intégration des Triggers, basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline, a été déplacée vers Adobe I/O. L’ancien mode d’authentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) le **18 août 2021**. Les environnements hébergés bénéficient d’une extension jusqu’au **30 novembre 2021**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’au 30 novembre 2021. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) à Adobe.
 
 **Cela vous concerne-t-il ?**
 
