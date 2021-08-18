@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 100%
+source-wordcount: '1966'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ _27 octobre 2020_
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth avec Campaign sera abandonné le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés.
 
 
 **Nouveautés**
@@ -92,7 +92,7 @@ En savoir plus sur la [Matrice de compatibilité de Campaign](../../rn/using/com
 
 **Fonctionnalités obsolètes**
 
-Les fonctionnalités suivantes sont obsolètes dans la version 20.3 :
+Les fonctionnalités suivantes sont obsolètes dans la version 20.3 :
 
 * Le domaine demdex utilisé pour importer et exporter des audiences vers Adobe Experience Cloud est obsolète. Si vous utilisez le domaine demdex pour vos comptes externes d’import/export, vous devez adapter votre mise en œuvre en conséquence. [En savoir plus](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 * L’authentification de l’intégration des Triggers basée à l&#39;origine sur la configuration de l&#39;authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/configuring-adobe-io.md)
@@ -114,7 +114,7 @@ En savoir plus sur les cookies dans [cette section](../../platform/using/privacy
 
 **Autres changements**
 
-* Lors de l’utilisation d’un chemin relatif pour le protocole SFTP, les caractères `~/` ne sont plus automatiquement ajoutés. Si nécessaire, vous pouvez ajouter manuellement des caractères `~/` à votre chemin, mais Adobe conseille d’utiliser un **chemin absolu**.
+* Lors de l’utilisation d’un chemin relatif pour le protocole SFTP, les caractères `~/` ne sont plus automatiquement ajoutés. Si nécessaire, vous pouvez ajouter manuellement des caractères `~/` à votre chemin, mais Adobe conseille d’utiliser un **chemin absolu**.
 * L&#39;authentification Windows NT a été supprimée des méthodes d&#39;authentification disponibles lors de la configuration d&#39;une nouvelle base de données avec Microsoft SQL Server. [En savoir plus](../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine)
 * Le workflow de nettoyage de la base a été optimisé pour Teradata afin d’améliorer les performances. (NEO-19959)
 * Amélioration du message d’erreur affiché lors de l’insertion d’une image à partir d’Adobe Target. Le nom du tenant était vide dans le compte externe.
@@ -156,7 +156,7 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 * Correction d’un problème dans le rapport **Historique des événements Message Center** qui provoquait des erreurs de script lors de la tentative d’application de filtres et rendait impossible le filtrage selon une période. (NEO-23365)
 * Correction d’un problème d’interférence entre les workflows techniques **Traitements sur les opérations** et **Prévisualisation** (prévisionnel). Ce problème se produisait lorsque les diffusions planifiées conservaient le statut « Cible prête » ou « Prêt à être diffusé ». (NEO-20819)
 * Correction d’un problème d’analyse XML en raison duquel l’identifiant XML n’était pas présent dans le champ mdata dans xtkOperator. Ce problème entraînait un échec du postupgrade. (NEO-26113)
-* Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité **Transfert de fichier** liée à un compte externe Azure crypté en SSL pour lequel la connexion était établie avec HTTP au lieu de HTTPS. (NEO-26720)
+* Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité **Transfert de fichier** liée à un compte externe Azure crypté en SSL pour lequel la connexion était établie avec HTTP au lieu de HTTPS. (NEO-26720)
 * Correction d’un problème lié à la base de données MSSQL en raison duquel une erreur se produisait avec la procédure up_updatestats pendant le workflow de nettoyage.
 * Correction d’un blocage qui se produisait pendant l’arrêt du processus web si les demandes d’interaction étaient toujours en cours de traitement. (NEO-26447)
 * Correction d’un problème en raison duquel la fonction **NoNull** d’Oracle DB ne fonctionnait plus après l’upgrade 9032. (NEO-26488)
