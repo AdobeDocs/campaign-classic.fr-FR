@@ -6,10 +6,10 @@ feature: Vue d’ensemble
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
+source-git-commit: 8e18a3633e6b806a971678d985c55c123854438e
 workflow-type: tm+mt
-source-wordcount: '1966'
-ht-degree: 98%
+source-wordcount: '1955'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ _27 octobre 2020_
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth avec Campaign sera abandonné le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
 
 
 **Nouveautés**
