@@ -6,14 +6,14 @@ feature: null
 role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '3263'
-ht-degree: 100%
+source-wordcount: '3274'
+ht-degree: 99%
 
 ---
 
-# Version 19.1{#release-19-1}
+# Version 19.1{#release-19-1}
 
 ## ![](assets/do-not-localize/limited_2.png) Version 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 
@@ -43,7 +43,7 @@ _16 décembre 2020_
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d&#39;authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth avec Campaign sera abandonné le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés.
 
 
 
@@ -78,7 +78,7 @@ _15 septembre 2020_
 **Améliorations**
 
 * Amélioration de nlsrvmod pour l&#39;utilisation du thread Apache 2.4 afin de corriger les blocages nlsrvmod.
-* Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité de transfert de fichiers avec un compte externe Azure et un chiffrement SSL. La connexion a été effectuée via HTTP au lieu de HTTPS. (NEO-26720)
+* Correction d&#39;un problème lors de l&#39;utilisation de l&#39;activité de transfert de fichiers avec un compte externe Azure et un chiffrement SSL. La connexion a été effectuée via HTTP au lieu de HTTPS. (NEO-26720)
 * Correction d&#39;un problème lié au mécanisme de cache d&#39;URL qui ne récupérait pas le libellé ou la catégorie.
 * Correction d&#39;un problème en raison duquel les URL de page miroir étaient incorrectement définies dans les diffusions par email (en raison d&#39;un contrôle incorrect des caractères ASCII). (NEO-26084)
 * La liste jarsToSkip de catalina.properties a été mise à jour afin de supprimer la référence à un fichier jar qui n’était plus utilisé (notifications iOS).
@@ -124,7 +124,7 @@ _13 août 2019_
 **Améliorations**
 
 * Correction d&#39;un problème lié à l&#39;instruction SQL &#39;SELECT COUNT&#39; qui était exécutée sur la base de données par défaut plutôt que sur la base de données FDA lors de l&#39;extraction de données dans l&#39;activité Data Management.
-* Pour améliorer les capacités de l&#39;infrastructure client, une déclaration de proxy SFTP est maintenant disponible dans le fichier de configuration du serveur.
+* Pour améliorer les capacités de l&#39;infrastructure client, une déclaration de proxy SFTP est maintenant disponible dans le fichier de configuration du serveur.
 * Correction d’un problème de blocage en raison duquel le champ **Ajouter une table liée** était vide dans l’activité de workflow **Chargement (SGBD)**. (NEO-12213)
 * Correction d&#39;un problème lié à l&#39;installation de packages midEmitter via la ligne de commande.
 * Une option d&#39;authentification a été ajoutée pour prendre en charge les identifiants OAuth dans le connecteur AC avec Microsoft Dynamics. (NEO-11982)
@@ -171,7 +171,7 @@ _30 mai 2019_
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour travailler plus efficacement en tant qu'utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter qu’à compter d’aujourd’hui le Panneau de contrôle n’est disponible que pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l’intermédiaire d’Experience Cloud dès aujourd’hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
+   <td> <p>Pour travailler plus efficacement en tant qu'utilisateur administrateur, gérez les paramètres de vos serveurs SFTP en surveillant le stockage, ajoutez des adresses IP à la liste autorisée et installez des clés SSH pour chaque instance. Veuillez noter qu’à compter d’aujourd’hui le panneau de contrôle n’est disponible que pour les clients hébergés sur AWS (<a href="https://experiencecloud.adobe.com/fr/campaign/controlpanel/">connectez-vous par l’intermédiaire d’Experience Cloud dès aujourd’hui</a>).</p> <p>Pour plus d'informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>. </p><p>Remarque : Il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign pour accéder au panneau de contrôle.</p> </td> 
   </tr> 
     <tr> 
    <td> Suivi<br /> </td> 
