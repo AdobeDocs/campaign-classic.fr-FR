@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 934964b31c4f8f869253759eaf49961fa5589bff
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**. Le mode d’authentification oAuth hérité avec Campaign sera mis hors service le 30 novembre 2021. [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
->
+>Si vous utilisez une ancienne version de l’intégration Triggers par le biais de l’authentification OAuth, **vous devez migrer vers Adobe I/O comme décrit ci-dessous**.
 >Notez que lors de ce déplacement vers [!DNL Adobe I/O], certains triggers entrants peuvent être perdus.
+>
+>L’ancien mode d’authentification oAuth avec Campaign sera abandonné le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés. [Apprenez-en davantage](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)   
+
 
 ## Conditions préalables requises {#adobe-io-prerequisites}
 
