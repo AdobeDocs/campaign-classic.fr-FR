@@ -6,10 +6,10 @@ feature: Vue d'ensemble
 role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 92ec5df08d188b6786158d85103ed858d34c6106
+source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
 workflow-type: tm+mt
-source-wordcount: '2973'
-ht-degree: 100%
+source-wordcount: '2984'
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ _22 décembre 2020_
 >
 > * Cette version s&#39;accompagne d&#39;un nouveau protocole de connexion : si vous vous connectez à Campaign via Adobe Identity Service (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console client puissent se connecter après le **30 juin 2021**.  [En savoir plus](../../technotes/ims-updates.md)
 > * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
-> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). Le mode d&#39;authentification oAuth hérité avec Campaign sera mis hors service le **30 novembre 2021**.
+> * Si vous utilisez l&#39;intégration Experience Cloud Triggers par le biais de l&#39;authentification oAuth, vous devez passer à Adobe I/O comme décrit [sur cette page](../../integrations/using/configuring-adobe-io.md). L’ancien mode d’authentification oAuth avec Campaign sera abandonné le **18 août 2021** pour les environnements hybrides et on-premise, et le **30 novembre 2021** pour les environnements hébergés.
 
 
 **Améliorations**
@@ -94,7 +94,7 @@ _11 septembre 2020_
 * Le workflow de nettoyage purge désormais les listes expirées par lots de 100 plutôt qu&#39;une par une.
 * Correction d&#39;une régression qui empêchait de modifier le nom interne d&#39;un compte externe. (NEO-27323)
 * Correction d&#39;une régression au cours d&#39;un postupgrade qui provoquait un démarrage incorrect de nlserver (logs d&#39;erreur).
-* La gestion des mises à jour pour la mémoire partagée a été améliorée. Les étapes supplémentaires requises dans la version 20.2 ne sont plus nécessaires.
+* La gestion des mises à jour pour la mémoire partagée a été améliorée. Les étapes supplémentaires requises dans la version 20.2 ne sont plus nécessaires.
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.2 - Build 9180 {#release-20-2-2-build-9180}
 
@@ -120,7 +120,7 @@ _22 juillet 2020_
 * Après le passage au [nouveau mécanisme d&#39;identifiant de séquence](https://helpx.adobe.com/fr/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence), toutes les applications web qui mettent à jour la table des destinataires sont republiées pendant le postupgrade.
 * Correction d&#39;une vulnérabilité XSS potentielle dans le contenu d&#39;une diffusion. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## ![](assets/do-not-localize/red_2.png) Version 20.2.1 - Build 9178 {#release-20-2-1-build-9178}
 
@@ -188,7 +188,7 @@ _lundi 8 juin 2020_
 
 * Correction d&#39;un problème qui empêchait le workflow technique de **nettoyage des demandes d&#39;accès à des informations personnelles** de supprimer les données de réconciliation. (NEO-25168, NEO-21004)
 
-* Correction d&#39;un problème avec l&#39;activité de **transfert de fichier** qui empêchait le fonctionnement de l&#39;authentification par clé SFTP sur Debian 9. (NEO-23183)
+* Correction d&#39;un problème avec l&#39;activité de **transfert de fichier** qui empêchait le fonctionnement de l&#39;authentification par clé SFTP sur Debian 9. (NEO-23183)
 
 **Améliorations de la compatibilité**
 
@@ -296,7 +296,7 @@ Un exemple pour Linux est disponible dans cette [page](../../configuration/using
 * Correction d&#39;un problème en raison duquel le bouton **Relancer la préparation des messages** du message ne reprenait pas la diffusion après correction d&#39;une erreur dans le workflow. (NEO-13488)
 * Correction d&#39;un problème en raison duquel les diffusions pouvaient échouer en mode mid-sourcing pendant la phase de progression alors que la cible contenait des destinataires avec des formats d&#39;email japonais. (NEO-23846)
 * Correction d&#39;un problème de conversion de fuseau horaire avec le Connecteur Snowflake (NEO-20105).
-* Correction d&#39;un problème de comptes externes, lié à l&#39;utilisation de FTP sur SSL. (NEO-20498)
+* Correction d&#39;un problème de comptes externes, lié à l&#39;utilisation de FTP sur SSL. (NEO-20498)
 * Correction d&#39;un problème qui empêchait l&#39;affichage des images sur les diffusions LINE. (NEO-23207)
 * Correction d&#39;un problème qui entraînait une erreur lors de la publication d&#39;une offre. (NEO-23312)
 * Correction d&#39;un problème lié aux notifications push en raison duquel les connexions de test fonctionnaient dans les applications mobiles, même si le certificat avait expiré. (NEO-22991)
