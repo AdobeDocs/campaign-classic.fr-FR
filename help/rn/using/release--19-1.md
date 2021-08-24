@@ -2,11 +2,8 @@
 product: campaign
 title: Notes de mise à jour de Campaign 19.1
 description: Notes de mise à jour de Campaign 19.1
-feature: null
-role: null
-level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 2a92cfc705e27332cfdf8c7357a6a03c84dc6c9f
 workflow-type: tm+mt
 source-wordcount: '3303'
 ht-degree: 98%
