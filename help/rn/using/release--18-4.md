@@ -2,11 +2,8 @@
 product: campaign
 title: Notes de mise à jour de Campaign 18.4
 description: Notes de mise à jour de Campaign 18.4
-feature: null
-role: null
-level: null
 exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 2a92cfc705e27332cfdf8c7357a6a03c84dc6c9f
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 100%
