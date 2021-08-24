@@ -5,9 +5,9 @@ description: Découvrez comment configurer le pipeline
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '914'
 ht-degree: 99%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 99%
 Les paramètres d&#39;authentification tels que l&#39;identifiant client, la clé privée et le point d&#39;entrée de l&#39;authentification sont configurés dans les fichiers de configuration de l&#39;instance.
 La liste des déclencheurs à traiter est configurée dans une option au format JSON.
 Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui envoie des emails. La campagne est configurée de sorte qu&#39;un client qui a les deux événements de déclencheur reçoive un email.
-
->[!CAUTION]
->
->Dans le cas d&#39;un déploiement hybride, vérifiez que le pipeline est configuré sur une instance mid-sourcing.
 
 ## Conditions préalables requises {#prerequisites}
 
