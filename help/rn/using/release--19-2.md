@@ -2,11 +2,8 @@
 product: campaign
 title: Version 19.2
 description: Notes de mise à jour de Campaign 19.2
-feature: null
-role: null
-level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: 2a92cfc705e27332cfdf8c7357a6a03c84dc6c9f
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 100%
@@ -42,8 +39,9 @@ _23 décembre 2020_
 >[!CAUTION]
 >
 > * Cette version s’accompagne d’un nouveau protocole de connexion : si vous vous connectez à Campaign via le Service d&#39;identités Adobe (IMS), une mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter après le **30 juin 2021**. [En savoir plus](../../technotes/ims-updates.md)
->
-> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+   >
+   > 
+* Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 
 
 
@@ -56,7 +54,7 @@ _7 février 2020_
 
 **Améliorations**
 
-* Correction d’un problème de régression lié à l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur Windows Server. (NEO-20629)
+* Correction d’un problème de régression lié à l’implémentation de la certification SSL, en raison duquel la connexion de l’utilisateur échouait sur Windows Server. (NEO-20629)
 * Correction d’un problème qui affichait un numéro de balise de version incorrect dans le menu **À propos**.
 
 ## ![](assets/do-not-localize/red_2.png) Version 19.2 - Build 9080 {#release-19-2-build-9080}
@@ -145,8 +143,8 @@ _2 décembre 2019_
    * L&#39;option **XtkCleanup_NoStats** a été améliorée pour PostgreSQL afin de mieux contrôler le comportement de l&#39;étape d&#39;optimisation du stockage du workflow de nettoyage de la base de données. [En savoir plus](../../production/using/database-cleanup-workflow.md#statistics-update)
 * Un mécanisme de verrouillage de compte a été ajouté à l&#39;API **logon()**. Il empêche toute nouvelle tentative de connexion après un certain nombre de tentatives consécutives de connexion ayant échoué pour une période donnée.
 * Une nouvelle option **Durée maximale d&#39;exécution de la personnalisation** des propriétés de diffusion permet de définir un délai d&#39;expiration pour la durée d&#39;exécution de la personnalisation. Ce mécanisme empêche que cette durée ne soit trop longue. [En savoir plus](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* L&#39;option **protocole ftp** a été ajoutée pour vous permettre d&#39;utiliser une configuration proxy pour les connexions SFTP. [En savoir plus](../../installation/using/file-res-management.md)
-* Nouvelle prise en charge de l&#39;accès par proxy à un serveur SFTP externe pour les environnements on-premise.
+* L&#39;option **protocole ftp** a été ajoutée pour vous permettre d&#39;utiliser une configuration proxy pour les connexions SFTP. [En savoir plus](../../installation/using/file-res-management.md)
+* Nouvelle prise en charge de l&#39;accès par proxy à un serveur SFTP externe pour les environnements on-premise.
 * Une barrière de sécurité spécifique a été ajoutée pour empêcher l&#39;installation de packages incompatibles avec l&#39;instance Campaign. [En savoir plus](../../installation/using/installing-campaign-standard-packages.md)
 
 _Systèmes obsolètes_
@@ -188,7 +186,7 @@ Le build 1.0.26 du SDK iOS est désormais disponible. Dans ce nouveau build, no
 * Correction d&#39;un problème qui empêchait la suppression des emails mis en quarantaine par le processus de gestion des données personnelles. (NEO-17314)
 * Correction de problèmes de débit après l&#39;upgrade vers le build 9031 avec la base de données SQL. (NEO-17558)
 * Correction d&#39;un problème qui affectait le connecteur CRM avec Salesforce. (NEO-17712)
-* Correction d&#39;un problème de timeout lors de l&#39;importation de données à partir d&#39;un SFTP externe. (NEO-19723)
+* Correction d&#39;un problème de timeout lors de l&#39;importation de données à partir d&#39;un SFTP externe. (NEO-19723)
 * Correction d&#39;un problème lors de l&#39;accès aux modèles prédictifs. (NEO-19713)
 * Correction d&#39;un problème affectant l&#39;échantillonnage aléatoire dans l&#39;activité de workflow **Partage** avec la base de données Hadoop FDA. (NEO-16636)
 * Correction d&#39;une régression sur Oracle en raison de laquelle certaines fonctions étaient considérées comme non valides après le postupgrade. (NEO-12759)
