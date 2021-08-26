@@ -6,18 +6,14 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: 46c8807a433d87a091a06fe60cf684919fddb5c6
+source-git-commit: d399c4800fe6c5b128a6ccb5fec15262cbef5ee8
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Insérer une ressource partagée{#inserting-a-shared-asset}
-
->[!CAUTION]
->
-> Experience Cloud Assets est désormais mis hors service. Pour une nouvelle mise en oeuvre, vous ne pouvez plus intégrer Experience Cloud Assets à Adobe Campaign Classic.
 
 Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées dans vos emails et landing pages de la manière suivante :
 
@@ -43,7 +39,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées
 
 1. Dans la fenêtre de sélection qui s&#39;ouvre, sélectionnez une image, puis validez.
 
-   Les images disponibles proviennent soit de votre bibliothèque Adobe Experience Cloud, soit de votre bibliothèque AEM Assets, en fonction de la configuration de votre instance Adobe Campaign. Voir la section [Configurer l’accès à Assets](../../integrations/using/configuring-access-to-assets.md).
+   Les images disponibles proviennent soit de votre bibliothèque Adobe Experience Cloud, soit de votre bibliothèque AEM Assets, en fonction de la configuration de votre instance Adobe Campaign. Pour plus d&#39;informations, consultez la section [Configurer l’accès à Assets](../../integrations/using/configuring-access-to-assets.md).
 
    ![](assets/dam_shared_image_selection.png)
 
