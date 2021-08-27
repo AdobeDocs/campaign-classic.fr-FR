@@ -3,7 +3,7 @@ product: campaign
 title: Notes de mise à jour de Campaign 19.1
 description: Notes de mise à jour de Campaign 19.1
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
+source-git-commit: d5585f0130611db399811536e80e76b61c998b9c
 workflow-type: tm+mt
 source-wordcount: '3319'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 __
 
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
-* Correction d&#39;une régression qui pouvait bloquer l&#39;export des données de workflow vers une base FDA (Teradate, Snowflake).
+* Correction d&#39;une régression qui pouvait bloquer l&#39;export des données du workflow vers une base FDA (Teradata, Snowflake).
 
 **La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
 

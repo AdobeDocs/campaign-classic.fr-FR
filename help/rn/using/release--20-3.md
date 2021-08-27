@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
+source-git-commit: d5585f0130611db399811536e80e76b61c998b9c
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 96%
@@ -169,4 +169,4 @@ Sous Linux, _apache_neolane.conf_ est maintenant installé dans le répertoire `
 * Correction d’un problème en raison duquel le serveur se bloquait lors de l’affichage des données de la cible à partir d’une activité **Partage** dans un workflow.
 * Correction d’un problème de blocage du serveur en empêchant la corruption de la mémoire lors du nettoyage de l’analyseur d’expressions. (NEO-26856)
 * Correction d’un problème dans l’activité d’enrichissement en raison duquel les utilisateurs non-administrateurs définissaient des variables de l’instance. (NEO-25653)
-* Correction d&#39;une régression qui pouvait bloquer l&#39;export des données de workflow vers une base FDA (Teradate, Snowflake).
+* Correction d&#39;une régression qui pouvait bloquer l&#39;export des données du workflow vers une base FDA (Teradata, Snowflake).
